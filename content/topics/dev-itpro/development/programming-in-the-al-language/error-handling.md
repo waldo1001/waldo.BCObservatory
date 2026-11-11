@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:03.133Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -236,7 +236,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2025 wave 2 (BC27): App version in “Copy error details”/”Share details via”](../../../../posts/yzhums-com/68174.md) (community post): "Error dialogs now display the extension version number alongside extension name"
 - [Dynamics 365 Business Central: View the last known error](../../../../posts/yzhums-com/70329.md) (community post): "Use GetLastErrorCode and GetLastErrorText methods to programmatically access error details"
 - [Dynamics 365 Business Central: GetLastErrorCode, GetLastErrorText and GetLastErrorCallStack Methods](../../../../posts/yzhums-com/75574.md) (community post): "GetLastErrorCode retrieves the error classification and is not translated to local language"
-- [20261026 - The Rollback That Wasn’t Transaction & Error Handling](../../../../videos/a3j6JjyWDv0.md) (video): "transaction handling; error handling; rollback behavior; commit semantics"
+- [20261026 - The Rollback That Wasn’t Transaction & Error Handling](../../../../videos/a3j6JjyWDv0.md) (video): "transaction handling; error handling; rollback behavior; commit semantics; try-catch patterns"
 - [What's New: Boost Your Productivity with Business Central (2024 release wave 1)](../../../../videos/RNR4wsFeedI.md) (video): "Actions for platform-generated errors; Error sharing via Teams and email"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

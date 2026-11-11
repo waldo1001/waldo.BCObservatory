@@ -2,21 +2,28 @@
 id: topic/business-central/business-functionality/set-up-business-central/import-data
 type: topic
 title: Import data
-summary: "Import data covers two ways to bring business data from other systems into Business Central: data migration extensions for QuickBooks Desktop and QuickBooks Online, and Excel files or configuration packages. It answers questions about choosing a migration route and what data can be moved."
+summary: "Importing business data into Business Central: using Excel, assisted setup guides, data migration wizards and configuration packages, and migrating from QuickBooks Desktop and QuickBooks Online. It answers questions about how to bring in customers, vendors, inventory and accounts."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:22:09.914Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: cd9dc73445af77515b55b29fb477818ad3fbf607f32cabf1b97bd66e5b38fafe
+  input_hash: f4d631f3e403cd292888650dbed40cc6107a6fd54a1446568200110b8ac5a46f
 evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages
+    title: Import Business Data into Business Central with Excel
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-quickbooks-to-business-edition
     title: Transfer data from a QuickBooks app
@@ -24,17 +31,10 @@ evidence:
     commit: null
     t: null
     quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages
-    title: Use Excel to import data
-    date: "2026-06-17"
-    commit: null
-    t: null
-    quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/across-quickbooks-to-business-edition
     - https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages
+    - https://learn.microsoft.com/dynamics365/business-central/across-quickbooks-to-business-edition
   objects:
     - object/page/1808
   features: []
@@ -65,32 +65,32 @@ narrative: generated
 
 # Import data
 
-> Import data covers two ways to bring business data from other systems into Business Central: data migration extensions for QuickBooks Desktop and QuickBooks Online, and Excel files or configuration packages. It answers questions about choosing a migration route and what data can be moved.
+> Importing business data into Business Central: using Excel, assisted setup guides, data migration wizards and configuration packages, and migrating from QuickBooks Desktop and QuickBooks Online. It answers questions about how to bring in customers, vendors, inventory and accounts.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Import data · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Import data · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes how to move existing business data into Business Central when setting up. There are two pages, and each covers a different source: a QuickBooks app, or any other finance system via Excel.
+This section covers the ways to load existing business data into Business Central when setting it up. The general page describes importing from Excel files and from other finance systems, using assisted setup guides, data migration wizards and configuration packages. It names QuickBooks, Dynamics GP and Dynamics NAV as migration sources.
 
-For QuickBooks users, built-in data migration extensions handle both QuickBooks Desktop and QuickBooks Online, and are started from assisted setup. They migrate records such as customers, vendors and inventory.
+The second page is specific to QuickBooks. It explains how built-in data migration extensions move data from QuickBooks Desktop and QuickBooks Online, including customers, vendors and inventory, through assisted setup.
 
-For other sources, the Excel page explains how to import data using Excel files or configuration packages. The default configuration package supports 27 tables covering master data and transactions. Start with the QuickBooks page if you come from QuickBooks, otherwise start with the Excel page.
+Start with the Excel and general import page to choose a method based on your source system. Then go to the QuickBooks page if you are coming from QuickBooks.
 
 ## Key points
 
+- Data can be imported from Excel files and from other finance systems.
+- Tools include assisted setup guides, data migration wizards and configuration packages.
+- Data types named include customers, vendors, inventory and accounts.
+- The Excel add-in is listed as one import route.
+- Migration is described for QuickBooks, Dynamics GP and Dynamics NAV.
 - QuickBooks Desktop and QuickBooks Online are both supported through built-in data migration extensions.
-- The QuickBooks migration is started from assisted setup.
-- QuickBooks migration covers customers, vendors and inventory.
-- Excel import suits data from other finance systems.
-- Data can be imported using Excel files or configuration packages.
-- The default configuration package supports 27 tables for master data and transactions.
-- The Excel page also touches on data transformation and master data migration.
+- QuickBooks migration is started from assisted setup and covers customers, vendors and inventory.
 
 ## Learn pages
 
+- [Import Business Data into Business Central with Excel](https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages): Learn how to prepare business data in Excel, import it through Business Central configuration packages, and validate the data before applying it.
 - [Transfer data from a QuickBooks app](https://learn.microsoft.com/dynamics365/business-central/across-quickbooks-to-business-edition): Migrate your customers, vendors, inventory items, and general ledger accounts from QuickBooks Desktop or Online to Dynamics 365 Business Central.
-- [Use Excel to import data](https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages): Use the default configuration package to add customer data in Excel and import the data back into Business Central.
 
 ## Business Central pages and reports
 

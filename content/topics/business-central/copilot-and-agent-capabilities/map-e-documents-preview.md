@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:20.721Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -47,6 +47,8 @@ links:
     - video/z1H6nQCEIeY
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10631
 learn_toc_path:
   - Copilot and agent capabilities
   - Map E-Documents (preview)
@@ -93,10 +95,11 @@ Start with the how-to page to understand the workflow, then read the FAQ for the
 - [FAQ for mapping e-documents with purchase orders](https://learn.microsoft.com/dynamics365/business-central/faqs-map-edocuments): This FAQ provides information about the AI technology used in Business Central, key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 - [Map e-documents to purchase order lines with Copilot](https://learn.microsoft.com/dynamics365/business-central/map-edocuments-with-copilot): Learn about how to use Copilot to map e-documents to purchase order lines.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "E-Document, AgentDesignExperience, Sales Order Agent, Shopify, Sustainability"
 - [E-invoice Matching with Copilot in Dynamics 365 Business Central (2024)](../../../videos/CoQH7Z-leVE.md) (video): "E-invoice Matching with Copilot in Dynamics 365 Business Central"
 - [What's New: Enhanced Purchase Order Matching with Copilot (2025 release wave 1)](../../../videos/D56EVy3JgHA.md) (video): "Enhanced Purchase Order Matching with Copilot"
 - [Introducing: E-Invoice Matching with Copilot (2024 release wave 1)](../../../videos/z1H6nQCEIeY.md) (video): "Introducing: E-Invoice Matching with Copilot (2024 release wave 1)"

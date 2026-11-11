@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/12084",
+  "input_hash": "7e9b8b0cda4420a1e4bfaacb596fb75ea327e20f7d39a7a61e993b9f3a9fbd97",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-11T00:57:28.137Z",
+  "issues": [
+    "Matches the description: a new telemetry codeunit and Discovered, Set up and Used signals, with missing earlier states sent first.",
+    "behavior_change false is acceptable because the PR states functional output is not altered."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02167,
+    "changes_in_call": 5
+  }
+}

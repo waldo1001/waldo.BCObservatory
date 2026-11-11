@@ -2,33 +2,33 @@
 id: topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client
 type: topic
 title: Troubleshooting in the client
-summary: Troubleshooting in the Business Central client covers tools for inspecting pages, understanding error dialogs, viewing database locks and table information, finding missing indexes, discovering events, exporting report data, and profiling performance. It also covers personalization, role customization, permissions, and on-premises mobile app issues.
+summary: "Troubleshooting in the Business Central client covers in-client diagnostic tools: page inspection, error dialogs, database locks, table information, missing indexes, event discovery, report dataset export, and the Performance Profiler. It also covers page customization, personalization, permissions and on-premises mobile app issues."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:19:25.371Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 61dfa9dcc108824aadbc8543902a374a3b112371df72c89c80f117528100fb44
+  input_hash: a2f2fa1ed074e959fa3793bcc3adf3ea2190231494a29cd99eff0c92c30cb021
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel
-    title: Analyzing report data with Excel and XML
-    date: "2024-09-09"
+    title: Analyze Report Datasets with Excel and XML
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage
-    title: Customizing Pages for Roles
-    date: "2024-06-13"
+    title: Customize Pages for Profiles
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -48,8 +48,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-inspect-page
-    title: Inspecting pages in Business Central
-    date: "2025-10-16"
+    title: Inspect Pages in Business Central
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -98,14 +98,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks
     title: View Database Locks
-    date: "2021-06-14"
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information
-    title: View table information
-    date: "2025-02-21"
+    title: View Table Information
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -223,24 +223,28 @@ narrative: generated
 
 # Troubleshooting in the client
 
-> Troubleshooting in the Business Central client covers tools for inspecting pages, understanding error dialogs, viewing database locks and table information, finding missing indexes, discovering events, exporting report data, and profiling performance. It also covers personalization, role customization, permissions, and on-premises mobile app issues.
+> Troubleshooting in the Business Central client covers in-client diagnostic tools: page inspection, error dialogs, database locks, table information, missing indexes, event discovery, report dataset export, and the Performance Profiler. It also covers page customization, personalization, permissions and on-premises mobile app issues.
 
-Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting.md) > Troubleshooting in the client · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting.md) > Troubleshooting in the client · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects tools and pages that help developers, administrators, and advanced users diagnose problems from within the Business Central client. They fall into a few groups: diagnosing errors and performance, examining data and the database, and adjusting what users see and can do.
+This section collects tools that developers, administrators and support staff use from within the Business Central client. Diagnostic pages include Inspect Pages, the error dialog with its AL call stack and session ID, Database Locks, Table Information and missing index suggestions. The Performance Profiler subtopic covers recording and analyzing business process performance.
+
+Other pages support development and setup work. Events discoverability uses the Event Recorder to find events and generate AL snippets. Report datasets can be exported to Excel or XML for inspection. Permission sets, profile-based page customization and user personalization control what users can access and see. A separate page covers mobile app issues on-premises.
+
+Start with Understanding the error dialog or Inspect Pages for a specific user-reported problem. Use the Performance Profiler, Database Locks, Table Information and Missing indexes pages for slow performance or lock timeouts.
 
 ## Key points
 
-- Understanding the error dialog explains the Copy Details section, AL call stacks, and the Application Insights session ID for investigating user errors.
-- Performance Profiler subtopic: record and analyze business process performance, read call trees, schedule profiling for specific users and activity types, and share or download profiles.
-- Inspecting pages shows page design, elements, and data sources, with Visual Studio Code integration and permission control.
-- View Database Locks shows a snapshot of current locks to troubleshoot transaction blocking, and View table information shows record counts, data and index sizes, and compression types.
-- Missing indexes uses SQL Server Dynamic Management Views to suggest equality, inequality, and include columns.
-- Analyzing report data with Excel and XML exports report datasets, metadata, and filter information as data-only Excel or XML.
-- Events discoverability uses the Event Recorder to capture events during a scenario and produce AL snippets for subscribers.
-- Personalizing the workspace, customizing pages for roles, defining granular permissions with security filters, and fixing on-premises mobile app issues (icon fonts, device date, client type errors) are also covered.
+- Performance Profiler: record and analyze business process performance, read call trees and time spent, schedule profiling for specific users and activity types, and share or download profiles.
+- Error dialog: the Copy Details section includes the AL call stack and the Application Insights session ID.
+- Database Locks page shows granted and waiting lock requests, with user, session and executing AL code, to diagnose lock timeouts.
+- Table Information page shows record counts, data sizes, index sizes and compression types.
+- Missing indexes page suggests indexes (equality, inequality and include columns) based on SQL Server Dynamic Management Views (2025 release wave 1).
+- Event Recorder captures events during a scenario and produces AL snippets for event subscribers.
+- Report datasets can be exported to Excel (data only) or XML, with a Report Metadata worksheet.
+- Page inspection shows page design, elements and data sources, with Visual Studio Code integration and permission control.
 
 ## Subtopics
 
@@ -248,13 +252,13 @@ This section collects tools and pages that help developers, administrators, and 
 
 ## More Learn pages
 
-- [Analyzing report data with Excel and XML](https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel): Learn how to use Excel and XML to analyze a report dataset.
-- [Customizing Pages for Roles](https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage): Learn how to customize the user interface for a profile (role) so that all users assigned that role see a customized workspace.
+- [Analyze Report Datasets with Excel and XML](https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel): Learn how to export Business Central report datasets to Excel or XML, inspect raw report data, and give users permission to export datasets.
+- [Customize Pages for Profiles](https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage): Learn how to customize the user interface for a profile (role) so that all users assigned that role see a customized workspace.
 - [Define granular permissions](https://learn.microsoft.com/dynamics365/business-central/ui-define-granular-permissions): This article describes how to define granular permissions and assign each user the permission sets that they need to do their jobs.
   - In the observatory: [Page 1 "Company Information"](../../../../objects/page/1.md), [Page 9852 "Effective Permissions"](../../../../objects/page/9852.md), [Page 9871 "Security Groups"](../../../../objects/page/9871.md), [Table 9001 "User Group Member"](../../../../objects/table/9001.md), [Table 9003 "User Group Permission Set"](../../../../objects/table/9003.md)
 - [Events discoverability](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-events-discoverability): Using the Event Recorder, you can record the events that are published and raised while performing the actions of your scenario.
   - In the observatory: [Page 9845 "Event Recorder"](../../../../objects/page/9845.md)
-- [Inspecting pages in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-inspect-page): Use page inspection feature to view page design and data source details. Ideal for troubleshooting and understanding data in Business Central.
+- [Inspect Pages in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-inspect-page): Use page inspection in Business Central to identify page and table details, troubleshoot data, and manage access to inspection information.
 - [Missing indexes in Business Central databases](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/database-missing-indexes): Learn about missing indexes and the database missing indexes page.
   - Status: Generally available in 2025 release wave 1 version 26.0 and later
   - Database Missing Indexes page shows suggested index columns based on query patterns including equality, inequality, and include columns
@@ -266,8 +270,8 @@ This section collects tools and pages that help developers, administrators, and 
 - [Personalize your workspace](https://learn.microsoft.com/dynamics365/business-central/ui-personalization-user): Learn how to customize the user interface and personalize your workspace to suit your way of working and personal preferences in Business Central.
 - [Troubleshooting the Business Central Mobile App On-Premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app): Find help for resolving problems with the Business Central web, tablet, and phone clients when you run Business Central on-premises.
 - [Understanding the error dialog](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-error-dialog): Understand the different parts the error dialog to be able to help mitigate issues for users
-- [View Database Locks](https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks): Learn how you can view information about customer database locks right from the client interface in Business Central.
-- [View table information](https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information): Learn how you can view information about the database tables in Business Central.
+- [View Database Locks](https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks): View a snapshot of database locks in Business Central to identify affected tables, sessions, users, and available details about the executing AL code.
+- [View Table Information](https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information): View table information in Business Central to check record counts, data and index sizes, and compression when you troubleshoot database performance.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 

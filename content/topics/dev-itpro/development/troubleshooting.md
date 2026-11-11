@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:11.040Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,8 +48,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel
-    title: Analyzing report data with Excel and XML
-    date: "2024-09-09"
+    title: Analyze Report Datasets with Excel and XML
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -62,8 +62,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage
-    title: Customizing Pages for Roles
-    date: "2024-06-13"
+    title: Customize Pages for Profiles
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -96,16 +96,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages
-    title: Inspecting pages
-    date: "2026-09-18"
+    url: https://learn.microsoft.com/dynamics365/business-central/across-inspect-page
+    title: Inspect Pages in Business Central
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/across-inspect-page
-    title: Inspecting pages in Business Central
-    date: "2025-10-16"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages
+    title: Inspecting pages
+    date: "2026-09-18"
     commit: null
     t: null
     quote: null
@@ -224,14 +224,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks
     title: View Database Locks
-    date: "2021-06-14"
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information
-    title: View table information
-    date: "2025-02-21"
+    title: View Table Information
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null

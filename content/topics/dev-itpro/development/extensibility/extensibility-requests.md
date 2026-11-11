@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,6 +127,6 @@ Three pages deal with the IsHandled pattern. "Using the IsHandled pattern" expla
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11580 [Extensibility Request] issue 29654: customize document rejection response](../../../../changes/bcapps/11580.md) (code change): "customize document rejection response. Workflow Setup now offers an overloaded method"
-- [Dynamics 365 Business Central: Create an extensibility request on BCApps (ALAppExtensions is being retired)](../../../../posts/yzhums-com/75294.md) (community post): "extensibility requests including event requests must now be submitted through BCApps"
+- [Dynamics 365 Business Central: Create an extensibility request on BCApps (ALAppExtensions is being retired)](../../../../posts/yzhums-com/75294.md) (community post): "extensibility requests including event requests moving to BCApps"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

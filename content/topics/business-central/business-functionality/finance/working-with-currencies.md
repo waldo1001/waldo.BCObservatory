@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:31.746Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -54,6 +54,7 @@ links:
     - change/bcapps/10216
     - change/bcapps/10459
     - change/bcapps/10717
+    - change/bcapps/10755
     - change/bcapps/10808
     - change/bcapps/10893
     - change/bcapps/10969
@@ -131,6 +132,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10216 Fix Purchase Journal document amount decimal formatting](../../../../changes/bcapps/10216.md) (code change): "Document Amount field uses Currency Code as its auto-format expression"
 - [#10459 Bug 647298: Incorrect currency conversion rates for new currencies](../../../../changes/bcapps/10459.md) (code change): "Currency exchange rates in the Contoso demo dataset were corrected"
 - [#10717 Enable amount formatting with currency symbols](../../../../changes/bcapps/10717.md) (code change): "Amount formatting now supports displaying currency symbols or ISO codes"
+- [#10755 Migrate Http Web Request Mgt. callers to native HttpClient](../../../../changes/bcapps/10755.md) (code change): "currency exchange rate updates, external accountant invitations"
 - [#10808 [master] Adjustment Amount is not accurate in the Exch. Rate Adjmt. Ledger Entries page if an Unrealized Gain gest registered and a second adjustment turns into a Loss.](../../../../changes/bcapps/10808.md) (code change): "correctly calculates adjustment amounts in exchange rate adjustment ledger entries"
 - [#10893 Bug 648568: [29.x] Incorrect currency conversion rates for new currencies](../../../../changes/bcapps/10893.md) (code change): "Currency exchange rates in the demo dataset have been corrected to resolve inaccurate conversion values"
 - [#10969 [MAIN][All-e]Source Currency Inconsistency for LCY Postings and cash posting on sales documents](../../../../changes/bcapps/10969.md) (code change): "Source currency is now consistently applied to local currency postings and cash posting"

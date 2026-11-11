@@ -1,7 +1,7 @@
 ---
 id: video/Ug_uM59DRRE
 type: video
-title: Demo or Disaster? How to build better Business Central demos?
+title: 20260914 - Demo or Disaster? How to build better Business Central demos?
 summary: Building Business Central demo data with Microsoft's Contoso Coffee framework and an open source Demo Data Generator that creates AL modules from existing data. Evidence for the module codeunit pattern, what the generator automates (about 80 percent) and what stays manual.
 tier: community
 language: en
@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:18:49.369Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-11T00:54:03.655Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -229,7 +229,7 @@ quotes:
     check: fuzzy
 ---
 
-# Demo or Disaster? How to build better Business Central demos?
+# 20260914 - Demo or Disaster? How to build better Business Central demos?
 
 > Building Business Central demo data with Microsoft's Contoso Coffee framework and an open source Demo Data Generator that creates AL modules from existing data. Evidence for the module codeunit pattern, what the generator automates (about 80 percent) and what stays manual.
 

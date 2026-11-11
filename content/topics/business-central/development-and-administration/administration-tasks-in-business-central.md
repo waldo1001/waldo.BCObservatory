@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,7 +21,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-faq
     title: Access with Microsoft 365 Licenses FAQ
-    date: "2023-09-28"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -42,7 +42,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license
     title: Business Central Access with Microsoft 365 Licenses
-    date: "2026-06-17"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -125,8 +125,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-inspect-page
-    title: Inspecting pages in Business Central
-    date: "2025-10-16"
+    title: Inspect Pages in Business Central
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -210,7 +210,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-setup
     title: Set Up Access with Microsoft 365 Licenses
-    date: "2024-08-12"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -231,28 +231,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-archive-data
     title: The Data Archive Extension
-    date: "2023-01-30"
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-flow
     title: User Access Flow for Microsoft 365 Licenses
-    date: "2022-11-03"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks
     title: View Database Locks
-    date: "2021-06-14"
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information
-    title: View table information
-    date: "2025-02-21"
+    title: View Table Information
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -385,7 +385,6 @@ links:
   changes:
     - change/bcapps/9400
     - change/bcapps/9716
-    - change/bcapps/9953
 learn_toc_path:
   - Development and administration
   - Administration tasks in Business Central
@@ -542,7 +541,7 @@ Start with "Administrative tasks in Business Central" for an overview of the cor
 - [Enabling upcoming features ahead of time](https://learn.microsoft.com/dynamics365/business-central/admin-feature-management): Learn how to enable select, optional features before they become mandatory.
 - [Expose objects as web services](https://learn.microsoft.com/dynamics365/business-central/across-how-publish-web-service): Publish objects as web services to make them immediately available for your Business Central solution.
 - [Extend your trial version of Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-extend-trial): If you need more time to decide whether to subscribe to Dynamics 365 Business Central, you can extend your trial version once. Learn about your options.
-- [Inspecting pages in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-inspect-page): Use page inspection feature to view page design and data source details. Ideal for troubleshooting and understanding data in Business Central.
+- [Inspect Pages in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-inspect-page): Use page inspection in Business Central to identify page and table details, troubleshoot data, and manage access to inspection information.
 - [Manage database index usage](https://learn.microsoft.com/dynamics365/business-central/manage-indexes): Learn how to manage database indexes in Business Central to optimize performance, reduce storage costs, and improve write operations with enhanced tools.
 - [Onboarding Checklists for Business Central Users](https://learn.microsoft.com/dynamics365/business-central/admin-checklist): Configure onboarding checklists in Business Central by selecting tasks, assigning roles or users, and setting completion requirements and task order.
 - [Privacy Notices Status in Business Central](https://learn.microsoft.com/dynamics365/business-central/privacy-notices-status): An overview of the Privacy Notices Status page in Business Central
@@ -552,7 +551,7 @@ Start with "Administrative tasks in Business Central" for an overview of the cor
 - [Specify a Default Printer](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Learn about the different ways to set up printers to be used by default for print jobs.
   - In the observatory: [Page 2616 "Printer Management"](../../../objects/page/2616.md), [Page 64 "Printer Selections"](../../../objects/page/64.md)
 - [Specify available languages in your environment](https://learn.microsoft.com/dynamics365/business-central/admin-allowed-languages): Learn how to build a list of the languages that are available in your Business Central environment.
-- [View table information](https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information): Learn how you can view information about the database tables in Business Central.
+- [View Table Information](https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information): View table information in Business Central to check record counts, data and index sizes, and compression when you troubleshoot database performance.
 
 ## Videos, posts and code changes
 
@@ -560,7 +559,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#9400 Route early preview feedback to the correct OCV area](../../../changes/bcapps/9400.md) (code change): "Early Access Preview feedback now routes to the correct OCV feedback area"
 - [#9716 Expose AppService location and EUDB membership on Environment Information for internal consumption](../../../changes/bcapps/9716.md) (code change): "Environment Information now exposes App Service location and EU Data Boundary membership"
-- [#9953 Rename AppSource UI text to Marketplace](../../../changes/bcapps/9953.md) (code change): "User-facing captions, tooltips, labels and instructional text now say Marketplace"
 - [Dynamics 365 Business Central 2026 Wave 1. What’s New in Performance.](../../../posts/duiliotacconi-com/1983.md) (community post): "enable or disable database indexes directly in the UI, available per company"
 - [Business Central 2026 Release Wave 2: Turn SIFT Indexes On or Off](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9.md) (community post): "administrators can now turn SIFT indexes on or off directly"
 - [Manage Database Index Usage in Business Central.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c.md) (community post): "Administrators can view index details (name, size, usage statistics, enabled status)"

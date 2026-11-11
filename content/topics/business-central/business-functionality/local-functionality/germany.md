@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:12.562Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -231,6 +231,8 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/9078
+    - change/bcapps/9347
     - change/bcapps/9690
     - change/bcapps/9955
 learn_toc_path:
@@ -321,6 +323,8 @@ Start with the Germany local functionality page for an overview and the planned 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#9078 Bug 624364: Intrastat DE groups detail lines by Country/Region of Origin](../../../../changes/bcapps/9078.md) (code change): "German Intrastat export now groups detail lines by both Tariff"
+- [#9347 Fix IssueDate in E-Documents for Germany](../../../../changes/bcapps/9347.md) (code change): "Fixed the IssueDate field in German E-Document exports"
 - [#9690 Add XRechnung structured format reader for inbound e-documents](../../../../changes/bcapps/9690.md) (code change): "Add XRechnung structured format reader for inbound e-documents"
 - [#9955 XRechnung – Invalid XML Generated When Invoice Discount Percentage Exceeds 2 Decimals](../../../../changes/bcapps/9955.md) (code change): "XRechnung – Invalid XML Generated When Invoice Discount Percentage Exceeds 2 Decimals."
 

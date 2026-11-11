@@ -145,143 +145,143 @@
     "573255": {
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-approve-reports.md@ed406eabf16dc696": {
         "verdict": "keep",
-        "reason": "Approvers review compliance warnings and policy issue evaluation during approval, which is the approver-guidance part of the feature.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Approver page covers reviewing compliance warnings and policy issues during approval, part of this feature's approver guidance.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-overview.md@22e0ea1082245014": {
         "verdict": "drop",
-        "reason": "A general Expense Agent overview that only mentions policy compliance checks.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "General Expense Agent overview only lists policy compliance as a module feature.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-policy-compliance.md@5baba922dac40e13": {
         "verdict": "keep",
-        "reason": "Explains AI evaluation of natural-language policies that flags potential policy issues.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Documents AI-assisted policy evaluation with background evaluation after submission and non-compliant flagging.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-approve-reports.md@1f45cc1f3227bb04": {
         "verdict": "drop",
-        "reason": "Covers rule violation detection and VAT review, not AI evaluation of natural-language policies.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Generic approval page mentioning rule violations, not AI evaluation of natural-language policies.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-categories-rules.md@371711c7d5364c33": {
         "verdict": "keep",
-        "reason": "Documents setting up the natural-language expense policies that the AI evaluates.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Covers setting up expense policies with AI evaluation, the natural-language policy configuration this feature uses.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-setup.md@b05b520074189001": {
         "verdict": "keep",
-        "reason": "The setup page includes the AI policy evaluation setting together with the approval workflow.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Setup page includes enabling AI-assisted policy evaluation, a setting of this feature.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-submit-report.md@bc3c0f398897d31d": {
         "verdict": "drop",
-        "reason": "Covers report creation and deterministic rule violation review before submission.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "About creating and submitting reports and deterministic rule violations, not AI-driven approval checks.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
-      "video/4TE8uwIi91k#6@e7b02b5de2a4bbd4": {
+      "video/ARKckFygbWQ#6@ee52f918d959bc18": {
         "verdict": "drop",
-        "reason": "Describes mobile app approval, which is a different capability.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Generic compliance determination from rules and settings, too general to show AI natural-language policy approvals.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/cVfZoDwKYpI#46@b12d4e66f615e2c7": {
         "verdict": "keep",
-        "reason": "Shows natural-language policies such as when business class can be booked and hotel eligibility, as in the feature.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Explains natural-language policies for business class, hotel and alcohol scenarios that this feature evaluates.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/cVfZoDwKYpI#9@b12d4e66f615e2c7": {
         "verdict": "drop",
-        "reason": "Too general a description of a policy and rules engine.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Generic policy and rules engine description, too general to tie to this feature.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/egE6UdOfar0#6@7d8c675d2687bc19": {
         "verdict": "drop",
-        "reason": "Describes deterministic threshold rules, not natural-language AI policies.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Describes deterministic compliance rules like maximum amounts and daily limits, not natural-language policies.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/egE6UdOfar0#7@7d8c675d2687bc19": {
         "verdict": "keep",
-        "reason": "Announces the planned policy-based approval mechanism for complex conditions like business class travel.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Announces the planned policy-based approval mechanism for business class, hotel and alcohol policies.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/M0IzeLSn7qU#0@ebdf2cffeba1a5d7": {
         "verdict": "keep",
-        "reason": "Shows AI-driven approval policies that flag expenses for approvers without blocking approval.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Directly demonstrates AI-driven approval policies that flag expenses for approvers without blocking approval.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/o94V_lF8oNM#0@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Shows the toggle that turns on AI analysis of free-text policies to help approvers.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Shows the toggle to evaluate free-text policies with AI to help approvers decide.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/o94V_lF8oNM#1@bb33c215eabcc2f5": {
         "verdict": "drop",
-        "reason": "A pre-submission check by the submitter, which differs from post-submission validation for approvers.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Pre-submission checks by the submitter are a different capability from post-submission approver validation.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/o94V_lF8oNM#2@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Shows the flagged-policy status that marks reports needing approver attention.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Shows the flagged-policy status that marks potential non-compliance for approver attention.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/o94V_lF8oNM#3@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Shows AI analyzing free-text policies by category against submitted expenses.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Shows AI analyzing free-text category policies against submitted expenses.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/o94V_lF8oNM#4@bb33c215eabcc2f5": {
         "verdict": "drop",
-        "reason": "A submitter-initiated check before submission, not the post-submission approval validation.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Submitter-initiated pre-submission check, not the post-submission approval validation.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/o94V_lF8oNM#6@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Explains how policy evaluation is redone when an expense changes, which is a behavior of the feature.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Explains how policy evaluation behaves when expenses change, which is part of this feature's evaluation.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/o94V_lF8oNM#7@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Covers approvers overriding AI policy flags with a recorded reason, which is part of the approval review.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Covers approvers overriding policy violations with reasons, part of keeping approvers in control.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/o94V_lF8oNM#8@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Explains when AI policy checks run, which is a behavior of the policy validation.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Describes how the AI policy check skips runs when no policies are set or nothing has changed.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/pjML7lXSsd0#2@e7c0638dcaf3f932": {
         "verdict": "keep",
-        "reason": "Describes the approval workflow in which the agent checks compliance against human-language policies.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "States the agent checks compliance against human-language policies during approval.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/qZALauRY_So#0@d587f11310a2bc0d": {
         "verdict": "drop",
-        "reason": "Describes the general approval workflow and notifications, not AI policy validation.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Generic approval workflow introduction without AI policy validation.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/qZALauRY_So#1@d587f11310a2bc0d": {
         "verdict": "drop",
-        "reason": "Describes AI suggestions before submission, which is a different stage.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Describes AI suggestions before submission, not post-submission approval validation.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/qZALauRY_So#4@d587f11310a2bc0d": {
         "verdict": "drop",
-        "reason": "Covers approval notifications only.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Approval notifications are unrelated to AI policy validation.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/qZALauRY_So#5@d587f11310a2bc0d": {
         "verdict": "drop",
-        "reason": "Covers rejecting or sending back reports only.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Reject and send-back flow is generic approval functionality.",
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/tj1vvsmAMVs#5@8bff31977f8f95e5": {
         "verdict": "keep",
         "reason": "Shows AI checking expenses against human-readable travel policies.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "at": "2026-11-11T00:53:59.977Z"
       },
       "video/tj1vvsmAMVs#6@8bff31977f8f95e5": {
         "verdict": "keep",
-        "reason": "Shows non-compliant expenses being flagged to help approvers decide, without hard blocking.",
-        "at": "2026-10-30T08:01:09.894Z"
+        "reason": "Shows flagging of non-compliant expenses to inform approvers without hard blocking.",
+        "at": "2026-11-11T00:53:59.977Z"
       }
     },
     "573256": {
@@ -1307,208 +1307,208 @@
     "573312": {
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-configuration-trace.md@b6d86fa30c97c4d4": {
         "verdict": "drop",
-        "reason": "Configuration telemetry is general MCP topic, not custom data queries.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Configuration telemetry; does not describe custom data query tools.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-server-trace.md@76b2ef9f35f9c38b": {
         "verdict": "drop",
-        "reason": "Tool call telemetry does not describe the data query tools.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Generic tool-call telemetry, not the data query capability.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md@594338000aff45d5": {
         "verdict": "drop",
-        "reason": "AL development MCP server is a different product.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "AL development MCP server, a different product.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-22-1.md@e4e00f23ab2d0f9c": {
         "verdict": "drop",
         "reason": "Unrelated 2023 update.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/4HE3BBCcV84#0@a9c47d55aa434947": {
         "verdict": "drop",
-        "reason": "Exposing existing API queries is a different capability than custom data queries without APIs.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Exposing existing API queries is a different, earlier capability.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/4HE3BBCcV84#2@a9c47d55aa434947": {
         "verdict": "drop",
-        "reason": "Selecting existing analytics API queries in configuration is a different capability.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Selecting existing API queries in configuration, not defining custom queries.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
-      "video/AMVAiPTfSrU#1@d594f5705e966159": {
+      "video/B9VbZzC2p7E#0@787ec256b6908244": {
         "verdict": "drop",
-        "reason": "General MCP server overview.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "SQL agent in spreadsheets, not MCP query tools.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/C5cmG3sNjUg#0@dc724b8ce76af8c3": {
         "verdict": "drop",
-        "reason": "Describes API exposure, not custom queries.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "General MCP server over APIs.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/C5cmG3sNjUg#3@dc724b8ce76af8c3": {
         "verdict": "drop",
-        "reason": "Dynamic tool search is a different capability.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Dynamic tool search over API pages, a different capability.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/EpDIrJE0HzA#1@21321fae0c1fa1d7": {
         "verdict": "drop",
-        "reason": "General MCP explanation.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "General MCP introduction.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/EpDIrJE0HzA#2@21321fae0c1fa1d7": {
         "verdict": "drop",
-        "reason": "MCP configurations page is a different capability.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "MCP configurations page, not data query tools.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/GeT5E_f9A9Q#0@be56261481e721e3": {
         "verdict": "drop",
-        "reason": "Configurations for API exposure, not data queries.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Named configurations for API exposure, a different capability.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/GeT5E_f9A9Q#1@be56261481e721e3": {
         "verdict": "drop",
-        "reason": "Dynamic tool mode is a different capability.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Dynamic tool mode, a different capability.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/GeT5E_f9A9Q#3@be56261481e721e3": {
         "verdict": "drop",
-        "reason": "Bound actions are a different capability.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Bound actions on API pages, a different capability.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/GK6hM-nBYZk#1@389cdb7bd9e37f0c": {
         "verdict": "drop",
-        "reason": "General MCP server mention.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "General MCP mention.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/IDYhxt-8ImI#22@7ab728d0a7abc892": {
         "verdict": "drop",
         "reason": "General MCP explanation.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/iViHfCgL2L8#0@b4735c7cd0586a45": {
         "verdict": "drop",
         "reason": "General MCP server introduction.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/iViHfCgL2L8#2@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Default read-only configuration is a different capability.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Default read-only configuration, a different capability.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/iViHfCgL2L8#3@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Write scenario configurations are a different capability.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Write configurations, not query tools.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/LerAo-GGl8U#0@bad4154ca6e36eb9": {
         "verdict": "drop",
-        "reason": "Admin MCP server is a different product.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Admin MCP server, a different product.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/mBU2Iu0urw8#18@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "AL development MCP server is different.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "AL development MCP, a different product.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/mBU2Iu0urw8#34@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "AL development MCP tooling is different.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "AL development MCP tools, a different product.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/mBU2Iu0urw8#8@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "AL development MCP servers are different.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "AL development MCP servers, a different product.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/q3xnjJD32kk#4@8159e1ae25b35be5": {
         "verdict": "keep",
-        "reason": "Directly describes agents constructing and running queries via MCP tools without APIs.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Describes agents building and running queries through MCP tools without APIs.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/qs1cg-GoDeQ#0@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Find tables tool is part of the data query tool set.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Find tables tool belongs to the new data query tool set.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/qs1cg-GoDeQ#1@e6991223be0c260e": {
         "verdict": "keep",
         "reason": "Table relations tool supports writing join queries in the data query feature.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/qs1cg-GoDeQ#2@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Table schema tool is part of the data query tool set.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Table schema tool belongs to the data query tool set.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/qs1cg-GoDeQ#3@e6991223be0c260e": {
         "verdict": "keep",
         "reason": "Data query tool runs AL queries directly without APIs.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/qs1cg-GoDeQ#4@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Describes agents constructing and compiling AL queries for ad hoc analysis.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Explains agents building and compiling AL queries for ad hoc analysis.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/rm-FstU_I80#0@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "General MCP server overview.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "General MCP server description.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/rm-FstU_I80#10@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Static configuration for writes is different.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Static configuration for write scenarios, a different capability.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/rm-FstU_I80#11@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Default read-only access is different.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Default read-only access, a different capability.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/rm-FstU_I80#14@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Search/describe/invoke tools are a different capability.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Search/describe/invoke tools, not custom data queries.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/rm-FstU_I80#15@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Natural language data retrieval via existing APIs, not custom query tools.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Generic natural-language data retrieval through APIs, not custom query tools.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/rm-FstU_I80#19@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Validate here refers to API related entity exposure, not query validation.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Validate for related API entities, not validating custom queries.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/rm-FstU_I80#2@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP tools component.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/rm-FstU_I80#22@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Exposing existing queries via configuration differs from defining custom queries.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Exposing existing queries through configuration is a different capability.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/rm-FstU_I80#23@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Page and API selection is different.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Page/API selection, a different capability.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/rm-FstU_I80#6@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP description.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/rm-FstU_I80#9@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Dynamic tool configuration is different.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Dynamic tool configuration, a different capability.",
+        "at": "2026-11-11T00:53:53.815Z"
       },
       "video/x0XF0lBvgEE#2@b58c3bf367517517": {
         "verdict": "keep",
-        "reason": "Announces the Run Data Queries with MCP Server feature.",
-        "at": "2026-11-08T00:54:03.979Z"
+        "reason": "Announces the Run data queries with MCP Server feature by name.",
+        "at": "2026-11-11T00:53:53.815Z"
       }
     },
     "573313": {
@@ -1923,52 +1923,52 @@
       "docs/learn-devitpro/dev-itpro/developer/devenv-analysis-view-package.md@6dfb24b9d017bb2b": {
         "verdict": "drop",
         "reason": "About packaging analysis views in AL extensions, not system audit fields.",
-        "at": "2026-10-30T08:02:58.933Z"
+        "at": "2026-11-11T00:53:36.224Z"
       },
       "docs/learn-smb-docs/business-central/analysis-mode.md@675e6a4f9d6c79ee": {
         "verdict": "drop",
         "reason": "General analysis mode documentation with no mention of system audit fields.",
-        "at": "2026-10-30T08:02:58.933Z"
+        "at": "2026-11-11T00:53:36.224Z"
       },
-      "video/Afv-r-eDt90#3@19828a3acb0e0da2": {
+      "video/Afv-r-eDt90#3@e51c1b28c0471285": {
         "verdict": "drop",
         "reason": "About adding analysis views to profiles, a different capability from system audit fields.",
-        "at": "2026-10-30T08:02:58.933Z"
+        "at": "2026-11-11T00:53:36.224Z"
       },
       "video/H7R_m8Ue38g#0@dfd016e4945deec0": {
         "verdict": "keep",
         "reason": "Explains how system audit fields become flow fields that can be added to pages, which supports adding them directly to pages.",
-        "at": "2026-10-30T08:02:58.933Z"
+        "at": "2026-11-11T00:53:36.224Z"
       },
       "video/H7R_m8Ue38g#1@dfd016e4945deec0": {
         "verdict": "keep",
         "reason": "Shows administrators adding system audit fields to pages through profile customization.",
-        "at": "2026-10-30T08:02:58.933Z"
+        "at": "2026-11-11T00:53:36.224Z"
       },
       "video/H7R_m8Ue38g#2@dfd016e4945deec0": {
         "verdict": "keep",
         "reason": "Shows system audit fields used directly in analysis mode.",
-        "at": "2026-10-30T08:02:58.933Z"
+        "at": "2026-11-11T00:53:36.224Z"
       },
       "video/Sh3ySQSTw-o#8@e4496cd7c1ef9d3b": {
         "verdict": "keep",
         "reason": "Announces system fields such as created by and modified on appearing in analysis mode column pickers.",
-        "at": "2026-10-30T08:02:58.933Z"
+        "at": "2026-11-11T00:53:36.224Z"
       },
       "video/Sh3ySQSTw-o#9@e4496cd7c1ef9d3b": {
         "verdict": "keep",
         "reason": "Announces system fields being included in profiles through the page designer.",
-        "at": "2026-10-30T08:02:58.933Z"
+        "at": "2026-11-11T00:53:36.224Z"
       },
       "video/ZpzZ6El8GXY#0@0b984cdcd651aeb9": {
         "verdict": "keep",
         "reason": "Announces using system audit fields in analysis tabs and views.",
-        "at": "2026-10-30T08:02:58.933Z"
+        "at": "2026-11-11T00:53:36.224Z"
       },
       "video/ZpzZ6El8GXY#3@0b984cdcd651aeb9": {
         "verdict": "keep",
         "reason": "Shows system audit fields added to pages in the page designer for profiles.",
-        "at": "2026-10-30T08:02:58.933Z"
+        "at": "2026-11-11T00:53:36.224Z"
       }
     },
     "573323": {
@@ -2827,38 +2827,38 @@
     "573338": {
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-agent-tools-overview.md@4448762e851657a8": {
         "verdict": "keep",
-        "reason": "The page lists an 'AL LSP server' feature for agent-based AL development, which is the capability this roadmap feature adds.",
-        "at": "2026-10-30T08:02:11.915Z"
+        "reason": "The page lists the AL LSP server as one of the tools available to AI agents, which is part of this feature.",
+        "at": "2026-11-11T00:53:44.900Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-language-model-tools-vscode.md@dc07ded4333f6f1b": {
         "verdict": "drop",
-        "reason": "It covers the VS Code language model tools (build, publish, debug), not the standalone AL language server.",
-        "at": "2026-10-30T08:02:11.915Z"
+        "reason": "It only covers the language model tools inside VS Code and never mentions a standalone language server or LSP.",
+        "at": "2026-11-11T00:53:44.900Z"
       },
-      "video/ADXkUFI_VWI#2@97301e0d3884864d": {
+      "video/ADXkUFI_VWI#2@33468efde93083de": {
         "verdict": "drop",
-        "reason": "It describes the existing LSP link between the AL compiler and VS Code, an older capability, not the standalone server for other editors.",
-        "at": "2026-10-30T08:02:11.915Z"
+        "reason": "It explains how the existing language server talks to editors like VS Code, not the new standalone server for other clients.",
+        "at": "2026-11-11T00:53:44.900Z"
       },
       "video/D_Lur52IrIg#1@27cf5cb45e38c4b5": {
         "verdict": "keep",
-        "reason": "It announces the project-aware AL language server over LSP that is no longer tied to VS Code.",
-        "at": "2026-10-30T08:02:11.915Z"
+        "reason": "It announces the project-aware AL language server over LSP, no longer tied to VS Code, which is this feature.",
+        "at": "2026-11-11T00:53:44.900Z"
       },
       "video/K8nFVw5M-Po#0@4e70e6c78bacc14e": {
         "verdict": "drop",
-        "reason": "It covers code generation in VS Code agent mode, not the language server.",
-        "at": "2026-10-30T08:02:11.915Z"
+        "reason": "It is about agent mode generating AL code inside VS Code, not about using the language server in other tools.",
+        "at": "2026-11-11T00:53:44.900Z"
       },
       "video/mBU2Iu0urw8#23@58e64b6744a3f5f9": {
         "verdict": "keep",
-        "reason": "It explains AL LSP endpoints (go to definition, references, formatting, rename) that give agents semantic understanding.",
-        "at": "2026-10-30T08:02:11.915Z"
+        "reason": "It explains how the AL LSP gives agents go to definition, find references, formatting and renaming, which this feature adds.",
+        "at": "2026-11-11T00:53:44.900Z"
       },
       "video/UFLo2XGGS14#4@022c4252c5c9fc07": {
         "verdict": "keep",
         "reason": "It announces that the language server protocol is now available to agents for resolving definitions, references and symbols.",
-        "at": "2026-10-30T08:02:11.915Z"
+        "at": "2026-11-11T00:53:44.900Z"
       }
     },
     "573339": {
@@ -2896,70 +2896,40 @@
       }
     },
     "573341": {
-      "video/B-pxLlb-UN0#11@8bba2b4ec9abd436": {
+      "video/B-pxLlb-UN0#11@cc24d2defe813a6e": {
         "verdict": "drop",
-        "reason": "Describes the earlier upgrade to API 2026-01, not the July 2026 API uptake this feature adds.",
-        "at": "2026-11-01T00:40:57.720Z"
+        "reason": "This covers the earlier upgrade to the January 2026 API in wave 1, not the July 2026 API upgrade this feature adds.",
+        "at": "2026-11-11T00:53:45.232Z"
       },
       "video/lClKXB8xXIE#1@4e7a21afb4ccda5e": {
         "verdict": "drop",
-        "reason": "Request IDs in log entries are an older 2023 troubleshooting capability, not part of this feature.",
-        "at": "2026-11-01T00:40:57.720Z"
+        "reason": "Request IDs in log entries are a 2023 troubleshooting feature, not part of this feature.",
+        "at": "2026-11-11T00:53:45.232Z"
       },
       "video/lClKXB8xXIE#10@4e7a21afb4ccda5e": {
         "verdict": "drop",
-        "reason": "Explains Shopify's general quarterly versioning policy in a 2023 video, not this release's API update.",
-        "at": "2026-11-01T00:40:57.720Z"
+        "reason": "This 2023 segment only explains how Shopify versions its API in general, not this release's July 2026 upgrade.",
+        "at": "2026-11-11T00:53:45.232Z"
       },
       "video/lClKXB8xXIE#2@4e7a21afb4ccda5e": {
         "verdict": "drop",
-        "reason": "User error section in log responses is an older 2023 capability.",
-        "at": "2026-11-01T00:40:57.720Z"
+        "reason": "The user error section in log responses is an older 2023 capability, not this feature's With errors view or cues.",
+        "at": "2026-11-11T00:53:45.232Z"
       },
       "video/lClKXB8xXIE#4@4e7a21afb4ccda5e": {
         "verdict": "drop",
-        "reason": "Log retention policies are an older capability not mentioned in this feature.",
-        "at": "2026-11-01T00:40:57.720Z"
+        "reason": "Log retention policies are an older, different capability.",
+        "at": "2026-11-11T00:53:45.232Z"
       },
       "video/lClKXB8xXIE#6@4e7a21afb4ccda5e": {
         "verdict": "drop",
-        "reason": "User errors in product queries are an older 2023 change, not the skipping of invalid unit-of-measure combinations.",
-        "at": "2026-11-01T00:40:57.720Z"
+        "reason": "User errors returned in product queries are an older 2023 change, not skipping invalid unit-of-measure combinations.",
+        "at": "2026-11-11T00:53:45.232Z"
       },
       "video/p-pwG6f5srY#4@fa5e45737e3ae6af": {
         "verdict": "drop",
-        "reason": "Covers the earlier upgrade to API 2024-07, an older capability.",
-        "at": "2026-11-01T00:40:57.720Z"
-      },
-      "video/StIVhsnOHWY#1@18f1d38e63ae8872": {
-        "verdict": "drop",
-        "reason": "Logging mode options came in 2025 wave 2 and are not the new With errors view or cues.",
-        "at": "2026-11-01T00:40:57.720Z"
-      },
-      "video/StIVhsnOHWY#14@18f1d38e63ae8872": {
-        "verdict": "drop",
-        "reason": "Has error field on orders to import is an older capability.",
-        "at": "2026-11-01T00:40:57.720Z"
-      },
-      "video/StIVhsnOHWY#15@18f1d38e63ae8872": {
-        "verdict": "drop",
-        "reason": "Inspecting received order data is an older troubleshooting capability.",
-        "at": "2026-11-01T00:40:57.720Z"
-      },
-      "video/StIVhsnOHWY#2@18f1d38e63ae8872": {
-        "verdict": "drop",
-        "reason": "Customer validation skip notices are an older capability, not the item unit-of-measure skipping.",
-        "at": "2026-11-01T00:40:57.720Z"
-      },
-      "video/StIVhsnOHWY#3@18f1d38e63ae8872": {
-        "verdict": "drop",
-        "reason": "General log entry details from 2025 wave 2 don't cover this feature's additions.",
-        "at": "2026-11-01T00:40:57.720Z"
-      },
-      "video/StIVhsnOHWY#9@18f1d38e63ae8872": {
-        "verdict": "drop",
-        "reason": "Error columns in the product list are an older capability, not part of this feature.",
-        "at": "2026-11-01T00:40:57.720Z"
+        "reason": "This covers the older upgrade to the 2024-07 API, not the July 2026 API upgrade.",
+        "at": "2026-11-11T00:53:45.232Z"
       }
     },
     "573342": {
@@ -3123,72 +3093,72 @@
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-22-2.md@31ac973f029315a6": {
         "verdict": "drop",
         "reason": "Announces the original 22.2 Shopify returns synchronization, an older capability, not exchange handling.",
-        "at": "2026-11-09T00:40:39.574Z"
+        "at": "2026-11-11T00:53:36.230Z"
       },
       "docs/learn-smb-docs/business-central/shopify/synchronize-orders.md@ad50a3dbcfa31249": {
         "verdict": "drop",
         "reason": "General order sync page that only lists returns and refunds processing without describing exchanges or moving negative lines.",
-        "at": "2026-11-09T00:40:39.574Z"
+        "at": "2026-11-11T00:53:36.230Z"
       },
       "video/3tmaVpPTQLw#19@61cd8e61943d79ab": {
         "verdict": "drop",
         "reason": "Cancel order action is a different capability.",
-        "at": "2026-11-09T00:40:39.574Z"
+        "at": "2026-11-11T00:53:36.230Z"
       },
       "video/3tmaVpPTQLw#21@61cd8e61943d79ab": {
         "verdict": "drop",
         "reason": "Describes 2024 order editing with refunds, an older capability, not the exchange/return processing added here.",
-        "at": "2026-11-09T00:40:39.574Z"
+        "at": "2026-11-11T00:53:36.230Z"
       },
       "video/3tmaVpPTQLw#22@61cd8e61943d79ab": {
         "verdict": "drop",
         "reason": "Older 2024 credit memo filtering for zero-value refunds, not exchange items on credit memos or return orders.",
-        "at": "2026-11-09T00:40:39.574Z"
+        "at": "2026-11-11T00:53:36.230Z"
       },
       "video/3tmaVpPTQLw#24@61cd8e61943d79ab": {
         "verdict": "drop",
         "reason": "Older 2024 re-sync action for order edits, a different capability.",
-        "at": "2026-11-09T00:40:39.574Z"
+        "at": "2026-11-11T00:53:36.230Z"
       },
       "video/3tmaVpPTQLw#26@61cd8e61943d79ab": {
         "verdict": "drop",
         "reason": "Older 2024 automatic credit memo creation for edit refunds, not exchange handling.",
-        "at": "2026-11-09T00:40:39.574Z"
+        "at": "2026-11-11T00:53:36.230Z"
       },
       "video/3tmaVpPTQLw#27@61cd8e61943d79ab": {
         "verdict": "drop",
         "reason": "Older 2024 edit-and-refund processing for paid orders, not the exchange feature.",
-        "at": "2026-11-09T00:40:39.574Z"
+        "at": "2026-11-11T00:53:36.230Z"
       },
       "video/5OZ0g5IgC8Q#7@3b6f6d5fea2f5bae": {
         "verdict": "drop",
         "reason": "About applying tax matching to refund documents, not exchanges or moving negative lines.",
-        "at": "2026-11-09T00:40:39.574Z"
+        "at": "2026-11-11T00:53:36.230Z"
       },
-      "video/B-pxLlb-UN0#10@8bba2b4ec9abd436": {
+      "video/B-pxLlb-UN0#10@cc24d2defe813a6e": {
         "verdict": "drop",
         "reason": "Only an API field change for return information, too general to tie to exchange processing.",
-        "at": "2026-11-09T00:40:39.574Z"
+        "at": "2026-11-11T00:53:36.230Z"
       },
       "video/p-pwG6f5srY#7@fa5e45737e3ae6af": {
         "verdict": "drop",
         "reason": "Return location priority setting is a different capability.",
-        "at": "2026-11-09T00:40:39.574Z"
+        "at": "2026-11-11T00:53:36.230Z"
       },
       "video/p-pwG6f5srY#8@fa5e45737e3ae6af": {
         "verdict": "drop",
         "reason": "Shipping charge item charge mapping is unrelated.",
-        "at": "2026-11-09T00:40:39.574Z"
+        "at": "2026-11-11T00:53:36.230Z"
       },
       "video/YSDfDjrMUb0#11@383757c6496e1047": {
         "verdict": "keep",
         "reason": "Describes support for Shopify exchanges and returns that produce multiple lines on sales documents, the core of this feature.",
-        "at": "2026-11-09T00:40:39.574Z"
+        "at": "2026-11-11T00:53:36.230Z"
       },
       "video/YSDfDjrMUb0#12@383757c6496e1047": {
         "verdict": "keep",
         "reason": "Shows processing refunds as return orders with positive and negative quantity lines, matching the exchange behavior.",
-        "at": "2026-11-09T00:40:39.574Z"
+        "at": "2026-11-11T00:53:36.230Z"
       }
     },
     "573344": {
@@ -4519,35 +4489,45 @@
     "573375": {
       "docs/learn-smb-docs/business-central/service-service-posting.md@7631b50c8712916d": {
         "verdict": "keep",
-        "reason": "The service posting page lists sustainability value chain tracking as part of posting service shipments, invoices and consumption, which is part of this feature.",
-        "at": "2026-11-01T00:40:46.054Z"
+        "reason": "The service posting page lists sustainability value chain tracking as part of posting service documents, which is part of this feature.",
+        "at": "2026-11-11T00:53:43.148Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-service.md@0bea0ee058844289": {
         "verdict": "keep",
-        "reason": "It documents CO2e tracking for items and resources on service documents and the value entries created at posting, which is exactly this feature.",
-        "at": "2026-11-01T00:40:46.054Z"
+        "reason": "It directly documents CO2e tracking for items and resources on service documents and the sustainability entries created when they are posted.",
+        "at": "2026-11-11T00:53:43.148Z"
       },
       "video/JoGW2xlIq0I#4@95b48d89d0d03acc": {
         "verdict": "drop",
-        "reason": "It covers emissions calculation on assembly orders, a different capability from Service Management.",
-        "at": "2026-11-01T00:40:46.054Z"
+        "reason": "It covers emissions calculated on assembly orders, a different capability from Service Management.",
+        "at": "2026-11-11T00:53:43.148Z"
       },
       "video/JoGW2xlIq0I#7@95b48d89d0d03acc": {
         "verdict": "drop",
-        "reason": "It covers assembly emissions showing on sales invoices, not on service documents.",
-        "at": "2026-11-01T00:40:46.054Z"
+        "reason": "It covers assembly emissions shown on sales invoices, not on service documents.",
+        "at": "2026-11-11T00:53:43.148Z"
+      },
+      "video/Sc8eGyMkBTA#2@66065a06d447af10": {
+        "verdict": "drop",
+        "reason": "It shows the resource sustainability FastTab for the projects value chain feature, not service document emissions.",
+        "at": "2026-11-11T00:53:43.148Z"
       }
     },
     "573376": {
       "docs/learn-smb-docs/business-central/finance-sustainability-accounts-ledger.md@e7f402e71aa45c64": {
         "verdict": "keep",
-        "reason": "The Learn page explicitly lists entry reversal for sustainability ledger entries among the capabilities it documents.",
-        "at": "2026-10-30T08:03:10.290Z"
+        "reason": "The Learn page lists entry reversal among its documented sustainability ledger features, which is this capability.",
+        "at": "2026-11-11T00:53:48.928Z"
+      },
+      "video/_ynMUzh956w#3@2e9b1f36e27e6884": {
+        "verdict": "drop",
+        "reason": "It only describes posted sustainability ledger entries in general, with no mention of reversal.",
+        "at": "2026-11-11T00:53:48.928Z"
       },
       "video/t_UXxbvgnHY#5@13bd58c8ea9ff88a": {
         "verdict": "keep",
-        "reason": "The video segment announces the reverse action for sustainability ledger entries created from journals, which is this feature.",
-        "at": "2026-10-30T08:03:10.290Z"
+        "reason": "It announces the reverse action for sustainability ledger entries, limited to entries posted from journals, which matches the feature.",
+        "at": "2026-11-11T00:53:48.928Z"
       }
     },
     "573377": {
@@ -4746,178 +4726,168 @@
     "573384": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-page-scripting.md@638c3b095ba19407": {
         "verdict": "keep",
-        "reason": "Learn page documents the page scripting tool including multiple row selection, a new capability of this feature.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Learn page documents the page scripting tool including multiple row selection, a capability added by this feature.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
       "video/_JkZCp64jNw#54@82c883e9340b4ac6": {
         "verdict": "drop",
-        "reason": "About AL-Go page scripting test import, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "About AL-Go import of page scripting tests, not the GA release or its new capabilities.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
       "video/2isrH3RcSK8#42@a72c6e38b59092be": {
         "verdict": "drop",
-        "reason": "Describes pipeline execution from 2024 wave 2, not GA, multi-select, or dialog validation.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Describes pipeline execution, a different earlier capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
       "video/5GoAzII20L0#0@b899523c02851044": {
         "verdict": "drop",
-        "reason": "General tool description in a CI/CD pipelines video; too general.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "General tool description in a pipelines video; not about GA or new capabilities.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
       "video/5GoAzII20L0#1@b899523c02851044": {
         "verdict": "drop",
-        "reason": "Describes the standalone replayer for pipelines, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "About the bc-replay pipeline replayer, a different capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/Aqi8Uq2bQyI#0@765c59dd96dbd988": {
+      "video/B8cWQGwajwQ#0@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Only a general description of the tool without GA, multi-select, or dialog validation details.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Preview-era introduction of the tool, an older capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#0@172284f842a28068": {
+      "video/B8cWQGwajwQ#1@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Describes the 2024 preview introduction of the tool, an older release.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Preview-era control validation steps, not dialog message text validation.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#1@172284f842a28068": {
+      "video/B8cWQGwajwQ#10@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Preview-era field validation steps, not the new dialog-text validation.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Preview-era UI collapsing feature, not part of this GA feature.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#10@172284f842a28068": {
+      "video/B8cWQGwajwQ#11@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Preview-era UI collapsing feature, unrelated to GA additions.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Preview-era Power FX expressions, different capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#11@172284f842a28068": {
+      "video/B8cWQGwajwQ#12@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Preview-era Power FX expressions, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Preview-era wait steps, different capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#12@172284f842a28068": {
+      "video/B8cWQGwajwQ#13@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Preview-era wait steps, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Preview-era script parameters, different capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#13@172284f842a28068": {
+      "video/B8cWQGwajwQ#14@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Preview-era script parameters, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Preview-era include/suites, different capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#14@172284f842a28068": {
+      "video/B8cWQGwajwQ#15@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Preview-era include command, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Single-line filter selection in preview, not multi-row selection.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#15@172284f842a28068": {
+      "video/B8cWQGwajwQ#16@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Filter-based single list selection in preview, not multi-row selection.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Pipeline execution, different capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#16@172284f842a28068": {
+      "video/B8cWQGwajwQ#2@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Pipeline execution, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Preview-era YAML persistence, older capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#17@172284f842a28068": {
+      "video/B8cWQGwajwQ#3@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Preview limitations, not this feature's capabilities.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Preview-era playback controls, older capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#18@172284f842a28068": {
+      "video/B8cWQGwajwQ#4@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Preview limitations about control identification, not dialog text validation.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Preview-era run-to-step, older capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#2@172284f842a28068": {
+      "video/B8cWQGwajwQ#5@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "YAML persistence from preview, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Preview-era link sharing, older capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#3@172284f842a28068": {
+      "video/B8cWQGwajwQ#6@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Preview playback controls, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Preview-era clipboard, older capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#5@172284f842a28068": {
+      "video/B8cWQGwajwQ#7@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Preview playback link sharing, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Preview-era session info pasting, older capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#6@172284f842a28068": {
+      "video/B8cWQGwajwQ#8@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Preview clipboard feature, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Preview-era conditional branches, older capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
-      "video/B8cWQGwajwQ#7@172284f842a28068": {
+      "video/B8cWQGwajwQ#9@26dea849ad4d0f77": {
         "verdict": "drop",
-        "reason": "Preview session info pasting, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
-      },
-      "video/B8cWQGwajwQ#8@172284f842a28068": {
-        "verdict": "drop",
-        "reason": "Preview conditional branches, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
-      },
-      "video/B8cWQGwajwQ#9@172284f842a28068": {
-        "verdict": "drop",
-        "reason": "Preview optional pages, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Preview-era optional pages, older capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
       "video/c91E6IykUnk#5@5c8b19f6639f30df": {
         "verdict": "drop",
-        "reason": "Playwright screenshot generation, unrelated to this feature.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Mentions page scripting only incidentally for screenshot generation.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
       "video/H5EuObmeF4o#21@56c1d175230d9e97": {
         "verdict": "drop",
-        "reason": "2025 wave 2 enhancements (step deletion, parameters UI), a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Describes 2025 wave 2 enhancements (step deletion, UI parameters, suites), not this feature.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
       "video/kCTYPb5t5XQ#2@91fbb3a0623a70e3": {
         "verdict": "drop",
-        "reason": "AL-Go test visualizer, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "AL-Go test result visualization, different capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
       "video/KnyS6ZKI_2c#0@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "2025 wave 2 step modification, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Step modification enhancement, a different capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
       "video/KnyS6ZKI_2c#1@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "2025 wave 2 parameters UI editing, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Parameters UI editing, a different capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
       "video/KnyS6ZKI_2c#2@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "2025 wave 2 test suites UI, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Test suite UI creation, a different capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
       "video/KnyS6ZKI_2c#3@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "2025 wave 2 include script step, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Include script step, a different capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
       "video/KnyS6ZKI_2c#4@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "For-each row iteration is not multi-row selection.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "For-each row iteration, not multi-row selection or dialog validation.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
       "video/KnyS6ZKI_2c#5@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "Expression-based conditional branching, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Expression-based conditional, a different capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       },
       "video/KnyS6ZKI_2c#6@78d3bcda824e542f": {
         "verdict": "drop",
         "reason": "Server-side headless replay, a different capability.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "at": "2026-11-11T00:53:54.189Z"
       },
       "video/tzeO0mc8RJo#25@065597581ae2ee24": {
         "verdict": "drop",
-        "reason": "2024 introduction of the tool, an older release.",
-        "at": "2026-11-08T00:54:24.336Z"
+        "reason": "Introduces the preview tool in 2024 wave 1, an older capability.",
+        "at": "2026-11-11T00:53:54.189Z"
       }
     },
     "574126": {
@@ -5088,148 +5058,128 @@
     "576789": {
       "docs/learn-devitpro/dev-itpro/ai/configure-mcp-server.md@2b7e63587e430db7": {
         "verdict": "keep",
-        "reason": "Learn page documents configurations exposing API pages and queries, including Data Query Tools.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "Learn page documents MCP access through API pages and queries, including Data Query Tools, which covers the API query support.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
-      "video/0WAOtNaKjws#5@da9ac1c54f2885b1": {
+      "video/AMVAiPTfSrU#1@6e413b7b22b1e256": {
         "verdict": "drop",
-        "reason": "MCP resources protocol support is a different capability.",
-        "at": "2026-11-05T00:49:50.772Z"
-      },
-      "video/0WAOtNaKjws#6@da9ac1c54f2885b1": {
-        "verdict": "drop",
-        "reason": "Embedded file resources are a different capability.",
-        "at": "2026-11-05T00:49:50.772Z"
-      },
-      "video/2u5_F9Ztt7U#1@e9a246217da99451": {
-        "verdict": "drop",
-        "reason": "File support via MCP resources is a different capability.",
-        "at": "2026-11-05T00:49:50.772Z"
-      },
-      "video/4HE3BBCcV84#2@e14a25e2a17a52c1": {
-        "verdict": "keep",
-        "reason": "Shows selecting query object type to expose analytics API queries in MCP configuration.",
-        "at": "2026-11-05T00:49:50.772Z"
-      },
-      "video/AMVAiPTfSrU#1@d594f5705e966159": {
-        "verdict": "drop",
-        "reason": "General mention of the MCP server without this enhancement.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "General description of the MCP server with no mention of the expanded API set or API queries.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/C5cmG3sNjUg#0@dc724b8ce76af8c3": {
         "verdict": "drop",
-        "reason": "General description of the original MCP server, not the new all-Microsoft-APIs/query enhancement.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "General introduction to the MCP server from an earlier series, not the new expansion to all Microsoft APIs.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/C5cmG3sNjUg#6@dc724b8ce76af8c3": {
         "verdict": "drop",
-        "reason": "Discover additional objects setting is an existing, different capability.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "Discover Additional Objects is a separate, earlier setting, not the all-APIs or API query capability.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/EpDIrJE0HzA#1@21321fae0c1fa1d7": {
         "verdict": "drop",
-        "reason": "General MCP explanation.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "General explanation of MCP only.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/EpDIrJE0HzA#2@21321fae0c1fa1d7": {
         "verdict": "drop",
-        "reason": "Describes the MCP configurations page in general, not the expanded API/query access.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "Describes the original MCP Configurations page, not the expanded API or query support.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/GeT5E_f9A9Q#0@be56261481e721e3": {
         "verdict": "drop",
-        "reason": "General configuration capability, not the new API/query coverage.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "Describes configurations in general, not this feature's additions.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/GeT5E_f9A9Q#1@be56261481e721e3": {
         "verdict": "drop",
-        "reason": "Dynamic tool mode is a different feature.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "Dynamic tool mode is a different capability.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/GeT5E_f9A9Q#2@be56261481e721e3": {
         "verdict": "drop",
-        "reason": "Discover additional objects is a different feature.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "Discover Additional Objects is a different, earlier capability.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/GeT5E_f9A9Q#3@be56261481e721e3": {
         "verdict": "drop",
         "reason": "Bound actions are a different capability.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/H5EuObmeF4o#1@56c1d175230d9e97": {
         "verdict": "drop",
-        "reason": "General 2025 wave 2 MCP server introduction.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "General MCP server announcement from 2025 wave 2.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/IDYhxt-8ImI#22@7ab728d0a7abc892": {
         "verdict": "drop",
-        "reason": "General MCP explanation.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "General description of MCP.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/IDYhxt-8ImI#23@7ab728d0a7abc892": {
         "verdict": "drop",
-        "reason": "General Copilot Studio agent usage of MCP.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "General Copilot Studio agent scenario.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/iViHfCgL2L8#0@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Introduction of the original MCP server.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "Initial MCP server introduction, too general.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/K8nFVw5M-Po#15@4e70e6c78bacc14e": {
         "verdict": "drop",
-        "reason": "Documentation MCP server is a different product.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "The documentation MCP server is a different product.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/K8nFVw5M-Po#17@4e70e6c78bacc14e": {
         "verdict": "drop",
-        "reason": "Custom MCP servers for Vibe Coding are unrelated.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "Custom MCP servers for vibe coding are unrelated.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/LerAo-GGl8U#0@bad4154ca6e36eb9": {
         "verdict": "drop",
-        "reason": "Admin MCP server is a different product.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "The admin MCP server is a different capability.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/q3xnjJD32kk#4@8159e1ae25b35be5": {
         "verdict": "drop",
-        "reason": "Running queries without APIs is a different, later capability.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "Agents building queries without APIs is a different capability from API queries in configurations.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/rm-FstU_I80#0@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP server description.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/rm-FstU_I80#20@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Connection string feature is different.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "Connection string reuse is a different feature.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/rm-FstU_I80#27@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Custom APIs for custom fields, not standard Microsoft APIs or queries.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "Custom APIs for custom fields are not about exposing Microsoft APIs or API queries.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/rm-FstU_I80#6@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP server description.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/UIL8ej7mSKQ#6@ac155d6baa339527": {
         "verdict": "drop",
-        "reason": "General 2025 wave 2 MCP server announcement.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "General MCP server announcement from 2025 wave 2.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/zei-IszvYNU#0@244b151f1ad40262": {
         "verdict": "keep",
-        "reason": "Announces all Microsoft published APIs available in the MCP server.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "Directly announces that all Microsoft published APIs are now available in the MCP server.",
+        "at": "2026-11-11T00:54:03.647Z"
       },
       "video/zei-IszvYNU#2@244b151f1ad40262": {
         "verdict": "keep",
-        "reason": "Shows new API groups exposing the broader Microsoft API set, including analytics.",
-        "at": "2026-11-05T00:49:50.772Z"
+        "reason": "Shows the new API groups that let users configure the newly available Microsoft APIs, which is part of the feature.",
+        "at": "2026-11-11T00:54:03.647Z"
       }
     },
     "576792": {

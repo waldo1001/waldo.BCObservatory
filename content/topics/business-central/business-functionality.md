@@ -11,7 +11,7 @@ review:
   at: "2026-11-10T00:57:46.433Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -222,8 +222,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-comments
-    title: Add comments to cards and documents
-    date: "2025-10-16"
+    title: Add Comments to Cards and Documents
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -1072,6 +1072,7 @@ links:
     - object/page/6250
     - object/page/6285
     - object/page/6287
+    - object/page/6520
     - object/page/6560
     - object/page/6620
     - object/page/6622
@@ -1931,7 +1932,7 @@ children:
   - topic/business-central/business-functionality/design-details
 coverage:
   learn: 1718
-  code: 1573
+  code: 1574
   video: 0
   blog: 0
   guideline: 0
@@ -2867,6 +2868,7 @@ bc_forms:
   - 6287
   - 6298
   - 6299
+  - 6520
   - 6560
   - 6620
   - 6622
@@ -4672,6 +4674,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 6250 "Data Sync Status"](../../objects/page/6250.md) · via [Relationship management](business-functionality/relationship-management.md)
 - [Page 6285 "Sust. Excise Jnl. Templates"](../../objects/page/6285.md) · captioned "Excise Journal Templates" · on [Table 6238 "Sust. Excise Journal Template"](../../objects/table/6238.md) · via [Finance](business-functionality/finance.md)
 - [Page 6287 "Sustainability Excise Journal"](../../objects/page/6287.md) · captioned "Excise Journal" · on [Table 6240 "Sust. Excise Jnl. Line"](../../objects/table/6240.md) · via [Finance](business-functionality/finance.md)
+- [Page 6520 "Item Tracing"](../../objects/page/6520.md) · on [Table 6520 "Item Tracing Buffer"](../../objects/table/6520.md) · via [Inventory](business-functionality/inventory.md)
 - [Page 6560 "Document Line Tracking"](../../objects/page/6560.md) · on [Table 265 "Document Entry"](../../objects/table/265.md) · via [General business functionality](business-functionality/general-business-functionality.md)
 - [Page 6620 "Blanket Sales Order Archive"](../../objects/page/6620.md) · on [Table 5107 "Sales Header Archive"](../../objects/table/5107.md) · via [Sales](business-functionality/sales.md)
 - [Page 6622 "Blanket Sales Order Archives"](../../objects/page/6622.md) · on [Table 5107 "Sales Header Archive"](../../objects/table/5107.md) · via [Sales](business-functionality/sales.md)

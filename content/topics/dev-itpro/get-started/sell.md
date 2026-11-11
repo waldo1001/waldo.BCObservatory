@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:25:04.817Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -19,8 +19,8 @@ generated:
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-customizing-overview
-    title: Customizing Business Central
-    date: "2021-06-23"
+    title: Customize Business Central
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -123,7 +123,7 @@ The pages fit together along the sales path. Start with the reseller guide for p
 
 ## Learn pages
 
-- [Customizing Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-customizing-overview): Read about the different ways of customizing Business Central to improve access to functionality and features you need most as suits your daily work.
+- [Customize Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-customizing-overview): Read about the different ways of customizing Business Central to improve access to functionality and features you need most as suits your daily work.
 - [Get started as a reseller of Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/get-started-online): Learn about how to get started as a reselling partner of Dynamics 365 Business Central online, how to become a partner, and how to onboard customers.
   - Prerequisite: Resellers must have a Microsoft Partner ID and enroll in the Cloud Solution Provider program to sell Business Central online.
   - Resellers access Microsoft go-to-market benefits, marketing assets, and branding resources through Partner Network.

@@ -1,37 +1,24 @@
 {
   "hub_id": "topic/business-central/get-started/get-productive-in-business-central/share-business-data",
-  "input_hash": "dae6fde19903c648f83e588590725ed4fee9d7fb549227b9c1bd24cb2512baf8",
-  "summary": "Sharing Business Central data with others through links, Microsoft Teams, OneDrive and Excel. It answers questions about copying links, sharing records to Teams, opening files in OneDrive, and viewing or editing list data in Excel.",
-  "overview": "This section covers the ways to get Business Central data in front of other people or into other tools. The options are sharing page links, sharing records in Microsoft Teams, opening and sharing files in OneDrive, and working with list data in Excel.\n\nThe \"Sharing data\" page is the overview. It lists the available features: copy link, share to Teams, OneDrive sharing, open in Excel, and copy and paste. Start there to pick the method that fits your task. Then go to the detailed pages for Teams, OneDrive or Excel.\n\nThe Teams page covers interactive cards and direct page links. The OneDrive page covers opening files in online applications and controlling who can access them. The Excel page covers exporting list data for analysis, or editing it and publishing changes back to Business Central.",
+  "input_hash": "867d654064ac1528f57123ec4bc33ca852f39fb41ce03059005559d34b074798",
+  "summary": "Sharing business data from Business Central: copying links, sharing records to Microsoft Teams, opening and sharing files in OneDrive, and viewing or editing lists in Excel. It answers how-to questions about each sharing method and when to use it.",
+  "overview": "This section describes the ways users can get Business Central data in front of other people or into other Microsoft 365 apps. It starts with an overview page that lists the main methods: copy link, share to Teams, share through OneDrive, open in Excel, and copy rows or tables, including filtered views.\n\nThree pages go deeper. One covers sharing records and page links in Teams as interactive cards. One covers opening Business Central files in OneDrive and sharing them with specific people or by link. One covers exporting and editing lists in Excel with the Open in Excel and Edit in Excel actions, including Copilot in Excel.\n\nStart with the overview page to pick a method, then go to the page for that method.",
   "key_points": [
-    "The Sharing data page gives an overview of copy link, share to Teams, OneDrive sharing, open in Excel, and copy and paste.",
-    "In Teams, you can share records as interactive cards using the Business Central app for Teams, or share direct page links in conversations.",
-    "The Share Link and Share to Teams actions send a page or record to colleagues.",
-    "Opening files in OneDrive supports opening in online applications, sharing with specific people, and managing file copies.",
-    "OneDrive sharing offers send link and copy link, with link settings and permissions to control access.",
-    "Open in Excel exports list data for analysis. Edit in Excel lets you change data and publish it back to Business Central.",
-    "Excel features include filter support, the Excel add-in, multi-environment support, and agent mode."
+    "Copy Link and Share to Teams let users send a page or record to colleagues without leaving their workflow.",
+    "In Teams, a shared Business Central card is interactive: users can view card details and edit data in Teams.",
+    "Open in OneDrive copies a file there so it can be edited in online Excel, Word, or PowerPoint.",
+    "OneDrive sharing offers the Share action, Send link, and Copy link, with access control and file version history.",
+    "Open in Excel exports a list, while Edit in Excel lets users change data and publish it back through the Excel Add-in pane.",
+    "Copilot in Excel can help with data cleaning, preparation, analysis, and multi-step workflows.",
+    "Rows or tables can be copied and shared, and filtered views can be shared."
   ],
   "members_used": 4,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:10:27.300Z",
+  "at": "2026-11-11T00:58:39.804Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.010703
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:26:15.382Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: key point 3 (Share Link and Share to Teams actions) partly repeats key point 2; they could be merged.",
-      "Minor: the summary does not mention copy and paste, though the overview and key point 1 do.",
-      "Minor: 'send a page or record to colleagues' is a mild inference from the Share Link / Share to Teams feature names, but it fits the collaboration focus of the source pages."
-    ],
-    "input_hash": "dae6fde19903c648f83e588590725ed4fee9d7fb549227b9c1bd24cb2512baf8",
-    "cost_usd": 0.032655199999999995
+    "cost_usd": 0.010673
   }
 }

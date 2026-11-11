@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/13225",
+  "input_hash": "5b875e00136ff261dd1ff6b50c55f9dbc89b253d6cf61412b7f89c14f7f8487a",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-11T00:57:28.137Z",
+  "issues": [
+    "The 'payment discount lines' wording comes from the PR title. The description talks about receivables and payables lines from unapplication.",
+    "The fallback using Source Type and Source No. and the customer and vendor tests are supported."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02167,
+    "changes_in_call": 5
+  }
+}

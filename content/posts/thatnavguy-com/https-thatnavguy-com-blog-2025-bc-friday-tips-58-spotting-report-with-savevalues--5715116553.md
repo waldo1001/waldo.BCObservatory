@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:58:01.330Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-11T00:15:47.902Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -80,7 +80,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:50:56.442Z"
+  probed_at: "2026-11-11T00:52:15.107Z"
 ---
 
 # BC Friday Tips #58 Spotting Report with SaveValues

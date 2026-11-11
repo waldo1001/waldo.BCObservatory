@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -345,6 +345,7 @@ links:
     - post/thinkaboutit-be/7813
     - post/thinkaboutit-be/8272
     - post/yzhums-com/63801
+    - post/yzhums-com/64898
     - post/yzhums-com/68873
     - post/yzhums-com/69639
     - post/yzhums-com/70369
@@ -374,7 +375,7 @@ coverage:
   learn: 261
   code: 1
   video: 2
-  blog: 17
+  blog: 18
   guideline: 0
 bc_forms:
   - 812
@@ -469,6 +470,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Quick Tip: BC28: What Is New in Document Reporting](../../../../posts/thinkaboutit-be/7813.md) (community post): "36 new API endpoints cover sales, purchasing, inventory and assembly documents"
 - [Business Central 29: More Control Over Report Layouts and New Report Inbox APIs](../../../../posts/thinkaboutit-be/8272.md) (community post): "Report Inbox APIs enable external applications and automation tools to interact with scheduled reports"
 - [Dynamics 365 Business Central Blog Series: REST API web services (APIs)](../../../../posts/yzhums-com/63801.md) (community post): "Business Central supports multiple API types: standard APIs, automation APIs, and custom APIs"
+- [Dynamics 365 Business Central: How to insert a record with a specified SystemId in AL](../../../../posts/yzhums-com/64898.md) (community post): "SystemId can be used as a binding key for APIs"
 - [Business Central 2025 wave 2 (BC27.1): Connect AI agents to Business Central through MCP server (Dynamics 365 Business Central MCP)](../../../../posts/yzhums-com/68873.md) (community post): "MCP is an open standard that lets AI agents discover and invoke Business Central operations"
 - [Dynamics 365 Business Central Blog Series: Work with dimensions](../../../../posts/yzhums-com/69639.md) (community post): "setting dimensions through the standard API; reading dimension captions in AL"
 - [Dynamics 365 Business Central: Does the API support Multi-level Expand (Multi layers)](../../../../posts/yzhums-com/70369.md) (community post): "The Business Central REST API supports multi-level expand (nested data retrieval) using nested parentheses"

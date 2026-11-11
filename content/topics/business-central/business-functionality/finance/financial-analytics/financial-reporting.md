@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/finance/financial-analytics/financial-reporting
 type: topic
 title: Financial reporting
-summary: "Financial reporting in Business Central: designing, running and auditing financial reports built from row and column definitions, account categories, dimensions and statistical accounts. It answers questions on building reports, Excel and PDF output, KPI web services, troubleshooting balances, and telemetry."
+summary: "Financial reporting in Business Central: designing, building, viewing and auditing financial reports with row and column definitions, account categories, dimensions, Excel layouts, statistical accounts and KPI web services. It answers setup, design, troubleshooting, telemetry and auditing questions."
 tier: official
 language: en
 system: reporting
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9884c3bde113f22df71fd6df5832ebcc934d4d3ff0deb41b14fb7f8ceabb9b70
+  input_hash: c4e58f9b7f6832b401676e7e22530d139085fdb2020f0508a5d38159c568af29
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/bi-how-analyze-data-dimension
@@ -91,7 +91,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-integrate-financial-reports-with-excel
     title: Integrate financial reports with Excel
-    date: "2026-10-23"
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -293,28 +293,28 @@ narrative: generated
 
 # Financial reporting
 
-> Financial reporting in Business Central: designing, running and auditing financial reports built from row and column definitions, account categories, dimensions and statistical accounts. It answers questions on building reports, Excel and PDF output, KPI web services, troubleshooting balances, and telemetry.
+> Financial reporting in Business Central: designing, building, viewing and auditing financial reports with row and column definitions, account categories, dimensions, Excel layouts, statistical accounts and KPI web services. It answers setup, design, troubleshooting, telemetry and auditing questions.
 
 Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Financial reporting · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Financial reporting lets you build reports on general ledger data, budgets, cash flow and statistical accounts. A report combines row definitions (calculations, subtotals, account categories, formatting) with column definitions (net change, balance, budget comparison, period formulas). Dimensions and analysis views let you slice the data by customer, region, product and similar characteristics.
+Financial reporting lets you build reports on general ledger data using row definitions (calculations, subtotals, account categories) and column definitions (net change, balance, budget comparisons, period formulas). Reports can be built from scratch or by copying existing ones. Walkthrough pages cover Trial Balance, Balance Sheet, Income Statement and cash flow forecast reports.
 
-Start with "Primary capabilities of financial reporting" for the overview, then "Organize report data using account categories" and "Build financial reports using financial data and account categories" for setup. "Design your own financial reports" and "Create custom financial reports" walk through the row and column definitions, including Trial Balance, Balance Sheet, Income Statement and cash flow forecast examples.
+Supporting pages cover dimension analysis and analysis views, G/L account categories, statistical accounts for non-monetary metrics such as headcount, and report selection for built-in finance reports in General Ledger Setup. Output options include on-screen viewing with drill-through, PDF and Excel export, Excel layouts, scheduling with email delivery, and KPI web services for Power BI.
 
-Further pages cover output and operations: viewing, printing, scheduling and emailing reports, Excel layouts, and KPI web services for Power BI. For control and support, see the auditing page, the two telemetry pages (lifecycle and usage), the FAQ and the troubleshooting page.
+Start with "Primary capabilities of financial reporting" for the overview, then "Design your own financial reports" and the row and column definition pages. For problems, use "Troubleshoot Financial Reporting" and the FAQ. For governance, see "Auditing and financial reporting" and the two telemetry pages.
 
 ## Key points
 
-- Reports are built from row definitions and column definitions. Rows hold formulas, totaling and formatting. Columns hold net change, balance, budget comparison and period formulas.
-- Column definitions support up to 15 columns in PDF exports.
-- G/L account categories and subcategories map accounts for balance sheet and income statement reporting. Report selection in General Ledger Setup can change the default report definitions.
-- Dimension perspectives and analysis views allow analysis by some or all dimension values, with custom totaling.
-- Reports can be viewed on screen with drill-through, exported to PDF or Excel, printed, scheduled and emailed. Excel templates can be uploaded as layouts and set as default.
-- Statistical accounts track non-transactional metrics such as headcount or square footage and can be included in reports.
-- Auditing uses the change log, telemetry, permission sets and notifications on definition changes. KQL samples cover lifecycle and usage telemetry.
-- Troubleshooting covers balancing reports to the G/L and trial balance, adding validation figures, and choosing net change or balance at date.
+- Row definitions handle calculations and subtotals that the chart of accounts cannot, with formulas, account categories, conditional display and cash flow accounts.
+- Column definitions control net change, balance, budget comparison, period formulas and percentages; PDF exports support up to 15 columns.
+- Account categories map G/L accounts to categories and subcategories to simplify balance sheet and income statement reporting.
+- Dimension perspectives and analysis views allow analysis by some or all values of a dimension, with custom totaling.
+- Reports can be viewed on-screen with drill-through, exported to PDF or Excel, printed, or scheduled with email delivery.
+- Excel integration supports downloading reports, uploading templates as layouts, and setting a default Excel layout.
+- Auditing uses the change log, telemetry, permission sets and change notifications; separate pages give KQL samples for lifecycle and usage telemetry.
+- Troubleshooting guidance covers balancing reports to the G/L, validation figures, and choosing net change versus balance at date.
 
 ## Learn pages
 

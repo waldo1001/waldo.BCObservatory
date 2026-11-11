@@ -1,7 +1,7 @@
 {
   "hub_id": "topic/dev-itpro/what-s-new-and-planned/updates-for-earlier-major-versions",
   "input_hash": "07a8c95299fac2a1ea50956a5dc702661d0b1e6bbe18f9db5039cab517cd2344",
-  "summary": "Release notes for Business Central minor updates from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1), plus preview notes for 26.0, 27.0 and 28.0. Use it to find which update introduced a feature, telemetry signal, localization change, deprecation or hotfix.",
+  "summary": "Release notes for Business Central minor updates from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1), plus a what's new page for the 26.0 major update and preview pages for 27.0 and 28.0. Use it to find which update introduced a feature, telemetry signal, localization change, deprecation or hotfix.",
   "overview": "This section is an archive of per-update release notes. Each page covers one update, such as 17.3 or 24.2, and belongs to a release wave. The pages list hotfixes, feature changes, localization updates and announcements about upcoming or mandatory changes. Three pages (26.0, 27.0 and 28.0) describe the major or preview update of a wave.\n\nThe pages run in order: 15.x (2019 wave 2), 16.x and 17.x (2020), 18.x and 19.x (2021), 20.x and 21.x (2022), 22.x and 23.x (2023), 24.x and 25.x (2024), 26.x and 27.x (2025), and 28.x (2026 wave 1). To find when something changed, pick the release wave first, then read the numbered update pages in that wave. The pages have no subtopics.\n\nStart with the page for the wave you run or plan to move to. The major or preview pages give the broad view of a wave. The minor update pages give the detail, such as regional compliance, telemetry and deprecation notices.",
   "key_points": [
     "Coverage runs from update 15.2 (2019 release wave 2) to update 28.5 (2026 release wave 1), with separate pages for the 26.0, 27.0 and 28.0 major or preview updates.",
@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.080875
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-11T00:59:22.222Z",
+    "verdict": "fix",
+    "issues": [
+      "Summary calls 26.0 a preview ('preview notes for 26.0, 27.0 and 28.0'). The 26.0 page title has no preview label, so it is the major update. Only the 27.0 and 28.0 pages are labeled previews. Summary corrected.",
+      "Minor: the overview sentence 'The pages have no subtopics' is awkward because the hub has no subtopics and pages cannot have them. It is harmless, so the overview is kept.",
+      "Minor: in key point 8, the 25.5 page lists G/L entry aggregations and exchange rate adjustment as features but its summary only mentions hotfixes. Calling them upcoming mandatory items there is inferred, but it matches 23.5 and 24.1, so the point is kept."
+    ],
+    "input_hash": "07a8c95299fac2a1ea50956a5dc702661d0b1e6bbe18f9db5039cab517cd2344",
+    "cost_usd": 0.19578800000000002
   }
 }

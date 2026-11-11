@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -318,6 +318,7 @@ links:
   localizations: []
   videos:
     - video/ugHFHtSxTlw
+    - video/Z0K38pXvjWk
   posts:
     - post/demiliani-com/12498
     - post/demiliani-com/12623
@@ -354,7 +355,7 @@ children:
 coverage:
   learn: 69
   code: 0
-  video: 1
+  video: 2
   blog: 9
   guideline: 0
 bc_forms: []
@@ -423,5 +424,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2025 wave 2 (BC27): Support for new ExtendedDataType value: Document (display/preview a PDF as a portrait image in FactBox)](../../../../posts/yzhums-com/68077.md) (community post): "Document for Media and MediaSet fields, enabling portrait-oriented content like PDFs"
 - [Dynamics 365 Business Central: Add a calculator to the sales order page](../../../../posts/yzhums-com/74975.md) (community post): "Control add-ins are inserted into pages using the usercontrol keyword"
 - [Business Central Under the Hood episode 7: Designing Business Central's UI, From Concept To Code](../../../../videos/ugHFHtSxTlw.md) (video): "Designing Business Central's UI, From Concept To Code"
+- [Business Central: ToolTip Property Now Available on Pages](../../../../videos/Z0K38pXvjWk.md) (video): "ToolTip property on page objects; Action tooltip inheritance; Page-level tooltip consistency"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

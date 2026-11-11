@@ -2,10 +2,10 @@
   "inputs": [
     7,
     [
-      "d46542bef3883b9f0f55e85d7cdf99201b430348",
+      "2c932722a2917f4592f1541d4d85dc247c8942ac",
       "4",
       9476,
-      "d46542bef3883b9f0f55e85d7cdf99201b430348",
+      "2c932722a2917f4592f1541d4d85dc247c8942ac",
       "4",
       6954
     ]
@@ -93906,6 +93906,12 @@
     },
     {
       "s": "table/6902",
+      "t": "table/4",
+      "k": "table_relation",
+      "via": "Currency Code"
+    },
+    {
+      "s": "table/6902",
       "t": "table/6921",
       "k": "table_relation",
       "via": "Expense Category Code"
@@ -94400,6 +94406,12 @@
     },
     {
       "s": "table/6911",
+      "t": "table/4",
+      "k": "table_relation",
+      "via": "Currency Code"
+    },
+    {
+      "s": "table/6911",
       "t": "table/6906",
       "k": "table_relation",
       "via": "Expense Report No."
@@ -94884,6 +94896,12 @@
       "s": "table/6919",
       "t": "page/6943",
       "k": "lookup_page"
+    },
+    {
+      "s": "table/6919",
+      "t": "table/4",
+      "k": "table_relation",
+      "via": "Currency Code"
     },
     {
       "s": "table/6919",
@@ -293892,13 +293910,13 @@
     "source_table": 3618,
     "card_page": 318,
     "lookup_page": 821,
-    "table_relation": 10188,
+    "table_relation": 10191,
     "calc_formula": 2536,
     "drilldown_page": 518,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
     "subscribes": 5179,
-    "edges": 20569,
+    "edges": 20572,
     "published_events": 26312,
     "dead_events": 22497
   }

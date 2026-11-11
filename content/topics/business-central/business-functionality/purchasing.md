@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,14 +111,14 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-enter-external-document-numbers
-    title: Enter external document numbers
-    date: "2025-10-14"
+    title: Enter External Document Numbers
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-ext-doc-no
-    title: External document numbers on purchase documents
+    title: External Document Numbers on Purchase Documents
     date: "2025-10-03"
     commit: null
     t: null
@@ -607,8 +607,8 @@ Start with the overview of tasks, then go to "Record purchases with purchase inv
   - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../objects/page/460.md)
 - [Combine Receipts or PO Lines on a Single Invoice](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-combine-receipts): Use the Combine Receipts function to invoice multiple purchase receipts from the same vendor on a single purchase invoice.
 - [Create a purchase quote to request an offer](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-request-quotes): Describes how to create a sales offer or a request for quote (RFQ) document to record your offer to a customer to sell products under certain terms.
-- [Enter external document numbers](https://learn.microsoft.com/dynamics365/business-central/across-enter-external-document-numbers): Enter external document numbers for customers and vendors in sales and purchase orders, invoices, and credit memos. Use these numbers to easily find posted sales and purchase lines.
-- [External document numbers on purchase documents](https://learn.microsoft.com/dynamics365/business-central/purchasing-ext-doc-no): Learn how to record vendor-assigned document numbers using the External Document Number or Your Reference fields, and understand the differences between these options.
+- [Enter External Document Numbers](https://learn.microsoft.com/dynamics365/business-central/across-enter-external-document-numbers): Enter customer and vendor document numbers on sales and purchase documents so you can find related entries and avoid duplicate purchase invoices.
+- [External Document Numbers on Purchase Documents](https://learn.microsoft.com/dynamics365/business-central/purchasing-ext-doc-no): Learn how to record vendor document numbers on purchase documents, make numbers mandatory, and use external document numbers to find posted entries.
 - [Match Purchase Invoice Drafts to Purchase Orders](https://learn.microsoft.com/dynamics365/business-central/match-purchase-invoice-drafts-to-orders): Learn how to match incoming purchase invoice draft lines to purchase orders and receipts, review warnings, and prepare invoices for posting.
   - In the observatory: [Table 312 "Purchases & Payables Setup"](../../../objects/table/312.md)
 - [Merge Duplicate Customers, Vendors, or Contacts](https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records): Merge duplicate customer, vendor, or contact records in Business Central, choose which field values to keep, and resolve conflicts in related records.

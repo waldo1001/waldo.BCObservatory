@@ -2,16 +2,16 @@
 id: topic/dev-itpro/what-s-new-and-planned/updates-for-earlier-major-versions
 type: topic
 title: Updates for earlier major versions
-summary: Release notes for Business Central minor updates from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1), plus preview notes for 26.0, 27.0 and 28.0. Use it to find which update introduced a feature, telemetry signal, localization change, deprecation or hotfix.
+summary: Release notes for Business Central minor updates from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1), plus a what's new page for the 26.0 major update and preview pages for 27.0 and 28.0. Use it to find which update introduced a feature, telemetry signal, localization change, deprecation or hotfix.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-11T00:59:22.222Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -398,9 +398,9 @@ narrative: generated
 
 # Updates for earlier major versions
 
-> Release notes for Business Central minor updates from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1), plus preview notes for 26.0, 27.0 and 28.0. Use it to find which update introduced a feature, telemetry signal, localization change, deprecation or hotfix.
+> Release notes for Business Central minor updates from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1), plus a what's new page for the 26.0 major update and preview pages for 27.0 and 28.0. Use it to find which update introduced a feature, telemetry signal, localization change, deprecation or hotfix.
 
-Path: [What's new and planned](../what-s-new-and-planned.md) > Updates for earlier major versions · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: [What's new and planned](../what-s-new-and-planned.md) > Updates for earlier major versions · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -29,6 +29,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reporting-options-overview
     title: Analyzing, pivoting, and sharing data in Business Central
     date: "2024-02-14"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
+    title: Create Excel Report Layouts in Business Central
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -60,22 +67,15 @@ evidence:
     commit: null
     t: null
     quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
-    title: Working with Excel layouts
-    date: "2024-09-09"
-    commit: null
-    t: null
-    quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/analysis-mode
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reporting-options-overview
+    - https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts
     - https://learn.microsoft.com/dynamics365/business-central/admin-powerbi
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-overview
-    - https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
   objects:
     - object/page/16
     - object/page/22
@@ -103,8 +103,8 @@ links:
     - object/page/9309
     - object/page/9310
     - object/page/9311
-    - object/page/9650
-    - object/page/9652
+    - object/page/9660
+    - object/page/9662
   features: []
   topics:
     - topic/dev-itpro/development
@@ -154,8 +154,8 @@ bc_forms:
   - 9309
   - 9310
   - 9311
-  - 9650
-  - 9652
+  - 9660
+  - 9662
 member_hash: e697587d1818c505736d570405bafb81e35b187cc4d1c0f4ff8e040c993ebee3
 narrative: generated
 ---
@@ -187,14 +187,13 @@ Start with "Analyzing, pivoting, and sharing data in Business Central" to compar
 
 - [Analyze list page and query data using data analysis](https://learn.microsoft.com/dynamics365/business-central/analysis-mode): Learn how to use the analysis mode in Business Central to analyze data.
 - [Analyzing, pivoting, and sharing data in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reporting-options-overview): Introducing the options you have for creating Business Central reports that analyze, pivot, and share data.
+- [Create Excel Report Layouts in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and import Excel report layouts in Business Central, configure data sheets, and preserve the dataset structure in your workbook.
 - [Creating an Excel layout report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout): Learn how to create an Excel layout report.
   - In the observatory: [Report 5050 "Contact - List"](../../../objects/report/5050.md)
 - [Embed Power BI reports in pages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts): Explains how to display Power BI reports on pages in Business Central
   - In the observatory: [Page 6323 "Power BI Element Card"](../../../objects/page/6323.md), [Page 6324 "Power BI Element Addin Host"](../../../objects/page/6324.md), [Page 6325 "Power BI Embedded Report Part"](../../../objects/page/6325.md), [Page 6327 "Power BI Embed Setup Wizard"](../../../objects/page/6327.md), [Table 6312 "Power BI Displayed Element"](../../../objects/table/6312.md), [Table 6314 "Power BI Context Settings"](../../../objects/table/6314.md)
 - [Introduction to Business Central and Power BI](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi): Get an overview of using Power BI to get insights from your Business Central data.
 - [Query Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-overview): Description of the query object.
-- [Working with Excel layouts](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and modify report layouts that are built using Excel.
-  - In the observatory: [Page 9660 "Report Layouts"](../../../objects/page/9660.md)
 
 ## Videos and posts
 
@@ -234,7 +233,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9309 "Purchase Credit Memos"](../../../objects/page/9309.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
 - [Page 9310 "Blanket Purchase Orders"](../../../objects/page/9310.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
 - [Page 9311 "Purchase Return Order List"](../../../objects/page/9311.md) · captioned "Purchase Return Orders" · on [Table 38 "Purchase Header"](../../../objects/table/38.md)
-- [Page 9650 "Custom Report Layouts"](../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../objects/table/9650.md)
-- [Page 9652 "Report Layout Selection"](../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../objects/table/9651.md)
+- [Page 9660 "Report Layouts"](../../../objects/page/9660.md)
+- [Page 9662 "Report Layout New Dialog"](../../../objects/page/9662.md) · captioned "Add New Layout for a Report"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

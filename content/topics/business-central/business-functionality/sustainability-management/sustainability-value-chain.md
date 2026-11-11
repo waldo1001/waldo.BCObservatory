@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T14:23:56.689Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -160,8 +160,10 @@ links:
   localizations: []
   videos:
     - video/6d6iajwQQ-c
+    - video/bHXEbtsx0JY
     - video/bnqxycPzbeI
     - video/D2KPQEbO40Q
+    - video/JBGuaqk5nXk
     - video/JoGW2xlIq0I
     - video/lcy36b9GS38
     - video/Sc8eGyMkBTA
@@ -188,7 +190,7 @@ children: []
 coverage:
   learn: 11
   code: 45
-  video: 6
+  video: 8
   blog: 0
   guideline: 0
 bc_forms:
@@ -302,8 +304,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9039 Adding all Power BI reports to Business Manager's Role Center](../../../../changes/bcapps/9039.md) (code change): "Sustainability module integrated with Power BI reports"
 - [#9613 [Master] - Sustainability: Specific Carbon Tracking, Item Charge emissions & setup fixes (Bugs 641051, 641486, 641487, 641049, 641222, 641055, 641289, 641224, 641309)](../../../../changes/bcapps/9613.md) (code change): "value chain posting, and setup validations"
 - [What's New: Value Chain Automation with Production Orders (2025 release wave 1)](../../../../videos/6d6iajwQQ-c.md) (video): "value chain tracking; sustainability value entries; production orders; emissions"
+- [What's New: Sustainability Copilot (2025 release wave 2)](../../../../videos/bHXEbtsx0JY.md) (video): "Calculate CO2 Sustainability Journal Emission Factor Lookup Date-based Emission Factor Versioning"
 - [What's New: Value Chain Automation with Transfer Orders (2025 release wave 1)](../../../../videos/bnqxycPzbeI.md) (video): "Value Chain Automation with Transfer Orders; sustainability value entries; carbon equivalent; scope 3 emissions"
 - [Dynamics 365 Business Central 2025 Release Wave 1 Release Highlights](../../../../videos/D2KPQEbO40Q.md) (video): "Scope 3 emissions; carbon dioxide; sustainability reporting; Scope 3 Value Chain"
+- [What's New: Copilot for Sustainability (2025 release wave 1)](../../../../videos/JBGuaqk5nXk.md) (video): "emissions calculation sustainability journal emission factors carbon accounting"
 - [What's New: Value Chain Automation with Assembly Orders (2025 release wave 1)](../../../../videos/JoGW2xlIq0I.md) (video): "Value Chain Automation with Assembly Orders; value chain automation; scope 3 emissions"
 - [What's New in Sustainability: Value Chain with Item Charges (2025 release wave 2)](../../../../videos/lcy36b9GS38.md) (video): "Value Chain with Item Charges scope three emissions carbon footprint value chain automation"
 - [What's New in Sustainability: Value Chain in Projects (2025 release wave 2)](../../../../videos/Sc8eGyMkBTA.md) (video): "Value Chain Automation in Projects; Scope Three Coverage via Value Chain"

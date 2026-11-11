@@ -1,24 +1,25 @@
 {
   "week": "2026-W46",
-  "input_hash": "1078955548f622b7ddf2294e9aaed6ba5ba7f0d41c6651df9c1249f9610aa355",
-  "text": "The largest change this week is #9587, which adds concurrent posting for General Ledger entries. It touches G/L Entry, G/L Register, Bank Account Ledger Entry and the Gen. Jnl.-Post Line and Gen. Jnl.-Post Batch codeunits, and the PR description gives no further detail, so partners with posting extensions should test them. Several fixes change posting and reporting behaviour. #13628 fills Your Reference, Vendor Order No. and Vendor Shipment No. on posted purchase receipt lines created by drop shipments. #12770 makes project ledger entries reflect modified invoice discounts on G/L Account purchase lines. #13482 aligns non-deductible VAT amounts in purchase invoice statistics with VAT and G/L entries. #13607 makes report 713 export one aggregated row per Item and Customer in Excel data-only format. #13616 disables table relation validation on SWIFT fields in the Czech localization, so codes missing from the SWIFT Code table are accepted. The Expense Agent gets three changes: #13730 adds an upgrade that initializes missing vendor number series, #13672 adds VAT settings to the setup wizard, and #13792 adds the Is Feature Trial field to the legacy consumption table. Finally, #13765 sets a maximum output token budget in the E-Document MLLM Handler for the upcoming 5.6 model version.",
-  "changes": 10,
+  "input_hash": "863f96156967575653874586fc420d33d3556668af348447b99d83e1b69c8383",
+  "text": "The breaking change this week is #13759, which removes CLEAN27 obsolete code across W1 and regional apps, including 140 deleted AL files, so extensions that still reference those objects, such as the Advance Letter CZZ pages and table, need updating. Among behaviour changes, #9587 adds concurrent posting for General Ledger entries, touching G/L posting codeunits and ledger and register tables, though its description gives little detail. Posting and finance fixes include #13482 and #13805, which align Non-Deductible VAT amounts in purchase invoice statistics with VAT and G/L entries, #12770 for project ledger entries and modified invoice discounts, #13628 for drop shipment reference fields on receipt lines, #13861 for dispute status on Cust. Ledger Entry, and #13225 for FEC export columns. Country fixes: #13616 relaxes SWIFT code validation in Czech tables. Other fixes: #13778 for production order component dimensions from Order Planning, #13724 for warehouse picks on make-to-order subassemblies, #13855 so 0 can be saved as a decimal item attribute, #13607 for report 713 Excel export, and #13572 so cloud migration deletes the correct hybrid company. Expense Agent work covers #13499, #13730, #13672 and #12670, plus #13792, which adds a missing field without changing behaviour. Two more changes add no behaviour: #12084 adds Subcontracting telemetry, and #13765 sets a maximum output token budget for E-Document MLLM extraction.",
+  "changes": 21,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.019285999999999998,
-  "at": "2026-11-10T00:14:28.203Z",
+  "cost_usd": 0.030954,
+  "at": "2026-11-11T00:15:47.902Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-10T00:55:49.884Z",
-    "verdict": "approve",
+    "at": "2026-11-11T00:58:04.028Z",
+    "verdict": "fix",
     "issues": [
-      "Calling #9587 'the largest change' is a judgment, but its summary supports it (it touches many localization layers).",
-      "'Several fixes change posting and reporting behaviour' is a bit loose for #13616, which changes field validation rather than posting or reporting; acceptable as framing.",
-      "#13792 and #13765 have no behaviour change flagged; the text does not claim one, so there is no conflict."
+      "The paragraph said 'Two changes add no behaviour' (#12084, #13765), but #13792 also has no behaviour flag. It was listed with the Expense Agent work without saying so, which made the count misleading. The corrected text now marks #13792 as having no behaviour change.",
+      "Minor: #13759 also has no behaviour flag. It is already described as the breaking obsoletion, so this does not need changing."
     ],
-    "input_hash": "1078955548f622b7ddf2294e9aaed6ba5ba7f0d41c6651df9c1249f9610aa355",
-    "cost_usd": 0.057080000000000006,
-    "applied": [],
+    "input_hash": "863f96156967575653874586fc420d33d3556668af348447b99d83e1b69c8383",
+    "cost_usd": 0.12896,
+    "applied": [
+      "text"
+    ],
     "rejected_edits": []
   }
 }

@@ -12,7 +12,7 @@ review:
   at: "2026-11-09T00:45:15.348Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,7 +21,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-faq
     title: Access with Microsoft 365 Licenses FAQ
-    date: "2023-09-28"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -49,7 +49,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license
     title: Business Central Access with Microsoft 365 Licenses
-    date: "2026-06-17"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -139,8 +139,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-customizing-overview
-    title: Customizing Business Central
-    date: "2021-06-23"
+    title: Customize Business Central
+    date: "2026-11-10"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage
+    title: Customize Pages for Profiles
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -148,13 +155,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions
     title: Customizing Business Central online using apps
     date: "2026-06-24"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage
-    title: Customizing Pages for Roles
-    date: "2024-06-13"
     commit: null
     t: null
     quote: null
@@ -244,8 +244,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-inspect-page
-    title: Inspecting pages in Business Central
-    date: "2025-10-16"
+    title: Inspect Pages in Business Central
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null

@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/program-building-blocks/statements
 type: topic
 title: Statements
-summary: "AL statements cover the building blocks of AL code: simple statements (assignment, method calls, AssertError) and control statements (if-then-else, case, for, foreach, while, repeat-until, break, continue). They answer questions about syntax, flow control and compound assignment operators."
+summary: "AL statements in Business Central: simple statements (assignment, method, AssertError) and control statements (compound, if-then-else, case, for, foreach, while, repeat-until). Use it for questions about statement syntax, code flow, loops and compound assignment operators."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:23:25.345Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d3956622fec7ab4e0ae68e80679f24eb2163339aaf9a62e6af5906644f6cdc36
+  input_hash: b36d39d0ab4c63469b476189e393673eab99860347a8c1c33f48905dea2faf26
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-control-statements
@@ -66,27 +66,27 @@ narrative: generated
 
 # Statements
 
-> AL statements cover the building blocks of AL code: simple statements (assignment, method calls, AssertError) and control statements (if-then-else, case, for, foreach, while, repeat-until, break, continue). They answer questions about syntax, flow control and compound assignment operators.
+> AL statements in Business Central: simple statements (assignment, method, AssertError) and control statements (compound, if-then-else, case, for, foreach, while, repeat-until). Use it for questions about statement syntax, code flow, loops and compound assignment operators.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Program building blocks](../program-building-blocks.md) > Statements · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Program building blocks](../program-building-blocks.md) > Statements · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Statements are the units of execution in AL code. This section has two pages that split them by whether they change the flow of code.
+Statements are the building blocks that make up AL code. This section has two pages that split them by how they affect execution: simple statements that run one after another, and control statements that change the flow of code.
 
-AL simple statements run sequentially and do not alter flow. The page covers assignment statements, method statements, compound assignment operators and AssertError statements used in tests. AL control statements covers conditionals and loops, with syntax and programming conventions.
+The simple statements page covers assignment statements, method statements and AssertError statements, including compound assignment operators and the use of AssertError in test code. The control statements page covers compound statements, conditional structures (if-then-else, case) and repetitive structures (for, foreach, while, repeat-until).
 
-Start with the simple statements page for basic syntax, then go to the control statements page when you need branching or iteration.
+Start with the simple statements page for basic syntax, then move to control statements when you need branching or loops.
 
 ## Key points
 
-- Simple statements run in sequence and do not change code flow.
+- Simple statements run sequentially and do not alter code flow.
 - Simple statement types: assignment, method and AssertError.
-- Compound assignment operators are documented on the simple statements page.
+- Compound assignment operators are described on the simple statements page.
 - AssertError statements are used for test assertions.
-- Conditional control statements: if-then-else and case.
-- Loop statements: for, foreach, while and repeat-until.
-- break and continue statements are covered with the loops.
+- Control statements manage code flow with compound, conditional and repetitive structures.
+- Conditional statements: if-then-else and case.
+- Loops: for, foreach, while and repeat-until.
 - The control statements page lists 2023 release wave 1.
 
 ## Learn pages

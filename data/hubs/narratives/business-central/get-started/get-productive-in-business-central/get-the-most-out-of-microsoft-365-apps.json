@@ -1,36 +1,24 @@
 {
   "hub_id": "topic/business-central/get-started/get-productive-in-business-central/get-the-most-out-of-microsoft-365-apps",
-  "input_hash": "7f90c881c6ea0f0dc373936258dcf52f0aced838089078d40b138fdd9c9faecd",
-  "summary": "Microsoft 365 integration in Business Central: opening files in OneDrive, saving contacts to Outlook, sharing records in Teams, merging data into Word templates, and viewing or editing data in Excel. It answers how-to questions about using these apps with Business Central data.",
-  "overview": "This section covers five ways to work with Business Central data in Microsoft 365 apps. Each page covers one app: OneDrive for opening and sharing files, Outlook for contacts, Teams for sharing records, Word for bulk communications, and Excel for analysis and editing.\n\nThe pages are independent, so start with the app that matches your task. For bulk letters or emails to customers, vendors, or contacts, go to the Word templates page. For working with list data in a spreadsheet, go to the Excel page. For collaboration, use the Teams and Outlook pages. The OneDrive page covers file sharing and permissions.",
+  "input_hash": "e17dc59070fc26e806713456ed3a2bb8a597c96a2e3afdfaa51e6b1f6c2b98a3",
+  "summary": "Using Business Central together with Microsoft 365 apps: Excel, Word, Outlook, Teams and OneDrive. It answers questions on editing data in Excel, mail merge with Word templates, syncing contacts to Outlook, sharing records in Teams, and opening or sharing files in OneDrive.",
+  "overview": "This section covers five ways to work with Business Central data from Microsoft 365 apps. Each page is a task-focused guide for one app: Excel, Word, Outlook, Teams and OneDrive.\n\nFor data work, start with the Excel page, which explains the Open in Excel and Edit in Excel actions, publishing changes back, and Copilot in Excel. For communication, the Word templates page covers mail merge to contacts, customers and vendors, and the Outlook page covers syncing contacts. For collaboration, the Teams and OneDrive pages cover sharing records, page links and files.\n\nThe pages are independent, so pick the one that matches the app you want to use.",
   "key_points": [
-    "OneDrive: open Business Central files in online applications, share with specific people using Share, Send link or Copy link, and control permissions through link settings.",
-    "Outlook: save Business Central contacts to Outlook and Teams, with optional two-way synchronization and contact filtering (2026 release wave 1).",
-    "Teams: share records as interactive cards using the Business Central app for Teams, or share direct page links with Share Link and Share to Teams.",
-    "Word templates: merge data from Business Central entities, related or unrelated, into templates for personalized bulk documents to customers, vendors, and contacts.",
-    "Word templates support field selection, template upload, and email integration.",
-    "Excel: Open in Excel exports list data for analysis, while Edit in Excel lets you change data and publish it back to Business Central.",
-    "Excel features include filter support, the Excel add-in, multi-environment support, and agent mode."
+    "Open in Excel exports a list; Edit in Excel lets you change data and publish it back through the Excel Add-in pane.",
+    "Copilot in Excel can help with data cleaning, preparation and analysis, including multi-step workflows.",
+    "Word templates use entities as data sources, with merge fields, related and unrelated entities, and field prefixes, to generate documents or send emails in bulk.",
+    "The Synchronize with Outlook action syncs a filtered list of contacts to a chosen Outlook folder, for use in Outlook and Teams. It supports full sync, forced full sync and two-way sync (2026 release wave 1, version 28).",
+    "Records can be shared in Teams as interactive cards, and you can view card details and edit data in Teams. Page links can also be copied or shared to Teams.",
+    "Open in OneDrive copies files to OneDrive for editing in online Excel, Word and PowerPoint.",
+    "Files can be shared from OneDrive with specific people or by link (Send link, Copy link). File version history and access control are available."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:09:23.796Z",
+  "at": "2026-11-11T00:58:47.628Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011532999999999998
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:24:38.557Z",
-    "verdict": "approve",
-    "issues": [
-      "The '2026 release wave 1' tag is attached to the Outlook page as a whole in the source metadata. Placing it at the end of the Outlook key point could suggest that two-way sync or contact filtering specifically arrived in that release, which the summaries do not state.",
-      "OneDrive key point: 'control permissions through link settings' is a reasonable inference from the separate 'link settings' and 'permissions' feature entries, but the summaries do not state the link directly."
-    ],
-    "input_hash": "7f90c881c6ea0f0dc373936258dcf52f0aced838089078d40b138fdd9c9faecd",
-    "cost_usd": 0.0380312
+    "cost_usd": 0.012805
   }
 }

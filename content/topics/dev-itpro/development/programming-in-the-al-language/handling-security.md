@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:20.499Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -187,16 +187,15 @@ links:
   videos:
     - video/tDcT_51ktqo
   posts:
-    - post/aardvarklabs-blog/2640
     - post/aardvarklabs-blog/2953
     - post/aardvarklabs-blog/3348
     - post/demiliani-com/11796
     - post/demiliani-com/12498
+    - post/demiliani-com/13588
     - post/demiliani-com/15914
     - post/kauffmann-nl/8332
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-37-inherent-permissions--d71a425273
     - post/yzhums-com/22035
-    - post/yzhums-com/64057
     - post/yzhums-com/65525
     - post/yzhums-com/65762
     - post/yzhums-com/67761
@@ -207,6 +206,7 @@ links:
     - change/bcapps/11996
     - change/bcapps/12140
     - change/bcapps/12617
+    - change/bcapps/8556
     - change/bcapps/9360
     - change/bcapps/9717
     - change/bcapps/9838
@@ -226,7 +226,7 @@ coverage:
   learn: 22
   code: 0
   video: 1
-  blog: 13
+  blog: 12
   guideline: 0
 bc_forms: []
 member_hash: b2776cd836898a8a19e7effa719a058b48cb3a07b751f1ad520ac02281d58fdf
@@ -277,22 +277,22 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11996 Restrict expense configuration maintenance to admins](../../../../changes/bcapps/11996.md) (code change): "Restrict configuration maintenance for expense management to administrators"
 - [#12140 [Email - SMTP Connector] Fix OAuth Base64URL token parsing](../../../../changes/bcapps/12140.md) (code change): "Base64URL tokens are converted to standard Base64 format before decoding"
 - [#12617 [Security] Move URL checks from Web Request Helper to System Application Uri module](../../../../changes/bcapps/12617.md) (code change): "Move URL checks from Web Request Helper to System Application Uri module"
+- [#8556 [Quality Management] Enforce rules and restrictions with indirect and implicit permissions](../../../../changes/bcapps/8556.md) (code change): "Enforce rules and restrictions with indirect and implicit permissions"
 - [#9360 Harden SFTP Client module (security review phase 1)](../../../../changes/bcapps/9360.md) (code change): "MD5 host-key fingerprints are no longer supported; only SHA256 prefixes accepted"
 - [#9717 Fix internal admin losing SUPER during customized plan provisioning](../../../../changes/bcapps/9717.md) (code change): "Internal tenant administrators no longer lose SUPER permission set when their customized plan"
 - [#9838 Grant indirect read on Privacy Notice tables in Privacy Notice Impl.](../../../../changes/bcapps/9838.md) (code change): "The Privacy Notice Impl. codeunit now grants indirect read permission on Privacy Notice"
 - [#102 Privacy DataClassification fixes + keep Label-scope findings at minor](../../../../changes/bcquality/102.md) (code change): "Fixed factual errors in the privacy data-classification article"
 - [#131 Correct table-level data classification guidance](../../../../changes/bcquality/131.md) (code change): "Privacy guidance now states that a valid table-level DataClassification is inherited by fields"
 - [#92 Correct security and privacy knowledge guidance](../../../../changes/bcquality/92.md) (code change): "Security and privacy knowledge articles were corrected to align with current Business Central APIs"
-- [Securing Sensitive Data in Business Central AL using SecretText](../../../../posts/aardvarklabs-blog/2640.md) (community post): "SecretText protects sensitive values like API keys and authentication credentials"
 - [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "Business Central shows a security prompt when extensions attempt"
 - [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../../../../posts/aardvarklabs-blog/3348.md) (community post): "permission sets. Agents still need testing to check they cannot be tricked"
 - [Dynamics 365 Business Central: using secrets in JsonObjects.](../../../../posts/demiliani-com/11796.md) (community post): "Handling secrets securely in JSON objects"
 - [Dynamics 365 Business Central: introducing the new MaskedType enum field-level property.](../../../../posts/demiliani-com/12498.md) (community post): "Concealed hides the field value in the UI until the user clicks"
+- [Dynamics 365 Business Central: new strict URI validation in AL Http Client](../../../../posts/demiliani-com/13588.md) (community post): "Business Central v28 introduces stricter URI validation in AL HttpClient to prevent Server-Side Request Forgery attacks"
 - [Dynamics 365 Business Central: locking down IsolatedStorage reads.](../../../../posts/demiliani-com/15914.md) (community post): "protecting sensitive data like secret keys, feature flags, and cached tokens"
 - [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "Supports two OAuth flows with certificate-based authentication and security measures"
 - [BC Friday Tips #37 Inherent Permissions](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-37-inherent-permissions--d71a425273.md) (community post): "Inherent Permissions in AL allow developers to grant temporary access"
 - [Dynamics 365 Business Central: Do users really need permissions for Temporary Tables? (Permissions and temporary tables)](../../../../posts/yzhums-com/22035.md) (community post): "Setting SourceTableTemporary property to true on a page"
-- [Business Central 2025 wave 1 (BC26.1): New method to add SecretText values to JSON objects – WriteWithSecretsTo](../../../../posts/yzhums-com/64057.md) (community post): "WriteWithSecretsTo is a new method on the JsonObject type that adds SecretText values"
 - [Dynamics 365 Business Central: How to quickly check if a Url is secure (Use https) via AL](../../../../posts/yzhums-com/65525.md) (community post): "HTTPS encryption is critical for protecting sensitive data transmission in external integrations"
 - [Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL](../../../../posts/yzhums-com/65762.md) (community post): "use the Record.WritePermission() method in AL to check whether a user has write permissions"
 - [Business Central 2025 wave 2 (BC27): ‘Concealed’ text field type for sensitive data (New field-level property: MaskType)](../../../../posts/yzhums-com/67761.md) (community post): "MaskType field-level property that allows developers to conceal sensitive text"

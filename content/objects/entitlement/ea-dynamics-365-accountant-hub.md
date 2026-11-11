@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:45:19.588Z"
+  at: "2026-11-11T00:47:35.044Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 221cca974641eb4838ec1244a1877f08f9cff20f9e5ee894da66784e8b67f4c0
+  input_hash: 9bbf1be12dc61f5c45d5c7632b3ecebfbbecd70adccc72ae47909d4413ce990a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d46542bef3883b9f0f55e85d7cdf99201b430348/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365AccountantHub.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365AccountantHub.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365AccountantHub.Entitlement.al (releases/29.x)
     date: null
-    commit: d46542bef3883b9f0f55e85d7cdf99201b430348
+    commit: 2c932722a2917f4592f1541d4d85dc247c8942ac
     t: null
     quote: null
 links:
@@ -48,7 +48,7 @@ links:
       why: Documents accountant role center access and accountant experiences in Business Central.
       by: model
     - to: https://learn.microsoft.com/dynamics365/business-central/company-hub
-      title: Manage work across multiple companies in the company hub
+      title: Manage Work Across Multiple Companies in the Company Hub
       label: possibly related
       why: Documents company hub for managing work across multiple Business Central companies.
       by: model
@@ -88,7 +88,7 @@ relations:
 
 > Entitlement "EA - Dynamics 365 - Accountant Hub" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at d46542be](https://github.com/microsoft/BCApps/blob/d46542bef3883b9f0f55e85d7cdf99201b430348/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365AccountantHub.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 2c932722](https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365AccountantHub.Entitlement.al) · facts from BC29
 
 ## Recent changes
 
@@ -104,7 +104,7 @@ ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at d46542be](https:
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Accountant experiences in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-accounting) — possibly related: Documents accountant role center access and accountant experiences in Business Central. (model-linked)
-- [Manage work across multiple companies in the company hub](https://learn.microsoft.com/dynamics365/business-central/company-hub) — possibly related: Documents company hub for managing work across multiple Business Central companies. (model-linked)
+- [Manage Work Across Multiple Companies in the Company Hub](https://learn.microsoft.com/dynamics365/business-central/company-hub) — possibly related: Documents company hub for managing work across multiple Business Central companies. (model-linked)
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
 

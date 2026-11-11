@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -310,6 +310,7 @@ links:
   videos:
     - video/-SGaVGOkiF0
     - video/OvI9jaA1mJY
+    - video/Qz-V7qvOY-8
   posts:
     - post/demiliani-com/12076
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030
@@ -343,7 +344,7 @@ children:
 coverage:
   learn: 25
   code: 94
-  video: 2
+  video: 3
   blog: 7
   guideline: 0
 bc_forms:
@@ -540,6 +541,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 2 (BC29): Set up vendor-specific number series for self-billing invoices](../../../../posts/yzhums-com/76268.md) (community post): "Organizations can now define and assign dedicated numbering sequences per vendor"
 - [Introducing Payment Times Analysis in Business Central (2023 release wave 2)](../../../../videos/-SGaVGOkiF0.md) (video): "vendor payments; payment practices; due dates"
 - [What's New: Payables Agent (2026 release wave 1)](../../../../videos/OvI9jaA1mJY.md) (video): "One-to-one invoice and purchase order line matching; Receipt quantity validation"
+- [What's New: Enhancements in E-Documents (2025 release wave 1)](../../../../videos/Qz-V7qvOY-8.md) (video): "automated attachments; deletion functionality; e-document services. Shows: Delete incorrect E-documents"
 
 ## Business Central pages and reports
 

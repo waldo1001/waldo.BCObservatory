@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/13778",
+  "input_hash": "38d6a4d3e96fede9d45ae844226df298a5b8ae0e04c2a27e986ea3b469d9a6f7",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-11T00:57:28.137Z",
+  "issues": [
+    "Summary and key points match the description: Order Planning now uses the Production Order source code and dimension-priority rules, inherits the parent line's dimensions, keeps Planning Worksheet behavior unchanged, and adds three regression tests.",
+    "No obsoletions; flags are correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02167,
+    "changes_in_call": 5
+  }
+}

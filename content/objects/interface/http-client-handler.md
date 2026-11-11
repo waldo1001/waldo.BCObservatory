@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:45:19.588Z"
+  at: "2026-11-11T00:47:35.044Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: da3cf7c2bb12bbaeee1b23d26ae60fc03e805040df59512787dbcfda55faacdd
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d46542bef3883b9f0f55e85d7cdf99201b430348/src/System%20Application/App/Rest%20Client/src/HttpClientHandler/HttpClientHandler.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/System%20Application/App/Rest%20Client/src/HttpClientHandler/HttpClientHandler.Interface.al
     title: src/System Application/App/Rest Client/src/HttpClientHandler/HttpClientHandler.Interface.al (releases/29.x)
     date: null
-    commit: d46542bef3883b9f0f55e85d7cdf99201b430348
+    commit: 2c932722a2917f4592f1541d4d85dc247c8942ac
     t: null
     quote: null
 links:
@@ -83,7 +83,7 @@ relations:
 
 > Interface "Http Client Handler" in System Application (System.RestClient). 1 public procedures. Present since at least BC23, still in BC30, changed in BC26.
 
-System Application · System.RestClient · BC23-30 · [source at d46542be](https://github.com/microsoft/BCApps/blob/d46542bef3883b9f0f55e85d7cdf99201b430348/src/System%20Application/App/Rest%20Client/src/HttpClientHandler/HttpClientHandler.Interface.al) · facts from BC29
+System Application · System.RestClient · BC23-30 · [source at 2c932722](https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/System%20Application/App/Rest%20Client/src/HttpClientHandler/HttpClientHandler.Interface.al) · facts from BC29
 
 ## Procedures
 

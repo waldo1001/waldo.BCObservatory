@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:05.533Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -28,7 +28,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-onedrive-overview
     title: Business Central and OneDrive for Business Integration
-    date: "2025-10-17"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -43,6 +43,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tabs
     title: Create Business Central tabs for Teams
     date: "2023-12-28"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
+    title: Create Excel Report Layouts in Business Central
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -84,7 +91,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-outlook
     title: Get the Business Central Add-in for Outlook
-    date: "2026-03-10"
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages
+    title: Import Business Data into Business Central with Excel
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -98,35 +112,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout
     title: Map Data Fields in Word Layouts
-    date: "2026-09-09"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages
-    title: Use Excel to import data
-    date: "2026-06-17"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge
-    title: Using Word templates for bulk communications
-    date: "2024-11-13"
+    title: Use Word Templates for Business Central Communication
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel
-    title: Viewing and editing in Excel from Business Central
-    date: "2026-01-26"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
-    title: Working with Excel layouts
-    date: "2024-09-09"
+    title: View and Edit Business Central Data in Excel
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -138,8 +138,8 @@ links:
     - object/page/1480
     - object/page/1831
     - object/page/1832
-    - object/page/9650
-    - object/page/9652
+    - object/page/9660
+    - object/page/9662
   features: []
   topics:
     - topic/dev-itpro/integration
@@ -176,8 +176,8 @@ bc_forms:
   - 1480
   - 1831
   - 1832
-  - 9650
-  - 9652
+  - 9660
+  - 9662
 member_hash: d98ae0c47255f3855b2ac4e7287e4df94986fc9661dc88cd16860d8e9e01802c
 narrative: generated
 ---
@@ -215,7 +215,7 @@ Excel and Word pages cover both users and report authors (Edit in Excel, report 
 
 ## More Learn pages
 
-- [Get the Business Central Add-in for Outlook](https://learn.microsoft.com/dynamics365/business-central/admin-outlook): Learn how to install the Business Central add-in for Outlook for your organization or for your own use.
+- [Get the Business Central Add-in for Outlook](https://learn.microsoft.com/dynamics365/business-central/admin-outlook): Learn how to download and install the Business Central add-in for Outlook for your own use, or deploy it to users and groups in your organization.
 - [Integrating with Office apps and Microsoft 365](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/m365-integration-overview): Learn how to integrate Business Central with Office apps and Microsoft 365.
 
 ## Videos, posts and code changes
@@ -234,7 +234,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 1831 "Outlook Centralized Deployment"](../../../objects/page/1831.md) · captioned "Outlook Add-in Centralized Deployment" · on [Table 1610 "Office Add-in"](../../../objects/table/1610.md)
 - [Page 1832 "Outlook Individual Deployment"](../../../objects/page/1832.md) · captioned "Get the Outlook Add-in"
 - [Page 1480 "Excel Centralized Depl. Wizard"](../../../objects/page/1480.md) · captioned "Excel Add-in Centralized Deployment" · on [Table 1480 "Edit in Excel Settings"](../../../objects/table/1480.md) · via [Integrating with Microsoft Excel](integrating-business-central-with-office/integrating-with-microsoft-excel.md)
-- [Page 9650 "Custom Report Layouts"](../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../objects/table/9650.md) · via [Integrating with Microsoft Excel](integrating-business-central-with-office/integrating-with-microsoft-excel.md)
-- [Page 9652 "Report Layout Selection"](../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../objects/table/9651.md) · via [Integrating with Microsoft Excel](integrating-business-central-with-office/integrating-with-microsoft-excel.md)
+- [Page 9660 "Report Layouts"](../../../objects/page/9660.md) · via [Integrating with Microsoft Excel](integrating-business-central-with-office/integrating-with-microsoft-excel.md)
+- [Page 9662 "Report Layout New Dialog"](../../../objects/page/9662.md) · captioned "Add New Layout for a Report" · via [Integrating with Microsoft Excel](integrating-business-central-with-office/integrating-with-microsoft-excel.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

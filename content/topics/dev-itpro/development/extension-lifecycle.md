@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -291,9 +291,10 @@ links:
     - post/demiliani-com/12116
     - post/demiliani-com/12123
     - post/demiliani-com/12422
+    - post/vondervoort-be/24
   guidelines: []
   changes:
-    - change/bcapps/10675
+    - change/al-go/2441
     - change/bcapps/12671
     - change/bcapps/9601
     - change/bcquality/177
@@ -315,7 +316,7 @@ coverage:
   learn: 35
   code: 0
   video: 5
-  blog: 4
+  blog: 5
   guideline: 0
 bc_forms:
   - 149000
@@ -376,7 +377,7 @@ Start with the overview, then the scope pages. After that, use the subtopics by 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10675 Temporarily suppress AS0072 (ObsoleteTag 29.0) on 10 Base App elements for v30 prep](../../../changes/bcapps/10675.md) (code change): "pragma warning suppressions around ObsoleteTag = '29.0' lines on 10 Base App elements"
+- [#2441 Skip test projects when determining release artifacts](../../../changes/al-go/2441.md) (code change): "Skip test projects when determining release artifacts. The DetermineArtifactsForRelease action"
 - [#12671 Fix extension settings actions and repeated marketplace installation](../../../changes/bcapps/12671.md) (code change): "extension lifecycle actions like Uninstall, and prevents repeated marketplace installation prompts"
 - [#9601 Reset workflow templates no longer removes steps from active workflows](../../../changes/bcapps/9601.md) (code change): "Reset workflow templates no longer removes steps from active workflows"
 - [#177 Add retention policy knowledge to the privacy domain](../../../changes/bcquality/177.md) (code change): "Added guidance to the privacy domain in BCQuality about registering extension-owned tables"
@@ -385,6 +386,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: automatic PTE unpublishing after update.](../../../posts/demiliani-com/12116.md) (community post): "automatically unpublishes PTE versions that are no longer installed"
 - [Dynamics 365 Business Central on-prem: be careful when referencing .NET assemblies across versions.](../../../posts/demiliani-com/12123.md) (community post): "extensions must be compiled with .NET Standard assemblies when published to service tiers"
 - [Dynamics 365 Business Central on-premises: accessing embedded in-app resources from runtime packages.](../../../posts/demiliani-com/12422.md) (community post): "Extensions can declare resource folders using the resourceFolders property"
+- [Rethinking LinterCop: Preparing for the Next Chapter](../../../posts/vondervoort-be/24.md) (community post): "DevOps integration breaks in pre-release AL Language versions"
 - [AL Go for GitHub February Office Hour](../../../videos/dSPRY1_f1S0.md) (video): "Private repository support in AL-Go"
 - [What's New: AL-Go for GitHub on Build and Performance (2025 release wave 1)](../../../videos/Gjs00Wy0HlI.md) (video): "What's New: AL-Go for GitHub on Build and Performance"
 - [AL-Go for Github May Office Hour](../../../videos/vDGrVHQHLA0.md) (video): "AL-Go for Github May Office Hour"

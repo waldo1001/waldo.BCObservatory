@@ -1,36 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-excel",
-  "input_hash": "3af3ec47a455bf4e7a8b140e5edc9ce8decf9e94add086d0ab9807c01905ff25",
-  "summary": "Integrating Business Central with Microsoft Excel covers viewing, editing, importing and reporting with Excel. It answers questions about Open in Excel and Edit in Excel, permission sets that control Edit in Excel, importing data through Excel or configuration packages, and Excel report layouts.",
-  "overview": "This section describes the ways Business Central works with Excel. Users can export list data to Excel for analysis, edit it in Excel and publish changes back, import data from other finance systems, and build report layouts in Excel workbooks.\n\nThe pages split by task. \"Viewing and editing in Excel from Business Central\" is the main entry point for the Open in Excel and Edit in Excel actions. \"Controlling Edit in Excel on list pages\" is for administrators who manage access through permission sets and on-premises setup. \"Use Excel to import data\" covers moving data in during migration. \"Working with Excel layouts\" covers report layouts with formulas, PivotTables and PivotCharts.\n\nStart with the viewing and editing page if you are a user. Administrators should go next to the control page. Anyone migrating data should go to the import page.",
+  "input_hash": "eaccdddc7082ceee028b50cff589baf39ff2fb1762d479784d6911fa58f38af9",
+  "summary": "Integration of Business Central with Microsoft Excel: viewing and editing list data in Excel, controlling the Edit in Excel action, importing business data, and building Excel report layouts. It answers questions about Excel-based data editing, permissions, data import and reporting.",
+  "overview": "This section covers four ways Business Central works with Excel. Users can export list data with Open in Excel, or edit it with Edit in Excel and publish changes back through the Excel Add-in pane. Copilot in Excel can help with data cleaning, preparation and multi-step workflows.\n\nAdministrators control who can use Edit in Excel on list pages through permission sets, and on-premises installations need extra setup. Separate pages cover importing data from Excel files and other finance systems with assisted setup guides, data migration wizards and configuration packages. They also cover creating Excel report layouts that use formulas, PivotTables and PivotCharts.\n\nStart with the page on viewing and editing data in Excel for everyday use. Go to the Edit in Excel control page for permissions or on-premises setup. Use the import page for migration and the report layout page for reporting.",
   "key_points": [
-    "Open in Excel exports list data for analysis. Edit in Excel lets users change data and publish it back to Business Central.",
-    "Viewing and editing supports filters, the Excel add-in, multiple environments and agent mode.",
-    "Edit in Excel access is controlled by permission sets: EDIT IN EXCEL - VIEW, EDIT IN EXCEL-ADMIN and EXCEL EXPORT ACTION.",
+    "Open in Excel exports a list; Edit in Excel lets users change data and publish it back to Business Central.",
+    "Copilot in Excel can assist with data cleaning, preparation, analysis and multi-step workflows.",
+    "Edit in Excel is controlled by permission sets: EDIT IN EXCEL - VIEW, EDIT IN EXCEL-ADMIN and EXCEL EXPORT ACTION.",
     "On-premises deployments need additional configuration for Edit in Excel.",
-    "Data from other finance systems can be imported through Excel files or configuration packages.",
-    "The default configuration package supports 27 tables covering master data and transactions.",
-    "Excel report layouts can include formulas, PivotTables, PivotCharts and multiple worksheets, built on a data sheet."
+    "Data import uses the Excel add-in, data migration wizards and configuration packages for customers, vendors, inventory and accounts.",
+    "Migration paths are described for QuickBooks, Dynamics GP and Dynamics NAV.",
+    "Excel report layouts support formulas, PivotTables, PivotCharts, multiple worksheets, worksheet protection and sensitivity labels.",
+    "The Excel report layout guide mentions version 29 and covers data sheet requirements and creating layouts from scratch or from existing ones."
   ],
   "members_used": 4,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:09:39.701Z",
+  "at": "2026-11-11T00:59:04.201Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011435
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:26:53.718Z",
-    "verdict": "approve",
-    "issues": [
-      "Key point on Excel layouts says they are 'built on a data sheet'; the source only lists 'data sheet' as a feature, so the relationship is a small inference.",
-      "Key point attributes all three permission sets to controlling Edit in Excel access; EXCEL EXPORT ACTION may govern export rather than editing, but the source groups them together, so this is acceptable."
-    ],
-    "input_hash": "3af3ec47a455bf4e7a8b140e5edc9ce8decf9e94add086d0ab9807c01905ff25",
-    "cost_usd": 0.030671200000000003
+    "cost_usd": 0.012715
   }
 }

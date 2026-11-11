@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,7 +79,6 @@ links:
   guidelines: []
   changes:
     - change/bcquality/210
-    - change/bcquality/256
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -139,7 +138,6 @@ Two FAQ pages cover submitting and publishing updated Marketplace apps: validati
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#210 knowledge(upgrade): upgrade code must not use ChangeCompany](../../../../changes/bcquality/210.md) (code change): "upgrade code must not use ChangeCompany. New quality rule and knowledge article prevent upgrade code from using ChangeCompany"
-- [#256 Fixtures: make two samples comply with the sibling articles they trip](../../../../changes/bcquality/256.md) (code change): "Moved upgrade tag registration into a dedicated codeunit with subscriber methods"
 - [Business Central 2025 wave 2 (BC27): UpdateAuditFields Method on DataTransfer is now in Cloud scope](../../../../posts/yzhums-com/67809.md) (community post): "UpdateAuditFields method on DataTransfer was previously OnPrem-only, now available in Cloud scope"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

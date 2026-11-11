@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,8 +90,9 @@ links:
     - topic/dev-itpro/development/extension-lifecycle
   localizations: []
   videos:
-    - video/9CW5mydS9Vs
+    - video/aNRzlbxVPWE
     - video/eUkx_VCcyoU
+    - video/EurgqGU1jG0
     - video/hNom9ZZuca0
     - video/JI9OpaBx0nk
     - video/qlFEdXPjX6A
@@ -102,7 +103,6 @@ links:
     - post/jpearson-blog/1590
     - post/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620
     - post/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc
-    - post/wingate365-com/https-blog-wingate365-com-2025-10-south-coast-summit-2025-ai-driven-page-html--8f5384bed0
   guidelines: []
   changes:
     - change/al-go/2342
@@ -116,7 +116,6 @@ links:
     - change/bcapps/12325
     - change/bcapps/12463
     - change/bcapps/12557
-    - change/bcapps/7938
     - change/bcapps/8924
     - change/bcapps/9293
     - change/bcquality/159
@@ -130,8 +129,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 6
-  blog: 6
+  video: 7
+  blog: 5
   guideline: 0
 bc_forms:
   - 149000
@@ -199,7 +198,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12325 [Expense tests] Re-enable reviewed APIs and consolidate Expense fixes](../../../../changes/bcapps/12325.md) (code change): "Clean test codeunit execution is turned on"
 - [#12463 Fix Email upgrade writing during no-transaction upgrade test](../../../../changes/bcapps/12463.md) (code change): "Email Installer no longer re-registers email tables based on allowed-table"
 - [#12557 Implement first-party app authentication for Microsoft Fabric Export](../../../../changes/bcapps/12557.md) (code change): "tests are extended"
-- [#7938 Bugs/632378 make quality inspection gen rule warning actionable](../../../../changes/bcapps/7938.md) (code change): "Makes the warning about quality inspection generation rules actionable"
 - [#8924 [QM] Fixed overflow runtime error](../../../../changes/bcapps/8924.md) (code change): "Adds a regression test in the miscellaneous QM tests codeunit"
 - [#9293 [Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)](../../../../changes/bcapps/9293.md) (code change): "Six new tests added covering the corrected behavior"
 - [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../changes/bcquality/159.md) (code change): "AL testing patterns from an external BC testing expert's blog"
@@ -208,9 +206,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Why do all my tests show up twice in the test explorer?](../../../../posts/jpearson-blog/1590.md) (community post): "Tests show up twice in the VS Code test explorer when the pre-release AL Language extension"
 - [Your Tests All Pass. I Have Bad News.](../../../../posts/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620.md) (community post): "Mutation testing is a technique that validates test quality by intentionally breaking code"
 - [Weekly Recap: August 7-14](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc.md) (community post): "AL Runner shipped 85 PRs fixing emulation-to-real-BC divergences in rename propagation"
-- [South Coast Summit 2025 - AI-Driven Page Scripting: Practical Use Cases for Dynamics 365](../../../../posts/wingate365-com/https-blog-wingate365-com-2025-10-south-coast-summit-2025-ai-driven-page-html--8f5384bed0.md) (community post): "AI-Driven Page Scripting: Practical Use Cases for creating and scaling page scripting test automation"
-- [Microsoft presents: Tests, dependencies, runners and evals for BC applications](../../../../videos/9CW5mydS9Vs.md) (video): "Tests dependencies runners and evals for BC applications"
+- [Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)](../../../../videos/aNRzlbxVPWE.md) (video): "Agent task flow mapping; multi-turn conversation testing; Test library data creation"
 - [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "testing; http client; call stack; HTTP Client Handler for Testing"
+- [20260504 - Super fast tests covering 100% of your code](../../../../videos/EurgqGU1jG0.md) (video): "automated testing; code coverage; test patterns; Fast automated testing framework"
 - [What's new: Testability Enhancements (2026 release wave 2)](../../../../videos/hNom9ZZuca0.md) (video): "Data-driven Testing in AL"
 - [Introducing: How to Mock Outbound Http Calls for Easier Testing (2025 release wave 1)](../../../../videos/JI9OpaBx0nk.md) (video): "outbound http testing; mocking; HTTP client handler; test isolation; request interception"
 - [What's New: AL Language (2025 release wave 2)](../../../../videos/qlFEdXPjX6A.md) (video): "AI Test Type; Required Test Isolation Property; Cancellation Token Propagation in VS Code"

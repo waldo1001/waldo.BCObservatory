@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -134,6 +134,7 @@ links:
     - post/thinkaboutit-be/8348
   guidelines: []
   changes:
+    - change/bcapps/10461
     - change/bcapps/10631
     - change/bcapps/11740
     - change/bcapps/11997
@@ -220,6 +221,7 @@ Start with the overview subtopic to understand the agent, then read the setup pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10461 [SOA] Uptake Agent Task Message Failed status for outbound replies](../../../changes/bcapps/10461.md) (code change): "Sales Order Agent now marks outbound replies as Failed when they exhaust their retry budget"
 - [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "Expense Agent gains policy evaluation tables, pages, enums and APIs"
 - [#11740 Bug 636971: [Expense Agent] EA Scheduler Task table grows unbounded with no cleanup or UI visibility](../../../changes/bcapps/11740.md) (code change): "The Expense Agent now calls an existing cleanup function"
 - [#11997 Clarify Expense Agent Entra app permission checks](../../../changes/bcapps/11997.md) (code change): "Permission checks for the Expense Agent Entra app have been reordered"
@@ -246,7 +248,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../../videos/cVfZoDwKYpI.md) (video): "Behind the scenes of how we build the new Expense Agent"
 - [What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)](../../../videos/cWVhWBMbXb4.md) (video): "Improved Mileage Handling; date-range mileage allowances"
 - [Expense Agent: Mobile Experience (2026 release wave 1)](../../../videos/e_x5QF0vXgs.md) (video): "Expense Agent: Mobile Experience; AI extraction of expense details"
-- [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../videos/Fz8NLByllRc.md) (video): "Expense Agent: Mileage Allowances; mileage allowances; expense agent"
+- [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../videos/Fz8NLByllRc.md) (video): "Mileage allowances; expense agent; route selection; distance calculation"
 - [What's new in Expense Agent: Project Handling (2026 release wave 2)](../../../videos/GwrMf1umTFg.md) (video): "Project tracking in Expense Agent web app"
 - [Expense Agent: Countries and Languages (2026 release wave 1)](../../../videos/kDixaZFPYE8.md) (video): "Expense Agent multilingual support; Expense Agent geographic expansion"
 - [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../videos/M0IzeLSn7qU.md) (video): "expense agent; approval process; ai policies; approval limits"

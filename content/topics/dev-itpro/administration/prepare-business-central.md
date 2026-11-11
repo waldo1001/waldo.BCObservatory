@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -22,6 +22,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/apply-company-configuration-packages
     title: Apply Company Configuration Packages
     date: "2022-04-07"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-deploy-excel-addin
+    title: Deploy the Business Central Add-in for Excel
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -43,13 +50,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/outlook-addins
     title: Get the Outlook add-ins for the business inbox
     date: "2021-08-31"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-deploy-excel-addin
-    title: Getting the Business Central add-in for Excel
-    date: "2026-06-17"
     commit: null
     t: null
     quote: null
@@ -112,10 +112,10 @@ evidence:
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/apply-company-configuration-packages
+    - https://learn.microsoft.com/dynamics365/business-central/admin-deploy-excel-addin
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deploy-tenant-customization
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/outlook-addins
-    - https://learn.microsoft.com/dynamics365/business-central/admin-deploy-excel-addin
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management-mandatory-features
     - https://learn.microsoft.com/dynamics365/business-central/setup
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins
@@ -212,6 +212,8 @@ Further pages cover Feature Management (enabling upcoming features early, and th
   - Limit: Configuration packages are not for production companies already in use; use XMLport for large data imports in production instead.
   - Mapping can be set for individual fields or derived from related table primary keys, with direct field mapping taking priority.
   - In the observatory: [Page 8611 "Config. Question Area"](../../../objects/page/8611.md), [Page 8626 "Config. Package Records"](../../../objects/page/8626.md)
+- [Deploy the Business Central Add-in for Excel](https://learn.microsoft.com/dynamics365/business-central/admin-deploy-excel-addin): Learn how to deploy the Business Central Excel add-in centrally, install it for yourself, configure connections, and troubleshoot editing data.
+  - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md), [Page 22 "Customer List"](../../../objects/page/22.md), [Page 301 "Ship-to Address List"](../../../objects/page/301.md), [Page 42 "Sales Order"](../../../objects/page/42.md), [Page 48 "Sales Orders"](../../../objects/page/48.md), [Table 18 "Customer"](../../../objects/table/18.md)
 - [Deploying a tenant customization](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deploy-tenant-customization): Overview of how you deploy an .app package with a tenant customization to Dynamics 365 Business Central.
 - [Enabling Upcoming Features Ahead of Time](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management): Learn how to enable select features ahead of time as the administrator of Business Central online or on-premises.
   - Optional features can be enabled ahead of time on sandbox and production environments before becoming mandatory.
@@ -229,8 +231,6 @@ Further pages cover Feature Management (enabling upcoming features early, and th
   - Document Links add-in provides direct link from email to actual business document in Business Central.
   - For online, admin configures Microsoft 365 tenant using centralized deployment or automatic deployment.
   - For on-premises, configure server instance then deploy add-ins from Business Central client and Microsoft 365 admin center.
-- [Getting the Business Central add-in for Excel](https://learn.microsoft.com/dynamics365/business-central/admin-deploy-excel-addin): Learn how to get users the Business Central Add-in for Excel.
-  - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md), [Page 22 "Customer List"](../../../objects/page/22.md), [Page 301 "Ship-to Address List"](../../../objects/page/301.md), [Page 42 "Sales Order"](../../../objects/page/42.md), [Page 810 "Web Services"](../../../objects/page/810.md)
 - [Optional Features Now Mandatory](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management-mandatory-features): Learn about the features that were optional but are now mandatory.
   - Features become mandatory starting from specific release versions when they transition from optional to automatically enabled.
   - Status: Generally available as of 2026 release wave 2 (version 29) for features listed as mandatory.

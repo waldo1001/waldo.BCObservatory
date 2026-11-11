@@ -1,37 +1,36 @@
 {
   "hub_id": "topic/business-central/business-functionality/finance/financial-analytics",
-  "input_hash": "2ff215ccd961282eabc1ca97bd13b088ddfbe49d415fa157f56dac459147b298",
-  "summary": "Financial analytics in Business Central covers the tools for analyzing and reporting finance data: the Power BI finance app, Financial Reporting, built-in analysis tools and reports, ad-hoc Data Analysis, and multi-company consolidation. It answers questions about choosing a tool, setting it up, and reading the results.",
-  "overview": "Financial analytics groups the ways to look at finance data in Business Central. Some work directly in the client: Data Analysis on list pages for general ledger, customer receivables and vendor payables, plus built-in tools such as budget versus actual, cash flow analysis on the Accountant Role Center, and the payment practices report. Others are more structured: the Financial Reporting module for financial statements and KPIs, and the embedded Power BI finance app for dashboards.\n\nThe hub's own pages cover two topics. One is ad-hoc analysis with Data Analysis, Pivot Mode and Analysis Filters. The other is consolidating data from several companies into a consolidated company, including different charts of accounts, currencies, fiscal years and environments. The overview page introduces all of these.\n\nStart with the overview page to pick a tool. For quick questions use ad-hoc analysis. For designed statements go to Financial reporting. For dashboards go to the Power BI finance app. For the details of a single standard report, use Built-in finance reports, which has one page per report.",
+  "input_hash": "aaa4723d5bca8128e3acc5b68b471550521de344570f39c70dcd40a27490416f",
+  "summary": "Financial analytics in Business Central covers the Power BI finance app, Financial Reporting, built-in analysis tools and standard finance reports, plus company consolidation and ad-hoc data analysis. It answers questions about analyzing, reporting on and consolidating finance data.",
+  "overview": "Financial analytics groups the ways Business Central lets you look at finance data. Options range from quick ad-hoc analysis on list pages, to designed financial reports with row and column definitions, to an embedded Power BI finance app with KPIs and reports on receivables, payables, profitability and liquidity.\n\nThree pages sit directly in this section: an overview, one on ad-hoc analysis with the Data Analysis feature (Pivot Mode, Analysis Filters, multiple tabs), and one on consolidating data from several companies. Consolidation supports different charts of accounts, currencies, fiscal years and environments, with eliminations, business units, GL account mapping and file-based transfer.\n\nSubtopics go deeper. Start with the overview page, then choose by need: Financial reporting for statements and KPIs, Power BI finance app for dashboards, Built-in finance analysis tools for budget versus actual and cash flow, and Built-in finance reports for one page per standard report.",
   "key_points": [
-    "Data Analysis lets you analyze general ledger, customer receivables and vendor payables from list pages, with Pivot Mode, Analysis Filters and multiple analysis tabs, without running reports.",
-    "Consolidation combines subsidiaries or business units into a consolidated company and supports eliminations, currency exchange rates, GL account mapping and file-based transfer.",
-    "Consolidation handles different charts of accounts, currencies, fiscal years and environments.",
-    "Financial Reporting builds reports from row and column definitions, account categories, dimensions and statistical accounts, with Excel and PDF output, KPI web services and telemetry.",
-    "The Power BI finance app is embedded in Business Central and covers receivables, payables, profitability, liquidity, liabilities, budgets and ledger entry analysis, with a semantic model and KPI definitions.",
-    "Built-in analysis tools include budget versus actual, cash flow analysis on the Accountant Role Center, and the payment practices report.",
-    "Built-in finance reports (83 pages) cover general ledger, trial balance, receivables, payables, VAT, consolidation, deferrals, cost accounting and fixed assets."
+    "Data Analysis lets you analyze general ledger, customer receivables and vendor payables from list pages without running a report, using Pivot Mode, Analysis Filters and multiple analysis tabs.",
+    "Consolidation combines subsidiaries or business units into a consolidated company, handling different charts of accounts, currencies, fiscal years and environments.",
+    "Consolidation features include eliminations, currency exchange rates, GL account mapping and file-based transfer.",
+    "Power BI finance app (19 pages) covers setup, semantic model, KPI definitions and reports on receivables, payables, profitability, liquidity, liabilities, budgets and ledger entries.",
+    "Financial reporting (20 pages) covers row and column definitions, account categories, dimensions, Excel layouts, statistical accounts, KPI web services, telemetry and auditing.",
+    "Built-in finance analysis tools cover budget versus actual, cash flow analysis on the Accountant Role Center, the payment practices report, and general ledger and chart of accounts setup.",
+    "Built-in finance reports (83 pages) describe each standard report, including filters, options and when to use it, across GL, trial balance, receivables, payables, VAT, consolidation, deferrals, cost accounting and fixed assets."
   ],
   "members_used": 3,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-11-03T01:01:35.204Z",
+  "at": "2026-11-11T00:58:48.371Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014983
+    "cost_usd": 0.014905000000000002
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-03T01:02:13.361Z",
+    "at": "2026-11-11T00:59:11.221Z",
     "verdict": "approve",
     "issues": [
-      "The overview calls the Power BI finance app a tool 'for dashboards'. The subtopic summary only mentions reports, a semantic model and KPI definitions. This is a minor wording liberty.",
-      "'The overview page introduces all of these' goes slightly too far. The overview page summary does not name budget versus actual or the payment practices report.",
-      "Key points 2 and 3 split the consolidation scope over two bullets, which is a little redundant. The built-in tools' general ledger and chart of accounts structure is not mentioned. Neither is an error."
+      "Minor: the 'Built-in finance analysis tools' key point says 'general ledger and chart of accounts setup'. The source calls this the GL and chart of accounts 'structure' and mentions 'setting up accounts', so the wording is still supported.",
+      "Minor: the overview's 'Financial reporting for statements and KPIs' matches the overview page, but it leaves out the design, troubleshooting, telemetry and auditing coverage. The key points include it, so no change is needed."
     ],
-    "input_hash": "2ff215ccd961282eabc1ca97bd13b088ddfbe49d415fa157f56dac459147b298",
-    "cost_usd": 0.046252
+    "input_hash": "aaa4723d5bca8128e3acc5b68b471550521de344570f39c70dcd40a27490416f",
+    "cost_usd": 0.038432
   }
 }

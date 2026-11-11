@@ -2,21 +2,21 @@
 id: topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data
 type: topic
 title: Control your data
-summary: "Data control in Business Central: auditing changes, classifying and masking sensitive data, retention policies, encryption, deleting or compressing data, archiving, personal data requests, and database lock viewing. It answers administrator questions about privacy, storage, and data cleanup."
+summary: "Administration pages on controlling data in Business Central: auditing changes, classifying and masking sensitive data, retention policies, encryption, deleting or compressing data, archiving, personal data requests, and viewing database locks. Use it for questions on data privacy, cleanup, storage and auditing."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:02:33.356Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 7fe069775c62ccdc5269112e58cf595193e8d446b3108ae58c64e1b5e28cf437
+  input_hash: c6a327a2c7a683e35de22e423c74aced0c02f7ca74ffb0f078f88f003a567a4b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-log-changes
@@ -63,14 +63,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-archive-data
     title: The Data Archive Extension
-    date: "2023-01-30"
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks
     title: View Database Locks
-    date: "2021-06-14"
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -158,28 +158,26 @@ narrative: generated
 
 # Control your data
 
-> Data control in Business Central: auditing changes, classifying and masking sensitive data, retention policies, encryption, deleting or compressing data, archiving, personal data requests, and database lock viewing. It answers administrator questions about privacy, storage, and data cleanup.
+> Administration pages on controlling data in Business Central: auditing changes, classifying and masking sensitive data, retention policies, encryption, deleting or compressing data, archiving, personal data requests, and viewing database locks. Use it for questions on data privacy, cleanup, storage and auditing.
 
-Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Control your data · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Control your data · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects the administration tasks for governing data in Business Central. It covers three broad needs: knowing what happened to data (auditing changes, viewing database locks), protecting and handling personal data (classifying sensitivity, masking fields, responding to data subject requests, encryption), and keeping storage under control (retention policies, deleting documents, date compression, and the Data Archive Extension).
+This section covers how administrators govern the data stored in Business Central. It spans three needs: knowing who changed what (change log, field monitoring), protecting and handling sensitive or personal data (sensitivity classification, masking, data subject requests, encryption), and keeping data volume under control (retention policies, document deletion, date compression, data archive).
 
-The pages are independent, so pick by task. For compliance work, start with Classifying data sensitivity and Responding to requests about users' personal data, with Auditing changes to see who changed what. For storage growth, start with Manage storage by deleting documents or compressing data, then Clean up data with retention policies, and the Data Archive Extension if you want to keep compressed or deleted entries.
-
-Encryption management applies only to on-premises, because online encryption is mandatory. Database Locks helps when troubleshooting transaction blocking.
+The pages are independent guides with no subtopics. For privacy work, start with classifying data sensitivity, then responding to personal data requests. For storage and cleanup, read retention policies and the delete/compress page, then the Data Archive extension if compressed entries must be preserved. Database Locks is a separate diagnostic page for lock timeouts.
 
 ## Key points
 
-- Auditing changes uses change log, field monitoring (including sensitive fields), data analysis, and activity logs to show who changed what and when.
-- Data Sensitivity Classification labels sensitive or personal data in standard and custom fields, using the Data Classification Worksheet; masking (MaskType property) hides values, with role-based visibility (2025 release wave 2).
-- Retention policies delete outdated data in log entry and archived record tables, with filters and mandatory retention periods; they run automatically through the job queue or manually.
-- Data subject requests (export, deletion, modification) are handled with the Data Privacy Utility, the Privacy Blocked checkbox, and data portability export.
-- Manage data encryption by generating or importing keys on the server; this is on-premises only since online encryption is mandatory.
-- Batch jobs delete obsolete documents and compress historic entries by date or status to reduce storage.
-- The Data Archive Extension archives entries during date compression, with Excel or CSV export, up to 10,000 records per archive, stored in Tenant Media.
-- The Database Locks page shows a snapshot of current locks to troubleshoot transaction blocking.
+- Auditing changes uses change log, field monitoring, data analysis, and activity logs to show who changed what and when.
+- Data Sensitivity Classification labels sensitive or personal data in standard and custom fields; masking (MaskType property) hides values, with role-based visibility (2025 release wave 2).
+- Retention policies delete outdated data from log entry and archived record tables, by filter and mandatory retention period, automatically via job queue or manually.
+- Data subject requests are handled with the Data Privacy Utility: export, deletion, modification, and the Privacy Blocked checkbox.
+- Data encryption is enabled by generating or importing keys on the server, only for on-premises; online encryption is mandatory.
+- Batch jobs delete obsolete documents and compress historic entries by date or status to manage storage.
+- The Data Archive extension keeps copies of entries removed by date compression and exports them to Excel or CSV.
+- The Database Locks page shows granted and waiting lock requests, with user, session, and executing AL code, to diagnose lock timeouts.
 
 ## Learn pages
 
@@ -192,9 +190,9 @@ Encryption management applies only to on-premises, because online encryption is 
   - In the observatory: [Codeunit 9040 "Date Compression"](../../../../objects/codeunit/9040.md)
 - [Responding to requests about users' personal data](https://learn.microsoft.com/dynamics365/business-central/admin-responding-to-requests-about-personal-data): This article explains how to respond to requests about personal data.
   - In the observatory: [Page 459 "Sales & Receivables Setup"](../../../../objects/page/459.md), [Page 460 "Purchases & Payables Setup"](../../../../objects/page/460.md), [Table 5050 "Contact"](../../../../objects/table/5050.md)
-- [The Data Archive Extension](https://learn.microsoft.com/dynamics365/business-central/admin-archive-data): Archiving data creates a low-cost backup of your records.
+- [The Data Archive Extension](https://learn.microsoft.com/dynamics365/business-central/admin-archive-data): Preserve records before date compression deletes them. Learn how to view data archives, export them to Excel or CSV, and manage archived data.
   - In the observatory: [Page 2500 "Extension Management"](../../../../objects/page/2500.md)
-- [View Database Locks](https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks): Learn how you can view information about customer database locks right from the client interface in Business Central.
+- [View Database Locks](https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks): View a snapshot of database locks in Business Central to identify affected tables, sessions, users, and available details about the executing AL code.
 
 ## Videos, posts and code changes
 

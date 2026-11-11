@@ -2,7 +2,7 @@
   "hub_id": "topic/business-central/analytics-business-intelligence-and-repo",
   "input_hash": "91bdcbefc0dcc599b9ef3404ccbf998e9de0a561df8ef08fb8fe2a613672157f",
   "summary": "Analytics, business intelligence, and reporting in Business Central: KPIs, dashboards, financial reports, ad-hoc analysis, built-in reports, report development, and export to external BI tools such as Power BI and Microsoft Fabric. It answers questions on choosing, running, building, and analyzing reports and data.",
-  "overview": "This section covers how Business Central turns data into information. It starts with an overview page of built-in reporting capabilities: financial reports, KPIs, Power BI apps, data analysis on list pages, Open in Excel, and the Report Explorer. A separate page points to analytics tailored to specific functional areas.\n\nThe subtopics follow the work from end user to developer. End users can track goals with KPIs and dashboards, build financial reports from row and column definitions, analyze data on lists without a report, and run, print, schedule, and share standard reports. The built-in reports subtopic lists what exists for finance, sales, purchasing, fixed assets, project, assembly, manufacturing, and service.\n\nDevelopers and BI teams have their own subtopics. One covers report layouts (Word, Excel, RDLC, external, composite) and datasets in AL. Another covers exporting data to Fabric, Power BI, data warehouses, and data lakes, plus the API v2.0 and performance guidance. Start with the overview page, then pick the subtopic that matches your role.",
+  "overview": "Analytics, business intelligence, and reporting in Business Central is about turning data into information. An overview page describes the built-in reporting capabilities: financial reports, KPIs, Power BI apps, data analysis on list pages, Open in Excel, and the Report Explorer. A separate page points to analytics for specific functional areas.\\n\\nThe subtopics run from end user to developer. End users can track goals with KPIs and dashboards, build financial reports from row and column definitions, analyze data on lists without a report, and run, print, schedule, and share standard reports. The built-in reports subtopic lists the reports for finance, sales, purchasing, fixed assets, project, assembly, manufacturing, and service.\\n\\nDevelopers and BI teams have their own subtopics. One covers report layouts (Word, Excel, RDLC, external, composite) and datasets in AL. Another covers exporting data to Fabric, Power BI, data warehouses, and data lakes, plus the API v2.0 and performance guidance. Start with the overview page, then pick the subtopic that matches your role.",
   "key_points": [
     "The overview page lists the core capabilities: financial reports, KPIs, Power BI apps, data analysis on list pages, Open in Excel, and the Report Explorer.",
     "Financial reports are built from row and column definitions with G/L account categories, and can connect to Power BI.",
@@ -11,7 +11,7 @@
     "Built-in reports are organized by area (finance, sales, purchasing, fixed assets, project, assembly, manufacturing, service) and reached through the Report Explorer.",
     "Report development in AL covers Word, Excel, RDLC, external, and composite layouts, and how datasets, layouts, and request pages fit together.",
     "External BI options include exporting to Microsoft Fabric, Power BI, data warehouses, and data lakes, mirroring to Fabric, and the Business Central API v2.0.",
-    "Built-in reports also include the Notification Email report and report generation telemetry."
+    "The built-in reports subtopic also covers the Notification Email report and report generation telemetry."
   ],
   "members_used": 2,
   "subtopics_used": 6,
@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.015473
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-11T00:59:19.156Z",
+    "verdict": "fix",
+    "issues": [
+      "Last key point says built-in reports 'include' report generation telemetry; the source only says the Built-in reports subtopic also covers the Notification Email report and report generation telemetry. Telemetry is not a report. Reworded.",
+      "Overview opens with 'This section covers', which is close to the banned 'This hub' phrasing. Rewritten to start with the subject."
+    ],
+    "input_hash": "91bdcbefc0dcc599b9ef3404ccbf998e9de0a561df8ef08fb8fe2a613672157f",
+    "cost_usd": 0.06048
   }
 }

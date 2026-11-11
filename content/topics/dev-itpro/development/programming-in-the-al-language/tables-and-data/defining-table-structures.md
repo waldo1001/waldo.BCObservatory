@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.962Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -182,7 +182,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#158 3 AL/BC patterns from CURABIS's internal automated-testing training material](../../../../../changes/bcquality/158.md) (code change): "Item Ledger Entry carries the shipment's document number, not the invoice number"
 - [#208 2 AL/BC patterns: TableRelation field length and RecordRef.Open Temp parameter](../../../../../changes/bcquality/208.md) (code change): "Table relation fields shorter than their target compile cleanly but fail at runtime"
 - [#237 knowledge(data-modeling): keep business state independent of Job Queue lifetime](../../../../../changes/bcquality/237.md) (code change): "storing it on business-owned records rather than relying on Job Queue Entry existence"
-- [#256 Fixtures: make two samples comply with the sibling articles they trip](../../../../../changes/bcquality/256.md) (code change): "Added OnDelete handlers to owning tables to properly delete dependent records"
+- [#256 Fixtures: make two samples comply with the sibling articles they trip](../../../../../changes/bcquality/256.md) (code change): "upgrade tag in the InitValue good sample is now registered"
 - [How to Use Concealed Text Fields in Business Central AL](../../../../../posts/aardvarklabs-blog/2827.md) (community post): "Developers set MaskType = Concealed on field definitions in AL code"
 - [Business Central v29: SQL Table Extensions Redesign Explained](../../../../../posts/aardvarklabs-blog/3983.md) (community post): "storing all custom fields directly in the primary SQL table"
 - [Dynamics 365 Business Central: previewing PDF files in web client using the new ExtendedDataType = Document.](../../../../../posts/demiliani-com/12623.md) (community post): "Allows rendering PDF files and images in FactBox elements"

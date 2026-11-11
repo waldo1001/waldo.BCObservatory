@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/developing-reports
 type: topic
 title: Developing reports
-summary: "Developing reports in AL for Business Central: report objects, datasets, layouts (Word, Excel, RDL), request pages, report extensions, substitution, obsoleting, telemetry, performance, testing and troubleshooting. It answers how to build, extend, format, expose, monitor and retire reports."
+summary: "Developing reports in AL for Business Central: report objects, datasets, request pages, layouts (Word, Excel, RDLC/RDL), report extensions, substitution, obsoleting, testing, telemetry and performance. Answers how-to, design and troubleshooting questions for report developers."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T21:13:11.945Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 053ebcb2229c2718ec1c7a7885354432a7e2a5c1e3edd457808fcc5e8e0fb756
+  input_hash: 2d7b6aae98f0da9989382dc541248802de1ea2208881be24444ef3fa179d3170
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
@@ -61,13 +61,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts
-    title: Assign document layouts to customers or vendors
-    date: "2024-11-28"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
     title: Available fonts
     date: "2025-02-28"
@@ -78,6 +71,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts
     title: Barcode Fonts with Business Central Online
     date: "2021-10-29"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
+    title: Create Excel Report Layouts in Business Central
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -103,6 +103,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts
+    title: Define Document Layouts for Customers and Vendors
+    date: "2026-11-10"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-multiple-report-layouts
     title: Defining multiple report layouts
     date: "2024-01-20"
@@ -112,7 +119,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in
     title: Design Word Layouts with the Business Central Add-in
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -161,7 +168,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout
     title: Map Data Fields in Word Layouts
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -291,13 +298,6 @@ evidence:
     commit: null
     t: null
     quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-triggers
-    title: Report Triggers and Runtime Operations
-    date: "2021-05-17"
-    commit: null
-    t: null
-    quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-obsoletion
@@ -325,6 +325,7 @@ links:
     - object/page/9650
     - object/page/9652
     - object/page/9660
+    - object/page/9662
     - object/page/9666
     - object/page/9882
   features: []
@@ -340,6 +341,7 @@ links:
   videos:
     - video/eUkx_VCcyoU
     - video/M1S2_bgLd3Q
+    - video/TY82NR2hGEg
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5
     - post/thinkaboutit-be/7181
@@ -381,8 +383,8 @@ children:
   - topic/dev-itpro/development/programming-in-the-al-language/developing-reports/al-language-reference-reports
 coverage:
   learn: 54
-  code: 12
-  video: 2
+  code: 13
+  video: 3
   blog: 13
   guideline: 0
 bc_forms:
@@ -396,6 +398,7 @@ bc_forms:
   - 9650
   - 9652
   - 9660
+  - 9662
   - 9666
   - 9882
 member_hash: 86f764373eee65f2aaea2ba6017998ee632ccc264ede4a68720e19417f2f99bf
@@ -404,28 +407,28 @@ narrative: generated
 
 # Developing reports
 
-> Developing reports in AL for Business Central: report objects, datasets, layouts (Word, Excel, RDL), request pages, report extensions, substitution, obsoleting, telemetry, performance, testing and troubleshooting. It answers how to build, extend, format, expose, monitor and retire reports.
+> Developing reports in AL for Business Central: report objects, datasets, request pages, layouts (Word, Excel, RDLC/RDL), report extensions, substitution, obsoleting, testing, telemetry and performance. Answers how-to, design and troubleshooting questions for report developers.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Developing reports · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Developing reports · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-A report in AL is built from a dataset (data items and columns taken from tables), one or more layouts (Word, Excel, RDL or custom), and an optional request page where users set options and filters. The Reports overview, Report Design Overview and Report object pages introduce these parts, and the walkthrough on designing a report from multiple tables shows an RDL report from dataset to totals and an Excel layout.
+This section covers the full life of an AL report. It starts with the report object, the dataset (data items and columns) and the request page, then moves to layouts in Excel, Word and RDL. A walkthrough shows how to design an RDL report from multiple tables.
 
-Subtopics go deeper on single areas: formatting report data, report layouts, discoverability (how users find reports), triggers and events, and how users run, print and save reports. Further pages cover extending reports with report extension objects, substituting reports through an event, and obsoleting reports and layouts.
+Subtopics go deeper on report layouts, formatting report data, triggers and events, discoverability, and how users run, preview, print and schedule reports. Further pages cover extending reports with report extension objects, substituting reports through an event, obsoleting reports, and testing report output.
 
-For running reports in production, the telemetry, performance and troubleshooting pages explain how to find slow or failing runs. The test reports page covers verifying output with a report dataset library. Start with Reports overview and Report object, then move to dataset and layouts.
+For operations, the telemetry, performance and troubleshooting pages explain how to analyze slow or failing reports. Start with Reports overview and Report Design Overview, then Report dataset and Report object, and go to the subtopics for layout or formatting detail.
 
 ## Key points
 
-- A report combines a dataset (data items and columns), layouts (Excel, Word, RDL) and a request page.
-- Report extension objects add columns, data items, triggers, request page elements and layouts to existing reports; a worked food inventory example shows the table and report extension code.
-- Report substitution uses the OnAfterSubstituteReport event in Codeunit 44 ReportManagement; from 2021 release wave 1, report extensions are an alternative.
-- Obsoleting reports uses ObsoleteReason, ObsoleteTag and ObsoleteState, with layout-level obsolescence from 2025 release wave 1; deprecation is also communicated via captions, search terms and help content.
-- Request pages let users set options and filters before a report runs, using properties such as RequestFilterFields and SaveValues; teaching tips, help links and saved settings are also covered.
-- Report generation telemetry tracks successful, failed and canceled runs, dataset and rendering time, SQL execution, and output formats, and supports performance analysis.
-- Performance strategies include read scale-out, background scheduling and query optimization.
-- Testing uses Codeunit 131007 Library - Report Dataset, with methods like RunReportAndLoad and AssertElementWithValueExists.
+- A report is built from a dataset (data items and columns), one or more layouts (Excel, Word, RDL) and an optional request page.
+- Request pages let users set options and filters before a report runs, using properties such as RequestFilterFields and SaveValues.
+- Report extension objects add columns, data items, triggers, request page elements and layouts to existing reports (2022 release wave 1 page).
+- Report substitution uses the OnAfterSubstituteReport event in Codeunit 44 ReportManagement; since 2021 release wave 1, report extensions are an alternative.
+- Obsoleting reports uses ObsoleteReason, ObsoleteTag and ObsoleteState, with layout-level obsolescence from 2025 release wave 1.
+- Report generation telemetry tracks successful, failed and canceled runs, dataset and rendering time, and SQL execution, and it supports performance analysis and troubleshooting.
+- Codeunit 131007 Library - Report Dataset supports testing report output with methods like RunReportAndLoad and AssertElementWithValueExists.
+- Subtopics cover formatting data (AutoFormatType, DecimalPlaces), layouts, discoverability (UsageCategory, AdditionalSearchTerms), triggers and events, and user-side report handling.
 
 ## Subtopics
 
@@ -495,6 +498,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 2 (BC29): Use cross-platform report layout paths (forward slashes or backslashes)](../../../../posts/yzhums-com/76319.md) (community post): "Report layout and analysis view paths to use either forward or backward slashes"
 - [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "reports; strings; json; yaml; testing; Report Tooltips; Excel Layout"
 - [What's New: Server and Database (2025 release wave 2)](../../../../videos/M1S2_bgLd3Q.md) (video): "Server and Database analysis mode semantic search advanced tell me document reporting"
+- [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../videos/TY82NR2hGEg.md) (video): "AL Doc reference documentation tool; XML documentation comments in AL"
 
 ## Business Central pages and reports
 
@@ -510,6 +514,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9650 "Custom Report Layouts"](../../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../../objects/table/9650.md) · via [Report layouts](developing-reports/report-layouts.md)
 - [Page 9652 "Report Layout Selection"](../../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../../objects/table/9651.md) · via [Report layouts](developing-reports/report-layouts.md)
 - [Page 9660 "Report Layouts"](../../../../objects/page/9660.md) · via [Report layouts](developing-reports/report-layouts.md)
+- [Page 9662 "Report Layout New Dialog"](../../../../objects/page/9662.md) · captioned "Add New Layout for a Report" · via [Report layouts](developing-reports/report-layouts.md)
 - [Page 9666 "Report Theme and Header/Footer"](../../../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts" · via [Report layouts](developing-reports/report-layouts.md)
 - [Page 9882 "Report Res. Govern. Settings"](../../../../objects/page/9882.md) · captioned "Report Limits and Settings" · via [Formatting report data](developing-reports/formatting-report-data.md)
 

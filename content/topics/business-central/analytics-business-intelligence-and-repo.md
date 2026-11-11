@@ -7,12 +7,12 @@ tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-11T00:59:19.156Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,8 +41,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-data-analysis-by-functional-area
-    title: Ad-hoc data analysis by functional area
-    date: "2024-05-01"
+    title: Ad-Hoc Data Analysis by Functional Area
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -76,8 +76,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel
-    title: Analyzing report data with Excel and XML
-    date: "2024-09-09"
+    title: Analyze Report Datasets with Excel and XML
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -104,7 +104,7 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-bookmarks
-    title: Bookmark link to page or report on role center
+    title: Bookmark a Page or Report on Your Role Center
     date: "2024-07-25"
     commit: null
     t: null
@@ -159,9 +159,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
+    title: Create Excel Report Layouts in Business Central
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in
     title: Design Word Layouts with the Business Central Add-in
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -224,7 +231,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout
     title: Map Data Fields in Word Layouts
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -287,13 +294,6 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/production-reports
     title: Production Reports and Analytics
-    date: "2026-09-18"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/project-reports
-    title: Project Reports
     date: "2026-09-18"
     commit: null
     t: null
@@ -383,6 +383,7 @@ links:
     - object/page/9650
     - object/page/9652
     - object/page/9660
+    - object/page/9662
     - object/page/9663
     - object/page/9666
     - object/page/9670
@@ -648,7 +649,7 @@ children:
   - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to
 coverage:
   learn: 69
-  code: 314
+  code: 315
   video: 4
   blog: 2
   guideline: 0
@@ -855,6 +856,7 @@ bc_forms:
   - 9650
   - 9652
   - 9660
+  - 9662
   - 9663
   - 9666
   - 9670
@@ -967,15 +969,11 @@ narrative: generated
 
 > Analytics, business intelligence, and reporting in Business Central: KPIs, dashboards, financial reports, ad-hoc analysis, built-in reports, report development, and export to external BI tools such as Power BI and Microsoft Fabric. It answers questions on choosing, running, building, and analyzing reports and data.
 
-Path: Analytics, business intelligence, and reporting · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
+Path: Analytics, business intelligence, and reporting · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section covers how Business Central turns data into information. It starts with an overview page of built-in reporting capabilities: financial reports, KPIs, Power BI apps, data analysis on list pages, Open in Excel, and the Report Explorer. A separate page points to analytics tailored to specific functional areas.
-
-The subtopics follow the work from end user to developer. End users can track goals with KPIs and dashboards, build financial reports from row and column definitions, analyze data on lists without a report, and run, print, schedule, and share standard reports. The built-in reports subtopic lists what exists for finance, sales, purchasing, fixed assets, project, assembly, manufacturing, and service.
-
-Developers and BI teams have their own subtopics. One covers report layouts (Word, Excel, RDLC, external, composite) and datasets in AL. Another covers exporting data to Fabric, Power BI, data warehouses, and data lakes, plus the API v2.0 and performance guidance. Start with the overview page, then pick the subtopic that matches your role.
+Analytics, business intelligence, and reporting in Business Central is about turning data into information. An overview page describes the built-in reporting capabilities: financial reports, KPIs, Power BI apps, data analysis on list pages, Open in Excel, and the Report Explorer. A separate page points to analytics for specific functional areas.\n\nThe subtopics run from end user to developer. End users can track goals with KPIs and dashboards, build financial reports from row and column definitions, analyze data on lists without a report, and run, print, schedule, and share standard reports. The built-in reports subtopic lists the reports for finance, sales, purchasing, fixed assets, project, assembly, manufacturing, and service.\n\nDevelopers and BI teams have their own subtopics. One covers report layouts (Word, Excel, RDLC, external, composite) and datasets in AL. Another covers exporting data to Fabric, Power BI, data warehouses, and data lakes, plus the API v2.0 and performance guidance. Start with the overview page, then pick the subtopic that matches your role.
 
 ## Key points
 
@@ -986,7 +984,7 @@ Developers and BI teams have their own subtopics. One covers report layouts (Wor
 - Built-in reports are organized by area (finance, sales, purchasing, fixed assets, project, assembly, manufacturing, service) and reached through the Report Explorer.
 - Report development in AL covers Word, Excel, RDLC, external, and composite layouts, and how datasets, layouts, and request pages fit together.
 - External BI options include exporting to Microsoft Fabric, Power BI, data warehouses, and data lakes, mirroring to Fabric, and the Business Central API v2.0.
-- Built-in reports also include the Notification Email report and report generation telemetry.
+- The built-in reports subtopic also covers the Notification Email report and report generation telemetry.
 
 ## Subtopics
 
@@ -1164,6 +1162,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9650 "Custom Report Layouts"](../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../objects/table/9650.md) · via [Use reports in daily work](analytics-business-intelligence-and-repo/use-reports-in-daily-work.md)
 - [Page 9652 "Report Layout Selection"](../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../objects/table/9651.md) · via [Use reports in daily work](analytics-business-intelligence-and-repo/use-reports-in-daily-work.md)
 - [Page 9660 "Report Layouts"](../../objects/page/9660.md) · via [Develop reports](analytics-business-intelligence-and-repo/develop-reports.md)
+- [Page 9662 "Report Layout New Dialog"](../../objects/page/9662.md) · captioned "Add New Layout for a Report" · via [Develop reports](analytics-business-intelligence-and-repo/develop-reports.md)
 - [Page 9663 "Tenant Report Layout Cfg"](../../objects/page/9663.md) · captioned "Report defaults for theme and header-footer" · via [Develop reports](analytics-business-intelligence-and-repo/develop-reports.md)
 - [Page 9666 "Report Theme and Header/Footer"](../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts" · via [Develop reports](analytics-business-intelligence-and-repo/develop-reports.md)
 - [Page 9670 "Layout Theme and Header/Footer"](../../objects/page/9670.md) · captioned "Theme and header-footer per layout" · via [Develop reports](analytics-business-intelligence-and-repo/develop-reports.md)

@@ -12,7 +12,7 @@ review:
   at: "2026-11-03T01:02:12.823Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -324,6 +324,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/11096
+    - change/bcapps/11563
     - change/bcapps/11745
     - change/bcapps/11967
     - change/bcapps/12133
@@ -403,6 +404,7 @@ Start with the publishing subtopic to expose an endpoint, then the OData, SOAP o
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11096 PEPPOL FR improvements](../../../changes/bcapps/11096.md) (code change): "PEPPOL FR improvements French PEPPOL exports now correctly handle billing profiles"
+- [#11563 [E-Documents Core] [Peppol] - Add PEPPOL Requested Delivery Period support (header + line)](../../../changes/bcapps/11563.md) (code change): "Add PEPPOL Requested Delivery Period support header + line"
 - [#11745 Bug 648781: check the party identifier that the PEPPOL export will use](../../../changes/bcapps/11745.md) (code change): "PEPPOL validation now uses the same party identifier provider as export"
 - [#11967 Block Edit in Excel for pages based on the User table](../../../changes/bcapps/11967.md) (code change): "Edit in Excel now blocks page-based editing for tables"
 - [#12133 Block file scheme in Web Request Helper](../../../changes/bcapps/12133.md) (code change): "Web Request Helper now rejects file:// URLs before creating HTTP requests"

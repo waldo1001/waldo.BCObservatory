@@ -11,12 +11,19 @@ review:
   at: "2026-10-07T02:26:18.313Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
   input_hash: 3e7d624bfa061dd15b43e694eb3e0eee27515a1ec6a55142c9555e797489baf9
 evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/teams-faq
+    title: Business Central and Microsoft Teams FAQ
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-search-faq
     title: Frequently Asked Questions about Tell Me
@@ -38,19 +45,12 @@ evidence:
     commit: null
     t: null
     quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/teams-faq
-    title: Teams FAQ
-    date: "2025-01-06"
-    commit: null
-    t: null
-    quote: null
 links:
   learn:
+    - https://learn.microsoft.com/dynamics365/business-central/teams-faq
     - https://learn.microsoft.com/dynamics365/business-central/ui-search-faq
     - https://learn.microsoft.com/dynamics365/business-central/chat-with-copilot-faq
     - https://learn.microsoft.com/dynamics365/business-central/product-requirements
-    - https://learn.microsoft.com/dynamics365/business-central/teams-faq
   objects: []
   features: []
   topics:
@@ -101,9 +101,10 @@ Start with "Minimum requirements in using Business Central" to check supported b
 
 ## Learn pages
 
+- [Business Central and Microsoft Teams FAQ](https://learn.microsoft.com/dynamics365/business-central/teams-faq): Get answers about Business Central in Microsoft Teams, including contact search, shared cards, tabs, permissions, guest access, and card details.
+  - In the observatory: [Page 2616 "Printer Management"](../../../objects/page/2616.md), [Page 5050 "Contact Card"](../../../objects/page/5050.md)
 - [Frequently Asked Questions about Tell Me](https://learn.microsoft.com/dynamics365/business-central/ui-search-faq): This article provides answers to questions that our partners and customers often ask about the Tell Me feature.
 - [Microsoft Copilot in Business Central FAQ](https://learn.microsoft.com/dynamics365/business-central/chat-with-copilot-faq): Find answers to common questions about Microsoft Copilot in Business Central, including access, licensing, capabilities, settings, and limitations.
 - [Minimum requirements in using Business Central](https://learn.microsoft.com/dynamics365/business-central/product-requirements): Learn about the minimum system and version requirements for using Business Central online outlined below.
-- [Teams FAQ](https://learn.microsoft.com/dynamics365/business-central/teams-faq): Get answers for some typical questions about working with Teams and Business Central.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

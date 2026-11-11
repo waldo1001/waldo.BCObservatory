@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -181,6 +181,7 @@ links:
     - topic/business-central/business-functionality/finance
   localizations: []
   videos:
+    - video/_ynMUzh956w
     - video/1ugAYeEZLaU
     - video/BZF4MrVfvfY
     - video/fIktVTGZkjE
@@ -236,7 +237,7 @@ children: []
 coverage:
   learn: 12
   code: 59
-  video: 12
+  video: 13
   blog: 11
   guideline: 0
 bc_forms:
@@ -380,6 +381,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: “There is nothing to post because the journal does not contain a quantity or amount” when posting Recurring Journals](../../../../posts/yzhums-com/66675.md) (community post): "Recurring journals allow posting of fixed and variable amounts for repetitive transactions"
 - [Dynamics 365 Business Central: Require users to enter a more detailed description when posting a journal line of type G/L Account (Omit Default Descr. in Jnl.)](../../../../posts/yzhums-com/67275.md) (community post): "Journal descriptions carry over to G/L entries, so better descriptions improve the audit trail"
 - [Dynamics 365 Business Central: How to copy (synchronize) the Incoming Document to all Gen. Journal Lines](../../../../posts/yzhums-com/71645.md) (community post): "Incoming documents in BC can be attached to general journal lines but are limited"
+- [Introducing: Sustainability in Business Central (2024 release wave 1)](../../../../videos/_ynMUzh956w.md) (video): "chart of accounts sustainability journals emission factors scope tracking"
 - [Working with Amount Fields](../../../../videos/1ugAYeEZLaU.md) (video): "amount fields; debit and credit; general ledger"
 - [What's New: Fixed and Variable G/L Allocations (2023 release wave 2)](../../../../videos/BZF4MrVfvfY.md) (video): "Fixed and Variable G/L Allocations"
 - [Comparing Correcting and Reversing Entries Between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/fIktVTGZkjE.md) (video): "correcting entries; reversing entries; journal entries; dimensions; general ledger; posting"

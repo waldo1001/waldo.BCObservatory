@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/program-building-blocks
 type: topic
 title: Program building blocks
-summary: Program building blocks in AL covers operators, statements, system-defined variables, access modifiers and XML comments. It answers questions about AL syntax, operator precedence, flow control, symbol visibility and inline code documentation.
+summary: Program building blocks in AL covers statements, operators, system-defined variables, access modifiers and XML comments. It answers questions about AL syntax, code flow, operator precedence, Rec and xRec, member visibility, and inline documentation.
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:23:22.505Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 3a1afe9b5edb539fe5fc733ebda4f0297c079e9a26540abb454f45774c1c38da
+  input_hash: bbcd72cd48d0ed4ccd20361ea9b9ed1ef5704f7a1bdd7d3e35aa52fbbd709335
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-control-statements
@@ -96,26 +96,27 @@ narrative: generated
 
 # Program building blocks
 
-> Program building blocks in AL covers operators, statements, system-defined variables, access modifiers and XML comments. It answers questions about AL syntax, operator precedence, flow control, symbol visibility and inline code documentation.
+> Program building blocks in AL covers statements, operators, system-defined variables, access modifiers and XML comments. It answers questions about AL syntax, code flow, operator precedence, Rec and xRec, member visibility, and inline documentation.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Program building blocks · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Program building blocks · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects the core elements used to write AL code. The reference pages cover operators, system-defined variables such as Rec and CurrPage, access modifiers for controlling visibility, and XML comments for documentation. A Statements subtopic covers simple and control statements.
+This section collects the core elements used to write AL code in Business Central. It combines language syntax (statements and operators) with variables the runtime provides, rules for visibility, and conventions for documenting code.
 
-Start with Statements and AL operators to learn syntax and evaluation order. Then read System-defined variables to see how code reaches the current record, page or report. Use Access Modifiers when designing APIs, and XML comments when documenting code for IntelliSense and ALDoc.
+The Statements subtopic covers simple statements (assignment, method calls, AssertError) and control statements (compound, if-then-else, case, for, foreach, while, repeat-until). The AL operators page lists arithmetic, comparison, logical, conditional and compound assignment operators, plus evaluation order. Start with these two for general syntax questions.
+
+The other pages deal with specific needs. System-defined variables explain access to the current record, page and report. Access modifiers explain how to control visibility when designing APIs. XML comments explain how to document code for IntelliSense and ALDoc.
 
 ## Key points
 
-- AL operators page lists arithmetic, comparison, logical, conditional and compound assignment operators, plus precedence (operator hierarchy).
-- Statements subtopic (2 pages) covers simple statements: assignment, method calls, AssertError.
-- Control statements include if-then-else, case, for, foreach, while, repeat-until, break and continue.
-- System-defined variables include Rec, xRec, CurrPage, CurrReport, RequestOptionsPage and CurrFieldNo.
-- Access modifiers are internal, local, protected and public, enforced at compile time for tables, fields, codeunits and queries.
-- The internalsVisibleTo setting is described alongside internal access.
+- Statements subtopic: simple statements (assignment, method, AssertError) and control statements (compound, if-then-else, case, for, foreach, while, repeat-until).
+- AL operators page documents general, arithmetic, comparison, logical, conditional and compound assignment operators, with operator hierarchy precedence.
+- System-defined variables include Rec, xRec, CurrPage, CurrReport, RequestOptionsPage and CurrFieldNo, giving access to current records, pages and reports during execution.
+- Access modifiers are internal, local, protected and public, and control visibility of tables, fields, codeunits and queries at compile time.
+- The internalsVisibleTo setting is covered under access modifiers for exposing internal members.
 - XML comments use triple slashes and supported XML tags on codeunits, tables, interfaces and methods.
-- XML comments enable IntelliSense and autogenerated help with ALDoc.
+- XML comments enable IntelliSense and autogenerated help documentation with ALDoc.
 
 ## Subtopics
 

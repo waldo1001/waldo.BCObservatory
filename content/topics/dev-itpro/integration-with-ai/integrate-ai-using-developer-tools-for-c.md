@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -214,14 +214,13 @@ links:
     - post/aardvarklabs-blog/2467
     - post/aardvarklabs-blog/2663
     - post/aardvarklabs-blog/2965
-    - post/demiliani-com/12036
     - post/thinkaboutit-be/8204
   guidelines: []
   changes:
     - change/al-go/2413
     - change/bcapps/11073
     - change/bcapps/12428
-    - change/bcquality/155
+    - change/bcquality/246
     - change/bcquality/84
 learn_toc_path:
   - Integration with AI
@@ -234,7 +233,7 @@ coverage:
   learn: 24
   code: 0
   video: 3
-  blog: 8
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -290,15 +289,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2413 Only enable automatic Copilot review triggers when opted in](../../../changes/al-go/2413.md) (code change): "Copilot review workflows ship with only manual dispatch triggers by default"
 - [#11073 Validate image content before sending to Computer Vision](../../../changes/bcapps/11073.md) (code change): "Image Analysis Management now validates image content before sending"
 - [#12428 Add Copilot feature trial interface](../../../changes/bcapps/12428.md) (code change): "Added a public Copilot feature trial interface to System Application"
-- [#155 Add read-only AL development plan guidance](../../../changes/bcquality/155.md) (code change): "extended metadata and JSON schemas while keeping implementation"
-- [#84 Package BCQuality as an installable plugin (experiment)](../../../changes/bcquality/84.md) (code change): "Experimentally packages BCQuality as an installable plugin for Copilot CLI and Claude Code hosts"
+- [#246 Expose plan guidance as a preview plugin skill](../../../changes/bcquality/246.md) (code change): "BCQuality now exposes plan guidance as a preview plugin skill"
+- [#84 Package BCQuality as an installable plugin (experiment)](../../../changes/bcquality/84.md) (code change): "packages BCQuality as an installable plugin for Copilot CLI"
 - [Integrating AI in Business Central: A Step-by-Step Guide](../../../posts/aardvarklabs-blog/1609.md) (community post): "building a custom AI-powered Copilot agent in Business Central"
 - [Creating Data Driven Text with AI in Business Central](../../../posts/aardvarklabs-blog/1816.md) (community post): "build a Copilot in Business Central that generates personalized reminder text"
 - [Implementing a Multi-Step Process for AI Recommendations in Business Central](../../../posts/aardvarklabs-blog/1891.md) (community post): "This post demonstrates how to build a multi-step AI-assisted process in Business Central"
 - [Enhancing Business Central with Address Validation AI](../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses"
 - [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "Azure OpenAI in Business Central AL: Managed vs Unmanaged"
 - [Step-by-Step Guide to AI Campaigns in Business Central](../../../posts/aardvarklabs-blog/2965.md) (community post): "Leverages Business Central's managed AI resource with Bing Grounded Search"
-- [Why not start improving Business Central APIs definitions for supporting AI?](../../../posts/demiliani-com/12036.md) (community post): "Business Central APIs lack AI-ready metadata that LLMs need"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "build Copilot extensions using Microsoft-managed Azure OpenAI resources"
 - [What's New: AI Development Toolkit (2026 release wave 1)](../../../videos/juUBVPfIp8A.md) (video): "Content filtering policies; Prompt injection protection"
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../videos/NE7NIjpkX3c.md) (video): "copilot extension; cloud deployment; large language models; prompt engineering"

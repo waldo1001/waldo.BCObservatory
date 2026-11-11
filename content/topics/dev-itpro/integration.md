@@ -12,7 +12,7 @@ review:
   at: "2026-11-08T01:01:45.873Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -168,7 +168,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-onedrive-overview
     title: Business Central and OneDrive for Business Integration
-    date: "2025-10-17"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -324,8 +324,8 @@ links:
     - object/page/9061
     - object/page/9062
     - object/page/9069
-    - object/page/9650
-    - object/page/9652
+    - object/page/9660
+    - object/page/9662
     - object/page/9800
     - object/page/9802
     - object/page/9807
@@ -438,8 +438,8 @@ bc_forms:
   - 9062
   - 9069
   - 9173
-  - 9650
-  - 9652
+  - 9660
+  - 9662
   - 9800
   - 9802
   - 9807
@@ -573,8 +573,8 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9061 "Plan Configuration List"](../../objects/page/9061.md) · captioned "License Configuration" · on [Table 9017 "Plan Configuration"](../../objects/table/9017.md) · via [Integrating with infrastructure services](integration/integrating-with-infrastructure-services.md)
 - [Page 9062 "User Security Activities"](../../objects/page/9062.md) · on [Table 9062 "User Security Status"](../../objects/table/9062.md) · via [Integrating with infrastructure services](integration/integrating-with-infrastructure-services.md)
 - [Page 9069 "Plan Configuration Card"](../../objects/page/9069.md) · captioned "License Configuration" · on [Table 9017 "Plan Configuration"](../../objects/table/9017.md) · via [Integrating with infrastructure services](integration/integrating-with-infrastructure-services.md)
-- [Page 9650 "Custom Report Layouts"](../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../objects/table/9650.md) · via [Integrating Business Central with Office apps and Microsoft 365](integration/integrating-business-central-with-office.md)
-- [Page 9652 "Report Layout Selection"](../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../objects/table/9651.md) · via [Integrating Business Central with Office apps and Microsoft 365](integration/integrating-business-central-with-office.md)
+- [Page 9660 "Report Layouts"](../../objects/page/9660.md) · via [Integrating Business Central with Office apps and Microsoft 365](integration/integrating-business-central-with-office.md)
+- [Page 9662 "Report Layout New Dialog"](../../objects/page/9662.md) · captioned "Add New Layout for a Report" · via [Integrating Business Central with Office apps and Microsoft 365](integration/integrating-business-central-with-office.md)
 - [Page 9800 "Users"](../../objects/page/9800.md) · via [Integrating with infrastructure services](integration/integrating-with-infrastructure-services.md)
 - [Page 9802 "Permission Sets"](../../objects/page/9802.md) · on [Table 9009 "Permission Set Buffer"](../../objects/table/9009.md) · via [Integrating with infrastructure services](integration/integrating-with-infrastructure-services.md)
 - [Page 9807 "User Card"](../../objects/page/9807.md) · via [Integrating with infrastructure services](integration/integrating-with-infrastructure-services.md)

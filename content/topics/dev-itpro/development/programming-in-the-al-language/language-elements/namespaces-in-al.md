@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:23.659Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,8 +43,6 @@ links:
   localizations: []
   videos:
     - video/KmuTVkodRXM
-    - video/nMiLzdfidos
-    - video/TY82NR2hGEg
   posts:
     - post/aardvarklabs-blog/3255
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-21-27-2026--a323467e2a
@@ -64,7 +62,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 3
+  video: 1
   blog: 6
   guideline: 0
 bc_forms: []
@@ -113,7 +111,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 1 (BC28): Run AL objects and open record references using fully qualified names (Support for namespaces and fully qualified names)](../../../../../posts/yzhums-com/71262.md) (community post): "support for namespaces and fully qualified names in AL, allowing developers to run"
 - [Business Central 2026 release wave 2 (BC29): Translate objects with the same name in different namespaces (Translations with namespaces)](../../../../../posts/yzhums-com/76334.md) (community post): "namespace-aware translation identifiers that allow identically named AL objects"
 - [All new goodies about AL Namespace in BC 2025 wave 2](../../../../../videos/KmuTVkodRXM.md) (video): "AL namespace; record id formatting; system reflection; fully qualified names"
-- [What's New: AL Language (2026 release wave 1)](../../../../../videos/nMiLzdfidos.md) (video): "json support; data transfer; namespaces; fully qualified names"
-- [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../../videos/TY82NR2hGEg.md) (video): "Namespaces in AL language; Using directives for namespace imports"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

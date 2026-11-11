@@ -12,7 +12,7 @@ review:
   at: "2026-11-07T01:06:35.638Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -244,8 +244,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-enter-external-document-numbers
-    title: Enter external document numbers
-    date: "2025-10-14"
+    title: Enter External Document Numbers
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -747,7 +747,7 @@ The Sales section describes how to sell products and manage the documents and cu
   - In the observatory: [Page 132 "Posted Sales Invoice"](../../../objects/page/132.md), [Page 143 "Posted Sales Invoices"](../../../objects/page/143.md)
 - [Create a customer sales order and sell products](https://learn.microsoft.com/dynamics365/business-central/sales-how-sell-products): Describes how to create a sales order to record your agreement with a customer to sell or trade products under specific terms.
 - [Delivery date calculation for sales](https://learn.microsoft.com/dynamics365/business-central/sales-date-calculation-for-sales): The application automatically calculates the date on which you must order an item to have it in inventory on a certain date and available for picking.
-- [Enter external document numbers](https://learn.microsoft.com/dynamics365/business-central/across-enter-external-document-numbers): Enter external document numbers for customers and vendors in sales and purchase orders, invoices, and credit memos. Use these numbers to easily find posted sales and purchase lines.
+- [Enter External Document Numbers](https://learn.microsoft.com/dynamics365/business-central/across-enter-external-document-numbers): Enter customer and vendor document numbers on sales and purchase documents so you can find related entries and avoid duplicate purchase invoices.
 - [How to combine shipments on a single invoice](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-combine-shipments-on-a-single-invoice): Use the Combine Shipments feature to invoice multiple posted shipments for the same customer and currency on a single sales or service invoice.
 - [How to Create special orders](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-special-orders): Learn how to create a special order for a specific catalog item to be shipped to a specific customer.
   - In the observatory: [Page 42 "Sales Order"](../../../objects/page/42.md)

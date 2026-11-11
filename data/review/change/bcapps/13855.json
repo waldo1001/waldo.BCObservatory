@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13855",
+  "input_hash": "e02ebe9552bbf5b86ed1889a925339b41cbc4e03756d3d3560e40c2c0f2c049d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-11T00:57:28.137Z",
+  "issues": [
+    "The cause (blank records default to numeric 0), the fix (exclude blank values in the decimal lookup) and the tests all match the description."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02167,
+    "changes_in_call": 5
+  }
+}

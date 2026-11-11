@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/13759",
+  "input_hash": "0b6565cfa287de57ea63de4cf14c4fb2c633eb94c90a7908b86f88332a2f1f48",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-11T00:57:29.606Z",
+  "issues": [
+    "This removes obsolete objects, fields and procedures guarded by CLEAN27, including 140 deleted files and the Customer 'Invoice Copies' field. Extensions that still reference them can stop compiling, so breaking should be true.",
+    "The summary and key points are supported by the description."
+  ],
+  "applied": [
+    "breaking true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.044078,
+    "changes_in_call": 6
+  }
+}

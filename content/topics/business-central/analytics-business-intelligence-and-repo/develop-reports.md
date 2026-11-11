@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:19.086Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -26,9 +26,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
+    title: Create Excel Report Layouts in Business Central
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in
     title: Design Word Layouts with the Business Central Add-in
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -49,7 +56,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout
     title: Map Data Fields in Word Layouts
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -89,13 +96,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
-    title: Working with Excel layouts
-    date: "2024-09-09"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-rdlc-report-layouts
     title: Working with RDLC Layouts
     date: "2026-06-17"
@@ -109,6 +109,7 @@ links:
     - object/page/9650
     - object/page/9652
     - object/page/9660
+    - object/page/9662
     - object/page/9663
     - object/page/9666
     - object/page/9670
@@ -121,6 +122,7 @@ links:
   videos:
     - video/fy96_jdL1PQ
   posts:
+    - post/gerardorenteria-blog/12801
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-58-spotting-report-with-savevalues--5715116553
     - post/yzhums-com/72933
   guidelines: []
@@ -134,14 +136,15 @@ children:
   - topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-datasets
 coverage:
   learn: 12
-  code: 6
+  code: 7
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 9650
   - 9652
   - 9660
+  - 9662
   - 9663
   - 9666
   - 9670
@@ -186,6 +189,7 @@ Start with the overview page to see how the parts connect. Then go to the datase
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [📊 Mermaid Diagrams in Business Central: Dynamic Visual Intelligence 🎨](../../../posts/gerardorenteria-blog/12801.md) (community post): "renders Mermaid.js diagrams from live BC table data"
 - [BC Friday Tips #58 Spotting Report with SaveValues](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-58-spotting-report-with-savevalues--5715116553.md) (community post): "The SaveValues property in Business Central reports remembers user-selected options on the request page"
 - [Business Central 2026 release wave 1 (BC28.1): Control the lifecycle of report layouts (Layout Status)](../../../posts/yzhums-com/72933.md) (community post): "Layout statuses control approval stages: Draft, Pending Approval, Approved, and Retired"
 - [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../videos/fy96_jdL1PQ.md) (video): "reporting capabilities; training strategy; reporting technologies; power bi; dashboards"
@@ -197,6 +201,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9650 "Custom Report Layouts"](../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../objects/table/9650.md) · via [Develop report layouts](develop-reports/develop-report-layouts.md)
 - [Page 9652 "Report Layout Selection"](../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../objects/table/9651.md) · via [Develop report layouts](develop-reports/develop-report-layouts.md)
 - [Page 9660 "Report Layouts"](../../../objects/page/9660.md) · via [Develop report layouts](develop-reports/develop-report-layouts.md)
+- [Page 9662 "Report Layout New Dialog"](../../../objects/page/9662.md) · captioned "Add New Layout for a Report" · via [Develop report layouts](develop-reports/develop-report-layouts.md)
 - [Page 9663 "Tenant Report Layout Cfg"](../../../objects/page/9663.md) · captioned "Report defaults for theme and header-footer" · via [Develop report layouts](develop-reports/develop-report-layouts.md)
 - [Page 9666 "Report Theme and Header/Footer"](../../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts" · via [Develop report layouts](develop-reports/develop-report-layouts.md)
 - [Page 9670 "Layout Theme and Header/Footer"](../../../objects/page/9670.md) · captioned "Theme and header-footer per layout" · via [Develop report layouts](develop-reports/develop-report-layouts.md)

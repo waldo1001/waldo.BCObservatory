@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/13861",
+  "input_hash": "362024bd989403a48a316960b40655fe703fa93951e6a71f5f19aac1b4445694",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-11T00:57:29.606Z",
+  "issues": [
+    "All changed files are the Cust. Ledger Entry table. The key point about fixing document synchronization for vendor ledger entries comes from the title and is not supported by the files.",
+    "'Changes applied across all localization layers' overstates the change. W1 gets the main edit (+10 -8), and ten country layers each lose only one line.",
+    "The summary does not say this is a follow-up that adds code missing after PR #13228 was merged."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.044078,
+    "changes_in_call": 6
+  }
+}

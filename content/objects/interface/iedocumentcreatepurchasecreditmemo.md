@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:45:19.588Z"
+  at: "2026-11-11T00:47:35.044Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e3f4cff87ce25ea92a6a3004534942473d297fccb1d5a3b6eae97d93b3ccdd1b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d46542bef3883b9f0f55e85d7cdf99201b430348/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocumentCreatePurchaseCreditMemo.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocumentCreatePurchaseCreditMemo.Interface.al
     title: src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocumentCreatePurchaseCreditMemo.Interface.al (releases/29.x)
     date: null
-    commit: d46542bef3883b9f0f55e85d7cdf99201b430348
+    commit: 2c932722a2917f4592f1541d4d85dc247c8942ac
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "IEDocumentCreatePurchaseCreditMemo" in EDocument (Microsoft.eServices.EDocument.Processing.Interfaces). 1 public procedures. Introduced in BC29, still in BC30.
 
-EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at d46542be](https://github.com/microsoft/BCApps/blob/d46542bef3883b9f0f55e85d7cdf99201b430348/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocumentCreatePurchaseCreditMemo.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at 2c932722](https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocumentCreatePurchaseCreditMemo.Interface.al) · facts from BC29
 
 ## Procedures
 

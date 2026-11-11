@@ -2,39 +2,39 @@
 id: topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365/microsoft-word
 type: topic
 title: Microsoft Word
-summary: "Microsoft Word integration in Business Central: designing Word report layouts with the Business Central add-in, mapping data fields through the XML Mapping pane, and using Word templates for bulk communications with customers, vendors, and contacts."
+summary: "Microsoft Word integration in Business Central: designing Word report layouts with the Business Central Word add-in, mapping data fields to content controls through the XML Mapping pane, and using Word templates for mail merge communication with contacts, customers, and vendors."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:27:51.886Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 43b027692fdbb0993e324f65b2a9b83b2190d935d0b6d7b1f2bb6c55b6b5ce03
+  input_hash: 4784d1648283602d597ebdf8e9517b603ab0c5eb70b09ab4f41beee45ca314c1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in
     title: Design Word Layouts with the Business Central Add-in
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout
     title: Map Data Fields in Word Layouts
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge
-    title: Using Word templates for bulk communications
-    date: "2024-11-13"
+    title: Use Word Templates for Business Central Communication
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -75,34 +75,34 @@ narrative: generated
 
 # Microsoft Word
 
-> Microsoft Word integration in Business Central: designing Word report layouts with the Business Central add-in, mapping data fields through the XML Mapping pane, and using Word templates for bulk communications with customers, vendors, and contacts.
+> Microsoft Word integration in Business Central: designing Word report layouts with the Business Central Word add-in, mapping data fields to content controls through the XML Mapping pane, and using Word templates for mail merge communication with contacts, customers, and vendors.
 
-Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Office apps and Microsoft 365](../microsoft-office-apps-and-microsoft-365.md) > Microsoft Word · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Office apps and Microsoft 365](../microsoft-office-apps-and-microsoft-365.md) > Microsoft Word · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers two uses of Word in Business Central: report layouts and document templates. For layouts, you can design a Word layout with the Business Central add-in, which adds fields, builds repeating data tables, and controls content display without manual XML editing. When you need finer control, you can map data fields by hand in the XML Mapping pane.
+This section covers two uses of Word with Business Central: report layouts and Word templates for communication. The report layout pages explain how to build a Word layout for a report, either with the Business Central Word add-in or by mapping fields manually.
 
-For communications, Word templates let you merge data from Business Central entities into personalized documents for customers, vendors, and contacts. Templates can use related and unrelated entities, and they connect to email.
+The add-in page describes adding report data, inserting tables, adding repeaters, and controlling visibility with hide-if-empty controls, without editing XML directly. The mapping page covers the alternative: using the XML Mapping pane to bind report fields, labels, images, and repeating rows to content controls in the document.
 
-Start with the add-in page for layout design. Move to the XML mapping page if you need manual mapping of content controls, repeating rows, or images. Use the bulk communications page for merge-based templates.
+The Word templates page is separate and focuses on bulk communication. It explains using entities as data sources, adding merge fields, and applying a template to generate documents or send emails. Start with the add-in page for layout design, or with the Word templates page for mail merge.
 
 ## Key points
 
-- The Business Central add-in for Word lets you add report fields without manual XML editing.
-- The add-in can build repeating data tables, hide content conditionally, add layout comments, and insert content controls.
-- The XML Mapping pane supports manual mapping of content controls to report data.
-- Manual mapping covers repeating rows, image fields, and label mapping.
-- Word templates support bulk communications with customers, vendors, and contacts.
-- Templates merge data from Business Central entities, including related and unrelated entities, and you select the fields to include.
-- Templates can be uploaded and used with email integration.
+- The Business Central Word add-in lets you design report layouts through an Add Data task pane, without editing XML directly (version 29).
+- The add-in supports inserting tables, adding repeaters, hide-if-empty controls, and layout comments.
+- The XML Mapping pane is an alternative way to map report data fields to Word content controls.
+- Mapping covers repeating rows, image fields, and label mapping, and uses a custom XML part.
+- Word templates use mail merge for bulk communication with contacts, customers, and vendors.
+- Templates use entities as data sources, including related and unrelated entities, with a field prefix and field selection for merge fields.
+- A finished template can be applied to generate documents or send emails.
 
 ## Learn pages
 
 - [Design Word Layouts with the Business Central Add-in](https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in): Learn how to use the Business Central Word add-in to add report fields, create repeating tables, add layout comments, and hide empty content.
 - [Map Data Fields in Word Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout): Learn how to use the XML Mapping Pane in Word to manually map Business Central report data, labels, images, and repeating rows to content controls.
-- [Using Word templates for bulk communications](https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge): Word templates can make it easy to bulk create documents that are personalized for specific entities.
-  - In the observatory: [Page 9989 "Word Templates"](../../../../objects/page/9989.md)
+- [Use Word Templates for Business Central Communication](https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge): Learn how to create Word templates in Business Central, select merge fields, and generate personalized documents or email content for business contacts.
+  - In the observatory: [Page 14929 "Field Selection (RU)"](../../../../objects/page/14929-ru.md), [Page 9989 "Word Templates"](../../../../objects/page/9989.md)
 
 ## Business Central pages and reports
 

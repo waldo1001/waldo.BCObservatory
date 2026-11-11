@@ -11,7 +11,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -19,15 +19,15 @@ generated:
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/teams-access-with-m365-license
-    title: Access Data in Teams without Business Central License
-    date: "2023-02-07"
+    title: Access Data in Teams Without a Business Central License
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-teams-tab
-    title: Add Business Central tab in Microsoft Teams
-    date: "2025-10-21"
+    title: Add a Business Central Tab in Microsoft Teams
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -39,16 +39,9 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/across-teams-overview
-    title: Business Central and Microsoft Teams Integration
-    date: "2025-10-21"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-onedrive-overview
     title: Business Central and OneDrive for Business Integration
-    date: "2025-10-17"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -61,15 +54,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-teams-settings
-    title: Changing company and other settings in Teams
-    date: "2025-10-21"
+    title: Change Company and Other Settings in Teams
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-onedrive-integration-onpremises
-    title: Configuring OneDrive integration with Business Central on-premises
-    date: "2024-09-01"
+    title: Configure OneDrive for Business Central On-Premises
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -88,6 +81,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
+    title: Create Excel Report Layouts in Business Central
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-cds-company-concept
     title: Dataverse data ownership models for synchronization
     date: "2026-10-14"
@@ -97,7 +97,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in
     title: Design Word Layouts with the Business Central Add-in
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -118,14 +118,35 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-outlook
     title: Get the Business Central Add-in for Outlook
-    date: "2026-03-10"
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages
+    title: Import Business Data into Business Central with Excel
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-install-app-for-teams
-    title: Install the Business Central app in Microsoft Teams
-    date: "2025-10-16"
+    title: Install the Business Central App in Microsoft Teams
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/m365-integration-overview
+    title: Integrate Business Central with Microsoft 365 Apps
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/across-teams-overview
+    title: Integrate Business Central with Microsoft Teams
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -165,13 +186,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/m365-integration-overview
-    title: Integrating with Office apps and Microsoft 365
-    date: "2026-06-19"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/integration-overview
     title: Integration overview for Business Central
     date: "2026-11-05"
@@ -187,15 +201,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-teams-integration
-    title: Managing Microsoft Teams Integration with Business Central| Microsoft Docs
-    date: "2025-01-06"
+    title: Manage Microsoft Teams Integration with Business Central
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-onedrive-integration
-    title: Managing OneDrive Integration with Business Central
-    date: "2024-06-13"
+    title: Manage OneDrive Integration with Business Central
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -209,7 +223,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout
     title: Map Data Fields in Word Layouts
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -223,14 +237,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-onedrive-faq
     title: OneDrive in Business Central FAQ
-    date: "2025-01-28"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-share-onedrive
-    title: Opening Business Central Files in OneDrive
-    date: "2025-10-21"
+    title: Open and Share Business Central Files in OneDrive
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -265,14 +279,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook
     title: Save Business Contacts to Microsoft Outlook
-    date: "2026-03-13"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-search-contacts-teams
-    title: Searching for contacts from Microsoft Teams
-    date: "2025-10-20"
+    title: Search for Business Central Contacts in Microsoft Teams
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -280,20 +294,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin
     title: Setting up the Excel Add-In for Editing Data
     date: "2024-09-18"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-setting-up-integration-with-dynamics-sales
-    title: Setting Up User Accounts for Integrating with Microsoft Dataverse | Microsoft Docs
-    date: "2024-01-12"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/across-working-with-teams
-    title: Sharing Business Central records in Microsoft Teams
-    date: "2025-10-23"
     commit: null
     t: null
     quote: null
@@ -312,9 +312,8 @@ links:
     - object/page/6317
     - object/page/7214
     - object/page/9553
-    - object/page/9650
-    - object/page/9652
     - object/page/9660
+    - object/page/9662
     - object/page/9666
     - object/page/36951
   features: []
@@ -338,7 +337,7 @@ children:
   - topic/business-central/integrate-with-other-applications/dynamics-365-field-service
 coverage:
   learn: 55
-  code: 14
+  code: 13
   video: 0
   blog: 0
   guideline: 0
@@ -352,9 +351,8 @@ bc_forms:
   - 6317
   - 7214
   - 9553
-  - 9650
-  - 9652
   - 9660
+  - 9662
   - 9666
   - 36951
 member_hash: a2a228eff80402e6f5dcaa2fcec8b8f037c71c787712bde31f04a806c202c27b
@@ -412,9 +410,8 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 6317 "To Net Zero Carbon Power BI"](../../objects/page/6317.md) · captioned "Journey to Net Zero Carbon (Power BI)" · via [Microsoft Power Platform](integrate-with-other-applications/microsoft-power-platform.md)
 - [Page 7214 "CDS Companies"](../../objects/page/7214.md) · captioned "Dataverse Companies" · on [Table 5393 "CDS Company"](../../objects/table/5393.md) · via [Microsoft Dataverse](integrate-with-other-applications/microsoft-dataverse.md)
 - [Page 9553 "Document Service Setup"](../../objects/page/9553.md) · captioned "OneDrive Setup" · via [Microsoft Office apps and Microsoft 365](integrate-with-other-applications/microsoft-office-apps-and-microsoft-365.md)
-- [Page 9650 "Custom Report Layouts"](../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../objects/table/9650.md) · via [Microsoft Office apps and Microsoft 365](integrate-with-other-applications/microsoft-office-apps-and-microsoft-365.md)
-- [Page 9652 "Report Layout Selection"](../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../objects/table/9651.md) · via [Microsoft Office apps and Microsoft 365](integrate-with-other-applications/microsoft-office-apps-and-microsoft-365.md)
 - [Page 9660 "Report Layouts"](../../objects/page/9660.md) · via [Microsoft Office apps and Microsoft 365](integrate-with-other-applications/microsoft-office-apps-and-microsoft-365.md)
+- [Page 9662 "Report Layout New Dialog"](../../objects/page/9662.md) · captioned "Add New Layout for a Report" · via [Microsoft Office apps and Microsoft 365](integrate-with-other-applications/microsoft-office-apps-and-microsoft-365.md)
 - [Page 9666 "Report Theme and Header/Footer"](../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts" · via [Microsoft Office apps and Microsoft 365](integrate-with-other-applications/microsoft-office-apps-and-microsoft-365.md)
 - [Page 36951 "PowerBI Reports Setup"](../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../objects/table/36951.md) · via [Microsoft Power Platform](integrate-with-other-applications/microsoft-power-platform.md)
 

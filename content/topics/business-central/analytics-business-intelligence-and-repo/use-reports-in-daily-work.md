@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:01.578Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -20,14 +20,14 @@ generated:
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel
-    title: Analyzing report data with Excel and XML
-    date: "2024-09-09"
+    title: Analyze Report Datasets with Excel and XML
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-bookmarks
-    title: Bookmark link to page or report on role center
+    title: Bookmark a Page or Report on Your Role Center
     date: "2024-07-25"
     commit: null
     t: null
@@ -157,8 +157,8 @@ Start with the landing page, then go to "Run and print reports" for the basic wo
 
 ## Learn pages
 
-- [Analyzing report data with Excel and XML](https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel): Learn how to use Excel and XML to analyze a report dataset.
-- [Bookmark link to page or report on role center](https://learn.microsoft.com/dynamics365/business-central/ui-bookmarks): Using the bookmark icon, you can add an action that opens a page or report from the navigation menu of your role center.
+- [Analyze Report Datasets with Excel and XML](https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel): Learn how to export Business Central report datasets to Excel or XML, inspect raw report data, and give users permission to export datasets.
+- [Bookmark a Page or Report on Your Role Center](https://learn.microsoft.com/dynamics365/business-central/ui-bookmarks): Add bookmarks to the navigation menu on your Business Central Role Center so you can quickly open frequently used pages, reports, and business tasks.
 - [Manage Saved Settings for Reports and Batch Jobs](https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings): Describes hwo the admin can set up predefined options and filters for a report and share those settings with one or all users.
   - In the observatory: [Page 1560 "Report Settings"](../../../objects/page/1560.md)
 - [Run and print reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-work-report): Learn how to add a report to the job queue and schedule it to run on a specific date and time.

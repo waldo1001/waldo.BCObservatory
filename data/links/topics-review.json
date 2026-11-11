@@ -4053,75 +4053,141 @@
     },
     "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities": {
       "post/bertverbeek-nl/1252@5813f9b3342cfb72": {
-        "verdict": "keep",
-        "reason": "Controlling agent permissions and how much an agent can access is part of managing agent capabilities; borderline because it leans toward AL development.",
-        "at": "2026-11-10T00:54:22.785Z",
+        "verdict": "drop",
+        "reason": "About securing agents with role centers, permission sets and AL page customization, not about managing Copilot and agent capabilities.",
+        "at": "2026-11-11T00:56:25.647Z",
         "v": 2
       },
       "post/bertverbeek-nl/1263@cfa8e9550880d3e9": {
         "verdict": "keep",
-        "reason": "Covers the Agent Consumption page for watching credit usage, which is part of managing agent billing.",
-        "at": "2026-11-10T00:54:22.785Z",
+        "reason": "Covers the Agent Consumption page for monitoring credit usage, which relates to managing agent capability billing.",
+        "at": "2026-11-11T00:56:25.647Z",
         "v": 2
       },
       "post/demiliani-com/13755@098bf8cd3b3dce3b": {
-        "verdict": "keep",
-        "reason": "Covers the default Copilot model and choosing the model for each agent on the Agents page, which are admin-level capability settings; borderline.",
-        "at": "2026-11-10T00:54:22.785Z",
+        "verdict": "drop",
+        "reason": "About deploying custom agents and choosing models on the Agents page, not about managing capabilities.",
+        "at": "2026-11-11T00:56:25.647Z",
         "v": 2
       },
       "post/demiliani-com/15935@c0d6ceb9dcbef380": {
         "verdict": "keep",
-        "reason": "Explains the Allow data movement toggle and processing geography, which this section documents.",
-        "at": "2026-11-10T00:54:22.785Z",
+        "reason": "Explains the Allow data movement toggle and geography consent that this section documents.",
+        "at": "2026-11-11T00:56:25.647Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-45-hide-agents-icon/@c086f5655add328f": {
         "verdict": "keep",
         "reason": "Shows deactivating Agents on the Copilot & agent capabilities page.",
-        "at": "2026-11-10T00:54:22.785Z",
+        "at": "2026-11-11T00:56:25.647Z",
         "v": 2
       },
       "post/thinkaboutit-be/8342@4a230f2efa38bf14": {
         "verdict": "drop",
-        "reason": "Mainly about the new Copilot Chat, which the sibling Microsoft Copilot in Business Central section documents more exactly.",
-        "at": "2026-11-10T00:54:22.785Z",
+        "reason": "Mainly about the new Copilot Chat experience, which the sibling Microsoft Copilot section covers; the capabilities page is only mentioned in passing.",
+        "at": "2026-11-11T00:56:25.647Z",
         "v": 2
       },
       "post/wingate365-com/https://blog.wingate365.com/2025/12/ask-ai-about-dynamics-licensing.html@ccd469fb4452222b": {
-        "verdict": "keep",
-        "reason": "Discusses Copilot Credits and agent licensing requirements, which relate to managing consumption billing for agents.",
-        "at": "2026-11-10T00:54:22.785Z",
+        "verdict": "drop",
+        "reason": "A licensing guide comparison, not about managing capabilities in Business Central.",
+        "at": "2026-11-11T00:56:25.647Z",
         "v": 2
       },
       "post/yzhums-com/67462@7326f70831dc1c68": {
         "verdict": "keep",
         "reason": "Covers the Billing Type column on the Copilot and Agent Capabilities page.",
-        "at": "2026-11-10T00:54:22.785Z",
+        "at": "2026-11-11T00:56:25.647Z",
         "v": 2
       },
       "post/yzhums-com/68482@75dc3fca129f91e9": {
         "verdict": "keep",
         "reason": "Shows deactivating individual agent capabilities on the Copilot & agent capabilities page.",
-        "at": "2026-11-10T00:54:22.785Z",
+        "at": "2026-11-11T00:56:25.647Z",
         "v": 2
       },
       "post/yzhums-com/68484@ddc49eebdc467d51": {
         "verdict": "keep",
-        "reason": "Explains consumption-based billing for agent capabilities, which this section covers.",
-        "at": "2026-11-10T00:54:22.785Z",
+        "reason": "Covers managing consumption-based billing for agent capabilities, which is part of administering them.",
+        "at": "2026-11-11T00:56:25.647Z",
         "v": 2
       },
       "post/yzhums-com/69256@4777dcfd0e38a86b": {
-        "verdict": "keep",
-        "reason": "About Copilot Credits and consumption billing for agents, which relates to managing agent billing; borderline because it is a promotion.",
-        "at": "2026-11-10T00:54:22.785Z",
+        "verdict": "drop",
+        "reason": "A promotional free-credits campaign, not documentation of managing capabilities.",
+        "at": "2026-11-11T00:56:25.647Z",
         "v": 2
       },
       "post/yzhums-com/70502@de72ba277dfa36dd": {
         "verdict": "drop",
-        "reason": "About designing custom agents with the agent designer, which this section does not document.",
-        "at": "2026-11-10T00:54:22.785Z",
+        "reason": "About designing custom agents with the agent designer, a different capability.",
+        "at": "2026-11-11T00:56:25.647Z",
+        "v": 2
+      },
+      "post/yzhums-com/72431@03eddc7258b25021": {
+        "verdict": "keep",
+        "reason": "Tracking Copilot credit consumption for agents is part of managing agent capabilities.",
+        "at": "2026-11-11T00:56:26.755Z",
+        "v": 2
+      },
+      "post/yzhums-com/72479@282671e86681235b": {
+        "verdict": "keep",
+        "reason": "Managing tasks from all agents is general agent management that no sibling section documents more exactly.",
+        "at": "2026-11-11T00:56:26.755Z",
+        "v": 2
+      },
+      "post/yzhums-com/74431@e096096e3119df5e": {
+        "verdict": "keep",
+        "reason": "Selecting AI models per agent on the Agents page is agent capability management.",
+        "at": "2026-11-11T00:56:26.755Z",
+        "v": 2
+      },
+      "post/yzhums-com/74703@27daa63fb946655c": {
+        "verdict": "keep",
+        "reason": "Covers the Allow data movement toggle on the Copilot & agent capabilities page.",
+        "at": "2026-11-11T00:56:26.755Z",
+        "v": 2
+      },
+      "post/yzhums-com/76396@82efd373b718cf8b": {
+        "verdict": "keep",
+        "reason": "Admin control over Copilot feedback applies across all Copilot features, so it belongs with managing capabilities.",
+        "at": "2026-11-11T00:56:26.755Z",
+        "v": 2
+      },
+      "post/yzhums-com/77124@488a54dd82c40310": {
+        "verdict": "drop",
+        "reason": "About a notification bar UI feature; the agent review bar is only mentioned in passing.",
+        "at": "2026-11-11T00:56:26.755Z",
+        "v": 2
+      },
+      "video/DRUr4byy8xQ@56a5e75a3a1c80fd": {
+        "verdict": "keep",
+        "reason": "Agent permissions, profiles and user management are part of managing agents.",
+        "at": "2026-11-11T00:56:26.755Z",
+        "v": 2
+      },
+      "video/KpQS7c6YGRo@43dedad1ea4318ee": {
+        "verdict": "drop",
+        "reason": "Mainly about marketing text suggestions, which the sibling section documents more exactly.",
+        "at": "2026-11-11T00:56:26.755Z",
+        "v": 2
+      },
+      "video/MKuOgMWXJ_8@c36e072796ffcd3b": {
+        "verdict": "keep",
+        "reason": "Covers agent setup, permissions and credit usage tracking, which fall under managing agent capabilities.",
+        "at": "2026-11-11T00:56:26.755Z",
+        "v": 2
+      },
+      "video/QK-Qsh_6YL4@8ba69d9b3b8baddb": {
+        "verdict": "drop",
+        "reason": "A third-party Copilot time sheet feature that has nothing to do with managing Copilot or agent capabilities.",
+        "at": "2026-11-11T00:56:26.755Z",
+        "v": 2
+      },
+      "video/UQmuMPRlHek@f50622f55e72bec0": {
+        "verdict": "keep",
+        "reason": "Admin setup of Copilot: the capabilities page, turning features off, data movement and permissions.",
+        "at": "2026-11-11T00:56:26.755Z",
         "v": 2
       }
     },
@@ -4290,80 +4356,74 @@
     "topic/business-central/copilot-and-agent-capabilities/payables-agent": {
       "post/demiliani-com/12076@d1b04fe1b123b407": {
         "verdict": "keep",
-        "reason": "Introduces the Payables Agent and how to set it up.",
-        "at": "2026-10-26T08:17:59.728Z",
+        "reason": "Introduces the Payables Agent, including setup, email monitoring and the human review of invoice drafts.",
+        "at": "2026-11-11T00:56:29.882Z",
         "v": 2
       },
-      "post/thinkaboutit-be/7496@2f17f066dfd0fbda": {
+      "post/thinkaboutit-be/7496@3f7e5cd09e4014c6": {
         "verdict": "keep",
-        "reason": "The 27.3 update centres on Payables Agent changes: matching invoices to orders, confidence scores and more regions.",
-        "at": "2026-10-26T08:17:59.728Z",
+        "reason": "Covers Payables Agent improvements: matching invoices to orders, confidence scores and more regions.",
+        "at": "2026-11-11T00:56:29.882Z",
         "v": 2
       },
-      "post/yzhums-com/65721@e6ba895be078c157": {
+      "post/yzhums-com/65721@2d71c4335b88bc40": {
         "verdict": "keep",
-        "reason": "Walks through activating the Payables Agent, setting up the mailbox and choosing which fields it fills in.",
-        "at": "2026-10-26T08:17:59.728Z",
+        "reason": "Walks through activating, configuring and using the Payables Agent.",
+        "at": "2026-11-11T00:56:29.882Z",
         "v": 2
       },
-      "post/yzhums-com/68484@d9048cb0d00c21e9": {
+      "post/yzhums-com/68482@75dc3fca129f91e9": {
         "verdict": "drop",
-        "reason": "About consumption billing across all agents, which the sibling Manage Copilot and agent capabilities section covers more exactly.",
-        "at": "2026-10-26T08:17:59.728Z",
-        "v": 2
-      },
-      "post/yzhums-com/69256@68b78c02cfd0b7ea": {
-        "verdict": "drop",
-        "reason": "About a promotional free-credit campaign, not how the Payables Agent works.",
-        "at": "2026-10-26T08:17:59.728Z",
+        "reason": "Its subject is turning off capabilities to hide agent icons, which the sibling Manage Copilot and agent capabilities section covers more exactly.",
+        "at": "2026-11-11T00:56:29.882Z",
         "v": 2
       },
       "post/yzhums-com/72842@31e202355784ad44": {
         "verdict": "keep",
-        "reason": "Shows the Payables Agent creating purchase invoices from an uploaded PDF.",
-        "at": "2026-10-26T08:17:59.728Z",
+        "reason": "Shows the Payables Agent creating purchase invoice drafts from uploaded PDFs.",
+        "at": "2026-11-11T00:56:29.882Z",
         "v": 2
       },
       "post/yzhums-com/75245@20295d7694f82b20": {
         "verdict": "keep",
         "reason": "Covers the Known Senders and email review settings in the Payables Agent.",
-        "at": "2026-10-26T08:17:59.728Z",
+        "at": "2026-11-11T00:56:29.882Z",
         "v": 2
       },
-      "video/_JkZCp64jNw@2217bab592982dae": {
+      "video/FBrZwXpOhmM@506c6e81cbf95c03": {
         "verdict": "keep",
-        "reason": "Launch event that demonstrates the Payables Agent, its draft page and its public preview.",
-        "at": "2026-10-26T08:17:59.728Z",
+        "reason": "Demonstrates how the Payables Agent explains the reasoning behind its field suggestions.",
+        "at": "2026-11-11T00:56:29.882Z",
         "v": 2
       },
-      "video/FBrZwXpOhmM@61cc46762ba6658d": {
+      "video/H5EuObmeF4o@65e5d25e65e102e1": {
         "verdict": "keep",
-        "reason": "Shows how the Payables Agent explains its field suggestions.",
-        "at": "2026-10-26T08:17:59.728Z",
+        "reason": "Release overview that includes several Payables Agent features, such as invoice matching and confidence levels.",
+        "at": "2026-11-11T00:56:29.882Z",
         "v": 2
       },
-      "video/H5EuObmeF4o@12b92711090ce702": {
+      "video/OvI9jaA1mJY@68d5b1c58de62331": {
         "verdict": "keep",
-        "reason": "Covers several Payables Agent features: contextual drafts, order matching and confidence levels.",
-        "at": "2026-10-26T08:17:59.728Z",
+        "reason": "Dedicated video on what's new in the Payables Agent, including matching, pricing and processing.",
+        "at": "2026-11-11T00:56:29.882Z",
         "v": 2
       },
-      "video/OvI9jaA1mJY@ecd492f094c95ff3": {
-        "verdict": "keep",
-        "reason": "Covers what's new in the Payables Agent for 2026 wave 1.",
-        "at": "2026-10-26T08:17:59.728Z",
-        "v": 2
-      },
-      "video/uh5S1i7uDlo@03d55dcb84604f94": {
+      "video/uh5S1i7uDlo@2f0351db3089fe37": {
         "verdict": "keep",
         "reason": "Demonstrates vendor invoice processing with the Payables Agent.",
-        "at": "2026-10-26T08:17:59.728Z",
+        "at": "2026-11-11T00:56:29.882Z",
         "v": 2
       },
-      "video/YsmwHqxL1Zc@d0a7208a5b3d6c25": {
+      "video/Wc8WlLZUCJc@658d230562bb07df": {
+        "verdict": "drop",
+        "reason": "A partner's internal AI transformation story; the evidence never shows the Payables Agent.",
+        "at": "2026-11-11T00:56:29.882Z",
+        "v": 2
+      },
+      "video/YsmwHqxL1Zc@64c4bc6ef6da42f3": {
         "verdict": "keep",
-        "reason": "Introduces the Payables Agent workflow with e-documents and its draft page.",
-        "at": "2026-10-26T08:17:59.728Z",
+        "reason": "Introduces the Payables Agent, including the E-Documents flow, purchase document drafts and approval.",
+        "at": "2026-11-11T00:56:29.882Z",
         "v": 2
       }
     },
@@ -7398,64 +7458,124 @@
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services": {
+      "post/yzhums-com/56046@9602d4cf634cab46": {
+        "verdict": "keep",
+        "reason": "Demonstrates calling an external API (QuickChart) from AL using HttpClient to fetch images.",
+        "at": "2026-11-11T00:56:21.863Z",
+        "v": 2
+      },
+      "post/yzhums-com/61543@c4fdefff7bfc97e1": {
+        "verdict": "drop",
+        "reason": "About converting stored images to HTML src via Image Helpers; no external service call involved.",
+        "at": "2026-11-11T00:56:21.863Z",
+        "v": 2
+      },
+      "post/yzhums-com/63735@80a0b7d071de1243": {
+        "verdict": "keep",
+        "reason": "Series covers calling SharePoint via Graph API from AL code, an external service integration.",
+        "at": "2026-11-11T00:56:21.863Z",
+        "v": 2
+      },
+      "post/yzhums-com/64775@f9f3f93cb8eb7dc9": {
+        "verdict": "keep",
+        "reason": "Shows calling Dataverse REST APIs from AL with OAuth and GET/POST/PATCH/DELETE requests.",
+        "at": "2026-11-11T00:56:21.863Z",
+        "v": 2
+      },
+      "post/yzhums-com/65391@fabeea6b3db01499": {
+        "verdict": "keep",
+        "reason": "Covers the Allow HttpClient Requests setting required for outbound HTTP calls from extensions.",
+        "at": "2026-11-11T00:56:21.863Z",
+        "v": 2
+      },
+      "post/yzhums-com/65525@023dc93fe1d96277": {
+        "verdict": "keep",
+        "reason": "Web Request Helper URL validation is a helper used when calling external services over HTTPS.",
+        "at": "2026-11-11T00:56:21.863Z",
+        "v": 2
+      },
+      "post/yzhums-com/65533@84aeb0a255020c4e": {
+        "verdict": "keep",
+        "reason": "Automates enabling Allow HttpClient Requests, which governs outbound HttpClient calls.",
+        "at": "2026-11-11T00:56:21.863Z",
+        "v": 2
+      },
+      "post/yzhums-com/66461@f1d31fc1c9c7fb3c": {
+        "verdict": "drop",
+        "reason": "About sanitizing file names via File Management, not calling external services.",
+        "at": "2026-11-11T00:56:21.863Z",
+        "v": 2
+      },
+      "video/EurgqGU1jG0@edb14011eda297ee": {
+        "verdict": "drop",
+        "reason": "Subject is test patterns and code coverage; the payment API is only the example.",
+        "at": "2026-11-11T00:56:21.863Z",
+        "v": 2
+      },
+      "video/qNHUj3ZEang@79cabc8a630d8bbb": {
+        "verdict": "keep",
+        "reason": "Covers REST Client module features (cookies, collectible errors) used to make HTTP requests.",
+        "at": "2026-11-11T00:56:21.863Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/2640@7e1c3369c0eee8cf": {
+        "verdict": "drop",
+        "reason": "Mainly about the SecretText data type and isolated storage; the sibling Handling security section documents this more exactly, with HttpClient only mentioned in passing.",
+        "at": "2026-11-11T00:56:25.562Z",
+        "v": 2
+      },
       "post/aardvarklabs-blog/2866@ad0fbd69fadaf746": {
         "verdict": "drop",
-        "reason": "Covers parsing XML from an imported file with XML types, not calling external services.",
-        "at": "2026-11-08T00:57:52.367Z",
+        "reason": "About parsing XML files into tables, not about calling external services.",
+        "at": "2026-11-11T00:56:25.562Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2953@1579b424cf0b3626": {
         "verdict": "keep",
-        "reason": "Shows calling external APIs with HttpClient and parsing the JSON responses, which this section documents.",
-        "at": "2026-11-08T00:57:52.367Z",
+        "reason": "Directly demonstrates consuming external APIs with HttpClient and the external-call security prompt.",
+        "at": "2026-11-11T00:56:25.562Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3460@d0c351745b5df791": {
         "verdict": "keep",
-        "reason": "Covers the native SFTP Client codeunit for reaching external SFTP servers from AL.",
-        "at": "2026-11-08T00:57:52.367Z",
-        "v": 2
-      },
-      "post/demiliani-com/13588@77847e9e3efdbf67": {
-        "verdict": "keep",
-        "reason": "Explains the new strict address checks on AL HttpClient calls to external services.",
-        "at": "2026-11-08T00:57:52.367Z",
+        "reason": "Shows AL code connecting to external SFTP servers, a form of calling external services from AL.",
+        "at": "2026-11-11T00:56:25.562Z",
         "v": 2
       },
       "post/demiliani-com/13640@abb0e63da6ce6cdc": {
         "verdict": "keep",
-        "reason": "Shows connecting to external SFTP servers from AL with the native SFTP Client.",
-        "at": "2026-11-08T00:57:52.367Z",
+        "reason": "Covers connecting to external SFTP servers from AL with authentication, which relates to calling external services.",
+        "at": "2026-11-11T00:56:25.562Z",
         "v": 2
       },
       "post/demiliani-com/14203@48f9cf58ff1ac562": {
         "verdict": "keep",
-        "reason": "Describes a practice for making external API calls safe to retry after an AL rollback.",
-        "at": "2026-11-08T00:57:52.367Z",
+        "reason": "Discusses a practice for making external API calls from AL safe across transaction rollbacks.",
+        "at": "2026-11-11T00:56:25.562Z",
         "v": 2
       },
       "post/gerardorenteria-blog/14816@d18dad9b14fe94e8": {
         "verdict": "drop",
-        "reason": "The subject is a World Cup prediction extension; importing JSON data is only part of the example.",
-        "at": "2026-11-08T00:57:52.367Z",
+        "reason": "Sample gamification extension; importing JSON is just the example, not the lesson.",
+        "at": "2026-11-11T00:56:25.562Z",
         "v": 2
       },
       "post/kauffmann-nl/8332@88de14cfccb265de": {
         "verdict": "keep",
-        "reason": "An OAuth library for the Rest Client that adds authentication to calls to external services.",
-        "at": "2026-11-08T00:57:52.367Z",
+        "reason": "OAuth library that extends the Rest Client module used to call external services.",
+        "at": "2026-11-11T00:56:25.562Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643@bcd3363825c3e8ed": {
         "verdict": "drop",
-        "reason": "The subject is extension upload management; calling the admin center API is only how it is done.",
-        "at": "2026-11-08T00:57:52.367Z",
+        "reason": "Subject is extension upload management via the admin center API, not how to call external services.",
+        "at": "2026-11-11T00:56:25.562Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/@c1a26403c4b8f9b9": {
         "verdict": "drop",
-        "reason": "About an MCP server for object ID management, unrelated to calling external services.",
-        "at": "2026-11-08T00:57:52.367Z",
+        "reason": "About object ID management tooling for AI coding assistants, unrelated to calling external services.",
+        "at": "2026-11-11T00:56:25.562Z",
         "v": 2
       }
     },
@@ -10636,118 +10756,160 @@
       }
     },
     "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c": {
-      "post/aardvarklabs-blog/1609@e19ddf28b0a4650a": {
+      "post/aardvarklabs-blog/1609@edab5653e97cb81b": {
         "verdict": "keep",
-        "reason": "Builds a Copilot capability in AL with Azure OpenAI, capability registration and prompts, which is exactly what this section documents.",
-        "at": "2026-11-03T00:57:40.660Z",
+        "reason": "Builds a Copilot capability in AL with Azure OpenAI: it registers the capability, writes prompts and sets chat completion parameters.",
+        "at": "2026-11-11T00:56:21.218Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/1816@2fe830a92a92a24b": {
+        "verdict": "keep",
+        "reason": "Builds a Copilot codeunit in AL that sends customer data to Azure OpenAI to generate reminder text.",
+        "at": "2026-11-11T00:56:21.218Z",
         "v": 2
       },
       "post/aardvarklabs-blog/1891@4b250d20fdf70c35": {
         "verdict": "keep",
-        "reason": "Shows an AL extension calling Azure OpenAI as one step of a multi-step recommendation process, which uses the Copilot developer tools.",
-        "at": "2026-11-03T00:57:40.660Z",
+        "reason": "Shows a multi-step process where AL code calls Azure OpenAI to extract keywords, using the Copilot developer tools.",
+        "at": "2026-11-11T00:56:21.218Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/2467@56bcab3f1ae67f3d": {
+        "verdict": "keep",
+        "reason": "Calls Azure OpenAI from Business Central code to match addresses, which is an AI feature built with the developer tools.",
+        "at": "2026-11-11T00:56:21.218Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2663@7b4c6df359dde05f": {
         "verdict": "keep",
-        "reason": "Compares the SetAuthorization and SetManagedResourceAuthorization calls of the AL Azure OpenAI module used in Copilot development.",
-        "at": "2026-11-03T00:57:40.660Z",
+        "reason": "Compares the two Azure OpenAI authorization methods in the AL toolkit, SetAuthorization and SetManagedResourceAuthorization.",
+        "at": "2026-11-11T00:56:21.218Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2965@d2bf757344173418": {
         "verdict": "keep",
-        "reason": "Builds AL Copilot features on the managed Azure OpenAI resource with grounded search, so it falls under this section.",
-        "at": "2026-11-03T00:57:40.660Z",
+        "reason": "Builds an AI feature in AL on the managed AI resource with grounded search.",
+        "at": "2026-11-11T00:56:21.218Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3564@e823a16dc5428d34": {
         "verdict": "drop",
-        "reason": "About VS Code skills for AI-assisted AL coding, not about building Copilot features with the Business Central developer tools.",
-        "at": "2026-11-03T00:57:40.660Z",
+        "reason": "About VS Code skills for AI-assisted coding, not building Copilot features in Business Central.",
+        "at": "2026-11-11T00:56:21.218Z",
         "v": 2
       },
       "post/bccaptain-com-au/https://bccaptain.com.au/2026/04/27/im-back-and-its-going-to-be-a-busy-few-months/@a9ce8798f84d8ffc": {
         "verdict": "drop",
-        "reason": "A blog-return and conference announcement with no material on the Copilot developer tools.",
-        "at": "2026-11-03T00:57:40.660Z",
+        "reason": "A conference and return-to-blogging announcement with no technical content for this section.",
+        "at": "2026-11-11T00:56:21.218Z",
+        "v": 2
+      },
+      "post/demiliani-com/12036@70735ea0a4f01b06": {
+        "verdict": "drop",
+        "reason": "About API metadata for outside LLM agents, not the Copilot developer toolkit.",
+        "at": "2026-11-11T00:56:21.218Z",
         "v": 2
       },
       "post/gerardorenteria-blog/11354@96266a6dd9a4e882": {
         "verdict": "drop",
-        "reason": "About connecting the Microsoft Learn Docs MCP server to GitHub Copilot in the IDE, not about extending Copilot in Business Central.",
-        "at": "2026-11-03T00:57:40.660Z",
+        "reason": "About the Microsoft Learn MCP server for GitHub Copilot in the IDE, not building Copilot features in Business Central.",
+        "at": "2026-11-11T00:56:21.218Z",
         "v": 2
       },
       "post/gerardorenteria-blog/13993@8ca8589c6cc08b08": {
         "verdict": "drop",
-        "reason": "About VS Code agent skills that check extension health, which is IDE tooling rather than the Copilot developer toolkit.",
-        "at": "2026-11-03T00:57:40.660Z",
+        "reason": "Uses VS Code agent skills to check extension health, which is unrelated to building Copilot features in AL.",
+        "at": "2026-11-11T00:56:21.218Z",
+        "v": 2
+      },
+      "post/jeremyvyska-com/1739@0a6ca3ff4daf59ff": {
+        "verdict": "drop",
+        "reason": "Training on agentic AI-assisted development, not building Copilot features in Business Central.",
+        "at": "2026-11-11T00:56:21.218Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@b94f6d6fdd1fc4fe": {
         "verdict": "drop",
-        "reason": "About vibe coding with GitHub Copilot as a coding assistant, not about building Copilot features in Business Central.",
-        "at": "2026-11-03T00:57:40.660Z",
+        "reason": "About vibe coding with GitHub Copilot, which is AI-assisted coding rather than building Copilot features in Business Central.",
+        "at": "2026-11-11T00:56:21.218Z",
         "v": 2
       },
-      "post/thinkaboutit-be/8204@f01e08039a637ec9": {
+      "post/thinkaboutit-be/8132@38977d3cd41e7df5": {
+        "verdict": "drop",
+        "reason": "About quality rules for AI-assisted AL coding, not about building Copilot features in Business Central.",
+        "at": "2026-11-11T00:56:21.830Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8204@02b73bd72c222403": {
         "verdict": "keep",
-        "reason": "Covers Microsoft-managed Azure OpenAI resources for Copilot extensions becoming generally available, part of the developer tools for Copilot.",
-        "at": "2026-11-03T00:57:40.660Z",
+        "reason": "Covers Microsoft-managed Azure OpenAI resources for building Copilot extensions, which this section documents.",
+        "at": "2026-11-11T00:56:21.830Z",
         "v": 2
       },
       "post/thinkaboutit-be/8331@18306746658fa300": {
         "verdict": "drop",
-        "reason": "Benchmarks AI coding agents on AL tasks, not the developer tools for building Copilot features in Business Central.",
-        "at": "2026-11-03T00:57:43.940Z",
+        "reason": "Benchmarks AI coding agents on AL tasks; that is not the developer tooling for building Copilot features.",
+        "at": "2026-11-11T00:56:21.830Z",
         "v": 2
       },
       "post/tine-staric-net/https://tine.staric.net/blog/2026/copilot-harness-default/@1d9dc9fbb36ac87e": {
         "verdict": "drop",
-        "reason": "About the VS Code Copilot harness and personal setup, not Business Central Copilot development tools.",
-        "at": "2026-11-03T00:57:43.940Z",
+        "reason": "About the VS Code Copilot harness setup, not about extending Copilot in Business Central.",
+        "at": "2026-11-11T00:56:21.830Z",
         "v": 2
       },
       "post/yzhums-com/67990@bef190f7e71656b7": {
         "verdict": "drop",
-        "reason": "GitHub Copilot agent tools that automate AL development, not the toolkit for building Copilot capabilities.",
-        "at": "2026-11-03T00:57:43.940Z",
-        "v": 2
-      },
-      "video/7SSNcUMFtCw@0a389bab8e080e1f": {
-        "verdict": "keep",
-        "reason": "Covers AI developer resources such as bringing your own Azure OpenAI subscription, the deployments codeunit and authorization for Copilot features.",
-        "at": "2026-11-03T00:57:43.940Z",
+        "reason": "GitHub Copilot agent tools that automate AL development work, not tools for building Copilot capabilities.",
+        "at": "2026-11-11T00:56:21.830Z",
         "v": 2
       },
       "video/9zQZHfXK-PQ@7e65b7781b453b60": {
         "verdict": "drop",
-        "reason": "Uses GitHub Copilot to automate documentation; the subject is spec-driven workflows, not the Copilot developer tools.",
-        "at": "2026-11-03T00:57:43.940Z",
+        "reason": "Uses GitHub Copilot to generate documentation; the subject is AI-assisted development, not Copilot extensibility.",
+        "at": "2026-11-11T00:56:21.830Z",
+        "v": 2
+      },
+      "video/juUBVPfIp8A@f0534b54c2a95d2f": {
+        "verdict": "keep",
+        "reason": "Covers what's new in the AI Development Toolkit, including BC AI resources, content filtering, prompt injection protection and evaluations.",
+        "at": "2026-11-11T00:56:21.830Z",
         "v": 2
       },
       "video/jWJc_D67Vfw@54f5ff97b64f3786": {
         "verdict": "drop",
-        "reason": "General talk on learning and adopting AI, not about building Copilot features in AL.",
-        "at": "2026-11-03T00:57:43.940Z",
+        "reason": "A personal story about learning AI tools, with nothing on Business Central Copilot developer tools.",
+        "at": "2026-11-11T00:56:21.830Z",
         "v": 2
       },
-      "video/lNASlydCidI@22cc3fc62993bd91": {
+      "video/NE7NIjpkX3c@2e5bec9bf8a81635": {
         "verdict": "keep",
-        "reason": "Demonstrates the generative AI developer toolkit, the prompt dialog page type, the AI module and Copilot capability registration.",
-        "at": "2026-11-03T00:57:43.940Z",
+        "reason": "Practical guidance on preparing Copilot extensions: prompt engineering, Azure OpenAI abstraction and function calling.",
+        "at": "2026-11-11T00:56:21.830Z",
         "v": 2
       },
-      "video/nbGw2g3KMXI@c6dea39b6e68bacc": {
+      "video/nMiLzdfidos@bc64d3b6b0e36a5a": {
         "verdict": "drop",
-        "reason": "About building agents, which the sibling section on designing and coding agents covers more exactly.",
-        "at": "2026-11-03T00:57:43.940Z",
+        "reason": "Its Copilot content is about GitHub Copilot tools for AL coding, not about building Copilot features.",
+        "at": "2026-11-11T00:56:21.830Z",
+        "v": 2
+      },
+      "video/QCo-uIfPs9g@59b1a32b0a63b532": {
+        "verdict": "keep",
+        "reason": "Directly covers extending Copilot in Business Central: prompt dialogs, function calling and capability registration.",
+        "at": "2026-11-11T00:56:21.830Z",
+        "v": 2
+      },
+      "video/tMqCSibSRug@bc0b3a27989e2662": {
+        "verdict": "drop",
+        "reason": "About an AL code analysis tool; its mentions of AI agents are incidental.",
+        "at": "2026-11-11T00:56:21.830Z",
         "v": 2
       },
       "video/tpAh4q3h8T8@8c73a10fc99e408b": {
         "verdict": "drop",
-        "reason": "Keynote only mentions GitHub Copilot as a coding aid, not building Copilot features.",
-        "at": "2026-11-03T00:57:43.940Z",
+        "reason": "Mentions GitHub Copilot for writing code, not developer tools for building Copilot in Business Central.",
+        "at": "2026-11-11T00:56:21.830Z",
         "v": 2
       }
     },

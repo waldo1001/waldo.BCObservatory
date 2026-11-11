@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:33.447Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -362,6 +362,7 @@ links:
     - object/page/5733
     - object/page/5839
     - object/page/5871
+    - object/page/6520
     - object/page/9091
     - object/page/9231
     - object/page/9300
@@ -462,7 +463,7 @@ children:
   - topic/business-central/business-functionality/inventory/inventory-analytics
 coverage:
   learn: 75
-  code: 99
+  code: 100
   video: 4
   blog: 12
   guideline: 0
@@ -532,6 +533,7 @@ bc_forms:
   - 5809
   - 5839
   - 5871
+  - 6520
   - 6625
   - 6626
   - 6627
@@ -628,8 +630,7 @@ Start with "Managing inventory" for the overall picture, then "Create item cards
   - In the observatory: [Page 5730 "Item Categories"](../../../objects/page/5730.md), [Page 7500 "Item Attributes"](../../../objects/page/7500.md), [Page 7501 "Item Attribute Values"](../../../objects/page/7501.md), [Page 7506 "Filter Items by Attribute"](../../../objects/page/7506.md)
 - [Set up item tracking with serial, lot, and package numbers](https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-item-tracking): Set up item tracking with serial numbers, lot numbers, and package numbers
   - In the observatory: [Page 30 "Item Card"](../../../objects/page/30.md), [Page 6502 "Item Tracking Codes"](../../../objects/page/6502.md), [Page 6512 "Item Tracking Code Card"](../../../objects/page/6512.md)
-- [Trace item-tracked items](https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-trace-item-tracked-items): You can see where an item-tracked item was used, including how and when it was received, produced, or returned with Item Tracing and Find Entries features.
-  - In the observatory: [Page 6520 "Item Tracing"](../../../objects/page/6520.md)
+- [Trace Item-Tracked Items](https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-trace-item-tracked-items): Use Item Tracing to follow posted transactions for serial, lot, and package numbers. Find related posted entries and open records with Find Entries.
 - [Track items with serial, lot, and package numbers](https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-item-tracking): You can add serial numbers, lot numbers, and package numbers to outbound or inbound document. The posted item tracking entries display on their item ledger entries.
   - In the observatory: [Page 6504 "Serial No. Information Card"](../../../objects/page/6504.md), [Page 6508 "Lot No. Information List"](../../../objects/page/6508.md), [Page 6509 "Serial No. Information List"](../../../objects/page/6509.md), [Page 6510 "Item Tracking Lines"](../../../objects/page/6510.md)
 - [Transfer items between locations](https://learn.microsoft.com/dynamics365/business-central/inventory-how-transfer-between-locations): Learn how to transfer items, inventory, or stock between locations by using transfer orders or the item reclassification journal.
@@ -712,6 +713,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 5733 "Item Category Card"](../../../objects/page/5733.md) · on [Table 5722 "Item Category"](../../../objects/table/5722.md)
 - [Page 5839 "Modify Marketing Text"](../../../objects/page/5839.md) · captioned "Edit Marketing Text"
 - [Page 5871 "Item Availability by BOM Level"](../../../objects/page/5871.md) · on [Table 5870 "BOM Buffer"](../../../objects/table/5870.md)
+- [Page 6520 "Item Tracing"](../../../objects/page/6520.md) · on [Table 6520 "Item Tracing Buffer"](../../../objects/table/6520.md)
 - [Page 9091 "Item Planning FactBox"](../../../objects/page/9091.md) · captioned "Item Details - Planning" · on [Table 27 "Item"](../../../objects/table/27.md)
 - [Page 9231 "Items by Location Matrix"](../../../objects/page/9231.md) · on [Table 27 "Item"](../../../objects/table/27.md)
 - [Page 99000896 "Available - Transfer Lines"](../../../objects/page/99000896.md) · on [Table 5741 "Transfer Line"](../../../objects/table/5741.md)

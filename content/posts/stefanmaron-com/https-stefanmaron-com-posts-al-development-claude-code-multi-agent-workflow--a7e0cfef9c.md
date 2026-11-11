@@ -21,7 +21,7 @@ review:
   at: "2026-10-08T01:57:13.678Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-11T00:15:47.902Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -88,7 +88,7 @@ preview:
   image_h: null
   site_name: Stefan Maron
   favicon: https://stefanmaron.com/icons/favicon-32x32.png
-  probed_at: "2026-10-07T11:50:45.409Z"
+  probed_at: "2026-11-11T00:52:06.327Z"
 ---
 
 # AL Development with Claude Code: A Multi-Agent Workflow

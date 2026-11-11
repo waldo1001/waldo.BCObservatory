@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports",
-  "input_hash": "053ebcb2229c2718ec1c7a7885354432a7e2a5c1e3edd457808fcc5e8e0fb756",
-  "summary": "Developing reports in AL for Business Central: report objects, datasets, layouts (Word, Excel, RDL), request pages, report extensions, substitution, obsoleting, telemetry, performance, testing and troubleshooting. It answers how to build, extend, format, expose, monitor and retire reports.",
-  "overview": "A report in AL is built from a dataset (data items and columns taken from tables), one or more layouts (Word, Excel, RDL or custom), and an optional request page where users set options and filters. The Reports overview, Report Design Overview and Report object pages introduce these parts, and the walkthrough on designing a report from multiple tables shows an RDL report from dataset to totals and an Excel layout.\n\nSubtopics go deeper on single areas: formatting report data, report layouts, discoverability (how users find reports), triggers and events, and how users run, print and save reports. Further pages cover extending reports with report extension objects, substituting reports through an event, and obsoleting reports and layouts.\n\nFor running reports in production, the telemetry, performance and troubleshooting pages explain how to find slow or failing runs. The test reports page covers verifying output with a report dataset library. Start with Reports overview and Report object, then move to dataset and layouts.",
+  "input_hash": "2d7b6aae98f0da9989382dc541248802de1ea2208881be24444ef3fa179d3170",
+  "summary": "Developing reports in AL for Business Central: report objects, datasets, request pages, layouts (Word, Excel, RDLC/RDL), report extensions, substitution, obsoleting, testing, telemetry and performance. Answers how-to, design and troubleshooting questions for report developers.",
+  "overview": "This section covers the full life of an AL report. It starts with the report object, the dataset (data items and columns) and the request page, then moves to layouts in Excel, Word and RDL. A walkthrough shows how to design an RDL report from multiple tables.\n\nSubtopics go deeper on report layouts, formatting report data, triggers and events, discoverability, and how users run, preview, print and schedule reports. Further pages cover extending reports with report extension objects, substituting reports through an event, obsoleting reports, and testing report output.\n\nFor operations, the telemetry, performance and troubleshooting pages explain how to analyze slow or failing reports. Start with Reports overview and Report Design Overview, then Report dataset and Report object, and go to the subtopics for layout or formatting detail.",
   "key_points": [
-    "A report combines a dataset (data items and columns), layouts (Excel, Word, RDL) and a request page.",
-    "Report extension objects add columns, data items, triggers, request page elements and layouts to existing reports; a worked food inventory example shows the table and report extension code.",
-    "Report substitution uses the OnAfterSubstituteReport event in Codeunit 44 ReportManagement; from 2021 release wave 1, report extensions are an alternative.",
-    "Obsoleting reports uses ObsoleteReason, ObsoleteTag and ObsoleteState, with layout-level obsolescence from 2025 release wave 1; deprecation is also communicated via captions, search terms and help content.",
-    "Request pages let users set options and filters before a report runs, using properties such as RequestFilterFields and SaveValues; teaching tips, help links and saved settings are also covered.",
-    "Report generation telemetry tracks successful, failed and canceled runs, dataset and rendering time, SQL execution, and output formats, and supports performance analysis.",
-    "Performance strategies include read scale-out, background scheduling and query optimization.",
-    "Testing uses Codeunit 131007 Library - Report Dataset, with methods like RunReportAndLoad and AssertElementWithValueExists."
+    "A report is built from a dataset (data items and columns), one or more layouts (Excel, Word, RDL) and an optional request page.",
+    "Request pages let users set options and filters before a report runs, using properties such as RequestFilterFields and SaveValues.",
+    "Report extension objects add columns, data items, triggers, request page elements and layouts to existing reports (2022 release wave 1 page).",
+    "Report substitution uses the OnAfterSubstituteReport event in Codeunit 44 ReportManagement; since 2021 release wave 1, report extensions are an alternative.",
+    "Obsoleting reports uses ObsoleteReason, ObsoleteTag and ObsoleteState, with layout-level obsolescence from 2025 release wave 1.",
+    "Report generation telemetry tracks successful, failed and canceled runs, dataset and rendering time, and SQL execution, and it supports performance analysis and troubleshooting.",
+    "Codeunit 131007 Library - Report Dataset supports testing report output with methods like RunReportAndLoad and AssertElementWithValueExists.",
+    "Subtopics cover formatting data (AutoFormatType, DecimalPlaces), layouts, discoverability (UsageCategory, AdditionalSearchTerms), triggers and events, and user-side report handling."
   ],
   "members_used": 14,
   "subtopics_used": 5,
   "prompt_version": 1,
-  "at": "2026-10-07T21:13:11.797Z",
+  "at": "2026-11-11T00:58:47.500Z",
   "llm": {
     "model": "claude-sonnet-5-5",
-    "cached": true,
-    "cost_usd": null
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T21:13:11.945Z",
-    "verdict": "fix",
-    "issues": [
-      "The report extension key point says '(2022 release wave 1 page)'. That phrasing suggests report extensions arrived in 2022 release wave 1. The substitution page says report extensions have been an alternative since 2021 release wave 1. The page's version tag does not say which feature it refers to, so the version was removed from this point.",
-      "The request page key point ties '2023 release wave 1' to teaching tips and help links. The source only tags the page with that version and does not say which feature it applies to, so the version was removed.",
-      "Minor: the 'AL language reference (reports)' subtopic is not mentioned. It has no summary, so leaving it out is acceptable."
-    ],
-    "input_hash": "053ebcb2229c2718ec1c7a7885354432a7e2a5c1e3edd457808fcc5e8e0fb756",
-    "cost_usd": null
+    "cached": false,
+    "cost_usd": 0.021757
   }
 }

@@ -2,11 +2,11 @@
   "inputs": {
     "commits": {
       "28": "70915dedd33ff568c5fdef4cf5296862d9399141",
-      "29": "d46542bef3883b9f0f55e85d7cdf99201b430348",
+      "29": "2c932722a2917f4592f1541d4d85dc247c8942ac",
       "30": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
     },
-    "forms": 1732,
-    "forms_hash": "9281b467fb062c602f9e90b89445b7d5dd0daa90086ad05e5ecfee2938b1481f"
+    "forms": 1733,
+    "forms_hash": "f1915db54720eb220e970e312dc79da652b8be6bbc3e72a74b5cd8bc3835c5aa"
   },
   "majors": [
     "28",
@@ -15,11 +15,11 @@
   ],
   "commits": {
     "28": "70915dedd33ff568c5fdef4cf5296862d9399141",
-    "29": "d46542bef3883b9f0f55e85d7cdf99201b430348",
+    "29": "2c932722a2917f4592f1541d4d85dc247c8942ac",
     "30": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
   },
-  "docs": 1596,
-  "links": 5347,
+  "docs": 1597,
+  "links": 5348,
   "by_doc": {
     "docs/learn-devitpro/dev-itpro/administration/apply-company-configuration-packages.md": [
       {
@@ -31393,6 +31393,21 @@
       {
         "key": "page/461",
         "name": "Inventory Setup",
+        "versions": [
+          "28",
+          "29",
+          "30"
+        ],
+        "countries": [
+          "w1"
+        ],
+        "obsolete": null
+      }
+    ],
+    "docs/learn-smb-docs/business-central/inventory-how-to-trace-item-tracked-items.md": [
+      {
+        "key": "page/6520",
+        "name": "Item Tracing",
         "versions": [
           "28",
           "29",
@@ -64769,8 +64784,8 @@
     ],
     "docs/learn-smb-docs/business-central/ui-excel-report-layouts.md": [
       {
-        "key": "page/9650",
-        "name": "Custom Report Layouts",
+        "key": "page/9660",
+        "name": "Report Layouts",
         "versions": [
           "28",
           "29",
@@ -64779,11 +64794,11 @@
         "countries": [
           "w1"
         ],
-        "obsolete": "Pending"
+        "obsolete": null
       },
       {
-        "key": "page/9652",
-        "name": "Report Layout Selection",
+        "key": "page/9662",
+        "name": "Report Layout New Dialog",
         "versions": [
           "28",
           "29",
@@ -71208,7 +71223,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-define-customer-vendor-document-layouts.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts",
-        "title": "Assign document layouts to customers or vendors",
+        "title": "Define Document Layouts for Customers and Vendors",
         "via": "ms.search.form"
       }
     ],
@@ -71412,7 +71427,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-use-comments.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-comments",
-        "title": "Add comments to cards and documents",
+        "title": "Add Comments to Cards and Documents",
         "via": "ms.search.form"
       },
       {
@@ -71674,13 +71689,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-track-document-lines.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-track-document-lines",
-        "title": "Track order lines to related documents",
+        "title": "Track Document Lines",
         "via": "ms.search.form"
       },
       {
@@ -71820,7 +71835,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       },
       {
@@ -71834,13 +71849,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-track-document-lines.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-track-document-lines",
-        "title": "Track order lines to related documents",
+        "title": "Track Document Lines",
         "via": "ms.search.form"
       },
       {
@@ -72694,7 +72709,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-use-comments.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-comments",
-        "title": "Add comments to cards and documents",
+        "title": "Add Comments to Cards and Documents",
         "via": "ms.search.form"
       }
     ],
@@ -72702,7 +72717,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-edit-posted-document.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document",
-        "title": "Edit posted sales and purchase documents",
+        "title": "Edit Posted Documents",
         "via": "ms.search.form"
       },
       {
@@ -72770,7 +72785,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-edit-posted-document.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document",
-        "title": "Edit posted sales and purchase documents",
+        "title": "Edit Posted Documents",
         "via": "ms.search.form"
       },
       {
@@ -72810,7 +72825,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-edit-posted-document.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document",
-        "title": "Edit posted sales and purchase documents",
+        "title": "Edit Posted Documents",
         "via": "ms.search.form"
       },
       {
@@ -72890,7 +72905,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-edit-posted-document.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document",
-        "title": "Edit posted sales and purchase documents",
+        "title": "Edit Posted Documents",
         "via": "ms.search.form"
       },
       {
@@ -74170,7 +74185,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-find-entries.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-find-entries",
-        "title": "Finding Related Entries for Documents",
+        "title": "Find Related Entries for Documents",
         "via": "ms.search.form"
       }
     ],
@@ -74868,7 +74883,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       },
       {
@@ -74948,7 +74963,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       },
       {
@@ -75702,7 +75717,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-track-document-lines.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-track-document-lines",
-        "title": "Track order lines to related documents",
+        "title": "Track Document Lines",
         "via": "ms.search.form"
       },
       {
@@ -75716,7 +75731,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-track-document-lines.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-track-document-lines",
-        "title": "Track order lines to related documents",
+        "title": "Track Document Lines",
         "via": "ms.search.form"
       },
       {
@@ -76688,7 +76703,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-how-run-batch-jobs.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-run-batch-jobs",
-        "title": "Run Batch Jobs and XMLports",
+        "title": "Run Batch Jobs",
         "via": "ms.search.form"
       }
     ],
@@ -76712,7 +76727,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-how-run-batch-jobs.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-run-batch-jobs",
-        "title": "Run Batch Jobs and XMLports",
+        "title": "Run Batch Jobs",
         "via": "ms.search.form"
       }
     ],
@@ -76728,7 +76743,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-how-run-batch-jobs.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-run-batch-jobs",
-        "title": "Run Batch Jobs and XMLports",
+        "title": "Run Batch Jobs",
         "via": "ms.search.form"
       }
     ],
@@ -79402,7 +79417,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/company-hub.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/company-hub",
-        "title": "Manage work across multiple companies in the company hub",
+        "title": "Manage Work Across Multiple Companies in the Company Hub",
         "via": "ms.search.form"
       },
       {
@@ -79414,7 +79429,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-extensions-company-hub.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub",
-        "title": "Using the Company Hub",
+        "title": "The Company Hub Extension for Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -79422,7 +79437,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-extensions-company-hub.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub",
-        "title": "Using the Company Hub",
+        "title": "The Company Hub Extension for Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -79430,7 +79445,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-extensions-company-hub.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub",
-        "title": "Using the Company Hub",
+        "title": "The Company Hub Extension for Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -79438,13 +79453,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/company-hub.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/company-hub",
-        "title": "Manage work across multiple companies in the company hub",
+        "title": "Manage Work Across Multiple Companies in the Company Hub",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-extensions-company-hub.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub",
-        "title": "Using the Company Hub",
+        "title": "The Company Hub Extension for Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -79458,7 +79473,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-extensions-company-hub.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub",
-        "title": "Using the Company Hub",
+        "title": "The Company Hub Extension for Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -79510,13 +79525,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/company-hub.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/company-hub",
-        "title": "Manage work across multiple companies in the company hub",
+        "title": "Manage Work Across Multiple Companies in the Company Hub",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-extensions-company-hub.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub",
-        "title": "Using the Company Hub",
+        "title": "The Company Hub Extension for Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -79530,7 +79545,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/company-hub.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/company-hub",
-        "title": "Manage work across multiple companies in the company hub",
+        "title": "Manage Work Across Multiple Companies in the Company Hub",
         "via": "ms.search.form"
       },
       {
@@ -79542,7 +79557,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-extensions-company-hub.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub",
-        "title": "Using the Company Hub",
+        "title": "The Company Hub Extension for Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -79550,7 +79565,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-extensions-company-hub.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub",
-        "title": "Using the Company Hub",
+        "title": "The Company Hub Extension for Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -80340,13 +80355,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-work-with-excel.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel",
-        "title": "Viewing and editing in Excel from Business Central",
+        "title": "View and Edit Business Central Data in Excel",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/admin-deploy-excel-addin.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/admin-deploy-excel-addin",
-        "title": "Getting the Business Central add-in for Excel",
+        "title": "Deploy the Business Central Add-in for Excel",
         "via": "ms.search.form"
       }
     ],
@@ -81222,7 +81237,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-customizing-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-customizing-overview",
-        "title": "Customizing Business Central",
+        "title": "Customize Business Central",
         "via": "ms.search.form"
       },
       {
@@ -81266,7 +81281,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-customizing-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-customizing-overview",
-        "title": "Customizing Business Central",
+        "title": "Customize Business Central",
         "via": "ms.search.form"
       },
       {
@@ -81500,7 +81515,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/admin-teams-integration.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/admin-teams-integration",
-        "title": "Managing Microsoft Teams Integration with Business Central| Microsoft Docs",
+        "title": "Manage Microsoft Teams Integration with Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -81574,7 +81589,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       }
     ],
@@ -82192,7 +82207,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       }
     ],
@@ -82200,7 +82215,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       }
     ],
@@ -82208,7 +82223,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       }
     ],
@@ -82216,7 +82231,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       }
     ],
@@ -84508,11 +84523,19 @@
         "via": "ms.search.form"
       }
     ],
+    "page/6520": [
+      {
+        "id": "docs/learn-smb-docs/business-central/inventory-how-to-trace-item-tracked-items.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-trace-item-tracked-items",
+        "title": "Trace Item-Tracked Items",
+        "via": "ms.search.form"
+      }
+    ],
     "page/6560": [
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-track-document-lines.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-track-document-lines",
-        "title": "Track order lines to related documents",
+        "title": "Track Document Lines",
         "via": "ms.search.form"
       }
     ],
@@ -84544,7 +84567,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       }
     ],
@@ -84566,7 +84589,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       },
       {
@@ -84628,7 +84651,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       }
     ],
@@ -84636,7 +84659,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-edit-posted-document.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document",
-        "title": "Edit posted sales and purchase documents",
+        "title": "Edit Posted Documents",
         "via": "ms.search.form"
       }
     ],
@@ -84644,7 +84667,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-edit-posted-document.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document",
-        "title": "Edit posted sales and purchase documents",
+        "title": "Edit Posted Documents",
         "via": "ms.search.form"
       },
       {
@@ -84658,7 +84681,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-edit-posted-document.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document",
-        "title": "Edit posted sales and purchase documents",
+        "title": "Edit Posted Documents",
         "via": "ms.search.form"
       }
     ],
@@ -84666,7 +84689,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-edit-posted-document.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document",
-        "title": "Edit posted sales and purchase documents",
+        "title": "Edit Posted Documents",
         "via": "ms.search.form"
       },
       {
@@ -86710,7 +86733,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/admin-view-table-information.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information",
-        "title": "View table information",
+        "title": "View Table Information",
         "via": "ms.search.form"
       },
       {
@@ -86724,7 +86747,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/admin-view-table-information.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information",
-        "title": "View table information",
+        "title": "View Table Information",
         "via": "ms.search.form"
       },
       {
@@ -86752,7 +86775,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-how-add-link-to-record.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-add-link-to-record",
-        "title": "Add attachments, links, and notes on records",
+        "title": "Manage Attachments, Links, and Notes on Cards and Documents",
         "via": "ms.search.form"
       }
     ],
@@ -86856,13 +86879,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-        "title": "Assistive features",
+        "title": "Accessibility and Keyboard Shortcuts",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       },
       {
@@ -86950,13 +86973,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-        "title": "Assistive features",
+        "title": "Accessibility and Keyboard Shortcuts",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       },
       {
@@ -87024,13 +87047,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-        "title": "Assistive features",
+        "title": "Accessibility and Keyboard Shortcuts",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       },
       {
@@ -87098,13 +87121,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-        "title": "Assistive features",
+        "title": "Accessibility and Keyboard Shortcuts",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       },
       {
@@ -87172,13 +87195,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-        "title": "Assistive features",
+        "title": "Accessibility and Keyboard Shortcuts",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       },
       {
@@ -87266,13 +87289,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-        "title": "Assistive features",
+        "title": "Accessibility and Keyboard Shortcuts",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       },
       {
@@ -87346,13 +87369,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-        "title": "Assistive features",
+        "title": "Accessibility and Keyboard Shortcuts",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       },
       {
@@ -87472,13 +87495,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-        "title": "Assistive features",
+        "title": "Accessibility and Keyboard Shortcuts",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       },
       {
@@ -87546,13 +87569,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-        "title": "Assistive features",
+        "title": "Accessibility and Keyboard Shortcuts",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       },
       {
@@ -87596,7 +87619,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       }
     ],
@@ -87628,13 +87651,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-        "title": "Assistive features",
+        "title": "Accessibility and Keyboard Shortcuts",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       },
       {
@@ -87708,13 +87731,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-        "title": "Assistive features",
+        "title": "Accessibility and Keyboard Shortcuts",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       },
       {
@@ -87788,13 +87811,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-        "title": "Assistive features",
+        "title": "Accessibility and Keyboard Shortcuts",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       },
       {
@@ -87868,13 +87891,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-        "title": "Assistive features",
+        "title": "Accessibility and Keyboard Shortcuts",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       },
       {
@@ -87948,7 +87971,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-analyze-excel.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-analyze-excel",
-        "title": "Work with financial overviews in Excel (legacy)",
+        "title": "Analyzing Financial Statements in Microsoft Excel (legacy)",
         "via": "ms.search.form"
       },
       {
@@ -87960,13 +87983,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-        "title": "Assistive features",
+        "title": "Accessibility and Keyboard Shortcuts",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       },
       {
@@ -88040,13 +88063,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-accessibility.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-accessibility",
-        "title": "Assistive features",
+        "title": "Accessibility and Keyboard Shortcuts",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ui-change-basic-settings.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings",
-        "title": "Change basic settings for the current user",
+        "title": "Change Basic Settings",
         "via": "ms.search.form"
       },
       {
@@ -88250,7 +88273,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-personalization-manage.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage",
-        "title": "Customizing Pages for Roles",
+        "title": "Customize Pages for Profiles",
         "via": "ms.search.form"
       }
     ],
@@ -88600,7 +88623,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       },
       {
@@ -88680,7 +88703,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       },
       {
@@ -88978,7 +89001,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       },
       {
@@ -88992,7 +89015,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       }
     ],
@@ -89000,7 +89023,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       }
     ],
@@ -89008,7 +89031,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
-        "title": "Archive sales, purchase, project, and service documents",
+        "title": "Archive Documents",
         "via": "ms.search.form"
       }
     ],
@@ -89118,7 +89141,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/admin-onedrive-integration.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/admin-onedrive-integration",
-        "title": "Managing OneDrive Integration with Business Central",
+        "title": "Manage OneDrive Integration with Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -89126,13 +89149,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-define-customer-vendor-document-layouts.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts",
-        "title": "Assign document layouts to customers or vendors",
-        "via": "ms.search.form"
-      },
-      {
-        "id": "docs/learn-smb-docs/business-central/ui-excel-report-layouts.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts",
-        "title": "Working with Excel layouts",
+        "title": "Define Document Layouts for Customers and Vendors",
         "via": "ms.search.form"
       },
       {
@@ -89185,12 +89202,6 @@
       }
     ],
     "page/9652": [
-      {
-        "id": "docs/learn-smb-docs/business-central/ui-excel-report-layouts.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts",
-        "title": "Working with Excel layouts",
-        "via": "ms.search.form"
-      },
       {
         "id": "docs/learn-smb-docs/business-central/ui-get-started-layouts.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-get-started-layouts",
@@ -89248,6 +89259,12 @@
         "via": "ms.search.form"
       },
       {
+        "id": "docs/learn-smb-docs/business-central/ui-excel-report-layouts.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts",
+        "title": "Create Excel Report Layouts in Business Central",
+        "via": "ms.search.form"
+      },
+      {
         "id": "docs/learn-smb-docs/business-central/ui-get-started-layouts.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-get-started-layouts",
         "title": "Get started creating report layouts",
@@ -89263,6 +89280,14 @@
         "id": "docs/learn-smb-docs/business-central/ui-set-up-report-themes-header-footer-layouts.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-set-up-report-themes-header-footer-layouts",
         "title": "Set Up Report Themes and Header/Footer Layouts",
+        "via": "ms.search.form"
+      }
+    ],
+    "page/9662": [
+      {
+        "id": "docs/learn-smb-docs/business-central/ui-excel-report-layouts.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts",
+        "title": "Create Excel Report Layouts in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -89300,7 +89325,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/admin-how-set-up-colored-indicator-on-cues.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-set-up-colored-indicator-on-cues",
-        "title": "Set up your customized colored indicators for a Cue's activity",
+        "title": "Set Up Colored Indicators on Cues for a Company or User",
         "via": "ms.search.form"
       }
     ],
@@ -89308,7 +89333,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/admin-how-set-up-colored-indicator-on-cues.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-set-up-colored-indicator-on-cues",
-        "title": "Set up your customized colored indicators for a Cue's activity",
+        "title": "Set Up Colored Indicators on Cues for a Company or User",
         "via": "ms.search.form"
       }
     ],
@@ -89716,7 +89741,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/admin-data-access-intent.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/admin-data-access-intent",
-        "title": "Manage database access intent in Business Central",
+        "title": "Manage Database Access Intent",
         "via": "ms.search.form"
       }
     ],

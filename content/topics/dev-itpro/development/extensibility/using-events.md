@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:15.642Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -133,6 +133,7 @@ links:
     - change/bcapps/9067
     - change/bcapps/9077
     - change/bcapps/9225
+    - change/bcapps/9637
     - change/bcapps/9950
     - change/bcquality/139
     - change/bcquality/144
@@ -219,6 +220,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9067 Production Definition Wizard - Implementation](../../../../changes/bcapps/9067.md) (code change): "Event publishers expanded with new parameters and integration points like OnBeforeGetProdOrderNeeds"
 - [#9077 [Quality Management] Bug 620326: Reset IsChangingStatus on handled Reopen/Finish early-exit](../../../../changes/bcapps/9077.md) (code change): "Quality Management's Reopen/Finish procedures now properly reset the IsChangingStatus flag"
 - [#9225 [Extensibility][SubscriptionBilling]: Make usage data billing filtering extensible in SetUsageDataBillingFilters](../../../../changes/bcapps/9225.md) (code change): "Added OnAfterSetUsageDataBillingFilters integration event for extensibility"
+- [#9637 [Event Requests] Add integration events across base app and SMTP module](../../../../changes/bcapps/9637.md) (code change): "Add integration events across base app and SMTP module"
 - [#9950 [Master] - Bug 645038 Withholding Tax entries from a previous posting preview appear on unrelated documents (e.g. expense report)](../../../../changes/bcapps/9950.md) (code change): "Withholding Tax entries from a previous posting preview appear on unrelated documents"
 - [#139 knowledge(breaking-changes): adding a parameter to an event publisher is not a signature break](../../../../changes/bcquality/139.md) (code change): "Event subscribers bind to publishers by parameter name, not by position"
 - [#144 Avoid Public Event publisher](../../../../changes/bcquality/144.md) (code change): "event publishers local or internal instead of public"
@@ -228,7 +230,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Event parameter compatibility rules clarified: local/internal subscribers bind by name"
 - [Debugging Business Event Subscriptions in Business Central](../../../../posts/aardvarklabs-blog/2907.md) (community post): "Business Event Subscriptions Business Central has hidden pages for debugging"
 - [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "codeunit subscribes to the OnAfterPostSalesDoc event, generates the invoice as a PDF, and fires a business event"
-- [Obsoleted and “no longer invoked” events in v26 Business Central](../../../../posts/waldo-be/317951.md) (community post): "82 obsoleted events from the legacy invoice posting system while keeping them"
+- [Obsoleted and “no longer invoked” events in v26 Business Central](../../../../posts/waldo-be/317951.md) (community post): "82 obsoleted events from the legacy invoice posting system"
 - [Dynamics 365 Business Central: Save a document as a Word attachment (Attach as Word) – Customization](../../../../posts/yzhums-com/63559.md) (community post): "Event subscribers can hook into OnBeforeSaveReportAsPDF and OnBeforeSaveAttachment to modify the standard behavior"
 - [Dynamics 365 Business Central: How to restrict certain tables from importing data through Configuration Package](../../../../posts/yzhums-com/64265.md) (community post): "OnAfterIsSystemTable event in a codeunit to mark unwanted tables"
 - [Dynamics 365 Business Central: How to automatically archive sales orders via AL (For example, Archive on Order Release)](../../../../posts/yzhums-com/69356.md) (community post): "subscribing to the release event and calling the ArchiveManagement codeunit"

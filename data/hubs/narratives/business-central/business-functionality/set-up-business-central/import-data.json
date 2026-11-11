@@ -1,36 +1,24 @@
 {
   "hub_id": "topic/business-central/business-functionality/set-up-business-central/import-data",
-  "input_hash": "cd9dc73445af77515b55b29fb477818ad3fbf607f32cabf1b97bd66e5b38fafe",
-  "summary": "Import data covers two ways to bring business data from other systems into Business Central: data migration extensions for QuickBooks Desktop and QuickBooks Online, and Excel files or configuration packages. It answers questions about choosing a migration route and what data can be moved.",
-  "overview": "This section describes how to move existing business data into Business Central when setting up. There are two pages, and each covers a different source: a QuickBooks app, or any other finance system via Excel.\n\nFor QuickBooks users, built-in data migration extensions handle both QuickBooks Desktop and QuickBooks Online, and are started from assisted setup. They migrate records such as customers, vendors and inventory.\n\nFor other sources, the Excel page explains how to import data using Excel files or configuration packages. The default configuration package supports 27 tables covering master data and transactions. Start with the QuickBooks page if you come from QuickBooks, otherwise start with the Excel page.",
+  "input_hash": "f4d631f3e403cd292888650dbed40cc6107a6fd54a1446568200110b8ac5a46f",
+  "summary": "Importing business data into Business Central: using Excel, assisted setup guides, data migration wizards and configuration packages, and migrating from QuickBooks Desktop and QuickBooks Online. It answers questions about how to bring in customers, vendors, inventory and accounts.",
+  "overview": "This section covers the ways to load existing business data into Business Central when setting it up. The general page describes importing from Excel files and from other finance systems, using assisted setup guides, data migration wizards and configuration packages. It names QuickBooks, Dynamics GP and Dynamics NAV as migration sources.\n\nThe second page is specific to QuickBooks. It explains how built-in data migration extensions move data from QuickBooks Desktop and QuickBooks Online, including customers, vendors and inventory, through assisted setup.\n\nStart with the Excel and general import page to choose a method based on your source system. Then go to the QuickBooks page if you are coming from QuickBooks.",
   "key_points": [
+    "Data can be imported from Excel files and from other finance systems.",
+    "Tools include assisted setup guides, data migration wizards and configuration packages.",
+    "Data types named include customers, vendors, inventory and accounts.",
+    "The Excel add-in is listed as one import route.",
+    "Migration is described for QuickBooks, Dynamics GP and Dynamics NAV.",
     "QuickBooks Desktop and QuickBooks Online are both supported through built-in data migration extensions.",
-    "The QuickBooks migration is started from assisted setup.",
-    "QuickBooks migration covers customers, vendors and inventory.",
-    "Excel import suits data from other finance systems.",
-    "Data can be imported using Excel files or configuration packages.",
-    "The default configuration package supports 27 tables for master data and transactions.",
-    "The Excel page also touches on data transformation and master data migration."
+    "QuickBooks migration is started from assisted setup and covers customers, vendors and inventory."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:09:31.482Z",
+  "at": "2026-11-11T00:58:53.321Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008231
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:22:09.914Z",
-    "verdict": "approve",
-    "issues": [
-      "The claim that QuickBooks migration is started from assisted setup comes only from the feature tag 'assisted setup', not from the page summary. The link is reasonable but inferred.",
-      "The 'Start with the QuickBooks page / Excel page' advice is editorial guidance, not sourced. It is reasonable because the pages split by source system."
-    ],
-    "input_hash": "cd9dc73445af77515b55b29fb477818ad3fbf607f32cabf1b97bd66e5b38fafe",
-    "cost_usd": 0.0248752
+    "cost_usd": 0.008778999999999999
   }
 }

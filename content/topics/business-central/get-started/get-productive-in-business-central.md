@@ -11,7 +11,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,22 +46,8 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-how-add-link-to-record
-    title: Add attachments, links, and notes on records
-    date: "2026-09-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts
-    title: Assign document layouts to customers or vendors
-    date: "2024-11-28"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-accessibility
-    title: Assistive features
+    title: Accessibility and Keyboard Shortcuts
     date: "2021-06-23"
     commit: null
     t: null
@@ -75,22 +61,36 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-bookmarks
-    title: Bookmark link to page or report on role center
+    title: Bookmark a Page or Report on Your Role Center
     date: "2024-07-25"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings
-    title: Change basic settings for the current user
-    date: "2025-03-26"
+    title: Change Basic Settings
+    date: "2026-11-10"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
+    title: Create Excel Report Layouts in Business Central
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts
+    title: Define Document Layouts for Customers and Vendors
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in
     title: Design Word Layouts with the Business Central Add-in
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -152,7 +152,7 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/keyboard-shortcuts-cheatsheet
-    title: Keyboard quick reference - PC only
+    title: Keyboard Quick Reference - PC Only
     date: "2025-08-04"
     commit: null
     t: null
@@ -161,6 +161,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/keyboard-shortcuts
     title: Keyboard Shortcuts
     date: "2026-08-20"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-how-add-link-to-record
+    title: Manage Attachments, Links, and Notes on Cards and Documents
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -181,7 +188,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout
     title: Map Data Fields in Word Layouts
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -194,8 +201,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-share-onedrive
-    title: Opening Business Central Files in OneDrive
-    date: "2025-10-21"
+    title: Open and Share Business Central Files in OneDrive
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -236,8 +243,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-run-batch-jobs
-    title: Run Batch Jobs and XMLports
-    date: "2021-04-01"
+    title: Run Batch Jobs
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -251,7 +258,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook
     title: Save Business Contacts to Microsoft Outlook
-    date: "2026-03-13"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -278,28 +285,20 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-working-with-teams
-    title: Sharing Business Central records in Microsoft Teams
-    date: "2025-10-23"
+    title: Share Business Central Records in Microsoft Teams
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-share-data-features
-    title: Sharing data
-    date: "2025-10-21"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-enter-criteria-filters
-    title: Sort, search, and filter data in lists, reports, or XMLports
-    date: "2026-06-09"
+    title: Share Business Data from Business Central
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/ui-how-add-link-to-record
     - https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings
     - https://learn.microsoft.com/dynamics365/business-central/ui-enter-data
     - https://learn.microsoft.com/dynamics365/business-central/ui-enter-date-ranges
@@ -307,6 +306,7 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/ui-search
     - https://learn.microsoft.com/dynamics365/business-central/ui-role-explorer
     - https://learn.microsoft.com/dynamics365/business-central/ui-search-faq
+    - https://learn.microsoft.com/dynamics365/business-central/ui-how-add-link-to-record
     - https://learn.microsoft.com/dynamics365/business-central/ui-smart-notifications
     - https://learn.microsoft.com/dynamics365/business-central/about-locale-language
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview
@@ -353,6 +353,7 @@ links:
     - object/page/9650
     - object/page/9652
     - object/page/9660
+    - object/page/9662
     - object/page/9663
     - object/page/9666
     - object/page/9670
@@ -383,7 +384,7 @@ children:
   - topic/business-central/get-started/get-productive-in-business-central/accessibility-keyboard-shortcuts-and-tou
 coverage:
   learn: 54
-  code: 37
+  code: 38
   video: 0
   blog: 0
   guideline: 0
@@ -422,6 +423,7 @@ bc_forms:
   - 9650
   - 9652
   - 9660
+  - 9662
   - 9663
   - 9666
   - 9670
@@ -461,8 +463,7 @@ This section covers the daily skills of a Business Central user. Its own pages c
 
 ## More Learn pages
 
-- [Add attachments, links, and notes on records](https://learn.microsoft.com/dynamics365/business-central/ui-how-add-link-to-record): Attach a hyperlink to a document or a website to a specific record, such as a customer or document.
-- [Change basic settings for the current user](https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings): Learn how to change some basic settings in Business Central, for example, your role and Role Center, company, work date, and time zones.
+- [Change Basic Settings](https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings): Learn how to change some basic settings in Business Central, for example, your role and Role Center, company, work date, and time zones.
 - [Enter data in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-enter-data): Many general features help you enter data easier, faster, and more precisely. The basic principles and advanced features are described here.
 - [Entering dates and times in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-enter-date-ranges): Learn how to enter dates and times including various productivity tips such as shorthand, expressions, and ranges.
 - [Fields required to complete processes](https://learn.microsoft.com/dynamics365/business-central/ui-mandatory-fields): Learn about fields marked with a red asterisk, which indicates that they're required and must be filled in to complete a process.
@@ -470,6 +471,8 @@ This section covers the daily skills of a Business Central user. Its own pages c
 - [Finding Pages and Information with Tell Me](https://learn.microsoft.com/dynamics365/business-central/ui-search): This article describes how to use search to find actions, pages, reports, documentation, and data, and other apps and consulting services.
 - [Finding Pages and Reports with the Role Explorer](https://learn.microsoft.com/dynamics365/business-central/ui-role-explorer): You can get an overview of all the business features that are available for your role, and for other roles, with the Role Explorer.
 - [Frequently Asked Questions about Tell Me](https://learn.microsoft.com/dynamics365/business-central/ui-search-faq): This article provides answers to questions that our partners and customers often ask about the Tell Me feature.
+- [Manage Attachments, Links, and Notes on Cards and Documents](https://learn.microsoft.com/dynamics365/business-central/ui-how-add-link-to-record): Attach files, add links, and write notes on Business Central records so colleagues can find supporting documents and instructions as they work.
+  - In the observatory: [Page 459 "Sales & Receivables Setup"](../../../objects/page/459.md), [Page 460 "Purchases & Payables Setup"](../../../objects/page/460.md), [Page 48 "Sales Orders"](../../../objects/page/48.md), [Page 9308 "Purchase Invoices"](../../../objects/page/9308.md)
 - [Manage Notifications in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-smart-notifications): You can receive notifications that inform you about status changes or events, for example, an overdue balance or low inventory.
 - [Multilanguage and localization](https://learn.microsoft.com/dynamics365/business-central/about-locale-language): Learn how language and region influence your experience in Business Central. Change the language of the user interface in My Settings.
   - In the observatory: [Page 10 "Countries/Regions"](../../../objects/page/10.md), [Page 118 "General Ledger Setup"](../../../objects/page/118.md)
@@ -487,7 +490,7 @@ This section covers the daily skills of a Business Central user. Its own pages c
 - [Search for Specific Data](https://learn.microsoft.com/dynamics365/business-central/ui-search-data): You can use search when you want to find a specific record.
 - [Sort, search, and filter data in lists, reports, or XMLports](https://learn.microsoft.com/dynamics365/business-central/ui-enter-criteria-filters): Learn to work efficiently in lists by searching across your data, sorting columns, and refining results using filter symbols and keyboard shortcuts.
   - In the observatory: [Page 48 "Sales Orders"](../../../objects/page/48.md)
-- [Switching to Another Company or Environment](https://learn.microsoft.com/dynamics365/business-central/ui-organization-switch): If you do work for multiple organizations, you can quickly switch between the environments and companies.
+- [Switching to Another Company or Environment](https://learn.microsoft.com/dynamics365/business-central/ui-organization-switch): Compare ways to switch Business Central companies and environments, including the company switcher, My Settings, app launcher, and Company Hub.
 - [Troubleshooting - Accessing camera and location](https://learn.microsoft.com/dynamics365/business-central/ui-troubleshooting-camera-location): This article describes how to troubleshoot access to camera and location information in Business Central.
 - [Use Microsoft Copilot in Business Central (preview)](https://learn.microsoft.com/dynamics365/business-central/chat-with-copilot): Learn how to use Microsoft Copilot to find data and get help in Business Central.
 - [Warnings and error messages](https://learn.microsoft.com/dynamics365/business-central/product-error-messages): Learn how you can troubleshoot and find solutions to error messages when you work in Business Central.
@@ -534,6 +537,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9650 "Custom Report Layouts"](../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../objects/table/9650.md) · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
 - [Page 9652 "Report Layout Selection"](../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../objects/table/9651.md) · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
 - [Page 9660 "Report Layouts"](../../../objects/page/9660.md) · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
+- [Page 9662 "Report Layout New Dialog"](../../../objects/page/9662.md) · captioned "Add New Layout for a Report" · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
 - [Page 9663 "Tenant Report Layout Cfg"](../../../objects/page/9663.md) · captioned "Report defaults for theme and header-footer" · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
 - [Page 9666 "Report Theme and Header/Footer"](../../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts" · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
 - [Page 9670 "Layout Theme and Header/Footer"](../../../objects/page/9670.md) · captioned "Theme and header-footer per layout" · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)

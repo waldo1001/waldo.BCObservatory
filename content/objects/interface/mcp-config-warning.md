@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:45:19.588Z"
+  at: "2026-11-11T00:47:35.044Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 091e919c50bdb0de38c605ae5fdb707b79d5fcd39602c47094a579412e2fd50c
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d46542bef3883b9f0f55e85d7cdf99201b430348/src/System%20Application/App/MCP/src/Configuration/Interfaces/MCPConfigWarning.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/System%20Application/App/MCP/src/Configuration/Interfaces/MCPConfigWarning.Interface.al
     title: src/System Application/App/MCP/src/Configuration/Interfaces/MCPConfigWarning.Interface.al (releases/29.x)
     date: null
-    commit: d46542bef3883b9f0f55e85d7cdf99201b430348
+    commit: 2c932722a2917f4592f1541d4d85dc247c8942ac
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Interface "MCP Config Warning" in System Application (System.MCP). 4 public procedures. Introduced in BC28, still in BC30.
 
-System Application · System.MCP · BC28-30 · [source at d46542be](https://github.com/microsoft/BCApps/blob/d46542bef3883b9f0f55e85d7cdf99201b430348/src/System%20Application/App/MCP/src/Configuration/Interfaces/MCPConfigWarning.Interface.al) · facts from BC29
+System Application · System.MCP · BC28-30 · [source at 2c932722](https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/System%20Application/App/MCP/src/Configuration/Interfaces/MCPConfigWarning.Interface.al) · facts from BC29
 
 ## Properties
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:37.337Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -317,10 +317,10 @@ links:
     - post/demiliani-com/13611
     - post/freddysblog/https-freddysblog-com-2026-08-23-which-model-should-you-use-for-which-task--faa80c64bd
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
+    - post/waldo-be/318712
   guidelines: []
   changes:
     - change/bcapps/10205
-    - change/bcquality/222
 learn_toc_path:
   - Integration with AI
 toc_file: dev-itpro/TOC.md
@@ -334,7 +334,7 @@ coverage:
   learn: 56
   code: 3
   video: 1
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms:
   - 8350
@@ -378,10 +378,10 @@ Start with the subtopic that matches your goal. For generative AI features in AL
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10205 Deprecate Text Completion API in AI SDK (work item 621038)](../../changes/bcapps/10205.md) (code change): "Text Completion API in the Azure OpenAI AI module is marked obsolete"
-- [#222 Add cited knowledge consultation skill for Business Central](../../changes/bcquality/222.md) (code change): "allows AL development agents to request guidance on Business Central solutions directly from BCQuality articles"
 - [From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.](../../posts/demiliani-com/13611.md) (community post): "Azure OpenAI's Responses API replaces Chat Completions as the recommended approach"
 - [Which AI Model Should You Use for Which Task?](../../posts/freddysblog/https-freddysblog-com-2026-08-23-which-model-should-you-use-for-which-task--faa80c64bd.md) (community post): "Which AI Model Should You Use for Which Task"
 - [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "ERP is shifting from recording transactions to enabling autonomous action through AI agents"
+- [The Business Central 2026 release wave 2 docs nobody asked for ..](../../posts/waldo-be/318712.md) (community post): "Site built using AI to process 68,000 words of YouTube captions"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "Business Central AI Resources; copilot; azure openai; content safety; data privacy"
 
 ## Business Central pages and reports

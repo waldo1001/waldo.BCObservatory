@@ -2,21 +2,21 @@
 id: topic/business-central/development-and-administration/customize-business-central/customize-with-extensions
 type: topic
 title: Customize with extensions
-summary: "Customizing Business Central with extensions: how to install and manage apps, and the individual Microsoft extensions for cloud and data migration, payments and banking, insights and AI predictions, and country-specific reporting. It answers questions about what each extension does, which countries or products it supports, and how to set it up."
+summary: "Extensions for Business Central: how to install, uninstall and manage apps, plus reference pages for individual extensions covering migration, payments, banking, payroll import, forecasting, and country-specific reporting. It answers what an extension does, where it applies, and how to set it up."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:01:30.126Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: fee5b290da051ebae3b84102b544f3f1b81c8ebc404e574621616c39e1441be4
+  input_hash: 348494f4cf76c56f0753a1dea9de801e8f92dc74d183421b335b8bcb19846f28
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-other
@@ -131,6 +131,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub
+    title: The Company Hub Extension for Business Central
+    date: "2026-11-10"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-image-analyzer
     title: The Image Analyzer Extension
     date: "2021-05-19"
@@ -155,13 +162,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-c5-data-migration
     title: Using the C5 data migration extension | Microsoft Docs
     date: "2026-10-22"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub
-    title: Using the Company Hub
-    date: "2021-04-01"
     commit: null
     t: null
     quote: null
@@ -218,11 +218,11 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/ui-extensions-quickbooks-online-data-migration
     - https://learn.microsoft.com/dynamics365/business-central/ui-extensions-send-remittance-advice
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-use-service-declaration
+    - https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub
     - https://learn.microsoft.com/dynamics365/business-central/ui-extensions-image-analyzer
     - https://learn.microsoft.com/dynamics365/business-central/ui-extensions-vat-group
     - https://learn.microsoft.com/dynamics365/business-central/ui-extensions-amc-banking
     - https://learn.microsoft.com/dynamics365/business-central/ui-extensions-c5-data-migration
-    - https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub
     - https://learn.microsoft.com/dynamics365/business-central/ui-extensions-paypal-payments-standard
     - https://learn.microsoft.com/dynamics365/business-central/ui-extensions-quickbooks-payroll
     - https://learn.microsoft.com/dynamics365/business-central/ui-extensions-sales-forecast
@@ -300,6 +300,8 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-87-check-for-microsoft-apps-on-appsource--f7b48b4e88
     - post/yzhums-com/65781
   guidelines: []
+  changes:
+    - change/bcapps/9953
 learn_toc_path:
   - Development and administration
   - Customize Business Central
@@ -438,28 +440,28 @@ narrative: generated
 
 # Customize with extensions
 
-> Customizing Business Central with extensions: how to install and manage apps, and the individual Microsoft extensions for cloud and data migration, payments and banking, insights and AI predictions, and country-specific reporting. It answers questions about what each extension does, which countries or products it supports, and how to set it up.
+> Extensions for Business Central: how to install, uninstall and manage apps, plus reference pages for individual extensions covering migration, payments, banking, payroll import, forecasting, and country-specific reporting. It answers what an extension does, where it applies, and how to set it up.
 
-Path: [Development and administration](../../development-and-administration.md) > [Customize Business Central](../customize-business-central.md) > Customize with extensions · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Development and administration](../../development-and-administration.md) > [Customize Business Central](../customize-business-central.md) > Customize with extensions · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section starts with general guidance on extending Business Central online: using the Extension Management page and Marketplace, installing and uninstalling apps (permissions, setup, data deletion options), and the risks of third-party apps from other providers. It has no subtopics, so all pages sit at one level.
+This section explains how to customize Business Central by adding extensions. General pages cover customizing Business Central online with apps, installing and uninstalling apps from Marketplace or the Admin Center, and the risks of third-party extensions from other providers.
 
-The remaining pages each describe one extension. They fall into groups: migration (cloud migration base extension, cloud migration extensions, QuickBooks, QuickBooks Online, C5), payments and banking (PayPal, Microsoft Pay, WorldPay, Envestnet Yodlee, AMC Banking 365, Send Remittance Advice, Payments and Reconciliations DK), payroll imports (Ceridian, QuickBooks Payroll), insights and AI (Essential Business Insights, Late Payment Prediction, Sales and Inventory Forecast, Image Analyzer, Company Hub), and country reporting (Service Declaration, VAT Group Management UK, tax file formats DK, Ideal Postcodes UK).
+The other pages each describe one extension. They fall into groups: migration (cloud migration base extension, cloud migration extensions, QuickBooks, QuickBooks Online, C5), payments (PayPal, WorldPay, Microsoft Pay, Send Remittance Advice), banking (AMC Banking 365 Fundamentals, Envestnet Yodlee, Payments and Reconciliations DK), payroll import (Ceridian, QuickBooks Payroll), AI and insights (Late Payment Prediction, Sales and Inventory Forecast, Image Analyzer, Essential Business Insights), and regional or compliance extensions (Service Declaration, VAT Group Management UK, tax file formats DK, Ideal Postcodes, Company Hub).
 
-Start with "Customizing Business Central online using apps" and "Install and uninstall apps" for the general process. Then go to the page for the extension you need, and check its country, product and deprecation notes first.
+Start with the install and uninstall page and the page on customizing with apps for the general process and permissions. Then open the page for the specific extension and check its country, version and deprecation notes first.
 
 ## Key points
 
-- Apps are installed and managed through the Extension Management page, Marketplace or Admin Center, with the right permissions; uninstall can include deleting extension data.
-- Third-party extensions are listed on Marketplace.microsoft.com, and the related page covers the risks of installing apps from non-Microsoft companies.
-- The Cloud Migration base extension is the first step when moving from on-premises to Business Central online; product-specific extensions exist for Business Central on-premises and Dynamics GP.
-- Data migration extensions cover QuickBooks Desktop (2017 and 2018, needs the Microsoft Data Exporter Tool), QuickBooks Online (via the Data Migration assisted setup guide) and Dynamics C5 2012.
-- Microsoft Pay Standard was deprecated on February 8, 2020 (use PayPal instead); WorldPay Payments Standard was marked obsolete in 2023 release wave 2 and will be removed after three major releases.
-- Late Payment Prediction and Sales and Inventory Forecast use machine learning, with standard Microsoft models or custom Azure-based web services.
-- Country-specific extensions include Service Declaration (EU), VAT Group Management (UK, with HMRC and OAuth2), tax file formats and Payments and Reconciliations (Denmark), and Ideal Postcodes (UK).
-- Bank feeds and conversion: Envestnet Yodlee for the US and Canada, and AMC Banking 365 Fundamentals for over 600 banks worldwide.
+- Apps are installed and managed through the Extension Management page, Marketplace or the Admin Center, with per-tenant extensions also supported; uninstall can include deleting extension data.
+- Third-party extensions on Marketplace.microsoft.com carry risks that the 'Extensions by Other Providers' page explains.
+- Cloud migration: the base extension sets up the connection from on-premises to Business Central online, with product-specific extensions for Business Central on-premises and Dynamics GP.
+- Data migration extensions exist for QuickBooks Desktop (2017 and 2018, needs the Microsoft Data Exporter Tool), QuickBooks Online, and Dynamics C5 2012.
+- Payment link extensions: PayPal Payments Standard is active; Microsoft Pay was deprecated February 8, 2020; WorldPay was marked obsolete in 2023 release wave 2 and will be removed after three major releases.
+- Banking extensions: AMC Banking 365 Fundamentals (over 600 banks), Envestnet Yodlee Bank Feeds (US and Canada), and Payments and Reconciliations (DK).
+- AI-based extensions: Late Payment Prediction, Sales and Inventory Forecast, Image Analyzer, and Essential Business Insights headlines in Role Centers.
+- Regional compliance extensions: Service Declaration (EU), VAT Group Management (UK, HMRC), tax file formats (DK), and Ideal Postcodes address lookup.
 
 ## Learn pages
 
@@ -483,6 +485,7 @@ Start with "Customizing Business Central online using apps" and "Install and uni
 - [Send Remittance Advice Extension \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-send-remittance-advice): Describes the Send Remittance Advice extension, which allows emailing and resending remittance advice from the payment journal and vendor ledger entries.
 - [Set Up and Use the Service Declaration Extension](https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-use-service-declaration): Learn how to set up and use Service Declaration (Intrastat for Services) features to report service trade with companies in other EU countries/regions.
   - In the observatory: [Page 5011 "Service Transaction Types"](../../../../objects/page/5011.md), [Table 5024 "Service Declaration Line"](../../../../objects/table/5024.md)
+- [The Company Hub Extension for Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub): Provides information about the Company Hub extension that you can use to manage work across multiple companies in Business Central.
 - [The Image Analyzer Extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-image-analyzer): This extension lets you analyze images of contact persons and items to find attributes, so you can quickly assign them in Business Central.
   - In the observatory: [Page 2020 "Image Analysis Setup"](../../../../objects/page/2020.md)
 - [The VAT Group Management extension for the United Kingdom](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-vat-group): You can engage with other businesses to form a VAT group where all members report VAT in a single return.
@@ -491,17 +494,17 @@ Start with "Customizing Business Central online using apps" and "Install and uni
   - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../objects/page/35630-ru.md)
 - [Using the C5 data migration extension \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-c5-data-migration): Use this extension to migrate customers, vendors, items, and general ledger accounts from Microsoft Dynamics C5 2012 to Business Central.
   - In the observatory: [Page 1799 "Data Migration Overview"](../../../../objects/page/1799.md)
-- [Using the Company Hub](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub): Provides information about the Company Hub extension that you can use to manage work across multiple companies in Business Central.
 - [Using the PayPal Payments Standard Extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-paypal-payments-standard): This article describes how to use the standard extension to enable customers to make payments with PayPal.
 - [Using the QuickBooks Payroll file import extension \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-quickbooks-payroll): This article describes how to use the extension to import salary and wage transactions from QuickBooks.
 - [Using the Sales and Inventory Forecast extension to manage inventory](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-sales-forecast): This extension helps you predict sales, get a clear overview of expected stock-outs, and even helps you create replenishment requests to vendors.
 - [Using the tax file formats (DK) extension](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-tax-file-formats-dk): The tax file formats extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions.
 - [WorldPay Payments Standard](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-worldpay-payments-standard): The WorldPay Payments Standard extension lets you offer customers a convenient alternative to making payments through bank transfers or credit cards.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#9953 Rename AppSource UI text to Marketplace](../../../../changes/bcapps/9953.md) (code change): "User-facing text that references AppSource has been updated to use Marketplace terminology"
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "per-tenant extensions, all reviewed on the admin center Manage Apps page"
 - [BC Friday Tips #87 Check for Microsoft Apps on AppSource](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-87-check-for-microsoft-apps-on-appsource--f7b48b4e88.md) (community post): "Microsoft apps for Business Central are distributed across multiple separate applications"
 - [Business Central 2025 wave 1 (BC26.3): Chat with Copilot to learn how to use installed add-on apps](../../../../posts/yzhums-com/65781.md) (community post): "Copilot can now answer questions about ISV add-on apps installed"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:01:17.293Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,8 +41,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-customizing-overview
-    title: Customizing Business Central
-    date: "2021-06-23"
+    title: Customize Business Central
+    date: "2026-11-10"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage
+    title: Customize Pages for Profiles
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -50,13 +57,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions
     title: Customizing Business Central online using apps
     date: "2026-06-24"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage
-    title: Customizing Pages for Roles
-    date: "2024-06-13"
     commit: null
     t: null
     quote: null
@@ -153,8 +153,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-how-set-up-colored-indicator-on-cues
-    title: Set up your customized colored indicators for a Cue's activity
-    date: "2021-04-01"
+    title: Set Up Colored Indicators on Cues for a Company or User
+    date: "2026-11-10"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub
+    title: The Company Hub Extension for Business Central
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -183,13 +190,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-c5-data-migration
     title: Using the C5 data migration extension | Microsoft Docs
     date: "2026-10-22"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub
-    title: Using the Company Hub
-    date: "2021-04-01"
     commit: null
     t: null
     quote: null
@@ -315,7 +315,7 @@ links:
     - post/yzhums-com/69023
   guidelines: []
   changes:
-    - change/bcapps/9953
+    - change/bcapps/10449
 learn_toc_path:
   - Development and administration
   - Customize Business Central
@@ -486,16 +486,16 @@ The subtopic Customize with extensions (26 pages) covers installing and managing
 
 ## More Learn pages
 
-- [Customizing Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-customizing-overview): Read about the different ways of customizing Business Central to improve access to functionality and features you need most as suits your daily work.
-- [Customizing Pages for Roles](https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage): Learn how to customize the user interface for a profile (role) so that all users assigned that role see a customized workspace.
+- [Customize Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-customizing-overview): Read about the different ways of customizing Business Central to improve access to functionality and features you need most as suits your daily work.
+- [Customize Pages for Profiles](https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage): Learn how to customize the user interface for a profile (role) so that all users assigned that role see a customized workspace.
 - [Enable Premium features](https://learn.microsoft.com/dynamics365/business-central/ui-experiences): Learn what the Essentials and Premium user experience tiers mean for the user interface, application areas, and your company.
-- [Set up your customized colored indicators for a Cue's activity](https://learn.microsoft.com/dynamics365/business-central/admin-how-set-up-colored-indicator-on-cues): As an administrator, you can set up Cues that appear on the users' Role Centers to include an indicator that changes color based on the data values in the Cues.
+- [Set Up Colored Indicators on Cues for a Company or User](https://learn.microsoft.com/dynamics365/business-central/admin-how-set-up-colored-indicator-on-cues): As an administrator, you can set up Cues that appear on the users' Role Centers to include an indicator that changes color based on the data values in the Cues.
 
 ## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#9953 Rename AppSource UI text to Marketplace](../../../changes/bcapps/9953.md) (code change): "User-facing text that references AppSource has been updated to use Marketplace"
+- [#10449 Remove permission set ref and move the Page Inspector changes to BCApps](../../../changes/bcapps/10449.md) (code change): "Remove permission set ref and move the Page Inspector changes to BCApps"
 - [Business Central v29: Use System Audit Fields in Analysis Mode and Profiles](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72.md) (community post): "administrators to use system audit fields in Analysis Mode and Profile customizations"
 - [D365 Business Central: Why is my Job Queue Tasks Cue in Red?](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-why-is-my-job-queue-tasks-cue-in-red--5ef8045384.md) (community post): "You can adjust this threshold through the Cue Setup page"
 - [Dynamics 365 Business Central: How to add custom pages, reports, and queries to Role Explorer (Customizing Role Explorer)](../../../posts/yzhums-com/66714.md) (community post): "adding custom pages, reports, and queries to role centers"

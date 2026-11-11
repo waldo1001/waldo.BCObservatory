@@ -11,7 +11,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,8 +110,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-customizing-overview
-    title: Customizing Business Central
-    date: "2021-06-23"
+    title: Customize Business Central
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null

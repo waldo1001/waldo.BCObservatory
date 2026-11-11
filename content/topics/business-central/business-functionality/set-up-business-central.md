@@ -11,7 +11,7 @@ review:
   at: "2026-11-07T01:06:38.656Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -214,13 +214,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/install-desktop-app
-    title: Get Business Central on your desktop
-    date: "2024-04-26"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/install-mobile-app
     title: Get Business Central on your mobile device
     date: "2026-09-11"
@@ -230,7 +223,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-outlook
     title: Get the Business Central Add-in for Outlook
-    date: "2026-03-10"
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/install-desktop-app
+    title: Get the Business Central Desktop App
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -302,8 +302,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/across-setup-auditing
     - https://learn.microsoft.com/dynamics365/business-central/admin-company-information
     - https://learn.microsoft.com/dynamics365/business-central/ui-create-number-series
-    - https://learn.microsoft.com/dynamics365/business-central/install-desktop-app
     - https://learn.microsoft.com/dynamics365/business-central/install-mobile-app
+    - https://learn.microsoft.com/dynamics365/business-central/install-desktop-app
     - https://learn.microsoft.com/dynamics365/business-central/setup
     - https://learn.microsoft.com/dynamics365/business-central/across-report-selections
     - https://learn.microsoft.com/dynamics365/business-central/across-how-to-assign-base-calendars
@@ -1207,8 +1207,8 @@ This section is the entry point for configuring Business Central. Its own pages 
 - [Company information overview](https://learn.microsoft.com/dynamics365/business-central/admin-company-information): The Company Information page specifies basic information for a business entity, such as name, addresses, and shipping information.
   - In the observatory: [Page 118 "General Ledger Setup"](../../../objects/page/118.md), [Page 459 "Sales & Receivables Setup"](../../../objects/page/459.md)
 - [Create number series](https://learn.microsoft.com/dynamics365/business-central/ui-create-number-series): Learn how to set up number series that assign unique ID codes to accounts and documents in Business Central.
-- [Get Business Central on your desktop](https://learn.microsoft.com/dynamics365/business-central/install-desktop-app): This article describes how to get the Business Central app on a Windows or MACiOS desktop.
 - [Get Business Central on your mobile device](https://learn.microsoft.com/dynamics365/business-central/install-mobile-app): This article describes the various ways you can view and edit your Business Central data, send to Excel and more on your phone or tablet.
+- [Get the Business Central Desktop App](https://learn.microsoft.com/dynamics365/business-central/install-desktop-app): Install the Business Central desktop app from a browser on Windows or macOS, or from Microsoft Store on Windows, for online or on-premises use.
 - [Overview of tasks to set up Business Central](https://learn.microsoft.com/dynamics365/business-central/setup): Read an overview of the tasks necessary to set up, initialize, and configure Business Central to suit your needs.
 - [Report selection in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-report-selections): Learn how to set up the reports used for printing different types of documents in Business Central.
   - In the observatory: [Page 5754 "Report Selection - Inventory"](../../../objects/page/5754.md)

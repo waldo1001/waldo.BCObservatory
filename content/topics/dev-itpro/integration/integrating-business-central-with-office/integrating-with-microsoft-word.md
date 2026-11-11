@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:40.461Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,14 +21,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout
     title: Map Data Fields in Word Layouts
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge
-    title: Using Word templates for bulk communications
-    date: "2024-11-13"
+    title: Use Word Templates for Business Central Communication
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -87,7 +87,7 @@ The two pages are independent. Start with "Map Data Fields in Word Layouts" if y
 ## Learn pages
 
 - [Map Data Fields in Word Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout): Learn how to use the XML Mapping Pane in Word to manually map Business Central report data, labels, images, and repeating rows to content controls.
-- [Using Word templates for bulk communications](https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge): Word templates can make it easy to bulk create documents that are personalized for specific entities.
-  - In the observatory: [Page 9989 "Word Templates"](../../../../objects/page/9989.md)
+- [Use Word Templates for Business Central Communication](https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge): Learn how to create Word templates in Business Central, select merge fields, and generate personalized documents or email content for business contacts.
+  - In the observatory: [Page 14929 "Field Selection (RU)"](../../../../objects/page/14929-ru.md), [Page 9989 "Word Templates"](../../../../objects/page/9989.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

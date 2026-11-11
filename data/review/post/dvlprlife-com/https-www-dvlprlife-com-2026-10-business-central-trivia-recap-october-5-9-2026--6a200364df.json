@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/10/business-central-trivia-recap-october-5-9-2026/",
+  "input_hash": "820e0a4d324b63f5d59c3c4dddaddef1b12cee92b731ab3dd99b4d5411fe4e9e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-11T00:56:48.178Z",
+  "issues": [
+    "The features listed (username validation, real-time name checking) are changes to the trivia website's sign-up page, not Business Central features, so they were dropped.",
+    "Key point 1 said the 58% rate was the lowest recorded. The post only says it was the lowest of the rounds the author has numbers for, so the point was reworded.",
+    "Key points now include the week-over-week changes the post highlights: Subscription Billing dropped and Keyboard Shortcuts improved.",
+    "Both quotes appear word for word in the post. The rationale given for quote 2 is a little speculative but acceptable.",
+    "The summary is accurate and was kept."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 2 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.041268,
+    "posts_in_call": 1
+  }
+}

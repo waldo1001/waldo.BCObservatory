@@ -2,32 +2,32 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-email
 type: topic
 title: Set up email
-summary: "Email setup in Business Central: configuring email accounts and connectors (Microsoft 365, Current User, SMTP), email scenarios and sender addresses, SMTP with OAuth 2.0 in multitenant setups, and the Outlook business inbox add-in. It answers configuration, requirement and deployment questions."
+summary: "Email setup in Business Central: configuring email accounts and connectors (Microsoft 365, Current User, SMTP) to send documents, reports and notifications, plus SMTP with OAuth 2.0 in multitenant setups and the Outlook add-in. It answers questions about connectors, sender addresses, scenarios, and Outlook integration."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:22:59.580Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: dad7b7f1b78a87f44f6be4a00896d738ef7647876af4bda871f114c686278f4c
+  input_hash: 54cff84be9d2a100d3288c6dd3c553744b5ff1af740b9ced591e0d152c8ea5b5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-outlook
     title: Get the Business Central Add-in for Outlook
-    date: "2026-03-10"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-outlook-optimize
-    title: Optimize Outlook for your Business Inbox
-    date: "2023-12-06"
+    title: Optimize Outlook for Your Business Inbox
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -39,23 +39,23 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-multi-tenant-smtp
-    title: Use SMTP for email in a multitenant environment
-    date: "2026-03-19"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/work-outlook-addin
-    title: Using Business Central with Outlook
-    date: "2026-03-10"
+    title: Use Business Central in Microsoft Outlook
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-no-outlook
-    title: Using Business Central without Outlook
-    date: "2023-12-11"
+    title: Use Business Central Without Outlook
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-multi-tenant-smtp
+    title: Use SMTP for email in a multitenant environment
+    date: "2026-03-19"
     commit: null
     t: null
     quote: null
@@ -112,26 +112,28 @@ narrative: generated
 
 # Set up email
 
-> Email setup in Business Central: configuring email accounts and connectors (Microsoft 365, Current User, SMTP), email scenarios and sender addresses, SMTP with OAuth 2.0 in multitenant setups, and the Outlook business inbox add-in. It answers configuration, requirement and deployment questions.
+> Email setup in Business Central: configuring email accounts and connectors (Microsoft 365, Current User, SMTP) to send documents, reports and notifications, plus SMTP with OAuth 2.0 in multitenant setups and the Outlook add-in. It answers questions about connectors, sender addresses, scenarios, and Outlook integration.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up email · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up email · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains how to let Business Central send documents, reports and notifications by email. The main page, "Set up email in Business Central", covers email accounts, the available connectors, requirements, email scenarios, sender addresses and on-premises configuration.
+This section explains how to get Business Central sending email. The main page, "Set up email in Business Central", covers requirements, the three email connectors (Microsoft 365, Current User and SMTP), email scenarios, sender addresses, view policies, rate limiting and on-premises configuration. Start there to choose a connector and set up an account.
 
-A second page deals with a specific case: sending email through the SMTP connector in a multitenant environment, using OAuth 2.0 client credentials flow with Exchange Online across tenants. It involves an app registration, a client secret, mailbox permissions and a service principal.
+A second page covers a specific case: using SMTP in a multitenant environment. It describes sending through the SMTP connector with the OAuth 2.0 client credentials flow against Exchange Online in cross-tenant scenarios, including app registration, client secret, service principal and mailbox permissions. It is listed under 2025 release wave 2.
 
-The subtopic on the business inbox in Outlook covers the Business Central add-in for Outlook: how to get it, how to optimize Outlook for it, how to use it, and how to work with Business Central email without Outlook. Start with the main setup page, then go to the multitenant SMTP page or the Outlook subtopic as needed.
+The subtopic "Set up your business inbox in Microsoft Outlook" is about the other direction: the Business Central add-in for Outlook. It covers getting and deploying the add-in, preparing Outlook, supported Outlook and browser requirements, contact insights, creating documents from email, and setting up email without Outlook.
 
 ## Key points
 
-- Three email connectors are covered: Microsoft 365, Current User and SMTP.
+- Supported email connectors: Microsoft 365, Current User and SMTP.
 - The main setup page covers requirements, email scenarios, sender addresses, view policies, rate limiting and on-premises configuration.
-- Multitenant SMTP uses the SMTP connector with OAuth 2.0 client credentials flow against Exchange Online for cross-tenant email.
-- The multitenant SMTP setup needs an app registration, a client secret, mailbox permissions and a service principal.
+- Email is used to send documents, reports and notifications from Business Central.
+- SMTP in a multitenant environment uses OAuth 2.0 client credentials flow with Exchange Online for cross-tenant email.
+- The multitenant SMTP setup needs an app registration, a client secret, a service principal and mailbox permissions.
 - The multitenant SMTP page is tied to 2025 release wave 2.
-- The Outlook subtopic (4 pages) covers getting the add-in, optimizing Outlook, using it, and using Business Central email without Outlook.
+- The Outlook add-in subtopic covers deployment, Outlook and browser requirements, contact insights and creating documents from email.
+- The Outlook subtopic also explains how to set up email without Outlook.
 
 ## Subtopics
 

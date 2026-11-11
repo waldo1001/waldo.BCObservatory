@@ -2,53 +2,53 @@
 id: topic/business-central/get-started/get-productive-in-business-central/get-the-most-out-of-microsoft-365-apps
 type: topic
 title: Get the most out of Microsoft 365 apps
-summary: "Microsoft 365 integration in Business Central: opening files in OneDrive, saving contacts to Outlook, sharing records in Teams, merging data into Word templates, and viewing or editing data in Excel. It answers how-to questions about using these apps with Business Central data."
+summary: "Using Business Central together with Microsoft 365 apps: Excel, Word, Outlook, Teams and OneDrive. It answers questions on editing data in Excel, mail merge with Word templates, syncing contacts to Outlook, sharing records in Teams, and opening or sharing files in OneDrive."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:24:38.557Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 7f90c881c6ea0f0dc373936258dcf52f0aced838089078d40b138fdd9c9faecd
+  input_hash: e17dc59070fc26e806713456ed3a2bb8a597c96a2e3afdfaa51e6b1f6c2b98a3
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-share-onedrive
-    title: Opening Business Central Files in OneDrive
-    date: "2025-10-21"
+    title: Open and Share Business Central Files in OneDrive
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook
     title: Save Business Contacts to Microsoft Outlook
-    date: "2026-03-13"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-working-with-teams
-    title: Sharing Business Central records in Microsoft Teams
-    date: "2025-10-23"
+    title: Share Business Central Records in Microsoft Teams
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge
-    title: Using Word templates for bulk communications
-    date: "2024-11-13"
+    title: Use Word Templates for Business Central Communication
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel
-    title: Viewing and editing in Excel from Business Central
-    date: "2026-01-26"
+    title: View and Edit Business Central Data in Excel
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -89,34 +89,36 @@ narrative: generated
 
 # Get the most out of Microsoft 365 apps
 
-> Microsoft 365 integration in Business Central: opening files in OneDrive, saving contacts to Outlook, sharing records in Teams, merging data into Word templates, and viewing or editing data in Excel. It answers how-to questions about using these apps with Business Central data.
+> Using Business Central together with Microsoft 365 apps: Excel, Word, Outlook, Teams and OneDrive. It answers questions on editing data in Excel, mail merge with Word templates, syncing contacts to Outlook, sharing records in Teams, and opening or sharing files in OneDrive.
 
-Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Get the most out of Microsoft 365 apps · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Get the most out of Microsoft 365 apps · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers five ways to work with Business Central data in Microsoft 365 apps. Each page covers one app: OneDrive for opening and sharing files, Outlook for contacts, Teams for sharing records, Word for bulk communications, and Excel for analysis and editing.
+This section covers five ways to work with Business Central data from Microsoft 365 apps. Each page is a task-focused guide for one app: Excel, Word, Outlook, Teams and OneDrive.
 
-The pages are independent, so start with the app that matches your task. For bulk letters or emails to customers, vendors, or contacts, go to the Word templates page. For working with list data in a spreadsheet, go to the Excel page. For collaboration, use the Teams and Outlook pages. The OneDrive page covers file sharing and permissions.
+For data work, start with the Excel page, which explains the Open in Excel and Edit in Excel actions, publishing changes back, and Copilot in Excel. For communication, the Word templates page covers mail merge to contacts, customers and vendors, and the Outlook page covers syncing contacts. For collaboration, the Teams and OneDrive pages cover sharing records, page links and files.
+
+The pages are independent, so pick the one that matches the app you want to use.
 
 ## Key points
 
-- OneDrive: open Business Central files in online applications, share with specific people using Share, Send link or Copy link, and control permissions through link settings.
-- Outlook: save Business Central contacts to Outlook and Teams, with optional two-way synchronization and contact filtering (2026 release wave 1).
-- Teams: share records as interactive cards using the Business Central app for Teams, or share direct page links with Share Link and Share to Teams.
-- Word templates: merge data from Business Central entities, related or unrelated, into templates for personalized bulk documents to customers, vendors, and contacts.
-- Word templates support field selection, template upload, and email integration.
-- Excel: Open in Excel exports list data for analysis, while Edit in Excel lets you change data and publish it back to Business Central.
-- Excel features include filter support, the Excel add-in, multi-environment support, and agent mode.
+- Open in Excel exports a list; Edit in Excel lets you change data and publish it back through the Excel Add-in pane.
+- Copilot in Excel can help with data cleaning, preparation and analysis, including multi-step workflows.
+- Word templates use entities as data sources, with merge fields, related and unrelated entities, and field prefixes, to generate documents or send emails in bulk.
+- The Synchronize with Outlook action syncs a filtered list of contacts to a chosen Outlook folder, for use in Outlook and Teams. It supports full sync, forced full sync and two-way sync (2026 release wave 1, version 28).
+- Records can be shared in Teams as interactive cards, and you can view card details and edit data in Teams. Page links can also be copied or shared to Teams.
+- Open in OneDrive copies files to OneDrive for editing in online Excel, Word and PowerPoint.
+- Files can be shared from OneDrive with specific people or by link (Send link, Copy link). File version history and access control are available.
 
 ## Learn pages
 
-- [Opening Business Central Files in OneDrive](https://learn.microsoft.com/dynamics365/business-central/across-share-onedrive): Learn how you can share Business Central data through OneDrive for Business.
+- [Open and Share Business Central Files in OneDrive](https://learn.microsoft.com/dynamics365/business-central/across-share-onedrive): Learn how to open and share Business Central reports and attachments in OneDrive, manage existing copies, and find your company's files in cloud storage.
 - [Save Business Contacts to Microsoft Outlook](https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook): Learn how to synchronize Business Central contacts with Microsoft Outlook and Teams to streamline communication and access contact details effortlessly.
-- [Sharing Business Central records in Microsoft Teams](https://learn.microsoft.com/dynamics365/business-central/across-working-with-teams): Learn how to use the Business Central app for Microsoft Teams.
-- [Using Word templates for bulk communications](https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge): Word templates can make it easy to bulk create documents that are personalized for specific entities.
-  - In the observatory: [Page 9989 "Word Templates"](../../../../objects/page/9989.md)
-- [Viewing and editing in Excel from Business Central](https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel): Learn how to open pages in Microsoft Excel from Business Central for better data analysis.
+- [Share Business Central Records in Microsoft Teams](https://learn.microsoft.com/dynamics365/business-central/across-working-with-teams): Share Business Central records and page links in Microsoft Teams, review card contents before sending, and open record details without leaving Teams.
+- [Use Word Templates for Business Central Communication](https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge): Learn how to create Word templates in Business Central, select merge fields, and generate personalized documents or email content for business contacts.
+  - In the observatory: [Page 14929 "Field Selection (RU)"](../../../../objects/page/14929-ru.md), [Page 9989 "Word Templates"](../../../../objects/page/9989.md)
+- [View and Edit Business Central Data in Excel](https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel): Learn when to open Business Central lists in Excel for analysis and when to use the Excel add-in to edit records and publish your changes.
 
 ## Business Central pages and reports
 

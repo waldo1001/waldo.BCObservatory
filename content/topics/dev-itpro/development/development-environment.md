@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -317,14 +317,12 @@ links:
   posts:
     - post/demiliani-com/13761
     - post/sshadows-dk/https-sshadows-dk-blog-business-central-on-linux--f313e38282
-    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea
     - post/vjeko-com/https-vjeko-com-2026-03-09-al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days--fb9c8e152a
     - post/yzhums-com/64148
     - post/yzhums-com/76570
   guidelines: []
   changes:
     - change/bcapps/10212
-    - change/bcapps/10449
     - change/bcapps/6857
 learn_toc_path:
   - Development
@@ -344,7 +342,7 @@ coverage:
   learn: 54
   code: 0
   video: 0
-  blog: 6
+  blog: 5
   guideline: 0
 bc_forms:
   - 149000
@@ -401,11 +399,9 @@ Start with Configure the development environment if you are setting up for the f
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10212 Add SetReferenceType method to SignedXml and SignedXmlImpl (#10139)](../../../changes/bcapps/10212.md) (code change): "SetReferenceType method is added to the SignedXml codeunit to allow callers"
-- [#10449 Remove permission set ref and move the Page Inspector changes to BCApps](../../../changes/bcapps/10449.md) (code change): "Page Inspector changes are moved from Platform into BCApps"
 - [#6857 [BC Idea][TableInformation] : Enhance Indexes List Part with SIFT details, visual indicators, and improved index management #6856](../../../changes/bcapps/6857.md) (code change): "Indexes List Part page gains SIFT details, visual indicators, and improved index management"
 - [Be careful with Visual Studio Code extensions…](../../../posts/demiliani-com/13761.md) (community post): "Be careful with Visual Studio Code extensions"
 - [Business Central on Linux? Here, hold my beer!](../../../posts/sshadows-dk/https-sshadows-dk-blog-business-central-on-linux--f313e38282.md) (community post): "Running Business Central on Linux via Wine required implementing missing Windows APIs"
-- [Introducing BC Mission Control](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea.md) (community post): "web app for managing Business Central cloud environments and local Docker"
 - [AL Object ID Ninja 3.2.1: A Lot Has Happened in Four Days](../../../posts/vjeko-com/https-vjeko-com-2026-03-09-al-object-id-ninja-3-2-1-a-lot-has-happened-in-four-days--fb9c8e152a.md) (community post): "App pools now display accurate pool-wide consumption in Range Explorer and Assignment Explorer"
 - [How to connect to Dynamics 365 Business Central On-Premises in VS Code (Use the On-Premises version for customization)](../../../posts/yzhums-com/64148.md) (community post): "configure VS Code to connect to a Business Central On-Premises environment for AL development"
 - [Business Central 2026 release wave 2 (BC29): Retained DEV extensions (DEV extensions remain installed during environment update)](../../../posts/yzhums-com/76570.md) (community post): "DEV extensions published from VS Code or created with Designer"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:39.284Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,6 +96,7 @@ links:
     - video/mnxOSl1Y9PI
     - video/tDcT_51ktqo
   posts:
+    - post/nataliekarolak-com/3653
     - post/waldo-be/317845
     - post/waldo-be/318371
   guidelines: []
@@ -118,7 +119,7 @@ coverage:
   learn: 8
   code: 0
   video: 6
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 700c86efba6976ff1f579dab7d994f43d63ff87525ee22bc8315bb5d045228dd
@@ -182,6 +183,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2395 Prevent workflow telemetry failures from failing the workflow](../../../../changes/al-go/2395.md) (code change): "WorkflowPostProcess telemetry failures no longer cause the entire workflow to fail"
 - [#10897 BC IQ - Update data sensitivities for policy history](../../../../changes/bcapps/10897.md) (code change): "Data sensitivities are updated to reflect recent changes to Business Skill"
 - [#12432 [AB#647643] Retain remote files and safely retire verified local references](../../../../changes/bcapps/12432.md) (code change): "Removes unused deletion telemetry and updates the README configuration guidance"
+- [Docs: What’s new in BC 27 for developers](../../../../posts/nataliekarolak-com/3653.md) (community post): "Enhanced properties including MaskType for sensitive data masking"
 - [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../../posts/waldo-be/317845.md) (community post): "extends Business Central's built-in telemetry capabilities by adding custom events"
 - [Analyzing BC Telemetry with AI with the “BC Telemetry Buddy”](../../../../posts/waldo-be/318371.md) (community post): "query Business Central telemetry data through natural conversation using GitHub Copilot"
 - [Microsoft presents: Index management](../../../../videos/1x3QyBX3swg.md) (video): "Telemetry for Index Changes; Just-in-time index enabling; Automatic index rebuild"

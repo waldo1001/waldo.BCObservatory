@@ -483,6 +483,20 @@
       "at": "2026-11-10T00:52:39.211Z",
       "matches": []
     },
+    "change/al-go/2441": {
+      "kind": "change",
+      "key": "change/al-go/2441",
+      "hash": "e9ba54b3afe4431590c411ce61e6d1cf3de218cfec9933cf2e9c1922f5d31e39",
+      "title": "#2441 Skip test projects when determining release artifacts",
+      "source": "al-go-prs",
+      "at": "2026-11-11T00:54:47.959Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle",
+          "quote": "Skip test projects when determining release artifacts. The DetermineArtifactsForRelease action"
+        }
+      ]
+    },
     "change/bcapps/10005": {
       "kind": "change",
       "key": "change/bcapps/10005",
@@ -518,10 +532,10 @@
     "change/bcapps/10008": {
       "kind": "change",
       "key": "change/bcapps/10008",
-      "hash": "ace65b89f81a33ee53f6afd4049b3db443a497487f54405e567e27e595c7d519",
+      "hash": "cc1a7bf3b7e41bdd53dbe774483d1a2e3d8e0c383cab879dc97511bbf25404af",
       "title": "#10008 [MCP] Add codeunit APIs as MCP tools in MCP configuration",
       "source": "bcapps-prs",
-      "at": "2026-10-18T00:54:26.117Z",
+      "at": "2026-11-11T00:54:47.959Z",
       "matches": []
     },
     "change/bcapps/10009": {
@@ -1973,11 +1987,16 @@
     "change/bcapps/10270": {
       "kind": "change",
       "key": "change/bcapps/10270",
-      "hash": "5370a6c2459d5802c68a606f3d3b93cbedeb413c684a3c573f543dc5c87d3e67",
+      "hash": "15d856fe7d932a4ceffe713a5969f035dd24c846852bb8f0cab20338c84e106c",
       "title": "#10270 [Quality Management] Repair and improve XML documentation of procedures",
       "source": "bcapps-prs",
-      "at": "2026-10-18T00:54:26.117Z",
-      "matches": []
+      "at": "2026-11-11T00:54:47.959Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "quote": "Repair and improve XML documentation of procedures. XML documentation for Quality Management"
+        }
+      ]
     },
     "change/bcapps/10276": {
       "kind": "change",
@@ -2958,18 +2977,14 @@
     "change/bcapps/10449": {
       "kind": "change",
       "key": "change/bcapps/10449",
-      "hash": "51fc85186fafb9efcf9d383094d58dc31f961d4a9c47009dbf963fa1aad0117e",
+      "hash": "ea3a9a6a9f8abc1edbf3af1a7bd248bc6521e64d124ae52e8a60b5ada2e802c7",
       "title": "#10449 Remove permission set ref and move the Page Inspector changes to BCApps",
       "source": "bcapps-prs",
-      "at": "2026-10-18T00:54:26.117Z",
+      "at": "2026-11-11T00:54:47.959Z",
       "matches": [
         {
-          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions",
-          "quote": "Removes references to the soon-to-be-obsoleted table from three permission sets"
-        },
-        {
-          "topic": "topic/dev-itpro/development/development-environment",
-          "quote": "Page Inspector changes are moved from Platform into BCApps"
+          "topic": "topic/business-central/development-and-administration/customize-business-central",
+          "quote": "Remove permission set ref and move the Page Inspector changes to BCApps"
         }
       ]
     },
@@ -3008,14 +3023,14 @@
     "change/bcapps/10461": {
       "kind": "change",
       "key": "change/bcapps/10461",
-      "hash": "57558e070326ddfac5a26d28e027d5383d1e50670ec54af43cf03613a41f0adb",
+      "hash": "63053051e73491711d1569366aec0a47632a300acfc94632cf2a93f1a3e9866d",
       "title": "#10461 [SOA] Uptake Agent Task Message Failed status for outbound replies",
       "source": "bcapps-prs",
-      "at": "2026-10-08T06:23:34.035Z",
+      "at": "2026-11-11T00:54:47.959Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Sales Order Agent now marks outbound replies as Failed"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Sales Order Agent now marks outbound replies as Failed when they exhaust their retry budget"
         }
       ]
     },
@@ -3300,16 +3315,11 @@
     "change/bcapps/10514": {
       "kind": "change",
       "key": "change/bcapps/10514",
-      "hash": "49d85867f68701c0f4b95dd730a8fddee7a04d359a7b1dd82d26b8058f1ab261",
+      "hash": "7700fe757e342763e3543f175376c1f98c55135de225c66ce3e5d9d7f8dc9670",
       "title": "#10514 Ruleset hardening: promote AS0022, AA0087, AW0003, AA0203, AL0717 to Error",
       "source": "bcapps-prs",
-      "at": "2026-10-18T00:54:26.117Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices",
-          "quote": "Five AL analyzer rules moved back to Error severity in the ruleset hierarchy"
-        }
-      ]
+      "at": "2026-11-11T00:54:47.959Z",
+      "matches": []
     },
     "change/bcapps/10515": {
       "kind": "change",
@@ -3836,14 +3846,18 @@
     "change/bcapps/10631": {
       "kind": "change",
       "key": "change/bcapps/10631",
-      "hash": "753e856b82bccc38fa36e8ff51486b2af2ae3dc816bf60889d96f0da4a198ff8",
+      "hash": "41eb4bf33275dcc44246eb650c4cf1e7bd8878e9ff1c5454aacebaa994f9bf1c",
       "title": "#10631 Integration/main to releases 29.x 31a860b5",
       "source": "bcapps-prs",
-      "at": "2026-10-18T00:54:26.117Z",
+      "at": "2026-11-11T00:54:53.348Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
           "quote": "Expense Agent gains policy evaluation tables, pages, enums and APIs"
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/map-e-documents-preview",
+          "quote": "E-Document, AgentDesignExperience, Sales Order Agent, Shopify, Sustainability"
         },
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
@@ -3927,16 +3941,11 @@
     "change/bcapps/10675": {
       "kind": "change",
       "key": "change/bcapps/10675",
-      "hash": "f22ee8fac7ad145a6e26a87a0a69902c6bb76fda5e72ca6b3d9e81c50fa410c7",
+      "hash": "d9b704a6f7c8357ee100745735b50664aaee1f2e744ee99878bf007f2b65d487",
       "title": "#10675 Temporarily suppress AS0072 (ObsoleteTag 29.0) on 10 Base App elements for v30 prep",
       "source": "bcapps-prs",
-      "at": "2026-10-18T00:54:21.356Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/extension-lifecycle",
-          "quote": "pragma warning suppressions around ObsoleteTag = '29.0' lines on 10 Base App elements"
-        }
-      ]
+      "at": "2026-11-11T00:54:53.348Z",
+      "matches": []
     },
     "change/bcapps/10676": {
       "kind": "change",
@@ -3955,10 +3964,10 @@
     "change/bcapps/10680": {
       "kind": "change",
       "key": "change/bcapps/10680",
-      "hash": "8fe9f9e2e9fe24045028945b37d19f1a6f4d82743780eef164c063e8d0073279",
+      "hash": "43d4f5c71732a93441544f10ab5bfef711708445aabd2c0d63c361c055dfdd7e",
       "title": "#10680 Maintenance update",
       "source": "bcapps-prs",
-      "at": "2026-10-18T00:54:21.356Z",
+      "at": "2026-11-11T00:54:53.348Z",
       "matches": []
     },
     "change/bcapps/10700": {
@@ -4066,14 +4075,18 @@
     "change/bcapps/10755": {
       "kind": "change",
       "key": "change/bcapps/10755",
-      "hash": "30eb7a49054cb835bda0a85168db16aeb9921464d0eb89052c3913310fb9566d",
+      "hash": "3570eb45d18ef121890f4931e028c872868a1f5e92357d2e01acc8639117fd1b",
       "title": "#10755 Migrate Http Web Request Mgt. callers to native HttpClient",
       "source": "bcapps-prs",
-      "at": "2026-10-18T00:54:21.356Z",
+      "at": "2026-11-11T00:54:53.348Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
-          "quote": "Migrate Http Web Request Mgt. callers to native HttpClient"
+          "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
+          "quote": "currency exchange rate updates, external accountant invitations, JSON structure retrieval, OData metadata download"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-currencies",
+          "quote": "currency exchange rate updates, external accountant invitations"
         }
       ]
     },
@@ -4911,13 +4924,13 @@
     "change/bcapps/11016": {
       "kind": "change",
       "key": "change/bcapps/11016",
-      "hash": "3d2e0eb4043f133cb63528f5e759ddbfd495fd47cc98b7f7406a6ef79301472e",
+      "hash": "8332bf7484981742e2fc879491665bcd6b8a341451ebf5ce73646c0dea4e0df2",
       "title": "#11016 [AI Business Solutions] Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations",
       "source": "bcapps-prs",
-      "at": "2026-10-18T00:54:21.356Z",
+      "at": "2026-11-11T00:54:53.348Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
+          "topic": "topic/dev-itpro/integration/web-services/web-services-security",
           "quote": "Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations"
         }
       ]
@@ -6071,10 +6084,10 @@
     "change/bcapps/11378": {
       "kind": "change",
       "key": "change/bcapps/11378",
-      "hash": "d07501b3d64a23a24fe26744542ecf7380f5b21e7ec2c426167df7cee5ba2f5c",
+      "hash": "c2caa64367d8afc692756b64e470ca89c44e41627946f22e5fd8af5cbd4f8ef6",
       "title": "#11378 [29.x][InterCompany][SII] Setup and telemetry enhancements",
       "source": "bcapps-prs",
-      "at": "2026-10-18T00:54:21.356Z",
+      "at": "2026-11-11T00:54:53.348Z",
       "matches": []
     },
     "change/bcapps/11380": {
@@ -6517,11 +6530,16 @@
     "change/bcapps/11563": {
       "kind": "change",
       "key": "change/bcapps/11563",
-      "hash": "68b87aaaad9853db64c5768b405bc6495470e1bd2448dcc4802ff9555d86127e",
+      "hash": "d547c6b6571361a6e3414673b71fe0ef345a385c61a3f22aa3033f4a94b81e6e",
       "title": "#11563 [E-Documents Core] [Peppol] - Add PEPPOL Requested Delivery Period support (header + line)",
       "source": "bcapps-prs",
-      "at": "2026-10-18T00:54:21.356Z",
-      "matches": []
+      "at": "2026-11-11T00:54:48.537Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/web-services",
+          "quote": "Add PEPPOL Requested Delivery Period support header + line"
+        }
+      ]
     },
     "change/bcapps/11567": {
       "kind": "change",
@@ -7164,10 +7182,10 @@
     "change/bcapps/11745": {
       "kind": "change",
       "key": "change/bcapps/11745",
-      "hash": "149a260ef65a52bf786bf4b050dd7893c16da76fc97c4474e3ac264f010c85e6",
+      "hash": "32c38ab79fd2722c1b28083b852a022dc9768177da64c771d58ad32da533bccb",
       "title": "#11745 Bug 648781: check the party identifier that the PEPPOL export will use",
       "source": "bcapps-prs",
-      "at": "2026-10-18T00:54:22.927Z",
+      "at": "2026-11-11T00:54:48.537Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services",
@@ -7929,14 +7947,14 @@
     "change/bcapps/12053": {
       "kind": "change",
       "key": "change/bcapps/12053",
-      "hash": "751682f8afbf628c67cd4074847da0648d9e38d5c5104834fd47f3fba967252c",
+      "hash": "047869ffb5fd05728aefb6587a974377ab803963f964121ae3154cce21df2762",
       "title": "#12053 Remove-Sustainability-CLEAN27-tags-for-Wave2-2026",
       "source": "bcapps-prs",
-      "at": "2026-10-18T00:54:22.927Z",
+      "at": "2026-11-11T00:54:48.537Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/sustainability-management/sustainability-analytics",
-          "quote": "Removes code marked for cleanup in version 27 from the Sustainability, Power BI Reports"
+          "topic": "topic/business-central/business-functionality/sustainability-management",
+          "quote": "Removes code marked for cleanup in version 27 CLEAN27 from the Sustainability"
         }
       ]
     },
@@ -7994,13 +8012,13 @@
     "change/bcapps/12064": {
       "kind": "change",
       "key": "change/bcapps/12064",
-      "hash": "fee5450baab2d6d6a302e10d6d0976ae8fd43a68add7c692987ab4881c5c17fa",
+      "hash": "8db262a4edbeecfecef855eeedb1e63fc3d02e0792e48840cf70d1faab26b357",
       "title": "#12064 Support SharePoint paths containing hash and percent characters",
       "source": "bcapps-prs",
-      "at": "2026-10-18T00:54:22.927Z",
+      "at": "2026-11-11T00:54:48.537Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/connect-apps",
+          "topic": "topic/dev-itpro/integration/integrating-with-infrastructure-services",
           "quote": "SharePoint connector now supports file paths containing hash and percent characters"
         }
       ]
@@ -8800,14 +8818,14 @@
     "change/bcapps/12290": {
       "kind": "change",
       "key": "change/bcapps/12290",
-      "hash": "0c671f67f9903926f01aee5eeac7a9d0570dce419f54d910245bc86ce3833fe1",
+      "hash": "7c5dbba84c4fc8c107d55132dd22d25fa0084787244bbea8d76ebffa2a3ae845",
       "title": "#12290 Remove CLEAN27 from Service Management",
       "source": "bcapps-prs",
-      "at": "2026-10-19T01:09:40.788Z",
+      "at": "2026-11-11T00:54:55.032Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/service-management",
-          "quote": "Remove CLEAN27 from Service Management; service documents, history pages, tables and reports"
+          "quote": "Remove CLEAN27 from Service Management"
         }
       ]
     },
@@ -11985,27 +12003,27 @@
     "change/bcapps/7546": {
       "kind": "change",
       "key": "change/bcapps/7546",
-      "hash": "cb01db810ec8d0558c65ac4d263aa2a8ad478eacb3acfac394d5374fe5f58cbe",
+      "hash": "5cd309335195e73d65fa24b48abdaa12034ee2c9c81b8c0a49af11b7ae4c771c",
       "title": "#7546 [Payables Agent] Agent-driven line matching",
       "source": "bcapps-prs",
-      "at": "2026-10-20T08:47:04.959Z",
+      "at": "2026-11-11T00:54:48.537Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "Adds agent-driven line matching to the Payables Agent, allowing agents to resolve purchase lines"
+          "quote": "Adds agent-driven line matching to the Payables Agent allowing agents to resolve"
         }
       ]
     },
     "change/bcapps/7938": {
       "kind": "change",
       "key": "change/bcapps/7938",
-      "hash": "3f050fe71d6eb3c555a8f60cb565ad0ea160e485fd45f7479f6f15606eac702d",
+      "hash": "ba72cfbaf408ccce18f8142ecbdf2f6220a791d64b9e77f6897a330a2d9c1d86",
       "title": "#7938 Bugs/632378 make quality inspection gen rule warning actionable",
       "source": "bcapps-prs",
-      "at": "2026-10-20T08:47:05.368Z",
+      "at": "2026-11-11T00:54:48.537Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data",
           "quote": "Makes the warning about quality inspection generation rules actionable"
         }
       ]
@@ -12133,14 +12151,14 @@
     "change/bcapps/8556": {
       "kind": "change",
       "key": "change/bcapps/8556",
-      "hash": "0605a1f0cfc5a25377d5530b23cff2852a69c377b3afb8ea5582b396ebc97388",
+      "hash": "9cf16cd9e8db77d63869067d7fb9311d0f5bcab5017465f40c80ffd00dec848f",
       "title": "#8556 [Quality Management] Enforce rules and restrictions with indirect and implicit permissions",
       "source": "bcapps-prs",
-      "at": "2026-10-20T08:47:05.368Z",
+      "at": "2026-11-11T00:54:53.693Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security",
-          "quote": "Quality Management uses InherentPermissions so users without QM permissions are not blocked"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security",
+          "quote": "Enforce rules and restrictions with indirect and implicit permissions"
         }
       ]
     },
@@ -12779,11 +12797,16 @@
     "change/bcapps/9078": {
       "kind": "change",
       "key": "change/bcapps/9078",
-      "hash": "b0e61dfdb728243518faeda81e4083c6d0f754890f40938dc33bb75ec6da8900",
+      "hash": "1743d7350cd8bee6547d1b279569532565eadd409670a4da857e12c3c58f518b",
       "title": "#9078 Bug 624364: Intrastat DE groups detail lines by Country/Region of Origin",
       "source": "bcapps-prs",
-      "at": "2026-10-19T01:09:43.890Z",
-      "matches": []
+      "at": "2026-11-11T00:54:58.757Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/germany",
+          "quote": "German Intrastat export now groups detail lines by both Tariff"
+        }
+      ]
     },
     "change/bcapps/9079": {
       "kind": "change",
@@ -13260,14 +13283,14 @@
     "change/bcapps/9168": {
       "kind": "change",
       "key": "change/bcapps/9168",
-      "hash": "11b91975d97c446b26af0f6cedcee6c6fec9757929bc8855f25dde0818233bd5",
+      "hash": "ce6922d619b3f504040101a0466c42e5f902c7201b18c5e671c9387e2db20662",
       "title": "#9168 [QM] Fix internal put-away from Quality Inspection sourcing wrong bin",
       "source": "bcapps-prs",
-      "at": "2026-10-20T08:47:05.368Z",
+      "at": "2026-11-11T00:54:53.693Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data",
-          "quote": "Internal put-away disposition from Quality Inspection now resolves the source bin from actual Bin Content"
+          "quote": "Internal put-away disposition from Quality Inspection now resolves the source bin"
         }
       ]
     },
@@ -13468,14 +13491,14 @@
     "change/bcapps/9206": {
       "kind": "change",
       "key": "change/bcapps/9206",
-      "hash": "1a4de16e7a43ef852df90d7291218013b69be28a526505d2ebcf1973c19ce0ed",
+      "hash": "9393f43bf5dc8f1fb5ad97424f336cc670005033ccebe1797a167a2d7b296cb4",
       "title": "#9206 Added new privacy policy for BizChat depending on Microsoft Copilot 365 with EEA environments behavior changes",
       "source": "bcapps-prs",
-      "at": "2026-10-07T13:33:22.665Z",
+      "at": "2026-11-11T00:54:53.693Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "New privacy policy for Microsoft Copilot in Chat V2 with EEA-specific behavior changes"
+          "quote": "Added new privacy policy for Microsoft Copilot in Chat V2 with EEA-specific behavior changes"
         }
       ]
     },
@@ -14169,11 +14192,16 @@
     "change/bcapps/9347": {
       "kind": "change",
       "key": "change/bcapps/9347",
-      "hash": "e26ef81c3c74e4ce0f155209ab3fe63602ca58e90797a28259caf56a9a977ab9",
+      "hash": "7fe1f96f2c3392d2ae664725e80ece76d761c5a2009e5f9c33eb06d8acfd31ff",
       "title": "#9347 Fix IssueDate in E-Documents for Germany",
       "source": "bcapps-prs",
-      "at": "2026-10-19T01:09:43.890Z",
-      "matches": []
+      "at": "2026-11-11T00:54:58.757Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/germany",
+          "quote": "Fixed the IssueDate field in German E-Document exports"
+        }
+      ]
     },
     "change/bcapps/9349": {
       "kind": "change",
@@ -14234,11 +14262,16 @@
     "change/bcapps/9355": {
       "kind": "change",
       "key": "change/bcapps/9355",
-      "hash": "64a4d2401d14a93ecd2deda2a9dfd56f277a82f15cbd04ec4676a4ad9db7bdde",
+      "hash": "4c67e600c2675eef709ef33ae3a50249b28dab08c364aff784502ec6b7555b1e",
       "title": "#9355 [master] [FR] [E-document] Changed place for \"SIRET No.\" and exposed codeunit for export Factur-X",
       "source": "bcapps-prs",
-      "at": "2026-10-19T01:09:43.890Z",
-      "matches": []
+      "at": "2026-11-11T00:54:58.757Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/france",
+          "quote": "Export Factur-X Document codeunit in the French E-Document app"
+        }
+      ]
     },
     "change/bcapps/9356": {
       "kind": "change",
@@ -15012,16 +15045,11 @@
     "change/bcapps/9482": {
       "kind": "change",
       "key": "change/bcapps/9482",
-      "hash": "e65a7da1672d05f0aca26df35d2f5e52a291c00601fdb8119d9bcf87ea3c2768",
+      "hash": "1a2d332b4451d601f937561a21af68916c41ed54d66c0646e9985dc60d6a0f50",
       "title": "#9482 Make service-invoked System Application facades callable by any user (Privacy Notice + Page Summary Provider)",
       "source": "bcapps-prs",
-      "at": "2026-10-20T08:47:05.368Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "allows Copilot capabilities and agent tasks to function for all users"
-        }
-      ]
+      "at": "2026-11-11T00:54:53.693Z",
+      "matches": []
     },
     "change/bcapps/9485": {
       "kind": "change",
@@ -15708,28 +15736,28 @@
     "change/bcapps/9635": {
       "kind": "change",
       "key": "change/bcapps/9635",
-      "hash": "138be7b068768d11e1fd8711428a8ee45a8567745309e6fdf54fd5792541eb44",
+      "hash": "b3f69236a9982e089c5fbe1d0861b075fde38bbc954e9f4786259ac07fd31f65",
       "title": "#9635 Obsolete MLLM Payables Agent rollout scaffold",
       "source": "bcapps-prs",
-      "at": "2026-10-20T08:47:05.368Z",
+      "at": "2026-11-11T00:54:53.693Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/extension-lifecycle/deprecating-code",
-          "quote": "Obsoleted the Use MLLM Processing field and PA MLLM Setup page as the feature is fully rolled out"
+          "quote": "Obsolete MLLM Payables Agent rollout scaffold as feature is fully rolled out"
         }
       ]
     },
     "change/bcapps/9637": {
       "kind": "change",
       "key": "change/bcapps/9637",
-      "hash": "40275ea7d6b8c8952008da0adf3dfaadfa3b6b92c134c2a736aea82ac4a85cab",
+      "hash": "2116c020213cdbd9e9edcbcffb861d40acbf817671b0ebed512290b4c4ec54df",
       "title": "#9637 [Event Requests] Add integration events across base app and SMTP module",
       "source": "bcapps-prs",
-      "at": "2026-10-20T08:47:05.368Z",
+      "at": "2026-11-11T00:54:53.693Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/events",
-          "quote": "Ten partner event requests were implemented adding new integration events or extra parameters"
+          "topic": "topic/dev-itpro/development/extensibility/using-events",
+          "quote": "Add integration events across base app and SMTP module"
         }
       ]
     },
@@ -17074,14 +17102,14 @@
     "change/bcapps/9910": {
       "kind": "change",
       "key": "change/bcapps/9910",
-      "hash": "cbcd4e5453218de652142bcfd28dfb5dda5976b84ec32e4aab46aa74f44148dc",
+      "hash": "9062519ab915548402ad73f9371c50b2ef6779c252de6c717125c4fabaa48d59",
       "title": "#9910 [SOA] Move attachment processing to direct model reading",
       "source": "bcapps-prs",
-      "at": "2026-10-07T13:33:32.189Z",
+      "at": "2026-11-11T00:54:53.296Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
-          "quote": "Sales Order Agent now processes PDF and image attachments directly with GPT-4.1 mini"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "Sales Order Agent now processes PDF and image attachments directly with GPT-4"
         }
       ]
     },
@@ -17231,18 +17259,14 @@
     "change/bcapps/9953": {
       "kind": "change",
       "key": "change/bcapps/9953",
-      "hash": "d20a5db41dd11f2dda61b3e413d83ff225889e618d1138f8a3ca355362129049",
+      "hash": "b7f249eb027d8540dab5ec00cd9b4eddc408008ae5acd075a4bcb5bf0645ed93",
       "title": "#9953 Rename AppSource UI text to Marketplace",
       "source": "bcapps-prs",
-      "at": "2026-10-20T08:47:06.696Z",
+      "at": "2026-11-11T00:54:53.296Z",
       "matches": [
         {
-          "topic": "topic/business-central/development-and-administration/customize-business-central",
-          "quote": "User-facing text that references AppSource has been updated to use Marketplace"
-        },
-        {
-          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central",
-          "quote": "User-facing captions, tooltips, labels and instructional text now say Marketplace"
+          "topic": "topic/business-central/development-and-administration/customize-business-central/customize-with-extensions",
+          "quote": "User-facing text that references AppSource has been updated to use Marketplace terminology"
         }
       ]
     },
@@ -17671,14 +17695,14 @@
     "change/bcquality/119": {
       "kind": "change",
       "key": "change/bcquality/119",
-      "hash": "f4576f02658c45f7514fed7fb65ae1a5dd39d42692d227dd34bd92779c7058a5",
+      "hash": "fd3ae297ec9d7b8c868ac60c5a96532e1602cd6040aa7cf7ac2e83266b45d67c",
       "title": "#119 Add batch-2 FP guards: sentence-case action captions + PK Get is transaction-cached",
       "source": "bcquality-prs",
-      "at": "2026-10-07T13:33:37.381Z",
+      "at": "2026-11-11T00:54:53.296Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "Two knowledge articles were added to guide developers about correct use"
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices",
+          "quote": "Action captions that express imperative commands should use sentence case"
         }
       ]
     },
@@ -18044,18 +18068,14 @@
     "change/bcquality/155": {
       "kind": "change",
       "key": "change/bcquality/155",
-      "hash": "08b4e29e7abc36b8a86b60f7b4bad3e84d4cfa7fab7f3b95941263c73df0880b",
+      "hash": "03072383ce158a5a105b359bc87e1408e9c2e833a15859b842fc7155904f6b1c",
       "title": "#155 Add read-only AL development plan guidance",
       "source": "bcquality-prs",
-      "at": "2026-10-21T00:47:40.360Z",
+      "at": "2026-11-11T00:54:53.296Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
-          "quote": "Add read-only AL development plan guidance enriching AL development plans with applicable constraints"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "extended metadata and JSON schemas while keeping implementation"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "BCQuality introduces a provisional read-only contract for enriching AL development plans"
         }
       ]
     },
@@ -18292,14 +18312,14 @@
     "change/bcquality/182": {
       "kind": "change",
       "key": "change/bcquality/182",
-      "hash": "2cc268e2a852116193d06acbcda6c0362fb1ee0b973f5f5e073be82fbf42ba88",
+      "hash": "a86fc91f6f185ce011970d450c904218054c2fb922cb0c8bd23de8db6d62ec6d",
       "title": "#182 Add machine-readable review orchestration contract",
       "source": "bcquality-prs",
-      "at": "2026-10-07T13:33:43.100Z",
+      "at": "2026-11-11T00:54:53.296Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "Enables BC-ALAgents to consume a stable, mechanically-owned orchestration contract"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "BCQuality now generates a deterministic, machine-readable skill index from review frontmatter"
         }
       ]
     },
@@ -18629,18 +18649,14 @@
     "change/bcquality/222": {
       "kind": "change",
       "key": "change/bcquality/222",
-      "hash": "d5c568de649e520829a0a39a067adfe401e82b0379581ec694318b846e56a3b8",
+      "hash": "a0748a7876912847cdde4f675091c260397d8026762ee10350a1a91c75c8baeb",
       "title": "#222 Add cited knowledge consultation skill for Business Central",
       "source": "bcquality-prs",
-      "at": "2026-10-31T01:01:31.696Z",
+      "at": "2026-11-11T00:54:53.296Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "A new knowledge consultation skill allows AL development agents to request guidance on Business Central solutions"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai",
-          "quote": "allows AL development agents to request guidance on Business Central solutions directly from BCQuality articles"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "A new knowledge consultation skill allows AL development agents to request guidance"
         }
       ]
     },
@@ -18802,6 +18818,20 @@
         }
       ]
     },
+    "change/bcquality/234": {
+      "kind": "change",
+      "key": "change/bcquality/234",
+      "hash": "9f0edd96f67c99229b6fc7b558469f77408030e871e4b4a8c9e7f14fc2480b7b",
+      "title": "#234 knowledge(ui): define per-record page outputs on every control-flow path",
+      "source": "bcquality-prs",
+      "at": "2026-11-11T00:54:55.379Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+          "quote": "page outputs assigned conditionally in OnAfterGetRecord might retain values from previous records"
+        }
+      ]
+    },
     "change/bcquality/237": {
       "kind": "change",
       "key": "change/bcquality/237",
@@ -18832,14 +18862,14 @@
     "change/bcquality/246": {
       "kind": "change",
       "key": "change/bcquality/246",
-      "hash": "d428e7536540079b46c771c2c613a2e4d97cf70aea9041931bf2e5b3ce81d7c8",
+      "hash": "2e9a33e7193690c5a93fb789888bcf4e4825ede363aa92db9c38309c5a9ab89b",
       "title": "#246 Expose plan guidance as a preview plugin skill",
       "source": "bcquality-prs",
-      "at": "2026-10-21T09:15:41.828Z",
+      "at": "2026-11-11T00:54:55.379Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "exposes plan guidance as a preview plugin skill alongside code review"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "BCQuality now exposes plan guidance as a preview plugin skill"
         }
       ]
     },
@@ -18906,22 +18936,14 @@
     "change/bcquality/256": {
       "kind": "change",
       "key": "change/bcquality/256",
-      "hash": "0ff8e6609c41dacf6ebc9400aeecd54f9f574ec86790c31f4b8d6a458683637b",
+      "hash": "e4574d3949fc2894f954691d2321d3cf249e21abf0de43650c6c641f8596a0b4",
       "title": "#256 Fixtures: make two samples comply with the sibling articles they trip",
       "source": "bcquality-prs",
-      "at": "2026-11-07T01:00:58.975Z",
+      "at": "2026-11-11T00:54:55.379Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/extensibility/extending-the-base-application/examples",
-          "quote": "Sample fixtures were corrected to comply with sibling quality articles"
-        },
-        {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
-          "quote": "Added OnDelete handlers to owning tables to properly delete dependent records"
-        },
-        {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/updating-and-hotfixing",
-          "quote": "Moved upgrade tag registration into a dedicated codeunit with subscriber methods"
+          "quote": "upgrade tag in the InitValue good sample is now registered"
         }
       ]
     },
@@ -18971,6 +18993,15 @@
         }
       ]
     },
+    "change/bcquality/267": {
+      "kind": "change",
+      "key": "change/bcquality/267",
+      "hash": "4f43c9c885327c9025158e4791710ee5ee41663e7c5c671fd7ad703e781d39a7",
+      "title": "#267 Evaluation: keep standalone BDD tag lines in prepared testing samples",
+      "source": "bcquality-prs",
+      "at": "2026-11-11T00:54:55.379Z",
+      "matches": []
+    },
     "change/bcquality/49": {
       "kind": "change",
       "key": "change/bcquality/49",
@@ -18988,14 +19019,14 @@
     "change/bcquality/54": {
       "kind": "change",
       "key": "change/bcquality/54",
-      "hash": "2390f397c4cb3918a21d7adb589b8f827d083b03fb9fa65230d38f1fce7d98e3",
+      "hash": "89317dc76c3fd89900629aac3969e419444ba54d319552be8c6d6be86c3fc449",
       "title": "#54 Emit human-readable domain label on review findings",
       "source": "bcquality-prs",
-      "at": "2026-10-08T06:24:05.848Z",
+      "at": "2026-11-11T00:54:55.379Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "BCQuality review leaves now set an optional human-readable domain label on every finding"
+          "quote": "BCQuality review leaves now set an optional human-readable domain label"
         }
       ]
     },
@@ -19039,14 +19070,14 @@
     "change/bcquality/84": {
       "kind": "change",
       "key": "change/bcquality/84",
-      "hash": "c46d3f91275cbed27a4862cf8aa25b19cef82896f4a2441f0930d34d8994c5a7",
+      "hash": "adf1445b1453eadcaaa7dc2a1b233babf3d9ad5936e5c5b3405b461b95dac5ed",
       "title": "#84 Package BCQuality as an installable plugin (experiment)",
       "source": "bcquality-prs",
-      "at": "2026-10-08T06:24:05.848Z",
+      "at": "2026-11-11T00:54:55.379Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "Experimentally packages BCQuality as an installable plugin for Copilot CLI and Claude Code hosts"
+          "quote": "packages BCQuality as an installable plugin for Copilot CLI"
         }
       ]
     },
@@ -19498,14 +19529,18 @@
     "post/aardvarklabs-blog/2204": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/2204",
-      "hash": "d24ed6cb95838c90f5970b34727e544e4190554886a5032e910138d149b7ae9a",
+      "hash": "e6224d12f9134d4d8ccaaeaa99d51022caff67b5126c27b624ee2627462fb0be",
       "title": "Best Practices for Handling Delimited Data Imports into Business Central",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-18T00:54:15.313Z",
+      "at": "2026-11-11T00:54:43.546Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
-          "quote": "CSV is an unstructured flat file format where data is separated by delimiters"
+          "quote": "import comma-separated values CSV customer data into Business Central by parsing delimited files"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data",
+          "quote": "Convert validated staging records to actual Business Central records in a separate procedure"
         }
       ]
     },
@@ -19620,18 +19655,18 @@
     "post/aardvarklabs-blog/2640": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/2640",
-      "hash": "d359e4297ef65ea4fe84651c85b3eda8f37de43522ae2f26f1b7f8628ee614cc",
+      "hash": "7e1c3369c0eee8cf760cdfa6ba1377ab2adb0960b41f0a8e43a0fa2b8b89cc13",
       "title": "Securing Sensitive Data in Business Central AL using SecretText",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-18T00:54:15.313Z",
+      "at": "2026-11-11T00:54:43.546Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets",
-          "quote": "SecretText can be retrieved from Isolated Storage or Azure Vault"
+          "quote": "SecretText is a data type in Business Central AL that protects sensitive values like API keys"
         },
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security",
-          "quote": "SecretText protects sensitive values like API keys and authentication credentials"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
+          "quote": "SecretText can be retrieved from Isolated Storage or Azure Vault and used with HTTPClient"
         }
       ]
     },
@@ -20558,18 +20593,14 @@
     "post/aardvarklabs-blog/4023": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/4023",
-      "hash": "f0006a98cceaf4ac0ef620fbcdfec793d9bcc3f42cf5c2ccea9f1b8a5c9891a3",
+      "hash": "1ff6f29502d3867a9224088cb474664f9e326ad73c143c69d22fbec67496137c",
       "title": "Automate Business Central Extension Deployment with PowerShell and the Admin API",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-18T00:54:14.806Z",
+      "at": "2026-11-11T00:54:43.546Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/automation-api/extension",
-          "quote": "deploys Business Central extensions to production by sorting them by dependencies"
-        },
-        {
-          "topic": "topic/dev-itpro/administration/admin-center/admin-center-api",
-          "quote": "monitoring installation status through the Admin API"
+          "topic": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
+          "quote": "PowerShell automation script that deploys Business Central extensions to production"
         }
       ]
     },
@@ -22067,18 +22098,14 @@
     "post/demiliani-com/13588": {
       "kind": "post",
       "key": "post/demiliani-com/13588",
-      "hash": "77847e9e3efdbf67d75437af62d4d3246720834ab0917e42f5fe5947c410b4c1",
+      "hash": "980c3e313b5e3cd4f88913466df1da87d5bab93ee90ded5784671cf4638cba6a",
       "title": "Dynamics 365 Business Central: new strict URI validation in AL Http Client",
       "source": "demiliani-com",
-      "at": "2026-10-18T00:54:14.806Z",
+      "at": "2026-11-11T00:54:43.546Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security",
-          "quote": "strict URI validation in AL HttpClient to prevent Server-Side Request Forgery attacks"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
-          "quote": "Cloud environments enforce this without bypass options"
+          "quote": "Business Central v28 introduces stricter URI validation in AL HttpClient to prevent Server-Side Request Forgery attacks"
         }
       ]
     },
@@ -22408,10 +22435,10 @@
     "post/demiliani-com/14098": {
       "kind": "post",
       "key": "post/demiliani-com/14098",
-      "hash": "740690642ef08a76b3879901d0b08ad72257e9f5485e1764e369a9869a155edb",
+      "hash": "6536d17ee34cb1e492538b4c34aed48694a6c010b80d3127f1e2f85cea925095",
       "title": "The skill gap between using AI and architecting AI.",
       "source": "demiliani-com",
-      "at": "2026-10-18T00:54:15.954Z",
+      "at": "2026-11-11T00:54:41.463Z",
       "matches": []
     },
     "post/demiliani-com/14131": {
@@ -23766,6 +23793,24 @@
         ]
       }
     },
+    "post/freddysblog/https://freddysblog.com/2026/11/07/directions-emea-2026": {
+      "kind": "post",
+      "key": "post/freddysblog/https://freddysblog.com/2026/11/07/directions-emea-2026",
+      "hash": "844e172f6db4a6abaed3783d1cd55d6432bc156b5015e6640da34e42941b951c",
+      "title": "Directions EMEA 2026 Reflections",
+      "source": "freddysblog",
+      "at": "2026-11-11T00:54:41.463Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "AI agents are already giving partners efficiency and quality gains"
+        },
+        {
+          "topic": "topic/dev-itpro/responsible-ai",
+          "quote": "developers stay responsible for AI-written AL and need ways to verify it"
+        }
+      ]
+    },
     "post/gerardorenteria-blog/10701": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/10701",
@@ -24456,10 +24501,10 @@
     "post/gerardorenteria-blog/12801": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/12801",
-      "hash": "9e6f0a4243f39c812c842218443ef0e6b3a6be0650693d104c896477095d50df",
+      "hash": "e188e158d2155f120321e6f2489ededad77c8a209555c1317f4c3bea7deca329",
       "title": "📊 Mermaid Diagrams in Business Central: Dynamic Visual Intelligence 🎨",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-18T00:54:16.510Z",
+      "at": "2026-11-11T00:54:41.463Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/extensibility/developing-client-add-ins",
@@ -25276,19 +25321,19 @@
     "post/jeremyvyska-com/1428": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1428",
-      "hash": "77d09e65eacd66cc9c80a0e9f4211c71a7ae1ed319e6672058f52a63aff10f7f",
+      "hash": "95653769732a907450a65064249e8b1c823ca147b9f3b4b0ec06d3e845d5c7c6",
       "title": "Building AI Infrastructure That Actually Works",
       "source": "jeremyvyska-com",
-      "at": "2026-10-28T08:41:34.228Z",
+      "at": "2026-11-11T00:54:41.463Z",
       "matches": []
     },
     "post/jeremyvyska-com/1433": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1433",
-      "hash": "5b3baf1ba749de863d68ce2343ac679c6e3df4a201f2e379a29848fb08bc18da",
+      "hash": "82ec3bf29447a269465b0fffd47bb3574b6fec6166d2ab7546c9ca7c8b2cb9f5",
       "title": "From Individual Success to Team Transformation",
       "source": "jeremyvyska-com",
-      "at": "2026-10-28T08:41:34.228Z",
+      "at": "2026-11-11T00:54:41.463Z",
       "matches": []
     },
     "post/jeremyvyska-com/1437": {
@@ -25321,11 +25366,16 @@
     "post/jeremyvyska-com/1449": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1449",
-      "hash": "e5438a044bef2b10d68e6f40dc9f75ede5389d7152687511bcecba41f58942df",
+      "hash": "f5b0c9bd793661127d6bdf45c14cf731d373958f1840695e6d6759b5786785e7",
       "title": "BC Code Intelligence: Your New VS Code AI Development Partner",
       "source": "jeremyvyska-com",
-      "at": "2026-10-26T10:53:13.459Z",
-      "matches": []
+      "at": "2026-11-11T00:54:41.463Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
+          "quote": "help developers solve problems faster and follow best practices"
+        }
+      ]
     },
     "post/jeremyvyska-com/1524": {
       "kind": "post",
@@ -25379,11 +25429,20 @@
     "post/jeremyvyska-com/1739": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1739",
-      "hash": "91f9f41c707d0175a726945befd2089e454cdad65b201c972db23648191e7fde",
+      "hash": "0a6ca3ff4daf59ffa0605c1bdaf601014c817941dd1448cc9c781924cf9db3ca",
       "title": "Agentic Development Training Spring/Summer 2026",
       "source": "jeremyvyska-com",
-      "at": "2026-10-28T08:41:34.228Z",
-      "matches": []
+      "at": "2026-11-11T00:54:41.805Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "teaches Business Central developers how to build AI-powered agentic workflows for development tasks"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "agentic workflows; ai-assisted coding; developer training; workflow automation"
+        }
+      ]
     },
     "post/jeremyvyska-com/1756": {
       "kind": "post",
@@ -26221,18 +26280,14 @@
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5842643051210707156": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5842643051210707156",
-      "hash": "fb0569a839ddca9cf939d8986375937e8f0a9d8c3b80821109c4f48c32aa8af7",
+      "hash": "ef1e49d3065fa7310ee598364255b9814646c8202cc40e7dbf915174000967a5",
       "title": "Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here",
       "source": "mohana-blog",
-      "at": "2026-10-18T00:54:16.510Z",
+      "at": "2026-11-11T00:54:41.805Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/development-environment/work-in-sandboxes",
-          "quote": "Preview environments let you test extensions, integrations, and customizations"
-        },
-        {
-          "topic": "topic/dev-itpro/development/development-environment/compile-publish-and-debug",
-          "quote": "Test by recompiling AL extensions against 29.0 symbols"
+          "quote": "Preview environments let you test extensions, integrations, and customizations against version 29.0"
         }
       ]
     },
@@ -26546,22 +26601,18 @@
     "post/nataliekarolak-com/3653": {
       "kind": "post",
       "key": "post/nataliekarolak-com/3653",
-      "hash": "f1e8d70504beff464f72cf25341b193219e87a4c9d07ed0b108613fb3ae5d461",
+      "hash": "8507da6bf1aa32fa719e784613176140a5e9c915016558fe59ce354d33b20a7c",
       "title": "Docs: What’s new in BC 27 for developers",
       "source": "nataliekarolak-com",
-      "at": "2026-10-25T18:22:33.521Z",
+      "at": "2026-11-11T00:54:41.805Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language",
-          "quote": "New AL methods for GUID creation, truncate operations, text manipulation"
+          "quote": "introduces new AL methods, properties, and features for developers"
         },
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
-          "quote": "improved Copilot integration, and updated compiler rules"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "smarter pipelines with directory configuration"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry",
+          "quote": "Enhanced properties including MaskType for sensitive data masking"
         }
       ]
     },
@@ -28277,20 +28328,11 @@
     "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/",
-      "hash": "7c539af3ddd905ec738eadf85360abf90d290acdf8de027c370c1cdc7ed68a65",
+      "hash": "67ab3f382720caa2f83e4f99e0dcd761a7299f5b3670a33e6035f52f01bbf28c",
       "title": "Introducing ALCops — LinterCop's Next Chapter",
       "source": "stefanmaron-com",
-      "at": "2026-10-18T00:54:20.876Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "ALCops is a complete replacement for LinterCop that splits code analysis into six domain-specific analyzers"
-        },
-        {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
-          "quote": "It has 30 code fixes compared with LinterCop's five or six, plus correctness fixes"
-        }
-      ]
+      "at": "2026-11-11T00:54:41.805Z",
+      "matches": []
     },
     "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-business-central/": {
       "kind": "post",
@@ -28926,10 +28968,10 @@
     "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-52-voice-chat-with-github-copilot/": {
       "kind": "post",
       "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-52-voice-chat-with-github-copilot/",
-      "hash": "8ff7012ea4e9bca7ba7a6c97c1996659672d7e366bf6617f2a2de635ece5b6bb",
+      "hash": "93b53b0c43a778e928ef9716493d164c615b9cc93f5cbc69d8dc6fb9b6a39277",
       "title": "BC Friday Tips #52 Voice Chat with GitHub Copilot",
       "source": "thatnavguy-com",
-      "at": "2026-10-07T01:56:58.144Z",
+      "at": "2026-11-11T00:54:41.805Z",
       "matches": []
     },
     "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-53-areopa-webinars/": {
@@ -29272,10 +29314,10 @@
     "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/": {
       "kind": "post",
       "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/",
-      "hash": "effee6e211629f55d443bc51c218bfd1d7cc2037a7fe96275d3771787ba55ab8",
+      "hash": "dc4af68135e0873eae48f48d15d58f0553c2d522bc6c2bfbed5145b710b2cd47",
       "title": "BC Friday Tips #66 API v2 app",
       "source": "thatnavguy-com",
-      "at": "2026-10-18T00:54:18.540Z",
+      "at": "2026-11-11T00:54:41.805Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
@@ -29300,14 +29342,18 @@
     "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/": {
       "kind": "post",
       "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/",
-      "hash": "5952c73c9ebbb4275382bcf0a99d708e12b21e59c5824a03c52ae97c3e2d7706",
+      "hash": "07c9d22060c15800fead2822c1e7069e15d5a289d971007783eee2058bfdb50d",
       "title": "BC Friday Tips #68 Always Use Field Validation",
       "source": "thatnavguy-com",
-      "at": "2026-10-18T00:54:18.540Z",
+      "at": "2026-11-11T00:54:49.772Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data",
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices",
           "quote": "Field validation in Business Central extensions ensures all business logic runs"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data",
+          "quote": "Bypassing validation can create hidden bugs by skipping trigger logic"
         }
       ]
     },
@@ -29688,22 +29734,14 @@
     "post/thatnavguy-com/https://thatnavguy.com/blog/2026/introducing-bc-mission-control/": {
       "kind": "post",
       "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2026/introducing-bc-mission-control/",
-      "hash": "fbd7bf18bf8297db2b770ec3d4a98c44a32d1b6cc1ea0af5436590f4f76ffb0d",
+      "hash": "61dc9df5f983a1f57c833dd20e182aa0e0d1036bda12d39e3d8d1099e0c56e18",
       "title": "Introducing BC Mission Control",
       "source": "thatnavguy-com",
-      "at": "2026-11-05T00:50:28.309Z",
+      "at": "2026-11-11T00:54:49.772Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/automation-api",
           "quote": "Uses Business Central Admin Center and Automation APIs for cloud management"
-        },
-        {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
-          "quote": "deploy extensions, compare app versions, check sessions"
-        },
-        {
-          "topic": "topic/dev-itpro/development/development-environment",
-          "quote": "web app for managing Business Central cloud environments and local Docker"
         }
       ]
     },
@@ -31118,24 +31156,28 @@
     "post/thinkaboutit-be/8132": {
       "kind": "post",
       "key": "post/thinkaboutit-be/8132",
-      "hash": "c9bfa41ad7ac66b4a4d96cfdc32db4c3de17dab56360ffba4d7470ba77b6d20d",
+      "hash": "38977d3cd41e7df569c3554d59b5db64da84763c41bc86b75ec42c67d4dc8e82",
       "title": "BCQuality: A Shared Quality Bar for AL Code, Built for Agents",
       "source": "thinkaboutit-be",
-      "at": "2026-10-08T01:51:16.056Z",
+      "at": "2026-11-11T00:54:49.772Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
-          "quote": "BCQuality is Microsoft's open repository of quality knowledge for AL code"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "designed to guide both human developers and AI agents toward shared coding standards"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices",
+          "quote": "organizes domain-specific rules in markdown files filtered by BC version"
         }
       ]
     },
     "post/thinkaboutit-be/8157": {
       "kind": "post",
       "key": "post/thinkaboutit-be/8157",
-      "hash": "91e4a3b25be3a46b43fde4184f9965d7ca0a66002822feb23c2655dc5b54e850",
+      "hash": "3a46987b34475f8dc99d1fefc9e41f7a1c488df2d400041aa0019608b9c1e39f",
       "title": "Quick Tip: GitHub Copilot Chat Modes Are Now Agents, and Edit Mode Is Gone",
       "source": "thinkaboutit-be",
-      "at": "2026-10-08T01:51:16.056Z",
+      "at": "2026-11-11T00:54:49.772Z",
       "matches": []
     },
     "post/thinkaboutit-be/8170": {
@@ -31436,10 +31478,10 @@
     "post/tine-staric-net/https://tine.staric.net/blog/2025/copilot-fancy-autocomplete-vol2/": {
       "kind": "post",
       "key": "post/tine-staric-net/https://tine.staric.net/blog/2025/copilot-fancy-autocomplete-vol2/",
-      "hash": "cadd01f047e3bbe88c236c4ad46d6d7825a5ded93e0fe0894603b563578c609c",
+      "hash": "f9de50e32cc39f078ff0e1f67345cf3da649ba8c2fd30d0d50b8cab4b826f960",
       "title": "Copilot is just a fancy autocomplete (vol.2)",
       "source": "tine-staric-net",
-      "at": "2026-10-08T06:23:29.115Z",
+      "at": "2026-11-11T00:54:49.772Z",
       "matches": []
     },
     "post/tine-staric-net/https://tine.staric.net/blog/2025/format-cheatsheet/": {
@@ -31477,10 +31519,10 @@
     "post/tine-staric-net/https://tine.staric.net/blog/2026/claude-code-tiny-tips/": {
       "kind": "post",
       "key": "post/tine-staric-net/https://tine.staric.net/blog/2026/claude-code-tiny-tips/",
-      "hash": "3ed2846825788ad3562fd0455e1d5acceaf609b8cf8e8205215d0cc5dde7f561",
+      "hash": "178333d50a75e652846ffbdd08a0c8a4d3338d5c14d0fca07bd927fae3090e00",
       "title": "Claude Code: Tiny Tips",
       "source": "tine-staric-net",
-      "at": "2026-10-08T01:51:15.105Z",
+      "at": "2026-11-11T00:54:49.772Z",
       "matches": []
     },
     "post/tine-staric-net/https://tine.staric.net/blog/2026/copilot-fancy-autocomplete-vol3/": {
@@ -31536,10 +31578,10 @@
     "post/tine-staric-net/https://tine.staric.net/blog/2026/harness-telemetry/": {
       "kind": "post",
       "key": "post/tine-staric-net/https://tine.staric.net/blog/2026/harness-telemetry/",
-      "hash": "978bf7d89377e5ed94a31c66a5cccde7f1ae9bacc8257c9f5b6c67ce74f603f6",
+      "hash": "e50a1b3378111f6db9b308de2e29e671c6f04d05649bc989314cebe6d46ac88a",
       "title": "\"Dev X used 2k tokens with Opus\" is not telemetry",
       "source": "tine-staric-net",
-      "at": "2026-10-20T08:47:06.149Z",
+      "at": "2026-11-11T00:54:47.932Z",
       "matches": []
     },
     "post/tine-staric-net/https://tine.staric.net/blog/2026/outvoted/": {
@@ -32035,11 +32077,16 @@
     "post/vondervoort-be/24": {
       "kind": "post",
       "key": "post/vondervoort-be/24",
-      "hash": "4b6ea44612bedc756a95e7a59f3bf3c618defd5162202bee496fab66a1fa26da",
+      "hash": "e591d11ac37201050bfd26ab3f6dfdf919f5e4752b7930c5876e5fc428a0ba58",
       "title": "Rethinking LinterCop: Preparing for the Next Chapter",
       "source": "vondervoort-be",
-      "at": "2026-10-18T00:54:18.540Z",
-      "matches": []
+      "at": "2026-11-11T00:54:47.932Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle",
+          "quote": "DevOps integration breaks in pre-release AL Language versions"
+        }
+      ]
     },
     "post/vondervoort-be/37": {
       "kind": "post",
@@ -32147,22 +32194,14 @@
     "post/waldo-be/317951": {
       "kind": "post",
       "key": "post/waldo-be/317951",
-      "hash": "7c9e9aba9caa57f93dcb943b39e2c3fe7ee1672e39adca305b19230563f8585d",
+      "hash": "43247627408d2f60a99d212dad16d54d80e7fb83129a845083eb31b86fd403e5",
       "title": "Obsoleted and “no longer invoked” events in v26 Business Central",
       "source": "waldo-be",
-      "at": "2026-10-18T00:54:26.117Z",
+      "at": "2026-11-11T00:54:47.932Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/extensibility/using-events",
-          "quote": "82 obsoleted events from the legacy invoice posting system while keeping them"
-        },
-        {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/deprecating-code",
-          "quote": "apps to compile across versions but potentially failing at runtime"
-        },
-        {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/updating-and-hotfixing",
-          "quote": "Developers should implement their own validation checks during upgrades"
+          "quote": "82 obsoleted events from the legacy invoice posting system"
         }
       ]
     },
@@ -32442,11 +32481,20 @@
     "post/waldo-be/318712": {
       "kind": "post",
       "key": "post/waldo-be/318712",
-      "hash": "885b06795b614c59cdaf1780261f6a992db70f9ce74ac48ca19ad1ad81f79527",
+      "hash": "028849109406a45bd25c026542cf27dc16f7651f796a3850e1817b1cc28934cb",
       "title": "The Business Central 2026 release wave 2 docs nobody asked for ..",
       "source": "waldo-be",
-      "at": "2026-10-08T01:51:15.105Z",
-      "matches": []
+      "at": "2026-11-11T00:54:47.932Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities",
+          "quote": "319 features identified from 38 videos with developer tools"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai",
+          "quote": "Site built using AI to process 68,000 words of YouTube captions"
+        }
+      ]
     },
     "post/waldo-be/318731": {
       "kind": "post",
@@ -32529,20 +32577,11 @@
     "post/wingate365-com/https://blog.wingate365.com/2025/10/south-coast-summit-2025-ai-driven-page.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2025/10/south-coast-summit-2025-ai-driven-page.html",
-      "hash": "0d806c4d729387e27adbec76889050b4d1ac2d3cf6326b6126cfb5f064f0d150",
+      "hash": "eedb75d5d245cd4769b3bcd27ea65b6fc4da3428db7587e0c2eeb603a34b9ca5",
       "title": "South Coast Summit 2025 - AI-Driven Page Scripting: Practical Use Cases for Dynamics 365",
       "source": "wingate365-com",
-      "at": "2026-10-29T22:01:39.922Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
-          "quote": "AI-Driven Page Scripting: Practical Use Cases for creating and scaling page scripting test automation"
-        },
-        {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing",
-          "quote": "Security considerations include using Azure OpenAI in your own tenant for sensitive data"
-        }
-      ]
+      "at": "2026-11-11T00:54:47.932Z",
+      "matches": []
     },
     "post/wingate365-com/https://blog.wingate365.com/2025/11/delivering-bc-in-age-of-ai-which-soft.html": {
       "kind": "post",
@@ -33558,14 +33597,18 @@
     "post/yzhums-com/64057": {
       "kind": "post",
       "key": "post/yzhums-com/64057",
-      "hash": "2d69705fb87ead60a19fa6c132d23185598126e0f6a171ec513c876196961910",
+      "hash": "f32d92b275c7ef4db01d391f86ce5a0a97fcb249150834442b211eecf3b27cfd",
       "title": "Business Central 2025 wave 1 (BC26.1): New method to add SecretText values to JSON objects – WriteWithSecretsTo",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:14:53.125Z",
+      "at": "2026-11-11T00:54:47.932Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security",
-          "quote": "WriteWithSecretsTo is a new method on the JsonObject type that adds SecretText values"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets",
+          "quote": "WriteWithSecretsTo method integrates with the SecretText type"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/data-types",
+          "quote": "new method on the JsonObject type that adds SecretText values"
         }
       ]
     },
@@ -33755,14 +33798,14 @@
     "post/yzhums-com/64898": {
       "kind": "post",
       "key": "post/yzhums-com/64898",
-      "hash": "d35f5d392851ff97b0ae53453f4c11e471cc0478b5a024cbd2caa0f3d3be8dc8",
+      "hash": "36bb2a6c18a00da7f0359a482bb334bca22bd95b5f05d1eabbcf8aa8b15ee66f",
       "title": "Dynamics 365 Business Central: How to insert a record with a specified SystemId in AL",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:19.913Z",
+      "at": "2026-11-11T00:54:48.042Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/modifying-data",
-          "quote": "insert a record with a specified SystemId in AL"
+          "quote": "insert a record with a specified SystemId in AL using the Insert"
         },
         {
           "topic": "topic/dev-itpro/integration/web-services/apis",
@@ -33791,14 +33834,14 @@
     "post/yzhums-com/64982": {
       "kind": "post",
       "key": "post/yzhums-com/64982",
-      "hash": "d32bcd25dc8a6c18e8c37f78bc507835e9f49545c113bb7ee61d759a92abe308",
+      "hash": "3523c2ecfd9a940416e7dd95177428522d594b5bb572e564fc9d74e9763973c6",
       "title": "Dynamics 365 Business Central: How to use Custom Translator (D365 Translation Service support ends)",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:19.913Z",
+      "at": "2026-11-11T00:54:48.042Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/extension-lifecycle/translation",
-          "quote": "migrating to Azure AI Custom Translator for translating Business Central"
+          "quote": "Custom Translator for translating Business Central solutions"
         }
       ]
     },
@@ -33887,32 +33930,32 @@
     "post/yzhums-com/65391": {
       "kind": "post",
       "key": "post/yzhums-com/65391",
-      "hash": "cfcc0e62a92cf422b27b7a81975effe398a63f39df5faa9e6dc1ada131ef6402",
+      "hash": "fabeea6b3db014997fe583fc45229c12005addfd0dca837013aefc01e70c80e6",
       "title": "Dynamics 365 Business Central: How to set Allow HttpClient Requests for multiple extensions (selected extensions) at the same time",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:26.122Z",
+      "at": "2026-11-11T00:54:48.042Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
-          "quote": "Allow HttpClient Requests must be enabled per extension to allow outbound HTTP calls"
+          "quote": "Allow HttpClient Requests for extensions to allow outbound HTTP calls"
         },
         {
-          "topic": "topic/dev-itpro/development/extension-lifecycle",
-          "quote": "Enabling Allow HttpClient Requests for multiple extensions at once requires creating a custom page"
+          "topic": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
+          "quote": "custom page using NAV App Installed App table"
         }
       ]
     },
     "post/yzhums-com/65426": {
       "kind": "post",
       "key": "post/yzhums-com/65426",
-      "hash": "246702e1710da9cc9b7750a1a5520299af9c80b69f24429bf6bf14dcf193a851",
+      "hash": "af78a7e7f76b838d53985ee4526dc9b87461260eb43b815efe46f60e8e3c74e7",
       "title": "Dynamics 365 Business Central: How to bulk import big/large text (length exceeds 250 and 2048) from external files via AL",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:14:53.110Z",
+      "at": "2026-11-11T00:54:48.042Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
-          "quote": "bulk import text longer than 250 or 2048 characters from external files into Business Central using XMLPort"
+          "quote": "bulk import text longer than 250 or 2048 characters from external files"
         }
       ]
     },
@@ -33960,14 +34003,18 @@
     "post/yzhums-com/65533": {
       "kind": "post",
       "key": "post/yzhums-com/65533",
-      "hash": "a60b4f1eee9ea3fd807241736a7f7a7c496ab21a6f8236394cc25b3d43dfce1c",
+      "hash": "84aeb0a255020c4e84885c13f1985fa6a1fcb9a52474df89cea57df865d38965",
       "title": "Dynamics 365 Business Central: Automatically enable Allow HttpClient Requests after custom extension/app installation",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:14:53.110Z",
+      "at": "2026-11-11T00:54:48.042Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
-          "quote": "Apps calling external services through HttpClient need Allow HttpClient Requests enabled"
+          "quote": "Allow HttpClient Requests setting for custom extensions during installation"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
+          "quote": "install codeunit can read the current module info and set the flag"
         }
       ]
     },
@@ -38340,18 +38387,14 @@
     "post/yzhums-com/75294": {
       "kind": "post",
       "key": "post/yzhums-com/75294",
-      "hash": "1544ce69473f7ce9e7b5873facef48a6e0128c4a2d3801a5f88851df064e287e",
+      "hash": "dae29444daa082fddd50aa526000fda21f6370c5e79e0f3972ed1ce9831cca80",
       "title": "Dynamics 365 Business Central: Create an extensibility request on BCApps (ALAppExtensions is being retired)",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:26.126Z",
+      "at": "2026-11-11T00:54:48.042Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/extensibility/extensibility-requests",
-          "quote": "extensibility requests including event requests must now be submitted through BCApps"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/events",
-          "quote": "When requesting events, follow best practices like passing records rather than exposing"
+          "quote": "extensibility requests including event requests moving to BCApps"
         }
       ]
     },
@@ -39492,18 +39535,22 @@
     "video/_ynMUzh956w": {
       "kind": "video",
       "key": "video/_ynMUzh956w",
-      "hash": "4c1b6bccebf309e8d55fca3792fb18986bb392cf242115b92f4d64e660fd512a",
+      "hash": "ff7eb99f9c74048a712f082426186b3a64d3004b19506f0e62d8a30ec1c07b3b",
       "title": "Introducing: Sustainability in Business Central (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:46.338Z",
+      "at": "2026-11-11T00:55:00.084Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/sustainability-management",
-          "quote": "Sustainability journal; Chart of sustainability accounts; Emissions calculation formulas"
+          "quote": "Sustainability in Business Central emissions tracking csrd compliance esg reporting"
         },
         {
           "topic": "topic/business-central/business-functionality/sustainability-management/sustainability-analytics",
-          "quote": "sustainability; emissions tracking; greenhouse gas; carbon footprint"
+          "quote": "Sustainability journal chart of sustainability accounts emissions calculation formulas"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
+          "quote": "chart of accounts sustainability journals emission factors scope tracking"
         }
       ]
     },
@@ -41033,10 +41080,10 @@
     "video/8hz-uNsKQbk": {
       "kind": "video",
       "key": "video/8hz-uNsKQbk",
-      "hash": "9e5f7914ae4d1295f14b594cd469e6e5283eeb504499daf91e61194762e333f9",
+      "hash": "eb3c2bc07c118d936744ff715e034e2b5e040875088c2ec379e9e5fd54a1fc1d",
       "title": "How partners responds to the #BCTalent initiative: Reskill",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:39.844Z",
+      "at": "2026-11-11T00:54:41.496Z",
       "matches": []
     },
     "video/8IOEXgk7q5I": {
@@ -41190,18 +41237,14 @@
     "video/9CW5mydS9Vs": {
       "kind": "video",
       "key": "video/9CW5mydS9Vs",
-      "hash": "ac90087b90c2ab2e631dbc64abdb1b05391f192c5d1de32bdd464e1a0741263f",
+      "hash": "086c044188d418c281ab804ebbd592f9a371cdd1261dda84a178135ae692d8ed",
       "title": "Microsoft presents: Tests, dependencies, runners and evals for BC applications",
       "source": "yt-mibuso",
-      "at": "2026-10-07T23:41:35.910Z",
+      "at": "2026-11-11T00:54:42.676Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
-          "quote": "Tests dependencies runners and evals for BC applications"
-        },
-        {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "MCP server for test execution AI test runner"
+          "quote": "MCP server for test execution; Test generation with MCP and external tools"
         }
       ]
     },
@@ -41376,14 +41419,14 @@
     "video/a3j6JjyWDv0": {
       "kind": "video",
       "key": "video/a3j6JjyWDv0",
-      "hash": "7081fdbad1cef3a0e5f99397a74b5378cab63c69d265db365ebc052847a88ddf",
+      "hash": "1d89b66018dcf3dd53e1733bd110ec83043fdddfa9e105d27b3ad2fb5729954d",
       "title": "20261026 - The Rollback That Wasn’t Transaction & Error Handling",
       "source": "yt-areopa",
-      "at": "2026-10-28T10:50:07.106Z",
+      "at": "2026-11-11T00:54:42.529Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/error-handling",
-          "quote": "transaction handling; error handling; rollback behavior; commit semantics"
+          "quote": "transaction handling; error handling; rollback behavior; commit semantics; try-catch patterns"
         }
       ]
     },
@@ -41508,14 +41551,14 @@
     "video/aNRzlbxVPWE": {
       "kind": "video",
       "key": "video/aNRzlbxVPWE",
-      "hash": "723693d67525e5dfb116b1cae0c31f775abdd98f7021568ebec54d9de5dbd61e",
+      "hash": "683ba8dfccf93aac863c12ceaae482a689ca14ce52ea560a7f3432e7c0260c2f",
       "title": "Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T23:41:36.828Z",
+      "at": "2026-11-11T00:54:42.529Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "How to Write Agent Evals in AL; agent testing; evals; yaml-driven tests"
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "Agent task flow mapping; multi-turn conversation testing; Test library data creation"
         }
       ]
     },
@@ -41787,18 +41830,18 @@
     "video/bHXEbtsx0JY": {
       "kind": "video",
       "key": "video/bHXEbtsx0JY",
-      "hash": "0045902d77a690f7f846377c48e66c83e1a7f650a4d4ce206b5687d7b388a04e",
+      "hash": "2ef279fa3b2b0c537c03d679b236053dc17e0ed2f25dad13c04d68ab14a578e2",
       "title": "What's New: Sustainability Copilot (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:58.509Z",
+      "at": "2026-11-11T00:55:00.084Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/sustainability-management",
-          "quote": "Sustainability Copilot emissions calculation; copilot; sustainability journal; emission factors"
+          "topic": "topic/business-central/copilot-and-agent-capabilities",
+          "quote": "Sustainability Copilot emissions calculation copilot sustainability journal emission factors"
         },
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "Calculate CO2 in Sustainability Journal; Emission Factor Lookup from Multiple Sources"
+          "topic": "topic/business-central/business-functionality/sustainability-management/sustainability-value-chain",
+          "quote": "Calculate CO2 Sustainability Journal Emission Factor Lookup Date-based Emission Factor Versioning"
         }
       ]
     },
@@ -41959,14 +42002,14 @@
     "video/ByRoL46n-Gg": {
       "kind": "video",
       "key": "video/ByRoL46n-Gg",
-      "hash": "b37b4209227f3d36ba82385b6eaad1822b8484f39e5071c41ebd484d218a66c0",
+      "hash": "29a026f91893f3456c96c64cdc958e944bd983e90d7202d043568eb14e062940",
       "title": "Introducing: Dynamics 365 Field Service Integration with Business Central (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:40.788Z",
+      "at": "2026-11-11T00:54:55.032Z",
       "matches": [
         {
           "topic": "topic/business-central/integrate-with-other-applications/dynamics-365-field-service",
-          "quote": "Dynamics 365 Field Service Integration with Business Central field service integration; work orders"
+          "quote": "Field Service Integration with Business Central (2024 release wave 1)"
         }
       ]
     },
@@ -42736,11 +42779,16 @@
     "video/ecYXnXULijI": {
       "kind": "video",
       "key": "video/ecYXnXULijI",
-      "hash": "77f07cd581b2d505d86e576e47c41f3bf0b5cb5b6db5d912eabce265f67d7061",
+      "hash": "f24c352d89b69472d7c58d711fe7971996149b757e4e589ddb2f4c87c00c3b02",
       "title": "Let's Build a Plug & Play Claude Code Setup for AL Development - The Business Central Coding Stream",
       "source": "yt-stefanmaron",
-      "at": "2026-10-07T23:41:36.828Z",
-      "matches": []
+      "at": "2026-11-11T00:54:42.529Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "dev containers; dockerfile; AL development commands in Docker container"
+        }
+      ]
     },
     "video/eDi32pS8eMo": {
       "kind": "video",
@@ -42871,11 +42919,24 @@
     "video/EurgqGU1jG0": {
       "kind": "video",
       "key": "video/EurgqGU1jG0",
-      "hash": "9cda3a17ff416fb9e47c637de463bfab985ad4527de17057fabe8a346903c2ad",
+      "hash": "edb14011eda297ee55a32e2eb1180f4311424fb480b6915d91050c77ec82049f",
       "title": "20260504 - Super fast tests covering 100% of your code",
       "source": "yt-areopa",
-      "at": "2026-10-18T00:54:12.559Z",
-      "matches": []
+      "at": "2026-11-11T00:54:42.676Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "automated testing; code coverage; test patterns; Fast automated testing framework"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
+          "quote": "payment integration; api integration; API testing without external calls"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/interfaces",
+          "quote": "Interfaces; Context interfaces pattern; Environment interfaces"
+        }
+      ]
     },
     "video/EVntnDFE1R4": {
       "kind": "video",
@@ -43221,14 +43282,14 @@
     "video/fWBehdiuDpE": {
       "kind": "video",
       "key": "video/fWBehdiuDpE",
-      "hash": "a5d7fc8e5f54ed9dc5e2fceb7cb6d126a5cb7733fa952cd9c15c909dd2bdcf5d",
+      "hash": "c76626ff928e38e0a323bcba0d115a138e0d8f528afe4253a3d194f8b97e1583",
       "title": "Translate your app with an LLM in Business Central",
       "source": "yt-hougaard",
-      "at": "2026-10-18T00:54:11.759Z",
+      "at": "2026-11-11T00:54:42.529Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/extension-lifecycle/translation",
-          "quote": "LLM-based app translation using Claude; Translation file XLIFF support in app.json"
+          "quote": "Translate your app with an LLM in Business Central; app translation; localization"
         }
       ]
     },
@@ -43267,18 +43328,18 @@
     "video/Fz8NLByllRc": {
       "kind": "video",
       "key": "video/Fz8NLByllRc",
-      "hash": "7535e141cc6d29ae777c8736ee2ca51b9841bb1a0847235863858dd0070f8279",
+      "hash": "b2aede21b05eeb795860307a38f59b774e999b5296cb9e1ee90639e7e540364a",
       "title": "Expense Agent: Mileage Allowances (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:22.064Z",
+      "at": "2026-11-11T00:54:41.496Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Expense Agent: Mileage Allowances; mileage allowances; expense agent"
+          "quote": "Mileage allowances; expense agent; route selection; distance calculation"
         },
         {
           "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
-          "quote": "Automatic mileage rate calculation; Automatic expense report matching"
+          "quote": "Automatic mileage rate calculation; Round trip toggle; Mileage rate configuration"
         }
       ]
     },
@@ -43526,14 +43587,14 @@
     "video/GM0DNxu39LM": {
       "kind": "video",
       "key": "video/GM0DNxu39LM",
-      "hash": "f06d234fb66a25054ff4caca61f01fa963604dc569cb8772d101bab74eba54ec",
+      "hash": "6552a82a7b9121e06226a28a51bc9c91da1ac9394a3c7c012e227025c8b55851",
       "title": "What's New: E-Documents Connectors (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:42.770Z",
+      "at": "2026-11-11T00:54:55.918Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
-          "quote": "e-documents; connectors; appsource; electronic invoicing; integration setup"
+          "quote": "E-Documents Connectors; e-documents; connectors; appsource; electronic invoicing; integration setup"
         }
       ]
     },
@@ -43572,14 +43633,14 @@
     "video/gVjrKPHlrgM": {
       "kind": "video",
       "key": "video/gVjrKPHlrgM",
-      "hash": "54db3656069a1a426e110e8d15dbfcb14b90f66b3384b667691ef5ec2da7b20d",
+      "hash": "9315c4f94b64f45b593b41763688b08480710e5235d599e43ca775e9dd947a04",
       "title": "What's New: E-Documents ZUGFeRD Format (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:42.770Z",
+      "at": "2026-11-11T00:54:55.918Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
-          "quote": "ZUGFeRD Format Support; PDF/A-3 Format for Long-term Archival"
+          "quote": "E-Documents ZUGFeRD Format; zugferd; pdf-a3; germany; invoicing; hybrid documents"
         }
       ]
     },
@@ -43710,14 +43771,14 @@
     "video/hba7KVWrIwY": {
       "kind": "video",
       "key": "video/hba7KVWrIwY",
-      "hash": "99be664d7bade7d8679676a1ab1ec96accf7aca93f8cd7c97653e6be516084e7",
+      "hash": "b76fd1f9324eebee00d3e200beb201f5f93ca49f9578985a0dc3512bb93d83d4",
       "title": "What's New: E-Documents (2024 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:42.770Z",
+      "at": "2026-11-11T00:54:55.918Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
-          "quote": "e-documents; electronic invoicing; avalara; pagero; b2b; b2g; connectors"
+          "quote": "E-Documents; electronic invoicing; avalara; pagero; b2b; b2g; connectors; attachments"
         }
       ]
     },
@@ -43855,14 +43916,14 @@
     "video/hL4PUhjyhNY": {
       "kind": "video",
       "key": "video/hL4PUhjyhNY",
-      "hash": "794c423b0a865e89862f3ba3f26086ce292389c2df77309d3ff84cb36bd73a35",
+      "hash": "4fd960605ba523fd2a5d98e104fc21493ad8ec183cf2b9e521019c280b3542dd",
       "title": "What's New: E-Documents Localizations (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:42.770Z",
+      "at": "2026-11-11T00:54:55.918Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
-          "quote": "e-documents; localizations; peppol; factura; ubl; pdf/a"
+          "quote": "E-Documents Localizations; e-documents; localizations; peppol; factura; ubl; pdf/a"
         }
       ]
     },
@@ -44336,18 +44397,14 @@
     "video/JBGuaqk5nXk": {
       "kind": "video",
       "key": "video/JBGuaqk5nXk",
-      "hash": "ac7484d03508a9579843295e24e33307ba7942ddb73cb762ab2cfa3caa8c7ba9",
+      "hash": "d742920a4ead20b80b5e3ae9ad6f7fc5620218798f0f554826a18c77b97a6baa",
       "title": "What's New: Copilot for Sustainability (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:56.530Z",
+      "at": "2026-11-11T00:55:00.084Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities",
-          "quote": "Copilot for Sustainability; emissions calculation; carbon accounting"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/sustainability-management",
-          "quote": "Copilot; emissions calculation; sustainability journal; emission factors"
+          "topic": "topic/business-central/business-functionality/sustainability-management/sustainability-value-chain",
+          "quote": "emissions calculation sustainability journal emission factors carbon accounting"
         }
       ]
     },
@@ -45207,10 +45264,10 @@
     "video/LDzOda1IOnE": {
       "kind": "video",
       "key": "video/LDzOda1IOnE",
-      "hash": "f80a5746347263a101a9dd4910f9d880373adb229482daf1f30d507ae2a6521e",
+      "hash": "707c7691b647ab684856ec67baec25bea7a39370ac99c5419ea646b55cc167da",
       "title": "What's New: Opening Visual Studio Code from the Web Client (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:23.870Z",
+      "at": "2026-11-11T00:54:42.676Z",
       "matches": []
     },
     "video/LerAo-GGl8U": {
@@ -45367,10 +45424,10 @@
     "video/LuAHCXiwYn4": {
       "kind": "video",
       "key": "video/LuAHCXiwYn4",
-      "hash": "969ab92928e4f8872241509a8add51a54591dd4a46accc84e7c7856b3b2ba869",
+      "hash": "e96d6f249f77c89ed6b9b96624fd240018be5b9f69d56f74c7f591dcee2b179a",
       "title": "Swappable Claude Profiles: Per-Project Configs via Container Mounting (Part 3)",
       "source": "yt-stefanmaron",
-      "at": "2026-10-07T23:41:39.412Z",
+      "at": "2026-11-11T00:54:42.676Z",
       "matches": []
     },
     "video/LW2JNV01sJo": {
@@ -45927,18 +45984,14 @@
     "video/NI6WYze-JSU": {
       "kind": "video",
       "key": "video/NI6WYze-JSU",
-      "hash": "13100e514113c91f43e39760f5e405e608f820bac8a42d6f7083cc92be243011",
+      "hash": "59b7f9252bb66ec199cb44744fea8c931b4cb3a57b21d43fb069b82f0f2d1e7b",
       "title": "Expense Agent: Project Expenses (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:28.757Z",
+      "at": "2026-11-11T00:54:58.968Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
-          "quote": "Expense Agent; project tracking; project assignment"
-        },
-        {
           "topic": "topic/business-central/business-functionality/project-management",
-          "quote": "Project tracking configuration in Expense Agent setup"
+          "quote": "Project and task visibility in Expense Agent; project assignment capability"
         }
       ]
     },
@@ -45959,22 +46012,22 @@
     "video/nMiLzdfidos": {
       "kind": "video",
       "key": "video/nMiLzdfidos",
-      "hash": "7aefbb460827884f4cf74f0e505bbd7fb087c60343aba9af5bff6d92abc07a5f",
+      "hash": "bc64d3b6b0e36a5a5ff0a14c902fcba5dc8e6a250e432151a6916c83f2e73dd1",
       "title": "What's New: AL Language (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T23:41:42.465Z",
+      "at": "2026-11-11T00:54:43.546Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/namespaces-in-al",
-          "quote": "json support; data transfer; namespaces; fully qualified names"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "AL tools for GitHub Copilot in VS Code; Automatic diagnostic fixing with Copilot"
         },
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
           "quote": "AL MCP server for non-VS Code agents; Automated agentic pipelines with AL MCP"
         },
         {
-          "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-with-telemetry",
-          "quote": "Copilot-assisted error debugging; Copilot performance profiling without profiler"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "quote": "json support; data transfer; namespaces; fully qualified names"
         }
       ]
     },
@@ -46291,10 +46344,10 @@
     "video/oL8OlbEoUnQ": {
       "kind": "video",
       "key": "video/oL8OlbEoUnQ",
-      "hash": "db9c3c628809a5b57b9f104f180fccaaff3ec86b5170d2c63b46d8c9ffded815",
+      "hash": "a67b311d8d3401534890be3e5c20d69ff0fe35db2ef2c47c04fefd4c7e9c2447",
       "title": "What's New: E-Documents (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:42.770Z",
+      "at": "2026-11-11T00:54:55.918Z",
       "matches": []
     },
     "video/OLN-2Ec2GMM": {
@@ -47156,22 +47209,18 @@
     "video/qPInVj03wkY": {
       "kind": "video",
       "key": "video/qPInVj03wkY",
-      "hash": "1f8feded10ed5ae0e29e923d5078f46ec323c99f9ffaf7f6ed19219a8860347d",
+      "hash": "0b27edc2ac57f90c4b782d05e60e408e26abc945f47246523f8d4a11df17ab88",
       "title": "What's New in Sustainability: Reporting CSRD (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:46.338Z",
+      "at": "2026-11-11T00:55:00.084Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/sustainability-management",
-          "quote": "csrd reporting; esg aggregation; compliance reporting"
+          "quote": "Reporting CSRD csrd compliance reporting esg aggregation compliance reporting"
         },
         {
           "topic": "topic/business-central/business-functionality/sustainability-management/sustainability-analytics",
-          "quote": "ESG Aggregation Reporting Tool; CSRD Compliance Reporting"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
-          "quote": "Bidirectional Data Synchronization; Dataverse Connection Setup"
+          "quote": "ESG Aggregation Reporting Tool CSRD Compliance Reporting Sustainability Ledger Entry Mapping"
         }
       ]
     },
@@ -47268,11 +47317,16 @@
     "video/Qz-V7qvOY-8": {
       "kind": "video",
       "key": "video/Qz-V7qvOY-8",
-      "hash": "2ac162d79ca265573cf17c8a0a4f49e609861f5b37931b23e9a4eb56d5df4a07",
+      "hash": "a657fff775d11168d720f0e9c94091630032553228e78f141dd0afa5839063ca",
       "title": "What's New: Enhancements in E-Documents (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:42.770Z",
-      "matches": []
+      "at": "2026-11-11T00:54:55.918Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables",
+          "quote": "automated attachments; deletion functionality; e-document services. Shows: Delete incorrect E-documents"
+        }
+      ]
     },
     "video/qZALauRY_So": {
       "kind": "video",
@@ -47577,11 +47631,16 @@
     "video/Rvgt_VXFr1I": {
       "kind": "video",
       "key": "video/Rvgt_VXFr1I",
-      "hash": "fe055a2c1765ad0c164221c54fe60ac8017254743efe530230bf3a2dc608772d",
+      "hash": "1285c256f05ecee318be2ab1f7e11bf1767cb01396ead34262892aa6f81c92da",
       "title": "What's New: Running Tests from Visual Studio Code (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-18T00:54:12.559Z",
-      "matches": []
+      "at": "2026-11-11T00:54:42.676Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "copilot agents; Copilot agent for test fixing; agents outside VS Code"
+        }
+      ]
     },
     "video/rWZcmEwwVHg": {
       "kind": "video",
@@ -48162,14 +48221,14 @@
     "video/tMqCSibSRug": {
       "kind": "video",
       "key": "video/tMqCSibSRug",
-      "hash": "bea35e2233934e97be9f8844b9b977da15ef7d676386d0f42cdfdc6baecbbfc9",
+      "hash": "bc0b3a27989e26627bffd4f2f454e1a2d0777d66608bda1bce8d94937100f55b",
       "title": "ALCops: LinterCop's Successor for Business Central AL Code Analysis (feat Arthur van de Vondervoort)",
       "source": "yt-stefanmaron",
-      "at": "2026-10-07T23:41:42.465Z",
+      "at": "2026-11-11T00:54:43.546Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "ALCops; lintercop; code analysis; code cops; al language"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "Improved rule descriptions for AI agents; AI-assisted rule development approach"
         },
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
@@ -48300,21 +48359,17 @@
     "video/TY82NR2hGEg": {
       "kind": "video",
       "key": "video/TY82NR2hGEg",
-      "hash": "3608ce5783de6b25098daba995b3edfddd5fbc6f5d5deefc9fe64d750a022849",
+      "hash": "9be7fa59b734a0972649ddd4c5b96453c20239e4235a56a28cbed18d46fe3071",
       "title": "What's New: Business Central Developer Tools (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-18T00:54:11.759Z",
+      "at": "2026-11-11T00:54:42.676Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/namespaces-in-al",
-          "quote": "Namespaces in AL language; Using directives for namespace imports"
+          "topic": "topic/dev-itpro/development/development-environment/code-analysis",
+          "quote": "AL language extension; DevOps syntax highlighting; code actions"
         },
         {
-          "topic": "topic/dev-itpro/development/development-environment/compile-publish-and-debug",
-          "quote": "AL language extension pre-release versions; AL language extension for Linux"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry",
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports",
           "quote": "AL Doc reference documentation tool; XML documentation comments in AL"
         }
       ]
@@ -49143,18 +49198,14 @@
     "video/vyQnSxRGJDA": {
       "kind": "video",
       "key": "video/vyQnSxRGJDA",
-      "hash": "43ba18146723000fa9f7a20039ab9c410119d9ed1609c2644bb40c1ff1a64b38",
+      "hash": "c70b08961222236f1cbe9ce7402d3e2ac50cd08ce379440a8e964f5659034768",
       "title": "Expense Agent: Per Diem Allowances (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:39.844Z",
+      "at": "2026-11-11T00:54:41.496Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
           "quote": "Per Diem Allowances; expense agent; itinerary detection; meal reductions"
-        },
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
-          "quote": "Expense Agent Wizard Configuration; Itinerary Detection and Classification"
         },
         {
           "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
@@ -49535,18 +49586,18 @@
     "video/WvG4EOHQuiw": {
       "kind": "video",
       "key": "video/WvG4EOHQuiw",
-      "hash": "aa47071f1427366e734aa84c2da3859ce77d6a0abff6a2b06cf875ef42d73e30",
+      "hash": "900f95b17fa8a6a011ba23d281f1bab151b1bf7cf9922cdbe3a7f2d38b2eb4d5",
       "title": "What's New: Field Service Integration to Service Management (2024 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:40.788Z",
+      "at": "2026-11-11T00:54:55.032Z",
       "matches": [
         {
-          "topic": "topic/business-central/integrate-with-other-applications/dynamics-365-field-service",
-          "quote": "Field Service Integration to Service Management; work order synchronization; inventory availability"
+          "topic": "topic/business-central/business-functionality/service-management",
+          "quote": "Field Service Integration to Service Management (2024 release wave 2)"
         },
         {
-          "topic": "topic/business-central/business-functionality/service-management",
-          "quote": "Field Service Integration to Service Management; Service Management Setup Changes"
+          "topic": "topic/business-central/integrate-with-other-applications/dynamics-365-field-service",
+          "quote": "Field Service Integration to Service Management (2024 release wave 2)"
         }
       ]
     },
@@ -50055,6 +50106,20 @@
         ]
       }
     },
+    "video/YBVqwzig8Qc": {
+      "kind": "video",
+      "key": "video/YBVqwzig8Qc",
+      "hash": "46481498369dfae270a266bf922d9cf0e65840cb175ce6c719f917b109bcbaa7",
+      "title": "What probem? I can stop whenever I want! (More Games in AL and Business Central)",
+      "source": "yt-hougaard",
+      "at": "2026-11-11T00:54:42.529Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "quote": "al; game development; emulation; z80 processor; c2al converter; quake engine"
+        }
+      ]
+    },
     "video/yE6lNV3ALb4": {
       "kind": "video",
       "key": "video/yE6lNV3ALb4",
@@ -50292,11 +50357,16 @@
     "video/Z0K38pXvjWk": {
       "kind": "video",
       "key": "video/Z0K38pXvjWk",
-      "hash": "fb8728aa9af209953e97f3691918d2500f124f1ed154098ed02dbae6ccc079e6",
+      "hash": "3a9929765df9eee526ae2a8b9f6335ba7805da579250f476b2fec04497a37997",
       "title": "Business Central: ToolTip Property Now Available on Pages",
       "source": "yt-saurav",
-      "at": "2026-10-07T00:19:30.551Z",
-      "matches": []
+      "at": "2026-11-11T00:54:42.529Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
+          "quote": "ToolTip property on page objects; Action tooltip inheritance; Page-level tooltip consistency"
+        }
+      ]
     },
     "video/z1H6nQCEIeY": {
       "kind": "video",

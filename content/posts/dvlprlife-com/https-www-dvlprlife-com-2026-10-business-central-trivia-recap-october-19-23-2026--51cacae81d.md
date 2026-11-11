@@ -15,16 +15,16 @@ tags:
   - navigation
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-11T00:56:56.928Z"
   flags: []
 generated:
-  at: "2026-11-11T00:17:50.093Z"
+  at: "2026-11-11T00:15:47.902Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: b0a9289cdffca67cd21c2eb3dd2c07daf832711d983bf0f764f69c7ca56a37ad
+  input_hash: 95ff66c323fa18fe48d4915875ef6adfe034a645b5b981225da9768afe6b61aa
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/10/business-central-trivia-recap-october-19-23-2026/
@@ -87,18 +87,18 @@ versions_mentioned: []
 preview:
   embeddable: true
   frame_url: null
-  image: null
-  image_alt: null
-  image_w: null
-  image_h: null
-  site_name: null
-  favicon: null
-  probed_at: "2026-11-10T00:49:24.184Z"
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/10/business-central-trivia-recap-october-19-23-2026-social.jpg
+  image_alt: "Business Central Trivia Recap: October 19–23, 2026 – DvlprLife.com"
+  image_w: 1200
+  image_h: 630
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-11-11T00:52:05.444Z"
 ---
 
 # Business Central Trivia Recap: October 19–23, 2026
 
-[Read the post](https://www.dvlprlife.com/2026/10/business-central-trivia-recap-october-19-23-2026/) · DvlprLife (Brad Prendergast) · 2026-10-26 · 235 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://www.dvlprlife.com/2026/10/business-central-trivia-recap-october-19-23-2026/) · DvlprLife (Brad Prendergast) · 2026-10-26 · 235 words · tier community · reviewed (checked by Opus)
 
 > A weekly Business Central trivia event recap from October 19-23, 2026 showing that players achieved a 63% correct answer rate across 250 questions. The recap identifies the hardest categories (Keyboard Shortcuts, Subscription Billing, Fixed Assets) and easiest (BC Today & Trivia, Navigation, Setup), along with a new auto-refresh feature for the leaderboard.
 

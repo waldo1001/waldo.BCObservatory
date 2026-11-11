@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:19.424Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -528,7 +528,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9315 [Projects] Add Assigned Resources to projects and project tasks](../../../changes/bcapps/9315.md) (code change): "Projects now support assigning resources at the project level or to specific posting-type tasks"
 - [What's New: Project Management (2024 release wave 1)](../../../videos/dD_2NEs3A40.md) (video): "Jobs renamed to Projects; Project details box visible by default"
 - [What's New: Entering and Approving Time Sheets (2024 release wave 1)](../../../videos/MgWlmZAlqGI.md) (video): "time sheet entry; time sheet approval; context-aware actions"
-- [Expense Agent: Project Expenses (2026 release wave 1)](../../../videos/NI6WYze-JSU.md) (video): "Project tracking configuration in Expense Agent setup"
+- [Expense Agent: Project Expenses (2026 release wave 1)](../../../videos/NI6WYze-JSU.md) (video): "Project and task visibility in Expense Agent; project assignment capability"
 - [What's New: Project and Service Management (2024 release wave 1)](../../../videos/pEXl-POet_4.md) (video): "directed put-away; warehouse pick; project locations"
 - [What's New: Project Management Receive Project Items with Receipts or Put-Aways(2025 release wave 1)](../../../videos/sVlPlmok5U8.md) (video): "Project Management Receive Project Items with Receipts or Put-Aways"
 - [How to Create Projects in Business Central (2025)](../../../videos/wlVewBgq9-Q.md) (video): "How to Create Projects in Business Central (2025). Topics: project creation; project tasks; project planning lines"

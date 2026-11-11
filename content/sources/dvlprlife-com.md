@@ -2,7 +2,7 @@
 id: source/dvlprlife-com
 type: source
 title: DvlprLife
-summary: "DvlprLife (Brad Prendergast): 24 posts in the knowledge base, 2026-05-26 to 2026-11-09, mostly about development, platform, administration."
+summary: "DvlprLife (Brad Prendergast): 28 posts in the knowledge base, 2026-05-26 to 2026-11-09, mostly about development, platform, administration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:14:28.203Z"
+  at: "2026-11-11T00:15:47.902Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: cf6ce8d6cae23878ce51a445182c8f0395311135359956e1cd5cf1bdd8e29db6
+  input_hash: ad1dcadfe9d3d248d20fbec36fd9b1942d1c7014a2b6171ee3aee689297d2589
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com
@@ -54,8 +54,12 @@ links:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-09-september-2026-cumulative-updates-for-dynamics-365-business-central--f7d4d25920
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-09-business-central-trivia-recap-september-28-october-2-2026--1033176e81
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-trivia-recap-october-5-9-2026--6a200364df
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-trivia-recap-october-12-16-2026--0818250589
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-is-transitioning-to-dotnet-10--d3cb2afda2
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-trivia-recap-october-19-23-2026--51cacae81d
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-trivia-recap-october-26-30-2026--12d263df40
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-11-business-central-trivia-recap-november-2-6-2026--aa9794e703
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-11-november-2026-cumulative-updates-for-dynamics-365-business-central--702bed97e1
   guidelines: []
 source_id: dvlprlife-com
@@ -64,39 +68,39 @@ url: https://www.dvlprlife.com
 author: Brad Prendergast
 mvp: false
 full_text: false
-item_count: 24
+item_count: 28
 footprint:
   systems:
     - id: development
-      weight: 23
+      weight: 25
     - id: platform
-      weight: 13
+      weight: 14
     - id: administration
-      weight: 10
+      weight: 12
     - id: copilot
       weight: 5
-    - id: reporting
+    - id: fixed-assets
+      weight: 3
+    - id: finance
       weight: 2
-    - id: integration
-      weight: 1
   topics:
+    - id: trivia
+      weight: 8
     - id: cumulative updates
       weight: 7
     - id: al development
       weight: 6
     - id: community
+      weight: 6
+    - id: engagement
+      weight: 5
+    - id: learning
+      weight: 5
+    - id: gamification
       weight: 4
     - id: on-premises
       weight: 4
-    - id: trivia
-      weight: 4
-    - id: engagement
-      weight: 3
-    - id: gamification
-      weight: 3
     - id: github copilot
-      weight: 3
-    - id: learning
       weight: 3
     - id: release waves
       weight: 3
@@ -132,7 +136,7 @@ last_item: "2026-11-09"
 
 # DvlprLife
 
-> DvlprLife (Brad Prendergast): 24 posts in the knowledge base, 2026-05-26 to 2026-11-09, mostly about development, platform, administration.
+> DvlprLife (Brad Prendergast): 28 posts in the knowledge base, 2026-05-26 to 2026-11-09, mostly about development, platform, administration.
 
 [https://www.dvlprlife.com](https://www.dvlprlife.com) · blog · tier community
 
@@ -140,15 +144,15 @@ last_item: "2026-11-09"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (23) | cumulative updates (7) | codeunit Agent (1) |
-| platform (13) | al development (6) | other Unit of Measure (1) |
-| administration (10) | community (4) | page 9110 (1) |
-| copilot (5) | on-premises (4) | page ABC Analysis Setup (1) |
-| reporting (2) | trivia (4) | page Agents (1) |
-| integration (1) | engagement (3) | page Index Management (1) |
-|  | gamification (3) | page Item Ledger Entries (1) |
-|  | github copilot (3) | page Report Layouts (1) |
-|  | learning (3) | report Item – ABC Analysis (1) |
+| development (25) | trivia (8) | codeunit Agent (1) |
+| platform (14) | cumulative updates (7) | other Unit of Measure (1) |
+| administration (12) | al development (6) | page 9110 (1) |
+| copilot (5) | community (6) | page ABC Analysis Setup (1) |
+| fixed-assets (3) | engagement (5) | page Agents (1) |
+| finance (2) | learning (5) | page Index Management (1) |
+|  | gamification (4) | page Item Ledger Entries (1) |
+|  | on-premises (4) | page Report Layouts (1) |
+|  | github copilot (3) | report Item – ABC Analysis (1) |
 |  | release waves (3) | table General Journal Templates (1) |
 |  |  | table General Ledger Setup (1) |
 |  |  | table User Setup (1) |
@@ -159,13 +163,17 @@ Items per quarter, oldest first:
 
 - 2026-Q2: ******* 7
 - 2026-Q3: ************ 12
-- 2026-Q4: ***** 5
+- 2026-Q4: ********* 9
 
 ## Most recent
 
 - [November 2026 Cumulative Updates for Dynamics 365 Business Central](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-11-november-2026-cumulative-updates-for-dynamics-365-business-central--702bed97e1.md) (2026-11-09)
+- [Business Central Trivia Recap: November 2–6, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-11-business-central-trivia-recap-november-2-6-2026--aa9794e703.md) (2026-11-09)
+- [Business Central Trivia Recap: October 26–30, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-trivia-recap-october-26-30-2026--12d263df40.md) (2026-11-02)
+- [Business Central Trivia Recap: October 19–23, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-trivia-recap-october-19-23-2026--51cacae81d.md) (2026-10-26)
 - [Business Central Is Transitioning to .NET 10, and Here's What You Should Check](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-is-transitioning-to-dotnet-10--d3cb2afda2.md) (2026-10-18)
 - [Business Central Trivia Recap: October 12–16, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-trivia-recap-october-12-16-2026--0818250589.md) (2026-10-18)
+- [Business Central Trivia Recap: October 5–9, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-trivia-recap-october-5-9-2026--6a200364df.md) (2026-10-12)
 - [October 2026 Cumulative Updates for Dynamics 365 Business Central](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be.md) (2026-10-08)
 - [Business Central Trivia Recap: September 28–October 2, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-09-business-central-trivia-recap-september-28-october-2-2026--1033176e81.md) (2026-10-04)
 - [September 2026 Cumulative Updates for Dynamics 365 Business Central](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-09-september-2026-cumulative-updates-for-dynamics-365-business-central--f7d4d25920.md) (2026-09-08)
@@ -179,9 +187,5 @@ Items per quarter, oldest first:
 - [AL EventLens 0.1.6: the handler lens, and a fix that needed fixing](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing--1510616044.md) (2026-07-27)
 - [Introducing BusinessCentralTrivia.com](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-introducing-businesscentraltrivia-com--1ec578f773.md) (2026-07-27)
 - [July 2026 Cumulative Updates for Dynamics 365 Business Central](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-july-2026-cumulative-updates-for-dynamics-365-business-central--36ef84971d.md) (2026-07-09)
-- [Weekly Review: Business Central AL Development – June 28–July 4, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-weekly-review-business-central-al-development-june-28-july-4-2026--3ba0f69570.md) (2026-07-06)
-- [Weekly Review: Business Central AL Development – June 21–27, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-21-27-2026--a323467e2a.md) (2026-06-29)
-- [Weekly Review: Business Central AL Development – June 14–20, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-14-20-2026--dfae053a06.md) (2026-06-22)
-- [Weekly Review: Business Central AL Development – June 7–13, 2026](../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38.md) (2026-06-15)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

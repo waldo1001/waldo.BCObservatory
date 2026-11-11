@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:09:58.664Z"
   flags: []
 generated:
-  at: "2026-11-04T00:55:39.192Z"
+  at: "2026-11-11T00:54:03.655Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -146,7 +146,6 @@ links:
     - object/report/6211
     - object/report/6210
   features:
-    - feature/573376
     - feature/576874
   topics: []
   localizations: []
@@ -260,12 +259,10 @@ features:
     verified: false
     status_source: video
   - name: Sustainability ledger entries
-    status: ga
+    status: unclear
     t: 739
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573376"
+    status_source: video
   - name: Standard sustainability reports
     status: unclear
     t: 752
@@ -399,7 +396,7 @@ It then walks through the first-wave foundation: the sustainability setup page, 
 | Sustainability journal | status not stated, demoed | [11:14](https://www.youtube.com/watch?v=_ynMUzh956w&t=674s) |  |
 | Chart of sustainability accounts | status not stated, demoed | [11:39](https://www.youtube.com/watch?v=_ynMUzh956w&t=699s) |  |
 | Emissions calculation formulas | status not stated | [12:02](https://www.youtube.com/watch?v=_ynMUzh956w&t=722s) |  |
-| Sustainability ledger entries | generally available (roadmap [Reverse Sustainability Ledger entries transaction](../features/573376.md)), demoed | [12:19](https://www.youtube.com/watch?v=_ynMUzh956w&t=739s) |  |
+| Sustainability ledger entries | status not stated, demoed | [12:19](https://www.youtube.com/watch?v=_ynMUzh956w&t=739s) |  |
 | Standard sustainability reports | status not stated, demoed | [12:32](https://www.youtube.com/watch?v=_ynMUzh956w&t=752s) |  |
 | Sustainability APIs | generally available (roadmap [Use new APIs in Sustainability for better integration](../features/576874.md)) | [12:48](https://www.youtube.com/watch?v=_ynMUzh956w&t=768s) | "it will come probably in next one or two minors, we will enable all these entities through APIs" ([12:32](https://www.youtube.com/watch?v=_ynMUzh956w&t=752s)) |
 | Sustainability demo data module | status not stated, demoed | [13:34](https://www.youtube.com/watch?v=_ynMUzh956w&t=814s) |  |

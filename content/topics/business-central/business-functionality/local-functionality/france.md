@@ -12,7 +12,7 @@ review:
   at: "2026-10-25T12:53:08.395Z"
   flags: []
 generated:
-  at: "2026-10-25T12:53:09.600Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -262,6 +262,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9355
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -344,6 +346,12 @@ Start with the landing page to see the overall scope and the 2026 release wave 2
 ## More Learn pages
 
 - [France local functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/france-local-functionality): This article describes the various local functionalities in the French version of Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9355 [master] [FR] [E-document] Changed place for "SIRET No." and exposed codeunit for export Factur-X](../../../../changes/bcapps/9355.md) (code change): "Export Factur-X Document codeunit in the French E-Document app"
 
 ## Business Central pages and reports
 

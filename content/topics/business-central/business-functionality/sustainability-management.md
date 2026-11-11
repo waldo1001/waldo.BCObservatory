@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:47.377Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -362,9 +362,7 @@ links:
   videos:
     - video/_ynMUzh956w
     - video/2_yYu3RgYwo
-    - video/bHXEbtsx0JY
     - video/i-MTLNYwA9o
-    - video/JBGuaqk5nXk
     - video/JoGW2xlIq0I
     - video/kD8kX14VVZE
     - video/lqVWc-Yuots
@@ -382,6 +380,7 @@ links:
     - change/bcapps/10051
     - change/bcapps/10541
     - change/bcapps/10613
+    - change/bcapps/12053
     - change/bcapps/12466
     - change/bcapps/9478
     - change/bcapps/9613
@@ -396,7 +395,7 @@ children:
 coverage:
   learn: 37
   code: 64
-  video: 16
+  video: 14
   blog: 0
   guideline: 0
 bc_forms:
@@ -519,20 +518,19 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10051 Bug 642053: [master] [Sustainability] Preview Posting Creates Gaps in Sustainability Ledger Entry Numbers](../../../changes/bcapps/10051.md) (code change): "Preview posting collects sustainability ledger entries in memory"
 - [#10541 [Master] - Slice 641375: [Sustainability] Collect Amount from G/L Entries: track collected entries to prevent double counting](../../../changes/bcapps/10541.md) (code change): "Collect function excludes previously collected entries based on the relation table"
 - [#10613 [Master] - Slice 640775: [Sustainability] Reverse Sustainability part when reverse in GL Entries](../../../changes/bcapps/10613.md) (code change): "Reversing a G/L transaction now also reverses the sustainability ledger"
+- [#12053 Remove-Sustainability-CLEAN27-tags-for-Wave2-2026](../../../changes/bcapps/12053.md) (code change): "Removes code marked for cleanup in version 27 CLEAN27 from the Sustainability"
 - [#12466 Hide Navigate and Reverse Transaction on sustainability posting preview](../../../changes/bcapps/12466.md) (code change): "Hide Navigate and Reverse Transaction on sustainability posting preview"
 - [#9478 feat(Sustainability): Add Reverse Transaction for Sustainability Ledger Entries](../../../changes/bcapps/9478.md) (code change): "Users can now reverse posted Sustainability Ledger Entries manually from the page"
 - [#9613 [Master] - Sustainability: Specific Carbon Tracking, Item Charge emissions & setup fixes (Bugs 641051, 641486, 641487, 641049, 641222, 641055, 641289, 641224, 641309)](../../../changes/bcapps/9613.md) (code change): "Sustainability module fixes for carbon tracking with item charges"
-- [Introducing: Sustainability in Business Central (2024 release wave 1)](../../../videos/_ynMUzh956w.md) (video): "Sustainability journal; Chart of sustainability accounts; Emissions calculation formulas"
+- [Introducing: Sustainability in Business Central (2024 release wave 1)](../../../videos/_ynMUzh956w.md) (video): "Sustainability in Business Central emissions tracking csrd compliance esg reporting"
 - [What's New: Default Sustainability Information (2025 release wave 1)](../../../videos/2_yYu3RgYwo.md) (video): "Default Sustainability Information; sustainability setup; emissions; carbon equivalent"
-- [What's New: Sustainability Copilot (2025 release wave 2)](../../../videos/bHXEbtsx0JY.md) (video): "Sustainability Copilot emissions calculation; copilot; sustainability journal; emission factors"
 - [What's New in Sustainability: Track Your Energy Consumption (2025 release wave 2)](../../../videos/i-MTLNYwA9o.md) (video): "Track Your Energy Consumption emissions reporting energy sources kilowatt hours"
-- [What's New: Copilot for Sustainability (2025 release wave 1)](../../../videos/JBGuaqk5nXk.md) (video): "Copilot; emissions calculation; sustainability journal; emission factors"
 - [What's New: Value Chain Automation with Assembly Orders (2025 release wave 1)](../../../videos/JoGW2xlIq0I.md) (video): "emissions tracking; sustainability setup; Sustainability Value Entry"
 - [What's New in Sustainability: Reporting for CBAM and EPR](../../../videos/kD8kX14VVZE.md) (video): "Reporting for CBAM and EPR carbon pricing emissions tracking compliance reporting"
 - [What's New: Sustainability (2026 release wave 1)](../../../videos/lqVWc-Yuots.md) (video): "ESG-reporting carbon-footprint sustainability-apis csrd-compliance carbon-costing item-tracking value-chain"
 - [What's New: Water and Waste Management (2025 release wave 1)](../../../videos/MaMwHvimNTY.md) (video): "Water and waste management; sustainability ledger; emissions tracking"
 - [What's New in Sustainability (2024 release wave 2)](../../../videos/NYG4pOtW-Xw.md) (video): "Emissions tracking; carbon accounting; sustainability ledger; carbon credits"
-- [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../../../videos/qPInVj03wkY.md) (video): "csrd reporting; esg aggregation; compliance reporting"
+- [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../../../videos/qPInVj03wkY.md) (video): "Reporting CSRD csrd compliance reporting esg aggregation compliance reporting"
 - [What's new in Sustainability (2026 release wave 2)](../../../videos/t_UXxbvgnHY.md) (video): "formulas; value chain emissions; scope three; item tracking; fixed assets"
 - [End To End Sustainability Tracking and Reporting for SMBs](../../../videos/uan4dV9eVCA.md) (video): "End To End Sustainability Tracking and Reporting for SMBs"
 - [What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)](../../../videos/UKVp28M5TtU.md) (video): "Measure All Gasses as Carbon Equivalents carbon equivalents; emission factors; sustainability setup"

@@ -7,11 +7,11 @@
   "words": 442,
   "summary": "Business Central On-Premises licensing changed effective October 1, 2026. Starting with version 28, all releases use a single forward-compatible license key version (28+) instead of version-specific keys, though customers must download a refreshed key before upgrading to each new version.",
   "key_points": [
-    "BC28 and later use unified 28+ license key instead of version-specific keys like v27, v26",
-    "Customers must download a new 28+ license key before upgrading to each new BC version",
-    "Download date determines which objects are unlocked, not the license version number itself",
-    "Earlier version-specific license keys for BC27 and earlier remain unchanged",
-    "Release cycle and support dates are unaffected by this licensing change"
+    "BC28 and later use a single 28+ license key version instead of keys for each version",
+    "A refreshed 28+ key must still be downloaded before each version upgrade; the download date decides which objects are unlocked",
+    "Using an older 28+ key with a newer version such as BC30 triggers a version compatibility warning",
+    "License keys for BC27 and earlier stay version-specific and unchanged",
+    "DUR keys come from the Microsoft 365 Admin Center and at first show version 28 until Microsoft fixes the format; the release cycle is not affected"
   ],
   "systems": [
     "administration"

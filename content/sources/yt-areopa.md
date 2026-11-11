@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T08:47:18.430Z"
+  at: "2026-11-11T00:15:47.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6a0fa189eef0e32712a383b8cf7b8b3e66bf6c6e31861b880811413440ecec3c
@@ -166,7 +166,7 @@ Items per quarter, oldest first:
 - [20261026 - The Rollback That Wasn’t Transaction & Error Handling](../videos/a3j6JjyWDv0.md) (2026-10-27)
 - [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../videos/5xeATIUFiGg.md) (2026-10-19)
 - [290928 - You Are the Art : Notes from Six Years of Becoming a Speaker](../videos/d8SZ81uxj_k.md) (2026-09-29)
-- [Demo or Disaster? How to build better Business Central demos?](../videos/Ug_uM59DRRE.md) (2026-09-21)
+- [20260914 - Demo or Disaster? How to build better Business Central demos?](../videos/Ug_uM59DRRE.md) (2026-09-21)
 - [20260831 - Business Central MCP Server, standard and custom](../videos/rm-FstU_I80.md) (2026-09-07)
 - [20260713 - From Zero to Agent Building agents in Business Central](../videos/nbGw2g3KMXI.md) (2026-08-04)
 - [20260629 - AI Enabled Delivery for Consultants](../videos/IDYhxt-8ImI.md) (2026-06-30)

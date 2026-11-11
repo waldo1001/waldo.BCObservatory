@@ -12,7 +12,7 @@ review:
   at: "2026-11-09T00:45:16.760Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -187,6 +187,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/finance-analyze-excel
+    title: Analyzing Financial Statements in Microsoft Excel (legacy)
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-customer-payments-list-unpaid-sales-documents
     title: Apply payments to unpaid sales documents
     date: "2024-07-08"
@@ -288,13 +295,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-20
     title: Calculate and Post Tax Settlement (report)
     date: "2025-06-25"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/finance-withholding-tax
-    title: Calculate withholding tax for vendors
-    date: "2026-09-01"
     commit: null
     t: null
     quote: null

@@ -24,7 +24,7 @@ review:
   at: "2026-10-07T23:19:03.382Z"
   flags: []
 generated:
-  at: "2026-11-07T01:00:13.982Z"
+  at: "2026-11-11T00:54:03.655Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -123,7 +123,7 @@ links:
       why: both name Page 8700 "Table Information"
       by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information
-      title: View table information
+      title: View Table Information
       label: possibly related
       why: names Page 8700 "Table Information"
       by: code
@@ -311,6 +311,6 @@ No source states these links: they share an object, a model read them, or a pers
 - [Manage database index usage](https://learn.microsoft.com/dynamics365/business-central/manage-indexes) — possibly related: names Page 8700 "Table Information"
 - [Microsoft presents: Index management](../videos/1x3QyBX3swg.md) — possibly related: both name Page 8700 "Table Information"
 - [Quick Tip: Reading the Capacity Page in the Business Central Admin Center](../posts/thinkaboutit-be/8077.md) — possibly related: both name Page 8700 "Table Information"
-- [View table information](https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information) — possibly related: names Page 8700 "Table Information"
+- [View Table Information](https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information) — possibly related: names Page 8700 "Table Information"
 
 Presenters (as heard): Sav Dhani.

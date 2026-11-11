@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.950Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -199,7 +199,6 @@ links:
     - change/bcapps/10207
     - change/bcapps/10578
     - change/bcapps/10753
-    - change/bcapps/11016
     - change/bcapps/11626
     - change/bcapps/11896
     - change/bcapps/13623
@@ -266,7 +265,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10207 [Dataverse] Use Truncate for CRM Integration Record cleanup during environment copy](../../../changes/bcapps/10207.md) (code change): "Use Truncate for CRM Integration Record cleanup during environment copy"
 - [#10578 [Extensibility Request] issue 30429: add events to disambiguate CRM integration table mappings](../../../changes/bcapps/10578.md) (code change): "Four integration events are added to allow extensions to select the correct CRM integration table mapping"
 - [#10753 Cross-environment Master Data synchronization (same tenant)](../../../changes/bcapps/10753.md) (code change): "Cross-environment Master Data synchronization subsidiary environments to synchronize master data from a source environment"
-- [#11016 [AI Business Solutions] Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations](../../../changes/bcapps/11016.md) (code change): "Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations"
 - [#11626 [Master Data Management] Fixing synchronization of contacts, media, date, datetime, source watermarking, permission issue and minor UX issues](../../../changes/bcapps/11626.md) (code change): "Master Data Management synchronization is fixed to handle contacts, media caching"
 - [#11896 [Master Data Management] Cross-env over-cap blob clears the subsidiary blob](../../../changes/bcapps/11896.md) (code change): "cross-environment Master Data Management sync, a source blob"
 - [#13623 [Dataverse] Fix duplicate sales line numbers with automatic recurring lines](../../../changes/bcapps/13623.md) (code change): "creating a Business Central sales order from Dynamics 365 Sales"

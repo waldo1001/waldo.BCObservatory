@@ -11,7 +11,7 @@ review:
   at: "2026-11-07T01:06:33.192Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,22 +46,8 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-how-add-link-to-record
-    title: Add attachments, links, and notes on records
-    date: "2026-09-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts
-    title: Assign document layouts to customers or vendors
-    date: "2024-11-28"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-accessibility
-    title: Assistive features
+    title: Accessibility and Keyboard Shortcuts
     date: "2021-06-23"
     commit: null
     t: null
@@ -82,8 +68,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-bookmarks
-    title: Bookmark link to page or report on role center
+    title: Bookmark a Page or Report on Your Role Center
     date: "2024-07-25"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/teams-faq
+    title: Business Central and Microsoft Teams FAQ
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -117,8 +110,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-change-basic-settings
-    title: Change basic settings for the current user
-    date: "2025-03-26"
+    title: Change Basic Settings
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -172,9 +165,23 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
+    title: Create Excel Report Layouts in Business Central
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts
+    title: Define Document Layouts for Customers and Vendors
+    date: "2026-11-10"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in
     title: Design Word Layouts with the Business Central Add-in
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -290,13 +297,6 @@ evidence:
     commit: null
     t: null
     quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/contoso-coffee-service-intro
-    title: Introduction to Contoso Coffee service management
-    date: "2026-07-16"
-    commit: null
-    t: null
-    quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/across-business-functionality
@@ -356,6 +356,7 @@ links:
     - object/page/9650
     - object/page/9652
     - object/page/9660
+    - object/page/9662
     - object/page/9663
     - object/page/9666
     - object/page/9670
@@ -403,7 +404,7 @@ children:
   - topic/business-central/get-started/help-and-support
 coverage:
   learn: 109
-  code: 75
+  code: 76
   video: 0
   blog: 0
   guideline: 0
@@ -463,6 +464,7 @@ bc_forms:
   - 9650
   - 9652
   - 9660
+  - 9662
   - 9663
   - 9666
   - 9670
@@ -585,6 +587,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9650 "Custom Report Layouts"](../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../objects/table/9650.md) · via [Get productive in Business Central](get-started/get-productive-in-business-central.md)
 - [Page 9652 "Report Layout Selection"](../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../objects/table/9651.md) · via [Get productive in Business Central](get-started/get-productive-in-business-central.md)
 - [Page 9660 "Report Layouts"](../../objects/page/9660.md) · via [Get productive in Business Central](get-started/get-productive-in-business-central.md)
+- [Page 9662 "Report Layout New Dialog"](../../objects/page/9662.md) · captioned "Add New Layout for a Report" · via [Get productive in Business Central](get-started/get-productive-in-business-central.md)
 - [Page 9663 "Tenant Report Layout Cfg"](../../objects/page/9663.md) · captioned "Report defaults for theme and header-footer" · via [Get productive in Business Central](get-started/get-productive-in-business-central.md)
 - [Page 9666 "Report Theme and Header/Footer"](../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts" · via [Get productive in Business Central](get-started/get-productive-in-business-central.md)
 - [Page 9670 "Layout Theme and Header/Footer"](../../objects/page/9670.md) · captioned "Theme and header-footer per layout" · via [Get productive in Business Central](get-started/get-productive-in-business-central.md)

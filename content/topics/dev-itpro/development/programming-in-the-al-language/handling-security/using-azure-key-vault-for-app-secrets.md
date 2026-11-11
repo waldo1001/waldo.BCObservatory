@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:15.866Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -71,6 +71,7 @@ links:
     - post/aardvarklabs-blog/2640
     - post/aardvarklabs-blog/3460
     - post/kauffmann-nl/8332
+    - post/yzhums-com/64057
   guidelines: []
   changes:
     - change/bcapps/12557
@@ -88,7 +89,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 4
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: ded668fce5698d554014a03cb0248739e1b8cce7882db2d6f6f80adf71b920e1
@@ -161,8 +162,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13326 [Fabric] Clean up test events, app naming, authentication and telemetry](../../../../../changes/bcapps/13326.md) (code change): "removed the unused Key Vault first-party client-ID lookup"
 - [#8999 Migrate Recommended Apps & Connectivity Apps to Official Marketplace Catalog API](../../../../../changes/bcapps/8999.md) (code change): "Integrated Azure Key Vault for secure API key management"
 - [Integrating AI in Business Central: A Step-by-Step Guide](../../../../../posts/aardvarklabs-blog/1609.md) (community post): "Azure OpenAI resources and credentials must be securely stored in Isolated Storage"
-- [Securing Sensitive Data in Business Central AL using SecretText](../../../../../posts/aardvarklabs-blog/2640.md) (community post): "SecretText can be retrieved from Isolated Storage or Azure Vault"
+- [Securing Sensitive Data in Business Central AL using SecretText](../../../../../posts/aardvarklabs-blog/2640.md) (community post): "SecretText is a data type in Business Central AL that protects sensitive values like API keys"
 - [Native SFTP Support in Business Central 28](../../../../../posts/aardvarklabs-blog/3460.md) (community post): "Sensitive FTP credentials should be stored using Isolated Storage with SecretText"
 - [OAuth library for the Rest Client](../../../../../posts/kauffmann-nl/8332.md) (community post): "Features certificate-based authentication with easy certificate generation"
+- [Business Central 2025 wave 1 (BC26.1): New method to add SecretText values to JSON objects – WriteWithSecretsTo](../../../../../posts/yzhums-com/64057.md) (community post): "WriteWithSecretsTo method integrates with the SecretText type"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

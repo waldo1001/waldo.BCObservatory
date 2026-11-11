@@ -6,13 +6,12 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "Customer Ledger Entry table fixes inconsistency in dispute status handling for on-hold and document synchronization logic across the W1 localization.",
+  "summary": "Adds missing dispute status code for on hold and document synchronization to the Cust. Ledger Entry table in W1, completing a fix already merged in PR #13228. The country layer copies of the table each remove one line.",
   "key_points": [
-    "Adds missing code to Customer Ledger Entry table in W1 localization",
-    "Addresses dispute status inconsistency on hold entries",
-    "Fixes document synchronization for vendor ledger entries",
-    "Changes applied across all localization layers",
-    "Related to fixing reported issue AB#656633"
+    "Adds the missing dispute status handling to the W1 Cust. Ledger Entry table",
+    "Follow-up to the already merged PR #13228 for the same issue",
+    "Removes one line from the Cust. Ledger Entry table in ten country layers (APAC, CH, ES, FI, FR, IS, IT, NA, NL, RU)",
+    "Tracked by work item AB#656633"
   ],
   "change_kind": "fix",
   "behavior_change": true,

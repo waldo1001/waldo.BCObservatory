@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts
 type: topic
 title: Report layouts
-summary: Report layouts in Business Central cover Word, Excel, RDLC/RDL and custom layout types, plus how to create, assign, select and update them. It answers questions about designing layouts, defining multiple layouts in AL, barcodes, fonts, hyperlinks and custom renderers.
+summary: "Report layouts in Business Central AL development: creating and designing Word, Excel, RDLC/RDL and custom layouts, defining multiple layouts per report, barcodes and fonts, hyperlinks, selecting layouts per company or customer, and custom renderers. Answers how-to and setup questions about layout authoring and assignment."
 tier: official
 language: en
 system: reporting
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:17:02.947Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 992a549ec6019a54ce52723b1a2619d94b171c15696096c926f4baa7e0b84cce
+  input_hash: 7aa7b3e8ea29c6029d7d469c25110b881f0a2304462a0cc9a2f3d65de30b968f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
@@ -54,13 +54,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts
-    title: Assign document layouts to customers or vendors
-    date: "2024-11-28"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
     title: Available fonts
     date: "2025-02-28"
@@ -71,6 +64,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts
     title: Barcode Fonts with Business Central Online
     date: "2021-10-29"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
+    title: Create Excel Report Layouts in Business Central
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -96,6 +96,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts
+    title: Define Document Layouts for Customers and Vendors
+    date: "2026-11-10"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-multiple-report-layouts
     title: Defining multiple report layouts
     date: "2024-01-20"
@@ -105,7 +112,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in
     title: Design Word Layouts with the Business Central Add-in
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -126,7 +133,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout
     title: Map Data Fields in Word Layouts
-    date: "2026-09-09"
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -159,13 +166,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
-    title: Working with Excel layouts
-    date: "2024-09-09"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-rdlc-report-layouts
     title: Working with RDLC Layouts
     date: "2026-06-17"
@@ -179,12 +179,13 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report
     - https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-add-barcodes
-    - https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts
     - https://learn.microsoft.com/dynamics365/business-central/ui-fonts
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts
+    - https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-report-layout
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-rdl-report-layout
+    - https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-multiple-report-layouts
     - https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render
@@ -194,13 +195,13 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/ui-set-report-layout
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-hyperlinks-in-word-report-layouts
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-word-to-author-your-report-layout
-    - https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
     - https://learn.microsoft.com/dynamics365/business-central/ui-rdlc-report-layouts
   objects:
     - object/page/21
     - object/page/9650
     - object/page/9652
     - object/page/9660
+    - object/page/9662
     - object/page/9666
   features: []
   topics:
@@ -259,7 +260,7 @@ parent: topic/dev-itpro/development/programming-in-the-al-language/developing-re
 children: []
 coverage:
   learn: 22
-  code: 5
+  code: 6
   video: 4
   blog: 34
   guideline: 0
@@ -268,6 +269,7 @@ bc_forms:
   - 9650
   - 9652
   - 9660
+  - 9662
   - 9666
 member_hash: 03e55fa18a37d791e5391e794f5557b8593f7580d9a83f94221314fb980a514f
 narrative: generated
@@ -275,28 +277,28 @@ narrative: generated
 
 # Report layouts
 
-> Report layouts in Business Central cover Word, Excel, RDLC/RDL and custom layout types, plus how to create, assign, select and update them. It answers questions about designing layouts, defining multiple layouts in AL, barcodes, fonts, hyperlinks and custom renderers.
+> Report layouts in Business Central AL development: creating and designing Word, Excel, RDLC/RDL and custom layouts, defining multiple layouts per report, barcodes and fonts, hyperlinks, selecting layouts per company or customer, and custom renderers. Answers how-to and setup questions about layout authoring and assignment.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Report layouts · tier official · system reporting · narrative reviewed (checked by Opus)
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Report layouts · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Report layouts control the content and format of reports and documents. Business Central supports Word, Excel, RDLC and external layouts, and composite layouts that combine reusable themes with headers and footers. The overview page and "Get started creating report layouts" explain the layout types and the basic steps: choose a type, copy or export an existing layout, modify it, import it, validate it and manage its status.
+Report layouts control the content and format of reports and documents. Supported types are Word, Excel, RDLC/RDL and external layouts, plus composite layouts that combine reusable themes with headers and footers. The overview page and "Get started creating report layouts" explain the types and the basic cycle of copying, exporting, modifying, importing and validating a layout.
 
-Type-specific pages cover the design work. For Word, they describe creating the report, using the Business Central add-in, mapping fields with the XML Mapping pane, hyperlinks and authoring tips. For Excel, they cover the data contract, system worksheets and PivotTables. For RDL and RDLC, they cover SQL Server Report Builder and Visual Studio. Developer pages cover defining multiple layouts in the AL rendering section, adding barcodes, and building a custom report render with the OnCustomDocumentMergerEx event.
+Type-specific pages cover authoring. For Word: creating a Word layout report, designing with the Business Central add-in, mapping fields with the XML Mapping pane, hyperlinks, and authoring tips. For Excel: creating layouts in the client and the developer guide on the data contract. For RDL/RDLC: SQL Server Report Builder or the Visual Studio designer. Developer pages cover defining multiple layouts in the rendering section, adding barcodes, available fonts, and writing a custom report render.
 
-For administration, one page covers setting the layout a report uses, per company or temporarily from the request page. Another covers assigning document layouts to customers and vendors. Pages marked (Obsolete) describe the older custom layout process. Start with the overview, then go to the page for your layout type.
+Layout assignment is covered by the pages on setting the layout used by a report and defining document layouts for customers and vendors. Pages marked (Obsolete) describe the older custom layout management for RDLC and Word. Prefer the newer pages unless you maintain legacy setups. Start with the overview, then pick the layout type you need.
 
 ## Key points
 
-- Layout types: Word, Excel, RDLC, external and composite layouts. Composite layouts combine reusable themes and headers.
-- Define several layouts for one report in AL with the rendering section, using Caption, Summary and DefaultRenderingLayout properties.
-- Word layouts use a custom XML part, the XML Mapping pane, the ReportMetadata and ReportRequest system dataitems, and the WordMergeDataItem property.
-- Excel layouts use a data contract, ExcelLayoutMultipleDataSheets, system worksheets, translations, named formulas and drillthrough. They can include PivotTables and PivotCharts.
-- RDLC and RDL layouts are designed in SQL Server Report Builder or the Visual Studio RDLC Report Designer extension.
-- Barcodes use the Barcode Font Provider interface and Barcode Symbology enum with IDAutomation fonts. The online font list covers 1D barcodes, MICR, OCR and security fonts.
-- Users set a default layout per company, pick one temporarily on the request page, or manage layouts on the Report Layouts and Report Layout Selection pages.
-- Word hyperlinks on text and picture fields use column names ending in _Url and _UrlText.
+- Layout types: Word, Excel, RDLC/RDL, external, and composite layouts that combine reusable themes, headers and footers.
+- Multiple layouts for one report are defined in the AL rendering section, with Caption, Summary, DefaultRenderingLayout and obsolescence properties.
+- Word layouts use a custom XML part and the XML Mapping pane, or the Business Central add-in (Add Data pane, tables, repeaters, hide-if-empty controls).
+- Word hyperlinks on text and pictures use URL columns named with the _Url and _UrlText suffixes.
+- Excel layouts support PivotTables, PivotCharts, multiple worksheets, translations and ExcelLayoutMultipleDataSheets in the data contract.
+- RDLC/RDL layouts are designed with SQL Server Report Builder or the Visual Studio RDLC designer.
+- Barcodes use the Barcode Font Provider interface, Barcode Symbology enum, EncodeFont and ValidateInput, with IDAutomation fonts available online.
+- Default layouts are set per company, or per customer and vendor document type. Users can also switch layout from the report request page.
 
 ## Learn pages
 
@@ -308,15 +310,16 @@ For administration, one page covers setting the layout a report uses, per compan
   - In the observatory: [Page 9656 "Report Layout Update Log"](../../../../../objects/page/9656.md)
 - [Adding barcodes to reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-add-barcodes): Learn how you can add barcodes to a report.
   - In the observatory: [Codeunit 9215 "IDAutomation 1D Provider"](../../../../../objects/codeunit/9215.md), [Codeunit 9221 "IDAutomation 2D Provider"](../../../../../objects/codeunit/9221.md)
-- [Assign document layouts to customers or vendors](https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts): Use document layouts to control the appearance and format of documents such as invoices and orders that you send to customers and vendors.
-  - In the observatory: [Page 26 "Vendor Card"](../../../../../objects/page/26.md)
 - [Available fonts](https://learn.microsoft.com/dynamics365/business-central/ui-fonts): Learn about the preinstalled fonts that you can use for your externally facing reports.
 - [Barcode Fonts with Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts): Describes the barcode fonts available with Business Central Online.
+- [Create Excel Report Layouts in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and import Excel report layouts in Business Central, configure data sheets, and preserve the dataset structure in your workbook.
 - [Creating a Word layout report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-report-layout): Learn how to create a report that uses a Word layout.
   - In the observatory: [Report 1306 "Standard Sales - Invoice"](../../../../../objects/report/1306.md)
 - [Creating an Excel layout report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout): Learn how to create an Excel layout report.
   - In the observatory: [Report 5050 "Contact - List"](../../../../../objects/report/5050.md)
 - [Creating an RDL layout report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-rdl-report-layout): Describes the steps involved in creating a report that uses an RDL layout.
+- [Define Document Layouts for Customers and Vendors](https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts): Use document layouts to control the appearance and format of documents such as invoices and orders that you send to customers and vendors.
+  - In the observatory: [Page 26 "Vendor Card"](../../../../../objects/page/26.md)
 - [Defining multiple report layouts](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-multiple-report-layouts): Learn how to define multiple layouts for one report in AL code.
 - [Design Word Layouts with the Business Central Add-in](https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in): Learn how to use the Business Central Word add-in to add report fields, create repeating tables, add layout comments, and hide empty content.
 - [Developing a Custom Report Render](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render): Describe the custom report render logic and how to implement it in AL code.
@@ -328,8 +331,6 @@ For administration, one page covers setting the layout a report uses, per compan
 - [Setting up Hyperlinks in Word Report Layouts](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-hyperlinks-in-word-report-layouts): Learn how to create links from text and pictures fields in Word report layouts
 - [Tips for Using Word to Author Your Report Layout](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-word-to-author-your-report-layout): Learn tips and techniques for authoring Word report layouts in Business Central, including sections, tables, conditional formatting, and more.
   - In the observatory: [Codeunit 5080 "Image Handler Management"](../../../../../objects/codeunit/5080.md)
-- [Working with Excel layouts](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and modify report layouts that are built using Excel.
-  - In the observatory: [Page 9660 "Report Layouts"](../../../../../objects/page/9660.md)
 - [Working with RDLC Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-rdlc-report-layouts): Get an introduction to RDLC report layouts.
 
 ## Videos, posts and code changes
@@ -384,6 +385,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9650 "Custom Report Layouts"](../../../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../../../objects/table/9650.md)
 - [Page 9652 "Report Layout Selection"](../../../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../../../objects/table/9651.md)
 - [Page 9660 "Report Layouts"](../../../../../objects/page/9660.md)
+- [Page 9662 "Report Layout New Dialog"](../../../../../objects/page/9662.md) · captioned "Add New Layout for a Report"
 - [Page 9666 "Report Theme and Header/Footer"](../../../../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

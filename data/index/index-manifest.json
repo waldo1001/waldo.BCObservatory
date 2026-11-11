@@ -1,36 +1,36 @@
 {
   "schema": "bcobs-index@1",
-  "pages": 30337,
+  "pages": 30354,
   "shards": [
     {
-      "file": "pages-hubs-03e9f7a18c16.json",
+      "file": "pages-hubs-e24ff0704bb3.json",
       "count": 1438,
-      "sha256": "03e9f7a18c16776977b06a89abc857e0a64df21effe3a910f0d031fb739cb3cc",
+      "sha256": "e24ff0704bb36f2c0d31d4b26b0ac9baa31566768c7ad903d42e955cb0c7cfb3",
       "kind": "hubs"
     },
     {
-      "file": "pages-media-cc4cf8f995c0.json",
-      "count": 3170,
-      "sha256": "cc4cf8f995c01f45442261f69926a04c0236be6b20cf28086708855aa2a5bf94",
+      "file": "pages-media-be73c75c6cf1.json",
+      "count": 3187,
+      "sha256": "be73c75c6cf1ce6fb7a984ab14e7b14655ec8660aea9889cd336c8479bc4eeef",
       "kind": "media"
     },
     {
-      "file": "pages-objects-1-9d5a71ad887b.json",
+      "file": "pages-objects-1-4e32ba71987f.json",
       "count": 14420,
-      "sha256": "9d5a71ad887b573d47a38ddcdbbf8431a7869049273919879848723778821a7c",
+      "sha256": "4e32ba71987f5488d4f91752c0a87090dc245dee06ccc5c5aa2f80a8731e3d61",
       "kind": "objects"
     },
     {
-      "file": "pages-objects-2-6f9281acda2e.json",
+      "file": "pages-objects-2-833c5dbcdcd9.json",
       "count": 11309,
-      "sha256": "6f9281acda2e8d53bf2d112a5b44aa18d22d4ae896c09dbc174a24c6c35a0028",
+      "sha256": "833c5dbcdcd973f1a9bda6ba1ae1955c52452932509a058f4308b13749fb5b9d",
       "kind": "objects"
     }
   ],
   "learn": {
-    "file": "learn-e7712e8aa9a1.json",
+    "file": "learn-256922eeef56.json",
     "count": 8057,
-    "sha256": "e7712e8aa9a1ad3671087452ad3af31ce06d05541233354cc8d1a7d0ab0fdc88"
+    "sha256": "256922eeef56757a78e571ccf6b38148179a49f0d89c7a873c27342ec2b5cdfc"
   },
   "learn_facts": {
     "file": "learn-facts-4fc408a0be65.json",
@@ -39,17 +39,17 @@
   },
   "by_type": {
     "app": 97,
-    "change": 1407,
+    "change": 1418,
     "digest": 9,
     "feature": 132,
     "guideline": 462,
     "hotfix": 3,
     "localization": 22,
     "object": 25729,
-    "post": 1136,
+    "post": 1141,
     "release": 64,
     "source": 41,
     "topic": 608,
-    "video": 627
+    "video": 628
   }
 }

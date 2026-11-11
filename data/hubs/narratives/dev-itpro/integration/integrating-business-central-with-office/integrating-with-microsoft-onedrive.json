@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-onedrive",
-  "input_hash": "46f1b422a3707048a437fbcfdef4675bf642dfc9b4150243d9c27fdb331a5f3c",
-  "summary": "Business Central integration with OneDrive for Business: opening, sharing, and saving documents such as reports and Excel workbooks in OneDrive, plus how developers extend the Document Sharing module. It answers setup, user-level usage, and extensibility questions.",
-  "overview": "This section covers how Business Central works with OneDrive for cloud file storage, file sharing, and collaborative editing. One page is aimed at users and administrators and describes what the integration does and how to set it up. The other is aimed at developers.\n\nThe developer page explains how to use the Document Sharing module from the system application and the Document Service Management codeunit. With these, you can enable file sharing through OneDrive or through a custom document service. It mentions document sharing flows, the share action, event subscribers, a SharePoint service, and blob and media types, and it references 2022 release wave 1 and wave 2.\n\nStart with the integration overview to understand the user features and setup. Move to the extension page if you need to build or customize sharing behavior.",
+  "input_hash": "523a07f3f3645e238935eee0778ecfbf2008384c79fa83d6955f944634a2e354",
+  "summary": "Integration of Business Central with OneDrive for Business: cloud storage, file sharing and Microsoft 365 collaboration. It answers questions about admin setup of OneDrive features and how developers extend document sharing with the Document Sharing module.",
+  "overview": "This section covers how Business Central works with OneDrive for Business. Users can store and share files in the cloud and work with them in Microsoft 365 apps such as Word, Excel and PowerPoint. Administrators can set up OneDrive so that Excel workbooks and report files are saved to OneDrive automatically.\n\nThe section has two pages. The first, \"Business Central and OneDrive for Business Integration\", is the starting point for administrators and users. It describes the user actions and the OneDrive Setup assisted setup guide. The second, \"Extending Document Sharing and OneDrive for Business\", is for developers. It explains how to use the Document Sharing module from the system application and the Document Service Management codeunit to enable sharing through OneDrive or a custom document service.",
   "key_points": [
-    "Users can open files in OneDrive, share files, and save Excel workbooks and report files to OneDrive from Business Central.",
-    "OneDrive integration supports cloud storage and collaborative editing of documents like reports and Excel files.",
-    "The overview page includes OneDrive setup guidance.",
-    "Developers use the Document Sharing module from the system application to enable sharing.",
-    "The Document Service Management codeunit supports sharing through OneDrive or a custom document service.",
-    "Extension topics include document sharing flows, the share action, event subscribers, a SharePoint service, and blob and media types.",
-    "The extensibility page references 2022 release wave 1 and 2022 release wave 2."
+    "User actions include Open in OneDrive, Share, Open in Excel, Edit in Excel and Save report to file.",
+    "Administrators configure the integration with the OneDrive Setup assisted setup guide.",
+    "Excel workbooks and report files can be saved automatically to OneDrive.",
+    "Integration supports collaboration with Word, Excel and PowerPoint.",
+    "Developers use the Document Sharing module in the system application and the Document Service Management codeunit.",
+    "Sharing can go through OneDrive or a custom document service.",
+    "The developer page covers document sharing flows, the SharePoint service, blob and media types, and event subscribers.",
+    "The developer page references 2022 release wave 1 and 2022 release wave 2."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:10:47.588Z",
+  "at": "2026-11-11T00:59:03.874Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.009443
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:23:45.644Z",
-    "verdict": "approve",
-    "issues": [
-      "The overview says the first page is aimed at 'users and administrators'. That is a guess from the user features and the 'onedrive setup' feature; the page summary doesn't say it. Minor.",
-      "The key point about 2022 release wave 1 and wave 2 is accurately worded as 'references' but doesn't say what changed in those releases, so it adds little for an agent.",
-      "The extension topics in the overview and key points are copied from the feature list. Accurate, but they don't explain much."
-    ],
-    "input_hash": "46f1b422a3707048a437fbcfdef4675bf642dfc9b4150243d9c27fdb331a5f3c",
-    "cost_usd": 0.029307200000000002
+    "cost_usd": 0.009991
   }
 }

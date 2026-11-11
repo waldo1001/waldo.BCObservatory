@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:32.523Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -159,13 +159,13 @@ links:
     - topic/business-central/business-functionality/sustainability-management/sustainability-analytics/power-bi-sustainability-app
   localizations: []
   videos:
+    - video/_ynMUzh956w
     - video/NYG4pOtW-Xw
     - video/qPInVj03wkY
   posts: []
   guidelines: []
   changes:
     - change/bcapps/10311
-    - change/bcapps/12053
 learn_toc_path:
   - Business functionality
   - Sustainability management
@@ -177,7 +177,7 @@ children:
 coverage:
   learn: 17
   code: 9
-  video: 2
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -236,9 +236,9 @@ To start, pick the page that matches the task. For quick exploration, use ad-hoc
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10311 [Master] - Slice 640778: [Sustainability] Sustainability Entries should be more easy to find like other entries across BC](../../../../changes/bcapps/10311.md) (code change): "Sustainability entries can now be found more easily through a Find"
-- [#12053 Remove-Sustainability-CLEAN27-tags-for-Wave2-2026](../../../../changes/bcapps/12053.md) (code change): "Removes code marked for cleanup in version 27 from the Sustainability, Power BI Reports"
+- [Introducing: Sustainability in Business Central (2024 release wave 1)](../../../../videos/_ynMUzh956w.md) (video): "Sustainability journal chart of sustainability accounts emissions calculation formulas"
 - [What's New in Sustainability (2024 release wave 2)](../../../../videos/NYG4pOtW-Xw.md) (video): "Sustainability Manager Role Center; Sustainability Scorecards and Goals"
-- [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../../../../videos/qPInVj03wkY.md) (video): "ESG Aggregation Reporting Tool; CSRD Compliance Reporting"
+- [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../../../../videos/qPInVj03wkY.md) (video): "ESG Aggregation Reporting Tool CSRD Compliance Reporting Sustainability Ledger Entry Mapping"
 
 ## Business Central pages and reports
 

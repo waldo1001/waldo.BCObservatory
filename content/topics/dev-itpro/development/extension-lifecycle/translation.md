@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:14.345Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,9 +106,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13333 Fix configuration package import label translation collisions](../../../../changes/bcapps/13333.md) (code change): "Configuration package import methods in codeunit 8614"
 - [🚫 Never Publish an AL Extension with Missing Translations Again](../../../../posts/gerardorenteria-blog/14381.md) (community post): "A VS Code extension that validates translation files are present before publishing AL extensions"
 - [Still locking strings on table (field) removal?](../../../../posts/nataliekarolak-com/4242.md) (community post): "removed fields and tables are automatically excluded from translation files"
-- [Dynamics 365 Business Central: How to use Custom Translator (D365 Translation Service support ends)](../../../../posts/yzhums-com/64982.md) (community post): "migrating to Azure AI Custom Translator for translating Business Central"
+- [Dynamics 365 Business Central: How to use Custom Translator (D365 Translation Service support ends)](../../../../posts/yzhums-com/64982.md) (community post): "Custom Translator for translating Business Central solutions"
 - [Business Central 2026 release wave 2 (BC29): Translate objects with the same name in different namespaces (Translations with namespaces)](../../../../posts/yzhums-com/76334.md) (community post): "Translate objects with the same name in different namespaces"
 - [Dynamics 365 Business Central Blog Series: Working with Translations and Languages](../../../../posts/yzhums-com/76355.md) (community post): "Blog series covering translations, multilingual development, and language features"
-- [Translate your app with an LLM in Business Central](../../../../videos/fWBehdiuDpE.md) (video): "LLM-based app translation using Claude; Translation file XLIFF support in app.json"
+- [Translate your app with an LLM in Business Central](../../../../videos/fWBehdiuDpE.md) (video): "Translate your app with an LLM in Business Central; app translation; localization"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

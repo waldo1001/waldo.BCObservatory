@@ -2,7 +2,7 @@
 id: source/bcapps-prs
 type: source
 title: microsoft/BCApps pull requests
-summary: "microsoft/BCApps pull requests: 1252 code changes in the knowledge base, 2026-07-07 to 2026-11-09, mostly about development, finance, integration."
+summary: "microsoft/BCApps pull requests: 1263 code changes in the knowledge base, 2026-07-07 to 2026-11-10, mostly about development, finance, integration."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:14:28.203Z"
+  at: "2026-11-11T00:15:47.902Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b263177aea0d14cfb4e09f9cd35b18ead8cf7daa9218fc48f795a820936ab3dc
+  input_hash: 2eb0f4906fc92b5935f2ca2729c7680c922653105fb628187660425306974340
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
@@ -1284,43 +1284,54 @@ links:
     - change/bcapps/9587
     - change/bcapps/13616
     - change/bcapps/13792
+    - change/bcapps/13225
     - change/bcapps/12770
     - change/bcapps/13672
     - change/bcapps/13730
+    - change/bcapps/13805
+    - change/bcapps/13855
+    - change/bcapps/12084
+    - change/bcapps/13778
+    - change/bcapps/12670
+    - change/bcapps/13861
+    - change/bcapps/13499
+    - change/bcapps/13572
+    - change/bcapps/13759
+    - change/bcapps/13724
 source_id: bcapps-prs
 kind: github-pr
 url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 1252
+item_count: 1263
 footprint:
   systems:
     - id: development
-      weight: 625
+      weight: 626
     - id: finance
-      weight: 508
+      weight: 514
     - id: integration
-      weight: 396
+      weight: 397
     - id: inventory
-      weight: 221
+      weight: 226
     - id: sales
-      weight: 221
+      weight: 225
     - id: manufacturing
-      weight: 190
+      weight: 195
   topics:
     - id: bc30
-      weight: 1153
+      weight: 1162
     - id: main
-      weight: 1153
+      weight: 1162
     - id: fix
-      weight: 774
+      weight: 782
     - id: feature
-      weight: 358
+      weight: 360
     - id: bc29
-      weight: 99
+      weight: 101
     - id: releases/29.x
-      weight: 99
+      weight: 101
     - id: refactor
       weight: 52
     - id: performance
@@ -1331,37 +1342,37 @@ footprint:
       weight: 18
   objects:
     - id: codeunit Gen. Jnl.-Post Line
-      weight: 34
+      weight: 35
     - id: page Expense Agent Setup Wizard
       weight: 20
     - id: table Expense Report Header
       weight: 19
+    - id: permissionset Expense Management - Objects
+      weight: 15
+    - id: table Purchase Line
+      weight: 15
+    - id: table Sales Line
+      weight: 15
+    - id: codeunit Purch.-Post
+      weight: 14
     - id: page Expense Agent Setup
       weight: 14
-    - id: permissionset Expense Management - Objects
+    - id: permissionset Expense Agent - Objects
       weight: 14
     - id: table Expense Agent Setup
       weight: 14
-    - id: table Purchase Line
-      weight: 14
-    - id: table Sales Line
+    - id: table Expense Report Line
       weight: 14
     - id: codeunit Create Billing Documents
       weight: 13
-    - id: codeunit Expense Report Approval Mgmt
-      weight: 13
-    - id: codeunit Item Jnl.-Post Line
-      weight: 13
-    - id: codeunit Purch.-Post
-      weight: 13
   features: []
 first_item: "2026-07-07"
-last_item: "2026-11-09"
+last_item: "2026-11-10"
 ---
 
 # microsoft/BCApps pull requests
 
-> microsoft/BCApps pull requests: 1252 code changes in the knowledge base, 2026-07-07 to 2026-11-09, mostly about development, finance, integration.
+> microsoft/BCApps pull requests: 1263 code changes in the knowledge base, 2026-07-07 to 2026-11-10, mostly about development, finance, integration.
 
 [https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -1369,47 +1380,47 @@ last_item: "2026-11-09"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (625) | bc30 (1153) | codeunit Gen. Jnl.-Post Line (34) |
-| finance (508) | main (1153) | page Expense Agent Setup Wizard (20) |
-| integration (396) | fix (774) | table Expense Report Header (19) |
-| inventory (221) | feature (358) | page Expense Agent Setup (14) |
-| sales (221) | bc29 (99) | permissionset Expense Management - Objects (14) |
-| manufacturing (190) | releases/29.x (99) | table Expense Agent Setup (14) |
-|  | refactor (52) | table Purchase Line (14) |
-|  | performance (35) | table Sales Line (14) |
-|  | codeunit gen. jnl.-post line (29) | codeunit Create Billing Documents (13) |
-|  | other (18) | codeunit Expense Report Approval Mgmt (13) |
-|  |  | codeunit Item Jnl.-Post Line (13) |
-|  |  | codeunit Purch.-Post (13) |
+| development (626) | bc30 (1162) | codeunit Gen. Jnl.-Post Line (35) |
+| finance (514) | main (1162) | page Expense Agent Setup Wizard (20) |
+| integration (397) | fix (782) | table Expense Report Header (19) |
+| inventory (226) | feature (360) | permissionset Expense Management - Objects (15) |
+| sales (225) | bc29 (101) | table Purchase Line (15) |
+| manufacturing (195) | releases/29.x (101) | table Sales Line (15) |
+|  | refactor (52) | codeunit Purch.-Post (14) |
+|  | performance (35) | page Expense Agent Setup (14) |
+|  | codeunit gen. jnl.-post line (29) | permissionset Expense Agent - Objects (14) |
+|  | other (18) | table Expense Agent Setup (14) |
+|  |  | table Expense Report Line (14) |
+|  |  | codeunit Create Billing Documents (13) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 882
-- 2026-Q4: **************************************** 370
+- 2026-Q4: **************************************** 381
 
 ## Most recent
 
+- [#13724 Bug 651757: Allow warehouse pick for MTO subassembly after registered put-away](../changes/bcapps/13724.md) (2026-11-10)
+- [#13759 [Layers, Apps] Remove CLEAN27 obsolete code](../changes/bcapps/13759.md) (2026-11-10)
+- [#13572 Fix cloud migration company delete removing the wrong hybrid company](../changes/bcapps/13572.md) (2026-11-10)
+- [#13499 [Expense Agent] Defer per-diem policy invalidation until the parent line is saved](../changes/bcapps/13499.md) (2026-11-10)
+- [#13861 [Master]- Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](../changes/bcapps/13861.md) (2026-11-10)
+- [#12670 [Master] - Slice 580818: [Expense Management][VENDOR] Role Centers updates 💸](../changes/bcapps/12670.md) (2026-11-10)
+- [#13778 []Main[ALL-E] Dimensions of components are incorrectly populated when creating Production Order through Order Planning](../changes/bcapps/13778.md) (2026-11-10)
+- [#12084 Bug 652154: [Subcontracting] Add feature uptake telemetry](../changes/bcapps/12084.md) (2026-11-10)
+- [#13855 [Main][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank](../changes/bcapps/13855.md) (2026-11-10)
+- [#13805 [29.x][all-e]Purchase Invoice Statistics Non-Deductible VAT Amount does not match VAT Entries and G/L Entries when Non-Deductible VAT is enabled. - CopyInitial commit](../changes/bcapps/13805.md) (2026-11-10)
 - [#13730 [Expense Agent] Initialize missing vendor numbering after upgrade](../changes/bcapps/13730.md) (2026-11-09)
 - [#13672 Expense Agent: expose VAT setup in configuration wizard](../changes/bcapps/13672.md) (2026-11-09)
 - [#12770 [Main]-Project Ledger Entry does not get the modified amount from Purchase Order Statistics if the Purchase line is of type G/L Account in the Spanish version.](../changes/bcapps/12770.md) (2026-11-09)
+- [#13225 Fix Bug 656636 CompAuxNum and CompAuxLib columns should be informed for Payment Discount lines on Unapplied Entries in the French Audit File](../changes/bcapps/13225.md) (2026-11-09)
 - [#13792 [main] Add Is Feature Trial to legacy Expense Agent Consumption](../changes/bcapps/13792.md) (2026-11-09)
 - [#13616 [main] but 657849 - Refactor TableRelation logic and disable validation for Bank Account fields in multiple table extensions](../changes/bcapps/13616.md) (2026-11-09)
 - [#9587 Concurrent posting for General Ledger entries](../changes/bcapps/9587.md) (2026-11-09)
 - [#13765 [E-Document] Set max output tokens for MLLM extraction](../changes/bcapps/13765.md) (2026-11-09)
 - [#13628 [main] Bug 657281 [Drop Shipment] Your Reference, , Vendor Order No., and Vendor Shipment No. are blank on Posted Purchase Receipt Lines](../changes/bcapps/13628.md) (2026-11-09)
 - [#13482 [Master][all-e]Purchase Invoice Statistics Non-Deductible VAT Amount does not match VAT Entries and G/L Entries when Non-Deductible VAT is enabled.](../changes/bcapps/13482.md) (2026-11-09)
-- [#13607 [Main][ALL-E] Report 713 "Inventory Custmer Sales" – Excel (data only) export generates one row per Item Ledger Entry with NULL values instead of one aggregated row per Item/Customer combinationInitial commit](../changes/bcapps/13607.md) (2026-11-09)
-- [#13761 SOA search selection adjustments](../changes/bcapps/13761.md) (2026-11-06)
-- [#13721 [Expense Agent] Create per diem line when approving travel requests with Per Diem Included](../changes/bcapps/13721.md) (2026-11-06)
-- [#11256 [main] Add setup option to restore Sales and Purchase Order quantities when posting returns](../changes/bcapps/11256.md) (2026-11-06)
-- [#13725 Reduce repeated ILE reads and JIT loads in average cost adjustment](../changes/bcapps/13725.md) (2026-11-06)
-- [#13439 Validate negative Reorder Quantity for Fixed Reorder Qty. planning](../changes/bcapps/13439.md) (2026-11-06)
-- [#13429 [Quality Management] Receiving setup guide: don't offer the warehouse receipt Create trigger](../changes/bcapps/13429.md) (2026-11-06)
-- [#13428 [Quality Management] Keep Sample Size and Pass/Fail Quantity within Quantity (Base)](../changes/bcapps/13428.md) (2026-11-06)
-- [#13397 [main] Incorrect depreciation calculation for assets used less than 180 days under Income Tax Act rules](../changes/bcapps/13397.md) (2026-11-06)
-- [#13442 [SCM] Post Inventory Cost to G/L: stop using marks, add clean-up for Post Value Entry to G/L](../changes/bcapps/13442.md) (2026-11-06)
-- [#13623 [Dataverse] Fix duplicate sales line numbers with automatic recurring lines](../changes/bcapps/13623.md) (2026-11-06)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

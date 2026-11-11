@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13499",
+  "input_hash": "3f9e9f677f9ac6c03cc9e6c6907caffc128e85444dfdcf8e2854b1ce3bf0c26f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-11T00:57:29.606Z",
+  "issues": [
+    "The summary and key points match the description: deferred invalidation, suppression only for bulk generation, a pending marker consumed on parent save, rejected confirmation while changes are pending, and four new tests."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.044078,
+    "changes_in_call": 6
+  }
+}

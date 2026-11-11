@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/yzhums-com/77267",
+  "input_hash": "ea2f044c3a4092195e1104732bf86b16e10f1c41eb6553fbdfec54a7295c3b94",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-11T00:56:56.928Z",
+  "issues": [
+    "Last key point says support dates are unaffected, but the post only says the release cycle is unchanged and links to lifecycle info.",
+    "Key points leave out the temporary display issue where DUR keys show 28 instead of 28+.",
+    "Summary, quote, features and versions are supported by the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024127,
+    "posts_in_call": 4
+  }
+}

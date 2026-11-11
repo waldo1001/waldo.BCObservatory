@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/13724",
+  "input_hash": "17443a8fe9fbe75dc2f9c35d9fdb7295351b3d51b22194dba790422a9dcd6d5d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-11T00:57:29.606Z",
+  "issues": [
+    "The summary and key points match the description. The point about Planning Level 1 is slightly narrower than the description's 'higher-level supplied components', but it is still supported because normal MTO refresh leaves supplied components at level 1.",
+    "The flags and change kind are correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.044078,
+    "changes_in_call": 6
+  }
+}

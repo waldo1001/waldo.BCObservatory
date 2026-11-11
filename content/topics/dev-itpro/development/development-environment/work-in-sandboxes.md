@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:18.791Z"
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,7 +119,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: update sandbox environments to preview versions.](../../../../posts/demiliani-com/12482.md) (community post): "Partners can now update existing sandbox environments to preview versions of Dynamics"
 - [Dynamics 365 Business Central: accessing Early Access Preview in online sandboxes.](../../../../posts/demiliani-com/12613.md) (community post): "Partners with sandbox licenses can create early access preview environments"
 - [Dynamics 365 Business Central: matching Production database configuration for Sandboxes.](../../../../posts/demiliani-com/17552.md) (community post): "sandbox environment's database configuration to production-level performance for 72 hours"
-- [Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b.md) (community post): "Preview environments let you test extensions, integrations, and customizations"
+- [Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b.md) (community post): "Preview environments let you test extensions, integrations, and customizations against version 29.0"
 - [bcdb restore: Write a Cloud Export Into a Container](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-bcdb-restore-write-a-cloud-export-into-a-container--0d94b20d91.md) (community post): "The bcdb restore tool writes cloud exports directly into a running Docker container"
 - [Quick Tip: You Can Now Create a Business Central 29.0 (Preview) Sandbox](../../../../posts/thinkaboutit-be/8111.md) (community post): "Preview sandboxes are automatically deleted 30 days after general availability"
 - [Business Central 29: Match Production Database Configuration in Sandbox Environments](../../../../posts/thinkaboutit-be/8379.md) (community post): "Sandbox databases can be configured to match production database settings in the Admin Center for 72-hour periods"

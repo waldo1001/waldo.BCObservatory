@@ -11,7 +11,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -26,8 +26,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-comments
-    title: Add comments to cards and documents
-    date: "2025-10-16"
+    title: Add Comments to Cards and Documents
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -47,8 +47,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents
-    title: Archive sales, purchase, project, and service documents
-    date: "2025-10-15"
+    title: Archive Documents
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -89,8 +89,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document
-    title: Edit posted sales and purchase documents
-    date: "2025-10-14"
+    title: Edit Posted Documents
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -112,13 +112,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/about-export-data
     title: Export your Business Central data to Excel
     date: "2025-04-07"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally
-    title: External file storage for document attachments
-    date: "2026-09-23"
     commit: null
     t: null
     quote: null
@@ -145,8 +138,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-find-entries
-    title: Finding Related Entries for Documents
-    date: "2022-05-23"
+    title: Find Related Entries for Documents
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -207,23 +200,23 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-batch-posting
-    title: Post multiple documents at the same time
-    date: "2026-07-03"
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-post-documents-journals
+    title: Post Documents and Journals
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-post-documents-journals
-    title: Posting documents and journals
-    date: "2026-10-15"
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-batch-posting
+    title: Post Multiple Documents at the Same Time
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-preview-post-results
-    title: Preview Entries Before You Post a Document or Journal
-    date: "2021-04-01"
+    title: Preview Posting Results
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -297,6 +290,13 @@ evidence:
     commit: null
     t: null
     quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally
+    title: Store Document Attachments in External File Storage
+    date: "2026-11-10"
+    commit: null
+    t: null
+    quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/across-how-use-comments
@@ -305,17 +305,17 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/across-user-tasks
     - https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document
     - https://learn.microsoft.com/dynamics365/business-central/about-export-data
-    - https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally
     - https://learn.microsoft.com/dynamics365/business-central/ui-find-entries
     - https://learn.microsoft.com/dynamics365/business-central/ui-let-system-suggest-values
-    - https://learn.microsoft.com/dynamics365/business-central/ui-batch-posting
     - https://learn.microsoft.com/dynamics365/business-central/ui-post-documents-journals
+    - https://learn.microsoft.com/dynamics365/business-central/ui-batch-posting
     - https://learn.microsoft.com/dynamics365/business-central/ui-how-preview-post-results
     - https://learn.microsoft.com/dynamics365/business-central/admin-job-queues-schedule-tasks
     - https://learn.microsoft.com/dynamics365/business-central/ui-how-send-documents-email
     - https://learn.microsoft.com/dynamics365/business-central/across-how-setup-digital-vouchers
-    - https://learn.microsoft.com/dynamics365/business-central/ui-document-status
+    - https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally
     - https://learn.microsoft.com/dynamics365/business-central/across-how-to-track-document-lines
+    - https://learn.microsoft.com/dynamics365/business-central/ui-document-status
     - https://learn.microsoft.com/dynamics365/business-central/across-online-maps
     - https://learn.microsoft.com/dynamics365/business-central/ui-across-business-areas
     - https://learn.microsoft.com/dynamics365/business-central/ui-work-general-journals
@@ -657,33 +657,35 @@ A good starting point is "Using general functionality across business areas", wh
 
 ## More Learn pages
 
-- [Add comments to cards and documents](https://learn.microsoft.com/dynamics365/business-central/across-how-use-comments): Add extra information to accounts, customers cards, or sales orders to communicate agreements, such as a special price or delivery method, to other users.
+- [Add Comments to Cards and Documents](https://learn.microsoft.com/dynamics365/business-central/across-how-use-comments): Add extra information to accounts, customers cards, or sales orders to communicate agreements, such as a special price or delivery method, to other users.
+  - In the observatory: [Page 459 "Sales & Receivables Setup"](../../../objects/page/459.md), [Page 460 "Purchases & Payables Setup"](../../../objects/page/460.md)
 - [Add extended text](https://learn.microsoft.com/dynamics365/business-central/ui-how-define-ext-text): You can add extra lines to extend the standard text that describes an item, a G/L account, and other data.
-- [Archive sales, purchase, project, and service documents](https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents): Archive sales, purchase, project, and service documents such as orders, quotes, return orders, and blanket orders.
+- [Archive Documents](https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents): Archive sales, purchase, and service documents and projects to keep earlier versions. Restore eligible records and delete archives with retention policies.
   - In the observatory: [Page 48 "Sales Orders"](../../../objects/page/48.md)
 - [Assigning and managing tasks](https://learn.microsoft.com/dynamics365/business-central/across-user-tasks): Learn how to assign tasks to users, including your accountant, and how to pick up and complete tasks.
   - In the observatory: [Page 143 "Posted Sales Invoices"](../../../objects/page/143.md)
-- [Edit posted sales and purchase documents](https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document): Learn how to update posted sales and purchase documents, such as shipments or invoices, when details like tracking numbers or payment references need to be changed.
+- [Edit Posted Documents](https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document): Learn how to update posted sales and purchase documents, such as shipments or invoices, when details like tracking numbers or payment references need to be changed.
   - In the observatory: [Page 1350 "Posted Sales Shipment - Update"](../../../objects/page/1350.md)
 - [Export your Business Central data to Excel](https://learn.microsoft.com/dynamics365/business-central/about-export-data): You can export your financial reports and business intelligence data from Business Central to Excel, or open your data in Excel.
   - In the observatory: [Page 110 "Customer Posting Groups"](../../../objects/page/110.md), [Page 111 "Vendor Posting Groups"](../../../objects/page/111.md), [Page 120 "G/L Budget Entries"](../../../objects/page/120.md), [Page 16 "Chart of Accounts"](../../../objects/page/16.md), [Page 20 "General Ledger Entries"](../../../objects/page/20.md), [Page 25 "Customer Ledger Entries"](../../../objects/page/25.md)
-- [External file storage for document attachments](https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally): Learn how to store document attachments in Azure or SharePoint external file storage to reduce database usage in Business Central.
-- [Finding Related Entries for Documents](https://learn.microsoft.com/dynamics365/business-central/ui-find-entries): Learn how to find documents, business contacts, and item entries that are related to each other.
+- [Find Related Entries for Documents](https://learn.microsoft.com/dynamics365/business-central/ui-find-entries): Find related documents and entries by document number, posting date, business contact, serial number, or lot number to investigate transactions.
   - In the observatory: [Report 35 "Document Entries"](../../../objects/report/35.md)
 - [Let Business Central suggest values](https://learn.microsoft.com/dynamics365/business-central/ui-let-system-suggest-values): To avoid manual calculations and complete tasks quickly and accurately, you can set up automatic data entry so that Business Central fills in selected fields.
   - In the observatory: [Page 982 "Payment Registration Setup"](../../../objects/page/982.md)
-- [Post multiple documents at the same time](https://learn.microsoft.com/dynamics365/business-central/ui-batch-posting): Learn how to select multiple nonposted documents in a list for immediate or scheduled batch posting in Business Central.
-  - In the observatory: [Page 459 "Sales & Receivables Setup"](../../../objects/page/459.md), [Page 56 "Purchase Orders"](../../../objects/page/56.md), [Page 672 "Job Queue Entries"](../../../objects/page/672.md), [Page 709 "Error Message Register"](../../../objects/page/709.md), [Report 296 "Batch Post Sales Orders"](../../../objects/report/296.md), [Report 297 "Batch Post Sales Invoices"](../../../objects/report/297.md)
-- [Posting documents and journals](https://learn.microsoft.com/dynamics365/business-central/ui-post-documents-journals): This topic outlines posting actions and the ways you can post documents and journals in the various company ledgers.
-- [Preview Entries Before You Post a Document or Journal](https://learn.microsoft.com/dynamics365/business-central/ui-how-preview-post-results): You can make sure that entries for documents and journals are accurate before you post them to the general ledger.
-  - In the observatory: [Page 122 "G/L Entries Preview"](../../../objects/page/122.md), [Page 9308 "Purchase Invoices"](../../../objects/page/9308.md)
+- [Post Documents and Journals](https://learn.microsoft.com/dynamics365/business-central/ui-post-documents-journals): Learn about posting sales and purchase documents and journals, previewing entries, checking for errors, and posting multiple documents together.
+- [Post Multiple Documents at the Same Time](https://learn.microsoft.com/dynamics365/business-central/ui-batch-posting): Learn how to select multiple unposted sales or purchase documents for immediate batch posting or schedule background posting in Business Central.
+  - In the observatory: [Page 459 "Sales & Receivables Setup"](../../../objects/page/459.md), [Page 56 "Purchase Orders"](../../../objects/page/56.md), [Page 672 "Job Queue Entries"](../../../objects/page/672.md), [Page 674 "Job Queue Log Entries"](../../../objects/page/674.md), [Page 709 "Error Message Register"](../../../objects/page/709.md), [Report 296 "Batch Post Sales Orders"](../../../objects/report/296.md)
+- [Preview Posting Results](https://learn.microsoft.com/dynamics365/business-central/ui-how-preview-post-results): Preview the entries that posting a document or journal will create so you can review the results and correct issues before recording transactions.
+  - In the observatory: [Page 122 "G/L Entries Preview"](../../../objects/page/122.md)
 - [Schedule jobs to run automatically](https://learn.microsoft.com/dynamics365/business-central/admin-job-queues-schedule-tasks): Learn how to use job queue entries to run reports and codeunits.
   - In the observatory: [Page 1518 "My Notifications"](../../../objects/page/1518.md), [Page 3845 "Scheduled Tasks"](../../../objects/page/3845.md)
 - [Send documents and emails](https://learn.microsoft.com/dynamics365/business-central/ui-how-send-documents-email): You can define content to insert into the body of an email message, for example, a PayPal link. You can also attach documents to email messages.
 - [Set up digital vouchers](https://learn.microsoft.com/dynamics365/business-central/across-how-setup-digital-vouchers): Learn how to configure and use enforced digital vouchers in Microsoft Dynamics 365 Business Central to ensure documents are attached to transactions for better compliance and audit trails.
   - In the observatory: [Page 20 "General Ledger Entries"](../../../objects/page/20.md)
-- [Status Field on Documents](https://learn.microsoft.com/dynamics365/business-central/ui-document-status): Learn about the 'Open' and 'Released' status on quote, order, or credit memo documents.
-- [Track order lines to related documents](https://learn.microsoft.com/dynamics365/business-central/across-how-to-track-document-lines): Track and view related documents—such as quotes, shipments, receipts, and blanket orders—for sales and purchase order lines to identify documents involved in order processing.
+- [Store Document Attachments in External File Storage](https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally): Learn how to store document attachments in Azure or SharePoint external file storage to reduce database usage in Business Central.
+  - In the observatory: [Page 42 "Sales Order"](../../../objects/page/42.md)
+- [Track Document Lines](https://learn.microsoft.com/dynamics365/business-central/across-how-to-track-document-lines): Track sales and purchase order lines to related shipments, receipts, invoices, and blanket orders to understand which documents processed an order.
+- [Understand Document Statuses](https://learn.microsoft.com/dynamics365/business-central/ui-document-status): Understand Open, Released, Pending Approval, and Pending Prepayment statuses on sales and purchase documents, and when you can change a document.
 - [Use online maps to find locations and directions](https://learn.microsoft.com/dynamics365/business-central/across-online-maps): Learn about using address data in Business Central to get an online map with route directions.
 - [Using general functionality across business areas](https://learn.microsoft.com/dynamics365/business-central/ui-across-business-areas): Learn about the functionality and features that are used across business areas in Business Central.
 - [Working with general journals to post directly to G/L](https://learn.microsoft.com/dynamics365/business-central/ui-work-general-journals): Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:09.299Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -27,8 +27,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/company-hub
-    title: Manage work across multiple companies in the company hub
-    date: "2025-10-03"
+    title: Manage Work Across Multiple Companies in the Company Hub
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -107,7 +107,7 @@ The three pages follow a natural order. Start with "Add companies to your compan
 ## Learn pages
 
 - [Add companies to your company hub](https://learn.microsoft.com/dynamics365/business-central/company-hub-add-company): Learn how to add companies from other Business Central environments to your company hub so you can manage work across environments.
-- [Manage work across multiple companies in the company hub](https://learn.microsoft.com/dynamics365/business-central/company-hub): Learn about the company hub in Dynamics 365 Business Central that you use to manage your work across multiple companies.
+- [Manage Work Across Multiple Companies in the Company Hub](https://learn.microsoft.com/dynamics365/business-central/company-hub): Use the Business Central company hub to view company summaries, open connected companies, and prioritize assigned tasks across online environments.
 - [Troubleshooting your company hub](https://learn.microsoft.com/dynamics365/business-central/company-hub-troubleshooting): Troubleshoot common connectivity and data-refresh issues when using the company hub in Dynamics 365 Business Central to manage multiple companies.
 
 ## Videos, posts and code changes

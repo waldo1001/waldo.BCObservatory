@@ -2,22 +2,36 @@
 id: topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365/microsoft-excel
 type: topic
 title: Microsoft Excel
-summary: "Microsoft Excel integration with Business Central: viewing and editing data in Excel, setting up the Excel add-in for on-premises, importing data from Excel or configuration packages, and building Excel report layouts. It answers how-to and setup questions for these tasks."
+summary: "Microsoft Excel integration with Business Central: building Excel report layouts, importing business data from Excel, setting up the Excel add-in for on-premises, and viewing or editing Business Central data in Excel. It answers how-to and setup questions for these tasks."
 tier: official
 language: en
 system: reporting
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:26:23.617Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: a677bf0f4b4146bd24e67e6468fac666364891e0f943e4bc67aaabce30999e40
+  input_hash: c7bbd466f2dbe095bd9b67e0786d2640ebeb502fdf5469bfd3f0ed69a550b3df
 evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
+    title: Create Excel Report Layouts in Business Central
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages
+    title: Import Business Data into Business Central with Excel
+    date: "2026-11-09"
+    commit: null
+    t: null
+    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin
     title: Setting up the Excel Add-In for Editing Data
@@ -26,36 +40,22 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages
-    title: Use Excel to import data
-    date: "2026-06-17"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel
-    title: Viewing and editing in Excel from Business Central
-    date: "2026-01-26"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
-    title: Working with Excel layouts
-    date: "2024-09-09"
+    title: View and Edit Business Central Data in Excel
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin
-    - https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages
-    - https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel
     - https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts
+    - https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin
+    - https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel
   objects:
     - object/page/1480
-    - object/page/9650
-    - object/page/9652
+    - object/page/9660
+    - object/page/9662
   features: []
   topics:
     - topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365
@@ -80,36 +80,39 @@ coverage:
   guideline: 0
 bc_forms:
   - 1480
-  - 9650
-  - 9652
+  - 9660
+  - 9662
 member_hash: e5822a943df13a5fcccd26b295eb1e320a6d73b8f020cf5ca1b5b6fbd6c30f55
 narrative: generated
 ---
 
 # Microsoft Excel
 
-> Microsoft Excel integration with Business Central: viewing and editing data in Excel, setting up the Excel add-in for on-premises, importing data from Excel or configuration packages, and building Excel report layouts. It answers how-to and setup questions for these tasks.
+> Microsoft Excel integration with Business Central: building Excel report layouts, importing business data from Excel, setting up the Excel add-in for on-premises, and viewing or editing Business Central data in Excel. It answers how-to and setup questions for these tasks.
 
-Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Office apps and Microsoft 365](../microsoft-office-apps-and-microsoft-365.md) > Microsoft Excel · tier official · system reporting · narrative reviewed (checked by Opus)
+Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Office apps and Microsoft 365](../microsoft-office-apps-and-microsoft-365.md) > Microsoft Excel · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the ways Business Central works with Excel. Users can open list data in Excel for analysis or edit it in Excel and publish changes back. They can also import data from other finance systems, and design report layouts as Excel workbooks.
+This section covers the ways Business Central works with Excel. Users can export or edit list data in Excel, import data during migration or initial setup, and design reports as Excel layouts that use formulas, PivotTables and PivotCharts.
 
-The pages are independent tasks. Start with "Viewing and editing in Excel from Business Central" for the Open in Excel and Edit in Excel actions. On-premises deployments need the add-in set up first, which involves Azure registration and server configuration. "Use Excel to import data" covers migration, and "Working with Excel layouts" covers report layouts with formulas, PivotTables and PivotCharts.
+The pages are independent tasks. "View and Edit Business Central Data in Excel" is the starting point for everyday use, with the Open in Excel and Edit in Excel actions and Copilot in Excel for data preparation and analysis. "Import Business Data into Business Central with Excel" covers bringing in customers, vendors, inventory and accounts. "Create Excel Report Layouts" is for report authors. "Setting up the Excel Add-In for Editing Data" is for administrators of on-premises deployments, who must configure Azure registration and the server first.
 
 ## Key points
 
-- Open in Excel exports list data for analysis; Edit in Excel lets users change data and publish it back to Business Central.
-- The viewing and editing page lists filter support, multi-environment support and agent mode among its features.
-- On-premises Excel add-in setup involves Microsoft Entra authentication, Web API exposure, OData services, SSL/HTTPS and delegated permissions.
-- The add-in setup page references 2022 release wave 1 and 2021 release wave 2.
-- Data import from other finance systems can use Excel files or configuration packages.
-- The default configuration package supports 27 tables covering master data and transactions.
-- Excel report layouts can include formulas, PivotTables, PivotCharts and multiple worksheets, including a data sheet.
+- Open in Excel exports a list to Excel; Edit in Excel opens it with the Excel add-in pane so changes can be published back to Business Central.
+- Copilot in Excel can be used for data cleaning, preparation and analysis, including multi-step workflows.
+- Excel report layouts support formulas, PivotTables, PivotCharts, multiple worksheets, interactive elements, worksheet protection and sensitivity labels (version 29 guidance).
+- Excel layouts can be created from scratch or from an existing layout and then added to a report; the data sheet has specific requirements.
+- Data import options include the Excel add-in, assisted setup guides, data migration wizards and configuration packages.
+- Migration paths are described for QuickBooks, Dynamics GP and Dynamics NAV.
+- On-premises add-in setup needs Microsoft Entra authentication, Web API and OData service exposure, SSL/HTTPS and delegated permissions.
+- The on-premises add-in setup page references 2021 release wave 2 and 2022 release wave 1.
 
 ## Learn pages
 
+- [Create Excel Report Layouts in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and import Excel report layouts in Business Central, configure data sheets, and preserve the dataset structure in your workbook.
+- [Import Business Data into Business Central with Excel](https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages): Learn how to prepare business data in Excel, import it through Business Central configuration packages, and validate the data before applying it.
 - [Setting up the Excel Add-In for Editing Data](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin): Learn about how to configure the Excel add-in so users can edit data in Excel and push back to Business Central.
   - Prerequisite: Microsoft Entra ID must be configured for authentication of the server instance, clients, and users.
   - Prerequisite: OData must be enabled and use Secure Sockets Layer (SSL) for authentication.
@@ -119,10 +122,7 @@ The pages are independent tasks. Start with "Viewing and editing in Excel from B
   - Step: Register a separate Microsoft Entra application for the Excel add-in and add optional claims for email and upn.
   - Step: Configure the server instance by setting Excel add-in client ID, Web Client Base URL, OData Base URL, and enabling OData and API services.
   - The add-in enables the Edit in Excel action on list pages, allowing users to push changed data back to Business Central, unlike the basic Open in Excel action.
-- [Use Excel to import data](https://learn.microsoft.com/dynamics365/business-central/across-import-data-configuration-packages): Use the default configuration package to add customer data in Excel and import the data back into Business Central.
-- [Viewing and editing in Excel from Business Central](https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel): Learn how to open pages in Microsoft Excel from Business Central for better data analysis.
-- [Working with Excel layouts](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and modify report layouts that are built using Excel.
-  - In the observatory: [Page 9660 "Report Layouts"](../../../../objects/page/9660.md)
+- [View and Edit Business Central Data in Excel](https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel): Learn when to open Business Central lists in Excel for analysis and when to use the Excel add-in to edit records and publish your changes.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
@@ -138,7 +138,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
 - [Page 1480 "Excel Centralized Depl. Wizard"](../../../../objects/page/1480.md) · captioned "Excel Add-in Centralized Deployment" · on [Table 1480 "Edit in Excel Settings"](../../../../objects/table/1480.md)
-- [Page 9650 "Custom Report Layouts"](../../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../../objects/table/9650.md)
-- [Page 9652 "Report Layout Selection"](../../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../../objects/table/9651.md)
+- [Page 9660 "Report Layouts"](../../../../objects/page/9660.md)
+- [Page 9662 "Report Layout New Dialog"](../../../../objects/page/9662.md) · captioned "Add New Layout for a Report"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

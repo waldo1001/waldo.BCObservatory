@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:51.814Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,6 +79,7 @@ links:
   videos:
     - video/0WAOtNaKjws
     - video/4HE3BBCcV84
+    - video/9CW5mydS9Vs
     - video/AMVAiPTfSrU
     - video/C5cmG3sNjUg
     - video/EpDIrJE0HzA
@@ -86,9 +87,11 @@ links:
     - video/H5EuObmeF4o
     - video/iViHfCgL2L8
     - video/LerAo-GGl8U
+    - video/nMiLzdfidos
     - video/q3xnjJD32kk
     - video/qs1cg-GoDeQ
     - video/rm-FstU_I80
+    - video/tMqCSibSRug
     - video/U1dAdtUjidc
     - video/UIL8ej7mSKQ
     - video/uMKLsKfKPc0
@@ -114,7 +117,7 @@ children: []
 coverage:
   learn: 6
   code: 3
-  video: 17
+  video: 20
   blog: 9
   guideline: 0
 bc_forms:
@@ -174,6 +177,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 2 (BC29): Run data queries with MCP Server (no APIs required)](../../../posts/yzhums-com/76419.md) (community post): "Data Query Tools for the MCP Server, enabling AI agents"
 - [What's New: Enhanced MCP Server (2026 release wave 1)](../../../videos/0WAOtNaKjws.md) (video): "Enhanced MCP Server. Topics: mcp server; configuration validation; import export"
 - [MCP Server and API Queries (2026 release wave 1)](../../../videos/4HE3BBCcV84.md) (video): "API queries in MCP server; Analytics API reference documentation; MCP server configuration"
+- [Microsoft presents: Tests, dependencies, runners and evals for BC applications](../../../videos/9CW5mydS9Vs.md) (video): "MCP server for test execution; Test generation with MCP and external tools"
 - [How 3 Partners are Building Powerful Agents for Business Central](../../../videos/AMVAiPTfSrU.md) (video): "Business Central MCP server"
 - [MCP Server for Business Central - Advanced Topics (Part 3)](../../../videos/C5cmG3sNjUg.md) (video): "MCP Server for Business Central; Dynamic Tools System; Copilot Studio Support"
 - [Build an Agent in Microsoft Copilot Studio for Business Central (2025)](../../../videos/EpDIrJE0HzA.md) (video): "Model Context Protocol (MCP) server for Business Central"
@@ -181,9 +185,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)](../../../videos/H5EuObmeF4o.md) (video): "MCP server for Business Central"
 - [Introducing MCP Server for Business Central (Part 1)](../../../videos/iViHfCgL2L8.md) (video): "Introducing MCP Server for Business Central"
 - [Microsoft presents: Next level administration skills with the admin MCP server and agents](../../../videos/LerAo-GGl8U.md) (video): "Admin MCP Server for Business Central; Model Context Protocol (MCP) Fundamentals; OAuth 2.1 Authentication"
+- [What's New: AL Language (2026 release wave 1)](../../../videos/nMiLzdfidos.md) (video): "AL MCP server for non-VS Code agents; Automated agentic pipelines with AL MCP"
 - [What's new: MCP Server (2026 release wave 2)](../../../videos/q3xnjJD32kk.md) (video): "MCP Server query tools; data analysis; agent capabilities; al queries"
 - [What's new: MCP Server (2026 release wave 2)](../../../videos/qs1cg-GoDeQ.md) (video): "MCP Server data tools; query tool; agents; al queries"
 - [20260831 - Business Central MCP Server, standard and custom](../../../videos/rm-FstU_I80.md) (video): "model context protocol; mcp server; copilot studio; business central integration"
+- [ALCops: LinterCop's Successor for Business Central AL Code Analysis (feat Arthur van de Vondervoort)](../../../videos/tMqCSibSRug.md) (video): "ALCops MCP server; ALCops MCP quick fix automation"
 - [What's New: Admin Center MCP Server (2026 release wave 1)](../../../videos/U1dAdtUjidc.md) (video): "Admin Center MCP Server; Environment Management via Natural Language"
 - [Dynamics 365 Business Central 2025 Release Wave 2](../../../videos/UIL8ej7mSKQ.md) (video): "MCP server for Business Central"
 - [Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat](../../../videos/uMKLsKfKPc0.md) (video): "MCP server connection for Business Central"

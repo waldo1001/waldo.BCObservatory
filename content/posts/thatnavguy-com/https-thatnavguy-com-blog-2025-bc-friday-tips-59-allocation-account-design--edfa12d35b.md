@@ -19,7 +19,7 @@ review:
   at: "2026-10-08T01:57:58.506Z"
   flags: []
 generated:
-  at: "2026-10-26T05:51:10.938Z"
+  at: "2026-11-11T00:15:47.902Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -92,7 +92,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:50:54.504Z"
+  probed_at: "2026-11-11T00:52:13.853Z"
 ---
 
 # BC Friday Tips #59 Allocation Account Design

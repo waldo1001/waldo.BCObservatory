@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:09.736Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,6 +42,7 @@ links:
     - topic/dev-itpro/development/get-started
   localizations: []
   videos:
+    - video/ecYXnXULijI
     - video/urLsKPqOSbc
   posts:
     - post/nataliekarolak-com/3995
@@ -63,7 +64,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 1
+  video: 2
   blog: 1
   guideline: 0
 bc_forms: []
@@ -112,6 +113,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2382 Fix dependency artifact pattern for branch names with glob-special characters](../../../../changes/al-go/2382.md) (code change): "Fixed a bug where dependency artifact downloads failed silently"
 - [#2407 Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency](../../../../changes/al-go/2407.md) (code change): "AL-Go for GitHub now supports GitHub Enterprise Cloud with dynamic host resolution"
 - [Docs: What’s new in BC 28 for developers](../../../../posts/nataliekarolak-com/3995.md) (community post): "MCP tooling grows, including an Admin Center API MCP server usable from VS Code"
+- [Let's Build a Plug & Play Claude Code Setup for AL Development - The Business Central Coding Stream](../../../../videos/ecYXnXULijI.md) (video): "dev containers; dockerfile; AL development commands in Docker container"
 - [Exploring Rabbit Holes with AL Tool Graphs](../../../../videos/urLsKPqOSbc.md) (video): "AL Tool Graphs; AL tools; call graphs; code analysis"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

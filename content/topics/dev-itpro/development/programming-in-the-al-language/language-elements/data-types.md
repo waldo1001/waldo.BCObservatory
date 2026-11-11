@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-01T00:45:11.847Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d4267e15f9f94d7855fa46b178b2b257bd0a228598657f0f87aa90b3a2357688
@@ -361,6 +361,7 @@ links:
     - post/yzhums-com/17631
     - post/yzhums-com/40193
     - post/yzhums-com/51041
+    - post/yzhums-com/64057
     - post/yzhums-com/68755
     - post/yzhums-com/74473
     - post/yzhums-com/75853
@@ -379,7 +380,7 @@ coverage:
   learn: 46
   code: 0
   video: 0
-  blog: 12
+  blog: 13
   guideline: 0
 bc_forms: []
 member_hash: d4267e15f9f94d7855fa46b178b2b257bd0a228598657f0f87aa90b3a2357688
@@ -455,6 +456,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to convert Text/Integer to Date (Text/Integer Data type -> Date Data type)](../../../../../posts/yzhums-com/17631.md) (community post): "convert Text and Integer data types to Date in Business Central AL development"
 - [Dynamics 365 Business Central: Version Data Type (Major.Minor.Build.Revision)](../../../../../posts/yzhums-com/40193.md) (community post): "Version data type stores version numbers matching Major.Minor.Build.Revision format"
 - [Dynamics 365 Business Central: How to check if a string contains particular strings (if a string is a substring of another)](../../../../../posts/yzhums-com/51041.md) (community post): "check if a string contains a substring"
+- [Business Central 2025 wave 1 (BC26.1): New method to add SecretText values to JSON objects – WriteWithSecretsTo](../../../../../posts/yzhums-com/64057.md) (community post): "new method on the JsonObject type that adds SecretText values"
 - [Dynamics 365 Business Central: How to add or subtract hours from a DateTime field](../../../../../posts/yzhums-com/68755.md) (community post): "Adding or subtracting hours from DateTime fields in Business Central"
 - [Dynamics 365 Business Central: Formatting Boolean Values (Yes/No, true/false, and 1/0)](../../../../../posts/yzhums-com/74473.md) (community post): "Boolean fields in Business Central display as checkboxes by default"
 - [Business Central 2026 release wave 2 (BC29): Access application links (Help, EULA, PrivacyStatement, and ContextSensitiveHelpUrl) through ModuleInfo – New properties on ModuleInfo](../../../../../posts/yzhums-com/75853.md) (community post): "BC29 adds Help, EULA, PrivacyStatement and ContextSensitiveHelpUrl properties to the ModuleInfo data type"

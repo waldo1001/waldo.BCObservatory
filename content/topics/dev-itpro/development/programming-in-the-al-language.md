@@ -12,7 +12,7 @@ review:
   at: "2026-11-10T00:57:30.077Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -278,13 +278,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts
-    title: Assign document layouts to customers or vendors
-    date: "2024-11-28"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview
     title: Asynchronous Processing in AL for Business Central
     date: "2026-10-23"
@@ -295,6 +288,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
     title: Available fonts
     date: "2025-02-28"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-azure-function-integration-trace
+    title: Azure Function Integration Telemetry
+    date: "2022-08-16"
     commit: null
     t: null
     quote: null
@@ -336,6 +336,7 @@ links:
     - object/page/9650
     - object/page/9652
     - object/page/9660
+    - object/page/9662
     - object/page/9666
     - object/page/9882
   features: []
@@ -361,7 +362,9 @@ links:
   videos:
     - video/a8W1x0xwkv4
     - video/lH2Z4xfdhmY
+    - video/nMiLzdfidos
     - video/QhHgkCe3kkk
+    - video/YBVqwzig8Qc
   posts:
     - post/aardvarklabs-blog/2603
     - post/aardvarklabs-blog/2838
@@ -374,8 +377,8 @@ links:
     - post/yzhums-com/70325
   guidelines: []
   changes:
+    - change/bcapps/10270
     - change/bcapps/11507
-    - change/bcquality/155
     - change/bcquality/195
     - change/bcquality/260
 learn_toc_path:
@@ -402,8 +405,8 @@ children:
   - topic/dev-itpro/development/programming-in-the-al-language/using-net-on-premises-only
 coverage:
   learn: 340
-  code: 36
-  video: 3
+  code: 37
+  video: 5
   blog: 9
   guideline: 0
 bc_forms:
@@ -441,6 +444,7 @@ bc_forms:
   - 9650
   - 9652
   - 9660
+  - 9662
   - 9666
   - 9882
 member_hash: b40e5967a62ab6d6c9e606690c06026a4b81e84def0aee298e90bbc798d4459e
@@ -499,22 +503,24 @@ Start with Programming in AL and Program building blocks for syntax, then go to 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10270 [Quality Management] Repair and improve XML documentation of procedures](../../../changes/bcapps/10270.md) (code change): "Repair and improve XML documentation of procedures. XML documentation for Quality Management"
 - [#11507 [Master] Fix Unix timestamp timezone conversion](../../../changes/bcapps/11507.md) (code change): "Unix timestamp conversion in TypeHelper now delegates to"
-- [#155 Add read-only AL development plan guidance](../../../changes/bcquality/155.md) (code change): "Add read-only AL development plan guidance enriching AL development plans with applicable constraints"
 - [#195 Add foundational AL developer knowledge](../../../changes/bcquality/195.md) (code change): "Add foundational AL developer knowledge. Adds seven foundational AL knowledge articles"
 - [#260 Fix al-knowledge follow-ups and document the skill](../../../changes/bcquality/260.md) (code change): "Extended al-knowledge skill to support JavaScript technology queries for control-add-in"
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../posts/aardvarklabs-blog/2603.md) (community post): "demonstrates how to parse and import delimited files using AL"
 - [Importing Multi-Tab Excel Files into Business Central](../../../posts/aardvarklabs-blog/2838.md) (community post): "code examples using AL to read separate header and line"
 - [How to Use External APIs in Business Central](../../../posts/aardvarklabs-blog/2953.md) (community post): "HttpClient data type with complete AL code samples"
 - [Snippet: StrMenu from Enum list](../../../posts/nataliekarolak-com/1855.md) (community post): "AL code snippet that uses StrMenu to let users select from a filtered"
-- [Docs: What’s new in BC 27 for developers](../../../posts/nataliekarolak-com/3653.md) (community post): "New AL methods for GUID creation, truncate operations, text manipulation"
+- [Docs: What’s new in BC 27 for developers](../../../posts/nataliekarolak-com/3653.md) (community post): "introduces new AL methods, properties, and features for developers"
 - [Using Substring to replace CopyStr](../../../posts/nataliekarolak-com/4184.md) (community post): "Using Substring to replace CopyStr for improved code readability"
 - [Dynamics 365 Business Central: A simple Date Formula testing tool](../../../posts/yzhums-com/65768.md) (community post): "Date Formula testing tool for Dynamics 365 Business Central helps developers"
 - [Dynamics 365 Business Central: How to check if the time zone supports daylight saving time (DST) via AL](../../../posts/yzhums-com/70129.md) (community post): "how to check whether a time zone supports daylight saving time (DST) in Business Central using AL code"
 - [Dynamics 365 Business Central: How to split a string on a fixed character (delimiter or separator) via AL](../../../posts/yzhums-com/70325.md) (community post): "String splitting in AL using the Text.Split method to parse delimited data"
 - [... but can it play DOOM? (In Business Central)](../../../videos/a8W1x0xwkv4.md) (video): "AL development; user control host; typescript; webgl rendering; javascript interop"
 - [What’s New: Data Search Improvements (For Developers) (2024 release wave 2)](../../../videos/lH2Z4xfdhmY.md) (video): "Modern search; full-text search; optimized for text search property"
+- [What's New: AL Language (2026 release wave 1)](../../../videos/nMiLzdfidos.md) (video): "json support; data transfer; namespaces; fully qualified names"
 - [What's New in AL: Embedding Resources in Applications (2024 release wave 2)](../../../videos/QhHgkCe3kkk.md) (video): "Embedding resources in applications; get resource function; Multiple resource folders"
+- [What probem? I can stop whenever I want! (More Games in AL and Business Central)](../../../videos/YBVqwzig8Qc.md) (video): "al; game development; emulation; z80 processor; c2al converter; quake engine"
 
 ## Business Central pages and reports
 
@@ -554,6 +560,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9650 "Custom Report Layouts"](../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../objects/table/9650.md) · via [Developing reports](programming-in-the-al-language/developing-reports.md)
 - [Page 9652 "Report Layout Selection"](../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../objects/table/9651.md) · via [Developing reports](programming-in-the-al-language/developing-reports.md)
 - [Page 9660 "Report Layouts"](../../../objects/page/9660.md) · via [Developing reports](programming-in-the-al-language/developing-reports.md)
+- [Page 9662 "Report Layout New Dialog"](../../../objects/page/9662.md) · captioned "Add New Layout for a Report" · via [Developing reports](programming-in-the-al-language/developing-reports.md)
 - [Page 9666 "Report Theme and Header/Footer"](../../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts" · via [Developing reports](programming-in-the-al-language/developing-reports.md)
 - [Page 9882 "Report Res. Govern. Settings"](../../../objects/page/9882.md) · captioned "Report Limits and Settings" · via [Developing reports](programming-in-the-al-language/developing-reports.md)
 

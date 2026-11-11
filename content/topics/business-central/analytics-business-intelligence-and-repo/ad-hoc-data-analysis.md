@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:53.461Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -27,8 +27,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-data-analysis-by-functional-area
-    title: Ad-hoc data analysis by functional area
-    date: "2024-05-01"
+    title: Ad-Hoc Data Analysis by Functional Area
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -41,8 +41,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel
-    title: Analyzing report data with Excel and XML
-    date: "2024-09-09"
+    title: Analyze Report Datasets with Excel and XML
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -62,8 +62,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel
-    title: Viewing and editing in Excel from Business Central
-    date: "2026-01-26"
+    title: View and Edit Business Central Data in Excel
+    date: "2026-11-09"
     commit: null
     t: null
     quote: null
@@ -196,13 +196,13 @@ Start with the overview page, then read the page on sorting, searching and filte
 ## Learn pages
 
 - [Ad-hoc data analysis](https://learn.microsoft.com/dynamics365/business-central/reports-adhoc-analysis): Provides an overview of features that support ad-hoc data analyses in Business Central.
-- [Ad-hoc data analysis by functional area](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-data-analysis-by-functional-area): Provides an overview of functional area specific landing pages for ad-hoc data analysis in Business Central.
+- [Ad-Hoc Data Analysis by Functional Area](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-data-analysis-by-functional-area): Find guidance for analyzing Business Central data by functional area, including finance, sales, purchasing, inventory, sustainability, and auditing.
 - [Analyze list page and query data using data analysis](https://learn.microsoft.com/dynamics365/business-central/analysis-mode): Learn how to use the analysis mode in Business Central to analyze data.
-- [Analyzing report data with Excel and XML](https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel): Learn how to use Excel and XML to analyze a report dataset.
+- [Analyze Report Datasets with Excel and XML](https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel): Learn how to export Business Central report datasets to Excel or XML, inspect raw report data, and give users permission to export datasets.
 - [Save and personalize List Views](https://learn.microsoft.com/dynamics365/business-central/ui-views): Learn how to create your own views for filtered lists and how to save, rename, and manage those views.
 - [Sort, search, and filter data in lists, reports, or XMLports](https://learn.microsoft.com/dynamics365/business-central/ui-enter-criteria-filters): Learn to work efficiently in lists by searching across your data, sorting columns, and refining results using filter symbols and keyboard shortcuts.
   - In the observatory: [Page 48 "Sales Orders"](../../../objects/page/48.md)
-- [Viewing and editing in Excel from Business Central](https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel): Learn how to open pages in Microsoft Excel from Business Central for better data analysis.
+- [View and Edit Business Central Data in Excel](https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel): Learn when to open Business Central lists in Excel for analysis and when to use the Excel add-in to edit records and publish your changes.
 
 ## Videos and posts
 

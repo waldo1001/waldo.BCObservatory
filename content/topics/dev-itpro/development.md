@@ -12,7 +12,7 @@ review:
   at: "2026-11-10T00:57:33.645Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-11T00:59:22.225Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -368,6 +368,7 @@ links:
     - object/page/9650
     - object/page/9652
     - object/page/9660
+    - object/page/9662
     - object/page/9666
     - object/page/9800
     - object/page/9802
@@ -435,7 +436,7 @@ children:
   - topic/dev-itpro/development/troubleshooting
 coverage:
   learn: 523
-  code: 77
+  code: 78
   video: 2
   blog: 5
   guideline: 0
@@ -504,6 +505,7 @@ bc_forms:
   - 9650
   - 9652
   - 9660
+  - 9662
   - 9666
   - 9800
   - 9802
@@ -669,6 +671,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9650 "Custom Report Layouts"](../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../objects/table/9650.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
 - [Page 9652 "Report Layout Selection"](../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../objects/table/9651.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
 - [Page 9660 "Report Layouts"](../../objects/page/9660.md) · via [Programming in the AL language](development/programming-in-the-al-language.md)
+- [Page 9662 "Report Layout New Dialog"](../../objects/page/9662.md) · captioned "Add New Layout for a Report" · via [Programming in the AL language](development/programming-in-the-al-language.md)
 - [Page 9666 "Report Theme and Header/Footer"](../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts" · via [Programming in the AL language](development/programming-in-the-al-language.md)
 - [Page 9800 "Users"](../../objects/page/9800.md) · via [Troubleshooting](development/troubleshooting.md)
 - [Page 9802 "Permission Sets"](../../objects/page/9802.md) · on [Table 9009 "Permission Set Buffer"](../../objects/table/9009.md) · via [Troubleshooting](development/troubleshooting.md)
