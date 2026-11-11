@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-organization-switch",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.967Z",
-      "blob": "0b4041fe2610510654bdb2c2e36113040bfcfeea",
-      "words": 901,
+      "at": "2026-11-11T00:22:39.575Z",
+      "blob": "3bd2d40378f2023bc6d95cba49cd914b899ad76c",
+      "words": 899,
       "forms": 15
     },
     "extracted": {
-      "at": "2026-10-06T18:41:29.528Z",
+      "at": "2026-11-11T00:22:59.299Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.006603
+      "objects": 0,
+      "cost_usd": 0.003927
     },
     "summarized": {
-      "at": "2026-10-06T18:41:43.141Z",
+      "at": "2026-11-11T00:22:59.299Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:41:43.142Z",
+      "at": "2026-11-11T00:22:59.300Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:41:43.143Z",
+      "at": "2026-11-11T00:22:59.300Z",
       "page": false
     }
   },
@@ -44,7 +44,7 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-organization-switch.md",
-    "description": "If you do work for multiple organizations, you can quickly switch between the environments and companies.",
+    "description": "Compare ways to switch Business Central companies and environments, including the company switcher, My Settings, app launcher, and Company Hub.",
     "ms_date": "2024-04-24",
     "ms_topic": "how-to",
     "search_form": [
@@ -130,12 +130,12 @@
       "tenants",
       "organization"
     ],
-    "ai_usage": null,
-    "words": 901,
+    "ai_usage": "ai-assisted",
+    "words": 899,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5031f8b39679b6ca9e2995145ca781237f0e0fa22cda9b90edd154d85eacba7e"
+  "output_hash": "6edb144187d1c816515a66d55848d3c780d08fa7bfc8a4ef4ff454c1ec53f4af"
 }

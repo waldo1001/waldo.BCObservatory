@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Preview Entries Before You Post a Document or Journal",
+  "title": "Preview Posting Results",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-preview-post-results",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.003Z",
-      "blob": "629ceeb373858553ab1ea60447efc3464c649e4c",
-      "words": 120,
+      "at": "2026-11-11T00:22:13.345Z",
+      "blob": "f3e606baf2c19140a61f56c3f23a2e46b46fda84",
+      "words": 139,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:10:46.834Z",
+      "at": "2026-11-11T00:22:39.570Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.00434
+      "objects": 2,
+      "cost_usd": 0.002933
     },
     "summarized": {
-      "at": "2026-10-06T19:10:53.157Z",
+      "at": "2026-11-11T00:22:39.571Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:10:53.158Z",
+      "at": "2026-11-11T00:22:39.571Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:10:53.159Z",
+      "at": "2026-11-11T00:22:39.572Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-how-preview-post-results.md",
-    "description": "You can make sure that entries for documents and journals are accurate before you post them to the general ledger.",
-    "ms_date": "2021-04-01",
+    "description": "Preview the entries that posting a document or journal will create so you can review the results and correct issues before recording transactions.",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 120,
+    "ai_usage": "ai-assisted",
+    "words": 139,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c294ec771493f1cae057fb509834de55e764ea0ca3da5961feac2b6fc8c869dc"
+  "output_hash": "2166e3d64eb1a0995eb61e3f0459477d6037ab8c25a45b1bff9e6029f1c7364d"
 }

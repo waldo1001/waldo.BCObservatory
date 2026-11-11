@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Finding Related Entries for Documents",
+  "title": "Find Related Entries for Documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-find-entries",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.638Z",
-      "blob": "c21839df8ef79ec76cbcfc1a3e4c9a2d6c59d4d6",
-      "words": 440,
+      "at": "2026-11-11T00:21:45.885Z",
+      "blob": "f7498d2fc4018c3e8e7ca5cf8dbea5661a5f5d23",
+      "words": 428,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:38.964Z",
+      "at": "2026-11-11T00:22:03.759Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003855
+      "cost_usd": 0.00372
     },
     "summarized": {
-      "at": "2026-10-06T19:26:39.048Z",
+      "at": "2026-11-11T00:22:03.759Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:39.049Z",
+      "at": "2026-11-11T00:22:03.760Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:39.050Z",
+      "at": "2026-11-11T00:22:03.760Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-find-entries.md",
-    "description": "Learn how to find documents, business contacts, and item entries that are related to each other.",
-    "ms_date": "2022-05-23",
+    "description": "Find related documents and entries by document number, posting date, business contact, serial number, or lot number to investigate transactions.",
+    "ms_date": "2026-11-10",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "find"
     ],
-    "ai_usage": null,
-    "words": 440,
+    "ai_usage": "ai-assisted",
+    "words": 428,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "07f43f02993ba08a216d5d8bdbe59811535bcef9cd5752f9a5eb95a2c56983fa"
+  "output_hash": "d557578a730425e98311ab308e561446355dfe4361c4d1a32a9c6bcac0aefaed"
 }

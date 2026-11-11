@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Add attachments, links, and notes on records",
+  "title": "Manage Attachments, Links, and Notes on Cards and Documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-add-link-to-record",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.367Z",
-      "blob": "03e82ebf9ac2b24ac11a0f55ab8de673539fdaf9",
-      "words": 1085,
+      "at": "2026-11-11T00:21:47.203Z",
+      "blob": "1c8f8546251f4fde2da4be8fe7433287b50e9597",
+      "words": 1108,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T14:03:05.343Z",
+      "at": "2026-11-11T00:22:03.753Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.007228
+      "objects": 5,
+      "cost_usd": 0.005386
     },
     "summarized": {
-      "at": "2026-10-06T14:03:05.346Z",
+      "at": "2026-11-11T00:22:03.754Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:03:05.346Z",
+      "at": "2026-11-11T00:22:03.754Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:03:05.346Z",
+      "at": "2026-11-11T00:22:03.755Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-how-add-link-to-record.md",
-    "description": "Attach a hyperlink to a document or a website to a specific record, such as a customer or document.",
-    "ms_date": "2026-09-14",
+    "description": "Attach files, add links, and write notes on Business Central records so colleagues can find supporting documents and instructions as they work.",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -55,12 +55,12 @@
       }
     ],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1085,
+    "ai_usage": "ai-assisted",
+    "words": 1108,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "48f54a2cbbd3f4680c2d783990644c7831c099f373841093b7f67e557af04597"
+  "output_hash": "defae0fd792edfdccf3e98e559157612b4af1fdc588201537720cc5c41e3d9d6"
 }

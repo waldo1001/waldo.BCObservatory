@@ -1,26 +1,30 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-extensions-company-hub.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub",
-  "title": "Using the Company Hub",
-  "blob": "e4efbc48fe076bec1939617290738f176fb96292",
-  "summary": "The Company Hub Extension provides a dashboard showing summary data and financial KPIs for all Business Central companies a user has access to, supporting multi-company overviews for accountants and administrators.",
+  "title": "The Company Hub Extension for Business Central",
+  "blob": "b13d15edb97f22743eae2de7e92717b842b4e863",
+  "summary": "The Company Hub extension provides a dashboard with financial KPIs and links to manage multiple Business Central companies, designed for accountants and multi-company users.",
   "systems": [
+    "finance",
     "administration",
-    "reporting"
+    "integration"
   ],
   "topics": [
     "company hub",
+    "extension",
     "dashboard",
-    "kpi",
+    "role center",
     "multi-company",
-    "extension"
+    "kpis",
+    "accountant"
   ],
   "objects": [],
   "features": [
-    "Summary data display",
     "Financial KPIs",
-    "Role center dashboard",
-    "Multi-company overview"
+    "Company dashboard",
+    "Role Center",
+    "Multi-company connections",
+    "Company links"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002502,
-      "pages_in_call": 8
+      "cost_usd": 0.00294,
+      "pages_in_call": 1
     }
   ]
 }

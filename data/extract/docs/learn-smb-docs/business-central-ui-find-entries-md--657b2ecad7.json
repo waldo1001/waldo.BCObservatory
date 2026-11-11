@@ -1,18 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-find-entries.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-find-entries",
-  "title": "Finding Related Entries for Documents",
-  "blob": "c21839df8ef79ec76cbcfc1a3e4c9a2d6c59d4d6",
-  "summary": "Describes how to find related entries and documents across the system based on document number, posting date, business contact information, or item serial/lot numbers.",
+  "title": "Find Related Entries for Documents",
+  "blob": "f7498d2fc4018c3e8e7ca5cf8dbea5661a5f5d23",
+  "summary": "Find Related Entries for Documents enables users to locate documents and ledger entries linked by document numbers, posting dates, business contacts, or item tracking information like serial or lot numbers.",
   "systems": [
-    "platform"
+    "reporting",
+    "inventory",
+    "administration"
   ],
   "topics": [
-    "search",
-    "entries",
-    "documents",
-    "tracing",
-    "reference"
+    "document tracking",
+    "ledger entries",
+    "item tracing",
+    "search functionality",
+    "related documents"
   ],
   "objects": [
     {
@@ -25,11 +27,13 @@
     }
   ],
   "features": [
-    "document search",
-    "business contact search",
-    "item reference search",
-    "serial number tracing",
-    "lot number tracing"
+    "search by document number",
+    "search by posting date",
+    "search by business contact",
+    "search by item serial number",
+    "search by lot number",
+    "external document number search",
+    "keyboard shortcut Ctrl+Alt+Q"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003855,
-      "pages_in_call": 8
+      "cost_usd": 0.00372,
+      "pages_in_call": 1
     }
   ]
 }

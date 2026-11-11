@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-document-status.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-document-status",
-  "title": "Status Field on Documents",
-  "blob": "1056bbe7d8a7e23f114b397bb05f966f9e07079c",
-  "summary": "Documents like quotes, orders, and credit memos progress through status values (Open, Released, Pending Approval, Pending Prepayment) that control editing and workflow stages. Release a document to move it to the next processing stage.",
+  "title": "Understand Document Statuses",
+  "blob": "3d77157a747399becc137d1ae6550efdbc6199ed",
+  "summary": "Document statuses indicate whether quotes, orders, and credit memos are open, released, pending approval, or pending prepayment, controlling what changes can be made and when warehouse activities begin.",
   "systems": [
     "sales",
     "purchasing",
@@ -11,18 +11,21 @@
   ],
   "topics": [
     "document status",
+    "order management",
     "release process",
-    "approval workflows",
-    "order management"
+    "approval workflow",
+    "warehouse preparation"
   ],
   "objects": [],
   "features": [
-    "Status field",
-    "Open status",
-    "Released status",
-    "Pending Approval status",
-    "Pending Prepayment status",
-    "Release process"
+    "document status field",
+    "release process",
+    "open status",
+    "released status",
+    "pending approval status",
+    "pending prepayment status",
+    "reopen released documents",
+    "automatic release on posting"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002502,
-      "pages_in_call": 8
+      "cost_usd": 0.003517,
+      "pages_in_call": 1
     }
   ]
 }

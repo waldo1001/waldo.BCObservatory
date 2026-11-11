@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-define-customer-vendor-document-layouts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts",
-  "title": "Assign document layouts to customers or vendors",
-  "blob": "5bd70d910e773c6c348d42f2542cb9a05f82fa30",
-  "summary": "Assign document layouts to customers and vendors to define the appearance of sales and purchase documents, and specify contact email addresses for document distribution.",
+  "title": "Define Document Layouts for Customers and Vendors",
+  "blob": "a6f9a4af229c648802882e476203333516c69e5a",
+  "summary": "Define and assign document layouts to customers and vendors for sales and purchase documents, with options to specify report layouts, email recipients, and contact email addresses for each document type.",
   "systems": [
     "sales",
     "purchasing",
@@ -14,9 +14,14 @@
     "report layouts",
     "customer management",
     "vendor management",
-    "email distribution"
+    "email configuration",
+    "document customization"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "Document Layouts"
+    },
     {
       "type": "page",
       "name": "Customer Card"
@@ -24,10 +29,6 @@
     {
       "type": "page",
       "name": "Vendor Card"
-    },
-    {
-      "type": "page",
-      "name": "Document Layouts"
     },
     {
       "type": "page",
@@ -39,10 +40,12 @@
     }
   ],
   "features": [
-    "document layout assignment",
-    "custom report layouts",
-    "email distribution layouts",
-    "contact email addresses"
+    "Copy from Report Selection",
+    "Email Body Layout",
+    "Email Attachment Layout",
+    "Select Email from Contacts",
+    "Custom Layout Description",
+    "Document layout usage types"
   ],
   "versions": [],
   "parts": 1,
@@ -51,8 +54,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00293,
-      "pages_in_call": 8
+      "cost_usd": 0.004071,
+      "pages_in_call": 1
     }
   ]
 }

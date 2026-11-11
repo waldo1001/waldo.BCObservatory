@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Run Batch Jobs and XMLports",
+  "title": "Run Batch Jobs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-run-batch-jobs",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.008Z",
-      "blob": "be3109bec2958ec56b681853e5f3e3626dc047c0",
-      "words": 226,
+      "at": "2026-11-11T00:22:15.016Z",
+      "blob": "0b90475b7b8fc1cbc642135cca6e7fee39040df6",
+      "words": 223,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:11:13.780Z",
+      "at": "2026-11-11T00:22:51.208Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003606
+      "cost_usd": 0.005756
     },
     "summarized": {
-      "at": "2026-10-06T19:11:13.788Z",
+      "at": "2026-11-11T00:22:51.209Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:11:13.789Z",
+      "at": "2026-11-11T00:22:51.209Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:11:13.790Z",
+      "at": "2026-11-11T00:22:51.210Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-how-run-batch-jobs.md",
     "description": "You run batch jobs to process data and update information, for example, to do periodic accounting activities, or to do calculations.",
-    "ms_date": "2021-04-01",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -68,12 +68,12 @@
       "task",
       "process"
     ],
-    "ai_usage": null,
-    "words": 226,
+    "ai_usage": "ai-assisted",
+    "words": 223,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "284d1776188e08536d94d9d2c7d15091c02dfce415712b161d64908c8ba86a77"
+  "output_hash": "44369f1adced6749770a0b7439be119e6e75e3fa5f8565a4210dc63d7bb7a7ce"
 }

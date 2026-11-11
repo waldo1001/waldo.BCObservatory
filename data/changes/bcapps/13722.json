@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13722,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13722",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-10T00:47:30Z",
+  "merge_commit_sha": "e87df4a24098229ad530efe568ce352fe2bdc3f9",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "Build: scripts & configs",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[API tests] Mount parallel test tenants with app database write access",
+  "body_hash": "fbd120d16675fe1f114e2dc26040bffb59bec2280cbec3de74a9fa27e7b3e3b8",
+  "fixes_issues": [],
+  "work_items": [
+    646383,
+    658054
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 3,
+    "additions": 2,
+    "deletions": 7,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

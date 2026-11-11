@@ -1,24 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-how-preview-post-results.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-preview-post-results",
-  "title": "Preview Entries Before You Post a Document or Journal",
-  "blob": "629ceeb373858553ab1ea60447efc3464c649e4c",
-  "summary": "Preview Posting Results explains how to use the Preview Posting feature on documents and journals to review entries before posting. It shows which G/L entries and other ledger entries will be created upon posting.",
+  "title": "Preview Posting Results",
+  "blob": "f3e606baf2c19140a61f56c3f23a2e46b46fda84",
+  "summary": "Preview posting results lets users review entries that will be created when posting documents and journals before committing them. This helps verify the impact of posting operations.",
   "systems": [
     "finance",
-    "platform"
+    "purchasing"
   ],
   "topics": [
     "posting",
     "preview",
-    "general ledger",
-    "document posting"
+    "entries",
+    "documents",
+    "journals"
   ],
   "objects": [
-    {
-      "type": "page",
-      "name": "Purchase Invoices"
-    },
     {
       "type": "page",
       "name": "Posting Preview"
@@ -29,9 +26,11 @@
     }
   ],
   "features": [
-    "posting preview",
-    "g/l entry preview",
-    "related entries display"
+    "Preview Posting",
+    "Posting Preview Type",
+    "Standard posting preview",
+    "Extended posting preview",
+    "G/L Entry"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00434,
-      "pages_in_call": 8
+      "cost_usd": 0.002933,
+      "pages_in_call": 1
     }
   ]
 }

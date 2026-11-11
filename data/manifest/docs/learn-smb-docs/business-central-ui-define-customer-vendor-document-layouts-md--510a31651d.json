@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:10:14.124Z",
+      "at": "2026-11-11T00:21:40.004Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 5,
-      "cost_usd": 0.00293
+      "cost_usd": 0.004071
     },
     "summarized": {
-      "at": "2026-10-06T19:10:21.387Z",
+      "at": "2026-11-11T00:21:40.005Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:10:21.388Z",
+      "at": "2026-11-11T00:21:40.006Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:10:21.389Z",
+      "at": "2026-11-11T00:21:40.007Z",
       "page": false
     }
   },
@@ -72,5 +72,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a6f9a4af229c648802882e476203333516c69e5a"
+  "output_hash": "ccd6c7d82606a2ec3ee7403f070583e3ab60694a5619b51565780cb1af2eb532"
 }

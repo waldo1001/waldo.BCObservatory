@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Using the Company Hub",
+  "title": "The Company Hub Extension for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.757Z",
-      "blob": "e4efbc48fe076bec1939617290738f176fb96292",
-      "words": 164,
+      "at": "2026-11-11T00:21:43.529Z",
+      "blob": "b13d15edb97f22743eae2de7e92717b842b4e863",
+      "words": 182,
       "forms": 8
     },
     "extracted": {
-      "at": "2026-10-06T19:27:00.782Z",
+      "at": "2026-11-11T00:22:02.386Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002502
+      "cost_usd": 0.00294
     },
     "summarized": {
-      "at": "2026-10-06T19:27:02.512Z",
+      "at": "2026-11-11T00:22:02.387Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:02.513Z",
+      "at": "2026-11-11T00:22:02.388Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:02.513Z",
+      "at": "2026-11-11T00:22:02.389Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-extensions-company-hub.md",
     "description": "Provides information about the Company Hub extension that you can use to manage work across multiple companies in Business Central.",
-    "ms_date": "2021-04-01",
+    "ms_date": "2026-11-10",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -89,13 +89,16 @@
         "kind": null
       }
     ],
-    "keywords": [],
-    "ai_usage": null,
-    "words": 164,
+    "keywords": [
+      "company hub",
+      "accountant"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 182,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "15cf2a1bc67211275a22e22c3692c9873bccad9aaeaa0258f3f8af2e43c1f598"
+  "output_hash": "f46ff6e2fbfe72153b3e7211bf9d78f3ea91187117f1ad40317fb0b8afd374ba"
 }

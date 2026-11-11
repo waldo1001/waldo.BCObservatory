@@ -1,23 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-personalization-locked.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-personalization-locked",
-  "title": "Why a Page is Locked from Personalization",
-  "blob": "4d83eb98bd2a4abccd022b1a1dcc928159309331",
-  "summary": "Pages can be locked or blocked from personalization due to version incompatibility with deprecated clients or role-specific tailoring applied by administrators.",
+  "title": "Why a Page Is Locked from Personalization",
+  "blob": "47c1655bc9b28dc4c2765778c26bcec71f35c8f6",
+  "summary": "Explains why a page may be locked or blocked from personalization in Business Central, including version compatibility issues and legacy customizations, and how to unlock pages.",
   "systems": [
-    "administration"
+    "administration",
+    "platform"
   ],
   "topics": [
     "personalization",
-    "page customization",
-    "role centers",
-    "workspace configuration"
+    "page layout",
+    "user interface",
+    "customization",
+    "locks"
   ],
   "objects": [],
   "features": [
-    "personalization lock",
-    "personalization unlock",
-    "role-specific tailoring"
+    "personalization banner",
+    "lock icon",
+    "unlock page action",
+    "profile customization",
+    "legacy customization"
   ],
   "versions": [],
   "parts": 1,
@@ -26,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002981,
-      "pages_in_call": 7
+      "cost_usd": 0.003033,
+      "pages_in_call": 1
     }
   ]
 }

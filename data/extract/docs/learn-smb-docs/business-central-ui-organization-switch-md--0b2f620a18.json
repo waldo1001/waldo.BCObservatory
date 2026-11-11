@@ -2,38 +2,27 @@
   "item_id": "docs/learn-smb-docs/business-central/ui-organization-switch.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-organization-switch",
   "title": "Switching to Another Company or Environment",
-  "blob": "0b4041fe2610510654bdb2c2e36113040bfcfeea",
-  "summary": "This page describes methods to switch between companies and environments in Business Central, including company switcher, app launcher, My Settings, and Company Hub. Use this when you need to access a different company or environment.",
+  "blob": "3bd2d40378f2023bc6d95cba49cd914b899ad76c",
+  "summary": "Switching to Another Company or Environment describes how to use the company switcher, app launcher, My Settings, and Company Hub to navigate between different companies and environments in Business Central.",
   "systems": [
-    "administration",
-    "platform"
+    "administration"
   ],
   "topics": [
     "company switching",
-    "environment switching",
+    "environment navigation",
     "company switcher",
-    "app launcher",
-    "my settings",
-    "company hub",
+    "user interface",
     "multi-company"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "My Settings"
-    },
-    {
-      "type": "page",
-      "name": "Company Hub"
-    }
-  ],
+  "objects": [],
   "features": [
     "company switcher",
     "app launcher",
-    "my settings",
-    "company hub",
+    "My Settings",
+    "Company Hub",
     "company badge",
-    "multi-environment access"
+    "keyboard shortcuts",
+    "browser tabs"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006603,
-      "pages_in_call": 3
+      "cost_usd": 0.003927,
+      "pages_in_call": 1
     }
   ]
 }

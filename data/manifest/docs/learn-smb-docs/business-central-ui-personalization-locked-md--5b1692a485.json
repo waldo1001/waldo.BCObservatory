@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Why a Page is Locked from Personalization",
+  "title": "Why a Page Is Locked from Personalization",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-personalization-locked",
   "published_at": "2026-11-10T14:56:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.812Z",
-      "blob": "4d83eb98bd2a4abccd022b1a1dcc928159309331",
-      "words": 395,
+      "at": "2026-11-11T00:22:45.237Z",
+      "blob": "47c1655bc9b28dc4c2765778c26bcec71f35c8f6",
+      "words": 381,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:33.090Z",
+      "at": "2026-11-11T00:23:09.769Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002981
+      "cost_usd": 0.003033
     },
     "summarized": {
-      "at": "2026-10-06T19:27:33.101Z",
+      "at": "2026-11-11T00:23:12.617Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:33.102Z",
+      "at": "2026-11-11T00:23:12.618Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:33.103Z",
+      "at": "2026-11-11T00:23:12.619Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-personalization-locked.md",
-    "description": "You might be blocked from personalizing a page. Read here about what you can do to unlock it so you can personalize it.",
-    "ms_date": "2021-04-01",
-    "ms_topic": "article",
+    "description": "Learn why a Business Central page can be locked or blocked from personalization, how to unlock it, and when to contact your administrator.",
+    "ms_date": "2026-11-10",
+    "ms_topic": "troubleshooting",
     "search_form": [],
     "keywords": [
       "customize",
@@ -56,12 +56,12 @@
       "remove fields",
       "move fields"
     ],
-    "ai_usage": null,
-    "words": 395,
+    "ai_usage": "ai-assisted",
+    "words": 381,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7ca66c3dd36adaccf3ad85fe70008fcde79b5858f95b1758b79bcca34b4bcd6d"
+  "output_hash": "db3fc9ac4742bbc12a65a37c3891d3132febbab359a281699d2b68eb08eb62d1"
 }
