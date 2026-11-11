@@ -1,34 +1,32 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/work-outlook-addin.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/work-outlook-addin",
-  "title": "Using Business Central with Outlook",
-  "blob": "678f9c4e0a11a13a241830cdbe6dab85f1ceb961",
-  "summary": "Business Central Outlook add-in provides contact insights, document viewing, and business document creation directly from Outlook emails and calendar appointments, with file attachment support.",
+  "title": "Use Business Central in Microsoft Outlook",
+  "blob": "7118b04c1b5a29b41c64464a6ad218052107bc86",
+  "summary": "The Business Central Outlook add-in enables users to view customer and vendor information, create and send business documents like quotes and invoices, track incoming documents, and attach files to records directly from Outlook without leaving their email.",
   "systems": [
     "sales",
     "purchasing",
     "integration"
   ],
   "topics": [
-    "outlook integration",
-    "contact management",
-    "email documents",
-    "document attachments",
-    "add-ins"
-  ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Incoming Documents"
-    }
-  ],
-  "features": [
+    "outlook add-in",
     "contact insights",
-    "document view",
-    "sales quote creation",
-    "purchase invoice handling",
-    "email attachments",
-    "incoming document tracking"
+    "document creation",
+    "email integration",
+    "incoming documents",
+    "file attachments"
+  ],
+  "objects": [],
+  "features": [
+    "Contact insights lookup",
+    "Document view",
+    "Sales quote creation",
+    "Purchase invoice handling",
+    "Incoming documents tracking",
+    "File attachments",
+    "Company switching",
+    "Document email sending"
   ],
   "versions": [
     "2022 release wave 1"
@@ -39,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004098,
-      "pages_in_call": 8
+      "cost_usd": 0.009984,
+      "pages_in_call": 1
     }
   ]
 }

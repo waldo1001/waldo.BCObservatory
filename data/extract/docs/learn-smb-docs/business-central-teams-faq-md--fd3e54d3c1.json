@@ -1,13 +1,12 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/teams-faq.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/teams-faq",
-  "title": "Teams FAQ",
-  "blob": "e54eec604e9c65a5422bf670538a0c9c0b43b891",
-  "summary": "Teams FAQ answers questions about using the Business Central app for Microsoft Teams, covering installation, sign-in, permissions, contact search, tabs, cards, and collaboration features.",
+  "title": "Business Central and Microsoft Teams FAQ",
+  "blob": "1cfd3e315acdc8ca972e1d67d9427dbfec9d0817",
+  "summary": "Frequently asked questions about using Business Central with Microsoft Teams, covering sign-in, app availability, tab content, contact search, card functionality, card details, guest collaboration, and the Share to Teams feature.",
   "systems": [
     "integration",
-    "administration",
-    "platform"
+    "crm"
   ],
   "topics": [
     "teams",
@@ -15,8 +14,9 @@
     "contact search",
     "cards",
     "tabs",
-    "permissions",
-    "app installation"
+    "mobile",
+    "sharing",
+    "permissions"
   ],
   "objects": [
     {
@@ -25,18 +25,22 @@
     },
     {
       "type": "page",
-      "name": "Contact"
+      "name": "Contact Card"
+    },
+    {
+      "type": "page",
+      "name": "Printer Management"
     }
   ],
   "features": [
-    "Teams app installation",
+    "Teams app for Business Central",
+    "card expansion for links",
+    "Business Central tabs in Teams",
     "contact search",
-    "card expansion",
-    "tabs in chat",
-    "Teams integration",
-    "mobile support",
-    "guest collaboration",
-    "Share to Teams"
+    "Teams mobile app integration",
+    "Share to Teams action",
+    "company badge display",
+    "guest user support"
   ],
   "versions": [],
   "parts": 1,
@@ -45,8 +49,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.013569,
-      "pages_in_call": 2
+      "cost_usd": 0.021471,
+      "pages_in_call": 1
     }
   ]
 }

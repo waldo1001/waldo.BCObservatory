@@ -2,35 +2,42 @@
   "item_id": "docs/learn-smb-docs/business-central/ui-how-add-fields-word-report-layout.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout",
   "title": "Map Data Fields in Word Layouts",
-  "blob": "517d4c856c6634efa3c49038d61e0dd38ec7c637",
-  "summary": "Add report data to Word layouts using the XML Mapping pane to manually map content controls, add repeating rows, and insert image fields for custom report design.",
+  "blob": "6fb2a74fe7e660b921a48a1a2ca138837b4ca94b",
+  "summary": "Map report data fields to Word document content controls using the XML Mapping pane to arrange report content, labels, images, and repeating data in Word layouts.",
   "systems": [
     "reporting",
     "development"
   ],
   "topics": [
     "word layouts",
+    "report design",
     "xml mapping",
     "content controls",
-    "report design"
+    "data fields",
+    "report customization"
   ],
   "objects": [],
   "features": [
-    "xml mapping pane",
+    "XML Mapping pane",
     "content controls",
     "repeating rows",
     "image fields",
-    "label mapping"
+    "label mapping",
+    "custom XML part",
+    "layout export",
+    "font embedding"
   ],
-  "versions": [],
+  "versions": [
+    "version 29"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007228,
-      "pages_in_call": 8
+      "cost_usd": 0.004313,
+      "pages_in_call": 1
     }
   ]
 }

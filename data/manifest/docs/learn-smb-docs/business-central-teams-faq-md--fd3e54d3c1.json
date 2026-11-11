@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Teams FAQ",
+  "title": "Business Central and Microsoft Teams FAQ",
   "url": "https://learn.microsoft.com/dynamics365/business-central/teams-faq",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.635Z",
-      "blob": "e54eec604e9c65a5422bf670538a0c9c0b43b891",
-      "words": 5083,
+      "at": "2026-11-11T00:24:40.881Z",
+      "blob": "1cfd3e315acdc8ca972e1d67d9427dbfec9d0817",
+      "words": 5097,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:50:43.062Z",
+      "at": "2026-11-11T00:24:46.818Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.013569
+      "objects": 3,
+      "cost_usd": 0.021471
     },
     "summarized": {
-      "at": "2026-10-06T18:50:47.762Z",
+      "at": "2026-11-11T00:24:46.819Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:50:47.764Z",
+      "at": "2026-11-11T00:24:46.821Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:50:47.765Z",
+      "at": "2026-11-11T00:24:46.821Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/teams-faq.md",
-    "description": "Get answers for some typical questions about working with Teams and Business Central.",
-    "ms_date": "2025-01-06",
+    "description": "Get answers about Business Central in Microsoft Teams, including contact search, shared cards, tabs, permissions, guest access, and card details.",
+    "ms_date": "2026-11-09",
     "ms_topic": "faq",
     "search_form": [],
     "keywords": [
@@ -61,12 +61,12 @@
       "faq",
       "errors"
     ],
-    "ai_usage": null,
-    "words": 5083,
+    "ai_usage": "ai-assisted",
+    "words": 5097,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d1c7d310c89f5341cf991cf2cdbf7fdf2227de7163c9c0ab08fd3719684e427d"
+  "output_hash": "885b9071b9eae3b497d144c193012997b06cdf0557f5623023b7a8448ba0f350"
 }

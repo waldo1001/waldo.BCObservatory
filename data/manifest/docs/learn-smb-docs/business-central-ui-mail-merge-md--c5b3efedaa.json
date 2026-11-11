@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Using Word templates for bulk communications",
+  "title": "Use Word Templates for Business Central Communication",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.032Z",
-      "blob": "62f9c26543bf75b51728d2d1afb4aba7feb6c5e0",
-      "words": 1297,
+      "at": "2026-11-11T00:24:46.872Z",
+      "blob": "e999e861a2c963179f247f9b8782df4572bb1fd6",
+      "words": 1318,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:11:13.785Z",
+      "at": "2026-11-11T00:24:51.532Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003606
+      "objects": 4,
+      "cost_usd": 0.005212
     },
     "summarized": {
-      "at": "2026-10-06T19:11:13.802Z",
+      "at": "2026-11-11T00:24:51.533Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:11:13.803Z",
+      "at": "2026-11-11T00:24:51.533Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:11:13.804Z",
+      "at": "2026-11-11T00:24:51.533Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-mail-merge.md",
-    "description": "Word templates can make it easy to bulk create documents that are personalized for specific entities.",
-    "ms_date": "2024-11-13",
+    "description": "Learn how to create Word templates in Business Central, select merge fields, and generate personalized documents or email content for business contacts.",
+    "ms_date": "2026-11-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1297,
+    "ai_usage": "ai-assisted",
+    "words": 1318,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7964bda7bbac8b17c822c0b16a268fe6006a7cfbad4363e96e9a3e8740a34d80"
+  "output_hash": "3e5ac0835a1ada48bd7d4908e795803af0962892a4f31914265147b51ca860ff"
 }

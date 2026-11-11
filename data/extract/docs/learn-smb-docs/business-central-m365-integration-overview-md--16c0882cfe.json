@@ -1,30 +1,36 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/m365-integration-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/m365-integration-overview",
-  "title": "Integrating with Office apps and Microsoft 365",
-  "blob": "7e06639c49556d3cf7ba210230e64a709f812545",
-  "summary": "Integrating with Office apps and Microsoft 365 covers Excel data export and import, OneDrive document storage, Outlook email and contact management, Teams sharing, and Word document templates.",
+  "title": "Integrate Business Central with Microsoft 365 Apps",
+  "blob": "04feaff21eeb2215b4c9de7591ffda751aca7eb0",
+  "summary": "Integrate Business Central with Microsoft 365 apps including Excel, OneDrive, Outlook, Teams, and Word for data analysis, document management, and business communications.",
   "systems": [
     "integration",
+    "reporting",
     "administration"
   ],
   "topics": [
     "microsoft 365",
-    "excel",
+    "excel integration",
     "onedrive",
     "outlook",
     "teams",
-    "word"
+    "word",
+    "data export",
+    "bulk communication"
   ],
   "objects": [],
   "features": [
-    "Excel export and import",
     "Open in Excel",
     "Edit in Excel",
+    "Excel report layouts",
+    "G/L budget export and import",
     "OneDrive integration",
-    "Outlook add-in",
-    "Word layouts",
-    "mail merge"
+    "Open in OneDrive",
+    "Outlook add-in with contact insights",
+    "Word document layouts",
+    "Mail merge templates",
+    "Teams record sharing"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004641,
-      "pages_in_call": 8
+      "cost_usd": 0.004776,
+      "pages_in_call": 1
     }
   ]
 }

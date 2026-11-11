@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Analyzing report data with Excel and XML",
+  "title": "Analyze Report Datasets with Excel and XML",
   "url": "https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.623Z",
-      "blob": "4e00da27bbfb5c87ca26851d4f0c1926e7fe7fe6",
-      "words": 606,
+      "at": "2026-11-11T00:24:40.867Z",
+      "blob": "80eff3ab2c5f94a8d714248f22ff66a62d515eb0",
+      "words": 610,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:50:43.058Z",
+      "at": "2026-11-11T00:24:47.524Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.007311
+      "cost_usd": 0.006999
     },
     "summarized": {
-      "at": "2026-10-06T18:50:45.984Z",
+      "at": "2026-11-11T00:24:47.525Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:50:45.985Z",
+      "at": "2026-11-11T00:24:47.526Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:50:45.986Z",
+      "at": "2026-11-11T00:24:47.527Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/report-analyze-excel.md",
-    "description": "Learn how to use Excel and XML to analyze a report dataset.",
-    "ms_date": "2024-09-09",
+    "description": "Learn how to export Business Central report datasets to Excel or XML, inspect raw report data, and give users permission to export datasets.",
+    "ms_date": "2026-11-09",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -60,12 +60,12 @@
       "Word",
       "dataset"
     ],
-    "ai_usage": null,
-    "words": 606,
+    "ai_usage": "ai-assisted",
+    "words": 610,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b085ade0239e40db37770f1fdb5b11f8b1539cb19bd37070ea58a85f46c39d1f"
+  "output_hash": "141a42a498283d8e19fd9b39b0c2d5adb7807f308583034caaf546da92e430fc"
 }

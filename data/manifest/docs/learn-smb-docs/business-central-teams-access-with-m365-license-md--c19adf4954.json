@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Access Data in Teams without Business Central License",
+  "title": "Access Data in Teams Without a Business Central License",
   "url": "https://learn.microsoft.com/dynamics365/business-central/teams-access-with-m365-license",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.990Z",
-      "blob": "a3afc3076114fdd888c7c85bfeedf72829774091",
-      "words": 199,
+      "at": "2026-11-11T00:24:40.853Z",
+      "blob": "b1bdfa5b8a9a28c22059bd49bb9f3c0fc588767c",
+      "words": 201,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:43:16.892Z",
+      "at": "2026-11-11T00:24:47.130Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002277
+      "cost_usd": 0.005331
     },
     "summarized": {
-      "at": "2026-10-06T19:43:19.026Z",
+      "at": "2026-11-11T00:24:47.132Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:19.026Z",
+      "at": "2026-11-11T00:24:47.133Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:19.027Z",
+      "at": "2026-11-11T00:24:47.135Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/teams-access-with-m365-license.md",
     "description": "Learn how users can get access to Business Central data in Microsoft Teams chats and channels, with only a Microsoft 365 license, but no Business Central license.",
-    "ms_date": "2023-02-07",
+    "ms_date": "2026-11-09",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "Teams",
       "Microsoft Teams"
     ],
-    "ai_usage": null,
-    "words": 199,
+    "ai_usage": "ai-assisted",
+    "words": 201,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "71c97e61952e7d7f50849ac02a5628b929399a19c3353ef630b4187d90d4cb4b"
+  "output_hash": "1af1d1f1e7e6db3bfdbe4965730af910c81490fc5936ac088c5af2dee1d1671f"
 }

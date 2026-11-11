@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:23.224Z",
-      "blob": "ca735137e1500231fdf631893ea740bfe3c94de1",
-      "words": 1663,
+      "at": "2026-11-11T00:24:40.858Z",
+      "blob": "e8e9e7744c6a6a4ce21806189846d0bcee8e37c0",
+      "words": 1759,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T17:50:52.823Z",
+      "at": "2026-11-11T00:24:46.461Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004641
+      "cost_usd": 0.005372
     },
     "summarized": {
-      "at": "2026-10-06T17:50:54.513Z",
+      "at": "2026-11-11T00:24:46.462Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:50:54.514Z",
+      "at": "2026-11-11T00:24:46.463Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:50:54.515Z",
+      "at": "2026-11-11T00:24:46.464Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/save-business-contacts-to-outlook.md",
     "description": "Learn how to synchronize Business Central contacts with Microsoft Outlook and Teams to streamline communication and access contact details effortlessly.",
-    "ms_date": "2026-03-13",
+    "ms_date": "2026-11-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1663,
+    "ai_usage": "ai-assisted",
+    "words": 1759,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ea692939f7385c0ff42dc5d7554f254e079b659d75c1685772fd3910416642a3"
+  "output_hash": "a8267906e436cc1d86b045540d903579677d8b8a87a0b929f86165f17d371690"
 }

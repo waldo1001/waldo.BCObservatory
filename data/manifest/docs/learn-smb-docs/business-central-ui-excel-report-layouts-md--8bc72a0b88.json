@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Working with Excel layouts",
+  "title": "Create Excel Report Layouts in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.632Z",
-      "blob": "e26f1ba3187acc097c0f4d0f7914bfbcdffd983b",
-      "words": 1095,
+      "at": "2026-11-11T00:24:46.222Z",
+      "blob": "e4ed536f7791c7a8eec88b8d26e24888eae862ff",
+      "words": 1241,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:26:38.961Z",
+      "at": "2026-11-11T00:24:50.629Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003855
+      "objects": 0,
+      "cost_usd": 0.00522
     },
     "summarized": {
-      "at": "2026-10-06T19:26:39.045Z",
+      "at": "2026-11-11T00:24:50.629Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:39.046Z",
+      "at": "2026-11-11T00:24:50.630Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:39.047Z",
+      "at": "2026-11-11T00:24:50.631Z",
       "page": false
     }
   },
@@ -44,18 +44,18 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-excel-report-layouts.md",
-    "description": "Learn how to create and modify report layouts that are built using Excel.",
-    "ms_date": "2024-09-09",
+    "description": "Learn how to create and import Excel report layouts in Business Central, configure data sheets, and preserve the dataset structure in your workbook.",
+    "ms_date": "2026-11-09",
     "ms_topic": "how-to",
     "search_form": [
       {
-        "raw": "9650",
-        "id": 9650,
+        "raw": "9660",
+        "id": 9660,
         "kind": null
       },
       {
-        "raw": "9652",
-        "id": 9652,
+        "raw": "9662",
+        "id": 9662,
         "kind": null
       }
     ],
@@ -65,12 +65,12 @@
       "logo",
       "personalize"
     ],
-    "ai_usage": null,
-    "words": 1095,
+    "ai_usage": "ai-assisted",
+    "words": 1241,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "114e53f82325bc3e275864f60181162857c5608d106134e077cbf300b1c3d516"
+  "output_hash": "8b4e90173d3262eb8da3f622a1dcd12730ee7e3505c7ad937e4175269f02185a"
 }

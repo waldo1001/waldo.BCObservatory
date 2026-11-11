@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.362Z",
-      "blob": "517d4c856c6634efa3c49038d61e0dd38ec7c637",
-      "words": 1003,
+      "at": "2026-11-11T00:24:46.493Z",
+      "blob": "6fb2a74fe7e660b921a48a1a2ca138837b4ca94b",
+      "words": 1036,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T14:03:05.342Z",
+      "at": "2026-11-11T00:24:50.893Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.007228
+      "cost_usd": 0.004313
     },
     "summarized": {
-      "at": "2026-10-06T14:03:05.345Z",
+      "at": "2026-11-11T00:24:50.894Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:03:05.345Z",
+      "at": "2026-11-11T00:24:50.903Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:03:05.345Z",
+      "at": "2026-11-11T00:24:50.903Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-how-add-fields-word-report-layout.md",
     "description": "Learn how to use the XML Mapping Pane in Word to manually map Business Central report data, labels, images, and repeating rows to content controls.",
-    "ms_date": "2026-09-09",
+    "ms_date": "2026-11-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "content control",
       "report field"
     ],
-    "ai_usage": null,
-    "words": 1003,
+    "ai_usage": "ai-assisted",
+    "words": 1036,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "af21b193a5cc20b1f05d9b95a1bfa58d37e36eb98305d0db001c4e7cda5e0945"
+  "output_hash": "db03c539b2f316b95acbb5ff1b81d3b1def57ea7ea927d9f4a4ae06a7bdbafca"
 }

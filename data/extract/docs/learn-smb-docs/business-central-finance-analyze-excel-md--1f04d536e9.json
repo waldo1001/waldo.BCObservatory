@@ -1,29 +1,32 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-analyze-excel.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-analyze-excel",
-  "title": "Work with financial overviews in Excel (legacy)",
-  "blob": "f7b3d1e586b602af791313b4bfa5c4a914a011d5",
-  "summary": "Work with financial overviews in Excel is a deprecated feature for exporting and analyzing financial statements like balance sheets and income statements in Excel using predefined templates and the Business Central add-in.",
+  "title": "Analyzing Financial Statements in Microsoft Excel (legacy)",
+  "blob": "99e0dcb189080b5e1c7d6b13b2483aec7bc85780",
+  "summary": "Legacy Excel financial statement workbooks for analyzing balance sheets, income statements, cash flows, and other financial reports. This feature is deprecated; use Excel layouts for financial reports or Excel report layouts instead.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
+    "financial statements",
     "excel export",
+    "legacy feature",
     "financial analysis",
     "balance sheet",
     "income statement",
-    "deprecated feature"
+    "cash flow"
   ],
   "objects": [],
   "features": [
-    "Export financial statements to Excel",
-    "Excel add-in integration",
-    "Predefined Excel templates",
-    "Balance Sheet report",
-    "Income Statement report",
-    "Statement of Cash Flows",
-    "Customer Statements"
+    "Balance Sheet export",
+    "Income Statement export",
+    "Statement of Cash Flows export",
+    "Statement of Retained Earnings export",
+    "Sales Taxes Collected report",
+    "Customer Statements report",
+    "Aged Accounts Payable report",
+    "Aged Accounts Receivable report"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004041,
-      "pages_in_call": 8
+      "cost_usd": 0.004001,
+      "pages_in_call": 1
     }
   ]
 }

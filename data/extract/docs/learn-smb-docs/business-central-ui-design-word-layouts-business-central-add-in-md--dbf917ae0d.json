@@ -2,36 +2,44 @@
   "item_id": "docs/learn-smb-docs/business-central/ui-design-word-layouts-business-central-add-in.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in",
   "title": "Design Word Layouts with the Business Central Add-in",
-  "blob": "66b4c32ee386825bd93cf3ee0101de0bfee536db",
-  "summary": "Design and customize Word report layouts using the Business Central add-in to add fields, create data tables, and control content display without manual XML editing.",
+  "blob": "261427c55d100f31c17d620dd10fc1fe4640246f",
+  "summary": "Design report layouts using the Business Central Word add-in to add report data, build tables, and control content visibility without editing XML directly.",
   "systems": [
     "reporting",
-    "administration",
     "development"
   ],
   "topics": [
     "report layouts",
-    "word layouts",
-    "document design",
-    "add-in"
+    "word add-in",
+    "report design",
+    "data binding",
+    "content controls"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer List"
+    }
+  ],
   "features": [
-    "add report fields",
-    "build repeating data tables",
-    "hide content conditionally",
-    "layout comments",
-    "insert content controls"
+    "Add Data task pane",
+    "Insert table",
+    "Add repeater",
+    "Hide if empty controls",
+    "Layout comments",
+    "XML Mapping Pane alternative"
   ],
-  "versions": [],
+  "versions": [
+    "version 29"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007228,
-      "pages_in_call": 8
+      "cost_usd": 0.009513,
+      "pages_in_call": 1
     }
   ]
 }

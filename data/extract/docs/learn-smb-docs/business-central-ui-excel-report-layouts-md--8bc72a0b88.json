@@ -1,44 +1,41 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-excel-report-layouts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts",
-  "title": "Working with Excel layouts",
-  "blob": "e26f1ba3187acc097c0f4d0f7914bfbcdffd983b",
-  "summary": "Explains how to create, configure, and work with Microsoft Excel report layouts that include formulas, PivotTables, PivotCharts, and multiple worksheets for data summarization and analysis.",
+  "title": "Create Excel Report Layouts in Business Central",
+  "blob": "e4ed536f7791c7a8eec88b8d26e24888eae862ff",
+  "summary": "Excel report layouts let you create reports using familiar Excel features like formulas, PivotTables, and PivotCharts. This guide covers creating Excel layouts from scratch or existing layouts, adding them to reports, and understanding data sheet requirements.",
   "systems": [
     "reporting"
   ],
   "topics": [
-    "excel",
-    "report layout",
-    "visualization",
-    "pivot table",
-    "worksheet",
-    "design"
+    "excel layouts",
+    "report layouts",
+    "report design",
+    "data sheets",
+    "business central reports"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Report Layouts"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Excel workbook layouts",
-    "PivotTables",
-    "PivotCharts",
-    "multiple worksheets",
-    "data sheet",
-    "built-in Office features",
-    "OneDrive integration"
+    "Excel report layouts",
+    "PivotTables and PivotCharts",
+    "Multiple worksheets",
+    "Interactive elements and visualizations",
+    "Worksheet protection",
+    "Sensitivity labels",
+    "OneDrive integration",
+    "Layout draft status and approval"
   ],
-  "versions": [],
+  "versions": [
+    "version 29"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003855,
-      "pages_in_call": 8
+      "cost_usd": 0.00522,
+      "pages_in_call": 1
     }
   ]
 }

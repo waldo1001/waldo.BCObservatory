@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Using Business Central with Outlook",
+  "title": "Use Business Central in Microsoft Outlook",
   "url": "https://learn.microsoft.com/dynamics365/business-central/work-outlook-addin",
   "published_at": "2026-11-10T08:04:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.601Z",
-      "blob": "678f9c4e0a11a13a241830cdbe6dab85f1ceb961",
-      "words": 1610,
+      "at": "2026-11-11T00:24:47.180Z",
+      "blob": "7118b04c1b5a29b41c64464a6ad218052107bc86",
+      "words": 1727,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:46:19.940Z",
+      "at": "2026-11-11T00:24:51.716Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.004098
+      "objects": 0,
+      "cost_usd": 0.009984
     },
     "summarized": {
-      "at": "2026-10-06T18:46:30.707Z",
+      "at": "2026-11-11T00:24:51.717Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:46:30.708Z",
+      "at": "2026-11-11T00:24:51.717Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:46:30.709Z",
+      "at": "2026-11-11T00:24:51.718Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/work-outlook-addin.md",
-    "description": "This service has deep integration with Microsoft 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.",
-    "ms_date": "2026-03-10",
+    "description": "Use the Business Central add-in for Outlook to view customer and vendor details, create and email business documents, and attach files to records.",
+    "ms_date": "2026-11-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "mail",
       "Microsoft 365"
     ],
-    "ai_usage": null,
-    "words": 1610,
+    "ai_usage": "ai-assisted",
+    "words": 1727,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "11abd8ef68d3d65e2b84ec88d3db56fc24dd3a2de003a6c6d325b28ba3c3895b"
+  "output_hash": "a401fb85fdae74abe2d6282eef9e9c144d5a7dfc63dbb4dd613f31ce6916afab"
 }
