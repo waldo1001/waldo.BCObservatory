@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/year-prepare-close-statement.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-prepare-close-statement",
-  "title": "Overview of reports to help prepare closing statements",
-  "blob": "0243eb4e45a24e69972957b3e1430c76cdd526e5",
-  "summary": "Use standard reports to prepare closing statements, including trial balance, aged accounts, budget comparisons, and account reconciliation reports for year-end closing.",
+  "title": "Prepare Closing Statements",
+  "blob": "8b9366575d7bf083fc473f2360d3094f3b26cba1",
+  "summary": "Prepare closing statements using various trial balance and reconciliation reports to verify general ledger accounts, accounts receivable and payable, and budget comparisons before closing a fiscal period.",
   "systems": [
     "finance",
     "reporting"
@@ -11,27 +11,27 @@
   "topics": [
     "closing statements",
     "trial balance",
-    "aged accounts",
-    "budget comparison",
-    "financial reports",
-    "account reconciliation"
+    "accounts receivable",
+    "accounts payable",
+    "reconciliation",
+    "financial reporting"
   ],
   "objects": [
     {
       "type": "report",
-      "name": "Trial Balance"
+      "name": "Trial Balance (Excel)"
     },
     {
       "type": "report",
-      "name": "Aged Accounts Receivable"
+      "name": "Aged Accounts Receivable (Excel)"
     },
     {
       "type": "report",
-      "name": "Aged Accounts Payable"
+      "name": "Aged Accounts Payable (Excel)"
     },
     {
       "type": "report",
-      "name": "Trial Balance/Budget"
+      "name": "Trial Balance/Budget (Excel)"
     },
     {
       "type": "report",
@@ -39,21 +39,20 @@
     },
     {
       "type": "report",
-      "name": "Financial Report"
+      "name": "Run Financial Report"
     },
     {
       "type": "report",
-      "name": "Reconcile Cust. and Vend. Accs"
+      "name": "Reconcile Customer and Vendor Accounts"
     }
   ],
   "features": [
-    "trial balance reporting",
-    "accounts receivable aging",
-    "accounts payable aging",
+    "trial balance",
+    "aged accounts receivable",
+    "aged accounts payable",
     "budget comparison",
-    "periodic trial balance",
-    "general ledger analysis",
-    "customer vendor reconciliation"
+    "financial analysis",
+    "account reconciliation"
   ],
   "versions": [],
   "parts": 1,
@@ -62,8 +61,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003384,
-      "pages_in_call": 8
+      "cost_usd": 0.003912,
+      "pages_in_call": 1
     }
   ]
 }

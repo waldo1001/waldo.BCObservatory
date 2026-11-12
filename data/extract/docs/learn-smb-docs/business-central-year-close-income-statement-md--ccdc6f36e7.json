@@ -1,19 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/year-close-income-statement.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-close-income-statement",
-  "title": "Close income statement accounts",
-  "blob": "95d677efe276e117c92ef7f8a978bbdabe9b2597",
-  "summary": "Close income statement accounts at the end of a fiscal year by running the Close Income Statement batch job, which transfers year results to the balance sheet and zeroes income statement accounts.",
+  "title": "Close Income Statement Accounts",
+  "blob": "690efe6b698434e8ee964ab3b6f782a8d2f14cdf",
+  "summary": "Close Income Statement batch job reverses income statement balances and transfers the year's result to retained earnings. Use this after closing the fiscal year to complete year-end closing procedures.",
   "systems": [
     "finance"
   ],
   "topics": [
-    "year-end closing",
+    "year-end close",
     "income statement",
-    "fiscal year closure",
-    "general ledger",
-    "closing entries",
-    "retained earnings"
+    "batch job",
+    "journal posting",
+    "retained earnings",
+    "fiscal year"
   ],
   "objects": [
     {
@@ -22,12 +22,12 @@
     }
   ],
   "features": [
-    "income statement account closure",
-    "balance transfer",
-    "closing date posting",
     "fiscal year closing",
-    "manual journal posting",
-    "additional reporting currency support"
+    "income statement account reversal",
+    "retained earnings transfer",
+    "business unit splitting",
+    "dimension-based closing",
+    "reporting currency support"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003384,
-      "pages_in_call": 8
+      "cost_usd": 0.003453,
+      "pages_in_call": 1
     }
   ]
 }

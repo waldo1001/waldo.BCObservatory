@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-close-income-statement",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:12:25.467Z",
+      "at": "2026-11-12T00:20:21.554Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003384
+      "cost_usd": 0.003453
     },
     "summarized": {
-      "at": "2026-10-06T19:12:27.313Z",
+      "at": "2026-11-12T00:20:21.555Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:12:27.314Z",
+      "at": "2026-11-12T00:20:21.556Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:12:27.315Z",
+      "at": "2026-11-12T00:20:21.557Z",
       "page": false
     }
   },
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "690efe6b698434e8ee964ab3b6f782a8d2f14cdf"
+  "output_hash": "aa603f1449470be5e687acb84b8103c34c0b07e692fe31d3716b0c4078b281a1"
 }

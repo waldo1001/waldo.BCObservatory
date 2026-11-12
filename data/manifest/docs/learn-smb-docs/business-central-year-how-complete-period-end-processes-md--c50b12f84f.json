@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Optional activities for closing periods",
+  "title": "Overview of Tasks to Close Accounting Periods",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-how-complete-period-end-processes",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:41.016Z",
-      "blob": "7fe3bc3a7889dce296f561110002c0b0926d144f",
-      "words": 257,
+      "at": "2026-11-12T00:20:03.765Z",
+      "blob": "acb8904ccfcdca3bbaf3228cd85b0603579b0c12",
+      "words": 278,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:43:16.897Z",
+      "at": "2026-11-12T00:20:38.031Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002277
+      "objects": 4,
+      "cost_usd": 0.006555
     },
     "summarized": {
-      "at": "2026-10-06T19:43:20.843Z",
+      "at": "2026-11-12T00:20:38.032Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:20.844Z",
+      "at": "2026-11-12T00:20:38.032Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:20.845Z",
+      "at": "2026-11-12T00:20:38.033Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/year-how-complete-period-end-processes.md",
-    "description": "This article outlines the optional processes and activities for closing accounting periods in Business Central.",
-    "ms_date": "2024-08-02",
+    "description": "Review optional period-end tasks in Business Central, including posting journals, reconciling balances, running reports, and completing tax statements.",
+    "ms_date": "2026-11-11",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "creditor payments",
       "vendor payments"
     ],
-    "ai_usage": null,
-    "words": 257,
+    "ai_usage": "ai-assisted",
+    "words": 278,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "84aeac1d8c8029d8c9827981051e0fc4585672a9c5b6a539f842af32cd03a61e"
+  "output_hash": "9c615ba12aff88db8bed6c8516159721ea65e71c0987017684193f9e2782b31b"
 }

@@ -1,34 +1,53 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/year-how-complete-period-end-processes.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-how-complete-period-end-processes",
-  "title": "Optional activities for closing periods",
-  "blob": "7fe3bc3a7889dce296f561110002c0b0926d144f",
-  "summary": "Checklist of period-end closing tasks for general ledger, sales, purchases, fixed assets, and tax including reconciliation and batch jobs.",
+  "title": "Overview of Tasks to Close Accounting Periods",
+  "blob": "acb8904ccfcdca3bbaf3228cd85b0603579b0c12",
+  "summary": "Overview of tasks to close accounting periods, including general ledger adjustments, sales and receivables reconciliation, purchases and payables processing, fixed asset posting, intercompany transactions, and tax calculation.",
   "systems": [
     "finance",
     "sales",
     "purchasing"
   ],
   "topics": [
-    "period closing",
+    "period-end",
+    "closing",
     "reconciliation",
-    "adjustments",
-    "reporting",
-    "tax"
+    "posting",
+    "general ledger",
+    "accounts payable",
+    "accounts receivable"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Financial Reports"
+    },
+    {
+      "type": "report",
+      "name": "Aged Accounts Payable (Excel)"
+    },
+    {
+      "type": "report",
+      "name": "Delete Invoiced Sales Orders"
+    },
+    {
+      "type": "report",
+      "name": "Delete Invoiced Purchase Orders"
     }
   ],
   "features": [
-    "posting period specification",
-    "general ledger adjustments",
-    "reconciliation",
-    "financial reporting",
-    "tax statements",
-    "batch jobs"
+    "posting periods",
+    "G/L adjustments",
+    "recurring journals",
+    "financial reports",
+    "sales order posting",
+    "purchase order posting",
+    "cash receipt journals",
+    "payment journals",
+    "fixed asset journals",
+    "depreciation",
+    "tax statements"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +56,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002277,
-      "pages_in_call": 8
+      "cost_usd": 0.006555,
+      "pages_in_call": 1
     }
   ]
 }

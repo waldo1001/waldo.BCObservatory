@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Close fiscal years and accounting periods",
+  "title": "Close Years and Periods",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-close-years-periods",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.725Z",
-      "blob": "67515d7c3512af03e52b6519333f7e90595e344d",
-      "words": 271,
+      "at": "2026-11-12T00:20:01.340Z",
+      "blob": "079b3ad48fbe37b98a6f05db5afe3e44bf4eb9c6",
+      "words": 308,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:27:04.660Z",
+      "at": "2026-11-12T00:20:28.765Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003271
+      "cost_usd": 0.003185
     },
     "summarized": {
-      "at": "2026-10-06T19:27:04.680Z",
+      "at": "2026-11-12T00:20:28.766Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:04.681Z",
+      "at": "2026-11-12T00:20:28.767Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:04.682Z",
+      "at": "2026-11-12T00:20:28.767Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/year-close-years-periods.md",
     "description": "Outlines the tasks to close a fiscal year or an accounting period, such as ensuring documents and journals are posted and verifying bank balances.",
-    "ms_date": "2024-08-02",
-    "ms_topic": "concept-article",
+    "ms_date": "2026-11-11",
+    "ms_topic": "overview",
     "search_form": [
       {
         "raw": "100",
@@ -60,12 +60,12 @@
       "close fiscal year",
       "bank account detailed trial balance"
     ],
-    "ai_usage": null,
-    "words": 271,
+    "ai_usage": "ai-assisted",
+    "words": 308,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "de6d542da6517865dad22dfc5509718c43f9d7a4770c2825f4c3ff8050208a59"
+  "output_hash": "4868b8efac7952faa7ffff09e686c1b603c08324597fb7da417a87b8fbd620a3"
 }

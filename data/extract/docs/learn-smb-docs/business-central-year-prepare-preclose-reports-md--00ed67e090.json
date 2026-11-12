@@ -1,24 +1,24 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/year-prepare-preclose-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-prepare-preclose-reports",
-  "title": "Overview of pre-closing reports to verify account accuracy",
-  "blob": "174af5054edf18d3751b209bb89e752b9688b93e",
-  "summary": "Use pre-closing reports to verify account accuracy before closing books, including detail trial balance reports for banks, customers, vendors, and consolidated companies.",
+  "title": "Use Preclosing Reports",
+  "blob": "2c3726cee18a872fd99ea3715cd2a801613fbb8f",
+  "summary": "Preclosing reports verify account accuracy before year-end or period closing, including trial balance reports for customers, vendors, bank accounts, and general ledger accounts.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
-    "pre-closing reports",
-    "account verification",
+    "preclosing",
     "trial balance",
-    "account accuracy",
-    "year-end verification"
+    "year-end",
+    "account verification",
+    "reporting"
   ],
   "objects": [
     {
       "type": "report",
-      "name": "Bank Acc. - Detail Trial Bal."
+      "name": "Bank Accounts - Detail Trial Balance"
     },
     {
       "type": "report",
@@ -46,7 +46,7 @@
     },
     {
       "type": "report",
-      "name": "Trial Balance"
+      "name": "Trial Balance (Excel)"
     },
     {
       "type": "report",
@@ -54,13 +54,12 @@
     }
   ],
   "features": [
+    "trial balance reports",
+    "customer verification",
+    "vendor verification",
     "bank account verification",
-    "customer balance verification",
-    "vendor balance verification",
-    "period comparison",
-    "general ledger account verification",
-    "consolidated company reporting",
-    "detailed entry reporting"
+    "general ledger verification",
+    "consolidated reporting"
   ],
   "versions": [],
   "parts": 1,
@@ -69,8 +68,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003384,
-      "pages_in_call": 8
+      "cost_usd": 0.003914,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/supervise-agent-tasks",
   "published_at": "2026-11-11T08:31:07.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.531Z",
-      "blob": "8cb0ce163250740d6e03e4153c8f4f59a44a4f2b",
-      "words": 2018,
+      "at": "2026-11-12T00:20:47.762Z",
+      "blob": "fad01fb9b20d40b37d8511642b96aa7a362ebf84",
+      "words": 2117,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T13:13:35.862Z",
+      "at": "2026-11-12T00:21:17.922Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.008241
+      "cost_usd": 0.010308
     },
     "summarized": {
-      "at": "2026-10-06T13:14:49.458Z",
+      "at": "2026-11-12T00:21:17.922Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:14:49.458Z",
+      "at": "2026-11-12T00:21:17.923Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:14:49.458Z",
+      "at": "2026-11-12T00:21:17.923Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/supervise-agent-tasks.md",
     "description": "Review agent-generated documents, approve AI suggestions, give instructions to agents, and manage tasks in Business Central.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -61,11 +61,11 @@
     ],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 2018,
+    "words": 2117,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "41810c4519496415ef703e069f625ffef1b7e8b7b8adc8e5dded55b41ef9c095"
+  "output_hash": "686cd8308aa3dde62009eca062a0c1b8f23ba446180ed452f7c4ef5ee09a9e41"
 }

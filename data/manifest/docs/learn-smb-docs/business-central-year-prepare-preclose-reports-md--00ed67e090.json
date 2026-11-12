@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Overview of pre-closing reports to verify account accuracy",
+  "title": "Use Preclosing Reports",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-prepare-preclose-reports",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.196Z",
-      "blob": "174af5054edf18d3751b209bb89e752b9688b93e",
+      "at": "2026-11-12T00:20:33.372Z",
+      "blob": "2c3726cee18a872fd99ea3715cd2a801613fbb8f",
       "words": 261,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:12:25.469Z",
+      "at": "2026-11-12T00:21:03.399Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 9,
-      "cost_usd": 0.003384
+      "cost_usd": 0.003914
     },
     "summarized": {
-      "at": "2026-10-06T19:12:27.319Z",
+      "at": "2026-11-12T00:21:03.400Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:12:27.319Z",
+      "at": "2026-11-12T00:21:03.402Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:12:27.320Z",
+      "at": "2026-11-12T00:21:03.403Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/year-prepare-preclose-reports.md",
     "description": "Provides an overview of the reports you can use to verify the accuracy of accounts before closing the books at the end of a year or period.",
-    "ms_date": "2024-08-05",
+    "ms_date": "2026-11-11",
     "ms_topic": "overview",
     "search_form": [
       {
@@ -60,12 +60,12 @@
       }
     ],
     "keywords": [],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 261,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6bb0c91e91f0ef5fcec858298538ed7b46e5a39acb14717fdee02231c7912598"
+  "output_hash": "478747d8942a5bcd2fe3c4c6146021c84c778201c1d276455ecd537dc08905da"
 }

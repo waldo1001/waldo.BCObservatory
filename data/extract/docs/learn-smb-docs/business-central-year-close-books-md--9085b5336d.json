@@ -1,31 +1,38 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/year-close-books.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-close-books",
-  "title": "Closing the books",
-  "blob": "8f6dea9ae5755a0549ccf056ca7c57086e72e275",
-  "summary": "Process for closing fiscal years and accounting periods including period closure, adjusting entries, income statement transfer, and year-end closing entries.",
+  "title": "Close the Books",
+  "blob": "8b01a34988b9db5f5e839704b91bbff3f03cb173",
+  "summary": "Year-end closing process for fiscal years in Business Central, including closing accounting periods, posting prior-year entries, transferring income statement balances to retained earnings, and posting closing entries.",
   "systems": [
     "finance"
   ],
   "topics": [
     "year-end closing",
+    "fiscal year",
     "accounting periods",
-    "adjusting entries",
     "income statement",
-    "retained earnings"
+    "retained earnings",
+    "closing entries",
+    "balance sheet"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Accounting Periods"
+    },
+    {
+      "type": "report",
+      "name": "Close Income Statement"
     }
   ],
   "features": [
-    "close accounting periods",
-    "register prior-year entries",
-    "close income statement",
-    "post year-end closing entry",
-    "period filtering"
+    "Close Accounting Periods",
+    "Prior-Year Entry",
+    "Close Income Statement batch job",
+    "Post Year-End Closing Entry",
+    "Retained earnings account",
+    "Additional reporting currency"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002277,
-      "pages_in_call": 8
+      "cost_usd": 0.003672,
+      "pages_in_call": 1
     }
   ]
 }

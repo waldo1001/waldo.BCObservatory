@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Overview of reports to help prepare closing statements",
+  "title": "Prepare Closing Statements",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-prepare-close-statement",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.192Z",
-      "blob": "0243eb4e45a24e69972957b3e1430c76cdd526e5",
-      "words": 205,
+      "at": "2026-11-12T00:20:09.724Z",
+      "blob": "8b9366575d7bf083fc473f2360d3094f3b26cba1",
+      "words": 211,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:12:25.468Z",
+      "at": "2026-11-12T00:20:39.656Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 7,
-      "cost_usd": 0.003384
+      "cost_usd": 0.003912
     },
     "summarized": {
-      "at": "2026-10-06T19:12:27.316Z",
+      "at": "2026-11-12T00:20:39.658Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:12:27.317Z",
+      "at": "2026-11-12T00:20:39.659Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:12:27.318Z",
+      "at": "2026-11-12T00:20:39.660Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/year-prepare-close-statement.md",
     "description": "Provides an overview of the reports you can use to gather information to prepare your company's closing statements when closing the fiscal year.",
-    "ms_date": "2024-08-05",
+    "ms_date": "2026-11-11",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -66,12 +66,12 @@
       "Power Bi",
       "KPI"
     ],
-    "ai_usage": null,
-    "words": 205,
+    "ai_usage": "ai-assisted",
+    "words": 211,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "654f4dded634938e92b04fa856f77ce245b3ead6d5d8aa0d3d1fffadbcdd4a65"
+  "output_hash": "34cd03d55b179f7cc8dd5ee6ea576d5d316cb060adb5a1957b3891b339eb363f"
 }

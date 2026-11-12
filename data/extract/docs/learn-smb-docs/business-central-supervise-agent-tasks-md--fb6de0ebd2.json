@@ -2,31 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/supervise-agent-tasks.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/supervise-agent-tasks",
   "title": "Supervise Agent Activities in Business Central",
-  "blob": "8cb0ce163250740d6e03e4153c8f4f59a44a4f2b",
-  "summary": "Supervise Business Central agents like the Payables Agent and Sales Order Agent by reviewing and approving their work through the Tasks pane or directly on document pages, with options to confirm, give instructions, or stop tasks.",
+  "blob": "fad01fb9b20d40b37d8511642b96aa7a362ebf84",
+  "summary": "Supervise autonomous agents like the Payables Agent and Sales Order Agent by reviewing and approving their work through the Tasks pane or directly on document pages when they need assistance with verification, approvals, or issue resolution.",
   "systems": [
     "copilot",
-    "purchasing",
+    "finance",
     "sales"
   ],
   "topics": [
     "agents",
     "task supervision",
-    "approval workflows",
+    "approval workflow",
+    "document review",
     "payables agent",
-    "sales order agent",
-    "agent tasks"
+    "sales order agent"
   ],
   "objects": [],
   "features": [
-    "Tasks pane",
-    "Data review bar",
-    "Review agent task",
-    "Confirm and approve",
-    "Give instructions to agent",
-    "Stop task",
-    "Permission requests",
-    "Show summary for agent"
+    "Tasks pane review",
+    "data review bar",
+    "field suggestions with confidence indicators",
+    "agent instruction guidance",
+    "permission requests",
+    "task timeline filtering",
+    "activity summaries"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008241,
-      "pages_in_call": 4
+      "cost_usd": 0.010308,
+      "pages_in_call": 1
     }
   ]
 }

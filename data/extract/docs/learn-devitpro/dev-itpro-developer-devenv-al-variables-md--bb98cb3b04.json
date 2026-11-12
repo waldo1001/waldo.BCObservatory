@@ -2,25 +2,28 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-al-variables.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-variables",
   "title": "AL variables",
-  "blob": "318d3b3c908499d7822a5cf254d520cd1ce56cb3",
-  "summary": "AL variables explains user-defined and system-defined variables in AL, their initialization, naming rules, and automatic type conversion in assignments between compatible data types.",
+  "blob": "d441491105807b2facaaa1feb51bf527b459697d",
+  "summary": "AL variables documentation covers user-defined and system-defined variables, including naming rules, initialization, and type conversion for storing and managing runtime data in Business Central AL code.",
   "systems": [
     "development"
   ],
   "topics": [
-    "al language",
     "variables",
+    "al development",
     "data types",
     "type conversion",
-    "assignment"
+    "initialization",
+    "naming conventions"
   ],
   "objects": [],
   "features": [
-    "variable naming rules",
-    "variable initialization",
     "user-defined variables",
     "system-defined variables",
-    "type conversion in assignments"
+    "variable naming rules",
+    "automatic initialization",
+    "type conversion",
+    "assignment operators",
+    "parameter assignment"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003478,
-      "pages_in_call": 8
+      "cost_usd": 0.0046,
+      "pages_in_call": 1
     }
   ]
 }
