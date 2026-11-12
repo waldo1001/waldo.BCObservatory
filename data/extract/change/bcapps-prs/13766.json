@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/13766",
+  "number": 13766,
+  "title": "[E-Document] Set max output tokens for MLLM extraction (29.x)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The E-Document MLLM Handler sets an explicit output token budget for the machine learning model extraction to support the 5.6 model version.",
+  "key_points": [
+    "Output token limit is now explicitly configured in MLLM extraction",
+    "Prepares E-Document processing for compatibility with 5.6 model",
+    "Affects ML-based document import functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Set explicit ouput token budget to prepare for 5.6 model.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002992,
+    "changes_in_call": 1
+  }
+}

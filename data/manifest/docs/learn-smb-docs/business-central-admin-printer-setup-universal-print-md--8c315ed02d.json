@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up Universal Print Printers",
+  "title": "Set Up Universal Print Printers in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-universal-print",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.080Z",
-      "blob": "75960e6b9eb5cda72db3ab9ea736bdd41a198fcd",
-      "words": 2140,
+      "at": "2026-11-12T00:16:58.773Z",
+      "blob": "9e011d6054437cbc8b2be6178ddab88c432b1547",
+      "words": 2079,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:42:25.326Z",
+      "at": "2026-11-12T00:17:10.553Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.008244
+      "objects": 3,
+      "cost_usd": 0.010684
     },
     "summarized": {
-      "at": "2026-10-06T18:42:25.342Z",
+      "at": "2026-11-12T00:17:10.553Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:42:25.343Z",
+      "at": "2026-11-12T00:17:10.554Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:42:25.344Z",
+      "at": "2026-11-12T00:17:10.554Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-printer-setup-universal-print.md",
-    "description": "Learn how you can use Universal Print to provide cloud printing in Business Central.",
-    "ms_date": "2024-06-14",
+    "description": "Set up Universal Print, share printers with licensed users, and add the printers to Business Central online or on-premises for cloud printing.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 2140,
+    "ai_usage": "ai-assisted",
+    "words": 2079,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9678ae3b256b53f7580a7b2c37c73fbe9a38f7a1a3a244c1c6066f0770b02c7e"
+  "output_hash": "03f1282acfd7a1c4fa746429c5da3b607d2f43a0388a8a0996b62526d0b77bc5"
 }

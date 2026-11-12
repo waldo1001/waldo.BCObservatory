@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Work with incoming documents",
+  "title": "Incoming Documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-income-documents",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.557Z",
-      "blob": "b6c6e158f12cdb2fcc519f49133d869a3cafa7c7",
-      "words": 869,
+      "at": "2026-11-12T00:16:37.130Z",
+      "blob": "0a605545f5995f1b86e6ac541716b9b9963fc174",
+      "words": 871,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:50:31.929Z",
+      "at": "2026-11-12T00:16:50.993Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.006845
+      "objects": 4,
+      "cost_usd": 0.005036
     },
     "summarized": {
-      "at": "2026-10-06T18:50:33.708Z",
+      "at": "2026-11-12T00:16:50.994Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:50:33.709Z",
+      "at": "2026-11-12T00:16:50.994Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:50:33.710Z",
+      "at": "2026-11-12T00:16:50.995Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-income-documents.md",
     "description": "Manage incoming external business documents, such as payment receipts or PDFs, manage OCR tasks, and convert files to electronic documents and records.",
-    "ms_date": "2025-10-16",
+    "ms_date": "2026-11-10",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "document exchange",
       "import invoice"
     ],
-    "ai_usage": null,
-    "words": 869,
+    "ai_usage": "ai-assisted",
+    "words": 871,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "db11a23d8890640c6e51df5890b873ae2f5af631cba61f3078d51fd6fca7a999"
+  "output_hash": "ec67cf8372006917eb6404a15682fecb0e609032a48175c7a631ff4a71c3a325"
 }

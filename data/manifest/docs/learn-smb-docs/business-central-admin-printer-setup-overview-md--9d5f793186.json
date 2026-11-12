@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Printer setup and management overview",
+  "title": "Printer Setup and Management Overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-overview",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.318Z",
-      "blob": "c486bc03ce1081fa36159cd546b4fc476c4b7673",
-      "words": 357,
+      "at": "2026-11-12T00:16:57.091Z",
+      "blob": "ba88c1c01f74ad5f1ff54ca59c1c423274d1a8aa",
+      "words": 373,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:49:35.258Z",
+      "at": "2026-11-12T00:17:08.421Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.005672
+      "objects": 0,
+      "cost_usd": 0.003325
     },
     "summarized": {
-      "at": "2026-10-06T18:49:41.423Z",
+      "at": "2026-11-12T00:17:08.421Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:49:41.424Z",
+      "at": "2026-11-12T00:17:08.422Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:49:41.425Z",
+      "at": "2026-11-12T00:17:08.422Z",
       "page": false
     }
   },
@@ -44,7 +44,7 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-printer-setup-overview.md",
-    "description": "Learn about the different printer options in Business Central.",
+    "description": "Compare Universal Print, email printing, and browser printing in Business Central, and find the setup steps for the printers your organization uses.",
     "ms_date": "2025-01-31",
     "ms_topic": "overview",
     "search_form": [
@@ -55,12 +55,12 @@
       }
     ],
     "keywords": [],
-    "ai_usage": null,
-    "words": 357,
+    "ai_usage": "ai-assisted",
+    "words": 373,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "08de5b61e1c40f75505bad66c701410f89181a81e1d45b4bd8cede48337dc357"
+  "output_hash": "658e51a3885835d8c009071e77a541fc87c4ddd92fb2b0c6007e2865db729dcd"
 }

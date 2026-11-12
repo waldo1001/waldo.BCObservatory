@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Report selection in Business Central",
+  "title": "Report Selection for Documents in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-report-selections",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.302Z",
-      "blob": "5242840c4a799a23623daf4edd6039af9637f465",
-      "words": 524,
+      "at": "2026-11-12T00:16:38.522Z",
+      "blob": "d853ba46f0d0e07ba1257495a529cf30f0324ecc",
+      "words": 531,
       "forms": 10
     },
     "extracted": {
-      "at": "2026-10-06T18:59:26.626Z",
+      "at": "2026-11-12T00:16:52.454Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 10,
-      "cost_usd": 0.002605
+      "cost_usd": 0.004965
     },
     "summarized": {
-      "at": "2026-10-06T18:59:34.945Z",
+      "at": "2026-11-12T00:16:52.455Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:59:34.946Z",
+      "at": "2026-11-12T00:16:52.456Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:59:34.947Z",
+      "at": "2026-11-12T00:16:52.456Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-report-selections.md",
-    "description": "Learn how to set up the reports used for printing different types of documents in Business Central.",
-    "ms_date": "2025-10-20",
-    "ms_topic": "article",
+    "description": "Choose the reports and layouts Business Central uses to print or email sales, purchase, and service documents, and set their printing sequence.",
+    "ms_date": "2026-11-11",
+    "ms_topic": "how-to",
     "search_form": [
       {
         "raw": "306",
@@ -103,12 +103,12 @@
       "setup",
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 524,
+    "ai_usage": "ai-assisted",
+    "words": 531,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a397319c182e504e8aa4677497babb6cd1f0a2a9b68779bd70fc2babc9425cf6"
+  "output_hash": "5dbf2b214e08ca7df4b72e97740a0826961339689713574a0e0c16a847f11887"
 }

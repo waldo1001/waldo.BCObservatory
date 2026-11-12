@@ -1,28 +1,46 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-how-use-ocr-pdf-images-files.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-ocr-pdf-images-files",
-  "title": "Use OCR to turn PDF into e-invoices",
-  "blob": "eff4d66c616ab0abd11c11b273f0afd7cb31556c",
-  "summary": "OCR service integration converts PDF and image documents into electronic records within Business Central, enabling automatic invoice processing, error correction, and service training for improved recognition.",
+  "title": "Use OCR to Turn PDF and Image Files into Electronic Documents",
+  "blob": "267bee056858dd4bd4ed815cf1e28dfafb73bd0f",
+  "summary": "Use optical character recognition (OCR) to convert PDF and image files from vendors into electronic documents and purchase invoices in Business Central. Send files to an OCR service directly or by email, correct recognized data, and train the service to improve future accuracy.",
   "systems": [
+    "purchasing",
     "integration",
-    "purchasing"
+    "administration"
   ],
   "topics": [
     "ocr",
-    "optical character recognition",
     "incoming documents",
-    "invoice processing"
+    "electronic documents",
+    "purchase invoices",
+    "document conversion",
+    "vendor documents",
+    "document processing"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Incoming Documents"
+    },
+    {
+      "type": "page",
+      "name": "OCR Data Correction"
+    },
+    {
+      "type": "page",
+      "name": "Text-to-Account Mapping"
+    }
+  ],
   "features": [
-    "OCR service",
-    "PDF processing",
-    "image recognition",
-    "text-to-account mapping",
-    "error handling",
-    "OCR training",
-    "job queue processing"
+    "Send files to OCR service from Incoming Documents page",
+    "Forward files by email to OCR provider",
+    "Receive electronic documents from OCR service",
+    "Create purchase invoices from OCR documents",
+    "Map text to G/L accounts",
+    "Correct OCR data before conversion",
+    "Send feedback to improve OCR accuracy",
+    "Job queue integration for scheduled processing"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +49,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006845,
-      "pages_in_call": 7
+      "cost_usd": 0.010944,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Specify the Layout of a Check",
+  "title": "Select a Check Layout in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-define-check-layouts",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.635Z",
-      "blob": "81aeaadf786b5b886762ef140cc72a4008406ba4",
-      "words": 647,
+      "at": "2026-11-12T00:16:58.767Z",
+      "blob": "247a1ad5deb89d55e1ce012fac27406b763c9f30",
+      "words": 678,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:05:47.274Z",
+      "at": "2026-11-12T00:17:12.293Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.005377
+      "objects": 7,
+      "cost_usd": 0.004939
     },
     "summarized": {
-      "at": "2026-10-06T19:06:10.971Z",
+      "at": "2026-11-12T00:17:12.293Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:06:10.973Z",
+      "at": "2026-11-12T00:17:12.294Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:06:10.974Z",
+      "at": "2026-11-12T00:17:12.294Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-how-define-check-layouts.md",
-    "description": "You can design and print your checks in different formats to conform with standards set by your local authorities.",
-    "ms_date": "2024-11-11",
+    "description": "Select a check report and layout in Business Central, compare North American check formats, and learn about MICR and check security fonts.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -63,12 +63,12 @@
       "print check",
       "customize"
     ],
-    "ai_usage": null,
-    "words": 647,
+    "ai_usage": "ai-assisted",
+    "words": 678,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cb0bfe706cbfcdc5b54e030e3af3bf6bcf906581e746f0a06f46c24268ae58c0"
+  "output_hash": "12e4e31339254c775349434ba488d865bcf7d5d47545fc3c1ddc31d02ba090a0"
 }

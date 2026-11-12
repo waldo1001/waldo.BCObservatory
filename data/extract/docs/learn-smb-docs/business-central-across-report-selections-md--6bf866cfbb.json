@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-report-selections.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-report-selections",
-  "title": "Report selection in Business Central",
-  "blob": "5242840c4a799a23623daf4edd6039af9637f465",
-  "summary": "Configure default reports and layouts for printing and emailing sales, purchase, service, and other business documents in Business Central.",
+  "title": "Report Selection for Documents in Business Central",
+  "blob": "d853ba46f0d0e07ba1257495a529cf30f0324ecc",
+  "summary": "Report selection in Business Central allows you to set up default reports and layouts for printing sales, purchases, service, and other documents. Configure which reports print for specific document types and scenarios using dedicated Report Selection pages.",
   "systems": [
     "sales",
     "purchasing",
-    "service"
+    "finance"
   ],
   "topics": [
     "report selection",
     "document printing",
-    "email layouts",
-    "document layouts"
+    "report layouts",
+    "email configuration",
+    "default reports"
   ],
   "objects": [
     {
@@ -58,11 +59,14 @@
     }
   ],
   "features": [
-    "report selection",
-    "document layouts",
-    "email body",
-    "email attachment",
-    "check layouts"
+    "Set default reports for document types",
+    "Configure report layouts",
+    "Use for Email Body",
+    "Use for Email Attachment",
+    "Email Body Layout",
+    "Report Layout",
+    "Multiple reports per document",
+    "Report sequence configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -71,8 +75,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002605,
-      "pages_in_call": 8
+      "cost_usd": 0.004965,
+      "pages_in_call": 1
     }
   ]
 }

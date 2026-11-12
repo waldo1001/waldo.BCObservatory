@@ -6,10 +6,35 @@
   "title": "[Expense Agent] Allow receipt submission with unresolved VAT setup",
   "url": "https://github.com/microsoft/BCApps/pull/13760",
   "published_at": "2026-11-11T10:40:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-12T00:14:43.393Z"
+    },
+    "fetched": {
+      "at": "2026-11-12T00:16:42.137Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-12T00:16:50.860Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004351
+    },
+    "linked": {
+      "at": "2026-11-12T00:16:50.985Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-12T00:16:50.988Z",
+      "path": "content/changes/bcapps/13760.md"
     }
   },
   "input_hash": "09af56734828b76e3f38b07481a97f1c7392b02c:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "expense agent allow receipt submission with unresolved vat setup"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "40b02a2d8c41354fce769929c863c53a6ba84773b08848e03dbcd59a2787fb16"
 }

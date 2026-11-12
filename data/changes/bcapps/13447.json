@@ -1,0 +1,111 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13447,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13447",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-11T10:24:52Z",
+  "merge_commit_sha": "efc9460281e33468a424e62e6a7eb37ed534541f",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[master]\"El título Importe pendiente resulta ambiguo entre varios campos de la tabla Mov. proveedor.\" error if you try to Create Payment for some Vendor Ledger Entries filtered by Remaining Amount <> 0 in the Spanish version.",
+  "body_hash": "da0df01ff0dc5bad1f68beff147f49a858d2609955f735a0309a40a65e3b9588",
+  "fixes_issues": [],
+  "work_items": [
+    657277
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CH/Tests/Dimension/ERMSuggestVendorPayment.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/Dimension/ERMSuggestVendorPayment.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Payables/CreatePayment.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Dimension/ERMSuggestVendorPayment.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/Tests/Dimension/ERMSuggestVendorPayment.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Payables/CreatePayment.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Dimension/ERMSuggestVendorPayment.Codeunit.al",
+      "status": "modified",
+      "additions": 52,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 262,
+    "deletions": 16,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Payables/CreatePayment.Page.al",
+        "status": "modified",
+        "key": "page/1190",
+        "type": "page",
+        "id": 1190,
+        "name": "Create Payment",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1190"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Payables/CreatePayment.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

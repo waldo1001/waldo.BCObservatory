@@ -1,29 +1,42 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-printer-setup-universal-print.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-universal-print",
-  "title": "Set Up Universal Print Printers",
-  "blob": "75960e6b9eb5cda72db3ab9ea736bdd41a198fcd",
-  "summary": "Setup guidance for Universal Print printers in Business Central, covering configuration in Azure and printer management for both online and on-premises deployments.",
+  "title": "Set Up Universal Print Printers in Business Central",
+  "blob": "9e011d6054437cbc8b2be6178ddab88c432b1547",
+  "summary": "How to set up and integrate Universal Print printers with Business Central online and on-premises, including Azure configuration, printer management, and troubleshooting common access issues.",
   "systems": [
     "administration",
-    "platform",
-    "integration"
+    "platform"
   ],
   "topics": [
+    "printing",
     "universal print",
-    "printer setup",
-    "print management",
+    "printer management",
     "azure integration",
-    "printer shares"
+    "setup"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Printer Management"
+    },
+    {
+      "type": "other",
+      "name": "Extension Management"
+    },
+    {
+      "type": "other",
+      "name": "Universal Print Integration extension"
+    }
+  ],
   "features": [
-    "Universal Print integration extension",
-    "printer management page",
-    "universal print connector",
+    "Universal Print integration",
+    "centralized printer management",
+    "printer sharing",
     "document conversion",
-    "print shares",
-    "printer authorization"
+    "print job creation",
+    "Azure app registration",
+    "printer settings customization"
   ],
   "versions": [
     "2021 release wave 1"
@@ -34,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008244,
-      "pages_in_call": 7
+      "cost_usd": 0.010684,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/yzhums-com/77263",
+  "url": "https://yzhums.com/77263/",
+  "title": "Business Central 2026 release wave 2 (BC29.1): Cross-environment Master Data Management",
+  "source": "yzhums-com",
+  "published_at": "2026-11-11T01:41:46.000Z",
+  "words": 917,
+  "summary": "Business Central 2026 wave 2 introduces cross-environment master data management, allowing organizations to synchronize critical business data like customers, vendors, and products across multiple environments using OAuth authentication within the same tenant. This feature maintains a single source of truth while reducing manual data entry and improving data consistency across development, test, and production environments.",
+  "key_points": [
+    "Synchronize master data across development, test, and production environments to maintain consistency and reduce duplicate maintenance",
+    "Requires OAuth authentication with Microsoft Entra app registration restricted to same-tenant connections",
+    "Receiving companies can review synchronization logs and define which tables and fields to synchronize with optional filtering",
+    "Changes in source company are immediately pulled by the job queue, supporting faster environment setup and smoother application lifecycle management"
+  ],
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "master data management",
+    "cross-environment",
+    "data synchronization",
+    "oauth authentication",
+    "multi-environment",
+    "data governance"
+  ],
+  "objects": [
+    {
+      "type": "permissionset",
+      "name": "MDM CROSS-ENV READ"
+    }
+  ],
+  "features": [
+    "Cross-environment master data synchronization",
+    "OAuth authentication for environment connections",
+    "Synchronization log review",
+    "Table and field filtering for synchronization",
+    "Immediate data pull via job queue",
+    "Privacy notice management",
+    "Entra application registration"
+  ],
+  "versions": [
+    "BC29.1",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Keep critical business data consistent across environments with cross-environment master data management.",
+      "why_it_matters": "Summarizes the core business value proposition of preventing data inconsistencies across multiple BC instances"
+    },
+    {
+      "text": "synchronization only connects to environments in the same Microsoft Entra tenant.",
+      "why_it_matters": "Clarifies a critical security and architectural constraint that admins must understand when setting up the feature"
+    },
+    {
+      "text": "Changes in the main company are immediately pulled to the receiving companies by the job queue.",
+      "why_it_matters": "Explains the real-time nature of data synchronization, ensuring data remains current across environments"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.0064,
+    "posts_in_call": 1
+  }
+}

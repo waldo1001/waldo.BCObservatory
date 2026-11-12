@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up Email Printers",
+  "title": "Set Up Email Printers in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-email",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.541Z",
-      "blob": "8ed1f32eb3725d480dbe37a084f28360ac896f49",
-      "words": 328,
+      "at": "2026-11-12T00:16:38.516Z",
+      "blob": "ceff9e9674783388655a8cd494ef09b00d035616",
+      "words": 327,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:05:19.654Z",
+      "at": "2026-11-12T00:16:52.426Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.004037
+      "cost_usd": 0.003646
     },
     "summarized": {
-      "at": "2026-10-06T19:05:19.677Z",
+      "at": "2026-11-12T00:16:52.426Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:05:19.678Z",
+      "at": "2026-11-12T00:16:52.427Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:05:19.679Z",
+      "at": "2026-11-12T00:16:52.428Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-printer-setup-email.md",
-    "description": "How-to description",
+    "description": "Set up email-enabled printers in Business Central to send reports and documents directly to a printer, and choose the paper size for print jobs.",
     "ms_date": "2023-01-26",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 328,
+    "ai_usage": "ai-assisted",
+    "words": 327,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c0e9f7ab44f255f41c3314eb62dc5a0e4ed30ef74f01b832f3db11eeae7fe617"
+  "output_hash": "0c99388426a06240226117fd914038a0cf0c7ae9cfac7436a18aa7bc106ef19b"
 }

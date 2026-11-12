@@ -7,32 +7,32 @@
   "url": "https://aardvarklabs.blog/2026/11/06/business-central-29-the-new-isdirty-flag-finally-a-smarter-way-to-detect-record-changes/",
   "published_at": "2026-11-06T13:00:00.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-07T00:15:21.625Z"
     },
     "fetched": {
-      "at": "2026-11-07T00:19:52.995Z",
+      "at": "2026-11-12T00:16:33.978Z",
       "path": "vault:posts/aardvarklabs-blog/4100.md",
       "words": 552
     },
     "extracted": {
-      "at": "2026-11-07T00:19:59.400Z",
+      "at": "2026-11-12T00:16:34.030Z",
       "prompt": "extract-post@1",
       "quotes": 3,
       "trimmed": 0,
-      "cost_usd": 0.005239
+      "cost_usd": null
     },
     "summarized": {
-      "at": "2026-11-07T00:19:59.402Z",
+      "at": "2026-11-12T00:16:34.041Z",
       "from": "extract-post"
     },
     "linked": {
-      "at": "2026-11-07T00:19:59.402Z"
+      "at": "2026-11-12T00:16:34.042Z"
     },
     "published": {
-      "at": "2026-11-07T00:19:59.569Z",
+      "at": "2026-11-12T00:16:34.073Z",
       "path": "content/posts/aardvarklabs-blog/4100.md"
     }
   },
@@ -41,7 +41,7 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c819f94e7dcb3bf3dd26e50dea94a39b30628fbe7b0d5456b72752d22b6a1fc6",
+  "output_hash": "abf02501bfec45d0f7a3efbc90be64ad7eebd906ccbf9e08898dcb380e434995",
   "review": {
     "state": "reviewed",
     "by": "opus",

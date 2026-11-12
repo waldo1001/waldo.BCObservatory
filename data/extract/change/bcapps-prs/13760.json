@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13760",
+  "number": 13760,
+  "title": "[Expense Agent] Allow receipt submission with unresolved VAT setup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense Agent receipts can now be submitted and added to expense reports even when VAT accounting mappings are incomplete or missing, deferring validation to the posting stage. The agent preserves extracted VAT specifications and leaves reclaim pending for accountant review instead of requiring employees to resolve configuration issues.",
+  "key_points": [
+    "VAT posting group and setup validation moves from submission to posting for approved reclaim specifications",
+    "Agent-authored VAT specifications are preserved and can be inserted when no default VAT business posting group exists",
+    "Pending reclaim blocks posting; rejected reclaim posts as gross expense without VAT entry",
+    "Existing manual-specification validation on category cards remains unchanged",
+    "Added integration tests covering submission without VAT setup, differing business groups, and accountant correction workflows"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Allow Expense Agent receipts to be captured and added to expense reports when VAT accounting mappings are missing.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004351,
+    "changes_in_call": 1
+  }
+}

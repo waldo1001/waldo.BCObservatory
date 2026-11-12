@@ -1,29 +1,49 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-income-documents.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-income-documents",
-  "title": "Work with incoming documents",
-  "blob": "b6c6e158f12cdb2fcc519f49133d869a3cafa7c7",
-  "summary": "Incoming Documents feature manages external business documents from suppliers, with capabilities for manual entry, OCR processing, attachment, and conversion to purchase/sales documents or journal entries.",
+  "title": "Incoming Documents",
+  "blob": "0a605545f5995f1b86e6ac541716b9b9963fc174",
+  "summary": "Incoming Documents lets you register external business documents like purchase invoices and receipts by uploading files or taking photos, optionally using OCR to convert them to electronic records, and attaching them to related documents or entries.",
   "systems": [
     "purchasing",
-    "sales",
-    "integration"
+    "integration",
+    "finance"
   ],
   "topics": [
     "incoming documents",
-    "document management",
     "ocr",
-    "purchase invoices",
-    "file attachment"
+    "document management",
+    "expense receipts",
+    "file attachment",
+    "electronic documents"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Incoming Documents"
+    },
+    {
+      "type": "page",
+      "name": "Incoming Document"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    }
+  ],
   "features": [
-    "Create from File",
-    "Create from Camera",
-    "OCR integration",
-    "electronic documents",
-    "attachment management",
-    "journal line creation"
+    "Create incoming documents from files",
+    "Create incoming documents from camera",
+    "OCR service integration",
+    "Manual document entry",
+    "Automatic document creation",
+    "File attachment to documents and entries",
+    "Document record linking",
+    "Processed status management"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006845,
-      "pages_in_call": 7
+      "cost_usd": 0.005036,
+      "pages_in_call": 1
     }
   ]
 }

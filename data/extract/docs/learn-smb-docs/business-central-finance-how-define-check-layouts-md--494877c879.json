@@ -1,24 +1,31 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-how-define-check-layouts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-define-check-layouts",
-  "title": "Specify the Layout of a Check",
-  "blob": "81aeaadf786b5b886762ef140cc72a4008406ba4",
-  "summary": "Check layout specification allows selecting predefined check formats for printing in different stub configurations and setting up MICR and security fonts. Choose from default and specialized check report layouts for North American standard formats.",
+  "title": "Select a Check Layout in Business Central",
+  "blob": "247a1ad5deb89d55e1ce012fac27406b763c9f30",
+  "summary": "Select and configure check layouts in Business Central to conform with local standards, including US and Canadian formats with multiple check-per-page options and MICR/security fonts for tamper-resistant printing.",
   "systems": [
     "finance",
-    "purchasing"
+    "purchasing",
+    "administration"
   ],
   "topics": [
     "check printing",
-    "check layout",
+    "bank accounts",
+    "report layouts",
+    "payment processing",
     "micr fonts",
     "security fonts",
-    "bank checks"
+    "north america"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Report Selection - Bank Acc."
+      "name": "Report Selection - Bank Account"
+    },
+    {
+      "type": "page",
+      "name": "Payment Journal"
     },
     {
       "type": "report",
@@ -34,18 +41,24 @@
     },
     {
       "type": "report",
+      "name": "Check (Check/Stub/Stub)"
+    },
+    {
+      "type": "report",
       "name": "Three Checks per Page"
     }
   ],
   "features": [
     "check layout selection",
+    "stub format options",
     "MICR E-13B fonts",
     "MICR CMC-7 fonts",
-    "security font support",
-    "check stub formats"
+    "security fonts",
+    "check report customization",
+    "multi-language support"
   ],
   "versions": [
-    "update 15.3"
+    "15.3 and later"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -53,8 +66,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005377,
-      "pages_in_call": 8
+      "cost_usd": 0.004939,
+      "pages_in_call": 1
     }
   ]
 }

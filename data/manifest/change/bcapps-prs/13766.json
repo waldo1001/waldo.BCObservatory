@@ -6,10 +6,35 @@
   "title": "[E-Document] Set max output tokens for MLLM extraction (29.x)",
   "url": "https://github.com/microsoft/BCApps/pull/13766",
   "published_at": "2026-11-11T08:26:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-12T00:14:43.393Z"
+    },
+    "fetched": {
+      "at": "2026-11-12T00:17:05.285Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-12T00:17:13.727Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.002992
+    },
+    "linked": {
+      "at": "2026-11-12T00:17:16.260Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "2c932722a2917f4592f1541d4d85dc247c8942ac"
+    },
+    "published": {
+      "at": "2026-11-12T00:17:16.265Z",
+      "path": "content/changes/bcapps/13766.md"
     }
   },
   "input_hash": "888eb4c9e31b4ccec32b4a0402d2d7272ac070bc:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "e document set max output tokens for mllm extraction 29 x"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fe1ebb36af45c7f6bd96bd260d1b9e7e5088b6c8b4f85e5fcb874047705c5ca3"
 }
