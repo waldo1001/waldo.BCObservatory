@@ -1,19 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-how-create-custom-report-layout.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout",
-  "title": "(Obsolete) Create and modify custom report layouts",
-  "blob": "1a317422554f6cd9fe46e0416b323c372bdf3ba8",
-  "summary": "Create and modify custom report layouts for Business Central reports using RDLC or Word formats, and manage their assignment to companies and documents.",
+  "title": "(Obsolete) Create and Modify Custom Report Layouts",
+  "blob": "500d6242319028145f133b6f7028e4ea4709adc5",
+  "summary": "Creating and modifying custom report layouts in legacy Business Central versions using RDLC or Word formats, now superseded by current workflow in Get started creating report layouts.",
   "systems": [
-    "reporting",
-    "administration"
+    "reporting"
   ],
   "topics": [
     "custom report layouts",
-    "rdlc",
+    "rdlc layouts",
     "word layouts",
     "report design",
-    "layout management"
+    "legacy workflow"
   ],
   "objects": [
     {
@@ -23,16 +22,20 @@
     {
       "type": "page",
       "name": "Custom Report Layouts"
+    },
+    {
+      "type": "page",
+      "name": "Insert Built-in Layout for a Report"
     }
   ],
   "features": [
-    "Custom RDLC layouts",
-    "Custom Word layouts",
-    "Layout copying",
-    "Layout export",
-    "Layout import",
-    "Built-in layout modification",
-    "Company-specific layouts"
+    "custom layout creation",
+    "copy existing layout",
+    "export layout",
+    "import layout",
+    "word layout support",
+    "rdlc layout support",
+    "company-specific layouts"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004232,
-      "pages_in_call": 8
+      "cost_usd": 0.004746,
+      "pages_in_call": 1
     }
   ]
 }

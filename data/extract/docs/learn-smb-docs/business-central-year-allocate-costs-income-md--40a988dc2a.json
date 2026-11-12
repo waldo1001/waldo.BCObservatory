@@ -1,38 +1,37 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/year-allocate-costs-income.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income",
-  "title": "Overview of tasks to allocate costs and income",
-  "blob": "7aceddaa31222c144bd30e7c0d84b676c7482180",
-  "summary": "Allocate recurring costs and income entries across multiple accounts in recurring general journals using quantity, percentage, or amount-based allocation keys.",
+  "title": "Allocate Recurring Costs and Income",
+  "blob": "cd6efb209aed08c27590d56bae46b5364d914bf1",
+  "summary": "Allocate recurring journal entries to multiple accounts using allocation quantity, percentage, or fixed amount methods. Set up allocation keys in recurring general journals with optional dimension assignment.",
   "systems": [
     "finance"
   ],
   "topics": [
-    "cost allocation",
     "recurring journals",
-    "allocation keys",
+    "cost allocation",
     "general journals",
-    "income allocation",
-    "expense allocation"
+    "allocation keys",
+    "journal posting"
   ],
   "objects": [
     {
-      "type": "table",
+      "type": "page",
       "name": "Recurring General Journals"
     },
     {
-      "type": "table",
+      "type": "page",
       "name": "General Journal Batches"
     }
   ],
   "features": [
-    "quantity allocation",
-    "percentage allocation",
-    "amount allocation",
-    "allocation account setup",
-    "recurring journal allocation",
-    "fixed asset journal allocation",
-    "global dimension allocation"
+    "Allocation Quantity",
+    "Allocation %",
+    "Amount allocation",
+    "Allocation Keys",
+    "Dimension allocation",
+    "Fixed asset allocations",
+    "Recurring journal posting"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003384,
-      "pages_in_call": 8
+      "cost_usd": 0.003824,
+      "pages_in_call": 1
     }
   ]
 }

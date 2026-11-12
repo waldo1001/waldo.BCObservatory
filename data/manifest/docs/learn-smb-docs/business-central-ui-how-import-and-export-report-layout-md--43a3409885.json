@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-import-and-export-report-layout",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.407Z",
-      "blob": "601d4f8af4af56cbf08a59cad717fa2860bd4519",
-      "words": 339,
+      "at": "2026-11-12T00:19:09.833Z",
+      "blob": "322fc2431a2c24251e72190b4480d7268784e742",
+      "words": 355,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:05:10.931Z",
+      "at": "2026-11-12T00:19:21.574Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.004232
+      "cost_usd": 0.003556
     },
     "summarized": {
-      "at": "2026-10-06T19:05:10.988Z",
+      "at": "2026-11-12T00:19:21.575Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:05:10.989Z",
+      "at": "2026-11-12T00:19:21.575Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:05:10.990Z",
+      "at": "2026-11-12T00:19:21.576Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-how-import-and-export-report-layout.md",
-    "description": "You can import and export an existing custom report layout as a file to and from a location on your computer and network.",
-    "ms_date": "2021-04-01",
+    "description": "Export and import Word or RDLC layout files in versions of Business Central that still provide the legacy Custom Report Layouts page and its actions.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -60,12 +60,12 @@
       }
     ],
     "keywords": [],
-    "ai_usage": null,
-    "words": 339,
+    "ai_usage": "ai-assisted",
+    "words": 355,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1cf3b4cc7257fbd1f10305ba3430de15720be4fb49980b379f5ede5c2e38d32e"
+  "output_hash": "880370741760f0971649215b275cf58639126e8d406abb3135b6049a9025166b"
 }

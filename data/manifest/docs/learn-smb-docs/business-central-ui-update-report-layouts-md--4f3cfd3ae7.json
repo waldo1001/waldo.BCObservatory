@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.411Z",
-      "blob": "d1e8b0dc7b96a60b072fb961b89d809b02724d58",
-      "words": 728,
+      "at": "2026-11-12T00:19:19.327Z",
+      "blob": "3df46f1b69933741c4437d0a0bcfcc75f95a8050",
+      "words": 647,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:05:10.932Z",
+      "at": "2026-11-12T00:19:34.309Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.004232
+      "objects": 3,
+      "cost_usd": 0.004021
     },
     "summarized": {
-      "at": "2026-10-06T19:05:10.991Z",
+      "at": "2026-11-12T00:19:34.311Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:05:10.992Z",
+      "at": "2026-11-12T00:19:34.311Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:05:10.993Z",
+      "at": "2026-11-12T00:19:34.312Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-update-report-layouts.md",
-    "description": "Learn how to update a custom report layout used on a report when there are design changes to the report's data set, for example.",
-    "ms_date": "2021-06-24",
+    "description": "Test and update legacy custom report layouts after dataset changes in Business Central, and find guidance for changes that require manual fixes.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -60,12 +60,12 @@
       }
     ],
     "keywords": [],
-    "ai_usage": null,
-    "words": 728,
+    "ai_usage": "ai-assisted",
+    "words": 647,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a14c7e74016365638823d8cf759d7e5f443a5487637c589bcb4819f17e1330c4"
+  "output_hash": "24e955525dc0131f800fc33aec084fa1d439e16e8abd31eba51ea284809e49a5"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.887Z",
-      "blob": "644698cc0f9fd25b5101e76fd726edea08b4c315",
-      "words": 630,
+      "at": "2026-11-12T00:19:03.239Z",
+      "blob": "ef2e96d4eea5830db42ffb50a232eb3d468cfcc6",
+      "words": 582,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T18:40:57.182Z",
+      "at": "2026-11-12T00:19:18.266Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.005911
+      "cost_usd": 0.003918
     },
     "summarized": {
-      "at": "2026-10-06T18:40:59.150Z",
+      "at": "2026-11-12T00:19:18.267Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:40:59.151Z",
+      "at": "2026-11-12T00:19:18.268Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:40:59.152Z",
+      "at": "2026-11-12T00:19:18.268Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-how-change-layout-currently-used-report.md",
-    "description": "You can use different layouts for a report, and switch between layouts to change how a report looks.",
-    "ms_date": "2022-03-07",
+    "description": "Change the layout used by a report in versions of Business Central that still include the legacy Report Layout Selection and Custom Report Layouts pages.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -65,12 +65,12 @@
       "logo",
       "personalize"
     ],
-    "ai_usage": null,
-    "words": 630,
+    "ai_usage": "ai-assisted",
+    "words": 582,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f8bd05834c5a4486d558fdda44ccf4158b8c9f6d7c2b10a9a8fa4113a844b2d1"
+  "output_hash": "8756f694e201858a741e04b418a9221c18fa696e86042d7fdbf031831b7428de"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Overview of tasks to allocate costs and income",
+  "title": "Allocate Recurring Costs and Income",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.183Z",
-      "blob": "7aceddaa31222c144bd30e7c0d84b676c7482180",
-      "words": 554,
+      "at": "2026-11-12T00:19:28.625Z",
+      "blob": "cd6efb209aed08c27590d56bae46b5364d914bf1",
+      "words": 550,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:12:25.466Z",
+      "at": "2026-11-12T00:19:54.177Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003384
+      "cost_usd": 0.003824
     },
     "summarized": {
-      "at": "2026-10-06T19:12:27.310Z",
+      "at": "2026-11-12T00:19:54.178Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:12:27.311Z",
+      "at": "2026-11-12T00:19:54.179Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:12:27.312Z",
+      "at": "2026-11-12T00:19:57.302Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/year-allocate-costs-income.md",
     "description": "Outlines the tasks to allocate an entry in a recurring general journal to several different accounts when you post the journal.",
-    "ms_date": "2024-12-06",
-    "ms_topic": "overview",
+    "ms_date": "2026-11-11",
+    "ms_topic": "how-to",
     "search_form": [
       {
         "raw": "283",
@@ -60,12 +60,12 @@
       }
     ],
     "keywords": [],
-    "ai_usage": null,
-    "words": 554,
+    "ai_usage": "ai-assisted",
+    "words": 550,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1195231b55278a1533ebec9f957b3611691fbc05b57b74c8d9072013a73d6806"
+  "output_hash": "b755155e7594fa87a3a9480ba3d5a5b2bdc542d6e990eec25f55d69e2c21e689"
 }

@@ -2,27 +2,38 @@
   "item_id": "docs/learn-smb-docs/business-central/ui-get-started-layouts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-get-started-layouts",
   "title": "Get started creating report layouts",
-  "blob": "9381c3fb1ee77b8a7b6c63d3d03d67ce1fc34328",
-  "summary": "Get started creating report layouts by choosing layout type, exporting existing layouts, modifying designs in Word or Excel, and managing layout status and validation.",
+  "blob": "6a730e774d73a744cf443c1e98928a9d0c16adc4",
+  "summary": "Getting started with report layouts explains how to create, modify, and manage Word, Excel, and RDLC layouts in Business Central for reports and email messages.",
   "systems": [
     "reporting",
-    "administration"
+    "administration",
+    "platform"
   ],
   "topics": [
     "report layouts",
-    "layout creation",
-    "document design",
-    "layout management"
+    "word layouts",
+    "excel layouts",
+    "rdlc layouts",
+    "layout design",
+    "document formatting",
+    "report customization"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Report Layouts"
+    }
+  ],
   "features": [
-    "copy layouts",
-    "export layouts",
-    "import layouts",
-    "validate layouts",
-    "manage layout status",
-    "reusable themes",
-    "header/footer layouts"
+    "layout types (Word, Excel, RDLC)",
+    "layout subtypes (Default, Body)",
+    "reusable themes and header/footer",
+    "layout status management (Draft, Pending Approval, Approved, Retired)",
+    "layout validation",
+    "layout copying and export/import",
+    "composite layouts",
+    "email layout support",
+    "extension layouts vs user-defined layouts"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007228,
-      "pages_in_call": 8
+      "cost_usd": 0.013912,
+      "pages_in_call": 1
     }
   ]
 }

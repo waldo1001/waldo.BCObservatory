@@ -1,18 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-specify-printer-selection-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports",
-  "title": "Specify a Default Printer",
-  "blob": "81c3dcb60ca5fec4404465c051ff7d7f99ee8e03",
-  "summary": "Specify default printers for all print jobs or for specific reports. Configure printer selections at user or global level for cloud printers and PDF output.",
+  "title": "Specify a Default Printer in Business Central",
+  "blob": "d37f0df24c6a7ef6cb9422f14eeb0fdf8680ae08",
+  "summary": "How to specify default printers for reports and print jobs in Business Central, including setting defaults for all users or specific reports via the Printer Management and Printer Selections pages.",
   "systems": [
-    "administration"
+    "administration",
+    "platform",
+    "reporting"
   ],
   "topics": [
-    "printer management",
-    "printer selection",
+    "printer setup",
+    "print jobs",
     "default printer",
-    "cloud printing",
-    "print jobs"
+    "printer management",
+    "universal print",
+    "user settings"
   ],
   "objects": [
     {
@@ -25,12 +28,14 @@
     }
   ],
   "features": [
-    "default printer for all jobs",
-    "default printer for reports",
-    "cloud printer support",
-    "universal print",
-    "email printers",
-    "print job sizing"
+    "Set default printer for all users",
+    "Set default printer for specific user",
+    "Set default printer for specific report",
+    "Printer selection hierarchy",
+    "Override default printer on report request page",
+    "Universal Print integration",
+    "Cloud printer support",
+    "Email printer support"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003606,
-      "pages_in_call": 8
+      "cost_usd": 0.004414,
+      "pages_in_call": 1
     }
   ]
 }

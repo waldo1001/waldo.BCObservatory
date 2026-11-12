@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Run and print reports in Business Central",
+  "title": "Run and Print Reports in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-work-report",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.644Z",
-      "blob": "3ba7635a60d7dccb66eb8c439e1753fa4b789c40",
-      "words": 2315,
+      "at": "2026-11-12T00:19:24.330Z",
+      "blob": "1018770f89293ae82242cf76e1d0f9cdae2b3413",
+      "words": 2227,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:26:38.966Z",
+      "at": "2026-11-12T00:19:52.859Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 5,
-      "cost_usd": 0.003855
+      "cost_usd": 0.012016
     },
     "summarized": {
-      "at": "2026-10-06T19:26:39.051Z",
+      "at": "2026-11-12T00:19:52.860Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:39.053Z",
+      "at": "2026-11-12T00:19:52.861Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:39.054Z",
+      "at": "2026-11-12T00:19:52.861Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-work-report.md",
-    "description": "Learn how to add a report to the job queue and schedule it to run on a specific date and time.",
-    "ms_date": "2025-03-21",
+    "description": "Run, preview, print, and schedule Business Central reports, apply filters and saved settings, choose layouts, and adjust report language and limits.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -60,12 +60,12 @@
       "Word",
       "dataset"
     ],
-    "ai_usage": null,
-    "words": 2315,
+    "ai_usage": "ai-assisted",
+    "words": 2227,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e9a3572a18a2e24c72e80115b546acfa666b22c937a85e7a1dd0beb02a161da9"
+  "output_hash": "6379abb9340ef7ae736e6009ee459972549cd7ca6179a23d35507fbdc1277c5e"
 }

@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Close income statement accounts",
+  "title": "Close Income Statement Accounts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/year-close-income-statement",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.188Z",
-      "blob": "95d677efe276e117c92ef7f8a978bbdabe9b2597",
-      "words": 390,
+      "at": "2026-11-12T00:19:52.865Z",
+      "blob": "690efe6b698434e8ee964ab3b6f782a8d2f14cdf",
+      "words": 578,
       "forms": 0
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/year-close-income-statement.md",
-    "description": "At year closing, you must run the Close Income Statement batch job to close the accounting periods that make up the fiscal year.",
-    "ms_date": "2024-08-05",
+    "description": "Learn how to run the Close Income Statement batch job to close income statement balances and transfer the year's result to retained earnings.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "close fiscal year",
       "bank account detailed trial balance"
     ],
-    "ai_usage": null,
-    "words": 390,
+    "ai_usage": "ai-assisted",
+    "words": 578,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8bb0669a24bba5f4e3ecb5fe91375a9109ddb355d9eaf278a61afda50f07e2f9"
+  "output_hash": "690efe6b698434e8ee964ab3b6f782a8d2f14cdf"
 }

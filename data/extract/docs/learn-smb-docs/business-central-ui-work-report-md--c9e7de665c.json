@@ -1,19 +1,23 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-work-report.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-work-report",
-  "title": "Run and print reports in Business Central",
-  "blob": "3ba7635a60d7dccb66eb8c439e1753fa4b789c40",
-  "summary": "Explains how to run, preview, print, and schedule reports in Business Central, including setting filters, saving to files, selecting layouts, and changing language and format settings.",
+  "title": "Run and Print Reports in Business Central",
+  "blob": "1018770f89293ae82242cf76e1d0f9cdae2b3413",
+  "summary": "Run and Print Reports in Business Central explains how to find, open, and work with reports to collect and display data. Users can preview, print, save, or schedule reports with filters and options configured through request pages.",
   "systems": [
-    "reporting"
+    "reporting",
+    "administration",
+    "platform"
   ],
   "topics": [
-    "report",
-    "print",
+    "reports",
+    "printing",
+    "scheduling",
+    "filtering",
     "preview",
-    "schedule",
-    "filter",
-    "export"
+    "job queue",
+    "report layouts",
+    "data analysis"
   ],
   "objects": [
     {
@@ -26,27 +30,26 @@
     },
     {
       "type": "page",
-      "name": "My Settings"
-    },
-    {
-      "type": "page",
       "name": "Report Layouts"
     },
     {
       "type": "page",
       "name": "Report Layout Selection"
+    },
+    {
+      "type": "page",
+      "name": "My Settings"
     }
   ],
   "features": [
-    "report preview",
-    "print reports",
-    "schedule reports",
-    "save to PDF/Word/Excel",
-    "filter options",
-    "predefined settings",
-    "language selection",
-    "format region",
-    "job queue management"
+    "Report request pages",
+    "Saved settings for reports",
+    "Report filtering and options",
+    "Report preview",
+    "Schedule reports to job queue",
+    "Save reports to PDF/Word/Excel/XML",
+    "Printer selection",
+    "Report layout switching"
   ],
   "versions": [
     "2020 release wave 1"
@@ -57,8 +60,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003855,
-      "pages_in_call": 8
+      "cost_usd": 0.012016,
+      "pages_in_call": 1
     }
   ]
 }

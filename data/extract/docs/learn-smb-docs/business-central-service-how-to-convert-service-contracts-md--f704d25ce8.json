@@ -1,27 +1,46 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/service-how-to-convert-service-contracts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-convert-service-contracts",
-  "title": "How to convert service contracts",
-  "blob": "973666ec0a733da27c6296ec953e77ac124b0c73",
-  "summary": "Convert service contracts that include VAT amounts manually by correcting invoices, creating credit memos, and handling VAT rate changes for prepaid contracts.",
+  "title": "Convert Service Contracts After a VAT Rate Change",
+  "blob": "cded87880c4c49ebe0f1158fe29ab57bf6c3dd72",
+  "summary": "Converting service contracts after a VAT rate change requires manual procedures since the VAT rate change tool doesn't convert these contracts. The page describes methods to correct prepaid service contract invoices, set up VAT difference corrections, create contract expiration dates, and generate credit memos using prepaid contract entries.",
   "systems": [
-    "service",
-    "finance"
+    "finance",
+    "service"
   ],
   "topics": [
+    "vat rate change",
     "service contracts",
-    "vat",
-    "credit memos",
-    "conversion",
+    "service invoices",
+    "credit memo",
+    "contract expiration",
     "prepaid contracts"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Contracts"
+    },
+    {
+      "type": "page",
+      "name": "Service Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Service Contract"
+    },
+    {
+      "type": "page",
+      "name": "Service Credit Memos"
+    }
+  ],
   "features": [
-    "contract conversion",
-    "VAT correction",
-    "credit memo creation",
-    "prepaid service contracts",
-    "VAT rate changes"
+    "VAT difference correction",
+    "contract expiration dates",
+    "Get Prepaid Contract Entries",
+    "credit memo generation",
+    "prepaid service contract correction",
+    "VAT posting setup"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +49,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00489,
-      "pages_in_call": 8
+      "cost_usd": 0.00412,
+      "pages_in_call": 1
     }
   ]
 }

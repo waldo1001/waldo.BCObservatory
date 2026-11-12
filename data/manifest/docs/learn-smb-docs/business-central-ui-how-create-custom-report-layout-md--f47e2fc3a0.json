@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "(Obsolete) Create and modify custom report layouts",
+  "title": "(Obsolete) Create and Modify Custom Report Layouts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.402Z",
-      "blob": "1a317422554f6cd9fe46e0416b323c372bdf3ba8",
-      "words": 1353,
+      "at": "2026-11-12T00:19:09.029Z",
+      "blob": "500d6242319028145f133b6f7028e4ea4709adc5",
+      "words": 1348,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:05:10.927Z",
+      "at": "2026-11-12T00:19:19.321Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.004232
+      "objects": 3,
+      "cost_usd": 0.004746
     },
     "summarized": {
-      "at": "2026-10-06T19:05:10.985Z",
+      "at": "2026-11-12T00:19:19.322Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:05:10.986Z",
+      "at": "2026-11-12T00:19:19.322Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:05:10.987Z",
+      "at": "2026-11-12T00:19:19.323Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-how-create-custom-report-layout.md",
-    "description": "Learn how to create customized layouts to personalize the appearance of a report when viewed, printed, or saved.",
-    "ms_date": "2025-03-12",
+    "description": "Create, copy, and modify report layouts in versions of Business Central that still provide the legacy Custom Report Layouts page and its actions.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -65,12 +65,12 @@
       "logo",
       "personalize"
     ],
-    "ai_usage": null,
-    "words": 1353,
+    "ai_usage": "ai-assisted",
+    "words": 1348,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8786834a80317bc01470959fce46f5a9c418623aa93386bd3ba4ca67a6e9de61"
+  "output_hash": "a8847bae85d0cad3ec2514b2c68f7b6a3b056235669ea11b35b1c29b87805dc7"
 }

@@ -2,18 +2,16 @@
   "item_id": "docs/learn-smb-docs/business-central/ui-how-import-and-export-report-layout.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-import-and-export-report-layout",
   "title": "(Obsolete) Import and Export Custom Report Layouts",
-  "blob": "601d4f8af4af56cbf08a59cad717fa2860bd4519",
-  "summary": "Import and export custom report layouts as files between locations to enable sharing and modification of RDLC and Word report layout definitions.",
+  "blob": "322fc2431a2c24251e72190b4480d7268784e742",
+  "summary": "Import and export custom report layouts as files using the Report Layout Selection page. This workflow is obsolete; refer to Get started creating report layouts for current procedures.",
   "systems": [
-    "reporting",
-    "administration"
+    "reporting"
   ],
   "topics": [
-    "custom report layouts",
+    "report layouts",
     "import export",
-    "rdlc",
-    "word layouts",
-    "file management"
+    "custom layouts",
+    "obsolete"
   ],
   "objects": [
     {
@@ -22,15 +20,14 @@
     },
     {
       "type": "page",
-      "name": "Report Layouts"
+      "name": "Custom Report Layouts"
     }
   ],
   "features": [
-    "Layout export to file",
-    "Layout import from file",
-    "RDLC file handling",
-    "Word file handling",
-    "File-based layout sharing"
+    "Export report layout to file",
+    "Import report layout from file",
+    "Word report layout (.docx)",
+    "RDLC report layout (.rdlc, .rdl)"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004232,
-      "pages_in_call": 8
+      "cost_usd": 0.003556,
+      "pages_in_call": 1
     }
   ]
 }

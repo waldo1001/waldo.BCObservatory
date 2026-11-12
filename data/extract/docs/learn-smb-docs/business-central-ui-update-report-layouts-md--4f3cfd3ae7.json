@@ -2,17 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/ui-update-report-layouts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts",
   "title": "(Obsolete) Update Custom Report Layouts",
-  "blob": "d1e8b0dc7b96a60b072fb961b89d809b02724d58",
-  "summary": "Update custom report layouts automatically when report datasets change, and test updates before applying them to identify potential issues.",
+  "blob": "3df46f1b69933741c4437d0a0bcfcc75f95a8050",
+  "summary": "Update custom report layouts after dataset changes in legacy versions. Use automatic update from error messages or manually test updates before applying them to report layouts.",
   "systems": [
     "reporting",
-    "administration"
+    "development"
   ],
   "topics": [
-    "custom report layouts",
-    "layout updates",
+    "report layouts",
+    "custom reports",
     "dataset changes",
-    "report maintenance"
+    "layout updates",
+    "legacy versions"
   ],
   "objects": [
     {
@@ -21,15 +22,20 @@
     },
     {
       "type": "page",
+      "name": "Custom Report Layouts"
+    },
+    {
+      "type": "page",
       "name": "Report Layout Update Log"
     }
   ],
   "features": [
-    "Automatic layout updates",
-    "Update testing",
-    "Error detection and reporting",
-    "Field removal handling",
-    "Manual layout editing"
+    "automatic layout updates",
+    "test layout updates",
+    "update one layout",
+    "update all layouts",
+    "error handling for layout updates",
+    "manual layout editing"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004232,
-      "pages_in_call": 8
+      "cost_usd": 0.004021,
+      "pages_in_call": 1
     }
   ]
 }

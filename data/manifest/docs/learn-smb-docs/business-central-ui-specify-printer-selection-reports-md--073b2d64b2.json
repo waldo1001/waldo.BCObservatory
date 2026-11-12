@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Specify a Default Printer",
+  "title": "Specify a Default Printer in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.042Z",
-      "blob": "81c3dcb60ca5fec4404465c051ff7d7f99ee8e03",
-      "words": 768,
+      "at": "2026-11-12T00:19:19.331Z",
+      "blob": "d37f0df24c6a7ef6cb9422f14eeb0fdf8680ae08",
+      "words": 776,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:11:13.786Z",
+      "at": "2026-11-12T00:19:34.298Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003606
+      "cost_usd": 0.004414
     },
     "summarized": {
-      "at": "2026-10-06T19:11:15.616Z",
+      "at": "2026-11-12T00:19:34.300Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:11:15.617Z",
+      "at": "2026-11-12T00:19:34.301Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:11:15.618Z",
+      "at": "2026-11-12T00:19:34.302Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-specify-printer-selection-reports.md",
-    "description": "Learn about the different ways to set up printers to be used by default for print jobs.",
-    "ms_date": "2024-11-05",
+    "description": "Set default printers for users and reports in Business Central, understand printer selection priority, and override the printer when running a report.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -85,12 +85,12 @@
       "cloud printing",
       "Universal Print"
     ],
-    "ai_usage": null,
-    "words": 768,
+    "ai_usage": "ai-assisted",
+    "words": 776,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "60853c52554664a5e7a7a8e830ef05e6980f409c61790d41c19a1d7597a6f847"
+  "output_hash": "a720ffd0c353d08713eecb54521a63a2f1d3f7e776d9f836b9ab21212ebc99bd"
 }

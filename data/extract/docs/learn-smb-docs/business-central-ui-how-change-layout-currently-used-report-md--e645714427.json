@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/ui-how-change-layout-currently-used-report.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report",
   "title": "(Obsolete) Set the Layout Used by a Report",
-  "blob": "644698cc0f9fd25b5101e76fd726edea08b4c315",
-  "summary": "Set the Layout Used by a Report describes how to change report layouts between built-in RDLC, Word, or custom layouts for reports and documents.",
+  "blob": "ef2e96d4eea5830db42ffb50a232eb3d468cfcc6",
+  "summary": "Obsolete procedures for setting report layouts by changing layout type (RDLC, Word, or custom) through the Report Layout Selection page. Use the current workflow in Set the layout used by a report instead.",
   "systems": [
     "reporting"
   ],
@@ -12,7 +12,7 @@
     "rdlc",
     "word layouts",
     "custom layouts",
-    "document layouts"
+    "obsolete"
   ],
   "objects": [
     {
@@ -27,8 +27,11 @@
   "features": [
     "RDLC report layout",
     "Word report layout",
-    "custom layout",
-    "document report performance"
+    "Custom layout",
+    "Layout Type field",
+    "Company Name field",
+    "Layout Description field",
+    "Custom Layouts FactBox"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005911,
-      "pages_in_call": 8
+      "cost_usd": 0.003918,
+      "pages_in_call": 1
     }
   ]
 }
