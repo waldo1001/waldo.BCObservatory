@@ -6,7 +6,7 @@
   "title": "[Main]Incorrect Country/Region Code in VAT Entry after applying Alternative Customer VAT Registration on a Sales Invoice in the Belgian version.",
   "url": "https://github.com/microsoft/BCApps/pull/13315",
   "published_at": "2026-11-10T05:31:44Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-11T00:15:47.902Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 0,
       "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-12T00:18:08.151Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003092
+    },
+    "linked": {
+      "at": "2026-11-12T00:18:08.346Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-12T00:18:08.361Z",
+      "path": "content/changes/bcapps/13315.md"
     }
   },
   "input_hash": "4689885b0d4953511d0fbd781c2473679901481d:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cdcb587693f58c4692aec41464a4704989badd408532cad2b6a093ea55a6bd18"
+  "output_hash": "2b8b96823bb24f95a6f06bc5c962eb3c3387ff5e161d16c916538c017561346d"
 }

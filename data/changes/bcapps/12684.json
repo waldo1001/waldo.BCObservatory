@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12684,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12684",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-10T00:44:39Z",
+  "merge_commit_sha": "f817ff05958093fee20bdf6a4798e6608ee159d5",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[API tests] Improve APIV1 fixture and verification reliability",
+  "body_hash": "307e6ebf3260d99d482e516c0fc82354bee076ed9483c558d95a5bb8bbc7e2fb",
+  "fixes_issues": [],
+  "work_items": [
+    646383,
+    653126,
+    653393
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 9,
+    "additions": 55,
+    "deletions": 78,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

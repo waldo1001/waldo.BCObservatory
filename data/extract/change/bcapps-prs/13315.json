@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcapps-prs/13315",
+  "number": 13315,
+  "title": "[Main]Incorrect Country/Region Code in VAT Entry after applying Alternative Customer VAT Registration on a Sales Invoice in the Belgian version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "VAT Entry country/region code is now correctly assigned when applying alternative customer VAT registration on Belgian sales invoices.",
+  "key_points": [
+    "Fixed incorrect country/region code in VAT entries for Belgian invoices",
+    "Applied alternative customer VAT registration now properly assigns the correct country/region code",
+    "Includes test coverage for the alternative customer VAT document behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Incorrect Country/Region Code in VAT Entry after applying Alternative Customer VAT Registration on a Sales Invoice in the Belgian version",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003092,
+    "changes_in_call": 1
+  }
+}

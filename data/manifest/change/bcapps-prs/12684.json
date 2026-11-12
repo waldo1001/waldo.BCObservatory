@@ -6,7 +6,7 @@
   "title": "[API tests] Improve APIV1 fixture and verification reliability",
   "url": "https://github.com/microsoft/BCApps/pull/12684",
   "published_at": "2026-11-10T00:44:39Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-11T00:15:47.902Z"
@@ -31,5 +31,7 @@
     "title_key": "api tests improve apiv1 fixture and verification reliability"
   },
   "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-11T02:22:25.085Z"
+  "retry_after": null,
+  "skip": "non-code",
+  "skipped_at": "2026-11-12T00:18:53.775Z"
 }

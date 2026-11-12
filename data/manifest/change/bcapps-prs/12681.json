@@ -6,7 +6,7 @@
   "title": "[API tests] Assign a number series to API vendor payment journals",
   "url": "https://github.com/microsoft/BCApps/pull/12681",
   "published_at": "2026-11-10T00:44:39Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-11T00:15:47.902Z"
@@ -30,5 +30,7 @@
     "title_key": "api tests assign a number series to api vendor payment journals"
   },
   "last_error": "fetch failed",
-  "retry_after": "2026-11-11T02:21:41.777Z"
+  "retry_after": null,
+  "skip": "non-code",
+  "skipped_at": "2026-11-12T00:18:20.760Z"
 }

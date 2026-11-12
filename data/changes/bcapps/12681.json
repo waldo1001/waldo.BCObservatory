@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12681,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12681",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-10T00:44:39Z",
+  "merge_commit_sha": "80607a916b05ac4bd62b263037b0e85036b43497",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[API tests] Assign a number series to API vendor payment journals",
+  "body_hash": "c28b1254295e1697c6d4c00e6569fe6ba4bfe07e36a4782f799e87f412f6a5ed",
+  "fixes_issues": [],
+  "work_items": [
+    646383,
+    653125,
+    653393
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 5,
+    "deletions": 10,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

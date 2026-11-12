@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Ad-hoc data analysis",
+  "title": "Ad Hoc Data Analysis in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-adhoc-analysis",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.976Z",
-      "blob": "81e241e71f2db413ffe91522427cfbca0e8b19b4",
-      "words": 161,
+      "at": "2026-11-12T00:18:18.430Z",
+      "blob": "88c6182224ebe302fd7a4eb1ab2f2080b2c41711",
+      "words": 169,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:43:19.021Z",
+      "at": "2026-11-12T00:18:28.024Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004095
+      "cost_usd": 0.002991
     },
     "summarized": {
-      "at": "2026-10-06T19:43:20.862Z",
+      "at": "2026-11-12T00:18:28.024Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:20.863Z",
+      "at": "2026-11-12T00:18:28.025Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:20.863Z",
+      "at": "2026-11-12T00:18:28.026Z",
       "page": false
     }
   },
@@ -44,19 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports-adhoc-analysis.md",
-    "description": "Provides an overview of features that support ad-hoc data analyses in Business Central.",
-    "ms_date": "2024-04-30",
-    "ms_topic": "get-started",
+    "description": "Find ways to analyze Business Central data beyond standard reports, including list filters, saved views, analysis mode, and exports to Excel.",
+    "ms_date": "2026-11-11",
+    "ms_topic": "overview",
     "search_form": [],
     "keywords": [
       "feature overview"
     ],
-    "ai_usage": null,
-    "words": 161,
+    "ai_usage": "ai-assisted",
+    "words": 169,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8263d41b8cce836973626bdadb44f5aba38ea6feaebddf3b70d709accfc676b6"
+  "output_hash": "c18601457bc4fd52af673050f0d244550036a8e4fb9d37dd4c886bb8469af188"
 }

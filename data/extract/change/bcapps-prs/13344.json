@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13344",
+  "number": 13344,
+  "title": "[29.x]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "When a purchase credit memo is created by copying a posted invoice and then posted, the received and invoiced quantities on the original purchase order are no longer incorrectly reverted to zero. The fix ensures that only corrective credit memos with linked item ledger entries affect the source order.",
+  "key_points": [
+    "Added IsCorrectiveCreditMemo helper method to detect when a credit memo line has no linked item ledger entry",
+    "Prevents the Order No./Order Line No. fallback logic from updating source purchase order quantities for copied credit memos",
+    "Corrective credit memo flow with item ledger entries remains unaffected and continues reverting as designed",
+    "Applied across all regional layers (W1, NA, BE, CZ, IT, ES, FI, GB, NO, APAC, RU, SE)",
+    "Added test cases to verify the fix works correctly for purchase order document copying scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": "when there is no linked item ledger entry and the line is an inventory item, skip the Order No. / Order Line No. fallback",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004853,
+    "changes_in_call": 1
+  }
+}

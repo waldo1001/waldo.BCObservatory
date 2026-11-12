@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Use reports in your daily work",
+  "title": "Use Business Central Reports in Your Daily Work",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-use-reports",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.176Z",
-      "blob": "8edae2770a0b174c8bf96fdf957543a2290819aa",
-      "words": 275,
+      "at": "2026-11-12T00:18:31.158Z",
+      "blob": "8bb6051e421075833698f029bc8e7ebf779e13e4",
+      "words": 274,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:28:45.047Z",
+      "at": "2026-11-12T00:18:57.553Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002737
+      "cost_usd": 0.003269
     },
     "summarized": {
-      "at": "2026-10-06T19:28:45.156Z",
+      "at": "2026-11-12T00:18:57.554Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:45.158Z",
+      "at": "2026-11-12T00:18:57.555Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:45.159Z",
+      "at": "2026-11-12T00:18:57.556Z",
       "page": false
     }
   },
@@ -44,19 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports-use-reports.md",
-    "description": "Provides an overview of the reporting features in Business Central.",
-    "ms_date": "2024-12-27",
-    "ms_topic": "article",
+    "description": "Find Business Central reports, run and schedule them, choose printers and layouts, reuse saved settings, and export report data for analysis.",
+    "ms_date": "2026-11-11",
+    "ms_topic": "overview",
     "search_form": [],
     "keywords": [
       "feature overview"
     ],
-    "ai_usage": null,
-    "words": 275,
+    "ai_usage": "ai-assisted",
+    "words": 274,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "27042548b7e69b833cda4674991fee3f44de70afb7d7fa9154d550643e270730"
+  "output_hash": "10dbd8e97e129ea8253a263a79fa15157fcf2c23ec67916285298fe7e2af0213"
 }

@@ -1,38 +1,32 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-work-with-vat.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-work-with-vat",
-  "title": "How to work with VAT on sales and purchases",
-  "blob": "a8a99e3d4bf6657b0e1498b176af54560b6278c4",
-  "summary": "Calculate, display, and correct VAT amounts on sales and purchase documents. Configure VAT settings, handle VAT date functionality, manage VAT differences, and process certificates of supply for EU transactions.",
+  "title": "Work with VAT on Sales and Purchases",
+  "blob": "12163491da4af652d0515ab6f40e57339f8daec3",
+  "summary": "Work with value-added tax (VAT) on sales and purchase transactions, including calculating VAT amounts, handling VAT dates, correcting VAT manually, and processing certificates of supply in Business Central.",
   "systems": [
     "finance",
     "sales",
     "purchasing"
   ],
   "topics": [
+    "vat",
+    "sales documents",
+    "purchase documents",
     "vat calculation",
     "vat posting",
-    "vat date",
-    "price including vat",
-    "certificates of supply",
-    "eu transactions"
+    "vat dates",
+    "vat correction",
+    "certificates of supply"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "VAT Entries"
+      "name": "Customer"
     },
     {
       "type": "page",
-      "name": "General Ledger Setup"
-    },
-    {
-      "type": "page",
-      "name": "Customer Card"
-    },
-    {
-      "type": "page",
-      "name": "Customer Price Group"
+      "name": "Item"
     },
     {
       "type": "page",
@@ -40,7 +34,35 @@
     },
     {
       "type": "page",
+      "name": "Customer Price Groups"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Setup"
+    },
+    {
+      "type": "page",
+      "name": "User Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Entries"
+    },
+    {
+      "type": "page",
       "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Journal Templates"
+    },
+    {
+      "type": "page",
+      "name": "General Journal Batches"
     },
     {
       "type": "page",
@@ -48,11 +70,15 @@
     },
     {
       "type": "page",
+      "name": "VAT Posting Setup"
+    },
+    {
+      "type": "page",
       "name": "General Posting Setup"
     },
     {
       "type": "page",
-      "name": "General Journal Templates"
+      "name": "Purchase Invoices"
     },
     {
       "type": "page",
@@ -61,21 +87,17 @@
     {
       "type": "page",
       "name": "Certificates of Supply"
-    },
-    {
-      "type": "page",
-      "name": "Purchase Invoices"
     }
   ],
   "features": [
-    "VAT calculation and display",
-    "VAT date functionality",
-    "Prices including VAT",
-    "Manual VAT adjustment",
-    "VAT difference tolerance",
-    "VAT posting groups",
-    "Import VAT handling",
-    "Certificate of supply processing"
+    "Prices Including VAT",
+    "VAT business posting groups",
+    "VAT product posting groups",
+    "VAT Date functionality",
+    "Manual VAT correction",
+    "VAT difference allowance",
+    "Import VAT posting",
+    "Certificate of Supply processing"
   ],
   "versions": [
     "version 23.1"
@@ -85,9 +107,9 @@
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": true,
-      "cost_usd": null,
-      "pages_in_call": 8
+      "cached": false,
+      "cost_usd": 0.016566,
+      "pages_in_call": 1
     }
   ]
 }

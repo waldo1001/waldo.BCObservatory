@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Receive and convert electronic documents",
+  "title": "Receive and Convert Electronic Documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.667Z",
-      "blob": "f5a3949b3435858a541a2ed7057d0c6cb6412ff5",
+      "at": "2026-11-12T00:18:13.786Z",
+      "blob": "b57825924628283f43f75b0200cf4b261012b490",
       "words": 753,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:01:24.773Z",
+      "at": "2026-11-12T00:18:26.836Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.004165
+      "cost_usd": 0.004387
     },
     "summarized": {
-      "at": "2026-10-06T19:01:24.792Z",
+      "at": "2026-11-12T00:18:26.837Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:24.793Z",
+      "at": "2026-11-12T00:18:26.837Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:24.794Z",
+      "at": "2026-11-12T00:18:26.838Z",
       "page": false
     }
   },
@@ -74,12 +74,12 @@
       "general journal line",
       "document exchange service"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 753,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8709b85a0787f3dc20058e783e0c2c1a66202e1935a072d6efd96e86abf16f33"
+  "output_hash": "1892d3531cb66646cd3607cfcd0555af4bf3ee637cd90409794299b1e78486a3"
 }

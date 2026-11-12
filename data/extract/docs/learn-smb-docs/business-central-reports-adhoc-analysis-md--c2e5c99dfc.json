@@ -1,28 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports-adhoc-analysis.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-adhoc-analysis",
-  "title": "Ad-hoc data analysis",
-  "blob": "81e241e71f2db413ffe91522427cfbca0e8b19b4",
-  "summary": "Perform ad-hoc data analysis in Business Central using sorting, searching, filtering, list views, Excel export, and data analysis mode. Analyze data directly from pages without relying on standard reports.",
+  "title": "Ad Hoc Data Analysis in Business Central",
+  "blob": "88c6182224ebe302fd7a4eb1ab2f2080b2c41711",
+  "summary": "Ad hoc data analysis in Business Central describes methods to analyze data beyond standard reports, including sorting, filtering, list views, Excel integration, and data analysis mode.",
   "systems": [
     "reporting"
   ],
   "topics": [
-    "ad-hoc analysis",
+    "ad hoc analysis",
     "data analysis",
     "filtering",
-    "excel",
+    "sorting",
+    "excel integration",
     "list views"
   ],
   "objects": [],
   "features": [
-    "Sorting",
-    "Searching",
-    "Filtering",
-    "List views",
-    "Excel export",
-    "Data analysis mode",
-    "Report dataset analysis"
+    "Sorting and Filtering",
+    "List Views",
+    "View and Edit in Excel",
+    "Data Analysis Mode",
+    "Report Data Analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004095,
-      "pages_in_call": 8
+      "cost_usd": 0.002991,
+      "pages_in_call": 1
     }
   ]
 }

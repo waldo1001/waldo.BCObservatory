@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to work with VAT on sales and purchases",
+  "title": "Work with VAT on Sales and Purchases",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-work-with-vat",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:23.054Z",
-      "blob": "a8a99e3d4bf6657b0e1498b176af54560b6278c4",
-      "words": 3320,
+      "at": "2026-11-12T00:18:12.761Z",
+      "blob": "12163491da4af652d0515ab6f40e57339f8daec3",
+      "words": 2959,
       "forms": 7
     },
     "extracted": {
-      "at": "2026-10-06T17:35:19.291Z",
+      "at": "2026-11-12T00:18:26.825Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 12,
-      "cost_usd": 0
+      "objects": 17,
+      "cost_usd": 0.016566
     },
     "summarized": {
-      "at": "2026-10-06T17:35:19.307Z",
+      "at": "2026-11-12T00:18:26.826Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:35:19.308Z",
+      "at": "2026-11-12T00:18:26.827Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:35:19.309Z",
+      "at": "2026-11-12T00:18:26.828Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-work-with-vat.md",
-    "description": "This article describes the various ways of working with VAT both manually and with automatic setup, to help you meet country/region specific regulations.",
-    "ms_date": "2024-05-29",
+    "description": "Work with VAT prices and dates in Business Central, correct VAT amounts, post import VAT invoices, and manage certificates of supply for shipments.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -89,12 +89,12 @@
       "sales",
       "purchases"
     ],
-    "ai_usage": null,
-    "words": 3320,
+    "ai_usage": "ai-assisted",
+    "words": 2959,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2df75219bbfc3c7ea02b7194681ed08cdbc93e5659549b6cfb53688e45bd04d9"
+  "output_hash": "da1c192b878ab1e66341da0d221dc72d4b74be85e8b626baa5593803fe6094c7"
 }

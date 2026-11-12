@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to convert service contracts",
+  "title": "Convert Service Contracts After a VAT Rate Change",
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-convert-service-contracts",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.480Z",
-      "blob": "973666ec0a733da27c6296ec953e77ac124b0c73",
-      "words": 621,
+      "at": "2026-11-12T00:18:57.542Z",
+      "blob": "cded87880c4c49ebe0f1158fe29ab57bf6c3dd72",
+      "words": 602,
       "forms": 0
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/service-how-to-convert-service-contracts.md",
-    "description": "Learn how to manually convert service contracts that include VAT amounts using various alternative methods.",
-    "ms_date": "2025-10-03",
+    "description": "Review ways to handle a VAT rate change for prepaid service contracts in Business Central, including VAT corrections and replacement contracts.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "VAT",
       "VAT rate change"
     ],
-    "ai_usage": null,
-    "words": 621,
+    "ai_usage": "ai-assisted",
+    "words": 602,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9d801cf7a169ffd30f6d3ca0abf8bbb88e51d45f1b1079aacfae586692313ec9"
+  "output_hash": "cded87880c4c49ebe0f1158fe29ab57bf6c3dd72"
 }

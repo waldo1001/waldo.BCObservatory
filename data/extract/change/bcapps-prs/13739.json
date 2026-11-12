@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13739",
+  "number": 13739,
+  "title": "[Master]-Sales/Purchase Price List activation allows Duplicate Lines when the Price List is Inactive.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Price List activation now prevents duplicate lines when the price list is inactive, fixing a data integrity issue in the pricing system.",
+  "key_points": [
+    "Prevents duplicate lines from being added to inactive price lists during activation",
+    "Addresses a bug in the price list management logic",
+    "Updated codeunit 7017 to enforce proper validation",
+    "Includes test coverage for the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003085,
+    "changes_in_call": 1
+  }
+}

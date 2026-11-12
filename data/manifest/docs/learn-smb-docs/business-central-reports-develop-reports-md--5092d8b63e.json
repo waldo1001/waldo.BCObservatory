@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Develop report layouts and datasets",
+  "title": "Develop Business Central Report Layouts and Datasets",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-develop-reports",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.012Z",
-      "blob": "8d6241eaab458e9cc87d575bcd1a68ce5aee95c1",
-      "words": 269,
+      "at": "2026-11-12T00:18:30.226Z",
+      "blob": "c19bbb5df3f6d701b6f992fb2ab24ffb0ede725b",
+      "words": 277,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:52:17.304Z",
+      "at": "2026-11-12T00:18:49.051Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00256
+      "objects": 1,
+      "cost_usd": 0.003729
     },
     "summarized": {
-      "at": "2026-10-06T18:52:29.376Z",
+      "at": "2026-11-12T00:18:49.052Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:29.377Z",
+      "at": "2026-11-12T00:18:49.052Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:29.378Z",
+      "at": "2026-11-12T00:18:49.053Z",
       "page": false
     }
   },
@@ -44,19 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports-develop-reports.md",
-    "description": "Provides an overview of Business Central data.",
-    "ms_date": "2022-02-03",
-    "ms_topic": "concept-article",
+    "description": "Find guidance for customizing Business Central report layouts in Word, Excel, or RDLC, and learn when a developer must change the report dataset.",
+    "ms_date": "2026-11-11",
+    "ms_topic": "overview",
     "search_form": [],
     "keywords": [
       "feature overview"
     ],
-    "ai_usage": null,
-    "words": 269,
+    "ai_usage": "ai-assisted",
+    "words": 277,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5bbbc7392b09cef3deffe1ebd08163699379fdfdd84d721ad470fb8a5b610954"
+  "output_hash": "b763ee1c7ec5e65e1671cbdad28225e6a56e88e1d0ce86e5447835f3b77c6263"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:06:40.560Z",
+      "at": "2026-11-12T00:18:08.145Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.00475
+      "cost_usd": 0.003965
     },
     "summarized": {
-      "at": "2026-10-06T19:06:40.573Z",
+      "at": "2026-11-12T00:18:08.146Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:06:40.574Z",
+      "at": "2026-11-12T00:18:08.146Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:06:40.575Z",
+      "at": "2026-11-12T00:18:08.147Z",
       "page": false
     }
   },
@@ -77,5 +77,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3dd916c8dddbe3a7c7fcb0c42e0b750ae7f20fd2"
+  "output_hash": "66611f11c3402cf841308475d24ab60b39e03586ff9f73b6ce583c5f1aeead37"
 }

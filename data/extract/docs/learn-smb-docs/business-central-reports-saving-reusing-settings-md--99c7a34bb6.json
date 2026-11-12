@@ -2,31 +2,28 @@
   "item_id": "docs/learn-smb-docs/business-central/reports-saving-reusing-settings.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings",
   "title": "Manage Saved Settings for Reports and Batch Jobs",
-  "blob": "2b99ad537b546a9c244f0677173a56312e14d0f3",
-  "summary": "How to manage saved settings for reports and batch jobs including creating, modifying, and sharing them with users. Use this to configure default report options and filters.",
+  "blob": "4c648ba25657d76d35a6e830653636fd9eeb0939",
+  "summary": "Manage saved settings for reports and batch jobs allows users to create, view, and modify predefined options and filters that can be applied to reports and batch jobs, either for individual users or all users in a company.",
   "systems": [
     "reporting",
     "administration"
   ],
   "topics": [
-    "report settings",
     "saved settings",
+    "reports",
     "batch jobs",
     "request page",
-    "report options"
+    "filters",
+    "permissions"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Report Settings"
-    }
-  ],
+  "objects": [],
   "features": [
-    "saved settings",
-    "report configuration",
-    "shared settings",
-    "user settings",
-    "report request page"
+    "Saved settings management",
+    "Report Settings page",
+    "User-specific settings",
+    "Shared settings",
+    "Copy and edit settings",
+    "Last used options and filters"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005593,
-      "pages_in_call": 7
+      "cost_usd": 0.003441,
+      "pages_in_call": 1
     }
   ]
 }
