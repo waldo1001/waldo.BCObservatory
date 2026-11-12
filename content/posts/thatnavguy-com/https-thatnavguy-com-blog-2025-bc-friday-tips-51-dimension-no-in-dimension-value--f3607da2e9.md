@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:58:57.907Z"
   flags: []
 generated:
-  at: "2026-10-26T05:30:48.114Z"
+  at: "2026-11-12T00:14:43.393Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -136,7 +136,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:51:11.974Z"
+  probed_at: "2026-11-12T00:50:50.233Z"
 ---
 
 # BC Friday Tips #51 Dimension No. in Dimension Value

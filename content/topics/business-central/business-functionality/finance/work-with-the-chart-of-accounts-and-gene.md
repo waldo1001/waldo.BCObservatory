@@ -2,22 +2,29 @@
 id: topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene
 type: topic
 title: Work with the chart of accounts and general ledger (G/L)
-summary: "Chart of accounts and general ledger (G/L) work in Business Central: account structure, posting and reversing entries, allocations, deferrals, budgets, revaluation, review, analysis, and audit exports. It answers how-to and setup questions for G/L accounting tasks."
+summary: "Chart of accounts and general ledger (G/L) work in Business Central: account structure, journal posting, allocations, deferrals, budgets, revaluation, review, reversal, and audit export. It answers how-to questions about setting up and maintaining the G/L and correcting or analyzing its entries."
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:19:29.520Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: af1d286542b996807dd905cc839de3df674904f7309db4400c50ec6fe440bf3f
+  input_hash: 2d2c0b991cef2bce9175406c0bf8044c3afb828e2dbf15469b8f170c0742ca3c
 evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income
+    title: Allocate Recurring Costs and Income
+    date: "2026-11-11"
+    commit: null
+    t: null
+    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-allocate-revenue-costs
     title: Allocate revenue and costs to multiple general ledger accounts
@@ -50,13 +57,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/finance-how-to-export-audit-files
     title: Export data for auditing
     date: "2024-08-07"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income
-    title: Overview of tasks to allocate costs and income
-    date: "2024-12-06"
     commit: null
     t: null
     quote: null
@@ -104,12 +104,12 @@ evidence:
     quote: null
 links:
   learn:
+    - https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income
     - https://learn.microsoft.com/dynamics365/business-central/finance-allocate-revenue-costs
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-to-analyze-gl-entries
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-create-budgets
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-defer-revenue-expenses
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-to-export-audit-files
-    - https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-post-transactions-directly
     - https://learn.microsoft.com/dynamics365/business-central/finance-revalue-account-balances
     - https://learn.microsoft.com/dynamics365/business-central/finance-review-accounts
@@ -304,37 +304,36 @@ narrative: generated
 
 # Work with the chart of accounts and general ledger (G/L)
 
-> Chart of accounts and general ledger (G/L) work in Business Central: account structure, posting and reversing entries, allocations, deferrals, budgets, revaluation, review, analysis, and audit exports. It answers how-to and setup questions for G/L accounting tasks.
+> Chart of accounts and general ledger (G/L) work in Business Central: account structure, journal posting, allocations, deferrals, budgets, revaluation, review, reversal, and audit export. It answers how-to questions about setting up and maintaining the G/L and correcting or analyzing its entries.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Work with the chart of accounts and general ledger (G/L) · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Work with the chart of accounts and general ledger (G/L) · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers chart of accounts and general ledger tasks in Finance in Business Central. Two pages explain the general ledger and the chart of accounts: account types, hierarchy, account categories, posting groups and dimensions.
-
-The other pages cover day-to-day and period-end tasks. You can post directly to G/L accounts with general journals, for example for employee expenses. You can reverse G/L postings with the Reverse Transaction action or undo receipts and return shipments. You can analyze entries through G/L Registers and analysis mode. You can spread amounts with allocations and deferrals, and plan with G/L budgets. Other pages cover revaluing foreign-currency G/L balances and marking entries as reviewed for month-end reconciliation. A separate page covers exporting G/L and VAT data for auditors.
-
-Two pages describe allocation. One covers allocating to multiple G/L accounts with fixed or variable methods. The other covers allocation keys in recurring general journals.
+This section covers the core of Finance in Business Central: the chart of accounts and the general ledger entries posted to it. Two pages explain the chart structure (posting, heading and total accounts, account categories, posting groups, dimensions). Start there before changing setup.
+The remaining pages are task-based. They cover posting directly to G/L with general journals, allocating recurring costs and income, deferring revenues and expenses, creating G/L budgets, and revaluing foreign-currency G/L balances. Others cover analyzing and reviewing entries for month-end reconciliation, undoing postings with reversing entries, and exporting data for audits.
+There are no subtopics, so all guidance is on these pages. Pick the page matching your task, and use the chart of accounts pages for background.
 
 ## Key points
 
-- Chart of accounts uses posting, heading and total accounts in a hierarchy, with account categories and dimensions to structure reporting.
-- Allocations spread revenue and costs across G/L accounts by fixed share, percentage, or variable amounts from statistical accounts, with dimensions, a test function and posting preview.
-- Recurring general journals can allocate by quantity, percentage or amount using allocation keys; fixed asset journal allocation is also mentioned.
-- Deferral templates automatically defer revenues or expenses to set accounting periods based on posting dates (listed for 2025 release wave 2).
-- G/L budgets can cover any period, support multiple versions and dimensions, and can be exported to and imported from Excel.
-- G/L revaluation adjusts foreign-currency balances using source currency tracking and posts realized and unrealized gains and losses; it supports an additional reporting currency.
-- Review policies and reviewed identifiers help mark G/L entries as reviewed for month-end reconciliation.
-- The Audit Files Export extension exports G/L and VAT entries in formats such as SIE, FEC and SAF-T, with account mapping and data quality checks.
+- Chart of accounts: account hierarchy with posting, heading and total accounts, account categories, and dimensions integration.
+- Allocations: recurring journal allocation by quantity, percentage or amount using allocation keys, plus G/L allocation with fixed or variable (statistical account) distribution, test allocation and posting preview.
+- Deferrals: deferral templates with calculation methods spread revenues or expenses across accounting periods based on posting date.
+- G/L budgets: any period, multiple versions and dimensions, with Excel export and import and budgeted versus actual analysis.
+- Revaluation: adjust foreign-currency G/L balances with source currency tracking, posting realized and unrealized gains and losses, with additional reporting currency support.
+- Review and analysis: review policies and reviewed identifiers speed up month-end reconciliation; the G/L Registers page and analysis mode help trace entries.
+- Corrections: use the Reverse Transaction action for G/L entries, or Undo Receipt and Undo Return Shipment for unposted receipts and shipments.
+- Audit export: the Audit File Export extension produces SIE, FEC and SAF-T files with G/L account mapping, data quality checks and zip output.
 
 ## Learn pages
 
+- [Allocate Recurring Costs and Income](https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income): Outlines the tasks to allocate an entry in a recurring general journal to several different accounts when you post the journal.
+  - In the observatory: [Page 251 "General Journal Batches"](../../../../objects/page/251.md)
 - [Allocate revenue and costs to multiple general ledger accounts](https://learn.microsoft.com/dynamics365/business-central/finance-allocate-revenue-costs): Learn how to allocate costs to one or more accounts in your general ledger.
 - [Analyze G/L entries](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-analyze-gl-entries): Describes how to analyze data in your general ledger either on transactional level or on the detailed level.
 - [Create G/L budgets](https://learn.microsoft.com/dynamics365/business-central/finance-how-create-budgets): Describes how to create G/L budgets to forecast different financial activities and assign dimensions for business intelligence purposes.
 - [Defer revenues and expenses](https://learn.microsoft.com/dynamics365/business-central/finance-how-defer-revenue-expenses): Learn how to automatically defer or postpone revenues and expenses.
 - [Export data for auditing](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-export-audit-files): This article explains how to set up different export formats and then use them, based on auditor or authority requirements.
-- [Overview of tasks to allocate costs and income](https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income): Outlines the tasks to allocate an entry in a recurring general journal to several different accounts when you post the journal.
 - [Record expenses or income directly in G/L](https://learn.microsoft.com/dynamics365/business-central/finance-how-post-transactions-directly): You can create transactions on the General Journal page for business activities that don't involve a document.
 - [Revalue general ledger account balances](https://learn.microsoft.com/dynamics365/business-central/finance-revalue-account-balances): Learn how to revalue general ledger account balances before you produce your financial statements.
   - In the observatory: [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 17 "G/L Account Card"](../../../../objects/page/17.md)

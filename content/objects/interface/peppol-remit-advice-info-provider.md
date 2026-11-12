@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:47:35.044Z"
+  at: "2026-11-12T00:45:23.971Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 12da2d85966f59135293b2f994493cba4d00a038487f62830e4342b27c84427e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLRemitAdviceInfoProvider.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLRemitAdviceInfoProvider.Interface.al
     title: src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLRemitAdviceInfoProvider.Interface.al (releases/29.x)
     date: null
-    commit: 2c932722a2917f4592f1541d4d85dc247c8942ac
+    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
     t: null
     quote: null
 links:
@@ -84,7 +84,7 @@ relations:
 
 > Interface "PEPPOL Remit. Advice Info Provider" in PEPPOL (Microsoft.Peppol). 3 public procedures. Introduced in BC29, still in BC30.
 
-PEPPOL · Microsoft.Peppol · BC29-30 · [source at 2c932722](https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLRemitAdviceInfoProvider.Interface.al) · facts from BC29
+PEPPOL · Microsoft.Peppol · BC29-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLRemitAdviceInfoProvider.Interface.al) · facts from BC29
 
 ## Procedures
 

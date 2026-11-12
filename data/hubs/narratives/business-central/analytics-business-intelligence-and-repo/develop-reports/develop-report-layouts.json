@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
-  "input_hash": "36432a75d73d4e6f9b601b555a2efc90e081fbac384745f116e13ccf0635794a",
-  "summary": "Report layout development in Business Central: layout types (Word, Excel, RDLC, external, composite), creating and editing them, mapping data fields, setting which layout a report uses, themes, header/footer layouts, and available fonts. It answers how-to and setup questions for report and document layouts.",
-  "overview": "Report layouts control the content and format of reports and documents. Business Central supports Word, RDLC, Excel, and external layouts, plus composite layouts that combine reusable themes with header/footer layouts for consistent branding. The overview page explains these types and is a good first read.\n\nThe section then splits by layout type. \"Get started creating report layouts\" covers choosing a type, copying, exporting, importing, and validating layouts, and managing layout status. Word layouts have two pages: one on designing with the Business Central Word add-in, and one on mapping fields with the XML Mapping pane. Excel layouts have their own guide, and RDLC layouts are covered by a page on SQL Server Report Builder and the Visual Studio RDLC designer.\n\nSetup pages cover which layout a report uses (company defaults, temporary choice on the request page, Report Layouts and Report Layout Selection pages) and how to configure themes and header/footer layouts. A separate page lists the preinstalled fonts for Excel, Word, RDLC, and barcodes.",
+  "input_hash": "d1e73e659f62e6239ea05818f58e583b5aa9f444094484d614515ef89547afb2",
+  "summary": "Report layouts in Business Central: how to create, design, select and manage Word, Excel and RDLC layouts, plus themes, header/footer layouts and available fonts. It answers questions about building layouts, mapping data fields, and choosing which layout a report uses.",
+  "overview": "Report layouts control the content and format of reports and documents. Business Central supports Word, Excel, RDLC and external layout types, and composite layouts that combine a body layout with reusable themes and header/footer layouts. The overview and \"Get started\" pages explain the concepts, layout subtypes (Default, Body), status management and copying, export and import.\n\nDesign pages are split by layout type. Word layouts can be built with the Business Central Word add-in (Add Data pane, tables, repeaters, hide-if-empty controls) or by mapping fields through the XML Mapping pane. Excel layouts use formulas, PivotTables and PivotCharts. RDLC layouts are designed in SQL Server Report Builder or the Visual Studio RDLC Report Designer extension.\n\nOther pages cover which layout a report uses (per-company defaults, temporary choice on the request page, the Report Layouts and Report Layout Selection pages), setting up themes and header/footer layouts for consistent branding, and the list of preinstalled fonts for documents and barcodes. Start with the overview, then go to the page for your layout type.",
   "key_points": [
-    "Layout types: Word, RDLC, Excel, external, and composite layouts that combine reusable themes and headers/footers.",
-    "Excel layouts support formulas, PivotTables, PivotCharts, multiple worksheets, worksheet protection, and sensitivity labels, and can be built from scratch or from existing layouts.",
-    "The Word add-in provides an Add Data task pane, Insert table, Add repeater, and hide-if-empty controls, so XML need not be edited directly.",
-    "The XML Mapping pane is the alternative for mapping fields, labels, images, and repeating rows to content controls in Word.",
-    "RDLC layouts are designed in SQL Server Report Builder or the Visual Studio RDLC Report Designer extension, and are the more advanced option.",
-    "Default layouts can be set per company, or chosen temporarily from the report request page.",
+    "Supported layout types are Word, Excel, RDLC and external, with Default and Body subtypes; composite layouts combine reusable themes and header/footer layouts.",
+    "Layout status can be managed as Draft, Pending Approval, Approved or Retired, and layouts can be validated, copied, exported and imported.",
+    "The Word add-in adds report data, inserts tables, adds repeaters and sets hide-if-empty controls without editing XML; the XML Mapping pane is the alternative.",
+    "Excel layouts support formulas, PivotTables, PivotCharts, multiple worksheets, worksheet protection and sensitivity labels, and have data sheet requirements.",
+    "RDLC layouts are advanced layouts designed in SQL Server Report Builder or the Visual Studio RDLC Report Designer extension, using RDL or RDLC files.",
+    "The layout a report uses can be set as a company default, switched temporarily on the request page, or managed on the Report Layouts and Report Layout Selection pages.",
     "Themes and header/footer layouts resolve independently, with priority from layout-specific to company and global defaults.",
-    "The fonts page lists preinstalled fonts, including barcode, MICR, security, and OCR fonts for 1D barcodes."
+    "The fonts page lists preinstalled online fonts for Excel, Word, RDL and barcodes, including MICR, security, OCR and 1D barcode fonts."
   ],
   "members_used": 9,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-11T00:58:55.952Z",
+  "at": "2026-11-12T00:57:04.872Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.016747
+    "cost_usd": 0.017695000000000002
   }
 }

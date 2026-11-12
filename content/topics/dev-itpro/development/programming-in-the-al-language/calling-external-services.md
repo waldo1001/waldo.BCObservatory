@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -89,6 +89,7 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language
   localizations: []
   videos:
+    - video/aXM5Kuo3DHM
     - video/qNHUj3ZEang
   posts:
     - post/aardvarklabs-blog/2953
@@ -107,7 +108,6 @@ links:
     - change/bcapps/11612
     - change/bcapps/11993
     - change/bcapps/12140
-    - change/bcapps/12194
     - change/bcapps/12557
     - change/bcapps/12755
     - change/bcapps/5833
@@ -124,7 +124,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 1
+  video: 2
   blog: 11
   guideline: 0
 bc_forms: []
@@ -171,7 +171,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11612 Multiple runs of email retrieval on the same emails don't persist again](../../../../changes/bcapps/11612.md) (code change): "Email retrieval no longer creates duplicate entries when the same emails are retrieved"
 - [#11993 Enable HTTP requests before Expense Agent setup](../../../../changes/bcapps/11993.md) (code change): "The setup wizard enables HTTP client requests for the Expense Agent extension"
 - [#12140 [Email - SMTP Connector] Fix OAuth Base64URL token parsing](../../../../changes/bcapps/12140.md) (code change): "OAuth2 SMTP authentication now correctly decodes Base64URL tokens"
-- [#12194 Harden web request helpers: opt-in default credentials](../../../../changes/bcapps/12194.md) (code change): "Http Web Request Mgt. and SOAP Web Service Request Mgt. now disable default credentials"
 - [#12557 Implement first-party app authentication for Microsoft Fabric Export](../../../../changes/bcapps/12557.md) (code change): "first-party app authentication to the Microsoft Fabric Mirroring export"
 - [#12755 Flow Service Management: use native HttpClient instead of Web Request Helper](../../../../changes/bcapps/12755.md) (code change): "Flow Service Management.GetEnvironments now calls the endpoint through native AL HttpClient"
 - [#5833 Add Microsoft Graph API Support to SharePoint Connector](../../../../changes/bcapps/5833.md) (code change): "SharePoint Connector now supports Microsoft Graph API as an alternative to REST API"
@@ -189,6 +188,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to set Allow HttpClient Requests for multiple extensions (selected extensions) at the same time](../../../../posts/yzhums-com/65391.md) (community post): "Allow HttpClient Requests for extensions to allow outbound HTTP calls"
 - [Dynamics 365 Business Central: How to quickly check if a Url is secure (Use https) via AL](../../../../posts/yzhums-com/65525.md) (community post): "Use codeunit 1299 Web Request Helper and its IsSecureHttpUrl procedure to validate URL security"
 - [Dynamics 365 Business Central: Automatically enable Allow HttpClient Requests after custom extension/app installation](../../../../posts/yzhums-com/65533.md) (community post): "Allow HttpClient Requests setting for custom extensions during installation"
+- [FTP, FTPS, SFTP, What's the difference, and what about AL and Business Central](../../../../videos/aXM5Kuo3DHM.md) (video): "SFTP client in Business Central; SFTP code unit methods; SSH fingerprint verification"
 - [What's Cooking in Business Central: Cookies and Collectible Errors in the REST Client](../../../../videos/qNHUj3ZEang.md) (video): "Cookie Support in REST Client; Collectible Errors in REST Client"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

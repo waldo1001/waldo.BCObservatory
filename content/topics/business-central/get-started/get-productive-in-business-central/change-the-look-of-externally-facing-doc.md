@@ -2,7 +2,7 @@
 id: topic/business-central/get-started/get-productive-in-business-central/change-the-look-of-externally-facing-doc
 type: topic
 title: Change the look of externally facing documents
-summary: "Report and document layouts in Business Central: Word, Excel, RDLC and external layout types, composite layouts with themes and headers/footers, layout selection, per-customer and per-vendor document layouts, and available fonts. It answers how to create, modify, assign and brand externally facing documents."
+summary: "Report and document layouts in Business Central: Word, Excel, RDLC and external layout types, themes, header/footer layouts, layout selection, customer and vendor document layouts, and available fonts. It answers how to create, design, assign and manage the look of reports, emails and documents."
 tier: official
 language: en
 review:
@@ -11,43 +11,43 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d56add8c70f7566d249ef69e9540eddecd320b13041da2c68f8f56e729b5332f
+  input_hash: 0aaf79835e3157a2afd9529e0964935795b14d8b47288b6386975ebe3fdae0c0
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
-    title: (Obsolete) Create and modify custom report layouts
-    date: "2025-03-12"
+    title: (Obsolete) Create and Modify Custom Report Layouts
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-import-and-export-report-layout
     title: (Obsolete) Import and Export Custom Report Layouts
-    date: "2021-04-01"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report
     title: (Obsolete) Set the Layout Used by a Report
-    date: "2022-03-07"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts
     title: (Obsolete) Update Custom Report Layouts
-    date: "2021-06-24"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
-    title: Available fonts
+    title: Available Fonts in Business Central
     date: "2025-02-28"
     commit: null
     t: null
@@ -173,28 +173,28 @@ narrative: generated
 
 # Change the look of externally facing documents
 
-> Report and document layouts in Business Central: Word, Excel, RDLC and external layout types, composite layouts with themes and headers/footers, layout selection, per-customer and per-vendor document layouts, and available fonts. It answers how to create, modify, assign and brand externally facing documents.
+> Report and document layouts in Business Central: Word, Excel, RDLC and external layout types, themes, header/footer layouts, layout selection, customer and vendor document layouts, and available fonts. It answers how to create, design, assign and manage the look of reports, emails and documents.
 
 Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Change the look of externally facing documents · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains how to control the content and look of reports and documents such as sales and purchase documents. It starts with an overview of layout types (Word, Excel, RDLC, external, and composite layouts that combine reusable themes and headers/footers), then covers how to get started by copying, exporting, importing, validating and managing the status of layouts.
+This section explains how to control the content and format of externally facing documents such as sales and purchase documents and email messages. It starts with an overview of layout types (Word, Excel, RDLC, external, and composite layouts that combine reusable themes with headers and footers), then covers how to create and manage layouts, including status management, validation, copying and export/import.
 
-Design pages are split by layout type. Word layouts can be built with the Business Central Word add-in or by mapping data fields through the XML Mapping pane. Excel layouts use formulas, PivotTables and PivotCharts. RDLC layouts are designed in SQL Server Report Builder or the Visual Studio RDLC Report Designer extension. Other pages cover setting the layout a report uses, setting up themes and header/footer layouts for consistent branding, assigning layouts to customers and vendors, and the list of available fonts. The older custom layout approach is in the Use obsolete features subtopic.
+Design pages are split by layout type. Word layouts can be built with the Business Central Word add-in or by mapping fields with the XML Mapping pane. Excel layouts use formulas, PivotTables and PivotCharts. RDLC layouts are designed in SQL Server Report Builder or the Visual Studio RDLC Report Designer extension. Separate pages cover setting up themes and header/footer layouts, choosing which layout a report uses, and assigning document layouts per customer or vendor. A fonts list helps with Excel, Word, RDL and barcode work.
 
-Start with the overview and "Get started creating report layouts", then pick the page for your layout type. Use the layout selection and customer/vendor pages to apply the result.
+Start with the overview and "Get started creating report layouts", then move to the page for your layout type. The Use obsolete features subtopic covers the old custom report layout procedures and points to current replacements.
 
 ## Key points
 
-- Layout types: Word, Excel, RDLC, external, and composite layouts that combine reusable themes and headers/footers.
-- Word layouts can be designed with the Word add-in (Add Data task pane, insert table, add repeater, hide if empty) or by mapping fields with the XML Mapping pane and content controls.
-- Excel layouts support formulas, PivotTables, PivotCharts, multiple worksheets, worksheet protection and sensitivity labels, and can be created from scratch or from an existing layout.
-- RDLC layouts are designed in SQL Server Report Builder or the Visual Studio RDLC Report Designer extension and support RDL and RDLC files.
-- Default layouts can be set per company, or switched temporarily from the report request page; the Report Layouts and Report Layout Selection pages manage them.
+- Layout types are Word, Excel, RDLC and external, with Default and Body subtypes; composite layouts combine reusable themes with header/footer layouts.
+- Layouts have a status workflow: Draft, Pending Approval, Approved, Retired. They can be validated, copied, exported and imported.
+- Word layouts can be designed with the Word add-in (Add Data pane, tables, repeaters, hide-if-empty controls) or by mapping fields in the XML Mapping pane.
+- Excel layouts support formulas, multiple worksheets, PivotTables, PivotCharts, worksheet protection and sensitivity labels.
+- RDLC layouts are an advanced option designed in SQL Server Report Builder or the Visual Studio RDLC Report Designer extension.
+- Default layout can be set per company, switched temporarily from the report request page, or managed in the Report Layouts and Report Layout Selection pages.
 - Themes and header/footer layouts resolve independently, with priority from layout-specific to company and global defaults.
-- Customers and vendors can have document layouts per document type, including email body layout, email attachment layout and email recipients from contacts.
-- A fonts page lists preinstalled fonts for Excel, Word and RDL reports, including barcode, MICR, security and OCR fonts.
+- Customers and vendors can have their own document layouts, with email body and attachment layouts and email recipients chosen from contacts.
 
 ## Subtopics
 
@@ -202,7 +202,7 @@ Start with the overview and "Get started creating report layouts", then pick the
 
 ## More Learn pages
 
-- [Available fonts](https://learn.microsoft.com/dynamics365/business-central/ui-fonts): Learn about the preinstalled fonts that you can use for your externally facing reports.
+- [Available Fonts in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-fonts): Learn about fonts for Business Central report layouts, including document fonts, MICR and check security fonts, barcode fonts, and OCR fonts.
 - [Create Excel Report Layouts in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and import Excel report layouts in Business Central, configure data sheets, and preserve the dataset structure in your workbook.
 - [Define Document Layouts for Customers and Vendors](https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts): Use document layouts to control the appearance and format of documents such as invoices and orders that you send to customers and vendors.
   - In the observatory: [Page 26 "Vendor Card"](../../../../objects/page/26.md)

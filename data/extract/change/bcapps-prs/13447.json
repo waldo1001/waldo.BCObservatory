@@ -6,12 +6,11 @@
   "systems_joined": [
     "purchasing"
   ],
-  "summary": "The Create Payment page resolves an ambiguous field title error in the Spanish version when filtering vendor ledger entries by remaining amount, and adds test coverage for payment suggestion logic.",
+  "summary": "Fixes an ambiguous caption error on the Create Payment page when creating payments for vendor ledger entries filtered by Remaining Amount <> 0, seen in the Spanish version. The page is changed in the W1 and ES layers, and tests are added in several localizations.",
   "key_points": [
-    "Fixes an ambiguity error with the 'Remaining Amount' field title in Spanish localization",
-    "Updates the Create Payment page to properly resolve field references",
-    "Adds comprehensive test coverage across multiple localized versions (CH, CZ, ES, FI, W1)",
-    "Tests validate the suggest vendor payment functionality with dimension filtering"
+    "Fixes the 'Importe pendiente' ambiguous caption error when Create Payment runs on entries filtered by Remaining Amount",
+    "Create Payment page (1190) simplified in the W1 and ES base app layers",
+    "Regression tests added to ERM Suggest Vendor Payment in the W1, CH, CZ, ES and FI layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

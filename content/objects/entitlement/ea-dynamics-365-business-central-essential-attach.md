@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:47:35.044Z"
+  at: "2026-11-12T00:45:23.971Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 35b7709b6a06903084e98beb80ede56c390140f8de3d376b9da0428762b555e8
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralEssentialAttach.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralEssentialAttach.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralEssentialAttach.Entitlement.al (releases/29.x)
     date: null
-    commit: 2c932722a2917f4592f1541d4d85dc247c8942ac
+    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Entitlement "EA - Dynamics 365 Business Central Essential - Attach" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 2c932722](https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralEssentialAttach.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralEssentialAttach.Entitlement.al) · facts from BC29
 
 ## Recent changes
 

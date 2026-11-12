@@ -1,39 +1,25 @@
 {
   "hub_id": "topic/business-central/get-started/get-productive-in-business-central/change-the-look-of-externally-facing-doc/use-obsolete-features",
-  "input_hash": "9f085834f230cc9eb962b71e8ca2f323ba11c5f85389ea59a4f390e95ee2ee91",
-  "summary": "Obsolete features for externally facing document layouts in Business Central: creating, modifying, importing, exporting, assigning and updating custom RDLC and Word report layouts. It answers questions about how the older custom layout approach worked and how to manage layouts with it.",
-  "overview": "This section holds four pages marked obsolete. They describe the older way of changing how reports and documents look, using custom report layouts in RDLC or Word format.\n\nThe pages follow the life of a custom layout. One covers creating and modifying layouts, including copying and changing built-in layouts. Another covers exporting layouts to files and importing them back, which allows sharing and editing outside the product. A third explains how to set which layout a report uses, choosing between built-in RDLC, Word or a custom layout. The last covers updating custom layouts when the report dataset changes, and testing those updates first.\n\nStart with the page on creating and modifying custom layouts for the basic concepts. Then use the other pages for the specific task. Because all four are marked obsolete, check whether a newer approach applies before relying on them for new work.",
+  "input_hash": "b665baa554e4ae04d4522ba9b80ed7d9a305d3d3e34e91f1ee8229cb07525a67",
+  "summary": "Obsolete procedures for custom report layouts in legacy Business Central versions: creating, importing, exporting, selecting and updating RDLC and Word layouts. It answers questions about the old Report Layout Selection workflow and points to the current replacement pages.",
+  "overview": "This section holds four pages describing the legacy way of working with custom report layouts. They cover RDLC and Word layouts and the Report Layout Selection page. Each page is marked obsolete and refers readers to the current workflow, mainly \"Get started creating report layouts\" and \"Set the layout used by a report\".\n\nThe pages follow the life of a layout. You create or copy a layout, export or import it as a file, set which layout a report uses, and update layouts after dataset changes. Start here only if you work with an older version or need to understand legacy behavior. For new work, use the current pages named in each article.",
   "key_points": [
-    "All four pages are marked (Obsolete) in the Learn table of contents.",
-    "Custom report layouts can be built in RDLC or Word formats.",
-    "Layouts can be copied, and built-in layouts can be modified through this approach.",
-    "Layouts can be exported to files and imported from files, for RDLC and Word, which supports sharing and editing.",
-    "A report or document can be switched between built-in RDLC, Word or a custom layout; one page notes document report performance.",
-    "Custom layouts can be updated automatically when the report dataset changes.",
-    "Updates can be tested before applying, to detect and report errors, including cases where fields were removed.",
-    "Manual layout editing is an option when automatic updates do not resolve issues."
+    "All four pages are marked obsolete and point to current layout documentation.",
+    "Custom layouts can be created by copying an existing layout, in RDLC or Word format.",
+    "Layouts are exported and imported as files from the Report Layout Selection page: Word as .docx, RDLC as .rdlc or .rdl.",
+    "Setting a report's layout means changing the layout type (RDLC, Word or custom) on the Report Layout Selection page.",
+    "Relevant fields on that page include Layout Type, Company Name and Layout Description.",
+    "After dataset changes, layouts can be updated automatically from error messages.",
+    "Layout updates can be tested first, and applied to one layout or to all layouts.",
+    "Manual layout editing is the fallback when automatic updates fail."
   ],
   "members_used": 4,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:04:27.856Z",
+  "at": "2026-11-12T00:56:42.149Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.010633
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:26:13.743Z",
-    "verdict": "approve",
-    "issues": [
-      "Overview says export/import allows editing 'outside the product'; the source only says it enables sharing and modification of layout definitions as files. This is a mild extrapolation.",
-      "Key point on manual layout editing adds the condition 'when automatic updates do not resolve issues'; the source lists manual layout editing only as a feature, without that condition.",
-      "Key point merges error detection and field removal handling into one claim ('including cases where fields were removed'). This is plausible but more specific than the source.",
-      "The page that covers creating and modifying layouts also mentions assigning layouts to companies, which the narrative doesn't spell out. This is a minor omission."
-    ],
-    "input_hash": "9f085834f230cc9eb962b71e8ca2f323ba11c5f85389ea59a4f390e95ee2ee91",
-    "cost_usd": 0.0282832
+    "cost_usd": 0.013524000000000001
   }
 }

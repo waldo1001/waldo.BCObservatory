@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13760",
+  "input_hash": "d43ae498b74d01602ae8d028add953906f31fd1f976e52a6dfa48104330efbb0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-12T00:55:54.837Z",
+  "issues": [
+    "The key point mixes up two things. The description says manual-specification validation is unchanged, and separately says the category-card VAT controls already exist through #13504.",
+    "The work is tracked as an internal ADO bug, so fix fits better than feature."
+  ],
+  "applied": [
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020559,
+    "changes_in_call": 6
+  }
+}

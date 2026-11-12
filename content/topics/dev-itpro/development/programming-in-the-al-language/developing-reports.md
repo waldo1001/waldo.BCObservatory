@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/developing-reports
 type: topic
 title: Developing reports
-summary: "Developing reports in AL for Business Central: report objects, datasets, request pages, layouts (Word, Excel, RDLC/RDL), report extensions, substitution, obsoleting, testing, telemetry and performance. Answers how-to, design and troubleshooting questions for report developers."
+summary: "Developing reports in AL for Business Central: report objects, datasets, layouts (Word, Excel, RDLC/RDL), request pages, report extensions, substitution, obsoleting, testing, telemetry and performance. It answers how-to, design, troubleshooting and tuning questions for report developers."
 tier: official
 language: en
 system: development
@@ -12,37 +12,37 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 2d7b6aae98f0da9989382dc541248802de1ea2208881be24444ef3fa179d3170
+  input_hash: 8415e0a9b1a1403013e4f1a3ef0e7ede048bad71b09ac912f75356fb8d6e7bcd
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
-    title: (Obsolete) Create and modify custom report layouts
-    date: "2025-03-12"
+    title: (Obsolete) Create and Modify Custom Report Layouts
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-import-and-export-report-layout
     title: (Obsolete) Import and Export Custom Report Layouts
-    date: "2021-04-01"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report
     title: (Obsolete) Set the Layout Used by a Report
-    date: "2022-03-07"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts
     title: (Obsolete) Update Custom Report Layouts
-    date: "2021-06-24"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -62,7 +62,7 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
-    title: Available fonts
+    title: Available Fonts in Business Central
     date: "2025-02-28"
     commit: null
     t: null
@@ -161,7 +161,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings
     title: Manage Saved Settings for Reports and Batch Jobs
-    date: "2021-12-21"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -407,28 +407,28 @@ narrative: generated
 
 # Developing reports
 
-> Developing reports in AL for Business Central: report objects, datasets, request pages, layouts (Word, Excel, RDLC/RDL), report extensions, substitution, obsoleting, testing, telemetry and performance. Answers how-to, design and troubleshooting questions for report developers.
+> Developing reports in AL for Business Central: report objects, datasets, layouts (Word, Excel, RDLC/RDL), request pages, report extensions, substitution, obsoleting, testing, telemetry and performance. It answers how-to, design, troubleshooting and tuning questions for report developers.
 
 Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Developing reports · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the full life of an AL report. It starts with the report object, the dataset (data items and columns) and the request page, then moves to layouts in Excel, Word and RDL. A walkthrough shows how to design an RDL report from multiple tables.
+This section covers the full life of an AL report. The core pages (Reports overview, Report Design Overview, Report object, Report dataset) explain how a report combines a dataset of data items and columns, one or more layouts (Excel, Word, RDL), a request page and triggers. A walkthrough builds an RDL report from multiple tables with filtering and totaling.
 
-Subtopics go deeper on report layouts, formatting report data, triggers and events, discoverability, and how users run, preview, print and schedule reports. Further pages cover extending reports with report extension objects, substituting reports through an event, obsoleting reports, and testing report output.
+Changing existing reports is covered by the report extension object and its example, and by report substitution through the OnAfterSubstituteReport event, which report extensions replace as an alternative from 2021 release wave 1. Obsoleting reports explains how to deprecate reports with the Obsolete properties.
 
-For operations, the telemetry, performance and troubleshooting pages explain how to analyze slow or failing reports. Start with Reports overview and Report Design Overview, then Report dataset and Report object, and go to the subtopics for layout or formatting detail.
+Operational topics include test reports with Library - Report Dataset, report generation telemetry, report performance and troubleshooting. Subtopics go deeper on formatting data, layouts, discoverability, triggers and events, how users run reports, and the AL language reference. Start with Reports overview, then the dataset and layout pages.
 
 ## Key points
 
-- A report is built from a dataset (data items and columns), one or more layouts (Excel, Word, RDL) and an optional request page.
-- Request pages let users set options and filters before a report runs, using properties such as RequestFilterFields and SaveValues.
+- A report is built from a dataset (data items and columns), layouts (Excel, Word, RDL) and an optional request page.
 - Report extension objects add columns, data items, triggers, request page elements and layouts to existing reports (2022 release wave 1 page).
-- Report substitution uses the OnAfterSubstituteReport event in Codeunit 44 ReportManagement; since 2021 release wave 1, report extensions are an alternative.
-- Obsoleting reports uses ObsoleteReason, ObsoleteTag and ObsoleteState, with layout-level obsolescence from 2025 release wave 1.
-- Report generation telemetry tracks successful, failed and canceled runs, dataset and rendering time, and SQL execution, and it supports performance analysis and troubleshooting.
-- Codeunit 131007 Library - Report Dataset supports testing report output with methods like RunReportAndLoad and AssertElementWithValueExists.
-- Subtopics cover formatting data (AutoFormatType, DecimalPlaces), layouts, discoverability (UsageCategory, AdditionalSearchTerms), triggers and events, and user-side report handling.
+- Report substitution uses the OnAfterSubstituteReport event in Codeunit 44 ReportManagement; report extensions are an alternative from 2021 release wave 1.
+- Obsoleting reports uses ObsoleteReason, ObsoleteTag and ObsoleteState; layout-level obsolescence is available from 2025 release wave 1.
+- Request pages use properties such as RequestFilterFields and SaveValues to let users set options and filters.
+- Report generation telemetry tracks successful, failed and canceled runs, dataset time, rendering time and SQL execution, and feeds performance analysis and troubleshooting.
+- Performance strategies include telemetry analysis, read scale-out, background scheduling and query optimization.
+- Test reports with Codeunit 131007 Library - Report Dataset, using RunReportAndLoad and AssertElementWithValueExists, without file system access.
 
 ## Subtopics
 

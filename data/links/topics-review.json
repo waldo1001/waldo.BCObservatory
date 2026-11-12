@@ -1470,52 +1470,52 @@
       }
     },
     "topic/business-central/business-functionality/finance/set-up-and-use-e-documents": {
-      "video/07G7aC14Y_w@c90e9dc0c832e22e": {
+      "video/07G7aC14Y_w@bd1fddab6a1d4752": {
         "verdict": "keep",
-        "reason": "Covers new E-Documents features such as EDI document types and French e-reporting formats.",
-        "at": "2026-10-25T17:53:08.947Z",
+        "reason": "Covers new E-Documents EDI capabilities such as order and remittance document types.",
+        "at": "2026-11-12T00:54:43.626Z",
         "v": 2
       },
-      "video/GM0DNxu39LM@f06d234fb66a2505": {
+      "video/GM0DNxu39LM@6552a82a7b9121e0": {
         "verdict": "keep",
-        "reason": "Covers E-Document connectors and how to set up the E-Document service integration.",
-        "at": "2026-10-25T17:53:08.947Z",
+        "reason": "Covers E-Document connectors and service integration setup, which are part of setting up E-Documents.",
+        "at": "2026-11-12T00:54:43.626Z",
         "v": 2
       },
-      "video/gVjrKPHlrgM@54db3656069a1a42": {
+      "video/gVjrKPHlrgM@9315c4f94b64f45b": {
         "verdict": "keep",
-        "reason": "Covers the ZUGFeRD e-document format for both outgoing and incoming e-documents.",
-        "at": "2026-10-25T17:53:08.947Z",
+        "reason": "Covers the ZUGFeRD format for outgoing and incoming E-Documents.",
+        "at": "2026-11-12T00:54:43.626Z",
         "v": 2
       },
-      "video/h6a8BVzvuZ4@a9bf9a9f396c33f3": {
+      "video/h6a8BVzvuZ4@d1400ff1055ee3ea": {
         "verdict": "keep",
-        "reason": "Covers the clearance model and workflow orchestration for e-documents.",
-        "at": "2026-10-25T17:53:08.947Z",
+        "reason": "Covers the E-Documents clearance model, workflow and service setup.",
+        "at": "2026-11-12T00:54:43.626Z",
         "v": 2
       },
-      "video/hba7KVWrIwY@99be664d7bade7d8": {
+      "video/hba7KVWrIwY@b76fd1f9324eebee": {
         "verdict": "keep",
-        "reason": "Covers the E-Documents framework, its connectors, the Peppol format and automatic import.",
-        "at": "2026-10-25T17:53:08.947Z",
+        "reason": "Covers E-Documents connectors, formats, sending profiles and import.",
+        "at": "2026-11-12T00:54:43.626Z",
         "v": 2
       },
-      "video/hL4PUhjyhNY@794c423b0a865e89": {
+      "video/hL4PUhjyhNY@4fd960605ba523fd": {
         "verdict": "keep",
-        "reason": "Covers E-Documents localizations and formats such as Peppol, Factura and UBL.",
-        "at": "2026-10-25T17:53:08.947Z",
-        "v": 2
-      },
-      "video/OvI9jaA1mJY@ecd492f094c95ff3": {
-        "verdict": "keep",
-        "reason": "The Payables Agent works on inbound e-documents, and the video includes changes to the inbound e-documents list.",
-        "at": "2026-10-25T17:53:08.947Z",
+        "reason": "Covers E-Documents country versions and formats such as Peppol and Factura.",
+        "at": "2026-11-12T00:54:43.626Z",
         "v": 2
       },
       "video/whtP2i7zeso@cf7fdbe97e969b34": {
         "verdict": "drop",
-        "reason": "About Intrastat reporting, which this section doesn't document; it only shares compliance wording.",
-        "at": "2026-10-25T17:53:08.947Z",
+        "reason": "About Intrastat reporting, which this E-Documents section doesn't document.",
+        "at": "2026-11-12T00:54:43.626Z",
+        "v": 2
+      },
+      "video/Xc3ISQ7NAaQ@dd1708aa3d981673": {
+        "verdict": "drop",
+        "reason": "Mainly about the AI Payables Agent, which belongs with the payables documentation; e-invoices are only mentioned in passing.",
+        "at": "2026-11-12T00:54:43.626Z",
         "v": 2
       }
     },
@@ -2791,202 +2791,148 @@
       }
     },
     "topic/business-central/business-functionality/sales": {
+      "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
+        "verdict": "drop",
+        "reason": "Teaches AL parsing of delimited header/detail files; sales orders are only the example target.",
+        "at": "2026-11-12T00:54:49.296Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/2759@5ed95368f7334ba4": {
+        "verdict": "keep",
+        "reason": "Extends sales invoices with Copilot-generated customer-facing resolution text, which directly augments sales invoicing.",
+        "at": "2026-11-12T00:54:49.296Z",
+        "v": 2
+      },
+      "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/@99482879dddcf915": {
+        "verdict": "drop",
+        "reason": "Subject is Word report layout design with an MCP agent; the sales quote is just the example report.",
+        "at": "2026-11-12T00:54:49.296Z",
+        "v": 2
+      },
+      "post/demiliani-com/11739@4526778a0429d0cc": {
+        "verdict": "drop",
+        "reason": "Focuses on agent billing and Copilot Studio licensing costs, not on sales functionality documented here.",
+        "at": "2026-11-12T00:54:49.296Z",
+        "v": 2
+      },
+      "post/duiliotacconi-com/1667@446c0b74fa2f32e9": {
+        "verdict": "keep",
+        "reason": "Describes a change in how sales document posting processes lines, which is part of sales posting.",
+        "at": "2026-11-12T00:54:49.296Z",
+        "v": 2
+      },
+      "post/gerardorenteria-blog/14595@d578ce4454e6a906": {
+        "verdict": "drop",
+        "reason": "A generic roundup of community feature ideas across modules with nothing specific to sales documentation.",
+        "at": "2026-11-12T00:54:49.296Z",
+        "v": 2
+      },
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3905080819923012785@52156de09484cd22": {
+        "verdict": "keep",
+        "reason": "Covers emailing and attachments for posted sales shipments and return receipts, a sales document feature.",
+        "at": "2026-11-12T00:54:49.296Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/@3fac2d74cc67c469": {
+        "verdict": "keep",
+        "reason": "Explains which sales order fields carry over when copying sales documents, a sales process topic.",
+        "at": "2026-11-12T00:54:49.296Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/@0309219f187e1607": {
+        "verdict": "keep",
+        "reason": "Discusses how custom fields behave with the sales Copy Document feature, extending a documented sales capability.",
+        "at": "2026-11-12T00:54:49.296Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/@a6b9f52e5b49d7a0": {
+        "verdict": "keep",
+        "reason": "Explains how the Sales Blocked setting hides items from sales line lookups, a sales usage issue.",
+        "at": "2026-11-12T00:54:49.296Z",
+        "v": 2
+      },
+      "post/thedynamicsexplorer-com/10326@0d51c1a7b7e06f52": {
+        "verdict": "keep",
+        "reason": "Shows how to post a sales credit memo with an item charge, a sales returns/credit process.",
+        "at": "2026-11-12T00:54:49.296Z",
+        "v": 2
+      },
+      "post/yzhums-com/63644@bd6456dccce2f10b": {
+        "verdict": "keep",
+        "reason": "Covers the stockout warning on sales documents in Sales & Receivables Setup and how to extend it.",
+        "at": "2026-11-12T00:54:49.296Z",
+        "v": 2
+      },
+      "post/yzhums-com/64277@596d600886ad9237": {
+        "verdict": "keep",
+        "reason": "Editing sales price lists in Excel is about sales pricing, which the Sales section documents.",
+        "at": "2026-11-12T00:54:55.743Z",
+        "v": 2
+      },
+      "post/yzhums-com/64609@8e88925380585b0d": {
+        "verdict": "keep",
+        "reason": "It covers which fields can be changed when updating posted sales invoices, a sales document task.",
+        "at": "2026-11-12T00:54:55.743Z",
+        "v": 2
+      },
       "post/yzhums-com/65326@48449cb68de280af": {
         "verdict": "drop",
-        "reason": "Marketing text is item master data, so it belongs under Inventory, not sales processes.",
-        "at": "2026-11-01T00:43:02.243Z",
+        "reason": "Marketing text on items is an item feature that the Inventory section documents more exactly.",
+        "at": "2026-11-12T00:54:55.743Z",
         "v": 2
       },
       "post/yzhums-com/66212@382f4116ce153e4c": {
         "verdict": "keep",
-        "reason": "It changes how the default quantity works on sales document lines, which this section documents.",
-        "at": "2026-11-01T00:43:02.243Z",
+        "reason": "It extends how quantities default on sales document lines.",
+        "at": "2026-11-12T00:54:55.743Z",
         "v": 2
       },
       "post/yzhums-com/68428@c44da8ee6d1716d6": {
         "verdict": "keep",
-        "reason": "It adds a posting-date check when posting sales documents, which extends sales posting.",
-        "at": "2026-11-01T00:43:02.243Z",
+        "reason": "It adds a posting-date check before posting sales documents.",
+        "at": "2026-11-12T00:54:55.743Z",
         "v": 2
       },
       "post/yzhums-com/69356@c565a140cb20a251": {
         "verdict": "keep",
-        "reason": "It automates archiving of sales orders, and archiving sales documents is covered in the Sales section.",
-        "at": "2026-11-01T00:43:02.243Z",
+        "reason": "Archiving sales orders is a sales document feature, and the post extends it.",
+        "at": "2026-11-12T00:54:55.743Z",
         "v": 2
       },
       "post/yzhums-com/70137@7549225fc5208ecc": {
         "verdict": "keep",
-        "reason": "It shows comments on sales orders in a FactBox and in printed reports, and sales document comments are part of this section.",
-        "at": "2026-11-01T00:43:02.243Z",
+        "reason": "It shows comments on sales orders and how they carry over to posted sales documents.",
+        "at": "2026-11-12T00:54:55.743Z",
         "v": 2
       },
       "post/yzhums-com/71137@3215568ca222ff1b": {
         "verdict": "keep",
-        "reason": "It covers emailing posted sales shipments and return receipts, which are sales documents.",
-        "at": "2026-11-01T00:43:02.243Z",
+        "reason": "It covers sending posted sales shipments and return receipts by email.",
+        "at": "2026-11-12T00:54:55.743Z",
         "v": 2
       },
       "post/yzhums-com/71304@d5f72bf352306d07": {
         "verdict": "keep",
-        "reason": "Drop shipments from sales orders are documented in the Sales section.",
-        "at": "2026-11-01T00:43:02.243Z",
+        "reason": "Drop shipments set up from sales orders are part of what the Sales section documents.",
+        "at": "2026-11-12T00:54:55.743Z",
         "v": 2
       },
       "post/yzhums-com/71489@30bede6bfb81030a": {
         "verdict": "keep",
-        "reason": "It covers undoing a posted sales shipment for a drop shipment, which is sales functionality.",
-        "at": "2026-11-01T00:43:02.243Z",
+        "reason": "Undoing a posted sales shipment for a drop shipment is a sales process.",
+        "at": "2026-11-12T00:54:55.743Z",
         "v": 2
       },
       "post/yzhums-com/71648@56f0ac64fad920dc": {
         "verdict": "keep",
-        "reason": "New filters on Get Shipment Lines help with combining sales shipments into one invoice, which is a sales invoicing process.",
-        "at": "2026-11-01T00:43:02.243Z",
+        "reason": "Filtering on the Get Shipment Lines page helps combine sales shipments into one invoice.",
+        "at": "2026-11-12T00:54:55.743Z",
         "v": 2
       },
       "post/yzhums-com/74091@fbfc95b1f88a1f72": {
         "verdict": "drop",
         "reason": "Creating production orders from sales orders is documented more exactly in the Manufacturing section.",
-        "at": "2026-11-01T00:43:02.243Z",
-        "v": 2
-      },
-      "post/yzhums-com/74172@68298266e334ae55": {
-        "verdict": "drop",
-        "reason": "Passing custom fields from sales orders to production orders is about the Manufacturing flow, which a sibling section documents more exactly.",
-        "at": "2026-11-01T00:43:02.243Z",
-        "v": 2
-      },
-      "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
-        "verdict": "drop",
-        "reason": "Subject is AL file parsing and staging-table import; sales orders are only the example data.",
-        "at": "2026-11-01T00:43:02.750Z",
-        "v": 2
-      },
-      "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/@99482879dddcf915": {
-        "verdict": "drop",
-        "reason": "Subject is Word report layout design with an MCP agent; the sales quote is only the example report.",
-        "at": "2026-11-01T00:43:02.750Z",
-        "v": 2
-      },
-      "post/duiliotacconi-com/1667@446c0b74fa2f32e9": {
-        "verdict": "keep",
-        "reason": "Discusses a change in how sales document posting processes lines, which is part of the sales posting behavior.",
-        "at": "2026-11-01T00:43:02.750Z",
-        "v": 2
-      },
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3905080819923012785@52156de09484cd22": {
-        "verdict": "keep",
-        "reason": "Covers emailing and attaching documents to posted sales shipments and return receipts, which are sales documents.",
-        "at": "2026-11-01T00:43:02.750Z",
-        "v": 2
-      },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/@3fac2d74cc67c469": {
-        "verdict": "keep",
-        "reason": "Explains which fields carry over when copying sales documents, a sales document workflow.",
-        "at": "2026-11-01T00:43:02.750Z",
-        "v": 2
-      },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/@0309219f187e1607": {
-        "verdict": "keep",
-        "reason": "Covers how the sales Copy Document feature handles custom fields, extending a sales capability.",
-        "at": "2026-11-01T00:43:02.750Z",
-        "v": 2
-      },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/@a6b9f52e5b49d7a0": {
-        "verdict": "keep",
-        "reason": "Troubleshoots item selection on sales lines via the Sales Blocked setting.",
-        "at": "2026-11-01T00:43:02.750Z",
-        "v": 2
-      },
-      "post/thedynamicsexplorer-com/10326@0d51c1a7b7e06f52": {
-        "verdict": "keep",
-        "reason": "Explains how to post sales credit memos using item charges, a sales returns/credit process.",
-        "at": "2026-11-01T00:43:02.750Z",
-        "v": 2
-      },
-      "post/yzhums-com/63644@bd6456dccce2f10b": {
-        "verdict": "keep",
-        "reason": "Covers the Stockout Warning on sales documents in Sales & Receivables Setup and how to extend it.",
-        "at": "2026-11-01T00:43:02.750Z",
-        "v": 2
-      },
-      "post/yzhums-com/64277@596d600886ad9237": {
-        "verdict": "keep",
-        "reason": "Covers editing sales price lists in Excel under the new sales pricing experience.",
-        "at": "2026-11-01T00:43:02.750Z",
-        "v": 2
-      },
-      "post/yzhums-com/64609@8e88925380585b0d": {
-        "verdict": "keep",
-        "reason": "Covers a setting affecting the update page for posted sales invoices, part of correcting sales documents.",
-        "at": "2026-11-01T00:43:02.750Z",
-        "v": 2
-      },
-      "post/yzhums-com/74940@0a04d2158fa0cf45": {
-        "verdict": "keep",
-        "reason": "Covers validating duplicate external document numbers on sales documents and posted sales invoices.",
-        "at": "2026-11-01T00:43:04.676Z",
-        "v": 2
-      },
-      "post/yzhums-com/75073@8cf1463c91b41f54": {
-        "verdict": "keep",
-        "reason": "Extends the sales order page with customer signature capture, which ties directly to sales documents.",
-        "at": "2026-11-01T00:43:04.676Z",
-        "v": 2
-      },
-      "video/cuez5kIanKo@8ee506cf666df583": {
-        "verdict": "drop",
-        "reason": "Shopify sales channels belong to the sibling Online store with Shopify section.",
-        "at": "2026-11-01T00:43:04.676Z",
-        "v": 2
-      },
-      "video/fatcqVFrTXI@5b8350204a49289f": {
-        "verdict": "keep",
-        "reason": "Shows entering sales invoices and credit memos in Business Central.",
-        "at": "2026-11-01T00:43:04.676Z",
-        "v": 2
-      },
-      "video/fdP1HKBEDjA@6af3635966f0e3d7": {
-        "verdict": "keep",
-        "reason": "Shows sales invoices, credit memos and sales journals in Business Central.",
-        "at": "2026-11-01T00:43:04.676Z",
-        "v": 2
-      },
-      "video/gy_6QnFpiEw@23f7bb92a20daa9f": {
-        "verdict": "drop",
-        "reason": "Shopify market pricing belongs to the sibling Shopify section.",
-        "at": "2026-11-01T00:43:04.676Z",
-        "v": 2
-      },
-      "video/p-pwG6f5srY@991c1fbc644af86b": {
-        "verdict": "drop",
-        "reason": "Shopify Connector release features belong to the sibling Shopify section.",
-        "at": "2026-11-01T00:43:04.676Z",
-        "v": 2
-      },
-      "video/PIWxU93eCT4@dd35816b55e7e608": {
-        "verdict": "keep",
-        "reason": "Sales price list editing is part of sales pricing, which this section documents.",
-        "at": "2026-11-01T00:43:04.676Z",
-        "v": 2
-      },
-      "video/StIVhsnOHWY@b465ac15d678ab4c": {
-        "verdict": "drop",
-        "reason": "Shopify sync troubleshooting belongs to the sibling Shopify section.",
-        "at": "2026-11-01T00:43:04.676Z",
-        "v": 2
-      },
-      "video/VjYMhjjc3uw@d6d70dad1495c9be": {
-        "verdict": "drop",
-        "reason": "Shopify B2B companies and order import belong to the sibling Shopify section.",
-        "at": "2026-11-01T00:43:04.676Z",
-        "v": 2
-      },
-      "video/YSDfDjrMUb0@8fff98e8f9c7fd43": {
-        "verdict": "drop",
-        "reason": "Shopify Connector overview belongs to the sibling Shopify section.",
-        "at": "2026-11-01T00:43:04.676Z",
+        "at": "2026-11-12T00:54:55.743Z",
         "v": 2
       }
     },
@@ -10914,112 +10860,94 @@
       }
     },
     "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central": {
-      "post/aardvarklabs-blog/1816@e4d6a80ff7fae1d1": {
+      "post/aardvarklabs-blog/2759@5ed95368f7334ba4": {
         "verdict": "keep",
-        "reason": "Builds a Copilot codeunit and prompt-based capability in AL with Azure OpenAI and a modal input page.",
-        "at": "2026-10-25T18:23:13.651Z",
-        "v": 2
-      },
-      "post/aardvarklabs-blog/2467@209cd1451e73aa89": {
-        "verdict": "keep",
-        "reason": "Implements an AL Copilot/AI capability with Azure OpenAI and system prompts for address matching.",
-        "at": "2026-10-25T18:23:13.651Z",
-        "v": 2
-      },
-      "post/aardvarklabs-blog/2759@27b080e3262c5010": {
-        "verdict": "keep",
-        "reason": "Demonstrates a PromptDialog page with PromptMode Generate, which is the Copilot user experience the section covers.",
-        "at": "2026-10-25T18:23:13.651Z",
+        "reason": "Builds a Copilot capability in AL with a PromptDialog page and Azure OpenAI, which is exactly what extending Copilot covers.",
+        "at": "2026-11-12T00:54:50.832Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2965@d2bf757344173418": {
         "verdict": "keep",
-        "reason": "Builds AI capabilities in AL using Business Central's managed AI resource, which extends Copilot.",
-        "at": "2026-10-25T18:23:13.651Z",
+        "reason": "Builds AI features in AL using Business Central's managed AI resource, which falls under developer extension of Copilot/AI.",
+        "at": "2026-11-12T00:54:50.832Z",
         "v": 2
       },
       "post/demiliani-com/12927@564448969ad4db99": {
         "verdict": "keep",
-        "reason": "Shows how extension developers set up their apps so Copilot Chat can use their content, a related way to extend Copilot.",
-        "at": "2026-10-25T18:23:13.651Z",
-        "v": 2
-      },
-      "post/nataliekarolak-com/3653@f1e8d70504beff46": {
-        "verdict": "drop",
-        "reason": "General release-notes roundup where Copilot customization is only a minor mention.",
-        "at": "2026-10-25T18:23:13.651Z",
+        "reason": "Explains how an extension adds its documentation to Copilot Chat through the app.json help setting, a form of extending Copilot.",
+        "at": "2026-11-12T00:54:50.832Z",
         "v": 2
       },
       "post/olofsimren-com/3585@5064168e4ed6fbc3": {
         "verdict": "keep",
-        "reason": "Extension built with Microsoft's AL Copilot capability tools, including setup, system prompt and data grounding.",
-        "at": "2026-10-25T18:23:13.651Z",
+        "reason": "Describes an extension built with Microsoft's Copilot capability tools for AL, including system prompts and Azure OpenAI setup.",
+        "at": "2026-11-12T00:54:50.832Z",
         "v": 2
       },
       "post/olofsimren-com/3605@671e0072eccfd4bd": {
         "verdict": "keep",
-        "reason": "A custom Copilot extension for the Planning Worksheet with guided prompts, an example of extending Copilot.",
-        "at": "2026-10-25T18:23:13.651Z",
+        "reason": "A partner-built Copilot extension for the Planning Worksheet, showing how Copilot is extended in Business Central.",
+        "at": "2026-11-12T00:54:50.832Z",
         "v": 2
       },
       "post/olofsimren-com/3630@dbcf5dd0f6c91453": {
         "verdict": "keep",
-        "reason": "Custom Copilot extension using Azure OpenAI with predefined prompts and JSON output, showing how to build a Copilot capability.",
-        "at": "2026-10-25T18:23:13.651Z",
+        "reason": "A custom Copilot extension using Azure OpenAI with predefined prompts and JSON output, illustrating how to build a Copilot capability.",
+        "at": "2026-11-12T00:54:50.832Z",
         "v": 2
       },
-      "video/06vgkq2EXmA@10d08f4131a1a71d": {
+      "post/yzhums-com/67462@7326f70831dc1c68": {
         "verdict": "keep",
-        "reason": "Covers how a Copilot feature was built, including test-driven prompt development and the Copilot developer tools, which matches building and testing Copilot capabilities.",
-        "at": "2026-10-25T18:23:13.652Z",
+        "reason": "Covers setting the billing type in RegisterCapability/ModifyCapability, part of registering a Copilot capability in AL.",
+        "at": "2026-11-12T00:54:50.832Z",
+        "v": 2
+      },
+      "video/7SSNcUMFtCw@3c48524ce85d7ab2": {
+        "verdict": "keep",
+        "reason": "Covers developer tools for AI resources, managed authorization and Azure OpenAI deployments used when building Copilot extensions.",
+        "at": "2026-11-12T00:54:50.832Z",
         "v": 2
       },
       "video/jdevJbGgB-k@cf8174533d95244f": {
         "verdict": "keep",
-        "reason": "Covers developing AI features in Business Central with the AI developer toolkit, plus testing and validation.",
-        "at": "2026-10-25T18:23:13.652Z",
+        "reason": "Discusses developing AI in Business Central with the developer toolkit, prompting techniques and testing.",
+        "at": "2026-11-12T00:54:50.832Z",
         "v": 2
       },
-      "video/lNASlydCidI@22cc3fc62993bd91": {
+      "video/lNASlydCidI@f18c09cb8ec277f1": {
         "verdict": "keep",
-        "reason": "Demonstrates the PromptDialog page type, the AI module and capability registration used to build the Copilot user experience.",
-        "at": "2026-10-25T18:23:13.652Z",
+        "reason": "Demonstrates the PromptDialog page type, the AI module and capability registration used to build Copilot experiences.",
+        "at": "2026-11-12T00:54:50.832Z",
         "v": 2
       },
-      "video/NE7NIjpkX3c@c2c480f0a50cca2c": {
+      "video/MNwTt06ZxwY@84b9b76fb70d705a": {
         "verdict": "keep",
-        "reason": "Covers practical steps for preparing a Copilot extension, including test automation to validate prompts.",
-        "at": "2026-10-25T18:23:13.652Z",
+        "reason": "Covers building agents in AL, including the Copilot capability feature gate and AI test tooling related to testing Copilot capabilities.",
+        "at": "2026-11-12T00:54:50.832Z",
         "v": 2
       },
-      "video/QCo-uIfPs9g@1dcc80f8a9959b61": {
+      "video/NE7NIjpkX3c@2e5bec9bf8a81635": {
         "verdict": "keep",
-        "reason": "Directly about extending Copilot: prompt actions, the prompt dialog framework and capability registration.",
-        "at": "2026-10-25T18:23:13.652Z",
+        "reason": "Practical guidance on preparing Copilot extensions, including prompt engineering, test automation and function calling.",
+        "at": "2026-11-12T00:54:50.832Z",
+        "v": 2
+      },
+      "video/qP0id91bIlA@b03f67d5924fede0": {
+        "verdict": "keep",
+        "reason": "Covers designing the Copilot user experience with the prompt dialog, matching the Build Copilot user experience subtopic.",
+        "at": "2026-11-12T00:54:50.832Z",
         "v": 2
       },
       "video/sv1utmneaXA@8b1176fdcec643ca": {
-        "verdict": "drop",
-        "reason": "About making app documentation searchable by Copilot Chat through app.json and Bing, not building Copilot features with the AL developer tools.",
-        "at": "2026-10-25T18:23:13.652Z",
-        "v": 2
-      },
-      "video/UgagVZVKCso@41e9c741d5da1010": {
         "verdict": "keep",
-        "reason": "Partner experience building Copilot features, including prompt engineering and automated testing of Copilot.",
-        "at": "2026-10-25T18:23:13.652Z",
+        "reason": "Shows how to extend Copilot Chat with an app's documentation through the app.json help property.",
+        "at": "2026-11-12T00:54:50.832Z",
         "v": 2
       },
-      "video/V_ZyGeF5JXE@3ce75df76bbc64f0": {
-        "verdict": "drop",
-        "reason": "About Power Platform integration (Power Automate, AI Builder), not extending Copilot in AL.",
-        "at": "2026-10-25T18:23:13.652Z",
-        "v": 2
-      },
-      "video/ytYKvn2MiGs@eb321b47bbe5e11c": {
+      "video/ytYKvn2MiGs@4f05883f6bec6557": {
         "verdict": "keep",
-        "reason": "Directly about extending Copilot with AL code: prompt dialog, Copilot actions, the AI module and function calling.",
-        "at": "2026-10-25T18:23:13.652Z",
+        "reason": "Directly about extending Copilot with AL code: prompt dialog, function calling, token counting and the AI module.",
+        "at": "2026-11-12T00:54:50.832Z",
         "v": 2
       }
     },
@@ -11616,6 +11544,56 @@
         "v": 2
       }
     },
+    "topic/dev-itpro/integration/integrating-with-microsoft-fabric": {
+      "post/bertverbeek-nl/1209@e6a14b19887045d4": {
+        "verdict": "keep",
+        "reason": "bc2adls is a third-party extension that exports Business Central data to Azure Data Lake or a Fabric lakehouse, so it works with this section's subject; borderline but kept when in doubt.",
+        "at": "2026-11-12T00:54:44.051Z",
+        "v": 2
+      },
+      "post/bertverbeek-nl/1318@66757640fefca2c5": {
+        "verdict": "keep",
+        "reason": "Covers native Fabric integration: Open Mirroring sync, workspace, company and table setup, and requirements.",
+        "at": "2026-11-12T00:54:44.051Z",
+        "v": 2
+      },
+      "post/bertverbeek-nl/1342@c17dc7ac9511127e": {
+        "verdict": "keep",
+        "reason": "Shows how to track changes in data mirrored to Fabric, which extends the documented mirroring feature.",
+        "at": "2026-11-12T00:54:44.051Z",
+        "v": 2
+      },
+      "post/bertverbeek-nl/1353@4af7d1826e1ebba7": {
+        "verdict": "keep",
+        "reason": "Explains the credential and app-registration setup for Fabric Mirroring in Business Central.",
+        "at": "2026-11-12T00:54:44.051Z",
+        "v": 2
+      },
+      "post/demiliani-com/15981@55ae2a85bbd0cb51": {
+        "verdict": "keep",
+        "reason": "Covers the Fabric mirroring announcement, its setup steps and its capacity requirements.",
+        "at": "2026-11-12T00:54:44.051Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8229@bdff85f5a4a7b5fa": {
+        "verdict": "keep",
+        "reason": "Describes the Fabric mirroring setup, configuration packages and monitoring.",
+        "at": "2026-11-12T00:54:44.051Z",
+        "v": 2
+      },
+      "post/waldo-be/318707@27aec2562468b346": {
+        "verdict": "keep",
+        "reason": "Covers the native Fabric mirroring app, monitoring pages and costs.",
+        "at": "2026-11-12T00:54:44.051Z",
+        "v": 2
+      },
+      "video/kOCiyVql0go@3896a9065d8984c8": {
+        "verdict": "keep",
+        "reason": "Official video demonstrating the Fabric integration app, mirroring, monitoring, APIs and permissions.",
+        "at": "2026-11-12T00:54:44.051Z",
+        "v": 2
+      }
+    },
     "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor": {
       "post/wingate365-com/https://blog.wingate365.com/2025/08/dynamicsminds-2025-portoroz-slovenia.html@9fcc75596c9b8f75": {
         "verdict": "keep",
@@ -11933,142 +11911,154 @@
       }
     },
     "topic/dev-itpro/integration/web-services/apis": {
-      "post/thinkaboutit-be/8272@a03bc83cda30588c": {
+      "post/thinkaboutit-be/7813@08df4ae6085ebe13": {
         "verdict": "keep",
-        "reason": "Covers the new Report Inbox APIs that let external applications and automation tools work with scheduled reports.",
-        "at": "2026-11-08T00:57:46.595Z",
+        "reason": "Covers 36 new standard document API endpoints for sales, purchasing, inventory and assembly.",
+        "at": "2026-11-12T00:54:45.639Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8272@71ec5916f286464e": {
+        "verdict": "keep",
+        "reason": "Introduces the new Report Inbox APIs for external apps and automation.",
+        "at": "2026-11-12T00:54:45.639Z",
         "v": 2
       },
       "post/yzhums-com/48974@5bd901e34c29a593": {
         "verdict": "drop",
-        "reason": "OData query filter syntax is documented more exactly in the OData section beside this one.",
-        "at": "2026-11-08T00:57:46.595Z",
+        "reason": "About the OData IN filter operator, which the OData section beside this one covers more exactly.",
+        "at": "2026-11-12T00:54:45.639Z",
         "v": 2
       },
       "post/yzhums-com/63801@d10858b40e21d627": {
         "verdict": "keep",
-        "reason": "A blog series on Business Central REST APIs: standard, automation and custom APIs, plus authentication.",
-        "at": "2026-11-08T00:57:46.595Z",
+        "reason": "Series covering Business Central standard, automation and custom REST APIs.",
+        "at": "2026-11-12T00:54:45.639Z",
         "v": 2
       },
       "post/yzhums-com/64392@e3ba911933be62eb": {
         "verdict": "drop",
-        "reason": "About Dataverse Web API access, not Business Central APIs.",
-        "at": "2026-11-08T00:57:46.595Z",
+        "reason": "About Dataverse Web API authentication in Postman, not Business Central APIs.",
+        "at": "2026-11-12T00:54:45.639Z",
         "v": 2
       },
-      "post/yzhums-com/64898@d35f5d392851ff97": {
+      "post/yzhums-com/64898@36bb2a6c18a00da7": {
         "verdict": "drop",
-        "reason": "About inserting records with a chosen SystemId in AL; APIs are only mentioned in passing.",
-        "at": "2026-11-08T00:57:46.595Z",
+        "reason": "About inserting records with a SystemId in AL; APIs are only mentioned in passing.",
+        "at": "2026-11-12T00:54:45.639Z",
+        "v": 2
+      },
+      "post/yzhums-com/68873@d0cac12b6c6c4959": {
+        "verdict": "keep",
+        "reason": "The MCP server exposes standard and custom Business Central APIs to AI agents, so it works with what this section documents.",
+        "at": "2026-11-12T00:54:45.639Z",
+        "v": 2
+      },
+      "post/yzhums-com/69639@2167eebadbc3c55a": {
+        "verdict": "drop",
+        "reason": "Series index about dimensions; the API is a minor side topic.",
+        "at": "2026-11-12T00:54:45.639Z",
         "v": 2
       },
       "post/yzhums-com/70369@68caf23f64bb985a": {
         "verdict": "keep",
-        "reason": "Explains multi-level $expand queries against the Business Central REST API.",
-        "at": "2026-11-08T00:57:46.595Z",
+        "reason": "Shows multi-level $expand queries against the Business Central REST API.",
+        "at": "2026-11-12T00:54:45.639Z",
         "v": 2
       },
       "post/yzhums-com/74390@a4b03aeae99a6145": {
         "verdict": "keep",
-        "reason": "Introduces new read-only API v2.0 endpoints for analyzing approval workflows.",
-        "at": "2026-11-08T00:57:46.595Z",
+        "reason": "Covers new API v2.0 endpoints for approval workflow data.",
+        "at": "2026-11-12T00:54:45.639Z",
         "v": 2
       },
-      "video/1ft4o9lQzsU@a3a9e063fe006870": {
+      "video/2N2NhNH7dsk@acb509797df6c172": {
         "verdict": "keep",
-        "reason": "Shows Business Central API structure, authentication and custom APIs used to make Excel reports refreshable.",
-        "at": "2026-11-08T00:57:46.595Z",
-        "v": 2
-      },
-      "video/2N2NhNH7dsk@ba21dae465950b3b": {
-        "verdict": "keep",
-        "reason": "Demonstrates the new Report Inbox APIs and their API overview page.",
-        "at": "2026-11-08T00:57:46.595Z",
-        "v": 2
-      },
-      "video/4HE3BBCcV84@9866712d6b3b6444": {
-        "verdict": "keep",
-        "reason": "Covers API queries and the Analytics API reference, which is a subtopic of this section.",
-        "at": "2026-11-08T00:57:46.595Z",
+        "reason": "Demonstrates the Report Inbox APIs and their API overview page.",
+        "at": "2026-11-12T00:54:45.639Z",
         "v": 2
       },
       "video/S5Xw-b8YF-c@fb7f81edcad274c8": {
         "verdict": "keep",
-        "reason": "Presents the new E-Documents APIs for integration scenarios.",
-        "at": "2026-11-08T00:57:46.595Z",
+        "reason": "Covers the new E-Documents APIs for integration.",
+        "at": "2026-11-12T00:54:45.639Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2017@93443a5fb6d527a6": {
         "verdict": "keep",
-        "reason": "Shows how to build API queries, a type of Business Central API this section documents.",
-        "at": "2026-11-08T00:57:48.313Z",
+        "reason": "Explains building Query objects exposed as APIs, a core part of Business Central APIs.",
+        "at": "2026-11-12T00:54:48.867Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2565@9e0c07d2ee03ed60": {
         "verdict": "keep",
-        "reason": "Explains moving integrations to API v2.0 or custom Page and Query APIs.",
-        "at": "2026-11-08T00:57:48.313Z",
+        "reason": "Discusses migrating integrations to API 2.0 and building custom Page/Query APIs.",
+        "at": "2026-11-12T00:54:48.867Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/2724@835aa5e152aa4b41": {
+        "verdict": "drop",
+        "reason": "Subject is MCP server setup for AI agents; custom APIs are only a security aside.",
+        "at": "2026-11-12T00:54:48.867Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2812@da5a29d007de8e30": {
         "verdict": "drop",
-        "reason": "About a JSON-handling codeunit in AL, not about Business Central APIs.",
-        "at": "2026-11-08T00:57:48.313Z",
+        "reason": "About the JSON Management codeunit for AL code, not the Business Central APIs.",
+        "at": "2026-11-12T00:54:48.867Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3579@04f9e4dae8710d1a": {
-        "verdict": "keep",
-        "reason": "Shows sending data to a Business Central API page through Power Automate, a working example of using the APIs.",
-        "at": "2026-11-08T00:57:48.313Z",
+        "verdict": "drop",
+        "reason": "Subject is an RFID hardware project; the API page is merely the example's endpoint.",
+        "at": "2026-11-12T00:54:48.867Z",
         "v": 2
       },
       "post/aardvarklabs-blog/4082@33d5e613c13ac202": {
         "verdict": "keep",
-        "reason": "Covers the new API Overview page for finding versioned API pages.",
-        "at": "2026-11-08T00:57:48.313Z",
+        "reason": "Covers the API Overview page for discovering versioned API pages.",
+        "at": "2026-11-12T00:54:48.867Z",
         "v": 2
       },
       "post/demiliani-com/11654@1531b5e8fae17602": {
         "verdict": "drop",
-        "reason": "Mainly about retiring SOAP and OData endpoints, which the neighbouring SOAP and OData sections cover more exactly.",
-        "at": "2026-11-08T00:57:48.313Z",
+        "reason": "Mainly about deprecating SOAP and OData page exposure, which the sibling SOAP/OData sections cover more closely.",
+        "at": "2026-11-12T00:54:48.867Z",
         "v": 2
       },
       "post/demiliani-com/11962@ddb66ec71d829a79": {
         "verdict": "keep",
-        "reason": "Explains how to make Business Central API responses smaller with compression.",
-        "at": "2026-11-08T00:57:48.313Z",
+        "reason": "Covers compressing Business Central API responses, a practical aspect of using the APIs.",
+        "at": "2026-11-12T00:54:48.867Z",
         "v": 2
       },
       "post/demiliani-com/12975@8148d4d75b43b31c": {
         "verdict": "drop",
-        "reason": "About installing and removing per-tenant extensions through an MCP server, which this section doesn't cover.",
-        "at": "2026-11-08T00:57:48.313Z",
+        "reason": "About an MCP server for managing per-tenant extensions, not the documented APIs.",
+        "at": "2026-11-12T00:54:48.867Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7429326284625186983@b26475ef6e557180": {
-        "verdict": "keep",
-        "reason": "Discusses calling Business Central APIs and when to build custom API pages.",
-        "at": "2026-11-08T00:57:48.313Z",
+        "verdict": "drop",
+        "reason": "Focuses on testing MCP with AI agents; APIs are incidental.",
+        "at": "2026-11-12T00:54:48.867Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/@2555293cd48b97a8": {
         "verdict": "keep",
-        "reason": "Troubleshoots the standard Sales Invoices API.",
-        "at": "2026-11-08T00:57:48.313Z",
+        "reason": "Troubleshoots the standard Sales Invoices API and its aggregate table.",
+        "at": "2026-11-12T00:54:48.867Z",
         "v": 2
       },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/@effee6e211629f55": {
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/@dc4af68135e0873e": {
         "verdict": "keep",
-        "reason": "Shows where to find Microsoft's standard API v2 objects to use as a reference.",
-        "at": "2026-11-08T00:57:48.313Z",
+        "reason": "Shows how to explore the standard API v2 objects as a reference for building APIs.",
+        "at": "2026-11-12T00:54:48.867Z",
         "v": 2
       },
       "post/thinkaboutit-be/7683@791ce009cdf73947": {
         "verdict": "keep",
-        "reason": "Explains when to use API pages and when to use API queries.",
-        "at": "2026-11-08T00:57:48.313Z",
+        "reason": "Compares API pages and API queries and when to use each in integrations.",
+        "at": "2026-11-12T00:54:48.867Z",
         "v": 2
       }
     },

@@ -2,46 +2,46 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-printers
 type: topic
 title: Set up printers
-summary: "Printer setup in Business Central: Universal Print, Email Print, and browser printing, plus registering printers and choosing default printers. It answers questions on configuring printing for reports and documents in the web client, mobile app, or Teams."
+summary: "Printer setup in Business Central: sending print jobs through Universal Print, email printers, or browser printing, and choosing default printers. It answers questions about configuring each printer type and deciding which printer a report uses."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:25:55.708Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f61b2b7d76a5ef26b4e6cc62464fc876ab9a4f5201169878cdc7c93d09565f97
+  input_hash: fb52141354536c76bd9f7cf7c5d1b3bf3818008f97bc9be4c7bceaf555e6b75c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-overview
-    title: Printer setup and management overview
+    title: Printer Setup and Management Overview
     date: "2025-01-31"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-email
-    title: Set Up Email Printers
+    title: Set Up Email Printers in Business Central
     date: "2023-01-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-universal-print
-    title: Set Up Universal Print Printers
-    date: "2024-06-14"
+    title: Set Up Universal Print Printers in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports
-    title: Specify a Default Printer
-    date: "2024-11-05"
+    title: Specify a Default Printer in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -93,31 +93,35 @@ narrative: generated
 
 # Set up printers
 
-> Printer setup in Business Central: Universal Print, Email Print, and browser printing, plus registering printers and choosing default printers. It answers questions on configuring printing for reports and documents in the web client, mobile app, or Teams.
+> Printer setup in Business Central: sending print jobs through Universal Print, email printers, or browser printing, and choosing default printers. It answers questions about configuring each printer type and deciding which printer a report uses.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up printers · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up printers · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Printing in Business Central can go through Universal Print cloud printers, email-enabled printers, or the browser. The overview page explains these options and how printers are registered and managed, so start there to choose an approach.
+This section explains how Business Central sends print jobs to printers. The options are cloud-enabled printers through Universal Print, printers reached by email address, and browser printing. The Printer Management page is where printers are managed.
+
+The overview page introduces the options and the related extensions (Universal Print Integration and Send to Email Printer). Two setup pages then cover each printer type: email printers (paper size, printer device configuration, print job privacy) and Universal Print (Azure app registration, printer sharing, troubleshooting access issues, online and on-premises).
+
+The last page covers default printers: for all users, a specific user, or a specific report. It also describes the selection hierarchy and how a user can override the default on the report request page. Start with the overview, then follow the setup page for your printer type, then set defaults.
 
 ## Key points
 
-- Three printing options: Universal Print for cloud printers, Email Print for email-enabled printers, and browser printing.
-- Printing works for the web client, mobile app, and Teams.
-- Email printers are set up on the Printer Management page with the Send to Email Printer extension; the page covers paper size selection and privacy settings (2020 release wave 1).
-- Universal Print setup uses the Universal Print integration extension, the Printer Management page, and the universal print connector (2021 release wave 1).
-- Universal Print guidance covers Azure configuration, print shares, printer authorization, and document conversion, for online and on-premises deployments.
-- Default printers can be set for all print jobs or for specific reports.
-- Default printer selections can be made at user or global level and apply to cloud printers and PDF output.
+- Three ways to print: Universal Print, email printers, and browser printing.
+- Universal Print needs the Universal Print Integration extension and an Azure app registration; it works for online and on-premises Business Central.
+- Universal Print setup covers printer sharing, centralized management, document conversion, print job creation, and troubleshooting access issues.
+- Email printing uses the Send to Email Printer extension and the printer's email address, with paper size and print job privacy settings.
+- Printers are managed on the Printer Management page.
+- Default printers can be set for all users, a specific user, or a specific report via Printer Management and Printer Selections.
+- A printer selection hierarchy decides which default applies, and users can override it on the report request page.
 
 ## Learn pages
 
-- [Printer setup and management overview](https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-overview): Learn about the different printer options in Business Central.
-- [Set Up Email Printers](https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-email): How-to description
+- [Printer Setup and Management Overview](https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-overview): Compare Universal Print, email printing, and browser printing in Business Central, and find the setup steps for the printers your organization uses.
+- [Set Up Email Printers in Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-email): Set up email-enabled printers in Business Central to send reports and documents directly to a printer, and choose the paper size for print jobs.
   - In the observatory: [Page 2616 "Printer Management"](../../../../objects/page/2616.md), [Page 2650 "Email Printer Settings"](../../../../objects/page/2650.md)
-- [Set Up Universal Print Printers](https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-universal-print): Learn how you can use Universal Print to provide cloud printing in Business Central.
-- [Specify a Default Printer](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Learn about the different ways to set up printers to be used by default for print jobs.
+- [Set Up Universal Print Printers in Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-universal-print): Set up Universal Print, share printers with licensed users, and add the printers to Business Central online or on-premises for cloud printing.
+- [Specify a Default Printer in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Set default printers for users and reports in Business Central, understand printer selection priority, and override the printer when running a report.
   - In the observatory: [Page 2616 "Printer Management"](../../../../objects/page/2616.md), [Page 64 "Printer Selections"](../../../../objects/page/64.md)
 
 ## Business Central pages and reports

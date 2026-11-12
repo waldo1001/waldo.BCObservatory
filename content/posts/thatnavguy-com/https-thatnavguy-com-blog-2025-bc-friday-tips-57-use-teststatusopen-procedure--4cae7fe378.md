@@ -19,7 +19,7 @@ review:
   at: "2026-10-08T01:58:17.935Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-12T00:14:43.393Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -83,7 +83,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:50:57.870Z"
+  probed_at: "2026-11-12T00:50:38.472Z"
 ---
 
 # BC Friday Tips #57 Use TestStatusOpen Procedure

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13447",
+  "input_hash": "33b5fa3d2d2a160f7acb2754c65074dcca7e10bf40454fccf4e9604601e77be6",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-12T00:55:54.837Z",
+  "issues": [
+    "Nothing given supports 'dimension filtering'. The tests only sit in a Dimension folder.",
+    "The page fix applies to both the W1 and ES layers, not only the Spanish version."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020559,
+    "changes_in_call": 6
+  }
+}

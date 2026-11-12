@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:02:48.912Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -145,7 +145,7 @@ Start with the overview page to find the feature you need. For VAT questions abo
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#8646 [PEPPOL] Add PEPPOL SE localization: Swedish organisation number for endpoints under scheme 0007](../../../../changes/bcapps/8646.md) (code change): "A Swedish PEPPOL localization app normalizes Swedish organisation numbers"
+- [#8646 [PEPPOL] Add PEPPOL SE localization: Swedish organisation number for endpoints under scheme 0007](../../../../changes/bcapps/8646.md) (code change): "Swedish organisation number for endpoints under scheme 0007 in PEPPOL"
 
 ## Business Central pages and reports
 

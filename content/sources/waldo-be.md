@@ -2,7 +2,7 @@
 id: source/waldo-be
 type: source
 title: waldo's blog
-summary: "waldo's blog (waldo (Eric Wauters), MVP): 18 posts in the knowledge base, 2025-04-30 to 2026-10-24, mostly about development, administration, platform."
+summary: "waldo's blog (waldo (Eric Wauters), MVP): 19 posts in the knowledge base, 2025-04-30 to 2026-11-11, mostly about development, platform, administration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-26T05:30:48.114Z"
+  at: "2026-11-12T00:14:43.393Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a8301017769016e1a6f364f8c112a49515eb47e404e21fd0c40618319ab8b8ea
+  input_hash: 9ec3e59a2a98b5d36cb2b4fc67328fcdcb9bd94416a8a18738828cdbdee700d1
 evidence:
   - kind: blog
     url: https://www.waldo.be
@@ -51,6 +51,7 @@ links:
     - post/waldo-be/318707
     - post/waldo-be/318712
     - post/waldo-be/318731
+    - post/waldo-be/318755
   guidelines: []
 source_id: waldo-be
 kind: blog
@@ -58,14 +59,14 @@ url: https://www.waldo.be
 author: waldo (Eric Wauters)
 mvp: true
 full_text: true
-item_count: 18
+item_count: 19
 footprint:
   systems:
     - id: development
-      weight: 20
-    - id: administration
-      weight: 13
+      weight: 22
     - id: platform
+      weight: 14
+    - id: administration
       weight: 13
     - id: reporting
       weight: 8
@@ -76,10 +77,10 @@ footprint:
   topics:
     - id: telemetry
       weight: 9
+    - id: performance
+      weight: 6
     - id: troubleshooting
       weight: 6
-    - id: performance
-      weight: 5
     - id: ai agents
       weight: 3
     - id: kql
@@ -105,6 +106,10 @@ footprint:
       weight: 1
     - id: interface Invoice Posting Interface
       weight: 1
+    - id: other AL Runner
+      weight: 1
+    - id: other bc-code-atlas MCP server
+      weight: 1
     - id: other Fabric integration app
       weight: 1
     - id: page Synchronization details
@@ -117,12 +122,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-04-30"
-last_item: "2026-10-24"
+last_item: "2026-11-11"
 ---
 
 # waldo's blog
 
-> waldo's blog (waldo (Eric Wauters), MVP): 18 posts in the knowledge base, 2025-04-30 to 2026-10-24, mostly about development, administration, platform.
+> waldo's blog (waldo (Eric Wauters), MVP): 19 posts in the knowledge base, 2025-04-30 to 2026-11-11, mostly about development, platform, administration.
 
 [https://www.waldo.be](https://www.waldo.be) · blog · tier community · full text opted in
 
@@ -130,16 +135,18 @@ last_item: "2026-10-24"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (20) | telemetry (9) | codeunit 1350 (1) |
-| administration (13) | troubleshooting (6) | codeunit 1886 (1) |
-| platform (13) | performance (5) | codeunit 80 (1) |
+| development (22) | telemetry (9) | codeunit 1350 (1) |
+| platform (14) | performance (6) | codeunit 1886 (1) |
+| administration (13) | troubleshooting (6) | codeunit 80 (1) |
 | reporting (8) | ai agents (3) | codeunit ISC Process Update Queue Meth (1) |
 | copilot (4) | kql (3) | interface Invoice Posting Interface (1) |
-| integration (3) | performance troubleshooting (3) | other Fabric integration app (1) |
-|  | vscode extension (3) | page Synchronization details (1) |
-|  | ai (2) | page Synchronization overview (1) |
-|  | azure data explorer (2) | table Active Sessions (1) |
-|  | community (2) | table Invoice Post. Buffer (1) |
+| integration (3) | performance troubleshooting (3) | other AL Runner (1) |
+|  | vscode extension (3) | other bc-code-atlas MCP server (1) |
+|  | ai (2) | other Fabric integration app (1) |
+|  | azure data explorer (2) | page Synchronization details (1) |
+|  | community (2) | page Synchronization overview (1) |
+|  |  | table Active Sessions (1) |
+|  |  | table Invoice Post. Buffer (1) |
 
 ## Flight path
 
@@ -150,10 +157,11 @@ Items per quarter, oldest first:
 - 2025-Q4: *** 3
 - 2026-Q1: *** 3
 - 2026-Q2: *** 3
-- 2026-Q4: *** 3
+- 2026-Q4: **** 4
 
 ## Most recent
 
+- [Agent Maron & waldo: Mission AL Runner](../posts/waldo-be/318755.md) (2026-11-11)
 - [BCObservatory: explore all Business Central knowledge with an agent .. and more](../posts/waldo-be/318731.md) (2026-10-24)
 - [The Business Central 2026 release wave 2 docs nobody asked for ..](../posts/waldo-be/318712.md) (2026-10-02)
 - [Business Central data in Fabric: the way it should be](../posts/waldo-be/318707.md) (2026-10-01)

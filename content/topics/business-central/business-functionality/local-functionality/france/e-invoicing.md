@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:04.924Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,7 +46,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10048
-    - change/bcapps/10342
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -99,6 +98,5 @@ This section covers the French local functionality for meeting the electronic in
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10048 Add GTIN to XRechnung and ZUGFeRD exports](../../../../../changes/bcapps/10048.md) (code change): "GTIN codes from item cards are now exported to XRechnung and ZUGFeRD"
-- [#10342 Add GLN information to XRechnung and ZUGFeRD exports](../../../../../changes/bcapps/10342.md) (code change): "GLN identifiers with schemeID 0088 are now included in German XRechnung"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/yzhums-com/77263",
+  "input_hash": "a6f467d7155f43daf6ec89e6c63743647ed3b332c1c92915fba142d97b42ed9c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-12T00:55:16.666Z",
+  "issues": [
+    "The key points present the log review, table and field selection with filters, and job queue pull as if they were new cross-environment features. The post lists them as master data management capabilities that date back to BC22. The new piece in BC29 is the Cross-environment setup action.",
+    "The key points leave out the setup steps and the troubleshooting errors (HTTP 401, privacy notice not approved, HTTP 404 when the source is older than 29.1), which are the most practical parts of the post.",
+    "All quotes are verbatim from the post and the permission set object is named there. Systems and features are supported.",
+    "The post shows a real-looking client secret value. The page does not repeat it, which is correct."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.061696,
+    "posts_in_call": 1
+  }
+}

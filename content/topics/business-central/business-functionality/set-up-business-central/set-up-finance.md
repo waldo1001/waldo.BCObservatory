@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-finance
 type: topic
 title: Set up finance
-summary: "Set up finance covers the core accounting configuration in Business Central: chart of accounts, posting groups, currencies, payment terms and methods, VAT and other taxes, collections (reminders, finance charges), fiscal periods, and financial reports. It answers how-to-configure questions for each of these areas."
+summary: "Finance setup in Business Central: chart of accounts, posting groups, payment terms and methods, VAT and other taxes, currencies, fiscal periods, collections (reminders, finance charges), Intrastat, and cash flow analysis. It answers how-to-configure questions for core accounting."
 tier: official
 language: en
 system: finance
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 77531b563836659def20fdb21b1928cf0203022fb1f1dc319fba20d6d2cf7e74
+  input_hash: 3a68a90d2a71125b6fc59f20ee1be5f07af64340eabf9827304ffc01fae27d8f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-how-enable-application-ledger-entries-different-currencies
@@ -50,13 +50,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/finance-payment-tolerance-and-payment-discount-tolerance
     title: Payment tolerance and payment discount tolerance
     date: "2024-07-05"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups
-    title: Posting group setup
-    date: "2025-08-13"
     commit: null
     t: null
     quote: null
@@ -138,6 +131,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups
+    title: Set Up Posting Groups in Business Central
+    date: "2026-11-11"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-setup-reminders
     title: Set Up Reminder Terms and Levels
     date: "2025-06-10"
@@ -146,8 +146,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat
-    title: Set up unrealized value added tax
-    date: "2024-08-13"
+    title: Set Up Unrealized VAT for Cash-Based Accounting
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -207,7 +207,6 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/bi-how-work-account-schedule
     - https://learn.microsoft.com/dynamics365/business-central/finance-setup-finance-charges
     - https://learn.microsoft.com/dynamics365/business-central/finance-payment-tolerance-and-payment-discount-tolerance
-    - https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-additional-currencies
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-to-set-up-cash-customers
     - https://learn.microsoft.com/dynamics365/business-central/finance-setup-trail-codes
@@ -219,6 +218,7 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/finance-setup-chart-accounts
     - https://learn.microsoft.com/dynamics365/business-central/finance-payment-methods
     - https://learn.microsoft.com/dynamics365/business-central/finance-payment-terms
+    - https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups
     - https://learn.microsoft.com/dynamics365/business-central/finance-setup-reminders
     - https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat
     - https://learn.microsoft.com/dynamics365/business-central/finance-setup-vat
@@ -449,28 +449,28 @@ narrative: generated
 
 # Set up finance
 
-> Set up finance covers the core accounting configuration in Business Central: chart of accounts, posting groups, currencies, payment terms and methods, VAT and other taxes, collections (reminders, finance charges), fiscal periods, and financial reports. It answers how-to-configure questions for each of these areas.
+> Finance setup in Business Central: chart of accounts, posting groups, payment terms and methods, VAT and other taxes, currencies, fiscal periods, collections (reminders, finance charges), Intrastat, and cash flow analysis. It answers how-to-configure questions for core accounting.
 
 Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is a set of setup articles for the finance side of Business Central. It has no subtopics. The page "Set up financial processes" is the entry point: it lists finance setup tasks in a table and links to the related articles.
+This section collects the setup articles for the finance area. It starts with an overview page that lists finance setup tasks and links to the related articles, so that page is the best entry point.
 
-The other pages group into several areas. Core ledger setup includes the chart of accounts, posting groups, accounting periods and fiscal years, audit trail codes, allocation keys in general journals, and invoice rounding. Currency pages cover additional reporting currency, exchange rate updates, and applying entries in different currencies. Customer and vendor terms cover payment terms, payment methods, payment tolerances, and cash customers.
+The core pages cover the chart of accounts, posting groups, payment terms, payment methods, accounting periods and fiscal years, and audit trail codes. Tax pages cover VAT, unrealized VAT for cash-based accounting, VAT registration number validation, withholding tax, excise tax, and Intrastat. Currency pages cover the additional reporting currency, exchange rate updates, and applying entries in different currencies.
 
-Tax and compliance pages cover VAT, unrealized VAT, withholding tax, excise tax, Intrastat, and VAT registration number validation. Collections pages cover reminder terms and levels, finance charge terms, multiple interest rates, and automated reminders. Reporting pages cover financial reports built from account categories and cash flow analysis. Start with the overview page, then set up the chart of accounts and posting groups before the other areas.
+Collections and rounding pages cover reminder terms and levels, automated reminders, finance charge terms, multiple interest rates, payment tolerances, and invoice rounding. Other pages cover cash customers, allocation keys in general journals, financial reports built on account categories, and cash flow analysis.
 
 ## Key points
 
-- Start with 'Set up financial processes', which tabulates finance setup tasks and links to related articles.
-- Chart of accounts and posting groups (general, specific, tax, alternative, multiple) map entities to G/L accounts.
-- Currency topics: additional reporting currency (ACY), exchange rate updates (manual or via a rate service), and applying entries across currencies.
-- Payment setup includes payment terms (date formulas, discounts), payment methods, payment tolerance and payment discount tolerance, and invoice rounding.
-- Tax setup covers VAT (version 23.1 noted), unrealized VAT, withholding tax, excise tax (version 29 noted), and Intrastat (2022 release wave 2 noted).
-- VAT registration numbers can be validated with the EU VAT Reg. No. Validation Service, which uses VIES.
-- Collections: reminder terms and levels, finance charge terms, multiple interest rates, and job-queue-based automated reminders.
-- Financial reports use row and column definitions with G/L account categories (2025 release wave 1); cash flow analysis and accounting periods and fiscal years are also covered.
+- Start with 'Set up financial processes', a table of finance setup tasks linked to detailed articles.
+- Posting groups (general business, general product, customer, vendor, inventory) map transactions to G/L accounts; the chart of accounts page covers account types, totaling, indentation and deletion controls.
+- Collections: reminder terms with levels, fixed and dynamic fees, finance charge terms (Average Daily Balance or Balance Due), multiple interest rates, and job-queue automation to create, issue and send reminders.
+- Payment setup: payment terms with date formulas and discounts, payment methods as defaults per customer or vendor, and payment tolerance by amount and percentage.
+- Tax setup: VAT (posting groups, registration numbers, clauses, reverse charge), unrealized VAT, VIES-based VAT number validation, withholding tax, excise tax (version 29), and Intrastat.
+- Currencies: additional reporting currency, exchange rate updates (manual or via a rate service), realized and unrealized gains and losses, and application of entries in different currencies.
+- Financial reports use row and column definitions with G/L account categories, dimensions and G/L budgets (2025 release wave 1).
+- Accounting periods and fiscal years cover period creation, closing, date locking and posting date controls.
 
 ## Learn pages
 
@@ -484,8 +484,6 @@ Tax and compliance pages cover VAT, unrealized VAT, withholding tax, excise tax,
   - In the observatory: [Page 36954 "Customers"](../../../../objects/page/36954.md), [Table 5 "Finance Charge Terms"](../../../../objects/table/5.md)
 - [Payment tolerance and payment discount tolerance](https://learn.microsoft.com/dynamics365/business-central/finance-payment-tolerance-and-payment-discount-tolerance): This article explains how to set up payment tolerance to close an invoice when the payment doesn't fully cover the invoice amount.
   - In the observatory: [Page 110 "Customer Posting Groups"](../../../../objects/page/110.md), [Page 111 "Vendor Posting Groups"](../../../../objects/page/111.md)
-- [Posting group setup](https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups): Learn how to use posting groups to save time and avoid mistakes when you post transactions.
-  - In the observatory: [Page 110 "Customer Posting Groups"](../../../../objects/page/110.md), [Page 111 "Vendor Posting Groups"](../../../../objects/page/111.md), [Page 112 "Inventory Posting Groups"](../../../../objects/page/112.md), [Page 314 "General Posting Setup"](../../../../objects/page/314.md), [Page 373 "Bank Account Posting Groups"](../../../../objects/page/373.md), [Page 5233 "Human Resources Setup"](../../../../objects/page/5233.md)
 - [Set up additional currencies](https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-additional-currencies): Your general ledger is set up to use your local currency (LCY), and another currency is set up as an additional currency, with a current exchange rate assigned.
   - In the observatory: [Page 472 "VAT Posting Setup"](../../../../objects/page/472.md)
 - [Set Up Cash Customers](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-set-up-cash-customers): This topic describes the steps required to set up the invoice with a customer number for customers who pay in cash.
@@ -503,9 +501,11 @@ Tax and compliance pages cover VAT, unrealized VAT, withholding tax, excise tax,
   - In the observatory: [Table 289 "Payment Method"](../../../../objects/table/289.md)
 - [Set up payment terms](https://learn.microsoft.com/dynamics365/business-central/finance-payment-terms): Use payment terms to manage due dates and payment discounts.
   - In the observatory: [Table 3 "Payment Terms"](../../../../objects/table/3.md)
+- [Set Up Posting Groups in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups): Set up posting groups in Business Central to map transactions to G/L accounts, allow alternative groups, and troubleshoot missing account setup.
+  - In the observatory: [Page 110 "Customer Posting Groups"](../../../../objects/page/110.md), [Page 111 "Vendor Posting Groups"](../../../../objects/page/111.md), [Page 112 "Inventory Posting Groups"](../../../../objects/page/112.md), [Page 1518 "My Notifications"](../../../../objects/page/1518.md), [Page 314 "General Posting Setup"](../../../../objects/page/314.md), [Page 373 "Bank Account Posting Groups"](../../../../objects/page/373.md)
 - [Set Up Reminder Terms and Levels](https://learn.microsoft.com/dynamics365/business-central/finance-setup-reminders): Set up Business Central so you can send reminders about payments due and add charges, or fees because of the delay.
   - In the observatory: [Page 433 "Reminder Text"](../../../../objects/page/433.md), [Page 838 "Reminder Terms Setup"](../../../../objects/page/838.md), [Page 9660 "Report Layouts"](../../../../objects/page/9660.md)
-- [Set up unrealized value added tax](https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat): If you're using cash-based accounting, you can specify how to handle unrealized VAT for sales and purchases.
+- [Set Up Unrealized VAT for Cash-Based Accounting](https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat): Set up unrealized VAT in Business Central for cash-based accounting, choose how payments realize VAT, and assign temporary sales and purchase VAT accounts.
 - [Set up value-added tax](https://learn.microsoft.com/dynamics365/business-central/finance-setup-vat): Make sure that you correctly calculate, post, and report on VAT for sales and purchases. We recommend that you use the assisted setup guide to set up VAT.
   - In the observatory: [Page 119 "User Setup"](../../../../objects/page/119.md), [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 187 "VAT Setup"](../../../../objects/page/187.md)
 - [Set up withholding tax](https://learn.microsoft.com/dynamics365/business-central/finance-set-up-withholding-tax): Learn how to configure Business Central so that you can record withholding taxes.

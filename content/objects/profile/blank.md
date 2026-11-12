@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:47:35.044Z"
+  at: "2026-11-12T00:45:23.971Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ea8636e052bea90199893cd0950ce8e0fc3b9da4690b06249930fba376a693f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/System%20Application/App/Default%20Role%20Center/src/Blank.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/System%20Application/App/Default%20Role%20Center/src/Blank.Profile.al
     title: src/System Application/App/Default Role Center/src/Blank.Profile.al (releases/29.x)
     date: null
-    commit: 2c932722a2917f4592f1541d4d85dc247c8942ac
+    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "BLANK" in System Application (System.Environment.Configuration). Present since at least BC23, still in BC30.
 
-System Application · System.Environment.Configuration · captioned "Blank Profile" · BC23-30 · [source at 2c932722](https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/System%20Application/App/Default%20Role%20Center/src/Blank.Profile.al) · facts from BC29
+System Application · System.Environment.Configuration · captioned "Blank Profile" · BC23-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/System%20Application/App/Default%20Role%20Center/src/Blank.Profile.al) · facts from BC29
 
 ## Properties
 

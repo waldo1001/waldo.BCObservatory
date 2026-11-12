@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:36.352Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -72,7 +72,8 @@ links:
     - topic/dev-itpro/integration/integrating-business-central-with-office
     - topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-teams/tabs
   localizations: []
-  videos: []
+  videos:
+    - video/_OClSlushOU
   posts:
     - post/yzhums-com/70836
   guidelines: []
@@ -87,7 +88,7 @@ children:
 coverage:
   learn: 6
   code: 0
-  video: 0
+  video: 1
   blog: 1
   guideline: 0
 bc_forms: []
@@ -135,5 +136,6 @@ Start with the development overview to see the pieces, then move to the metadata
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Dynamics 365 Business Central: Set up access to Business Central with Microsoft 365 licenses within BC (Not in Admin Center)](../../../../posts/yzhums-com/70836.md) (community post): "Setup is performed within Business Central via Tell me search for 'Set up access with Microsoft 365 Licenses'"
+- [Work Seamlessly with Microsoft Outlook, Excel, and Teams](../../../../videos/_OClSlushOU.md) (video): "Business data tabs in Teams chat"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

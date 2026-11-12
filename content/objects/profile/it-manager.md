@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:47:35.044Z"
+  at: "2026-11-12T00:45:23.971Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6e57bd803020bd2500ea29dc90e913e06ea0f2188bda6b9251712858e7ad0942
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Layers/W1/BaseApp/RoleCenters/ITManager.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Layers/W1/BaseApp/RoleCenters/ITManager.Profile.al
     title: src/Layers/W1/BaseApp/RoleCenters/ITManager.Profile.al (releases/29.x)
     date: null
-    commit: 2c932722a2917f4592f1541d4d85dc247c8942ac
+    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "IT MANAGER" in Base Application (Microsoft.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.RoleCenters · captioned "IT Manager" · BC23-30 · [source at 2c932722](https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Layers/W1/BaseApp/RoleCenters/ITManager.Profile.al) · facts from BC29
+Base Application · Microsoft.RoleCenters · captioned "IT Manager" · BC23-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Layers/W1/BaseApp/RoleCenters/ITManager.Profile.al) · facts from BC29
 
 ## Properties
 

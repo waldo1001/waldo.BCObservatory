@@ -6,12 +6,11 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Price List activation now prevents duplicate lines when the price list is inactive, fixing a data integrity issue in the pricing system.",
+  "summary": "Activating an inactive sales or purchase price list no longer lets duplicate lines through. The fix is a one-line change in the Price List Management codeunit.",
   "key_points": [
-    "Prevents duplicate lines from being added to inactive price lists during activation",
-    "Addresses a bug in the price list management logic",
-    "Updated codeunit 7017 to enforce proper validation",
-    "Includes test coverage for the fix"
+    "Price list activation no longer allows duplicate lines when the list was inactive",
+    "One-line change in codeunit 7017 Price List Management",
+    "New unit test added in Price List Header UT"
   ],
   "change_kind": "fix",
   "behavior_change": true,

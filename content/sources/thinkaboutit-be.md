@@ -2,7 +2,7 @@
 id: source/thinkaboutit-be
 type: source
 title: think about IT - Steven Renders
-summary: "think about IT - Steven Renders (Steven Renders): 69 posts in the knowledge base, 2025-07-31 to 2026-11-03, mostly about development, copilot, reporting."
+summary: "think about IT - Steven Renders (Steven Renders): 70 posts in the knowledge base, 2025-07-31 to 2026-11-11, mostly about copilot, development, reporting."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T00:16:32.194Z"
+  at: "2026-11-12T00:14:43.393Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d18b924b86c65cce3595e009fe22f5a49e4f0e9aba185b46655a096019b1fed1
+  input_hash: 40f2fee84e242f13420517f405534b13b016987995498be4724aed1aa837cd00
 evidence:
   - kind: blog
     url: https://thinkaboutit.be
@@ -102,6 +102,7 @@ links:
     - post/thinkaboutit-be/8359
     - post/thinkaboutit-be/8342
     - post/thinkaboutit-be/8379
+    - post/thinkaboutit-be/8393
   guidelines: []
 source_id: thinkaboutit-be
 kind: blog
@@ -109,19 +110,19 @@ url: https://thinkaboutit.be
 author: Steven Renders
 mvp: false
 full_text: false
-item_count: 69
+item_count: 70
 footprint:
   systems:
+    - id: copilot
+      weight: 52
     - id: development
       weight: 52
-    - id: copilot
-      weight: 51
     - id: reporting
       weight: 43
     - id: platform
       weight: 23
     - id: administration
-      weight: 21
+      weight: 22
     - id: integration
       weight: 21
   topics:
@@ -131,10 +132,12 @@ footprint:
       weight: 11
     - id: code generation
       weight: 8
+    - id: release wave 2
+      weight: 8
     - id: reporting
       weight: 8
-    - id: release wave 2
-      weight: 7
+    - id: agents
+      weight: 6
     - id: analytics
       weight: 6
     - id: copilot
@@ -142,8 +145,6 @@ footprint:
     - id: github copilot
       weight: 6
     - id: admin center
-      weight: 5
-    - id: agents
       weight: 5
   objects:
     - id: page Customer Ledger Entries
@@ -172,12 +173,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-07-31"
-last_item: "2026-11-03"
+last_item: "2026-11-11"
 ---
 
 # think about IT - Steven Renders
 
-> think about IT - Steven Renders (Steven Renders): 69 posts in the knowledge base, 2025-07-31 to 2026-11-03, mostly about development, copilot, reporting.
+> think about IT - Steven Renders (Steven Renders): 70 posts in the knowledge base, 2025-07-31 to 2026-11-11, mostly about copilot, development, reporting.
 
 [https://thinkaboutit.be](https://thinkaboutit.be) · blog · tier community
 
@@ -185,16 +186,16 @@ last_item: "2026-11-03"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (52) | al development (15) | page Customer Ledger Entries (2) |
-| copilot (51) | power bi (11) | codeunit Rest Api Helper (1) |
+| copilot (52) | al development (15) | page Customer Ledger Entries (2) |
+| development (52) | power bi (11) | codeunit Rest Api Helper (1) |
 | reporting (43) | code generation (8) | codeunit Sales Posting Helper (1) |
-| platform (23) | reporting (8) | codeunit Sales Posting Helper Test (1) |
-| administration (21) | release wave 2 (7) | codeunit Semantic Data Search (1) |
-| integration (21) | analytics (6) | other Power BI Monitor (1) |
-|  | copilot (6) | page Copilot & agent capabilities (1) |
-|  | github copilot (6) | page Copilot & Agent Capabilities (1) |
-|  | admin center (5) | page Data Administration (1) |
-|  | agents (5) | page Data Administration Guide (1) |
+| platform (23) | release wave 2 (8) | codeunit Sales Posting Helper Test (1) |
+| administration (22) | reporting (8) | codeunit Semantic Data Search (1) |
+| integration (21) | agents (6) | other Power BI Monitor (1) |
+|  | analytics (6) | page Copilot & agent capabilities (1) |
+|  | copilot (6) | page Copilot & Agent Capabilities (1) |
+|  | github copilot (6) | page Data Administration (1) |
+|  | admin center (5) | page Data Administration Guide (1) |
 |  |  | page External File Accounts (1) |
 |  |  | page Item Ledger Entries (1) |
 
@@ -207,10 +208,11 @@ Items per quarter, oldest first:
 - 2026-Q1: ************* 13
 - 2026-Q2: ************ 12
 - 2026-Q3: ************* 13
-- 2026-Q4: *********** 11
+- 2026-Q4: ************ 12
 
 ## Most recent
 
+- [Quick Tip: What’s in Business Central 2026 Release Wave 2, Update 29.1?](../posts/thinkaboutit-be/8393.md) (2026-11-11)
 - [Business Central 29: Match Production Database Configuration in Sandbox Environments](../posts/thinkaboutit-be/8379.md) (2026-11-03)
 - [Business Central 29: Exploring the New Microsoft Copilot Chat](../posts/thinkaboutit-be/8342.md) (2026-11-02)
 - [Directions EMEA 2026, Day 2: Cowork, Agentic Development and Fabric](../posts/thinkaboutit-be/8359.md) (2026-10-29)
@@ -230,6 +232,5 @@ Items per quarter, oldest first:
 - [BCQuality: A Shared Quality Bar for AL Code, Built for Agents](../posts/thinkaboutit-be/8132.md) (2026-09-09)
 - [Quick Tip: What’s in Business Central 2026 Release Wave 2, Update 29.0 Preview](../posts/thinkaboutit-be/8120.md) (2026-09-07)
 - [Quick Tip: You Can Now Create a Business Central 29.0 (Preview) Sandbox](../posts/thinkaboutit-be/8111.md) (2026-09-07)
-- [Quick Tip: It’s Time to Move to the Word Add-in Data Picker](../posts/thinkaboutit-be/8096.md) (2026-09-01)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

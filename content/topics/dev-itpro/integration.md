@@ -12,7 +12,7 @@ review:
   at: "2026-11-08T01:01:45.873Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -384,6 +384,13 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/10437
+    - change/bcapps/11386
+    - change/bcapps/11484
+    - change/bcapps/11527
+    - change/bcapps/13765
+    - change/bcapps/13766
+    - change/bcapps/13822
     - change/bcapps/9426
     - change/bcapps/9702
     - change/bcapps/9711
@@ -536,6 +543,13 @@ Two own pages cover Dynamics 365 products: integration with Dynamics 365 Sales t
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10437 [FR E-Reporting] Add payment and invoice lifecycle messages](../../changes/bcapps/10437.md) (code change): "E-Document message lifecycle infrastructure and French electronic invoicing support added to enable payment and invoice lifecycle communication"
+- [#11386 Fix E-Doc. Item Charge Mapping codeunit ID](../../changes/bcapps/11386.md) (code change): "E-Doc. Item Charge Mapping codeunit ID was corrected"
+- [#11484 [E-Documents Core] - Supported type direction configuration](../../changes/bcapps/11484.md) (code change): "E-Document services now support per-document-type direction configuration"
+- [#11527 E-document payment improvements](../../changes/bcapps/11527.md) (code change): "E-Document payment processing now supports durable, retryable occurrences"
+- [#13765 [E-Document] Set max output tokens for MLLM extraction](../../changes/bcapps/13765.md) (code change): "E-Document MLLM Handler sets an explicit maximum output token budget"
+- [#13766 [E-Document] Set max output tokens for MLLM extraction (29.x)](../../changes/bcapps/13766.md) (code change): "Output token limit is now explicitly configured in MLLM extraction"
+- [#13822 Fix XRechnung export truncating item name to 40 characters](../../changes/bcapps/13822.md) (code change): "XRechnung export now includes the full item description instead of truncating"
 - [#9426 [E-Document Formats] Migrate NAV PRs 247170 and 247176 into BCApps](../../changes/bcapps/9426.md) (code change): "PINT A-NZ and Factura-E e-document formats are migrated to the structured import pipeline"
 - [#9702 Default new E-Document services to import v2 and let users select the draft format](../../changes/bcapps/9702.md) (code change): "E-Document services now default to the v2 import pipeline"
 - [#9711 Fix E-Document purchase draft header Sub Total overwrite; notify on mismatch](../../changes/bcapps/9711.md) (code change): "E-Document purchase draft no longer silently overwrites the header Sub Total"

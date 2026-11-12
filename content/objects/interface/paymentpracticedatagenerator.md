@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:47:35.044Z"
+  at: "2026-11-12T00:45:23.971Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6c81471e2b0d11659cf49d616067a7df255f76ce3b79c5dccf0d5756f2e16a75
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeDataGenerator.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeDataGenerator.Interface.al
     title: src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeDataGenerator.Interface.al (releases/29.x)
     date: null
-    commit: 2c932722a2917f4592f1541d4d85dc247c8942ac
+    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "PaymentPracticeDataGenerator" in PaymentPractices (Microsoft.Finance.Analysis). 1 public procedures. Introduced in BC29, still in BC30.
 
-PaymentPractices · Microsoft.Finance.Analysis · BC29-30 · [source at 2c932722](https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeDataGenerator.Interface.al) · facts from BC29
+PaymentPractices · Microsoft.Finance.Analysis · BC29-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/W1/PaymentPractices/app/src/Core/Interfaces/PaymentPracticeDataGenerator.Interface.al) · facts from BC29
 
 ## Procedures
 

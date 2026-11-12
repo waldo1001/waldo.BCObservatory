@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
-  "input_hash": "7aa7b3e8ea29c6029d7d469c25110b881f0a2304462a0cc9a2f3d65de30b968f",
-  "summary": "Report layouts in Business Central AL development: creating and designing Word, Excel, RDLC/RDL and custom layouts, defining multiple layouts per report, barcodes and fonts, hyperlinks, selecting layouts per company or customer, and custom renderers. Answers how-to and setup questions about layout authoring and assignment.",
-  "overview": "Report layouts control the content and format of reports and documents. Supported types are Word, Excel, RDLC/RDL and external layouts, plus composite layouts that combine reusable themes with headers and footers. The overview page and \"Get started creating report layouts\" explain the types and the basic cycle of copying, exporting, modifying, importing and validating a layout.\n\nType-specific pages cover authoring. For Word: creating a Word layout report, designing with the Business Central add-in, mapping fields with the XML Mapping pane, hyperlinks, and authoring tips. For Excel: creating layouts in the client and the developer guide on the data contract. For RDL/RDLC: SQL Server Report Builder or the Visual Studio designer. Developer pages cover defining multiple layouts in the rendering section, adding barcodes, available fonts, and writing a custom report render.\n\nLayout assignment is covered by the pages on setting the layout used by a report and defining document layouts for customers and vendors. Pages marked (Obsolete) describe the older custom layout management for RDLC and Word. Prefer the newer pages unless you maintain legacy setups. Start with the overview, then pick the layout type you need.",
+  "input_hash": "55e072e6c2d4f4b4b2e04aa85111101fde129916484fc0fd48f9693732da1b9f",
+  "summary": "Report layouts in Business Central AL development: creating and managing Word, Excel, RDLC and RDL layouts, defining multiple layouts per report, barcodes and fonts, hyperlinks, custom renderers, and customer/vendor document layouts. Answers how-to, setup and limits questions, and flags obsolete pages.",
+  "overview": "This section covers how report output is designed and selected. It starts with overview and getting-started pages that explain layout types (Word, Excel, RDLC, external), subtypes (Default, Body), composite layouts with reusable themes and headers/footers, and layout status management. Pages on setting the layout used by a report explain default layouts per company and choosing a layout from the request page.",
   "key_points": [
-    "Layout types: Word, Excel, RDLC/RDL, external, and composite layouts that combine reusable themes, headers and footers.",
-    "Multiple layouts for one report are defined in the AL rendering section, with Caption, Summary, DefaultRenderingLayout and obsolescence properties.",
-    "Word layouts use a custom XML part and the XML Mapping pane, or the Business Central add-in (Add Data pane, tables, repeaters, hide-if-empty controls).",
-    "Word hyperlinks on text and pictures use URL columns named with the _Url and _UrlText suffixes.",
-    "Excel layouts support PivotTables, PivotCharts, multiple worksheets, translations and ExcelLayoutMultipleDataSheets in the data contract.",
-    "RDLC/RDL layouts are designed with SQL Server Report Builder or the Visual Studio RDLC designer.",
-    "Barcodes use the Barcode Font Provider interface, Barcode Symbology enum, EncodeFont and ValidateInput, with IDAutomation fonts available online.",
-    "Default layouts are set per company, or per customer and vendor document type. Users can also switch layout from the report request page."
+    "Start with Report and document layouts overview and Get started creating report layouts for current workflows.",
+    "Word layouts: create with the Business Central add-in or XML Mapping pane, use ReportMetadata and ReportRequest dataitems, hyperlinks via _Url and _UrlText columns.",
+    "Excel layouts: use PivotTables and formulas, a data contract, system worksheets, translations and ExcelLayoutMultipleDataSheets.",
+    "RDL and RDLC layouts are designed in SQL Server Report Builder or the Visual Studio RDLC designer.",
+    "Multiple layouts per report are defined in the rendering section with Caption, Summary and DefaultRenderingLayout properties.",
+    "Barcodes use the Barcode Font Provider interface, Barcode Symbology enum, EncodeFont and ValidateInput, with IDAutomation fonts.",
+    "Custom renderers are built with the OnCustomDocumentMergerEx event.",
+    "Four pages marked (Obsolete) describe legacy create, import/export, set and update procedures and point to the current pages."
   ],
   "members_used": 22,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-11T00:58:32.454Z",
+  "at": "2026-11-12T00:56:43.269Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.03012
+    "cost_usd": 0.024225
   }
 }

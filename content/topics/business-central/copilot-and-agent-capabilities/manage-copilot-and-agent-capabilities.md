@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T12:48:04.649Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,6 +74,7 @@ links:
     - video/UQmuMPRlHek
   posts:
     - post/bertverbeek-nl/1263
+    - post/demiliani-com/12076
     - post/demiliani-com/15935
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0
     - post/yzhums-com/67462
@@ -100,7 +101,7 @@ coverage:
   learn: 5
   code: 3
   video: 3
-  blog: 11
+  blog: 12
   guideline: 0
 bc_forms:
   - 7771
@@ -151,6 +152,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12882 [Master] - Bug 651169: [Expense Agent] Exchange rate date limitation](../../../changes/bcapps/12882.md) (code change): "Users receive clear error messages when exchange rates unavailable"
 - [#13599 [SOA] Setup can be saved while the agent remains inactive without warning](../../../changes/bcapps/13599.md) (code change): "Sales Order Agent setup page now shows a confirmation when saving an inactive agent"
 - [Agents in Business Central – part 4 – troubleshooting](../../../posts/bertverbeek-nl/1263.md) (community post): "Use the Agent Consumption page to monitor credit usage"
+- [Dynamics 365 Business Central: introducing the Payables Agent.](../../../posts/demiliani-com/12076.md) (community post): "Setup requires activating the agent and configuring a shared email account"
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../../posts/demiliani-com/15935.md) (community post): "Copilot features in Dynamics 365 Business Central may move prompts across geographies"
 - [BC Friday Tips #45 Hide Agents Icon](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0.md) (community post): "hide the Agents icon by going to Copilot & agent capabilities"
 - [Business Central 2025 wave 2 (BC27): Understand how each Copilot and agent capability is billed (Billing Type)](../../../posts/yzhums-com/67462.md) (community post): "Billing Type column on the Copilot and Agent Capabilities page"

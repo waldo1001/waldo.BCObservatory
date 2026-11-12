@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:01:53.027Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -145,7 +145,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10023
-    - change/bcapps/12443
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -241,7 +240,6 @@ For electronic filing, you first create text or XML templates (Transference Form
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10023 [Master]-Customer Ledger Bill Entries display default Customer Posting Group instead of Alternative Customer Posting Group set on Sales Documents in the Spanish version.](../../../../../changes/bcapps/10023.md) (code change): "Invoice split payment posting in the Spanish version now preserves the alternative customer posting group"
-- [#12443 Renumber SII objects for ES](../../../../../changes/bcapps/12443.md) (code change): "SII objects in the ES Base Application layer get new object IDs"
 
 ## Business Central pages and reports
 

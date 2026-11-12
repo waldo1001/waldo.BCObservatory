@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13344",
+  "input_hash": "40d708ba4aca6102f30ecd07dc12e96c15030b374bd0d4d3cf23ba851469ba81",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-12T00:55:49.544Z",
+  "issues": [
+    "Key point says the fix applies to all regional layers including CZ, but CZ only has test changes; the table change is in W1, NA, BE, ES, FI, GB, IT, NO, APAC, RU and SE.",
+    "Summary says only corrective credit memos with linked item ledger entries affect the order; the description limits the early exit to lines with no linked item ledger entry that are inventory items, so 'only' overstates it."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019439,
+    "changes_in_call": 5
+  }
+}

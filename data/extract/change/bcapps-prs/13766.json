@@ -6,14 +6,14 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "The E-Document MLLM Handler sets an explicit output token budget for the machine learning model extraction to support the 5.6 model version.",
+  "summary": "The E-Document MLLM Handler now sets an explicit maximum output token budget for MLLM extraction during e-document import, in preparation for the 5.6 model. This is a backport to 29.x.",
   "key_points": [
-    "Output token limit is now explicitly configured in MLLM extraction",
-    "Prepares E-Document processing for compatibility with 5.6 model",
-    "Affects ML-based document import functionality"
+    "Explicit max output tokens set for MLLM extraction in codeunit 6231",
+    "Prepares for the 5.6 model",
+    "Released on the 29.x branch"
   ],
-  "change_kind": "feature",
-  "behavior_change": false,
+  "change_kind": "other",
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

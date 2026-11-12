@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:03:35.392Z"
   flags: []
 generated:
-  at: "2026-11-08T00:54:33.212Z"
+  at: "2026-11-12T00:52:34.188Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -225,6 +225,8 @@ links:
   learn: []
   objects: []
   features:
+    - feature/573362
+    - feature/573384
     - feature/577820
   topics: []
   localizations: []
@@ -300,10 +302,12 @@ features:
     verified: false
     status_source: video
   - name: Copilot Chat for data inquiries
-    status: unclear
+    status: ga
     t: 207
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Copilot Chat multilingual support
     status: ga
     t: 343
@@ -507,10 +511,12 @@ features:
     verified: false
     status_source: video
   - name: Page scripting in pipelines
-    status: unclear
+    status: ga
     t: 2176
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573384"
 objects_mentioned:
   - other Analysis View
   - other Customer page
@@ -637,7 +643,7 @@ It then covers Power Automate, modern search in preview, column resizing and acc
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | Copilot enabled by default | status not stated | [3:07](https://www.youtube.com/watch?v=2isrH3RcSK8&t=187s) |  |
-| Copilot Chat for data inquiries | status not stated, demoed | [3:27](https://www.youtube.com/watch?v=2isrH3RcSK8&t=207s) |  |
+| Copilot Chat for data inquiries | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [3:27](https://www.youtube.com/watch?v=2isrH3RcSK8&t=207s) |  |
 | Copilot Chat multilingual support | generally available | [5:43](https://www.youtube.com/watch?v=2isrH3RcSK8&t=343s) | "adding 20 languages with this release it's now available in all these languages" ([5:43](https://www.youtube.com/watch?v=2isrH3RcSK8&t=343s)) |
 | Copilot for Finance app | status not stated, demoed | [6:03](https://www.youtube.com/watch?v=2isrH3RcSK8&t=363s) |  |
 | Copilot item substitution generation | status not stated, demoed | [7:04](https://www.youtube.com/watch?v=2isrH3RcSK8&t=424s) |  |
@@ -678,7 +684,7 @@ It then covers Power Automate, modern search in preview, column resizing and acc
 | Modern search performance improvement | status not stated | [33:39](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2019s) |  |
 | Job queue priority and execution order | status not stated | [34:20](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2060s) |  |
 | Warehouse ledger entry posting pattern refactor | status not stated | [35:00](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2100s) |  |
-| Page scripting in pipelines | status not stated | [36:16](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2176s) |  |
+| Page scripting in pipelines | generally available (roadmap [Page Scripting enters General Availability](../features/573384.md)) | [36:16](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2176s) |  |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:31.349Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -204,13 +204,6 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/10619
-    - change/bcapps/10741
-    - change/bcapps/11854
-    - change/bcapps/11866
-    - change/bcapps/12468
-    - change/bcapps/13052
-    - change/bcapps/8679
     - change/bcapps/8713
     - change/bcapps/9317
     - change/bcapps/9357
@@ -338,13 +331,6 @@ For operations and support, use the troubleshooting page (logging, skipped recor
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10619 [Shopify] Index Has Order State Error to fix slow Shopify Activities cue](../../../changes/bcapps/10619.md) (code change): "A database index is added to the Shopify Order Header table"
-- [#10741 [Shopify] Fix exchange refund order links, totals, and refund page layout](../../../changes/bcapps/10741.md) (code change): "Fixed Shopify return-with-exchange processing by ensuring exchange credit memos"
-- [#11854 [Shopify] Make refund currency codes read-only](../../../changes/bcapps/11854.md) (code change): "Shopify Refund Header table are now read-only to prevent accidental"
-- [#11866 [Shopify] Disable Sync Shipments To Shopify when no Shopify orders exist](../../../changes/bcapps/11866.md) (code change): "Sync Shipments To Shopify action on the Shopify Orders page"
-- [#12468 [Shopify] Clarify VAT Bus. Posting Group tooltip](../../../changes/bcapps/12468.md) (code change): "Shopify Tax Areas page tooltip now clarifies when the VAT business posting group applies"
-- [#13052 [Shopify] Upgrade tax matching to GPT-5.6 Ceres](../../../changes/bcapps/13052.md) (code change): "Shopify tax matching now calls GetGPT56CeresLatest()"
-- [#8679 [Shopify] Fix missing shop currency mapping on order transactions](../../../changes/bcapps/8679.md) (code change): "Shop currency code mapping on Shopify order transactions was accidentally removed"
 - [#8713 [Shopify] Expose Product facade procedures for Add to Shopify parity](../../../changes/bcapps/8713.md) (code change): "Three new public procedures are added to the Shopify Product facade"
 - [#9317 [Shopify] Add Companies to Shopify navigation menu](../../../changes/bcapps/9317.md) (code change): "Shopify Companies list is now accessible from the Shopify navigation group"
 - [#9357 [Shopify] Add Compare-at Price field to Shopify Variants page for personalization](../../../changes/bcapps/9357.md) (code change): "The Shopify Variants page now includes a Compare at Price field control for personalization"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:03.756Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,7 +50,8 @@ links:
   videos:
     - video/BlkW7VC52c0
     - video/mXvKs6X1DNk
-  posts: []
+  posts:
+    - post/yzhums-com/77263
   guidelines: []
 learn_toc_path:
   - Development and administration
@@ -62,7 +63,7 @@ coverage:
   learn: 2
   code: 6
   video: 2
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 672
@@ -109,6 +110,7 @@ Start with the setup page to configure the source and subsidiary companies, then
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Business Central 2026 release wave 2 (BC29.1): Cross-environment Master Data Management](../../../posts/yzhums-com/77263.md) (community post): "Synchronize master data across development, test, and production environments"
 - [Copy Data Between Companies in Business Central (2 Built-In Methods You're Probably Missing)](../../../videos/BlkW7VC52c0.md) (video): "copying data between companies; master data management; configuration packages"
 - [What's new: Cross-environment Master Data Management (2026 release wave 2)](../../../videos/mXvKs6X1DNk.md) (video): "Cross-environment Master Data Synchronization; Entra ID-based Authorization; Read-only HQ Data Source"
 

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:47:35.044Z"
+  at: "2026-11-12T00:45:23.971Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e6400d676dfecae3b7525644476fb953324e7bf98752130160b75ba49d77214f
+  input_hash: b007bb107afc44f05f40f45e29d14b879571c6127f766067f6df0dc48894c484
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IPurchaseLineAccountProvider.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IPurchaseLineAccountProvider.Interface.al
     title: src/Apps/W1/EDocument/app/src/Processing/Interfaces/IPurchaseLineAccountProvider.Interface.al (releases/29.x)
     date: null
-    commit: 2c932722a2917f4592f1541d4d85dc247c8942ac
+    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
     t: null
     quote: null
 links:
@@ -43,7 +43,7 @@ links:
     - change/bcapps/12070
   related:
     - to: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents
-      title: Receive and convert electronic documents
+      title: Receive and Convert Electronic Documents
       label: possibly related
       why: Maps e-invoice lines to purchase accounts for converting electronic documents to purchase invoices.
       by: model
@@ -88,7 +88,7 @@ relations:
 
 > Interface "IPurchaseLineAccountProvider" in EDocument (Microsoft.eServices.EDocument.Processing.Interfaces). 1 public procedures. Introduced in BC29, still in BC30, changed in BC30. Obsolete (Pending since 27.0).
 
-EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at 2c932722](https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IPurchaseLineAccountProvider.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IPurchaseLineAccountProvider.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -116,7 +116,7 @@ EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
-- [Receive and convert electronic documents](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents) — possibly related: Maps e-invoice lines to purchase accounts for converting electronic documents to purchase invoices. (model-linked)
+- [Receive and Convert Electronic Documents](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents) — possibly related: Maps e-invoice lines to purchase accounts for converting electronic documents to purchase invoices. (model-linked)
 
 ## Deprecations
 

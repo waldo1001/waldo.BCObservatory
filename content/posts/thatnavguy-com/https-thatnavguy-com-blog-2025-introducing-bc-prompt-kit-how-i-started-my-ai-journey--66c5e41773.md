@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:58:16.448Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-12T00:14:43.393Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -93,7 +93,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:50:59.164Z"
+  probed_at: "2026-11-12T00:50:39.989Z"
 ---
 
 # Introducing BC Prompt Kit: How I Started My AI Journey

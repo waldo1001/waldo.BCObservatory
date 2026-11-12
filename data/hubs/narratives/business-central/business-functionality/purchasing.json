@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/purchasing",
-  "input_hash": "c3894608641189cc0f44da0c97855beb47dc96f4776eb303c21887a2f1105212",
-  "summary": "Purchasing in Business Central covers the purchase process from quotes and orders through invoices, returns, and approvals. It answers how-to questions on posting and correcting purchase documents, blanket orders, electronic invoices, date calculation, and payment reporting. A Purchasing analytics subtopic covers reports and Power BI.",
-  "overview": "This section describes how a company manages purchases in Business Central. It starts with an overview page of tasks, then covers the document flow: purchase quotes converted to orders, blanket orders for long-term agreements, purchase invoices and receipts, and returns or cancellations through credit memos and return orders.\n\nSupporting pages cover details that affect daily work: date and lead time calculation, external document numbers, standard recurring purchase lines, amount checks before posting, and creating purchases from sales orders. Other pages cover receiving PEPPOL and OCR electronic documents, matching invoice drafts to orders (with Payables Agent proposals), approval workflows, merging duplicate vendors, and syncing contacts to Outlook.\n\nStart with the overview of tasks, then go to \"Record purchases with purchase invoices\" for the core posting flow. For reports, the Purchasing analytics subtopic covers the Power BI Purchases app, built-in reports, and Data Analysis. The Payment practices report is a separate page here.",
+  "input_hash": "76ef5f8112715b651f4a326d659da5063b1419083e35f5964375fd35de9b53c5",
+  "summary": "Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and approvals. It answers how-to questions on posting, correcting, matching, and combining purchase documents, plus date calculation, blanket orders, electronic invoices, and reporting. A subtopic covers purchasing analytics.",
+  "overview": "Purchasing describes how a company buys goods and services in Business Central. The core flow starts with a purchase quote, which converts to a purchase order, then a receipt and a purchase invoice that updates inventory and accounts payable. Related pages cover blanket orders for long-term agreements, standard recurring lines, buying items for a specific sale, and automatic order and receipt date calculation from lead times.\n\nOther pages handle exceptions and controls. You can correct or cancel unpaid posted invoices with corrective credit memos, process returns with credit memos or return orders, and check that document amounts match the lines before posting. Further pages cover external document numbers, combining receipts or order lines on one invoice, matching invoice drafts to orders (with Payables Agent proposals), receiving electronic documents, and setting up purchase approval workflows. Utility pages cover merging duplicate vendors and syncing contacts to Outlook.\n\nStart with \"Overview of tasks to manage to purchase\" for the map, then \"Record purchases with purchase invoices\" for the basic posting flow. The Purchasing analytics subtopic covers the Power BI Purchases app, built-in reports, and ad-hoc analysis. The Payment practices report page is also here.",
   "key_points": [
-    "Purchase quotes convert to purchase orders; vendor templates and automatic vendor creation are supported.",
-    "Unpaid posted purchase invoices can be corrected or cancelled with corrective credit memos that keep the audit trail.",
-    "Get Receipt Lines and Get Order Lines combine several receipts or order lines on one invoice; receipt-on-invoice creates the receipt automatically.",
-    "Returns and cancellations use purchase credit memos or return orders, with exact cost reversing and item charge assignment.",
-    "PEPPOL and OCR electronic invoices and credit memos convert to purchase documents using text-to-account mapping (2023 release wave 2).",
-    "Invoice drafts can be matched to purchase orders and receipts, with checks on quantity, price, unit of measure, and item tracking; Payables Agent can propose matches.",
-    "Purchase approval workflows use approvers, amount limits, and notifications; the amount check validates totals including VAT before posting (2025 release wave 1).",
-    "External document numbers are accepted but not checked for uniqueness; they help search posted lines later."
+    "Quote-to-order flow: create purchase quotes, convert them to purchase orders, then receive and invoice.",
+    "Correct or cancel unpaid posted purchase invoices through corrective credit memos that keep the audit trail.",
+    "Process returns with purchase credit memos or return orders, with exact cost reversing and item charge assignment.",
+    "Combine several receipts or order lines on one invoice using Get Receipt Lines or Get Order Lines.",
+    "Invoice drafts can be matched to purchase orders and receipts, with Payables Agent proposing matches for review.",
+    "Check amounts on purchase invoices and credit memos validates totals including VAT against the lines (2025 release wave 1).",
+    "Purchase approval workflows use approvers, amount limits, and notifications.",
+    "Receiving PEPPOL and OCR electronic documents is described for versions before 2023 release wave 2."
   ],
   "members_used": 19,
   "subtopics_used": 1,
   "prompt_version": 1,
-  "at": "2026-11-08T01:01:09.642Z",
+  "at": "2026-11-12T00:57:21.064Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.026250000000000002
+    "cost_usd": 0.024087
   }
 }

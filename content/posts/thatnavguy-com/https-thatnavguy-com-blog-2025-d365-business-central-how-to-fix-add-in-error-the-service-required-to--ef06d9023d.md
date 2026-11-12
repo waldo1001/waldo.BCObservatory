@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:58:43.812Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-12T00:14:43.393Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -72,7 +72,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:51:10.489Z"
+  probed_at: "2026-11-12T00:50:49.044Z"
 ---
 
 # D365 Business Central: How to fix Edit in Excel Add-In Error - The service required to use this feature is turn off. Check your privacy settings.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.961Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -139,12 +139,12 @@ links:
   videos:
     - video/fIOnGEARkKs
   posts:
+    - post/bertverbeek-nl/1353
     - post/yzhums-com/63916
     - post/yzhums-com/71914
   guidelines: []
   changes:
-    - change/bcapps/12261
-    - change/bcapps/13623
+    - change/bcapps/13579
 learn_toc_path:
   - Integration
   - Integrating with Microsoft Dataverse
@@ -157,7 +157,7 @@ coverage:
   learn: 15
   code: 1
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 7214
@@ -225,8 +225,8 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#12261 Stop repeated rescheduling of Dataverse synch jobs on bulk changes](../../../../changes/bcapps/12261.md) (code change): "Dataverse synchronization job reschedule logic now checks both"
-- [#13623 [Dataverse] Fix duplicate sales line numbers with automatic recurring lines](../../../../changes/bcapps/13623.md) (code change): "Fixed an issue where creating a Business Central sales order from Dynamics 365 Sales"
+- [#13579 Fix synchronization error event record context](../../../../changes/bcapps/13579.md) (code change): "LogSynchError passes the populated, inserted IntegrationSynchJobErrors record"
+- [Credentials setup on Microsoft Fabric Mirroring in Business Central](../../../../posts/bertverbeek-nl/1353.md) (community post): "data synchronization; azure; authentication"
 - [Dynamics 365 Business Central Blog Series: Integrate with Microsoft Dataverse](../../../../posts/yzhums-com/63916.md) (community post): "data synchronization, connector setup, oauth authentication, table mapping"
 - [Business Central 2026 release wave 1 (BC28): Map new Dataverse fields (New and custom Dataverse tables are readily available for mapping from the lookup on Integration Table column)](../../../../posts/yzhums-com/71914.md) (community post): "New fields added to Dataverse can now be mapped through the Integration Table Mappings page"
 - [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../../../../videos/fIOnGEARkKs.md) (video): "Multi-currency synchronization; Additional field mappings for integration"

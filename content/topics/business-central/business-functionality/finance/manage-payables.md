@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -311,13 +311,14 @@ links:
     - video/-SGaVGOkiF0
     - video/OvI9jaA1mJY
     - video/Qz-V7qvOY-8
+    - video/Xc3ISQ7NAaQ
   posts:
     - post/demiliani-com/12076
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030
     - post/yzhums-com/68956
     - post/yzhums-com/70840
     - post/yzhums-com/71463
-    - post/yzhums-com/72842
+    - post/yzhums-com/75245
     - post/yzhums-com/76268
   guidelines: []
   changes:
@@ -325,12 +326,14 @@ links:
     - change/bcapps/10011
     - change/bcapps/10368
     - change/bcapps/10611
+    - change/bcapps/10700
     - change/bcapps/11095
     - change/bcapps/12532
     - change/bcapps/12762
     - change/bcapps/13228
     - change/bcapps/13396
     - change/bcapps/9133
+    - change/bcapps/9145
     - change/bcapps/9182
 learn_toc_path:
   - Business functionality
@@ -344,7 +347,7 @@ children:
 coverage:
   learn: 25
   code: 94
-  video: 3
+  video: 4
   blog: 7
   guideline: 0
 bc_forms:
@@ -525,23 +528,26 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10011 Improve performance when posting credit memos by skipping unnecessary lookups on empty keys](../../../../changes/bcapps/10011.md) (code change): "Credit memo posting now skips unnecessary table lookups when source keys are empty"
 - [#10368 Bug 614967: Skip mismatched TransferFields in posting](../../../../changes/bcapps/10368.md) (code change): "Sales and Purchase posting now skip fields with mismatched types"
 - [#10611 [main]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order](../../../../changes/bcapps/10611.md) (code change): "Posting a purchase credit memo created with Copy Document from a posted invoice"
+- [#10700 29.x: PO matching API, E-Documents integration and receipt-on-invoice line tracking](../../../../changes/bcapps/10700.md) (code change): "purchase order matching API to the Base Application, with receipt-on-invoice line tracking"
 - [#11095 [main] Bug 649204 Validation missing for Deferral Code field on Released Purchase documents.](../../../../changes/bcapps/11095.md) (code change): "Deferral Code field on released purchase line documents now validates"
 - [#12532 [Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../../changes/bcapps/12532.md) (code change): "Dispute Status code is not retained in some scenarios within the Vendor"
 - [#12762 [29.X]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../../changes/bcapps/12762.md) (code change): "Dispute status is now retained when editing vendor ledger entries"
 - [#13228 [Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](../../../../changes/bcapps/13228.md) (code change): "Fixes inconsistent syncing of On Hold and document dispute status"
 - [#13396 [main] Purchase invoice fails with "quantity larger than item ledger entry" after partial invoicing of multiple receipts with non-base UoM and Qty. Rounding Precision = 1](../../../../changes/bcapps/13396.md) (code change): "partial purchase invoices with non-base units of measure and quantity rounding"
 - [#9133 [Master]-Project consumption: partial invoicing of non-inventory items posts negative adjustment value entry to wrong Item Ledger Entry](../../../../changes/bcapps/9133.md) (code change): "Partial invoicing of non-inventory items consumed on a project"
+- [#9145 [E-Document] Show PDF preview factbox on purchase invoice pages](../../../../changes/bcapps/9145.md) (code change): "PDF preview factbox is added to purchase invoice pages to display the original invoice PDF"
 - [#9182 Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents](../../../../changes/bcapps/9182.md) (code change): "Pay-to Name 2 editability aligned with other pay-to address fields"
-- [Dynamics 365 Business Central: introducing the Payables Agent.](../../../../posts/demiliani-com/12076.md) (community post): "Payables Agent automates AP workflows by retrieving vendor invoices from email and SharePoint"
+- [Dynamics 365 Business Central: introducing the Payables Agent.](../../../../posts/demiliani-com/12076.md) (community post): "accounts payable; automation; ai agent; invoice processing; vendor invoices"
 - [Untangling Your Books: Understanding Application of Entries in Business Central](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030.md) (community post): "customer and vendor entries typically require manual or configured auto-apply rules"
 - [Business Central 2025 wave 2 (BC27.1): Use the Account Payable Role Center](../../../../posts/yzhums-com/68956.md) (community post): "new Accounts Payable Administrator Role Center that consolidates purchase documents"
 - [Dynamics 365 Business Central: Copy Comments from Vendor to Purchase Document – Customization](../../../../posts/yzhums-com/70840.md) (community post): "customize Business Central to automatically copy comments from vendor"
 - [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../../../../posts/yzhums-com/71463.md) (community post): "automatically calculates and withholds taxes from vendor payments"
-- [Business Central 2026 release wave 1 (BC28.1): Create new Purchase Invoice from PDF (Out-of-the-Box)](../../../../posts/yzhums-com/72842.md) (community post): "create purchase invoices manually from PDF files"
+- [Business Central 2026 release wave 1 (BC28.4): Speed up processing with Known Senders in Payables Agent](../../../../posts/yzhums-com/75245.md) (community post): "payables agent; email automation; vendor invoices; approval workflow; trust management"
 - [Business Central 2026 release wave 2 (BC29): Set up vendor-specific number series for self-billing invoices](../../../../posts/yzhums-com/76268.md) (community post): "Organizations can now define and assign dedicated numbering sequences per vendor"
 - [Introducing Payment Times Analysis in Business Central (2023 release wave 2)](../../../../videos/-SGaVGOkiF0.md) (video): "vendor payments; payment practices; due dates"
 - [What's New: Payables Agent (2026 release wave 1)](../../../../videos/OvI9jaA1mJY.md) (video): "One-to-one invoice and purchase order line matching; Receipt quantity validation"
 - [What's New: Enhancements in E-Documents (2025 release wave 1)](../../../../videos/Qz-V7qvOY-8.md) (video): "automated attachments; deletion functionality; e-document services. Shows: Delete incorrect E-documents"
+- [What's New: Payables Agent Update (2025 release wave 2)](../../../../videos/Xc3ISQ7NAaQ.md) (video): "payables agent; invoice processing; vendor invoices; ai-powered automation"
 
 ## Business Central pages and reports
 

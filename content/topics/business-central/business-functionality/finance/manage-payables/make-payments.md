@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -145,7 +145,8 @@ links:
   videos:
     - video/fpc_XlVEnWw
     - video/z4Ri5SAqUcc
-  posts: []
+  posts:
+    - post/yzhums-com/72842
   guidelines: []
   changes:
     - change/bcapps/10124
@@ -157,8 +158,10 @@ links:
     - change/bcapps/11436
     - change/bcapps/11567
     - change/bcapps/12762
+    - change/bcapps/12770
     - change/bcapps/13054
     - change/bcapps/13358
+    - change/bcapps/13447
     - change/bcapps/9578
     - change/bcapps/9984
 learn_toc_path:
@@ -173,7 +176,7 @@ coverage:
   learn: 9
   code: 45
   video: 2
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 39
@@ -293,10 +296,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11436 [29.X]-Purchase invoice lines of type G/L Account where enabling 'Prices Including VAT' and changing the VAT Prod. Posting Group causes recalculation of the Direct Unit Cost Incl. VAT and Line Amount - Related to Bug 632380](../../../../../changes/bcapps/11436.md) (code change): "Purchase invoice lines of type G/L Account where enabling Prices Including VAT"
 - [#11567 [29.x]Report 400 (Remittance Advice) Does Not Include Applied Vendor Refund Entries Resulting in Incorrect Total Calculation](../../../../../changes/bcapps/11567.md) (code change): "Report 400 Remittance Advice now includes applied vendor refund"
 - [#12762 [29.X]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../../../changes/bcapps/12762.md) (code change): "editing vendor ledger entries and purchase invoices, matching the behavior"
+- [#12770 [Main]-Project Ledger Entry does not get the modified amount from Purchase Order Statistics if the Purchase line is of type G/L Account in the Spanish version.](../../../../../changes/bcapps/12770.md) (code change): "Modified invoice discounts on G/L Account lines in purchase orders, even though G/L entries were correct"
 - [#13054 [FR] Delocalize delayed VAT and SEPA payment-slip integration](../../../../../changes/bcapps/13054.md) (code change): "SEPA direct debit export now supports filtered and temporary entries"
 - [#13358 [main] bug 656582 Add Maintenance Code field on purchase order subpage and purchase invoice subpage](../../../../../changes/bcapps/13358.md) (code change): "Maintenance Code field added to the Purch. Invoice Subform page"
+- [#13447 [master]"El título Importe pendiente resulta ambiguo entre varios campos de la tabla Mov. proveedor." error if you try to Create Payment for some Vendor Ledger Entries filtered by Remaining Amount <> 0 in the Spanish version.](../../../../../changes/bcapps/13447.md) (code change): "Create Payment page resolves an ambiguous field title error in the Spanish version"
 - [#9578 [E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)](../../../../../changes/bcapps/9578.md) (code change): "Remittance Advice E-Document type with data assembly, validation, and PEPPOL 3.0 export"
 - [#9984 [Main] Error with unposted prepayment amounts on Order](../../../../../changes/bcapps/9984.md) (code change): "Error with unposted prepayment amounts on Order"
+- [Business Central 2026 release wave 1 (BC28.1): Create new Purchase Invoice from PDF (Out-of-the-Box)](../../../../../posts/yzhums-com/72842.md) (community post): "Purchase invoices can now be created manually from PDF files via a new"
 - [Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central](../../../../../videos/fpc_XlVEnWw.md) (video): "Payment journals; Suggest vendor payments wizard; Vendor priority functionality"
 - [Comparing the Pay Vendor Process in Dynamics GP with Dynamics 365 Business Central (2024)](../../../../../videos/z4Ri5SAqUcc.md) (video): "Payment Journals; Suggest Vendor Payments; Vendor Priority"
 

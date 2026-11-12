@@ -1,0 +1,34 @@
+{
+  "item_id": "blog/yzhums-com/77263",
+  "page_id": "post/yzhums-com/77263",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "synchronization only connects to environments in the same Microsoft Entra tenant",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC29.1",
+        "2026 release wave 2"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "data being shared with Microsoft services that might be outside of your organization's selected geographic boundaries",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC29.1",
+        "2026 release wave 2"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005399,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "item_id": "change/bcapps-prs/13766",
+  "input_hash": "0974452c7f8a9ecb220884bb2f2ee1feee8db4f26cc805a542e93de2bec400af",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-12T00:55:54.837Z",
+  "issues": [
+    "Setting an explicit output token limit on MLLM requests changes runtime behaviour, so behavior_change should be true.",
+    "This is a configuration change to prepare for a model update rather than a user-facing feature.",
+    "The summary overstates the change: the description says the code prepares for the 5.6 model, not that it supports it."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind other",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020559,
+    "changes_in_call": 6
+  }
+}

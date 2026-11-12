@@ -1,25 +1,23 @@
 {
   "week": "2026-W46",
-  "input_hash": "863f96156967575653874586fc420d33d3556668af348447b99d83e1b69c8383",
-  "text": "The breaking change this week is #13759, which removes CLEAN27 obsolete code across W1 and regional apps, including 140 deleted AL files, so extensions that still reference those objects, such as the Advance Letter CZZ pages and table, need updating. Among behaviour changes, #9587 adds concurrent posting for General Ledger entries, touching G/L posting codeunits and ledger and register tables, though its description gives little detail. Posting and finance fixes include #13482 and #13805, which align Non-Deductible VAT amounts in purchase invoice statistics with VAT and G/L entries, #12770 for project ledger entries and modified invoice discounts, #13628 for drop shipment reference fields on receipt lines, #13861 for dispute status on Cust. Ledger Entry, and #13225 for FEC export columns. Country fixes: #13616 relaxes SWIFT code validation in Czech tables. Other fixes: #13778 for production order component dimensions from Order Planning, #13724 for warehouse picks on make-to-order subassemblies, #13855 so 0 can be saved as a decimal item attribute, #13607 for report 713 Excel export, and #13572 so cloud migration deletes the correct hybrid company. Expense Agent work covers #13499, #13730, #13672 and #12670, plus #13792, which adds a missing field without changing behaviour. Two more changes add no behaviour: #12084 adds Subcontracting telemetry, and #13765 sets a maximum output token budget for E-Document MLLM extraction.",
-  "changes": 21,
+  "input_hash": "a26f93d8a08fc8052a6dd8ff4c9c41dcc16bad572e91d59b5497fdca4c036cfa",
+  "text": "The one breaking change this week is #13759, which removes CLEAN27 obsolete code from the W1 and regional apps, including 140 deleted AL files, so extensions still using those objects need to move to the replacements. Posting and VAT fixes changed behaviour: #13805 and #13482 keep the document's allocated non-deductible VAT amounts on purchase posting, #13344 stops a credit memo copied from a posted invoice from reverting quantities on the original purchase order, #12770 carries modified invoice discounts into project ledger entries, #13628 fills drop shipment reference fields on posted receipt lines, and #13861 completes the dispute status fix on customer ledger entries. #9587 adds concurrent posting for G/L entries. Manufacturing and planning changes include #13778 on component dimensions from Order Planning, #13724 on warehouse picks for make-to-order subassemblies and #13618 on serial numbers lost during regenerative planning. #9522 adds the OnAfterIncreaseQty event. Expense Agent work covers #13760, #13672, #13730, #13499, #12670 and #13792. E-Document changes are #13822 for full XRechnung item names and #13766 and #13765 for an output token limit. Other fixes: #13572, #13641, #13447, #13855, #13739, #13616, #13607, #13225 and #13315. #13554 extends the Fabric API, and #12084 adds Subcontracting telemetry.",
+  "changes": 32,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.030954,
-  "at": "2026-11-11T00:15:47.902Z",
+  "cost_usd": 0.041254,
+  "at": "2026-11-12T00:14:43.393Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-11T00:58:04.028Z",
-    "verdict": "fix",
+    "at": "2026-11-12T00:56:15.041Z",
+    "verdict": "approve",
     "issues": [
-      "The paragraph said 'Two changes add no behaviour' (#12084, #13765), but #13792 also has no behaviour flag. It was listed with the Expense Agent work without saying so, which made the count misleading. The corrected text now marks #13792 as having no behaviour change.",
-      "Minor: #13759 also has no behaviour flag. It is already described as the breaking obsoletion, so this does not need changing."
+      "Nine fixes under 'Other fixes' (#13572, #13641, #13447, #13855, #13739, #13616, #13607, #13225, #13315) and the six Expense Agent pull requests are listed as numbers only. A few words each would make them more useful, but nothing is wrong.",
+      "#12670 is listed as Expense Agent work, but it actually changes the Expense Management role centers (activity cues). Grouping it there is acceptable."
     ],
-    "input_hash": "863f96156967575653874586fc420d33d3556668af348447b99d83e1b69c8383",
-    "cost_usd": 0.12896,
-    "applied": [
-      "text"
-    ],
+    "input_hash": "a26f93d8a08fc8052a6dd8ff4c9c41dcc16bad572e91d59b5497fdca4c036cfa",
+    "cost_usd": 0.11008799999999999,
+    "applied": [],
     "rejected_edits": []
   }
 }

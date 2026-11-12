@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:15.779Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -153,7 +153,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#8318 SharePoint Graph Module - extend functionality with additional methods](../../../changes/bcapps/8318.md) (code change): "SharePoint Graph module gains update and rename operations for drive items and list items via MS Graph PATCH endpoints"
+- [#8318 SharePoint Graph Module - extend functionality with additional methods](../../../changes/bcapps/8318.md) (code change): "SharePoint Graph module gains update and rename operations for drive items"
 - [Azure Function SQL Trigger: how to use it (and why it can be useful in your Business Central projects)](../../../posts/demiliani-com/11817.md) (community post): "Azure SQL Triggers for Azure Functions enable real-time event-driven integrations"
 - [Dynamics 365 Business Central: using a static IP address to access APIs.](../../../posts/demiliani-com/11887.md) (community post): "third-party systems require a static IP address for API calls to Business Central"
 - [Azure Logic Apps: are you handling large blobs? Keep memory usage under control.](../../../posts/demiliani-com/12002.md) (community post): "Built-in Azure Logic Apps connectors load entire files into memory"

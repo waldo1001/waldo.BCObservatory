@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: dc583f683b80cced0c41f014cc2377849c66cc61e58b88d03d8e61c32a919883
@@ -218,6 +218,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12206
+    - change/bcapps/13005
 learn_toc_path:
   - Administration
   - Cloud Migration API
@@ -273,5 +276,12 @@ Path: [Administration](../administration.md) > Cloud Migration API · tier offic
   - Step: Final step: disable replication by posting to cloudMigrationStatus disableReplication endpoint.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#12206 Track C5 migration usage consistently](../../../changes/bcapps/12206.md) (code change): "C5 2012 migration now emits standard cloud migration telemetry events"
+- [#13005 [Master Data Management] Cleanup when copying environment](../../../changes/bcapps/13005.md) (code change): "Master Data Management now performs cleanup when an environment is copied"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

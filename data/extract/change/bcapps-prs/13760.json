@@ -8,13 +8,13 @@
   ],
   "summary": "Expense Agent receipts can now be submitted and added to expense reports even when VAT accounting mappings are incomplete or missing, deferring validation to the posting stage. The agent preserves extracted VAT specifications and leaves reclaim pending for accountant review instead of requiring employees to resolve configuration issues.",
   "key_points": [
-    "VAT posting group and setup validation moves from submission to posting for approved reclaim specifications",
-    "Agent-authored VAT specifications are preserved and can be inserted when no default VAT business posting group exists",
-    "Pending reclaim blocks posting; rejected reclaim posts as gross expense without VAT entry",
-    "Existing manual-specification validation on category cards remains unchanged",
-    "Added integration tests covering submission without VAT setup, differing business groups, and accountant correction workflows"
+    "VAT posting group and posting setup checks move from receipt submission to posting for approved reclaim specifications",
+    "Extracted VAT specifications, such as 25% against a 20% category default, are kept with reclaim pending for accountant review",
+    "Agent-authored specifications can be inserted when no default VAT business posting group exists",
+    "Pending reclaim blocks posting; rejected reclaim posts as a gross expense without a VAT entry",
+    "Manual-specification validation and deferred checks for legacy lines without VAT specifications are unchanged"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

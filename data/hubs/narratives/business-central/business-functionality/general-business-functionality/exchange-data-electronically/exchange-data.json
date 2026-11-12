@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/general-business-functionality/exchange-data-electronically/exchange-data",
-  "input_hash": "2467e4e8d833a5ccdf92f0946572a3d401f3f10ddd92fecf5200ed759a0763be",
-  "summary": "Electronic data exchange in Business Central: data exchange definitions, bank file import and export (SEPA, AMC Banking 365 Fundamentals, Yodlee feeds), SEPA direct debit, and sending or receiving PEPPOL and OCR e-documents. It answers setup and field-mapping questions for these tasks.",
-  "overview": "This section covers how Business Central exchanges data with external files and services. The base is the data exchange framework: definitions in XML, delimited, fixed-width, or JSON formats, with line and column definitions, field mapping, and transformation rules. The \"Exchanging data\" page gives the general picture and notes that the framework and related areas must be set up before processing.\n\nThe other pages apply the framework to business tasks. For banking, there are pages on vendor payments by SEPA Credit Transfer or AMC Banking 365 Fundamentals, SEPA Direct Debit collections with mandates, Yodlee bank feeds, and field mappings for payment file export and SEPA CAMT import. For documents, there are pages on sending PEPPOL invoices and credit memos, receiving and converting PEPPOL and OCR documents, and using OCR to turn PDFs into e-invoices.\n\nStart with \"Exchanging data\" and \"Define how data is exchanged electronically\", then go to the page for your task. Check the version notes: sending e-documents is described for versions before 2023 release wave 2, and receiving and converting is described for 2023 release wave 2.",
+  "input_hash": "84fa14177ccd170c26991730cab1926aa2dead0b46d903ecbddfcc8ef37a5864",
+  "summary": "Electronic data exchange in Business Central: data exchange definitions, bank file import and export (SEPA CAMT, SEPA Credit Transfer, SEPA Direct Debit, AMC Banking 365 Fundamentals), Yodlee bank feeds, OCR, and sending or receiving PEPPOL documents. It answers setup and field-mapping questions.",
+  "overview": "This area covers how Business Central exchanges data with external files and services. The base is the data exchange framework, where definitions describe file formats (XML, delimited, fixed-width, JSON) through line and column definitions, field mapping and transformation rules. The \"Exchanging data\" page gives the overview and notes that the framework and related areas must be set up before processing.\n\nBanking pages cover paying vendors with AMC Banking (US) or SEPA credit transfer (EU), collecting customer payments with SEPA Direct Debit, importing SEPA CAMT statements for reconciliation, and automatic statement import with Yodlee bank feeds. Two reference pages document field mapping for payment file export and CAMT import.\n\nDocument pages cover sending and receiving PEPPOL invoices and credit memos through a document exchange service, and using OCR to turn PDF and image files into electronic documents and purchase invoices. The send and receive pages apply to versions before 2023 release wave 2. Start with \"Exchanging data\", then go to the page for your task.",
   "key_points": [
-    "Data exchange definitions support XML, delimited, fixed-width, and JSON files, with line definitions, column definitions, field mapping, transformation rules, and field grouping.",
-    "Vendor payments can be made by exporting SEPA Credit Transfer files or by using the AMC Banking 365 Fundamentals extension (US/EFT).",
-    "A field mapping page covers export to bank payment files with AMC Banking 365 Fundamentals, including IBAN and SWIFT code mapping from bank accounts, journal lines, customers, and vendors.",
-    "A field mapping page covers SEPA CAMT import for bank statements and payment reconciliation, including transaction ID verification and automatic payment application.",
-    "SEPA Direct Debit collects customer payments in EURO and needs export formats, payment methods, and mandates. Collection entries are exported as XML to the bank.",
-    "Yodlee bank feeds import bank statements into the Payment Reconciliation Journal about every two hours in supported regions.",
-    "Receiving PEPPOL and OCR invoices and credit memos creates purchase documents, using text-to-account mapping, and is described for 2023 release wave 2.",
-    "Sending PEPPOL sales invoices and credit memos through a document exchange service is described for pre-2023 release wave 2 versions."
+    "Data exchange definitions support XML, delimited, fixed-width and JSON files, with column and line definitions, field mapping, transformation rules and field grouping.",
+    "Vendor payments are exported as SEPA Credit Transfer files or through the AMC Banking 365 Fundamentals extension (EFT, bank data conversion).",
+    "SEPA Direct Debit needs an export format, payment methods and mandates; collection entries export an XML file to the bank for EURO collections.",
+    "SEPA CAMT import mapping covers bank statement lines, transaction ID verification and automatic payment application.",
+    "Payment export field mapping draws from bank accounts, general journal lines, customers and vendors, including IBAN and SWIFT codes.",
+    "Yodlee bank feeds import statements into the Payment Reconciliation Journal about every two hours in supported regions.",
+    "Sending and receiving PEPPOL invoices and credit memos through a document exchange service is described for versions before 2023 release wave 2.",
+    "OCR can be sent from the Incoming Documents page or by email, and recognized data can be corrected, mapped to G/L accounts and trained before creating purchase invoices."
   ],
   "members_used": 10,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-07T01:05:36.822Z",
+  "at": "2026-11-12T00:56:44.293Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.021916
+    "cost_usd": 0.018353
   }
 }

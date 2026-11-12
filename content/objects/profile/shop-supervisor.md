@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:47:35.044Z"
+  at: "2026-11-12T00:45:23.971Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9ef57f530e60ce37729522e395650b5d353767092019b9ed202da7285108f720
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSupervisor.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSupervisor.Profile.al
     title: src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSupervisor.Profile.al (releases/29.x)
     date: null
-    commit: 2c932722a2917f4592f1541d4d85dc247c8942ac
+    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "SHOP SUPERVISOR" in Base Application (Microsoft.Manufacturing.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Manufacturing.RoleCenters · captioned "Shop Supervisor - Manufacturing Comprehensive" · BC23-30 · [source at 2c932722](https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSupervisor.Profile.al) · facts from BC29
+Base Application · Microsoft.Manufacturing.RoleCenters · captioned "Shop Supervisor - Manufacturing Comprehensive" · BC23-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ShopSupervisor.Profile.al) · facts from BC29
 
 ## Properties
 

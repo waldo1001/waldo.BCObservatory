@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/9522",
+  "input_hash": "66c3dcf16a41b52d5ca1ab6e324eebb388b0db034977200c9cebf23e1be66774",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-12T00:55:54.837Z",
+  "issues": [
+    "Adding an event subscriber hook does not change runtime behaviour, so behavior_change should be false.",
+    "The key point about line counts adds nothing useful.",
+    "The meaning of the event comes only from its name, so the wording should stay cautious."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020559,
+    "changes_in_call": 6
+  }
+}

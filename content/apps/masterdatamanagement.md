@@ -2,7 +2,7 @@
 id: app/masterdatamanagement
 type: app
 title: MasterDataManagement
-summary: "MasterDataManagement (Microsoft.Integration): 55 objects in BC29-30 (20 codeunits, 8 permission set extensions, 7 table extensions, 5 pages, 5 permission sets, ...); documented by 1 Learn hub; 1 video."
+summary: "MasterDataManagement (Microsoft.Integration): 55 objects in BC29-30 (20 codeunits, 8 permission set extensions, 7 table extensions, 5 pages, 5 permission sets, ...); documented by 1 Learn hub; 1 video, 1 post."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-11-12T00:48:49.042Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8adbec861faf42715d5d1bcaaed1733ead8ab2737c729973d4c4025816d75355
+  input_hash: 37f866d445837952ec75e20223685d19696222a8e4a0b4161572bbf172135d98
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/MasterDataManagement/app
@@ -91,7 +91,8 @@ links:
   localizations: []
   videos:
     - video/BlkW7VC52c0
-  posts: []
+  posts:
+    - post/yzhums-com/77263
   guidelines: []
 app: MasterDataManagement
 namespace_root: Microsoft.Integration
@@ -113,12 +114,12 @@ counts:
     enumextension: 1
   hubs: 1
   videos: 1
-  posts: 0
+  posts: 1
 ---
 
 # MasterDataManagement
 
-> MasterDataManagement (Microsoft.Integration): 55 objects in BC29-30 (20 codeunits, 8 permission set extensions, 7 table extensions, 5 pages, 5 permission sets, ...); documented by 1 Learn hub; 1 video.
+> MasterDataManagement (Microsoft.Integration): 55 objects in BC29-30 (20 codeunits, 8 permission set extensions, 7 table extensions, 5 pages, 5 permission sets, ...); documented by 1 Learn hub; 1 video, 1 post.
 
 First-party app · folder `src/Apps/W1/MasterDataManagement/app` · namespace `Microsoft.Integration` · BC29-30 · system integration · facts from the code pillar and the joins, nothing machine-written
 
@@ -241,6 +242,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 Videos and posts that name this app's objects by exact type and name.
 
+- [Business Central 2026 release wave 2 (BC29.1): Cross-environment Master Data Management](../posts/yzhums-com/77263.md) (community post, 2026-11-11): names Permission set 7242 "MDM Cross-Env Read"
 - [Copy Data Between Companies in Business Central (2 Built-In Methods You're Probably Missing)](../videos/BlkW7VC52c0.md) (video, 2025-10-06): names Page 7230 "Master Data Management Setup"
 
 Source: [src/Apps/W1/MasterDataManagement/app](https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/MasterDataManagement/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

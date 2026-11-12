@@ -6,12 +6,12 @@ summary: The Get started section of Business Central orients partners and newcom
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-12T00:57:40.555Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -383,7 +383,7 @@ narrative: generated
 
 > The Get started section of Business Central orients partners and newcomers. It covers product orientation, app development and publishing, reselling and onboarding, short FAQ answers, and help and support. Use it to find where a topic lives and answer first-step questions.
 
-Path: Get started · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: Get started · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

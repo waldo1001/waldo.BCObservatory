@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13618",
+  "input_hash": "068c3e4d9ea3446ab344fe2adc0e9bf8598351b15f9f0bda53a243dd5ef58012",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-12T00:55:49.544Z",
+  "issues": [
+    "Description is only a work item link; summary follows the title and the changed Assembly Line Invt. Profile codeunit plus W1 and IT tests. The point about preserving tracking during profile calculation is a reasonable reading of the +66 lines in that codeunit."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019439,
+    "changes_in_call": 5
+  }
+}

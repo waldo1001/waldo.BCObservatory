@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,9 +48,6 @@ links:
     - post/yzhums-com/69433
     - post/yzhums-com/69812
   guidelines: []
-  changes:
-    - change/bcapps/11555
-    - change/bcapps/8051
 learn_toc_path:
   - Integration
   - Integrating Business Central with Office apps and Microsoft 365
@@ -98,12 +95,10 @@ The section has two pages. The first, "Business Central and OneDrive for Busines
 - [Extending Document Sharing and OneDrive for Business](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-document-sharing-onedrive): Learn how the document sharing capability is used with OneDrive for Business, and how you can extend it.
   - In the observatory: [Codeunit 9510 "Document Service Management"](../../../../objects/codeunit/9510.md), [Codeunit 9560 "Document Sharing"](../../../../objects/codeunit/9560.md), [Table 9560 "Document Sharing"](../../../../objects/table/9560.md)
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#11555 [SharePoint Graph] Follow-up corrections for UpdateListItem and drive item telemetry](../../../../changes/bcapps/11555.md) (code change): "SharePoint Graph client corrections preserve unmodified fields during UpdateListItem operations"
-- [#8051 [Edit in Excel] Expose ExternalizeODataObjectName and add Page Control Field publisher](../../../../changes/bcapps/8051.md) (code change): "Enables integration with Edit in Excel without forking internal conversion logic"
 - [Dynamics 365 Business Central Blog Series: Integrate Business Central with OneDrive](../../../../posts/yzhums-com/63749.md) (community post): "File operations between Business Central and OneDrive can be performed using AL code with Graph API"
 - [Dynamics 365 Business Central: How to disable/hide OneDrive action group for all users](../../../../posts/yzhums-com/63803.md) (community post): "disable or hide OneDrive action groups in Dynamics 365 Business Central for all users"
 - [Dynamics 365 Business Central: How to use Open in Excel in the browser/web (Excel Online)](../../../../posts/yzhums-com/69433.md) (community post): "When OneDrive for system features is enabled, the Excel workbook opens directly in Excel for the web"

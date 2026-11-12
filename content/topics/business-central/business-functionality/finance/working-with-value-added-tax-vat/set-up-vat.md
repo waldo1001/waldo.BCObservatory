@@ -2,47 +2,40 @@
 id: topic/business-central/business-functionality/finance/working-with-value-added-tax-vat/set-up-vat
 type: topic
 title: Set up VAT
-summary: "Set up VAT in Business Central: VAT rates, posting groups, registration numbers, clauses, VAT statements, nondeductible VAT and unrealized VAT. It answers configuration questions about how VAT is calculated, posted to G/L accounts and reported."
+summary: "Setting up VAT in Business Central: VAT rates, posting groups, registration numbers, clauses, nondeductible VAT, unrealized VAT for cash-based accounting, and VAT statement templates and names. It answers configuration questions about how VAT is calculated, posted and reported."
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:23:50.033Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 8c8b80aa54741b14328fdc341f62c1d741c2eebe1c991493ec2d0e480e410857
+  input_hash: 9bd25d10313ea578a988957b4877a7a6d7232e34fe4b95fdd92b7a7ef20c148a
 evidence:
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups
-    title: Posting group setup
-    date: "2025-08-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-vat-statement
-    title: Set up a VAT statement
-    date: "2024-08-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-setup-nondeductible-vat
-    title: Set up nondeductible VAT
-    date: "2024-08-13"
+    title: Set Up Nondeductible VAT in Business Central
+    date: "2026-11-11"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups
+    title: Set Up Posting Groups in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat
-    title: Set up unrealized value added tax
-    date: "2024-08-13"
+    title: Set Up Unrealized VAT for Cash-Based Accounting
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -53,13 +46,20 @@ evidence:
     commit: null
     t: null
     quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-vat-statement
+    title: Set Up VAT Statement Templates and Names
+    date: "2026-11-11"
+    commit: null
+    t: null
+    quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups
-    - https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-vat-statement
     - https://learn.microsoft.com/dynamics365/business-central/finance-setup-nondeductible-vat
+    - https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups
     - https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat
     - https://learn.microsoft.com/dynamics365/business-central/finance-setup-vat
+    - https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-vat-statement
   objects:
     - object/page/10
     - object/page/118
@@ -137,39 +137,37 @@ narrative: generated
 
 # Set up VAT
 
-> Set up VAT in Business Central: VAT rates, posting groups, registration numbers, clauses, VAT statements, nondeductible VAT and unrealized VAT. It answers configuration questions about how VAT is calculated, posted to G/L accounts and reported.
+> Setting up VAT in Business Central: VAT rates, posting groups, registration numbers, clauses, nondeductible VAT, unrealized VAT for cash-based accounting, and VAT statement templates and names. It answers configuration questions about how VAT is calculated, posted and reported.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Working with Value Added Tax (VAT)](../working-with-value-added-tax-vat.md) > Set up VAT · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Working with Value Added Tax (VAT)](../working-with-value-added-tax-vat.md) > Set up VAT · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the configuration needed before VAT can be calculated, posted and reported. The base page, "Set up value-added tax", explains VAT calculations, VAT posting groups, registration numbers, clauses, VAT date and reverse charge VAT, based on customers, vendors, items and purchase or sale types. "Posting group setup" covers how general, specific and tax posting groups map entities to general ledger accounts.
+This section covers the setup tasks needed before VAT can be calculated, posted and settled. The core page, "Set up value-added tax", explains VAT calculations, VAT posting groups, registration numbers, clauses, VAT date and reverse charge VAT, based on customers, vendors, items and purchase or sale types.
 
-The other pages handle specific cases. "Set up a VAT statement" defines templates and names used to calculate settlement amounts and reconcile VAT entries with G/L accounts. "Set up nondeductible VAT" covers VAT that a purchaser can't deduct. "Set up unrealized value added tax" covers cash-based VAT accounting with temporary G/L accounts.
+The other pages handle specific areas. Posting groups map customers, vendors, items, resources and documents to general ledger accounts so transactions post automatically. Nondeductible VAT and unrealized VAT cover VAT that cannot be recovered and VAT for cash-based methods. VAT statement templates and names define how VAT settlement amounts are calculated for a period.
 
-Start with "Set up value-added tax" and "Posting group setup" for the core configuration. Then add the VAT statement, nondeductible VAT or unrealized VAT pages as your requirements call for them.
+Start with the general VAT setup page and the posting groups page, since the other setups build on them. Then add nondeductible VAT, unrealized VAT or VAT statements as your VAT rules require.
 
 ## Key points
 
-- Set up value-added tax covers VAT rates, VAT posting groups, registration numbers, clauses, VAT date and reverse charge VAT (page lists version 23.1).
-- Posting group setup covers general, specific and tax posting groups, alternative and multiple posting groups, and G/L account validation, with examples and troubleshooting.
-- VAT statements use templates and names, with VAT entry, account and row totaling, and can be previewed to check settlement amounts.
-- VAT statements handle unrealized VAT and help reconcile VAT entries with general ledger accounts.
-- Nondeductible VAT is enabled in setup. You choose whether it applies to item, fixed asset and job cost, and set accounts and percentages in VAT Posting Setup.
-- Nondeductible VAT options include Show Non-Ded. VAT In Lines and Allow Non-Deductible VAT.
-- Unrealized VAT supports cash-based methods. It uses temporary G/L accounts until payment is posted, with percentage and payment allocation methods, VAT transfer and foreign currency support.
+- Set up value-added tax covers VAT rates, VAT posting groups, registration numbers, VAT clauses, VAT date and reverse charge VAT (version 23.1 noted).
+- Posting groups include general business, general product, general posting setups, customer, vendor and inventory groups, which map entities to G/L accounts.
+- Nondeductible VAT options: Enable Non-Deductible VAT, Use For Item Cost, Use For Fixed Asset Cost, Use For Project Cost, Show Non-Ded. VAT In Lines, Allow Non-Deductible VAT.
+- Unrealized VAT is enabled with a checkbox in General Ledger Setup, plus temporary G/L accounts and mappings in VAT Posting Setup.
+- Unrealized VAT Type allocation options include Percentage, First, Last and First (Fully Paid).
+- VAT statement templates and multiple names let you adapt to changing tax authority requirements and keep historical formats.
+- VAT statement rows can use VAT Entry Totaling, Account Totaling or Row Totaling.
 
 ## Learn pages
 
-- [Posting group setup](https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups): Learn how to use posting groups to save time and avoid mistakes when you post transactions.
-  - In the observatory: [Page 110 "Customer Posting Groups"](../../../../../objects/page/110.md), [Page 111 "Vendor Posting Groups"](../../../../../objects/page/111.md), [Page 112 "Inventory Posting Groups"](../../../../../objects/page/112.md), [Page 314 "General Posting Setup"](../../../../../objects/page/314.md), [Page 373 "Bank Account Posting Groups"](../../../../../objects/page/373.md), [Page 5233 "Human Resources Setup"](../../../../../objects/page/5233.md)
-- [Set up a VAT statement](https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-vat-statement): This article tells you how to set Up a VAT Statement Template and VAT Statement Names to meet changing tax authority requirements.
-  - In the observatory: [Report 11 "G/L - VAT Reconciliation"](../../../../../objects/report/11.md)
-- [Set up nondeductible VAT](https://learn.microsoft.com/dynamics365/business-central/finance-setup-nondeductible-vat): This article explains how to configure nondeductible VAT in Microsoft Dynamics 365 Business Central.
-  - In the observatory: [Table 189 "VAT Setup"](../../../../../objects/table/189.md), [Table 325 "VAT Posting Setup"](../../../../../objects/table/325.md)
-- [Set up unrealized value added tax](https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat): If you're using cash-based accounting, you can specify how to handle unrealized VAT for sales and purchases.
+- [Set Up Nondeductible VAT in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-setup-nondeductible-vat): Set up nondeductible VAT in Business Central, specify the percentage of VAT you can't deduct, and choose how to post amounts and include them in costs.
+- [Set Up Posting Groups in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups): Set up posting groups in Business Central to map transactions to G/L accounts, allow alternative groups, and troubleshoot missing account setup.
+  - In the observatory: [Page 110 "Customer Posting Groups"](../../../../../objects/page/110.md), [Page 111 "Vendor Posting Groups"](../../../../../objects/page/111.md), [Page 112 "Inventory Posting Groups"](../../../../../objects/page/112.md), [Page 1518 "My Notifications"](../../../../../objects/page/1518.md), [Page 314 "General Posting Setup"](../../../../../objects/page/314.md), [Page 373 "Bank Account Posting Groups"](../../../../../objects/page/373.md)
+- [Set Up Unrealized VAT for Cash-Based Accounting](https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat): Set up unrealized VAT in Business Central for cash-based accounting, choose how payments realize VAT, and assign temporary sales and purchase VAT accounts.
 - [Set up value-added tax](https://learn.microsoft.com/dynamics365/business-central/finance-setup-vat): Make sure that you correctly calculate, post, and report on VAT for sales and purchases. We recommend that you use the assisted setup guide to set up VAT.
   - In the observatory: [Page 119 "User Setup"](../../../../../objects/page/119.md), [Page 16 "Chart of Accounts"](../../../../../objects/page/16.md), [Page 187 "VAT Setup"](../../../../../objects/page/187.md)
+- [Set Up VAT Statement Templates and Names](https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-vat-statement): Set up VAT statement templates and names in Business Central, define how rows calculate VAT, and preview the statement for a reporting period.
 
 ## Videos, posts and code changes
 

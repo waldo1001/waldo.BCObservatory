@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13554",
+  "input_hash": "10f7ae0f55df146802979d4d9b2eb5e8d81f855d1294a86a107e7575e534017c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-12T00:55:49.544Z",
+  "issues": [
+    "Summary and key points match the description (reset table, remove table, import config package via API) and the changed files, including the new test codeunit."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019439,
+    "changes_in_call": 5
+  }
+}

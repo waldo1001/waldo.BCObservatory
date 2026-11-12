@@ -2,26 +2,26 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis
 type: topic
 title: Ad-hoc data analysis
-summary: Ad-hoc data analysis in Business Central covers analyzing data directly from pages and lists without standard reports. It answers questions about sorting, searching, filtering, saved list views, data analysis mode with pivot, Excel open and edit, and exporting report datasets to Excel or XML.
+summary: "Ad-hoc data analysis in Business Central covers ways to explore data beyond standard reports: sorting, searching, filtering, saved list views, Excel export and editing, the data analysis mode on lists and queries, and report dataset export. It answers how-to questions about each method."
 tier: official
 language: en
 system: reporting
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:21:53.461Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 2773c6d6659820cc3266c4b7b93d469264f37bb1f956f58e641dd72c5cbcc9a5
+  input_hash: 9c76ee25d54aafb74ffe79c5687eaed17a4ad0dddc49882bcb2034eff75be6ea
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-adhoc-analysis
-    title: Ad-hoc data analysis
-    date: "2024-04-30"
+    title: Ad Hoc Data Analysis in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -172,30 +172,31 @@ narrative: generated
 
 # Ad-hoc data analysis
 
-> Ad-hoc data analysis in Business Central covers analyzing data directly from pages and lists without standard reports. It answers questions about sorting, searching, filtering, saved list views, data analysis mode with pivot, Excel open and edit, and exporting report datasets to Excel or XML.
+> Ad-hoc data analysis in Business Central covers ways to explore data beyond standard reports: sorting, searching, filtering, saved list views, Excel export and editing, the data analysis mode on lists and queries, and report dataset export. It answers how-to questions about each method.
 
-Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Ad-hoc data analysis · tier official · system reporting · narrative reviewed (checked by Opus)
+Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Ad-hoc data analysis · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Ad-hoc data analysis is about exploring Business Central data straight from list pages and queries, instead of building or running a report. The tools range from basic ones (sort, search, filter, saved list views) to data analysis mode and Excel-based options.
+Ad-hoc data analysis is the set of tools for looking at Business Central data without building or running a standard report. The methods range from simple (sort, search, filter) to interactive (data analysis mode with columns, grouping, and pivot) to external (Open in Excel, Edit in Excel, Copilot in Excel).
 
-Start with the overview page, then read the page on sorting, searching and filtering, which sets the base for everything else. Next, look at saving and personalizing list views, and at data analysis mode for grouping and pivoting. For work outside Business Central, use the Excel pages: Open in Excel and Edit in Excel for list data, and the Excel and XML export for report datasets. That export suits developers and advanced users who troubleshoot reports. A functional-area page links to analysis resources for specific areas.
+The pages fit together as a progression. Start with the overview page, "Ad Hoc Data Analysis in Business Central", which introduces each method. Then go to the page on sorting, searching, and filtering for the basics, followed by saved list views for reusing filter setups. The data analysis page covers analysis on list pages and queries, and the Excel page covers exporting or editing data there.
+
+Developers and advanced users have a separate page on exporting report datasets to Excel or XML, which helps with diagnosing issues while creating or changing reports. The "by functional area" page is a hub that links to general analysis guidance and analytics resources.
 
 ## Key points
 
-- Sorting, searching and filtering are the base tools. Filters support operators (>, <, =, <>, |, .., &, *, ?) and tokens such as %me, %user, %mycustomers, %myitems and %myvendors.
-- Search comes in a modern word-matching mode and a legacy exact-matching mode.
-- List views save filter setups. You can rename, remove, personalize and bookmark them on the Role Center, and they are reusable across devices.
-- Data analysis mode works on list page and query data. It has a Columns pane, an Analysis Filters pane, row groups, pivot mode and date hierarchies. You can add fields from related tables and keep several analysis views.
-- Analysis views can be bookmarked to the Role Center.
-- Open in Excel and Edit in Excel let you export list data, or change it and publish it back to Business Central. They support filters, the Excel add-in and multiple environments.
-- Report datasets can be exported as data-only Excel workbooks or XML files. The Excel export includes a report metadata worksheet and filter information.
-- A page of links points to ad-hoc analysis resources by functional area.
+- Sorting and filtering supports ascending and descending sort, modern word-matching search, legacy exact-match search, and filter operators (>, <, =, <>, |, .., &, *, ?).
+- Filter tokens such as %me, %user, %mycustomers, %myitems, and %myvendors are available for filters.
+- List views are saved filter configurations that can be renamed, removed, personalized, and bookmarked on the Role Center.
+- Data analysis mode on list pages and queries offers a Columns pane, an Analysis Filters pane, row groups, pivot mode, and date hierarchies, without running a report.
+- In data analysis you can add fields from related tables and bookmark analysis views to your Role Center.
+- Open in Excel and Edit in Excel export lists; Edit in Excel can publish changes back, and Copilot in Excel can help with data cleaning and preparation.
+- Report datasets can be exported to Excel (data only) or XML, with a Report Metadata worksheet in Excel, to inspect data and diagnose report issues.
 
 ## Learn pages
 
-- [Ad-hoc data analysis](https://learn.microsoft.com/dynamics365/business-central/reports-adhoc-analysis): Provides an overview of features that support ad-hoc data analyses in Business Central.
+- [Ad Hoc Data Analysis in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports-adhoc-analysis): Find ways to analyze Business Central data beyond standard reports, including list filters, saved views, analysis mode, and exports to Excel.
 - [Ad-Hoc Data Analysis by Functional Area](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-data-analysis-by-functional-area): Find guidance for analyzing Business Central data by functional area, including finance, sales, purchasing, inventory, sustainability, and auditing.
 - [Analyze list page and query data using data analysis](https://learn.microsoft.com/dynamics365/business-central/analysis-mode): Learn how to use the analysis mode in Business Central to analyze data.
 - [Analyze Report Datasets with Excel and XML](https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel): Learn how to export Business Central report datasets to Excel or XML, inspect raw report data, and give users permission to export datasets.

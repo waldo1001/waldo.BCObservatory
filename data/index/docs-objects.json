@@ -2,11 +2,11 @@
   "inputs": {
     "commits": {
       "28": "70915dedd33ff568c5fdef4cf5296862d9399141",
-      "29": "2c932722a2917f4592f1541d4d85dc247c8942ac",
+      "29": "888eb4c9e31b4ccec32b4a0402d2d7272ac070bc",
       "30": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
     },
-    "forms": 1733,
-    "forms_hash": "f1915db54720eb220e970e312dc79da652b8be6bbc3e72a74b5cd8bc3835c5aa"
+    "forms": 1734,
+    "forms_hash": "b0e317b0b5121e18109526b7e72d498524814abd124fd35b8ff965b4816e3145"
   },
   "majors": [
     "28",
@@ -15,11 +15,11 @@
   ],
   "commits": {
     "28": "70915dedd33ff568c5fdef4cf5296862d9399141",
-    "29": "2c932722a2917f4592f1541d4d85dc247c8942ac",
+    "29": "888eb4c9e31b4ccec32b4a0402d2d7272ac070bc",
     "30": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
   },
-  "docs": 1597,
-  "links": 5348,
+  "docs": 1598,
+  "links": 5349,
   "by_doc": {
     "docs/learn-devitpro/dev-itpro/administration/apply-company-configuration-packages.md": [
       {
@@ -70819,6 +70819,21 @@
         "obsolete": null
       }
     ],
+    "docs/learn-smb-docs/business-central/year-close-books.md": [
+      {
+        "key": "page/100",
+        "name": "Accounting Periods",
+        "versions": [
+          "28",
+          "29",
+          "30"
+        ],
+        "countries": [
+          "w1"
+        ],
+        "obsolete": null
+      }
+    ],
     "docs/learn-smb-docs/business-central/year-close-years-periods.md": [
       {
         "key": "page/100",
@@ -70993,7 +71008,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-work-with-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-work-with-vat",
-        "title": "How to work with VAT on sales and purchases",
+        "title": "Work with VAT on Sales and Purchases",
         "via": "ms.search.form"
       },
       {
@@ -71873,7 +71888,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-to-eu3party-trade-purchase.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-eu3party-trade-purchase",
-        "title": "EU third-party purchase transactions",
+        "title": "Use EU Third-Party Purchase Transactions",
         "via": "ms.search.form"
       },
       {
@@ -71885,7 +71900,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-use-non-deductible-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat",
-        "title": "Use non-deductible VAT",
+        "title": "Use Nondeductible VAT in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -71953,7 +71968,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-to-eu3party-trade-purchase.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-eu3party-trade-purchase",
-        "title": "EU third-party purchase transactions",
+        "title": "Use EU Third-Party Purchase Transactions",
         "via": "ms.search.form"
       },
       {
@@ -71971,7 +71986,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-use-non-deductible-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat",
-        "title": "Use non-deductible VAT",
+        "title": "Use Nondeductible VAT in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -72033,13 +72048,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-to-eu3party-trade-purchase.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-eu3party-trade-purchase",
-        "title": "EU third-party purchase transactions",
+        "title": "Use EU Third-Party Purchase Transactions",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-use-non-deductible-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat",
-        "title": "Use non-deductible VAT",
+        "title": "Use Nondeductible VAT in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -72273,9 +72288,15 @@
         "via": "ms.search.form"
       },
       {
+        "id": "docs/learn-smb-docs/business-central/year-close-books.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/year-close-books",
+        "title": "Close the Books",
+        "via": "ms.search.form"
+      },
+      {
         "id": "docs/learn-smb-docs/business-central/year-close-years-periods.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/year-close-years-periods",
-        "title": "Close fiscal years and accounting periods",
+        "title": "Close Years and Periods",
         "via": "ms.search.form"
       },
       {
@@ -72575,7 +72596,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-manage-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
-        "title": "Value Added Tax management overview",
+        "title": "VAT Management Overview in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -72617,7 +72638,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-setup-unrealized-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat",
-        "title": "Set up unrealized value added tax",
+        "title": "Set Up Unrealized VAT for Cash-Based Accounting",
         "via": "ms.search.form"
       },
       {
@@ -72629,7 +72650,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-work-with-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-work-with-vat",
-        "title": "How to work with VAT on sales and purchases",
+        "title": "Work with VAT on Sales and Purchases",
         "via": "ms.search.form"
       },
       {
@@ -72723,7 +72744,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-work-with-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-work-with-vat",
-        "title": "How to work with VAT on sales and purchases",
+        "title": "Work with VAT on Sales and Purchases",
         "via": "ms.search.form"
       },
       {
@@ -72831,7 +72852,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-work-with-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-work-with-vat",
-        "title": "How to work with VAT on sales and purchases",
+        "title": "Work with VAT on Sales and Purchases",
         "via": "ms.search.form"
       },
       {
@@ -72969,7 +72990,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-use-non-deductible-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat",
-        "title": "Use non-deductible VAT",
+        "title": "Use Nondeductible VAT in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -73075,19 +73096,19 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-to-eu3party-trade-purchase.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-eu3party-trade-purchase",
-        "title": "EU third-party purchase transactions",
+        "title": "Use EU Third-Party Purchase Transactions",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-use-non-deductible-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat",
-        "title": "Use non-deductible VAT",
+        "title": "Use Nondeductible VAT in Business Central",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/finance-setup-nondeductible-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-nondeductible-vat",
-        "title": "Set up nondeductible VAT",
+        "title": "Set Up Nondeductible VAT in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -73101,7 +73122,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchasing-how-to-receive-and-convert-electronic-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents",
-        "title": "Receive and convert electronic documents",
+        "title": "Receive and Convert Electronic Documents",
         "via": "ms.search.form"
       }
     ],
@@ -73109,7 +73130,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchasing-how-to-receive-and-convert-electronic-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents",
-        "title": "Receive and convert electronic documents",
+        "title": "Receive and Convert Electronic Documents",
         "via": "ms.search.form"
       }
     ],
@@ -73117,7 +73138,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchasing-how-to-receive-and-convert-electronic-documents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents",
-        "title": "Receive and convert electronic documents",
+        "title": "Receive and Convert Electronic Documents",
         "via": "ms.search.form"
       }
     ],
@@ -73351,7 +73372,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-use-multiple-vat-registrations.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-multiple-vat-registrations",
-        "title": "Multiple VAT registration numbers",
+        "title": "Use Multiple Customer VAT Registration Numbers",
         "via": "ms.search.form"
       }
     ],
@@ -73671,7 +73692,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/year-allocate-costs-income.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income",
-        "title": "Overview of tasks to allocate costs and income",
+        "title": "Allocate Recurring Costs and Income",
         "via": "ms.search.form"
       }
     ],
@@ -73761,7 +73782,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-use-multiple-vat-registrations.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-multiple-vat-registrations",
-        "title": "Multiple VAT registration numbers",
+        "title": "Use Multiple Customer VAT Registration Numbers",
         "via": "ms.search.form"
       },
       {
@@ -73783,7 +73804,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-report-selections.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-report-selections",
-        "title": "Report selection in Business Central",
+        "title": "Report Selection for Documents in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -73791,7 +73812,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-report-selections.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-report-selections",
-        "title": "Report selection in Business Central",
+        "title": "Report Selection for Documents in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -73897,7 +73918,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-posting-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups",
-        "title": "Posting group setup",
+        "title": "Set Up Posting Groups in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -73917,7 +73938,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-posting-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups",
-        "title": "Posting group setup",
+        "title": "Set Up Posting Groups in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -73963,7 +73984,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-setup-vat-statement.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-vat-statement",
-        "title": "Set up a VAT statement",
+        "title": "Set Up VAT Statement Templates and Names",
         "via": "ms.search.form"
       },
       {
@@ -74013,19 +74034,19 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-setup-vat-statement.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-vat-statement",
-        "title": "Set up a VAT statement",
+        "title": "Set Up VAT Statement Templates and Names",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-to-eu3party-trade-purchase.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-eu3party-trade-purchase",
-        "title": "EU third-party purchase transactions",
+        "title": "Use EU Third-Party Purchase Transactions",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-use-non-deductible-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat",
-        "title": "Use non-deductible VAT",
+        "title": "Use Nondeductible VAT in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -74045,7 +74066,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-setup-vat-statement.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-vat-statement",
-        "title": "Set up a VAT statement",
+        "title": "Set Up VAT Statement Templates and Names",
         "via": "ms.search.form"
       }
     ],
@@ -74053,7 +74074,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-setup-vat-statement.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-vat-statement",
-        "title": "Set up a VAT statement",
+        "title": "Set Up VAT Statement Templates and Names",
         "via": "ms.search.form"
       },
       {
@@ -74207,7 +74228,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-report-selections.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-report-selections",
-        "title": "Report selection in Business Central",
+        "title": "Report Selection for Documents in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -74381,7 +74402,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-define-check-layouts.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-define-check-layouts",
-        "title": "Specify the Layout of a Check",
+        "title": "Select a Check Layout in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -74435,7 +74456,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-report-selections.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-report-selections",
-        "title": "Report selection in Business Central",
+        "title": "Report Selection for Documents in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -74519,7 +74540,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-use-non-deductible-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat",
-        "title": "Use non-deductible VAT",
+        "title": "Use Nondeductible VAT in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -74527,7 +74548,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-define-check-layouts.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-define-check-layouts",
-        "title": "Specify the Layout of a Check",
+        "title": "Select a Check Layout in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -74919,7 +74940,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-work-with-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-work-with-vat",
-        "title": "How to work with VAT on sales and purchases",
+        "title": "Work with VAT on Sales and Purchases",
         "via": "ms.search.form"
       },
       {
@@ -75005,7 +75026,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-work-with-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-work-with-vat",
-        "title": "How to work with VAT on sales and purchases",
+        "title": "Work with VAT on Sales and Purchases",
         "via": "ms.search.form"
       },
       {
@@ -75313,19 +75334,19 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-manage-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
-        "title": "Value Added Tax management overview",
+        "title": "VAT Management Overview in Business Central",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/finance-setup-nondeductible-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-nondeductible-vat",
-        "title": "Set up nondeductible VAT",
+        "title": "Set Up Nondeductible VAT in Business Central",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/finance-setup-unrealized-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat",
-        "title": "Set up unrealized value added tax",
+        "title": "Set Up Unrealized VAT for Cash-Based Accounting",
         "via": "ms.search.form"
       },
       {
@@ -75363,13 +75384,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-setup-nondeductible-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-nondeductible-vat",
-        "title": "Set up nondeductible VAT",
+        "title": "Set Up Nondeductible VAT in Business Central",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/finance-setup-unrealized-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-unrealized-vat",
-        "title": "Set up unrealized value added tax",
+        "title": "Set Up Unrealized VAT for Cash-Based Accounting",
         "via": "ms.search.form"
       },
       {
@@ -75395,7 +75416,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-setup-vat-statement.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-vat-statement",
-        "title": "Set up a VAT statement",
+        "title": "Set Up VAT Statement Templates and Names",
         "via": "ms.search.form"
       }
     ],
@@ -75833,7 +75854,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-report-selections.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-report-selections",
-        "title": "Report selection in Business Central",
+        "title": "Report Selection for Documents in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -75841,7 +75862,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-work-with-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-work-with-vat",
-        "title": "How to work with VAT on sales and purchases",
+        "title": "Work with VAT on Sales and Purchases",
         "via": "ms.search.form"
       }
     ],
@@ -75949,7 +75970,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-use-vat-rate-change-tool.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-vat-rate-change-tool",
-        "title": "Managing VAT rate changes",
+        "title": "Manage VAT Rate Changes in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -76799,7 +76820,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-manage-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
-        "title": "Value Added Tax management overview",
+        "title": "VAT Management Overview in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -76859,7 +76880,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-manage-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
-        "title": "Value Added Tax management overview",
+        "title": "VAT Management Overview in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -77397,7 +77418,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-report-selections.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-report-selections",
-        "title": "Report selection in Business Central",
+        "title": "Report Selection for Documents in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -80259,7 +80280,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/year-prepare-preclose-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/year-prepare-preclose-reports",
-        "title": "Overview of pre-closing reports to verify account accuracy",
+        "title": "Use Preclosing Reports",
         "via": "ms.search.form"
       }
     ],
@@ -80267,7 +80288,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/year-prepare-preclose-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/year-prepare-preclose-reports",
-        "title": "Overview of pre-closing reports to verify account accuracy",
+        "title": "Use Preclosing Reports",
         "via": "ms.search.form"
       }
     ],
@@ -81435,7 +81456,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/admin-printer-setup-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-overview",
-        "title": "Printer setup and management overview",
+        "title": "Printer Setup and Management Overview",
         "via": "ms.search.form"
       }
     ],
@@ -81483,7 +81504,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-specify-printer-selection-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports",
-        "title": "Specify a Default Printer",
+        "title": "Specify a Default Printer in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -81523,7 +81544,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-specify-printer-selection-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports",
-        "title": "Specify a Default Printer",
+        "title": "Specify a Default Printer in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -81531,7 +81552,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-specify-printer-selection-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports",
-        "title": "Specify a Default Printer",
+        "title": "Specify a Default Printer in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -81539,7 +81560,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-specify-printer-selection-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports",
-        "title": "Specify a Default Printer",
+        "title": "Specify a Default Printer in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -81547,7 +81568,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-specify-printer-selection-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports",
-        "title": "Specify a Default Printer",
+        "title": "Specify a Default Printer in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -83419,7 +83440,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/year-allocate-costs-income.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income",
-        "title": "Overview of tasks to allocate costs and income",
+        "title": "Allocate Recurring Costs and Income",
         "via": "ms.search.form"
       }
     ],
@@ -84091,7 +84112,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-report-selections.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-report-selections",
-        "title": "Report selection in Business Central",
+        "title": "Report Selection for Documents in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -84623,7 +84644,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-use-non-deductible-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat",
-        "title": "Use non-deductible VAT",
+        "title": "Use Nondeductible VAT in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -85761,7 +85782,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-report-selections.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-report-selections",
-        "title": "Report selection in Business Central",
+        "title": "Report Selection for Documents in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -85937,7 +85958,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-report-selections.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-report-selections",
-        "title": "Report selection in Business Central",
+        "title": "Report Selection for Documents in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -86799,7 +86820,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-specify-printer-selection-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports",
-        "title": "Specify a Default Printer",
+        "title": "Specify a Default Printer in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -89103,7 +89124,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-use-non-deductible-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat",
-        "title": "Use non-deductible VAT",
+        "title": "Use Nondeductible VAT in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -89167,7 +89188,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-how-create-custom-report-layout.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout",
-        "title": "(Obsolete) Create and modify custom report layouts",
+        "title": "(Obsolete) Create and Modify Custom Report Layouts",
         "via": "ms.search.form"
       },
       {
@@ -89217,7 +89238,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-how-create-custom-report-layout.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout",
-        "title": "(Obsolete) Create and modify custom report layouts",
+        "title": "(Obsolete) Create and Modify Custom Report Layouts",
         "via": "ms.search.form"
       },
       {
@@ -103253,7 +103274,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-report-selections.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-report-selections",
-        "title": "Report selection in Business Central",
+        "title": "Report Selection for Documents in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -103501,7 +103522,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-manage-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
-        "title": "Value Added Tax management overview",
+        "title": "VAT Management Overview in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -103513,7 +103534,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-vat-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-vat-reports",
-        "title": "Built-in VAT reports in Business Central",
+        "title": "Built-In VAT Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -103527,7 +103548,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-manage-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
-        "title": "Value Added Tax management overview",
+        "title": "VAT Management Overview in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -103539,7 +103560,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-vat-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-vat-reports",
-        "title": "Built-in VAT reports in Business Central",
+        "title": "Built-In VAT Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -103553,7 +103574,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-manage-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
-        "title": "Value Added Tax management overview",
+        "title": "VAT Management Overview in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -103565,7 +103586,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-vat-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-vat-reports",
-        "title": "Built-in VAT reports in Business Central",
+        "title": "Built-In VAT Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -103669,7 +103690,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-manage-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
-        "title": "Value Added Tax management overview",
+        "title": "VAT Management Overview in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -103681,7 +103702,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-vat-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-vat-reports",
-        "title": "Built-in VAT reports in Business Central",
+        "title": "Built-In VAT Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -103695,7 +103716,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-manage-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
-        "title": "Value Added Tax management overview",
+        "title": "VAT Management Overview in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -103707,7 +103728,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-vat-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-vat-reports",
-        "title": "Built-in VAT reports in Business Central",
+        "title": "Built-In VAT Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -103819,7 +103840,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-manage-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
-        "title": "Value Added Tax management overview",
+        "title": "VAT Management Overview in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -103831,7 +103852,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-vat-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-vat-reports",
-        "title": "Built-in VAT reports in Business Central",
+        "title": "Built-In VAT Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -103845,7 +103866,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-manage-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
-        "title": "Value Added Tax management overview",
+        "title": "VAT Management Overview in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -103857,7 +103878,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-vat-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-vat-reports",
-        "title": "Built-in VAT reports in Business Central",
+        "title": "Built-In VAT Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -104971,7 +104992,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-manage-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
-        "title": "Value Added Tax management overview",
+        "title": "VAT Management Overview in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -104983,7 +105004,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-vat-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-vat-reports",
-        "title": "Built-in VAT reports in Business Central",
+        "title": "Built-In VAT Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -105809,7 +105830,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-manage-vat.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
-        "title": "Value Added Tax management overview",
+        "title": "VAT Management Overview in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -105821,7 +105842,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-vat-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-vat-reports",
-        "title": "Built-in VAT reports in Business Central",
+        "title": "Built-In VAT Reports in Business Central",
         "via": "ms.search.form"
       },
       {

@@ -2,21 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/use-reports-in-daily-work
 type: topic
 title: Use reports in daily work
-summary: "Using reports in Business Central daily work: running, previewing, printing, scheduling and sharing reports, plus saved settings, layouts, default printers, bookmarks and raw data export to Excel or XML. It answers how-to questions about handling standard reports as an end user."
+summary: "Using reports in Business Central daily work: finding, running, previewing, printing, scheduling and saving reports, plus saved settings, layouts, default printers, the Report Inbox, bookmarks and dataset export. It answers how-to questions for end users and advanced users."
 tier: official
 language: en
 system: reporting
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:21:01.578Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: b05d5b9bd309167415fd713acf58fdfde55986b749ad8539e7d87652185db061
+  input_hash: 60c02d41cc3ce64bdb0a33cfae413874559ef3012d8c3e9bacfa387946f5e53d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel
@@ -35,14 +35,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings
     title: Manage Saved Settings for Reports and Batch Jobs
-    date: "2021-12-21"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-work-report
-    title: Run and print reports in Business Central
-    date: "2025-03-21"
+    title: Run and Print Reports in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -56,21 +56,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-work-report-inbox
     title: Share and Export Reports with the Report Inbox
-    date: "2024-09-27"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports
-    title: Specify a Default Printer
-    date: "2024-11-05"
+    title: Specify a Default Printer in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-use-reports
-    title: Use reports in your daily work
-    date: "2024-12-27"
+    title: Use Business Central Reports in Your Daily Work
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -132,43 +132,41 @@ narrative: generated
 
 # Use reports in daily work
 
-> Using reports in Business Central daily work: running, previewing, printing, scheduling and sharing reports, plus saved settings, layouts, default printers, bookmarks and raw data export to Excel or XML. It answers how-to questions about handling standard reports as an end user.
+> Using reports in Business Central daily work: finding, running, previewing, printing, scheduling and saving reports, plus saved settings, layouts, default printers, the Report Inbox, bookmarks and dataset export. It answers how-to questions for end users and advanced users.
 
-Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Use reports in daily work · tier official · system reporting · narrative reviewed (checked by Opus)
+Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Use reports in daily work · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the everyday tasks around standard reports in Business Central. It has no subtopics, only a set of task pages. The landing page, "Use reports in your daily work", gives the overall picture: running, scheduling, sharing and customizing reports.
+This section covers what a user does with reports day to day. It starts with a general guide (Report Explorer, scheduling, saved settings, default printers, layouts, Report Inbox) and then has one page for each task.
 
-The other pages each take one task. "Run and print reports" covers filters, preview, saving to PDF, Word or Excel, scheduling, and language and format settings. "Manage Saved Settings" and "Set the Layout Used by a Report" cover how a report is configured and how it looks. "Specify a Default Printer" covers printing. "Share and Export Reports with the Report Inbox" covers scheduled output. "Bookmark link to page or report" covers quick access from the role center. "Analyzing report data with Excel and XML" covers raw data export for troubleshooting.
+For running reports, "Run and Print Reports" explains request pages, filters, options, preview, printing, saving to PDF, Word, Excel or XML, and scheduling to the job queue. "Manage Saved Settings" lets users keep filters and options for reuse, per user or shared across a company. "Set the Layout Used by a Report" and "Specify a Default Printer" control how a report looks and where it prints.
 
-Start with the landing page, then go to "Run and print reports" for the basic workflow. Move on to the other pages when you need to set defaults, change layouts or share results.
+Scheduled output is handled in the Report Inbox, where users download, share, or open files in OneDrive. Other pages cover bookmarking reports on a role center and exporting datasets to Excel or XML for diagnosis and ad-hoc analysis. Start with "Use Business Central Reports in Your Daily Work" and then "Run and Print Reports".
 
 ## Key points
 
-- Reports can be run, previewed, printed and scheduled, and saved to PDF, Word or Excel, with filter options and language and format settings.
-- Saved settings for reports and batch jobs can be created, changed and shared with other users to set default options and filters.
-- Report layouts can be set as the default per company, chosen temporarily on the report request page, or managed on the Report Layouts and Report Layout Selection pages.
-- Layout options include composite branding, theme assignment and header/footer layouts.
-- Default printers can be set for all print jobs or for specific reports, at user or global level, including cloud printers, Universal Print, email printers and PDF output.
-- The Report Inbox lets users download, share, export and delete scheduled reports, with OneDrive integration.
-- Pages and reports can be bookmarked from the role center using the bookmark icon or the Tell Me window.
-- Report datasets can be exported as data-only Excel documents or XML, with a metadata worksheet and filter information, for ad-hoc analysis and troubleshooting.
+- Report request pages set filters and options; reports can be previewed, printed, saved to PDF, Word, Excel or XML, or scheduled to the job queue.
+- Saved settings keep options and filters for reports and batch jobs, either user-specific or shared with all users in a company, and can be copied and edited on the Report Settings page.
+- Report layouts can be set as a company default, chosen temporarily on the request page, or managed on the Report Layouts and Report Layout Selection pages; they cover branding, themes and header/footer layouts.
+- Default printers can be set for all users, a specific user, or a specific report via Printer Management and Printer Selections, and overridden on the request page; Universal Print is mentioned.
+- The Report Inbox holds scheduled reports; users can download, share, delete, and open them in OneDrive, and files have expiration dates.
+- Bookmark icon or the Tell Me window adds pages and reports to the role center, and bookmarks can be removed.
+- Datasets can be exported to Excel (data only) or XML, with a Report Metadata worksheet and filter display, for developers diagnosing issues (2021 release wave 1 update 18.3 and 2021 release wave 2).
 
 ## Learn pages
 
 - [Analyze Report Datasets with Excel and XML](https://learn.microsoft.com/dynamics365/business-central/report-analyze-excel): Learn how to export Business Central report datasets to Excel or XML, inspect raw report data, and give users permission to export datasets.
 - [Bookmark a Page or Report on Your Role Center](https://learn.microsoft.com/dynamics365/business-central/ui-bookmarks): Add bookmarks to the navigation menu on your Business Central Role Center so you can quickly open frequently used pages, reports, and business tasks.
-- [Manage Saved Settings for Reports and Batch Jobs](https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings): Describes hwo the admin can set up predefined options and filters for a report and share those settings with one or all users.
-  - In the observatory: [Page 1560 "Report Settings"](../../../objects/page/1560.md)
-- [Run and print reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-work-report): Learn how to add a report to the job queue and schedule it to run on a specific date and time.
+- [Manage Saved Settings for Reports and Batch Jobs](https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings): Set up saved options and filters for Business Central reports and batch jobs, and share the settings with individual users or everyone in a company.
+- [Run and Print Reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-work-report): Run, preview, print, and schedule Business Central reports, apply filters and saved settings, choose layouts, and adjust report language and limits.
   - In the observatory: [Page 64 "Printer Selections"](../../../objects/page/64.md), [Page 672 "Job Queue Entries"](../../../objects/page/672.md), [Page 9652 "Report Layout Selection"](../../../objects/page/9652.md), [Page 9660 "Report Layouts"](../../../objects/page/9660.md)
 - [Set the Layout Used by a Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-set-report-layout): Learn how to select the default report layout for each company, temporarily use another layout, and distinguish layout selection from reusable branding.
-- [Share and Export Reports with the Report Inbox](https://learn.microsoft.com/dynamics365/business-central/ui-work-report-inbox): Learn how to use the Report Inbox page to download, share, export, and delete reports in Business Central.
-  - In the observatory: [Page 672 "Job Queue Entries"](../../../objects/page/672.md)
-- [Specify a Default Printer](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Learn about the different ways to set up printers to be used by default for print jobs.
+- [Share and Export Reports with the Report Inbox](https://learn.microsoft.com/dynamics365/business-central/ui-work-report-inbox): Download scheduled Business Central reports from the Report Inbox, open or share copies in OneDrive, and delete reports from your Role Center.
+  - In the observatory: [Page 672 "Job Queue Entries"](../../../objects/page/672.md), [Page 682 "Schedule a Report"](../../../objects/page/682.md)
+- [Specify a Default Printer in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Set default printers for users and reports in Business Central, understand printer selection priority, and override the printer when running a report.
   - In the observatory: [Page 2616 "Printer Management"](../../../objects/page/2616.md), [Page 64 "Printer Selections"](../../../objects/page/64.md)
-- [Use reports in your daily work](https://learn.microsoft.com/dynamics365/business-central/reports-use-reports): Provides an overview of the reporting features in Business Central.
+- [Use Business Central Reports in Your Daily Work](https://learn.microsoft.com/dynamics365/business-central/reports-use-reports): Find Business Central reports, run and schedule them, choose printers and layouts, reuse saved settings, and export report data for analysis.
 
 ## Videos and posts
 

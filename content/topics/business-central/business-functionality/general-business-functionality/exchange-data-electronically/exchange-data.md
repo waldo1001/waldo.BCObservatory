@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/general-business-functionality/exchange-data-electronically/exchange-data
 type: topic
 title: Exchange data
-summary: "Electronic data exchange in Business Central: data exchange definitions, bank file import and export (SEPA, AMC Banking 365 Fundamentals, Yodlee feeds), SEPA direct debit, and sending or receiving PEPPOL and OCR e-documents. It answers setup and field-mapping questions for these tasks."
+summary: "Electronic data exchange in Business Central: data exchange definitions, bank file import and export (SEPA CAMT, SEPA Credit Transfer, SEPA Direct Debit, AMC Banking 365 Fundamentals), Yodlee bank feeds, OCR, and sending or receiving PEPPOL documents. It answers setup and field-mapping questions."
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 2467e4e8d833a5ccdf92f0946572a3d401f3f10ddd92fecf5200ed759a0763be
+  input_hash: 84fa14177ccd170c26991730cab1926aa2dead0b46d903ecbddfcc8ef37a5864
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-to-set-up-data-exchange-definitions
@@ -54,7 +54,7 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents
-    title: Receive and convert electronic documents
+    title: Receive and Convert Electronic Documents
     date: "2025-10-03"
     commit: null
     t: null
@@ -82,8 +82,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-ocr-pdf-images-files
-    title: Use OCR to turn PDF into e-invoices
-    date: "2025-10-16"
+    title: Use OCR to Turn PDF and Image Files into Electronic Documents
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -176,28 +176,28 @@ narrative: generated
 
 # Exchange data
 
-> Electronic data exchange in Business Central: data exchange definitions, bank file import and export (SEPA, AMC Banking 365 Fundamentals, Yodlee feeds), SEPA direct debit, and sending or receiving PEPPOL and OCR e-documents. It answers setup and field-mapping questions for these tasks.
+> Electronic data exchange in Business Central: data exchange definitions, bank file import and export (SEPA CAMT, SEPA Credit Transfer, SEPA Direct Debit, AMC Banking 365 Fundamentals), Yodlee bank feeds, OCR, and sending or receiving PEPPOL documents. It answers setup and field-mapping questions.
 
 Path: [Business functionality](../../../business-functionality.md) > [General business functionality](../../general-business-functionality.md) > [Exchange data electronically](../exchange-data-electronically.md) > Exchange data · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how Business Central exchanges data with external files and services. The base is the data exchange framework: definitions in XML, delimited, fixed-width, or JSON formats, with line and column definitions, field mapping, and transformation rules. The "Exchanging data" page gives the general picture and notes that the framework and related areas must be set up before processing.
+This area covers how Business Central exchanges data with external files and services. The base is the data exchange framework, where definitions describe file formats (XML, delimited, fixed-width, JSON) through line and column definitions, field mapping and transformation rules. The "Exchanging data" page gives the overview and notes that the framework and related areas must be set up before processing.
 
-The other pages apply the framework to business tasks. For banking, there are pages on vendor payments by SEPA Credit Transfer or AMC Banking 365 Fundamentals, SEPA Direct Debit collections with mandates, Yodlee bank feeds, and field mappings for payment file export and SEPA CAMT import. For documents, there are pages on sending PEPPOL invoices and credit memos, receiving and converting PEPPOL and OCR documents, and using OCR to turn PDFs into e-invoices.
+Banking pages cover paying vendors with AMC Banking (US) or SEPA credit transfer (EU), collecting customer payments with SEPA Direct Debit, importing SEPA CAMT statements for reconciliation, and automatic statement import with Yodlee bank feeds. Two reference pages document field mapping for payment file export and CAMT import.
 
-Start with "Exchanging data" and "Define how data is exchanged electronically", then go to the page for your task. Check the version notes: sending e-documents is described for versions before 2023 release wave 2, and receiving and converting is described for 2023 release wave 2.
+Document pages cover sending and receiving PEPPOL invoices and credit memos through a document exchange service, and using OCR to turn PDF and image files into electronic documents and purchase invoices. The send and receive pages apply to versions before 2023 release wave 2. Start with "Exchanging data", then go to the page for your task.
 
 ## Key points
 
-- Data exchange definitions support XML, delimited, fixed-width, and JSON files, with line definitions, column definitions, field mapping, transformation rules, and field grouping.
-- Vendor payments can be made by exporting SEPA Credit Transfer files or by using the AMC Banking 365 Fundamentals extension (US/EFT).
-- A field mapping page covers export to bank payment files with AMC Banking 365 Fundamentals, including IBAN and SWIFT code mapping from bank accounts, journal lines, customers, and vendors.
-- A field mapping page covers SEPA CAMT import for bank statements and payment reconciliation, including transaction ID verification and automatic payment application.
-- SEPA Direct Debit collects customer payments in EURO and needs export formats, payment methods, and mandates. Collection entries are exported as XML to the bank.
-- Yodlee bank feeds import bank statements into the Payment Reconciliation Journal about every two hours in supported regions.
-- Receiving PEPPOL and OCR invoices and credit memos creates purchase documents, using text-to-account mapping, and is described for 2023 release wave 2.
-- Sending PEPPOL sales invoices and credit memos through a document exchange service is described for pre-2023 release wave 2 versions.
+- Data exchange definitions support XML, delimited, fixed-width and JSON files, with column and line definitions, field mapping, transformation rules and field grouping.
+- Vendor payments are exported as SEPA Credit Transfer files or through the AMC Banking 365 Fundamentals extension (EFT, bank data conversion).
+- SEPA Direct Debit needs an export format, payment methods and mandates; collection entries export an XML file to the bank for EURO collections.
+- SEPA CAMT import mapping covers bank statement lines, transaction ID verification and automatic payment application.
+- Payment export field mapping draws from bank accounts, general journal lines, customers and vendors, including IBAN and SWIFT codes.
+- Yodlee bank feeds import statements into the Payment Reconciliation Journal about every two hours in supported regions.
+- Sending and receiving PEPPOL invoices and credit memos through a document exchange service is described for versions before 2023 release wave 2.
+- OCR can be sent from the Incoming Documents page or by email, and recognized data can be corrected, mapped to G/L accounts and trained before creating purchase invoices.
 
 ## Learn pages
 
@@ -210,13 +210,14 @@ Start with "Exchanging data" and "Define how data is exchanged electronically", 
   - In the observatory: [Page 1290 "Payment Reconciliation Journal"](../../../../../objects/page/1290.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md), [Table 273 "Bank Acc. Reconciliation"](../../../../../objects/table/273.md), [Table 274 "Bank Acc. Reconciliation Line"](../../../../../objects/table/274.md)
 - [Make payments with AMC banking (US) or SEPA credit transfer (EU)](https://learn.microsoft.com/dynamics365/business-central/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer): Process vendor payments by exporting an EFT or SEPA file from the payment journal after you review the batch total and validate the payment lines.
   - In the observatory: [Page 1227 "Pmt. Export Line Definitions"](../../../../../objects/page/1227.md), [Page 251 "General Journal Batches"](../../../../../objects/page/251.md), [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 427 "Payment Methods"](../../../../../objects/page/427.md)
-- [Receive and convert electronic documents](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents): Learn how to receive and convert electronic documents in Business Central, either directly from trading partners or through an OCR service.
+- [Receive and Convert Electronic Documents](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents): Learn how to receive and convert electronic documents in Business Central, either directly from trading partners or through an OCR service.
 - [Send Electronic Documents](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-send-electronic-documents): Learn how to use Business Central to send electric invoices and credit memos in the PEPPOL format.
 - [SEPA Direct Debit in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit): With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.
   - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 981 "Payment Registration"](../../../../../objects/page/981.md)
 - [Set Up Yodlee Bank Feeds](https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-statement-service): You can convert payment information to any data format that your bank requires and enable the export or import of bank files.
   - In the observatory: [Page 35630 "Bank Accounts (RU)"](../../../../../objects/page/35630-ru.md), [Page 370 "Bank Account Card"](../../../../../objects/page/370.md)
-- [Use OCR to turn PDF into e-invoices](https://learn.microsoft.com/dynamics365/business-central/across-how-use-ocr-pdf-images-files): Describes how you can use an OCR service to convert incoming PDF or image files to electronic documents.
+- [Use OCR to Turn PDF and Image Files into Electronic Documents](https://learn.microsoft.com/dynamics365/business-central/across-how-use-ocr-pdf-images-files): Use an OCR service to convert PDF and image files to incoming documents in Business Central, correct recognized data, and create invoices or journal lines.
+  - In the observatory: [Page 1251 "Text-to-Account Mapping"](../../../../../objects/page/1251.md), [Page 1272 "OCR Data Correction"](../../../../../objects/page/1272.md), [Page 190 "Incoming Documents"](../../../../../objects/page/190.md)
 
 ## Business Central pages and reports
 

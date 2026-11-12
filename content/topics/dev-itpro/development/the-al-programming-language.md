@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,7 +49,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-operators
     title: AL operators
-    date: "2024-09-18"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -77,7 +77,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-variables
     title: AL variables
-    date: "2024-04-26"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null

@@ -2,7 +2,7 @@
 id: topic/business-central/development-and-administration/administration-tasks-in-business-central
 type: topic
 title: Administration tasks in Business Central
-summary: Administration tasks in Business Central cover access control, user settings, data control, and day-to-day environment setup such as companies, web services, job queues, printers, languages, indexes and trial extensions. It answers how-to questions for administrators configuring and maintaining an environment.
+summary: "Administration tasks in Business Central: user access and settings, data control, company creation, job queues, web services, API templates, printers, languages, indexes, table information, page inspection, trials and early feature activation. It answers how-to questions for administrators running an environment."
 tier: official
 language: en
 system: administration
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9c48d643ab2ec128305e620fb0a17d0a5baf808b855bdd950b98d09c35ce77ec
+  input_hash: 7ef675902bcda124d279321945215253cb96038edd4917f00ee46c7857d1a756
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-faq
@@ -216,8 +216,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports
-    title: Specify a Default Printer
-    date: "2024-11-05"
+    title: Specify a Default Printer in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -502,28 +502,28 @@ narrative: generated
 
 # Administration tasks in Business Central
 
-> Administration tasks in Business Central cover access control, user settings, data control, and day-to-day environment setup such as companies, web services, job queues, printers, languages, indexes and trial extensions. It answers how-to questions for administrators configuring and maintaining an environment.
+> Administration tasks in Business Central: user access and settings, data control, company creation, job queues, web services, API templates, printers, languages, indexes, table information, page inspection, trials and early feature activation. It answers how-to questions for administrators running an environment.
 
 Path: [Development and administration](../development-and-administration.md) > Administration tasks in Business Central · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects the tasks an administrator performs to set up and run a Business Central environment. Three subtopics go deeper: managing access (licensing, user accounts, permission sets, security groups), managing user settings and profiles, and controlling data (auditing, classification, retention, encryption, archiving, personal data requests).
+This section collects the day-to-day and setup tasks of a Business Central administrator. The landing page, "Administrative tasks in Business Central", gives an overview that covers user creation and permissions, data encryption, job scheduling, document management, and integration with Dynamics 365 Sales and Dataverse. Individual pages then go into detail on each task.
 
-The section's own pages are task-focused. They cover creating companies with an assisted setup guide, onboarding checklists, allowed languages, text search language for multilingual environments, and default printers. Integration and technical pages cover exposing objects as OData or SOAP web services, API templates, and scheduling jobs in the job queue. Maintenance pages cover database index usage, table information, page inspection, early feature activation, and trial extension.
+Three subtopics cover larger areas. "Manage access to Business Central" deals with licenses, user accounts, permissions, and security groups. "Manage user settings" covers company, role, language, region, time zone, and profiles. "Control your data" covers auditing, data classification, retention, encryption, deletion, archiving, personal data requests, and database locks.
 
-Start with "Administrative tasks in Business Central" for an overview of the core tasks. Then go to the subtopic or task page that matches your need. For performance questions, use the index usage and table information pages together.
+The pages on this level cover operations and tuning. They include creating companies with an assisted setup guide, scheduling jobs, publishing web services, configuring API templates, setting default printers, limiting available languages, text search language, index and table information, page inspection, onboarding checklists, trial extension, and enabling upcoming features. Start with the overview page, then go to the subtopic or task page that matches your need.
 
 ## Key points
 
-- Subtopics cover access (licensing, permission sets, security groups), user settings and profiles, and data control (auditing, masking, retention, encryption, archiving).
-- New companies are created with an assisted setup guide: copy a company, use an evaluation template with sample data, or start blank.
-- Objects can be published as OData V4 or SOAP web services; API templates set default property values for records created through the API.
-- The Job Queue Entries page schedules reports and codeunits one-time or recurring, with status tracking and failure notifications.
-- Database index usage can be managed per company: view usage and size, turn nonessential indexes off to improve write performance; unique indexes and primary keys are protected.
-- The Table Information page shows record counts, data and index sizes, and compression types for performance troubleshooting.
-- Trials last 30 days and can be extended once by another 30 days by the user; partners can extend again, and a subscription is needed after 90 days total.
-- Feature Management lets administrators enable upcoming features early; page inspection helps troubleshoot page design and data sources (2023 release wave 2).
+- Access, user settings, and data control are separate subtopics: licenses, permissions and security groups; profiles, language, region and time zone; auditing, masking, retention, encryption and archiving.
+- New companies are created with an assisted setup guide. You can copy a company, use an evaluation template with sample data, or start blank.
+- The Job Queue Entries page schedules reports and codeunits to run once or on a recurring basis. It tracks status and can notify on failures.
+- Objects can be published as OData V4 or SOAP web services. API Templates set default entity property values for records created through the API, based on conditions.
+- Manage database index usage lets you turn nonessential indexes off per company or for all companies to improve write performance. Unique indexes and primary keys cannot be disabled. The Table Information page shows record counts, data and index sizes, and compression types.
+- Trials last 30 days and can be extended once by another 30 days. Partners can extend again, and a subscription is needed after 90 days in total.
+- Feature Management lets administrators turn on upcoming features early, before mandatory activation.
+- Default printers can be set for all users, a specific user, or a specific report in the Printer Management and Printer Selections pages. The Allowed Languages page limits which installed language apps users can pick.
 
 ## Subtopics
 
@@ -548,7 +548,7 @@ Start with "Administrative tasks in Business Central" for an overview of the cor
 - [Sandbox environments](https://learn.microsoft.com/dynamics365/business-central/admin-sandbox-environments): Learn about how a dedicated environment can help you safely explore, learn, demo, develop, troubleshoot, and test Business Central.
 - [Schedule jobs to run automatically](https://learn.microsoft.com/dynamics365/business-central/admin-job-queues-schedule-tasks): Learn how to use job queue entries to run reports and codeunits.
   - In the observatory: [Page 1518 "My Notifications"](../../../objects/page/1518.md), [Page 3845 "Scheduled Tasks"](../../../objects/page/3845.md)
-- [Specify a Default Printer](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Learn about the different ways to set up printers to be used by default for print jobs.
+- [Specify a Default Printer in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Set default printers for users and reports in Business Central, understand printer selection priority, and override the printer when running a report.
   - In the observatory: [Page 2616 "Printer Management"](../../../objects/page/2616.md), [Page 64 "Printer Selections"](../../../objects/page/64.md)
 - [Specify available languages in your environment](https://learn.microsoft.com/dynamics365/business-central/admin-allowed-languages): Learn how to build a list of the languages that are available in your Business Central environment.
 - [View Table Information](https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information): View table information in Business Central to check record counts, data and index sizes, and compression when you troubleshoot database performance.

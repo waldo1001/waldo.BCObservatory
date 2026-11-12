@@ -12,7 +12,7 @@ review:
   at: "2026-11-11T00:59:19.156Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -34,8 +34,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-adhoc-analysis
-    title: Ad-hoc data analysis
-    date: "2024-04-30"
+    title: Ad Hoc Data Analysis in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -97,7 +97,7 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
-    title: Available fonts
+    title: Available Fonts in Business Central
     date: "2025-02-28"
     commit: null
     t: null
@@ -174,8 +174,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-develop-reports
-    title: Develop report layouts and datasets
-    date: "2022-02-03"
+    title: Develop Business Central Report Layouts and Datasets
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -224,7 +224,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings
     title: Manage Saved Settings for Reports and Batch Jobs
-    date: "2021-12-21"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null

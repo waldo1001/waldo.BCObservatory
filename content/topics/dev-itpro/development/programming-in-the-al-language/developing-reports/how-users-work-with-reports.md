@@ -2,40 +2,40 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/developing-reports/how-users-work-with-reports
 type: topic
 title: How users work with reports
-summary: "User-facing report handling in Business Central: running, previewing, printing, scheduling and saving reports, managing saved settings for reports and batch jobs, and choosing default printers. It answers how-to questions about report request pages, filters, layouts and printer selection."
+summary: How end users run, print and configure reports in Business Central. It answers questions about request pages, filters and options, previewing, saving or scheduling reports, saved settings for reports and batch jobs, and choosing default printers.
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:28:29.432Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f12a8498426dc1c2867ef1e84fa5f7ee76ddadf937f3cfb91526624881ce9b6f
+  input_hash: db20c226841d9d21dc5ee7dd662b1cc1e81502d9757576091d72aba885ddb980
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings
     title: Manage Saved Settings for Reports and Batch Jobs
-    date: "2021-12-21"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-work-report
-    title: Run and print reports in Business Central
-    date: "2025-03-21"
+    title: Run and Print Reports in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports
-    title: Specify a Default Printer
-    date: "2024-11-05"
+    title: Specify a Default Printer in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -85,34 +85,33 @@ narrative: generated
 
 # How users work with reports
 
-> User-facing report handling in Business Central: running, previewing, printing, scheduling and saving reports, managing saved settings for reports and batch jobs, and choosing default printers. It answers how-to questions about report request pages, filters, layouts and printer selection.
+> How end users run, print and configure reports in Business Central. It answers questions about request pages, filters and options, previewing, saving or scheduling reports, saved settings for reports and batch jobs, and choosing default printers.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > How users work with reports · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > How users work with reports · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers what users do with reports after developers have built them. It has three pages and no subtopics. They cover running reports, keeping reusable settings, and choosing where output is printed.
+This section covers the user side of reports: how people find and run a report, set options and filters, and decide where the output goes. It has three pages and no subtopics.
 
-Start with "Run and print reports in Business Central". It explains how to run, preview, print and schedule a report, set filters, save output to a file, select a layout, and change language and format settings. Then read "Manage Saved Settings for Reports and Batch Jobs" to learn how to create, modify and share saved settings, so users get default options and filters on the request page. Finish with "Specify a Default Printer" to set printers for all print jobs or for specific reports.
+"Run and Print Reports in Business Central" is the starting point. It explains request pages, preview, printing, saving to PDF, Word, Excel or XML, and scheduling a report to the job queue. "Manage Saved Settings for Reports and Batch Jobs" covers how to keep and reuse options and filters, for one user or for all users in a company. "Specify a Default Printer in Business Central" explains how default printers are set and how the choice can be overridden.
 
 ## Key points
 
-- Reports can be run, previewed, printed and scheduled from Business Central.
-- Report output can be saved to files such as PDF, Word or Excel.
-- Users set filters and pick a layout on the report request page, and can change language and format settings.
-- Saved settings for reports and batch jobs can be created, modified and shared with other users.
-- Saved settings configure default report options and filters.
-- A default printer can be set for all print jobs or for specific reports.
-- Printer selection can be set at user or global level, for cloud printers and PDF output.
-- The printer page mentions universal print, email printers and print job sizing.
+- Reports are run from request pages, where users set filters and options before previewing, printing, saving or scheduling.
+- Report output can be saved as PDF, Word, Excel or XML, or scheduled to the job queue.
+- Saved settings store predefined options and filters for reports and batch jobs, and are managed on the Report Settings page.
+- Saved settings can be user-specific or shared with all users in a company, and can be copied and edited.
+- Last used options and filters are also kept as settings.
+- Default printers can be set for all users, a specific user, or a specific report through the Printer Management and Printer Selections pages.
+- A printer selection hierarchy decides which printer applies, and users can override the default on the report request page.
+- Universal Print integration is mentioned for printer setup.
 
 ## Learn pages
 
-- [Manage Saved Settings for Reports and Batch Jobs](https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings): Describes hwo the admin can set up predefined options and filters for a report and share those settings with one or all users.
-  - In the observatory: [Page 1560 "Report Settings"](../../../../../objects/page/1560.md)
-- [Run and print reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-work-report): Learn how to add a report to the job queue and schedule it to run on a specific date and time.
+- [Manage Saved Settings for Reports and Batch Jobs](https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings): Set up saved options and filters for Business Central reports and batch jobs, and share the settings with individual users or everyone in a company.
+- [Run and Print Reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-work-report): Run, preview, print, and schedule Business Central reports, apply filters and saved settings, choose layouts, and adjust report language and limits.
   - In the observatory: [Page 64 "Printer Selections"](../../../../../objects/page/64.md), [Page 672 "Job Queue Entries"](../../../../../objects/page/672.md), [Page 9652 "Report Layout Selection"](../../../../../objects/page/9652.md), [Page 9660 "Report Layouts"](../../../../../objects/page/9660.md)
-- [Specify a Default Printer](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Learn about the different ways to set up printers to be used by default for print jobs.
+- [Specify a Default Printer in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Set default printers for users and reports in Business Central, understand printer selection priority, and override the printer when running a report.
   - In the observatory: [Page 2616 "Printer Management"](../../../../../objects/page/2616.md), [Page 64 "Printer Selections"](../../../../../objects/page/64.md)
 
 ## Business Central pages and reports

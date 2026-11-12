@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:47:35.044Z"
+  at: "2026-11-12T00:45:23.971Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 4d48245a3b1e49eb3fef86d808057bcc747a4bee9876593e108cd15b49a1854a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/System%20Application/App/Edit%20in%20Excel/src/Filters/EditInExcelFieldFilterv2.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/System%20Application/App/Edit%20in%20Excel/src/Filters/EditInExcelFieldFilterv2.Interface.al
     title: src/System Application/App/Edit in Excel/src/Filters/EditInExcelFieldFilterv2.Interface.al (releases/29.x)
     date: null
-    commit: 2c932722a2917f4592f1541d4d85dc247c8942ac
+    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
     t: null
     quote: null
 links:
@@ -80,7 +80,7 @@ relations:
 
 > Interface "Edit in Excel Field Filter v2" in System Application (System.Integration.Excel). 5 public procedures. Introduced in BC25, still in BC30.
 
-System Application · System.Integration.Excel · BC25-30 · [source at 2c932722](https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/System%20Application/App/Edit%20in%20Excel/src/Filters/EditInExcelFieldFilterv2.Interface.al) · facts from BC29
+System Application · System.Integration.Excel · BC25-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/System%20Application/App/Edit%20in%20Excel/src/Filters/EditInExcelFieldFilterv2.Interface.al) · facts from BC29
 
 ## Properties
 

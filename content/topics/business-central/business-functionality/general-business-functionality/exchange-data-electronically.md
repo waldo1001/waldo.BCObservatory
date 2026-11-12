@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/general-business-functionality/exchange-data-electronically
 type: topic
 title: Exchange data electronically
-summary: "Electronic data exchange in Business Central: the Data Exchange Framework, data exchange definitions, electronic documents (PEPPOL, OCR), bank file import and export (SEPA, AMC Banking 365 Fundamentals, Yodlee feeds), and SEPA direct debit. It answers setup and field-mapping questions for exchanging data with partners, banks and authorities."
+summary: "Electronic data exchange in Business Central: the Data Exchange Framework, data exchange definitions, electronic documents (PEPPOL), bank file import and export, SEPA direct debit, Yodlee bank feeds and OCR. It answers questions on what the framework does, how to set it up and how to map fields."
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: e3c5583101ade7dfb78bf4e0d7fbd5179725b1c2bab865398ddc99c9deb4158b
+  input_hash: a5044b01f002bcbf1de4ab8561208e77f1ad0273cf44a64dc8303f77774b130b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-about-the-data-exchange-framework
@@ -82,7 +82,7 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents
-    title: Receive and convert electronic documents
+    title: Receive and Convert Electronic Documents
     date: "2025-10-03"
     commit: null
     t: null
@@ -117,8 +117,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-setup-income-documents
-    title: Set Up incoming documents
-    date: "2025-10-15"
+    title: Set Up Incoming Documents
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -131,8 +131,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-ocr-pdf-images-files
-    title: Use OCR to turn PDF into e-invoices
-    date: "2025-10-16"
+    title: Use OCR to Turn PDF and Image Files into Electronic Documents
+    date: "2026-11-10"
     commit: null
     t: null
     quote: null
@@ -264,27 +264,27 @@ narrative: generated
 
 # Exchange data electronically
 
-> Electronic data exchange in Business Central: the Data Exchange Framework, data exchange definitions, electronic documents (PEPPOL, OCR), bank file import and export (SEPA, AMC Banking 365 Fundamentals, Yodlee feeds), and SEPA direct debit. It answers setup and field-mapping questions for exchanging data with partners, banks and authorities.
+> Electronic data exchange in Business Central: the Data Exchange Framework, data exchange definitions, electronic documents (PEPPOL), bank file import and export, SEPA direct debit, Yodlee bank feeds and OCR. It answers questions on what the framework does, how to set it up and how to map fields.
 
 Path: [Business functionality](../../business-functionality.md) > [General business functionality](../general-business-functionality.md) > Exchange data electronically · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how Business Central exchanges business documents, bank files, currency rates and other data with partners and authorities. The Data Exchange Framework and data exchange definitions are the common mechanism behind these formats and standards.
+The Data Exchange Framework in Business Central handles the exchange of business documents, bank files, currency rates and other data with partners, banks and authorities, using various formats and standards. Data exchange definitions drive these processes. Two overview pages describe the framework and the electronic document processes built on it.
 
-Two overview pages introduce the framework and electronic documents. Three subtopics build on them. "Set up data exchange" covers the document exchange service (Tradeshift), PEPPOL sending and receiving, the general framework and incoming documents setup. "Collect payments with SEPA direct debit" covers mandates, export formats, collection XML files, bank account setup, Yodlee bank feeds, AMC Banking 365 Fundamentals and XML schemas. "Exchange data" holds the task pages for definitions, bank files, SEPA, PEPPOL and OCR e-documents.
+The subtopics split the work by task. "Set up data exchange" covers configuring the document exchange service (Tradeshift), PEPPOL sending and receiving, the framework itself, and Incoming Documents. "Exchange data" covers definitions, bank file formats (SEPA CAMT, SEPA Credit Transfer, SEPA Direct Debit, AMC Banking 365 Fundamentals), Yodlee bank feeds, OCR and PEPPOL documents, including field mapping. "Collect payments with SEPA direct debit" covers mandates, export formats, collection XML files, bank account setup and XML schemas for definitions.
 
-Start with the two overview pages to learn the concepts, then go to "Set up data exchange" for configuration. Use the SEPA direct debit subtopic for collections and bank setup, and "Exchange data" for field-mapping and day-to-day tasks.
+Start with the two overview pages to understand the framework. Then follow the setup subtopic for your scenario, and use the exchange and SEPA direct debit subtopics for format and mapping details.
 
 ## Key points
 
-- The Data Exchange Framework handles business documents, bank files, currency rates and data exchange with partners and authorities.
+- The Data Exchange Framework covers business documents, bank files, currency rates and data exchange with partners and authorities.
 - Data exchange definitions drive electronic document exchange, bank file import and export, and currency rate updates.
-- Supported formats and standards include PEPPOL, SEPA credit transfer, SEPA direct debit and OCR conversion.
-- Setup topics include the document exchange service (Tradeshift), PEPPOL, and incoming documents setup.
-- SEPA direct debit setup involves mandates and export formats, and exporting collection XML files.
-- Bank-related pages cover bank account setup, Yodlee bank feeds and the AMC Banking 365 Fundamentals extension.
-- XML schemas for data exchange definitions are documented in the SEPA direct debit subtopic.
+- Setup pages cover the document exchange service (Tradeshift), PEPPOL sending and receiving, and Incoming Documents.
+- Supported bank-related formats include SEPA CAMT, SEPA Credit Transfer, SEPA Direct Debit and the AMC Banking 365 Fundamentals extension.
+- SEPA direct debit collection involves setting up mandates and export formats, then exporting collection XML files.
+- Yodlee bank feeds and OCR conversion are covered as data exchange scenarios.
+- XML schemas for data exchange definitions are documented for building or mapping definitions.
 
 ## Subtopics
 

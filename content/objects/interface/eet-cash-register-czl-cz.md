@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:47:35.044Z"
+  at: "2026-11-12T00:45:23.971Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0deb49c95807e1311e479b83ecb320e5b21390435ac15e78956525fc8afd2bff
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/CZ/CoreLocalizationPack/app/Src/Interfaces/EETCashRegisterCZL.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/CZ/CoreLocalizationPack/app/Src/Interfaces/EETCashRegisterCZL.Interface.al
     title: src/Apps/CZ/CoreLocalizationPack/app/Src/Interfaces/EETCashRegisterCZL.Interface.al (releases/29.x)
     date: null
-    commit: 2c932722a2917f4592f1541d4d85dc247c8942ac
+    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
     t: null
     quote: null
 links:
@@ -74,7 +74,7 @@ relations:
 
 > Interface "EET Cash Register CZL" (CZ) in the CZ country layer (Microsoft.Finance). 3 public procedures. Introduced in BC29, still in BC30.
 
-CZ country layer · Microsoft.Finance · BC29-30 · [source at 2c932722](https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/CZ/CoreLocalizationPack/app/Src/Interfaces/EETCashRegisterCZL.Interface.al) · facts from BC29
+CZ country layer · Microsoft.Finance · BC29-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/CZ/CoreLocalizationPack/app/Src/Interfaces/EETCashRegisterCZL.Interface.al) · facts from BC29
 
 An object of the [CZ localization](../../localizations/cz.md), not part of W1.
 

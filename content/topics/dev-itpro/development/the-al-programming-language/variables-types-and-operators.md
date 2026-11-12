@@ -2,26 +2,26 @@
 id: topic/dev-itpro/development/the-al-programming-language/variables-types-and-operators
 type: topic
 title: Variables, types, and operators
-summary: Variables, types, and operators in AL covers user-defined and system-defined variables, protected variables, automatic type conversion, and the operator families (arithmetic, relational, boolean, conditional, compound). It answers questions about syntax, evaluation order, and resulting data types.
+summary: Variables, types, and operators in AL cover user-defined and system-defined variables, protected variables, the operator families, and automatic type conversion in expressions. It answers questions about declaring variables, what operators do, and how AL converts types.
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:21:43.821Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f6c55c46e2a39d3b24cf989bf4d88aa8621edc3989530ab3443f670660c45182
+  input_hash: d8b56b58ad16070d661903d4c1c71524086efa04f47de7159963a7be043edd2d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-operators
     title: AL operators
-    date: "2024-09-18"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -35,7 +35,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-variables
     title: AL variables
-    date: "2024-04-26"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -114,28 +114,28 @@ narrative: generated
 
 # Variables, types, and operators
 
-> Variables, types, and operators in AL covers user-defined and system-defined variables, protected variables, automatic type conversion, and the operator families (arithmetic, relational, boolean, conditional, compound). It answers questions about syntax, evaluation order, and resulting data types.
+> Variables, types, and operators in AL cover user-defined and system-defined variables, protected variables, the operator families, and automatic type conversion in expressions. It answers questions about declaring variables, what operators do, and how AL converts types.
 
-Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Variables, types, and operators · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Variables, types, and operators · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes the building blocks of AL expressions. The variable pages explain how to declare and name variables, how they are initialized, and how system-defined variables such as Rec, xRec, CurrPage, CurrReport, RequestOptionsPage, and CurrFieldNo give access to the current record, page, or report. Protected variables let tables and table extensions, pages and page extensions, and reports and report extensions share variables.
+This section explains the building blocks of AL expressions. The variable pages describe user-defined and system-defined variables, naming rules, automatic initialization, and how protected variables let tables, pages, and reports share variables with their extensions.
 
-The operator pages begin with an overview of all AL operator types and their precedence. Separate pages then detail arithmetic operators, relational operators, and Boolean operators. A type conversion page explains how the compiler converts mixed operands automatically.
+The operator pages give an overview of all AL operators (arithmetic, comparison, logical, conditional, compound assignment, and hierarchy), plus detail pages for arithmetic, boolean, and relational operators. The type conversion page explains how the compiler promotes operands to more general data types when types are mixed.
 
-Start with AL variables for declaration and naming, then AL operators for the full list and evaluation order. Use the specific operator pages and the type conversion page when you need the result type of a mixed-type expression.
+Start with AL variables and AL operators for the basics. Then use the detail pages when you need the resulting data type or the valid type combinations for a specific operator, and the type conversion page for mixed-type expressions.
 
 ## Key points
 
-- AL variables page covers naming rules, initialization, user-defined and system-defined variables, and type conversion in assignments.
+- AL variables: user-defined and system-defined, with naming rules and automatic initialization.
 - System-defined variables include Rec, xRec, CurrPage, CurrReport, RequestOptionsPage, and CurrFieldNo.
-- The protected keyword allows variable access between tables and table extensions, pages and page extensions, and reports and report extensions.
-- AL operators reference lists general, arithmetic, comparison, logical, conditional, and compound assignment operators with precedence.
+- Protected variables use the protected keyword to share variables between tables and table extensions, pages and page extensions, and reports and report extensions.
+- AL operators cover arithmetic, comparison, logical, conditional, and compound assignment, with an operator hierarchy.
 - Arithmetic operators page covers unary and binary operations on numeric, date, time, text, and code types, including overflow handling.
-- Relational operators return boolean values, including the in range operator, with valid data type combinations.
-- Boolean operators are not, and, or, and xor, operating on boolean expressions.
-- Type conversion promotes values to more general types following numeric and string type hierarchies.
+- Boolean operators are not, and, or, xor and return boolean results.
+- Relational operators compare expressions and return booleans, including the in range operator and valid type combinations.
+- Type conversion is automatic in expressions and assignments, promoting values along numeric and string type hierarchies.
 
 ## Learn pages
 

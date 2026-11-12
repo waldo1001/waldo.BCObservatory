@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,8 +58,7 @@ links:
     - topic/dev-itpro/integration/integrating-with-microsoft-fabric
   localizations: []
   videos: []
-  posts:
-    - post/bertverbeek-nl/1353
+  posts: []
   guidelines: []
 learn_toc_path:
   - Integration
@@ -72,7 +71,7 @@ coverage:
   learn: 3
   code: 8
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 48508
@@ -142,12 +141,6 @@ After setup, use the management page to control what is synchronized and when, a
   - In the observatory: [Introducing: Business Central Integration with Microsoft Fabric (2026 release wave 2)](../../../../videos/kOCiyVql0go.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Credentials setup on Microsoft Fabric Mirroring in Business Central](../../../../posts/bertverbeek-nl/1353.md) (community post): "Custom app registration requires specific permissions and a client secret"
 
 ## Business Central pages and reports
 

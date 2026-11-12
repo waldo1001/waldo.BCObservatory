@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/purchasing
 type: topic
 title: Purchasing
-summary: Purchasing in Business Central covers the purchase process from quotes and orders through invoices, returns, and approvals. It answers how-to questions on posting and correcting purchase documents, blanket orders, electronic invoices, date calculation, and payment reporting. A Purchasing analytics subtopic covers reports and Power BI.
+summary: Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and approvals. It answers how-to questions on posting, correcting, matching, and combining purchase documents, plus date calculation, blanket orders, electronic invoices, and reporting. A subtopic covers purchasing analytics.
 tier: official
 language: en
 system: purchasing
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c3894608641189cc0f44da0c97855beb47dc96f4776eb303c21887a2f1105212
+  input_hash: 76ef5f8112715b651f4a326d659da5063b1419083e35f5964375fd35de9b53c5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget
@@ -443,6 +443,7 @@ links:
     - change/bcapps/11274
     - change/bcapps/11339
     - change/bcapps/11367
+    - change/bcapps/11560
     - change/bcapps/12003
     - change/bcapps/12532
     - change/bcapps/12723
@@ -451,12 +452,14 @@ links:
     - change/bcapps/12867
     - change/bcapps/12931
     - change/bcapps/13075
+    - change/bcapps/13344
     - change/bcapps/13358
     - change/bcapps/13396
     - change/bcapps/13463
+    - change/bcapps/13616
+    - change/bcapps/13628
     - change/bcapps/9044
     - change/bcapps/9084
-    - change/bcapps/9145
     - change/bcapps/9182
     - change/bcapps/9443
     - change/bcapps/9446
@@ -571,28 +574,28 @@ narrative: generated
 
 # Purchasing
 
-> Purchasing in Business Central covers the purchase process from quotes and orders through invoices, returns, and approvals. It answers how-to questions on posting and correcting purchase documents, blanket orders, electronic invoices, date calculation, and payment reporting. A Purchasing analytics subtopic covers reports and Power BI.
+> Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and approvals. It answers how-to questions on posting, correcting, matching, and combining purchase documents, plus date calculation, blanket orders, electronic invoices, and reporting. A subtopic covers purchasing analytics.
 
 Path: [Business functionality](../business-functionality.md) > Purchasing · tier official · system purchasing · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes how a company manages purchases in Business Central. It starts with an overview page of tasks, then covers the document flow: purchase quotes converted to orders, blanket orders for long-term agreements, purchase invoices and receipts, and returns or cancellations through credit memos and return orders.
+Purchasing describes how a company buys goods and services in Business Central. The core flow starts with a purchase quote, which converts to a purchase order, then a receipt and a purchase invoice that updates inventory and accounts payable. Related pages cover blanket orders for long-term agreements, standard recurring lines, buying items for a specific sale, and automatic order and receipt date calculation from lead times.
 
-Supporting pages cover details that affect daily work: date and lead time calculation, external document numbers, standard recurring purchase lines, amount checks before posting, and creating purchases from sales orders. Other pages cover receiving PEPPOL and OCR electronic documents, matching invoice drafts to orders (with Payables Agent proposals), approval workflows, merging duplicate vendors, and syncing contacts to Outlook.
+Other pages handle exceptions and controls. You can correct or cancel unpaid posted invoices with corrective credit memos, process returns with credit memos or return orders, and check that document amounts match the lines before posting. Further pages cover external document numbers, combining receipts or order lines on one invoice, matching invoice drafts to orders (with Payables Agent proposals), receiving electronic documents, and setting up purchase approval workflows. Utility pages cover merging duplicate vendors and syncing contacts to Outlook.
 
-Start with the overview of tasks, then go to "Record purchases with purchase invoices" for the core posting flow. For reports, the Purchasing analytics subtopic covers the Power BI Purchases app, built-in reports, and Data Analysis. The Payment practices report is a separate page here.
+Start with "Overview of tasks to manage to purchase" for the map, then "Record purchases with purchase invoices" for the basic posting flow. The Purchasing analytics subtopic covers the Power BI Purchases app, built-in reports, and ad-hoc analysis. The Payment practices report page is also here.
 
 ## Key points
 
-- Purchase quotes convert to purchase orders; vendor templates and automatic vendor creation are supported.
-- Unpaid posted purchase invoices can be corrected or cancelled with corrective credit memos that keep the audit trail.
-- Get Receipt Lines and Get Order Lines combine several receipts or order lines on one invoice; receipt-on-invoice creates the receipt automatically.
-- Returns and cancellations use purchase credit memos or return orders, with exact cost reversing and item charge assignment.
-- PEPPOL and OCR electronic invoices and credit memos convert to purchase documents using text-to-account mapping (2023 release wave 2).
-- Invoice drafts can be matched to purchase orders and receipts, with checks on quantity, price, unit of measure, and item tracking; Payables Agent can propose matches.
-- Purchase approval workflows use approvers, amount limits, and notifications; the amount check validates totals including VAT before posting (2025 release wave 1).
-- External document numbers are accepted but not checked for uniqueness; they help search posted lines later.
+- Quote-to-order flow: create purchase quotes, convert them to purchase orders, then receive and invoice.
+- Correct or cancel unpaid posted purchase invoices through corrective credit memos that keep the audit trail.
+- Process returns with purchase credit memos or return orders, with exact cost reversing and item charge assignment.
+- Combine several receipts or order lines on one invoice using Get Receipt Lines or Get Order Lines.
+- Invoice drafts can be matched to purchase orders and receipts, with Payables Agent proposing matches for review.
+- Check amounts on purchase invoices and credit memos validates totals including VAT against the lines (2025 release wave 1).
+- Purchase approval workflows use approvers, amount limits, and notifications.
+- Receiving PEPPOL and OCR electronic documents is described for versions before 2023 release wave 2.
 
 ## Subtopics
 
@@ -620,7 +623,7 @@ Start with the overview of tasks, then go to "Record purchases with purchase inv
   - In the observatory: [Page 146 "Posted Purchase Invoices"](../../../objects/page/146.md), [Page 233 "Apply Vendor Entries"](../../../objects/page/233.md), [Page 5855 "Posted Purchase Document Lines"](../../../objects/page/5855.md)
 - [Purchase items for a sale](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-purchase-products-sale): Create a purchase invoice for a vendor or supplier directly from a sales invoice to buy products needed for a sale.
   - In the observatory: [Page 48 "Sales Orders"](../../../objects/page/48.md)
-- [Receive and convert electronic documents](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents): Learn how to receive and convert electronic documents in Business Central, either directly from trading partners or through an OCR service.
+- [Receive and Convert Electronic Documents](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents): Learn how to receive and convert electronic documents in Business Central, either directly from trading partners or through an OCR service.
 - [Record purchases with purchase invoices](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-record-purchases): Describes how to purchase inventory, noninventory items, or resources by creating and posting purchase invoices or orders.
   - In the observatory: [Page 8510 "Over-Receipt Codes"](../../../objects/page/8510.md)
 - [Save Business Contacts to Microsoft Outlook](https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook): Learn how to synchronize Business Central contacts with Microsoft Outlook and Teams to streamline communication and access contact details effortlessly.
@@ -637,7 +640,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10290 [Main] -Drop shipment undo receipt fails for service and non-inventory items.](../../../changes/bcapps/10290.md) (code change): "Undo receipt and undo shipment operations now work correctly for drop shipments"
 - [#10528 Track receipt on invoice per purchase order line](../../../changes/bcapps/10528.md) (code change): "Receipt on invoice can now be set per purchase order line"
-- [#10700 29.x: PO matching API, E-Documents integration and receipt-on-invoice line tracking](../../../changes/bcapps/10700.md) (code change): "purchase order matching API to the Base Application, with receipt-on-invoice"
+- [#10700 29.x: PO matching API, E-Documents integration and receipt-on-invoice line tracking](../../../changes/bcapps/10700.md) (code change): "New Base Application codeunits for PO matching, matching groups, matched order lines"
 - [#10898 [Extensibility Request] issue 30434: add purchase prepayment amount event](../../../changes/bcapps/10898.md) (code change): "purchase prepayment amount event. An extensibility event allows purchase prepayment"
 - [#11134 [Main][All-E][Repair Item] Posted Purchase Invoice Order No. is blank when invoice rounding creates a generated line](../../../changes/bcapps/11134.md) (code change): "Posted Purchase Invoice Order No. is blank when invoice rounding"
 - [#11149 [BE][Purchase Ledger Report] Wrong VAT Amounts on the report](../../../changes/bcapps/11149.md) (code change): "Belgium-specific Purchase Ledger report now displays correct VAT"
@@ -646,6 +649,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11274 [Master]-[Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location](../../../changes/bcapps/11274.md) (code change): "Undo Shipment fails with blank Bin Code at bin-mandatory location"
 - [#11339 Prevent order matching for invoice lines created by Get Receipt Lines](../../../changes/bcapps/11339.md) (code change): "Matched order line functionality now rejects invoice lines created through Get Receipt"
 - [#11367 [29.X][Repair Item][SaaS][Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location](../../../changes/bcapps/11367.md) (code change): "Undo Shipment fails with blank Bin Code at bin-mandatory location"
+- [#11560 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. Send path (Self-Billed Purchase Invoice/Credit Memo → E-Document)](../../../changes/bcapps/11560.md) (code change): "Enables exporting self-billed purchase invoices and credit memos as Peppol BIS 3.0 e-documents"
 - [#12003 [Main]- Project Planning Lines are created in reverse order when purchase line descriptions are copied](../../../changes/bcapps/12003.md) (code change): "Project Planning Lines are created in reverse order when posting purchase invoices"
 - [#12532 [Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../changes/bcapps/12532.md) (code change): "Dispute Status code is not retained in some scenarios within the Vendor/Purchase"
 - [#12723 [Master]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../../../changes/bcapps/12723.md) (code change): "changing the Description on a purchase invoice line no longer resets its Quantity"
@@ -654,12 +658,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12867 [29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../../../changes/bcapps/12867.md) (code change): "editing the Description on purchase invoice or credit memo subform lines reset the Quantity to 1"
 - [#12931 [29.x][Repair Item] Purchase Order vendor change is automatically applied to the next order after navigation](../../../changes/bcapps/12931.md) (code change): "Purchase Order vendor change is automatically applied to the next order"
 - [#13075 [MAIN] [IN] Add extensibility events to support deferred TDS calculation on purchase documents](../../../changes/bcapps/13075.md) (code change): "deferred TDS calculation on purchase documents"
+- [#13344 [29.x]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order](../../../changes/bcapps/13344.md) (code change): "Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced'"
 - [#13358 [main] bug 656582 Add Maintenance Code field on purchase order subpage and purchase invoice subpage](../../../changes/bcapps/13358.md) (code change): "Maintenance Code field added to the Purchase Order Subform"
 - [#13396 [main] Purchase invoice fails with "quantity larger than item ledger entry" after partial invoicing of multiple receipts with non-base UoM and Qty. Rounding Precision = 1](../../../changes/bcapps/13396.md) (code change): "Purchase invoice fails with quantity larger than item ledger entry after partial invoicing"
 - [#13463 [29x] Add Maintenance Code field on purchase order subpage and purchase invoice subpage](../../../changes/bcapps/13463.md) (code change): "Maintenance Code field added to Purchase Order Subform"
+- [#13616 [main] but 657849 - Refactor TableRelation logic and disable validation for Bank Account fields in multiple table extensions](../../../changes/bcapps/13616.md) (code change): "SWIFT Code validation is made consistent across Czech localization by disabling table relation validation"
+- [#13628 [main] Bug 657281 [Drop Shipment] Your Reference, , Vendor Order No., and Vendor Shipment No. are blank on Posted Purchase Receipt Lines](../../../changes/bcapps/13628.md) (code change): "Drop shipment receipts now correctly populate Your Reference, Vendor Order No., and Vendor Shipment No."
 - [#9044 [Master] Contact email is no validated during creation purchase documents_New](../../../changes/bcapps/9044.md) (code change): "Contact email validation is restored during purchase document creation"
 - [#9084 Bug 640321: Blanket Purch. Order to Order drops extended text for later items](../../../changes/bcapps/9084.md) (code change): "Fixes a bug where extended text lines are dropped when converting blanket purchase orders"
-- [#9145 [E-Document] Show PDF preview factbox on purchase invoice pages](../../../changes/bcapps/9145.md) (code change): "PDF preview factbox is added to purchase invoice pages to display"
 - [#9182 Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents](../../../changes/bcapps/9182.md) (code change): "Pay-to Name 2 field on purchase documents is now editable"
 - [#9443 [Extensibility Request] issue 30222: add handled event before RecreatePurchLines in Pay-to Vendor No. validation](../../../changes/bcapps/9443.md) (code change): "integration event OnValidatePayToVendorNoOnBeforeRecreatePurchLines was added to the Pay-to Vendor No. field validation in Purchase Header"
 - [#9446 [Extensibility Request] issue 30216: add OnPostItemJnlLineJobConsumptionOnBeforePrepareJobLine event in codeunit 90 Purch.-Post](../../../changes/bcapps/9446.md) (code change): "new integration event OnPostItemJnlLineJobConsumptionOnBeforePrepareJobLine is added to codeunit 90 Purch.-Post"

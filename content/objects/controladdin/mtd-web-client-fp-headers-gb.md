@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:47:35.044Z"
+  at: "2026-11-12T00:45:23.971Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 833b75c32c0d1b95cbee698afb1cd6f9cc90ec15f59d9e799c75afba6101d881
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/GB/UKMakingTaxDigital/app/src/FraudPrevention/MTDWebClientFPHeaders.ControlAddIn.al
+    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/GB/UKMakingTaxDigital/app/src/FraudPrevention/MTDWebClientFPHeaders.ControlAddIn.al
     title: src/Apps/GB/UKMakingTaxDigital/app/src/FraudPrevention/MTDWebClientFPHeaders.ControlAddIn.al (releases/29.x)
     date: null
-    commit: 2c932722a2917f4592f1541d4d85dc247c8942ac
+    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
     t: null
     quote: null
 links:
@@ -74,7 +74,7 @@ relations:
 
 > Control add-in "MTD Web Client FP Headers" (GB) in the GB country layer. 2 public procedures. Introduced in BC29, still in BC30.
 
-GB country layer · BC29-30 · [source at 2c932722](https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/Apps/GB/UKMakingTaxDigital/app/src/FraudPrevention/MTDWebClientFPHeaders.ControlAddIn.al) · facts from BC29
+GB country layer · BC29-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/GB/UKMakingTaxDigital/app/src/FraudPrevention/MTDWebClientFPHeaders.ControlAddIn.al) · facts from BC29
 
 An object of the [GB localization](../../localizations/gb.md), not part of W1.
 

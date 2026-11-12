@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:51.650Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,22 +49,13 @@ links:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c
   guidelines: []
   changes:
-    - change/bcapps/10437
     - change/bcapps/10466
+    - change/bcapps/10480
     - change/bcapps/10526
-    - change/bcapps/11484
-    - change/bcapps/11527
-    - change/bcapps/11846
-    - change/bcapps/11895
-    - change/bcapps/12055
-    - change/bcapps/12070
-    - change/bcapps/12148
-    - change/bcapps/12196
-    - change/bcapps/12229
-    - change/bcapps/12306
-    - change/bcapps/12561
     - change/bcapps/13065
-    - change/bcapps/13579
+    - change/bcapps/13174
+    - change/bcapps/13507
+    - change/bcapps/13508
     - change/bcapps/9014
     - change/bcapps/9124
     - change/bcapps/9208
@@ -120,22 +111,13 @@ Start with the business events page if you want to trigger Power Automate flows 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10437 [FR E-Reporting] Add payment and invoice lifecycle messages](../../../changes/bcapps/10437.md) (code change): "E-Document message lifecycle infrastructure and French electronic invoicing support added"
 - [#10466 Resolve purchase lines to items on exact description match](../../../changes/bcapps/10466.md) (code change): "Inbound purchase invoice lines now resolve to items when the description exactly matches"
-- [#10526 Use BaseApp's new PO Matching module in E-Documents](../../../changes/bcapps/10526.md) (code change): "Integrates BaseApp's new PO Matching API surface into E-Document creation workflow"
-- [#11484 [E-Documents Core] - Supported type direction configuration](../../../changes/bcapps/11484.md) (code change): "E-Document services now support per-document-type direction configuration"
-- [#11527 E-document payment improvements](../../../changes/bcapps/11527.md) (code change): "E-Document payment processing now supports durable, retryable occurrences"
-- [#11846 Fix View file on outgoing E-Documents to open the exported file](../../../changes/bcapps/11846.md) (code change): "Fix View file on outgoing E-Documents to open the exported file"
-- [#11895 Make Reject Order reachable on inbound sales order drafts and confirm…](../../../changes/bcapps/11895.md) (code change): "Reject Order action for inbound sales orders is now accessible"
-- [#12055 [E-Documents Core] Show error for unmatched inbound Order Response](../../../changes/bcapps/12055.md) (code change): "Unmatched inbound PEPPOL Order Responses now produce a descriptive error"
-- [#12070 Fix inconsistent CLEAN27/CLEAN28 tags in E-Document apps](../../../changes/bcapps/12070.md) (code change): "E-Document apps now use consistent CLEAN27 and CLEAN28 tags"
-- [#12148 [E-Documents Core] [Peppol] - Make PEPPOL Order Response conformant with BIS 28 (T76) and report the seller's decision](../../../changes/bcapps/12148.md) (code change): "PEPPOL Order Response messages now conform to BIS 28 standard"
-- [#12196 [Master Data Management] Disable cross-env setup action OnPrem and fix field visibility issues](../../../changes/bcapps/12196.md) (code change): "Master Data Management cross-environment setup action is now disabled for on-premises"
-- [#12229 #12144 Enable Inbound E-Documents page extensibility](../../../changes/bcapps/12229.md) (code change): "Inbound E-Documents page is made extensible to allow"
-- [#12306 Warn before releasing a purchase order that was already sent electronically](../../../changes/bcapps/12306.md) (code change): "releasing a purchase order that was already electronically sent"
-- [#12561 [Shopify] Preserve tax match after rate conflict](../../../changes/bcapps/12561.md) (code change): "The internal OnBeforeCreateSalesHeader event can now return an intentional hold message"
-- [#13065 Issue#10580:[Extensibility Request] Make Business Central's E-Document object extensible.](../../../changes/bcapps/13065.md) (code change): "E-Document Purchase Draft page is made extensible. Enables third-party developers to extend"
-- [#13579 Fix synchronization error event record context](../../../changes/bcapps/13579.md) (code change): "LogSynchError passes the populated, inserted IntegrationSynchJobErrors record to OnAfterLogSynchError event"
+- [#10480 [Bug Fix] #250: Honor ImportFSSolution TryFunction result in FS setup wizard](../../../changes/bcapps/10480.md) (code change): "Field Service connection setup wizard now properly checks the result of the ImportFSSolution function"
+- [#10526 Use BaseApp's new PO Matching module in E-Documents](../../../changes/bcapps/10526.md) (code change): "E-Documents now leverages BaseApp's new PO Matching module to support one-to-many matching"
+- [#13065 Issue#10580:[Extensibility Request] Make Business Central's E-Document object extensible.](../../../changes/bcapps/13065.md) (code change): "E-Document Purchase Draft page is made extensible"
+- [#13174 [E-Documents] Remove the PDF reader service credit memo upgrade](../../../changes/bcapps/13174.md) (code change): "Removes obsolete upgrade code with no behavior change"
+- [#13507 [E-Document] Add AKV switch for PA-related LLM calls](../../../changes/bcapps/13507.md) (code change): "E-Document AI processing now supports switching between LLM models"
+- [#13508 [E-Document] Add AKV switch for PA LLM calls (29.x)](../../../changes/bcapps/13508.md) (code change): "E-Document AI processing now supports switching between different LLM models"
 - [#9014 [E-Document] Remove Access = Internal from E-Doc. Data Exchange Impl. codeunit](../../../changes/bcapps/9014.md) (code change): "Partners can now call its functions from their own E-Document implementations"
 - [#9124 [E-Document] [Payables Agent] Users can personalize-in the Name column on the draft page](../../../changes/bcapps/9124.md) (code change): "New OnAfterGetMatchedEntityName integration event for connector apps"
 - [#9208 [Enforced Digital Vouchers] - Attaching EDocuments when using Digital Vouchers](../../../changes/bcapps/9208.md) (code change): "Attaching EDocuments when using Digital Vouchers"

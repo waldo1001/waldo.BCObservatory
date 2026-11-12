@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.623Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -126,7 +126,7 @@ The migration page is for anyone with existing .NET add-ins. It describes the mo
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#11013 Remove 43 unused DotNet alias declarations](../../../../changes/bcapps/11013.md) (code change): "Remove 43 unused DotNet alias declarations from the DotNet Aliases"
+- [#11013 Remove 43 unused DotNet alias declarations](../../../../changes/bcapps/11013.md) (code change): "Removed 43 unused DotNet alias declarations from the DotNet Aliases app"
 - [Dynamics 365 Business Central on-prem: be careful when referencing .NET assemblies across versions.](../../../../posts/demiliani-com/12123.md) (community post): "ensure assemblies are compiled for .NET Standard if targeting version 21 or later"
 - [Business Central Is Transitioning to .NET 10, and Here's What You Should Check](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-is-transitioning-to-dotnet-10--d3cb2afda2.md) (community post): "Business Central is transitioning from .NET 8 to .NET 10"
 

@@ -2,7 +2,7 @@
 id: topic/business-central/get-started/get-productive-in-business-central
 type: topic
 title: Get productive in Business Central
-summary: "Everyday use of Business Central: entering data, finding pages and records (Tell Me, Role Explorer, search, filters), personalizing the workspace, running reports, sharing data, and adjusting settings. It answers how-to questions for end users, plus document layouts, accessibility and performance."
+summary: "Everyday use of Business Central: settings, data entry, dates, search (Tell Me, Role Explorer), sorting and filtering, notifications, attachments, Copilot, and performance tips. It also links to subtopics on Microsoft 365 apps, personalization, reports, document layouts, sharing, and accessibility."
 tier: official
 language: en
 review:
@@ -11,37 +11,37 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9eb923232021400cddedd7c123ac868afe3a9c7efd6a7ea2cd03dda3efaafb11
+  input_hash: bc370b148bef4cade3cf84954b627c8be216ff62714fe7511b80998313a0d38d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
-    title: (Obsolete) Create and modify custom report layouts
-    date: "2025-03-12"
+    title: (Obsolete) Create and Modify Custom Report Layouts
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-import-and-export-report-layout
     title: (Obsolete) Import and Export Custom Report Layouts
-    date: "2021-04-01"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report
     title: (Obsolete) Set the Layout Used by a Report
-    date: "2022-03-07"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts
     title: (Obsolete) Update Custom Report Layouts
-    date: "2021-06-24"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -54,7 +54,7 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
-    title: Available fonts
+    title: Available Fonts in Business Central
     date: "2025-02-28"
     commit: null
     t: null
@@ -181,7 +181,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings
     title: Manage Saved Settings for Reports and Batch Jobs
-    date: "2021-12-21"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -236,8 +236,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-work-report
-    title: Run and print reports in Business Central
-    date: "2025-03-21"
+    title: Run and Print Reports in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -433,24 +433,24 @@ narrative: generated
 
 # Get productive in Business Central
 
-> Everyday use of Business Central: entering data, finding pages and records (Tell Me, Role Explorer, search, filters), personalizing the workspace, running reports, sharing data, and adjusting settings. It answers how-to questions for end users, plus document layouts, accessibility and performance.
+> Everyday use of Business Central: settings, data entry, dates, search (Tell Me, Role Explorer), sorting and filtering, notifications, attachments, Copilot, and performance tips. It also links to subtopics on Microsoft 365 apps, personalization, reports, document layouts, sharing, and accessibility.
 
 Path: [Get started](../get-started.md) > Get productive in Business Central · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the daily skills of a Business Central user. Its own pages cover data entry, dates and times, required fields, attachments and notes, sorting, searching and filtering, and finding things with Tell Me, Role Explorer and data search. They also cover notifications, error messages, switching company or environment, language and region settings, and performance tips and the Performance Profiler.
+This section helps new and existing users work efficiently in Business Central. Its own pages cover the basics: changing My Settings (role, company, work date, region, language, time zone), switching companies or environments, entering data and dates, recognizing required fields, and handling warnings and error messages.
 
 ## Key points
 
-- Tell Me finds actions, pages, reports, data and help. Advanced Tell Me adds AI-powered semantic search. Role Explorer lists the pages and reports for a role.
-- Sort, search and filter pages describe filter operators (>, <, =, <>, |, .., &, *, ?) and tokens such as %me, %user and %mycustomers. Modern and legacy search are both covered.
-- My Settings sets role, company, work date, region, language, time zone and notifications. Users can switch company or environment with the company switcher, app launcher, My Settings or Company Hub.
-- Required fields show a red asterisk. The asterisk is guidance only and does not enforce validation or block posting.
-- Attachments, links and notes go on records through the Attachments tab in the FactBox pane. Notifications can be dismissed and filtered, and error messages can be shared by Teams or email.
-- Subtopics cover Microsoft 365 apps (OneDrive, Outlook, Teams, Word, Excel), personalization, running and printing reports, document layouts (Word, Excel, RDLC), sharing data, and accessibility and shortcuts.
-- Microsoft Copilot in Business Central (preview) answers questions about company data with read-only access, starting in version 29.
-- The Performance Profiler records snapshots with call trees and time spent. A separate page gives performance tips for business users, and another troubleshoots camera and location access.
+- My Settings controls role, company, work date, region, language, time zone and notifications.
+- Tell Me finds pages, actions, reports, data and help; the Advanced tab adds AI-powered semantic search. Role Explorer shows pages and reports per role.
+- Sorting, searching and filtering use operators such as >, <, =, <>, |, .., &, *, ? and tokens such as %me and %user; modern search matches words.
+- Red asterisks mark fields expected for a process but do not enforce validation or block posting.
+- Attachments, links and notes are managed in the FactBox Attachments tab, including on document lines.
+- Notifications can be dismissed and configured with filter conditions; error messages can be shared through Teams or email.
+- The Performance Profiler records snapshots with call trees and time spent; the performance tips page covers browser, caching, quick entry and filtering.
+- Copilot in Business Central (preview) answers questions about company data with read-only access, starting in version 29.
 
 ## Subtopics
 

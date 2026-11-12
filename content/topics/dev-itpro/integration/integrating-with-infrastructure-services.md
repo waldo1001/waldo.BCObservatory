@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -55,8 +55,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-universal-print
-    title: Set Up Universal Print Printers
-    date: "2024-06-14"
+    title: Set Up Universal Print Printers in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -114,6 +114,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12064
+    - change/bcapps/12326
 learn_toc_path:
   - Integration
   - Integrating with infrastructure services
@@ -199,7 +200,7 @@ For network and operations, the service tag page shows how to use the Dynamics36
   - Permissions: AL developers can create custom telemetry messages using Feature Telemetry codeunit or LogMessage method from Session class.
   - In the observatory: [Codeunit 8703 "Feature Telemetry"](../../../objects/codeunit/8703.md)
 - [Multifactor authentication (MFA) for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/multifactor-authentication): This article explains how to add multifactor authentication (MFA) when your solution uses Microsoft Entra ID as authentication mechanism.
-- [Set Up Universal Print Printers](https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-universal-print): Learn how you can use Universal Print to provide cloud printing in Business Central.
+- [Set Up Universal Print Printers in Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-universal-print): Set up Universal Print, share printers with licensed users, and add the printers to Business Central online or on-premises for cloud printing.
 - [Use Azure security service tags](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-service-tags): List of Azure service tags for Dynamics 365 Business Central
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
@@ -209,6 +210,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12064 Support SharePoint paths containing hash and percent characters](../../../changes/bcapps/12064.md) (code change): "SharePoint connector now supports file paths containing hash and percent characters"
+- [#12326 Migrate Doc. Exchange and OCR service callers off Http Web Request Mgt.](../../../changes/bcapps/12326.md) (code change): "Document Exchange and OCR service codeunits migrate from DotNet Http Web Request Mgt to native HttpClient"
 - [Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)](../../../videos/2vUCR16b85o.md) (video): "external file storage; azure blob storage; file shares; storage accounts"
 - [20260420 - What is GitOps and why should you care](../../../videos/qqWj_2uM0ek.md) (video): "GitOps infrastructure as code; devops; pull-based deployment"
 

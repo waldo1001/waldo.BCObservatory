@@ -2,25 +2,25 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/develop-reports
 type: topic
 title: Develop reports
-summary: "Report development in Business Central: building report layouts (Word, Excel, RDLC, external, composite) and report datasets in AL. It answers how to create, edit, import, export and assign layouts, how datasets, layouts and request pages fit together, and how to tune report-related AL code."
+summary: "Developing reports in Business Central: how to build report layouts (Word, Excel, RDLC) and datasets written in AL. It answers questions about creating and managing layouts, choosing a default layout, report structure, and performance tuning for AL developers."
 tier: official
 language: en
 system: reporting
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:19:19.086Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 13904237510b56465ea956c52340d17cdb24d6c9b177768d7037378ce6248c34
+  input_hash: 398f157f8ff5c301ca5769ad2a730edf9f79a6b1dd14eee69edc41feb95011a7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
-    title: Available fonts
+    title: Available Fonts in Business Central
     date: "2025-02-28"
     commit: null
     t: null
@@ -41,8 +41,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-develop-reports
-    title: Develop report layouts and datasets
-    date: "2022-02-03"
+    title: Develop Business Central Report Layouts and Datasets
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -154,27 +154,27 @@ narrative: generated
 
 # Develop reports
 
-> Report development in Business Central: building report layouts (Word, Excel, RDLC, external, composite) and report datasets in AL. It answers how to create, edit, import, export and assign layouts, how datasets, layouts and request pages fit together, and how to tune report-related AL code.
+> Developing reports in Business Central: how to build report layouts (Word, Excel, RDLC) and datasets written in AL. It answers questions about creating and managing layouts, choosing a default layout, report structure, and performance tuning for AL developers.
 
-Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Develop reports · tier official · system reporting · narrative reviewed (checked by Opus)
+Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Develop reports · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the two halves of a Business Central report: the dataset, which is defined in AL, and the layout, which presents the data. The top-level page introduces creating and customizing layouts in Word, Excel and RDLC formats and developing datasets with AL.
+This area covers the two parts of a Business Central report: the dataset, which is defined in AL code, and the layout, which controls how the data is presented. Layouts can be Word, Excel or RDLC. The landing page introduces both and points to the subtopics.
 
-Two subtopics go deeper. Develop report layouts covers layout types, designing and mapping fields, themes, header/footer layouts, choosing which layout a report uses, and available fonts. Develop report datasets gives an overview of building reports from datasets, layouts and request pages, plus performance guidance for AL code, pages and web services.
+Develop report layouts covers creating, designing, selecting and managing Word, Excel and RDLC layouts. It also covers themes, header/footer layouts, available fonts and mapping data fields. Develop report datasets gives an overview of building reports with datasets, layouts and request pages, and adds performance guidance for AL code, pages and web services.
 
-Start with the overview page to see how the parts connect. Then go to the datasets pages if you are defining report data, or to the layouts pages if you are designing or assigning a layout.
+Start with the dataset overview to understand how a report object is structured. Then go to the layout pages for the layout type you plan to use.
 
 ## Key points
 
-- Layout types covered: Word, Excel, RDLC, external and composite.
-- Layout tasks include creating, editing, importing, exporting and assigning layouts to reports.
-- Default layout configuration and choosing the layout a report uses are covered.
-- Themes and header/footer layouts are covered, along with font availability and font management.
-- Datasets are developed in AL and combined with layouts (Excel, Word, RDL) and request pages.
-- Performance guidance for AL developers covers AL code, pages and web services.
-- The dataset subtopic has 2 pages and the layouts subtopic has 9.
+- Reports combine a dataset (AL), a layout and a request page.
+- Supported layout types are Word, Excel and RDLC.
+- Layouts can be created, imported, exported and set as the default for a report.
+- Layout pages cover themes, header/footer layouts and available fonts.
+- Layout design includes mapping data fields from the dataset.
+- Dataset pages include performance guidance for AL code, pages and web services.
+- Reports can be customized by changing the layout or by modifying the dataset in AL.
 
 ## Subtopics
 
@@ -183,7 +183,7 @@ Start with the overview page to see how the parts connect. Then go to the datase
 
 ## More Learn pages
 
-- [Develop report layouts and datasets](https://learn.microsoft.com/dynamics365/business-central/reports-develop-reports): Provides an overview of Business Central data.
+- [Develop Business Central Report Layouts and Datasets](https://learn.microsoft.com/dynamics365/business-central/reports-develop-reports): Find guidance for customizing Business Central report layouts in Word, Excel, or RDLC, and learn when a developer must change the report dataset.
 
 ## Videos and posts
 

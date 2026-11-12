@@ -6,7 +6,7 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "XRechnung export now includes the full item description instead of truncating it to 40 characters, allowing up to 100 characters as permitted by the specification.",
+  "summary": "XRechnung export in the German E-Document app no longer cuts the line item name (BT-153) to 40 characters. The full line Description, up to its 100-character field length, is now exported for sales and service invoices and credit memos.",
   "key_points": [
     "Removed 40-character limit on item names in XRechnung export for sales invoices and credit memos",
     "Full description field (up to 100 characters) is now exported without truncation",

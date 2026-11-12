@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13739",
+  "input_hash": "a3b7cc441de8cc871ba83c503cf921a37edb6f9a514d8fed87b607a025199a20",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-12T00:55:49.544Z",
+  "issues": [
+    "Description is only a work item link; the title says activating an inactive price list allowed duplicate lines.",
+    "Key point about lines being added to inactive price lists misreads the title, and 'enforce proper validation' is not supported by a one-line change. The data integrity claim is also unsupported."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019439,
+    "changes_in_call": 5
+  }
+}

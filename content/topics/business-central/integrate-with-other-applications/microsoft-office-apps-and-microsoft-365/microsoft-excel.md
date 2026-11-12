@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,7 +61,6 @@ links:
     - topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365
   localizations: []
   videos:
-    - video/_OClSlushOU
     - video/PIWxU93eCT4
   posts: []
   guidelines: []
@@ -75,7 +74,7 @@ children: []
 coverage:
   learn: 4
   code: 3
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -130,7 +129,6 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Work Seamlessly with Microsoft Outlook, Excel, and Teams](../../../../videos/_OClSlushOU.md) (video): "Export to Excel for analysis; Item discounts in Excel"
 - [What's Cooking in Business Central: Edit Sales Price Lists in Excel](../../../../videos/PIWxU93eCT4.md) (video): "Edit sales price lists in Excel"
 
 ## Business Central pages and reports

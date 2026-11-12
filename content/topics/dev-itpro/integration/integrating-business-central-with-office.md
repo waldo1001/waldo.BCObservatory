@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:05.533Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -154,6 +154,7 @@ links:
     - post/yzhums-com/72611
   guidelines: []
   changes:
+    - change/bcapps/11967
     - change/bcapps/8742
     - change/bcapps/9454
 learn_toc_path:
@@ -222,10 +223,11 @@ Excel and Word pages cover both users and report authors (Edit in Excel, report 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11967 Block Edit in Excel for pages based on the User table](../../../changes/bcapps/11967.md) (code change): "Edit in Excel now blocks page-based editing for tables that are the User table"
 - [#8742 Enhance SharePoint error handling and add tests](../../../changes/bcapps/8742.md) (code change): "SharePoint error handling now correctly parses OData verbose error responses"
 - [#9454 Fix site scoped contextinfo](../../../changes/bcapps/9454.md) (code change): "SharePoint request-digest calls now correctly target site-scoped URLs"
 - [Dynamics 365 Business Central Blog Series: Integrate Business Central with SharePoint](../../../posts/yzhums-com/63735.md) (community post): "Integrate Business Central with SharePoint. This is an index of a blog series on connecting Business Central with SharePoint."
-- [Business Central 2026 release wave 1 (BC28): Copy contacts from BC to Microsoft 365 (Outlook & Teams)](../../../posts/yzhums-com/72611.md) (community post): "Synchronize with Outlook action on the Contacts list enables copying contacts to Outlook"
+- [Business Central 2026 release wave 1 (BC28): Copy contacts from BC to Microsoft 365 (Outlook & Teams)](../../../posts/yzhums-com/72611.md) (community post): "copy contacts from BC to Microsoft 365 Outlook and Teams"
 
 ## Business Central pages and reports
 

@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/get-started/get-productive-in-business-central/run-and-print-reports",
-  "input_hash": "7749c941e8b9c2cd54227a1939c8df88cc08e323ead11b4007b65f8a92d2bb98",
-  "summary": "Running and printing reports, and running batch jobs, in Business Central. It answers questions about previewing, printing, scheduling and saving reports, saved settings, default printers, batch jobs with job queues, and test reports before posting.",
-  "overview": "This section covers the everyday tasks around getting information out of Business Central and processing data in bulk. The main page explains how to run a report, set filters, preview it, print it, save it to PDF, Word or Excel, choose a layout, and schedule it. It also covers changing language and format settings.\n\nRelated pages cover the supporting tasks. Saved settings let you store and share report and batch job options and filters. A separate page explains how to set a default printer, either for all print jobs or for specific reports. Batch jobs, such as adjusting exchange rates, run through a request page and can be scheduled with job queues. Test reports check purchase and sales documents for errors before posting.\n\nStart with \"Run and print reports in Business Central\" for the basic flow. Then go to saved settings and default printer pages to reduce repeated setup, and to Run Batch Jobs for periodic accounting activities.",
+  "input_hash": "606a679394262c2d5cbc57dd17d3e23bf9cb8f0331097d8d17cd65dadbe34d6d",
+  "summary": "Running and printing reports in Business Central: finding and opening reports, request pages, saved settings, batch jobs, default printers, and test reports before posting. It answers how-to questions about previewing, printing, saving, scheduling, and setting up printers.",
+  "overview": "This section covers the everyday work of getting data out of Business Central and processing it in bulk. The main page explains how to find and open a report, set filters and options on the request page, and then preview, print, save, or schedule it to the job queue. Reports can be saved to PDF, Word, Excel, or XML.\n\nRelated pages cover the supporting tasks. Saved settings let you keep and reuse report and batch job options and filters, for one user or for everyone in a company. Run Batch Jobs covers data processing tasks such as adjusting exchange rates, with scheduling through job queues. The printer page explains how default printers are chosen. The test report page shows how to check purchase and sales documents for errors before posting.\n\nStart with Run and Print Reports in Business Central for the general flow. Then go to saved settings, printer setup, or batch jobs as needed.",
   "key_points": [
-    "Reports can be run, previewed, printed, scheduled, or saved as PDF, Word or Excel files.",
-    "Filters, layouts, language and format settings can be chosen when running a report.",
-    "Saved settings store default options and filters for reports and batch jobs, and can be created, modified and shared with users.",
-    "Default printers can be set for all print jobs or for specific reports, at user or global level, including cloud printers and PDF output.",
-    "Printer options mentioned include universal print and email printers.",
-    "Batch jobs process data in batches and handle periodic accounting tasks such as Adjust Exchange Rates and finance charge calculation.",
-    "Batch jobs can be scheduled using job queues, with settings on the Options FastTab and filter criteria.",
+    "Report request pages hold filters and options; you can preview, print, save, or schedule the report from there.",
+    "Reports can be saved as PDF, Word, Excel, or XML, and can be scheduled to the job queue.",
+    "Saved settings are managed on the Report Settings page. They can be user-specific or shared, copied and edited, and can include last used options and filters.",
+    "Batch jobs process data in batches and do periodic accounting tasks such as Adjust Exchange Rates and finance charge calculation.",
+    "Batch jobs use an Options FastTab and filter criteria, and can be scheduled through job queues.",
+    "Default printers can be set for all users, a specific user, or a specific report via the Printer Management and Printer Selections pages.",
+    "A printer selection hierarchy applies, and the default can be overridden on the report request page. Universal Print integration is mentioned.",
     "The Test Report action on purchase and sales documents finds errors or missing information before posting."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-11T00:58:40.643Z",
+  "at": "2026-11-12T00:56:55.083Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011703
+    "cost_usd": 0.012490999999999999
   }
 }

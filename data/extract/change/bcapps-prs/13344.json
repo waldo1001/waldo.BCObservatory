@@ -6,13 +6,13 @@
   "systems_joined": [
     "purchasing"
   ],
-  "summary": "When a purchase credit memo is created by copying a posted invoice and then posted, the received and invoiced quantities on the original purchase order are no longer incorrectly reverted to zero. The fix ensures that only corrective credit memos with linked item ledger entries affect the source order.",
+  "summary": "Posting a purchase credit memo made by copying a posted invoice no longer reverts the received and invoiced quantities on the original purchase order. GetPurchaseInvoiceLine now skips the Order No. fallback for inventory item lines with no linked item ledger entry, while the corrective credit memo flow still reverts as designed.",
   "key_points": [
-    "Added IsCorrectiveCreditMemo helper method to detect when a credit memo line has no linked item ledger entry",
-    "Prevents the Order No./Order Line No. fallback logic from updating source purchase order quantities for copied credit memos",
-    "Corrective credit memo flow with item ledger entries remains unaffected and continues reverting as designed",
-    "Applied across all regional layers (W1, NA, BE, CZ, IT, ES, FI, GB, NO, APAC, RU, SE)",
-    "Added test cases to verify the fix works correctly for purchase order document copying scenarios"
+    "New IsCorrectiveCreditMemo helper adds an early exit in Purch. Cr. Memo Line GetPurchaseInvoiceLine",
+    "For inventory item lines with no linked item ledger entry, the Order No. / Order Line No. fallback is skipped",
+    "Corrective credit memos that apply item ledger entries still revert the order as before",
+    "Table change made in the W1, NA, BE, ES, FI, GB, IT, NO, APAC, RU and SE layers",
+    "Tests added in W1, NA, BE, CZ and IT; background posting tests adjusted"
   ],
   "change_kind": "fix",
   "behavior_change": true,

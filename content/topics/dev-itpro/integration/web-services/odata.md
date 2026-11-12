@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -143,9 +143,6 @@ links:
     - post/thinkaboutit-be/7061
     - post/yzhums-com/48974
   guidelines: []
-  changes:
-    - change/bcapps/12324
-    - change/bcapps/8051
 learn_toc_path:
   - Integration
   - Web services
@@ -207,12 +204,10 @@ For operations, use the performance guidelines, the troubleshooting page on erro
 - [Using OData transactional $batch requests](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-odata-batch): How to specify that all inner requests in a certain OData $batch request are processed in a transactional way in Business Central.
 - [Using OData with Queries That are Set with a Top Number of Rows](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-odata-with-queries-set-with-top-number-of-rows): Learn about using queries that are set with a top number of rows.
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#12324 Obsolete Http Web Request Mgt. usage in public API (webhooks, OData)](../../../../changes/bcapps/12324.md) (code change): "Http Web Request Mgt usage is removed from webhook and OData"
-- [#8051 [Edit in Excel] Expose ExternalizeODataObjectName and add Page Control Field publisher](../../../../changes/bcapps/8051.md) (code change): "exposes ExternalizeODataObjectName as public procedure for external apps to convert field and service names to OData format"
 - [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "Pages exposed as OData web services will no longer be available"
 - [Quick Tip: Say Goodbye to OData on Microsoft Pages in Business Central 2027 Wave 1 (version 30.0)](../../../../posts/thinkaboutit-be/7061.md) (community post): "Microsoft no longer allows exposing Microsoft-authored pages as OData endpoints"
 - [Dynamics 365 Business Central: How to use the OData V4 IN operator in web service queries](../../../../posts/yzhums-com/48974.md) (community post): "OData V4 IN operator simplifies web service queries in Business Central"

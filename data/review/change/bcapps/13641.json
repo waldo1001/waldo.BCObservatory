@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/13641",
+  "input_hash": "1ded437d75760f8b205c2be75e15c14b8d820b6255e0c98759c1abdf1a3888b5",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-12T00:55:54.837Z",
+  "issues": [
+    "Summary and key points match the description: customer templates are preserved, alternative names are used, the legacy page 99000886 is migrated, and templates are reused.",
+    "Flags and the empty obsoletions list are correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020559,
+    "changes_in_call": 6
+  }
+}

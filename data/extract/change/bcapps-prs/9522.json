@@ -6,15 +6,14 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "A new event was added to the Inventory Profile Offsetting codeunit to allow extensions to respond when quantity increases.",
+  "summary": "Adds a new OnAfterIncreaseQty integration event to the Inventory Profile Offsetting codeunit, so extensions can hook in after a quantity increase during planning.",
   "key_points": [
-    "New OnAfterIncreaseQty event added to codeunit 99000854",
-    "Enables extensions to hook into quantity increase operations",
-    "Minimal code change with 8 lines added and 1 removed",
-    "Addresses issue #9473 and AB#647952"
+    "New OnAfterIncreaseQty event in codeunit 99000854 Inventory Profile Offsetting",
+    "Event request from a community contributor (issue #9473)",
+    "No change to existing logic; extensions can now subscribe"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

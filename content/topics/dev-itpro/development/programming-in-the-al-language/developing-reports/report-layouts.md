@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts
 type: topic
 title: Report layouts
-summary: "Report layouts in Business Central AL development: creating and designing Word, Excel, RDLC/RDL and custom layouts, defining multiple layouts per report, barcodes and fonts, hyperlinks, selecting layouts per company or customer, and custom renderers. Answers how-to and setup questions about layout authoring and assignment."
+summary: "Report layouts in Business Central AL development: creating and managing Word, Excel, RDLC and RDL layouts, defining multiple layouts per report, barcodes and fonts, hyperlinks, custom renderers, and customer/vendor document layouts. Answers how-to, setup and limits questions, and flags obsolete pages."
 tier: official
 language: en
 system: reporting
@@ -12,37 +12,37 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 7aa7b3e8ea29c6029d7d469c25110b881f0a2304462a0cc9a2f3d65de30b968f
+  input_hash: 55e072e6c2d4f4b4b2e04aa85111101fde129916484fc0fd48f9693732da1b9f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
-    title: (Obsolete) Create and modify custom report layouts
-    date: "2025-03-12"
+    title: (Obsolete) Create and Modify Custom Report Layouts
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-import-and-export-report-layout
     title: (Obsolete) Import and Export Custom Report Layouts
-    date: "2021-04-01"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report
     title: (Obsolete) Set the Layout Used by a Report
-    date: "2022-03-07"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts
     title: (Obsolete) Update Custom Report Layouts
-    date: "2021-06-24"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -55,7 +55,7 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
-    title: Available fonts
+    title: Available Fonts in Business Central
     date: "2025-02-28"
     commit: null
     t: null
@@ -277,40 +277,35 @@ narrative: generated
 
 # Report layouts
 
-> Report layouts in Business Central AL development: creating and designing Word, Excel, RDLC/RDL and custom layouts, defining multiple layouts per report, barcodes and fonts, hyperlinks, selecting layouts per company or customer, and custom renderers. Answers how-to and setup questions about layout authoring and assignment.
+> Report layouts in Business Central AL development: creating and managing Word, Excel, RDLC and RDL layouts, defining multiple layouts per report, barcodes and fonts, hyperlinks, custom renderers, and customer/vendor document layouts. Answers how-to, setup and limits questions, and flags obsolete pages.
 
 Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Report layouts · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Report layouts control the content and format of reports and documents. Supported types are Word, Excel, RDLC/RDL and external layouts, plus composite layouts that combine reusable themes with headers and footers. The overview page and "Get started creating report layouts" explain the types and the basic cycle of copying, exporting, modifying, importing and validating a layout.
-
-Type-specific pages cover authoring. For Word: creating a Word layout report, designing with the Business Central add-in, mapping fields with the XML Mapping pane, hyperlinks, and authoring tips. For Excel: creating layouts in the client and the developer guide on the data contract. For RDL/RDLC: SQL Server Report Builder or the Visual Studio designer. Developer pages cover defining multiple layouts in the rendering section, adding barcodes, available fonts, and writing a custom report render.
-
-Layout assignment is covered by the pages on setting the layout used by a report and defining document layouts for customers and vendors. Pages marked (Obsolete) describe the older custom layout management for RDLC and Word. Prefer the newer pages unless you maintain legacy setups. Start with the overview, then pick the layout type you need.
+This section covers how report output is designed and selected. It starts with overview and getting-started pages that explain layout types (Word, Excel, RDLC, external), subtypes (Default, Body), composite layouts with reusable themes and headers/footers, and layout status management. Pages on setting the layout used by a report explain default layouts per company and choosing a layout from the request page.
 
 ## Key points
 
-- Layout types: Word, Excel, RDLC/RDL, external, and composite layouts that combine reusable themes, headers and footers.
-- Multiple layouts for one report are defined in the AL rendering section, with Caption, Summary, DefaultRenderingLayout and obsolescence properties.
-- Word layouts use a custom XML part and the XML Mapping pane, or the Business Central add-in (Add Data pane, tables, repeaters, hide-if-empty controls).
-- Word hyperlinks on text and pictures use URL columns named with the _Url and _UrlText suffixes.
-- Excel layouts support PivotTables, PivotCharts, multiple worksheets, translations and ExcelLayoutMultipleDataSheets in the data contract.
-- RDLC/RDL layouts are designed with SQL Server Report Builder or the Visual Studio RDLC designer.
-- Barcodes use the Barcode Font Provider interface, Barcode Symbology enum, EncodeFont and ValidateInput, with IDAutomation fonts available online.
-- Default layouts are set per company, or per customer and vendor document type. Users can also switch layout from the report request page.
+- Start with Report and document layouts overview and Get started creating report layouts for current workflows.
+- Word layouts: create with the Business Central add-in or XML Mapping pane, use ReportMetadata and ReportRequest dataitems, hyperlinks via _Url and _UrlText columns.
+- Excel layouts: use PivotTables and formulas, a data contract, system worksheets, translations and ExcelLayoutMultipleDataSheets.
+- RDL and RDLC layouts are designed in SQL Server Report Builder or the Visual Studio RDLC designer.
+- Multiple layouts per report are defined in the rendering section with Caption, Summary and DefaultRenderingLayout properties.
+- Barcodes use the Barcode Font Provider interface, Barcode Symbology enum, EncodeFont and ValidateInput, with IDAutomation fonts.
+- Custom renderers are built with the OnCustomDocumentMergerEx event.
+- Four pages marked (Obsolete) describe legacy create, import/export, set and update procedures and point to the current pages.
 
 ## Learn pages
 
-- [(Obsolete) Create and modify custom report layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout): Learn how to create customized layouts to personalize the appearance of a report when viewed, printed, or saved.
-- [(Obsolete) Import and Export Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-import-and-export-report-layout): You can import and export an existing custom report layout as a file to and from a location on your computer and network.
-  - In the observatory: [Page 9660 "Report Layouts"](../../../../../objects/page/9660.md)
-- [(Obsolete) Set the Layout Used by a Report](https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report): You can use different layouts for a report, and switch between layouts to change how a report looks.
-- [(Obsolete) Update Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts): Learn how to update a custom report layout used on a report when there are design changes to the report's data set, for example.
+- [(Obsolete) Create and Modify Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout): Create, copy, and modify report layouts in versions of Business Central that still provide the legacy Custom Report Layouts page and its actions.
+- [(Obsolete) Import and Export Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-import-and-export-report-layout): Export and import Word or RDLC layout files in versions of Business Central that still provide the legacy Custom Report Layouts page and its actions.
+- [(Obsolete) Set the Layout Used by a Report](https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report): Change the layout used by a report in versions of Business Central that still include the legacy Report Layout Selection and Custom Report Layouts pages.
+- [(Obsolete) Update Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts): Test and update legacy custom report layouts after dataset changes in Business Central, and find guidance for changes that require manual fixes.
   - In the observatory: [Page 9656 "Report Layout Update Log"](../../../../../objects/page/9656.md)
 - [Adding barcodes to reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-add-barcodes): Learn how you can add barcodes to a report.
   - In the observatory: [Codeunit 9215 "IDAutomation 1D Provider"](../../../../../objects/codeunit/9215.md), [Codeunit 9221 "IDAutomation 2D Provider"](../../../../../objects/codeunit/9221.md)
-- [Available fonts](https://learn.microsoft.com/dynamics365/business-central/ui-fonts): Learn about the preinstalled fonts that you can use for your externally facing reports.
+- [Available Fonts in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-fonts): Learn about fonts for Business Central report layouts, including document fonts, MICR and check security fonts, barcode fonts, and OCR fonts.
 - [Barcode Fonts with Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts): Describes the barcode fonts available with Business Central Online.
 - [Create Excel Report Layouts in Business Central](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and import Excel report layouts in Business Central, configure data sheets, and preserve the dataset structure in your workbook.
 - [Creating a Word layout report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-report-layout): Learn how to create a report that uses a Word layout.

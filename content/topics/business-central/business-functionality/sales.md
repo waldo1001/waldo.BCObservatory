@@ -12,7 +12,7 @@ review:
   at: "2026-11-07T01:06:35.638Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -480,9 +480,7 @@ links:
     - video/TSLXzbeyE7Y
   posts:
     - post/aardvarklabs-blog/2759
-    - post/demiliani-com/11739
     - post/duiliotacconi-com/1667
-    - post/gerardorenteria-blog/14595
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561
@@ -499,6 +497,7 @@ links:
     - post/yzhums-com/71304
     - post/yzhums-com/71489
     - post/yzhums-com/71648
+    - post/yzhums-com/74172
     - post/yzhums-com/74940
     - post/yzhums-com/75073
   guidelines: []
@@ -560,7 +559,7 @@ coverage:
   learn: 133
   code: 138
   video: 7
-  blog: 22
+  blog: 21
   guideline: 0
 bc_forms:
   - 7
@@ -833,9 +832,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9960 [Extensibility Request] issue 30396: expose sales document lookup](../../../changes/bcapps/9960.md) (code change): "The lookup procedure in the Copy Sales Document report is now public"
 - [#9984 [Main] Error with unposted prepayment amounts on Order](../../../changes/bcapps/9984.md) (code change): "unposted prepayment amounts on sales and purchase orders"
 - [Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL](../../../posts/aardvarklabs-blog/2759.md) (community post): "customer-facing text for invoices in Business Central using Copilot"
-- [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../../posts/demiliani-com/11739.md) (community post): "reads customer emails, clarifies missing details over multi-turn email, checks item availability"
 - [Sorting by Type and Line No. in Sales and Purchase Postings](../../../posts/duiliotacconi-com/1667.md) (community post): "sales and purchase posting process lines ordered by Type and then Line No."
-- [New Application Ideas of Dynamics 365 Business Central (2026 APR)](../../../posts/gerardorenteria-blog/14595.md) (community post): "Community-submitted feature ideas span multiple Business Central modules including finance, sales, purchasing"
 - [How to Email Posted Sales Shipments and Return Receipts in Business Central 2026 Wave 1.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97.md) (community post): "email delivery, PDF generation, and attachment management for Posted Sales Shipments"
 - [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) (community post): "Shipping Agent Code and Shipping Agent Service Code exist on both Sales Order fields"
 - [BC Friday Tips #74 Copy Document and Custom Field](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) (community post): "Custom fields added to Sales tables are automatically included when users copy documents"
@@ -852,6 +849,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 1 (BC28): Create purchase orders from drop shipments](../../../posts/yzhums-com/71304.md) (community post): "sales orders marked for drop shipment via the Create Purchase Orders"
 - [Business Central 2026 release wave 1 (BC28): Reverse drop shipments when sales and purchase documents aren’t invoiced](../../../posts/yzhums-com/71489.md) (community post): "allows undoing a posted sales shipment from a drop shipment via the Undo Shipment action"
 - [Business Central 2026 release wave 1 (BC28): Filter receipt and shipment lines to quickly find documents you want to invoice (New filters on the Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages)](../../../posts/yzhums-com/71648.md) (community post): "Get Shipment Lines, and Get Service Shipment Lines pages to help users"
+- [Dynamics 365 Business Central: How to flow/pass custom field values from Sales Order to Production Order](../../../posts/yzhums-com/74172.md) (community post): "carry custom field values from a Sales Order to the Production Order created from it"
 - [Dynamics 365 Business Central: Searches for duplicate external document numbers in sales documents and posted documents (Standard function/procedure)](../../../posts/yzhums-com/74940.md) (community post): "searches for duplicate external document numbers in sales documents and posted documents"
 - [Dynamics 365 Business Central: How to add a Signature Pad to the Sales Order page (Capture and Save Customer Signatures)](../../../posts/yzhums-com/75073.md) (community post): "Adding a signature pad to the Sales Order page in Business Central"
 - [Tips and Tricks for Better Pasting with Magic Page for Business Central](../../../videos/cwCZUHgDb9Q.md) (video): "Magic Paste bulk customer creation; Magic Paste key-based record updates"

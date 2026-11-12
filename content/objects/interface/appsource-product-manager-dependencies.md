@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:47:35.044Z"
+  at: "2026-11-12T00:45:23.971Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1871937b9d8b04a269cfa4343c79b1bdccfae882e91ff96927223ccf2d53f7d9
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/System%20Application/App/AppSource%20Gallery/src/AppSourceProductManagerDependencies.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/System%20Application/App/AppSource%20Gallery/src/AppSourceProductManagerDependencies.Interface.al
     title: src/System Application/App/AppSource Gallery/src/AppSourceProductManagerDependencies.Interface.al (releases/29.x)
     date: null
-    commit: 2c932722a2917f4592f1541d4d85dc247c8942ac
+    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Interface "AppSource Product Manager Dependencies" in System Application (System.Apps.AppSource). 8 public procedures. Introduced in BC24, still in BC30.
 
-System Application · System.Apps.AppSource · BC24-30 · [source at 2c932722](https://github.com/microsoft/BCApps/blob/2c932722a2917f4592f1541d4d85dc247c8942ac/src/System%20Application/App/AppSource%20Gallery/src/AppSourceProductManagerDependencies.Interface.al) · facts from BC29
+System Application · System.Apps.AppSource · BC24-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/System%20Application/App/AppSource%20Gallery/src/AppSourceProductManagerDependencies.Interface.al) · facts from BC29
 
 ## Properties
 

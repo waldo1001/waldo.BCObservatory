@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:48:32.947Z"
   flags: []
 generated:
-  at: "2026-11-09T00:40:46.035Z"
+  at: "2026-11-12T00:52:34.188Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -84,6 +84,7 @@ links:
   objects: []
   features:
     - feature/573320
+    - feature/576841
   topics: []
   localizations: []
   videos: []
@@ -180,10 +181,12 @@ features:
     verified: false
     status_source: video
   - name: Permission Analysis Page
-    status: unclear
+    status: ga
     t: 610
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576841"
   - name: Updated Security Documentation and Guide
     status: unclear
     t: 623
@@ -274,7 +277,7 @@ It describes memory work (a new platform codeunit for base64 conversion with str
 | Layout Lifecycle Control for Report Layouts | generally available (roadmap [Control the lifecycle of all report layouts](../features/573320.md)) | [7:29](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=449s) |
 | Hardened URI Validation in HTTP Client | status not stated | [8:28](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=508s) |
 | Intra Security Groups for On-Premises Auth | status not stated | [9:25](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=565s) |
-| Permission Analysis Page | status not stated | [10:10](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=610s) |
+| Permission Analysis Page | generally available (roadmap [Use new APIs for analyzing permissions for auditors and IT staff](../features/576841.md)) | [10:10](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=610s) |
 | Updated Security Documentation and Guide | status not stated | [10:23](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=623s) |
 | Telemetry for MCP Configuration and Usage | status not stated | [10:59](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=659s) |
 | Client Hardware and Network Telemetry | status not stated | [10:59](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=659s) |

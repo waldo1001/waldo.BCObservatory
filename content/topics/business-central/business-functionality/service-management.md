@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:45.537Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -356,7 +356,6 @@ links:
   changes:
     - change/bcapps/10126
     - change/bcapps/10735
-    - change/bcapps/11152
     - change/bcapps/12290
 learn_toc_path:
   - Business functionality
@@ -455,8 +454,7 @@ Start with the overview page to confirm the Premium requirement. Then go to cont
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10126 [Extensibility Request] issue 30389: allow skipping service item confirmation](../../../changes/bcapps/10126.md) (code change): "ServItemManagement codeunit now allows extensions to skip"
-- [#10735 [Slice-631381] Add Mark as Accepted in posted documents for Spanish SII](../../../changes/bcapps/10735.md) (code change): "Spanish SII posted documents now include a Mark as Accepted action"
-- [#11152 [29.x]Mark as Accepted in posted documents for Spanish SII](../../../changes/bcapps/11152.md) (code change): "Mark as Accepted action was added to posted sales purchase and service invoice"
+- [#10735 [Slice-631381] Add Mark as Accepted in posted documents for Spanish SII](../../../changes/bcapps/10735.md) (code change): "posted sales, purchase, and service invoice and credit memo pages"
 - [#12290 Remove CLEAN27 from Service Management](../../../changes/bcapps/12290.md) (code change): "Remove CLEAN27 from Service Management"
 - [Business Central 2026 release wave 1 (BC28): Filter receipt and shipment lines to quickly find documents you want to invoice (New filters on the Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages)](../../../posts/yzhums-com/71648.md) (community post): "Get Service Shipment Lines pages to help users quickly locate"
 - [What's New: Integration with Dynamics 365 Field Service (2025 release wave 1)](../../../videos/Jbo2DOCd7Pw.md) (video): "Field Service Integration for Service Management; Dataverse Data Sync Technology; Work Order"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:02:51.177Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,6 +77,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/10342
     - change/bcapps/9792
 learn_toc_path:
   - Business functionality
@@ -195,6 +196,7 @@ The Cartera pages describe handling of customer and vendor payments with bills o
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10342 Add GLN information to XRechnung and ZUGFeRD exports](../../../../../changes/bcapps/10342.md) (code change): "GLN identifiers with schemeID 0088 are now included in German XRechnung and ZUGFeRD electronic document exports"
 - [#9792 Migrate ZUGFeRD, PEPPOL BIS 3.0 DE, Factur-X FR and Peppol BIS 3.0 FR to the V2 draft import pipeline](../../../../../changes/bcapps/9792.md) (code change): "Peppol BIS 3.0 FR gets a new UBL reader. French SIRET party identifiers written on export"
 
 ## Business Central pages and reports

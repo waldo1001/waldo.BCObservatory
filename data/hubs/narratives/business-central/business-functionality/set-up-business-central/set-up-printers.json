@@ -1,36 +1,24 @@
 {
   "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-printers",
-  "input_hash": "f61b2b7d76a5ef26b4e6cc62464fc876ab9a4f5201169878cdc7c93d09565f97",
-  "summary": "Printer setup in Business Central: Universal Print, Email Print, and browser printing, plus registering printers and choosing default printers. It answers questions on configuring printing for reports and documents in the web client, mobile app, or Teams.",
-  "overview": "Printing in Business Central can go through Universal Print cloud printers, email-enabled printers, or the browser. The overview page explains these options and how printers are registered and managed, so start there to choose an approach.",
+  "input_hash": "fb52141354536c76bd9f7cf7c5d1b3bf3818008f97bc9be4c7bceaf555e6b75c",
+  "summary": "Printer setup in Business Central: sending print jobs through Universal Print, email printers, or browser printing, and choosing default printers. It answers questions about configuring each printer type and deciding which printer a report uses.",
+  "overview": "This section explains how Business Central sends print jobs to printers. The options are cloud-enabled printers through Universal Print, printers reached by email address, and browser printing. The Printer Management page is where printers are managed.\n\nThe overview page introduces the options and the related extensions (Universal Print Integration and Send to Email Printer). Two setup pages then cover each printer type: email printers (paper size, printer device configuration, print job privacy) and Universal Print (Azure app registration, printer sharing, troubleshooting access issues, online and on-premises).\n\nThe last page covers default printers: for all users, a specific user, or a specific report. It also describes the selection hierarchy and how a user can override the default on the report request page. Start with the overview, then follow the setup page for your printer type, then set defaults.",
   "key_points": [
-    "Three printing options: Universal Print for cloud printers, Email Print for email-enabled printers, and browser printing.",
-    "Printing works for the web client, mobile app, and Teams.",
-    "Email printers are set up on the Printer Management page with the Send to Email Printer extension; the page covers paper size selection and privacy settings (2020 release wave 1).",
-    "Universal Print setup uses the Universal Print integration extension, the Printer Management page, and the universal print connector (2021 release wave 1).",
-    "Universal Print guidance covers Azure configuration, print shares, printer authorization, and document conversion, for online and on-premises deployments.",
-    "Default printers can be set for all print jobs or for specific reports.",
-    "Default printer selections can be made at user or global level and apply to cloud printers and PDF output."
+    "Three ways to print: Universal Print, email printers, and browser printing.",
+    "Universal Print needs the Universal Print Integration extension and an Azure app registration; it works for online and on-premises Business Central.",
+    "Universal Print setup covers printer sharing, centralized management, document conversion, print job creation, and troubleshooting access issues.",
+    "Email printing uses the Send to Email Printer extension and the printer's email address, with paper size and print job privacy settings.",
+    "Printers are managed on the Printer Management page.",
+    "Default printers can be set for all users, a specific user, or a specific report via Printer Management and Printer Selections.",
+    "A printer selection hierarchy decides which default applies, and users can override it on the report request page."
   ],
   "members_used": 4,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:10:08.063Z",
+  "at": "2026-11-12T00:57:02.892Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.009117
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:25:55.708Z",
-    "verdict": "approve",
-    "issues": [
-      "The Email Print key point says 'the page covers paper size selection and privacy settings'. 'The page' could mean the Printer Management page or the Learn article. The sources tie these features to the Learn article.",
-      "The release labels in brackets (2020 release wave 1, 2021 release wave 1) are copied from page metadata. The sources don't say what they mean, so they should not be read as the release that introduced each feature."
-    ],
-    "input_hash": "f61b2b7d76a5ef26b4e6cc62464fc876ab9a4f5201169878cdc7c93d09565f97",
-    "cost_usd": 0.0293192
+    "cost_usd": 0.010889
   }
 }

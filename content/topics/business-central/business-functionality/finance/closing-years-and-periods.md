@@ -2,22 +2,29 @@
 id: topic/business-central/business-functionality/finance/closing-years-and-periods
 type: topic
 title: Closing years and periods
-summary: Closing years and periods covers how to close accounting periods and fiscal years in Business Central. It answers questions about pre-closing checks, posting period controls, cost allocation, currency and VAT tasks, the Close Income Statement batch job, and posting the year-end closing entry.
+summary: Closing years and periods in Business Central covers fiscal year and accounting period setup, posting date controls, pre-closing checks, year-end closing steps, and related period-end tasks. It answers how-to questions on closing the books, VAT reporting, currency rate updates and recurring allocations.
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:18:55.812Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: a8f2ca61c16d85daa8b15c4117b3e9da2fd886862244e60559d37ff257268b51
+  input_hash: d00f5e41db669f6f5ed0b742248be6ecb705b46dcaed90a83c42fa5f8986898d
 evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income
+    title: Allocate Recurring Costs and Income
+    date: "2026-11-11"
+    commit: null
+    t: null
+    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/year-close-account-periods
     title: Close accounting periods for a fiscal year
@@ -26,23 +33,23 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/year-close-years-periods
-    title: Close fiscal years and accounting periods
-    date: "2024-08-02"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/year-close-income-statement
-    title: Close income statement accounts
-    date: "2024-08-05"
+    title: Close Income Statement Accounts
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/year-close-books
-    title: Closing the books
-    date: "2024-08-05"
+    title: Close the Books
+    date: "2026-11-11"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/year-close-years-periods
+    title: Close Years and Periods
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -55,29 +62,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/year-how-complete-period-end-processes
-    title: Optional activities for closing periods
-    date: "2024-08-02"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/year-prepare-preclose-reports
-    title: Overview of pre-closing reports to verify account accuracy
-    date: "2024-08-05"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/year-prepare-close-statement
-    title: Overview of reports to help prepare closing statements
-    date: "2024-08-05"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income
-    title: Overview of tasks to allocate costs and income
-    date: "2024-12-06"
+    title: Overview of Tasks to Close Accounting Periods
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -85,6 +71,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/year-how-post-year-end-close-entry
     title: Post the year-end closing entry
     date: "2026-04-07"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/year-prepare-close-statement
+    title: Prepare Closing Statements
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -110,6 +103,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/year-prepare-preclose-reports
+    title: Use Preclosing Reports
+    date: "2026-11-11"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-accounting-periods-and-fiscal-years
     title: Working with accounting periods and fiscal years
     date: "2026-01-12"
@@ -118,19 +118,19 @@ evidence:
     quote: null
 links:
   learn:
+    - https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income
     - https://learn.microsoft.com/dynamics365/business-central/year-close-account-periods
-    - https://learn.microsoft.com/dynamics365/business-central/year-close-years-periods
     - https://learn.microsoft.com/dynamics365/business-central/year-close-income-statement
     - https://learn.microsoft.com/dynamics365/business-central/year-close-books
+    - https://learn.microsoft.com/dynamics365/business-central/year-close-years-periods
     - https://learn.microsoft.com/dynamics365/business-central/finance-prepare-audit-pbc-checklist
     - https://learn.microsoft.com/dynamics365/business-central/year-how-complete-period-end-processes
-    - https://learn.microsoft.com/dynamics365/business-central/year-prepare-preclose-reports
-    - https://learn.microsoft.com/dynamics365/business-central/year-prepare-close-statement
-    - https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income
     - https://learn.microsoft.com/dynamics365/business-central/year-how-post-year-end-close-entry
+    - https://learn.microsoft.com/dynamics365/business-central/year-prepare-close-statement
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-specify-posting-periods
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-report-vat
     - https://learn.microsoft.com/dynamics365/business-central/finance-how-update-currencies
+    - https://learn.microsoft.com/dynamics365/business-central/year-prepare-preclose-reports
     - https://learn.microsoft.com/dynamics365/business-central/finance-accounting-periods-and-fiscal-years
   objects:
     - object/page/5
@@ -219,53 +219,54 @@ narrative: generated
 
 # Closing years and periods
 
-> Closing years and periods covers how to close accounting periods and fiscal years in Business Central. It answers questions about pre-closing checks, posting period controls, cost allocation, currency and VAT tasks, the Close Income Statement batch job, and posting the year-end closing entry.
+> Closing years and periods in Business Central covers fiscal year and accounting period setup, posting date controls, pre-closing checks, year-end closing steps, and related period-end tasks. It answers how-to questions on closing the books, VAT reporting, currency rate updates and recurring allocations.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Closing years and periods · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Closing years and periods · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes the year-end and period-end process in finance. It starts with the structure of accounting periods and fiscal years, then moves through preparation tasks: verifying accounts with pre-closing reports, allocating costs and income, updating currency exchange rates, and submitting VAT reports.
+This section describes how to prepare for and complete period-end and year-end closing. It starts with the structure of accounting periods and fiscal years, and with posting period settings that limit when users can post to the general ledger, either with fixed dates or date formulas and with user-level overrides.
 
-The closing itself is covered in a few pages. "Closing the books" gives the overall sequence. Other pages cover closing accounting periods, running the Close Income Statement batch job, and posting the resulting year-end closing entry in a general journal. Posting periods can be restricted by date or by user.
+Before closing, the pages cover period-end tasks: an overview of tasks across general ledger, sales, purchases, fixed assets, intercompany and tax, recurring cost and income allocations, currency exchange rate updates, VAT report submission, and verification with preclosing reports and closing statements such as trial balances, aged receivables and payables, and budget comparisons.
 
-Start with "Close fiscal years and accounting periods" or "Closing the books" for the overall flow. Then use the task pages as needed: "Optional activities for closing periods" is a checklist, and the report overview pages help verify balances before closing.
+The year-end sequence is covered in "Close the Books", with separate pages for each step: closing accounting periods, running the Close Income Statement batch job, and posting the year-end closing entry. Start with "Overview of Tasks to Close Accounting Periods" or "Close Years and Periods" for the full picture, then use the step pages as needed.
 
 ## Key points
 
-- Closing a fiscal year locks its accounting periods against modification, but posting to a closed year is still possible if adjustments are needed.
-- The Close Income Statement batch job transfers the year's result to the balance sheet and zeroes income statement accounts. It generates entries that you then review and post in a general journal.
-- Posting periods are controlled with Allow Posting From and Allow Posting To, using fixed dates or date formulas, with user-level overrides.
-- Pre-closing reports include detail trial balance reports for banks, customers, vendors, and consolidated companies.
-- Closing statement reports include trial balance, accounts receivable and payable aging, and budget comparisons.
-- Costs and income can be allocated in recurring general journals using quantity, percentage, or amount allocation keys.
+- Accounting periods and fiscal years: set up periods, close a fiscal year to lock periods; posting to a closed year is still possible if adjustments are needed.
+- Posting periods: Allow Posting From and Allow Posting To accept fixed dates or date formulas based on work date, with user-level overrides.
+- Close Income Statement batch job reverses income statement balances and moves the year's result to retained earnings, with support for business unit splitting, dimensions and reporting currency.
+- The batch job generates the closing entry, which is then reviewed and posted in General Journals.
+- Preclosing reports and closing statements verify customers, vendors, bank accounts and G/L accounts through trial balances, aged reports and budget comparisons.
+- Recurring journals can allocate costs and income by quantity, percentage or amount, using allocation keys and optional dimensions.
 - Currency exchange rates can be updated manually or automatically through an external rate service, with adjustments for realized and unrealized gains and losses.
-- VAT reporting covers the EC Sales List and VAT Return reports, including setup, submission, test mode, and VAT settlement.
+- VAT reporting includes EC Sales List and VAT Return reports, with setup, submission, test mode, error validation and VAT settlement.
 
 ## Learn pages
 
+- [Allocate Recurring Costs and Income](https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income): Outlines the tasks to allocate an entry in a recurring general journal to several different accounts when you post the journal.
+  - In the observatory: [Page 251 "General Journal Batches"](../../../../objects/page/251.md)
 - [Close accounting periods for a fiscal year](https://learn.microsoft.com/dynamics365/business-central/year-close-account-periods): This article describes how to close the accounting periods that make up the fiscal year for year end closing.
-- [Close fiscal years and accounting periods](https://learn.microsoft.com/dynamics365/business-central/year-close-years-periods): Outlines the tasks to close a fiscal year or an accounting period, such as ensuring documents and journals are posted and verifying bank balances.
-- [Close income statement accounts](https://learn.microsoft.com/dynamics365/business-central/year-close-income-statement): At year closing, you must run the Close Income Statement batch job to close the accounting periods that make up the fiscal year.
+- [Close Income Statement Accounts](https://learn.microsoft.com/dynamics365/business-central/year-close-income-statement): Learn how to run the Close Income Statement batch job to close income statement balances and transfer the year's result to retained earnings.
   - In the observatory: [Report 94 "Close Income Statement"](../../../../objects/report/94.md)
-- [Closing the books](https://learn.microsoft.com/dynamics365/business-central/year-close-books): Learn about the process of closing the books for a fiscal year or period, and what happens after you close at the end of a year.
-  - In the observatory: [Page 100 "Accounting Periods"](../../../../objects/page/100.md)
+- [Close the Books](https://learn.microsoft.com/dynamics365/business-central/year-close-books): Learn about the process of closing the books for a fiscal year or period, and what happens after you close at the end of a year.
+  - In the observatory: [Report 94 "Close Income Statement"](../../../../objects/report/94.md)
+- [Close Years and Periods](https://learn.microsoft.com/dynamics365/business-central/year-close-years-periods): Outlines the tasks to close a fiscal year or an accounting period, such as ensuring documents and journals are posted and verifying bank balances.
 - [Gather information for an audit](https://learn.microsoft.com/dynamics365/business-central/finance-prepare-audit-pbc-checklist): Match year-end audit PBC requests to Business Central reports and pages, reconcile balances, and identify the supporting documents to gather separately.
-- [Optional activities for closing periods](https://learn.microsoft.com/dynamics365/business-central/year-how-complete-period-end-processes): This article outlines the optional processes and activities for closing accounting periods in Business Central.
-  - In the observatory: [Page 108 "Financial Reports"](../../../../objects/page/108.md)
-- [Overview of pre-closing reports to verify account accuracy](https://learn.microsoft.com/dynamics365/business-central/year-prepare-preclose-reports): Provides an overview of the reports you can use to verify the accuracy of accounts before closing the books at the end of a year or period.
-  - In the observatory: [Report 104 "Customer - Detail Trial Bal."](../../../../objects/report/104.md), [Report 129 "Customer - Trial Balance"](../../../../objects/report/129.md), [Report 1404 "Bank Acc. - Detail Trial Bal."](../../../../objects/report/1404.md), [Report 304 "Vendor - Detail Trial Balance"](../../../../objects/report/304.md), [Report 329 "Vendor - Trial Balance"](../../../../objects/report/329.md), [Report 4 "Detail Trial Balance"](../../../../objects/report/4.md)
-- [Overview of reports to help prepare closing statements](https://learn.microsoft.com/dynamics365/business-central/year-prepare-close-statement): Provides an overview of the reports you can use to gather information to prepare your company's closing statements when closing the fiscal year.
-  - In the observatory: [Report 120 "Aged Accounts Receivable"](../../../../objects/report/120.md), [Report 322 "Aged Accounts Payable"](../../../../objects/report/322.md), [Report 33 "Reconcile Cust. and Vend. Accs"](../../../../objects/report/33.md), [Report 38 "Trial Balance by Period"](../../../../objects/report/38.md), [Report 9 "Trial Balance/Budget"](../../../../objects/report/9.md)
-- [Overview of tasks to allocate costs and income](https://learn.microsoft.com/dynamics365/business-central/year-allocate-costs-income): Outlines the tasks to allocate an entry in a recurring general journal to several different accounts when you post the journal.
+- [Overview of Tasks to Close Accounting Periods](https://learn.microsoft.com/dynamics365/business-central/year-how-complete-period-end-processes): Review optional period-end tasks in Business Central, including posting journals, reconciling balances, running reports, and completing tax statements.
+  - In the observatory: [Page 108 "Financial Reports"](../../../../objects/page/108.md), [Report 299 "Delete Invoiced Sales Orders"](../../../../objects/report/299.md)
 - [Post the year-end closing entry](https://learn.microsoft.com/dynamics365/business-central/year-how-post-year-end-close-entry): Describes how to open the journal you specified in the Close Income Statement batch job, and then review and post the year-end closing entry.
   - In the observatory: [Report 94 "Close Income Statement"](../../../../objects/report/94.md)
+- [Prepare Closing Statements](https://learn.microsoft.com/dynamics365/business-central/year-prepare-close-statement): Provides an overview of the reports you can use to gather information to prepare your company's closing statements when closing the fiscal year.
+  - In the observatory: [Report 38 "Trial Balance by Period"](../../../../objects/report/38.md)
 - [Specify posting periods](https://learn.microsoft.com/dynamics365/business-central/finance-how-specify-posting-periods): You specify posting periods (posting start and end dates) to set up when users can post to the general ledger.
   - In the observatory: [Table 91 "User Setup"](../../../../objects/table/91.md), [Table 98 "General Ledger Setup"](../../../../objects/table/98.md)
 - [Submit VAT reports to tax authorities](https://learn.microsoft.com/dynamics365/business-central/finance-how-report-vat): Learn how to prepare reports that list VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.
   - In the observatory: [Report 130 "EC Sales List"](../../../../objects/report/130.md)
 - [Update currency exchange rates](https://learn.microsoft.com/dynamics365/business-central/finance-how-update-currencies): Learn how to use Business Central to adjust exchange rates for amounts in different currencies.
   - In the observatory: [Page 483 "Currency Exchange Rates"](../../../../objects/page/483.md)
+- [Use Preclosing Reports](https://learn.microsoft.com/dynamics365/business-central/year-prepare-preclose-reports): Provides an overview of the reports you can use to verify the accuracy of accounts before closing the books at the end of a year or period.
+  - In the observatory: [Report 104 "Customer - Detail Trial Bal."](../../../../objects/report/104.md), [Report 129 "Customer - Trial Balance"](../../../../objects/report/129.md), [Report 304 "Vendor - Detail Trial Balance"](../../../../objects/report/304.md), [Report 329 "Vendor - Trial Balance"](../../../../objects/report/329.md), [Report 4 "Detail Trial Balance"](../../../../objects/report/4.md)
 - [Working with accounting periods and fiscal years](https://learn.microsoft.com/dynamics365/business-central/finance-accounting-periods-and-fiscal-years): Learn how to work with accounting periods to define when your company reports financial performance.
   - In the observatory: [Page 118 "General Ledger Setup"](../../../../objects/page/118.md), [Page 119 "User Setup"](../../../../objects/page/119.md)
 

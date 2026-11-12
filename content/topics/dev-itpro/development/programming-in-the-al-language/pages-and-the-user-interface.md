@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-12T00:57:39.316Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -367,7 +367,7 @@ narrative: generated
 
 > Pages and the user interface in Business Central AL development covers designing and building pages, role centers, actions, views, profiles, deep links and mobile app extensions. It answers how to design, extend, customize, inspect and link to the client UI, including control add-in styling.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Pages and the user interface · tier official · system development · narrative **unreviewed** (model text not yet checked)
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Pages and the user interface · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

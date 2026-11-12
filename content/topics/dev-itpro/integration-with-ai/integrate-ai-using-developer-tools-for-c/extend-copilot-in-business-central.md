@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:27.474Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -141,6 +141,7 @@ links:
     - video/MNwTt06ZxwY
     - video/NE7NIjpkX3c
     - video/qP0id91bIlA
+    - video/sv1utmneaXA
     - video/ytYKvn2MiGs
   posts:
     - post/aardvarklabs-blog/2759
@@ -166,7 +167,7 @@ children:
 coverage:
   learn: 15
   code: 0
-  video: 7
+  video: 8
   blog: 7
   guideline: 0
 bc_forms: []
@@ -227,6 +228,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Agent deployment; Production agent deployment via extensions"
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../../videos/NE7NIjpkX3c.md) (video): "Copilot Extension Cloud Deployment; Function Calling for Copilot"
 - [What's New: Designing Generative AI Experiences (2024 Release Wave 1)](../../../../videos/qP0id91bIlA.md) (video): "Designing Generative AI Experiences copilot; prompt dialogue; unstructured input"
+- [Introducing: Extending Copilot Chat with Your App's Documentation (2025 release wave 2)](../../../../videos/sv1utmneaXA.md) (video): "Extending Copilot Chat with Your App's Documentation"
 - [What's New: Extending Copilot Using AL Code (2024 Release Wave 1)](../../../../videos/ytYKvn2MiGs.md) (video): "Extending Copilot Using AL Code (2024 Release Wave 1)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

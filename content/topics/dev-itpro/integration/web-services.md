@@ -12,7 +12,7 @@ review:
   at: "2026-11-03T01:02:12.823Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -323,14 +323,12 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/11096
     - change/bcapps/11563
     - change/bcapps/11745
-    - change/bcapps/11967
-    - change/bcapps/12133
     - change/bcapps/12324
-    - change/bcapps/12326
-    - change/bcapps/12691
+    - change/bcapps/12606
+    - change/bcapps/8051
+    - change/bcapps/8698
     - change/bcapps/9914
     - change/bcquality/100
 learn_toc_path:
@@ -403,14 +401,12 @@ Start with the publishing subtopic to expose an endpoint, then the OData, SOAP o
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#11096 PEPPOL FR improvements](../../../changes/bcapps/11096.md) (code change): "PEPPOL FR improvements French PEPPOL exports now correctly handle billing profiles"
 - [#11563 [E-Documents Core] [Peppol] - Add PEPPOL Requested Delivery Period support (header + line)](../../../changes/bcapps/11563.md) (code change): "Add PEPPOL Requested Delivery Period support header + line"
 - [#11745 Bug 648781: check the party identifier that the PEPPOL export will use](../../../changes/bcapps/11745.md) (code change): "PEPPOL validation now uses the same party identifier provider as export"
-- [#11967 Block Edit in Excel for pages based on the User table](../../../changes/bcapps/11967.md) (code change): "Edit in Excel now blocks page-based editing for tables"
-- [#12133 Block file scheme in Web Request Helper](../../../changes/bcapps/12133.md) (code change): "Web Request Helper now rejects file:// URLs before creating HTTP requests"
-- [#12324 Obsolete Http Web Request Mgt. usage in public API (webhooks, OData)](../../../changes/bcapps/12324.md) (code change): "Http Web Request Mgt usage is removed from webhook and OData"
-- [#12326 Migrate Doc. Exchange and OCR service callers off Http Web Request Mgt.](../../../changes/bcapps/12326.md) (code change): "Document Exchange and OCR service codeunits migrate from DotNet"
-- [#12691 Support customer registration number as e-document party identifier for DE](../../../changes/bcapps/12691.md) (code change): "customer registration number as buyer identifier on outgoing e-invoices"
+- [#12324 Obsolete Http Web Request Mgt. usage in public API (webhooks, OData)](../../../changes/bcapps/12324.md) (code change): "webhook and OData public APIs by replacing DotNet-based code with native HttpClient"
+- [#12606 Obsolete Http Web Request Mgt. codeunit](../../../changes/bcapps/12606.md) (code change): "Http Web Request Mgt. codeunit and its test are marked obsolete"
+- [#8051 [Edit in Excel] Expose ExternalizeODataObjectName and add Page Control Field publisher](../../../changes/bcapps/8051.md) (code change): "Exposes ExternalizeODataObjectName as public procedure for external apps"
+- [#8698 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. PEPPOL Order Response Message Handling](../../../changes/bcapps/8698.md) (code change): "PEPPOL Order Response Message Handling. E-documents now track order responses and acknowledgements"
 - [#9914 [APIV2] Return unapplied lines from the Vendor Payments API](../../../changes/bcapps/9914.md) (code change): "The Vendor Payments API now returns all payment lines in a batch, including unapplied payments"
 - [#100 Add P0 integration and control add-in runtime guidance](../../../changes/bcquality/100.md) (code change): "Guidance and AL samples for linking API parts on SystemId and setting Multiplicity."
 - [What's New: Server and Database - More Stable Web Services (2023 release wave 2)](../../../videos/sk5CaXnvvng.md) (video): "Editable Property Support in OData for Edit in Excel; HTTP 503 Return Code for Request Queue Timeout"

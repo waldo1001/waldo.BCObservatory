@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:53.100Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,6 +90,7 @@ links:
     - post/yzhums-com/70683
     - post/yzhums-com/71039
     - post/yzhums-com/72806
+    - post/yzhums-com/75245
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -103,7 +104,7 @@ coverage:
   learn: 6
   code: 9
   video: 1
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms:
   - 654
@@ -166,6 +167,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to hide the confirmation message (An approval request has been sent) when sending an Approval Request?](../../../../../posts/yzhums-com/70683.md) (community post): "Workflows automate approval processes for sensitive business records"
 - [Business Central 2026 release wave 1 (BC28): Include approvals for requisition worksheets and item journals in your workflows (New standard workflows)](../../../../../posts/yzhums-com/71039.md) (community post): "extends approval workflows to item journals and requisition/planning worksheets"
 - [Business Central 2026 release wave 1 (BC28): Newly added Workflow Templates (Item Journals & Requisition Worksheets) missing in upgraded environments](../../../../../posts/yzhums-com/72806.md) (community post): "Item journals and requisition worksheets now support approval workflows in BC28"
+- [Business Central 2026 release wave 1 (BC28.4): Speed up processing with Known Senders in Payables Agent](../../../../../posts/yzhums-com/75245.md) (community post): "Known Senders lets the Payables Agent process invoices from trusted senders without supervisor approval"
 - [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../../../../../videos/qZALauRY_So.md) (video): "Team-based Approval Setup; Approval Notifications via Email"
 
 ## Business Central pages and reports

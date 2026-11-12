@@ -5,12 +5,12 @@
   "source": "yzhums-com",
   "published_at": "2026-11-11T01:41:46.000Z",
   "words": 917,
-  "summary": "Business Central 2026 wave 2 introduces cross-environment master data management, allowing organizations to synchronize critical business data like customers, vendors, and products across multiple environments using OAuth authentication within the same tenant. This feature maintains a single source of truth while reducing manual data entry and improving data consistency across development, test, and production environments.",
+  "summary": "BC29.1 (2026 release wave 2) extends the existing master data management feature with a Cross-environment setup action. It lets a company sync master data such as customers, vendors and products from a company in another Business Central environment. The connection uses OAuth through a single-tenant Microsoft Entra app, so both environments must be in the same tenant, and both must approve the cross-environment privacy notice.",
   "key_points": [
-    "Synchronize master data across development, test, and production environments to maintain consistency and reduce duplicate maintenance",
-    "Requires OAuth authentication with Microsoft Entra app registration restricted to same-tenant connections",
-    "Receiving companies can review synchronization logs and define which tables and fields to synchronize with optional filtering",
-    "Changes in source company are immediately pulled by the job queue, supporting faster environment setup and smoother application lifecycle management"
+    "Builds on master data management from BC22 (log review, choosing tables and fields with filters, job queue pull of changes) by adding a wizard to connect to a company in a different environment.",
+    "Setup: register a single-tenant Entra app with API.ReadWrite.All, add the OAuthLanding.htm redirect URI, create a client secret, then add the app on the source environment's Microsoft Entra Applications page with the MDM CROSS-ENV READ permission set.",
+    "The cross-environment privacy notice must be approved in both environments. The wizard then lets you test the connection and start the initial synchronization.",
+    "Common errors: HTTP 401 means the permission set or privacy approval is missing, a separate message flags an unapproved notice on the source, and HTTP 404 means the source is older than version 29.1."
   ],
   "systems": [
     "integration",

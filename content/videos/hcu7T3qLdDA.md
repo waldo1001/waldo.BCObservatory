@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:10:21.755Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-11-12T00:52:34.188Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -206,6 +206,11 @@ links:
       label: possibly related
       why: both name Table 112 "Sales Invoice Header"
       by: code
+    - to: video/Ug_uM59DRRE
+      title: 20260914 - Demo or Disaster? How to build better Business Central demos?
+      label: possibly related
+      why: both name Table 270 "Bank Account"
+      by: code
     - to: post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257
       title: Analysis Mode killed half the Excel exports on your client's shared drive
       label: possibly related
@@ -235,11 +240,6 @@ links:
       title: "D365 Business Central: How to Fix Missing Sales Invoices in the API"
       label: possibly related
       why: both name Table 112 "Sales Invoice Header"
-      by: code
-    - to: video/Ug_uM59DRRE
-      title: Demo or Disaster? How to build better Business Central demos?
-      label: possibly related
-      why: both name Table 270 "Bank Account"
       by: code
     - to: post/yzhums-com/64609
       title: "Dynamics 365 Business Central: “Hide Company Bank Account” setup in General Ledger Setup (Update Company Bank Account on posted documents)"
@@ -679,13 +679,13 @@ Not found in BC28-30: page "SAF-T Setup Guide", page "Audit File Expert document
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [🧩 Deriving dimensions in Business Central beyond Default Dimensions](../posts/gerardorenteria-blog/15143.md) — possibly related: both name Table 112 "Sales Invoice Header"
+- [20260914 - Demo or Disaster? How to build better Business Central demos?](../videos/Ug_uM59DRRE.md) — possibly related: both name Table 270 "Bank Account"
 - [Analysis Mode killed half the Excel exports on your client's shared drive](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257.md) — possibly related: both name Page 16 "Chart of Accounts"
 - [BC 29 lets a single index span base table and table extension fields](../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) — possibly related: both name Table 112 "Sales Invoice Header"
 - [BC Friday Tips #29 Gaps in Customer Ledger Entries](../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-29-gaps-in-customer-ledger-entries--5c5eaffeee.md) — possibly related: both name Table 25 "Vendor Ledger Entry"
 - [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) — possibly related: both name Table 112 "Sales Invoice Header"
 - [BC Friday Tips #74 Copy Document and Custom Field](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) — possibly related: both name Table 112 "Sales Invoice Header"
 - [D365 Business Central: How to Fix Missing Sales Invoices in the API](../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) — possibly related: both name Table 112 "Sales Invoice Header"
-- [Demo or Disaster? How to build better Business Central demos?](../videos/Ug_uM59DRRE.md) — possibly related: both name Table 270 "Bank Account"
 - [Dynamics 365 Business Central: “Hide Company Bank Account” setup in General Ledger Setup (Update Company Bank Account on posted documents)](../posts/yzhums-com/64609.md) — possibly related: both name Table 112 "Sales Invoice Header"
 - [Dynamics 365 Business Central: Automatically add extended text for items, general ledger accounts, and resources (Automatic Ext. Texts)](../posts/yzhums-com/70554.md) — possibly related: both name Page 16 "Chart of Accounts"
 

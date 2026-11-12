@@ -12,7 +12,7 @@ review:
   at: "2026-11-10T00:57:30.077Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -34,29 +34,29 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
-    title: (Obsolete) Create and modify custom report layouts
-    date: "2025-03-12"
+    title: (Obsolete) Create and Modify Custom Report Layouts
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-import-and-export-report-layout
     title: (Obsolete) Import and Export Custom Report Layouts
-    date: "2021-04-01"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report
     title: (Obsolete) Set the Layout Used by a Report
-    date: "2022-03-07"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts
     title: (Obsolete) Update Custom Report Layouts
-    date: "2021-06-24"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -182,7 +182,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-operators
     title: AL operators
-    date: "2024-09-18"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -286,7 +286,7 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
-    title: Available fonts
+    title: Available Fonts in Business Central
     date: "2025-02-28"
     commit: null
     t: null

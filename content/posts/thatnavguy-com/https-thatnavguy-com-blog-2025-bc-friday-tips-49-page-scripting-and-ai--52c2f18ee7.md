@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:59:02.570Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-12T00:14:43.393Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -83,7 +83,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:51:14.189Z"
+  probed_at: "2026-11-12T00:50:52.765Z"
 ---
 
 # BC Friday Tips #49 Page Scripting and AI

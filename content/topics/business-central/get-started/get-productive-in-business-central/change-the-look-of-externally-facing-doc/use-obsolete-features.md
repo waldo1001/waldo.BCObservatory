@@ -2,47 +2,47 @@
 id: topic/business-central/get-started/get-productive-in-business-central/change-the-look-of-externally-facing-doc/use-obsolete-features
 type: topic
 title: Use obsolete features
-summary: "Obsolete features for externally facing document layouts in Business Central: creating, modifying, importing, exporting, assigning and updating custom RDLC and Word report layouts. It answers questions about how the older custom layout approach worked and how to manage layouts with it."
+summary: "Obsolete procedures for custom report layouts in legacy Business Central versions: creating, importing, exporting, selecting and updating RDLC and Word layouts. It answers questions about the old Report Layout Selection workflow and points to the current replacement pages."
 tier: official
 language: en
 system: platform
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:26:13.743Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9f085834f230cc9eb962b71e8ca2f323ba11c5f85389ea59a4f390e95ee2ee91
+  input_hash: b665baa554e4ae04d4522ba9b80ed7d9a305d3d3e34e91f1ee8229cb07525a67
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
-    title: (Obsolete) Create and modify custom report layouts
-    date: "2025-03-12"
+    title: (Obsolete) Create and Modify Custom Report Layouts
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-import-and-export-report-layout
     title: (Obsolete) Import and Export Custom Report Layouts
-    date: "2021-04-01"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report
     title: (Obsolete) Set the Layout Used by a Report
-    date: "2022-03-07"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts
     title: (Obsolete) Update Custom Report Layouts
-    date: "2021-06-24"
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -86,36 +86,33 @@ narrative: generated
 
 # Use obsolete features
 
-> Obsolete features for externally facing document layouts in Business Central: creating, modifying, importing, exporting, assigning and updating custom RDLC and Word report layouts. It answers questions about how the older custom layout approach worked and how to manage layouts with it.
+> Obsolete procedures for custom report layouts in legacy Business Central versions: creating, importing, exporting, selecting and updating RDLC and Word layouts. It answers questions about the old Report Layout Selection workflow and points to the current replacement pages.
 
-Path: [Get started](../../../get-started.md) > [Get productive in Business Central](../../get-productive-in-business-central.md) > [Change the look of externally facing documents](../change-the-look-of-externally-facing-doc.md) > Use obsolete features · tier official · system platform · narrative reviewed (checked by Opus)
+Path: [Get started](../../../get-started.md) > [Get productive in Business Central](../../get-productive-in-business-central.md) > [Change the look of externally facing documents](../change-the-look-of-externally-facing-doc.md) > Use obsolete features · tier official · system platform · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section holds four pages marked obsolete. They describe the older way of changing how reports and documents look, using custom report layouts in RDLC or Word format.
+This section holds four pages describing the legacy way of working with custom report layouts. They cover RDLC and Word layouts and the Report Layout Selection page. Each page is marked obsolete and refers readers to the current workflow, mainly "Get started creating report layouts" and "Set the layout used by a report".
 
-The pages follow the life of a custom layout. One covers creating and modifying layouts, including copying and changing built-in layouts. Another covers exporting layouts to files and importing them back, which allows sharing and editing outside the product. A third explains how to set which layout a report uses, choosing between built-in RDLC, Word or a custom layout. The last covers updating custom layouts when the report dataset changes, and testing those updates first.
-
-Start with the page on creating and modifying custom layouts for the basic concepts. Then use the other pages for the specific task. Because all four are marked obsolete, check whether a newer approach applies before relying on them for new work.
+The pages follow the life of a layout. You create or copy a layout, export or import it as a file, set which layout a report uses, and update layouts after dataset changes. Start here only if you work with an older version or need to understand legacy behavior. For new work, use the current pages named in each article.
 
 ## Key points
 
-- All four pages are marked (Obsolete) in the Learn table of contents.
-- Custom report layouts can be built in RDLC or Word formats.
-- Layouts can be copied, and built-in layouts can be modified through this approach.
-- Layouts can be exported to files and imported from files, for RDLC and Word, which supports sharing and editing.
-- A report or document can be switched between built-in RDLC, Word or a custom layout; one page notes document report performance.
-- Custom layouts can be updated automatically when the report dataset changes.
-- Updates can be tested before applying, to detect and report errors, including cases where fields were removed.
-- Manual layout editing is an option when automatic updates do not resolve issues.
+- All four pages are marked obsolete and point to current layout documentation.
+- Custom layouts can be created by copying an existing layout, in RDLC or Word format.
+- Layouts are exported and imported as files from the Report Layout Selection page: Word as .docx, RDLC as .rdlc or .rdl.
+- Setting a report's layout means changing the layout type (RDLC, Word or custom) on the Report Layout Selection page.
+- Relevant fields on that page include Layout Type, Company Name and Layout Description.
+- After dataset changes, layouts can be updated automatically from error messages.
+- Layout updates can be tested first, and applied to one layout or to all layouts.
+- Manual layout editing is the fallback when automatic updates fail.
 
 ## Learn pages
 
-- [(Obsolete) Create and modify custom report layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout): Learn how to create customized layouts to personalize the appearance of a report when viewed, printed, or saved.
-- [(Obsolete) Import and Export Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-import-and-export-report-layout): You can import and export an existing custom report layout as a file to and from a location on your computer and network.
-  - In the observatory: [Page 9660 "Report Layouts"](../../../../../objects/page/9660.md)
-- [(Obsolete) Set the Layout Used by a Report](https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report): You can use different layouts for a report, and switch between layouts to change how a report looks.
-- [(Obsolete) Update Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts): Learn how to update a custom report layout used on a report when there are design changes to the report's data set, for example.
+- [(Obsolete) Create and Modify Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout): Create, copy, and modify report layouts in versions of Business Central that still provide the legacy Custom Report Layouts page and its actions.
+- [(Obsolete) Import and Export Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-import-and-export-report-layout): Export and import Word or RDLC layout files in versions of Business Central that still provide the legacy Custom Report Layouts page and its actions.
+- [(Obsolete) Set the Layout Used by a Report](https://learn.microsoft.com/dynamics365/business-central/ui-how-change-layout-currently-used-report): Change the layout used by a report in versions of Business Central that still include the legacy Report Layout Selection and Custom Report Layouts pages.
+- [(Obsolete) Update Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts): Test and update legacy custom report layouts after dataset changes in Business Central, and find guidance for changes that require manual fixes.
   - In the observatory: [Page 9656 "Report Layout Update Log"](../../../../../objects/page/9656.md)
 
 ## Videos and posts

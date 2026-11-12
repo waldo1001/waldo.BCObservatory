@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:02:37.851Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-12T00:57:40.556Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,6 +93,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/12443
     - change/bcapps/9306
     - change/bcapps/9886
 learn_toc_path:
@@ -161,6 +162,7 @@ For reporting, use Print Account Book Reports (Official Account Book and Summari
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12443 Renumber SII objects for ES](../../../../../changes/bcapps/12443.md) (code change): "Renumber SII objects for ES. Renumbers the SII table extensions"
 - [#9306 [Main] Unbalanced G/L Entries if you apply a Payment and a Posted Purchase Invoice having both different Posting Groups and using the "Applies-to Document No." on the line instead of using Apply Entries in the Spanish version.Initial commit](../../../../../changes/bcapps/9306.md) (code change): "Fixed unbalanced G/L entries when applying a payment to a purchase invoice"
 - [#9886 [Master] Expense Report posting FCY rounding mismatch "Expense Report Posting Test" fail in Spain only (Source Currency Amount 649.97 vs 650](../../../../../changes/bcapps/9886.md) (code change): "foreign currency rounding mismatch in expense report posting for Spain"
 
