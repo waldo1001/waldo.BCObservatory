@@ -1,29 +1,31 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-manage-vat.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
-  "title": "Value Added Tax management overview",
-  "blob": "e8ecdf434a2cccaf842e964b2ba01af2efed32d6",
-  "summary": "Value Added Tax management covers VAT setup, posting groups, nondeductible and unrealized VAT, VAT statements, working with VAT on sales and purchases, VAT reports, submitting to authorities, EU third-party transactions, rate changes, and registration number validation.",
+  "title": "VAT Management Overview in Business Central",
+  "blob": "fe6ded3c099cbaf7ca751a37a8203dd933b1cd04",
+  "summary": "VAT management overview covering setup, features, and reporting for handling Value Added Tax in Business Central, including calculation, posting, and submission to tax authorities.",
   "systems": [
     "finance"
   ],
   "topics": [
     "vat",
     "tax",
-    "sales",
-    "purchases",
+    "setup",
+    "reporting",
     "compliance",
-    "reporting"
+    "posting groups"
   ],
   "objects": [],
   "features": [
-    "VAT posting groups",
+    "VAT calculation",
+    "VAT posting",
+    "VAT reporting",
     "nondeductible VAT",
     "unrealized VAT",
     "VAT statements",
     "VAT rate changes",
-    "EU third-party trade",
-    "multiple VAT registrations"
+    "multiple VAT registrations",
+    "VAT validation"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003381,
-      "pages_in_call": 8
+      "cost_usd": 0.003602,
+      "pages_in_call": 1
     }
   ]
 }

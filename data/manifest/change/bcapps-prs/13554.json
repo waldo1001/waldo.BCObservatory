@@ -6,14 +6,39 @@
   "title": "Add procedures to import configuration packages and manage table operations in Fabric API",
   "url": "https://github.com/microsoft/BCApps/pull/13554",
   "published_at": "2026-11-10T11:15:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-11T00:15:47.902Z"
+    },
+    "fetched": {
+      "at": "2026-11-12T00:17:38.634Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-12T00:17:44.585Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003548
+    },
+    "linked": {
+      "at": "2026-11-12T00:17:44.694Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-12T00:17:44.698Z",
+      "path": "content/changes/bcapps/13554.md"
     }
   },
   "input_hash": "207c41f8a7ed16092cde1c4d72b3bd44ca68ddf5:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13554,
@@ -33,6 +58,7 @@
     "community_contribution": true,
     "title_key": "add procedures to import configuration packages and manage table operations in fabric api"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-11T02:20:20.297Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e729e23fe1633f259fb59d7ecdd431642ae09470432d379b7e6158851e993b24"
 }

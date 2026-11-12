@@ -1,0 +1,60 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13315,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13315",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-10T05:31:44Z",
+  "merge_commit_sha": "4689885b0d4953511d0fbd781c2473679901481d",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main]Incorrect Country/Region Code in VAT Entry after applying Alternative Customer VAT Registration on a Sales Invoice in the Belgian version.",
+  "body_hash": "f2c17c68dc17b4968b5c28096419ab66231418adf44c1580b0915b32e22ac737",
+  "fixes_issues": [],
+  "work_items": [
+    656881
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/Tests/Local/AltCustVATDocBETests.Codeunit.al",
+      "status": "modified",
+      "additions": 122,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 124,
+    "deletions": 6,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Posting/SalesPostInvoice.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

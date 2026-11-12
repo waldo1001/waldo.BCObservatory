@@ -1,20 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-how-use-multiple-vat-registrations.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-multiple-vat-registrations",
-  "title": "Multiple VAT registration numbers",
-  "blob": "2f2a22b55dbda7ffcbaa748762ecde43792f35b9",
-  "summary": "Multiple VAT registration numbers allows businesses with warehouses in multiple EU countries to set up different VAT numbers per location and automatically apply the correct VAT registration and posting groups when creating sales documents.",
+  "title": "Use Multiple Customer VAT Registration Numbers",
+  "blob": "96b305cbb4b9e7f9d68306914840b0ce9e532c3f",
+  "summary": "Multiple customer VAT registration numbers allows businesses to set up different VAT numbers for customers across multiple EU countries/regions to comply with local tax regulations.",
   "systems": [
     "finance",
-    "localization",
     "sales"
   ],
   "topics": [
-    "vat",
-    "tax-compliance",
+    "vat registration",
     "multi-country",
-    "customer-setup",
-    "eu-regulations"
+    "tax compliance",
+    "customer setup",
+    "eu regulations"
   ],
   "objects": [
     {
@@ -27,15 +26,22 @@
     },
     {
       "type": "page",
-      "name": "VAT Setup"
+      "name": "Customer"
+    },
+    {
+      "type": "page",
+      "name": "My Notifications"
     }
   ],
   "features": [
-    "alternative VAT registration per country",
-    "ship-to address VAT handling",
-    "automatic VAT posting group assignment",
-    "custom address VAT mapping",
-    "sales credit memo VAT inheritance"
+    "Alternative VAT registration numbers",
+    "Country/region-specific VAT setup",
+    "Ship-to addresses with different VAT numbers",
+    "VAT and posting group customization",
+    "Alternative shipping address selection",
+    "Custom address VAT matching",
+    "Sales document VAT configuration",
+    "Credit memo VAT inheritance"
   ],
   "versions": [
     "2024 release wave 2"
@@ -46,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006645,
-      "pages_in_call": 8
+      "cost_usd": 0.004672,
+      "pages_in_call": 1
     }
   ]
 }

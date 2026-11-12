@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Managing VAT rate changes",
+  "title": "Manage VAT Rate Changes in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-vat-rate-change-tool",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.695Z",
-      "blob": "fee5c2c88f98b259a8fbba26c5ddf044d8c89f0c",
-      "words": 1178,
+      "at": "2026-11-12T00:17:36.510Z",
+      "blob": "8f0ecdbd8cb967c5effe3283ac98375b247f864b",
+      "words": 1167,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:06:10.947Z",
+      "at": "2026-11-12T00:17:45.886Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.006645
+      "objects": 3,
+      "cost_usd": 0.004813
     },
     "summarized": {
-      "at": "2026-10-06T19:06:12.777Z",
+      "at": "2026-11-12T00:17:45.886Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:06:12.778Z",
+      "at": "2026-11-12T00:17:45.887Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:06:12.779Z",
+      "at": "2026-11-12T00:17:45.887Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-how-use-vat-rate-change-tool.md",
-    "description": "Learn how to use the VAT Rate Change tool to change VAT rates based on local legislation.",
-    "ms_date": "2025-04-28",
+    "description": "Prepare for a VAT rate change in Business Central, set up posting group conversions, and test the VAT Rate Change tool before converting your data.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -61,12 +61,12 @@
       "tax",
       "value-added tax"
     ],
-    "ai_usage": null,
-    "words": 1178,
+    "ai_usage": "ai-assisted",
+    "words": 1167,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5176f7eea516394343e0a404aba0e5b9e6b6db38a8914b2336b2c6243e89bc6f"
+  "output_hash": "9f1056042292713e377d85560a9abedc620b6e8f154a19bf20367f4d27a24b85"
 }

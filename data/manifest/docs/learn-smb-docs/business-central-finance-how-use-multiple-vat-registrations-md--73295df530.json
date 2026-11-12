@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Multiple VAT registration numbers",
+  "title": "Use Multiple Customer VAT Registration Numbers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-multiple-vat-registrations",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.691Z",
-      "blob": "2f2a22b55dbda7ffcbaa748762ecde43792f35b9",
-      "words": 860,
+      "at": "2026-11-12T00:17:21.324Z",
+      "blob": "96b305cbb4b9e7f9d68306914840b0ce9e532c3f",
+      "words": 708,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:06:10.945Z",
+      "at": "2026-11-12T00:17:33.816Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.006645
+      "objects": 4,
+      "cost_usd": 0.004672
     },
     "summarized": {
-      "at": "2026-10-06T19:06:10.962Z",
+      "at": "2026-11-12T00:17:33.817Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:06:10.963Z",
+      "at": "2026-11-12T00:17:33.817Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:06:10.964Z",
+      "at": "2026-11-12T00:17:33.818Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-how-use-multiple-vat-registrations.md",
-    "description": "Learn about the functionality for multiple (alternative) value-added tax (VAT) registration numbers.",
-    "ms_date": "2024-08-21",
-    "ms_topic": "article",
+    "description": "Set up alternative customer VAT registration numbers in Business Central and apply the correct VAT details when shipping to another country or region.",
+    "ms_date": "2026-11-11",
+    "ms_topic": "how-to",
     "search_form": [
       {
         "raw": "212",
@@ -67,12 +67,12 @@
       "tax",
       "value-added tax"
     ],
-    "ai_usage": null,
-    "words": 860,
+    "ai_usage": "ai-assisted",
+    "words": 708,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e8358e4772924025d14e0bc8c6e818eb3077ac5f3f69d2a70eb14f10c174595b"
+  "output_hash": "a670e10bd80a3600a5392cffd06b02b1237547d6c99b9d1ae1d88fa887d6e9eb"
 }

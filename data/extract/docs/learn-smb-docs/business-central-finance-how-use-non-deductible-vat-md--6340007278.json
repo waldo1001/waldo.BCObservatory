@@ -1,27 +1,65 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-how-use-non-deductible-vat.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat",
-  "title": "Use non-deductible VAT",
-  "blob": "c90a829e9c4cfdf4acfae10202812bb73327b975",
-  "summary": "Use non-deductible VAT describes how to create purchase invoices and orders with non-deductible VAT and adjust VAT amounts before posting. Use this when handling VAT that cannot be deducted from tax obligations.",
+  "title": "Use Nondeductible VAT in Business Central",
+  "blob": "9b2080bba1ae3a5381428a654ea9c918589812d3",
+  "summary": "Using nondeductible VAT on purchase invoices and orders in Business Central, including creating documents with nondeductible VAT and adjusting VAT amounts before posting.",
   "systems": [
     "finance",
     "purchasing"
   ],
   "topics": [
-    "non-deductible vat",
+    "nondeductible vat",
+    "purchase invoices",
+    "purchase orders",
     "vat setup",
-    "purchase invoice",
-    "purchase order",
-    "vat adjustment"
+    "vat posting setup",
+    "vat adjustments"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoice Statistics"
+    },
+    {
+      "type": "page",
+      "name": "VAT Amount Lines"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Order Statistics"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    }
+  ],
   "features": [
-    "Non-Deductible VAT Base",
-    "Non-Deductible VAT Amount",
-    "Non-Deductible VAT %",
-    "VAT adjustment",
-    "VAT Setup page"
+    "nondeductible vat",
+    "nondeductible vat base",
+    "nondeductible vat amount",
+    "vat difference adjustment",
+    "max vat difference allowed"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +68,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003787,
-      "pages_in_call": 8
+      "cost_usd": 0.004651,
+      "pages_in_call": 1
     }
   ]
 }

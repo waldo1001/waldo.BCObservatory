@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Posting group setup",
+  "title": "Set Up Posting Groups in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.261Z",
-      "blob": "b6f9f25693cdb6915f1b6229c04148e656690bea",
-      "words": 2009,
+      "at": "2026-11-12T00:17:48.418Z",
+      "blob": "7f36b5dd8453e8490536add64ed85140e8176c98",
+      "words": 2020,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:12:59.308Z",
+      "at": "2026-11-12T00:18:02.351Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 18,
-      "cost_usd": 0.006497
+      "objects": 24,
+      "cost_usd": 0.013035
     },
     "summarized": {
-      "at": "2026-10-06T19:13:10.663Z",
+      "at": "2026-11-12T00:18:02.352Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:10.665Z",
+      "at": "2026-11-12T00:18:05.626Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:10.666Z",
+      "at": "2026-11-12T00:18:05.626Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-posting-groups.md",
-    "description": "Learn how to use posting groups to save time and avoid mistakes when you post transactions.",
-    "ms_date": "2025-08-13",
-    "ms_topic": "install-set-up-deploy",
+    "description": "Set up posting groups in Business Central to map transactions to G/L accounts, allow alternative groups, and troubleshoot missing account setup.",
+    "ms_date": "2026-11-11",
+    "ms_topic": "how-to",
     "search_form": [
       {
         "raw": "312",
@@ -63,12 +63,12 @@
       "posting setup",
       "initialize"
     ],
-    "ai_usage": null,
-    "words": 2009,
+    "ai_usage": "ai-assisted",
+    "words": 2020,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6a1cabc2fd49f59a1361a5a7f62a9ee2d7f428d3f32d486a69ee7b6ab55a33de"
+  "output_hash": "0e8813acb8c88b1db3f8e6f5506ece3cab9b2407ba6dc08ec0ab9714982d4fbf"
 }

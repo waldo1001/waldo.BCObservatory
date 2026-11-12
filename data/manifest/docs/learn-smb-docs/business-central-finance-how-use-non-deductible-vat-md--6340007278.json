@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Use non-deductible VAT",
+  "title": "Use Nondeductible VAT in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.946Z",
-      "blob": "c90a829e9c4cfdf4acfae10202812bb73327b975",
-      "words": 629,
+      "at": "2026-11-12T00:17:33.822Z",
+      "blob": "9b2080bba1ae3a5381428a654ea9c918589812d3",
+      "words": 562,
       "forms": 9
     },
     "extracted": {
-      "at": "2026-10-06T19:40:22.359Z",
+      "at": "2026-11-12T00:17:44.706Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003787
+      "objects": 9,
+      "cost_usd": 0.004651
     },
     "summarized": {
-      "at": "2026-10-06T19:42:56.070Z",
+      "at": "2026-11-12T00:17:44.707Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:42:56.071Z",
+      "at": "2026-11-12T00:17:44.708Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:42:56.071Z",
+      "at": "2026-11-12T00:17:44.708Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-how-use-non-deductible-vat.md",
-    "description": "This article explains how to use and report non-deductible VAT.",
-    "ms_date": "2023-04-26",
+    "description": "Use nondeductible VAT on purchase invoices and orders in Business Central, and adjust VAT rounding differences before you post purchase documents.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -100,12 +100,12 @@
       "return",
       "settlement"
     ],
-    "ai_usage": null,
-    "words": 629,
+    "ai_usage": "ai-assisted",
+    "words": 562,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "afdaa93cccf8f8317ea135044b6f721e2e23b3e955fc66e903a7c217be5c486a"
+  "output_hash": "fdb2ba6bf18edeea28448602c41673786fb56f5c26cc643d7e02d322f356eb06"
 }

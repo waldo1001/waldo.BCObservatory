@@ -1,26 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-setup-nondeductible-vat.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-nondeductible-vat",
-  "title": "Set up nondeductible VAT",
-  "blob": "083e9f830a0ba9dbcaa63c37ccef034d07869b9f",
-  "summary": "Set up nondeductible VAT to handle value-added tax that isn't deductible from a purchaser's VAT liability. Configure which costs include nondeductible VAT and specify posting accounts and percentages in VAT Posting Setup.",
+  "title": "Set Up Nondeductible VAT in Business Central",
+  "blob": "4350bd799a9edea69aa22b492dc3de75b73102fa",
+  "summary": "Setting up nondeductible VAT in Business Central allows companies to configure how the system handles VAT that cannot be recovered, including options to add it to item, fixed asset, or project costs and to display it on document lines.",
   "systems": [
-    "finance"
+    "finance",
+    "administration"
   ],
   "topics": [
     "vat",
-    "tax",
-    "deductibility",
-    "posting accounts",
-    "cost management"
+    "nondeductible vat",
+    "tax setup",
+    "vat posting",
+    "proportional vat"
   ],
   "objects": [
     {
-      "type": "table",
+      "type": "page",
       "name": "VAT Setup"
     },
     {
-      "type": "table",
+      "type": "page",
       "name": "VAT Posting Setup"
     }
   ],
@@ -28,7 +29,7 @@
     "Enable Non-Deductible VAT",
     "Use For Item Cost",
     "Use For Fixed Asset Cost",
-    "Use For Job Cost",
+    "Use For Project Cost",
     "Show Non-Ded. VAT In Lines",
     "Allow Non-Deductible VAT",
     "Non-Deductible VAT %",
@@ -41,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004095,
-      "pages_in_call": 8
+      "cost_usd": 0.004536,
+      "pages_in_call": 1
     }
   ]
 }

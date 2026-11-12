@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Value Added Tax management overview",
+  "title": "VAT Management Overview in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.133Z",
-      "blob": "e8ecdf434a2cccaf842e964b2ba01af2efed32d6",
-      "words": 439,
+      "at": "2026-11-12T00:17:37.528Z",
+      "blob": "fe6ded3c099cbaf7ca751a37a8203dd933b1cd04",
+      "words": 418,
       "forms": 13
     },
     "extracted": {
-      "at": "2026-10-06T19:21:50.315Z",
+      "at": "2026-11-12T00:17:48.433Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003381
+      "cost_usd": 0.003602
     },
     "summarized": {
-      "at": "2026-10-06T19:21:50.325Z",
+      "at": "2026-11-12T00:17:48.434Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:21:50.326Z",
+      "at": "2026-11-12T00:17:48.434Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:21:50.327Z",
+      "at": "2026-11-12T00:17:48.435Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-manage-vat.md",
-    "description": "Learn how to manage Value Added Tax (VAT) with the listed information and resources.",
-    "ms_date": "2024-08-29",
-    "ms_topic": "concept-article",
+    "description": "Find guidance for setting up, calculating, correcting, and reporting VAT in Business Central, including VAT statements and registration numbers.",
+    "ms_date": "2026-11-11",
+    "ms_topic": "overview",
     "search_form": [
       {
         "raw": "118",
@@ -117,12 +117,12 @@
     "keywords": [
       "VAT"
     ],
-    "ai_usage": null,
-    "words": 439,
+    "ai_usage": "ai-assisted",
+    "words": 418,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "faf17cfe2b8264e7e91c7768796f96f61387c4df6bc9f3d27d4735b3bb807c86"
+  "output_hash": "a890dc14d7b871ee4ffaa446be42499185cad4045cc07587da88e4d3775d84ab"
 }

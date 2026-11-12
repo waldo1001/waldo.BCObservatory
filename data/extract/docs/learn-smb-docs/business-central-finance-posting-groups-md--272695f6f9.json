@@ -1,19 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-posting-groups.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-posting-groups",
-  "title": "Posting group setup",
-  "blob": "b6f9f25693cdb6915f1b6229c04148e656690bea",
-  "summary": "Posting groups setup and configuration for mapping entities to general ledger accounts in Business Central, covering general, specific, and tax posting groups with examples and troubleshooting.",
+  "title": "Set Up Posting Groups in Business Central",
+  "blob": "7f36b5dd8453e8490536add64ed85140e8176c98",
+  "summary": "Posting groups map entities to general ledger accounts to automate transaction posting for customers, vendors, items, resources, and documents. The page explains general, specific, and tax posting groups with setup instructions and troubleshooting guidance.",
   "systems": [
-    "finance"
+    "finance",
+    "sales",
+    "purchasing"
   ],
   "topics": [
     "posting groups",
-    "general ledger accounts",
-    "setup",
-    "configuration",
-    "tax posting",
-    "financial posting"
+    "general ledger",
+    "chart of accounts",
+    "vat",
+    "customer posting",
+    "vendor posting",
+    "inventory posting"
   ],
   "objects": [
     {
@@ -50,7 +53,7 @@
     },
     {
       "type": "page",
-      "name": "Sales & Receivable Setup"
+      "name": "Sales & Receivables Setup"
     },
     {
       "type": "page",
@@ -58,7 +61,7 @@
     },
     {
       "type": "page",
-      "name": "Purchase & Payables Setup"
+      "name": "Purchases & Payables Setup"
     },
     {
       "type": "page",
@@ -66,7 +69,31 @@
     },
     {
       "type": "page",
-      "name": "Tax Business Posting Groups"
+      "name": "Employee Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "VAT Business Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "VAT Product Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Error Messages"
+    },
+    {
+      "type": "page",
+      "name": "My Notifications"
+    },
+    {
+      "type": "page",
+      "name": "My Settings"
     },
     {
       "type": "table",
@@ -90,13 +117,18 @@
     }
   ],
   "features": [
-    "General posting groups",
-    "Specific posting groups",
-    "Tax posting groups",
-    "Alternative posting groups",
-    "Multiple posting groups support",
-    "G/L account validation",
-    "Change log auditing"
+    "General Business Posting Groups",
+    "General Product Posting Groups",
+    "General Posting Setups",
+    "Customer Posting Groups",
+    "Vendor Posting Groups",
+    "Inventory Posting Groups",
+    "Bank Account Posting Groups",
+    "Fixed Assets Posting Groups",
+    "VAT Business Posting Groups",
+    "VAT Product Posting Groups",
+    "Alternative Posting Groups",
+    "Allow Multiple Posting Groups"
   ],
   "versions": [],
   "parts": 1,
@@ -105,8 +137,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006497,
-      "pages_in_call": 8
+      "cost_usd": 0.013035,
+      "pages_in_call": 1
     }
   ]
 }

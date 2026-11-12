@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-how-use-vat-rate-change-tool.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-vat-rate-change-tool",
-  "title": "Managing VAT rate changes",
-  "blob": "fee5c2c88f98b259a8fbba26c5ddf044d8c89f0c",
-  "summary": "The VAT Rate Change tool helps manage VAT rate updates by converting rates on master data, journals, and orders, though it has limitations for certain document types and requires careful preparation and testing.",
+  "title": "Manage VAT Rate Changes in Business Central",
+  "blob": "8f0ecdbd8cb967c5effe3283ac98375b247f864b",
+  "summary": "Manage VAT rate changes in Business Central using the VAT Rate Change tool to convert VAT rates on master data, journals, and orders when tax legislation changes. Use this to prepare for VAT rate switches by adjusting posting groups and converting affected entities like customers, vendors, and items.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
     "vat",
-    "tax-rates",
-    "master-data",
-    "compliance",
-    "data-conversion"
+    "tax",
+    "rate change",
+    "posting groups",
+    "master data",
+    "order conversion"
   ],
   "objects": [
     {
@@ -22,15 +23,22 @@
     },
     {
       "type": "page",
+      "name": "VAT Rate Change"
+    },
+    {
+      "type": "table",
       "name": "VAT Rate Change Log Entry"
     }
   ],
   "features": [
-    "VAT product posting group conversion",
-    "general product posting group conversion",
-    "unit price update for items and resources",
-    "test conversion capability",
-    "conversion logging and tracking"
+    "VAT rate conversion",
+    "product posting group conversion",
+    "general posting group conversion",
+    "unit price updates",
+    "journal conversion",
+    "order line conversion",
+    "test conversion",
+    "VAT rate change log"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006645,
-      "pages_in_call": 8
+      "cost_usd": 0.004813,
+      "pages_in_call": 1
     }
   ]
 }

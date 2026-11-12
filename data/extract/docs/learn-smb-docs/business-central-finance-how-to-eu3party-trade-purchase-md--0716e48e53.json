@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-how-to-eu3party-trade-purchase.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-eu3party-trade-purchase",
-  "title": "EU third-party purchase transactions",
-  "blob": "6b76f03e4a896c9e8296fc4416cda69a3a79cc4e",
-  "summary": "Enable and use EU third-party purchase transactions to report purchases where goods are shipped to a different EU country than the invoice origin, and filter them in VAT statements and VIES declarations.",
+  "title": "Use EU Third-Party Purchase Transactions",
+  "blob": "74839ad562601bfed624de71f654210946c95290",
+  "summary": "EU third-party purchase transactions allow you to receive invoices from EU vendors while products ship directly to another EU country without entering yours. Business Central lets you mark and filter these transactions separately for VAT reporting compliance.",
   "systems": [
     "finance",
     "purchasing",
     "localization"
   ],
   "topics": [
-    "eu third-party trade",
-    "vat reporting",
-    "vies declaration",
-    "purchase transactions"
+    "eu vat",
+    "third-party trade",
+    "purchase invoices",
+    "vat statements",
+    "vies reporting"
   ],
   "objects": [
     {
@@ -30,10 +31,11 @@
     }
   ],
   "features": [
-    "eu 3-party trade",
-    "eu 3-party trade filter",
-    "vat setup",
-    "vies reporting"
+    "EU 3-Party Trade Purchase extension",
+    "Enable EU 3-Party Purchase",
+    "EU 3-Party Trade checkbox",
+    "EU 3-Party Trade Filter",
+    "VAT-VIES Declaration Tax Auth report"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003605,
-      "pages_in_call": 8
+      "cost_usd": 0.003657,
+      "pages_in_call": 1
     }
   ]
 }

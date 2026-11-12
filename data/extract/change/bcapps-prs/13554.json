@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13554",
+  "number": 13554,
+  "title": "Add procedures to import configuration packages and manage table operations in Fabric API",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Fabric API now supports resetting and removing tables, and importing configuration packages through new API procedures.",
+  "key_points": [
+    "Added API procedures to reset a table through the Fabric API",
+    "Added API procedures to remove a table from the Fabric API",
+    "Added API support for importing configuration packages",
+    "Implemented configuration package management logic in the Fabric Config Package Management codeunit",
+    "Added test coverage for the new package import functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Currently there are no API calls for the following actions: Reset a table, remove a table, import a configuration package",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003548,
+    "changes_in_call": 1
+  }
+}

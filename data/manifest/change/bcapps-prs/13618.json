@@ -6,14 +6,39 @@
   "title": "[Master]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages",
   "url": "https://github.com/microsoft/BCApps/pull/13618",
   "published_at": "2026-11-10T08:50:20Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-11T00:15:47.902Z"
+    },
+    "fetched": {
+      "at": "2026-11-12T00:17:46.006Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-12T00:17:52.372Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002883
+    },
+    "linked": {
+      "at": "2026-11-12T00:17:52.476Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-12T00:17:52.479Z",
+      "path": "content/changes/bcapps/13618.md"
     }
   },
   "input_hash": "ff2af85c442b65fe0835255a8db0f244b1a70564:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13618,
@@ -29,6 +54,7 @@
     "community_contribution": false,
     "title_key": "master serial numbers selected on assembly order component lines are deleted when running calculate regenerative plan without carrying out action messages"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-11T02:21:09.521Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "532d45da266123ce36ca5ac7c4aeb2821aa3edec19159cf3628a5455485aaae4"
 }

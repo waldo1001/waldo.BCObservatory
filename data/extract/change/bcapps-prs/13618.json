@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13618",
+  "number": 13618,
+  "title": "[Master]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "assembly"
+  ],
+  "summary": "Serial numbers on assembly order component lines are no longer unexpectedly deleted when running the Calculate Regenerative Plan action.",
+  "key_points": [
+    "Fixed issue where serial numbers assigned to assembly order components were removed during regenerative planning",
+    "Added logic to preserve item tracking information during inventory profile calculations",
+    "Includes expanded test coverage for serial number handling in assembly order scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "assembly",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002883,
+    "changes_in_call": 1
+  }
+}

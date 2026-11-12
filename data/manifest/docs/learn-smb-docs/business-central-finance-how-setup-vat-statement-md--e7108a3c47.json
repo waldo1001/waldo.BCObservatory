@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set up a VAT statement",
+  "title": "Set Up VAT Statement Templates and Names",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-vat-statement",
   "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.661Z",
-      "blob": "2f1f4f17e9404dcf7703ebb1fc229487e36287be",
-      "words": 566,
+      "at": "2026-11-12T00:17:18.630Z",
+      "blob": "0265a5d56f1fb51e42b374251ad3f41f4c30188b",
+      "words": 541,
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T19:06:04.125Z",
+      "at": "2026-11-12T00:17:29.217Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.003605
+      "objects": 2,
+      "cost_usd": 0.003762
     },
     "summarized": {
-      "at": "2026-10-06T19:06:12.758Z",
+      "at": "2026-11-12T00:17:29.218Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:06:12.759Z",
+      "at": "2026-11-12T00:17:29.218Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:06:12.759Z",
+      "at": "2026-11-12T00:17:29.219Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-how-setup-vat-statement.md",
-    "description": "This article tells you how to set Up a VAT Statement Template and VAT Statement Names to meet changing tax authority requirements.",
-    "ms_date": "2024-08-13",
+    "description": "Set up VAT statement templates and names in Business Central, define how rows calculate VAT, and preview the statement for a reporting period.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -80,12 +80,12 @@
       "tax",
       "value-added tax"
     ],
-    "ai_usage": null,
-    "words": 566,
+    "ai_usage": "ai-assisted",
+    "words": 541,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ffef607f66a0d9eb8c6134ce2d4e7556522f9eef4e4653eb97c0a87f1f950eb3"
+  "output_hash": "f80cc3a2896fc6c659b72b2964a0d116055c59f9f7d07286f3aa94d79aa6a7f2"
 }
