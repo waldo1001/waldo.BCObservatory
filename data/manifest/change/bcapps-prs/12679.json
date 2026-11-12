@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/12679",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[API tests] Handle localized purchase invoice payment discounts in APIV1 tests",
+  "url": "https://github.com/microsoft/BCApps/pull/12679",
+  "published_at": "2026-11-11T16:47:03Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-12T00:14:43.393Z"
+    }
+  },
+  "input_hash": "5cae08025c6967ef1a844cb9115582bf54c9da41:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12679,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5cae08025c6967ef1a844cb9115582bf54c9da41",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "api tests handle localized purchase invoice payment discounts in apiv1 tests"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-12T00:15:48.984Z",
+  "retry_after": null
+}

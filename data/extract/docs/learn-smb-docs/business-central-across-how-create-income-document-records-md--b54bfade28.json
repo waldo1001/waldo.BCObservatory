@@ -1,20 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-how-create-income-document-records.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-create-income-document-records",
-  "title": "Create incoming document records",
-  "blob": "ba9a3b0b7642fe6314ccf08b119b0f5022bbc849",
-  "summary": "Create incoming document records manually, from photos using tablet/phone clients, or from files to manage expense receipts and convert incoming documents to purchase invoices or journal lines. Includes approval workflow for document processing.",
+  "title": "Create Incoming Document Records",
+  "blob": "ba0f636974d718bcc978ce7b0a1642f0e4640ac3",
+  "summary": "The Incoming Documents page allows users to review expense receipts, manage OCR tasks, and convert incoming document files manually or automatically to relevant documents or journal lines. Files can be created from photos, manually, or from files at any process stage.",
   "systems": [
     "purchasing",
-    "finance",
-    "integration"
+    "integration",
+    "administration"
   ],
   "topics": [
     "incoming documents",
     "ocr",
-    "document creation",
-    "photo capture",
-    "expense receipts"
+    "document conversion",
+    "approval workflow",
+    "expense receipts",
+    "file attachment"
   ],
   "objects": [
     {
@@ -23,12 +24,14 @@
     }
   ],
   "features": [
-    "manual record creation",
-    "camera photo capture",
-    "file attachment",
-    "OCR processing",
-    "approval workflow",
-    "document conversion"
+    "Review expense receipts",
+    "Manage OCR tasks",
+    "Convert incoming document files",
+    "Automatic and manual conversion",
+    "File attachment at any process stage",
+    "Approval workflow",
+    "Create from camera",
+    "Attach image from camera"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003554,
-      "pages_in_call": 8
+      "cost_usd": 0.004177,
+      "pages_in_call": 1
     }
   ]
 }

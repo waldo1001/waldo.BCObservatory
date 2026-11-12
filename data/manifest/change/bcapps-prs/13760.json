@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13760",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Expense Agent] Allow receipt submission with unresolved VAT setup",
+  "url": "https://github.com/microsoft/BCApps/pull/13760",
+  "published_at": "2026-11-11T10:40:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-12T00:14:43.393Z"
+    }
+  },
+  "input_hash": "09af56734828b76e3f38b07481a97f1c7392b02c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13760,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "09af56734828b76e3f38b07481a97f1c7392b02c",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent allow receipt submission with unresolved vat setup"
+  }
+}

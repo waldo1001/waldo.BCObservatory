@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13822",
+  "number": 13822,
+  "title": "Fix XRechnung export truncating item name to 40 characters",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "XRechnung export now includes the full item description instead of truncating it to 40 characters, allowing up to 100 characters as permitted by the specification.",
+  "key_points": [
+    "Removed 40-character limit on item names in XRechnung export for sales invoices and credit memos",
+    "Full description field (up to 100 characters) is now exported without truncation",
+    "Complies with XRechnung 3.0.2 specification and UBL 2.1 schema which have no length restriction on BT-153",
+    "Added tests verifying that maximum-length item descriptions are properly exported"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004135,
+    "changes_in_call": 1
+  }
+}

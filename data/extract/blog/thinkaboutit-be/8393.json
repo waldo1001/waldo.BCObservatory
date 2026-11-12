@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/thinkaboutit-be/8393",
+  "url": "https://thinkaboutit.be/2026/11/quick-tip-whats-in-business-central-2026-release-wave-2-update-29-1/",
+  "title": "Quick Tip: What’s in Business Central 2026 Release Wave 2, Update 29.1?",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-11-11T09:21:16.000Z",
+  "words": 394,
+  "summary": "Business Central 2026 Wave 2 Update 29.1 introduces new features in finance (cross-environment master data management, fixed asset journal approvals, payment batch totals, excise duties), agents (Payables Agent for credit notes, Expense Agent for trip-based reports), administration (Match Production Configuration for sandbox testing), e-documents (self-billing), and country-specific functionality for Belgium, Austria, Iceland, Germany, France, and Czechia.",
+  "key_points": [
+    "Update 29.1 is the first minor update for 2026 release wave 2 with new features across finance, copilot/agents, governance, and localization",
+    "Several features are in preview (cross-environment MDM, excise duties, Match Production Configuration, self-billing, country-specific enhancements) while others are now generally available (fixed asset approvals, payment batch totals, Payables Agent)",
+    "Match Production Configuration lets admins temporarily mirror production database behavior in sandbox for performance testing, limited to 72 hours and three activations per tenant per month",
+    "Agents now handle new scenarios: Payables Agent processes vendor credit notes; Expense Agent creates trip-based reports with interim approver support",
+    "New customers are deployed directly on 29.1; existing online customers receive update notifications and can schedule upgrades through Admin Center"
+  ],
+  "systems": [
+    "finance",
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "update",
+    "release wave 2",
+    "preview",
+    "general availability",
+    "master data management",
+    "agents",
+    "localization",
+    "e-documents"
+  ],
+  "objects": [],
+  "features": [
+    "Cross-environment Master Data Management",
+    "Fixed asset journal approvals",
+    "Payment journal batch totals",
+    "Excise duties support",
+    "Payables Agent credit note processing",
+    "Expense Agent trip reports",
+    "Match Production Configuration",
+    "Self-billing for E-Documents"
+  ],
+  "versions": [
+    "2026 release wave 2",
+    "29.1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Match Production Configuration (preview) lets administrators temporarily configure a sandbox database to resemble a typical production database.",
+      "why_it_matters": "This feature directly addresses performance testing needs by allowing admins to test against production-like configurations without affecting live systems"
+    },
+    {
+      "text": "One thing worth watching is the distinction between public preview and general availability.",
+      "why_it_matters": "Clarifies that not all 29.1 features are production-ready, so users must verify feature status before implementation"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005801,
+    "posts_in_call": 1
+  }
+}

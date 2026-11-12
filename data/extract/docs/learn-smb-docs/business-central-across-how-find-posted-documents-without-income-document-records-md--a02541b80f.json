@@ -1,20 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-how-find-posted-documents-without-income-document-records.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-find-posted-documents-without-income-document-records",
-  "title": "Find posted documents without incoming documents",
-  "blob": "a7b61771e95ae81ac3c4e0fae229b37251b3737a",
-  "summary": "Find posted purchase and sales documents without incoming document records using the Chart of Accounts or General Ledger Entries pages, then link to existing incoming records or create new ones with attachments.",
+  "title": "Find Posted Documents without Incoming Document Records",
+  "blob": "1c175a034379ac868403a575cb0e6972739ceec9",
+  "summary": "Finding and linking posted purchase and sales documents to incoming document records using the Chart of Accounts or General Ledger Entries pages, with the ability to create new incoming document records when needed.",
   "systems": [
+    "integration",
     "purchasing",
-    "sales",
-    "finance"
+    "sales"
   ],
   "topics": [
-    "posted documents",
     "incoming documents",
-    "document search",
-    "general ledger",
-    "document linking"
+    "general ledger entries",
+    "posted documents",
+    "document linking",
+    "chart of accounts"
   ],
   "objects": [
     {
@@ -35,10 +35,13 @@
     }
   ],
   "features": [
-    "document search",
-    "posting date filtering",
-    "document linking",
-    "batch connection"
+    "find posted documents without incoming document records",
+    "search general ledger entries",
+    "link documents to incoming records",
+    "date filtering",
+    "document number filtering",
+    "create incoming document records",
+    "view incoming document files"
   ],
   "versions": [],
   "parts": 1,
@@ -47,8 +50,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003554,
-      "pages_in_call": 8
+      "cost_usd": 0.003834,
+      "pages_in_call": 1
     }
   ]
 }

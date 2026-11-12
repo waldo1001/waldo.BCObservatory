@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13641",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 647022: [Subcontracting] Use alternative worksheet names and migrate the legacy page",
+  "url": "https://github.com/microsoft/BCApps/pull/13641",
+  "published_at": "2026-11-11T12:03:34Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-12T00:14:43.393Z"
+    },
+    "fetched": {
+      "at": "2026-11-12T00:15:50.190Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-12T00:15:59.458Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004415
+    },
+    "linked": {
+      "at": "2026-11-12T00:15:59.591Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-12T00:15:59.670Z",
+      "path": "content/changes/bcapps/13641.md"
+    }
+  },
+  "input_hash": "35bf4a5aa50150e578547f2706894ba8f6fc9d35:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13641,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "35bf4a5aa50150e578547f2706894ba8f6fc9d35",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 647022 subcontracting use alternative worksheet names and migrate the legacy page"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "660db11220f84a7aa9ea423a7af510eb2732609791b2750162238e3f19d3bed0"
+}

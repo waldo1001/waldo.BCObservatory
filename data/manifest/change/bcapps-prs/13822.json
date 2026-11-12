@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/13822",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix XRechnung export truncating item name to 40 characters",
+  "url": "https://github.com/microsoft/BCApps/pull/13822",
+  "published_at": "2026-11-11T10:54:22Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-12T00:14:43.393Z"
+    },
+    "fetched": {
+      "at": "2026-11-12T00:16:04.765Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-12T00:16:23.731Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004135
+    },
+    "linked": {
+      "at": "2026-11-12T00:16:23.892Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-12T00:16:23.895Z",
+      "path": "content/changes/bcapps/13822.md"
+    }
+  },
+  "input_hash": "556e9902e1abf304dc54d7ba4b56c837deebe1ed:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13822,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "556e9902e1abf304dc54d7ba4b56c837deebe1ed",
+    "author": "pri-kise",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "fix xrechnung export truncating item name to 40 characters"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "81e61dfc9783f89fa85ef9ea12fd28f5a60d1dc6aa245408e1b6146e8df84d1f"
+}

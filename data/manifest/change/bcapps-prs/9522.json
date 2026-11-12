@@ -1,0 +1,63 @@
+{
+  "id": "change/bcapps-prs/9522",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Issue #9473 OnAfterIncreaseQty",
+  "url": "https://github.com/microsoft/BCApps/pull/9522",
+  "published_at": "2026-11-11T11:05:20Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-12T00:14:43.393Z"
+    },
+    "fetched": {
+      "at": "2026-11-12T00:16:01.305Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-12T00:16:05.319Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003107
+    },
+    "linked": {
+      "at": "2026-11-12T00:16:05.460Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-12T00:16:05.494Z",
+      "path": "content/changes/bcapps/9522.md"
+    }
+  },
+  "input_hash": "c9376129e121aa17f71b803d17b01f6538c6bcd4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9522,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c9376129e121aa17f71b803d17b01f6538c6bcd4",
+    "author": "MiguelLM-Eyna",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": true,
+    "title_key": "issue 9473 onafterincreaseqty"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0adbcb142a23903c51ad35ca9855e3cb7342a748de410c5a118fa5a1db9b0c3d"
+}

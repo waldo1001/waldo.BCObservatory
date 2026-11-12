@@ -1,37 +1,30 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-how-connect-disconnect-income-document-records.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-connect-disconnect-income-document-records",
-  "title": "Create incoming document records from docs",
-  "blob": "fbf2d9449e7c07f039a48d56735b9cd0ddb49a00",
-  "summary": "Create incoming document records from external documents and entries by attaching files to purchase invoices, vendor ledger entries, and posted documents. Supports connecting existing records or creating new ones with attachments.",
+  "title": "Create Incoming Document Records Directly from Documents and Entries",
+  "blob": "527b6f0974086acc296f5f46e9b91165b64cc139",
+  "summary": "Attach external business documents to incoming document records in Business Central directly from purchase invoices, vendor ledger entries, and general ledger entries using file uploads and connections.",
   "systems": [
     "purchasing",
-    "finance",
-    "integration"
+    "integration",
+    "administration"
   ],
   "topics": [
     "incoming documents",
     "document attachment",
     "purchase invoices",
     "vendor entries",
+    "file management",
     "document linking"
   ],
   "objects": [
-    {
-      "type": "page",
-      "name": "Purchase Invoices"
-    },
-    {
-      "type": "page",
-      "name": "Vendor Ledger Entries"
-    },
     {
       "type": "page",
       "name": "Posted Purchase Invoices"
     },
     {
       "type": "page",
-      "name": "Incoming Documents"
+      "name": "Vendor Ledger Entries"
     },
     {
       "type": "page",
@@ -40,13 +33,23 @@
     {
       "type": "page",
       "name": "General Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Incoming Documents"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
     }
   ],
   "features": [
-    "incoming document records",
-    "file attachment",
-    "document connection",
-    "posted document linking"
+    "upload main attachment",
+    "upload supporting attachments",
+    "Incoming Document Files FactBox",
+    "Create Incoming Document from File action",
+    "Remove Reference to Record action",
+    "document search and linking"
   ],
   "versions": [],
   "parts": 1,
@@ -55,8 +58,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003554,
-      "pages_in_call": 8
+      "cost_usd": 0.004185,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,0 +1,45 @@
+{
+  "id": "blog/waldo-be/318755",
+  "pillar": "blog",
+  "source": "waldo-be",
+  "tier": "community",
+  "title": "Agent Maron & waldo: Mission AL Runner",
+  "url": "https://waldo.be/2026/11/11/agent-maron-waldo-mission-al-runner/",
+  "published_at": "2026-11-11T13:56:14.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-12T00:14:43.393Z"
+    },
+    "fetched": {
+      "at": "2026-11-12T00:15:48.324Z",
+      "path": "vault:posts/waldo-be/318755.md",
+      "words": 2500
+    },
+    "extracted": {
+      "at": "2026-11-12T00:16:03.348Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.013916
+    },
+    "summarized": {
+      "at": "2026-11-12T00:16:03.349Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-11-12T00:16:03.349Z"
+    },
+    "published": {
+      "at": "2026-11-12T00:16:03.354Z",
+      "path": "content/posts/waldo-be/318755.md"
+    }
+  },
+  "input_hash": "2026-11-11T13:56:16.000Z",
+  "attempts": 0,
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3dac07a376d6747f326e039ad5dedc2836e84b6c6d69e3beb24a94b01538d435"
+}

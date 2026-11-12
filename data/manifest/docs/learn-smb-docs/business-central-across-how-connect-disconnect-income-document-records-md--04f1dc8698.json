@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Create incoming document records from docs",
+  "title": "Create Incoming Document Records Directly from Documents and Entries",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-connect-disconnect-income-document-records",
-  "published_at": "2025-10-29T13:40:09.000Z",
+  "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.159Z",
-      "blob": "fbf2d9449e7c07f039a48d56735b9cd0ddb49a00",
-      "words": 540,
+      "at": "2026-11-12T00:15:47.771Z",
+      "blob": "527b6f0974086acc296f5f46e9b91165b64cc139",
+      "words": 523,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:57:26.664Z",
+      "at": "2026-11-12T00:15:59.012Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 6,
-      "cost_usd": 0.003554
+      "cost_usd": 0.004185
     },
     "summarized": {
-      "at": "2026-10-06T18:57:32.104Z",
+      "at": "2026-11-12T00:15:59.013Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:57:32.108Z",
+      "at": "2026-11-12T00:15:59.014Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:57:32.109Z",
+      "at": "2026-11-12T00:15:59.015Z",
       "page": false
     }
   },
-  "input_hash": "fbf2d9449e7c07f039a48d56735b9cd0ddb49a00",
+  "input_hash": "527b6f0974086acc296f5f46e9b91165b64cc139",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-how-connect-disconnect-income-document-records.md",
-    "description": "Attach external business documents to related incoming document records for easy storage and management.",
-    "ms_date": "2025-10-14",
+    "description": "Attach files to purchase invoices and ledger entries by creating incoming document records, and remove links to posted documents when needed.",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "document exchange",
       "import invoice"
     ],
-    "ai_usage": null,
-    "words": 540,
+    "ai_usage": "ai-assisted",
+    "words": 523,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c82d22bb1ab52a4fd8be6b0954e0003dbeeb25ab4059d211e5ece13bccc23529"
+  "output_hash": "1137f6bb960e0617d6807fac9ef57aaca3ba55d7daeff551494146a2d053160f"
 }

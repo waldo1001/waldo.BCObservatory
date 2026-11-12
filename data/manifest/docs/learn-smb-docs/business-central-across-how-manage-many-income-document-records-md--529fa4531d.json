@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Define Which incoming docs to see",
+  "title": "Manage Many Incoming Document Records",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-manage-many-income-document-records",
-  "published_at": "2025-10-29T13:40:09.000Z",
+  "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.172Z",
-      "blob": "86f19324165b772ebd3a89cb3edb396464d8fc13",
-      "words": 374,
+      "at": "2026-11-12T00:16:01.323Z",
+      "blob": "6cd2ae5c67e1492d86f22719e8e9d78ceec965c0",
+      "words": 386,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:57:32.076Z",
+      "at": "2026-11-12T00:16:05.595Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.004358
+      "cost_usd": 0.003429
     },
     "summarized": {
-      "at": "2026-10-06T18:57:32.084Z",
+      "at": "2026-11-12T00:16:05.596Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:57:32.085Z",
+      "at": "2026-11-12T00:16:05.596Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:57:32.086Z",
+      "at": "2026-11-12T00:16:05.597Z",
       "page": false
     }
   },
-  "input_hash": "86f19324165b772ebd3a89cb3edb396464d8fc13",
+  "input_hash": "6cd2ae5c67e1492d86f22719e8e9d78ceec965c0",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-how-manage-many-income-document-records.md",
     "description": "Adjust the default view of incoming documents, such as e-invoices, to improve your overview of processed and unprocessed records.",
-    "ms_date": "2025-10-15",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "document exchange",
       "import invoice"
     ],
-    "ai_usage": null,
-    "words": 374,
+    "ai_usage": "ai-assisted",
+    "words": 386,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "05d169968d2f59b602efa9bce046b7f4463e2cbd102513b6119c5d803b94c33d"
+  "output_hash": "d24ddd274800cf3aaad4dfab9dae3074fe1376bbb6c040a8507bc8a8533044d3"
 }

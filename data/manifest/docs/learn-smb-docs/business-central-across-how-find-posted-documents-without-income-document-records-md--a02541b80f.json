@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Find posted documents without incoming documents",
+  "title": "Find Posted Documents without Incoming Document Records",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-find-posted-documents-without-income-document-records",
-  "published_at": "2025-10-29T13:40:09.000Z",
+  "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.167Z",
-      "blob": "a7b61771e95ae81ac3c4e0fae229b37251b3737a",
-      "words": 365,
+      "at": "2026-11-12T00:15:59.036Z",
+      "blob": "1c175a034379ac868403a575cb0e6972739ceec9",
+      "words": 347,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:57:26.665Z",
+      "at": "2026-11-12T00:16:03.380Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.003554
+      "cost_usd": 0.003834
     },
     "summarized": {
-      "at": "2026-10-06T18:57:32.115Z",
+      "at": "2026-11-12T00:16:03.381Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:57:33.881Z",
+      "at": "2026-11-12T00:16:03.382Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:57:33.883Z",
+      "at": "2026-11-12T00:16:03.383Z",
       "page": false
     }
   },
-  "input_hash": "a7b61771e95ae81ac3c4e0fae229b37251b3737a",
+  "input_hash": "1c175a034379ac868403a575cb0e6972739ceec9",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-how-find-posted-documents-without-income-document-records.md",
     "description": "Search for general ledger entries of posted purchase and sales documents that lack associated incoming electronic documents, such as imported invoices.",
-    "ms_date": "2025-10-15",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "document exchange",
       "import invoice"
     ],
-    "ai_usage": null,
-    "words": 365,
+    "ai_usage": "ai-assisted",
+    "words": 347,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "581697509b086fb15139b4467a8df90ede4d5c95ffc5615a24f7372948d07b81"
+  "output_hash": "d54f056f35af967dafdeb841914aba9cd047eb7b9e3bdff1c060d8d6dd0cfcad"
 }

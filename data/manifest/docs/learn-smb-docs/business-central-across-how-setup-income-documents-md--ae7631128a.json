@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up incoming documents",
+  "title": "Set Up Incoming Documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-setup-income-documents",
-  "published_at": "2025-10-29T13:40:09.000Z",
+  "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.185Z",
-      "blob": "a2bdd7f7fc46e5847ad1332f0a50c95fa8f811f9",
-      "words": 397,
+      "at": "2026-11-12T00:16:05.523Z",
+      "blob": "efbb897bc3f9ea2a170f3769865f8287636f02d8",
+      "words": 519,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:57:32.079Z",
+      "at": "2026-11-12T00:16:23.694Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.004358
+      "cost_usd": 0.004079
     },
     "summarized": {
-      "at": "2026-10-06T18:57:33.889Z",
+      "at": "2026-11-12T00:16:23.697Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:57:33.890Z",
+      "at": "2026-11-12T00:16:23.699Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:57:33.891Z",
+      "at": "2026-11-12T00:16:23.700Z",
       "page": false
     }
   },
-  "input_hash": "a2bdd7f7fc46e5847ad1332f0a50c95fa8f811f9",
+  "input_hash": "efbb897bc3f9ea2a170f3769865f8287636f02d8",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-how-setup-income-documents.md",
     "description": "Set up the Incoming Documents feature to create electronic documents, manage OCR tasks, import invoices, and convert image files.",
-    "ms_date": "2025-10-15",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "document exchange",
       "import invoice"
     ],
-    "ai_usage": null,
-    "words": 397,
+    "ai_usage": "ai-assisted",
+    "words": 519,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2590aca9d0d18e9ed52a4dbf1ed2ba07c40228d0ba8e1ab5e7ea0acee93cb961"
+  "output_hash": "cafabc09edd2071d08c4f9eb8aad1b28c29aee40774697f6a8fd08dc246f044e"
 }

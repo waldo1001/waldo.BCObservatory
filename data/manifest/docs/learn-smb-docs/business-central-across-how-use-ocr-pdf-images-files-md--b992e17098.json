@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Use OCR to turn PDF into e-invoices",
+  "title": "Use OCR to Turn PDF and Image Files into Electronic Documents",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-ocr-pdf-images-files",
-  "published_at": "2026-01-12T16:01:00.000Z",
+  "published_at": "2026-11-11T14:16:33.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.553Z",
-      "blob": "eff4d66c616ab0abd11c11b273f0afd7cb31556c",
-      "words": 1933,
+      "at": "2026-11-12T00:16:23.899Z",
+      "blob": "267bee056858dd4bd4ed815cf1e28dfafb73bd0f",
+      "words": 1709,
       "forms": 0
     },
     "extracted": {
@@ -38,14 +38,14 @@
       "page": false
     }
   },
-  "input_hash": "eff4d66c616ab0abd11c11b273f0afd7cb31556c",
+  "input_hash": "267bee056858dd4bd4ed815cf1e28dfafb73bd0f",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-how-use-ocr-pdf-images-files.md",
-    "description": "Describes how you can use an OCR service to convert incoming PDF or image files to electronic documents.",
-    "ms_date": "2025-10-16",
+    "description": "Use an OCR service to convert PDF and image files to incoming documents in Business Central, correct recognized data, and create invoices or journal lines.",
+    "ms_date": "2026-11-10",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "document exchange",
       "import invoice"
     ],
-    "ai_usage": null,
-    "words": 1933,
+    "ai_usage": "ai-assisted",
+    "words": 1709,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c494cbad8cd30ea1544eeedb14d3f7433dd5ca894a246f4cb12e66b1fff0fa03"
+  "output_hash": "267bee056858dd4bd4ed815cf1e28dfafb73bd0f"
 }

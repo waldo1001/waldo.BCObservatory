@@ -1,18 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-how-setup-income-documents.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-setup-income-documents",
-  "title": "Set Up incoming documents",
-  "blob": "a2bdd7f7fc46e5847ad1332f0a50c95fa8f811f9",
-  "summary": "Configure incoming documents functionality including journal template settings, approval workflows, and OCR service integration for processing external documents.",
+  "title": "Set Up Incoming Documents",
+  "blob": "efbb897bc3f9ea2a170f3769865f8287636f02d8",
+  "summary": "Setting up the Incoming Documents feature to manage expense receipts, convert files to documents, and configure approval workflows and OCR services. Use this to enable document capture and processing in Business Central.",
   "systems": [
+    "purchasing",
     "integration",
-    "administration",
-    "purchasing"
+    "administration"
   ],
   "topics": [
     "incoming documents",
-    "ocr",
+    "ocr service",
     "approval workflow",
+    "document processing",
+    "expense receipts",
     "setup"
   ],
   "objects": [
@@ -30,10 +32,14 @@
     }
   ],
   "features": [
-    "Incoming Documents Setup",
-    "Approval Workflow",
-    "OCR Service",
-    "Journal Template Configuration"
+    "Incoming Documents feature",
+    "OCR service integration",
+    "Approval workflow for documents",
+    "Journal line creation",
+    "Document attachment",
+    "Expense receipt review",
+    "PDF and image file conversion",
+    "Approval requirement configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004358,
-      "pages_in_call": 8
+      "cost_usd": 0.004079,
+      "pages_in_call": 1
     }
   ]
 }

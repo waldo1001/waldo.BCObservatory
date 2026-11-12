@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8858724149942666914",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/11/business-central-is-transitioning-to.html",
+  "title": "Business Central is transitioning to .NET 10",
+  "source": "mohana-blog",
+  "published_at": "2026-11-11T13:13:41.000Z",
+  "words": 332,
+  "summary": "Business Central is transitioning from .NET 8 to .NET 10 across online and on-premises deployments. For online, Microsoft handles the migration automatically during maintenance windows. For on-premises, .NET 10 arrives through cumulative updates (BC 27 at CU 27.12, BC 28 at CU 28.6, BC 29 from release), with corresponding AL Language extension version requirements.",
+  "key_points": [
+    "Online environments migrate to .NET 10 automatically during configured maintenance windows with no manual action needed",
+    "On-premises .NET 10 availability depends on cumulative update level, not major version, requiring verification before applying specific CUs",
+    "AL Language extension requires .NET 10 and now uses .NET Install Tool for VS Code to automatically download and install the runtime",
+    "Cloud-only extensions with pure AL code have no exposure to compatibility issues; on-premises solutions with DotNet interop need assembly compatibility verification"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    ".net",
+    "runtime",
+    "cumulative update",
+    "on-premises",
+    "online",
+    "al extension",
+    "vs code"
+  ],
+  "objects": [],
+  "features": [
+    "AL Language extension",
+    ".NET 10 runtime",
+    ".NET Install Tool for Visual Studio Code",
+    "cumulative updates"
+  ],
+  "versions": [
+    "BC 27",
+    "BC 28",
+    "BC 29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "For on-prem, .NET 10 arrives through cumulative updates to supported releases.",
+      "why_it_matters": "Clarifies that on-premises upgrade timing depends on CU level, not major version, which is critical for deployment planning"
+    },
+    {
+      "text": "If you are cloud only and your extensions are pure AL, you have no exposure.",
+      "why_it_matters": "Identifies that most AppSource and cloud solutions are unaffected, reducing scope of migration concerns"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005578,
+    "posts_in_call": 1
+  }
+}

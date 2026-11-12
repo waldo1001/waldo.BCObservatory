@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9522",
+  "number": 9522,
+  "title": "Issue #9473 OnAfterIncreaseQty",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "A new event was added to the Inventory Profile Offsetting codeunit to allow extensions to respond when quantity increases.",
+  "key_points": [
+    "New OnAfterIncreaseQty event added to codeunit 99000854",
+    "Enables extensions to hook into quantity increase operations",
+    "Minimal code change with 8 lines added and 1 removed",
+    "Addresses issue #9473 and AB#647952"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003107,
+    "changes_in_call": 1
+  }
+}

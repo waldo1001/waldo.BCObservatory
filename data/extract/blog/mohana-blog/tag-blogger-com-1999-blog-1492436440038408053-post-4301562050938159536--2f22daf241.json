@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4301562050938159536",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/11/expense-agent-just-got-half-as.html",
+  "title": "Expense Agent just got half as expensive, and you can now try it for free",
+  "source": "mohana-blog",
+  "published_at": "2026-11-11T12:49:09.000Z",
+  "words": 201,
+  "summary": "Expense Agent pricing is cut in half to 25 Copilot Credits per receipt in version 29.1, and a free trial of 50 expenses per environment becomes available before the agent's December general availability release.",
+  "key_points": [
+    "Cost per expense receipt drops from 50 to 25 Copilot Credits, reducing typical monthly spend from $125 to $62.50 for 250 receipts",
+    "Free trial of 50 expenses allows full workflow evaluation including extraction, categorization, and expense report creation",
+    "Pricing and trial changes ship with version 29.1 before December general availability",
+    "Pay-as-you-go rate is $0.01 per credit, making the new cost approximately $0.25 per receipt"
+  ],
+  "systems": [
+    "copilot",
+    "finance"
+  ],
+  "topics": [
+    "expense agent",
+    "copilot credits",
+    "pricing",
+    "free trial",
+    "cost reduction"
+  ],
+  "objects": [],
+  "features": [
+    "Expense Agent",
+    "receipt processing",
+    "expense extraction",
+    "expense categorization",
+    "expense report creation",
+    "Copilot Credits",
+    "free trial"
+  ],
+  "versions": [
+    "29.1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Expense Agent currently consumes 50 Copilot Credits per receipt processed, flat, no matter how many lines come out of it. That drops to 25.",
+      "why_it_matters": "Explains the exact pricing change that reduces operational costs for organizations using the Expense Agent"
+    },
+    {
+      "text": "50 expenses free per environment. Same shape as the Payables Agent trial Microsoft shipped recently with its 50 free invoice uploads.",
+      "why_it_matters": "Shows the trial offering structure and positions it within Microsoft's broader Copilot agent trial strategy"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005139,
+    "posts_in_call": 1
+  }
+}

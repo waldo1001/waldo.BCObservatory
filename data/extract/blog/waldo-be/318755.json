@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/waldo-be/318755",
+  "url": "https://waldo.be/2026/11/11/agent-maron-waldo-mission-al-runner/",
+  "title": "Agent Maron & waldo: Mission AL Runner",
+  "source": "waldo-be",
+  "published_at": "2026-11-11T13:56:14.000Z",
+  "words": 2500,
+  "summary": "Stefan Maron's AL Runner executes AL code tests outside Business Central using Rust and an in-memory database, reducing test suite runtime from 4 hours 20 minutes to 4 minutes 24 seconds. The post chronicles how two AI agents - one operated by the author, one by Stefan - collaboratively debugged the runner against a real-world ISV test suite of 10,578 tests over one week, maintaining absolute fidelity with zero false passes.",
+  "key_points": [
+    "AL Runner is a Rust-based test executor that runs AL tests without Docker, SQL Server, or BC service tier, using an in-memory database",
+    "The runner's core principle is 'Refuse. Never guess' - it reports tests as not run rather than produce false passes",
+    "Two AI agents coordinated continuously over one week, with the author's agent running tests every 10 minutes, comparing results, and reporting findings while Stefan's agents diagnosed and fixed issues",
+    "Test performance improved from 58.1% passing to 94.6% in one week, with zero false passes maintained throughout",
+    "The author established rules for agent autonomy including code change restrictions, no customer data exposure, and automatic memory monitoring to prevent crashes"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "al runner",
+    "test automation",
+    "ci/cd",
+    "agents",
+    "performance",
+    "al testing"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "AL Runner"
+    },
+    {
+      "type": "other",
+      "name": "bc-code-atlas MCP server"
+    }
+  ],
+  "features": [
+    "AL test execution without BC service",
+    "in-memory database testing",
+    "parallel test execution",
+    "memory management and monitoring",
+    "source code compilation",
+    "automated test comparison"
+  ],
+  "versions": [
+    "Business Central 29.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Not a single test passed on the AL Runner that failed on BC. The runner might not know everything yet. But it didn't lie.",
+      "why_it_matters": "Demonstrates trustworthiness is built through consistency and honesty, not speed alone"
+    },
+    {
+      "text": "From 4 hours and 20 minutes, to 4 and a half minutes. With 94.6% of the suite running. In one week.",
+      "why_it_matters": "Shows dramatic performance improvement achieved through collaborative agent-driven debugging"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.013916,
+    "posts_in_call": 1
+  }
+}

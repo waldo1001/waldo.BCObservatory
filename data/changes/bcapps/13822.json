@@ -1,0 +1,81 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13822,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13822",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-11T10:54:22Z",
+  "merge_commit_sha": "556e9902e1abf304dc54d7ba4b56c837deebe1ed",
+  "author": "pri-kise",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "Fix XRechnung export truncating item name to 40 characters",
+  "body_hash": "7bd42278280eb48dc3de91466d4c51e7d418b7728723ce745c1951f6b344679e",
+  "fixes_issues": [
+    13602
+  ],
+  "work_items": [
+    658779
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DE/EDocumentDE/test/src/XRechnungXMLDocumentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 66,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 68,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/DE/EDocumentDE/app/src/XRechnung/ExportXRechnungDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13916",
+        "type": "codeunit",
+        "id": 13916,
+        "name": "Export XRechnung Document",
+        "app": "EDocumentDE",
+        "cc": "de",
+        "page": "codeunit/13916-de"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocumentDE"
+  ],
+  "issues": [
+    {
+      "number": 13602,
+      "title": "[Bug]: XRechnung export truncates item name (BT-153) to 40 characters",
+      "state": "closed"
+    }
+  ]
+}

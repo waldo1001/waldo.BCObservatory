@@ -1,17 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-how-manage-many-income-document-records.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-manage-many-income-document-records",
-  "title": "Define Which incoming docs to see",
-  "blob": "86f19324165b772ebd3a89cb3edb396464d8fc13",
-  "summary": "Manage incoming document records by marking processed documents to reduce the view clutter on the Incoming Documents page, and restore them when needed.",
+  "title": "Manage Many Incoming Document Records",
+  "blob": "6cd2ae5c67e1492d86f22719e8e9d78ceec965c0",
+  "summary": "The Incoming Documents page lets you mark records as processed to remove them from the default view and manage large volumes of incoming documents efficiently. Use Set To Processed and Set To Unprocessed actions to control visibility.",
   "systems": [
-    "integration",
-    "purchasing"
+    "purchasing",
+    "integration"
   ],
   "topics": [
     "incoming documents",
-    "document management",
-    "processing workflow"
+    "document processing",
+    "workflow management",
+    "record filtering"
   ],
   "objects": [
     {
@@ -20,14 +21,16 @@
     },
     {
       "type": "page",
-      "name": "Incoming Document Card"
+      "name": "Incoming Document"
     }
   ],
   "features": [
-    "Mark as Processed",
-    "Show All",
-    "Set to Unprocessed",
-    "Manage Document View"
+    "Processed status",
+    "Set To Processed action",
+    "Set To Unprocessed action",
+    "Show All action",
+    "Show Unprocessed action",
+    "Default view filtering"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004358,
-      "pages_in_call": 8
+      "cost_usd": 0.003429,
+      "pages_in_call": 1
     }
   ]
 }

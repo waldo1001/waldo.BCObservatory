@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13641",
+  "number": 13641,
+  "title": "Bug 647022: [Subcontracting] Use alternative worksheet names and migrate the legacy page",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Subcontracting initialization now preserves existing customer templates and uses alternative worksheet names when the default SUBCONTR name is unavailable, while migrating the legacy page ID only from the old Subcontracting Worksheet.",
+  "key_points": [
+    "Prevents silent replacement of non-Subcontracting templates named SUBCONTR by preserving customer templates",
+    "Generates alternative names (SUBCONTR1, SUBCONTR2, etc.) within 10-character limit when default name is unavailable",
+    "Migrates Page ID only from the legacy Subcontracting Worksheet (99000886) to the new worksheet",
+    "Reuses existing Subcontracting-type templates before creating new ones, preventing duplicates on repeated initialization",
+    "Maintains existing template identity, descriptions, recurring settings, and batch configurations except for explicit legacy page migration"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004415,
+    "changes_in_call": 1
+  }
+}
