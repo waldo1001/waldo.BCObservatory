@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Realized Emissions vs Baseline",
+  "title": "Realized Emissions vs Baseline Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-realized-emissions-vs-baseline",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.909Z",
-      "blob": "cf81d3717dbc93d39afb7cbef6cf5e07721da9c3",
-      "words": 295,
+      "at": "2026-11-13T00:21:02.081Z",
+      "blob": "405ffaf6611bb601a7856cf1d3d61116f0363d09",
+      "words": 312,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:56:06.101Z",
+      "at": "2026-11-13T00:21:09.430Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003927
+      "objects": 4,
+      "cost_usd": 0.004
     },
     "summarized": {
-      "at": "2026-10-06T18:56:10.289Z",
+      "at": "2026-11-13T00:21:09.432Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:56:10.290Z",
+      "at": "2026-11-13T00:21:09.434Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:56:10.290Z",
+      "at": "2026-11-13T00:21:09.451Z",
       "page": false
     }
   },
@@ -44,19 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sustainability-powerbi-realized-emissions-vs-baseline.md",
-    "description": "The Realized Emissions by Baseline report breaks down your carbon emissions and allows for comparison against a defined baseline period. Track your progress against the baseline and monitor trends against a previous period.",
-    "ms_date": "2025-05-26",
+    "description": "Compare actual carbon emissions with a defined baseline period in Business Central using the Realized Emissions vs Baseline Power BI report.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 295,
+    "ai_usage": "ai-assisted",
+    "words": 312,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "25489fd13de9cc1681c8b86152527b1cec11e42fc250953b890a7f81a2982914"
+  "output_hash": "1311e11f3ad9f4caa561bc8ffd198aad603e5d08fffd115d749336f6da98b2d1"
 }

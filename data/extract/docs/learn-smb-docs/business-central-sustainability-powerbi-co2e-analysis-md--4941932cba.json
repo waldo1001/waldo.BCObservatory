@@ -1,26 +1,40 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sustainability-powerbi-co2e-analysis.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-analysis",
-  "title": "CO2e Analysis",
-  "blob": "a6c510ff15269af5c5afef95f126ada8fd1cd139",
-  "summary": "CO2e Analysis Power BI report monitors monthly CO2e emissions by category and tracks purchased carbon credits to evaluate offset effectiveness and inform emission reduction strategies.",
+  "title": "CO2e Analysis for Sustainability Power BI Report",
+  "blob": "3fed57631e43e4864a364a1fcf958b4a4c4b09d2",
+  "summary": "The CO2e Analysis Power BI report provides sustainability managers and executives with month-on-month views of CO2e emissions by category, carbon credits purchased, and net emissions to support ESG commitments and emission reduction strategies.",
   "systems": [
     "sustainability",
     "reporting"
   ],
   "topics": [
-    "carbon emissions",
-    "power bi",
+    "co2e emissions",
+    "carbon credits",
+    "power bi report",
     "sustainability analytics",
-    "emissions tracking",
-    "carbon credits"
+    "environmental reporting"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sustainability Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Account"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Account Category"
+    }
+  ],
   "features": [
-    "CO2e emissions monitoring",
-    "carbon credits tracking",
+    "CO2e Emissions KPI",
+    "Purchased Carbon Credits KPI",
     "month-on-month analysis",
-    "category breakdown"
+    "category breakdown",
+    "carbon credit offset tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003927,
-      "pages_in_call": 8
+      "cost_usd": 0.003583,
+      "pages_in_call": 1
     }
   ]
 }

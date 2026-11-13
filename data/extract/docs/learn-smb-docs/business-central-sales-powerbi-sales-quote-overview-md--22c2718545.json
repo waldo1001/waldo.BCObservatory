@@ -1,27 +1,37 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-quote-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-quote-overview",
-  "title": "Sales Quote Overview (Power BI report)",
-  "blob": "212a1000e717dbf099c40bd0a8e734138c500157",
-  "summary": "Sales Quote Overview Power BI report provides detailed information on sales quotes including quote counts, total values, profit rates, and performance metrics by customer, salesperson, and item category.",
+  "title": "Sales Quote Overview Power BI Report",
+  "blob": "d9f8e6fe11c17641460d781511036af355d48a37",
+  "summary": "The Sales Quote Overview Power BI report provides insights on sales quotes including number, value, profit rates, and performance by customer, salesperson, and item category to help management and sales teams track prospective sales and profitability.",
   "systems": [
     "sales",
-    "reporting"
+    "reporting",
+    "copilot"
   ],
   "topics": [
     "power bi",
     "sales quotes",
-    "sales pipeline",
-    "profitability analysis",
-    "performance tracking"
+    "kpis",
+    "profitability",
+    "sales performance",
+    "analytics"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Sales Quote Overview"
+    }
+  ],
   "features": [
-    "quote tracking",
-    "profit margin analysis",
-    "sales quote amount",
-    "customer insights",
-    "salesperson performance"
+    "Sales Quote Overview report",
+    "Number of Sales Quotes KPI",
+    "Sales Quote Sales (LCY) KPI",
+    "Sales Quote Quantity KPI",
+    "Sales Quote Adjusted Profit Margin KPI",
+    "Sales Quote Adjusted Profit (LCY) KPI",
+    "Sales quote analysis by customer",
+    "Sales quote analysis by salesperson and item category"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002277,
-      "pages_in_call": 8
+      "cost_usd": 0.003849,
+      "pages_in_call": 1
     }
   ]
 }

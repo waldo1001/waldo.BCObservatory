@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Realized Emissions vs Target",
+  "title": "Realized Emissions vs Target Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-realized-emissions-vs-target",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.914Z",
-      "blob": "7b8e1917acfe1e5a3a66034d0629610ac4ee76ce",
-      "words": 275,
+      "at": "2026-11-13T00:21:02.356Z",
+      "blob": "149c9fecc15a72797ce5eb75adb34ba1a77a1fd6",
+      "words": 303,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:56:06.102Z",
+      "at": "2026-11-13T00:21:09.327Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003927
+      "objects": 5,
+      "cost_usd": 0.004261
     },
     "summarized": {
-      "at": "2026-10-06T18:56:10.292Z",
+      "at": "2026-11-13T00:21:09.329Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:56:10.293Z",
+      "at": "2026-11-13T00:21:09.331Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:56:10.294Z",
+      "at": "2026-11-13T00:21:09.332Z",
       "page": false
     }
   },
@@ -44,19 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sustainability-powerbi-realized-emissions-vs-target.md",
-    "description": "The Realized Emissions by Target report breaks down your carbon emissions and allows for comparison against the target. This allows you to effectively monitor planned progress and drive continuous improvement to sustainability goals.",
-    "ms_date": "2025-05-26",
+    "description": "Compare actual carbon emissions with scorecard targets in Business Central using the Realized Emissions vs Target Power BI report to monitor progress.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 275,
+    "ai_usage": "ai-assisted",
+    "words": 303,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1907cb9d4e5b807cb908ecfbff500eb9796f5c5a5ab0843f60063caa53524482"
+  "output_hash": "1752e435b09044c4055b1f2e0a4647076eff53fc8a006a667ec4b2d32b0d4838"
 }

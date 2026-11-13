@@ -1,25 +1,51 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sustainability-powerbi-realized-emissions-vs-target.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-realized-emissions-vs-target",
-  "title": "Realized Emissions vs Target",
-  "blob": "7b8e1917acfe1e5a3a66034d0629610ac4ee76ce",
-  "summary": "Realized Emissions vs Target Power BI report compares actual emissions to scorecard targets to track progress and identify areas requiring changes to meet sustainability commitments.",
+  "title": "Realized Emissions vs Target Power BI Report",
+  "blob": "149c9fecc15a72797ce5eb75adb34ba1a77a1fd6",
+  "summary": "The Realized Emissions vs Target Power BI report compares actual emissions to predefined targets by scorecard to help sustainability managers, executives, and environmental analysts evaluate carbon footprint performance and identify where changes are needed to meet targets.",
   "systems": [
     "sustainability",
     "reporting"
   ],
   "topics": [
-    "emissions tracking",
     "power bi",
-    "target achievement",
-    "sustainability goals"
+    "emissions reporting",
+    "sustainability management",
+    "carbon targets",
+    "kpis"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sustainability Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Account"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Account Category"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Goals"
+    },
+    {
+      "type": "table",
+      "name": "Emission Fee"
+    }
+  ],
   "features": [
-    "target comparison",
-    "progress tracking",
-    "emissions analysis",
-    "goal evaluation"
+    "emissions comparison",
+    "target tracking",
+    "CO2e measurement",
+    "CO2 measurement",
+    "CH4 measurement",
+    "N2O measurement",
+    "realized percentage calculation",
+    "goal period evaluation"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +54,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003927,
-      "pages_in_call": 8
+      "cost_usd": 0.004261,
+      "pages_in_call": 1
     }
   ]
 }

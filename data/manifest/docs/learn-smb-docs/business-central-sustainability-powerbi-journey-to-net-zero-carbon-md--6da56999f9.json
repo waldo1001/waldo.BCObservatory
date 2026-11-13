@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Journey to Net Zero Carbon",
+  "title": "Journey to Net Zero Carbon Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-journey-to-net-zero-carbon",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.899Z",
-      "blob": "600748942f2b6ef49ba12f422a478d4bdbf2d0e7",
-      "words": 241,
+      "at": "2026-11-13T00:21:02.004Z",
+      "blob": "ea1fc36317c52afcbbd84d5933b4df53bfa4b517",
+      "words": 262,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:56:06.099Z",
+      "at": "2026-11-13T00:21:09.473Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003927
+      "objects": 5,
+      "cost_usd": 0.003863
     },
     "summarized": {
-      "at": "2026-10-06T18:56:08.449Z",
+      "at": "2026-11-13T00:21:09.475Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:56:08.450Z",
+      "at": "2026-11-13T00:21:09.476Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:56:10.284Z",
+      "at": "2026-11-13T00:21:09.478Z",
       "page": false
     }
   },
@@ -44,19 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sustainability-powerbi-journey-to-net-zero-carbon.md",
-    "description": "The Journey to Net Zero highlights the journey to net zero within an organization.",
-    "ms_date": "2025-05-26",
+    "description": "Review carbon emissions and purchased carbon credits by scope and dimension in Business Central with the Journey to Net Zero Carbon Power BI report.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 241,
+    "ai_usage": "ai-assisted",
+    "words": 262,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b6a195a008e5e2d3644b29c212a4806efeab638ee28814ce2bfc78f91149c7f1"
+  "output_hash": "95485dfa3e40475626b4280fa31eaca74e7eb2265ca69108323105de20fe6a20"
 }

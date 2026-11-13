@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "CO2e Analysis",
+  "title": "CO2e Analysis for Sustainability Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-analysis",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.881Z",
-      "blob": "a6c510ff15269af5c5afef95f126ada8fd1cd139",
-      "words": 237,
+      "at": "2026-11-13T00:20:56.161Z",
+      "blob": "3fed57631e43e4864a364a1fcf958b4a4c4b09d2",
+      "words": 240,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:56:06.094Z",
+      "at": "2026-11-13T00:21:01.861Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003927
+      "objects": 3,
+      "cost_usd": 0.003583
     },
     "summarized": {
-      "at": "2026-10-06T18:56:06.103Z",
+      "at": "2026-11-13T00:21:01.862Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:56:06.104Z",
+      "at": "2026-11-13T00:21:01.863Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:56:06.106Z",
+      "at": "2026-11-13T00:21:01.864Z",
       "page": false
     }
   },
@@ -44,19 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sustainability-powerbi-co2e-analysis.md",
-    "description": "The CO2e Analysis report provides detailed insight into your CO2e emissions and how you're purchasing carbon credit.",
-    "ms_date": "2025-06-04",
+    "description": "Explore CO2e emissions by month and category, and review purchased carbon credits in Business Central with the CO2e Analysis Power BI report.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 237,
+    "ai_usage": "ai-assisted",
+    "words": 240,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e314cebedf5e4ce1d216ae3db93fadda5fc02aff0a9b6779e58f11110eda7c5c"
+  "output_hash": "21ffa5eb1275863c48e77cb6eeb362b9eb901d9699d1d02e95b6277c5133509b"
 }

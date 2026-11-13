@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "CO2e Decomposition Tree",
+  "title": "CO2e Decomposition Tree Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-decomposition-tree",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.886Z",
-      "blob": "6ed2b5c50d43d8fc0e2d1902da61458ba7990f41",
-      "words": 222,
+      "at": "2026-11-13T00:20:56.170Z",
+      "blob": "4279ae1d12772eb363283435031e5b04ee03bd23",
+      "words": 225,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:56:06.095Z",
+      "at": "2026-11-13T00:21:04.000Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003927
+      "objects": 8,
+      "cost_usd": 0.006876
     },
     "summarized": {
-      "at": "2026-10-06T18:56:08.440Z",
+      "at": "2026-11-13T00:21:04.002Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:56:08.441Z",
+      "at": "2026-11-13T00:21:04.003Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:56:08.442Z",
+      "at": "2026-11-13T00:21:04.004Z",
       "page": false
     }
   },
@@ -44,19 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sustainability-powerbi-co2e-decomposition-tree.md",
-    "description": "The CO2e Decomposition Tree report breaks down CO2e emission metrics into its key contributing components to help users understand what is driving changes in CO2 emissions and why.",
-    "ms_date": "2025-05-26",
+    "description": "Explore factors that contribute to CO2e emissions in Business Central with the CO2e Decomposition Tree Power BI report for sustainability analysis.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 222,
+    "ai_usage": "ai-assisted",
+    "words": 225,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f4e0c6ea585a19ae369f24c170609805e6888139913b72927efcad18183967bd"
+  "output_hash": "928982577e7675d4fa58e8585d362c2567393809773376028f7797be9a9d45d2"
 }

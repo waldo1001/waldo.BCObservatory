@@ -1,27 +1,31 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-forecasting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-forecasting",
-  "title": "Sales Forecasting (Power BI Report)",
-  "blob": "065d877d1cb3d86178abc567c022318775a18d10",
-  "summary": "Sales Forecasting Power BI report predicts future sales trends using historical data and advanced forecasting techniques across customer, item, and salesperson dimensions with three-month projections.",
+  "title": "Sales Forecasting Power BI Report",
+  "blob": "0664df685ac58d4fec8fa9340f317f628fb793fb",
+  "summary": "The Sales Forecasting Power BI report predicts future sales trends for the next three months based on historical data, helping leaders, sales managers, and salespeople anticipate demand and identify sales patterns.",
   "systems": [
     "sales",
-    "reporting"
+    "reporting",
+    "copilot"
   ],
   "topics": [
+    "sales forecasting",
     "power bi",
-    "forecasting",
-    "sales predictions",
-    "demand planning",
-    "seasonal analysis"
+    "predictive analytics",
+    "historical trends",
+    "inventory planning",
+    "sales performance"
   ],
   "objects": [],
   "features": [
-    "sales forecasting",
-    "demand prediction",
-    "monthly seasonality",
-    "six-month historical analysis",
-    "confidence intervals"
+    "Sales forecast by customer",
+    "Sales forecast by document type",
+    "Sales forecast by item",
+    "Sales forecast by salesperson",
+    "Seasonality forecasting",
+    "Confidence interval",
+    "KPIs tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002277,
-      "pages_in_call": 8
+      "cost_usd": 0.003428,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Sustainability Power BI app",
+  "title": "Sustainability Power BI App Reports",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.849Z",
-      "blob": "ed2bd0ebb3ae92aa4c0d80f3a6c4059ce4bc4f8b",
-      "words": 771,
+      "at": "2026-11-13T00:20:56.146Z",
+      "blob": "c8843551ccb9ea7adee527501141d028f7747e94",
+      "words": 769,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T14:21:14.004Z",
+      "at": "2026-11-13T00:21:02.291Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005502
+      "cost_usd": 0.004317
     },
     "summarized": {
-      "at": "2026-10-06T14:21:14.009Z",
+      "at": "2026-11-13T00:21:02.293Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:21:14.009Z",
+      "at": "2026-11-13T00:21:02.295Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:21:14.009Z",
+      "at": "2026-11-13T00:21:02.296Z",
       "page": false
     }
   },
@@ -45,24 +45,24 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sustainability-powerbi-app.md",
     "description": "The Power BI app for sustainability in Business Central provides comprehensive sustainability analytics to stakeholders at all levels of your organization.",
-    "ms_date": "2025-06-04",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
-        "raw": "36951",
-        "id": 36951,
+        "raw": "6316",
+        "id": 6316,
         "kind": null
       }
     ],
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 771,
+    "ai_usage": "ai-assisted",
+    "words": 769,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0dff696076bad412cdbae679eb6ae5e3bb888deaf05715e8770300bc1d9641b8"
+  "output_hash": "30cbe3b51262b5894455522374d36c7830582da7f2dbb1bb8058e1ab8126ba16"
 }

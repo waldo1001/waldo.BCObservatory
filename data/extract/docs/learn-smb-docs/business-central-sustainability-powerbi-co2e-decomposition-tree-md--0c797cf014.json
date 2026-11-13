@@ -1,26 +1,60 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sustainability-powerbi-co2e-decomposition-tree.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-decomposition-tree",
-  "title": "CO2e Decomposition Tree",
-  "blob": "6ed2b5c50d43d8fc0e2d1902da61458ba7990f41",
-  "summary": "CO2e Decomposition Tree Power BI report breaks down emissions across multiple hierarchical factors to identify key contributors and support progress tracking toward sustainability goals.",
+  "title": "CO2e Decomposition Tree Power BI Report",
+  "blob": "4279ae1d12772eb363283435031e5b04ee03bd23",
+  "summary": "CO2e Decomposition Tree Power BI report breaks down CO2e emissions across multiple factors, allowing sustainability managers and executives to explore dimensions and identify emission contributors to track progress toward sustainability goals.",
   "systems": [
     "sustainability",
     "reporting"
   ],
   "topics": [
-    "carbon emissions",
+    "co2e emissions",
+    "decomposition",
     "power bi",
-    "emissions breakdown",
-    "hierarchical analysis",
-    "sustainability tracking"
+    "sustainability reporting",
+    "kpi"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sustainability Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Account"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Account Category"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Account Subcategory"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Goals"
+    },
+    {
+      "type": "table",
+      "name": "Responsibility Center"
+    },
+    {
+      "type": "table",
+      "name": "Emission Fee"
+    },
+    {
+      "type": "table",
+      "name": "Country/Region"
+    }
+  ],
   "features": [
-    "hierarchical emissions breakdown",
-    "interactive decomposition",
-    "multi-factor analysis",
-    "emissions identification"
+    "CO2e emissions breakdown",
+    "hierarchical emission analysis",
+    "dimension exploration",
+    "KPI tracking",
+    "ESG improvement"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +63,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003927,
-      "pages_in_call": 8
+      "cost_usd": 0.006876,
+      "pages_in_call": 1
     }
   ]
 }

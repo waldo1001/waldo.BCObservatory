@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Sales Quote Overview (Power BI report)",
+  "title": "Sales Quote Overview Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-quote-overview",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.877Z",
-      "blob": "212a1000e717dbf099c40bd0a8e734138c500157",
+      "at": "2026-11-13T00:20:56.132Z",
+      "blob": "d9f8e6fe11c17641460d781511036af355d48a37",
       "words": 323,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:57.648Z",
+      "at": "2026-11-13T00:21:01.956Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002277
+      "objects": 1,
+      "cost_usd": 0.003849
     },
     "summarized": {
-      "at": "2026-10-06T18:55:59.494Z",
+      "at": "2026-11-13T00:21:01.958Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:59.495Z",
+      "at": "2026-11-13T00:21:01.959Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:59.496Z",
+      "at": "2026-11-13T00:21:01.960Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-sales-quote-overview.md",
-    "description": "The Sales Quote Overview report provides detailed information on your organization's Sales Quote activities.",
-    "ms_date": "2025-10-07",
+    "description": "Analyze sales quote counts, amounts, quantities, and adjusted profit in Power BI to monitor prospective sales by customer, salesperson, and item category.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 323,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "582dff34c25985259af90631e947d2ac8d08c42c12af53ccb0691dc5f3a7569a"
+  "output_hash": "651831a324c1788b426870eeee1c1c79f4a6b000adc4bc678b43e447e0ca818e"
 }

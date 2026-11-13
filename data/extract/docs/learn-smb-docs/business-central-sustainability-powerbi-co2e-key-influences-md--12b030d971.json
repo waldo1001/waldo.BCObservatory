@@ -1,26 +1,58 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sustainability-powerbi-co2e-key-influences.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-key-influences",
-  "title": "CO2e Key Influences",
-  "blob": "d5148fe00b4d650eb0fdf6103039f3aa449f12fe",
-  "summary": "CO2e Key Influences Power BI report identifies primary factors driving emissions to help sustainability managers quickly find actionable areas for meeting sustainability targets.",
+  "title": "CO2e Key Influences Power BI Report",
+  "blob": "bb6ee8bcb5721134794f6d44bba9e211904d4c10",
+  "summary": "The CO2e Key Influences Power BI report identifies and ranks factors affecting CO2e emissions changes, helping sustainability managers and executives quickly highlight actionable opportunities to meet sustainability targets.",
   "systems": [
     "sustainability",
     "reporting"
   ],
   "topics": [
-    "carbon emissions",
     "power bi",
-    "key influences",
-    "emissions drivers",
-    "sustainability goals"
+    "co2e emissions",
+    "key influencers",
+    "sustainability analytics",
+    "environmental performance"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sustainability Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Account"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Account Category"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Account Subcategory"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Goals"
+    },
+    {
+      "type": "table",
+      "name": "Responsibility Center"
+    },
+    {
+      "type": "table",
+      "name": "Emission Fee"
+    },
+    {
+      "type": "table",
+      "name": "Country/Region"
+    }
+  ],
   "features": [
-    "key influences analysis",
-    "emissions drivers",
-    "actionable factors",
-    "high-level overview"
+    "Key influencers visual",
+    "CO2e Emissions KPI",
+    "sustainability targets alignment"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +61,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003927,
-      "pages_in_call": 8
+      "cost_usd": 0.003751,
+      "pages_in_call": 1
     }
   ]
 }
