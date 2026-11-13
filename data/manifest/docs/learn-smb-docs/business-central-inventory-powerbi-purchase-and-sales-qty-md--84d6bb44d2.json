@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Purchase and Sales Quantity (Power BI report)",
+  "title": "Purchase and Sales Quantity Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-purchase-and-sales-qty",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.565Z",
-      "blob": "11d4f2702a82305d9a6d9e8276a0f239e1925a4e",
-      "words": 260,
+      "at": "2026-11-13T00:19:09.436Z",
+      "blob": "81464090008480a1b2149afcd9ba0da4cb13f83f",
+      "words": 286,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:34.976Z",
+      "at": "2026-11-13T00:19:15.157Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00256
+      "objects": 13,
+      "cost_usd": 0.004348
     },
     "summarized": {
-      "at": "2026-10-06T19:26:34.992Z",
+      "at": "2026-11-13T00:19:15.159Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:34.992Z",
+      "at": "2026-11-13T00:19:15.160Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:34.993Z",
+      "at": "2026-11-13T00:19:15.161Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/inventory-powerbi-purchase-and-sales-qty.md",
-    "description": "The Purchase and Sales Quantity report shows purchase and sales quantities for an organization.",
-    "ms_date": "2024-10-28",
-    "ms_topic": "article",
+    "description": "Compare net purchased and sold quantities by item and category, alongside inventory availability, with the Purchase and Sales Quantity Power BI report.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37025_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 260,
+    "ai_usage": "ai-assisted",
+    "words": 286,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "05e7b192f60f20d2fe9e4ea3d437cfac462ffc990400b7bc4107d82911307947"
+  "output_hash": "c2b5fa359b95a965e345437369e0c7963d4217dc692637b412c8789cb2fc412a"
 }

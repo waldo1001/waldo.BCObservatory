@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Item Availability (Power BI report)",
+  "title": "Item Availability Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-item-availability",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.560Z",
-      "blob": "43bf08a5ad1536da93037251f2d22f64e8a6a76b",
-      "words": 254,
+      "at": "2026-11-13T00:19:09.448Z",
+      "blob": "c1fd5aab82600201dd391a5881a23e841376e124",
+      "words": 266,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:34.976Z",
+      "at": "2026-11-13T00:19:16.334Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00256
+      "cost_usd": 0.006105
     },
     "summarized": {
-      "at": "2026-10-06T19:26:34.989Z",
+      "at": "2026-11-13T00:19:16.336Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:34.990Z",
+      "at": "2026-11-13T00:19:16.337Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:34.991Z",
+      "at": "2026-11-13T00:19:16.339Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/inventory-powerbi-item-availability.md",
-    "description": "The Item Availability report gives an overview of the availability of each item.",
-    "ms_date": "2024-10-28",
-    "ms_topic": "article",
+    "description": "Compare projected inventory balances with demand, scheduled receipts, and planned orders using the Item Availability Power BI report in Business Central.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37026_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 254,
+    "ai_usage": "ai-assisted",
+    "words": 266,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e97cc6295d0bb34c794c8c19ee80168789c49f4b675f0c60e654a776091cd2fa"
+  "output_hash": "34f0cf3de83d51bf353034596827a5257a816d7e0d7301274b2152fb567169e0"
 }

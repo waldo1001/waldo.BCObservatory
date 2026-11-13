@@ -1,28 +1,85 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-overview",
-  "title": "Inventory Overview (Power BI report)",
-  "blob": "b1d2fa3f13e6110571f9a02529b5acdf4db774eb",
-  "summary": "Inventory Overview Power BI report provides high-level summary of inventory showing key metrics like quantities, scheduled receipts, gross requirements, and projected available balance. Use it for leadership and management to assess stock levels across locations.",
+  "title": "Inventory Overview Power BI Report",
+  "blob": "f3d1d3becb406967b14a1598ecfdcd54c2fad988",
+  "summary": "The Inventory Overview Power BI report displays key inventory metrics including quantity, scheduled receipts, gross requirements, and projected available balance by location. Leadership and management use it to assess inventory levels and understand stock received versus demand without drilling into detailed data.",
   "systems": [
     "inventory",
-    "reporting"
+    "reporting",
+    "warehouse"
   ],
   "topics": [
-    "power bi report",
-    "inventory overview",
-    "stock levels",
-    "supply planning",
-    "management dashboard"
+    "power bi",
+    "inventory",
+    "reporting",
+    "kpis",
+    "stock management",
+    "demand planning"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Item"
+    },
+    {
+      "type": "other",
+      "name": "Item Ledger Entries"
+    },
+    {
+      "type": "other",
+      "name": "Job Planning Lines"
+    },
+    {
+      "type": "other",
+      "name": "Purchase Lines"
+    },
+    {
+      "type": "other",
+      "name": "Sales Lines"
+    },
+    {
+      "type": "other",
+      "name": "Service Lines"
+    },
+    {
+      "type": "other",
+      "name": "Assembly Header"
+    },
+    {
+      "type": "other",
+      "name": "Assembly Lines"
+    },
+    {
+      "type": "other",
+      "name": "Planning Component Lines"
+    },
+    {
+      "type": "other",
+      "name": "Prod Order Component Lines"
+    },
+    {
+      "type": "other",
+      "name": "Production Order Lines"
+    },
+    {
+      "type": "other",
+      "name": "Transfer Lines"
+    },
+    {
+      "type": "other",
+      "name": "Requisition Line"
+    }
+  ],
   "features": [
-    "Inventory (Quantity) KPI",
-    "Scheduled Receipt KPI",
-    "Planned Order Receipt KPI",
-    "Gross Requirement KPI",
-    "Projected Available Balance KPI",
-    "cross-document quantity tracking"
+    "Inventory Quantity",
+    "Scheduled Receipts",
+    "Planned Order Receipt",
+    "Gross Requirement",
+    "Projected Available Balance",
+    "Qty. on Sales Order",
+    "Qty. on Purchase Order",
+    "Planning Issues"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +88,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00256,
-      "pages_in_call": 8
+      "cost_usd": 0.00505,
+      "pages_in_call": 1
     }
   ]
 }

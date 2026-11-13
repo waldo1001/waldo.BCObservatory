@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Inventory by Lot No. (Power BI report)",
+  "title": "Inventory by Lot No. Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-lot",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.546Z",
-      "blob": "bf55dfc3e72d561f6bb2a7fc7b54f972fb3a54f9",
-      "words": 219,
+      "at": "2026-11-13T00:19:09.424Z",
+      "blob": "171afe13a4beb9416ffd95e2e84b67bf2f35c31e",
+      "words": 220,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:34.973Z",
+      "at": "2026-11-13T00:19:14.912Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00256
+      "objects": 2,
+      "cost_usd": 0.003294
     },
     "summarized": {
-      "at": "2026-10-06T19:26:34.980Z",
+      "at": "2026-11-13T00:19:14.913Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:34.981Z",
+      "at": "2026-11-13T00:19:14.914Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:34.982Z",
+      "at": "2026-11-13T00:19:14.914Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/inventory-powerbi-inventory-by-lot.md",
-    "description": "The Inventory by Lot No. report shows total inventory broken down per lot.",
-    "ms_date": "2024-10-28",
-    "ms_topic": "article",
+    "description": "Review inventory quantities, expiration dates, and expired stock by lot number with the Inventory by Lot No. Power BI report in Business Central.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37029_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 219,
+    "ai_usage": "ai-assisted",
+    "words": 220,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "76a787db65607aa8d653c05fe4a4cf3bd56d6ae683c6f1bee6f77124a022e392"
+  "output_hash": "ebac2e0710373f4d2bc23a7e313a90d83fe943541cfdee43b165c9697aaefffe"
 }

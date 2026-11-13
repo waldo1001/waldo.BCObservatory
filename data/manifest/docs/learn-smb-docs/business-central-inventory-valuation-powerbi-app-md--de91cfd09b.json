@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Inventory valuation landing page (Power BI report)",
+  "title": "Inventory Valuation Power BI App Reports",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.574Z",
-      "blob": "d90a1e6c91c23a548a6f8d2d21526ce68b57b04f",
+      "at": "2026-11-13T00:19:14.958Z",
+      "blob": "b7fef62eeeb230014f387d1e6dde1c8d6dfe9a34",
       "words": 270,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:26:34.977Z",
+      "at": "2026-11-13T00:19:19.817Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00256
+      "cost_usd": 0.003379
     },
     "summarized": {
-      "at": "2026-10-06T19:26:34.997Z",
+      "at": "2026-11-13T00:19:24.720Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:34.998Z",
+      "at": "2026-11-13T00:19:24.721Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:34.998Z",
+      "at": "2026-11-13T00:19:24.722Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/inventory-valuation-powerbi-app.md",
-    "description": "The Inventory Landing Page gives an overview of how the Inventory Report works.",
-    "ms_date": "2024-10-28",
-    "ms_topic": "article",
+    "description": "Explore inventory value by item and location, compare balances with costs posted to the general ledger, and choose Inventory Valuation Power BI reports.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37065_Primary",
@@ -72,12 +72,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 270,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7354e4b7ec4cee1e84c83c82bca4295113f3fd6bd076fb40a2379796e7490bad"
+  "output_hash": "1fdfb8425eda9338b5857384cfeb11ea8071141bc37591f40f6683ae0aea4fc3"
 }

@@ -1,30 +1,84 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/inventory-powerbi-purchase-and-sales-qty.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-purchase-and-sales-qty",
-  "title": "Purchase and Sales Quantity (Power BI report)",
-  "blob": "11d4f2702a82305d9a6d9e8276a0f239e1925a4e",
-  "summary": "Purchase and Sales Quantity Power BI report shows purchase and sales quantities for items and item categories. Use it for leadership and managers to track inventory flow, align purchasing with demand, and monitor sales performance.",
+  "title": "Purchase and Sales Quantity Power BI Report",
+  "blob": "81464090008480a1b2149afcd9ba0da4cb13f83f",
+  "summary": "The Purchase and Sales Quantity Power BI report displays purchase and sales quantities for items and item categories, helping leadership and managers track inventory ins and outs to ensure purchasing meets demand.",
   "systems": [
     "inventory",
-    "sales",
-    "purchasing"
+    "reporting"
   ],
   "topics": [
-    "power bi report",
-    "purchase quantities",
-    "sales quantities",
-    "item tracking",
-    "demand planning"
+    "power bi",
+    "purchase quantity",
+    "sales quantity",
+    "inventory tracking",
+    "kpis",
+    "item analysis"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "Assembly Header"
+    },
+    {
+      "type": "table",
+      "name": "Assembly Line"
+    },
+    {
+      "type": "table",
+      "name": "Job Planning Line"
+    },
+    {
+      "type": "table",
+      "name": "Planning Component"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Component"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Line"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    },
+    {
+      "type": "table",
+      "name": "Service Line"
+    },
+    {
+      "type": "table",
+      "name": "Transfer Line"
+    },
+    {
+      "type": "table",
+      "name": "Requisition Line"
+    }
+  ],
   "features": [
-    "Net Qty. Purchased KPI",
-    "Net Qty. Sold KPI",
-    "Quantity KPI",
-    "Inventory (Quantity) KPI",
-    "Gross Requirement KPI",
-    "Scheduled Receipt KPI",
-    "strategic planning insights"
+    "Net Qty. Purchased",
+    "Net Qty. Sold",
+    "Quantity",
+    "Inventory (Quantity)",
+    "Gross Requirement",
+    "Scheduled Receipt",
+    "Planned Order Receipt",
+    "Projected Available Balance"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +87,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00256,
-      "pages_in_call": 8
+      "cost_usd": 0.004348,
+      "pages_in_call": 1
     }
   ]
 }

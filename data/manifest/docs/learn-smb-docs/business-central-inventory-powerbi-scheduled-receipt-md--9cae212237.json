@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Scheduled Receipt (Power BI report)",
+  "title": "Scheduled Receipt Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-scheduled-receipt",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.570Z",
-      "blob": "accca140ee8c8681da95e776e8e6ce6929375c6d",
-      "words": 266,
+      "at": "2026-11-13T00:19:14.732Z",
+      "blob": "d3a9a3911fe80d5ca10439ea7910a1089c3f95e0",
+      "words": 284,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:34.977Z",
+      "at": "2026-11-13T00:19:24.730Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00256
+      "objects": 13,
+      "cost_usd": 0.005045
     },
     "summarized": {
-      "at": "2026-10-06T19:26:34.994Z",
+      "at": "2026-11-13T00:19:24.731Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:34.995Z",
+      "at": "2026-11-13T00:19:24.732Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:34.996Z",
+      "at": "2026-11-13T00:19:24.733Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/inventory-powerbi-scheduled-receipt.md",
-    "description": "The Scheduled Receipt report lets you view inbound inventory per document type.",
-    "ms_date": "2024-10-28",
-    "ms_topic": "article",
+    "description": "Review expected inbound inventory from purchases, production, assemblies, transfers, and sales returns using the Scheduled Receipt Power BI report.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37028_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 266,
+    "ai_usage": "ai-assisted",
+    "words": 284,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ce4f77d01d83b30e66a50b248bc1b7ab96ee1faa0624591523f00a4ca9354d95"
+  "output_hash": "69d735b2ff1ce544f7b42e63630299e280a020d2da513f994b7ea5bf564faa04"
 }

@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/inventory-valuation-powerbi-inventory-valuation-by-location.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-location",
-  "title": "Inventory Valuation by Location (Power BI report)",
-  "blob": "f45ec0b539b58787e2cb0320277fc3ed9723f3bc",
-  "summary": "The Inventory Valuation by Location Power BI report shows item values on a location-by-location basis, displaying beginning balance value, increases/decreases, and ending balance value for a specified period to help identify high-value locations.",
+  "title": "Inventory Valuation by Location Power BI Report",
+  "blob": "d3ef9070eb13e220fc831c390c3f1dd5b1fdd995",
+  "summary": "The Inventory Valuation by Location Power BI report displays item values by location with beginning balance, net change, and ending balance metrics. Use it to identify high-value inventory locations and monitor stock value changes over time.",
   "systems": [
     "inventory",
     "reporting"
@@ -11,24 +11,23 @@
   "topics": [
     "power bi",
     "inventory valuation",
-    "location analysis",
-    "kpis"
+    "locations",
+    "kpi",
+    "reporting",
+    "analytics"
   ],
   "objects": [
     {
-      "type": "table",
-      "name": "Location"
-    },
-    {
-      "type": "table",
-      "name": "Value Entries"
+      "type": "page",
+      "name": "Inventory Valuation by Location"
     }
   ],
   "features": [
     "Beginning Balance Value",
-    "Increases Value",
-    "Decrease Qty.",
-    "Ending Balance Value"
+    "Net Balance Value",
+    "Ending Balance Value",
+    "location-based inventory tracking",
+    "inventory value monitoring"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003631,
-      "pages_in_call": 8
+      "cost_usd": 0.003364,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Inventory by Serial No (Power BI report)",
+  "title": "Inventory by Serial No. Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-serial-no",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.551Z",
-      "blob": "3f8e572212eceb223994b36b200f15fc63e20c30",
-      "words": 217,
+      "at": "2026-11-13T00:19:09.400Z",
+      "blob": "c72f98e9aeab491248cc00e7cf0c6569f0f23300",
+      "words": 218,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:34.974Z",
+      "at": "2026-11-13T00:19:14.684Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00256
+      "objects": 1,
+      "cost_usd": 0.003225
     },
     "summarized": {
-      "at": "2026-10-06T19:26:34.983Z",
+      "at": "2026-11-13T00:19:14.685Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:34.984Z",
+      "at": "2026-11-13T00:19:14.687Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:34.985Z",
+      "at": "2026-11-13T00:19:14.687Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/inventory-powerbi-inventory-by-serial-no.md",
-    "description": "The Inventory by Serial No. report shows your total inventory broken down per serial number.",
-    "ms_date": "2024-10-28",
-    "ms_topic": "article",
+    "description": "Track inventory quantities and transaction details for serial-tracked items with the Inventory by Serial No. Power BI report in Business Central.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37030_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 217,
+    "ai_usage": "ai-assisted",
+    "words": 218,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "080a5b242fc10afbe8e75ee8af6bc0e473cc4cf226a33810355fd41bbe713db1"
+  "output_hash": "8d1d9fc70a96f12422f6853d9ac1484b108b16493f3d517ba9c1a8f5d010df67"
 }

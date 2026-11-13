@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Inventory Overview (Power BI report)",
+  "title": "Inventory Overview Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-overview",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.556Z",
-      "blob": "b1d2fa3f13e6110571f9a02529b5acdf4db774eb",
-      "words": 289,
+      "at": "2026-11-13T00:19:09.463Z",
+      "blob": "f3d1d3becb406967b14a1598ecfdcd54c2fad988",
+      "words": 295,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:34.975Z",
+      "at": "2026-11-13T00:19:16.221Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00256
+      "objects": 13,
+      "cost_usd": 0.00505
     },
     "summarized": {
-      "at": "2026-10-06T19:26:34.986Z",
+      "at": "2026-11-13T00:19:16.223Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:34.987Z",
+      "at": "2026-11-13T00:19:16.225Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:34.988Z",
+      "at": "2026-11-13T00:19:16.227Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/inventory-powerbi-inventory-overview.md",
-    "description": "The Inventory Overview report provides a high-level summary of your organizations inventory.",
-    "ms_date": "2024-10-28",
+    "description": "Review stock quantities, gross requirements, scheduled receipts, and projected balances across locations with the Inventory Overview Power BI report.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 289,
+    "ai_usage": "ai-assisted",
+    "words": 295,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0be4e0bc50e2b360fd5cdadd7d2f3cad810345f985468407216ecf01c791da15"
+  "output_hash": "9ad3eef15909c562fa087b9f130d92c6d7f387b03b284c6a7fca75b871d8d4ee"
 }

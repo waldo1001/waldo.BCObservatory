@@ -1,26 +1,32 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-by-serial-no.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-serial-no",
-  "title": "Inventory by Serial No (Power BI report)",
-  "blob": "3f8e572212eceb223994b36b200f15fc63e20c30",
-  "summary": "Inventory by Serial No. Power BI report shows total inventory per serial number for serial-tracked items. Use it to optimize stock levels for each serial number and track slow-moving serial items.",
+  "title": "Inventory by Serial No. Power BI Report",
+  "blob": "c72f98e9aeab491248cc00e7cf0c6569f0f23300",
+  "summary": "The Inventory by Serial No. Power BI report displays total inventory quantities per serial number, helping inventory managers optimize stock levels, identify slow-moving items, and prevent stock-outs.",
   "systems": [
     "inventory",
-    "warehouse",
-    "reporting"
+    "reporting",
+    "warehouse"
   ],
   "topics": [
-    "power bi report",
-    "serial number tracking",
-    "inventory management",
-    "stock optimization"
+    "power bi",
+    "serial numbers",
+    "inventory tracking",
+    "kpis",
+    "stock levels"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Inventory by Serial No."
+    }
+  ],
   "features": [
     "Quantity KPI",
-    "Inventory (Quantity) KPI",
-    "serial-based performance tracking",
-    "expiration identification"
+    "Inventory Quantity KPI",
+    "Serial number tracking",
+    "Stock level optimization"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00256,
-      "pages_in_call": 8
+      "cost_usd": 0.003225,
+      "pages_in_call": 1
     }
   ]
 }

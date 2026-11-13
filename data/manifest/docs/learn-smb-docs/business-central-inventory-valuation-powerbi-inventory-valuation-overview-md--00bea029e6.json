@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Inventory Valuation Overview (Power BI report)",
+  "title": "Inventory Valuation Overview Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-overview",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.588Z",
-      "blob": "dce0c90c7784a42048a5ef791207e4ae6adfa6ac",
-      "words": 214,
+      "at": "2026-11-13T00:19:16.418Z",
+      "blob": "03124afb0aaf613084a1462bc85073d735f7d508",
+      "words": 219,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:37.198Z",
+      "at": "2026-11-13T00:19:24.754Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003631
+      "cost_usd": 0.003624
     },
     "summarized": {
-      "at": "2026-10-06T19:26:38.913Z",
+      "at": "2026-11-13T00:19:24.756Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:38.914Z",
+      "at": "2026-11-13T00:19:24.757Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:38.914Z",
+      "at": "2026-11-13T00:19:24.759Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/inventory-valuation-powerbi-inventory-valuation-overview.md",
-    "description": "The Inventory Valuation Overview report shows item values on a location by location basis.",
-    "ms_date": "2024-10-30",
+    "description": "Compare inventory value with costs posted to the general ledger, review variances, and analyze value by location with the Inventory Valuation Overview report.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 214,
+    "ai_usage": "ai-assisted",
+    "words": 219,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "90e844a71e8ff87136baf6833d1e0c040620de175f97968fcd69ff66ca336b05"
+  "output_hash": "09dcf318bdf542e9b321606338b06055d4631e266d56d2a120ebdf5e83a19a80"
 }

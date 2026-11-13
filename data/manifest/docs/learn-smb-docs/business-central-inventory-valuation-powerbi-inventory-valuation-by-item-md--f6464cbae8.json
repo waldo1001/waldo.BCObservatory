@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Inventory Valuation by Item (Power BI report)",
+  "title": "Inventory Valuation by Item Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-item",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.579Z",
-      "blob": "cb5fe73019d4f55ffb2b866c255b07a50b41dfdf",
-      "words": 250,
+      "at": "2026-11-13T00:19:15.210Z",
+      "blob": "c40d1b5999565e37d8b7c735a364b7bbf9105d3f",
+      "words": 251,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:37.196Z",
+      "at": "2026-11-13T00:19:24.741Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003631
+      "cost_usd": 0.003713
     },
     "summarized": {
-      "at": "2026-10-06T19:26:37.204Z",
+      "at": "2026-11-13T00:19:24.742Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:37.205Z",
+      "at": "2026-11-13T00:19:24.744Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:37.205Z",
+      "at": "2026-11-13T00:19:24.745Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/inventory-valuation-powerbi-inventory-valuation-by-item.md",
-    "description": "The Inventory Valuation by Item report shows item values on an item by item basis.",
-    "ms_date": "2024-10-30",
-    "ms_topic": "article",
+    "description": "Review beginning and ending inventory values and changes during a selected period by item with the Inventory Valuation by Item Power BI report.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37057_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 250,
+    "ai_usage": "ai-assisted",
+    "words": 251,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "af123b36ca6fb850e7169ad0655f2e02986cb363c3fa9dc111fc2eb3c820080c"
+  "output_hash": "a55c89cca7e23f4851e6605c4d16244095b15f526ae052095a004b39371b24a8"
 }

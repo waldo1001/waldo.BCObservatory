@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Inventory Valuation by Location (Power BI report)",
+  "title": "Inventory Valuation by Location Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-location",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.583Z",
-      "blob": "f45ec0b539b58787e2cb0320277fc3ed9723f3bc",
-      "words": 242,
+      "at": "2026-11-13T00:19:16.291Z",
+      "blob": "d3ef9070eb13e220fc831c390c3f1dd5b1fdd995",
+      "words": 243,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:37.197Z",
+      "at": "2026-11-13T00:19:24.778Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.003631
+      "objects": 1,
+      "cost_usd": 0.003364
     },
     "summarized": {
-      "at": "2026-10-06T19:26:37.206Z",
+      "at": "2026-11-13T00:19:24.779Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:37.207Z",
+      "at": "2026-11-13T00:19:24.794Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:38.911Z",
+      "at": "2026-11-13T00:19:24.796Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/inventory-valuation-powerbi-inventory-valuation-by-location.md",
-    "description": "The Inventory Valuation by Location report shows the item values on a location by location basis.",
-    "ms_date": "2024-10-30",
-    "ms_topic": "article",
+    "description": "Compare inventory values across locations and review beginning balances, net changes, and ending balances with this Power BI report in Business Central.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37058_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 242,
+    "ai_usage": "ai-assisted",
+    "words": 243,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3c0b5587745f14cee522dcae4132bf7933bf1948b0f16c6432f2053103fa9205"
+  "output_hash": "2d956ef38e60e288a3bc323aa6b729746fdf2eb3cc368654f556b925f65330e2"
 }
