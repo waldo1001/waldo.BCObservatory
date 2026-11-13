@@ -1,19 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-production-order-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-order-overview",
-  "title": "Production Order Overview",
-  "blob": "4a7f2111e2f2dac4e58cc1fa78ee9410625adac5",
-  "summary": "Production Order Overview is a Power BI report that summarizes production order activities, completion rates, and cost breakdowns for current production orders.",
+  "title": "Production Order Overview Power BI Report",
+  "blob": "4d32e4dd1ae1f41fee718b2c43cabd2cadfc65d5",
+  "summary": "Production Order Overview Power BI report displays production order progress, costs, and status through KPIs, charts, and tables to help manufacturing managers monitor operations and control expenses.",
   "systems": [
     "manufacturing",
     "reporting"
   ],
   "topics": [
-    "production orders",
-    "completion rates",
-    "cost analysis",
     "power bi",
-    "kpis"
+    "production orders",
+    "kpis",
+    "cost analysis",
+    "performance monitoring"
   ],
   "objects": [
     {
@@ -39,15 +39,33 @@
     {
       "type": "table",
       "name": "Production Order"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Component"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Routing Line"
+    },
+    {
+      "type": "table",
+      "name": "Work Center"
     }
   ],
   "features": [
-    "Number of Production Orders by Status",
-    "Completion Ratios by Source No",
-    "Total Actual Cost Breakdown",
-    "Current Production Orders table",
-    "Finished % KPI",
-    "Actual Total Cost KPI"
+    "Number of Production Orders",
+    "Completion Rate (Finished %)",
+    "Actual Total Cost",
+    "Total Expected Cost",
+    "Total Standard Cost",
+    "Production Orders by Status",
+    "Completion Ratios by Source",
+    "Total Actual Cost Breakdown"
   ],
   "versions": [],
   "parts": 1,
@@ -56,8 +74,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00312,
-      "pages_in_call": 8
+      "cost_usd": 0.005356,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Production Scrap (Power BI report)",
+  "title": "Production Scrap Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-scrap",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.265Z",
-      "blob": "ceff79c793c1ae0abe6ea5d05da66a6cab143b97",
-      "words": 468,
+      "at": "2026-11-13T00:19:37.778Z",
+      "blob": "81f928e5d0ec81d9944f541e0a48d0c9ccb6803e",
+      "words": 490,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:13.634Z",
+      "at": "2026-11-13T00:19:44.333Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.002771
+      "objects": 7,
+      "cost_usd": 0.004973
     },
     "summarized": {
-      "at": "2026-10-06T19:04:15.458Z",
+      "at": "2026-11-13T00:19:44.334Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:15.459Z",
+      "at": "2026-11-13T00:19:44.336Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:15.460Z",
+      "at": "2026-11-13T00:19:44.337Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/manufacturing-powerbi-production-scrap.md",
     "description": "The Production Scrap report shows the quantity of capacity scrap each month, with a breakdown by code, location, and item category.",
-    "ms_date": "2025-05-26",
-    "ms_topic": "article",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37055_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 468,
+    "ai_usage": "ai-assisted",
+    "words": 490,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4a1c59d1fcbd2737ab914ff768fb80711c8e77e8f7e7b946ced4a23b777544f5"
+  "output_hash": "c7f4537dc62d44f189ecfd8b315a7f6550cf13e77b3b680b66760a9db5e4601f"
 }

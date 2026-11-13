@@ -1,20 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-work-center-statistics.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-work-center-statistics",
-  "title": "Work Center Statistics",
-  "blob": "da4c076f2c4d7a9aca59de2a2bb14cfdc7263aef",
-  "summary": "Work Center Statistics is a Power BI report that analyzes work center operational performance, efficiency, capacity utilization, and scrap metrics.",
+  "title": "Work Center Statistics Power BI Report",
+  "blob": "695117da5770e5c14c54eac099359f403e47084c",
+  "summary": "Work Center Statistics Power BI report provides manufacturing managers and supervisors with comprehensive operational performance metrics including efficiency, capacity utilization, scrap rates, and cost analysis for work centers.",
   "systems": [
     "manufacturing",
     "reporting"
   ],
   "topics": [
+    "power bi",
     "work centers",
     "efficiency",
     "capacity",
-    "scrap rates",
-    "power bi",
-    "kpis"
+    "kpis",
+    "scrap",
+    "production"
   ],
   "objects": [
     {
@@ -32,15 +33,25 @@
     {
       "type": "table",
       "name": "Work Center"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Manufacturing Setup"
     }
   ],
   "features": [
-    "Work Center Scrap % KPI",
-    "Work Center Load KPI",
     "Work Center Efficiency chart",
+    "Work Center Load KPI",
+    "Work Center Scrap % KPI",
     "Statistics Details table",
-    "Work Center Capacity",
-    "Work Center Actual Efficiency"
+    "Capacity metrics",
+    "Efficiency metrics",
+    "Cost analysis",
+    "Time allocation"
   ],
   "versions": [],
   "parts": 1,
@@ -49,8 +60,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00312,
-      "pages_in_call": 8
+      "cost_usd": 0.004222,
+      "pages_in_call": 1
     }
   ]
 }

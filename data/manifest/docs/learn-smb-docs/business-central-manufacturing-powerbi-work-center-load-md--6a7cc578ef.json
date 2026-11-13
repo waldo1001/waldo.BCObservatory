@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Work Center Load",
+  "title": "Work Center Load Manufacturing Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-work-center-load",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.274Z",
-      "blob": "43891bb394dc1ffee363e021ffb1ee17f4df75ff",
-      "words": 270,
+      "at": "2026-11-13T00:19:43.961Z",
+      "blob": "5330019586fe85327925900a26ac725101ff6ab0",
+      "words": 294,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:47.526Z",
+      "at": "2026-11-13T00:19:49.041Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00557
+      "objects": 6,
+      "cost_usd": 0.003929
     },
     "summarized": {
-      "at": "2026-10-06T19:04:47.534Z",
+      "at": "2026-11-13T00:19:49.044Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:47.535Z",
+      "at": "2026-11-13T00:19:49.046Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:47.536Z",
+      "at": "2026-11-13T00:19:53.858Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/manufacturing-powerbi-work-center-load.md",
-    "description": "The Work Center Load report shows the load and the allocated capacity of each work center.",
-    "ms_date": "2024-11-01",
-    "ms_topic": "article",
+    "description": "Compare allocated time with effective capacity, review order allocations, and identify overloaded work centers with the Work Center Load Power BI report.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37042_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 270,
+    "ai_usage": "ai-assisted",
+    "words": 294,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "418ec4e3585d7527419cf495c0431b3c43fbf43ced254172e6a1d4ebb6bb10c0"
+  "output_hash": "13ad92ffe0fc478016e4ab56b1be36459350cc05c5bbc2f236a85a405d0b602c"
 }

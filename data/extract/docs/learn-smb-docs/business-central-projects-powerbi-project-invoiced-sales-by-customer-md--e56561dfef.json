@@ -1,20 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/projects-powerbi-project-invoiced-sales-by-customer.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-customer",
-  "title": "Project Invoiced Sales by Customer (Power BI report)",
-  "blob": "06b827228531591f76f38e7daf25d6fef1355455",
-  "summary": "Project Invoiced Sales by Customer Power BI report breaks down sales values per project and customer, helping project managers track performance and leadership make informed decisions.",
+  "title": "Project Invoiced Sales by Customer Power BI Report",
+  "blob": "812460acef06c5c0a8379f6b0c244a0e5cb34835",
+  "summary": "The Project Invoiced Sales by Customer Power BI report breaks down sales values by project and customer, used by project managers and leadership to track customer sales performance and make informed business decisions.",
   "systems": [
     "projects",
-    "reporting",
-    "sales"
+    "reporting"
   ],
   "topics": [
     "power bi",
     "project sales",
-    "customer analysis",
-    "invoicing",
-    "performance tracking"
+    "customer analytics",
+    "invoiced sales",
+    "kpi",
+    "project manager"
   ],
   "objects": [
     {
@@ -31,10 +31,10 @@
     }
   ],
   "features": [
-    "Invoiced percentage",
-    "Customer sales tracking",
-    "Project performance monitoring",
-    "Sales quantity analysis"
+    "Invoiced (%)",
+    "Project Ledger Entry Quantity",
+    "Total Invoiced Price",
+    "Total Billable Price"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00557,
-      "pages_in_call": 7
+      "cost_usd": 0.003352,
+      "pages_in_call": 1
     }
   ]
 }

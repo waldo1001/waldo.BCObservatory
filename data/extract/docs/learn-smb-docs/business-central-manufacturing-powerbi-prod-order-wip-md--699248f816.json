@@ -1,19 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-prod-order-wip.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-wip",
-  "title": "Production Order WIP",
-  "blob": "337cd33b95648c9de451204b408f003675b668a7",
-  "summary": "Production Order WIP is a Power BI report that displays work-in-progress inventory trends and valuation details across production orders.",
+  "title": "Production Order WIP Power BI Report",
+  "blob": "93e95af1f37e9e3d0060a41d639e3745da956df9",
+  "summary": "The Production Order WIP Power BI report displays work-in-progress inventory trends and detailed valuation data across production orders, helping manufacturing managers analyze WIP balance changes and consumption during selected periods.",
   "systems": [
     "manufacturing",
     "reporting"
   ],
   "topics": [
-    "work-in-progress",
+    "power bi",
+    "wip inventory",
     "production orders",
     "inventory valuation",
-    "power bi",
-    "kpis"
+    "kpi",
+    "capacity",
+    "consumption"
   ],
   "objects": [
     {
@@ -26,12 +28,14 @@
     }
   ],
   "features": [
-    "Ending Balance Value timeline",
-    "Inventory Valuation table",
+    "Ending Balance Value timeline chart",
+    "Inventory Valuation WIP table",
     "Beginning Balance Value KPI",
     "Consumption Value KPI",
     "Output Value KPI",
-    "Capacity Value KPI"
+    "Capacity Value KPI",
+    "Ending Balance Value KPI",
+    "Date filters"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00312,
-      "pages_in_call": 8
+      "cost_usd": 0.003733,
+      "pages_in_call": 1
     }
   ]
 }

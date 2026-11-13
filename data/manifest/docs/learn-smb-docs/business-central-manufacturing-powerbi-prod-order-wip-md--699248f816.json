@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Production Order WIP",
+  "title": "Production Order WIP Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-wip",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.913Z",
-      "blob": "337cd33b95648c9de451204b408f003675b668a7",
-      "words": 244,
+      "at": "2026-11-13T00:19:37.745Z",
+      "blob": "93e95af1f37e9e3d0060a41d639e3745da956df9",
+      "words": 287,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:08.823Z",
+      "at": "2026-11-13T00:19:43.912Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.00312
+      "cost_usd": 0.003733
     },
     "summarized": {
-      "at": "2026-10-06T18:52:08.830Z",
+      "at": "2026-11-13T00:19:43.914Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:08.831Z",
+      "at": "2026-11-13T00:19:43.915Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:10.579Z",
+      "at": "2026-11-13T00:19:43.916Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/manufacturing-powerbi-prod-order-wip.md",
-    "description": "Learn how to benefit from using the Production Order WIP report.",
-    "ms_date": "2025-05-26",
+    "description": "Review work-in-progress inventory trends and beginning, consumption, capacity, output, and ending values with the Production Order WIP Power BI report.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 244,
+    "ai_usage": "ai-assisted",
+    "words": 287,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b500e1796692edae9e34a9aba4ecf7a91fe410b1da60697b349695c30c5c3eb6"
+  "output_hash": "019779efde9369e2e1735fbe21c2687d46bf983cffd0bba060fbd5c77461c431"
 }

@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/powerbi-use-semantic-models-in-excel.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/powerbi-use-semantic-models-in-excel",
-  "title": "Use Power BI Semantic Models in Excel for Dynamics 365 Business Central Reporting",
-  "blob": "f3436488566afb89458835ff197bedcf8a088a45",
-  "summary": "Using Power BI semantic models in Excel enables creating Pivot Tables and Tables connected to Business Central Power BI apps for ad-hoc cross-functional reporting and data analysis.",
+  "title": "Use Business Central Power BI Semantic Models in Excel",
+  "blob": "2832bce6d52f861e5e3955d5f8743f44cebb4bd3",
+  "summary": "Using Power BI semantic models in Excel to create connected tables and pivot tables for Business Central data analysis and reporting.",
   "systems": [
     "reporting",
     "integration"
@@ -12,16 +12,19 @@
     "power bi",
     "excel",
     "semantic models",
-    "pivot tables",
-    "ad-hoc analysis"
+    "reporting",
+    "data analysis",
+    "pivot tables"
   ],
   "objects": [],
   "features": [
-    "power bi semantic models",
-    "pivot tables",
-    "excel tables",
-    "power pivot add-in",
-    "model relationships"
+    "Connected tables",
+    "Pivot tables",
+    "Power BI semantic model connection",
+    "Live connection",
+    "Data filtering",
+    "Cross-functional reporting",
+    "Power Pivot integration"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004719,
-      "pages_in_call": 8
+      "cost_usd": 0.00483,
+      "pages_in_call": 1
     }
   ]
 }

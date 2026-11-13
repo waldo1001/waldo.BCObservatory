@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Prod.Order Routing Gantt",
+  "title": "Production Order Routing Gantt Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-routing-gantt",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.909Z",
-      "blob": "be477ba508f926ed4251b394b55edbf90cf7ddeb",
-      "words": 584,
+      "at": "2026-11-13T00:19:37.764Z",
+      "blob": "c6d65388a00bd63fbd7a454c544bd575ce293f9d",
+      "words": 532,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:51:45.725Z",
+      "at": "2026-11-13T00:19:44.439Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002727
+      "objects": 5,
+      "cost_usd": 0.004663
     },
     "summarized": {
-      "at": "2026-10-06T18:51:47.671Z",
+      "at": "2026-11-13T00:19:44.440Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:51:47.672Z",
+      "at": "2026-11-13T00:19:44.442Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:51:47.672Z",
+      "at": "2026-11-13T00:19:44.443Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/manufacturing-powerbi-prod-order-routing-gantt.md",
-    "description": "Learn how to benefit from using the Prod. Order Routing Gantt report.",
-    "ms_date": "2025-05-26",
+    "description": "Review scheduled production operations, routing timelines, work and machine centers, and posted output with the Prod. Order Routing Gantt Power BI report.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 584,
+    "ai_usage": "ai-assisted",
+    "words": 532,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6de75c5eee2e8fd4a66fc1ddb170b7651606dc83c822770de1585f477e724e86"
+  "output_hash": "ba0118856e62482da481368c688994324098d8e410b4dcf2a5f04f7997211de4"
 }

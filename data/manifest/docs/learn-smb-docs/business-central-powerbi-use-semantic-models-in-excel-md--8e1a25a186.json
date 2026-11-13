@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Use Power BI Semantic Models in Excel for Dynamics 365 Business Central Reporting",
+  "title": "Use Business Central Power BI Semantic Models in Excel",
   "url": "https://learn.microsoft.com/dynamics365/business-central/powerbi-use-semantic-models-in-excel",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.511Z",
-      "blob": "f3436488566afb89458835ff197bedcf8a088a45",
-      "words": 1108,
+      "at": "2026-11-13T00:19:44.736Z",
+      "blob": "2832bce6d52f861e5e3955d5f8743f44cebb4bd3",
+      "words": 1376,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:27:24.254Z",
+      "at": "2026-11-13T00:19:53.893Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004719
+      "cost_usd": 0.00483
     },
     "summarized": {
-      "at": "2026-10-06T18:27:24.274Z",
+      "at": "2026-11-13T00:19:53.894Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:27:24.275Z",
+      "at": "2026-11-13T00:19:53.895Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:27:24.276Z",
+      "at": "2026-11-13T00:19:53.896Z",
       "page": false
     }
   },
@@ -44,20 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/powerbi-use-semantic-models-in-excel.md",
-    "description": "Describes how to utilize connections Power BI semantic models in Excel for Business Central reporting.",
-    "ms_date": "2025-11-12",
-    "ms_topic": "overview",
+    "description": "Connect Excel to Business Central Power BI semantic models to create refreshable tables and PivotTables, and combine data with Power Pivot.",
+    "ms_date": "2026-11-11",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "trial",
       "Microsoft services"
     ],
-    "ai_usage": null,
-    "words": 1108,
+    "ai_usage": "ai-assisted",
+    "words": 1376,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "73bf7f9ad53ba6f59ef6febf13e9c1e4be4e17b3608b1aae2b53fb247ca6d826"
+  "output_hash": "1ba90b2fddbb8f797945ad1da1529405b2ae4c4394352d1147f5347a0c141b3d"
 }

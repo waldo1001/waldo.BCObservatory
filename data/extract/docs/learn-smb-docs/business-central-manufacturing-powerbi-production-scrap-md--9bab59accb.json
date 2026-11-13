@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-production-scrap.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-scrap",
-  "title": "Production Scrap (Power BI report)",
-  "blob": "ceff79c793c1ae0abe6ea5d05da66a6cab143b97",
-  "summary": "Production Scrap is a Power BI report for business leaders and manufacturing managers to analyze scrap rates by work center, machine center, and production order to identify and reduce waste.",
+  "title": "Production Scrap Power BI Report",
+  "blob": "81f928e5d0ec81d9944f541e0a48d0c9ccb6803e",
+  "summary": "The Production Scrap Power BI report provides key performance indicators on manufacturing waste including scrap percentage and quantity by work center, machine center, and production order to help identify efficiency issues and reduce waste.",
   "systems": [
     "manufacturing",
     "reporting"
   ],
   "topics": [
-    "power bi report",
-    "scrap analysis",
-    "quality control",
-    "waste reduction",
-    "production efficiency"
+    "power bi",
+    "production",
+    "scrap",
+    "kpis",
+    "manufacturing efficiency",
+    "waste analysis"
   ],
   "objects": [
     {
@@ -31,13 +32,28 @@
     {
       "type": "table",
       "name": "Work Center"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Line"
     }
   ],
   "features": [
-    "scrap rate tracking",
-    "scrap quantity by work center",
-    "machine center analysis",
-    "scrap trend visualization"
+    "Production Order Scrap %",
+    "Scrap Quantity by Work Center",
+    "Scrap Quantity by Machine Center",
+    "Scrap Quantity Over Time",
+    "Scrap % by Production Order",
+    "Scrap Quantity vs. Expected Scrap Quantity by Source No.",
+    "Scrap Quantity by Scrap Code"
   ],
   "versions": [],
   "parts": 1,
@@ -46,8 +62,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002771,
-      "pages_in_call": 8
+      "cost_usd": 0.004973,
+      "pages_in_call": 1
     }
   ]
 }

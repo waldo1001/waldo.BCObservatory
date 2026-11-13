@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Use back links to explore aggregated data in visuals",
+  "title": "Use Power BI Back Links to Explore Business Central Data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/powerbi-back-links",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.566Z",
-      "blob": "41996d9a739b2b067a0a0cb47d4ef0730578a138",
-      "words": 459,
+      "at": "2026-11-13T00:19:44.497Z",
+      "blob": "3c9fb3c4e5aab4a8ec18b61d549611289367a5b1",
+      "words": 518,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:10.894Z",
+      "at": "2026-11-13T00:19:54.009Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003275
+      "cost_usd": 0.00357
     },
     "summarized": {
-      "at": "2026-10-06T19:23:12.759Z",
+      "at": "2026-11-13T00:19:54.010Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:12.759Z",
+      "at": "2026-11-13T00:19:54.013Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:12.760Z",
+      "at": "2026-11-13T00:19:54.015Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/powerbi-back-links.md",
-    "description": "When you're analyzing a visual in Power BI, back links let you go to the data behind the graphic.",
-    "ms_date": "2025-06-11",
+    "description": "Use back links in Business Central Power BI reports to open the transactions behind a visual and validate, audit, or reconcile aggregated figures.",
+    "ms_date": "2026-11-11",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "trial",
       "Microsoft services"
     ],
-    "ai_usage": null,
-    "words": 459,
+    "ai_usage": "ai-assisted",
+    "words": 518,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "14b3d7b3d9449831169c330015ad94e9bf461f22ae8d919dac56359789024bba"
+  "output_hash": "e263562cbf55fec0219d76fad8473a678f3bbc2b6b209d0a0ce4284b0ec3b82f"
 }

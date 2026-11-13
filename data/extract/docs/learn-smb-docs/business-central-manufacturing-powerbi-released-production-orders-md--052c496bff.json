@@ -1,21 +1,25 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-released-production-orders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-released-production-orders",
-  "title": "Released Production Orders",
-  "blob": "6282037d4ec2dc90ca1603fc00fa953e9de46d2b",
-  "summary": "Released Production Orders is a Power BI report for manufacturing managers and supervisors to track released production orders with expected versus finished quantities and cost variances.",
+  "title": "Released Production Orders Power BI Report",
+  "blob": "824c43a76e495be76d5d916604732fce75659c80",
+  "summary": "The Released Production Orders Power BI report provides detailed information about released production orders including expected versus finished quantities and variances. It helps manufacturing managers and supervisors track production progress, identify issues, and optimize scheduling.",
   "systems": [
     "manufacturing",
     "reporting"
   ],
   "topics": [
-    "power bi report",
+    "power bi",
     "production orders",
-    "quantity tracking",
-    "cost variance",
-    "progress monitoring"
+    "manufacturing",
+    "kpis",
+    "performance tracking"
   ],
   "objects": [
+    {
+      "type": "report",
+      "name": "Released Production Orders"
+    },
     {
       "type": "table",
       "name": "Item"
@@ -23,13 +27,49 @@
     {
       "type": "table",
       "name": "Production Order"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Line"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Capacity Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Inventory Adjmt. Entry (Order)"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Component"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Routing Line"
+    },
+    {
+      "type": "table",
+      "name": "Work Center"
     }
   ],
   "features": [
-    "order status tracking",
-    "quantity comparison",
-    "cost variance analysis",
-    "completion percentage monitoring"
+    "Planned Quantity",
+    "Finished Quantity",
+    "Variance Quantity",
+    "Remaining %",
+    "Finished %",
+    "Total Actual Cost",
+    "Expected Total Cost",
+    "Standard Total Cost"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +78,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002771,
-      "pages_in_call": 8
+      "cost_usd": 0.007711,
+      "pages_in_call": 1
     }
   ]
 }
