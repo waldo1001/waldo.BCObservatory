@@ -1,31 +1,49 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sustainability-powerbi-sustainability-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-sustainability-overview",
-  "title": "Sustainability Overview",
-  "blob": "90257bc6df6d1142d602c1b8cb60cddfa5126342",
-  "summary": "Sustainability Overview Power BI report provides high-level emissions, water, and waste usage metrics organized by category, scope, and month for sustainability managers and executives.",
+  "title": "Sustainability Overview Power BI Report",
+  "blob": "72e3a22d99821e2a2a2db981a2e78f92ef094289",
+  "summary": "The Sustainability Overview Power BI report displays emissions, water, and waste usage data organized by category, scope, and month to help organizations track sustainability goals and performance.",
   "systems": [
     "sustainability",
     "reporting"
   ],
   "topics": [
     "power bi",
-    "emissions",
-    "water",
-    "waste",
     "sustainability reporting",
-    "esg"
+    "emissions tracking",
+    "key performance indicators",
+    "water usage",
+    "waste management",
+    "environmental goals"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sustainability Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Account"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Account Category"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Goals"
+    }
+  ],
   "features": [
-    "CO2 Realized %",
-    "CH4 Realized %",
-    "N2O Realized %",
-    "Water Realized %",
-    "Waste Realized %",
-    "CO2e Emissions",
-    "CO2 Baseline",
-    "CO2 Current Value"
+    "CO2 emissions tracking",
+    "CH4 emissions tracking",
+    "N2O emissions tracking",
+    "Water usage reporting",
+    "Waste tracking",
+    "CO2e baseline comparison",
+    "Water intensity metrics",
+    "Waste intensity metrics"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003637,
-      "pages_in_call": 8
+      "cost_usd": 0.004083,
+      "pages_in_call": 1
     }
   ]
 }

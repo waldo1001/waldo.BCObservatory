@@ -2,24 +2,26 @@
   "item_id": "docs/learn-smb-docs/business-central/ui-work-report.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-work-report",
   "title": "Run and Print Reports in Business Central",
-  "blob": "1018770f89293ae82242cf76e1d0f9cdae2b3413",
-  "summary": "Run and Print Reports in Business Central explains how to find, open, and work with reports to collect and display data. Users can preview, print, save, or schedule reports with filters and options configured through request pages.",
+  "blob": "7d2a32a86cc31b8cfaa5af49ed28fc456ac3f8b3",
+  "summary": "Run and Print Reports in Business Central explains how to find, open, preview, print, and schedule reports. Use this to understand report request pages, filters, output options, printer selection, and advanced settings.",
   "systems": [
-    "reporting",
-    "administration",
-    "platform"
+    "reporting"
   ],
   "topics": [
     "reports",
     "printing",
     "scheduling",
-    "filtering",
     "preview",
+    "filters",
     "job queue",
-    "report layouts",
-    "data analysis"
+    "layouts",
+    "pdf"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "Reports"
+    },
     {
       "type": "page",
       "name": "Job Queue Entries"
@@ -42,14 +44,14 @@
     }
   ],
   "features": [
-    "Report request pages",
-    "Saved settings for reports",
-    "Report filtering and options",
-    "Report preview",
-    "Schedule reports to job queue",
-    "Save reports to PDF/Word/Excel/XML",
-    "Printer selection",
-    "Report layout switching"
+    "report preview",
+    "print to file",
+    "schedule reports",
+    "job queue scheduling",
+    "report layouts",
+    "language and format settings",
+    "resource limits",
+    "predefined settings"
   ],
   "versions": [
     "2020 release wave 1"
@@ -60,7 +62,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.012016,
+      "cost_usd": 0.011737,
       "pages_in_call": 1
     }
   ]

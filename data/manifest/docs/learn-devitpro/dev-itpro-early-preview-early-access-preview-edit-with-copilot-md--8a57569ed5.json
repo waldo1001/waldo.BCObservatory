@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/early-preview/early-access-preview-edit-with-copilot",
   "published_at": "2026-11-12T08:44:18.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-28T00:16:46.912Z"
     },
     "fetched": {
-      "at": "2026-10-28T08:50:26.490Z",
-      "blob": "4956849f2df4e7f51f380a6c1520c92f628acbc4",
-      "words": 2216,
+      "at": "2026-11-13T00:21:15.160Z",
+      "blob": "7a4b60acb86276fd3bbf2209d9b104ed6a2d1572",
+      "words": 2229,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-28T08:50:39.882Z",
+      "at": "2026-11-13T00:21:20.038Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.012088
+      "objects": 0,
+      "cost_usd": 0.011693
     },
     "summarized": {
-      "at": "2026-10-28T08:50:39.884Z",
+      "at": "2026-11-13T00:21:20.040Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-28T08:50:39.885Z",
+      "at": "2026-11-13T00:21:20.041Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-28T08:50:39.886Z",
+      "at": "2026-11-13T00:21:20.042Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/early-preview/early-access-preview-edit-with-copilot.md",
     "description": "Learn about the early access preview of Edit with Copilot for modifying and deleting data in Business Central.",
-    "ms_date": "2026-10-23",
+    "ms_date": "2026-11-11",
     "ms_topic": "whats-new",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 2216,
+    "words": 2229,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fa763519679128e2dd0bd6e662d4d4a650bcf801daed7b7c59f3bfe5ad7870a4"
+  "output_hash": "172205a1a33290fe067c79a9861a91415e0ba89e014d52847e7fb7e30df389c7"
 }

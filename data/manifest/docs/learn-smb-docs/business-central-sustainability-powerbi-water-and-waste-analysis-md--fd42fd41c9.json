@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Water and Waste Analysis",
+  "title": "Water and Waste Analysis Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-water-and-waste-analysis",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.928Z",
-      "blob": "539643e7f98515a7a0b4ac1d9c2a5d367f15ab72",
-      "words": 267,
+      "at": "2026-11-13T00:21:09.514Z",
+      "blob": "b58e702e4578e219a97d975b70b37f23d308a792",
+      "words": 297,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:56:21.892Z",
+      "at": "2026-11-13T00:21:18.005Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003637
+      "objects": 6,
+      "cost_usd": 0.005215
     },
     "summarized": {
-      "at": "2026-10-06T18:56:30.975Z",
+      "at": "2026-11-13T00:21:18.007Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:56:30.976Z",
+      "at": "2026-11-13T00:21:18.008Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:56:30.977Z",
+      "at": "2026-11-13T00:21:18.008Z",
       "page": false
     }
   },
@@ -44,19 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sustainability-powerbi-water-and-waste-analysis.md",
-    "description": "The Water and Waste Analysis allows you to effectively monitor your water and waste usage by different metrics such as Water Type, Intensity Type, and Responsibility Center.",
-    "ms_date": "2025-02-05",
+    "description": "Review water usage and waste by facility, location, and type in Business Central with the Water and Waste Analysis Power BI report for sustainability.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 267,
+    "ai_usage": "ai-assisted",
+    "words": 297,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "866bd8a270a1566fa8b283da2d3ca8360308e346b150f63bf1a68b203a858f76"
+  "output_hash": "0cbdc29e0a9e04dd55187b99a9dfc7de791507a8565dab236f7390b4452ddbca"
 }

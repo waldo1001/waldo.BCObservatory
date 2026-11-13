@@ -1,30 +1,57 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sustainability-powerbi-water-and-waste-analysis.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-water-and-waste-analysis",
-  "title": "Water and Waste Analysis",
-  "blob": "539643e7f98515a7a0b4ac1d9c2a5d367f15ab72",
-  "summary": "Water and Waste Analysis Power BI report provides detailed water and waste usage analysis by facility and location with year-over-year and day-over-day comparisons.",
+  "title": "Water and Waste Analysis Power BI Report",
+  "blob": "b58e702e4578e219a97d975b70b37f23d308a792",
+  "summary": "The Water and Waste Analysis Power BI report helps Sustainability and Facility Managers monitor water usage and waste generation by facility, comparing actual usage against configured water capacity and organizational targets with year-over-year and day-over-day metrics.",
   "systems": [
     "sustainability",
     "reporting"
   ],
   "topics": [
+    "water usage",
+    "waste analysis",
     "power bi",
-    "water",
-    "waste",
     "facility management",
-    "sustainability reporting"
+    "kpis",
+    "environmental monitoring",
+    "baseline comparison"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sustainability Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Account Category"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Account"
+    },
+    {
+      "type": "table",
+      "name": "Sustainability Goals"
+    },
+    {
+      "type": "table",
+      "name": "Responsibility Center"
+    },
+    {
+      "type": "table",
+      "name": "Country/Region"
+    }
+  ],
   "features": [
-    "Water Realized %",
-    "Water Intensity vs Baseline %",
-    "Waste Realized %",
-    "Waste Intensity vs Baseline %",
-    "Discharged Into Water vs Baseline %",
-    "Water Intensity",
-    "Water Available",
-    "Facility Capacity"
+    "water usage monitoring",
+    "waste generation tracking",
+    "water capacity comparison",
+    "year-over-year calculations",
+    "day-over-day calculations",
+    "facility baseline and targets comparison",
+    "water intensity metrics",
+    "water availability calculation"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +60,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003637,
-      "pages_in_call": 8
+      "cost_usd": 0.005215,
+      "pages_in_call": 1
     }
   ]
 }

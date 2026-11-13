@@ -2,45 +2,35 @@
   "item_id": "docs/learn-devitpro/dev-itpro/early-preview/early-access-preview-edit-with-copilot.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/early-preview/early-access-preview-edit-with-copilot",
   "title": "Edit with Copilot",
-  "blob": "4956849f2df4e7f51f380a6c1520c92f628acbc4",
-  "summary": "Edit with Copilot is an early access preview feature that enables Copilot to create, modify, delete, and perform actions on Business Central records using natural language, available in sandbox environments for the US, UK, and Germany regions.",
+  "blob": "7a4b60acb86276fd3bbf2209d9b104ed6a2d1572",
+  "summary": "Edit with Copilot is an early access preview feature that enables Copilot to create, modify, delete Business Central records and run actions using natural language, available only in sandbox environments for US, UK, and Germany regions.",
   "systems": [
     "copilot",
     "development",
-    "administration"
+    "integration"
   ],
   "topics": [
     "copilot",
     "ai",
-    "preview",
     "natural language",
     "record editing",
+    "preview",
     "automation",
-    "security",
-    "responsible ai"
+    "safeguards"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "Chat pane"
-    },
-    {
-      "type": "other",
-      "name": "Extension Management page"
-    }
-  ],
+  "objects": [],
   "features": [
-    "create records",
-    "edit records",
-    "delete records",
-    "run actions",
-    "observability and transparency",
-    "permission-based security",
-    "audit logging",
-    "safeguards and controls"
+    "Create records",
+    "Edit records",
+    "Delete records",
+    "Run actions",
+    "Data grounding",
+    "Security and permissions",
+    "Audit logging",
+    "Feedback mechanism"
   ],
   "versions": [
-    "version 30.0.56564.0 and later",
+    "version 30.0.56564.0",
     "update 29.0"
   ],
   "parts": 1,
@@ -49,7 +39,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.012088,
+      "cost_usd": 0.011693,
       "pages_in_call": 1
     }
   ]

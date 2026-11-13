@@ -1,26 +1,29 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sustainability-powerbi-emissions-by-category-and-scope.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-emissions-by-category-and-scope",
-  "title": "Emissions by Category and Scope",
-  "blob": "45e212b210c96c458911c3f5379ed8e3a505db61",
-  "summary": "Emissions by Category and Scope Power BI report organizes emissions values by account category, subcategory, and scope to identify high-emission areas and inform supplier and procurement decisions.",
+  "title": "Emissions by Category and Scope Power BI Report",
+  "blob": "df6cea15841c0fbbb9be243889ece742a8d7b917",
+  "summary": "The Emissions by Category and Scope Power BI report provides an overview of emissions values organized by account category, subcategory, and scope to help identify key emission sources and track irregularities.",
   "systems": [
     "sustainability",
     "reporting"
   ],
   "topics": [
+    "power bi report",
     "emissions tracking",
     "scope analysis",
-    "power bi",
-    "procurement",
-    "sustainability management"
+    "sustainability management",
+    "emissions by category"
   ],
   "objects": [],
   "features": [
-    "emissions by scope",
+    "CO2 emissions KPI",
+    "CH4 emissions KPI",
+    "N2O emissions KPI",
+    "CO2e emissions KPI",
     "category breakdown",
-    "subcategory analysis",
-    "supplier impact"
+    "scope breakdown",
+    "irregularity identification"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003927,
-      "pages_in_call": 8
+      "cost_usd": 0.003299,
+      "pages_in_call": 1
     }
   ]
 }

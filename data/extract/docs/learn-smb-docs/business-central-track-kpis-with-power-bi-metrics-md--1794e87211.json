@@ -1,40 +1,41 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/track-kpis-with-power-bi-metrics.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/track-kpis-with-power-bi-metrics",
-  "title": "Track your business KPIs with Power BI metrics",
-  "blob": "a1b5701e2669cd8ac23cd0784449908f8c469a3d",
-  "summary": "Use Power BI metrics to track business KPIs and objectives with scorecards, alerting, and status rules that can be embedded in Business Central.",
+  "title": "Power BI Goals for Business Central KPIs",
+  "blob": "05c23f5e122c1eb061fad3e04336556cc3b0b719",
+  "summary": "Power BI Goals lets you track Business Central KPIs and metrics against key business objectives using automated scorecards with status rules and team notifications.",
   "systems": [
     "reporting",
+    "copilot",
     "administration"
   ],
   "topics": [
     "power bi",
-    "kpi tracking",
+    "kpis",
     "metrics",
     "scorecards",
-    "business intelligence"
+    "business intelligence",
+    "goals",
+    "tracking"
   ],
   "objects": [],
   "features": [
     "Power BI scorecards",
-    "connected metrics",
+    "connected goals",
     "automated status rules",
-    "metric alerting",
-    "Teams alerts",
-    "scorecard embedding"
+    "Teams notifications",
+    "scorecard email subscriptions",
+    "KPI tracking"
   ],
-  "versions": [
-    "2023 release wave 2"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002277,
-      "pages_in_call": 8
+      "cost_usd": 0.003228,
+      "pages_in_call": 1
     }
   ]
 }

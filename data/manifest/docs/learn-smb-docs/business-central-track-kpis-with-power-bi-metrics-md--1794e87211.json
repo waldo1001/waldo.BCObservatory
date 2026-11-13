@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Track your business KPIs with Power BI metrics",
+  "title": "Power BI Goals for Business Central KPIs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/track-kpis-with-power-bi-metrics",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.994Z",
-      "blob": "a1b5701e2669cd8ac23cd0784449908f8c469a3d",
-      "words": 263,
+      "at": "2026-11-13T00:21:09.533Z",
+      "blob": "05c23f5e122c1eb061fad3e04336556cc3b0b719",
+      "words": 284,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:43:16.893Z",
+      "at": "2026-11-13T00:21:15.106Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002277
+      "cost_usd": 0.003228
     },
     "summarized": {
-      "at": "2026-10-06T19:43:19.029Z",
+      "at": "2026-11-13T00:21:15.108Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:19.031Z",
+      "at": "2026-11-13T00:21:15.109Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:19.032Z",
+      "at": "2026-11-13T00:21:15.110Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/track-kpis-with-power-bi-metrics.md",
-    "description": "Get an overview of using Power BI to get business intelligence and KPIs from your Business Central data.",
-    "ms_date": "2024-04-24",
+    "description": "Track Business Central KPIs in Power BI scorecards, connect goals to report data, define automated status rules, and follow progress.",
+    "ms_date": "2026-11-11",
     "ms_topic": "overview",
     "search_form": [
       {
@@ -67,12 +67,12 @@
       "business intelligence",
       "KPI"
     ],
-    "ai_usage": null,
-    "words": 263,
+    "ai_usage": "ai-assisted",
+    "words": 284,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c8428f26c5580ba7f22f58d7eba4bce75297de552a965a345e32ad3d484c93a0"
+  "output_hash": "94076c9aaae9f903869053746a097ebbe6174f3ef5907f819af1aa4540934f18"
 }

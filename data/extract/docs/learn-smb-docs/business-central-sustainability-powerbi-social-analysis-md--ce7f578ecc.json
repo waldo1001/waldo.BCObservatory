@@ -1,30 +1,49 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sustainability-powerbi-social-analysis.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-social-analysis",
-  "title": "Social Analysis",
-  "blob": "d3cccbe3600c32819c12c03bc95cdec374bc99fd",
-  "summary": "Social Analysis Power BI report shows employee-related ESG metrics including absences, gender distributions, qualifications, and union memberships for HR managers and executives.",
+  "title": "Social Analysis for ESG Reporting Power BI Report",
+  "blob": "83b15d59c600cd51dfc2fc4e6f7abd5ac4604182",
+  "summary": "The Social Analysis Power BI report provides ESG reporting focused on employee-related metrics including absences, gender distribution, qualifications, and union memberships for executive and HR analysis.",
   "systems": [
     "sustainability",
     "hr",
     "reporting"
   ],
   "topics": [
+    "esg reporting",
     "power bi",
-    "esg",
-    "social metrics",
-    "employee data",
-    "sustainability reporting"
+    "employee analytics",
+    "social analysis",
+    "sustainability",
+    "human resources",
+    "kpis"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Employee"
+    },
+    {
+      "type": "table",
+      "name": "Employee Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "Employee Qualifications"
+    },
+    {
+      "type": "table",
+      "name": "Employee Absence"
+    }
+  ],
   "features": [
-    "Male Employee %",
-    "Female Employee %",
-    "Other Employee %",
-    "Absence Hours %",
-    "Employee Amount",
-    "No. of Employees",
-    "Employee Qualifications"
+    "Male Employee KPI",
+    "Female Employee KPI",
+    "Other Employee KPI",
+    "Absence Hours KPI",
+    "Employee Amount KPI",
+    "No. of Employees KPI",
+    "Employee Qualifications KPI"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003637,
-      "pages_in_call": 8
+      "cost_usd": 0.003598,
+      "pages_in_call": 1
     }
   ]
 }
