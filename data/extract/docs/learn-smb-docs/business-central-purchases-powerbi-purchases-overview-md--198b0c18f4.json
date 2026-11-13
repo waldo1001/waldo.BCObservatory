@@ -1,29 +1,37 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchases-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-overview",
-  "title": "Purchases Overview (Power BI Report)",
-  "blob": "edbb44020294c1169f63a3d7d9fc7cbdc286eb91",
-  "summary": "Purchases Overview Power BI report shows total purchase amounts, outstanding liabilities, invoiced purchases, and breaks down quantities by location and item category for budget management and vendor evaluation.",
+  "title": "Purchases Overview Power BI Report",
+  "blob": "8d52ca2b9ccd42bae2d70bccfc5a994ac2c356f2",
+  "summary": "The Purchases Overview Power BI report provides insights into purchasing activities with metrics like total purchase amounts, outstanding liabilities, and invoiced purchases broken down by location, item category, and vendor.",
   "systems": [
     "purchasing",
     "reporting",
     "finance"
   ],
   "topics": [
+    "power bi",
     "purchasing analytics",
-    "power bi report",
-    "budget management",
+    "kpis",
     "vendor performance",
-    "financial analysis"
+    "budget management",
+    "cost optimization"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Purchases Overview"
+    }
+  ],
   "features": [
-    "Purchase (LCY)",
-    "Outstanding Invoices (LCY)",
-    "Outstanding Orders (LCY)",
-    "Amt. Rcd. Not Invoiced (LCY)",
-    "Purchase Quantity",
-    "Purchase Amount PY (Fiscal)"
+    "Purchase amount tracking",
+    "Outstanding liabilities reporting",
+    "Invoiced purchases analysis",
+    "Purchase breakdown by location",
+    "Purchase breakdown by item category",
+    "Vendor information analysis",
+    "Budget management",
+    "Vendor performance evaluation"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00256,
-      "pages_in_call": 8
+      "cost_usd": 0.003878,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-period-over-period.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-period-over-period",
-  "title": "Period-Over-Period (Power BI Report)",
-  "blob": "f9f0a6d52fe93660ab5a7a9e43be506563c2229e",
-  "summary": "Period-Over-Period Power BI report compares purchasing amounts across different time periods to the same period in the previous year. Use it to identify purchasing trends, growth rates, and adjust annual budgets effectively.",
+  "title": "Period-Over-Period Power BI Report",
+  "blob": "18bca7b889aa4b23065edf2a9564f28c10ff6447",
+  "summary": "Period-Over-Period Power BI report compares purchasing amounts with previous fiscal periods to identify purchasing trends and growth for CEOs and purchasing managers.",
   "systems": [
     "purchasing",
     "reporting"
@@ -11,16 +11,24 @@
   "topics": [
     "power bi",
     "purchasing analytics",
-    "year-over-year comparison",
-    "growth analysis",
-    "budget planning"
+    "period-over-period comparison",
+    "kpis",
+    "purchasing trends"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Period-Over-Period"
+    }
+  ],
   "features": [
-    "Purchase (LCY)",
-    "Previous Period",
+    "Purchase (LCY) KPI",
+    "Previous Period KPI",
     "Period-over-Period Growth Amount",
-    "Period-over-Period Growth %"
+    "Period-over-Period Growth %",
+    "Fiscal month comparison",
+    "Fiscal quarter comparison",
+    "Fiscal year comparison"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002483,
-      "pages_in_call": 8
+      "cost_usd": 0.003361,
+      "pages_in_call": 1
     }
   ]
 }

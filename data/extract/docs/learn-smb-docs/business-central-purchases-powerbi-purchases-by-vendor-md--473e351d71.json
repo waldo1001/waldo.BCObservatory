@@ -1,27 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchases-by-vendor.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-vendor",
-  "title": "Purchases by Vendor (Power BI Report)",
-  "blob": "a5e78e98e05b5f9bfb787ffa6522c8c46a7e3601",
-  "summary": "Purchases by Vendor Power BI report analyzes purchasing activities by vendor, showing which vendors supply frequently purchased item categories and total spending on purchases.",
+  "title": "Purchases by Vendor Power BI Report",
+  "blob": "afe44f00cafc9570dbc376d26efb1e177feb53ad",
+  "summary": "The Purchases by Vendor Power BI report shows purchasing activities by vendor, helping purchasing managers and purchasers analyze vendor performance, identify frequently purchased item categories, and optimize supplier selection and purchasing strategies.",
   "systems": [
     "purchasing",
     "reporting"
   ],
   "topics": [
-    "vendor performance",
     "power bi report",
-    "purchasing analysis",
-    "supplier management",
-    "spending analysis"
+    "vendor performance",
+    "purchasing analytics",
+    "supplier analysis",
+    "kpis"
   ],
   "objects": [],
   "features": [
-    "Purchase (LCY)",
-    "Purchase Quantity",
+    "Purchase (LCY) KPI",
+    "Purchase Quantity KPI",
     "% GT Purchase (LCY)",
     "% GT Purchase Amount PY (Fiscal)",
-    "Pareto Cumulative Purchase (LCY) %"
+    "Pareto Cumulative Purchase (LCY) %",
+    "% GT Pareto Cumulative Purchase (LCY) %"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00256,
-      "pages_in_call": 8
+      "cost_usd": 0.003574,
+      "pages_in_call": 1
     }
   ]
 }

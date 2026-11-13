@@ -1,28 +1,45 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-year-over-year.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-year-over-year",
-  "title": "Year-Over-Year (Power BI Report)",
-  "blob": "02ca066621ffb6acec1de72c659ddca83a2f2be2",
-  "summary": "Year-Over-Year Power BI report compares purchase amounts in the current year with previous year to analyze purchasing performance, track spending trends, and support budgeting decisions.",
+  "title": "Year-Over-Year Power BI Report",
+  "blob": "e6ba2f1dd1800f73ad34f03d7dfdbe37ff44637b",
+  "summary": "Year-Over-Year Power BI report for analyzing purchasing performance by comparing current year spending against the previous year to identify trends and optimize purchasing strategies.",
   "systems": [
     "purchasing",
-    "reporting",
-    "finance"
+    "reporting"
   ],
   "topics": [
-    "year-over-year analysis",
-    "power bi report",
-    "purchasing trends",
-    "spending patterns",
-    "budget forecasting"
+    "power bi",
+    "purchasing analytics",
+    "year-over-year",
+    "spending trends",
+    "kpis"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Purchase Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Invoice Lines"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Credit Lines"
+    },
+    {
+      "type": "table",
+      "name": "Item Category"
+    }
+  ],
   "features": [
-    "Current Year",
-    "Previous Year (Fiscal)",
-    "Purchase Amount YOY (Fiscal)",
-    "Purchase (LCY)",
-    "%GT Purchase (LCY)"
+    "Year-Over-Year comparison",
+    "Purchase amount tracking",
+    "Category analysis",
+    "Fiscal period comparison",
+    "Growth metrics",
+    "Cost optimization"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00256,
-      "pages_in_call": 8
+      "cost_usd": 0.003581,
+      "pages_in_call": 1
     }
   ]
 }

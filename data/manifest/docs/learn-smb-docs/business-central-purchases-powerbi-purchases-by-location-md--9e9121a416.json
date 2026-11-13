@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Purchases by Location (Power BI Report)",
+  "title": "Purchases by Location Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-location",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.981Z",
-      "blob": "ec07cde70c445edbe6b81e37ee2fb7a6bd53c95c",
-      "words": 270,
+      "at": "2026-11-13T00:20:09.306Z",
+      "blob": "649997c4592e3efa6c22196565c7362071279e3b",
+      "words": 259,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:07.730Z",
+      "at": "2026-11-13T00:20:15.227Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002483
+      "cost_usd": 0.003345
     },
     "summarized": {
-      "at": "2026-10-06T18:52:07.752Z",
+      "at": "2026-11-13T00:20:15.229Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:07.753Z",
+      "at": "2026-11-13T00:20:15.230Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:07.754Z",
+      "at": "2026-11-13T00:20:15.232Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-purchases-by-location.md",
-    "description": "The Purchases by Location report provides an overview of purchasing activities by location.",
-    "ms_date": "2024-10-31",
+    "description": "Analyze purchase amounts and quantities by warehouse location in Power BI to compare purchasing patterns and explore item and vendor details.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 270,
+    "ai_usage": "ai-assisted",
+    "words": 259,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5a5c2d38ec8b5b61196b6aeab850c99bbdfc123f71857b9e92969f723d72dc4c"
+  "output_hash": "d92045879e8f4a20448a4fbce095e175325f6dcf437f7c0e0142bb918c0cd804"
 }

@@ -1,19 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-  "title": "Power BI Purchase app",
-  "blob": "c870fa2b4589554f843af819117e726e8f1f82de",
-  "summary": "Power BI Purchases app delivers purchasing analytics for executives, procurement teams, and purchasing agents with reports on spending, vendor performance, budgets, and purchasing trends.",
+  "title": "Power BI Purchases App for Purchasing Analytics",
+  "blob": "8b721c08b4383d34e4a5974758cf91bc179639e2",
+  "summary": "The Power BI Purchases App provides purchasing analytics and visualizations for executives, managers, and purchasing teams to streamline processes, improve decision-making, and optimize spending through detailed reports on purchasing activities, vendor performance, and budget tracking.",
   "systems": [
     "purchasing",
-    "reporting"
+    "reporting",
+    "finance"
   ],
   "topics": [
+    "power bi",
     "purchasing analytics",
-    "power bi app",
-    "vendor management",
-    "spend analysis",
-    "budget control"
+    "vendor analysis",
+    "budget monitoring",
+    "cost optimization",
+    "purchasing reports",
+    "performance tracking"
   ],
   "objects": [],
   "features": [
@@ -24,11 +27,7 @@
     "Moving Annual Total report",
     "Period-Over-Period report",
     "Year-Over-Year report",
-    "Purchases by Item report",
-    "Purchases by Vendor report",
-    "Purchases by Purchaser report",
-    "Purchases by Location report",
-    "Actual vs Budget report"
+    "Purchases by Item report"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00471,
-      "pages_in_call": 8
+      "cost_usd": 0.005335,
+      "pages_in_call": 1
     }
   ]
 }

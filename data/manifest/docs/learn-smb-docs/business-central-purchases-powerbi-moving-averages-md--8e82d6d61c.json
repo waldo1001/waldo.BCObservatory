@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Moving Averages (Power BI Report)",
+  "title": "Moving Averages Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-moving-averages",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.953Z",
-      "blob": "b33bd212bc6cf2e53c7cb99f495f48811a8b4e1e",
-      "words": 287,
+      "at": "2026-11-13T00:20:09.247Z",
+      "blob": "b649a78b17d05a07ce060d00735ec54d21ad646c",
+      "words": 289,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:07.724Z",
+      "at": "2026-11-13T00:20:15.261Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002483
+      "cost_usd": 0.003279
     },
     "summarized": {
-      "at": "2026-10-06T18:52:07.734Z",
+      "at": "2026-11-13T00:20:15.263Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:07.735Z",
+      "at": "2026-11-13T00:20:15.264Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:07.736Z",
+      "at": "2026-11-13T00:20:15.266Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-moving-averages.md",
-    "description": "The Moving Averages report provides a comprehensive overview of your organization's average purchase over a 30-day period.",
-    "ms_date": "2024-10-31",
+    "description": "Compare purchase amounts with a 30-day moving average in the Power BI Purchases app to identify spending trends and changes in purchasing activity.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 287,
+    "ai_usage": "ai-assisted",
+    "words": 289,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "75eee4c58244c8c085203d5c08d3e1dc1bfe2ab1aa0ca4df861e41304b56a6ba"
+  "output_hash": "d29767bb2735ae0552822c98e916d70fc533ae419443373d07a0cca18f1a6dde"
 }

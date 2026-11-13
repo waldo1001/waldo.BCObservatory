@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Purchases Decomposition (Power BI Report)",
+  "title": "Purchases Decomposition Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-decomposition",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.994Z",
-      "blob": "e1b91574a9e81dc29266ab5eb29b864edca6c727",
-      "words": 270,
+      "at": "2026-11-13T00:20:15.286Z",
+      "blob": "e28bcbd28af096c4858dbb5214233f531d992d19",
+      "words": 269,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:17.299Z",
+      "at": "2026-11-13T00:20:24.969Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00256
+      "objects": 9,
+      "cost_usd": 0.0039
     },
     "summarized": {
-      "at": "2026-10-06T18:52:29.359Z",
+      "at": "2026-11-13T00:20:24.970Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:29.361Z",
+      "at": "2026-11-13T00:20:24.979Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:29.362Z",
+      "at": "2026-11-13T00:20:24.988Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-purchases-decomposition.md",
-    "description": "The Purchases Decomposition report provides a comprehensive breakdown of your total purchase amount by item categories, vendors, fiscal periods, and document types.",
-    "ms_date": "2024-10-31",
+    "description": "Break down purchase amounts by vendor, item, location, fiscal period, and document type in Power BI to identify the main contributors to spending.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 270,
+    "ai_usage": "ai-assisted",
+    "words": 269,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "20d8337ddfb325d8a1f059aa3e75734b24f5e7b7590a523415b3ab61d5c55665"
+  "output_hash": "e7695980892de3673ffdb014dbf9fac7b3cb8b72fbe40bea2593b672119a2ba6"
 }

@@ -1,22 +1,37 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchases-by-item.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-item",
-  "title": "Purchases by Item (Power BI Report)",
-  "blob": "5320af27820999ae1b3b2f37f88125b28a028b1c",
-  "summary": "Purchases by Item Power BI report provides overview of item purchases including amounts, quantities, and costs by item or item category. Use it to monitor purchasing activities, optimize processes, identify discrepancies, and reduce costs.",
+  "title": "Purchases by Item Power BI Report",
+  "blob": "51962ddcbca0d80759f9cea1becfa5f854e5310b",
+  "summary": "The Purchases by Item Power BI report provides purchasing departments with key metrics including purchase amounts, quantities, and costs for each item or category to monitor purchasing activities and optimize spending.",
   "systems": [
     "purchasing",
-    "inventory",
     "reporting"
   ],
   "topics": [
     "power bi",
     "purchasing analytics",
-    "item analysis",
-    "cost tracking",
-    "quantity monitoring"
+    "kpi tracking",
+    "purchase analysis"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Purchase Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Invoice Lines"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Credit Lines"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    }
+  ],
   "features": [
     "Purchase (LCY)",
     "Purchase Quantity",
@@ -31,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002483,
-      "pages_in_call": 8
+      "cost_usd": 0.003565,
+      "pages_in_call": 1
     }
   ]
 }

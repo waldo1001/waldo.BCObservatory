@@ -1,27 +1,47 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-moving-annual-total.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-moving-annual-total",
-  "title": "Moving Annual Total (MAT) (Power BI Report)",
-  "blob": "d3ada2f586487d3d0b595846a43c2dbfbe3e6a93",
-  "summary": "Moving Annual Total (MAT) Power BI report calculates total purchases over the last 12 months using rolling calculations. Use it to monitor purchase performance trends and identify periods of high costs for strategic budget optimization.",
+  "title": "Moving Annual Total (MAT) Power BI Report",
+  "blob": "745993bf4adba5af2bd5b94458ff3de6ef080116",
+  "summary": "The Moving Annual Total (MAT) Power BI report calculates total purchases over the last 12 months with rolling calculations for MAT and Previous Year MAT. It helps business leaders and purchasing managers monitor purchasing performance and identify trends.",
   "systems": [
     "purchasing",
     "reporting"
   ],
   "topics": [
     "power bi",
-    "purchasing analytics",
-    "rolling calculations",
-    "annual totals",
-    "trend analysis"
+    "mat report",
+    "purchasing performance",
+    "analytics",
+    "kpi tracking",
+    "business intelligence"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Purchase Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Invoice Lines"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Credit Lines"
+    },
+    {
+      "type": "report",
+      "name": "Moving Annual Total (MAT)"
+    }
+  ],
   "features": [
-    "Moving Annual Total (MAT)",
+    "Moving Annual Total (MAT) calculation",
     "Previous Year Moving Annual Total (PYMAT)",
     "Moving Annual Total Growth",
     "Moving Annual Total Growth %",
-    "Purchase (LCY)"
+    "Purchase (LCY)",
+    "12-month rolling period analysis",
+    "KPI tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +50,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002483,
-      "pages_in_call": 8
+      "cost_usd": 0.004185,
+      "pages_in_call": 1
     }
   ]
 }

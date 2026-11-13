@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Purchases by Vendor (Power BI Report)",
+  "title": "Purchases by Vendor Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-vendor",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.990Z",
-      "blob": "a5e78e98e05b5f9bfb787ffa6522c8c46a7e3601",
+      "at": "2026-11-13T00:20:15.205Z",
+      "blob": "afe44f00cafc9570dbc376d26efb1e177feb53ad",
       "words": 273,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:17.298Z",
+      "at": "2026-11-13T00:20:24.940Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00256
+      "cost_usd": 0.003574
     },
     "summarized": {
-      "at": "2026-10-06T18:52:27.593Z",
+      "at": "2026-11-13T00:20:24.942Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:27.594Z",
+      "at": "2026-11-13T00:20:24.943Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:27.596Z",
+      "at": "2026-11-13T00:20:24.944Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-purchases-by-vendor.md",
-    "description": "The Purchases by Vendor report provides an overview of purchasing activities by vendor.",
-    "ms_date": "2024-10-31",
+    "description": "Compare purchase amounts and quantities by vendor in Power BI to identify major suppliers and analyze purchasing trends and cumulative spending.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 273,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eb58d8c6c0a186961ad5d33fe2542018d91b35e0b641423e1863251b0e149807"
+  "output_hash": "df91e1db6087ac2d743964ffc723b943dc3b90c3b5c795d61471b68354e61fb5"
 }

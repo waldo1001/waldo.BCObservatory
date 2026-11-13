@@ -1,53 +1,55 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-actual-vs-budget.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget",
-  "title": "Actual vs. Budget (Power BI Report)",
-  "blob": "4f5bd7ef4bed28bed3aadc1134095499cf642074",
-  "summary": "Actual vs. Budget is a Power BI report that compares actual purchase amounts and quantities against budget figures to analyze purchasing performance and variance.",
+  "title": "Actual vs. Budget Power BI Report",
+  "blob": "e07cbf3ff9c743f33f7fa6614a923b4a9008f31d",
+  "summary": "The Actual vs. Budget Power BI report compares actual purchase amounts with budget amounts to help purchase and finance teams monitor spending performance by item categories and items.",
   "systems": [
     "purchasing",
-    "reporting",
-    "finance"
+    "finance",
+    "reporting"
   ],
   "topics": [
+    "power bi report",
     "budget analysis",
     "purchase performance",
     "variance tracking",
-    "power bi",
-    "kpis"
+    "kpi monitoring"
   ],
   "objects": [
     {
-      "type": "table",
+      "type": "other",
       "name": "Item"
     },
     {
-      "type": "table",
+      "type": "other",
       "name": "Item Category"
     },
     {
-      "type": "table",
+      "type": "other",
       "name": "Value Entry"
     },
     {
-      "type": "table",
+      "type": "other",
       "name": "Purchase Invoice Lines"
     },
     {
-      "type": "table",
+      "type": "other",
       "name": "Purchase Credit Lines"
     },
     {
-      "type": "table",
+      "type": "other",
       "name": "Item Budget Entry"
     }
   ],
   "features": [
-    "Budget Amount Variance",
-    "Purchase LCY KPI",
-    "Budget Amount Variance %",
-    "item category analysis",
-    "purchasing trends"
+    "Purchase (LCY) KPI",
+    "Purchase Amount YTD (Fiscal) KPI",
+    "Budget Amount KPI",
+    "Budget Amount Variance KPI",
+    "Budget Amount Variance % KPI",
+    "Item category analysis",
+    "Budget variance indicators"
   ],
   "versions": [],
   "parts": 1,
@@ -56,8 +58,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00312,
-      "pages_in_call": 8
+      "cost_usd": 0.004091,
+      "pages_in_call": 1
     }
   ]
 }
