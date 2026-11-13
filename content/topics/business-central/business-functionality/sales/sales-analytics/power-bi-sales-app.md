@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/sales/sales-analytics/power-bi-sales-app
 type: topic
 title: Power BI Sales app
-summary: "The Power BI Sales app section covers the sales analytics app for Business Central: its reports, the star-schema semantic model, and the KPI measure definitions. It answers questions about what each report shows, who it is for, and which metrics and data sources sit behind it."
+summary: "The Power BI Sales app section covers the sales analytics app for Business Central: its role-based reports, the star-schema semantic model, and the KPI and measure definitions. It answers questions about what each report shows, which metrics it uses, and how the underlying data is structured."
 tier: official
 language: en
 system: sales
@@ -12,19 +12,12 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 6644a82ca87e06c2d332852168c82398c16ea102eebd06d6e6b459be5b11d797
+  input_hash: bcd264e4e5119fecc5ea3592a3c07de7e44850386b7884cb87e221b08622f2ab
 evidence:
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget
-    title: Actual vs Budget (Power BI Report)
-    date: "2024-10-26"
-    commit: null
-    t: null
-    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-history
     title: Customer Retention History (Power BI report)
@@ -41,36 +34,29 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-daily-sales
-    title: Daily Sales (Power BI report)
-    date: "2024-10-26"
+    title: Daily Sales Analysis Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-key-sales-influencers
-    title: Key Sales Influencers (Power BI Report)
-    date: "2025-10-07"
+    title: Key Sales Influencers Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-annual-total
-    title: Moving Annual Total (Power BI Report)
-    date: "2024-10-26"
+    title: Moving Annual Total Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-average
-    title: Moving Average (Power BI Report)
-    date: "2025-10-07"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-opportunity-overview
-    title: Opportunity Overview (Power BI Report)
-    date: "2025-05-20"
+    title: Moving Average Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -83,71 +69,71 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model
-    title: Power BI Sales app semantic model
+    title: Power BI Sales App Semantic Model Reference
     date: "2025-10-07"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-return-order-overview
-    title: Return Order Overview (Power BI report)
-    date: "2025-10-07"
+    url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget
+    title: Sales Actual vs. Budget Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-customer
-    title: Sales by Customer (Power BI Report)
-    date: "2025-10-07"
+    title: Sales by Customer Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-item
-    title: Sales by Item (Power BI Report)
-    date: "2025-10-07"
+    title: Sales by Item Analysis Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-location
-    title: Sales by Location (Power BI Report)
-    date: "2025-10-07"
+    title: Sales by Location Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-project
-    title: Sales by Project (Power BI Report)
+    title: Sales by Project Power BI Report
     date: "2025-10-07"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-salesperson
-    title: Sales by Salesperson (Power BI Report)
-    date: "2025-10-07"
+    title: Sales by Salesperson Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-decomposition
-    title: Sales Decomposition (Power BI report)
-    date: "2025-10-07"
+    title: Sales Decomposition Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-demographics
-    title: Sales Demographics (Power BI report)
-    date: "2025-10-07"
+    title: Sales Demographics Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-forecasting
-    title: Sales Forecasting (Power BI Report)
-    date: "2025-10-07"
+    title: Sales Forecasting Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -160,45 +146,57 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-month-to-date
-    title: Sales Month-to-Date (MTD) (Power BI Report)
-    date: "2024-10-26"
+    title: Sales Month-to-Date (MTD) Power BI Report
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-opportunity-overview
+    title: Sales Opportunity Overview Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-overview
-    title: Sales Overview (Power BI report)
+    title: Sales Overview Analysis Power BI Report
     date: "2025-10-07"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-period-over-period-growth
-    title: Sales Period-Over-Period Growth (Power BI Report)
-    date: "2025-10-07"
+    title: Sales Period-Over-Period Growth Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-quote-overview
-    title: Sales Quote Overview (Power BI report)
-    date: "2025-10-07"
+    title: Sales Quote Overview Power BI Report
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-return-order-overview
+    title: Sales Return Order Overview Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-history
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-overview
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-daily-sales
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-key-sales-influencers
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-annual-total
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-average
-    - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-opportunity-overview
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model
-    - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-return-order-overview
+    - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-customer
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-item
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-location
@@ -209,9 +207,11 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-forecasting
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-kpis
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-month-to-date
+    - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-opportunity-overview
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-overview
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-period-over-period-growth
     - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-quote-overview
+    - https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-return-order-overview
   objects:
     - object/page/36951
     - object/page/36983
@@ -288,57 +288,60 @@ narrative: generated
 
 # Power BI Sales app
 
-> The Power BI Sales app section covers the sales analytics app for Business Central: its reports, the star-schema semantic model, and the KPI measure definitions. It answers questions about what each report shows, who it is for, and which metrics and data sources sit behind it.
+> The Power BI Sales app section covers the sales analytics app for Business Central: its role-based reports, the star-schema semantic model, and the KPI and measure definitions. It answers questions about what each report shows, which metrics it uses, and how the underlying data is structured.
 
 Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Power BI Sales app · tier official · system sales · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Power BI Sales app gives executives, sales managers, salespeople and finance teams a set of Power BI reports on Business Central sales data. The app page lists the main reports, such as Sales Overview, Period-Over-Period Growth, Month-To-Date, Sales by Salesperson, Actual vs. Budget and Sales by Item. Each report has its own page describing its purpose and metrics.
+The Power BI Sales app gives executives, sales managers and salespeople a set of reports on sales performance. The main app page lists the reports, such as Sales Overview, Period-Over-Period Growth, Month-To-Date, Sales by Salesperson, Actual vs. Budget and Sales by Item. Each report has its own page describing the audience, the metrics and what it helps decide.
 
-The reports fall into several groups. Sales performance views include Sales Overview, Daily Sales, Moving Annual Total, Moving Average, Month-to-Date and Period-Over-Period Growth. Breakdown views cover customer, item, location, project, salesperson and demographics. Customer and pipeline views cover Customer Retention Overview and History, Opportunity Overview and Sales Quote Overview. Return Order Overview, Actual vs Budget, Sales Decomposition, Key Sales Influencers and Sales Forecasting add return, budget and analytical views.
+The reports fall into groups. Trend and growth: Daily Sales, Moving Annual Total, Moving Average, Period-Over-Period Growth, Month-to-Date and Sales Forecasting. Breakdowns: by customer, item, location, project, salesperson, and demographics. Customer retention, opportunity, quote and return order reports cover the rest, and the Key Sales Influencers and Sales Decomposition reports offer deeper analysis of what drives sales.
 
-Start with the Power BI Sales app page for the overall picture. Then read the semantic model page to see how fact and dimension tables are organized, and the Sales KPIs and measures page for formulas and data sources. Use the individual report pages when you need to know what a specific visual or metric means.
+Two reference pages support the reports. The semantic model page explains the star schema of fact and dimension tables. The KPIs and measures page gives formulas and data sources. Start with the app page to pick a report, then use the reference pages to understand a measure or the data behind it.
 
 ## Key points
 
-- The app offers role-based reports for executives, managers and sales teams to track performance, trends and progress against targets.
-- The semantic model uses a Star Schema: fact tables for opportunities, sales orders, invoices and credit memos, and dimension tables for customers, items, projects and resources.
-- The Sales KPIs and measures page documents formulas and sources for customer (new, lost, recovered, returning), opportunity win/loss, sales document, Pareto, project ledger and budget measures.
-- Common metrics across reports include Sales (LCY), Sales Quantity, Adjusted Cost (LCY), Adjusted Profit (LCY) and Adjusted Profit Margin.
-- Time-based reports include Daily Sales, Moving Annual Total (rolling 12 months), Moving Average (30-day), Month-to-Date and Period-Over-Period Growth.
-- Customer Retention Overview and History track new, lost, returning and recovered customers by location, time and segment.
-- Sales Forecasting gives three-month projections by customer, item and salesperson, using historical data with confidence intervals.
-- Sales Decomposition and Key Sales Influencers use AI visuals (a decomposition tree and a key influencers visual) to explain what drives sales.
+- The app page lists the role-based reports, including Sales Overview, Period-Over-Period Growth, Month-To-Date, Sales by Salesperson, Actual vs. Budget and Sales by Item.
+- Trend reports: Daily Sales, Moving Annual Total (rolling 12 months vs. previous period), Moving Average (30 days), and Period-Over-Period Growth by fiscal period.
+- Sales Forecasting predicts the next three months from historical data, by customer, document type, item and salesperson, with seasonality and confidence interval.
+- Breakdown reports cover customer, item, location, project, salesperson and demographics, using measures like Sales (LCY), Adjusted Cost (LCY), Adjusted Profit and Adjusted Profit Margin.
+- Customer Retention Overview and History track new, lost, returning and recovered customers over time and by location.
+- Opportunity Overview, Quote Overview and Return Order Overview cover pipelines, prospective sales and return rates and credits.
+- Key Sales Influencers uses AI (Key Influencers and Top Segments) and Sales Decomposition uses a decomposition tree to explain sales drivers.
+- The semantic model uses a star schema: fact tables (opportunities, sales orders, invoices, credit memos) and dimension tables (customers, items, projects, resources); the page lists 2025 release wave 2.
 
 ## Learn pages
 
-- [Actual vs Budget (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget): The Actual vs. Budget report provides a clear overview of your organization's sales performance by comparing actual sales amount and quantity sold with the budget figures.
 - [Customer Retention History (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-history): The Customer Retention History page provides historical insights into customer retention metrics, allowing analysis of trends over time.
 - [Customer Retention Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-overview): The Customer Retention Overview page provides insights into customer retention metrics, helping to analyze customer loyalty and retention trends.
-- [Daily Sales (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-daily-sales): The *Daily Sales* report provides a clear picture of your organization's sales activities over specific days.
-- [Key Sales Influencers (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-key-sales-influencers): Identify and analyze factors that influence sales performance. Explore the most impactful variables and trends based on sales data.
-- [Moving Annual Total (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-annual-total): The Moving Annual Total report provides a total of sales over the last 12 months.
-- [Moving Average (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-average): The Moving Average report provides a clear picture of your organization's average sales over a 30 day period.
-- [Opportunity Overview (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-opportunity-overview): Use the Opportunity Overview Power BI report with Business Central to review sales opportunity values, sales cycle stages, locations, and salesperson performance.
+- [Daily Sales Analysis Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-daily-sales): Analyze daily sales amounts, quantities, costs, and profits in the Power BI Sales app to identify trends across days, weeks, months, and years.
+- [Key Sales Influencers Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-key-sales-influencers): Identify and analyze factors that influence sales performance. Explore the most impactful variables and trends based on sales data.
+- [Moving Annual Total Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-annual-total): Compare rolling 12-month sales totals with the previous year's totals in the Power BI Sales app to monitor long-term revenue trends and growth.
+- [Moving Average Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-average): Compare sales amounts with a 30-day moving average in the Power BI Sales app to identify recent revenue trends and changes in sales performance.
 - [Power BI Sales app](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app): The Power BI Sales app provides comprehensive sales analytics to stakeholders at all levels of your organization.
-- [Power BI Sales app semantic model](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model): Get an overview of all tables and fields in the Sales App Semantic Model.
+- [Power BI Sales App Semantic Model Reference](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model): Explore fact and dimension tables in the Power BI Sales app semantic model and understand how selected fields map to Business Central data.
   - In the observatory: [Table 113 "Sales Invoice Line"](../../../../../objects/table/113.md), [Table 13 "Salesperson/Purchaser"](../../../../../objects/table/13.md), [Table 14 "Location"](../../../../../objects/table/14.md), [Table 15 "G/L Account"](../../../../../objects/table/15.md), [Table 156 "Resource"](../../../../../objects/table/156.md), [Table 167 "Job"](../../../../../objects/table/167.md)
-- [Return Order Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-return-order-overview): The Return Order Overview report tracks and analyzes return orders, providing insights into the financial effect on the organization.
-- [Sales by Customer (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-customer): The *Sales by Customer* report gives a clear picture of your organization's customers and their sales activities.
-- [Sales by Item (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-item): The Sales by Item report gives a clear picture of your organization's item sales.
-- [Sales by Location (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-location): The Sales by Location report provides an overview of sales performance broken down by location.
-- [Sales by Project (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-project): The Sales by Project report provides an overview of sales performance broken down by project.
-- [Sales by Salesperson (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-salesperson): The Sales by Salesperson report provides an overview of sales performance broken down by salesperson.
-- [Sales Decomposition (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-decomposition): The Sales Decomposition provides a detailed analysis of sales metrics, breaking them down into their key contributing components.
-- [Sales Demographics (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-demographics): The Sales Demographics provides a comprehensive analysis of sales performance across different demographic segments, offering valuable insights into customer behavior and preferences to optimize sales strategies.
-- [Sales Forecasting (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-forecasting): The Sales Forecasting report provides insights into your organization's sales trends and future sales performance.
+- [Sales Actual vs. Budget Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget): Compare actual sales amounts with budgets in the Power BI Sales app to track sales targets and analyze variances by item and item category.
+  - In the observatory: [Table 13 "Salesperson/Purchaser"](../../../../../objects/table/13.md), [Table 27 "Item"](../../../../../objects/table/27.md), [Table 5722 "Item Category"](../../../../../objects/table/5722.md), [Table 7134 "Item Budget Entry"](../../../../../objects/table/7134.md)
+- [Sales by Customer Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-customer): Analyze sales, costs, and adjusted profit by customer in the Power BI Sales app to identify major customers and their contribution to profitability.
+  - In the observatory: [Table 15 "G/L Account"](../../../../../objects/table/15.md), [Table 156 "Resource"](../../../../../objects/table/156.md), [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 27 "Item"](../../../../../objects/table/27.md)
+- [Sales by Item Analysis Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-item): Analyze sales amounts, quantities, costs, and adjusted profit by item and item category in Power BI to identify trends and monitor item profitability.
+- [Sales by Location Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-location): Compare sales amounts, quantities, costs, and adjusted profit by warehouse location in Power BI to identify trends and evaluate location performance.
+- [Sales by Project Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-project): Analyze sales amounts, quantities, and adjusted profit by project in Power BI to compare customer contributions, project status, and sales types.
+- [Sales by Salesperson Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-salesperson): Compare sales amounts, quantities, adjusted profit, and estimated opportunity value by salesperson in Power BI to monitor individual sales performance.
+- [Sales Decomposition Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-decomposition): The Sales Decomposition provides a detailed analysis of sales metrics, breaking them down into their key contributing components.
+- [Sales Demographics Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-demographics): Analyze sales and adjusted profit by customer location, posting group, document type, and item category in Power BI to understand sales patterns.
+  - In the observatory: [Table 15 "G/L Account"](../../../../../objects/table/15.md), [Table 156 "Resource"](../../../../../objects/table/156.md), [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 27 "Item"](../../../../../objects/table/27.md)
+- [Sales Forecasting Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-forecasting): Explore a sales forecast based on historical sales in the Power BI Sales app, alongside breakdowns by customer, document type, item, and salesperson.
 - [Sales KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-kpis): Get an overview of all the KPIs and measures in the semantic model for the Power BI Sales app.
-- [Sales Month-to-Date (MTD) (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-month-to-date): The *Month-to-Date (MTD)* report allows you to monitor the progress of their sales revenue for the current month
-  - In the observatory: [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 37 "Sales Line"](../../../../../objects/table/37.md), [Table 5802 "Value Entry"](../../../../../objects/table/5802.md)
-- [Sales Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-overview): The Sales Overview report provides a high-level summary of your organization's sales activities.
-- [Sales Period-Over-Period Growth (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-period-over-period-growth): The Period-Over-Period Growth report provides valuable insights into your organization's sales performance over time.
-- [Sales Quote Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-quote-overview): The Sales Quote Overview report provides detailed information on your organization's Sales Quote activities.
+- [Sales Month-to-Date (MTD) Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-month-to-date): Track accumulated sales and profit for the current fiscal month in the Power BI Sales app and review the customers contributing to monthly revenue.
+- [Sales Opportunity Overview Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-opportunity-overview): Use the Opportunity Overview Power BI report with Business Central to review sales opportunity values, sales cycle stages, locations, and salesperson performance.
+  - In the observatory: [Table 5050 "Contact"](../../../../../objects/table/5050.md)
+- [Sales Overview Analysis Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-overview): Review sales amounts, adjusted profit, and outstanding sales documents in Power BI to monitor performance across customers, items, and salespeople.
+- [Sales Period-Over-Period Growth Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-period-over-period-growth): Compare sales with the previous fiscal month, quarter, or year in Power BI to track revenue changes and evaluate period-over-period growth.
+- [Sales Quote Overview Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-quote-overview): Analyze sales quote counts, amounts, quantities, and adjusted profit in Power BI to monitor prospective sales by customer, salesperson, and item category.
+- [Sales Return Order Overview Power BI Report](https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-return-order-overview): The Return Order Overview report tracks and analyzes return orders, providing insights into the financial effect on the organization.
 
 ## Videos and posts
 

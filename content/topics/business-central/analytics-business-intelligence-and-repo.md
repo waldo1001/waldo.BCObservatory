@@ -12,7 +12,7 @@ review:
   at: "2026-11-11T00:59:19.156Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -138,6 +138,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-faq
+    title: Business Central Power BI Apps FAQ
+    date: "2026-11-11"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-configure-fiscal-calendar
     title: Configure a fiscal calendar for your Power BI reports
     date: "2026-03-03"
@@ -251,8 +258,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-business-central-apps-multi-language
-    title: Multi-language Power BI apps for Business Central
-    date: "2025-10-17"
+    title: Multilanguage Power BI Apps for Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -278,13 +285,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-faq
-    title: Power BI apps FAQ
-    date: "2025-10-29"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-by-functional-area
     title: Power BI apps/reports for functional areas
     date: "2026-11-03"
@@ -292,9 +292,9 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/production-reports
-    title: Production Reports and Analytics
-    date: "2026-09-18"
+    url: https://learn.microsoft.com/dynamics365/business-central/track-kpis-with-power-bi-metrics
+    title: Power BI Goals for Business Central KPIs
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null

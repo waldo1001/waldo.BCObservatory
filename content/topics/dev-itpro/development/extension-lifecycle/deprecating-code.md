@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:15.797Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,6 +58,7 @@ links:
     - change/bcapps/10341
     - change/bcapps/12066
     - change/bcapps/12187
+    - change/bcapps/13207
     - change/bcapps/9635
 learn_toc_path:
   - Development
@@ -112,6 +113,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10341 Remove Anthropic privacy notice from Expense Agent](../../../../changes/bcapps/10341.md) (code change): "Anthropic privacy notice components are removed from Expense Agent"
 - [#12066 Bugs/remove asm inv mfg clean27 tags for wave2 2026](../../../../changes/bcapps/12066.md) (code change): "Removes the obsolete code that was kept under CLEAN27 conditional compilation"
 - [#12187 Restore parent table relations for Comment Line configuration imports](../../../../changes/bcapps/12187.md) (code change): "Restored twelve conditional table relations for Comment Line records during configuration"
+- [#13207 Skip missing and removed tables when loading record sets](../../../../changes/bcapps/13207.md) (code change): "Record Set Management now gracefully skips table references that have been removed"
 - [#9635 Obsolete MLLM Payables Agent rollout scaffold](../../../../changes/bcapps/9635.md) (code change): "Obsolete MLLM Payables Agent rollout scaffold as feature is fully rolled out"
 - [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "Pages exposed as OData web services will no longer be available"
 - [Dynamics 365 Business Central: Remove obsolete permissions from all permission sets](../../../../posts/yzhums-com/65999.md) (community post): "When objects are marked as ObsoleteState = Removed during version updates, associated permissions must be cleaned up"

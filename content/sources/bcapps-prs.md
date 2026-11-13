@@ -2,7 +2,7 @@
 id: source/bcapps-prs
 type: source
 title: microsoft/BCApps pull requests
-summary: "microsoft/BCApps pull requests: 1274 code changes in the knowledge base, 2026-07-07 to 2026-11-11, mostly about development, finance, integration."
+summary: "microsoft/BCApps pull requests: 1287 code changes in the knowledge base, 2026-07-07 to 2026-11-12, mostly about development, finance, integration."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:14:43.393Z"
+  at: "2026-11-13T00:13:31.718Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ccf1ef353b6b274deff70cacbad303b8a311dce984fce977bdbafe6344a7538a
+  input_hash: 2460be3a9381320581a1aec77743efc1fc451b9b3d893e50e156d9da88b33bd8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
@@ -1309,44 +1309,57 @@ links:
     - change/bcapps/13822
     - change/bcapps/9522
     - change/bcapps/13641
+    - change/bcapps/13898
+    - change/bcapps/13953
+    - change/bcapps/13824
+    - change/bcapps/13414
+    - change/bcapps/11849
+    - change/bcapps/13952
+    - change/bcapps/13883
+    - change/bcapps/12947
+    - change/bcapps/13926
+    - change/bcapps/13207
+    - change/bcapps/13964
+    - change/bcapps/13764
+    - change/bcapps/9523
 source_id: bcapps-prs
 kind: github-pr
 url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 1274
+item_count: 1287
 footprint:
   systems:
     - id: development
-      weight: 630
+      weight: 634
     - id: finance
-      weight: 516
+      weight: 520
     - id: integration
-      weight: 401
+      weight: 403
     - id: inventory
-      weight: 228
+      weight: 236
     - id: sales
-      weight: 225
+      weight: 226
     - id: manufacturing
       weight: 197
   topics:
     - id: bc30
-      weight: 1171
+      weight: 1182
     - id: main
-      weight: 1171
+      weight: 1182
     - id: fix
-      weight: 790
+      weight: 796
     - id: feature
-      weight: 362
+      weight: 367
     - id: bc29
-      weight: 103
+      weight: 105
     - id: releases/29.x
-      weight: 103
+      weight: 105
     - id: refactor
       weight: 52
     - id: performance
-      weight: 35
+      weight: 37
     - id: codeunit gen. jnl.-post line
       weight: 29
     - id: other
@@ -1378,12 +1391,12 @@ footprint:
       weight: 13
   features: []
 first_item: "2026-07-07"
-last_item: "2026-11-11"
+last_item: "2026-11-12"
 ---
 
 # microsoft/BCApps pull requests
 
-> microsoft/BCApps pull requests: 1274 code changes in the knowledge base, 2026-07-07 to 2026-11-11, mostly about development, finance, integration.
+> microsoft/BCApps pull requests: 1287 code changes in the knowledge base, 2026-07-07 to 2026-11-12, mostly about development, finance, integration.
 
 [https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -1391,14 +1404,14 @@ last_item: "2026-11-11"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (630) | bc30 (1171) | codeunit Gen. Jnl.-Post Line (35) |
-| finance (516) | main (1171) | page Expense Agent Setup Wizard (20) |
-| integration (401) | fix (790) | table Expense Report Header (19) |
-| inventory (228) | feature (362) | permissionset Expense Management - Objects (15) |
-| sales (225) | bc29 (103) | table Purchase Line (15) |
-| manufacturing (197) | releases/29.x (103) | table Sales Line (15) |
+| development (634) | bc30 (1182) | codeunit Gen. Jnl.-Post Line (35) |
+| finance (520) | main (1182) | page Expense Agent Setup Wizard (20) |
+| integration (403) | fix (796) | table Expense Report Header (19) |
+| inventory (236) | feature (367) | permissionset Expense Management - Objects (15) |
+| sales (226) | bc29 (105) | table Purchase Line (15) |
+| manufacturing (197) | releases/29.x (105) | table Sales Line (15) |
 |  | refactor (52) | codeunit Purch.-Post (14) |
-|  | performance (35) | page Expense Agent Setup (14) |
+|  | performance (37) | page Expense Agent Setup (14) |
 |  | codeunit gen. jnl.-post line (29) | permissionset Expense Agent - Objects (14) |
 |  | other (19) | table Expense Agent Setup (14) |
 |  |  | table Expense Report Line (14) |
@@ -1409,10 +1422,23 @@ last_item: "2026-11-11"
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 882
-- 2026-Q4: **************************************** 392
+- 2026-Q4: **************************************** 405
 
 ## Most recent
 
+- [#9523 Issue #9474 OnBeforeDecreaseQtyForMaxQty](../changes/bcapps/9523.md) (2026-11-12)
+- [#13764 List the SIFT of a key that is disabled in metadata on the Indexes part](../changes/bcapps/13764.md) (2026-11-12)
+- [#13964 Adjust relevance score for new embedding model](../changes/bcapps/13964.md) (2026-11-12)
+- [#13207 Skip missing and removed tables when loading record sets](../changes/bcapps/13207.md) (2026-11-12)
+- [#13926 Bug 648938: Transfer Routes matrix does not indicate configured direct routes](../changes/bcapps/13926.md) (2026-11-12)
+- [#12947 [MCP] Provide environment and company descriptions to the platform](../changes/bcapps/12947.md) (2026-11-12)
+- [#13883 [Shopify] Initialize return processing for existing shops on upgrade](../changes/bcapps/13883.md) (2026-11-12)
+- [#13952 Add key on Email Message Attachment Data to speed up email deletion](../changes/bcapps/13952.md) (2026-11-12)
+- [#11849 [Master] - Slice 611452: [AT][IC][RegF] Enable Danish SAF-T to be used in Austria and Iceland](../changes/bcapps/11849.md) (2026-11-12)
+- [#13414 [Main]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version](../changes/bcapps/13414.md) (2026-11-12)
+- [#13824 Implement namespace normalization for Fabric Data and Logging in setup pages and platform management](../changes/bcapps/13824.md) (2026-11-12)
+- [#13953 Add key on Email Message Attachment Data to speed up email deletion (backport to releases/29.x)](../changes/bcapps/13953.md) (2026-11-12)
+- [#13898 [29.x][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank](../changes/bcapps/13898.md) (2026-11-12)
 - [#13641 Bug 647022: [Subcontracting] Use alternative worksheet names and migrate the legacy page](../changes/bcapps/13641.md) (2026-11-11)
 - [#9522 Issue #9473 OnAfterIncreaseQty](../changes/bcapps/9522.md) (2026-11-11)
 - [#13822 Fix XRechnung export truncating item name to 40 characters](../changes/bcapps/13822.md) (2026-11-11)
@@ -1420,18 +1446,5 @@ Items per quarter, oldest first:
 - [#13447 [master]"El título Importe pendiente resulta ambiguo entre varios campos de la tabla Mov. proveedor." error if you try to Create Payment for some Vendor Ledger Entries filtered by Remaining Amount <> 0 in the Spanish version.](../changes/bcapps/13447.md) (2026-11-11)
 - [#13766 [E-Document] Set max output tokens for MLLM extraction (29.x)](../changes/bcapps/13766.md) (2026-11-11)
 - [#13724 Bug 651757: Allow warehouse pick for MTO subassembly after registered put-away](../changes/bcapps/13724.md) (2026-11-10)
-- [#13759 [Layers, Apps] Remove CLEAN27 obsolete code](../changes/bcapps/13759.md) (2026-11-10)
-- [#13572 Fix cloud migration company delete removing the wrong hybrid company](../changes/bcapps/13572.md) (2026-11-10)
-- [#13499 [Expense Agent] Defer per-diem policy invalidation until the parent line is saved](../changes/bcapps/13499.md) (2026-11-10)
-- [#13861 [Master]- Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](../changes/bcapps/13861.md) (2026-11-10)
-- [#12670 [Master] - Slice 580818: [Expense Management][VENDOR] Role Centers updates 💸](../changes/bcapps/12670.md) (2026-11-10)
-- [#13778 []Main[ALL-E] Dimensions of components are incorrectly populated when creating Production Order through Order Planning](../changes/bcapps/13778.md) (2026-11-10)
-- [#12084 Bug 652154: [Subcontracting] Add feature uptake telemetry](../changes/bcapps/12084.md) (2026-11-10)
-- [#13855 [Main][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank](../changes/bcapps/13855.md) (2026-11-10)
-- [#13554 Add procedures to import configuration packages and manage table operations in Fabric API](../changes/bcapps/13554.md) (2026-11-10)
-- [#13805 [29.x][all-e]Purchase Invoice Statistics Non-Deductible VAT Amount does not match VAT Entries and G/L Entries when Non-Deductible VAT is enabled. - CopyInitial commit](../changes/bcapps/13805.md) (2026-11-10)
-- [#13618 [Master]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages](../changes/bcapps/13618.md) (2026-11-10)
-- [#13315 [Main]Incorrect Country/Region Code in VAT Entry after applying Alternative Customer VAT Registration on a Sales Invoice in the Belgian version.](../changes/bcapps/13315.md) (2026-11-10)
-- [#13344 [29.x]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order](../changes/bcapps/13344.md) (2026-11-10)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

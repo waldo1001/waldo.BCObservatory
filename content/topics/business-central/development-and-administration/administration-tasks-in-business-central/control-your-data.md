@@ -2,7 +2,7 @@
 id: topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data
 type: topic
 title: Control your data
-summary: "Administration pages on controlling data in Business Central: auditing changes, classifying and masking sensitive data, retention policies, encryption, deleting or compressing data, archiving, personal data requests, and viewing database locks. Use it for questions on data privacy, cleanup, storage and auditing."
+summary: Control your data covers how administrators audit, classify, protect, retain, archive and delete data in Business Central. It answers questions about change logs, data sensitivity, encryption, retention policies, privacy requests, storage cleanup, and database locks.
 tier: official
 language: en
 system: administration
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c6a327a2c7a683e35de22e423c74aced0c02f7ca74ffb0f078f88f003a567a4b
+  input_hash: 473a72309d1a6c89242034ee9952db0914fb980ebfed5e2287d8698d95ea29dc
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-log-changes
@@ -27,8 +27,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-classifying-data-sensitivity
-    title: Classifying data sensitivity
-    date: "2025-09-22"
+    title: Classify Data Sensitivity in Business Central
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -41,8 +41,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-manage-data-encryption
-    title: Manage data encryption | Microsoft Docs
-    date: "2023-12-12"
+    title: Manage Data Encryption in Business Central
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -96,6 +96,7 @@ links:
     - object/page/1367
     - object/page/1368
     - object/page/1369
+    - object/page/1751
     - object/page/1752
     - object/page/3901
     - object/page/3903
@@ -130,7 +131,7 @@ parent: topic/business-central/development-and-administration/administration-tas
 children: []
 coverage:
   learn: 8
-  code: 17
+  code: 18
   video: 3
   blog: 6
   guideline: 0
@@ -146,6 +147,7 @@ bc_forms:
   - 1367
   - 1368
   - 1369
+  - 1751
   - 1752
   - 3901
   - 3903
@@ -158,34 +160,38 @@ narrative: generated
 
 # Control your data
 
-> Administration pages on controlling data in Business Central: auditing changes, classifying and masking sensitive data, retention policies, encryption, deleting or compressing data, archiving, personal data requests, and viewing database locks. Use it for questions on data privacy, cleanup, storage and auditing.
+> Control your data covers how administrators audit, classify, protect, retain, archive and delete data in Business Central. It answers questions about change logs, data sensitivity, encryption, retention policies, privacy requests, storage cleanup, and database locks.
 
 Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Control your data · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how administrators govern the data stored in Business Central. It spans three needs: knowing who changed what (change log, field monitoring), protecting and handling sensitive or personal data (sensitivity classification, masking, data subject requests, encryption), and keeping data volume under control (retention policies, document deletion, date compression, data archive).
+This section groups the administration tasks that govern data in Business Central: who changed it, how sensitive it is, how long it is kept, and how it is removed or protected. There are no subtopics, so all guidance sits in eight pages.
 
-The pages are independent guides with no subtopics. For privacy work, start with classifying data sensitivity, then responding to personal data requests. For storage and cleanup, read retention policies and the delete/compress page, then the Data Archive extension if compressed entries must be preserved. Database Locks is a separate diagnostic page for lock timeouts.
+For tracking and governance, start with Auditing changes (change log, field monitoring, data analysis) and Classify Data Sensitivity (Sensitive, Personal, Company Confidential, Normal, plus field masking). For lifecycle and storage, use retention policies, the batch jobs for deleting documents and compressing data, and the Data Archive extension, which keeps copies of entries that date compression deletes.
+
+For compliance and operations, see Responding to requests about users' personal data (Data Privacy Utility), Manage Data Encryption (on-premises key management) and View Database Locks (diagnosing lock timeouts).
 
 ## Key points
 
 - Auditing changes uses change log, field monitoring, data analysis, and activity logs to show who changed what and when.
-- Data Sensitivity Classification labels sensitive or personal data in standard and custom fields; masking (MaskType property) hides values, with role-based visibility (2025 release wave 2).
-- Retention policies delete outdated data from log entry and archived record tables, by filter and mandatory retention period, automatically via job queue or manually.
-- Data subject requests are handled with the Data Privacy Utility: export, deletion, modification, and the Privacy Blocked checkbox.
-- Data encryption is enabled by generating or importing keys on the server, only for on-premises; online encryption is mandatory.
-- Batch jobs delete obsolete documents and compress historic entries by date or status to manage storage.
-- The Data Archive extension keeps copies of entries removed by date compression and exports them to Excel or CSV.
+- Data classification assigns Sensitive, Personal, Company Confidential, or Normal through the DataClassification property, with bulk classification and field masking via MaskType.
+- Retention policies delete outdated data in log entry and archived record tables, with filter criteria and a mandatory retention period. They run through the job queue automatically or can be applied manually.
+- Batch jobs delete obsolete documents (such as sales orders and invoices) and compress historic entries by date or status to manage database storage.
+- The Data Archive extension preserves entries removed by date compression and exports them to Excel or CSV.
+- Data subject requests are handled with the Data Privacy Utility: export, deletion, and modification of personal data, including the Privacy Blocked checkbox.
+- Application-level encryption for on-premises environments is managed on the Data Encryption Management page: enable, disable, import, change, and export keys with password protection.
 - The Database Locks page shows granted and waiting lock requests, with user, session, and executing AL code, to diagnose lock timeouts.
 
 ## Learn pages
 
 - [Auditing changes](https://learn.microsoft.com/dynamics365/business-central/across-log-changes): Track changes to data in selected tables and monitor user activities with change logs and activity logs in Business Central.
-- [Classifying data sensitivity](https://learn.microsoft.com/dynamics365/business-central/admin-classifying-data-sensitivity): You must specify which type of data you store about people so that you can respond to data subject requests.
+- [Classify Data Sensitivity in Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-classifying-data-sensitivity): Classify personal and sensitive data in Business Central, manage field sensitivity levels, and understand the limits of masking values in the user interface.
+  - In the observatory: [Page 2610 "Feature Management"](../../../../objects/page/2610.md)
 - [Clean up data with retention policies](https://learn.microsoft.com/dynamics365/business-central/admin-data-retention-policies): You can specify how often you want to delete certain types of data.
   - In the observatory: [Codeunit 3905 "Reten. Pol. Allowed Tables"](../../../../objects/codeunit/3905.md)
-- [Manage data encryption \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/admin-manage-data-encryption): You can encrypt data on the Business Central server by generating new or importing existing encryption keys that you enable on the server.
+- [Manage Data Encryption in Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-manage-data-encryption): Manage application data encryption keys in Business Central on-premises, and understand how this protection differs from database encryption at rest.
+  - In the observatory: [Page 9905 "Data Encryption Management"](../../../../objects/page/9905.md)
 - [Manage storage by deleting documents or compressing data](https://learn.microsoft.com/dynamics365/business-central/admin-manage-documents): Learn how to deal with accumulating historic documents (and reduce the amount of data stored in a database) by deleting or compressing them.
   - In the observatory: [Codeunit 9040 "Date Compression"](../../../../objects/codeunit/9040.md)
 - [Responding to requests about users' personal data](https://learn.microsoft.com/dynamics365/business-central/admin-responding-to-requests-about-personal-data): This article explains how to respond to requests about personal data.
@@ -225,6 +231,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 1367 "Monitored Field Log Entries"](../../../../objects/page/1367.md) · on [Table 405 "Change Log Entry"](../../../../objects/table/405.md)
 - [Page 1368 "Monitor Field Setup Wizard"](../../../../objects/page/1368.md) · captioned "Field Monitoring Assisted Setup Guide"
 - [Page 1369 "Monitored Fields Worksheet"](../../../../objects/page/1369.md) · on [Table 404 "Change Log Setup (Field)"](../../../../objects/table/404.md)
+- [Page 1751 "Data Classification Worksheet"](../../../../objects/page/1751.md)
 - [Page 1752 "Data Classification Wizard"](../../../../objects/page/1752.md) · captioned "Data Classification Assisted Setup Guide" · on [Table 1180 "Data Privacy Entities"](../../../../objects/table/1180.md)
 - [Page 3901 "Retention Policy Setup Card"](../../../../objects/page/3901.md) · captioned "Retention Policy" · on [Table 3901 "Retention Policy Setup"](../../../../objects/table/3901.md)
 - [Page 3903 "Retention Policy Setup List"](../../../../objects/page/3903.md) · captioned "Retention Policies" · on [Table 3901 "Retention Policy Setup"](../../../../objects/table/3901.md)

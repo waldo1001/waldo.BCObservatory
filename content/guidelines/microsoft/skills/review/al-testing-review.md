@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T00:14:06.430Z"
+  at: "2026-11-13T00:13:31.718Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 00854661c0031a9d22e0d3826f09e8cc322876e3
@@ -40,6 +40,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/141
     - change/bcquality/208
     - change/bcquality/196
     - change/bcquality/159
@@ -257,6 +258,7 @@ The empty-corpus case produces:
 
 ## Changed by
 
+- [#141 knowledge(testing): license-entitlement failures on posted tables in a SaaS test run are environmental](../../../../changes/bcquality/141.md), 2026-11-12
 - [#208 2 AL/BC patterns: TableRelation field length and RecordRef.Open Temp parameter](../../../../changes/bcquality/208.md), 2026-10-06
 - [#196 Strengthen review contracts and add AL reliability guidance](../../../../changes/bcquality/196.md), 2026-09-29
 - [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../changes/bcquality/159.md), 2026-09-29

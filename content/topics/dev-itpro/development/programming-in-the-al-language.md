@@ -12,7 +12,7 @@ review:
   at: "2026-11-10T00:57:30.077Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -366,7 +366,6 @@ links:
     - video/QhHgkCe3kkk
     - video/YBVqwzig8Qc
   posts:
-    - post/aardvarklabs-blog/2603
     - post/aardvarklabs-blog/2838
     - post/aardvarklabs-blog/2953
     - post/nataliekarolak-com/1855
@@ -407,7 +406,7 @@ coverage:
   learn: 340
   code: 37
   video: 5
-  blog: 9
+  blog: 8
   guideline: 0
 bc_forms:
   - 16
@@ -507,7 +506,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11507 [Master] Fix Unix timestamp timezone conversion](../../../changes/bcapps/11507.md) (code change): "Unix timestamp conversion in TypeHelper now delegates to"
 - [#195 Add foundational AL developer knowledge](../../../changes/bcquality/195.md) (code change): "Add foundational AL developer knowledge. Adds seven foundational AL knowledge articles"
 - [#260 Fix al-knowledge follow-ups and document the skill](../../../changes/bcquality/260.md) (code change): "Extended al-knowledge skill to support JavaScript technology queries for control-add-in"
-- [Guide to Handling Header and Detail Imports into Business Central with AL](../../../posts/aardvarklabs-blog/2603.md) (community post): "demonstrates how to parse and import delimited files using AL"
 - [Importing Multi-Tab Excel Files into Business Central](../../../posts/aardvarklabs-blog/2838.md) (community post): "code examples using AL to read separate header and line"
 - [How to Use External APIs in Business Central](../../../posts/aardvarklabs-blog/2953.md) (community post): "HttpClient data type with complete AL code samples"
 - [Snippet: StrMenu from Enum list](../../../posts/nataliekarolak-com/1855.md) (community post): "AL code snippet that uses StrMenu to let users select from a filtered"

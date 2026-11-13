@@ -7,13 +7,13 @@
     "administration",
     "platform"
   ],
-  "summary": "The environment and company descriptions are now exposed to the platform via two new public events on the System Action Triggers codeunit. Environment Information Impl. and Company Information Mgt. subscribe to these events to supply their respective descriptions, allowing the MCP server to return company descriptions in its list_companies tool.",
+  "summary": "Environment Information Impl. and Company Information Mgt. now subscribe to two new platform events, GetEnvironmentDescription and GetCompanyDescription, to supply the environment and company descriptions. The MCP server's list_companies tool can then return company descriptions. This requires the platform change that adds the events.",
   "key_points": [
-    "Two new public events (GetEnvironmentDescription and GetCompanyDescription) added to System Action Triggers codeunit",
-    "Environment Information Impl. subscribes to provide environment descriptions",
-    "Company Information Mgt. (W1, NA, ES) subscribes to provide company descriptions without changing the session's company",
-    "MCP server can now return company descriptions for agent disambiguation",
-    "User read access to Company Information is required for descriptions to be retrieved"
+    "Subscribes to the platform events GetEnvironmentDescription and GetCompanyDescription on System Action Triggers; the events come from a separate platform change",
+    "Environment Information Impl. returns the environment description",
+    "Company Information Mgt. (W1, NA, ES) reads the requested company's description using ChangeCompany, so the session's company stays the same",
+    "An empty description is returned when the company is missing, not accessible or has no Company Information record",
+    "The MCP list_companies tool uses the company description so agents can tell companies apart"
   ],
   "change_kind": "feature",
   "behavior_change": true,

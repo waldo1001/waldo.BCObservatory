@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:37.337Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -319,8 +319,6 @@ links:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
     - post/waldo-be/318712
   guidelines: []
-  changes:
-    - change/bcapps/10205
 learn_toc_path:
   - Integration with AI
 toc_file: dev-itpro/TOC.md
@@ -373,11 +371,10 @@ Start with the subtopic that matches your goal. For generative AI features in AL
 - [Integrate with Model Context Protocol](integration-with-ai/integrate-with-model-context-protocol.md) (6 pages)
 - [Designing and coding agents (preview)](integration-with-ai/designing-and-coding-agents-preview.md) (23 pages)
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10205 Deprecate Text Completion API in AI SDK (work item 621038)](../../changes/bcapps/10205.md) (code change): "Text Completion API in the Azure OpenAI AI module is marked obsolete"
 - [From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.](../../posts/demiliani-com/13611.md) (community post): "Azure OpenAI's Responses API replaces Chat Completions as the recommended approach"
 - [Which AI Model Should You Use for Which Task?](../../posts/freddysblog/https-freddysblog-com-2026-08-23-which-model-should-you-use-for-which-task--faa80c64bd.md) (community post): "Which AI Model Should You Use for Which Task"
 - [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "ERP is shifting from recording transactions to enabling autonomous action through AI agents"

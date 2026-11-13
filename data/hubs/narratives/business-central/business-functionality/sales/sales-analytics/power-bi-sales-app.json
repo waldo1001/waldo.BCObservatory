@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/sales/sales-analytics/power-bi-sales-app",
-  "input_hash": "6644a82ca87e06c2d332852168c82398c16ea102eebd06d6e6b459be5b11d797",
-  "summary": "The Power BI Sales app section covers the sales analytics app for Business Central: its reports, the star-schema semantic model, and the KPI measure definitions. It answers questions about what each report shows, who it is for, and which metrics and data sources sit behind it.",
-  "overview": "The Power BI Sales app gives executives, sales managers, salespeople and finance teams a set of Power BI reports on Business Central sales data. The app page lists the main reports, such as Sales Overview, Period-Over-Period Growth, Month-To-Date, Sales by Salesperson, Actual vs. Budget and Sales by Item. Each report has its own page describing its purpose and metrics.\n\nThe reports fall into several groups. Sales performance views include Sales Overview, Daily Sales, Moving Annual Total, Moving Average, Month-to-Date and Period-Over-Period Growth. Breakdown views cover customer, item, location, project, salesperson and demographics. Customer and pipeline views cover Customer Retention Overview and History, Opportunity Overview and Sales Quote Overview. Return Order Overview, Actual vs Budget, Sales Decomposition, Key Sales Influencers and Sales Forecasting add return, budget and analytical views.\n\nStart with the Power BI Sales app page for the overall picture. Then read the semantic model page to see how fact and dimension tables are organized, and the Sales KPIs and measures page for formulas and data sources. Use the individual report pages when you need to know what a specific visual or metric means.",
+  "input_hash": "bcd264e4e5119fecc5ea3592a3c07de7e44850386b7884cb87e221b08622f2ab",
+  "summary": "The Power BI Sales app section covers the sales analytics app for Business Central: its role-based reports, the star-schema semantic model, and the KPI and measure definitions. It answers questions about what each report shows, which metrics it uses, and how the underlying data is structured.",
+  "overview": "The Power BI Sales app gives executives, sales managers and salespeople a set of reports on sales performance. The main app page lists the reports, such as Sales Overview, Period-Over-Period Growth, Month-To-Date, Sales by Salesperson, Actual vs. Budget and Sales by Item. Each report has its own page describing the audience, the metrics and what it helps decide.\n\nThe reports fall into groups. Trend and growth: Daily Sales, Moving Annual Total, Moving Average, Period-Over-Period Growth, Month-to-Date and Sales Forecasting. Breakdowns: by customer, item, location, project, salesperson, and demographics. Customer retention, opportunity, quote and return order reports cover the rest, and the Key Sales Influencers and Sales Decomposition reports offer deeper analysis of what drives sales.\n\nTwo reference pages support the reports. The semantic model page explains the star schema of fact and dimension tables. The KPIs and measures page gives formulas and data sources. Start with the app page to pick a report, then use the reference pages to understand a measure or the data behind it.",
   "key_points": [
-    "The app offers role-based reports for executives, managers and sales teams to track performance, trends and progress against targets.",
-    "The semantic model uses a Star Schema: fact tables for opportunities, sales orders, invoices and credit memos, and dimension tables for customers, items, projects and resources.",
-    "The Sales KPIs and measures page documents formulas and sources for customer (new, lost, recovered, returning), opportunity win/loss, sales document, Pareto, project ledger and budget measures.",
-    "Common metrics across reports include Sales (LCY), Sales Quantity, Adjusted Cost (LCY), Adjusted Profit (LCY) and Adjusted Profit Margin.",
-    "Time-based reports include Daily Sales, Moving Annual Total (rolling 12 months), Moving Average (30-day), Month-to-Date and Period-Over-Period Growth.",
-    "Customer Retention Overview and History track new, lost, returning and recovered customers by location, time and segment.",
-    "Sales Forecasting gives three-month projections by customer, item and salesperson, using historical data with confidence intervals.",
-    "Sales Decomposition and Key Sales Influencers use AI visuals (a decomposition tree and a key influencers visual) to explain what drives sales."
+    "The app page lists the role-based reports, including Sales Overview, Period-Over-Period Growth, Month-To-Date, Sales by Salesperson, Actual vs. Budget and Sales by Item.",
+    "Trend reports: Daily Sales, Moving Annual Total (rolling 12 months vs. previous period), Moving Average (30 days), and Period-Over-Period Growth by fiscal period.",
+    "Sales Forecasting predicts the next three months from historical data, by customer, document type, item and salesperson, with seasonality and confidence interval.",
+    "Breakdown reports cover customer, item, location, project, salesperson and demographics, using measures like Sales (LCY), Adjusted Cost (LCY), Adjusted Profit and Adjusted Profit Margin.",
+    "Customer Retention Overview and History track new, lost, returning and recovered customers over time and by location.",
+    "Opportunity Overview, Quote Overview and Return Order Overview cover pipelines, prospective sales and return rates and credits.",
+    "Key Sales Influencers uses AI (Key Influencers and Top Segments) and Sales Decomposition uses a decomposition tree to explain sales drivers.",
+    "The semantic model uses a star schema: fact tables (opportunities, sales orders, invoices, credit memos) and dimension tables (customers, items, projects, resources); the page lists 2025 release wave 2."
   ],
   "members_used": 24,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-05T00:54:24.911Z",
+  "at": "2026-11-13T01:00:19.996Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.031247999999999998
+    "cost_usd": 0.033688
   }
 }

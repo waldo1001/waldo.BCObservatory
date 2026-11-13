@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:45:23.971Z"
+  at: "2026-11-13T00:51:57.443Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 866666c6a0ce0849fbab1e7b8168097674e0a449a660f2fd156ca2b7b7b1075c
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/W1/Shopify/app/src/Order%20Return%20Refund%20Processing/Interfaces/ShpfyIReturnRefundProcess.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/Shopify/app/src/Order%20Return%20Refund%20Processing/Interfaces/ShpfyIReturnRefundProcess.Interface.al
     title: src/Apps/W1/Shopify/app/src/Order Return Refund Processing/Interfaces/ShpfyIReturnRefundProcess.Interface.al (releases/29.x)
     date: null
-    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
+    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Shpfy IReturnRefund Process" in Shopify (Microsoft.Integration.Shopify). 3 public procedures. Introduced in BC29, still in BC30.
 
-Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/W1/Shopify/app/src/Order%20Return%20Refund%20Processing/Interfaces/ShpfyIReturnRefundProcess.Interface.al) · facts from BC29
+Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/Shopify/app/src/Order%20Return%20Refund%20Processing/Interfaces/ShpfyIReturnRefundProcess.Interface.al) · facts from BC29
 
 ## Procedures
 

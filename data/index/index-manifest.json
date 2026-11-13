@@ -1,36 +1,36 @@
 {
   "schema": "bcobs-index@1",
-  "pages": 30371,
+  "pages": 30389,
   "shards": [
     {
-      "file": "pages-hubs-3002ac6b5a37.json",
-      "count": 1439,
-      "sha256": "3002ac6b5a372d67483cb6befcfbb7f1a32179ee4bbbe4badd9f678253676131",
+      "file": "pages-hubs-ab0583bc59eb.json",
+      "count": 1440,
+      "sha256": "ab0583bc59ebee53f2b554cf6d084f60dfa5f3f55e7add0d11d5cd42372152e1",
       "kind": "hubs"
     },
     {
-      "file": "pages-media-93b9eaa67a8f.json",
-      "count": 3203,
-      "sha256": "93b9eaa67a8f1d2f9b46268fe260a82118e24bde997196a2459fae2791d5f0ac",
+      "file": "pages-media-89591150af30.json",
+      "count": 3220,
+      "sha256": "89591150af3004a3b59791816f02c82ec4eef32e0078fa74d11bbb0a92292755",
       "kind": "media"
     },
     {
-      "file": "pages-objects-1-0a8846c3da41.json",
+      "file": "pages-objects-1-2c692841a67c.json",
       "count": 14420,
-      "sha256": "0a8846c3da41b4ca3c4d67ddd8cc692a87a191f98403f05756b5bd1fcb933635",
+      "sha256": "2c692841a67c723e9fdb29128fa3890055cea1e3af32241e88eadb81872a2951",
       "kind": "objects"
     },
     {
-      "file": "pages-objects-2-65201f8069d5.json",
+      "file": "pages-objects-2-b6a88169562f.json",
       "count": 11309,
-      "sha256": "65201f8069d5580c6b0f08347aaffa8f511bf06e802390827e68d3f86900a707",
+      "sha256": "b6a88169562fecc43d49fd4f8fa865ab2d10f03de59c43c3002b7603e63d2230",
       "kind": "objects"
     }
   ],
   "learn": {
-    "file": "learn-2b9bdbc3cc85.json",
+    "file": "learn-ef7e61b68901.json",
     "count": 8057,
-    "sha256": "2b9bdbc3cc85a1a78fc22ab973a60625830207a00161e1f1cbc7efeb58b9adfd"
+    "sha256": "ef7e61b689015dcdf0c094c905e8a3ea8acdc18a8ce71154401087967ff42f92"
   },
   "learn_facts": {
     "file": "learn-facts-4fc408a0be65.json",
@@ -39,14 +39,14 @@
   },
   "by_type": {
     "app": 97,
-    "change": 1429,
+    "change": 1444,
     "digest": 9,
     "feature": 133,
-    "guideline": 462,
+    "guideline": 463,
     "hotfix": 3,
     "localization": 22,
     "object": 25729,
-    "post": 1146,
+    "post": 1148,
     "release": 64,
     "source": 41,
     "topic": 608,

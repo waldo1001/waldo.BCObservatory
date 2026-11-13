@@ -7,7 +7,7 @@
     "finance",
     "purchasing"
   ],
-  "summary": "Payment discount calculations now correctly apply to VAT amounts in the Spanish version when prices include VAT, fixing an issue where discounts were not reflected in sales and purchase totals.",
+  "summary": "In the Spanish version, when Prices Including VAT is on, the VAT base recalculation now subtracts the payment discount amount. Payment discounts are now reflected in sales and purchase totals and statistics. VAT-exclusive calculations are unchanged.",
   "key_points": [
     "Fixes payment discount calculations when Prices Including VAT setting is enabled",
     "Corrects VAT base recalculation by subtracting payment discount amount",

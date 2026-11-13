@@ -8,11 +8,11 @@
   ],
   "summary": "A database key was added to the Data field of the Email Message Attachment table to improve performance when deleting emails, avoiding full table scans on large tenants.",
   "key_points": [
-    "Added index on Email Message Attachment.Data field",
-    "Speeds up email deletion operations by eliminating full table scans",
-    "Particularly benefits agents like Payables Agent during storage cleanup",
-    "Same indexing pattern applied to Document Attachment Media field",
-    "Backport to BC29 of existing BC30 change"
+    "Adds a key on the Data (Media) field of the Email Message Attachment table",
+    "Avoids a full table scan per attachment when the platform checks for other references to the same media during deletion",
+    "Speeds up email deletion on large tenants, for example the Payables Agent email storage cleanup",
+    "Follows the approach of the existing key on the Document Attachment Media field",
+    "Backport of PR 13952 to releases/29.x"
   ],
   "change_kind": "performance",
   "behavior_change": false,

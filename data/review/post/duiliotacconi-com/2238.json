@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/duiliotacconi-com/2238",
+  "input_hash": "acc34c6526da7a7efdad41245b29219e7aa4708d751d8fe2e50da56692aa9d0e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-13T00:59:02.599Z",
+  "issues": [
+    "Summary, key points, quotes, systems and versions are supported by the post.",
+    "Feature 'database migration' is not what the post covers; it is about a version upgrade, not migrating a database.",
+    "Feature 'SQL optimization' is not supported; the post explains the SQL the upgrade runs but does not tune it."
+  ],
+  "applied": [
+    "dropped 2 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.05745,
+    "posts_in_call": 2
+  }
+}

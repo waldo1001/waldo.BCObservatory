@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/manufacturing/manufacturing-analytics/power-bi-manufacturing-app",
-  "input_hash": "699b440dc61773b0a87c4dc2db82ccab0424499fef7f920361eca1cc4b925d5a",
-  "summary": "The Power BI manufacturing app section covers the app, its semantic model, the KPI and measure definitions, and each manufacturing report. It answers questions about capacity load, production orders, variances, WIP, scrap, and routing schedules.",
-  "overview": "The Power BI Manufacturing app gives leadership, managers, supervisors, and warehouse staff analytics on manufacturing data. The section has one page for the app itself, one for the semantic model, one listing the KPIs and measures, and a page for each report.\n\nThe reports fall into a few groups. Capacity and load: Allocated Hours, Work Center Load, Machine Center Load, Expected Capacity Need, Work Center Statistics, Machine Center Statistics. Production orders: Prod. Order List, Production Order Overview, Released Production Orders, Finished Production Order Breakdown, Production Order WIP, Prod.Order Routing Gantt. Variance, time, and waste: Capacity Variance, Consumption Variance, Average Production Times, Production Scrap.\n\nStart with the Power BI Manufacturing app page for the overview of the reports. Use the semantic model page to see the star schema of fact and dimension tables. Use the KPIs and measures page to see how a number is defined.",
+  "input_hash": "24c718371d58f7419b80eb64d0ae1c373b2682d12700acd9f830c72eed152443",
+  "summary": "The Power BI Manufacturing app section covers the app, its semantic model, its KPIs and measures, and each report for production orders, capacity, work centers, machine centers, scrap, WIP and variances. It answers what each report shows and which metrics it uses.",
+  "overview": "The Power BI Manufacturing app gives analytics and visualizations of manufacturing data for leadership, management and warehouse staff. The section has one page for the app itself, one for the semantic model, one for the KPIs and measures, and one page per report.\n\nThe semantic model uses a star schema. Fact tables cover capacity, production and value entries. Dimension tables cover items, routing, work centers and machine centers. The KPIs and measures page lists the measures the reports are built on.\n\nThe reports fall into groups. Load and capacity: Work Center Load, Machine Center Load, Allocated Hours, Expected Capacity Need. Performance: Work Center Statistics, Machine Center Statistics, Average Production Times, Production Scrap. Orders and cost: Production Order Overview, Production Order List, Released Production Orders, Finished Production Order Breakdown, Production Order WIP, Production Order Routing Gantt. Variance: Capacity Variance, Consumption Variance. Start with the app page for the overview, then open the report that matches your question.",
   "key_points": [
-    "The app page lists reports such as Work Center Statistics, Work Center Load, Finished Production Order Breakdown, Average Production Times, Allocated Hours, and Released Production Orders.",
-    "The semantic model is a star schema. Fact tables cover capacity, production, and value entries. Dimension tables cover items, routing, work centers, and machine centers.",
-    "The KPIs and measures page documents measures for capacity, production order costs, work center efficiency, scrap, machine center load, and routing lines.",
-    "Work Center Load and Machine Center Load show capacity, allocated time, load, and availability after orders, to check that centers are not overloaded.",
-    "Capacity Variance and Consumption Variance track expected against actual costs monthly. Capacity Variance also helps identify cost overruns.",
-    "Production Order WIP shows Ending Balance Value over time and an inventory valuation table. It has KPIs for beginning balance, consumption, output, and capacity value.",
-    "Prod.Order Routing Gantt shows a Gantt chart with routing line details. It tells machine centers from work centers and highlights non-working days.",
-    "Production Scrap analyzes scrap rates by work center, machine center, and production order."
+    "The app page lists the reports, including Work Center Statistics, Work Center Load, Finished Production Order Breakdown, Average Production Times, Allocated Hours and Released Production Orders.",
+    "The semantic model is a star schema with fact tables for capacity, production and value entries, and dimension tables for items, routing, work centers and machine centers.",
+    "The KPIs and measures page documents every measure in the model: capacity, production order costs, work center efficiency, scrap, machine center load and routing lines.",
+    "Work Center Load and Machine Center Load compare capacity with allocated time so that workloads are not overloaded and are spread evenly.",
+    "Capacity Variance and Consumption Variance compare actual costs with expected and standard costs, for capacity and material respectively.",
+    "Production Scrap reports scrap percentage and quantity by work center, machine center and production order, including scrap against expected scrap.",
+    "Production Order WIP shows Ending Balance Value over time, with KPIs for beginning balance, consumption, output and capacity value.",
+    "Production Order Routing Gantt shows scheduling and task durations in a Gantt chart with routing line details, to help spot scheduling conflicts."
   ],
   "members_used": 19,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-05T00:54:24.068Z",
+  "at": "2026-11-13T01:00:24.509Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.025758000000000003
+    "cost_usd": 0.025197
   }
 }

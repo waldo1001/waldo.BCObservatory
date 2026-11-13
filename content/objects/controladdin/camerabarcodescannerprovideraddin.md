@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:45:23.971Z"
+  at: "2026-11-13T00:51:57.443Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3db2f3cbd9e358ee5f6b2aa2ef664d28a9ff01600fd80bee32d81fd389df8778
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/System%20Application/App/ControlAddIns/src/CameraBarcodeScannerProviderAddIn.ControlAddIn.al
+    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/System%20Application/App/ControlAddIns/src/CameraBarcodeScannerProviderAddIn.ControlAddIn.al
     title: src/System Application/App/ControlAddIns/src/CameraBarcodeScannerProviderAddIn.ControlAddIn.al (releases/29.x)
     date: null
-    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
+    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Control add-in "CameraBarcodeScannerProviderAddIn" in System Application (System.Device). 3 public procedures. Introduced in BC24, still in BC30, changed in BC26.
 
-System Application · System.Device · BC24-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/System%20Application/App/ControlAddIns/src/CameraBarcodeScannerProviderAddIn.ControlAddIn.al) · facts from BC29
+System Application · System.Device · BC24-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/System%20Application/App/ControlAddIns/src/CameraBarcodeScannerProviderAddIn.ControlAddIn.al) · facts from BC29
 
 ## Procedures
 

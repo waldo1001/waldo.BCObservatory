@@ -2,7 +2,7 @@
 id: source/bcquality-prs
 type: source
 title: microsoft/BCQuality pull requests
-summary: "microsoft/BCQuality pull requests: 115 code changes in the knowledge base, 2026-07-09 to 2026-11-06, mostly about development, platform, copilot."
+summary: "microsoft/BCQuality pull requests: 116 code changes in the knowledge base, 2026-07-09 to 2026-11-12, mostly about development, platform, copilot."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T00:19:04.246Z"
+  at: "2026-11-13T00:13:31.718Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 10beacd76bba116c197c0733c5c15a122614088bb25171d4ae7ba1e48e4dc54e
+  input_hash: c2e350fb5e618aa886ec523ae7e2a231ffc116c9fd0e55729b1172905fa01e80
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
@@ -150,19 +150,20 @@ links:
     - change/bcquality/256
     - change/bcquality/234
     - change/bcquality/221
+    - change/bcquality/141
 source_id: bcquality-prs
 kind: github-pr
 url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 115
+item_count: 116
 footprint:
   systems:
     - id: development
-      weight: 204
+      weight: 206
     - id: platform
-      weight: 28
+      weight: 29
     - id: copilot
       weight: 17
     - id: integration
@@ -173,9 +174,9 @@ footprint:
       weight: 7
   topics:
     - id: main
-      weight: 115
+      weight: 116
     - id: feature
-      weight: 67
+      weight: 68
     - id: fix
       weight: 28
     - id: other
@@ -185,12 +186,12 @@ footprint:
   objects: []
   features: []
 first_item: "2026-07-09"
-last_item: "2026-11-06"
+last_item: "2026-11-12"
 ---
 
 # microsoft/BCQuality pull requests
 
-> microsoft/BCQuality pull requests: 115 code changes in the knowledge base, 2026-07-09 to 2026-11-06, mostly about development, platform, copilot.
+> microsoft/BCQuality pull requests: 116 code changes in the knowledge base, 2026-07-09 to 2026-11-12, mostly about development, platform, copilot.
 
 [https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -198,8 +199,8 @@ last_item: "2026-11-06"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (204) | main (115) |  |
-| platform (28) | feature (67) |  |
+| development (206) | main (116) |  |
+| platform (29) | feature (68) |  |
 | copilot (17) | fix (28) |  |
 | integration (9) | other (15) |  |
 | administration (8) | refactor (5) |  |
@@ -210,10 +211,11 @@ last_item: "2026-11-06"
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 77
-- 2026-Q4: ************************************** 38
+- 2026-Q4: *************************************** 39
 
 ## Most recent
 
+- [#141 knowledge(testing): license-entitlement failures on posted tables in a SaaS test run are environmental](../changes/bcquality/141.md) (2026-11-12)
 - [#221 Clarify when HttpClient transport errors need translation](../changes/bcquality/221.md) (2026-11-06)
 - [#234 knowledge(ui): define per-record page outputs on every control-flow path](../changes/bcquality/234.md) (2026-11-06)
 - [#256 Fixtures: make two samples comply with the sibling articles they trip](../changes/bcquality/256.md) (2026-11-06)
@@ -233,6 +235,5 @@ Items per quarter, oldest first:
 - [#238 Improve first-run documentation for new developers](../changes/bcquality/238.md) (2026-10-20)
 - [#226 Performance knowledge: justify low-selectivity fields in key columns](../changes/bcquality/226.md) (2026-10-20)
 - [#237 knowledge(data-modeling): keep business state independent of Job Queue lifetime](../changes/bcquality/237.md) (2026-10-20)
-- [#229 Knowledge: Community Copilot domain (System.AI features) and review skill](../changes/bcquality/229.md) (2026-10-20)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

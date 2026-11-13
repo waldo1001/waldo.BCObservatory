@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,6 +77,7 @@ links:
     - change/bcquality/225
     - change/bcquality/227
     - change/bcquality/228
+    - change/bcquality/249
     - change/bcquality/251
     - change/bcquality/65
     - change/bcquality/95
@@ -148,6 +149,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#225 Performance and style knowledge: compute Role Center headlines in the background; build client links with GetUrl](../../../../../changes/bcquality/225.md) (code change): "links into the running environment's client should come from GetUrl"
 - [#227 Evaluation: keep sample comments for the two articles whose rule is about comments](../../../../../changes/bcquality/227.md) (code change): "articles about comments themselves retain full-line comments in samples"
 - [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../../../../../changes/bcquality/228.md) (code change): "paired good and bad code examples"
+- [#249 Route guard-dependent and/or conditions to the short-circuit article](../../../../../changes/bcquality/249.md) (code change): "AL performance review skill gains a targeted cue to worklist the boolean-operators-do-not-short-circuit article"
 - [#251 Clarify 20-character limit for assignable permission set names](../../../../../changes/bcquality/251.md) (code change): "Assignable permission sets have a 20-character name limit, not the general 30-character limit"
 - [#65 Add data-modeling and appsource knowledge articles (MICROSOFT layer)](../../../../../changes/bcquality/65.md) (code change): "Seven remedial BCQuality knowledge articles added to the MICROSOFT layer covering data-modeling patterns, AppSource conventions, and styling best practices"
 - [#95 style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope](../../../../../changes/bcquality/95.md) (code change): "al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries"

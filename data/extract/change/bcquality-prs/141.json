@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "A testing knowledge article explains how to triage and fix license-entitlement failures on posted tables in SaaS test runs, distinguishing them from permission regressions and recommending data production through posting APIs.",
   "key_points": [
-    "Identifies license-entitlement failures as environmental, not permission or code issues",
-    "Documents that TestPermissions=Disabled and SUPER permission sets cannot lift license checks",
-    "Recommends producing posted data via test library posting codeunits instead of direct inserts",
-    "Provides good and bad code samples showing the distinction",
-    "Mirrors the app-side security knowledge about not granting rights beyond entitlements"
+    "Adds a testing knowledge article: license-entitlement failures from direct inserts into posted tables in SaaS test runs are environmental",
+    "TestPermissions = Disabled and SUPER do not lift the license check",
+    "Triage by comparing with the baseline in the same environment; fix by producing posted data through test library posting codeunits",
+    "Includes good and bad AL samples and updates the al-testing-review skill",
+    "Adds scripts for detecting changed review paths and updates the review-fixtures workflow and evaluation tooling"
   ],
   "change_kind": "feature",
   "behavior_change": false,

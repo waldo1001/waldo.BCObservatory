@@ -2,21 +2,21 @@
 id: topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-automate
 type: topic
 title: Microsoft Power Automate
-summary: Power Automate integration with Business Central covers building no code/low code workflows with the Business Central connector. It answers questions about flow types, triggers and actions, using flows in Business Central, and troubleshooting automated flows.
+summary: "Power Automate integration with Business Central: building automated and instant flows with the Business Central connector, using flows in the client, and troubleshooting failed runs, response size limits and missing web services."
 tier: official
 language: en
 system: integration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:27:54.276Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: dd29d5a8af9a0dad8353cb7922b8ab457eef3c3fe910fad4c4254e195df4e518
+  input_hash: cb6e1d18920e25486d0872e126162d2272cf0759a05ec74e87ec54003aa96e06
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview
@@ -27,8 +27,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-flow-troubleshoot
-    title: Troubleshoot your automated workflows
-    date: "2025-10-14"
+    title: Troubleshoot Business Central Power Automate Workflows
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -76,33 +76,32 @@ narrative: generated
 
 # Microsoft Power Automate
 
-> Power Automate integration with Business Central covers building no code/low code workflows with the Business Central connector. It answers questions about flow types, triggers and actions, using flows in Business Central, and troubleshooting automated flows.
+> Power Automate integration with Business Central: building automated and instant flows with the Business Central connector, using flows in the client, and troubleshooting failed runs, response size limits and missing web services.
 
-Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Power Platform](../microsoft-power-platform.md) > Microsoft Power Automate · tier official · system integration · narrative reviewed (checked by Opus)
+Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Power Platform](../microsoft-power-platform.md) > Microsoft Power Automate · tier official · system integration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Power Automate lets you build business workflows for Business Central without code or with little code. Flows connect Business Central to cloud services through the Business Central connector, using triggers and actions. Automated flows run when an event happens, such as a record being created or changed. Instant flows are started manually by a user.
+Power Automate adds no code/low code workflows to Business Central. Flows connect Business Central to cloud services through the Business Central connector, using triggers (such as record creation or changes) and actions to carry out business tasks.
 
-The three pages fit together as a path. The integration overview explains the concept and the main flow types. The page on using flows in Business Central describes the flow types in more detail: automated, approval, scheduled and instant. The troubleshooting page covers problems with automated workflows and the web service publishing setup they need.
+The section has three pages. The integration overview explains the basics: automated flows started by events and instant flows started manually by a user. The page on using flows in Business Central describes the flow types available (automated, approval, scheduled and instant) and how event-triggered workflows work. The troubleshooting page covers what to check when a flow does not run as expected.
 
-Start with the overview to understand the flow types, then read the usage page before building a flow. Go to the troubleshooting page when a flow does not behave as expected.
+Start with the overview to understand the concepts, then read the usage page to pick a flow type. Use the troubleshooting page when flows fail, responses are too large, or a required web service is not published.
 
 ## Key points
 
-- Automated flows are triggered by events, such as record creation or changes.
-- Instant flows are triggered manually by users.
-- The usage page also lists approval flows and scheduled flows.
-- The Business Central connector provides the triggers and actions for flows.
-- Flows can connect Business Central with cloud services to perform business tasks.
-- Troubleshooting covers flows that do not trigger on all records, response size limits, and missing entity errors.
-- Automated workflows depend on web service publishing configuration, and webhook notifications are involved.
+- Power Automate gives no code/low code workflows that connect Business Central to cloud services.
+- Automated flows run on events such as record creation or changes; instant flows are triggered manually by a user.
+- Flow types named in the usage page: automated, approval, scheduled and instant.
+- Flows use the Business Central connector with triggers and actions.
+- Troubleshooting covers flow execution failures, response size limits and missing web service configuration.
+- Troubleshooting also touches webhook and collection notifications, approval triggers and web service publishing.
 
 ## Learn pages
 
 - [Power Automate Integration Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview): This article provides an overview of how Power Automate and Business Central integrate.
-- [Troubleshoot your automated workflows](https://learn.microsoft.com/dynamics365/business-central/across-flow-troubleshoot): Learn how to troubleshoot the connection between Business Central and Power Automate when you build an automated workflow.
-  - In the observatory: [Page 6403 "Sales Document Line Entity"](../../../../objects/page/6403.md), [Page 6405 "Purchase Document Line Entity"](../../../../objects/page/6405.md), [Page 810 "Web Services"](../../../../objects/page/810.md)
+- [Troubleshoot Business Central Power Automate Workflows](https://learn.microsoft.com/dynamics365/business-central/across-flow-troubleshoot): Learn how to troubleshoot the connection between Business Central and Power Automate when you build an automated workflow.
+  - In the observatory: [Codeunit 1544 "Workflow Webhook Subscription"](../../../../objects/codeunit/1544.md), [Page 6403 "Sales Document Line Entity"](../../../../objects/page/6403.md), [Page 6405 "Purchase Document Line Entity"](../../../../objects/page/6405.md)
 - [Use Power Automate flows in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-flow): Use Power Automate flows to create, edit, and manage business processes. Boost productivity with easy automation.
 
 ## Videos and posts

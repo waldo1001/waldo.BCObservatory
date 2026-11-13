@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:34.651Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,7 @@ links:
   videos: []
   posts:
     - post/duiliotacconi-com/1624
+    - post/duiliotacconi-com/2238
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-june-2026-cumulative-updates-for-dynamics-365-business-central--4240d05509
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-09-september-2026-cumulative-updates-for-dynamics-365-business-central--f7d4d25920
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-11-november-2026-cumulative-updates-for-dynamics-365-business-central--702bed97e1
@@ -71,6 +72,8 @@ links:
     - post/yzhums-com/68861
     - post/yzhums-com/74530
   guidelines: []
+  changes:
+    - change/bcapps/13953
 learn_toc_path:
   - Business Central on-premises
   - Upgrade
@@ -82,7 +85,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 11
+  blog: 12
   guideline: 0
 bc_forms: []
 member_hash: fde84c7445504ea526bb607ea3879b00d4d926486c43dadb75b4000a827c4bd9
@@ -121,14 +124,16 @@ The technical steps are similar in both procedures: database conversion, extensi
   - In the observatory: [Page 9802 "Permission Sets"](../../../../objects/page/9802.md)
 - [Upgrading to Dynamics 365 Business Central 2025 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v27): Provides an overview of Business Central 2025 release wave 2 upgrade process.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13953 Add key on Email Message Attachment Data to speed up email deletion (backport to releases/29.x)](../../../../changes/bcapps/13953.md) (code change): "database key was added to the Data field to improve performance when deleting"
 - [Dynamics 365 Business Central 2025 Wave 2. What’s New in Performance.](../../../../posts/duiliotacconi-com/1624.md) (community post): "Version 27 of Dynamics 365 Business Central introduces six performance enhancements"
+- [About Online Upgrades to Dynamics 365 Business Central 2026 Wave 2 (v29)](../../../../posts/duiliotacconi-com/2238.md) (community post): "Dynamics 365 Business Central 2026 Wave 2 online upgrades take significantly longer"
 - [June 2026 Cumulative Updates for Dynamics 365 Business Central](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-june-2026-cumulative-updates-for-dynamics-365-business-central--4240d05509.md) (community post): "2026 Wave 1 (28.2), 2025 Wave 2 (27.8) and 2025 Wave 1 (26.14), all dated June 2026"
 - [September 2026 Cumulative Updates for Dynamics 365 Business Central](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-09-september-2026-cumulative-updates-for-dynamics-365-business-central--f7d4d25920.md) (community post): "September 2026 cumulative updates are available for Dynamics 365 Business Central across multiple release waves"
-- [November 2026 Cumulative Updates for Dynamics 365 Business Central](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-11-november-2026-cumulative-updates-for-dynamics-365-business-central--702bed97e1.md) (community post): "Three cumulative updates released in November 2026 for different on-premises versions"
+- [November 2026 Cumulative Updates for Dynamics 365 Business Central](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-11-november-2026-cumulative-updates-for-dynamics-365-business-central--702bed97e1.md) (community post): "November 2026 cumulative updates for Business Central on-premises: 29.1"
 - [Quick Tip: Get Ready: Upcoming Mandatory Features in Business Central Release Wave 27.0](../../../../posts/thinkaboutit-be/7073.md) (community post): "Release Wave 27.0 of Dynamics 365 Business Central introduces mandatory features"
 - [Quick Tip: Business Central Update 27.5 Released and Version 28 Preview Sandboxes Available](../../../../posts/thinkaboutit-be/7650.md) (community post): "Business Central update 27.5 was released as the latest monthly update"
 - [The public preview for Dynamics 365 Business Central 2025 release wave 2 (BC27) is available](../../../../posts/yzhums-com/67294.md) (community post): "Dynamics 365 Business Central 2025 release wave 2 (BC27) public preview is available"

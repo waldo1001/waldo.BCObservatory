@@ -2,54 +2,54 @@
 id: topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-valuation-app
 type: topic
 title: Power BI inventory valuation app
-summary: The Power BI inventory valuation app shows inventory value across an organization, by overview, item and location. It answers questions about what each report shows, which balance and variance measures it uses, and how they are calculated.
+summary: The Power BI inventory valuation app covers the reports and semantic model measures for analyzing inventory value in Business Central. It answers questions about beginning, net change and ending balance values, comparison with general ledger cost, variance, and breakdowns by item and location.
 tier: official
 language: en
 system: inventory
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:24:04.115Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 6c2013ee701e1f2073b4104ed194e5c956dbb0452370d30c005956fd41946650
+  input_hash: b8590e03743b4656ae66c3c9c6dde0c49cce3def8a4b2974563e9d2c35e673f9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-item
-    title: Inventory Valuation by Item (Power BI report)
-    date: "2024-10-30"
+    title: Inventory Valuation by Item Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-location
-    title: Inventory Valuation by Location (Power BI report)
-    date: "2024-10-30"
+    title: Inventory Valuation by Location Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-kpis
-    title: Inventory Valuation KPIs and measures (Power BI)
-    date: "2024-11-08"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app
-    title: Inventory valuation landing page (Power BI report)
-    date: "2024-10-28"
+    title: Inventory Valuation KPIs and Measures (Power BI)
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-overview
-    title: Inventory Valuation Overview (Power BI report)
-    date: "2024-10-30"
+    title: Inventory Valuation Overview Power BI Report
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app
+    title: Inventory Valuation Power BI App Reports
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -58,8 +58,8 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-item
     - https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-location
     - https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-kpis
-    - https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app
     - https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-overview
+    - https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app
   objects:
     - object/page/37056
     - object/page/37057
@@ -99,39 +99,37 @@ narrative: generated
 
 # Power BI inventory valuation app
 
-> The Power BI inventory valuation app shows inventory value across an organization, by overview, item and location. It answers questions about what each report shows, which balance and variance measures it uses, and how they are calculated.
+> The Power BI inventory valuation app covers the reports and semantic model measures for analyzing inventory value in Business Central. It answers questions about beginning, net change and ending balance values, comparison with general ledger cost, variance, and breakdowns by item and location.
 
-Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Power BI inventory valuation app · tier official · system inventory · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Power BI inventory valuation app · tier official · system inventory · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Power BI Inventory Valuation app gives executives and managers a view of inventory value across the organization. It helps them find the locations and items that hold the most stock value and make cost decisions based on that.
+The Inventory Valuation Power BI app gives executives and managers a view of inventory costing and value. It contains three reports: an Overview, a report by Item and a report by Location. A reference page describes the KPIs and measures behind them.
 
-The section has a landing page that introduces the app, three reports, and one reference page. The Overview report gives a high-level view of total inventory value and movements. The by Item and by Location reports break value down item by item or location by location. Each shows beginning balance value, increases and decreases, and ending balance value for a chosen period.
+The Overview report is the high-level starting point. It shows Ending Balance Value, Ending Balance Posted to G/L and Variance, with variance over time and value by location. The by Item and by Location reports show beginning balance value, net change in value and ending balance value, so you can find high-value items or locations and watch value change over time.
 
-Start with the landing page for the scope of the app, then open the report page that matches your question. Use the KPIs and measures page when you need the formulas and data sources behind the numbers in the semantic model.
+Start with the app reports page to see how the reports fit together. Then open the report that matches your question. Use the KPIs and measures page when you need the formulas and data sources behind a figure.
 
 ## Key points
 
-- The app has three reports: Inventory Valuation Overview, Inventory Valuation by Item, and Inventory Valuation by Location.
-- The Overview report shows Ending Balance Value, Ending Balance Posted to G/L, Variance, Invoiced Quantity, Increases Quantity and Decrease Qty.
-- The by Item report shows beginning balance value, increases, decreases and ending balance value per item, to identify high-value items.
-- The by Location report shows the same period values per location, to identify high-value locations.
-- The KPIs and measures page lists the semantic model measures with formulas and data sources, such as Beginning Balance G/L, Cost Amount, Cost Posted to G/L and Variance.
-- The by Item and by Location reports show values for a specified period.
-- The intended audience is executives and managers making strategic and cost decisions.
+- The app includes three reports: Inventory Valuation Overview, Inventory Valuation by Item and Inventory Valuation by Location.
+- The Overview report shows the Ending Balance Value, Ending Balance Posted to G/L and Variance KPIs.
+- The Overview report also covers variance over time, inventory value by location and comparison with general ledger cost.
+- The by Item report shows beginning balance, net change and ending balance value for each item, plus Ending Balance Posted to G/L.
+- The by Location report shows beginning balance, net change and ending balance value by location, to identify high-value locations.
+- The KPIs and measures reference lists the semantic model measures with formulas and data sources, such as Beginning Balance G/L, Cost Amount, Cost Posted to G/L, Invoiced Quantity and Variance.
+- The reports are meant for executives and managers who make decisions about inventory costs.
 
 ## Learn pages
 
-- [Inventory Valuation by Item (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-item): The Inventory Valuation by Item report shows item values on an item by item basis.
+- [Inventory Valuation by Item Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-item): Review beginning and ending inventory values and changes during a selected period by item with the Inventory Valuation by Item Power BI report.
   - In the observatory: [Table 27 "Item"](../../../../../objects/table/27.md)
-- [Inventory Valuation by Location (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-location): The Inventory Valuation by Location report shows the item values on a location by location basis.
-  - In the observatory: [Table 14 "Location"](../../../../../objects/table/14.md)
-- [Inventory Valuation KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-kpis): The Inventory Valuation App KPIs provides a page to clearly identify all KPIs and Measures used in the Inventory Valuation Report.
+- [Inventory Valuation by Location Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-location): Compare inventory values across locations and review beginning balances, net changes, and ending balances with this Power BI report in Business Central.
+- [Inventory Valuation KPIs and Measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-kpis): Understand inventory valuation balances, actual and expected costs, quantities, and general ledger variances in the Power BI Inventory Valuation app.
   - In the observatory: [Table 5802 "Value Entry"](../../../../../objects/table/5802.md)
-- [Inventory valuation landing page (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app): The Inventory Landing Page gives an overview of how the Inventory Report works.
-- [Inventory Valuation Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-overview): The Inventory Valuation Overview report shows item values on a location by location basis.
-  - In the observatory: [Table 14 "Location"](../../../../../objects/table/14.md)
+- [Inventory Valuation Overview Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-overview): Compare inventory value with costs posted to the general ledger, review variances, and analyze value by location with the Inventory Valuation Overview report.
+- [Inventory Valuation Power BI App Reports](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app): Explore inventory value by item and location, compare balances with costs posted to the general ledger, and choose Inventory Valuation Power BI reports.
 
 ## Videos, posts and code changes
 

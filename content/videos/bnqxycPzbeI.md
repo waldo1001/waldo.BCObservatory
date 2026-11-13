@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:58:14.287Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-13T00:56:40.434Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -112,11 +112,6 @@ links:
   posts: []
   guidelines: []
   related:
-    - to: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model
-      title: Power BI Sustainability app semantic model
-      label: possibly related
-      why: names Table 6216 "Sustainability Ledger Entry"
-      by: code
     - to: video/qPInVj03wkY
       title: "What's New in Sustainability: Reporting CSRD (2025 release wave 2)"
       label: possibly related
@@ -342,7 +337,6 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
-- [Power BI Sustainability app semantic model](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model) — possibly related: names Table 6216 "Sustainability Ledger Entry"
 - [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../videos/qPInVj03wkY.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"
 - [What's New: Post Emissions with the General Journal (2025 release wave 1)](../videos/RaiQPiEdvbg.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"
 - [What's New: Sustainability (2026 release wave 1)](../videos/lqVWc-Yuots.md) — possibly related: both name Table 6227 "Sustainability Value Entry"

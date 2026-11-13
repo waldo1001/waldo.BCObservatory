@@ -2791,148 +2791,202 @@
       }
     },
     "topic/business-central/business-functionality/sales": {
-      "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
-        "verdict": "drop",
-        "reason": "Teaches AL parsing of delimited header/detail files; sales orders are only the example target.",
-        "at": "2026-11-12T00:54:49.296Z",
-        "v": 2
-      },
-      "post/aardvarklabs-blog/2759@5ed95368f7334ba4": {
-        "verdict": "keep",
-        "reason": "Extends sales invoices with Copilot-generated customer-facing resolution text, which directly augments sales invoicing.",
-        "at": "2026-11-12T00:54:49.296Z",
-        "v": 2
-      },
-      "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/@99482879dddcf915": {
-        "verdict": "drop",
-        "reason": "Subject is Word report layout design with an MCP agent; the sales quote is just the example report.",
-        "at": "2026-11-12T00:54:49.296Z",
-        "v": 2
-      },
-      "post/demiliani-com/11739@4526778a0429d0cc": {
-        "verdict": "drop",
-        "reason": "Focuses on agent billing and Copilot Studio licensing costs, not on sales functionality documented here.",
-        "at": "2026-11-12T00:54:49.296Z",
-        "v": 2
-      },
-      "post/duiliotacconi-com/1667@446c0b74fa2f32e9": {
-        "verdict": "keep",
-        "reason": "Describes a change in how sales document posting processes lines, which is part of sales posting.",
-        "at": "2026-11-12T00:54:49.296Z",
-        "v": 2
-      },
-      "post/gerardorenteria-blog/14595@d578ce4454e6a906": {
-        "verdict": "drop",
-        "reason": "A generic roundup of community feature ideas across modules with nothing specific to sales documentation.",
-        "at": "2026-11-12T00:54:49.296Z",
-        "v": 2
-      },
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3905080819923012785@52156de09484cd22": {
-        "verdict": "keep",
-        "reason": "Covers emailing and attachments for posted sales shipments and return receipts, a sales document feature.",
-        "at": "2026-11-12T00:54:49.296Z",
-        "v": 2
-      },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/@3fac2d74cc67c469": {
-        "verdict": "keep",
-        "reason": "Explains which sales order fields carry over when copying sales documents, a sales process topic.",
-        "at": "2026-11-12T00:54:49.296Z",
-        "v": 2
-      },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/@0309219f187e1607": {
-        "verdict": "keep",
-        "reason": "Discusses how custom fields behave with the sales Copy Document feature, extending a documented sales capability.",
-        "at": "2026-11-12T00:54:49.296Z",
-        "v": 2
-      },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/@a6b9f52e5b49d7a0": {
-        "verdict": "keep",
-        "reason": "Explains how the Sales Blocked setting hides items from sales line lookups, a sales usage issue.",
-        "at": "2026-11-12T00:54:49.296Z",
-        "v": 2
-      },
-      "post/thedynamicsexplorer-com/10326@0d51c1a7b7e06f52": {
-        "verdict": "keep",
-        "reason": "Shows how to post a sales credit memo with an item charge, a sales returns/credit process.",
-        "at": "2026-11-12T00:54:49.296Z",
-        "v": 2
-      },
-      "post/yzhums-com/63644@bd6456dccce2f10b": {
-        "verdict": "keep",
-        "reason": "Covers the stockout warning on sales documents in Sales & Receivables Setup and how to extend it.",
-        "at": "2026-11-12T00:54:49.296Z",
-        "v": 2
-      },
       "post/yzhums-com/64277@596d600886ad9237": {
         "verdict": "keep",
-        "reason": "Editing sales price lists in Excel is about sales pricing, which the Sales section documents.",
-        "at": "2026-11-12T00:54:55.743Z",
+        "reason": "Editing sales price lists is part of the sales pricing that the Sales section documents.",
+        "at": "2026-11-13T00:58:40.936Z",
         "v": 2
       },
       "post/yzhums-com/64609@8e88925380585b0d": {
         "verdict": "keep",
-        "reason": "It covers which fields can be changed when updating posted sales invoices, a sales document task.",
-        "at": "2026-11-12T00:54:55.743Z",
+        "reason": "Covers which fields can be edited when updating posted sales invoices, a sales document task.",
+        "at": "2026-11-13T00:58:40.936Z",
         "v": 2
       },
       "post/yzhums-com/65326@48449cb68de280af": {
         "verdict": "drop",
-        "reason": "Marketing text on items is an item feature that the Inventory section documents more exactly.",
-        "at": "2026-11-12T00:54:55.743Z",
+        "reason": "Marketing text for items is about item data, which the Inventory section covers rather than Sales.",
+        "at": "2026-11-13T00:58:40.936Z",
         "v": 2
       },
       "post/yzhums-com/66212@382f4116ce153e4c": {
         "verdict": "keep",
-        "reason": "It extends how quantities default on sales document lines.",
-        "at": "2026-11-12T00:54:55.743Z",
+        "reason": "Customizes default quantities on sales document lines.",
+        "at": "2026-11-13T00:58:40.936Z",
         "v": 2
       },
       "post/yzhums-com/68428@c44da8ee6d1716d6": {
         "verdict": "keep",
-        "reason": "It adds a posting-date check before posting sales documents.",
-        "at": "2026-11-12T00:54:55.743Z",
+        "reason": "Adds a posting-date check when posting sales documents.",
+        "at": "2026-11-13T00:58:40.936Z",
         "v": 2
       },
       "post/yzhums-com/69356@c565a140cb20a251": {
         "verdict": "keep",
-        "reason": "Archiving sales orders is a sales document feature, and the post extends it.",
-        "at": "2026-11-12T00:54:55.743Z",
+        "reason": "Archiving sales orders is a sales document feature, extended here with AL code.",
+        "at": "2026-11-13T00:58:40.936Z",
         "v": 2
       },
       "post/yzhums-com/70137@7549225fc5208ecc": {
         "verdict": "keep",
-        "reason": "It shows comments on sales orders and how they carry over to posted sales documents.",
-        "at": "2026-11-12T00:54:55.743Z",
+        "reason": "Shows sales order comments in a FactBox and in reports, building on comments that sales documents support.",
+        "at": "2026-11-13T00:58:40.936Z",
         "v": 2
       },
       "post/yzhums-com/71137@3215568ca222ff1b": {
         "verdict": "keep",
-        "reason": "It covers sending posted sales shipments and return receipts by email.",
-        "at": "2026-11-12T00:54:55.743Z",
+        "reason": "Sending posted sales shipments and return receipts by email is sales document functionality.",
+        "at": "2026-11-13T00:58:40.936Z",
         "v": 2
       },
       "post/yzhums-com/71304@d5f72bf352306d07": {
         "verdict": "keep",
-        "reason": "Drop shipments set up from sales orders are part of what the Sales section documents.",
-        "at": "2026-11-12T00:54:55.743Z",
+        "reason": "Drop shipments started from sales orders are documented under Sales.",
+        "at": "2026-11-13T00:58:40.936Z",
         "v": 2
       },
       "post/yzhums-com/71489@30bede6bfb81030a": {
         "verdict": "keep",
-        "reason": "Undoing a posted sales shipment for a drop shipment is a sales process.",
-        "at": "2026-11-12T00:54:55.743Z",
+        "reason": "Undoing a drop shipment from the sales shipment side is a sales process.",
+        "at": "2026-11-13T00:58:40.936Z",
         "v": 2
       },
       "post/yzhums-com/71648@56f0ac64fad920dc": {
         "verdict": "keep",
-        "reason": "Filtering on the Get Shipment Lines page helps combine sales shipments into one invoice.",
-        "at": "2026-11-12T00:54:55.743Z",
+        "reason": "New filters for combining sales shipments into one invoice, which is sales invoicing.",
+        "at": "2026-11-13T00:58:40.936Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/2759@5ed95368f7334ba4": {
+        "verdict": "drop",
+        "reason": "The lesson is building a Copilot prompt dialog in AL; the sales invoice is only the demo setting.",
+        "at": "2026-11-13T00:58:44.728Z",
+        "v": 2
+      },
+      "post/bccaptain-com-au/https://bccaptain.com.au/2026/08/06/bc-word-layout-mcp-first-layout/@99482879dddcf915": {
+        "verdict": "drop",
+        "reason": "The subject is Word report layout design with an MCP agent; the sales quote is only the example report.",
+        "at": "2026-11-13T00:58:44.728Z",
+        "v": 2
+      },
+      "post/demiliani-com/11739@4526778a0429d0cc": {
+        "verdict": "keep",
+        "reason": "It explains how the Sales Order Agent automates sales quote processing, which matters to sales readers even though the focus is billing.",
+        "at": "2026-11-13T00:58:44.728Z",
+        "v": 2
+      },
+      "post/duiliotacconi-com/1667@446c0b74fa2f32e9": {
+        "verdict": "keep",
+        "reason": "It covers a change to the order in which sales document lines are posted.",
+        "at": "2026-11-13T00:58:44.728Z",
+        "v": 2
+      },
+      "post/gerardorenteria-blog/14595@d578ce4454e6a906": {
+        "verdict": "drop",
+        "reason": "A general list of community ideas across many modules, not about sales functionality.",
+        "at": "2026-11-13T00:58:44.728Z",
+        "v": 2
+      },
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3905080819923012785@52156de09484cd22": {
+        "verdict": "keep",
+        "reason": "It shows how to email posted sales shipments and return receipts, which are sales documents.",
+        "at": "2026-11-13T00:58:44.728Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/@3fac2d74cc67c469": {
+        "verdict": "keep",
+        "reason": "It covers which fields carry over when copying sales documents.",
+        "at": "2026-11-13T00:58:44.728Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/@0309219f187e1607": {
+        "verdict": "keep",
+        "reason": "It explains how Copy Document on sales documents handles custom fields, which extends a sales feature.",
+        "at": "2026-11-13T00:58:44.728Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/@a6b9f52e5b49d7a0": {
+        "verdict": "keep",
+        "reason": "It explains why Blocked and Sales Blocked items are hidden from the sales line item lookup.",
+        "at": "2026-11-13T00:58:44.728Z",
+        "v": 2
+      },
+      "post/thedynamicsexplorer-com/10326@0d51c1a7b7e06f52": {
+        "verdict": "keep",
+        "reason": "It shows how to post a sales credit memo with an item charge, a sales process.",
+        "at": "2026-11-13T00:58:44.728Z",
+        "v": 2
+      },
+      "post/yzhums-com/63644@bd6456dccce2f10b": {
+        "verdict": "keep",
+        "reason": "It covers the Stockout Warning in Sales & Receivables Setup on sales documents and how to extend it.",
+        "at": "2026-11-13T00:58:44.728Z",
         "v": 2
       },
       "post/yzhums-com/74091@fbfc95b1f88a1f72": {
         "verdict": "drop",
-        "reason": "Creating production orders from sales orders is documented more exactly in the Manufacturing section.",
-        "at": "2026-11-12T00:54:55.743Z",
+        "reason": "Creating production orders from sales orders is covered more exactly by the Manufacturing section.",
+        "at": "2026-11-13T00:58:45.272Z",
+        "v": 2
+      },
+      "post/yzhums-com/74172@68298266e334ae55": {
+        "verdict": "drop",
+        "reason": "AL event code for passing fields to production orders belongs to manufacturing/development, not sales functionality.",
+        "at": "2026-11-13T00:58:45.272Z",
+        "v": 2
+      },
+      "post/yzhums-com/74940@0a04d2158fa0cf45": {
+        "verdict": "keep",
+        "reason": "It covers checking for duplicate external document numbers on sales documents and posted sales documents.",
+        "at": "2026-11-13T00:58:45.272Z",
+        "v": 2
+      },
+      "post/yzhums-com/75073@8cf1463c91b41f54": {
+        "verdict": "keep",
+        "reason": "It extends the Sales Order page to capture customer signatures, so it works with sales documents.",
+        "at": "2026-11-13T00:58:45.272Z",
+        "v": 2
+      },
+      "video/cwCZUHgDb9Q@c83e81f9b6a252a5": {
+        "verdict": "drop",
+        "reason": "Magic Paste is a general data-entry tool; sales orders are only one example.",
+        "at": "2026-11-13T00:58:45.272Z",
+        "v": 2
+      },
+      "video/e5Dr3jzCLM8@34d9eff8c95d7107": {
+        "verdict": "drop",
+        "reason": "The Shopify integration is documented by the sibling Online store with Shopify section.",
+        "at": "2026-11-13T00:58:45.272Z",
+        "v": 2
+      },
+      "video/fatcqVFrTXI@5b8350204a49289f": {
+        "verdict": "keep",
+        "reason": "It demonstrates entering sales invoices and credit memos in Business Central.",
+        "at": "2026-11-13T00:58:45.272Z",
+        "v": 2
+      },
+      "video/fdP1HKBEDjA@6af3635966f0e3d7": {
+        "verdict": "keep",
+        "reason": "It shows sales invoice documents and credit memos in Business Central.",
+        "at": "2026-11-13T00:58:45.272Z",
+        "v": 2
+      },
+      "video/PB2ZG8fM3EE@5e64bc0343800835": {
+        "verdict": "drop",
+        "reason": "Copilot autofill is a general data-entry feature, not specific to sales.",
+        "at": "2026-11-13T00:58:45.272Z",
+        "v": 2
+      },
+      "video/PIWxU93eCT4@dd35816b55e7e608": {
+        "verdict": "keep",
+        "reason": "Editing sales price lists is part of the sales pricing that this section documents.",
+        "at": "2026-11-13T00:58:45.272Z",
+        "v": 2
+      },
+      "video/TSLXzbeyE7Y@115b88135d2b7633": {
+        "verdict": "keep",
+        "reason": "It shows Copilot analysing sales data and producing sales recommendations, which relates to Sales analytics.",
+        "at": "2026-11-13T00:58:45.272Z",
         "v": 2
       }
     },
@@ -9174,80 +9228,80 @@
     "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data": {
       "post/aardvarklabs-blog/1826@4a9c30dc06ccffd2": {
         "verdict": "keep",
-        "reason": "Shows how to parse incoming JSON and export records as JSON files in AL, which is data import and export.",
-        "at": "2026-11-02T00:55:57.884Z",
+        "reason": "Shows how to parse JSON into AL code and export records as JSON through streams, which is importing and exporting data.",
+        "at": "2026-11-13T00:58:40.542Z",
         "v": 2
       },
-      "post/aardvarklabs-blog/2204@d24ed6cb95838c90": {
+      "post/aardvarklabs-blog/2204@e6224d12f9134d4d": {
         "verdict": "keep",
         "reason": "Shows how to import CSV files in AL using UploadIntoStream and a staging table.",
-        "at": "2026-11-02T00:55:57.884Z",
+        "at": "2026-11-13T00:58:40.542Z",
         "v": 2
       },
-      "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
+      "post/aardvarklabs-blog/2603@9f2756f38c78832f": {
         "verdict": "keep",
         "reason": "Shows how to import delimited files with header and detail records in AL.",
-        "at": "2026-11-02T00:55:57.884Z",
+        "at": "2026-11-13T00:58:40.542Z",
         "v": 2
       },
-      "post/aardvarklabs-blog/2838@103145b803b01f6b": {
+      "post/aardvarklabs-blog/2838@bc19963bb21ddd6b": {
         "verdict": "keep",
-        "reason": "Shows how to import multi-tab Excel files in AL using the Excel buffer.",
-        "at": "2026-11-02T00:55:57.884Z",
+        "reason": "Shows how to import multi-tab Excel files in AL code.",
+        "at": "2026-11-13T00:58:40.542Z",
         "v": 2
       },
-      "post/aardvarklabs-blog/2866@12f927a984dd084a": {
+      "post/aardvarklabs-blog/2866@ad0fbd69fadaf746": {
         "verdict": "keep",
-        "reason": "Shows how to import XML files with the built-in AL XML types and mentions XMLports.",
-        "at": "2026-11-02T00:55:57.884Z",
+        "reason": "Shows how to import XML files into custom tables with AL code, and mentions XMLports.",
+        "at": "2026-11-13T00:58:40.542Z",
         "v": 2
       },
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4218333995173748236@5796bb541d8ca1cf": {
+      "post/aardvarklabs-blog/3631@faa854679a128fec": {
         "verdict": "keep",
-        "reason": "Shows how to export data to CSV in AL using the CSV Buffer table.",
-        "at": "2026-11-02T00:55:57.884Z",
+        "reason": "Brings files into Business Central through a BLOB table so they can be parsed and imported, and also pushes files back out.",
+        "at": "2026-11-13T00:58:40.542Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-82-excel-buffer-character-limit/@4595d09b714a6398": {
         "verdict": "keep",
-        "reason": "Covers the Excel Buffer's 250-character limit, which affects Excel exports from AL.",
-        "at": "2026-11-02T00:55:57.884Z",
+        "reason": "Covers a 250-character limit in Excel Buffer that can make Excel exports from AL fail.",
+        "at": "2026-11-13T00:58:40.542Z",
         "v": 2
       },
       "post/wingate365-com/https://blog.wingate365.com/2026/04/trying-out-github-copilot-agent-for.html@9f6b3402fad55cc6": {
         "verdict": "drop",
-        "reason": "Its subject is using the GitHub Copilot agent for validation work; checking CSV files is only the example.",
-        "at": "2026-11-02T00:55:57.884Z",
+        "reason": "Its subject is using GitHub Copilot agents to check CSV files, not importing or exporting data in AL.",
+        "at": "2026-11-13T00:58:40.542Z",
         "v": 2
       },
-      "post/yzhums-com/63762@f4c58a1683466b01": {
+      "post/yzhums-com/63762@7d6a2acc5b5bc04d": {
         "verdict": "keep",
-        "reason": "Series index on importing and exporting data with XMLports, buffers and CSV files.",
-        "at": "2026-11-02T00:55:57.884Z",
+        "reason": "Index of a blog series on import and export methods, including XMLports, Excel Buffer and CSV files.",
+        "at": "2026-11-13T00:58:40.542Z",
         "v": 2
       },
       "post/yzhums-com/65326@48449cb68de280af": {
         "verdict": "keep",
-        "reason": "Shows a bulk CSV import using a custom XMLport in AL.",
-        "at": "2026-11-02T00:55:57.884Z",
+        "reason": "Uses a custom XMLport to bulk import CSV data into a system table.",
+        "at": "2026-11-13T00:58:40.542Z",
         "v": 2
       },
-      "post/yzhums-com/65426@246702e1710da9cc": {
+      "post/yzhums-com/65426@af78a7e7f76b838d": {
         "verdict": "keep",
-        "reason": "Shows how to import long text with XMLports and streams into Blob fields.",
-        "at": "2026-11-02T00:55:57.884Z",
+        "reason": "Uses an XMLport and an OutStream to import long text into Blob fields from external files.",
+        "at": "2026-11-13T00:58:40.542Z",
         "v": 2
       },
-      "post/yzhums-com/68672@56989280ff749657": {
+      "post/yzhums-com/68672@16648031ef380a70": {
         "verdict": "keep",
-        "reason": "Index of articles on importing and exporting CSV data, including through AL.",
-        "at": "2026-11-02T00:55:57.884Z",
+        "reason": "Index of articles on importing and exporting table data as CSV files.",
+        "at": "2026-11-13T00:58:40.542Z",
         "v": 2
       },
       "video/Ug_uM59DRRE@646917f6e1d49b29": {
         "verdict": "drop",
-        "reason": "About the Contoso demo data framework; configuration packages come up only in passing.",
-        "at": "2026-11-02T00:55:57.884Z",
+        "reason": "Its subject is the Contoso demo data framework; configuration packages only come up in passing.",
+        "at": "2026-11-13T00:58:40.542Z",
         "v": 2
       }
     },
@@ -10388,296 +10442,236 @@
     "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al": {
       "post/aardvarklabs-blog/3060@cf622bf4ad3a6ad2": {
         "verdict": "drop",
-        "reason": "About AI-assisted requirements and design work with Copilot Chat, not about building Business Central agents in AL.",
-        "at": "2026-10-30T08:05:46.549Z",
-        "v": 2
-      },
-      "post/aardvarklabs-blog/3097@8e325a3f81621c91": {
-        "verdict": "keep",
-        "reason": "Step-by-step guide to building a custom agent in AL with IAgentFactory, IAgentMetadata and AgentTaskBuilder.",
-        "at": "2026-10-30T08:05:46.549Z",
+        "reason": "About using Copilot Chat to write requirements and design documents, not about building Business Central agents in AL.",
+        "at": "2026-11-13T00:58:43.226Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3564@e823a16dc5428d34": {
         "verdict": "drop",
-        "reason": "About VS Code Copilot skills for AL coding, not about coding Business Central agents.",
-        "at": "2026-10-30T08:05:46.549Z",
+        "reason": "About Copilot skills in VS Code for AI-assisted coding, not about agents defined in AL code.",
+        "at": "2026-11-13T00:58:43.226Z",
         "v": 2
       },
-      "post/bertverbeek-nl/1219@87302a808e16dbc5": {
+      "post/bertverbeek-nl/1272@5592e82161ab5c60": {
         "verdict": "keep",
-        "reason": "Covers custom agent setup, creating tasks with Agent Task Builder, and handling agent messages in AL.",
-        "at": "2026-10-30T08:05:46.549Z",
-        "v": 2
-      },
-      "post/bertverbeek-nl/1272@81f380297cb1980b": {
-        "verdict": "keep",
-        "reason": "Directly covers creating and registering agents in AL code with the agent interfaces, setup pages and KPIs.",
-        "at": "2026-10-30T08:05:46.549Z",
-        "v": 2
-      },
-      "post/demiliani-com/12644@8f82d42475c5da29": {
-        "verdict": "keep",
-        "reason": "Debugging agent sessions from VS Code supports building and checking agents coded in AL.",
-        "at": "2026-10-30T08:05:46.549Z",
+        "reason": "Shows how to create and register agents in AL using IAgentFactory, IAgentMetadata and the Copilot capability registration, which is the core of this section.",
+        "at": "2026-11-13T00:58:43.226Z",
         "v": 2
       },
       "post/demiliani-com/13814@d2bf07698adba447": {
         "verdict": "keep",
-        "reason": "Covers the new Agent codeunit methods for picking the AI model of AL-defined agents.",
-        "at": "2026-10-30T08:05:46.549Z",
+        "reason": "Covers the new Agent codeunit methods (SetModelId, GetModelId and others) for choosing an agent's model in AL.",
+        "at": "2026-11-13T00:58:43.226Z",
         "v": 2
       },
       "post/demiliani-com/13982@a0a946e5701b63bc": {
         "verdict": "drop",
-        "reason": "General opinion piece on the costs of AI-assisted development; not about coding agents in AL.",
-        "at": "2026-10-30T08:05:46.549Z",
+        "reason": "General opinion on the costs of relying on AI for coding, not about agents built in AL.",
+        "at": "2026-11-13T00:58:43.226Z",
         "v": 2
       },
       "post/demiliani-com/14011@a4f2a5eb486e6c43": {
         "verdict": "drop",
-        "reason": "About VS Code agent hooks for auditing AI coding sessions, not about Business Central agents.",
-        "at": "2026-10-30T08:05:46.549Z",
+        "reason": "About VS Code agent hooks that audit AI coding sessions, not about Business Central agents.",
+        "at": "2026-11-13T00:58:43.226Z",
         "v": 2
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/@cf1c867204c2f0fe": {
         "verdict": "keep",
-        "reason": "Roundup that includes the AL APIs for choosing the model of code-defined agents.",
-        "at": "2026-10-30T08:05:46.549Z",
+        "reason": "One part of this roundup covers the AL APIs for choosing the model of agents defined in code.",
+        "at": "2026-11-13T00:58:43.226Z",
         "v": 2
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/@9a731a62b40514dc": {
         "verdict": "drop",
-        "reason": "About the AL MCP server for AI coding assistants, not about building Business Central agents.",
-        "at": "2026-10-30T08:05:46.549Z",
+        "reason": "The AL MCP server is a tool for AI-assisted coding, not for building Business Central agents in AL.",
+        "at": "2026-11-13T00:58:43.226Z",
         "v": 2
       },
       "post/gerardorenteria-blog/13945@46831719c8bc5ce4": {
         "verdict": "drop",
-        "reason": "About GitHub Copilot workspace context settings, not about coding agents in AL.",
-        "at": "2026-10-30T08:05:46.549Z",
+        "reason": "About controlling GitHub Copilot's context per workspace, not about agents built in AL.",
+        "at": "2026-11-13T00:58:43.226Z",
         "v": 2
       },
       "post/gerardorenteria-blog/14894@1b604f05710f6e53": {
         "verdict": "drop",
-        "reason": "About controlling Copilot output-token costs, not about coding agents in AL.",
-        "at": "2026-10-30T08:05:46.549Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/7383@7e8512d807291136": {
-        "verdict": "drop",
-        "reason": "Covers GitHub Copilot Plan mode for writing AL code, not building Business Central agents in AL.",
-        "at": "2026-10-30T08:05:52.264Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/7402@b5ffe8888e16e784": {
-        "verdict": "drop",
-        "reason": "Covers how to use Copilot's modes for AL development, which is AI-assisted coding rather than agent development.",
-        "at": "2026-10-30T08:05:52.264Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/7414@2d8b4e6d2f5403fd": {
-        "verdict": "drop",
-        "reason": "A year-in-review reflection on using Copilot and AI tools; it doesn't cover building agents in AL.",
-        "at": "2026-10-30T08:05:52.264Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/7486@131ae97800aa4183": {
-        "verdict": "drop",
-        "reason": "Compares Copilot Plan mode with Copilot Agents for developer workflow, not the Business Central agent SDK.",
-        "at": "2026-10-30T08:05:52.264Z",
-        "v": 2
-      },
-      "post/vjeko-com/https://vjeko.com/2026/06/07/from-beep-to-empty-seat-the-six-levels-of-self-driving-code/@6ae9e0614597ffbc": {
-        "verdict": "drop",
-        "reason": "Discusses autonomy levels for agentic coding in general, not building Business Central agents in AL.",
-        "at": "2026-10-30T08:05:52.264Z",
-        "v": 2
-      },
-      "post/vjeko-com/https://vjeko.com/2026/07/21/i-dont-trust-my-agents-either/@6371193df90b4b48": {
-        "verdict": "drop",
-        "reason": "About quality assurance for AI coding agents in a development pipeline, not about coding Business Central agents.",
-        "at": "2026-10-30T08:05:52.264Z",
-        "v": 2
-      },
-      "post/vjeko-com/https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/@17cb200d6d4e65cf": {
-        "verdict": "drop",
-        "reason": "Argues that AI-assisted development needs engineering discipline; it doesn't cover the agent SDK.",
-        "at": "2026-10-30T08:05:52.264Z",
-        "v": 2
-      },
-      "post/vondervoort-be/130@80f191b9b56f9b87": {
-        "verdict": "drop",
-        "reason": "About the ALCops code analyzer tooling, which this section doesn't document.",
-        "at": "2026-10-30T08:05:52.264Z",
-        "v": 2
-      },
-      "post/vondervoort-be/147@99d92e66e963843b": {
-        "verdict": "drop",
-        "reason": "About ALCops analyzers and their MCP server for AI assistants, which isn't about coding Business Central agents.",
-        "at": "2026-10-30T08:05:52.264Z",
-        "v": 2
-      },
-      "post/wingate365-com/https://blog.wingate365.com/2026/04/trying-out-github-copilot-agent-for.html@7af6b3b695f4bab2": {
-        "verdict": "drop",
-        "reason": "Uses a GitHub Copilot agent to validate CSV data, which has nothing to do with building agents in AL.",
-        "at": "2026-10-30T08:05:52.264Z",
-        "v": 2
-      },
-      "post/wingate365-com/https://blog.wingate365.com/2026/10/directions-emea-2026-paris-the-consultant-zone-and-two-panels.html@b05d0c2fabe45625": {
-        "verdict": "drop",
-        "reason": "A conference announcement about AI prompts and consultant roles, not agent development.",
-        "at": "2026-10-30T08:05:52.264Z",
-        "v": 2
-      },
-      "video/c91E6IykUnk@9c87e1a5eb37106f": {
-        "verdict": "drop",
-        "reason": "Mainly about AI-assisted AL development and report layouts; the expense agent is mentioned without showing how agents are coded in AL.",
-        "at": "2026-10-30T08:05:52.264Z",
-        "v": 2
-      },
-      "video/EwN3xb2q7vE@fa320b248e55e095": {
-        "verdict": "keep",
-        "reason": "Shows how to code Business Central agents in AL, including agent type definitions, interfaces, setup, tasks and the related APIs.",
-        "at": "2026-10-30T08:05:52.264Z",
+        "reason": "About cutting Copilot output-token costs, not about agents built in AL.",
+        "at": "2026-11-13T00:58:43.226Z",
         "v": 2
       },
       "post/katson-com/4756@fe746a1e7d77237d": {
         "verdict": "drop",
-        "reason": "About a methodology for using AI coding assistants to write extensions, not about building Business Central agents in AL.",
-        "at": "2026-10-30T08:05:55.635Z",
+        "reason": "A method for building extensions with AI coding agents, not for building Business Central agents in AL.",
+        "at": "2026-11-13T00:58:43.226Z",
         "v": 2
       },
       "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02/@6693f9aeca20750b": {
         "verdict": "drop",
-        "reason": "Covers using AI tools for AL development in general, not coding Business Central agents.",
-        "at": "2026-10-30T08:05:55.635Z",
+        "reason": "General guidance on AI-assisted Business Central development, not about agents defined in AL.",
+        "at": "2026-11-13T00:58:43.226Z",
         "v": 2
       },
       "post/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/@a9590d7030e3dc3d": {
         "verdict": "drop",
-        "reason": "About the quality risks of AI-generated AL code, a different subject from building agents in AL.",
-        "at": "2026-10-30T08:05:55.635Z",
+        "reason": "About checking the quality of AI-generated AL code, not about building Business Central agents.",
+        "at": "2026-11-13T00:58:43.226Z",
         "v": 2
       },
       "post/nataliekarolak-com/3995@86d3d7fd9a3178df": {
-        "verdict": "drop",
-        "reason": "Its link point is AL coding agents with BC-Bench (AI writing AL code), not building Business Central agents in AL.",
-        "at": "2026-10-30T08:05:55.635Z",
+        "verdict": "keep",
+        "reason": "BC 28 developer overview explicitly lists AL coding agents as a new feature, so it touches this section.",
+        "at": "2026-11-13T00:58:49.353Z",
         "v": 2
       },
       "post/olofsimren-com/3653@e7fefac5ccde599a": {
         "verdict": "drop",
-        "reason": "Vibe coding an audit extension is AI-assisted development, not building agents in AL.",
-        "at": "2026-10-30T08:05:55.635Z",
+        "reason": "About vibe coding a configuration audit extension with an AI assistant, not about building agents in AL.",
+        "at": "2026-11-13T00:58:49.353Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@b94f6d6fdd1fc4fe": {
         "verdict": "drop",
-        "reason": "About setting up GitHub Copilot to write AL, not building Business Central agents.",
-        "at": "2026-10-30T08:05:55.635Z",
+        "reason": "Covers setting up GitHub Copilot for AI-assisted AL development, not coding Business Central agents.",
+        "at": "2026-11-13T00:58:49.353Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-818643009386692123@982baa375093ea02": {
         "verdict": "keep",
-        "reason": "Discusses designing and building Business Central agents with the AI Development Toolkit and Agent Building Sandbox.",
-        "at": "2026-10-30T08:05:55.635Z",
+        "reason": "Discusses agent design as a partner skill and the Agent Building Sandbox and AI Development Toolkit, which relate to building agents.",
+        "at": "2026-11-13T00:58:49.353Z",
         "v": 2
       },
       "post/sshadows-dk/https://sshadows.dk/blog/al-lsp-for-agents/@a85ba20998c1c74a": {
         "verdict": "drop",
-        "reason": "A language-server tool for AI coding assistants, not about building agents in AL.",
-        "at": "2026-10-30T08:05:55.635Z",
+        "reason": "A language-server tool for AI coding assistants navigating AL, not about authoring agents in AL.",
+        "at": "2026-11-13T00:58:49.353Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/@b67dc43eb2f9705d": {
         "verdict": "drop",
-        "reason": "A Claude Code multi-agent workflow for writing AL, not building Business Central agents.",
-        "at": "2026-10-30T08:05:55.635Z",
+        "reason": "A Claude Code multi-agent workflow for writing AL, which is AI-assisted development rather than this section's subject.",
+        "at": "2026-11-13T00:58:49.353Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/@2a63431a53ddd0cd": {
         "verdict": "drop",
-        "reason": "An MCP source-search server for coding assistants, unrelated to building agents in AL.",
-        "at": "2026-10-30T08:05:55.635Z",
+        "reason": "An MCP source-search server for AI coding assistants, not about coding Business Central agents.",
+        "at": "2026-11-13T00:58:49.353Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-dev-container-al/@9d6f8403875c1881": {
         "verdict": "drop",
-        "reason": "Dev container setup for Claude Code, not about building Business Central agents in AL.",
-        "at": "2026-10-30T08:05:55.635Z",
+        "reason": "A dev container setup for Claude Code; its subject is sandbox tooling, not agents built in AL.",
+        "at": "2026-11-13T00:58:49.353Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/@d26fec2dbf7f1670": {
         "verdict": "drop",
-        "reason": "Docker sandboxing for Claude Code, not about building Business Central agents in AL.",
-        "at": "2026-10-30T08:05:55.635Z",
+        "reason": "Docker sandboxing of Claude Code, unrelated to coding agents in AL.",
+        "at": "2026-11-13T00:58:49.353Z",
         "v": 2
       },
       "post/thinkaboutit-be/7352@f7cfc535784925c8": {
         "verdict": "drop",
-        "reason": "About using Copilot Agent mode to write AL code, not building Business Central agents.",
-        "at": "2026-10-30T08:05:55.635Z",
+        "reason": "About GitHub Copilot Agent mode for writing AL code, not building Business Central agents.",
+        "at": "2026-11-13T00:58:49.353Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/7383@7e8512d807291136": {
+        "verdict": "drop",
+        "reason": "About Copilot Plan mode in AI-assisted AL development, not this section's agent coding.",
+        "at": "2026-11-13T00:58:49.353Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/7402@b5ffe8888e16e784": {
+        "verdict": "drop",
+        "reason": "A mental model for GitHub Copilot modes in AL development, not about coding agents in AL.",
+        "at": "2026-11-13T00:58:49.353Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/7414@2d8b4e6d2f5403fd": {
+        "verdict": "drop",
+        "reason": "A personal year-in-review on Copilot use, with no coverage of building agents in AL.",
+        "at": "2026-11-13T00:58:49.353Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/7486@131ae97800aa4183": {
+        "verdict": "drop",
+        "reason": "About Copilot Plan mode for writing AL, not about building Business Central agents in AL.",
+        "at": "2026-11-13T00:58:50.389Z",
+        "v": 2
+      },
+      "post/vjeko-com/https://vjeko.com/2026/06/07/from-beep-to-empty-seat-the-six-levels-of-self-driving-code/@6ae9e0614597ffbc": {
+        "verdict": "drop",
+        "reason": "About how much autonomy AI coding agents get, not about coding Business Central agents.",
+        "at": "2026-11-13T00:58:50.389Z",
+        "v": 2
+      },
+      "post/vjeko-com/https://vjeko.com/2026/07/21/i-dont-trust-my-agents-either/@6371193df90b4b48": {
+        "verdict": "drop",
+        "reason": "About quality checks for AI coding agents' output, not about building BC agents in AL.",
+        "at": "2026-11-13T00:58:50.389Z",
+        "v": 2
+      },
+      "post/vjeko-com/https://vjeko.com/2026/07/22/what-youre-actually-saying-when-you-say-ai-doesnt-work/@17cb200d6d4e65cf": {
+        "verdict": "drop",
+        "reason": "About engineering discipline when coding with AI, not about the agent framework in AL.",
+        "at": "2026-11-13T00:58:50.389Z",
+        "v": 2
+      },
+      "post/vondervoort-be/130@80f191b9b56f9b87": {
+        "verdict": "drop",
+        "reason": "A code-analyzer tool for AL; the mention of AI coding-assistant support doesn't make it about coding BC agents.",
+        "at": "2026-11-13T00:58:50.389Z",
+        "v": 2
+      },
+      "post/vondervoort-be/147@99d92e66e963843b": {
+        "verdict": "drop",
+        "reason": "A code-analyzer project with an MCP server for AI assistants; it isn't about building BC agents.",
+        "at": "2026-11-13T00:58:50.389Z",
+        "v": 2
+      },
+      "post/waldo-be/318755@62d8c4b8300aea40": {
+        "verdict": "drop",
+        "reason": "About an AL test runner debugged with AI coding agents, not about Business Central agents.",
+        "at": "2026-11-13T00:58:50.389Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2026/10/directions-emea-2026-paris-the-consultant-zone-and-two-panels.html@b05d0c2fabe45625": {
+        "verdict": "drop",
+        "reason": "A conference announcement about AI prompts and consultant roles; it doesn't cover coding agents in AL.",
+        "at": "2026-11-13T00:58:50.389Z",
+        "v": 2
+      },
+      "post/yzhums-com/71363@49fdd2195a46cc2d": {
+        "verdict": "keep",
+        "reason": "Covers the new Agent project template for starting Business Central agent development in AL.",
+        "at": "2026-11-13T00:58:50.389Z",
+        "v": 2
+      },
+      "video/c91E6IykUnk@9c87e1a5eb37106f": {
+        "verdict": "drop",
+        "reason": "Mostly about AI-assisted AL development and report layouts; it doesn't cover coding agents in AL.",
+        "at": "2026-11-13T00:58:50.389Z",
+        "v": 2
+      },
+      "video/EwN3xb2q7vE@026d8348b84608e2": {
+        "verdict": "keep",
+        "reason": "Directly demonstrates coding Business Central agents in AL: interfaces, setup, tasks API and sessions.",
+        "at": "2026-11-13T00:58:50.389Z",
         "v": 2
       },
       "video/gd2TycVywv4@f20bd71818f9eeb8": {
         "verdict": "drop",
-        "reason": "About developers using AI coding assistants (Copilot), not building Business Central agents in AL.",
-        "at": "2026-10-30T08:05:56.141Z",
+        "reason": "About the mindset for AI-assisted development with Copilot, not about building BC agents.",
+        "at": "2026-11-13T00:58:50.389Z",
         "v": 2
       },
       "video/jfvUkNa4gyg@843581c971e53e3c": {
         "verdict": "drop",
-        "reason": "Covers AL development using Claude Code agents, not coding Business Central agents in AL.",
-        "at": "2026-10-30T08:05:56.141Z",
-        "v": 2
-      },
-      "video/jWqjDTbqjeE@d3cbde4e3c06d5d7": {
-        "verdict": "keep",
-        "reason": "Introduces designing and coding Business Central agents, including agent code creation with the AI Development Toolkit.",
-        "at": "2026-10-30T08:05:56.141Z",
-        "v": 2
-      },
-      "video/mBU2Iu0urw8@95ce2757d015d2fc": {
-        "verdict": "drop",
-        "reason": "About agentic AI-assisted development tooling (ALMCP, VS Code agent modes), not writing BC agents in AL.",
-        "at": "2026-10-30T08:05:56.141Z",
-        "v": 2
-      },
-      "video/MNwTt06ZxwY@6a357ea37188254b": {
-        "verdict": "keep",
-        "reason": "Shows building agents in AL with the agent template, factory and metadata interfaces, and deploying them via extensions.",
-        "at": "2026-10-30T08:05:56.141Z",
-        "v": 2
-      },
-      "video/V4zCPAsYi_Y@c18383eb6e9d0dd2": {
-        "verdict": "keep",
-        "reason": "Covers testing AL-built agents with the AI Development Toolkit evaluation app, which is closely tied to coding agents.",
-        "at": "2026-10-30T08:05:56.141Z",
-        "v": 2
-      },
-      "video/w2P3WskFaCA@9f8393e4268031d6": {
-        "verdict": "drop",
-        "reason": "About terminal-based BC development with AI coding tools, not coding BC agents.",
-        "at": "2026-10-30T08:05:56.141Z",
-        "v": 2
-      },
-      "video/WjFx9yYf1js@7a24bb789c86b0e4": {
-        "verdict": "drop",
-        "reason": "About the risks of vibe coding extensions, not building agents in AL.",
-        "at": "2026-10-30T08:05:56.141Z",
-        "v": 2
-      },
-      "video/XGEDwzIZQj4@53a5209267f30072": {
-        "verdict": "drop",
-        "reason": "Benchmarks AI coding models on AL bug fixing, not about coding Business Central agents.",
-        "at": "2026-10-30T08:05:56.141Z",
-        "v": 2
-      },
-      "video/xWOddQt1GUM@b37a64fe3602a41b": {
-        "verdict": "drop",
-        "reason": "Mainly about AI-assisted AL coding and the changing developer role; only touches on the agent preview.",
-        "at": "2026-10-30T08:05:56.141Z",
+        "reason": "About using Claude Code agents to write AL, not about coding Business Central agents.",
+        "at": "2026-11-13T00:58:50.389Z",
         "v": 2
       }
     },

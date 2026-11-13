@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:18.690Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -103,7 +103,8 @@ links:
     - topic/dev-itpro/development/development-environment/configure-the-development-environment/json-files
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8858724149942666914--7e2682363b
   guidelines: []
 learn_toc_path:
   - Development
@@ -117,7 +118,7 @@ coverage:
   learn: 10
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 2bacf55057d515171b5ffa49dd7d138332dd1d035ecd858efa431c4705a49ed9
@@ -160,5 +161,11 @@ Start with the AL Language extension configuration page to learn the available s
 - [Resource exposure policy setting](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-security-settings-and-ip-protection): Explains how to set the resource exposure policy for allowing download or debugging into extension to see the source code.
 - [Running a container-based development environment](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-running-container-development): Overview of how to run a container-based development.
 - [Use GitHub Codespaces for AL development](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-spaces-al): GitHub Codespaces gives you a ready-to-use, cloud-hosted development environment for AL that runs in your browser.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central is transitioning to .NET 10](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8858724149942666914--7e2682363b.md) (community post): "AL Language extension requires .NET 10 and now uses .NET Install Tool for VS Code"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

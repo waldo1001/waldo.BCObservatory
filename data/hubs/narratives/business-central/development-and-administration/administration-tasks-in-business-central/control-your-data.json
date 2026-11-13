@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data",
-  "input_hash": "c6a327a2c7a683e35de22e423c74aced0c02f7ca74ffb0f078f88f003a567a4b",
-  "summary": "Administration pages on controlling data in Business Central: auditing changes, classifying and masking sensitive data, retention policies, encryption, deleting or compressing data, archiving, personal data requests, and viewing database locks. Use it for questions on data privacy, cleanup, storage and auditing.",
-  "overview": "This section covers how administrators govern the data stored in Business Central. It spans three needs: knowing who changed what (change log, field monitoring), protecting and handling sensitive or personal data (sensitivity classification, masking, data subject requests, encryption), and keeping data volume under control (retention policies, document deletion, date compression, data archive).\n\nThe pages are independent guides with no subtopics. For privacy work, start with classifying data sensitivity, then responding to personal data requests. For storage and cleanup, read retention policies and the delete/compress page, then the Data Archive extension if compressed entries must be preserved. Database Locks is a separate diagnostic page for lock timeouts.",
+  "input_hash": "473a72309d1a6c89242034ee9952db0914fb980ebfed5e2287d8698d95ea29dc",
+  "summary": "Control your data covers how administrators audit, classify, protect, retain, archive and delete data in Business Central. It answers questions about change logs, data sensitivity, encryption, retention policies, privacy requests, storage cleanup, and database locks.",
+  "overview": "This section groups the administration tasks that govern data in Business Central: who changed it, how sensitive it is, how long it is kept, and how it is removed or protected. There are no subtopics, so all guidance sits in eight pages.\n\nFor tracking and governance, start with Auditing changes (change log, field monitoring, data analysis) and Classify Data Sensitivity (Sensitive, Personal, Company Confidential, Normal, plus field masking). For lifecycle and storage, use retention policies, the batch jobs for deleting documents and compressing data, and the Data Archive extension, which keeps copies of entries that date compression deletes.\n\nFor compliance and operations, see Responding to requests about users' personal data (Data Privacy Utility), Manage Data Encryption (on-premises key management) and View Database Locks (diagnosing lock timeouts).",
   "key_points": [
     "Auditing changes uses change log, field monitoring, data analysis, and activity logs to show who changed what and when.",
-    "Data Sensitivity Classification labels sensitive or personal data in standard and custom fields; masking (MaskType property) hides values, with role-based visibility (2025 release wave 2).",
-    "Retention policies delete outdated data from log entry and archived record tables, by filter and mandatory retention period, automatically via job queue or manually.",
-    "Data subject requests are handled with the Data Privacy Utility: export, deletion, modification, and the Privacy Blocked checkbox.",
-    "Data encryption is enabled by generating or importing keys on the server, only for on-premises; online encryption is mandatory.",
-    "Batch jobs delete obsolete documents and compress historic entries by date or status to manage storage.",
-    "The Data Archive extension keeps copies of entries removed by date compression and exports them to Excel or CSV.",
+    "Data classification assigns Sensitive, Personal, Company Confidential, or Normal through the DataClassification property, with bulk classification and field masking via MaskType.",
+    "Retention policies delete outdated data in log entry and archived record tables, with filter criteria and a mandatory retention period. They run through the job queue automatically or can be applied manually.",
+    "Batch jobs delete obsolete documents (such as sales orders and invoices) and compress historic entries by date or status to manage database storage.",
+    "The Data Archive extension preserves entries removed by date compression and exports them to Excel or CSV.",
+    "Data subject requests are handled with the Data Privacy Utility: export, deletion, and modification of personal data, including the Privacy Blocked checkbox.",
+    "Application-level encryption for on-premises environments is managed on the Data Encryption Management page: enable, disable, import, change, and export keys with password protection.",
     "The Database Locks page shows granted and waiting lock requests, with user, session, and executing AL code, to diagnose lock timeouts."
   ],
   "members_used": 8,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-11T00:58:40.920Z",
+  "at": "2026-11-13T01:00:35.067Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014336999999999999
+    "cost_usd": 0.015137000000000001
   }
 }

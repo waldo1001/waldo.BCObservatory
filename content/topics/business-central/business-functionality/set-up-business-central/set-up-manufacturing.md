@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:57.224Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -208,6 +208,7 @@ links:
     - change/bcapps/10369
     - change/bcapps/10565
     - change/bcapps/10899
+    - change/bcapps/12084
     - change/bcapps/12098
     - change/bcapps/12370
     - change/bcapps/12986
@@ -364,6 +365,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10369 Bug 640428: Fix Production BOM Comment Line TableRelation filters](../../../../changes/bcapps/10369.md) (code change): "to properly filter by version. The Version Code field now shows all"
 - [#10565 Add default manufacturing version number series](../../../../changes/bcapps/10565.md) (code change): "Manufacturing Setup now supports optional default number series for production BOM"
 - [#10899 [Extensibility Request] issue 30433: expose consolidated calendar entry before insert](../../../../changes/bcapps/10899.md) (code change): "new integration event exposes consolidated work center calendar entries and their source data"
+- [#12084 Bug 652154: [Subcontracting] Add feature uptake telemetry](../../../../changes/bcapps/12084.md) (code change): "Tracks setup completion via assisted setup, work center assignment"
 - [#12098 [29.X]-[Planning Worksheet] Production Copy to Req. Wksh fails because destination fields are missing](../../../../changes/bcapps/12098.md) (code change): "carrying out planning worksheet action messages for production"
 - [#12370 Guard removed Manufacturing Setup fields with CLEANSCHEMA30 preprocessor](../../../../changes/bcapps/12370.md) (code change): "Manufacturing Setup fields marked as removed in version 30.0"
 - [#12986 Fix Work Center field persistence when auto-save is disabled](../../../../changes/bcapps/12986.md) (code change): "Validation of Subcontractor No. now saves the record before refreshing the page"

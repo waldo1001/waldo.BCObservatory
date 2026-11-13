@@ -11,7 +11,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -32,9 +32,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerapps
+    title: Build a Power Apps Canvas App with Business Central Data
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi
-    title: Building reports in Power BI Desktop to display Business Central data
-    date: "2025-10-16"
+    title: Build Power BI Reports with Business Central Data
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -67,16 +74,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection
-    title: Connect to Microsoft Dataverse
-    date: "2025-06-10"
+    url: https://learn.microsoft.com/dynamics365/business-central/across-working-with-business-central-in-powerbi
+    title: Connect Power BI to Business Central On-Premises
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/across-working-with-business-central-in-powerbi
-    title: Connect to Power BI from Business Central on-premises| Microsoft Docs
-    date: "2025-10-23"
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection
+    title: Connect to Microsoft Dataverse
+    date: "2025-06-10"
     commit: null
     t: null
     quote: null
@@ -103,8 +110,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-powerbi-reports-factbox
-    title: Display custom Power BI reports
-    date: "2025-10-16"
+    title: Display Custom Power BI Reports in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -264,8 +271,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview
-    title: Power BI integration component and architecture overview for Business Central| Microsoft Docs
-    date: "2024-04-26"
+    title: Power BI Integration Architecture for Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -287,13 +294,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/across-search-contacts-teams
     title: Search for Business Central Contacts in Microsoft Teams
     date: "2026-11-09"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin
-    title: Setting up the Excel Add-In for Editing Data
-    date: "2024-09-18"
     commit: null
     t: null
     quote: null

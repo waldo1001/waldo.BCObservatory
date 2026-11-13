@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:21.197Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -113,6 +113,7 @@ links:
   changes:
     - change/bcapps/10130
     - change/bcapps/11701
+    - change/bcapps/13554
     - change/bcapps/9725
     - change/bcquality/156
 learn_toc_path:
@@ -176,6 +177,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10130 [ExpenseAgent] Expose VatSpecifications on Expense API Page](../../../../changes/bcapps/10130.md) (code change): "The Expense API page now exposes VAT specifications through a new part"
 - [#11701 [MCP] Hide codeunit APIs from Available APIs dropdown (AB#650771)](../../../../changes/bcapps/11701.md) (code change): "Codeunit API options are hidden from the MCP Configuration Available APIs dropdown"
+- [#13554 Add procedures to import configuration packages and manage table operations in Fabric API](../../../../changes/bcapps/13554.md) (code change): "The Fabric API now supports resetting and removing tables"
 - [#9725 [Master] - Slice 626127: [Excise Tax][VENDOR] Multiple Excise Taxes per Item](../../../../changes/bcapps/9725.md) (code change): "Item Excise Tax API page (7417)"
 - [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../../changes/bcquality/156.md) (code change): "2 web-services articles: keep consumer-provided key fields editable on insert"
 - [My 2026 Tradeshow Schedule and Highlights](../../../../posts/aardvarklabs-blog/3388.md) (community post): "the session guides migration to modern Business Central APIs"

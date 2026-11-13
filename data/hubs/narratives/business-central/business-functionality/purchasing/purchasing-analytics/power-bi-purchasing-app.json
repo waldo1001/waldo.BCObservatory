@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/purchasing/purchasing-analytics/power-bi-purchasing-app",
-  "input_hash": "0b89631d45f763e3d3fdf1133e15707afa75fb450c90a7e3527c740978fb704f",
-  "summary": "The Power BI Purchases app section covers the app, its semantic model, KPI and measure reference, and each purchasing report. It answers questions about what a report shows, which measures it uses, and how the data is structured for spend, vendor, budget, return and trend analysis.",
-  "overview": "The Power BI Purchases app delivers purchasing analytics for executives, procurement teams and purchasing agents. It has reports on spending, vendor performance, budgets and purchasing trends. The app page lists the reports and is the best starting point.\n\nThe reports fall into groups. Overview and breakdown: Purchases Overview, Purchases Decomposition, and Purchases by Item, Location, Purchaser and Vendor. Time-based: Daily Purchases, Moving Averages, Moving Annual Total, Period-Over-Period, Year-Over-Year and Actual vs. Budget. Forward-looking and diagnostic: Purchase Forecasting and Key Purchase Influencers. Quotes, returns and vendors: Purchase Quote Overview, Purchases Return Overview and Vendor Quality Analysis.\n\nTwo reference pages sit behind the reports. The semantic model page describes the star schema of fact and dimension tables. The KPIs and measures page explains the calculations. Use them when you need to know where a figure comes from.",
+  "input_hash": "7585faa4c24673f834ac81ec83b67146a7b28b1bdfca2a5ba7ea44668014c423",
+  "summary": "The Power BI Purchases app for Business Central purchasing analytics: its reports, the semantic model behind them, and the KPIs and measures they use. It answers questions about what each report shows, who it serves, and which metrics it tracks, such as spend, budget variance, vendor quality, returns, trends and forecasts.",
+  "overview": "The Power BI Purchases app packages purchasing analytics for executives, purchasing managers, purchasers and finance teams. One overview page introduces the app and lists its reports. Each report then has its own page describing the KPIs it shows and the decisions it supports.\n\nThe reports fall into a few groups. Breakdowns by dimension: Purchases by Item, Location, Purchaser and Vendor, plus Purchases Overview and Purchases Decomposition. Time comparisons: Daily Purchases, Moving Averages, Moving Annual Total, Period-Over-Period, Year-Over-Year and Actual vs. Budget. Specialized analyses: Key Purchase Influencers, Purchase Forecasting, Purchase Quote Overview, Purchases Return Overview and Vendor Quality Analysis.\n\nTwo reference pages sit underneath the reports. The semantic model page describes the star schema of fact and dimension tables. The KPIs and measures page explains how the measures are calculated. Start with the app overview page, then open the report page that matches your question. Use the reference pages when you need to know where a number comes from.",
   "key_points": [
-    "The app serves executives, procurement teams and purchasing agents with reports on spending, vendor performance, budgets and trends.",
-    "The semantic model uses a star schema. Facts are purchase budgets, invoices, credit memos and value entries. Dimensions are vendors, items, projects and purchasers.",
-    "Trend reports: Moving Annual Total covers the last 12 months, Moving Averages uses 30-day averages, and Period-Over-Period and Year-Over-Year compare against earlier periods.",
-    "Actual vs. Budget reports budget amount variance and variance % by item category.",
-    "Purchase Forecasting predicts three months ahead from six months of history, using monthly seasonality, with vendor and item category dimensions.",
-    "Key Purchase Influencers uses the Key Influencers visual and a Top Segments tab for AI-driven analysis of purchase drivers.",
-    "Purchases Return Overview and Vendor Quality Analysis cover return rates, credits, spend reliance, item reliance, discount % and single-supplier items.",
-    "Purchases Overview shows outstanding invoices, outstanding orders and amounts received but not invoiced. Purchase Quote Overview tracks quote counts, quantities and amounts."
+    "The app overview lists the Purchases Overview, Purchases Decomposition, Daily Purchases, Moving Averages, Moving Annual Total and Period-Over-Period reports, among others.",
+    "Purchases by Item, Location, Purchaser and Vendor reports show Purchase (LCY), Purchase Quantity and % of grand total KPIs. The Vendor report adds Pareto cumulative percentages.",
+    "Actual vs. Budget reports Purchase (LCY), Purchase Amount YTD (Fiscal), Budget Amount, and the variance amount and percentage.",
+    "Moving Annual Total covers a rolling 12 months and includes Previous Year MAT and growth. Moving Averages compares purchases to 30-day averages.",
+    "Period-Over-Period compares fiscal months and quarters. Year-Over-Year compares the current year with the previous year.",
+    "Purchase Forecasting predicts three months ahead from six months of history, with monthly seasonality, by vendor and item category.",
+    "Purchases Return Overview and Vendor Quality Analysis cover return rates, credits, spend and item reliance, discount percentage and single-supplier items.",
+    "The semantic model is a star schema. Facts are purchase budgets, invoices, credit memos and value entries. Dimensions are vendors, items, projects and purchasers."
   ],
   "members_used": 20,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:03:07.254Z",
+  "at": "2026-11-13T01:00:20.167Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.025342999999999997
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:17:12.298Z",
-    "verdict": "approve",
-    "issues": [
-      "The overview says the app page 'lists the reports and is the best starting point'. The app page summary names only six reports, so 'lists the reports' is only partly supported. It is a harmless framing.",
-      "The Period-Over-Period page summary says the report compares to the same period in the previous year, but its features list 'Previous Period'. The narrative's wording, 'compare against earlier periods', is suitably general and covers both."
-    ],
-    "input_hash": "0b89631d45f763e3d3fdf1133e15707afa75fb450c90a7e3527c740978fb704f",
-    "cost_usd": 0.055275200000000003
+    "cost_usd": 0.030716
   }
 }

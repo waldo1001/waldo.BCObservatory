@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T00:19:04.246Z"
+  at: "2026-11-13T00:13:31.718Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: dcdf3aec397952b4b3ef504ac79df1f5da0e5888
@@ -28,7 +28,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/handle-httpclient-platform-failure-before-response-access.md
     title: "microsoft/BCQuality: Handle HttpClient platform failure before accessing the response"
     date: "2026-11-06"
-    commit: 634aba3df9af1b4579e8a735b186e3efdbf47de2
+    commit: 416f1308b6a2b507d0ac29e33b53d321b5d0a170
     t: null
     quote: null
 links:
@@ -104,4 +104,4 @@ See sample: [`handle-httpclient-platform-failure-before-response-access.bad.al`]
 
 ---
 
-From microsoft/BCQuality at 634aba3, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 416f130, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

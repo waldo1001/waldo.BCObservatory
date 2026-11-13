@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -22,6 +22,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/bi-how-work-account-schedule
     title: Build financial reports using financial data and account categories
     date: "2026-03-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-faq
+    title: Business Central Power BI Apps FAQ
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -62,15 +69,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-business-central-apps-multi-language
-    title: Multi-language Power BI apps for Business Central
-    date: "2025-10-17"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-faq
-    title: Power BI apps FAQ
-    date: "2025-10-29"
+    title: Multilanguage Power BI Apps for Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -83,22 +83,22 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/track-kpis-with-power-bi-metrics
-    title: Track your business KPIs with Power BI metrics
-    date: "2024-04-24"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/powerbi-back-links
-    title: Use back links to explore aggregated data in visuals
-    date: "2025-06-11"
+    title: Power BI Goals for Business Central KPIs
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/powerbi-use-semantic-models-in-excel
-    title: Use Power BI Semantic Models in Excel for Dynamics 365 Business Central Reporting
-    date: "2025-11-12"
+    title: Use Business Central Power BI Semantic Models in Excel
+    date: "2026-11-11"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/powerbi-back-links
+    title: Use Power BI Back Links to Explore Business Central Data
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null

@@ -12,7 +12,7 @@ review:
   at: "2026-11-09T00:45:15.348Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,8 +69,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-classifying-data-sensitivity
-    title: Classifying data sensitivity
-    date: "2025-09-22"
+    title: Classify Data Sensitivity in Business Central
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -208,13 +208,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/across-how-publish-web-service
-    title: Expose objects as web services
-    date: "2025-10-15"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-extend-trial
     title: Extend your trial version of Business Central
     date: "2024-05-07"
@@ -265,8 +258,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-manage-data-encryption
-    title: Manage data encryption | Microsoft Docs
-    date: "2023-12-12"
+    title: Manage Data Encryption in Business Central
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -295,6 +288,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/admin-manage-user-settings-preferences
     title: Manage user settings and preferences as the administrator
     date: "2024-07-27"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-users-profiles-roles
+    title: Manage users and roles
+    date: "2026-06-17"
     commit: null
     t: null
     quote: null
@@ -342,6 +342,7 @@ links:
     - object/page/1369
     - object/page/1439
     - object/page/1565
+    - object/page/1751
     - object/page/1752
     - object/page/1803
     - object/page/1830
@@ -495,7 +496,7 @@ children:
   - topic/business-central/development-and-administration/migrate-to-business-central-online
 coverage:
   learn: 77
-  code: 163
+  code: 164
   video: 1
   blog: 0
   guideline: 0
@@ -552,6 +553,7 @@ bc_forms:
   - 1460
   - 1565
   - 1665
+  - 1751
   - 1752
   - 1803
   - 1830
@@ -830,6 +832,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 1369 "Monitored Fields Worksheet"](../../objects/page/1369.md) · on [Table 404 "Change Log Setup (Field)"](../../objects/table/404.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
 - [Page 1439 "Headline Details"](../../objects/page/1439.md) · on [Table 1437 "Headline Details Per User"](../../objects/table/1437.md) · via [Customize Business Central](development-and-administration/customize-business-central.md)
 - [Page 1565 "Privacy Notices"](../../objects/page/1565.md) · captioned "Privacy Notices Status" · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
+- [Page 1751 "Data Classification Worksheet"](../../objects/page/1751.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
 - [Page 1752 "Data Classification Wizard"](../../objects/page/1752.md) · captioned "Data Classification Assisted Setup Guide" · on [Table 1180 "Data Privacy Entities"](../../objects/table/1180.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
 - [Page 1803 "Assisted Company Setup Wizard"](../../objects/page/1803.md) · captioned "Company Setup" · on [Table 8627 "Config. Setup"](../../objects/table/8627.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
 - [Page 1830 "MS - QBO Data Migration"](../../objects/page/1830.md) · captioned "QuickBooks Online Migration Setup" · via [Customize Business Central](development-and-administration/customize-business-central.md)

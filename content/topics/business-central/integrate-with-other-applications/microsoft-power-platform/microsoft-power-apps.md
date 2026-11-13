@@ -2,22 +2,29 @@
 id: topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-apps
 type: topic
 title: Microsoft Power Apps
-summary: "Microsoft Power Apps integration with Business Central: how to build apps on Business Central data, including custom UI, AI Builder, and augmented or mixed-reality options. It answers questions about connecting Power Apps to a Business Central environment through the Power Apps connector, using API tables and custom APIs, and building canvas apps."
+summary: "Microsoft Power Apps integration with Business Central: how to build solutions on Business Central data using Power Apps. It answers questions about the overview of possible scenarios and about building a canvas app through the Business Central connector."
 tier: official
 language: en
 system: integration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:22:41.700Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9018341bdabdfe8592b71d14085b5799f17e1cab0bca26ea37435a7c1883a41f
+  input_hash: 9b62af4174bb1c65bc7b45901d51297cfe2d47808610674cf1baa2cf7f9bd9d9
 evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerapps
+    title: Build a Power Apps Canvas App with Business Central Data
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview
     title: Business Central and Power Apps
@@ -25,17 +32,10 @@ evidence:
     commit: null
     t: null
     quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerapps
-    title: Use your data to create an app| Microsoft Docs
-    date: "2025-10-16"
-    commit: null
-    t: null
-    quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview
     - https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerapps
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview
   objects: []
   features: []
   topics:
@@ -64,31 +64,30 @@ narrative: generated
 
 # Microsoft Power Apps
 
-> Microsoft Power Apps integration with Business Central: how to build apps on Business Central data, including custom UI, AI Builder, and augmented or mixed-reality options. It answers questions about connecting Power Apps to a Business Central environment through the Power Apps connector, using API tables and custom APIs, and building canvas apps.
+> Microsoft Power Apps integration with Business Central: how to build solutions on Business Central data using Power Apps. It answers questions about the overview of possible scenarios and about building a canvas app through the Business Central connector.
 
-Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Power Platform](../microsoft-power-platform.md) > Microsoft Power Apps · tier official · system integration · narrative reviewed (checked by Opus)
+Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Power Platform](../microsoft-power-platform.md) > Microsoft Power Apps · tier official · system integration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Business Central and Power Apps work together so you can build flexible solutions on top of Business Central data. Power Apps adds a custom user interface, AI Builder, and augmented or mixed-reality technologies. The overview page also lists the mobile app and Teams integration among its features.
+This section covers using Power Apps with Business Central. It has two pages: a general overview of the integration and a how-to for building a canvas app.
 
-There are two pages. The first, "Business Central and Power Apps", is the overview of what the integration makes possible. The second, "Use your data to create an app", is the practical guide. It shows how to connect Business Central as a data source in Power Apps with the Power Apps connector, using exposed API tables and custom APIs, so you can build business apps such as canvas apps.
+The overview page describes what you can build with Business Central data in Power Apps: custom UI, AI Builder, augmented and mixed-reality scenarios, mobile apps, and Teams integration. The canvas app page is the practical step: connect through the Business Central connector and pick tables that are exposed through APIs.
 
-Start with the overview page to see the scenarios. Then use the data guide when you are ready to link Power Apps to your Business Central environment.
+Start with the overview to see which scenario fits, then follow the canvas app page to build one. If the data you need is not exposed through an API, the canvas app page points to custom API development.
 
 ## Key points
 
-- Power Apps can build solutions on Business Central data with a custom UI.
-- AI Builder and augmented or mixed-reality technologies can be combined with Business Central data.
-- The overview page lists the mobile app and Teams integration among its features.
-- Business Central connects to Power Apps as a data source through the Power Apps connector.
-- Business Central data is exposed to Power Apps through API tables and custom APIs.
-- The data guide covers linking Power Apps to your Business Central environment and building apps such as canvas apps.
-- Read the overview page first for scenarios, then the data guide for setup.
+- Power Apps can use Business Central data to build flexible solutions with a custom UI.
+- The overview mentions AI Builder, augmented reality and mixed reality as extension scenarios.
+- Mobile app and Teams integration are listed as part of the Business Central and Power Apps story.
+- A canvas app connects to Business Central through the Business Central connector.
+- Tables available to a canvas app are those exposed through APIs.
+- Custom API development is relevant when needed data is not yet exposed.
 
 ## Learn pages
 
+- [Build a Power Apps Canvas App with Business Central Data](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerapps): Connect a Power Apps canvas app to Business Central APIs to work with customers, items, and other business data in an app for your organization.
 - [Business Central and Power Apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview): Get an overview Business Central and Power Apps integration
-- [Use your data to create an app\| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerapps): Make your Business Central data available as a data source in Power Apps by specifying the OData URL of your web services to build custom business apps.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -103,10 +103,12 @@ links:
     - post/jpearson-blog/1590
     - post/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620
     - post/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc
+    - post/waldo-be/318755
   guidelines: []
   changes:
     - change/al-go/2342
     - change/al-go/2343
+    - change/al-go/2457
     - change/bcapps/10055
     - change/bcapps/10065
     - change/bcapps/11637
@@ -116,8 +118,10 @@ links:
     - change/bcapps/12325
     - change/bcapps/12463
     - change/bcapps/12557
+    - change/bcapps/13824
     - change/bcapps/8924
     - change/bcapps/9293
+    - change/bcquality/141
     - change/bcquality/159
 learn_toc_path:
   - Development
@@ -130,7 +134,7 @@ coverage:
   learn: 8
   code: 0
   video: 7
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms:
   - 149000
@@ -189,6 +193,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#2342 Fix incremental builds poisoning buildMode-specific artifacts (#2337)](../../../../changes/al-go/2342.md) (code change): "Fixed incremental builds in AL-Go that were corrupting buildMode-specific artifacts"
 - [#2343 RunTests action](../../../../changes/al-go/2343.md) (code change): "new RunTests action that runs tests with AlTool"
+- [#2457 Fixing codeunit discovery on PowerShell 5 for RunTests action.](../../../../changes/al-go/2457.md) (code change): "Fixed codeunit discovery in the RunTests action"
 - [#10055 Fix: migrating a document attachment deletes shared Tenant Media](../../../../changes/bcapps/10055.md) (code change): "Introduces three new unit tests verifying shared media protection"
 - [#10065 [Quality Management] Quality Inspection User assignment fixes](../../../../changes/bcapps/10065.md) (code change): "Tests for user assignment added to the misc test codeunit"
 - [#11637 [Master]- Create Documents on Recurring Billing ignores the Partner filter and fails when a vendor billing proposal exists](../../../../changes/bcapps/11637.md) (code change): "Create Documents on Recurring Billing now respects the Partner filter. New tests added"
@@ -198,14 +203,17 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12325 [Expense tests] Re-enable reviewed APIs and consolidate Expense fixes](../../../../changes/bcapps/12325.md) (code change): "Clean test codeunit execution is turned on"
 - [#12463 Fix Email upgrade writing during no-transaction upgrade test](../../../../changes/bcapps/12463.md) (code change): "Email Installer no longer re-registers email tables based on allowed-table"
 - [#12557 Implement first-party app authentication for Microsoft Fabric Export](../../../../changes/bcapps/12557.md) (code change): "tests are extended"
+- [#13824 Implement namespace normalization for Fabric Data and Logging in setup pages and platform management](../../../../changes/bcapps/13824.md) (code change): "Added comprehensive tests validating lowercase normalization behavior"
 - [#8924 [QM] Fixed overflow runtime error](../../../../changes/bcapps/8924.md) (code change): "Adds a regression test in the miscellaneous QM tests codeunit"
 - [#9293 [Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)](../../../../changes/bcapps/9293.md) (code change): "Six new tests added covering the corrected behavior"
+- [#141 knowledge(testing): license-entitlement failures on posted tables in a SaaS test run are environmental](../../../../changes/bcquality/141.md) (code change): "Provides good and bad code samples showing the distinction"
 - [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../changes/bcquality/159.md) (code change): "AL testing patterns from an external BC testing expert's blog"
 - [AL EventLens 0.1.6: the handler lens, and a fix that needed fixing](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing--1510616044.md) (community post): "Handler lens shows test usage counts above handler functions such as MessageHandler, ConfirmHandler and PageHandler"
 - [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../../../../posts/gerardorenteria-blog/11565.md) (community post): "Testing enhancements enable HTTP request mocking with TestHttpRequestPolicy"
 - [Why do all my tests show up twice in the test explorer?](../../../../posts/jpearson-blog/1590.md) (community post): "Tests show up twice in the VS Code test explorer when the pre-release AL Language extension"
 - [Your Tests All Pass. I Have Bad News.](../../../../posts/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620.md) (community post): "Mutation testing is a technique that validates test quality by intentionally breaking code"
 - [Weekly Recap: August 7-14](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc.md) (community post): "AL Runner shipped 85 PRs fixing emulation-to-real-BC divergences in rename propagation"
+- [Agent Maron & waldo: Mission AL Runner](../../../../posts/waldo-be/318755.md) (community post): "AL code tests outside Business Central using Rust and an in-memory database"
 - [Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)](../../../../videos/aNRzlbxVPWE.md) (video): "Agent task flow mapping; multi-turn conversation testing; Test library data creation"
 - [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "testing; http client; call stack; HTTP Client Handler for Testing"
 - [20260504 - Super fast tests covering 100% of your code](../../../../videos/EurgqGU1jG0.md) (video): "automated testing; code coverage; test patterns; Fast automated testing framework"

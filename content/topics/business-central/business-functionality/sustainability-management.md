@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:47.377Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -34,29 +34,29 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-analysis
-    title: CO2e Analysis
-    date: "2025-06-04"
+    title: CO2e Analysis for Sustainability Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-decomposition-tree
-    title: CO2e Decomposition Tree
-    date: "2025-05-26"
+    title: CO2e Decomposition Tree Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-key-influences
-    title: CO2e Key Influences
-    date: "2025-05-26"
+    title: CO2e Key Influences Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-emissions-by-category-and-scope
-    title: Emissions by Category and Scope
-    date: "2025-05-26"
+    title: Emissions by Category and Scope Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -69,8 +69,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-journey-to-net-zero-carbon
-    title: Journey to Net Zero Carbon
-    date: "2025-05-26"
+    title: Journey to Net Zero Carbon Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -83,15 +83,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-realized-emissions-vs-baseline
-    title: Realized Emissions vs Baseline
-    date: "2025-05-26"
+    title: Realized Emissions vs Baseline Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-realized-emissions-vs-target
-    title: Realized Emissions vs Target
-    date: "2025-05-26"
+    title: Realized Emissions vs Target Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -111,8 +111,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-social-analysis
-    title: Social Analysis
-    date: "2025-06-04"
+    title: Social Analysis for ESG Reporting Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -146,8 +146,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-kpis
-    title: Sustainability KPIs and measures (Power BI)
-    date: "2025-05-26"
+    title: Sustainability KPIs and Measures (Power BI)
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -160,15 +160,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-sustainability-overview
-    title: Sustainability Overview
-    date: "2025-05-26"
+    title: Sustainability Overview Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app
-    title: Sustainability Power BI app
-    date: "2025-06-04"
+    title: Sustainability Power BI App Reports
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -265,8 +265,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-water-and-waste-analysis
-    title: Water and Waste Analysis
-    date: "2025-02-05"
+    title: Water and Waste Analysis Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -340,8 +340,8 @@ links:
     - object/page/6221
     - object/page/6235
     - object/page/6245
+    - object/page/6316
     - object/page/6640
-    - object/page/36951
     - object/page/99000754
     - object/page/99000760
     - object/page/99000766
@@ -452,8 +452,8 @@ bc_forms:
   - 6221
   - 6235
   - 6245
+  - 6316
   - 6640
-  - 36951
   - 99000754
   - 99000760
   - 99000766
@@ -593,7 +593,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 6030 "Service Statistics"](../../../objects/page/6030.md) · on [Table 5900 "Service Header"](../../../objects/table/5900.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
 - [Page 6033 "Service Invoice Statistics"](../../../objects/page/6033.md) · on [Table 5992 "Service Invoice Header"](../../../objects/table/5992.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
 - [Page 6034 "Service Credit Memo Statistics"](../../../objects/page/6034.md) · on [Table 5994 "Service Cr.Memo Header"](../../../objects/table/5994.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
-- [Page 36951 "PowerBI Reports Setup"](../../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../../objects/table/36951.md) · via [Sustainability analytics](sustainability-management/sustainability-analytics.md)
+- [Page 6316 "Sustainability Report Power BI"](../../../objects/page/6316.md) · captioned "Sustainability Report (Power BI)" · via [Sustainability analytics](sustainability-management/sustainability-analytics.md)
 - [Page 99000754 "Work Center Card"](../../../objects/page/99000754.md) · on [Table 99000754 "Work Center"](../../../objects/table/99000754.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
 - [Page 99000760 "Machine Center Card"](../../../objects/page/99000760.md) · on [Table 99000758 "Machine Center"](../../../objects/table/99000758.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)
 - [Page 99000766 "Routing"](../../../objects/page/99000766.md) · on [Table 99000763 "Routing Header"](../../../objects/table/99000763.md) · via [Sustainability Value Chain](sustainability-management/sustainability-value-chain.md)

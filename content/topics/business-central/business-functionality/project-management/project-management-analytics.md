@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/project-management/project-management-analytics
 type: topic
 title: Project management analytics
-summary: "Project management analytics in Business Central covers the ways to analyze project data: the Power BI Projects app, built-in project reports, ad-hoc Data Analysis on lists, and work-in-process (WIP) monitoring. It answers questions about project KPIs, budget and cost performance, profitability, invoicing, WIP and which report or tool to use."
+summary: Project management analytics in Business Central covers Power BI reports, ad-hoc data analysis on lists, built-in project reports, and work-in-process (WIP) monitoring. It answers questions about project KPIs, budget performance, profitability, costs, invoicing, and how to choose the right analysis tool.
 tier: official
 language: en
 system: projects
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:15:58.855Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d3faf6dba847e56f79274b6a66c7b490e90cf8926229ef386f959eaa323f5e37
+  input_hash: 967bd8fccfd3e20c6f8c871921c464fc00c1a76fdbf70c846731ff4727dcc0d0
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-projects
@@ -90,15 +90,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-customer
-    title: Project Invoiced Sales by Customer (Power BI report)
-    date: "2025-09-25"
+    title: Project Invoiced Sales by Customer Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-type
-    title: Project Invoiced Sales by Type (Power BI report)
-    date: "2025-09-25"
+    title: Project Invoiced Sales by Type Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -111,8 +111,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-overview
-    title: Project Overview (Power BI report)
-    date: "2025-09-25"
+    title: Project Overview Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -125,8 +125,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-performance-to-budget
-    title: Project Performance to Budget (Power BI Report)
-    date: "2025-09-25"
+    title: Project Performance to Budget Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -139,15 +139,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-profitability
-    title: Project Profitability (Power BI report)
-    date: "2025-09-25"
+    title: Project Profitability Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-realization
-    title: Project Realization (Power BI report)
-    date: "2025-09-25"
+    title: Project Realization Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -181,15 +181,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-tasks
-    title: Project Tasks (Power BI report)
-    date: "2025-09-25"
+    title: Project Tasks for Project Managers Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-timeline
-    title: Project Timeline (Power BI report)
-    date: "2025-04-29"
+    title: Project Timeline Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -202,7 +202,7 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-kpis
-    title: Projects KPIs and measures (Power BI)
+    title: Projects KPIs and Measures (Power BI)
     date: "2025-09-25"
     commit: null
     t: null
@@ -348,27 +348,26 @@ narrative: generated
 
 # Project management analytics
 
-> Project management analytics in Business Central covers the ways to analyze project data: the Power BI Projects app, built-in project reports, ad-hoc Data Analysis on lists, and work-in-process (WIP) monitoring. It answers questions about project KPIs, budget and cost performance, profitability, invoicing, WIP and which report or tool to use.
+> Project management analytics in Business Central covers Power BI reports, ad-hoc data analysis on lists, built-in project reports, and work-in-process (WIP) monitoring. It answers questions about project KPIs, budget performance, profitability, costs, invoicing, and how to choose the right analysis tool.
 
-Path: [Business functionality](../../business-functionality.md) > [Project management](../project-management.md) > Project management analytics · tier official · system projects · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Project management](../project-management.md) > Project management analytics · tier official · system projects · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This area brings together the analysis options for projects. The overview page, Project analytics, introduces the features and the KPIs they help monitor, such as completion rates and cost performance, across different user roles. From there the options split by how much structure you need.
+This area collects the ways to analyze project data in Business Central. The Project analytics page is the entry point. It describes the available features and the KPIs they track, such as completion rates and cost performance, for different user roles.
 
-For ready-made dashboards, the Power BI Projects app subtopic covers the reports, the semantic model and the KPI and measure reference. For printable or standard output, the Built-in project reports subtopic covers quotes, budget comparison, billing, WIP, item usage, journals, registers and resource reports. For quick exploration, the ad-hoc analysis page explains how to use the Data Analysis feature on list pages such as project ledger entries, without running a report.
+Two subtopics go deeper. The Power BI Projects app covers the reports, the semantic model, and the KPI and measure reference. The built-in project reports cover quotes, budget comparison, billing, WIP, item usage, journals, registers, and resource reports. Two further pages cover ad-hoc analysis with the Data Analysis feature and WIP monitoring.
 
-The page on monitoring project progress and performance covers the WIP feature, which estimates the financial value of ongoing projects in the general ledger. Start with Project analytics to pick a route, then go to the specific subtopic or page.
+Start with Project analytics to pick a tool. Use the built-in reports for standard questions about costs, invoicing, or resource usage. Use Power BI for budget, profitability, and timeline views. Use ad-hoc analysis for quick custom views directly from list pages.
 
 ## Key points
 
-- Project analytics is the entry page: it lists Power BI reports, ad-hoc analysis and built-in reports for monitoring project KPIs.
-- The Power BI Projects app covers budget performance, profitability, realization, invoiced sales, tasks and timelines, plus the semantic model and measure reference.
-- Built-in project reports cover quotes, budget comparison, billing, WIP, item usage, journals, registers and resource usage.
-- Ad-hoc analysis uses the Data Analysis feature on list pages such as project ledger entries, with analysis mode, Pivot Mode, Column Labels, Row Groups and a Values area.
-- WIP methods named in the pages: cost value, sales value, recognizable cost, percentage of completion and completed contract.
-- WIP is calculated, then posted to the G/L, and WIP fields can be tracked on the Project Card.
-- WIP setup involves defining the WIP method and grouping by project task.
+- Project analytics gives an overview of the options: Power BI reports, ad-hoc analysis, and built-in project reports.
+- The Power BI Projects app (11 pages) covers reports, the semantic model, and KPI and measure reference for budget performance, profitability, realization, invoiced sales, task progress, and timelines.
+- Built-in project reports (19 pages) cover quotes, budget comparison, billing, WIP, item usage, journals, registers, and resource reports.
+- Ad-hoc analysis uses the Data Analysis feature on list pages, such as project ledger entries, without running a report. It offers Analysis mode and Pivot Mode with Column Labels, Row Groups, and a Values area.
+- WIP estimates the financial value of ongoing projects in the general ledger.
+- WIP methods are cost value, sales value, recognizable cost, percentage of completion, and completed contract. You calculate WIP, post it to G/L, and track WIP fields on the Project Card.
 
 ## Subtopics
 

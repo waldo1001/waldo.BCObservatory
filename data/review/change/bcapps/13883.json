@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/13883",
+  "input_hash": "5d4b703ca85827cb16407699e2b8ac15c599d799f0c4a5d81f1f54fa57d028cb",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-13T00:59:29.577Z",
+  "issues": [
+    "The summary calls the stored value a 'default Quote value'. It is actually an uninitialized 0, because InitValue only applies to new records, and 0 maps to Quote.",
+    "Key points are supported."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024849,
+    "changes_in_call": 6
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:27.474Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -153,7 +153,6 @@ links:
     - post/yzhums-com/67462
   guidelines: []
   changes:
-    - change/al-go/2402
     - change/bcquality/229
 learn_toc_path:
   - Integration with AI
@@ -213,8 +212,7 @@ Start with the introduction, then build the capability, then design the dialog, 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#2402 Move Copilot review engine into AL-Go](../../../../changes/al-go/2402.md) (code change): "Copilot pull request review. A new SetupBCQuality"
-- [#229 Knowledge: Community Copilot domain (System.AI features) and review skill](../../../../changes/bcquality/229.md) (code change): "covering System.AI module best practices like capability registration"
+- [#229 Knowledge: Community Copilot domain (System.AI features) and review skill](../../../../changes/bcquality/229.md) (code change): "Community Copilot articles with good and bad samples: capability registration on install"
 - [Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL](../../../../posts/aardvarklabs-blog/2759.md) (community post): "use Copilot to automatically upgrade raw service technician notes into professional"
 - [Step-by-Step Guide to AI Campaigns in Business Central](../../../../posts/aardvarklabs-blog/2965.md) (community post): "Leverages Business Central's managed AI resource with Bing Grounded Search"
 - [Dynamics 365 Business Central: prepare your extensions to support the Copilot Chat.](../../../../posts/demiliani-com/12927.md) (community post): "Extending Dynamics 365 Business Central with Copilot Chat support"

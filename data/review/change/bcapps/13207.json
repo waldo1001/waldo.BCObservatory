@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13207",
+  "input_hash": "0b09cc997bb6f757cd6975fe9308a3629093561f8162b71bcd564be8b6c4ca86",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-13T00:59:24.081Z",
+  "issues": [
+    "The page accurately reflects the read-time guard, the Pending tables still loaded, and the four regression tests; no cleanup of stored data is claimed."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019877,
+    "changes_in_call": 6
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -94,6 +94,7 @@ links:
     - post/duiliotacconi-com/1457
     - post/duiliotacconi-com/1624
     - post/duiliotacconi-com/2001
+    - post/duiliotacconi-com/2238
     - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
     - post/thinkaboutit-be/8359
     - post/waldo-be/317739
@@ -102,6 +103,8 @@ links:
   guidelines: []
   changes:
     - change/al-go/2229
+    - change/bcapps/13952
+    - change/bcapps/13953
 learn_toc_path:
   - Performance
 toc_file: dev-itpro/TOC.md
@@ -111,7 +114,7 @@ coverage:
   learn: 7
   code: 0
   video: 6
-  blog: 12
+  blog: 13
   guideline: 0
 bc_forms: []
 member_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -140,6 +143,8 @@ Path: Performance · tier official · system platform · no narrative yet
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#2229 Surface empty BCPT results as a warning instead of silent success](../../changes/al-go/2229.md) (code change): "BCPT performance tests produce a results file with no entries"
+- [#13952 Add key on Email Message Attachment Data to speed up email deletion](../../changes/bcapps/13952.md) (code change): "database key is added on the Data field to significantly improve performance"
+- [#13953 Add key on Email Message Attachment Data to speed up email deletion (backport to releases/29.x)](../../changes/bcapps/13953.md) (code change): "Speeds up email deletion operations by eliminating full table scans"
 - [Dynamics 365 Business Central UI performance: what about the browser and the local machine?](../../posts/demiliani-com/13096.md) (community post): "Business Central UI performance depends on network latency, browser capabilities, and local machine hardware"
 - [Dynamics 365 Business Central: understanding the Database Wait Statistics page.](../../posts/demiliani-com/13254.md) (community post): "Understanding wait categories, task counts, wait times, signal waits helps identify performance bottlenecks"
 - [Dynamics 365 Business Central: monitoring your customer’s network speed from telemetry.](../../posts/demiliani-com/13369.md) (community post): "New deviceHardware telemetry node contains CPU cores, memory, network downlink speed and round-trip time"
@@ -147,6 +152,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../../posts/duiliotacconi-com/1457.md) (community post): "introduces a less-locking inventory posting engine and optimizes FlowField calculations on pages"
 - [Dynamics 365 Business Central 2025 Wave 2. What’s New in Performance.](../../posts/duiliotacconi-com/1624.md) (community post): "performance gains are cumulative across versions"
 - [Index Management with Dynamics 365 Business Central 2026 Wave 1](../../posts/duiliotacconi-com/2001.md) (community post): "disable and enable indexes on demand, allowing organizations to improve write performance"
+- [About Online Upgrades to Dynamics 365 Business Central 2026 Wave 2 (v29)](../../posts/duiliotacconi-com/2238.md) (community post): "Storing large BLOB objects in the database instead of external storage dramatically slows upgrades"
 - [Planning Table Indexes for the Best Performance](../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "justify each index by confirming it's actually needed and used"
 - [Directions EMEA 2026, Day 2: Cowork, Agentic Development and Fabric](../../posts/thinkaboutit-be/8359.md) (community post): "Platform improvements include table-extension storage optimization, AL-based index management"
 - [Troubleshooting Series – Ep2 – Admin Center – Sessions](../../posts/waldo-be/317739.md) (community post): "to improve system performance and resolve resource issues"

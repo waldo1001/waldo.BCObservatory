@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:53:59.505Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-13T00:56:40.434Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -95,11 +95,6 @@ links:
       title: "Introducing: Sustainability in Business Central (2024 release wave 1)"
       label: possibly related
       why: both name Page 6221 "Sustainability Setup"
-      by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model
-      title: Power BI Sustainability app semantic model
-      label: possibly related
-      why: names Table 6216 "Sustainability Ledger Entry"
       by: code
     - to: video/UKVp28M5TtU
       title: "What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)"
@@ -324,7 +319,6 @@ Not found in BC28-30: table "ESG Reporting Name", page "ESG Aggregation Reportin
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Introducing: Sustainability in Business Central (2024 release wave 1)](../videos/_ynMUzh956w.md) — possibly related: both name Page 6221 "Sustainability Setup"
-- [Power BI Sustainability app semantic model](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model) — possibly related: names Table 6216 "Sustainability Ledger Entry"
 - [What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)](../videos/UKVp28M5TtU.md) — possibly related: both name Page 6221 "Sustainability Setup"
 - [What's New in Sustainability: Value Chain in Projects (2025 release wave 2)](../videos/Sc8eGyMkBTA.md) — possibly related: both name Page 6221 "Sustainability Setup"
 - [What's New: Post Emissions with the General Journal (2025 release wave 1)](../videos/RaiQPiEdvbg.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"

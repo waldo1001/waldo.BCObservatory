@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:45:23.971Z"
+  at: "2026-11-13T00:51:57.443Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0e9fc28489f16bb3554977b512c7b9dda2d877f4152c0e85093cdea4c994de52
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/System%20Application/App/SharePoint/src/Diagnostics/HTTPDiagnostics.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/System%20Application/App/SharePoint/src/Diagnostics/HTTPDiagnostics.Interface.al
     title: src/System Application/App/SharePoint/src/Diagnostics/HTTPDiagnostics.Interface.al (releases/29.x)
     date: null
-    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
+    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "HTTP Diagnostics" in System Application (System.Integration.Sharepoint). 5 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Integration.Sharepoint · BC23-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/System%20Application/App/SharePoint/src/Diagnostics/HTTPDiagnostics.Interface.al) · facts from BC29
+System Application · System.Integration.Sharepoint · BC23-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/System%20Application/App/SharePoint/src/Diagnostics/HTTPDiagnostics.Interface.al) · facts from BC29
 
 ## Properties
 

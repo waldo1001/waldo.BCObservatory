@@ -6,12 +6,12 @@ summary: Deployment for Business Central on-premises covers planning, component 
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-13T01:01:13.029Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -349,7 +349,7 @@ narrative: generated
 
 > Deployment for Business Central on-premises covers planning, component topology, installing with Setup, service account and database provisioning, certificates, and lifecycle policy. It answers questions about how to plan, install and configure an on-premises environment and where each component goes.
 
-Path: [Business Central on-premises](../business-central-on-premises.md) > Deployment · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: [Business Central on-premises](../business-central-on-premises.md) > Deployment · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

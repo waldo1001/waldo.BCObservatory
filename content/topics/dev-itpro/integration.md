@@ -12,7 +12,7 @@ review:
   at: "2026-11-08T01:01:45.873Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -153,8 +153,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi
-    title: Building reports in Power BI Desktop to display Business Central data
-    date: "2025-10-16"
+    title: Build Power BI Reports with Business Central Data
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null

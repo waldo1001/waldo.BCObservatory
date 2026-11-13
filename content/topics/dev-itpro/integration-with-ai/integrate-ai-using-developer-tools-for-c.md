@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -217,7 +217,9 @@ links:
     - post/thinkaboutit-be/8204
   guidelines: []
   changes:
+    - change/al-go/2402
     - change/al-go/2413
+    - change/bcapps/10205
     - change/bcapps/11073
     - change/bcapps/12428
     - change/bcquality/246
@@ -286,8 +288,10 @@ Start with "What are the developer tools for Copilot?" and "What is considered a
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#2413 Only enable automatic Copilot review triggers when opted in](../../../changes/al-go/2413.md) (code change): "Copilot review workflows ship with only manual dispatch triggers by default"
-- [#11073 Validate image content before sending to Computer Vision](../../../changes/bcapps/11073.md) (code change): "Image Analysis Management now validates image content before sending"
+- [#2402 Move Copilot review engine into AL-Go](../../../changes/al-go/2402.md) (code change): "AL-Go gains a built-in Copilot pull request review"
+- [#2413 Only enable automatic Copilot review triggers when opted in](../../../changes/al-go/2413.md) (code change): "Automatic Copilot review workflow triggers now activate only when explicitly opted in"
+- [#10205 Deprecate Text Completion API in AI SDK (work item 621038)](../../../changes/bcapps/10205.md) (code change): "Text Completion API in the Azure OpenAI AI module is marked obsolete"
+- [#11073 Validate image content before sending to Computer Vision](../../../changes/bcapps/11073.md) (code change): "Image Analysis Management now validates image content before sending to Computer Vision"
 - [#12428 Add Copilot feature trial interface](../../../changes/bcapps/12428.md) (code change): "Added a public Copilot feature trial interface to System Application"
 - [#246 Expose plan guidance as a preview plugin skill](../../../changes/bcquality/246.md) (code change): "BCQuality now exposes plan guidance as a preview plugin skill"
 - [#84 Package BCQuality as an installable plugin (experiment)](../../../changes/bcquality/84.md) (code change): "packages BCQuality as an installable plugin for Copilot CLI"

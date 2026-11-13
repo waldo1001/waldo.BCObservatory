@@ -12,7 +12,7 @@ review:
   at: "2026-11-09T00:45:18.470Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -320,6 +320,7 @@ links:
     - post/demiliani-com/17470
     - post/demiliani-com/17480
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8858724149942666914--7e2682363b
     - post/yzhums-com/63887
     - post/yzhums-com/69394
   guidelines: []
@@ -343,7 +344,7 @@ coverage:
   learn: 113
   code: 0
   video: 0
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms:
   - 19010
@@ -402,6 +403,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central license keys: what changes from version 28.](../../../posts/demiliani-com/17470.md) (community post): "requiring administrators to download a refreshed license file before each version upgrade"
 - [End of .NET 8 support and what it means for Dynamics 365 Business Central on-prem.](../../../posts/demiliani-com/17480.md) (community post): ".NET 8 and .NET 9 reach end of support on November 10, 2026"
 - [October 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be.md) (community post): "Organizations should verify implementation readiness and compatibility with customizations before upgrading"
+- [Business Central is transitioning to .NET 10](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8858724149942666914--7e2682363b.md) (community post): "Business Central is transitioning from .NET 8 to .NET 10"
 - [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (May, 2025)](../../../posts/yzhums-com/63887.md) (community post): "cumulative updates released in May 2025 for Business Central versions BC26, BC25, BC24, and BC23"
 - [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (December, 2025)](../../../posts/yzhums-com/69394.md) (community post): "Cumulative Update Summary for Microsoft Dynamics 365 Business Central"
 

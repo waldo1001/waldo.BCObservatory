@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/development-and-administration/administration-tasks-in-business-central",
-  "input_hash": "7ef675902bcda124d279321945215253cb96038edd4917f00ee46c7857d1a756",
-  "summary": "Administration tasks in Business Central: user access and settings, data control, company creation, job queues, web services, API templates, printers, languages, indexes, table information, page inspection, trials and early feature activation. It answers how-to questions for administrators running an environment.",
-  "overview": "This section collects the day-to-day and setup tasks of a Business Central administrator. The landing page, \"Administrative tasks in Business Central\", gives an overview that covers user creation and permissions, data encryption, job scheduling, document management, and integration with Dynamics 365 Sales and Dataverse. Individual pages then go into detail on each task.\n\nThree subtopics cover larger areas. \"Manage access to Business Central\" deals with licenses, user accounts, permissions, and security groups. \"Manage user settings\" covers company, role, language, region, time zone, and profiles. \"Control your data\" covers auditing, data classification, retention, encryption, deletion, archiving, personal data requests, and database locks.\n\nThe pages on this level cover operations and tuning. They include creating companies with an assisted setup guide, scheduling jobs, publishing web services, configuring API templates, setting default printers, limiting available languages, text search language, index and table information, page inspection, onboarding checklists, trial extension, and enabling upcoming features. Start with the overview page, then go to the subtopic or task page that matches your need.",
+  "input_hash": "8da07920b5bcb00141c48844b2f8ade8f57fe0d3aaa009525ad041fca1fd33f2",
+  "summary": "Administration tasks in Business Central: access and permissions, user settings and profiles, data control, company creation, job queues, web services, printers, languages, indexes and table information. It answers how-to questions for administrators setting up and running an environment.",
+  "overview": "This section collects the day-to-day and setup tasks of a Business Central administrator. The hub's own pages cover single tasks: creating companies with an assisted setup guide, extending a trial, enabling upcoming features through Feature Management, onboarding checklists, default printers, allowed languages, and text search language for multilingual environments.\n\nOther own pages cover technical operations: scheduling jobs on the Job Queue Entries page, publishing objects as OData V4 or SOAP web services, configuring API templates, inspecting pages, managing database indexes per company, and viewing table information for size and compression.\n\nThree subtopics go deeper. Manage access to Business Central covers licenses, users, permissions and security groups. Manage user settings covers profiles and role-based layouts. Control your data covers auditing, classification, encryption, retention and deletion. Start with \"Administrative tasks in Business Central\", then move to the subtopic or task page that fits your need.",
   "key_points": [
-    "Access, user settings, and data control are separate subtopics: licenses, permissions and security groups; profiles, language, region and time zone; auditing, masking, retention, encryption and archiving.",
-    "New companies are created with an assisted setup guide. You can copy a company, use an evaluation template with sample data, or start blank.",
-    "The Job Queue Entries page schedules reports and codeunits to run once or on a recurring basis. It tracks status and can notify on failures.",
-    "Objects can be published as OData V4 or SOAP web services. API Templates set default entity property values for records created through the API, based on conditions.",
-    "Manage database index usage lets you turn nonessential indexes off per company or for all companies to improve write performance. Unique indexes and primary keys cannot be disabled. The Table Information page shows record counts, data and index sizes, and compression types.",
-    "Trials last 30 days and can be extended once by another 30 days. Partners can extend again, and a subscription is needed after 90 days in total.",
-    "Feature Management lets administrators turn on upcoming features early, before mandatory activation.",
-    "Default printers can be set for all users, a specific user, or a specific report in the Printer Management and Printer Selections pages. The Allowed Languages page limits which installed language apps users can pick."
+    "New companies are created with an assisted setup guide: copy a company, use an evaluation template with sample data, or start blank.",
+    "A trial can be extended once by 30 days by the user, partners can extend again, and a subscription is required after 90 days total.",
+    "Feature Management lets administrators enable upcoming features early, before mandatory activation.",
+    "The Job Queue Entries page schedules reports and codeunits one-time or recurring, with status tracking and failure notifications.",
+    "Objects are published as web services via the Web Services page (OData V4; SOAP is deprecated), and users need permissions to access the data.",
+    "Index management works per company: view usage and size, disable nonessential indexes; unique indexes and primary keys cannot be disabled.",
+    "The Table Information page shows record counts, data and index sizes, and compression types for performance troubleshooting.",
+    "Subtopics cover access and permissions, user settings and profiles, and data control (change logs, encryption, retention, privacy requests)."
   ],
   "members_used": 14,
   "subtopics_used": 3,
   "prompt_version": 1,
-  "at": "2026-11-12T00:57:28.779Z",
+  "at": "2026-11-13T01:01:02.702Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.020793
+    "cost_usd": 0.0283048
   }
 }

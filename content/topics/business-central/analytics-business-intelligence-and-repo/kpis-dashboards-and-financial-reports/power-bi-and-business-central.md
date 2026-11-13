@@ -2,7 +2,7 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central
 type: topic
 title: Power BI and Business Central
-summary: Power BI and Business Central covers how to bring Business Central data into Power BI, embed reports in Business Central pages, track KPIs with metrics and scorecards, and analyze Power BI semantic models in Excel. It answers questions about setup, refresh, sharing, and reporting options.
+summary: "Power BI and Business Central covers using Business Central data in Power BI: building dashboards and reports, embedding reports in Business Central pages, tracking KPIs with Power BI Goals, and analyzing semantic models in Excel. It answers questions about getting data out, viewing reports, and refreshing them."
 tier: official
 language: en
 system: reporting
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: ee172b81c41506a9d2214f23dff0b4ff3c7db92fde771de299dc820afb37c6e7
+  input_hash: cc28cdea4398422b1b108a21fa0a8a3d68dad31dc29e42bb1bfaa43897123eef
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-powerbi
@@ -27,15 +27,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/track-kpis-with-power-bi-metrics
-    title: Track your business KPIs with Power BI metrics
-    date: "2024-04-24"
+    title: Power BI Goals for Business Central KPIs
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/powerbi-use-semantic-models-in-excel
-    title: Use Power BI Semantic Models in Excel for Dynamics 365 Business Central Reporting
-    date: "2025-11-12"
+    title: Use Business Central Power BI Semantic Models in Excel
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -92,34 +92,34 @@ narrative: generated
 
 # Power BI and Business Central
 
-> Power BI and Business Central covers how to bring Business Central data into Power BI, embed reports in Business Central pages, track KPIs with metrics and scorecards, and analyze Power BI semantic models in Excel. It answers questions about setup, refresh, sharing, and reporting options.
+> Power BI and Business Central covers using Business Central data in Power BI: building dashboards and reports, embedding reports in Business Central pages, tracking KPIs with Power BI Goals, and analyzing semantic models in Excel. It answers questions about getting data out, viewing reports, and refreshing them.
 
 Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [KPIs, dashboards, and financial reports](../kpis-dashboards-and-financial-reports.md) > Power BI and Business Central · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains how Power BI works with Business Central. It starts with an introduction to the integration: retrieving Business Central data for dashboards and reports, using Power BI apps, embedding reports in Business Central pages, and building custom reports in Power BI Desktop. Data is exposed through API pages and OData, and options such as dataflows, datamarts and the Power Query connector are mentioned.
+This section explains how Business Central and Power BI work together. It starts with an introduction to the integration: how data is exposed (API pages and OData), and the ways to consume it, including Power BI apps, Power BI Desktop, the Power Query connector, dataflows and datamarts, and embedded reports.
 
-The other pages cover specific tasks. One covers working with Power BI reports inside Business Central, including viewing, analyzing, managing, sharing, and manual or scheduled refresh. One covers Power BI metrics for tracking KPIs with scorecards, status rules and alerts. One covers using Power BI semantic models in Excel for ad-hoc reporting with Pivot Tables and Tables.
+The other pages cover specific tasks. One describes viewing, analyzing and managing Power BI reports inside Business Central, with manual or scheduled refresh. One covers Power BI Goals for tracking KPIs with scorecards. One shows how to use Business Central Power BI semantic models in Excel through connected tables and pivot tables.
 
-Start with the introduction to see which approach fits your needs. Then go to the page for the task you have: working with reports in Business Central, KPI tracking, or Excel analysis.
+Start with the introduction to choose an approach, then go to the page for your task: working with reports in Business Central, KPI scorecards, or Excel analysis.
 
 ## Key points
 
-- Business Central data can be retrieved for Power BI through API pages and OData, with a Power Query connector, dataflows and datamarts also covered.
-- Power BI apps for Business Central and embedded Power BI reports let users see reports inside Business Central pages.
-- Power BI Desktop can be used to build custom reports on Business Central data.
-- Reports in Business Central can be refreshed manually or on a schedule, and can be shared.
-- Power BI metrics provide scorecards, connected metrics, automated status rules and alerting, including Teams alerts (2023 release wave 2).
-- Scorecards can be embedded in Business Central.
-- Power BI semantic models can be used in Excel to create Pivot Tables and Tables connected to Business Central Power BI apps.
-- Excel use involves the Power Pivot add-in and model relationships for ad-hoc cross-functional analysis.
+- Business Central data reaches Power BI through API pages and OData, and the Power Query connector.
+- Options include Power BI apps for Business Central, Power BI Desktop custom reports, dataflows and datamarts.
+- Power BI reports can be embedded and viewed in Business Central pages.
+- Reports that use Business Central data can be refreshed manually or on a schedule.
+- Power BI Goals tracks KPIs with scorecards, connected goals and automated status rules.
+- Goals supports Teams notifications and scorecard email subscriptions.
+- Power BI semantic models can be used in Excel via live connection, connected tables and pivot tables.
+- Reports, dashboards and scorecards can be shared.
 
 ## Learn pages
 
 - [Introduction to Business Central and Power BI](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi): Get an overview of using Power BI to get insights from your Business Central data.
-- [Track your business KPIs with Power BI metrics](https://learn.microsoft.com/dynamics365/business-central/track-kpis-with-power-bi-metrics): Get an overview of using Power BI to get business intelligence and KPIs from your Business Central data.
-- [Use Power BI Semantic Models in Excel for Dynamics 365 Business Central Reporting](https://learn.microsoft.com/dynamics365/business-central/powerbi-use-semantic-models-in-excel): Describes how to utilize connections Power BI semantic models in Excel for Business Central reporting.
+- [Power BI Goals for Business Central KPIs](https://learn.microsoft.com/dynamics365/business-central/track-kpis-with-power-bi-metrics): Track Business Central KPIs in Power BI scorecards, connect goals to report data, define automated status rules, and follow progress.
+- [Use Business Central Power BI Semantic Models in Excel](https://learn.microsoft.com/dynamics365/business-central/powerbi-use-semantic-models-in-excel): Connect Excel to Business Central Power BI semantic models to create refreshable tables and PivotTables, and combine data with Power Pivot.
 - [Working with Power BI reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-working-with-powerbi): Get insight, business intelligence, and key performance indicators from your Business Central data with Power BI.
 
 ## Videos and posts

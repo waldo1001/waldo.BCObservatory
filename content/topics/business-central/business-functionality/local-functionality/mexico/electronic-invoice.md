@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:02:59.703Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,8 +70,6 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes:
-    - change/bcapps/8183
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -149,12 +147,6 @@ Once setup is done, "Electronic Invoicing in the Mexican Version" gives the over
   - In the observatory: [Page 1 "Company Information"](../../../../../objects/page/1.md), [Page 10 "Countries/Regions"](../../../../../objects/page/10.md), [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 209 "Units of Measure"](../../../../../objects/page/209.md), [Page 35603 "Vendors (RU)"](../../../../../objects/page/35603-ru.md), [Page 36954 "Customers"](../../../../../objects/page/36954.md)
 - [Set Up PAC Web Services in Mexico](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-set-up-pac-web-services): To send electronic invoices and credit memos in Mexico, you need to specify at least one provider for the required electronic stamp.
   - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md)
-
-## Videos, posts and code changes
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [#8183 Handle failure to manually create E-Document from posted doc with no …](../../../../../changes/bcapps/8183.md) (code change): "E-Document creation now correctly reports failure when a posted document cannot be converted"
 
 ## Business Central pages and reports
 

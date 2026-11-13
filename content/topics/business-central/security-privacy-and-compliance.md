@@ -11,7 +11,7 @@ review:
   at: "2026-10-30T08:08:42.971Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,7 +41,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/personal-security
     title: Personal Security Best Practices for Business Central Users
-    date: "2025-12-04"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -61,8 +61,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/privacy-connected-services
-    title: Trial Features that Connect to Other Microsoft Services
-    date: "2025-07-24"
+    title: Trial Features That Connect to Other Microsoft Services
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null

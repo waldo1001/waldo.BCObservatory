@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:00:59.550Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-13T00:56:40.434Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -155,11 +155,6 @@ links:
   posts: []
   guidelines: []
   related:
-    - to: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model
-      title: Power BI Sustainability app semantic model
-      label: possibly related
-      why: names Table 6216 "Sustainability Ledger Entry"
-      by: code
     - to: video/tzX0qB9tiBs
       title: "What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)"
       label: possibly related
@@ -388,7 +383,6 @@ Not found in BC28-30: table "Sustainability Journal", table "General Journal".
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
-- [Power BI Sustainability app semantic model](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model) — possibly related: names Table 6216 "Sustainability Ledger Entry"
 - [What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)](../videos/tzX0qB9tiBs.md) — possibly related: both name Table 5832 "Capacity Ledger Entry"
 - [What's new in SCM: Subcontracting (2026 release wave 2)](../videos/QdWPlIV3Avk.md) — possibly related: both name Table 5832 "Capacity Ledger Entry"
 - [What's New in Sustainability: Reporting CSRD (2025 release wave 2)](../videos/qPInVj03wkY.md) — possibly related: both name Table 6216 "Sustainability Ledger Entry"

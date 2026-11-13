@@ -1,40 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi/report-creator",
-  "input_hash": "174c4737f7cb3733070c0369d1d10197453e82c6a3758cb90858bca9c638f2be",
-  "summary": "Report creator covers building Power BI reports on Business Central data. It answers questions about creating reports in Power BI Desktop with the connector, APIs and OData web services, and about preparing reports to show in Power BI FactBoxes on list pages.",
-  "overview": "This section is for people who author Power BI reports that use Business Central data. It has two pages. One covers building reports in Power BI Desktop. The other covers making a report display correctly inside Business Central.\n\nThe Desktop page explains how to connect to Business Central through the Power BI Desktop connector, using APIs or OData web services. It also covers advanced query options, custom Power Query functions, cross-company reporting and a read-only replica, and publishing reports so the organization can share them.\n\nThe second page focuses on reports shown in the Power BI FactBox on list pages. It covers naming conventions, sizing, and filtering, including filtering by primary key. Start with the Desktop page to build the report, then use the display page to prepare it for FactBox use.",
+  "input_hash": "b2b395c34b9bf7b2c717f3a54d3fb7aa8278fba5af693d8e8ba21574132eabd1",
+  "summary": "Report creator covers building Power BI reports from Business Central data in Power BI Desktop, and embedding custom reports in Business Central list pages through the Power BI FactBox. It answers questions about connecting via APIs or OData web services, customizing Power Query, filtering by primary keys, and troubleshooting connections.",
+  "overview": "This section is for people who create their own Power BI reports on Business Central data. It has two pages that cover two directions: getting data out of Business Central into Power BI Desktop, and bringing finished reports back into Business Central.\n\nThe first page explains how to use Business Central as a data source in Power BI Desktop. It covers connecting through APIs or web services, adjusting the Power Query code, read-only replica configuration, cross-company reporting, and common connection problems. The second page explains how to create a custom report, set up filters with primary keys, and show the report in the Power BI FactBox on list pages. It mentions version 27.\n\nStart with the first page to build and publish a report. Then use the second page to embed it in Business Central.",
   "key_points": [
-    "Power BI Desktop connects to Business Central data through its connector, using APIs or OData web services.",
-    "Advanced query options and custom Power Query functions are available when building reports.",
-    "Cross-company reporting and a read-only replica are covered for Power BI Desktop reports.",
-    "Reports are published from Power BI Desktop so they can be shared across the organization.",
-    "Custom reports for Business Central list pages are shown in Power BI FactBox controls.",
-    "FactBox reports need proper naming conventions and sizing.",
-    "Report filtering for FactBox display includes filtering by primary key.",
-    "Report publishing is part of preparing a custom report for display in Business Central."
+    "Power BI Desktop can use Business Central as a data source through the Business Central connector.",
+    "Data can be pulled from API data sources or OData web services.",
+    "Power Query code can be customized after connecting.",
+    "The build guide covers read-only replica configuration and cross-company reporting.",
+    "The build guide includes troubleshooting for common connection issues.",
+    "Custom reports can be embedded in Business Central list pages through the Power BI FactBox.",
+    "Report filtering for embedded reports uses primary keys.",
+    "The embedding page covers multi-page reports, report sizing and colors, and mentions version 27."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:04:56.233Z",
+  "at": "2026-11-13T01:00:26.183Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.009101
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:23:50.333Z",
-    "verdict": "fix",
-    "issues": [
-      "Key point 8 says publishing is required before a report can be displayed in Business Central. The sources only list 'report publishing' as a feature of the display page and never say it is a prerequisite. I reworded it to stick to what the sources support.",
-      "Key point 7 says primary key filtering makes a FactBox report show data for the selected record. That goes beyond the source, which only lists 'primary key filtering'. I softened it.",
-      "Key point 1 treats the connector, APIs and OData web services as three alternative routes. The overview gets this right: the connector is the tool, and APIs and OData web services are the data sources. I aligned the key point with the overview.",
-      "Key point 3 calls cross-company reporting and the read-only replica 'data access options'. The sources don't use that wording, so I made it neutral.",
-      "The summary and overview are supported by the page summaries and need no changes."
-    ],
-    "input_hash": "174c4737f7cb3733070c0369d1d10197453e82c6a3758cb90858bca9c638f2be",
-    "cost_usd": 0.032831200000000005
+    "cost_usd": 0.009361
   }
 }

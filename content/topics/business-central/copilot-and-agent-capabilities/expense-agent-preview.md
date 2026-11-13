@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -131,29 +131,43 @@ links:
     - video/tj1vvsmAMVs
     - video/vyQnSxRGJDA
   posts:
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4301562050938159536--2f22daf241
     - post/thinkaboutit-be/8348
   guidelines: []
   changes:
     - change/bcapps/10461
     - change/bcapps/10631
+    - change/bcapps/11040
+    - change/bcapps/11375
     - change/bcapps/11740
-    - change/bcapps/11997
+    - change/bcapps/11909
+    - change/bcapps/11955
     - change/bcapps/12147
+    - change/bcapps/12472
     - change/bcapps/12514
     - change/bcapps/12539
     - change/bcapps/12599
     - change/bcapps/12763
     - change/bcapps/12810
+    - change/bcapps/12821
     - change/bcapps/12882
     - change/bcapps/12910
     - change/bcapps/12985
     - change/bcapps/13058
+    - change/bcapps/13182
     - change/bcapps/13184
     - change/bcapps/13185
     - change/bcapps/13460
+    - change/bcapps/13499
     - change/bcapps/13504
     - change/bcapps/13569
+    - change/bcapps/13599
+    - change/bcapps/13672
+    - change/bcapps/13690
     - change/bcapps/13721
+    - change/bcapps/13730
+    - change/bcapps/13760
+    - change/bcapps/13792
 learn_toc_path:
   - Copilot and agent capabilities
   - Expense Agent (preview)
@@ -165,7 +179,7 @@ coverage:
   learn: 11
   code: 3
   video: 16
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 4400
@@ -223,24 +237,38 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10461 [SOA] Uptake Agent Task Message Failed status for outbound replies](../../../changes/bcapps/10461.md) (code change): "Sales Order Agent now marks outbound replies as Failed when they exhaust their retry budget"
 - [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "Expense Agent gains policy evaluation tables, pages, enums and APIs"
+- [#11040 [Agent Archiving] Payables and Expense agent implementation for IAgentArchiving](../../../changes/bcapps/11040.md) (code change): "Payables and Expense agents now implement the IAgentArchiving interface"
+- [#11375 Obsolete GPT-5.5 chat and add GPT-5.6 Ceres deployments](../../../changes/bcapps/11375.md) (code change): "Sales Order Agent attachment extraction and item search now use them"
 - [#11740 Bug 636971: [Expense Agent] EA Scheduler Task table grows unbounded with no cleanup or UI visibility](../../../changes/bcapps/11740.md) (code change): "The Expense Agent now calls an existing cleanup function"
-- [#11997 Clarify Expense Agent Entra app permission checks](../../../changes/bcapps/11997.md) (code change): "Permission checks for the Expense Agent Entra app have been reordered"
+- [#11909 Block guest users from managing Expense Agent](../../../changes/bcapps/11909.md) (code change): "Guest users and external administrators can no longer enable or disable Expense Agent"
+- [#11955 Slice 626975: [Expense Agent] Alternate approvers - Delegated/Substitutes (November '26)](../../../changes/bcapps/11955.md) (code change): "Expense Agent adds alternate approvers for expense approvals"
 - [#12147 Bugs/add corp card basics](../../../changes/bcapps/12147.md) (code change): "Corporate card functionality is added to the Expense Agent"
-- [#12514 Revert Expense API test re-enablement and consolidated fixes](../../../changes/bcapps/12514.md) (code change): "Fully reverts the earlier commit that re-enabled Expense API tests"
+- [#12472 Expense Agent Default VAT Setup fails in localized companies](../../../changes/bcapps/12472.md) (code change): "Expense Agent Default VAT Setup is corrected to work properly"
+- [#12514 Revert Expense API test re-enablement and consolidated fixes](../../../changes/bcapps/12514.md) (code change): "Fully reverts the earlier commit from #12325 that re-enabled Expense API tests"
 - [#12539 Add Expense Agent consumption V2 and trial support](../../../changes/bcapps/12539.md) (code change): "Expense Agent adds a V2 consumption API and a 50-expense feature trial"
-- [#12599 [Master] - Slice 629913: [Expense Agent][VENDOR] Enforced background itemization required for approvals](../../../changes/bcapps/12599.md) (code change): "Expense Agent now requires itemization when an enabled Expense Policy"
+- [#12599 [Master] - Slice 629913: [Expense Agent][VENDOR] Enforced background itemization required for approvals](../../../changes/bcapps/12599.md) (code change): "Policy-enforced itemization is required when an enabled policy with text applies"
 - [#12763 [Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: "'IndirectInsert' permission on TableData 6913 'Expense Pmt Method" - 2610091420000495](../../../changes/bcapps/12763.md) (code change): "Expense Agent delegated admin partner entitlements are updated to grant"
 - [#12810 ExpenseAgent-CAUS-default-VAT-setup-fails](../../../changes/bcapps/12810.md) (code change): "Fixes the Expense Agent default VAT setup failing"
+- [#12821 [SOA] Copy manual task attachments to sales quotes](../../../changes/bcapps/12821.md) (code change): "Sales Order Agent now copies manual task attachments to sales quotes"
 - [#12882 [Master] - Bug 651169: [Expense Agent] Exchange rate date limitation](../../../changes/bcapps/12882.md) (code change): "Expense Agent now correctly handles exchange rate dates for transactions"
-- [#12910 [Master] - Bug 652243: [Expense Agent] Validate approval user email](../../../changes/bcapps/12910.md) (code change): "Expense Agent now validates the approval user email"
+- [#12910 [Master] - Bug 652243: [Expense Agent] Validate approval user email](../../../changes/bcapps/12910.md) (code change): "Expense Agent now validates the approval user email on the Expense User table"
 - [#12985 [Master] - Bug 654115: [Expense Agent] Cannot submit report with a non-refundable Employee Paid line: 'nothing to refund' blocks release, report stuck in draft](../../../changes/bcapps/12985.md) (code change): "expense reports with non-refundable employee paid lines couldn't be submitted"
-- [#13058 Bug 656064: Expense Agent: Itemization table holds unrounded values, leading to rounding errors. Also missing currency code.](../../../changes/bcapps/13058.md) (code change): "Expense itemization records now store properly rounded currency amounts"
-- [#13184 [29.x] - Bug 656485: [Expense Agent] Add a View rules link below Enforce management rules.](../../../changes/bcapps/13184.md) (code change): "View rules link was added below the Enforce management rules setting"
+- [#13058 Bug 656064: Expense Agent: Itemization table holds unrounded values, leading to rounding errors. Also missing currency code.](../../../changes/bcapps/13058.md) (code change): "Expense Agent: Itemization table holds unrounded values, leading to rounding errors"
+- [#13182 [Master] - Bug 656364: [Expense Agent] Add a View rules link below Enforce management rules](../../../changes/bcapps/13182.md) (code change): "A View rules link was added below the Enforce management rules setting"
+- [#13184 [29.x] - Bug 656485: [Expense Agent] Add a View rules link below Enforce management rules.](../../../changes/bcapps/13184.md) (code change): "A View rules link was added below the Enforce management rules setting"
 - [#13185 [Master] - Bug 656372: [Expense Agent] Fix itemization rounding and missing currency code.](../../../changes/bcapps/13185.md) (code change): "Fixes rounding of Expense Agent itemization amounts and a missing currency code"
 - [#13460 [Master] Fix Expense Agent account filters with special characters](../../../changes/bcapps/13460.md) (code change): "Expense Agent now properly handles G/L account lookups when account names"
+- [#13499 [Expense Agent] Defer per-diem policy invalidation until the parent line is saved](../../../changes/bcapps/13499.md) (code change): "Per-diem policy invalidation on expense report lines is deferred"
 - [#13504 Exposing-VAT-settings-on-category-card](../../../changes/bcapps/13504.md) (code change): "VAT settings are now exposed on the Expense Category Card page"
-- [#13569 Update expense policy defaults, caption, and search terms](../../../changes/bcapps/13569.md) (code change): "Expense Agent setups enable policy evaluation by default"
-- [#13721 [Expense Agent] Create per diem line when approving travel requests with Per Diem Included](../../../changes/bcapps/13721.md) (code change): "Expense Agent Create per diem line when approving travel requests with Per Diem Included"
+- [#13569 Update expense policy defaults, caption, and search terms](../../../changes/bcapps/13569.md) (code change): "new Expense Agent setups enable policy evaluation by default"
+- [#13599 [SOA] Setup can be saved while the agent remains inactive without warning](../../../changes/bcapps/13599.md) (code change): "Sales Order Agent setup page now shows a confirmation when saving an inactive agent"
+- [#13672 Expense Agent: expose VAT setup in configuration wizard](../../../changes/bcapps/13672.md) (code change): "Expense Agent Setup Wizard now exposes VAT configuration controls"
+- [#13690 [Main] - Bug 657870: [ExpenseAgent] Allow assigning interim approvers via API before expense reports are pending approval](../../../changes/bcapps/13690.md) (code change): "Interim approvers can now be assigned via API before an expense report is submitted"
+- [#13721 [Expense Agent] Create per diem line when approving travel requests with Per Diem Included](../../../changes/bcapps/13721.md) (code change): "Approving a Per Diem Included travel request adds a per diem line to each traveler's newly created expense report"
+- [#13730 [Expense Agent] Initialize missing vendor numbering after upgrade](../../../changes/bcapps/13730.md) (code change): "Initialize missing vendor number series for the Expense Agent"
+- [#13760 [Expense Agent] Allow receipt submission with unresolved VAT setup](../../../changes/bcapps/13760.md) (code change): "Expense Agent receipts can now be submitted and added to expense reports even when VAT accounting mappings are incomplete"
+- [#13792 [main] Add Is Feature Trial to legacy Expense Agent Consumption](../../../changes/bcapps/13792.md) (code change): "legacy Expense Agent Consumption table to restore schema parity"
+- [Expense Agent just got half as expensive, and you can now try it for free](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4301562050938159536--2f22daf241.md) (community post): "Expense Agent pricing is cut in half to 25 Copilot Credits"
 - [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../../../posts/thinkaboutit-be/8348.md) (community post): "It also covers Business Skills, the Expense Agent and what AI interaction means"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "expense agent; mobile app; receipt scanning; mileage tracking; offline mode"
 - [Expense Agent: Feedback (2026 release wave 1)](../../../videos/6rm45dSB6xg.md) (video): "Expense Agent: Feedback (2026 release wave 1). Topics: feedback; agent; user experience"

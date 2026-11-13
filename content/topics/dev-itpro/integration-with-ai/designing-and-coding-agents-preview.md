@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -222,17 +222,11 @@ links:
     - post/jeremyvyska-com/1739
     - post/kauffmann-nl/8436
     - post/yzhums-com/70502
-    - post/yzhums-com/71363
   guidelines: []
   changes:
-    - change/bcapps/10386
-    - change/bcapps/10431
-    - change/bcapps/11040
-    - change/bcapps/12817
-    - change/bcapps/12894
-    - change/bcapps/13172
-    - change/bcapps/13495
+    - change/bcapps/13761
     - change/bcapps/8967
+    - change/bcapps/9359
     - change/bcapps/9910
     - change/bcquality/137
     - change/bcquality/155
@@ -250,7 +244,7 @@ coverage:
   learn: 23
   code: 0
   video: 8
-  blog: 11
+  blog: 10
   guideline: 0
 bc_forms: []
 member_hash: 2363f50364b2a6e5ec17552aa75d99987877fc7bce7ed791a7189963ccc729d0
@@ -310,20 +304,15 @@ For developers, "Integrate with the Tasks AL API" shows how to detect agent sess
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10386 [Agent Archiving] Prevent archived custom agents from being modified](../../../changes/bcapps/10386.md) (code change): "Prevent archived custom agents from being modified. Archived custom agents"
-- [#10431 [Agent Archiving] Fix broken reference links to archived agents and their tasks](../../../changes/bcapps/10431.md) (code change): "Links to an archived agent now open the Agent Card"
-- [#11040 [Agent Archiving] Payables and Expense agent implementation for IAgentArchiving](../../../changes/bcapps/11040.md) (code change): "Payables and Expense agents now implement the IAgentArchiving interface"
-- [#12817 [SOA] Use company display name in default email signature](../../../changes/bcapps/12817.md) (code change): "Sales Order Agent now uses company display name instead of internal company identifier"
-- [#12894 [PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice](../../../changes/bcapps/12894.md) (code change): "creates purchase credit memos instead of invoices"
-- [#13172 Export structured AI eval run data](../../../changes/bcapps/13172.md) (code change): "AI Eval run data can now be exported in a structured form from the AI Test Toolkit"
-- [#13495 Migrate SOA auxiliary calls to GPT-5.6 and refine date-filter handling](../../../changes/bcapps/13495.md) (code change): "Sales Order Agent now uses GPT-5.6 Ceres instead of GPT-4.1 for auxiliary"
-- [#8967 Ability to archive agents](../../../changes/bcapps/8967.md) (code change): "Agents can now be archived by admins from the Agent List and Card"
+- [#13761 SOA search selection adjustments](../../../changes/bcapps/13761.md) (code change): "Sales Order Agent's broader item search was adjusted"
+- [#8967 Ability to archive agents](../../../changes/bcapps/8967.md) (code change): "Agents can now be archived by admins from the Agent List"
+- [#9359 Sales Order Agent: ignore attachments larger than 25 MB during email retrieval](../../../changes/bcapps/9359.md) (code change): "Sales Order Agent now ignores email attachments larger than 25 MB"
 - [#9910 [SOA] Move attachment processing to direct model reading](../../../changes/bcapps/9910.md) (code change): "Sales Order Agent now processes PDF and image attachments directly with GPT-4"
-- [#137 Add community guidance and review support for Business Central agents](../../../changes/bcquality/137.md) (code change): "Business Central agent developers gain 20 community-authored guidance rules"
+- [#137 Add community guidance and review support for Business Central agents](../../../changes/bcquality/137.md) (code change): "Business Central agent developers gain 20 community-authored guidance rules covering agent registration"
 - [#155 Add read-only AL development plan guidance](../../../changes/bcquality/155.md) (code change): "BCQuality introduces a provisional read-only contract for enriching AL development plans"
 - [#182 Add machine-readable review orchestration contract](../../../changes/bcquality/182.md) (code change): "BCQuality now generates a deterministic, machine-readable skill index from review frontmatter"
 - [#222 Add cited knowledge consultation skill for Business Central](../../../changes/bcquality/222.md) (code change): "A new knowledge consultation skill allows AL development agents to request guidance"
-- [#231 al-agents-review: derive the target BC version from app.json](../../../changes/bcquality/231.md) (code change): "al-agents-review skill now derives the target Business Central version"
+- [#231 al-agents-review: derive the target BC version from app.json](../../../changes/bcquality/231.md) (code change): "al-agents-review skill now derives the target Business Central version from app.json"
 - [Step-by-Step Guide: Create Agents in AL Code](../../../posts/aardvarklabs-blog/3097.md) (community post): "Building agents in Business Central AL involves creating setup tables"
 - [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../../../posts/aardvarklabs-blog/3348.md) (community post): "secure AI agents in Business Central by implementing restrictive profiles"
 - [Agents in Business Central – part 2 – the prompt](../../../posts/bertverbeek-nl/1237.md) (community post): "Building effective agents in Business Central requires well-structured prompts"
@@ -333,8 +322,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Directions EMEA 2026 Reflections](../../../posts/freddysblog/https-freddysblog-com-2026-11-07-directions-emea-2026--4bd603011b.md) (community post): "AI agents are already giving partners efficiency and quality gains"
 - [Agentic Development Training Spring/Summer 2026](../../../posts/jeremyvyska-com/1739.md) (community post): "teaches Business Central developers how to build AI-powered agentic workflows for development tasks"
 - [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Production agents require manual conversion to AL code"
-- [Business Central 2025 wave 2 (BC27.4): Envision and design AI agents in Business Central (Custom Agent)](../../../posts/yzhums-com/70502.md) (community post): "Custom agents interpret natural language business goals and translate them into actionable steps"
-- [Business Central 2026 release wave 1 (BC28): New template for getting started with creating agents](../../../posts/yzhums-com/71363.md) (community post): "A new Agent template is available via the AL: New Project command"
+- [Business Central 2025 wave 2 (BC27.4): Envision and design AI agents in Business Central (Custom Agent)](../../../posts/yzhums-com/70502.md) (community post): "users build custom AI agents that turn natural language goals into actions"
 - [What's New: AI Development Toolkit (2026 release wave 1)](../../../videos/juUBVPfIp8A.md) (video): "AI Development Toolkit; agent development and design"
 - [Introducing: Envision, Design and Code Business Central Agents](../../../videos/jWqjDTbqjeE.md) (video): "Introducing: Envision, Design and Code Business Central Agents"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../videos/MNwTt06ZxwY.md) (video): "agents; agent configuration; permissions; profiles; instructions"

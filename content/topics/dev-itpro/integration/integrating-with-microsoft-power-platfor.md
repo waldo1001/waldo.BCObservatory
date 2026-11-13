@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -34,8 +34,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi
-    title: Building reports in Power BI Desktop to display Business Central data
-    date: "2025-10-16"
+    title: Build Power BI Reports with Business Central Data
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -55,8 +55,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-powerbi-reports-factbox
-    title: Display custom Power BI reports
-    date: "2025-10-16"
+    title: Display Custom Power BI Reports in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -111,8 +111,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview
-    title: Power BI integration component and architecture overview for Business Central| Microsoft Docs
-    date: "2024-04-26"
+    title: Power BI Integration Architecture for Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -172,6 +172,7 @@ links:
   guidelines: []
   changes:
     - change/al-go/2346
+    - change/bcapps/12947
     - change/bcapps/13692
 learn_toc_path:
   - Integration
@@ -235,6 +236,7 @@ Power Pages on virtual tables is a separate page in this section. It is a previe
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#2346 Pin all actions that are not currently pinned](../../../changes/al-go/2346.md) (code change): "Unpinned action references are pinned in Power Platform action.yaml files"
+- [#12947 [MCP] Provide environment and company descriptions to the platform](../../../changes/bcapps/12947.md) (code change): "MCP server can now return company descriptions"
 - [#13692 Fix SharePoint REST upload 404 caused by trailing slash in parent folder](../../../changes/bcapps/13692.md) (code change): "SharePoint REST upload 404 caused by trailing slash"
 - [DynamicsMinds 2025 - PortoroÅ¾, Slovenia](../../../posts/wingate365-com/https-blog-wingate365-com-2025-08-dynamicsminds-2025-portoroz-slovenia-html--fc223b1359.md) (community post): "BC to PP integration techniques, from lo-code through Virtual Tables and BC Data Sync"
 - [What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers](../../../videos/gAzmWJg9Z5g.md) (video): "Power Platform Integration Documentation"

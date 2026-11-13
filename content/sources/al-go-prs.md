@@ -2,7 +2,7 @@
 id: source/al-go-prs
 type: source
 title: microsoft/AL-Go pull requests
-summary: "microsoft/AL-Go pull requests: 40 code changes in the knowledge base, 2026-07-10 to 2026-11-06, mostly about platform, development, copilot."
+summary: "microsoft/AL-Go pull requests: 41 code changes in the knowledge base, 2026-07-10 to 2026-11-12, mostly about platform, development, copilot."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T00:19:04.246Z"
+  at: "2026-11-13T00:13:31.718Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ae4c1f33d9fb28bdd48b041a4c1435b6cbfbefe27875e58cd212486c35703c85
+  input_hash: f48b0ef096ee0a5dc315bad87d422d5d8de3bd73f2b5a39f4a82f4b305fa209d
 evidence:
   - kind: code
     url: https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged
@@ -75,28 +75,29 @@ links:
     - change/al-go/2434
     - change/al-go/2440
     - change/al-go/2433
+    - change/al-go/2457
 source_id: al-go-prs
 kind: github-pr
 url: https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 40
+item_count: 41
 footprint:
   systems:
     - id: platform
-      weight: 60
+      weight: 61
     - id: development
-      weight: 35
+      weight: 37
     - id: copilot
       weight: 4
     - id: integration
       weight: 2
   topics:
     - id: main
-      weight: 40
+      weight: 41
     - id: fix
-      weight: 26
+      weight: 27
     - id: feature
       weight: 12
     - id: other
@@ -106,12 +107,12 @@ footprint:
   objects: []
   features: []
 first_item: "2026-07-10"
-last_item: "2026-11-06"
+last_item: "2026-11-12"
 ---
 
 # microsoft/AL-Go pull requests
 
-> microsoft/AL-Go pull requests: 40 code changes in the knowledge base, 2026-07-10 to 2026-11-06, mostly about platform, development, copilot.
+> microsoft/AL-Go pull requests: 41 code changes in the knowledge base, 2026-07-10 to 2026-11-12, mostly about platform, development, copilot.
 
 [https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -119,8 +120,8 @@ last_item: "2026-11-06"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| platform (60) | main (40) |  |
-| development (35) | fix (26) |  |
+| platform (61) | main (41) |  |
+| development (37) | fix (27) |  |
 | copilot (4) | feature (12) |  |
 | integration (2) | other (1) |  |
 |  | refactor (1) |  |
@@ -130,10 +131,11 @@ last_item: "2026-11-06"
 Items per quarter, oldest first:
 
 - 2026-Q3: ************************** 26
-- 2026-Q4: ************** 14
+- 2026-Q4: *************** 15
 
 ## Most recent
 
+- [#2457 Fixing codeunit discovery on PowerShell 5 for RunTests action.](../changes/al-go/2457.md) (2026-11-12)
 - [#2433 Fix workspace compilation with versioning strategy 3](../changes/al-go/2433.md) (2026-11-06)
 - [#2440 Sort artifacts by creation time when determining latest artifacts for release](../changes/al-go/2440.md) (2026-11-06)
 - [#2434 Retry artifact and CI/CD lookup requests](../changes/al-go/2434.md) (2026-11-06)
@@ -153,6 +155,5 @@ Items per quarter, oldest first:
 - [#2379 Avoid CI/CD runs for template SHA-only system updates](../changes/al-go/2379.md) (2026-09-30)
 - [#2378 Retry CI/CD baseline discovery when no eligible run is found](../changes/al-go/2378.md) (2026-09-29)
 - [#2380 Fix device login initialization with a shared authentication action](../changes/al-go/2380.md) (2026-09-29)
-- [#2376 fix: modified files with umlauts](../changes/al-go/2376.md) (2026-09-21)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

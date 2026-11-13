@@ -2,7 +2,7 @@
 id: topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi
 type: topic
 title: Microsoft Power BI
-summary: "Power BI integration with Business Central: licensing, enabling data access through API pages and OData web services, building reports in Power BI Desktop, embedding reports in Business Central pages, and using prebuilt Power BI apps. It answers setup, report creation, and usage questions for online and on-premises deployments."
+summary: "Power BI integration with Business Central: how data is exposed (API pages, OData web services), how to build reports in Power BI Desktop, how to embed reports in Business Central pages, and which prebuilt apps exist. It answers setup, licensing, architecture, on-premises connection and report-management questions."
 tier: official
 language: en
 system: reporting
@@ -12,30 +12,30 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 862c49ef3ddb973c52a7abdd590b84ecddc14e9a068d4e231784d0162c3568fb
+  input_hash: 5ee3b902c325f1b404a965b93873d379abc599ec0b8da9d0671879387eae06e9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi
-    title: Building reports in Power BI Desktop to display Business Central data
-    date: "2025-10-16"
+    title: Build Power BI Reports with Business Central Data
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-working-with-business-central-in-powerbi
-    title: Connect to Power BI from Business Central on-premises| Microsoft Docs
-    date: "2025-10-23"
+    title: Connect Power BI to Business Central On-Premises
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-powerbi-reports-factbox
-    title: Display custom Power BI reports
-    date: "2025-10-16"
+    title: Display Custom Power BI Reports in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -62,8 +62,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview
-    title: Power BI integration component and architecture overview for Business Central| Microsoft Docs
-    date: "2024-04-26"
+    title: Power BI Integration Architecture for Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -119,39 +119,37 @@ narrative: generated
 
 # Microsoft Power BI
 
-> Power BI integration with Business Central: licensing, enabling data access through API pages and OData web services, building reports in Power BI Desktop, embedding reports in Business Central pages, and using prebuilt Power BI apps. It answers setup, report creation, and usage questions for online and on-premises deployments.
+> Power BI integration with Business Central: how data is exposed (API pages, OData web services), how to build reports in Power BI Desktop, how to embed reports in Business Central pages, and which prebuilt apps exist. It answers setup, licensing, architecture, on-premises connection and report-management questions.
 
 Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Power Platform](../microsoft-power-platform.md) > Microsoft Power BI · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Power BI integration lets you retrieve Business Central data to build dashboards and reports, and show Power BI reports inside Business Central. Data is exposed through API pages and OData web services. The Power BI Desktop connector and Power Query are used to build reports. Online environments use read-only database replicas for reporting.
+This section covers connecting Business Central to Power BI in both directions. Business Central data can be pulled into Power BI through the Power BI Desktop connector, API pages or OData web services, and Power BI reports can be shown inside Business Central, for example in the Power BI FactBox on list pages and on role centers.
 
-The pages follow a path from concept to practice. Start with the introduction and the architecture overview to see the components. Then use the enabling page for licensing and configuration. The on-premises page covers the extra steps: OData web services, access keys, and a Microsoft Entra ID app registration.
-
-For building and using reports, the Power BI Desktop page covers connecting and publishing, and the custom reports page covers naming, sizing, and filtering for FactBox display on list pages. The functional areas page lists the prebuilt Power BI apps. The last page covers viewing, refreshing, and sharing reports inside Business Central.
+The pages fit together in a sequence. Start with the introduction and the architecture page to understand the components, including read-only database replicas and read scale-out. Then use the enabling page for licensing and setup, and the on-premises page if you run Business Central on-premises. The report-building pages explain how to create reports from Business Central data and how to embed custom reports. The functional-area page lists the prebuilt Power BI apps, and the last page covers viewing, refreshing and sharing reports in Business Central.
 
 ## Key points
 
-- Data reaches Power BI through API pages and OData web services; dataflows and datamarts are also mentioned.
-- Both Power BI free and Pro licenses are covered in the enabling page.
-- On-premises setup needs authentication configuration, OData web services (ODataV4 endpoint), a web service access key, and a Microsoft Entra ID app registration.
-- Online environments use a read-only database replica for reporting.
-- Power BI Desktop reports can use the connector, advanced query options, custom Power Query functions, and cross-company reporting, then be published for sharing.
-- Custom reports for Business Central list pages need proper naming, sizing, and primary key filtering to appear in the Power BI FactBox.
-- Prebuilt Power BI apps cover Finance, Sales, Purchasing, Inventory, Inventory Valuation, Projects, Manufacturing, Sustainability, and Subscription Billing.
-- Reports in Business Central can be refreshed manually or on a schedule, and shared.
+- Data is exposed to Power BI through API pages and OData web services, and the Power Query connector in Power BI Desktop reads it.
+- Setup covers Power BI free and Pro licensing, with configuration for online and on-premises deployments.
+- On-premises connection requires enabling OData web services, choosing NavUserPassword or Microsoft Entra ID authentication, assigning a web service access key, and registering an Azure application.
+- Custom reports can be embedded in list pages through the Power BI FactBox, filtered with primary keys, and can be multi-page; the page mentions version 27.
+- Prebuilt Power BI apps exist for Finance, Sales, Purchasing, Inventory, Inventory Valuation, Projects, Manufacturing, Sustainability and Subscription Billing.
+- Reports built in Power BI Desktop can be customized in Power Query, use read-only replica configuration, and support cross-company reporting.
+- Reports in Business Central can be refreshed manually or on a schedule and shared; dataflows and datamarts are also options.
+- The architecture covers connectors, embedded report viewing, report management, default reports on role centers, and database read scale-out.
 
 ## Learn pages
 
-- [Building reports in Power BI Desktop to display Business Central data](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi): Learn how to make your data a Power BI source and build insightful business reports.
-- [Connect to Power BI from Business Central on-premises\| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/across-working-with-business-central-in-powerbi): Get insight, business intelligence, and KPIs from your Business Central data on-premises using Power BI.
-- [Display custom Power BI reports](https://learn.microsoft.com/dynamics365/business-central/across-how-use-powerbi-reports-factbox): Use the Power BI FactBox to display interactive Power BI reports and gain deeper insights into data on key list pages.
+- [Build Power BI Reports with Business Central Data](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi): Connect Power BI Desktop to Business Central data, build accessible reports, publish and share them, and configure advanced connection options.
+- [Connect Power BI to Business Central On-Premises](https://learn.microsoft.com/dynamics365/business-central/across-working-with-business-central-in-powerbi): Set up Power BI integration for Business Central on-premises, connect to OData web services, and publish reports for viewing in Business Central.
+- [Display Custom Power BI Reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-how-use-powerbi-reports-factbox): Create and configure custom Power BI reports for Business Central list pages, with report filters and layouts that work in the Power BI FactBox.
 - [Enabling Power BI integration with Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-setup): Learn how to set up the connection to Power BI. With Power BI reports, you can get insights, business intelligence, and key performance indicators from your data.
   - In the observatory: [Page 810 "Web Services"](../../../../objects/page/810.md)
 - [Introduction to Business Central and Power BI](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi): Get an overview of using Power BI to get insights from your Business Central data.
 - [Power BI apps/reports for functional areas](https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-by-functional-area): Get an overview of the landing pages for the Power BI apps available in functional areas in Business Central.
-- [Power BI integration component and architecture overview for Business Central\| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview): Learn about the different aspects of Power BI integration with Business Central.
+- [Power BI Integration Architecture for Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview): Understand the components, data connections, read-only database access, and user workflow that support Power BI integration with Business Central.
 - [Working with Power BI reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-working-with-powerbi): Get insight, business intelligence, and key performance indicators from your Business Central data with Power BI.
 
 ## Videos and posts

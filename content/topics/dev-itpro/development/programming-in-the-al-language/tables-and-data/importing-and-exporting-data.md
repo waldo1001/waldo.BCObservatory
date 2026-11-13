@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -157,7 +157,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9073 Data Exchange Definition export performance improvement](../../../../../changes/bcapps/9073.md) (code change): "Data Exchange Definition exports now use in-memory mapping with bulk saves"
 - [How to Work with JSON in Business Central’s AL Code](../../../../../posts/aardvarklabs-blog/1826.md) (community post): "Export records by building JsonObject and JsonArray structures"
 - [Best Practices for Handling Delimited Data Imports into Business Central](../../../../../posts/aardvarklabs-blog/2204.md) (community post): "import comma-separated values CSV customer data into Business Central by parsing delimited files"
-- [Guide to Handling Header and Detail Imports into Business Central with AL](../../../../../posts/aardvarklabs-blog/2603.md) (community post): "parse and import delimited files containing header and detail records"
+- [Guide to Handling Header and Detail Imports into Business Central with AL](../../../../../posts/aardvarklabs-blog/2603.md) (community post): "demonstrates how to parse and import delimited files containing header and detail records"
 - [Importing Multi-Tab Excel Files into Business Central](../../../../../posts/aardvarklabs-blog/2838.md) (community post): "import multi-tab Excel files into Business Central with header line"
 - [Importing XML into Business Central with AL](../../../../../posts/aardvarklabs-blog/2866.md) (community post): "extracting purchase order data from an XML file and populating custom tables"
 - [Using Power Automate for Business Central SFTP](../../../../../posts/aardvarklabs-blog/3631.md) (community post): "Create a table with BLOB field to store file content and supporting pages"

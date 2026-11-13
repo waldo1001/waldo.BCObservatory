@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:34.022Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -170,7 +170,6 @@ links:
     - change/bcquality/132
     - change/bcquality/133
     - change/bcquality/135
-    - change/bcquality/137
     - change/bcquality/175
     - change/bcquality/183
     - change/bcquality/196
@@ -250,7 +249,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#132 Refine self-improvement review guidance](../../../../changes/bcquality/132.md) (code change): "BCQuality guidance refined to reduce false positives in event handling, UI testing, performance analysis"
 - [#133 Add TransferFields SkipFieldsNotMatchingType guidance](../../../../changes/bcquality/133.md) (code change): "Good pattern: use explicit field-by-field mapping with Evaluate for type conversions to fail loudly"
 - [#135 Correct severe misconception about SetCurrentKey in the knowledge base](../../../../changes/bcquality/135.md) (code change): "Using SetCurrentKey when sorting is unnecessary hurts performance"
-- [#137 Add community guidance and review support for Business Central agents](../../../../changes/bcquality/137.md) (code change): "20 community-authored guidance rules covering agent registration, permissions, profiles"
 - [#175 9 AL/BC patterns: document distribution, price calculation & barcode extensibility](../../../../changes/bcquality/175.md) (code change): "Nine new AL/BC patterns document best practices for document distribution"
 - [#183 Add reporting review guidance and evaluation fixtures](../../../../changes/bcquality/183.md) (code change): "Included bad and good AL code samples for each rule to guide developers"
 - [#196 Strengthen review contracts and add AL reliability guidance](../../../../changes/bcquality/196.md) (code change): "Strengthen review contracts and add AL reliability guidance. Adds seven AL reliability rules"

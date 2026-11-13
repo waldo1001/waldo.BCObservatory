@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -296,6 +296,7 @@ links:
   changes:
     - change/al-go/2441
     - change/bcapps/12671
+    - change/bcapps/13739
     - change/bcapps/9601
     - change/bcquality/177
     - change/bcquality/93
@@ -379,6 +380,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#2441 Skip test projects when determining release artifacts](../../../changes/al-go/2441.md) (code change): "Skip test projects when determining release artifacts. The DetermineArtifactsForRelease action"
 - [#12671 Fix extension settings actions and repeated marketplace installation](../../../changes/bcapps/12671.md) (code change): "extension lifecycle actions like Uninstall, and prevents repeated marketplace installation prompts"
+- [#13739 [Master]-Sales/Purchase Price List activation allows Duplicate Lines when the Price List is Inactive.](../../../changes/bcapps/13739.md) (code change): "Price list activation no longer allows duplicate lines when the list was inactive"
 - [#9601 Reset workflow templates no longer removes steps from active workflows](../../../changes/bcapps/9601.md) (code change): "Reset workflow templates no longer removes steps from active workflows"
 - [#177 Add retention policy knowledge to the privacy domain](../../../changes/bcquality/177.md) (code change): "Added guidance to the privacy domain in BCQuality about registering extension-owned tables"
 - [#93 Fix lifecycle compatibility guidance](../../../changes/bcquality/93.md) (code change): "Knowledge articles and samples on error handling, events, interfaces, upgrade, testing, web services"

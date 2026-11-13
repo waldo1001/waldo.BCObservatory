@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -166,7 +166,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11682 [Expense Agent] Remove migration TODO and analyzer suppressions](../../../../changes/bcapps/11682.md) (code change): "Code validated with BCApps ruleset and analyzers"
 - [#109 style-review: calibrate variable-declaration order (AA0021) to info](../../../../changes/bcquality/109.md) (code change): "variable-declaration-order rule (AA0021) severity is calibrated down from minor to info level"
 - [#110 review: stop reference-less agent findings in privacy and UI/accessibility leaves](../../../../changes/bcquality/110.md) (code change): "review skills now report only findings backed by a BCQuality knowledge file"
-- [#112 Add precision guards for systematic agent false-positive patterns](../../../../changes/bcquality/112.md) (code change): "Six new knowledge articles across breaking-changes, error-handling, performance"
+- [#112 Add precision guards for systematic agent false-positive patterns](../../../../changes/bcquality/112.md) (code change): "precision guards against recurring agent false positives"
 - [#118 knowledge: 3 FP-suppression guards from BC apps negative feedback](../../../../changes/bcquality/118.md) (code change): "Three knowledge articles are added to clarify AL facts that were incorrectly flagged"
 - [#124 Add FP guards: field relocation to tableextension + event parameter addition (bug 642303)](../../../../changes/bcquality/124.md) (code change): "BCQuality adds two false-positive guards to prevent incorrect breaking-change flags"
 - [#146 knowledge: three false-positive guards from BCApps PR 10277, 10278 and 10346](../../../../changes/bcquality/146.md) (code change): "three false-positive guards from BCApps PR 10277, 10278 and 10346"

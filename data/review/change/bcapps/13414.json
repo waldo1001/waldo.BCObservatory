@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/13414",
+  "input_hash": "d301ed9827589a10ec0d3a22c6f76f06aec55a47b5d07e2e5776b160071f03a8",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-13T00:59:29.577Z",
+  "issues": [
+    "The fix applies the payment discount to the VAT base in the VAT-inclusive branch, not to VAT amounts as the summary says."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024849,
+    "changes_in_call": 6
+  }
+}

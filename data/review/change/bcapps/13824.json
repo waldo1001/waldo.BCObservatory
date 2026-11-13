@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/13824",
+  "input_hash": "53411bd721110c187fbd6876cb13de2c32d49a4e712f6b8e55c099febd968b25",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-13T00:59:20.092Z",
+  "issues": [
+    "Summary says table and schema names are normalized only in setup pages; the change normalizes the namespace fields on the setup pages and through the API, and Fabric Platform Mgt sets lowercase defaults.",
+    "Key point calling the tests 'comprehensive' overstates three focused tests.",
+    "change_kind feature is acceptable for new normalization behavior even though it links an issue.",
+    "Flags are correct: behavior changes for new input and defaults, existing values are not migrated, nothing breaks."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024219,
+    "changes_in_call": 3
+  }
+}

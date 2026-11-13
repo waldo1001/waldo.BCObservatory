@@ -1,22 +1,24 @@
 {
   "week": "2026-W46",
-  "input_hash": "a26f93d8a08fc8052a6dd8ff4c9c41dcc16bad572e91d59b5497fdca4c036cfa",
-  "text": "The one breaking change this week is #13759, which removes CLEAN27 obsolete code from the W1 and regional apps, including 140 deleted AL files, so extensions still using those objects need to move to the replacements. Posting and VAT fixes changed behaviour: #13805 and #13482 keep the document's allocated non-deductible VAT amounts on purchase posting, #13344 stops a credit memo copied from a posted invoice from reverting quantities on the original purchase order, #12770 carries modified invoice discounts into project ledger entries, #13628 fills drop shipment reference fields on posted receipt lines, and #13861 completes the dispute status fix on customer ledger entries. #9587 adds concurrent posting for G/L entries. Manufacturing and planning changes include #13778 on component dimensions from Order Planning, #13724 on warehouse picks for make-to-order subassemblies and #13618 on serial numbers lost during regenerative planning. #9522 adds the OnAfterIncreaseQty event. Expense Agent work covers #13760, #13672, #13730, #13499, #12670 and #13792. E-Document changes are #13822 for full XRechnung item names and #13766 and #13765 for an output token limit. Other fixes: #13572, #13641, #13447, #13855, #13739, #13616, #13607, #13225 and #13315. #13554 extends the Fabric API, and #12084 adds Subcontracting telemetry.",
-  "changes": 32,
+  "input_hash": "d372e28f3aaf15476f63dc6a2e5702e133b7fb418065becce42cf884ca00be70",
+  "text": "The one breaking change this week is #13759, which removes CLEAN27 obsolete code across the W1 and regional apps, including 140 deleted AL files, so extensions that still use those objects need updating. Several fixes change posting and calculation results. #13414 makes the Spanish VAT base subtract the payment discount when Prices Including VAT is on. #13482 and #13805 keep document-allocated non-deductible VAT amounts in purchase posting. #12770 corrects project ledger amounts for G/L Account lines. #13344 stops a copied credit memo from reverting quantities on the original purchase order, and #13628 fills drop shipment reference fields on posted receipts. Manufacturing fixes include #13778 on component dimensions from Order Planning and #13724 on warehouse picks for make-to-order subassemblies. Item attribute zero entry is fixed in #13855 and #13898. Shopify refunds no longer default to quotes after #13883. The Expense Agent gets #13760, #13499, #13730 and #13672, plus role center cues in #12670. Fabric setup gains lowercase namespaces in #13824 and new API procedures in #13554. #9587 adds concurrent G/L posting. #11849 enables Danish SAF-T for Austria and Iceland. Email attachment deletion gets a new key in #13952 and #13953. #9522 and #9523 add planning events, and #13765 and #13766 set an MLLM output token limit.",
+  "changes": 47,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.041254,
-  "at": "2026-11-12T00:14:43.393Z",
+  "cost_usd": 0.054694,
+  "at": "2026-11-13T00:13:31.718Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-12T00:56:15.041Z",
+    "at": "2026-11-13T00:59:52.458Z",
     "verdict": "approve",
     "issues": [
-      "Nine fixes under 'Other fixes' (#13572, #13641, #13447, #13855, #13739, #13616, #13607, #13225, #13315) and the six Expense Agent pull requests are listed as numbers only. A few words each would make them more useful, but nothing is wrong.",
-      "#12670 is listed as Expense Agent work, but it actually changes the Expense Management role centers (activity cues). Grouping it there is acceptable."
+      "#12670 is listed under the Expense Agent, but it adds activity cues to the Expense Management role centers (for Accountant, Accounts Payable Administrator and Business Manager users). It is related but is not an Expense Agent change.",
+      "The Expense Agent sentence lists #13760, #13499, #13730 and #13672 without saying what they do. A few words would help, for example: receipts can now be submitted when VAT setup is incomplete, per-diem policy updates now wait until the line is saved, missing vendor number series are set up on upgrade, and VAT settings now appear in the setup wizard.",
+      "#13883 is an upgrade step for existing Shopify shops that still had the uninitialized Quote value. It is not a general change to the default. The wording is acceptable but could be more precise.",
+      "Some behaviour changes are left out that may matter to readers: #13964 (item search relevance thresholds adjusted for the new embedding model), #13822 (XRechnung no longer cuts item names to 40 characters), #13207 (record sets skip missing tables), #13739 (activating a price list no longer lets duplicate lines through) and #13572 (deleting a cloud migration company no longer removes the wrong hybrid company)."
     ],
-    "input_hash": "a26f93d8a08fc8052a6dd8ff4c9c41dcc16bad572e91d59b5497fdca4c036cfa",
-    "cost_usd": 0.11008799999999999,
+    "input_hash": "d372e28f3aaf15476f63dc6a2e5702e133b7fb418065becce42cf884ca00be70",
+    "cost_usd": 0.138728,
     "applied": [],
     "rejected_edits": []
   }

@@ -2,7 +2,7 @@
 id: source/duiliotacconi-com
 type: source
 title: Duilio Tacconi
-summary: "Duilio Tacconi (MVP): 21 posts in the knowledge base, 2025-05-30 to 2026-10-07, mostly about platform, development, administration."
+summary: "Duilio Tacconi (MVP): 22 posts in the knowledge base, 2025-05-30 to 2026-11-12, mostly about platform, development, administration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-13T00:13:31.718Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7e01570e44fd892e45360d527a8e097ef16cabdbf58b572683b8f9dfaca19ae6
+  input_hash: 6ad7cf610f19b8ae58832efc6c153d3188f360ac6681123521bdf968860f6f0f
 evidence:
   - kind: blog
     url: https://duiliotacconi.com
@@ -54,6 +54,7 @@ links:
     - post/duiliotacconi-com/2117
     - post/duiliotacconi-com/2149
     - post/duiliotacconi-com/2201
+    - post/duiliotacconi-com/2238
   guidelines: []
 source_id: duiliotacconi-com
 kind: blog
@@ -61,15 +62,15 @@ url: https://duiliotacconi.com
 author: Duilio Tacconi
 mvp: true
 full_text: false
-item_count: 21
+item_count: 22
 footprint:
   systems:
     - id: platform
-      weight: 28
+      weight: 30
     - id: development
-      weight: 19
+      weight: 20
     - id: administration
-      weight: 11
+      weight: 12
     - id: inventory
       weight: 2
     - id: manufacturing
@@ -78,10 +79,10 @@ footprint:
       weight: 2
   topics:
     - id: telemetry
-      weight: 6
-    - id: al development
-      weight: 4
+      weight: 7
     - id: performance
+      weight: 5
+    - id: al development
       weight: 4
     - id: performance optimization
       weight: 4
@@ -93,9 +94,9 @@ footprint:
       weight: 3
     - id: debugging
       weight: 2
-    - id: indexes
+    - id: dynamics 365 business central
       weight: 2
-    - id: query optimization
+    - id: indexes
       weight: 2
   objects:
     - id: table Sales Line
@@ -124,12 +125,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-05-30"
-last_item: "2026-10-07"
+last_item: "2026-11-12"
 ---
 
 # Duilio Tacconi
 
-> Duilio Tacconi (MVP): 21 posts in the knowledge base, 2025-05-30 to 2026-10-07, mostly about platform, development, administration.
+> Duilio Tacconi (MVP): 22 posts in the knowledge base, 2025-05-30 to 2026-11-12, mostly about platform, development, administration.
 
 [https://duiliotacconi.com](https://duiliotacconi.com) · blog · tier community
 
@@ -137,16 +138,16 @@ last_item: "2026-10-07"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| platform (28) | telemetry (6) | table Sales Line (2) |
-| development (19) | al development (4) | codeunit 54001 (1) |
-| administration (11) | performance (4) | codeunit Base64 Convert (1) |
+| platform (30) | telemetry (7) | table Sales Line (2) |
+| development (20) | performance (5) | codeunit 54001 (1) |
+| administration (12) | al development (4) | codeunit Base64 Convert (1) |
 | inventory (2) | performance optimization (4) | codeunit Base64 Convert Impl. (1) |
 | manufacturing (2) | sql server (4) | codeunit Low-Level Code Calculator (1) |
 | sales (2) | concurrency (3) | codeunit Purchase-Post (1) |
 |  | database optimization (3) | codeunit Sales-Post (1) |
 |  | debugging (2) | codeunit System.Runtime.Base64Convert (1) |
-|  | indexes (2) | codeunit Version Management (1) |
-|  | query optimization (2) | enum DT Document Type (1) |
+|  | dynamics 365 business central (2) | codeunit Version Management (1) |
+|  | indexes (2) | enum DT Document Type (1) |
 |  |  | other CreateSequentialGuid in AL (1) |
 |  |  | other Database.LockTimeoutDuration Method (1) |
 
@@ -160,10 +161,11 @@ Items per quarter, oldest first:
 - 2026-Q1: *** 3
 - 2026-Q2: ** 2
 - 2026-Q3: *** 3
-- 2026-Q4: * 1
+- 2026-Q4: ** 2
 
 ## Most recent
 
+- [About Online Upgrades to Dynamics 365 Business Central 2026 Wave 2 (v29)](../posts/duiliotacconi-com/2238.md) (2026-11-12)
 - [Debunking Myths related to Table Structure in Dynamics 365 Business Central 2026 Wave 2](../posts/duiliotacconi-com/2201.md) (2026-10-07)
 - [Partial Record vs NST Caching : the strange case of Calculate Low Level Code](../posts/duiliotacconi-com/2149.md) (2026-09-07)
 - [Optimized Base64 file handling in Dynamics 365 Business Central 2026 Wave 1](../posts/duiliotacconi-com/2117.md) (2026-07-29)
@@ -183,6 +185,5 @@ Items per quarter, oldest first:
 - [When Auditing meets Telemetry: a practical example.](../posts/duiliotacconi-com/1601.md) (2025-09-05)
 - [How to choose the best Update Window in Dynamics 365 Business Central Online](../posts/duiliotacconi-com/1537.md) (2025-08-21)
 - [Client Crash? Check Error Dialog signal](../posts/duiliotacconi-com/1501.md) (2025-08-06)
-- [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../posts/duiliotacconi-com/1457.md) (2025-07-03)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

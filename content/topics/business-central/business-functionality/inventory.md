@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:33.447Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -40,16 +40,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents
-    title: Bin Contents (Power BI report)
-    date: "2024-10-28"
+    url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents-by-item-tracking
+    title: Bin Contents by Item Tracking Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents-by-item-tracking
-    title: Bin Contents by Item Tracking (Power BI report)
-    date: "2024-10-28"
+    url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents
+    title: Bin Contents Inventory Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -90,8 +90,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-gross-requirement
-    title: Gross Requirement (Power BI report)
-    date: "2024-10-28"
+    title: Gross Requirement Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -160,29 +160,29 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-item
-    title: Inventory by Item (Power BI report)
-    date: "2024-10-28"
+    title: Inventory by Item Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-location
-    title: Inventory by Location (Power BI report)
-    date: "2024-10-28"
+    title: Inventory by Location Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-lot
-    title: Inventory by Lot No. (Power BI report)
-    date: "2024-10-28"
+    title: Inventory by Lot No. Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-serial-no
-    title: Inventory by Serial No (Power BI report)
-    date: "2024-10-28"
+    title: Inventory by Serial No. Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -223,8 +223,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-overview
-    title: Inventory Overview (Power BI report)
-    date: "2024-10-28"
+    title: Inventory Overview Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -237,8 +237,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app
-    title: Inventory Power BI App Page (Power BI report)
-    date: "2024-10-28"
+    title: Inventory Power BI App Reports and Analytics
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -272,29 +272,29 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-item
-    title: Inventory Valuation by Item (Power BI report)
-    date: "2024-10-30"
+    title: Inventory Valuation by Item Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-location
-    title: Inventory Valuation by Location (Power BI report)
-    date: "2024-10-30"
+    title: Inventory Valuation by Location Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-kpis
-    title: Inventory Valuation KPIs and measures (Power BI)
-    date: "2024-11-08"
+    title: Inventory Valuation KPIs and Measures (Power BI)
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app
-    title: Inventory valuation landing page (Power BI report)
-    date: "2024-10-28"
+    url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-overview
+    title: Inventory Valuation Overview Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null

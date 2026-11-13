@@ -6,13 +6,13 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Fabric table and schema names are now normalized to lowercase in setup pages to ensure consistent handling across case-sensitive file systems and data platforms. New setup records use lowercase defaults (businesscentral and businesscentral_log) while existing values remain unchanged.",
+  "summary": "Fabric namespace fields on the setup pages and API now convert entered values to lowercase on validation, and new setup records default to businesscentral and businesscentral_log. This avoids casing mismatches in Fabric landing zone folder paths. Existing stored values are not renamed.",
   "key_points": [
-    "Namespace fields normalize user input to lowercase when saved through the UI or API",
-    "New setup records automatically use lowercase defaults to avoid casing mismatches in Fabric landing zones",
-    "Existing stored namespace values are not migrated, preventing disruption to already-exported tables and models",
-    "Added comprehensive tests validating lowercase normalization behavior",
-    "Direct AL writes bypassing page validation may still store uppercase values"
+    "Namespace values entered through the Fabric setup pages or API are lowercased on validation",
+    "New setup records use lowercase defaults businesscentral and businesscentral_log",
+    "Existing stored namespace values are not migrated, so exported tables, reports and models are not disrupted",
+    "Direct AL writes that bypass the page validation can still store uppercase values",
+    "Tests cover the lowercase defaults and the namespace normalization"
   ],
   "change_kind": "feature",
   "behavior_change": true,

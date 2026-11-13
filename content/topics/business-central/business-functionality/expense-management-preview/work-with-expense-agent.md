@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,12 +90,6 @@ links:
     - video/vyQnSxRGJDA
   posts: []
   guidelines: []
-  changes:
-    - change/bcapps/11955
-    - change/bcapps/12147
-    - change/bcapps/12599
-    - change/bcapps/12763
-    - change/bcapps/13721
 learn_toc_path:
   - Business functionality
   - Expense management (preview)
@@ -148,15 +142,10 @@ The pages follow the expense workflow. Start with the overview, then read about 
 - [Use the Expense Agent Mobile App (preview)](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-mobile-app): Capture receipts on the go with the Business Central Expenses mobile app for iOS and Android, featuring document scanning and offline support.
   - In the observatory: [Page 7128 "Mileage Rate Setup"](../../../../objects/page/7128.md)
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#11955 Slice 626975: [Expense Agent] Alternate approvers - Delegated/Substitutes (November '26)](../../../../changes/bcapps/11955.md) (code change): "Alternate approvers - Delegated/Substitutes"
-- [#12147 Bugs/add corp card basics](../../../../changes/bcapps/12147.md) (code change): "Implements corporate card transaction import and processing with data exchange providers"
-- [#12599 [Master] - Slice 629913: [Expense Agent][VENDOR] Enforced background itemization required for approvals](../../../../changes/bcapps/12599.md) (code change): "Policy-enforced itemization is required when an enabled policy with text applies"
-- [#12763 [Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: "'IndirectInsert' permission on TableData 6913 'Expense Pmt Method" - 2610091420000495](../../../../changes/bcapps/12763.md) (code change): "Allows delegated admins to perform administrative operations on expense management"
-- [#13721 [Expense Agent] Create per diem line when approving travel requests with Per Diem Included](../../../../changes/bcapps/13721.md) (code change): "When approving travel requests with Per Diem Included, the system now automatically creates a per diem expense line"
 - [Expense Agent: Finance Controlling (2026 release wave 1)](../../../../videos/54uIhzZq3Os.md) (video): "Expense Agent; Default dimensions on employee records; Billable information on expenses"
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../../videos/Fz8NLByllRc.md) (video): "Automatic mileage rate calculation; Round trip toggle; Mileage rate configuration"
 - [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../../videos/M0IzeLSn7qU.md) (video): "Expense Agent; approval process; audit trail; delegated approvers"

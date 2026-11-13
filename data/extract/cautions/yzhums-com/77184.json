@@ -1,0 +1,32 @@
+{
+  "item_id": "blog/yzhums-com/77184",
+  "page_id": "post/yzhums-com/77184",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Please stay on this page and do not refresh. If you navigate away, you must restart the entire mirroring process.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC29.1"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Due to a current issue on Microsoft's end, you may encounter the following error.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "BC29.1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.008664,
+    "posts_in_call": 2
+  }
+}

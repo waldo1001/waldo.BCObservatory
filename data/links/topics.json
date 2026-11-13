@@ -395,18 +395,14 @@
     "change/al-go/2402": {
       "kind": "change",
       "key": "change/al-go/2402",
-      "hash": "7eddd9a1a1d6b78aaf54ea7046415c8b621d1b6bd96b8b3c46bd6cb4b7377cd6",
+      "hash": "0a1bf1b4794ea91d51f936a8f594be28be0e76eace3bd661a179ccbaa31cd359",
       "title": "#2402 Move Copilot review engine into AL-Go",
       "source": "al-go-prs",
-      "at": "2026-10-24T00:07:08.701Z",
+      "at": "2026-11-13T00:57:19.570Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
-          "quote": "Copilot pull request review. A new SetupBCQuality"
-        },
-        {
-          "topic": "topic/dev-itpro/development/get-started/marketplace-validation",
-          "quote": "ReviewAgent action runs in four phases"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "AL-Go gains a built-in Copilot pull request review"
         }
       ]
     },
@@ -436,14 +432,14 @@
     "change/al-go/2413": {
       "kind": "change",
       "key": "change/al-go/2413",
-      "hash": "2711cb7b00e0951eaecd8d4b69b1375bf664d361f4d9b83ee714e145473ec4a8",
+      "hash": "7683e347ed2cc1aee5ffd4b36b98e768c9692ea9c8e6c945f63a6d82616d86b2",
       "title": "#2413 Only enable automatic Copilot review triggers when opted in",
       "source": "al-go-prs",
-      "at": "2026-10-21T00:47:16.006Z",
+      "at": "2026-11-13T00:57:19.570Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "Copilot review workflows ship with only manual dispatch triggers by default"
+          "quote": "Automatic Copilot review workflow triggers now activate only when explicitly opted in"
         }
       ]
     },
@@ -494,6 +490,20 @@
         {
           "topic": "topic/dev-itpro/development/extension-lifecycle",
           "quote": "Skip test projects when determining release artifacts. The DetermineArtifactsForRelease action"
+        }
+      ]
+    },
+    "change/al-go/2457": {
+      "kind": "change",
+      "key": "change/al-go/2457",
+      "hash": "a6fb68ae900fe2f0876c05e9c2353383dec27eca6155abec6cf17f947ef803be",
+      "title": "#2457 Fixing codeunit discovery on PowerShell 5 for RunTests action.",
+      "source": "al-go-prs",
+      "at": "2026-11-13T00:57:23.118Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "Fixed codeunit discovery in the RunTests action"
         }
       ]
     },
@@ -689,14 +699,14 @@
     "change/bcapps/10032": {
       "kind": "change",
       "key": "change/bcapps/10032",
-      "hash": "1e92d1344f923edbe69034ea99cce569a22dd04478c9c22cf6e43676e53fa7ae",
+      "hash": "3c66b64bd7afbc48e05bdaeceba47f1c04ad6738ab0fc8d110e30ea3acae78be",
       "title": "#10032 Fix Agent List and Agent Task List filter and refresh issues (AB#646062)",
       "source": "bcapps-prs",
-      "at": "2026-10-07T13:35:12.279Z",
+      "at": "2026-11-13T00:57:19.546Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/expense-management-preview/understand-expense-agent",
-          "quote": "Fixed filter visibility and refresh issues on Agent List"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Fixed filter visibility and refresh issues on Agent List and Agent Task List"
         }
       ]
     },
@@ -1630,13 +1640,13 @@
     "change/bcapps/10205": {
       "kind": "change",
       "key": "change/bcapps/10205",
-      "hash": "bd0e74a2273c1cb4b711999f14597b06a820de47df67b8acbfd8296130d5d9b1",
+      "hash": "67fa63503f375d02829a81050265af97f6d5f47b69485763b33225681314ed27",
       "title": "#10205 Deprecate Text Completion API in AI SDK (work item 621038)",
       "source": "bcapps-prs",
-      "at": "2026-10-07T13:35:12.279Z",
+      "at": "2026-11-13T00:57:19.546Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai",
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
           "quote": "Text Completion API in the Azure OpenAI AI module is marked obsolete"
         }
       ]
@@ -2666,14 +2676,14 @@
     "change/bcapps/10386": {
       "kind": "change",
       "key": "change/bcapps/10386",
-      "hash": "3b9482b0cf57ef3ef716b39b46744d6cedab94f2d7432464e80a55c652acbfae",
+      "hash": "8965650ec464156b830c90217b3f9c599e1a7d19401c5ed7069fb804b4f62249",
       "title": "#10386 [Agent Archiving] Prevent archived custom agents from being modified",
       "source": "bcapps-prs",
-      "at": "2026-10-08T06:24:28.852Z",
+      "at": "2026-11-13T00:57:19.546Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Prevent archived custom agents from being modified. Archived custom agents"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Archived custom agents can now be viewed for auditing but are protected from modification"
         }
       ]
     },
@@ -2722,14 +2732,14 @@
     "change/bcapps/10409": {
       "kind": "change",
       "key": "change/bcapps/10409",
-      "hash": "9c5d79828c5b4db42ec92e01a2da3ea18de22f3511b7a1f0f1b5090a49664aed",
+      "hash": "21e0433457c978e823fb360fda83f0904e92a9eba0f2db0c62f331906ced01a7",
       "title": "#10409 Shopify Copilot Tax Matching Agent: human-in-the-loop review + tests (stack 3/3)",
       "source": "bcapps-prs",
-      "at": "2026-10-17T01:10:54.814Z",
+      "at": "2026-11-13T00:57:19.546Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/shopify-tax-matching-preview",
-          "quote": "Shopify Copilot Tax Matching Agent adds a human-in-the-loop review"
+          "quote": "Shopify Copilot Tax Matching Agent adds a human-in-the-loop review experience"
         }
       ]
     },
@@ -2870,14 +2880,14 @@
     "change/bcapps/10431": {
       "kind": "change",
       "key": "change/bcapps/10431",
-      "hash": "ceb04f010c2404de224ddf3d29aaa15130ca4bb99d19918d6f91a50df2987192",
+      "hash": "fbd756576728a6aa6ce0cc1f50c6c5866a6a2e1f8ce8567dd296329c810764c9",
       "title": "#10431 [Agent Archiving] Fix broken reference links to archived agents and their tasks",
       "source": "bcapps-prs",
-      "at": "2026-10-17T01:10:54.814Z",
+      "at": "2026-11-13T00:57:19.546Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Links to an archived agent now open the Agent Card"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Reference links to archived agents and their tasks now open the Agent Card"
         }
       ]
     },
@@ -3937,13 +3947,13 @@
     "change/bcapps/10670": {
       "kind": "change",
       "key": "change/bcapps/10670",
-      "hash": "1d5ec26f5697237dd7bf3eedb9a6fa124eb6fc983bf463a8b0a59f21e7c1f7eb",
+      "hash": "71064473afebe7103cc29d3791914c1e0609e72dc5058b4c5784c09dabcddaab",
       "title": "#10670 Add Agent Task Log JSON export",
       "source": "bcapps-prs",
-      "at": "2026-10-07T13:35:12.279Z",
+      "at": "2026-11-13T00:57:19.546Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/expense-management-preview/understand-expense-agent",
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
           "quote": "Agent Task Log now supports JSON export of selected rows with detailed context"
         }
       ]
@@ -5008,13 +5018,13 @@
     "change/bcapps/11040": {
       "kind": "change",
       "key": "change/bcapps/11040",
-      "hash": "d9c1f8ec13942a509f7004ae123d59e621e791e01e98f55f5cc0485c151dc2cc",
+      "hash": "4da925a30369695d0af41c3cfabb69bfb9ea7b5d86963ace38fccf1560159d12",
       "title": "#11040 [Agent Archiving] Payables and Expense agent implementation for IAgentArchiving",
       "source": "bcapps-prs",
-      "at": "2026-10-07T13:35:12.624Z",
+      "at": "2026-11-13T00:57:20.819Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
           "quote": "Payables and Expense agents now implement the IAgentArchiving interface"
         }
       ]
@@ -5096,14 +5106,14 @@
     "change/bcapps/11073": {
       "kind": "change",
       "key": "change/bcapps/11073",
-      "hash": "065cfec101d4cacd93c05b4602a966cfc6c6b6c158904e18c0ce48d3b3df27b4",
+      "hash": "985038a16dc040b631d92c39524409498b93771ce39dfeaaa6f120ec2a3cee04",
       "title": "#11073 Validate image content before sending to Computer Vision",
       "source": "bcapps-prs",
-      "at": "2026-10-17T01:10:54.814Z",
+      "at": "2026-11-13T00:57:20.819Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "Image Analysis Management now validates image content before sending"
+          "quote": "Image Analysis Management now validates image content before sending to Computer Vision"
         }
       ]
     },
@@ -5523,10 +5533,10 @@
     "change/bcapps/11204": {
       "kind": "change",
       "key": "change/bcapps/11204",
-      "hash": "8bf19009918da0fd216286938a6775be8390227d334a3084edcbc1d2ec11343a",
+      "hash": "86e5077006db5ca4832418e304236704f98b440ff7a1cdb471c3779c8644f31e",
       "title": "#11204 Chat v2 privacy notice behavior changed to not auto agree for Eval companies",
       "source": "bcapps-prs",
-      "at": "2026-10-07T13:35:12.624Z",
+      "at": "2026-11-13T00:57:20.819Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
@@ -6084,13 +6094,13 @@
     "change/bcapps/11375": {
       "kind": "change",
       "key": "change/bcapps/11375",
-      "hash": "b4ec0ace72651417950759454218821498d8d02c73baa564e356a77f637709ed",
+      "hash": "0b34dd036f2f5ddf9b3c6fa3aef8497af66f045d80c404e08d92171e82a927d8",
       "title": "#11375 Obsolete GPT-5.5 chat and add GPT-5.6 Ceres deployments",
       "source": "bcapps-prs",
-      "at": "2026-10-08T06:24:28.852Z",
+      "at": "2026-11-13T00:57:20.819Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
           "quote": "Sales Order Agent attachment extraction and item search now use them"
         }
       ]
@@ -6344,14 +6354,18 @@
     "change/bcapps/11483": {
       "kind": "change",
       "key": "change/bcapps/11483",
-      "hash": "c958f406225308870f164fdca7020a1ee4d42569b0bdeb81f087064e27444093",
+      "hash": "98cbe47bf7fb468d4742fe81d242d8d9e9fb40b35dae6cc18dec999ec26fc1af",
       "title": "#11483 [E-Documents Core] - Linkage & Traceability",
       "source": "bcapps-prs",
-      "at": "2026-10-19T01:09:33.153Z",
+      "at": "2026-11-13T00:57:12.994Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
-          "quote": "E-Documents module now provides linkage and traceability"
+          "quote": "E-Documents module now provides linkage and traceability by adding lookup functions"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/sales",
+          "quote": "E-Document action wired into 30+ document list and card pages across sales"
         }
       ]
     },
@@ -7160,10 +7174,10 @@
     "change/bcapps/11740": {
       "kind": "change",
       "key": "change/bcapps/11740",
-      "hash": "a446611c561f4391656e49872ba4e9b5dbf2aae5299e6675de7fd35f9931df3f",
+      "hash": "5f3f1ab697658d95337a91639f86a9890a20a7970e3d5d72dedf424d4d8819b1",
       "title": "#11740 Bug 636971: [Expense Agent] EA Scheduler Task table grows unbounded with no cleanup or UI visibility",
       "source": "bcapps-prs",
-      "at": "2026-10-21T00:47:16.006Z",
+      "at": "2026-11-13T00:57:20.819Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
@@ -7595,14 +7609,14 @@
     "change/bcapps/11909": {
       "kind": "change",
       "key": "change/bcapps/11909",
-      "hash": "228a6c0712927193250e3fd0c94fde97c30f684edbb4c14d72474da84bc99873",
+      "hash": "2782cf899776bde745efe48e94c789a0ac94838e2c9752d5bc33497c54dc39b2",
       "title": "#11909 Block guest users from managing Expense Agent",
       "source": "bcapps-prs",
-      "at": "2026-10-21T00:47:16.006Z",
+      "at": "2026-11-13T00:57:20.819Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
-          "quote": "Guest and external administrator access is blocked from Expense Agent configuration changes"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Guest users and external administrators can no longer enable or disable Expense Agent"
         }
       ]
     },
@@ -7702,18 +7716,14 @@
     "change/bcapps/11955": {
       "kind": "change",
       "key": "change/bcapps/11955",
-      "hash": "82bc616153fbb2efafa9428c8e57036f1abb962a40bf3b741785d9320e48bdc0",
+      "hash": "7ea8d4fec871ff4e21e56c6ec87e8e3eb736bfbcb776f70556585c6fd17f6fa4",
       "title": "#11955 Slice 626975: [Expense Agent] Alternate approvers - Delegated/Substitutes (November '26)",
       "source": "bcapps-prs",
-      "at": "2026-10-24T00:07:08.701Z",
+      "at": "2026-11-13T00:57:24.247Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
           "quote": "Expense Agent adds alternate approvers for expense approvals"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
-          "quote": "Alternate approvers - Delegated/Substitutes"
         }
       ]
     },
@@ -7873,14 +7883,14 @@
     "change/bcapps/11997": {
       "kind": "change",
       "key": "change/bcapps/11997",
-      "hash": "192a91ca64cd969794cde23caf3d33bf6726ff2973e137d088a4da67ef6b4c64",
+      "hash": "c65b13a783a577328bfe9aa7551f636b6cdafce0d40ec7b606de508a7dec8aa6",
       "title": "#11997 Clarify Expense Agent Entra app permission checks",
       "source": "bcapps-prs",
-      "at": "2026-10-23T01:10:34.026Z",
+      "at": "2026-11-13T00:57:24.247Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Permission checks for the Expense Agent Entra app have been reordered"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "quote": "Permission checks for the Expense Agent Entra app"
         }
       ]
     },
@@ -8143,6 +8153,24 @@
       "at": "2026-11-02T00:54:19.682Z",
       "matches": []
     },
+    "change/bcapps/12084": {
+      "kind": "change",
+      "key": "change/bcapps/12084",
+      "hash": "7bc6d912566803b1ab6f99f32db27f9dc4c9cd760db2c2c5d1c16e6354075680",
+      "title": "#12084 Bug 652154: [Subcontracting] Add feature uptake telemetry",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:13.317Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
+          "quote": "Telemetry instrumentation added to track Subcontracting feature adoption"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing",
+          "quote": "Tracks setup completion via assisted setup, work center assignment"
+        }
+      ]
+    },
     "change/bcapps/12097": {
       "kind": "change",
       "key": "change/bcapps/12097",
@@ -8390,18 +8418,14 @@
     "change/bcapps/12147": {
       "kind": "change",
       "key": "change/bcapps/12147",
-      "hash": "4ace89f690c241963a9c35af744553abe9eb7d8c03d9c03582edca451ce6b10e",
+      "hash": "cb4e1d3e603952e0e1ff47b4b29d74c5a3aab6a341a70848ca8461b87616fb05",
       "title": "#12147 Bugs/add corp card basics",
       "source": "bcapps-prs",
-      "at": "2026-10-30T01:07:42.737Z",
+      "at": "2026-11-13T00:57:24.247Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
           "quote": "Corporate card functionality is added to the Expense Agent"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
-          "quote": "Implements corporate card transaction import and processing with data exchange providers"
         }
       ]
     },
@@ -9078,10 +9102,10 @@
     "change/bcapps/12428": {
       "kind": "change",
       "key": "change/bcapps/12428",
-      "hash": "3d69e8f6f01349d9fc257f48ab0667a46b9b6ce8e0f8eba11a9f087135dacc5d",
+      "hash": "0e150d0db25b7fb2ac308b6e85de72b2b0154388a9f0e14c34352d4e063364ec",
       "title": "#12428 Add Copilot feature trial interface",
       "source": "bcapps-prs",
-      "at": "2026-10-08T06:24:28.852Z",
+      "at": "2026-11-13T00:57:24.247Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
@@ -9273,14 +9297,14 @@
     "change/bcapps/12472": {
       "kind": "change",
       "key": "change/bcapps/12472",
-      "hash": "de2ad56ceea0e8d14674f15300ae1a2cfe4eb7ae3955f438031ae608cd7b671d",
+      "hash": "563383b14c0f2f377ce7e54b0c4265fecddc68a761f3848e69cccdc21d3fd7e0",
       "title": "#12472 Expense Agent Default VAT Setup fails in localized companies",
       "source": "bcapps-prs",
-      "at": "2026-10-17T01:10:56.301Z",
+      "at": "2026-11-13T00:57:24.247Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
-          "quote": "Fixes VAT setup initialization for Expense Agent in localized environments"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Expense Agent Default VAT Setup is corrected to work properly"
         }
       ]
     },
@@ -9315,14 +9339,14 @@
     "change/bcapps/12514": {
       "kind": "change",
       "key": "change/bcapps/12514",
-      "hash": "654e9c63fc8a7cef17e2e54a775da9ddd9b2035fccccdd87c34fb10886981b71",
+      "hash": "bdfb0460dcda9a4c6b894171f38ffedb1ce3ec3cfa6b6f5f4d928eab455ab62f",
       "title": "#12514 Revert Expense API test re-enablement and consolidated fixes",
       "source": "bcapps-prs",
-      "at": "2026-10-21T00:47:16.006Z",
+      "at": "2026-11-13T00:57:24.247Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Fully reverts the earlier commit that re-enabled Expense API tests"
+          "quote": "Fully reverts the earlier commit from #12325 that re-enabled Expense API tests"
         }
       ]
     },
@@ -9417,22 +9441,18 @@
     "change/bcapps/12539": {
       "kind": "change",
       "key": "change/bcapps/12539",
-      "hash": "8a7adb0ade92b7b2a14dcaa37a1eaa5e76f3a1883bb90281023dd17cca2a4fbc",
+      "hash": "77fd3ed88437931eeff4717233c8c957e4e6e951acbff5ad77c0a70f9204b286",
       "title": "#12539 Add Expense Agent consumption V2 and trial support",
       "source": "bcapps-prs",
-      "at": "2026-10-29T21:35:39.393Z",
+      "at": "2026-11-13T00:57:28.064Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
           "quote": "Expense Agent adds a V2 consumption API and a 50-expense feature trial"
         },
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
-          "quote": "Trial status shown in billing overview and remaining free expenses in setup"
-        },
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Expense Agent adds a V2 consumption API and a 50-expense feature trial"
+          "quote": "Trial status shown in billing overview and remaining free expenses"
         }
       ]
     },
@@ -9648,17 +9668,17 @@
     "change/bcapps/12599": {
       "kind": "change",
       "key": "change/bcapps/12599",
-      "hash": "fce6999b25e64d71c849e831856a766b799c37de59b7e0f90c5d2f264a431e55",
+      "hash": "679235502b42db21a25a95f6943547dd15488f3623f8b8224db779d6bfe809a8",
       "title": "#12599 [Master] - Slice 629913: [Expense Agent][VENDOR] Enforced background itemization required for approvals",
       "source": "bcapps-prs",
-      "at": "2026-10-22T01:09:53.195Z",
+      "at": "2026-11-13T00:57:28.064Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "topic": "topic/business-central/business-functionality/expense-management-preview/understand-expense-agent",
           "quote": "Expense Agent now requires itemization when an enabled Expense Policy"
         },
         {
-          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
           "quote": "Policy-enforced itemization is required when an enabled policy with text applies"
         }
       ]
@@ -9780,6 +9800,20 @@
         {
           "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
           "quote": "Subcontracting order dates now correctly calculate backward from the routing operation start date"
+        }
+      ]
+    },
+    "change/bcapps/12670": {
+      "kind": "change",
+      "key": "change/bcapps/12670",
+      "hash": "976f3f39d922e8fdf63288d0fb6ec2246b388e5b8d134aabe76e39e546370885",
+      "title": "#12670 [Master] - Slice 580818: [Expense Management][VENDOR] Role Centers updates 💸",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:28.064Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/expense-management-preview/understand-expense-agent",
+          "quote": "Expense Management role centers now display activity cues showing expense report statuses"
         }
       ]
     },
@@ -9943,18 +9977,18 @@
     "change/bcapps/12763": {
       "kind": "change",
       "key": "change/bcapps/12763",
-      "hash": "a5dc1d024fda65f3e276e81c192f2a3dca321b8147a76f98ad705a0be935dda3",
+      "hash": "0f332c426aef6e64567c49b1af3aaf6628f4a07103b8f24e39e81f283efb3ca3",
       "title": "#12763 [Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: \"'IndirectInsert' permission on TableData 6913 'Expense Pmt Method\" - 2610091420000495",
       "source": "bcapps-prs",
-      "at": "2026-10-22T01:09:53.195Z",
+      "at": "2026-11-13T00:57:28.064Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
           "quote": "Expense Agent delegated admin partner entitlements are updated to grant"
         },
         {
-          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
-          "quote": "Allows delegated admins to perform administrative operations on expense management"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "quote": "Permission level changed from 'Expense Mgmt. Read' to 'Expense Mgmt. Admin'"
         }
       ]
     },
@@ -10062,14 +10096,18 @@
     "change/bcapps/12810": {
       "kind": "change",
       "key": "change/bcapps/12810",
-      "hash": "90684f967abc4adb10bc151a9c0d62a156a7a9bd5159e481d8e99981eb73cc91",
+      "hash": "087fb137f255a76e5d570ffa95571ac74835acf83b634afa6db3bfa246d55d2a",
       "title": "#12810 ExpenseAgent-CAUS-default-VAT-setup-fails",
       "source": "bcapps-prs",
-      "at": "2026-10-21T00:47:16.006Z",
+      "at": "2026-11-13T00:57:28.064Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
           "quote": "Fixes the Expense Agent default VAT setup failing"
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "quote": "Changes the Create Expense VAT Rates codeunit and the Expense Agent Setup table"
         }
       ]
     },
@@ -10104,28 +10142,23 @@
     "change/bcapps/12817": {
       "kind": "change",
       "key": "change/bcapps/12817",
-      "hash": "8b5cb30e26249b80802ac0e1a206ad9009d148a07680cbed683c75e0776a284f",
+      "hash": "7945ca87ccc8a07c9ebf666d8103113a65081eecb5c0b93bf9a06a3e380db97e",
       "title": "#12817 [SOA] Use company display name in default email signature",
       "source": "bcapps-prs",
-      "at": "2026-10-21T00:47:16.006Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Sales Order Agent now uses company display name instead of internal company identifier"
-        }
-      ]
+      "at": "2026-11-13T00:57:28.064Z",
+      "matches": []
     },
     "change/bcapps/12821": {
       "kind": "change",
       "key": "change/bcapps/12821",
-      "hash": "fbaa341605683cb00e2bde7538b051fc722a58ce58b0899b27a600a0714a27e1",
+      "hash": "202d5a6c8a11e87ea05a3be8d2cc300540db6c60ce8563dbe51d049c250e0991",
       "title": "#12821 [SOA] Copy manual task attachments to sales quotes",
       "source": "bcapps-prs",
-      "at": "2026-10-30T01:07:42.737Z",
+      "at": "2026-11-13T00:57:26.716Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
-          "quote": "Adds internal table 4590 SOA Attachment Transfer to track"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Sales Order Agent now copies manual task attachments to sales quotes"
         }
       ]
     },
@@ -10227,40 +10260,28 @@
     "change/bcapps/12882": {
       "kind": "change",
       "key": "change/bcapps/12882",
-      "hash": "c844866b43f1c6583e181ea1eefbabdd12054d69d9d9a09f335237a353d88db1",
+      "hash": "f835c39fbb0823faa878f48d1e064b09bee8d88fff926c64fb5601a2a5a32321",
       "title": "#12882 [Master] - Bug 651169: [Expense Agent] Exchange rate date limitation",
       "source": "bcapps-prs",
-      "at": "2026-10-31T01:01:30.363Z",
+      "at": "2026-11-13T00:57:26.716Z",
       "matches": [
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
-          "quote": "Exchange rate date handling corrected for Expense Agent transactions"
-        },
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
           "quote": "Expense Agent now correctly handles exchange rate dates for transactions"
-        },
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
-          "quote": "Users receive clear error messages when exchange rates unavailable"
         }
       ]
     },
     "change/bcapps/12894": {
       "kind": "change",
       "key": "change/bcapps/12894",
-      "hash": "2df8a3f4d1588924c87c0cf0e039037e77ded459292a5e03073b0edae4ae951f",
+      "hash": "59acd5e5b3fdbac9841a506bb08068c06825681e28740b204ca2ef0f2f7fe8b7",
       "title": "#12894 [PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice",
       "source": "bcapps-prs",
-      "at": "2026-10-24T00:07:08.701Z",
+      "at": "2026-11-13T00:57:26.716Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
-          "quote": "Payables Agent now recognizes vendor credit notes in PDFs"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "creates purchase credit memos instead of invoices"
+          "topic": "topic/business-central/copilot-and-agent-capabilities",
+          "quote": "The Payables Agent now recognizes vendor credit notes in PDFs"
         }
       ]
     },
@@ -10281,22 +10302,14 @@
     "change/bcapps/12910": {
       "kind": "change",
       "key": "change/bcapps/12910",
-      "hash": "80f794b073eeac30c969bd0423b5d5617474210afc1ae463ba15175e3564a69c",
+      "hash": "8b4c66602490ed1f4133098ba94051baceb4b7d238b176e610a7f3cdad3437fd",
       "title": "#12910 [Master] - Bug 652243: [Expense Agent] Validate approval user email",
       "source": "bcapps-prs",
-      "at": "2026-11-06T00:56:57.788Z",
+      "at": "2026-11-13T00:57:26.716Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Expense Agent now validates the approval user email"
-        },
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
-          "quote": "Approval user email validation in the Expense User table"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central/test-copilot-capability-in-al",
-          "quote": "Tests added in the expense and interim approval test codeunits"
+          "quote": "Expense Agent now validates the approval user email on the Expense User table"
         }
       ]
     },
@@ -10365,6 +10378,20 @@
         }
       ]
     },
+    "change/bcapps/12947": {
+      "kind": "change",
+      "key": "change/bcapps/12947",
+      "hash": "eddddf33d7267a13463d307db0817e72e9d8fcbb4927357d9180c4010ff51f3f",
+      "title": "#12947 [MCP] Provide environment and company descriptions to the platform",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:16.012Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor",
+          "quote": "MCP server can now return company descriptions"
+        }
+      ]
+    },
     "change/bcapps/12967": {
       "kind": "change",
       "key": "change/bcapps/12967",
@@ -10418,10 +10445,10 @@
     "change/bcapps/12985": {
       "kind": "change",
       "key": "change/bcapps/12985",
-      "hash": "9bdcf134e0d00f7294b10fe03e9c37a5b82afc0b1528697ad8d2f6748f3c186f",
+      "hash": "2748fa5c9a052a5704f3552a022682a4e9b2b56e84cc89b36254265fee073071",
       "title": "#12985 [Master] - Bug 654115: [Expense Agent] Cannot submit report with a non-refundable Employee Paid line: 'nothing to refund' blocks release, report stuck in draft",
       "source": "bcapps-prs",
-      "at": "2026-11-04T00:56:12.939Z",
+      "at": "2026-11-13T00:57:26.716Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
@@ -10546,14 +10573,14 @@
     "change/bcapps/13058": {
       "kind": "change",
       "key": "change/bcapps/13058",
-      "hash": "e4bc361865594980d3772e4532b9c7505bf98211998a30464c3d68b54ae3f994",
+      "hash": "a3d3635757f4ac5af8f1c0c4419c6523ed9c1f8e4d1ea43054fa2c1378ee6719",
       "title": "#13058 Bug 656064: Expense Agent: Itemization table holds unrounded values, leading to rounding errors. Also missing currency code.",
       "source": "bcapps-prs",
-      "at": "2026-10-23T01:10:34.026Z",
+      "at": "2026-11-13T00:57:26.716Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Expense itemization records now store properly rounded currency amounts"
+          "quote": "Expense Agent: Itemization table holds unrounded values, leading to rounding errors"
         }
       ]
     },
@@ -10777,18 +10804,14 @@
     "change/bcapps/13172": {
       "kind": "change",
       "key": "change/bcapps/13172",
-      "hash": "1e521d6cb69623964f7d86b9b0e36c2424a8a3615d868262cd63576964e1780d",
+      "hash": "3f8871940a1cfee8594d7cb8daceb65eb5751ba17ce36b59a66755c9de401440",
       "title": "#13172 Export structured AI eval run data",
       "source": "bcapps-prs",
-      "at": "2026-11-05T00:50:28.664Z",
+      "at": "2026-11-13T00:57:25.602Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "AI Eval run data can now be exported in a structured form from the AI Test Toolkit"
-        },
-        {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central/test-copilot-capability-in-al",
-          "quote": "AI Test Toolkit command-line page streams results.json evaluation result files"
+          "quote": "Export structured AI eval run data. AI Eval run data can now be exported"
         }
       ]
     },
@@ -10809,14 +10832,14 @@
     "change/bcapps/13182": {
       "kind": "change",
       "key": "change/bcapps/13182",
-      "hash": "d29f6afec9b2855496239a2aaee22c79723d7553927aa3a11d7fdb8940da0652",
+      "hash": "ed8b950d06966f0f4d0bb801a04625fb255056966f7ea8a0ffc4886b7d2c9e39",
       "title": "#13182 [Master] - Bug 656364: [Expense Agent] Add a View rules link below Enforce management rules",
       "source": "bcapps-prs",
-      "at": "2026-11-03T00:55:23.132Z",
+      "at": "2026-11-13T00:57:25.602Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
-          "quote": "View rules link was added below the Enforce management rules setting"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "A View rules link was added below the Enforce management rules setting"
         }
       ]
     },
@@ -10845,24 +10868,24 @@
     "change/bcapps/13184": {
       "kind": "change",
       "key": "change/bcapps/13184",
-      "hash": "7ec1f4dacca51883257ecdf3c9cd10dbb3b941b264c53626ace58cfc3b96431c",
+      "hash": "f7e0bdb658250b5001523c06a8d6df82208ca373a90de93f4ffcb5d4022ec07c",
       "title": "#13184  [29.x] - Bug 656485: [Expense Agent] Add a View rules link below Enforce management rules.",
       "source": "bcapps-prs",
-      "at": "2026-11-04T00:56:12.939Z",
+      "at": "2026-11-13T00:57:25.602Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "View rules link was added below the Enforce management rules setting"
+          "quote": "A View rules link was added below the Enforce management rules setting"
         }
       ]
     },
     "change/bcapps/13185": {
       "kind": "change",
       "key": "change/bcapps/13185",
-      "hash": "36a306f17bb2319b385cede1801e711388336b276162953bb42fbe0dfcfec5bc",
+      "hash": "d32d92624e1f0a23d6b663b9ecbbe089b20d4b3b833f5b2dd5b44a72c0f4e7aa",
       "title": "#13185 [Master] - Bug 656372: [Expense Agent] Fix itemization rounding and missing currency code.",
       "source": "bcapps-prs",
-      "at": "2026-11-04T00:56:12.939Z",
+      "at": "2026-11-13T00:57:25.602Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
@@ -10881,6 +10904,20 @@
         {
           "topic": "topic/business-central/business-functionality/finance/closing-years-and-periods",
           "quote": "Close Income Statement now passes the closed additional reporting currency"
+        }
+      ]
+    },
+    "change/bcapps/13207": {
+      "kind": "change",
+      "key": "change/bcapps/13207",
+      "hash": "ec4a2eb23baf4a03a97dd7e2fc053c19ca296462f038184dd8cf5246da0f35b9",
+      "title": "#13207 Skip missing and removed tables when loading record sets",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:23.118Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/deprecating-code",
+          "quote": "Record Set Management now gracefully skips table references that have been removed"
         }
       ]
     },
@@ -11015,25 +11052,30 @@
     "change/bcapps/13256": {
       "kind": "change",
       "key": "change/bcapps/13256",
-      "hash": "4a2f07e8dc477253b4f777409e9e06e472472336cff8b0a2b0933c6cc80d1a75",
+      "hash": "4a9b4d6bd52c576234e298d2d59a5c6d7894a59dbf6eb6ae6b65215e4b1c5e03",
       "title": "#13256 [SOA] Expose Email 2 on Contact Card",
       "source": "bcapps-prs",
-      "at": "2026-10-30T01:07:40.821Z",
+      "at": "2026-11-13T00:57:12.994Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
-          "quote": "Sales Order Agent app now exposes an Email 2 field"
+          "quote": "Sales Order Agent app now exposes an Email 2 field on the Contact Card"
         }
       ]
     },
     "change/bcapps/13259": {
       "kind": "change",
       "key": "change/bcapps/13259",
-      "hash": "af52b23f0e37857b7d0f0020f2a0a54aab552ab836fbb97850833ac8248f1b74",
+      "hash": "8347ae1a21e249105f583a51bb69e3c017e4442cc1118e27e354706f621ce8cf",
       "title": "#13259 Protect from runtime error if Item Availability looses date filter",
       "source": "bcapps-prs",
-      "at": "2026-11-01T00:41:48.590Z",
-      "matches": []
+      "at": "2026-11-13T00:57:25.602Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities",
+          "quote": "The Sales Order Agent's multi-item availability page now guards against runtime errors"
+        }
+      ]
     },
     "change/bcapps/13261": {
       "kind": "change",
@@ -11158,11 +11200,16 @@
     "change/bcapps/13307": {
       "kind": "change",
       "key": "change/bcapps/13307",
-      "hash": "3f7e1d77a119a25e318b271dc5976cfce3bb45f80a7d95a2557227c47d013211",
+      "hash": "e0edab0da07f5376d832bbc9e7965c20bfdc0b5ba88b519f80dab947934f6e7a",
       "title": "#13307 [SOA] Clear stale pricing notifications on item availability refresh",
       "source": "bcapps-prs",
-      "at": "2026-10-28T10:50:13.468Z",
-      "matches": []
+      "at": "2026-11-13T00:57:25.602Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities",
+          "quote": "Sales Order Agent now clears stale pricing-error notifications when refreshing"
+        }
+      ]
     },
     "change/bcapps/13310": {
       "kind": "change",
@@ -11481,14 +11528,18 @@
     "change/bcapps/13431": {
       "kind": "change",
       "key": "change/bcapps/13431",
-      "hash": "209e5dea141ed62444788623551adb0252d87c3bc54e661e0f9f79829a60ac55",
+      "hash": "b44e0cbf9eb0736c0830815bb4752ed9974a08f45748263441b9ccda3ac3d0f8",
       "title": "#13431 Extend sales document edit permissions with subscrition billing edit",
       "source": "bcapps-prs",
-      "at": "2026-11-01T00:41:48.921Z",
+      "at": "2026-11-13T00:57:12.994Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
-          "quote": "enables the Sales Order Agent to add items with subscription billing"
+          "quote": "enables the Sales Order Agent to add items with subscription billing to sales documents"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing",
+          "quote": "Sales Order Agent to add items with subscription billing to sales documents"
         }
       ]
     },
@@ -11591,10 +11642,10 @@
     "change/bcapps/13460": {
       "kind": "change",
       "key": "change/bcapps/13460",
-      "hash": "4f2ba21e39ab325dda05c98d188f0bf210f1b19ddad0c41ec816134f69d6414e",
+      "hash": "e23cda1b45291ea6b84ca0dde98488bc1ff28a91540f7d5c2c14654b87a9bfa2",
       "title": "#13460 [Master] Fix Expense Agent account filters with special characters",
       "source": "bcapps-prs",
-      "at": "2026-11-03T00:55:23.132Z",
+      "at": "2026-11-13T00:57:25.744Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
@@ -11619,11 +11670,16 @@
     "change/bcapps/13469": {
       "kind": "change",
       "key": "change/bcapps/13469",
-      "hash": "5c20400255340bf3665272d078558156f3d337740d7275010db5d0e9994cf5dc",
+      "hash": "b44c9b79799531b4ffbac70d98eafc912abb0989cc7d11543e21cfc0aec607c3",
       "title": "#13469 [SOA] Do not show duplicate-contact notification on outgoing email",
       "source": "bcapps-prs",
-      "at": "2026-11-03T00:55:23.132Z",
-      "matches": []
+      "at": "2026-11-13T00:57:25.744Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities",
+          "quote": "Sales Order Agent no longer displays the duplicate-contact notification"
+        }
+      ]
     },
     "change/bcapps/13472": {
       "kind": "change",
@@ -11725,24 +11781,38 @@
     "change/bcapps/13495": {
       "kind": "change",
       "key": "change/bcapps/13495",
-      "hash": "f4af64ac028d2a40cf5504743da8a17d5815e534963fd40fb01692c8e8f88483",
+      "hash": "7c605a9ee8218cc2c3c0e1d013752f87bdffff883b404c24328c1c5d9f99d9df",
       "title": "#13495 Migrate SOA auxiliary calls to GPT-5.6 and refine date-filter handling",
       "source": "bcapps-prs",
-      "at": "2026-11-04T00:56:12.939Z",
+      "at": "2026-11-13T00:57:25.744Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Sales Order Agent now uses GPT-5.6 Ceres instead of GPT-4.1 for auxiliary"
+          "topic": "topic/business-central/copilot-and-agent-capabilities",
+          "quote": "Sales Order Agent now uses GPT-5.6 Ceres instead of GPT-4.1"
+        }
+      ]
+    },
+    "change/bcapps/13499": {
+      "kind": "change",
+      "key": "change/bcapps/13499",
+      "hash": "8e32bb16087921902f499181152ca2c411847ece8fcbc00dfecd1d8d4e02e453",
+      "title": "#13499 [Expense Agent] Defer per-diem policy invalidation until the parent line is saved",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:25.744Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Per-diem policy invalidation on expense report lines is deferred"
         }
       ]
     },
     "change/bcapps/13504": {
       "kind": "change",
       "key": "change/bcapps/13504",
-      "hash": "946835ec9fdbc878e8eece0de758bd91e88f5f0a6a38fbfd5aab43ca6bf4347e",
+      "hash": "f1a74b5a7190d3732e26187faf9f102e69d1455a97fdb41895cb94a94606804f",
       "title": "#13504 Exposing-VAT-settings-on-category-card",
       "source": "bcapps-prs",
-      "at": "2026-11-05T00:50:28.664Z",
+      "at": "2026-11-13T00:57:25.744Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
@@ -11810,6 +11880,20 @@
         }
       ]
     },
+    "change/bcapps/13554": {
+      "kind": "change",
+      "key": "change/bcapps/13554",
+      "hash": "44b3086d5cfaa2229c8f998ab4ded628e17635952c95c239dcd16d16629ec765",
+      "title": "#13554 Add procedures to import configuration packages and manage table operations in Fabric API",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:23.118Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-apis",
+          "quote": "The Fabric API now supports resetting and removing tables"
+        }
+      ]
+    },
     "change/bcapps/13560": {
       "kind": "change",
       "key": "change/bcapps/13560",
@@ -11827,28 +11911,42 @@
     "change/bcapps/13566": {
       "kind": "change",
       "key": "change/bcapps/13566",
-      "hash": "350072a5bac7959aa5bf85b8ed65fb56b5f742cdfcb6bc1e130e2e1504ac7379",
+      "hash": "05a9786d7e24db9134986736cf6a59fbc9ac0f2647ef6c3114069593cbc48f9c",
       "title": "#13566 [Subcontracting] Bug 648843: Align feature-handler references with CLEAN28",
       "source": "bcapps-prs",
-      "at": "2026-11-07T01:01:02.419Z",
+      "at": "2026-11-13T00:57:13.317Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
-          "quote": "Subcontracting app handler references are realigned with CLEAN28 boundaries"
+          "quote": "Subcontracting app and its test are aligned with the handler's CLEAN28"
         }
       ]
     },
     "change/bcapps/13569": {
       "kind": "change",
       "key": "change/bcapps/13569",
-      "hash": "9bbb1fc09c67936c5cff66e20dc4903cc7d508b97d02a04406a359778d94031d",
+      "hash": "d3d8a5879f0690b0b748fb5b2ef38483e4d49bb98afe9cbe16ca93305ab8d99e",
       "title": "#13569 Update expense policy defaults, caption, and search terms",
       "source": "bcapps-prs",
-      "at": "2026-11-05T00:50:28.664Z",
+      "at": "2026-11-13T00:57:25.744Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Expense Agent setups enable policy evaluation by default"
+          "quote": "new Expense Agent setups enable policy evaluation by default"
+        }
+      ]
+    },
+    "change/bcapps/13572": {
+      "kind": "change",
+      "key": "change/bcapps/13572",
+      "hash": "62e806b6f4a797aaa8475b12bc6e76d0b7c7bd83766fa0a0b4b4dba4864781ae",
+      "title": "#13572 Fix cloud migration company delete removing the wrong hybrid company",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:16.012Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data",
+          "quote": "Cloud migration company deletion now removes the correct hybrid company"
         }
       ]
     },
@@ -11883,13 +11981,13 @@
     "change/bcapps/13599": {
       "kind": "change",
       "key": "change/bcapps/13599",
-      "hash": "6d6ef74ecc1aebf12b98e59b851b60ca2bbcf380092584453cbf24c47c243a9b",
+      "hash": "9863022852a73a8d7323faac4d0605dd087086429308dcedbd44f1abd09534d6",
       "title": "#13599 [SOA] Setup can be saved while the agent remains inactive without warning",
       "source": "bcapps-prs",
-      "at": "2026-11-05T00:50:28.664Z",
+      "at": "2026-11-13T00:57:29.193Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
           "quote": "Sales Order Agent setup page now shows a confirmation when saving an inactive agent"
         }
       ]
@@ -11964,6 +12062,20 @@
         }
       ]
     },
+    "change/bcapps/13641": {
+      "kind": "change",
+      "key": "change/bcapps/13641",
+      "hash": "7b730738db1a2b32b28f1bade27dc32c8b28f693ed738164d652ee058002d2e8",
+      "title": "#13641 Bug 647022: [Subcontracting] Use alternative worksheet names and migrate the legacy page",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:13.317Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
+          "quote": "Subcontracting initialization now preserves existing customer templates"
+        }
+      ]
+    },
     "change/bcapps/13642": {
       "kind": "change",
       "key": "change/bcapps/13642",
@@ -11979,6 +12091,34 @@
         {
           "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-sales",
           "quote": "Posting sales prepayment invoices and credit memos now loads the order's Work Description"
+        }
+      ]
+    },
+    "change/bcapps/13672": {
+      "kind": "change",
+      "key": "change/bcapps/13672",
+      "hash": "afd488722c4fab7e1c71bbdb6def7ed55851e873fb86b8429b9bd48414622a32",
+      "title": "#13672 Expense Agent: expose VAT setup in configuration wizard",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:29.193Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Expense Agent Setup Wizard now exposes VAT configuration controls"
+        }
+      ]
+    },
+    "change/bcapps/13690": {
+      "kind": "change",
+      "key": "change/bcapps/13690",
+      "hash": "0046797bf052c25302b53101a7706a0e41f0582e9f3478fed18d8e3bf7682568",
+      "title": "#13690 [Main] - Bug 657870: [ExpenseAgent] Allow assigning interim approvers via API before expense reports are pending approval",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:29.193Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Interim approvers can now be assigned via API before an expense report is submitted"
         }
       ]
     },
@@ -11999,22 +12139,36 @@
     "change/bcapps/13721": {
       "kind": "change",
       "key": "change/bcapps/13721",
-      "hash": "34d80a0dd42f4877440470cb9f075ff3b941d1e355482170e7bfca4b55fdfcc1",
+      "hash": "2c875c95a5629b21e08c869846e03c557a2109b3357f1f36ea0192f2b0446d6b",
       "title": "#13721 [Expense Agent] Create per diem line when approving travel requests with Per Diem Included",
       "source": "bcapps-prs",
-      "at": "2026-11-07T01:01:03.631Z",
+      "at": "2026-11-13T00:57:29.193Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Expense Agent Create per diem line when approving travel requests with Per Diem Included"
+          "quote": "Approving a Per Diem Included travel request adds a per diem line to each traveler's newly created expense report"
+        }
+      ]
+    },
+    "change/bcapps/13724": {
+      "kind": "change",
+      "key": "change/bcapps/13724",
+      "hash": "206554baf07d353ba453057532f504b36806734f70ccf8a3946d280f89e37661",
+      "title": "#13724 Bug 651757: Allow warehouse pick for MTO subassembly after registered put-away",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:13.317Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing",
+          "quote": "Warehouse pick selection for make-to-order subassemblies now allows higher-level"
         },
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
-          "quote": "Per diem lines are automatically created during travel request approval when Per Diem Included is enabled"
+          "topic": "topic/business-central/business-functionality/design-details/design-details-warehouse-management",
+          "quote": "warehouse pick for MTO subassembly after registered put-away"
         },
         {
-          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
-          "quote": "When approving travel requests with Per Diem Included, the system now automatically creates a per diem expense line"
+          "topic": "topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes",
+          "quote": "Extended warehouse-picking eligibility to include Planning Level 1 components"
         }
       ]
     },
@@ -12031,6 +12185,80 @@
           "quote": "Codeunit 5895 Inventory Adjustment reduces repeated database reads and JIT loads during average cost calculation"
         }
       ]
+    },
+    "change/bcapps/13730": {
+      "kind": "change",
+      "key": "change/bcapps/13730",
+      "hash": "7c76340661859daa23713fb7921c1727eb3ab383eaad0d733f543b968cb00f3a",
+      "title": "#13730 [Expense Agent] Initialize missing vendor numbering after upgrade",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:29.193Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Initialize missing vendor number series for the Expense Agent"
+        }
+      ]
+    },
+    "change/bcapps/13739": {
+      "kind": "change",
+      "key": "change/bcapps/13739",
+      "hash": "fe1a91988ee5c5693024d5d7e357f49d9dcca0f8fc79dfe259693d3f5f6c02ee",
+      "title": "#13739 [Master]-Sales/Purchase Price List activation allows Duplicate Lines when the Price List is Inactive.",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:23.118Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle",
+          "quote": "Price list activation no longer allows duplicate lines when the list was inactive"
+        }
+      ]
+    },
+    "change/bcapps/13759": {
+      "kind": "change",
+      "key": "change/bcapps/13759",
+      "hash": "81cd486f27549ecf93df33bc49b176f155ba29ce3cb29d491182edcf83fb8ec7",
+      "title": "#13759 [Layers, Apps] Remove CLEAN27 obsolete code",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:13.623Z",
+      "matches": []
+    },
+    "change/bcapps/13760": {
+      "kind": "change",
+      "key": "change/bcapps/13760",
+      "hash": "ed5ab6368a37339f18c6c86b1ddb4a9c6e7168157e2ce1c16ca98c3e49fd267d",
+      "title": "#13760 [Expense Agent] Allow receipt submission with unresolved VAT setup",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:29.193Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Expense Agent receipts can now be submitted and added to expense reports even when VAT accounting mappings are incomplete"
+        }
+      ]
+    },
+    "change/bcapps/13761": {
+      "kind": "change",
+      "key": "change/bcapps/13761",
+      "hash": "9e0e1b115bc2ec187101388c842a305150b8354e2eb41ef383dc6dc441a52fb8",
+      "title": "#13761 SOA search selection adjustments",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:29.277Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "Sales Order Agent's broader item search was adjusted"
+        }
+      ]
+    },
+    "change/bcapps/13764": {
+      "kind": "change",
+      "key": "change/bcapps/13764",
+      "hash": "2e1e7d44c0fe136e60a28b8da67a6eac01e25e7bce644f67ae68c43e1cdb33d9",
+      "title": "#13764 List the SIFT of a key that is disabled in metadata on the Indexes part",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:16.012Z",
+      "matches": []
     },
     "change/bcapps/13765": {
       "kind": "change",
@@ -12060,6 +12288,20 @@
         }
       ]
     },
+    "change/bcapps/13792": {
+      "kind": "change",
+      "key": "change/bcapps/13792",
+      "hash": "8780a8b9f1a23451bef4893a1e03bdab2e2ec6b7e07ffa2d1dda74b3a8fc545e",
+      "title": "#13792 [main] Add Is Feature Trial to legacy Expense Agent Consumption",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:29.277Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "legacy Expense Agent Consumption table to restore schema parity"
+        }
+      ]
+    },
     "change/bcapps/13822": {
       "kind": "change",
       "key": "change/bcapps/13822",
@@ -12071,6 +12313,70 @@
         {
           "topic": "topic/dev-itpro/integration",
           "quote": "XRechnung export now includes the full item description instead of truncating"
+        }
+      ]
+    },
+    "change/bcapps/13824": {
+      "kind": "change",
+      "key": "change/bcapps/13824",
+      "hash": "bf14c7b834690a3e81cd8231ec1e4f3a35437c2824a530677634726cb3960af1",
+      "title": "#13824 Implement namespace normalization for Fabric Data and Logging in setup pages and platform management",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:20.752Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "Added comprehensive tests validating lowercase normalization behavior"
+        }
+      ]
+    },
+    "change/bcapps/13861": {
+      "kind": "change",
+      "key": "change/bcapps/13861",
+      "hash": "c814b3adffd7c22d9643b0db02f2c8db50875bf5faf7b50d53bd007f6ebd68a7",
+      "title": "#13861 [Master]- Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:13.623Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-receivables",
+          "quote": "Adds missing dispute status code for on hold and document synchronization"
+        }
+      ]
+    },
+    "change/bcapps/13952": {
+      "kind": "change",
+      "key": "change/bcapps/13952",
+      "hash": "9282aca92b6ba10ff8eead7f263d64d5e9597d64dccb2b799c51ba364e96629d",
+      "title": "#13952 Add key on Email Message Attachment Data to speed up email deletion",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:12.883Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/performance",
+          "quote": "database key is added on the Data field to significantly improve performance"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/indexing-data-for-performance",
+          "quote": "Adds an index on the Data media field to avoid full table scans"
+        }
+      ]
+    },
+    "change/bcapps/13953": {
+      "kind": "change",
+      "key": "change/bcapps/13953",
+      "hash": "dec2b998b6c103fc080beb89ff7c708076f902fa02ec733376d74098fee061d5",
+      "title": "#13953 Add key on Email Message Attachment Data to speed up email deletion (backport to releases/29.x)",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:12.883Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-2-v27",
+          "quote": "database key was added to the Data field to improve performance when deleting"
+        },
+        {
+          "topic": "topic/dev-itpro/performance",
+          "quote": "Speeds up email deletion operations by eliminating full table scans"
         }
       ]
     },
@@ -12175,16 +12481,11 @@
     "change/bcapps/8183": {
       "kind": "change",
       "key": "change/bcapps/8183",
-      "hash": "d904e4933282610626c62dfeaf6072b69dad555a992942da538927c11f622afa",
+      "hash": "abb69070261f0902631718350d3cab02e22092ed83d20f4fcc5d2594ee6fd999",
       "title": "#8183 Handle failure to manually create E-Document from posted doc with no …",
       "source": "bcapps-prs",
-      "at": "2026-10-19T01:09:31.704Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/business-functionality/local-functionality/mexico/electronic-invoice",
-          "quote": "E-Document creation now correctly reports failure when a posted document cannot be converted"
-        }
-      ]
+      "at": "2026-11-13T00:57:13.623Z",
+      "matches": []
     },
     "change/bcapps/8318": {
       "kind": "change",
@@ -12650,14 +12951,14 @@
     "change/bcapps/8967": {
       "kind": "change",
       "key": "change/bcapps/8967",
-      "hash": "a302df99a64967bff61e138f746e54254106671314bfb093339a71cc7049f596",
+      "hash": "3c2df0d70d0fa1ffda14d0afa4addd77aa3d85ddda730e9014f504b4285cbaa0",
       "title": "#8967 Ability to archive agents",
       "source": "bcapps-prs",
-      "at": "2026-10-07T13:35:12.624Z",
+      "at": "2026-11-13T00:57:29.277Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Agents can now be archived by admins from the Agent List and Card"
+          "quote": "Agents can now be archived by admins from the Agent List"
         }
       ]
     },
@@ -13665,6 +13966,20 @@
         }
       ]
     },
+    "change/bcapps/9214": {
+      "kind": "change",
+      "key": "change/bcapps/9214",
+      "hash": "d56c4689aee4728747a7f2245e0c11d3b87d1b9a3ca4c2b9e562e25bb180bdaa",
+      "title": "#9214 WorkCenter/MachineCenter: add Capacity Shown In to Calendar and Load pages",
+      "source": "bcapps-prs",
+      "at": "2026-11-13T00:57:13.317Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing",
+          "quote": "Work Center and Machine Center Calendar and Load pages now include Capacity"
+        }
+      ]
+    },
     "change/bcapps/9217": {
       "kind": "change",
       "key": "change/bcapps/9217",
@@ -14421,14 +14736,14 @@
     "change/bcapps/9359": {
       "kind": "change",
       "key": "change/bcapps/9359",
-      "hash": "2424a22a77b0ec31ee52e5e559cbc52b8690818bd48b63aa3b46439cf6f37a25",
+      "hash": "9feee58cf873b7ab459056e340b5f1972ec6e2c93a4fae14d0766ae86975464c",
       "title": "#9359 Sales Order Agent: ignore attachments larger than 25 MB during email retrieval",
       "source": "bcapps-prs",
-      "at": "2026-10-17T01:10:56.301Z",
+      "at": "2026-11-13T00:57:29.277Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities",
-          "quote": "Sales Order Agent now ignores email attachments larger than 25 MB during retrieval"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "Sales Order Agent now ignores email attachments larger than 25 MB"
         }
       ]
     },
@@ -17557,10 +17872,10 @@
     "change/bcapps/9969": {
       "kind": "change",
       "key": "change/bcapps/9969",
-      "hash": "dfc69597ad26f111185f3cd9a1677636913f389056549c3094e2ecbc6c863bc7",
+      "hash": "21ae882e73e7b9f39acb6d67d2edc331d0c122f9fd16f7dc1281bda6bbf091f7",
       "title": "#9969 Add AL fast prompt interface and wrappers",
       "source": "bcapps-prs",
-      "at": "2026-10-07T13:35:12.624Z",
+      "at": "2026-11-13T00:57:29.277Z",
       "matches": []
     },
     "change/bcapps/9973": {
@@ -17756,14 +18071,14 @@
     "change/bcquality/112": {
       "kind": "change",
       "key": "change/bcquality/112",
-      "hash": "4454089cca3bd808828653f8abdf050ded7dac325e4acd27af643a3cfeb9bb13",
+      "hash": "98497144fcb0eaee99d8a482c329e0b776114ad6461885da5c54265f3044538b",
       "title": "#112 Add precision guards for systematic agent false-positive patterns",
       "source": "bcquality-prs",
-      "at": "2026-10-08T06:24:28.852Z",
+      "at": "2026-11-13T00:57:29.277Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "Six new knowledge articles across breaking-changes, error-handling, performance"
+          "quote": "precision guards against recurring agent false positives"
         }
       ]
     },
@@ -17987,22 +18302,14 @@
     "change/bcquality/137": {
       "kind": "change",
       "key": "change/bcquality/137",
-      "hash": "17798d0a7fb3d63c117fa18c870a7518c88c2c46bec70d5349a50fc904eb6282",
+      "hash": "f22636657a1c12d6f706b977b2e05f627588818e7bd9525599e0e01ca8443efa",
       "title": "#137 Add community guidance and review support for Business Central agents",
       "source": "bcquality-prs",
-      "at": "2026-10-07T13:35:15.585Z",
+      "at": "2026-11-13T00:57:33.130Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Business Central agent developers gain 20 community-authored guidance rules"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "Each rule includes documentation and contrasting AL code examples"
-        },
-        {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices",
-          "quote": "20 community-authored guidance rules covering agent registration, permissions, profiles"
+          "quote": "Business Central agent developers gain 20 community-authored guidance rules covering agent registration"
         }
       ]
     },
@@ -18031,6 +18338,24 @@
         {
           "topic": "topic/dev-itpro/development/extensibility/using-events",
           "quote": "Event subscribers bind to publishers by parameter name, not by position"
+        }
+      ]
+    },
+    "change/bcquality/141": {
+      "kind": "change",
+      "key": "change/bcquality/141",
+      "hash": "2728f483102e23941ca12ec8a8890671baa727cb5d51a22bd41027c4e58c8b2d",
+      "title": "#141 knowledge(testing): license-entitlement failures on posted tables in a SaaS test run are environmental",
+      "source": "bcquality-prs",
+      "at": "2026-11-13T00:57:20.752Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "Provides good and bad code samples showing the distinction"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security",
+          "quote": "not granting rights beyond entitlements"
         }
       ]
     },
@@ -18866,18 +19191,14 @@
     "change/bcquality/229": {
       "kind": "change",
       "key": "change/bcquality/229",
-      "hash": "d5bd22c251f09bff176458ae2e3ec351d539a09e78c563ea60c478e574105daa",
+      "hash": "428d43cf9a96ab701680e92aa245e92e840e4f28b55489037fffae5e6db0ebd9",
       "title": "#229 Knowledge: Community Copilot domain (System.AI features) and review skill",
       "source": "bcquality-prs",
-      "at": "2026-10-21T09:15:48.165Z",
+      "at": "2026-11-13T00:57:33.130Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
-          "quote": "covering System.AI module best practices like capability registration"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central/build-copilot-user-experience",
-          "quote": "saving PromptDialog proposals only when kept"
+          "quote": "Community Copilot articles with good and bad samples: capability registration on install"
         }
       ]
     },
@@ -18906,14 +19227,14 @@
     "change/bcquality/231": {
       "kind": "change",
       "key": "change/bcquality/231",
-      "hash": "a06ed592721c4af693c0da38db47bb44f5f87f97ab03d699da2a7386a7b3e57f",
+      "hash": "f603e67a5a8332c1d36c091692ae52c451b037a9778b3db01e3632fdc80413f7",
       "title": "#231 al-agents-review: derive the target BC version from app.json",
       "source": "bcquality-prs",
-      "at": "2026-10-21T00:47:17.274Z",
+      "at": "2026-11-13T00:57:33.130Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "al-agents-review skill now derives the target Business Central version"
+          "quote": "al-agents-review skill now derives the target Business Central version from app.json"
         }
       ]
     },
@@ -18993,14 +19314,14 @@
     "change/bcquality/249": {
       "kind": "change",
       "key": "change/bcquality/249",
-      "hash": "e3954104a70df954e2b95a689c8de20755d78d58699153481a92f9d06ca93016",
+      "hash": "f694c647762a0a54bd8ce49b4eaa7691b734468909b8a89b4a8776726a74be87",
       "title": "#249 Route guard-dependent and/or conditions to the short-circuit article",
       "source": "bcquality-prs",
-      "at": "2026-10-21T09:15:48.165Z",
+      "at": "2026-11-13T00:57:33.130Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/the-al-programming-language/variables-types-and-operators",
-          "quote": "Route guard-dependent and/or conditions to the short-circuit article."
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
+          "quote": "AL performance review skill gains a targeted cue to worklist the boolean-operators-do-not-short-circuit article"
         }
       ]
     },
@@ -19750,22 +20071,14 @@
     "post/aardvarklabs-blog/2603": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/2603",
-      "hash": "37d1648ae4d574a5693381c64bdf3d33614e58e4b60778f1103bab7faf5ee8ee",
+      "hash": "9f2756f38c78832f504de1c60d9aba903520faa3b484e1447269740c68cf1669",
       "title": "Guide to Handling Header and Detail Imports into Business Central with AL",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-19T01:09:33.153Z",
+      "at": "2026-11-13T00:57:12.994Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
-          "quote": "parse and import delimited files containing header and detail records"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/sales",
-          "quote": "creating sales orders"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
-          "quote": "demonstrates how to parse and import delimited files using AL"
+          "quote": "demonstrates how to parse and import delimited files containing header and detail records"
         }
       ]
     },
@@ -23364,6 +23677,28 @@
         }
       ]
     },
+    "post/duiliotacconi-com/2238": {
+      "kind": "post",
+      "key": "post/duiliotacconi-com/2238",
+      "hash": "e952acfe9a1f78530e3fb68788f362d362e3baf08f551df28ddf223ea298ebb1",
+      "title": "About Online Upgrades to Dynamics 365 Business Central 2026 Wave 2 (v29)",
+      "source": "duiliotacconi-com",
+      "at": "2026-11-13T00:57:12.883Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-2-v27",
+          "quote": "Dynamics 365 Business Central 2026 Wave 2 online upgrades take significantly longer"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/monitor-and-analyze-telemetry",
+          "quote": "analyzes upgrade SQL and extension footprints using telemetry"
+        },
+        {
+          "topic": "topic/dev-itpro/performance",
+          "quote": "Storing large BLOB objects in the database instead of external storage dramatically slows upgrades"
+        }
+      ]
+    },
     "post/dvlprlife-com/https://www.dvlprlife.com/2026/05/weekly-review-business-central-al-development-may-17-23-2026/": {
       "kind": "post",
       "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/05/weekly-review-business-central-al-development-may-17-23-2026/",
@@ -23721,6 +24056,24 @@
         ]
       }
     },
+    "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/business-central-trivia-recap-october-19-23-2026/": {
+      "kind": "post",
+      "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/business-central-trivia-recap-october-19-23-2026/",
+      "hash": "45c1c2b174c063a3eef326aa08c0e1995d5e288e7c998a857fc84dbc01e32b77",
+      "title": "Business Central Trivia Recap: October 19–23, 2026",
+      "source": "dvlprlife-com",
+      "at": "2026-11-13T00:57:16.012Z",
+      "matches": []
+    },
+    "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/business-central-trivia-recap-october-26-30-2026/": {
+      "kind": "post",
+      "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/business-central-trivia-recap-october-26-30-2026/",
+      "hash": "99d6c936e1d394b8800b28fe12bbb381b82cd556fe7625d923be4ab0b5b99006",
+      "title": "Business Central Trivia Recap: October 26–30, 2026",
+      "source": "dvlprlife-com",
+      "at": "2026-11-13T00:57:13.521Z",
+      "matches": []
+    },
     "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/": {
       "kind": "post",
       "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/",
@@ -23752,17 +24105,30 @@
         ]
       }
     },
+    "post/dvlprlife-com/https://www.dvlprlife.com/2026/11/business-central-trivia-recap-november-2-6-2026/": {
+      "kind": "post",
+      "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/11/business-central-trivia-recap-november-2-6-2026/",
+      "hash": "e5a22133eed614188c4dc379f6985563c7a045c8a5767058b820bf237bb4536b",
+      "title": "Business Central Trivia Recap: November 2–6, 2026",
+      "source": "dvlprlife-com",
+      "at": "2026-11-13T00:57:23.118Z",
+      "matches": []
+    },
     "post/dvlprlife-com/https://www.dvlprlife.com/2026/11/november-2026-cumulative-updates-for-dynamics-365-business-central/": {
       "kind": "post",
       "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/11/november-2026-cumulative-updates-for-dynamics-365-business-central/",
-      "hash": "335af3433104483bf16f9f943d108e40e6224c7891f5acab5c4dd9c2140a60a8",
+      "hash": "c86cedcb3995281c88ddae3d50eb5e25de527a8e6f22d1deebf006b44bb89047",
       "title": "November 2026 Cumulative Updates for Dynamics 365 Business Central",
       "source": "dvlprlife-com",
-      "at": "2026-11-10T00:52:45.068Z",
+      "at": "2026-11-13T00:57:16.012Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-2-v27",
-          "quote": "Three cumulative updates released in November 2026 for different on-premises versions"
+          "quote": "November 2026 cumulative updates for Business Central on-premises: 29.1"
+        },
+        {
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-1-v28",
+          "quote": "November 2026 cumulative updates for Business Central on-premises: 29.1"
         }
       ]
     },
@@ -26304,6 +26670,20 @@
         }
       ]
     },
+    "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4301562050938159536": {
+      "kind": "post",
+      "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4301562050938159536",
+      "hash": "ba40fd0928d4beaf69e153845684000c5b020849a936ae9fbef439b4f8b4184e",
+      "title": "Expense Agent just got half as expensive, and you can now try it for free",
+      "source": "mohana-blog",
+      "at": "2026-11-13T00:57:19.192Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Expense Agent pricing is cut in half to 25 Copilot Credits"
+        }
+      ]
+    },
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619",
@@ -26594,6 +26974,24 @@
           }
         ]
       }
+    },
+    "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8858724149942666914": {
+      "kind": "post",
+      "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8858724149942666914",
+      "hash": "2c5e1c5912e89cb4f5c5d5f3b7e32cbb512fa3a782919513190cb0f9239091d3",
+      "title": "Business Central is transitioning to .NET 10",
+      "source": "mohana-blog",
+      "at": "2026-11-13T00:57:12.883Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade",
+          "quote": "Business Central is transitioning from .NET 8 to .NET 10"
+        },
+        {
+          "topic": "topic/dev-itpro/development/development-environment/configure-the-development-environment",
+          "quote": "AL Language extension requires .NET 10 and now uses .NET Install Tool for VS Code"
+        }
+      ]
     },
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8913658799123411419": {
       "kind": "post",
@@ -32640,6 +33038,24 @@
         ]
       }
     },
+    "post/waldo-be/318755": {
+      "kind": "post",
+      "key": "post/waldo-be/318755",
+      "hash": "62d8c4b8300aea409241cba88258a06270a8d435b9f39b43f332bfe5dd6f8840",
+      "title": "Agent Maron & waldo: Mission AL Runner",
+      "source": "waldo-be",
+      "at": "2026-11-13T00:57:23.118Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "AL code tests outside Business Central using Rust and an in-memory database"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "Two AI agents coordinated continuously over one week"
+        }
+      ]
+    },
     "post/wingate365-com/https://blog.wingate365.com/2025/05/business-central-power-pages-true.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2025/05/business-central-power-pages-true.html",
@@ -32657,10 +33073,10 @@
     "post/wingate365-com/https://blog.wingate365.com/2025/05/lets-setup-sales-order-agent-in.html": {
       "kind": "post",
       "key": "post/wingate365-com/https://blog.wingate365.com/2025/05/lets-setup-sales-order-agent-in.html",
-      "hash": "72a16d998aff4c27d4acd094ca1ceed7bb717a0ce4bce5496f9b538d63b8f91b",
+      "hash": "4c72f3d0373765dd9d24fcdb8daa7e135daf22f45bd1f85306461ea8b51691b6",
       "title": "Letâ€™s setup the Sales Order Agent in Business Central - Experts Live UK User Group",
       "source": "wingate365-com",
-      "at": "2026-10-30T01:07:40.821Z",
+      "at": "2026-11-13T00:57:12.994Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
@@ -36459,18 +36875,14 @@
     "post/yzhums-com/70502": {
       "kind": "post",
       "key": "post/yzhums-com/70502",
-      "hash": "de72ba277dfa36dd019ba27a24e9ba2f814eb53cfe813d92a723994ad04f61e2",
+      "hash": "90efeb6abdf13c525748163c930ab47a3340ced885b2fccacaf340657b07e496",
       "title": "Business Central 2025 wave 2 (BC27.4): Envision and design AI agents in Business Central (Custom Agent)",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:15.978Z",
+      "at": "2026-11-13T00:57:19.192Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Custom agents interpret natural language business goals and translate them into actionable steps"
-        },
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
-          "quote": "consume Copilot credits on a prepaid or pay-as-you-go basis"
+          "quote": "users build custom AI agents that turn natural language goals into actions"
         }
       ]
     },
@@ -36875,14 +37287,14 @@
     "post/yzhums-com/71363": {
       "kind": "post",
       "key": "post/yzhums-com/71363",
-      "hash": "d28a8c053c24b81512225bd93821fecd3d6aab6e2a3470ffbc431f2378a69e71",
+      "hash": "49fdd2195a46cc2d823a072c09d411143cf2532166c9fd8ce888869a99ec9720",
       "title": "Business Central 2026 release wave 1 (BC28): New template for getting started with creating agents",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:14.446Z",
+      "at": "2026-11-13T00:57:19.192Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "A new Agent template is available via the AL: New Project command"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "the AL Language extension adds an Agent template to the AL: New Project command"
         }
       ]
     },
@@ -37407,10 +37819,10 @@
     "post/yzhums-com/72069": {
       "kind": "post",
       "key": "post/yzhums-com/72069",
-      "hash": "ace6c230c1e94a51a12ad34955b7498a6cdaa4aaff46ab5148cc7081d0a70f21",
+      "hash": "2e9689d00c7ac76038db22a960dc4c1e562d9630ddb03ee5a0c7dfcacae00d74",
       "title": "Dynamics 365 Business Central: How to add Marketing Text Factbox to Item List page",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:14.446Z",
+      "at": "2026-11-13T00:57:19.192Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/marketing-text-suggestions",
@@ -37481,14 +37893,14 @@
     "post/yzhums-com/72431": {
       "kind": "post",
       "key": "post/yzhums-com/72431",
-      "hash": "03eddc7258b250216603519672ff3e98b38a9cf197db97cc913fa146cc4577b7",
+      "hash": "0716f0974515befc59eab1cdb27094d057715bc0d0790887c8bc2007e734e82c",
       "title": "Dynamics 365 Business Central: How to monitor User AI Consumption Data within BC  (Agent consumption overview)",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:37.693Z",
+      "at": "2026-11-13T00:57:19.192Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
-          "quote": "Business Central 27.5 allows users to track Copilot Credit consumption directly within"
+          "quote": "track Copilot Credit consumption directly within the application through the Agent Consumption Overview page"
         }
       ]
     },
@@ -38218,14 +38630,14 @@
     "post/yzhums-com/74703": {
       "kind": "post",
       "key": "post/yzhums-com/74703",
-      "hash": "27daa63fb946655c301c3fcb2dc742909470e331af184eb0418635fdb29a14f9",
+      "hash": "c6d5319c6c290bd98e0c4e05e95ca929fb3898ee2406465f215f893147beb019",
       "title": "Business Central 2026 release wave 1 (BC28): Copilot and agent data movement across geographies",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:14.446Z",
+      "at": "2026-11-13T00:57:19.192Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
-          "quote": "Consent is controlled by the Allow data movement toggle on the Copilot & agent capabilities page"
+          "quote": "controls for managing Copilot and agent data movement across Azure geographies"
         }
       ]
     },
@@ -38728,14 +39140,14 @@
     "post/yzhums-com/75811": {
       "kind": "post",
       "key": "post/yzhums-com/75811",
-      "hash": "33d6b3d3a1d7f63a2cde2b7b6bb712063df03d70690907e7ff9fc5b1c86fc90c",
+      "hash": "dee39f6485728482dc8eeb243ae7b27c75c33ba3266d6c41467c2aa7b2ad2a49",
       "title": "Business Central 2026 release wave 2 (BC29): Enable unified Copilot chat experience consistent with Microsoft Copilot (New Chat with Copilot)",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:14.446Z",
+      "at": "2026-11-13T00:57:19.570Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "Business Central 2026 release wave 2 introduces a unified Copilot chat experience"
+          "quote": "unified Copilot chat experience that matches Microsoft 365 Copilot's interface"
         }
       ]
     },
@@ -39117,10 +39529,10 @@
     "post/yzhums-com/76396": {
       "kind": "post",
       "key": "post/yzhums-com/76396",
-      "hash": "82efd373b718cf8b473abe01b7f06294ca00cc72c38d59edcb44a5d60d51e45a",
+      "hash": "23907852aa00c892051c63959926f138c8856cbd57bf113a9bdc11abad656693",
       "title": "Dynamics 365 Business Central: How to turn off feedback on AI-generated content",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:38.687Z",
+      "at": "2026-11-13T00:57:19.570Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
@@ -39131,18 +39543,14 @@
     "post/yzhums-com/76419": {
       "kind": "post",
       "key": "post/yzhums-com/76419",
-      "hash": "b75bbbf068944086217d3fd2090fb3512bc594a022b93c3c379b9d1428ae4beb",
+      "hash": "b026fea1d37aa5abaa02a2821f3f149239955df1068b7bb83f2eca7a524631f5",
       "title": "Business Central 2026 release wave 2 (BC29): Run data queries with MCP Server (no APIs required)",
       "source": "yzhums-com",
-      "at": "2026-10-26T06:22:38.687Z",
+      "at": "2026-11-13T00:57:19.570Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "Data Query Tools for the MCP Server, enabling AI agents"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "AI agents to define, validate, and run custom data queries"
+          "quote": "Data Query Tools for the MCP Server, enabling AI agents to define, validate, and run"
         }
       ]
     },
@@ -39525,6 +39933,20 @@
         }
       ]
     },
+    "post/yzhums-com/77170": {
+      "kind": "post",
+      "key": "post/yzhums-com/77170",
+      "hash": "644b4d8d294e3869db91abc5f871e3de1287be624bb412e1ca69736e0f613704",
+      "title": "Microsoft Announces New Business Central + Copilot Bundles Starting January 2027",
+      "source": "yzhums-com",
+      "at": "2026-11-13T00:57:19.570Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
+          "quote": "Copilot is available directly inside Business Central as a unified chat experience"
+        }
+      ]
+    },
     "post/yzhums-com/77263": {
       "kind": "post",
       "key": "post/yzhums-com/77263",
@@ -39538,6 +39960,15 @@
           "quote": "Synchronize master data across development, test, and production environments"
         }
       ]
+    },
+    "post/yzhums-com/77267": {
+      "kind": "post",
+      "key": "post/yzhums-com/77267",
+      "hash": "56656cf3f5b271f562387f6377a042d8c4b9ea61336d9243414fd60a819757cb",
+      "title": "Dynamics 365 Business Central: New 28+ License Key for On-Premises (license key version update)",
+      "source": "yzhums-com",
+      "at": "2026-11-13T00:57:16.012Z",
+      "matches": []
     },
     "video/_1LhwG2ZgFw": {
       "kind": "video",
@@ -45641,18 +46072,22 @@
     "video/m8-7-JKq4dc": {
       "kind": "video",
       "key": "video/m8-7-JKq4dc",
-      "hash": "0deb938e5b31e3ee474d1a9d09c93beab312a218da7f50030c2a1000cd951373",
+      "hash": "a53325f81717b085fe5dc4960d068df6a037142a7f0537ded1774d76d698a478",
       "title": "Introducing: Quality Management (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:43.331Z",
+      "at": "2026-11-13T00:57:13.317Z",
       "matches": [
         {
+          "topic": "topic/business-central/business-functionality/quality-management",
+          "quote": "Introducing: Quality Management (2026 release wave 1). Topics: quality inspection"
+        },
+        {
           "topic": "topic/business-central/business-functionality/quality-management/set-up-quality-management",
-          "quote": "Quality Management Extension; Automatic Quality Test Triggering; Scheduled Quality Inspections"
+          "quote": "configuration; quality templates; sampling; evaluation sequence"
         },
         {
           "topic": "topic/business-central/business-functionality/design-details/design-details-item-tracking",
-          "quote": "Item Tracking Preservation in Quality Process; Item Tracking Inspection Controls"
+          "quote": "item tracking; non-compliant items; Item Tracking Preservation in Quality Process"
         }
       ]
     },
@@ -50596,11 +51031,16 @@
     "video/zE6uElxwSMQ": {
       "kind": "video",
       "key": "video/zE6uElxwSMQ",
-      "hash": "57ec870584a9607e94c1bb4f367f4a58bd8d1206c4316ba7cb7cc308b1e72efd",
+      "hash": "e58e21b8d556eea91904185bff5863d4aeccb8b6220e4fd7352e3975584556cc",
       "title": "Carglass Sweden",
       "source": "yt-microsoft",
-      "at": "2026-10-19T01:09:34.111Z",
-      "matches": []
+      "at": "2026-11-13T00:57:12.994Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/development-and-administration/migrate-to-business-central-online",
+          "quote": "cloud migration; booking management; customer satisfaction; data access"
+        }
+      ]
     },
     "video/zei-IszvYNU": {
       "kind": "video",

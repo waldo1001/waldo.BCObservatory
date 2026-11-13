@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:01:15.115Z"
   flags: []
 generated:
-  at: "2026-11-09T00:40:46.035Z"
+  at: "2026-11-13T00:56:40.434Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -94,16 +94,6 @@ links:
       title: Manufacturing Foundations Capacities (2026)
       label: possibly related
       why: both name Table 99000758 "Machine Center"
-      by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app-semantic-model
-      title: Power BI Manufacturing app semantic model
-      label: possibly related
-      why: names Table 99000758 "Machine Center"
-      by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-scrap
-      title: Production Scrap (Power BI report)
-      label: possibly related
-      why: names Table 99000758 "Machine Center"
       by: code
 video_id: 2_yYu3RgYwo
 channel: yt-microsoft
@@ -292,7 +282,5 @@ Not found in BC28-30: table "item card", table "resource card", table "GL accoun
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Manufacturing Foundations Capacities (2026)](../videos/zt9_HEmPKNg.md) — possibly related: both name Table 99000758 "Machine Center"
-- [Power BI Manufacturing app semantic model](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app-semantic-model) — possibly related: names Table 99000758 "Machine Center"
-- [Production Scrap (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-scrap) — possibly related: names Table 99000758 "Machine Center"
 
 Presenters (as heard): Alexander, Melissa.

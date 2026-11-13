@@ -2,7 +2,7 @@
 id: app/powerbireports
 type: app
 title: PowerBIReports
-summary: "PowerBIReports (Microsoft.PowerBIReports): 293 objects in BC29-30 (150 pages, 82 queries, 19 codeunits, 15 page extensions, 10 table extensions, ...); documented by 23 Learn hubs; 2 videos, 1 post."
+summary: "PowerBIReports (Microsoft.PowerBIReports): 293 objects in BC29-30 (150 pages, 82 queries, 19 codeunits, 15 page extensions, 10 table extensions, ...); documented by 22 Learn hubs; 2 videos, 1 post."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:54:07.187Z"
+  at: "2026-11-13T00:54:21.330Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d5dcb8c0b12898617ed6f4613cb2f845709730bf7fbd11e367a5749ec04e38a7
+  input_hash: 560acd9161137fce71abaa4f5ec7d9888e3d679b380a39aa816047616e33af1a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/PowerBIReports/app
@@ -253,7 +253,6 @@ links:
     - topic/business-central/business-functionality/finance/manage-receivables
     - topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi
     - topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central
-    - topic/business-central/business-functionality/sustainability-management/sustainability-analytics/power-bi-sustainability-app
     - topic/business-central/business-functionality/sales/subscription-billing/subscription-billing-analytics
   localizations: []
   videos:
@@ -281,14 +280,14 @@ counts:
     enum: 2
     enumextension: 1
     interface: 1
-  hubs: 23
+  hubs: 22
   videos: 2
   posts: 1
 ---
 
 # PowerBIReports
 
-> PowerBIReports (Microsoft.PowerBIReports): 293 objects in BC29-30 (150 pages, 82 queries, 19 codeunits, 15 page extensions, 10 table extensions, ...); documented by 23 Learn hubs; 2 videos, 1 post.
+> PowerBIReports (Microsoft.PowerBIReports): 293 objects in BC29-30 (150 pages, 82 queries, 19 codeunits, 15 page extensions, 10 table extensions, ...); documented by 22 Learn hubs; 2 videos, 1 post.
 
 First-party app · folder `src/Apps/W1/PowerBIReports/app` · namespace `Microsoft.PowerBIReports` · BC29-30 · system reporting · facts from the code pillar and the joins, nothing machine-written
 
@@ -317,7 +316,6 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 - [Manage receivables](../topics/business-central/business-functionality/finance/manage-receivables.md) (Business functionality > Finance): 2 objects
 - [Microsoft Power BI](../topics/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi.md) (Integrate with other applications > Microsoft Power Platform): 2 objects
 - [Power BI apps for Business Central](../topics/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central.md) (Analytics, business intelligence, and reporting > KPIs, dashboards, and financial reports): 2 objects
-- [Power BI sustainability app](../topics/business-central/business-functionality/sustainability-management/sustainability-analytics/power-bi-sustainability-app.md) (Business functionality > Sustainability management > Sustainability analytics): 2 objects
 - [Subscription billing analytics](../topics/business-central/business-functionality/sales/subscription-billing/subscription-billing-analytics.md) (Business functionality > Sales > Subscription billing): 2 objects
 
 ## Objects

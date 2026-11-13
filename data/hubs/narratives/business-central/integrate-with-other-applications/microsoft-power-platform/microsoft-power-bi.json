@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi",
-  "input_hash": "862c49ef3ddb973c52a7abdd590b84ecddc14e9a068d4e231784d0162c3568fb",
-  "summary": "Power BI integration with Business Central: licensing, enabling data access through API pages and OData web services, building reports in Power BI Desktop, embedding reports in Business Central pages, and using prebuilt Power BI apps. It answers setup, report creation, and usage questions for online and on-premises deployments.",
-  "overview": "Power BI integration lets you retrieve Business Central data to build dashboards and reports, and show Power BI reports inside Business Central. Data is exposed through API pages and OData web services. The Power BI Desktop connector and Power Query are used to build reports. Online environments use read-only database replicas for reporting.\n\nThe pages follow a path from concept to practice. Start with the introduction and the architecture overview to see the components. Then use the enabling page for licensing and configuration. The on-premises page covers the extra steps: OData web services, access keys, and a Microsoft Entra ID app registration.\n\nFor building and using reports, the Power BI Desktop page covers connecting and publishing, and the custom reports page covers naming, sizing, and filtering for FactBox display on list pages. The functional areas page lists the prebuilt Power BI apps. The last page covers viewing, refreshing, and sharing reports inside Business Central.",
+  "input_hash": "5ee3b902c325f1b404a965b93873d379abc599ec0b8da9d0671879387eae06e9",
+  "summary": "Power BI integration with Business Central: how data is exposed (API pages, OData web services), how to build reports in Power BI Desktop, how to embed reports in Business Central pages, and which prebuilt apps exist. It answers setup, licensing, architecture, on-premises connection and report-management questions.",
+  "overview": "This section covers connecting Business Central to Power BI in both directions. Business Central data can be pulled into Power BI through the Power BI Desktop connector, API pages or OData web services, and Power BI reports can be shown inside Business Central, for example in the Power BI FactBox on list pages and on role centers.\n\nThe pages fit together in a sequence. Start with the introduction and the architecture page to understand the components, including read-only database replicas and read scale-out. Then use the enabling page for licensing and setup, and the on-premises page if you run Business Central on-premises. The report-building pages explain how to create reports from Business Central data and how to embed custom reports. The functional-area page lists the prebuilt Power BI apps, and the last page covers viewing, refreshing and sharing reports in Business Central.",
   "key_points": [
-    "Data reaches Power BI through API pages and OData web services; dataflows and datamarts are also mentioned.",
-    "Both Power BI free and Pro licenses are covered in the enabling page.",
-    "On-premises setup needs authentication configuration, OData web services (ODataV4 endpoint), a web service access key, and a Microsoft Entra ID app registration.",
-    "Online environments use a read-only database replica for reporting.",
-    "Power BI Desktop reports can use the connector, advanced query options, custom Power Query functions, and cross-company reporting, then be published for sharing.",
-    "Custom reports for Business Central list pages need proper naming, sizing, and primary key filtering to appear in the Power BI FactBox.",
-    "Prebuilt Power BI apps cover Finance, Sales, Purchasing, Inventory, Inventory Valuation, Projects, Manufacturing, Sustainability, and Subscription Billing.",
-    "Reports in Business Central can be refreshed manually or on a schedule, and shared."
+    "Data is exposed to Power BI through API pages and OData web services, and the Power Query connector in Power BI Desktop reads it.",
+    "Setup covers Power BI free and Pro licensing, with configuration for online and on-premises deployments.",
+    "On-premises connection requires enabling OData web services, choosing NavUserPassword or Microsoft Entra ID authentication, assigning a web service access key, and registering an Azure application.",
+    "Custom reports can be embedded in list pages through the Power BI FactBox, filtered with primary keys, and can be multi-page; the page mentions version 27.",
+    "Prebuilt Power BI apps exist for Finance, Sales, Purchasing, Inventory, Inventory Valuation, Projects, Manufacturing, Sustainability and Subscription Billing.",
+    "Reports built in Power BI Desktop can be customized in Power Query, use read-only replica configuration, and support cross-company reporting.",
+    "Reports in Business Central can be refreshed manually or on a schedule and shared; dataflows and datamarts are also options.",
+    "The architecture covers connectors, embedded report viewing, report management, default reports on role centers, and database read scale-out."
   ],
   "members_used": 8,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-05T00:54:35.336Z",
+  "at": "2026-11-13T01:00:49.494Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.015493
+    "cost_usd": 0.016119
   }
 }

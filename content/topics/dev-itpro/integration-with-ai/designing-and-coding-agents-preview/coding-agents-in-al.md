@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,15 +92,22 @@ links:
   videos:
     - video/EwN3xb2q7vE
     - video/jWqjDTbqjeE
+    - video/mBU2Iu0urw8
     - video/MNwTt06ZxwY
     - video/nbGw2g3KMXI
     - video/UgagVZVKCso
     - video/V4zCPAsYi_Y
+    - video/w2P3WskFaCA
+    - video/WjFx9yYf1js
+    - video/XGEDwzIZQj4
+    - video/xWOddQt1GUM
   posts:
     - post/bertverbeek-nl/1272
     - post/demiliani-com/13814
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165
+    - post/nataliekarolak-com/3995
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
+    - post/yzhums-com/71363
   guidelines: []
   changes:
     - change/bcapps/10007
@@ -148,7 +155,6 @@ links:
     - change/bcapps/11213
     - change/bcapps/11290
     - change/bcapps/11333
-    - change/bcapps/11375
     - change/bcapps/11381
     - change/bcapps/11383
     - change/bcapps/11420
@@ -182,7 +188,6 @@ links:
     - change/bcapps/9904
     - change/bcapps/9988
     - change/bcapps/9989
-    - change/bcquality/137
     - change/bcquality/174
     - change/bcquality/176
     - change/bcquality/233
@@ -196,8 +201,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 6
-  blog: 4
+  video: 11
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 69eac98ac3509b30b15900079714f9d3546b4ea11aac6d5b7228ce8677ee298c
@@ -295,7 +300,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11213 Fix sample invoice email when the agent setup is not saved yet](../../../../changes/bcapps/11213.md) (code change): "The payables agent demo guide now receives the setup configuration"
 - [#11290 [Bug 640454] Scope Expense Agent Entra permissions by company](../../../../changes/bcapps/11290.md) (code change): "Expense Agent now manages Microsoft Entra permissions scoped to individual companies"
 - [#11333 Align travel request APIs with employee travelers and expense report lifecycle](../../../../changes/bcapps/11333.md) (code change): "Expense Agent APIs now align travel request and expense report workflows"
-- [#11375 Obsolete GPT-5.5 chat and add GPT-5.6 Ceres deployments](../../../../changes/bcapps/11375.md) (code change): "Sales Order Agent attachment extraction and item search now use them"
 - [#11381 Slice 641293: [Expense Agent] Expense Locations and Per-diem rules in configuration - added check for existing country](../../../../changes/bcapps/11381.md) (code change): "Expense Agent setup now skips creating expense locations for country and currency codes that do not exist"
 - [#11383 [SOA] Fix "The Order Promising Setup does not exist." crash when setting quote quantity](../../../../changes/bcapps/11383.md) (code change): "The Sales Order Agent now handles missing Order Promising Setup gracefully"
 - [#11420 [Master] - [Expense Management] Hide Enable Agent on Expense Agent Setup Page](../../../../changes/bcapps/11420.md) (code change): "Hide Enable Agent on Expense Agent Setup Page"
@@ -329,19 +333,25 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9904 Let the agent see and set vendor posting groups and CIF or NIF](../../../../changes/bcapps/9904.md) (code change): "The payables agent can now see and set vendor posting groups"
 - [#9988 [Expense Agent] Fix Employee subscriber permissions](../../../../changes/bcapps/9988.md) (code change): "Expense Agent Employee event subscribers so they can sync and delete"
 - [#9989 [SOA] Skip Item Selector for exact items without variants](../../../../changes/bcapps/9989.md) (code change): "The Sales Order Agent no longer calls the Item Selector"
-- [#137 Add community guidance and review support for Business Central agents](../../../../changes/bcquality/137.md) (code change): "Each rule includes documentation and contrasting AL code examples"
 - [#174 Make BCQuality documentation easier for partners to get started](../../../../changes/bcquality/174.md) (code change): "Community Agents review extended with folder-path support"
 - [#176 Complete partner contribution and knowledge consumption guides](../../../../changes/bcquality/176.md) (code change): "consuming skills in custom agents, with clarifications on metadata, integration"
 - [#233 knowledge(web-services): describe API objects intended for MCP tools](../../../../changes/bcquality/233.md) (code change): "API objects intended for MCP tools to describe entities using AboutText"
 - [Agents in Business Central – part 5 – Creating agent from code](../../../../posts/bertverbeek-nl/1272.md) (community post): "Implement IAgentFactory to control agent creation, setup experience, and access"
 - [Dynamics 365 Business Central: new model choice in Agent definition.](../../../../posts/demiliani-com/13814.md) (community post): "AL methods allowing administrators to select between available models"
 - [Weekly Review: Business Central AL Development – May 31–June 6, 2026](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165.md) (community post): "AL APIs (SetModelId, GetModelId, etc.) for code-defined agents"
+- [Docs: What’s new in BC 28 for developers](../../../../posts/nataliekarolak-com/3995.md) (community post): "AL coding agents with BC-Bench, improved database index management"
 - [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "Partners need to develop AI competency through the AI Development Toolkit and Agent Building Sandbox"
+- [Business Central 2026 release wave 1 (BC28): New template for getting started with creating agents](../../../../posts/yzhums-com/71363.md) (community post): "the AL Language extension adds an Agent template to the AL: New Project command"
 - [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit"
 - [Introducing: Envision, Design and Code Business Central Agents](../../../../videos/jWqjDTbqjeE.md) (video): "Introducing: Envision, Design and Code Business Central Agents"
+- [Microsoft presents: Agentic development with AL developer tools and ALMCP deep dive](../../../../videos/mBU2Iu0urw8.md) (video): "Agentic development with AL developer tools and ALMCP deep dive"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Agent creation and configuration; Agent instructions configuration; Agent model selection"
 - [20260713 - From Zero to Agent Building agents in Business Central](../../../../videos/nbGw2g3KMXI.md) (video): "From Zero to Agent Building agents in Business Central; AL Agent Development"
 - [Business Central Partner Learnings from the Red Carpet Copilot Program](../../../../videos/UgagVZVKCso.md) (video): "Copilot Function with Prompt Engineering; Automated Testing for Copilot"
 - [Getting Started With Agent Testing: Test Setup and Structuring (part 3)](../../../../videos/V4zCPAsYi_Y.md) (video): "AI Development Toolkit Evaluation app; AI Test Toolkits; LLM as judge for test validation"
+- [Episode 513: No Windows, No IDE, No Problem: BC Development from the Terminal](../../../../videos/w2P3WskFaCA.md) (video): "AI-assisted development in Business Central"
+- [Vibe Coding Risks in Business Central. #businesscentral #bc #podcast](../../../../videos/WjFx9yYf1js.md) (video): "Vibe Coding Risks in Business Central"
+- [What's New: BC-Bench (2026 release wave 1)](../../../../videos/XGEDwzIZQj4.md) (video): "ai coding agents; benchmarking; bug fixing; mcp servers"
+- [Episode 515: Stop Coding, Start Architecting: How AI Is Reshaping the BC Developer Role](../../../../videos/xWOddQt1GUM.md) (video): "AI-assisted code generation for AL"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

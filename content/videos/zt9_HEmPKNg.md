@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:46:19.685Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-11-13T00:56:40.434Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -110,16 +110,6 @@ links:
       title: Manufacturing Foundations BOM (2026)
       label: possibly related
       why: both name Table 5405 "Production Order"
-      by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app-semantic-model
-      title: Power BI Manufacturing app semantic model
-      label: possibly related
-      why: names Table 99000758 "Machine Center"
-      by: code
-    - to: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-scrap
-      title: Production Scrap (Power BI report)
-      label: possibly related
-      why: names Table 99000758 "Machine Center"
       by: code
     - to: video/2_yYu3RgYwo
       title: "What's New: Default Sustainability Information (2025 release wave 1)"
@@ -322,8 +312,6 @@ No source states these links: they share an object, a model read them, or a pers
 
 - [Dynamics 365 Business Central: How to flow/pass custom field values from Sales Order to Production Order](../posts/yzhums-com/74172.md) — possibly related: both name Table 5405 "Production Order"
 - [Manufacturing Foundations BOM (2026)](../videos/GEuUFcgFZF0.md) — possibly related: both name Table 5405 "Production Order"
-- [Power BI Manufacturing app semantic model](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-app-semantic-model) — possibly related: names Table 99000758 "Machine Center"
-- [Production Scrap (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-scrap) — possibly related: names Table 99000758 "Machine Center"
 - [What's New: Default Sustainability Information (2025 release wave 1)](../videos/2_yYu3RgYwo.md) — possibly related: both name Table 99000758 "Machine Center"
 - [What's New: Supply Chain Management - overview (2026 release wave 1)](../videos/sqjb_gsXqM8.md) — possibly related: both name Table 5405 "Production Order"
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:10.067Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,6 +46,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10346
+    - change/bcquality/141
     - change/bcquality/157
     - change/bcquality/187
     - change/bcquality/49
@@ -104,6 +105,7 @@ Start with the layered security model page for the overall picture. Then read th
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10346 Fix activity log indirect permissions](../../../../../changes/bcapps/10346.md) (code change): "All activity writes remain code-mediated through Expense Activity Log Mgt"
+- [#141 knowledge(testing): license-entitlement failures on posted tables in a SaaS test run are environmental](../../../../../changes/bcquality/141.md) (code change): "not granting rights beyond entitlements"
 - [#157 18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource](../../../../../changes/bcquality/157.md) (code change): "Security, error handling, UI, upgrade, web services and AppSource guidance on permission sets"
 - [#187 Code reviewer skill for recognizing and validating unauthenticated responses](../../../../../changes/bcquality/187.md) (code change): "Helps enforce security best practices in extension code"
 - [#49 Promote security knowledge from community to Microsoft layer](../../../../../changes/bcquality/49.md) (code change): "Best practice guidance improved for temporary table data protection"

@@ -2,33 +2,33 @@
 id: topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi/report-creator
 type: topic
 title: Report creator
-summary: Report creator covers building Power BI reports on Business Central data. It answers questions about creating reports in Power BI Desktop with the connector, APIs and OData web services, and about preparing reports to show in Power BI FactBoxes on list pages.
+summary: Report creator covers building Power BI reports from Business Central data in Power BI Desktop, and embedding custom reports in Business Central list pages through the Power BI FactBox. It answers questions about connecting via APIs or OData web services, customizing Power Query, filtering by primary keys, and troubleshooting connections.
 tier: official
 language: en
 system: reporting
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:23:50.333Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 174c4737f7cb3733070c0369d1d10197453e82c6a3758cb90858bca9c638f2be
+  input_hash: b2b395c34b9bf7b2c717f3a54d3fb7aa8278fba5af693d8e8ba21574132eabd1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi
-    title: Building reports in Power BI Desktop to display Business Central data
-    date: "2025-10-16"
+    title: Build Power BI Reports with Business Central Data
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-powerbi-reports-factbox
-    title: Display custom Power BI reports
-    date: "2025-10-16"
+    title: Display Custom Power BI Reports in Business Central
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -66,33 +66,33 @@ narrative: generated
 
 # Report creator
 
-> Report creator covers building Power BI reports on Business Central data. It answers questions about creating reports in Power BI Desktop with the connector, APIs and OData web services, and about preparing reports to show in Power BI FactBoxes on list pages.
+> Report creator covers building Power BI reports from Business Central data in Power BI Desktop, and embedding custom reports in Business Central list pages through the Power BI FactBox. It answers questions about connecting via APIs or OData web services, customizing Power Query, filtering by primary keys, and troubleshooting connections.
 
-Path: [Integration](../../../integration.md) > [Integrating with Microsoft Power Platform](../../integrating-with-microsoft-power-platfor.md) > [Integrating with Microsoft Power BI](../integrating-with-microsoft-power-bi.md) > Report creator · tier official · system reporting · narrative reviewed (checked by Opus)
+Path: [Integration](../../../integration.md) > [Integrating with Microsoft Power Platform](../../integrating-with-microsoft-power-platfor.md) > [Integrating with Microsoft Power BI](../integrating-with-microsoft-power-bi.md) > Report creator · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is for people who author Power BI reports that use Business Central data. It has two pages. One covers building reports in Power BI Desktop. The other covers making a report display correctly inside Business Central.
+This section is for people who create their own Power BI reports on Business Central data. It has two pages that cover two directions: getting data out of Business Central into Power BI Desktop, and bringing finished reports back into Business Central.
 
-The Desktop page explains how to connect to Business Central through the Power BI Desktop connector, using APIs or OData web services. It also covers advanced query options, custom Power Query functions, cross-company reporting and a read-only replica, and publishing reports so the organization can share them.
+The first page explains how to use Business Central as a data source in Power BI Desktop. It covers connecting through APIs or web services, adjusting the Power Query code, read-only replica configuration, cross-company reporting, and common connection problems. The second page explains how to create a custom report, set up filters with primary keys, and show the report in the Power BI FactBox on list pages. It mentions version 27.
 
-The second page focuses on reports shown in the Power BI FactBox on list pages. It covers naming conventions, sizing, and filtering, including filtering by primary key. Start with the Desktop page to build the report, then use the display page to prepare it for FactBox use.
+Start with the first page to build and publish a report. Then use the second page to embed it in Business Central.
 
 ## Key points
 
-- Power BI Desktop connects to Business Central data through its connector, using APIs or OData web services.
-- Advanced query options and custom Power Query functions are available when building reports.
-- Cross-company reporting and a read-only replica are covered for Power BI Desktop reports.
-- Reports are published from Power BI Desktop so they can be shared across the organization.
-- Custom reports for Business Central list pages are shown in Power BI FactBox controls.
-- FactBox reports need proper naming conventions and sizing.
-- Report filtering for FactBox display includes filtering by primary key.
-- Report publishing is part of preparing a custom report for display in Business Central.
+- Power BI Desktop can use Business Central as a data source through the Business Central connector.
+- Data can be pulled from API data sources or OData web services.
+- Power Query code can be customized after connecting.
+- The build guide covers read-only replica configuration and cross-company reporting.
+- The build guide includes troubleshooting for common connection issues.
+- Custom reports can be embedded in Business Central list pages through the Power BI FactBox.
+- Report filtering for embedded reports uses primary keys.
+- The embedding page covers multi-page reports, report sizing and colors, and mentions version 27.
 
 ## Learn pages
 
-- [Building reports in Power BI Desktop to display Business Central data](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi): Learn how to make your data a Power BI source and build insightful business reports.
-- [Display custom Power BI reports](https://learn.microsoft.com/dynamics365/business-central/across-how-use-powerbi-reports-factbox): Use the Power BI FactBox to display interactive Power BI reports and gain deeper insights into data on key list pages.
+- [Build Power BI Reports with Business Central Data](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi): Connect Power BI Desktop to Business Central data, build accessible reports, publish and share them, and configure advanced connection options.
+- [Display Custom Power BI Reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-how-use-powerbi-reports-factbox): Create and configure custom Power BI reports for Business Central list pages, with report filters and layouts that work in the Power BI FactBox.
 
 ## Videos and posts
 

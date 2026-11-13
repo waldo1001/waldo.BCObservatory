@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:37.921Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,7 +79,6 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/12910
     - change/bcapps/13172
 learn_toc_path:
   - Integration with AI
@@ -139,8 +138,7 @@ Start with the overview, then read Evaluation and Datasets for the framework and
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#12910 [Master] - Bug 652243: [Expense Agent] Validate approval user email](../../../../../changes/bcapps/12910.md) (code change): "Tests added in the expense and interim approval test codeunits"
-- [#13172 Export structured AI eval run data](../../../../../changes/bcapps/13172.md) (code change): "AI Test Toolkit command-line page streams results.json evaluation result files"
+- [#13172 Export structured AI eval run data](../../../../../changes/bcapps/13172.md) (code change): "Export structured AI eval run data. AI Eval run data can now be exported"
 - [What's New: Testing Copilot in Business Central (2024 release wave 2)](../../../../../videos/eA7CENx7se0.md) (video): "Testing Copilot in Business Central; Copilot Test Toolkit"
 - [Getting Started With Agent Testing: Why Are Evaluations Important? (Part 1)](../../../../../videos/xB9kszf93hE.md) (video): "Programmatic evaluation with data-driven testing via YAML"
 

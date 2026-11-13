@@ -6,16 +6,15 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "Added an event hook to allow extensions to intervene before the system decreases quantity for maximum quantity calculations in inventory offsetting.",
+  "summary": "Adds an OnBeforeDecreaseQtyForMaxQty integration event to the Inventory Profile Offsetting codeunit, so extensions can hook in before the quantity is decreased for the maximum quantity.",
   "key_points": [
-    "New OnBeforeDecreaseQtyForMaxQty event added to Inventory Profile Offsetting codeunit",
-    "Enables extensions to intercept and potentially modify the quantity decrease logic",
-    "Supports customization without modifying base application code",
-    "Follows standard Business Central event pattern for extensibility",
-    "No breaking changes to existing functionality"
+    "New OnBeforeDecreaseQtyForMaxQty event in codeunit 99000854 Inventory Profile Offsetting",
+    "Raised before the quantity is decreased for the maximum quantity",
+    "Addresses event request issue #9474",
+    "Additive change only (+13 lines), no existing code removed"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

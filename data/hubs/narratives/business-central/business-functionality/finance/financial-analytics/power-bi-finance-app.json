@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/finance/financial-analytics/power-bi-finance-app",
-  "input_hash": "0f33b5e48973fb0adcbe7e75f702ee874aaca00b37cc27f6046c0e47700dc456",
-  "summary": "The Power BI finance app section covers the embedded Finance Power BI app in Business Central: its setup, semantic model, KPI definitions, and individual reports. It answers questions about receivables, payables, profitability, liquidity, liabilities, budgets, and ledger entry analysis.",
-  "overview": "The Finance Power BI app embeds Power BI reports in Business Central so finance data can be analyzed without leaving the application. Reports are aimed at three audiences: executives (KPI dashboards), managers (detailed analysis) and finance staff (operational and ledger-level reports).\n\nStart with \"Finance Power BI app\" for the overview, then \"Set up the Finance Power BI app\" to configure G/L account categories, map them to the semantic model categories, and set date filters. The \"Power BI Finance app semantic model\" page describes the star schema, and \"Finance App KPIs and measures\" documents the calculations and data sources.\n\nThe remaining pages each describe one report. They group into receivables and payables (Aged Receivables, Aged Payables, Average Collection Period, Late Payments), financial statements and performance (Balance Sheet by Month, Income Statement by Month, Budget Comparison, Profitability, EBITDA, Financial Overview), balance sheet health (Liquidity, Liabilities), and detailed ledger entries (General Ledger, Customer, Vendor).",
+  "input_hash": "3f45d10b84a52081cb44830bea4a1ca18745a782b2dc8c82742ea7a522841f2b",
+  "summary": "The Power BI finance app section covers the embedded Finance Power BI app in Business Central: its setup, semantic model, KPI reference, and individual reports. It answers questions about receivables and payables aging, profitability, liquidity, liabilities, budget comparison, and ledger entry reconciliation.",
+  "overview": "The Finance Power BI app embeds Power BI reports in Business Central so users can analyze finance data without leaving the client. Reports are aimed at different audiences: executives get KPI dashboards, managers get detailed analysis, and finance staff get operational and ledger-level reports.\n\nStart with the Finance Power BI app page for an overview, then Set up the Finance Power BI app, which covers G/L account categories, mapping them to the semantic model categories, and date filters. The semantic model page explains the star schema, and the KPIs and measures page documents how each indicator is calculated and where its data comes from.\n\nThe remaining pages each describe one report. They fall into groups: financial position and performance (Financial Overview, Profitability, EBITDA and EBIT, Balance Sheet by Month, Income Statement by Month, Budget Comparison), liquidity and obligations (Liquidity Ratios, Liabilities Analysis), receivables and payables (Aged Receivables, Aged Payables, Average Collection Period, Late Payments), and detail reports (General Ledger Entries, Detailed Customer and Vendor Ledger Entries).",
   "key_points": [
+    "The Finance app embeds Power BI reports in Business Central, with dashboards for executives, detailed reports for managers, and operational reports for finance staff.",
     "Setup involves configuring G/L account categories and subcategories, mapping them to Power BI semantic model categories, and configuring date filters for performance.",
-    "The semantic model is a star schema: fact tables for customer ledger, vendor ledger, G/L and budget entries, plus dimension tables for accounts, customers, vendors and budgets.",
-    "The KPIs and measures reference covers Activity, Balance Sheet, Income Statement, Liquidity, Profitability and Customer Ledger measures.",
-    "Aged Receivables and Aged Payables (Back Dating) use customizable aging periods and payment terms to prioritize collections and vendor payments.",
-    "Late Payments (Receivables) reports Late Payment Amount, Late Payment %, Average Days Late, and number of payments and late payments.",
-    "Balance Sheet by Month and Income Statement by Month give month-to-month hierarchical views with drill-through to ledger entries.",
-    "Liquidity (current, quick, cash ratio) and Liabilities (debt ratio, debt-to-equity) assess short-term health and leverage.",
-    "Detailed Customer, Vendor and General Ledger Entries reports support reconciliation, month-end closing and audits."
+    "The semantic model is a star schema: fact tables for customer ledger, G/L, vendor ledger, and budget entries, and dimension tables for accounts, customers, vendors, and budgets.",
+    "The KPIs and measures reference lists Activity, Balance Sheet, Income Statement, Liquidity, Profitability, and Customer Ledger measures with calculations and data sources.",
+    "Aged Receivables and Aged Payables (Back Dating) reports use customizable aging periods based on posting date, due date, or document date, with payment terms grouping.",
+    "Balance Sheet by Month and Income Statement by Month show hierarchical month-to-month views with drill-through to ledger entries.",
+    "Budget Comparison reports Net Change, Budget Amount, Variance to Budget, and Variance to Budget % with G/L budget and shortcut dimension filtering.",
+    "Liquidity (Current, Quick, Cash ratios) and Liabilities (Debt Ratio, Debt-to-Equity) reports assess short-term health and leverage."
   ],
   "members_used": 19,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:03:28.488Z",
+  "at": "2026-11-13T01:00:19.581Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.022931
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:17:17.993Z",
-    "verdict": "approve",
-    "issues": [
-      "Key point 8 calls all three reports 'Detailed ... Entries'. The general ledger report is titled 'General Ledger Entries', without 'Detailed'. Only the customer and vendor reports have 'Detailed' in their titles.",
-      "Key point 8 says all three ledger reports support month-end closing. Only the customer and vendor ledger pages list month-end closing. The General Ledger Entries page lists transaction tracking, reconciliation and auditing."
-    ],
-    "input_hash": "0f33b5e48973fb0adcbe7e75f702ee874aaca00b37cc27f6046c0e47700dc456",
-    "cost_usd": 0.0615872
+    "cost_usd": 0.029
   }
 }

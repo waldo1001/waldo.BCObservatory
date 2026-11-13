@@ -2,7 +2,7 @@
 id: app/sustainability
 type: app
 title: Sustainability
-summary: "Sustainability (Microsoft.Sustainability): 454 objects in BC29-30 (102 page extensions, 100 pages, 70 table extensions, 60 codeunits, 53 tables, ...); documented by 11 Learn hubs; 11 videos."
+summary: "Sustainability (Microsoft.Sustainability): 454 objects in BC29-30 (102 page extensions, 100 pages, 70 table extensions, 60 codeunits, 53 tables, ...); documented by 12 Learn hubs; 11 videos."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-11-13T00:54:21.330Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: af855cd91565837be44acf72ea42f33d19cbdbad140a58aae27b693e7f63037f
+  input_hash: a90329c0bf1d0a7af5079abf8d591f9ec151562d22a5338afda9e83293972fb8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/Sustainability/app
@@ -245,6 +245,7 @@ links:
     - topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi
     - topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central
     - topic/business-central/business-functionality/set-up-business-central/set-up-finance
+    - topic/business-central/business-functionality/sustainability-management/sustainability-analytics/power-bi-sustainability-app
   localizations: []
   videos:
     - video/lqVWc-Yuots
@@ -281,14 +282,14 @@ counts:
     permissionset: 4
     reportextension: 2
     profile: 1
-  hubs: 11
+  hubs: 12
   videos: 11
   posts: 0
 ---
 
 # Sustainability
 
-> Sustainability (Microsoft.Sustainability): 454 objects in BC29-30 (102 page extensions, 100 pages, 70 table extensions, 60 codeunits, 53 tables, ...); documented by 11 Learn hubs; 11 videos.
+> Sustainability (Microsoft.Sustainability): 454 objects in BC29-30 (102 page extensions, 100 pages, 70 table extensions, 60 codeunits, 53 tables, ...); documented by 12 Learn hubs; 11 videos.
 
 First-party app · folder `src/Apps/W1/Sustainability/app` · namespace `Microsoft.Sustainability` · BC29-30 · system sustainability · facts from the code pillar and the joins, nothing machine-written
 
@@ -307,6 +308,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 - [Microsoft Power BI](../topics/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi.md) (Integrate with other applications > Microsoft Power Platform): 2 objects
 - [Power BI and Business Central](../topics/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central.md) (Analytics, business intelligence, and reporting > KPIs, dashboards, and financial reports): 2 objects
 - [Set up finance](../topics/business-central/business-functionality/set-up-business-central/set-up-finance.md) (Business functionality > Set up Business Central): 2 objects
+- [Power BI sustainability app](../topics/business-central/business-functionality/sustainability-management/sustainability-analytics/power-bi-sustainability-app.md) (Business functionality > Sustainability management > Sustainability analytics): 1 object
 
 ## Objects
 

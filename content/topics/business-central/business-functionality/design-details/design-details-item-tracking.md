@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:34.661Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,6 +98,7 @@ links:
     - topic/business-central/business-functionality/design-details
   localizations: []
   videos:
+    - video/m8-7-JKq4dc
     - video/SdQVQLNXVS0
   posts:
     - post/yzhums-com/67269
@@ -131,7 +132,7 @@ children: []
 coverage:
   learn: 9
   code: 0
-  video: 1
+  video: 2
   blog: 4
   guideline: 0
 bc_forms: []
@@ -206,6 +207,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to record extra serial or lot number information (Item Tracking Comments)](../../../../posts/yzhums-com/68786.md) (community post): "Recording extra information for serial or lot numbers using the Item Tracking Comments feature"
 - [Business Central 2026 release wave 1 (BC28): Experience improved usability in manufacturing](../../../../posts/yzhums-com/72006.md) (community post): "serial-tracked items get one line with quantity 1 per serial number while lot-tracked items"
 - [Dynamics 365 Business Central: How to merge multiple lots (Lot No.) into one](../../../../posts/yzhums-com/73895.md) (community post): "tracking items via Item Tracking Lines, selecting lot numbers to consolidate"
+- [Introducing: Quality Management (2026 release wave 1)](../../../../videos/m8-7-JKq4dc.md) (video): "item tracking; non-compliant items; Item Tracking Preservation in Quality Process"
 - [What's New in Manufacturing: Order Processing (2025 release wave 1)](../../../../videos/SdQVQLNXVS0.md) (video): "Item tracking in consumption and output journals; Barcode label printing for tracked items"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

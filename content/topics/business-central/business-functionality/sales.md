@@ -12,19 +12,12 @@ review:
   at: "2026-11-07T01:06:35.638Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
   input_hash: 06bdc66bd2fda511691d4506e9781a474cdabe9b2e85e31ea24afa9dcc129a11
 evidence:
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget
-    title: Actual vs Budget (Power BI Report)
-    date: "2024-10-26"
-    commit: null
-    t: null
-    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales
     title: Ad-hoc analysis of sales data
@@ -216,8 +209,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-daily-sales
-    title: Daily Sales (Power BI report)
-    date: "2024-10-26"
+    title: Daily Sales Analysis Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -294,6 +287,13 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-813
     title: Inventory Picking List (report)
+    date: "2024-10-03"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-718
+    title: Inventory Sales Back Orders (report)
     date: "2024-10-03"
     commit: null
     t: null
@@ -471,15 +471,12 @@ links:
     - topic/business-central/business-functionality/sales/subscription-billing
   localizations: []
   videos:
-    - video/cwCZUHgDb9Q
-    - video/e5Dr3jzCLM8
     - video/fatcqVFrTXI
     - video/fdP1HKBEDjA
-    - video/PB2ZG8fM3EE
     - video/PIWxU93eCT4
     - video/TSLXzbeyE7Y
   posts:
-    - post/aardvarklabs-blog/2759
+    - post/demiliani-com/11739
     - post/duiliotacconi-com/1667
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea
@@ -497,7 +494,6 @@ links:
     - post/yzhums-com/71304
     - post/yzhums-com/71489
     - post/yzhums-com/71648
-    - post/yzhums-com/74172
     - post/yzhums-com/74940
     - post/yzhums-com/75073
   guidelines: []
@@ -517,6 +513,7 @@ links:
     - change/bcapps/11023
     - change/bcapps/11157
     - change/bcapps/11304
+    - change/bcapps/11483
     - change/bcapps/11562
     - change/bcapps/11667
     - change/bcapps/12145
@@ -558,8 +555,8 @@ children:
 coverage:
   learn: 133
   code: 138
-  video: 7
-  blog: 21
+  video: 4
+  blog: 20
   guideline: 0
 bc_forms:
   - 7
@@ -801,6 +798,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11023 BE's PEPPOL "escompte" compensation](../../../changes/bcapps/11023.md) (code change): "Belgian PEPPOL invoices and credit memos keep the payment discount AllowanceCharge"
 - [#11157 [main] Bug 647991 Assembly-to-Order Item Incorrectly Blocks Shipment of Unrelated Sales Order Line](../../../changes/bcapps/11157.md) (code change): "Assemble-to-Order sales lines from incorrectly blocking the shipment of unrelated"
 - [#11304 [Master]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/11304.md) (code change): "Validation of the item number field on sales lines now prevents duplicate production"
+- [#11483 [E-Documents Core] - Linkage & Traceability](../../../changes/bcapps/11483.md) (code change): "E-Document action wired into 30+ document list and card pages across sales"
 - [#11562 [Main] [ALL-E] Sales Line Discount % accepts 5 decimal places through Configuration Package import but rejects manual entry beyond 2 decimal places.Initial Commit](../../../changes/bcapps/11562.md) (code change): "Sales Line Discount % field now consistently accepts the same number of decimal places"
 - [#11667 Fix quantity fields on Sales Return Order Archive](../../../changes/bcapps/11667.md) (code change): "Sales Return Order Archive pages now display return-receipt quantities instead of shipment"
 - [#12145 [Main]-Item charge assignment update Error on sales order when there is no Price. "Sorry, we just updated this page. Reopen it and try again." when running in SaaS](../../../changes/bcapps/12145.md) (code change): "Fixed an error on sales orders when assigning item charges by amount when some item lines have no price"
@@ -831,7 +829,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9947 Allow long localized sales and purchase line type captions](../../../changes/bcapps/9947.md) (code change): "Sales and purchase document subforms no longer fail when a localized line type caption is longer than 20 characters"
 - [#9960 [Extensibility Request] issue 30396: expose sales document lookup](../../../changes/bcapps/9960.md) (code change): "The lookup procedure in the Copy Sales Document report is now public"
 - [#9984 [Main] Error with unposted prepayment amounts on Order](../../../changes/bcapps/9984.md) (code change): "unposted prepayment amounts on sales and purchase orders"
-- [Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL](../../../posts/aardvarklabs-blog/2759.md) (community post): "customer-facing text for invoices in Business Central using Copilot"
+- [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../../posts/demiliani-com/11739.md) (community post): "reads customer emails, clarifies missing details over multi-turn email, checks item availability"
 - [Sorting by Type and Line No. in Sales and Purchase Postings](../../../posts/duiliotacconi-com/1667.md) (community post): "sales and purchase posting process lines ordered by Type and then Line No."
 - [How to Email Posted Sales Shipments and Return Receipts in Business Central 2026 Wave 1.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97.md) (community post): "email delivery, PDF generation, and attachment management for Posted Sales Shipments"
 - [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) (community post): "Shipping Agent Code and Shipping Agent Service Code exist on both Sales Order fields"
@@ -849,14 +847,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 1 (BC28): Create purchase orders from drop shipments](../../../posts/yzhums-com/71304.md) (community post): "sales orders marked for drop shipment via the Create Purchase Orders"
 - [Business Central 2026 release wave 1 (BC28): Reverse drop shipments when sales and purchase documents aren’t invoiced](../../../posts/yzhums-com/71489.md) (community post): "allows undoing a posted sales shipment from a drop shipment via the Undo Shipment action"
 - [Business Central 2026 release wave 1 (BC28): Filter receipt and shipment lines to quickly find documents you want to invoice (New filters on the Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages)](../../../posts/yzhums-com/71648.md) (community post): "Get Shipment Lines, and Get Service Shipment Lines pages to help users"
-- [Dynamics 365 Business Central: How to flow/pass custom field values from Sales Order to Production Order](../../../posts/yzhums-com/74172.md) (community post): "carry custom field values from a Sales Order to the Production Order created from it"
 - [Dynamics 365 Business Central: Searches for duplicate external document numbers in sales documents and posted documents (Standard function/procedure)](../../../posts/yzhums-com/74940.md) (community post): "searches for duplicate external document numbers in sales documents and posted documents"
 - [Dynamics 365 Business Central: How to add a Signature Pad to the Sales Order page (Capture and Save Customer Signatures)](../../../posts/yzhums-com/75073.md) (community post): "Adding a signature pad to the Sales Order page in Business Central"
-- [Tips and Tricks for Better Pasting with Magic Page for Business Central](../../../videos/cwCZUHgDb9Q.md) (video): "Magic Paste bulk customer creation; Magic Paste key-based record updates"
-- [Introducing: Shopify and Dynamics 365 Business Central (2023)](../../../videos/e5Dr3jzCLM8.md) (video): "Automatic order fulfillment; financial visibility and reporting"
 - [Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central](../../../videos/fatcqVFrTXI.md) (video): "Sales invoice entry in Business Central"
 - [Comparing entering Receivables Transactions in Dynamics GP to Dynamics 365 Business Central (2024)](../../../videos/fdP1HKBEDjA.md) (video): "Sales invoices document in Business Central"
-- [What's New: Autofill Fields with Copilot (2025 release wave 1)](../../../videos/PB2ZG8fM3EE.md) (video): "Copilot autofill for card and document pages; Most recently used"
 - [What's Cooking in Business Central: Edit Sales Price Lists in Excel](../../../videos/PIWxU93eCT4.md) (video): "sales price lists; excel integration; edit prices"
 - [What's new: Explore the new Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../videos/TSLXzbeyE7Y.md) (video): "sales data analysis; customer insights; Copilot recommendations for sales"
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:46.687Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,7 +86,6 @@ links:
     - post/demiliani-com/12142
   guidelines: []
   changes:
-    - change/al-go/2402
     - change/bcapps/9407
     - change/bcquality/142
 learn_toc_path:
@@ -159,7 +158,6 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#2402 Move Copilot review engine into AL-Go](../../../../changes/al-go/2402.md) (code change): "ReviewAgent action runs in four phases"
 - [#9407 Add Microsoft apps view to AppSource product list (Fix ADO #642217)](../../../../changes/bcapps/9407.md) (code change): "A new predefined view called "Microsoft apps" was added to the AppSource Product List page"
 - [#142 Add AL-focused AppSource validation guidance](../../../../changes/bcquality/142.md) (code change): "Six community AppSource knowledge articles with paired good and bad AL samples"
 - [Dynamics 365 Business Central: checking for breaking changes on obsoleted, internal and OnPrem objects.](../../../../posts/demiliani-com/12142.md) (community post): "AppSourceCop configuration settings validateObsoleteSymbols, validateInternalSymbols, validateOnPremSymbols"

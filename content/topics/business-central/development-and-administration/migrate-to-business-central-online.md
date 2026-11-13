@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:33.183Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,8 @@ links:
   topics:
     - topic/business-central/development-and-administration
   localizations: []
-  videos: []
+  videos:
+    - video/zE6uElxwSMQ
   posts: []
   guidelines: []
 learn_toc_path:
@@ -78,7 +79,7 @@ children: []
 coverage:
   learn: 5
   code: 1
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -160,6 +161,12 @@ Start with the on-premises migration page to pick an approach, then read the ove
   - Custom migration from any SQL source is supported.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Carglass Sweden](../../../videos/zE6uElxwSMQ.md) (video): "cloud migration; booking management; customer satisfaction; data access"
 
 ## Business Central pages and reports
 

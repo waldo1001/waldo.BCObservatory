@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:45:23.971Z"
+  at: "2026-11-13T00:51:57.443Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3a0cefef0c2dbd8d203d9f0b7c750b8a4b7bc7e0c6640aa71a4e4ce0ee4610e7
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Layers/W1/BaseApp/OrderProcessor.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Layers/W1/BaseApp/OrderProcessor.Profile.al
     title: src/Layers/W1/BaseApp/OrderProcessor.Profile.al (releases/29.x)
     date: null
-    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
+    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "ORDER PROCESSOR" in Base Application. Present since at least BC23, still in BC30.
 
-Base Application · captioned "Sales Order Processor" · BC23-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Layers/W1/BaseApp/OrderProcessor.Profile.al) · facts from BC29
+Base Application · captioned "Sales Order Processor" · BC23-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Layers/W1/BaseApp/OrderProcessor.Profile.al) · facts from BC29
 
 ## Properties
 

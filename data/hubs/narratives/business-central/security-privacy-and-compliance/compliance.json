@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/security-privacy-and-compliance/compliance",
-  "input_hash": "b0fbdb3ea367186f6fcca73cb82d3a33e83116fbbb789cc9b96410883f1f42d1",
-  "summary": "Compliance in Business Central covers how the application and the online service meet regulatory, certification and SLA requirements. It answers questions about accounting standards, audit trails, country certifications, ISO standards, backup and availability, and which trial features connect to other Microsoft services.",
-  "overview": "This section groups the pages that describe compliance at three levels: the application, the cloud service, and country-specific certification. Application Compliance explains how financial reporting, audit trails and role-based security support standards such as SOX, IAS/IFRS and Basel II, and data privacy requirements.\n\nService Compliance and SLA, together with the Service overview for Business Central online, cover the cloud side: ISO and industry certifications, service level agreement terms, Azure infrastructure, multitenant architecture, backup and disaster recovery, and update schedules. Certifications of the service covers country certifications, including tax audit compliance.\n\nStart with Compliance Overview, which indexes the topics. Read the trial features page before enabling trials, because some features connect to services such as Teams, OneDrive, Power Automate, Azure OpenAI for Copilot and Bing, and it explains the data-sharing implications.",
+  "input_hash": "603109d9d0f1b382b9bfabc2c1c8054be50a54fa8ca9213bc4671869cd78d103",
+  "summary": "Compliance in Business Central covers application-level regulatory support (SOX, IAS/IFRS, Basel II, data privacy), cloud service compliance and SLA, country certifications, the online service overview, and privacy notices for trial features that connect to other Microsoft services. It answers questions about what compliance Business Central provides and where to find it.",
+  "overview": "This section collects the compliance information for Business Central in one place. It separates compliance of the application itself (financial reporting, audit trails, role-based security) from compliance of the cloud service (ISO standards, industry certifications, SLA, Azure infrastructure) and from country-specific certifications such as tax audit compliance.\n\nCompliance Overview is the index and the best starting point. From there, Application Compliance explains how the product supports accounting and privacy requirements, while Service Compliance and SLA and Certifications of the service address the hosting and certification side. The service overview for Business Central online describes architecture, availability, backup and update schedules.\n\nThe page on trial features that connect to other Microsoft services matters for privacy reviews. It lists features such as Share to Teams, Open in OneDrive, Automate actions and Copilot, and explains how privacy notices are managed through the Privacy Notices Status page.",
   "key_points": [
-    "Compliance Overview is the index page for application compliance, service compliance, certifications and data privacy.",
-    "Application Compliance links regulatory needs (SOX, IAS/IFRS, Basel II) to chart of accounts, foreign currency handling, segment reporting, reconciliation, audit trails and role-based security.",
-    "Certifications of the service lists country-specific certifications and accreditations, including tax audit compliance and accounting software standards.",
-    "Service Compliance and SLA covers ISO and industry certifications, SLA terms and Azure infrastructure security.",
-    "Service overview for Business Central online covers Azure SQL Database, geo-redundant backups, backup and restore, availability zones, Copilot availability and update schedules.",
-    "Trial features can connect automatically to Teams, OneDrive, Power Automate, Azure OpenAI for Copilot, Bing and the Microsoft Learn Platform.",
-    "Manage these trial connections and review the data-sharing implications before using them."
+    "Application Compliance covers SOX, IAS/IFRS, Basel II and data privacy through chart of accounts, foreign currency handling, segment reporting, reconciliation, audit trails and role-based security.",
+    "Service Compliance and SLA covers ISO certifications, industry-specific certifications, the service level agreement and Microsoft Azure infrastructure security.",
+    "Certifications of the service lists country-specific certifications and accreditations, including tax audit certification and local compliance requirements, and mentions ISO 27001.",
+    "The online service overview describes the multitenant cloud architecture, Azure SQL Database, geo-redundant backups, backup and restore, availability zones and service update schedules.",
+    "The service overview also covers global availability and Copilot availability.",
+    "Trial features that connect to Teams, OneDrive, Power Automate, Azure OpenAI and Bing are covered, including Copilot autofill and chat.",
+    "Privacy notices for these connected features are managed on the Privacy Notices Status page.",
+    "Compliance Overview serves as the index to all compliance topics and documentation."
   ],
   "members_used": 6,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-30T01:11:11.932Z",
+  "at": "2026-11-13T01:00:59.791Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.013355
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-30T08:08:55.734Z",
-    "verdict": "approve",
-    "issues": [
-      "Overview says to read the trial features page 'before enabling trials'. The source only says to manage the connections and understand data sharing 'before use'. The meaning is close enough, but 'before using these features' would match the source more exactly.",
-      "The overview's trial features list leaves out the Microsoft Learn Platform, though the key points include it.",
-      "The overview frames compliance at 'three levels', but it also covers trial features, which sit outside those three. This is a small framing issue, not an error."
-    ],
-    "input_hash": "b0fbdb3ea367186f6fcca73cb82d3a33e83116fbbb789cc9b96410883f1f42d1",
-    "cost_usd": 0.0366872
+    "cost_usd": 0.013839
   }
 }

@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T01:59:59.823Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-13T00:13:31.718Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -90,7 +90,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:51:24.849Z"
+  probed_at: "2026-11-13T00:55:37.550Z"
 ---
 
 # BC Friday Tips #41 Line Separator in Data Exchange Definition

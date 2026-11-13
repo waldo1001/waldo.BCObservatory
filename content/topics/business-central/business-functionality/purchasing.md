@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -20,8 +20,8 @@ generated:
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget
-    title: Actual vs. Budget (Power BI Report)
-    date: "2024-10-31"
+    title: Actual vs. Budget Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -90,8 +90,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-daily-purchases
-    title: Daily Purchases (Power BI Report)
-    date: "2024-10-31"
+    title: Daily Purchases Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -167,15 +167,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-moving-annual-total
-    title: Moving Annual Total (MAT) (Power BI Report)
-    date: "2024-10-31"
+    title: Moving Annual Total (MAT) Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-moving-averages
-    title: Moving Averages (Power BI Report)
-    date: "2024-10-31"
+    title: Moving Averages Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -202,15 +202,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-period-over-period
-    title: Period-Over-Period (Power BI Report)
-    date: "2024-10-31"
+    title: Period-Over-Period Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app
-    title: Power BI Purchase app
-    date: "2025-12-16"
+    title: Power BI Purchases App for Purchasing Analytics
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -265,36 +265,36 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-item
-    title: Purchases by Item (Power BI Report)
-    date: "2024-10-31"
+    title: Purchases by Item Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-location
-    title: Purchases by Location (Power BI Report)
-    date: "2024-10-31"
+    title: Purchases by Location Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-purchaser
-    title: Purchases by Purchaser (Power BI Report)
-    date: "2024-10-31"
+    title: Purchases by Purchaser Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-vendor
-    title: Purchases by Vendor (Power BI Report)
-    date: "2024-10-31"
+    title: Purchases by Vendor Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-decomposition
-    title: Purchases Decomposition (Power BI Report)
-    date: "2024-10-31"
+    title: Purchases Decomposition Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null

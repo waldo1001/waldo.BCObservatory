@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T00:15:21.625Z"
+  at: "2026-11-13T00:13:31.718Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a56f85f7e993a09248d364c89a3d3f0d05f6383a
@@ -30,7 +30,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/datatransfer-for-bulk-init.md
     title: "microsoft/BCQuality: Prefer `DataTransfer` for set-based upgrade field updates"
     date: "2026-11-05"
-    commit: 634aba3df9af1b4579e8a735b186e3efdbf47de2
+    commit: 416f1308b6a2b507d0ac29e33b53d321b5d0a170
     t: null
     quote: null
 links:
@@ -132,4 +132,4 @@ See sample: [`datatransfer-for-bulk-init.bad.al`](https://github.com/microsoft/B
 
 ---
 
-From microsoft/BCQuality at 634aba3, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 416f130, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

@@ -6,7 +6,7 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "An upgrade migration initializes the Process Returns As field for existing Shopify shops to Credit Memo during upgrade, fixing incorrect refund document creation for shops that retained the default Quote value.",
+  "summary": "A per-company upgrade step sets Process Returns As to Credit Memo for existing Shopify shops that still hold the uninitialized 0 (Quote) value, so refunds no longer create sales quotes. Credit Memo and Return Order settings are kept as they are.",
   "key_points": [
     "Adds per-company upgrade migration to change only Quote/0 values to Credit Memo in existing shops",
     "Preserves valid Credit Memo and Return Order selections already configured by users",

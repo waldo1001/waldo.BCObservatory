@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:45:23.971Z"
+  at: "2026-11-13T00:51:57.443Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0d3992cb1a4fad2793ce46815ff43845f705712371df5436b1a2f1f16402abf3
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManagerEvaluation.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManagerEvaluation.Profile.al
     title: src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManagerEvaluation.Profile.al (releases/29.x)
     date: null
-    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
+    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Profile "Business Manager Evaluation" in Base Application (Microsoft.Finance.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Finance.RoleCenters · BC23-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManagerEvaluation.Profile.al) · facts from BC29
+Base Application · Microsoft.Finance.RoleCenters · BC23-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManagerEvaluation.Profile.al) · facts from BC29
 
 ## Properties
 

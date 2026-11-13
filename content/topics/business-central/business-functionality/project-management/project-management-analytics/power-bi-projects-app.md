@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/project-management/project-management-analytics/power-bi-projects-app
 type: topic
 title: Power BI projects app
-summary: The Power BI Projects app section covers the project analytics reports, the underlying semantic model, and the KPI and measure reference for Business Central projects. It answers questions about budget performance, profitability, realization, invoiced sales, tasks, timelines, and how the data is modeled.
+summary: The Power BI Projects app covers project analytics reports, the underlying semantic model, and the KPI and measure reference for Business Central projects. It answers questions about budget performance, profitability, realization, invoiced sales, task progress, and timelines.
 tier: official
 language: en
 system: projects
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:19:46.107Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 454b59b417fbce2700052323843d1f2e5575d5b049a07a10567fd58588343437
+  input_hash: 145a7e3184862a55885afcda94c7ec0d841d76006ea2bd4b443a46feb48849d6
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-app
@@ -34,63 +34,63 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-customer
-    title: Project Invoiced Sales by Customer (Power BI report)
-    date: "2025-09-25"
+    title: Project Invoiced Sales by Customer Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-type
-    title: Project Invoiced Sales by Type (Power BI report)
-    date: "2025-09-25"
+    title: Project Invoiced Sales by Type Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-overview
-    title: Project Overview (Power BI report)
-    date: "2025-09-25"
+    title: Project Overview Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-performance-to-budget
-    title: Project Performance to Budget (Power BI Report)
-    date: "2025-09-25"
+    title: Project Performance to Budget Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-profitability
-    title: Project Profitability (Power BI report)
-    date: "2025-09-25"
+    title: Project Profitability Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-realization
-    title: Project Realization (Power BI report)
-    date: "2025-09-25"
+    title: Project Realization Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-tasks
-    title: Project Tasks (Power BI report)
-    date: "2025-09-25"
+    title: Project Tasks for Project Managers Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-timeline
-    title: Project Timeline (Power BI report)
-    date: "2025-04-29"
+    title: Project Timeline Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-kpis
-    title: Projects KPIs and measures (Power BI)
+    title: Projects KPIs and Measures (Power BI)
     date: "2025-09-25"
     commit: null
     t: null
@@ -160,51 +160,50 @@ narrative: generated
 
 # Power BI projects app
 
-> The Power BI Projects app section covers the project analytics reports, the underlying semantic model, and the KPI and measure reference for Business Central projects. It answers questions about budget performance, profitability, realization, invoiced sales, tasks, timelines, and how the data is modeled.
+> The Power BI Projects app covers project analytics reports, the underlying semantic model, and the KPI and measure reference for Business Central projects. It answers questions about budget performance, profitability, realization, invoiced sales, task progress, and timelines.
 
-Path: [Business functionality](../../../business-functionality.md) > [Project management](../../project-management.md) > [Project management analytics](../project-management-analytics.md) > Power BI projects app · tier official · system projects · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Project management](../../project-management.md) > [Project management analytics](../project-management-analytics.md) > Power BI projects app · tier official · system projects · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Power BI Projects app gives leadership, project managers, and team members analytics on project performance, budget adherence, profitability, and invoiced sales. CFOs also use the Project Realization report. The section has one page describing the app and its reports, one page for the semantic model, one for the KPIs and measures, and a page for each report.
+The Power BI Projects app gives leadership, project managers, and team members a set of Power BI reports on project performance, budget adherence, profitability, and invoiced sales. Each report has its own page describing the metrics it shows and who uses it.
 
-The semantic model stores project ledger entries, planning lines, and purchase transactions as fact tables. Dimension tables for projects, resources, tasks, and customers surround them in a star schema. The KPI and measures reference lists the measures built on this model, such as Project Count, Tasks Count, Completed percentage, Invoiced percentage, Realization percentage, and budget variance.
+The reports are: Project Overview, Project Performance to Budget, Project Profitability, Project Realization, Project Invoiced Sales by Type, Project Invoiced Sales by Customer, Project Tasks for Project Managers, and Project Timeline. They draw on a semantic model built as a star schema, with fact tables for project ledger entries, planning lines, and purchase transactions, and dimension tables for projects, resources, tasks, and customers.
 
-Start with the app overview page to see which reports exist. Then open the report page that matches your question. Use the semantic model and KPI pages when you need to know where a number comes from or want to build your own reports.
+Start with the app page for an overview of the reports, then open the report that matches your question. Use the semantic model page to understand the data structure, and the KPIs and measures reference to look up how a measure such as Realization percentage or Budget variance is defined.
 
 ## Key points
 
-- The app overview lists the Project Performance to Budget, Project Profitability, Project Overview, Project Invoiced Sales by Type, and Project Invoiced Sales by Customer reports.
-- Project Performance to Budget compares Total Usage Cost with Total Budget Cost and shows Total Cost Variance to Budget, so project managers can keep projects under budget.
-- Project Profitability shows invoiced and usage profit margins and budget profit per project, comparing costs against prices to find high and low performing projects.
-- Project Realization compares invoiced to usage prices (Realization %, Realization Variance) to show which projects need invoicing.
-- Project Overview gives high-level metrics: completed, invoiced, and realization percentages, actual profit, budget comparison, and project count.
-- Project Tasks gives task-level actual price, cost, profit, profit margin, realization, and billable metrics.
-- Project Timeline tracks task starting and ending dates, durations, and critical paths.
-- Invoiced Sales by Type splits sales into resources, items, and G/L accounts. Invoiced Sales by Customer splits sales values per project and customer.
+- Project Performance to Budget compares budgeted cost with actual usage cost, showing Completed (%), Total Cost Variance to Budget and its percentage.
+- Project Profitability shows invoiced and usage profit margins and budget profit to help leadership find high and low performing projects.
+- Project Realization compares billable prices from planning with recorded usage, using Realization (%) and Realization Variance to find projects where prices do not cover usage costs.
+- Project Overview shows KPIs such as Realization, Total Usage Profit, Total Usage Profit Margin, Total Invoiced Profit, and Total Usage Cost.
+- Two invoiced sales reports exist: by Type (resource, item, G/L account) and by Customer (Invoiced %, Total Invoiced Price, Total Billable Price).
+- Project Tasks for Project Managers gives task-level metrics for usage price, cost, profit, margin, realization, and invoiced price.
+- Project Timeline shows task start and end dates and duration in days and weeks from planning lines, to spot scheduling issues.
+- The semantic model is a star schema with fact tables (ledger entries, planning lines, purchases) and dimensions (projects, resources, tasks, customers).
 
 ## Learn pages
 
 - [Power BI Projects app page (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-app): The Power BI Projects app contains reports for an organization's project reporting requirements.
 - [Power BI Projects app semantic model](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-app-semantic-model): Learn about the project tables and fields in the Power BI Projects app semantic model for Business Central reporting and analysis.
   - In the observatory: [Table 15 "G/L Account"](../../../../../objects/table/15.md), [Table 156 "Resource"](../../../../../objects/table/156.md), [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 27 "Item"](../../../../../objects/table/27.md), [Table 39 "Purchase Line"](../../../../../objects/table/39.md), [Table 5722 "Item Category"](../../../../../objects/table/5722.md)
-- [Project Invoiced Sales by Customer (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-customer): The Project Invoiced Sales by Customer report describes your sales activities based on each project for specific customers.
+- [Project Invoiced Sales by Customer Power BI Report](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-customer): The Project Invoiced Sales by Customer report describes your sales activities based on each project for specific customers.
   - In the observatory: [Table 1003 "Job Planning Line"](../../../../../objects/table/1003.md), [Table 167 "Job"](../../../../../objects/table/167.md), [Table 169 "Job Ledger Entry"](../../../../../objects/table/169.md)
-- [Project Invoiced Sales by Type (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-type): The Project Invoiced Sales by Type report describes your sales activities based on each project and each type of sales line.
-  - In the observatory: [Table 167 "Job"](../../../../../objects/table/167.md), [Table 169 "Job Ledger Entry"](../../../../../objects/table/169.md)
-- [Project Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-overview): The Project Overview report highlights key high-level information about your organization's project activity.
+- [Project Invoiced Sales by Type Power BI Report](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-type): The Project Invoiced Sales by Type report describes your sales activities based on each project and each type of sales line.
   - In the observatory: [Table 1003 "Job Planning Line"](../../../../../objects/table/1003.md), [Table 167 "Job"](../../../../../objects/table/167.md), [Table 169 "Job Ledger Entry"](../../../../../objects/table/169.md)
-- [Project Performance to Budget (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-performance-to-budget): The Project Performance to Budget report helps you ensure your projects stay under budget.
+- [Project Overview Power BI Report](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-overview): Review project counts, usage costs, profit, and realization in Business Central with the Project Overview Power BI report for managers and leaders.
   - In the observatory: [Table 1003 "Job Planning Line"](../../../../../objects/table/1003.md), [Table 167 "Job"](../../../../../objects/table/167.md), [Table 169 "Job Ledger Entry"](../../../../../objects/table/169.md)
-- [Project Profitability (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-profitability): The Project Profitability report highlights cost and pricing information for each project.
-  - In the observatory: [Table 1001 "Job Task"](../../../../../objects/table/1001.md), [Table 167 "Job"](../../../../../objects/table/167.md), [Table 169 "Job Ledger Entry"](../../../../../objects/table/169.md)
-- [Project Realization (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-realization): The Project Realization report showcases the completion for each project.
-  - In the observatory: [Table 167 "Job"](../../../../../objects/table/167.md)
-- [Project Tasks (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-tasks): The Project Tasks report breaks down each project and their tasks.
-  - In the observatory: [Table 1001 "Job Task"](../../../../../objects/table/1001.md), [Table 167 "Job"](../../../../../objects/table/167.md)
-- [Project Timeline (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-timeline): The Project Timeline monitors project timelines to ensure timely delivery, with insights into task durations, start and end dates, and critical paths.
-  - In the observatory: [Table 1001 "Job Task"](../../../../../objects/table/1001.md), [Table 167 "Job"](../../../../../objects/table/167.md)
-- [Projects KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-kpis): The Projects App KPIs provides a page to clearly identify all KPIs and Measures used in the Projects Report.
+- [Project Performance to Budget Power BI Report](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-performance-to-budget): Compare project usage costs with budgeted costs in Business Central, and identify variances with the Project Performance to Budget Power BI report.
+  - In the observatory: [Table 1003 "Job Planning Line"](../../../../../objects/table/1003.md), [Table 167 "Job"](../../../../../objects/table/167.md), [Table 169 "Job Ledger Entry"](../../../../../objects/table/169.md)
+- [Project Profitability Power BI Report](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-profitability): Compare project usage, budgeted, and invoiced costs and prices in Business Central with the Project Profitability Power BI report for project leaders.
+  - In the observatory: [Table 1001 "Job Task"](../../../../../objects/table/1001.md), [Table 1003 "Job Planning Line"](../../../../../objects/table/1003.md), [Table 167 "Job"](../../../../../objects/table/167.md)
+- [Project Realization Power BI Report](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-realization): Compare billable project prices with usage prices in Business Central, and analyze realization and price variances with the Project Realization report.
+  - In the observatory: [Table 1003 "Job Planning Line"](../../../../../objects/table/1003.md), [Table 167 "Job"](../../../../../objects/table/167.md)
+- [Project Tasks for Project Managers Power BI Report](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-tasks): Analyze usage costs, prices, profit, realization, and budgets by project task in Business Central with the Project Tasks Power BI report.
+- [Project Timeline Power BI Report](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-timeline): Review project task start dates, end dates, and durations derived from planning lines in Business Central with the Project Timeline Power BI report.
+  - In the observatory: [Table 1001 "Job Task"](../../../../../objects/table/1001.md), [Table 1003 "Job Planning Line"](../../../../../objects/table/1003.md), [Table 167 "Job"](../../../../../objects/table/167.md)
+- [Projects KPIs and Measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-kpis): Explore project KPIs and measures in the Business Central Power BI Projects app semantic model, including formulas and the data used in calculations.
   - In the observatory: [Table 1001 "Job Task"](../../../../../objects/table/1001.md), [Table 1003 "Job Planning Line"](../../../../../objects/table/1003.md), [Table 167 "Job"](../../../../../objects/table/167.md), [Table 169 "Job Ledger Entry"](../../../../../objects/table/169.md), [Table 39 "Purchase Line"](../../../../../objects/table/39.md)
 
 ## Videos, posts and code changes

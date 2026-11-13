@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:45:23.971Z"
+  at: "2026-11-13T00:51:57.443Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ccda07113f46fe8a4bdb235791a542e428f76fc315cc0a03ae672868354527f8
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/W1/Email%20-%20SMTP%20API/app/Entitlements/EmailSMTPAPI.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/Email%20-%20SMTP%20API/app/Entitlements/EmailSMTPAPI.Entitlement.al
     title: src/Apps/W1/Email - SMTP API/app/Entitlements/EmailSMTPAPI.Entitlement.al (releases/29.x)
     date: null
-    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
+    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Email - SMTP API" in Email - SMTP API (System.Email). Introduced in BC29, still in BC30.
 
-Email - SMTP API · System.Email · BC29-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/Apps/W1/Email%20-%20SMTP%20API/app/Entitlements/EmailSMTPAPI.Entitlement.al) · facts from BC29
+Email - SMTP API · System.Email · BC29-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/Email%20-%20SMTP%20API/app/Entitlements/EmailSMTPAPI.Entitlement.al) · facts from BC29
 
 ## Across versions
 

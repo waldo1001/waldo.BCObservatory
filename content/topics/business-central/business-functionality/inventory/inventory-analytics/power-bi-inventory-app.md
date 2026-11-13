@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-app
 type: topic
 title: Power BI inventory app
-summary: The Power BI inventory app section describes the app's reports, KPIs and measures, and semantic model for Business Central inventory analytics. It answers questions about stock levels, bins, lots and serial numbers, supply and demand, ABC classification, and forecasting.
+summary: The Power BI Inventory app section describes the app's reports, KPIs and measures, and semantic model for Business Central inventory analysis. It answers questions about what each report shows, who uses it, which measures it contains, and how the data is structured.
 tier: official
 language: en
 system: inventory
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:17:42.869Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 545d5cc5ad99a65dc6d04e05e294f625174ebc419d7fb530540b202a630bae43
+  input_hash: 37c3b2784424d6cfa365213608fe5692be01178d047d8e19d2815a11180a2af8
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis
@@ -26,51 +26,51 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents
-    title: Bin Contents (Power BI report)
-    date: "2024-10-28"
+    url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents-by-item-tracking
+    title: Bin Contents by Item Tracking Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents-by-item-tracking
-    title: Bin Contents by Item Tracking (Power BI report)
-    date: "2024-10-28"
+    url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents
+    title: Bin Contents Inventory Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-gross-requirement
-    title: Gross Requirement (Power BI report)
-    date: "2024-10-28"
+    title: Gross Requirement Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-item
-    title: Inventory by Item (Power BI report)
-    date: "2024-10-28"
+    title: Inventory by Item Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-location
-    title: Inventory by Location (Power BI report)
-    date: "2024-10-28"
+    title: Inventory by Location Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-lot
-    title: Inventory by Lot No. (Power BI report)
-    date: "2024-10-28"
+    title: Inventory by Lot No. Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-serial-no
-    title: Inventory by Serial No (Power BI report)
-    date: "2024-10-28"
+    title: Inventory by Serial No. Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -90,22 +90,22 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-overview
-    title: Inventory Overview (Power BI report)
-    date: "2024-10-28"
+    title: Inventory Overview Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app
-    title: Inventory Power BI App Page (Power BI report)
-    date: "2024-10-28"
+    title: Inventory Power BI App Reports and Analytics
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-item-availability
-    title: Item Availability (Power BI report)
-    date: "2024-10-28"
+    title: Item Availability Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -118,23 +118,23 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-purchase-and-sales-qty
-    title: Purchase and Sales Quantity (Power BI report)
-    date: "2024-10-28"
+    title: Purchase and Sales Quantity Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-scheduled-receipt
-    title: Scheduled Receipt (Power BI report)
-    date: "2024-10-28"
+    title: Scheduled Receipt Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis
-    - https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents
     - https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents-by-item-tracking
+    - https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents
     - https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-gross-requirement
     - https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-item
     - https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-location
@@ -209,48 +209,53 @@ narrative: generated
 
 # Power BI inventory app
 
-> The Power BI inventory app section describes the app's reports, KPIs and measures, and semantic model for Business Central inventory analytics. It answers questions about stock levels, bins, lots and serial numbers, supply and demand, ABC classification, and forecasting.
+> The Power BI Inventory app section describes the app's reports, KPIs and measures, and semantic model for Business Central inventory analysis. It answers questions about what each report shows, who uses it, which measures it contains, and how the data is structured.
 
-Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Power BI inventory app · tier official · system inventory · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Power BI inventory app · tier official · system inventory · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Power BI inventory app gives leadership, managers, and warehouse staff data-driven views of inventory levels, stock movement, bin contents, and demand fulfillment. The app page lists the included reports, and each report has its own page describing its purpose, audience, and KPIs.
+The Power BI Inventory app gives leadership, managers and warehouse staff reports on stock levels, supply and demand, and item tracking. Each report has its own page that explains its purpose, audience and main KPIs.
 
-The reports fall into a few groups. Overview and location views: Inventory Overview, Inventory by Item, Inventory by Location, and Purchase and Sales Quantity. Supply and demand views: Item Availability, Gross Requirement, and Scheduled Receipt. Warehouse and tracking views: Bin Contents, Bin Contents by Item Tracking, Inventory by Lot No., and Inventory by Serial No. Analytical views: ABC Analysis and Inventory Forecasting.
+The reports fall into a few groups. Overview and availability: Inventory Overview, Item Availability, Gross Requirement, Scheduled Receipt, and Purchase and Sales Quantity. Breakdowns of stock: Inventory by Item, by Location, by Lot No. and by Serial No. Warehouse bins: Bin Contents and Bin Contents by Item Tracking. Planning and classification: ABC Analysis and Inventory Forecasting.
 
-Start with the app page to see the full set of reports, then the Inventory Overview report. Use the KPIs and measures page for formulas and data sources, and the semantic model page to understand the star schema behind the data.
+Start with the "Inventory Power BI App Reports and Analytics" page for the list of reports. Then use the KPIs and measures page for formulas and data sources, and the semantic model page to see the star schema of fact and dimension tables behind the reports.
 
 ## Key points
 
-- The app page covers inventory overview, inventory by location, bin contents, gross requirement, scheduled receipt, and ABC analysis.
-- Inventory Overview and Item Availability report KPIs such as Inventory (Quantity), Scheduled Receipt, Planned Order Receipt, Gross Requirement, and Projected Available Balance.
-- Item Availability helps find items where demand exceeds supply, to avoid delayed orders.
-- Gross Requirement analyzes outbound demand from sales, production components, service, and assembly components. Scheduled Receipt covers inbound from purchase, production, assembly, and transfers.
-- Bin Contents shows stock per bin, including available, pick, put-away, and adjustment quantities. The item tracking version adds lot and serial information in a matrix.
-- Inventory by Lot No. includes an Expired Inventory KPI. Inventory by Serial No. tracks serial-tracked items and slow-moving stock.
-- ABC Analysis ranks items into categories A, B, and C by sales amount, with an ABC Analysis Setup page.
-- Inventory Forecasting predicts the next three months from historical data, with seasonality, location-based forecasts, and customizable parameters.
+- Inventory Overview shows inventory quantity, scheduled receipts, gross requirements and projected available balance by location, for leadership who do not want to drill into detail.
+- Item Availability, Gross Requirement and Scheduled Receipt cover supply and demand. Gross Requirement combines demand from sales, service, projects, production, transfers and assembly.
+- Inventory by Item splits stock across purchase, production, sales and return documents. Inventory by Location shows stock across locations.
+- Inventory by Lot No. includes an Expired Inventory KPI. Inventory by Serial No. shows quantity per serial number.
+- Bin Contents reports show quantities per bin, and the item tracking version adds lot and serial numbers with zone and bin detail.
+- ABC Analysis ranks items into categories A, B and C by sales amount, using the ABC Analysis Setup page.
+- Inventory Forecasting predicts the next three months from historical data, with monthly seasonality and location-based forecasts.
+- The KPIs and measures page lists formulas and data sources. The semantic model uses fact tables for transactions and dimension tables for item, customer, vendor, location and bin in a star schema.
 
 ## Learn pages
 
 - [ABC Analysis (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis): Rank items into A, B, and C categories based on their sales amounts to identify high-value items and inform purchasing and replenishment decisions.
-- [Bin Contents (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents): The Bin Contents report shows bin contents per location.
-- [Bin Contents by Item Tracking (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents-by-item-tracking): The Bin Contents by Item Tracking report shows bin contents and the lot and serial numbers in the bins.
-- [Gross Requirement (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-gross-requirement): The Gross Requirement report looks at all outbound transactions within the system to identify the quantity required per item.
-- [Inventory by Item (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-item): The Inventory by Item report shows inventory levels per item or item category.
-- [Inventory by Location (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-location): The Inventory by Location outlines inventory levels across locations.
-- [Inventory by Lot No. (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-lot): The Inventory by Lot No. report shows total inventory broken down per lot.
-- [Inventory by Serial No (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-serial-no): The Inventory by Serial No. report shows your total inventory broken down per serial number.
+- [Bin Contents by Item Tracking Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents-by-item-tracking): Review bin quantities by item, location, zone, lot number, and serial number with the Bin Contents by Item Tracking report in Business Central.
+- [Bin Contents Inventory Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents): Analyze warehouse quantities, available stock, picks, put-aways, and adjustments by bin with the Bin Contents Power BI report in Business Central.
+- [Gross Requirement Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-gross-requirement): Compare outstanding inventory demand with projected available balances by item and document type using the Gross Requirement Power BI report.
+  - In the observatory: [Table 27 "Item"](../../../../../objects/table/27.md), [Table 99000829 "Planning Component"](../../../../../objects/table/99000829.md)
+- [Inventory by Item Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-item): Compare stock on hand and quantities on purchase, sales, production, and other orders by item and category with the Inventory by Item Power BI report.
+- [Inventory by Location Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-location): Review inventory quantities across locations, items, and item categories to identify stock imbalances with the Inventory by Location Power BI report.
+  - In the observatory: [Table 14 "Location"](../../../../../objects/table/14.md), [Table 27 "Item"](../../../../../objects/table/27.md)
+- [Inventory by Lot No. Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-lot): Review inventory quantities, expiration dates, and expired stock by lot number with the Inventory by Lot No. Power BI report in Business Central.
+  - In the observatory: [Table 27 "Item"](../../../../../objects/table/27.md)
+- [Inventory by Serial No. Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-serial-no): Track inventory quantities and transaction details for serial-tracked items with the Inventory by Serial No. Power BI report in Business Central.
 - [Inventory Forecasting (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-forecasting): The Inventory Forecasting report provides insights into your organization's inventory trends and future stock requirements.
 - [Inventory KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-kpis): The Inventory App KPIs provides a page to clearly identify all KPIs and Measures used in the Inventory Report.
-- [Inventory Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-overview): The Inventory Overview report provides a high-level summary of your organizations inventory.
-- [Inventory Power BI App Page (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app): The Inventory Power BI contains different reports for an organizations inventory reporting needs
-- [Item Availability (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-item-availability): The Item Availability report gives an overview of the availability of each item.
+- [Inventory Overview Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-overview): Review stock quantities, gross requirements, scheduled receipts, and projected balances across locations with the Inventory Overview Power BI report.
+- [Inventory Power BI App Reports and Analytics](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app): Explore inventory levels, item availability, demand, receipts, and bin contents with Power BI reports to support inventory decisions in Business Central.
+- [Item Availability Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-item-availability): Compare projected inventory balances with demand, scheduled receipts, and planned orders using the Item Availability Power BI report in Business Central.
 - [Power BI Inventory app semantic model](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app-semantic-model): Learn how the Power BI Inventory app semantic model organizes inventory, supply, demand, warehouse, and item dimension data from Business Central.
   - In the observatory: [Table 14 "Location"](../../../../../objects/table/14.md), [Table 18 "Customer"](../../../../../objects/table/18.md), [Table 23 "Vendor"](../../../../../objects/table/23.md), [Table 246 "Requisition Line"](../../../../../objects/table/246.md), [Table 27 "Item"](../../../../../objects/table/27.md), [Table 32 "Item Ledger Entry"](../../../../../objects/table/32.md)
-- [Purchase and Sales Quantity (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-purchase-and-sales-qty): The Purchase and Sales Quantity report shows purchase and sales quantities for an organization.
-- [Scheduled Receipt (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-scheduled-receipt): The Scheduled Receipt report lets you view inbound inventory per document type.
+- [Purchase and Sales Quantity Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-purchase-and-sales-qty): Compare net purchased and sold quantities by item and category, alongside inventory availability, with the Purchase and Sales Quantity Power BI report.
+  - In the observatory: [Table 1003 "Job Planning Line"](../../../../../objects/table/1003.md), [Table 246 "Requisition Line"](../../../../../objects/table/246.md), [Table 27 "Item"](../../../../../objects/table/27.md), [Table 37 "Sales Line"](../../../../../objects/table/37.md), [Table 39 "Purchase Line"](../../../../../objects/table/39.md), [Table 5406 "Prod. Order Line"](../../../../../objects/table/5406.md)
+- [Scheduled Receipt Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-scheduled-receipt): Review expected inbound inventory from purchases, production, assemblies, transfers, and sales returns using the Scheduled Receipt Power BI report.
+  - In the observatory: [Table 1003 "Job Planning Line"](../../../../../objects/table/1003.md), [Table 246 "Requisition Line"](../../../../../objects/table/246.md), [Table 27 "Item"](../../../../../objects/table/27.md), [Table 32 "Item Ledger Entry"](../../../../../objects/table/32.md), [Table 37 "Sales Line"](../../../../../objects/table/37.md), [Table 39 "Purchase Line"](../../../../../objects/table/39.md)
 
 ## Videos and posts
 

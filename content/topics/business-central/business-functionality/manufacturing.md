@@ -7,12 +7,12 @@ tier: official
 language: en
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-13T01:01:15.094Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -34,8 +34,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-allocated-hours
-    title: Allocated Hours
-    date: "2024-11-01"
+    title: Allocated Hours Manufacturing Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -48,8 +48,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-average-production-times
-    title: Average Production Times
-    date: "2024-11-01"
+    title: Average Production Times Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -83,15 +83,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-capacity-variance
-    title: Capacity Variance
-    date: "2024-11-01"
+    title: Capacity Variance Manufacturing Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-consumption-variance
-    title: Consumption Variance (Power BI report)
-    date: "2024-11-01"
+    title: Consumption Variance Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -111,15 +111,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-expected-capacity-need
-    title: Expected Capacity Need (Power BI report)
-    date: "2024-11-01"
+    title: Expected Capacity Need Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-finished-production-order-breakdown
-    title: Finished Production Order Breakdown (Power BI report)
-    date: "2024-11-01"
+    title: Finished Production Order Breakdown Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -145,16 +145,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-machine-center-load
-    title: Machine Center Load
-    date: "2025-05-26"
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000784
+    title: Machine Center Load (report)
+    date: "2024-11-01"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000784
-    title: Machine Center Load (report)
-    date: "2024-11-01"
+    url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-machine-center-load
+    title: Machine Center Load Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -167,8 +167,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-machine-center-statistics
-    title: Machine Center Statistics
-    date: "2025-05-26"
+    title: Machine Center Statistics Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -188,8 +188,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-kpis
-    title: Manufacturing KPIs and measures (Power BI)
-    date: "2024-11-06"
+    title: Manufacturing KPIs and Measures in Power BI
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -278,23 +278,23 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-list
-    title: Prod. Order List
-    date: "2025-05-26"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-routing-gantt
-    title: Prod.Order Routing Gantt
-    date: "2025-05-26"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000763
     title: Production Order - List (report)
     date: "2026-03-10"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5802
+    title: Production Order - WIP (report)
+    date: "2024-11-01"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-list
+    title: Production Order List Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -461,8 +461,10 @@ links:
     - change/bcapps/12552
     - change/bcapps/12584
     - change/bcapps/12783
+    - change/bcapps/13724
     - change/bcapps/9075
     - change/bcapps/9087
+    - change/bcapps/9214
     - change/bcapps/9660
     - change/bcapps/9670
     - change/bcapps/9803
@@ -600,7 +602,7 @@ narrative: generated
 
 > Manufacturing in Business Central covers production orders from creation to completion, posting consumption, output, scrap and capacity, reversing transactions, and finished order costing. Subtopics cover manufacturing analytics and subcontracting. It answers how-to and which-report questions.
 
-Path: [Business functionality](../business-functionality.md) > Manufacturing · tier official · system manufacturing · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../business-functionality.md) > Manufacturing · tier official · system manufacturing · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -665,8 +667,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/12552.md) (code change): "sales order with a linked released production order caused repeated production order status warnings"
 - [#12584 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](../../../changes/bcapps/12584.md) (code change): "Posted, uninvoiced subcontracting receipts can again be pulled into a separate purchase invoice"
 - [#12783 [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../changes/bcapps/12783.md) (code change): "multiplies the subcontractor price by the operation time factor and rounds to the unit-amount precision"
+- [#13724 Bug 651757: Allow warehouse pick for MTO subassembly after registered put-away](../../../changes/bcapps/13724.md) (code change): "Warehouse pick selection for make-to-order subassemblies now allows higher-level"
 - [#9075 Bug 598820: Item Availability by Event from Prod. Order ignores demand after Due Date](../../../changes/bcapps/9075.md) (code change): "Item Availability by Event from Prod. Order ignores demand after Due Date"
 - [#9087 Bug 641331: Copy Production Order Document lookup shows the current document](../../../changes/bcapps/9087.md) (code change): "Copy Production Order Document report now excludes the current production order from the document lookup"
+- [#9214 WorkCenter/MachineCenter: add Capacity Shown In to Calendar and Load pages](../../../changes/bcapps/9214.md) (code change): "Work Center and Machine Center Calendar and Load pages now include Capacity"
 - [#9660 [Master]-Act Consumption Qty field in Component of a Firm Planned Order has amounts that point to a Released Production Order that has the same Document No if the component is the same](../../../changes/bcapps/9660.md) (code change): "Act. Consumption Qty shown for components of a firm planned production order"
 - [#9670 [Main] - Posting from Released production order affects Firm planned production order with same ID.](../../../changes/bcapps/9670.md) (code change): "Posting from Released production order affects Firm planned production order"
 - [#9803 [master] Variant Code mandatory should not allow to refresh the production order with no variant code](../../../changes/bcapps/9803.md) (code change): "Variant Code mandatory should not allow to refresh the production order"

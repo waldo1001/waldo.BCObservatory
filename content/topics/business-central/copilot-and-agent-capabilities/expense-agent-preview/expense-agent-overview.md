@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,15 +69,10 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/11955
-    - change/bcapps/12472
-    - change/bcapps/12539
-    - change/bcapps/12821
-    - change/bcapps/12882
-    - change/bcapps/12894
-    - change/bcapps/12910
-    - change/bcapps/13182
-    - change/bcapps/13721
+    - change/bcapps/10032
+    - change/bcapps/10386
+    - change/bcapps/10431
+    - change/bcapps/10670
 learn_toc_path:
   - Copilot and agent capabilities
   - Expense Agent (preview)
@@ -135,15 +130,10 @@ Start with the two overview pages to understand the scope, then read the email p
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#11955 Slice 626975: [Expense Agent] Alternate approvers - Delegated/Substitutes (November '26)](../../../../changes/bcapps/11955.md) (code change): "Expense Agent adds alternate approvers for expense approvals"
-- [#12472 Expense Agent Default VAT Setup fails in localized companies](../../../../changes/bcapps/12472.md) (code change): "Fixes VAT setup initialization for Expense Agent in localized environments"
-- [#12539 Add Expense Agent consumption V2 and trial support](../../../../changes/bcapps/12539.md) (code change): "Expense Agent adds a V2 consumption API and a 50-expense feature trial"
-- [#12821 [SOA] Copy manual task attachments to sales quotes](../../../../changes/bcapps/12821.md) (code change): "Adds internal table 4590 SOA Attachment Transfer to track"
-- [#12882 [Master] - Bug 651169: [Expense Agent] Exchange rate date limitation](../../../../changes/bcapps/12882.md) (code change): "Exchange rate date handling corrected for Expense Agent transactions"
-- [#12894 [PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice](../../../../changes/bcapps/12894.md) (code change): "Payables Agent now recognizes vendor credit notes in PDFs"
-- [#12910 [Master] - Bug 652243: [Expense Agent] Validate approval user email](../../../../changes/bcapps/12910.md) (code change): "Approval user email validation in the Expense User table"
-- [#13182 [Master] - Bug 656364: [Expense Agent] Add a View rules link below Enforce management rules](../../../../changes/bcapps/13182.md) (code change): "View rules link was added below the Enforce management rules setting"
-- [#13721 [Expense Agent] Create per diem line when approving travel requests with Per Diem Included](../../../../changes/bcapps/13721.md) (code change): "Per diem lines are automatically created during travel request approval when Per Diem Included is enabled"
+- [#10032 Fix Agent List and Agent Task List filter and refresh issues (AB#646062)](../../../../changes/bcapps/10032.md) (code change): "Fixed filter visibility and refresh issues on Agent List and Agent Task List"
+- [#10386 [Agent Archiving] Prevent archived custom agents from being modified](../../../../changes/bcapps/10386.md) (code change): "Archived custom agents can now be viewed for auditing but are protected from modification"
+- [#10431 [Agent Archiving] Fix broken reference links to archived agents and their tasks](../../../../changes/bcapps/10431.md) (code change): "Reference links to archived agents and their tasks now open the Agent Card"
+- [#10670 Add Agent Task Log JSON export](../../../../changes/bcapps/10670.md) (code change): "Agent Task Log now supports JSON export of selected rows with detailed context"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../../videos/4TE8uwIi91k.md) (video): "Receipt scanning with auto capture; Bulk receipt upload; Mileage expense creation"
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../../videos/ARKckFygbWQ.md) (video): "receipt capture; receipt extraction; automatic categorization; itemization; compliance rules"
 - [Introducing: Web App for Expense Agent (2026 release wave 1)](../../../../videos/q-udoJPGUKE.md) (video): "Web App for Expense Agent; AI Receipt Extraction; Automatic Expense Report Creation"

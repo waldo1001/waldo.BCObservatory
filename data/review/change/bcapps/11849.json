@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/11849",
+  "input_hash": "89d073c01ec1680d65cfc26cd32c4a20368bde98064a2d5e3644e7e5a8b74db8",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-13T00:59:29.577Z",
+  "issues": [
+    "The SAFTModificationDK files are renamed into src/Apps/W1/SAFTModificationDK and stay in their own app. Nothing shows the code being merged into the main SAF-T app.",
+    "The claim that tests were expanded to cover new localizations is not supported. The test changes are small edits.",
+    "The description is only a work item link, so details beyond the title and file list are not known."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024849,
+    "changes_in_call": 6
+  }
+}

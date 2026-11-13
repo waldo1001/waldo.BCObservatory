@@ -6,13 +6,12 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "The Transfer Routes matrix now displays 'Direct' for configured direct-transfer routes without in-transit locations, instead of showing ellipsis that made them indistinguishable from undefined routes.",
+  "summary": "In the In-Transit Code view of the Transfer Routes matrix, a configured off-diagonal direct-transfer route now shows a localizable Direct label instead of '...', even when an in-transit code is also set, so it can be told apart from an undefined route.",
   "key_points": [
-    "Direct-transfer routes in the In-Transit Code view display 'Direct' when configured without an in-transit location",
-    "Empty off-diagonal cells no longer obscure the presence of a configured direct route",
-    "Non-direct routes, undefined routes, diagonal cells, and shipping-agent views remain unchanged",
-    "Three new test procedures verify direct route display, precedence, and compatibility",
-    "Existing matrix baselines for in-transit code and shipping views still pass"
+    "Configured off-diagonal direct routes show Direct in the In-Transit Code view",
+    "Direct takes precedence even when an in-transit code is populated",
+    "Non-direct routes, undefined routes, diagonal cells, shipping-agent views and AssistEdit are unchanged",
+    "Three new tests cover direct display, precedence and compatibility; existing matrix baselines still pass"
   ],
   "change_kind": "fix",
   "behavior_change": true,

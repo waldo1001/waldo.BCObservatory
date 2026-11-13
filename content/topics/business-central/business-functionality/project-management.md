@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:19.424Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -118,15 +118,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-customer
-    title: Project Invoiced Sales by Customer (Power BI report)
-    date: "2025-09-25"
+    title: Project Invoiced Sales by Customer Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-type
-    title: Project Invoiced Sales by Type (Power BI report)
-    date: "2025-09-25"
+    title: Project Invoiced Sales by Type Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -146,8 +146,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-overview
-    title: Project Overview (Power BI report)
-    date: "2025-09-25"
+    title: Project Overview Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -160,8 +160,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-performance-to-budget
-    title: Project Performance to Budget (Power BI Report)
-    date: "2025-09-25"
+    title: Project Performance to Budget Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -174,15 +174,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-profitability
-    title: Project Profitability (Power BI report)
-    date: "2025-09-25"
+    title: Project Profitability Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-realization
-    title: Project Realization (Power BI report)
-    date: "2025-09-25"
+    title: Project Realization Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -216,15 +216,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-tasks
-    title: Project Tasks (Power BI report)
-    date: "2025-09-25"
+    title: Project Tasks for Project Managers Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-timeline
-    title: Project Timeline (Power BI report)
-    date: "2025-04-29"
+    title: Project Timeline Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -237,7 +237,7 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-kpis
-    title: Projects KPIs and measures (Power BI)
+    title: Projects KPIs and Measures (Power BI)
     date: "2025-09-25"
     commit: null
     t: null

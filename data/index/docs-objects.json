@@ -2,11 +2,11 @@
   "inputs": {
     "commits": {
       "28": "70915dedd33ff568c5fdef4cf5296862d9399141",
-      "29": "888eb4c9e31b4ccec32b4a0402d2d7272ac070bc",
+      "29": "a1f2b2a64d46f4c2f3426f228364792e2f764431",
       "30": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
     },
     "forms": 1734,
-    "forms_hash": "b0e317b0b5121e18109526b7e72d498524814abd124fd35b8ff965b4816e3145"
+    "forms_hash": "84e6a94294ef9cae0d58b6284d31ff9c8fa400c7606f36cc0f9270d6a11c0c5c"
   },
   "majors": [
     "28",
@@ -15,11 +15,11 @@
   ],
   "commits": {
     "28": "70915dedd33ff568c5fdef4cf5296862d9399141",
-    "29": "888eb4c9e31b4ccec32b4a0402d2d7272ac070bc",
+    "29": "a1f2b2a64d46f4c2f3426f228364792e2f764431",
     "30": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
   },
   "docs": 1598,
-  "links": 5349,
+  "links": 5350,
   "by_doc": {
     "docs/learn-devitpro/dev-itpro/administration/apply-company-configuration-packages.md": [
       {
@@ -10023,6 +10023,19 @@
       }
     ],
     "docs/learn-smb-docs/business-central/admin-classifying-data-sensitivity.md": [
+      {
+        "key": "page/1751",
+        "name": "Data Classification Worksheet",
+        "versions": [
+          "28",
+          "29",
+          "30"
+        ],
+        "countries": [
+          "w1"
+        ],
+        "obsolete": null
+      },
       {
         "key": "page/1752",
         "name": "Data Classification Wizard",
@@ -31857,8 +31870,8 @@
     ],
     "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-by-item.md": [
       {
-        "key": "page/37024",
-        "name": "Inventory by Location",
+        "key": "page/37023",
+        "name": "Inventory by Item",
         "versions": [
           "29",
           "30"
@@ -31871,8 +31884,8 @@
     ],
     "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-by-location.md": [
       {
-        "key": "page/37023",
-        "name": "Inventory by Item",
+        "key": "page/37024",
+        "name": "Inventory by Location",
         "versions": [
           "29",
           "30"
@@ -63200,8 +63213,8 @@
     ],
     "docs/learn-smb-docs/business-central/sustainability-powerbi-app.md": [
       {
-        "key": "page/36951",
-        "name": "PowerBI Reports Setup",
+        "key": "page/6316",
+        "name": "Sustainability Report Power BI",
         "versions": [
           "29",
           "30"
@@ -70934,7 +70947,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -72688,7 +72701,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -77246,7 +77259,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-how-publish-web-service.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-publish-web-service",
-        "title": "Expose objects as web services",
+        "title": "Publish Business Central Objects as Web Services",
         "via": "ms.search.form"
       }
     ],
@@ -80638,11 +80651,19 @@
         "via": "ms.search.form"
       }
     ],
+    "page/1751": [
+      {
+        "id": "docs/learn-smb-docs/business-central/admin-classifying-data-sensitivity.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/admin-classifying-data-sensitivity",
+        "title": "Classify Data Sensitivity in Business Central",
+        "via": "ms.search.form"
+      }
+    ],
     "page/1752": [
       {
         "id": "docs/learn-smb-docs/business-central/admin-classifying-data-sensitivity.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/admin-classifying-data-sensitivity",
-        "title": "Classifying data sensitivity",
+        "title": "Classify Data Sensitivity in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -84524,9 +84545,15 @@
         "via": "ms.search.form"
       },
       {
+        "id": "docs/learn-smb-docs/business-central/sustainability-powerbi-app.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app",
+        "title": "Sustainability Power BI App Reports",
+        "via": "ms.search.form"
+      },
+      {
         "id": "docs/learn-smb-docs/business-central/track-kpis-with-power-bi-metrics.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/track-kpis-with-power-bi-metrics",
-        "title": "Track your business KPIs with Power BI metrics",
+        "title": "Power BI Goals for Business Central KPIs",
         "via": "ms.search.form"
       }
     ],
@@ -84540,7 +84567,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/track-kpis-with-power-bi-metrics.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/track-kpis-with-power-bi-metrics",
-        "title": "Track your business KPIs with Power BI metrics",
+        "title": "Power BI Goals for Business Central KPIs",
         "via": "ms.search.form"
       }
     ],
@@ -86862,7 +86889,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89374,7 +89401,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89394,7 +89421,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89420,7 +89447,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89446,7 +89473,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89534,7 +89561,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89560,7 +89587,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89588,7 +89615,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89608,7 +89635,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89630,7 +89657,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89644,7 +89671,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89658,7 +89685,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89672,7 +89699,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89686,7 +89713,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89712,7 +89739,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89726,7 +89753,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -89740,7 +89767,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-        "title": "Manage permissions through user groups (legacy)",
+        "title": "Manage Permissions Through User Groups (Legacy)",
         "via": "ms.search.form"
       },
       {
@@ -97496,13 +97523,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/across-powerbi-apps-faq.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-faq",
-        "title": "Power BI apps FAQ",
+        "title": "Business Central Power BI Apps FAQ",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/across-powerbi-business-central-apps.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-business-central-apps",
-        "title": "Use the Business Central apps in Power BI",
+        "title": "Use Business Central Apps in Power BI",
         "via": "ms.search.form"
       },
       {
@@ -97550,7 +97577,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
@@ -97563,12 +97590,6 @@
         "id": "docs/learn-smb-docs/business-central/SRB/analytics/subscription-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-app",
         "title": "Power BI Subscription Billing app",
-        "via": "ms.search.form"
-      },
-      {
-        "id": "docs/learn-smb-docs/business-central/sustainability-powerbi-app.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app",
-        "title": "Sustainability Power BI app",
         "via": "ms.search.form"
       }
     ],
@@ -97622,7 +97643,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-powerbi-financial-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-financial-overview",
-        "title": "Financial Overview",
+        "title": "Financial Overview Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -97660,7 +97681,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-powerbi-income-statement.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-income-statement",
-        "title": "Income Statement by Month",
+        "title": "Income Statement by Month Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -97698,7 +97719,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-powerbi-balance-sheet.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-balance-sheet",
-        "title": "Balance Sheet by Month",
+        "title": "Balance Sheet by Month Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -97736,7 +97757,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-powerbi-budget-comparison.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-budget-comparison",
-        "title": "Budget Comparison",
+        "title": "Budget Comparison Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -97774,7 +97795,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-powerbi-liquidity.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-liquidity",
-        "title": "Liquidity",
+        "title": "Liquidity Ratios Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -97812,7 +97833,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-powerbi-profitability.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-profitability",
-        "title": "Profitability",
+        "title": "Profitability Analysis Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -97850,7 +97871,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-powerbi-liabilities.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-liabilities",
-        "title": "Liabilities",
+        "title": "Liabilities Analysis Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -97888,7 +97909,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-powerbi-ebitda.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-ebitda",
-        "title": "EBITDA",
+        "title": "EBITDA and EBIT Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -97926,7 +97947,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-powerbi-average-collection-period.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-average-collection-period",
-        "title": "Average Collection Period",
+        "title": "Average Collection Period Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -97958,7 +97979,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-powerbi-aged-receivables-back-dating.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-aged-receivables-back-dating",
-        "title": "Aged Receivables (Back Dating)",
+        "title": "Aged Receivables (Back Dating) Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98002,7 +98023,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-powerbi-aged-payables-back-dating.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-aged-payables-back-dating",
-        "title": "Aged Payables (Back Dating)",
+        "title": "Aged Payables (Back Dating) Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98052,7 +98073,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-powerbi-general-ledger-entries.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-general-ledger-entries",
-        "title": "General Ledger Entries",
+        "title": "General Ledger Entries Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98084,7 +98105,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-powerbi-detailed-vendor-ledger-entries.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-detailed-vendor-ledger-entries",
-        "title": "Detailed Vendor Ledger Entries",
+        "title": "Detailed Vendor Ledger Entries Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98122,7 +98143,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-powerbi-detailed-customer-ledger-entries.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-detailed-customer-ledger-entries",
-        "title": "Detailed Customer Ledger Entries (Power BI report)",
+        "title": "Detailed Customer Ledger Entries Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98160,7 +98181,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -98172,7 +98193,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-overview",
-        "title": "Sales Overview (Power BI report)",
+        "title": "Sales Overview Analysis Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -98198,7 +98219,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -98210,7 +98231,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-daily-sales.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-daily-sales",
-        "title": "Daily Sales (Power BI report)",
+        "title": "Daily Sales Analysis Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -98236,7 +98257,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -98248,7 +98269,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-moving-average.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-average",
-        "title": "Moving Average (Power BI Report)",
+        "title": "Moving Average Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -98274,7 +98295,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -98286,7 +98307,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-moving-annual-total.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-annual-total",
-        "title": "Moving Annual Total (Power BI Report)",
+        "title": "Moving Annual Total Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -98312,7 +98333,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -98324,7 +98345,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-period-over-period-growth.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-period-over-period-growth",
-        "title": "Sales Period-Over-Period Growth (Power BI Report)",
+        "title": "Sales Period-Over-Period Growth Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -98350,7 +98371,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -98362,7 +98383,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-month-to-date.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-month-to-date",
-        "title": "Sales Month-to-Date (MTD) (Power BI Report)",
+        "title": "Sales Month-to-Date (MTD) Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -98388,7 +98409,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -98400,7 +98421,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-by-item.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-item",
-        "title": "Sales by Item (Power BI Report)",
+        "title": "Sales by Item Analysis Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -98426,7 +98447,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -98438,7 +98459,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-by-customer.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-customer",
-        "title": "Sales by Customer (Power BI Report)",
+        "title": "Sales by Customer Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -98464,7 +98485,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -98476,7 +98497,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-by-salesperson.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-salesperson",
-        "title": "Sales by Salesperson (Power BI Report)",
+        "title": "Sales by Salesperson Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -98502,13 +98523,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-actual-vs-budget.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget",
-        "title": "Actual vs Budget (Power BI Report)",
+        "title": "Sales Actual vs. Budget Power BI Report",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -98528,13 +98549,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchases-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-overview",
-        "title": "Purchases Overview (Power BI Report)",
+        "title": "Purchases Overview Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98560,13 +98581,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchases-decomposition.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-decomposition",
-        "title": "Purchases Decomposition (Power BI Report)",
+        "title": "Purchases Decomposition Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98592,13 +98613,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-daily-purchases.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-daily-purchases",
-        "title": "Daily Purchases (Power BI Report)",
+        "title": "Daily Purchases Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98624,13 +98645,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-moving-averages.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-moving-averages",
-        "title": "Moving Averages (Power BI Report)",
+        "title": "Moving Averages Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98656,13 +98677,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-moving-annual-total.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-moving-annual-total",
-        "title": "Moving Annual Total (MAT) (Power BI Report)",
+        "title": "Moving Annual Total (MAT) Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98688,13 +98709,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-period-over-period.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-period-over-period",
-        "title": "Period-Over-Period (Power BI Report)",
+        "title": "Period-Over-Period Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98720,13 +98741,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-year-over-year.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-year-over-year",
-        "title": "Year-Over-Year (Power BI Report)",
+        "title": "Year-Over-Year Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98752,13 +98773,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchases-by-item.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-item",
-        "title": "Purchases by Item (Power BI Report)",
+        "title": "Purchases by Item Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98784,13 +98805,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchases-by-purchaser.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-purchaser",
-        "title": "Purchases by Purchaser (Power BI Report)",
+        "title": "Purchases by Purchaser Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98816,13 +98837,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchases-by-vendor.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-vendor",
-        "title": "Purchases by Vendor (Power BI Report)",
+        "title": "Purchases by Vendor Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98848,13 +98869,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchases-by-location.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-location",
-        "title": "Purchases by Location (Power BI Report)",
+        "title": "Purchases by Location Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98880,7 +98901,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
@@ -98906,13 +98927,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-actual-vs-budget.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget",
-        "title": "Actual vs. Budget (Power BI Report)",
+        "title": "Actual vs. Budget Power BI Report",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
@@ -98944,13 +98965,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
-        "title": "Inventory Power BI App Page (Power BI report)",
+        "title": "Inventory Power BI App Reports and Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-overview",
-        "title": "Inventory Overview (Power BI report)",
+        "title": "Inventory Overview Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -98976,13 +98997,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
-        "title": "Inventory Power BI App Page (Power BI report)",
+        "title": "Inventory Power BI App Reports and Analytics",
         "via": "ms.search.form"
       },
       {
-        "id": "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-by-location.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-location",
-        "title": "Inventory by Location (Power BI report)",
+        "id": "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-by-item.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-item",
+        "title": "Inventory by Item Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99008,13 +99029,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
-        "title": "Inventory Power BI App Page (Power BI report)",
+        "title": "Inventory Power BI App Reports and Analytics",
         "via": "ms.search.form"
       },
       {
-        "id": "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-by-item.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-item",
-        "title": "Inventory by Item (Power BI report)",
+        "id": "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-by-location.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-location",
+        "title": "Inventory by Location Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99034,13 +99055,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
-        "title": "Inventory Power BI App Page (Power BI report)",
+        "title": "Inventory Power BI App Reports and Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-purchase-and-sales-qty.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-purchase-and-sales-qty",
-        "title": "Purchase and Sales Quantity (Power BI report)",
+        "title": "Purchase and Sales Quantity Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99072,13 +99093,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
-        "title": "Inventory Power BI App Page (Power BI report)",
+        "title": "Inventory Power BI App Reports and Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-item-availability.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-item-availability",
-        "title": "Item Availability (Power BI report)",
+        "title": "Item Availability Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99104,13 +99125,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
-        "title": "Inventory Power BI App Page (Power BI report)",
+        "title": "Inventory Power BI App Reports and Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-gross-requirement.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-gross-requirement",
-        "title": "Gross Requirement (Power BI report)",
+        "title": "Gross Requirement Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99136,13 +99157,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
-        "title": "Inventory Power BI App Page (Power BI report)",
+        "title": "Inventory Power BI App Reports and Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-scheduled-receipt.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-scheduled-receipt",
-        "title": "Scheduled Receipt (Power BI report)",
+        "title": "Scheduled Receipt Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99168,13 +99189,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
-        "title": "Inventory Power BI App Page (Power BI report)",
+        "title": "Inventory Power BI App Reports and Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-by-lot.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-lot",
-        "title": "Inventory by Lot No. (Power BI report)",
+        "title": "Inventory by Lot No. Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99200,13 +99221,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
-        "title": "Inventory Power BI App Page (Power BI report)",
+        "title": "Inventory Power BI App Reports and Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-by-serial-no.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-serial-no",
-        "title": "Inventory by Serial No (Power BI report)",
+        "title": "Inventory by Serial No. Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99232,13 +99253,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
-        "title": "Inventory Power BI App Page (Power BI report)",
+        "title": "Inventory Power BI App Reports and Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-bin-contents.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents",
-        "title": "Bin Contents (Power BI report)",
+        "title": "Bin Contents Inventory Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99264,13 +99285,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
-        "title": "Inventory Power BI App Page (Power BI report)",
+        "title": "Inventory Power BI App Reports and Analytics",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-bin-contents-by-item-tracking.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents-by-item-tracking",
-        "title": "Bin Contents by Item Tracking (Power BI report)",
+        "title": "Bin Contents by Item Tracking Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99308,7 +99329,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-powerbi-project-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-overview",
-        "title": "Project Overview (Power BI report)",
+        "title": "Project Overview Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99346,7 +99367,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-powerbi-project-tasks.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-tasks",
-        "title": "Project Tasks (Power BI report)",
+        "title": "Project Tasks for Project Managers Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99384,7 +99405,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-powerbi-project-profitability.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-profitability",
-        "title": "Project Profitability (Power BI report)",
+        "title": "Project Profitability Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99422,7 +99443,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-powerbi-project-realization.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-realization",
-        "title": "Project Realization (Power BI report)",
+        "title": "Project Realization Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99460,7 +99481,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-powerbi-project-performance-to-budget.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-performance-to-budget",
-        "title": "Project Performance to Budget (Power BI Report)",
+        "title": "Project Performance to Budget Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99486,7 +99507,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-powerbi-project-invoiced-sales-by-type.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-type",
-        "title": "Project Invoiced Sales by Type (Power BI report)",
+        "title": "Project Invoiced Sales by Type Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99524,7 +99545,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-powerbi-project-invoiced-sales-by-customer.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-customer",
-        "title": "Project Invoiced Sales by Customer (Power BI report)",
+        "title": "Project Invoiced Sales by Customer Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99566,7 +99587,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-work-center-load.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-work-center-load",
-        "title": "Work Center Load",
+        "title": "Work Center Load Manufacturing Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99592,7 +99613,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-allocated-hours.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-allocated-hours",
-        "title": "Allocated Hours",
+        "title": "Allocated Hours Manufacturing Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99630,7 +99651,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-expected-capacity-need.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-expected-capacity-need",
-        "title": "Expected Capacity Need (Power BI report)",
+        "title": "Expected Capacity Need Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99662,7 +99683,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-finished-production-order-breakdown.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-finished-production-order-breakdown",
-        "title": "Finished Production Order Breakdown (Power BI report)",
+        "title": "Finished Production Order Breakdown Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99694,7 +99715,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-consumption-variance.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-consumption-variance",
-        "title": "Consumption Variance (Power BI report)",
+        "title": "Consumption Variance Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99726,7 +99747,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-capacity-variance.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-capacity-variance",
-        "title": "Capacity Variance",
+        "title": "Capacity Variance Manufacturing Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99758,7 +99779,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-average-production-times.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-average-production-times",
-        "title": "Average Production Times",
+        "title": "Average Production Times Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99790,7 +99811,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-released-production-orders.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-released-production-orders",
-        "title": "Released Production Orders",
+        "title": "Released Production Orders Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99822,7 +99843,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-production-scrap.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-scrap",
-        "title": "Production Scrap (Power BI report)",
+        "title": "Production Scrap Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99854,13 +99875,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-valuation-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app",
-        "title": "Inventory valuation landing page (Power BI report)",
+        "title": "Inventory Valuation Power BI App Reports",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/inventory-valuation-powerbi-inventory-valuation-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-overview",
-        "title": "Inventory Valuation Overview (Power BI report)",
+        "title": "Inventory Valuation Overview Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99886,13 +99907,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-valuation-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app",
-        "title": "Inventory valuation landing page (Power BI report)",
+        "title": "Inventory Valuation Power BI App Reports",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/inventory-valuation-powerbi-inventory-valuation-by-item.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-item",
-        "title": "Inventory Valuation by Item (Power BI report)",
+        "title": "Inventory Valuation by Item Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99918,13 +99939,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-valuation-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app",
-        "title": "Inventory valuation landing page (Power BI report)",
+        "title": "Inventory Valuation Power BI App Reports",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/inventory-valuation-powerbi-inventory-valuation-by-location.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-by-location",
-        "title": "Inventory Valuation by Location (Power BI report)",
+        "title": "Inventory Valuation by Location Power BI Report",
         "via": "ms.search.form"
       },
       {
@@ -99952,7 +99973,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       }
     ],
@@ -99982,7 +100003,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
-        "title": "Inventory Power BI App Page (Power BI report)",
+        "title": "Inventory Power BI App Reports and Analytics",
         "via": "ms.search.form"
       }
     ],
@@ -99990,7 +100011,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-valuation-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app",
-        "title": "Inventory valuation landing page (Power BI report)",
+        "title": "Inventory Valuation Power BI App Reports",
         "via": "ms.search.form"
       }
     ],
@@ -99998,7 +100019,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -100010,7 +100031,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-by-location.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-location",
-        "title": "Sales by Location (Power BI Report)",
+        "title": "Sales by Location Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100024,7 +100045,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-work-center-statistics.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-work-center-statistics",
-        "title": "Work Center Statistics",
+        "title": "Work Center Statistics Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100038,7 +100059,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-machine-center-statistics.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-machine-center-statistics",
-        "title": "Machine Center Statistics",
+        "title": "Machine Center Statistics Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100052,7 +100073,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-machine-center-load.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-machine-center-load",
-        "title": "Machine Center Load",
+        "title": "Machine Center Load Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100066,7 +100087,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-prod-order-list.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-list",
-        "title": "Prod. Order List",
+        "title": "Production Order List Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100080,7 +100101,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-production-order-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-order-overview",
-        "title": "Production Order Overview",
+        "title": "Production Order Overview Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100094,7 +100115,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-prod-order-routing-gantt.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-routing-gantt",
-        "title": "Prod.Order Routing Gantt",
+        "title": "Production Order Routing Gantt Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100102,7 +100123,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -100114,7 +100135,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-demographics.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-demographics",
-        "title": "Sales Demographics (Power BI report)",
+        "title": "Sales Demographics Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100122,7 +100143,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -100134,7 +100155,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-decomposition.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-decomposition",
-        "title": "Sales Decomposition (Power BI report)",
+        "title": "Sales Decomposition Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100142,7 +100163,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -100154,7 +100175,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-key-sales-influencers.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-key-sales-influencers",
-        "title": "Key Sales Influencers (Power BI Report)",
+        "title": "Key Sales Influencers Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100162,7 +100183,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -100174,7 +100195,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-opportunity-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-opportunity-overview",
-        "title": "Opportunity Overview (Power BI Report)",
+        "title": "Sales Opportunity Overview Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100182,7 +100203,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -100194,7 +100215,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-quote-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-quote-overview",
-        "title": "Sales Quote Overview (Power BI report)",
+        "title": "Sales Quote Overview Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100202,7 +100223,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
@@ -100214,7 +100235,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-return-order-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-return-order-overview",
-        "title": "Return Order Overview (Power BI report)",
+        "title": "Sales Return Order Overview Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100228,7 +100249,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-powerbi-project-timeline.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-timeline",
-        "title": "Project Timeline (Power BI report)",
+        "title": "Project Timeline Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100242,7 +100263,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-prod-order-wip.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-wip",
-        "title": "Production Order WIP",
+        "title": "Production Order WIP Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100250,13 +100271,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-forecasting.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-forecasting",
-        "title": "Sales Forecasting (Power BI Report)",
+        "title": "Sales Forecasting Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100264,7 +100285,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
-        "title": "Inventory Power BI App Page (Power BI report)",
+        "title": "Inventory Power BI App Reports and Analytics",
         "via": "ms.search.form"
       },
       {
@@ -100286,7 +100307,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
@@ -100306,7 +100327,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-powerbi-late-payment-analysis-receivables.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-late-payment-analysis-receivables",
-        "title": "Late Payments (Receivables)",
+        "title": "Late Payments (Receivables) Power BI Report",
         "via": "ms.search.form"
       }
     ],
@@ -100328,7 +100349,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
@@ -100342,7 +100363,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
@@ -100356,7 +100377,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
@@ -100370,7 +100391,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/purchases-powerbi-app.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-        "title": "Power BI Purchase app",
+        "title": "Power BI Purchases App for Purchasing Analytics",
         "via": "ms.search.form"
       },
       {
@@ -100384,13 +100405,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
-        "title": "Power BI Sales app semantic model",
+        "title": "Power BI Sales App Semantic Model Reference",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-by-project.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-project",
-        "title": "Sales by Project (Power BI Report)",
+        "title": "Sales by Project Power BI Report",
         "via": "ms.search.form"
       }
     ],

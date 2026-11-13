@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T00:14:06.145Z"
+  at: "2026-11-13T00:13:31.718Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7c4ce144e5b562c176ef35c45f6b224aef10393d
@@ -43,7 +43,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/141
 repo_path: microsoft/knowledge/testing/triage-posted-table-license-failures-against-baseline.md
 layer: microsoft
 kind: rule
@@ -99,6 +100,10 @@ Originally contributed by [NavNab](https://github.com/NavNab) in [PR #141](https
 
 - [Good: triage-posted-table-license-failures-against-baseline.good.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/triage-posted-table-license-failures-against-baseline.good.al)
 - [Bad: triage-posted-table-license-failures-against-baseline.bad.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/triage-posted-table-license-failures-against-baseline.bad.al)
+
+## Changed by
+
+- [#141 knowledge(testing): license-entitlement failures on posted tables in a SaaS test run are environmental](../../../../changes/bcquality/141.md), 2026-11-12
 
 ---
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:24.212Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,6 +100,7 @@ links:
     - change/bcapps/11945
     - change/bcapps/12080
     - change/bcapps/12082
+    - change/bcapps/12084
     - change/bcapps/12143
     - change/bcapps/12459
     - change/bcapps/12584
@@ -110,6 +111,7 @@ links:
     - change/bcapps/13261
     - change/bcapps/13293
     - change/bcapps/13566
+    - change/bcapps/13641
     - change/bcapps/8747
     - change/bcapps/8750
     - change/bcapps/8752
@@ -221,6 +223,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11945 Bug 648959: [Subcontracting] Fix serial splitting for non-last subcontracting put-away lines](../../../../changes/bcapps/11945.md) (code change): "Fix serial splitting for non-last subcontracting put-away lines"
 - [#12080 Bug 649448: [Subcontracting] [IT] Fully received WIP purchase orders block Disable Legacy Subcontracting](../../../../changes/bcapps/12080.md) (code change): "Fully received WIP purchase orders block Disable Legacy Subcontracting"
 - [#12082 Bug 650429: [Repair Item] [Subcontracting] Show Document opens the wrong transfer order from Transfer Lines (Page 5749)](../../../../changes/bcapps/12082.md) (code change): "Show Document on the Transfer Lines page no longer opens the wrong transfer order for legacy subcontracting"
+- [#12084 Bug 652154: [Subcontracting] Add feature uptake telemetry](../../../../changes/bcapps/12084.md) (code change): "Telemetry instrumentation added to track Subcontracting feature adoption"
 - [#12143 Bug 649440: [Subcontracting] [IT] Disable Legacy Subcontracting leaves Component Supply Method empty after conversion](../../../../changes/bcapps/12143.md) (code change): "Italian subcontracting legacy migration now correctly maps the vendor's"
 - [#12459 [Master][All-E] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../../changes/bcapps/12459.md) (code change): "Subcontractor price now correctly incorporates operation run time for time-based"
 - [#12584 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](../../../../changes/bcapps/12584.md) (code change): "Restore Get Receipt Lines for subcontracting receipts"
@@ -230,7 +233,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13166 [Master]-WIP transfer warehouse shipment incorrectly requires Bin Code](../../../../changes/bcapps/13166.md) (code change): "WIP transfer warehouse shipment in Subcontracting no longer incorrectly requires"
 - [#13261 [Backport 29.x] [Extensibility Request] [SCM] 2026-10-26](../../../../changes/bcapps/13261.md) (code change): "Small change to the Subc. RequisitionLine table extension in Subcontracting"
 - [#13293 [29.X]-WIP transfer warehouse shipment incorrectly requires Bin Code](../../../../changes/bcapps/13293.md) (code change): "WIP transfer in Subcontracting no longer incorrectly requires a Bin Code"
-- [#13566 [Subcontracting] Bug 648843: Align feature-handler references with CLEAN28](../../../../changes/bcapps/13566.md) (code change): "Subcontracting app handler references are realigned with CLEAN28 boundaries"
+- [#13566 [Subcontracting] Bug 648843: Align feature-handler references with CLEAN28](../../../../changes/bcapps/13566.md) (code change): "Subcontracting app and its test are aligned with the handler's CLEAN28"
+- [#13641 Bug 647022: [Subcontracting] Use alternative worksheet names and migrate the legacy page](../../../../changes/bcapps/13641.md) (code change): "Subcontracting initialization now preserves existing customer templates"
 - [#8747 [Subcontracting] Disable "WIP Item Transfer" for Machine Center](../../../../changes/bcapps/8747.md) (code change): "Transfer WIP Item field on routing lines is now restricted"
 - [#8750 [Bug Fix] #638688: Suppress availability warning for Transfer WIP Item lines](../../../../changes/bcapps/8750.md) (code change): "WIP items are intermediate goods managed by subcontracting"
 - [#8752 [Bug Fix] #638531: Disable Open TO from PO actions on non-subcontracting lines](../../../../changes/bcapps/8752.md) (code change): "Open TO from PO actions on subcontracting purchase order lines"

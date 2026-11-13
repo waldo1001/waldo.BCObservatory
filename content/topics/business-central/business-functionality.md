@@ -11,7 +11,7 @@ review:
   at: "2026-11-10T00:57:46.433Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -158,16 +158,9 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget
-    title: Actual vs Budget (Power BI Report)
-    date: "2024-10-26"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget
-    title: Actual vs. Budget (Power BI Report)
-    date: "2024-10-31"
+    title: Actual vs. Budget Power BI Report
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -294,6 +287,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries
     title: Adjust VAT Settlement Exchange Rates in New Zealand
     date: "2026-10-23"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz
+    title: Advance Payments Localization for Czech (Extension)
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -1072,6 +1072,7 @@ links:
     - object/page/6250
     - object/page/6285
     - object/page/6287
+    - object/page/6316
     - object/page/6520
     - object/page/6560
     - object/page/6620
@@ -1932,7 +1933,7 @@ children:
   - topic/business-central/business-functionality/design-details
 coverage:
   learn: 1718
-  code: 1574
+  code: 1575
   video: 0
   blog: 0
   guideline: 0
@@ -2868,6 +2869,7 @@ bc_forms:
   - 6287
   - 6298
   - 6299
+  - 6316
   - 6520
   - 6560
   - 6620
@@ -4674,6 +4676,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 6250 "Data Sync Status"](../../objects/page/6250.md) · via [Relationship management](business-functionality/relationship-management.md)
 - [Page 6285 "Sust. Excise Jnl. Templates"](../../objects/page/6285.md) · captioned "Excise Journal Templates" · on [Table 6238 "Sust. Excise Journal Template"](../../objects/table/6238.md) · via [Finance](business-functionality/finance.md)
 - [Page 6287 "Sustainability Excise Journal"](../../objects/page/6287.md) · captioned "Excise Journal" · on [Table 6240 "Sust. Excise Jnl. Line"](../../objects/table/6240.md) · via [Finance](business-functionality/finance.md)
+- [Page 6316 "Sustainability Report Power BI"](../../objects/page/6316.md) · captioned "Sustainability Report (Power BI)" · via [Sustainability management](business-functionality/sustainability-management.md)
 - [Page 6520 "Item Tracing"](../../objects/page/6520.md) · on [Table 6520 "Item Tracing Buffer"](../../objects/table/6520.md) · via [Inventory](business-functionality/inventory.md)
 - [Page 6560 "Document Line Tracking"](../../objects/page/6560.md) · on [Table 265 "Document Entry"](../../objects/table/265.md) · via [General business functionality](business-functionality/general-business-functionality.md)
 - [Page 6620 "Blanket Sales Order Archive"](../../objects/page/6620.md) · on [Table 5107 "Sales Header Archive"](../../objects/table/5107.md) · via [Sales](business-functionality/sales.md)

@@ -14,17 +14,17 @@ review:
   at: "2026-10-23T23:41:34.588Z"
   flags: []
 generated:
-  at: "2026-11-12T00:45:23.971Z"
+  at: "2026-11-13T00:51:57.443Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 2b6df3ee2ee2599359d5a0635d3b2927fe945fb8b4e61bedecf06574fa7f4c9c
+  input_hash: c0072ce0a644ff4a78c641de73ec1213fc2d75bfedcca45dae785ef445bbeb5f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-fr
     date: null
-    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
+    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
     t: null
     quote: null
 links:

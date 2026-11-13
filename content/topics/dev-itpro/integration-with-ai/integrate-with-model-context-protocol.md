@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:51.814Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -174,7 +174,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How to Connect Business Central MCP to Claude Desktop](../../../posts/katson-com/5026.md) (community post): "enabling third-party AI agents to access BC data"
 - [AI context is king - BC MCP for MCS Agents - London D365PPUG - Feb 2026](../../../posts/wingate365-com/https-blog-wingate365-com-2026-02-ai-context-is-king-bc-mcp-for-mcs-html--94f99e5d2a.md) (community post): "Business Central now has a built-in MCP server"
 - [Business Central 2025 wave 2 (BC27.1): Connect AI agents to Business Central through MCP server (Dynamics 365 Business Central MCP)](../../../posts/yzhums-com/68873.md) (community post): "Connect AI agents to Business Central through MCP server"
-- [Business Central 2026 release wave 2 (BC29): Run data queries with MCP Server (no APIs required)](../../../posts/yzhums-com/76419.md) (community post): "Data Query Tools for the MCP Server, enabling AI agents"
+- [Business Central 2026 release wave 2 (BC29): Run data queries with MCP Server (no APIs required)](../../../posts/yzhums-com/76419.md) (community post): "Data Query Tools for the MCP Server, enabling AI agents to define, validate, and run"
 - [What's New: Enhanced MCP Server (2026 release wave 1)](../../../videos/0WAOtNaKjws.md) (video): "Enhanced MCP Server. Topics: mcp server; configuration validation; import export"
 - [MCP Server and API Queries (2026 release wave 1)](../../../videos/4HE3BBCcV84.md) (video): "API queries in MCP server; Analytics API reference documentation; MCP server configuration"
 - [Microsoft presents: Tests, dependencies, runners and evals for BC applications](../../../videos/9CW5mydS9Vs.md) (video): "MCP server for test execution; Test generation with MCP and external tools"

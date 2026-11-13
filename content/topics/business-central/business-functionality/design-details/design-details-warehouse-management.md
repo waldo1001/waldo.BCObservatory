@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:35.729Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,6 +48,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12541
+    - change/bcapps/13724
 learn_toc_path:
   - Business functionality
   - Design details
@@ -100,6 +101,7 @@ There are no subtopics. Start with the availability page if you are investigatin
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12541 Preserve transfer line UOM when toggling Direct Transfer](../../../../changes/bcapps/12541.md) (code change): "Warehouse protection is made explicit: mode changes are rejected only when matching warehouse lines exist"
+- [#13724 Bug 651757: Allow warehouse pick for MTO subassembly after registered put-away](../../../../changes/bcapps/13724.md) (code change): "warehouse pick for MTO subassembly after registered put-away"
 - [Shop Floor and Warehouse Mobile for Business Central](../../../../posts/olofsimren-com/3981.md) (community post): "Solution is built entirely as an AL extension inside Business Central, extending existing production orders and warehouse documents"
 - [What's New: Concurrency in Warehousing (2024 release wave 1)](../../../../videos/QfOgUCXg94o.md) (video): "Concurrent warehouse entry posting"
 

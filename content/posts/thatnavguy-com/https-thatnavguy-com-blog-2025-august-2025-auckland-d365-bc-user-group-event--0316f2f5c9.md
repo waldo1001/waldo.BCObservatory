@@ -17,7 +17,7 @@ review:
   at: "2026-10-08T01:59:37.734Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-13T00:13:31.718Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -61,7 +61,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:51:19.977Z"
+  probed_at: "2026-11-13T00:55:32.537Z"
 ---
 
 # August 2025 Auckland D365 BC User Group Event

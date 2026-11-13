@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,7 +116,8 @@ links:
     - topic/business-central/business-functionality
     - topic/business-central/business-functionality/quality-management/set-up-quality-management
   localizations: []
-  videos: []
+  videos:
+    - video/m8-7-JKq4dc
   posts:
     - post/olofsimren-com/3696
   guidelines: []
@@ -139,7 +140,7 @@ children:
 coverage:
   learn: 11
   code: 7
-  video: 0
+  video: 1
   blog: 1
   guideline: 0
 bc_forms:
@@ -208,6 +209,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13427 [Quality Management] Confirm before finishing on Create Re-inspection](../../../changes/bcapps/13427.md) (code change): "Quality inspections now ask for confirmation before finishing when creating a re-inspection"
 - [#13560 [QM] Move Inventory: allow destination location for non-directed item](../../../changes/bcapps/13560.md) (code change): "Quality Management Move Inventory report now allows a destination location to be set"
 - [Quality Management in Business Central Version 28](../../../posts/olofsimren-com/3696.md) (community post): "Business Central version 28 adds a native Quality Management module for inspecting goods"
+- [Introducing: Quality Management (2026 release wave 1)](../../../videos/m8-7-JKq4dc.md) (video): "Introducing: Quality Management (2026 release wave 1). Topics: quality inspection"
 
 ## Business Central pages and reports
 

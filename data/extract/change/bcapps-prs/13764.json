@@ -8,11 +8,11 @@
   ],
   "summary": "The Indexes part on the Table Information page now lists disabled SIFTs for keys that are disabled in metadata and define SumIndexFields, allowing administrators to enable them.",
   "key_points": [
-    "Lists disabled SIFT rows for keys disabled in metadata with SumIndexFields",
-    "Mirrors existing behavior already implemented for regular indexes",
-    "Enables administrators to enable SIFTs on disabled keys through the UI",
-    "Platform now supports creating SIFT views and indexes when enabling a SIFT on disabled keys",
-    "AL code reading MaintainSIFTIndex sees no behavior change since the Key table remains unchanged"
+    "Indexes List Part now lists a disabled SIFT row for keys that are disabled in metadata and define SumIndexFields",
+    "Mirrors the existing condition used for regular indexes",
+    "Administrators can select and enable such SIFTs, relying on the platform counterpart change",
+    "The Key table is unchanged, so AL code reading MaintainSIFTIndex is unaffected",
+    "Enabling a row for a key with MaintainSIFTIndex false is still rejected by the platform"
   ],
   "change_kind": "feature",
   "behavior_change": true,

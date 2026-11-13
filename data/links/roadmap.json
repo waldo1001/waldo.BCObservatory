@@ -32585,10 +32585,10 @@
     "video/3uVf6BEXt1w": {
       "kind": "video",
       "key": "video/3uVf6BEXt1w",
-      "hash": "4a97db429be79ba00a39ae244444fc74bd8e78b3edbedef0b01ead1cbabaf265",
+      "hash": "3e0ed706b7b6f03ee131715175f5ed4de23a5e6eebaf0e039061ba3ee1067725",
       "video_id": "3uVf6BEXt1w",
       "title": "Why Onboarding Experiences are Important",
-      "at": "2026-11-08T00:53:50.985Z",
+      "at": "2026-11-13T00:56:03.500Z",
       "matches": []
     },
     "video/3Xus5tm2xKI": {
@@ -32655,19 +32655,19 @@
     "video/4EnvGMwbuBY": {
       "kind": "video",
       "key": "video/4EnvGMwbuBY",
-      "hash": "46e11372a69f716536da44514f5466819232863273353f6ba7fe373b13e90030",
+      "hash": "1b41b85485898380a13189ae571d6fa25b867969a66426c1f3da26d00edae98e",
       "video_id": "4EnvGMwbuBY",
       "title": "Comparing Subaccount Segments and Dimension Setup between Dynamics SL and Dynamics 365 Business",
-      "at": "2026-11-08T00:53:51.592Z",
+      "at": "2026-11-13T00:56:01.621Z",
       "matches": []
     },
     "video/4HE3BBCcV84": {
       "kind": "video",
       "key": "video/4HE3BBCcV84",
-      "hash": "a9c47d55aa4349473c6149edf31fe63b713ed43b2ba5de715b805e0450395bc3",
+      "hash": "cbaf66415c98f36a1f6ee4ed86cb98fa100127c4ffc78c7d0855b40925d83a67",
       "video_id": "4HE3BBCcV84",
       "title": "MCP Server and API Queries (2026 release wave 1)",
-      "at": "2026-11-08T00:53:50.332Z",
+      "at": "2026-11-13T00:55:59.936Z",
       "matches": [
         {
           "feature": 0,
@@ -32677,10 +32677,24 @@
           "quote": "API queries in MCP server. Support for API queries"
         },
         {
+          "feature": 0,
+          "name": "API queries in MCP server",
+          "t": 5,
+          "roadmap_id": "576789",
+          "quote": "API queries in MCP server, which serve as the foundation"
+        },
+        {
           "feature": 2,
           "name": "MCP server configuration for object type query",
           "t": 97,
           "roadmap_id": "573312",
+          "quote": "MCP server configuration now supports selecting query as object type"
+        },
+        {
+          "feature": 2,
+          "name": "MCP server configuration for object type query",
+          "t": 97,
+          "roadmap_id": "576789",
           "quote": "MCP server configuration now supports selecting query as object type"
         }
       ]
@@ -32688,10 +32702,10 @@
     "video/4IumfDNN8GU": {
       "kind": "video",
       "key": "video/4IumfDNN8GU",
-      "hash": "5ec386d3f6b80cb591bcd843d7e8524c18b59481170340b325ddcd0150a73f3a",
+      "hash": "205eb180530864785b56bd3eda650151c252c5186e8153331e3c8dfadfbba83d",
       "video_id": "4IumfDNN8GU",
       "title": "How to Use Posting Groups in Business Central (2025)",
-      "at": "2026-11-08T00:53:53.725Z",
+      "at": "2026-11-13T00:56:04.489Z",
       "matches": []
     },
     "video/4mD9R50V134": {
@@ -32744,19 +32758,19 @@
     "video/4Te11l2BxmQ": {
       "kind": "video",
       "key": "video/4Te11l2BxmQ",
-      "hash": "f5b64e9f1a31e910933aee247e9340c1094f6f870a2de08247c0c8fc4ec9f596",
+      "hash": "af29200c761b5bf9baef313b4ad0d7000f3db0e805f8876a3b9f4f5be5ce1682",
       "video_id": "4Te11l2BxmQ",
       "title": "Simplify Bank Reconciliation with Copilot in Dynamics 365 Business Central (2024)",
-      "at": "2026-11-08T00:53:52.969Z",
+      "at": "2026-11-13T00:56:02.218Z",
       "matches": []
     },
     "video/4TE8uwIi91k": {
       "kind": "video",
       "key": "video/4TE8uwIi91k",
-      "hash": "f876c1525d6266dad74930ace89ecd15ea2a43126bf6131c78a9ee9733d8ffb2",
+      "hash": "819d53210ab5222fc8594f64623862949749cda1c6cb9ffa08c29d356231377e",
       "video_id": "4TE8uwIi91k",
       "title": "What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)",
-      "at": "2026-11-08T00:53:54.334Z",
+      "at": "2026-11-13T00:56:00.979Z",
       "matches": [
         {
           "feature": 0,
@@ -32770,7 +32784,7 @@
           "name": "Bulk receipt upload",
           "t": 66,
           "roadmap_id": "573265",
-          "quote": "upload multiple receipts at the same time from the mobile app"
+          "quote": "Ability to upload multiple receipts at the same time"
         },
         {
           "feature": 2,
@@ -32784,14 +32798,7 @@
           "name": "Mileage expense creation on mobile",
           "t": 133,
           "roadmap_id": "573254",
-          "quote": "vehicle type, distance calculation, and automatic per diem rate"
-        },
-        {
-          "feature": 3,
-          "name": "Mileage expense creation on mobile",
-          "t": 133,
-          "roadmap_id": "573265",
-          "quote": "Create mileage expenses directly from the phone with route selection"
+          "quote": "Create mileage expenses directly from the phone with route selection, vehicle type"
         },
         {
           "feature": 4,
@@ -32811,25 +32818,18 @@
           "feature": 6,
           "name": "Expense approval on mobile",
           "t": 298,
-          "roadmap_id": "573265",
-          "quote": "approve expense reports directly from the mobile app"
-        },
-        {
-          "feature": 7,
-          "name": "Expense categorization and agent processing",
-          "t": 204,
-          "roadmap_id": "573265",
-          "quote": "Automatic recognition and categorization of uploaded expenses"
+          "roadmap_id": "573255",
+          "quote": "Review, check compliance issues, override flags, and approve expense reports"
         }
       ]
     },
     "video/54uIhzZq3Os": {
       "kind": "video",
       "key": "video/54uIhzZq3Os",
-      "hash": "78a881181d916083a6140662f3d14640614335a5d65d7799e8c330ba2497fd6c",
+      "hash": "555d9aa0db503c6f5ca10454ed2d99f2593b933372ea31fbddb6f4ae3a4c6607",
       "video_id": "54uIhzZq3Os",
       "title": "Expense Agent: Finance Controlling (2026 release wave 1)",
-      "at": "2026-11-08T00:53:55.106Z",
+      "at": "2026-11-13T00:56:04.903Z",
       "matches": []
     },
     "video/564XMP2IyLM": {
@@ -32844,19 +32844,19 @@
     "video/58yOwN3GY2Q": {
       "kind": "video",
       "key": "video/58yOwN3GY2Q",
-      "hash": "651f5f783c41d1c1391dcafb102b0035f0e1825de30758c613de73788d5e8417",
+      "hash": "b00f6da39e803e6d47b83053c52ef2c2f484883fc7c3c22e84b505cabc6bb933",
       "video_id": "58yOwN3GY2Q",
       "title": "Microsoft Copilot in Business Central",
-      "at": "2026-11-08T00:53:59.966Z",
+      "at": "2026-11-13T00:56:04.803Z",
       "matches": []
     },
     "video/5E6ikveL6N0": {
       "kind": "video",
       "key": "video/5E6ikveL6N0",
-      "hash": "8e3bf3968b62624ddb39a4cfac26972704a1150021af0c8c0006141036c66ede",
+      "hash": "1015fc5544203783b75390a8348498126a7fb6efaedfa9ad2746ffa73c965e11",
       "video_id": "5E6ikveL6N0",
       "title": "Comparing Posting Accounts and Posting Groups Between Dynamics GP and Dynamics Business Central",
-      "at": "2026-11-08T00:54:00.346Z",
+      "at": "2026-11-13T00:56:08.837Z",
       "matches": []
     },
     "video/5GD8S3XzQmA": {
@@ -32895,17 +32895,17 @@
     "video/5OZ0g5IgC8Q": {
       "kind": "video",
       "key": "video/5OZ0g5IgC8Q",
-      "hash": "3b6f6d5fea2f5baeb0cfa5cb55c4a9b32c90e01549f994f894a096f42888ff8b",
+      "hash": "d7d49cdecbd6a900e4f2e440ff291ec3abc4a93b0d8eae9cf52b16781530d40a",
       "video_id": "5OZ0g5IgC8Q",
       "title": "What's new: Shopify Tax Matching (preview) (2026 release wave 2)",
-      "at": "2026-11-09T00:40:10.540Z",
+      "at": "2026-11-13T00:56:09.311Z",
       "matches": [
         {
           "feature": 0,
           "name": "Shopify Tax Matching AI Capability",
           "t": 40,
           "roadmap_id": "574128",
-          "quote": "AI-powered capability that analyzes tax information from Shopify orders"
+          "quote": "Shopify Tax Matching AI Capability analyzes tax information from Shopify orders"
         },
         {
           "feature": 1,
@@ -32919,45 +32919,45 @@
           "name": "Tax Match Review and Approval Window",
           "t": 271,
           "roadmap_id": "574128",
-          "quote": "users can review AI-assigned tax areas, tax jurisdictions, and associated tax rates"
+          "quote": "A dedicated window where users can review AI-assigned tax areas, tax jurisdictions, and associated tax rates"
         },
         {
           "feature": 4,
           "name": "TaxMatch Configuration Settings",
           "t": 404,
           "roadmap_id": "574128",
-          "quote": "Configurable permissions and options including activation toggle, permission to create tax jurisdictions"
+          "quote": "Configurable permissions and options including activation toggle, permission to create tax jurisdictions and areas"
         },
         {
           "feature": 5,
           "name": "Tax Rate Mismatch Detection and Resolution",
           "t": 644,
           "roadmap_id": "574128",
-          "quote": "System detects when tax rates differ between Shopify and Business Central"
+          "quote": "System detects when tax rates differ between Shopify and Business Central, prevents document creation"
         },
         {
           "feature": 6,
           "name": "Shopify Order Number as Sales Document Number",
           "t": 573,
           "roadmap_id": "573340",
-          "quote": "uses the Shopify order number as the sales order document number"
+          "quote": "Shopify Order Number as Sales Document Number uses the Shopify order number as the sales order document number"
         },
         {
           "feature": 7,
           "name": "Automatic Refund Document Creation",
           "t": 597,
           "roadmap_id": "573343",
-          "quote": "automatically creates a sales return document in Business Central"
+          "quote": "Automatic Refund Document Creation creates a sales return document in Business Central"
         }
       ]
     },
     "video/5Qfc7r618OM": {
       "kind": "video",
       "key": "video/5Qfc7r618OM",
-      "hash": "f90a8f1f797b59054f38c1f61af37c1f32b602c17cb33219f55299a339623537",
+      "hash": "6ab5e1dd0c77512bff64f29e1094bd8827d601c697e777df69dd8803dd171db4",
       "video_id": "5Qfc7r618OM",
       "title": "What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)",
-      "at": "2026-11-09T00:40:10.217Z",
+      "at": "2026-11-13T00:56:10.707Z",
       "matches": []
     },
     "video/5qWLFUqFsi0": {
@@ -32972,54 +32972,46 @@
     "video/5RJ3yZ7m1UU": {
       "kind": "video",
       "key": "video/5RJ3yZ7m1UU",
-      "hash": "587c2ed9cc979283552d759ae7a321daf695446798930a3ddb8393e5001e054a",
+      "hash": "a07f959cbf0b2ce41d1a27fd54012b2ad181821c00f984ac84818956a18cbf5f",
       "video_id": "5RJ3yZ7m1UU",
       "title": "What's New: Financial Analytics (2024 release wave 2)",
-      "at": "2026-11-09T00:40:10.786Z",
-      "matches": [
-        {
-          "feature": 0,
-          "name": "Power BI Finance App",
-          "t": 16,
-          "roadmap_id": "573323",
-          "quote": "Six new Power BI apps with one for finance containing 14 reports"
-        }
-      ]
+      "at": "2026-11-13T00:56:11.336Z",
+      "matches": []
     },
     "video/5xeATIUFiGg": {
       "kind": "video",
       "key": "video/5xeATIUFiGg",
-      "hash": "9a001e54306c32d0b0becc8eea437eb7495bfbfe5c16112918873ae7e86ee12f",
+      "hash": "1dc9919d591553c589976d9842cb0d5e4d8f5f638556a7a1ff11f92ca8873763",
       "video_id": "5xeATIUFiGg",
       "title": "20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central",
-      "at": "2026-11-09T00:40:09.811Z",
+      "at": "2026-11-13T00:56:10.518Z",
       "matches": []
     },
     "video/5zXQ_aIT03s": {
       "kind": "video",
       "key": "video/5zXQ_aIT03s",
-      "hash": "6efc694222b46a56308572ca37c401b6964458d920719a07d01417ba4854292c",
+      "hash": "abdeb6145642458fcb63ed3201974e8cda3955ec8ab97d081de162350abf7cae",
       "video_id": "5zXQ_aIT03s",
       "title": "Control When People Can Post to the General Ledger",
-      "at": "2026-11-09T00:40:09.623Z",
+      "at": "2026-11-13T00:56:11.003Z",
       "matches": []
     },
     "video/64_cQzp8BP4": {
       "kind": "video",
       "key": "video/64_cQzp8BP4",
-      "hash": "d31c298bc6b580a0c946b640d8510868f3bbabea13d2ea049e1aa49b23e221eb",
+      "hash": "d15cb01c837787ff5903b4379a859b8426c3769896f95cfe3ba901b0027f44eb",
       "video_id": "64_cQzp8BP4",
       "title": "What's New: Concurrent Inventory Posting (2025 release wave 1)",
-      "at": "2026-11-09T00:40:16.036Z",
+      "at": "2026-11-13T00:56:15.211Z",
       "matches": []
     },
     "video/669rJN75L2g": {
       "kind": "video",
       "key": "video/669rJN75L2g",
-      "hash": "ab12a89588c67571a8cdc389c1649f5ea5bfca73611e06335c1a58ecf7a44d1c",
+      "hash": "3c02fb3cc05058c45e8e3fbd4ea230f91cf10f67a6a5fbaee4fa440cc29cec5f",
       "video_id": "669rJN75L2g",
       "title": "Introducing: Tenant Discovery Endpoint (2025 release wave 1)",
-      "at": "2026-11-09T00:40:16.000Z",
+      "at": "2026-11-13T00:56:15.576Z",
       "matches": []
     },
     "video/6B6F38AswE8": {
@@ -33034,10 +33026,10 @@
     "video/6bX7Ab4KYMA": {
       "kind": "video",
       "key": "video/6bX7Ab4KYMA",
-      "hash": "b1122047c9ec5163d5bc6bad21bfa576b623ad595b2147f332fd74f11b61c575",
+      "hash": "f47209b5b14eae0c5ae2fd32f7a6db44899f66cc08d19980ed4898d41e520fe8",
       "video_id": "6bX7Ab4KYMA",
       "title": "What's New: Cloud Migration Tooling (2026 release wave 1)",
-      "at": "2026-11-09T00:40:21.694Z",
+      "at": "2026-11-13T00:56:17.166Z",
       "matches": []
     },
     "video/6d6iajwQQ-c": {
@@ -33126,10 +33118,10 @@
     "video/6SyNNeHQDUo": {
       "kind": "video",
       "key": "video/6SyNNeHQDUo",
-      "hash": "b064230cadd17a72eb8777458e1735597ee553cf06d4a84aa3e9cbbff9b46f27",
+      "hash": "d6c74d154c79cf4d4d2c5548b56c80eb7391c6a7cdc1f5233e6a66c6eaba16f4",
       "video_id": "6SyNNeHQDUo",
       "title": "What's New: Co-Development Initiative (2024 release wave 2)",
-      "at": "2026-11-09T00:40:16.788Z",
+      "at": "2026-11-13T00:56:15.789Z",
       "matches": []
     },
     "video/6vHJQggN4F4": {
@@ -33144,19 +33136,19 @@
     "video/6WVsS3j-HTw": {
       "kind": "video",
       "key": "video/6WVsS3j-HTw",
-      "hash": "00d565b9e9f901303e3cf70635e9f1f57534436da0cd81f1396ba04b077c9232",
+      "hash": "4750d9821588abdec3afcc51ff74693b1325b74d762f967fdd5be04e78fbe0d5",
       "video_id": "6WVsS3j-HTw",
       "title": "Comparing Entering Customer Cash Receipts in Dynamics SL to Dynamics 365 Business Central",
-      "at": "2026-11-09T00:40:16.494Z",
+      "at": "2026-11-13T00:56:16.610Z",
       "matches": []
     },
     "video/6Zb7VAvLVm4": {
       "kind": "video",
       "key": "video/6Zb7VAvLVm4",
-      "hash": "72dbfafd7430899250c4d6084da5a2b106e94f635b833afa86ddd3758b021c01",
+      "hash": "138532d716aea1bb9a3535ff74a26426473b4a29bb15b64900232d10641deaf9",
       "video_id": "6Zb7VAvLVm4",
       "title": "What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)",
-      "at": "2026-11-09T00:40:15.335Z",
+      "at": "2026-11-13T00:56:16.732Z",
       "matches": [
         {
           "feature": 10,

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-13T01:01:22.016Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -374,7 +374,11 @@ links:
     - post/yzhums-com/69476
   guidelines: []
   changes:
-    - change/bcapps/9359
+    - change/bcapps/12894
+    - change/bcapps/13259
+    - change/bcapps/13307
+    - change/bcapps/13469
+    - change/bcapps/13495
 learn_toc_path:
   - Copilot and agent capabilities
 toc_file: business-central/TOC.md
@@ -495,7 +499,11 @@ Start with Business Central AI and the availability page to see what applies to 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#9359 Sales Order Agent: ignore attachments larger than 25 MB during email retrieval](../../changes/bcapps/9359.md) (code change): "Sales Order Agent now ignores email attachments larger than 25 MB during retrieval"
+- [#12894 [PayablesAgent] Add support for credit memos, recognised from the PDF and applied to the original invoice](../../changes/bcapps/12894.md) (code change): "The Payables Agent now recognizes vendor credit notes in PDFs"
+- [#13259 Protect from runtime error if Item Availability looses date filter](../../changes/bcapps/13259.md) (code change): "The Sales Order Agent's multi-item availability page now guards against runtime errors"
+- [#13307 [SOA] Clear stale pricing notifications on item availability refresh](../../changes/bcapps/13307.md) (code change): "Sales Order Agent now clears stale pricing-error notifications when refreshing"
+- [#13469 [SOA] Do not show duplicate-contact notification on outgoing email](../../changes/bcapps/13469.md) (code change): "Sales Order Agent no longer displays the duplicate-contact notification"
+- [#13495 Migrate SOA auxiliary calls to GPT-5.6 and refine date-filter handling](../../changes/bcapps/13495.md) (code change): "Sales Order Agent now uses GPT-5.6 Ceres instead of GPT-4.1"
 - [Effective Steps for Troubleshooting Business Central Agents](../../posts/aardvarklabs-blog/3315.md) (community post): "This post explains how to troubleshoot Business Central agents by examining task logs"
 - [The Business Central 2026 release wave 2 docs nobody asked for ..](../../posts/waldo-be/318712.md) (community post): "319 features identified from 38 videos with developer tools"
 - [Dynamics 365 Business Central: All Copilot and agent capabilities](../../posts/yzhums-com/69476.md) (community post): "multiple AI-powered Copilot features for productivity"

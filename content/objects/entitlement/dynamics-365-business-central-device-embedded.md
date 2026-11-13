@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:45:23.971Z"
+  at: "2026-11-13T00:51:57.443Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0dbafdbc3c2b8f59781772f1bf9bbae511bb4dd0899e449efe1db759daba4f66
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralDeviceEmbedded.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralDeviceEmbedded.Entitlement.al
     title: src/System Application/App/Entitlements/Dynamics365BusinessCentralDeviceEmbedded.Entitlement.al (releases/29.x)
     date: null
-    commit: 888eb4c9e31b4ccec32b4a0402d2d7272ac070bc
+    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central Device - Embedded" in System Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 
-System Application · System.Security.AccessControl · BC23-30 · [source at 888eb4c9](https://github.com/microsoft/BCApps/blob/888eb4c9e31b4ccec32b4a0402d2d7272ac070bc/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralDeviceEmbedded.Entitlement.al) · facts from BC29
+System Application · System.Security.AccessControl · BC23-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralDeviceEmbedded.Entitlement.al) · facts from BC29
 
 ## Across versions
 
