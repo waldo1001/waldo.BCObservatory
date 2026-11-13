@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Moving Average (Power BI Report)",
+  "title": "Moving Average Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-average",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.824Z",
-      "blob": "7d6477b610eac6dbe80db931597a1e6bc679f892",
-      "words": 237,
+      "at": "2026-11-13T00:20:30.989Z",
+      "blob": "6eb2c64dbdf97bfd0e58b0907ab2d8f1c1b6b671",
+      "words": 239,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:02:13.741Z",
+      "at": "2026-11-13T00:20:40.504Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00335
+      "cost_usd": 0.003094
     },
     "summarized": {
-      "at": "2026-10-06T19:02:13.782Z",
+      "at": "2026-11-13T00:20:40.513Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:02:13.783Z",
+      "at": "2026-11-13T00:20:40.522Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:02:15.511Z",
+      "at": "2026-11-13T00:20:40.530Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-moving-average.md",
-    "description": "The Moving Average report provides a clear picture of your organization's average sales over a 30 day period.",
-    "ms_date": "2025-10-07",
+    "description": "Compare sales amounts with a 30-day moving average in the Power BI Sales app to identify recent revenue trends and changes in sales performance.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 237,
+    "ai_usage": "ai-assisted",
+    "words": 239,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b1926612f1671759d853e73e6b92489ff2fad11ebfdb33e5bc604dbb332dabae"
+  "output_hash": "f1ee69f697fc24efca73fb2bf788f507af60ec3f8021be30fa91855662a9ee74"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Sales Period-Over-Period Growth (Power BI Report)",
+  "title": "Sales Period-Over-Period Growth Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-period-over-period-growth",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.828Z",
-      "blob": "23d21177619be5cdc779d937d7aa96d5e76e3425",
-      "words": 384,
+      "at": "2026-11-13T00:20:32.283Z",
+      "blob": "bd29d272999da42ba4338e164c94c46d6cc0c745",
+      "words": 361,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:02:13.741Z",
+      "at": "2026-11-13T00:20:40.613Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00335
+      "cost_usd": 0.00339
     },
     "summarized": {
-      "at": "2026-10-06T19:02:15.513Z",
+      "at": "2026-11-13T00:20:40.615Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:02:15.514Z",
+      "at": "2026-11-13T00:20:40.616Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:02:15.515Z",
+      "at": "2026-11-13T00:20:40.617Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-period-over-period-growth.md",
-    "description": "The Period-Over-Period Growth report provides valuable insights into your organization's sales performance over time.",
-    "ms_date": "2025-10-07",
-    "ms_topic": "article",
+    "description": "Compare sales with the previous fiscal month, quarter, or year in Power BI to track revenue changes and evaluate period-over-period growth.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37002_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 384,
+    "ai_usage": "ai-assisted",
+    "words": 361,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7abd39ec09d511f5a2788ca6d491a572a7bcb1417cc726f030a478312c4b1555"
+  "output_hash": "14c082312bcd40bc41eed19b7794d7146942ecd62a71c8adb143944c2f2708d3"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Opportunity Overview (Power BI Report)",
+  "title": "Sales Opportunity Overview Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-opportunity-overview",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-28T08:59:16.202Z",
-      "blob": "d4b0cbf8eaf573e157af072dc30f36153b280d92",
+      "at": "2026-11-13T00:20:31.079Z",
+      "blob": "22e227d698bf2952d717e165160705c4a3dbd922",
       "words": 361,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-28T08:59:46.567Z",
+      "at": "2026-11-13T00:20:40.626Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.0038
+      "objects": 5,
+      "cost_usd": 0.003779
     },
     "summarized": {
-      "at": "2026-10-28T08:59:46.569Z",
+      "at": "2026-11-13T00:20:40.628Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-28T08:59:46.570Z",
+      "at": "2026-11-13T00:20:40.629Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-28T08:59:46.571Z",
+      "at": "2026-11-13T00:20:40.631Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-opportunity-overview.md",
     "description": "Use the Opportunity Overview Power BI report with Business Central to review sales opportunity values, sales cycle stages, locations, and salesperson performance.",
-    "ms_date": "2025-05-20",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0ebc4d0478b5f52d889f59b7bddb8b36af0e0eb1b3bd3d1f7aa691da0003ddc6"
+  "output_hash": "9f39e14aa52da92d702ddbcc90929d0a113bae8a57381fe186bd2ef263db0661"
 }

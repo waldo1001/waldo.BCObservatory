@@ -1,56 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-daily-sales.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-daily-sales",
-  "title": "Daily Sales (Power BI report)",
-  "blob": "58a558c65a767bbdc795ec5e8845628a5b230f13",
-  "summary": "The Daily Sales Power BI report displays daily sales activities and identifies high-performing days across different time periods to help executives and managers track sales metrics and staffing needs.",
+  "title": "Daily Sales Analysis Power BI Report",
+  "blob": "62e64322f384000852eff7f72093d47b2599a438",
+  "summary": "The Daily Sales Power BI report provides executives and sales managers with daily sales metrics including quantity, revenue, costs, and profit to track performance, identify high-performing days, and make informed staffing decisions.",
   "systems": [
     "sales",
     "reporting"
   ],
   "topics": [
     "power bi",
-    "sales",
-    "daily",
-    "analytics",
+    "sales analytics",
+    "daily metrics",
+    "performance tracking",
     "kpi"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "Sales Value Entries"
-    },
-    {
-      "type": "other",
-      "name": "Sales Invoice Lines"
-    },
-    {
-      "type": "other",
-      "name": "Sales Credit Lines"
-    },
-    {
-      "type": "other",
-      "name": "Project Ledger Entries"
-    },
-    {
-      "type": "other",
-      "name": "Item"
-    },
-    {
-      "type": "other",
-      "name": "G/L Account"
-    },
-    {
-      "type": "other",
-      "name": "Resource"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Daily sales volume tracking",
-    "Year-over-year comparison",
-    "Sales quantity analysis",
-    "Profit margin metrics",
-    "Adjusted cost analysis"
+    "Sales Quantity",
+    "Sales (LCY)",
+    "Adjusted Cost (LCY)",
+    "Adjusted Profit (LCY)",
+    "Adjusted Profit Margin"
   ],
   "versions": [],
   "parts": 1,
@@ -59,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002892,
-      "pages_in_call": 8
+      "cost_usd": 0.003251,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,26 +1,71 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-key-sales-influencers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-key-sales-influencers",
-  "title": "Key Sales Influencers (Power BI Report)",
-  "blob": "d787757816f8dc7b0e6986070d30e2fdb8103189",
-  "summary": "Key Sales Influencers Power BI report uses AI to identify factors that drive sales performance and highlights key metrics affecting sales datasets with top segments analysis.",
+  "title": "Key Sales Influencers Power BI Report",
+  "blob": "52c31912950ac2b58e26b4a4ba636c93894ea702",
+  "summary": "The Key Sales Influencers Power BI report uses AI to identify factors that drive sales performance and provides actionable insights through Key Influencers visual and Top Segments analysis for leadership and sales managers.",
   "systems": [
     "sales",
-    "reporting"
+    "reporting",
+    "copilot"
   ],
   "topics": [
     "power bi",
     "sales analytics",
-    "key performance indicators",
+    "key influencers",
     "sales drivers",
-    "ai analysis"
+    "kpis",
+    "segmentation"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Item"
+    },
+    {
+      "type": "other",
+      "name": "Customer"
+    },
+    {
+      "type": "other",
+      "name": "Item Category"
+    },
+    {
+      "type": "other",
+      "name": "Sales Value Entries"
+    },
+    {
+      "type": "other",
+      "name": "Sales Invoice Lines"
+    },
+    {
+      "type": "other",
+      "name": "Sales Credit Lines"
+    },
+    {
+      "type": "other",
+      "name": "Project Ledger Entries"
+    },
+    {
+      "type": "other",
+      "name": "Salesperson/Purchaser"
+    },
+    {
+      "type": "other",
+      "name": "Resource"
+    },
+    {
+      "type": "other",
+      "name": "G/L Account"
+    }
+  ],
   "features": [
-    "key influencers visual",
-    "top segments analysis",
-    "sales performance",
-    "actionable insights"
+    "Key Influencers visual",
+    "Top Segments tab",
+    "Sales (LCY) KPI",
+    "Sales Quantity KPI",
+    "AI-driven analysis",
+    "regional sales analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +74,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002277,
-      "pages_in_call": 8
+      "cost_usd": 0.004362,
+      "pages_in_call": 1
     }
   ]
 }

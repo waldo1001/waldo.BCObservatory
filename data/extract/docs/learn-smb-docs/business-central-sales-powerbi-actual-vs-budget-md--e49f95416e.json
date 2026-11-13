@@ -1,61 +1,59 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-actual-vs-budget.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget",
-  "title": "Actual vs Budget (Power BI Report)",
-  "blob": "099a2d7e1672f0f7470b0b30f428c40ec6f7c575",
-  "summary": "The Actual vs Budget Power BI report compares sales performance against budget figures to help finance and sales teams track progress toward sales targets and analyze performance by item categories.",
+  "title": "Sales Actual vs. Budget Power BI Report",
+  "blob": "405b9b551d31a524e4755d8d601387ad3cacd13e",
+  "summary": "The Actual vs. Budget Power BI report compares actual sales amounts with budget amounts to help organizations track progress toward sales targets and analyze performance by item categories and items.",
   "systems": [
     "sales",
     "reporting"
   ],
   "topics": [
     "power bi",
-    "sales",
-    "budget",
-    "analytics",
-    "kpi",
-    "variance"
+    "sales performance",
+    "budget tracking",
+    "variance analysis",
+    "kpis"
   ],
   "objects": [
     {
-      "type": "other",
+      "type": "table",
       "name": "Item"
     },
     {
-      "type": "other",
+      "type": "table",
       "name": "Item Category"
     },
     {
-      "type": "other",
+      "type": "table",
       "name": "Item Budget Entry"
     },
     {
-      "type": "other",
+      "type": "table",
       "name": "Sales Value Entries"
     },
     {
-      "type": "other",
+      "type": "table",
       "name": "Sales Invoice Lines"
     },
     {
-      "type": "other",
+      "type": "table",
       "name": "Sales Credit Lines"
     },
     {
-      "type": "other",
+      "type": "table",
       "name": "Project Ledger Entries"
     },
     {
-      "type": "other",
+      "type": "table",
       "name": "Salesperson/Purchaser"
     }
   ],
   "features": [
-    "Sales amount comparison",
-    "Budget variance analysis",
-    "Item category breakdown",
-    "Budget amount variance percentage",
-    "Performance tracking"
+    "Sales (LCY)",
+    "Budget Amount",
+    "Budget Amount Variance",
+    "Budget Amount Variance %"
   ],
   "versions": [],
   "parts": 1,
@@ -64,8 +62,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002892,
-      "pages_in_call": 8
+      "cost_usd": 0.00401,
+      "pages_in_call": 1
     }
   ]
 }

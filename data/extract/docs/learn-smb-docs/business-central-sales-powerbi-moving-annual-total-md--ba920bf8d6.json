@@ -1,45 +1,27 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-moving-annual-total.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-annual-total",
-  "title": "Moving Annual Total (Power BI Report)",
-  "blob": "232c4d07b94ebd6760bbcf5eeb1c9bda140200c0",
-  "summary": "The Moving Annual Total Power BI report calculates rolling 12-month sales totals and compares them to previous periods to help business leaders and sales managers identify sales trends and growth patterns.",
+  "title": "Moving Annual Total Power BI Report",
+  "blob": "0da45322a01b2b5d46739113770efa11de62fafe",
+  "summary": "Moving Annual Total (MAT) report calculates rolling 12-month sales totals and compares them to the previous period. Used by business leaders and sales managers to monitor sales performance trends and identify areas for improvement.",
   "systems": [
     "sales",
     "reporting"
   ],
   "topics": [
     "power bi",
-    "sales",
-    "annual total",
-    "analytics",
-    "kpi",
-    "trends"
+    "moving annual total",
+    "sales analytics",
+    "key performance indicators",
+    "sales performance"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "Sales Value Entries"
-    },
-    {
-      "type": "other",
-      "name": "Sales Invoice Lines"
-    },
-    {
-      "type": "other",
-      "name": "Sales Credit Lines"
-    },
-    {
-      "type": "other",
-      "name": "Project Ledger Entries"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Moving annual total calculation",
-    "Previous year comparison",
-    "Growth amount analysis",
-    "Growth percentage tracking",
-    "Rolling 12-month analysis"
+    "Moving Annual Total (MAT)",
+    "Previous Year Moving Annual Total (PYMAT)",
+    "Moving Annual Total Growth Amount",
+    "Moving Annual Total Growth %",
+    "Sales (LCY)"
   ],
   "versions": [],
   "parts": 1,
@@ -48,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002892,
-      "pages_in_call": 8
+      "cost_usd": 0.003613,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Moving Annual Total (Power BI Report)",
+  "title": "Moving Annual Total Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-annual-total",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.226Z",
-      "blob": "232c4d07b94ebd6760bbcf5eeb1c9bda140200c0",
-      "words": 418,
+      "at": "2026-11-13T00:20:30.527Z",
+      "blob": "0da45322a01b2b5d46739113770efa11de62fafe",
+      "words": 420,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:17.905Z",
+      "at": "2026-11-13T00:20:35.107Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.002892
+      "objects": 0,
+      "cost_usd": 0.003613
     },
     "summarized": {
-      "at": "2026-10-06T19:04:17.922Z",
+      "at": "2026-11-13T00:20:40.422Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:17.923Z",
+      "at": "2026-11-13T00:20:40.424Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:17.924Z",
+      "at": "2026-11-13T00:20:40.426Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-moving-annual-total.md",
-    "description": "The Moving Annual Total report provides a total of sales over the last 12 months.",
-    "ms_date": "2024-10-26",
+    "description": "Compare rolling 12-month sales totals with the previous year's totals in the Power BI Sales app to monitor long-term revenue trends and growth.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 418,
+    "ai_usage": "ai-assisted",
+    "words": 420,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b952233681675ee0dba37aa4993e35aff6c81a7d2728242b840c1928b1fe185a"
+  "output_hash": "d4b649ea452697f4decd4c57fd6f4970c53058a16b376d4f3e7e1ae158a696f8"
 }

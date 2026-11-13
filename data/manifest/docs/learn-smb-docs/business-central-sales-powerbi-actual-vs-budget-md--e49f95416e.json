@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Actual vs Budget (Power BI Report)",
+  "title": "Sales Actual vs. Budget Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.217Z",
-      "blob": "099a2d7e1672f0f7470b0b30f428c40ec6f7c575",
-      "words": 377,
+      "at": "2026-11-13T00:20:25.095Z",
+      "blob": "405b9b551d31a524e4755d8d601387ad3cacd13e",
+      "words": 374,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:17.903Z",
+      "at": "2026-11-13T00:20:31.016Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 8,
-      "cost_usd": 0.002892
+      "cost_usd": 0.00401
     },
     "summarized": {
-      "at": "2026-10-06T19:04:17.917Z",
+      "at": "2026-11-13T00:20:31.017Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:17.918Z",
+      "at": "2026-11-13T00:20:31.019Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:17.919Z",
+      "at": "2026-11-13T00:20:31.022Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-actual-vs-budget.md",
-    "description": "The Actual vs. Budget report provides a clear overview of your organization's sales performance by comparing actual sales amount and quantity sold with the budget figures.",
-    "ms_date": "2024-10-26",
-    "ms_topic": "article",
+    "description": "Compare actual sales amounts with budgets in the Power BI Sales app to track sales targets and analyze variances by item and item category.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37007_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 377,
+    "ai_usage": "ai-assisted",
+    "words": 374,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "061d59549a92cefefd6b07da2c16f433058916431feb377bbbe1d8c06cd2f7d3"
+  "output_hash": "bbd53efaaf7e75b551488514e9522d1e80721603d18b3bf42b389b8625ec8de3"
 }

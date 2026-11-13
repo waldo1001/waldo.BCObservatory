@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Daily Sales (Power BI report)",
+  "title": "Daily Sales Analysis Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-daily-sales",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.221Z",
-      "blob": "58a558c65a767bbdc795ec5e8845628a5b230f13",
+      "at": "2026-11-13T00:20:25.105Z",
+      "blob": "62e64322f384000852eff7f72093d47b2599a438",
       "words": 228,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:17.904Z",
+      "at": "2026-11-13T00:20:30.474Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 7,
-      "cost_usd": 0.002892
+      "objects": 0,
+      "cost_usd": 0.003251
     },
     "summarized": {
-      "at": "2026-10-06T19:04:17.920Z",
+      "at": "2026-11-13T00:20:30.476Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:17.921Z",
+      "at": "2026-11-13T00:20:30.477Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:17.921Z",
+      "at": "2026-11-13T00:20:30.479Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-daily-sales.md",
-    "description": "The *Daily Sales* report provides a clear picture of your organization's sales activities over specific days.",
-    "ms_date": "2024-10-26",
-    "ms_topic": "article",
+    "description": "Analyze daily sales amounts, quantities, costs, and profits in the Power BI Sales app to identify trends across days, weeks, months, and years.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "36999_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 228,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7205f4b0e005c79e8b608c0b65daf599c7890d029dfa7bdf387313cd3a2cf488"
+  "output_hash": "75a187b882212d5f8c8d04a32e5f3bb00a7a77f1f94db772f511f5b31913469d"
 }

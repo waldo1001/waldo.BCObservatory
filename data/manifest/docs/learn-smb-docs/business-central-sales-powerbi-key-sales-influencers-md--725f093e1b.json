@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Key Sales Influencers (Power BI Report)",
+  "title": "Key Sales Influencers Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-key-sales-influencers",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.853Z",
-      "blob": "d787757816f8dc7b0e6986070d30e2fdb8103189",
-      "words": 414,
+      "at": "2026-11-13T00:20:25.134Z",
+      "blob": "52c31912950ac2b58e26b4a4ba636c93894ea702",
+      "words": 401,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:57.643Z",
+      "at": "2026-11-13T00:20:32.208Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002277
+      "objects": 10,
+      "cost_usd": 0.004362
     },
     "summarized": {
-      "at": "2026-10-06T18:55:59.471Z",
+      "at": "2026-11-13T00:20:32.210Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:59.472Z",
+      "at": "2026-11-13T00:20:32.211Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:59.474Z",
+      "at": "2026-11-13T00:20:32.213Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-key-sales-influencers.md",
     "description": "Identify and analyze factors that influence sales performance. Explore the most impactful variables and trends based on sales data.",
-    "ms_date": "2025-10-07",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 414,
+    "ai_usage": "ai-assisted",
+    "words": 401,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "31d83ed8901cc1b38373d8efffd57525179d5243dae07d8c96ff9bbc63ab84ef"
+  "output_hash": "3b94066ac70c706a0489f9ebee421b84146ab06663f0968a55017b86984eef4c"
 }

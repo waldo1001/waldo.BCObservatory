@@ -1,27 +1,67 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchases-decomposition.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-decomposition",
-  "title": "Purchases Decomposition (Power BI Report)",
-  "blob": "e1b91574a9e81dc29266ab5eb29b864edca6c727",
-  "summary": "Purchases Decomposition Power BI report breaks down total purchase amount by item categories, vendors, fiscal periods, and document types to analyze spending patterns and optimize purchasing processes.",
+  "title": "Purchases Decomposition Power BI Report",
+  "blob": "e28bcbd28af096c4858dbb5214233f531d992d19",
+  "summary": "The Purchases Decomposition Power BI report breaks down total purchase amounts by item categories, vendors, fiscal periods, and document types to help purchasing teams analyze spending patterns and optimize purchasing processes.",
   "systems": [
     "purchasing",
     "reporting"
   ],
   "topics": [
+    "power bi reports",
     "purchasing analytics",
-    "power bi report",
-    "cost breakdown",
-    "spending patterns",
-    "supply chain"
+    "cost analysis",
+    "vendor analysis",
+    "purchase decomposition",
+    "kpis"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Purchases Decomposition"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Item Category"
+    },
+    {
+      "type": "table",
+      "name": "Salesperson/Purchaser"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    },
+    {
+      "type": "table",
+      "name": "Location"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Invoice Lines"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Credit Lines"
+    }
+  ],
   "features": [
-    "Purchase (LCY)",
-    "%GT Purchase (LCY)",
-    "%GT Purchase Quantity",
-    "cost analysis by vendor",
-    "category breakdown"
+    "purchase breakdown by item categories",
+    "vendor cost analysis",
+    "fiscal period analysis",
+    "document type breakdown",
+    "purchase quantity tracking",
+    "supplier cost comparison",
+    "purchase volume analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +70,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00256,
-      "pages_in_call": 8
+      "cost_usd": 0.0039,
+      "pages_in_call": 1
     }
   ]
 }
