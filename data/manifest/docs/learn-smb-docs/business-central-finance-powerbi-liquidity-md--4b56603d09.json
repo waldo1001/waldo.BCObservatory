@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Liquidity",
+  "title": "Liquidity Ratios Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-liquidity",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.518Z",
-      "blob": "c8c30e2e56ac6024936c464e64b86ae7c99cf463",
-      "words": 295,
+      "at": "2026-11-13T00:18:00.925Z",
+      "blob": "4b5eba96127f859740386e5de0f336c43f7eb5c3",
+      "words": 296,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:11.975Z",
+      "at": "2026-11-13T00:18:36.898Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002575
+      "objects": 1,
+      "cost_usd": 0.003707
     },
     "summarized": {
-      "at": "2026-10-06T19:26:12.231Z",
+      "at": "2026-11-13T00:18:36.900Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:12.232Z",
+      "at": "2026-11-13T00:18:36.900Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:12.233Z",
+      "at": "2026-11-13T00:18:36.901Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-powerbi-liquidity.md",
-    "description": "The Liquidity report shows key liquidity metrics used to analyze an organization's ability to meet current liabilities.",
-    "ms_date": "2024-10-31",
-    "ms_topic": "article",
+    "description": "Analyze current, quick, and cash ratios in Business Central with the Liquidity Power BI report to assess your ability to meet current liabilities.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "36988_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 295,
+    "ai_usage": "ai-assisted",
+    "words": 296,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3ceaccbe768ff8e477e3b6100c1730dd8de8c95c4b7ac4aee4d3289d65872632"
+  "output_hash": "789316c038462c232c24ba35c0474dbca01009042e5165cf667fb04c6956c0a7"
 }

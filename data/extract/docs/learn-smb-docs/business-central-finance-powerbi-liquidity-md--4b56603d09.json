@@ -1,29 +1,36 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-liquidity.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-liquidity",
-  "title": "Liquidity",
-  "blob": "c8c30e2e56ac6024936c464e64b86ae7c99cf463",
-  "summary": "Liquidity Power BI report evaluates short-term financial health using current ratio, quick ratio, and cash ratio to assess the ability to meet current liabilities.",
+  "title": "Liquidity Ratios Power BI Report",
+  "blob": "4b5eba96127f859740386e5de0f336c43f7eb5c3",
+  "summary": "The Liquidity Power BI report evaluates short-term financial health through Current Ratio, Quick Ratio, and Cash Ratio metrics to assess ability to meet current liabilities.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
-    "power bi",
     "liquidity",
-    "financial ratios",
-    "cash flow",
-    "current assets"
+    "power bi",
+    "financial analysis",
+    "kpis",
+    "ratios",
+    "cash flow"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Liquidity"
+    }
+  ],
   "features": [
     "Current Ratio",
     "Quick Ratio",
     "Cash Ratio",
     "Current Assets",
     "Current Liabilities",
-    "Inventory assessment",
-    "Liquid Assets analysis"
+    "Inventory",
+    "Purchase Prepayments",
+    "Liquid Assets"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002575,
-      "pages_in_call": 8
+      "cost_usd": 0.003707,
+      "pages_in_call": 1
     }
   ]
 }

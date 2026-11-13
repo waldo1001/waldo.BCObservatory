@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Inventory by Location (Power BI report)",
+  "title": "Inventory by Location Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-location",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.539Z",
-      "blob": "2e61549cd45c2b5584f2f42b1eac454c04eb2e7f",
-      "words": 218,
+      "at": "2026-11-13T00:19:02.561Z",
+      "blob": "767f1de486e6e4262bd84f5cf8baab0d63637034",
+      "words": 219,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:34.972Z",
+      "at": "2026-11-13T00:19:09.273Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00256
+      "objects": 3,
+      "cost_usd": 0.003273
     },
     "summarized": {
-      "at": "2026-10-06T19:26:34.978Z",
+      "at": "2026-11-13T00:19:09.274Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:34.979Z",
+      "at": "2026-11-13T00:19:09.277Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:34.979Z",
+      "at": "2026-11-13T00:19:09.278Z",
       "page": false
     }
   },
@@ -44,25 +44,25 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/inventory-powerbi-inventory-by-location.md",
-    "description": "The Inventory by Location outlines inventory levels across locations.",
-    "ms_date": "2024-10-28",
-    "ms_topic": "article",
+    "description": "Review inventory quantities across locations, items, and item categories to identify stock imbalances with the Inventory by Location Power BI report.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
-        "raw": "37023_Primary",
-        "id": 37023,
+        "raw": "37024_Primary",
+        "id": 37024,
         "kind": "Primary"
       }
     ],
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 218,
+    "ai_usage": "ai-assisted",
+    "words": 219,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "55a0ebe7022ca964369431c7cf4c0fee5c508a4d1940e52a42ea0afbf50aba00"
+  "output_hash": "5153735702aa787a2bc29f11a747b9a9de9fea923a3984701630847ef56e385e"
 }

@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-general-ledger-entries.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-general-ledger-entries",
-  "title": "General Ledger Entries",
-  "blob": "27dab34c8ad6db75a0a8f84e4d8bb2158dd33463",
-  "summary": "General Ledger Entries Power BI report provides detailed filtering and search capabilities for individual general ledger entries to support transaction tracking, reconciliation, and auditing.",
+  "title": "General Ledger Entries Power BI Report",
+  "blob": "7c8b0deba1fa3a4311e9a417d491404254338282",
+  "summary": "The General Ledger Entries Power BI report provides a detailed view of individual general ledger entries for reconciliation, auditing, and transaction tracking by finance managers and staff.",
   "systems": [
     "finance",
     "reporting"
@@ -11,17 +11,24 @@
   "topics": [
     "power bi",
     "general ledger",
+    "reporting",
     "reconciliation",
-    "audit",
-    "transaction tracking"
+    "financial analysis",
+    "auditing"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "General Ledger Entries"
+    }
+  ],
   "features": [
-    "Entry filtering",
-    "Transaction search",
-    "Reconciliation support",
-    "Audit access",
-    "Detailed entry information"
+    "general ledger entry filtering",
+    "transaction reconciliation",
+    "financial period analysis",
+    "entry detail access",
+    "discrepancy detection",
+    "audit support"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002575,
-      "pages_in_call": 8
+      "cost_usd": 0.003262,
+      "pages_in_call": 1
     }
   ]
 }

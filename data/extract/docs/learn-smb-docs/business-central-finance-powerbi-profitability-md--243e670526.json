@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-profitability.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-profitability",
-  "title": "Profitability",
-  "blob": "114324039fc4aabead0de8503f444750bfa7e030",
-  "summary": "Profitability Power BI report tracks gross and net profit metrics with margins to help executives monitor financial performance and identify profit drivers over time.",
+  "title": "Profitability Analysis Power BI Report",
+  "blob": "49cb9ae31605da35beadfa86f63155962c415a04",
+  "summary": "The Profitability Power BI report provides executives and decision-makers with key performance indicators for net profit, gross profit, and related margins to monitor financial performance over time.",
   "systems": [
     "finance",
     "reporting"
@@ -11,18 +11,37 @@
   "topics": [
     "power bi",
     "profitability",
-    "profit margins",
-    "financial performance",
-    "kpis"
+    "kpis",
+    "financial analysis",
+    "gross profit",
+    "net profit"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Profitability"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "G/L Accounts"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account Categories"
+    }
+  ],
   "features": [
-    "Gross Profit tracking",
-    "Gross Profit Margin",
-    "Net Profit analysis",
-    "Net Profit Margin",
-    "Cost of Goods Sold",
-    "Expense monitoring"
+    "Gross Profit KPI",
+    "Gross Profit Margin KPI",
+    "Net Profit KPI",
+    "Net Profit Margin KPI",
+    "Revenue KPI",
+    "Cost of Goods Sold KPI",
+    "Expense KPI"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +50,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002575,
-      "pages_in_call": 8
+      "cost_usd": 0.003701,
+      "pages_in_call": 1
     }
   ]
 }

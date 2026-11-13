@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-income-statement",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:11.973Z",
+      "at": "2026-11-13T00:17:48.238Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002575
+      "objects": 1,
+      "cost_usd": 0.00324
     },
     "summarized": {
-      "at": "2026-10-06T19:26:12.222Z",
+      "at": "2026-11-13T00:17:48.239Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:12.224Z",
+      "at": "2026-11-13T00:17:48.241Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:12.225Z",
+      "at": "2026-11-13T00:17:48.242Z",
       "page": false
     }
   },
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f8ea9b3a400fcfac08f17f740fb3a06092ca0ab0"
+  "output_hash": "60e47f2f61d54e824ad4498b392e49a728119fcf5fdc016adb361f0d2be60f0e"
 }

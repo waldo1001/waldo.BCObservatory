@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Bin Contents (Power BI report)",
+  "title": "Bin Contents Inventory Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.532Z",
-      "blob": "e44d10fa6edb3b5986f7af74c625b7a9601074ed",
-      "words": 304,
+      "at": "2026-11-13T00:18:52.416Z",
+      "blob": "05f360ddff6664627df1109882b0e7c2c33f4948",
+      "words": 305,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:11.977Z",
+      "at": "2026-11-13T00:19:09.385Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002575
+      "cost_usd": 0.003456
     },
     "summarized": {
-      "at": "2026-10-06T19:26:12.240Z",
+      "at": "2026-11-13T00:19:09.389Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:12.241Z",
+      "at": "2026-11-13T00:19:09.390Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:12.241Z",
+      "at": "2026-11-13T00:19:09.392Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/inventory-powerbi-bin-contents.md",
-    "description": "The Bin Contents report shows bin contents per location.",
-    "ms_date": "2024-10-28",
-    "ms_topic": "article",
+    "description": "Analyze warehouse quantities, available stock, picks, put-aways, and adjustments by bin with the Bin Contents Power BI report in Business Central.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37031_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 304,
+    "ai_usage": "ai-assisted",
+    "words": 305,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a409bfa48fe171c573cc14e63ff2c68071bd89d9d85d8fca934c2e9ca7330714"
+  "output_hash": "2cbf2203a36a8a534827104b14b9720dfc36ab2963b494bc43fa69f126fcff03"
 }

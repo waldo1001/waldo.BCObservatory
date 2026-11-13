@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13898",
+  "number": 13898,
+  "title": "[29.x][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Decimal item attributes now correctly handle entering 0 after clearing a value to blank, by excluding blank records from numeric lookups.",
+  "key_points": [
+    "Blank decimal attribute records were incorrectly matched when searching for value 0 due to default numeric values",
+    "Lookup logic now excludes blank attribute values when matching nonblank decimal values",
+    "Regression tests added to verify blank versus zero behavior and zero entry after clearing and reopening",
+    "Fixes inability to save decimal value 0 after clearing to blank on reopening the Item Attributes page"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00362,
+    "changes_in_call": 1
+  }
+}

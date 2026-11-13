@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-income-statement.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-income-statement",
-  "title": "Income Statement by Month",
-  "blob": "6a04f206e6cc659b88415bbaf04e554b95c9a3b8",
-  "summary": "Income Statement by Month Power BI report provides month-to-month profit and loss analysis organized hierarchically with drill-through capabilities to support profitability trend analysis and expense management.",
+  "title": "Income Statement by Month Power BI Report",
+  "blob": "f8ea9b3a400fcfac08f17f740fb3a06092ca0ab0",
+  "summary": "The Income Statement by Month Power BI report provides a month-to-month view of net changes across income statement accounts for financial analysis and performance tracking by senior management and finance administrators.",
   "systems": [
     "finance",
     "reporting"
@@ -11,17 +11,23 @@
   "topics": [
     "power bi",
     "income statement",
-    "profitability",
-    "expense analysis",
-    "monthly trends"
+    "profitability analysis",
+    "financial reporting",
+    "kpis",
+    "department analysis"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Income Statement by Month"
+    }
+  ],
   "features": [
-    "Monthly profitability analysis",
-    "Hierarchical navigation",
-    "Drill-through to ledger entries",
-    "Operating expenses tracking",
-    "Department dimension filtering"
+    "month-to-month net changes",
+    "income statement account hierarchy",
+    "drill-through to ledger entries",
+    "department dimension filtering",
+    "net change KPI"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002575,
-      "pages_in_call": 8
+      "cost_usd": 0.00324,
+      "pages_in_call": 1
     }
   ]
 }

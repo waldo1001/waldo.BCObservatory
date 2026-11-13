@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Liabilities",
+  "title": "Liabilities Analysis Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-liabilities",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.513Z",
-      "blob": "604fb49f2aa631e61b80ee940ea44e223f16bcf2",
-      "words": 327,
+      "at": "2026-11-13T00:18:00.143Z",
+      "blob": "e4bb70cd57e0615b63186c77b7743e27387e2341",
+      "words": 328,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:11.974Z",
+      "at": "2026-11-13T00:18:31.093Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002575
+      "objects": 3,
+      "cost_usd": 0.004275
     },
     "summarized": {
-      "at": "2026-10-06T19:26:12.227Z",
+      "at": "2026-11-13T00:18:31.095Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:12.228Z",
+      "at": "2026-11-13T00:18:31.095Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:12.229Z",
+      "at": "2026-11-13T00:18:31.096Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-powerbi-liabilities.md",
     "description": "The Liabilities report provides an overview of all liabilities broken down by current liabilities, payroll liabilities, and long-term liabilities.",
-    "ms_date": "2024-10-31",
-    "ms_topic": "article",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "36990_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 327,
+    "ai_usage": "ai-assisted",
+    "words": 328,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fc7b756c9455a75ada0c82ea0fde82d067cfdc6b972a153d66799ff98660fbc6"
+  "output_hash": "4f1b079480cc8993b50939c26cc0e07256944f0a343bcd46c2777d91fd3928ed"
 }

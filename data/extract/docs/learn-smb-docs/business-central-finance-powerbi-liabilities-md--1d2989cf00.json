@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-liabilities.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-liabilities",
-  "title": "Liabilities",
-  "blob": "604fb49f2aa631e61b80ee940ea44e223f16bcf2",
-  "summary": "Liabilities Power BI report displays total liabilities, current and long-term obligations, and debt ratios to help executives assess financial position and leverage before strategic initiatives.",
+  "title": "Liabilities Analysis Power BI Report",
+  "blob": "e4bb70cd57e0615b63186c77b7743e27387e2341",
+  "summary": "The Liabilities Power BI report provides an overview of a company's financial obligations, including total liabilities, current liabilities, payroll liabilities, long-term liabilities, and key ratios like debt ratio and debt-to-equity ratio. Executives use it to evaluate financial position and assess leverage before making investment decisions.",
   "systems": [
     "finance",
     "reporting"
@@ -11,19 +11,34 @@
   "topics": [
     "power bi",
     "liabilities",
-    "financial obligations",
-    "debt ratio",
+    "financial analysis",
+    "kpis",
+    "debt management",
     "financial position"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "G/L Accounts"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account Categories"
+    }
+  ],
   "features": [
-    "Total liabilities",
-    "Current liabilities",
-    "Payroll liabilities",
-    "Long-term liabilities",
-    "Debt ratio",
-    "Debt-to-equity ratio",
-    "Drill-through analysis"
+    "Total Liabilities",
+    "Current Liabilities",
+    "Payroll Liabilities",
+    "Long-term Liabilities",
+    "Debt Ratio",
+    "Debt-to-Equity Ratio",
+    "Assets",
+    "Balance at Date"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002575,
-      "pages_in_call": 8
+      "cost_usd": 0.004275,
+      "pages_in_call": 1
     }
   ]
 }

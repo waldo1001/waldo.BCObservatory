@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13898,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13898",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-12T10:13:16Z",
+  "merge_commit_sha": "be478a388b51cda8503c067ff2ae2b8c4a123dcb",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.x][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank",
+  "body_hash": "e487bf1eb3bf9fddc122c89b73afd55c30d95580a472ae40ce3ce0324b47149e",
+  "fixes_issues": [],
+  "work_items": [
+    657351
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Item/Attribute/ItemAttributeValueSelection.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMItemAttributes.Codeunit.al",
+      "status": "modified",
+      "additions": 76,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 77,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "a1f2b2a64d46f4c2f3426f228364792e2f764431",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Item/Attribute/ItemAttributeValueSelection.Table.al",
+        "status": "modified",
+        "key": "table/7504",
+        "type": "table",
+        "id": 7504,
+        "name": "Item Attribute Value Selection",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/7504"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/inventory-powerbi-app.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
-  "title": "Inventory Power BI App Page (Power BI report)",
-  "blob": "5b1ec25f9a56bdfd619b70240b2adc957183a597",
-  "summary": "Inventory Power BI app provides leadership, management, and warehouse staff with data-driven insights on inventory levels, stock movement, bin contents, and demand fulfillment.",
+  "title": "Inventory Power BI App Reports and Analytics",
+  "blob": "626fb842803c94014e60ddf55f1ea9a6d8d68983",
+  "summary": "The Power BI Inventory app provides reports designed for leadership, managers, and warehouse staff to analyze inventory data and make informed decisions about stock levels, purchasing, and production planning.",
   "systems": [
     "inventory",
     "reporting"
@@ -11,18 +11,26 @@
   "topics": [
     "power bi",
     "inventory analytics",
+    "reporting",
+    "inventory management",
     "warehouse management",
     "stock levels",
-    "reporting"
+    "demand planning"
   ],
   "objects": [],
   "features": [
-    "inventory overview",
-    "inventory by location",
-    "bin contents",
-    "gross requirement",
-    "scheduled receipt",
-    "abc analysis"
+    "Inventory Overview",
+    "Inventory by Item",
+    "Inventory by Location",
+    "Purchase and Sales Quantity",
+    "Item Availability",
+    "Gross Requirement",
+    "Scheduled Receipt",
+    "Inventory by Lot",
+    "Inventory by Serial No.",
+    "Bin Contents",
+    "Bin Contents by Item Tracking",
+    "Inventory Forecasting"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004719,
-      "pages_in_call": 8
+      "cost_usd": 0.004408,
+      "pages_in_call": 1
     }
   ]
 }

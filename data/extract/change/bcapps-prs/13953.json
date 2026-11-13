@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13953",
+  "number": 13953,
+  "title": "Add key on Email Message Attachment Data to speed up email deletion (backport to releases/29.x)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "A database key was added to the Data field of the Email Message Attachment table to improve performance when deleting emails, avoiding full table scans on large tenants.",
+  "key_points": [
+    "Added index on Email Message Attachment.Data field",
+    "Speeds up email deletion operations by eliminating full table scans",
+    "Particularly benefits agents like Payables Agent during storage cleanup",
+    "Same indexing pattern applied to Document Attachment Media field",
+    "Backport to BC29 of existing BC30 change"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003514,
+    "changes_in_call": 1
+  }
+}

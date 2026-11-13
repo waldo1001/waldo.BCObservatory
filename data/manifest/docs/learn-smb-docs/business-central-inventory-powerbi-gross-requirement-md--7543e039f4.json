@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Gross Requirement (Power BI report)",
+  "title": "Gross Requirement Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-gross-requirement",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.879Z",
-      "blob": "837dd86cfd3628de3a016119d570c0bc2cb69e9d",
-      "words": 293,
+      "at": "2026-11-13T00:18:58.911Z",
+      "blob": "116d7985820e8f4eb0831e2356386bd6c1e44a50",
+      "words": 308,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:51:45.718Z",
+      "at": "2026-11-13T00:19:09.261Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002727
+      "objects": 11,
+      "cost_usd": 0.004394
     },
     "summarized": {
-      "at": "2026-10-06T18:51:45.726Z",
+      "at": "2026-11-13T00:19:09.263Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:51:47.588Z",
+      "at": "2026-11-13T00:19:09.264Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:51:47.589Z",
+      "at": "2026-11-13T00:19:09.265Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/inventory-powerbi-gross-requirement.md",
-    "description": "The Gross Requirement report looks at all outbound transactions within the system to identify the quantity required per item.",
-    "ms_date": "2024-10-28",
+    "description": "Compare outstanding inventory demand with projected available balances by item and document type using the Gross Requirement Power BI report.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 293,
+    "ai_usage": "ai-assisted",
+    "words": 308,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "70f1b7d6818a1cd15030aaacf88299caa815062978637c2e7fb100a21830d254"
+  "output_hash": "15fa55202e84c8c1e331c26387def799dd8d8cedc80673e6064a07c5349b93ca"
 }
