@@ -6,7 +6,7 @@
   "title": "knowledge(testing): license-entitlement failures on posted tables in a SaaS test run are environmental",
   "url": "https://github.com/microsoft/BCQuality/pull/141",
   "published_at": "2026-11-12T12:40:33Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
@@ -18,6 +18,23 @@
       "al": 4,
       "objects": 0,
       "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-11-13T00:16:07.396Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003895
+    },
+    "linked": {
+      "at": "2026-11-13T00:16:07.398Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-13T00:16:08.338Z",
+      "path": "content/changes/bcquality/141.md"
     }
   },
   "input_hash": "416f1308b6a2b507d0ac29e33b53d321b5d0a170:c1",
@@ -37,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7f2ccc1fbd139f73d3bf4212f1f6d4ae9250b070db3b44a27cf1af32f3156302"
+  "output_hash": "a359fab88d3fff76df922a92a4c93ae8c5d27c8f2529db3f25648b95612e6b23"
 }

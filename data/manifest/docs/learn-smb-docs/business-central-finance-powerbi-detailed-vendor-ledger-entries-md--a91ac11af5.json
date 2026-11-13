@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Detailed Vendor Ledger Entries",
+  "title": "Detailed Vendor Ledger Entries Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-detailed-vendor-ledger-entries",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.492Z",
-      "blob": "fd29eda2ad467dc67c0b09cc292b041b345a64ce",
-      "words": 223,
+      "at": "2026-11-13T00:16:41.742Z",
+      "blob": "e4790611c6e10ab3a4e42dd83a7e84ef20cbe12a",
+      "words": 224,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:14.990Z",
+      "at": "2026-11-13T00:16:49.538Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.00367
+      "cost_usd": 0.003551
     },
     "summarized": {
-      "at": "2026-10-06T19:26:15.012Z",
+      "at": "2026-11-13T00:16:49.539Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:15.013Z",
+      "at": "2026-11-13T00:16:49.540Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:15.014Z",
+      "at": "2026-11-13T00:16:49.542Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-powerbi-detailed-vendor-ledger-entries.md",
-    "description": "The Detailed Vendor Ledger Entries report provides a detailed view of individual transactions from the Detailed Vendor Ledger, enhanced with information from Vendor Ledger entries.",
-    "ms_date": "2024-10-31",
-    "ms_topic": "article",
+    "description": "Review detailed vendor transactions and related vendor ledger information in Business Central with the Detailed Vendor Ledger Entries Power BI report.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "36996_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 223,
+    "ai_usage": "ai-assisted",
+    "words": 224,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d0f6dcc11e3ab3ad9ff1097d3a5fc3a5aff5e3cc1c6993dbf9b933df458bffbc"
+  "output_hash": "136af052fa3ec8469e6ab76781926d05180945f9c13762f2de35b13cd9ea9fd6"
 }

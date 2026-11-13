@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Detailed Customer Ledger Entries (Power BI report)",
+  "title": "Detailed Customer Ledger Entries Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-detailed-customer-ledger-entries",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.488Z",
-      "blob": "093bd92aab564dabf51353595502eb1c12da6860",
-      "words": 235,
+      "at": "2026-11-13T00:16:28.787Z",
+      "blob": "458e40827e5760e2c64890d5aba2284a53454f84",
+      "words": 236,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:14.989Z",
+      "at": "2026-11-13T00:16:47.704Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.00367
+      "objects": 3,
+      "cost_usd": 0.003654
     },
     "summarized": {
-      "at": "2026-10-06T19:26:15.009Z",
+      "at": "2026-11-13T00:16:47.706Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:15.010Z",
+      "at": "2026-11-13T00:16:47.707Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:15.011Z",
+      "at": "2026-11-13T00:16:47.708Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-powerbi-detailed-customer-ledger-entries.md",
-    "description": "The Detailed Customer Ledger Entries report provides a detailed view of individual transactions from the Detailed Customer Ledger, enhanced with information from customer ledger entries.",
-    "ms_date": "2024-10-31",
-    "ms_topic": "article",
+    "description": "Review detailed customer transactions and related customer ledger information in Business Central with the Detailed Customer Ledger Entries Power BI report.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "36997_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 235,
+    "ai_usage": "ai-assisted",
+    "words": 236,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b08d40ca5f3108ba86a23cc805bfbb4141309bbb03c2508a01547889b2b2e475"
+  "output_hash": "c41f253d89858a83c3a5b16145b3b43bc09d461d028a0a461505c288840897f2"
 }

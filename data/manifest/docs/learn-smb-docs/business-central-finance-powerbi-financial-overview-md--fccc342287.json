@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Financial Overview",
+  "title": "Financial Overview Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-financial-overview",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.501Z",
-      "blob": "42dd64bff7433800f3a419dba40a58ced2462f01",
-      "words": 237,
+      "at": "2026-11-13T00:16:53.570Z",
+      "blob": "1f64c470b95018540b519064f31f095c481eaf2f",
+      "words": 257,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:11.972Z",
+      "at": "2026-11-13T00:17:18.825Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002575
+      "objects": 9,
+      "cost_usd": 0.004068
     },
     "summarized": {
-      "at": "2026-10-06T19:26:12.210Z",
+      "at": "2026-11-13T00:17:18.827Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:12.211Z",
+      "at": "2026-11-13T00:17:18.829Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:12.212Z",
+      "at": "2026-11-13T00:17:18.830Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-powerbi-financial-overview.md",
-    "description": "The Financial Overview report gives a clear picture of your organization's finance activities.",
-    "ms_date": "2024-10-31",
+    "description": "Monitor revenue, net profit, assets, and financial performance indicators in Business Central with the Financial Overview Power BI report.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 237,
+    "ai_usage": "ai-assisted",
+    "words": 257,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d84be34a2483b0c75c313b6a981c427ceeac70711c03ca55c66da8fb1f992ff0"
+  "output_hash": "75d4eb33a846533c60f0acb40e469430cc1c3ec9cdaf9f1515e3678e6bb8744f"
 }

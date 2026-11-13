@@ -6,7 +6,7 @@
   "title": "[Main]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version",
   "url": "https://github.com/microsoft/BCApps/pull/13414",
   "published_at": "2026-11-12T11:43:00Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
@@ -18,6 +18,23 @@
       "al": 2,
       "objects": 2,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-13T00:15:58.039Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003708
+    },
+    "linked": {
+      "at": "2026-11-13T00:15:58.256Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-13T00:15:58.263Z",
+      "path": "content/changes/bcapps/13414.md"
     }
   },
   "input_hash": "9d4babe20d2caeb8b7a54401a44c03ab7ad8fd24:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6f1f6f824b464b988920842e6fbaf818c80be87c45e77b0648848c46b68b3510"
+  "output_hash": "75ba1e61f255d36df7969375a10fb92a9119fea81a0b22f0fe5f7f1d3340e54a"
 }

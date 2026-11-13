@@ -1,20 +1,25 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-balance-sheet.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-balance-sheet",
-  "title": "Balance Sheet by Month",
-  "blob": "a2ca63bc6780ed46de4316885302e5cf45d36f3a",
-  "summary": "Balance Sheet by Month Power BI report provides month-to-month view of balance sheet accounts with drill-through to underlying ledger entries.",
+  "title": "Balance Sheet by Month Power BI Report",
+  "blob": "6ca3589c342f733a0f48284c630a01890d05f0b0",
+  "summary": "The Balance Sheet by Month Power BI report provides a month-to-month view of balance sheet accounts organized in a hierarchy with drill-through capability to underlying ledger entries, helping executives assess financial health, liquidity, and capital structure.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
-    "balance sheet",
     "power bi",
-    "financial statements",
-    "monthly analysis"
+    "balance sheet",
+    "financial reporting",
+    "kpis",
+    "drill-through analysis"
   ],
   "objects": [
+    {
+      "type": "report",
+      "name": "Balance Sheet by Month"
+    },
     {
       "type": "table",
       "name": "G/L Entry"
@@ -25,10 +30,12 @@
     }
   ],
   "features": [
-    "Balance Sheet report",
-    "month-to-month view",
-    "drill-through",
-    "hierarchical navigation"
+    "month-to-month balance view",
+    "hierarchical organization",
+    "drill-through to ledger entries",
+    "balance at date KPI",
+    "liquidity analysis",
+    "debt to equity analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00367,
-      "pages_in_call": 8
+      "cost_usd": 0.003626,
+      "pages_in_call": 1
     }
   ]
 }

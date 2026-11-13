@@ -1,28 +1,45 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-ebitda.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-ebitda",
-  "title": "EBITDA",
-  "blob": "c10bf8c36cc326b7f97931d1a7b2ddc59434aef3",
-  "summary": "EBITDA Power BI report displays earnings before interest, taxes, depreciation, and amortization metrics to help executives evaluate cash flow potential and compare operational performance with industry peers.",
+  "title": "EBITDA and EBIT Power BI Report",
+  "blob": "a52d0d06393a325837d1b51026f5176194a72336",
+  "summary": "The EBITDA Power BI report provides executives and decision-makers with overview of company performance through EBIT and EBITDA metrics to evaluate operational efficiency, cash flow potential, and identify trends for cost management and pricing strategies.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
     "power bi",
-    "financial analytics",
     "ebitda",
-    "cash flow",
-    "kpis"
+    "ebit",
+    "financial analytics",
+    "kpis",
+    "operational performance",
+    "cash flow"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "G/L Accounts"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account Categories"
+    }
+  ],
   "features": [
-    "Operating Profit (EBIT)",
+    "EBIT metric",
     "EBITDA metric",
-    "Revenue analysis",
-    "Interest and FX gains",
-    "Expense tracking",
-    "Tax and depreciation amortization"
+    "revenue tracking",
+    "expense tracking",
+    "depreciation and amortization",
+    "interest tracking",
+    "FX gains and losses",
+    "tax expense"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002575,
-      "pages_in_call": 8
+      "cost_usd": 0.003848,
+      "pages_in_call": 1
     }
   ]
 }

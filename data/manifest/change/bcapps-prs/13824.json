@@ -6,10 +6,35 @@
   "title": "Implement namespace normalization for Fabric Data and Logging in setup pages and platform management",
   "url": "https://github.com/microsoft/BCApps/pull/13824",
   "published_at": "2026-11-12T11:22:51Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
+    },
+    "fetched": {
+      "at": "2026-11-13T00:17:16.871Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-13T00:17:31.496Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003976
+    },
+    "linked": {
+      "at": "2026-11-13T00:17:37.352Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-13T00:17:37.361Z",
+      "path": "content/changes/bcapps/13824.md"
     }
   },
   "input_hash": "9adbadedacacd7de4f417b326fc13ceabadaa1b3:c1",
@@ -32,5 +57,8 @@
     ],
     "community_contribution": true,
     "title_key": "implement namespace normalization for fabric data and logging in setup pages and platform management"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f55a5d67c6700a9f8b4964487515a3807d2ccfe25e45cc8f849d229f3283ce2d"
 }

@@ -1,19 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-detailed-vendor-ledger-entries.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-detailed-vendor-ledger-entries",
-  "title": "Detailed Vendor Ledger Entries",
-  "blob": "fd29eda2ad467dc67c0b09cc292b041b345a64ce",
-  "summary": "Detailed Vendor Ledger Entries Power BI report provides view of individual vendor transactions with detailed entry information for reconciliation and audits.",
+  "title": "Detailed Vendor Ledger Entries Power BI Report",
+  "blob": "e4790611c6e10ab3a4e42dd83a7e84ef20cbe12a",
+  "summary": "The Detailed Vendor Ledger Entries Power BI report provides a view of individual vendor transactions from the Detailed Vendor Ledger combined with Vendor Ledger information for tracking, reconciliation, and auditing during month-end closing.",
   "systems": [
-    "finance",
     "purchasing",
-    "reporting"
+    "reporting",
+    "finance"
   ],
   "topics": [
-    "vendor ledger",
+    "vendor transactions",
+    "accounts payable",
     "power bi",
-    "transaction tracking",
-    "reconciliation"
+    "reconciliation",
+    "auditing",
+    "month-end closing"
   ],
   "objects": [
     {
@@ -26,10 +28,10 @@
     }
   ],
   "features": [
-    "Detailed Vendor Ledger Entries report",
-    "transaction tracking",
-    "month-end closing",
-    "reconciliation support"
+    "Vendor transaction tracking",
+    "Month-end closing support",
+    "Accounts payable reconciliation",
+    "Audit facilitation"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00367,
-      "pages_in_call": 8
+      "cost_usd": 0.003551,
+      "pages_in_call": 1
     }
   ]
 }

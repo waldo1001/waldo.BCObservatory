@@ -1,0 +1,119 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13824,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13824",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-12T11:22:51Z",
+  "merge_commit_sha": "9adbadedacacd7de4f417b326fc13ceabadaa1b3",
+  "author": "Bertverbeek4PS",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": true,
+  "title": "Implement namespace normalization for Fabric Data and Logging in setup pages and platform management",
+  "body_hash": "3ac0f9e624641c7d83c5da1569b6b19e615cd878ba6e56d50a36bd33ecce0001",
+  "fixes_issues": [
+    13823
+  ],
+  "work_items": [
+    658802
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/api/FabricAPISetup.Page.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformSetup.Page.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/test/src/codeunit/TestFABPlatform.Codeunit.al",
+      "status": "modified",
+      "additions": 68,
+      "deletions": 8,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 111,
+    "deletions": 12,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/api/FabricAPISetup.Page.al",
+        "status": "modified",
+        "key": "page/48507",
+        "type": "page",
+        "id": 48507,
+        "name": "Fabric API Setup",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48507"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/48520",
+        "type": "codeunit",
+        "id": 48520,
+        "name": "Fabric Platform Mgt",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48520"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformSetup.Page.al",
+        "status": "modified",
+        "key": "page/48511",
+        "type": "page",
+        "id": 48511,
+        "name": "Fabric Platform Setup",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48511"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "MicrosoftFabricMirroring"
+  ],
+  "issues": [
+    {
+      "number": 13823,
+      "title": "[Bug]: Lowercase schema names in Microsoft Fabric",
+      "state": "closed"
+    }
+  ]
+}

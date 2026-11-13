@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/13414",
+  "number": 13414,
+  "title": "[Main]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "purchasing"
+  ],
+  "summary": "Payment discount calculations now correctly apply to VAT amounts in the Spanish version when prices include VAT, fixing an issue where discounts were not reflected in sales and purchase totals.",
+  "key_points": [
+    "Fixes payment discount calculations when Prices Including VAT setting is enabled",
+    "Corrects VAT base recalculation by subtracting payment discount amount",
+    "Issue only affected Spanish localization with specific VAT settings (zero base discount and EC amount)",
+    "Adds test coverage for payment discount scenarios with VAT-inclusive pricing",
+    "Does not affect VAT-exclusive calculations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": "Payment discounts are not correctly reflected in sales and purchase totals and statistics when the VAT base discount percentage and EC amount are zero.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003708,
+    "changes_in_call": 1
+  }
+}

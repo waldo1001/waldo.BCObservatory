@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13953,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13953",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-12T11:22:07Z",
+  "merge_commit_sha": "cb881cc16e09fc2625984442ab1ee942339c50b1",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Add key on Email Message Attachment Data to speed up email deletion (backport to releases/29.x)",
+  "body_hash": "aa29f3ca7511eade7b0afb5b43e80be9f8780dfc14d6a02dc3ca70340ee7317d",
+  "fixes_issues": [],
+  "work_items": [
+    658828
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Email/src/Message/EmailMessageAttachment.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "a1f2b2a64d46f4c2f3426f228364792e2f764431",
+    "objects": [
+      {
+        "path": "src/System Application/App/Email/src/Message/EmailMessageAttachment.Table.al",
+        "status": "modified",
+        "key": "table/8904",
+        "type": "table",
+        "id": 8904,
+        "name": "Email Message Attachment",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "table/8904"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

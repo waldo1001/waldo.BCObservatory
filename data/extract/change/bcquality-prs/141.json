@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/141",
+  "number": 141,
+  "title": "knowledge(testing): license-entitlement failures on posted tables in a SaaS test run are environmental",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "A testing knowledge article explains how to triage and fix license-entitlement failures on posted tables in SaaS test runs, distinguishing them from permission regressions and recommending data production through posting APIs.",
+  "key_points": [
+    "Identifies license-entitlement failures as environmental, not permission or code issues",
+    "Documents that TestPermissions=Disabled and SUPER permission sets cannot lift license checks",
+    "Recommends producing posted data via test library posting codeunits instead of direct inserts",
+    "Provides good and bad code samples showing the distinction",
+    "Mirrors the app-side security knowledge about not granting rights beyond entitlements"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003895,
+    "changes_in_call": 1
+  }
+}

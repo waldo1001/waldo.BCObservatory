@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13824",
+  "number": 13824,
+  "title": "Implement namespace normalization for Fabric Data and Logging in setup pages and platform management",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fabric table and schema names are now normalized to lowercase in setup pages to ensure consistent handling across case-sensitive file systems and data platforms. New setup records use lowercase defaults (businesscentral and businesscentral_log) while existing values remain unchanged.",
+  "key_points": [
+    "Namespace fields normalize user input to lowercase when saved through the UI or API",
+    "New setup records automatically use lowercase defaults to avoid casing mismatches in Fabric landing zones",
+    "Existing stored namespace values are not migrated, preventing disruption to already-exported tables and models",
+    "Added comprehensive tests validating lowercase normalization behavior",
+    "Direct AL writes bypassing page validation may still store uppercase values"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "quote": "Using lowercase consistently avoids mismatches when data is accessed through both case-insensitive T-SQL and potentially case-sensitive Spark.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003976,
+    "changes_in_call": 1
+  }
+}

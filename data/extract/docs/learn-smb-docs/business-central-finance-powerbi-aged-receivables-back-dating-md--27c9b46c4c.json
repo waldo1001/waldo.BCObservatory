@@ -1,41 +1,29 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-aged-receivables-back-dating.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-aged-receivables-back-dating",
-  "title": "Aged Receivables (Back Dating)",
-  "blob": "22993cb421dbbcc368daadbfab23edde58127785",
-  "summary": "Aged Receivables (Back Dating) Power BI report analyzes outstanding customer balances grouped by customizable aging periods and payment terms to prioritize collection efforts.",
+  "title": "Aged Receivables (Back Dating) Power BI Report",
+  "blob": "4fe4de300839445c4095952e9f620efb7b8b5bf7",
+  "summary": "The Aged Receivables (Back Dating) Power BI report analyzes outstanding customer balances by customizable aging periods, helping finance administrators prioritize collection efforts and manage cash flow.",
   "systems": [
     "finance",
-    "sales",
-    "reporting"
+    "sales"
   ],
   "topics": [
-    "aged receivables",
     "power bi",
-    "customer analysis",
+    "reporting",
+    "aged receivables",
     "cash flow",
-    "payment terms"
+    "collections",
+    "accounts receivable"
   ],
-  "objects": [
-    {
-      "type": "table",
-      "name": "Customer"
-    },
-    {
-      "type": "table",
-      "name": "Customer Ledger Entry"
-    },
-    {
-      "type": "table",
-      "name": "Detailed Customer Ledger Entry"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Aged Receivables report",
-    "customizable aging periods",
-    "back dating",
-    "payment terms analysis",
-    "KPIs"
+    "aging periods by posting date/due date/document date",
+    "payment terms categorization",
+    "aging buckets",
+    "balance KPI",
+    "current receivables KPI",
+    "bucket KPIs"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00367,
-      "pages_in_call": 8
+      "cost_usd": 0.003352,
+      "pages_in_call": 1
     }
   ]
 }

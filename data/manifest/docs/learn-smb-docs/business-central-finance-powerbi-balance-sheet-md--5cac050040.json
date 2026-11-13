@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Balance Sheet by Month",
+  "title": "Balance Sheet by Month Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-balance-sheet",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.480Z",
-      "blob": "a2ca63bc6780ed46de4316885302e5cf45d36f3a",
-      "words": 224,
+      "at": "2026-11-13T00:16:15.217Z",
+      "blob": "6ca3589c342f733a0f48284c630a01890d05f0b0",
+      "words": 225,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:14.987Z",
+      "at": "2026-11-13T00:16:39.608Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.00367
+      "objects": 3,
+      "cost_usd": 0.003626
     },
     "summarized": {
-      "at": "2026-10-06T19:26:15.003Z",
+      "at": "2026-11-13T00:16:39.610Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:15.004Z",
+      "at": "2026-11-13T00:16:39.611Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:15.005Z",
+      "at": "2026-11-13T00:16:39.612Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-powerbi-balance-sheet.md",
-    "description": "The Balance Sheet by Month report provides a month-to-month view of the balance at date for all balance sheet accounts.",
-    "ms_date": "2024-10-31",
-    "ms_topic": "article",
+    "description": "Analyze monthly balances for balance sheet accounts in Business Central with the Power BI report, and explore the underlying general ledger entries.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "36986_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 224,
+    "ai_usage": "ai-assisted",
+    "words": 225,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d64e336191d13ad58da6917e381b90cace005129757886a7845a9a50f3eba49f"
+  "output_hash": "117c6edf4b3bc94cfc25f9cde4cd992c0cbeb22f691278b83e3043a767af8622"
 }
