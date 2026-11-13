@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13926",
+  "number": 13926,
+  "title": "Bug 648938: Transfer Routes matrix does not indicate configured direct routes",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The Transfer Routes matrix now displays 'Direct' for configured direct-transfer routes without in-transit locations, instead of showing ellipsis that made them indistinguishable from undefined routes.",
+  "key_points": [
+    "Direct-transfer routes in the In-Transit Code view display 'Direct' when configured without an in-transit location",
+    "Empty off-diagonal cells no longer obscure the presence of a configured direct route",
+    "Non-direct routes, undefined routes, diagonal cells, and shipping-agent views remain unchanged",
+    "Three new test procedures verify direct route display, precedence, and compatibility",
+    "Existing matrix baselines for in-transit code and shipping views still pass"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "A configured off-diagonal direct route should display Direct, including when an in-transit code is also populated.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003842,
+    "changes_in_call": 1
+  }
+}

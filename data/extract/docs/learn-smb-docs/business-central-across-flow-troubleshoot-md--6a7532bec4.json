@@ -1,25 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-flow-troubleshoot.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-flow-troubleshoot",
-  "title": "Troubleshoot your automated workflows",
-  "blob": "d514301e03e906af5a7f4d5c370f9fb1b1be26d8",
-  "summary": "Troubleshoot Power Automate automated workflows in Business Central, addressing issues like flow not triggering on all records, response size limits, and missing entity errors. Provides solutions and required web service publishing configuration.",
+  "title": "Troubleshoot Business Central Power Automate Workflows",
+  "blob": "4f6fe05f5b9a67382f6c2b7bccdff6eb1ef783c1",
+  "summary": "Troubleshooting guide for Power Automate workflows connected to Business Central, covering flow execution failures, response size limits, and missing web service configurations.",
   "systems": [
     "integration",
-    "development",
     "administration"
   ],
   "topics": [
     "power automate",
     "workflows",
     "troubleshooting",
-    "flow errors",
-    "web services"
+    "web services",
+    "webhooks",
+    "connectors",
+    "errors"
   ],
   "objects": [
     {
       "type": "codeunit",
-      "name": "WorkflowWebhookSubscription"
+      "name": "Workflow Webhook Subscription"
     },
     {
       "type": "page",
@@ -60,18 +61,16 @@
     {
       "type": "page",
       "name": "workflowWebhookSubscriptions"
-    },
-    {
-      "type": "page",
-      "name": "Web Services"
     }
   ],
   "features": [
-    "power automate integration",
-    "workflow automation",
-    "approval workflows",
+    "Power Automate connector",
     "webhook notifications",
-    "web service publishing"
+    "collection notifications",
+    "approval triggers",
+    "web service publishing",
+    "response size validation",
+    "flow execution"
   ],
   "versions": [],
   "parts": 1,
@@ -80,8 +79,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003554,
-      "pages_in_call": 8
+      "cost_usd": 0.005037,
+      "pages_in_call": 1
     }
   ]
 }

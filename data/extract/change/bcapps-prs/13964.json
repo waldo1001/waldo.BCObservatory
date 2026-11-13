@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/13964",
+  "number": 13964,
+  "title": "Adjust relevance score for new embedding model",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory",
+    "sales"
+  ],
+  "summary": "Relevance score thresholds for item search have been adjusted to work with a new embedding model that returns different score ranges, making more relevant items appear in search results with appropriate confidence levels.",
+  "key_points": [
+    "Minimum context-aware ranking score lowered from 0.70 to 0.25 in Sales Lines Suggestions",
+    "Confidence thresholds (High/Medium/Low) significantly reduced in both Sales Lines Suggestions and Create Product Information apps",
+    "Comparison operators changed from greater-than to greater-than-or-equal for consistency",
+    "Changes optimize results for new embedding model while maintaining confidence categorization",
+    "No API, schema or permission changes; behavior adapts to new model's scoring distribution"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004187,
+    "changes_in_call": 1
+  }
+}

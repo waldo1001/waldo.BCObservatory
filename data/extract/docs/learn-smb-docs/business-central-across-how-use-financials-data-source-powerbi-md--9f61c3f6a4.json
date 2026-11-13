@@ -1,29 +1,34 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-how-use-financials-data-source-powerbi.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi",
-  "title": "Building reports in Power BI Desktop to display Business Central data",
-  "blob": "c639ea5f7f31e4644ec61460c776cb45e1062caa",
-  "summary": "Building Power BI Desktop reports for Business Central data involves connecting to APIs and web services, configuring advanced query options, and publishing reports for organizational sharing and visualization.",
+  "title": "Build Power BI Reports with Business Central Data",
+  "blob": "785a4224853bb50242607f9f4e7288295b2c515a",
+  "summary": "This guide explains how to use Business Central as a data source in Power BI Desktop to create and publish reports, including connecting via APIs or web services, customizing Power Query code, and troubleshooting common connection issues.",
   "systems": [
     "reporting",
-    "integration"
+    "integration",
+    "administration"
   ],
   "topics": [
     "power bi",
-    "reports",
+    "data source",
+    "reporting",
+    "api",
+    "power query",
     "data visualization",
-    "apis",
-    "data integration"
+    "troubleshooting",
+    "business intelligence"
   ],
   "objects": [],
   "features": [
     "Power BI Desktop connector",
-    "API integration",
+    "API data sources",
     "OData web services",
-    "custom Power Query functions",
-    "cross-company reporting",
-    "read-only replica",
-    "advanced options"
+    "Power Query customization",
+    "Read-only replica configuration",
+    "Cross-company reporting",
+    "Advanced language and timeout settings",
+    "Report theme import"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006845,
-      "pages_in_call": 7
+      "cost_usd": 0.016077,
+      "pages_in_call": 1
     }
   ]
 }

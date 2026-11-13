@@ -6,7 +6,7 @@
   "title": "Disable failing test CreatePaymentForVendorLedgerEntriesFilteredByRemainingAmountInSpanish",
   "url": "https://github.com/microsoft/BCApps/pull/13993",
   "published_at": "2026-11-12T13:42:48Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "disable failing test createpaymentforvendorledgerentriesfilteredbyremainingamountinspanish"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-13T00:15:08.808Z",
+  "retry_after": null
 }

@@ -1,23 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-powerbi-business-central-apps-multi-language.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-business-central-apps-multi-language",
-  "title": "Multi-language Power BI apps for Business Central",
-  "blob": "32b14e23c1ce83d789e7e12650cb33101bb70713",
-  "summary": "Multi-language Power BI apps for Business Central documentation shows how to test and use Power BI apps in multiple languages by adding culture name parameters to URLs.",
+  "title": "Multilanguage Power BI Apps for Business Central",
+  "blob": "f64e6d01f9454fb4bdb5a5e667db95687f99ebd5",
+  "summary": "Multilanguage Power BI Apps for Business Central explains how to test and use Power BI apps in different languages and locales by adding language parameters to report URLs.",
   "systems": [
     "reporting",
     "integration"
   ],
   "topics": [
     "power bi",
+    "multilanguage",
     "localization",
-    "multi-language",
+    "apps",
     "reporting"
   ],
   "objects": [],
   "features": [
-    "language parameter support",
-    "culture name configuration"
+    "language parameter in URL",
+    "culture names",
+    "locale support",
+    "language query parameters"
   ],
   "versions": [],
   "parts": 1,
@@ -26,8 +29,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005587,
-      "pages_in_call": 8
+      "cost_usd": 0.003054,
+      "pages_in_call": 1
     }
   ]
 }

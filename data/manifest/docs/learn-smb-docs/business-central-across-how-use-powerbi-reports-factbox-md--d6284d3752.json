@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Display custom Power BI reports",
+  "title": "Display Custom Power BI Reports in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-powerbi-reports-factbox",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.267Z",
-      "blob": "3200166a918a4c25459d2117c956da1a88dc87cf",
-      "words": 1085,
+      "at": "2026-11-13T00:15:04.840Z",
+      "blob": "a9ccfb5e6c7d6709f57d24e0704bf2614556c43e",
+      "words": 1063,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:58:38.335Z",
+      "at": "2026-11-13T00:15:13.872Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003112
+      "cost_usd": 0.004337
     },
     "summarized": {
-      "at": "2026-10-06T18:59:05.636Z",
+      "at": "2026-11-13T00:15:13.874Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:59:05.637Z",
+      "at": "2026-11-13T00:15:13.875Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:59:05.638Z",
+      "at": "2026-11-13T00:15:13.876Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-how-use-powerbi-reports-factbox.md",
-    "description": "Use the Power BI FactBox to display interactive Power BI reports and gain deeper insights into data on key list pages.",
-    "ms_date": "2025-10-16",
+    "description": "Create and configure custom Power BI reports for Business Central list pages, with report filters and layouts that work in the Power BI FactBox.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "SOAP",
       "analysis"
     ],
-    "ai_usage": null,
-    "words": 1085,
+    "ai_usage": "ai-assisted",
+    "words": 1063,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "50cb62233295ec8603956c2b92c7ab840c2478bb0fd155675e5cd48d8dfd6ddd"
+  "output_hash": "c4f46ae1e6630cdedbfad3c4278d903663c086367258029fdb42abc297b18749"
 }

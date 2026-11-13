@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2457",
+  "number": 2457,
+  "title": "Fixing codeunit discovery on PowerShell 5 for RunTests action.",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "Fixed codeunit discovery in the RunTests action that was failing on PowerShell 5.1, ensuring proper test detection and execution on older PowerShell versions.",
+  "key_points": [
+    "Resolves test discovery failures specifically affecting PowerShell 5.1",
+    "Updates AlToolTestRunner module with compatibility fix",
+    "Includes enhanced end-to-end test scenarios for validation",
+    "Adds unit tests to prevent regression"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": "Test discovery in RunTests action fails on PowerShell 5.1",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003267,
+    "changes_in_call": 1
+  }
+}

@@ -1,38 +1,42 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-how-use-powerbi-reports-factbox.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-powerbi-reports-factbox",
-  "title": "Display custom Power BI reports",
-  "blob": "3200166a918a4c25459d2117c956da1a88dc87cf",
-  "summary": "Create Power BI reports for Business Central list pages with proper naming conventions, sizing, and filtering to display in Power BI FactBox controls.",
+  "title": "Display Custom Power BI Reports in Business Central",
+  "blob": "a9ccfb5e6c7d6709f57d24e0704bf2614556c43e",
+  "summary": "Create and embed custom Power BI reports in Business Central list pages using Power BI Desktop, configure filters with primary keys, and display reports in the Power BI FactBox.",
   "systems": [
     "reporting",
-    "sales"
+    "integration"
   ],
   "topics": [
     "power bi",
     "reports",
     "data visualization",
     "list pages",
-    "factbox"
+    "factbox",
+    "filtering"
   ],
   "objects": [],
   "features": [
-    "power bi report creation",
-    "report filtering",
-    "primary key filtering",
-    "report sizing",
-    "factbox display",
-    "report publishing"
+    "Power BI FactBox",
+    "custom report creation",
+    "report filtering with primary keys",
+    "multi-page reports",
+    "report sizing and colors",
+    "embedded report display",
+    "Power BI workspace integration"
   ],
-  "versions": [],
+  "versions": [
+    "version 27"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003112,
-      "pages_in_call": 7
+      "cost_usd": 0.004337,
+      "pages_in_call": 1
     }
   ]
 }

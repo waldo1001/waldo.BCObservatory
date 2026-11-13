@@ -6,10 +6,35 @@
   "title": "Skip missing and removed tables when loading record sets",
   "url": "https://github.com/microsoft/BCApps/pull/13207",
   "published_at": "2026-11-12T15:18:32Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
+    },
+    "fetched": {
+      "at": "2026-11-13T00:14:53.791Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-13T00:15:03.028Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004336
+    },
+    "linked": {
+      "at": "2026-11-13T00:15:03.241Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-13T00:15:03.249Z",
+      "path": "content/changes/bcapps/13207.md"
     }
   },
   "input_hash": "b2f2667a6654c8e4f136e8fcdc70430c28905a0a:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "skip missing and removed tables when loading record sets"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "649d2d965346d0d654b0f7406835acb3a713d1c01321ac68d1a7bb1ebe500cd8"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Use your data to create an app| Microsoft Docs",
+  "title": "Build a Power Apps Canvas App with Business Central Data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerapps",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.262Z",
-      "blob": "e4e8ea0b734bbb5e3a5c3e6a937abbc5c633c042",
-      "words": 648,
+      "at": "2026-11-13T00:14:46.883Z",
+      "blob": "2f1bf7472d1b3e3a85f23f4ef36ec0dcee7aa9fd",
+      "words": 402,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T21:17:39.816Z",
+      "at": "2026-11-13T00:14:57.272Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003275
+      "cost_usd": 0.00346
     },
     "summarized": {
-      "at": "2026-10-06T21:17:39.836Z",
+      "at": "2026-11-13T00:14:57.274Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T21:17:39.837Z",
+      "at": "2026-11-13T00:14:57.276Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T21:17:39.838Z",
+      "at": "2026-11-13T00:14:57.278Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-how-use-financials-data-source-powerapps.md",
-    "description": "Make your Business Central data available as a data source in Power Apps by specifying the OData URL of your web services to build custom business apps.",
-    "ms_date": "2025-10-16",
+    "description": "Connect a Power Apps canvas app to Business Central APIs to work with customers, items, and other business data in an app for your organization.",
+    "ms_date": "2026-11-12",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "Power App",
       "SOAP"
     ],
-    "ai_usage": null,
-    "words": 648,
+    "ai_usage": "ai-assisted",
+    "words": 402,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "065b59f74367f0648ccc21ed67112ca8d6633acaec78a368356194f77bdadbe0"
+  "output_hash": "846984b1d7fac8bed7defdbb82ee0e0cb53ba9c5e7208c88af2c7e8defed77c5"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Power BI apps FAQ",
+  "title": "Business Central Power BI Apps FAQ",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-faq",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.755Z",
-      "blob": "994a02f9a23ea264edaf4db6962752be2deeb066",
-      "words": 707,
+      "at": "2026-11-13T00:15:04.820Z",
+      "blob": "556ee08c36a63e40c7a8429e642d5971f2bfe354",
+      "words": 782,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T14:19:05.033Z",
+      "at": "2026-11-13T00:15:14.336Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.005587
+      "objects": 5,
+      "cost_usd": 0.005334
     },
     "summarized": {
-      "at": "2026-10-06T14:19:05.037Z",
+      "at": "2026-11-13T00:15:14.338Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:19:05.037Z",
+      "at": "2026-11-13T00:15:14.339Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:19:05.037Z",
+      "at": "2026-11-13T00:15:14.339Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-powerbi-apps-faq.md",
-    "description": "FAQ for the Business Central Power BI apps.",
-    "ms_date": "2025-10-29",
-    "ms_topic": "get-started",
+    "description": "Find answers about licensing, installation, data refresh, dimensions, languages, and source files for the Business Central Power BI apps.",
+    "ms_date": "2026-11-11",
+    "ms_topic": "faq",
     "search_form": [
       {
         "raw": "36951",
@@ -62,12 +62,12 @@
       "installation",
       "administration"
     ],
-    "ai_usage": null,
-    "words": 707,
+    "ai_usage": "ai-assisted",
+    "words": 782,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6051ca9d2ee3dc7bf12dbd12c9f341767f3f464d60f19721cdc591ef40802166"
+  "output_hash": "390181bc21caa9b22348642d0349f3ebbedb0acebd5097b15b463fbc60bdbbf5"
 }

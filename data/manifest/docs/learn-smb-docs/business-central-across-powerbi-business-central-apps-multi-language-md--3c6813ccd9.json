@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Multi-language Power BI apps for Business Central",
+  "title": "Multilanguage Power BI Apps for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-business-central-apps-multi-language",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.760Z",
-      "blob": "32b14e23c1ce83d789e7e12650cb33101bb70713",
-      "words": 161,
+      "at": "2026-11-13T00:15:06.426Z",
+      "blob": "f64e6d01f9454fb4bdb5a5e667db95687f99ebd5",
+      "words": 195,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T14:19:05.033Z",
+      "at": "2026-11-13T00:15:15.202Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005587
+      "cost_usd": 0.003054
     },
     "summarized": {
-      "at": "2026-10-06T14:19:05.037Z",
+      "at": "2026-11-13T00:15:15.204Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:19:05.037Z",
+      "at": "2026-11-13T00:15:20.356Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:19:05.038Z",
+      "at": "2026-11-13T00:15:20.357Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-powerbi-business-central-apps-multi-language.md",
-    "description": "Learn how to test and use multi-language capabilities in the Power BI apps for Business Central.",
-    "ms_date": "2025-10-17",
+    "description": "Test the Business Central Power BI apps in another language by adding a locale parameter to the report URL, such as de-DE for German.",
+    "ms_date": "2026-11-11",
     "ms_topic": "get-started",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "installation",
       "administration"
     ],
-    "ai_usage": null,
-    "words": 161,
+    "ai_usage": "ai-assisted",
+    "words": 195,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e430101b2ac2866ee287daab2c90e77a3913d935e199f164acf370cfc9d0e41a"
+  "output_hash": "954d32d895ee66fa6ff999445d30b71265fbe7af89bb725162e577e9bb1aa539"
 }

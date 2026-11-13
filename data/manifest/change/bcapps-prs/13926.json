@@ -6,10 +6,35 @@
   "title": "Bug 648938: Transfer Routes matrix does not indicate configured direct routes",
   "url": "https://github.com/microsoft/BCApps/pull/13926",
   "published_at": "2026-11-12T15:12:47Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
+    },
+    "fetched": {
+      "at": "2026-11-13T00:14:51.316Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-13T00:15:00.293Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003842
+    },
+    "linked": {
+      "at": "2026-11-13T00:15:00.445Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-13T00:15:00.450Z",
+      "path": "content/changes/bcapps/13926.md"
     }
   },
   "input_hash": "5da513e95c44b3bd1e1c91f66a26181ee6c02ccf:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 648938 transfer routes matrix does not indicate configured direct routes"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a6fe52085620fbd3c9521e47d1036b0e40a4551140b4b8a270d2b83450b8c48c"
 }

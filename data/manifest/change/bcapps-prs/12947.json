@@ -6,10 +6,18 @@
   "title": "[MCP] Provide environment and company descriptions to the platform",
   "url": "https://github.com/microsoft/BCApps/pull/12947",
   "published_at": "2026-11-12T13:14:50Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
+    },
+    "fetched": {
+      "at": "2026-11-13T00:15:14.611Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 4,
+      "objects": 2,
+      "unjoined": 2
     }
   },
   "input_hash": "0697b9468064c8e86b928a8cccfb8a2648ec193d:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "mcp provide environment and company descriptions to the platform"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fca3db12a14163dcab5a7847981bdb078ff823caf0262d59cca3a04f89d57640"
 }

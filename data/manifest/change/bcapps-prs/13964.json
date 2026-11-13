@@ -6,7 +6,7 @@
   "title": "Adjust relevance score for new embedding model",
   "url": "https://github.com/microsoft/BCApps/pull/13964",
   "published_at": "2026-11-12T16:39:16Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
@@ -18,6 +18,23 @@
       "al": 2,
       "objects": 2,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-13T00:14:42.856Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004187
+    },
+    "linked": {
+      "at": "2026-11-13T00:14:43.074Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-13T00:14:43.085Z",
+      "path": "content/changes/bcapps/13964.md"
     }
   },
   "input_hash": "f55d8a5257597718947d23397e579ccde8470a5b:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bab7038dccc7bb67b755baef8145736989b690bfae1fa215ea1849471734decc"
+  "output_hash": "5853b8a3450fe772c0480a59fb9ba1a3c091ae28a17d175d19915aeeab2dedd7"
 }

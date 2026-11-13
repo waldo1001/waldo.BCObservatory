@@ -6,7 +6,7 @@
   "title": "Fixing codeunit discovery on PowerShell 5 for RunTests action.",
   "url": "https://github.com/microsoft/AL-Go/pull/2457",
   "published_at": "2026-11-12T16:49:39Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 0,
       "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-13T00:14:44.331Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003267
+    },
+    "linked": {
+      "at": "2026-11-13T00:14:44.332Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-13T00:14:44.342Z",
+      "path": "content/changes/al-go/2457.md"
     }
   },
   "input_hash": "957ea1ea2e286bc966ac24c9f24035dbd30d72ed:c1",
@@ -37,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "55fca04df546af1322681980abe3a988b06c7ca40801eb1b8d001a1417b006f1"
+  "output_hash": "c08bbfaf48c164a5e43225a96c692957ec31f0f38a67552d2273282bf0e90682"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Expose objects as web services",
+  "title": "Publish Business Central Objects as Web Services",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-publish-web-service",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.176Z",
-      "blob": "6fa4f00c6277edd06e541f7bf5752b6f93d561fd",
-      "words": 564,
+      "at": "2026-11-13T00:14:46.262Z",
+      "blob": "51d79c4885aa204e77d73cda5223b3ee92d06ddb",
+      "words": 651,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:57:32.077Z",
+      "at": "2026-11-13T00:14:57.294Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.004358
+      "cost_usd": 0.004496
     },
     "summarized": {
-      "at": "2026-10-06T18:57:33.884Z",
+      "at": "2026-11-13T00:14:57.297Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:57:33.885Z",
+      "at": "2026-11-13T00:14:57.300Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:57:33.886Z",
+      "at": "2026-11-13T00:14:57.302Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-how-publish-web-service.md",
-    "description": "Publish objects as web services to make them immediately available for your Business Central solution.",
-    "ms_date": "2025-10-15",
+    "description": "Publish Business Central pages, queries, and codeunits as web services, find their endpoints, and verify access for authorized integrations.",
+    "ms_date": "2026-11-12",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -55,12 +55,12 @@
       }
     ],
     "keywords": [],
-    "ai_usage": null,
-    "words": 564,
+    "ai_usage": "ai-assisted",
+    "words": 651,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aa1a9392160bd588803ea844ae33bbc6e50d694136842da4cd898d3f6f86b42f"
+  "output_hash": "eefafb110b29ff00d7e67a79edb9e83db88084a351cd141e815b50722a248688"
 }

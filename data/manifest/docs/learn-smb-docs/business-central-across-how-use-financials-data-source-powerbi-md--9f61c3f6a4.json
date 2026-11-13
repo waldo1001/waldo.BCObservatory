@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Building reports in Power BI Desktop to display Business Central data",
+  "title": "Build Power BI Reports with Business Central Data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerbi",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.548Z",
-      "blob": "c639ea5f7f31e4644ec61460c776cb45e1062caa",
-      "words": 2835,
+      "at": "2026-11-13T00:14:46.863Z",
+      "blob": "785a4224853bb50242607f9f4e7288295b2c515a",
+      "words": 2743,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:50:31.927Z",
+      "at": "2026-11-13T00:15:00.456Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.006845
+      "cost_usd": 0.016077
     },
     "summarized": {
-      "at": "2026-10-06T18:50:33.702Z",
+      "at": "2026-11-13T00:15:00.457Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:50:33.704Z",
+      "at": "2026-11-13T00:15:00.458Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:50:33.705Z",
+      "at": "2026-11-13T00:15:00.459Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-how-use-financials-data-source-powerbi.md",
-    "description": "Learn how to make your data a Power BI source and build insightful business reports.",
-    "ms_date": "2025-10-16",
+    "description": "Connect Power BI Desktop to Business Central data, build accessible reports, publish and share them, and configure advanced connection options.",
+    "ms_date": "2026-11-11",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "SOAP",
       "analysis"
     ],
-    "ai_usage": null,
-    "words": 2835,
+    "ai_usage": "ai-assisted",
+    "words": 2743,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f0df10c66b88be85a939d4483c180f836f869a278c649107e97fafa0ca755065"
+  "output_hash": "a0a70591a268d89b7c5a759d4e9912ed39c2c2c391ddf907a6dd72f0fde7707c"
 }

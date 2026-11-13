@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13207",
+  "number": 13207,
+  "title": "Skip missing and removed tables when loading record sets",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Record Set Management now gracefully skips table references that have been removed or don't exist when loading record sets, preventing metadata exceptions and allowing sales documents and Edit in Excel to function when legacy payment-service sets are present.",
+  "key_points": [
+    "Guards GetSet method against membership entries for deleted or ObsoleteState=Removed tables",
+    "Continues loading records from available tables, including those marked Pending",
+    "Resolves issue where retired payment-provider table references caused metadata exceptions",
+    "Prevents sales document pages and Edit in Excel from failing due to stale record set memberships",
+    "Adds four regression tests covering removed and absent tables in various set configurations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004336,
+    "changes_in_call": 1
+  }
+}

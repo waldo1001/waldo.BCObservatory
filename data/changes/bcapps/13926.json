@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13926,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13926",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-12T15:12:47Z",
+  "merge_commit_sha": "5da513e95c44b3bd1e1c91f66a26181ee6c02ccf",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 648938: Transfer Routes matrix does not indicate configured direct routes",
+  "body_hash": "dc3ce3b42a0482cbb40a18cddb6b80bc569c773a5f838f6dcb3dff6978c0bd6f",
+  "fixes_issues": [],
+  "work_items": [
+    648938
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Transfer/TransferRoutesMatrix.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMInventoryBasic.Codeunit.al",
+      "status": "modified",
+      "additions": 156,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 161,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Transfer/TransferRoutesMatrix.Page.al",
+        "status": "modified",
+        "key": "page/9285",
+        "type": "page",
+        "id": 9285,
+        "name": "Transfer Routes Matrix",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9285"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}
