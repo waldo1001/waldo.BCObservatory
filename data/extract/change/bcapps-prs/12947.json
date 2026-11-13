@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/12947",
+  "number": 12947,
+  "title": "[MCP] Provide environment and company descriptions to the platform",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration",
+    "platform"
+  ],
+  "summary": "The environment and company descriptions are now exposed to the platform via two new public events on the System Action Triggers codeunit. Environment Information Impl. and Company Information Mgt. subscribe to these events to supply their respective descriptions, allowing the MCP server to return company descriptions in its list_companies tool.",
+  "key_points": [
+    "Two new public events (GetEnvironmentDescription and GetCompanyDescription) added to System Action Triggers codeunit",
+    "Environment Information Impl. subscribes to provide environment descriptions",
+    "Company Information Mgt. (W1, NA, ES) subscribes to provide company descriptions without changing the session's company",
+    "MCP server can now return company descriptions for agent disambiguation",
+    "User read access to Company Information is required for descriptions to be retrieved"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "copilot"
+  ],
+  "quote": "The platform's MCP server returns the company description from its `list_companies` tool, so agents can tell companies apart.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00429,
+    "changes_in_call": 1
+  }
+}

@@ -1,41 +1,29 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-aged-payables-back-dating.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-aged-payables-back-dating",
-  "title": "Aged Payables (Back Dating)",
-  "blob": "0659373bfbf3305ffc46a8936971707e692387c2",
-  "summary": "Aged Payables (Back Dating) Power BI report analyzes outstanding vendor balances grouped by customizable aging periods and payment terms to prioritize vendor payments.",
+  "title": "Aged Payables (Back Dating) Power BI Report",
+  "blob": "01c13959aed5fc10cad9acb5b4c2cb55e88df333",
+  "summary": "The Aged Payables (Back Dating) Power BI report analyzes outstanding vendor balances by customizable aging periods based on posting date, due date, or document date to help prioritize payments and manage cash flow.",
   "systems": [
     "finance",
-    "purchasing",
-    "reporting"
+    "purchasing"
   ],
   "topics": [
-    "aged payables",
     "power bi",
+    "aged payables",
     "vendor analysis",
     "cash flow",
-    "payment terms"
+    "payment prioritization",
+    "accounts payable"
   ],
-  "objects": [
-    {
-      "type": "table",
-      "name": "Vendor"
-    },
-    {
-      "type": "table",
-      "name": "Vendor Ledger Entry"
-    },
-    {
-      "type": "table",
-      "name": "Detailed Vendor Ledger Entry"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Aged Payables report",
-    "customizable aging periods",
-    "back dating",
-    "payment terms categorization",
-    "KPIs"
+    "aging periods customization",
+    "balance grouping by payment terms",
+    "due date aging",
+    "posting date aging",
+    "document date aging",
+    "KPI tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00367,
-      "pages_in_call": 8
+      "cost_usd": 0.003448,
+      "pages_in_call": 1
     }
   ]
 }

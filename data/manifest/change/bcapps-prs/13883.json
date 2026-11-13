@@ -6,10 +6,35 @@
   "title": "[Shopify] Initialize return processing for existing shops on upgrade",
   "url": "https://github.com/microsoft/BCApps/pull/13883",
   "published_at": "2026-11-12T13:03:15Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
+    },
+    "fetched": {
+      "at": "2026-11-13T00:15:22.131Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-13T00:15:28.424Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003679
+    },
+    "linked": {
+      "at": "2026-11-13T00:15:28.724Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-13T00:15:28.729Z",
+      "path": "content/changes/bcapps/13883.md"
     }
   },
   "input_hash": "d8faae5488fcc0b35dba32d15b77b1c2d4e53000:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "shopify initialize return processing for existing shops on upgrade"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "694fdf8c9750d8e31dfee148f975a768bce217a9aa3f285f024e8349a43e2fe3"
 }

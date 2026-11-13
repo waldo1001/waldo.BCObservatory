@@ -1,33 +1,33 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-setup-connections.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-setup-connections",
-  "title": "Connect Excel, Word, Outlook, OneDrive, Power BI, and more products to Business Central",
-  "blob": "6da28f0c60be0e49b5b9f783390a9f2d31b9dfb1",
-  "summary": "Integration setup for Business Central with Excel, Outlook, Word, Teams, OneDrive, Power BI, Power Automate, and Power Apps through add-ins and connectors.",
+  "title": "Connect Business Central to Microsoft Apps and Services",
+  "blob": "3857f6c74ac75571d2c0b6b44d3f4dcd5aa81b18",
+  "summary": "Setup guide for integrating Business Central with Microsoft applications including Excel, Outlook, Word, Teams, OneDrive, Power BI, Power Automate, and Power Apps. Use when configuring connections between Business Central and Microsoft 365 services.",
   "systems": [
     "integration",
     "administration"
   ],
   "topics": [
-    "excel integration",
-    "office 365",
-    "power bi",
-    "power automate",
-    "power apps",
-    "teams integration",
-    "outlook integration",
-    "onedrive"
+    "integration",
+    "setup",
+    "microsoft 365",
+    "excel",
+    "outlook",
+    "teams",
+    "onedrive",
+    "power bi"
   ],
   "objects": [],
   "features": [
     "Excel add-in",
     "Outlook add-in",
-    "Word layout design",
+    "Word layouts",
     "Teams app",
     "OneDrive integration",
     "Power BI integration",
     "Power Automate flows",
-    "Power Apps connector"
+    "Power Apps canvas apps"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.011521,
-      "pages_in_call": 3
+      "cost_usd": 0.00343,
+      "pages_in_call": 1
     }
   ]
 }

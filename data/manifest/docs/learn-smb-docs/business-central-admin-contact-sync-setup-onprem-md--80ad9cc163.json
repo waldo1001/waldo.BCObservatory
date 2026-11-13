@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-contact-sync-setup-onprem",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-27T00:22:09.399Z",
-      "blob": "4bd80b86e1870f13cf2f61bf61043b919a7f46ea",
-      "words": 516,
+      "at": "2026-11-13T00:15:32.416Z",
+      "blob": "6f14724d781277359f44f864fb43be47ca9681db",
+      "words": 547,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-28T08:48:04.395Z",
+      "at": "2026-11-13T00:15:40.315Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.00409
+      "objects": 0,
+      "cost_usd": 0.004131
     },
     "summarized": {
-      "at": "2026-10-28T08:48:04.407Z",
+      "at": "2026-11-13T00:15:40.316Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-28T08:48:04.408Z",
+      "at": "2026-11-13T00:15:40.317Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-28T08:48:04.412Z",
+      "at": "2026-11-13T00:15:40.318Z",
       "page": false
     }
   },
@@ -44,19 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-contact-sync-setup-onprem.md",
-    "description": "Learn how to configure a Business Central on-premises environment to synchronize contacts in Business Central and Outlook.",
-    "ms_date": "2023-09-28",
+    "description": "Configure OAuth authentication for legacy Outlook contact synchronization in Business Central on-premises version 27 and earlier.",
+    "ms_date": "2026-11-12",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 516,
+    "words": 547,
     "identifiers": [
-      "OnPageOpen"
+      "OnOpenPage"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e143b78fa26f5f1d2b9a22b1df75d54c8702602061590609709ade41280a5e55"
+  "output_hash": "a3f6dd276a289ac20ba5e50cfba063a421301cfc34a4700688d591e8ff1d4f86"
 }

@@ -1,29 +1,33 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-working-with-business-central-in-powerbi.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-working-with-business-central-in-powerbi",
-  "title": "Connect to Power BI from Business Central on-premises| Microsoft Docs",
-  "blob": "3b0b1ed6c518986e7dedf46ddec17945db2ad145",
-  "summary": "Set up Power BI integration for Business Central on-premises by configuring authentication, enabling OData web services, assigning access keys, and registering an application in Microsoft Entra ID.",
+  "title": "Connect Power BI to Business Central On-Premises",
+  "blob": "ccb08e2d6511121c687aa1629111cf4e066e6ca0",
+  "summary": "Connect Power BI to Business Central on-premises by enabling OData web services, configuring authentication (NavUserPassword or Microsoft Entra ID), assigning web service access keys, and registering an Azure application to integrate Business Central data with Power BI Desktop for report creation.",
   "systems": [
-    "reporting",
     "integration",
+    "reporting",
     "administration"
   ],
   "topics": [
     "power bi",
     "on-premises",
     "odata",
+    "web services",
     "authentication",
-    "data source"
+    "integration",
+    "reporting"
   ],
   "objects": [],
   "features": [
     "OData web services",
-    "ODataV4 endpoint",
-    "web service access key",
-    "Microsoft Entra ID registration",
-    "Power BI Desktop",
-    "NavUserPassword authentication"
+    "OData V4 endpoint",
+    "Web service access key",
+    "NavUserPassword authentication",
+    "Microsoft Entra ID authentication",
+    "Power BI Desktop integration",
+    "Basic authentication",
+    "Application registration"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003628,
-      "pages_in_call": 5
+      "cost_usd": 0.00518,
+      "pages_in_call": 1
     }
   ]
 }

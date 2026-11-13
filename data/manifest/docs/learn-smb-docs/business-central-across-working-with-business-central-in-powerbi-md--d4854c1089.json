@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Connect to Power BI from Business Central on-premises| Microsoft Docs",
+  "title": "Connect Power BI to Business Central On-Premises",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-working-with-business-central-in-powerbi",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.363Z",
-      "blob": "3b0b1ed6c518986e7dedf46ddec17945db2ad145",
-      "words": 1023,
+      "at": "2026-11-13T00:15:25.681Z",
+      "blob": "ccb08e2d6511121c687aa1629111cf4e066e6ca0",
+      "words": 1040,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:00:02.152Z",
+      "at": "2026-11-13T00:15:34.323Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003628
+      "cost_usd": 0.00518
     },
     "summarized": {
-      "at": "2026-10-06T19:00:06.969Z",
+      "at": "2026-11-13T00:15:34.324Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:00:06.970Z",
+      "at": "2026-11-13T00:15:34.326Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:00:06.971Z",
+      "at": "2026-11-13T00:15:34.327Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-working-with-business-central-in-powerbi.md",
-    "description": "Get insight, business intelligence, and KPIs from your Business Central data on-premises using Power BI.",
-    "ms_date": "2025-10-23",
+    "description": "Set up Power BI integration for Business Central on-premises, connect to OData web services, and publish reports for viewing in Business Central.",
+    "ms_date": "2026-11-11",
     "ms_topic": "get-started",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "business intelligence",
       "KPI"
     ],
-    "ai_usage": null,
-    "words": 1023,
+    "ai_usage": "ai-assisted",
+    "words": 1040,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "76e1d538a06780a760efc142e0282d3bfe1b48390eb153a07f2e8ef937a6c73d"
+  "output_hash": "343f012830ddec9f14baefce41cca179ecedc0144802f84a548c5f790847a311"
 }

@@ -1,29 +1,30 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/across-powerbi-business-central-apps.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-powerbi-business-central-apps",
-  "title": "Use the Business Central apps in Power BI",
-  "blob": "973a01c398d9751a77e189815137b2f5d8f7ff09",
-  "summary": "Using Business Central apps in Power BI explains how to install, connect, and troubleshoot Power BI apps for CRM, Finance, and Sales, including prerequisites, setup steps, and common error resolutions.",
+  "title": "Use Business Central Apps in Power BI",
+  "blob": "075ee727dde9617f3480e1f95a80642016e8d3dc",
+  "summary": "Use pre-built Power BI apps for Business Central to create dashboards and reports for CRM, Finance, and Sales data. The apps require web service permissions and a Power BI Pro or PPU license to install and share.",
   "systems": [
     "reporting",
-    "integration",
+    "crm",
     "sales"
   ],
   "topics": [
     "power bi",
-    "apps",
-    "installation",
-    "connection",
-    "troubleshooting",
-    "web services"
+    "dashboards",
+    "reporting",
+    "data visualization",
+    "analytics"
   ],
   "objects": [],
   "features": [
-    "Power BI app installation",
-    "company connection parameters",
-    "web service integration",
-    "data refresh scheduling",
-    "dashboard customization"
+    "Power BI apps for CRM",
+    "Power BI apps for Finance",
+    "Power BI apps for Sales",
+    "dashboard customization",
+    "scheduled refresh",
+    "web service connectivity",
+    "report filtering"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005587,
-      "pages_in_call": 8
+      "cost_usd": 0.01015,
+      "pages_in_call": 1
     }
   ]
 }

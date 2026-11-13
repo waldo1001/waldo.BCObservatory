@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13883",
+  "number": 13883,
+  "title": "[Shopify] Initialize return processing for existing shops on upgrade",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "An upgrade migration initializes the Process Returns As field for existing Shopify shops to Credit Memo during upgrade, fixing incorrect refund document creation for shops that retained the default Quote value.",
+  "key_points": [
+    "Adds per-company upgrade migration to change only Quote/0 values to Credit Memo in existing shops",
+    "Preserves valid Credit Memo and Return Order selections already configured by users",
+    "Registers upgrade tag for new companies to prevent duplicate migrations",
+    "Includes two regression tests for migration behavior and upgrade-tag guard logic",
+    "Does not repair sales quotes already created before upgrade"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003679,
+    "changes_in_call": 1
+  }
+}

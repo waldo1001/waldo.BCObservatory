@@ -6,10 +6,35 @@
   "title": "Add key on Email Message Attachment Data to speed up email deletion",
   "url": "https://github.com/microsoft/BCApps/pull/13952",
   "published_at": "2026-11-12T12:57:37Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
+    },
+    "fetched": {
+      "at": "2026-11-13T00:15:32.655Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-13T00:15:37.753Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": false,
+      "cost_usd": 0.003215
+    },
+    "linked": {
+      "at": "2026-11-13T00:15:37.975Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-13T00:15:37.983Z",
+      "path": "content/changes/bcapps/13952.md"
     }
   },
   "input_hash": "1dec201bd2dd5817f662e9322211978f45ae2aad:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "add key on email message attachment data to speed up email deletion"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "50e585cceb9252341b80398fce260e2d5fe24fe7d960c19d6a78fcb95f64e057"
 }

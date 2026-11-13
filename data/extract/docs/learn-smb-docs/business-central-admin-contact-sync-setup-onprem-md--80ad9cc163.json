@@ -2,9 +2,10 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-contact-sync-setup-onprem.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-contact-sync-setup-onprem",
   "title": "Set Up Legacy Outlook Contact Sync On-Premises",
-  "blob": "4bd80b86e1870f13cf2f61bf61043b919a7f46ea",
-  "summary": "Setup guide for legacy Outlook contact synchronization on Business Central on-premises using OAuth 2.0 authentication with Exchange Online, applicable through v27.",
+  "blob": "6f14724d781277359f44f864fb43be47ca9681db",
+  "summary": "Set up legacy Outlook contact sync on-premises using OAuth 2.0 authentication with Exchange Online. This applies to Business Central 2025 release wave 2 and earlier; version 28 and later use a different method.",
   "systems": [
+    "crm",
     "administration",
     "integration"
   ],
@@ -12,28 +13,22 @@
     "outlook contact sync",
     "exchange online",
     "oauth authentication",
-    "on-premises setup",
-    "legacy contact sync"
+    "on-premises",
+    "contact synchronization"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Users - Common Data Service"
-    },
-    {
-      "type": "page",
-      "name": "Users"
-    }
-  ],
+  "objects": [],
   "features": [
-    "contact synchronization",
-    "oauth 2.0 authentication",
-    "microsoft entra registration",
-    "exchange online integration",
-    "delegated permissions"
+    "OAuth 2.0 authentication",
+    "Exchange Web Services",
+    "Microsoft Entra app registration",
+    "delegated permissions",
+    "Microsoft 365 email integration"
   ],
   "versions": [
-    "2025 release wave 2 (v27)"
+    "2025 release wave 2",
+    "version 27",
+    "version 28",
+    "version 14"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -41,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00409,
-      "pages_in_call": 3
+      "cost_usd": 0.004131,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13883,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13883",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-12T13:03:15Z",
+  "merge_commit_sha": "d8faae5488fcc0b35dba32d15b77b1c2d4e53000",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Initialize return processing for existing shops on upgrade",
+  "body_hash": "42551ae2b4787276761e1db354417775a887d975b2cc37423f0ce7a80aaa12e8",
+  "fixes_issues": [],
+  "work_items": [
+    658645
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Base/Codeunits/ShpfyUpgradeMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Order Refunds/ShpfyOrderRefundTest.Codeunit.al",
+      "status": "modified",
+      "additions": 74,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 95,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Base/Codeunits/ShpfyUpgradeMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30106",
+        "type": "codeunit",
+        "id": 30106,
+        "name": "Shpfy Upgrade Mgt.",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30106"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

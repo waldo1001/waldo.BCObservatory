@@ -1,39 +1,43 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-powerbi-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview",
-  "title": "Power BI integration component and architecture overview for Business Central| Microsoft Docs",
-  "blob": "2723dc2a1cc97261fdcae68cec2a315f097edc7a",
-  "summary": "Power BI integration with Business Central enables creating and viewing reports through Power BI Desktop and Power BI Service, using read-only database replicas for online environments.",
+  "title": "Power BI Integration Architecture for Business Central",
+  "blob": "8023daa146e09abb807a413a5f9c5eff479a2e14",
+  "summary": "Power BI integration architecture for Business Central describes the components, features, and workflow for connecting Business Central data to Power BI for reporting and visualization. Use this to understand how Power BI connectors work with Business Central online and on-premises, including read-only database replicas and embedded report viewing.",
   "systems": [
     "reporting",
     "integration",
     "platform"
   ],
   "topics": [
-    "power bi integration",
-    "business intelligence",
+    "power bi",
+    "integration",
     "reporting",
-    "read-scale-out"
+    "connectors",
+    "embedded reports",
+    "analytics",
+    "data architecture"
   ],
   "objects": [],
   "features": [
-    "power bi connectors",
-    "embedded reports",
-    "report management",
-    "default reports",
-    "power bi apps on marketplace"
+    "Power BI connectors",
+    "Embedded report viewing in FactBox",
+    "Power BI report management",
+    "Default Power BI reports on role centers",
+    "Read-only database replica",
+    "Database read scale-out",
+    "UseReadOnlyReplica option",
+    "Power BI Apps on Microsoft Marketplace"
   ],
-  "versions": [
-    "2021 release wave 2"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005657,
-      "pages_in_call": 8
+      "cost_usd": 0.004142,
+      "pages_in_call": 1
     }
   ]
 }

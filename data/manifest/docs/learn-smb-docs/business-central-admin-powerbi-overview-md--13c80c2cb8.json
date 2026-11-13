@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Power BI integration component and architecture overview for Business Central| Microsoft Docs",
+  "title": "Power BI Integration Architecture for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.579Z",
-      "blob": "2723dc2a1cc97261fdcae68cec2a315f097edc7a",
-      "words": 495,
+      "at": "2026-11-13T00:15:32.395Z",
+      "blob": "8023daa146e09abb807a413a5f9c5eff479a2e14",
+      "words": 524,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:50:29.756Z",
+      "at": "2026-11-13T00:15:41.181Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005657
+      "cost_usd": 0.004142
     },
     "summarized": {
-      "at": "2026-10-06T18:50:31.938Z",
+      "at": "2026-11-13T00:15:41.182Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:50:31.939Z",
+      "at": "2026-11-13T00:15:41.183Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:50:31.940Z",
+      "at": "2026-11-13T00:15:41.184Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-powerbi-overview.md",
-    "description": "Learn about the different aspects of Power BI integration with Business Central.",
-    "ms_date": "2024-04-26",
+    "description": "Understand the components, data connections, read-only database access, and user workflow that support Power BI integration with Business Central.",
+    "ms_date": "2026-11-11",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,14 @@
       "business intelligence",
       "KPI"
     ],
-    "ai_usage": null,
-    "words": 495,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 524,
+    "identifiers": [
+      "UseReadOnlyReplica"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "13a585ff1e79de08b9acfa95e3e3d2cda6ae17a0cf9833f57522d2fee9af0371"
+  "output_hash": "2a7a51a12471c3622fdb6bc4226bea0a17612fdc32dc9e5bbda5e479f43b15ae"
 }

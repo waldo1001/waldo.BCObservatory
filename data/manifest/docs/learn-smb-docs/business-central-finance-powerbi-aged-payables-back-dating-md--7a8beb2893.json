@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Aged Payables (Back Dating)",
+  "title": "Aged Payables (Back Dating) Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-aged-payables-back-dating",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.472Z",
-      "blob": "0659373bfbf3305ffc46a8936971707e692387c2",
-      "words": 257,
+      "at": "2026-11-13T00:15:39.981Z",
+      "blob": "01c13959aed5fc10cad9acb5b4c2cb55e88df333",
+      "words": 258,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:26:14.985Z",
+      "at": "2026-11-13T00:15:47.486Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.00367
+      "objects": 0,
+      "cost_usd": 0.003448
     },
     "summarized": {
-      "at": "2026-10-06T19:26:14.996Z",
+      "at": "2026-11-13T00:15:47.488Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:14.997Z",
+      "at": "2026-11-13T00:15:47.488Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:14.998Z",
+      "at": "2026-11-13T00:15:47.489Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-powerbi-aged-payables-back-dating.md",
     "description": "The Aged Payables (Back Dating) report provides an overview of outstanding vendor invoices categorized by payment terms and grouped into aging buckets.",
-    "ms_date": "2024-10-31",
-    "ms_topic": "article",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "36994_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 257,
+    "ai_usage": "ai-assisted",
+    "words": 258,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5ef05eeb988bb597d8169042545419a0fdbfaef8ac23d36884f268ab4b6d1b35"
+  "output_hash": "51e5de537ec91fc30fc132e5dd8e389571c4ebadf9886ad58577571bb79b6042"
 }

@@ -6,10 +6,35 @@
   "title": "[Master] - Slice 611452: [AT][IC][RegF] Enable Danish SAF-T to be used in Austria and Iceland",
   "url": "https://github.com/microsoft/BCApps/pull/11849",
   "published_at": "2026-11-12T12:57:37Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
+    },
+    "fetched": {
+      "at": "2026-11-13T00:15:39.344Z",
+      "change_class": "code",
+      "files": 53,
+      "al": 34,
+      "objects": 11,
+      "unjoined": 23
+    },
+    "extracted": {
+      "at": "2026-11-13T00:15:45.358Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.009924
+    },
+    "linked": {
+      "at": "2026-11-13T00:15:45.657Z",
+      "objects": 11,
+      "unjoined": 23,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-13T00:15:45.668Z",
+      "path": "content/changes/bcapps/11849.md"
     }
   },
   "input_hash": "0d087771931e5a406f565c467461531e2de5e8d0:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "master slice 611452 at ic regf enable danish saf t to be used in austria and iceland"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "231da05d6cdb4c7235747fc61c4a5f5cbcc48c3e457bb8e15cdc6fb1accfe944"
 }

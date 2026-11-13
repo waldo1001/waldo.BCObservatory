@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11849",
+  "number": 11849,
+  "title": "[Master] - Slice 611452: [AT][IC][RegF] Enable Danish SAF-T to be used in Austria and Iceland",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "platform"
+  ],
+  "summary": "Danish SAF-T functionality is now available for Austria and Iceland through core SAF-T modifications, moving country-specific code from a dedicated Danish app to the main SAF-T application.",
+  "key_points": [
+    "Danish SAF-T customizations migrated from SAFTModificationDK app to the main SAF-T app",
+    "SAF-T now supports Austria and Iceland in addition to Denmark",
+    "Multiple codeunits, queries, and table extensions updated to accommodate regional functionality",
+    "Build configurations updated for Austria and Iceland projects",
+    "Test coverage expanded to include new localizations"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.009924,
+    "changes_in_call": 1
+  }
+}

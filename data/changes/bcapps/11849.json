@@ -1,0 +1,685 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11849,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11849",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-12T12:57:37Z",
+  "merge_commit_sha": "0d087771931e5a406f565c467461531e2de5e8d0",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Build: scripts & configs",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Slice 611452: [AT][IC][RegF] Enable Danish SAF-T to be used in Austria and Iceland",
+  "body_hash": "9194b6a0a87843dbb8a195dc52ebeac6673b8b240a3e40b7607cd36eb42d90f1",
+  "fixes_issues": [],
+  "work_items": [
+    611452
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "build/projects.json",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 4,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps AT/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps DK/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps IS/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/app/app.json",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/app/src/AuditDataHandlingSAFT.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/GenerateFileSAFT.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/QtyItemLedgerEntrySAFT.Query.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/XmlDataHandlingSAFT.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/app/src/MasterDataMapping/DimensionSAFT.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/app/src/MasterDataMapping/MappingHelperSAFT.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/app/src/MasterDataMapping/SourceCodeSAFT.TableExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/app/src/MasterDataMapping/VATPostingSetupSAFT.TableExt.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/app/src/Setup/AuditFileExportSetupSAFT.TableExt.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/app/src/Setup/CompanyContactSAFT.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/app/src/Setup/SAFTWizard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/test/app.json",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/test/src/CreateStandDataSAFTTest.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/test/src/ExtendedCategoryImportTests.Codeunit.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 28,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/test/src/SAFTModificationTest.EnumExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/test/src/SAFTTests.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/test/src/SAFTTestsHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/test/src/StandardAccountTypeSAFT.EnumExt.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/test/src/XmlDataHandlingSAFTTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/app.json",
+      "status": "renamed",
+      "additions": 3,
+      "deletions": 0,
+      "class": "other",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/app.json"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/extensionlogo.png",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/extensionlogo.png"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/AuditFileExportDocsDK.PageExt.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/AuditFileExportDocsDK.PageExt.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/CreateStandardDataSAFTDK.Codeunit.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/CreateStandardDataSAFTDK.Codeunit.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/DataCheckSAFTDK.Codeunit.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/DataCheckSAFTDK.Codeunit.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/ImportedSAFTFileDK.Table.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/ImportedSAFTFileDK.Table.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/ImportedSAFTFilesDK.Page.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/ImportedSAFTFilesDK.Page.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/InstallSAFTDK.Codeunit.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/InstallSAFTDK.Codeunit.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/D365BasicISVSAFTDK.PermissionSetExt.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/Permissions/D365BasicISVSAFTDK.PermissionSetExt.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/D365BasicSAFTDK.PermissionSetExt.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/Permissions/D365BasicSAFTDK.PermissionSetExt.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/D365ReadSAFTDK.PermissionSetExt.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/Permissions/D365ReadSAFTDK.PermissionSetExt.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/D365TeamMemberSAFTDK.PermissionSetExt.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/Permissions/D365TeamMemberSAFTDK.PermissionSetExt.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/IntelligentCloudSAFTDK.PermissionSetExt.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/Permissions/IntelligentCloudSAFTDK.PermissionSetExt.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/LocalSAFTDK.PermissionSetExt.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/Permissions/LocalSAFTDK.PermissionSetExt.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/SAFTDKEdit.PermissionSet.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/Permissions/SAFTDKEdit.PermissionSet.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/SAFTDKRead.PermissionSet.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/Permissions/SAFTDKRead.PermissionSet.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/SAFTObjectsDK.PermissionSet.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/Permissions/SAFTObjectsDK.PermissionSet.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/RBAccountingFile/RBAccountingFile.Page.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/RBAccountingFile/RBAccountingFile.Page.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/RBAccountingFile/RegnskabBasisExport.Codeunit.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/RBAccountingFile/RegnskabBasisExport.Codeunit.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/SAFTModificationDK.EnumExt.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/SAFTModificationDK.EnumExt.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/SAFTNotificationMgtDK.Codeunit.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/SAFTNotificationMgtDK.Codeunit.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/StandardAccountTypeSAFTDK.EnumExt.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/StandardAccountTypeSAFTDK.EnumExt.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/StandardAccounts/StandardAccountDK.Codeunit.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/StandardAccounts/StandardAccountDK.Codeunit.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/StandardAccounts/StandardTaxCodeDK.Codeunit.al",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/StandardAccounts/StandardTaxCodeDK.Codeunit.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/app/src/XmlDataHandlingSAFTDK.Codeunit.al",
+      "status": "renamed",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/app/src/XmlDataHandlingSAFTDK.Codeunit.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/test/app.json",
+      "status": "renamed",
+      "additions": 3,
+      "deletions": 0,
+      "class": "other",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/test/app.json"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/test/extensionlogo.png",
+      "status": "renamed",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/test/extensionlogo.png"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/test/src/RegnskabAccountingFileTests.Codeunit.al",
+      "status": "renamed",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/test/src/RegnskabAccountingFileTests.Codeunit.al"
+    },
+    {
+      "path": "src/Apps/W1/SAFTModificationDK/test/src/SAFTModificationDKTests.Codeunit.al",
+      "status": "renamed",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-test",
+      "previous_filename": "src/Apps/DK/SAFTModificationDK/test/src/SAFTModificationDKTests.Codeunit.al"
+    }
+  ],
+  "totals": {
+    "files": 53,
+    "additions": 143,
+    "deletions": 38,
+    "al": 34
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SAF-T/app/src/AuditDataHandlingSAFT.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5281",
+        "type": "codeunit",
+        "id": 5281,
+        "name": "Audit Data Handling SAF-T",
+        "app": "SAF-T",
+        "cc": "w1",
+        "page": "codeunit/5281"
+      },
+      {
+        "path": "src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/GenerateFileSAFT.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5289",
+        "type": "codeunit",
+        "id": 5289,
+        "name": "Generate File SAF-T",
+        "app": "SAF-T",
+        "cc": "w1",
+        "page": "codeunit/5289"
+      },
+      {
+        "path": "src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/QtyItemLedgerEntrySAFT.Query.al",
+        "status": "modified",
+        "key": "query/5280",
+        "type": "query",
+        "id": 5280,
+        "name": "Qty. Item Ledger Entry SAF-T",
+        "app": "SAF-T",
+        "cc": "w1",
+        "page": "query/5280"
+      },
+      {
+        "path": "src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/XmlDataHandlingSAFT.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5282",
+        "type": "codeunit",
+        "id": 5282,
+        "name": "Xml Data Handling SAF-T",
+        "app": "SAF-T",
+        "cc": "w1",
+        "page": "codeunit/5282"
+      },
+      {
+        "path": "src/Apps/W1/SAF-T/app/src/MasterDataMapping/DimensionSAFT.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/5282",
+        "type": "tableextension",
+        "id": 5282,
+        "name": "Dimension SAF-T",
+        "app": "SAF-T",
+        "cc": "w1",
+        "page": "tableextension/5282"
+      },
+      {
+        "path": "src/Apps/W1/SAF-T/app/src/MasterDataMapping/MappingHelperSAFT.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5291",
+        "type": "codeunit",
+        "id": 5291,
+        "name": "Mapping Helper SAF-T",
+        "app": "SAF-T",
+        "cc": "w1",
+        "page": "codeunit/5291"
+      },
+      {
+        "path": "src/Apps/W1/SAF-T/app/src/MasterDataMapping/SourceCodeSAFT.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/5281",
+        "type": "tableextension",
+        "id": 5281,
+        "name": "Source Code SAF-T",
+        "app": "SAF-T",
+        "cc": "w1",
+        "page": "tableextension/5281"
+      },
+      {
+        "path": "src/Apps/W1/SAF-T/app/src/MasterDataMapping/VATPostingSetupSAFT.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/5285",
+        "type": "tableextension",
+        "id": 5285,
+        "name": "VAT Posting Setup SAF-T",
+        "app": "SAF-T",
+        "cc": "w1",
+        "page": "tableextension/5285"
+      },
+      {
+        "path": "src/Apps/W1/SAF-T/app/src/Setup/AuditFileExportSetupSAFT.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/5283",
+        "type": "tableextension",
+        "id": 5283,
+        "name": "Audit File Export Setup SAF-T",
+        "app": "SAF-T",
+        "cc": "w1",
+        "page": "tableextension/5283"
+      },
+      {
+        "path": "src/Apps/W1/SAF-T/app/src/Setup/CompanyContactSAFT.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/5280",
+        "type": "tableextension",
+        "id": 5280,
+        "name": "Company Contact SAF-T",
+        "app": "SAF-T",
+        "cc": "w1",
+        "page": "tableextension/5280"
+      },
+      {
+        "path": "src/Apps/W1/SAF-T/app/src/Setup/SAFTWizard.Page.al",
+        "status": "modified",
+        "key": "page/5280",
+        "type": "page",
+        "id": 5280,
+        "name": "SAF-T Wizard",
+        "app": "SAF-T",
+        "cc": "w1",
+        "page": "page/5280"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/AuditFileExportDocsDK.PageExt.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/CreateStandardDataSAFTDK.Codeunit.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/DataCheckSAFTDK.Codeunit.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/ImportedSAFTFileDK.Table.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/ImportedSAFTFilesDK.Page.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/InstallSAFTDK.Codeunit.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/D365BasicISVSAFTDK.PermissionSetExt.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/D365BasicSAFTDK.PermissionSetExt.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/D365ReadSAFTDK.PermissionSetExt.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/D365TeamMemberSAFTDK.PermissionSetExt.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/IntelligentCloudSAFTDK.PermissionSetExt.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/LocalSAFTDK.PermissionSetExt.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/SAFTDKEdit.PermissionSet.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/SAFTDKRead.PermissionSet.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/Permissions/SAFTObjectsDK.PermissionSet.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/RBAccountingFile/RBAccountingFile.Page.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/RBAccountingFile/RegnskabBasisExport.Codeunit.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/SAFTModificationDK.EnumExt.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/SAFTNotificationMgtDK.Codeunit.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/StandardAccountTypeSAFTDK.EnumExt.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/StandardAccounts/StandardAccountDK.Codeunit.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/StandardAccounts/StandardTaxCodeDK.Codeunit.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/SAFTModificationDK/app/src/XmlDataHandlingSAFTDK.Codeunit.al",
+        "status": "renamed",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance",
+    "platform"
+  ],
+  "apps": [
+    "SAF-T"
+  ]
+}
