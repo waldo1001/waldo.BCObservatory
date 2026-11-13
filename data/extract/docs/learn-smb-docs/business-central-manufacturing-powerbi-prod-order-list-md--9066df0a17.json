@@ -1,26 +1,52 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-prod-order-list.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-list",
-  "title": "Prod. Order List",
-  "blob": "d6ff10426f17d3e4b14ca71d360ec894b12a115f",
-  "summary": "The Prod. Order List Power BI report organizes production orders with cost analysis, status distribution, and source item insights, enabling managers and supervisors to track planned versus finished output and analyze variances.",
+  "title": "Production Order List Power BI Report",
+  "blob": "c34168a93c41b028ea0e67871885815c3fc54860",
+  "summary": "The Prod. Order List Power BI report monitors production orders through cost analysis, status distribution, and source item allocation, helping manufacturing managers and supervisors track metrics, evaluate variances, and manage day-to-day operations efficiently.",
   "systems": [
-    "manufacturing"
+    "manufacturing",
+    "reporting"
   ],
   "topics": [
-    "power bi reporting",
+    "power bi",
     "production orders",
     "cost analysis",
-    "order tracking",
-    "production metrics"
+    "kpis",
+    "manufacturing metrics",
+    "performance tracking"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Prod. Order List"
+    },
+    {
+      "type": "other",
+      "name": "Production Order"
+    },
+    {
+      "type": "other",
+      "name": "Production Order Line"
+    },
+    {
+      "type": "other",
+      "name": "Prod. Order Component"
+    },
+    {
+      "type": "other",
+      "name": "Prod. Order Routing Line"
+    }
+  ],
   "features": [
     "Total Actual Cost KPI",
-    "Production order status distribution",
-    "Production order source item analysis",
-    "Planned versus finished quantity tracking",
-    "Cost variance analysis"
+    "Total Expected Cost comparison",
+    "Total Standard Cost comparison",
+    "No. of Production Orders by Status",
+    "No. of Production Orders by Source Item",
+    "Prod. Order List Details table",
+    "Variance analysis",
+    "Cost variance percentages"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +55,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002727,
-      "pages_in_call": 8
+      "cost_usd": 0.004464,
+      "pages_in_call": 1
     }
   ]
 }

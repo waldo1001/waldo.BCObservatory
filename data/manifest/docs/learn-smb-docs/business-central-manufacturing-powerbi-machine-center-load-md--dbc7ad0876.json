@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Machine Center Load",
+  "title": "Machine Center Load Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-machine-center-load",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.896Z",
-      "blob": "c0766693f58808e199c768ed9300bbb8def4ea94",
-      "words": 269,
+      "at": "2026-11-13T00:19:31.117Z",
+      "blob": "9251701350d91a8a625fc4b0af31e97b92ec1c62",
+      "words": 274,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:51:45.722Z",
+      "at": "2026-11-13T00:19:37.629Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002727
+      "objects": 6,
+      "cost_usd": 0.00405
     },
     "summarized": {
-      "at": "2026-10-06T18:51:47.662Z",
+      "at": "2026-11-13T00:19:37.630Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:51:47.663Z",
+      "at": "2026-11-13T00:19:37.631Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:51:47.664Z",
+      "at": "2026-11-13T00:19:37.633Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/manufacturing-powerbi-machine-center-load.md",
-    "description": "The Machine Center Load report shows the load and the allocated capacity of each machine center.",
-    "ms_date": "2025-05-26",
+    "description": "Compare allocated time with effective capacity and identify overloaded machine centers using the Machine Center Load Power BI report in Business Central.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 269,
+    "ai_usage": "ai-assisted",
+    "words": 274,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a11553eec4ae65ebdbe254dc02ac678344ec942bca6396933c3749f589cdf66f"
+  "output_hash": "ce050734d9578da1284586f6ed5ddd7e17d1b8016a62dea4faa9144d6659921f"
 }

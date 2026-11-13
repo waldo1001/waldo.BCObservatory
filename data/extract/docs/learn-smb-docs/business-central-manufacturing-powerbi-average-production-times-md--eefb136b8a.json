@@ -1,40 +1,55 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-average-production-times.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-average-production-times",
-  "title": "Average Production Times",
-  "blob": "d53a4440569164864e60ddaeed00abc7b5ac5203",
-  "summary": "The Average Production Times Power BI report displays average production time per item to help manufacturing managers and supervisors optimize production processes and identify production delays.",
+  "title": "Average Production Times Power BI Report",
+  "blob": "b36632800b3638f79111a9e3d4d77522630211e4",
+  "summary": "Average Production Times Power BI report displays average production times for each item to help manufacturing managers and supervisors optimize production processes and identify production delays.",
   "systems": [
     "manufacturing",
     "reporting"
   ],
   "topics": [
     "power bi",
-    "manufacturing",
-    "production time",
-    "analytics",
-    "kpi"
+    "production planning",
+    "performance metrics",
+    "manufacturing analytics",
+    "kpis"
   ],
   "objects": [
     {
-      "type": "other",
+      "type": "table",
       "name": "Item"
     },
     {
-      "type": "other",
+      "type": "table",
       "name": "Production Order"
     },
     {
-      "type": "other",
+      "type": "table",
       "name": "Capacity Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Line"
+    },
+    {
+      "type": "table",
+      "name": "Work Center"
+    },
+    {
+      "type": "table",
+      "name": "Manufacturing Setup"
     }
   ],
   "features": [
-    "Average production time per item",
-    "Actual time used tracking",
-    "Finished quantity metrics",
-    "Production time analysis",
-    "Process optimization insights"
+    "Average Production Time Per Finished Quantity",
+    "Actual Time Used",
+    "Finished Quantity",
+    "Show Capacity In unit"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +58,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002892,
-      "pages_in_call": 8
+      "cost_usd": 0.006681,
+      "pages_in_call": 1
     }
   ]
 }

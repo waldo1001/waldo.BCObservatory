@@ -1,19 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-finished-production-order-breakdown.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-finished-production-order-breakdown",
-  "title": "Finished Production Order Breakdown (Power BI report)",
-  "blob": "bd895d97bbd1a189d6df0c85bc8a0f96e7e16d0d",
-  "summary": "Finished Production Order Breakdown is a Power BI report for manufacturing managers and supervisors to track expected versus finished quantities of production orders and monitor work-in-progress status.",
+  "title": "Finished Production Order Breakdown Power BI Report",
+  "blob": "ec7f7b6db49ddd5e51525519576c44811da9f40a",
+  "summary": "Finished Production Order Breakdown is a Power BI report for manufacturing managers and supervisors that compares planned and finished quantities for completed production orders and analyzes actual costs against expected and standard costs.",
   "systems": [
     "manufacturing",
     "reporting"
   ],
   "topics": [
     "power bi report",
-    "production tracking",
-    "progress monitoring",
+    "production orders",
+    "cost analysis",
     "quantity variance",
-    "cost analysis"
+    "finished goods"
   ],
   "objects": [
     {
@@ -23,13 +23,49 @@
     {
       "type": "table",
       "name": "Production Order"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Line"
+    },
+    {
+      "type": "table",
+      "name": "Capacity Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Inventory Adjmt. Entry (Order)"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Component"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Routing Line"
+    },
+    {
+      "type": "table",
+      "name": "Work Center"
     }
   ],
   "features": [
-    "quantity comparison",
-    "cost breakdown",
-    "variance tracking",
-    "production status monitoring"
+    "Planned Quantity",
+    "Finished Quantity",
+    "Variance Quantity",
+    "Actual Material Cost",
+    "Actual Capacity Cost",
+    "Actual Capacity Overhead Cost",
+    "Actual Manufacturing Overhead Cost",
+    "Actual Subcontracted Cost"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +74,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002771,
-      "pages_in_call": 8
+      "cost_usd": 0.004991,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,39 +1,58 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-expected-capacity-need.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-expected-capacity-need",
-  "title": "Expected Capacity Need (Power BI report)",
-  "blob": "3e9e2bc67257e07ba98f5fdff9b807d0c64d0e10",
-  "summary": "Expected Capacity Need is a Power BI report for manufacturing managers and supervisors to view expected capacity requirements by work center and allocate resources efficiently to meet production demands.",
+  "title": "Expected Capacity Need Power BI Report",
+  "blob": "e4e45253ba69586e6acdf6e483a35de05e7f4d30",
+  "summary": "The Expected Capacity Need Power BI report provides manufacturing managers and supervisors with insights into capacity requirements by work center, machine center, and item to plan production orders and optimize resource allocation.",
   "systems": [
     "manufacturing",
     "reporting"
   ],
   "topics": [
-    "power bi report",
+    "power bi reports",
     "capacity planning",
-    "resource allocation",
     "production orders",
-    "work centers"
+    "work centers",
+    "resource allocation",
+    "manufacturing management"
   ],
   "objects": [
     {
-      "type": "table",
+      "type": "other",
       "name": "Production Order"
     },
     {
-      "type": "table",
+      "type": "other",
       "name": "Production Order Routing Line"
     },
     {
-      "type": "table",
+      "type": "other",
       "name": "Capacity Ledger Entry"
+    },
+    {
+      "type": "other",
+      "name": "Prod. Order Capacity Need"
+    },
+    {
+      "type": "other",
+      "name": "Work Center"
+    },
+    {
+      "type": "other",
+      "name": "Machine Center"
+    },
+    {
+      "type": "other",
+      "name": "Manufacturing Setup"
     }
   ],
   "features": [
-    "capacity need forecasting",
-    "work center allocation",
-    "production order backlog",
-    "resource planning"
+    "Expected capacity need tracking",
+    "Actual capacity usage comparison",
+    "Capacity need variance analysis",
+    "Work center workload insights",
+    "Production order resource planning",
+    "KPI metrics for capacity management"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +61,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002771,
-      "pages_in_call": 8
+      "cost_usd": 0.003928,
+      "pages_in_call": 1
     }
   ]
 }

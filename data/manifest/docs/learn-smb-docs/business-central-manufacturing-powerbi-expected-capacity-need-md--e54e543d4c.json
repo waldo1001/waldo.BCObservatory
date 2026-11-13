@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Expected Capacity Need (Power BI report)",
+  "title": "Expected Capacity Need Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-expected-capacity-need",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.252Z",
-      "blob": "3e9e2bc67257e07ba98f5fdff9b807d0c64d0e10",
-      "words": 270,
+      "at": "2026-11-13T00:19:24.938Z",
+      "blob": "e4e45253ba69586e6acdf6e483a35de05e7f4d30",
+      "words": 253,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:13.631Z",
+      "at": "2026-11-13T00:19:31.065Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002771
+      "objects": 7,
+      "cost_usd": 0.003928
     },
     "summarized": {
-      "at": "2026-10-06T19:04:15.448Z",
+      "at": "2026-11-13T00:19:31.066Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:15.449Z",
+      "at": "2026-11-13T00:19:31.067Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:15.450Z",
+      "at": "2026-11-13T00:19:31.068Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/manufacturing-powerbi-expected-capacity-need.md",
-    "description": "The Expected Capacity Need report provides insights into the capacity you expect to require for each work center.",
-    "ms_date": "2024-11-01",
-    "ms_topic": "article",
+    "description": "Review expected production capacity needs by work center, machine center, item, and unfinished order with the Expected Capacity Need Power BI report.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37044_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 270,
+    "ai_usage": "ai-assisted",
+    "words": 253,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9daa9fa11a92cc544a6053c8adc3ba584aa6ea4bfe480e42a2e0acbe948f4272"
+  "output_hash": "debaedbd7a84294957440d65271f7087527241265f260d03bc4639981127316f"
 }

@@ -1,19 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-consumption-variance.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-consumption-variance",
-  "title": "Consumption Variance (Power BI report)",
-  "blob": "f574f8e44388b9954d6f9000643677a403e0a147",
-  "summary": "Consumption Variance is a Power BI report for manufacturing managers and supervisors to track variance between expected and actual consumption costs monthly and optimize production processes.",
+  "title": "Consumption Variance Power BI Report",
+  "blob": "287f77e5690b38f1165a1f0b764d3bf50dff1897",
+  "summary": "The Consumption Variance Power BI report compares actual material costs with expected and standard costs by production order and item for manufacturing managers and supervisors to monitor and manage production consumption costs.",
   "systems": [
     "manufacturing",
     "reporting"
   ],
   "topics": [
-    "power bi report",
-    "consumption costs",
-    "variance analysis",
-    "production optimization",
-    "cost management"
+    "power bi",
+    "consumption variance",
+    "material costs",
+    "production orders",
+    "cost analysis",
+    "manufacturing management",
+    "kpis"
   ],
   "objects": [
     {
@@ -23,13 +25,36 @@
     {
       "type": "table",
       "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Component"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Line"
+    },
+    {
+      "type": "table",
+      "name": "Inventory Adjmt. Entry (Order)"
+    },
+    {
+      "type": "table",
+      "name": "Item"
     }
   ],
   "features": [
-    "material cost tracking",
-    "monthly variance analysis",
-    "consumption monitoring",
-    "KPI metrics"
+    "Actual Material Cost",
+    "Expected Material Cost",
+    "Standard Material Cost",
+    "Expected Material Cost Variance",
+    "Expected Material Cost Dev %",
+    "Standard Material Cost Variance",
+    "Standard Material Cost Dev %"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +63,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002771,
-      "pages_in_call": 8
+      "cost_usd": 0.00406,
+      "pages_in_call": 1
     }
   ]
 }

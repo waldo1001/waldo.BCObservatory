@@ -1,41 +1,50 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-allocated-hours.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-allocated-hours",
-  "title": "Allocated Hours",
-  "blob": "4bedbb3ba5e9cb0342a43336383d6cd442f3e405",
-  "summary": "The Allocated Hours Power BI report shows allocated time for each work center to help manufacturing managers identify over- and underutilized resources and optimize work allocation.",
+  "title": "Allocated Hours Manufacturing Power BI Report",
+  "blob": "27093c9d6f6c215a311a914b53cd9f6440684e08",
+  "summary": "The Allocated Hours Power BI report displays allocated production time by work center, item, capacity type, and production order status to help manufacturing managers and workers plan and optimize resource allocation and identify under/overutilized work centers.",
   "systems": [
     "manufacturing",
     "reporting"
   ],
   "topics": [
     "power bi",
-    "manufacturing",
+    "reporting",
+    "capacity planning",
     "work center",
-    "capacity",
-    "analytics",
-    "kpi"
+    "allocated time",
+    "resource management",
+    "kpis",
+    "performance metrics"
   ],
   "objects": [
     {
-      "type": "other",
+      "type": "table",
       "name": "Production Order Capacity Need"
     },
     {
-      "type": "other",
+      "type": "table",
       "name": "Work Center"
     },
     {
-      "type": "other",
+      "type": "table",
       "name": "Work Center Group"
+    },
+    {
+      "type": "table",
+      "name": "Production Order"
+    },
+    {
+      "type": "table",
+      "name": "Manufacturing Setup"
     }
   ],
   "features": [
-    "Allocated time tracking",
-    "Load percentage analysis",
-    "Capacity availability indicators",
-    "Work center utilization",
-    "Resource allocation planning"
+    "Allocated Time",
+    "Prod Order Expected Capacity Need",
+    "Capacity utilization analysis",
+    "Work center performance tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002892,
-      "pages_in_call": 8
+      "cost_usd": 0.003528,
+      "pages_in_call": 1
     }
   ]
 }

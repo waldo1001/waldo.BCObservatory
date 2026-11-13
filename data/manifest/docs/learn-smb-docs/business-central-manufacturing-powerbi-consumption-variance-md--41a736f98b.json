@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Consumption Variance (Power BI report)",
+  "title": "Consumption Variance Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-consumption-variance",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.244Z",
-      "blob": "f574f8e44388b9954d6f9000643677a403e0a147",
-      "words": 211,
+      "at": "2026-11-13T00:19:24.962Z",
+      "blob": "287f77e5690b38f1165a1f0b764d3bf50dff1897",
+      "words": 233,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:13.628Z",
+      "at": "2026-11-13T00:19:31.054Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002771
+      "objects": 7,
+      "cost_usd": 0.00406
     },
     "summarized": {
-      "at": "2026-10-06T19:04:15.439Z",
+      "at": "2026-11-13T00:19:31.055Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:15.440Z",
+      "at": "2026-11-13T00:19:31.056Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:15.442Z",
+      "at": "2026-11-13T00:19:31.057Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/manufacturing-powerbi-consumption-variance.md",
-    "description": "The Consumption Variance report highlights the variance between expected and actual consumption costs on a monthly basis.",
-    "ms_date": "2024-11-01",
-    "ms_topic": "article",
+    "description": "Compare actual material costs with expected and standard costs by production order and item using the Consumption Variance Power BI report.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37046_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 211,
+    "ai_usage": "ai-assisted",
+    "words": 233,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dd8234e6db144cf42a78187523538273e532f1bcb9ef39bc1a9d01a058934b46"
+  "output_hash": "2fb68436874992114f7263f494af7689967bc37ef32ab8026c369929ed8d1531"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Average Production Times",
+  "title": "Average Production Times Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-average-production-times",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.235Z",
-      "blob": "d53a4440569164864e60ddaeed00abc7b5ac5203",
-      "words": 231,
+      "at": "2026-11-13T00:19:24.918Z",
+      "blob": "b36632800b3638f79111a9e3d4d77522630211e4",
+      "words": 263,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:17.907Z",
+      "at": "2026-11-13T00:19:32.498Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002892
+      "objects": 7,
+      "cost_usd": 0.006681
     },
     "summarized": {
-      "at": "2026-10-06T19:04:17.928Z",
+      "at": "2026-11-13T00:19:32.500Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:17.929Z",
+      "at": "2026-11-13T00:19:32.502Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:17.929Z",
+      "at": "2026-11-13T00:19:32.504Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/manufacturing-powerbi-average-production-times.md",
-    "description": "The Average Production Times report shows the detailed average production times for each item.",
-    "ms_date": "2024-11-01",
-    "ms_topic": "article",
+    "description": "Compare actual production time per finished unit by item, work center, and production order with the Average Production Times Power BI report.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37048_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 231,
+    "ai_usage": "ai-assisted",
+    "words": 263,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c1c27536fa42fde7533928796bee8818163cb7e71074b70d28a570fd7aef4ad4"
+  "output_hash": "2b4f560496d5a94184a598453faa5890b400a574146ba3cb272c6089aa6d30da"
 }

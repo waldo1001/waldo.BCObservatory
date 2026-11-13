@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Allocated Hours",
+  "title": "Allocated Hours Manufacturing Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-allocated-hours",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.231Z",
-      "blob": "4bedbb3ba5e9cb0342a43336383d6cd442f3e405",
-      "words": 262,
+      "at": "2026-11-13T00:19:24.867Z",
+      "blob": "27093c9d6f6c215a311a914b53cd9f6440684e08",
+      "words": 266,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:17.906Z",
+      "at": "2026-11-13T00:19:30.939Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002892
+      "objects": 5,
+      "cost_usd": 0.003528
     },
     "summarized": {
-      "at": "2026-10-06T19:04:17.925Z",
+      "at": "2026-11-13T00:19:30.941Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:17.926Z",
+      "at": "2026-11-13T00:19:30.942Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:17.927Z",
+      "at": "2026-11-13T00:19:30.943Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/manufacturing-powerbi-allocated-hours.md",
-    "description": "The Allocated Hours report provides an overview of the allocated time, in hours, for each work center.",
-    "ms_date": "2024-11-01",
-    "ms_topic": "article",
+    "description": "Analyze allocated production time by work center, source item, capacity type, and order status with the Allocated Hours Power BI report in Business Central.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37043_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 262,
+    "ai_usage": "ai-assisted",
+    "words": 266,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "db444016e62d7ca7e9fa81c6708c40a669f5af69a6980f004aa2bbb8e65f55f9"
+  "output_hash": "2dfccc206be6a0c1ab2a95df0c3fbbd5db20bd362326e32038150aad1cc3a8f9"
 }

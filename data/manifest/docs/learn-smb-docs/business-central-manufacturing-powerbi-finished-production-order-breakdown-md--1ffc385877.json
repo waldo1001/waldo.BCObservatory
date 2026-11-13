@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Finished Production Order Breakdown (Power BI report)",
+  "title": "Finished Production Order Breakdown Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-finished-production-order-breakdown",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.257Z",
-      "blob": "bd895d97bbd1a189d6df0c85bc8a0f96e7e16d0d",
-      "words": 266,
+      "at": "2026-11-13T00:19:30.987Z",
+      "blob": "ec7f7b6db49ddd5e51525519576c44811da9f40a",
+      "words": 249,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:13.632Z",
+      "at": "2026-11-13T00:19:37.603Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002771
+      "objects": 10,
+      "cost_usd": 0.004991
     },
     "summarized": {
-      "at": "2026-10-06T19:04:15.451Z",
+      "at": "2026-11-13T00:19:37.605Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:15.452Z",
+      "at": "2026-11-13T00:19:37.606Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:15.453Z",
+      "at": "2026-11-13T00:19:37.607Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/manufacturing-powerbi-finished-production-order-breakdown.md",
     "description": "The Finished Production Order Breakdown report provides insights into the expected quantity versus the finished quantity of production orders.",
-    "ms_date": "2024-11-01",
-    "ms_topic": "article",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37045_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 266,
+    "ai_usage": "ai-assisted",
+    "words": 249,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b61d117e7c929b4d3995f083ddf6c725e089ea632f3e1a9abfa53e0478ee6915"
+  "output_hash": "104a82dcb157d86fcc077731e07a3997dc1c5f242e86af26b84fd06098ba6df8"
 }

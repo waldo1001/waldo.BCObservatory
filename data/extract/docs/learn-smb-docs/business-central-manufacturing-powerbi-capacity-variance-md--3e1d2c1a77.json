@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-capacity-variance.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-capacity-variance",
-  "title": "Capacity Variance",
-  "blob": "4b702255c4f504d694d00567e97287199644c518",
-  "summary": "Capacity Variance is a Power BI report for manufacturing managers and supervisors to track variance between expected and actual capacity costs monthly, identify cost overruns, and optimize production processes.",
+  "title": "Capacity Variance Manufacturing Power BI Report",
+  "blob": "743d92a02457158e718cb4e553069271d14f229a",
+  "summary": "The Capacity Variance Power BI report compares actual capacity costs and usage with expected and standard values for production orders, helping manufacturing managers and supervisors identify cost overruns and production inefficiencies.",
   "systems": [
     "manufacturing",
     "reporting"
   ],
   "topics": [
-    "power bi report",
-    "capacity costs",
-    "variance analysis",
-    "production optimization",
-    "cost management"
+    "power bi",
+    "capacity variance",
+    "production orders",
+    "cost analysis",
+    "kpi tracking",
+    "manufacturing performance"
   ],
   "objects": [
     {
@@ -27,13 +28,45 @@
     {
       "type": "table",
       "name": "Capacity Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Line"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Capacity Need"
+    },
+    {
+      "type": "table",
+      "name": "Inventory Adjmt. Entry (Order)"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Work Center"
+    },
+    {
+      "type": "table",
+      "name": "Manufacturing Setup"
     }
   ],
   "features": [
-    "capacity cost tracking",
-    "monthly variance analysis",
-    "cost overrun identification",
-    "KPI metrics"
+    "Actual Capacity Cost",
+    "Expected Capacity Cost",
+    "Standard Capacity Cost",
+    "Expected Capacity Cost Variance",
+    "Standard Capacity Cost Variance",
+    "Cost deviation by source item",
+    "Cost variance by production order",
+    "Production line performance monitoring"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +75,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002771,
-      "pages_in_call": 8
+      "cost_usd": 0.004607,
+      "pages_in_call": 1
     }
   ]
 }

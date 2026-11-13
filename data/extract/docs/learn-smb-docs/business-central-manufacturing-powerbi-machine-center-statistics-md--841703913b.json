@@ -1,28 +1,60 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-machine-center-statistics.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-machine-center-statistics",
-  "title": "Machine Center Statistics",
-  "blob": "a8e05b3cd19b8c68c0818265a29774c8dbaa4608",
-  "summary": "The Machine Center Statistics Power BI report offers comprehensive operational performance insights across machine centers through KPI cards, efficiency charts, and detailed statistics tables.",
+  "title": "Machine Center Statistics Power BI Report",
+  "blob": "2ac9a88db08d2f75fd67291abd99156c05015907",
+  "summary": "Machine Center Statistics Power BI report provides KPI cards and detailed tables for analyzing machine center efficiency, capacity utilization, scrap rates, and production output to help manufacturing managers and supervisors monitor and optimize operational performance.",
   "systems": [
-    "manufacturing"
+    "manufacturing",
+    "reporting"
   ],
   "topics": [
-    "power bi reporting",
-    "machine center performance",
-    "efficiency analytics",
-    "production metrics",
-    "operational insights"
+    "machine centers",
+    "power bi reports",
+    "kpis",
+    "efficiency metrics",
+    "production planning",
+    "capacity analysis"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Capacity Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Prod Order Capacity Need"
+    },
+    {
+      "type": "table",
+      "name": "Calendar Entry"
+    },
+    {
+      "type": "table",
+      "name": "Machine Center"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Work Center"
+    },
+    {
+      "type": "table",
+      "name": "Manufacturing Setup"
+    }
+  ],
   "features": [
-    "Machine Center Scrap % KPI",
-    "Machine Center Load KPI",
     "Machine Center Efficiency chart",
+    "Machine Center Scrap % KPI card",
+    "Machine Center Load KPI card",
     "Statistics Details table",
     "Capacity metrics",
     "Efficiency tracking",
-    "Scrap analysis"
+    "Scrap analysis",
+    "Runtime statistics"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +63,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002727,
-      "pages_in_call": 8
+      "cost_usd": 0.004724,
+      "pages_in_call": 1
     }
   ]
 }
