@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13764",
+  "number": 13764,
+  "title": "List the SIFT of a key that is disabled in metadata on the Indexes part",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "The Indexes part on the Table Information page now lists disabled SIFTs for keys that are disabled in metadata and define SumIndexFields, allowing administrators to enable them.",
+  "key_points": [
+    "Lists disabled SIFT rows for keys disabled in metadata with SumIndexFields",
+    "Mirrors existing behavior already implemented for regular indexes",
+    "Enables administrators to enable SIFTs on disabled keys through the UI",
+    "Platform now supports creating SIFT views and indexes when enabling a SIFT on disabled keys",
+    "AL code reading MaintainSIFTIndex sees no behavior change since the Key table remains unchanged"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004194,
+    "changes_in_call": 1
+  }
+}

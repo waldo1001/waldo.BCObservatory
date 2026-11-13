@@ -1,29 +1,40 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-classifying-data-sensitivity.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-classifying-data-sensitivity",
-  "title": "Classifying data sensitivity",
-  "blob": "1938fe951d5ae720797ed42f61bdaf8c910580d2",
-  "summary": "Data Sensitivity Classification feature lets you classify sensitive or personal data in standard and custom fields to track personal data storage and respond to data subject requests. Masking UI support protects sensitive values from view.",
+  "title": "Classify Data Sensitivity in Business Central",
+  "blob": "f871c971a22ae7f6f0b26daae8e087a117ed80cf",
+  "summary": "Data classification lets developers and customers classify fields as Sensitive, Personal, Company Confidential, or Normal to manage personal and sensitive data, and mask field values to protect information from casual observation.",
   "systems": [
     "administration",
-    "platform",
     "development"
   ],
   "topics": [
     "data classification",
-    "sensitivity",
+    "data sensitivity",
     "personal data",
-    "masking",
-    "gdpr"
+    "field masking",
+    "privacy",
+    "compliance"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Data Classification Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Feature Management"
+    }
+  ],
   "features": [
-    "Data classification levels",
-    "Data Classification Worksheet",
-    "Field masking",
+    "DataClassification property",
+    "data sensitivity levels",
+    "field masking",
     "MaskType property",
-    "Role-based visibility",
-    "Audit logging"
+    "bulk classification",
+    "data content visibility",
+    "Excel export/import",
+    "assisted setup"
   ],
   "versions": [
     "2025 release wave 2"
@@ -34,8 +45,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009073,
-      "pages_in_call": 5
+      "cost_usd": 0.004129,
+      "pages_in_call": 1
     }
   ]
 }

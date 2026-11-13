@@ -2,28 +2,29 @@
   "item_id": "docs/learn-smb-docs/business-central/personal-security.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/personal-security",
   "title": "Personal Security Best Practices for Business Central Users",
-  "blob": "35ed4117890e989314c822d753607695262ad2f9",
-  "summary": "Personal security best practices for Business Central users cover phishing awareness, MFA enablement, password management, and device protection to minimize security risks.",
+  "blob": "63b38154ff3559180be7c6d172df91bd01222a50",
+  "summary": "Personal security best practices for Business Central users covering phishing awareness, multifactor authentication, software updates, password management, device protection, and safe browsing habits.",
   "systems": [
     "administration",
     "platform"
   ],
   "topics": [
     "security",
-    "personal security",
-    "mfa",
+    "best practices",
+    "user security",
     "phishing",
-    "passwords",
+    "multifactor authentication",
+    "password management",
     "device protection"
   ],
   "objects": [],
   "features": [
-    "two-factor authentication",
-    "password manager usage",
-    "phishing awareness",
-    "device encryption",
-    "backup strategy",
-    "MFA enablement"
+    "Multifactor authentication",
+    "Microsoft Entra ID",
+    "OneDrive restore feature",
+    "Full-disk encryption",
+    "Biometric unlock",
+    "VPN"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004206,
-      "pages_in_call": 8
+      "cost_usd": 0.003316,
+      "pages_in_call": 1
     }
   ]
 }

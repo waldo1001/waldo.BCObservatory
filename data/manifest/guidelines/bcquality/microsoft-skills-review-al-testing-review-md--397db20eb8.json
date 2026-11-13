@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "AL testing review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-testing-review.md",
-  "published_at": "2026-10-06T11:30:37.000Z",
+  "published_at": "2026-11-12T12:40:33.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,17 +13,17 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-29T21:27:27.994Z",
-      "blob": "7e05c7004bcdddf4deaf907153bd18231955aa20",
-      "words": 2450,
+      "at": "2026-11-13T00:14:06.387Z",
+      "blob": "00854661c0031a9d22e0d3826f09e8cc322876e3",
+      "words": 2555,
       "forms": 0
     },
     "published": {
-      "at": "2026-10-29T21:27:28.455Z",
+      "at": "2026-11-13T00:14:06.839Z",
       "path": "content/guidelines/microsoft/skills/review/al-testing-review.md"
     }
   },
-  "input_hash": "7e05c7004bcdddf4deaf907153bd18231955aa20",
+  "input_hash": "00854661c0031a9d22e0d3826f09e8cc322876e3",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -35,7 +35,7 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 2450,
+    "words": 2555,
     "identifiers": [
       "RecordRef",
       "TestIsolation",
@@ -71,12 +71,12 @@
       "OpenNew",
       "OpenView",
       "OpenEdit",
+      "TableData",
       "ExpectedTestFieldError",
       "IsFalse",
       "OnAfterRemoveTableRelation",
       "RemoveTableRelation",
-      "CopyStr",
-      "GenerateRandomCodeWithLength"
+      "CopyStr"
     ],
     "identifiers_rule": 2,
     "bcq": {
@@ -101,5 +101,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7e05c7004bcdddf4deaf907153bd18231955aa20"
+  "output_hash": "00854661c0031a9d22e0d3826f09e8cc322876e3"
 }

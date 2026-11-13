@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/duiliotacconi-com/2238",
+  "url": "https://duiliotacconi.com/2026/11/12/about-online-upgrades-to-dynamics-365-business-central-2026-wave-2-v29/",
+  "title": "About Online Upgrades to Dynamics 365 Business Central 2026 Wave 2 (v29)",
+  "source": "duiliotacconi-com",
+  "published_at": "2026-11-12T17:06:49.000Z",
+  "words": 1526,
+  "summary": "Dynamics 365 Business Central 2026 Wave 2 online upgrades take significantly longer than previous versions due to more table extensions, increased data volumes, additional columns, and Microsoft resource governance. The post analyzes upgrade SQL and extension footprints using telemetry, explains synchronization mechanics, and demonstrates how storing BLOBs in the database causes severe performance problems during upgrades.",
+  "key_points": [
+    "Version 29 upgrades are slower than prior versions because of table extensions, larger databases, more columns, and stricter resource governance",
+    "Upgrade synchronization follows an ALTER-UPDATE-DROP-INDEX cycle that can be traced through telemetry queries",
+    "A new LC0065 event signals tables exceeding 256 fields, helping identify candidates for partial records or extension cleanup",
+    "Storing large BLOB objects in the database instead of external storage like Azure Blob Storage dramatically slows upgrades"
+  ],
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "upgrade",
+    "dynamics 365 business central",
+    "version 29",
+    "online upgrade",
+    "performance",
+    "telemetry",
+    "table extensions",
+    "blob storage"
+  ],
+  "objects": [],
+  "features": [
+    "online upgrades",
+    "table extensions",
+    "synchronization phase",
+    "telemetry analysis",
+    "SQL optimization",
+    "database migration",
+    "extension hygiene"
+  ],
+  "versions": [
+    "2026 Wave 2",
+    "v29",
+    "2023 Wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "online upgrades are taking more time than any previous upgrades (that were not strictly dependent on data upgrades)",
+      "why_it_matters": "Explains the key difference in version 29 upgrades and sets expectations for administrators planning upgrades"
+    },
+    {
+      "text": "DO NOT store BLOBs in the database (unless strictly necessary). It's a database not a file share!",
+      "why_it_matters": "Provides the most actionable lesson learned, highlighting that moving BLOBs to external storage reduced upgrade time from 7 hours to 1 hour"
+    },
+    {
+      "text": "No telemetry? No party!",
+      "why_it_matters": "Emphasizes the critical importance of using telemetry to diagnose and optimize upgrade performance"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012708,
+    "posts_in_call": 1
+  }
+}

@@ -809,6 +809,15 @@
       "title_key": "restore subcontracting defaults on reinstall"
     }
   ],
+  "12462": [
+    {
+      "number": 12268,
+      "base": "main",
+      "merged_at": "2026-11-12T12:52:11Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12268",
+      "title_key": "bug peppol delivery information is treated as mandatory although it is optional in peppol en 16931 and an empty delivery block is exported when it is missing"
+    }
+  ],
   "12472": [
     {
       "number": 12699,
@@ -953,6 +962,15 @@
       "title_key": "fix duplicate xml audit file fr test codeunit id"
     }
   ],
+  "13207": [
+    {
+      "number": 13983,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-12T14:08:39Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13983",
+      "title_key": "skip missing and removed tables when loading record sets"
+    }
+  ],
   "13211": [
     {
       "number": 13245,
@@ -1052,6 +1070,15 @@
       "title_key": "backport releases 29 x quality management confirm before finishing on create re inspection"
     }
   ],
+  "13428": [
+    {
+      "number": 13797,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-12T15:22:26Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13797",
+      "title_key": "backport releases 29 x quality management keep sample size and pass fail quantity within quantity base"
+    }
+  ],
   "13429": [
     {
       "number": 13798,
@@ -1131,6 +1158,15 @@
       "merged_at": "2026-11-09T13:33:13Z",
       "url": "https://github.com/microsoft/BCApps/pull/13731",
       "title_key": "expense agent initialize missing vendor numbering after upgrade"
+    }
+  ],
+  "13883": [
+    {
+      "number": 13890,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-12T07:59:00Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13890",
+      "title_key": "shopify initialize return processing for existing shops on upgrade"
     }
   ],
   "unmatched": [

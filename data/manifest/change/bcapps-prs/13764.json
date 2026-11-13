@@ -1,0 +1,63 @@
+{
+  "id": "change/bcapps-prs/13764",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "List the SIFT of a key that is disabled in metadata on the Indexes part",
+  "url": "https://github.com/microsoft/BCApps/pull/13764",
+  "published_at": "2026-11-12T17:21:26Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-13T00:13:31.718Z"
+    },
+    "fetched": {
+      "at": "2026-11-13T00:14:07.798Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-13T00:14:15.576Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004194
+    },
+    "linked": {
+      "at": "2026-11-13T00:14:15.796Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-13T00:14:15.923Z",
+      "path": "content/changes/bcapps/13764.md"
+    }
+  },
+  "input_hash": "b392ea70eeb68ec67e557e37d768d9755b09d9aa:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13764,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b392ea70eeb68ec67e557e37d768d9755b09d9aa",
+    "author": "ehenriksen9",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: System Application",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "list the sift of a key that is disabled in metadata on the indexes part"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9d3885b9ea6aec0800843da82f9487e9aa5df40d617078fdcbc58df95fb7391a"
+}

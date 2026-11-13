@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Manage data encryption | Microsoft Docs",
+  "title": "Manage Data Encryption in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-data-encryption",
-  "published_at": "2025-05-06T19:33:04.000Z",
+  "published_at": "2026-11-12T14:29:22.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,48 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.150Z",
-      "blob": "37c1df9a0043519319c6567624baa158756bbb80",
-      "words": 85,
+      "at": "2026-11-13T00:13:59.733Z",
+      "blob": "13871c45a8577bc861e3100627ff220b23554ed5",
+      "words": 156,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:32:18.003Z",
+      "at": "2026-11-13T00:14:06.009Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002476
+      "objects": 1,
+      "cost_usd": 0.003175
     },
     "summarized": {
-      "at": "2026-10-06T19:32:21.530Z",
+      "at": "2026-11-13T00:14:06.011Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:21.530Z",
+      "at": "2026-11-13T00:14:06.012Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:21.532Z",
+      "at": "2026-11-13T00:14:06.013Z",
       "page": false
     }
   },
-  "input_hash": "37c1df9a0043519319c6567624baa158756bbb80",
+  "input_hash": "13871c45a8577bc861e3100627ff220b23554ed5",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-manage-data-encryption.md",
-    "description": "You can encrypt data on the Business Central server by generating new or importing existing encryption keys that you enable on the server.",
-    "ms_date": "2023-12-12",
+    "description": "Manage application data encryption keys in Business Central on-premises, and understand how this protection differs from database encryption at rest.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 85,
+    "ai_usage": "ai-assisted",
+    "words": 156,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fd343bedc083a6f816daeafb89fe6f9d81d06a7e1a4ee19b271e02061728e840"
+  "output_hash": "b5234dbbc69b27d0971e2bc6f82b4219090872c7a6588f921ef313585f558075"
 }

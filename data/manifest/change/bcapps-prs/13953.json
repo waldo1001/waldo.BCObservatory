@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13953",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add key on Email Message Attachment Data to speed up email deletion (backport to releases/29.x)",
+  "url": "https://github.com/microsoft/BCApps/pull/13953",
+  "published_at": "2026-11-12T11:22:07Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-13T00:13:31.718Z"
+    }
+  },
+  "input_hash": "cb881cc16e09fc2625984442ab1ee942339c50b1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13953,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "cb881cc16e09fc2625984442ab1ee942339c50b1",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "add key on email message attachment data to speed up email deletion backport to releases 29 x"
+  }
+}

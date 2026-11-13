@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/13853",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Defer report layout discovery warnings during compiler rollout",
+  "url": "https://github.com/microsoft/BCApps/pull/13853",
+  "published_at": "2026-11-12T11:26:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-13T00:13:31.718Z"
+    }
+  },
+  "input_hash": "c78beec4d4b7533af2972cdf5996dc5b6e733172:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13853,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c78beec4d4b7533af2972cdf5996dc5b6e733172",
+    "author": "thloke",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "defer report layout discovery warnings during compiler rollout"
+  }
+}

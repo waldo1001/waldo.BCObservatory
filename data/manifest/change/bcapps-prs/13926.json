@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13926",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 648938: Transfer Routes matrix does not indicate configured direct routes",
+  "url": "https://github.com/microsoft/BCApps/pull/13926",
+  "published_at": "2026-11-12T15:12:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-13T00:13:31.718Z"
+    }
+  },
+  "input_hash": "5da513e95c44b3bd1e1c91f66a26181ee6c02ccf:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13926,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5da513e95c44b3bd1e1c91f66a26181ee6c02ccf",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 648938 transfer routes matrix does not indicate configured direct routes"
+  }
+}

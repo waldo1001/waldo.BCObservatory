@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Troubleshoot your automated workflows",
+  "title": "Troubleshoot Business Central Power Automate Workflows",
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-flow-troubleshoot",
-  "published_at": "2025-10-29T13:40:09.000Z",
+  "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.154Z",
-      "blob": "d514301e03e906af5a7f4d5c370f9fb1b1be26d8",
-      "words": 515,
+      "at": "2026-11-13T00:14:29.391Z",
+      "blob": "4f6fe05f5b9a67382f6c2b7bccdff6eb1ef783c1",
+      "words": 500,
       "forms": 0
     },
     "extracted": {
@@ -38,15 +38,15 @@
       "page": false
     }
   },
-  "input_hash": "d514301e03e906af5a7f4d5c370f9fb1b1be26d8",
+  "input_hash": "4f6fe05f5b9a67382f6c2b7bccdff6eb1ef783c1",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/across-flow-troubleshoot.md",
     "description": "Learn how to troubleshoot the connection between Business Central and Power Automate when you build an automated workflow.",
-    "ms_date": "2025-10-14",
-    "ms_topic": "troubleshooting-general",
+    "ms_date": "2026-11-12",
+    "ms_topic": "troubleshooting",
     "search_form": [],
     "keywords": [
       "workflow",
@@ -57,12 +57,15 @@
       "workflowWebhookSubscriptions",
       "Power Automate"
     ],
-    "ai_usage": null,
-    "words": 515,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 500,
+    "identifiers": [
+      "workflowWebhookSubscriptions",
+      "workflowPurchaseDocumentLines"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4ee4b2bd8b3bf9cd181ace7e134049863718fce3e4e1c87e0dad856e52a62f3a"
+  "output_hash": "4f6fe05f5b9a67382f6c2b7bccdff6eb1ef783c1"
 }

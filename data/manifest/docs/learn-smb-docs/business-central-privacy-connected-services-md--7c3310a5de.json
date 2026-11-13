@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Trial Features that Connect to Other Microsoft Services",
+  "title": "Trial Features That Connect to Other Microsoft Services",
   "url": "https://learn.microsoft.com/dynamics365/business-central/privacy-connected-services",
-  "published_at": "2026-10-01T12:49:26.000Z",
+  "published_at": "2026-11-12T14:29:22.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.151Z",
-      "blob": "3d3147dcd5d81b9cab052c3e2383239a561f08ee",
-      "words": 401,
+      "at": "2026-11-13T00:14:19.779Z",
+      "blob": "763e031b525e259099c7d857a97796f0706c8f75",
+      "words": 427,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:53:10.119Z",
+      "at": "2026-11-13T00:14:31.756Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.008326
+      "objects": 2,
+      "cost_usd": 0.00371
     },
     "summarized": {
-      "at": "2026-10-06T13:53:10.123Z",
+      "at": "2026-11-13T00:14:31.757Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:53:10.123Z",
+      "at": "2026-11-13T00:14:31.758Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:53:10.123Z",
+      "at": "2026-11-13T00:14:31.759Z",
       "page": false
     }
   },
-  "input_hash": "3d3147dcd5d81b9cab052c3e2383239a561f08ee",
+  "input_hash": "763e031b525e259099c7d857a97796f0706c8f75",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/privacy-connected-services.md",
-    "description": "Overview of Microsoft services that Business Central connects to with the trial version.",
-    "ms_date": "2025-07-24",
+    "description": "Understand which Microsoft services Business Central trial features connect to, how privacy approvals work, and where to manage each integration.",
+    "ms_date": "2026-11-12",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "trial",
       "Microsoft services"
     ],
-    "ai_usage": null,
-    "words": 401,
+    "ai_usage": "ai-assisted",
+    "words": 427,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "75c1ded242de42969ecbb7ca85b71e8b11430ff720c9f9f39a22e7b26c6bad72"
+  "output_hash": "13c44a78b17757dc208dbd091f2bc947b766b22524f5bb8b7a4ceba7a3eb4197"
 }

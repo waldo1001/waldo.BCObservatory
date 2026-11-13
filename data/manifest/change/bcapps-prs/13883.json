@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13883",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Initialize return processing for existing shops on upgrade",
+  "url": "https://github.com/microsoft/BCApps/pull/13883",
+  "published_at": "2026-11-12T13:03:15Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-13T00:13:31.718Z"
+    }
+  },
+  "input_hash": "d8faae5488fcc0b35dba32d15b77b1c2d4e53000:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13883,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d8faae5488fcc0b35dba32d15b77b1c2d4e53000",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify initialize return processing for existing shops on upgrade"
+  }
+}

@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Classifying data sensitivity",
+  "title": "Classify Data Sensitivity in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-classifying-data-sensitivity",
-  "published_at": "2025-09-23T12:22:57.000Z",
+  "published_at": "2026-11-12T14:29:22.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,41 +13,46 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.322Z",
-      "blob": "1938fe951d5ae720797ed42f61bdaf8c910580d2",
-      "words": 879,
-      "forms": 1
+      "at": "2026-11-13T00:13:59.699Z",
+      "blob": "f871c971a22ae7f6f0b26daae8e087a117ed80cf",
+      "words": 842,
+      "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:04:45.163Z",
+      "at": "2026-11-13T00:14:06.022Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.009073
+      "objects": 2,
+      "cost_usd": 0.004129
     },
     "summarized": {
-      "at": "2026-10-06T19:04:45.179Z",
+      "at": "2026-11-13T00:14:06.023Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:45.180Z",
+      "at": "2026-11-13T00:14:06.025Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:45.181Z",
+      "at": "2026-11-13T00:14:06.026Z",
       "page": false
     }
   },
-  "input_hash": "1938fe951d5ae720797ed42f61bdaf8c910580d2",
+  "input_hash": "f871c971a22ae7f6f0b26daae8e087a117ed80cf",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-classifying-data-sensitivity.md",
-    "description": "You must specify which type of data you store about people so that you can respond to data subject requests.",
-    "ms_date": "2025-09-22",
+    "description": "Classify personal and sensitive data in Business Central, manage field sensitivity levels, and understand the limits of masking values in the user interface.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
+      {
+        "raw": "1751",
+        "id": 1751,
+        "kind": null
+      },
       {
         "raw": "1752",
         "id": 1752,
@@ -55,15 +60,18 @@
       }
     ],
     "keywords": [],
-    "ai_usage": null,
-    "words": 879,
+    "ai_usage": "ai-assisted",
+    "words": 842,
     "identifiers": [
+      "DataClassification",
+      "ConfigurationDialog",
       "MaskType",
+      "BigInteger",
       "ExtendedDatatype"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "345c1cf71825d1933e3530f2a20b3c4da6356f9c16ac0166d4a5c4b92dbe2920"
+  "output_hash": "fc839b7ec970d4324f320338699d95c772f442b4c657dd7e26de79e7b05702c9"
 }

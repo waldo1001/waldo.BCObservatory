@@ -1,0 +1,63 @@
+{
+  "id": "change/bcapps-prs/9523",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Issue #9474  OnBeforeDecreaseQtyForMaxQty",
+  "url": "https://github.com/microsoft/BCApps/pull/9523",
+  "published_at": "2026-11-12T21:45:58Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-13T00:13:31.718Z"
+    },
+    "fetched": {
+      "at": "2026-11-13T00:14:07.410Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-13T00:14:17.052Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004396
+    },
+    "linked": {
+      "at": "2026-11-13T00:14:17.249Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-13T00:14:17.257Z",
+      "path": "content/changes/bcapps/9523.md"
+    }
+  },
+  "input_hash": "4075867638fb5d9f735b41b46b86b92aa5300fe8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9523,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4075867638fb5d9f735b41b46b86b92aa5300fe8",
+    "author": "MiguelLM-Eyna",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM",
+      "event-request"
+    ],
+    "community_contribution": true,
+    "title_key": "issue 9474 onbeforedecreaseqtyformaxqty"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "64c3df259417372ddfc399f81d4d1fb861c07d6bcd348a3cc871272912441158"
+}

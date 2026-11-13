@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/9879",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fixes #8869: French sales reports must ignore comment lines when evaluating GetGoodsAndServicesText",
+  "url": "https://github.com/microsoft/BCApps/pull/9879",
+  "published_at": "2026-11-12T11:35:37Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-13T00:13:31.718Z"
+    }
+  },
+  "input_hash": "923a7b7d0ec31a519289db1caa90e39ef483c01b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9879,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "923a7b7d0ec31a519289db1caa90e39ef483c01b",
+    "author": "nicolassaleron",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "fixes 8869 french sales reports must ignore comment lines when evaluating getgoodsandservicestext"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2457,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2457",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-11-12T16:49:39Z",
+  "merge_commit_sha": "957ea1ea2e286bc966ac24c9f24035dbd30d72ed",
+  "author": "spetersenms",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Fixing codeunit discovery on PowerShell 5 for RunTests action.",
+  "body_hash": "ece0f3c74c6d2cbaccd2db30640035cf3e2ece7694ed3922c341a138c364c27d",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/RunTests/AlToolTestRunner.psm1",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Tests/AlToolTestRunner.Test.ps1",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "e2eTests/scenarios/SeparateTestAction/runtest.ps1",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 6,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 75,
+    "deletions": 7,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/RunTests/AlToolTestRunner.psm1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

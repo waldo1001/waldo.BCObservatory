@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13993",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Disable failing test CreatePaymentForVendorLedgerEntriesFilteredByRemainingAmountInSpanish",
+  "url": "https://github.com/microsoft/BCApps/pull/13993",
+  "published_at": "2026-11-12T13:42:48Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-13T00:13:31.718Z"
+    }
+  },
+  "input_hash": "51100a0ce4ce5ef0534ac69c96800fc0380e562b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13993,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "51100a0ce4ce5ef0534ac69c96800fc0380e562b",
+    "author": "mazhelez",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "disable failing test createpaymentforvendorledgerentriesfilteredbyremainingamountinspanish"
+  }
+}

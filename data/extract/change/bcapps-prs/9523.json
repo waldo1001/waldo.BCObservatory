@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9523",
+  "number": 9523,
+  "title": "Issue #9474  OnBeforeDecreaseQtyForMaxQty",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Added an event hook to allow extensions to intervene before the system decreases quantity for maximum quantity calculations in inventory offsetting.",
+  "key_points": [
+    "New OnBeforeDecreaseQtyForMaxQty event added to Inventory Profile Offsetting codeunit",
+    "Enables extensions to intercept and potentially modify the quantity decrease logic",
+    "Supports customization without modifying base application code",
+    "Follows standard Business Central event pattern for extensibility",
+    "No breaking changes to existing functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004396,
+    "changes_in_call": 1
+  }
+}

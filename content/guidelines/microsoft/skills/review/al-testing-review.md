@@ -14,16 +14,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T21:27:28.038Z"
+  at: "2026-11-13T00:14:06.430Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7e05c7004bcdddf4deaf907153bd18231955aa20
+  input_hash: 00854661c0031a9d22e0d3826f09e8cc322876e3
 evidence:
   - kind: guideline
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-testing-review.md
     title: "microsoft/BCQuality: AL testing review"
-    date: "2026-10-06"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    date: "2026-11-12"
+    commit: 416f1308b6a2b507d0ac29e33b53d321b5d0a170
     t: null
     quote: null
 links:
@@ -100,12 +100,12 @@ identifiers:
   - OpenNew
   - OpenView
   - OpenEdit
+  - TableData
   - ExpectedTestFieldError
   - IsFalse
   - OnAfterRemoveTableRelation
   - RemoveTableRelation
   - CopyStr
-  - GenerateRandomCodeWithLength
 ---
 
 # AL testing review
@@ -139,7 +139,7 @@ Narrow the relevant files to the subset that applies to the changes under review
 
 - The changed AL object names and types — especially codeunits with `Subtype = Test`, test runner codeunits with `TestIsolation`, test libraries, and codeunits that define UI handlers.
 - The changed methods and attributes, weighted toward `[Test]`, `[TransactionModel(...)]`, `[TestPermissions(...)]`, `[HandlerFunctions(...)]`, handler attributes, `asserterror`, `ExpectedError`, `ExpectedErrorCode`, fixture initialization, and test-library calls.
-- Tokens extracted from the diff that relate to testing (`Subtype = Test`, `Subtype = TestRunner`, `TestIsolation`, `TestPermissions`, `Restrictive`, `NonRestrictive`, `Disabled`, `Permissions Mock`, `Library - Lower Permissions`, `TransactionModel`, `AutoRollback`, `AutoCommit`, `Commit`, `asserterror`, `ExpectedError`, `ExpectedErrorCode`, `HandlerFunctions`, `ConfirmHandler`, `MessageHandler`, `StrMenuHandler`, `ModalPageHandler`, `SendNotificationHandler`, `RecallNotificationHandler`, `Enqueue`, `Dequeue`, `AssertEmpty`, `Initialize`, `IsInitialized`, `OnTestInitialize`, `LibrarySetupStorage`, `Library Assert`, `LibraryVariableStorage`, `LibrarySales`, `LibraryPurchase`, `LibraryERM`, `LibraryInventory`, `LibraryRandom`, `Library - Utility`, `LibraryUtility`, `GenerateGUID`, `GenerateRandomCode`, `RecordRef`, `RecRef.Open`, `IsEmpty`, `TestPage`, `.Visible(`, `.Enabled(`, `.Editable(`, `OpenNew`, `OpenView`, `OpenEdit`, `Init`, `Insert`).
+- Tokens extracted from the diff that relate to testing (`Subtype = Test`, `Subtype = TestRunner`, `TestIsolation`, `TestPermissions`, `Restrictive`, `NonRestrictive`, `Disabled`, `Permissions Mock`, `Library - Lower Permissions`, `TransactionModel`, `AutoRollback`, `AutoCommit`, `Commit`, `asserterror`, `ExpectedError`, `ExpectedErrorCode`, `HandlerFunctions`, `ConfirmHandler`, `MessageHandler`, `StrMenuHandler`, `ModalPageHandler`, `SendNotificationHandler`, `RecallNotificationHandler`, `Enqueue`, `Dequeue`, `AssertEmpty`, `Initialize`, `IsInitialized`, `OnTestInitialize`, `LibrarySetupStorage`, `Library Assert`, `LibraryVariableStorage`, `LibrarySales`, `LibraryPurchase`, `LibraryERM`, `LibraryInventory`, `LibraryRandom`, `Library - Utility`, `LibraryUtility`, `GenerateGUID`, `GenerateRandomCode`, `RecordRef`, `RecRef.Open`, `IsEmpty`, `TestPage`, `.Visible(`, `.Enabled(`, `.Editable(`, `OpenNew`, `OpenView`, `OpenEdit`, `Init`, `Insert`, `Your license does not grant you`, `TableData`, `entitlement`, `Purch. Inv. Header`, `Cust. Ledger Entry`, `Vendor Ledger Entry`).
 
 A file enters the candidate worklist when its `keywords` intersect the extracted tokens or its topic (derived from the index entry's `path`, `title`, and `description`) matches a changed object type. Read an article's full file — its `## Best Practice` / `## Anti Pattern` bodies — only after it makes the worklist; candidate selection uses the index alone. When the diff contains no testing-related changes by any of the above signals, return `outcome: "not-applicable"` without evaluating files.
 
@@ -154,6 +154,7 @@ The following targeted checks cover every current `testing` article. Treat each 
 - An `AutoCommit` test runs under a `Subtype = TestRunner` codeunit that omits `TestIsolation` or sets it to `Disabled`, leaving committed data between tests — `testisolation-belongs-on-the-test-runner`. Require runner/repository context; a standalone test file cannot prove which runner executes it.
 - A permission-sensitive test uses `TestPermissions = Disabled`, claims to test a restricted user without `"Permissions Mock"`/`"Library - Lower Permissions"`, or declares `[TestPermissions(...)]` without applying that context — `permission-tests-must-lower-the-execution-context`.
 - Test fixture code manually calls `Init`/`Insert`, invents keys or prerequisite records, or bypasses available `LibrarySales`, `LibraryPurchase`, `LibraryERM`, `LibraryInventory`, `LibraryRandom`, or equivalent library codeunits — `use-library-codeunits-for-test-fixtures`.
+- Test fixture code directly inserts into a non-temporary posted/ledger table (resolve the record target, for example `"Purch. Inv. Header"`), or supplied test-run evidence identifies a license/entitlement `TableData ... Insert` denial on that fixture path — `triage-posted-table-license-failures-against-baseline`. `Init`/`Insert` on ordinary setup/master records, temporary records, or unrelated license text alone do not trigger this targeted cue. For that same direct-write fixture defect, this article wins over `use-library-codeunits-for-test-fixtures` and the missing-mandatory-fields branch of `test-data-must-be-random-and-complete`; emit one causal finding, not duplicates for the same construction. Independently defective setup elsewhere still belongs to those articles.
 - A test codeunit's `Initialize` procedure exits on `IsInitialized` before per-test reset such as `LibraryVariableStorage.Clear`, `LibrarySetupStorage.Restore`, or `LibraryTestInitialize.OnTestInitialize`, or a `[Test]` method in a codeunit using that pattern does not call `Initialize()` first — `reset-per-test-state-before-the-isinitialized-guard`.
 - `asserterror` is added or changed without a following `Assert.ExpectedError`, `Assert.ExpectedErrorCode`, or a purpose-built assertion such as `ExpectedTestFieldError` — `asserterror-needs-expectederror-and-code`. Exclude `asserterror Assert.IsTrue(...)` / `asserterror Assert.IsFalse(...)` only when it is used solely to invert the guarded call's Boolean result (the same condition `use-assert-isfalse-not-asserterror-for-boolean-checks` cues on below, which wins for that shape) — not when the test expects the guarded Boolean-returning call itself to raise an error, which this rule still owns even though it happens to wrap an `Assert.IsTrue`/`IsFalse` call. Also exclude a trailing `asserterror Error(...)` used purely as an end-of-test rollback sentinel after a lazy `Initialize()` fixture already committed — that shape belongs to `commit-shared-test-fixture-inside-lazy-initialize`, which wins for it; the sentinel's own error text is not meant to be asserted against.
 - `asserterror` wraps `Assert.IsTrue(BooleanExpression, ...)` (or the `IsFalse` mirror) solely to invert the boolean result of the guarded call, rather than to assert that call itself raises an error — `use-assert-isfalse-not-asserterror-for-boolean-checks`.
@@ -271,4 +272,4 @@ The empty-corpus case produces:
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 416f130, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

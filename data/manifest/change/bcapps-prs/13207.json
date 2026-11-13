@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13207",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Skip missing and removed tables when loading record sets",
+  "url": "https://github.com/microsoft/BCApps/pull/13207",
+  "published_at": "2026-11-12T15:18:32Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-13T00:13:31.718Z"
+    }
+  },
+  "input_hash": "b2f2667a6654c8e4f136e8fcdc70430c28905a0a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13207,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b2f2667a6654c8e4f136e8fcdc70430c28905a0a",
+    "author": "haoranpb",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "skip missing and removed tables when loading record sets"
+  }
+}

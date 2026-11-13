@@ -1,0 +1,86 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/testing/triage-posted-table-license-failures-against-baseline.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Compare posted-table license failures with the same-environment baseline",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/triage-posted-table-license-failures-against-baseline.md",
+  "published_at": "2026-11-12T12:40:33.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-13T00:13:31.718Z"
+    },
+    "fetched": {
+      "at": "2026-11-13T00:13:59.757Z",
+      "blob": "7c4ce144e5b562c176ef35c45f6b224aef10393d",
+      "words": 450,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-13T00:14:06.344Z",
+      "path": "content/guidelines/microsoft/knowledge/testing/triage-posted-table-license-failures-against-baseline.md"
+    }
+  },
+  "input_hash": "7c4ce144e5b562c176ef35c45f6b224aef10393d",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/testing/triage-posted-table-license-failures-against-baseline.md",
+    "description": "A test fixture that directly inserts into a posted or ledger table can fail with Your license does not grant you the following permissions on TableData <table>: Insert when that environment's license allows only indirect insertion through an authorized object.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "license",
+      "entitlement",
+      "posted-tables",
+      "ledger",
+      "direct-insert",
+      "sandbox",
+      "saas",
+      "baseline",
+      "triage"
+    ],
+    "ai_usage": null,
+    "words": 450,
+    "identifiers": [
+      "TestPermissions"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "testing",
+      "keywords": [
+        "license",
+        "entitlement",
+        "posted-tables",
+        "ledger",
+        "direct-insert",
+        "sandbox",
+        "saas",
+        "baseline",
+        "triage"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A test fixture that directly inserts into a posted or ledger table can fail with Your license does not grant you the following permissions on TableData <table>: Insert when that environment's license allows only indirect insertion through an authorized object."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7c4ce144e5b562c176ef35c45f6b224aef10393d"
+}

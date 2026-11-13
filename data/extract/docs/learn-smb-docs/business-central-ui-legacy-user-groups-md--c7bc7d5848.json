@@ -1,53 +1,33 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-  "title": "Manage permissions through user groups (legacy)",
-  "blob": "97781718de14150ae0881d600a9c4bc3c9c5a781",
-  "summary": "Manage permissions through user groups, a legacy approach being replaced by security groups in version 25. Create, copy, and assign permission sets to user groups for role-based access control.",
+  "title": "Manage Permissions Through User Groups (Legacy)",
+  "blob": "a6821ed039527bcbf714d1162170f221bd3eea65",
+  "summary": "User groups (legacy) help manage permission sets across your company by bundling permissions that apply automatically to group members. In version 25 and later, security groups replace user groups, though versions 22-24 support converting user groups to permission sets or security groups.",
   "systems": [
     "administration"
   ],
   "topics": [
     "user groups",
-    "permissions",
     "permission sets",
-    "security",
-    "legacy",
-    "access control"
+    "security groups",
+    "access control",
+    "user management"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "User Groups"
-    },
-    {
-      "type": "page",
-      "name": "User Group Members"
-    },
-    {
-      "type": "page",
-      "name": "Users"
-    },
-    {
-      "type": "page",
-      "name": "Permission Set by User Group"
-    },
-    {
-      "type": "page",
-      "name": "License Configuration"
-    }
-  ],
+  "objects": [],
   "features": [
-    "user group management",
-    "permission set assignment",
-    "user group copying",
-    "security groups conversion",
-    "license configurations"
+    "Add users to user groups",
+    "Copy user groups with permission sets",
+    "Assign permission sets to user groups",
+    "Convert user groups to security groups",
+    "User Group Migration"
   ],
   "versions": [
     "2024 release wave 2",
     "version 25",
-    "2023 release wave 1"
+    "version 22",
+    "version 23",
+    "version 24"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -55,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003606,
-      "pages_in_call": 8
+      "cost_usd": 0.004512,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,0 +1,84 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13964,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13964",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-12T16:39:16Z",
+  "merge_commit_sha": "f55d8a5257597718947d23397e579ccde8470a5b",
+  "author": "VolodySyn",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Adjust relevance score for new embedding model",
+  "body_hash": "e343845a38002ef0fcbc27f62433e353b693c01253962ea36d2007333ea109e9",
+  "fixes_issues": [],
+  "work_items": [
+    658841
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Search/Search.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/Search/Search.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 7,
+    "deletions": 7,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Search/Search.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7333",
+        "type": "codeunit",
+        "id": 7333,
+        "name": "Search",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "codeunit/7333"
+      },
+      {
+        "path": "src/Apps/W1/SalesLinesSuggestions/app/Search/Search.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7282",
+        "type": "codeunit",
+        "id": 7282,
+        "name": "Search",
+        "app": "SalesLinesSuggestions",
+        "cc": "w1",
+        "page": "codeunit/7282"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory",
+    "sales"
+  ],
+  "apps": [
+    "CreateProductInformationWithCopilot",
+    "SalesLinesSuggestions"
+  ]
+}

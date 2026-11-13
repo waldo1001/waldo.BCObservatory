@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Manage permissions through user groups (legacy)",
+  "title": "Manage Permissions Through User Groups (Legacy)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
-  "published_at": "2025-08-21T10:53:19.000Z",
+  "published_at": "2026-11-12T14:29:22.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.021Z",
-      "blob": "97781718de14150ae0881d600a9c4bc3c9c5a781",
-      "words": 1070,
+      "at": "2026-11-13T00:14:23.949Z",
+      "blob": "a6821ed039527bcbf714d1162170f221bd3eea65",
+      "words": 1033,
       "forms": 19
     },
     "extracted": {
-      "at": "2026-10-06T19:11:13.783Z",
+      "at": "2026-11-13T00:14:34.721Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.003606
+      "objects": 0,
+      "cost_usd": 0.004512
     },
     "summarized": {
-      "at": "2026-10-06T19:11:13.798Z",
+      "at": "2026-11-13T00:14:40.714Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:11:13.799Z",
+      "at": "2026-11-13T00:14:40.715Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:11:13.800Z",
+      "at": "2026-11-13T00:14:40.716Z",
       "page": false
     }
   },
-  "input_hash": "97781718de14150ae0881d600a9c4bc3c9c5a781",
+  "input_hash": "a6821ed039527bcbf714d1162170f221bd3eea65",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ui-legacy-user-groups.md",
-    "description": "This article describes how to use users groups to define user permissions.",
-    "ms_date": "2025-05-28",
+    "description": "Manage legacy user groups and permission sets in Business Central version 24 and earlier, and understand the transition to security groups.",
+    "ms_date": "2026-11-12",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -150,12 +150,12 @@
       "security",
       "permissions"
     ],
-    "ai_usage": null,
-    "words": 1070,
+    "ai_usage": "ai-assisted",
+    "words": 1033,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "81234d138918c20c4f118b14df13a87ff07e82a613dd38dc0548d7d72b231f91"
+  "output_hash": "01595fab1878fdc1e5827e88281824a3fc132b347ea2b4f12077fc4e4d7ad282"
 }

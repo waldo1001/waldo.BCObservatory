@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13467",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x[All-e]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version",
+  "url": "https://github.com/microsoft/BCApps/pull/13467",
+  "published_at": "2026-11-12T10:11:44Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-13T00:13:31.718Z"
+    }
+  },
+  "input_hash": "767fe5139708ab07d29eb48d189cd09990f41b7f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13467,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "767fe5139708ab07d29eb48d189cd09990f41b7f",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "29 x all e payment discount with prices incl vat provides unexpected results in the spanish version"
+  }
+}

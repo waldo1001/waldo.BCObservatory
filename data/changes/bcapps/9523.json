@@ -1,0 +1,75 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9523,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9523",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-12T21:45:58Z",
+  "merge_commit_sha": "4075867638fb5d9f735b41b46b86b92aa5300fe8",
+  "author": "MiguelLM-Eyna",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM",
+    "event-request"
+  ],
+  "community_contribution": true,
+  "title": "Issue #9474  OnBeforeDecreaseQtyForMaxQty",
+  "body_hash": "62810f2eef5db321780af220466f0bb1e8d086cbc64374690bf4181de7db6dad",
+  "fixes_issues": [
+    9474
+  ],
+  "work_items": [
+    647953
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/InventoryProfileOffsetting.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 13,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/InventoryProfileOffsetting.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000854",
+        "type": "codeunit",
+        "id": 99000854,
+        "name": "Inventory Profile Offsetting",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000854"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ],
+  "issues": [
+    {
+      "number": 9474,
+      "title": "[Extensibility Request] Add OnBeforeDecreaseQtyForMaxQty event in Codeunit 99000854 \"Inventory Profile Offsetting\"",
+      "state": "closed"
+    }
+  ]
+}

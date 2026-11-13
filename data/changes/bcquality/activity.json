@@ -1,133 +1,29 @@
 {
   "open": [
     {
-      "number": 181,
-      "title": "Clarify restart-safe batches and scripted UI handler tests",
-      "url": "https://github.com/microsoft/BCQuality/pull/181",
+      "number": 273,
+      "title": "knowledge(style): SetFilter date operands as replacement values; product name via ProductName",
+      "url": "https://github.com/microsoft/BCQuality/pull/273",
       "base": "main",
       "major": null,
-      "author": "gggdttt",
+      "author": "MichaelDieringer",
       "labels": [],
       "draft": false,
-      "created_at": "2026-09-14T07:30:02Z",
-      "updated_at": "2026-10-26T17:54:05Z",
+      "created_at": "2026-11-12T21:12:59Z",
+      "updated_at": "2026-11-12T21:13:00Z",
       "community_contribution": false
     },
     {
-      "number": 250,
-      "title": "Narrow AL review facts and require purposeful integration events",
-      "url": "https://github.com/microsoft/BCQuality/pull/250",
+      "number": 272,
+      "title": "knowledge(data-modeling): Init() keeps the primary key; recompute an editable derived field only while unedited",
+      "url": "https://github.com/microsoft/BCQuality/pull/272",
       "base": "main",
       "major": null,
-      "author": "gggdttt",
-      "labels": [],
-      "draft": true,
-      "created_at": "2026-10-22T08:50:10Z",
-      "updated_at": "2026-10-23T08:30:57Z",
-      "community_contribution": false
-    },
-    {
-      "number": 248,
-      "title": "knowledge: improve review precision from BCApps PR 12152-neg-pr12152-20261020 feedback",
-      "url": "https://github.com/microsoft/BCQuality/pull/248",
-      "base": "main",
-      "major": null,
-      "author": "gggdttt",
-      "labels": [],
-      "draft": true,
-      "created_at": "2026-10-20T14:08:13Z",
-      "updated_at": "2026-10-22T09:05:37Z",
-      "community_contribution": false
-    },
-    {
-      "number": 245,
-      "title": "knowledge: improve review precision from BCApps PR 12261-neg-pr12261-20261020 feedback",
-      "url": "https://github.com/microsoft/BCQuality/pull/245",
-      "base": "main",
-      "major": null,
-      "author": "gggdttt",
-      "labels": [],
-      "draft": true,
-      "created_at": "2026-10-20T13:35:54Z",
-      "updated_at": "2026-10-22T09:05:26Z",
-      "community_contribution": false
-    },
-    {
-      "number": 244,
-      "title": "knowledge: improve review precision from BCApps PR 12254-neg-pr12254-20261020 feedback",
-      "url": "https://github.com/microsoft/BCQuality/pull/244",
-      "base": "main",
-      "major": null,
-      "author": "gggdttt",
-      "labels": [],
-      "draft": true,
-      "created_at": "2026-10-20T12:57:04Z",
-      "updated_at": "2026-10-22T09:05:14Z",
-      "community_contribution": false
-    },
-    {
-      "number": 243,
-      "title": "knowledge: improve review precision from BCApps PR 11904-neg-pr11904-20261020 feedback",
-      "url": "https://github.com/microsoft/BCQuality/pull/243",
-      "base": "main",
-      "major": null,
-      "author": "gggdttt",
-      "labels": [],
-      "draft": true,
-      "created_at": "2026-10-20T12:09:16Z",
-      "updated_at": "2026-10-22T09:05:01Z",
-      "community_contribution": false
-    },
-    {
-      "number": 242,
-      "title": "knowledge: improve review precision from BCApps PR 12207-neg-pr12207-20261020 feedback",
-      "url": "https://github.com/microsoft/BCQuality/pull/242",
-      "base": "main",
-      "major": null,
-      "author": "gggdttt",
-      "labels": [],
-      "draft": true,
-      "created_at": "2026-10-20T11:45:31Z",
-      "updated_at": "2026-10-22T09:04:49Z",
-      "community_contribution": false
-    },
-    {
-      "number": 241,
-      "title": "knowledge: improve review precision from BCApps PR 12418-neg-pr12418-20261020 feedback",
-      "url": "https://github.com/microsoft/BCQuality/pull/241",
-      "base": "main",
-      "major": null,
-      "author": "gggdttt",
-      "labels": [],
-      "draft": true,
-      "created_at": "2026-10-20T11:24:57Z",
-      "updated_at": "2026-10-22T09:04:38Z",
-      "community_contribution": false
-    },
-    {
-      "number": 240,
-      "title": "knowledge: improve review precision from BCApps PR 11555-neg-pr11555-20261020 feedback",
-      "url": "https://github.com/microsoft/BCQuality/pull/240",
-      "base": "main",
-      "major": null,
-      "author": "gggdttt",
-      "labels": [],
-      "draft": true,
-      "created_at": "2026-10-20T10:59:43Z",
-      "updated_at": "2026-10-22T09:04:26Z",
-      "community_contribution": false
-    },
-    {
-      "number": 220,
-      "title": "Normalize verified citation IDs in accepted report copies",
-      "url": "https://github.com/microsoft/BCQuality/pull/220",
-      "base": "main",
-      "major": null,
-      "author": "gggdttt",
+      "author": "MichaelDieringer",
       "labels": [],
       "draft": false,
-      "created_at": "2026-10-05T13:15:47Z",
-      "updated_at": "2026-10-06T08:52:11Z",
+      "created_at": "2026-11-12T21:12:43Z",
+      "updated_at": "2026-11-12T21:12:44Z",
       "community_contribution": false
     },
     {
@@ -140,33 +36,7 @@
       "labels": [],
       "draft": true,
       "created_at": "2026-10-02T12:31:33Z",
-      "updated_at": "2026-10-05T10:34:26Z",
-      "community_contribution": false
-    },
-    {
-      "number": 140,
-      "title": "knowledge(security): a guarded Text credential seam is legitimate when SecretText cannot flow end to end",
-      "url": "https://github.com/microsoft/BCQuality/pull/140",
-      "base": "main",
-      "major": null,
-      "author": "NavNab",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-08-27T14:06:39Z",
-      "updated_at": "2026-09-15T07:53:42Z",
-      "community_contribution": false
-    },
-    {
-      "number": 141,
-      "title": "knowledge(testing): license-entitlement failures on posted tables in a SaaS test run are environmental",
-      "url": "https://github.com/microsoft/BCQuality/pull/141",
-      "base": "main",
-      "major": null,
-      "author": "NavNab",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-08-27T14:06:47Z",
-      "updated_at": "2026-09-15T07:51:34Z",
+      "updated_at": "2026-11-12T10:14:53Z",
       "community_contribution": false
     },
     {
@@ -185,12 +55,39 @@
   ],
   "issues": [
     {
-      "number": 259,
-      "title": "al-knowledge: add a reproducible answer-quality evaluation",
-      "url": "https://github.com/microsoft/BCQuality/issues/259",
+      "number": 271,
+      "title": "Review fixtures: give the least-privilege API samples a stable SystemId key",
+      "url": "https://github.com/microsoft/BCQuality/issues/271",
       "labels": [],
       "author": "JesperSchulz",
-      "created_at": "2026-11-04T09:45:39Z",
+      "created_at": "2026-11-12T10:02:09Z",
+      "comments": 0
+    },
+    {
+      "number": 270,
+      "title": "Review fixtures: isolate the covering-key pair from filter and aggregation rules",
+      "url": "https://github.com/microsoft/BCQuality/issues/270",
+      "labels": [],
+      "author": "JesperSchulz",
+      "created_at": "2026-11-12T10:02:08Z",
+      "comments": 0
+    },
+    {
+      "number": 269,
+      "title": "Review fixtures: make the GIVEN setup pair demonstrate a real missing precondition",
+      "url": "https://github.com/microsoft/BCQuality/issues/269",
+      "labels": [],
+      "author": "JesperSchulz",
+      "created_at": "2026-11-12T10:02:08Z",
+      "comments": 0
+    },
+    {
+      "number": 268,
+      "title": "Review fixtures: fix missing tooltips in the page examples",
+      "url": "https://github.com/microsoft/BCQuality/issues/268",
+      "labels": [],
+      "author": "JesperSchulz",
+      "created_at": "2026-11-12T10:02:08Z",
       "comments": 0
     },
     {
@@ -201,15 +98,6 @@
       "author": "fmoric",
       "created_at": "2026-10-02T19:48:56Z",
       "comments": 1
-    },
-    {
-      "number": 201,
-      "title": "Review fixtures: three samples trip sibling articles, so recall and clean rate 1.0 are out of reach for a faithful run",
-      "url": "https://github.com/microsoft/BCQuality/issues/201",
-      "labels": [],
-      "author": "Nikolaj1407",
-      "created_at": "2026-09-26T20:50:43Z",
-      "comments": 4
     },
     {
       "number": 165,
@@ -238,24 +126,6 @@
       "labels": [],
       "author": "RadekZebrowski",
       "created_at": "2026-07-14T12:30:38Z",
-      "comments": 1
-    },
-    {
-      "number": 106,
-      "title": "Review statistics",
-      "url": "https://github.com/microsoft/BCQuality/issues/106",
-      "labels": [],
-      "author": "RadekZebrowski",
-      "created_at": "2026-07-14T12:19:17Z",
-      "comments": 1
-    },
-    {
-      "number": 104,
-      "title": "Feedback loop",
-      "url": "https://github.com/microsoft/BCQuality/issues/104",
-      "labels": [],
-      "author": "RadekZebrowski",
-      "created_at": "2026-07-14T12:06:54Z",
       "comments": 1
     }
   ],

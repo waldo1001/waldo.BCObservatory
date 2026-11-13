@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/13720",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Split the MS-STD configuration package into functional-area packages",
+  "url": "https://github.com/microsoft/BCApps/pull/13720",
+  "published_at": "2026-11-12T11:22:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-13T00:13:31.718Z"
+    }
+  },
+  "input_hash": "2601f6bc4b2cf10add9e1f19d004e2e57114fce3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13720,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2601f6bc4b2cf10add9e1f19d004e2e57114fce3",
+    "author": "Bertverbeek4PS",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "split the ms std configuration package into functional area packages"
+  }
+}
