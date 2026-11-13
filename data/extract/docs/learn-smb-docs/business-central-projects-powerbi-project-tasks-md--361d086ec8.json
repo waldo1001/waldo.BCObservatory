@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/projects-powerbi-project-tasks.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-tasks",
-  "title": "Project Tasks (Power BI report)",
-  "blob": "bbdcb94eef4193ba3f8a2529ef11c961b492bdcc",
-  "summary": "Project Tasks Power BI report breaks down each project to show task-level metrics for progress tracking and resource decisions. Project managers use it to monitor costs, pricing, and budget compliance.",
+  "title": "Project Tasks for Project Managers Power BI Report",
+  "blob": "ed2eed0821f2dd8a99ac8c4bceb021a79b856e7e",
+  "summary": "The Project Tasks Power BI report breaks down project metrics and KPIs for tasks to help project managers track progress, manage resources, and monitor costs against budget.",
   "systems": [
     "projects",
     "reporting"
@@ -11,36 +11,37 @@
   "topics": [
     "power bi",
     "project management",
-    "tasks",
-    "budget",
-    "kpi"
+    "key performance indicators",
+    "task tracking",
+    "cost monitoring"
   ],
   "objects": [
     {
-      "type": "table",
+      "type": "other",
       "name": "Job"
     },
     {
-      "type": "table",
+      "type": "other",
       "name": "Job Task"
     },
     {
-      "type": "table",
+      "type": "other",
       "name": "Job Planning Lines"
     },
     {
-      "type": "table",
+      "type": "other",
       "name": "Job Ledger Entries"
     }
   ],
   "features": [
-    "Actual Total Price",
-    "Actual Total Cost",
-    "Actual Profit",
-    "Actual Profit Margin %",
+    "Total Usage Price",
+    "Total Usage Cost",
+    "Total Usage Profit",
+    "Total Usage Profit Margin %",
     "Realization %",
-    "Billable metrics",
-    "Budget Total Cost"
+    "Total Invoiced Price",
+    "Total Billable Price",
+    "Total Budget Cost"
   ],
   "versions": [],
   "parts": 1,
@@ -49,8 +50,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009073,
-      "pages_in_call": 5
+      "cost_usd": 0.003817,
+      "pages_in_call": 1
     }
   ]
 }

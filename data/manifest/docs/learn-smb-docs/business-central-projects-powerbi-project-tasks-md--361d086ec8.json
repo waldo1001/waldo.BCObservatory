@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Project Tasks (Power BI report)",
+  "title": "Project Tasks for Project Managers Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-tasks",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.313Z",
-      "blob": "bbdcb94eef4193ba3f8a2529ef11c961b492bdcc",
-      "words": 175,
+      "at": "2026-11-13T00:19:59.378Z",
+      "blob": "ed2eed0821f2dd8a99ac8c4bceb021a79b856e7e",
+      "words": 178,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:45.162Z",
+      "at": "2026-11-13T00:20:04.017Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.009073
+      "cost_usd": 0.003817
     },
     "summarized": {
-      "at": "2026-10-06T19:04:45.176Z",
+      "at": "2026-11-13T00:20:04.018Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:45.177Z",
+      "at": "2026-11-13T00:20:04.019Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:45.178Z",
+      "at": "2026-11-13T00:20:09.043Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/projects-powerbi-project-tasks.md",
-    "description": "The Project Tasks report breaks down each project and their tasks.",
-    "ms_date": "2025-09-25",
+    "description": "Analyze usage costs, prices, profit, realization, and budgets by project task in Business Central with the Project Tasks Power BI report.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 175,
+    "ai_usage": "ai-assisted",
+    "words": 178,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "26ce668e3d44088dd2efd808b028ce45ba013424b1b61d3be519e42b7a9723f3"
+  "output_hash": "d672b4e3b9fb4df535e006f1dd16d6064f3f91ce052416db3fd4b741291e2a4c"
 }

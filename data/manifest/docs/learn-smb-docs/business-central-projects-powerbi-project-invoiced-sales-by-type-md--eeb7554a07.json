@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Project Invoiced Sales by Type (Power BI report)",
+  "title": "Project Invoiced Sales by Type Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-type",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.291Z",
-      "blob": "c12bb695c36f6bbfe51e48ef9949cc07c45b2c98",
-      "words": 188,
+      "at": "2026-11-13T00:19:54.025Z",
+      "blob": "d4e3218c871cfc8b5badf5b29bf5871792d0805a",
+      "words": 203,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:47.530Z",
+      "at": "2026-11-13T00:19:59.928Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.00557
+      "objects": 3,
+      "cost_usd": 0.003425
     },
     "summarized": {
-      "at": "2026-10-06T19:04:49.286Z",
+      "at": "2026-11-13T00:19:59.929Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:49.287Z",
+      "at": "2026-11-13T00:19:59.931Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:49.288Z",
+      "at": "2026-11-13T00:19:59.932Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/projects-powerbi-project-invoiced-sales-by-type.md",
     "description": "The Project Invoiced Sales by Type report describes your sales activities based on each project and each type of sales line.",
-    "ms_date": "2025-09-25",
-    "ms_topic": "article",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37038_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 188,
+    "ai_usage": "ai-assisted",
+    "words": 203,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bf6f7a6a123c358889d3cd94bf118ac040a1b5b033939edf9f286ccc4d712a09"
+  "output_hash": "852ad3a9bf19a98c713de391e5e877c35c79e7c313c91b8358e2003b8c862855"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Project Overview (Power BI report)",
+  "title": "Project Overview Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-overview",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.295Z",
-      "blob": "ff896bb9cbd2b449e4642dd79fab66714c64ec43",
-      "words": 261,
+      "at": "2026-11-13T00:19:54.053Z",
+      "blob": "3fc0f22aa6fe3851e6cf1541bebfa3cd03c32b61",
+      "words": 268,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:47.531Z",
+      "at": "2026-11-13T00:20:01.725Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.00557
+      "cost_usd": 0.00666
     },
     "summarized": {
-      "at": "2026-10-06T19:04:49.289Z",
+      "at": "2026-11-13T00:20:01.725Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:49.290Z",
+      "at": "2026-11-13T00:20:01.726Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:49.291Z",
+      "at": "2026-11-13T00:20:01.727Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/projects-powerbi-project-overview.md",
-    "description": "The Project Overview report highlights key high-level information about your organization's project activity.",
-    "ms_date": "2025-09-25",
+    "description": "Review project counts, usage costs, profit, and realization in Business Central with the Project Overview Power BI report for managers and leaders.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 261,
+    "ai_usage": "ai-assisted",
+    "words": 268,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "820af26a492d41722518148ada5cbf66e8150270df468ee13a34fdc144403421"
+  "output_hash": "78c2e95befe7ab71863eca86a69cef05f8a7549124da45093d5fae021c702737"
 }

@@ -1,20 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/projects-powerbi-project-invoiced-sales-by-type.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-invoiced-sales-by-type",
-  "title": "Project Invoiced Sales by Type (Power BI report)",
-  "blob": "c12bb695c36f6bbfe51e48ef9949cc07c45b2c98",
-  "summary": "Project Invoiced Sales by Type Power BI report breaks down sales by type (resources, items, G/L accounts) to show how different sales line types perform across projects.",
+  "title": "Project Invoiced Sales by Type Power BI Report",
+  "blob": "d4e3218c871cfc8b5badf5b29bf5871792d0805a",
+  "summary": "The Project Invoiced Sales by Type Power BI report breaks down invoiced sales by resource, item, and general ledger account types, helping project managers track billing and performance across different sales entry types.",
   "systems": [
     "projects",
-    "reporting",
-    "sales"
+    "reporting"
   ],
   "topics": [
     "power bi",
-    "project sales",
-    "sales types",
-    "resource tracking",
-    "invoicing"
+    "project invoicing",
+    "sales analysis",
+    "project management",
+    "key performance indicators"
   ],
   "objects": [
     {
@@ -24,13 +23,18 @@
     {
       "type": "table",
       "name": "Job Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Job Planning Line"
     }
   ],
   "features": [
-    "Sales by type breakdown",
-    "Resource charging tracking",
-    "Item sales analysis",
-    "G/L account sales"
+    "Invoiced sales breakdown by type",
+    "Resource billing tracking",
+    "Item and G/L account measurement",
+    "KPI metrics for projects",
+    "Profit and margin analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00557,
-      "pages_in_call": 7
+      "cost_usd": 0.003425,
+      "pages_in_call": 1
     }
   ]
 }

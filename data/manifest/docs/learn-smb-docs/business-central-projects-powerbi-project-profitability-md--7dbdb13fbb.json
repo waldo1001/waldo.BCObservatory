@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Project Profitability (Power BI report)",
+  "title": "Project Profitability Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-profitability",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.305Z",
-      "blob": "b9671a9aa40fd3da0643a83fb6fcadb68cbec4ca",
-      "words": 191,
+      "at": "2026-11-13T00:19:54.063Z",
+      "blob": "d1b66b31a76fa4e88ef1c2325bba87df1c3613da",
+      "words": 195,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:47.533Z",
+      "at": "2026-11-13T00:20:00.006Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.00557
+      "objects": 5,
+      "cost_usd": 0.003773
     },
     "summarized": {
-      "at": "2026-10-06T19:04:49.292Z",
+      "at": "2026-11-13T00:20:00.010Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:49.293Z",
+      "at": "2026-11-13T00:20:00.011Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:49.294Z",
+      "at": "2026-11-13T00:20:00.013Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/projects-powerbi-project-profitability.md",
-    "description": "The Project Profitability report highlights cost and pricing information for each project.",
-    "ms_date": "2025-09-25",
-    "ms_topic": "article",
+    "description": "Compare project usage, budgeted, and invoiced costs and prices in Business Central with the Project Profitability Power BI report for project leaders.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37035_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 191,
+    "ai_usage": "ai-assisted",
+    "words": 195,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "56d35ffd63ae7795753c120e1c98ee711ddea3fcb0577f3698613f3f4a4d832d"
+  "output_hash": "8385196fbbe5880df71730ab46d7b129061ad8c37cbfb308bd5b4ae04435b736"
 }

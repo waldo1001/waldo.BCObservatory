@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Actual vs. Budget (Power BI Report)",
+  "title": "Actual vs. Budget Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.935Z",
-      "blob": "4f5bd7ef4bed28bed3aadc1134095499cf642074",
-      "words": 377,
+      "at": "2026-11-13T00:19:59.988Z",
+      "blob": "e07cbf3ff9c743f33f7fa6614a923b4a9008f31d",
+      "words": 376,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:08.827Z",
+      "at": "2026-11-13T00:20:09.191Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 6,
-      "cost_usd": 0.00312
+      "cost_usd": 0.004091
     },
     "summarized": {
-      "at": "2026-10-06T18:52:10.592Z",
+      "at": "2026-11-13T00:20:09.195Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:10.593Z",
+      "at": "2026-11-13T00:20:09.196Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:10.594Z",
+      "at": "2026-11-13T00:20:09.197Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-actual-vs-budget.md",
-    "description": "The Actual vs. Budget report provides a clear overview of your organization's purchase performance by comparing actual purchase amount and quantity with the budget figures.",
-    "ms_date": "2024-10-31",
+    "description": "Compare actual purchase amounts with budgets in the Power BI Purchases app to identify spending variances by item and item category.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 377,
+    "ai_usage": "ai-assisted",
+    "words": 376,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3d25f2a95dec8815f5481af0087af331d6dba86854c2b9fe658af0252c544edd"
+  "output_hash": "330348dd0fad561f0930c7b6b56121c399af9c2feb9b6bedd0d0923ba42969f6"
 }

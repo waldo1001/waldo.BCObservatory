@@ -1,21 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/projects-powerbi-project-profitability.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-profitability",
-  "title": "Project Profitability (Power BI report)",
-  "blob": "b9671a9aa40fd3da0643a83fb6fcadb68cbec4ca",
-  "summary": "Project Profitability Power BI report shows profit statistics per project comparing actual costs against prices to identify high and low performing projects.",
+  "title": "Project Profitability Power BI Report",
+  "blob": "d1b66b31a76fa4e88ef1c2325bba87df1c3613da",
+  "summary": "The Project Profitability Power BI report displays statistics and performance metrics for projects, showing actual costs against prices to help leadership teams identify high and low performing projects and ensure profit goals are met.",
   "systems": [
     "projects",
     "reporting"
   ],
   "topics": [
     "power bi",
-    "profitability",
+    "project profitability",
+    "kpis",
+    "profit margin",
     "project performance",
-    "cost analysis",
-    "budget variance"
+    "cost tracking"
   ],
   "objects": [
+    {
+      "type": "report",
+      "name": "Project Profitability"
+    },
     {
       "type": "table",
       "name": "Job"
@@ -26,15 +31,22 @@
     },
     {
       "type": "table",
-      "name": "Job Ledger Entry"
+      "name": "Job Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "Job Planning Line"
     }
   ],
   "features": [
-    "Invoiced profit margin",
-    "Usage profit margin",
-    "Budget profit tracking",
-    "Cost comparison",
-    "Price analysis"
+    "Total Invoiced Profit Margin %",
+    "Total Usage Profit Margin %",
+    "Total Usage Profit",
+    "Total Budget Profit",
+    "Total Invoiced Profit",
+    "Total Usage Cost",
+    "Total Usage Price",
+    "Total Budget Price"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +55,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00557,
-      "pages_in_call": 7
+      "cost_usd": 0.003773,
+      "pages_in_call": 1
     }
   ]
 }

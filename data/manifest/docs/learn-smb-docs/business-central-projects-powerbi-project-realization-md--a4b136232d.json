@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Project Realization (Power BI report)",
+  "title": "Project Realization Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-realization",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.309Z",
-      "blob": "911f860691412352681cf4e729f2526899a0a60a",
-      "words": 191,
+      "at": "2026-11-13T00:19:54.076Z",
+      "blob": "a29bdf34999ac09b667b3cc74147fba288eee2d5",
+      "words": 209,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:45.161Z",
+      "at": "2026-11-13T00:19:59.771Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.009073
+      "objects": 3,
+      "cost_usd": 0.003603
     },
     "summarized": {
-      "at": "2026-10-06T19:04:45.171Z",
+      "at": "2026-11-13T00:19:59.773Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:45.172Z",
+      "at": "2026-11-13T00:19:59.774Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:45.174Z",
+      "at": "2026-11-13T00:19:59.775Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/projects-powerbi-project-realization.md",
-    "description": "The Project Realization report showcases the completion for each project.",
-    "ms_date": "2025-09-25",
-    "ms_topic": "article",
+    "description": "Compare billable project prices with usage prices in Business Central, and analyze realization and price variances with the Project Realization report.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37036_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 191,
+    "ai_usage": "ai-assisted",
+    "words": 209,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cc194c256932b6f7024e9c10a054458830b12e1725c0266754bbc5d8b3cd6860"
+  "output_hash": "dc857752578857ff730770c4098993178762d94498403e0a9ddbf3b557ab07bb"
 }

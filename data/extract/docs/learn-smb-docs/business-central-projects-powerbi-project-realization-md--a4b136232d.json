@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/projects-powerbi-project-realization.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-realization",
-  "title": "Project Realization (Power BI report)",
-  "blob": "911f860691412352681cf4e729f2526899a0a60a",
-  "summary": "Project Realization Power BI report shows how billing performs against project costs by comparing invoiced to usage prices. Leadership, project managers, and CFOs use it to identify projects needing invoicing and ensure healthy turnover.",
+  "title": "Project Realization Power BI Report",
+  "blob": "a29bdf34999ac09b667b3cc74147fba288eee2d5",
+  "summary": "The Project Realization Power BI report compares billable prices from project planning against recorded usage to calculate project profitability metrics like realization percentage and variance. Use it to identify projects where billable prices don't cover usage costs.",
   "systems": [
     "projects",
     "reporting",
@@ -11,9 +11,10 @@
   ],
   "topics": [
     "power bi",
-    "project management",
-    "billing",
+    "reporting",
+    "project analytics",
     "realization",
+    "profitability",
     "kpi"
   ],
   "objects": [
@@ -24,13 +25,16 @@
     {
       "type": "table",
       "name": "Job Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "Job Planning Line"
     }
   ],
   "features": [
-    "Realization %",
+    "Realization (%)",
     "Realization Variance",
     "Total Usage Price",
-    "Total Invoiced Price",
     "Total Billable Price"
   ],
   "versions": [],
@@ -40,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009073,
-      "pages_in_call": 5
+      "cost_usd": 0.003603,
+      "pages_in_call": 1
     }
   ]
 }

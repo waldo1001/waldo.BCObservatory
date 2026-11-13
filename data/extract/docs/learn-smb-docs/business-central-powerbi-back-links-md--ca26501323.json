@@ -1,30 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/powerbi-back-links.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/powerbi-back-links",
-  "title": "Use back links to explore aggregated data in visuals",
-  "blob": "41996d9a739b2b067a0a0cb47d4ef0730578a138",
-  "summary": "Back links in Power BI reports enable navigation from aggregated data visuals to transactional source documents in Business Central for validation and reconciliation.",
+  "title": "Use Power BI Back Links to Explore Business Central Data",
+  "blob": "3c9fb3c4e5aab4a8ec18b61d549611289367a5b1",
+  "summary": "Power BI back links enable users to navigate from aggregated Power BI report data to transactional source documents and entries in Business Central for validation, auditing, and reconciliation.",
   "systems": [
-    "reporting",
-    "integration"
+    "reporting"
   ],
   "topics": [
     "power bi",
     "back links",
     "data exploration",
-    "drill down",
-    "aggregated data",
-    "source documents"
+    "drill-down",
+    "reporting integration",
+    "data reconciliation"
   ],
   "objects": [],
   "features": [
-    "back links",
-    "data drill-down",
-    "URL filtering",
-    "transaction navigation",
-    "document navigation",
-    "DAX measures",
-    "filter context"
+    "Back links in tables and matrices",
+    "Dynamic DAX measures",
+    "URL filtering by date and key fields",
+    "G/L entry filtering",
+    "Dimension set filters",
+    "URL length handling"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003275,
-      "pages_in_call": 8
+      "cost_usd": 0.00357,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Daily Purchases (Power BI Report)",
+  "title": "Daily Purchases Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-daily-purchases",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.940Z",
-      "blob": "b132f221b39ed691fbc4d20a2f21ae02f2bd0575",
+      "at": "2026-11-13T00:20:01.761Z",
+      "blob": "c11de00f0b2a6b87c5521215597b8f715acd967a",
       "words": 276,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:08.828Z",
+      "at": "2026-11-13T00:20:09.100Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.00312
+      "objects": 0,
+      "cost_usd": 0.003197
     },
     "summarized": {
-      "at": "2026-10-06T18:52:10.595Z",
+      "at": "2026-11-13T00:20:09.116Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:10.595Z",
+      "at": "2026-11-13T00:20:09.125Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:10.596Z",
+      "at": "2026-11-13T00:20:09.126Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-daily-purchases.md",
-    "description": "The Daily Purchases report provides a comprehensive overview of your organization's purchase activities on specific days.",
-    "ms_date": "2024-10-31",
+    "description": "Analyze daily purchase amounts and quantities in the Power BI Purchases app to identify spending patterns across days, weeks, months, and years.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 276,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9b7cde107e377b1d4a3351e1b9e71c0721e3d75d064c8a0dcdfdcc853b2a8a4c"
+  "output_hash": "4d2768a8b8c9f862213f3422566bac4ad7b4c7c6694a9ed7c2ce023fe952ca64"
 }

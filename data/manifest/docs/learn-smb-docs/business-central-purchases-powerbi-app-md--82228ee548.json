@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Power BI Purchase app",
+  "title": "Power BI Purchases App for Purchasing Analytics",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.823Z",
-      "blob": "c870fa2b4589554f843af819117e726e8f1f82de",
-      "words": 1132,
-      "forms": 21
+      "at": "2026-11-13T00:20:00.071Z",
+      "blob": "8b721c08b4383d34e4a5974758cf91bc179639e2",
+      "words": 1125,
+      "forms": 20
     },
     "extracted": {
-      "at": "2026-10-06T14:21:04.320Z",
+      "at": "2026-11-13T00:20:09.207Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00471
+      "cost_usd": 0.005335
     },
     "summarized": {
-      "at": "2026-10-06T14:21:04.328Z",
+      "at": "2026-11-13T00:20:09.208Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:21:04.328Z",
+      "at": "2026-11-13T00:20:09.209Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:21:04.329Z",
+      "at": "2026-11-13T00:20:09.211Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-app.md",
-    "description": "The Power BI Purchases app provides comprehensive analytics on purchases to stakeholders at all levels of your organization.",
-    "ms_date": "2025-12-16",
-    "ms_topic": "concept-article",
+    "description": "Explore purchasing reports in the Power BI Purchases app to compare spending, track budgets, and analyze vendors, items, and purchasing trends.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "overview",
     "search_form": [
       {
         "raw": "37061_Primary",
@@ -56,11 +56,6 @@
       {
         "raw": "37009",
         "id": 37009,
-        "kind": null
-      },
-      {
-        "raw": "37010",
-        "id": 37010,
         "kind": null
       },
       {
@@ -157,12 +152,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 1132,
+    "ai_usage": "ai-assisted",
+    "words": 1125,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "de1a49c38d1da5543ca4ac81b85460c15a589ed8251737749a4ae629d856598e"
+  "output_hash": "826e04da8025c06954f0fb2cb174d62c9090bb0eeb637b84150d42a393ca9fdc"
 }

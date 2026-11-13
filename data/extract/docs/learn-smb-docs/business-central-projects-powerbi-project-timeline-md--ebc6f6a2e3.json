@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/projects-powerbi-project-timeline.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-timeline",
-  "title": "Project Timeline (Power BI report)",
-  "blob": "63e19e464a4f6651a3f0573d0d496d12275e9d69",
-  "summary": "Project Timeline is a Power BI report that monitors project task durations, dates, and critical paths to ensure timely project delivery.",
+  "title": "Project Timeline Power BI Report",
+  "blob": "e9f8fde75c814822149735f6d502355e5d7a8c5b",
+  "summary": "The Project Timeline Power BI report displays task dates and durations from project planning lines to help project managers and team members monitor timelines, identify scheduling issues, and prioritize work.",
   "systems": [
     "projects",
     "reporting"
   ],
   "topics": [
-    "project timeline",
-    "task management",
-    "project scheduling",
     "power bi",
-    "kpis"
+    "project timeline",
+    "task scheduling",
+    "project planning",
+    "performance indicators",
+    "project monitoring"
   ],
   "objects": [
     {
@@ -23,13 +24,24 @@
     {
       "type": "table",
       "name": "Job Task"
+    },
+    {
+      "type": "table",
+      "name": "Job Planning Line"
+    },
+    {
+      "type": "page",
+      "name": "Project Timeline"
     }
   ],
   "features": [
-    "Project Task Starting Date KPI",
-    "Project Task Ending Date KPI",
-    "task duration analysis",
-    "critical path identification"
+    "Project Task Starting Date",
+    "Project Task Ending Date",
+    "Project Task Duration Days",
+    "Project Task Duration Weeks",
+    "Task timeline monitoring",
+    "Resource allocation planning",
+    "Scheduling issue identification"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +50,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00312,
-      "pages_in_call": 8
+      "cost_usd": 0.003809,
+      "pages_in_call": 1
     }
   ]
 }
