@@ -1,40 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-month-to-date.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-month-to-date",
-  "title": "Sales Month-to-Date (MTD) (Power BI Report)",
-  "blob": "d6a95aba0fd0682193a484a654650196d8b09de0",
-  "summary": "The Month-to-Date Power BI report monitors current month sales revenue progress and performance for executives and sales managers, including gross profit and top customer breakdown.",
+  "title": "Sales Month-to-Date (MTD) Power BI Report",
+  "blob": "2e4f4470075847fc4ac3fc0a5a75a3d287b8d934",
+  "summary": "The Month-to-Date (MTD) Power BI report helps sales leaders and managers monitor current fiscal month sales revenue, gross profit, and customer contributions to track sales performance and identify trends.",
   "systems": [
     "sales",
     "reporting"
   ],
   "topics": [
-    "sales",
     "power bi",
+    "sales analytics",
     "month-to-date",
-    "revenue",
-    "analytics"
+    "kpi",
+    "performance monitoring",
+    "revenue tracking"
   ],
-  "objects": [
-    {
-      "type": "table",
-      "name": "Value Entry"
-    },
-    {
-      "type": "table",
-      "name": "Sales Line"
-    },
-    {
-      "type": "table",
-      "name": "Customer"
-    }
-  ],
+  "objects": [],
   "features": [
-    "sales amount",
-    "sales amount MTD fiscal",
-    "gross profit MTD fiscal",
+    "Sales (LCY)",
+    "Sales Amount MTD (Fiscal)",
+    "Gross Profit MTD (Fiscal)",
     "customer breakdown",
-    "sales performance analysis"
+    "fiscal month calculation"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002583,
-      "pages_in_call": 8
+      "cost_usd": 0.003389,
+      "pages_in_call": 1
     }
   ]
 }

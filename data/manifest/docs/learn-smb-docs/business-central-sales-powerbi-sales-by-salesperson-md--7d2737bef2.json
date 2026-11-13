@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Sales by Salesperson (Power BI Report)",
+  "title": "Sales by Salesperson Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-salesperson",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.849Z",
-      "blob": "bc82f566860e4aa331eb3a14a6b8bf5f20438e2c",
+      "at": "2026-11-13T00:20:46.331Z",
+      "blob": "1b26cbec63115e92a80db2f5c05baba5b58fa6fb",
       "words": 340,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:02:34.477Z",
+      "at": "2026-11-13T00:20:55.988Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003625
+      "cost_usd": 0.003493
     },
     "summarized": {
-      "at": "2026-10-06T19:02:34.489Z",
+      "at": "2026-11-13T00:20:55.998Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:02:34.490Z",
+      "at": "2026-11-13T00:20:56.006Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:02:34.491Z",
+      "at": "2026-11-13T00:20:56.016Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-sales-by-salesperson.md",
-    "description": "The Sales by Salesperson report provides an overview of sales performance broken down by salesperson.",
-    "ms_date": "2025-10-07",
+    "description": "Compare sales amounts, quantities, adjusted profit, and estimated opportunity value by salesperson in Power BI to monitor individual sales performance.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 340,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "025954c1d9dfa0171800b11d04a6e5fb223c50570c018e715081f0961c101e78"
+  "output_hash": "45c660dcb4f46267f3205116f504d29154b2875b4c86c332db89cdf1bb84747e"
 }

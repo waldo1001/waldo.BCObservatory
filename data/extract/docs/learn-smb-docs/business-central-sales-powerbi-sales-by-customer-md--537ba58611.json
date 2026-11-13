@@ -1,28 +1,68 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-by-customer.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-customer",
-  "title": "Sales by Customer (Power BI Report)",
-  "blob": "7cce592ff6568358f12e90f74eb3ac7f66f8f7d6",
-  "summary": "Sales by Customer Power BI report displays customer sales activities, revenue contribution, and profitability metrics with breakdowns by items purchased, helping identify top customers and sales performance.",
+  "title": "Sales by Customer Power BI Report",
+  "blob": "091bc89ccd0eb0abc8219b1529176ce448b644a5",
+  "summary": "The Sales by Customer Power BI report provides metrics on customer sales activities, including sales amounts, quantities, costs, and profit margins, helping organizations identify key customers and sales trends.",
   "systems": [
     "sales",
-    "reporting"
+    "reporting",
+    "crm"
   ],
   "topics": [
-    "power bi report",
-    "customer sales",
+    "power bi",
+    "sales analytics",
+    "customer analysis",
     "revenue tracking",
     "kpi",
-    "pareto analysis",
-    "sales analytics"
+    "reporting"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Sales by Customer report"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account"
+    },
+    {
+      "type": "table",
+      "name": "Resource"
+    },
+    {
+      "type": "table",
+      "name": "Sales Value Entries"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Lines"
+    },
+    {
+      "type": "table",
+      "name": "Sales Credit Lines"
+    },
+    {
+      "type": "table",
+      "name": "Project Ledger Entries"
+    }
+  ],
   "features": [
-    "customer sales metrics",
-    "profit margin analysis",
-    "pareto analysis",
-    "customer segmentation",
-    "revenue tracking"
+    "Sales (LCY)",
+    "Adjusted Cost (LCY)",
+    "Cost Amount Non-Inv",
+    "Adjusted Profit (LCY)",
+    "Adjusted Profit Margin",
+    "Pareto Cumulative Adjusted Profit %",
+    "Pareto Cutoff Adjusted Profit %"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +71,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00335,
-      "pages_in_call": 8
+      "cost_usd": 0.004412,
+      "pages_in_call": 1
     }
   ]
 }

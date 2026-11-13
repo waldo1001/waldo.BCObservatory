@@ -1,28 +1,31 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-period-over-period-growth.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-period-over-period-growth",
-  "title": "Sales Period-Over-Period Growth (Power BI Report)",
-  "blob": "23d21177619be5cdc779d937d7aa96d5e76e3425",
-  "summary": "Period-Over-Period Growth Power BI report compares sales amounts across time periods to the same periods in previous years, helping leaders identify growth trends and areas for improvement.",
+  "title": "Sales Period-Over-Period Growth Power BI Report",
+  "blob": "bd29d272999da42ba4338e164c94c46d6cc0c745",
+  "summary": "Period-Over-Period Growth Power BI report compares sales amounts across fiscal periods to identify growth trends and sales performance for business leaders and managers.",
   "systems": [
     "sales",
     "reporting"
   ],
   "topics": [
-    "power bi report",
-    "sales growth",
+    "power bi",
+    "sales analytics",
+    "performance reporting",
     "period comparison",
-    "kpi",
-    "year-over-year",
-    "sales analytics"
+    "kpis",
+    "growth analysis"
   ],
   "objects": [],
   "features": [
-    "sales comparison",
-    "growth percentage",
-    "fiscal period analysis",
-    "year-over-year metrics",
-    "strategic insights"
+    "Period-over-Period Growth Amount",
+    "Period-over-Period Growth %",
+    "Sales (LCY)",
+    "Previous Period",
+    "Sales Amount PP (Fiscal Year)",
+    "fiscal month comparison",
+    "fiscal quarter comparison",
+    "fiscal year comparison"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00335,
-      "pages_in_call": 8
+      "cost_usd": 0.00339,
+      "pages_in_call": 1
     }
   ]
 }

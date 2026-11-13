@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Sales Decomposition (Power BI report)",
+  "title": "Sales Decomposition Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-decomposition",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.867Z",
-      "blob": "960695949823355d5279409f33fad95b23bc08d7",
-      "words": 294,
+      "at": "2026-11-13T00:20:46.371Z",
+      "blob": "e831566d278706adcd6723afdecaec72b786ff96",
+      "words": 293,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:57.646Z",
+      "at": "2026-11-13T00:20:50.877Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002277
+      "cost_usd": 0.003188
     },
     "summarized": {
-      "at": "2026-10-06T18:55:59.484Z",
+      "at": "2026-11-13T00:20:55.928Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:59.487Z",
+      "at": "2026-11-13T00:20:55.929Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:59.488Z",
+      "at": "2026-11-13T00:20:55.930Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-sales-decomposition.md",
     "description": "The Sales Decomposition provides a detailed analysis of sales metrics, breaking them down into their key contributing components.",
-    "ms_date": "2025-10-07",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 294,
+    "ai_usage": "ai-assisted",
+    "words": 293,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ca7b8b75e171e355ab88cf1a98a272cf7e0f8f20a98f80deeb9c7fc5427143ae"
+  "output_hash": "42ac25d0e662371757f2913626215f99e6bc9a9deb76c8ce26b474dc41969c3a"
 }

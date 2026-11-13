@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-return-order-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-return-order-overview",
-  "title": "Return Order Overview (Power BI report)",
-  "blob": "07b53cc50de4faa5e0257cefde01871e570b0641",
-  "summary": "Return Order Overview Power BI report tracks and analyzes return orders with insights into return amounts, quantities, return reasons, and financial effects on profitability.",
+  "title": "Sales Return Order Overview Power BI Report",
+  "blob": "88f48bfa381a279191bca7586523a924129a9104",
+  "summary": "The Return Order Overview Power BI report analyzes return orders, quantities, reasons, and financial impact to help leadership, product managers, and salespeople identify return trends and manage customer relationships.",
   "systems": [
     "sales",
     "reporting"
@@ -13,15 +13,23 @@
     "return orders",
     "credit memos",
     "sales analytics",
-    "profitability"
+    "kpis",
+    "return trends"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Return Order Overview"
+    }
+  ],
   "features": [
-    "return tracking",
-    "return reasons analysis",
-    "credit memo tracking",
-    "return rate metrics",
-    "customer return monitoring"
+    "Return Rate (Amount)",
+    "Total Credit (Amount)",
+    "Return Rate (Qty.)",
+    "Total Credit (Qty.)",
+    "No. of Outstanding Return Orders",
+    "Credit Adjusted Profit (LCY)",
+    "Total Sales (Amount)"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002277,
-      "pages_in_call": 8
+      "cost_usd": 0.003549,
+      "pages_in_call": 1
     }
   ]
 }

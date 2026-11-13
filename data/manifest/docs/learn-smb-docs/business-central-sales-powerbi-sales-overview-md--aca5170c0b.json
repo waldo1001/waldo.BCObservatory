@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Sales Overview (Power BI report)",
+  "title": "Sales Overview Analysis Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-overview",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.853Z",
-      "blob": "3020ae891e6987a0bd8c5fbefe3f54d3da97cb5f",
-      "words": 292,
+      "at": "2026-11-13T00:20:47.019Z",
+      "blob": "c364327ca1e8642b69a5fb987461b1e0f3ac2848",
+      "words": 291,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:02:34.478Z",
+      "at": "2026-11-13T00:20:56.096Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003625
+      "cost_usd": 0.003551
     },
     "summarized": {
-      "at": "2026-10-06T19:02:34.493Z",
+      "at": "2026-11-13T00:20:56.098Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:02:34.494Z",
+      "at": "2026-11-13T00:20:56.099Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:02:34.495Z",
+      "at": "2026-11-13T00:20:56.100Z",
       "page": false
     }
   },
@@ -44,7 +44,7 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-sales-overview.md",
-    "description": "The Sales Overview report provides a high-level summary of your organization's sales activities.",
+    "description": "Review sales amounts, adjusted profit, and outstanding sales documents in Power BI to monitor performance across customers, items, and salespeople.",
     "ms_date": "2025-10-07",
     "ms_topic": "concept-article",
     "search_form": [
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 292,
+    "ai_usage": "ai-assisted",
+    "words": 291,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "def830a8f7b26fec0b2a08cc2aa3a27da5aefb8ee63d11074ac61c985b2f4218"
+  "output_hash": "b5a16b85e81bf18429de57f2c0a8c037d8e73ae643fef5a7f5b22f567d6c5a6f"
 }

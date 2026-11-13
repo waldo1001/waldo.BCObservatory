@@ -1,27 +1,36 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-by-project.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-project",
-  "title": "Sales by Project (Power BI Report)",
-  "blob": "72d94eb5978ecb4f95612587db79c68d812a95f7",
-  "summary": "Sales by Project Power BI report provides a high-level overview of sales performance per project with metrics like total sales amount and quantity, analyzed by type and customer to help project managers optimize planning.",
+  "title": "Sales by Project Power BI Report",
+  "blob": "77f1240ab5df1711e6ecbaac79f1d420eb3fc13e",
+  "summary": "Sales by Project Power BI report provides a high-level overview of sales performance metrics by project, including total sales amount and quantity analyzed by resources, items, and general ledger accounts for project and sales management teams.",
   "systems": [
-    "sales",
     "projects",
+    "sales",
     "reporting"
   ],
   "topics": [
     "power bi",
-    "project sales",
-    "sales analytics",
-    "revenue tracking",
-    "project performance"
+    "sales performance",
+    "project tracking",
+    "revenue analysis",
+    "kpis",
+    "analytics"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Sales by Project"
+    }
+  ],
   "features": [
-    "Sales LCY",
-    "Sales Quantity",
-    "Adjusted Profit (LCY)",
-    "Adjusted Profit Margin"
+    "sales amount tracking",
+    "sales quantity metrics",
+    "adjusted profit analysis",
+    "profit margin calculation",
+    "project status analysis",
+    "customer contribution tracking",
+    "cross-report drillthrough"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003625,
-      "pages_in_call": 8
+      "cost_usd": 0.003652,
+      "pages_in_call": 1
     }
   ]
 }

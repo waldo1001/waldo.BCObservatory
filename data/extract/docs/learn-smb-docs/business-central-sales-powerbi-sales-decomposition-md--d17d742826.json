@@ -1,26 +1,29 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-decomposition.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-decomposition",
-  "title": "Sales Decomposition (Power BI report)",
-  "blob": "960695949823355d5279409f33fad95b23bc08d7",
-  "summary": "Sales Decomposition Power BI report breaks down sales metrics into key contributing components to identify trends and understand what drives changes in sales performance.",
+  "title": "Sales Decomposition Power BI Report",
+  "blob": "e831566d278706adcd6723afdecaec72b786ff96",
+  "summary": "Sales Decomposition is a Power BI report that breaks down sales metrics into key contributing components to help leadership teams understand performance drivers and make strategic adjustments.",
   "systems": [
     "sales",
-    "reporting"
+    "reporting",
+    "copilot"
   ],
   "topics": [
-    "power bi",
     "sales analytics",
-    "decomposition analysis",
-    "sales trends",
-    "performance drivers"
+    "power bi",
+    "kpis",
+    "performance analysis",
+    "decomposition",
+    "business intelligence"
   ],
   "objects": [],
   "features": [
+    "Sales (LCY)",
+    "Sales Quantity",
     "decomposition tree",
-    "sales metric breakdown",
     "trend analysis",
-    "regional sales tracking"
+    "regional sales monitoring"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002277,
-      "pages_in_call": 8
+      "cost_usd": 0.003188,
+      "pages_in_call": 1
     }
   ]
 }

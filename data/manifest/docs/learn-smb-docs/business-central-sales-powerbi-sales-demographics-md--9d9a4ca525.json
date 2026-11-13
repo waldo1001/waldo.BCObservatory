@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Sales Demographics (Power BI report)",
+  "title": "Sales Demographics Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-demographics",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.095Z",
-      "blob": "99735916c28fbbe7f41fd87c8bef8a51ccdb2a5b",
+      "at": "2026-11-13T00:20:46.676Z",
+      "blob": "19b132b3a494d764daa2a61f35ce7f69df7dd693",
       "words": 347,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T21:17:37.924Z",
+      "at": "2026-11-13T00:20:56.109Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.005155
+      "objects": 8,
+      "cost_usd": 0.007239
     },
     "summarized": {
-      "at": "2026-10-06T21:17:37.935Z",
+      "at": "2026-11-13T00:20:56.110Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T21:17:37.936Z",
+      "at": "2026-11-13T00:20:56.111Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T21:17:37.937Z",
+      "at": "2026-11-13T00:20:56.112Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-sales-demographics.md",
-    "description": "The Sales Demographics provides a comprehensive analysis of sales performance across different demographic segments, offering valuable insights into customer behavior and preferences to optimize sales strategies.",
-    "ms_date": "2025-10-07",
+    "description": "Analyze sales and adjusted profit by customer location, posting group, document type, and item category in Power BI to understand sales patterns.",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 347,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c2398dba43e1b2643d479e6f5e548a5fe9357f7b2467500450010680a4457953"
+  "output_hash": "f361e9e4d8d02e6bc344bca0c7b41ce4729c675ec22dc1c4037f3d0016d0df05"
 }

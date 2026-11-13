@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Sales by Location (Power BI Report)",
+  "title": "Sales by Location Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-location",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.841Z",
-      "blob": "65c7bc95166c7a47b1a333faba518fd772c4047b",
+      "at": "2026-11-13T00:20:40.692Z",
+      "blob": "68a8986fe9104f008ec5facba438dfb34a6469fe",
       "words": 318,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:02:34.475Z",
+      "at": "2026-11-13T00:20:46.321Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003625
+      "cost_usd": 0.003552
     },
     "summarized": {
-      "at": "2026-10-06T19:02:34.484Z",
+      "at": "2026-11-13T00:20:46.322Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:02:34.484Z",
+      "at": "2026-11-13T00:20:46.323Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:02:34.485Z",
+      "at": "2026-11-13T00:20:46.324Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-sales-by-location.md",
-    "description": "The Sales by Location report provides an overview of sales performance broken down by location.",
-    "ms_date": "2025-10-07",
-    "ms_topic": "article",
+    "description": "Compare sales amounts, quantities, costs, and adjusted profit by warehouse location in Power BI to identify trends and evaluate location performance.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "37066_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 318,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "62d221f0c2622ad4bd30ff606e48df2c46e7908cf153d5f60a6fbfeca2d4c541"
+  "output_hash": "4b23db8cbffa3dec6f54bdb44bb056ad974873170e5a1f611ccee4ff0d70b4c4"
 }

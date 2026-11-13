@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Return Order Overview (Power BI report)",
+  "title": "Sales Return Order Overview Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-return-order-overview",
   "published_at": "2026-11-12T12:11:53.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.863Z",
-      "blob": "07b53cc50de4faa5e0257cefde01871e570b0641",
-      "words": 347,
+      "at": "2026-11-13T00:20:40.638Z",
+      "blob": "88f48bfa381a279191bca7586523a924129a9104",
+      "words": 355,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:57.645Z",
+      "at": "2026-11-13T00:20:46.273Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002277
+      "objects": 1,
+      "cost_usd": 0.003549
     },
     "summarized": {
-      "at": "2026-10-06T18:55:59.480Z",
+      "at": "2026-11-13T00:20:46.275Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:59.481Z",
+      "at": "2026-11-13T00:20:46.276Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:59.482Z",
+      "at": "2026-11-13T00:20:46.277Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-return-order-overview.md",
     "description": "The Return Order Overview report tracks and analyzes return orders, providing insights into the financial effect on the organization.",
-    "ms_date": "2025-10-07",
+    "ms_date": "2026-11-12",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 347,
+    "ai_usage": "ai-assisted",
+    "words": 355,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "89cf8ffe35b44c0989f7e80d57a3040c7a7c0eea7a379a191b43fd398570904c"
+  "output_hash": "630fea704e694c646de1cc152f0b83047a49fabcd9f187fb357f4beae59a1b5d"
 }
