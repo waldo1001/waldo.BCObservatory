@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T02:00:53.043Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-14T00:13:17.671Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -74,7 +74,7 @@ preview:
   image_h: null
   site_name: Stefan Maron
   favicon: https://stefanmaron.com/icons/favicon-32x32.png
-  probed_at: "2026-10-07T11:51:05.358Z"
+  probed_at: "2026-11-14T00:58:18.135Z"
 ---
 
 # Introducing the “No Shortcuts” Series: The 100% Correct Way to Develop for Business Central

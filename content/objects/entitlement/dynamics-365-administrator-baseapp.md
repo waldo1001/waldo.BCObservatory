@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T00:51:57.443Z"
+  at: "2026-11-14T00:54:52.162Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c1e6137e49d17fb51a56347591d5a8e213b4665e50c004a12e1f3c573c5ba65c
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Layers/W1/BaseApp/Entitlements/Dynamics365AdministratorBaseApp.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Layers/W1/BaseApp/Entitlements/Dynamics365AdministratorBaseApp.Entitlement.al
     title: src/Layers/W1/BaseApp/Entitlements/Dynamics365AdministratorBaseApp.Entitlement.al (releases/29.x)
     date: null
-    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
+    commit: 229c71f1927eed3c6f5f2cac1e8701b916c315fb
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Entitlement "Dynamics 365 Administrator BaseApp" in Base Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 
-Base Application · System.Security.AccessControl · BC23-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Layers/W1/BaseApp/Entitlements/Dynamics365AdministratorBaseApp.Entitlement.al) · facts from BC29
+Base Application · System.Security.AccessControl · BC23-30 · [source at 229c71f1](https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Layers/W1/BaseApp/Entitlements/Dynamics365AdministratorBaseApp.Entitlement.al) · facts from BC29
 
 ## Across versions
 

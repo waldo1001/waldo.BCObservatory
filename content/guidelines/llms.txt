@@ -3,7 +3,7 @@
 > Microsoft's BCQuality knowledge base for AL (microsoft/BCQuality, MIT): each rule and review skill as a page with its own text,
 > its good and bad examples, the objects and Learn pages it names and the pull requests that changed it. Frontmatter: schemas/frontmatter.guideline.json.
 
-463 rules and review skills, by domain.
+465 rules and review skills, by domain.
 
 ## performance
 
@@ -191,6 +191,7 @@
 - [Call objects by name, not by numeric ID](microsoft/knowledge/style/named-invocations-not-object-ids.md): Page.RunModal, Report.Run, Codeunit.Run, and the Page::, Report::, Codeunit::, Table::, XmlPort:: selectors accept either a numeric ID or a named alias. (microsoft)
 - [Comments must not restate what the code already shows](microsoft/knowledge/style/al-comments-must-not-restate-what-code-already-shows.md): A comment above nearly every statement that just narrates what the statement already says (// Validate the customer number above SalesHeader.Validate("Sell-to Customer No.", CustomerNo)) adds noise without adding information. (microsoft)
 - [Document each Label placeholder with the Comment parameter](microsoft/knowledge/style/label-comment-explains-placeholders.md): Label and TextConst strings that contain placeholders (%1, %2, …) need a Comment parameter that names what each placeholder is. (microsoft)
+- [Insert the product name with `ProductName`, not as literal text in a message](microsoft/knowledge/style/use-productname-instead-of-hardcoded-product-name.md): Messages, confirmations and errors sometimes name the product ("Welcome to Business Central", "This feature requires Dynamics 365 Business Central"). (microsoft)
 - [Intrinsic AL function calls use modern casing, not legacy ALL-CAPS](microsoft/knowledge/style/intrinsic-al-functions-must-use-modern-casing.md): AL is case-insensitive, so MESSAGE(...), ERROR(...), CONFIRM(...), and STRSUBSTNO(...) compile and run identically to Message(...), Error(...), Confirm(...), and StrSubstNo(...). (microsoft)
 - [Keep business logic out of page objects](microsoft/knowledge/style/pages-must-not-contain-business-logic.md): A page procedure that persists a business mutation directly (Rec.Modify() outside the standard record-bound save, or a cross-entry-point business rule implemented only in a page trigger) is an architecture violation even when it compiles: the rule only applies when a user opens that specific page,… (microsoft)
 - [Keep object names within the 30-character platform limit](microsoft/knowledge/style/object-name-30-char-limit.md): Business Central object names — for tables, pages, codeunits, reports, queries, XML ports, enums, and permission sets — are limited to 30 characters in total. (microsoft)
@@ -200,6 +201,7 @@
 - [Page fields can inherit their source table field's `Caption`](microsoft/knowledge/style/caption-required-on-page-fields.md): A page field bound to a table field inherits the source field's Caption unless the page overrides it. (microsoft)
 - [Page fields need an explicit or inherited `ToolTip` (CodeCop AA0218)](microsoft/knowledge/style/tooltip-required-on-page-fields.md): User-facing page fields need tooltip text, but it does not have to be declared on each page control. (microsoft)
 - [Parse DateFormula constants with language-independent input](microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.md): A DateFormula stores a formula in a language-independent representation, but Evaluate must first interpret its text input. (microsoft)
+- [Pass date operands to SetFilter as replacement values, not as text in the filter string](microsoft/knowledge/style/setfilter-date-operands-must-be-replacement-values.md): The String argument of SetFilter is parsed at run time as a filter expression. (microsoft)
 - [Pass parameters directly to `Error()`, do not wrap with `StrSubstNo`](microsoft/knowledge/style/error-passes-parameters-directly-not-strsubstno.md): Error() accepts a format string and a variable number of arguments — Error(SomeLabelErr, Arg1, Arg2). (microsoft)
 - [Prefix temporary record variables with `Temp`](microsoft/knowledge/style/temporary-variable-temp-prefix.md): A Record variable declared with the temporary modifier behaves nothing like a normal record variable: it never touches the database, holds rows only for the lifetime of the variable, and is not visible to filters or queries on the underlying table. (microsoft)
 - [Procedure-local Labels are valid](microsoft/knowledge/style/labels-declared-at-object-scope.md): The AL language supports Label variables at both object and procedure scope. (microsoft)

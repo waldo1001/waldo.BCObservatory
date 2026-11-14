@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T00:51:57.443Z"
+  at: "2026-11-14T00:54:52.162Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2647ad084cdf605bca96f74d56f384df9e594676c0737b548208b8c08cab355d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralBasicFinancialsCOHUB.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralBasicFinancialsCOHUB.Entitlement.al
     title: src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralBasicFinancialsCOHUB.Entitlement.al (releases/29.x)
     date: null
-    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
+    commit: 229c71f1927eed3c6f5f2cac1e8701b916c315fb
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central Basic Financials COHUB" in CompanyHub (Mirosoft.Integration.CompanyHub). Introduced in BC29, still in BC30.
 
-CompanyHub · Mirosoft.Integration.CompanyHub · BC29-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralBasicFinancialsCOHUB.Entitlement.al) · facts from BC29
+CompanyHub · Mirosoft.Integration.CompanyHub · BC29-30 · [source at 229c71f1](https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralBasicFinancialsCOHUB.Entitlement.al) · facts from BC29
 
 ## Across versions
 

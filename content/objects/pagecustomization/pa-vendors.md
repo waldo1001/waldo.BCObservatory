@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T00:51:57.443Z"
+  at: "2026-11-14T00:54:52.162Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ae28c4f99cb06ab30b4c948efa2ea436c5199ae3c26960caa88a3aa99827afba
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAVendors.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAVendors.PageCust.al
     title: src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAVendors.PageCust.al (releases/29.x)
     date: null
-    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
+    commit: 229c71f1927eed3c6f5f2cac1e8701b916c315fb
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Page customization "PA Vendors" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
-PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAVendors.PageCust.al) · facts from BC29
+PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 229c71f1](https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAVendors.PageCust.al) · facts from BC29
 
 ## Across versions
 

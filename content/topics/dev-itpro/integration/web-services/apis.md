@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-14T01:06:08.670Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -104,7 +104,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api
     title: Business Central Administration Center API
-    date: "2025-11-06"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -395,7 +395,7 @@ Path: [Integration](../../integration.md) > [Web services](../web-services.md) >
 - [API (v2.0) for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/): Reference content for the API (v2.0) endpoint for integration with Dynamics 365 Business Central.
 - [API endpoint structure](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/api-endpoint-structure): Discover the base URL pattern and environment details required to access Business Central API endpoints.
 - [API Overview Page in Business Central](https://learn.microsoft.com/dynamics365/business-central/api-overview): Learn how the API Overview page helps administrators discover available APIs, review endpoint metadata, and prepare integrations.
-- [Business Central Administration Center API](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api): Get introduced to the Business Central administration center API.
+- [Business Central Administration Center API](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api): Use the Business Central administration center API to automate tenant administration, authenticate API calls, and understand error responses.
   - Status: Service-to-service authentication using Client Credentials Flow is supported from version 20.0 onwards.
   - Step: Register an application in your Microsoft Entra tenant with a unique name and select account type.
   - Step: Create a client secret for the registered application with a specified duration.

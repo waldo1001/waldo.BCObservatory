@@ -2,10 +2,10 @@
   "inputs": [
     7,
     [
-      "a1f2b2a64d46f4c2f3426f228364792e2f764431",
+      "229c71f1927eed3c6f5f2cac1e8701b916c315fb",
       "4",
-      9476,
-      "a1f2b2a64d46f4c2f3426f228364792e2f764431",
+      9478,
+      "229c71f1927eed3c6f5f2cac1e8701b916c315fb",
       "4",
       6954
     ]
@@ -14506,6 +14506,11 @@
     {
       "s": "page/5812",
       "t": "table/27",
+      "k": "source_table"
+    },
+    {
+      "s": "page/5813",
+      "t": "table/5811",
       "k": "source_table"
     },
     {
@@ -76776,6 +76781,16 @@
       "t": "table/5800",
       "k": "table_relation",
       "via": "Item Charge No."
+    },
+    {
+      "s": "table/5811",
+      "t": "page/5813",
+      "k": "drilldown_page"
+    },
+    {
+      "s": "table/5811",
+      "t": "page/5813",
+      "k": "lookup_page"
     },
     {
       "s": "table/5811",
@@ -265118,6 +265133,13 @@
         "subs": []
       }
     },
+    "table/5811": {
+      "OnAfterIsFullyPostedToGL": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      }
+    },
     "table/5813": {
       "OnAfterSuggestSetupAccount": {
         "kind": "integration",
@@ -283693,7 +283715,7 @@
     }
   },
   "dead_events": {
-    "count": 22497
+    "count": 22498
   },
   "unresolved": [
     {
@@ -293907,17 +293929,17 @@
     "runs_on": 737,
     "unresolved_unknown": 1492,
     "extends": 1833,
-    "source_table": 3618,
+    "source_table": 3619,
     "card_page": 318,
-    "lookup_page": 821,
+    "lookup_page": 822,
     "table_relation": 10191,
     "calc_formula": 2536,
-    "drilldown_page": 518,
+    "drilldown_page": 519,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
     "subscribes": 5179,
-    "edges": 20572,
-    "published_events": 26312,
-    "dead_events": 22497
+    "edges": 20575,
+    "published_events": 26313,
+    "dead_events": 22498
   }
 }

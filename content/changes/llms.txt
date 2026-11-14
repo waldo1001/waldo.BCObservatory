@@ -5,19 +5,19 @@
 
 1444 changes, newest first.
 
-- [#9523 Issue #9474 OnBeforeDecreaseQtyForMaxQty](bcapps/9523.md): Added an event hook to allow extensions to intervene before the system decreases quantity for maximum quantity calculations in inventory offsetting. (main, 2026-11-12, feature)
+- [#9523 Issue #9474 OnBeforeDecreaseQtyForMaxQty](bcapps/9523.md): Adds an OnBeforeDecreaseQtyForMaxQty integration event to the Inventory Profile Offsetting codeunit, so extensions can hook in before the quantity is decreased for the maximum quantity. (main, 2026-11-12, feature)
 - [#13764 List the SIFT of a key that is disabled in metadata on the Indexes part](bcapps/13764.md): The Indexes part on the Table Information page now lists disabled SIFTs for keys that are disabled in metadata and define SumIndexFields, allowing administrators to enable them. (main, 2026-11-12, feature)
 - [#2457 Fixing codeunit discovery on PowerShell 5 for RunTests action.](al-go/2457.md): Fixed codeunit discovery in the RunTests action that was failing on PowerShell 5.1, ensuring proper test detection and execution on older PowerShell versions. (main, 2026-11-12, fix)
 - [#13964 Adjust relevance score for new embedding model](bcapps/13964.md): Relevance score thresholds for item search have been adjusted to work with a new embedding model that returns different score ranges, making more relevant items appear in search results with appropriate confidence levels. (main, 2026-11-12, fix)
 - [#13207 Skip missing and removed tables when loading record sets](bcapps/13207.md): Record Set Management now gracefully skips table references that have been removed or don't exist when loading record sets, preventing metadata exceptions and allowing sales documents and Edit in Excel to function when legacy payment-service sets are present. (main, 2026-11-12, fix)
-- [#13926 Bug 648938: Transfer Routes matrix does not indicate configured direct routes](bcapps/13926.md): The Transfer Routes matrix now displays 'Direct' for configured direct-transfer routes without in-transit locations, instead of showing ellipsis that made them indistinguishable from undefined routes. (main, 2026-11-12, fix)
-- [#12947 [MCP] Provide environment and company descriptions to the platform](bcapps/12947.md): The environment and company descriptions are now exposed to the platform via two new public events on the System Action Triggers codeunit. Environment Information Impl. and Company Information Mgt. subscribe to these events to supply their respective descriptions, allowing the MCP server to return company descriptions in its list_companies tool. (main, 2026-11-12, feature)
-- [#13883 [Shopify] Initialize return processing for existing shops on upgrade](bcapps/13883.md): An upgrade migration initializes the Process Returns As field for existing Shopify shops to Credit Memo during upgrade, fixing incorrect refund document creation for shops that retained the default Quote value. (main, 2026-11-12, fix)
+- [#13926 Bug 648938: Transfer Routes matrix does not indicate configured direct routes](bcapps/13926.md): In the In-Transit Code view of the Transfer Routes matrix, a configured off-diagonal direct-transfer route now shows a localizable Direct label instead of '...', even when an in-transit code is also set, so it can be told apart from an undefined route. (main, 2026-11-12, fix)
+- [#12947 [MCP] Provide environment and company descriptions to the platform](bcapps/12947.md): Environment Information Impl. and Company Information Mgt. now subscribe to two new platform events, GetEnvironmentDescription and GetCompanyDescription, to supply the environment and company descriptions. The MCP server's list_companies tool can then return company descriptions. This requires the platform change that adds the events. (main, 2026-11-12, feature)
+- [#13883 [Shopify] Initialize return processing for existing shops on upgrade](bcapps/13883.md): A per-company upgrade step sets Process Returns As to Credit Memo for existing Shopify shops that still hold the uninitialized 0 (Quote) value, so refunds no longer create sales quotes. Credit Memo and Return Order settings are kept as they are. (main, 2026-11-12, fix)
 - [#13952 Add key on Email Message Attachment Data to speed up email deletion](bcapps/13952.md): A database key is added on the Data field of Email Message Attachment table to significantly improve performance when deleting emails, particularly during email storage cleanup operations. (main, 2026-11-12, performance)
-- [#11849 [Master] - Slice 611452: [AT][IC][RegF] Enable Danish SAF-T to be used in Austria and Iceland](bcapps/11849.md): Danish SAF-T functionality is now available for Austria and Iceland through core SAF-T modifications, moving country-specific code from a dedicated Danish app to the main SAF-T application. (main, 2026-11-12, feature)
+- [#11849 [Master] - Slice 611452: [AT][IC][RegF] Enable Danish SAF-T to be used in Austria and Iceland](bcapps/11849.md): Lets the Danish SAF-T functionality be used in Austria and Iceland. The SAFTModificationDK app and its tests move under the W1 apps folder, the AT, IS and DK build project settings are updated, and small changes are made across the SAF-T app objects and tests. (main, 2026-11-12, feature)
 - [#141 knowledge(testing): license-entitlement failures on posted tables in a SaaS test run are environmental](bcquality/141.md): A testing knowledge article explains how to triage and fix license-entitlement failures on posted tables in SaaS test runs, distinguishing them from permission regressions and recommending data production through posting APIs. (main, 2026-11-12, feature)
-- [#13414 [Main]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version](bcapps/13414.md): Payment discount calculations now correctly apply to VAT amounts in the Spanish version when prices include VAT, fixing an issue where discounts were not reflected in sales and purchase totals. (main, 2026-11-12, fix)
-- [#13824 Implement namespace normalization for Fabric Data and Logging in setup pages and platform management](bcapps/13824.md): Fabric table and schema names are now normalized to lowercase in setup pages to ensure consistent handling across case-sensitive file systems and data platforms. New setup records use lowercase defaults (businesscentral and businesscentral_log) while existing values remain unchanged. (main, 2026-11-12, feature)
+- [#13414 [Main]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version](bcapps/13414.md): In the Spanish version, when Prices Including VAT is on, the VAT base recalculation now subtracts the payment discount amount. Payment discounts are now reflected in sales and purchase totals and statistics. VAT-exclusive calculations are unchanged. (main, 2026-11-12, fix)
+- [#13824 Implement namespace normalization for Fabric Data and Logging in setup pages and platform management](bcapps/13824.md): Fabric namespace fields on the setup pages and API now convert entered values to lowercase on validation, and new setup records default to businesscentral and businesscentral_log. This avoids casing mismatches in Fabric landing zone folder paths. Existing stored values are not renamed. (main, 2026-11-12, feature)
 - [#13953 Add key on Email Message Attachment Data to speed up email deletion (backport to releases/29.x)](bcapps/13953.md): A database key was added to the Data field of the Email Message Attachment table to improve performance when deleting emails, avoiding full table scans on large tenants. (releases/29.x, 2026-11-12, performance)
 - [#13898 [29.x][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank](bcapps/13898.md): Decimal item attributes now correctly handle entering 0 after clearing a value to blank, by excluding blank records from numeric lookups. (releases/29.x, 2026-11-12, fix)
 - [#13641 Bug 647022: [Subcontracting] Use alternative worksheet names and migrate the legacy page](bcapps/13641.md): Subcontracting initialization now preserves existing customer templates and uses alternative worksheet names when the default SUBCONTR name is unavailable, while migrating the legacy page ID only from the old Subcontracting Worksheet. (main, 2026-11-11, fix)
@@ -1454,51 +1454,41 @@
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
-- [#12453 Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2806934](https://github.com/microsoft/BCApps/pull/12453) (open into main, updated 2026-11-12)
-- [#10076 Pass HideDialog to Report Distribution Management when sending electronic documents by e-mail](https://github.com/microsoft/BCApps/pull/10076) (open into main, updated 2026-11-12)
-- [#13678 [Shopify] Set the shop before looking up payment terms for a customer created from a company](https://github.com/microsoft/BCApps/pull/13678) (open into main, updated 2026-11-12)
-- [#13744 [Shopify Connector] - Actionable incomplete order mappings](https://github.com/microsoft/BCApps/pull/13744) (open into main, updated 2026-11-12)
-- [#13747 [Shopify Connector] - Add alternative VAT registration handling](https://github.com/microsoft/BCApps/pull/13747) (open into main, updated 2026-11-12)
-- [#13748 [Shopify Connector] - Discover payment methods before order import](https://github.com/microsoft/BCApps/pull/13748) (open into main, updated 2026-11-12)
-- [#13753 [Shopify Connector] - Shopify B2B: Configure separate customer templates for companies](https://github.com/microsoft/BCApps/pull/13753) (open into main, updated 2026-11-12)
-- [#13830 Fixes #10082 LogTestField enum caption lookup for ordinal gaps](https://github.com/microsoft/BCApps/pull/13830) (open into main, updated 2026-11-12)
-- [#13876 [Bug]: Data Migration list-empty notification: check table and G/L entries (#13275)](https://github.com/microsoft/BCApps/pull/13876) (open into main, updated 2026-11-12)
-- [#14001 Storage Browser: do not delete the parent folder entry ("..")](https://github.com/microsoft/BCApps/pull/14001) (open into main, updated 2026-11-12)
-- [#14002 External File Storage: reject "." and ".." path segments](https://github.com/microsoft/BCApps/pull/14002) (open into main, updated 2026-11-12)
-- [#14006 GP - Better item transaction duplicate handling](https://github.com/microsoft/BCApps/pull/14006) (open into main, updated 2026-11-12)
-- [#14007 Obsolete Create Product Information with Copilot](https://github.com/microsoft/BCApps/pull/14007) (open into main, updated 2026-11-12)
-- [#10233 Implement business activity code to EU from Italy localization](https://github.com/microsoft/BCApps/pull/10233) (open into main, updated 2026-11-12)
-- [#13361 Base block for Payables Agent V2.0](https://github.com/microsoft/BCApps/pull/13361) (open into main, updated 2026-11-12)
-- [#13587 Update Corp Card manual selection](https://github.com/microsoft/BCApps/pull/13587) (open into main, updated 2026-11-12)
-- [#13976 Extract remaining base ES elements to ES Local](https://github.com/microsoft/BCApps/pull/13976) (open into main, draft, updated 2026-11-12)
-- [#13015 Bug/648925 VAT charged in Sales Invoice with Cash Basis (Unrealized VAT) is not paid on Sales Credit Note applied to that Posted Sales Invoice if we use a similar Cash Basis VAT Prod Posting Group in the Mexican version - regression.](https://github.com/microsoft/BCApps/pull/13015) (open into main, updated 2026-11-12)
-- [#13999 Intrastat export XML performance improvement](https://github.com/microsoft/BCApps/pull/13999) (open into main, updated 2026-11-12)
-- [#13102 Create putaway template bin validation](https://github.com/microsoft/BCApps/pull/13102) (open into main, updated 2026-11-12)
-- [#9197 Obsolete banking and payment functionality in FI BaseApp](https://github.com/microsoft/BCApps/pull/9197) (open into main, draft, updated 2026-11-12)
-- [#13988 [FR] Add buyer SIREN legal identifier to Factur-X CII export](https://github.com/microsoft/BCApps/pull/13988) (open into main, draft, updated 2026-11-12)
-- [#11715 Slice 440258: Fixed Asset Journal Approval](https://github.com/microsoft/BCApps/pull/11715) (open into main, updated 2026-11-12)
-- [#13899 Bugfix/issue 13425 shopify wrong curr amount refund](https://github.com/microsoft/BCApps/pull/13899) (open into main, updated 2026-11-12)
-- [#14000 Enable skipDraftPullRequests AL-Go setting](https://github.com/microsoft/BCApps/pull/14000) (open into main, updated 2026-11-12)
-- [#13673 Expose active expense approver and expense app navigation](https://github.com/microsoft/BCApps/pull/13673) (open into main, updated 2026-11-12)
-- [#12153 [Main]-Adjust Cost Creates an Output Value Entry with Entry Type = Variance and Expected Cost = Yes After Reversing a Finished Production Order.](https://github.com/microsoft/BCApps/pull/12153) (open into main, updated 2026-11-12)
-- [#13704 [Subcontracting] Add quantity-ready-to-start tracking for production routing operations](https://github.com/microsoft/BCApps/pull/13704) (open into main, updated 2026-11-12)
-- [#13783 [E-Document] Add public purchase draft writer for external structured readers](https://github.com/microsoft/BCApps/pull/13783) (open into main, updated 2026-11-12)
-- [#10534 [W1] Subscription Billing - Configurable Text for Billing Period](https://github.com/microsoft/BCApps/pull/10534) (open into main, updated 2026-11-12)
+- [#12453 Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2808391](https://github.com/microsoft/BCApps/pull/12453) (open into main, updated 2026-11-13)
+- [#8058 [E-Document] Add OnBeforeLogErrorIfItemNotFound publisher to V1.0 import](https://github.com/microsoft/BCApps/pull/8058) (open into main, updated 2026-11-13)
+- [#12185 Fix orphaned field monitoring flags in change log setup](https://github.com/microsoft/BCApps/pull/12185) (open into main, updated 2026-11-13)
+- [#12772 Bug 654042: [DocumentReporting] Exporting Word layout themes uses the wrong file extension](https://github.com/microsoft/BCApps/pull/12772) (open into main, updated 2026-11-13)
+- [#13783 [E-Document] Add public purchase draft writer for external structured readers](https://github.com/microsoft/BCApps/pull/13783) (open into main, updated 2026-11-13)
+- [#14006 GP - Better item transaction duplicate handling](https://github.com/microsoft/BCApps/pull/14006) (open into main, updated 2026-11-13)
+- [#14059 Use GPT-5.6 Ceres for No. Series Copilot](https://github.com/microsoft/BCApps/pull/14059) (open into main, updated 2026-11-13)
+- [#14060 [Shopify] Automatically move negative exchange lines](https://github.com/microsoft/BCApps/pull/14060) (open into main, updated 2026-11-13)
+- [#9326 [FI] Delocalize Depreciation Differences into a first-party extension](https://github.com/microsoft/BCApps/pull/9326) (open into main, updated 2026-11-13)
+- [#14007 Obsolete Create Product Information with Copilot](https://github.com/microsoft/BCApps/pull/14007) (open into main, updated 2026-11-13)
+- [#13976 Extract remaining base ES elements to ES Local](https://github.com/microsoft/BCApps/pull/13976) (open into main, updated 2026-11-13)
+- [#14067 Disable Item Substitution Copilot feature](https://github.com/microsoft/BCApps/pull/14067) (open into releases/29.x, updated 2026-11-13)
+- [#13015 Bug/648925 VAT charged in Sales Invoice with Cash Basis (Unrealized VAT) is not paid on Sales Credit Note applied to that Posted Sales Invoice if we use a similar Cash Basis VAT Prod Posting Group in the Mexican version - regression.](https://github.com/microsoft/BCApps/pull/13015) (open into main, updated 2026-11-13)
+- [#13587 Update Corp Card manual selection](https://github.com/microsoft/BCApps/pull/13587) (open into main, updated 2026-11-13)
+- [#13787 [Main]error in allocation account function](https://github.com/microsoft/BCApps/pull/13787) (open into main, updated 2026-11-13)
+- [#14022 [Expense Agent] Travel request fixes: deletion after cancel, linked reports, approver audit user, closure history](https://github.com/microsoft/BCApps/pull/14022) (open into main, updated 2026-11-13)
+- [#14061 [MAIN] Fix TDS calculation on multi-line purchase invoices (Bug 659187)](https://github.com/microsoft/BCApps/pull/14061) (open into main, updated 2026-11-13)
+- [#9807 Deduct already-reversed prepayment GST on AU sales prepayment credit memos](https://github.com/microsoft/BCApps/pull/9807) (open into main, updated 2026-11-13)
+- [#11205 Inventory internal new body layouts and obsolete current](https://github.com/microsoft/BCApps/pull/11205) (open into main, updated 2026-11-13)
+- [#13102 Create putaway template bin validation](https://github.com/microsoft/BCApps/pull/13102) (open into main, updated 2026-11-13)
+- [#14014 Bug 648872: [UX][Manufacturing] Many actions are enabled on an empty "Released Produciton Orders" page resulting in errors when clicked](https://github.com/microsoft/BCApps/pull/14014) (open into main, updated 2026-11-13)
+- [#14020 Bug 650215: Direct Transfer route does not populate configured In-Transit Code on transfer order](https://github.com/microsoft/BCApps/pull/14020) (open into main, updated 2026-11-13)
+- [#14065 [Main]Decimal range error when reducing Direct Unit Cost on a purchase line linked to a foreign-currency project](https://github.com/microsoft/BCApps/pull/14065) (open into main, draft, updated 2026-11-13)
+- [#13673 Expose active expense approver and expense app navigation](https://github.com/microsoft/BCApps/pull/13673) (open into main, updated 2026-11-13)
+- [#14001 Storage Browser: do not delete the parent folder entry ("..")](https://github.com/microsoft/BCApps/pull/14001) (open into main, updated 2026-11-13)
+- [#13909 User by Security Group](https://github.com/microsoft/BCApps/pull/13909) (open into main, updated 2026-11-13)
+- [#13830 Fixes #10082 LogTestField enum caption lookup for ordinal gaps](https://github.com/microsoft/BCApps/pull/13830) (open into main, updated 2026-11-13)
+- [#13747 [Shopify Connector] - Add alternative VAT registration handling](https://github.com/microsoft/BCApps/pull/13747) (open into main, updated 2026-11-13)
+- [#13744 [Shopify Connector] - Actionable incomplete order mappings](https://github.com/microsoft/BCApps/pull/13744) (open into main, updated 2026-11-13)
+- [#9683 New Allowed Table Session Event for Retention Policies](https://github.com/microsoft/BCApps/pull/9683) (open into main, updated 2026-11-13)
 
 Open issues:
 
-- [#13996 [ES][Event Request] Codeunits 80 "Sales-Post" and 90 "Purch.-Post" - CheckCorrectedInvoice / CheckCorrectedInvoiceNo - event before the empty Corrected Invoice No. confirmation](https://github.com/microsoft/BCApps/issues/13996) (2026-11-12, Team: Finance)
-- [#13994 Add email and agent HTML sanitization compatibility regressions](https://github.com/microsoft/BCApps/issues/13994) (2026-11-12, Approved, Team: Integrations)
-- [#13989 [W1][Codeunit][7321][Create Inventory Put-away] OnCreatePutAwayLinesFromPurchaseOnAfterSetRemQtyToPutAway](https://github.com/microsoft/BCApps/issues/13989) (2026-11-12, Approved, Team: SCM, event-request)
-- [#13986 [Feature]:](https://github.com/microsoft/BCApps/issues/13986) (2026-11-12, BCIdea, Team: SCM)
-- [#13975 [Bug][DE] ZUGFeRD export does not include "Description 2" (BT-154), unlike XRechnung](https://github.com/microsoft/BCApps/issues/13975) (2026-11-11, Approved, Team: Finance)
-- [#13963 [Event Request] Codeunit 20508 "Subc. Price Management" - App Subcontracting](https://github.com/microsoft/BCApps/issues/13963) (2026-11-11, Approved, Team: SCM, event-request)
-- [#13960 [Event Request][W1 - Subcontracting][MultiObjects] OnBefore events to prevent resetting the Location Code of a Prod. Order Component when its Routing Link Code is removed](https://github.com/microsoft/BCApps/issues/13960) (2026-11-11, Team: SCM, missing-info)
-- [#13948 [Bug][DE] ZUGFeRD exports seller and buyer VAT identifiers for category O documents](https://github.com/microsoft/BCApps/issues/13948) (2026-11-11, Team: Finance)
-- [#13947 [Bug][DE] Category O VAT-rate elements are emitted where EN 16931 requires their absence](https://github.com/microsoft/BCApps/issues/13947) (2026-11-11, Team: Finance)
-- [#13946 [Bug][DE] XRechnung and ZUGFeRD merge distinct VAT categories sharing the same VAT rate](https://github.com/microsoft/BCApps/issues/13946) (2026-11-11, Team: Finance)
-- [#13923 [Bug][E-Document] "New from file" fails with Import Process Version 2.0: "No method to structure the received e-document has been provided"](https://github.com/microsoft/BCApps/issues/13923) (2026-11-11, Team: Integrations)
-- [#13922 [Bug][DE] XRechnung and ZUGFeRD require a GLN or VAT registration number for the customer, although these formats do not need it](https://github.com/microsoft/BCApps/issues/13922) (2026-11-11, Team: Finance)
+- [#14069 [Bug]: FatturaPA conflates individual-person status with purchasing capacity, omitting VAT identification for sole proprietors](https://github.com/microsoft/BCApps/issues/14069) (2026-11-13, Team: Finance)
+- [#14019 [W1][Event Request] Codeunit 8060 "Create Billing Documents" - Add OnBeforeTempBillingLineToDeleteCopy event to TrimTempBillingLinesForContract](https://github.com/microsoft/BCApps/issues/14019) (2026-11-13, Approved, Team: Finance, event-request, ext-requester-pr)
 
 Releases:
 
@@ -1517,9 +1507,11 @@ Releases:
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
-- [#2273 Improve file handling in Update AL-Go System Files](https://github.com/microsoft/AL-Go/pull/2273) (open into main, updated 2026-11-12)
+- [#2273 Improve file handling in Update AL-Go System Files](https://github.com/microsoft/AL-Go/pull/2273) (open into main, updated 2026-11-13)
+- [#2425 Admin API for PTE publishing/installing for BC29 and later](https://github.com/microsoft/AL-Go/pull/2425) (open into main, updated 2026-11-13)
+- [#2462 RunTests - Code Coverage](https://github.com/microsoft/AL-Go/pull/2462) (open into main, draft, updated 2026-11-13)
+- [#2460 Fix non-ASCII characters in generated release notes](https://github.com/microsoft/AL-Go/pull/2460) (open into main, updated 2026-11-13)
 - [#2426 RunTests - test discovery using ALTool instead of BcContainerHelper](https://github.com/microsoft/AL-Go/pull/2426) (open into main, updated 2026-11-12)
-- [#2425 Admin API for PTE publishing/installing for BC29 and later](https://github.com/microsoft/AL-Go/pull/2425) (open into main, updated 2026-11-12)
 - [#2458 Fail when dependency artifacts built in the current run are missing](https://github.com/microsoft/AL-Go/pull/2458) (open into main, draft, updated 2026-11-12)
 - [#2451 Add missing settings to JSON schema](https://github.com/microsoft/AL-Go/pull/2451) (open into main, updated 2026-11-12)
 - [#2444 Implement retry logic for GitHub App token requests to handle transient errors](https://github.com/microsoft/AL-Go/pull/2444) (open into main, updated 2026-11-10)
@@ -1543,6 +1535,7 @@ Open pull requests (no page until merged), most recently updated first; then the
 
 Open issues:
 
+- [#2459 [Bug]: Create release replaces umlauts and other non-ASCII characters in the generated release notes with '?'](https://github.com/microsoft/AL-Go/issues/2459) (2026-11-13)
 - [#2456 [Bug]: GHE setup is not working as expected](https://github.com/microsoft/AL-Go/issues/2456) (2026-11-12, bug)
 - [#2455 [Bug]: Incremental builds never reuse baseline artifacts for single-project repos (project ".")](https://github.com/microsoft/AL-Go/issues/2455) (2026-11-12, bug)
 - [#2453 [Bug]: Parallel build jobs share container names and can remove each other’s containers](https://github.com/microsoft/AL-Go/issues/2453) (2026-11-11, bug)
@@ -1562,7 +1555,6 @@ Open issues:
 - [#2354 [Bug]: Build jobs are failing after upgrade to 9.2 where an installed dependency isn't being seen](https://github.com/microsoft/AL-Go/issues/2354) (2026-08-27, bug)
 - [#2339 [Bug]: DeliverToAppSource ignores includeDependencies and packages additional dependency apps](https://github.com/microsoft/AL-Go/issues/2339) (2026-08-05, bug)
 - [#2281 [Bug]: Publish to appsource - current version failback](https://github.com/microsoft/AL-Go/issues/2281) (2026-06-16, bug)
-- [#2228 [Bug]: Orverwritesettings fail with custom Al-Go Template](https://github.com/microsoft/AL-Go/issues/2228) (2026-04-29, bug)
 
 Releases:
 
@@ -1581,8 +1573,7 @@ Releases:
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
-- [#273 knowledge(style): SetFilter date operands as replacement values; product name via ProductName](https://github.com/microsoft/BCQuality/pull/273) (open into main, updated 2026-11-12)
-- [#272 knowledge(data-modeling): Init() keeps the primary key; recompute an editable derived field only while unedited](https://github.com/microsoft/BCQuality/pull/272) (open into main, updated 2026-11-12)
+- [#272 knowledge(data-modeling): Init() keeps the primary key; recompute an editable derived field only while unedited](https://github.com/microsoft/BCQuality/pull/272) (open into main, updated 2026-11-13)
 - [#211 knowledge(error-handling): a bare [TryFunction] call propagates its error](https://github.com/microsoft/BCQuality/pull/211) (open into main, draft, updated 2026-11-12)
 - [#121 Authoring-assist: promote to first-class tool with non-blocking PR advisory](https://github.com/microsoft/BCQuality/pull/121) (open into main, draft, updated 2026-09-15)
 

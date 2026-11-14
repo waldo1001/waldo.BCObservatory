@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T02:01:04.620Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-14T00:13:17.671Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -80,7 +80,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:51:37.788Z"
+  probed_at: "2026-11-14T00:58:24.494Z"
 ---
 
 # BC Friday Tips #31 Block Users using Security Group

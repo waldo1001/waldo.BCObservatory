@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T02:00:42.586Z"
   flags: []
 generated:
-  at: "2026-10-26T05:51:10.938Z"
+  at: "2026-11-14T00:13:17.671Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -128,7 +128,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:51:32.290Z"
+  probed_at: "2026-11-14T00:58:17.370Z"
 ---
 
 # BC Friday Tips #35 Item Journal Posting and Warehouse Entries

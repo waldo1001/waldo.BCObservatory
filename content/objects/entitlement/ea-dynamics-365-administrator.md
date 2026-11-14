@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T00:51:57.443Z"
+  at: "2026-11-14T00:54:52.162Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 05061fb5ed824b0c9339608fbad8f3f61947dd5b2cb6172ed7d7566c999fdbcd
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADynamics365Administrator.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADynamics365Administrator.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADynamics365Administrator.Entitlement.al (releases/29.x)
     date: null
-    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
+    commit: 229c71f1927eed3c6f5f2cac1e8701b916c315fb
     t: null
     quote: null
 links:
@@ -83,7 +83,7 @@ relations:
 
 > Entitlement "EA - Dynamics 365 Administrator" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADynamics365Administrator.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 229c71f1](https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADynamics365Administrator.Entitlement.al) · facts from BC29
 
 ## Recent changes
 

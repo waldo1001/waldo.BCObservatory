@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:03:35.392Z"
   flags: []
 generated:
-  at: "2026-11-12T00:52:34.188Z"
+  at: "2026-11-14T00:59:34.442Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -226,7 +226,6 @@ links:
   objects: []
   features:
     - feature/573362
-    - feature/573384
     - feature/577820
   topics: []
   localizations: []
@@ -511,12 +510,10 @@ features:
     verified: false
     status_source: video
   - name: Page scripting in pipelines
-    status: ga
+    status: unclear
     t: 2176
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573384"
+    status_source: video
 objects_mentioned:
   - other Analysis View
   - other Customer page
@@ -684,7 +681,7 @@ It then covers Power Automate, modern search in preview, column resizing and acc
 | Modern search performance improvement | status not stated | [33:39](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2019s) |  |
 | Job queue priority and execution order | status not stated | [34:20](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2060s) |  |
 | Warehouse ledger entry posting pattern refactor | status not stated | [35:00](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2100s) |  |
-| Page scripting in pipelines | generally available (roadmap [Page Scripting enters General Availability](../features/573384.md)) | [36:16](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2176s) |  |
+| Page scripting in pipelines | status not stated | [36:16](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2176s) |  |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

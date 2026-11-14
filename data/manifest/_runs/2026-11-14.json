@@ -1,0 +1,1400 @@
+{
+  "date": "2026-11-14",
+  "started_at": "2026-11-14T00:13:17.671Z",
+  "finished_at": "2026-11-14T01:08:31.232Z",
+  "status": "partial",
+  "pipeline": "0.2.0",
+  "runner": {
+    "node": "v22.23.4",
+    "runner_name": "macmini-bcobs"
+  },
+  "guard": {
+    "decision": "reduced",
+    "status": "unavailable:not_configured",
+    "five_hour": null,
+    "seven_day": null,
+    "resets_at": null,
+    "headroom": null,
+    "factor": 0.5,
+    "facts_only": false,
+    "detail": "BCOBS_USAGE_OAUTH_TOKEN unset"
+  },
+  "ingest": {
+    "sources": [
+      {
+        "id": "learn-smb-docs",
+        "kind": "docs-git",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 2162,
+          "removed": 0
+        },
+        "note": "2162 pages at 63b153c765c6",
+        "duration_ms": 8237
+      },
+      {
+        "id": "learn-devitpro",
+        "kind": "docs-git",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 25,
+          "updated": 0,
+          "unchanged": 5870,
+          "removed": 0
+        },
+        "note": "5895 pages at 61c96140b602",
+        "duration_ms": 11621
+      },
+      {
+        "id": "m365-roadmap",
+        "kind": "roadmap-api",
+        "ok": true,
+        "counts": {
+          "new": 1,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 133,
+          "removed": 0
+        },
+        "note": "134 Business Central items of 2317; snapshot written (+1 -0 ~0)",
+        "duration_ms": 596
+      },
+      {
+        "id": "al-language-extension",
+        "kind": "vsmarketplace",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 64,
+          "removed": 0
+        },
+        "note": "unchanged; latest 17.10.2902953 uploaded 2026-10-19",
+        "duration_ms": 610
+      },
+      {
+        "id": "ms-support-updates",
+        "kind": "support-updates",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 3,
+          "removed": 0
+        },
+        "note": "3 updates: 28.6, 28.5, 28.4",
+        "duration_ms": 1599
+      },
+      {
+        "id": "bcquality",
+        "kind": "guidelines-git",
+        "ok": true,
+        "counts": {
+          "new": 2,
+          "changed": 1,
+          "updated": 0,
+          "unchanged": 462,
+          "removed": 0
+        },
+        "note": "465 pages at d576b0fd6da9",
+        "duration_ms": 1259
+      },
+      {
+        "id": "alguidelines",
+        "kind": "guidelines-git",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 232,
+          "removed": 0
+        },
+        "note": "232 pages at 53923c5010f2",
+        "duration_ms": 744
+      },
+      {
+        "id": "bcapps",
+        "kind": "code-git",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 3,
+          "updated": 0,
+          "unchanged": 0,
+          "removed": 0
+        },
+        "note": "3/3 branches",
+        "duration_ms": 939
+      },
+      {
+        "id": "bcapps-prs",
+        "kind": "github-pr",
+        "ok": true,
+        "counts": {
+          "new": 12,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 20,
+          "removed": 0
+        },
+        "note": "47 merged in main, releases/29.x; 4 bots, 11 backports skipped; cursor 2026-11-13",
+        "duration_ms": 10219
+      },
+      {
+        "id": "al-go-prs",
+        "kind": "github-pr",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 1,
+          "removed": 0
+        },
+        "note": "1 merged in main; 0 bots, 0 backports skipped; cursor 2026-11-12",
+        "duration_ms": 5140
+      },
+      {
+        "id": "bcquality-prs",
+        "kind": "github-pr",
+        "ok": true,
+        "counts": {
+          "new": 1,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 1,
+          "removed": 0
+        },
+        "note": "2 merged in main; 0 bots, 0 backports skipped; cursor 2026-11-13",
+        "duration_ms": 4838
+      },
+      {
+        "id": "sandbox-history",
+        "kind": "code-git",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 4,
+          "updated": 0,
+          "unchanged": 4,
+          "removed": 0
+        },
+        "note": "8/8 branches",
+        "duration_ms": 3402
+      },
+      {
+        "id": "onprem-history",
+        "kind": "code-git",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 2,
+          "removed": 0
+        },
+        "note": "2/2 branches",
+        "duration_ms": 607
+      },
+      {
+        "id": "yt-microsoft",
+        "kind": "youtube",
+        "ok": false,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 0,
+          "removed": 0
+        },
+        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCLErzd6kpQ0DAJSGsGjtxbA",
+        "duration_ms": 103
+      },
+      {
+        "id": "yt-hougaard",
+        "kind": "youtube",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 15,
+          "removed": 0
+        },
+        "note": "15 feed entries",
+        "duration_ms": 279
+      },
+      {
+        "id": "yt-saurav",
+        "kind": "youtube",
+        "ok": false,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 0,
+          "removed": 0
+        },
+        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC2SnEeamdCLN98MXFprKd_w",
+        "duration_ms": 25
+      },
+      {
+        "id": "yt-areopa",
+        "kind": "youtube",
+        "ok": false,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 0,
+          "removed": 0
+        },
+        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCWL0RbbT6ILzzCd6Ix7t0AQ",
+        "duration_ms": 22
+      },
+      {
+        "id": "yt-mibuso",
+        "kind": "youtube",
+        "ok": false,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 0,
+          "removed": 0
+        },
+        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCeFUrL4JZsOa39TQVmrw2ww",
+        "duration_ms": 21
+      },
+      {
+        "id": "yt-stefanmaron",
+        "kind": "youtube",
+        "ok": false,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 0,
+          "removed": 0
+        },
+        "error": "HTTP 500 for https://www.youtube.com/feeds/videos.xml?channel_id=UC96RLsspoArRJu6dhwkOsWQ",
+        "duration_ms": 35
+      },
+      {
+        "id": "yt-bcmusings",
+        "kind": "youtube",
+        "ok": false,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 0,
+          "removed": 0
+        },
+        "error": "HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCcjRDxd_tl4UckLy-30pt3g",
+        "duration_ms": 23
+      },
+      {
+        "id": "yt-dynamicscorner",
+        "kind": "youtube",
+        "ok": false,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 0,
+          "removed": 0
+        },
+        "error": "HTTP 500 for https://www.youtube.com/feeds/videos.xml?channel_id=UCiC0ZMYcrfBCUIicN1DwbJQ",
+        "duration_ms": 34
+      },
+      {
+        "id": "waldo-be",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 18,
+          "removed": 0
+        },
+        "note": "18 posts via WordPress REST",
+        "duration_ms": 444
+      },
+      {
+        "id": "stefanmaron-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 28,
+          "removed": 0
+        },
+        "note": "28 posts via feed",
+        "duration_ms": 329
+      },
+      {
+        "id": "kauffmann-nl",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 3,
+          "removed": 0
+        },
+        "note": "3 posts via WordPress REST",
+        "duration_ms": 775
+      },
+      {
+        "id": "demiliani-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 1,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 92,
+          "removed": 0
+        },
+        "note": "93 posts via WordPress REST",
+        "duration_ms": 553
+      },
+      {
+        "id": "freddysblog",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 1,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 9,
+          "removed": 0
+        },
+        "note": "10 posts via feed",
+        "duration_ms": 282
+      },
+      {
+        "id": "jpearson-blog",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 6,
+          "removed": 0
+        },
+        "note": "6 posts via WordPress REST",
+        "duration_ms": 343
+      },
+      {
+        "id": "katson-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 5,
+          "removed": 0
+        },
+        "note": "5 posts via feed",
+        "duration_ms": 797
+      },
+      {
+        "id": "sauravdhyani-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 25,
+          "removed": 0
+        },
+        "note": "25 posts via feed",
+        "duration_ms": 458
+      },
+      {
+        "id": "gerardorenteria-blog",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 76,
+          "removed": 0
+        },
+        "note": "76 posts via WordPress REST",
+        "duration_ms": 505
+      },
+      {
+        "id": "bertverbeek-nl",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 14,
+          "removed": 0
+        },
+        "note": "14 posts via WordPress REST",
+        "duration_ms": 887
+      },
+      {
+        "id": "kine-cz",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 3,
+          "removed": 0
+        },
+        "note": "3 posts via feed",
+        "duration_ms": 277
+      },
+      {
+        "id": "keytogoodcode-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 0,
+          "removed": 0
+        },
+        "deferred": true,
+        "note": "scrape-only source: HTML ingest arrives with the blogs milestone (M3)",
+        "duration_ms": 0
+      },
+      {
+        "id": "olofsimren-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 14,
+          "removed": 0
+        },
+        "note": "14 posts via WordPress REST",
+        "duration_ms": 710
+      },
+      {
+        "id": "mohana-blog",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 25,
+          "removed": 0
+        },
+        "note": "25 posts via feed",
+        "duration_ms": 416
+      },
+      {
+        "id": "duiliotacconi-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 22,
+          "removed": 0
+        },
+        "note": "22 posts via WordPress REST",
+        "duration_ms": 345
+      },
+      {
+        "id": "thinkaboutit-be",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 70,
+          "removed": 0
+        },
+        "note": "70 posts via WordPress REST",
+        "duration_ms": 2065
+      },
+      {
+        "id": "thatnavguy-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 1,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 69,
+          "removed": 0
+        },
+        "note": "70 posts via feed",
+        "duration_ms": 219
+      },
+      {
+        "id": "dvlprlife-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 20,
+          "removed": 0
+        },
+        "note": "20 posts via feed",
+        "duration_ms": 282
+      },
+      {
+        "id": "tine-staric-net",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 9,
+          "removed": 0
+        },
+        "note": "9 posts via feed",
+        "duration_ms": 340
+      },
+      {
+        "id": "aardvarklabs-blog",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 1,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 82,
+          "removed": 0
+        },
+        "note": "83 posts via WordPress REST",
+        "duration_ms": 656
+      },
+      {
+        "id": "vondervoort-be",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 6,
+          "removed": 0
+        },
+        "note": "6 posts via WordPress REST",
+        "duration_ms": 1480
+      },
+      {
+        "id": "thedynamicsexplorer-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 18,
+          "removed": 0
+        },
+        "note": "18 posts via WordPress REST",
+        "duration_ms": 592
+      },
+      {
+        "id": "vld-bc-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 0,
+          "removed": 0
+        },
+        "deferred": true,
+        "note": "scrape-only source: HTML ingest arrives with the blogs milestone (M3)",
+        "duration_ms": 0
+      },
+      {
+        "id": "miljan-rs",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 7,
+          "removed": 0
+        },
+        "note": "7 posts via feed",
+        "duration_ms": 250
+      },
+      {
+        "id": "sshadows-dk",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 13,
+          "removed": 0
+        },
+        "note": "13 posts via feed",
+        "duration_ms": 198
+      },
+      {
+        "id": "vjeko-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 22,
+          "removed": 0
+        },
+        "note": "22 posts via feed",
+        "duration_ms": 173
+      },
+      {
+        "id": "nataliekarolak-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 16,
+          "removed": 0
+        },
+        "note": "16 posts via WordPress REST",
+        "duration_ms": 362
+      },
+      {
+        "id": "yzhums-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 1,
+          "changed": 1,
+          "updated": 0,
+          "unchanged": 385,
+          "removed": 0
+        },
+        "note": "387 posts via WordPress REST",
+        "duration_ms": 6794
+      },
+      {
+        "id": "jeremyvyska-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 13,
+          "removed": 0
+        },
+        "note": "13 posts via WordPress REST",
+        "duration_ms": 1092
+      },
+      {
+        "id": "wingate365-com",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 14,
+          "removed": 0
+        },
+        "note": "14 posts via feed",
+        "duration_ms": 270
+      },
+      {
+        "id": "bccaptain-com-au",
+        "kind": "blog",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 6,
+          "removed": 0
+        },
+        "note": "6 posts via feed",
+        "duration_ms": 172
+      },
+      {
+        "id": "wingate-combined",
+        "kind": "discovery",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 0,
+          "removed": 0
+        },
+        "suggestions": [
+          {
+            "host": "abccgroup.com",
+            "count": 5,
+            "sample_title": "Your CFO Loves It, Your Warehouse Doesn't: 8 Sage Intacct Alternatives Compared",
+            "sample_url": "https://www.abccgroup.com/post/sage-intacct-alternatives-compared"
+          },
+          {
+            "host": "linkedin.com",
+            "count": 3,
+            "sample_title": "The Copilot Bundle Fixes the Per-User Price. It Doesn't Price the Agents.",
+            "sample_url": "https://www.linkedin.com/pulse/copilot-bundle-fixes-per-user-price-doesnt-agents-ammolh-saallvi-sw1xf"
+          },
+          {
+            "host": "theworkbench.blog",
+            "count": 3,
+            "sample_title": "Copilot Studio | The Copy It Calls (Upgraded)",
+            "sample_url": "http://www.theworkbench.blog/2026/11/copilot-studio-copy-it-calls-upgraded.html"
+          },
+          {
+            "host": "bcforfinance.com",
+            "count": 1,
+            "sample_title": "Business Central Dimensions in Financial Reports: Expenses by Function, Disclosed by Nature",
+            "sample_url": "https://bcforfinance.com/post/business-central-dimensions-in-financial-reports-expenses-by-function-disclosed-by-nature"
+          },
+          {
+            "host": "hougaard.com",
+            "count": 1,
+            "sample_title": "FTP, FTPS, SFTP: What’s the difference, and what about AL?",
+            "sample_url": "https://www.hougaard.com/ftp-ftps-sftp-whats-the-difference-and-what-about-al/"
+          },
+          {
+            "host": "lubenheimer.com",
+            "count": 1,
+            "sample_title": "Vibe Coding: Just because you can, doesn’t mean you should",
+            "sample_url": "https://lubenheimer.com/vibe-coding-just-because-you-can-doesnt-mean-you-should/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=vibe-coding-just-because-you-can-doesnt-mean-you-should"
+          },
+          {
+            "host": "oussamasabbouh.com",
+            "count": 1,
+            "sample_title": "Secrets in Business Central Extensions: SecretText, IsolatedStorage, and Credential Leaks",
+            "sample_url": "https://oussamasabbouh.com/2026/11/10/secrets-in-business-central-extensions-secrettext-isolatedstorage-and-credential-leaks/"
+          },
+          {
+            "host": "podcast.steveendow.com",
+            "count": 1,
+            "sample_title": "I Need Coffee - Episode 231 - M365 Security Audits, Reliable BC Job Queues, Customer Onboarding, and App Licensing",
+            "sample_url": "https://podcast.steveendow.com"
+          },
+          {
+            "host": "thedynamicsmindset.com",
+            "count": 1,
+            "sample_title": "Enable Multiple Users to Post (Concurrent Posting)",
+            "sample_url": "https://www.thedynamicsmindset.com/mindset-blog/feature-management-enable-multiple-users-to-post"
+          },
+          {
+            "host": "tobiasfenster.io",
+            "count": 1,
+            "sample_title": "What is a Model Deployment in AI Runway actually?",
+            "sample_url": "https://tobiasfenster.io/what-is-a-model-deployment-in-ai-runway-actually"
+          }
+        ],
+        "note": "50 digest entries, 10 unregistered hosts",
+        "duration_ms": 1006
+      }
+    ],
+    "totals": {
+      "sources": 53,
+      "failed": 7,
+      "deferred": 2,
+      "new": 21,
+      "changed": 34,
+      "updated": 0,
+      "unchanged": 10059,
+      "removed": 0
+    }
+  },
+  "plan": {
+    "quotas": {
+      "captions": 60,
+      "video_extract": 20,
+      "docs": 200,
+      "posts": 20,
+      "code_jobs": 1,
+      "hub_refresh": 30,
+      "roadmap_links": 20,
+      "topic_links": 20,
+      "learn_confirm": 40,
+      "learn_facts": 30,
+      "cautions": 20,
+      "topic_reviews": 7,
+      "coverage_reviews": 10,
+      "opus_reviews": 5,
+      "llm_calls_max": 225,
+      "preview_probes": 80,
+      "change_fetch": 60,
+      "changes": 20,
+      "change_narrative": 1,
+      "graph_jobs": 1,
+      "video_reviews": 10,
+      "post_reviews": 7,
+      "change_reviews": 7
+    },
+    "work": 54,
+    "executed": 54,
+    "skips": 0,
+    "quota_use": {
+      "unlimited": {
+        "selected": 29,
+        "available": 29,
+        "limit": null
+      },
+      "change_fetch": {
+        "selected": 18,
+        "available": 18,
+        "limit": 60
+      },
+      "posts": {
+        "selected": 6,
+        "available": 6,
+        "limit": 20
+      },
+      "code_jobs": {
+        "selected": 1,
+        "available": 5,
+        "limit": 1
+      }
+    },
+    "note": "stopped: done"
+  },
+  "llm": {
+    "calls": 321,
+    "cache_hits": 2,
+    "failures": 107,
+    "by_model": {
+      "claude-haiku-4-5-20251001": 171,
+      "claude-opus-5-5": 60,
+      "claude-sonnet-5-5": 90
+    },
+    "cost_usd": 0,
+    "tokens_by_model": {},
+    "day_cost_usd": 0,
+    "day_capped_usd": 0
+  },
+  "spend": {
+    "today_usd": 0,
+    "today_total_usd": 0,
+    "week_before_usd": 23.01311,
+    "week_before_uncapped_usd": 0,
+    "night_cap_usd": 15,
+    "week_cap_usd": 80,
+    "allowance_usd": 15,
+    "binding": "night",
+    "exhausted": false
+  },
+  "items_changed": 55,
+  "errors": [
+    "yt-microsoft: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCLErzd6kpQ0DAJSGsGjtxbA",
+    "yt-saurav: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UC2SnEeamdCLN98MXFprKd_w",
+    "yt-areopa: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCWL0RbbT6ILzzCd6Ix7t0AQ",
+    "yt-mibuso: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCeFUrL4JZsOa39TQVmrw2ww",
+    "yt-stefanmaron: HTTP 500 for https://www.youtube.com/feeds/videos.xml?channel_id=UC96RLsspoArRJu6dhwkOsWQ",
+    "yt-bcmusings: HTTP 404 for https://www.youtube.com/feeds/videos.xml?channel_id=UCcjRDxd_tl4UckLy-30pt3g",
+    "yt-dynamicscorner: HTTP 500 for https://www.youtube.com/feeds/videos.xml?channel_id=UCiC0ZMYcrfBCUIicN1DwbJQ",
+    "roadmap systems 579980: LLM call failed after 3 attempts (roadmap systems 579980 +0): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "feature/573349 coverage review: LLM call failed after 3 attempts (feature/573349 coverage review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "feature/573343 coverage review: LLM call failed after 3 attempts (feature/573343 coverage review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "feature/573362 coverage review: LLM call failed after 3 attempts (feature/573362 coverage review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "feature/576874 coverage review: LLM call failed after 3 attempts (feature/576874 coverage review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "feature/573348 coverage review: LLM call failed after 3 attempts (feature/573348 coverage review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "feature/573366 coverage review: LLM call failed after 3 attempts (feature/573366 coverage review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "feature/577820 coverage review: LLM call failed after 3 attempts (feature/577820 coverage review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "feature/578065 coverage review: LLM call failed after 3 attempts (feature/578065 coverage review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links change/bcapps/9523: LLM call failed after 3 attempts (change/bcapps/9523): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links change/bcapps/13778 +5: LLM call failed after 3 attempts (change/bcapps/13778 +5): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links post/thinkaboutit-be/8393 +5: LLM call failed after 3 attempts (post/thinkaboutit-be/8393 +5): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links change/bcapps/9587: LLM call failed after 3 attempts (change/bcapps/9587): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links post/olofsimren-com/3981: LLM call failed after 3 attempts (post/olofsimren-com/3981): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027 +5: LLM call failed after 3 attempts (post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027 +5): claude error (success): You've hit your session limit · resets 3:30am (Eu",
+    "topic links post/yzhums-com/77184: LLM call failed after 3 attempts (post/yzhums-com/77184): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links change/bcapps/8871 +5: LLM call failed after 3 attempts (change/bcapps/8871 +5): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links post/yzhums-com/77263 +5: LLM call failed after 3 attempts (post/yzhums-com/77263 +5): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links change/bcapps/9126 +5: LLM call failed after 3 attempts (change/bcapps/9126 +5): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links change/bcapps/9208 +5: LLM call failed after 3 attempts (change/bcapps/9208 +5): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links change/bcapps/9316 +5: LLM call failed after 3 attempts (change/bcapps/9316 +5): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links change/bcapps/9327 +5: LLM call failed after 3 attempts (change/bcapps/9327 +5): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links change/bcapps/9575 +5: LLM call failed after 3 attempts (change/bcapps/9575 +5): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links change/bcapps/9434 +5: LLM call failed after 3 attempts (change/bcapps/9434 +5): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links change/bcapps/9702 +5: LLM call failed after 3 attempts (change/bcapps/9702 +5): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links change/bcapps/9792 +5: LLM call failed after 3 attempts (change/bcapps/9792 +5): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links change/bcapps/9954 +5: LLM call failed after 3 attempts (change/bcapps/9954 +5): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links change/bcquality/233: LLM call failed after 3 attempts (change/bcquality/233): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic links change/bcapps/12947 +1: LLM call failed after 3 attempts (change/bcapps/12947 +1): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "learn confirm change/bcapps/11431 +7: LLM call failed after 3 attempts (change/bcapps/11431 +7): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "learn confirm change/bcapps/11168 +7: LLM call failed after 3 attempts (change/bcapps/11168 +7): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "learn confirm change/bcapps/11593 +7: LLM call failed after 3 attempts (change/bcapps/11593 +7): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "learn confirm change/bcapps/11314 +7: LLM call failed after 3 attempts (change/bcapps/11314 +7): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "learn confirm change/bcapps/11016 +7: LLM call failed after 3 attempts (change/bcapps/11016 +7): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al topic review: LLM call failed after 3 attempts (topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al topic review): claude error (success): You've hit your session limit · res",
+    "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al topic review: LLM call failed after 3 attempts (topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al topic review): claude error (success): You've hit your session limit · res",
+    "topic/dev-itpro/integration/integrating-with-azure-services topic review: LLM call failed after 3 attempts (topic/dev-itpro/integration/integrating-with-azure-services topic review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al topic review: LLM call failed after 3 attempts (topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al topic review): claude error (success): You've hit your session limit · res",
+    "topic/business-central/copilot-and-agent-capabilities/analysis-assist topic review: LLM call failed after 3 attempts (topic/business-central/copilot-and-agent-capabilities/analysis-assist topic review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Bru",
+    "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al topic review: LLM call failed after 3 attempts (topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al topic review): claude error (success): You've hit your session limit · res",
+    "topic/business-central/responsible-ai topic review: LLM call failed after 3 attempts (topic/business-central/responsible-ai topic review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "learn facts call: LLM call failed after 3 attempts (8 Learn page part(s) for key facts): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "learn facts call: LLM call failed after 3 attempts (6 Learn page part(s) for key facts): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/business-functionality/purchasing: LLM call failed after 3 attempts (topic/business-central/business-functionality/purchasing narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/business-functionality/sales: LLM call failed after 3 attempts (topic/business-central/business-functionality/sales narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/get-started/get-productive-in-business-central: LLM call failed after 3 attempts (topic/business-central/get-started/get-productive-in-business-central narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brusse",
+    "topic/business-central/business-functionality/project-management: LLM call failed after 3 attempts (topic/business-central/business-functionality/project-management narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/business-functionality/inventory: LLM call failed after 3 attempts (topic/business-central/business-functionality/inventory narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/business-functionality/manufacturing: LLM call failed after 3 attempts (topic/business-central/business-functionality/manufacturing narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/business-functionality/sustainability-management: LLM call failed after 3 attempts (topic/business-central/business-functionality/sustainability-management narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brus",
+    "topic/business-central/analytics-business-intelligence-and-repo/use-reports-in-daily-work: LLM call failed after 3 attempts (topic/business-central/analytics-business-intelligence-and-repo/use-reports-in-daily-work narrative): claude error (success): You've hit your session limit · resets 3",
+    "topic/business-central/analytics-business-intelligence-and-repo/develop-reports: LLM call failed after 3 attempts (topic/business-central/analytics-business-intelligence-and-repo/develop-reports narrative): claude error (success): You've hit your session limit · resets 3:30am (Eur",
+    "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports: LLM call failed after 3 attempts (topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports narrative): claude error (success): You've hit your session limi",
+    "topic/business-central/integrate-with-other-applications/microsoft-power-platform: LLM call failed after 3 attempts (topic/business-central/integrate-with-other-applications/microsoft-power-platform narrative): claude error (success): You've hit your session limit · resets 3:30am (E",
+    "topic/dev-itpro/development/programming-in-the-al-language: LLM call failed after 3 attempts (topic/dev-itpro/development/programming-in-the-al-language narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor: LLM call failed after 3 attempts (topic/dev-itpro/integration/integrating-with-microsoft-power-platfor narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussel",
+    "topic/dev-itpro/integration/integrating-with-infrastructure-services: LLM call failed after 3 attempts (topic/dev-itpro/integration/integrating-with-infrastructure-services narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussel",
+    "topic/dev-itpro/development/the-al-programming-language: LLM call failed after 3 attempts (topic/dev-itpro/development/the-al-programming-language narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/copilot-and-agent-capabilities/payables-agent: LLM call failed after 3 attempts (topic/business-central/copilot-and-agent-capabilities/payables-agent narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussel",
+    "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol: LLM call failed after 3 attempts (topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Br",
+    "topic/business-central/business-functionality/company-hub: LLM call failed after 3 attempts (topic/business-central/business-functionality/company-hub narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/development-and-administration/customize-business-central: LLM call failed after 3 attempts (topic/business-central/development-and-administration/customize-business-central narrative): claude error (success): You've hit your session limit · resets 3:30am (Eu",
+    "topic/dev-itpro/get-started/sell: LLM call failed after 3 attempts (topic/dev-itpro/get-started/sell narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/dev-itpro/development/troubleshooting: LLM call failed after 3 attempts (topic/dev-itpro/development/troubleshooting narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/get-started/troubleshooting-and-faqs: LLM call failed after 3 attempts (topic/business-central/get-started/troubleshooting-and-faqs narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/business-functionality/relationship-management: LLM call failed after 3 attempts (topic/business-central/business-functionality/relationship-management narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brusse",
+    "topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365: LLM call failed after 3 attempts (topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365 narrative): claude error (success): You've hit your session limit · r",
+    "topic/dev-itpro/administration/prepare-business-central: LLM call failed after 3 attempts (topic/dev-itpro/administration/prepare-business-central narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/dev-itpro/development/data-analytics-and-reporting: LLM call failed after 3 attempts (topic/dev-itpro/development/data-analytics-and-reporting narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/dev-itpro/integration/integrating-business-central-with-office: LLM call failed after 3 attempts (topic/dev-itpro/integration/integrating-business-central-with-office narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussel",
+    "topic/business-central/development-and-administration: LLM call failed after 3 attempts (topic/business-central/development-and-administration narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/business-functionality: LLM call failed after 3 attempts (topic/business-central/business-functionality narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/security-privacy-and-compliance: LLM call failed after 3 attempts (topic/business-central/security-privacy-and-compliance narrative): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/integrate-with-other-applications review: LLM call failed after 3 attempts (topic/business-central/integrate-with-other-applications review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/business-functionality/inventory/inventory-analytics review: LLM call failed after 3 attempts (topic/business-central/business-functionality/inventory/inventory-analytics review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Bru",
+    "topic/business-central/business-functionality/purchasing review: LLM call failed after 3 attempts (topic/business-central/business-functionality/purchasing review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/business-functionality/sales/sales-analytics review: LLM call failed after 3 attempts (topic/business-central/business-functionality/sales/sales-analytics review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "topic/business-central/copilot-and-agent-capabilities review: LLM call failed after 3 attempts (topic/business-central/copilot-and-agent-capabilities review): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "change/bcapps-prs/13893 extracted: LLM call failed after 3 attempts (change/bcapps-prs/13893): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "blog/demiliani-com/17609 extracted: LLM call failed after 3 attempts (blog/demiliani-com/17609): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "blog/aardvarklabs-blog/4095 extracted: LLM call failed after 3 attempts (blog/aardvarklabs-blog/4095): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-88-extract-apps-from-docker-container/ extracted: LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-88-extract-apps-from-docker-container/): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "blog/yzhums-com/77363 extracted: LLM call failed after 3 attempts (blog/yzhums-com/77363): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "blog/yzhums-com/77184 extracted: LLM call failed after 3 attempts (blog/yzhums-com/77184): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "change/bcapps-prs/13699 extracted: LLM call failed after 3 attempts (change/bcapps-prs/13699): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "blog/freddysblog/https://freddysblog.com/2026/11/10/human-vs-ai extracted: LLM call failed after 3 attempts (blog/freddysblog/https://freddysblog.com/2026/11/10/human-vs-ai): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "change/bcapps-prs/13928 extracted: LLM call failed after 3 attempts (change/bcapps-prs/13928): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "change/bcapps-prs/13060 extracted: LLM call failed after 3 attempts (change/bcapps-prs/13060): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "docs/learn-devitpro/dev-itpro/administration/administration-center-api.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-backup-restore.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "change/bcquality-prs/273 extracted: LLM call failed after 3 attempts (change/bcquality-prs/273): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "change/bcapps-prs/13704 fetched: The operation was aborted due to timeout",
+    "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-capacity.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-copy.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "change/bcapps-prs/14000 fetched: fetch failed",
+    "change/bcapps-prs/13627 extracted: LLM call failed after 3 attempts (change/bcapps-prs/13627): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "change/bcapps-prs/9879 fetched: fetch failed",
+    "change/bcapps-prs/13801 fetched: fetch failed",
+    "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-delete.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "change/bcapps-prs/13582 extracted: LLM call failed after 3 attempts (change/bcapps-prs/13582): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-move.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "change/bcapps-prs/13720 fetched: The operation was aborted due to timeout",
+    "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-apps.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-access.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-rename.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "change/bcapps-prs/13467 extracted: LLM call failed after 3 attempts (change/bcapps-prs/13467): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "change/bcapps-prs/12516 extracted: LLM call failed after 3 attempts (change/bcapps-prs/12516): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-notifications.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-telemetry.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-sessions.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-update-management.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+    "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)"
+  ],
+  "captions_retried": 0,
+  "checkpoints": 2,
+  "execution": {
+    "stop_reason": "done",
+    "deadline": "2026-11-14T05:35:00.000Z",
+    "items_touched": 54,
+    "stages_run": {
+      "roadmap:fetched": 1,
+      "roadmap:linked": 1,
+      "roadmap:published": 1,
+      "guidelines:fetched": 3,
+      "docs:fetched": 25,
+      "blog:fetched": 6,
+      "guidelines:published": 3,
+      "change:fetched": 13,
+      "code:fetched": 1,
+      "code:extracted": 1,
+      "code:linked": 1,
+      "code:published": 1
+    },
+    "advanced": 53,
+    "skipped": 4,
+    "failed_attempts": 34,
+    "failed_final": 0,
+    "no_handler": 0,
+    "held": 0,
+    "parked": 11,
+    "quota_charged": {
+      "posts": 6,
+      "change_fetch": 18,
+      "code_jobs": 1,
+      "changes": 9,
+      "docs": 14,
+      "graph_jobs": 1
+    },
+    "regards": [
+      {
+        "at_calls": 26,
+        "decision": "reduced",
+        "status": "unavailable:not_configured"
+      },
+      {
+        "at_calls": 51,
+        "decision": "reduced",
+        "status": "unavailable:not_configured"
+      },
+      {
+        "at_calls": 87,
+        "decision": "reduced",
+        "status": "unavailable:not_configured"
+      }
+    ],
+    "errors": [
+      "change/bcapps-prs/13893 extracted: LLM call failed after 3 attempts (change/bcapps-prs/13893): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "blog/demiliani-com/17609 extracted: LLM call failed after 3 attempts (blog/demiliani-com/17609): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "blog/aardvarklabs-blog/4095 extracted: LLM call failed after 3 attempts (blog/aardvarklabs-blog/4095): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-88-extract-apps-from-docker-container/ extracted: LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-88-extract-apps-from-docker-container/): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "blog/yzhums-com/77363 extracted: LLM call failed after 3 attempts (blog/yzhums-com/77363): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "blog/yzhums-com/77184 extracted: LLM call failed after 3 attempts (blog/yzhums-com/77184): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "change/bcapps-prs/13699 extracted: LLM call failed after 3 attempts (change/bcapps-prs/13699): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "blog/freddysblog/https://freddysblog.com/2026/11/10/human-vs-ai extracted: LLM call failed after 3 attempts (blog/freddysblog/https://freddysblog.com/2026/11/10/human-vs-ai): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "change/bcapps-prs/13928 extracted: LLM call failed after 3 attempts (change/bcapps-prs/13928): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "change/bcapps-prs/13060 extracted: LLM call failed after 3 attempts (change/bcapps-prs/13060): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "docs/learn-devitpro/dev-itpro/administration/administration-center-api.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-backup-restore.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "change/bcquality-prs/273 extracted: LLM call failed after 3 attempts (change/bcquality-prs/273): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "change/bcapps-prs/13704 fetched: The operation was aborted due to timeout",
+      "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-capacity.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-copy.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "change/bcapps-prs/14000 fetched: fetch failed",
+      "change/bcapps-prs/13627 extracted: LLM call failed after 3 attempts (change/bcapps-prs/13627): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "change/bcapps-prs/9879 fetched: fetch failed",
+      "change/bcapps-prs/13801 fetched: fetch failed",
+      "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-delete.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "change/bcapps-prs/13582 extracted: LLM call failed after 3 attempts (change/bcapps-prs/13582): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-move.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "change/bcapps-prs/13720 fetched: The operation was aborted due to timeout",
+      "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-apps.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-access.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-rename.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "change/bcapps-prs/13467 extracted: LLM call failed after 3 attempts (change/bcapps-prs/13467): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "change/bcapps-prs/12516 extracted: LLM call failed after 3 attempts (change/bcapps-prs/12516): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-notifications.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-telemetry.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-sessions.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-update-management.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+      "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center.md extracted: LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)"
+    ],
+    "parked_left": 0
+  },
+  "code": {
+    "version_diffs": 7,
+    "country_diffs": 46,
+    "timelines": 19,
+    "deprecations": 3,
+    "written": 46,
+    "relations": 3,
+    "field_docs": 3,
+    "matrix": false,
+    "docs_objects": {
+      "links": 5350,
+      "missing": 110,
+      "obsolete": 41,
+      "undocumented": 44,
+      "written": 2
+    },
+    "graph": {
+      "runs": [
+        {
+          "major": "29",
+          "written": true,
+          "edges": 15800,
+          "unresolved": 1362,
+          "ms": 2089705
+        }
+      ]
+    },
+    "narratives": {
+      "ready": 22,
+      "refreshed": 0,
+      "failed": 0,
+      "waiting": [],
+      "stopped": "done"
+    },
+    "crosslinks": {
+      "pages": 5531,
+      "rows": 10083,
+      "certain": 2797,
+      "by": {
+        "code": 5653,
+        "override": 33,
+        "model": 4397
+      },
+      "learn_pages": 1809,
+      "written": true,
+      "errors": []
+    },
+    "cautions": {
+      "items": 765,
+      "cautions": 1719,
+      "objects": 63,
+      "attached": 86,
+      "written": false
+    },
+    "pages": {
+      "objects": 25731,
+      "written": 25623,
+      "removed": 0,
+      "localizations": 22,
+      "own_objects": 9217
+    },
+    "related": {
+      "pages": 10726,
+      "rows": 37962,
+      "by_rank": {
+        "1": 986,
+        "2": 67,
+        "3": 20266,
+        "4": 1911,
+        "5": 7516,
+        "6": 7078,
+        "7": 138
+      },
+      "written": true
+    },
+    "apps": {
+      "apps": 97,
+      "written": 0,
+      "removed": 0
+    }
+  },
+  "narrative_reviews": {
+    "localization": {
+      "candidates": 0,
+      "reviewed": 0,
+      "fixed": 0,
+      "rejected": 0,
+      "calls": 0,
+      "cost_usd": 0,
+      "stopped": "done"
+    },
+    "digest": {
+      "candidates": 0,
+      "reviewed": 0,
+      "fixed": 0,
+      "rejected": 0,
+      "calls": 0,
+      "cost_usd": 0,
+      "stopped": "done"
+    }
+  },
+  "changes": {
+    "fetched": 13,
+    "skipped_non_code": 4,
+    "held": 5,
+    "pages": 1444,
+    "relinked": 23,
+    "rerendered": 68,
+    "api_calls": 51,
+    "narrated": 0
+  },
+  "previews": {
+    "probed": 60,
+    "refreshed": 60,
+    "failed": 0,
+    "rerendered": 61,
+    "flipped": [],
+    "channels": 0
+  },
+  "roadmap_links": {
+    "units": 0,
+    "stale": 0,
+    "calls": 1,
+    "matched": 0,
+    "rejected": 0,
+    "related": 0,
+    "failed": 1,
+    "cost_usd": 0,
+    "rejections": [],
+    "stopped": "quota",
+    "classified": 0,
+    "unclassified": 1,
+    "pages": 762,
+    "review": {
+      "candidates": 11,
+      "reviewed": 2,
+      "kept": 6,
+      "dropped": 34,
+      "failed": 8,
+      "cost_usd": 0,
+      "stopped": "quota"
+    }
+  },
+  "topic_links": {
+    "units": 3191,
+    "stale": 392,
+    "calls": 20,
+    "matched": 0,
+    "rejected": 0,
+    "failed": 20,
+    "cost_usd": 0,
+    "rejections": [],
+    "second": {
+      "due": 13,
+      "called": 0,
+      "matched": 0
+    },
+    "stopped": "quota"
+  },
+  "cautions": {
+    "due": 0,
+    "posts": 0,
+    "calls": 0,
+    "cautions": 0,
+    "failed": 0,
+    "cost_usd": 0,
+    "stopped": "done"
+  },
+  "learn_confirm": {
+    "units": 4587,
+    "stale": 1866,
+    "called": 40,
+    "calls": 5,
+    "picks": 0,
+    "rejected": 0,
+    "failed": 5,
+    "cost_usd": 0,
+    "rejections": [],
+    "stopped": "quota"
+  },
+  "topic_reviews": {
+    "candidates": 145,
+    "calls": 7,
+    "reviewed": 0,
+    "kept": 0,
+    "dropped": 0,
+    "failed": 7,
+    "cost_usd": 0,
+    "stopped": "quota"
+  },
+  "reviews": {
+    "video": {
+      "reviewed": 0,
+      "fixed": 0,
+      "rejected": 0,
+      "calls": 0,
+      "cost_usd": 0
+    },
+    "post": {
+      "reviewed": 0,
+      "fixed": 0,
+      "rejected": 0,
+      "calls": 0,
+      "cost_usd": 0,
+      "candidates": 0,
+      "failed": 0,
+      "reset": 0,
+      "rerendered": 0,
+      "stopped": "done"
+    },
+    "change": {
+      "reviewed": 0,
+      "fixed": 0,
+      "rejected": 0,
+      "calls": 0,
+      "cost_usd": 0,
+      "candidates": 0,
+      "failed": 0,
+      "reset": 0,
+      "rerendered": 0,
+      "stopped": "done"
+    }
+  },
+  "guidelines": {
+    "rerendered": 23,
+    "pages": 465
+  },
+  "learn_facts": {
+    "due": 14,
+    "pages": 0,
+    "calls": 2,
+    "facts": 0,
+    "dropped": 0,
+    "failed": 14,
+    "cost_usd": 0,
+    "stopped": "done"
+  },
+  "hubs": {
+    "topics": 608,
+    "narrated": 559,
+    "refreshed": 0,
+    "failed": 30,
+    "backlog": 3,
+    "stopped": "quota",
+    "reviewed": 0,
+    "review_fixed": 0,
+    "review_rejected": 0,
+    "review_backlog": 159
+  },
+  "learn_identifiers": {
+    "items": 0,
+    "filled": 0,
+    "prefetched": 0,
+    "missing": 0,
+    "ms": 936,
+    "rule": 2
+  },
+  "content": {
+    "pages": 30394,
+    "errors": 0
+  },
+  "leak": {
+    "vault": "scanned",
+    "raw_docs": 1244,
+    "files_scanned": 34744,
+    "findings": 0,
+    "blocked": false
+  }
+}

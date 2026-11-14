@@ -17,7 +17,7 @@ review:
   at: "2026-10-08T02:01:03.638Z"
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-11-14T00:13:17.671Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -91,7 +91,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:51:39.082Z"
+  probed_at: "2026-11-14T00:58:25.838Z"
 ---
 
 # D365 Business Central: Why is my Job Queue Tasks Cue in Red?

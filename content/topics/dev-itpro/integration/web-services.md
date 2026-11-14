@@ -12,7 +12,7 @@ review:
   at: "2026-11-03T01:02:12.823Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-14T01:06:08.670Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,7 +105,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api
     title: Business Central Administration Center API
-    date: "2025-11-06"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null

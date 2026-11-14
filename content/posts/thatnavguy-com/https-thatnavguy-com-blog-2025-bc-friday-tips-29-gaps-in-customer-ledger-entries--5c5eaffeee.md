@@ -18,7 +18,7 @@ review:
   at: "2026-10-08T02:01:14.577Z"
   flags: []
 generated:
-  at: "2026-10-23T22:03:43.080Z"
+  at: "2026-11-14T00:13:17.671Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -90,7 +90,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-07T11:51:41.238Z"
+  probed_at: "2026-11-14T00:58:28.308Z"
 ---
 
 # BC Friday Tips #29 Gaps in Customer Ledger Entries

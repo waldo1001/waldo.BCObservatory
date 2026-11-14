@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T00:51:57.443Z"
+  at: "2026-11-14T00:54:52.162Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 142d0ee0ee1728032b66289491c618f319f6e312254f72b3e09117c9b50835e2
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/ExpenseAgent/app/src/Common/Profiles/ExpenseManager.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/ExpenseAgent/app/src/Common/Profiles/ExpenseManager.Profile.al
     title: src/Apps/W1/ExpenseAgent/app/src/Common/Profiles/ExpenseManager.Profile.al (releases/29.x)
     date: null
-    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
+    commit: 229c71f1927eed3c6f5f2cac1e8701b916c315fb
     t: null
     quote: null
 links:
@@ -84,7 +84,7 @@ relations:
 
 > Profile "EXPENSE MANAGER" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · captioned "Expense Manager" · BC29-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/ExpenseAgent/app/src/Common/Profiles/ExpenseManager.Profile.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · captioned "Expense Manager" · BC29-30 · [source at 229c71f1](https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/ExpenseAgent/app/src/Common/Profiles/ExpenseManager.Profile.al) · facts from BC29
 
 ## Properties
 

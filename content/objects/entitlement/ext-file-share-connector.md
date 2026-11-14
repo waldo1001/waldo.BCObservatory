@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T00:51:57.443Z"
+  at: "2026-11-14T00:54:52.162Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 11206f1d8d177e63a5008fc0f224d8058fa239ad62a77887ff873e4ab70da2f5
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/External%20File%20Storage%20-%20Azure%20File%20Service%20Connector/app/Entitlements/ExtFileShareConnector.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/External%20File%20Storage%20-%20Azure%20File%20Service%20Connector/app/Entitlements/ExtFileShareConnector.Entitlement.al
     title: src/Apps/W1/External File Storage - Azure File Service Connector/app/Entitlements/ExtFileShareConnector.Entitlement.al (releases/29.x)
     date: null
-    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
+    commit: 229c71f1927eed3c6f5f2cac1e8701b916c315fb
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Ext. File Share Connector" in External File Storage - Azure File Service Connector (System.ExternalFileStorage). Introduced in BC29, still in BC30.
 
-External File Storage - Azure File Service Connector · System.ExternalFileStorage · BC29-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/External%20File%20Storage%20-%20Azure%20File%20Service%20Connector/app/Entitlements/ExtFileShareConnector.Entitlement.al) · facts from BC29
+External File Storage - Azure File Service Connector · System.ExternalFileStorage · BC29-30 · [source at 229c71f1](https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/External%20File%20Storage%20-%20Azure%20File%20Service%20Connector/app/Entitlements/ExtFileShareConnector.Entitlement.al) · facts from BC29
 
 ## Across versions
 

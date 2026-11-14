@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T00:51:57.443Z"
+  at: "2026-11-14T00:54:52.162Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: fec358a410031430618e7b1fa73870da7d6412704d8080df7673bccb99c6dff2
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/System%20Application/App/MCP/src/Configuration/Interfaces/MCPServerFeatures.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/System%20Application/App/MCP/src/Configuration/Interfaces/MCPServerFeatures.Interface.al
     title: src/System Application/App/MCP/src/Configuration/Interfaces/MCPServerFeatures.Interface.al (releases/29.x)
     date: null
-    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
+    commit: 229c71f1927eed3c6f5f2cac1e8701b916c315fb
     t: null
     quote: null
 links:
@@ -89,7 +89,7 @@ relations:
 
 > Interface "MCP Server Features" in System Application (System.MCP). 7 public procedures. Introduced in BC29, still in BC30.
 
-System Application · System.MCP · BC29-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/System%20Application/App/MCP/src/Configuration/Interfaces/MCPServerFeatures.Interface.al) · facts from BC29
+System Application · System.MCP · BC29-30 · [source at 229c71f1](https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/System%20Application/App/MCP/src/Configuration/Interfaces/MCPServerFeatures.Interface.al) · facts from BC29
 
 ## Properties
 

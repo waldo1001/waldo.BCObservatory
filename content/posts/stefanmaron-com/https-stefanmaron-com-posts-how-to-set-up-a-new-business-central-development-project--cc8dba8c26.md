@@ -21,7 +21,7 @@ review:
   at: "2026-10-08T02:00:57.623Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-14T00:13:17.671Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -82,7 +82,7 @@ preview:
   image_h: null
   site_name: Stefan Maron
   favicon: https://stefanmaron.com/icons/favicon-32x32.png
-  probed_at: "2026-10-07T11:51:03.432Z"
+  probed_at: "2026-11-14T00:58:16.124Z"
 ---
 
 # How to Set Up a New Business Central Development Project – The 100% Correct Way

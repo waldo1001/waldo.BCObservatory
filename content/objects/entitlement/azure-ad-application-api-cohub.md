@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T00:51:57.443Z"
+  at: "2026-11-14T00:54:52.162Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: fc4011d35f7c5d5ab3f493d45284663b9639fa6991fa8ee88949f64c963a9d5a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/CompanyHub/app/Entitlements/AzureADApplicationApiCOHUB.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/CompanyHub/app/Entitlements/AzureADApplicationApiCOHUB.Entitlement.al
     title: src/Apps/W1/CompanyHub/app/Entitlements/AzureADApplicationApiCOHUB.Entitlement.al (releases/29.x)
     date: null
-    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
+    commit: 229c71f1927eed3c6f5f2cac1e8701b916c315fb
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Azure AD Application Api COHUB" in CompanyHub (Mirosoft.Integration.CompanyHub). Introduced in BC29, still in BC30.
 
-CompanyHub · Mirosoft.Integration.CompanyHub · BC29-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Apps/W1/CompanyHub/app/Entitlements/AzureADApplicationApiCOHUB.Entitlement.al) · facts from BC29
+CompanyHub · Mirosoft.Integration.CompanyHub · BC29-30 · [source at 229c71f1](https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/CompanyHub/app/Entitlements/AzureADApplicationApiCOHUB.Entitlement.al) · facts from BC29
 
 ## Across versions
 

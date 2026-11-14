@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T00:13:31.718Z"
+  at: "2026-11-14T00:13:17.671Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9ac4704aaf3fd4174ba3aeb9c81a81de415d1e0dea116ac158f5ed930120fb0f
@@ -96,7 +96,6 @@ links:
     - feature/573377
     - feature/573378
     - feature/573379
-    - feature/573384
     - feature/574126
     - feature/574128
     - feature/576776
@@ -807,7 +806,6 @@ Items per quarter, oldest first:
 - [Use AL language intelligence from AI agents and other editors](../features/573338.md): Development, generally available, GA 2026-10, 2 videos
 - [Use assigned projects only in the web app](../features/573259.md): Expense Agent, in preview, GA 2026-12, 2 videos
 - [Use inventory put-aways and picks for subcontracting](../features/573355.md): Supply Chain Management, generally available, GA 2026-10, 2 videos
-- [Use new APIs for analyzing permissions for auditors and IT staff](../features/576841.md): Reporting and data analysis, generally available, GA 2026-06, 2 videos
 - [Use new APIs in Sustainability for better integration](../features/576874.md): Sustainability Management, generally available, GA 2026-06, 2 videos
 - [Use specific method for carbon footprint calculation when enabling item tracking](../features/573379.md): Sustainability Management, generally available, GA 2026-10, 2 videos
 - [Use subcontracting capabilities in production processes](../features/576872.md): Supply chain management, generally available, GA 2026-07, 2 videos
@@ -839,7 +837,6 @@ Items per quarter, oldest first:
 - [Manage tasks from all agents in dedicated task pane](../features/573363.md): Copilot and agents, generally available, GA 2026-10, 1 video
 - [Monitor usage of Open in Excel with telemetry](../features/573317.md): Governance and administration, generally available, GA 2026-10, 1 video
 - [More countries and languages](../features/573253.md): Expense Agent, in preview, GA 2026-10, 1 video
-- [Page Scripting enters General Availability](../features/573384.md): Development, generally available, GA 2026-10, 1 video
 - [Post direct transfer orders from warehouse-enabled locations](../features/573347.md): Supply Chain Management, generally available, GA 2026-10, 1 video
 - [Reduce complexity of report datasets](../features/573321.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Reduce manual work in quality tests and inspections](../features/573350.md): Supply Chain Management, generally available, GA 2026-10, 1 video
@@ -859,6 +856,7 @@ Items per quarter, oldest first:
 - [Use conditional visibility in the updated Word add-in](../features/573329.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Use formulas to calculate emissions in purchase documents](../features/573374.md): Sustainability Management, generally available, GA 2026-10, 1 video
 - [Use new APIs for analyzing approval workflows for auditors and IT staff](../features/576864.md): Reporting and data analysis, generally available, GA 2026-06, 1 video
+- [Use new APIs for analyzing permissions for auditors and IT staff](../features/576841.md): Reporting and data analysis, generally available, GA 2026-06, 1 video
 - [Use payments with the E-Document framework](../features/576813.md): Electronic documents, generally available, GA 2026-08, 1 video
 - [Use self-billed invoices](../features/576881.md): Financial Management, generally available, GA 2026-06, 1 video
 - [Use withholding taxes (WHT) with employee transactions](../features/573308.md): Finance, in preview, GA 2027-01, 1 video

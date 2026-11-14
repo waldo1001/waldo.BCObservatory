@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T00:51:57.443Z"
+  at: "2026-11-14T00:54:52.162Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 17090896874e3758c809aba7d923c6452a944916989937e38bc10d2e160beec0
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/System%20Application/App/Cryptography%20Management/src/SignatureAlgorithmv2.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/System%20Application/App/Cryptography%20Management/src/SignatureAlgorithmv2.Interface.al
     title: src/System Application/App/Cryptography Management/src/SignatureAlgorithmv2.Interface.al (releases/29.x)
     date: null
-    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
+    commit: 229c71f1927eed3c6f5f2cac1e8701b916c315fb
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Interface "Signature Algorithm v2" in System Application (System.Security.Encryption). 5 public procedures. Introduced in BC24, still in BC30.
 
-System Application · System.Security.Encryption · BC24-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/System%20Application/App/Cryptography%20Management/src/SignatureAlgorithmv2.Interface.al) · facts from BC29
+System Application · System.Security.Encryption · BC24-30 · [source at 229c71f1](https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/System%20Application/App/Cryptography%20Management/src/SignatureAlgorithmv2.Interface.al) · facts from BC29
 
 ## Procedures
 

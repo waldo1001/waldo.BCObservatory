@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T00:51:57.443Z"
+  at: "2026-11-14T00:54:52.162Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9d37f82daa6e42d03c406bb8bb0f0f4dda9c0ae7953c8636960e52cfb1a8133d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Layers/W1/BaseApp/Finance/VAT/Registration/ShipToAltCustVATReg.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Layers/W1/BaseApp/Finance/VAT/Registration/ShipToAltCustVATReg.Interface.al
     title: src/Layers/W1/BaseApp/Finance/VAT/Registration/ShipToAltCustVATReg.Interface.al (releases/29.x)
     date: null
-    commit: a1f2b2a64d46f4c2f3426f228364792e2f764431
+    commit: 229c71f1927eed3c6f5f2cac1e8701b916c315fb
     t: null
     quote: null
 links:
@@ -80,7 +80,7 @@ relations:
 
 > Interface "Ship-To Alt. Cust. VAT Reg." in Base Application (Microsoft.Finance.VAT.Registration). 1 public procedures. Introduced in BC25, still in BC30.
 
-Base Application · Microsoft.Finance.VAT.Registration · BC25-30 · [source at a1f2b2a6](https://github.com/microsoft/BCApps/blob/a1f2b2a64d46f4c2f3426f228364792e2f764431/src/Layers/W1/BaseApp/Finance/VAT/Registration/ShipToAltCustVATReg.Interface.al) · facts from BC29
+Base Application · Microsoft.Finance.VAT.Registration · BC25-30 · [source at 229c71f1](https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Layers/W1/BaseApp/Finance/VAT/Registration/ShipToAltCustVATReg.Interface.al) · facts from BC29
 
 ## Properties
 

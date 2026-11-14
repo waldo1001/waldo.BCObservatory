@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T00:13:31.718Z"
+  at: "2026-11-14T00:13:17.671Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6faaf7b0d768b2a5b8f2fd96cc026d92c7e1d1c9
@@ -23,7 +23,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-reporting-review.md
     title: "microsoft/BCQuality: AL reporting review"
     date: "2026-11-04"
-    commit: 416f1308b6a2b507d0ac29e33b53d321b5d0a170
+    commit: d576b0fd6da902bf6e4cd7dd837b1f27b170edd2
     t: null
     quote: null
 links:
@@ -148,4 +148,4 @@ Output conforms to the DO findings-report contract. Every finding this skill emi
 
 ---
 
-From microsoft/BCQuality at 416f130, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at d576b0f, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
