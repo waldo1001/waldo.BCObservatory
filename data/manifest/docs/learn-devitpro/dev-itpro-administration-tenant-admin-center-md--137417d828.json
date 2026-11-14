@@ -39,7 +39,7 @@
     }
   },
   "input_hash": "d79aa46a5f845a27eb8b55bf16557b07da17dd1f",
-  "attempts": 0,
+  "attempts": 1,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
@@ -60,7 +60,7 @@
     "identifiers": [],
     "identifiers_rule": 2
   },
-  "last_error": null,
-  "retry_after": null,
+  "last_error": "LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:18:51.812Z",
   "output_hash": "d79aa46a5f845a27eb8b55bf16557b07da17dd1f"
 }
