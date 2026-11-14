@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12682,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12682",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-13T20:17:01Z",
+  "merge_commit_sha": "21fd93f83bf914c8b2cc34c55c82d6a260c09d45",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[API tests] Use the API session's work date in page-vs-API comparison tests",
+  "body_hash": "eda054cde809cf69965679842b16bd5725ac94bd0783eecc6bdb4f5b76b6b315",
+  "fixes_issues": [],
+  "work_items": [
+    646383,
+    653393,
+    657797
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 13,
+    "additions": 24,
+    "deletions": 57,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

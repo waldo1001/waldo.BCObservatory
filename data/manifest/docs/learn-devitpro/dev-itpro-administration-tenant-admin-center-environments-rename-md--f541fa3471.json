@@ -5,17 +5,17 @@
   "tier": "official",
   "title": "Rename Environments in the Admin Center",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-rename",
-  "published_at": "2025-05-06T19:26:01.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.769Z",
-      "blob": "989007ed865fd2e129352cc9a91f8bff7e41fe8b",
-      "words": 820,
+      "at": "2026-11-14T00:17:45.942Z",
+      "blob": "aef57f020ea7581998c7759cb33d1b529aa8cbdb",
+      "words": 866,
       "forms": 0
     },
     "extracted": {
@@ -38,14 +38,14 @@
       "page": false
     }
   },
-  "input_hash": "989007ed865fd2e129352cc9a91f8bff7e41fe8b",
-  "attempts": 0,
+  "input_hash": "aef57f020ea7581998c7759cb33d1b529aa8cbdb",
+  "attempts": 1,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/tenant-admin-center-environments-rename.md",
-    "description": "Use the Business Central administration center to rename environments.",
-    "ms_date": "2021-04-01",
+    "description": "Rename a Business Central environment in the admin center. Review naming rules and plan for the URL changes that affect users and integrations.",
+    "ms_date": "2026-11-13",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "sandbox",
       "rename"
     ],
-    "ai_usage": null,
-    "words": 820,
+    "ai_usage": "ai-assisted",
+    "words": 866,
     "identifiers": [],
     "identifiers_rule": 2
   },
-  "last_error": null,
-  "retry_after": null,
-  "output_hash": "47706f1b95c82a13a7a2e559bb1eded3b91e3759646e84eefeeec75025a7ea51"
+  "last_error": "LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:18:23.138Z",
+  "output_hash": "aef57f020ea7581998c7759cb33d1b529aa8cbdb"
 }

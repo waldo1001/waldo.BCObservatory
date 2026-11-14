@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Delete and recover environments",
+  "title": "Delete and Recover Business Central Environments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-delete",
-  "published_at": "2026-08-10T10:52:37.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.349Z",
-      "blob": "4c8360c9affbc0127156b04f98237015cd564e91",
-      "words": 731,
+      "at": "2026-11-14T00:16:41.600Z",
+      "blob": "189a395b08c363aa5ddfef3327a55ecb257090bc",
+      "words": 747,
       "forms": 0
     },
     "extracted": {
@@ -38,23 +38,23 @@
       "page": false
     }
   },
-  "input_hash": "4c8360c9affbc0127156b04f98237015cd564e91",
-  "attempts": 0,
+  "input_hash": "189a395b08c363aa5ddfef3327a55ecb257090bc",
+  "attempts": 1,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/tenant-admin-center-environments-delete.md",
-    "description": "Learn how to delete and recover deleted environments using the Business Central admin center.",
-    "ms_date": "2025-10-08",
+    "description": "Delete Business Central environments in the admin center and recover them during the retention period. Review deletion behavior and recovery limits.",
+    "ms_date": "2026-11-13",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 731,
+    "ai_usage": "ai-assisted",
+    "words": 747,
     "identifiers": [],
     "identifiers_rule": 2
   },
-  "last_error": null,
-  "retry_after": null,
-  "output_hash": "56a4c848c4d77ead995d9e604f10345fc7d82eb7b7197c550cbe8a35317ecedf"
+  "last_error": "LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:17:42.180Z",
+  "output_hash": "189a395b08c363aa5ddfef3327a55ecb257090bc"
 }

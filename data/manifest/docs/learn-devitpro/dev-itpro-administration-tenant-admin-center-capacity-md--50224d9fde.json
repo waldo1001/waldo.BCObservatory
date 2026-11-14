@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Managing Capacity",
+  "title": "Manage Business Central Environment Capacity",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity",
-  "published_at": "2026-04-10T11:27:51.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.156Z",
-      "blob": "e3684a9cabecee32b2a5f5189c1caea0c291d68d",
-      "words": 774,
+      "at": "2026-11-14T00:15:43.966Z",
+      "blob": "01a71b24a7842574cd40191837d14f03e038dfce",
+      "words": 773,
       "forms": 0
     },
     "extracted": {
@@ -38,14 +38,14 @@
       "page": false
     }
   },
-  "input_hash": "e3684a9cabecee32b2a5f5189c1caea0c291d68d",
-  "attempts": 0,
+  "input_hash": "01a71b24a7842574cd40191837d14f03e038dfce",
+  "attempts": 1,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/tenant-admin-center-capacity.md",
     "description": "Learn how to monitor and optimize storage, manage environments, and stay within your quota using the administration center.",
-    "ms_date": "2025-11-12",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -60,12 +60,12 @@
       "limit",
       "database size"
     ],
-    "ai_usage": null,
-    "words": 774,
+    "ai_usage": "ai-assisted",
+    "words": 773,
     "identifiers": [],
     "identifiers_rule": 2
   },
-  "last_error": null,
-  "retry_after": null,
-  "output_hash": "b8ccc06531797f796e28fc98d4da09fcb9b1e15cd226a07f802b327dcad40666"
+  "last_error": "LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:16:38.953Z",
+  "output_hash": "01a71b24a7842574cd40191837d14f03e038dfce"
 }

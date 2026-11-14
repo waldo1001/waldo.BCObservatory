@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Managing Apps",
+  "title": "Manage Apps in the Business Central Admin Center",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-apps",
-  "published_at": "2026-08-18T10:12:23.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.295Z",
-      "blob": "c36d8b683b2befe92f7a74c6a9bf25890ae38b6f",
-      "words": 2440,
+      "at": "2026-11-14T00:17:45.935Z",
+      "blob": "fa68d79199776f7c7018104e9c871b427392a14f",
+      "words": 2439,
       "forms": 0
     },
     "extracted": {
@@ -38,14 +38,14 @@
       "page": false
     }
   },
-  "input_hash": "c36d8b683b2befe92f7a74c6a9bf25890ae38b6f",
-  "attempts": 0,
+  "input_hash": "fa68d79199776f7c7018104e9c871b427392a14f",
+  "attempts": 1,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/tenant-admin-center-manage-apps.md",
     "description": "Discover how to use the Business Central administration center to manage apps, update environments, and ensure compatibility with the latest features.",
-    "ms_date": "2025-05-01",
+    "ms_date": "2026-11-13",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -59,8 +59,8 @@
       "versions",
       "check for updates"
     ],
-    "ai_usage": null,
-    "words": 2440,
+    "ai_usage": "ai-assisted",
+    "words": 2439,
     "identifiers": [
       "PreviewKey",
       "extensionAvailability",
@@ -69,7 +69,7 @@
     ],
     "identifiers_rule": 2
   },
-  "last_error": null,
-  "retry_after": null,
-  "output_hash": "0e5369ea884df4c6b6ab1f904ba14fc06d7a420498c9fee6c948ee9bcf01f226"
+  "last_error": "LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:18:22.901Z",
+  "output_hash": "fa68d79199776f7c7018104e9c871b427392a14f"
 }

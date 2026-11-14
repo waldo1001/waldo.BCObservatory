@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Restoring an environment in the admin center",
+  "title": "Restore Business Central Environment Backups",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore",
-  "published_at": "2026-02-20T12:07:44.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.972Z",
-      "blob": "06160bc2417e190ddefe70530967f5be50759e17",
-      "words": 1604,
+      "at": "2026-11-14T00:14:59.336Z",
+      "blob": "59be90c4d2e98a1067648d849f762ac0ac7936fc",
+      "words": 1511,
       "forms": 0
     },
     "extracted": {
@@ -38,14 +38,14 @@
       "page": false
     }
   },
-  "input_hash": "06160bc2417e190ddefe70530967f5be50759e17",
-  "attempts": 0,
+  "input_hash": "59be90c4d2e98a1067648d849f762ac0ac7936fc",
+  "attempts": 1,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/tenant-admin-center-backup-restore.md",
-    "description": "Use the Business Central administration center to restore backups of environments.",
-    "ms_date": "2025-02-11",
+    "description": "Restore a Business Central environment from a backup in the admin center. Review restore limits, extension options, and steps to prepare the restored data.",
+    "ms_date": "2026-11-13",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "restore",
       "backup"
     ],
-    "ai_usage": null,
-    "words": 1604,
+    "ai_usage": "ai-assisted",
+    "words": 1511,
     "identifiers": [],
     "identifiers_rule": 2
   },
-  "last_error": null,
-  "retry_after": null,
-  "output_hash": "d52e3f9360d39cfd3c7686577023b02994585eda9404592e9f7e7e0a4f6b2364"
+  "last_error": "LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:15:28.816Z",
+  "output_hash": "59be90c4d2e98a1067648d849f762ac0ac7936fc"
 }

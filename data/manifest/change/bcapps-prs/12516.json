@@ -6,14 +6,22 @@
   "title": "[master] Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.",
   "url": "https://github.com/microsoft/BCApps/pull/12516",
   "published_at": "2026-11-10T12:00:18Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-11T00:15:47.902Z"
+    },
+    "fetched": {
+      "at": "2026-11-14T00:18:06.831Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
     }
   },
   "input_hash": "db50aef61686984a689f771b2d899d029533a311:c1",
-  "attempts": 3,
+  "attempts": 1,
   "flags": [],
   "meta": {
     "number": 12516,
@@ -29,6 +37,7 @@
     "community_contribution": false,
     "title_key": "master unposted purchase return orders and credit memos should be added to the find entries"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-11-13T08:18:44.535Z"
+  "last_error": "LLM call failed after 3 attempts (change/bcapps-prs/12516): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:18:33.199Z",
+  "output_hash": "9adc5491cec8a23431ddebe5ee76c71efd78bf046ec4df8b1f9b47af26dd3062"
 }

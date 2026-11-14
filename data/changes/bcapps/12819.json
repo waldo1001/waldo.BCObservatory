@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12819,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12819",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-13T15:09:50Z",
+  "merge_commit_sha": "4aba0e6b4c393cdead0934990fcf7757e4356fa1",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[API tests] Re-enable remaining API tests that NAV runs",
+  "body_hash": "ba129e43ea77134ac3ac531092ae806cf3d72c666de8e42e96784c9760118a4e",
+  "fixes_issues": [],
+  "work_items": [
+    646383,
+    657800,
+    658059
+  ],
+  "change_class": "non-code",
+  "files": [],
+  "totals": {
+    "files": 4,
+    "additions": 0,
+    "deletions": 91,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

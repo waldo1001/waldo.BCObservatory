@@ -1,0 +1,38 @@
+{
+  "id": "change/bcapps-prs/13704",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Subcontracting] Add quantity-ready-to-start tracking for production routing operations",
+  "url": "https://github.com/microsoft/BCApps/pull/13704",
+  "published_at": "2026-11-13T11:49:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-14T00:13:17.671Z"
+    }
+  },
+  "input_hash": "0c493a2746cc0729fe29aa3d4344f329899b5670:c1",
+  "attempts": 1,
+  "flags": [],
+  "meta": {
+    "number": 13704,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0c493a2746cc0729fe29aa3d4344f329899b5670",
+    "author": "stevengrossGOB",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "subcontracting add quantity ready to start tracking for production routing operations"
+  },
+  "last_error": "The operation was aborted due to timeout",
+  "retry_after": "2026-11-14T02:16:15.664Z"
+}

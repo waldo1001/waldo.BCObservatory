@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Copy an environment",
+  "title": "Copy a Business Central Environment",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-copy",
-  "published_at": "2026-02-20T12:07:44.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.977Z",
-      "blob": "bcc69559f0793de6fae6dbe2529663b5e7a78ea8",
-      "words": 350,
+      "at": "2026-11-14T00:15:43.977Z",
+      "blob": "d5fe22c1d4a2b45cdd53e318a29564156e2ca082",
+      "words": 352,
       "forms": 0
     },
     "extracted": {
@@ -38,14 +38,14 @@
       "page": false
     }
   },
-  "input_hash": "bcc69559f0793de6fae6dbe2529663b5e7a78ea8",
-  "attempts": 0,
+  "input_hash": "d5fe22c1d4a2b45cdd53e318a29564156e2ca082",
+  "attempts": 1,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/tenant-admin-center-environments-copy.md",
-    "description": "Learn how to create an environment that is a copy of a production or sandbox environment.",
-    "ms_date": "2024-01-19",
+    "description": "Create a copy of a Business Central production or sandbox environment in the admin center for troubleshooting, testing, or production use.",
+    "ms_date": "2026-11-13",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "sandbox",
       "copy"
     ],
-    "ai_usage": null,
-    "words": 350,
+    "ai_usage": "ai-assisted",
+    "words": 352,
     "identifiers": [],
     "identifiers_rule": 2
   },
-  "last_error": null,
-  "retry_after": null,
-  "output_hash": "a8dbe669bc6789f8cff61686ac3d1111b078615c0c8f521caa3876fa1c46bd00"
+  "last_error": "LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:16:38.959Z",
+  "output_hash": "d5fe22c1d4a2b45cdd53e318a29564156e2ca082"
 }

@@ -1,0 +1,46 @@
+{
+  "id": "change/bcapps-prs/13060",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request][Subscription Billing] Extension points for a partner billing extension: Billing Proposal visibility, purchase-side event parity, usage-based billing period, document line creation",
+  "url": "https://github.com/microsoft/BCApps/pull/13060",
+  "published_at": "2026-11-13T15:09:50Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-14T00:13:17.671Z"
+    },
+    "fetched": {
+      "at": "2026-11-14T00:15:01.893Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "2dcce0523f16531f4c4af8a348b86a382930646d:c1",
+  "attempts": 1,
+  "flags": [],
+  "meta": {
+    "number": 13060,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2dcce0523f16531f4c4af8a348b86a382930646d",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "extensibility request subscription billing extension points for a partner billing extension billing proposal visibility purchase side event parity usage based billing period document line creation"
+  },
+  "last_error": "LLM call failed after 3 attempts (change/bcapps-prs/13060): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:15:28.806Z",
+  "output_hash": "61e53ecbba2011a76a0efcebcf01185709604d0dd3ea45abd64252653d553326"
+}

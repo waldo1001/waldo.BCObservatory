@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13467,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13467",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-12T10:11:44Z",
+  "merge_commit_sha": "767fe5139708ab07d29eb48d189cd09990f41b7f",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29.x[All-e]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version",
+  "body_hash": "41b41cc58fa4b924ea92c4b8e4eec5c3a499ca467cec217283ab3c22d7844ba0",
+  "fixes_issues": [],
+  "work_items": [
+    657334
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchCalcDiscount.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/ERMPaymentDiscount.Codeunit.al",
+      "status": "modified",
+      "additions": 166,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 170,
+    "deletions": 1,
+    "al": 2
+  },
+  "join": {
+    "major": "29",
+    "commit": "229c71f1927eed3c6f5f2cac1e8701b916c315fb",
+    "objects": [
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/VAT/Calculation/VATAmountLine.Table.al",
+        "status": "modified",
+        "key": "table/290",
+        "type": "table",
+        "id": 290,
+        "name": "VAT Amount Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/290"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Document/PurchCalcDiscount.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/70",
+        "type": "codeunit",
+        "id": 70,
+        "name": "Purch.-Calc.Discount",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/70"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

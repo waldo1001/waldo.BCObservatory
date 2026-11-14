@@ -5,17 +5,17 @@
   "tier": "official",
   "title": "Manage Tenant-Specific Notifications",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-notifications",
-  "published_at": "2026-02-20T12:07:44.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.982Z",
-      "blob": "a601574ef6d6680d4ec3b69bd77025df5f8d3982",
-      "words": 1736,
+      "at": "2026-11-14T00:18:23.117Z",
+      "blob": "f7fa0e2007b05287f67406f16411e1e09d66c69e",
+      "words": 1810,
       "forms": 0
     },
     "extracted": {
@@ -38,15 +38,15 @@
       "page": false
     }
   },
-  "input_hash": "a601574ef6d6680d4ec3b69bd77025df5f8d3982",
+  "input_hash": "f7fa0e2007b05287f67406f16411e1e09d66c69e",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/tenant-admin-center-notifications.md",
-    "description": "Learn about how an internal admin and a delegated admin can get notified of changes for Business Central tenants.",
-    "ms_date": "2025-10-20",
-    "ms_topic": "article",
+    "description": "Set up recipients for Business Central tenant notifications and use email, Microsoft 365, and telemetry to monitor environment events.",
+    "ms_date": "2026-11-13",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "administration",
@@ -55,12 +55,12 @@
       "environment",
       "notifications"
     ],
-    "ai_usage": null,
-    "words": 1736,
+    "ai_usage": "ai-assisted",
+    "words": 1810,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4b61f8fbec15ce147e5cb8fb3ced1794bfe6a976f30d178024cd3d6628bef0db"
+  "output_hash": "f7fa0e2007b05287f67406f16411e1e09d66c69e"
 }

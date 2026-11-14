@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Business Central Admin Center API - Environment Settings",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_environment_settings",
-  "published_at": "2026-02-20T12:07:44.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,20 +13,20 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.907Z",
-      "blob": "fd1a353a0175e91cff392b281ae9ac31bdc04a4f",
-      "words": 1365,
+      "at": "2026-11-14T00:14:22.762Z",
+      "blob": "ae1be2842200d5339a122a4c652916d3e11ffd0d",
+      "words": 1364,
       "forms": 0
     }
   },
-  "input_hash": "fd1a353a0175e91cff392b281ae9ac31bdc04a4f",
+  "input_hash": "ae1be2842200d5339a122a4c652916d3e11ffd0d",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/administration-center-api_environment_settings.md",
     "description": "Configure Business Central environment settings via Admin Center API, including update windows, App Insights, security groups, and access controls.",
-    "ms_date": "2025-11-17",
+    "ms_date": "2026-11-13",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [
@@ -36,8 +36,8 @@
       "environment",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 1365,
+    "ai_usage": "ai-assisted",
+    "words": 1364,
     "identifiers": [
       "apiVersion",
       "applicationFamily",
@@ -50,11 +50,13 @@
       "environmentNotFound",
       "requestBodyRequired",
       "ScheduledUpgradeConstraintViolation",
-      "cannotSetAppInsightsKey"
+      "cannotSetAppInsightsKey",
+      "AllowAllPartnerTenants",
+      "AllowSelectedPartnerTenants"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fd1a353a0175e91cff392b281ae9ac31bdc04a4f"
+  "output_hash": "ae1be2842200d5339a122a4c652916d3e11ffd0d"
 }

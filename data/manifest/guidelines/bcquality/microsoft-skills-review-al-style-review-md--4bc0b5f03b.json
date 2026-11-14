@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "AL style review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-style-review.md",
-  "published_at": "2026-10-19T10:48:07.000Z",
+  "published_at": "2026-11-13T11:44:14.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,17 +13,17 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-29T21:27:26.456Z",
-      "blob": "61125d5742ea59e29de340af398720d7fa66adfe",
-      "words": 2046,
+      "at": "2026-11-14T00:13:53.562Z",
+      "blob": "c5e1881270e8459c8ecdec031347910add92d6f2",
+      "words": 2164,
       "forms": 0
     },
     "published": {
-      "at": "2026-10-29T21:27:26.916Z",
+      "at": "2026-11-14T00:13:54.029Z",
       "path": "content/guidelines/microsoft/skills/review/al-style-review.md"
     }
   },
-  "input_hash": "61125d5742ea59e29de340af398720d7fa66adfe",
+  "input_hash": "c5e1881270e8459c8ecdec031347910add92d6f2",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -35,7 +35,7 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 2046,
+    "words": 2164,
     "identifiers": [
       "FieldCaption",
       "TableCaption",
@@ -61,6 +61,9 @@
       "RecordId",
       "RecordRef",
       "FindSet",
+      "GetFilter",
+      "GetView",
+      "StrMenu",
       "DeleteAll",
       "ToolTip"
     ],
@@ -87,5 +90,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "61125d5742ea59e29de340af398720d7fa66adfe"
+  "output_hash": "c5e1881270e8459c8ecdec031347910add92d6f2"
 }

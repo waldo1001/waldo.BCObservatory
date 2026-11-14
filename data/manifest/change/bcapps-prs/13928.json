@@ -1,0 +1,44 @@
+{
+  "id": "change/bcapps-prs/13928",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 658681: [Master Data Management] Support certificate secret for cross-environment synchronization",
+  "url": "https://github.com/microsoft/BCApps/pull/13928",
+  "published_at": "2026-11-13T15:09:49Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-14T00:13:17.671Z"
+    },
+    "fetched": {
+      "at": "2026-11-14T00:15:02.729Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "180993dd2f85d5660becbd3259cfdb2d26e191d8:c1",
+  "attempts": 1,
+  "flags": [],
+  "meta": {
+    "number": 13928,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "180993dd2f85d5660becbd3259cfdb2d26e191d8",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 658681 master data management support certificate secret for cross environment synchronization"
+  },
+  "last_error": "LLM call failed after 3 attempts (change/bcapps-prs/13928): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:15:28.801Z",
+  "output_hash": "db02c2e362e31404efab6f84afa575559d216378e21ac896c0b2f322f465e44d"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/style/setfilter-date-operands-must-be-replacement-values.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Pass date operands to SetFilter as replacement values, not as text in the filter string",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/setfilter-date-operands-must-be-replacement-values.md",
+  "published_at": "2026-11-13T11:44:14.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-14T00:13:17.671Z"
+    },
+    "fetched": {
+      "at": "2026-11-14T00:13:44.811Z",
+      "blob": "9eb5fc6655bd128c9e03e9bff53f462ace8b8834",
+      "words": 672,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-14T00:13:51.882Z",
+      "path": "content/guidelines/microsoft/knowledge/style/setfilter-date-operands-must-be-replacement-values.md"
+    }
+  },
+  "input_hash": "9eb5fc6655bd128c9e03e9bff53f462ace8b8834",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/style/setfilter-date-operands-must-be-replacement-values.md",
+    "description": "The String argument of SetFilter is parsed at run time as a filter expression. On a Date field it behaves like a date filter typed by the user: date text follows the session's region, and date formulas are expanded. An AL date constant written inside that string is therefore not a constant.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "setfilter",
+      "fieldref-setfilter",
+      "date-filter",
+      "0d",
+      "blank-date",
+      "replacement-value",
+      "regional-settings",
+      "date-format",
+      "filter-expression",
+      "today"
+    ],
+    "ai_usage": null,
+    "words": 672,
+    "identifiers": [
+      "SetFilter",
+      "ReferenceDate",
+      "FilterPageBuilder",
+      "GetFilter",
+      "GetFilters",
+      "GetView",
+      "DateFormula",
+      "yyyymmddD"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "setfilter",
+        "fieldref-setfilter",
+        "date-filter",
+        "0d",
+        "blank-date",
+        "replacement-value",
+        "regional-settings",
+        "date-format",
+        "filter-expression",
+        "today"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The String argument of SetFilter is parsed at run time as a filter expression. On a Date field it behaves like a date filter typed by the user: date text follows the session's region, and date formulas are expanded. An AL date constant written inside that string is therefore not a constant."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9eb5fc6655bd128c9e03e9bff53f462ace8b8834"
+}

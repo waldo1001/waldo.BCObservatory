@@ -10,7 +10,46 @@
       "labels": [],
       "draft": false,
       "created_at": "2026-06-03T15:24:31Z",
-      "updated_at": "2026-11-12T22:12:58Z",
+      "updated_at": "2026-11-13T19:25:55Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2425,
+      "title": "Admin API for PTE publishing/installing for BC29 and later",
+      "url": "https://github.com/microsoft/AL-Go/pull/2425",
+      "base": "main",
+      "major": null,
+      "author": "spetersenms",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-10-29T12:58:22Z",
+      "updated_at": "2026-11-13T16:46:24Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2462,
+      "title": "RunTests - Code Coverage",
+      "url": "https://github.com/microsoft/AL-Go/pull/2462",
+      "base": "main",
+      "major": null,
+      "author": "spetersenms",
+      "labels": [],
+      "draft": true,
+      "created_at": "2026-11-13T13:53:21Z",
+      "updated_at": "2026-11-13T16:25:37Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2460,
+      "title": "Fix non-ASCII characters in generated release notes",
+      "url": "https://github.com/microsoft/AL-Go/pull/2460",
+      "base": "main",
+      "major": null,
+      "author": "tino-teuber",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-11-13T08:01:24Z",
+      "updated_at": "2026-11-13T08:02:59Z",
       "community_contribution": false
     },
     {
@@ -24,19 +63,6 @@
       "draft": false,
       "created_at": "2026-10-29T14:40:16Z",
       "updated_at": "2026-11-12T17:47:06Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2425,
-      "title": "Admin API for PTE publishing/installing for BC29 and later",
-      "url": "https://github.com/microsoft/AL-Go/pull/2425",
-      "base": "main",
-      "major": null,
-      "author": "spetersenms",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-10-29T12:58:22Z",
-      "updated_at": "2026-11-12T17:40:38Z",
       "community_contribution": false
     },
     {
@@ -301,6 +327,15 @@
     }
   ],
   "issues": [
+    {
+      "number": 2459,
+      "title": "[Bug]: Create release replaces umlauts and other non-ASCII characters in the generated release notes with '?'",
+      "url": "https://github.com/microsoft/AL-Go/issues/2459",
+      "labels": [],
+      "author": "tino-teuber",
+      "created_at": "2026-11-13T08:00:33Z",
+      "comments": 0
+    },
     {
       "number": 2456,
       "title": "[Bug]: GHE setup is not working as expected",

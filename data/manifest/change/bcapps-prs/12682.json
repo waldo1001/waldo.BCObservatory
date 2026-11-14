@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/12682",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[API tests] Use the API session's work date in page-vs-API comparison tests",
+  "url": "https://github.com/microsoft/BCApps/pull/12682",
+  "published_at": "2026-11-13T20:17:01Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-14T00:13:17.671Z"
+    }
+  },
+  "input_hash": "21fd93f83bf914c8b2cc34c55c82d6a260c09d45:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12682,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "21fd93f83bf914c8b2cc34c55c82d6a260c09d45",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "api tests use the api session s work date in page vs api comparison tests"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-14T00:13:53.448Z",
+  "retry_after": null
+}

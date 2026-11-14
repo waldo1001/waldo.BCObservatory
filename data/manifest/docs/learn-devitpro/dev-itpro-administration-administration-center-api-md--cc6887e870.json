@@ -5,17 +5,17 @@
   "tier": "official",
   "title": "Business Central Administration Center API",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api",
-  "published_at": "2025-11-06T10:37:59.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.093Z",
-      "blob": "278d3c7de391152d403cdf4f8336f4f6a94b8ef5",
-      "words": 1286,
+      "at": "2026-11-14T00:14:59.347Z",
+      "blob": "70dfbfd979418ccb876798f322cc79ae40ca7dfe",
+      "words": 1310,
       "forms": 0
     },
     "extracted": {
@@ -38,14 +38,14 @@
       "page": false
     }
   },
-  "input_hash": "278d3c7de391152d403cdf4f8336f4f6a94b8ef5",
-  "attempts": 0,
+  "input_hash": "70dfbfd979418ccb876798f322cc79ae40ca7dfe",
+  "attempts": 1,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/administration-center-api.md",
-    "description": "Get introduced to the Business Central administration center API.",
-    "ms_date": "2025-11-06",
+    "description": "Use the Business Central administration center API to automate tenant administration, authenticate API calls, and understand error responses.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "environment",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 1286,
+    "ai_usage": "ai-assisted",
+    "words": 1310,
     "identifiers": [],
     "identifiers_rule": 2
   },
-  "last_error": null,
-  "retry_after": null,
-  "output_hash": "33b6a258bb9c0ecf91707eddb52bfc77a945fb04775dc80fd75b53c95171d5c2"
+  "last_error": "LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:15:28.810Z",
+  "output_hash": "70dfbfd979418ccb876798f322cc79ae40ca7dfe"
 }

@@ -14,16 +14,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T21:27:26.544Z"
+  at: "2026-11-14T00:13:53.624Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 61125d5742ea59e29de340af398720d7fa66adfe
+  input_hash: c5e1881270e8459c8ecdec031347910add92d6f2
 evidence:
   - kind: guideline
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-style-review.md
     title: "microsoft/BCQuality: AL style review"
-    date: "2026-10-19"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    date: "2026-11-13"
+    commit: d576b0fd6da902bf6e4cd7dd837b1f27b170edd2
     t: null
     quote: null
 links:
@@ -38,6 +38,7 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-tablename-method
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/text/text-strsubstno-method
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/errorinfo/errorinfo-systemid-method
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/dialog/dialog-strmenu-method
   objects: []
   features: []
   topics: []
@@ -101,6 +102,9 @@ identifiers:
   - RecordId
   - RecordRef
   - FindSet
+  - GetFilter
+  - GetView
+  - StrMenu
   - DeleteAll
   - ToolTip
 ---
@@ -161,6 +165,8 @@ Apply these high-signal mappings before fuzzy topic ranking:
 - A new codeunit procedure takes a key (`Code`/`Integer`/`Guid`) or a non-`var` `Record`, then `Get`s or uses its own copy and calls `Modify` on that same table's record; a `page`/`pageextension` trigger in the diff calls it with `Rec` or a key field of `Rec`, and later in the same trigger reads the changed `Rec` fields or writes from `Rec` — `mutating-procedure-for-a-page-caller-takes-var-record.md`. Severity at most `minor`. The page refreshes its current record after an action, so stale display alone is not this pattern, and a `Rec.Get` after the call is not evidence by itself. Do not flag job-queue/`TaskScheduler`/page-background-task entry points, API page actions resolving the real record by `SystemId`, generic `RecordId`/`RecordRef`/`Variant` APIs, key-based procedures whose change happens inside a platform/System API, procedures that change a different table or only read, temporary records, by-value records modified inside a `FindSet` loop (owned by `performance/avoid-cloning-records-before-modify-delete-in-loops`), or an in-place signature change to an already-published procedure (owned by `breaking-changes/do-not-change-published-procedure-signatures`).
 - A procedure call passes a literal or a computed expression (not a caller-scope variable) to a parameter position the callee declares `var` — `var-parameters-require-an-addressable-variable.md`. This is a compile-time-guaranteed shape; flag it only when the callee's declared signature is visible in the diff or resolvable from context.
 - Code builds a link to a page, report, or record in the running environment by concatenating or formatting a literal Business Central host, tenant, or environment with `?company=`, `&page=`, `&report=`, or `&bookmark=` — `build-client-links-with-geturl.md`. Do not flag documented parameters such as `&filter=`, `&$filter=`, or `&mode=` appended to a `GetUrl` result; a different environment's base URL read from setup; fixed non-object endpoints such as `OAuthLanding.htm` or webhook callbacks; a `[Scope('OnPrem')]` link deliberately pointing at the online service; or URLs outside Business Central.
+- `Record.SetFilter` or `FieldRef.SetFilter` on a field declared `Date` has a constant filter string that contains `0D` or date digits outside a `%n` replacement field (for example `'0D|>=%1'`, `'0D..%1'`, `'<>0D'`, `'29-10-2026..'`) — `setfilter-date-operands-must-be-replacement-values.md`. Do not flag operands passed as replacement values, filters entered by the user or restored with `GetFilter`/`GetView`, or filters on `DateFormula` fields.
+- A new or changed user-facing `Label`/`TextConst` used with `Message`, `Error`, `Confirm`, `StrMenu`, or a notification contains a literal product name ("Business Central", "Dynamics 365 Business Central") instead of a placeholder filled from `ProductName.Short()`/`Full()`/`Marketing()` — `use-productname-instead-of-hardcoded-product-name.md`. Report as `minor`. Do not flag text that deliberately names a legacy product such as Dynamics NAV, `Locked = true` labels, telemetry or log text, captions and tooltips, or unchanged existing text.
 
 Once the candidate worklist is known, resolve layer-precedence conflicts per READ and record suppressions.
 
@@ -236,6 +242,7 @@ Output conforms to the DO output contract. Every finding this skill emits MUST s
 - [Record.TableName() Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-tablename-method) (names TableName)
 - [Text.StrSubstNo(Text \[, Any,...\]) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/text/text-strsubstno-method) (names StrSubstNo)
 - [ErrorInfo.SystemId(\[Guid\]) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/errorinfo/errorinfo-systemid-method) (names SystemId)
+- [Dialog.StrMenu(Text \[, Integer\] \[, Text\]) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/dialog/dialog-strmenu-method) (names StrMenu)
 
 ## Changed by
 
@@ -259,4 +266,4 @@ Output conforms to the DO output contract. Every finding this skill emits MUST s
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at d576b0f, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

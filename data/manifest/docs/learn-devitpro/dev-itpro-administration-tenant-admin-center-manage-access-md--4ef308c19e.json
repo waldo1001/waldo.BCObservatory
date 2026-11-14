@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Manage Access to Environment",
+  "title": "Manage Access to Business Central Environments",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access",
-  "published_at": "2026-04-23T09:00:42.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.114Z",
-      "blob": "0bd2ec354efb5663e984bbb71f727d25a77c13e9",
-      "words": 1756,
+      "at": "2026-11-14T00:17:45.949Z",
+      "blob": "577ffebe4321b56cce6bf09107946dbf407e0ded",
+      "words": 1721,
       "forms": 0
     },
     "extracted": {
@@ -38,23 +38,23 @@
       "page": false
     }
   },
-  "input_hash": "0bd2ec354efb5663e984bbb71f727d25a77c13e9",
-  "attempts": 0,
+  "input_hash": "577ffebe4321b56cce6bf09107946dbf407e0ded",
+  "attempts": 1,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/tenant-admin-center-manage-access.md",
-    "description": "This article describes features in the admin center that help controlling user access to environments.",
-    "ms_date": "2025-08-05",
+    "description": "Control access to Business Central environments with security groups, partner access settings, and Microsoft 365 licenses in the admin center.",
+    "ms_date": "2026-11-13",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1756,
+    "ai_usage": "ai-assisted",
+    "words": 1721,
     "identifiers": [],
     "identifiers_rule": 2
   },
-  "last_error": null,
-  "retry_after": null,
-  "output_hash": "18d9bc9d5ea651538ee5d86ca5a6eebfd5dbe41d70d5b0739e27c4bcd600deca"
+  "last_error": "LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:18:23.065Z",
+  "output_hash": "577ffebe4321b56cce6bf09107946dbf407e0ded"
 }

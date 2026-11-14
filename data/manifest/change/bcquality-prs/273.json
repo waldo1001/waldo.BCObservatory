@@ -1,0 +1,41 @@
+{
+  "id": "change/bcquality-prs/273",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "knowledge(style): SetFilter date operands as replacement values; product name via ProductName",
+  "url": "https://github.com/microsoft/BCQuality/pull/273",
+  "published_at": "2026-11-13T11:44:16Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-14T00:13:17.671Z"
+    },
+    "fetched": {
+      "at": "2026-11-14T00:15:17.055Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 7,
+      "objects": 0,
+      "unjoined": 7
+    }
+  },
+  "input_hash": "d576b0fd6da902bf6e4cd7dd837b1f27b170edd2:c1",
+  "attempts": 1,
+  "flags": [],
+  "meta": {
+    "number": 273,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "d576b0fd6da902bf6e4cd7dd837b1f27b170edd2",
+    "author": "MichaelDieringer",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "knowledge style setfilter date operands as replacement values product name via productname"
+  },
+  "last_error": "LLM call failed after 3 attempts (change/bcquality-prs/273): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:16:06.161Z",
+  "output_hash": "104fe21d064c574776680fc685c656e27fabee3e8eace2a6d9a1487d307eb748"
+}

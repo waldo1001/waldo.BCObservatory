@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/14000",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Enable skipDraftPullRequests AL-Go setting",
+  "url": "https://github.com/microsoft/BCApps/pull/14000",
+  "published_at": "2026-11-13T10:37:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-14T00:13:17.671Z"
+    }
+  },
+  "input_hash": "9a52f7f9f39adab811f2b684f0cd1eb1189880d9:c1",
+  "attempts": 1,
+  "flags": [],
+  "meta": {
+    "number": 14000,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9a52f7f9f39adab811f2b684f0cd1eb1189880d9",
+    "author": "mazhelez",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "enable skipdraftpullrequests al go setting"
+  },
+  "last_error": "fetch failed",
+  "retry_after": "2026-11-14T02:16:39.987Z"
+}

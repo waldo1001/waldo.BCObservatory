@@ -3,18 +3,18 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Business Central Admin Center API",
+  "title": "Business Central Admin Center API - Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_ telemetry",
-  "published_at": "2025-11-20T16:22:05.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.937Z",
-      "blob": "0767a5ee7fb15071ff6bed477c8c398ee2895902",
+      "at": "2026-11-14T00:13:44.886Z",
+      "blob": "c08690059dba1f7c7c3d72aa59d17886be1471ca",
       "words": 206,
       "forms": 0
     },
@@ -38,15 +38,15 @@
       "page": false
     }
   },
-  "input_hash": "0767a5ee7fb15071ff6bed477c8c398ee2895902",
+  "input_hash": "c08690059dba1f7c7c3d72aa59d17886be1471ca",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/administration-center-api_ telemetry.md",
-    "description": "Learn about the Business Central administration center API for logging telemetry (this is a duplicate, through).",
+    "description": "Explore the Business Central admin center API for retrieving environment telemetry, including query parameters, data columns, and error codes.",
     "ms_date": "2024-05-29",
-    "ms_topic": "concept-article",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [
       "administration",
@@ -55,7 +55,7 @@
       "environment",
       "telemetry"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 206,
     "identifiers": [
       "apiVersion",
@@ -69,5 +69,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2e83346c0e39d4764c0b6648a2bf6eac9492a2ace059d2ee17cbfd1cf29553e7"
+  "output_hash": "c08690059dba1f7c7c3d72aa59d17886be1471ca"
 }

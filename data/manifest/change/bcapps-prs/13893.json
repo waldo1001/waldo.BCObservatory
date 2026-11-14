@@ -1,0 +1,44 @@
+{
+  "id": "change/bcapps-prs/13893",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add index management actions to update statistics per table or index",
+  "url": "https://github.com/microsoft/BCApps/pull/13893",
+  "published_at": "2026-11-13T23:41:16Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-14T00:13:17.671Z"
+    },
+    "fetched": {
+      "at": "2026-11-14T00:13:52.575Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "2c35b20a2d9ce36b7e63763e46cb730b1e08359a:c1",
+  "attempts": 1,
+  "flags": [],
+  "meta": {
+    "number": 13893,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2c35b20a2d9ce36b7e63763e46cb730b1e08359a",
+    "author": "mbaranovych",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "add index management actions to update statistics per table or index"
+  },
+  "last_error": "LLM call failed after 3 attempts (change/bcapps-prs/13893): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:14:17.886Z",
+  "output_hash": "2ff86d7e6294ed8008d20a2b814f3d371f40d3960d92f45b34dad5c0177efd01"
+}

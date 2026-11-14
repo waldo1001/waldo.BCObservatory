@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Environment Telemetry",
+  "title": "Environment Telemetry in Business Central Admin Center",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry",
-  "published_at": "2025-05-06T19:26:01.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.773Z",
-      "blob": "d323eea6fe08db956e80c6c6733f9ac7ce276790",
-      "words": 499,
+      "at": "2026-11-14T00:18:23.185Z",
+      "blob": "6f350b5cc76e75d7b2706ea7739fd73f693a3b38",
+      "words": 503,
       "forms": 0
     },
     "extracted": {
@@ -38,15 +38,15 @@
       "page": false
     }
   },
-  "input_hash": "d323eea6fe08db956e80c6c6733f9ac7ce276790",
+  "input_hash": "6f350b5cc76e75d7b2706ea7739fd73f693a3b38",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/tenant-admin-center-telemetry.md",
-    "description": "Learn how the Business Central admin center provides telemetry for each environment.",
-    "ms_date": "2021-04-01",
-    "ms_topic": "article",
+    "description": "Filter environment telemetry in the Business Central admin center to investigate errors, and enable Application Insights for richer diagnostics.",
+    "ms_date": "2026-11-13",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "administration",
@@ -56,12 +56,12 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 499,
+    "ai_usage": "ai-assisted",
+    "words": 503,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4da26a6d2c1687013f1e0c4a235d624026318101d25c2e3f1f1e24fa8ab0ee5f"
+  "output_hash": "6f350b5cc76e75d7b2706ea7739fd73f693a3b38"
 }

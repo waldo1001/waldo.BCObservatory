@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Business Central Admin Center API - Available Applications",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_available_applications",
-  "published_at": "2025-11-19T10:42:16.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,20 +13,20 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.982Z",
-      "blob": "8c29e5a18430dafa1286889ea5080497a29f22a4",
-      "words": 172,
+      "at": "2026-11-14T00:13:52.126Z",
+      "blob": "4926fe2fefdbc3225dd6b82da5bf7004ee49abd1",
+      "words": 171,
       "forms": 0
     }
   },
-  "input_hash": "8c29e5a18430dafa1286889ea5080497a29f22a4",
+  "input_hash": "4926fe2fefdbc3225dd6b82da5bf7004ee49abd1",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/administration-center-api_available_applications.md",
-    "description": "Learn about the Business Central administration center API for getting information about the applications.",
-    "ms_date": "2025-11-17",
+    "description": "Use the Business Central admin center API to find available application families, countries/regions, rings, and versions for creating environments.",
+    "ms_date": "2026-11-13",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [
@@ -36,8 +36,8 @@
       "environment",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 172,
+    "ai_usage": "ai-assisted",
+    "words": 171,
     "identifiers": [
       "apiVersion",
       "applicationFamily",
@@ -48,5 +48,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8c29e5a18430dafa1286889ea5080497a29f22a4"
+  "output_hash": "4926fe2fefdbc3225dd6b82da5bf7004ee49abd1"
 }

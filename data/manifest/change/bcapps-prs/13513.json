@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/13513",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[API tests] Check the response code in negative API tests",
+  "url": "https://github.com/microsoft/BCApps/pull/13513",
+  "published_at": "2026-11-13T15:23:14Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-14T00:13:17.671Z"
+    }
+  },
+  "input_hash": "8a21b29e7dfac12387ff3df36b608e0a76430095:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13513,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8a21b29e7dfac12387ff3df36b608e0a76430095",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "api tests check the response code in negative api tests"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-14T00:14:32.935Z",
+  "retry_after": null
+}

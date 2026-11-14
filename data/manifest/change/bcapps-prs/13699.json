@@ -1,0 +1,43 @@
+{
+  "id": "change/bcapps-prs/13699",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Registering a Warehouse Movement with \"Breakbulk Filter\" enabled registers only the visible lines; hidden breakbulk lines remain unregistered",
+  "url": "https://github.com/microsoft/BCApps/pull/13699",
+  "published_at": "2026-11-13T19:32:37Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-14T00:13:17.671Z"
+    },
+    "fetched": {
+      "at": "2026-11-14T00:14:28.138Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "5aed80c428d6a478f33d6c55c4a0b038f77d2a6d:c1",
+  "attempts": 1,
+  "flags": [],
+  "meta": {
+    "number": 13699,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5aed80c428d6a478f33d6c55c4a0b038f77d2a6d",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "registering a warehouse movement with breakbulk filter enabled registers only the visible lines hidden breakbulk lines remain unregistered"
+  },
+  "last_error": "LLM call failed after 3 attempts (change/bcapps-prs/13699): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:14:57.444Z",
+  "output_hash": "2a27306b5d1a8afbae50afaaf43ed4046cb371d98876c977a29024cf5a447603"
+}

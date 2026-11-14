@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Transfer Environments",
+  "title": "Transfer Business Central Environments Between Tenants",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-move",
-  "published_at": "2025-10-08T14:40:55.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.806Z",
-      "blob": "1026c4478d3f2390fb1fe202837328f41a738be2",
-      "words": 1363,
+      "at": "2026-11-14T00:16:41.593Z",
+      "blob": "6087c8ad248c40266e9c8117161d63cd3ca4aa20",
+      "words": 1364,
       "forms": 0
     },
     "extracted": {
@@ -38,14 +38,14 @@
       "page": false
     }
   },
-  "input_hash": "1026c4478d3f2390fb1fe202837328f41a738be2",
-  "attempts": 0,
+  "input_hash": "6087c8ad248c40266e9c8117161d63cd3ca4aa20",
+  "attempts": 1,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/tenant-admin-center-environments-move.md",
     "description": "You can transfer a Business Central environment to another Microsoft Entra tenant. Start in the Business Central admin center.",
-    "ms_date": "2025-10-08",
+    "ms_date": "2026-11-13",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "environment",
       "move"
     ],
-    "ai_usage": null,
-    "words": 1363,
+    "ai_usage": "ai-assisted",
+    "words": 1364,
     "identifiers": [],
     "identifiers_rule": 2
   },
-  "last_error": null,
-  "retry_after": null,
-  "output_hash": "d57a05b7df4259b33691c2e1b5b623283097e446b8d68803f590d6d6b8d14f52"
+  "last_error": "LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:17:42.190Z",
+  "output_hash": "6087c8ad248c40266e9c8117161d63cd3ca4aa20"
 }

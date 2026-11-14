@@ -1,0 +1,88 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/style/use-productname-instead-of-hardcoded-product-name.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Insert the product name with `ProductName`, not as literal text in a message",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/use-productname-instead-of-hardcoded-product-name.md",
+  "published_at": "2026-11-13T11:44:14.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-14T00:13:17.671Z"
+    },
+    "fetched": {
+      "at": "2026-11-14T00:13:51.986Z",
+      "blob": "ddad622e1088d81d927eef7eafd368bfe8daaf4e",
+      "words": 419,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-14T00:13:52.067Z",
+      "path": "content/guidelines/microsoft/knowledge/style/use-productname-instead-of-hardcoded-product-name.md"
+    }
+  },
+  "input_hash": "ddad622e1088d81d927eef7eafd368bfe8daaf4e",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/style/use-productname-instead-of-hardcoded-product-name.md",
+    "description": "Messages, confirmations and errors sometimes name the product (\"Welcome to Business Central\", \"This feature requires Dynamics 365 Business Central\"). Written as literal text, the name follows neither a rename of the product nor an on-premises deployment that configures its own product name.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "productname",
+      "product-name",
+      "hardcoded-string",
+      "branding",
+      "rebranding",
+      "label",
+      "short",
+      "full",
+      "marketing"
+    ],
+    "ai_usage": null,
+    "words": 419,
+    "identifiers": [
+      "ProductName",
+      "ToolTip",
+      "StrMenu"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "productname",
+        "product-name",
+        "hardcoded-string",
+        "branding",
+        "rebranding",
+        "label",
+        "short",
+        "full",
+        "marketing"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Messages, confirmations and errors sometimes name the product (\"Welcome to Business Central\", \"This feature requires Dynamics 365 Business Central\"). Written as literal text, the name follows neither a rename of the product nor an on-premises deployment that configures its own product name."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ddad622e1088d81d927eef7eafd368bfe8daaf4e"
+}

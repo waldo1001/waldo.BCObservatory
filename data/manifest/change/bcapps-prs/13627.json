@@ -1,0 +1,44 @@
+{
+  "id": "change/bcapps-prs/13627",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Documents] Fix division by zero importing zero-amount purchase order lines",
+  "url": "https://github.com/microsoft/BCApps/pull/13627",
+  "published_at": "2026-11-13T11:04:36Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-14T00:13:17.671Z"
+    },
+    "fetched": {
+      "at": "2026-11-14T00:16:02.043Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "3a726cbf9fe1272de61c64bb97ced1bf97625966:c1",
+  "attempts": 1,
+  "flags": [],
+  "meta": {
+    "number": 13627,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3a726cbf9fe1272de61c64bb97ced1bf97625966",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "e documents fix division by zero importing zero amount purchase order lines"
+  },
+  "last_error": "LLM call failed after 3 attempts (change/bcapps-prs/13627): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:16:50.030Z",
+  "output_hash": "ffbb051425c902bbecb9c03935ee83ab39c3165aadb3117578ac7e71ee0d1038"
+}

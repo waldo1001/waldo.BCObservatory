@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Business Central Admin Center API - Manage Updates",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_reschedule_updates",
-  "published_at": "2026-01-04T09:49:09.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,20 +13,20 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.693Z",
-      "blob": "3a1c1eee2909f0670d5a7bb5c2a105d620816017",
-      "words": 378,
+      "at": "2026-11-14T00:14:30.693Z",
+      "blob": "96a8c63df7abd699db588738a03f272e9b4262c2",
+      "words": 379,
       "forms": 0
     }
   },
-  "input_hash": "3a1c1eee2909f0670d5a7bb5c2a105d620816017",
+  "input_hash": "96a8c63df7abd699db588738a03f272e9b4262c2",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/administration-center-api_reschedule_updates.md",
-    "description": "Learn how to reschedule updates and manage target versions for Business Central environments using the Admin Center API.",
-    "ms_date": "2025-11-17",
+    "description": "Learn how to select target versions, reschedule updates, and cancel running updates for Business Central environments using the admin center API.",
+    "ms_date": "2026-11-13",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [
@@ -36,8 +36,8 @@
       "environment",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 378,
+    "ai_usage": "ai-assisted",
+    "words": 379,
     "identifiers": [
       "apiVersion",
       "applicationFamily",
@@ -50,5 +50,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3a1c1eee2909f0670d5a7bb5c2a105d620816017"
+  "output_hash": "96a8c63df7abd699db588738a03f272e9b4262c2"
 }

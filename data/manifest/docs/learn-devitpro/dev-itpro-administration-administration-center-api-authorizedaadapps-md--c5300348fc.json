@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Business Central Admin Center API - Authorized Microsoft Entra Apps",
+  "title": "Business Central Admin API - Authorized Microsoft Entra Apps",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_authorizedaadapps",
-  "published_at": "2025-11-19T10:42:16.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,20 +13,20 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.977Z",
-      "blob": "6a89ff5401cad5f560c8e26f46ab0285594f5c12",
-      "words": 308,
+      "at": "2026-11-14T00:13:44.894Z",
+      "blob": "ee62815767633af85007b084576d216e66d1eda2",
+      "words": 332,
       "forms": 0
     }
   },
-  "input_hash": "6a89ff5401cad5f560c8e26f46ab0285594f5c12",
+  "input_hash": "ee62815767633af85007b084576d216e66d1eda2",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/administration-center-api_authorizedaadapps.md",
-    "description": "Learn about the Business Central administration center API for authorizing Microsoft Entra apps.",
-    "ms_date": "2025-11-17",
+    "description": "Use the Business Central admin center API to list authorized Microsoft Entra apps, authorize or remove an app, and find manageable tenants.",
+    "ms_date": "2026-11-13",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [
@@ -36,14 +36,15 @@
       "environment",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 308,
+    "ai_usage": "ai-assisted",
+    "words": 332,
     "identifiers": [
-      "apiVersion"
+      "apiVersion",
+      "appClientId"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6a89ff5401cad5f560c8e26f46ab0285594f5c12"
+  "output_hash": "ee62815767633af85007b084576d216e66d1eda2"
 }

@@ -6,10 +6,18 @@
   "title": "[29.x[All-e]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version",
   "url": "https://github.com/microsoft/BCApps/pull/13467",
   "published_at": "2026-11-12T10:11:44Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
+    },
+    "fetched": {
+      "at": "2026-11-14T00:18:06.530Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
     }
   },
   "input_hash": "767fe5139708ab07d29eb48d189cd09990f41b7f:c1",
@@ -29,6 +37,7 @@
     "community_contribution": false,
     "title_key": "29 x all e payment discount with prices incl vat provides unexpected results in the spanish version"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-11-13T02:18:22.942Z"
+  "last_error": "LLM call failed after 3 attempts (change/bcapps-prs/13467): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
+  "retry_after": "2026-11-14T02:18:24.780Z",
+  "output_hash": "231cdb0d1e8bbbb09a7dce0f2dc0bfdf21d42ed15d3e9fcab14eefb5618c6924"
 }

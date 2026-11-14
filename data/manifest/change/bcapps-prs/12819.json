@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/12819",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[API tests] Re-enable remaining API tests that NAV runs",
+  "url": "https://github.com/microsoft/BCApps/pull/12819",
+  "published_at": "2026-11-13T15:09:50Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-14T00:13:17.671Z"
+    }
+  },
+  "input_hash": "4aba0e6b4c393cdead0934990fcf7757e4356fa1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12819,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4aba0e6b4c393cdead0934990fcf7757e4356fa1",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "api tests re enable remaining api tests that nav runs"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-14T00:14:43.246Z",
+  "retry_after": null
+}

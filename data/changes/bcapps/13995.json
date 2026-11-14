@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13995,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13995",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-13T21:38:39Z",
+  "merge_commit_sha": "15b1934fbf2be0a3d054350e09e5792ad7cb37a4",
+  "author": "nhsejth",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Protect email and agent HTML sanitizer compatibility",
+  "body_hash": "c02a70317dfac20086650817b02ae608808a80371652d08f88131d1c98ff4313",
+  "fixes_issues": [
+    13994
+  ],
+  "work_items": [
+    642579
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 156,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

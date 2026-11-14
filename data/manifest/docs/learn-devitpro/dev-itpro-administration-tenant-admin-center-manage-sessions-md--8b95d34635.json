@@ -5,17 +5,17 @@
   "tier": "official",
   "title": "Managing Sessions in the Admin Center",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions",
-  "published_at": "2025-10-02T13:38:52.000Z",
+  "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.978Z",
-      "blob": "a53bd897ee90438dde405fb2b9de93a58a7c526b",
-      "words": 192,
+      "at": "2026-11-14T00:18:22.947Z",
+      "blob": "6a793c346a0ded77af3a334c591cd82497d5c5d6",
+      "words": 215,
       "forms": 0
     },
     "extracted": {
@@ -38,15 +38,15 @@
       "page": false
     }
   },
-  "input_hash": "a53bd897ee90438dde405fb2b9de93a58a7c526b",
+  "input_hash": "6a793c346a0ded77af3a334c591cd82497d5c5d6",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/tenant-admin-center-manage-sessions.md",
-    "description": "Use the Business Central administration center to manage sessions in your tenant environments.",
-    "ms_date": "2021-12-14",
-    "ms_topic": "concept-article",
+    "description": "View and cancel active sessions in the Business Central admin center. Restart an environment when canceling sessions doesn't resolve a problem.",
+    "ms_date": "2026-11-13",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "administration",
@@ -56,12 +56,12 @@
       "sandbox",
       "sessions"
     ],
-    "ai_usage": null,
-    "words": 192,
+    "ai_usage": "ai-assisted",
+    "words": 215,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7874362e55656696096479dfb663b31297e07e0ee1ecfb10d01ceeba986e5233"
+  "output_hash": "6a793c346a0ded77af3a334c591cd82497d5c5d6"
 }
