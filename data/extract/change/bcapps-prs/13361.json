@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13361",
+  "number": 13361,
+  "title": "Foundation for Payables Agent V2.0",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Payables Agent application refactored to support version 2.0 architecture that removes dependency on draft pages and E-Document framework, with backward compatibility preserved for existing v1 users.",
+  "key_points": [
+    "Complete rewrite of Payables Agent app structure with new organizing principles documented in architecture.md",
+    "KPI tracking shifted from E-Documents to finalized Purchase Invoices to support both v1 and v2",
+    "V1 compatibility maintained so end-users experience no changes; v2 activation deferred pending validation",
+    "Added new codeunits for work item management, setup storage, subscribers, and telemetry",
+    "Multiple acknowledged v2 gaps documented including email sourcing, credit memos, feedback UI, and billing model impacts"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "purchasing"
+  ],
+  "quote": "V1 compatibility is in place, so end-users won't feel this change, and we can activate when ready.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00442,
+    "changes_in_call": 5
+  }
+}

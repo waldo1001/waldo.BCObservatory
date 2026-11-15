@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcquality-prs/273",
+  "number": 273,
+  "title": "knowledge(style): SetFilter date operands as replacement values; product name via ProductName",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Two new code style rules guide developers to use replacement values for date operands in SetFilter strings and to reference the product name via ProductName methods instead of hardcoded text in user-facing messages.",
+  "key_points": [
+    "SetFilter rule prevents date text parsing issues by requiring date operands as replacement values like '%1|>=%2' instead of '0D|>=%1'",
+    "ProductName rule directs user-facing labels to use ProductName.Short()/Full()/Marketing() methods per Learn guidance",
+    "SetFilter rule excludes user-entered filters, GetFilter/GetView round trips, and DateFormula fields",
+    "ProductName rule excludes locked labels, telemetry, captions, tooltips, and deliberate legacy product references"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00359,
+    "changes_in_call": 6
+  }
+}

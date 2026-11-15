@@ -7,7 +7,7 @@
   "url": "https://yzhums.com/77184/",
   "published_at": "2026-11-12T04:08:56.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
@@ -18,30 +18,30 @@
       "words": 1794
     },
     "extracted": {
-      "at": "2026-11-13T00:14:19.754Z",
+      "at": "2026-11-15T00:19:37.097Z",
       "prompt": "extract-post@1",
-      "quotes": 2,
+      "quotes": 1,
       "trimmed": 0,
-      "cost_usd": 0.013289
+      "cost_usd": 0.008626
     },
     "summarized": {
-      "at": "2026-11-13T00:14:19.756Z",
+      "at": "2026-11-15T00:19:37.111Z",
       "from": "extract-post"
     },
     "linked": {
-      "at": "2026-11-13T00:14:19.757Z"
+      "at": "2026-11-15T00:19:37.112Z"
     },
     "published": {
-      "at": "2026-11-13T00:14:19.772Z",
+      "at": "2026-11-15T00:19:37.140Z",
       "path": "content/posts/yzhums-com/77184.md"
     }
   },
   "input_hash": "2026-11-13T02:05:55.000Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "LLM call failed after 3 attempts (blog/yzhums-com/77184): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
-  "retry_after": "2026-11-14T02:14:50.060Z",
-  "output_hash": "bf5a1779ead6c7ce7d33a65f8398b8c21d566349ad96a4292fa7bfbbcc48c7b2",
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2bc9b2c14737f18da8dccf2243a0e979cfd51f3b0c5a9088e0be78336103138e",
   "review": {
     "state": "reviewed",
     "by": "opus",

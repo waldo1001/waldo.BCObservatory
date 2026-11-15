@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13552",
+  "number": 13552,
+  "title": "[Main]- Warehouse shipment item tracking inherits the source line's stale pick bin on the Transfer and Purchase-Return branches, so a second partial shipment fails with \"You cannot select more than 0 units\"",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory",
+    "purchasing"
+  ],
+  "summary": "A fix for warehouse shipment item tracking on Transfer and Purchase-Return branches now correctly clears stale pick bins to prevent partial shipment failures, extending a previous Sales-only fix to cover all branches.",
+  "key_points": [
+    "Extends warehouse pick bin fix to Transfer Line-Reserve and Purchase Line-Reserve codeunits",
+    "Resolves issue where second partial shipments failed with 'You cannot select more than 0 units' error",
+    "Adds regression test to prevent future pick bin inheritance issues"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "purchasing",
+    "inventory"
+  ],
+  "quote": "Warehouse shipment item tracking inherits the source line's stale pick bin on the Transfer and Purchase-Return branches, so a second partial shipment fails",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00359,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/demiliani-com/17609",
+  "url": "https://demiliani.com/2026/11/13/ai-and-prompt-injections-the-invoice-that-approves-itself/",
+  "title": "AI and prompt injections: the invoice that approves itself.",
+  "source": "demiliani-com",
+  "published_at": "2026-11-13T10:22:58.000Z",
+  "words": 3346,
+  "summary": "This post demonstrates how prompt injection attacks can exploit AI document processing pipelines in Business Central, where hidden text in PDFs manipulates invoice data and approval status, and presents a layered defense strategy including invisible text detection, image-based analysis, strict schemas, and deterministic validation.",
+  "key_points": [
+    "Indirect prompt injection occurs when untrusted documents contain hidden instructions that manipulate AI model behavior, posing risk to invoice processing and payment automation",
+    "PDFs are effective attack vectors because text extractors capture invisible content (white text, tiny fonts, hidden metadata) that humans cannot see",
+    "A vulnerable pipeline allows the AI model to extract data, make approval decisions, and directly influence business transactions without validation",
+    "Defense requires five layered controls: hidden text detection, rendering pages as images for vision models, strict output schemas, removing decision fields, and deterministic validation against master data",
+    "The architecture and design determine security more than the prompt; payment decisions must come from internal workflow and verified data, never from document content"
+  ],
+  "systems": [
+    "integration",
+    "finance",
+    "copilot"
+  ],
+  "topics": [
+    "prompt injection",
+    "ai security",
+    "document processing",
+    "invoice processing",
+    "payment fraud",
+    "indirect injection",
+    "threat modeling"
+  ],
+  "objects": [],
+  "features": [
+    "Invoice extraction with AI",
+    "Document intake automation",
+    "Prompt injection detection",
+    "Hidden text analysis",
+    "Vision model-based document processing",
+    "Structured outputs with strict schemas",
+    "Master data validation",
+    "Payment approval workflow"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Your AI will believe anything a document tells it. Build a system that doesn't.",
+      "why_it_matters": "Core principle: security must be in the system design and architecture, not relying on AI behavior or prompts alone"
+    },
+    {
+      "text": "Prompt injection isn't a bug you patch in the prompt. It's a trust problem you solve in the design.",
+      "why_it_matters": "Reframes the security challenge as an architectural issue requiring deterministic controls, not just better instructions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006262,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/13467",
+  "number": 13467,
+  "title": "[29.x[All-e]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "purchasing"
+  ],
+  "summary": "Spanish version payment discount calculation corrected for prices including VAT by accounting for payment discount amount when recalculating VAT base.",
+  "key_points": [
+    "Payment discounts now correctly reflected in sales and purchase totals when prices include VAT",
+    "VAT-inclusive branch now subtracts payment discount amount during VAT base recalculation",
+    "VAT-exclusive calculations left unchanged to preserve existing behavior",
+    "Addresses issue when VAT base discount percentage and EC amount are zero",
+    "Comprehensive test coverage added for payment discount scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Subtract \"Pmt. Discount Amount\" when recalculating the VAT base in the VAT-inclusive branch.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00442,
+    "changes_in_call": 5
+  }
+}

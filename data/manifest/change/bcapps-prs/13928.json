@@ -6,7 +6,7 @@
   "title": "Bug 658681: [Master Data Management] Support certificate secret for cross-environment synchronization",
   "url": "https://github.com/microsoft/BCApps/pull/13928",
   "published_at": "2026-11-13T15:09:49Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-14T00:13:17.671Z"
@@ -18,10 +18,27 @@
       "al": 5,
       "objects": 5,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-15T00:19:37.163Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00359
+    },
+    "linked": {
+      "at": "2026-11-15T00:19:37.810Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-15T00:19:40.421Z",
+      "path": "content/changes/bcapps/13928.md"
     }
   },
   "input_hash": "180993dd2f85d5660becbd3259cfdb2d26e191d8:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13928,
@@ -38,7 +55,7 @@
     "community_contribution": false,
     "title_key": "bug 658681 master data management support certificate secret for cross environment synchronization"
   },
-  "last_error": "LLM call failed after 3 attempts (change/bcapps-prs/13928): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
-  "retry_after": "2026-11-14T02:15:28.801Z",
-  "output_hash": "db02c2e362e31404efab6f84afa575559d216378e21ac896c0b2f322f465e44d"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b673b47596ae71827b8733001bb6954dd281ca6e32e4d48167610a332414169d"
 }

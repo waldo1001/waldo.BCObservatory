@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13582",
+  "number": 13582,
+  "title": "[main] Price Groups of Subscription Packages are not considered.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Subscription package price group filtering corrected to prevent customers from selecting packages outside their price group or packages restricted to any price group.",
+  "key_points": [
+    "Filter now always applied to offered packages based on customer's price group plus unrestricted packages",
+    "Customers without a price group now only see packages without a price group restriction",
+    "Removed fallback filter clearing that previously allowed all packages when no match found",
+    "Page does not open if no qualifying packages exist for the customer",
+    "Automatic selection behavior unchanged; new test added for customer-without-price-group scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Always filter the offered packages to the customer's price group plus packages without a price group.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00442,
+    "changes_in_call": 5
+  }
+}

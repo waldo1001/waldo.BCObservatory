@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/aardvarklabs-blog/4095",
+  "url": "https://aardvarklabs.blog/2026/11/13/business-central-v29-moduleinfo-gets-four-new-runtime-18-values/",
+  "title": "Business Central v29: ModuleInfo Gets Four New Runtime 18 Values",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-11-13T13:00:00.000Z",
+  "words": 257,
+  "summary": "Business Central v29 introduces four new Runtime 18 fields on ModuleInfo (ContextSensitiveHelpUrl, EULA, Help, PrivacyStatement) that expose compliance and documentation metadata through AL code, eliminating the need to parse app.json or manifests.",
+  "key_points": [
+    "ModuleInfo now includes four new Runtime 18 fields for compliance metadata",
+    "Developers can retrieve context-sensitive help URLs, EULA, help content, and privacy statements programmatically via NavApp.GetCurrentModuleInfo",
+    "Useful for ISVs, AppSource apps, and extensions that need to validate or surface compliance information at runtime",
+    "Enables runtime validation of AppSource metadata and building diagnostic pages with module documentation links"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "moduleinfo",
+    "runtime 18",
+    "compliance metadata",
+    "appsource",
+    "al development",
+    "extensions"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "ModuleInfo"
+    }
+  ],
+  "features": [
+    "ModuleInfo ContextSensitiveHelpUrl field",
+    "ModuleInfo EULA field",
+    "ModuleInfo Help field",
+    "ModuleInfo PrivacyStatement field",
+    "NavApp.GetCurrentModuleInfo method"
+  ],
+  "versions": [
+    "29",
+    "Runtime 18"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With Runtime 18, we now get four new values that expose the module's compliance and documentation metadata directly through AL",
+      "why_it_matters": "Explains the core benefit: developers can access compliance information programmatically without parsing external files"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006262,
+    "posts_in_call": 4
+  }
+}

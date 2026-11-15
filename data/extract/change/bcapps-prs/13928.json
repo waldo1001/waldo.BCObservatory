@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13928",
+  "number": 13928,
+  "title": "Bug 658681: [Master Data Management] Support certificate secret for cross-environment synchronization",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Cross-environment master data synchronization now supports certificate authentication as an alternative to client secrets, with certificate storage in isolated storage and automatic validation of expiration and private keys.",
+  "key_points": [
+    "Adds Authentication Type field to connection wizard, defaulting to Client Secret with Certificate option",
+    "Certificate stored securely in isolated storage with thumbprint and expiration date metadata",
+    "Validates certificate has private key, opens with password, and is not expired",
+    "Token acquisition uses OAuth2.AcquireTokensWithCertificate when certificate is stored",
+    "Cleanup on environment copy and setup deletion removes all stored credentials from isolated storage"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00359,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/yzhums-com/77363",
+  "url": "https://yzhums.com/77363/",
+  "title": "Business Central 2026 release wave 2 (BC29.1): Use batch totals for payment journals",
+  "source": "yzhums-com",
+  "published_at": "2026-11-13T01:13:19.000Z",
+  "words": 322,
+  "summary": "Business Central 2026 wave 2 adds a Batch Total (LCY) field to the Payment Journal page, displaying the cumulative total for payment batches to improve review and approval processes before posting.",
+  "key_points": [
+    "New Batch Total (LCY) field displays sum of Amount (LCY) for visible payment journal lines",
+    "Batch total updates when line amounts change or batch name is selected, showing 0 for empty batches",
+    "Total accounts for line signs so positive and negative amounts offset each other",
+    "Improves payment processing control and streamlines review and approval workflows before posting or export",
+    "Not yet added to Cash Receipt Journals or General Journals as of this update"
+  ],
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "payment journal",
+    "batch processing",
+    "approval workflow",
+    "payment control"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journals"
+    }
+  ],
+  "features": [
+    "Batch Total (LCY) field on Payment Journal",
+    "Payment batch cumulative totals",
+    "Enhanced payment review"
+  ],
+  "versions": [
+    "29.1",
+    "2026 wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Before you post or export a payment journal, review Batch Total (LCY) at the bottom of the page.",
+      "why_it_matters": "Describes the new workflow step for verifying payment batches before committing transactions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006262,
+    "posts_in_call": 4
+  }
+}

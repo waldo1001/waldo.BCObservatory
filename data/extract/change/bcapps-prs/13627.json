@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13627",
+  "number": 13627,
+  "title": "[E-Documents] Fix division by zero importing zero-amount purchase order lines",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "E-Document import now correctly handles zero-amount purchase order lines by preventing division-by-zero errors when calculating discount percentages.",
+  "key_points": [
+    "Guard denominator in discount percentage calculation to prevent division by zero on zero-amount lines",
+    "Set imported discount percentage to zero when denominator is zero while preserving existing calculation for nonzero cases",
+    "Added six regression tests covering nine input combinations including zero/nonzero amounts and discounts",
+    "No schema, API, permission, or upgrade changes required",
+    "Preserves behavior for all nonzero-denominator scenarios including negative amounts"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Guard the denominator and explicitly set the imported discount percentage to zero when it is zero.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00442,
+    "changes_in_call": 5
+  }
+}

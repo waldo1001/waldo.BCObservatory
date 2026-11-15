@@ -6,7 +6,7 @@
   "title": "[Main]- Warehouse shipment item tracking inherits the source line's stale pick bin on the Transfer and Purchase-Return branches, so a second partial shipment fails with \"You cannot select more than 0 units\"",
   "url": "https://github.com/microsoft/BCApps/pull/13552",
   "published_at": "2026-11-14T10:39:52Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-15T00:17:15.357Z"
@@ -18,6 +18,23 @@
       "al": 2,
       "objects": 2,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-15T00:19:37.161Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00359
+    },
+    "linked": {
+      "at": "2026-11-15T00:19:37.390Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-15T00:19:37.435Z",
+      "path": "content/changes/bcapps/13552.md"
     }
   },
   "input_hash": "27f13242ac335d7d2204ead00a715ee18e4cc828:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "37778cca618f6b88fef9e5a2ea6154cfad13516ca1ac649d4be5d2a62a009b43"
+  "output_hash": "c7c03949e4db89bad2283a23e705abe062c3650066e2518104e08c653bd17164"
 }

@@ -7,7 +7,7 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-88-extract-apps-from-docker-container/",
   "published_at": "2026-11-13T00:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-14T00:13:17.671Z"
@@ -16,12 +16,30 @@
       "at": "2026-11-14T00:13:54.331Z",
       "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-88-extract-apps-from-docker-container--81ac3df1ac.md",
       "words": 94
+    },
+    "extracted": {
+      "at": "2026-11-15T00:19:36.809Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006262
+    },
+    "summarized": {
+      "at": "2026-11-15T00:19:37.073Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-11-15T00:19:37.073Z"
+    },
+    "published": {
+      "at": "2026-11-15T00:19:37.076Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-88-extract-apps-from-docker-container--81ac3df1ac.md"
     }
   },
   "input_hash": null,
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-88-extract-apps-from-docker-container/): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
-  "retry_after": "2026-11-14T02:14:20.688Z",
-  "output_hash": "e247d090cfcdb3a4213c2d1510be35a473942c0796831357b29e19ec53267318"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d03e423c8e20971066c08bab885366b9dfa5a37c0d1b606392b27ebe73c25703"
 }

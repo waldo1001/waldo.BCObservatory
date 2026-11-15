@@ -6,7 +6,7 @@
   "title": "[master] Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.",
   "url": "https://github.com/microsoft/BCApps/pull/12516",
   "published_at": "2026-11-10T12:00:18Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-11T00:15:47.902Z"
@@ -18,10 +18,27 @@
       "al": 5,
       "objects": 5,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-15T00:19:40.436Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00442
+    },
+    "linked": {
+      "at": "2026-11-15T00:19:41.347Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-15T00:19:41.353Z",
+      "path": "content/changes/bcapps/12516.md"
     }
   },
   "input_hash": "db50aef61686984a689f771b2d899d029533a311:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12516,
@@ -37,7 +54,7 @@
     "community_contribution": false,
     "title_key": "master unposted purchase return orders and credit memos should be added to the find entries"
   },
-  "last_error": "LLM call failed after 3 attempts (change/bcapps-prs/12516): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
-  "retry_after": "2026-11-14T02:18:33.199Z",
-  "output_hash": "9adc5491cec8a23431ddebe5ee76c71efd78bf046ec4df8b1f9b47af26dd3062"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "22ae8297e3b001218654cdc014094853e9a5a019ec6c42b06dc6dc6219292f49"
 }

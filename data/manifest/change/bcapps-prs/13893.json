@@ -6,7 +6,7 @@
   "title": "Add index management actions to update statistics per table or index",
   "url": "https://github.com/microsoft/BCApps/pull/13893",
   "published_at": "2026-11-13T23:41:16Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-14T00:13:17.671Z"
@@ -18,10 +18,27 @@
       "al": 2,
       "objects": 2,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-15T00:19:37.162Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00359
+    },
+    "linked": {
+      "at": "2026-11-15T00:19:37.391Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-15T00:19:37.435Z",
+      "path": "content/changes/bcapps/13893.md"
     }
   },
   "input_hash": "2c35b20a2d9ce36b7e63763e46cb730b1e08359a:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13893,
@@ -38,7 +55,7 @@
     "community_contribution": false,
     "title_key": "add index management actions to update statistics per table or index"
   },
-  "last_error": "LLM call failed after 3 attempts (change/bcapps-prs/13893): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
-  "retry_after": "2026-11-14T02:14:17.886Z",
-  "output_hash": "2ff86d7e6294ed8008d20a2b814f3d371f40d3960d92f45b34dad5c0177efd01"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8243c72157834e7504ec7809015f5e558992e0071bb044181cae494056eb7925"
 }

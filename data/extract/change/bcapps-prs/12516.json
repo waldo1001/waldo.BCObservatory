@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12516",
+  "number": 12516,
+  "title": "[master] Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Find Entries functionality extended to include unposted Purchase Return Orders and Credit Memos, now matching the coverage provided for equivalent Sales documents.",
+  "key_points": [
+    "Added search and drill-down handling for unposted Purchase Return Orders and Credit Memos",
+    "Purchases now covered symmetrically with Sales in Find Entries page",
+    "External document number search filters by 'Vendor Cr. Memo No.' for credit memos",
+    "Changes applied across all localization layers (W1, DACH, ES, NA, RU, BE, CZ, IT)",
+    "Comprehensive test coverage added for new purchase document scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "quote": "Add searches and drill-down handling for unposted Purchase Return Orders and Credit Memos to match Sales.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00442,
+    "changes_in_call": 5
+  }
+}

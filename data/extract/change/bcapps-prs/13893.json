@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13893",
+  "number": 13893,
+  "title": "Add index management actions to update statistics per table or index",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "Administrators can now update database statistics directly from the Index Management page for either a complete table or a specific enabled index to optimize query performance.",
+  "key_points": [
+    "Adds two new actions: update table statistics and update index statistics",
+    "Requires confirmation and warns of temporary performance impact during update",
+    "Automatically refreshes page to display updated statistics timestamp after completion",
+    "SIFT indexes and disabled indexes are excluded from single-index updates"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "quote": "Adds two actions to the Index Management page so administrators can update database statistics directly",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00359,
+    "changes_in_call": 6
+  }
+}

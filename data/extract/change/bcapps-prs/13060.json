@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13060",
+  "number": 13060,
+  "title": "[Extensibility Request][Subscription Billing] Extension points for a partner billing extension: Billing Proposal visibility, purchase-side event parity, usage-based billing period, document line creation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Subscription Billing adds extension points including public methods, purchase-side events for parity with sales, usage-based billing events, and document line creation events to enable partner extensions without maintaining private code copies.",
+  "key_points": [
+    "Makes four Billing Proposal procedures public to replace partner private copies",
+    "Adds new event for usage-based subscription period calculation",
+    "Adds purchase-side events for contract description lines and header creation",
+    "Provides IsHandled events for line creation to allow subscriber behavior replacement",
+    "Adds SaveDocumentValues public method to maintain usage billing link consistency"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00359,
+    "changes_in_call": 6
+  }
+}

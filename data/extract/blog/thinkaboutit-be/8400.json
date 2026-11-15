@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/thinkaboutit-be/8400",
+  "url": "https://thinkaboutit.be/2026/11/business-central-29-whats-new-in-the-mcp-server/",
+  "title": "Business Central 29: What’s New in the MCP Server?",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-11-14T13:41:26.000Z",
+  "words": 520,
+  "summary": "Business Central 2026 release wave 2 introduces new MCP server Data Query Tools that let AI agents dynamically construct and execute AL queries to analyze data across multiple tables without requiring predefined APIs. The tools are read-only, respect user permissions, and include table discovery, schema inspection, and relationship identification capabilities.",
+  "key_points": [
+    "Four new system tools enable agents to discover tables, inspect schemas, identify relationships, and execute AL queries dynamically",
+    "Agents no longer need developers to create dedicated APIs for ad hoc analysis across multiple Business Central tables",
+    "Data Query Tools are in preview and will become billable when generally available",
+    "Responsibility shifts from API design to permissions management, agent behavior, and query governance"
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "mcp server",
+    "data query tools",
+    "agents",
+    "ai",
+    "apis",
+    "preview feature"
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "bc_data_find_tables"
+    },
+    {
+      "type": "query",
+      "name": "bc_data_get_table_schema"
+    },
+    {
+      "type": "query",
+      "name": "bc_data_get_table_relations"
+    },
+    {
+      "type": "query",
+      "name": "bc_data_query"
+    }
+  ],
+  "features": [
+    "MCP server data query tools",
+    "dynamic AL query construction",
+    "table discovery",
+    "schema inspection",
+    "table relationships",
+    "read-only data access"
+  ],
+  "versions": [
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With predefined APIs, developers control the data structures exposed to agents. With dynamic queries, that responsibility shifts more toward permissions, agent behavior, and governance.",
+      "why_it_matters": "Highlights the governance and permission considerations that become critical with dynamic query capabilities."
+    },
+    {
+      "text": "the new MCP data query capability is currently in preview and Microsoft has announced that it will become billable when generally available.",
+      "why_it_matters": "Important for cost planning and production deployment decisions when evaluating this feature."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.008626,
+    "posts_in_call": 3
+  }
+}

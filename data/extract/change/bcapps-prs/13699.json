@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/13699",
+  "number": 13699,
+  "title": "[main] Registering a Warehouse Movement with \"Breakbulk Filter\" enabled registers only the visible lines; hidden breakbulk lines remain unregistered",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "Warehouse movement registration now includes all breakbulk lines even when the breakbulk filter is enabled, ensuring complete movement registration instead of leaving intermediate lines unregistered.",
+  "key_points": [
+    "Selects all movement lines before registration to bypass subpage filters",
+    "Fixes issue where intermediate breakbulk lines remained unregistered",
+    "Adds regression test verifying complete line registration and movement deletion"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse"
+  ],
+  "quote": "Warehouse movements remain partially registered when Breakbulk Filter is enabled",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00359,
+    "changes_in_call": 6
+  }
+}

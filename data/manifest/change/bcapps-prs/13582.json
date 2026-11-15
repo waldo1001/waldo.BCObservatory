@@ -6,7 +6,7 @@
   "title": "[main] Price Groups of Subscription Packages are not considered.",
   "url": "https://github.com/microsoft/BCApps/pull/13582",
   "published_at": "2026-11-13T06:17:18Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-14T00:13:17.671Z"
@@ -18,10 +18,27 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-15T00:19:40.435Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00442
+    },
+    "linked": {
+      "at": "2026-11-15T00:19:40.898Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-15T00:19:40.914Z",
+      "path": "content/changes/bcapps/13582.md"
     }
   },
   "input_hash": "4fc2fb3ee8f5f3920a2269d4513867a504dda3c6:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13582,
@@ -38,7 +55,7 @@
     "community_contribution": false,
     "title_key": "price groups of subscription packages are not considered"
   },
-  "last_error": "LLM call failed after 3 attempts (change/bcapps-prs/13582): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
-  "retry_after": "2026-11-14T02:17:42.185Z",
-  "output_hash": "46010dbb8b7089498d0248b5e62319a11d3044e09653506bacbc15c472228a49"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4b02657ab98fdee566b7d04632852b35e9cfb70e8cc23acd3ca6bf5d48ac94ed"
 }

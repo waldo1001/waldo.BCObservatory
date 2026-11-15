@@ -7,7 +7,7 @@
   "url": "https://thinkaboutit.be/2026/11/business-central-29-whats-new-in-the-mcp-server/",
   "published_at": "2026-11-14T13:41:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-15T00:17:15.357Z"
@@ -16,6 +16,24 @@
       "at": "2026-11-15T00:18:55.282Z",
       "path": "vault:posts/thinkaboutit-be/8400.md",
       "words": 520
+    },
+    "extracted": {
+      "at": "2026-11-15T00:19:37.097Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.008626
+    },
+    "summarized": {
+      "at": "2026-11-15T00:19:37.098Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-11-15T00:19:37.098Z"
+    },
+    "published": {
+      "at": "2026-11-15T00:19:37.110Z",
+      "path": "content/posts/thinkaboutit-be/8400.md"
     }
   },
   "input_hash": "2026-11-14T13:42:53.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b02ac516e574a5c4a186b291aa48daa1cb4442510f67d2a126bbf2321580bee2"
+  "output_hash": "dd5d6eb9186cdb6a334818283c5b19d06c90027584a4a6eceb15fbd3053fb9a1"
 }

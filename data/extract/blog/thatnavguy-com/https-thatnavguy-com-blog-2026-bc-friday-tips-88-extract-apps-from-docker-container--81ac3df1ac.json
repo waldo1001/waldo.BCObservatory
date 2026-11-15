@@ -1,0 +1,46 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-88-extract-apps-from-docker-container/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-88-extract-apps-from-docker-container/",
+  "title": "BC Friday Tips #88 Extract Apps from a Docker Container",
+  "source": "thatnavguy-com",
+  "published_at": "2026-11-13T00:00:00.000Z",
+  "words": 94,
+  "summary": "A Docker tip for Business Central developers showing how to extract the Applications folder from a Docker container to a local PC using the docker cp command for quick access to standard Microsoft apps and extensions.",
+  "key_points": [
+    "Docker cp command copies the entire Applications folder from a Business Central container to local storage",
+    "Command syntax: docker cp \"Containername:C:\\Applications\" \"C:\\TargetFolder\"",
+    "Provides quick local access to standard Microsoft apps and extensions for development purposes",
+    "Simplifies developer workflow and everyday Business Central development tasks"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "docker",
+    "development workflow",
+    "containers",
+    "applications folder"
+  ],
+  "objects": [],
+  "features": [
+    "Docker container application extraction",
+    "Local application folder access"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can easily copy the entire Applications folder from your Business Central docker container to your local PC",
+      "why_it_matters": "Introduces a simple technique for accessing container contents during development"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006262,
+    "posts_in_call": 4
+  }
+}

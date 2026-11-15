@@ -4,79 +4,61 @@
   "title": "Business Central 2026 release wave 2 (BC29.1): Data mirroring to Microsoft Fabric (No APIs or OData Needed)",
   "source": "yzhums-com",
   "published_at": "2026-11-12T04:08:56.000Z",
-  "words": 1734,
-  "summary": "Business Central 2026 wave 2 introduces data mirroring to Microsoft Fabric, allowing users to synchronize selected companies and tables to OneLake without needing APIs or OData. The feature enables direct analytics, reporting, and data integration with Fabric IQ, Power BI, and Data Factory.",
+  "words": 1794,
+  "summary": "Business Central 2026 wave 2 introduces data mirroring to Microsoft Fabric, enabling users to select companies and tables for replication into OneLake without requiring APIs or OData. Business Central continuously syncs initial snapshots and ongoing changes in Delta Parquet format for use with Fabric analytics tools, Power BI, and Data Factory.",
   "key_points": [
-    "Data mirroring replicates Business Central data to an open mirrored database in Microsoft Fabric's OneLake in Delta Parquet format",
-    "Users can select specific companies and tables to synchronize, with continuous exports of ongoing changes",
-    "Authentication requires either a custom app registration or the Microsoft Business Central Fabric Export application with proper service principal setup",
-    "Workspace access and permissions must be configured through Microsoft Entra ID and Fabric workspace management",
-    "Synchronization status and progress are monitored through the Export Summary and Fabric Synchronization Overview pages"
+    "Data mirroring replicates selected Business Central companies and tables to Microsoft Fabric OneLake in Delta Parquet format",
+    "Configuration requires setup of service principals, app registration, Fabric workspace permissions, and selecting tables to synchronize",
+    "Initial export takes approximately two hours; subsequent continuous exports run at user-configurable intervals",
+    "Built-in logging and monitoring provide visibility into synchronization health and export status"
   ],
   "systems": [
-    "reporting",
     "integration",
-    "administration"
+    "reporting"
   ],
   "topics": [
     "data mirroring",
     "microsoft fabric",
-    "onelake",
     "analytics",
-    "integration",
-    "service principal",
-    "authentication",
-    "data synchronization"
+    "onelake",
+    "continuous export",
+    "power bi"
   ],
   "objects": [
     {
-      "type": "other",
-      "name": "Microsoft Fabric Mirroring Setup page"
+      "type": "page",
+      "name": "Microsoft Fabric Mirroring Setup"
     },
     {
-      "type": "other",
+      "type": "page",
       "name": "Fabric Synchronization Overview"
     },
     {
-      "type": "other",
-      "name": "Fabric synchronization details"
+      "type": "page",
+      "name": "Privacy Notices Status"
     },
     {
-      "type": "other",
-      "name": "Export Summary"
-    },
-    {
-      "type": "other",
-      "name": "Privacy Notices Status page"
-    },
-    {
-      "type": "other",
-      "name": "Extension Settings page"
+      "type": "page",
+      "name": "Extension Settings"
     }
   ],
   "features": [
-    "data mirroring to Microsoft Fabric",
-    "open mirrored database",
-    "OneLake synchronization",
-    "custom app registration authentication",
-    "Microsoft Business Central Fabric Export application",
-    "continuous data export",
-    "Delta Parquet format storage",
-    "Fabric workspace integration"
+    "data mirroring to Fabric",
+    "OneLake integration",
+    "Delta Parquet format",
+    "continuous export",
+    "company and table selection",
+    "synchronization monitoring"
   ],
   "versions": [
-    "2026 wave 2",
+    "2026 release wave 2",
     "BC29.1"
   ],
   "language": "en",
   "quotes": [
     {
-      "text": "Connect Business Central to Microsoft Fabric to make business data available for analytics, reporting, and data integration.",
-      "why_it_matters": "Explains the core business value and purpose of the data mirroring feature"
-    },
-    {
-      "text": "Business Central then replicates an initial snapshot and ongoing changes into OneLake.",
-      "why_it_matters": "Describes how the mirroring mechanism works to keep Fabric data current"
+      "text": "Data mirroring connects Business Central online to an open mirrored database in Microsoft Fabric. You select the companies and tables to synchronize.",
+      "why_it_matters": "Explains the core capability of selective data replication without requiring APIs."
     }
   ],
   "trimmed_for_policy": 0,
@@ -84,7 +66,7 @@
   "llm": {
     "model": "claude-haiku-4-5-20251001",
     "cached": false,
-    "cost_usd": 0.013289,
-    "posts_in_call": 1
+    "cost_usd": 0.008626,
+    "posts_in_call": 3
   }
 }

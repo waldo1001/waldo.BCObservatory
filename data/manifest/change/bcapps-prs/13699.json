@@ -6,7 +6,7 @@
   "title": "[main] Registering a Warehouse Movement with \"Breakbulk Filter\" enabled registers only the visible lines; hidden breakbulk lines remain unregistered",
   "url": "https://github.com/microsoft/BCApps/pull/13699",
   "published_at": "2026-11-13T19:32:37Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-14T00:13:17.671Z"
@@ -18,10 +18,27 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-15T00:19:37.162Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00359
+    },
+    "linked": {
+      "at": "2026-11-15T00:19:37.677Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-15T00:19:37.684Z",
+      "path": "content/changes/bcapps/13699.md"
     }
   },
   "input_hash": "5aed80c428d6a478f33d6c55c4a0b038f77d2a6d:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13699,
@@ -37,7 +54,7 @@
     "community_contribution": false,
     "title_key": "registering a warehouse movement with breakbulk filter enabled registers only the visible lines hidden breakbulk lines remain unregistered"
   },
-  "last_error": "LLM call failed after 3 attempts (change/bcapps-prs/13699): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
-  "retry_after": "2026-11-14T02:14:57.444Z",
-  "output_hash": "2a27306b5d1a8afbae50afaaf43ed4046cb371d98876c977a29024cf5a447603"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a46be029241748697fa2585cf1cc115c3b3d0cb9d27a838f3fee5ad5b4ef19b1"
 }

@@ -6,7 +6,7 @@
   "title": "Foundation for Payables Agent V2.0",
   "url": "https://github.com/microsoft/BCApps/pull/13361",
   "published_at": "2026-11-14T00:16:37Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-15T00:17:15.357Z"
@@ -18,6 +18,23 @@
       "al": 119,
       "objects": 0,
       "unjoined": 119
+    },
+    "extracted": {
+      "at": "2026-11-15T00:19:40.434Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.00442
+    },
+    "linked": {
+      "at": "2026-11-15T00:19:40.896Z",
+      "objects": 0,
+      "unjoined": 119,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-15T00:19:40.913Z",
+      "path": "content/changes/bcapps/13361.md"
     }
   },
   "input_hash": "83d5d29e5187200af6981066d84a8ebcc673f57a:c1",
@@ -41,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aea90ff700f447b1303c6e5fb05bcacc8739bd2f378bf79a6b743fe21fbc8b1b"
+  "output_hash": "bed0c2a787aac28a1b670f6bbcc36cd33d27f3ea491e87a26b0482cf3e0e6b2f"
 }
