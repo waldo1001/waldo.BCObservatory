@@ -1,24 +1,27 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-telemetry.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry",
-  "title": "Environment Telemetry",
-  "blob": "d323eea6fe08db956e80c6c6733f9ac7ce276790",
-  "summary": "Environment telemetry in Business Central Admin Center provides top-level AL event telemetry and error tracking for troubleshooting, with filtering by time, message type, and environment.",
+  "title": "Environment Telemetry in Business Central Admin Center",
+  "blob": "6f350b5cc76e75d7b2706ea7739fd73f693a3b38",
+  "summary": "Access environment telemetry in the Business Central admin center to troubleshoot AL events and errors, with option to enable Application Insights for richer telemetry data.",
   "systems": [
     "administration",
     "reporting"
   ],
   "topics": [
     "telemetry",
-    "monitoring",
     "troubleshooting",
-    "application insights"
+    "admin center",
+    "application insights",
+    "monitoring",
+    "errors"
   ],
   "objects": [],
   "features": [
-    "event telemetry",
-    "error tracking",
-    "time-based filtering",
+    "telemetry filtering",
+    "time window search",
+    "query categories",
+    "AL events",
     "Application Insights integration"
   ],
   "versions": [],
@@ -28,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005214,
-      "pages_in_call": 8
+      "cost_usd": 0.005333,
+      "pages_in_call": 6
     }
   ]
 }

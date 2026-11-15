@@ -1,0 +1,45 @@
+{
+  "id": "change/bcapps-prs/13361",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Foundation for Payables Agent V2.0",
+  "url": "https://github.com/microsoft/BCApps/pull/13361",
+  "published_at": "2026-11-14T00:16:37Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-15T00:17:15.357Z"
+    },
+    "fetched": {
+      "at": "2026-11-15T00:19:15.907Z",
+      "change_class": "code",
+      "files": 156,
+      "al": 119,
+      "objects": 0,
+      "unjoined": 119
+    }
+  },
+  "input_hash": "83d5d29e5187200af6981066d84a8ebcc673f57a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13361,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "83d5d29e5187200af6981066d84a8ebcc673f57a",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Build: scripts & configs",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "foundation for payables agent v2 0"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "aea90ff700f447b1303c6e5fb05bcacc8739bd2f378bf79a6b743fe21fbc8b1b"
+}

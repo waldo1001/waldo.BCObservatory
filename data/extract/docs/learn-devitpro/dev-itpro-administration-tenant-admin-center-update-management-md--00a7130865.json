@@ -2,29 +2,27 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-update-management.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-update-management",
   "title": "Managing Updates in the Admin Center",
-  "blob": "8622a416781d06eb8cdf9032c16690a13fc82d98",
-  "summary": "Managing Updates in the Admin Center describes how admins set update windows, schedule environment updates to available or planned versions, cancel updates, and configure update notifications through the Business Central admin center.",
+  "blob": "2678c0730dc1e046dc6d8666b17503525b279ada",
+  "summary": "Schedule and manage environment updates in the admin center by setting update windows, choosing target versions, and controlling update timing with notification recipients.",
   "systems": [
     "administration",
     "platform"
   ],
   "topics": [
-    "update management",
+    "updates",
     "admin center",
-    "environment updates",
-    "scheduling",
-    "notifications",
-    "maintenance windows"
+    "version management",
+    "update scheduling",
+    "preview environments"
   ],
   "objects": [],
   "features": [
     "update window configuration",
-    "scheduled updates",
-    "update cancellation",
-    "notification recipients",
+    "schedule available versions",
+    "schedule planned versions",
+    "cancel running updates",
     "preview environments",
-    "preview versions",
-    "enforced update period"
+    "enforce update periods"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.015592,
-      "pages_in_call": 2
+      "cost_usd": 0.005333,
+      "pages_in_call": 6
     }
   ]
 }

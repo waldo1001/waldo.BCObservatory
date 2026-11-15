@@ -2,22 +2,26 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-sessions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions",
   "title": "Managing Sessions in the Admin Center",
-  "blob": "a53bd897ee90438dde405fb2b9de93a58a7c526b",
-  "summary": "The Manage Sessions page in the admin center allows administrators to view active sessions and cancel them to unblock customers or restart environments when needed.",
+  "blob": "6a793c346a0ded77af3a334c591cd82497d5c5d6",
+  "summary": "View and manage active sessions in Business Central environments from the admin center, including canceling blocking sessions or restarting the entire environment when needed.",
   "systems": [
-    "administration"
+    "administration",
+    "platform"
   ],
   "topics": [
-    "session management",
-    "administration",
+    "sessions",
     "environment management",
-    "troubleshooting"
+    "admin center",
+    "troubleshooting",
+    "performance"
   ],
   "objects": [],
   "features": [
     "manage sessions",
     "cancel sessions",
-    "restart environment"
+    "restart environment",
+    "session details",
+    "view active sessions"
   ],
   "versions": [],
   "parts": 1,
@@ -26,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003456,
-      "pages_in_call": 8
+      "cost_usd": 0.005333,
+      "pages_in_call": 6
     }
   ]
 }

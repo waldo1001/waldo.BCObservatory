@@ -1,29 +1,30 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-backup-restore.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore",
-  "title": "Restoring an environment in the admin center",
-  "blob": "06160bc2417e190ddefe70530967f5be50759e17",
-  "summary": "Environment restoration in the admin center allows administrators to restore production or sandbox environments to a point in time within 28 days using automated backups with considerations for extensions, data cleanup, and retention.",
+  "title": "Restore Business Central Environment Backups",
+  "blob": "59be90c4d2e98a1067648d849f762ac0ac7936fc",
+  "summary": "Restore Business Central environments from automated backups within 28 days using the admin center, with considerations for environment types, versions, extensions, and post-restore data preparation.",
   "systems": [
-    "administration"
+    "administration",
+    "platform"
   ],
   "topics": [
     "backup",
     "restore",
     "disaster recovery",
-    "environments",
-    "admin center",
-    "permissions"
+    "environment",
+    "data protection",
+    "admin center"
   ],
   "objects": [],
   "features": [
+    "automated backups",
     "point-in-time restore",
     "28-day retention",
-    "Azure SQL backups",
-    "10 restores per month",
-    "environment cleanup",
-    "extension handling",
-    "BCDR"
+    "10 restores per calendar month",
+    "backup cleanup",
+    "per-tenant extensions",
+    "environment type selection"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005577,
-      "pages_in_call": 8
+      "cost_usd": 0.005333,
+      "pages_in_call": 6
     }
   ]
 }

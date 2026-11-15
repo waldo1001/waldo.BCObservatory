@@ -2,26 +2,29 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center",
   "title": "Business Central Administration Center",
-  "blob": "4c18100ca316bc7a42cd25db986bf432ac48ad48",
-  "summary": "The Business Central administration center portal for tenant administrators to manage environments, set notifications, control access, configure telemetry, and handle support. Details access requirements and delegated admin roles.",
+  "blob": "d79aa46a5f845a27eb8b55bf16557b07da17dd1f",
+  "summary": "The Business Central admin center provides a portal for administrators to manage environments, set notifications, control access, and configure telemetry across production and sandbox tenants.",
   "systems": [
-    "administration"
+    "administration",
+    "platform"
   ],
   "topics": [
     "admin center",
-    "tenant management",
-    "environments",
+    "environment management",
     "access control",
-    "partner administration"
+    "notifications",
+    "telemetry",
+    "delegated administration"
   ],
   "objects": [],
   "features": [
     "environment management",
     "notification recipients",
-    "Application Insights",
-    "support configuration",
-    "GDAP access",
-    "telemetry setup"
+    "environment access",
+    "Application Insights setup",
+    "delegated administrator access",
+    "GDAP relationship",
+    "partner support"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006121,
-      "pages_in_call": 8
+      "cost_usd": 0.005333,
+      "pages_in_call": 6
     }
   ]
 }

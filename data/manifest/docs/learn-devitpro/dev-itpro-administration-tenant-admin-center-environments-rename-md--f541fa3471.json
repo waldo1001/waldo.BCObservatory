@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-rename",
   "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,27 +19,27 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:39:41.309Z",
+      "at": "2026-11-15T00:19:20.239Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005214
+      "cost_usd": 0.0056
     },
     "summarized": {
-      "at": "2026-10-06T19:39:41.318Z",
+      "at": "2026-11-15T00:19:33.496Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:39:41.319Z",
+      "at": "2026-11-15T00:19:33.496Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:39:41.320Z",
+      "at": "2026-11-15T00:19:33.497Z",
       "page": false
     }
   },
   "input_hash": "aef57f020ea7581998c7759cb33d1b529aa8cbdb",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
@@ -61,7 +61,7 @@
     "identifiers": [],
     "identifiers_rule": 2
   },
-  "last_error": "LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
-  "retry_after": "2026-11-14T02:18:23.138Z",
-  "output_hash": "aef57f020ea7581998c7759cb33d1b529aa8cbdb"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1f176e4c73264b74eb55c279902663fe2f30c91be17306fd07adb5b675e62181"
 }

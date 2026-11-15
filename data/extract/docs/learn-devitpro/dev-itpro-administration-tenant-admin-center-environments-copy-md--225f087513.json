@@ -1,27 +1,24 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-copy.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-copy",
-  "title": "Copy an environment",
-  "blob": "bcc69559f0793de6fae6dbe2529663b5e7a78ea8",
-  "summary": "Environment copy in the admin center enables creating duplicates of production or sandbox environments with the same application version, extensions, and configuration for troubleshooting and testing purposes.",
+  "title": "Copy a Business Central Environment",
+  "blob": "d5fe22c1d4a2b45cdd53e318a29564156e2ca082",
+  "summary": "Administrators can copy existing Business Central environments to create sandbox or production environments on the same application version, including all installed extensions and per-tenant extensions.",
   "systems": [
     "administration"
   ],
   "topics": [
     "environments",
-    "copy",
-    "admin center",
-    "production",
     "sandbox",
-    "setup"
+    "copy",
+    "production"
   ],
   "objects": [],
   "features": [
-    "environment duplication",
-    "application version matching",
-    "extension copying",
-    "Power Platform unlinking",
-    "environment status tracking"
+    "Environment copying",
+    "Marketplace extensions copying",
+    "Per-tenant extensions copying",
+    "Version consistency"
   ],
   "versions": [],
   "parts": 1,
@@ -30,7 +27,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005577,
+      "cost_usd": 0.0056,
       "pages_in_call": 8
     }
   ]

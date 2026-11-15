@@ -1,27 +1,26 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-capacity.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity",
-  "title": "Managing Capacity",
-  "blob": "e3684a9cabecee32b2a5f5189c1caea0c291d68d",
-  "summary": "Managing capacity provides visibility into database storage usage and environment quotas, including storage allocation by license type and details on exceeding capacity limits or purchasing additional environments.",
+  "title": "Manage Business Central Environment Capacity",
+  "blob": "01a71b24a7842574cd40191837d14f03e038dfce",
+  "summary": "The Capacity page in the Business Central admin center helps customers monitor and plan database storage usage, environment quotas, and purchased capacity for production and sandbox environments.",
   "systems": [
-    "administration",
-    "platform"
+    "administration"
   ],
   "topics": [
-    "storage capacity",
-    "database usage",
+    "capacity",
+    "storage",
+    "environments",
     "licensing",
-    "environment management",
-    "cost planning"
+    "database"
   ],
   "objects": [],
   "features": [
-    "storage usage monitoring",
-    "environment limits",
-    "capacity quota",
-    "storage allocation by license",
-    "Partner Sandbox licensing"
+    "Database storage monitoring",
+    "Storage capacity by source",
+    "Storage usage by environment",
+    "Environment quota management",
+    "Capacity expansion via CSP"
   ],
   "versions": [],
   "parts": 1,
@@ -30,7 +29,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005757,
+      "cost_usd": 0.0056,
       "pages_in_call": 8
     }
   ]

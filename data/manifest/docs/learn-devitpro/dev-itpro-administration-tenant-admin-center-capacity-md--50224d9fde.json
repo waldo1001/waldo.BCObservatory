@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity",
   "published_at": "2026-11-13T14:44:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,27 +19,27 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:42:17.229Z",
+      "at": "2026-11-15T00:19:20.224Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005757
+      "cost_usd": 0.0056
     },
     "summarized": {
-      "at": "2026-10-06T18:42:17.820Z",
+      "at": "2026-11-15T00:19:20.247Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:42:17.821Z",
+      "at": "2026-11-15T00:19:20.248Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:42:17.822Z",
+      "at": "2026-11-15T00:19:20.248Z",
       "page": false
     }
   },
   "input_hash": "01a71b24a7842574cd40191837d14f03e038dfce",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
@@ -65,7 +65,7 @@
     "identifiers": [],
     "identifiers_rule": 2
   },
-  "last_error": "LLM call failed after 3 attempts (1 Learn page part(s)): claude error (success): You've hit your session limit · resets 3:30am (Europe/Brussels)",
-  "retry_after": "2026-11-14T02:16:38.953Z",
-  "output_hash": "01a71b24a7842574cd40191837d14f03e038dfce"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e17b6fe22e06bcf8669935d284aa41a59e529046585c311f201a447a65a6d6a2"
 }

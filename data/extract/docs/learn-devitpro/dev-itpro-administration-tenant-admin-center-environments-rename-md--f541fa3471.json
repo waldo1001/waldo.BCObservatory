@@ -2,22 +2,24 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-rename.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-rename",
   "title": "Rename Environments in the Admin Center",
-  "blob": "989007ed865fd2e129352cc9a91f8bff7e41fe8b",
-  "summary": "Rename environments in Business Central Admin Center by changing the environment name, which affects the environment URL and requires user notification and planning due to impacts on links, integrations, and services.",
+  "blob": "aef57f020ea7581998c7759cb33d1b529aa8cbdb",
+  "summary": "Administrators can rename environments in the admin center, but must consider impacts on URLs, integrations, bookmarks, add-ins, Power BI, and external applications that reference the environment name.",
   "systems": [
     "administration"
   ],
   "topics": [
-    "environment management",
+    "environments",
     "rename",
-    "url changes",
-    "integration impact"
+    "configuration",
+    "url",
+    "integration"
   ],
   "objects": [],
   "features": [
-    "environment renaming",
-    "URL changes",
-    "operations log"
+    "Environment renaming",
+    "URL impact management",
+    "Integration considerations",
+    "Operations logging"
   ],
   "versions": [],
   "parts": 1,
@@ -26,7 +28,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005214,
+      "cost_usd": 0.0056,
       "pages_in_call": 8
     }
   ]

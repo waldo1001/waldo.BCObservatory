@@ -2,31 +2,26 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-center-api.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api",
   "title": "Business Central Administration Center API",
-  "blob": "278d3c7de391152d403cdf4f8336f4f6a94b8ef5",
-  "summary": "The Business Central Admin Center API enables administrators to programmatically manage tenants, environments, notifications, and telemetry using OAuth2 authentication flows.",
+  "blob": "70dfbfd979418ccb876798f322cc79ae40ca7dfe",
+  "summary": "The Business Central admin center API enables administrators to programmatically manage tenant administrative tasks including environments, notifications, and telemetry through REST endpoints with Microsoft Entra authentication.",
   "systems": [
     "administration",
-    "integration",
-    "platform"
+    "integration"
   ],
   "topics": [
     "api",
+    "administration",
     "authentication",
-    "administration center",
-    "entra",
-    "oauth2",
-    "tenants",
+    "tenant",
     "environments"
   ],
   "objects": [],
   "features": [
-    "Microsoft Entra authentication",
-    "Client Credentials Flow",
-    "Authorization Code Flow",
-    "Environment management",
-    "Administrative notifications",
-    "Telemetry access",
-    "Error handling"
+    "Authentication with service-to-service Microsoft Entra apps",
+    "Client credentials flow",
+    "Access tokens",
+    "API error response format",
+    "Delegated authentication"
   ],
   "versions": [
     "version 20.0"
@@ -37,7 +32,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004171,
+      "cost_usd": 0.0056,
       "pages_in_call": 8
     }
   ]

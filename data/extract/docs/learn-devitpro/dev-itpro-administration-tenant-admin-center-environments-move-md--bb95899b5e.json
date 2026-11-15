@@ -1,29 +1,26 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-move.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-move",
-  "title": "Transfer Environments",
-  "blob": "1026c4478d3f2390fb1fe202837328f41a738be2",
-  "summary": "Transfer environments between Microsoft Entra tenants for consolidation, acquisitions, or moving demo environments. Internal admins initiate transfers on source tenants and accept on destination tenants within 8 hours, with post-transfer setup required for users and integrations.",
+  "title": "Transfer Business Central Environments Between Tenants",
+  "blob": "6087c8ad248c40266e9c8117161d63cd3ca4aa20",
+  "summary": "Environments can be transferred between Microsoft Entra tenants by initiating a transfer in the source tenant and accepting it in the destination tenant within 8 hours, with support for scheduled transfers and post-transfer configuration.",
   "systems": [
-    "administration",
-    "platform"
+    "administration"
   ],
   "topics": [
-    "environment transfer",
-    "entra tenant",
-    "multi-tenant",
-    "admin center",
-    "tenant migration",
-    "environment management"
+    "environments",
+    "transfer",
+    "tenants",
+    "migration",
+    "entra"
   ],
   "objects": [],
   "features": [
-    "environment transfer",
-    "tenant consolidation",
-    "pending transfer management",
-    "transfer auditing",
-    "post-transfer setup",
-    "downtime planning"
+    "Transfer initiation on source tenant",
+    "Transfer acceptance on destination tenant",
+    "8-hour acceptance window",
+    "Scheduled transfers",
+    "Transfer audit trail"
   ],
   "versions": [],
   "parts": 1,
@@ -32,7 +29,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00335,
+      "cost_usd": 0.0056,
       "pages_in_call": 8
     }
   ]

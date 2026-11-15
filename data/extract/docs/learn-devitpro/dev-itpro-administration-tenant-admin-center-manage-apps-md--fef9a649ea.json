@@ -1,34 +1,29 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-apps.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-apps",
-  "title": "Managing Apps",
-  "blob": "c36d8b683b2befe92f7a74c6a9bf25890ae38b6f",
-  "summary": "Managing Apps in the Admin Center provides unified control for Global Apps, Per-Tenant Extensions, and DEV extensions, including installation, updates, scheduling, dependency resolution, and uninstallation across business central environments.",
+  "title": "Manage Apps in the Business Central Admin Center",
+  "blob": "fa68d79199776f7c7018104e9c871b427392a14f",
+  "summary": "The Manage Apps page in the admin center enables viewing, uploading, installing, updating, and uninstalling global apps, per-tenant extensions, and development extensions with dependency management and update scheduling.",
   "systems": [
-    "administration",
-    "integration"
+    "administration"
   ],
   "topics": [
-    "app management",
-    "marketplace apps",
-    "per-tenant extensions",
-    "global apps",
-    "app updates",
-    "app dependencies",
-    "extension management"
+    "apps",
+    "extensions",
+    "marketplace",
+    "updates",
+    "management"
   ],
   "objects": [],
   "features": [
-    "Manage Apps page in Admin Center",
-    "Global app marketplace integration",
-    "Per-Tenant Extension upload and scheduling",
-    "App update management with version compatibility",
-    "Apps Update Cadence setting for automatic updates",
-    "Deployment scheduling (immediate, update window, minor/major version)",
-    "App dependency resolution",
-    "App uninstallation with data deletion options",
-    "Preview versions of Marketplace apps",
-    "Sandbox testing for app uninstallation"
+    "Global app updates",
+    "Per-tenant extension uploads",
+    "Development extension management",
+    "Dependency resolution",
+    "Update scheduling",
+    "App uninstall with data deletion",
+    "Preview version management",
+    "Apps Update Cadence control"
   ],
   "versions": [
     "2027 release wave 1"
@@ -39,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.016273,
-      "pages_in_call": 2
+      "cost_usd": 0.0056,
+      "pages_in_call": 8
     }
   ]
 }
