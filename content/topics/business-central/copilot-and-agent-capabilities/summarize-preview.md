@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,7 +109,7 @@ The section has three pages. "Summarize a record with Copilot" is the place to s
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Business Central 2025 wave 2 (BC27): Hide Copilot summaries (Summary System Part Support)](../../../posts/yzhums-com/67310.md) (community post): "Summary system part that allows developers to hide or configure Copilot summary FactBoxes"
-- [Business Central 2026 release wave 1 (BC28): Get item insights with advanced KPIs and Summary (new Item Statistics page)](../../../posts/yzhums-com/71758.md) (community post): "Copilot can summarize these insights automatically when enabled"
+- [Business Central 2026 release wave 1 (BC28): Get item insights with advanced KPIs and Summary (new Item Statistics page)](../../../posts/yzhums-com/71758.md) (community post): "Enabling Summarize with Copilot automatically activates Copilot-powered item summaries"
 - [Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot](../../../videos/fgWFOMPJd6U.md) (video): "Summarize with Copilot; Multi-Prompt Pipeline for Summarization"
 - [What's New: Summarize with Copilot (2025 release wave 1)](../../../videos/HjsOuhThGKk.md) (video): "What's New: Summarize with Copilot (2025 release wave 1)"
 - [What's New: Enhancements to Copilot Summaries (2025 release wave 2)](../../../videos/q0TxpWfm9rc.md) (video): "Enhancements to Copilot Summaries copilot summaries; ai insights; multi-language support"

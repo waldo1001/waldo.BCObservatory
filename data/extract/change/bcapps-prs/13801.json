@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13801",
+  "number": 13801,
+  "title": "[29.x][ALL-E] Report 713 \"Inventory Custmer Sales\" – Excel (data only) export generates one row per Item Ledger Entry with NULL values instead of one aggregated row per Item/Customer combination - Copy",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Report 713 Inventory - Customer Sales no longer emits intermediate rows with only item data and NULL customer values in Excel (data only) export. CurrReport.Skip() is called when the aggregate buffer is empty, so the output has one aggregated row per Item/Customer combination.",
+  "key_points": [
+    "Rows are skipped when the temporary aggregate buffer is empty",
+    "Excel (data only) export now gives one aggregated row per Item/Customer combination",
+    "Customer aggregates, subtotals, grand totals and the Word layout are preserved",
+    "A regression test was added in SCM Inventory Reports tests"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00345,
+    "changes_in_call": 1
+  }
+}

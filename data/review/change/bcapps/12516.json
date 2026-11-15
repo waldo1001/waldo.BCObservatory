@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/12516",
+  "input_hash": "d3ae31029414640b8ba9146bd73d7ab2a8826b3456cc493ba8aa9b2366559cd4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-15T00:48:05.494Z",
+  "issues": [
+    "The page said all localization layers changed, but Navigate was changed only in W1, DACH, ES, NA and RU. BE, CZ and IT got test changes only.",
+    "The Vendor Cr. Memo No. filter applies to both return orders and credit memos, not only credit memos.",
+    "The work item is a bug with an issue and cause description, so fix fits better than feature."
+  ],
+  "applied": [
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028162,
+    "changes_in_call": 2
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -219,6 +219,7 @@ links:
     - post/bertverbeek-nl/1290
     - post/demiliani-com/12644
     - post/freddysblog/https-freddysblog-com-2026-11-07-directions-emea-2026--4bd603011b
+    - post/freddysblog/https-freddysblog-com-2026-11-10-human-vs-ai--4beea4bfd7
     - post/jeremyvyska-com/1739
     - post/kauffmann-nl/8436
     - post/yzhums-com/70502
@@ -244,7 +245,7 @@ coverage:
   learn: 23
   code: 0
   video: 8
-  blog: 10
+  blog: 11
   guideline: 0
 bc_forms: []
 member_hash: 2363f50364b2a6e5ec17552aa75d99987877fc7bce7ed791a7189963ccc729d0
@@ -320,6 +321,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "agents built directly in Business Central with those created in Copilot Studio"
 - [Dynamics 365 Business Central: debugging agent sessions.](../../../posts/demiliani-com/12644.md) (community post): "debug agent sessions directly from Visual Studio Code"
 - [Directions EMEA 2026 Reflections](../../../posts/freddysblog/https-freddysblog-com-2026-11-07-directions-emea-2026--4bd603011b.md) (community post): "AI agents are already giving partners efficiency and quality gains"
+- [“Human” vs. AI](../../../posts/freddysblog/https-freddysblog-com-2026-11-10-human-vs-ai--4beea4bfd7.md) (community post): "effective AI use requires proper training, experience documentation, defined processes"
 - [Agentic Development Training Spring/Summer 2026](../../../posts/jeremyvyska-com/1739.md) (community post): "teaches Business Central developers how to build AI-powered agentic workflows for development tasks"
 - [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Production agents require manual conversion to AL code"
 - [Business Central 2025 wave 2 (BC27.4): Envision and design AI agents in Business Central (Custom Agent)](../../../posts/yzhums-com/70502.md) (community post): "users build custom AI agents that turn natural language goals into actions"

@@ -1,21 +1,23 @@
 {
   "item_id": "blog/yzhums-com/77184",
-  "input_hash": "f81bbfa6d797761984adef7d1e325c47733e0a13ee747267ff3269a28bcff001",
-  "verdict": "approve",
+  "input_hash": "141d83a86aac6dd37112171b04d9b152db64fc980e38764debcd4b6705762756",
+  "verdict": "fix",
   "by": "opus",
-  "at": "2026-11-13T00:59:02.599Z",
+  "at": "2026-11-15T00:47:29.654Z",
   "issues": [
-    "Summary and key points match the post's setup walkthrough for Fabric mirroring.",
-    "All listed pages are named in the post; both quotes appear in the text.",
-    "Systems, features and versions are supported."
+    "Key point 2 says a custom app registration is required. The post describes two options: a custom app registration, or a service principal for the Microsoft Fabric Export application. It notes that a current limitation pushes testers toward the custom option.",
+    "Key point 3 left out that the two-hour figure was for a standard database and that later runs took about 20 minutes.",
+    "The objects, quote, versions and features are all supported by the post."
   ],
-  "applied": [],
+  "applied": [
+    "key points rewritten"
+  ],
   "rejected_edits": [],
   "prompt_version": 1,
   "llm": {
     "model": "claude-opus-5-5",
     "cached": false,
-    "cost_usd": 0.05745,
-    "posts_in_call": 2
+    "cost_usd": 0.044525,
+    "posts_in_call": 3
   }
 }

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:33.535Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -164,12 +164,12 @@ links:
     - change/bcapps/11714
     - change/bcapps/11906
     - change/bcapps/12868
+    - change/bcapps/13442
     - change/bcapps/9005
     - change/bcapps/9118
     - change/bcapps/9212
     - change/bcapps/9467
     - change/bcapps/9531
-    - change/bcapps/9860
 learn_toc_path:
   - Business functionality
   - Finance
@@ -263,12 +263,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11714 [Main]-Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment.](../../../../changes/bcapps/11714.md) (code change): "Cost adjustment for assembly items now uses unit-amount rounding precision"
 - [#11906 [Main]-Incident 51000001968459: Issue while creating any import purchase invoice](../../../../changes/bcapps/11906.md) (code change): "Custom Duty is now included in inventory cost for import invoices"
 - [#12868 [29x]-Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment](../../../../changes/bcapps/12868.md) (code change): "rounding precision issue in the Adjust Cost process that was creating unexpected variance"
+- [#13442 [SCM] Post Inventory Cost to G/L: stop using marks, add clean-up for Post Value Entry to G/L](../../../../changes/bcapps/13442.md) (code change): "Post Inventory Cost to G/L: stop using marks, add clean-up"
 - [#9005 (Bug 641089) Guard Item Ledger/Value Entry No. allocation in Item Jnl.-Post Line with CommitBehavior::Ignore](../../../../changes/bcapps/9005.md) (code change): "Item journal posting now prevents duplicate-key errors in concurrent scenarios"
 - [#9118 Bugs/master GitHub event batch 1745](../../../../changes/bcapps/9118.md) (code change): "Item Jnl.-Post Line changed in W1, APAC, CH, ES, IT and RU"
 - [#9212 Bug 629779: [Inventory] Show a single Export/Import item data action pair on Cost Adjustment and Item Card](../../../../changes/bcapps/9212.md) (code change): "Cost Adjustment and Item Card pages now show a single"
 - [#9467 [Extensibility Request] issue 30346: make InsertPostValueEntryToGL public in Item Jnl.-Post Line](../../../../changes/bcapps/9467.md) (code change): "reuse the standard General Ledger posting logic for inventory variances"
 - [#9531 [Master]- Report 152 "Calculate Low Level Code" terminates with error: "Cannot add instance as another with key %1 has already been added." after upgrade to v28.1](../../../../changes/bcapps/9531.md) (code change): "Report 152 "Calculate Low Level Code" terminates with error"
-- [#9860 [Bug]: [DE] XRechnung/ZUGFeRD - Item Charge lines exported without a valid unit of measure code (BR-CL-23 / BR-23 on BT-130)](../../../../changes/bcapps/9860.md) (code change): "Item charge lines are now correctly exported as allowances or charges in XRechnung and ZUGFeRD documents"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../../../../posts/thedynamicsexplorer-com/10326.md) (community post): "Item charges can be assigned to the original sales shipment, creating value entries"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../../../posts/thedynamicsexplorer-com/37371.md) (community post): "Changing standard cost directly on an item card has two critical side effects"
 - [Business Central 2026 release wave 1 (BC28): Experience improved usability in manufacturing](../../../../posts/yzhums-com/72006.md) (community post): "Capacity and overhead postings use the Inventory Posting Setup for the production location"

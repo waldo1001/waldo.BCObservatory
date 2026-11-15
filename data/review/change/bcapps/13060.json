@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/13060",
+  "input_hash": "4f3039858f99f810ad7b1fed328033694007426887b007871f07aeb4277d8156",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-15T00:48:15.690Z",
+  "issues": [
+    "SaveDocumentValues already existed and was only made public, not added as a new method."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027269,
+    "changes_in_call": 6
+  }
+}

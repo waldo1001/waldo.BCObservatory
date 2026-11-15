@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,6 @@ links:
   changes:
     - change/bcapps/12322
     - change/bcapps/13104
-    - change/bcapps/13428
     - change/bcapps/13429
 learn_toc_path:
   - Business functionality
@@ -139,7 +138,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12322 [QM] Destination bin code is now visible and usable for the user](../../../../changes/bcapps/12322.md) (code change): "destination bin code is now visible and usable for the user"
 - [#13104 update tests and enable them](../../../../changes/bcapps/13104.md) (code change): "Quality Result Condition Mgmt. and the Qlty. Inspection Result table is also revised"
-- [#13428 [Quality Management] Keep Sample Size and Pass/Fail Quantity within Quantity (Base)](../../../../changes/bcapps/13428.md) (code change): "Quality Management inspections now enforce that Sample Size and Pass/Fail Quantity cannot exceed Quantity"
 - [#13429 [Quality Management] Receiving setup guide: don't offer the warehouse receipt Create trigger](../../../../changes/bcapps/13429.md) (code change): "The Receiving setup guide now prevents creating Quality Management rules with unsupported warehouse receipt triggers"
 - [Introducing: Quality Management (2026 release wave 1)](../../../../videos/m8-7-JKq4dc.md) (video): "configuration; quality templates; sampling; evaluation sequence"
 

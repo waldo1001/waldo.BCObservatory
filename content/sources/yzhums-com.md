@@ -2,7 +2,7 @@
 id: source/yzhums-com
 type: source
 title: Dynamics 365 Lab - Yun Zhu
-summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 399 posts in the knowledge base, 2025-04-28 to 2026-11-12, mostly about development, administration, platform."
+summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 400 posts in the knowledge base, 2025-04-28 to 2026-11-13, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T00:13:31.718Z"
+  at: "2026-11-15T00:17:15.357Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8400ef5518b98486e18d53c5113ef27f54006011a51988217e27830602969381
+  input_hash: abaed67b045149c779f6a49dfc8bfbec83c4b61f3e174aab59effd32209aeffc
 evidence:
   - kind: blog
     url: https://yzhums.com
@@ -432,6 +432,7 @@ links:
     - post/yzhums-com/77267
     - post/yzhums-com/77263
     - post/yzhums-com/77184
+    - post/yzhums-com/77363
   guidelines: []
 source_id: yzhums-com
 kind: blog
@@ -439,21 +440,21 @@ url: https://yzhums.com
 author: Yun Zhu
 mvp: true
 full_text: false
-item_count: 399
+item_count: 400
 footprint:
   systems:
     - id: development
       weight: 285
     - id: administration
-      weight: 211
+      weight: 210
     - id: platform
       weight: 201
     - id: sales
       weight: 89
     - id: reporting
-      weight: 77
+      weight: 76
     - id: integration
-      weight: 74
+      weight: 75
   topics:
     - id: al development
       weight: 66
@@ -502,12 +503,12 @@ footprint:
       weight: 5
   features: []
 first_item: "2025-04-28"
-last_item: "2026-11-12"
+last_item: "2026-11-13"
 ---
 
 # Dynamics 365 Lab - Yun Zhu
 
-> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 399 posts in the knowledge base, 2025-04-28 to 2026-11-12, mostly about development, administration, platform.
+> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 400 posts in the knowledge base, 2025-04-28 to 2026-11-13, mostly about development, administration, platform.
 
 [https://yzhums.com](https://yzhums.com) · blog · tier community
 
@@ -516,11 +517,11 @@ last_item: "2026-11-12"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (285) | al development (66) | table Customer (14) |
-| administration (211) | bc28 (27) | table Sales Header (12) |
+| administration (210) | bc28 (27) | table Sales Header (12) |
 | platform (201) | bc27 (23) | page Customer Card (10) |
 | sales (89) | customization (23) | page Item Card (9) |
-| reporting (77) | bc29 (21) | page Item List (9) |
-| integration (74) | release wave 2 (20) | page Customer List (7) |
+| reporting (76) | bc29 (21) | page Item List (9) |
+| integration (75) | release wave 2 (20) | page Customer List (7) |
 |  | on-premises (18) | page Sales Order (7) |
 |  | admin center (16) | table Sales Line (7) |
 |  | al language (16) | page Vendor Card (6) |
@@ -538,10 +539,11 @@ Items per quarter, oldest first:
 - 2026-Q1: **************************************** 68
 - 2026-Q2: **************************************** 54
 - 2026-Q3: **************************************** 71
-- 2026-Q4: ****************************** 30
+- 2026-Q4: ******************************* 31
 
 ## Most recent
 
+- [Business Central 2026 release wave 2 (BC29.1): Use batch totals for payment journals](../posts/yzhums-com/77363.md) (2026-11-13)
 - [Business Central 2026 release wave 2 (BC29.1): Data mirroring to Microsoft Fabric (No APIs or OData Needed)](../posts/yzhums-com/77184.md) (2026-11-12)
 - [Business Central 2026 release wave 2 (BC29.1): Cross-environment Master Data Management](../posts/yzhums-com/77263.md) (2026-11-11)
 - [Dynamics 365 Business Central: New 28+ License Key for On-Premises (license key version update)](../posts/yzhums-com/77267.md) (2026-11-10)
@@ -561,6 +563,5 @@ Items per quarter, oldest first:
 - [Business Central 2026 release wave 2 (BC29): Cancelling a scheduled PTE update install (Next Major/Next Minor) in admin center](../posts/yzhums-com/76546.md) (2026-10-20)
 - [Dynamics 365 Business Central Blog Series: Working with Translations and Languages](../posts/yzhums-com/76355.md) (2026-10-19)
 - [Business Central 2026 release wave 2 (BC29): Design themes, headers, and footers for document reports with the updated Word add-in](../posts/yzhums-com/76756.md) (2026-10-16)
-- [Business Central 2026 release wave 2 (BC29): Design document reports with the updated Word add-in (New design components)](../posts/yzhums-com/76696.md) (2026-10-15)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,6 +75,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/13104
+    - change/bcapps/13428
 learn_toc_path:
   - Business functionality
   - Set up Business Central
@@ -134,6 +135,7 @@ This section explains how to deploy and configure the Quality Management extensi
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#13104 update tests and enable them](../../../../changes/bcapps/13104.md) (code change): "Application logic in Qlty. Result Condition Mgmt. reworked"
+- [#13428 [Quality Management] Keep Sample Size and Pass/Fail Quantity within Quantity (Base)](../../../../changes/bcapps/13428.md) (code change): "Quality Management inspections now enforce that Sample Size and Pass/Fail Quantity"
 
 ## Business Central pages and reports
 

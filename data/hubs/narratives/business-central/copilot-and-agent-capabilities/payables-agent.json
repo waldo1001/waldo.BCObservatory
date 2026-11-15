@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/copilot-and-agent-capabilities/payables-agent",
-  "input_hash": "1c32f1badb0c9fdbaf60ba8179632a54cf0bd98031642c2989e2a25c67771d44",
-  "summary": "Payables Agent is an autonomous AI agent in Business Central that processes vendor invoices and credit notes from email. This section answers questions about what it does, how to set it up, how to manage known senders, and how supervisors review its work.",
-  "overview": "The Payables Agent monitors a mailbox for vendor invoices and credit notes, usually sent as PDFs. It extracts the document data, identifies or creates vendors, suggests account classifications, matches purchase orders, and creates draft purchase invoices or credit memos. It does not post. An agent supervisor reviews the drafts before they are finalized.\n\nStart with the overview page and the FAQ to understand what the agent does. Then use the setup page to configure mailbox monitoring, mailbox folders, email review policies, user access, trial mode, and Copilot credit consumption. The known senders page covers how to control which vendors' emails are processed.\n\nFor daily use, the supervision page explains how to review agent work from the Tasks pane or directly on document pages. It covers Business Central agents in general, including the Payables Agent and the Sales Order Agent.",
+  "input_hash": "2bc37d692181ae55977d4b5700208e76ebdadaa22521c0eff8eeaf9c138528a3",
+  "summary": "Payables Agent is an autonomous AI agent in Business Central that processes vendor invoices and credit notes received by email. This section covers what it does, how to set it up, how to manage known senders, how supervisors review its work, and common questions.",
+  "overview": "The Payables Agent monitors a mailbox for vendor invoices and credit notes sent as PDFs. It extracts the document data, identifies or creates vendors, suggests account classifications, matches purchase orders, and creates draft purchase invoices or credit memos. It does not post anything. A supervisor reviews and approves the drafts before they are finalized.\n\nThe pages fit together in the order of use. Start with the overview and the FAQ to understand what the agent does. Then follow the setup page to configure mailbox monitoring, folders, processing rules, user access and Copilot credit use. The known senders page explains how to control which vendors' emails are processed. The supervision page covers day-to-day review of the agent's work.",
   "key_points": [
-    "The agent monitors email for vendor invoices and credit notes and extracts data from PDF documents.",
-    "It identifies and matches vendors, can create vendors, suggests account classifications, and matches purchase orders.",
-    "It creates draft purchase invoices and credit memos and does not post them. A supervisor reviews and approves them.",
-    "Setup covers email account monitoring, mailbox folders, email review policies, user access, and a trial mode.",
-    "Setup also covers managing Copilot credit consumption.",
-    "The known senders list lets you approve trusted vendors automatically, request review for other senders, or reject unwanted ones.",
-    "Senders can be added manually, and a policy can be assigned to each sender.",
-    "Supervisors use the Tasks pane or the data review bar on document pages to confirm and approve, give instructions, or stop a task."
+    "The agent monitors email for vendor invoices and credit notes and extracts data from PDF attachments.",
+    "It identifies and matches vendors, can create vendors, suggests account classifications and matches purchase orders.",
+    "It creates draft purchase invoices and credit memos only. It does not post, and a supervisor reviews them before finalization.",
+    "Setup covers trial mode, email account monitoring, mailbox folder configuration, email review policies, user access and Copilot credit consumption.",
+    "The known senders list lets you set a policy per sender: approve automatically, request review, or reject.",
+    "Senders can be added manually and each sender can have its own review policy.",
+    "Supervisors review work in the Tasks pane or directly on document pages, using the data review bar, field suggestions with confidence indicators and agent instructions.",
+    "The agent can request permissions, and the task timeline can be filtered. The supervision guidance also covers the Sales Order Agent."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-08T01:01:15.119Z",
+  "at": "2026-11-15T00:50:27.825Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.012615
+    "cost_usd": 0.012537
   }
 }

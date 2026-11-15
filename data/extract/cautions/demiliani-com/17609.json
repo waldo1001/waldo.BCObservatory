@@ -1,0 +1,35 @@
+{
+  "item_id": "blog/demiliani-com/17609",
+  "page_id": "post/demiliani-com/17609",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "warning",
+      "quote": "Prompt injection happens when text supplied by someone other than the developer changes what the model does.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Indirect injection is the dangerous one for business applications, because the attacker only needs to get a document into your workflow.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "Never ask the model for a decision the document could influence.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004656,
+    "posts_in_call": 4
+  }
+}

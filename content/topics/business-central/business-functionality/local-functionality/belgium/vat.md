@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:10.145Z"
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,6 +110,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/13315
     - change/bcapps/13481
     - change/bcapps/13484
 learn_toc_path:
@@ -186,6 +187,7 @@ Start with Belgian VAT or Belgian Intrastat Reporting for the overview, then use
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13315 [Main]Incorrect Country/Region Code in VAT Entry after applying Alternative Customer VAT Registration on a Sales Invoice in the Belgian version.](../../../../../changes/bcapps/13315.md) (code change): "VAT Entry country/region code is now correctly assigned when applying alternative customer VAT registration on Belgian sales invoices"
 - [#13481 [Master]-[BE] Intervat XML Report 11307 Does Not Include Non-Deductible VAT Amount Reflected in VAT Statement Preview](../../../../../changes/bcapps/13481.md) (code change): "Intervat XML report now correctly includes non-deductible VAT amounts"
 - [#13484 [29.X]-[BE] Intervat XML Report 11307 Does Not Include Non-Deductible VAT Amount Reflected in VAT Statement Preview](../../../../../changes/bcapps/13484.md) (code change): "Intervat XML Report 11307 now correctly includes non-deductible VAT amounts"
 

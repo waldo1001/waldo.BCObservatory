@@ -6,14 +6,39 @@
   "title": "Split the MS-STD configuration package into functional-area packages",
   "url": "https://github.com/microsoft/BCApps/pull/13720",
   "published_at": "2026-11-12T11:22:51Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
+    },
+    "fetched": {
+      "at": "2026-11-15T00:21:00.112Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-15T00:21:03.983Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003679
+    },
+    "linked": {
+      "at": "2026-11-15T00:21:04.094Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-15T00:21:04.133Z",
+      "path": "content/changes/bcapps/13720.md"
     }
   },
   "input_hash": "2601f6bc4b2cf10add9e1f19d004e2e57114fce3:c1",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13720,
@@ -33,6 +58,12 @@
     "community_contribution": true,
     "title_key": "split the ms std configuration package into functional area packages"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-14T04:17:42.196Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5d716c9bc1ed7f51a0dfc2bebec091a3d637b7994518ca10ec64a2c39a454902",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-15T00:48:09.860Z"
+  }
 }

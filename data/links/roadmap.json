@@ -31660,11 +31660,26 @@
     "video/-q8Gm7u7R2A": {
       "kind": "video",
       "key": "video/-q8Gm7u7R2A",
-      "hash": "c5e5ec1fd0bc30971fc896054c555fd317e75b3260a2c1a12113ee9c86df9290",
+      "hash": "dbb771c233322aa80c72bf501ed5ccd08c14379e17ddf13b28a3d144f6c7f244",
       "video_id": "-q8Gm7u7R2A",
       "title": "What's New: Business Central Integration with Dataverse (2024 release wave 1)",
-      "at": "2026-11-12T00:51:46.929Z",
-      "matches": []
+      "at": "2026-11-15T00:43:41.242Z",
+      "matches": [
+        {
+          "feature": 7,
+          "name": "Data Sync Overview",
+          "t": 135,
+          "roadmap_id": "573365",
+          "quote": "Data synchronization capability that replicates data changes when data is created, updated, or deleted"
+        },
+        {
+          "feature": 8,
+          "name": "Virtual Tables",
+          "t": 156,
+          "roadmap_id": "573365",
+          "quote": "Virtual table capability that enables inbound interaction from Dataverse into Business Central using a Business Central API"
+        }
+      ]
     },
     "video/-SGaVGOkiF0": {
       "kind": "video",
@@ -31728,10 +31743,10 @@
     "video/-uAvdZAWWwI": {
       "kind": "video",
       "key": "video/-uAvdZAWWwI",
-      "hash": "394d67f2fa1c409e320e1fe7da7b530ecc6d0f8e18314ed6cdad9966a2832c5a",
+      "hash": "7187cd9721e9d8b026c2ac2f38059e44c44195a96f11e445ed250f50f5256090",
       "video_id": "-uAvdZAWWwI",
       "title": "Transfer Environments",
-      "at": "2026-11-05T00:49:08.837Z",
+      "at": "2026-11-15T00:43:40.035Z",
       "matches": []
     },
     "video/-vCiEloR61U": {
@@ -31782,10 +31797,10 @@
     "video/-vdhfNMNZQk": {
       "kind": "video",
       "key": "video/-vdhfNMNZQk",
-      "hash": "fc91a0a1ed21f8f050d6b2a52c37a145b39cf7e8ff69572d9519bb87d0db72f9",
+      "hash": "e0a03c793cdd31f1887d414e0956ad4d77fe3789e1368b71af8bfba5b84dc032",
       "video_id": "-vdhfNMNZQk",
       "title": "Introducing: Composite Document Layouts (2026 release wave 2)",
-      "at": "2026-11-05T00:49:08.120Z",
+      "at": "2026-11-15T00:43:40.308Z",
       "matches": [
         {
           "feature": 0,
@@ -31841,50 +31856,36 @@
     "video/01GoAUnpBnw": {
       "kind": "video",
       "key": "video/01GoAUnpBnw",
-      "hash": "dd9ba43769106eda4bdee6ef83d0bebff04d030f68daadd152cd64fbbcd23434",
+      "hash": "b91416f4e74c75962e898ffaa6b6eed2e27c70eb14dcab14916be1876ed3ad78",
       "video_id": "01GoAUnpBnw",
       "title": "What's New: Migrate Record Links and Notes (2025 release wave 2)",
-      "at": "2026-11-12T00:51:46.175Z",
+      "at": "2026-11-15T00:43:40.239Z",
       "matches": []
     },
     "video/06vgkq2EXmA": {
       "kind": "video",
       "key": "video/06vgkq2EXmA",
-      "hash": "703cdd5284a357d2f5ebce00cde632316f3128ae04a916aeb01a8f5c49963054",
+      "hash": "2fc13d2016352ab837d79a0e2797b44d18f8988d41d71bd452ff75c550809342",
       "video_id": "06vgkq2EXmA",
       "title": "Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central",
-      "at": "2026-11-07T00:59:23.764Z",
+      "at": "2026-11-15T00:43:39.068Z",
       "matches": [
         {
           "feature": 0,
           "name": "Copilot Chat",
           "t": 10,
           "roadmap_id": "573362",
-          "quote": "Copilot Chat. An open chat interface in Business Central"
-        },
-        {
-          "feature": 2,
-          "name": "Intent Condensation",
-          "t": 311,
-          "roadmap_id": "573362",
-          "quote": "Intent Condensation takes the full conversation history and condenses it"
-        },
-        {
-          "feature": 3,
-          "name": "Find and Go Capability",
-          "t": 371,
-          "roadmap_id": "573362",
-          "quote": "Find and Go Capability queries the database to find relevant records"
+          "quote": "An open chat interface in Business Central that allows users to look up documentation"
         }
       ]
     },
     "video/07G7aC14Y_w": {
       "kind": "video",
       "key": "video/07G7aC14Y_w",
-      "hash": "0e83dd798adf79b978b1619c388857e6ab2a77082a287e3d74dbe20c5882b933",
+      "hash": "6ffab374fa16452e4ef9400f9ffac524c2fe857ee8924315d29ba36ad9e5cb62",
       "video_id": "07G7aC14Y_w",
       "title": "What's new in E-Documents: Overview (2026 release wave 2)",
-      "at": "2026-11-12T00:51:46.815Z",
+      "at": "2026-11-15T00:43:42.123Z",
       "matches": [
         {
           "feature": 0,
@@ -31912,14 +31913,14 @@
           "name": "Order response messaging",
           "t": 91,
           "roadmap_id": "573305",
-          "quote": "Seller can send back an order response (accepted or rejected) to the buyer"
+          "quote": "Seller can send back an order response accepted or rejected to the buyer"
         },
         {
           "feature": 4,
           "name": "Remittance advice EDI document",
           "t": 104,
           "roadmap_id": "573305",
-          "quote": "When posting a purchase invoice, the buyer can send a remittance advice file to the seller"
+          "quote": "Remittance advice file to the seller, enabling payment reporting through the e-documents framework"
         },
         {
           "feature": 5,
@@ -31954,7 +31955,7 @@
           "name": "PPPLE format for EDI",
           "t": 143,
           "roadmap_id": "573305",
-          "quote": "Use of PPPLE (people) format as the underlying technology for EDI exchanges, leveraging existing e-documents infrastructure"
+          "quote": "Use of PPPLE format as the underlying technology for EDI exchanges, leveraging existing e-documents infrastructure"
         },
         {
           "feature": 10,
@@ -31982,11 +31983,19 @@
     "video/0h8QBNmeORQ": {
       "kind": "video",
       "key": "video/0h8QBNmeORQ",
-      "hash": "91a574140e6d7783d6d97b59953cd836eb1366f22b17399a1b8b32e76ac14d93",
+      "hash": "ac15fa6f45037e400d8b9926d1ed24c307cfe639a1751d37b004b3585e0d5532",
       "video_id": "0h8QBNmeORQ",
       "title": "Microsoft Sizzle: Business Central Agents In Action",
-      "at": "2026-11-12T00:51:44.784Z",
-      "matches": []
+      "at": "2026-11-15T00:43:44.725Z",
+      "matches": [
+        {
+          "feature": 1,
+          "name": "Payables Agent",
+          "t": 37,
+          "roadmap_id": "573380",
+          "quote": "Payables Agent. Reads vendor invoices, classifies invoice lines"
+        }
+      ]
     },
     "video/0qt0Zy9ZsRo": {
       "kind": "video",
@@ -32029,31 +32038,17 @@
     "video/0WAOtNaKjws": {
       "kind": "video",
       "key": "video/0WAOtNaKjws",
-      "hash": "3cbef2e0e2a12bf2d910ac2af4833ab87a756b7c91e9a1675a4b99f8158aa4ab",
+      "hash": "7b84cb59744f5d3c6148fdc33098290de8452cc68aba6f565c6c6346720e5785",
       "video_id": "0WAOtNaKjws",
       "title": "What's New: Enhanced MCP Server (2026 release wave 1)",
-      "at": "2026-11-12T00:51:45.087Z",
+      "at": "2026-11-15T00:43:43.870Z",
       "matches": [
         {
-          "feature": 2,
-          "name": "Support for Multiple MCP Hosts",
-          "t": 202,
+          "feature": 5,
+          "name": "MCP Resources Support",
+          "t": 443,
           "roadmap_id": "573312",
-          "quote": "Business Central MCP server now supports other MCP hosts beyond Microsoft Copilot Studio"
-        },
-        {
-          "feature": 3,
-          "name": "Connection String Setup",
-          "t": 269,
-          "roadmap_id": "573348",
-          "quote": "New connection string feature under advanced settings that provides exact configuration needed to connect MCP clients"
-        },
-        {
-          "feature": 4,
-          "name": "MCP Configuration Telemetry",
-          "t": 322,
-          "roadmap_id": "573349",
-          "quote": "All MCP configuration changes are logged to Microsoft audit logs as auditable events"
+          "quote": "Business Central MCP server now supports the MCP resources protocol feature"
         },
         {
           "feature": 5,
@@ -32061,6 +32056,13 @@
           "t": 443,
           "roadmap_id": "576789",
           "quote": "Business Central MCP server now supports the MCP resources protocol feature"
+        },
+        {
+          "feature": 6,
+          "name": "Embedded Resources",
+          "t": 477,
+          "roadmap_id": "573312",
+          "quote": "MCP server returns large data sets as embedded file references instead of text"
         }
       ]
     },
@@ -32076,52 +32078,29 @@
     "video/1ft4o9lQzsU": {
       "kind": "video",
       "key": "video/1ft4o9lQzsU",
-      "hash": "9020a35baac8297af1e0d132d7ef36a1059f0c871497544bf3ce760860c0cdff",
+      "hash": "80b6c98ffc69990eddf20e8295042a0c45df4b306dffbae493dca4efca4385e5",
       "video_id": "1ft4o9lQzsU",
       "title": "20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting",
-      "at": "2026-11-12T00:51:51.028Z",
+      "at": "2026-11-15T00:43:48.463Z",
       "matches": []
     },
     "video/1ht5nxubZ9c": {
       "kind": "video",
       "key": "video/1ht5nxubZ9c",
-      "hash": "b06955acfb44c93f4878134667390f94abc809a6e30bd55796297795071b4fb1",
+      "hash": "ef125786cb7f61575f24a7a3ce1f9b1bb9c028bd8bdeb299c87ee2790902d03e",
       "video_id": "1ht5nxubZ9c",
       "title": "Sales Order Agent - Working with a Personal or Shared Folder (2026)",
-      "at": "2026-11-07T00:59:29.643Z",
-      "matches": [
-        {
-          "feature": 0,
-          "name": "Sales Order Agent folder selection",
-          "t": 27,
-          "roadmap_id": "578065",
-          "quote": "Sales order agent can be configured to monitor a specific folder"
-        },
-        {
-          "feature": 3,
-          "name": "Sales Order Agent shared mailbox support",
-          "t": 96,
-          "roadmap_id": "578065",
-          "quote": "Folder selection for the sales order agent is supported for shared mailboxes"
-        }
-      ]
+      "at": "2026-11-15T00:43:45.671Z",
+      "matches": []
     },
     "video/1IIlArcHpOY": {
       "kind": "video",
       "key": "video/1IIlArcHpOY",
-      "hash": "1c04462aea04a343387e1785a6e277b17d50306cdf1837db17b8136a9ee7795b",
+      "hash": "d63495e72a7527c57fbb240771e3c81a722a62de661bd23844f8088c6771d127",
       "video_id": "1IIlArcHpOY",
       "title": "What's New: Working with Instructions for Agents in Business Central",
-      "at": "2026-11-12T00:51:52.975Z",
-      "matches": [
-        {
-          "feature": 3,
-          "name": "Agent Review Experience",
-          "t": 650,
-          "roadmap_id": "573366",
-          "quote": "Agent Review Experience. A user interface experience where users can review agent-filled fields"
-        }
-      ]
+      "at": "2026-11-15T00:43:49.243Z",
+      "matches": []
     },
     "video/1OiiA7SgqBY": {
       "kind": "video",
@@ -32135,10 +32114,10 @@
     "video/1QuV_vkbNVU": {
       "kind": "video",
       "key": "video/1QuV_vkbNVU",
-      "hash": "109d9388302b0899bcbb9e7b9c5c0009cbb798209eae05d64d76c4ab4a32b8c7",
+      "hash": "64b8826245fcabb54652d344ada767d634308253e24dc97246ce5af428fa93c4",
       "video_id": "1QuV_vkbNVU",
       "title": "Introducing Spreadsheets for Business Central",
-      "at": "2026-11-12T00:51:49.901Z",
+      "at": "2026-11-15T00:43:46.500Z",
       "matches": []
     },
     "video/1ugAYeEZLaU": {
@@ -32153,11 +32132,18 @@
     "video/1x3QyBX3swg": {
       "kind": "video",
       "key": "video/1x3QyBX3swg",
-      "hash": "9a1b56a145bebc41208033ffbf20544237b419de0f530e6b6076ad3a3d6e1352",
+      "hash": "a139808ee668f539ae169fd5cb8b68cccfdf790658ddcaf37f11928ac2c90428",
       "video_id": "1x3QyBX3swg",
       "title": "Microsoft presents: Index management",
-      "at": "2026-11-12T00:51:53.038Z",
+      "at": "2026-11-15T00:43:49.327Z",
       "matches": [
+        {
+          "feature": 0,
+          "name": "Index Management Page",
+          "t": 124,
+          "roadmap_id": "573316",
+          "quote": "view and manage indexes on tables, showing index key names"
+        },
         {
           "feature": 1,
           "name": "Enable/Disable Indexes",
@@ -32166,18 +32152,25 @@
           "quote": "Users can disable indexes immediately and enable them on-demand"
         },
         {
+          "feature": 2,
+          "name": "Per-Company Index Management",
+          "t": 353,
+          "roadmap_id": "573314",
+          "quote": "Indexes can be defined with enable false in AL"
+        },
+        {
           "feature": 18,
           "name": "Extension fields merging to base tables in version 29",
           "t": 1779,
           "roadmap_id": "573315",
-          "quote": "allows creating keys on extension fields and improves runtime operations"
+          "quote": "extension fields will be merged back into the base table"
         },
         {
           "feature": 19,
           "name": "Index management upgrade performance impact",
           "t": 1887,
           "roadmap_id": "573332",
-          "quote": "Runtime operations will be faster with merged extension fields. Inserts reduce from two SQL inserts to one"
+          "quote": "Runtime operations will be faster with merged extension fields"
         }
       ]
     },
@@ -32202,97 +32195,54 @@
     "video/205F8ljmInU": {
       "kind": "video",
       "key": "video/205F8ljmInU",
-      "hash": "c2d7e77e193a72dcb5c61344aba06e972a35e9bb0af11adc50e165156d336994",
+      "hash": "eebfcc14978459cfaeb1e1ad5317899ea54893951d6350872955d4f1633ee543",
       "video_id": "205F8ljmInU",
       "title": "What's New: The Danish Bookkeeping Act (2023 release wave 2)",
-      "at": "2026-11-12T00:51:51.291Z",
+      "at": "2026-11-15T00:43:51.258Z",
       "matches": []
     },
     "video/22duXC6j_No": {
       "kind": "video",
       "key": "video/22duXC6j_No",
-      "hash": "2cfdc10544af7efc271f3dc13279365ea711f37aef1b6d8798adcebe450da73d",
+      "hash": "89ce2017e289590b35b54970f58ad43a51b22585987864d8b7dc649a67542530",
       "video_id": "22duXC6j_No",
       "title": "Manage all your Apps And Updates in Admin Center for Business Central",
-      "at": "2026-11-06T00:55:31.180Z",
+      "at": "2026-11-15T00:43:50.667Z",
       "matches": [
-        {
-          "feature": 3,
-          "name": "App installation from Admin Center",
-          "t": 389,
-          "roadmap_id": "576815",
-          "quote": "Users can install new apps directly from Admin Center without going to extension management"
-        },
-        {
-          "feature": 2,
-          "name": "Installation scheduling options",
-          "t": 400,
-          "roadmap_id": "576815",
-          "quote": "Users can schedule app installations with multiple timing options: right now, next update window"
-        },
         {
           "feature": 5,
           "name": "Uninstall apps from Admin Center",
           "t": 375,
           "roadmap_id": "576815",
-          "quote": "Users can uninstall both PTE and regular apps directly from the Admin Center interface"
+          "quote": "Users can uninstall both PTE and regular apps directly from the Admin Center interface."
         }
       ]
     },
     "video/2430rfEywuI": {
       "kind": "video",
       "key": "video/2430rfEywuI",
-      "hash": "60c7bfc0b3253c34cdd7b035a9c724bbcb4d7d7423b32575f2f8ac67bfc24ee8",
+      "hash": "dedfc8a8dd8d97b766e170c765b799cd3eacb0dee89f3ec857db8fba62b16bfa",
       "video_id": "2430rfEywuI",
       "title": "GP Assessment Tool - Optimize Your Migration to Dynamics 365 Business Central (2024)",
-      "at": "2026-11-12T00:51:55.369Z",
+      "at": "2026-11-15T00:43:51.582Z",
       "matches": []
     },
     "video/2isrH3RcSK8": {
       "kind": "video",
       "key": "video/2isrH3RcSK8",
-      "hash": "94f39ec4032be69391b461c2c5167ae517e0827a992e4b8a8a95bb66a097e870",
+      "hash": "c00f39cde191e46a619d9171153f30832b530e536abdea1b700e689a99e0c31f",
       "video_id": "2isrH3RcSK8",
       "title": "Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening",
-      "at": "2026-11-12T00:51:58.652Z",
-      "matches": [
-        {
-          "feature": 1,
-          "name": "Copilot Chat for data inquiries",
-          "t": 207,
-          "roadmap_id": "573362",
-          "quote": "Chat feature that helps users query data by generating analysis views"
-        },
-        {
-          "feature": 19,
-          "name": "Word reporting conditional formatting",
-          "t": 937,
-          "roadmap_id": "573328",
-          "quote": "Word document reports now support conditional formatting"
-        },
-        {
-          "feature": 37,
-          "name": "Managed AI resources private preview",
-          "t": 1844,
-          "roadmap_id": "577820",
-          "quote": "ISVs and solution providers can use Microsoft-managed AI resources"
-        },
-        {
-          "feature": 42,
-          "name": "Page scripting in pipelines",
-          "t": 2176,
-          "roadmap_id": "573384",
-          "quote": "Page scripting tool now supports running recorded user interface tests in CI/CD pipelines"
-        }
-      ]
+      "at": "2026-11-15T00:43:56.500Z",
+      "matches": []
     },
     "video/2N2NhNH7dsk": {
       "kind": "video",
       "key": "video/2N2NhNH7dsk",
-      "hash": "4b5d14fb3910a17ac7015602a87987c423fd8484a9c088f6560ccf716e277a57",
+      "hash": "909245c324bc87dd863ffe0f1d7bc05e271c3ae794bedb216f06c0ac54ada7b4",
       "video_id": "2N2NhNH7dsk",
       "title": "What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)",
-      "at": "2026-11-12T00:51:54.862Z",
+      "at": "2026-11-15T00:43:52.459Z",
       "matches": [
         {
           "feature": 0,
@@ -32415,10 +32365,10 @@
     "video/2Zz55J8rt8I": {
       "kind": "video",
       "key": "video/2Zz55J8rt8I",
-      "hash": "5c92babc84151b7fdf54681766cc626d8259cd7fde5d9fc16af35c7214dc1316",
+      "hash": "80a80ee56caaf9ffa222c5a8be17b6044136900e3f96d3997af9cdbbc7315e63",
       "video_id": "2Zz55J8rt8I",
       "title": "Use Teaching Tips to Educate and Guide Users",
-      "at": "2026-11-06T00:55:37.135Z",
+      "at": "2026-11-15T00:43:55.580Z",
       "matches": []
     },
     "video/3jr6gUuGem4": {

@@ -2,7 +2,7 @@
 id: post/freddysblog/https-freddysblog-com-2026-11-10-human-vs-ai--4beea4bfd7
 type: post
 title: “Human” vs. AI
-summary: This post maps human intelligence, learning, and workplace practices to AI capabilities and implementation patterns, drawing parallels between employee onboarding and AI harness setup. It argues that effective AI use requires proper training, experience documentation, defined processes, tools, and governance - not just raw model intelligence.
+summary: An opinion piece that compares how human developers are hired, trained and onboarded with how AI coding agents are set up, using AL and Business Central partner work as the context. It argues that good results come from training, project context files, a harness with written rules, tools such as MCP, skills and verification, not from simply picking the largest model.
 tier: community
 language: en
 tags:
@@ -16,16 +16,16 @@ tags:
   - devops
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-15T00:47:29.654Z"
   flags: []
 generated:
-  at: "2026-11-15T00:19:37.142Z"
+  at: "2026-11-15T00:17:15.357Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 98b1fbcd5f99de016118079bc8c20d21e415f63c978de6d98abbeaec1ba1cd55
+  input_hash: 2a108d9a1c02a6204649e55033227576f59b429ec7f3ff67fc27ec398dfd4288
 evidence:
   - kind: blog
     url: https://freddysblog.com/2026/11/10/human-vs-ai/
@@ -56,7 +56,6 @@ code_objects_mentioned: []
 systems:
   - development
   - platform
-  - copilot
 versions_mentioned: []
 preview:
   embeddable: true
@@ -65,23 +64,24 @@ preview:
   image_alt: null
   image_w: null
   image_h: null
-  site_name: null
-  favicon: null
-  probed_at: "2026-11-09T00:38:58.865Z"
+  site_name: Freddys blog
+  favicon: https://freddysblog.com/assets/images/site/favicon.png
+  probed_at: "2026-11-15T00:42:41.587Z"
 ---
 
 # “Human” vs. AI
 
-[Read the post](https://freddysblog.com/2026/11/10/human-vs-ai/) · Freddys blog (Freddy Kristiansen) · 2026-11-10 · 2372 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://freddysblog.com/2026/11/10/human-vs-ai/) · Freddys blog (Freddy Kristiansen) · 2026-11-10 · 2372 words · tier community · reviewed (checked by Opus)
 
-> This post maps human intelligence, learning, and workplace practices to AI capabilities and implementation patterns, drawing parallels between employee onboarding and AI harness setup. It argues that effective AI use requires proper training, experience documentation, defined processes, tools, and governance - not just raw model intelligence.
+> An opinion piece that compares how human developers are hired, trained and onboarded with how AI coding agents are set up, using AL and Business Central partner work as the context. It argues that good results come from training, project context files, a harness with written rules, tools such as MCP, skills and verification, not from simply picking the largest model.
 
 ## Key points
 
-- AI model parameters and training correspond to human intelligence and education; larger models don't automatically solve all tasks efficiently
-- Project experience and processes should be documented in files like AGENTS.md or CLAUDE.md to give AI the context needed for better decisions
-- The AI harness (tools, rules, processes) parallels workplace policies and enables AI to work with appropriate autonomy and verification
-- Specialized post-training for domain knowledge is often more effective and cost-efficient than using frontier models for all tasks
+- The author compares model parameters to intelligence and training plus reasoning to education, and notes that larger models can overthink and cost more than a task needs
+- The author speculates that a model post-trained on AL and Business Central business processes could be better and cheaper than a general frontier model
+- Project experience should be recorded in files like AGENTS.md or CLAUDE.md so the AI does not waste tokens or make mistakes from missing context
+- The harness, tools such as MCP, and skills play the roles of workplace rules, a developer's toolset and routine know-how. Partners that already use DevOps, BCQuality or AL-Go have a head start
+- Agentic loops with sub-agents need verification such as compiling and tests, and prompts should state what done looks like
 
 ## Context
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -63,7 +63,7 @@ links:
     - video/lNASlydCidI
     - video/qP0id91bIlA
   posts:
-    - post/freddysblog/https-freddysblog-com-2026-11-07-directions-emea-2026--4bd603011b
+    - post/demiliani-com/17609
   guidelines: []
 learn_toc_path:
   - Responsible AI
@@ -116,7 +116,7 @@ Start with the note that matches the feature you build or use. Partners building
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Directions EMEA 2026 Reflections](../../posts/freddysblog/https-freddysblog-com-2026-11-07-directions-emea-2026--4bd603011b.md) (community post): "developers stay responsible for AI-written AL and need ways to verify it"
+- [AI and prompt injections: the invoice that approves itself.](../../posts/demiliani-com/17609.md) (community post): "This post demonstrates how prompt injection attacks can exploit AI document processing"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "content safety; data privacy; billing; responsible ai"
 - [Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot](../../videos/fgWFOMPJd6U.md) (video): "Harm testing for AI responses; Accuracy and grounding testing"
 - [What's New: AI Development Toolkit (2026 release wave 1)](../../videos/juUBVPfIp8A.md) (video): "Prompt injection protection; Copilot credit insights in evaluations"

@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/relationship-management
 type: topic
 title: Relationship management
-summary: Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing reports, and the Dynamics 365 Sales integration. It answers setup and how-to questions about tracking customers and prospects and their communication history.
+summary: Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing reports, and the Dynamics 365 Sales integration. It answers setup and how-to questions about tracking customers and prospects, grouping contacts for campaigns, and managing the sales pipeline.
 tier: official
 language: en
 system: crm
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:00:54.816Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f994bb8923f52b19554b1e17aefb65f70dc4c441d42c15d57a9d0d6672e77d9e
+  input_hash: b0c30d4719645e2a55bd1933cc59aaa45d371d05d73f0867c3e60ba79203ba2d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/marketing-add-contact-segment
@@ -391,28 +391,28 @@ narrative: generated
 
 # Relationship management
 
-> Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing reports, and the Dynamics 365 Sales integration. It answers setup and how-to questions about tracking customers and prospects and their communication history.
+> Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing reports, and the Dynamics 365 Sales integration. It answers setup and how-to questions about tracking customers and prospects, grouping contacts for campaigns, and managing the sales pipeline.
 
-Path: [Business functionality](../business-functionality.md) > Relationship management · tier official · system crm · narrative reviewed (checked by Opus)
+Path: [Business functionality](../business-functionality.md) > Relationship management · tier official · system crm · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Relationship management helps teams manage sales efforts with complete contact information, communication tracking, and lead-to-opportunity handling across customer segments. It also supports marketing campaign planning and integration with Dynamics 365 Sales.
+Relationship management helps sales and marketing staff keep complete contact information, track communication, and move leads through to opportunities. The section starts with an introduction to the features and a setup page for marketing and contact management.
 
-Start with the setup page, "Set Up Marketing and Contact Management". It covers contact synchronization with customers, vendors, and bank accounts, number series, field inheritance, duplicate detection, and automatic interaction recording. The overview page, "Manage Business Relationships and Marketing", gives the big picture.
+The subtopics follow the working flow. Manage contacts covers creating and linking contacts, profile questionnaires, duplicates, and Outlook sync. Manage segments groups contacts for campaigns. Manage interactions records communication history. Manage sales opportunities handles sales cycles, stages, quotes, and orders. Analytics offers reports on all of these, and the Dynamics 365 Sales subtopic covers the integration with Dataverse.
 
-The subtopics follow the working flow. Manage contacts creates and classifies contacts. Manage segments groups them for campaigns. Manage interactions records communication. Manage sales opportunities moves deals through sales cycles. The analytics pages describe the reports, and the Dynamics 365 Sales pages cover synchronization with Dataverse.
+Start with the setup page to configure number series, contact synchronization, field inheritance, duplicate detection, and automatic interaction recording. Then move to the subtopic that matches your task.
 
 ## Key points
 
-- Setup covers contact synchronization with customers, vendors, and bank accounts, plus business relation codes.
-- Contact persons can inherit fields from their contact company; duplicate contacts are detected automatically and can be merged.
-- Number series are set up for contacts and opportunities.
-- Contacts can be classified with profile questionnaires and saved to Outlook.
-- Segments group contacts for targeted campaigns such as direct mail, and interactions can be logged for a whole segment.
-- Interactions use templates and attachments, and can be recorded automatically for documents, emails, and phone calls.
-- Sales opportunities follow sales cycles and stages, and can be closed or turned into quotes and orders.
-- Built-in reports cover contacts, campaigns, opportunities, sales cycles, segments, and questionnaires, and they print labels, cover sheets, and merged letters.
+- Features include contact management, interaction tracking, segment creation, sales opportunity management, marketing campaign planning, and Dynamics 365 Sales integration.
+- Setup covers contact synchronization with customers, vendors, and bank accounts, and business relation codes.
+- Setup also covers number series for contacts and opportunities, and field inheritance from company contacts to contact persons.
+- Automatic duplicate contact detection and automatic interaction recording are configured during setup.
+- Contacts can be classified with profile questionnaires, merged to remove duplicates, and synced to Outlook.
+- Segments group contacts for targeted campaigns such as direct mail, and allow logging interactions for the whole group.
+- Sales opportunities use sales cycles and stages and can be closed or turned into quotes and orders.
+- Built-in reports cover contacts, campaigns, opportunities, sales cycles, segments, and questionnaires, and can print labels, cover sheets, and merged letters.
 
 ## Subtopics
 

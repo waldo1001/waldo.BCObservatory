@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -118,10 +118,8 @@ links:
     - change/bcapps/12325
     - change/bcapps/12463
     - change/bcapps/12557
-    - change/bcapps/13824
     - change/bcapps/8924
     - change/bcapps/9293
-    - change/bcquality/141
     - change/bcquality/159
 learn_toc_path:
   - Development
@@ -203,10 +201,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12325 [Expense tests] Re-enable reviewed APIs and consolidate Expense fixes](../../../../changes/bcapps/12325.md) (code change): "Clean test codeunit execution is turned on"
 - [#12463 Fix Email upgrade writing during no-transaction upgrade test](../../../../changes/bcapps/12463.md) (code change): "Email Installer no longer re-registers email tables based on allowed-table"
 - [#12557 Implement first-party app authentication for Microsoft Fabric Export](../../../../changes/bcapps/12557.md) (code change): "tests are extended"
-- [#13824 Implement namespace normalization for Fabric Data and Logging in setup pages and platform management](../../../../changes/bcapps/13824.md) (code change): "Added comprehensive tests validating lowercase normalization behavior"
 - [#8924 [QM] Fixed overflow runtime error](../../../../changes/bcapps/8924.md) (code change): "Adds a regression test in the miscellaneous QM tests codeunit"
 - [#9293 [Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)](../../../../changes/bcapps/9293.md) (code change): "Six new tests added covering the corrected behavior"
-- [#141 knowledge(testing): license-entitlement failures on posted tables in a SaaS test run are environmental](../../../../changes/bcquality/141.md) (code change): "Provides good and bad code samples showing the distinction"
 - [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../changes/bcquality/159.md) (code change): "AL testing patterns from an external BC testing expert's blog"
 - [AL EventLens 0.1.6: the handler lens, and a fix that needed fixing](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing--1510616044.md) (community post): "Handler lens shows test usage counts above handler functions such as MessageHandler, ConfirmHandler and PageHandler"
 - [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../../../../posts/gerardorenteria-blog/11565.md) (community post): "Testing enhancements enable HTTP request mocking with TestHttpRequestPolicy"

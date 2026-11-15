@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,6 +79,7 @@ links:
     - change/bcquality/228
     - change/bcquality/249
     - change/bcquality/251
+    - change/bcquality/273
     - change/bcquality/65
     - change/bcquality/95
 learn_toc_path:
@@ -151,6 +152,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../../../../../changes/bcquality/228.md) (code change): "paired good and bad code examples"
 - [#249 Route guard-dependent and/or conditions to the short-circuit article](../../../../../changes/bcquality/249.md) (code change): "AL performance review skill gains a targeted cue to worklist the boolean-operators-do-not-short-circuit article"
 - [#251 Clarify 20-character limit for assignable permission set names](../../../../../changes/bcquality/251.md) (code change): "Assignable permission sets have a 20-character name limit, not the general 30-character limit"
+- [#273 knowledge(style): SetFilter date operands as replacement values; product name via ProductName](../../../../../changes/bcquality/273.md) (code change): "SetFilter rule prevents date text parsing issues by requiring date operands"
 - [#65 Add data-modeling and appsource knowledge articles (MICROSOFT layer)](../../../../../changes/bcquality/65.md) (code change): "Seven remedial BCQuality knowledge articles added to the MICROSOFT layer covering data-modeling patterns, AppSource conventions, and styling best practices"
 - [#95 style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope](../../../../../changes/bcquality/95.md) (code change): "al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries"
 - [BC Code Intelligence: Your New VS Code AI Development Partner](../../../../../posts/jeremyvyska-com/1449.md) (community post): "help developers solve problems faster and follow best practices"

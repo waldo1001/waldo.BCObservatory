@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/manufacturing
 type: topic
 title: Manufacturing
-summary: Manufacturing in Business Central covers production orders from creation to completion, posting consumption, output, scrap and capacity, reversing transactions, and finished order costing. Subtopics cover manufacturing analytics and subcontracting. It answers how-to and which-report questions.
+summary: "Manufacturing in Business Central covers production orders and their lifecycle: creating orders, posting consumption, output, scrap and capacity, reversing transactions, and finished order costing. It also covers subcontracting and manufacturing analytics, and answers how-to and where-to-find questions."
 tier: official
 language: en
 system: manufacturing
 review:
-  state: reviewed
-  by: opus
-  at: "2026-11-13T01:01:15.094Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c1117b47abd2257705e5dd100a004a35c19f028abfd48861833ae3e75da27da2
+  input_hash: 49b7ae4c687b785098fdeb3c68952ced6c10739339e3ef6bf0ace3cee12d1fab
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-about-finished-production-order-costs
@@ -600,28 +600,28 @@ narrative: generated
 
 # Manufacturing
 
-> Manufacturing in Business Central covers production orders from creation to completion, posting consumption, output, scrap and capacity, reversing transactions, and finished order costing. Subtopics cover manufacturing analytics and subcontracting. It answers how-to and which-report questions.
+> Manufacturing in Business Central covers production orders and their lifecycle: creating orders, posting consumption, output, scrap and capacity, reversing transactions, and finished order costing. It also covers subcontracting and manufacturing analytics, and answers how-to and where-to-find questions.
 
-Path: [Business functionality](../business-functionality.md) > Manufacturing · tier official · system manufacturing · narrative reviewed (checked by Opus)
+Path: [Business functionality](../business-functionality.md) > Manufacturing · tier official · system manufacturing · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Manufacturing in Business Central plans, schedules, runs and analyzes production. It uses production BOMs, routings, work and machine centers, and production orders to coordinate material consumption, operations and finished goods. The overview page notes the Premium experience.
+Manufacturing describes how production is planned, scheduled, executed and analyzed using production BOMs, routings, work centers, machine centers and production orders. The overview page is marked as Premium experience and is the best starting point.
 
-The own pages follow the life of a production order. You create the order, then record consumption, output, run times and scrap, either in batch journals or in the Production Journal for one released order. Capacity journals record work or machine center time outside production orders. Mistakes are handled by reversing transactions, and cost pages explain how finished orders are adjusted.
+The own pages follow the life of a production order. You create the order from an item, family or sales order source, then record material consumption and output, either by flushing automatically or by posting journals by hand. Separate pages cover scrap, capacity posted outside production orders, reversing mistakes, and how finished order costs are adjusted.
 
-Start with the Manufacturing overview, then About production orders and Create production orders. Go to the subtopics for Subcontracting (vendor-performed operations) and Manufacturing analytics (reports, Power BI app, load views).
+Two subtopics go deeper. Subcontracting covers delegating operations to vendors. Manufacturing analytics covers the Power BI Manufacturing app, built-in reports and load versus capacity views.
 
 ## Key points
 
-- Production orders can use an item, family or sales order as source, with lines copied from existing orders and refreshed when requirements change.
-- Consumption can be flushed automatically or manually, and Batch post consumption can calculate component usage for production order lines.
-- Batch post production output and run times records output, setup and run time, scrap, stop codes and scrap codes for released orders.
-- The Production Journal combines consumption, output, scrap and operation time for a released production order, with a flushing method filter.
-- Capacity journals record work or machine center time outside production orders, such as maintenance, as capacity ledger entries.
-- Production order status must be Finished before cost adjustment reconciles materials, capacity, subcontracting and overhead with WIP and inventory.
-- Reversal covers consumption, output and subcontracting receipts, finishing without output, reopening finished orders and WIP write-off.
-- Subtopics: Manufacturing analytics (48 pages) and Subcontracting (5 pages).
+- Production orders are created with a source type (item, family or sales order), quantity and due dates; lines can be copied from existing orders and orders refreshed when requirements change.
+- Consumption and output can be flushed automatically or posted manually through batch posting journals or the Production Journal.
+- The Production Journal combines consumption, output, scrap and operation time for a released order, updating inventory, capacity, costs and progress.
+- Scrap is posted in the output journal with scrap quantities and reason codes to separate good output from losses.
+- Capacity journals record work center or machine center time outside production orders, such as maintenance.
+- Production order status must be finished before cost adjustment; the adjustment reconciles materials, capacity, subcontracting and overhead with WIP and inventory.
+- Transactions can be reversed, including consumption, output and subcontracting receipts; finished orders can be reopened and WIP written off.
+- Subcontracting (5 pages) and Manufacturing analytics (48 pages) are subtopics for vendor-performed operations and for reports and load views.
 
 ## Subtopics
 
@@ -676,7 +676,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9803 [master] Variant Code mandatory should not allow to refresh the production order with no variant code](../../../changes/bcapps/9803.md) (code change): "Variant Code mandatory should not allow to refresh the production order"
 - [#9967 [Main]-Production BOM Version certification does not check Variant Mandatory on lines](../../../changes/bcapps/9967.md) (code change): "Production BOM Version certification now validates that variant codes are populated"
 - [Reopen Finished Production Orders](../../../posts/olofsimren-com/3545.md) (community post): "Reopen Finished Production Orders. Business Central now allows users to reopen finished production orders"
-- [Shop Floor and Warehouse Mobile for Business Central](../../../posts/olofsimren-com/3981.md) (community post): "enables real-time data capture directly on shop floors with barcode scanning and task-focused pages"
+- [Shop Floor and Warehouse Mobile for Business Central](../../../posts/olofsimren-com/3981.md) (community post): "enables real-time data capture directly on shop floors and in warehouses"
 - [Business Central 2025 wave 1 (BC26): Experience improved usability in manufacturing](../../../posts/yzhums-com/63708.md) (community post): "improved usability in manufacturing with bulk status changes for production orders"
 - [Business Central 2026 release wave 1 (BC28): Add the Description 2 field to various pages to gain more insight (planning, routing, production order creation, and related processes)](../../../posts/yzhums-com/71239.md) (community post): "Description 2 field is now available for personalization on multiple pages in Business Central 2026"
 - [Business Central 2026 release wave 1 (BC28): Experience improved usability in manufacturing](../../../posts/yzhums-com/72006.md) (community post): "BC28 (2026 wave 1) improves manufacturing usability by enhancing serial-tracked item handling"

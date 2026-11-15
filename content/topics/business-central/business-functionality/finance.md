@@ -12,7 +12,7 @@ review:
   at: "2026-11-13T01:01:22.015Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -871,6 +871,7 @@ links:
     - change/bcapps/9311
     - change/bcapps/9341
     - change/bcapps/9391
+    - change/bcapps/9587
 learn_toc_path:
   - Business functionality
   - Finance
@@ -1505,6 +1506,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9311 Withholding Tax for Employee](../../../changes/bcapps/9311.md) (code change): "Withholding tax support for employee transactions has been added"
 - [#9341 [main][Change Request] Page 8901 - Add empty "layout" to the RoleCenter](../../../changes/bcapps/9341.md) (code change): "Empty layout section added to the Finance Manager Role Center"
 - [#9391 [Master] - Slice 616928: [Expense Management] [App part] Expense Managements Travel Requisitions 💸](../../../changes/bcapps/9391.md) (code change): "Expense Management adds travel requisition support: new API pages"
+- [#9587 Concurrent posting for General Ledger entries](../../../changes/bcapps/9587.md) (code change): "Concurrent posting support for General Ledger entries"
 - [New Application Ideas of Dynamics 365 Business Central (2026 APR)](../../../posts/gerardorenteria-blog/14595.md) (community post): "Ideas address both core functionality improvements and localization needs"
 - [Business Central 2026 release wave 1 (BC28.1): Expense Management module (Manage employee expenses)](../../../posts/yzhums-com/73165.md) (community post): "new native Expense Management module that enables employees to create, submit, and track expense reports"
 - [Introducing: Withholding Taxes (2026 release wave 1)](../../../videos/d4mYltz4Zwg.md) (video): "Withholding Tax Posting Groups Configuration; Vendor Withholding Tax Enablement"

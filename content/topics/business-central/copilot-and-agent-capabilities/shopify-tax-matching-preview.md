@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:02.098Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -53,7 +53,7 @@ links:
     - change/bcapps/12468
     - change/bcapps/12561
     - change/bcapps/13052
-    - change/bcapps/9430
+    - change/bcapps/9138
 learn_toc_path:
   - Copilot and agent capabilities
   - Shopify tax matching (preview)
@@ -111,7 +111,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12468 [Shopify] Clarify VAT Bus. Posting Group tooltip](../../../changes/bcapps/12468.md) (code change): "Shopify Tax Areas page tooltip now clarifies when the VAT business posting group applies"
 - [#12561 [Shopify] Preserve tax match after rate conflict](../../../changes/bcapps/12561.md) (code change): "Shopify order processing now preserves tax mappings and holds document creation"
 - [#13052 [Shopify] Upgrade tax matching to GPT-5.6 Ceres](../../../changes/bcapps/13052.md) (code change): "Shopify tax matching agent upgrades from GPT-4.1 to GPT-5.6 Ceres"
-- [#9430 Fix untrappable JSON error in E-Document ADI import (Bug 640122)](../../../changes/bcapps/9430.md) (code change): "E-Document matching assistance import now handles malformed Azure Document Intelligence responses"
+- [#9138 [Shopify] Add Belgium localization for company tax id mapping (Enterprise No.)](../../../changes/bcapps/9138.md) (code change): "mapping customer tax IDs to the Enterprise No. field"
 - [What's new: Shopify Tax Matching (preview) (2026 release wave 2)](../../../videos/5OZ0g5IgC8Q.md) (video): "Shopify tax matching (preview) AI capability; tax rate reconciliation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

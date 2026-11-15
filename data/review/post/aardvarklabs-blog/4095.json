@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/aardvarklabs-blog/4095",
+  "input_hash": "e372734e00e732a4635330e19e795ba50a5145767e47eea1c7d6edef6271ccd2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-15T00:47:30.781Z",
+  "issues": [
+    "Administration system is not supported; the post is about a developer runtime feature",
+    "Key point describing Help as help content goes beyond the post; reworded",
+    "Summary, objects, features and quote are supported"
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.038185,
+    "posts_in_call": 4
+  }
+}

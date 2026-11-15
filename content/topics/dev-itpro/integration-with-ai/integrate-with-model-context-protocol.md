@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol
 type: topic
 title: Integrate with Model Context Protocol
-summary: "Model Context Protocol (MCP) integration for Business Central: the Business Central MCP Server, its configuration, connecting it to hosts such as VS Code, Copilot Studio, GitHub Copilot CLI, Claude and ChatGPT, and the AL MCP Server for AL development tools. It answers setup, connection and tool-access questions."
+summary: "Model Context Protocol (MCP) integration for Business Central: the Business Central MCP Server, its configuration, connecting hosts (VS Code, Copilot Studio, Claude, ChatGPT, GitHub Copilot CLI), and the AL MCP Server for AL development tools. It answers setup, access control and client connection questions."
 tier: official
 language: en
 system: copilot
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:55:51.814Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 266608ffd89f540bd85753baf4dec541dc3dac686e02f1a42e12f51433b46faa
+  input_hash: 35ad536a7f6aaa2ae22587c1fb2c72bccea4acf7687469026f7bf6120f9ef801
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-mcp-server
@@ -130,28 +130,27 @@ narrative: generated
 
 # Integrate with Model Context Protocol
 
-> Model Context Protocol (MCP) integration for Business Central: the Business Central MCP Server, its configuration, connecting it to hosts such as VS Code, Copilot Studio, GitHub Copilot CLI, Claude and ChatGPT, and the AL MCP Server for AL development tools. It answers setup, connection and tool-access questions.
+> Model Context Protocol (MCP) integration for Business Central: the Business Central MCP Server, its configuration, connecting hosts (VS Code, Copilot Studio, Claude, ChatGPT, GitHub Copilot CLI), and the AL MCP Server for AL development tools. It answers setup, access control and client connection questions.
 
-Path: [Integration with AI](../integration-with-ai.md) > Integrate with Model Context Protocol · tier official · system copilot · narrative reviewed (checked by Opus)
+Path: [Integration with AI](../integration-with-ai.md) > Integrate with Model Context Protocol · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers two MCP servers. The Business Central MCP Server lets AI clients such as Copilot Studio and GitHub Copilot view and manage records, query data and run business processes through a standardized, secure interface. The AL MCP Server exposes AL development tools so any MCP-compatible agent can build, publish, compile and search symbols without Visual Studio Code.
+This area covers two MCP servers. The Business Central MCP Server lets AI clients work with Business Central data and business logic through the MCP standard, using API pages and queries. The AL MCP Server exposes AL development tools to any MCP-compatible agent, so builds and symbol searches do not need Visual Studio Code.
 
-Start with the Business Central MCP Server overview and setup page, then the configuration page, where administrators define which APIs agents can access and which operations (read, create, modify, delete, actions) are allowed. After that, pick the connection page for your host: Visual Studio Code, Copilot Studio, or non-Microsoft hosts that need Microsoft Entra ID app registration and manual client configuration.
+Start with the overview and setup page, then the configuration page, where administrators define which APIs agents can reach and which operations (read, create, modify, delete, actions) are allowed. After that, pick the connection page for your client: Visual Studio Code with GitHub Copilot, Copilot Studio agents (via the Business Central connector or the MCP server), or non-Microsoft hosts such as GitHub Copilot CLI, Claude and ChatGPT, which need a Microsoft Entra ID app registration and manual client configuration.
 
-The AL MCP Server page is separate and aimed at developers who want agents to work with AL code and tooling.
+Developers who want agents to build, compile and publish AL code should go to the AL MCP Server page.
 
 ## Key points
 
-- The Business Central MCP Server supports API Tools, Dynamic Tool Mode and Data Query Tools.
+- Business Central MCP Server supports API Tools, Dynamic Tool Mode and Data Query Tools, including read-only API access, record management and business process execution.
 - Administrators create configurations that define which APIs agents can access and which operations are permitted.
-- Operations include read, create, modify, delete and action operations through API pages and queries.
-- Non-Microsoft hosts (GitHub Copilot CLI, Claude, ChatGPT) need Entra ID app registration, redirect URI configuration and delegated permissions.
-- In VS Code, the server can be configured at user level or workspace level and used with GitHub Copilot in agent mode.
-- Copilot Studio agents can use the Business Central connector or the MCP server to find, create, update and delete records and call APIs.
-- The AL MCP Server provides tools al_build, al_compile, al_publish, al_downloadsymbols, al_symbolsearch and al_getdiagnostics.
-- Headerless connections and dynamic tool discovery are covered in the connection pages.
+- Non-Microsoft hosts (GitHub Copilot CLI, Claude, ChatGPT) connect using Entra ID app registration, redirect URI configuration and delegated permissions.
+- VS Code supports user-level or workspace-level MCP configuration, headerless connections and agent mode with GitHub Copilot.
+- Copilot Studio agents can use either the Business Central connector or the MCP server, with appropriate Business Central permissions.
+- Copilot Studio connector actions include find, create, update and delete records plus API actions; the MCP route offers dynamic tool discovery.
+- AL MCP Server tools: al_build, al_compile, al_publish, al_downloadsymbols, al_symbolsearch and al_getdiagnostics.
 
 ## Learn pages
 

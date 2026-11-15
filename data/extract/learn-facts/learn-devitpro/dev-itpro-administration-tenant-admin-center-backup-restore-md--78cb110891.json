@@ -1,42 +1,42 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-backup-restore.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore",
-  "title": "Restoring an environment in the admin center",
-  "blob": "06160bc2417e190ddefe70530967f5be50759e17",
+  "title": "Restore Business Central Environment Backups",
+  "blob": "59be90c4d2e98a1067648d849f762ac0ac7936fc",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "permission",
-      "text": "Delegated administrators and organization administrators with D365 BACKUP/RESTORE permission set assigned in the environment can restore."
+      "text": "Internal administrators and delegated administrators can restore environments; must have D365 BACKUP/RESTORE permission set assigned."
     },
     {
       "kind": "limit",
-      "text": "Only paid subscribers can restore environments. Maximum 10 restores per calendar month per environment and restore only to 28 days prior."
+      "text": "Restore requires paid Business Central subscription; maximum 10 restores per calendar month per environment."
     },
     {
       "kind": "limit",
-      "text": "Restored environment must stay within same Azure region and localization as original. Production restores to Production or Sandbox; Sandbox restores only to Sandbox."
+      "text": "Environments restore to within 28 days of current date; restores must stay in same Azure region and localization as original."
     },
     {
       "kind": "fact",
-      "text": "Restoration restores environment to the major/minor version it was on at restore point. Cannot restore to versions in grace or enforced update periods."
+      "text": "Production environments restore to production or sandbox; sandbox environments restore only to sandbox type."
     },
     {
       "kind": "limit",
-      "text": "Development extensions from Visual Studio Code are removed during sandbox restoration. Per-tenant extensions depending on them are also unavailable."
+      "text": "Restored environment uses the major/minor version from restore point; cannot restore to version in grace or enforced update period."
+    },
+    {
+      "kind": "limit",
+      "text": "Development extensions from Visual Studio Code are unavailable in restored sandbox; Marketplace apps receive latest available hotfix automatically."
+    },
+    {
+      "kind": "step",
+      "text": "Select Environments, open environment, select Restore, specify date/time, choose environment type, enter name, then select Restore."
     },
     {
       "kind": "fact",
-      "text": "Marketplace and Business Central apps automatically receive latest available hotfixes even if the hotfix post-dates the restore point."
-    },
-    {
-      "kind": "limit",
-      "text": "Microsoft Entra app registrations, status and permissions restore to their restore-point state. Previously authorized apps are not restored."
-    },
-    {
-      "kind": "limit",
-      "text": "Update window and Application Insights connection string from source environment at restore start time are retained on target, not restored to historical values."
+      "text": "Newly created environments require up to 30 minutes before backups initialize; backup issues can prevent restore."
     }
   ],
   "dropped": 0,
@@ -44,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00945,
-      "pages_in_call": 6
+      "cost_usd": 0.006128,
+      "pages_in_call": 8
     }
   ]
 }

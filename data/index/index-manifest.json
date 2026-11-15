@@ -1,17 +1,17 @@
 {
   "schema": "bcobs-index@1",
-  "pages": 30394,
+  "pages": 30414,
   "shards": [
     {
-      "file": "pages-hubs-9eccd58105a8.json",
+      "file": "pages-hubs-f6757c9dc5b5.json",
       "count": 1443,
-      "sha256": "9eccd58105a89e01276737c4cd6d6c59e0ae5f5e552e0cebc7f58711e7f933c3",
+      "sha256": "f6757c9dc5b5dd2eb5668cf4985beec0889d44d5c4584d9fa9ab14e8a5a3f622",
       "kind": "hubs"
     },
     {
-      "file": "pages-media-89591150af30.json",
-      "count": 3220,
-      "sha256": "89591150af3004a3b59791816f02c82ec4eef32e0078fa74d11bbb0a92292755",
+      "file": "pages-media-150379f8ea81.json",
+      "count": 3240,
+      "sha256": "150379f8ea814ac265d464e9a6b846e39135d894dd64c1ca604b8d9773bdef92",
       "kind": "media"
     },
     {
@@ -21,32 +21,32 @@
       "kind": "objects"
     },
     {
-      "file": "pages-objects-2-d9625014777f.json",
+      "file": "pages-objects-2-cd9afccc6ab5.json",
       "count": 11311,
-      "sha256": "d9625014777fa18dd9d687bfe23aaaa98261527c4f7043c3a8f97525fdeab548",
+      "sha256": "cd9afccc6ab5a88be33d4cc9898abd02c15d0bc8a7009e3be6e689957096d6ca",
       "kind": "objects"
     }
   ],
   "learn": {
-    "file": "learn-28ec7f1277c0.json",
+    "file": "learn-114345987011.json",
     "count": 8057,
-    "sha256": "28ec7f1277c0e04709f1fec219a47b73d07cc33380b4937d91a530a7d59937cb"
+    "sha256": "114345987011e7f5d36d5e13c024c43636b11e027cfd66e7eea8c389c7d296c3"
   },
   "learn_facts": {
-    "file": "learn-facts-4fc408a0be65.json",
+    "file": "learn-facts-b2176686d00b.json",
     "count": 265,
-    "sha256": "4fc408a0be652576799ad4cd1cb3077ee99304c11b9207835c94aa826a21f5c6"
+    "sha256": "b2176686d00be80c195be821997028c47028ebf9348c488cac5aaa5accdf165e"
   },
   "by_type": {
     "app": 97,
-    "change": 1444,
+    "change": 1458,
     "digest": 9,
     "feature": 134,
     "guideline": 465,
     "hotfix": 3,
     "localization": 22,
     "object": 25731,
-    "post": 1148,
+    "post": 1154,
     "release": 64,
     "source": 41,
     "topic": 608,

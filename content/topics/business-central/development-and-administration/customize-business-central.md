@@ -2,21 +2,21 @@
 id: topic/business-central/development-and-administration/customize-business-central
 type: topic
 title: Customize Business Central
-summary: "Customization of Business Central: tailoring pages for roles, enabling the Premium experience, setting colored Cue indicators, and installing and managing extensions. It answers how administrators and users change the interface and features, and what each Microsoft extension does and supports."
+summary: "Customization of Business Central for organizations and users: profile page layouts, Premium vs Essentials experience, colored cue indicators, personalization, and extensions. It answers how to change what users see and how to install or manage apps."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:01:17.293Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 51d124d033159efed6aff4ab8e217d91f77f0a5700e4f4810002212a57608820
+  input_hash: ef2d12d0676fa92e7fd3e7a5b35e5408180949eaa6a607ff817c306785f5c5da
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-other
@@ -458,27 +458,27 @@ narrative: generated
 
 # Customize Business Central
 
-> Customization of Business Central: tailoring pages for roles, enabling the Premium experience, setting colored Cue indicators, and installing and managing extensions. It answers how administrators and users change the interface and features, and what each Microsoft extension does and supports.
+> Customization of Business Central for organizations and users: profile page layouts, Premium vs Essentials experience, colored cue indicators, personalization, and extensions. It answers how to change what users see and how to install or manage apps.
 
-Path: [Development and administration](../development-and-administration.md) > Customize Business Central · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Development and administration](../development-and-administration.md) > Customize Business Central · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the ways administrators and users can adapt Business Central without development. The overview page introduces the main approaches: profile customization, experience settings, colored indicators on cues, page personalization and app installation.
+This section covers the ways an administrator or user can tailor Business Central. The landing page lists the methods: customizing Role Centers and profiles, changing the experience setting, setting up colored cues, personalizing pages, and installing apps.
 
-Three task pages go deeper. Customizing Pages for Roles explains how to add fields from source tables, lock or unlock editing, and manage or clear customized pages for a profile. Enable Premium features explains how to select the Premium experience in Company Information to get functionality such as Manufacturing and Service Management. The Cue page explains how to set low, middle and high color thresholds on the Cue Setup page.
+Three detail pages go deeper. Customize Pages for Profiles explains how administrators set layouts for a role or department, including showing hidden table fields, locking fields, and clearing customizations. Enable Premium features explains selecting the Premium experience in Company Information. The colored indicators page explains threshold-based status bars on Cue tiles, set per company or per user.
 
-The subtopic Customize with extensions (26 pages) covers installing and managing apps and the individual Microsoft extensions, for example for cloud and data migration, payments and banking, insights and AI predictions, and country-specific reporting. Start with the overview page, then go to the task page that matches your goal, and use the extensions subtopic to check what an extension does, which countries or products it supports, and how to set it up.
+The subtopic Customize with extensions covers installing, uninstalling and managing apps, with reference pages for individual extensions (migration, payments, banking, payroll import, forecasting, country-specific reporting). Start with the landing page to pick a method, then go to the matching page.
 
 ## Key points
 
-- The overview lists the customization options: profile customization, experience settings, colored cue indicators, page personalization and app installation.
-- Page customization for roles lets administrators add fields from source tables and control field visibility for a profile.
-- Editing of a customized page can be locked or unlocked, and customizations can be managed or cleared.
-- Premium experience is selected in Company Information and gives access to all functionality, including Manufacturing and Service Management; Essentials is the other experience level.
-- Colored Cue indicators use low, middle and high value ranges, set on the Cue Setup page, with color styles.
-- Cue indicator settings can apply company-wide or be personalized for individual users.
-- The Customize with extensions subtopic has 26 pages on installing and managing apps and on Microsoft extensions for cloud and data migration, payments and banking, insights and AI predictions, and country-specific reporting.
+- Administrators customize page layouts per profile to control which fields and actions a role or department sees.
+- Customization differs from personalization: it can show hidden table fields and sets a central baseline before users apply personal changes.
+- Customized pages can be managed, fields can be locked or unlocked for editing, and all customizations can be cleared.
+- Selecting the Premium experience in Company Information gives access to all functionality, including Manufacturing and Service Management; Essentials is the other level.
+- Cue tiles can show colored indicator bars with low, middle and high range styles based on threshold values.
+- Colored indicator settings can apply company-wide or be personalized per user.
+- The Customize with extensions subtopic (26 pages) covers app install, uninstall and management plus individual extension references.
 
 ## Subtopics
 

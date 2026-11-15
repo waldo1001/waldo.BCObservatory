@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:37.337Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -315,6 +315,7 @@ links:
     - video/7SSNcUMFtCw
   posts:
     - post/demiliani-com/13611
+    - post/demiliani-com/17609
     - post/freddysblog/https-freddysblog-com-2026-08-23-which-model-should-you-use-for-which-task--faa80c64bd
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
     - post/waldo-be/318712
@@ -332,7 +333,7 @@ coverage:
   learn: 56
   code: 3
   video: 1
-  blog: 4
+  blog: 5
   guideline: 0
 bc_forms:
   - 8350
@@ -376,6 +377,7 @@ Start with the subtopic that matches your goal. For generative AI features in AL
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.](../../posts/demiliani-com/13611.md) (community post): "Azure OpenAI's Responses API replaces Chat Completions as the recommended approach"
+- [AI and prompt injections: the invoice that approves itself.](../../posts/demiliani-com/17609.md) (community post): "prompt injection attacks can exploit AI document processing pipelines in Business Central"
 - [Which AI Model Should You Use for Which Task?](../../posts/freddysblog/https-freddysblog-com-2026-08-23-which-model-should-you-use-for-which-task--faa80c64bd.md) (community post): "Which AI Model Should You Use for Which Task"
 - [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "ERP is shifting from recording transactions to enabling autonomous action through AI agents"
 - [The Business Central 2026 release wave 2 docs nobody asked for ..](../../posts/waldo-be/318712.md) (community post): "Site built using AI to process 68,000 words of YouTube captions"

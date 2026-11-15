@@ -1,30 +1,26 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-telemetry.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry",
-  "title": "Environment Telemetry",
-  "blob": "d323eea6fe08db956e80c6c6733f9ac7ce276790",
+  "title": "Environment Telemetry in Business Central Admin Center",
+  "blob": "6f350b5cc76e75d7b2706ea7739fd73f693a3b38",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Admin center provides telemetry for tenant environments enabling troubleshooting and support."
+      "text": "Admin center telemetry tab shows top-level AL events and errors from telemetry stack for troubleshooting."
     },
     {
       "kind": "fact",
-      "text": "Telemetry tab shows top-level AL events and errors from telemetry stack."
-    },
-    {
-      "kind": "step",
-      "text": "Filter telemetry by selecting base point-in-time, time range, message type, and environment."
+      "text": "Filter telemetry by selecting environment, timestamp, time window, and query category, then search."
     },
     {
       "kind": "fact",
-      "text": "Helps identify underlying problems such as simultaneous data modification by multiple users."
+      "text": "Application Insights sends richer telemetry for better troubleshooting than admin center telemetry tab alone."
     },
     {
       "kind": "fact",
-      "text": "Enable richer telemetry by sending data to Microsoft Azure Application Insights."
+      "text": "Application Insights is Azure service that gathers and analyzes telemetry data for environments."
     }
   ],
   "dropped": 0,
@@ -32,8 +28,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005012,
-      "pages_in_call": 12
+      "cost_usd": 0.006313,
+      "pages_in_call": 6
     }
   ]
 }

@@ -2,20 +2,20 @@
 id: topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365
 type: topic
 title: Microsoft Office apps and Microsoft 365
-summary: "Integration of Business Central with Microsoft Office apps and Microsoft 365: Excel, OneDrive, Outlook, Teams and Word. It answers how-to, setup and administration questions about exchanging data, sharing files and records, email and contacts, and report or document layouts."
+summary: "Business Central integration with Microsoft 365 apps: Excel, OneDrive, Outlook, Teams and Word. It answers setup, usage and administration questions about editing data in Excel, report layouts, sharing files, the Outlook add-in, Teams app, and Word mail merge."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:16:41.871Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9f1c66d639be14d787139c8f01a775b52404dbeea8ec8abdff90bfc96dd602e8
+  input_hash: 3c5be050b9edffeac0dcb622b2f2162ffaf34da919b0c49f32c24b6e55e26e14
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/teams-access-with-m365-license
@@ -241,28 +241,28 @@ narrative: generated
 
 # Microsoft Office apps and Microsoft 365
 
-> Integration of Business Central with Microsoft Office apps and Microsoft 365: Excel, OneDrive, Outlook, Teams and Word. It answers how-to, setup and administration questions about exchanging data, sharing files and records, email and contacts, and report or document layouts.
+> Business Central integration with Microsoft 365 apps: Excel, OneDrive, Outlook, Teams and Word. It answers setup, usage and administration questions about editing data in Excel, report layouts, sharing files, the Outlook add-in, Teams app, and Word mail merge.
 
-Path: [Integrate with other applications](../integrate-with-other-applications.md) > Microsoft Office apps and Microsoft 365 · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Integrate with other applications](../integrate-with-other-applications.md) > Microsoft Office apps and Microsoft 365 · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This area covers how Business Central works with the Microsoft 365 apps people already use. An introductory page gives the overall picture: Excel export and import, OneDrive document storage, Outlook email and contact management, Teams sharing, and Word document templates.
+This section covers how Business Central works with the Microsoft 365 apps that users already use for analysis, documents and communication. The entry page gives an overview of the integrations, including Open in Excel, Edit in Excel, Excel report layouts, G/L budget export and import, and Open in OneDrive.
 
-Each app has its own subtopic. Excel covers viewing and editing data in Excel, the Excel add-in setup for on-premises, importing data from Excel or configuration packages, and Excel report layouts. OneDrive covers opening, sharing and saving files, plus admin setup for online and on-premises. Outlook covers deploying the add-in, saving contacts to Outlook and Teams, and email setup without Outlook. Teams covers installing the app, searching contacts, sharing records as cards, adding tabs, company settings, and administrator tasks such as licensing and deployment. Word covers report layouts, the XML Mapping pane, and Word templates for bulk communications.
+Each app has its own subtopic. Excel covers report layouts, importing data, the on-premises add-in setup, and viewing or editing data. OneDrive covers user actions and administrator setup, governance, privacy and on-premises configuration. Outlook covers the add-in and email setup without Outlook. Teams covers installation, sharing, tabs, licensing, permissions and deployment. Word covers report layouts, the XML Mapping pane and mail merge templates.
 
-Start with the introductory page to find the right app, then open that app's subtopic. Administrators should look at the setup and deployment pages in the Excel, OneDrive, Outlook and Teams subtopics.
+Start with the overview page to see which integration fits your task, then go to the subtopic for the app. Administrators will mostly use the setup, deployment and privacy pages. Users will mostly use the how-to pages.
 
 ## Key points
 
-- Excel: view and edit Business Central data in Excel, import data from Excel or configuration packages, and build Excel report layouts.
-- Excel add-in setup is documented for on-premises deployments.
-- OneDrive: open and share files in OneDrive for Business and save Excel workbooks and report files, with admin setup for online and on-premises.
-- Outlook: deploy the Outlook add-in, save Business Central contacts to Outlook and Teams, and set up email when Outlook is not used.
-- Teams: install the Business Central app, search contacts, share records and page links as interactive cards, add Business Central tabs, and change company settings.
-- Teams administrator management covers licensing and deployment.
-- Word: design report layouts with the Business Central add-in and map data fields in the XML Mapping pane.
-- Word templates support bulk communications with customers, vendors and contacts.
+- Excel: build report layouts, import business data, and view or edit Business Central data in Excel.
+- Excel add-in setup for on-premises is documented.
+- OneDrive: users open, share and edit files in OneDrive for Business; admins set up and govern it, including on-premises.
+- Outlook add-in provides contact insights, document view and document creation.
+- Contacts can be saved from Business Central to Outlook and Teams; email can be set up without Outlook.
+- Teams: install the app, search contacts, share records and page links, and add Business Central tabs.
+- Teams admin topics include licensing, permissions, deployment and privacy.
+- Word: design report layouts with the Word add-in, map fields via the XML Mapping pane, and use templates for mail merge with contacts, customers and vendors.
 
 ## Subtopics
 

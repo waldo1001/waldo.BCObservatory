@@ -1,24 +1,24 @@
 {
   "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/use-reports-in-daily-work",
-  "input_hash": "60c02d41cc3ce64bdb0a33cfae413874559ef3012d8c3e9bacfa387946f5e53d",
-  "summary": "Using reports in Business Central daily work: finding, running, previewing, printing, scheduling and saving reports, plus saved settings, layouts, default printers, the Report Inbox, bookmarks and dataset export. It answers how-to questions for end users and advanced users.",
-  "overview": "This section covers what a user does with reports day to day. It starts with a general guide (Report Explorer, scheduling, saved settings, default printers, layouts, Report Inbox) and then has one page for each task.\n\nFor running reports, \"Run and Print Reports\" explains request pages, filters, options, preview, printing, saving to PDF, Word, Excel or XML, and scheduling to the job queue. \"Manage Saved Settings\" lets users keep filters and options for reuse, per user or shared across a company. \"Set the Layout Used by a Report\" and \"Specify a Default Printer\" control how a report looks and where it prints.\n\nScheduled output is handled in the Report Inbox, where users download, share, or open files in OneDrive. Other pages cover bookmarking reports on a role center and exporting datasets to Excel or XML for diagnosis and ad-hoc analysis. Start with \"Use Business Central Reports in Your Daily Work\" and then \"Run and Print Reports\".",
+  "input_hash": "203362de7c24a66f11bb2c856ebab094732775157e953f16fd733ce361463514",
+  "summary": "Using reports in Business Central day to day: finding, running, previewing, printing and scheduling reports, saving settings, choosing layouts, setting default printers, using the Report Inbox, bookmarking, and exporting datasets to Excel or XML. It answers how-to questions for end users and advanced users.",
+  "overview": "This section covers the everyday tasks around reports in Business Central. It starts with an entry page that lists the main steps: find a report with Report Explorer, fill in the request page, run or schedule it, manage saved settings, change the layout, and analyze the data.\n\nThe other pages each cover one task. Run and Print Reports explains request pages, filters, preview, print to file, printer choice and job queue scheduling. Saved settings, layout selection and default printer pages cover how to reuse options and control output. The Report Inbox page covers scheduled output, including download, sharing and OneDrive. A separate page covers exporting datasets to Excel or XML for inspection.\n\nStart with \"Use Business Central Reports in Your Daily Work\" for the overview, then \"Run and Print Reports in Business Central\" for the core workflow. Use the other pages as needed for printers, layouts, bookmarks or data analysis.",
   "key_points": [
-    "Report request pages set filters and options; reports can be previewed, printed, saved to PDF, Word, Excel or XML, or scheduled to the job queue.",
-    "Saved settings keep options and filters for reports and batch jobs, either user-specific or shared with all users in a company, and can be copied and edited on the Report Settings page.",
-    "Report layouts can be set as a company default, chosen temporarily on the request page, or managed on the Report Layouts and Report Layout Selection pages; they cover branding, themes and header/footer layouts.",
-    "Default printers can be set for all users, a specific user, or a specific report via Printer Management and Printer Selections, and overridden on the request page; Universal Print is mentioned.",
-    "The Report Inbox holds scheduled reports; users can download, share, delete, and open them in OneDrive, and files have expiration dates.",
-    "Bookmark icon or the Tell Me window adds pages and reports to the role center, and bookmarks can be removed.",
-    "Datasets can be exported to Excel (data only) or XML, with a Report Metadata worksheet and filter display, for developers diagnosing issues (2021 release wave 1 update 18.3 and 2021 release wave 2)."
+    "Run and Print Reports covers opening, previewing, printing, printing to file and scheduling reports through the job queue, plus language and format settings.",
+    "Saved settings let you keep options and filters for a report or batch job, either per user or shared for all users in a company, and you can copy and edit them on the Report Settings page.",
+    "Report layouts can be set as a default per company, chosen temporarily on the request page, or managed on the Report Layouts and Report Layout Selection pages (header/footer layouts, composite branding and theme assignment are mentioned).",
+    "Default printers can be set for all users, a specific user or a specific report using Printer Management and Printer Selections, and overridden on the request page; Universal Print is mentioned.",
+    "The Report Inbox holds scheduled reports; you can download, share, delete them or open them in OneDrive, and files have expiration dates.",
+    "The bookmark icon, on the page itself or in Tell Me, adds quick links to pages and reports on your role center, and bookmarks can be removed.",
+    "Report datasets can be exported to Excel (data only) or XML for diagnosis and ad-hoc analysis; the Excel file includes a Report Metadata worksheet and shows filters."
   ],
   "members_used": 8,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-12T00:57:26.204Z",
+  "at": "2026-11-15T00:50:20.726Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.016433
+    "cost_usd": 0.016259
   }
 }

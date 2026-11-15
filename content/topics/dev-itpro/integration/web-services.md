@@ -12,7 +12,7 @@ review:
   at: "2026-11-03T01:02:12.823Z"
   flags: []
 generated:
-  at: "2026-11-14T01:06:08.670Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -329,8 +329,12 @@ links:
     - change/bcapps/12606
     - change/bcapps/8051
     - change/bcapps/8698
-    - change/bcapps/9914
-    - change/bcquality/100
+    - change/bcapps/9737
+    - change/bcapps/9751
+    - change/bcapps/9772
+    - change/bcapps/9784
+    - change/bcapps/9796
+    - change/bcapps/9872
 learn_toc_path:
   - Integration
   - Web services
@@ -407,8 +411,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12606 Obsolete Http Web Request Mgt. codeunit](../../../changes/bcapps/12606.md) (code change): "Http Web Request Mgt. codeunit and its test are marked obsolete"
 - [#8051 [Edit in Excel] Expose ExternalizeODataObjectName and add Page Control Field publisher](../../../changes/bcapps/8051.md) (code change): "Exposes ExternalizeODataObjectName as public procedure for external apps"
 - [#8698 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. PEPPOL Order Response Message Handling](../../../changes/bcapps/8698.md) (code change): "PEPPOL Order Response Message Handling. E-documents now track order responses and acknowledgements"
-- [#9914 [APIV2] Return unapplied lines from the Vendor Payments API](../../../changes/bcapps/9914.md) (code change): "The Vendor Payments API now returns all payment lines in a batch, including unapplied payments"
-- [#100 Add P0 integration and control add-in runtime guidance](../../../changes/bcquality/100.md) (code change): "Guidance and AL samples for linking API parts on SystemId and setting Multiplicity."
+- [#9737 [E-Document] Move Data Exchange definitions from labels to app resource files](../../../changes/bcapps/9737.md) (code change): "Move Data Exchange definitions from labels to app resource files"
+- [#9751 Extract invoice date into Invoice Date field and recover due date fro…](../../../changes/bcapps/9751.md) (code change): "Invoice Date field is mapped from extracted invoice date in both ADI and MLLM readers"
+- [#9772 [PA][Pioneer]: Numeric line fields mis-extracted (discount, quantity, unit of measure)](../../../changes/bcapps/9772.md) (code change): "E-Document importer now preserves zero quantities instead of forcing them to 1"
+- [#9784 [E-Document Formats] Fix defects in V2 draft migration for XRechnung, PINT A-NZ and Factura-E](../../../changes/bcapps/9784.md) (code change): "Fix defects in V2 draft migration for XRechnung, PINT A-NZ and Factura-E"
+- [#9796 Show a message when an e-document file cannot be viewed or no data could be extracted](../../../changes/bcapps/9796.md) (code change): "E-document import handling now displays user-friendly messages when a PDF file cannot be displayed"
+- [#9872 Add missing telemetry event IDs to E-Document Session.LogMessage calls](../../../changes/bcapps/9872.md) (code change): "Added missing telemetry event IDs to 21 Session.LogMessage calls in E-Document"
 - [What's New: Server and Database - More Stable Web Services (2023 release wave 2)](../../../videos/sk5CaXnvvng.md) (video): "Editable Property Support in OData for Edit in Excel; HTTP 503 Return Code for Request Queue Timeout"
 - [What's New: Web Services in Business Central (2024 release wave 1)](../../../videos/VpNQ-CYNrkM.md) (video): "Web Services in Business Central; OData; API performance; Web service queue; SOAP deprecation"
 

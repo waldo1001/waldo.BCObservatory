@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:18:14.341Z"
   flags: []
 generated:
-  at: "2026-11-07T01:00:13.982Z"
+  at: "2026-11-15T00:44:19.225Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -96,6 +96,7 @@ links:
     - object/table/405
     - object/table/5802
   features:
+    - feature/573314
     - feature/573315
     - feature/573332
   topics: []
@@ -231,10 +232,12 @@ features:
     verified: false
     status_source: video
   - name: Per-Company Index Management
-    status: unclear
+    status: ga
     t: 353
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573314"
   - name: Index Usage Statistics
     status: unclear
     t: 774
@@ -422,7 +425,7 @@ The talk also covers usage statistics (seek, scan, lookup, update counts since t
 |---|---|---|---|
 | Index Management Page | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=1x3QyBX3swg&t=124s) |  |
 | Enable/Disable Indexes | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=1x3QyBX3swg&t=256s) |  |
-| Per-Company Index Management | status not stated, demoed | [5:53](https://www.youtube.com/watch?v=1x3QyBX3swg&t=353s) |  |
+| Per-Company Index Management | generally available (roadmap [AL developers can turn indexes on/off in AL code.](../features/573314.md)), demoed | [5:53](https://www.youtube.com/watch?v=1x3QyBX3swg&t=353s) |  |
 | Index Usage Statistics | status not stated, demoed | [12:54](https://www.youtube.com/watch?v=1x3QyBX3swg&t=774s) |  |
 | Index Storage Information on Table Information Page | status not stated | [2:04](https://www.youtube.com/watch?v=1x3QyBX3swg&t=124s) |  |
 | Index storage metrics | status not stated, demoed | [15:39](https://www.youtube.com/watch?v=1x3QyBX3swg&t=939s) |  |

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/9879",
+  "number": 9879,
+  "title": "Fixes #8869: French sales reports must ignore comment lines when evaluating GetGoodsAndServicesText",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "In the French localization, the Standard Sales Invoice, Draft Invoice and Credit Memo reports now filter out comment lines when GetGoodsAndServicesText decides whether the document covers goods or services.",
+  "key_points": [
+    "Comment lines are filtered out when GetGoodsAndServicesText is evaluated",
+    "Previously, comment lines were counted as services on printed documents",
+    "Affects the FR Standard Sales Invoice, Draft Invoice and Credit Memo reports"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "quote": "comment lines are filtered out",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00301,
+    "changes_in_call": 1
+  }
+}

@@ -6,7 +6,7 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "Subscription package price group filtering corrected to prevent customers from selecting packages outside their price group or packages restricted to any price group.",
+  "summary": "On the Assign Subscription Lines page, offered subscription packages are now always filtered to the customer's price group plus packages without a price group. Customers without a price group no longer see price-group-restricted packages, and the fallback that offered every package is removed.",
   "key_points": [
     "Filter now always applied to offered packages based on customer's price group plus unrestricted packages",
     "Customers without a price group now only see packages without a price group restriction",

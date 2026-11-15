@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,20 +92,13 @@ links:
   videos:
     - video/EwN3xb2q7vE
     - video/jWqjDTbqjeE
-    - video/mBU2Iu0urw8
     - video/MNwTt06ZxwY
     - video/nbGw2g3KMXI
-    - video/UgagVZVKCso
     - video/V4zCPAsYi_Y
-    - video/w2P3WskFaCA
-    - video/WjFx9yYf1js
-    - video/XGEDwzIZQj4
-    - video/xWOddQt1GUM
   posts:
     - post/bertverbeek-nl/1272
     - post/demiliani-com/13814
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165
-    - post/nataliekarolak-com/3995
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
     - post/yzhums-com/71363
   guidelines: []
@@ -180,6 +173,7 @@ links:
     - change/bcapps/9364
     - change/bcapps/9365
     - change/bcapps/9541
+    - change/bcapps/9572
     - change/bcapps/9606
     - change/bcapps/9693
     - change/bcapps/9708
@@ -190,7 +184,6 @@ links:
     - change/bcapps/9989
     - change/bcquality/174
     - change/bcquality/176
-    - change/bcquality/233
 learn_toc_path:
   - Integration with AI
   - Designing and coding agents (preview)
@@ -201,8 +194,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 11
-  blog: 6
+  video: 5
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 69eac98ac3509b30b15900079714f9d3546b4ea11aac6d5b7228ce8677ee298c
@@ -325,6 +318,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9364 Slice 622414: [SOA] [Pioneer] Enhancing Sales Order Agent with Item Variant : availability and prices](../../../../changes/bcapps/9364.md) (code change): "The Sales Order Agent now resolves customer requests to a specific item variant"
 - [#9365 [SOA] Prevent translated username token and remove dead GetAgent helpers](../../../../changes/bcapps/9365.md) (code change): "Sales Order Agent usernames are now prevented from being translated by marking the label as locked"
 - [#9541 [SOA] Bound outbound reply retries](../../../../changes/bcapps/9541.md) (code change): "Outbound replies in the Sales Order Agent now limit retry attempts to five per message"
+- [#9572 Obsolete E-Document Purchase Order Matching Copilot](../../../../changes/bcapps/9572.md) (code change): "E-Document Purchase Order Matching Copilot objects are marked obsolete pending"
 - [#9606 [SOA] Disable available-items-only search by default](../../../../changes/bcapps/9606.md) (code change): "The Sales Order Agent now initializes the Search Only Available Items setting"
 - [#9693 Rename email review option 'Only untrusted senders' to 'Manage per sender'](../../../../changes/bcapps/9693.md) (code change): "Caption of enum option OnlyIfUntrusted changed to 'Manage per sender"
 - [#9708 Enable manual task creation for Sales Order Agent](../../../../changes/bcapps/9708.md) (code change): "The Sales Order Agent now allows users to manually create tasks directly"
@@ -335,23 +329,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9989 [SOA] Skip Item Selector for exact items without variants](../../../../changes/bcapps/9989.md) (code change): "The Sales Order Agent no longer calls the Item Selector"
 - [#174 Make BCQuality documentation easier for partners to get started](../../../../changes/bcquality/174.md) (code change): "Community Agents review extended with folder-path support"
 - [#176 Complete partner contribution and knowledge consumption guides](../../../../changes/bcquality/176.md) (code change): "consuming skills in custom agents, with clarifications on metadata, integration"
-- [#233 knowledge(web-services): describe API objects intended for MCP tools](../../../../changes/bcquality/233.md) (code change): "API objects intended for MCP tools to describe entities using AboutText"
 - [Agents in Business Central – part 5 – Creating agent from code](../../../../posts/bertverbeek-nl/1272.md) (community post): "Implement IAgentFactory to control agent creation, setup experience, and access"
 - [Dynamics 365 Business Central: new model choice in Agent definition.](../../../../posts/demiliani-com/13814.md) (community post): "AL methods allowing administrators to select between available models"
 - [Weekly Review: Business Central AL Development – May 31–June 6, 2026](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165.md) (community post): "AL APIs (SetModelId, GetModelId, etc.) for code-defined agents"
-- [Docs: What’s new in BC 28 for developers](../../../../posts/nataliekarolak-com/3995.md) (community post): "AL coding agents with BC-Bench, improved database index management"
 - [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "Partners need to develop AI competency through the AI Development Toolkit and Agent Building Sandbox"
 - [Business Central 2026 release wave 1 (BC28): New template for getting started with creating agents](../../../../posts/yzhums-com/71363.md) (community post): "the AL Language extension adds an Agent template to the AL: New Project command"
 - [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit"
 - [Introducing: Envision, Design and Code Business Central Agents](../../../../videos/jWqjDTbqjeE.md) (video): "Introducing: Envision, Design and Code Business Central Agents"
-- [Microsoft presents: Agentic development with AL developer tools and ALMCP deep dive](../../../../videos/mBU2Iu0urw8.md) (video): "Agentic development with AL developer tools and ALMCP deep dive"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Agent creation and configuration; Agent instructions configuration; Agent model selection"
 - [20260713 - From Zero to Agent Building agents in Business Central](../../../../videos/nbGw2g3KMXI.md) (video): "From Zero to Agent Building agents in Business Central; AL Agent Development"
-- [Business Central Partner Learnings from the Red Carpet Copilot Program](../../../../videos/UgagVZVKCso.md) (video): "Copilot Function with Prompt Engineering; Automated Testing for Copilot"
 - [Getting Started With Agent Testing: Test Setup and Structuring (part 3)](../../../../videos/V4zCPAsYi_Y.md) (video): "AI Development Toolkit Evaluation app; AI Test Toolkits; LLM as judge for test validation"
-- [Episode 513: No Windows, No IDE, No Problem: BC Development from the Terminal](../../../../videos/w2P3WskFaCA.md) (video): "AI-assisted development in Business Central"
-- [Vibe Coding Risks in Business Central. #businesscentral #bc #podcast](../../../../videos/WjFx9yYf1js.md) (video): "Vibe Coding Risks in Business Central"
-- [What's New: BC-Bench (2026 release wave 1)](../../../../videos/XGEDwzIZQj4.md) (video): "ai coding agents; benchmarking; bug fixing; mcp servers"
-- [Episode 515: Stop Coding, Start Architecting: How AI Is Reshaping the BC Developer Role](../../../../videos/xWOddQt1GUM.md) (video): "AI-assisted code generation for AL"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

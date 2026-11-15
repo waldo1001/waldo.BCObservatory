@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,6 +99,7 @@ links:
     - post/demiliani-com/15981
     - post/thinkaboutit-be/8229
     - post/waldo-be/318707
+    - post/yzhums-com/77184
   guidelines: []
 learn_toc_path:
   - Integration
@@ -112,7 +113,7 @@ coverage:
   learn: 7
   code: 11
   video: 1
-  blog: 7
+  blog: 8
   guideline: 0
 bc_forms:
   - 8350
@@ -186,6 +187,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: data mirroring to Microsoft Fabric announced.](../../../posts/demiliani-com/15981.md) (community post): "data mirroring for Dynamics 365 Business Central to Microsoft Fabric"
 - [Business Central Data Mirroring to Microsoft Fabric Is Coming](../../../posts/thinkaboutit-be/8229.md) (community post): "Business Central 2026 release wave 2 introduces data mirroring to Microsoft Fabric"
 - [Business Central data in Fabric: the way it should be](../../../posts/waldo-be/318707.md) (community post): "Business Central now supports native data mirroring to Microsoft Fabric"
+- [Business Central 2026 release wave 2 (BC29.1): Data mirroring to Microsoft Fabric (No APIs or OData Needed)](../../../posts/yzhums-com/77184.md) (community post): "Data mirroring replicates selected Business Central companies and tables to Microsoft Fabric OneLake"
 - [Introducing: Business Central Integration with Microsoft Fabric (2026 release wave 2)](../../../videos/kOCiyVql0go.md) (video): "Business Central Fabric mirroring; Mirror database in OneLake; Fabric integration APIs"
 
 ## Business Central pages and reports

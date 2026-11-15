@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-14T01:06:08.670Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bb0d1e64560b8effb8c0287e3daf60b34965af8a0a2835bf649ea71960b081bb
@@ -197,13 +197,14 @@ Path: [Administration](../../administration.md) > [Admin center](../admin-center
 - [Business Central Admin Center API - Telemetry (API)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_telemetry): Explore the Business Central Admin Center API for telemetry logging, including top-level AL events and error tracking for tenant environments.
 - [Business Central Admin Center API - Transfer Environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_environmenttransfer): Use the Business Central admin center API to request, accept, cancel, and list environment transfers between Microsoft Entra tenants.
 - [Business Central Administration Center API](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api): Use the Business Central administration center API to automate tenant administration, authenticate API calls, and understand error responses.
-  - Status: Service-to-service authentication using Client Credentials Flow is supported from version 20.0 onwards.
-  - Step: Register an application in your Microsoft Entra tenant with a unique name and select account type.
-  - Step: Create a client secret for the registered application with a specified duration.
-  - Step: Grant AdminCenter.ReadWrite.All permission to the registered application for the admin center API.
-  - Step: Go to the admin center and paste the application client ID in the Authorized Microsoft Entra apps page.
-  - Permissions: AdminCenter.ReadWrite.All permission required for admin center API calls; API.ReadWrite.All and Automation.ReadWrite.All also available.
-  - The admin center API is located at https://api.businesscentral.dynamics.com
+  - Administrators can query production and sandbox environments, set up notifications, and view telemetry via the Admin Center API.
+  - Status: Service-to-service Microsoft Entra authentication supported from version 20.0 onwards.
+  - Step: Register an application in Microsoft Entra ID, specifying name and supported account types (single-tenant or multitenant).
+  - Step: Create a client secret in Certificates & Secrets, copy the secret value for use in client code.
+  - Permissions: Grant AdminCenter.ReadWrite.All permission to the Dynamics 365 Business Central API; optionally grant API.ReadWrite.All and Automation.ReadWrite.All.
+  - Step: Authorize the application in the admin center Authorized Microsoft Entra apps page by pasting the Application (client) ID.
+  - The API endpoint is located at https://api.businesscentral.dynamics.com.
+  - Permissions: For delegated authentication, select delegated permissions from Dynamics 365 Business Central after registering the application.
 - [Business Central Administration Center API MCP Server (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api-mcp): Get introduced to the Business Central Admin Center API MCP Server
   - Status: Business Central Admin Center API MCP server is in public preview.
   - MCP server located at https://mcp.businesscentral.dynamics.com/admin/v1 exposes admin APIs in standardized way.

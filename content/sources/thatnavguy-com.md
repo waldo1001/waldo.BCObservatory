@@ -2,7 +2,7 @@
 id: source/thatnavguy-com
 type: source
 title: That NAV Guy
-summary: "That NAV Guy (Teddy Herryanto, MVP): 76 posts in the knowledge base, 2025-04-11 to 2026-11-06, mostly about development, administration, platform."
+summary: "That NAV Guy (Teddy Herryanto, MVP): 77 posts in the knowledge base, 2025-04-11 to 2026-11-13, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T00:17:27.413Z"
+  at: "2026-11-15T00:17:15.357Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 445417b504a66315cbd78f61494561e356631429424c73fe93e76292c6239da7
+  input_hash: 09774c56d7bb1eb13ef93e7752e35d1b11d07d2e8cfd73e73bba8b31a89c7e20
 evidence:
   - kind: blog
     url: https://thatnavguy.com
@@ -109,6 +109,7 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-86-restart-vs-code-extension-host--4b51972468
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-87-check-for-microsoft-apps-on-appsource--f7b48b4e88
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-88-extract-apps-from-docker-container--81ac3df1ac
   guidelines: []
 source_id: thatnavguy-com
 kind: blog
@@ -116,15 +117,15 @@ url: https://thatnavguy.com
 author: Teddy Herryanto
 mvp: true
 full_text: false
-item_count: 76
+item_count: 77
 footprint:
   systems:
     - id: development
-      weight: 74
+      weight: 76
     - id: administration
       weight: 30
     - id: platform
-      weight: 25
+      weight: 26
     - id: integration
       weight: 12
     - id: sales
@@ -179,12 +180,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-04-11"
-last_item: "2026-11-06"
+last_item: "2026-11-13"
 ---
 
 # That NAV Guy
 
-> That NAV Guy (Teddy Herryanto, MVP): 76 posts in the knowledge base, 2025-04-11 to 2026-11-06, mostly about development, administration, platform.
+> That NAV Guy (Teddy Herryanto, MVP): 77 posts in the knowledge base, 2025-04-11 to 2026-11-13, mostly about development, administration, platform.
 
 [https://thatnavguy.com](https://thatnavguy.com) · blog · tier community
 
@@ -192,9 +193,9 @@ last_item: "2026-11-06"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (74) | al development (22) | table Sales Header (4) |
+| development (76) | al development (22) | table Sales Header (4) |
 | administration (30) | user experience (9) | table Sales Invoice Header (3) |
-| platform (25) | extensions (7) | table Item (2) |
+| platform (26) | extensions (7) | table Item (2) |
 | integration (12) | best practices (6) | table Sales Line (2) |
 | sales (12) | automation (5) | codeunit Config. Package Management (1) |
 | reporting (11) | developer tools (5) | codeunit Dimension CaptionClass Mgmt (1) |
@@ -215,10 +216,11 @@ Items per quarter, oldest first:
 - 2026-Q1: ******* 7
 - 2026-Q2: *********** 11
 - 2026-Q3: ********** 10
-- 2026-Q4: ******* 7
+- 2026-Q4: ******** 8
 
 ## Most recent
 
+- [BC Friday Tips #88 Extract Apps from a Docker Container](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-88-extract-apps-from-docker-container--81ac3df1ac.md) (2026-11-13)
 - [BC Friday Tips #87 Check for Microsoft Apps on AppSource](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-87-check-for-microsoft-apps-on-appsource--f7b48b4e88.md) (2026-11-06)
 - [Introducing BC Mission Control](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-introducing-bc-mission-control--6418abfaea.md) (2026-11-04)
 - [BC Friday Tips #86 Restart the VS Code Extension Host](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-86-restart-vs-code-extension-host--4b51972468.md) (2026-10-30)
@@ -238,6 +240,5 @@ Items per quarter, oldest first:
 - [BC Friday Tips #75 Dynamics BC Excel Reports](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212.md) (2026-07-17)
 - [BC Friday Tips #74 Copy Document and Custom Field](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md) (2026-06-26)
 - [BC Tech Days 2026](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-tech-days-2026--908b4ceb5d.md) (2026-06-12)
-- [Same Blog, New Site](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-same-blog-new-site--387af44d7a.md) (2026-06-04)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

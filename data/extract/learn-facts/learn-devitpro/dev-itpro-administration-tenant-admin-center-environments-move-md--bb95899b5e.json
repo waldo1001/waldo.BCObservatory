@@ -1,51 +1,43 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-move.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-move",
-  "title": "Transfer Environments",
-  "blob": "1026c4478d3f2390fb1fe202837328f41a738be2",
+  "title": "Transfer Business Central Environments Between Tenants",
+  "blob": "6087c8ad248c40266e9c8117161d63cd3ca4aa20",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "fact",
-      "text": "Environments move between Microsoft Entra tenants during business consolidations, acquisitions, mergers, or partner demo transfers to customer tenants."
-    },
-    {
-      "kind": "step",
-      "text": "Source tenant internal admin initiates transfer in Business Central admin center by selecting environments, specifying destination tenant ID and transfer date/time."
-    },
-    {
-      "kind": "step",
-      "text": "Destination tenant internal admin accepts transfer within 8 hours via Receive Environments, optionally renaming environments to avoid duplicates."
-    },
-    {
       "kind": "permission",
-      "text": "Only internal administrators can execute environment transfer operations; delegated admins cannot use this feature."
-    },
-    {
-      "kind": "fact",
-      "text": "All source tenant users are disconnected when transfer starts and post-transfer setup is required before environment use, typically requiring up to 30 minutes downtime."
+      "text": "Only internal administrators can initiate and accept environment transfers; delegated admins cannot use this feature."
     },
     {
       "kind": "limit",
-      "text": "Users added to environment in source tenant are not migrated; they must be recreated in destination tenant and user personalizations are lost."
+      "text": "Transfer must be accepted on destination tenant within 8 hours of creation on source tenant."
+    },
+    {
+      "kind": "step",
+      "text": "On source tenant, select Environments > Environment Transfers, select Transfer Environments, choose environments, enter destination tenant ID, set transfer date/time."
+    },
+    {
+      "kind": "step",
+      "text": "On destination tenant, select Environments > Environment Transfers > Receive Environments, enter source tenant ID, select environments to accept, confirm."
     },
     {
       "kind": "limit",
-      "text": "Environments linked to Power Platform cannot be transferred; must unlink Business Central environment from Power Platform first."
+      "text": "Linked Power Platform environments cannot transfer; must unlink before creating transfer on source tenant."
     },
     {
       "kind": "fact",
-      "text": "Transfer requests remain valid 2 weeks if accepted within 8 hours of creation; requests not accepted within 8 hours get status Skipped."
+      "text": "Early access preview environments can only transfer to destination tenants with Partner Sandbox license."
     }
   ],
-  "dropped": 0,
+  "dropped": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008208,
-      "pages_in_call": 6
+      "cost_usd": 0.006128,
+      "pages_in_call": 8
     }
   ]
 }

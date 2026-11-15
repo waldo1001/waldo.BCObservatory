@@ -4,16 +4,16 @@
   "title": "Foundation for Payables Agent V2.0",
   "repo": "microsoft/BCApps",
   "systems_joined": [],
-  "summary": "Payables Agent application refactored to support version 2.0 architecture that removes dependency on draft pages and E-Document framework, with backward compatibility preserved for existing v1 users.",
+  "summary": "Lays the foundation for Payables Agent v2.0, a rewrite in which the agent works directly on purchase invoices instead of the draft page and E-Document pipeline. V2 is not activated yet and v1 compatibility stays in place, though v1 KPIs now count finalized Purchase Invoices and role center cues no longer count E-Documents.",
   "key_points": [
-    "Complete rewrite of Payables Agent app structure with new organizing principles documented in architecture.md",
-    "KPI tracking shifted from E-Documents to finalized Purchase Invoices to support both v1 and v2",
-    "V1 compatibility maintained so end-users experience no changes; v2 activation deferred pending validation",
-    "Added new codeunits for work item management, setup storage, subscribers, and telemetry",
-    "Multiple acknowledged v2 gaps documented including email sourcing, credit memos, feedback UI, and billing model impacts"
+    "Rewrites the Payables Agent app under new organizing principles described in architecture.md",
+    "Keeps v1 working through a draft-based compatibility layer; v2 activation is deferred until validation is done",
+    "KPI tracking now counts finalized Purchase Invoices instead of E-Documents, so it applies to both versions",
+    "Role center activity cues no longer count E-Documents",
+    "Lists known v2 gaps: email sourcing, credit memos, feedback UI, billing model and accuracy parity"
   ],
   "change_kind": "refactor",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:00.486Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,6 +108,8 @@ links:
     - change/bcapps/9224
     - change/bcapps/9346
     - change/bcapps/9449
+    - change/bcapps/9522
+    - change/bcapps/9523
     - change/bcapps/9538
     - change/bcapps/9788
     - change/bcapps/9963
@@ -191,6 +193,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9224 [main] GitHub event batch 1746](../../../../changes/bcapps/9224.md) (code change): "Calculate Plan - Plan. Wksh. and Whse.-Source - Create Document"
 - [#9346 [master]-Cannot delete Project Planning Line due to incorrect reservation entries](../../../../changes/bcapps/9346.md) (code change): "Fixes a bug where a Project Planning Line could not be deleted because incorrect reservation entries existed"
 - [#9449 [Extensibility Request] issue 30334: fix OnAfterCarryOutToReqWksh record order](../../../../changes/bcapps/9449.md) (code change): "OnAfterCarryOutToReqWksh integration event now passes the target requisition"
+- [#9522 Issue #9473 OnAfterIncreaseQty](../../../../changes/bcapps/9522.md) (code change): "Adds a new OnAfterIncreaseQty integration event to the Inventory Profile Offsetting codeunit"
+- [#9523 Issue #9474 OnBeforeDecreaseQtyForMaxQty](../../../../changes/bcapps/9523.md) (code change): "Adds an OnBeforeDecreaseQtyForMaxQty integration event to the Inventory Profile Offsetting codeunit"
 - [#9538 [main]- Requests to Approve: Open Record shows wrong Requisition Worksheet batch after viewing a different batch](../../../../changes/bcapps/9538.md) (code change): "Req. Worksheet page now correctly displays the intended requisition batch"
 - [#9788 [Master]-Incorrect Reservation Split Generated After Replanning a Replenishment Production Order Created by MRP Planning Run](../../../../changes/bcapps/9788.md) (code change): "replanning production orders with multiple component lines using the same item"
 - [#9963 [Extensibility Request] issue 30384: expose planning suggestions variable](../../../../changes/bcapps/9963.md) (code change): "Item Availability by Event page is now accessible"

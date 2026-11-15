@@ -8,13 +8,13 @@
   ],
   "summary": "Find Entries functionality extended to include unposted Purchase Return Orders and Credit Memos, now matching the coverage provided for equivalent Sales documents.",
   "key_points": [
-    "Added search and drill-down handling for unposted Purchase Return Orders and Credit Memos",
-    "Purchases now covered symmetrically with Sales in Find Entries page",
-    "External document number search filters by 'Vendor Cr. Memo No.' for credit memos",
-    "Changes applied across all localization layers (W1, DACH, ES, NA, RU, BE, CZ, IT)",
-    "Comprehensive test coverage added for new purchase document scenarios"
+    "Find Entries now searches unposted Purchase Return Orders and Purchase Credit Memos",
+    "Drill-down from Find Entries now opens these purchase documents, as it already does for Sales",
+    "Searching by external document number filters these documents on Vendor Cr. Memo No.",
+    "Navigate page updated in the W1, DACH, ES, NA and RU layers",
+    "Purchase order tests extended in several layers"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

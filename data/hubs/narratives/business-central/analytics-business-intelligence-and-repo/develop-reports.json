@@ -1,24 +1,25 @@
 {
   "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports",
-  "input_hash": "398f157f8ff5c301ca5769ad2a730edf9f79a6b1dd14eee69edc41feb95011a7",
-  "summary": "Developing reports in Business Central: how to build report layouts (Word, Excel, RDLC) and datasets written in AL. It answers questions about creating and managing layouts, choosing a default layout, report structure, and performance tuning for AL developers.",
-  "overview": "This area covers the two parts of a Business Central report: the dataset, which is defined in AL code, and the layout, which controls how the data is presented. Layouts can be Word, Excel or RDLC. The landing page introduces both and points to the subtopics.\n\nDevelop report layouts covers creating, designing, selecting and managing Word, Excel and RDLC layouts. It also covers themes, header/footer layouts, available fonts and mapping data fields. Develop report datasets gives an overview of building reports with datasets, layouts and request pages, and adds performance guidance for AL code, pages and web services.\n\nStart with the dataset overview to understand how a report object is structured. Then go to the layout pages for the layout type you plan to use.",
+  "input_hash": "7d1ae96083be3e42a164ad2bd4e38d4290b28d9bb473af95769c65517616d31f",
+  "summary": "Developing Business Central reports: how report objects combine datasets, layouts (Word, Excel, RDLC) and request pages. It answers questions about building and choosing layouts, structuring datasets in AL, and tuning report performance.",
+  "overview": "Reports in Business Central are built from a report object that defines a dataset (the data) and one or more layouts (the presentation). Layouts come in Word, Excel and RDLC types. Word and Excel layouts can be customized by users themselves, while RDLC layouts may need a developer. Changes to the dataset require AL programming.\n\nThe section has an introductory page plus two subtopics. Develop report layouts covers creating, designing, selecting and managing Word, Excel and RDLC layouts, mapping data fields, themes, header/footer layouts and available fonts. Develop report datasets covers how datasets, layouts and request pages fit together, with performance guidance for AL code, pages and web services.\n\nStart with the introductory page to see the layout types and who can change what. Then go to layouts if you need to change how a report looks, or to datasets if you need to change which data it contains or how fast it runs.",
   "key_points": [
-    "Reports combine a dataset (AL), a layout and a request page.",
-    "Supported layout types are Word, Excel and RDLC.",
-    "Layouts can be created, imported, exported and set as the default for a report.",
-    "Layout pages cover themes, header/footer layouts and available fonts.",
-    "Layout design includes mapping data fields from the dataset.",
-    "Dataset pages include performance guidance for AL code, pages and web services.",
-    "Reports can be customized by changing the layout or by modifying the dataset in AL."
+    "A report object defines the dataset and layouts that control how data is presented.",
+    "Layout types are Word, Excel and RDLC; custom report layouts are supported.",
+    "Word and Excel layouts can be customized without a developer; RDLC layouts may require developer help.",
+    "Dataset changes require AL programming.",
+    "Layout pages cover creating, designing, selecting and managing layouts, and mapping data fields.",
+    "Layout pages also cover themes, header/footer layouts and available fonts.",
+    "Dataset pages give an overview of datasets, layouts (Excel, Word, RDL) and request pages.",
+    "Performance guidance addresses AL code, pages and web services."
   ],
   "members_used": 1,
   "subtopics_used": 2,
   "prompt_version": 1,
-  "at": "2026-11-12T00:57:25.952Z",
+  "at": "2026-11-15T00:50:19.177Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.009191
+    "cost_usd": 0.009995
   }
 }

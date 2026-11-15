@@ -1,0 +1,41 @@
+{
+  "item_id": "blog/thinkaboutit-be/8400",
+  "page_id": "post/thinkaboutit-be/8400",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "preview-disclaimer",
+      "quote": "The new Data Query Tools, currently in preview, take a different approach.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2026 release wave 2"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "the new MCP data query capability is currently in preview and Microsoft has announced that it will become billable when generally available.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2026 release wave 2"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "An agent might have permission to read certain data, but that doesn't automatically mean every possible query against that data is efficient or appropriate.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2026 release wave 2"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004656,
+    "posts_in_call": 4
+  }
+}

@@ -1,42 +1,30 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-copy.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-copy",
-  "title": "Copy an environment",
-  "blob": "bcc69559f0793de6fae6dbe2529663b5e7a78ea8",
+  "title": "Copy a Business Central Environment",
+  "blob": "d5fe22c1d4a2b45cdd53e318a29564156e2ca082",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "fact",
-      "text": "Create environment copy with all per-tenant and Marketplace extensions installed in original environment."
+      "kind": "step",
+      "text": "Select Environments, choose environment to copy, select Copy, specify new environment name and type, then confirm."
     },
     {
       "kind": "fact",
-      "text": "Copied environment runs on same application version as original environment."
+      "text": "Copied environment uses same application version; includes all per-tenant and Marketplace extensions from original environment."
     },
     {
       "kind": "limit",
-      "text": "Linked Power Platform environment is not copied; new environment will not be linked."
-    },
-    {
-      "kind": "step",
-      "text": "In Admin Center select Environments then choose the environment to copy."
-    },
-    {
-      "kind": "step",
-      "text": "On Environment Details page choose Copy action."
-    },
-    {
-      "kind": "step",
-      "text": "In Copy environment pane specify environment type and name for new environment."
-    },
-    {
-      "kind": "step",
-      "text": "Choose Create action to start the copy process."
+      "text": "Linked Power Platform environment is not copied; newly created environment will not be linked to any Power Platform environment."
     },
     {
       "kind": "limit",
-      "text": "Sandbox environments with Preview Marketplace apps cannot be copied to Production; update or uninstall Preview apps first."
+      "text": "Sandbox with Preview version Marketplace apps cannot copy to production; update to public version or uninstall first."
+    },
+    {
+      "kind": "fact",
+      "text": "New environment initially shows Preparing status, then Active when fully operational; original environment remains active."
     }
   ],
   "dropped": 0,
@@ -44,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003948,
-      "pages_in_call": 15
+      "cost_usd": 0.006128,
+      "pages_in_call": 8
     }
   ]
 }

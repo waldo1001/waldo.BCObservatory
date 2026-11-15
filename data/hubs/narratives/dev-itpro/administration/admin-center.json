@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/administration/admin-center",
-  "input_hash": "39eabc258cc6717b8449a9182891004c1c1ee392732f18effb98d34a3b65b920",
-  "summary": "The Business Central administration center covers how tenant administrators manage online environments: create, copy, rename, restore, delete, transfer and export them, and control updates, apps, access, capacity, telemetry, notifications and billing. It answers how-to and limit questions for these tasks. A subtopic covers the Admin Center API.",
-  "overview": "The admin center is the portal where tenant administrators run Business Central online environments. The landing page explains access requirements, delegated admin roles (GDAP), and the main areas: environments, notification recipients, telemetry, and support settings.\n\nMost pages are task guides for the Environments tab. They cover creating and copying production and sandbox environments, renaming them, deleting and recovering them, restoring to a point in time, exporting databases as BACPAC files, and transferring environments between Microsoft Entra tenants. Other pages cover ongoing operations: update windows and scheduled updates, managing apps (global apps, per-tenant extensions, DEV extensions), sessions, capacity and storage, and access through security groups and licenses.\n\nMonitoring and cost pages cover environment telemetry with Application Insights, tenant-specific notifications, and consumption-based billing for Copilot and agents. Start with the administration center overview, then go to the Environments page for lifecycle tasks. The Admin Center API subtopic (15 pages) is for automating these tasks.",
+  "input_hash": "28c67a7e68b86b7b6db28e3e5a4b6784a8ad28c8d93f7bf984d8641a6a984ee6",
+  "summary": "The Business Central admin center section covers the portal administrators use to manage production and sandbox environments: copy, rename, delete, restore, transfer, updates, sessions, apps, capacity, access, telemetry, notifications, database export and consumption-based billing. It answers how-to and limit questions about these tasks.",
+  "overview": "The admin center is the portal where tenant administrators manage Business Central online environments. The Environments tab is the main entry point: it shows environment details, creates and copies environments, links to Power Platform, sets update windows and logs admin operations. Related pages cover the environment lifecycle (copy, rename, delete and recover, restore from backup, transfer between tenants) and day-to-day operations (sessions, updates, apps).\n\nOther pages cover governance and monitoring: access through Microsoft Entra security groups and partner access, capacity and quotas, telemetry with Application Insights, notification channels, database export to BACPAC, and consumption-based billing for Copilot and agents. The Admin Center API subtopic (15 pages) covers the programmatic side.\n\nStart with the Business Central Administration Center page for an overview, then Managing Production and Sandbox Environments. Then go to the specific lifecycle or operations page for your task.",
   "key_points": [
-    "Delete keeps an environment soft-deleted for 14 days and allows recovery. After that it is permanently deleted.",
-    "Restore uses automated backups to return an environment to a point in time within 28 days, limited to 10 restores per month.",
-    "Copy creates a duplicate of a production or sandbox environment with the same application version, extensions and configuration, for troubleshooting and testing.",
-    "Database export creates BACPAC files in an Azure storage account using a shared access signature, and export is rate limited.",
-    "Environment transfer between Entra tenants is started by an admin on the source tenant and must be accepted on the destination tenant within 8 hours.",
-    "Renaming an environment changes its URL, so plan for impact on links, integrations and users.",
-    "Update management covers update windows, scheduling to available or planned versions, cancelling updates, preview versions and notification recipients.",
-    "Consumption-based billing for the Expense, Payables and Sales Order agents uses Copilot Credits, either prepaid capacity or pay-as-you-go through Power Platform."
+    "Deleted environments are soft-deleted with 14-day retention for recovery, then hard-deleted; quota exceptions can apply when recovering production environments.",
+    "Backups can be restored from the last 28 days (point-in-time), with a limit of 10 restores per calendar month.",
+    "Transferring an environment between Microsoft Entra tenants is started on the source tenant and must be accepted on the destination tenant within 8 hours; scheduled transfers are supported.",
+    "Copying an environment creates a sandbox or production environment on the same application version, including Marketplace and per-tenant extensions.",
+    "Database export creates BACPAC files in an Azure standard storage account using a shared access signature; export is rate limited.",
+    "Manage Apps handles global apps, per-tenant extensions and development extensions, with dependency resolution and update scheduling.",
+    "Updates are managed through update windows, target versions, and notification recipients; notifications go by email, Message Center, Service Health Dashboard and Application Insights.",
+    "Consumption-based billing for Expense, Payables and Sales Order agents uses Copilot Credits, with prepaid capacity or pay-as-you-go through Power Platform."
   ],
   "members_used": 16,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-19T01:11:38.792Z",
+  "at": "2026-11-15T00:50:17.997Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.024302
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:54:05.688Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the transfer key point says 'an admin' starts the transfer. The source says internal admins start transfers on the source tenant, which is a bit more specific.",
-      "Minor: saying the Admin Center API subtopic is for automating these tasks is a reasonable reading, but only the subtopic's title and page count were given.",
-      "Minor: the summary does not list session management, although the overview covers it."
-    ],
-    "input_hash": "39eabc258cc6717b8449a9182891004c1c1ee392732f18effb98d34a3b65b920",
-    "cost_usd": 0.0466912
+    "cost_usd": 0.038371
   }
 }

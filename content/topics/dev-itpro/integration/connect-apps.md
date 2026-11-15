@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:53.587Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,7 +78,8 @@ links:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270
   guidelines: []
   changes:
-    - change/bcapps/8874
+    - change/bcapps/9702
+    - change/bcapps/9711
 learn_toc_path:
   - Integration
   - Connect apps
@@ -144,7 +145,8 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#8874 [Field Service Integration] Rounding error on Service Line quantity write-back for Item-type service lines with non-divisible durations](../../../changes/bcapps/8874.md) (code change): "Service line quantities synced from Field Service are now properly rounded"
+- [#9702 Default new E-Document services to import v2 and let users select the draft format](../../../changes/bcapps/9702.md) (code change): "New E-Document services now default to the v2 import pipeline, and the Import Process selector"
+- [#9711 Fix E-Document purchase draft header Sub Total overwrite; notify on mismatch](../../../changes/bcapps/9711.md) (code change): "E-Document purchase draft no longer silently overwrites the header Sub Total when lines are edited"
 - [Building BcMCPProxy.exe and Connecting to Claude Desktop (BLOG 3 OF 4)](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270.md) (community post): "This enables Claude to interact with BC through the MCP protocol"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

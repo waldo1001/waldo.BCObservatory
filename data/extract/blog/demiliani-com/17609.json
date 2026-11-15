@@ -5,7 +5,7 @@
   "source": "demiliani-com",
   "published_at": "2026-11-13T10:22:58.000Z",
   "words": 3346,
-  "summary": "This post demonstrates how prompt injection attacks can exploit AI document processing pipelines in Business Central, where hidden text in PDFs manipulates invoice data and approval status, and presents a layered defense strategy including invisible text detection, image-based analysis, strict schemas, and deterministic validation.",
+  "summary": "Demonstrates indirect prompt injection against an external AI invoice extraction pipeline (.NET with Azure OpenAI) that creates payment records in Business Central: hidden white text in a PDF swaps the IBAN and marks the invoice as approved. Presents a five-layer defense: hidden text detection, sending rendered page images to the model, strict schemas, no approval field, and deterministic IBAN checks against vendor master data.",
   "key_points": [
     "Indirect prompt injection occurs when untrusted documents contain hidden instructions that manipulate AI model behavior, posing risk to invoice processing and payment automation",
     "PDFs are effective attack vectors because text extractors capture invisible content (white text, tiny fonts, hidden metadata) that humans cannot see",
@@ -15,8 +15,7 @@
   ],
   "systems": [
     "integration",
-    "finance",
-    "copilot"
+    "finance"
   ],
   "topics": [
     "prompt injection",

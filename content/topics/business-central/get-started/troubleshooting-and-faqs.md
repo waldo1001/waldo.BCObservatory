@@ -2,20 +2,20 @@
 id: topic/business-central/get-started/troubleshooting-and-faqs
 type: topic
 title: Troubleshooting and FAQs
-summary: Troubleshooting and FAQs for Business Central covers the Tell Me search, the Copilot experience, minimum system requirements, and the Business Central app for Microsoft Teams. It answers questions about how these features work, what they need, and how they are controlled.
+summary: "Troubleshooting and FAQ pages for Business Central: Microsoft Teams integration, Tell Me search, Microsoft Copilot, and minimum system requirements. They answer questions about supported browsers and devices, Teams cards and sharing, search behavior, and Copilot licensing and data access."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:26:18.313Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 3e7d624bfa061dd15b43e694eb3e0eee27515a1ec6a55142c9555e797489baf9
+  input_hash: e63bd9e65b6acd695ada970274edf089453936512635e690da411c574772d779
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/teams-faq
@@ -78,26 +78,28 @@ narrative: generated
 
 # Troubleshooting and FAQs
 
-> Troubleshooting and FAQs for Business Central covers the Tell Me search, the Copilot experience, minimum system requirements, and the Business Central app for Microsoft Teams. It answers questions about how these features work, what they need, and how they are controlled.
+> Troubleshooting and FAQ pages for Business Central: Microsoft Teams integration, Tell Me search, Microsoft Copilot, and minimum system requirements. They answer questions about supported browsers and devices, Teams cards and sharing, search behavior, and Copilot licensing and data access.
 
-Path: [Get started](../get-started.md) > Troubleshooting and FAQs · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Get started](../get-started.md) > Troubleshooting and FAQs · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is a set of four standalone pages with short answers to common questions. There are no subtopics, so each page can be read on its own.
+This section collects short question-and-answer pages for common Business Central questions. There are no subtopics, so all content sits on four pages, each focused on one area.
 
-Start with "Minimum requirements in using Business Central" to check supported browsers, mobile operating systems, Outlook, Teams and the Excel add-in. The other pages are feature FAQs: Tell Me for finding actions, pages, reports and records, the Copilot FAQ for licensing, data access and admin controls, and the Teams FAQ for installing and using the Business Central app in Microsoft Teams.
+Three pages are FAQs for specific features: Business Central with Microsoft Teams, Tell Me search, and Microsoft Copilot. The fourth page lists minimum requirements for using Business Central online, including browsers, mobile operating systems, Outlook, Teams, and the Excel add-in.
+
+Start with the minimum requirements page if you are checking whether an environment or device is supported. Use the feature FAQs when a user asks how Teams cards, Tell Me search, or Copilot behave.
 
 ## Key points
 
-- Tell Me searches for actions, pages and reports, and can also search company data. Results are filtered by permissions, and it works on mobile and with custom extensions.
-- The Tell Me FAQ mentions 2023 release wave 2 and 2024 release wave 1.
-- The Copilot FAQ describes a new Copilot experience that replaces Chat with Copilot starting in version 29.
-- Copilot has read-only access to Business Central data, can use Work IQ for Microsoft 365 data, and offers admin access controls and chat capability control.
-- The Copilot FAQ also covers region and language support and troubleshooting.
-- Minimum requirements list Edge, Chrome, Firefox and Safari as supported browsers. Mobile support covers the latest three major versions of Android and iOS.
-- The requirements page also covers Outlook, Teams desktop and web, the Excel add-in, Administration Center browser support and on-premises considerations.
-- The Teams FAQ covers app installation, sign-in, permissions, contact search, card expansion, tabs in chat and mobile support.
+- Teams FAQ covers sign-in, app availability, Business Central tabs, contact search, link cards and card details, guest collaboration, and the Share to Teams action.
+- Tell Me helps users find actions, pages, and reports, can search company data records, filters results by permissions, works on mobile, and includes extension content.
+- Tell Me FAQ references changes in 2023 release wave 2 and 2024 release wave 1.
+- Copilot FAQ covers licensing, data access, capabilities, and troubleshooting for the new Copilot experience that replaces Chat with Copilot starting in version 29.
+- Copilot has read-only access to Business Central data, uses Work IQ for Microsoft 365 data, and has chat capability control, region and language support, and admin access controls.
+- Minimum requirements list supported browsers: Edge, Chrome, Firefox, and Safari.
+- Mobile support covers the latest three major versions of Android and iOS.
+- Requirements also address Outlook, Teams desktop and web, the Excel add-in, Administration Center browser support, and on-premises considerations.
 
 ## Learn pages
 

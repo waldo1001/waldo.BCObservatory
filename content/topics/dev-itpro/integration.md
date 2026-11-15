@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration
 type: topic
 title: Integration
-summary: "Integration in Business Central covers how to connect it to other systems: web services and REST APIs, events and webhooks, Microsoft 365, Dataverse, Power Platform, Fabric, Azure, infrastructure services, Shopify, Dynamics 365 Sales and Field Service. It helps choose an integration approach and find setup, security and troubleshooting guidance."
+summary: "Integration covers how Business Central exchanges data with other systems: web services and REST APIs, events and webhooks, Microsoft 365, Dataverse, Power Platform, Fabric, Azure, infrastructure services, Shopify, Dynamics 365 Sales and Field Service. It helps choose an integration approach and find setup, security and troubleshooting guidance."
 tier: official
 language: en
 system: integration
 review:
   state: reviewed
   by: opus
-  at: "2026-11-08T01:01:45.873Z"
+  at: "2026-11-15T00:50:57.511Z"
   flags: []
 generated:
-  at: "2026-11-14T01:06:08.670Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 735e420d801c725128fe55574eb1adf74a655c1a3ae2b6c1f27f80ca8baafe9e
+  input_hash: d3dad60df504a69f475711a203e01d1061678b0124b4d5265190df5e4942fa00
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/
@@ -389,19 +389,6 @@ links:
     - change/bcapps/11484
     - change/bcapps/11527
     - change/bcapps/13765
-    - change/bcapps/13766
-    - change/bcapps/13822
-    - change/bcapps/9426
-    - change/bcapps/9702
-    - change/bcapps/9711
-    - change/bcapps/9737
-    - change/bcapps/9751
-    - change/bcapps/9772
-    - change/bcapps/9784
-    - change/bcapps/9792
-    - change/bcapps/9796
-    - change/bcapps/9860
-    - change/bcapps/9872
 learn_toc_path:
   - Integration
 toc_file: dev-itpro/TOC.md
@@ -496,28 +483,28 @@ narrative: generated
 
 # Integration
 
-> Integration in Business Central covers how to connect it to other systems: web services and REST APIs, events and webhooks, Microsoft 365, Dataverse, Power Platform, Fabric, Azure, infrastructure services, Shopify, Dynamics 365 Sales and Field Service. It helps choose an integration approach and find setup, security and troubleshooting guidance.
+> Integration covers how Business Central exchanges data with other systems: web services and REST APIs, events and webhooks, Microsoft 365, Dataverse, Power Platform, Fabric, Azure, infrastructure services, Shopify, Dynamics 365 Sales and Field Service. It helps choose an integration approach and find setup, security and troubleshooting guidance.
 
 Path: Integration · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Integration is the entry point for designing data and process connections to and from Business Central. The overview page is written for architects and developers. It maps the options: web services, the REST API stack, built-in integrations, and connections to Microsoft 365, Power Platform, Dynamics 365, Dataverse, Fabric, Shopify and Azure.
+Integration is the entry point for designing connections to and from Business Central. The overview page is written for architects and developers and compares the options: web services, the REST API stack, built-in integrations, and connections to Microsoft 365, Power Platform, Dynamics 365, Dataverse, Fabric, Shopify and Azure.
 
-The subtopics split by technology. Web services (the largest, 294 pages) and Connect apps cover OData, SOAP and API endpoints, authentication and point-to-point REST integrations. Events and webhooks cover notification-based integration. Dataverse, Power Platform and Fabric cover synchronization, virtual tables, apps, flows, reports and mirroring to OneLake. Office and Microsoft 365, Azure services, infrastructure services and Shopify cover the product-specific connections.
+Developer-focused subtopics cover web services (OData, SOAP, API endpoints, security, telemetry), Connect apps (point-to-point REST integrations with partner solutions) and event-based integration (business events and webhooks). Product-focused subtopics cover Office apps and Microsoft 365, Dataverse, Power Platform, Fabric, Azure services, infrastructure services and Shopify.
 
-Two own pages cover Dynamics 365 products: integration with Dynamics 365 Sales through Dataverse, and with Field Service for work orders and project journals. Start with the overview page, then go to the subtopic that matches your target system or integration style.
+Two own pages cover Dynamics 365 products directly: Dynamics 365 Sales through Dataverse, and Dynamics 365 Field Service (work orders synced with project journals). Start with the overview, then go to the subtopic that matches your target system.
 
 ## Key points
 
-- The overview page compares integration options: web services, REST APIs, built-in integrations, and links to Microsoft 365, Power Platform, Dynamics 365, Dataverse, Fabric, Shopify and Azure.
-- Web services cover consuming and publishing OData, SOAP and API endpoints, plus security, tuning and telemetry monitoring.
-- Connect apps focuses on REST API integrations with partner solutions: API pages and queries, OAuth 2.0, service-to-service authentication, OData filters and batch requests.
-- Dynamics 365 Sales integration runs through Dataverse with bidirectional sync, record coupling, unit group mapping, sales order processing and item availability.
-- Dynamics 365 Field Service integration (2021 release wave 2) syncs work orders with project journals and supports resource scheduling and item availability.
-- Fabric integration offers mirroring of Business Central online data into OneLake, with admin setup, monitoring and Copilot Studio agent access.
-- Events integration includes business events (preview) via Dataverse and Power Automate, and webhooks that push notifications on entity changes.
-- Shopify Connector syncs items, prices, inventory, customers and orders, with OAuth setup and troubleshooting.
+- The overview page compares integration options: web services, REST APIs, built-in integrations, and Microsoft 365, Power Platform, Dynamics 365, Dataverse, Fabric, Shopify and Azure connections.
+- Web services is the largest subtopic (294 pages): OData, SOAP and API endpoints, authentication, errors, performance and telemetry.
+- Connect apps covers REST integrations with partner solutions: API pages and queries, OAuth 2.0 and service-to-service authentication, OData filters, batch requests.
+- Event-based integration uses business events (preview) via Dataverse and Power Automate, and webhooks that notify on entity changes.
+- Dynamics 365 Sales integration runs through Dataverse with bidirectional sync, record coupling, unit group mapping, sales order integration and item availability.
+- Dynamics 365 Field Service integration syncs work orders with project journals and covers resource scheduling and item availability (2021 release wave 2).
+- Fabric integration covers choosing a data extraction method and mirroring Business Central online data into OneLake, with admin setup and monitoring.
+- Shopify Connector syncs items, prices, inventory, customers and orders, and uses an OAuth connection.
 
 ## Subtopics
 
@@ -548,19 +535,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11484 [E-Documents Core] - Supported type direction configuration](../../changes/bcapps/11484.md) (code change): "E-Document services now support per-document-type direction configuration"
 - [#11527 E-document payment improvements](../../changes/bcapps/11527.md) (code change): "E-Document payment processing now supports durable, retryable occurrences"
 - [#13765 [E-Document] Set max output tokens for MLLM extraction](../../changes/bcapps/13765.md) (code change): "E-Document MLLM Handler sets an explicit maximum output token budget"
-- [#13766 [E-Document] Set max output tokens for MLLM extraction (29.x)](../../changes/bcapps/13766.md) (code change): "Output token limit is now explicitly configured in MLLM extraction"
-- [#13822 Fix XRechnung export truncating item name to 40 characters](../../changes/bcapps/13822.md) (code change): "XRechnung export now includes the full item description instead of truncating"
-- [#9426 [E-Document Formats] Migrate NAV PRs 247170 and 247176 into BCApps](../../changes/bcapps/9426.md) (code change): "PINT A-NZ and Factura-E e-document formats are migrated to the structured import pipeline"
-- [#9702 Default new E-Document services to import v2 and let users select the draft format](../../changes/bcapps/9702.md) (code change): "E-Document services now default to the v2 import pipeline"
-- [#9711 Fix E-Document purchase draft header Sub Total overwrite; notify on mismatch](../../changes/bcapps/9711.md) (code change): "E-Document purchase draft no longer silently overwrites the header Sub Total"
-- [#9737 [E-Document] Move Data Exchange definitions from labels to app resource files](../../changes/bcapps/9737.md) (code change): "E-Document installation moved eight PEPPOL Data Exchange Definition XMLs"
-- [#9751 Extract invoice date into Invoice Date field and recover due date fro…](../../changes/bcapps/9751.md) (code change): "Invoice Date on the purchase draft is now filled from the extracted invoice date"
-- [#9772 [PA][Pioneer]: Numeric line fields mis-extracted (discount, quantity, unit of measure)](../../changes/bcapps/9772.md) (code change): "E-Document importer now preserves zero quantities instead of forcing them to 1"
-- [#9784 [E-Document Formats] Fix defects in V2 draft migration for XRechnung, PINT A-NZ and Factura-E](../../changes/bcapps/9784.md) (code change): "Fixes defects in the V2 draft import for XRechnung, PINT A-NZ and Factura-E"
-- [#9792 Migrate ZUGFeRD, PEPPOL BIS 3.0 DE, Factur-X FR and Peppol BIS 3.0 FR to the V2 draft import pipeline](../../changes/bcapps/9792.md) (code change): "enabling the draft-based workflow and Copilot-assisted matching previously unavailable for these localized e-document formats"
-- [#9796 Show a message when an e-document file cannot be viewed or no data could be extracted](../../changes/bcapps/9796.md) (code change): "E-document import handling now displays user-friendly messages when a PDF file cannot be displayed"
-- [#9860 [Bug]: [DE] XRechnung/ZUGFeRD - Item Charge lines exported without a valid unit of measure code (BR-CL-23 / BR-23 on BT-130)](../../changes/bcapps/9860.md) (code change): "XRechnung and ZUGFeRD exporters emit allowance/charge structures and adjust totals and tax"
-- [#9872 Add missing telemetry event IDs to E-Document Session.LogMessage calls](../../changes/bcapps/9872.md) (code change): "Added missing telemetry event IDs to E-Document and Avalara connector apps"
 - [What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers](../../videos/gAzmWJg9Z5g.md) (video): "Integration Overview Documentation; New Integration Landing Page"
 
 ## Business Central pages and reports

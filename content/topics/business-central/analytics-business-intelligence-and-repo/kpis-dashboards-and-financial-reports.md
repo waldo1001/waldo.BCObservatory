@@ -2,7 +2,7 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports
 type: topic
 title: KPIs, dashboards, and financial reports
-summary: "KPIs, dashboards, and financial reports in Business Central: how to use KPIs to track business goals, build financial reports from row and column definitions with G/L account categories, and connect to Power BI. It answers questions on report setup, KPI practice, and Power BI integration and apps."
+summary: "KPIs, dashboards, and financial reports in Business Central: using KPIs to track business goals, building financial reports from row and column definitions with G/L account categories, and using Power BI reports and template apps. Answers setup, reporting, and Power BI integration questions."
 tier: official
 language: en
 system: reporting
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f7c0956d521808d9199c02af8bf94dfab35888f14afa039d7a777c8820a06969
+  input_hash: 3379a9ca1fc7598f6fef3b0689e6e1bd0239267c980834e81ca73061df7102fc
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/bi-how-work-account-schedule
@@ -213,7 +213,8 @@ links:
   localizations: []
   videos:
     - video/9g1vwaXmy2s
-  posts: []
+  posts:
+    - post/yzhums-com/71758
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -227,7 +228,7 @@ coverage:
   learn: 14
   code: 84
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 25
@@ -320,28 +321,28 @@ narrative: generated
 
 # KPIs, dashboards, and financial reports
 
-> KPIs, dashboards, and financial reports in Business Central: how to use KPIs to track business goals, build financial reports from row and column definitions with G/L account categories, and connect to Power BI. It answers questions on report setup, KPI practice, and Power BI integration and apps.
+> KPIs, dashboards, and financial reports in Business Central: using KPIs to track business goals, building financial reports from row and column definitions with G/L account categories, and using Power BI reports and template apps. Answers setup, reporting, and Power BI integration questions.
 
 Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > KPIs, dashboards, and financial reports · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how to measure and report on business performance in Business Central. Two pages sit at the top level: one explains KPIs (types, best practices, dashboards, reports, targets, and monitoring), and the other explains how to build financial reports that analyze general ledger accounts and compare them against budgets.
+This section covers how to measure and report on business performance in Business Central. Two pages sit directly in the hub. One explains KPI types, best practices, and the tools for monitoring KPIs through dashboards, reports, and targets. The other explains how to build financial reports that analyze general ledger accounts and compare them against budgets.
 
-The financial report page relies on row definitions, column definitions, and G/L account categories. It lists prerequisites such as chart of accounts structure, dimensions, and G/L budgets, and describes creating a report from scratch or copying an existing one. It is marked for 2025 release wave 1.
+Two subtopics extend this into Power BI. One covers using Business Central data in Power BI: building dashboards and reports, embedding reports in Business Central pages, tracking KPIs with Power BI Goals, and analyzing semantic models in Excel. The other covers the Power BI template apps for each functional area, including installation, calendar choice, licensing, and refresh.
 
-Two subtopics cover Power BI. "Power BI and Business Central" explains getting data into Power BI, embedding reports in Business Central pages, KPI metrics and scorecards, and analyzing semantic models in Excel. "Power BI apps for Business Central" covers installing and configuring the connector and template apps. Start with the KPI page for concepts, then the financial report page for in-product reporting, then the Power BI subtopics for deeper analysis.
+Start with the KPI page to decide what to measure. Then use the financial reports page for G/L-based reports, or go to the Power BI subtopics for dashboards and prebuilt apps.
 
 ## Key points
 
-- The KPI page explains KPI types, best practices, and tools for tracking company health through dashboards, reports, and targets.
-- Financial reports use row definitions and column definitions with G/L account categories to analyze G/L accounts and compare with budgets.
-- Prerequisites for financial reports include chart of accounts structure, dimensions, and G/L budgets.
-- Financial reports can be created from scratch or by copying an existing one (2025 release wave 1).
-- Power BI content covers setup, refresh, sharing, embedding reports in Business Central pages, and metrics and scorecards.
-- Semantic models from Power BI can be analyzed in Excel.
-- Power BI apps include connector and template apps, with setup of fiscal, standard, and week-based calendars.
-- The apps section also covers functional-area apps, drilling back to Business Central, language, and FAQ topics.
+- KPI page explains KPI types, best practices, and tools for dashboards, reports, targets, and monitoring.
+- Financial reports use row definitions and column definitions with G/L account categories to analyze accounts and compare against budgets.
+- Prerequisites for financial reports: chart of accounts structure, dimensions, and G/L budgets (2025 release wave 1 page).
+- Financial reports can be created from scratch or by copying an existing report.
+- Power BI subtopic covers building dashboards and reports, embedding reports in Business Central pages, and tracking KPIs with Power BI Goals.
+- Semantic models from Business Central can be analyzed in Excel.
+- Power BI template apps exist for each functional area, with install and configuration steps.
+- Template apps support a fiscal, standard, or week-based calendar, language testing, back links to source data, and licensing and refresh guidance.
 
 ## Subtopics
 
@@ -358,6 +359,7 @@ Two subtopics cover Power BI. "Power BI and Business Central" explains getting d
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Business Central 2026 release wave 1 (BC28): Get item insights with advanced KPIs and Summary (new Item Statistics page)](../../../posts/yzhums-com/71758.md) (community post): "Item Statistics page that provides financial and performance metrics for items"
 - [What's Cooking in Business Central: Financial Report Scheduling](../../../videos/9g1vwaXmy2s.md) (video): "financial report scheduling; recurring schedules; export to excel"
 
 ## Business Central pages and reports

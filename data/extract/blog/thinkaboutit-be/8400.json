@@ -7,10 +7,11 @@
   "words": 520,
   "summary": "Business Central 2026 release wave 2 introduces new MCP server Data Query Tools that let AI agents dynamically construct and execute AL queries to analyze data across multiple tables without requiring predefined APIs. The tools are read-only, respect user permissions, and include table discovery, schema inspection, and relationship identification capabilities.",
   "key_points": [
-    "Four new system tools enable agents to discover tables, inspect schemas, identify relationships, and execute AL queries dynamically",
-    "Agents no longer need developers to create dedicated APIs for ad hoc analysis across multiple Business Central tables",
-    "Data Query Tools are in preview and will become billable when generally available",
-    "Responsibility shifts from API design to permissions management, agent behavior, and query governance"
+    "Four new read-only MCP system tools let agents find tables, inspect schemas, identify table relations, and compile, validate and run AL queries",
+    "Agents can do ad hoc analysis across several tables without a developer building a dedicated API; compiler errors are returned so the agent can fix its query",
+    "AL query object limits on supported queries, execution time and returned data still apply",
+    "MCP Server Configuration now has a Server Features section and a System Tools section, and admins can toggle the server from the Copilot and Agent Capabilities page",
+    "The data query tools are in preview and will become billable at general availability; governance, permissions and query performance matter more"
   ],
   "systems": [
     "copilot",
@@ -25,24 +26,7 @@
     "apis",
     "preview feature"
   ],
-  "objects": [
-    {
-      "type": "query",
-      "name": "bc_data_find_tables"
-    },
-    {
-      "type": "query",
-      "name": "bc_data_get_table_schema"
-    },
-    {
-      "type": "query",
-      "name": "bc_data_get_table_relations"
-    },
-    {
-      "type": "query",
-      "name": "bc_data_query"
-    }
-  ],
+  "objects": [],
   "features": [
     "MCP server data query tools",
     "dynamic AL query construction",

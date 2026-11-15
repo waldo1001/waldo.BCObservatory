@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -296,6 +296,7 @@ links:
   changes:
     - change/al-go/2441
     - change/bcapps/12671
+    - change/bcapps/13720
     - change/bcapps/13739
     - change/bcapps/9601
     - change/bcquality/177
@@ -380,6 +381,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#2441 Skip test projects when determining release artifacts](../../../changes/al-go/2441.md) (code change): "Skip test projects when determining release artifacts. The DetermineArtifactsForRelease action"
 - [#12671 Fix extension settings actions and repeated marketplace installation](../../../changes/bcapps/12671.md) (code change): "extension lifecycle actions like Uninstall, and prevents repeated marketplace installation prompts"
+- [#13720 Split the MS-STD configuration package into functional-area packages](../../../changes/bcapps/13720.md) (code change): "MS-STD configuration package is split into nine functional-area packages"
 - [#13739 [Master]-Sales/Purchase Price List activation allows Duplicate Lines when the Price List is Inactive.](../../../changes/bcapps/13739.md) (code change): "Price list activation no longer allows duplicate lines when the list was inactive"
 - [#9601 Reset workflow templates no longer removes steps from active workflows](../../../changes/bcapps/9601.md) (code change): "Reset workflow templates no longer removes steps from active workflows"
 - [#177 Add retention policy knowledge to the privacy domain](../../../changes/bcquality/177.md) (code change): "Added guidance to the privacy domain in BCQuality about registering extension-owned tables"

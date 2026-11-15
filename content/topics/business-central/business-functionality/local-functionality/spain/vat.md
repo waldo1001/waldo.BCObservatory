@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:01:53.027Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -145,6 +145,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10023
+    - change/bcapps/13414
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -240,6 +241,7 @@ For electronic filing, you first create text or XML templates (Transference Form
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10023 [Master]-Customer Ledger Bill Entries display default Customer Posting Group instead of Alternative Customer Posting Group set on Sales Documents in the Spanish version.](../../../../../changes/bcapps/10023.md) (code change): "Invoice split payment posting in the Spanish version now preserves the alternative customer posting group"
+- [#13414 [Main]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version](../../../../../changes/bcapps/13414.md) (code change): "Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version"
 
 ## Business Central pages and reports
 

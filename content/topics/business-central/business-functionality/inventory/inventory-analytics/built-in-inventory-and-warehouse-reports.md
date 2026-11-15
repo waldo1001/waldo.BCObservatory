@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:06.979Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -312,6 +312,8 @@ links:
   changes:
     - change/bcapps/10663
     - change/bcapps/12579
+    - change/bcapps/13607
+    - change/bcapps/13801
     - change/bcapps/9081
     - change/bcapps/9582
     - change/bcapps/9774
@@ -434,6 +436,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10663 [Main]-Stock card report shows incorrect received quantity](../../../../../changes/bcapps/10663.md) (code change): "Stock Card report now correctly shows received quantities and costs"
 - [#12579 [master] Item Age Composition by Quantity and Value report issue](../../../../../changes/bcapps/12579.md) (code change): "Item Age Composition report now displays correct header values"
+- [#13607 [Main][ALL-E] Report 713 "Inventory Custmer Sales" – Excel (data only) export generates one row per Item Ledger Entry with NULL values instead of one aggregated row per Item/Customer combinationInitial commit](../../../../../changes/bcapps/13607.md) (code change): "Report 713 now correctly exports aggregated rows per Item/Customer combination"
+- [#13801 [29.x][ALL-E] Report 713 "Inventory Custmer Sales" – Excel (data only) export generates one row per Item Ledger Entry with NULL values instead of one aggregated row per Item/Customer combination - Copy](../../../../../changes/bcapps/13801.md) (code change): "Report 713 now exports aggregated rows per Item/Customer combination instead of duplicate rows"
 - [#9081 Bug 637846: Item Age Composition '...before' quantity reflected only last entry](../../../../../changes/bcapps/9081.md) (code change): "Report 5808 now correctly displays item age composition quantities"
 - [#9582 636017 Move Inventory report action tooltips to report objects](../../../../../changes/bcapps/9582.md) (code change): "Report action tooltips for 11 inventory reports are moved from page actions to the report objects themselves"
 - [#9774 [Extensibility Request] issue 30378: add OnItemVariantOnAfterGetRecordOnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report](../../../../../changes/bcapps/9774.md) (code change): "Item Sales Statistics report when "Only Items with Sales" and "Breakdown By Variant" are both enabled"

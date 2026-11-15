@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:25.040Z"
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -404,7 +404,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9224 [main] GitHub event batch 1746](../../../changes/bcapps/9224.md) (code change): "Whse.-Source - Create Document. The description does not say what each fix does"
 - [#9333 [Main]-Bin content Block Movement does not prevent outbound posting for negative adjustments and sales orders](../../../changes/bcapps/9333.md) (code change): "Warehouse management logic updated to enforce bin content block rules consistently"
 - [Direct transfers from warehouse-enabled locations in Business Central 2026 wave 2](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1366699589934952404--4ab2425610.md) (community post): "Direct transfers now support outbound warehouse handling at the source location"
-- [Shop Floor and Warehouse Mobile for Business Central](../../../posts/olofsimren-com/3981.md) (community post): "warehouse mobile pages let operators handle warehouse receipts, picks, counts, and transfers"
+- [Shop Floor and Warehouse Mobile for Business Central](../../../posts/olofsimren-com/3981.md) (community post): "barcode scanning, task-focused pages, and label printing integration"
 - [Dutch Dynamics Community Event 18 november 2025](../../../posts/vondervoort-be/67.md) (community post): "connecting Business Central to Dynamics 365 Supply Chain Management Warehouse Only Mode for advanced warehousing"
 - [What's New: Warehouse Management (2023 release wave 2)](../../../videos/8KMcu4B_eTk.md) (video): "put-away templates; bin policy; warehouse configuration; picking by ranking"
 - [What's new in SCM: Subcontracting (2026 release wave 2)](../../../videos/QdWPlIV3Avk.md) (video): "Warehouse integration for subcontracting; Warehouse receipt for subcontracting operations"

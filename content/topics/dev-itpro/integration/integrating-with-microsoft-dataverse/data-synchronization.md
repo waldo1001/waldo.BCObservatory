@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.961Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -145,6 +145,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/13579
+    - change/bcapps/13928
 learn_toc_path:
   - Integration
   - Integrating with Microsoft Dataverse
@@ -226,6 +227,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#13579 Fix synchronization error event record context](../../../../changes/bcapps/13579.md) (code change): "LogSynchError passes the populated, inserted IntegrationSynchJobErrors record"
+- [#13928 Bug 658681: [Master Data Management] Support certificate secret for cross-environment synchronization](../../../../changes/bcapps/13928.md) (code change): "cross-environment master data synchronization now supports certificate authentication"
 - [Credentials setup on Microsoft Fabric Mirroring in Business Central](../../../../posts/bertverbeek-nl/1353.md) (community post): "data synchronization; azure; authentication"
 - [Dynamics 365 Business Central Blog Series: Integrate with Microsoft Dataverse](../../../../posts/yzhums-com/63916.md) (community post): "data synchronization, connector setup, oauth authentication, table mapping"
 - [Business Central 2026 release wave 1 (BC28): Map new Dataverse fields (New and custom Dataverse tables are readily available for mapping from the lookup on Integration Table column)](../../../../posts/yzhums-com/71914.md) (community post): "New fields added to Dataverse can now be mapped through the Integration Table Mappings page"

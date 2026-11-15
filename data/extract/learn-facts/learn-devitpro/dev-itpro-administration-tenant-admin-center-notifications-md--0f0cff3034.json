@@ -2,42 +2,42 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-notifications.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-notifications",
   "title": "Manage Tenant-Specific Notifications",
-  "blob": "a601574ef6d6680d4ec3b69bd77025df5f8d3982",
+  "blob": "f7fa0e2007b05287f67406f16411e1e09d66c69e",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Notification recipients receive email when major updates are available, updates succeed or fail, and extensions require compatibility changes."
+      "text": "Admin center sends email notifications when major updates available, environment updates succeed or fail, or extensions need compatibility changes."
     },
     {
       "kind": "fact",
-      "text": "Notifications are sent to all email addresses listed in the Notification recipients list of the admin center."
+      "text": "At least one administrator email must be registered as notification recipient to ensure awareness of events requiring action."
+    },
+    {
+      "kind": "fact",
+      "text": "Up to 100 notification recipients can be added; use distribution lists to support more recipients."
     },
     {
       "kind": "limit",
-      "text": "Up to 100 notification recipients can be added; use a distribution list to support more recipients."
+      "text": "Email notifications are being replaced by Microsoft 365 Message Center; over time emails will be a subset of Message Center posts."
     },
     {
       "kind": "fact",
-      "text": "Most environment lifecycle events posted to email are also posted to Microsoft 365 Message Center."
+      "text": "Application Insights telemetry includes most complete list of environment lifecycle events for automation and reporting."
     },
     {
       "kind": "fact",
-      "text": "If an incompatible app is not uninstalled after 4-5 months of notifications, Microsoft force-uninstalls the app without deleting data."
-    },
-    {
-      "kind": "fact",
-      "text": "Trial prospects must sign up for notifications to receive alerts about trial expiration and environment status."
+      "text": "If app incompatibility blocks updates, Microsoft sends 10 weeks of emails, then 6 weeks in-product notifications, then force-uninstall after 4-5 months."
     }
   ],
-  "dropped": 1,
+  "dropped": 0,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00629,
-      "pages_in_call": 8
+      "cost_usd": 0.006313,
+      "pages_in_call": 6
     }
   ]
 }

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:35.729Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,8 +43,7 @@ links:
   localizations: []
   videos:
     - video/QfOgUCXg94o
-  posts:
-    - post/olofsimren-com/3981
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/12541
@@ -60,7 +59,7 @@ coverage:
   learn: 2
   code: 0
   video: 1
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 9ccdd9e7e9bad805088944decb0326d86609c8ea8f5410293df87f6fb89326ee
@@ -102,7 +101,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12541 Preserve transfer line UOM when toggling Direct Transfer](../../../../changes/bcapps/12541.md) (code change): "Warehouse protection is made explicit: mode changes are rejected only when matching warehouse lines exist"
 - [#13724 Bug 651757: Allow warehouse pick for MTO subassembly after registered put-away](../../../../changes/bcapps/13724.md) (code change): "warehouse pick for MTO subassembly after registered put-away"
-- [Shop Floor and Warehouse Mobile for Business Central](../../../../posts/olofsimren-com/3981.md) (community post): "Solution is built entirely as an AL extension inside Business Central, extending existing production orders and warehouse documents"
 - [What's New: Concurrency in Warehousing (2024 release wave 1)](../../../../videos/QfOgUCXg94o.md) (video): "Concurrent warehouse entry posting"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

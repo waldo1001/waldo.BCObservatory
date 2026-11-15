@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:17:54.624Z"
   flags: []
 generated:
-  at: "2026-10-25T12:48:45.251Z"
+  at: "2026-11-15T00:44:19.225Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -67,7 +67,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/576815
   topics: []
   localizations: []
   videos: []
@@ -134,10 +135,12 @@ features:
     verified: false
     status_source: video
   - name: Uninstall apps from Admin Center
-    status: unclear
+    status: ga
     t: 375
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576815"
 objects_mentioned: []
 quotes:
   - t: 0
@@ -193,16 +196,16 @@ The demo covers updating apps that have dependencies, scheduling updates and ins
 
 ## Features
 
-Every feature below: status not stated, demoed.
+| Feature | Status | At |
+|---|---|---|
+| All apps view with update actions | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=22duXC6j_No&t=99s) |
+| Action required status for dependent apps | status not stated, demoed | [2:45](https://www.youtube.com/watch?v=22duXC6j_No&t=165s) |
+| Installation scheduling options | status not stated, demoed | [6:40](https://www.youtube.com/watch?v=22duXC6j_No&t=400s) |
+| App installation from Admin Center | status not stated, demoed | [6:29](https://www.youtube.com/watch?v=22duXC6j_No&t=389s) |
+| Operations page for installation monitoring | status not stated, demoed | [7:51](https://www.youtube.com/watch?v=22duXC6j_No&t=471s) |
+| Uninstall apps from Admin Center | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [6:15](https://www.youtube.com/watch?v=22duXC6j_No&t=375s) |
 
-| Feature | At |
-|---|---|
-| All apps view with update actions | [1:39](https://www.youtube.com/watch?v=22duXC6j_No&t=99s) |
-| Action required status for dependent apps | [2:45](https://www.youtube.com/watch?v=22duXC6j_No&t=165s) |
-| Installation scheduling options | [6:40](https://www.youtube.com/watch?v=22duXC6j_No&t=400s) |
-| App installation from Admin Center | [6:29](https://www.youtube.com/watch?v=22duXC6j_No&t=389s) |
-| Operations page for installation monitoring | [7:51](https://www.youtube.com/watch?v=22duXC6j_No&t=471s) |
-| Uninstall apps from Admin Center | [6:15](https://www.youtube.com/watch?v=22duXC6j_No&t=375s) |
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

@@ -6,14 +6,39 @@
   "title": "[29.x][ALL-E] Report 713 \"Inventory Custmer Sales\" – Excel (data only) export generates one row per Item Ledger Entry with NULL values instead of one aggregated row per Item/Customer combination - Copy",
   "url": "https://github.com/microsoft/BCApps/pull/13801",
   "published_at": "2026-11-12T10:14:08Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-13T00:13:31.718Z"
+    },
+    "fetched": {
+      "at": "2026-11-15T00:20:39.860Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-15T00:20:50.075Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00345
+    },
+    "linked": {
+      "at": "2026-11-15T00:20:50.179Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "229c71f1927eed3c6f5f2cac1e8701b916c315fb"
+    },
+    "published": {
+      "at": "2026-11-15T00:20:50.183Z",
+      "path": "content/changes/bcapps/13801.md"
     }
   },
   "input_hash": "c97b2249a827e8d9cf822b5c45488438f805c236:c1",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13801,
@@ -29,6 +54,12 @@
     "community_contribution": false,
     "title_key": "all e report 713 inventory custmer sales excel data only export generates one row per item ledger entry with null values instead of one aggregated row per item customer combination copy"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-11-14T04:17:36.547Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "903fc0193922bc3cc1ee17131b6f18a11dcc7d28c81b18ef47e13e0d20a2e3f4",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-15T00:48:09.860Z"
+  }
 }

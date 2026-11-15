@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/get-started/get-productive-in-business-central",
-  "input_hash": "bc370b148bef4cade3cf84954b627c8be216ff62714fe7511b80998313a0d38d",
-  "summary": "Everyday use of Business Central: settings, data entry, dates, search (Tell Me, Role Explorer), sorting and filtering, notifications, attachments, Copilot, and performance tips. It also links to subtopics on Microsoft 365 apps, personalization, reports, document layouts, sharing, and accessibility.",
-  "overview": "This section helps new and existing users work efficiently in Business Central. Its own pages cover the basics: changing My Settings (role, company, work date, region, language, time zone), switching companies or environments, entering data and dates, recognizing required fields, and handling warnings and error messages.",
+  "input_hash": "14df05c0f3b37f9f30a9ee5089b9b5dd91e397884a2c64646c5c412144a6a554",
+  "summary": "Everyday use of Business Central: basic settings, data entry, dates, search with Tell Me and Role Explorer, filtering, notifications, attachments, company switching, errors, performance and Copilot. Subtopics cover Microsoft 365 apps, personalization, reports, document layouts, sharing and accessibility.",
+  "overview": "This section helps users work efficiently in the Business Central web client. Its own pages cover the basics: My Settings (role, company, work date, region, language, time zone), entering data and dates, mandatory field markers, sorting, searching and filtering lists, and managing attachments, links, notes and notifications.\n\nFinding things is handled by several pages: Tell Me (with its FAQ and an Advanced semantic search tab), Role Explorer, and Search for Specific Data. Other pages cover switching company or environment, multilanguage and localization, reading error messages, performance tips and the Performance Profiler, camera and location troubleshooting, and Copilot in preview.\n\nSubtopics go deeper on Microsoft 365 integration (Excel, Word, Outlook, Teams, OneDrive), personalization, running and printing reports, report and document layouts, sharing business data, and accessibility with keyboard shortcuts and touch gestures. New users can start with Working with Business Central, Change Basic Settings and Tell Me.",
   "key_points": [
     "My Settings controls role, company, work date, region, language, time zone and notifications.",
-    "Tell Me finds pages, actions, reports, data and help; the Advanced tab adds AI-powered semantic search. Role Explorer shows pages and reports per role.",
-    "Sorting, searching and filtering use operators such as >, <, =, <>, |, .., &, *, ? and tokens such as %me and %user; modern search matches words.",
+    "Tell Me finds actions, pages, reports, data and help; the Advanced tab uses AI-powered semantic search when enabled.",
+    "Filtering supports operators (>, <, =, <>, |, .., &, *, ?) and tokens such as %me, %user, %mycustomers, %myitems and %myvendors; modern word-matching search is described for 2024 release wave 1.",
     "Red asterisks mark fields expected for a process but do not enforce validation or block posting.",
-    "Attachments, links and notes are managed in the FactBox Attachments tab, including on document lines.",
-    "Notifications can be dismissed and configured with filter conditions; error messages can be shared through Teams or email.",
-    "The Performance Profiler records snapshots with call trees and time spent; the performance tips page covers browser, caching, quick entry and filtering.",
-    "Copilot in Business Central (preview) answers questions about company data with read-only access, starting in version 29."
+    "Attachments, links and notes are managed in the FactBox Attachments tab and can be tied to document lines.",
+    "Notifications can be dismissed and configured with filter conditions; error messages can be shared through Teams and email.",
+    "Performance Profiler records snapshots with call trees and time spent; it can be shared and downloaded.",
+    "Copilot in Business Central (preview) gives read-only answers about company data, starting in version 29."
   ],
   "members_used": 19,
   "subtopics_used": 6,
   "prompt_version": 1,
-  "at": "2026-11-12T00:57:18.974Z",
+  "at": "2026-11-15T00:50:11.966Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.023381
+    "cost_usd": 0.028791999999999998
   }
 }

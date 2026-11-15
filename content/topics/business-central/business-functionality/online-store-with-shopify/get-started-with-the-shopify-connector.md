@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:59.535Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -55,12 +55,6 @@ links:
     - change/bcapps/12214
     - change/bcapps/12215
     - change/bcapps/12260
-    - change/bcapps/9313
-    - change/bcapps/9316
-    - change/bcapps/9317
-    - change/bcapps/9318
-    - change/bcapps/9320
-    - change/bcapps/9327
 learn_toc_path:
   - Business functionality
   - Online store with Shopify
@@ -124,12 +118,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12214 [Shopify] Store currency handling for auto-created orders](../../../../changes/bcapps/12214.md) (code change): "Shopify connector now persists the currency handling mode used"
 - [#12215 [Shopify] Link grouped invoice to all originating orders](../../../../changes/bcapps/12215.md) (code change): "Invoice document linking to Shopify orders now correctly associates"
 - [#12260 [Shopify] Fix shop card transaction navigation](../../../../changes/bcapps/12260.md) (code change): "Shopify Shop Card payment transaction navigation now opens the correct"
-- [#9313 [Shopify] Fix Product Sync deleting mapped variants on stale Updated At timestamp](../../../../changes/bcapps/9313.md) (code change): "Fix Product Sync deleting mapped variants on stale Updated At timestamp"
-- [#9316 [Shopify] Preserve manually set Sell-to Customer No. when Bill-to mapping fails](../../../../changes/bcapps/9316.md) (code change): "Shopify Connector bug where manually set Sell-to Customer No. was overwritten"
-- [#9317 [Shopify] Add Companies to Shopify navigation menu](../../../../changes/bcapps/9317.md) (code change): "Companies action added to Shopify navigation menu in three role centers"
-- [#9318 [Shopify] Fix Get Catalogs tooltip to explain company dependency](../../../../changes/bcapps/9318.md) (code change): "Fix Get Catalogs tooltip to explain company dependency"
-- [#9320 [Shopify] Import HS code and country of origin from Shopify](../../../../changes/bcapps/9320.md) (code change): "Import HS code and country of origin from Shopify"
-- [#9327 [Shopify] Migrate Shopify Connector to Expiring Offline Access Tokens](../../../../changes/bcapps/9327.md) (code change): "The Shopify Connector now supports Shopify's expiring offline access tokens with automatic refresh-token rotation"
 - [What's New: Shopify Connector - Overview (2026 release wave 1)](../../../../videos/B-pxLlb-UN0.md) (video): "Shopify collections import and mapping; Item import from Shopify with product details"
 
 ## Business Central pages and reports

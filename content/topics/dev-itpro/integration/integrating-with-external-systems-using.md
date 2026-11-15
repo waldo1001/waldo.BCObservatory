@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:51.650Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -56,6 +56,7 @@ links:
     - change/bcapps/13174
     - change/bcapps/13507
     - change/bcapps/13508
+    - change/bcapps/8874
     - change/bcapps/9014
     - change/bcapps/9124
     - change/bcapps/9208
@@ -118,9 +119,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13174 [E-Documents] Remove the PDF reader service credit memo upgrade](../../../changes/bcapps/13174.md) (code change): "Removes obsolete upgrade code with no behavior change"
 - [#13507 [E-Document] Add AKV switch for PA-related LLM calls](../../../changes/bcapps/13507.md) (code change): "E-Document AI processing now supports switching between LLM models"
 - [#13508 [E-Document] Add AKV switch for PA LLM calls (29.x)](../../../changes/bcapps/13508.md) (code change): "E-Document AI processing now supports switching between different LLM models"
+- [#8874 [Field Service Integration] Rounding error on Service Line quantity write-back for Item-type service lines with non-divisible durations](../../../changes/bcapps/8874.md) (code change): "Service line quantities synced from Field Service are now properly rounded"
 - [#9014 [E-Document] Remove Access = Internal from E-Doc. Data Exchange Impl. codeunit](../../../changes/bcapps/9014.md) (code change): "Partners can now call its functions from their own E-Document implementations"
-- [#9124 [E-Document] [Payables Agent] Users can personalize-in the Name column on the draft page](../../../changes/bcapps/9124.md) (code change): "New OnAfterGetMatchedEntityName integration event for connector apps"
-- [#9208 [Enforced Digital Vouchers] - Attaching EDocuments when using Digital Vouchers](../../../changes/bcapps/9208.md) (code change): "Attaching EDocuments when using Digital Vouchers"
+- [#9124 [E-Document] [Payables Agent] Users can personalize-in the Name column on the draft page](../../../changes/bcapps/9124.md) (code change): "E-Document purchase draft lines subform now includes a read-only Name column"
+- [#9208 [Enforced Digital Vouchers] - Attaching EDocuments when using Digital Vouchers](../../../changes/bcapps/9208.md) (code change): "Digital Vouchers now automatically attach generated E-Documents to posted sales"
 - [Debugging Business Event Subscriptions in Business Central](../../../posts/aardvarklabs-blog/2907.md) (community post): "Business Event Subscriptions which function as web hooks"
 - [Azure Function SQL Trigger: how to use it (and why it can be useful in your Business Central projects)](../../../posts/demiliani-com/11817.md) (community post): "external systems can push data to Business Central automatically when changes occur"
 - [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c.md) (community post): "export data from Business Central to CSV format using the CSV Buffer table"

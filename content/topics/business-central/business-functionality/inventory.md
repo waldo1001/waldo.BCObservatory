@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/inventory
 type: topic
 title: Inventory
-summary: Inventory in Business Central covers item setup, counting and adjustment, tracking by serial, lot and package numbers, reservations, transfers, availability, variants, BOMs and responsibility centers. It answers how-to questions about managing items and stock. A subtopic covers inventory analytics.
+summary: Inventory in Business Central covers item setup, counting and adjusting stock, availability, reservations, item tracking, transfers, bills of material and inventory analytics. It answers how-to questions about creating and managing items and moving or tracing stock.
 tier: official
 language: en
 system: inventory
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:14:33.447Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 37d83f5a31238a00ebef49c2e3d1361d8b7ad4ba7e6c3b926dace21b165d6520
+  input_hash: d91a63e0499e23fe1658739c073a728ae032a2a885642710f70e9e24d9f43771
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis
@@ -446,6 +446,10 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10150
+    - change/bcapps/13552
+    - change/bcapps/13855
+    - change/bcapps/13898
+    - change/bcapps/13926
     - change/bcapps/9180
     - change/bcapps/9531
     - change/bcapps/9602
@@ -577,28 +581,28 @@ narrative: generated
 
 # Inventory
 
-> Inventory in Business Central covers item setup, counting and adjustment, tracking by serial, lot and package numbers, reservations, transfers, availability, variants, BOMs and responsibility centers. It answers how-to questions about managing items and stock. A subtopic covers inventory analytics.
+> Inventory in Business Central covers item setup, counting and adjusting stock, availability, reservations, item tracking, transfers, bills of material and inventory analytics. It answers how-to questions about creating and managing items and moving or tracing stock.
 
-Path: [Business functionality](../business-functionality.md) > Inventory · tier official · system inventory · narrative reviewed (checked by Opus)
+Path: [Business functionality](../business-functionality.md) > Inventory · tier official · system inventory · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Inventory section describes how to define and maintain items and keep stock accurate. It starts with item cards, item templates, categories, attributes, variants, catalog items and item references. It then covers daily stock work: physical counts, adjustments, reclassification, transfers between locations, reservations and blocking items from use.
+The Inventory section explains how to define and maintain items and then control the stock. Setup pages cover item cards (types, costing methods, templates, pricing, replenishment, substitutions), variants, catalog items, categories, attributes, item references, responsibility centers and bills of material. Copilot can suggest marketing text for items.
 
-Further pages cover item tracking with serial, lot and package numbers, including setup of tracking codes, assigning numbers on documents and tracing items forwards and backwards. Other pages cover availability overviews, bills of material for assembly and production, responsibility centers, and Copilot-generated marketing text for items. The Inventory analytics subtopic holds Power BI apps, built-in reports and ad-hoc analysis.
+Day-to-day pages cover counting and adjusting inventory (physical inventory orders and recordings, or journals with cycle counting), reclassification, transfers between locations, reservations, blocking items, and availability overviews. Item tracking pages cover setting up serial, lot and package tracking codes, assigning numbers on transactions, and tracing tracked items through posted entries.
 
-Start with "Managing inventory" for the overall picture, then "Create item cards for goods or services". After that, go to the page for the task at hand, such as counting, tracking or transfers.
+Start with "Managing inventory" for the overall picture, then "Create item cards for goods or services". The Inventory analytics subtopic (56 pages) covers Power BI apps, built-in and legacy reports, and ad-hoc analysis of item ledger entries.
 
 ## Key points
 
-- Item cards set up item types, costing methods, pricing, replenishment, variants and substitutions; item templates speed up creation.
-- Items can be organized with categories (including parent categories) and item attributes, which can be used to filter items and for web shop searches.
-- Physical counts can use physical inventory orders with inventory recordings, or journals with cycle counting periods and expected inventory calculation.
-- Item tracking codes set up serial, lot and package tracking, expiration dates, warranty formulas and warehouse tracking; items can be traced usage to origin and origin to usage.
-- Transfers between locations use transfer orders or item reclassification journals, with standard or direct transfers and optional in-transit tracking.
-- Items and item variants can be blocked for sales, purchasing, service, production or all transactions.
-- Reservations work across sales, purchase, service, assembly, transfer and production orders, with auto reserve, bulk reservations and cancellation.
-- Variants track sizes, colors or configurations under one item; item references map internal codes to vendor or customer terms, and support barcode scanning.
+- Item cards define item types, costing methods, pricing, replenishment, variants and substitutions; item templates speed up creation.
+- Catalog items represent vendor products not yet in inventory and can be converted to regular items when sold.
+- Physical counts use physical inventory orders and recordings, or journals with cycle counting periods and adjustment bins.
+- Items or variants can be blocked for sales, purchasing, service, production or all transactions.
+- Reservations work for sales, purchase, service, assembly, transfer and production orders, with auto reserve, bulk reservations and allocation policies.
+- Item tracking codes support serial, lot and package numbers, with expiration dates, warranty formulas and warehouse tracking; Item Tracing and Find Entries trace them.
+- Transfers use transfer orders (standard or direct, with optional in-transit location) or item reclassification journals.
+- Bills of material come as assembly BOMs for simple processes and production BOMs with routings, work centers and machine centers.
 
 ## Subtopics
 
@@ -644,6 +648,10 @@ Start with "Managing inventory" for the overall picture, then "Create item cards
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10150 [Bug 617189] Clarify strict expiration posting tooltip](../../../changes/bcapps/10150.md) (code change): "Strict Expiration Posting in Item Tracking Code now clarifies that it uses"
+- [#13552 [Main]- Warehouse shipment item tracking inherits the source line's stale pick bin on the Transfer and Purchase-Return branches, so a second partial shipment fails with "You cannot select more than 0 units"](../../../changes/bcapps/13552.md) (code change): "Warehouse shipment item tracking inherits the source line's stale pick bin"
+- [#13855 [Main][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank](../../../changes/bcapps/13855.md) (code change): "Fixed decimal item attribute lookup to correctly distinguish between blank and zero values"
+- [#13898 [29.x][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank](../../../changes/bcapps/13898.md) (code change): "Decimal item attributes now correctly handle entering 0 after clearing a value to blank"
+- [#13926 Bug 648938: Transfer Routes matrix does not indicate configured direct routes](../../../changes/bcapps/13926.md) (code change): "Transfer Routes matrix does not indicate configured direct routes"
 - [#9180 Copy record links to posted Phys. Invt. Order and Recording headers](../../../changes/bcapps/9180.md) (code change): "Record links attached to physical inventory order and recording headers are now copied"
 - [#9531 [Master]- Report 152 "Calculate Low Level Code" terminates with error: "Cannot add instance as another with key %1 has already been added." after upgrade to v28.1](../../../changes/bcapps/9531.md) (code change): "items with multiple SKUs sharing the same Production BOM"
 - [#9602 User experience for adding attribute in item categories is wrong](../../../changes/bcapps/9602.md) (code change): "The user experience for adding attributes to item categories was corrected by modifying the item category attributes page"

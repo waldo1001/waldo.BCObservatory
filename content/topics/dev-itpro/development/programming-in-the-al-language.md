@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language
 type: topic
 title: Programming in the AL language
-summary: "Programming in the AL language covers the fundamentals of writing AL code for Business Central: variables, triggers, operators and language elements, plus tables, pages, reports, events, security, APIs, telemetry and background processing. It helps answer syntax, design and how-to questions for extension developers."
+summary: "Programming in the AL language covers how to write Business Central code: language fundamentals, tables and data, pages, reports, events, error handling, security, background tasks, APIs, telemetry and external calls. It answers syntax, design, and how-to questions for AL developers."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-11-10T00:57:30.077Z"
+  at: "2026-11-15T00:50:59.680Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d03f0a40f4dc13c225fc96e640ba1adee8c4b44dc0efd52a8a4f1261d392f114
+  input_hash: d0b04432ee749424c0d6c5d215a31be4b004ca33dc8a888f0e823dd098fbc4ac
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dotnet-controladdins
@@ -452,28 +452,28 @@ narrative: generated
 
 # Programming in the AL language
 
-> Programming in the AL language covers the fundamentals of writing AL code for Business Central: variables, triggers, operators and language elements, plus tables, pages, reports, events, security, APIs, telemetry and background processing. It helps answer syntax, design and how-to questions for extension developers.
+> Programming in the AL language covers how to write Business Central code: language fundamentals, tables and data, pages, reports, events, error handling, security, background tasks, APIs, telemetry and external calls. It answers syntax, design, and how-to questions for AL developers.
 
 Path: [Development](../development.md) > Programming in the AL language · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
-AL is the language used to manipulate data, control application objects, create business rules and write code in triggers across tables, pages, reports and other objects. The entry page, Programming in AL, introduces variable declarations, protected variables, trigger types, code reuse and security patterns.
+This section starts with a general page, "Programming in AL", on language fundamentals: manipulating data, controlling application objects, creating business rules, and writing code in triggers across tables, pages, reports and other objects. It mentions variable declarations, protected variables, trigger types, code reuse and security patterns.
 
-The subtopics then split by area. Core language material sits in Program building blocks (operators, statements, access modifiers, XML comments), Language elements, Error handling and Formatting values. Object-focused areas are Tables and data, Pages and the user interface, and Developing reports. Integration and runtime areas include Events, Handling security, Running things in the background, Developing APIs, Calling external services, Instrumenting with telemetry, Accessing device capabilities, Developing printer extensions and Using .NET (on-premises only).
+The subtopics split the work by area. Program building blocks and Language elements cover the core language. Tables and data, Pages and the user interface, and Developing reports cover the main object types. Events, Error handling, Formatting values and Handling security cover how code behaves and is protected. Running things in the background, Developing APIs, Calling external services, Instrumenting with telemetry, Accessing device capabilities, Developing printer extensions and Using .NET (on-premises only) cover integration and runtime concerns.
 
-Start with Programming in AL and Program building blocks for syntax, then go to the object area you are building (tables, pages or reports). Use Events to extend behavior without changing original code, and Error handling and Handling security for robust, safe extensions.
+Start with the Programming in AL page and Program building blocks for the basics, then go to the object-type subtopic you are building (tables, pages or reports). Use Events to extend the base application without changing its code.
 
 ## Key points
 
-- Programming in AL introduces variable declarations, protected variables, trigger types, code reuse and security patterns.
-- Program building blocks covers operators, statements, system-defined variables, access modifiers and XML comments.
-- Error handling covers try methods, collectible errors, actionable errors with Fix-it and Show-it actions, and error telemetry.
-- Tables and data covers records, queries, FlowFields, SIFT and NCCI indexing, DataTransfer, number sequences, and XMLport or Excel import and export.
-- Developing reports covers Word, Excel and RDL layouts, request pages, report extensions, substitution and obsoleting.
-- Events covers publishing, raising and subscribing, isolated events, and discovery with Event Recorder.
-- Handling security covers permission sets, entitlements, Azure Key Vault secrets, Isolated Storage and SecretText.
-- Background processing options are page background tasks, Session.StartSession, the task scheduler and the job queue.
+- Programming in AL page: variable declarations, protected variables, trigger types, code reuse and security patterns.
+- Program building blocks: operators, statements, system-defined variables, access modifiers and XML comments.
+- Tables and data: tables, records, queries, FlowFields, SIFT and NCCI indexing, streaming, XMLport and Excel import/export, number sequences, DataTransfer.
+- Developing reports: report objects, datasets, request pages, Word, Excel and RDLC/RDL layouts, report extensions, performance and troubleshooting.
+- Events: publishing, raising and subscribing, isolated events, and the Event Recorder for discovering events.
+- Error handling: try methods, collectible errors, actionable errors with Fix-it and Show-it actions, and error telemetry.
+- Background and integration: page background tasks, Session.StartSession, job queue, REST/OData API pages and queries, and telemetry to Application Insights.
+- .NET interoperability applies to on-premises deployments only.
 
 ## Subtopics
 

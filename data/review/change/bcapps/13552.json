@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/13552",
+  "input_hash": "4c9a9c0053afd8eadf5c26af933fd551d4d4c5255a55427a2cae7587103cf2d4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-15T00:48:15.690Z",
+  "issues": [
+    "Summary says the fix covers 'all branches'; the source only names the Transfer and Purchase-Return branches, after an earlier fix covered Sales only.",
+    "'Clears stale pick bins' assumes a mechanism the source doesn't describe; it only says tracking should no longer inherit the stale bin."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027269,
+    "changes_in_call": 6
+  }
+}

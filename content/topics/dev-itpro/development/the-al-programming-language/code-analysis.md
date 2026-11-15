@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -115,6 +115,7 @@ links:
     - change/bcquality/180
     - change/bcquality/204
     - change/bcquality/234
+    - change/bcquality/273
     - change/bcquality/54
 learn_toc_path:
   - Development
@@ -178,6 +179,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#180 Normalize recoverable leaf finding ranges](../../../../changes/bcquality/180.md) (code change): "Normalize recoverable leaf finding ranges. Review findings whose primary line"
 - [#204 Validate composed reviews against the expected leaf worklist](../../../../changes/bcquality/204.md) (code change): "Validate composed reviews against the expected leaf worklist. The findings-report validator"
 - [#234 knowledge(ui): define per-record page outputs on every control-flow path](../../../../changes/bcquality/234.md) (code change): "page outputs assigned conditionally in OnAfterGetRecord might retain values from previous records"
+- [#273 knowledge(style): SetFilter date operands as replacement values; product name via ProductName](../../../../changes/bcquality/273.md) (code change): "Two new code style rules guide developers to use replacement values"
 - [#54 Emit human-readable domain label on review findings](../../../../changes/bcquality/54.md) (code change): "BCQuality review leaves now set an optional human-readable domain label"
 - [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../../../../posts/gerardorenteria-blog/11565.md) (community post): "Analyzer rule additions validate field classifications (AS0138, AS0139, PTE0026)"
 - [Fall 2026 Agentic Development Classes: Copilot Refresh, Claude Code, and BCQuality](../../../../posts/jeremyvyska-com/1770.md) (community post): "BCQuality integration for consistent code quality"

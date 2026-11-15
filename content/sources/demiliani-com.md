@@ -2,7 +2,7 @@
 id: source/demiliani-com
 type: source
 title: Stefano Demiliani
-summary: "Stefano Demiliani (MVP): 96 posts in the knowledge base, 2025-04-07 to 2026-11-04, mostly about development, platform, integration."
+summary: "Stefano Demiliani (MVP): 97 posts in the knowledge base, 2025-04-07 to 2026-11-13, mostly about development, platform, integration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:14:20.359Z"
+  at: "2026-11-15T00:17:15.357Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5988dec72828f8a97d7c366d67d03962f015fede50ba831e81cd379295a01c80
+  input_hash: de839d94584f87aca2339d69fc605f8b9dca576ba8fcabc871d1665be0526f1a
 evidence:
   - kind: blog
     url: https://demiliani.com
@@ -129,6 +129,7 @@ links:
     - post/demiliani-com/17552
     - post/demiliani-com/17568
     - post/demiliani-com/17586
+    - post/demiliani-com/17609
   guidelines: []
 source_id: demiliani-com
 kind: blog
@@ -136,7 +137,7 @@ url: https://demiliani.com
 author: Stefano Demiliani
 mvp: true
 full_text: false
-item_count: 96
+item_count: 97
 footprint:
   systems:
     - id: development
@@ -144,7 +145,7 @@ footprint:
     - id: platform
       weight: 75
     - id: integration
-      weight: 64
+      weight: 66
     - id: administration
       weight: 48
     - id: copilot
@@ -199,12 +200,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-04-07"
-last_item: "2026-11-04"
+last_item: "2026-11-13"
 ---
 
 # Stefano Demiliani
 
-> Stefano Demiliani (MVP): 96 posts in the knowledge base, 2025-04-07 to 2026-11-04, mostly about development, platform, integration.
+> Stefano Demiliani (MVP): 97 posts in the knowledge base, 2025-04-07 to 2026-11-13, mostly about development, platform, integration.
 
 [https://demiliani.com](https://demiliani.com) · blog · tier community
 
@@ -214,7 +215,7 @@ last_item: "2026-11-04"
 |---|---|---|
 | development (79) | performance (13) | api Dynamics 365 Business Central connector (1) |
 | platform (75) | al development (11) | codeunit Agent (1) |
-| integration (64) | security (11) | codeunit AOAI Chat Completion Params (1) |
+| integration (66) | security (11) | codeunit AOAI Chat Completion Params (1) |
 | administration (48) | agents (7) | codeunit AOAI Chat Messages (1) |
 | copilot (42) | on-premises (7) | codeunit AOAI Operation Response (1) |
 | localization (2) | automation (6) | codeunit AzureOpenAI (1) |
@@ -235,10 +236,11 @@ Items per quarter, oldest first:
 - 2026-Q1: ************* 13
 - 2026-Q2: ************* 13
 - 2026-Q3: ***************** 17
-- 2026-Q4: ********* 9
+- 2026-Q4: ********** 10
 
 ## Most recent
 
+- [AI and prompt injections: the invoice that approves itself.](../posts/demiliani-com/17609.md) (2026-11-13)
 - [Dynamics 365 Business Central: service update to .NET 10 and upgrade window.](../posts/demiliani-com/17586.md) (2026-11-04)
 - [Giving an AI agent the keys to Business Central: practical security tips.](../posts/demiliani-com/17568.md) (2026-11-04)
 - [Dynamics 365 Business Central: matching Production database configuration for Sandboxes.](../posts/demiliani-com/17552.md) (2026-10-26)
@@ -258,6 +260,5 @@ Items per quarter, oldest first:
 - [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../posts/demiliani-com/14203.md) (2026-09-01)
 - [New EU rules for software: what you need to know.](../posts/demiliani-com/14182.md) (2026-08-26)
 - [Dynamics 365 Business Central: important changes in PTE management.](../posts/demiliani-com/14163.md) (2026-08-19)
-- [AL Language extension and macOS: what’s next?](../posts/demiliani-com/14131.md) (2026-08-17)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

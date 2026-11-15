@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:29.802Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,10 +116,12 @@ links:
     - change/bcapps/11866
     - change/bcapps/12139
     - change/bcapps/12148
+    - change/bcapps/13883
     - change/bcapps/8554
     - change/bcapps/8577
     - change/bcapps/8587
     - change/bcapps/8679
+    - change/bcapps/8713
     - change/bcapps/8871
     - change/bcapps/9109
     - change/bcapps/9112
@@ -132,10 +134,17 @@ links:
     - change/bcapps/9253
     - change/bcapps/9313
     - change/bcapps/9316
+    - change/bcapps/9317
     - change/bcapps/9318
     - change/bcapps/9320
     - change/bcapps/9321
+    - change/bcapps/9327
+    - change/bcapps/9357
     - change/bcapps/9404
+    - change/bcapps/9525
+    - change/bcapps/9537
+    - change/bcapps/9581
+    - change/bcapps/9959
 learn_toc_path:
   - Integration
   - Integrating with Shopify
@@ -231,26 +240,35 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11866 [Shopify] Disable Sync Shipments To Shopify when no Shopify orders exist](../../../changes/bcapps/11866.md) (code change): "Sync Shipments To Shopify action on the Shopify Orders page is now disabled"
 - [#12139 [Shopify] Disable Create Sales Documents for empty order views](../../../changes/bcapps/12139.md) (code change): "Create Sales Documents action on the Shopify Orders page is now disabled"
 - [#12148 [E-Documents Core] [Peppol] - Make PEPPOL Order Response conformant with BIS 28 (T76) and report the seller's decision](../../../changes/bcapps/12148.md) (code change): "PEPPOL Order Response messages now conform to BIS 28 (T76) standard"
+- [#13883 [Shopify] Initialize return processing for existing shops on upgrade](../../../changes/bcapps/13883.md) (code change): "Initialize return processing for existing shops on upgrade"
 - [#8554 [Shopify] Fix incorrect G/L line on credit memo for refund with exchange item](../../../changes/bcapps/8554.md) (code change): "Shopify connector now correctly handles credit memos for refunds involving exchange items"
 - [#8577 [Shopify] Fix #7724: Resolve Option 1 Name from existing Shopify Variant records](../../../changes/bcapps/8577.md) (code change): "Option 1 Name for Shopify product variants was being incorrectly reset to 'Variant'"
 - [#8587 [Shopify] Make codeunit 30272 "Shpfy Update Price Source" public](../../../changes/bcapps/8587.md) (code change): "Codeunit 30272 "Shpfy Update Price Source" is now public, allowing partners to reference it"
 - [#8679 [Shopify] Fix missing shop currency mapping on order transactions](../../../changes/bcapps/8679.md) (code change): "Shop currency code mapping on Shopify order transactions was accidentally removed"
-- [#8871 Issue#7867: Removed the access restriction for procedures in the confirmation window.](../../../changes/bcapps/8871.md) (code change): "The Shopify Add Item Confirm page now allows unrestricted access to its procedures"
-- [#9109 [Shopify] Add Transactions navigation action to Shopify Refund page](../../../changes/bcapps/9109.md) (code change): "The Shopify Refund page now includes a Transactions navigation action"
+- [#8713 [Shopify] Expose Product facade procedures for Add to Shopify parity](../../../changes/bcapps/8713.md) (code change): "Three new public procedures are added to the Shopify Product facade"
+- [#8871 Issue#7867: Removed the access restriction for procedures in the confirmation window.](../../../changes/bcapps/8871.md) (code change): "Removed the access restriction for procedures in the confirmation window"
+- [#9109 [Shopify] Add Transactions navigation action to Shopify Refund page](../../../changes/bcapps/9109.md) (code change): "Shopify Refund page now includes a Transactions navigation action"
 - [#9112 [Shopify] Skip refund credit memo while transaction is pending](../../../changes/bcapps/9112.md) (code change): "Shopify refund processing now skips credit memo creation when the refund transaction is still pending"
-- [#9126 [Shopify] Base price-sync bulk threshold on changed price count](../../../changes/bcapps/9126.md) (code change): "Product price synchronization with Shopify now triggers bulk operations"
-- [#9138 [Shopify] Add Belgium localization for company tax id mapping (Enterprise No.)](../../../changes/bcapps/9138.md) (code change): "New Shopify Connector BE app adds Enterprise No. as a tax ID mapping option"
-- [#9146 [Shopify] Fix GraphQL rate limiter under-waiting after elapsed time](../../../changes/bcapps/9146.md) (code change): "The Shopify connector's GraphQL rate limiter was waiting incorrectly"
-- [#9188 [Shopify] Create BC customer on order import when Shopify customer has no default address](../../../changes/bcapps/9188.md) (code change): "The Shopify connector now handles customer sync when no default address is set"
-- [#9211 [Shopify] Surface skipped records and sent JSONL for bulk price sync](../../../changes/bcapps/9211.md) (code change): "Shopify connector now logs a Shopify Skipped Record"
+- [#9126 [Shopify] Base price-sync bulk threshold on changed price count](../../../changes/bcapps/9126.md) (code change): "Product price synchronization with Shopify now triggers bulk operations based on the count of changed variants"
+- [#9138 [Shopify] Add Belgium localization for company tax id mapping (Enterprise No.)](../../../changes/bcapps/9138.md) (code change): "Belgium localization app for Shopify Connector enables mapping customer tax IDs"
+- [#9146 [Shopify] Fix GraphQL rate limiter under-waiting after elapsed time](../../../changes/bcapps/9146.md) (code change): "Shopify connector's GraphQL rate limiter was waiting incorrectly when time had elapsed"
+- [#9188 [Shopify] Create BC customer on order import when Shopify customer has no default address](../../../changes/bcapps/9188.md) (code change): "Shopify connector now handles customer sync when no default address is set"
+- [#9211 [Shopify] Surface skipped records and sent JSONL for bulk price sync](../../../changes/bcapps/9211.md) (code change): "bulk price sync reverts variants that Shopify rejected, the Shopify connector now logs"
 - [#9221 [Shopify] Uptake Admin GraphQL API to version 2026-07](../../../changes/bcapps/9221.md) (code change): "Shopify connector now supports the Admin GraphQL API version 2026-07"
 - [#9253 [Shopify] Disambiguate Shopify timestamp field captions and tooltips](../../../changes/bcapps/9253.md) (code change): "Shopify timestamp field captions and tooltips are now clearly marked"
 - [#9313 [Shopify] Fix Product Sync deleting mapped variants on stale Updated At timestamp](../../../changes/bcapps/9313.md) (code change): "Shopify variant sync now correctly distinguishes between variants that have stale"
-- [#9316 [Shopify] Preserve manually set Sell-to Customer No. when Bill-to mapping fails](../../../changes/bcapps/9316.md) (code change): "Preserve manually set Sell-to Customer No. when Bill-to mapping fails"
-- [#9318 [Shopify] Fix Get Catalogs tooltip to explain company dependency](../../../changes/bcapps/9318.md) (code change): "Get Catalogs action only retrieves B2B catalogs for companies already imported"
-- [#9320 [Shopify] Import HS code and country of origin from Shopify](../../../changes/bcapps/9320.md) (code change): "Shopify connector now imports harmonized system codes and country of origin"
+- [#9316 [Shopify] Preserve manually set Sell-to Customer No. when Bill-to mapping fails](../../../changes/bcapps/9316.md) (code change): "Shopify Connector bug where manually set Sell-to Customer No. was overwritten"
+- [#9317 [Shopify] Add Companies to Shopify navigation menu](../../../changes/bcapps/9317.md) (code change): "Shopify Companies list is now accessible from the Shopify navigation"
+- [#9318 [Shopify] Fix Get Catalogs tooltip to explain company dependency](../../../changes/bcapps/9318.md) (code change): "Get Catalogs action on the Shopify Catalogs page now displays a clearer tooltip"
+- [#9320 [Shopify] Import HS code and country of origin from Shopify](../../../changes/bcapps/9320.md) (code change): "Shopify connector now imports harmonized system codes and country of origin from Shopify"
 - [#9321 [Shopify] Add Unlisted product status](../../../changes/bcapps/9321.md) (code change): "Shopify Connector's product status enum now includes the Unlisted value"
-- [#9404 [Shopify] Fix Sync Prices using stale WorkDate from SingleInstance cache](../../../changes/bcapps/9404.md) (code change): "Fixed the Shopify product price calculator to rebuild its cached temporary sales header when the Work Date changes"
+- [#9327 [Shopify] Migrate Shopify Connector to Expiring Offline Access Tokens](../../../changes/bcapps/9327.md) (code change): "Shopify Connector now supports Shopify's expiring offline access tokens"
+- [#9357 [Shopify] Add Compare-at Price field to Shopify Variants page for personalization](../../../changes/bcapps/9357.md) (code change): "Shopify Variants page now includes a Compare at Price field control for personalization"
+- [#9404 [Shopify] Fix Sync Prices using stale WorkDate from SingleInstance cache](../../../changes/bcapps/9404.md) (code change): "Shopify product price calculator to rebuild its cached temporary sales header"
+- [#9525 [Shopify] Automatic Transaction Posting](../../../changes/bcapps/9525.md) (code change): "Shopify payment transactions can now be automatically posted as general journal lines"
+- [#9537 [Shopify] Store tax lines linked to order shipping charges](../../../changes/bcapps/9537.md) (code change): "Shopify order imports now persist tax lines linked to shipping charges"
+- [#9581 [Shopify] Add Unlisted to Status for Created Products and update status tooltip](../../../changes/bcapps/9581.md) (code change): "Shopify Status for Created Products option on the Shop Card now offers Unlisted"
+- [#9959 [Shopify] Add catalog filters to Sync Catalog Prices report](../../../changes/bcapps/9959.md) (code change): "Add catalog filters to Sync Catalog Prices report"
 - [What's New: Shopify Connector B2B Functionality (2024 release wave 1)](../../../videos/3tmaVpPTQLw.md) (video): "shopify connector; b2b; order editing; company synchronization; customer synchronization"
 - [What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)](../../../videos/5Qfc7r618OM.md) (video): "Shopify connector; skipped records; export validation; integration troubleshooting"
 - [What's New: Product Information Management in Shopify Connector (2026 release wave 1)](../../../videos/6vHJQggN4F4.md) (video): "Product Information Management in Shopify Connector; item variants; image export"

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-14T01:06:08.670Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -354,6 +354,8 @@ links:
     - change/bcapps/12683
     - change/bcapps/12694
     - change/bcapps/9194
+    - change/bcapps/9914
+    - change/bcquality/100
     - change/bcquality/149
     - change/bcquality/233
     - change/bcquality/253
@@ -396,13 +398,14 @@ Path: [Integration](../../integration.md) > [Web services](../web-services.md) >
 - [API endpoint structure](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/api-endpoint-structure): Discover the base URL pattern and environment details required to access Business Central API endpoints.
 - [API Overview Page in Business Central](https://learn.microsoft.com/dynamics365/business-central/api-overview): Learn how the API Overview page helps administrators discover available APIs, review endpoint metadata, and prepare integrations.
 - [Business Central Administration Center API](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api): Use the Business Central administration center API to automate tenant administration, authenticate API calls, and understand error responses.
-  - Status: Service-to-service authentication using Client Credentials Flow is supported from version 20.0 onwards.
-  - Step: Register an application in your Microsoft Entra tenant with a unique name and select account type.
-  - Step: Create a client secret for the registered application with a specified duration.
-  - Step: Grant AdminCenter.ReadWrite.All permission to the registered application for the admin center API.
-  - Step: Go to the admin center and paste the application client ID in the Authorized Microsoft Entra apps page.
-  - Permissions: AdminCenter.ReadWrite.All permission required for admin center API calls; API.ReadWrite.All and Automation.ReadWrite.All also available.
-  - The admin center API is located at https://api.businesscentral.dynamics.com
+  - Administrators can query production and sandbox environments, set up notifications, and view telemetry via the Admin Center API.
+  - Status: Service-to-service Microsoft Entra authentication supported from version 20.0 onwards.
+  - Step: Register an application in Microsoft Entra ID, specifying name and supported account types (single-tenant or multitenant).
+  - Step: Create a client secret in Certificates & Secrets, copy the secret value for use in client code.
+  - Permissions: Grant AdminCenter.ReadWrite.All permission to the Dynamics 365 Business Central API; optionally grant API.ReadWrite.All and Automation.ReadWrite.All.
+  - Step: Authorize the application in the admin center Authorized Microsoft Entra apps page by pasting the Application (client) ID.
+  - The API endpoint is located at https://api.businesscentral.dynamics.com.
+  - Permissions: For delegated authentication, select delegated permissions from Dynamics 365 Business Central after registering the application.
 - [Cloud Migration API Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/cloud-migration-api-overview): Learn how to use Cloud Migration APIs to automate the cloud migration process end-to-end.
   - Status: Cloud Migration APIs v1.0 provide end-to-end automation for cloud migration setup, data movement, and progress tracking.
   - Step: First step: POST request to setupCloudMigration endpoint with productId, sqlServerType, and SqlConnectionString.
@@ -448,9 +451,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12324 Obsolete Http Web Request Mgt. usage in public API (webhooks, OData)](../../../../changes/bcapps/12324.md) (code change): "Http Web Request Mgt usage is removed from webhook and OData public APIs"
 - [#12683 [API tests] Return shipment PDF selection and pdfDocument test isolation](../../../../changes/bcapps/12683.md) (code change): "Return shipment PDF selection and pdfDocument test isolation. The return shipment PDF handler"
 - [#12694 Allow API tests to issue local HTTP requests](../../../../changes/bcapps/12694.md) (code change): "API tests can now issue local HTTP requests by declaring explicit test HTTP request policies"
-- [#9194 Add API Overview page (page 812)](../../../../changes/bcapps/9194.md) (code change): "A new admin page shows all available APIs"
-- [#149 knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption](../../../../changes/bcquality/149.md) (code change): "Schema 2.0 (BC 24 default) uses strongly typed enums with member names in metadata"
-- [#233 knowledge(web-services): describe API objects intended for MCP tools](../../../../changes/bcquality/233.md) (code change): "metadata description precedence for API pages and queries used by MCP server"
+- [#9194 Add API Overview page (page 812)](../../../../changes/bcapps/9194.md) (code change): "New admin page shows all available APIs pages and queries from all publishers"
+- [#9914 [APIV2] Return unapplied lines from the Vendor Payments API](../../../../changes/bcapps/9914.md) (code change): "The Vendor Payments API now returns all payment lines in a batch"
+- [#100 Add P0 integration and control add-in runtime guidance](../../../../changes/bcquality/100.md) (code change): "Guidance and AL samples for linking API parts on SystemId"
+- [#149 knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption](../../../../changes/bcquality/149.md) (code change): "Schema version determines how enum fields are published in custom APIs"
+- [#233 knowledge(web-services): describe API objects intended for MCP tools](../../../../changes/bcquality/233.md) (code change): "describe API objects intended for MCP tools to describe entities"
 - [#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields](../../../../changes/bcquality/253.md) (code change): "New knowledge article documents how to use AddLoadFields on API pages to prevent JIT loading failures"
 - [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "create Query objects configured as APIs in Business Central"
 - [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "migrate to Business Central API 2.0, create custom 2.0 APIs"

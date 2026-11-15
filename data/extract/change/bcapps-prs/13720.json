@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13720",
+  "number": 13720,
+  "title": "Split the MS-STD configuration package into functional-area packages",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The MS-STD configuration package is split into nine functional-area packages (Finance, Inventory, Inventory Valuation, Manufacturing, Projects, Purchase, Sales, Subscription Billing, and Sustainability). New installations register these packages as inactive, while upgrades activate the new packages and remove the legacy MS-STD package.",
+  "key_points": [
+    "MS-STD configuration package split into nine functional-area packages",
+    "New installations register packages as inactive",
+    "Existing installations migrate by activating new packages and removing MS-STD",
+    "Install and upgrade logic reorganized for clarity",
+    "Tables from old package not in new definitions may no longer be selectable through that package"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "quote": "Split the MS-STD configuration package into nine functional-area packages",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003679,
+    "changes_in_call": 1
+  }
+}

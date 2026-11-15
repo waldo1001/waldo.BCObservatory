@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration/integrating-business-central-with-office
 type: topic
 title: Integrating Business Central with Office apps and Microsoft 365
-summary: "Integration of Business Central with Office apps and Microsoft 365: Excel, OneDrive, Teams, Word and the Outlook add-in. It answers questions about editing and reporting in Excel, sharing documents, Teams cards and tabs, Word layouts and templates, and deploying the Outlook add-in."
+summary: "Integration of Business Central with Office apps and Microsoft 365: Excel, OneDrive, Outlook, Teams and Word. It answers questions about editing data in Excel, document sharing, the Outlook add-in, Teams cards and tabs, and Word report layouts and mail merge."
 tier: official
 language: en
 system: integration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:21:05.533Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: fd3ad344a1025cc03f884400385aa0775a3914c557ba51559459f983b4e25b85
+  input_hash: 16c031702173c5b588ea91d89164b84940b2bec7fad4fa21621f65932e03dea6
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tab-content
@@ -155,7 +155,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/11967
-    - change/bcapps/8742
     - change/bcapps/9454
 learn_toc_path:
   - Integration
@@ -185,27 +184,27 @@ narrative: generated
 
 # Integrating Business Central with Office apps and Microsoft 365
 
-> Integration of Business Central with Office apps and Microsoft 365: Excel, OneDrive, Teams, Word and the Outlook add-in. It answers questions about editing and reporting in Excel, sharing documents, Teams cards and tabs, Word layouts and templates, and deploying the Outlook add-in.
+> Integration of Business Central with Office apps and Microsoft 365: Excel, OneDrive, Outlook, Teams and Word. It answers questions about editing data in Excel, document sharing, the Outlook add-in, Teams cards and tabs, and Word report layouts and mail merge.
 
-Path: [Integration](../integration.md) > Integrating Business Central with Office apps and Microsoft 365 · tier official · system integration · narrative reviewed (checked by Opus)
+Path: [Integration](../integration.md) > Integrating Business Central with Office apps and Microsoft 365 · tier official · system integration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This area covers how Business Central connects to Microsoft 365 tools. The landing page lists the capabilities: Excel, OneDrive, Outlook, SharePoint, Teams, Word and Microsoft Graph, used for data management and document processing.
+This area describes how Business Central works with Microsoft Office apps and Microsoft 365 services. An overview page lists the integration capabilities: Edit in Excel, Open in Excel, Excel report layouts, OneDrive, the Outlook add-in, Teams, Word, SharePoint and Microsoft Graph.
 
-The pages split by product. Four subtopics cover Excel, OneDrive, Teams and Word. The Outlook add-in has its own page, which describes how to get and deploy it. Start with the overview page to find the right product, then go to that subtopic.
+The section has one own page on the Outlook add-in and four subtopics: Excel, OneDrive, Teams and Word. The Outlook page covers contact insights, document view and creating business documents from email. Admins can deploy it organization-wide through centralized deployment, or users can install it themselves.
 
-Excel and Word pages cover both users and report authors (Edit in Excel, report layouts, XML mapping, Word templates). The Teams pages are aimed at AL developers. The OneDrive pages cover setup, daily use and extending the Document Sharing module.
+Start with the overview page to find the right integration. Then go to the matching subtopic. Excel and Word cover data editing, import and report layouts. OneDrive covers admin setup and developer extension of document sharing. Teams is aimed at AL developers.
 
 ## Key points
 
-- Excel: Open in Excel and Edit in Excel, permission sets that control Edit in Excel, importing data through Excel or configuration packages, and Excel report layouts.
-- OneDrive: open, share and save documents such as reports and Excel workbooks in OneDrive for Business; developers can extend the Document Sharing module.
-- Teams: for AL developers; covers Teams cards, card details and tabs, customizing cards with the Brick field group and AL events, and detecting Teams sessions.
+- The Outlook add-in shows customer and vendor financial data and lets users create business documents from Outlook.
+- The Outlook add-in can be deployed organization-wide by admins through centralized deployment or installed by users with an XML manifest.
+- Excel integration covers viewing and editing list data, controlling the Edit in Excel action, importing business data and building Excel report layouts.
+- OneDrive integration covers cloud storage and file sharing, with admin setup and developer extension through the Document Sharing module.
+- Teams integration for AL developers covers cards, card details, tabs, customizing cards with the Brick field group and AL events, and detecting Teams sessions.
 - Teams FAQs address link unfurling, stage view, licensing and permissions.
-- Word: map report data fields into Word layouts with the XML Mapping pane, and use Word templates to merge entity data into bulk communications for customers, vendors and contacts.
-- Outlook add-in: can be deployed centrally by Microsoft 365 admins or installed individually by users.
-- The Outlook add-in provides contact insights and document view in emails and appointments, and supports creating business documents.
+- Word integration maps report data fields to content controls in report layouts and uses Word templates for mail merge with contacts, customers and vendors.
 
 ## Subtopics
 
@@ -224,7 +223,6 @@ Excel and Word pages cover both users and report authors (Edit in Excel, report 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11967 Block Edit in Excel for pages based on the User table](../../../changes/bcapps/11967.md) (code change): "Edit in Excel now blocks page-based editing for tables that are the User table"
-- [#8742 Enhance SharePoint error handling and add tests](../../../changes/bcapps/8742.md) (code change): "SharePoint error handling now correctly parses OData verbose error responses"
 - [#9454 Fix site scoped contextinfo](../../../changes/bcapps/9454.md) (code change): "SharePoint request-digest calls now correctly target site-scoped URLs"
 - [Dynamics 365 Business Central Blog Series: Integrate Business Central with SharePoint](../../../posts/yzhums-com/63735.md) (community post): "Integrate Business Central with SharePoint. This is an index of a blog series on connecting Business Central with SharePoint."
 - [Business Central 2026 release wave 1 (BC28): Copy contacts from BC to Microsoft 365 (Outlook & Teams)](../../../posts/yzhums-com/72611.md) (community post): "copy contacts from BC to Microsoft 365 Outlook and Teams"

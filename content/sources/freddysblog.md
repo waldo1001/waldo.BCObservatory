@@ -2,7 +2,7 @@
 id: source/freddysblog
 type: source
 title: Freddys blog
-summary: "Freddys blog (Freddy Kristiansen): 11 posts in the knowledge base, 2026-08-04 to 2026-11-07, mostly about development, platform, administration."
+summary: "Freddys blog (Freddy Kristiansen): 12 posts in the knowledge base, 2026-08-04 to 2026-11-10, mostly about development, platform, administration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-09T00:15:52.409Z"
+  at: "2026-11-15T00:17:15.357Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4aeaabbf16aeadebca7d10a828a0bd370ca70f06de67a3c4b3f0bd78282d56ec
+  input_hash: 109f55c7f009b4c191faaac9aa8ee792fc06654154e94aadf117a3ce3b45ddd1
 evidence:
   - kind: blog
     url: https://freddysblog.com
@@ -44,6 +44,7 @@ links:
     - post/freddysblog/https-freddysblog-com-2026-08-25-what-is-algoctl--ae9aa76dbf
     - post/freddysblog/https-freddysblog-com-2026-09-15-the-end-justifies-the-means--e3dd182ef6
     - post/freddysblog/https-freddysblog-com-2026-11-07-directions-emea-2026--4bd603011b
+    - post/freddysblog/https-freddysblog-com-2026-11-10-human-vs-ai--4beea4bfd7
   guidelines: []
 source_id: freddysblog
 kind: blog
@@ -51,13 +52,13 @@ url: https://freddysblog.com
 author: Freddy Kristiansen
 mvp: false
 full_text: false
-item_count: 11
+item_count: 12
 footprint:
   systems:
     - id: development
-      weight: 14
+      weight: 16
     - id: platform
-      weight: 10
+      weight: 11
     - id: administration
       weight: 5
     - id: copilot
@@ -67,12 +68,14 @@ footprint:
   topics:
     - id: kubernetes
       weight: 4
+    - id: agents
+      weight: 3
     - id: azure
+      weight: 3
+    - id: devops
       weight: 3
     - id: fkh
       weight: 3
-    - id: agents
-      weight: 2
     - id: authentication
       weight: 2
     - id: automation
@@ -80,8 +83,6 @@ footprint:
     - id: containers
       weight: 2
     - id: cost optimization
-      weight: 2
-    - id: devops
       weight: 2
     - id: security
       weight: 2
@@ -92,12 +93,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2026-08-04"
-last_item: "2026-11-07"
+last_item: "2026-11-10"
 ---
 
 # Freddys blog
 
-> Freddys blog (Freddy Kristiansen): 11 posts in the knowledge base, 2026-08-04 to 2026-11-07, mostly about development, platform, administration.
+> Freddys blog (Freddy Kristiansen): 12 posts in the knowledge base, 2026-08-04 to 2026-11-10, mostly about development, platform, administration.
 
 [https://freddysblog.com](https://freddysblog.com) · blog · tier community
 
@@ -105,15 +106,15 @@ last_item: "2026-11-07"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (14) | kubernetes (4) | other BCApps repository (1) |
-| platform (10) | azure (3) | other Fkh (Freddy's Kubernetes Helper) (1) |
-| administration (5) | fkh (3) |  |
-| copilot (5) | agents (2) |  |
-| integration (1) | authentication (2) |  |
+| development (16) | kubernetes (4) | other BCApps repository (1) |
+| platform (11) | agents (3) | other Fkh (Freddy's Kubernetes Helper) (1) |
+| administration (5) | azure (3) |  |
+| copilot (5) | devops (3) |  |
+| integration (1) | fkh (3) |  |
+|  | authentication (2) |  |
 |  | automation (2) |  |
 |  | containers (2) |  |
 |  | cost optimization (2) |  |
-|  | devops (2) |  |
 |  | security (2) |  |
 
 ## Flight path
@@ -121,10 +122,11 @@ last_item: "2026-11-07"
 Items per quarter, oldest first:
 
 - 2026-Q3: ********** 10
-- 2026-Q4: * 1
+- 2026-Q4: ** 2
 
 ## Most recent
 
+- [“Human” vs. AI](../posts/freddysblog/https-freddysblog-com-2026-11-10-human-vs-ai--4beea4bfd7.md) (2026-11-10)
 - [Directions EMEA 2026 Reflections](../posts/freddysblog/https-freddysblog-com-2026-11-07-directions-emea-2026--4bd603011b.md) (2026-11-07)
 - [The End Justifies the Means](../posts/freddysblog/https-freddysblog-com-2026-09-15-the-end-justifies-the-means--e3dd182ef6.md) (2026-09-15)
 - [What is ALGoCtl?](../posts/freddysblog/https-freddysblog-com-2026-08-25-what-is-algoctl--ae9aa76dbf.md) (2026-08-25)

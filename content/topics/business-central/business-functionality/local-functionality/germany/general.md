@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:23.185Z"
   flags: []
 generated:
-  at: "2026-10-25T16:50:34.247Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,6 +61,9 @@ links:
   posts:
     - post/miljan-rs/812
   guidelines: []
+  changes:
+    - change/bcapps/9690
+    - change/bcapps/9955
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -110,10 +113,12 @@ Start with the page that matches your task. Use the currency exchange rates page
 - [Include Company Registration Numbers on Sales and Purchase Reports](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports): Print company registration numbers on specific sales reports and purchase reports.
 - [Print general ledger setup information [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-print-general-ledger-setup-information): Run the G/L Setup Information report to view the master data before using the German version of Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#9690 Add XRechnung structured format reader for inbound e-documents](../../../../../changes/bcapps/9690.md) (code change): "Adds a structured format reader for German XRechnung e-documents that parses inbound XML"
+- [#9955 XRechnung – Invalid XML Generated When Invoice Discount Percentage Exceeds 2 Decimals](../../../../../changes/bcapps/9955.md) (code change): "XRechnung – Invalid XML Generated When Invoice Discount Percentage Exceeds 2 Decimals"
 - [Polishing xRechnung and ZUGFeRD in Business Central](../../../../../posts/miljan-rs/812.md) (community post): "xRechnung and ZUGFeRD formats built on the E-Documents framework"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

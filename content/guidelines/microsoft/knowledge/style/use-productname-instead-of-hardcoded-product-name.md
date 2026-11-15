@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-14T00:13:52.031Z"
+  at: "2026-11-15T00:17:15.357Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ddad622e1088d81d927eef7eafd368bfe8daaf4e
@@ -44,7 +44,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/273
 repo_path: microsoft/knowledge/style/use-productname-instead-of-hardcoded-product-name.md
 layer: microsoft
 kind: rule
@@ -104,6 +105,10 @@ See sample: [`use-productname-instead-of-hardcoded-product-name.bad.al`](https:/
 ## Names
 
 - [Dialog.StrMenu(Text \[, Integer\] \[, Text\]) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/dialog/dialog-strmenu-method) (names StrMenu)
+
+## Changed by
+
+- [#273 knowledge(style): SetFilter date operands as replacement values; product name via ProductName](../../../../changes/bcquality/273.md), 2026-11-13
 
 ---
 

@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:50:40.392Z"
   flags: []
 generated:
-  at: "2026-11-13T00:56:40.434Z"
+  at: "2026-11-15T00:44:19.225Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -83,8 +83,7 @@ links:
   learn: []
   objects: []
   features:
-    - feature/573348
-    - feature/573349
+    - feature/576789
   topics: []
   localizations: []
   videos: []
@@ -141,24 +140,22 @@ features:
     verified: true
     status_source: video
   - name: Connection String Setup
-    status: ga
+    status: unclear
     t: 269
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573348"
+    status_source: video
   - name: MCP Configuration Telemetry
-    status: ga
+    status: unclear
     t: 322
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573349"
+    status_source: video
   - name: MCP Resources Support
-    status: unclear
+    status: ga
     t: 443
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576789"
   - name: Embedded Resources
     status: unclear
     t: 477
@@ -229,9 +226,9 @@ It also covers connecting other MCP hosts, a connection string under advanced se
 | MCP Configuration Validations | status not stated | [1:15](https://www.youtube.com/watch?v=0WAOtNaKjws&t=75s) |  |
 | Configuration Import Export | status not stated | [2:44](https://www.youtube.com/watch?v=0WAOtNaKjws&t=164s) |  |
 | Support for Multiple MCP Hosts | preview, demoed | [3:22](https://www.youtube.com/watch?v=0WAOtNaKjws&t=202s) | "Other hosts would be in public preview and not kind of fully supported" ([3:22](https://www.youtube.com/watch?v=0WAOtNaKjws&t=202s)) |
-| Connection String Setup | generally available (roadmap [Configure AL MCP workspaces dynamically](../features/573348.md)), demoed | [4:29](https://www.youtube.com/watch?v=0WAOtNaKjws&t=269s) |  |
-| MCP Configuration Telemetry | generally available (roadmap [Diagnose AL MCP server activity with file logging](../features/573349.md)) | [5:22](https://www.youtube.com/watch?v=0WAOtNaKjws&t=322s) |  |
-| MCP Resources Support | status not stated, demoed | [7:23](https://www.youtube.com/watch?v=0WAOtNaKjws&t=443s) |  |
+| Connection String Setup | status not stated, demoed | [4:29](https://www.youtube.com/watch?v=0WAOtNaKjws&t=269s) |  |
+| MCP Configuration Telemetry | status not stated | [5:22](https://www.youtube.com/watch?v=0WAOtNaKjws&t=322s) |  |
+| MCP Resources Support | generally available (roadmap [Unlock more Business Central data with MCP server enhancements](../features/576789.md)), demoed | [7:23](https://www.youtube.com/watch?v=0WAOtNaKjws&t=443s) |  |
 | Embedded Resources | status not stated, demoed | [7:57](https://www.youtube.com/watch?v=0WAOtNaKjws&t=477s) |  |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/13361",
+  "input_hash": "4d89d046cfa59ec794ffd14276d4c8e8635604ca947e45285601b8c03ee921af",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-15T00:48:15.690Z",
+  "issues": [
+    "The description lists v1 behaviour changes (KPIs counted on finalized Purchase Invoices; role center cues no longer count E-Documents), so behavior_change should be true.",
+    "The key point claiming end users see no changes contradicts those acknowledged behaviour changes.",
+    "The summary implies v2 is in effect; the source says it is not activated yet."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027269,
+    "changes_in_call": 6
+  }
+}

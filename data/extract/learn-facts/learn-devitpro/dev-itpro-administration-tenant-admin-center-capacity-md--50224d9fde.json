@@ -1,42 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-capacity.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity",
-  "title": "Managing Capacity",
-  "blob": "e3684a9cabecee32b2a5f5189c1caea0c291d68d",
+  "title": "Manage Business Central Environment Capacity",
+  "blob": "01a71b24a7842574cd40191837d14f03e038dfce",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "The Capacity page shows total database storage usage and details about storage used by every environment on the tenant."
-    },
-    {
-      "kind": "fact",
-      "text": "Premium and Essential subscriptions include one production environment and three sandbox environments at no extra charge."
-    },
-    {
-      "kind": "fact",
-      "text": "Each extra production environment purchased adds three more sandbox environments and increases shared storage capacity by 4 GB."
-    },
-    {
-      "kind": "fact",
-      "text": "Extra storage capacity per license: Premium 3 GB, Essential 2 GB, Device 1 GB, Partner Sandbox 5 GB."
-    },
-    {
-      "kind": "fact",
-      "text": "Exceeding storage quota does not interrupt existing environments but blocks creation or copying of new environments until quota is reduced or more capacity is purchased."
+      "text": "Capacity page shows total database storage usage, environment-level storage, and count of production and sandbox environments used."
     },
     {
       "kind": "limit",
-      "text": "Exceeding environment count limits also blocks creation or copying of environments until you reduce or purchase more capacity."
+      "text": "Cannot create new or copy environments if storage exceeds paid capacity; existing over-quota environments remain accessible."
+    },
+    {
+      "kind": "limit",
+      "text": "File or blob data in Tenant Media and Tenant Media Thumbnails tables count toward overall database storage capacity."
     },
     {
       "kind": "fact",
-      "text": "Files and Blob data stored in the database, including Tenant Media and Tenant Media Thumbnails tables, count toward overall database storage capacity."
+      "text": "Premium subscription includes 3 GB extra storage per license; Essential includes 2 GB; Device includes 1 GB per license."
     },
     {
       "kind": "fact",
-      "text": "Administrators can limit user access to specific environments by changing permissions or removing users' access."
+      "text": "Partner Sandbox license grants one production and three sandbox environments for first five licenses; each extra five licenses grant three sandboxes."
+    },
+    {
+      "kind": "fact",
+      "text": "Each purchased extra production environment adds 4 GB shared storage capacity and includes three more sandbox environments."
+    },
+    {
+      "kind": "fact",
+      "text": "Content of nonsystem tables counts toward database usage; uninstalled extension data counts if not deleted during uninstall."
     }
   ],
   "dropped": 0,
@@ -44,7 +40,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00629,
+      "cost_usd": 0.006128,
       "pages_in_call": 8
     }
   ]

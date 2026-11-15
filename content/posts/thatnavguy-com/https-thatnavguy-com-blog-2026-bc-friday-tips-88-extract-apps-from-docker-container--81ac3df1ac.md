@@ -12,16 +12,16 @@ tags:
   - applications folder
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-15T00:47:29.654Z"
   flags: []
 generated:
-  at: "2026-11-15T00:19:37.074Z"
+  at: "2026-11-15T00:17:15.357Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 6d5b22ca5fa44a4e6f969e4bd0964288be102c38196e8d226ebb8c48d5e4164e
+  input_hash: d03e423c8e20971066c08bab885366b9dfa5a37c0d1b606392b27ebe73c25703
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-88-extract-apps-from-docker-container/
@@ -65,18 +65,18 @@ versions_mentioned: []
 preview:
   embeddable: true
   frame_url: null
-  image: null
+  image: https://thatnavguy.com/_astro/Apps.DkGAkXOd_Z1BgNF0.webp
   image_alt: null
   image_w: null
   image_h: null
   site_name: null
-  favicon: null
-  probed_at: "2026-11-14T00:58:31.943Z"
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-11-15T00:42:41.342Z"
 ---
 
 # BC Friday Tips #88 Extract Apps from a Docker Container
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-88-extract-apps-from-docker-container/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-11-13 · 94 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-88-extract-apps-from-docker-container/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-11-13 · 94 words · tier community · reviewed (checked by Opus)
 
 > A Docker tip for Business Central developers showing how to extract the Applications folder from a Docker container to a local PC using the docker cp command for quick access to standard Microsoft apps and extensions.
 

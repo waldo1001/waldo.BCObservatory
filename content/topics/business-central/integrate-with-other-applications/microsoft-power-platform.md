@@ -2,7 +2,7 @@
 id: topic/business-central/integrate-with-other-applications/microsoft-power-platform
 type: topic
 title: Microsoft Power Platform
-summary: "Microsoft Power Platform integration with Business Central: the Business Central connector, Power Apps, Power Automate, Power BI, and Power Pages on Dataverse virtual tables. It answers questions about connecting each service, building apps, flows and reports, and giving external users access to data."
+summary: "Microsoft Power Platform integration with Business Central: the connector, Power Apps, Power Automate, Power BI, and Power Pages on Dataverse virtual tables. It answers questions about building apps, flows and reports on Business Central data, and about giving external users access through portals."
 tier: official
 language: en
 system: platform
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: b2023d8c6432b12c3defb4eddd377b0da637852eae0d9cbbf72ef34bfd76f7b3
+  input_hash: c768d22dc782a4097264bb620d937b560d12ae977069996876a71f7106a19a00
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-powerapps
@@ -168,28 +168,28 @@ narrative: generated
 
 # Microsoft Power Platform
 
-> Microsoft Power Platform integration with Business Central: the Business Central connector, Power Apps, Power Automate, Power BI, and Power Pages on Dataverse virtual tables. It answers questions about connecting each service, building apps, flows and reports, and giving external users access to data.
+> Microsoft Power Platform integration with Business Central: the connector, Power Apps, Power Automate, Power BI, and Power Pages on Dataverse virtual tables. It answers questions about building apps, flows and reports on Business Central data, and about giving external users access through portals.
 
 Path: [Integrate with other applications](../integrate-with-other-applications.md) > Microsoft Power Platform · tier official · system platform · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how Business Central works with the Power Platform services. An introductory page describes the Business Central connector and the main integration scenarios: custom solutions in Power Apps, flows in Power Automate, semantic models and reports in Power BI, and Power Pages with Dataverse virtual tables.
+This section covers how Business Central works with the Power Platform services. An introductory page describes connector usage and the main scenarios: custom solutions in Power Apps, flows in Power Automate, semantic models and reports in Power BI, and Power Pages on virtual tables backed by Dataverse.
 
-Three subtopics go into detail. Power Apps explains building canvas apps and custom UI on Business Central data through the connector, API tables and custom APIs, and also touches on AI Builder and mixed-reality options. Power Automate covers flow types, triggers and actions, using flows inside Business Central, and troubleshooting. Power BI is the largest subtopic. It covers licensing, enabling data through API pages and OData web services, building reports in Power BI Desktop, embedding reports in Business Central pages, and prebuilt Power BI apps, for online and on-premises.
+Three subtopics go deeper. Power Apps covers scenarios and building a canvas app through the Business Central connector. Power Automate covers automated and instant flows, using flows in the client, and troubleshooting failed runs, response size limits and missing web services. Power BI is the largest: how data is exposed (API pages, OData web services), building reports in Power BI Desktop, embedding reports in Business Central pages, prebuilt apps, licensing, on-premises connection and report management.
 
-A separate page covers Power Pages on virtual tables (preview), which lets unlicensed external users reach Business Central online data through portals. Start with the introductory page for an overview, then go to the subtopic that matches your service.
+A separate page covers Power Pages on virtual tables (preview), which lets unlicensed external users reach Business Central online data through portals. Start with the introductory page, then go to the subtopic for the service you need.
 
 ## Key points
 
 - The Business Central connector is the common entry point for Power Apps and Power Automate.
-- Power Apps can use API tables and custom APIs to build canvas apps on Business Central data.
-- Power Automate supports no code/low code workflows with triggers and actions, and the pages include troubleshooting for automated flows.
-- Power BI data access works through API pages and OData web services, with reports built in Power BI Desktop.
-- Power BI reports can be embedded in Business Central pages, and prebuilt Power BI apps are available.
-- Power BI guidance covers licensing and both online and on-premises deployments.
+- Power Apps: a canvas app can be built on Business Central data through the connector.
+- Power Automate: supports automated and instant flows, and flows can be used in the Business Central client.
+- Power Automate troubleshooting covers failed runs, response size limits and missing web services.
+- Power BI data is exposed through API pages and OData web services; reports are built in Power BI Desktop and can be embedded in Business Central pages.
+- Power BI pages also cover prebuilt apps, licensing, architecture, on-premises connection and report management.
 - Power Pages on virtual tables (preview) gives unlicensed external users access to Business Central online data via Dataverse virtual tables.
-- Power Pages supports anonymous and authenticated access, synthetic relations, and list/subgrid editing from 2023 release wave 2 (version 23.1).
+- Power Pages supports anonymous and authenticated access, synthetic relations, lookup columns, basic forms and list/subgrid editing, from 2023 release wave 2 (version 23.1).
 
 ## Subtopics
 

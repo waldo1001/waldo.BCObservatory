@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:31.349Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -203,14 +203,6 @@ links:
     - video/BwBR8JwwQa4
   posts: []
   guidelines: []
-  changes:
-    - change/bcapps/8713
-    - change/bcapps/9317
-    - change/bcapps/9357
-    - change/bcapps/9525
-    - change/bcapps/9537
-    - change/bcapps/9581
-    - change/bcapps/9959
 learn_toc_path:
   - Business functionality
   - Online store with Shopify
@@ -327,17 +319,10 @@ For operations and support, use the troubleshooting page (logging, skipped recor
   - In the observatory: [Page 2500 "Extension Management"](../../../objects/page/2500.md), [Table 5107 "Sales Header Archive"](../../../objects/table/5107.md), [Table 5108 "Sales Line Archive"](../../../objects/table/5108.md)
 - [Working with Shopify POS](https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-pos): Special notes related to Shopify as a Sales Channel.
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#8713 [Shopify] Expose Product facade procedures for Add to Shopify parity](../../../changes/bcapps/8713.md) (code change): "Three new public procedures are added to the Shopify Product facade"
-- [#9317 [Shopify] Add Companies to Shopify navigation menu](../../../changes/bcapps/9317.md) (code change): "Shopify Companies list is now accessible from the Shopify navigation group"
-- [#9357 [Shopify] Add Compare-at Price field to Shopify Variants page for personalization](../../../changes/bcapps/9357.md) (code change): "The Shopify Variants page now includes a Compare at Price field control for personalization"
-- [#9525 [Shopify] Automatic Transaction Posting](../../../changes/bcapps/9525.md) (code change): "Shopify payment transactions can now be automatically posted as general journal lines"
-- [#9537 [Shopify] Store tax lines linked to order shipping charges](../../../changes/bcapps/9537.md) (code change): "Shopify order imports now persist tax lines linked to shipping charges"
-- [#9581 [Shopify] Add Unlisted to Status for Created Products and update status tooltip](../../../changes/bcapps/9581.md) (code change): "Shopify Status for Created Products option on the Shop Card"
-- [#9959 [Shopify] Add catalog filters to Sync Catalog Prices report](../../../changes/bcapps/9959.md) (code change): "The Sync Catalog Prices report now supports filtering by individual catalogs"
 - [What's New: Shopify Connector - Overview (2026 release wave 1)](../../../videos/B-pxLlb-UN0.md) (video): "Shopify connector; product information management; item variants; presentment currency; price synchronization"
 - [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)](../../../videos/BwBR8JwwQa4.md) (video): "shopify connector; b2b; company locations; tax id mapping; payment terms"
 

@@ -2,7 +2,7 @@
 id: source/aardvarklabs-blog
 type: source
 title: Aardvark Labs
-summary: "Aardvark Labs (Marcel Chabot): 86 posts in the knowledge base, 2025-04-18 to 2026-11-06, mostly about development, integration, copilot."
+summary: "Aardvark Labs (Marcel Chabot): 87 posts in the knowledge base, 2025-04-18 to 2026-11-13, mostly about development, integration, copilot."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T00:15:21.625Z"
+  at: "2026-11-15T00:17:15.357Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: b9faff2314ba3780d610eaa8252c9e304686ade1acb28239e8af221ece1960b4
+  input_hash: f929620d788b6d9a095bac26e68febed26e71fc87dfd88122f6822c9ce8cce7b
 evidence:
   - kind: blog
     url: https://aardvarklabs.blog
@@ -119,6 +119,7 @@ links:
     - post/aardvarklabs-blog/4082
     - post/aardvarklabs-blog/4177
     - post/aardvarklabs-blog/4100
+    - post/aardvarklabs-blog/4095
   guidelines: []
 source_id: aardvarklabs-blog
 kind: blog
@@ -126,11 +127,11 @@ url: https://aardvarklabs.blog
 author: Marcel Chabot
 mvp: false
 full_text: false
-item_count: 86
+item_count: 87
 footprint:
   systems:
     - id: development
-      weight: 96
+      weight: 98
     - id: integration
       weight: 45
     - id: copilot
@@ -143,7 +144,7 @@ footprint:
       weight: 14
   topics:
     - id: al development
-      weight: 21
+      weight: 22
     - id: copilot
       weight: 10
     - id: al code
@@ -189,12 +190,12 @@ footprint:
       weight: 2
   features: []
 first_item: "2025-04-18"
-last_item: "2026-11-06"
+last_item: "2026-11-13"
 ---
 
 # Aardvark Labs
 
-> Aardvark Labs (Marcel Chabot): 86 posts in the knowledge base, 2025-04-18 to 2026-11-06, mostly about development, integration, copilot.
+> Aardvark Labs (Marcel Chabot): 87 posts in the knowledge base, 2025-04-18 to 2026-11-13, mostly about development, integration, copilot.
 
 [https://aardvarklabs.blog](https://aardvarklabs.blog) · blog · tier community
 
@@ -202,7 +203,7 @@ last_item: "2026-11-06"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (96) | al development (21) | table Customer (7) |
+| development (98) | al development (22) | table Customer (7) |
 | integration (45) | copilot (10) | page Customer Card (5) |
 | copilot (38) | al code (8) | table Sales Header (5) |
 | platform (32) | api (6) | table Vendor (3) |
@@ -225,10 +226,11 @@ Items per quarter, oldest first:
 - 2026-Q1: ************* 13
 - 2026-Q2: *************** 15
 - 2026-Q3: ************* 13
-- 2026-Q4: ****** 6
+- 2026-Q4: ******* 7
 
 ## Most recent
 
+- [Business Central v29: ModuleInfo Gets Four New Runtime 18 Values](../posts/aardvarklabs-blog/4095.md) (2026-11-13)
 - [Business Central 29: The New IsDirty() Flag — Finally a Smarter Way to Detect Record Changes](../posts/aardvarklabs-blog/4100.md) (2026-11-06)
 - [Building the AL Exploration Tool I Always Wanted](../posts/aardvarklabs-blog/4177.md) (2026-10-30)
 - [Business Central’s New API Overview: A Modern Replacement for Web Services](../posts/aardvarklabs-blog/4082.md) (2026-10-23)
@@ -248,6 +250,5 @@ Items per quarter, oldest first:
 - [Optimizing Business Central Indexes for Performance with Copilot](../posts/aardvarklabs-blog/3761.md) (2026-07-17)
 - [Push Documents from Business Central to SFTP via Power Automate](../posts/aardvarklabs-blog/3704.md) (2026-07-10)
 - [Troubleshooting AL Extension in VS Code: Phantom Errors](../posts/aardvarklabs-blog/3706.md) (2026-07-03)
-- [Step-by-Step Guide to Custom User Controls in Business Central](../posts/aardvarklabs-blog/3680.md) (2026-06-26)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

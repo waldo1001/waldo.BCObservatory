@@ -2,37 +2,37 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-rename.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-rename",
   "title": "Rename Environments in the Admin Center",
-  "blob": "989007ed865fd2e129352cc9a91f8bff7e41fe8b",
+  "blob": "aef57f020ea7581998c7759cb33d1b529aa8cbdb",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Environment name is part of URL and changing it restarts the environment."
-    },
-    {
-      "kind": "step",
-      "text": "Select Environments, choose environment to rename, select Rename option."
-    },
-    {
-      "kind": "step",
-      "text": "Enter new name on Rename environment page and select Rename button."
-    },
-    {
-      "kind": "fact",
-      "text": "Environment state changes to Preparing/Rename Scheduled then back to Active when complete."
-    },
-    {
-      "kind": "fact",
-      "text": "Old environment name is no longer accessible; new name available immediately."
+      "text": "Renaming changes environment URL; can impact bookmarks, deep links, integrations, mobile apps, and external services."
     },
     {
       "kind": "limit",
-      "text": "Renaming affects web client URL, deep links, integrations, mobile apps, Power BI, Excel add-ins."
+      "text": "Environment name limited to 30 characters, must start with letter, contain only letters numbers hyphens underscores; cannot be reserved name like admin or api."
+    },
+    {
+      "kind": "fact",
+      "text": "Renaming requires environment restart; recommended during times when no users are active in Business Central."
+    },
+    {
+      "kind": "step",
+      "text": "Select Environments, choose environment, select Rename, enter new name, confirm intent to rename."
+    },
+    {
+      "kind": "fact",
+      "text": "Name must be unique within same application family in tenant; environment state changes to Preparing | Rename Scheduled then Active."
+    },
+    {
+      "kind": "fact",
+      "text": "Old environment name becomes inaccessible immediately; rename operation logged on Operations page."
     },
     {
       "kind": "limit",
-      "text": "Browser cache, CI/CD pipelines, launch.json files, and external integrations require manual updates."
+      "text": "Affected areas include web client URLs, deep links to pages, Outlook Excel Power BI add-ins, external integrations, mobile apps, browser cache."
     }
   ],
   "dropped": 0,
@@ -40,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005012,
-      "pages_in_call": 12
+      "cost_usd": 0.006128,
+      "pages_in_call": 8
     }
   ]
 }

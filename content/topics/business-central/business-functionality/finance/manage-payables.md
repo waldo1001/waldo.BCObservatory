@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -332,6 +332,7 @@ links:
     - change/bcapps/12762
     - change/bcapps/13228
     - change/bcapps/13396
+    - change/bcapps/13467
     - change/bcapps/9133
     - change/bcapps/9145
     - change/bcapps/9182
@@ -534,6 +535,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12762 [29.X]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side](../../../../changes/bcapps/12762.md) (code change): "Dispute status is now retained when editing vendor ledger entries"
 - [#13228 [Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](../../../../changes/bcapps/13228.md) (code change): "Fixes inconsistent syncing of On Hold and document dispute status"
 - [#13396 [main] Purchase invoice fails with "quantity larger than item ledger entry" after partial invoicing of multiple receipts with non-base UoM and Qty. Rounding Precision = 1](../../../../changes/bcapps/13396.md) (code change): "partial purchase invoices with non-base units of measure and quantity rounding"
+- [#13467 [29.x[All-e]Payment Discount with Prices Incl. VAT provides unexpected results in the Spanish version](../../../../changes/bcapps/13467.md) (code change): "Payment discounts now correctly reflected in sales and purchase totals"
 - [#9133 [Master]-Project consumption: partial invoicing of non-inventory items posts negative adjustment value entry to wrong Item Ledger Entry](../../../../changes/bcapps/9133.md) (code change): "Partial invoicing of non-inventory items consumed on a project"
 - [#9145 [E-Document] Show PDF preview factbox on purchase invoice pages](../../../../changes/bcapps/9145.md) (code change): "PDF preview factbox is added to purchase invoice pages to display the original invoice PDF"
 - [#9182 Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents](../../../../changes/bcapps/9182.md) (code change): "Pay-to Name 2 editability aligned with other pay-to address fields"

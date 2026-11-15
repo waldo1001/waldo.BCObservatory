@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-15T00:50:59.995Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -214,6 +214,7 @@ links:
     - post/aardvarklabs-blog/2467
     - post/aardvarklabs-blog/2663
     - post/aardvarklabs-blog/2965
+    - post/demiliani-com/17609
     - post/thinkaboutit-be/8204
   guidelines: []
   changes:
@@ -235,7 +236,7 @@ coverage:
   learn: 24
   code: 0
   video: 3
-  blog: 7
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -301,6 +302,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Enhancing Business Central with Address Validation AI](../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses"
 - [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "Azure OpenAI in Business Central AL: Managed vs Unmanaged"
 - [Step-by-Step Guide to AI Campaigns in Business Central](../../../posts/aardvarklabs-blog/2965.md) (community post): "Leverages Business Central's managed AI resource with Bing Grounded Search"
+- [AI and prompt injections: the invoice that approves itself.](../../../posts/demiliani-com/17609.md) (community post): "Defense requires five layered controls: hidden text detection, rendering pages as images"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "build Copilot extensions using Microsoft-managed Azure OpenAI resources"
 - [What's New: AI Development Toolkit (2026 release wave 1)](../../../videos/juUBVPfIp8A.md) (video): "Content filtering policies; Prompt injection protection"
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../videos/NE7NIjpkX3c.md) (video): "copilot extension; cloud deployment; large language models; prompt engineering"

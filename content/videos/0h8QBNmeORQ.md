@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:51:19.516Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-11-15T00:44:19.225Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -66,7 +66,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573380
   topics: []
   localizations: []
   videos: []
@@ -103,10 +104,12 @@ features:
     verified: false
     status_source: video
   - name: Payables Agent
-    status: unclear
+    status: ga
     t: 37
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573380"
   - name: Custom Agents Framework
     status: unclear
     t: 59
@@ -163,13 +166,13 @@ It then moves to building custom agents that connect to other Microsoft tools. C
 
 ## Features
 
-Every feature below: status not stated.
+| Feature | Status | At |
+|---|---|---|
+| Sales Order Agent | status not stated | [0:25](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=25s) |
+| Payables Agent | generally available (roadmap [Improve purchase order matching in Payables Agent](../features/573380.md)) | [0:37](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=37s) |
+| Custom Agents Framework | status not stated | [0:59](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=59s) |
 
-| Feature | At |
-|---|---|
-| Sales Order Agent | [0:25](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=25s) |
-| Payables Agent | [0:37](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=37s) |
-| Custom Agents Framework | [0:59](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=59s) |
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

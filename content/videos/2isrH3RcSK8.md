@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:03:35.392Z"
   flags: []
 generated:
-  at: "2026-11-14T00:59:34.442Z"
+  at: "2026-11-15T00:44:19.225Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -224,9 +224,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573362
-    - feature/577820
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -301,12 +299,10 @@ features:
     verified: false
     status_source: video
   - name: Copilot Chat for data inquiries
-    status: ga
+    status: unclear
     t: 207
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573362"
+    status_source: video
   - name: Copilot Chat multilingual support
     status: ga
     t: 343
@@ -486,9 +482,7 @@ features:
     status: preview
     t: 1844
     verified: true
-    status_source: roadmap
-    roadmap_ids:
-      - "577820"
+    status_source: video
   - name: Scheduled client performance profiler
     status: unclear
     t: 1959
@@ -640,7 +634,7 @@ It then covers Power Automate, modern search in preview, column resizing and acc
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | Copilot enabled by default | status not stated | [3:07](https://www.youtube.com/watch?v=2isrH3RcSK8&t=187s) |  |
-| Copilot Chat for data inquiries | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [3:27](https://www.youtube.com/watch?v=2isrH3RcSK8&t=207s) |  |
+| Copilot Chat for data inquiries | status not stated, demoed | [3:27](https://www.youtube.com/watch?v=2isrH3RcSK8&t=207s) |  |
 | Copilot Chat multilingual support | generally available | [5:43](https://www.youtube.com/watch?v=2isrH3RcSK8&t=343s) | "adding 20 languages with this release it's now available in all these languages" ([5:43](https://www.youtube.com/watch?v=2isrH3RcSK8&t=343s)) |
 | Copilot for Finance app | status not stated, demoed | [6:03](https://www.youtube.com/watch?v=2isrH3RcSK8&t=363s) |  |
 | Copilot item substitution generation | status not stated, demoed | [7:04](https://www.youtube.com/watch?v=2isrH3RcSK8&t=424s) |  |
@@ -676,14 +670,12 @@ It then covers Power Automate, modern search in preview, column resizing and acc
 | AI usage telemetry for ISVs and partners | status not stated | [27:40](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1660s) |  |
 | AI testing toolkit for copilot solutions | preview | [29:01](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1741s) | "so please take a look at the preview which we published at aka.ms BC ups" ([30:03](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1803s)) |
 | Azure AI Studio integration for harm testing | status not stated | [29:43](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1783s) |  |
-| Managed AI resources private preview | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)) | [30:44](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1844s) | "we are gradually coming to the place where we would like to expand this private preview into the public preview so there will definitely" ([31:24](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1884s)) |
+| Managed AI resources private preview | preview | [30:44](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1844s) | "we are gradually coming to the place where we would like to expand this private preview into the public preview so there will definitely" ([31:24](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1884s)) |
 | Scheduled client performance profiler | status not stated | [32:39](https://www.youtube.com/watch?v=2isrH3RcSK8&t=1959s) |  |
 | Modern search performance improvement | status not stated | [33:39](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2019s) |  |
 | Job queue priority and execution order | status not stated | [34:20](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2060s) |  |
 | Warehouse ledger entry posting pattern refactor | status not stated | [35:00](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2100s) |  |
 | Page scripting in pipelines | status not stated | [36:16](https://www.youtube.com/watch?v=2isrH3RcSK8&t=2176s) |  |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

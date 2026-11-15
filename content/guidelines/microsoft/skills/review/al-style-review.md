@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-14T00:13:53.624Z"
+  at: "2026-11-15T00:17:15.357Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c5e1881270e8459c8ecdec031347910add92d6f2
@@ -47,6 +47,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/273
     - change/bcquality/225
     - change/bcquality/216
     - change/bcquality/157
@@ -246,6 +247,7 @@ Output conforms to the DO output contract. Every finding this skill emits MUST s
 
 ## Changed by
 
+- [#273 knowledge(style): SetFilter date operands as replacement values; product name via ProductName](../../../../changes/bcquality/273.md), 2026-11-13
 - [#225 Performance and style knowledge: compute Role Center headlines in the background; build client links with GetUrl](../../../../changes/bcquality/225.md), 2026-10-19
 - [#216 knowledge(style): a new procedure that changes the page's current record should take it as var Record](../../../../changes/bcquality/216.md), 2026-10-05
 - [#157 18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource](../../../../changes/bcquality/157.md), 2026-09-29

@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-14T00:13:51.598Z"
+  at: "2026-11-15T00:17:15.357Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9eb5fc6655bd128c9e03e9bff53f462ace8b8834
@@ -45,7 +45,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/273
   related:
     - to: object/table/7001
       title: table 7001 "Price List Line"
@@ -121,6 +122,10 @@ See sample: [`setfilter-date-operands-must-be-replacement-values.bad.al`](https:
 
 - [File.Write(DateFormula) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/file/file-write-dateformula-method) (names DateFormula)
 - [table 7001 "Price List Line"](../../../../objects/table/7001.md) (possibly related: a code span names it)
+
+## Changed by
+
+- [#273 knowledge(style): SetFilter date operands as replacement values; product name via ProductName](../../../../changes/bcquality/273.md), 2026-11-13
 
 ---
 
