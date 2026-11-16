@@ -2,7 +2,7 @@
 id: topic/business-central/copilot-and-agent-capabilities
 type: topic
 title: Copilot and agent capabilities
-summary: "Copilot and agent capabilities in Business Central: overview, country/region and language availability, Copilot FAQ, Advanced Tell Me, and subtopics for each Copilot feature and agent. It answers what each feature does, how to set it up and use it, how to administer it, and what its limits are."
+summary: "Copilot and agent capabilities in Business Central: the AI overview, country/region and language availability, the Copilot FAQ, Advanced Tell Me, plus subtopics for each Copilot feature and agent. It answers what each feature does, how to set it up and administer it, and its limits and responsible AI details."
 tier: official
 language: en
 system: copilot
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 4282a294e5360647c9331bca5cd99791c3b71c280b7ca6b974f6a4c372ad9de4
+  input_hash: 61c334158bd2bcdac97038d220afcbb2ae5f6d3d3f1d4e1976d8a8dd8ccd99e2
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/item-marketing-text
@@ -359,17 +359,14 @@ links:
     - topic/business-central/copilot-and-agent-capabilities/summarize-preview
   localizations: []
   videos:
-    - video/0h8QBNmeORQ
-    - video/1IIlArcHpOY
-    - video/2uXVammbab0
-    - video/58yOwN3GY2Q
     - video/bHXEbtsx0JY
-    - video/K0i5rvqPC_o
+    - video/GlY_e-jH0V0
+    - video/p460TIQL2zw
     - video/q0TxpWfm9rc
     - video/xJ8gYzvWnTI
     - video/YUgTqJsNLW0
   posts:
-    - post/aardvarklabs-blog/3315
+    - post/gerardorenteria-blog/15508
     - post/waldo-be/318712
     - post/yzhums-com/69476
   guidelines: []
@@ -402,7 +399,7 @@ children:
 coverage:
   learn: 55
   code: 35
-  video: 9
+  video: 6
   blog: 3
   guideline: 0
 bc_forms:
@@ -447,28 +444,28 @@ narrative: generated
 
 # Copilot and agent capabilities
 
-> Copilot and agent capabilities in Business Central: overview, country/region and language availability, Copilot FAQ, Advanced Tell Me, and subtopics for each Copilot feature and agent. It answers what each feature does, how to set it up and use it, how to administer it, and what its limits are.
+> Copilot and agent capabilities in Business Central: the AI overview, country/region and language availability, the Copilot FAQ, Advanced Tell Me, plus subtopics for each Copilot feature and agent. It answers what each feature does, how to set it up and administer it, and its limits and responsible AI details.
 
 Path: Copilot and agent capabilities · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the AI features of Business Central. The own pages give the big picture. Business Central AI lists the features across finance, inventory, sales and company setup. The Copilot FAQ explains licensing, permissions and online-only availability. The availability page shows which features work in which country/region and language. A Responsible AI FAQ covers Advanced Tell Me, the semantic search in the Tell Me pane.
+This section covers the AI features in Business Central. They fall into two groups: Copilot features that assist users in the page they are working on, and agents that handle tasks such as email-driven work. The own pages give the overview (Business Central AI), the Copilot FAQ, availability by country/region and language, and a Responsible AI FAQ for Advanced Tell Me, a semantic search enhancement of Tell Me.
 
-The subtopics split into two groups. Copilot features work inside pages: Analysis assist, Autofill, Summarize, Bank account reconciliation assist, Marketing text suggestions, Sales line suggestion, Suggest item substitutions, Suggest number series, Shopify tax matching, Map E-Documents, and the read-only Microsoft Copilot chat. Agents work more autonomously: Payables Agent, Sales Order Agent and Expense Agent. Many pages are marked preview.
+Each subtopic covers one feature. Copilot features include analysis assist, autofill, summarize, bank account reconciliation assist, marketing text suggestions, sales line suggestion, item substitutions, number series suggestions, Shopify tax matching and the read-only Microsoft Copilot chat. The agents are Payables Agent, Sales Order Agent and Expense Agent. Many of these are marked preview.
 
-Start with Business Central AI and the availability page to see what applies to your region. Then use Manage Copilot and agent capabilities to activate features and set permissions, and open the subtopic of the feature you need.
+Start with the Business Central AI overview, then check availability for your country/region and language. Use "Manage Copilot and agent capabilities" to activate features, set permissions and handle data movement. Then go to the page for the feature you need.
 
 ## Key points
 
-- Copilot is included with Business Central licenses, is available only online, and respects user data permissions (Copilot FAQ).
-- Availability depends on country/region version, data location and language; check the availability page before planning rollout.
-- Admins manage features on the Copilot & agent capabilities page: activation, user permissions, cross-geography data movement, Bing Search, and Azure OpenAI data handling.
-- Agents: Payables Agent processes vendor invoices and credit notes from email; Sales Order Agent turns customer emails into quotes and orders; Expense Agent (preview) handles receipts, expense reports and travel requests.
-- In-page Copilot features include Analysis assist, Autofill, Summarize, bank reconciliation assist, marketing text, sales line suggestions, item substitutions and number series suggestions.
-- Shopify tax matching (preview) maps tax descriptions on imported US orders to tax jurisdictions, set up per shop.
-- Map E-Documents (preview) is deprecated and replaced by the Payables Agent.
-- Advanced Tell Me adds semantic search with synonyms and acronyms through an Advanced tab in the Tell Me pane.
+- Copilot is included with Business Central licenses, is available online only, and respects user data permissions.
+- Availability varies by country/region version, data location and language, so check the availability page before rollout.
+- Administration covers the Copilot & agent capabilities page, feature activation, user permissions, cross-geography data movement, Bing Search, Azure OpenAI data handling and troubleshooting.
+- Payables Agent processes vendor invoices and credit notes received by email; it replaces the deprecated E-documents Matching Assistance (Map E-Documents).
+- Sales Order Agent turns customer emails into sales quotes and orders; Expense Agent handles receipts, expense reports and travel requests, with a mobile app.
+- Analysis assist, autofill, summarize and bank account reconciliation assist work inside pages, such as list pages, card pages, the FactBox pane and bank reconciliations.
+- Marketing text suggestions draft item descriptions using Azure OpenAI Service and work with Shopify.
+- Shopify tax matching maps tax descriptions on imported US orders to tax jurisdictions, with setup per shop and review modes.
 
 ## Subtopics
 
@@ -504,17 +501,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13307 [SOA] Clear stale pricing notifications on item availability refresh](../../changes/bcapps/13307.md) (code change): "Sales Order Agent now clears stale pricing-error notifications when refreshing"
 - [#13469 [SOA] Do not show duplicate-contact notification on outgoing email](../../changes/bcapps/13469.md) (code change): "Sales Order Agent no longer displays the duplicate-contact notification"
 - [#13495 Migrate SOA auxiliary calls to GPT-5.6 and refine date-filter handling](../../changes/bcapps/13495.md) (code change): "Sales Order Agent now uses GPT-5.6 Ceres instead of GPT-4.1"
-- [Effective Steps for Troubleshooting Business Central Agents](../../posts/aardvarklabs-blog/3315.md) (community post): "This post explains how to troubleshoot Business Central agents by examining task logs"
+- [New Application Ideas of Dynamics 365 Business Central (2026 OCT)](../../posts/gerardorenteria-blog/15508.md) (community post): "Copilot agents, data migrations, financial management, localization, inventory"
 - [The Business Central 2026 release wave 2 docs nobody asked for ..](../../posts/waldo-be/318712.md) (community post): "319 features identified from 38 videos with developer tools"
 - [Dynamics 365 Business Central: All Copilot and agent capabilities](../../posts/yzhums-com/69476.md) (community post): "multiple AI-powered Copilot features for productivity"
-- [Microsoft Sizzle: Business Central Agents In Action](../../videos/0h8QBNmeORQ.md) (video): "Microsoft Sizzle: Business Central Agents In Action"
-- [What's New: Working with Instructions for Agents in Business Central](../../videos/1IIlArcHpOY.md) (video): "What's New: Working with Instructions for Agents in Business Central"
-- [What's New: Chat with Copilot (2025 release wave 1)](../../videos/2uXVammbab0.md) (video): "Chat with Copilot; Chat interface; natural language queries; analysis tabs; permissions; contextual assistance"
-- [Microsoft Copilot in Business Central](../../videos/58yOwN3GY2Q.md) (video): "Microsoft Copilot in Business Central. Topics: copilot"
 - [What's New: Sustainability Copilot (2025 release wave 2)](../../videos/bHXEbtsx0JY.md) (video): "Sustainability Copilot emissions calculation copilot sustainability journal emission factors"
-- [What's New: Troubleshooting Business Central Agents](../../videos/K0i5rvqPC_o.md) (video): "Agent task logging and view log entries"
+- [Urgency without Direction is a problem with AI. Use it with purpose.](../../videos/GlY_e-jH0V0.md) (video): "Copilot adoption; ai usage; feature overwhelm; learning strategies"
+- [Context Switching and Mental Load in AI-era is real.](../../videos/p460TIQL2zw.md) (video): "Context Switching and Mental Load in AI-era is real"
 - [What's New: Enhancements to Copilot Summaries (2025 release wave 2)](../../videos/q0TxpWfm9rc.md) (video): "Developer Configuration for Summarization; Enhanced Fields for Richer Insights"
-- [What's New: Business Central User Experience and Productivity (2026 release wave 1)](../../videos/xJ8gYzvWnTI.md) (video): "Dedicated agent task pane"
+- [What's New: Business Central User Experience and Productivity (2026 release wave 1)](../../videos/xJ8gYzvWnTI.md) (video): "agent task pane; sales order agent; payables agent; review bar"
 - [Agents on the rise and with voice, do you think BC will have an agent you can speak to?](../../videos/YUgTqJsNLW0.md) (video): "agents; voice conversation; conversational ai; business manager agent"
 
 ## Business Central pages and reports

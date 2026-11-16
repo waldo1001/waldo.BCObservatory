@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:50.803Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -115,6 +115,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/13952
+    - change/bcapps/13953
     - change/bcquality/226
 learn_toc_path:
   - Development
@@ -173,6 +174,7 @@ This section deals with two ways to speed up sum calculations on large tables, w
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#13952 Add key on Email Message Attachment Data to speed up email deletion](../../../../../changes/bcapps/13952.md) (code change): "Adds an index on the Data media field to avoid full table scans"
+- [#13953 Add key on Email Message Attachment Data to speed up email deletion (backport to releases/29.x)](../../../../../changes/bcapps/13953.md) (code change): "A database key was added to the Data field of the Email Message Attachment table"
 - [#226 Performance knowledge: justify low-selectivity fields in key columns](../../../../../changes/bcquality/226.md) (code change): "low-selectivity fields in table keys requiring evidence such as filtered reads"
 - [Optimizing Business Central Indexes for Performance with Copilot](../../../../../posts/aardvarklabs-blog/3761.md) (community post): "generate AL tableextension index recommendations"
 - [Smarter Keys, Better Performance: Exploring Business Central v29 Index Updates](../../../../../posts/aardvarklabs-blog/4056.md) (community post): "administrators to manage indexes and SIFT keys directly through the Index Management page"

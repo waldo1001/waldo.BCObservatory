@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:17:15.357Z"
+  at: "2026-11-16T00:19:27.268Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 11bee0aafc9afb9f22f3b553387323d9c1efab06e7f5bb0d4189c8b2c198db63
@@ -32,7 +32,6 @@ links:
     - feature/573315
     - feature/573332
     - feature/573336
-    - feature/576815
   topics: []
   localizations: []
   videos:
@@ -134,8 +133,6 @@ footprint:
       weight: 1
     - id: feature/573336
       weight: 1
-    - id: feature/576815
-      weight: 1
 first_item: "2026-09-21"
 last_item: "2026-11-09"
 ---
@@ -175,7 +172,6 @@ Items per quarter, oldest first:
 - [Audit AL app accessibility and debugging boundaries](../features/573336.md): Development, generally available, GA 2026-10, 1 video
 - [Developers can define indexes that span fields from a base table and its table extensions](../features/573315.md): Development, generally available, GA 2026-10, 1 video
 - [Faster data loading with improved data model for table extensions](../features/573332.md): Service and platform, generally available, GA 2026-10, 1 video
-- [Upload, install, and manage PTEs in the admin center](../features/576815.md): Governance and administration, generally available, GA 2026-07, 1 video
 
 ## Most recent
 

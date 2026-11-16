@@ -2,7 +2,7 @@
 id: app/createproductinformationwithcopilot
 type: app
 title: CreateProductInformationWithCopilot
-summary: "CreateProductInformationWithCopilot (Microsoft.Inventory): 18 objects in BC29-30 (9 codeunits, 2 pages, 2 page extensions, 2 enums, 1 table, ...); no Learn hub documents its objects yet."
+summary: "CreateProductInformationWithCopilot (Microsoft.Inventory): 19 objects in BC29-30 (10 codeunits, 2 pages, 2 page extensions, 2 enums, 1 table, ...); no Learn hub documents its objects yet."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-11-16T00:52:24.356Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f449daf0b8d519678be481971a50ac67fd9db981e6eecd4de0cd794ef879881d
+  input_hash: e02672dddb93e05361db00eb76e1abf45d5816c71ba12d2cb13bf28f203e7614
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/CreateProductInformationWithCopilot/app
@@ -45,6 +45,7 @@ links:
     - object/codeunit/7342
     - object/codeunit/7343
     - object/codeunit/7345
+    - object/codeunit/7346
     - object/enum/7331
     - object/enum/7332
     - object/enumextension/7330
@@ -60,9 +61,9 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 18
+  objects: 19
   by_type:
-    codeunit: 9
+    codeunit: 10
     page: 2
     pageextension: 2
     enum: 2
@@ -76,13 +77,13 @@ counts:
 
 # CreateProductInformationWithCopilot
 
-> CreateProductInformationWithCopilot (Microsoft.Inventory): 18 objects in BC29-30 (9 codeunits, 2 pages, 2 page extensions, 2 enums, 1 table, ...); no Learn hub documents its objects yet.
+> CreateProductInformationWithCopilot (Microsoft.Inventory): 19 objects in BC29-30 (10 codeunits, 2 pages, 2 page extensions, 2 enums, 1 table, ...); no Learn hub documents its objects yet.
 
 First-party app · folder `src/Apps/W1/CreateProductInformationWithCopilot/app` · namespace `Microsoft.Inventory` · BC29-30 · system inventory · facts from the code pillar and the joins, nothing machine-written
 
 ## Objects
 
-18 objects, by type.
+19 objects, by type.
 
 ### Tables (1)
 
@@ -110,7 +111,7 @@ First-party app · folder `src/Apps/W1/CreateProductInformationWithCopilot/app` 
 | 7330 | [Item Substitution Entry Ext.](../objects/pageextension/7330.md) |  |
 | 7331 | [Item Card Ext.](../objects/pageextension/7331.md) |  |
 
-### Codeunits (9)
+### Codeunits (10)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -123,6 +124,7 @@ First-party app · folder `src/Apps/W1/CreateProductInformationWithCopilot/app` 
 | 7342 | [Suggest Substitutions Function](../objects/codeunit/7342.md) |  |
 | 7343 | [Notification Manager](../objects/codeunit/7343.md) |  |
 | 7345 | [Create Product Info. Utility](../objects/codeunit/7345.md) |  |
+| 7346 | [Item Subst. Discont. Notif.](../objects/codeunit/7346.md) |  |
 
 ### Enums (2)
 

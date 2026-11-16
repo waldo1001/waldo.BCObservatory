@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-14T00:54:52.162Z"
+  at: "2026-11-16T00:48:52.213Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 305b1c0633d1bf274f4c87b6037cd9a71163ca0ec428a9eafa31c3295ab371d5
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/SalesLinesSuggestions/app/SalesAzureOpenAITools/SalesAzureOpenAITools.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/Apps/W1/SalesLinesSuggestions/app/SalesAzureOpenAITools/SalesAzureOpenAITools.Interface.al
     title: src/Apps/W1/SalesLinesSuggestions/app/SalesAzureOpenAITools/SalesAzureOpenAITools.Interface.al (releases/29.x)
     date: null
-    commit: 229c71f1927eed3c6f5f2cac1e8701b916c315fb
+    commit: 9d65b5414f44cbad5890049a1e0490a64118ffdb
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "SalesAzureOpenAITools" in SalesLinesSuggestions (Microsoft.Sales.Document). 2 public procedures. Introduced in BC29, still in BC30.
 
-SalesLinesSuggestions · Microsoft.Sales.Document · BC29-30 · [source at 229c71f1](https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/SalesLinesSuggestions/app/SalesAzureOpenAITools/SalesAzureOpenAITools.Interface.al) · facts from BC29
+SalesLinesSuggestions · Microsoft.Sales.Document · BC29-30 · [source at 9d65b541](https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/Apps/W1/SalesLinesSuggestions/app/SalesAzureOpenAITools/SalesAzureOpenAITools.Interface.al) · facts from BC29
 
 ## Properties
 

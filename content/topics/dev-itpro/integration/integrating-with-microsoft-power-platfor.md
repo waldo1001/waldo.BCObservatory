@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -237,7 +237,7 @@ A separate page covers Power Pages on virtual tables (preview), which lets unlic
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#2346 Pin all actions that are not currently pinned](../../../changes/al-go/2346.md) (code change): "Unpinned action references are pinned in Power Platform action.yaml files"
-- [#12947 [MCP] Provide environment and company descriptions to the platform](../../../changes/bcapps/12947.md) (code change): "MCP server can now return company descriptions"
+- [#12947 [MCP] Provide environment and company descriptions to the platform](../../../changes/bcapps/12947.md) (code change): "The MCP server's list_companies tool can then return company descriptions"
 - [#13692 Fix SharePoint REST upload 404 caused by trailing slash in parent folder](../../../changes/bcapps/13692.md) (code change): "SharePoint REST upload 404 caused by trailing slash"
 - [DynamicsMinds 2025 - PortoroÅ¾, Slovenia](../../../posts/wingate365-com/https-blog-wingate365-com-2025-08-dynamicsminds-2025-portoroz-slovenia-html--fc223b1359.md) (community post): "BC to PP integration techniques, from lo-code through Virtual Tables and BC Data Sync"
 - [What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers](../../../videos/gAzmWJg9Z5g.md) (video): "Power Platform Integration Documentation"

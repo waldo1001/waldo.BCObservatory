@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:17.483Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -289,6 +289,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10495
+    - change/bcapps/9879
     - change/bcapps/9960
 learn_toc_path:
   - Business functionality
@@ -405,6 +406,7 @@ This section documents the standard sales reports in Business Central. They fall
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10495 MSlenejennum/647454/sales internal new body layouts and obsolete current](../../../../../changes/bcapps/10495.md) (code change): "Three sales reports receive new internal Word body layouts"
+- [#9879 Fixes #8869: French sales reports must ignore comment lines when evaluating GetGoodsAndServicesText](../../../../../changes/bcapps/9879.md) (code change): "Standard Sales Invoice, Draft Invoice and Credit Memo reports now filter out comment lines"
 - [#9960 [Extensibility Request] issue 30396: expose sales document lookup](../../../../../changes/bcapps/9960.md) (code change): "LookupSalesDoc procedure made public in Copy Sales Document report"
 
 ## Business Central pages and reports

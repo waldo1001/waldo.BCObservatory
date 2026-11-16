@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a7b9ccb52c450ada69d2c054856b667a3f1777033b07678b537aaa6d598c6b69
@@ -40,7 +40,8 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry
   localizations: []
-  videos: []
+  videos:
+    - video/c91E6IykUnk
   posts:
     - post/duiliotacconi-com/1925
     - post/duiliotacconi-com/2074
@@ -56,7 +57,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 1
   blog: 2
   guideline: 0
 bc_forms: []
@@ -81,5 +82,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Dynamics 365 Business Central Online Wait Statistics in Telemetry: the AI boost](../../../../../posts/duiliotacconi-com/1925.md) (community post): "Wait Statistics page in Business Central Online emits telemetry showing grouped wait categories"
 - [Use sqlServerSessionId to spot on blocking sessions in Dynamics 365 Business Central 2026 Wave 1](../../../../../posts/duiliotacconi-com/2074.md) (community post): "sqlServerSessionId to Long Running Queries telemetry and other signals that carry a SQL statement"
+- [Episode 519: The Last Frontier: Can AI Finally Conquer BC Report Layouts?](../../../../../videos/c91E6IykUnk.md) (video): "Telemetry analysis through MCP; AI-powered proactive telemetry monitoring"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

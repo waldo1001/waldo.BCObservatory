@@ -2,12 +2,12 @@
   "inputs": [
     7,
     [
-      "229c71f1927eed3c6f5f2cac1e8701b916c315fb",
+      "9d65b5414f44cbad5890049a1e0490a64118ffdb",
       "4",
       9478,
-      "229c71f1927eed3c6f5f2cac1e8701b916c315fb",
+      "9d65b5414f44cbad5890049a1e0490a64118ffdb",
       "4",
-      6954
+      6955
     ]
   ],
   "schema": "al-relations@1",
@@ -209027,6 +209027,11 @@
             "app": "ExpenseAgent"
           },
           {
+            "s": "codeunit/7332",
+            "proc": "RegisterPerDatabaseUpgradeTags",
+            "app": "CreateProductInformationWithCopilot"
+          },
+          {
             "s": "codeunit/7781",
             "proc": "RegisterUpgradeTags",
             "app": "System Application"
@@ -210255,6 +210260,11 @@
             "s": "codeunit/7233",
             "proc": "OnInitializingNotificationWithDefaultState",
             "app": "MasterDataManagement"
+          },
+          {
+            "s": "codeunit/7346",
+            "proc": "OnInitializingNotificationWithDefaultState",
+            "app": "CreateProductInformationWithCopilot"
           },
           {
             "s": "codeunit/7499",
@@ -221407,11 +221417,6 @@
             "s": "codeunit/7275",
             "proc": "OnRegisterCopilotCapability",
             "app": "SalesLinesSuggestions"
-          },
-          {
-            "s": "codeunit/7330",
-            "proc": "OnRegisterCopilotCapability",
-            "app": "CreateProductInformationWithCopilot"
           },
           {
             "s": "codeunit/7760",
@@ -293937,7 +293942,7 @@
     "drilldown_page": 519,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5179,
+    "subscribes": 5180,
     "edges": 20575,
     "published_events": 26313,
     "dead_events": 22498

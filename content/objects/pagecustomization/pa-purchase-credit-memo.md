@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-14T00:54:52.162Z"
+  at: "2026-11-16T00:48:52.213Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0485d01d9d5242017c7644b2fde76267cff7e987a87520b36be0bd2e3829df17
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/PayablesAgent/app/Navigation/PAPurchaseCreditMemo.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/Apps/W1/PayablesAgent/app/Navigation/PAPurchaseCreditMemo.PageCust.al
     title: src/Apps/W1/PayablesAgent/app/Navigation/PAPurchaseCreditMemo.PageCust.al (releases/29.x)
     date: null
-    commit: 229c71f1927eed3c6f5f2cac1e8701b916c315fb
+    commit: 9d65b5414f44cbad5890049a1e0490a64118ffdb
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Page customization "PA Purchase Credit Memo" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
-PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 229c71f1](https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/PayablesAgent/app/Navigation/PAPurchaseCreditMemo.PageCust.al) · facts from BC29
+PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 9d65b541](https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/Apps/W1/PayablesAgent/app/Navigation/PAPurchaseCreditMemo.PageCust.al) · facts from BC29
 
 ## Recent changes
 

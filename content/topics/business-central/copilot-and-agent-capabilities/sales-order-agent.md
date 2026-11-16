@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:29.120Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -72,6 +72,7 @@ links:
     - video/UIL8ej7mSKQ
     - video/XhO4oFmoh1M
   posts:
+    - post/aardvarklabs-blog/2965
     - post/demiliani-com/11739
     - post/wingate365-com/https-blog-wingate365-com-2025-05-lets-setup-sales-order-agent-in-html--40ff1930aa
     - post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97
@@ -90,7 +91,7 @@ coverage:
   learn: 4
   code: 2
   video: 11
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms:
   - 4400
@@ -138,6 +139,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "Sales Order Agent, Shopify, Sustainability, Withholding Tax and Excel Reports apps are modified"
 - [#13256 [SOA] Expose Email 2 on Contact Card](../../../changes/bcapps/13256.md) (code change): "Sales Order Agent app now exposes an Email 2 field on the Contact Card"
 - [#13431 Extend sales document edit permissions with subscrition billing edit](../../../changes/bcapps/13431.md) (code change): "enables the Sales Order Agent to add items with subscription billing to sales documents"
+- [Step-by-Step Guide to AI Campaigns in Business Central](../../../posts/aardvarklabs-blog/2965.md) (community post): "uses two sequential AI agents: one for grounded search to find postal codes"
 - [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../../posts/demiliani-com/11739.md) (community post): "Sales Order Agent in 2025 Wave 1 (version 26) reads customer emails, clarifies missing details"
 - [Letâ€™s setup the Sales Order Agent in Business Central - Experts Live UK User Group](../../../posts/wingate365-com/https-blog-wingate365-com-2025-05-lets-setup-sales-order-agent-in-html--40ff1930aa.md) (community post): "setup the Sales Order Agent in Business Central"
 - [Ask AI about Dynamics Licensing](../../../posts/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97.md) (community post): "Sales Order Agent reads customer emails to capture orders"

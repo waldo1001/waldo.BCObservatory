@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/gerardorenteria-blog/15515",
+  "input_hash": "74f3e05502ad4dc459fef59ccedb1a969898379a197e4cc69dc064c19a854a2d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-16T00:57:59.246Z",
+  "issues": [
+    "The integration system has no support in the post. The post is about converting amounts with exchange rates, which belongs under finance.",
+    "The summary, key points, objects, features and both quotes match the post."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.068019,
+    "posts_in_call": 3
+  }
+}

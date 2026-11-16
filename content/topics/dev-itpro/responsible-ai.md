@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,9 +61,9 @@ links:
     - video/fgWFOMPJd6U
     - video/juUBVPfIp8A
     - video/lNASlydCidI
+    - video/MsMGsYqHeI8
     - video/qP0id91bIlA
-  posts:
-    - post/demiliani-com/17609
+  posts: []
   guidelines: []
 learn_toc_path:
   - Responsible AI
@@ -73,8 +73,8 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 5
-  blog: 1
+  video: 6
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: f00a53dec064a6cf7d94c56f8e42b2ead38b97d66a09f079b7acc323527b9ceb
@@ -116,11 +116,11 @@ Start with the note that matches the feature you build or use. Partners building
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [AI and prompt injections: the invoice that approves itself.](../../posts/demiliani-com/17609.md) (community post): "This post demonstrates how prompt injection attacks can exploit AI document processing"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "content safety; data privacy; billing; responsible ai"
 - [Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot](../../videos/fgWFOMPJd6U.md) (video): "Harm testing for AI responses; Accuracy and grounding testing"
 - [What's New: AI Development Toolkit (2026 release wave 1)](../../videos/juUBVPfIp8A.md) (video): "Prompt injection protection; Copilot credit insights in evaluations"
 - [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../videos/lNASlydCidI.md) (video): "Responsible AI Principles and Guidelines; AI-generated Content Disclaimer"
+- [Episode 514: Do We Need AI to Fight AI? The Content Overload Nobody's Talking About](../../videos/MsMGsYqHeI8.md) (video): "ai-generated content; content overload; trust and verification"
 - [What's New: Designing Generative AI Experiences (2024 Release Wave 1)](../../videos/qP0id91bIlA.md) (video): "responsible ai; risk management; preview and undo"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

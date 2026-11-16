@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,6 +96,7 @@ links:
     - video/hNom9ZZuca0
     - video/JI9OpaBx0nk
     - video/qlFEdXPjX6A
+    - video/xB9kszf93hE
     - video/xr8C3c6WhOI
   posts:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-07-al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing--1510616044
@@ -131,7 +132,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 7
+  video: 8
   blog: 6
   guideline: 0
 bc_forms:
@@ -216,6 +217,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's new: Testability Enhancements (2026 release wave 2)](../../../../videos/hNom9ZZuca0.md) (video): "Data-driven Testing in AL"
 - [Introducing: How to Mock Outbound Http Calls for Easier Testing (2025 release wave 1)](../../../../videos/JI9OpaBx0nk.md) (video): "outbound http testing; mocking; HTTP client handler; test isolation; request interception"
 - [What's New: AL Language (2025 release wave 2)](../../../../videos/qlFEdXPjX6A.md) (video): "AI Test Type; Required Test Isolation Property; Cancellation Token Propagation in VS Code"
+- [Getting Started With Agent Testing: Why Are Evaluations Important? (Part 1)](../../../../videos/xB9kszf93hE.md) (video): "Getting Started With Agent Testing: Why Are Evaluations Important"
 - [What's New : AL-Go for GitHub on Quality and Testability (2025 release wave 1)](../../../../videos/xr8C3c6WhOI.md) (video): "Page Scripting Tests in AL-Go Workflow"
 
 ## Business Central pages and reports

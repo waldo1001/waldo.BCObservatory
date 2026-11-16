@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:37.921Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,6 @@ links:
   localizations: []
   videos:
     - video/eA7CENx7se0
-    - video/xB9kszf93hE
   posts: []
   guidelines: []
   changes:
@@ -91,7 +90,7 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -140,6 +139,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#13172 Export structured AI eval run data](../../../../../changes/bcapps/13172.md) (code change): "Export structured AI eval run data. AI Eval run data can now be exported"
 - [What's New: Testing Copilot in Business Central (2024 release wave 2)](../../../../../videos/eA7CENx7se0.md) (video): "Testing Copilot in Business Central; Copilot Test Toolkit"
-- [Getting Started With Agent Testing: Why Are Evaluations Important? (Part 1)](../../../../../videos/xB9kszf93hE.md) (video): "Programmatic evaluation with data-driven testing via YAML"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

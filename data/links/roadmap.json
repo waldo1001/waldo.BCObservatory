@@ -32277,24 +32277,38 @@
     "video/2u5_F9Ztt7U": {
       "kind": "video",
       "key": "video/2u5_F9Ztt7U",
-      "hash": "bffa2df9567446a7a38e6f81906626b0bf4d5154cc0d7648d9a5930fb418a3d9",
+      "hash": "2ee38684e0681185ac84c83231dbef4bdb05ac3806ff037ca435a44093cd41bb",
       "video_id": "2u5_F9Ztt7U",
       "title": "What's New: Server and Database (2026 release wave 1)",
-      "at": "2026-11-12T00:51:59.154Z",
+      "at": "2026-11-16T00:54:06.413Z",
       "matches": [
+        {
+          "feature": 4,
+          "name": "Index Usage Insights and Management",
+          "t": 281,
+          "roadmap_id": "573314",
+          "quote": "Ability to remove unused metadata-defined indexes or auto-tune indexes"
+        },
+        {
+          "feature": 4,
+          "name": "Index Usage Insights and Management",
+          "t": 281,
+          "roadmap_id": "573316",
+          "quote": "New capability to get insights into index usage in the database"
+        },
         {
           "feature": 6,
           "name": "Word Add-in for Document Reports Enhancement",
           "t": 404,
           "roadmap_id": "573328",
-          "quote": "Updated Word add-in for document reports with improved UI, search functionality"
+          "quote": "Updated Word add-in for document reports with improved UI"
         },
         {
           "feature": 7,
           "name": "Layout Lifecycle Control for Report Layouts",
           "t": 449,
           "roadmap_id": "573320",
-          "quote": "Organizations can now control the lifecycle of any layout through status stages"
+          "quote": "Organizations can now control the lifecycle of any layout in the system"
         },
         {
           "feature": 10,
@@ -32308,58 +32322,58 @@
     "video/2ujWYYecA2c": {
       "kind": "video",
       "key": "video/2ujWYYecA2c",
-      "hash": "ff94d73ff16a847fc1b2bfb45522866009a53de103ee74e2aca5523035e0c5ed",
+      "hash": "dd3087755f6b49efdf4245fb8098dbf045f2b53f1be8df63d7c848591715d5a8",
       "video_id": "2ujWYYecA2c",
       "title": "Getting Started With Agents: Set Up Sales Order Agent - New 'Try it out' experience (2026)",
-      "at": "2026-11-08T00:53:44.725Z",
+      "at": "2026-11-16T00:54:05.086Z",
       "matches": [
-        {
-          "feature": 0,
-          "name": "Sales Order Agent",
-          "t": 0,
-          "roadmap_id": "578068",
-          "quote": "An agent in Business Central that monitors sales orders and sales inquiries"
-        },
         {
           "feature": 1,
           "name": "Try It Out Experience",
           "t": 26,
           "roadmap_id": "578065",
-          "quote": "A new feature that allows users to create test tasks and experiment with the sales order agent"
+          "quote": "allows users to create test tasks and experiment with the sales order agent without connecting"
         },
         {
           "feature": 5,
           "name": "Inbox Connection Configuration",
           "t": 170,
           "roadmap_id": "578065",
-          "quote": "Users can connect the agent to personal or shared Outlook inboxes, with options"
+          "quote": "Users can connect the agent to personal or shared Outlook inboxes, with options to use a dedicated folder"
+        },
+        {
+          "feature": 7,
+          "name": "Availability and Capable to Promise Options",
+          "t": 219,
+          "roadmap_id": "578065",
+          "quote": "Users can configure whether the agent should process real availability information or use capable to promise"
         }
       ]
     },
     "video/2uXVammbab0": {
       "kind": "video",
       "key": "video/2uXVammbab0",
-      "hash": "6745ec6f91facb659a403bd10584be2ac096e24a2b9afb545017a15ade9f7fc1",
+      "hash": "10681f557720691d54334a2a06ea2193ecaea028137b10e31e38be25dcac51ff",
       "video_id": "2uXVammbab0",
       "title": "What's New: Chat with Copilot (2025 release wave 1)",
-      "at": "2026-11-08T00:53:47.486Z",
+      "at": "2026-11-16T00:54:05.120Z",
       "matches": [
         {
           "feature": 0,
           "name": "Chat with Copilot",
           "t": 4,
           "roadmap_id": "573362",
-          "quote": "Natural language chat interface to interact with business data"
+          "quote": "Natural language chat interface to interact with business data using filters, sorting and searching"
         }
       ]
     },
     "video/2vUCR16b85o": {
       "kind": "video",
       "key": "video/2vUCR16b85o",
-      "hash": "87a2f90f72be595380779375bcae7f80e46c435153e7540ca7ee68136a5992f1",
+      "hash": "91b2f27ff599bc77de08fafac770805f11ef342e788eb47d135a726c62477614",
       "video_id": "2vUCR16b85o",
       "title": "Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)",
-      "at": "2026-11-12T00:51:57.499Z",
+      "at": "2026-11-16T00:54:06.496Z",
       "matches": []
     },
     "video/2Zz55J8rt8I": {
@@ -32374,180 +32388,187 @@
     "video/3jr6gUuGem4": {
       "kind": "video",
       "key": "video/3jr6gUuGem4",
-      "hash": "a1ef13223c2892c765cc5b7d50c0c6e2209f3ddbdf185bd14ce289fa44509518",
+      "hash": "1b5365cd93ed5516ff018a9e788ec238714172ae96ed7b5ac10741e170622ba6",
       "video_id": "3jr6gUuGem4",
       "title": "Modern Action Bar",
-      "at": "2026-11-08T00:53:46.978Z",
+      "at": "2026-11-16T00:54:10.745Z",
       "matches": []
     },
     "video/3tmaVpPTQLw": {
       "kind": "video",
       "key": "video/3tmaVpPTQLw",
-      "hash": "87af1506a5b441562dfebf9d80f97d577859c9c47773cb8ce77854e5e05dd64f",
+      "hash": "a58bd9d899d7b0284985a0670d1644d083c56eb20039d328c075933b59ffeeed",
       "video_id": "3tmaVpPTQLw",
       "title": "What's New: Shopify Connector B2B Functionality (2024 release wave 1)",
-      "at": "2026-11-12T00:52:04.734Z",
+      "at": "2026-11-16T00:54:17.126Z",
       "matches": [
         {
           "feature": 7,
           "name": "B2B Business Central Integration",
           "t": 442,
           "roadmap_id": "573342",
-          "quote": "B2B Business Central Integration. Enhanced integration between Shopify"
+          "quote": "B2B Business Central Integration. Enhanced integration between Shopify B2B and Microsoft Business Central"
         },
         {
           "feature": 9,
           "name": "B2B Company Synchronization",
           "t": 580,
           "roadmap_id": "573342",
-          "quote": "B2B Company Synchronization. Synchronized settings for B2B company"
+          "quote": "B2B Company Synchronization. Synchronized settings for B2B company export"
         },
         {
           "feature": 10,
           "name": "Default Contact Permissions Configuration",
           "t": 580,
           "roadmap_id": "573342",
-          "quote": "Default Contact Permissions Configuration. Settings to configure default"
+          "quote": "Default Contact Permissions Configuration. Settings to configure default permissions"
         },
         {
           "feature": 11,
           "name": "Automatic Catalog Creation for Companies",
           "t": 600,
           "roadmap_id": "573342",
-          "quote": "Automatic Catalog Creation for Companies. Optional automatic catalog"
+          "quote": "Automatic Catalog Creation for Companies. Optional automatic catalog creation"
         },
         {
           "feature": 12,
           "name": "B2B Catalog Management",
           "t": 706,
           "roadmap_id": "573342",
-          "quote": "B2B Catalog Management. Manual and flexible catalog creation"
+          "quote": "B2B Catalog Management. Manual and flexible catalog creation for B2B companies"
         },
         {
           "feature": 15,
           "name": "Get Catalogs Action",
           "t": 968,
           "roadmap_id": "573342",
-          "quote": "Get Catalogs Action. A new action in Business Central"
+          "quote": "Get Catalogs Action. A new action in Business Central to retrieve catalogs"
         },
         {
           "feature": 16,
           "name": "Catalog Price Synchronization",
           "t": 988,
           "roadmap_id": "573342",
-          "quote": "Catalog Price Synchronization. Ability to sync prices from catalogs"
-        },
-        {
-          "feature": 19,
-          "name": "Cancel Order Action",
-          "t": 1142,
-          "roadmap_id": "573343",
-          "quote": "Cancel Order Action. New action to cancel orders imported"
-        },
-        {
-          "feature": 20,
-          "name": "Order Status Synchronization",
-          "t": 1162,
-          "roadmap_id": "573343",
-          "quote": "Order Status Synchronization. Order statuses from Business Central"
-        },
-        {
-          "feature": 21,
-          "name": "Order Editing with Refunds",
-          "t": 1223,
-          "roadmap_id": "573343",
-          "quote": "Order Editing with Refunds. Merchants can edit orders in"
-        },
-        {
-          "feature": 22,
-          "name": "Intelligent Credit Memo Creation",
-          "t": 1401,
-          "roadmap_id": "573343",
-          "quote": "Intelligent Credit Memo Creation. Business Central automatically creates credit"
-        },
-        {
-          "feature": 24,
-          "name": "Synchronize Order from Shopify Action",
-          "t": 1588,
-          "roadmap_id": "573343",
-          "quote": "Synchronize Order from Shopify Action. Main action that allows"
-        },
-        {
-          "feature": 25,
-          "name": "Unlink Process Documents Action",
-          "t": 1644,
-          "roadmap_id": "573343",
-          "quote": "Unlink Process Documents Action. Action that allows users to"
-        },
-        {
-          "feature": 26,
-          "name": "Automatic Credit Memo Creation for Refunds",
-          "t": 1766,
-          "roadmap_id": "573343",
-          "quote": "Automatic Credit Memo Creation for Refunds. System can automatically"
-        },
-        {
-          "feature": 27,
-          "name": "Edit and Refund Processing for Paid Orders",
-          "t": 1745,
-          "roadmap_id": "573343",
-          "quote": "Edit and Refund Processing for Paid Orders. For orders"
-        },
-        {
-          "feature": 28,
-          "name": "Edit Support for Unpaid Orders",
-          "t": 1745,
-          "roadmap_id": "573343",
-          "quote": "Edit Support for Unpaid Orders. Shopify allows edits for"
-        },
-        {
-          "feature": 29,
-          "name": "User Notification for Conflicting Documents",
-          "t": 1786,
-          "roadmap_id": "573343",
-          "quote": "User Notification for Conflicting Documents. When a document in"
+          "quote": "Catalog Price Synchronization. Ability to sync prices from catalogs to Shopify"
         },
         {
           "feature": 17,
           "name": "B2B Checkout with Company Assignment",
           "t": 1039,
           "roadmap_id": "573342",
-          "quote": "B2B Checkout with Company Assignment. B2B checkout experience shows"
+          "quote": "B2B Checkout with Company Assignment. B2B checkout experience shows company name"
         },
         {
           "feature": 18,
           "name": "B2B vs D2C Order Differentiation",
           "t": 1098,
           "roadmap_id": "573342",
-          "quote": "B2B vs D2C Order Differentiation. Orders placed by B2B"
+          "quote": "B2B vs D2C Order Differentiation. Orders placed by B2B users"
+        },
+        {
+          "feature": 19,
+          "name": "Cancel Order Action",
+          "t": 1142,
+          "roadmap_id": "573343",
+          "quote": "Cancel Order Action. New action to cancel orders imported from Shopify"
+        },
+        {
+          "feature": 20,
+          "name": "Order Status Synchronization",
+          "t": 1162,
+          "roadmap_id": "573343",
+          "quote": "Order Status Synchronization. Order statuses from Business Central are synchronized"
+        },
+        {
+          "feature": 21,
+          "name": "Order Editing with Refunds",
+          "t": 1223,
+          "roadmap_id": "573343",
+          "quote": "Order Editing with Refunds. Merchants can edit orders in Shopify"
+        },
+        {
+          "feature": 22,
+          "name": "Intelligent Credit Memo Creation",
+          "t": 1401,
+          "roadmap_id": "573343",
+          "quote": "Intelligent Credit Memo Creation. Business Central automatically creates credit memos"
+        },
+        {
+          "feature": 23,
+          "name": "Order Error Detection for Received Edits",
+          "t": 1568,
+          "roadmap_id": "573343",
+          "quote": "Order Error Detection for Received Edits. The system now detects when an order"
+        },
+        {
+          "feature": 24,
+          "name": "Synchronize Order from Shopify Action",
+          "t": 1588,
+          "roadmap_id": "573343",
+          "quote": "Synchronize Order from Shopify Action. Main action that allows users to synchronize"
+        },
+        {
+          "feature": 25,
+          "name": "Unlink Process Documents Action",
+          "t": 1644,
+          "roadmap_id": "573343",
+          "quote": "Unlink Process Documents Action. Action that allows users to unlink a processed"
+        },
+        {
+          "feature": 26,
+          "name": "Automatic Credit Memo Creation for Refunds",
+          "t": 1766,
+          "roadmap_id": "573343",
+          "quote": "Automatic Credit Memo Creation for Refunds. System can automatically create credit memos"
+        },
+        {
+          "feature": 27,
+          "name": "Edit and Refund Processing for Paid Orders",
+          "t": 1745,
+          "roadmap_id": "573343",
+          "quote": "Edit and Refund Processing for Paid Orders. For orders already paid in Shopify"
+        },
+        {
+          "feature": 28,
+          "name": "Edit Support for Unpaid Orders",
+          "t": 1745,
+          "roadmap_id": "573343",
+          "quote": "Edit Support for Unpaid Orders. Shopify allows edits for orders without payments"
+        },
+        {
+          "feature": 29,
+          "name": "User Notification for Conflicting Documents",
+          "t": 1786,
+          "roadmap_id": "573343",
+          "quote": "User Notification for Conflicting Documents. When a document in Business Central"
         }
       ]
     },
     "video/3UcLmXqyl44": {
       "kind": "video",
       "key": "video/3UcLmXqyl44",
-      "hash": "ec0a677464a1c249151fb1e224e9d7142b6601cc4a7c778eebf0d94e19a0474d",
+      "hash": "7495d00d66cc5b375cfe45f0248eafed092a60948ad56bdca1e70ecb6f59968a",
       "video_id": "3UcLmXqyl44",
       "title": "What's New: Exporting and Importing Agent in Business Central",
-      "at": "2026-11-08T00:53:45.656Z",
+      "at": "2026-11-16T00:54:07.544Z",
       "matches": []
     },
     "video/3uVf6BEXt1w": {
       "kind": "video",
       "key": "video/3uVf6BEXt1w",
-      "hash": "3e0ed706b7b6f03ee131715175f5ed4de23a5e6eebaf0e039061ba3ee1067725",
+      "hash": "73455efb56568f162833ee5e2d67993013d8128d565b4261147cd642bdb39015",
       "video_id": "3uVf6BEXt1w",
       "title": "Why Onboarding Experiences are Important",
-      "at": "2026-11-13T00:56:03.500Z",
+      "at": "2026-11-16T00:54:13.288Z",
       "matches": []
     },
     "video/3Xus5tm2xKI": {
       "kind": "video",
       "key": "video/3Xus5tm2xKI",
-      "hash": "a8d5c6b3e59736919f3cd26b6c9a3f9ddcccc60ab4e11e5c43d878e77a801f8f",
+      "hash": "7e66401e8955175c95ab1348d1c5bec0952342f20e61f350ebf1e70201305d1a",
       "video_id": "3Xus5tm2xKI",
       "title": "What's new: Manage PTEs in the Admin Center (2026 release wave 2)",
-      "at": "2026-11-06T00:55:43.880Z",
+      "at": "2026-11-16T00:54:06.210Z",
       "matches": [
         {
           "feature": 0,
@@ -32555,13 +32576,6 @@
           "t": 23,
           "roadmap_id": "576815",
           "quote": "Full lifecycle management for per-tenant extensions including upload, installation, and update operations"
-        },
-        {
-          "feature": 1,
-          "name": "Flexible deployment schedule for PTE installation",
-          "t": 88,
-          "roadmap_id": "576815",
-          "quote": "When installing PTEs from admin center, users can choose between immediate deployment"
         },
         {
           "feature": 3,
@@ -32582,24 +32596,24 @@
           "name": "Environment operations audit page",
           "t": 409,
           "roadmap_id": "576815",
-          "quote": "Comprehensive audit log showing all PTE installation, update, and scheduling operations performed"
+          "quote": "Comprehensive audit log showing all PTE installation, update, and scheduling operations"
         },
         {
           "feature": 6,
           "name": "S2S app permissions for PTE management",
           "t": 580,
           "roadmap_id": "576815",
-          "quote": "Simplified permission story for server-to-server apps using admin center APIs to orchestrate PTE installation"
+          "quote": "admin center APIs to orchestrate PTE installation across customer environments"
         }
       ]
     },
     "video/42adOzECiA0": {
       "kind": "video",
       "key": "video/42adOzECiA0",
-      "hash": "d2da6e7c50d2ca7021610d014b4a9b6c7359abfe99a8f5351aa4cc717acd8618",
+      "hash": "361e4a9e88a05ed031d8c53013c05fac4ef6aca52187ac0793da9ee6033eeadd",
       "video_id": "42adOzECiA0",
       "title": "What's New: Upgrade to Preview (2025 release wave 2)",
-      "at": "2026-11-06T00:55:46.684Z",
+      "at": "2026-11-16T00:54:12.297Z",
       "matches": []
     },
     "video/4EnvGMwbuBY": {
@@ -32614,24 +32628,24 @@
     "video/4HE3BBCcV84": {
       "kind": "video",
       "key": "video/4HE3BBCcV84",
-      "hash": "cbaf66415c98f36a1f6ee4ed86cb98fa100127c4ffc78c7d0855b40925d83a67",
+      "hash": "c5fe2a2a532e156372287351ac91478e386726b0bcbccaa39c7f068a032f620e",
       "video_id": "4HE3BBCcV84",
       "title": "MCP Server and API Queries (2026 release wave 1)",
-      "at": "2026-11-13T00:55:59.936Z",
+      "at": "2026-11-16T00:54:10.690Z",
       "matches": [
         {
           "feature": 0,
           "name": "API queries in MCP server",
           "t": 5,
           "roadmap_id": "573312",
-          "quote": "API queries in MCP server. Support for API queries"
+          "quote": "API queries in MCP server. Support for API queries in MCP server"
         },
         {
           "feature": 0,
           "name": "API queries in MCP server",
           "t": 5,
           "roadmap_id": "576789",
-          "quote": "API queries in MCP server, which serve as the foundation"
+          "quote": "API queries in MCP server, which serve as the foundation for Power BI apps"
         },
         {
           "feature": 2,
@@ -32645,7 +32659,7 @@
           "name": "MCP server configuration for object type query",
           "t": 97,
           "roadmap_id": "576789",
-          "quote": "MCP server configuration now supports selecting query as object type"
+          "quote": "MCP server configuration now supports selecting query as object type, with access to all analytics API queries"
         }
       ]
     },
@@ -32670,57 +32684,57 @@
     "video/4nFViDASGhg": {
       "kind": "video",
       "key": "video/4nFViDASGhg",
-      "hash": "d621ed53d30690ee96a1731abd02415c03200a8c2f1a60b0b628940338c46ab6",
+      "hash": "f64bf532be3480c7194bc4f6aae69edfb246c4e0110ca5b2deafa43b26b46157",
       "video_id": "4nFViDASGhg",
       "title": "What's New: Sales Order Agent Enhancements (2025 release wave 2)",
-      "at": "2026-11-08T00:53:55.242Z",
+      "at": "2026-11-16T00:54:15.323Z",
       "matches": [
         {
           "feature": 2,
           "name": "Custom email signature",
           "t": 403,
           "roadmap_id": "578065",
-          "quote": "custom signature that will be used whenever an email is generated by the agent"
+          "quote": "End users can specify a custom signature that will be used whenever an email is generated"
         },
         {
           "feature": 3,
           "name": "Attachment analysis configuration",
           "t": 480,
           "roadmap_id": "578065",
-          "quote": "configure whether the agent should analyze attachments in incoming emails"
+          "quote": "Users can configure whether the agent should analyze attachments in incoming emails"
         },
         {
           "feature": 4,
           "name": "Autonomous processing for registered senders",
           "t": 543,
           "roadmap_id": "578065",
-          "quote": "configured to automatically process emails from registered customers at three levels"
+          "quote": "The agent can be configured to automatically process emails from registered customers"
         },
         {
           "feature": 8,
           "name": "Agent review configuration options",
           "t": 987,
           "roadmap_id": "578065",
-          "quote": "configure at which points in the sales document creation process human review is required"
+          "quote": "Users can configure at which points in the sales document creation process human review is required"
         }
       ]
     },
     "video/4Te11l2BxmQ": {
       "kind": "video",
       "key": "video/4Te11l2BxmQ",
-      "hash": "af29200c761b5bf9baef313b4ad0d7000f3db0e805f8876a3b9f4f5be5ce1682",
+      "hash": "baa1b5a1e68302910edbe958b5f7abed6ddd0f100bc2b8f912abd90e4f0c24f4",
       "video_id": "4Te11l2BxmQ",
       "title": "Simplify Bank Reconciliation with Copilot in Dynamics 365 Business Central (2024)",
-      "at": "2026-11-13T00:56:02.218Z",
+      "at": "2026-11-16T00:54:17.027Z",
       "matches": []
     },
     "video/4TE8uwIi91k": {
       "kind": "video",
       "key": "video/4TE8uwIi91k",
-      "hash": "819d53210ab5222fc8594f64623862949749cda1c6cb9ffa08c29d356231377e",
+      "hash": "4151766ef06f91dc8cbec8e42cc47bdc2edd1933d0ddbf1a578b8b24f0450af1",
       "video_id": "4TE8uwIi91k",
       "title": "What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)",
-      "at": "2026-11-13T00:56:00.979Z",
+      "at": "2026-11-16T00:54:11.830Z",
       "matches": [
         {
           "feature": 0,
@@ -32734,21 +32748,21 @@
           "name": "Bulk receipt upload",
           "t": 66,
           "roadmap_id": "573265",
-          "quote": "Ability to upload multiple receipts at the same time"
+          "quote": "upload multiple receipts at the same time from the mobile app"
         },
         {
           "feature": 2,
           "name": "Gallery share functionality for receipts",
           "t": 104,
           "roadmap_id": "573265",
-          "quote": "Integration with operating system share functionality to send photos"
+          "quote": "send photos from gallery directly to the Expense Agent mobile app"
         },
         {
           "feature": 3,
           "name": "Mileage expense creation on mobile",
           "t": 133,
           "roadmap_id": "573254",
-          "quote": "Create mileage expenses directly from the phone with route selection, vehicle type"
+          "quote": "Create mileage expenses directly from the phone with vehicle type"
         },
         {
           "feature": 4,
@@ -32776,28 +32790,28 @@
     "video/54uIhzZq3Os": {
       "kind": "video",
       "key": "video/54uIhzZq3Os",
-      "hash": "555d9aa0db503c6f5ca10454ed2d99f2593b933372ea31fbddb6f4ae3a4c6607",
+      "hash": "0db8a030596193aae209d95d7fdc14558ac63077e603cf5b949cb01c331444c9",
       "video_id": "54uIhzZq3Os",
       "title": "Expense Agent: Finance Controlling (2026 release wave 1)",
-      "at": "2026-11-13T00:56:04.903Z",
+      "at": "2026-11-16T00:54:15.660Z",
       "matches": []
     },
     "video/564XMP2IyLM": {
       "kind": "video",
       "key": "video/564XMP2IyLM",
-      "hash": "496ca93c6d6b719a0617dedbba1cb89e4770999b28b7f89aee12f5d79ebf96d7",
+      "hash": "10bc311a59bc154d52d0c4c3bf231e5fb63284f8f496ab1b3c4a1aaf1a2f43ed",
       "video_id": "564XMP2IyLM",
       "title": "Use Retention Policies to Avoid Unnecessary Database Growth",
-      "at": "2026-11-08T00:53:58.419Z",
+      "at": "2026-11-16T00:54:17.092Z",
       "matches": []
     },
     "video/58yOwN3GY2Q": {
       "kind": "video",
       "key": "video/58yOwN3GY2Q",
-      "hash": "b00f6da39e803e6d47b83053c52ef2c2f484883fc7c3c22e84b505cabc6bb933",
+      "hash": "9e825732d00780062ba78fc05d8d3227e940c4135300efa1f2b38d95f173933a",
       "video_id": "58yOwN3GY2Q",
       "title": "Microsoft Copilot in Business Central",
-      "at": "2026-11-13T00:56:04.803Z",
+      "at": "2026-11-16T00:54:18.332Z",
       "matches": []
     },
     "video/5E6ikveL6N0": {
@@ -32812,10 +32826,10 @@
     "video/5GD8S3XzQmA": {
       "kind": "video",
       "key": "video/5GD8S3XzQmA",
-      "hash": "0380ff427e5e4f8cf4e809efbedfbcfc48a10f51c4e1caedd3903412456a353a",
+      "hash": "dea53e3c7f65bdbf88f88af5de0b7bc7b0422d4e565cda73be5f0f239a94a586",
       "video_id": "5GD8S3XzQmA",
       "title": "Using the Spotlight Tour Element in Onboarding",
-      "at": "2026-11-08T00:54:01.261Z",
+      "at": "2026-11-16T00:54:21.591Z",
       "matches": []
     },
     "video/5GoAzII20L0": {
@@ -32845,24 +32859,24 @@
     "video/5OZ0g5IgC8Q": {
       "kind": "video",
       "key": "video/5OZ0g5IgC8Q",
-      "hash": "d7d49cdecbd6a900e4f2e440ff291ec3abc4a93b0d8eae9cf52b16781530d40a",
+      "hash": "57ba177bff70871b8c917647d346bda0c0e51ba7d39948e19fa5b9326ed6bbf2",
       "video_id": "5OZ0g5IgC8Q",
       "title": "What's new: Shopify Tax Matching (preview) (2026 release wave 2)",
-      "at": "2026-11-13T00:56:09.311Z",
+      "at": "2026-11-16T00:54:20.535Z",
       "matches": [
         {
           "feature": 0,
           "name": "Shopify Tax Matching AI Capability",
           "t": 40,
           "roadmap_id": "574128",
-          "quote": "Shopify Tax Matching AI Capability analyzes tax information from Shopify orders"
+          "quote": "AI-powered capability that analyzes tax information from Shopify orders and automatically finds or creates missing tax jurisdictions"
         },
         {
           "feature": 1,
           "name": "Tax Area Code Auto-Population",
           "t": 197,
           "roadmap_id": "574128",
-          "quote": "AI automatically assigns tax area codes to Shopify orders based on tax jurisdictions"
+          "quote": "AI automatically assigns tax area codes to Shopify orders based on tax jurisdictions and shipping information"
         },
         {
           "feature": 2,
@@ -32883,31 +32897,17 @@
           "name": "Tax Rate Mismatch Detection and Resolution",
           "t": 644,
           "roadmap_id": "574128",
-          "quote": "System detects when tax rates differ between Shopify and Business Central, prevents document creation"
-        },
-        {
-          "feature": 6,
-          "name": "Shopify Order Number as Sales Document Number",
-          "t": 573,
-          "roadmap_id": "573340",
-          "quote": "Shopify Order Number as Sales Document Number uses the Shopify order number as the sales order document number"
-        },
-        {
-          "feature": 7,
-          "name": "Automatic Refund Document Creation",
-          "t": 597,
-          "roadmap_id": "573343",
-          "quote": "Automatic Refund Document Creation creates a sales return document in Business Central"
+          "quote": "System detects when tax rates differ between Shopify and Business Central, prevents document creation if rates differ"
         }
       ]
     },
     "video/5Qfc7r618OM": {
       "kind": "video",
       "key": "video/5Qfc7r618OM",
-      "hash": "6ab5e1dd0c77512bff64f29e1094bd8827d601c697e777df69dd8803dd171db4",
+      "hash": "88e35a8ffd2869a539a7c7c6fb8400b1563243f5d8977be87ada0bc5f4e7c079",
       "video_id": "5Qfc7r618OM",
       "title": "What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)",
-      "at": "2026-11-13T00:56:10.707Z",
+      "at": "2026-11-16T00:54:23.210Z",
       "matches": []
     },
     "video/5qWLFUqFsi0": {

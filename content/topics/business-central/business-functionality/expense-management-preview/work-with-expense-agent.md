@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -150,7 +150,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../../videos/Fz8NLByllRc.md) (video): "Automatic mileage rate calculation; Round trip toggle; Mileage rate configuration"
 - [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../../videos/M0IzeLSn7qU.md) (video): "Expense Agent; approval process; audit trail; delegated approvers"
 - [Expense Agent: Configuration (2026 release wave 1)](../../../../videos/P1V4jy08YM8.md) (video): "Expense Agent; approval workflow; posting groups; mileage expenses; per diem"
-- [What's new in Expense Agent: Use Travel Request (2026 release wave 2)](../../../../videos/s3d9vW6tuT8.md) (video): "What's new in Expense Agent: Use Travel Request"
+- [What's new in Expense Agent: Use Travel Request (2026 release wave 2)](../../../../videos/s3d9vW6tuT8.md) (video): "Travel Request; Travel Request Line Items; Expense Ledger Entries"
 - [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../../videos/vyQnSxRGJDA.md) (video): "Per Diem Allowance Calculation; Expense Agent Wizard Configuration"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

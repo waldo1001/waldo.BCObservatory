@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:27.085Z"
   flags: []
 generated:
-  at: "2026-10-22T01:12:33.102Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,6 +42,7 @@ links:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
   videos:
+    - video/IDYhxt-8ImI
     - video/MpDKjl7zzdk
   posts: []
   guidelines: []
@@ -54,7 +55,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms: []
@@ -96,6 +97,7 @@ Start with the how-to page to learn the workflow, then read the FAQ to understan
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [20260629 - AI Enabled Delivery for Consultants](../../../videos/IDYhxt-8ImI.md) (video): "Number series suggestions; Autofill field suggestions"
 - [What's New: Suggest Number Series with Copilot (2024 release wave 2)](../../../videos/MpDKjl7zzdk.md) (video): "Suggest Number Series with Copilot; number series; ai-generated content"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

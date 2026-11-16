@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -648,7 +648,7 @@ Start with "Managing inventory" for the overall picture, then "Create item cards
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10150 [Bug 617189] Clarify strict expiration posting tooltip](../../../changes/bcapps/10150.md) (code change): "Strict Expiration Posting in Item Tracking Code now clarifies that it uses"
-- [#13552 [Main]- Warehouse shipment item tracking inherits the source line's stale pick bin on the Transfer and Purchase-Return branches, so a second partial shipment fails with "You cannot select more than 0 units"](../../../changes/bcapps/13552.md) (code change): "Warehouse shipment item tracking inherits the source line's stale pick bin"
+- [#13552 [Main]- Warehouse shipment item tracking inherits the source line's stale pick bin on the Transfer and Purchase-Return branches, so a second partial shipment fails with "You cannot select more than 0 units"](../../../changes/bcapps/13552.md) (code change): "second partial shipment fails with You cannot select more than 0 units"
 - [#13855 [Main][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank](../../../changes/bcapps/13855.md) (code change): "Fixed decimal item attribute lookup to correctly distinguish between blank and zero values"
 - [#13898 [29.x][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank](../../../changes/bcapps/13898.md) (code change): "Decimal item attributes now correctly handle entering 0 after clearing a value to blank"
 - [#13926 Bug 648938: Transfer Routes matrix does not indicate configured direct routes](../../../changes/bcapps/13926.md) (code change): "Transfer Routes matrix does not indicate configured direct routes"

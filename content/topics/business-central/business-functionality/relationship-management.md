@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -337,7 +337,8 @@ links:
     - topic/business-central/business-functionality/relationship-management/manage-sales-opportunities
     - topic/business-central/business-functionality/relationship-management/use-dynamics-365-for-sales-from-business
   localizations: []
-  videos: []
+  videos:
+    - video/ygtO_oUPil4
   posts:
     - post/yzhums-com/71008
   guidelines: []
@@ -356,7 +357,7 @@ children:
 coverage:
   learn: 43
   code: 24
-  video: 0
+  video: 1
   blog: 1
   guideline: 0
 bc_forms:
@@ -434,6 +435,7 @@ Start with the setup page to configure number series, contact synchronization, f
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Business Central 2026 release wave 1 (BC28): Create purchase quotes for contacts (without a vendor)](../../../posts/yzhums-com/71008.md) (community post): "Create purchase quotes for contacts without a vendor record first"
+- [Copilot Managing Complaints by Trimit](../../../videos/ygtO_oUPil4.md) (video): "complaint management; email processing; keyword extraction; complaint order"
 
 ## Business Central pages and reports
 

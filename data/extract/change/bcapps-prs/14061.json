@@ -8,11 +8,11 @@
   ],
   "summary": "Codeunit 18694 and TDS use-case configuration fixed to correctly calculate tax-deducted-at-source on multi-line purchase invoices by retaining untaxed amounts from earlier lines when the annual threshold is reached.",
   "key_points": [
-    "TDS calculation was incorrectly excluding earlier untaxed lines when the cumulative invoice total hit the annual threshold",
-    "The fix preserves line-level TDS bases and ensures all applicable amounts are included in the calculation",
-    "Use-case configuration updated from version 35 to 36 to implement the corrected logic",
-    "Prevents scenarios where only later lines are taxed while earlier amounts are overlooked",
-    "Resolution applies specifically to Indian localization TDS workflows"
+    "TDS was calculated only on the later invoice line once the annual threshold was reached, leaving out earlier untaxed lines",
+    "Earlier untaxed amounts are now kept when the threshold is reached",
+    "Amounts already taxed under the per-contract rule stay excluded",
+    "Line-level TDS bases are preserved, and the use-case configuration moves from version 35 to 36",
+    "Applies to the Indian localization TDS app"
   ],
   "change_kind": "fix",
   "behavior_change": true,

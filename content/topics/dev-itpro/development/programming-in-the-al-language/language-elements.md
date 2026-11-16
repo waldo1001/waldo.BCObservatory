@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: defd0492f4609b8df28918a63713a9e6e91e5111b577b9e113e0dbc1e52441a2
@@ -314,7 +314,6 @@ links:
     - video/lofGuQRe1BM
     - video/qlFEdXPjX6A
   posts:
-    - post/aardvarklabs-blog/4095
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-47-enum-display-order--7214ec5a2f
     - post/yzhums-com/65578
     - post/yzhums-com/68082
@@ -335,7 +334,7 @@ coverage:
   learn: 78
   code: 0
   video: 2
-  blog: 4
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: defd0492f4609b8df28918a63713a9e6e91e5111b577b9e113e0dbc1e52441a2
@@ -364,7 +363,6 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central v29: ModuleInfo Gets Four New Runtime 18 Values](../../../../posts/aardvarklabs-blog/4095.md) (community post): "ModuleInfo now includes four new Runtime 18 fields for compliance metadata"
 - [BC Friday Tips #47 Enum Display Order](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-47-enum-display-order--7214ec5a2f.md) (community post): "Enum display order is determined by code sequence, not ordinal numbers"
 - [Dynamics 365 Business Central: How to quickly remove white-space characters from the current Text/String (leading, trailing and all) in AL](../../../../posts/yzhums-com/65578.md) (community post): "TrimStart() removes only leading whitespace characters. TrimEnd() removes only trailing whitespace"
 - [Business Central 2025 wave 2 (BC27): TextConst Data Type now have manipulation methods (Contains, ToUpper, Replace, etc.)](../../../../posts/yzhums-com/68082.md) (community post): "TextConst data type now supports 20+ string manipulation methods"

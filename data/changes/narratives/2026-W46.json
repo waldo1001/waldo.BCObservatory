@@ -1,27 +1,24 @@
 {
   "week": "2026-W46",
-  "input_hash": "43cd1b5fd3111c95eba1dc8c10d83615c2223d9d0484624ae100a84335b98b87",
-  "text": "The one breaking change this week is #13759, which removes CLEAN27 obsolete code across the W1 and regional apps, including 140 deleted AL files, so extensions that still use those objects need updating. Several behaviour changes also landed. #13361 lays groundwork for Payables Agent v2.0, and v1 KPIs now count finalized purchase invoices. #13582 filters subscription packages strictly by price group. #13883 switches existing Shopify shops that still had the uninitialized Quote value to process returns as credit memos. #13720 splits the MS-STD configuration package into nine functional-area packages. #13928 adds certificate authentication for master data synchronization. #13554 adds Fabric API procedures for importing configuration packages and resetting or removing tables, and #13824 normalizes Fabric namespaces to lowercase. Fixes in warehouse and manufacturing cover #13552, #13699, #13724 and #13778. Posting and VAT fixes include #13467, #13414, #13482, #13805 and #13628. Smaller fixes hit item attributes (#13855, #13898), Report 713 (#13607, #13801), the Expense Agent (#13760, #13499, #13730) and XRechnung export (#13822), while #13672 exposes VAT setup in the Expense Agent wizard. #9587 adds concurrent posting for G/L entries. Extensibility gains are #13060, #9522 and #9523. #13952 and #13953 add an email attachment key for faster deletion, and #13893 and #13764 improve index management.",
-  "changes": 61,
+  "input_hash": "d09d41428fcca2ad630ebc4346695787d50eb96a33a7538779e41e6a38cee9d1",
+  "text": "The breaking change this week is #13759, which removes CLEAN27 obsolete code from W1 and regional apps and deletes 140 AL files, so extensions that still use those objects need to move to the replacements. Several behaviour changes need attention. #13883 sets Process Returns As to Credit Memo for existing Shopify shops, so refunds no longer create sales quotes. #13582 restricts offered subscription packages to the customer's price group plus packages without one. #13720 splits the MS-STD configuration package into nine functional-area packages. #13361 lays the groundwork for Payables Agent v2.0, though v2 is not active yet. Fixes in finance and VAT include #14061 for TDS on multi-line purchase invoices, #13414 and #13467 for Spanish payment discounts with prices including VAT, and #13482 and #13805 for non-deductible VAT statistics. Warehouse and manufacturing fixes include #13552, #13699, #13724 and #13778, and #13704 adds quantity-ready-to-start tracking in Subcontracting. New capabilities include certificate authentication for master data synchronization in #13928, index statistics actions in #13893, Danish SAF-T for Austria and Iceland in #11849, and concurrent G/L posting in #9587. Extension points arrived in #13060, #9522 and #9523, and #13952 and #13953 add an email attachment key for faster deletion.",
+  "changes": 63,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.06762,
-  "at": "2026-11-15T00:17:15.357Z",
+  "cost_usd": 0.070058,
+  "at": "2026-11-16T00:19:27.268Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-15T00:48:44.919Z",
-    "verdict": "fix",
+    "at": "2026-11-16T00:58:49.414Z",
+    "verdict": "approve",
     "issues": [
-      "#13883 is overstated: the upgrade step only sets Process Returns As to Credit Memo for existing shops still holding the uninitialized Quote (0) value; shops already set to Credit Memo or Return Order keep their setting.",
-      "#13672 is listed among 'smaller fixes' but is a feature (VAT setup exposed in the Expense Agent Setup Wizard).",
-      "'Several behaviour changes followed' implies they were caused by the breaking change; changed to neutral wording.",
-      "#13554 and #13824 were vaguely described as extending the Fabric API setup; made specific (config package import and table operations, lowercase namespace normalization)."
+      "#13361 also changes v1 behaviour now: v1 KPIs count finalized Purchase Invoices, and role center cues no longer count E-Documents. Saying only 'v2 is not active yet' leaves out these visible v1 changes.",
+      "#13467 and #13805 are 29.x backports of #13414 and #13482. The paragraph pairs them correctly but doesn't say they are backports.",
+      "Some behaviour-flagged changes are left out, such as #13824 (Fabric namespaces now lowercased), #13207 (Record Set Management skips missing tables) and #13572 (cloud migration now deletes the correct hybrid company). Leaving them out is fine for a summary."
     ],
-    "input_hash": "43cd1b5fd3111c95eba1dc8c10d83615c2223d9d0484624ae100a84335b98b87",
-    "cost_usd": 0.180588,
-    "applied": [
-      "text"
-    ],
+    "input_hash": "d09d41428fcca2ad630ebc4346695787d50eb96a33a7538779e41e6a38cee9d1",
+    "cost_usd": 0.165504,
+    "applied": [],
     "rejected_edits": []
   }
 }

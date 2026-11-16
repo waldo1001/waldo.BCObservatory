@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -204,17 +204,20 @@ links:
     - topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central
   localizations: []
   videos:
+    - video/c91E6IykUnk
+    - video/FUtePZVZLKs
+    - video/jdevJbGgB-k
     - video/juUBVPfIp8A
     - video/NE7NIjpkX3c
     - video/QCo-uIfPs9g
+    - video/RfHVHa_Qiqk
+    - video/sv1utmneaXA
   posts:
     - post/aardvarklabs-blog/1609
     - post/aardvarklabs-blog/1816
     - post/aardvarklabs-blog/1891
     - post/aardvarklabs-blog/2467
     - post/aardvarklabs-blog/2663
-    - post/aardvarklabs-blog/2965
-    - post/demiliani-com/17609
     - post/thinkaboutit-be/8204
   guidelines: []
   changes:
@@ -235,8 +238,8 @@ children:
 coverage:
   learn: 24
   code: 0
-  video: 3
-  blog: 8
+  video: 8
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -300,12 +303,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Creating Data Driven Text with AI in Business Central](../../../posts/aardvarklabs-blog/1816.md) (community post): "build a Copilot in Business Central that generates personalized reminder text"
 - [Implementing a Multi-Step Process for AI Recommendations in Business Central](../../../posts/aardvarklabs-blog/1891.md) (community post): "This post demonstrates how to build a multi-step AI-assisted process in Business Central"
 - [Enhancing Business Central with Address Validation AI](../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses"
-- [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "Azure OpenAI in Business Central AL: Managed vs Unmanaged"
-- [Step-by-Step Guide to AI Campaigns in Business Central](../../../posts/aardvarklabs-blog/2965.md) (community post): "Leverages Business Central's managed AI resource with Bing Grounded Search"
-- [AI and prompt injections: the invoice that approves itself.](../../../posts/demiliani-com/17609.md) (community post): "Defense requires five layered controls: hidden text detection, rendering pages as images"
+- [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "SetAuthorization uses your own Azure OpenAI deployment, which gives you control"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "build Copilot extensions using Microsoft-managed Azure OpenAI resources"
+- [Episode 519: The Last Frontier: Can AI Finally Conquer BC Report Layouts?](../../../videos/c91E6IykUnk.md) (video): "GitHub Copilot for AL development; Multi-agent workflow for development"
+- [AI consuming AI output. #businesscentral #bc #msdyn365bc](../../../videos/FUtePZVZLKs.md) (video): "AI consuming AI output; documentation generation; extension development"
+- [Business Central Under the Hood episode 1: Developing AI in Business Central](../../../videos/jdevJbGgB-k.md) (video): "Marketing text generation; Chat Copilot for Business Central; AI developer toolkit"
 - [What's New: AI Development Toolkit (2026 release wave 1)](../../../videos/juUBVPfIp8A.md) (video): "Content filtering policies; Prompt injection protection"
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../videos/NE7NIjpkX3c.md) (video): "copilot extension; cloud deployment; large language models; prompt engineering"
 - [What's New: Extending Copilot in Business Central (2024 Release Wave 2)](../../../videos/QCo-uIfPs9g.md) (video): "Telemetry for Copilot Features; Managed AI Resources; Temperature and Max Tokens"
+- [Business Central Under the Hood episode 8: AI Small Language Models and Fine-tuning](../../../videos/RfHVHa_Qiqk.md) (video): "small language models; fine-tuning; model distillation; phi models"
+- [Introducing: Extending Copilot Chat with Your App's Documentation (2025 release wave 2)](../../../videos/sv1utmneaXA.md) (video): "Extending Copilot Chat with Your App's Documentation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

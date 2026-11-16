@@ -2,20 +2,20 @@
 id: topic/dev-itpro/what-s-new-and-planned
 type: topic
 title: What's new and planned
-summary: What's new and planned in Business Central covers the release cycle, the 2026 release wave 2 updates 29.0 and 29.1, and release notes for earlier minor updates (15.2 to 28.5). It answers which version introduced a feature, localization change, deprecation or hotfix, and what is planned.
+summary: "What's new and planned in Business Central: the release cycle, 2026 release wave 2 updates 29.0 and 29.1, and archived release notes for earlier versions from 15.2 to 28.5. It answers which update introduced or changed a feature, localization, deprecation or hotfix."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-11-10T00:57:33.398Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: a59c9a717df9fbec9dc7a4ca40a2de9d3a6355a61b8e89dd8fd7cb3cecf08ccd
+  input_hash: 065369700d5d66aadef06a19c686eee99a7b2649885ea4f297f86778432ed822
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-2
@@ -329,24 +329,28 @@ narrative: generated
 
 # What's new and planned
 
-> What's new and planned in Business Central covers the release cycle, the 2026 release wave 2 updates 29.0 and 29.1, and release notes for earlier minor updates (15.2 to 28.5). It answers which version introduced a feature, localization change, deprecation or hotfix, and what is planned.
+> What's new and planned in Business Central: the release cycle, 2026 release wave 2 updates 29.0 and 29.1, and archived release notes for earlier versions from 15.2 to 28.5. It answers which update introduced or changed a feature, localization, deprecation or hotfix.
 
-Path: What's new and planned · tier official · system none · narrative reviewed (checked by Opus)
+Path: What's new and planned · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section tracks how Business Central changes over time. The landing page explains the six-month major release cycle, monthly minor updates, release waves and regulatory updates, and points to the AI at Work roadmap and the current rollout status for 2026 release wave 2 and wave 1.
+This section tracks what is new, changed and planned in Business Central. The landing page explains the six-month major release cycle, the monthly minor updates, release waves and regulatory updates. It also points to the AI at Work roadmap and shows rollout status for versions such as 28.4, 28.5, 29.0 and 29.1.
+
+Two pages cover 2026 release wave 2. Update 29.0 describes Copilot agents, AL development, e-documents, Shopify, financial reporting, sustainability and supply chain changes. Update 29.1 adds localization items, expense agent enhancements, finance improvements and Copilot capabilities.
+
+The subtopic "Updates for earlier major versions" holds 72 pages of release notes from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1). It also has a what's new page for 26.0 and preview pages for 27.0 and 28.0. Start with the landing page for the current status, then go to the version-specific page. Use the earlier-versions subtopic to trace when something was introduced.
 
 ## Key points
 
-- Major versions ship every six months as release waves, with monthly minor updates in between.
-- Update 29.0 (2026 release wave 2) covers Copilot agents, MCP Server data queries, AL index control, Page Scripting, AL interface default implementations, AL compiler diagnostics tracking and document report themes.
-- Update 29.0 also touches e-documents, Shopify management, financial reporting, sustainability tracking and supply chain optimization.
-- Update 29.1 adds localization items: SAF-T audit files for Austria and Iceland, a French localization extension, EET integration in Czechia, and a non-deductible VAT framework in Belgium.
-- Update 29.1 also covers euBP export with audit files, self-billing enablement, expense agent enhancements and finance improvements.
-- The subtopic holds 72 pages of release notes for minor updates from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1).
-- Preview notes exist for 26.0, 27.0 and 28.0.
-- Earlier notes help trace which update introduced a feature, telemetry signal, deprecation or hotfix.
+- Business Central ships major updates every six months and minor updates monthly, organized into release waves.
+- Update 29.0 (2026 release wave 2) covers MCP Server data queries, AL index control, Page Scripting, AL interface default implementations, AL compiler diagnostics tracking and document report themes.
+- Update 29.1 adds SAF-T audit file format for Austria and Iceland, a French localization extension and euBP export with audit files.
+- Update 29.1 also includes EET Integration in Czechia, a non-deductible VAT framework in Belgium and self-billing enablement.
+- The landing page references the AI at Work roadmap and regulatory updates.
+- Earlier release notes run from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1).
+- The archive also has a what's new page for 26.0 and preview pages for 27.0 and 28.0.
+- Use the archive to find which update introduced a feature, telemetry signal, localization change, deprecation or hotfix.
 
 ## Subtopics
 

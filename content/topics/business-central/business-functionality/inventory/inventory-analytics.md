@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -370,6 +370,8 @@ links:
     - video/qCqe8uw8Od4
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/13801
 learn_toc_path:
   - Business functionality
   - Inventory
@@ -487,10 +489,11 @@ Start with the hub's overview page to pick the right tool. Use the ad-hoc analys
 - [Inventory analytics](https://learn.microsoft.com/dynamics365/business-central/inventory-analytics-overview): Business Central has features that can help you gather, analyze, and share data from your inventory for business intelligence and decision-making in your organization.
   - In the observatory: [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 38 "Item Ledger Entries"](../../../../objects/page/38.md)
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13801 [29.x][ALL-E] Report 713 "Inventory Custmer Sales" – Excel (data only) export generates one row per Item Ledger Entry with NULL values instead of one aggregated row per Item/Customer combination - Copy](../../../../changes/bcapps/13801.md) (code change): "Excel (data only) export now gives one aggregated row per Item/Customer combination"
 - [What's New: Enhanced Inventory Analytics (2026 release wave 1)](../../../../videos/qCqe8uw8Od4.md) (video): "abc analysis; inventory analytics; power bi reports"
 
 ## Business Central pages and reports

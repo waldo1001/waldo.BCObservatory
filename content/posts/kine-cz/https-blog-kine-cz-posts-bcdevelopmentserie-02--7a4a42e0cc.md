@@ -20,7 +20,7 @@ review:
   at: "2026-10-08T01:56:09.637Z"
   flags: []
 generated:
-  at: "2026-11-10T00:14:28.203Z"
+  at: "2026-11-16T00:19:27.268Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -51,6 +51,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/gerardorenteria-blog/15515
+      title: 🌍 Amount Conversion to Favorite Currencies in Business Central
+      label: possibly related
+      why: both name Table 330 "Currency Exchange Rate"
+      by: code
     - to: post/yzhums-com/69290
       title: "Dynamics 365 Business Central: Regarding the issue where the Source Currency Amount in G/L Entry differs from the pre-posting Amount in BC27"
       label: possibly related
@@ -130,6 +135,7 @@ Not found in BC28-30: codeunit "50100", codeunit "50200".
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [🌍 Amount Conversion to Favorite Currencies in Business Central](../../posts/gerardorenteria-blog/15515.md) — possibly related: both name Table 330 "Currency Exchange Rate"
 - [Dynamics 365 Business Central: Regarding the issue where the Source Currency Amount in G/L Entry differs from the pre-posting Amount in BC27](../../posts/yzhums-com/69290.md) — possibly related: both name Table 330 "Currency Exchange Rate"
 - [Swiss Value Added Tax \[CH\]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax) — possibly related: names Table 330 "Currency Exchange Rate"
 

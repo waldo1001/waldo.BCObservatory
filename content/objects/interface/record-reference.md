@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-14T00:54:52.162Z"
+  at: "2026-11-16T00:48:52.213Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 46e16414c8433d52ca50149e216ea2b5876bdffa73fd7f87b6550510bb91d5e6
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/System%20Application/App/Record%20Reference/src/RecordReference.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/System%20Application/App/Record%20Reference/src/RecordReference.Interface.al
     title: src/System Application/App/Record Reference/src/RecordReference.Interface.al (releases/29.x)
     date: null
-    commit: 229c71f1927eed3c6f5f2cac1e8701b916c315fb
+    commit: 9d65b5414f44cbad5890049a1e0490a64118ffdb
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Record Reference" in System Application (System.Reflection). 28 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Reflection · BC23-30 · [source at 229c71f1](https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/System%20Application/App/Record%20Reference/src/RecordReference.Interface.al) · facts from BC29
+System Application · System.Reflection · BC23-30 · [source at 9d65b541](https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/System%20Application/App/Record%20Reference/src/RecordReference.Interface.al) · facts from BC29
 
 ## Properties
 

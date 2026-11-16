@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-14T00:54:52.162Z"
+  at: "2026-11-16T00:48:52.213Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9ef5407ee97e5caf0c60cb80f5b0a8b0bfc33c266ae7fdea6f5a48d3ce8074c1
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/System%20Application/App/Cryptography%20Management/src/SymmetricAlgorithm.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/System%20Application/App/Cryptography%20Management/src/SymmetricAlgorithm.Interface.al
     title: src/System Application/App/Cryptography Management/src/SymmetricAlgorithm.Interface.al (releases/29.x)
     date: null
-    commit: 229c71f1927eed3c6f5f2cac1e8701b916c315fb
+    commit: 9d65b5414f44cbad5890049a1e0490a64118ffdb
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "SymmetricAlgorithm" in System Application (System.Security.Encryption). 2 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Security.Encryption · BC23-30 · [source at 229c71f1](https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/System%20Application/App/Cryptography%20Management/src/SymmetricAlgorithm.Interface.al) · facts from BC29
+System Application · System.Security.Encryption · BC23-30 · [source at 9d65b541](https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/System%20Application/App/Cryptography%20Management/src/SymmetricAlgorithm.Interface.al) · facts from BC29
 
 ## Procedures
 

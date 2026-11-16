@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/14061",
+  "input_hash": "0b216937eee67fd2220094440ac7b67bf1e0beea93f16da0950eb61176ff7999",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-16T00:58:29.170Z",
+  "issues": [
+    "Key point 2 says all applicable amounts are now included, but the description says amounts already taxed under the per-contract rule stay excluded; reworded to match.",
+    "Summary, change kind and flags are supported. The India localization scope is backed by the IN app path."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029908,
+    "changes_in_call": 2
+  }
+}

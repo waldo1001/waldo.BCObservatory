@@ -18,7 +18,7 @@ review:
   at: "2026-10-16T01:16:52.043Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-16T00:19:27.268Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -73,7 +73,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-16T01:14:08.173Z"
+  probed_at: "2026-11-16T00:53:05.063Z"
 ---
 
 # How to ask questions about your repo with GitHub Agentic Workflows

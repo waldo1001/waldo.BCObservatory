@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:24.212Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,6 +112,7 @@ links:
     - change/bcapps/13293
     - change/bcapps/13566
     - change/bcapps/13641
+    - change/bcapps/13704
     - change/bcapps/8747
     - change/bcapps/8750
     - change/bcapps/8752
@@ -235,6 +236,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13293 [29.X]-WIP transfer warehouse shipment incorrectly requires Bin Code](../../../../changes/bcapps/13293.md) (code change): "WIP transfer in Subcontracting no longer incorrectly requires a Bin Code"
 - [#13566 [Subcontracting] Bug 648843: Align feature-handler references with CLEAN28](../../../../changes/bcapps/13566.md) (code change): "Subcontracting app and its test are aligned with the handler's CLEAN28"
 - [#13641 Bug 647022: [Subcontracting] Use alternative worksheet names and migrate the legacy page](../../../../changes/bcapps/13641.md) (code change): "Subcontracting initialization now preserves existing customer templates"
+- [#13704 [Subcontracting] Add quantity-ready-to-start tracking for production routing operations](../../../../changes/bcapps/13704.md) (code change): "Production order routing operations now track quantity ready to start"
 - [#8747 [Subcontracting] Disable "WIP Item Transfer" for Machine Center](../../../../changes/bcapps/8747.md) (code change): "Transfer WIP Item field on routing lines is now restricted"
 - [#8750 [Bug Fix] #638688: Suppress availability warning for Transfer WIP Item lines](../../../../changes/bcapps/8750.md) (code change): "WIP items are intermediate goods managed by subcontracting"
 - [#8752 [Bug Fix] #638531: Disable Open TO from PO actions on non-subcontracting lines](../../../../changes/bcapps/8752.md) (code change): "Open TO from PO actions on subcontracting purchase order lines"

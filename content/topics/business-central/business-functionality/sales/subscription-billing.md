@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:17.722Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -358,8 +358,10 @@ links:
     - change/bcapps/12796
     - change/bcapps/12857
     - change/bcapps/12967
+    - change/bcapps/13060
     - change/bcapps/13240
     - change/bcapps/13431
+    - change/bcapps/13582
 learn_toc_path:
   - Business functionality
   - Sales
@@ -465,8 +467,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12796 [29.X]-Subscription Billing: Recurring Billing (Document Per = Contract Partner) Overwrites Contract Currency with Customer Currency Without Amount Conversion.653480 initial commit](../../../../changes/bcapps/12796.md) (code change): "Fixes recurring billing in Subscription Billing with Document Per"
 - [#12857 [master]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../changes/bcapps/12857.md) (code change): "Billing totals now filter by both Subscription Contract No. and Partner type"
 - [#12967 [29.x]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../changes/bcapps/12967.md) (code change): "Billing total calculations now filter by both subscription contract number and partner"
+- [#13060 [Extensibility Request][Subscription Billing] Extension points for a partner billing extension: Billing Proposal visibility, purchase-side event parity, usage-based billing period, document line creation](../../../../changes/bcapps/13060.md) (code change): "Subscription Billing adds extension points including public methods, purchase-side events"
 - [#13240 [Main]-Test disabled after BCApps uptake: Contract Renewal Test.TestIfContractRenewalSelectionIsUpdateOnAfterValidateCalcBasePercentage fails](../../../../changes/bcapps/13240.md) (code change): "Subscription Billing app, Finance team"
 - [#13431 Extend sales document edit permissions with subscrition billing edit](../../../../changes/bcapps/13431.md) (code change): "Sales Order Agent to add items with subscription billing to sales documents"
+- [#13582 [main] Price Groups of Subscription Packages are not considered.](../../../../changes/bcapps/13582.md) (code change): "offered subscription packages are now always filtered to the customer's price group"
 - [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../../../../videos/5xeATIUFiGg.md) (video): "subscription billing recurring invoicing contract management revenue deferrals billing templates"
 - [What's New: Subscription Billing (2024 release wave 2)](../../../../videos/jJxBswIy_Xw.md) (video): "subscription billing; recurring invoicing; service commitments; deferrals; revenue recognition"
 - [Subscription Billing](../../../../videos/ywyaIenKix8.md) (video): "Subscription billing; recurring billing; revenue recognition; usage-based billing"

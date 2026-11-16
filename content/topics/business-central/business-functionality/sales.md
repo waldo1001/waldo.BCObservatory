@@ -12,7 +12,7 @@ review:
   at: "2026-11-15T00:50:59.798Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -476,6 +476,7 @@ links:
     - video/PIWxU93eCT4
     - video/TSLXzbeyE7Y
   posts:
+    - post/aardvarklabs-blog/2965
     - post/demiliani-com/11739
     - post/duiliotacconi-com/1667
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97
@@ -556,7 +557,7 @@ coverage:
   learn: 133
   code: 138
   video: 4
-  blog: 20
+  blog: 21
   guideline: 0
 bc_forms:
   - 7
@@ -833,6 +834,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9947 Allow long localized sales and purchase line type captions](../../../changes/bcapps/9947.md) (code change): "Sales and purchase document subforms no longer fail when a localized line type caption is longer than 20 characters"
 - [#9960 [Extensibility Request] issue 30396: expose sales document lookup](../../../changes/bcapps/9960.md) (code change): "The lookup procedure in the Copy Sales Document report is now public"
 - [#9984 [Main] Error with unposted prepayment amounts on Order](../../../changes/bcapps/9984.md) (code change): "unposted prepayment amounts on sales and purchase orders"
+- [Step-by-Step Guide to AI Campaigns in Business Central](../../../posts/aardvarklabs-blog/2965.md) (community post): "automatically adds free samples to sales orders shipping to targeted regions"
 - [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../../posts/demiliani-com/11739.md) (community post): "reads customer emails, clarifies missing details over multi-turn email, checks item availability"
 - [Sorting by Type and Line No. in Sales and Purchase Postings](../../../posts/duiliotacconi-com/1667.md) (community post): "sales and purchase posting process lines ordered by Type and then Line No."
 - [How to Email Posted Sales Shipments and Return Receipts in Business Central 2026 Wave 1.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97.md) (community post): "email delivery, PDF generation, and attachment management for Posted Sales Shipments"

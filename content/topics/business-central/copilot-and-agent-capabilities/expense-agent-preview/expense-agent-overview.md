@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -63,6 +63,7 @@ links:
   videos:
     - video/4TE8uwIi91k
     - video/ARKckFygbWQ
+    - video/MKuOgMWXJ_8
     - video/q-udoJPGUKE
     - video/qZALauRY_So
     - video/WFAZLsUTk20
@@ -83,7 +84,7 @@ children: []
 coverage:
   learn: 4
   code: 3
-  video: 5
+  video: 6
   blog: 0
   guideline: 0
 bc_forms:
@@ -136,6 +137,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10670 Add Agent Task Log JSON export](../../../../changes/bcapps/10670.md) (code change): "Agent Task Log now supports JSON export of selected rows with detailed context"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../../videos/4TE8uwIi91k.md) (video): "Receipt scanning with auto capture; Bulk receipt upload; Mileage expense creation"
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../../videos/ARKckFygbWQ.md) (video): "receipt capture; receipt extraction; automatic categorization; itemization; compliance rules"
+- [What's New: Sales Validation Sample Agent for Business Central](../../../../videos/MKuOgMWXJ_8.md) (video): "Sales Validation Agent; Agent Configuration Card; Agent Dedicated Profile"
 - [Introducing: Web App for Expense Agent (2026 release wave 1)](../../../../videos/q-udoJPGUKE.md) (video): "Web App for Expense Agent; AI Receipt Extraction; Automatic Expense Report Creation"
 - [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../../../../videos/qZALauRY_So.md) (video): "Approvals for the Expense Agent expense agent; workflow; notification; policy compliance"
 - [What's New: Business Central Agent Instruction History](../../../../videos/WFAZLsUTk20.md) (video): "Agent Instruction History Autosave; Manual Save to History; Download Instructions"

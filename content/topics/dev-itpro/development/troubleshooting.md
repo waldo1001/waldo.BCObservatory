@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -281,6 +281,7 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/aardvarklabs-blog/3315
     - post/stefanmaron-com/https-stefanmaron-com-posts-fixing-al-debugger-linux-wayland--13617af244
   guidelines: []
   changes:
@@ -299,7 +300,7 @@ coverage:
   learn: 31
   code: 32
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 119
@@ -380,6 +381,7 @@ Start with the overview page to pick a tool. Use the client pages for quick chec
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#260 Fix al-knowledge follow-ups and document the skill](../../../changes/bcquality/260.md) (code change): "Updated documentation to include al-knowledge skill in capability lists and troubleshooting guidance"
+- [Effective Steps for Troubleshooting Business Central Agents](../../../posts/aardvarklabs-blog/3315.md) (community post): "troubleshoot Business Central agents by examining task logs, step-by-step operations"
 - [Fixing AL Language Extension Debugger on Linux with Wayland/Hyprland](../../../posts/stefanmaron-com/https-stefanmaron-com-posts-fixing-al-debugger-linux-wayland--13617af244.md) (community post): "The AL Language Extension debugger fails on Linux with Wayland/Hyprland"
 
 ## Business Central pages and reports

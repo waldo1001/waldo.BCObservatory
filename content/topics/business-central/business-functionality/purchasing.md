@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -658,7 +658,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12867 [29.X]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../../../changes/bcapps/12867.md) (code change): "editing the Description on purchase invoice or credit memo subform lines reset the Quantity to 1"
 - [#12931 [29.x][Repair Item] Purchase Order vendor change is automatically applied to the next order after navigation](../../../changes/bcapps/12931.md) (code change): "Purchase Order vendor change is automatically applied to the next order"
 - [#13075 [MAIN] [IN] Add extensibility events to support deferred TDS calculation on purchase documents](../../../changes/bcapps/13075.md) (code change): "deferred TDS calculation on purchase documents"
-- [#13344 [29.x]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order](../../../changes/bcapps/13344.md) (code change): "Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced'"
+- [#13344 [29.x]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order](../../../changes/bcapps/13344.md) (code change): "Copy Document on a Purchase Credit Memo Quantity Received and Quantity Invoiced reverted back"
 - [#13358 [main] bug 656582 Add Maintenance Code field on purchase order subpage and purchase invoice subpage](../../../changes/bcapps/13358.md) (code change): "Maintenance Code field added to the Purchase Order Subform"
 - [#13396 [main] Purchase invoice fails with "quantity larger than item ledger entry" after partial invoicing of multiple receipts with non-base UoM and Qty. Rounding Precision = 1](../../../changes/bcapps/13396.md) (code change): "Purchase invoice fails with quantity larger than item ledger entry after partial invoicing"
 - [#13463 [29x] Add Maintenance Code field on purchase order subpage and purchase invoice subpage](../../../changes/bcapps/13463.md) (code change): "Maintenance Code field added to Purchase Order Subform"

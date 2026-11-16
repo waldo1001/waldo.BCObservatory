@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:34.651Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -72,8 +72,6 @@ links:
     - post/yzhums-com/68861
     - post/yzhums-com/74530
   guidelines: []
-  changes:
-    - change/bcapps/13953
 learn_toc_path:
   - Business Central on-premises
   - Upgrade
@@ -124,11 +122,10 @@ The technical steps are similar in both procedures: database conversion, extensi
   - In the observatory: [Page 9802 "Permission Sets"](../../../../objects/page/9802.md)
 - [Upgrading to Dynamics 365 Business Central 2025 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v27): Provides an overview of Business Central 2025 release wave 2 upgrade process.
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#13953 Add key on Email Message Attachment Data to speed up email deletion (backport to releases/29.x)](../../../../changes/bcapps/13953.md) (code change): "database key was added to the Data field to improve performance when deleting"
 - [Dynamics 365 Business Central 2025 Wave 2. What’s New in Performance.](../../../../posts/duiliotacconi-com/1624.md) (community post): "Version 27 of Dynamics 365 Business Central introduces six performance enhancements"
 - [About Online Upgrades to Dynamics 365 Business Central 2026 Wave 2 (v29)](../../../../posts/duiliotacconi-com/2238.md) (community post): "Dynamics 365 Business Central 2026 Wave 2 online upgrades take significantly longer"
 - [June 2026 Cumulative Updates for Dynamics 365 Business Central](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-june-2026-cumulative-updates-for-dynamics-365-business-central--4240d05509.md) (community post): "2026 Wave 1 (28.2), 2025 Wave 2 (27.8) and 2025 Wave 1 (26.14), all dated June 2026"

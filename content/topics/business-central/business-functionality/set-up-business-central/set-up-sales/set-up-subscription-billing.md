@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:13.090Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,6 +93,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10477
+    - change/bcapps/13060
 learn_toc_path:
   - Business functionality
   - Set up Business Central
@@ -160,6 +161,7 @@ A sensible order is general setup first, then contract types, packages and lines
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10477 [Bug Fix] #249: Raise populated ErrorInfo for Subscription Billing failures](../../../../../changes/bcapps/10477.md) (code change): "DisplayOrLogErrorFromBillingTemplate and DisplayOrLogErrorFromBillingLine"
+- [#13060 [Extensibility Request][Subscription Billing] Extension points for a partner billing extension: Billing Proposal visibility, purchase-side event parity, usage-based billing period, document line creation](../../../../../changes/bcapps/13060.md) (code change): "Makes four Billing Proposal procedures public so partners can call them"
 
 ## Business Central pages and reports
 

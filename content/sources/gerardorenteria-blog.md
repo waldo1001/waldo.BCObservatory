@@ -2,7 +2,7 @@
 id: source/gerardorenteria-blog
 type: source
 title: Gerardo Renteria
-summary: "Gerardo Renteria: 79 posts in the knowledge base, 2025-04-11 to 2026-10-19, mostly about development, administration, finance."
+summary: "Gerardo Renteria: 81 posts in the knowledge base, 2025-04-11 to 2026-11-15, mostly about development, administration, finance."
 tier: community
 language: es
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:10:49.229Z"
+  at: "2026-11-16T00:19:27.268Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c0815c3823db623b7b1124cf052d26b5377178db1b9ce1964ab68609eafa7829
+  input_hash: c3d40527d8bfe21cdb561e4004f691da9c98299dd05c51735d04b6c54defae17
 evidence:
   - kind: blog
     url: https://gerardorenteria.blog
@@ -109,9 +109,11 @@ links:
     - post/gerardorenteria-blog/15390
     - post/gerardorenteria-blog/14469
     - post/gerardorenteria-blog/15469
-    - post/gerardorenteria-blog/1968
     - post/gerardorenteria-blog/13744
     - post/gerardorenteria-blog/14079
+    - post/gerardorenteria-blog/15508
+    - post/gerardorenteria-blog/1968
+    - post/gerardorenteria-blog/15515
   guidelines: []
 source_id: gerardorenteria-blog
 kind: blog
@@ -119,26 +121,26 @@ url: https://gerardorenteria.blog
 author: Gerardo Renteria
 mvp: false
 full_text: false
-item_count: 79
+item_count: 81
 footprint:
   systems:
     - id: development
-      weight: 84
+      weight: 87
     - id: administration
       weight: 31
     - id: finance
-      weight: 27
+      weight: 30
     - id: copilot
-      weight: 24
+      weight: 26
     - id: platform
-      weight: 24
+      weight: 25
     - id: sales
       weight: 22
   topics:
     - id: feature requests
-      weight: 14
+      weight: 15
     - id: al development
-      weight: 12
+      weight: 13
     - id: localization
       weight: 12
     - id: copilot
@@ -151,10 +153,10 @@ footprint:
       weight: 9
     - id: on-premises
       weight: 8
+    - id: community ideas
+      weight: 7
     - id: financial management
       weight: 7
-    - id: community ideas
-      weight: 6
   objects:
     - id: codeunit MyCodeunit
       weight: 2
@@ -182,12 +184,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-04-11"
-last_item: "2026-10-19"
+last_item: "2026-11-15"
 ---
 
 # Gerardo Renteria
 
-> Gerardo Renteria: 79 posts in the knowledge base, 2025-04-11 to 2026-10-19, mostly about development, administration, finance.
+> Gerardo Renteria: 81 posts in the knowledge base, 2025-04-11 to 2026-11-15, mostly about development, administration, finance.
 
 [https://gerardorenteria.blog](https://gerardorenteria.blog) · blog · tier community
 
@@ -195,16 +197,16 @@ last_item: "2026-10-19"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (84) | feature requests (14) | codeunit MyCodeunit (2) |
-| administration (31) | al development (12) | codeunit MyCodeunitTests (2) |
-| finance (27) | localization (12) | other Item Ledger Entry (2) |
-| copilot (24) | copilot (10) | other Value Entry (2) |
-| platform (24) | user experience (10) | table Vendor Ledger Entries (2) |
+| development (87) | feature requests (15) | codeunit MyCodeunit (2) |
+| administration (31) | al development (13) | codeunit MyCodeunitTests (2) |
+| finance (30) | localization (12) | other Item Ledger Entry (2) |
+| copilot (26) | copilot (10) | other Value Entry (2) |
+| platform (25) | user experience (10) | table Vendor Ledger Entries (2) |
 | sales (22) | cumulative updates (9) | codeunit 1255 (1) |
 |  | hotfixes (9) | codeunit 415 (1) |
 |  | on-premises (8) | codeunit 90 (1) |
-|  | financial management (7) | codeunit CLBlameMgmt (1) |
-|  | community ideas (6) | codeunit DimensionManagement (1) |
+|  | community ideas (7) | codeunit CLBlameMgmt (1) |
+|  | financial management (7) | codeunit DimensionManagement (1) |
 |  |  | codeunit Error Message Handler (1) |
 |  |  | codeunit Error Message Management (1) |
 
@@ -218,13 +220,15 @@ Items per quarter, oldest first:
 - 2026-Q1: ************* 13
 - 2026-Q2: *********** 11
 - 2026-Q3: ********** 10
-- 2026-Q4: **** 4
+- 2026-Q4: ****** 6
 
 ## Most recent
 
+- [🌍 Amount Conversion to Favorite Currencies in Business Central](../posts/gerardorenteria-blog/15515.md) (2026-11-15)
+- [Visual Studio Code – versions](../posts/gerardorenteria-blog/1968.md) (2026-11-11)
+- [New Application Ideas of Dynamics 365 Business Central (2026 OCT)](../posts/gerardorenteria-blog/15508.md) (2026-11-01)
 - [AL Language extension for Microsoft Dynamics 365 Business Central – versions](../posts/gerardorenteria-blog/14079.md) (2026-10-19)
 - [Cumulative Updates for Business Central – versions](../posts/gerardorenteria-blog/13744.md) (2026-10-19)
-- [Visual Studio Code – versions](../posts/gerardorenteria-blog/1968.md) (2026-10-14)
 - [New Application Ideas of Dynamics 365 Business Central (2026 SEP)](../posts/gerardorenteria-blog/15469.md) (2026-10-02)
 - [GIT](../posts/gerardorenteria-blog/14469.md) (2026-09-28)
 - [New Application Ideas of Dynamics 365 Business Central (2026 AUG)](../posts/gerardorenteria-blog/15390.md) (2026-09-14)
@@ -240,7 +244,5 @@ Items per quarter, oldest first:
 - [World Cup in Business Central: predictions and results ⚽🥅](../posts/gerardorenteria-blog/14816.md) (2026-06-11)
 - [🪶 How to slim down the prompt and spend fewer credits in Github Copilot](../posts/gerardorenteria-blog/14730.md) (2026-06-04)
 - [New Application Ideas of Dynamics 365 Business Central (2026 MAY)](../posts/gerardorenteria-blog/14717.md) (2026-06-01)
-- [🧠 Global memory for your VS Code agent: preferences that follow you](../posts/gerardorenteria-blog/14663.md) (2026-05-18)
-- [🔍 Visualize your AL objects in a tree view, filter and navigate directly in VS Code](../posts/gerardorenteria-blog/14610.md) (2026-05-16)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

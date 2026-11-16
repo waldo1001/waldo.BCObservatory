@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/copilot-and-agent-capabilities",
-  "input_hash": "4282a294e5360647c9331bca5cd99791c3b71c280b7ca6b974f6a4c372ad9de4",
-  "summary": "Copilot and agent capabilities in Business Central: overview, country/region and language availability, Copilot FAQ, Advanced Tell Me, and subtopics for each Copilot feature and agent. It answers what each feature does, how to set it up and use it, how to administer it, and what its limits are.",
-  "overview": "This section covers the AI features of Business Central. The own pages give the big picture. Business Central AI lists the features across finance, inventory, sales and company setup. The Copilot FAQ explains licensing, permissions and online-only availability. The availability page shows which features work in which country/region and language. A Responsible AI FAQ covers Advanced Tell Me, the semantic search in the Tell Me pane.\n\nThe subtopics split into two groups. Copilot features work inside pages: Analysis assist, Autofill, Summarize, Bank account reconciliation assist, Marketing text suggestions, Sales line suggestion, Suggest item substitutions, Suggest number series, Shopify tax matching, Map E-Documents, and the read-only Microsoft Copilot chat. Agents work more autonomously: Payables Agent, Sales Order Agent and Expense Agent. Many pages are marked preview.\n\nStart with Business Central AI and the availability page to see what applies to your region. Then use Manage Copilot and agent capabilities to activate features and set permissions, and open the subtopic of the feature you need.",
+  "input_hash": "61c334158bd2bcdac97038d220afcbb2ae5f6d3d3f1d4e1976d8a8dd8ccd99e2",
+  "summary": "Copilot and agent capabilities in Business Central: the AI overview, country/region and language availability, the Copilot FAQ, Advanced Tell Me, plus subtopics for each Copilot feature and agent. It answers what each feature does, how to set it up and administer it, and its limits and responsible AI details.",
+  "overview": "This section covers the AI features in Business Central. They fall into two groups: Copilot features that assist users in the page they are working on, and agents that handle tasks such as email-driven work. The own pages give the overview (Business Central AI), the Copilot FAQ, availability by country/region and language, and a Responsible AI FAQ for Advanced Tell Me, a semantic search enhancement of Tell Me.\n\nEach subtopic covers one feature. Copilot features include analysis assist, autofill, summarize, bank account reconciliation assist, marketing text suggestions, sales line suggestion, item substitutions, number series suggestions, Shopify tax matching and the read-only Microsoft Copilot chat. The agents are Payables Agent, Sales Order Agent and Expense Agent. Many of these are marked preview.\n\nStart with the Business Central AI overview, then check availability for your country/region and language. Use \"Manage Copilot and agent capabilities\" to activate features, set permissions and handle data movement. Then go to the page for the feature you need.",
   "key_points": [
-    "Copilot is included with Business Central licenses, is available only online, and respects user data permissions (Copilot FAQ).",
-    "Availability depends on country/region version, data location and language; check the availability page before planning rollout.",
-    "Admins manage features on the Copilot & agent capabilities page: activation, user permissions, cross-geography data movement, Bing Search, and Azure OpenAI data handling.",
-    "Agents: Payables Agent processes vendor invoices and credit notes from email; Sales Order Agent turns customer emails into quotes and orders; Expense Agent (preview) handles receipts, expense reports and travel requests.",
-    "In-page Copilot features include Analysis assist, Autofill, Summarize, bank reconciliation assist, marketing text, sales line suggestions, item substitutions and number series suggestions.",
-    "Shopify tax matching (preview) maps tax descriptions on imported US orders to tax jurisdictions, set up per shop.",
-    "Map E-Documents (preview) is deprecated and replaced by the Payables Agent.",
-    "Advanced Tell Me adds semantic search with synonyms and acronyms through an Advanced tab in the Tell Me pane."
+    "Copilot is included with Business Central licenses, is available online only, and respects user data permissions.",
+    "Availability varies by country/region version, data location and language, so check the availability page before rollout.",
+    "Administration covers the Copilot & agent capabilities page, feature activation, user permissions, cross-geography data movement, Bing Search, Azure OpenAI data handling and troubleshooting.",
+    "Payables Agent processes vendor invoices and credit notes received by email; it replaces the deprecated E-documents Matching Assistance (Map E-Documents).",
+    "Sales Order Agent turns customer emails into sales quotes and orders; Expense Agent handles receipts, expense reports and travel requests, with a mobile app.",
+    "Analysis assist, autofill, summarize and bank account reconciliation assist work inside pages, such as list pages, card pages, the FactBox pane and bank reconciliations.",
+    "Marketing text suggestions draft item descriptions using Azure OpenAI Service and work with Shopify.",
+    "Shopify tax matching maps tax descriptions on imported US orders to tax jurisdictions, with setup per shop and review modes."
   ],
   "members_used": 4,
   "subtopics_used": 15,
   "prompt_version": 1,
-  "at": "2026-11-10T00:57:21.713Z",
+  "at": "2026-11-16T00:59:47.549Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.0317792
+    "cost_usd": 0.022099
   }
 }

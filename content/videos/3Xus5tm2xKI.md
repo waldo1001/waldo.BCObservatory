@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:43:05.096Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-16T00:54:58.322Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -141,12 +141,10 @@ features:
     roadmap_ids:
       - "576815"
   - name: Flexible deployment schedule for PTE installation
-    status: ga
+    status: unclear
     t: 88
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "576815"
+    status_source: video
   - name: App filtering by type in admin center
     status: unclear
     t: 175
@@ -262,7 +260,7 @@ It then covers considerations: the old extension management pages and automation
 | Feature | Status | At |
 |---|---|---|
 | PTE upload, install, and update in admin center | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [0:23](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=23s) |
-| Flexible deployment schedule for PTE installation | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [1:28](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=88s) |
+| Flexible deployment schedule for PTE installation | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=88s) |
 | App filtering by type in admin center | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=175s) |
 | Multiple concurrent PTE schedules | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [5:01](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=301s) |
 | Cancel scheduled PTE installation | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [6:19](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=379s) |

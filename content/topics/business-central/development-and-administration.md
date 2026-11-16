@@ -2,21 +2,21 @@
 id: topic/business-central/development-and-administration
 type: topic
 title: Development and administration
-summary: Development and administration in Business Central covers administering online tenants and environments, customizing the application, developing AL extensions, configuring Copilot and agents, tracking deprecated features, improving performance, synchronizing master data across companies, and migrating on-premises data to the cloud. It answers how-to, setup and planning questions for administrators, developers and partners.
+summary: Development and administration for Business Central covers administering online tenants and environments, configuring Copilot and agents, customizing the user experience, developing AL extensions, performance, deprecated features, master data sync across companies, and migration to Business Central online. It answers how-to and planning questions for administrators, developers, and partners.
 tier: official
 language: en
 system: administration
 review:
   state: reviewed
   by: opus
-  at: "2026-11-09T00:45:15.348Z"
+  at: "2026-11-16T00:59:59.321Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 46adcbd766e26fe713047f8ea2cc1d159b2f9034cbac89831d27de9020b40b03
+  input_hash: cc7aa3954aba8c7cef17826adc4875015ebacc9fea30a8114e8ca67810919728
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-faq
@@ -732,28 +732,28 @@ narrative: generated
 
 # Development and administration
 
-> Development and administration in Business Central covers administering online tenants and environments, customizing the application, developing AL extensions, configuring Copilot and agents, tracking deprecated features, improving performance, synchronizing master data across companies, and migrating on-premises data to the cloud. It answers how-to, setup and planning questions for administrators, developers and partners.
+> Development and administration for Business Central covers administering online tenants and environments, configuring Copilot and agents, customizing the user experience, developing AL extensions, performance, deprecated features, master data sync across companies, and migration to Business Central online. It answers how-to and planning questions for administrators, developers, and partners.
 
 Path: Development and administration · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section is the entry point for people who run, extend or move Business Central. It has pages on online tenant administration (internal and delegated partner admins), Copilot and agent configuration, deprecated features, AL extension development, and performance. Four subtopics go deeper: administration tasks, customization, master data synchronization and migration to Business Central online.
+This section is the entry point for people who run, extend, and tune Business Central. It starts with a landing page that points administrators, developers, and resellers to deployment options, the administration center, AL development, Power Platform integration, AL-Go for GitHub, telemetry, and learning paths.
 
-For administrators, start with the online administration page for user management, licensing, environment updates, telemetry and partner relationships. Then use the administration tasks subtopic for access control, companies, web services, job queues, printers and similar setup. Customization covers role-based page tailoring, the Premium experience, Cues and extension management.
+Administration is covered by an online administration page (internal administrators and delegated partners: user management, licensing, environment updates, telemetry, partner relationships) and a larger subtopic of administration tasks such as permissions, profiles, companies, job queues, web services, and printers. A separate page covers the Copilot & agent capabilities settings. Customization is a subtopic on profile layouts, personalization, and extensions.
 
-Developers should start with the AL extension page, which explains the extension model with Visual Studio Code. Before planning upgrades or builds, check the deprecated features page for removals by release wave. The performance overview and the migration and master data subtopics cover tuning and moving or sharing data.
+Developers should start with the page on developing extensions in AL, which explains the extension model in Visual Studio Code. The performance overview, the deprecated features list, master data synchronization across companies, and migration of on-premises data to Business Central online complete the section. Check the deprecated features page before planning upgrades.
 
 ## Key points
 
-- Online administration covers user management, permissions, licensing, environment updates, telemetry and delegated partner administration.
-- The Copilot & agent capabilities page controls feature activation, user permissions, data movement across geographies, Bing Search, feedback and agent model selection (versions 28 and 29).
-- AL extension development uses Visual Studio Code and covers tables, pages, codeunits and reports, with table and page extensions, snippets and compiler validation.
-- The deprecated features page lists removals and replacements by release wave, for example AMC Fundamentals app, Peppol BIS 2.0/2.1 and 3.0, Finance reports API, Analytics API and Excel reports.
-- The performance overview covers the Performance toolkit extension, page caching and performance monitoring.
-- Master Data Management pulls customers, vendors and items from a source company into subsidiaries, with coupling, filtering and job queue management.
-- Migration to Business Central online supports on-premises Business Central, Dynamics GP, SL and NAV, and helps choose between full migration and reimplementation.
-- Customization subtopic covers role-tailored pages, the Premium experience, colored Cue indicators and installing and managing extensions.
+- Online administration covers user management, permissions, licensing, environment updates, telemetry, and delegated administration by partners.
+- The Copilot & agent capabilities page controls feature activation, user access through permissions, data movement across geographies, Bing Search, feedback, and agent model selection (versions 28 and 29).
+- Administration tasks include access and permissions, user settings and profiles, company creation, job queues, web services, printers, languages, and indexes.
+- Customization covers profile page layouts, Premium vs Essentials experience, colored cue indicators, personalization, and extensions.
+- AL extension development uses Visual Studio Code, with table and page extensions, code snippets, compiler validation, and a drag and drop designer.
+- The performance overview points to the Performance toolkit extension, page caching, and performance monitoring.
+- The deprecated features page lists removals by release wave, for example AMC Fundamentals app, Peppol BIS 2.0/2.1 and 3.0, Finance reports API, Analytics API, and Excel reports.
+- Master Data Management syncs customers, vendors, and items from a source company to subsidiaries. Migration covers Business Central, GP, SL, and NAV data moving to the cloud.
 
 ## Subtopics
 

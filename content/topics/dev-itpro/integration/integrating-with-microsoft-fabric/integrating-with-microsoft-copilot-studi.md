@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,8 +44,11 @@ links:
   topics:
     - topic/dev-itpro/integration/integrating-with-microsoft-fabric
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/GK6hM-nBYZk
+    - video/uMKLsKfKPc0
+  posts:
+    - post/aardvarklabs-blog/1818
   guidelines: []
 learn_toc_path:
   - Integration
@@ -57,8 +60,8 @@ children: []
 coverage:
   learn: 2
   code: 3
-  video: 0
-  blog: 0
+  video: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 8350
@@ -96,6 +99,14 @@ Start with the MCP server configuration page so the allowed APIs and operations 
 
 - [Configure Business Central MCP Server](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/configure-mcp-server): Learn how to configure the Business Central MCP server to enable AI agents to access and interact with your Business Central data and processes.
 - [Create Agents in Copilot Studio that Connect to Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/create-agent-in-copilot-studio): Create conversational agents in Copilot Studio that use Business Central data and automate business processes with natural language.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Creating Low-Code AI Agents with Copilot Studio and Business Central](../../../../posts/aardvarklabs-blog/1818.md) (community post): "low-code creation of AI agents that connect to Business Central and other platforms"
+- [What's New: Business Central Integration with Microsoft Copilot Studio (2026 release wave 1)](../../../../videos/GK6hM-nBYZk.md) (video): "Copilot Studio Agent Building; MCP Server for Business Central"
+- [Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat](../../../../videos/uMKLsKfKPc0.md) (video): "Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat"
 
 ## Business Central pages and reports
 

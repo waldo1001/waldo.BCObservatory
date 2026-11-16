@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:12.958Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,6 +67,7 @@ links:
     - video/WL3m2dffwU8
     - video/YX9UfUF0EsA
   posts:
+    - post/aardvarklabs-blog/3496
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442
     - post/thinkaboutit-be/8342
     - post/thinkaboutit-be/8348
@@ -88,7 +89,7 @@ coverage:
   learn: 4
   code: 0
   video: 8
-  blog: 7
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: 2062629c7a6a6ebd37a1793d9251eb5c396f63abc802c925e789a385ca6b189a
@@ -133,6 +134,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11204 Chat v2 privacy notice behavior changed to not auto agree for Eval companies](../../../changes/bcapps/11204.md) (code change): "Copilot chat privacy notice now requires explicit agreement for evaluation companies"
 - [#9206 Added new privacy policy for BizChat depending on Microsoft Copilot 365 with EEA environments behavior changes](../../../changes/bcapps/9206.md) (code change): "Added new privacy policy for Microsoft Copilot in Chat V2 with EEA-specific behavior changes"
+- [Maximizing Productivity with Copilot Cowork Skills](../../../posts/aardvarklabs-blog/3496.md) (community post): "Copilot Cowork skills; ai workflows; reusable processes; automation; governance"
 - [Microsoft Copilot in Business Central: What the New Unified Chat Experience Means](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442.md) (community post): "unified Copilot-style chat that reasons over Business Central data"
 - [Business Central 29: Exploring the New Microsoft Copilot Chat](../../../posts/thinkaboutit-be/8342.md) (community post): "unified Microsoft Copilot Chat that combines Business Central data, web information, and Microsoft 365 work context"
 - [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../../../posts/thinkaboutit-be/8348.md) (community post): "Edit with Copilot enables users to modify business data using natural language"

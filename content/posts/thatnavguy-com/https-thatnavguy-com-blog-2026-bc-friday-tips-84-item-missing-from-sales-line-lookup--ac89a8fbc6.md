@@ -18,7 +18,7 @@ review:
   at: "2026-10-16T01:16:52.043Z"
   flags: []
 generated:
-  at: "2026-10-26T05:51:10.938Z"
+  at: "2026-11-16T00:19:27.268Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -127,7 +127,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-16T01:14:09.508Z"
+  probed_at: "2026-11-16T00:53:06.517Z"
 ---
 
 # BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?

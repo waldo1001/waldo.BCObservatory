@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -128,6 +128,7 @@ links:
     - video/pjML7lXSsd0
     - video/q-udoJPGUKE
     - video/rSGCNMIBcpc
+    - video/s3d9vW6tuT8
     - video/tj1vvsmAMVs
     - video/vyQnSxRGJDA
   posts:
@@ -178,7 +179,7 @@ children:
 coverage:
   learn: 11
   code: 3
-  video: 16
+  video: 17
   blog: 2
   guideline: 0
 bc_forms:
@@ -284,6 +285,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Introducing: Expense Management (2026 release wave 1)](../../../videos/pjML7lXSsd0.md) (video): "Expense Agent; AI-driven categorization; expense approval workflow"
 - [Introducing: Web App for Expense Agent (2026 release wave 1)](../../../videos/q-udoJPGUKE.md) (video): "Introducing: Web App for Expense Agent expense agent; web app; ai extraction"
 - [Expense Agent: Approvals (2026 release wave 1)](../../../videos/rSGCNMIBcpc.md) (video): "Expense Agent: Approvals; Default approver setup; Per-user approver override"
+- [What's new in Expense Agent: Use Travel Request (2026 release wave 2)](../../../videos/s3d9vW6tuT8.md) (video): "What's new in Expense Agent: Use Travel Request"
 - [What's new in Expense Agent: Overview (2026 release wave 2)](../../../videos/tj1vvsmAMVs.md) (video): "What's new in Expense Agent: Overview (2026 release wave 2)"
 - [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../videos/vyQnSxRGJDA.md) (video): "Per Diem Allowances; expense agent; itinerary detection; meal reductions"
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:31.746Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,6 +46,7 @@ links:
   videos:
     - video/u1oO9MEg9kc
   posts:
+    - post/gerardorenteria-blog/15515
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1716125815035715885--34eb3d4362
     - post/yzhums-com/69290
     - post/yzhums-com/74649
@@ -87,7 +88,7 @@ coverage:
   learn: 2
   code: 2
   video: 1
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms:
   - 5
@@ -154,6 +155,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9789 [Main]-Payment discount tolerance is doubled when posting a vendor payment](../../../../changes/bcapps/9789.md) (code change): "vendor payments applied to several invoices in foreign currency"
 - [#9943 [Master]-Purchase invoice in USD with deferral shows 0 "Amount LCY" in Deferral Schedule View"](../../../../changes/bcapps/9943.md) (code change): "Purchase invoices in foreign currency now correctly display"
 - [#223 knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision](../../../../changes/bcquality/223.md) (code change): "rounds it to the currency's Unit-Amount Rounding Precision"
+- [🌍 Amount Conversion to Favorite Currencies in Business Central](../../../../posts/gerardorenteria-blog/15515.md) (community post): "displays amount conversions to user-selected favorite currencies directly within Business Central"
 - [How to Add Currency Symbols to Numeric Fields in Business Central.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1716125815035715885--34eb3d4362.md) (community post): "configurable currency symbols on numeric fields to help finance users"
 - [Dynamics 365 Business Central: Regarding the issue where the Source Currency Amount in G/L Entry differs from the pre-posting Amount in BC27](../../../../posts/yzhums-com/69290.md) (community post): "When posting general journal lines with foreign currencies in BC27, the Source Currency Amount field"
 - [Business Central 2026 release wave 1 (BC28): Show Currency Symbol/Code and Currency Symbol Position](../../../../posts/yzhums-com/74649.md) (community post): "Show Currency setting and a Currency Symbol Position setting to General Ledger Setup"

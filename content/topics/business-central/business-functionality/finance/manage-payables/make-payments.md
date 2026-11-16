@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -299,7 +299,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12770 [Main]-Project Ledger Entry does not get the modified amount from Purchase Order Statistics if the Purchase line is of type G/L Account in the Spanish version.](../../../../../changes/bcapps/12770.md) (code change): "Modified invoice discounts on G/L Account lines in purchase orders, even though G/L entries were correct"
 - [#13054 [FR] Delocalize delayed VAT and SEPA payment-slip integration](../../../../../changes/bcapps/13054.md) (code change): "SEPA direct debit export now supports filtered and temporary entries"
 - [#13358 [main] bug 656582 Add Maintenance Code field on purchase order subpage and purchase invoice subpage](../../../../../changes/bcapps/13358.md) (code change): "Maintenance Code field added to the Purch. Invoice Subform page"
-- [#13447 [master]"El título Importe pendiente resulta ambiguo entre varios campos de la tabla Mov. proveedor." error if you try to Create Payment for some Vendor Ledger Entries filtered by Remaining Amount <> 0 in the Spanish version.](../../../../../changes/bcapps/13447.md) (code change): "Create Payment page resolves an ambiguous field title error in the Spanish version"
+- [#13447 [master]"El título Importe pendiente resulta ambiguo entre varios campos de la tabla Mov. proveedor." error if you try to Create Payment for some Vendor Ledger Entries filtered by Remaining Amount <> 0 in the Spanish version.](../../../../../changes/bcapps/13447.md) (code change): "Create Payment for some Vendor Ledger Entries filtered by Remaining Amount"
 - [#9578 [E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)](../../../../../changes/bcapps/9578.md) (code change): "Remittance Advice E-Document type with data assembly, validation, and PEPPOL 3.0 export"
 - [#9984 [Main] Error with unposted prepayment amounts on Order](../../../../../changes/bcapps/9984.md) (code change): "Error with unposted prepayment amounts on Order"
 - [Business Central 2026 release wave 1 (BC28.1): Create new Purchase Invoice from PDF (Out-of-the-Box)](../../../../../posts/yzhums-com/72842.md) (community post): "Purchase invoices can now be created manually from PDF files via a new"

@@ -5,13 +5,13 @@
   "source": "gerardorenteria-blog",
   "published_at": "2026-11-01T12:14:00.000Z",
   "words": 811,
-  "summary": "A curated list of user-submitted feature requests and improvement ideas for Dynamics 365 Business Central spanning October 2026, covering areas like Copilot agents, data migrations, financial management, localization, inventory, manufacturing, and platform administration.",
+  "summary": "A monthly roundup of community-submitted Business Central improvement ideas from October 2026, grouped by area and credited to each submitter. It covers Copilot, development, financial management, localization and e-invoicing, inventory, sales, and tenant administration.",
   "key_points": [
-    "Collection of 80+ feature ideas submitted by the community across multiple Business Central modules",
-    "Requests address Copilot cross-company access, dark mode, improved e-invoicing support, and workflow enhancements",
-    "Ideas span development improvements, localization requirements for various countries, and tenant administration features",
-    "Suggestions include inventory management features like consignment inventory and costing for service items",
-    "Covers platform-level improvements such as API throughput, job queue entry recovery, and security group notifications"
+    "Roughly 60 community ideas grouped by functional area, each with the submitter's name",
+    "Development requests include dark mode, removing AutoIncrement from a field, and replacement points before IsHandled is restricted",
+    "Finance and localization ideas focus on e-invoicing (French rules, ZUGFeRD, EN 16931, E-Document for AT and CH) and on SEPA and ISO 20022 exports",
+    "Inventory ideas include consignment inventory by bin, customer-owned inventory, and costing for service-type items",
+    "Admin ideas cover Job Queue entry recovery, configurable API throughput, and wider recipient options for credit overage notifications"
   ],
   "systems": [
     "copilot",
@@ -40,12 +40,7 @@
     "2026 October"
   ],
   "language": "en",
-  "quotes": [
-    {
-      "text": "Would any of these ideas improve Business Central? Here is a list of some of them.",
-      "why_it_matters": "Frames the post as a community-driven collection of improvement suggestions for evaluating Business Central enhancements"
-    }
-  ],
+  "quotes": [],
   "trimmed_for_policy": 0,
   "prompt_version": 1,
   "llm": {

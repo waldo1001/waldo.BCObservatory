@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/gerardorenteria-blog/15508",
+  "input_hash": "98935da557f34732dc37ead5fde868427251d9b2f75bb57b3e1312b24c1f8451",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-16T00:57:59.246Z",
+  "issues": [
+    "The key points claim 80+ ideas, but the post lists about 60.",
+    "The summary names data migrations as a covered area, but that heading has no ideas under it.",
+    "The only quote is the post's introduction and adds no useful information.",
+    "The version value 2026 October is the month the ideas were collected, not a Business Central release. The edit fields cannot change it."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 quote(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.068019,
+    "posts_in_call": 3
+  }
+}

@@ -1,12 +1,11 @@
 {
   "item_id": "blog/gerardorenteria-blog/1968",
-  "input_hash": "dec68f1e67bf7a5339a0bf779cbe419013359e1a33320cb02838588140b98a7d",
+  "input_hash": "b3f3d7a96ec01ded6836d785f28ce15a376831529960d22acef3e65013d06eb1",
   "verdict": "reject",
   "by": "opus",
-  "at": "2026-10-20T08:48:02.942Z",
+  "at": "2026-11-16T00:57:59.246Z",
   "issues": [
-    "Post is a list of Visual Studio Code release highlights and does not mention Business Central at all.",
-    "Summary misstates the range: version 1.95 is dated October 2024 in the post, not August 2024."
+    "The post is a changelog of VS Code release highlights. It never mentions Business Central or AL development, so it is not about Business Central."
   ],
   "applied": [
     "summary and key points withheld"
@@ -16,7 +15,7 @@
   "llm": {
     "model": "claude-opus-5-5",
     "cached": false,
-    "cost_usd": 0.06575,
-    "posts_in_call": 4
+    "cost_usd": 0.068019,
+    "posts_in_call": 3
   }
 }

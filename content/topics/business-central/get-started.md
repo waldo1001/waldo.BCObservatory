@@ -2,20 +2,20 @@
 id: topic/business-central/get-started
 type: topic
 title: Get started
-summary: "Get started with Business Central covers the entry path: what functionality the product supports, trying and buying, quick starts, learning resources, everyday use, troubleshooting and support. It answers questions about first setup, trials, practice data, daily tasks and where to get help."
+summary: "Get started with Business Central: an overview of supported business functionality, plus trials, purchase and initial setup, quick starts, learning resources, everyday use, troubleshooting and FAQs, and help and support. It answers where to begin, how to try and set up, and where to find help."
 tier: official
 language: en
 review:
   state: reviewed
   by: opus
-  at: "2026-11-07T01:06:33.192Z"
+  at: "2026-11-16T00:59:57.310Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 4965de5d6d79dbcd3b642ed60721f4c6b1a90662b1fd3c5d49d860ea5225e96c
+  input_hash: cba8de6959adb62c6f949920e0dfc5a165c7f323315cd7163e587085b9a6adb8
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
@@ -491,28 +491,28 @@ narrative: generated
 
 # Get started
 
-> Get started with Business Central covers the entry path: what functionality the product supports, trying and buying, quick starts, learning resources, everyday use, troubleshooting and support. It answers questions about first setup, trials, practice data, daily tasks and where to get help.
+> Get started with Business Central: an overview of supported business functionality, plus trials, purchase and initial setup, quick starts, learning resources, everyday use, troubleshooting and FAQs, and help and support. It answers where to begin, how to try and set up, and where to find help.
 
 Path: Get started · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Get started is the entry section for Business Central. Its own page gives an overview of supported business functionality: finance and payments, sales and quotes, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.
+This section is the entry point for new Business Central users. Its own page gives an overview of the business functionality the product supports: finance and payments, sales and quotes, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.
 
-The subtopics follow a typical path. Try and Buy cover signing up for a trial, extending it, converting to a subscription, and initial setup such as assisted setup guides, company information, users and permissions. Quick starts give beginner guides for first setup and basic daily tasks in sales, procurement, reports and business intelligence.
+The subtopics follow a typical path. Try covers starting, extending and converting a trial, and fixing sign-up problems. Buy covers the free trial and initial setup, including assisted setup guides, company information, users, permissions and role-specific home pages. Quick starts give beginner guides for first-time setup and basic daily tasks in finance, sales, procurement and reporting.
 
-Learn offers practice resources such as CRONUS and Contoso Coffee demo data walkthroughs and a video library. Get productive covers daily use: search, filters, personalization, reports and settings. Troubleshooting and FAQs and Help and Support cover problems, Copilot, system requirements and escalation. Start with the functionality overview, then Try or Buy, then Quick starts.
+After setup, Learn offers walkthroughs in the CRONUS demo company, Contoso Coffee scenarios, user resources and videos. Get productive covers daily work such as search, filtering, notifications, personalization, reports and Copilot. Troubleshooting and FAQs and Help and Support cover problems, system requirements and escalation. Start with the functionality overview, then Try or Quick starts.
 
 ## Key points
 
 - The functionality overview lists finance, sales, purchasing, inventory, projects, fixed assets, CRM, HR, manufacturing, assembly, warehouse and service management.
-- Try covers trial sign-up, extending the trial, first setup tasks, converting to a subscription and fixing self-service sign-up errors.
-- Buy covers the free trial path by country and initial setup: assisted setup guides, company information, user creation, permissions and role-specific home pages.
+- Try covers signing up for a trial, extending it, first setup tasks, converting to a subscription and fixing self-service sign-up errors.
+- Buy covers trial paths by country, assisted setup guides, company information, user creation, permissions and role-specific home pages.
 - Quick starts are beginner guides for company information, chart of accounts, bank accounts, sales, procurement, reports and business intelligence.
-- Learn (35 pages) provides CRONUS and Contoso Coffee demo scenarios, a user resources page and a video library for practice.
-- Get productive (54 pages) covers Tell Me, Role Explorer, search, filters, personalization, reports, sharing data, document layouts, accessibility and performance.
-- Troubleshooting and FAQs covers Tell Me search, the Copilot experience, minimum system requirements and the Teams app.
-- Help and Support covers Chat with Copilot, the Help pane, and troubleshooting and escalating technical support.
+- Learn offers CRONUS demo company walkthroughs, Contoso Coffee demo data scenarios, a user resources page and a video library.
+- Get productive covers Tell Me and Role Explorer search, filtering, notifications, attachments, company switching, performance, Copilot, Microsoft 365 apps, personalization, reports, document layouts and accessibility.
+- Troubleshooting and FAQs cover Teams integration, Tell Me search, Copilot licensing and data access, and minimum system requirements including supported browsers and devices.
+- Help and Support covers where to find help, Chat with Copilot, the Help pane, and troubleshooting and escalating issues.
 
 ## Subtopics
 

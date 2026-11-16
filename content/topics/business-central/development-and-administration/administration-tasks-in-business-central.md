@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -374,7 +374,8 @@ links:
     - topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-user-settings
     - topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data
   localizations: []
-  videos: []
+  videos:
+    - video/Wc8WlLZUCJc
   posts:
     - post/duiliotacconi-com/1983
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9
@@ -398,7 +399,7 @@ children:
 coverage:
   learn: 34
   code: 92
-  video: 0
+  video: 1
   blog: 6
   guideline: 0
 bc_forms:
@@ -567,6 +568,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 1 (BC28): New Early Access Preview Features page (1965, List)](../../../posts/yzhums-com/71559.md) (community post): "New optional features are initially disabled and can be individually enabled by administrators"
 - [Does Dynamics 365 Business Central support browser-based translation (e.g., Microsoft Translator in Edge browser)?](../../../posts/yzhums-com/74800.md) (community post): "Business Central supports multiple languages through installed language packs available on Marketplace"
 - [Business Central 2026 release wave 2 (BC29): Administrators can turn SIFT (SumIndexField Technology) indexes on/off](../../../posts/yzhums-com/75894.md) (community post): "administrators to turn SIFT indexes on and off directly"
+- [Infinity Group Internal AI Transformation](../../../videos/Wc8WlLZUCJc.md) (video): "organizational change; cultural enablement; partner guidance"
 
 ## Business Central pages and reports
 

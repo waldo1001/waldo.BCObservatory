@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:11.266Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -215,6 +215,8 @@ links:
     - video/GEuUFcgFZF0
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/13618
 learn_toc_path:
   - Business functionality
   - Assembly management
@@ -315,10 +317,11 @@ For corrections and accounting, see "Undo Assembly Posting" and "Design details 
 - [Work with assembly BOMs](https://learn.microsoft.com/dynamics365/business-central/assembly-how-work-assembly-boms): You create an assembly BOM to specify the components required to put together the item that the BOM represents.
   - In the observatory: [Page 5841 "Standard Cost Worksheet"](../../../objects/page/5841.md)
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13618 [Master]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages](../../../changes/bcapps/13618.md) (code change): "Serial numbers on assembly order component lines are no longer unexpectedly deleted"
 - [What's New: Project Management (2024 release wave 1)](../../../videos/dD_2NEs3A40.md) (video): "Assembly-to-order in projects; Assembly policy setting in projects"
 - [Manufacturing Foundations BOM (2026)](../../../videos/GEuUFcgFZF0.md) (video): "Assembly replenishment; BOM formulas for units of measure; Phantom BOMs"
 

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-14T00:54:52.162Z"
+  at: "2026-11-16T00:48:52.213Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: edc6d6d12a9295ec40cd3f83e34ac86a59e5dd6185f3b63341f5b349382fcd6a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/AgentDesignExperience/app/PermissionSets/AgentDesigner.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/Apps/W1/AgentDesignExperience/app/PermissionSets/AgentDesigner.Entitlement.al
     title: src/Apps/W1/AgentDesignExperience/app/PermissionSets/AgentDesigner.Entitlement.al (releases/29.x)
     date: null
-    commit: 229c71f1927eed3c6f5f2cac1e8701b916c315fb
+    commit: 9d65b5414f44cbad5890049a1e0490a64118ffdb
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Agent Designer" in AgentDesignExperience (System.Agents.Designer). Introduced in BC29, still in BC30.
 
-AgentDesignExperience · System.Agents.Designer · BC29-30 · [source at 229c71f1](https://github.com/microsoft/BCApps/blob/229c71f1927eed3c6f5f2cac1e8701b916c315fb/src/Apps/W1/AgentDesignExperience/app/PermissionSets/AgentDesigner.Entitlement.al) · facts from BC29
+AgentDesignExperience · System.Agents.Designer · BC29-30 · [source at 9d65b541](https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/Apps/W1/AgentDesignExperience/app/PermissionSets/AgentDesigner.Entitlement.al) · facts from BC29
 
 ## Across versions
 

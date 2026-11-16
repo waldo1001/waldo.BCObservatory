@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -461,6 +461,7 @@ links:
     - change/bcapps/12552
     - change/bcapps/12584
     - change/bcapps/12783
+    - change/bcapps/13704
     - change/bcapps/13724
     - change/bcapps/9075
     - change/bcapps/9087
@@ -667,6 +668,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/12552.md) (code change): "sales order with a linked released production order caused repeated production order status warnings"
 - [#12584 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](../../../changes/bcapps/12584.md) (code change): "Posted, uninvoiced subcontracting receipts can again be pulled into a separate purchase invoice"
 - [#12783 [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../changes/bcapps/12783.md) (code change): "multiplies the subcontractor price by the operation time factor and rounds to the unit-amount precision"
+- [#13704 [Subcontracting] Add quantity-ready-to-start tracking for production routing operations](../../../changes/bcapps/13704.md) (code change): "New read-only Quantity Ready to Start field on production routing lines"
 - [#13724 Bug 651757: Allow warehouse pick for MTO subassembly after registered put-away](../../../changes/bcapps/13724.md) (code change): "Warehouse pick selection for make-to-order subassemblies now allows higher-level"
 - [#9075 Bug 598820: Item Availability by Event from Prod. Order ignores demand after Due Date](../../../changes/bcapps/9075.md) (code change): "Item Availability by Event from Prod. Order ignores demand after Due Date"
 - [#9087 Bug 641331: Copy Production Order Document lookup shows the current document](../../../changes/bcapps/9087.md) (code change): "Copy Production Order Document report now excludes the current production order from the document lookup"

@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:47:18.883Z"
   flags: []
 generated:
-  at: "2026-11-08T00:54:33.212Z"
+  at: "2026-11-16T00:54:58.322Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -84,7 +84,6 @@ links:
   objects: []
   features:
     - feature/578065
-    - feature/578068
   topics: []
   localizations: []
   videos: []
@@ -124,12 +123,10 @@ cautions:
     t: 26
 features:
   - name: Sales Order Agent
-    status: preview
+    status: unclear
     t: 0
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "578068"
+    status_source: video
   - name: Try It Out Experience
     status: ga
     t: 26
@@ -237,7 +234,7 @@ The second half covers connecting a real Outlook inbox, either personal or share
 
 | Feature | Status | At |
 |---|---|---|
-| Sales Order Agent | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [0:00](https://www.youtube.com/watch?v=2ujWYYecA2c&t=0s) |
+| Sales Order Agent | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=2ujWYYecA2c&t=0s) |
 | Try It Out Experience | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [0:26](https://www.youtube.com/watch?v=2ujWYYecA2c&t=26s) |
 | Email Attachment Detection | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=2ujWYYecA2c&t=50s) |
 | Customer Identification | status not stated, demoed | [1:47](https://www.youtube.com/watch?v=2ujWYYecA2c&t=107s) |

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -155,8 +155,6 @@ links:
   videos:
     - video/bCIcq1zESKk
     - video/cVfZoDwKYpI
-    - video/cWVhWBMbXb4
-    - video/cZCSi6khZFo
     - video/eA7CENx7se0
   posts:
     - post/demiliani-com/15935
@@ -169,7 +167,7 @@ children: []
 coverage:
   learn: 16
   code: 0
-  video: 5
+  video: 3
   blog: 1
   guideline: 0
 bc_forms: []
@@ -228,8 +226,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../posts/demiliani-com/15935.md) (community post): "The Allow data movement toggle appears only when Business Central environment location differs from Copilot processing geography"
 - [What's New: Item Substitution with Copilot (2024 release wave 2)](../../videos/bCIcq1zESKk.md) (video): "responsible ai; llm; embedding; product information"
 - [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../videos/cVfZoDwKYpI.md) (video): "harmful eval testing and red teaming; eval-driven development"
-- [What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)](../../videos/cWVhWBMbXb4.md) (video): "expense agent; setup configuration. Shows: Date-range mileage allowances"
-- [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../../videos/cZCSi6khZFo.md) (video): "ai-powered search; confidence scoring; item matching"
 - [What's New: Testing Copilot in Business Central (2024 release wave 2)](../../videos/eA7CENx7se0.md) (video): "responsible ai; test automation; external evaluation with Azure AI Studio"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

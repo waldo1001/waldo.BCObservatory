@@ -2,21 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo
 type: topic
 title: Analytics, business intelligence, and reporting
-summary: "Analytics, business intelligence, and reporting in Business Central: KPIs, dashboards, financial reports, ad-hoc analysis, built-in reports, report development, and export to external BI tools such as Power BI and Microsoft Fabric. It answers questions on choosing, running, building, and analyzing reports and data."
+summary: "Analytics, business intelligence, and reporting in Business Central: KPIs, dashboards, financial reports, Power BI, ad-hoc analysis, built-in reports, daily report use, report development, and exporting data to external BI tools. It answers which tool or report fits a need and how to set it up or run it."
 tier: official
 language: en
 system: reporting
 review:
-  state: reviewed
-  by: opus
-  at: "2026-11-11T00:59:19.156Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-16T01:00:02.006Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 91bdcbefc0dcc599b9ef3404ccbf998e9de0a561df8ef08fb8fe2a613672157f
+  input_hash: 5e7c2d6b58ef56a5820c73e80591db19a6274fda4e11eeaf2253987ffc82086c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-reports
@@ -967,24 +967,28 @@ narrative: generated
 
 # Analytics, business intelligence, and reporting
 
-> Analytics, business intelligence, and reporting in Business Central: KPIs, dashboards, financial reports, ad-hoc analysis, built-in reports, report development, and export to external BI tools such as Power BI and Microsoft Fabric. It answers questions on choosing, running, building, and analyzing reports and data.
+> Analytics, business intelligence, and reporting in Business Central: KPIs, dashboards, financial reports, Power BI, ad-hoc analysis, built-in reports, daily report use, report development, and exporting data to external BI tools. It answers which tool or report fits a need and how to set it up or run it.
 
-Path: Analytics, business intelligence, and reporting · tier official · system reporting · narrative reviewed (checked by Opus)
+Path: Analytics, business intelligence, and reporting · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Analytics, business intelligence, and reporting in Business Central is about turning data into information. An overview page describes the built-in reporting capabilities: financial reports, KPIs, Power BI apps, data analysis on list pages, Open in Excel, and the Report Explorer. A separate page points to analytics for specific functional areas.\n\nThe subtopics run from end user to developer. End users can track goals with KPIs and dashboards, build financial reports from row and column definitions, analyze data on lists without a report, and run, print, schedule, and share standard reports. The built-in reports subtopic lists the reports for finance, sales, purchasing, fixed assets, project, assembly, manufacturing, and service.\n\nDevelopers and BI teams have their own subtopics. One covers report layouts (Word, Excel, RDLC, external, composite) and datasets in AL. Another covers exporting data to Fabric, Power BI, data warehouses, and data lakes, plus the API v2.0 and performance guidance. Start with the overview page, then pick the subtopic that matches your role.
+This section covers how to get insight out of Business Central data. It starts with an overview page that lists the main capabilities: financial reports, Key Performance Indicators, Power BI apps, data analysis on list pages, Open in Excel, and the Report Explorer. A page on analytics by functional area points to content for specific business domains.
+
+The subtopics split the area by task. KPIs, dashboards, and financial reports cover tracking goals and building financial statements. Ad-hoc data analysis covers exploring data beyond standard reports. Use reports in daily work covers running, printing, scheduling, and exporting reports. Built-in reports lists what exists per area, such as finance, sales, purchasing, and manufacturing.
+
+For technical readers, Develop reports explains datasets, layouts (Word, Excel, RDLC), and request pages. Analyze data in business intelligence tools covers export to Microsoft Fabric, Power BI, data warehouses and data lakes, and the API v2.0. Start with the overview, then pick the subtopic that matches your role.
 
 ## Key points
 
-- The overview page lists the core capabilities: financial reports, KPIs, Power BI apps, data analysis on list pages, Open in Excel, and the Report Explorer.
-- Financial reports are built from row and column definitions with G/L account categories, and can connect to Power BI.
-- Ad-hoc analysis works directly on pages and lists: sorting, searching, filtering, saved list views, data analysis mode with pivot, and Open/Edit in Excel.
-- Daily report use covers running, previewing, printing, scheduling, sharing, saved settings, layouts, default printers, bookmarks, and raw data export to Excel or XML.
-- Built-in reports are organized by area (finance, sales, purchasing, fixed assets, project, assembly, manufacturing, service) and reached through the Report Explorer.
-- Report development in AL covers Word, Excel, RDLC, external, and composite layouts, and how datasets, layouts, and request pages fit together.
-- External BI options include exporting to Microsoft Fabric, Power BI, data warehouses, and data lakes, mirroring to Fabric, and the Business Central API v2.0.
-- The built-in reports subtopic also covers the Notification Email report and report generation telemetry.
+- The overview names the core tools: Financial Reports, KPIs, Power BI apps, data analysis on list pages, Open in Excel, and Report Explorer.
+- Financial reports are built from row and column definitions with G/L account categories.
+- Ad-hoc methods include sorting, searching, filtering, saved list views, Excel export and editing, and the data analysis mode on lists and queries.
+- Daily report use covers finding, previewing, printing, and scheduling reports, saving settings, choosing layouts, default printers, and the Report Inbox.
+- Report datasets can be exported to Excel or XML.
+- Built-in reports are documented for finance, sales, purchasing, fixed assets, project, assembly, manufacturing, and service management, reached through the Report Explorer.
+- Report developers work with datasets, Word, Excel, and RDLC layouts, request pages, and performance tuning in AL.
+- External BI options include export to Microsoft Fabric (including mirroring), Power BI, data warehouses and data lakes, and the API v2.0.
 
 ## Subtopics
 
