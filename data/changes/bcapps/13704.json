@@ -1,0 +1,387 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13704,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13704",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-13T11:49:35Z",
+  "merge_commit_sha": "0c493a2746cc0729fe29aa3d4344f329899b5670",
+  "author": "stevengrossGOB",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Subcontracting",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[Subcontracting] Add quantity-ready-to-start tracking for production routing operations",
+  "body_hash": "0279210dc3483aee4622301f7df98f9c32e530c78b890f576fb880e8f4ec8f77",
+  "fixes_issues": [],
+  "work_items": [
+    619338
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/General/SubcItemJnlPostLineExt.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcRoutingInfoFactbox.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcCalculateSubcontracts.Report.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Libraries/SubcLibraryMfgManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Libraries/SubcManagementLibrary.Codeunit.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcReadinessGateTest.Codeunit.al",
+      "status": "added",
+      "additions": 516,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderRouting.Page.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderRoutingLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderRouting.Page.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderRoutingLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderRoutingLines.Page.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderStatusManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/QtyReadyToStartMgt.Codeunit.al",
+      "status": "added",
+      "additions": 237,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Posting/MfgItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Requisition/MfgCarryOutAction.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/CalculateRoutingLine.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Upgrade/MfgUpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMQtyReadyToStart.Codeunit.al",
+      "status": "added",
+      "additions": 1490,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 22,
+    "additions": 2524,
+    "deletions": 0,
+    "al": 18
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/General/SubcItemJnlPostLineExt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20515",
+        "type": "codeunit",
+        "id": 20515,
+        "name": "Subc. ItemJnlPostLine Ext",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20515"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Manufacturing/SubcRoutingInfoFactbox.Page.al",
+        "status": "modified",
+        "key": "page/20502",
+        "type": "page",
+        "id": 20502,
+        "name": "Subc. Routing Info Factbox",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "page/20502"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/Purchase/SubcCalculateSubcontracts.Report.al",
+        "status": "modified",
+        "key": "report/20505",
+        "type": "report",
+        "id": 20505,
+        "name": "Subc. Calculate Subcontracts",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "report/20505"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderRoutingLine.Table.al",
+        "status": "modified",
+        "key": "table/5409",
+        "type": "table",
+        "id": 5409,
+        "name": "Prod. Order Routing Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/5409"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/9998"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderRouting.Page.al",
+        "status": "modified",
+        "key": "page/99000817",
+        "type": "page",
+        "id": 99000817,
+        "name": "Prod. Order Routing",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/99000817"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderRoutingLine.Table.al",
+        "status": "modified",
+        "key": "table/5409",
+        "type": "table",
+        "id": 5409,
+        "name": "Prod. Order Routing Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5409"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderRoutingLines.Page.al",
+        "status": "modified",
+        "key": "page/5408",
+        "type": "page",
+        "id": 5408,
+        "name": "Prod. Order Routing Lines",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5408"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdOrderStatusManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5407",
+        "type": "codeunit",
+        "id": 5407,
+        "name": "Prod. Order Status Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5407"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Posting/MfgItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000822",
+        "type": "codeunit",
+        "id": 99000822,
+        "name": "Mfg. Item Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000822"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/CalculateRoutingLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000774",
+        "type": "codeunit",
+        "id": 99000774,
+        "name": "Calculate Routing Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000774"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Upgrade/MfgUpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104062",
+        "type": "codeunit",
+        "id": 104062,
+        "name": "Mfg. Upgrade BaseApp",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/104062"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeTagDefinitions.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9998",
+        "type": "codeunit",
+        "id": 9998,
+        "name": "Upgrade Tag Definitions",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/9998"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/IT/BaseApp/Manufacturing/Document/ProdOrderRouting.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/QtyReadyToStartMgt.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Requisition/MfgCarryOutAction.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "manufacturing",
+    "platform",
+    "inventory"
+  ],
+  "apps": [
+    "Base Application",
+    "Subcontracting"
+  ]
+}

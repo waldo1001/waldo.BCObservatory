@@ -6,21 +6,21 @@
   "title": "microsoft/BCApps releases/29.x (BC29)",
   "url": "https://github.com/microsoft/BCApps/tree/releases/29.x",
   "published_at": null,
-  "state": "published",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-14T00:13:57.336Z",
-      "commit": "229c71f1927eed3c6f5f2cac1e8701b916c315fb",
+      "at": "2026-11-16T00:21:46.286Z",
+      "commit": "9d65b5414f44cbad5890049a1e0490a64118ffdb",
       "branch": "releases/29.x"
     },
     "extracted": {
-      "at": "2026-11-14T00:18:02.899Z",
-      "commit": "229c71f1927eed3c6f5f2cac1e8701b916c315fb",
+      "at": "2026-11-16T00:26:29.843Z",
+      "commit": "9d65b5414f44cbad5890049a1e0490a64118ffdb",
       "w1_objects": 9478,
-      "app_objects": 6954,
+      "app_objects": 6955,
       "files": 9578,
       "parse_errors": 0,
       "countries": {
@@ -152,15 +152,15 @@
       "at": "2026-11-14T00:52:52.627Z"
     }
   },
-  "input_hash": "229c71f1927eed3c6f5f2cac1e8701b916c315fb:x4:cb1a23f6b",
+  "input_hash": "9d65b5414f44cbad5890049a1e0490a64118ffdb:x4:cb1a23f6b",
   "attempts": 0,
   "flags": [],
   "meta": {
     "major": "29",
     "branch": "releases/29.x",
-    "sha": "229c71f1927eed3c6f5f2cac1e8701b916c315fb"
+    "sha": "9d65b5414f44cbad5890049a1e0490a64118ffdb"
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2aede249fb1ff77913dc5ef207366eaa5d2e6b6b92dc28fc8bec0de82b10671c"
+  "output_hash": "9d65b5414f44cbad5890049a1e0490a64118ffdb"
 }

@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/14061",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MAIN] Fix TDS calculation on multi-line purchase invoices (Bug 659187)",
+  "url": "https://github.com/microsoft/BCApps/pull/14061",
+  "published_at": "2026-11-15T14:19:56Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-16T00:19:27.268Z"
+    },
+    "fetched": {
+      "at": "2026-11-16T00:21:08.254Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-16T00:21:22.609Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003569
+    },
+    "linked": {
+      "at": "2026-11-16T00:21:22.747Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-16T00:21:22.868Z",
+      "path": "content/changes/bcapps/14061.md"
+    }
+  },
+  "input_hash": "15e83105f79fc86e3c5793c2bfd4bce08b1d36ad:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14061,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "15e83105f79fc86e3c5793c2bfd4bce08b1d36ad",
+    "author": "v-ajaztabrez",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix tds calculation on multi line purchase invoices bug 659187"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4ed1829b155220edbabe10ba703116d431963c840becb82d229837a94172d0d1"
+}

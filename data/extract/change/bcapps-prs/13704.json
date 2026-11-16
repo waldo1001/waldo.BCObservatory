@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/13704",
+  "number": 13704,
+  "title": "[Subcontracting] Add quantity-ready-to-start tracking for production routing operations",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing",
+    "platform",
+    "inventory"
+  ],
+  "summary": "Production order routing operations now track quantity ready to start, showing how much output from preceding operations is available for the next step. The calculation respects send-ahead quantities and thresholds, and can optionally filter subcontracting worksheet proposals to exclude operations not yet ready.",
+  "key_points": [
+    "New read-only Quantity Ready to Start field on production routing lines",
+    "Calculation respects send-ahead quantities, thresholds, parallel routings and production families",
+    "Readiness maintained during routing calculation, planning, output posting and order reopening",
+    "Optional filter added to Calculate Subcontracts report to exclude unready operations",
+    "New columns hidden by default; subcontracting filter is optional to preserve backward compatibility"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005018,
+    "changes_in_call": 1
+  }
+}

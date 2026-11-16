@@ -1,0 +1,92 @@
+{
+  "item_id": "blog/gerardorenteria-blog/15515",
+  "url": "https://gerardorenteria.blog/2026/11/15/%f0%9f%8c%8d-amount-conversion-to-favorite-currencies-in-business-central/",
+  "title": "🌍 Amount Conversion to Favorite Currencies in Business Central",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-11-15T13:56:14.000Z",
+  "words": 1491,
+  "summary": "An extension that displays amount conversions to user-selected favorite currencies directly within Business Central pages using existing exchange rates. It works on any amount field via drill-down or assist-edit triggers and in factboxes, showing converted amounts with the applicable exchange rate date and factor.",
+  "key_points": [
+    "Users select favorite currencies (e.g. USD, GBP, CHF) and see amounts converted in those currencies without leaving the current page",
+    "The extension uses the standard Currency Exchange Rate table and ApplnExchangeAmtFCYToFCY function, ensuring consistency with BC's posting logic",
+    "Conversions apply the latest exchange rate dated on or before the document date, handle multi-currency triangulation, and round to target currency precision",
+    "The solution provides two UI patterns: OnDrillDown for non-editable fields (like sales orders) and OnAssistEdit for editable fields (like general journals), plus a compact factbox view",
+    "Missing exchange rates display as 0 in red without raising errors, and configuration uses a simple page listing currency codes with order and active status"
+  ],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "multi-currency",
+    "exchange rates",
+    "amount conversion",
+    "page extension",
+    "factbox",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Currency Exchange Rate"
+    },
+    {
+      "type": "table",
+      "name": "GDRGFXFavCurrency"
+    },
+    {
+      "type": "table",
+      "name": "GDRGFXConvBuffer"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRG FX Conv. Mgt."
+    },
+    {
+      "type": "page",
+      "name": "GDRGFXFavCurrencies"
+    },
+    {
+      "type": "page",
+      "name": "GDRGFXConvResult"
+    },
+    {
+      "type": "page",
+      "name": "GDRGFXConvFactbox"
+    },
+    {
+      "type": "permissionset",
+      "name": "GDRGFX"
+    }
+  ],
+  "features": [
+    "Favorite currency conversion",
+    "Multi-currency display",
+    "Drill-down on amounts",
+    "Assist-edit on editable fields",
+    "Factbox integration",
+    "Exchange rate lookup",
+    "Currency triangulation",
+    "Missing rate handling"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "This is not a closed solution. It works for any amount field.",
+      "why_it_matters": "Indicates the extension's flexibility and reusability across different page types and contexts where amount fields exist."
+    },
+    {
+      "text": "If there is no exchange rate, it shows 0 in red and does not raise an error.",
+      "why_it_matters": "Demonstrates graceful error handling that keeps the user interface responsive without disrupting the workflow when exchange data is incomplete."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.01471,
+    "posts_in_call": 1
+  }
+}

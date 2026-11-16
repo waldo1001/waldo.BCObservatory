@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14061",
+  "number": 14061,
+  "title": "[MAIN] Fix TDS calculation on multi-line purchase invoices (Bug 659187)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Codeunit 18694 and TDS use-case configuration fixed to correctly calculate tax-deducted-at-source on multi-line purchase invoices by retaining untaxed amounts from earlier lines when the annual threshold is reached.",
+  "key_points": [
+    "TDS calculation was incorrectly excluding earlier untaxed lines when the cumulative invoice total hit the annual threshold",
+    "The fix preserves line-level TDS bases and ensures all applicable amounts are included in the calculation",
+    "Use-case configuration updated from version 35 to 36 to implement the corrected logic",
+    "Prevents scenarios where only later lines are taxed while earlier amounts are overlooked",
+    "Resolution applies specifically to Indian localization TDS workflows"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Retain earlier untaxed amounts when the annual threshold is reached, while excluding amounts already taxed under the per-contract rule.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003569,
+    "changes_in_call": 1
+  }
+}

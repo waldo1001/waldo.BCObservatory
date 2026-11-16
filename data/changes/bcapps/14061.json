@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14061,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14061",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-15T14:19:56Z",
+  "merge_commit_sha": "15e83105f79fc86e3c5793c2bfd4bce08b1d36ad",
+  "author": "v-ajaztabrez",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[MAIN] Fix TDS calculation on multi-line purchase invoices (Bug 659187)",
+  "body_hash": "8ec67edc710a177369f609674fda5e5fbc3157f8338510b2a93f6d26899dfbad",
+  "fixes_issues": [],
+  "work_items": [
+    659187
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/IN/INTDS/app/.resources/TDSUseCases/a8e114bf-f8cd-44db-a2b3-614bc18f4442.json",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 10,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/IN/INTDS/app/TDSBase/src/TaxEngineSetup/TDSTaxConfiguration.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 45,
+    "deletions": 11,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/IN/INTDS/app/TDSBase/src/TaxEngineSetup/TDSTaxConfiguration.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/18694",
+        "type": "codeunit",
+        "id": 18694,
+        "name": "TDS Tax Configuration",
+        "app": "INTDS",
+        "cc": "in",
+        "page": "codeunit/18694-in"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "INTDS"
+  ]
+}

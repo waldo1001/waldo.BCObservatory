@@ -6,14 +6,39 @@
   "title": "[Subcontracting] Add quantity-ready-to-start tracking for production routing operations",
   "url": "https://github.com/microsoft/BCApps/pull/13704",
   "published_at": "2026-11-13T11:49:35Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-14T00:13:17.671Z"
+    },
+    "fetched": {
+      "at": "2026-11-16T00:21:08.464Z",
+      "change_class": "code",
+      "files": 22,
+      "al": 18,
+      "objects": 15,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-11-16T00:21:22.881Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005018
+    },
+    "linked": {
+      "at": "2026-11-16T00:21:23.025Z",
+      "objects": 15,
+      "unjoined": 3,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-16T00:21:23.155Z",
+      "path": "content/changes/bcapps/13704.md"
     }
   },
   "input_hash": "0c493a2746cc0729fe29aa3d4344f329899b5670:c1",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13704,
@@ -33,6 +58,7 @@
     "community_contribution": true,
     "title_key": "subcontracting add quantity ready to start tracking for production routing operations"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-15T04:20:17.241Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6a21f77b5eed10b906d87b4eea61718ab9a8b34ae75e8518c06f43dff678dad1"
 }
