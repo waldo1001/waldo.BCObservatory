@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-sell-products",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.090Z",
-      "blob": "13ca54146f31de6d6b9e48ccf7406d53e4fa531a",
+      "at": "2026-11-17T00:25:34.533Z",
+      "blob": "3d5f1718ce76abf7c053ec56bc49e7abbaec441b",
       "words": 1716,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T18:42:25.329Z",
+      "at": "2026-11-17T00:25:39.585Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.008244
+      "objects": 7,
+      "cost_usd": 0.011087
     },
     "summarized": {
-      "at": "2026-10-06T18:42:25.346Z",
+      "at": "2026-11-17T00:25:39.586Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:42:25.347Z",
+      "at": "2026-11-17T00:25:39.587Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:42:25.348Z",
+      "at": "2026-11-17T00:25:39.588Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-how-sell-products.md",
     "description": "Describes how to create a sales order to record your agreement with a customer to sell or trade products under specific terms.",
-    "ms_date": "2026-04-07",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -78,5 +78,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0d9a8203b38788b3417588f17d82ece8943be45cbf5414379e4ae82af9cd0fa2"
+  "output_hash": "91d753fc1bc987d6e3491cd4ae2c3cc398c5e002e271b0018351153eaa2d243e"
 }

@@ -2,20 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-how-process-sales-returns-cancellations.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-process-sales-returns-cancellations",
   "title": "Process sales returns or cancellations",
-  "blob": "32a275290884255cc72d8b6325076448649d62e3",
-  "summary": "Creating and processing sales returns or cancellations by creating sales credit memos or sales return orders, including handling partial returns, item charges, and combining return receipts.",
+  "blob": "ad0462877804ab2fe1a568978209ebcdd0eb13a9",
+  "summary": "Process sales returns or cancellations by creating sales credit memos or sales return orders to reverse customer transactions and handle refunds, with options for combining multiple returns and maintaining accurate inventory valuation.",
   "systems": [
     "sales",
-    "inventory"
+    "inventory",
+    "finance"
   ],
   "topics": [
     "sales returns",
-    "credit memo",
-    "return order",
-    "cancellation",
-    "refund",
-    "item charges",
-    "inventory costing"
+    "credit memos",
+    "sales cancellations",
+    "inventory costing",
+    "customer refunds",
+    "return orders"
   ],
   "objects": [
     {
@@ -36,11 +36,11 @@
     },
     {
       "type": "page",
-      "name": "Combine Return Receipts"
+      "name": "Customer Card"
     },
     {
       "type": "page",
-      "name": "Delete Invoiced Sales Return Orders"
+      "name": "Combine Return Receipts"
     },
     {
       "type": "page",
@@ -48,22 +48,22 @@
     },
     {
       "type": "page",
-      "name": "Sales & Receivables Setup"
+      "name": "Delete Invoiced Sales Return Orders"
     },
     {
       "type": "page",
-      "name": "Customer Card"
+      "name": "Sales & Receivables Setup"
     }
   ],
   "features": [
-    "Sales credit memos",
-    "Sales return orders",
-    "Correct and cancel actions",
-    "Copy document",
-    "Get return receipt lines",
-    "Combine return receipts",
-    "Exact cost reversing",
-    "Item charges"
+    "sales credit memos",
+    "sales return orders",
+    "copy document",
+    "apply entries",
+    "combine return receipts",
+    "exact cost reversing",
+    "item charges",
+    "post and send"
   ],
   "versions": [],
   "parts": 1,
@@ -72,8 +72,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.01132,
-      "pages_in_call": 2
+      "cost_usd": 0.010907,
+      "pages_in_call": 1
     }
   ]
 }

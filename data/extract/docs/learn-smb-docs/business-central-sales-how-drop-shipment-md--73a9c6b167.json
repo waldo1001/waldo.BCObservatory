@@ -2,23 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-how-drop-shipment.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-drop-shipment",
   "title": "Make drop shipments",
-  "blob": "41d411c65e97dc81488a912186d91aba73c2791b",
-  "summary": "Explains how to set up and process drop shipments where vendors ship directly to customers from sales orders. Use this for direct vendor-to-customer delivery workflows.",
+  "blob": "c50a01ca68f29fef58144442ae8804b5584b3d45",
+  "summary": "Drop shipments allow vendors to ship items directly to customers from sales orders. The page explains how to create sales orders and purchase orders for drop shipments, link them together, and post the shipments.",
   "systems": [
     "sales",
-    "purchasing"
+    "purchasing",
+    "inventory"
   ],
   "topics": [
-    "drop shipments",
-    "direct shipment",
-    "vendor orders",
-    "sales orders",
-    "purchase orders"
+    "drop shipment",
+    "sales order",
+    "purchase order",
+    "vendor",
+    "customer",
+    "shipment",
+    "order linking"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Order"
     },
     {
       "type": "page",
@@ -42,13 +49,14 @@
     }
   ],
   "features": [
-    "drop shipment sales orders",
-    "drop shipment purchase orders",
-    "vendor selection",
-    "purchase order creation",
-    "order planning integration",
-    "posted drop shipment reversal",
-    "shipment posting"
+    "Drop Shipment checkbox",
+    "Purchasing Code field",
+    "Drop Shipment action",
+    "Get Sales Order action",
+    "Create Purchase Orders action",
+    "Carry Out Action Message action",
+    "Calculate Plan action",
+    "Undo Shipment action"
   ],
   "versions": [],
   "parts": 1,
@@ -57,8 +65,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004703,
-      "pages_in_call": 8
+      "cost_usd": 0.004824,
+      "pages_in_call": 1
     }
   ]
 }

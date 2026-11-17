@@ -1,0 +1,27 @@
+{
+  "video_id": "7lxkboRGw28",
+  "item_id": "video/yt-areopa/7lxkboRGw28",
+  "summary": "Deploying and embedding Microsoft's free Business Central Power BI apps from AppSource with no coding: workspace setup, Pro licensing, connecting data with OAuth 2, assisted setup, semantic model edits, multi-company installs, and Business Central mirroring to Fabric (29.1 and later).",
+  "overview": "A webinar for non-developers on deploying the free Microsoft Power BI apps for Business Central (SaaS only). It covers creating a Power BI workspace, the license tiers (Pro with 8 refreshes a day, Premium with 48), installing template apps, and connecting them to a company using the environment and company names with OAuth 2.\n\nThe session then covers the assisted setup wizard, date tables, account category mapping, editing the semantic model in Power BI Desktop and updating the app, and installing once per company. It closes with Business Central mirroring to Fabric, which needs a paid Fabric capacity, plus Fabric-ready apps and MCP with Copilot for report building.",
+  "key_points": [
+    "The free Microsoft apps (nine at the time of the session) are for SaaS Business Central. The presenter does not believe they work for on-premises NAV. App version must match the Business Central version.",
+    "A workspace must exist and the apps must be installed in it before connecting. Workspace roles are administrator, contributor, member and viewer. Renaming a workspace breaks links and requires reconnecting.",
+    "Power BI Pro allows 8 refreshes a day and Premium 48. Consumers also need Pro, and the free trial lasts 60 days. Publishing changes from Power BI Desktop needs Pro.",
+    "To connect data, enter the exact environment name and company name (from the URL or Help and Support) and use OAuth 2. Use an email that matches the Business Central login domain. A yellow bar shows the app is not connected.",
+    "With several companies, install and connect the app once per company, each with its own workspace name. Fabric mirroring allows one app with a company switch.",
+    "Map Business Central account subcategories to the Power BI account categories. Edit the semantic model in the workspace (download the semantic model, not the report), publish, then update the app, which takes about 5 to 15 minutes.",
+    "Mirroring to Fabric is on Business Central 29.1 and later, not 28.5. It needs paid Fabric capacity (F2 is about $250 a month, guidance $300-500). It has no multicurrency support, and the licensing was not final."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "bdb48bf2afaae5dd61a19784f4921cf74c464e2081f1bc58162b65350383fca6",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.039166400000000004
+  }
+}

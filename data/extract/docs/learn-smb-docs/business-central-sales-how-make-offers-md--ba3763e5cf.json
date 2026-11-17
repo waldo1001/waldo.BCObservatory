@@ -2,34 +2,49 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-how-make-offers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-make-offers",
   "title": "Make sales quotes",
-  "blob": "3ae0aa12565959476cb1b9f42bb8dea43d989101",
-  "summary": "Explains how to create and manage sales quotes, including converting them to sales orders or invoices. Use this when making offers to customers and prospects.",
+  "blob": "d492921d14885e4247d03e86a4ef25c2b30a2dcf",
+  "summary": "Create and manage sales quotes to record your offer to customers or prospects, including line items, discounts, and email delivery. Convert accepted quotes to sales orders or invoices to process the sale.",
   "systems": [
-    "sales"
+    "sales",
+    "crm",
+    "copilot"
   ],
   "topics": [
     "sales quotes",
-    "offers",
-    "sales orders",
-    "contact management",
-    "discounts"
+    "quote management",
+    "customer negotiation",
+    "quote conversion",
+    "sales order agent",
+    "email delivery"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Sales Quotes"
+    },
+    {
+      "type": "page",
+      "name": "Sales Quote"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Send Email"
     }
   ],
   "features": [
-    "quote creation",
-    "quote to order conversion",
-    "quote to invoice conversion",
-    "contact quotes",
-    "customer templates",
-    "email sending",
-    "invoice discounts",
-    "quote validity calculation",
-    "sales order agent"
+    "Create sales quotes",
+    "Contact and customer management",
+    "Line items with pricing and discounts",
+    "Invoice discounts",
+    "Quote validity calculation",
+    "Email delivery",
+    "Quote-to-order conversion",
+    "Quote-to-invoice conversion",
+    "Sales Order Agent"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004703,
-      "pages_in_call": 8
+      "cost_usd": 0.005554,
+      "pages_in_call": 1
     }
   ]
 }

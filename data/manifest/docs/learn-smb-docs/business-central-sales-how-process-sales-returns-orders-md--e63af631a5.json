@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-process-sales-returns-orders",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.912Z",
-      "blob": "52f8f0581bb2224d323f2dc2b52119c8cab08198",
-      "words": 1472,
+      "at": "2026-11-17T00:25:32.444Z",
+      "blob": "4a35668180d3204568f103af7f345105a7de6100",
+      "words": 1471,
       "forms": 10
     },
     "extracted": {
-      "at": "2026-10-06T19:09:43.886Z",
+      "at": "2026-11-17T00:25:37.634Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.003715
+      "objects": 4,
+      "cost_usd": 0.005608
     },
     "summarized": {
-      "at": "2026-10-06T19:09:51.107Z",
+      "at": "2026-11-17T00:25:37.635Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:09:51.108Z",
+      "at": "2026-11-17T00:25:37.635Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:09:51.110Z",
+      "at": "2026-11-17T00:25:37.636Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-how-process-sales-returns-orders.md",
     "description": "Describes how to create a sales return order to process a return, cancellation, or reimbursement for items or services you have been received payment for.",
-    "ms_date": "2024-03-05",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -106,11 +106,11 @@
       "order"
     ],
     "ai_usage": null,
-    "words": 1472,
+    "words": 1471,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a2c6d4ca562d1de8ebef14ad129ccedac824030ef06bdb57276ef03565cf4bee"
+  "output_hash": "8b21715ff780028c1bbac4d6aab576a0cb4de06cfd8e57c5a2263557b5b314f1"
 }

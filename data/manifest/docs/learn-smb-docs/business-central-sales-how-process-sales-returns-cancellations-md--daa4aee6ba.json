@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-process-sales-returns-cancellations",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.326Z",
-      "blob": "32a275290884255cc72d8b6325076448649d62e3",
-      "words": 1734,
+      "at": "2026-11-17T00:25:28.741Z",
+      "blob": "ad0462877804ab2fe1a568978209ebcdd0eb13a9",
+      "words": 1735,
       "forms": 10
     },
     "extracted": {
-      "at": "2026-10-06T18:42:56.732Z",
+      "at": "2026-11-17T00:25:34.500Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 9,
-      "cost_usd": 0.01132
+      "cost_usd": 0.010907
     },
     "summarized": {
-      "at": "2026-10-06T18:43:02.690Z",
+      "at": "2026-11-17T00:25:34.501Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:43:02.692Z",
+      "at": "2026-11-17T00:25:34.502Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:43:02.693Z",
+      "at": "2026-11-17T00:25:34.502Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-how-process-sales-returns-cancellations.md",
     "description": "Describes how to create a sales credit memo to process a return, cancellation, or reimbursement for items or services you received payment for.",
-    "ms_date": "2026-04-07",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -105,11 +105,11 @@
       "return"
     ],
     "ai_usage": null,
-    "words": 1734,
+    "words": 1735,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c537f4988ff8384b1a1ba7b5430d0808a5e59cdc6af6bcf37e87d76af4953561"
+  "output_hash": "ae27a50d739e62ac204457abc0835f8dd592543e95397b1e9c4d9c7ab13100f1"
 }

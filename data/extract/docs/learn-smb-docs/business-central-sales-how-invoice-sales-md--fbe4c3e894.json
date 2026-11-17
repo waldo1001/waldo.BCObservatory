@@ -2,19 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-how-invoice-sales.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-invoice-sales",
   "title": "Invoice sales",
-  "blob": "a1e3746e4b5b8d5c0968b6753fbdcd288c779e9b",
-  "summary": "Sales invoicing is used to record agreements with customers to sell products with specified delivery and payment terms. Create sales invoices when customers decide to buy, post to create ledger entries, and email as PDF or register payments through various methods.",
+  "blob": "005e2cac8944f6b235df26c5eba8cd49966b43d2",
+  "summary": "Create and manage sales invoices to record sales agreements with customers, including posting, payment registration, and correction of invoices. Use this to invoice customers for products and services, and register payments through various methods.",
   "systems": [
     "sales",
-    "finance"
+    "finance",
+    "integration"
   ],
   "topics": [
     "sales invoices",
-    "sales orders",
-    "customer payments",
+    "customer invoicing",
     "payment registration",
+    "sales orders",
+    "payment methods",
     "invoice discounts",
-    "recurring sales"
+    "credit memos"
   ],
   "objects": [
     {
@@ -23,22 +25,26 @@
     },
     {
       "type": "page",
+      "name": "Sales Invoice"
+    },
+    {
+      "type": "page",
       "name": "Posted Sales Invoices"
     },
     {
       "type": "page",
-      "name": "Sales Invoice"
+      "name": "Customer Statistics FactBox"
     }
   ],
   "features": [
     "Create sales invoices",
-    "Post and send documents",
-    "Payment method selection",
-    "Invoice discounts",
-    "Item types (Inventory, Service, Non-Inventory)",
+    "Post and send invoices",
+    "Invoice discount calculation",
+    "Payment method code setup",
     "Recurring sales lines",
-    "Email as PDF",
-    "Payment reconciliation"
+    "Email document sending",
+    "Payment service integration",
+    "Customer payment reconciliation"
   ],
   "versions": [],
   "parts": 1,
@@ -47,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00737,
-      "pages_in_call": 6
+      "cost_usd": 0.010385,
+      "pages_in_call": 1
     }
   ]
 }

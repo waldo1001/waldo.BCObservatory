@@ -2,19 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-how-register-new-customers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-register-new-customers",
   "title": "Register new customers by creating a Customer Card",
-  "blob": "139a74e2f076b8ad2158d06ef7acd189bfc6f172",
-  "summary": "Register new customers by creating customer cards with required information, set up customer templates for efficiency, manage credit limits to control risk, and assign salespeople to ship-to addresses for accurate sales tracking.",
+  "blob": "40e2ffa2358eef09ed5fea5ebf9732dca3d1ea7a",
+  "summary": "Register new customers by creating customer cards with predefined information, managing credit limits, and assigning salespeople to optimize sales tracking and resource allocation.",
   "systems": [
     "sales",
     "crm"
   ],
   "topics": [
     "customer registration",
-    "customer cards",
-    "customer templates",
+    "customer card",
     "credit limits",
-    "salesperson assignment",
-    "ship-to addresses"
+    "sales setup",
+    "templates",
+    "salesperson assignment"
   ],
   "objects": [
     {
@@ -32,16 +32,20 @@
     {
       "type": "page",
       "name": "Ship-to Address"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
     }
   ],
   "features": [
-    "Customer card creation",
-    "Customer templates",
-    "Credit limit management",
-    "Overdue balance warnings",
-    "Salesperson assignment by ship-to address",
-    "Dimension templates",
-    "Alternate shipping addresses"
+    "customer card creation",
+    "customer templates",
+    "credit limit management",
+    "credit warnings",
+    "salesperson assignment",
+    "ship-to address",
+    "prices and discounts"
   ],
   "versions": [],
   "parts": 1,
@@ -50,8 +54,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00737,
-      "pages_in_call": 6
+      "cost_usd": 0.004723,
+      "pages_in_call": 1
     }
   ]
 }

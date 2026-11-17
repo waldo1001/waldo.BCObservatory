@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-set-up-shipment-methods",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.916Z",
-      "blob": "b0de28cb67595119e4b8f75428ab9c6732d995a7",
+      "at": "2026-11-17T00:25:37.937Z",
+      "blob": "12404ddc8f68ff08e0230926a3ce3d1f0afd3cb9",
       "words": 236,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:09:43.888Z",
+      "at": "2026-11-17T00:25:53.540Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003715
+      "cost_usd": 0.003289
     },
     "summarized": {
-      "at": "2026-10-06T19:09:51.111Z",
+      "at": "2026-11-17T00:25:53.555Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:09:51.112Z",
+      "at": "2026-11-17T00:25:53.556Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:09:51.114Z",
+      "at": "2026-11-17T00:25:53.559Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-how-set-up-shipment-methods.md",
     "description": "You can set up a code for each of your offered shipment methods, and enter information about them.",
-    "ms_date": "2021-04-01",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -69,5 +69,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b37537c34a8679a0cc1799dfdb464dd671c83693b3eef40cac1fd4d19bbd8bd5"
+  "output_hash": "c52e90382f4aa7b7c30476bc663142f50d950b4b8f68bbda7aa10c873f4e65fd"
 }

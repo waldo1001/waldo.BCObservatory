@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-drop-shipment",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.436Z",
-      "blob": "41d411c65e97dc81488a912186d91aba73c2791b",
+      "at": "2026-11-17T00:25:23.461Z",
+      "blob": "c50a01ca68f29fef58144442ae8804b5584b3d45",
       "words": 906,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:43:51.913Z",
+      "at": "2026-11-17T00:25:28.511Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 6,
-      "cost_usd": 0.004703
+      "objects": 7,
+      "cost_usd": 0.004824
     },
     "summarized": {
-      "at": "2026-10-06T18:43:58.006Z",
+      "at": "2026-11-17T00:25:28.514Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:43:58.007Z",
+      "at": "2026-11-17T00:25:28.516Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:43:58.008Z",
+      "at": "2026-11-17T00:25:28.517Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-how-drop-shipment.md",
     "description": "Describes how to create a sales order linked to a purchase order to enable shipment directly from the vendor to the customer.",
-    "ms_date": "2026-03-05",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "97b592adfe73e491bde2acafd8385f87b0044861677b60bb6dd4d87ec089c0b2"
+  "output_hash": "844d3dccee5079c50d6836388efc3586efe41d54bdc809f48ad7b7b47f7c06e7"
 }

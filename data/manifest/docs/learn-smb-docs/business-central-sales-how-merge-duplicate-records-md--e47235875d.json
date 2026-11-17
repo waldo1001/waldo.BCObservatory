@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-28T08:59:11.491Z",
-      "blob": "3236bdd04d82528ac7e234fbbbb580323390aeab",
+      "at": "2026-11-17T00:25:28.551Z",
+      "blob": "0217372b61b91fc24a2dfa3864595a8a46b247b0",
       "words": 750,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-28T08:59:28.325Z",
+      "at": "2026-11-17T00:25:28.680Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.004296
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-10-28T08:59:28.326Z",
+      "at": "2026-11-17T00:25:28.682Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-28T08:59:28.327Z",
+      "at": "2026-11-17T00:25:28.682Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-28T08:59:28.328Z",
+      "at": "2026-11-17T00:25:28.683Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-how-merge-duplicate-records.md",
     "description": "Merge duplicate customer, vendor, or contact records in Business Central, choose which field values to keep, and resolve conflicts in related records.",
-    "ms_date": "2026-10-22",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6a9a41b15af065dc3719f44708e2057654d8ef27f086b858c5b3132fed17fa1d"
+  "output_hash": "86acf9254a686ebd4d7bf9cc730c5c03f55300b9240b7a8a2dbe4f41b9516738"
 }

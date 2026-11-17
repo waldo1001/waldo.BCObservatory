@@ -2,19 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/receivables-how-set-up-payment-application-rules.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-set-up-payment-application-rules",
   "title": "Rules for automatic application of payments",
-  "blob": "c7f5b1d4ef878b5ba878961b0340ef867b171d3e",
-  "summary": "How to set up rules for automatic application of payments to define matching criteria between payment bank transactions and open invoices. Use this to control how payments are automatically matched.",
+  "blob": "c47c121b79331b2d3f78c3e014f49b666199eb4c",
+  "summary": "Rules for automatic application of payments control how payment text is automatically matched with open invoices and credit memos during bank reconciliation. Set up matching criteria by related party information, document numbers, and amount tolerance to govern automatic payment application.",
   "systems": [
     "sales",
-    "finance",
-    "purchasing"
+    "finance"
   ],
   "topics": [
-    "payment application rules",
-    "automatic matching",
-    "match confidence",
-    "related party matching",
-    "amount tolerance"
+    "payment reconciliation",
+    "automatic application",
+    "matching rules",
+    "accounts receivable",
+    "bank reconciliation"
   ],
   "objects": [
     {
@@ -24,15 +23,21 @@
     {
       "type": "page",
       "name": "Payment Reconciliation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Payment Application Review"
     }
   ],
   "features": [
-    "payment application rules",
-    "match confidence levels",
-    "priority sorting",
-    "related party matching",
-    "document number matching",
-    "amount tolerance"
+    "Match Confidence levels",
+    "Priority ordering",
+    "Related Party matching",
+    "Document number matching",
+    "Amount tolerance",
+    "Review requirements",
+    "Automatic payment application",
+    "Payment text matching"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005593,
-      "pages_in_call": 7
+      "cost_usd": 0.004598,
+      "pages_in_call": 1
     }
   ]
 }

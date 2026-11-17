@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-review-apply-payments-auto-application",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T14:21:24.400Z",
+      "at": "2026-11-17T00:24:59.829Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.007242
+      "objects": 5,
+      "cost_usd": 0.004601
     },
     "summarized": {
-      "at": "2026-10-06T14:21:24.406Z",
+      "at": "2026-11-17T00:24:59.830Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:21:24.406Z",
+      "at": "2026-11-17T00:24:59.830Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:21:24.406Z",
+      "at": "2026-11-17T00:24:59.831Z",
       "page": false
     }
   },
@@ -77,5 +77,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a14bb704b12e1a6e902ca31e6bf20c837c289538"
+  "output_hash": "61b0f3bf1b8093dbcafc1db578581a99abd28a67e7034695da337941c0279464"
 }

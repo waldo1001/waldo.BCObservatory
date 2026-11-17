@@ -2,17 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-how-send-partial-shipments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-send-partial-shipments",
   "title": "Process partial shipments",
-  "blob": "2a889896975d52f7643b716eece99994f0ffb69e",
-  "summary": "Partial shipments allow customers to receive orders in multiple installments instead of all at once. Configure the Shipping Advice field on the Customer Card to enable or restrict partial shipments for each customer.",
+  "blob": "95fe5a636d7abdf077b36d4286394ece77718818",
+  "summary": "Process partial shipments allows shipping orders in multiple batches rather than all at once. Configure the Shipping Advice field on the Customer Card to control whether partial shipments are accepted.",
   "systems": [
     "sales",
     "warehouse"
   ],
   "topics": [
     "partial shipments",
-    "customer card",
-    "shipping advice",
-    "sales orders"
+    "sales orders",
+    "shipping",
+    "customer configuration",
+    "shipping advice"
   ],
   "objects": [
     {
@@ -21,8 +22,10 @@
     }
   ],
   "features": [
-    "Shipping Advice field",
     "Partial shipments",
+    "Shipping Advice field",
+    "Complete shipment option",
+    "Qty. to Ship field",
     "Multiple shipments per order"
   ],
   "versions": [],
@@ -32,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002502,
-      "pages_in_call": 8
+      "cost_usd": 0.003214,
+      "pages_in_call": 1
     }
   ]
 }

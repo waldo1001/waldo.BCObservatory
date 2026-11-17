@@ -2,23 +2,25 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-how-process-sales-returns-orders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-process-sales-returns-orders",
   "title": "Process sales return orders",
-  "blob": "52f8f0581bb2224d323f2dc2b52119c8cab08198",
-  "summary": "Processing sales return orders with automatic creation of credit memos and related documents. Includes creating replacement sales orders, purchase return orders, and adding restock charges.",
+  "blob": "4a35668180d3204568f103af7f345105a7de6100",
+  "summary": "Sales return orders provide controlled handling of product returns with warehouse document support and multi-document overviews. The process includes creating return orders from posted sales documents, applying credit memos, generating replacement orders, and charging restock fees.",
   "systems": [
     "sales",
-    "purchasing"
+    "inventory",
+    "warehouse"
   ],
   "topics": [
     "sales returns",
     "credit memos",
-    "return orders",
     "replacement orders",
-    "restock charges"
+    "cost reversing",
+    "item charges",
+    "return processing"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Sales Return Order"
+      "name": "Sales Return Orders"
     },
     {
       "type": "page",
@@ -27,15 +29,21 @@
     {
       "type": "page",
       "name": "Move Negative Sales Lines"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order"
     }
   ],
   "features": [
-    "sales return order",
-    "get posted document lines",
-    "create replacement order",
-    "create return-related documents",
-    "restock charge",
-    "item charges"
+    "Get Posted Document Lines to Reverse",
+    "Copy Document function",
+    "Show Reversible Lines Only filter",
+    "Exact Cost Reversing",
+    "Create Return-Related Documents",
+    "Move Negative Lines",
+    "Restock charge posting",
+    "Item tracking for returns"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003715,
-      "pages_in_call": 8
+      "cost_usd": 0.005608,
+      "pages_in_call": 1
     }
   ]
 }

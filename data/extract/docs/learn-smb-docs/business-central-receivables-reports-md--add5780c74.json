@@ -2,10 +2,11 @@
   "item_id": "docs/learn-smb-docs/business-central/receivables-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-reports",
   "title": "Accounts receivable analytics",
-  "blob": "86ee946252cc115ca1351427d8f394c73aec6f2d",
-  "summary": "Accounts Receivable Analytics offers Power BI reports, Data Analysis tools, and standard reports to help manage customer receivables and analyze collection metrics.",
+  "blob": "844994b23fee5307daf4bc8e429b43f4fae65eae",
+  "summary": "Accounts receivable analytics help manage what customers owe using Power BI reports, Data Analysis tools, and standard reports in Business Central.",
   "systems": [
     "finance",
+    "sales",
     "reporting"
   ],
   "topics": [
@@ -13,14 +14,31 @@
     "analytics",
     "power bi",
     "data analysis",
-    "collections"
+    "customer ledger",
+    "collections",
+    "aged receivables"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Average Collection Period"
+    },
+    {
+      "type": "page",
+      "name": "Aged Receivables (Back Dating)"
+    }
+  ],
   "features": [
-    "Power BI reports",
+    "Power BI finance app",
     "Data Analysis",
-    "Average Collection Period",
-    "Aged Receivables"
+    "Average Collection Period report",
+    "Aged Receivables (Back Dating) report",
+    "Report Explorer",
+    "custom report design"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003335,
-      "pages_in_call": 8
+      "cost_usd": 0.003629,
+      "pages_in_call": 1
     }
   ]
 }

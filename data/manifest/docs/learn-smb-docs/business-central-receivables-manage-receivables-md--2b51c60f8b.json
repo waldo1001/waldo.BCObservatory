@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-manage-receivables",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.968Z",
-      "blob": "5b935dee077f19eb53ac4faf7c4de14f0e4b2f1b",
+      "at": "2026-11-17T00:24:59.808Z",
+      "blob": "8539f11fd482f888629c7be3354c3542ad6d8d78",
       "words": 660,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:43:19.019Z",
+      "at": "2026-11-17T00:25:20.041Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.004095
+      "objects": 6,
+      "cost_usd": 0.00471
     },
     "summarized": {
-      "at": "2026-10-06T19:43:20.856Z",
+      "at": "2026-11-17T00:25:20.042Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:20.857Z",
+      "at": "2026-11-17T00:25:20.043Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:20.858Z",
+      "at": "2026-11-17T00:25:20.044Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/receivables-manage-receivables.md",
     "description": "This article outlines tasks to manage receivables and apply payments to customer or vendor ledger entries.",
-    "ms_date": "2024-07-08",
+    "ms_date": "2026-11-16",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1e577f2ed89edf45a19776054dd5a723714d441d5402e08c6ba4888eeda04c30"
+  "output_hash": "087fef07562bcc4558ae8bddcc302015b2c2ec10b925c979e312dcea3a38386a"
 }

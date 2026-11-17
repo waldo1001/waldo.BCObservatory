@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-setup-document-send-profiles",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.920Z",
-      "blob": "1bbdd1c033613c48dca416a135f8dc01d68d6ced",
+      "at": "2026-11-17T00:25:38.683Z",
+      "blob": "5d8196ad493c48ae4db9d6e8b21c482c14ccf50c",
       "words": 268,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:09:43.889Z",
+      "at": "2026-11-17T00:25:53.629Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.003715
+      "objects": 3,
+      "cost_usd": 0.003297
     },
     "summarized": {
-      "at": "2026-10-06T19:09:51.115Z",
+      "at": "2026-11-17T00:25:53.630Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:09:51.116Z",
+      "at": "2026-11-17T00:25:53.631Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:09:51.117Z",
+      "at": "2026-11-17T00:25:53.632Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-how-setup-document-send-profiles.md",
     "description": "Describes how to set up each customer's preferred method of sending sales documents, for example, email, PDF, electronic document, and so on.",
-    "ms_date": "2021-04-01",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -60,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "df3bfda18236e9ffd3fdcb9c0576b08822fde8629a3e8a9cf70a8dc8cd64c1d2"
+  "output_hash": "710a954acdd7704d9d19d6a9bc98458afcd5d5eadb1ee6c29dc26030fe532194"
 }

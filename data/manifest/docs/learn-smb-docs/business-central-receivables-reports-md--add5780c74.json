@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-reports",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.610Z",
-      "blob": "86ee946252cc115ca1351427d8f394c73aec6f2d",
+      "at": "2026-11-17T00:25:01.428Z",
+      "blob": "844994b23fee5307daf4bc8e429b43f4fae65eae",
       "words": 202,
       "forms": 13
     },
     "extracted": {
-      "at": "2026-10-06T14:10:27.799Z",
+      "at": "2026-11-17T00:25:23.188Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003335
+      "objects": 3,
+      "cost_usd": 0.003629
     },
     "summarized": {
-      "at": "2026-10-06T14:10:27.808Z",
+      "at": "2026-11-17T00:25:23.193Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:10:27.808Z",
+      "at": "2026-11-17T00:25:23.194Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:10:27.808Z",
+      "at": "2026-11-17T00:25:23.195Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/receivables-reports.md",
     "description": "Explore the reports and analytics in the standard version of Business Central that can help you track your accounts receivable.",
-    "ms_date": "2026-09-18",
+    "ms_date": "2026-11-16",
     "ms_topic": "article",
     "search_form": [
       {
@@ -124,5 +124,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "01837950d91881e4c1d3d5d0072b9b1fa15a96a2f982b42d61eb950f6f1482b8"
+  "output_hash": "a4fa28a007bf58ccb9b5f8465a4d695ca821e0a47bdf32a6ff7364f05d8b2d57"
 }

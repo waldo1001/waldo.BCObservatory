@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-correct-cancel-sales-invoice",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.899Z",
-      "blob": "cf7812307e6c171bf80b29fc242e9a9bbc1497b9",
+      "at": "2026-11-17T00:25:23.441Z",
+      "blob": "625eb7933b59cf4dc73f4e795289e81f34a9b7c7",
       "words": 758,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:09:43.883Z",
+      "at": "2026-11-17T00:25:28.007Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003715
+      "cost_usd": 0.004364
     },
     "summarized": {
-      "at": "2026-10-06T19:09:43.891Z",
+      "at": "2026-11-17T00:25:28.008Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:09:43.893Z",
+      "at": "2026-11-17T00:25:28.009Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:09:43.894Z",
+      "at": "2026-11-17T00:25:28.009Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-how-correct-cancel-sales-invoice.md",
     "description": "This article describes how to correct, undo, or cancel a posted sales invoice and apply a sales credit memo.",
-    "ms_date": "2025-06-10",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -60,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fb4a7ee32a54cb8d9b0874698b76354617947bc16a274b932ad3cd3e1770844e"
+  "output_hash": "64278765ada6af063d77c740538da96cd81665852a9ab0d787d659243ae54220"
 }

@@ -2,33 +2,61 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-how-sell-products.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-sell-products",
   "title": "Create a customer sales order and sell products",
-  "blob": "13ca54146f31de6d6b9e48ccf7406d53e4fa531a",
-  "summary": "Create and process customer sales orders for selling products, including partial shipments, drop shipments, and payment processing with options to copy existing orders.",
+  "blob": "3d5f1718ce76abf7c053ec56bc49e7abbaec441b",
+  "summary": "Create and manage customer sales orders for selling products when partial shipments or drop shipments are required, with options for immediate payment and document sending.",
   "systems": [
     "sales",
+    "warehouse",
     "inventory"
   ],
   "topics": [
     "sales orders",
-    "product sales",
+    "shipping",
     "invoicing",
-    "shipments",
     "payment methods",
+    "partial shipments",
     "drop shipments"
   ],
   "objects": [
     {
       "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
       "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Sales Prices and Sales Line Discounts"
+    },
+    {
+      "type": "page",
+      "name": "Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
     }
   ],
   "features": [
-    "sales order creation",
     "partial shipments",
     "drop shipments",
+    "payment method codes",
+    "payment services",
+    "cash customers",
     "recurring sales lines",
+    "line discounts",
     "invoice discounts",
-    "payment service integration",
+    "document sending",
     "copy document"
   ],
   "versions": [],
@@ -38,8 +66,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008244,
-      "pages_in_call": 7
+      "cost_usd": 0.011087,
+      "pages_in_call": 1
     }
   ]
 }

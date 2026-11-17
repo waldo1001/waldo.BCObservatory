@@ -2,17 +2,17 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-how-correct-cancel-sales-invoice.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-correct-cancel-sales-invoice",
   "title": "Correct or cancel a posted sales invoice",
-  "blob": "cf7812307e6c171bf80b29fc242e9a9bbc1497b9",
-  "summary": "Correcting or canceling unpaid posted sales invoices before shipment is complete. Use the Cancel action to automatically create a reversing credit memo, or the Correct action to create a new invoice and credit memo.",
+  "blob": "625eb7933b59cf4dc73f4e795289e81f34a9b7c7",
+  "summary": "Correcting or canceling unpaid posted sales invoices involves canceling the original invoice and automatically creating a corrective sales credit memo, or creating a new corrected invoice. This applies to unpaid invoices that haven't been fully shipped.",
   "systems": [
     "sales"
   ],
   "topics": [
     "sales invoices",
-    "corrections",
-    "cancellations",
     "credit memos",
-    "posted documents"
+    "invoice cancellation",
+    "invoice correction",
+    "returns and cancellations"
   ],
   "objects": [
     {
@@ -25,11 +25,13 @@
     }
   ],
   "features": [
-    "cancel posted invoice",
-    "correct posted invoice",
-    "create corrective credit memo",
-    "reverse posted invoice",
-    "partial invoice posting"
+    "Cancel action",
+    "Correct action",
+    "Create Corrective Credit Memo",
+    "Canceled field",
+    "Paid field",
+    "Corrective credit memo automation",
+    "Partial invoice posting support"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003715,
-      "pages_in_call": 8
+      "cost_usd": 0.004364,
+      "pages_in_call": 1
     }
   ]
 }

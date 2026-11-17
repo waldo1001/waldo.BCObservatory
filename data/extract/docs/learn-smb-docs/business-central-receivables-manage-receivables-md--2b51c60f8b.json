@@ -2,18 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/receivables-manage-receivables.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-manage-receivables",
   "title": "Overview of tasks to manage receivables",
-  "blob": "5b935dee077f19eb53ac4faf7c4de14f0e4b2f1b",
-  "summary": "Manage receivables by applying payments to customer ledger entries, reconciling bank accounts, collecting outstanding balances, and setting up automatic payment application rules. Use Payment Reconciliation Journal, Payment Registration, or Cash Receipt Journal.",
+  "blob": "8539f11fd482f888629c7be3354c3542ad6d8d78",
+  "summary": "Overview of tasks to manage receivables including payment reconciliation, bank account reconciliation, payment registration, and cash receipt journaling. Covers applying payments to customer ledger entries, collecting outstanding balances, and setting up automatic payment rules.",
   "systems": [
     "sales",
-    "finance"
+    "finance",
+    "integration"
   ],
   "topics": [
-    "receivables",
     "payment reconciliation",
     "bank reconciliation",
-    "customer ledger",
-    "payment application"
+    "receivables",
+    "payment application",
+    "cash receipts",
+    "customer payments",
+    "outstanding balances"
   ],
   "objects": [
     {
@@ -35,15 +38,21 @@
     {
       "type": "page",
       "name": "Payment Application Rules"
+    },
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
     }
   ],
   "features": [
-    "Payment Reconciliation Journal",
-    "Bank Account Reconciliations",
-    "Payment Registration",
-    "Cash Receipt Journal",
-    "Automatic payment matching",
-    "Payment Application Rules"
+    "automatic payment matching",
+    "bank statement import",
+    "payment application rules",
+    "payment reconciliation journal",
+    "SEPA Direct Debit collection",
+    "payment tolerance",
+    "late payment prediction",
+    "customer blocking"
   ],
   "versions": [],
   "parts": 1,
@@ -52,8 +61,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004095,
-      "pages_in_call": 8
+      "cost_usd": 0.00471,
+      "pages_in_call": 1
     }
   ]
 }

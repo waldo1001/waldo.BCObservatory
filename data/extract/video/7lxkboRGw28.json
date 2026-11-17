@@ -1,0 +1,1180 @@
+{
+  "video_id": "7lxkboRGw28",
+  "item_id": "video/yt-areopa/7lxkboRGw28",
+  "title": "20261109 - Not a Developer No Problem! Deploy & Embed Power BI Apps in Business Central",
+  "duration_s": 3467,
+  "systems": [
+    "reporting",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "power bi apps",
+    "licensing",
+    "deployment",
+    "template apps",
+    "data connection",
+    "workspace setup",
+    "file types",
+    "authentication",
+    "oauth 2",
+    "multi-company setup",
+    "assisted setup",
+    "date tables"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and housekeeping",
+      "t_start": 0,
+      "t_end": 157.7
+    },
+    {
+      "title": "Presenter background and agenda overview",
+      "t_start": 157.7,
+      "t_end": 231.3
+    },
+    {
+      "title": "Session scope and why PowerBI with Business Central",
+      "t_start": 231.3,
+      "t_end": 316.5
+    },
+    {
+      "title": "PowerBI use cases and reporting benefits",
+      "t_start": 316.5,
+      "t_end": 445.3
+    },
+    {
+      "title": "PowerBI architecture and data sources",
+      "t_start": 445.3,
+      "t_end": 563.7
+    },
+    {
+      "title": "PowerBI workspaces, access types, and app structure",
+      "t_start": 563.7,
+      "t_end": 715.8
+    },
+    {
+      "title": "Free Microsoft apps and version requirements",
+      "t_start": 715.8,
+      "t_end": 825.4
+    },
+    {
+      "title": "Deployment process and licensing requirements",
+      "t_start": 825.4,
+      "t_end": 915.4
+    },
+    {
+      "title": "Power BI licensing tiers and user requirements",
+      "t_start": 915.4,
+      "t_end": 1056.5
+    },
+    {
+      "title": "Refresh rates and workspace creation",
+      "t_start": 1056.5,
+      "t_end": 1259.2
+    },
+    {
+      "title": "Installing Power BI apps from marketplace and file types",
+      "t_start": 1259.2,
+      "t_end": 1526.9
+    },
+    {
+      "title": "Connecting template apps to Business Central data and authentication",
+      "t_start": 1526.9,
+      "t_end": 1783.8
+    },
+    {
+      "title": "Migration and multi-company setup",
+      "t_start": 1783.8,
+      "t_end": 1920.9
+    },
+    {
+      "title": "Deploying apps as Power BI services and assisted setup wizard",
+      "t_start": 1920.9,
+      "t_end": 2111
+    },
+    {
+      "title": "Date tables, accounting periods, and workspace connection",
+      "t_start": 2111,
+      "t_end": 2301.1
+    },
+    {
+      "title": "Power BI connector setup, account categories, and semantic model modification",
+      "t_start": 2301.1,
+      "t_end": 2457.8
+    },
+    {
+      "title": "Modifying semantic models with Power BI Desktop and publishing",
+      "t_start": 2457.8,
+      "t_end": 2739.4
+    },
+    {
+      "title": "Updating apps and multi-company support",
+      "t_start": 2739.4,
+      "t_end": 2920
+    },
+    {
+      "title": "New Power BI and Business Central features with Fabric",
+      "t_start": 2920,
+      "t_end": 3129.2
+    },
+    {
+      "title": "Fabric-ready apps and Q and A",
+      "t_start": 3129.2,
+      "t_end": 3301
+    },
+    {
+      "title": "AI and MCP servers for Power BI, closing remarks",
+      "t_start": 3301,
+      "t_end": 3467
+    }
+  ],
+  "features": [
+    {
+      "name": "Power BI apps for Business Central",
+      "description": "Free apps from Microsoft available on AppSource that can be deployed and embedded in Business Central with zero coding required. Nine pre-built Power BI applications available including Finance, with template app deployment that includes semantic model but no embedded data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 715.8,
+      "t_end": 1318.4,
+      "is_demoed": true,
+      "caveats": [
+        "Version-specific compatibility required",
+        "Requires Power BI license",
+        "Paid alternatives available on AppSource",
+        "Only available for SaaS environments, not on-prem NAV",
+        "Apps must match Business Central version"
+      ],
+      "tags": [
+        "powerbi",
+        "apps",
+        "reporting",
+        "free",
+        "deployment",
+        "template apps",
+        "saas only"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Five-click deployment for Business Central Power BI apps",
+      "description": "A simplified deployment mechanism that was coming out in version 28 to deploy Business Central apps, though it was limited to development environments and sandbox only.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 880.7,
+      "t_end": 901.9,
+      "is_demoed": false,
+      "caveats": [
+        "Only in sandbox/development environment",
+        "Does not work with regular/production apps",
+        "Development environment limited",
+        "Not functional with regular apps"
+      ],
+      "tags": [
+        "deployment",
+        "five-click",
+        "version-28",
+        "sandbox"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Power BI workspace setup and access control",
+      "description": "Power BI workspaces consist of reports, models, and dashboards with four access levels: administrator, contributor, member, and viewer only, allowing granular permission management for apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 563.7,
+      "t_end": 695,
+      "is_demoed": false,
+      "caveats": [
+        "Requires checking with IT department",
+        "May require Power BI license"
+      ],
+      "tags": [
+        "workspaces",
+        "access control",
+        "permissions",
+        "powerbi"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI pagination report feature",
+      "description": "Capability to convert online Power BI reports into paginated reports for printing and Excel export, available through the Power BI service.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 385.8,
+      "t_end": 415.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires Power BI service access",
+        "Power BI is primarily designed for online consumption"
+      ],
+      "tags": [
+        "pagination",
+        "reporting",
+        "export",
+        "printing"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI native APIs and web services connection",
+      "description": "Business Central can connect to Power BI through native APIs and web services, allowing Power BI Desktop to consume data from Business Central online.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 460.9,
+      "t_end": 487.3,
+      "is_demoed": false,
+      "caveats": [
+        "Requires Power BI Desktop",
+        "Can also use Fabric and other data warehouses"
+      ],
+      "tags": [
+        "apis",
+        "web-services",
+        "data-connection",
+        "powerbi"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Power BI Pro license with 8 daily refreshes",
+      "description": "Power BI Pro license enables publishing reports to service with up to 8 refresh schedules per day and 1 gigabyte memory usage, suitable for Business Central apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1056.5,
+      "t_end": 1101.8,
+      "is_demoed": true,
+      "caveats": [
+        "Each user accessing reports needs Pro license",
+        "Free trial lasts 60 days",
+        "Consumers also need Pro license"
+      ],
+      "tags": [
+        "licensing",
+        "power bi",
+        "refresh rates"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Premium license with 48 daily refreshes",
+      "description": "Power BI Premium license option supporting very large data models and 48 refresh cycles per day for premium workspaces with higher data usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1024.1,
+      "t_end": 1090.8,
+      "is_demoed": true,
+      "caveats": [
+        "Needed only for high data volume scenarios",
+        "More expensive than Pro license"
+      ],
+      "tags": [
+        "licensing",
+        "power bi",
+        "premium",
+        "refresh rates"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Template app file type",
+      "description": "A Power BI file type that contains the data model and semantic structure behind reports without embedding actual data, used for the Business Central apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1393,
+      "t_end": 1515,
+      "is_demoed": true,
+      "caveats": [
+        "Requires data connection after installation",
+        "No embedded data in deployment"
+      ],
+      "tags": [
+        "power bi",
+        "template app",
+        "file types"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "PBIX file format",
+      "description": "Standard Power BI Desktop file format used since the beginning for saving reports with embedded data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1437.6,
+      "t_end": 1448.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "file types",
+        "pbix"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "PBIT template file format",
+      "description": "Power BI template file format for sharing reports without data, allowing users to connect their own data sources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1459.7,
+      "t_end": 1483.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "file types",
+        "template"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "PBIP and PBIR project files",
+      "description": "Advanced Power BI file types for project and report files supporting version control within Power BI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1473.1,
+      "t_end": 1494.9,
+      "is_demoed": false,
+      "caveats": [
+        "More advanced usage",
+        "For version control purposes"
+      ],
+      "tags": [
+        "power bi",
+        "file types",
+        "version control"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Connect your data feature",
+      "description": "Functionality in Power BI template apps to connect demo data to actual Business Central company and environment data after installation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1541.7,
+      "t_end": 1673.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires correct company name and environment name",
+        "OAuth 2 authentication required",
+        "Common user errors with data entry"
+      ],
+      "tags": [
+        "power bi",
+        "data connection",
+        "authentication"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI App Connection to Business Central",
+      "description": "Connect Power BI apps to Business Central by providing the environment name and company name obtained from the Business Central URL or Help and Support section.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1564.2,
+      "t_end": 1673.4,
+      "is_demoed": true,
+      "caveats": [
+        "Customers often enter incorrect information in screenshots",
+        "Must use correct email address matching Business Central login domain"
+      ],
+      "tags": [
+        "data connection",
+        "environment setup",
+        "company configuration"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "OAuth 2 Authentication for Power BI",
+      "description": "OAuth 2 is the recommended authentication method with organization-level privacy settings for connecting Power BI to Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1673.4,
+      "t_end": 1729.9,
+      "is_demoed": true,
+      "caveats": [
+        "May require manual login even with cached credentials",
+        "MFA may require additional authentication steps",
+        "Email must match Business Central domain"
+      ],
+      "tags": [
+        "authentication",
+        "oauth 2",
+        "security"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI App Connection Status Indicator",
+      "description": "A yellow bar appears at the top of the app indicating data connection status; the bar disappears when successfully connected and may reappear if connection is lost due to upgrades or other issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1744.3,
+      "t_end": 1783.8,
+      "is_demoed": true,
+      "caveats": [
+        "May become disconnected after Business Central upgrades"
+      ],
+      "tags": [
+        "connection status",
+        "indicator",
+        "troubleshooting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI App Migration",
+      "description": "When updating to a later version of Business Central, users can migrate existing Power BI apps or remove and redo them. Migration preserves app changes while uninstalling loses customizations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1783.8,
+      "t_end": 1835,
+      "is_demoed": true,
+      "caveats": [
+        "Uninstalling without migrating loses all app customizations",
+        "Must choose migrate if model changes have been made"
+      ],
+      "tags": [
+        "migration",
+        "version upgrade",
+        "data preservation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Multi-Company Power BI App Installation",
+      "description": "Install Power BI apps for multiple companies by reinstalling the app with a new workspace name for each company and connecting to different companies in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1849.2,
+      "t_end": 1920.9,
+      "is_demoed": true,
+      "caveats": [
+        "Must install and connect the app once for each company",
+        "Requires separate workspace names for each company installation"
+      ],
+      "tags": [
+        "multi-company",
+        "workspace",
+        "installation"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Power BI Apps as Embedded Business Central Reports",
+      "description": "Power BI apps can be embedded and displayed in Business Central through the All Reports section, accessible to employees and customers without requiring direct Business Central access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1958.6,
+      "t_end": 2047.4,
+      "is_demoed": true,
+      "caveats": [
+        "Power BI reports are not native Business Central reports",
+        "Apps must be installed in workspace before connecting"
+      ],
+      "tags": [
+        "embedding",
+        "reports",
+        "access control"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Assisted Setup Wizard",
+      "description": "An assisted setup wizard guides users through configuring Power BI reports in Business Central, including selecting fiscal or standard calendar types, date ranges, time zones, and working days.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2057.7,
+      "t_end": 2111,
+      "is_demoed": true,
+      "caveats": [
+        "Calendar type selection is important for date table generation",
+        "Settings can be changed after initial setup"
+      ],
+      "tags": [
+        "wizard",
+        "setup",
+        "configuration"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Date Table Generation in Power BI",
+      "description": "Date tables are automatically created in Power BI apps based on selected calendar type (fiscal or standard) and configured date range. The table can be updated by pushing out the end date.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2084.6,
+      "t_end": 2111,
+      "is_demoed": false,
+      "caveats": [
+        "Date table must be manually updated when years are added"
+      ],
+      "tags": [
+        "date tables",
+        "configuration",
+        "calendar"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Accounting Periods Integration with Power BI",
+      "description": "Instead of using Power BI date tables, connect directly to the Business Central accounting periods table via web service or API to automatically update date tables when new years are created.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2166.1,
+      "t_end": 2197.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires Power BI report development knowledge",
+        "Uses web service or API connection"
+      ],
+      "tags": [
+        "accounting periods",
+        "api",
+        "automation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Connector Setup in Business Central",
+      "description": "The Power BI Connector Setup page in Business Central allows configuration of workspace apps, calendar types, time zones, working days, and account category mappings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2289.7,
+      "t_end": 2338.3,
+      "is_demoed": true,
+      "caveats": [
+        "Workspace name changes break links and require reconnection"
+      ],
+      "tags": [
+        "connector setup",
+        "configuration",
+        "workspace"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Account Categories Mapping",
+      "description": "Account subcategories in Business Central must be mapped to Power BI report account categories through the Power BI Account Categories setup to ensure financial reports display correctly segmented.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2351.1,
+      "t_end": 2406.5,
+      "is_demoed": true,
+      "caveats": [
+        "Power BI report categories are set statically",
+        "Requires manual mapping if Business Central subcategories change"
+      ],
+      "tags": [
+        "account categories",
+        "gl accounts",
+        "mapping"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Power BI Semantic Model Customization",
+      "description": "Later versions of Business Central allow modification of Power BI semantic models using Power BI Desktop to customize dashboards and reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2418.5,
+      "t_end": 2457.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Power BI Desktop installation",
+        "Semantic model changes must be made in workspace, not in app"
+      ],
+      "tags": [
+        "semantic models",
+        "customization",
+        "power bi desktop"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Desktop semantic model editing",
+      "description": "Users can download and edit the semantic model in Power BI Desktop to customize visualizations, add filters, change colors, and modify report layouts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2519,
+      "t_end": 2582.7,
+      "is_demoed": true,
+      "caveats": [
+        "Download semantic model, not the report",
+        "Need Power BI Desktop installed to open files"
+      ],
+      "tags": [
+        "power bi desktop",
+        "visualization",
+        "customization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Pro license requirement for publishing",
+      "description": "Publishing changes back to the Power BI service requires a Power BI Pro license. The publish button is located in the middle of the Power BI Desktop screen.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2598.8,
+      "t_end": 2661.7,
+      "is_demoed": true,
+      "caveats": [
+        "Backup of files recommended before publishing to avoid overwriting changes",
+        "Dataset replacement can overwrite previous versions"
+      ],
+      "tags": [
+        "power bi pro",
+        "licensing",
+        "publishing"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "App update workflow in Power BI service",
+      "description": "After publishing changes to the workspace semantic model, users must update the app in Power BI service using the update button in the right hand corner. Update typically takes 5 to 15 minutes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2683,
+      "t_end": 2739.4,
+      "is_demoed": true,
+      "caveats": [
+        "Workspace changes do not automatically update the app",
+        "Separate update step required after publishing to workspace"
+      ],
+      "tags": [
+        "app update",
+        "power bi service",
+        "workflow"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Multi-company app deployment",
+      "description": "When deploying Power BI apps with multiple companies, the same update and configuration process must be repeated for each company.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2752.6,
+      "t_end": 2828.4,
+      "is_demoed": false,
+      "caveats": [
+        "App unpublishing and republishing generates new links",
+        "Users must receive updated links if app is republished"
+      ],
+      "tags": [
+        "multi-company",
+        "app deployment",
+        "publishing"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Business Central mirroring to Fabric",
+      "description": "New feature that enables mirroring Business Central data to Microsoft Fabric. Available on Business Central 29.1 and later versions with backfill planned for 29.0. Requires a paid Fabric capacity license (starting around $250-500 per month).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2868,
+      "t_end": 2963.2,
+      "is_demoed": true,
+      "caveats": [
+        "Only available on BC 29.x versions, not 28.5",
+        "Requires paid Fabric capacity (F-SKU licensing)",
+        "Available on marketplace",
+        "Free 60-day trial for Fabric license available"
+      ],
+      "tags": [
+        "fabric",
+        "mirroring",
+        "new feature"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Fabric mirrored database setup",
+      "description": "Mirrored database feature within Fabric integration requires Fabric capacity availability and specific F-SKU licensing. F2 is the lowest SKU option, costing approximately $250 per month, with Microsoft guidance of $300-500 per month for Fabric capacity with Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2963.2,
+      "t_end": 3025.8,
+      "is_demoed": true,
+      "caveats": [
+        "Licensing model not finalized",
+        "Requires F-SKU licenses",
+        "Pricing guidance is $300-500 per month"
+      ],
+      "tags": [
+        "fabric capacity",
+        "licensing",
+        "mirroring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Multi-company reporting with Fabric",
+      "description": "Fabric integration enables multi-company reporting from a single installed app. Previously, apps had to be installed multiple times for each company. With Fabric, users can install one app and change companies within it.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3025.8,
+      "t_end": 3072.2,
+      "is_demoed": false,
+      "caveats": [
+        "Mirroring is instantaneous (not refreshing)",
+        "No multicurrency support currently",
+        "Requires editing models for multicurrency workaround"
+      ],
+      "tags": [
+        "multi-company",
+        "fabric",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Fabric table mirroring selectivity",
+      "description": "Fabric mirroring allows selective mirroring of specific Business Central tables rather than the entire database. Users only mirror tables needed for their apps or reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3129.2,
+      "t_end": 3182.3,
+      "is_demoed": false,
+      "caveats": [
+        "If using standard apps, all app tables must be mirrored",
+        "Only needed tables must be mirrored for custom solutions"
+      ],
+      "tags": [
+        "fabric",
+        "table mirroring",
+        "selective mirroring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Fabric-ready Power BI apps",
+      "description": "Upcoming Power BI apps that will be fabric-ready and available for Business Central, requiring correct version selection.",
+      "status": "announced",
+      "status_evidence_t": 3129.2,
+      "status_evidence_quote": "they will have fabric ready apps that will be available also",
+      "status_evidence_verified": true,
+      "t_start": 3129.2,
+      "t_end": 3153.8,
+      "is_demoed": false,
+      "caveats": [
+        "apps coming out in the future",
+        "version compatibility needed"
+      ],
+      "tags": [
+        "fabric",
+        "power bi",
+        "apps",
+        "future"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "MCP servers for Power BI with Copilot",
+      "description": "MCP (Model Context Protocol) servers integration enabling Power BI report creation through AI assistance with Claude in Copilot, reducing need to write DAX code manually.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3338.4,
+      "t_end": 3377.8,
+      "is_demoed": false,
+      "caveats": [
+        "still in development phase",
+        "presenter submitted sessions on this topic",
+        "reduces but does not eliminate coding"
+      ],
+      "tags": [
+        "ai",
+        "mcp",
+        "power bi",
+        "copilot",
+        "dax"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Tell me",
+      "t": 1642.7
+    },
+    {
+      "type": "table",
+      "name": "accounting periods table",
+      "t": 2166.1
+    },
+    {
+      "type": "page",
+      "name": "PowerBI connector setup",
+      "t": 2289.7
+    },
+    {
+      "type": "page",
+      "name": "PowerBI Account Categories",
+      "t": 2351.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Henrikusen",
+      "confidence": "medium"
+    },
+    {
+      "name": "Tanya Henderson",
+      "confidence": "high"
+    },
+    {
+      "name": "Tanya",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 231.3,
+      "text": "PowerBI service and workspaces. Um, so this is a really definite uh going back to the beginner of how to actually uh deploy the",
+      "why_it_matters": "Establishes the core focus of the session on beginner-level deployment guidance for PowerBI apps in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 445.3,
+      "text": "this allows you to give them access to all of those apps with absolutely zero coding unless you're going to edit the semantic models",
+      "why_it_matters": "Key selling point that PowerBI apps can be deployed without development skills, lowering barrier to entry.",
+      "check": "exact"
+    },
+    {
+      "t": 563.7,
+      "text": "in order to deploy these apps that Microsoft is talking about, you do have to of course set up a workspace inside of PowerBI",
+      "why_it_matters": "Establishes prerequisite that workspace setup is mandatory before deploying PowerBI apps.",
+      "check": "exact"
+    },
+    {
+      "t": 741.9,
+      "text": "The apps that we're going to talk about today though are the business central apps. These are the ones that are free from Microsoft.",
+      "why_it_matters": "Clarifies that the Microsoft-provided Business Central PowerBI apps are free, distinguishing from paid alternatives.",
+      "check": "exact"
+    },
+    {
+      "t": 771.2,
+      "text": "you can see at this particular time there was a 26.2 and there is a version 27. Okay? And it'll ...",
+      "why_it_matters": "Demonstrates that specific Business Central version compatibility is required for apps, which is critical for successful deployment.",
+      "check": "exact"
+    },
+    {
+      "t": 795.2,
+      "text": "you're also going to see probably another version of these apps coming out and they will be because they are going to be for",
+      "why_it_matters": "Indicates roadmap plans for new app versions supporting upcoming Business Central releases 29 and 29.1",
+      "check": "exact"
+    },
+    {
+      "t": 880.7,
+      "text": "There was a fiveclick deployment that was coming out um, in version 28. This was actually to deploy your Business Central apps.",
+      "why_it_matters": "Announces upcoming simplified deployment mechanism in version 28 as a future enhancement.",
+      "check": "exact"
+    },
+    {
+      "t": 880.7,
+      "text": "There was a fiveclick deployment that was coming out um, in version 28. This was actually to deploy your Business Central apps. Um, it",
+      "why_it_matters": "Clarifies limited scope of five-click deployment feature to sandbox development environments only",
+      "check": "exact"
+    },
+    {
+      "t": 915.4,
+      "text": "you need a PowerBI Pro license. And that license, as I said, can be free for 60 days.",
+      "why_it_matters": "States baseline licensing requirement with trial period for Power BI app usage",
+      "check": "exact"
+    },
+    {
+      "t": 1079.2,
+      "text": "the pro license is you can do eight refreshes a day. Um, and then the premium license you can do 48 refreshes a day.",
+      "why_it_matters": "Quantifies key difference in refresh rate capability between Pro and Premium licenses",
+      "check": "exact"
+    },
+    {
+      "t": 1297,
+      "text": "nine of them um today so and i think there may be a few more that may be coming out",
+      "why_it_matters": "Provides current count of available Power BI apps and indicates future expansion",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1337,
+      "text": "if you are using online NAV or I'm sorry on premise NAV. Um I do not believe that these work for on-prem nav.",
+      "why_it_matters": "Clarifies platform limitation that apps only work for SaaS environments, not on-premises",
+      "check": "exact"
+    },
+    {
+      "t": 1393,
+      "text": "what a template app is called is in the PowerBI world um is it has the model behind the PowerBI report but it doesn't",
+      "why_it_matters": "Defines template app architecture as modelwithout embedded data requiring user data connection",
+      "check": "exact"
+    },
+    {
+      "t": 1589.4,
+      "text": "you will need to have the company name and the environment name. So you can get this from your URL.",
+      "why_it_matters": "Identifies key information required for connecting Power BI apps to Business Central data sources",
+      "check": "exact"
+    },
+    {
+      "t": 1589.4,
+      "text": "you will need to have the company name and the environment name",
+      "why_it_matters": "Essential information required from Business Central to successfully connect Power BI apps to company data",
+      "check": "exact"
+    },
+    {
+      "t": 1673.4,
+      "text": "I will always use the authentication method of OOTH 2",
+      "why_it_matters": "Establishes the recommended authentication approach for Power BI to Business Central connections",
+      "check": "exact"
+    },
+    {
+      "t": 1797.9,
+      "text": "if in fact you do update to a later version of business central um some of the later vers earlier ...",
+      "why_it_matters": "Describes version upgrade behavior and the choice between migration and reinstallation of Power BI apps",
+      "check": "exact"
+    },
+    {
+      "t": 1880.8,
+      "text": "if I have five companies in Business Central, unfortunately, I'm going to have to install this and connect this five times",
+      "why_it_matters": "Clarifies the limitation that multi-company setups require separate app installations and connections for each company",
+      "check": "exact"
+    },
+    {
+      "t": 2047.4,
+      "text": "have to install all of the apps in the workspace before you can connect them",
+      "why_it_matters": "Establishes prerequisite that Power BI apps must be installed before they can be embedded in Business Central",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2166.1,
+      "text": "whenever i create my powerbi reports i actually connect to the accounting periods table that's a little tip",
+      "why_it_matters": "Provides design best practice for Power BI report development to automatically handle new fiscal years in Business Central",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2379.8,
+      "text": "you'll see the categories on the left are what is inside the PowerBI report. The ones on the right are the GL C categories",
+      "why_it_matters": "Explains the critical mapping requirement between Power BI report categories and Business Central GL subcategories for proper financial report display.",
+      "check": "exact"
+    },
+    {
+      "t": 2418.5,
+      "text": "In the later versions of Business Central and these apps, you were when it first came out, you were not you did not have",
+      "why_it_matters": "Marks the availability of semantic model customization as a capability added in later Business Central versions",
+      "check": "exact"
+    },
+    {
+      "t": 2622,
+      "text": "This is where the PowerBI Pro license comes into play because if I didn't have a Pro license, I would not be able to",
+      "why_it_matters": "Clarifies the licensing requirement for publishing Power BI changes back to the service.",
+      "check": "exact"
+    },
+    {
+      "t": 2909,
+      "text": "Microsoft has just launched that business central mirroring to fabric. So, if you see up there in the lefthand corner, um yes, this is",
+      "why_it_matters": "Announces the new Business Central Fabric mirroring feature as a recently launched marketplace offering.",
+      "check": "exact"
+    },
+    {
+      "t": 2930.2,
+      "text": "it is on business central 21 29.1 which probably most people are not on 29.1 yet um they are going ...",
+      "why_it_matters": "Specifies version requirements for Fabric mirroring - only 29.x versions qualify, with backfill planned for 29.0.",
+      "check": "snapped"
+    },
+    {
+      "t": 3049.8,
+      "text": "it does allow for multi-co company reporting. So as we were having to install the app multiple times if it ...",
+      "why_it_matters": "Highlights a major improvement in Fabric integration enabling single app installation with multi-company capabilities instead of per-company installations.",
+      "check": "exact"
+    },
+    {
+      "t": 3129.2,
+      "text": "the apps that will be coming out, this is where I was saying making sure you do have the correct version um because they",
+      "why_it_matters": "Indicates upcoming fabric-ready Power BI apps requiring version compatibility considerations",
+      "check": "exact"
+    },
+    {
+      "t": 3168.7,
+      "text": "you don't mirror your entire instance of Business Central. You would only mirror the tables that you're needing",
+      "why_it_matters": "Explains the selective table mirroring approach that provides flexibility for Power BI app usage",
+      "check": "exact"
+    },
+    {
+      "t": 3287.4,
+      "text": "I rather than paying for the other reporting solutions, I'm a person who kind of likes to play with it and build it and",
+      "why_it_matters": "Demonstrates cost-benefit perspective of using Microsoft's Power BI over third-party reporting solutions",
+      "check": "exact"
+    },
+    {
+      "t": 3354.6,
+      "text": "I've actually gone and done some MCP servers MCP with the PowerBI MCP with Claude um in Copilot",
+      "why_it_matters": "Shows practical application of MCP servers with AI for Power BI report creation",
+      "check": "exact"
+    },
+    {
+      "t": 3388.4,
+      "text": "If it's just a simple little report to show payables transactions I could probably build it in an hour or less",
+      "why_it_matters": "Provides concrete timeframe for report creation with AI assistance",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 795.2,
+      "kind": "coming-later",
+      "text": "you're also going to see probably another version of these apps coming out and they will be because they are ..."
+    },
+    {
+      "t": 880.7,
+      "kind": "preview",
+      "text": "There was a fiveclick deployment that was coming out um, in version 28"
+    },
+    {
+      "t": 880.7,
+      "kind": "not-in-this-release",
+      "text": "it was only in a development world. Um, so it was only in sandbox. So it didn't actually work with the regular apps"
+    },
+    {
+      "t": 1797.9,
+      "kind": "other",
+      "text": "earlier versions like 26.2 um when you did that it would ask you to migrate to the later version"
+    },
+    {
+      "t": 2418.5,
+      "kind": "other",
+      "text": "In the later versions of Business Central and these apps, you were when it first came out, you were not ..."
+    },
+    {
+      "t": 2920,
+      "kind": "preview",
+      "text": "this is a new feature. You do have to have a fabric license which you can get a fabric license ..."
+    },
+    {
+      "t": 2963.2,
+      "kind": "not-in-this-release",
+      "text": "it will not be available for 28.5. So only the 29 versions."
+    },
+    {
+      "t": 2987.8,
+      "kind": "subject-to-change",
+      "text": "the licensing on that right now, they're not absolutely positive what it is"
+    },
+    {
+      "t": 3117.8,
+      "kind": "preview",
+      "text": "there is no multicurrency right now. Um, you would have to basically edit your own models to do that."
+    },
+    {
+      "t": 3129.2,
+      "kind": "coming-later",
+      "text": "apps that will be coming out... they will have fabric ready apps that will be available also"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 31,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 33
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024542
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028843999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033415
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032201
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016043
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0900322
+    }
+  ]
+}
