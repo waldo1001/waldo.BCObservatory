@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchase-forecasting",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.962Z",
-      "blob": "772eada81e7ec9846b0032cb7fbc710b41350898",
+      "at": "2026-11-17T00:19:31.160Z",
+      "blob": "1d7c85a5092ca4b2f32b74f79afbd928d9fdff42",
       "words": 296,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:07.725Z",
+      "at": "2026-11-17T00:19:45.703Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002483
+      "cost_usd": 0.003312
     },
     "summarized": {
-      "at": "2026-10-06T18:52:07.740Z",
+      "at": "2026-11-17T00:19:45.704Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:07.741Z",
+      "at": "2026-11-17T00:19:45.704Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:07.742Z",
+      "at": "2026-11-17T00:19:45.705Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-purchase-forecasting.md",
     "description": "The Purchase Forecasting report predicts future purchasing trends to anticipate supply chain requirements.",
-    "ms_date": "2025-09-30",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1c75277df7f83991a6fb091df7e7b235a54858ea2c95cf13175383a38f204322"
+  "output_hash": "777a1699b5bf339401fda9fe037fa092273e155f9f74eae9d1ff910d8e9ef51a"
 }

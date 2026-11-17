@@ -1,0 +1,27 @@
+{
+  "video_id": "C5OdiYfxozc",
+  "item_id": "video/yt-hougaard/C5OdiYfxozc",
+  "summary": "BC Observatory is a free site and MCP server that presents Business Central as a searchable galaxy. It is built from Microsoft Learn, BC 28 to BC 30 source code, localizations, the Microsoft Roadmap and YouTube videos. The video demos table, field and localization queries through the MCP server.",
+  "overview": "Erik Hougaard introduces the BC Observatory, which shows the Business Central world as a galaxy of systems such as finance and human resources. The Lens engine ingests Microsoft Learn, source code from BC 28 to BC 30, localizations, the Microsoft Roadmap and YouTube videos. The result is a site of about 30,000 markdown pages and an MCP server.\n\nHe demos searching the galaxy and zooming into a system. He then uses the MCP server from Claude Code to ask about the Customer table, find where a field appears across tables, and query New Zealand localization metadata and enum values. He notes the output is readable text rather than the JSON usually returned by simple endpoints. He says the cross-table field lookup needs more refinement, and that the tool is free.",
+  "key_points": [
+    "The Lens engine builds the knowledge base from Microsoft Learn, BC 28 to BC 30 source code, localizations, the Microsoft Roadmap and YouTube videos.",
+    "The output is about 30,000 markdown pages plus an MCP server.",
+    "The galaxy view can be searched (for example sales post, or VAT numbers for vendors). It can also be navigated by system, such as Finance, where VAT links to localizations.",
+    "Through MCP, a table's fields can be queried. In the demo, field 7 of the Customer table (table 18) is City, with a table relation to the Postcode table (table 225).",
+    "A cross-table query for the city field returned master data tables, customer, vendor, contact, resource, employee and address-related tables. The presenter says it needs more refinement.",
+    "Localization queries, such as New Zealand changes between BC versions and enum values, work through the MCP server.",
+    "The MCP responses are readable text rather than JSON, and the tool is free."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "ffa82e8a332bceacb2c6982fdcb6ae1e93a8c0414796086fa7c3a6da0e37554f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.019372
+  }
+}

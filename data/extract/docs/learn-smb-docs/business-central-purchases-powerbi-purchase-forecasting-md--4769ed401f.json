@@ -2,27 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchase-forecasting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchase-forecasting",
   "title": "Purchase Forecasting (Power BI Report)",
-  "blob": "772eada81e7ec9846b0032cb7fbc710b41350898",
-  "summary": "Purchase Forecasting Power BI report predicts future purchasing trends based on historical data using advanced forecasting techniques. Use it to anticipate supply chain requirements and inform strategic hiring and inventory decisions.",
+  "blob": "1d7c85a5092ca4b2f32b74f79afbd928d9fdff42",
+  "summary": "The Purchase Forecasting Power BI report predicts future purchasing trends for the next three months based on historical data. Use it to anticipate supply chain requirements, plan purchasing schedules, and inform strategic business decisions.",
   "systems": [
     "purchasing",
-    "reporting"
+    "reporting",
+    "finance"
   ],
   "topics": [
+    "forecasting",
     "power bi",
     "purchasing analytics",
-    "forecasting",
-    "trend prediction",
-    "supply chain"
+    "trend analysis",
+    "supply chain",
+    "kpis"
   ],
   "objects": [],
   "features": [
-    "Purchase (LCY) Forecasting",
-    "three-month prediction",
-    "six-month historical basis",
-    "monthly seasonality",
+    "purchase forecasting",
+    "seasonality analysis",
     "vendor dimension",
-    "item category dimension"
+    "item category dimension",
+    "purchaser dimension",
+    "confidence interval customization",
+    "forecast length customization"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002483,
-      "pages_in_call": 8
+      "cost_usd": 0.003312,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=7lxkboRGw28",
   "published_at": "2026-11-13T09:41:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-11-17T00:16:35.786Z"
@@ -16,6 +16,15 @@
       "at": "2026-11-17T00:18:27.981Z",
       "captions": "auto:en-orig",
       "duration_s": 3467
+    },
+    "captioned": {
+      "at": "2026-11-17T00:18:53.306Z",
+      "path": "vault:captions/community/yt-areopa/7lxkboRGw28.vtt",
+      "vtt_sha256": "8d965ef6c2d4334cea6ac857db2d410b88e44d7b061d6d85c8b3a66ba120a8ba",
+      "segments": 264,
+      "words": 8915,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -30,5 +39,6 @@
     }
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "8d965ef6c2d4334cea6ac857db2d410b88e44d7b061d6d85c8b3a66ba120a8ba"
 }

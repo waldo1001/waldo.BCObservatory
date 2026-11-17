@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-purchaser",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:15.137Z",
-      "blob": "e1e05dfa3956609a03d9d1cc470e587984112c2b",
+      "at": "2026-11-17T00:20:10.926Z",
+      "blob": "69d6ffbfd1d3dc9102879c6ce7aba17dae8afe1e",
       "words": 243,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:20.017Z",
+      "at": "2026-11-17T00:20:15.792Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003338
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:20.019Z",
+      "at": "2026-11-17T00:20:15.793Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:24.903Z",
+      "at": "2026-11-17T00:20:15.794Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:24.905Z",
+      "at": "2026-11-17T00:20:15.794Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-purchases-by-purchaser.md",
     "description": "Compare purchase amounts, quantities, and posted invoice counts by purchaser in Power BI to understand spending patterns and purchasing performance.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "764dd57fe6474b576518d1992aafcf6f57ba9386e03efc670dac08e52f6f865e"
+  "output_hash": "4e78d49e5e131832ed7112d5b87941c8097cd7a92e2bfb5439f558ccb13aa0eb"
 }

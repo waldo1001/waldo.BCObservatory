@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14002",
+  "number": 14002,
+  "title": "External File Storage: reject \".\" and \"..\" path segments",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "External File Storage now rejects path segments that are purely \".\" or \"..\" to prevent directory traversal attacks, while allowing dots within file or folder names.",
+  "key_points": [
+    "CheckPath validation rejects \".\" and \"..\" as complete path segments across all external storage operations",
+    "Prevents directory traversal vulnerabilities where connectors like SharePoint would resolve relative segments",
+    "Dots inside names like \"v1..2.pdf\" or \"..hidden\" remain valid",
+    "Public API behavior change: callers passing relative paths now receive an error instead of passing to the connector",
+    "No internal callers in the repository use relative paths; external extensions must normalize paths"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Rejects a path when a whole segment is \".\" or \"..\", with a clear error.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004141,
+    "changes_in_call": 1
+  }
+}

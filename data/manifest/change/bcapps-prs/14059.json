@@ -6,10 +6,18 @@
   "title": "Use GPT-5.6 Ceres for No. Series Copilot",
   "url": "https://github.com/microsoft/BCApps/pull/14059",
   "published_at": "2026-11-16T10:23:11Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-17T00:16:35.786Z"
+    },
+    "fetched": {
+      "at": "2026-11-17T00:20:12.529Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "e31fbbcffc648de1bd15bcb4c4f476cbcf871104:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "use gpt 5 6 ceres for no series copilot"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9319f7901d9136c67d6cf09f8935a46f8515e13eb83ce602acf772ca0e6f777e"
 }

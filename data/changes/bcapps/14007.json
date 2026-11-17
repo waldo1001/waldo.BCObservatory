@@ -1,0 +1,391 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14007,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14007",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-16T12:57:43Z",
+  "merge_commit_sha": "e6058c9284f303c69aeb8b836ac9a3c110fec57c",
+  "author": "VolodySyn",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Build: scripts & configs",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Obsolete Create Product Information with Copilot",
+  "body_hash": "a6d2efe523865c8170f9608f66e78f784dde32ae72248870718d7345bf7b654e",
+  "fixes_issues": [],
+  "work_items": [
+    659006
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "build/groups.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 3,
+      "class": "build"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/BaseAppExtensions/ItemCardExt.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/BaseAppExtensions/ItemSubstitutionEntryExt.PageExt.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/CreateProductInfoPrompts.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/SalesAzureOpenAITools/FunctionsImpl/MagicFunction.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/SalesAzureOpenAITools/FunctionsImpl/SuggestSubstitutionsFunction.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/SalesAzureOpenAITools/ItemSubstitutionSuggestion/ItemSubstSuggestion.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/SalesAzureOpenAITools/ItemSubstitutionSuggestion/ItemSubstSuggestion.TableExt.al",
+      "status": "modified",
+      "additions": 39,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/SalesAzureOpenAITools/ItemSubstitutionSuggestion/ItemSubstSuggestionImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/SalesAzureOpenAITools/ItemSubstitutionSuggestion/ItemSubstSuggestionSub.Page.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Search/Search.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Search/SearchAPIResponse.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Search/SearchConfidence.Enum.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Search/SearchStyle.Enum.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Setup/CreateProductInfoCapability.EnumExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Setup/CreateProductInfoInstall.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Setup/CreateProductInfoUpgrade.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Utilities/CreateProductInfoUtility.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Utilities/ItemSubstDiscontNotif.Codeunit.al",
+      "status": "added",
+      "additions": 56,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Utilities/NotificationManager.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 20,
+    "additions": 220,
+    "deletions": 44,
+    "al": 19
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/BaseAppExtensions/ItemCardExt.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7331",
+        "type": "pageextension",
+        "id": 7331,
+        "name": "Item Card Ext.",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "pageextension/7331"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/BaseAppExtensions/ItemSubstitutionEntryExt.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7330",
+        "type": "pageextension",
+        "id": 7330,
+        "name": "Item Substitution Entry Ext.",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "pageextension/7330"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/CreateProductInfoPrompts.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7340",
+        "type": "codeunit",
+        "id": 7340,
+        "name": "Create Product Info. Prompts",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "codeunit/7340"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/SalesAzureOpenAITools/FunctionsImpl/MagicFunction.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7341",
+        "type": "codeunit",
+        "id": 7341,
+        "name": "Magic Function",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "codeunit/7341"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/SalesAzureOpenAITools/FunctionsImpl/SuggestSubstitutionsFunction.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7342",
+        "type": "codeunit",
+        "id": 7342,
+        "name": "Suggest Substitutions Function",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "codeunit/7342"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/SalesAzureOpenAITools/ItemSubstitutionSuggestion/ItemSubstSuggestion.Page.al",
+        "status": "modified",
+        "key": "page/7410",
+        "type": "page",
+        "id": 7410,
+        "name": "Item Subst. Suggestion",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "page/7410"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/SalesAzureOpenAITools/ItemSubstitutionSuggestion/ItemSubstSuggestion.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7410",
+        "type": "tableextension",
+        "id": 7410,
+        "name": "Item Subst. Suggestion",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "tableextension/7410"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/SalesAzureOpenAITools/ItemSubstitutionSuggestion/ItemSubstSuggestionImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7330",
+        "type": "codeunit",
+        "id": 7330,
+        "name": "Item Subst. Suggestion Impl.",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "codeunit/7330"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/SalesAzureOpenAITools/ItemSubstitutionSuggestion/ItemSubstSuggestionSub.Page.al",
+        "status": "modified",
+        "key": "page/7411",
+        "type": "page",
+        "id": 7411,
+        "name": "Item Subst. Suggestion Sub",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "page/7411"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Search/Search.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7333",
+        "type": "codeunit",
+        "id": 7333,
+        "name": "Search",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "codeunit/7333"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Search/SearchAPIResponse.Table.al",
+        "status": "modified",
+        "key": "table/7339",
+        "type": "table",
+        "id": 7339,
+        "name": "Search API Response",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "table/7339"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Search/SearchConfidence.Enum.al",
+        "status": "modified",
+        "key": "enum/7331",
+        "type": "enum",
+        "id": 7331,
+        "name": "Search Confidence",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "enum/7331"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Search/SearchStyle.Enum.al",
+        "status": "modified",
+        "key": "enum/7332",
+        "type": "enum",
+        "id": 7332,
+        "name": "Search Style",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "enum/7332"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Setup/CreateProductInfoCapability.EnumExt.al",
+        "status": "modified",
+        "key": "enumextension/7330",
+        "type": "enumextension",
+        "id": 7330,
+        "name": "Create Product Info Capability",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "enumextension/7330"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Setup/CreateProductInfoInstall.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7331",
+        "type": "codeunit",
+        "id": 7331,
+        "name": "Create Product Info. Install",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "codeunit/7331"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Setup/CreateProductInfoUpgrade.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7332",
+        "type": "codeunit",
+        "id": 7332,
+        "name": "Create Product Info. Upgrade",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "codeunit/7332"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Utilities/CreateProductInfoUtility.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7345",
+        "type": "codeunit",
+        "id": 7345,
+        "name": "Create Product Info. Utility",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "codeunit/7345"
+      },
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Utilities/NotificationManager.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7343",
+        "type": "codeunit",
+        "id": 7343,
+        "name": "Notification Manager",
+        "app": "CreateProductInformationWithCopilot",
+        "cc": "w1",
+        "page": "codeunit/7343"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Utilities/ItemSubstDiscontNotif.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "CreateProductInformationWithCopilot"
+  ]
+}

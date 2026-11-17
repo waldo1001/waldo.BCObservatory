@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-period-over-period",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:09.277Z",
-      "blob": "18bca7b889aa4b23065edf2a9564f28c10ff6447",
+      "at": "2026-11-17T00:19:25.035Z",
+      "blob": "e1afab9a5069cfcd3b2af8572c0d303ed9c9323b",
       "words": 256,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:15.089Z",
+      "at": "2026-11-17T00:19:29.665Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003361
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:15.091Z",
+      "at": "2026-11-17T00:19:29.666Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:15.092Z",
+      "at": "2026-11-17T00:19:29.667Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:15.093Z",
+      "at": "2026-11-17T00:19:29.667Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-period-over-period.md",
     "description": "Compare purchases with the previous fiscal month, quarter, or year in Power BI to track spending changes and evaluate period-over-period growth.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1dcbf3e909c572535a95d2bdd60db1b0a49a995205b2df3c580ff2d14e06571c"
+  "output_hash": "442b951c30cced015313f49b6d490fb673fdfc36149e50366b78c316dd451692"
 }

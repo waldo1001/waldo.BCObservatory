@@ -2,18 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-app-semantic-model.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app-semantic-model",
   "title": "Power BI Purchases app semantic model",
-  "blob": "f9af7b12b52f463c0a529eb16fe6a6a94397acbb",
-  "summary": "The Power BI Purchases app semantic model contains purchase budgets, invoices, credit memos, and value entries as fact tables with dimension tables for vendors, items, projects, and purchasers organized in a star schema.",
+  "blob": "1034a544e77892533bf6b91b8ae5d2b055d8551d",
+  "summary": "Power BI Purchases app semantic model uses a star schema with fact tables for purchase transactions and dimension tables for context, mapping Business Central tables to Power BI fields for purchase analytics.",
   "systems": [
     "purchasing",
-    "reporting"
+    "reporting",
+    "inventory"
   ],
   "topics": [
     "power bi",
     "semantic model",
+    "purchases",
     "star schema",
-    "purchase transactions",
-    "procurement"
+    "fact tables",
+    "dimension tables",
+    "analytics"
   ],
   "objects": [
     {
@@ -94,11 +97,14 @@
     }
   ],
   "features": [
-    "fact tables",
-    "dimension tables",
-    "star schema",
-    "purchase analytics",
-    "vendor tracking"
+    "Purchase Budget fact table",
+    "Purchase Credit Lines fact table",
+    "Purchase Invoice Lines fact table",
+    "Purchase Lines fact table",
+    "Purchase Value Entries fact table",
+    "Vendor dimension table",
+    "Item dimension table",
+    "Project dimension table"
   ],
   "versions": [],
   "parts": 1,
@@ -107,8 +113,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.010063,
-      "pages_in_call": 5
+      "cost_usd": 0.01241,
+      "pages_in_call": 1
     }
   ]
 }

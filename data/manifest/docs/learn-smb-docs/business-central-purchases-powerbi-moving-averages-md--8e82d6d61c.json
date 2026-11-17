@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-moving-averages",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:09.247Z",
-      "blob": "b649a78b17d05a07ce060d00735ec54d21ad646c",
+      "at": "2026-11-17T00:19:22.387Z",
+      "blob": "444f8fabd18508bb7fa9f1894fa9f6f60f188338",
       "words": 289,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:15.261Z",
+      "at": "2026-11-17T00:19:26.573Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003279
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:15.263Z",
+      "at": "2026-11-17T00:19:26.574Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:15.264Z",
+      "at": "2026-11-17T00:19:26.574Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:15.266Z",
+      "at": "2026-11-17T00:19:26.575Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-moving-averages.md",
     "description": "Compare purchase amounts with a 30-day moving average in the Power BI Purchases app to identify spending trends and changes in purchasing activity.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d29767bb2735ae0552822c98e916d70fc533ae419443373d07a0cca18f1a6dde"
+  "output_hash": "a1a4b8203b7bf695c82d3413d9643ea023aa625893002d05c1e01ebf62a13d75"
 }

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13717",
+  "number": 13717,
+  "title": "[Main]- Export Electronic Payments: one vendor's missing email can clear another vendor's Document No.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed a bug in electronic payments export where a missing email address for one vendor could incorrectly clear the Document No. field for another vendor.",
+  "key_points": [
+    "Corrected logic in Bulk Vendor Remit Reporting to isolate vendor-specific validation issues",
+    "Missing email for one vendor no longer affects payment details of other vendors",
+    "Added test coverage to verify the fix and prevent regression",
+    "Electronic payments export now handles multiple vendors correctly"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Export Electronic Payments: one vendor's missing email can clear another vendor's Document No.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003319,
+    "changes_in_call": 1
+  }
+}

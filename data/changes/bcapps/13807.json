@@ -1,0 +1,81 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13807,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13807",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-16T10:27:56Z",
+  "merge_commit_sha": "ba85d73c708f3d9e3f57c0a7c3866a6dd6a9ea35",
+  "author": "MSNehaNawal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] Bug 657914 Total Number of Supplies has incorrect type and tooltip in the VAT Report page of the German version.",
+  "body_hash": "cf2b73d2ff066948eeefd24834d0604bc6dd36c924551db42e90c5441c434019",
+  "fixes_issues": [],
+  "work_items": [
+    658352
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/DE/BaseApp/Finance/VAT/Reporting/VATReport.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DE/BaseApp/Finance/VAT/Reporting/VATReportHeader.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 4,
+    "deletions": 3,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/DE/BaseApp/Finance/VAT/Reporting/VATReport.Page.al",
+        "status": "modified",
+        "key": "page/740",
+        "type": "page",
+        "id": 740,
+        "name": "VAT Report",
+        "app": "Base Application",
+        "cc": "de",
+        "page": "page/740"
+      },
+      {
+        "path": "src/Layers/DE/BaseApp/Finance/VAT/Reporting/VATReportHeader.Table.al",
+        "status": "modified",
+        "key": "table/740",
+        "type": "table",
+        "id": 740,
+        "name": "VAT Report Header",
+        "app": "Base Application",
+        "cc": "de",
+        "page": "table/740"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

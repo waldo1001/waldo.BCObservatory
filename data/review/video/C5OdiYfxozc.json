@@ -1,0 +1,24 @@
+{
+  "video_id": "C5OdiYfxozc",
+  "item_id": "video/yt-hougaard/C5OdiYfxozc",
+  "flags": [],
+  "verdict": "approve",
+  "issues": [
+    "All six quotes appear in the transcript; t=126.1 and t=335.6 continue into the next segment, and t=126.1 differs only in punctuation (30 000 vs 30,000).",
+    "Feature 'Field schema queries via MCP' mentions 'field class', which rests on a garbled caption ('city at 630 field'). Minor, not worth dropping.",
+    "'Other MCP clients' in the MCP server description is a mild extrapolation; only Claude Code is shown.",
+    "All features are correctly marked unclear: the video gives no preview or GA status, only that the tool is free.",
+    "Summary and key points match the transcript."
+  ],
+  "input_hash": "343f6dafcceaa30feeb6fd47346c469de620ad8d9631c53556fbdcffde8d5553",
+  "by": "opus",
+  "at": "2026-11-17T00:19:16.284Z",
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.086232
+  }
+}

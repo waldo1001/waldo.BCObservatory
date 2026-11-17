@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-item",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:09.264Z",
-      "blob": "51962ddcbca0d80759f9cea1becfa5f854e5310b",
+      "at": "2026-11-17T00:19:53.710Z",
+      "blob": "2ef4a6b0d0a0a8d0fece34e781e1b584c8ab43c2",
       "words": 254,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:15.153Z",
+      "at": "2026-11-17T00:19:59.090Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.003565
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:15.155Z",
+      "at": "2026-11-17T00:19:59.090Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:15.156Z",
+      "at": "2026-11-17T00:19:59.092Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:15.157Z",
+      "at": "2026-11-17T00:19:59.092Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-purchases-by-item.md",
     "description": "Analyze purchase amounts, quantities, and posted invoice counts by item and item category in Power BI to monitor spending and purchasing trends.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c67d1fd970a78c8ae2160f6938be034569c5bdaecc8a888bd7283a72d809f3d7"
+  "output_hash": "dd5903c03bd98864d9145ad4991f1edc139f09637e7124f498e529771bd95ed8"
 }

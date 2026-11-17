@@ -1,0 +1,309 @@
+{
+  "video_id": "C5OdiYfxozc",
+  "item_id": "video/yt-hougaard/C5OdiYfxozc",
+  "title": "Going Stargazing with the Business Central Observatory",
+  "duration_s": 485,
+  "systems": [
+    "development",
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "bc observatory",
+    "galaxy visualization",
+    "mcp server",
+    "al objects",
+    "markdown documentation",
+    "search",
+    "localizations",
+    "table schema",
+    "field lookup"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to BC Observatory",
+      "t_start": 0,
+      "t_end": 35.1
+    },
+    {
+      "title": "The Galaxy visualization and data sources",
+      "t_start": 35.1,
+      "t_end": 113.1
+    },
+    {
+      "title": "The Lens engine and markdown documentation",
+      "t_start": 113.1,
+      "t_end": 182.1
+    },
+    {
+      "title": "Searching the galaxy and navigating by system",
+      "t_start": 182.1,
+      "t_end": 220.7
+    },
+    {
+      "title": "MCP server integration and customer table queries",
+      "t_start": 220.7,
+      "t_end": 284.5
+    },
+    {
+      "title": "Finding field locations across tables",
+      "t_start": 284.5,
+      "t_end": 362.7
+    },
+    {
+      "title": "New Zealand localization queries and enum values",
+      "t_start": 362.7,
+      "t_end": 427
+    },
+    {
+      "title": "Tools overview and free availability",
+      "t_start": 427,
+      "t_end": 485
+    }
+  ],
+  "features": [
+    {
+      "name": "BC Observatory galaxy visualization",
+      "description": "A visual representation of the Business Central world as a galaxy showing different systems like human resources, finance, and other modules that can be navigated and explored.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 20.8,
+      "t_end": 102,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "visualization",
+        "galaxy",
+        "navigation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Lens engine for data aggregation",
+      "description": "An engine that ingests data from Microsoft Learn, BC source code (BC 28 to BC 30), localizations, Microsoft Roadmap, and YouTube videos to build a searchable knowledge base of 30,000 markdown pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 79,
+      "t_end": 136.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "lens engine",
+        "data aggregation",
+        "markdown",
+        "knowledge base"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "MCP server for BC Observatory",
+      "description": "A Model Context Protocol server that provides programmatic access to the BC Observatory data, allowing queries about tables, fields, and Business Central metadata through Claude Code or other MCP clients.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 136.1,
+      "t_end": 220.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "api",
+        "programmatic access"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Search functionality for BC concepts",
+      "description": "Ability to search the galaxy for Business Central topics such as sales post, VAT numbers for vendors, roadmap items, and videos related to specific concepts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 147.2,
+      "t_end": 171.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "search",
+        "discovery"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Galaxy navigation by system",
+      "description": "Users can zoom into specific systems like Finance and discover connected concepts such as VAT linked to localizations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 182.1,
+      "t_end": 208,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "navigation",
+        "system exploration"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Field schema queries via MCP",
+      "description": "Ability to query AL table field definitions through MCP, returning field number, name, field class, and table relations for specific tables like Customer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 242.1,
+      "t_end": 274.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "table schema",
+        "field lookup",
+        "al objects"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Cross-table field discovery",
+      "description": "Query capability to find all tables containing a specific field, such as locating the city field across master data, customer, vendor, contact, resource, employee tables and address-related tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 284.5,
+      "t_end": 335.6,
+      "is_demoed": true,
+      "caveats": [
+        "needs refinement"
+      ],
+      "tags": [
+        "field discovery",
+        "cross-table search"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Learn article indexing",
+      "description": "BC Observatory indexes and surfaces Microsoft Learn articles related to searched concepts, providing documentation references alongside other results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 345.9,
+      "t_end": 368.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "learn articles"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Localization-specific metadata queries",
+      "description": "Ability to query metadata specific to localizations such as New Zealand, including changes in BC versions and enum values related to that localization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 368.2,
+      "t_end": 427,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "localizations",
+        "metadata",
+        "enum values"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "customer table",
+      "t": 242.1
+    },
+    {
+      "type": "table",
+      "name": "postcode table",
+      "t": 259.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    },
+    {
+      "name": "Waldo",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 20.8,
+      "text": "It's called the BC Observatory because what if the world of Business Central was a whole galaxy",
+      "why_it_matters": "Explains the core concept and naming of the BC Observatory tool as a metaphor for exploring the Business Central universe.",
+      "check": "exact"
+    },
+    {
+      "t": 79,
+      "text": "He took in Microsoft Learn. He took in the source code from everything from BC 28 to BC 30.",
+      "why_it_matters": "Describes the data sources powering the Observatory, including BC versions covered and Microsoft Learn documentation.",
+      "check": "exact"
+    },
+    {
+      "t": 126.1,
+      "text": "results in in a site with 30 000 pages in in markdown and an mcp server",
+      "why_it_matters": "Quantifies the scope of the documentation generated and indicates both a website and programmatic API access.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 259.1,
+      "text": "field seven in the customer table, table 18 is city at 630 field. It has a table relation to the postcode table, table 225.",
+      "why_it_matters": "Demonstrates the MCP server's capability to return detailed field metadata including table relations and conditional logic.",
+      "check": "exact"
+    },
+    {
+      "t": 335.6,
+      "text": "instead of the the usual simple bits endpoints that mostly return JSON, it's it's actually readable stuff",
+      "why_it_matters": "Contrasts the BC Observatory's human-readable output with typical API responses, highlighting a key advantage.",
+      "check": "exact"
+    },
+    {
+      "t": 458.7,
+      "text": "It's free, it's awesome. So, I suggest you go take a look at it.",
+      "why_it_matters": "Confirms the BC Observatory is free and available for public use.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 304.5,
+      "kind": "other",
+      "text": "this one it might need to work a bit more on"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022477999999999998
+    }
+  ]
+}

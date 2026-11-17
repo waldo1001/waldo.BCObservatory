@@ -2,21 +2,27 @@
   "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchase-return-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchase-return-overview",
   "title": "Purchases Return Overview (Power BI Report)",
-  "blob": "da1f7c0ef55a0db4f42e3f81b6a10ce95cbab12c",
-  "summary": "Purchases Return Overview Power BI report tracks and analyzes purchase returns, showing reasons for returns, return rates, and financial impact on the organization. Use it to identify quality issues, optimize supplier relationships, and reduce return frequency.",
+  "blob": "b7c3fd7d19365693c8c900ff58ac56b479ad6ec2",
+  "summary": "The Purchase Return Overview Power BI report tracks and analyzes purchase returns by vendor, reason, and type to identify return trends and their financial impact on the organization.",
   "systems": [
     "purchasing",
     "reporting"
   ],
   "topics": [
     "power bi",
-    "purchasing analytics",
-    "returns analysis",
-    "quality control",
+    "reporting",
+    "purchase returns",
+    "analytics",
+    "kpi",
     "vendor performance",
-    "credit memos"
+    "return analysis"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Purchase Return Overview"
+    }
+  ],
   "features": [
     "Return Rate (Amount)",
     "Return Rate (Qty.)",
@@ -32,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002483,
-      "pages_in_call": 8
+      "cost_usd": 0.003453,
+      "pages_in_call": 1
     }
   ]
 }

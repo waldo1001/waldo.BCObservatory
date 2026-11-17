@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/14007",
+  "number": 14007,
+  "title": "Obsolete Create Product Information with Copilot",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The Create Product Information with Copilot app is discontinued and its functionality is obsoleted. The upgrade codeunit unregisters the Copilot capability once per database, a notification directs users to modern search instead, and most objects are wrapped in obsolescence guards with Pending state for 30.0 and Removed state for 33.0.",
+  "key_points": [
+    "Copilot capability for item substitution suggestions is unregistered via upgrade codeunit, guarded by upgrade tag MS-659006-UnregisterCreateProductInfoCapability-20261112",
+    "Subscriber to OnRegisterCopilotCapability removed to prevent re-registration when capabilities page is opened",
+    "New notification in Item Substitution Entry page directs users to use modern search instead, with don't show again option",
+    "Most app objects (codeunits, pages, table extension, enums) marked obsolete with Pending state for version 30.0, transitioning to Removed in 33.0",
+    "App removed from build configuration so it no longer installs on new environments"
+  ],
+  "change_kind": "obsoletion",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot",
+    "inventory"
+  ],
+  "quote": "Copilot item substitution suggestions are no longer available. Select Use modern search in Search on the Items list to find alternative substitutions.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.008731,
+    "changes_in_call": 1
+  }
+}

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-location",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:09.306Z",
-      "blob": "649997c4592e3efa6c22196565c7362071279e3b",
+      "at": "2026-11-17T00:20:06.003Z",
+      "blob": "6df1cd374ddc0de265b59d200912d247c889e327",
       "words": 259,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:15.227Z",
+      "at": "2026-11-17T00:20:14.052Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003345
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:15.229Z",
+      "at": "2026-11-17T00:20:14.053Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:15.230Z",
+      "at": "2026-11-17T00:20:14.054Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:15.232Z",
+      "at": "2026-11-17T00:20:14.054Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-purchases-by-location.md",
     "description": "Analyze purchase amounts and quantities by warehouse location in Power BI to compare purchasing patterns and explore item and vendor details.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d92045879e8f4a20448a4fbce095e175325f6dcf437f7c0e0142bb918c0cd804"
+  "output_hash": "ba4d0297656439d1ef74859cb9219a3942f3cb0654d1fd347133df834c58dc01"
 }

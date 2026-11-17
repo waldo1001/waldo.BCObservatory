@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13807",
+  "number": 13807,
+  "title": "[main] Bug 657914 Total Number of Supplies has incorrect type and tooltip in the VAT Report page of the German version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The Total Number of Supplies field in the VAT Report page is corrected to display as a whole number instead of an amount with decimal places in the German version.",
+  "key_points": [
+    "Field 33 in VATReportHeader is a Decimal FlowField that was incorrectly formatted as an amount with two decimal places",
+    "Changed AutoFormatType and DecimalPlaces settings to display the field as a whole number, matching the source field behavior",
+    "Avoids a breaking schema change by keeping the field as Decimal type while correcting its display format",
+    "Fixes incorrect tooltip and type presentation in the German VAT Report page"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Total Number of Supplies has incorrect type and tooltip in the VAT Report page of the German version.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003735,
+    "changes_in_call": 1
+  }
+}

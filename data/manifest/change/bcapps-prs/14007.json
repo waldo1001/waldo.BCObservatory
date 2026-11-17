@@ -6,10 +6,35 @@
   "title": "Obsolete Create Product Information with Copilot",
   "url": "https://github.com/microsoft/BCApps/pull/14007",
   "published_at": "2026-11-16T12:57:43Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-17T00:16:35.786Z"
+    },
+    "fetched": {
+      "at": "2026-11-17T00:19:07.081Z",
+      "change_class": "code",
+      "files": 20,
+      "al": 19,
+      "objects": 18,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-17T00:19:20.618Z",
+      "prompt": "extract-change@1",
+      "kind": "obsoletion",
+      "behavior": true,
+      "cost_usd": 0.008731
+    },
+    "linked": {
+      "at": "2026-11-17T00:19:20.745Z",
+      "objects": 18,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-17T00:19:20.757Z",
+      "path": "content/changes/bcapps/14007.md"
     }
   },
   "input_hash": "e6058c9284f303c69aeb8b836ac9a3c110fec57c:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "obsolete create product information with copilot"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4d6594424c66606343ca1b5ad93b53f2e5840fd7598b68812069a84a25d199ef"
 }
