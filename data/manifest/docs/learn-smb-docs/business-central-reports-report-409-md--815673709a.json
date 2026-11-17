@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-409",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.312Z",
-      "blob": "ad852842c162c3f87bf3f3d36902c7f348008206",
-      "words": 430,
+      "at": "2026-11-17T00:27:49.587Z",
+      "blob": "024d7c09f67a864f935adfd159d770810e248b13",
+      "words": 442,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:08.595Z",
+      "at": "2026-11-17T00:28:02.999Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002446
+      "cost_usd": 0.003253
     },
     "summarized": {
-      "at": "2026-10-06T18:54:08.613Z",
+      "at": "2026-11-17T00:28:03.000Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:08.614Z",
+      "at": "2026-11-17T00:28:03.001Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:08.615Z",
+      "at": "2026-11-17T00:28:03.002Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-409.md",
-    "description": "View the availability of items for shipment on purchase documents, such as return orders.",
-    "ms_date": "2024-10-14",
+    "description": "Review reserved item availability on purchase documents. Choose document or line details and optionally update quantities on purchase order lines.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 430,
+    "ai_usage": "ai-assisted",
+    "words": 442,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "628ad8fcc829b61c968d356abdd85b3d1b92fd20bfef581963e6e2ff2e4b0d4f"
+  "output_hash": "eb674bf4d3954863f995b34bb25692eebae27f020c7a006c595407ecab6d2643"
 }

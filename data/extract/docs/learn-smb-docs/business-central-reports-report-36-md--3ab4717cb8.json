@@ -1,18 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-36.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-36",
-  "title": "Fiscal Year Balance (report)",
-  "blob": "de3baaac23ae5b1c491825954ad4968a8eda1a80",
-  "summary": "Fiscal Year Balance report displays opening and closing balances for each general ledger account within a selected fiscal year to support year-end close and reconciliation across periods.",
+  "title": "Fiscal Year Balance Overview (Report)",
+  "blob": "afa963fde2d0be017c890e57a88e81645ec9072b",
+  "summary": "The Fiscal Year Balance report displays opening balances, debit and credit movements, and period-end balances for general ledger accounts during fiscal year-end close. Finance teams use it to verify correct account balances and reconcile account movements across fiscal years.",
   "systems": [
-    "finance"
+    "finance",
+    "reporting"
   ],
   "topics": [
-    "fiscal year",
+    "fiscal year-end close",
     "general ledger",
     "account balances",
-    "reconciliation",
-    "year-end close"
+    "financial reconciliation",
+    "balance sheet",
+    "income statement"
   ],
   "objects": [
     {
@@ -21,10 +23,15 @@
     }
   ],
   "features": [
-    "opening and closing balances",
-    "fiscal year filtering",
-    "account type filtering",
-    "balance carry forward verification"
+    "opening balance",
+    "debit and credit movements",
+    "period-end balances",
+    "balance sheet and income statement columns",
+    "account filtering",
+    "global dimensions filtering",
+    "indentation level",
+    "rounding factor",
+    "show totals"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002228,
-      "pages_in_call": 8
+      "cost_usd": 0.00334,
+      "pages_in_call": 1
     }
   ]
 }

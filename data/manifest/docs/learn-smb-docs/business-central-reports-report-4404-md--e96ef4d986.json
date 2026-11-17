@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Vendor - Top 10 List Excel (Excel report)",
+  "title": "Vendor - Top List (Excel Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4404",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.322Z",
-      "blob": "53012b34fbfd715e2031ef0a2763c02f433437df",
-      "words": 605,
+      "at": "2026-11-17T00:27:50.529Z",
+      "blob": "6b6377169ca818d338d82e747e17d9e55c0e2c73",
+      "words": 633,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:08.597Z",
+      "at": "2026-11-17T00:28:03.013Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002446
+      "cost_usd": 0.003782
     },
     "summarized": {
-      "at": "2026-10-06T18:54:08.634Z",
+      "at": "2026-11-17T00:28:03.014Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:08.635Z",
+      "at": "2026-11-17T00:28:03.015Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:08.643Z",
+      "at": "2026-11-17T00:28:03.015Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-4404.md",
-    "description": "Analyze the effect of vendors on cash flow, and prioritize vendor payments.",
-    "ms_date": "2024-12-15",
+    "description": "Rank vendors by purchase amounts or balances in local currency in Excel. Choose the number of vendors and posting-date filters for your analysis.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 605,
+    "ai_usage": "ai-assisted",
+    "words": 633,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2f4e2ffee760296ed47bbe3fc177be5a2b89762388d318f7b0c9e5c351e88bf9"
+  "output_hash": "1611a6489e166390d0011cd7694815ae2fe4ef7f765345ee10b2f7771cf26999"
 }

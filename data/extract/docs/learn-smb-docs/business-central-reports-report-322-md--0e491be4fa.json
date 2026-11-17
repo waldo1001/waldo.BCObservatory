@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-322.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-322",
-  "title": "Aged Accounts Payable (report)",
-  "blob": "e1bfd8b697148d3326af23160bee75f293343320",
-  "summary": "Aged Accounts Payable report shows outstanding invoice and payment amounts for vendors, calculates aging periods, and identifies the company's financial health for monitoring vendor payments and reconciling subledgers.",
+  "title": "Aged Accounts Payable (Report)",
+  "blob": "64e693c6fe5eac7d64cf5e9a5db98a500a61c7cf",
+  "summary": "The Aged Accounts Payable report displays outstanding vendor invoices, credit memos, and payments grouped by due date, posting date, or document date with aging period analysis. It's used by procurement specialists, vendor managers, and accounts payable specialists to monitor payments, reconcile subledgers, and analyze payables distribution.",
   "systems": [
     "purchasing",
-    "finance"
+    "finance",
+    "reporting"
   ],
   "topics": [
-    "aged payables",
+    "aged accounts payable",
     "vendor payments",
-    "financial reporting",
-    "accounts payable",
-    "vendor performance"
+    "outstanding invoices",
+    "aging analysis",
+    "accounts payable reconciliation"
   ],
   "objects": [
     {
@@ -22,21 +23,24 @@
     }
   ],
   "features": [
-    "aging periods",
-    "vendor balance calculation",
-    "outstanding document breakdown",
-    "percentage calculations",
-    "vendor performance monitoring"
+    "Aged As Of filtering",
+    "Period Length grouping",
+    "Aging by selection",
+    "Heading Type options",
+    "Percentage calculation",
+    "Vendor summary and detailed views"
   ],
-  "versions": [],
+  "versions": [
+    "version 28.0"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004707,
-      "pages_in_call": 8
+      "cost_usd": 0.003797,
+      "pages_in_call": 1
     }
   ]
 }

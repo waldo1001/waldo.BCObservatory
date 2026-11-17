@@ -1,20 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-37.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-37",
-  "title": "Balance Comp. - Prev. Year (report)",
-  "blob": "14f50d7bd5e8e5cd2ef818b2c61ca1d0391078cf",
-  "summary": "Balance Comp. - Prev. Year report provides side-by-side comparison of account balances across two fiscal years to identify variances and trends in financial performance.",
+  "title": "Balance Comp. - Prev. Year (Report)",
+  "blob": "31f2ade97fea6db37a5fa0373cafa306dbc1f11e",
+  "summary": "The Balance Comp. - Prev. Year report compares debit and credit movements and ending balances between two date ranges, such as the same period in prior and current years. Use it for variance analysis, budgeting, forecasting, and trend identification at the account and dimension level.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
-    "financial analysis",
+    "comparison report",
     "variance analysis",
-    "year-over-year comparison",
-    "account balances",
+    "financial trends",
     "budgeting",
-    "forecasting"
+    "account balances",
+    "dimension filtering"
   ],
   "objects": [
     {
@@ -23,11 +23,13 @@
     }
   ],
   "features": [
-    "two fiscal year comparison",
-    "dimension filtering",
-    "account range filtering",
-    "variance identification",
-    "trend analysis"
+    "Starting Date and Ending Date configuration",
+    "Previous Starting Date and Previous Ending Date",
+    "Dimension filtering",
+    "Account range filtering",
+    "Rounding factor selection",
+    "Indentation level adjustment",
+    "Fiscal year validation"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002446,
-      "pages_in_call": 7
+      "cost_usd": 0.00343,
+      "pages_in_call": 1
     }
   ]
 }

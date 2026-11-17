@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Trial Balance by Period (report)",
+  "title": "Trial Balance by Period (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-38",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.302Z",
-      "blob": "5c8c78adfafd8cbae79a6fa8948f9e7ba9f7bc38",
+      "at": "2026-11-17T00:27:49.201Z",
+      "blob": "6c9bb169444aa8f17b52f655a7745ab4f740b3c3",
       "words": 480,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:08.594Z",
+      "at": "2026-11-17T00:28:03.094Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002446
+      "cost_usd": 0.005929
     },
     "summarized": {
-      "at": "2026-10-06T18:54:08.606Z",
+      "at": "2026-11-17T00:28:03.095Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:08.607Z",
+      "at": "2026-11-17T00:28:03.096Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:08.608Z",
+      "at": "2026-11-17T00:28:03.097Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-38.md",
-    "description": "Get a detailed breakdown of your closing balances over 12 accounting periods for each general ledger account.",
-    "ms_date": "2024-10-18",
+    "description": "Review general ledger opening balances and net changes across up to 12 accounting periods to compare period movements and investigate trends.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 480,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cc17c8db337a4bffdb3b12e3d945cb860c06d72fe4ba6ec8e4cf2959647a9ce6"
+  "output_hash": "f56c18f33c3bbbae4491dd5889958460eb445dc4707724ea29027f03eb35cef7"
 }

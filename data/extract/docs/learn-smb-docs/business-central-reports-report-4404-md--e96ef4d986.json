@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-4404.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4404",
-  "title": "Vendor - Top 10 List Excel (Excel report)",
-  "blob": "53012b34fbfd715e2031ef0a2763c02f433437df",
-  "summary": "Vendor - Top 10 List Excel report shows summarized purchase and balance data for top vendors in local currency to monitor vendor performance and manage cash flow.",
+  "title": "Vendor - Top List (Excel Report)",
+  "blob": "6b6377169ca818d338d82e747e17d9e55c0e2c73",
+  "summary": "The Vendor - Top List Excel report ranks vendors by purchase amounts or balances in local currency, helping procurement managers, accounts payable specialists, and controllers review purchasing concentration, prioritize payments, and forecast cash flow.",
   "systems": [
     "purchasing",
     "finance",
@@ -11,25 +11,28 @@
   ],
   "topics": [
     "vendor analysis",
-    "purchase volume",
-    "vendor performance",
-    "cash flow",
-    "vendor management",
-    "vendor ranking"
+    "top vendors",
+    "purchase amounts",
+    "vendor balances",
+    "excel report",
+    "purchasing concentration",
+    "cash flow forecasting"
   ],
   "objects": [
     {
       "type": "report",
-      "name": "Vendor - Top 10 List Excel"
+      "name": "Vendor - Top List (Excel)"
     }
   ],
   "features": [
-    "configurable vendor count",
-    "purchase amounts",
-    "balance data",
-    "vendor ranking",
-    "date filtering",
-    "hierarchy grouping"
+    "Quantity parameter for vendor count",
+    "Date Filter for posting dates",
+    "Balance (LCY) calculation",
+    "Show parameter for ranking options",
+    "Top Vendor List (Print) worksheet",
+    "Top Vendor List (Analysis) worksheet",
+    "TopVendorData worksheet",
+    "Filters and slicers"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002446,
-      "pages_in_call": 7
+      "cost_usd": 0.003782,
+      "pages_in_call": 1
     }
   ]
 }

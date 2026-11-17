@@ -1,18 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-329.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-329",
-  "title": "Vendor - Trial Balance (report)",
-  "blob": "590ffe6e3a1d1e545255c94a22387ce2fb874c62",
-  "summary": "Vendor - Trial Balance report shows beginning balance and net change for vendors segmented by vendor posting group to support reconciliation against general ledger payables accounts.",
+  "title": "Vendor - Trial Balance (Report)",
+  "blob": "cf402e1d91ff4569f2296fb15161833e2213a1c2",
+  "summary": "The Vendor - Trial Balance report displays beginning balance, net changes, and fiscal-year-to-date amounts for vendors segmented by posting group, helping procurement managers, vendor managers, and accounts payable specialists analyze vendor balances and reconcile subledgers.",
   "systems": [
     "purchasing",
-    "finance"
+    "finance",
+    "reporting"
   ],
   "topics": [
-    "vendor balances",
+    "vendor balance",
     "trial balance",
     "posting groups",
     "reconciliation",
+    "accounts payable",
     "fiscal year"
   ],
   "objects": [
@@ -22,10 +24,12 @@
     }
   ],
   "features": [
+    "vendor balance analysis",
+    "fiscal-year-to-date amounts",
     "vendor posting group segmentation",
-    "beginning balance",
-    "net change calculation",
-    "year-to-date amounts"
+    "subledger reconciliation",
+    "date filtering",
+    "net change calculation"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002228,
-      "pages_in_call": 8
+      "cost_usd": 0.003415,
+      "pages_in_call": 1
     }
   ]
 }

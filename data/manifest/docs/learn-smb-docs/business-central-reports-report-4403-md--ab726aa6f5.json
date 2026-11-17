@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Aged Accounts Payables (Excel report)",
+  "title": "Aged Accounts Payable (Excel Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4403",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.317Z",
-      "blob": "ec263e7e8f99eb331e6ea68d52f0199690d8c5df",
-      "words": 361,
+      "at": "2026-11-17T00:27:50.185Z",
+      "blob": "3b738a70897af912586557dc7450f19374258ea6",
+      "words": 405,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:08.596Z",
+      "at": "2026-11-17T00:28:03.039Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002446
+      "cost_usd": 0.003701
     },
     "summarized": {
-      "at": "2026-10-06T18:54:08.616Z",
+      "at": "2026-11-17T00:28:03.048Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:08.618Z",
+      "at": "2026-11-17T00:28:03.057Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:08.626Z",
+      "at": "2026-11-17T00:28:03.058Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-4403.md",
-    "description": "Analyze vendor balances at the end of each period. Helps ensure the reliability of what you owe your vendors.",
-    "ms_date": "2024-12-14",
+    "description": "Analyze vendor remaining amounts as of a selected date in Excel, with configurable aging periods, currency views, and document-level report data.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 361,
+    "ai_usage": "ai-assisted",
+    "words": 405,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a55ae0ff8685b653287bae5adc8e18542a7ff45c8f476b971e7f543f587fb198"
+  "output_hash": "c1dc23ad7860ca5d39fb4f90288339d24ab27031c6d301eeb79f5864010720d9"
 }

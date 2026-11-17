@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Reconcile Cust. and Vend. Accs. (report)",
+  "title": "Reconcile Cust. and Vend. Accs. (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-33",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.288Z",
-      "blob": "12616465b7db7fa0e57733d8273363bbe85e8c62",
-      "words": 552,
+      "at": "2026-11-17T00:27:44.587Z",
+      "blob": "0ffe140b4641c5ba403e5c4c5e584eed4831b903",
+      "words": 558,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:37.245Z",
+      "at": "2026-11-17T00:27:50.116Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002228
+      "cost_usd": 0.003706
     },
     "summarized": {
-      "at": "2026-10-06T18:53:37.283Z",
+      "at": "2026-11-17T00:27:50.118Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:37.284Z",
+      "at": "2026-11-17T00:27:50.119Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:37.291Z",
+      "at": "2026-11-17T00:27:50.120Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-33.md",
-    "description": "Understand the transactions for control general ledger accounts, and find discrepancies between your general ledger and customer and vendor ledgers.",
-    "ms_date": "2025-06-18",
+    "description": "Understand the transactions for general ledger control accounts, and find discrepancies between your general ledger and customer and vendor ledgers.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 552,
+    "ai_usage": "ai-assisted",
+    "words": 558,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6bb1011de31c2286a1683e18658547235e87a7e1d5cc632ad1197c0a07f4e902"
+  "output_hash": "e003d112ef0930bf7ae36eb2c29603d0870a4a4ed6a79b33702a1c9b3a0580f9"
 }
