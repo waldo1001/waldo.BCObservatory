@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-104.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-104",
-  "title": "Customer - Detail Trial Balance (report)",
-  "blob": "eef3919b17476dfa86386ff8b2cced0dd377ef63",
-  "summary": "Customer - Detail Trial Balance report shows customer ledger entries filtered by a specified date to verify completeness and accuracy of customer transactions for accounting, financial analysis, and customer service purposes.",
+  "title": "Customer - Detail Trial Balance (Report)",
+  "blob": "b3086c81b36f1703ddfffd3fe8fb218fc71a9f1d",
+  "summary": "The Customer - Detail Trial Balance report displays customer ledger entries for a specified date range, including opening balances, document references, amounts, and running balances. Use this report to verify customer entries are complete and accurate, analyze customer transaction trends, or support customer service inquiries.",
   "systems": [
     "sales",
     "finance",
@@ -13,6 +13,7 @@
     "customer ledger",
     "trial balance",
     "accounts receivable",
+    "financial reporting",
     "transaction verification"
   ],
   "objects": [
@@ -22,10 +23,12 @@
     }
   ],
   "features": [
-    "date-filtered ledger entries",
-    "transaction verification",
-    "discrepancy identification",
-    "financial statement preparation"
+    "opening balance",
+    "document references",
+    "running balance in local currency",
+    "show amounts in lcy",
+    "new page per customer",
+    "exclude opening balance only entries"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001229,
-      "pages_in_call": 8
+      "cost_usd": 0.003389,
+      "pages_in_call": 1
     }
   ]
 }

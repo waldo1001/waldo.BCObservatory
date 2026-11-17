@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Customer - Top 10 list (report)",
+  "title": "Customer - Top 10 List (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-111",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.110Z",
-      "blob": "e309101ea9d14173fc5c87eb994ae1c4f0b9b35c",
-      "words": 157,
+      "at": "2026-11-17T00:26:36.995Z",
+      "blob": "bcb09fdb0c1fc3d2e0c0330e3dc3d9d21e3547d9",
+      "words": 174,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:08.320Z",
+      "at": "2026-11-17T00:26:43.211Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001247
+      "cost_usd": 0.00337
     },
     "summarized": {
-      "at": "2026-10-06T18:53:08.390Z",
+      "at": "2026-11-17T00:26:43.213Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:08.391Z",
+      "at": "2026-11-17T00:26:43.214Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:08.393Z",
+      "at": "2026-11-17T00:26:43.215Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-111.md",
-    "description": "Review customers with the most transactions within a selected period to identify sales trends and manage collectable debts.",
-    "ms_date": "2024-10-03",
+    "description": "Rank customers by sales amount or current balance in local currency, select how many to show, and find the replacement Excel report.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 157,
+    "ai_usage": "ai-assisted",
+    "words": 174,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fb6efc59f373e94b778b8f4902cb6ec445cd7336d64fc05d40ac4b5f28a43e1a"
+  "output_hash": "93757b8944073998f38cbf0c37a089a65ac4c8389e88d81f3b83b0d5e4ec5da2"
 }

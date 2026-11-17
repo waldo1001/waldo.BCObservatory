@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Customer - Order Detail (report)",
+  "title": "Customer - Order Detail (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-108",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.673Z",
-      "blob": "7285ffe4f924160eb05c499e0fc673848f68af98",
-      "words": 335,
+      "at": "2026-11-17T00:26:31.514Z",
+      "blob": "3c61b60df41012123aca7391c0886caef1034b5f",
+      "words": 376,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:46:54.154Z",
+      "at": "2026-11-17T00:26:36.909Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002247
+      "cost_usd": 0.003322
     },
     "summarized": {
-      "at": "2026-10-06T18:46:57.690Z",
+      "at": "2026-11-17T00:26:36.911Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:46:57.691Z",
+      "at": "2026-11-17T00:26:36.912Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:46:57.692Z",
+      "at": "2026-11-17T00:26:36.914Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-108.md",
-    "description": "Analyze outstanding sales orders to understand your expected sales volume grouped by customer. To highlight overdue back orders, compare overall outstanding shipments with the planned shipment dates.",
-    "ms_date": "2024-10-03",
+    "description": "Review outstanding sales order lines by bill-to customer, compare shipment dates with the work date, and identify quantities on back order.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 335,
+    "ai_usage": "ai-assisted",
+    "words": 376,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e4ff77db0e1131cd91a950f9b8cb1286d7a2806e92137c12990defa1cc8245d6"
+  "output_hash": "a9b6e726d5f028b67b80424c7e7b292e0991a98ddf9e6b256aace0a8c4794b24"
 }

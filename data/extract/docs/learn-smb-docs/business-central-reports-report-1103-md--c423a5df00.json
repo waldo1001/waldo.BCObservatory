@@ -1,15 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-1103.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1103",
-  "title": "Resource Register (report)",
-  "blob": "430a4825c19c615a640d4b26d99e36753c26eac6",
-  "summary": "The Resource Register report displays selected resource registers with filtering options to manage large data sets in project management.",
+  "title": "Resource Register Entries (report)",
+  "blob": "f3cc21e6e0448e1dd278d2cde0c965255c07c708",
+  "summary": "The Resource Register report displays resource registers and ledger entries, showing quantities, costs, prices, and posting dates. Filter by register number to focus on specific resource ledger entries within defined ranges.",
   "systems": [
-    "projects"
+    "projects",
+    "reporting"
   ],
   "topics": [
     "resource register",
-    "project reports",
+    "reporting",
+    "resource ledger entries",
+    "project management",
     "filtering"
   ],
   "objects": [
@@ -19,8 +22,14 @@
     }
   ],
   "features": [
-    "resource register display",
-    "filter options"
+    "register filtering",
+    "entry number filtering",
+    "ledger entry display",
+    "quantity tracking",
+    "cost tracking",
+    "price tracking",
+    "document reference",
+    "posting date display"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001247,
-      "pages_in_call": 7
+      "cost_usd": 0.002959,
+      "pages_in_call": 1
     }
   ]
 }

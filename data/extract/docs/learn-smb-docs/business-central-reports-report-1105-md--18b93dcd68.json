@@ -1,16 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-1105.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1105",
-  "title": "Resource Statistics (report)",
-  "blob": "2540b6fa42cc5946ae1333115bfc25bce514de6e",
-  "summary": "The Resource Statistics report shows project usage and sales amounts in local currency with percentage invoiced data for each resource.",
+  "title": "Resource Usage and Sales Statistics (report)",
+  "blob": "c5d6851489a746287845c903af7cdf26e0c9f663",
+  "summary": "The Resource Statistics report displays resource usage and sales prices from ledger entries in local currency, including percentage invoiced and date filtering capabilities.",
   "systems": [
-    "projects"
+    "projects",
+    "reporting"
   ],
   "topics": [
     "resource statistics",
-    "project reports",
-    "usage tracking"
+    "usage reporting",
+    "sales prices",
+    "project analytics",
+    "ledger entries"
   ],
   "objects": [
     {
@@ -19,10 +22,10 @@
     }
   ],
   "features": [
-    "project usage amounts",
-    "sales amounts",
+    "usage and sales prices",
     "percentage invoiced",
-    "resource totals"
+    "date filter",
+    "local currency"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001247,
-      "pages_in_call": 7
+      "cost_usd": 0.00269,
+      "pages_in_call": 1
     }
   ]
 }

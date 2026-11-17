@@ -1,18 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-11.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-11",
-  "title": "G/L - VAT Reconciliation (report)",
-  "blob": "a3d89ceaf456107a79447d59cdb317edb82942f7",
-  "summary": "G/L - VAT Reconciliation report compares VAT postings in the general ledger to underlying VAT entries to ensure transaction-level support for reported VAT amounts and audit readiness.",
+  "title": "G/L - VAT Reconciliation (Report)",
+  "blob": "c74248de3001d053810188b3e72922d84b8c9d0d",
+  "summary": "The G/L - VAT Reconciliation report uses VAT statement lines to show amounts and VAT by G/L account, comparing general ledger amounts with VAT entries. Use it during VAT filing periods to validate that posted VAT entries match the VAT amounts in your general ledger.",
   "systems": [
-    "finance",
-    "reporting"
+    "finance"
   ],
   "topics": [
-    "vat reconciliation",
+    "vat",
+    "reconciliation",
+    "reporting",
     "tax compliance",
-    "general ledger",
-    "audit readiness"
+    "audit",
+    "general ledger"
   ],
   "objects": [
     {
@@ -21,10 +22,13 @@
     }
   ],
   "features": [
-    "vat posting verification",
-    "vat entry validation",
-    "tax filing support",
-    "audit preparation"
+    "Account Totaling",
+    "VAT Entry Totaling",
+    "Starting Date filter",
+    "Ending Date filter",
+    "VAT entry state selection",
+    "Posting date comparison",
+    "VAT reporting date comparison"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001229,
-      "pages_in_call": 8
+      "cost_usd": 0.003626,
+      "pages_in_call": 1
     }
   ]
 }

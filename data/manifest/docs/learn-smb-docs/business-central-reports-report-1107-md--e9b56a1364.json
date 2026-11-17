@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1107",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.105Z",
-      "blob": "ecde7768dadb6ad91522464d3d3a67e09805bede",
-      "words": 76,
+      "at": "2026-11-17T00:26:36.945Z",
+      "blob": "7b4309c74fca63655386d115ea0f4eff2b888566",
+      "words": 108,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:08.312Z",
+      "at": "2026-11-17T00:26:43.249Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001247
+      "cost_usd": 0.003097
     },
     "summarized": {
-      "at": "2026-10-06T18:53:08.386Z",
+      "at": "2026-11-17T00:26:43.250Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:08.388Z",
+      "at": "2026-11-17T00:26:43.250Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:08.389Z",
+      "at": "2026-11-17T00:26:43.251Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1107.md",
-    "description": "Analyze the costs and incurred costs for each project resource in a period.",
-    "ms_date": "2025-02-18",
+    "description": "Review posted resource usage quantities, direct unit costs, unit costs, and total costs by resource, with posting date and unit of measure filters.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 76,
+    "ai_usage": "ai-assisted",
+    "words": 108,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8d8408bbb81a0de2baa5a0d26299044bd155475697834f827ea11caa184e47ab"
+  "output_hash": "7a0fcc7fc34ca1f164dc51434d865947a07a67451a8790496934aa3385720c4d"
 }

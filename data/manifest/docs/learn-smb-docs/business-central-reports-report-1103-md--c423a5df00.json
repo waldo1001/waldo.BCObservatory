@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Resource Register (report)",
+  "title": "Resource Register Entries (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1103",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.093Z",
-      "blob": "430a4825c19c615a640d4b26d99e36753c26eac6",
-      "words": 71,
+      "at": "2026-11-17T00:26:36.026Z",
+      "blob": "f3cc21e6e0448e1dd278d2cde0c965255c07c708",
+      "words": 101,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:08.295Z",
+      "at": "2026-11-17T00:26:39.822Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001247
+      "cost_usd": 0.002959
     },
     "summarized": {
-      "at": "2026-10-06T18:53:08.344Z",
+      "at": "2026-11-17T00:26:43.186Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:08.346Z",
+      "at": "2026-11-17T00:26:43.188Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:08.347Z",
+      "at": "2026-11-17T00:26:43.188Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1103.md",
-    "description": "Document a resource register's contents for internal or external audits.",
-    "ms_date": "2025-02-18",
+    "description": "Review resource ledger entries within selected registers, including posting dates, documents, resources, quantities, costs, prices, and register totals.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -55,12 +55,12 @@
       }
     ],
     "keywords": [],
-    "ai_usage": null,
-    "words": 71,
+    "ai_usage": "ai-assisted",
+    "words": 101,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bd60de6a2e70d65d83a87d53f1fb91b2645cfcee9cbb1926d300baf60892d429"
+  "output_hash": "ba1e044b09697d5902b14f575f5497f012ce8076b57b2f594cf0a70696371b5e"
 }

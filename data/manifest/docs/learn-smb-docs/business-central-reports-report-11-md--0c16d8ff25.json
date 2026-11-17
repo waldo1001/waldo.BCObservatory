@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "G/L - VAT Reconciliation (report)",
+  "title": "G/L - VAT Reconciliation (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-11",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.084Z",
-      "blob": "a3d89ceaf456107a79447d59cdb317edb82942f7",
-      "words": 221,
+      "at": "2026-11-17T00:26:31.564Z",
+      "blob": "c74248de3001d053810188b3e72922d84b8c9d0d",
+      "words": 318,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:30.006Z",
+      "at": "2026-11-17T00:26:36.881Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001229
+      "cost_usd": 0.003626
     },
     "summarized": {
-      "at": "2026-10-06T18:52:30.028Z",
+      "at": "2026-11-17T00:26:36.882Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:30.029Z",
+      "at": "2026-11-17T00:26:36.883Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:30.030Z",
+      "at": "2026-11-17T00:26:36.884Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-11.md",
-    "description": "Reconciles VAT amounts from the general ledger with VAT entries to ensure accurate tax filings. Use during VAT periods to validate that posted VAT entries match G/L amounts. Apply posting date and VAT period filters for precision.",
-    "ms_date": "2025-06-25",
+    "description": "Compare VAT statement account totals with VAT entries by G/L account, using posting dates for G/L entries and VAT reporting dates for VAT.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -61,12 +61,12 @@
       "audit",
       "filing"
     ],
-    "ai_usage": null,
-    "words": 221,
+    "ai_usage": "ai-assisted",
+    "words": 318,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8971053f323cf2084e57ad7a0acd0a46ed04cea7c2beb7ffbc5974a7ba33b5d1"
+  "output_hash": "4c0fc21684cbc2d41eec9104789f188329be66003e79776f50e79fa62809bcba"
 }

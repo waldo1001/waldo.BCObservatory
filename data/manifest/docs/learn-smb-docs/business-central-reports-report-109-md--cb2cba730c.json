@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-109",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.080Z",
-      "blob": "3e3103adfc9db4e715d9212147119d003577d1fd",
+      "at": "2026-11-17T00:26:31.579Z",
+      "blob": "95591e924073fbe5564afafa1dbd51ed428e56da",
       "words": 110,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:30.005Z",
+      "at": "2026-11-17T00:26:36.512Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.001229
+      "objects": 3,
+      "cost_usd": 0.003348
     },
     "summarized": {
-      "at": "2026-10-06T18:52:30.025Z",
+      "at": "2026-11-17T00:26:36.514Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:30.025Z",
+      "at": "2026-11-17T00:26:36.515Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:30.026Z",
+      "at": "2026-11-17T00:26:36.516Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-109.md",
-    "description": "This report is a legacy version of an accounts receivables aging report. We recommend you use the Aged Accounts Receivables report instead.",
-    "ms_date": "2024-10-18",
+    "description": "This report is a legacy version of an accounts receivable aging report. We recommend you use the Aged Accounts Receivables Excel report instead.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 110,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "56864d598af3d085eddc740aaa8ba091935df8e87e198e34a437e5073859d2d7"
+  "output_hash": "d41b9dedca214129f839d4321a20916da63b522f591a128eb2b07ecdc23b6f90"
 }

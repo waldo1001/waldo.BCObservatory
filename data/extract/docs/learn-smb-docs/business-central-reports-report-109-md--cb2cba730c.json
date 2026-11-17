@@ -2,26 +2,37 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-109.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-109",
   "title": "Customer - Summary Aging Simp. (report)",
-  "blob": "3e3103adfc9db4e715d9212147119d003577d1fd",
-  "summary": "Customer - Summary Aging Simp. is a legacy accounts receivable aging report; Business Central recommends using the Aged Accounts Receivables Excel report instead.",
+  "blob": "95591e924073fbe5564afafa1dbd51ed428e56da",
+  "summary": "Customer - Summary Aging Simp. is a legacy accounts receivables aging report; the page recommends using the Aged Accounts Receivables Excel report instead.",
   "systems": [
-    "sales",
     "finance",
+    "sales",
     "reporting"
   ],
   "topics": [
     "accounts receivable",
-    "aging analysis",
-    "legacy reports"
+    "aging",
+    "legacy report",
+    "financial analysis"
   ],
   "objects": [
     {
       "type": "report",
       "name": "Customer - Summary Aging Simp."
+    },
+    {
+      "type": "report",
+      "name": "Aged Accounts Receivables Excel"
+    },
+    {
+      "type": "report",
+      "name": "Aged Accounts Receivables"
     }
   ],
   "features": [
-    "aging analysis"
+    "aged receivables analysis",
+    "summary aging",
+    "accounts receivable reporting"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001229,
-      "pages_in_call": 8
+      "cost_usd": 0.003348,
+      "pages_in_call": 1
     }
   ]
 }

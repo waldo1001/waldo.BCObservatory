@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Resource Utilization (report)",
+  "title": "Resource Capacity and Utilization (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1106",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.101Z",
-      "blob": "8a05909e4db739dcf6cea36c4ef17660e27ce408",
-      "words": 62,
+      "at": "2026-11-17T00:26:36.554Z",
+      "blob": "07b05c952b6aeb283ec72975bfb4e36c5d140f8c",
+      "words": 82,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:08.310Z",
+      "at": "2026-11-17T00:26:43.193Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001247
+      "cost_usd": 0.002784
     },
     "summarized": {
-      "at": "2026-10-06T18:53:08.382Z",
+      "at": "2026-11-17T00:26:43.194Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:08.383Z",
+      "at": "2026-11-17T00:26:43.195Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:08.384Z",
+      "at": "2026-11-17T00:26:43.195Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1106.md",
-    "description": "Analyze capacity and usage for each project resource for a prior period and check the balance remaining to determine if each resource was under or over utilized.",
-    "ms_date": "2025-02-18",
+    "description": "Analyze capacity and usage for each resource for a prior period and check the balance remaining to determine if each resource was underutilized or overutilized.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 62,
+    "ai_usage": "ai-assisted",
+    "words": 82,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "437f80d100595f5e26f11b622c6682ae16d2d6fc70f64257596a57f874560d84"
+  "output_hash": "1beef6d7d3205cc5a4a0e21f4d985e268a865db20c34d35985b328e984dd3356"
 }

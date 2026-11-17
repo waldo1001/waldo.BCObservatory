@@ -1,16 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-111.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-111",
-  "title": "Customer - Top 10 list (report)",
-  "blob": "e309101ea9d14173fc5c87eb994ae1c4f0b9b35c",
-  "summary": "The Customer - Top 10 list report identifies top customers by sales transactions and balances within a period, with bar or pie chart visualization options.",
+  "title": "Customer - Top 10 List (Report)",
+  "blob": "bcb09fdb0c1fc3d2e0c0330e3dc3d9d21e3547d9",
+  "summary": "The Customer - Top 10 list report ranks customers by Sales (LCY) or Balance (LCY) to identify sales trends, collectable debts, and revenue sources. This report was marked obsolete in version 28; use Customer Top List Excel (report) instead.",
   "systems": [
-    "sales"
+    "sales",
+    "reporting"
   ],
   "topics": [
     "customer analysis",
-    "sales trends",
-    "top customers"
+    "sales reporting",
+    "top customers",
+    "rankings",
+    "bar charts",
+    "pie charts"
   ],
   "objects": [
     {
@@ -19,21 +23,24 @@
     }
   ],
   "features": [
-    "customer ranking by sales",
-    "transaction filtering",
-    "balance overview",
-    "chart visualization",
-    "sales volume analysis"
+    "Sales (LCY) ranking",
+    "Balance (LCY) ranking",
+    "Date Filter",
+    "Number of Customers",
+    "bar chart visualization",
+    "pie chart visualization"
   ],
-  "versions": [],
+  "versions": [
+    "version 28"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001247,
-      "pages_in_call": 7
+      "cost_usd": 0.00337,
+      "pages_in_call": 1
     }
   ]
 }

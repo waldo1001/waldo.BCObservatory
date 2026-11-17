@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Customer - Detail Trial Balance (report)",
+  "title": "Customer - Detail Trial Balance (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-104",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.076Z",
-      "blob": "eef3919b17476dfa86386ff8b2cced0dd377ef63",
-      "words": 368,
+      "at": "2026-11-17T00:26:31.532Z",
+      "blob": "b3086c81b36f1703ddfffd3fe8fb218fc71a9f1d",
+      "words": 420,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:30.004Z",
+      "at": "2026-11-17T00:26:36.308Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001229
+      "cost_usd": 0.003389
     },
     "summarized": {
-      "at": "2026-10-06T18:52:30.022Z",
+      "at": "2026-11-17T00:26:36.308Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:30.023Z",
+      "at": "2026-11-17T00:26:36.309Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:30.024Z",
+      "at": "2026-11-17T00:26:36.310Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-104.md",
-    "description": "Check whether all entries for a specific customer are accounted for, or for other internal checks on customer ledgers.",
-    "ms_date": "2024-10-18",
+    "description": "Review customer opening balances, ledger entries, remaining amounts, due dates, and running balances for reconciliation and account inquiries.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 368,
+    "ai_usage": "ai-assisted",
+    "words": 420,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4b4f889414a1b650f411544102440eca04608b275680be6d94609b293febfe9e"
+  "output_hash": "044a0631490b1cfd5a69a48a3180ff9820c6d78548b66072755dcb504e190e18"
 }
