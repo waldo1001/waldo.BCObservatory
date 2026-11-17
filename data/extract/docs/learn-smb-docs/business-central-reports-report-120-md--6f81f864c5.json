@@ -1,20 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-120.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-120",
-  "title": "Aged Accounts Receivables (report)",
-  "blob": "f9b79f845876b15da4eb17570bef155a37b5a6ff",
-  "summary": "Aged Accounts Receivables report shows outstanding customer invoices, credit memos, and payments organized into aging periods with percentage calculations.",
+  "title": "Aged Accounts Receivables (Report)",
+  "blob": "a37b0695b00581913c1db80d43e1031435db93c6",
+  "summary": "The Aged Accounts Receivables report shows outstanding customer invoices and payments grouped by aging periods (by due date, posting date, or document date). It's marked obsolete in version 28 and replaced by an Excel version.",
   "systems": [
     "sales",
-    "finance",
-    "reporting"
+    "reporting",
+    "finance"
   ],
   "topics": [
     "accounts receivable",
-    "customer aging",
-    "outstanding balances",
+    "aging analysis",
     "collections",
-    "credit analysis"
+    "customer debts",
+    "financial reporting"
   ],
   "objects": [
     {
@@ -23,21 +23,25 @@
     }
   ],
   "features": [
-    "aging period calculation",
-    "customer balance summarization",
-    "detailed document breakdown",
-    "percentage of outstanding amounts",
-    "payment history analysis"
+    "aging by due date",
+    "aging by posting date",
+    "aging by document date",
+    "LCY currency consolidation",
+    "period breakdown",
+    "document-level detail",
+    "outstanding balance calculation"
   ],
-  "versions": [],
+  "versions": [
+    "version 28"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002187,
-      "pages_in_call": 7
+      "cost_usd": 0.003711,
+      "pages_in_call": 1
     }
   ]
 }

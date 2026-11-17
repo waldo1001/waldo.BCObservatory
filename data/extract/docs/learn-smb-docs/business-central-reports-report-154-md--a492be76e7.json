@@ -1,19 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-154.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-154",
-  "title": "Income Statement (report)",
-  "blob": "9cc6031f7d760655bd03a831273654efb7911195",
-  "summary": "Income Statement report shows income, cost of goods sold, gross profit, expenses, and net income for a specified date range.",
+  "title": "Income Statement Overview (Report)",
+  "blob": "6a553d2e56969bdda33027bb782cce94750ad210",
+  "summary": "The Income Statement report displays income, cost of goods sold, gross profit, expenses, and net income for a specified period, using financial report definitions from General Ledger Setup.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
     "income statement",
-    "financial statements",
-    "revenue",
-    "expenses",
-    "net income"
+    "financial reporting",
+    "income analysis",
+    "gl accounts"
   ],
   "objects": [
     {
@@ -22,7 +21,13 @@
     }
   ],
   "features": [
-    "date range filtering"
+    "income statement report",
+    "cost of goods sold (COGS)",
+    "gross profit calculation",
+    "expense tracking",
+    "net income",
+    "date period filtering",
+    "financial report definitions"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001862,
-      "pages_in_call": 8
+      "cost_usd": 0.003167,
+      "pages_in_call": 1
     }
   ]
 }

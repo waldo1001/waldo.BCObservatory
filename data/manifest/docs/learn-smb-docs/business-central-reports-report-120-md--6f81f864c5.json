@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Aged Accounts Receivables (report)",
+  "title": "Aged Accounts Receivables (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-120",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.153Z",
-      "blob": "f9b79f845876b15da4eb17570bef155a37b5a6ff",
-      "words": 752,
+      "at": "2026-11-17T00:26:54.743Z",
+      "blob": "a37b0695b00581913c1db80d43e1031435db93c6",
+      "words": 799,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:59.199Z",
+      "at": "2026-11-17T00:26:59.782Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002187
+      "cost_usd": 0.003711
     },
     "summarized": {
-      "at": "2026-10-06T18:53:08.368Z",
+      "at": "2026-11-17T00:26:59.783Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:08.369Z",
+      "at": "2026-11-17T00:26:59.784Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:08.371Z",
+      "at": "2026-11-17T00:26:59.785Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-120.md",
     "description": "Legacy report for analyzing customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.",
-    "ms_date": "2024-10-18",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 752,
+    "ai_usage": "ai-assisted",
+    "words": 799,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3396f32becb2e652a2c5063cabcf6dcd43d0fc2543db1c7f7c1637ff2bed0c6a"
+  "output_hash": "0c95eb96709ecbbef415706c5a97c95e050d1a9d50ac258dbd070055a31f8f07"
 }

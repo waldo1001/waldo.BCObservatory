@@ -1,19 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-13.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-13",
-  "title": "VAT Register (report)",
-  "blob": "57e5e0498be331bddb91a825070c8ca7690bc0ff",
-  "summary": "VAT Register report lists all posted VAT transactions from sales, purchases, and journals with filtering options to provide visibility and enable tax compliance verification.",
+  "title": "VAT Register for Posted Entries (Report)",
+  "blob": "0224f7f6318836cc9a7a708d1b922609bfdb429e",
+  "summary": "The VAT Register report lists posted VAT entries grouped by G/L register with VAT reporting dates, document references, bases, and amounts, used for verifying VAT postings before tax returns and supporting audit compliance.",
   "systems": [
-    "finance",
-    "reporting"
+    "finance"
   ],
   "topics": [
-    "vat management",
+    "vat",
+    "reporting",
     "tax compliance",
-    "vat transactions",
-    "audit",
-    "tax reporting"
+    "posted entries",
+    "g/l register",
+    "audit"
   ],
   "objects": [
     {
@@ -22,11 +22,11 @@
     }
   ],
   "features": [
-    "VAT transaction listing",
-    "filtering by posting date",
-    "filtering by VAT business posting group",
-    "filtering by document number",
-    "tax audit support"
+    "G/L register filter",
+    "Show Amounts in Add. Reporting Currency",
+    "VAT entry verification",
+    "tax tracking",
+    "compliance review"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002187,
-      "pages_in_call": 7
+      "cost_usd": 0.003098,
+      "pages_in_call": 1
     }
   ]
 }

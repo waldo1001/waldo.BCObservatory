@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Customer Statement (report)",
+  "title": "Customer Statement Report for Account Activity",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1316",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.161Z",
-      "blob": "676c26ceb4d64dad227acf04bce5606ded43d238",
-      "words": 602,
+      "at": "2026-11-17T00:26:54.756Z",
+      "blob": "05e8cbb79c8c0cbdb2c36fb57549a8c9a7e81a39",
+      "words": 584,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:54.035Z",
+      "at": "2026-11-17T00:26:59.505Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001862
+      "cost_usd": 0.003341
     },
     "summarized": {
-      "at": "2026-10-06T18:52:54.043Z",
+      "at": "2026-11-17T00:26:59.507Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:54.043Z",
+      "at": "2026-11-17T00:26:59.508Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:54.044Z",
+      "at": "2026-11-17T00:26:59.509Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1316.md",
-    "description": "Send customers an overview of outstanding amounts, and also use as a payment reminder about overdue amounts.",
-    "ms_date": "2024-10-18",
+    "description": "Send customers statements of account activity or open entries, review balances and overdue amounts, and schedule statements through the job queue.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 602,
+    "ai_usage": "ai-assisted",
+    "words": 584,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3e5a73c0c38bd01ce7bacc360ecb47340d19574e9a21e8b98b8ee3812dca97ca"
+  "output_hash": "6457d51248d04046fa9814802a3685a61cf90543da1c6e6f919e017aff8bf61c"
 }

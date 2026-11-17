@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "G/L Consolidation Eliminations (report)",
+  "title": "G/L Consolidation Eliminations (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-16",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.182Z",
-      "blob": "9d406b8ae87d2eba46152e79e767bc986dab86e3",
-      "words": 184,
+      "at": "2026-11-17T00:27:00.103Z",
+      "blob": "12d9d129944fec29bad3209b3aa493bd7a3ac278",
+      "words": 214,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:54.040Z",
+      "at": "2026-11-17T00:27:13.927Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001862
+      "cost_usd": 0.00319
     },
     "summarized": {
-      "at": "2026-10-06T18:52:54.057Z",
+      "at": "2026-11-17T00:27:13.929Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:54.058Z",
+      "at": "2026-11-17T00:27:13.931Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:54.058Z",
+      "at": "2026-11-17T00:27:13.932Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-16.md",
-    "description": "Identifies and removes internal transactions between entities to prevent duplication in consolidated financial statements.",
-    "ms_date": "2025-06-18",
+    "description": "Preview prepared consolidation elimination journal lines alongside consolidated balances before posting the elimination journal.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "consolidation",
       "intercompany"
     ],
-    "ai_usage": null,
-    "words": 184,
+    "ai_usage": "ai-assisted",
+    "words": 214,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a319d4f5112d40876e5649dfd69b6181f701badc007e53cd8e9132c892aac0fa"
+  "output_hash": "f65d98cb0c45029180e78c18c5b93d2e2d70ddc8a33b22ccf11bced0d8bd3e34"
 }

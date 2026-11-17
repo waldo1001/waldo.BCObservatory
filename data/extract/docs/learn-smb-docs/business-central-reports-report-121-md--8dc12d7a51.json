@@ -1,20 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-121.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-121",
-  "title": "Customer - Balance to date (report)",
-  "blob": "2b74526e9cc83854759c6d9af3a4b087b642a0f6",
-  "summary": "The Customer - Balance to date report shows open customer ledger entries until a specified date, similar to a customer statement but without indicating overdue status. Use it to track payment status, identify outstanding balances, monitor accounts receivable, and analyze cash flow.",
+  "title": "Customer - Balance to Date (Report)",
+  "blob": "ddd49e32e0848b3715dd2002ef9b9ad676e19323",
+  "summary": "The Customer - Balance to Date report displays open customer ledger entries as of a specified ending date to help track outstanding customer balances and support collections and reconciliation activities.",
   "systems": [
     "sales",
     "finance",
     "reporting"
   ],
   "topics": [
-    "accounts receivable",
     "customer balance",
-    "payment tracking",
-    "collections",
-    "cash flow"
+    "open entries",
+    "receivables",
+    "reconciliation",
+    "reporting"
   ],
   "objects": [
     {
@@ -23,10 +23,12 @@
     }
   ],
   "features": [
-    "customer ledger entries",
-    "date filtering",
-    "outstanding balance tracking",
-    "payment status monitoring"
+    "ending date filter",
+    "local currency display",
+    "unapplied entries",
+    "zero balance entries",
+    "new page per customer",
+    "outstanding balances"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002247,
-      "pages_in_call": 8
+      "cost_usd": 0.003232,
+      "pages_in_call": 1
     }
   ]
 }

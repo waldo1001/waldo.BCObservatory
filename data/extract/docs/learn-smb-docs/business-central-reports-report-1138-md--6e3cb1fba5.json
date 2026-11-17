@@ -1,19 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-1138.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1138",
-  "title": "Cost Acctg. Balance/Budget (report)",
-  "blob": "f0491c5f66b4759313cb73a15551b53568a814cf",
-  "summary": "Cost Acctg. Balance/Budget report summarizes balances in cost and budget accounts with filtering options to support financial planning and control.",
+  "title": "Cost Acctg. Balance/Budget (Report)",
+  "blob": "8d4ad4d0ca81342578cf33dfec76eeccbabcc1ae",
+  "summary": "The Cost Acctg. Balance/Budget report compares actual costs with budgets by cost type for the current period and year to date, showing amounts as percentages of full-year budget. Use it to monitor budget adherence, validate cost center performance, and identify cost variances.",
   "systems": [
-    "finance",
-    "reporting"
+    "finance"
   ],
   "topics": [
     "cost accounting",
-    "budget management",
-    "cost balances",
-    "financial planning",
-    "cost control"
+    "budgeting",
+    "cost analysis",
+    "variance reporting",
+    "financial oversight"
   ],
   "objects": [
     {
@@ -22,11 +21,13 @@
     }
   ],
   "features": [
-    "cost and budget balance summary",
-    "fiscal year filtering",
+    "actual vs budget comparison",
     "cost type filtering",
-    "budget version filtering",
-    "variance comparison"
+    "budget filtering",
+    "cost center analysis",
+    "cost object filtering",
+    "year-to-date calculations",
+    "variance analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002187,
-      "pages_in_call": 7
+      "cost_usd": 0.003396,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,18 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-156.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-156",
-  "title": "Retained Earnings Statement (report)",
-  "blob": "968c6ba4ac12687a362d764c7b85e017c3f7591e",
-  "summary": "Retained Earnings Statement report shows retained earnings, net income, and shareholder distributions from a specified period.",
+  "title": "Retained Earnings Statement (Report)",
+  "blob": "9aab05e0718a3d03925dedea4d17095896598fd1",
+  "summary": "The Retained Earnings Statement report shows retained earnings, net income, and distributions to shareholders for a specified period, with rows and columns determined by the financial report selected in General Ledger Setup.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
     "retained earnings",
-    "financial statements",
+    "financial reporting",
     "net income",
-    "shareholder distributions"
+    "shareholders",
+    "general ledger",
+    "financial analysis"
   ],
   "objects": [
     {
@@ -21,7 +23,11 @@
     }
   ],
   "features": [
-    "date range filtering"
+    "retained earnings analysis",
+    "net income tracking",
+    "shareholder distributions",
+    "customizable period filtering",
+    "financial report configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001862,
-      "pages_in_call": 8
+      "cost_usd": 0.005754,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-151.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-151",
-  "title": "Balance Sheet (report)",
-  "blob": "936c3e230d41b470d5a59d7127fe3e9058287454",
-  "summary": "Balance Sheet report provides an overview of assets, liabilities, and equity for a specified date range.",
+  "title": "Balance Sheet Overview (Report)",
+  "blob": "b381dd8b628657fbacb4912d6990c3ecee13d716",
+  "summary": "The Balance Sheet report provides an overview of assets, liabilities, and equity for a specified period, using financial report definitions and row/column configurations from General Ledger Setup.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
     "balance sheet",
-    "financial statements",
+    "financial reporting",
     "assets",
     "liabilities",
-    "equity"
+    "equity",
+    "general ledger"
   ],
   "objects": [
     {
@@ -22,7 +23,11 @@
     }
   ],
   "features": [
-    "date range filtering"
+    "balance sheet analysis",
+    "date range filtering",
+    "financial report selection",
+    "row and column definitions",
+    "account calculations"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001862,
-      "pages_in_call": 8
+      "cost_usd": 0.003041,
+      "pages_in_call": 1
     }
   ]
 }

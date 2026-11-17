@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Retained Earnings Statement (report)",
+  "title": "Retained Earnings Statement (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-156",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.178Z",
-      "blob": "968c6ba4ac12687a362d764c7b85e017c3f7591e",
-      "words": 98,
+      "at": "2026-11-17T00:26:59.865Z",
+      "blob": "9aab05e0718a3d03925dedea4d17095896598fd1",
+      "words": 106,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:54.039Z",
+      "at": "2026-11-17T00:27:13.856Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001862
+      "cost_usd": 0.005754
     },
     "summarized": {
-      "at": "2026-10-06T18:52:54.055Z",
+      "at": "2026-11-17T00:27:13.857Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:54.055Z",
+      "at": "2026-11-17T00:27:13.858Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:54.056Z",
+      "at": "2026-11-17T00:27:13.859Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-156.md",
-    "description": "Get an Retained Earnings Statement that shows an overview of retained earnings from the start of a period, net income, and distributions to shareholders.",
-    "ms_date": "2025-06-16",
+    "description": "Get a Retained Earnings Statement that shows an overview of retained earnings from the start of a period, net income, and distributions to shareholders.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 98,
+    "ai_usage": "ai-assisted",
+    "words": 106,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6e3caf5a1dba7c97528d05c397b58d56ac1e10ebf4fbc64afbb5d29b41256299"
+  "output_hash": "ecaffac47f14eb72cee8d5478a016f69bb287564a8fc54844b66f4a7bedb0b5a"
 }

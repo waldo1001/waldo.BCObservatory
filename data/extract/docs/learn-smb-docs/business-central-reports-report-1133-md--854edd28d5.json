@@ -1,19 +1,22 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-1133.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1133",
-  "title": "Cost Acctg. Statement/Budget (report)",
-  "blob": "dad4339d3f3f301d332443ef915ab19f8b6b0605",
-  "summary": "Cost Acctg. Statement/Budget report compares actual costs against budgeted targets with variance analysis by cost center in amount and percentage.",
+  "title": "Cost Acctg. Statement/Budget (Report)",
+  "blob": "767afa64b0d48fa3b4ee4f1eca5bbb6347a54404",
+  "summary": "The Cost Accounting Statement/Budget report compares actual costs against budgeted amounts by cost type, showing debit/credit columns, budget amounts, and actual costs as a percentage of budget. Use it during budgeting cycles to monitor cost center performance and identify variances for financial planning and audit compliance.",
   "systems": [
     "finance",
-    "reporting"
+    "reporting",
+    "administration"
   ],
   "topics": [
     "cost accounting",
+    "budget comparison",
+    "variance analysis",
+    "cost center performance",
+    "financial planning",
     "budget variance",
-    "cost performance",
-    "budgeting",
-    "financial planning"
+    "cost allocation"
   ],
   "objects": [
     {
@@ -22,11 +25,14 @@
     }
   ],
   "features": [
-    "actual vs budget comparison",
-    "variance analysis by cost center",
-    "percentage variance calculation",
-    "budget planning support",
-    "cost dimension analysis"
+    "Date Filter",
+    "Budget Filter",
+    "Cost center filtering",
+    "Cost object filtering",
+    "Suppress lines without amount",
+    "Actual vs budget comparison",
+    "Percentage of budget calculation",
+    "Debit and credit columns"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002187,
-      "pages_in_call": 7
+      "cost_usd": 0.00368,
+      "pages_in_call": 1
     }
   ]
 }

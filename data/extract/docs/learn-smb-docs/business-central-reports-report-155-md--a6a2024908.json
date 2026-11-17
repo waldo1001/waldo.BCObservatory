@@ -1,18 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-155.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-155",
-  "title": "Statement of Cashflows (report)",
-  "blob": "a45c0b75900a6d6d33fc47928d55f658acde4893",
-  "summary": "Statement of Cashflows report provides an overview of operating, investment, and finance activities for a specified date range.",
+  "title": "Statement of Cashflows (Report)",
+  "blob": "1d5389c636bf1d85aa76b1b0530bccd788ca9ce5",
+  "summary": "Statement of Cashflows is a financial report that shows operating, investing, and financing activities for a specified date range, configured through General Ledger Setup.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
     "cash flow",
-    "financial statements",
+    "financial reporting",
     "operating activities",
-    "investment activities",
+    "investing activities",
     "financing activities"
   ],
   "objects": [
@@ -22,7 +22,12 @@
     }
   ],
   "features": [
-    "date range filtering"
+    "cash flow statement",
+    "operating activities overview",
+    "investing activities overview",
+    "financing activities overview",
+    "date range filtering",
+    "financial report configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001862,
-      "pages_in_call": 8
+      "cost_usd": 0.003025,
+      "pages_in_call": 1
     }
   ]
 }

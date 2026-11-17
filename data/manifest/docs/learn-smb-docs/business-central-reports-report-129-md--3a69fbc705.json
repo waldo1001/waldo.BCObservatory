@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Customer - Trial Balance (report)",
+  "title": "Customer - Trial Balance (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-129",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.656Z",
-      "blob": "b53da3a63c720aed961979d9fe1d28b2f4081f17",
-      "words": 557,
+      "at": "2026-11-17T00:26:54.778Z",
+      "blob": "c20b58005337eff36f283cbccd590efb230dc05c",
+      "words": 521,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:46:54.150Z",
+      "at": "2026-11-17T00:26:59.984Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002247
+      "objects": 1,
+      "cost_usd": 0.003535
     },
     "summarized": {
-      "at": "2026-10-06T18:46:57.677Z",
+      "at": "2026-11-17T00:26:59.986Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:46:57.678Z",
+      "at": "2026-11-17T00:26:59.987Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:46:57.679Z",
+      "at": "2026-11-17T00:26:59.989Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-129.md",
-    "description": "Analyze and reconcile your customer balances at the end of the period by viewing the opening balance, each transaction within the period, and the closing balance grouped by customer.",
-    "ms_date": "2024-10-03",
+    "description": "Reconcile customer opening balances, debit and credit totals, and ending balances in local currency for a period and fiscal year to date.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 557,
+    "ai_usage": "ai-assisted",
+    "words": 521,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c7fb11049b774331f5e7bd281c07384a9dee42928836b1d6978d2e98e648081b"
+  "output_hash": "b8eb9c668c9f1542e8575bdbccd06bdc87c15229a8cb1fec361d1883d69bc06f"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "VAT Register (report)",
+  "title": "VAT Register for Posted Entries (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-13",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.157Z",
-      "blob": "57e5e0498be331bddb91a825070c8ca7690bc0ff",
-      "words": 193,
+      "at": "2026-11-17T00:26:54.767Z",
+      "blob": "0224f7f6318836cc9a7a708d1b922609bfdb429e",
+      "words": 204,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:59.200Z",
+      "at": "2026-11-17T00:26:59.281Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002187
+      "cost_usd": 0.003098
     },
     "summarized": {
-      "at": "2026-10-06T18:53:08.372Z",
+      "at": "2026-11-17T00:26:59.282Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:08.374Z",
+      "at": "2026-11-17T00:26:59.282Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:08.376Z",
+      "at": "2026-11-17T00:26:59.295Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-13.md",
-    "description": "Use this report to review individual VAT entries before filing, or when investigating discrepancies in tax calculations. Displays all VAT entries from posted sales, purchases, and journals. Use filters such as posting date, VAT business posting group, or document number to drill into specific transactions.",
-    "ms_date": "2025-06-25",
+    "description": "Review VAT entries associated with selected G/L registers, including VAT reporting dates, posting groups, bases, and tax amounts.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -60,12 +60,12 @@
       "reporting",
       "finance"
     ],
-    "ai_usage": null,
-    "words": 193,
+    "ai_usage": "ai-assisted",
+    "words": 204,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "90ad631af81288107a4951172dcca2279f17d88690557825be17c30bf533886b"
+  "output_hash": "0e110dfa5cb7c269dbdf2aec4aa5b3d28966689237b467a101427485120dfaa4"
 }
