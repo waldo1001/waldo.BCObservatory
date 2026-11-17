@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-prioritize-vendors",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.642Z",
-      "blob": "613b9950a4cb9f422b09361d705b266784a0c763",
+      "at": "2026-11-17T00:21:02.984Z",
+      "blob": "ac27d1ab9505a21d362819179618ff8c3b46d59c",
       "words": 158,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:01:24.767Z",
+      "at": "2026-11-17T00:21:13.769Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004165
+      "cost_usd": 0.002714
     },
     "summarized": {
-      "at": "2026-10-06T19:01:24.778Z",
+      "at": "2026-11-17T00:21:13.770Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:24.780Z",
+      "at": "2026-11-17T00:21:13.770Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:24.781Z",
+      "at": "2026-11-17T00:21:13.771Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchasing-how-prioritize-vendors.md",
     "description": "Assign priority numbers to vendors or suppliers in Business Central to streamline payment suggestions and manage payables efficiently.",
-    "ms_date": "2025-10-03",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -70,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c1dce59d6fbdfca0289210d2bf89a925ae63afd0d0bfd78eb3198d392c7c28ac"
+  "output_hash": "2802691fe1d5294c9d33f8eb9a9078c8da746e0184384daad909307f7528b2cb"
 }

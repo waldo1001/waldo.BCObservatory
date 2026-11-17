@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-analytics-overview",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.625Z",
-      "blob": "dfb6ca44064f4e1d3856dd9e3660a88786845526",
+      "at": "2026-11-17T00:20:50.875Z",
+      "blob": "8c4adff74093f10e665ef5f7ed835a259d8323d3",
       "words": 1082,
       "forms": 33
     },
     "extracted": {
-      "at": "2026-10-06T19:01:29.024Z",
+      "at": "2026-11-17T00:21:03.007Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003247
+      "cost_usd": 0.004541
     },
     "summarized": {
-      "at": "2026-10-06T19:01:29.044Z",
+      "at": "2026-11-17T00:21:03.008Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:29.045Z",
+      "at": "2026-11-17T00:21:03.009Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:29.046Z",
+      "at": "2026-11-17T00:21:03.009Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchasing-analytics-overview.md",
     "description": "Learn how to use Business Central's analytics features to monitor purchasing KPIs, perform ad-hoc analysis, and create financial reports.",
-    "ms_date": "2025-10-03",
+    "ms_date": "2026-11-16",
     "ms_topic": "article",
     "search_form": [
       {
@@ -227,5 +227,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f088906b6d0f25d2710cde8a47abccb35bda5c2ab6379e55cc9926cf1f07d6cd"
+  "output_hash": "aedf00effd6a07494e7e3993fbd36f1a0c4f4ebcd1641e0d6a60a0b118839a2c"
 }

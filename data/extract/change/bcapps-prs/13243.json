@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13243",
+  "number": 13243,
+  "title": "[main] Wrong Financial entries in Import Duty GST Calculation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed incorrect GST and import duty financial entries when invoicing partially received purchase orders for Import and SEZ vendors by ensuring Qty. to invoice reflects only received-but-not-invoiced quantities.",
+  "key_points": [
+    "Corrects GST/import duty financial entries for partial receipts on import and SEZ purchase orders",
+    "Qty. to invoice now calculated correctly after receipt posting and undo receipt operations",
+    "Prevents inclusion of not-yet-received quantities in invoice calculations",
+    "Applies to GST Vendor Ledger Entry processing for Indian GST compliance"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Incorrect GST/import duty financial entries can occur when invoicing partially received purchase orders for Import and SEZ vendors.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003589,
+    "changes_in_call": 1
+  }
+}

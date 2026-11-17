@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-overview",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:15.331Z",
-      "blob": "8d52ca2b9ccd42bae2d70bccfc5a994ac2c356f2",
+      "at": "2026-11-17T00:20:41.724Z",
+      "blob": "2321becedc6271a48179882ef69c52dbd05e15e0",
       "words": 341,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:24.924Z",
+      "at": "2026-11-17T00:20:46.142Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003878
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:24.925Z",
+      "at": "2026-11-17T00:20:46.143Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:24.927Z",
+      "at": "2026-11-17T00:20:46.143Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:24.928Z",
+      "at": "2026-11-17T00:20:46.144Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-purchases-overview.md",
     "description": "Review purchase amounts, outstanding documents, and received purchases in Power BI to monitor spending across vendors, locations, and item categories.",
-    "ms_date": "2024-10-31",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4fefff8119b34972b76f9ca93d45a3ffe79b4c1fff4173c68428400d4a5ae1ce"
+  "output_hash": "b7c9e4d82db1407c000615326691bd14bf0e04322eaf6c033e335afdbecbfd33"
 }

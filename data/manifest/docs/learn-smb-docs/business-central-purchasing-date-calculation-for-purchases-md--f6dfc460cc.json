@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-date-calculation-for-purchases",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.629Z",
-      "blob": "f3cfd5e2828564b672032104222e15e44765b092",
+      "at": "2026-11-17T00:20:54.296Z",
+      "blob": "3beb8fafa7e7fa007db7a9e2195286318425ab14",
       "words": 509,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:01:29.025Z",
+      "at": "2026-11-17T00:21:05.933Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.003247
+      "objects": 0,
+      "cost_usd": 0.003478
     },
     "summarized": {
-      "at": "2026-10-06T19:01:29.047Z",
+      "at": "2026-11-17T00:21:05.934Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:29.048Z",
+      "at": "2026-11-17T00:21:05.934Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:29.049Z",
+      "at": "2026-11-17T00:21:05.935Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchasing-date-calculation-for-purchases.md",
     "description": "Learn how to calculate purchase dates to optimize inventory planning and streamline procurement processes.",
-    "ms_date": "2025-10-03",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -63,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e8870cd785a048838c7bff3fb2ec9afb31559d5a119ea253233350cdc91a2fa3"
+  "output_hash": "633978a6cbefe2106f9057f5fcd84452ed68ab9f1f1a0ce42df4c1cb415c6be2"
 }

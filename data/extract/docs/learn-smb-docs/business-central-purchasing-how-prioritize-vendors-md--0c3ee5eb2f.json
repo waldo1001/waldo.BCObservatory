@@ -2,20 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/purchasing-how-prioritize-vendors.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-prioritize-vendors",
   "title": "Assign a priority level to a vendor",
-  "blob": "613b9950a4cb9f422b09361d705b266784a0c763",
-  "summary": "Assign priority numbers to vendors to control their ranking in payment suggestion features and vendor lists.",
+  "blob": "ac27d1ab9505a21d362819179618ff8c3b46d59c",
+  "summary": "Assign priority numbers to vendors to control their order in payment suggestion features. Leave the priority field blank if you don't want to prioritize a vendor.",
   "systems": [
     "purchasing"
   ],
   "topics": [
-    "vendors",
-    "prioritization",
+    "vendor management",
     "purchasing",
-    "setup"
+    "payment processing",
+    "vendor prioritization"
   ],
   "objects": [],
   "features": [
-    "vendor priority assignment",
+    "vendor priority levels",
     "payment suggestion"
   ],
   "versions": [],
@@ -25,8 +25,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004165,
-      "pages_in_call": 8
+      "cost_usd": 0.002714,
+      "pages_in_call": 1
     }
   ]
 }

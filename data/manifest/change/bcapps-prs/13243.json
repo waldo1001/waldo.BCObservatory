@@ -6,7 +6,7 @@
   "title": "[main] Wrong Financial entries in Import Duty GST Calculation",
   "url": "https://github.com/microsoft/BCApps/pull/13243",
   "published_at": "2026-11-16T00:52:20Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-17T00:16:35.786Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-17T00:20:38.384Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003589
+    },
+    "linked": {
+      "at": "2026-11-17T00:20:38.506Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-17T00:20:38.532Z",
+      "path": "content/changes/bcapps/13243.md"
     }
   },
   "input_hash": "748fa0b51adc441348602c785c466ef860d29070:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c9d79fc5246a1a537681bf59220e54a090d29d5ca9b626cb2aaaca861fcd742d"
+  "output_hash": "d08c5819a34f54fc42568b4c7a80ee8a5f504480fdc4f80074ca683422b85d74"
 }

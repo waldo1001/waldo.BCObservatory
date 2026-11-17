@@ -2,27 +2,51 @@
   "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-vendor-quality-analysis.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-vendor-quality-analysis",
   "title": "Vendor Quality Analysis (Power BI Report)",
-  "blob": "60f2e3b57255050e2781236bfcca321fe439154c",
-  "summary": "Vendor Quality Analysis Power BI report analyzes vendor performance including quality, returns, reliance, and discount trends to identify trusted vendors, manage supply chain risks, and optimize supplier relationships.",
+  "blob": "a4690ebb230b1ef4eee8091364ba2bae085e1d04",
+  "summary": "The Vendor Quality Analysis Power BI report analyzes vendor performance metrics including quality, returns, reliance, and purchase discounts to help executives, purchasing managers, and purchasers improve supplier relationships and mitigate supply chain risks.",
   "systems": [
     "purchasing",
-    "reporting"
+    "reporting",
+    "platform"
   ],
   "topics": [
-    "vendor quality",
+    "vendor performance",
     "power bi report",
-    "supply chain risk",
-    "supplier performance",
-    "discount analysis"
+    "purchasing analytics",
+    "supplier analysis",
+    "quality metrics",
+    "spend reliance"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Value Entries"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Invoice Lines"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Credit Lines"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    }
+  ],
   "features": [
-    "Purchase (LCY)",
-    "Return Rate (Amount)",
-    "Spend Reliance %",
-    "Item Reliance %",
-    "Purchase Value Entries Discount %",
-    "No. of Single Supplier Items"
+    "Vendor quality analysis",
+    "Purchase discount tracking",
+    "Return rate analysis",
+    "Spend reliance metrics",
+    "Item reliance analysis",
+    "Single supplier identification",
+    "Vendor performance monitoring"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +55,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00256,
-      "pages_in_call": 8
+      "cost_usd": 0.004402,
+      "pages_in_call": 1
     }
   ]
 }

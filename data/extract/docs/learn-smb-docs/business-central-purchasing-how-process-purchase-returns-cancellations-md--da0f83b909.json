@@ -2,20 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/purchasing-how-process-purchase-returns-cancellations.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-process-purchase-returns-cancellations",
   "title": "Process returns or cancellations",
-  "blob": "6005eacd7933ebbe8b3e30eb39a009a0f9d49b11",
-  "summary": "Process purchase returns and cancellations by creating purchase credit memos or purchase return orders with options for exact cost reversing and warehouse handling.",
+  "blob": "c21b4387d4c381bc94c100a3e9b2fffd71e43b0f",
+  "summary": "Process purchase returns or cancellations by creating purchase credit memos or purchase return orders to reverse items or services from vendor invoices. Use these methods to handle returns, partial returns, combine multiple return shipments, and maintain correct inventory valuation through exact cost reversing.",
   "systems": [
     "purchasing",
-    "inventory"
+    "inventory",
+    "finance"
   ],
   "topics": [
     "purchase returns",
     "credit memos",
     "return orders",
     "cancellations",
-    "inventory costing"
+    "inventory costing",
+    "vendor returns"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Return Order"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Credit Memo"
+    },
     {
       "type": "page",
       "name": "Posted Purchase Invoices"
@@ -26,15 +36,7 @@
     },
     {
       "type": "page",
-      "name": "Purchase Credit Memos"
-    },
-    {
-      "type": "page",
       "name": "Copy Purchase Document"
-    },
-    {
-      "type": "page",
-      "name": "Purchase Return Orders"
     },
     {
       "type": "page",
@@ -46,15 +48,22 @@
     },
     {
       "type": "page",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "page",
       "name": "Delete Invoiced Purchase Return Orders"
     }
   ],
   "features": [
-    "purchase credit memo",
-    "purchase return order",
-    "exact cost reversing",
-    "item charge assignment",
-    "return shipment combining"
+    "Create Corrective Credit Memo",
+    "Get Posted Document Lines to Reverse",
+    "Copy from Document",
+    "Apply Entries",
+    "Exact Cost Reversing",
+    "Combine Return Shipments",
+    "Get Return Shipment Lines",
+    "Move Negative Lines"
   ],
   "versions": [],
   "parts": 1,
@@ -63,8 +72,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004165,
-      "pages_in_call": 8
+      "cost_usd": 0.013379,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-ext-doc-no",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-11T00:19:43.085Z",
-      "blob": "4cb0af6138daba6ede19d2ee9d4bf078f3930eb1",
+      "at": "2026-11-17T00:20:54.279Z",
+      "blob": "ce4680066430334a059ea294006bb439e3b97da7",
       "words": 41,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-11-11T00:20:03.797Z",
+      "at": "2026-11-17T00:20:58.531Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002524
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-11T00:20:03.798Z",
+      "at": "2026-11-17T00:20:58.532Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-11T00:20:03.798Z",
+      "at": "2026-11-17T00:20:58.533Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-11T00:20:03.798Z",
+      "at": "2026-11-17T00:20:58.533Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchasing-ext-doc-no.md",
     "description": "Learn how to record vendor document numbers on purchase documents, make numbers mandatory, and use external document numbers to find posted entries.",
-    "ms_date": "2025-10-03",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -63,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5f89574204702a43d89e7c54c0c7196f5e893e6b2a0f09510f97092450ad3923"
+  "output_hash": "0647a1d8766a8dccea351e619bcc3d5332b0fd675c111d115a50f7def3abf00f"
 }

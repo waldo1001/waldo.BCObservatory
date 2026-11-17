@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-year-over-year",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:15.764Z",
-      "blob": "e6ba2f1dd1800f73ad34f03d7dfdbe37ff44637b",
+      "at": "2026-11-17T00:20:46.147Z",
+      "blob": "968b3e18d7ca982eec6d5dfe640665308cbab00c",
       "words": 377,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:24.913Z",
+      "at": "2026-11-17T00:20:50.869Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.003581
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:24.914Z",
+      "at": "2026-11-17T00:20:50.870Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:24.915Z",
+      "at": "2026-11-17T00:20:50.870Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:24.916Z",
+      "at": "2026-11-17T00:20:50.871Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-year-over-year.md",
     "description": "Compare current and previous fiscal year purchase amounts in Power BI to analyze spending changes and explore purchasing trends by item category.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a6e0901f2db9956553d38903ee66f428997837b42900b1fff4c9a6dad8c58241"
+  "output_hash": "02777791499ac0b645480dd2c9bc401b72c72bf8c6078dcef9f2ba6007649c7d"
 }

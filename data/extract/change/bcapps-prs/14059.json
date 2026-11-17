@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14059",
+  "number": 14059,
+  "title": "Use GPT-5.6 Ceres for No. Series Copilot",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "The No. Series Copilot feature now uses the GPT-5.6 Ceres managed deployment instead of GPT-4.1 for content provenance compliance.",
+  "key_points": [
+    "Deployment switched from GPT-4.1 to managed GPT-5.6 Ceres for the No. Series Copilot",
+    "Only the deployment getter is modified; authorization and other logic remain unchanged",
+    "Both intent/tool selection and number-series generation stages reuse the same Azure OpenAI instance",
+    "No schema, permission, or prompt changes",
+    "Model output quality and latency may change pending evaluation"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": "Move Suggest No. Series with Copilot from GPT-4.1 to the managed GPT-5.6 Ceres deployment for content provenance compliance.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003919,
+    "changes_in_call": 1
+  }
+}

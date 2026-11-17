@@ -2,32 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/purchasing-analytics-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-analytics-overview",
   "title": "Analytics in purchasing",
-  "blob": "dfb6ca44064f4e1d3856dd9e3660a88786845526",
-  "summary": "Use analytics features in purchasing including Power BI reports, ad-hoc analysis, financial reporting, and data analysis to monitor purchasing KPIs, vendor performance, and purchasing trends across business units.",
+  "blob": "8c4adff74093f10e665ef5f7ed835a259d8323d3",
+  "summary": "Analytics in purchasing describes how to use Power BI, financial reporting, ad-hoc analysis, and built-in reports to gain insights from purchase quotes, orders, and invoices for different user roles from purchasing officers to executives.",
   "systems": [
     "purchasing",
     "reporting",
     "finance"
   ],
   "topics": [
-    "analytics",
-    "purchasing analysis",
+    "purchasing analytics",
     "power bi",
-    "kpi",
     "business intelligence",
-    "purchasing insights",
-    "ad-hoc analysis"
+    "reporting",
+    "kpis",
+    "ad-hoc analysis",
+    "financial data",
+    "dimensions"
   ],
   "objects": [],
   "features": [
-    "power bi purchasing app",
-    "financial reporting",
-    "kpi monitoring",
-    "purchasing data analysis",
-    "excel integration",
-    "dimension analysis",
-    "company consolidation",
-    "data analysis on lists"
+    "Power BI reports for purchasing",
+    "Ad-hoc analysis on lists",
+    "Open in Excel",
+    "Built-in purchasing reports",
+    "Financial Reporting",
+    "Chart of Accounts",
+    "Dimensions analysis",
+    "Company consolidation"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003247,
-      "pages_in_call": 8
+      "cost_usd": 0.004541,
+      "pages_in_call": 1
     }
   ]
 }
