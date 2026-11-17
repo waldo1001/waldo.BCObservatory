@@ -1,19 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-1129.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1129",
-  "title": "Cost Allocations (report)",
-  "blob": "656b5c48b560b2c5a7b5f6a3cf4d6af489d5fba3",
-  "summary": "Cost Allocations report evaluates how costs were allocated across cost centers, cost objects, or dimensions based on defined allocation rules.",
+  "title": "Cost Allocations Setup Review (Report)",
+  "blob": "18e4e498bb2be79e4675b152e7bca70c645670f8",
+  "summary": "The Cost Allocations report lists allocation definitions showing how costs are distributed to cost types, cost centers, and cost objects. Use it to review and validate cost allocation setups across departments and projects.",
   "systems": [
-    "finance",
-    "reporting"
+    "finance"
   ],
   "topics": [
     "cost accounting",
     "cost allocation",
-    "cost centers",
-    "cost distribution",
-    "cost control"
+    "reporting",
+    "cost control",
+    "cost distribution"
   ],
   "objects": [
     {
@@ -22,11 +21,14 @@
     }
   ],
   "features": [
-    "cost allocation tracking",
-    "allocation rule validation",
-    "cost center performance",
-    "cost distribution analysis",
-    "audit verification"
+    "allocation definitions",
+    "allocation sources and targets",
+    "cost type allocation",
+    "cost center allocation",
+    "cost object allocation",
+    "filtering by source ID",
+    "filtering by validity dates",
+    "filtering by allocation target types"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002187,
-      "pages_in_call": 7
+      "cost_usd": 0.003203,
+      "pages_in_call": 1
     }
   ]
 }

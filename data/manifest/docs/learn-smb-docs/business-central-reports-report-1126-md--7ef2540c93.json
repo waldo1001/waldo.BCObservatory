@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Cost Acctg. Statement (report)",
+  "title": "Cost Acctg. Statement (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1126",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.122Z",
-      "blob": "8edda82fe1bf93501e25f1eb2bbda418bbab04e8",
-      "words": 198,
+      "at": "2026-11-17T00:26:43.359Z",
+      "blob": "bc5a9c8890630a3a4188d6b3cfa692b5f5371d38",
+      "words": 199,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:08.342Z",
+      "at": "2026-11-17T00:26:48.332Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001247
+      "cost_usd": 0.003293
     },
     "summarized": {
-      "at": "2026-10-06T18:53:08.397Z",
+      "at": "2026-11-17T00:26:48.333Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:08.398Z",
+      "at": "2026-11-17T00:26:48.334Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:08.399Z",
+      "at": "2026-11-17T00:26:48.335Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1126.md",
-    "description": "Summarizes all cost entries across selected dimensions such as departments or cost centers. Use filters for period, cost type, or cost object to refine the view and support operational analysis.",
-    "ms_date": "2025-06-23",
+    "description": "Review debit and credit net changes in the chart of cost types, filtered by date, cost center, or cost object, in local or additional currency.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -61,12 +61,12 @@
       "department",
       "operational analysis"
     ],
-    "ai_usage": null,
-    "words": 198,
+    "ai_usage": "ai-assisted",
+    "words": 199,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "90a265a0ff75f85aa016e3564ec3e71ebea0d894daea5f0de3dfdfcced684ddc"
+  "output_hash": "bf679b9a5115d8f3cf797840b186d819b9f2f5f5649dc35887d32ec06583a4be"
 }

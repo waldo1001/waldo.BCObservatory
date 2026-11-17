@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Cost Acctg. Journal (report)",
+  "title": "Cost Accounting Journal (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1128",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.131Z",
-      "blob": "16e5c5bb73ff8bf4025159e8b02a67e5580bbe1c",
-      "words": 190,
+      "at": "2026-11-17T00:26:43.333Z",
+      "blob": "5e211b5e5d32f5974302b635834650bcb50fbd34",
+      "words": 212,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:59.193Z",
+      "at": "2026-11-17T00:26:48.059Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002187
+      "cost_usd": 0.003266
     },
     "summarized": {
-      "at": "2026-10-06T18:53:08.349Z",
+      "at": "2026-11-17T00:26:48.060Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:08.350Z",
+      "at": "2026-11-17T00:26:48.060Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:08.352Z",
+      "at": "2026-11-17T00:26:48.061Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1128.md",
-    "description": "Run this report to review posted cost entries and ensure transactions were properly recorded in cost journals.",
-    "ms_date": "2025-06-23",
+    "description": "Review unposted cost journal lines and optional error messages to check dates, documents, cost types, and cost assignments before posting.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "journal entries",
       "cost validation"
     ],
-    "ai_usage": null,
-    "words": 190,
+    "ai_usage": "ai-assisted",
+    "words": 212,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cd588432e4944d872abc8033fc610141edef48609fc7d1bb981dfabf8e336bf8"
+  "output_hash": "8c1363c9cefb891c52dff73316654e4d0826ba53e038af2fdf396e1186a9225f"
 }

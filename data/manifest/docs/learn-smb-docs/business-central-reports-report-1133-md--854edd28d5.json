@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Cost Acctg. Statement/Budget (report)",
+  "title": "Cost Acctg. Statement/Budget (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1133",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.140Z",
-      "blob": "dad4339d3f3f301d332443ef915ab19f8b6b0605",
-      "words": 200,
+      "at": "2026-11-17T00:26:48.370Z",
+      "blob": "767afa64b0d48fa3b4ee4f1eca5bbb6347a54404",
+      "words": 243,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:59.195Z",
+      "at": "2026-11-17T00:26:54.727Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002187
+      "cost_usd": 0.00368
     },
     "summarized": {
-      "at": "2026-10-06T18:53:08.357Z",
+      "at": "2026-11-17T00:26:54.727Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:08.359Z",
+      "at": "2026-11-17T00:26:54.728Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:08.360Z",
+      "at": "2026-11-17T00:26:54.729Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1133.md",
-    "description": "Compares cost statements to budgeted amounts by cost center, showing variance by amount and percentage. Use this report to identify gaps between projected and actual costs and improve budgeting effectiveness.",
-    "ms_date": "2025-06-23",
+    "description": "Compare actual net changes and budget amounts by cost type, with actual costs as a percentage of budget and filters for cost centers or objects.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "budgeting",
       "variance analysis"
     ],
-    "ai_usage": null,
-    "words": 200,
+    "ai_usage": "ai-assisted",
+    "words": 243,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "adde852e3358059d6354e67b194558bd5c4fcc3a77e9d6d18f1384f0756ba829"
+  "output_hash": "eedd1bc9b942b5ac681e71a922d1c6e4c7fd467f4bccfe7401967930c32b454f"
 }

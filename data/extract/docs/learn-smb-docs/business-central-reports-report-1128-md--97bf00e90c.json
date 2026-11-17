@@ -1,19 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-1128.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1128",
-  "title": "Cost Acctg. Journal (report)",
-  "blob": "16e5c5bb73ff8bf4025159e8b02a67e5580bbe1c",
-  "summary": "Cost Acctg. Journal report displays journalized cost entries with amounts, posting dates, and dimensions to validate that cost transactions were properly recorded.",
+  "title": "Cost Accounting Journal (Report)",
+  "blob": "5e211b5e5d32f5974302b635834650bcb50fbd34",
+  "summary": "Cost Acctg. Journal report lists unposted cost journal lines with amounts, posting dates, cost types, cost centers, and cost objects, allowing accountants and controllers to validate cost postings before posting.",
   "systems": [
-    "finance",
-    "reporting"
+    "finance"
   ],
   "topics": [
     "cost accounting",
-    "journal entries",
-    "transaction validation",
-    "cost postings",
-    "audit"
+    "journal",
+    "reporting",
+    "validation",
+    "cost control"
   ],
   "objects": [
     {
@@ -22,11 +21,14 @@
     }
   ],
   "features": [
-    "cost entry review",
-    "filtering by date",
-    "filtering by entry number",
-    "transaction validation",
-    "audit support"
+    "unposted cost journal lines",
+    "posting date filter",
+    "cost center filter",
+    "cost object filter",
+    "error message checks",
+    "cost amount validation",
+    "journal template filter",
+    "line number filter"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002187,
-      "pages_in_call": 7
+      "cost_usd": 0.003266,
+      "pages_in_call": 1
     }
   ]
 }

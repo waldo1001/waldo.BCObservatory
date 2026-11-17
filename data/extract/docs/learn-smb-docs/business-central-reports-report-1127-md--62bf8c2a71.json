@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-1127.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1127",
-  "title": "Cost Acctg. Analysis (report)",
-  "blob": "2bbbe14c7e50d958d96fb515e0836e8c36074c17",
-  "summary": "Cost Acctg. Analysis report compares actual costs with budgeted values to support variance analysis and identify where costs exceeded or fell below expectations.",
+  "title": "Cost Accounting Analysis (Report)",
+  "blob": "10e88225e5b9594cbd6aba954e8bbf44325d4c37",
+  "summary": "The Cost Accounting Analysis report displays actual net changes by cost type across multiple columns representing cost centers or cost objects, allowing finance professionals to compare costs and identify concentration areas for a selected period.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
     "cost accounting",
-    "budget analysis",
-    "variance analysis",
-    "cost performance",
-    "financial forecasting"
+    "cost analysis",
+    "cost centers",
+    "cost objects",
+    "financial reporting",
+    "cost distribution"
   ],
   "objects": [
     {
@@ -22,10 +23,12 @@
     }
   ],
   "features": [
-    "actual vs budget comparison",
-    "variance detection",
-    "cost performance monitoring",
-    "forecasting support"
+    "Cost Center selection",
+    "Cost Object selection",
+    "Date Filter",
+    "Suppress cost types without amount",
+    "Multi-column comparison",
+    "Chart of cost types"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002187,
-      "pages_in_call": 7
+      "cost_usd": 0.003196,
+      "pages_in_call": 1
     }
   ]
 }

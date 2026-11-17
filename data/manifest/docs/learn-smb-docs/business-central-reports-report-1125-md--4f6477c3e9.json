@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Cost Types Details (report)",
+  "title": "Cost Types Details Report for Cost Entries",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1125",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.118Z",
-      "blob": "9a893a5f64ae2268b8417ed9a53a799ebb8c41ab",
-      "words": 201,
+      "at": "2026-11-17T00:26:43.289Z",
+      "blob": "98ea58b0ab66f08b85058ab66e0fab896dbcdbf1",
+      "words": 225,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T21:17:37.929Z",
+      "at": "2026-11-17T00:26:48.660Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.005155
+      "cost_usd": 0.003314
     },
     "summarized": {
-      "at": "2026-10-06T21:17:37.948Z",
+      "at": "2026-11-17T00:26:48.662Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T21:17:37.948Z",
+      "at": "2026-11-17T00:26:48.663Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T21:17:37.949Z",
+      "at": "2026-11-17T00:26:48.666Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1125.md",
     "description": "Displays cost breakdowns by cost type, such as labor, materials, and overhead. Customize filters by period or cost center.",
-    "ms_date": "2025-06-23",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -62,12 +62,12 @@
       "materials",
       "overhead"
     ],
-    "ai_usage": null,
-    "words": 201,
+    "ai_usage": "ai-assisted",
+    "words": 225,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "66c0ad5316600294f9d071d33313440e46015849d9217b372f801356d367cd2d"
+  "output_hash": "b67ac32603f437e13cceb0cec8db4d2b76225883d3de4529f816e835f680da96"
 }

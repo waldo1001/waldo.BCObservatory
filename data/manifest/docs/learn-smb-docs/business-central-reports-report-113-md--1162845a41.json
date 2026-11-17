@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Customer/Item Sales (report)",
+  "title": "Customer/Item Sales Overview (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-113",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.647Z",
-      "blob": "7e476f9b1bb83029977b723d0f052273caff9376",
-      "words": 386,
+      "at": "2026-11-17T00:26:48.301Z",
+      "blob": "1adab5555cec764c3300b007617f0cdc46df2643",
+      "words": 438,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:46:54.147Z",
+      "at": "2026-11-17T00:26:54.663Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002247
+      "cost_usd": 0.003284
     },
     "summarized": {
-      "at": "2026-10-06T18:46:57.671Z",
+      "at": "2026-11-17T00:26:54.664Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:46:57.672Z",
+      "at": "2026-11-17T00:26:54.664Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:46:57.673Z",
+      "at": "2026-11-17T00:26:54.664Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-113.md",
-    "description": "Analyze your item sales per customer to understand sales trends, optimize inventory management, and improve marketing efforts. Assess the relationship between discounts, sales amounts, and the volume of item sales.",
-    "ms_date": "2024-10-03",
+    "description": "Analyze invoiced item quantities, sales, discounts, and profit by customer, including related item charges and cost adjustments.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 386,
+    "ai_usage": "ai-assisted",
+    "words": 438,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ace67831b4ec6ffd1fef76aa330e64fab66e1b7468a91416a6e73af1e563aaa2"
+  "output_hash": "2bc6380030170b1905f4deb95b2cd640df86579ec7edca084350b1292bb619fa"
 }

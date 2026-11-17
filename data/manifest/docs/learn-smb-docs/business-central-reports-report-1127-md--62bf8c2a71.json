@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Cost Acctg. Analysis (report)",
+  "title": "Cost Accounting Analysis (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1127",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.127Z",
-      "blob": "2bbbe14c7e50d958d96fb515e0836e8c36074c17",
-      "words": 166,
+      "at": "2026-11-17T00:26:43.346Z",
+      "blob": "10e88225e5b9594cbd6aba954e8bbf44325d4c37",
+      "words": 211,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:59.192Z",
+      "at": "2026-11-17T00:26:48.265Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002187
+      "cost_usd": 0.003196
     },
     "summarized": {
-      "at": "2026-10-06T18:52:59.201Z",
+      "at": "2026-11-17T00:26:48.266Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:59.202Z",
+      "at": "2026-11-17T00:26:48.267Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:59.203Z",
+      "at": "2026-11-17T00:26:48.267Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1127.md",
-    "description": "Presents a comparison of actual versus expected cost values. Choose the appropriate period and budget version before running. Highlights deviations between budgeted and actual cost performance to inform better forecasting.",
-    "ms_date": "2025-06-23",
+    "description": "Compare actual net changes by cost type across up to seven cost center or cost object columns to review cost distribution in Business Central.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "variance analysis",
       "budget comparison"
     ],
-    "ai_usage": null,
-    "words": 166,
+    "ai_usage": "ai-assisted",
+    "words": 211,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a7ee5b6daa8a426f34343719b8ba150a68fa5c2094ec46fdbce8cf471790f490"
+  "output_hash": "cab242cda99a808667bb64bda5f01ccae24be66878738c17c8cbdf9ac761cd34"
 }

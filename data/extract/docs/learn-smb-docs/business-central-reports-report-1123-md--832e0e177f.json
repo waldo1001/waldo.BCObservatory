@@ -1,16 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-1123.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1123",
-  "title": "Cost Acctg. Stmt. per Period (report)",
-  "blob": "1e9bd29edd746a80a6978bd3c18b365680be9ef4",
-  "summary": "The Cost Acctg. Stmt. per Period report summarizes posted cost entries grouped by periods to monitor spending trends and variances over time.",
+  "title": "Cost Acctg. Stmt. per Period (Report)",
+  "blob": "d3714a40fe6a003e4dccad024af444f4443c0373",
+  "summary": "Cost Acctg. Stmt. per Period report compares cost amounts by cost type across two periods, showing differences and percentages. Use it to monitor cost activity, identify trends and variances, and validate cost postings for accounting and budgeting.",
   "systems": [
-    "finance"
+    "finance",
+    "reporting"
   ],
   "topics": [
     "cost accounting",
     "financial reporting",
-    "period analysis"
+    "variance analysis",
+    "period comparison",
+    "cost control"
   ],
   "objects": [
     {
@@ -19,11 +22,13 @@
     }
   ],
   "features": [
-    "cost entry grouping by period",
-    "date filtering",
-    "cost dimensions",
-    "trend analysis",
-    "period comparison"
+    "Comparison Type selection",
+    "Free comparison",
+    "Amounts in (Balance vs Net Change)",
+    "Cost type filtering",
+    "Cost center filtering",
+    "Cost object filtering",
+    "Additional reporting currency"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001247,
-      "pages_in_call": 7
+      "cost_usd": 0.003594,
+      "pages_in_call": 1
     }
   ]
 }

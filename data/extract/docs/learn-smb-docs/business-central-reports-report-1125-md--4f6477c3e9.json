@@ -1,18 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-1125.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1125",
-  "title": "Cost Types Details (report)",
-  "blob": "9a893a5f64ae2268b8417ed9a53a799ebb8c41ab",
-  "summary": "The Cost Types Details report provides a categorized breakdown of all cost types such as labor, materials, and overhead, with filtering by period and cost center to support cost tracking and analysis.",
+  "title": "Cost Types Details Report for Cost Entries",
+  "blob": "98ea58b0ab66f08b85058ab66e0fab896dbcdbf1",
+  "summary": "The Cost Types Details report lists posted cost entries by cost type, showing opening balance, posting dates, amounts, cost centers, and running balance. Use it to analyze cost contributions, validate allocations, monitor cost center performance, and support budgeting and compliance reviews.",
   "systems": [
-    "finance"
+    "finance",
+    "reporting"
   ],
   "topics": [
     "cost accounting",
+    "cost entries",
     "cost types",
-    "financial reporting",
-    "cost tracking",
-    "cost center"
+    "cost centers",
+    "cost objects",
+    "financial reporting"
   ],
   "objects": [
     {
@@ -21,11 +23,14 @@
     }
   ],
   "features": [
-    "cost type breakdown",
-    "period filtering",
+    "cost entry details",
+    "cost type filtering",
     "cost center filtering",
-    "cost allocation validation",
-    "cost trend analysis"
+    "cost object filtering",
+    "closing entries",
+    "additional reporting currency",
+    "cost center performance monitoring",
+    "cost allocation validation"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005155,
-      "pages_in_call": 8
+      "cost_usd": 0.003314,
+      "pages_in_call": 1
     }
   ]
 }

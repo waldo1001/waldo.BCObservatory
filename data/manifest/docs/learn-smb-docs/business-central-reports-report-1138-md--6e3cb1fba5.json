@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Cost Acctg. Balance/Budget (report)",
+  "title": "Cost Acctg. Balance/Budget (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1138",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.144Z",
-      "blob": "f0491c5f66b4759313cb73a15551b53568a814cf",
-      "words": 184,
+      "at": "2026-11-17T00:26:48.720Z",
+      "blob": "8d4ad4d0ca81342578cf33dfec76eeccbabcc1ae",
+      "words": 238,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:59.196Z",
+      "at": "2026-11-17T00:26:54.722Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002187
+      "cost_usd": 0.003396
     },
     "summarized": {
-      "at": "2026-10-06T18:53:08.362Z",
+      "at": "2026-11-17T00:26:54.722Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:08.364Z",
+      "at": "2026-11-17T00:26:54.723Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:08.366Z",
+      "at": "2026-11-17T00:26:54.724Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1138.md",
-    "description": "Use this report to analyze balances for cost accounts and budgets to support financial planning and control.",
-    "ms_date": "2025-06-23",
+    "description": "Compare current-period and year-to-date costs with budgets by cost type, and review full-year budget amounts using the fiscal-year dates you select.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "budget analysis",
       "financial planning"
     ],
-    "ai_usage": null,
-    "words": 184,
+    "ai_usage": "ai-assisted",
+    "words": 238,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3bb64281b5daa5f776f33eaa5b8757a895a86fc52680975b18c4623d397c935a"
+  "output_hash": "139a42eceac102c8eb3e4ad9d42723feb6fe90451f2f8a436c168b5725c54fe7"
 }
