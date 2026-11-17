@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Purchase statistics (report)",
+  "title": "Purchase Statistics by Vendor (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-312",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.259Z",
-      "blob": "b23a1390d2df169a685af4e3d1899424321c4442",
-      "words": 396,
+      "at": "2026-11-17T00:27:30.949Z",
+      "blob": "e216e29324789128e71ba9dc6ceb2bb3e9886d80",
+      "words": 342,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:28.836Z",
+      "at": "2026-11-17T00:27:37.248Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002091
+      "cost_usd": 0.005817
     },
     "summarized": {
-      "at": "2026-10-06T18:53:37.266Z",
+      "at": "2026-11-17T00:27:37.249Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:37.267Z",
+      "at": "2026-11-17T00:27:37.250Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:37.268Z",
+      "at": "2026-11-17T00:27:37.250Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-312.md",
-    "description": "Keep track of vendor performance and ensure that your company is getting the best value for its money.",
-    "ms_date": "2024-10-14",
+    "description": "Compare purchases, invoice discounts, payment discounts, and payment tolerances by vendor across five reporting periods in Business Central.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 396,
+    "ai_usage": "ai-assisted",
+    "words": 342,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5ea22becf5da7965ea62c3ae70663c67a6983e5b91e603d5c3646ca17897e979"
+  "output_hash": "8a8d67cef1c1ae8acc18c6d38a3be593c3f28650b9ffa7a92d0e34e548c80005"
 }

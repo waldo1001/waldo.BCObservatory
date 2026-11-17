@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-320.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-320",
-  "title": "Vendor Item catalog (report)",
-  "blob": "75d4cfd331e3688eae29d018bac0e41d1960b904",
-  "summary": "Vendor Item catalog report shows vendors for selected items or items for selected vendors with unit cost, lead time calculation, and vendor item numbers to help procurement managers compare prices and manage lead times.",
+  "title": "Vendor Item Catalog Report in Business Central",
+  "blob": "c8e1a5fccb36686da4099469be05dd6dae656cdd",
+  "summary": "The Vendor Item Catalog report displays vendors for selected items or items for selected vendors, showing direct unit costs, lead times, and vendor item numbers to help procurement managers compare prices and manage vendor relationships.",
   "systems": [
     "purchasing",
-    "inventory"
+    "inventory",
+    "reporting"
   ],
   "topics": [
-    "vendor pricing",
-    "lead time management",
-    "vendor selection",
-    "cost management",
-    "procurement"
+    "vendor management",
+    "procurement",
+    "cost comparison",
+    "lead time",
+    "purchasing reports"
   ],
   "objects": [
     {
@@ -26,10 +27,11 @@
     }
   ],
   "features": [
-    "vendor price comparison",
+    "vendor comparison",
+    "unit cost display",
     "lead time calculation",
-    "direct unit cost",
-    "vendor item number display"
+    "vendor item number tracking",
+    "cost management"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002228,
-      "pages_in_call": 8
+      "cost_usd": 0.003394,
+      "pages_in_call": 1
     }
   ]
 }

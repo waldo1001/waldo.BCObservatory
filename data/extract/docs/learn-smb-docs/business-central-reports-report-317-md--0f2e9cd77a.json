@@ -1,19 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-317.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-317",
-  "title": "Vendor Pre-Payment Journal (report)",
-  "blob": "34f5f8fb9c96e6794bc46c2e4744b75a47f1c8e9",
-  "summary": "Vendor Pre-Payment Journal report shows payment discount and tolerance information for payment journals to help procurement officers, accounts payable professionals, and financial analysts review payment accuracy before posting.",
+  "title": "Vendor Pre-Payment Journal (Report)",
+  "blob": "29c3abd0e2bd3a46ab4e6ad538a88566d1bd98c4",
+  "summary": "The Vendor Pre-Payment Journal report displays unposted payment journal lines with their applications, discounts, tolerances, and error messages to verify payments before posting or creating payment files.",
   "systems": [
     "purchasing",
     "finance"
   ],
   "topics": [
-    "payment discounts",
-    "tolerances",
-    "prepayment journals",
+    "payment journal",
     "vendor payments",
-    "reconciliation"
+    "prepayment",
+    "payment discounts",
+    "payment verification"
   ],
   "objects": [
     {
@@ -22,9 +22,11 @@
     }
   ],
   "features": [
-    "payment discount information",
-    "tolerance information",
     "payment journal review",
+    "payment application",
+    "payment discounts",
+    "tolerance analysis",
+    "error identification",
     "payment file preparation"
   ],
   "versions": [],
@@ -34,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002228,
-      "pages_in_call": 8
+      "cost_usd": 0.003195,
+      "pages_in_call": 1
     }
   ]
 }

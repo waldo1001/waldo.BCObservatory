@@ -1,31 +1,34 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-312.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-312",
-  "title": "Purchase statistics (report)",
-  "blob": "b23a1390d2df169a685af4e3d1899424321c4442",
-  "summary": "Purchase statistics report provides vendor purchase history, payment discounts taken and lost, and other vendor transaction data for performance monitoring and cash flow forecasting.",
+  "title": "Purchase Statistics by Vendor (Report)",
+  "blob": "e216e29324789128e71ba9dc6ceb2bb3e9886d80",
+  "summary": "Purchase Statistics by Vendor report shows purchase amounts, vendor discounts, and cash flow data across periods for each vendor to help procurement analysts and controllers analyze vendor performance and forecast cash flow.",
   "systems": [
     "purchasing",
     "finance",
     "reporting"
   ],
   "topics": [
-    "vendor performance",
-    "purchase analysis",
-    "payment discounts",
+    "vendor analysis",
+    "purchase statistics",
+    "discounts",
     "cash flow",
-    "accounts payable"
+    "procurement"
   ],
   "objects": [
     {
       "type": "report",
-      "name": "Purchase statistics"
+      "name": "Purchase Statistics by Vendor"
     }
   ],
   "features": [
-    "vendor performance monitoring",
-    "discount tracking",
-    "payment history",
+    "purchase amounts by currency",
+    "invoice discounts",
+    "payment discounts",
+    "payment discount tolerances",
+    "payment tolerances",
+    "vendor comparison",
     "cash flow forecasting"
   ],
   "versions": [],
@@ -35,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002091,
-      "pages_in_call": 8
+      "cost_usd": 0.005817,
+      "pages_in_call": 1
     }
   ]
 }

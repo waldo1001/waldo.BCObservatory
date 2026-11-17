@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Vendor - Order Detail (report)",
+  "title": "Vendor - Order Detail (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-308",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.246Z",
-      "blob": "8479f36cada05c9611f052f793e62f6e734c17e0",
-      "words": 387,
+      "at": "2026-11-17T00:27:30.920Z",
+      "blob": "a252aa51fda7d6ee8e3462d32bd0b62c78c5586a",
+      "words": 367,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:28.833Z",
+      "at": "2026-11-17T00:27:35.637Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002091
+      "cost_usd": 0.003181
     },
     "summarized": {
-      "at": "2026-10-06T18:53:37.258Z",
+      "at": "2026-11-17T00:27:35.638Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:37.258Z",
+      "at": "2026-11-17T00:27:35.638Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:37.259Z",
+      "at": "2026-11-17T00:27:35.639Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-308.md",
-    "description": "Analyze your outstanding purchase orders to understand your expected purchase volume by vendor.",
-    "ms_date": "2024-10-14",
+    "description": "Review outstanding purchase order lines by vendor, including expected receipt dates, discounts, amounts, and back order quantities in Business Central.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 387,
+    "ai_usage": "ai-assisted",
+    "words": 367,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8daa583b5061b484c0b850b19a72c0ec29eb5d3a637f4f9b7a1a91a16ff682d9"
+  "output_hash": "c828c70e2d39b23e7301bb937d771dd6e3114e320a18c50aeb4492aa93854a8d"
 }

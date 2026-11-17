@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Vendor Pre-Payment Journal (report)",
+  "title": "Vendor Pre-Payment Journal (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-317",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.263Z",
-      "blob": "34f5f8fb9c96e6794bc46c2e4744b75a47f1c8e9",
-      "words": 370,
+      "at": "2026-11-17T00:27:35.667Z",
+      "blob": "29c3abd0e2bd3a46ab4e6ad538a88566d1bd98c4",
+      "words": 367,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:35.397Z",
+      "at": "2026-11-17T00:27:39.634Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002228
+      "cost_usd": 0.003195
     },
     "summarized": {
-      "at": "2026-10-06T18:53:37.246Z",
+      "at": "2026-11-17T00:27:44.457Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:37.247Z",
+      "at": "2026-11-17T00:27:44.458Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:37.248Z",
+      "at": "2026-11-17T00:27:44.458Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-317.md",
-    "description": "The report can be used to check payments before creating payment files and posting the journal.",
-    "ms_date": "2024-10-18",
+    "description": "Check unposted payment journal lines, applications, discounts, tolerances, and errors before creating payment files or posting in Business Central.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 370,
+    "ai_usage": "ai-assisted",
+    "words": 367,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fe09e7e89349b47b9b56a4856adef17053718e64a57ab5827bed35ee9a143c04"
+  "output_hash": "925129ce3eb74881fe52e533d84485acc2633e0452e1936bd12f283c0d82bc3d"
 }

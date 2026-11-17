@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Vendor - Top 10 List (report)",
+  "title": "Vendor - Top 10 List Report in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-311",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.255Z",
-      "blob": "2f4a9481fef48c8ef953f41954603b5ea14e7256",
-      "words": 152,
+      "at": "2026-11-17T00:27:30.960Z",
+      "blob": "7e800fab9a5abd731e2e4212f461a0ca7b6df120",
+      "words": 151,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:28.835Z",
+      "at": "2026-11-17T00:27:35.997Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002091
+      "cost_usd": 0.003396
     },
     "summarized": {
-      "at": "2026-10-06T18:53:37.263Z",
+      "at": "2026-11-17T00:27:35.998Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:37.264Z",
+      "at": "2026-11-17T00:27:36.000Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:37.265Z",
+      "at": "2026-11-17T00:27:36.001Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-311.md",
-    "description": "Analyze the vendor effect on cash flow and prioritize vendor payments.",
-    "ms_date": "2024-12-16",
+    "description": "Rank vendors by purchase amounts or balances in local currency. Choose how many vendors to include and compare their amounts with the report totals.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 152,
+    "ai_usage": "ai-assisted",
+    "words": 151,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fd287fd7d850467f109c07ebb4a2fe045ac6a8163b357117d8c4f1f8de6bb993"
+  "output_hash": "e55034b1bfe759cabe4201c197e608081140ae797bcd300c883d3e603d19a4a5"
 }

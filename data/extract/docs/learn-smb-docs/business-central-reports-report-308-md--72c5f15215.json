@@ -1,18 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-308.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-308",
-  "title": "Vendor - Order Detail (report)",
-  "blob": "8479f36cada05c9611f052f793e62f6e734c17e0",
-  "summary": "Vendor - Order Detail report displays line-level purchase order breakdown for each vendor including outstanding receipts, applied discounts, and outstanding amounts.",
+  "title": "Vendor - Order Detail (Report)",
+  "blob": "a252aa51fda7d6ee8e3462d32bd0b62c78c5586a",
+  "summary": "Vendor - Order Detail report displays purchase order lines with outstanding quantities grouped by vendor, including expected receipt dates, applied discounts, and outstanding amounts to help procurement teams analyze orders and identify overdue back orders.",
   "systems": [
     "purchasing",
     "reporting"
   ],
   "topics": [
     "purchase orders",
-    "vendor performance",
-    "procurement analysis",
-    "back orders"
+    "vendor analysis",
+    "outstanding receipts",
+    "back orders",
+    "procurement"
   ],
   "objects": [
     {
@@ -21,11 +22,12 @@
     }
   ],
   "features": [
-    "line-level breakdown",
-    "outstanding receipts",
-    "applied discounts",
-    "overdue back orders",
-    "expected receipt dates"
+    "outstanding purchase receipts",
+    "line and invoice discounts",
+    "outstanding amounts",
+    "expected receipt date filtering",
+    "local currency display",
+    "vendor page breaks"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002091,
-      "pages_in_call": 8
+      "cost_usd": 0.003181,
+      "pages_in_call": 1
     }
   ]
 }

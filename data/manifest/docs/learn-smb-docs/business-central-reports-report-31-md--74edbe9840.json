@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "VAT Exceptions (report)",
+  "title": "VAT Exceptions for VAT Differences (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-31",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.251Z",
-      "blob": "333d1f78c93c890e4f3aac648b8fd942de2b7200",
-      "words": 202,
+      "at": "2026-11-17T00:27:30.897Z",
+      "blob": "a387a52c7e923f4b9b372a3286d3d63355f5fd57",
+      "words": 209,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:28.834Z",
+      "at": "2026-11-17T00:27:35.786Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002091
+      "cost_usd": 0.003206
     },
     "summarized": {
-      "at": "2026-10-06T18:53:37.260Z",
+      "at": "2026-11-17T00:27:35.787Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:37.261Z",
+      "at": "2026-11-17T00:27:35.789Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:37.262Z",
+      "at": "2026-11-17T00:27:35.791Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-31.md",
-    "description": "Identifies transactions where VAT was expected but not calculated or posted. Run this to catch inconsistencies before filing VAT returns.",
-    "ms_date": "2025-06-25",
+    "description": "Review posted VAT entries with VAT differences above a minimum threshold, with options for reversed entries and additional reporting currency.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -61,12 +61,12 @@
       "reporting",
       "finance"
     ],
-    "ai_usage": null,
-    "words": 202,
+    "ai_usage": "ai-assisted",
+    "words": 209,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d78c19091e2a475639ffd0ccf03199bf0e9750b69b65840dc46669d5f0220cfa"
+  "output_hash": "f178c8b6466bce6a785a0d26dd45c746dc7c50741ba22e7740df9aa3beb39c02"
 }

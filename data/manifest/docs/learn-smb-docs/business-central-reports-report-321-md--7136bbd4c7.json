@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Vendor - Balance to Date (report)",
+  "title": "Vendor - Balance to Date (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-321",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.280Z",
-      "blob": "f2e6c297c17eb358ab32dbfac4f17d97ab8c7e2f",
-      "words": 535,
+      "at": "2026-11-17T00:27:37.293Z",
+      "blob": "936f617c8a874a6c3a67ccd090b92afdf5e83048",
+      "words": 510,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:37.243Z",
+      "at": "2026-11-17T00:27:44.491Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002228
+      "cost_usd": 0.003384
     },
     "summarized": {
-      "at": "2026-10-06T18:53:37.277Z",
+      "at": "2026-11-17T00:27:44.501Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:37.278Z",
+      "at": "2026-11-17T00:27:44.501Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:37.279Z",
+      "at": "2026-11-17T00:27:44.510Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-321.md",
-    "description": "Keep track of your outstanding payables and manage your vendor relationships.",
-    "ms_date": "2024-10-18",
+    "description": "Review vendor entries and balances as of a selected date, including later applications and unapplied entries, to support payables reconciliation.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 535,
+    "ai_usage": "ai-assisted",
+    "words": 510,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3d319f6dd22e547740106ba43b87c20a6b639a42c6b8b68d7fdbe08d57ea6a7b"
+  "output_hash": "1f91e413a0f913c3caa5ab44aeab2669305da817316031177329fcad4b3e5ae5"
 }

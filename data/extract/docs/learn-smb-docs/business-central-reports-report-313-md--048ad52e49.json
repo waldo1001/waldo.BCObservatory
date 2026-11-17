@@ -1,20 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-313.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-313",
-  "title": "Vendor/Item Purchases (report)",
-  "blob": "0d131c2d4be159d613f0a57e3d46fbbc63759db3",
-  "summary": "Vendor/Item Purchases report summarizes item purchases from vendors in a date period, grouped by vendor with invoiced quantities, costs, and discounts. Procurement managers use it to optimize inventory and supply chain, while controllers use it to forecast cash flow and identify cost savings.",
+  "title": "Vendor/Item Purchases (Report)",
+  "blob": "50dd4a7abfcb458ee14e7425bf865feefb826f94",
+  "summary": "The Vendor/Item Purchases report shows total items purchased from vendors in a date period, grouped by vendor, with invoiced quantities, cost amounts, and discounts based on posted value entries.",
   "systems": [
     "purchasing",
     "inventory",
-    "reporting"
+    "finance"
   ],
   "topics": [
-    "purchase analytics",
-    "vendor purchases",
+    "vendor analysis",
+    "item purchases",
+    "cost management",
     "procurement",
-    "cost analysis",
-    "supply chain"
+    "supply chain",
+    "cash flow forecasting"
   ],
   "objects": [
     {
@@ -23,11 +24,12 @@
     }
   ],
   "features": [
-    "purchase by vendor",
-    "item cost totaling",
-    "discount tracking",
-    "date period analysis",
-    "cash flow forecasting"
+    "purchase totals by vendor",
+    "cost amount calculation",
+    "added costs/item charges",
+    "discount analysis",
+    "posted value entries",
+    "local currency"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002778,
-      "pages_in_call": 8
+      "cost_usd": 0.003208,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,19 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-321.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-321",
-  "title": "Vendor - Balance to Date (report)",
-  "blob": "f2e6c297c17eb358ab32dbfac4f17d97ab8c7e2f",
-  "summary": "Vendor - Balance to Date report shows vendor balance by ending date of specified date range, helping accounts payable professionals, procurement officers, and financial analysts reconcile vendor subledgers and monitor payment history.",
+  "title": "Vendor - Balance to Date (Report)",
+  "blob": "936f617c8a874a6c3a67ccd090b92afdf5e83048",
+  "summary": "The Vendor - Balance to Date report displays vendor balances as of a specified ending date, helping accounts payable professionals and financial analysts reconcile payables, identify discrepancies, and prepare financial statements.",
   "systems": [
     "purchasing",
-    "finance"
+    "finance",
+    "reporting"
   ],
   "topics": [
     "vendor balances",
-    "reconciliation",
-    "payment history",
     "accounts payable",
-    "financial reporting"
+    "reconciliation",
+    "financial reporting",
+    "ledger entries",
+    "date filtering"
   ],
   "objects": [
     {
@@ -22,10 +24,12 @@
     }
   ],
   "features": [
-    "local currency display",
-    "unapplied entries option",
-    "zero balance vendors",
-    "date filtering"
+    "Date Filter",
+    "Local Currency Display",
+    "Unapplied Entries",
+    "Zero Balance Entries",
+    "Vendor Subledger Reconciliation",
+    "Outstanding Balance Analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002228,
-      "pages_in_call": 8
+      "cost_usd": 0.003384,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Vendor/Item Purchases (report)",
+  "title": "Vendor/Item Purchases (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-313",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.832Z",
-      "blob": "0d131c2d4be159d613f0a57e3d46fbbc63759db3",
+      "at": "2026-11-17T00:27:30.935Z",
+      "blob": "50dd4a7abfcb458ee14e7425bf865feefb826f94",
       "words": 413,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:24:13.019Z",
+      "at": "2026-11-17T00:27:35.650Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002778
+      "cost_usd": 0.003208
     },
     "summarized": {
-      "at": "2026-10-06T19:24:13.027Z",
+      "at": "2026-11-17T00:27:35.651Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:13.028Z",
+      "at": "2026-11-17T00:27:35.652Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:13.028Z",
+      "at": "2026-11-17T00:27:35.653Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-313.md",
-    "description": "Analyze your item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases.",
-    "ms_date": "2024-10-14",
-    "ms_topic": "article",
+    "description": "Analyze invoiced item quantities, actual costs, and discounts by vendor in local currency to review historical purchasing costs in Business Central.",
+    "ms_date": "2026-11-13",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "Report_313_Primary",
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 413,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "86c33cccf5929632157a198c521c732584526fa6fb755508a6e9dbadaf675c43"
+  "output_hash": "6fcf4a525f456dbb239bd518d95eca7651006fa13077b1380704e2a4e51e9e26"
 }

@@ -1,19 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-311.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-311",
-  "title": "Vendor - Top 10 List (report)",
-  "blob": "2f4a9481fef48c8ef953f41954603b5ea14e7256",
-  "summary": "Vendor - Top 10 List report ranks vendors by transaction volume in a selected period and benchmarks them against total purchases across all vendors.",
+  "title": "Vendor - Top 10 List Report in Business Central",
+  "blob": "7e800fab9a5abd731e2e4212f461a0ca7b6df120",
+  "summary": "The Vendor - Top 10 List report ranks vendors by purchase amounts or balances in local currency, allowing users to choose between Purchases (LCY) or Balance (LCY) metrics and adjust the number of vendors displayed. This report is now obsolete; the Vendor - Top 10 List Excel report is recommended as an alternative.",
   "systems": [
     "purchasing",
-    "finance",
     "reporting"
   ],
   "topics": [
     "vendor analysis",
-    "purchase volume",
-    "vendor ranking",
-    "vendor performance"
+    "purchasing analytics",
+    "top 10 vendors",
+    "reporting",
+    "accounts payable"
   ],
   "objects": [
     {
@@ -22,10 +22,11 @@
     }
   ],
   "features": [
-    "top vendor ranking",
-    "purchase amount sorting",
-    "balance overview",
-    "transaction volume analysis"
+    "Show (Purchases LCY / Balance LCY)",
+    "Quantity adjustment",
+    "Vendor ranking",
+    "Currency comparison",
+    "Filter support"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002091,
-      "pages_in_call": 8
+      "cost_usd": 0.003396,
+      "pages_in_call": 1
     }
   ]
 }

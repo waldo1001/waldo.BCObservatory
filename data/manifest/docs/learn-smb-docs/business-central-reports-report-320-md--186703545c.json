@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Vendor Item catalog (report)",
+  "title": "Vendor Item Catalog Report in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-320",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.276Z",
-      "blob": "75d4cfd331e3688eae29d018bac0e41d1960b904",
+      "at": "2026-11-17T00:27:36.048Z",
+      "blob": "c8e1a5fccb36686da4099469be05dd6dae656cdd",
       "words": 344,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:37.242Z",
+      "at": "2026-11-17T00:27:44.463Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002228
+      "cost_usd": 0.003394
     },
     "summarized": {
-      "at": "2026-10-06T18:53:37.274Z",
+      "at": "2026-11-17T00:27:44.464Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:37.275Z",
+      "at": "2026-11-17T00:27:44.464Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:37.276Z",
+      "at": "2026-11-17T00:27:44.465Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-320.md",
-    "description": "Get a list of vendors by item or items per vendor.",
-    "ms_date": "2024-10-14",
+    "description": "Review vendor purchase prices, lead time calculations, and vendor item numbers with the Vendor Item Catalog report to support purchasing decisions.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 344,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ffceb6df11284dfcaad4b9c79626018d120b4f514912d14071e7be2763eae536"
+  "output_hash": "fd64bd16389d902dca0ebeb7ae8a979da9fa6d41c9d2f26f6a0c644b0fe13b12"
 }

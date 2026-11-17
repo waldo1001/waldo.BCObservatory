@@ -1,18 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-31.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-31",
-  "title": "VAT Exceptions (report)",
-  "blob": "333d1f78c93c890e4f3aac648b8fd942de2b7200",
-  "summary": "VAT Exceptions report identifies posted transactions where VAT was expected but not calculated or posted, helping validate VAT setup before filing returns.",
+  "title": "VAT Exceptions for VAT Differences (Report)",
+  "blob": "a387a52c7e923f4b9b372a3286d3d63355f5fd57",
+  "summary": "The VAT Exceptions report lists VAT entries with recorded VAT differences that meet or exceed a minimum threshold, helping accountants, controllers, and auditors review VAT adjustments and investigate larger differences before filing returns.",
   "systems": [
-    "finance",
-    "reporting"
+    "finance"
   ],
   "topics": [
-    "vat compliance",
-    "tax reporting",
-    "posted transactions",
-    "vat validation"
+    "vat reporting",
+    "vat differences",
+    "tax compliance",
+    "audit",
+    "financial reporting"
   ],
   "objects": [
     {
@@ -21,10 +21,11 @@
     }
   ],
   "features": [
-    "missing vat detection",
-    "vat setup validation",
-    "compliance checking",
-    "tax return preparation"
+    "VAT Difference threshold filtering",
+    "Posting Date filtering",
+    "Reversed entries inclusion",
+    "Additional reporting currency support",
+    "VAT entry analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002091,
-      "pages_in_call": 8
+      "cost_usd": 0.003206,
+      "pages_in_call": 1
     }
   ]
 }
