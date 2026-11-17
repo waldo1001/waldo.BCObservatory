@@ -2,16 +2,17 @@
   "item_id": "docs/learn-smb-docs/business-central/purchasing-how-setup-purchasers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-setup-purchasers",
   "title": "Set up purchasers and assign purchasers to vendors",
-  "blob": "d61307c69410b013dc841197a2712224cfa8dd28",
-  "summary": "Set up purchaser codes and assign purchasers to vendors for filtering reports and preparing purchasing statistics.",
+  "blob": "a7e42cc0fd023fe6316c97b7b1d53b674191ac66",
+  "summary": "Setting up purchasers in Business Central allows multiple purchasers to be configured, assigned to vendors, and used for statistics and reporting filters.",
   "systems": [
-    "purchasing"
+    "purchasing",
+    "administration"
   ],
   "topics": [
     "purchasers",
     "vendors",
     "setup",
-    "statistics"
+    "purchasing configuration"
   ],
   "objects": [
     {
@@ -28,8 +29,10 @@
     }
   ],
   "features": [
-    "purchaser setup",
-    "purchaser assignment"
+    "Purchaser setup",
+    "Purchaser assignment to vendors",
+    "Purchaser codes",
+    "Statistics and filtering"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004165,
-      "pages_in_call": 8
+      "cost_usd": 0.003412,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-record-purchase-price-discount-payment-agreements",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 9
     },
     "extracted": {
-      "at": "2026-10-06T14:22:14.514Z",
+      "at": "2026-11-17T00:21:40.012Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00753
+      "objects": 4,
+      "cost_usd": 0.010271
     },
     "summarized": {
-      "at": "2026-10-06T14:22:14.520Z",
+      "at": "2026-11-17T00:21:40.013Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:22:14.520Z",
+      "at": "2026-11-17T00:21:40.013Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:22:14.520Z",
+      "at": "2026-11-17T00:21:40.013Z",
       "page": false
     }
   },
@@ -106,5 +106,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "927034bcb49ee38e177ab2b61b94186c7365bcc7"
+  "output_hash": "74235b83733e7eb405a705940135b5e2addbf1fca57af7281958e1072d37f227"
 }

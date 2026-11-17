@@ -2,18 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/purchasing-how-register-new-vendors.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-register-new-vendors",
   "title": "Register a new vendor",
-  "blob": "d763642cca73ee7178811aecf826650715c3341a",
-  "summary": "Register new vendors in Business Central by creating vendor cards manually or using templates. Setup includes recording vendor information, bank accounts, payment preferences, and optional self-billing agreements.",
+  "blob": "e2efb13c23916c1334a3bb92fe9aecb9175e4242",
+  "summary": "Register new vendors by creating vendor cards with master data, templates, and configuration options. Use this page to set up vendor information, remit-to addresses, self-billing agreements, and understand the vendor registration workflow.",
   "systems": [
     "purchasing",
+    "integration",
     "administration"
   ],
   "topics": [
-    "vendor setup",
+    "vendor registration",
     "vendor cards",
-    "master data",
-    "purchase partners",
-    "payment terms"
+    "vendor templates",
+    "remit-to addresses",
+    "self-billing",
+    "purchase setup"
   ],
   "objects": [
     {
@@ -23,14 +25,33 @@
     {
       "type": "page",
       "name": "Vendor Template"
+    },
+    {
+      "type": "page",
+      "name": "Dimension Templates"
+    },
+    {
+      "type": "page",
+      "name": "Vendors"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "report",
+      "name": "Posted Purchase Invoice – Self-Billing Invoice"
     }
   ],
   "features": [
+    "vendor card creation",
     "vendor templates",
     "remit-to addresses",
-    "vendor bank accounts",
-    "self-billing agreements",
-    "vendor dimensions"
+    "self-billing agreement",
+    "vendor bank account",
+    "order addresses",
+    "IBAN management",
+    "digital vouchers"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +60,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005231,
-      "pages_in_call": 8
+      "cost_usd": 0.005774,
+      "pages_in_call": 1
     }
   ]
 }

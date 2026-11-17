@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-set-up-vendors-bank-accounts",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.182Z",
-      "blob": "30dc9270c2505896af3e9a34a3bc9cb9c842be4d",
+      "at": "2026-11-17T00:21:51.793Z",
+      "blob": "9c2b4f4b11a2f7bfe123bc1816ca92be0395a5d7",
       "words": 275,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:54:44.437Z",
+      "at": "2026-11-17T00:22:10.910Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.005231
+      "objects": 2,
+      "cost_usd": 0.003291
     },
     "summarized": {
-      "at": "2026-10-06T13:54:44.439Z",
+      "at": "2026-11-17T00:22:10.911Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:54:44.439Z",
+      "at": "2026-11-17T00:22:10.912Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:54:44.439Z",
+      "at": "2026-11-17T00:22:10.912Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchasing-how-set-up-vendors-bank-accounts.md",
     "description": "Learn how to associate bank accounts to vendors, including contact information, SWIFT, and IBAN codes.",
-    "ms_date": "2026-08-17",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b10d9df98f9d16aaab424e08eccd0d130052a802fae83bd1c2aecad41b9af294"
+  "output_hash": "89957ea0cfe206ed41bbf7637bac828f27d256189abc3eea900fec019406e775"
 }

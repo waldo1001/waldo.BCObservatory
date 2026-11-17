@@ -2,35 +2,24 @@
   "item_id": "docs/learn-smb-docs/business-central/purchasing-how-purchase-products-sale.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-purchase-products-sale",
   "title": "Purchase items for a sale",
-  "blob": "631b881f9cd3fd780894a12c1ee600ed4ea098d8",
-  "summary": "Create purchase orders or invoices directly from sales orders and sales invoices to replenish inventory for pending sales.",
+  "blob": "aa3dc84dc89fe8ffdade7745b9fef5ce2640e02b",
+  "summary": "Purchase items for sales by creating purchase orders or invoices from sales documents to replenish inventory with quantities needed to fulfill sales.",
   "systems": [
-    "purchasing",
-    "sales"
+    "sales",
+    "purchasing"
   ],
   "topics": [
     "purchase orders",
-    "purchase invoices",
     "sales orders",
-    "replenishment"
+    "purchase invoices",
+    "inventory replenishment"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Sales Orders"
-    },
-    {
-      "type": "page",
-      "name": "Create Purchase Orders"
-    },
-    {
-      "type": "page",
-      "name": "Sales Invoices"
-    }
-  ],
+  "objects": [],
   "features": [
-    "create purchase orders",
-    "create purchase invoice"
+    "Create Purchase Orders",
+    "Create Purchase Invoice",
+    "Quantity to Purchase",
+    "Show Unavailable"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +28,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004165,
-      "pages_in_call": 8
+      "cost_usd": 0.003346,
+      "pages_in_call": 1
     }
   ]
 }

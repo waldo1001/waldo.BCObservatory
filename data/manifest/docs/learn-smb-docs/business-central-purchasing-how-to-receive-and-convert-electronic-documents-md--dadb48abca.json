@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-12T00:18:13.786Z",
-      "blob": "b57825924628283f43f75b0200cf4b261012b490",
+      "at": "2026-11-17T00:22:13.860Z",
+      "blob": "b9422f5a809f5d89992b0e3c3a36f4c92794ecb0",
       "words": 753,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-11-12T00:18:26.836Z",
+      "at": "2026-11-17T00:22:18.786Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.004387
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-12T00:18:26.837Z",
+      "at": "2026-11-17T00:22:18.788Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-12T00:18:26.837Z",
+      "at": "2026-11-17T00:22:18.788Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-12T00:18:26.838Z",
+      "at": "2026-11-17T00:22:18.789Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchasing-how-to-receive-and-convert-electronic-documents.md",
     "description": "Learn how to receive and convert electronic documents in Business Central, either directly from trading partners or through an OCR service.",
-    "ms_date": "2025-10-03",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -81,5 +81,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1892d3531cb66646cd3607cfcd0555af4bf3ee637cd90409794299b1e78486a3"
+  "output_hash": "d5f8f5f08d954578d3a08950e94140b77447a4fa6745b231e3880051915dfd92"
 }

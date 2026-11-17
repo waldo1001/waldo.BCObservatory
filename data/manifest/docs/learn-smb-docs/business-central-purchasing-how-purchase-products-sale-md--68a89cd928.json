@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-purchase-products-sale",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:01:24.770Z",
+      "at": "2026-11-17T00:21:31.614Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.004165
+      "objects": 0,
+      "cost_usd": 0.003346
     },
     "summarized": {
-      "at": "2026-10-06T19:01:24.786Z",
+      "at": "2026-11-17T00:21:31.616Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:24.787Z",
+      "at": "2026-11-17T00:21:31.616Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:24.788Z",
+      "at": "2026-11-17T00:21:31.621Z",
       "page": false
     }
   },
@@ -81,5 +81,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aa3dc84dc89fe8ffdade7745b9fef5ce2640e02b"
+  "output_hash": "07539703f2aa15289c7247e7c05c67fa40cdb9ab63da8a9b0ac4f24c2948b55a"
 }

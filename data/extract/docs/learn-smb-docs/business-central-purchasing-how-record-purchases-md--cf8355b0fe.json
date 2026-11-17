@@ -2,23 +2,29 @@
   "item_id": "docs/learn-smb-docs/business-central/purchasing-how-record-purchases.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-record-purchases",
   "title": "Record purchases with purchase invoices",
-  "blob": "d71004fd60fc71a66de869c247e71c63551f1aed",
-  "summary": "This page describes how to create and post purchase invoices and orders to record purchases, update inventory, and track accounts payable. It covers receiving items, handling over-receipts, and managing posted documents.",
+  "blob": "a28a3eec4b12f3c024594698e9cdc7ecc2e1d8f6",
+  "summary": "Recording purchases with purchase invoices and orders to track vendor costs, accounts payable, and inventory levels. Use when you need to document purchases and activate vendor payments according to payment terms.",
   "systems": [
     "purchasing",
-    "inventory"
+    "inventory",
+    "finance"
   ],
   "topics": [
     "purchase invoices",
     "purchase orders",
-    "receiving",
-    "vendors",
-    "payables"
+    "vendor payments",
+    "inventory management",
+    "posting",
+    "over-receipts"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoice"
     },
     {
       "type": "page",
@@ -31,15 +37,67 @@
     {
       "type": "page",
       "name": "Over-Receipt Codes"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Item Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Resource Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Receipts"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Resource Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Purch. Recpt. Header"
+    },
+    {
+      "type": "table",
+      "name": "Purch. Inv. Header"
     }
   ],
   "features": [
-    "purchase invoice posting",
-    "purchase order receipt",
+    "create purchase invoices",
+    "post purchase orders",
+    "partial receipts",
     "over-receipt handling",
-    "vendor invoice discounts",
-    "external document numbers",
-    "batch posting"
+    "recurring purchase lines",
+    "invoice discounts",
+    "drop shipments",
+    "batch posting",
+    "preview posting",
+    "edit posted documents"
   ],
   "versions": [],
   "parts": 1,
@@ -48,8 +106,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007077,
-      "pages_in_call": 7
+      "cost_usd": 0.0135,
+      "pages_in_call": 1
     }
   ]
 }

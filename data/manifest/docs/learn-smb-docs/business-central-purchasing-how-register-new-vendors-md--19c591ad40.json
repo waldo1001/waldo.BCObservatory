@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-register-new-vendors",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.177Z",
-      "blob": "d763642cca73ee7178811aecf826650715c3341a",
+      "at": "2026-11-17T00:21:40.027Z",
+      "blob": "e2efb13c23916c1334a3bb92fe9aecb9175e4242",
       "words": 1161,
       "forms": 12
     },
     "extracted": {
-      "at": "2026-10-06T13:54:44.436Z",
+      "at": "2026-11-17T00:22:10.895Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.005231
+      "objects": 6,
+      "cost_usd": 0.005774
     },
     "summarized": {
-      "at": "2026-10-06T13:54:44.438Z",
+      "at": "2026-11-17T00:22:10.896Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:54:44.438Z",
+      "at": "2026-11-17T00:22:10.896Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:54:44.439Z",
+      "at": "2026-11-17T00:22:10.896Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchasing-how-register-new-vendors.md",
     "description": "Learn how to register vendors, save vendor cards as templates, and set up vendor-specific number series for self-billed purchase invoices.",
-    "ms_date": "2026-08-26",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -128,5 +128,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9fdb8f49685bdce4a802c6a9713f352179effa61f0791428b90418b0e852b444"
+  "output_hash": "714ed99769aee2c0e55a5e9a6f7729985b9e4e80829c525a4be88d54ff274ed8"
 }

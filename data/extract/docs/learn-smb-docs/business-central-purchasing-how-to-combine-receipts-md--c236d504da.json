@@ -2,29 +2,43 @@
   "item_id": "docs/learn-smb-docs/business-central/purchasing-how-to-combine-receipts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-combine-receipts",
   "title": "Combine Receipts or PO Lines on a Single Invoice",
-  "blob": "41da97c2414b42e3991fe873481d6dbed9a77d24",
-  "summary": "Combine multiple purchase receipts or order lines onto a single vendor invoice using Get Receipt Lines or Get Order Lines actions. Supports receipt-on-invoice for automatic receipt creation when invoicing.",
+  "blob": "b5509ed063cbaabd2cc63ee21b0ad8b6b09a5ce5",
+  "summary": "The Combine Receipts or PO Lines on a Single Invoice feature enables users to consolidate multiple purchase receipts or purchase order lines into one invoice using Get Receipt Lines or Get Order Lines actions, with support for Receipt on Invoice functionality.",
   "systems": [
     "purchasing"
   ],
   "topics": [
     "purchase invoices",
+    "purchase orders",
     "receipts",
-    "combined invoicing",
-    "purchase orders"
+    "vendor invoicing",
+    "combining documents"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Matched Order Lines"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "Purchase document draft"
     }
   ],
   "features": [
-    "Get Receipt Lines",
-    "Get Order Lines",
-    "receipt-on-invoice",
-    "matched invoice lines",
-    "quantity tracking"
+    "Get Receipt Lines action",
+    "Get Order Lines action",
+    "Receipt on Invoice",
+    "Matched Invoice Lines field",
+    "Receipt on Invoice policy",
+    "Delete Invoiced Purchase Orders"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005231,
-      "pages_in_call": 8
+      "cost_usd": 0.004425,
+      "pages_in_call": 1
     }
   ]
 }
