@@ -1,21 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-30.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-30",
-  "title": "Check Value Posting (report)",
-  "blob": "a01539ca64c4d7272020e983230d42e9738125a0",
-  "summary": "Dimension Check Value Posting report verifies that value entries such as inventory and cost postings are correctly recorded to the general ledger, supporting financial accuracy and system integrity.",
+  "title": "Dimension Check Value Posting (Report)",
+  "blob": "432756251687ebf18a11cc24757dc63a3c56d37c",
+  "summary": "Dimension Check Value Posting report checks default dimension rules for conflicts and value posting requirements like Code Mandatory, Same Code, and No Code. Use it during setup or when troubleshooting dimension-related posting errors.",
   "systems": [
     "finance",
-    "inventory",
-    "reporting"
+    "administration"
   ],
   "topics": [
-    "posting verification",
-    "general ledger",
-    "inventory",
-    "cost accounting",
-    "implementation",
-    "troubleshooting"
+    "dimensions",
+    "default dimensions",
+    "posting rules",
+    "conflict detection",
+    "value posting",
+    "setup"
   ],
   "objects": [
     {
@@ -24,10 +23,12 @@
     }
   ],
   "features": [
-    "value entry verification",
-    "general ledger posting validation",
-    "audit support",
-    "implementation quality checks"
+    "Value Posting conflict checking",
+    "Code Mandatory requirement",
+    "Same Code requirement",
+    "No Code requirement",
+    "Dimension filtering",
+    "Conflict reporting for customers/vendors/salespeople/purchasers/responsibility centers"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002091,
-      "pages_in_call": 8
+      "cost_usd": 0.003247,
+      "pages_in_call": 1
     }
   ]
 }

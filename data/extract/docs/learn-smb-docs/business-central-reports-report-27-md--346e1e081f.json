@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-27.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-27",
-  "title": "Dimensions - Total (report)",
-  "blob": "80291656b70a7f967b1ebb80d5ab5930021d3905",
-  "summary": "Dimensions - Total report shows calculated general ledger balance totals for specified dimension levels, with optional budget and cash flow forecast comparisons.",
+  "title": "Dimensions - Total Overview (Report)",
+  "blob": "d8665452e9555e6a13117acb592cdf3cb3116667",
+  "summary": "The Dimensions - Total report shows calculated G/L balance totals for specified dimension levels over a given period, with support for analysis views, budget comparisons, and cash flow forecasting.",
   "systems": [
     "finance",
     "reporting"
@@ -11,8 +11,10 @@
   "topics": [
     "dimensions",
     "general ledger",
-    "balance analysis",
-    "budget comparison"
+    "analysis view",
+    "financial reporting",
+    "budgets",
+    "cash flow forecast"
   ],
   "objects": [
     {
@@ -21,11 +23,12 @@
     }
   ],
   "features": [
-    "dimension level analysis",
-    "G/L balance totals",
-    "budget vs. actuals",
-    "cash flow forecasting",
-    "analysis view configuration"
+    "dimension analysis",
+    "hierarchy grouping",
+    "budget comparison",
+    "cash flow forecast analysis",
+    "empty line printing",
+    "column layout selection"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002041,
-      "pages_in_call": 8
+      "cost_usd": 0.003375,
+      "pages_in_call": 1
     }
   ]
 }

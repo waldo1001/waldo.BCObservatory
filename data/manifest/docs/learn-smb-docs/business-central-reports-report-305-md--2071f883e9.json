@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Vendor - Summary Aging (report)",
+  "title": "Vendor - Summary Aging (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-305",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.237Z",
-      "blob": "a4ca54c1d7fd04e7701d689d1697d187242dca0a",
-      "words": 127,
+      "at": "2026-11-17T00:27:23.914Z",
+      "blob": "65ab4db991484b9398f2b34b311cdf0b32068737",
+      "words": 183,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:28.831Z",
+      "at": "2026-11-17T00:27:30.801Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002091
+      "cost_usd": 0.003296
     },
     "summarized": {
-      "at": "2026-10-06T18:53:37.252Z",
+      "at": "2026-11-17T00:27:30.802Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:37.253Z",
+      "at": "2026-11-17T00:27:30.803Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:37.254Z",
+      "at": "2026-11-17T00:27:30.804Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-305.md",
-    "description": "The *Vendor - Summary Aging* report is a legacy report for aged accounts payable. We recommend that you use **Aged Accounts Payables** report instead.",
-    "ms_date": "2024-10-18",
+    "description": "Review vendor amounts grouped by due date with the legacy Summary Aging report, and find the current Excel alternative for accounts payable analysis.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 127,
+    "ai_usage": "ai-assisted",
+    "words": 183,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9da40883e281872538dc79f3fd1bcc884de360bbb184b261905cc63bf8a0ffee"
+  "output_hash": "cf52e2c8c808ef7d87936d9d03fa9fd91f95a54c95165aafebeb4195420b3df9"
 }

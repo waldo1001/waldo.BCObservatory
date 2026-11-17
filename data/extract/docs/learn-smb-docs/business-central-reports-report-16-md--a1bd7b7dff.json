@@ -1,17 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-16.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-16",
-  "title": "G/L Consolidation Eliminations (report)",
-  "blob": "9d406b8ae87d2eba46152e79e767bc986dab86e3",
-  "summary": "G/L Consolidation Eliminations report removes duplicate revenue and expense balances during intercompany financial consolidation to ensure consolidated financial statements are free of double counting.",
+  "title": "G/L Consolidation Eliminations (Report)",
+  "blob": "12d9d129944fec29bad3209b3aa493bd7a3ac278",
+  "summary": "The G/L Consolidation Eliminations report previews elimination entries during financial consolidation, showing consolidated amounts and unposted journal lines without creating or posting entries.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
     "consolidation",
-    "intercompany transactions",
     "eliminations",
+    "general ledger",
+    "intercompany transactions",
     "financial reporting"
   ],
   "objects": [
@@ -21,9 +22,11 @@
     }
   ],
   "features": [
-    "intercompany transaction elimination",
-    "consolidated reporting",
-    "compliance validation"
+    "Net Change display",
+    "Balance display",
+    "consolidation period selection",
+    "journal template and batch selection",
+    "elimination entry preview"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001862,
-      "pages_in_call": 8
+      "cost_usd": 0.00319,
+      "pages_in_call": 1
     }
   ]
 }

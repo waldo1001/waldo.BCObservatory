@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Consolidated Trial Balance (report)",
+  "title": "Consolidated Trial Balance (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-17",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.186Z",
-      "blob": "3d8498b14bb5db6e1003819f760a4e37f707d40e",
-      "words": 190,
+      "at": "2026-11-17T00:27:13.954Z",
+      "blob": "d0d3442bf68d70b159b425d3ff5a5d0f47b9414f",
+      "words": 236,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:54.041Z",
+      "at": "2026-11-17T00:27:18.882Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001862
+      "cost_usd": 0.003223
     },
     "summarized": {
-      "at": "2026-10-06T18:52:54.059Z",
+      "at": "2026-11-17T00:27:18.883Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:54.060Z",
+      "at": "2026-11-17T00:27:18.883Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:54.060Z",
+      "at": "2026-11-17T00:27:18.884Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-17.md",
     "description": "Combines financial data across companies, allowing finance teams to analyze consolidated performance and ensure alignment across entities.",
-    "ms_date": "2025-06-20",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "consolidation",
       "trial balance"
     ],
-    "ai_usage": null,
-    "words": 190,
+    "ai_usage": "ai-assisted",
+    "words": 236,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "897339ee14a6c29bde55fffe16f04bfbcf20b43d80f776a512678b4e64ee54be"
+  "output_hash": "4655c10f9017cc5f39ce507f00d2c322f10b06f6a05a34a4f217adc157f20714"
 }

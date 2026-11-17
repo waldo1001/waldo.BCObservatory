@@ -1,17 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-211.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-211",
-  "title": "Customer - Payment Receipt (report)",
-  "blob": "3ec5cfe2437e9d954a449738d9294bf280e02770",
-  "summary": "Customer - Payment Receipt report displays payment receipts for each customer ledger entry, showing applied invoices or unapplied payment amounts.",
+  "title": "Customer - Payment Receipt (Report)",
+  "blob": "4411ca8a316c66be73a94401032668d34259560c",
+  "summary": "The Customer - Payment Receipt report displays receipts for customer payment and refund ledger entries, showing applied entries, discounts, tolerances, and remaining unapplied amounts.",
   "systems": [
     "sales",
+    "finance",
     "reporting"
   ],
   "topics": [
-    "payment receipt",
     "customer payments",
-    "accounts receivable"
+    "payment receipts",
+    "ledger entries",
+    "payment discounts",
+    "reporting"
   ],
   "objects": [
     {
@@ -20,9 +23,13 @@
     }
   ],
   "features": [
-    "payment receipt generation",
-    "invoice application tracking",
-    "unapplied payment display"
+    "payment receipt display",
+    "payment ledger entries",
+    "refund entries",
+    "applied entries",
+    "payment discounts",
+    "tolerance tracking",
+    "unapplied amount tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002041,
-      "pages_in_call": 8
+      "cost_usd": 0.003006,
+      "pages_in_call": 1
     }
   ]
 }

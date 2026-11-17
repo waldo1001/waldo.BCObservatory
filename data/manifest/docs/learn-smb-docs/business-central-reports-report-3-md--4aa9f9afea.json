@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "G/L Register (report)",
+  "title": "G/L Register for Posted Entries (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-3",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.224Z",
-      "blob": "0ecd07ba047f28a68b517a5a197ecc9dce30dbfe",
-      "words": 146,
+      "at": "2026-11-17T00:27:19.361Z",
+      "blob": "03cef9d02b1e41f0ca18cba3e91b3685fa46681a",
+      "words": 168,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:15.069Z",
+      "at": "2026-11-17T00:27:23.762Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002041
+      "cost_usd": 0.003163
     },
     "summarized": {
-      "at": "2026-10-06T18:53:15.110Z",
+      "at": "2026-11-17T00:27:23.764Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:15.111Z",
+      "at": "2026-11-17T00:27:23.765Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:15.112Z",
+      "at": "2026-11-17T00:27:23.765Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-3.md",
-    "description": "Review posted general ledger batches with entry numbers, posting dates, user IDs, and source descriptions to support audits and traceability.",
-    "ms_date": "2025-06-16",
+    "description": "Review posted general ledger registers and their entries, with document references, posting dates, and optional posted document details.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 146,
+    "ai_usage": "ai-assisted",
+    "words": 168,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4e5a24dd22907231c154dfe153f5fc42a6d091307ca8de44557992e2c68ff260"
+  "output_hash": "d1afe74a1117d2b276334cbc73e93d91ec46bb86152267d611a1d0845a9e8ecf"
 }

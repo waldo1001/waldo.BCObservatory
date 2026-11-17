@@ -1,20 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-307.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-307",
-  "title": "Vendor - Order Summary (report)",
-  "blob": "cb98c77672a84e82458f79a9b17598e7a223de9e",
-  "summary": "Vendor - Order Summary report shows purchase order details and quantities not yet received for each vendor across three 30-day periods, supporting purchasing and warehouse planning.",
+  "title": "Vendor - Order Summary (Report)",
+  "blob": "5d6ac328c2ea23f95e0ab0eab845b80b2271386d",
+  "summary": "The Vendor - Order Summary report shows outstanding purchase order amounts for each vendor by expected receipt date across three one-month periods, used by procurement, warehouse, and finance teams to monitor orders, plan capacity, and forecast costs.",
   "systems": [
     "purchasing",
     "warehouse",
-    "reporting"
+    "finance"
   ],
   "topics": [
     "purchase orders",
-    "vendor management",
-    "procurement",
-    "warehouse planning",
-    "cost forecasting"
+    "vendor analysis",
+    "procurement planning",
+    "cost forecasting",
+    "warehouse capacity",
+    "reporting"
   ],
   "objects": [
     {
@@ -23,10 +24,13 @@
     }
   ],
   "features": [
-    "purchase order details",
-    "outstanding quantity tracking",
-    "30-day period analysis",
-    "delivery date forecast"
+    "Outstanding purchase order amounts",
+    "Expected receipt date grouping",
+    "Three one-month periods",
+    "Starting date specification",
+    "Local currency display option",
+    "VAT exclusion",
+    "Outstanding quantities tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002091,
-      "pages_in_call": 8
+      "cost_usd": 0.005929,
+      "pages_in_call": 1
     }
   ]
 }

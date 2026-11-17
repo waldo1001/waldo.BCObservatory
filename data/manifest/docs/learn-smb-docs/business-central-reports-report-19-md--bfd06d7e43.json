@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "VAT- VIES Declaration Tax Auth (report)",
+  "title": "VAT- VIES Declaration Tax Auth (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-19",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.194Z",
-      "blob": "19a321ccca90ac5b6148137c14c3de52e35ae58b",
-      "words": 192,
+      "at": "2026-11-17T00:27:14.008Z",
+      "blob": "99fbadb12ae525e87453dab9bef914be6c346c59",
+      "words": 234,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:13.281Z",
+      "at": "2026-11-17T00:27:18.968Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002041
+      "cost_usd": 0.003389
     },
     "summarized": {
-      "at": "2026-10-06T18:53:15.070Z",
+      "at": "2026-11-17T00:27:18.971Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:15.071Z",
+      "at": "2026-11-17T00:27:18.973Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:15.072Z",
+      "at": "2026-11-17T00:27:18.974Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-19.md",
-    "description": "Creates a declaration of intra-community sales for submission to the VIES system. Make sure customer VAT numbers and country codes are correct before running. Prepares compliant VIES reports summarizing EU sales, helping meet legal obligations for cross-border transactions.",
-    "ms_date": "2025-06-25",
+    "description": "Review intra-EU sales totals by VAT registration number, with separate goods, services, and three-party trade amounts for tax reporting.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -61,12 +61,12 @@
       "tax reporting",
       "compliance"
     ],
-    "ai_usage": null,
-    "words": 192,
+    "ai_usage": "ai-assisted",
+    "words": 234,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7391c01bd437d0d775960dfa9b95894a4a7e77b30e70297ecf914ce27175bc16"
+  "output_hash": "aff3d9e1e0b6180ea661766cd6cb981d91f78e929b5073a12079d5b3095916cf"
 }

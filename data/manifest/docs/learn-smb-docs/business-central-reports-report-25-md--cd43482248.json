@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Financial Reporting (report)",
+  "title": "Run Financial Report Overview (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-25",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.207Z",
-      "blob": "e408d8b8217bded9f77c2f48f55b88e28280c6bc",
-      "words": 167,
+      "at": "2026-11-17T00:27:18.508Z",
+      "blob": "000518a2f8a5e238a0de14935a97ead065fb5eb1",
+      "words": 202,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:15.064Z",
+      "at": "2026-11-17T00:27:23.475Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002041
+      "cost_usd": 0.003301
     },
     "summarized": {
-      "at": "2026-10-06T18:53:15.098Z",
+      "at": "2026-11-17T00:27:23.476Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:15.099Z",
+      "at": "2026-11-17T00:27:23.476Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:15.100Z",
+      "at": "2026-11-17T00:27:23.476Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-25.md",
-    "description": "Analyze your chart of accounts with a configurable view of general ledger accounts. Simplifies reporting for typical scenarios such as balance sheets, income statements, and cash flow statements.",
-    "ms_date": "2024-10-18",
+    "description": "Run a financial report using row and column definitions to analyze general ledger amounts, budgets, dimensions, and selected date ranges.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 167,
+    "ai_usage": "ai-assisted",
+    "words": 202,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "472aee2ef4edd623b50cafedd12f5b5aa474b6dfa8aa113e5bd1625d2ddd06e6"
+  "output_hash": "b14a1f28b983f20afb87530e94d875fac9e142859d84d9219a3287313791de89"
 }

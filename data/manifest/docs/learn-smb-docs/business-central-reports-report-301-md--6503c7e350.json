@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Vendor - List (report)",
+  "title": "Vendor List Report for Vendor Details",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-301",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.233Z",
-      "blob": "903d5cf52e9dbd931b1f6a4aef84b483b8c2d78f",
-      "words": 421,
+      "at": "2026-11-17T00:27:23.647Z",
+      "blob": "fcfa50389acd7e41ca0eb155c7fc6fd1e931df31",
+      "words": 441,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:28.830Z",
+      "at": "2026-11-17T00:27:30.810Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002091
+      "cost_usd": 0.003392
     },
     "summarized": {
-      "at": "2026-10-06T18:53:37.249Z",
+      "at": "2026-11-17T00:27:30.811Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:37.250Z",
+      "at": "2026-11-17T00:27:30.812Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:37.251Z",
+      "at": "2026-11-17T00:27:30.813Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-301.md",
-    "description": "Use the report, for example, to maintain information about the vendor.",
-    "ms_date": "2024-10-18",
+    "description": "Review vendor posting groups, payment terms, discounts, and balances in local currency with the legacy Vendor List report in Business Central.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 421,
+    "ai_usage": "ai-assisted",
+    "words": 441,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4d345a8f8496bca1dd9c2be0d718492ebf2358dd80171027d483ab6e8a4d968a"
+  "output_hash": "17ea806dab793bc31a426716b155f7f8c7ecf59c9a3f95623467810a276ec242"
 }

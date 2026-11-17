@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-28.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-28",
-  "title": "Dimensions - Detail (report)",
-  "blob": "39804912f0533dde07dab1becca8851e0d2872c1",
-  "summary": "Dimensions - Detail report shows a breakdown of general ledger entries based on specified dimension levels, allowing users to view all dimension combinations or only those with transactions.",
+  "title": "Dimensions - Detail Overview (Report)",
+  "blob": "f345e82bf2da329a43b027ba7c914f71b8a7a9b2",
+  "summary": "The Dimensions - Detail report breaks down general ledger entries by dimension levels specified in an analysis view, helping financial accountants, analysts, and controllers verify data accuracy, analyze performance, and prepare financial statements.",
   "systems": [
     "finance",
     "reporting"
@@ -11,8 +11,9 @@
   "topics": [
     "dimensions",
     "general ledger",
-    "transaction breakdown",
-    "account analysis"
+    "analysis view",
+    "financial reporting",
+    "g/l entries"
   ],
   "objects": [
     {
@@ -21,11 +22,12 @@
     }
   ],
   "features": [
-    "dimension level breakdown",
-    "G/L entry detail",
-    "dimension combination filtering",
+    "dimension breakdown by level",
+    "analysis view configuration",
     "transaction filtering",
-    "analysis view configuration"
+    "dimension combination display",
+    "additional reporting currency",
+    "dimension grouping hierarchy"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002041,
-      "pages_in_call": 8
+      "cost_usd": 0.003275,
+      "pages_in_call": 1
     }
   ]
 }

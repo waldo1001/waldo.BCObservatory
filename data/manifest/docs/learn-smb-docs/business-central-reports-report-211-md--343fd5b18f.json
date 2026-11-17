@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Customer - Payment Receipt (report)",
+  "title": "Customer - Payment Receipt (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-211",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.203Z",
-      "blob": "3ec5cfe2437e9d954a449738d9294bf280e02770",
-      "words": 74,
+      "at": "2026-11-17T00:27:13.974Z",
+      "blob": "4411ca8a316c66be73a94401032668d34259560c",
+      "words": 87,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:13.284Z",
+      "at": "2026-11-17T00:27:18.875Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002041
+      "cost_usd": 0.003006
     },
     "summarized": {
-      "at": "2026-10-06T18:53:15.095Z",
+      "at": "2026-11-17T00:27:18.876Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:15.096Z",
+      "at": "2026-11-17T00:27:18.877Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:15.097Z",
+      "at": "2026-11-17T00:27:18.877Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-211.md",
-    "description": "View payment receipts for each customer ledger entry of the type Payment.",
-    "ms_date": "2024-10-18",
+    "description": "View receipts for customer payments and refunds in Business Central. Review applied entries, discounts, tolerances, and remaining unapplied amounts.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 74,
+    "ai_usage": "ai-assisted",
+    "words": 87,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d02832164fe20e1ff3f28dd15848f5f62b5a221822892ae7663d4cd6c638f980"
+  "output_hash": "7767fefaf9c5e6ba00082cd70469d520ca4ae733f6429dbbc9e2f10cb6e2ad9c"
 }

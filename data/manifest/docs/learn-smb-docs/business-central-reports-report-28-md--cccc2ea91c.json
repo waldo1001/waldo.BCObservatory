@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Dimensions - Detail (report)",
+  "title": "Dimensions - Detail Overview (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-28",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.220Z",
-      "blob": "39804912f0533dde07dab1becca8851e0d2872c1",
-      "words": 483,
+      "at": "2026-11-17T00:27:19.023Z",
+      "blob": "f345e82bf2da329a43b027ba7c914f71b8a7a9b2",
+      "words": 526,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:15.068Z",
+      "at": "2026-11-17T00:27:23.871Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002041
+      "cost_usd": 0.003275
     },
     "summarized": {
-      "at": "2026-10-06T18:53:15.106Z",
+      "at": "2026-11-17T00:27:23.873Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:15.107Z",
+      "at": "2026-11-17T00:27:23.874Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:15.107Z",
+      "at": "2026-11-17T00:27:23.875Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-28.md",
-    "description": "Analyze your general ledger with dimension detail by building groups of dimensions for combinations of dimension values, and view a breakdown of general ledger entries for each segment.",
-    "ms_date": "2024-10-18",
+    "description": "Review general ledger entries grouped by dimension combinations, with debit and credit totals for the analysis view and period you select.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 483,
+    "ai_usage": "ai-assisted",
+    "words": 526,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bcba63b8457b9ce5980335870335f717496b41ef1bb8194d4dca3cf9b8ae9bd7"
+  "output_hash": "be8e90024cba130723beb18d23ef447d2533178d30e9be8fc8a4664c0ddc0c41"
 }

@@ -1,18 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-2500.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-2500",
-  "title": "Day Book VAT Entry (report)",
-  "blob": "2bf59c6635feecf854fb2e4c1f4d260c4bd237fd",
-  "summary": "Day Book VAT Entry report displays all posted VAT transactions grouped by document date in register format, supporting tax review, reconciliation, and audit verification.",
+  "title": "Day Book VAT Entry Review (Report)",
+  "blob": "e9d29dad8865c094640ff89a82697ece4afd3d8c",
+  "summary": "The Day Book VAT Entry report displays posted VAT entries organized by VAT Reporting Date and posting type, sorted by document number. Use it to review and verify tax postings across sales and purchase documents for audits and reconciliation tasks.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
-    "vat entries",
-    "tax reconciliation",
-    "audit trail",
-    "vat posting verification"
+    "vat",
+    "tax reporting",
+    "audit",
+    "reconciliation",
+    "posted entries",
+    "compliance"
   ],
   "objects": [
     {
@@ -21,11 +23,11 @@
     }
   ],
   "features": [
-    "VAT transaction display",
-    "chronological grouping",
-    "date filtering",
-    "document type filtering",
-    "audit support"
+    "VAT Reporting Date filtering",
+    "posting type filtering",
+    "document number sorting",
+    "deductible and nondeductible VAT amounts",
+    "Show Amounts in Add. Reporting Currency"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002041,
-      "pages_in_call": 8
+      "cost_usd": 0.003341,
+      "pages_in_call": 1
     }
   ]
 }

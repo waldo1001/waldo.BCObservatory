@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Calculate and Post Tax Settlement (report)",
+  "title": "Calculate and Post Tax Settlement (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-20",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.199Z",
-      "blob": "ac13049f165dd1243fe2418ebf8f5d60a88b7ed0",
-      "words": 230,
+      "at": "2026-11-17T00:27:13.997Z",
+      "blob": "a991534a1641aea17dd988a2ba24184d751fd0e6",
+      "words": 264,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:13.283Z",
+      "at": "2026-11-17T00:27:19.285Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002041
+      "cost_usd": 0.003353
     },
     "summarized": {
-      "at": "2026-10-06T18:53:15.093Z",
+      "at": "2026-11-17T00:27:19.286Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:15.094Z",
+      "at": "2026-11-17T00:27:19.288Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:15.094Z",
+      "at": "2026-11-17T00:27:19.290Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-20.md",
-    "description": "Used at the end of a VAT period to calculate and post the amount payable or receivable for tax filing. Calculates VAT based on posted entries and creates a journal to record the VAT settlement. Typically run monthly or quarterly depending on filing frequency.",
-    "ms_date": "2025-06-25",
+    "description": "Calculate VAT settlement from open VAT entries, review a test report, or post the transfer to a settlement account and close the entries.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -61,12 +61,12 @@
       "reporting",
       "finance"
     ],
-    "ai_usage": null,
-    "words": 230,
+    "ai_usage": "ai-assisted",
+    "words": 264,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c70e7ad25f5ca38a84eaa85476a76813c8fb209a8681975f9a20a7a6b73f5474"
+  "output_hash": "d1fd13a5b767fe706e6a0d5dc8c03528644bb7c41a4e9e6562c77bde8b38d017"
 }

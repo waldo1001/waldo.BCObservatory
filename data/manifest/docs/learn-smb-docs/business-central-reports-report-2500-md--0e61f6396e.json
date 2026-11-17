@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Day Book VAT Entry (report)",
+  "title": "Day Book VAT Entry Review (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-2500",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.211Z",
-      "blob": "2bf59c6635feecf854fb2e4c1f4d260c4bd237fd",
-      "words": 207,
+      "at": "2026-11-17T00:27:18.907Z",
+      "blob": "e9d29dad8865c094640ff89a82697ece4afd3d8c",
+      "words": 227,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:53:15.066Z",
+      "at": "2026-11-17T00:27:23.501Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002041
+      "cost_usd": 0.003341
     },
     "summarized": {
-      "at": "2026-10-06T18:53:15.101Z",
+      "at": "2026-11-17T00:27:23.502Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:53:15.101Z",
+      "at": "2026-11-17T00:27:23.503Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:53:15.102Z",
+      "at": "2026-11-17T00:27:23.503Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-2500.md",
-    "description": "Lists all VAT entries by document date in a register-style format. Use this report to review or audit tax postings across sales and purchase documents. Helpful for reconciliation and historical reference.",
-    "ms_date": "2025-06-25",
+    "description": "Review posted VAT entries by VAT reporting date and posting type, with deductible and nondeductible amounts, for a date range of up to one year.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -61,12 +61,12 @@
       "reconciliation",
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 207,
+    "ai_usage": "ai-assisted",
+    "words": 227,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "011aee308831d8ed3879dc544c2227d58a4f2567e25c43ea2e11abfc49667b19"
+  "output_hash": "5597f357c0ec7c3e6f22222646ab05a090145780197369f7745485eb8b2c8338"
 }
