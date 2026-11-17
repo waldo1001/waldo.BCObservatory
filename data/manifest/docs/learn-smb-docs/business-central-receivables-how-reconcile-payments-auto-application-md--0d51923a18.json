@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-auto-application",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.881Z",
-      "blob": "3ec6f8237f59406a059537e6f5eaa99b5050828f",
+      "at": "2026-11-17T00:23:58.845Z",
+      "blob": "b0c0980d67caf2b8c8c45c73ad5359f4ab33b10f",
       "words": 1913,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:09:05.766Z",
+      "at": "2026-11-17T00:24:28.655Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 7,
-      "cost_usd": 0.005593
+      "objects": 10,
+      "cost_usd": 0.01108
     },
     "summarized": {
-      "at": "2026-10-06T19:09:18.675Z",
+      "at": "2026-11-17T00:24:28.655Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:09:18.676Z",
+      "at": "2026-11-17T00:24:28.656Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:09:18.676Z",
+      "at": "2026-11-17T00:24:53.195Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/receivables-how-reconcile-payments-auto-application.md",
     "description": "Describes how to reconcile payments using automatic application to apply payments or cash receipts to related open entries.",
-    "ms_date": "2024-06-03",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -83,5 +83,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "52d593883bd2ca065cdbcdbe6227e1a3b2d4242c5ba88fdf8b9a3d366533d0e7"
+  "output_hash": "cb55f3ad7c7ce916bacc098014d795833773d7fa66955d227870ae51d6e168ea"
 }

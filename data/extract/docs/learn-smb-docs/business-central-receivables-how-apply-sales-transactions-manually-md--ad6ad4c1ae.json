@@ -2,18 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/receivables-how-apply-sales-transactions-manually.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-apply-sales-transactions-manually",
   "title": "Reconcile customer payments with the cash receipt journal or from customer ledger entries",
-  "blob": "023b8466ebf4305d508ef999f973692f44cb570b",
-  "summary": "How to reconcile customer payments by applying them to cash receipt journals or customer ledger entries. Use this to match received payments to open invoices and close customer accounts.",
+  "blob": "99a717876ce642af3312c6ed5f58f7bc03d2cee5",
+  "summary": "Reconcile customer payments by applying payments to customer ledger entries using the cash receipt journal or other methods. Covers manual application of single and multiple payments, credit memos, posted entries, and cross-currency applications.",
   "systems": [
     "sales",
-    "finance"
+    "finance",
+    "reporting"
   ],
   "topics": [
+    "customer payments",
+    "cash receipt journal",
+    "ledger application",
+    "receivables",
     "payment reconciliation",
-    "customer ledger",
-    "cash receipts",
-    "payment application",
-    "credit memos"
+    "customer ledger entries"
   ],
   "objects": [
     {
@@ -26,15 +28,11 @@
     },
     {
       "type": "page",
-      "name": "Payment Registration Setup"
+      "name": "Register Customer Payments"
     },
     {
       "type": "page",
       "name": "Cash Receipt Journals"
-    },
-    {
-      "type": "page",
-      "name": "Sales Credit Memos"
     },
     {
       "type": "page",
@@ -43,6 +41,10 @@
     {
       "type": "page",
       "name": "Apply Customer Entries"
+    },
+    {
+      "type": "page",
+      "name": "Sales Credit Memos"
     },
     {
       "type": "page",
@@ -55,14 +57,21 @@
     {
       "type": "page",
       "name": "Currencies"
+    },
+    {
+      "type": "page",
+      "name": "Detailed Ledger Entry"
     }
   ],
   "features": [
-    "apply payments",
-    "payment discount",
-    "multi-currency application",
-    "payment reversal",
-    "late payment prediction"
+    "partial payment application",
+    "Late Payment Prediction Setup extension",
+    "Apply to Oldest application method",
+    "Set Applies-to ID action",
+    "cross-currency application",
+    "unapply entries",
+    "payment discount handling",
+    "credit memo application"
   ],
   "versions": [],
   "parts": 1,
@@ -71,8 +80,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005593,
-      "pages_in_call": 7
+      "cost_usd": 0.012311,
+      "pages_in_call": 1
     }
   ]
 }

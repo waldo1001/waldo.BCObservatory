@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-customer-payments-list-unpaid-sales-documents",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-15T00:24:33.513Z",
-      "blob": "aebddfe8bb60f44610ce430f235d06086b8fb811",
-      "words": 2338,
+      "at": "2026-11-17T00:23:52.807Z",
+      "blob": "f089fc29ace5dada4649c5abdd0d83d1524f8588",
+      "words": 2340,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-15T00:25:01.499Z",
+      "at": "2026-11-17T00:24:20.640Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 7,
-      "cost_usd": 0.012476
+      "cost_usd": 0.012626
     },
     "summarized": {
-      "at": "2026-10-15T00:25:01.500Z",
+      "at": "2026-11-17T00:24:20.641Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-15T00:25:01.501Z",
+      "at": "2026-11-17T00:24:20.642Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-15T00:25:01.502Z",
+      "at": "2026-11-17T00:24:20.642Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md",
     "description": "You apply amounts paid by customers to related sales documents and post the payment to update the customer, general ledger, and bank ledger entries.",
-    "ms_date": "2024-07-08",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -70,11 +70,11 @@
       "customer payment"
     ],
     "ai_usage": null,
-    "words": 2338,
+    "words": 2340,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f58f06a63628b1a2c9fb72d23f47a658c955673529ffbc08b7ee56f3e2ad3c04"
+  "output_hash": "98116748dffd969597ca23128ac3cfac7fc89e617835e1488179ade1bdd009df"
 }

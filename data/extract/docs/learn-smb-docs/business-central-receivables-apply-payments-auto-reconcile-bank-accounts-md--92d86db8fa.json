@@ -2,18 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/receivables-apply-payments-auto-reconcile-bank-accounts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts",
   "title": "Reconcile bank accounts and apply payments",
-  "blob": "355482ffe7808a3698ad8cbffc7f9deb0ab40205",
-  "summary": "Payment reconciliation and bank account matching guide that explains how to automatically apply payments to open invoices and reconcile bank accounts using the Payment Reconciliation Journal.",
+  "blob": "3bf0649a456d8243a4cd59a47267ea984342664a",
+  "summary": "Bank account reconciliation and automatic payment application matches payment text to open customer or vendor ledger entries using the Payment Reconciliation Journal, with options to review changes before posting and set up matching rules.",
   "systems": [
     "finance",
-    "purchasing",
-    "sales"
+    "sales",
+    "purchasing"
   ],
   "topics": [
-    "payment reconciliation",
     "bank reconciliation",
-    "automatic application",
-    "payment matching",
+    "payment application",
+    "cash receipts",
+    "ledger entries",
+    "automatic matching",
     "bank statements"
   ],
   "objects": [
@@ -33,9 +34,12 @@
   "features": [
     "automatic payment application",
     "bank statement import",
+    "payment text matching",
+    "bank account reconciliation",
+    "payment application rules",
     "bank feed setup",
-    "payment matching rules",
-    "bank reconciliation"
+    "CSV file import",
+    "AMC Banking 365 Fundamentals extension"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002737,
-      "pages_in_call": 8
+      "cost_usd": 0.003958,
+      "pages_in_call": 1
     }
   ]
 }

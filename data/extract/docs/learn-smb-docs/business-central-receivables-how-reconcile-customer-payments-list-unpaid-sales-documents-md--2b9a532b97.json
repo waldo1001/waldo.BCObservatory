@@ -2,18 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-customer-payments-list-unpaid-sales-documents",
   "title": "Apply payments to unpaid sales documents",
-  "blob": "aebddfe8bb60f44610ce430f235d06086b8fb811",
-  "summary": "Register and apply customer payments to sales documents individually or as lump-sum payments, with support for partial payments, payment discounts, and searching for unposted documents.",
+  "blob": "f089fc29ace5dada4649c5abdd0d83d1524f8588",
+  "summary": "Register and apply customer payments to sales documents individually or as lump-sum payments, including handling discounted payments and searching for unpaid invoices.",
   "systems": [
     "sales",
     "finance"
   ],
   "topics": [
-    "customer payments",
     "payment registration",
     "payment reconciliation",
+    "customer payments",
     "sales documents",
-    "accounts receivable"
+    "payment discounts",
+    "lump-sum payments"
   ],
   "objects": [
     {
@@ -46,12 +47,14 @@
     }
   ],
   "features": [
-    "Register individual customer payments",
-    "Lump-sum payment reconciliation",
-    "Payment discount processing",
-    "Document search",
-    "Payment registration setup",
-    "Balancing account configuration"
+    "Register customer payments",
+    "Apply payments to sales documents",
+    "Lump-sum payment posting",
+    "Payment discount handling",
+    "Document search by number and amount",
+    "Payment registration journal setup",
+    "Auto-fill date received",
+    "Balancing account posting"
   ],
   "versions": [],
   "parts": 1,
@@ -60,7 +63,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.012476,
+      "cost_usd": 0.012626,
       "pages_in_call": 1
     }
   ]

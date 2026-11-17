@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/receivables-collect-outstanding-balances.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-collect-outstanding-balances",
   "title": "Collect outstanding balances",
-  "blob": "6d4464650cbc271e2fe51ad6d4b6a25b4160014b",
-  "summary": "Collect outstanding customer balances using statements, reminders, finance charge memos, and Copilot for Finance in Outlook. Automate creation and posting of reminders and finance charges to recover overdue amounts.",
+  "blob": "8007647d4046d367dbdcd34eaad74b52a4e755c4",
+  "summary": "Collect outstanding balances from customers using statements, reminders, finance charge memos, and Finance Agent in Outlook for collections management.",
   "systems": [
     "sales",
     "finance",
@@ -11,15 +11,15 @@
   ],
   "topics": [
     "collections",
+    "outstanding balances",
     "reminders",
     "finance charges",
-    "outstanding balances",
-    "customer statements",
-    "copilot"
+    "statements",
+    "customer communication"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "report",
       "name": "Customer Statement"
     },
     {
@@ -28,21 +28,54 @@
     },
     {
       "type": "page",
+      "name": "Issued Finance Charge Memos"
+    },
+    {
+      "type": "page",
       "name": "Reminder/Fin. Charge Entries"
     },
     {
       "type": "page",
+      "name": "Customer Ledger Entries"
+    },
+    {
+      "type": "page",
       "name": "Finance Charge Terms"
+    },
+    {
+      "type": "page",
+      "name": "Customer Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Suggest Finance Charge Memo Lines"
+    },
+    {
+      "type": "page",
+      "name": "Update Finance Charge Text"
+    },
+    {
+      "type": "page",
+      "name": "Issue Finance Charge Memos"
+    },
+    {
+      "type": "page",
+      "name": "Cancel Issued Fin. Charge Memos"
     }
   ],
   "features": [
-    "Customer Statement report",
-    "Reminders",
-    "Finance Charge Memos",
-    "Finance Charge Terms",
-    "Copilot for Finance in Outlook",
-    "Dispute Status",
-    "Promise to Pay"
+    "Customer statements",
+    "Reminders (dunning letters)",
+    "Finance charge memos",
+    "Finance charges calculation",
+    "Finance Agent in Outlook",
+    "Dispute status tracking",
+    "Promise to Pay dates",
+    "Aged balance information"
   ],
   "versions": [],
   "parts": 1,
@@ -51,8 +84,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004095,
-      "pages_in_call": 8
+      "cost_usd": 0.006334,
+      "pages_in_call": 1
     }
   ]
 }

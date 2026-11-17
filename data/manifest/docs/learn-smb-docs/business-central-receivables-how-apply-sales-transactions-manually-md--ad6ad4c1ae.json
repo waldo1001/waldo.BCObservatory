@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-apply-sales-transactions-manually",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.864Z",
-      "blob": "023b8466ebf4305d508ef999f973692f44cb570b",
-      "words": 2061,
+      "at": "2026-11-17T00:23:26.486Z",
+      "blob": "99a717876ce642af3312c6ed5f58f7bc03d2cee5",
+      "words": 2059,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:09:05.760Z",
+      "at": "2026-11-17T00:23:45.622Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 10,
-      "cost_usd": 0.005593
+      "objects": 11,
+      "cost_usd": 0.012311
     },
     "summarized": {
-      "at": "2026-10-06T19:09:05.770Z",
+      "at": "2026-11-17T00:23:45.623Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:09:05.771Z",
+      "at": "2026-11-17T00:23:45.624Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:09:05.772Z",
+      "at": "2026-11-17T00:23:45.624Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/receivables-how-apply-sales-transactions-manually.md",
     "description": "Apply customer cash receipts or refunds to one or more open customer ledger entries.",
-    "ms_date": "2025-06-17",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -64,11 +64,11 @@
       "cash receipt"
     ],
     "ai_usage": null,
-    "words": 2061,
+    "words": 2059,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ce3cbbfef6dd4e13fe5dd020cb3ce262e03f01b987f8257cccb816f4180615af"
+  "output_hash": "64a227d22e844e038c3d8c0d67ac99c6fc9b4e813ef2a8bbab359f84a30eb602"
 }

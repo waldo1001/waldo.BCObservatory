@@ -2,18 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/purchasing-setup-purchasing.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-setup-purchasing",
   "title": "Overview of tasks to set up purchasing",
-  "blob": "b0957ab518f770fc5c1689c5a011739cb41ceb91",
-  "summary": "Configure purchasing and payables setup including posting rules, number series, external document requirements, and exact cost reversing for purchase operations.",
+  "blob": "14d91b0274f74bc5c6a4817cba12df09bdcd81db",
+  "summary": "Overview of tasks to configure purchasing policies, vendor rules, and payment settings through the Purchases & Payables Setup page and related vendor registration processes.",
   "systems": [
     "purchasing",
-    "finance"
+    "finance",
+    "inventory"
   ],
   "topics": [
-    "setup",
-    "purchasing",
-    "payables",
-    "configuration",
-    "number series"
+    "purchasing setup",
+    "vendor management",
+    "purchase policies",
+    "number series",
+    "discount configuration",
+    "payment methods",
+    "cost reversing"
   ],
   "objects": [
     {
@@ -26,11 +29,13 @@
     }
   ],
   "features": [
-    "discount calculation",
-    "invoice posting",
-    "external document number",
-    "exact cost reversing mandatory",
-    "prepayment checking"
+    "Calc. Inv. Disc. per VAT/Tax ID",
+    "Appln. between Currencies",
+    "Check Prepmt. when Posting",
+    "Prepmt. Auto Update",
+    "Ext. Doc. No. Mandatory",
+    "Exact Cost Reversing Mandatory",
+    "Fixed Application"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004165,
-      "pages_in_call": 8
+      "cost_usd": 0.004428,
+      "pages_in_call": 1
     }
   ]
 }

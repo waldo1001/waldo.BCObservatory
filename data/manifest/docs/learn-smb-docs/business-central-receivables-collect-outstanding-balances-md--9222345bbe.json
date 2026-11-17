@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-collect-outstanding-balances",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.964Z",
-      "blob": "6d4464650cbc271e2fe51ad6d4b6a25b4160014b",
-      "words": 1617,
+      "at": "2026-11-17T00:23:03.934Z",
+      "blob": "8007647d4046d367dbdcd34eaad74b52a4e755c4",
+      "words": 1587,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:43:19.018Z",
+      "at": "2026-11-17T00:23:39.103Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.004095
+      "objects": 12,
+      "cost_usd": 0.006334
     },
     "summarized": {
-      "at": "2026-10-06T19:43:20.854Z",
+      "at": "2026-11-17T00:23:39.104Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:20.854Z",
+      "at": "2026-11-17T00:23:39.105Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:20.855Z",
+      "at": "2026-11-17T00:23:39.105Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/receivables-collect-outstanding-balances.md",
     "description": "Learn how to remind your customers of outstanding payments. Send a customer statement, issue a reminder, or send a finance charge memo.",
-    "ms_date": "2024-08-26",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -88,11 +88,11 @@
       "reminder"
     ],
     "ai_usage": null,
-    "words": 1617,
+    "words": 1587,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3e223446f2e487fb6d443c82a33cc65346b5d84891e6f94e357c014a7f816830"
+  "output_hash": "88ffdc1cae1c59b9395a07c52d9967e7c4b007baa31a78470d1cd7dc2033f3ec"
 }

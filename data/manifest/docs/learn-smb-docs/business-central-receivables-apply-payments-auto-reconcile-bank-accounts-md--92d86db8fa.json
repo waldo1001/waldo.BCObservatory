@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.157Z",
-      "blob": "355482ffe7808a3698ad8cbffc7f9deb0ab40205",
+      "at": "2026-11-17T00:23:01.057Z",
+      "blob": "3bf0649a456d8243a4cd59a47267ea984342664a",
       "words": 521,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:28:43.313Z",
+      "at": "2026-11-17T00:23:27.787Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.002737
+      "cost_usd": 0.003958
     },
     "summarized": {
-      "at": "2026-10-06T19:28:45.092Z",
+      "at": "2026-11-17T00:23:27.788Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:45.094Z",
+      "at": "2026-11-17T00:23:27.788Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:45.095Z",
+      "at": "2026-11-17T00:23:27.800Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/receivables-apply-payments-auto-reconcile-bank-accounts.md",
     "description": "Outlines tasks to reconcile your bank, receivables, and payables accounts, post cash receipts or expenses, and apply payments automatically.",
-    "ms_date": "2024-07-25",
+    "ms_date": "2026-11-16",
     "ms_topic": "article",
     "search_form": [
       {
@@ -83,5 +83,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "80d187a80b88808cd8c0dd6930a9ad16343ab1937cbf928b04266a3468fba5bd"
+  "output_hash": "74c0e05f5ea43e71ac64d98835c6696ed5896300e8673553f49846b4d0ea44dd"
 }

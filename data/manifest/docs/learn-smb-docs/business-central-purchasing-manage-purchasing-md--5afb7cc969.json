@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-manage-purchasing",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T17:56:44.290Z",
+      "at": "2026-11-17T00:23:13.334Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.007077
+      "cost_usd": 0.004206
     },
     "summarized": {
-      "at": "2026-10-06T17:56:44.314Z",
+      "at": "2026-11-17T00:23:13.343Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:56:44.315Z",
+      "at": "2026-11-17T00:23:13.344Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:56:44.316Z",
+      "at": "2026-11-17T00:23:13.345Z",
       "page": false
     }
   },
@@ -72,5 +72,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cc71ac4f31475ab359d34d974c478ee6b75ad031"
+  "output_hash": "b402c0e1d763bbc8cd84d8364941672671e29347e51a99add0ee6fb4b3580b4f"
 }

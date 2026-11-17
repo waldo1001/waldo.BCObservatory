@@ -2,27 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/receivables-how-block-customers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-block-customers",
   "title": "How to block sales to customers",
-  "blob": "4470a80067f9b30a8443742b4bf5eeb18f20a05d",
-  "summary": "How to block customers to prevent sales transactions, shipments, or invoices. Use this when a customer becomes insolvent or you need to restrict their access.",
+  "blob": "fd7aca6c431c1c00f169b49bcef601473fc09625",
+  "summary": "Block customers from sales transactions due to insolvency or other reasons by setting the Blocked field to prevent new orders, shipments, invoices, or all transactions.",
   "systems": [
-    "sales"
+    "sales",
+    "finance"
   ],
   "topics": [
-    "customer blocking",
-    "sales restrictions",
-    "customer management"
+    "customer management",
+    "sales blocking",
+    "receivables",
+    "credit control"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "Customers"
+      "type": "table",
+      "name": "Customer"
     }
   ],
   "features": [
-    "block customer",
-    "ship block",
-    "invoice block",
-    "all transactions block"
+    "Block customers",
+    "Block Ship",
+    "Block Invoice",
+    "Block All",
+    "Receivable transactions on hold",
+    "Reminders"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005593,
-      "pages_in_call": 7
+      "cost_usd": 0.002981,
+      "pages_in_call": 1
     }
   ]
 }

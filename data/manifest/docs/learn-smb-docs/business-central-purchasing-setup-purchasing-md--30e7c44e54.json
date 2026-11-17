@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-setup-purchasing",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 8
     },
     "extracted": {
-      "at": "2026-10-06T19:01:24.775Z",
+      "at": "2026-11-17T00:23:13.327Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.004165
+      "cost_usd": 0.004428
     },
     "summarized": {
-      "at": "2026-10-06T19:01:24.798Z",
+      "at": "2026-11-17T00:23:13.329Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:24.799Z",
+      "at": "2026-11-17T00:23:13.330Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:24.800Z",
+      "at": "2026-11-17T00:23:13.330Z",
       "page": false
     }
   },
@@ -101,5 +101,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "14d91b0274f74bc5c6a4817cba12df09bdcd81db"
+  "output_hash": "2f6fe5f49845aed9cd26a0acb8a476c48e4626c8111860a606493457d631c03b"
 }

@@ -2,27 +2,32 @@
   "item_id": "docs/learn-smb-docs/business-central/purchasing-manage-purchasing.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-manage-purchasing",
   "title": "Overview of tasks to manage to purchase",
-  "blob": "de8b024d81ad6234c6ff80849ae169f0c73ebee5",
-  "summary": "This overview page describes the purchasing capabilities in Business Central, including quote-to-order workflows, purchase analytics, returns processing, and approval workflows for managing company purchase processes.",
+  "blob": "cc71ac4f31475ab359d34d974c478ee6b75ad031",
+  "summary": "Overview of purchasing processes including creating purchase invoices and orders, managing vendors, analyzing purchase data, and handling returns and cancellations.",
   "systems": [
-    "purchasing"
+    "purchasing",
+    "inventory",
+    "finance"
   ],
   "topics": [
-    "purchasing overview",
-    "purchase processes",
-    "purchase analytics",
-    "vendor management"
+    "purchase invoices",
+    "purchase orders",
+    "vendor management",
+    "purchasing analytics",
+    "drop shipments",
+    "approval workflows",
+    "purchase returns"
   ],
   "objects": [],
   "features": [
-    "purchase quotes",
-    "purchase orders",
     "purchase invoices",
-    "purchase returns",
-    "blanket orders",
-    "OCR invoices",
+    "purchase orders",
+    "partial receipts",
+    "drop shipments",
+    "OCR service integration",
     "approval workflows",
-    "purchasing analytics"
+    "purchase analytics",
+    "blanket purchase orders"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007077,
-      "pages_in_call": 7
+      "cost_usd": 0.004206,
+      "pages_in_call": 1
     }
   ]
 }

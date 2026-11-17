@@ -2,19 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/receivables-how-reconcile-payments-auto-application.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-auto-application",
   "title": "Reconcile payments using automatic application",
-  "blob": "3ec6f8237f59406a059537e6f5eaa99b5050828f",
-  "summary": "How to reconcile payments using automatic application on the Payment Reconciliation Journal page. Use this to import bank statements and automatically match payments to open customer and vendor entries.",
+  "blob": "b0c0980d67caf2b8c8c45c73ad5359f4ab33b10f",
+  "summary": "Payment Reconciliation Journal automatically matches bank statement transactions to open customer, vendor, and bank account ledger entries, with options for manual review and correction of suggested applications.",
   "systems": [
     "sales",
     "finance",
-    "purchasing"
+    "integration"
   ],
   "topics": [
     "payment reconciliation",
     "automatic application",
-    "bank statement import",
-    "payment matching",
-    "match confidence"
+    "bank statement",
+    "bank feed",
+    "journal",
+    "ledger entries",
+    "matching rules"
   ],
   "objects": [
     {
@@ -39,20 +41,37 @@
     },
     {
       "type": "page",
+      "name": "Payment Application Rules"
+    },
+    {
+      "type": "page",
       "name": "G/L Register"
     },
     {
       "type": "page",
       "name": "Posted General Journals"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Reconciliation"
+    },
+    {
+      "type": "report",
+      "name": "Bank Account Statement"
     }
   ],
   "features": [
-    "automatic application",
-    "payment application rules",
+    "automatic matching",
+    "manual application override",
+    "Match Confidence levels",
     "text-to-account mapping",
-    "match confidence",
     "bank feed import",
-    "bank reconciliation"
+    "transfer difference to account",
+    "reverse entries",
+    "payment number series",
+    "Envestnet Yodlee Bank Feeds",
+    "lines to review",
+    "lines with difference"
   ],
   "versions": [],
   "parts": 1,
@@ -61,8 +80,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005593,
-      "pages_in_call": 7
+      "cost_usd": 0.01108,
+      "pages_in_call": 1
     }
   ]
 }
