@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Payables and receivables in the Czech Version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/receivables-payables",
-  "published_at": "2026-10-09T08:32:48.000Z",
+  "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-16T00:20:09.294Z",
-      "blob": "46340c59b73bd44484b54a785a629fddf7a45afc",
+      "at": "2026-11-17T00:18:24.770Z",
+      "blob": "abcc0f9cf8401e8351e5e8caff9a66a258ef4350",
       "words": 894,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-16T00:20:21.814Z",
+      "at": "2026-11-17T00:18:25.006Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 5,
-      "cost_usd": 0.005295
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-10-16T00:20:21.815Z",
+      "at": "2026-11-17T00:18:25.007Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-16T00:20:21.816Z",
+      "at": "2026-11-17T00:18:25.008Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-16T00:20:21.817Z",
+      "at": "2026-11-17T00:18:25.008Z",
       "page": false
     }
   },
-  "input_hash": "46340c59b73bd44484b54a785a629fddf7a45afc",
+  "input_hash": "abcc0f9cf8401e8351e5e8caff9a66a258ef4350",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/receivables-payables.md",
     "description": "Learn about payables and receivables features specific to the Czech version, including compensations, exchange rate adjustments, and local reporting requirements.",
-    "ms_date": "2026-10-08",
+    "ms_date": "2026-11-16",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -63,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d79d625117a1225dcfd353111075077f469d140707d62ec28ed7280ac038eae3"
+  "output_hash": "3426221c29f918dd3a68d8e0aad954ee5c029537883ccc5bdb49a815b8541166"
 }

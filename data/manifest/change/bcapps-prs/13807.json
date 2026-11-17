@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13807",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Bug 657914 Total Number of Supplies has incorrect type and tooltip in the VAT Report page of the German version.",
+  "url": "https://github.com/microsoft/BCApps/pull/13807",
+  "published_at": "2026-11-16T10:27:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-17T00:16:35.786Z"
+    }
+  },
+  "input_hash": "ba85d73c708f3d9e3f57c0a7c3866a6dd6a9ea35:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13807,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ba85d73c708f3d9e3f57c0a7c3866a6dd6a9ea35",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 657914 total number of supplies has incorrect type and tooltip in the vat report page of the german version"
+  }
+}

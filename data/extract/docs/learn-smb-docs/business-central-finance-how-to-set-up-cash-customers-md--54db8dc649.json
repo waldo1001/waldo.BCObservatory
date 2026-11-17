@@ -1,29 +1,33 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-how-to-set-up-cash-customers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-set-up-cash-customers",
-  "title": "Set Up Cash Customers",
-  "blob": "66395f10d24ca000a1e294ef1bf77f8d0c5f230d",
-  "summary": "Set up a cash customer card to enable invoicing for cash sales without requiring a customer account with full credit terms.",
+  "title": "Set up cash customers",
+  "blob": "9c7e1495e38f6d0ecd1e40ac19b577521a963b68",
+  "summary": "Set up a cash customer account to process cash sales transactions without requiring a customer credit account. Create a customer card with a customer number and configure posting groups for proper financial tracking.",
   "systems": [
     "sales",
-    "finance"
+    "finance",
+    "administration"
   ],
   "topics": [
-    "cash customer",
-    "cash sale",
+    "cash sales",
     "customer setup",
-    "invoicing"
+    "posting groups",
+    "invoicing",
+    "accounts receivable"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Customer"
+      "name": "Customer Card"
     }
   ],
   "features": [
-    "cash customer",
-    "customer posting group",
-    "general business posting group"
+    "Customer posting group",
+    "General business posting group",
+    "Invoicing setup",
+    "Receivables account",
+    "Cash sales processing"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003605,
-      "pages_in_call": 8
+      "cost_usd": 0.003243,
+      "pages_in_call": 1
     }
   ]
 }

@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Power BI Purchases app semantic model",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app-semantic-model",
-  "published_at": "2026-07-07T11:50:00.000Z",
+  "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.884Z",
-      "blob": "f9af7b12b52f463c0a529eb16fe6a6a94397acbb",
+      "at": "2026-11-17T00:18:29.381Z",
+      "blob": "1034a544e77892533bf6b91b8ae5d2b055d8551d",
       "words": 1584,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T16:50:33.196Z",
+      "at": "2026-11-17T00:18:47.062Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 19,
-      "cost_usd": 0.010063
+      "cost_usd": 0.01241
     },
     "summarized": {
-      "at": "2026-10-06T16:50:33.210Z",
+      "at": "2026-11-17T00:18:47.064Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T16:50:33.211Z",
+      "at": "2026-11-17T00:18:47.065Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T16:50:33.211Z",
+      "at": "2026-11-17T00:18:47.067Z",
       "page": false
     }
   },
-  "input_hash": "f9af7b12b52f463c0a529eb16fe6a6a94397acbb",
+  "input_hash": "1034a544e77892533bf6b91b8ae5d2b055d8551d",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-app-semantic-model.md",
     "description": "Learn about the fact and dimension tables and visible fields in the Power BI Purchases app semantic model for Business Central reports.",
-    "ms_date": "2026-07-03",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "000bad25fab746a6a8853d31c01148a1f366bbb9d44e2bb7b7fd25d295c723c2"
+  "output_hash": "37a28b86d2481dd823a056a81391a1395c1a186e4d8c80850d0e0383e49e4ffa"
 }

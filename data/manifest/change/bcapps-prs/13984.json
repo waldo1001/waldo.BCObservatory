@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/13984",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Bug 656853 Fix duplicate Cust. Ledger Entry failures and re-enable two ERM reminder tests",
+  "url": "https://github.com/microsoft/BCApps/pull/13984",
+  "published_at": "2026-11-16T17:59:25Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-17T00:16:35.786Z"
+    }
+  },
+  "input_hash": "1f0f992702a1a1f27c7093fe6bf42545ceebf9fd:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13984,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1f0f992702a1a1f27c7093fe6bf42545ceebf9fd",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 656853 fix duplicate cust ledger entry failures and re enable two erm reminder tests"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-17T00:18:26.098Z",
+  "retry_after": null
+}

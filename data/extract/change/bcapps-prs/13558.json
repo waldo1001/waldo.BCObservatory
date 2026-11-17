@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13558",
+  "number": 13558,
+  "title": "Add logging table management during installation and upgrade processes",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "The Fabric app now automatically exports logging tables during installation and upgrade to ensure the Tenant Fabric Export Details and Fabric Platform Export Summary tables are included in the export process.",
+  "key_points": [
+    "Logging tables are now exported automatically during Fabric app installation and upgrade",
+    "Affects Tenant Fabric Export Details and Fabric Platform Export Summary tables",
+    "Platform management codeunit enhanced with table export logic",
+    "Table validation codeunit updated to handle logging table management",
+    "Related installation and upgrade codeunits include new export handling"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "In the Fabric app the two log tables are not exported automaticly.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003937,
+    "changes_in_call": 1
+  }
+}

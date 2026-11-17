@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13868",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 658615 - Fix print of VAT Statement with Opposite Sign option",
+  "url": "https://github.com/microsoft/BCApps/pull/13868",
+  "published_at": "2026-11-16T22:20:03Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-17T00:16:35.786Z"
+    },
+    "fetched": {
+      "at": "2026-11-17T00:18:11.048Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-17T00:18:24.624Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00389
+    },
+    "linked": {
+      "at": "2026-11-17T00:18:24.752Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-17T00:18:24.757Z",
+      "path": "content/changes/bcapps/13868.md"
+    }
+  },
+  "input_hash": "e48e2d94b13dc61a88b9a1811732ca4fbc36e6c2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13868,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e48e2d94b13dc61a88b9a1811732ca4fbc36e6c2",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 658615 fix print of vat statement with opposite sign option"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1fb40ae85f7526e447a47b80153c929f419778fc7251e13a73aead4dd1c7de8a"
+}

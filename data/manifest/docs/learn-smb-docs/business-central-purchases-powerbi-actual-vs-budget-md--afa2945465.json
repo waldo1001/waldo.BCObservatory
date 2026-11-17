@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Actual vs. Budget Power BI Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget",
-  "published_at": "2026-11-12T12:11:53.000Z",
+  "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:19:59.988Z",
-      "blob": "e07cbf3ff9c743f33f7fa6614a923b4a9008f31d",
+      "at": "2026-11-17T00:18:26.221Z",
+      "blob": "f73af5d6fd4a81411b81428ee510bd9908f6a8d6",
       "words": 376,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:09.191Z",
+      "at": "2026-11-17T00:18:26.265Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 6,
-      "cost_usd": 0.004091
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:09.195Z",
+      "at": "2026-11-17T00:18:26.265Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:09.196Z",
+      "at": "2026-11-17T00:18:26.266Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:09.197Z",
+      "at": "2026-11-17T00:18:26.266Z",
       "page": false
     }
   },
-  "input_hash": "e07cbf3ff9c743f33f7fa6614a923b4a9008f31d",
+  "input_hash": "f73af5d6fd4a81411b81428ee510bd9908f6a8d6",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-actual-vs-budget.md",
     "description": "Compare actual purchase amounts with budgets in the Power BI Purchases app to identify spending variances by item and item category.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "330348dd0fad561f0930c7b6b56121c399af9c2feb9b6bedd0d0923ba42969f6"
+  "output_hash": "ea54ac0179bf3aded2f844230d61277be96292cd8bfef71bec4767c608d987b1"
 }

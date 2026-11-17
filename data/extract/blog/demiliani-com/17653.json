@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/demiliani-com/17653",
+  "url": "https://demiliani.com/2026/11/16/fewer-tools-better-agents-curating-the-dynamics-365-business-central-mcp-catalog/",
+  "title": "Fewer tools, better agents: curating the Dynamics 365 Business Central MCP catalog.",
+  "source": "demiliani-com",
+  "published_at": "2026-11-16T13:52:57.000Z",
+  "words": 2540,
+  "summary": "Curating a tight MCP catalog for Dynamics 365 Business Central agents improves both security and agent performance. The post explains how to use configurations, permissions and feature toggles to expose only the tools each agent job needs, and shows why large catalogs with auto-discovery fail as both security and decision-making surfaces.",
+  "key_points": [
+    "A large MCP catalog is a security risk and confuses agents; each tool must earn its place through explicit curation",
+    "Business Central MCP configurations let you pick API objects, set per-object permissions (read, create, modify, delete, actions), and filter discovery to build tailored tool sets",
+    "The default configuration uses dynamic discovery with read-only access, exposing everything the user can read without setup - replace it with a minimal named default",
+    "Design one configuration per agent job with business-focused tools (such as custom posting actions) rather than raw table CRUD operations",
+    "Small, well-scoped catalogs reduce security surface, lower AI tool-call costs (which will soon be charged), and cut wrong decisions in ERP contexts"
+  ],
+  "systems": [
+    "integration",
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "mcp",
+    "ai agents",
+    "tool curation",
+    "security",
+    "configuration",
+    "api design",
+    "permissions"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "API codeunit"
+    },
+    {
+      "type": "page",
+      "name": "API pages"
+    },
+    {
+      "type": "query",
+      "name": "API queries"
+    }
+  ],
+  "features": [
+    "Model Context Protocol (MCP) server",
+    "API tools",
+    "Dynamic tool mode",
+    "Data query tools",
+    "MCP configurations",
+    "Discover read-only objects",
+    "Unblock Edit Tools",
+    "Allow Delete permissions"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The catalog is the security boundary: prompts and agent instructions can be ignored or injected; what a configuration does not expose cannot be called.",
+      "why_it_matters": "It clarifies that configuration design is the actual security control, not training or prompts, so curators must be strict about what tools are listed"
+    },
+    {
+      "text": "An agent is only as safe as the catalog it can see. Keep yours small enough that you can explain every entry in it.",
+      "why_it_matters": "It sets the bar for curation: if you cannot defend a tool's presence, it should not be there, making governance explicit and defensible"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.013961,
+    "posts_in_call": 1
+  }
+}

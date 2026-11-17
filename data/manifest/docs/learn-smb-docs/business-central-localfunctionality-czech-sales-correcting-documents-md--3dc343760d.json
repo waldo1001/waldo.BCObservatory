@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Czech local functionality - Sales correcting documents [CZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/sales-correcting-documents",
-  "published_at": "2026-10-09T08:32:48.000Z",
+  "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-16T00:20:12.499Z",
-      "blob": "ac24d1027f2718dba7e7ee66826d69104086417c",
+      "at": "2026-11-17T00:18:25.038Z",
+      "blob": "f9b6f1f09841289846c38502054d1120858afaa2",
       "words": 54,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-16T00:20:21.825Z",
+      "at": "2026-11-17T00:18:25.087Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002632
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-10-16T00:20:21.827Z",
+      "at": "2026-11-17T00:18:25.088Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-16T00:20:21.828Z",
+      "at": "2026-11-17T00:18:25.088Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-16T00:20:21.829Z",
+      "at": "2026-11-17T00:18:25.089Z",
       "page": false
     }
   },
-  "input_hash": "ac24d1027f2718dba7e7ee66826d69104086417c",
+  "input_hash": "f9b6f1f09841289846c38502054d1120858afaa2",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/sales-correcting-documents.md",
     "description": "Learn about local functionality for handling sales correcting documents, including different types of sales credit memos, in the Czech version of Business Central.",
-    "ms_date": "2026-10-08",
+    "ms_date": "2026-11-16",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -62,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "56c2ab40154c57dacfacbd7dfcfbcc44d2ee8f04f1ab02d20d86c5c93218d683"
+  "output_hash": "a4ac1c951f2c5b15f1d35a739cb7be2e52a0ae6669713ca9241b41f00492ab2a"
 }

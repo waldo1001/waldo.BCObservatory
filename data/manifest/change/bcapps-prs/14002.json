@@ -1,0 +1,63 @@
+{
+  "id": "change/bcapps-prs/14002",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "External File Storage: reject \".\" and \"..\" path segments",
+  "url": "https://github.com/microsoft/BCApps/pull/14002",
+  "published_at": "2026-11-16T15:05:40Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-17T00:16:35.786Z"
+    },
+    "fetched": {
+      "at": "2026-11-17T00:18:28.158Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-17T00:18:46.879Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004141
+    },
+    "linked": {
+      "at": "2026-11-17T00:18:47.025Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-17T00:18:47.030Z",
+      "path": "content/changes/bcapps/14002.md"
+    }
+  },
+  "input_hash": "02be9cd835b447de496db7e9fc407f3aa14f08ea:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14002,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "02be9cd835b447de496db7e9fc407f3aa14f08ea",
+    "author": "jorisvanduyse",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: System Application",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "external file storage reject and path segments"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "20ca853106a501fd517db5e38d68d284ae74e4202037867a3a88d2229b66879f"
+}

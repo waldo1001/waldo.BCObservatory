@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Reporting GST/HST in Canada",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/sales-tax-goods-services",
-  "published_at": "2026-10-09T08:32:48.000Z",
+  "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-15T00:28:23.533Z",
-      "blob": "926921f97256316b8fdb11f6e906c00f3265e2b4",
+      "at": "2026-11-17T00:18:09.331Z",
+      "blob": "eceffada7485634ce1da7af0dede6d5c190cbb4a",
       "words": 214,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-15T00:28:30.367Z",
+      "at": "2026-11-17T00:18:09.381Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003233
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-10-15T00:28:30.369Z",
+      "at": "2026-11-17T00:18:09.383Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-15T00:28:30.372Z",
+      "at": "2026-11-17T00:18:09.384Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-15T00:28:30.375Z",
+      "at": "2026-11-17T00:18:09.384Z",
       "page": false
     }
   },
-  "input_hash": "926921f97256316b8fdb11f6e906c00f3265e2b4",
+  "input_hash": "eceffada7485634ce1da7af0dede6d5c190cbb4a",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Canada/sales-tax-goods-services.md",
     "description": "Learn how to report local sales tax, goods and services tax in Canada.",
-    "ms_date": "2026-10-08",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -59,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c0b602d547f7dbe2c2a981bf7444fec2c2ec049c1df30e2ae8f7a526edd1a50e"
+  "output_hash": "83f0707a04f18d94ccefbc0cf3b32a2e38fef44b0de714adc5c8e6c56f80a9fc"
 }

@@ -1,0 +1,64 @@
+{
+  "id": "change/bcapps-prs/13558",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add logging table management during installation and upgrade processes",
+  "url": "https://github.com/microsoft/BCApps/pull/13558",
+  "published_at": "2026-11-16T14:57:07Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-17T00:16:35.786Z"
+    },
+    "fetched": {
+      "at": "2026-11-17T00:18:28.007Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-17T00:18:32.179Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003937
+    },
+    "linked": {
+      "at": "2026-11-17T00:18:46.813Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-17T00:18:46.818Z",
+      "path": "content/changes/bcapps/13558.md"
+    }
+  },
+  "input_hash": "1fc1ca25b8723c45bcc8cb2f330a1fc405319b8c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13558,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1fc1ca25b8723c45bcc8cb2f330a1fc405319b8c",
+    "author": "Bertverbeek4PS",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "add logging table management during installation and upgrade processes"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8949f3485d46a5dbd8bc52cdc5cd3a5c38d3f35c0409cc11e9b5c2ff40614d14"
+}

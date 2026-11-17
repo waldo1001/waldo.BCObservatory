@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Set Up Cash Customers",
+  "title": "Set up cash customers",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-set-up-cash-customers",
-  "published_at": "2025-08-21T10:53:19.000Z",
+  "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.682Z",
-      "blob": "66395f10d24ca000a1e294ef1bf77f8d0c5f230d",
-      "words": 197,
+      "at": "2026-11-17T00:18:09.353Z",
+      "blob": "9c7e1495e38f6d0ecd1e40ac19b577521a963b68",
+      "words": 203,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:06:04.130Z",
+      "at": "2026-11-17T00:18:24.373Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003605
+      "cost_usd": 0.003243
     },
     "summarized": {
-      "at": "2026-10-06T19:06:12.771Z",
+      "at": "2026-11-17T00:18:24.374Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:06:12.772Z",
+      "at": "2026-11-17T00:18:24.375Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:06:12.773Z",
+      "at": "2026-11-17T00:18:24.375Z",
       "page": false
     }
   },
-  "input_hash": "66395f10d24ca000a1e294ef1bf77f8d0c5f230d",
+  "input_hash": "9c7e1495e38f6d0ecd1e40ac19b577521a963b68",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/finance-how-to-set-up-cash-customers.md",
     "description": "This topic describes the steps required to set up the invoice with a customer number for customers who pay in cash.",
-    "ms_date": "2021-06-16",
+    "ms_date": "2026-06-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -61,11 +61,11 @@
     ],
     "keywords": [],
     "ai_usage": null,
-    "words": 197,
+    "words": 203,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fee7cd5ad705e34e7106518749c852c8bc08e444d15072e79fabc0f04f23a6a6"
+  "output_hash": "1e04fc3a352caef871729a94bc0672592ff3de9dfa064450f3eae7540520c1d0"
 }

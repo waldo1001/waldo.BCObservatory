@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14118",
+  "number": 14118,
+  "title": "Refactor index list refresh and index-disable confirmations",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "The Indexes List Part page refactors shared logic for refreshing index lists and confirming disablement to eliminate code duplication, while preserving the selected index after refresh or selecting the first remaining one if deleted.",
+  "key_points": [
+    "Extracted shared index-list refresh logic to remove duplication",
+    "Extracted shared index-disable confirmation logic to reduce repeated code",
+    "Preserves the selected index after refresh operations",
+    "Selects the first remaining index if the previously selected one is removed",
+    "Low-risk UI refactor with no API or schema changes"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "Extract shared index-list refresh and disable-confirmation logic to remove duplication.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003514,
+    "changes_in_call": 1
+  }
+}

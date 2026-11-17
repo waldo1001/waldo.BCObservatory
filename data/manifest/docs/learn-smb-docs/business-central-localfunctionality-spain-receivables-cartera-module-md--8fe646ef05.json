@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Receivables Cartera Module in the Spanish Version [ES]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/receivables-cartera-module",
-  "published_at": "2026-10-26T11:09:41.000Z",
+  "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-28T09:07:17.614Z",
-      "blob": "557e4af063a38fa20545e801af3137bc6f74a177",
+      "at": "2026-11-17T00:18:26.126Z",
+      "blob": "e9362a019dd31331042681dc052355166c7f6e52",
       "words": 364,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-28T09:07:27.638Z",
+      "at": "2026-11-17T00:18:26.173Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003263
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-10-28T09:07:27.640Z",
+      "at": "2026-11-17T00:18:26.174Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-28T09:07:27.642Z",
+      "at": "2026-11-17T00:18:26.174Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-28T09:07:27.643Z",
+      "at": "2026-11-17T00:18:26.175Z",
       "page": false
     }
   },
-  "input_hash": "557e4af063a38fa20545e801af3137bc6f74a177",
+  "input_hash": "e9362a019dd31331042681dc052355166c7f6e52",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Spain/receivables-cartera-module.md",
     "description": "Use the Receivables Cartera module to manage bills generated from sales invoices, including grouping, collection, and factoring, through the Cartera Journal.",
-    "ms_date": "2026-10-20",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f9563d2c1a40ad7ffccfb9f3a8ec1e0c00e7cd8957408d697792c870f0a85093"
+  "output_hash": "52943a436aad141435bc83bf1917c71486c0f91d92eca020ba805124470469a1"
 }

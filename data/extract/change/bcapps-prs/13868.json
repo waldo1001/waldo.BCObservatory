@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/13868",
+  "number": 13868,
+  "title": "[main] bug 658615 - Fix print of VAT Statement with Opposite Sign option",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The Czech VAT Statement report now prints amounts with the correct sign when configured with the Opposite Sign option, while preserving the intended zeroing behavior from visibility rules.",
+  "key_points": [
+    "Fixes incorrect amount signs in Czech VAT Statement when Print with option is set to Opposite Sign",
+    "Report restores the configured print sign after applying Zero If Negative and Zero If Positive rules",
+    "Simplifies Boolean expressions in ShowAmountAsZero() method without changing behavior",
+    "Limited to Czech localization; no schema or public API changes",
+    "Low-risk fix affecting only amount sign handling in reporting"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization",
+    "reporting"
+  ],
+  "quote": "The report now restores the print sign after applying the Zero If Negative / Zero If Positive rules.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00389,
+    "changes_in_call": 1
+  }
+}

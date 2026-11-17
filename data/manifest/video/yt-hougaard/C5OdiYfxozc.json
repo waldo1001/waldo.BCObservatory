@@ -1,0 +1,57 @@
+{
+  "id": "video/yt-hougaard/C5OdiYfxozc",
+  "pillar": "video",
+  "source": "yt-hougaard",
+  "tier": "community",
+  "title": "Going Stargazing with the Business Central Observatory",
+  "url": "https://www.youtube.com/watch?v=C5OdiYfxozc",
+  "published_at": "2026-11-16T11:00:03.000Z",
+  "language": "en",
+  "state": "extracted",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-17T00:16:35.786Z"
+    },
+    "fetched": {
+      "at": "2026-11-17T00:18:18.309Z",
+      "captions": "auto:en-orig",
+      "duration_s": 485
+    },
+    "captioned": {
+      "at": "2026-11-17T00:18:21.689Z",
+      "path": "vault:captions/community/yt-hougaard/C5OdiYfxozc.vtt",
+      "vtt_sha256": "8995f74a39b2e33d36f20dd87d4c704b601cdaa9b5ae7d2774e83d53ce86ad5a",
+      "segments": 44,
+      "words": 928,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-11-17T00:18:46.851Z",
+      "path": "data/extract/video/C5OdiYfxozc.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 9,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.022478
+    }
+  },
+  "input_hash": null,
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "channel_id": "UCcJCTa4PvbOQj50y_HJSxXw",
+    "duration_s": 485,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ffa82e8a332bceacb2c6982fdcb6ae1e93a8c0414796086fa7c3a6da0e37554f"
+}

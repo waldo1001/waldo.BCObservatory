@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Power BI Purchases App for Purchasing Analytics",
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app",
-  "published_at": "2026-11-12T12:11:53.000Z",
+  "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:00.071Z",
-      "blob": "8b721c08b4383d34e4a5974758cf91bc179639e2",
+      "at": "2026-11-17T00:18:47.074Z",
+      "blob": "cd98a16087a2788058334f2e4b39b9a866bcf704",
       "words": 1125,
       "forms": 20
     },
     "extracted": {
-      "at": "2026-11-13T00:20:09.207Z",
+      "at": "2026-11-17T00:18:47.137Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005335
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:09.208Z",
+      "at": "2026-11-17T00:18:47.138Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:09.209Z",
+      "at": "2026-11-17T00:18:47.139Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:09.211Z",
+      "at": "2026-11-17T00:18:47.140Z",
       "page": false
     }
   },
-  "input_hash": "8b721c08b4383d34e4a5974758cf91bc179639e2",
+  "input_hash": "cd98a16087a2788058334f2e4b39b9a866bcf704",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/purchases-powerbi-app.md",
     "description": "Explore purchasing reports in the Power BI Purchases app to compare spending, track budgets, and analyze vendors, items, and purchasing trends.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "overview",
     "search_form": [
       {
@@ -159,5 +159,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "826e04da8025c06954f0fb2cb174d62c9090bb0eeb637b84150d42a393ca9fdc"
+  "output_hash": "4e9e98c91b47355edf65b61121fd5ec8eb042065afaf076a12e11c8622a78a15"
 }

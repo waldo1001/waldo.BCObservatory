@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14002,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14002",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-16T15:05:40Z",
+  "merge_commit_sha": "02be9cd835b447de496db7e9fc407f3aa14f08ea",
+  "author": "jorisvanduyse",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: System Application",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "External File Storage: reject \".\" and \"..\" path segments",
+  "body_hash": "8d4c47d38b9a4302e35f5e60ec44de66bd86c7655088312a1ff972aa0e4543ed",
+  "fixes_issues": [
+    12611
+  ],
+  "work_items": [
+    659509
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/External File Storage/src/FileStorage/ExternalFileStorageImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test/External File Storage/src/FileStoragePathTest.Codeunit.al",
+      "status": "added",
+      "additions": 84,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 96,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/System Application/App/External File Storage/src/FileStorage/ExternalFileStorageImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/9455",
+        "type": "codeunit",
+        "id": 9455,
+        "name": "External File Storage Impl.",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/9455"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "System Application"
+  ],
+  "issues": [
+    {
+      "number": 12611,
+      "title": "[Bug]: External File Storage - Delete in Storage Browser on \"..\" entry deletes the whole base folder",
+      "state": "closed"
+    }
+  ]
+}

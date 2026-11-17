@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14118,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14118",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-16T21:37:59Z",
+  "merge_commit_sha": "4069dbb19806dfba13fc33c5ed1a53cab7e95e2a",
+  "author": "mbaranovych",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Refactor index list refresh and index-disable confirmations",
+  "body_hash": "dc6681f8cc2f6523d5f9a713251edc8bc3f81881d57c070dcda7b96663dc72ff",
+  "fixes_issues": [],
+  "work_items": [
+    650163
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/Table Information/src/IndexesListPart.Page.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 41,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 33,
+    "deletions": 41,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/System Application/App/Table Information/src/IndexesListPart.Page.al",
+        "status": "modified",
+        "key": "page/8704",
+        "type": "page",
+        "id": 8704,
+        "name": "Indexes List Part",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8704"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "administration"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}
