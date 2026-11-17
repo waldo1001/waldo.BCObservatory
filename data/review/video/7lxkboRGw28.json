@@ -1,0 +1,35 @@
+{
+  "video_id": "7lxkboRGw28",
+  "item_id": "video/yt-areopa/7lxkboRGw28",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Four quotes (t 771.2, 1797.9, 2930.2, 3049.8) end with an ellipsis that is not in the transcript. They are dropped and replaced with verbatim spans that carry the same point.",
+    "There are duplicate quotes at t 880.7 and t 1589.4. Dropping by t removes both copies at each timestamp, so one clean copy of each is added back.",
+    "Quotes at t 231.3 (agenda filler) and t 3287.4 (presenter's personal preference) say nothing useful and are dropped.",
+    "Business Central mirroring to Fabric is described as just launched and on marketplace, so its status is set to ga with evidence. Licensing details were not final, and the key points already note this.",
+    "The features, summary and key points match the transcript. The descriptions of the version 29.1 requirement, the backfill to 29, F2 at about $250 a month, 8 vs 48 refreshes and the sandbox-only five-click deployment are accurate."
+  ],
+  "input_hash": "466ecc29477f063a3e94bc320bd9ab006a076d77e0f3f37b042c5719c79bec7c",
+  "by": "opus",
+  "at": "2026-11-17T00:26:05.243Z",
+  "applied": [
+    "Fabric-ready Power BI apps: status announced",
+    "dropped 10 quote(s)",
+    "quote at 784s",
+    "quote at 1823s",
+    "quote at 2951s",
+    "quote at 3072s",
+    "quote at 881s",
+    "quote at 1589s"
+  ],
+  "rejected_edits": [
+    "status Business Central mirroring to Fabric -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.288777
+  }
+}

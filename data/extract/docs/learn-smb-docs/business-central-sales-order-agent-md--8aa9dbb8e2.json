@@ -2,7 +2,7 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-order-agent.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent",
   "title": "Sales Order Agent overview",
-  "blob": "a1ec8a85ff55f02b3496dd2cb3ce8a5cd5bfda55",
+  "blob": "b0a0e2a4988dd9d85a1853ea8a20f5cac523b5dd",
   "summary": "Sales Order Agent automates capturing sales order information by analyzing customer email requests, locating customers, checking inventory, and creating sales quotes or orders with multi-turn email conversations when needed.",
   "systems": [
     "sales",
@@ -34,8 +34,8 @@
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": false,
-      "cost_usd": 0.012987,
+      "cached": true,
+      "cost_usd": null,
       "pages_in_call": 1
     }
   ]

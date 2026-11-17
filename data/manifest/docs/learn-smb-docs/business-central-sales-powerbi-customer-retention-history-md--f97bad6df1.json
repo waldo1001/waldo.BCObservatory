@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-history",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.734Z",
-      "blob": "e933c687b7569e53e11b14fabdf7364a2ac5177d",
-      "words": 289,
+      "at": "2026-11-17T00:26:03.975Z",
+      "blob": "895385196d2bfdd3157f7611c5c1ddad08efbe92",
+      "words": 290,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:47:31.895Z",
+      "at": "2026-11-17T00:26:08.385Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.006205
+      "objects": 0,
+      "cost_usd": 0.003486
     },
     "summarized": {
-      "at": "2026-10-06T18:47:33.657Z",
+      "at": "2026-11-17T00:26:08.386Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:47:33.658Z",
+      "at": "2026-11-17T00:26:08.387Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:47:33.659Z",
+      "at": "2026-11-17T00:26:08.388Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-customer-retention-history.md",
     "description": "The Customer Retention History page provides historical insights into customer retention metrics, allowing analysis of trends over time.",
-    "ms_date": "2026-03-03",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -58,11 +58,11 @@
       "reporting"
     ],
     "ai_usage": null,
-    "words": 289,
+    "words": 290,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2d6350aaccf140ecde1bb764803433dadbc136f2e126300bfcb2574e272dce98"
+  "output_hash": "2469ba705f8c6cab61b204b45db13c512141797b10430c44af19a22491858c62"
 }

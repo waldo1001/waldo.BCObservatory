@@ -2,7 +2,7 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-order-agent-process.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-process",
   "title": "Process sales quotes and orders with Sales Order Agent",
-  "blob": "4f078c9bfa0dada45128993a389301977491fb4f",
+  "blob": "d55f602f7f3f3e633e1574d9449c4064be312660",
   "summary": "Sales Order Agent automates processing customer email inquiries about products by verifying customers, checking item availability, creating sales quotes, and preparing email responses, with user intervention required for reviews and confirmations.",
   "systems": [
     "sales",
@@ -34,8 +34,8 @@
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": false,
-      "cost_usd": 0.010122,
+      "cached": true,
+      "cost_usd": null,
       "pages_in_call": 1
     }
   ]

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-23T21:59:02.113Z",
-      "blob": "a1ec8a85ff55f02b3496dd2cb3ce8a5cd5bfda55",
+      "at": "2026-11-17T00:26:03.740Z",
+      "blob": "b0a0e2a4988dd9d85a1853ea8a20f5cac523b5dd",
       "words": 2888,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-23T21:59:13.799Z",
+      "at": "2026-11-17T00:26:03.838Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.012987
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-10-23T21:59:13.801Z",
+      "at": "2026-11-17T00:26:03.840Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-23T21:59:13.802Z",
+      "at": "2026-11-17T00:26:03.841Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-23T21:59:13.803Z",
+      "at": "2026-11-17T00:26:03.842Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-order-agent.md",
     "description": "Learn about the sales order Copilot agent in Business Central.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-11-16",
     "ms_topic": "overview",
     "search_form": [
       {
@@ -67,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b7887923efe2312d24df113f35a56c2d5af12336e54517b1cd78a576c99885a9"
+  "output_hash": "dc6932058a06d363c950953c47ae068b62d48c2b07beb7a2f3dc97300ea7794c"
 }

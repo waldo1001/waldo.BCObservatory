@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-special-orders",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.933Z",
-      "blob": "46ea133b90797a0991d32bc5ffad299da4d2bc89",
+      "at": "2026-11-17T00:25:53.683Z",
+      "blob": "4acc868cfa6f15321c0418f254395da0e6cbf99e",
       "words": 390,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:10:12.207Z",
+      "at": "2026-11-17T00:25:59.177Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.00293
+      "objects": 7,
+      "cost_usd": 0.003992
     },
     "summarized": {
-      "at": "2026-10-06T19:10:14.126Z",
+      "at": "2026-11-17T00:25:59.179Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:10:14.127Z",
+      "at": "2026-11-17T00:25:59.180Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:10:14.128Z",
+      "at": "2026-11-17T00:25:59.180Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-how-to-create-special-orders.md",
     "description": "Learn how to create a special order for a specific catalog item to be shipped to a specific customer.",
-    "ms_date": "2024-02-20",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "64bf7c759489b9fced5ac2bba13527662533b644ab05e7f5eb21cc05de0f2fd0"
+  "output_hash": "84d1d2c16e7c9a41de84227256ce6b06b5d0e7a24592e8f3ad8a0e9ed662c591"
 }

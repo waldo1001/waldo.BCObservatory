@@ -899,12 +899,6 @@
   ],
   "quotes": [
     {
-      "t": 231.3,
-      "text": "PowerBI service and workspaces. Um, so this is a really definite uh going back to the beginner of how to actually uh deploy the",
-      "why_it_matters": "Establishes the core focus of the session on beginner-level deployment guidance for PowerBI apps in Business Central.",
-      "check": "exact"
-    },
-    {
       "t": 445.3,
       "text": "this allows you to give them access to all of those apps with absolutely zero coding unless you're going to edit the semantic models",
       "why_it_matters": "Key selling point that PowerBI apps can be deployed without development skills, lowering barrier to entry.",
@@ -923,9 +917,9 @@
       "check": "exact"
     },
     {
-      "t": 771.2,
-      "text": "you can see at this particular time there was a 26.2 and there is a version 27. Okay? And it'll ...",
-      "why_it_matters": "Demonstrates that specific Business Central version compatibility is required for apps, which is critical for successful deployment.",
+      "t": 784.2,
+      "text": "if you didn't install the correct version, it actually wouldn't connect to your data and it would fail.",
+      "why_it_matters": "Shows that the app version must match the Business Central version or the data connection fails.",
       "check": "exact"
     },
     {
@@ -936,14 +930,8 @@
     },
     {
       "t": 880.7,
-      "text": "There was a fiveclick deployment that was coming out um, in version 28. This was actually to deploy your Business Central apps.",
-      "why_it_matters": "Announces upcoming simplified deployment mechanism in version 28 as a future enhancement.",
-      "check": "exact"
-    },
-    {
-      "t": 880.7,
-      "text": "There was a fiveclick deployment that was coming out um, in version 28. This was actually to deploy your Business Central apps. Um, it",
-      "why_it_matters": "Clarifies limited scope of five-click deployment feature to sandbox development environments only",
+      "text": "there was a fiveclick deployment that was coming out um, in version 28. This was actually to deploy your Business Central apps.",
+      "why_it_matters": "Supports the five-click deployment feature, which was limited to sandbox.",
       "check": "exact"
     },
     {
@@ -979,13 +967,7 @@
     {
       "t": 1589.4,
       "text": "you will need to have the company name and the environment name. So you can get this from your URL.",
-      "why_it_matters": "Identifies key information required for connecting Power BI apps to Business Central data sources",
-      "check": "exact"
-    },
-    {
-      "t": 1589.4,
-      "text": "you will need to have the company name and the environment name",
-      "why_it_matters": "Essential information required from Business Central to successfully connect Power BI apps to company data",
+      "why_it_matters": "Lists the inputs needed to connect the template app to Business Central data.",
       "check": "exact"
     },
     {
@@ -995,9 +977,9 @@
       "check": "exact"
     },
     {
-      "t": 1797.9,
-      "text": "if in fact you do update to a later version of business central um some of the later vers earlier ...",
-      "why_it_matters": "Describes version upgrade behavior and the choice between migration and reinstallation of Power BI apps",
+      "t": 1822.6,
+      "text": "any changes to these models, of course, you would have to migrate because if you uninstall, you're going to lose your changes.",
+      "why_it_matters": "Explains the choice between migrating and reinstalling when you upgrade Business Central.",
       "check": "exact"
     },
     {
@@ -1043,15 +1025,15 @@
       "check": "exact"
     },
     {
-      "t": 2930.2,
-      "text": "it is on business central 21 29.1 which probably most people are not on 29.1 yet um they are going ...",
-      "why_it_matters": "Specifies version requirements for Fabric mirroring - only 29.x versions qualify, with backfill planned for 29.0.",
-      "check": "snapped"
+      "t": 2950.7,
+      "text": "they are going to backfill at 229. Um so it will not be available for 28.5.",
+      "why_it_matters": "Gives the version availability for Fabric mirroring.",
+      "check": "exact"
     },
     {
-      "t": 3049.8,
-      "text": "it does allow for multi-co company reporting. So as we were having to install the app multiple times if it ...",
-      "why_it_matters": "Highlights a major improvement in Fabric integration enabling single app installation with multi-company capabilities instead of per-company installations.",
+      "t": 3072.2,
+      "text": "So you only have to install one app and then you're able to change the companies.",
+      "why_it_matters": "Describes the multi-company benefit of the Fabric-based apps.",
       "check": "exact"
     },
     {
@@ -1064,12 +1046,6 @@
       "t": 3168.7,
       "text": "you don't mirror your entire instance of Business Central. You would only mirror the tables that you're needing",
       "why_it_matters": "Explains the selective table mirroring approach that provides flexibility for Power BI app usage",
-      "check": "exact"
-    },
-    {
-      "t": 3287.4,
-      "text": "I rather than paying for the other reporting solutions, I'm a person who kind of likes to play with it and build it and",
-      "why_it_matters": "Demonstrates cost-benefit perspective of using Microsoft's Power BI over third-party reporting solutions",
       "check": "exact"
     },
     {

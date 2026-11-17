@@ -2,7 +2,7 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-order-agent-setup.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-setup",
   "title": "Set up Sales Order Agent",
-  "blob": "eec52f88a909ff12200a8a6afb24c757ea90740f",
+  "blob": "f8a898ae4bbb8ae0d418c5e5810bcaa5e35083ac",
   "summary": "Sales Order Agent setup explains how to activate and configure an AI agent that automates processing sales orders from customer email requests in Business Central. Use this page to enable the agent capability, configure email monitoring, set processing rules, manage user access, and handle permissions.",
   "systems": [
     "copilot",
@@ -92,8 +92,8 @@
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": false,
-      "cost_usd": 0.021037,
+      "cached": true,
+      "cost_usd": null,
       "pages_in_call": 1
     }
   ]

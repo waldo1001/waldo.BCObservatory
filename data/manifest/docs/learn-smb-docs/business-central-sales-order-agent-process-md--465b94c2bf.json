@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-process",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-23T21:58:37.288Z",
-      "blob": "4f078c9bfa0dada45128993a389301977491fb4f",
+      "at": "2026-11-17T00:26:03.630Z",
+      "blob": "d55f602f7f3f3e633e1574d9449c4064be312660",
       "words": 2100,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-23T21:58:48.952Z",
+      "at": "2026-11-17T00:26:03.685Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.010122
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-10-23T21:58:48.953Z",
+      "at": "2026-11-17T00:26:03.686Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-23T21:58:48.954Z",
+      "at": "2026-11-17T00:26:03.687Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-23T21:58:48.955Z",
+      "at": "2026-11-17T00:26:03.687Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-order-agent-process.md",
     "description": "Learn how to use the Sales Order Agent to process sales quotes and orders from customer email requests.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -67,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2315757a29c83d2b2fc390b6e98964a473a7abf35e82b02a8aa806bd37746083"
+  "output_hash": "6c77f6a18d364e7fa204d9a20c4f62620dd9e4b1b42324f8ef982b733427f8ca"
 }

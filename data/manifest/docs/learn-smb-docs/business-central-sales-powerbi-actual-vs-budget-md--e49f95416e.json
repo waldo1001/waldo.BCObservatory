@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:25.095Z",
-      "blob": "405b9b551d31a524e4755d8d601387ad3cacd13e",
+      "at": "2026-11-17T00:26:03.847Z",
+      "blob": "a004532eba9a3d00c9ba0f4ca7a2ae4b20f35a40",
       "words": 374,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:31.016Z",
+      "at": "2026-11-17T00:26:03.930Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 8,
-      "cost_usd": 0.00401
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:31.017Z",
+      "at": "2026-11-17T00:26:03.946Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:31.019Z",
+      "at": "2026-11-17T00:26:03.947Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:31.022Z",
+      "at": "2026-11-17T00:26:03.947Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-actual-vs-budget.md",
     "description": "Compare actual sales amounts with budgets in the Power BI Sales app to track sales targets and analyze variances by item and item category.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bbd53efaaf7e75b551488514e9522d1e80721603d18b3bf42b389b8625ec8de3"
+  "output_hash": "19971030c172b4aae2644ea631d7fa16e40b235d66f71eb7952247e0d4cf6dc2"
 }

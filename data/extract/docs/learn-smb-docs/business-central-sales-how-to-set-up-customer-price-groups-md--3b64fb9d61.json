@@ -2,16 +2,17 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-how-to-set-up-customer-price-groups.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-to-set-up-customer-price-groups",
   "title": "Set Up Customer Price Groups",
-  "blob": "0fc1266f60276f5e259016f7207e0c1db99b4342",
-  "summary": "Customer Price Groups enable setting sales prices dependent on customer groups, with configuration for line and invoice discounts, tax settings, and price agreements for minimum quantities.",
+  "blob": "546d780dfd7e6e66b784b428b29c4f0e74e8a578",
+  "summary": "Set up customer price groups to define sales prices for groups of customers based on agreed pricing for specific items. Assign customer price group codes to customer cards to apply group pricing automatically.",
   "systems": [
     "sales"
   ],
   "topics": [
-    "customer pricing",
-    "price groups",
+    "customer price groups",
     "sales pricing",
-    "customer groups"
+    "price agreements",
+    "customer segmentation",
+    "discounts"
   ],
   "objects": [
     {
@@ -28,12 +29,14 @@
     }
   ],
   "features": [
-    "sales prices",
-    "customer price groups",
-    "line discounts",
-    "invoice discounts",
-    "minimum quantity pricing",
-    "tax configuration"
+    "Customer price groups",
+    "Sales prices by customer group",
+    "Line discounts",
+    "Invoice discounts",
+    "Price includes tax",
+    "Minimum quantity pricing",
+    "Price validity dates",
+    "Currency-specific pricing"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +45,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004707,
-      "pages_in_call": 8
+      "cost_usd": 0.003929,
+      "pages_in_call": 1
     }
   ]
 }

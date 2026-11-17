@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-to-send-electronic-documents",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.937Z",
-      "blob": "119b8f6c70fe191cc66feaeb8524d3b03f6d3864",
+      "at": "2026-11-17T00:25:53.700Z",
+      "blob": "4b15e6684df12c25f5509a265e53350138295a18",
       "words": 477,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:10:12.208Z",
+      "at": "2026-11-17T00:25:57.993Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.00293
+      "objects": 0,
+      "cost_usd": 0.003568
     },
     "summarized": {
-      "at": "2026-10-06T19:10:21.370Z",
+      "at": "2026-11-17T00:25:57.994Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:10:21.371Z",
+      "at": "2026-11-17T00:25:57.995Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:10:21.372Z",
+      "at": "2026-11-17T00:25:57.995Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-how-to-send-electronic-documents.md",
     "description": "Learn how to use Business Central to send electric invoices and credit memos in the PEPPOL format.",
-    "ms_date": "2021-06-23",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8f2bf65292f3e0331c58f378005c313e8da821f9ca396432c7cd194f0e509207"
+  "output_hash": "cecb62e4215d63dafd6c59be79f1b8fb077b238c0f41023b5ddce52a07f167f4"
 }

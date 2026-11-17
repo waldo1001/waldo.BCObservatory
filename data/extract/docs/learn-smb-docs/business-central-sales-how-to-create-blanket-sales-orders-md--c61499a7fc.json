@@ -2,18 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-how-to-create-blanket-sales-orders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-blanket-sales-orders",
   "title": "Work with blanket sales orders or purchase orders",
-  "blob": "efef49c315d1971706f2a5655c556225b5b971e8",
-  "summary": "Blanket sales and purchase orders represent long-term agreements allowing large quantity purchases with deliveries in small shipments over time, with lines convertible to individual orders at shipping time.",
+  "blob": "63ed8f4b6371c21d1fa764a4bbe2a5387af29e23",
+  "summary": "Blanket sales and purchase orders represent long-term agreements that let you manage large quantities delivered in small shipments over time without affecting item availability. Use this for creating blanket orders, converting them to sales orders, and tracking their status and associated documents.",
   "systems": [
     "sales",
-    "purchasing"
+    "purchasing",
+    "inventory"
   ],
   "topics": [
     "blanket orders",
     "sales orders",
     "purchase orders",
-    "framework agreements",
-    "order management"
+    "order management",
+    "long-term agreements",
+    "shipment planning"
   ],
   "objects": [
     {
@@ -27,14 +29,21 @@
     {
       "type": "page",
       "name": "Sales Lines"
+    },
+    {
+      "type": "table",
+      "name": "Interaction Log Entry"
     }
   ],
   "features": [
-    "blanket order creation",
-    "shipment scheduling",
-    "order conversion",
-    "quantity tracking",
-    "status monitoring"
+    "Blanket order creation",
+    "Order conversion to sales orders",
+    "Shipment scheduling",
+    "Status tracking",
+    "Quantity management",
+    "Invoice and shipping monitoring",
+    "Document linking",
+    "Batch deletion of invoiced orders"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005962,
-      "pages_in_call": 7
+      "cost_usd": 0.005335,
+      "pages_in_call": 1
     }
   ]
 }

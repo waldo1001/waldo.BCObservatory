@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=7lxkboRGw28",
   "published_at": "2026-11-13T09:41:21.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-17T00:16:35.786Z"
@@ -56,6 +56,19 @@
       ],
       "topics": 12,
       "objects_as_heard": 4
+    },
+    "reviewed": {
+      "at": "2026-11-17T00:26:05.276Z",
+      "path": "data/review/video/7lxkboRGw28.json",
+      "verdict": "fix",
+      "applied": 8,
+      "rejected_edits": 1,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.288777
+    },
+    "published": {
+      "at": "2026-11-17T00:26:08.320Z",
+      "path": "content/videos/7lxkboRGw28.md"
     }
   },
   "input_hash": null,
@@ -71,5 +84,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "309d088f97e33d10e59cb9a8e93b09e23427214d0401f731d632751b44accbc9"
+  "output_hash": "0271cdedc8a9211655444af814ca08386d80d96d8502f6167eceb89ca8762e16",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-17T00:26:05.243Z"
+  }
 }

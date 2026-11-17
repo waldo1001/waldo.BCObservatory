@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-work-standard-lines",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.951Z",
-      "blob": "67a7c41c40ba0fdd25def4cd3819205c1610f29c",
+      "at": "2026-11-17T00:26:01.543Z",
+      "blob": "28b6ed996a153352265ee61c70c498741fee4cc4",
       "words": 770,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:10:12.212Z",
+      "at": "2026-11-17T00:26:08.347Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.00293
+      "objects": 4,
+      "cost_usd": 0.004197
     },
     "summarized": {
-      "at": "2026-10-06T19:10:21.379Z",
+      "at": "2026-11-17T00:26:08.349Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:10:21.380Z",
+      "at": "2026-11-17T00:26:08.349Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:10:21.381Z",
+      "at": "2026-11-17T00:26:08.350Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-how-work-standard-lines.md",
     "description": "Set up frequently used sales lines to insert them on sales documents and quickly fill the lines with standard information.",
-    "ms_date": "2024-02-14",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -66,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fc65e3ef37120cda791e6d21de1b61f3552da76227f9d389b5b356b3ed3dde4c"
+  "output_hash": "7c319aa30695fd55c5c70f5271bb6950566481e7c03a995531f4d289018a42ee"
 }

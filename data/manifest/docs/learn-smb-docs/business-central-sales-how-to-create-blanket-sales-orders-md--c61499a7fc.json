@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-blanket-sales-orders",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.264Z",
-      "blob": "efef49c315d1971706f2a5655c556225b5b971e8",
+      "at": "2026-11-17T00:25:53.663Z",
+      "blob": "63ed8f4b6371c21d1fa764a4bbe2a5387af29e23",
       "words": 1130,
       "forms": 7
     },
     "extracted": {
-      "at": "2026-10-06T18:42:47.914Z",
+      "at": "2026-11-17T00:25:59.439Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.005962
+      "objects": 4,
+      "cost_usd": 0.005335
     },
     "summarized": {
-      "at": "2026-10-06T18:43:00.933Z",
+      "at": "2026-11-17T00:25:59.440Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:43:00.934Z",
+      "at": "2026-11-17T00:25:59.441Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:43:00.935Z",
+      "at": "2026-11-17T00:25:59.442Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-how-to-create-blanket-sales-orders.md",
     "description": "Use blanket orders when a customer agrees to buy large quantities that you deliver in small shipments over a period of time.",
-    "ms_date": "2026-04-07",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -92,5 +92,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3c25db29ffce6cd2646676bdebe49d08fb2ed740d1387ecf0e22dab6d9cffcee"
+  "output_hash": "b86ceedf11a4c0c21f5338dab14eff709ac19a5a44fd3c21b2c09c983b2b019d"
 }

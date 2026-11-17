@@ -2,42 +2,37 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-how-to-send-electronic-documents.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-to-send-electronic-documents",
   "title": "Send Electronic Documents",
-  "blob": "119b8f6c70fe191cc66feaeb8524d3b03f6d3864",
-  "summary": "Send sales invoices and credit memos electronically in PEPPOL format using document exchange services for pre-2023 release wave 2 versions.",
+  "blob": "4b15e6684df12c25f5509a265e53350138295a18",
+  "summary": "Send electronic sales invoices and credit memos in PEPPOL format through a document exchange service to trading partners.",
   "systems": [
     "sales",
-    "integration"
+    "integration",
+    "administration"
   ],
   "topics": [
-    "electronic invoicing",
+    "electronic documents",
     "peppol format",
     "document exchange",
-    "e-invoices",
-    "pre-2023"
+    "electronic invoicing",
+    "sales invoices"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Sales Invoices"
-    }
-  ],
+  "objects": [],
   "features": [
+    "Post and Send action",
+    "Electronic Document format",
     "PEPPOL format",
-    "document exchange service",
-    "electronic invoice sending",
-    "e-document posting"
+    "Document Exchange Service",
+    "Electronic Document sending profile"
   ],
-  "versions": [
-    "pre-2023 release wave 2"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00293,
-      "pages_in_call": 8
+      "cost_usd": 0.003568,
+      "pages_in_call": 1
     }
   ]
 }

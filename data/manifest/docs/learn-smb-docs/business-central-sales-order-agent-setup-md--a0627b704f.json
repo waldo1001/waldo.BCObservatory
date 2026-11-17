@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-setup",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-23T21:59:00.760Z",
-      "blob": "eec52f88a909ff12200a8a6afb24c757ea90740f",
+      "at": "2026-11-17T00:26:03.718Z",
+      "blob": "f8a898ae4bbb8ae0d418c5e5810bcaa5e35083ac",
       "words": 5116,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-23T21:59:15.504Z",
+      "at": "2026-11-17T00:26:03.765Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 13,
-      "cost_usd": 0.021037
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-10-23T21:59:15.506Z",
+      "at": "2026-11-17T00:26:03.767Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-23T21:59:15.507Z",
+      "at": "2026-11-17T00:26:03.768Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-23T21:59:15.508Z",
+      "at": "2026-11-17T00:26:03.769Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-order-agent-setup.md",
     "description": "Set up Sales Order Agent in Business Central to process sales orders from customer emails. Learn how to activate and configure the agent.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -67,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3f12c2bce7f9726897884e445e5eff57f5ae40c0ba59d04e043ef06f78af88c9"
+  "output_hash": "53cdb41b70749b1927a9f78d830919af67e9c9111120ac9f93f7a6040cf761ec"
 }

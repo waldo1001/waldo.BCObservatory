@@ -2,16 +2,16 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-how-to-set-up-customer-discount-groups.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-to-set-up-customer-discount-groups",
   "title": "Set up customer discount groups",
-  "blob": "dfffc8b5a22fffabcd4f09fd406ffe372d877cc0",
-  "summary": "Customer Discount Groups allow defining sales line discounts for groups of customers combined with Item Discount Groups instead of applying them individually.",
+  "blob": "0d1ddaf705816b2c5358e6422d819d0eaefda9ed",
+  "summary": "Create and assign customer discount groups to apply sales line discounts to multiple customers based on item or item discount group combinations with optional minimum quantities and date ranges.",
   "systems": [
     "sales"
   ],
   "topics": [
     "customer discounts",
-    "discount groups",
     "sales line discounts",
-    "pricing"
+    "discount groups",
+    "pricing setup"
   ],
   "objects": [
     {
@@ -29,10 +29,13 @@
   ],
   "features": [
     "sales line discounts",
-    "discount groups",
-    "minimum quantity discounts",
-    "discount date ranges",
-    "item discount groups"
+    "customer discount groups",
+    "item discount groups",
+    "minimum quantity",
+    "currency code",
+    "variant code",
+    "starting date",
+    "ending date"
   ],
   "versions": [],
   "parts": 1,
@@ -41,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004707,
-      "pages_in_call": 8
+      "cost_usd": 0.003243,
+      "pages_in_call": 1
     }
   ]
 }

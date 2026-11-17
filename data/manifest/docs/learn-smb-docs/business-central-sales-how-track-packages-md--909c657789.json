@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-track-packages",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.946Z",
-      "blob": "e60e608ce1c7e1c3e35b35e3e5a0b8af46d6d008",
+      "at": "2026-11-17T00:25:59.479Z",
+      "blob": "51c6e6396ae42c180405b7725c9ba6a7e7f2ec81",
       "words": 259,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:10:12.210Z",
+      "at": "2026-11-17T00:26:03.494Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.00293
+      "cost_usd": 0.003438
     },
     "summarized": {
-      "at": "2026-10-06T19:10:21.377Z",
+      "at": "2026-11-17T00:26:03.495Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:10:21.377Z",
+      "at": "2026-11-17T00:26:03.496Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:10:21.378Z",
+      "at": "2026-11-17T00:26:03.497Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-how-track-packages.md",
     "description": "Use the shipping agents tracking service on the Internet to track parcels and follow the progress of a delivery.",
-    "ms_date": "2024-03-06",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -74,5 +74,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "11a9e4190f6843b00f902884d6c2df47f75153382717aa15399d068e3f445509"
+  "output_hash": "d2fb17fb056df1b7c200dfed92870c027f80300946d41eec09b3cbb24f98e513"
 }

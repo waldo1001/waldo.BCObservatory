@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-item-availability",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-23T21:58:34.074Z",
-      "blob": "2c890e50a28e300df6ca15777c81eda0f34adede",
+      "at": "2026-11-17T00:26:03.533Z",
+      "blob": "6b23a1e931325f3db99921f9ce946a6b482cc5c5",
       "words": 1250,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-23T21:58:46.548Z",
+      "at": "2026-11-17T00:26:03.589Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.004686
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-10-23T21:58:46.551Z",
+      "at": "2026-11-17T00:26:03.590Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-23T21:58:46.552Z",
+      "at": "2026-11-17T00:26:03.591Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-23T21:58:46.553Z",
+      "at": "2026-11-17T00:26:03.592Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-order-agent-item-availability.md",
     "description": "Learn how Sales Order Agent checks item availability and prices, test the results, and troubleshoot price-calculation failures.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-11-16",
     "ms_topic": "article",
     "search_form": [
       {
@@ -69,5 +69,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "02048ea9d3a2fe0212cd19f8f90562348a14f1866270d1d71a3ac693f3a3382e"
+  "output_hash": "3cc666a45082b9aa39e989a2b25bcca07bae57f9eb81d69725317c062c4e18d7"
 }

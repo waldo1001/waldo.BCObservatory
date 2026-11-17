@@ -2,16 +2,16 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-how-setup-document-send-profiles.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-setup-document-send-profiles",
   "title": "Set Up Preferred Methods of Sending Sales Documents | Microsoft Docs",
-  "blob": "1bbdd1c033613c48dca416a135f8dc01d68d6ced",
-  "summary": "Setting up document sending profiles to specify preferred methods for sending sales documents to customers. Profiles can be set as default or assigned to individual customer cards.",
+  "blob": "5d8196ad493c48ae4db9d6e8b21c482c14ccf50c",
+  "summary": "Document Sending Profiles let you set preferred methods for sending sales documents to customers, reducing the need to select sending options repeatedly during post and send operations.",
   "systems": [
     "sales"
   ],
   "topics": [
     "document sending",
+    "customer setup",
     "sales documents",
-    "customer preferences",
-    "document distribution"
+    "communication preferences"
   ],
   "objects": [
     {
@@ -20,14 +20,19 @@
     },
     {
       "type": "page",
-      "name": "Customer Card"
+      "name": "Post and Send Confirmation"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
     }
   ],
   "features": [
-    "document sending profile",
-    "default profile",
-    "post and send action",
-    "customer document preferences"
+    "Document Sending Profiles",
+    "Post and Send action",
+    "default sending profile",
+    "customer-specific sending profiles",
+    "sending profile selection"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003715,
-      "pages_in_call": 8
+      "cost_usd": 0.003297,
+      "pages_in_call": 1
     }
   ]
 }

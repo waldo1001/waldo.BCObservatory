@@ -2,25 +2,46 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-how-to-combine-shipments-on-a-single-invoice.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-to-combine-shipments-on-a-single-invoice",
   "title": "How to combine shipments on a single invoice",
-  "blob": "d3887e549d85f87d8a20f99a1758ea73bdaf77b5",
-  "summary": "Manual and automatic procedures for combining multiple shipments from sales or service orders into a single invoice in Business Central.",
+  "blob": "f1445a7121ddfbe4d37df18ae246348c7c49ce9b",
+  "summary": "Combine shipments from sales or service orders into a single invoice manually or automatically, then manage the resulting posted invoices and open orders.",
   "systems": [
     "sales",
     "service"
   ],
   "topics": [
-    "shipment",
     "invoicing",
+    "shipments",
     "sales orders",
-    "service orders"
+    "service orders",
+    "batch processing"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Get Shipment Lines"
+    },
+    {
+      "type": "page",
+      "name": "Combine Shipments"
+    },
+    {
+      "type": "page",
+      "name": "Delete Invoiced Sales Orders"
+    }
+  ],
   "features": [
-    "combine shipments",
-    "manual combination",
-    "automatic combination",
-    "batch job",
-    "shipment lines"
+    "Manually combine shipments",
+    "Automatically combine shipments",
+    "Get Shipment Lines action",
+    "Combine Shipments batch job",
+    "Post Invoices checkbox",
+    "Delete Invoiced Sales Orders",
+    "Quantity Invoiced field",
+    "Bill-to Customer personalization"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +50,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006348,
-      "pages_in_call": 8
+      "cost_usd": 0.004215,
+      "pages_in_call": 1
     }
   ]
 }

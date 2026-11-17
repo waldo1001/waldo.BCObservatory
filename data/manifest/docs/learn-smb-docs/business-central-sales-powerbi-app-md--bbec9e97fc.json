@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-05T00:17:14.873Z",
-      "blob": "9383b6d80a28e00fde26b5ec5bc8cd0d6694d8d9",
+      "at": "2026-11-17T00:26:03.951Z",
+      "blob": "78b76f3f532b74d5a943b4465db7e31933bba359",
       "words": 1019,
       "forms": 20
     },
     "extracted": {
-      "at": "2026-11-05T00:17:28.784Z",
+      "at": "2026-11-17T00:26:04.020Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004515
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-05T00:17:28.785Z",
+      "at": "2026-11-17T00:26:04.021Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-05T00:17:28.786Z",
+      "at": "2026-11-17T00:26:04.022Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-05T00:17:28.786Z",
+      "at": "2026-11-17T00:26:04.022Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-app.md",
     "description": "The Power BI Sales app provides comprehensive sales analytics to stakeholders at all levels of your organization.",
-    "ms_date": "2026-03-03",
+    "ms_date": "2026-11-16",
     "ms_topic": "article",
     "search_form": [
       {
@@ -159,5 +159,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dfaa141e41637d6e6e5ed82cadf6efdc90470f9904b9d59f23c1496f8142ba0d"
+  "output_hash": "4edb0b126111484f7ce1441298aae0ec6bbe987abbfcc44aa32a01bde0e67f3c"
 }
