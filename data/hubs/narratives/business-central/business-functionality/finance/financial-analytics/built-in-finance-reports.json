@@ -1,38 +1,38 @@
 {
   "hub_id": "topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-reports",
-  "input_hash": "ccbd7d2fc64d24f0eedfa3d29321fbaa64fe2d952d3f609f9d8e2d936d9ffc56",
-  "summary": "Built-in finance reports in Business Central: one page per standard report, covering general ledger, trial balance, receivables, payables, VAT, consolidation, deferrals, cost accounting and fixed assets. Answers questions about what a report shows, its filters and options, and when to use it.",
-  "overview": "This section documents the standard reports that ship with Business Central finance. Most pages describe a single report: what it shows, the main filters and options, and the task it supports, such as period-end checks, reconciliation, audit or tax filing. Many reports come as a classic report and an Excel report, for example Trial Balance, Aged Accounts Payables, Aged Accounts Receivable and Consolidated Trial Balance.\n\nThe pages fall into groups: core finance (Balance Sheet, Income Statement, Trial Balance variants, Chart of Accounts, G/L Register, Audit Trail, Dimensions reports); customer and vendor reports (aging, balance to date, detail trial balance, order detail and summary, top 10 lists, statements, reminders); VAT and EU reporting; consolidation and intercompany; deferral summaries; and Cost Accounting reports. Analytics pages for accounts payable and receivable cover Power BI and Data Analysis, and a Fixed assets reports page covers depreciation and related reports.\n\nStart with the page \"Built-in finance reports in Business Central\", which gives the overview and the report explorer. Then open the page for the specific report you need. Some pages are marked legacy: the Excel financial statement workbooks are deprecated in favor of Excel layouts, and Vendor - Summary Aging is replaced by Aged Accounts Payable.",
+  "input_hash": "9fd3bb262b8a72c38d88d34bb06b0035fbcec6d28902d8659039dbd116ec5731",
+  "summary": "Built-in finance reports in Business Central: reference pages for standard reports on general ledger, trial balances, receivables and payables, VAT, consolidation, cost accounting, deferrals and dimensions. Answers what each report shows, which options and filters it has, and which are obsolete or replaced by Excel versions.",
+  "overview": "Business Central includes a catalog of standard finance reports. An overview page lists the report groups (core finance, deferral, VAT, consolidation, cost accounting, receivables and payables) and points to the report explorer. Each report then has its own page that describes its purpose, its request-page options and filters, and who typically uses it.\nThe pages cover several families. The Balance Sheet, Income Statement, Statement of Cashflows and Retained Earnings Statement use the financial report selected in General Ledger Setup. The Financial Report itself calculates amounts from row and column definitions. Trial balance reports come in Report and Excel forms. Customer and vendor reports cover aging, balance to date, detail and summary trial balances, order detail and summary, and top lists. Other families cover VAT, consolidation, cost accounting, deferral summaries, dimensions, and audit and register reports.\nStart with the overview page to find the right family. Then open the specific report page to check its filters and layout. Analytics pages for accounts payable and receivable show how these reports sit alongside Power BI and Data Analysis. Check the obsolescence notes first, because several older reports now have Excel replacements.",
   "key_points": [
-    "The overview page lists report groups: core finance, deferral, VAT, consolidation, cost accounting, and receivables and payables.",
-    "Trial balance family: Trial Balance, by Period (12 periods), Detail, Closing and Trial Balance/Budget. The Trial Balance Excel report supports local currency and additional reporting currency, and the Trial Balance/Budget Excel report shows variances in local currency.",
-    "Aging reports exist as classic and Excel versions for payables and receivables, with aging buckets and period length, and with local and foreign currency analysis.",
-    "Customer and vendor reports include balance to date, detail trial balance, order detail and summary, top 10 lists, Customer Statement and Reminder.",
-    "VAT reports include VAT Statement, VAT Register, VAT Exceptions, VAT Reconciliation, G/L - VAT Reconciliation, Calculate and Post Tax Settlement and VIES declaration and number checks.",
-    "Consolidation reports cover Consolidated Trial Balance (standard, four-column and Excel), G/L Consolidation Eliminations and Intercompany Transactions.",
-    "Cost Accounting reports compare actual and budget costs by cost type, cost center and period, and review allocations and journals.",
-    "Deprecated items: the legacy Excel financial statement workbooks (use Excel layouts) and Vendor - Summary Aging (use Aged Accounts Payable)."
+    "The overview page groups reports into core finance, deferral, VAT, consolidation, cost accounting, and receivables and payables, and mentions the report explorer.",
+    "Aged Accounts Receivables (Report) is marked obsolete in version 28 and replaced by an Excel version. Customer - Top 10 List is also obsolete in version 28, so use Customer Top List Excel.",
+    "Vendor - Summary Aging (Report 305) is obsolete from version 28.0. Aged Accounts Payable has both a report page and an Excel report page.",
+    "The legacy Excel financial statement workbooks are deprecated. Use Excel layouts for financial reports or Excel report layouts instead.",
+    "Balance Sheet, Income Statement, Cash Flows and Retained Earnings reports take their rows and columns from the financial report selected in General Ledger Setup.",
+    "Trial balance variants include Trial Balance, Trial Balance by Period (up to 12 periods), Closing, Detail, Consolidated (report, Excel and four-business-unit versions), and budget comparison versions in report and Excel form.",
+    "VAT reports include Calculate and Post Tax Settlement (with test mode), VAT Statement, VAT Reconciliation, G/L - VAT Reconciliation, VAT Register, Day Book VAT Entry, VAT Exceptions, VAT Registration No. Check, and VAT-VIES Declaration. The VIES report does not submit data electronically.",
+    "Cost accounting reports compare actual costs with budgets by cost type, cost center and cost object, and also cover journal checks, allocations setup review and cost entry details."
   ],
   "members_used": 80,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-11T00:58:32.958Z",
+  "at": "2026-11-17T01:00:05.279Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.062956
+    "cost_usd": 0.07349800000000001
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-11T00:59:21.146Z",
+    "at": "2026-11-17T01:01:17.321Z",
     "verdict": "fix",
     "issues": [
-      "Key point 2 implies that all Excel trial balance versions support both local currency and additional reporting currency. Only the Trial Balance (Excel report) has both. The Trial Balance/Budget (Excel report) shows local currency only. Reworded to be precise.",
-      "Small note: the source page says Vendor - Summary Aging is a legacy report and recommends Aged Accounts Payable instead. The overview's word 'replaced' is a slight paraphrase of that, so it was left unchanged.",
-      "Only 80 of the hub's 83 pages were in the input, so 3 pages could not be checked."
+      "Overview groups the Financial Report with statements that 'rely on report definitions set in General Ledger Setup'. The source says the Financial Report runs on row and column definitions and does not tie it to General Ledger Setup. Only Balance Sheet, Income Statement, Cash Flows and Retained Earnings are tied to General Ledger Setup.",
+      "Key point 3 labels the Aged Accounts Payable report page '(version 28.0)'. The source attaches that version without saying what changed or calling the report obsolete, so next to the obsolescence notes the label suggests a status the source does not state. Removed.",
+      "Overview opened with 'This section is'. Changed to 'Business Central includes' to keep with the wording rules."
     ],
-    "input_hash": "ccbd7d2fc64d24f0eedfa3d29321fbaa64fe2d952d3f609f9d8e2d936d9ffc56",
-    "cost_usd": 0.152432
+    "input_hash": "9fd3bb262b8a72c38d88d34bb06b0035fbcec6d28902d8659039dbd116ec5731",
+    "cost_usd": 0.18295999999999998
   }
 }

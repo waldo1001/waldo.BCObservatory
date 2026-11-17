@@ -11,7 +11,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-06T01:02:12.564Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -27,28 +27,49 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing
     title: Combine Automatic and Manual Flushing
-    date: "2026-05-19"
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick
+    title: "Contoso Coffee: Basic Warehouse Flow Walkthrough"
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-directed-flow
+    title: "Contoso Coffee: Directed Warehouse Flow Walkthrough"
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship
+    title: "Contoso Coffee: Mixed Warehouse Flow Walkthrough"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-firm-planned-production-order-change
-    title: Create a firm planned production order and change it
-    date: "2026-05-19"
+    title: Create a Firm Planned Production Order and Change It
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-production-bom-version
     title: Create a New Production BOM and BOM Version
-    date: "2022-04-01"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-routing
-    title: Create a New Routing
-    date: "2022-04-01"
+    title: Create a New Production Routing
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -81,30 +102,30 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro
-    title: Introduction to Contoso Coffee
-    date: "2022-04-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/contoso-coffee-intro
     title: Introduction to Contoso Coffee Demo Data
-    date: "2023-09-20"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro
     title: Introduction to Contoso Coffee Manufacturing
-    date: "2026-07-16"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/contoso-coffee-service-intro
-    title: Introduction to Contoso Coffee service management
-    date: "2026-07-16"
+    title: Introduction to Contoso Coffee Service Management
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro
+    title: Introduction to Contoso Coffee Warehousing
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -123,23 +144,9 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick
-    title: Receiving, Puting-away, Picking and Shipping in Basic Warehouse Configuration
-    date: "2024-02-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship
-    title: Receiving, puting-away, picking, and shipping in a mixed warehouse configuration
-    date: "2025-04-30"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-directed-flow
-    title: Receiving, putting-away, moving, picking and shipping in advanced warehouse configuration
-    date: "2023-12-07"
+    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/variants
+    title: Plan Production for Item Variants
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -159,8 +166,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-process-subcontracting-operation
-    title: Set up and process a subcontracting operation
-    date: "2026-10-16"
+    title: Set Up and Process a Subcontracting Operation
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -187,36 +194,29 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-new-capacity
-    title: Set Up New Capacity
-    date: "2022-04-01"
+    title: Set Up New Manufacturing Capacity
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges
-    title: Set up subcontracting prices and allocate item charges
-    date: "2026-10-19"
+    title: Set Up Subcontracting Prices and Allocate Item Charges
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods
-    title: Use different component supply methods in subcontracting
-    date: "2026-10-16"
+    title: Use Different Component Supply Methods in Subcontracting
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/order-planning-create-reserve-supply
     title: Use Order Planning to Create and Reserve Supply
-    date: "2022-04-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/variants
-    title: Variants
-    date: "2025-09-11"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -243,15 +243,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-contract-flow
-    title: Walkthrough of service contracts for service items
-    date: "2024-08-26"
+    title: Walkthrough of Service Contracts for Service Items
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-basic-flow-order
-    title: Walkthrough of service orders for service items
-    date: "2025-02-18"
+    title: Walkthrough of Service Orders for Service Items
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -273,8 +273,8 @@ links:
     - object/page/108
     - object/page/488
     - object/page/489
-    - object/page/4764
     - object/page/4765
+    - object/page/4766
     - object/page/5194
     - object/page/7335
     - object/page/7337
@@ -345,8 +345,8 @@ bc_forms:
   - 108
   - 488
   - 489
-  - 4764
   - 4765
+  - 4766
   - 5194
   - 7335
   - 7337
@@ -450,8 +450,8 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 108 "Financial Reports"](../../../objects/page/108.md) · on [Table 88 "Financial Report"](../../../objects/table/88.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
 - [Page 488 "Column Layout Names"](../../../objects/page/488.md) · captioned "(Financial Report) Column Definitions" · on [Table 333 "Column Layout Name"](../../../objects/table/333.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
 - [Page 489 "Column Layout"](../../../objects/page/489.md) · captioned "(Financial Report) Column Definitions" · on [Table 334 "Column Layout"](../../../objects/table/334.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
-- [Page 4764 "Jobs Module Setup"](../../../objects/page/4764.md) · captioned "Contoso Coffee Project Demo Data" · on [Table 4771 "Jobs Module Setup"](../../../objects/table/4771.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
 - [Page 4765 "Manufacturing Module Setup"](../../../objects/page/4765.md) · on [Table 4766 "Manufacturing Module Setup"](../../../objects/table/4766.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
+- [Page 4766 "Warehouse Module Setup"](../../../objects/page/4766.md) · on [Table 4764 "Warehouse Module Setup"](../../../objects/table/4764.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
 - [Page 5194 "Contoso Demo Tool"](../../../objects/page/5194.md) · on [Table 5161 "Contoso Demo Data Module"](../../../objects/table/5161.md) · via [Contoso Coffee demo data](learn/contoso-coffee-demo-data.md)
 - [Page 7335 "Warehouse Shipment"](../../../objects/page/7335.md) · on [Table 7320 "Warehouse Shipment Header"](../../../objects/table/7320.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)
 - [Page 7337 "Posted Whse. Shipment"](../../../objects/page/7337.md) · on [Table 7322 "Posted Whse. Shipment Header"](../../../objects/table/7322.md) · via [Business process walkthroughs](learn/business-process-walkthroughs.md)

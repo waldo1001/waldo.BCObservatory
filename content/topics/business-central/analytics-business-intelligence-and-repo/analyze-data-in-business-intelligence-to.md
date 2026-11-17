@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,7 +93,8 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo
     - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric
   localizations: []
-  videos: []
+  videos:
+    - video/B9VbZzC2p7E
   posts: []
   guidelines: []
 learn_toc_path:
@@ -106,7 +107,7 @@ children:
 coverage:
   learn: 8
   code: 8
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -155,6 +156,12 @@ Two reference pages support custom approaches. The API v2.0 page describes build
 - [Analyze Data in Business Intelligence Tools](https://learn.microsoft.com/dynamics365/business-central/reports-external-analysis): Provides an overview of how external Business Intelligence tools can interact with Business Central data.
 - [API (v2.0) for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/): Reference content for the API (v2.0) endpoint for integration with Dynamics 365 Business Central.
 - [Performance Articles for AL Developers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer): Learn how to write efficient AL code, pages, reports, and web services, and use tools like the AL Profiler to improve performance in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Use an Agent to SQL Query data inside your Spreadsheet with Business Central (Advanced Spreadsheets)](../../../videos/B9VbZzC2p7E.md) (video): "AI Agent SQL Query Generation; Advanced Spreadsheets with Agent Integration"
 
 ## Business Central pages and reports
 

@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/sales/sales-analytics/power-bi-sales-app
 type: topic
 title: Power BI Sales app
-summary: "The Power BI Sales app section covers the sales analytics app for Business Central: its role-based reports, the star-schema semantic model, and the KPI and measure definitions. It answers questions about what each report shows, which metrics it uses, and how the underlying data is structured."
+summary: "Power BI Sales app in Business Central: the app's report catalog, the semantic model behind it, and the sales KPIs and measures. It answers questions about what each sales report shows, which metrics it uses, and who it is for."
 tier: official
 language: en
 system: sales
@@ -12,177 +12,177 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: bcd264e4e5119fecc5ea3592a3c07de7e44850386b7884cb87e221b08622f2ab
+  input_hash: 518e9fc885caa651c52f862e13683966c879a9b8423cf06723d8b7a912ee9c65
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-history
     title: Customer Retention History (Power BI report)
-    date: "2026-03-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-overview
     title: Customer Retention Overview (Power BI report)
-    date: "2026-03-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-daily-sales
     title: Daily Sales Analysis Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-key-sales-influencers
     title: Key Sales Influencers Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-annual-total
     title: Moving Annual Total Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-average
     title: Moving Average Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app
     title: Power BI Sales app
-    date: "2026-03-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model
     title: Power BI Sales App Semantic Model Reference
-    date: "2025-10-07"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget
     title: Sales Actual vs. Budget Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-customer
     title: Sales by Customer Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-item
     title: Sales by Item Analysis Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-location
     title: Sales by Location Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-project
     title: Sales by Project Power BI Report
-    date: "2025-10-07"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-salesperson
     title: Sales by Salesperson Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-decomposition
     title: Sales Decomposition Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-demographics
     title: Sales Demographics Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-forecasting
     title: Sales Forecasting Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-kpis
     title: Sales KPIs and measures (Power BI)
-    date: "2026-03-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-month-to-date
     title: Sales Month-to-Date (MTD) Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-opportunity-overview
     title: Sales Opportunity Overview Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-overview
     title: Sales Overview Analysis Power BI Report
-    date: "2025-10-07"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-period-over-period-growth
     title: Sales Period-Over-Period Growth Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-quote-overview
     title: Sales Quote Overview Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-return-order-overview
     title: Sales Return Order Overview Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -288,28 +288,28 @@ narrative: generated
 
 # Power BI Sales app
 
-> The Power BI Sales app section covers the sales analytics app for Business Central: its role-based reports, the star-schema semantic model, and the KPI and measure definitions. It answers questions about what each report shows, which metrics it uses, and how the underlying data is structured.
+> Power BI Sales app in Business Central: the app's report catalog, the semantic model behind it, and the sales KPIs and measures. It answers questions about what each sales report shows, which metrics it uses, and who it is for.
 
 Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Power BI Sales app · tier official · system sales · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Power BI Sales app gives executives, sales managers and salespeople a set of reports on sales performance. The main app page lists the reports, such as Sales Overview, Period-Over-Period Growth, Month-To-Date, Sales by Salesperson, Actual vs. Budget and Sales by Item. Each report has its own page describing the audience, the metrics and what it helps decide.
+The Power BI Sales app gives sales analytics for executives, sales managers and salespeople. It is a set of reports built on Business Central sales data. The main page lists the reports, and each report has its own page that describes its metrics and intended audience.
 
-The reports fall into groups. Trend and growth: Daily Sales, Moving Annual Total, Moving Average, Period-Over-Period Growth, Month-to-Date and Sales Forecasting. Breakdowns: by customer, item, location, project, salesperson, and demographics. Customer retention, opportunity, quote and return order reports cover the rest, and the Key Sales Influencers and Sales Decomposition reports offer deeper analysis of what drives sales.
+The reports fall into a few groups. Overview and trend reports include Sales Overview, Daily Sales, Month-to-Date, Moving Annual Total, Moving Average, Period-Over-Period Growth and Sales Forecasting. Breakdown reports cover customer, item, location, project, salesperson and demographics. Other reports cover actual vs. budget, opportunities, quotes, return orders, and customer retention. Key Sales Influencers and Sales Decomposition use AI and a decomposition tree to explain what drives sales.
 
-Two reference pages support the reports. The semantic model page explains the star schema of fact and dimension tables. The KPIs and measures page gives formulas and data sources. Start with the app page to pick a report, then use the reference pages to understand a measure or the data behind it.
+Start with the Power BI Sales app page and the Sales Overview report. Then use the semantic model page to see how the data is structured, and the KPIs and measures page to see how metrics such as customer lifecycle, profitability and Pareto figures are calculated.
 
 ## Key points
 
-- The app page lists the role-based reports, including Sales Overview, Period-Over-Period Growth, Month-To-Date, Sales by Salesperson, Actual vs. Budget and Sales by Item.
-- Trend reports: Daily Sales, Moving Annual Total (rolling 12 months vs. previous period), Moving Average (30 days), and Period-Over-Period Growth by fiscal period.
-- Sales Forecasting predicts the next three months from historical data, by customer, document type, item and salesperson, with seasonality and confidence interval.
-- Breakdown reports cover customer, item, location, project, salesperson and demographics, using measures like Sales (LCY), Adjusted Cost (LCY), Adjusted Profit and Adjusted Profit Margin.
-- Customer Retention Overview and History track new, lost, returning and recovered customers over time and by location.
-- Opportunity Overview, Quote Overview and Return Order Overview cover pipelines, prospective sales and return rates and credits.
-- Key Sales Influencers uses AI (Key Influencers and Top Segments) and Sales Decomposition uses a decomposition tree to explain sales drivers.
-- The semantic model uses a star schema: fact tables (opportunities, sales orders, invoices, credit memos) and dimension tables (customers, items, projects, resources); the page lists 2025 release wave 2.
+- The app page lists reports including Sales Overview, Period-Over-Period Growth, Month-To-Date, Sales by Salesperson, Actual vs. Budget and Sales by Item.
+- The semantic model uses a Star Schema. Fact tables hold opportunities, sales orders, invoices and credit memos. Dimension tables hold customers, items, projects and resources.
+- Trend reports: Moving Annual Total gives a rolling 12-month total compared with the previous period. Moving Average uses a 30-day window. Period-Over-Period compares fiscal periods.
+- Sales Forecasting predicts the next three months from historical data. It can be split by customer, item, salesperson or document type, and it shows a confidence interval.
+- Breakdown reports (customer, item, location, salesperson) share metrics such as Sales (LCY), Adjusted Cost (LCY), Adjusted Profit (LCY) and Adjusted Profit Margin.
+- Customer Retention Overview and History track New, Lost, Returning and Recovered customers over time.
+- Sales Overview shows outstanding orders, shipped-not-invoiced orders, unposted invoices and top customers. Opportunity, Quote and Return Order reports cover the pipeline and returns.
+- The Sales KPIs and measures page documents how KPIs are calculated and which data they come from, including Pareto analysis, return rates and opportunity tracking.
 
 ## Learn pages
 

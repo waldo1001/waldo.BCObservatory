@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:13.086Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,8 +49,7 @@ links:
   topics:
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices
   localizations: []
-  videos:
-    - video/Q-oazDEucLE
+  videos: []
   posts:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-24-30-2026--fa7b3b0afa
     - post/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620
@@ -74,7 +73,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 1
+  video: 0
   blog: 3
   guideline: 0
 bc_forms: []
@@ -126,6 +125,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Weekly Review: Business Central AL Development – May 24–30, 2026](../../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-24-30-2026--fa7b3b0afa.md) (community post): "AL unit tests can run independently of the base app by structuring logic as a sub-extension"
 - [Your Tests All Pass. I Have Bad News.](../../../../../posts/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620.md) (community post): "mutation testing shows whether a test would notice that line breaking"
 - [AL Runner: Run AL Unit Tests Without a BC Service Tier](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b.md) (community post): "Test execution runs in seconds compared to 15-30 minute container-based pipelines"
-- [20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL](../../../../../videos/Q-oazDEucLE.md) (video): "Test-driven development with AI agents"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -35,14 +35,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5872
     title: BOM Cost Share Distribution (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000780
-    title: Capacity Task list (report)
-    date: "2024-10-23"
+    title: Capacity Task List Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -62,8 +62,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000756
-    title: Detailed Calculation (report)
-    date: "2024-10-23"
+    title: Detailed Calculation Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -83,15 +83,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5871
-    title: Item - Able to Make (Time) (report)
-    date: "2024-10-23"
+    title: Item - Able to Make (Timeline) (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000758
-    title: Item BOM Compare list (report)
-    date: "2024-11-04"
+    title: Item BOM Compare List (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -168,14 +168,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000767
     title: Prod. Order - Calculation (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000762
     title: Prod. Order - Job Card (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -238,7 +238,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000791
     title: Production Order Statistics (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -286,8 +286,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000787
-    title: Routing Sheet (report)
-    date: "2024-11-04"
+    title: Routing Sheet Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null

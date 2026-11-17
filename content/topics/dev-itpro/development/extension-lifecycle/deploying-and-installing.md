@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,6 +90,7 @@ links:
     - change/al-go/2376
     - change/bcapps/11065
     - change/bcapps/12626
+    - change/bcapps/13558
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -144,6 +145,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2376 fix: modified files with umlauts](../../../../changes/al-go/2376.md) (code change): "Incremental build detection now finds project and app paths that contain umlauts"
 - [#11065 Open installation status after AppSource install failure](../../../../changes/bcapps/11065.md) (code change): "Failed AppSource installations now display a prompt to open installation status"
 - [#12626 Fix AppSource product details opening in write transactions](../../../../changes/bcapps/12626.md) (code change): "Changed from Page.RunModal() to Page.Run() to avoid write transaction conflicts"
+- [#13558 Add logging table management during installation and upgrade processes](../../../../changes/bcapps/13558.md) (code change): "automatically exports logging tables during installation and upgrade"
 - [Mastering Business Central API for App Management](../../../../posts/aardvarklabs-blog/3998.md) (community post): "Install a .app through the pteInstall endpoint with a multipart form request carrying the file"
 - [Automate Business Central Extension Deployment with PowerShell and the Admin API](../../../../posts/aardvarklabs-blog/4023.md) (community post): "PowerShell automation script that deploys Business Central extensions to production"
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "Installing a PTE means choosing a deployment schedule and a sync mode"

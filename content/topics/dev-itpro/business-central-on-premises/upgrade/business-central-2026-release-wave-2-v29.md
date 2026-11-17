@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -63,6 +63,7 @@ links:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f
     - post/yzhums-com/76495
     - post/yzhums-com/77038
+    - post/yzhums-com/77124
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -75,7 +76,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 4
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: bb19bc24266d3770671d62d35bcd52382bc7b9188b90751e4908b857e79e74cb
@@ -120,5 +121,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How to Install Microsoft Dynamics 365 Business Central 29 On-Premises](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f.md) (community post): "Business Central 29 (2026 release wave 2) on-premises in a test or demonstration"
 - [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (October, 2026)](../../../../posts/yzhums-com/76495.md) (community post): "Cumulative Update October 2026 for Dynamics 365 Business Central release wave 2 version 29.0 is now available"
 - [Business Central 2026 release wave 2 (BC29): Custom Report Layouts are now deprecated and have been removed](../../../../posts/yzhums-com/77038.md) (community post): "Custom Report Layouts are now deprecated and have been removed"
+- [Business Central 2026 release wave 2 (BC29): New notification bar](../../../../posts/yzhums-com/77124.md) (community post): "BC29 (2026 release wave 2) has an undocumented New notification bar feature"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

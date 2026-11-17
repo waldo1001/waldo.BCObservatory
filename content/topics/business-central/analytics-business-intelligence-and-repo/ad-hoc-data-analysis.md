@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -123,6 +123,7 @@ links:
     - post/thedynamicsexplorer-com/9995
     - post/thinkaboutit-be/7503
     - post/thinkaboutit-be/7537
+    - post/thinkaboutit-be/7635
     - post/yzhums-com/62564
     - post/yzhums-com/65708
     - post/yzhums-com/69961
@@ -138,7 +139,7 @@ coverage:
   learn: 7
   code: 25
   video: 10
-  blog: 9
+  blog: 10
   guideline: 0
 bc_forms:
   - 16
@@ -214,6 +215,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics GP to Business Central – The Arrival of Smartlist Features via “Add Fields from Related Tables in Analysis Mode”](../../../posts/thedynamicsexplorer-com/9995.md) (community post): "Add fields from related tables in Analysis mode after activating it"
 - [How Do I: Analyze List Pages and Data Using Analysis Mode in Business Central](../../../posts/thinkaboutit-be/7503.md) (community post): "Analysis Mode is a built-in Business Central feature that lets users interactively explore list data"
 - [How Do I: Replace Reports with Analysis Mode in Business Central](../../../posts/thinkaboutit-be/7537.md) (community post): "Analysis Mode works best for answering questions rather than producing"
+- [Business Central Analytics: The Technology Is Not the Hard Part](../../../posts/thinkaboutit-be/7635.md) (community post): "Data Analysis mode, and APIs enable dashboards and insights"
 - [Business Central 2025 wave 1 (BC26.2): Add fields/columns from related tables in analysis mode (No customization)](../../../posts/yzhums-com/62564.md) (community post): "add fields from related tables directly in analysis mode without customization"
 - [Dynamics 365 Business Central: How to prevent users from adding fields/columns from related tables in analysis mode (Disable/Enable Add Related Fields)](../../../posts/yzhums-com/65708.md) (community post): "Analysis mode allows users to add fields from related tables for advanced data analysis"
 - [Dynamics 365 Business Central: Comparing Years (Year-Over-Year) in Analysis Mode: A Simple 4-Step Guide](../../../posts/yzhums-com/69961.md) (community post): "Analysis Mode allows users to create pivot tables and analysis views on list pages"

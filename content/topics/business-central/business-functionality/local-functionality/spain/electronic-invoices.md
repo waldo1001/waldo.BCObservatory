@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:02:51.177Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,7 +42,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/receivables-cartera-module
     title: Receivables Cartera Module in the Spanish Version [ES]
-    date: "2026-10-20"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null

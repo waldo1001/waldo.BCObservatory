@@ -1,38 +1,24 @@
 {
   "hub_id": "topic/business-central/business-functionality/sales/sales-analytics/legacy-reports-will-be-removed",
-  "input_hash": "45d3ab70abe103c317eb8c6df449f0830effd7c5c5f372476181291ca3d5a568",
-  "summary": "Legacy sales analytics reports in Business Central that are marked for removal: Customer - Sales list, Customer - Top 10 list, Customer List, Sales Reservation Avail., and Sales Statistics. Use it to find what each report shows, which filters it offers, and what it is used for.",
-  "overview": "This section holds reference pages for five older reports under Sales analytics. The section title says they will be removed, so treat them as existing functionality that may not be available later.\n\nThree reports cover customers. Customer List shows basic customer data such as posting groups, discount groups, finance charge and payment details. Customer - Sales list shows sales per customer for a period in local currency. Customer - Top 10 list ranks customers by sales and balance and can show the result as a bar or pie chart. The other two cover sales documents and results. Sales Reservation Avail. shows whether items can be shipped given inventory reservations. Sales Statistics shows sales, profit, discounts and profit percentage per customer over three selectable periods.\n\nThere are no subtopics. Each page describes one report, so start with the page that matches the question: customer master data, period sales, ranking, shipment availability or profit.",
+  "input_hash": "496e1eebf98391ba92d34c4184e3c9cdbf54c7ec1e7474aaf3d13943a4b671cb",
+  "summary": "Legacy sales analytics reports in Business Central that are slated for removal: Customer - Sales list, Customer - Top 10 List, Customer List, Sales Reservation Avail., and Sales Statistics. It answers questions about what each report shows, its filters, and which one is already obsolete.",
+  "overview": "This section collects five older sales reports that Learn lists under Sales analytics with the note that they will be removed. They cover customer sales over a period, customer rankings, basic customer data, item availability for sales orders, and per-customer sales and profit.\n\nThe pages are independent report descriptions with no subtopics. Read the page for the report you use to see its purpose and filters. If you rely on the Customer - Top 10 List report, note that it was marked obsolete in version 28 and the page points to Customer Top List Excel (report) as the replacement.",
   "key_points": [
-    "Customer - Sales list shows customer sales for a period in local currency, can filter by a minimum sales amount, and can include address details.",
-    "Customer - Top 10 list ranks top customers by sales transactions and balances within a period, with bar or pie chart output.",
-    "Customer List shows posting groups, discount groups, finance charge and payment information, for maintaining customer data and preparing account summaries or sales reports.",
-    "Sales Reservation Avail. shows item availability for shipment on sales documents based on inventory reservations; when printed it allows updating quantities to ship.",
-    "Sales Reservation Avail. helps decide which sales orders to fulfill based on inventory.",
+    "Customer - Sales list shows customer sales for a period in local currency, with a minimum sales amount filter and optional address details.",
+    "Customer - Top 10 List ranks customers by Sales (LCY) or Balance (LCY), with Date Filter, Number of Customers, and bar or pie chart views.",
+    "Customer - Top 10 List was marked obsolete in version 28; use Customer Top List Excel (report) instead.",
+    "Customer List shows basic customer data: posting groups, discount groups, finance charge and payment information.",
+    "Sales Reservation Avail. shows item availability for shipment on sales documents based on inventory reservations, and lets you update quantities to ship when printed.",
     "Sales Statistics shows sales amounts, profit, invoice and payment discounts, and profit percentage per customer across three selectable periods.",
-    "Sales Statistics shows original and adjusted costs and profits, reflecting item cost changes.",
-    "All five reports are listed as legacy and will be removed."
+    "Sales Statistics shows original and adjusted costs and profits, reflecting item cost changes."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:04:53.667Z",
+  "at": "2026-11-17T01:00:08.065Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.012413
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:24:32.865Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: key points 4 and 5 both describe Sales Reservation Avail. and could be merged into one point.",
-      "Minor: the summary sentence 'Use it to find...' does not make clear that 'it' means the section rather than one report. It is still understandable.",
-      "Minor: the overview sentence 'There are no subtopics' is accurate but adds little for an agent."
-    ],
-    "input_hash": "45d3ab70abe103c317eb8c6df449f0830effd7c5c5f372476181291ca3d5a568",
-    "cost_usd": 0.0344712
+    "cost_usd": 0.011581
   }
 }

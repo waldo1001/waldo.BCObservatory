@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,8 +48,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1013
-    title: Items per Project (report)
-    date: "2024-10-23"
+    title: Item Usage per Project (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -98,14 +98,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1009
     title: Project Actual to Budget (report)
-    date: "2024-10-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1008
-    title: Project Analysis (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -113,6 +106,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview
     title: Project analytics
     date: "2024-11-11"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1008
+    title: Project Financial Analysis (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -152,13 +152,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1014
-    title: Project per Item (report)
-    date: "2024-10-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-performance-to-budget
     title: Project Performance to Budget Power BI Report
     date: "2026-11-12"
@@ -168,7 +161,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1006
     title: Project Planning Lines (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -203,14 +196,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1011
     title: Project Suggested Billing (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1007
     title: Project Task Transaction Detail (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -229,23 +222,30 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1014
+    title: Project Usage per Item (report)
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1010
-    title: Project WIP to G/L (report)
-    date: "2024-10-23"
+    title: Project WIP to G/L Reconciliation (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-kpis
     title: Projects KPIs and Measures (Power BI)
-    date: "2025-09-25"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1012
-    title: Projects per Customer (report)
-    date: "2024-10-23"
+    title: Projects per Customer (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -266,35 +266,35 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1107
     title: Resource - Cost Breakdown (report)
-    date: "2025-02-18"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1101
-    title: Resource – List (report)
-    date: "2025-02-18"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1103
-    title: Resource Register (report)
-    date: "2025-02-18"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1105
-    title: Resource Statistics (report)
-    date: "2025-02-18"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1106
-    title: Resource Utilization (report)
-    date: "2025-02-18"
+    title: Resource Capacity and Utilization (report)
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1101
+    title: Resource List and Setup (report)
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1103
+    title: Resource Register Entries (report)
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1105
+    title: Resource Usage and Sales Statistics (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null

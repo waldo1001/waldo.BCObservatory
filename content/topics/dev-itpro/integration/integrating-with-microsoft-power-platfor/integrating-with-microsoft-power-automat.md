@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.316Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -71,6 +71,7 @@ links:
     - post/aardvarklabs-blog/3579
     - post/aardvarklabs-blog/3631
     - post/aardvarklabs-blog/3704
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38
     - post/yzhums-com/61951
     - post/yzhums-com/63749
     - post/yzhums-com/63762
@@ -86,7 +87,7 @@ coverage:
   learn: 5
   code: 0
   video: 1
-  blog: 6
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: d83985e3f53052e05e48c65c878b806990be809f7b8b581f42a7ef7809a3e59f
@@ -130,6 +131,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Creating a Low-Cost RFID System with Business Central and Power Automate](../../../../posts/aardvarklabs-blog/3579.md) (community post): "Building a low-cost RFID scan-in and scan-out system using an ESP32 microcontroller, PN532 RFID reader, Power Automate"
 - [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Use Power Automate to retrieve SFTP files and post them to Business Central via the API"
 - [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "Power Automate listens for the business event, retrieves the file and metadata from the staging table, uploads to SFTP"
+- [Weekly Review: Business Central AL Development – June 7–13, 2026](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38.md) (community post): "Low-cost RFID integration is feasible using an ESP32 reader, Power Automate HTTP trigger"
 - [Dynamics 365 Business Central: How to disable/hide Power Automate action group for all users](../../../../posts/yzhums-com/61951.md) (community post): "Disable the Power Automate action group for all Business Central users by marking"
 - [Dynamics 365 Business Central Blog Series: Integrate Business Central with OneDrive](../../../../posts/yzhums-com/63749.md) (community post): "Power Automate offers no-code solutions to synchronize files and data between OneDrive and Business Central"
 - [Dynamics 365 Business Central Blog Series: Import and Export data](../../../../posts/yzhums-com/63762.md) (community post): "Power Automate flows allow no-code data transfer between Business Central, CSV files, Google Sheets, and OneDrive"

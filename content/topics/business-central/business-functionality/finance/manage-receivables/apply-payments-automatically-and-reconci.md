@@ -2,61 +2,61 @@
 id: topic/business-central/business-functionality/finance/manage-receivables/apply-payments-automatically-and-reconci
 type: topic
 title: Apply payments automatically and reconcile bank accounts
-summary: "Payment reconciliation in Business Central: importing bank statements or bank feeds, automatically applying payments to open customer and vendor entries, setting matching rules, handling recurring payments with Text-to-Account mapping, and resolving leftovers manually. It answers how-to questions about the Payment Reconciliation Journal and bank reconciliation."
+summary: Automatic payment application and bank reconciliation in Business Central's Payment Reconciliation Journal. It answers questions about matching bank statement lines to open customer, vendor, and bank ledger entries, setting matching rules, mapping recurring text to accounts, and fixing matches manually.
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:22:54.616Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-01T00:45:11.847Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: cea8e8dbca986b6d27f4050960cc6134b3da9a751dfb46696b1f7f59afd533ef
+  input_hash: cd1f5afba2e75889b55a7b06a6e1ac21f9f02ad79a6446317970375291bab8c2
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts
     title: Reconcile bank accounts and apply payments
-    date: "2024-07-25"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-auto-application
     title: Reconcile payments using automatic application
-    date: "2024-06-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-review-apply-payments-auto-application
     title: Review and apply payments manually after automatic application
-    date: "2026-09-07"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-set-up-payment-application-rules
     title: Rules for automatic application of payments
-    date: "2024-06-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation
     title: Setting up Text-to-Account mapping for recurring payments
-    date: "2024-03-06"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-cannot-apply-auto
     title: Using the transfer difference to account feature to reconcile payments
-    date: "2024-07-08"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -117,36 +117,36 @@ narrative: generated
 
 # Apply payments automatically and reconcile bank accounts
 
-> Payment reconciliation in Business Central: importing bank statements or bank feeds, automatically applying payments to open customer and vendor entries, setting matching rules, handling recurring payments with Text-to-Account mapping, and resolving leftovers manually. It answers how-to questions about the Payment Reconciliation Journal and bank reconciliation.
+> Automatic payment application and bank reconciliation in Business Central's Payment Reconciliation Journal. It answers questions about matching bank statement lines to open customer, vendor, and bank ledger entries, setting matching rules, mapping recurring text to accounts, and fixing matches manually.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage receivables](../manage-receivables.md) > Apply payments automatically and reconcile bank accounts · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage receivables](../manage-receivables.md) > Apply payments automatically and reconcile bank accounts · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how to match bank transactions to open invoices and reconcile bank accounts using the Payment Reconciliation Journal. You import a bank statement or use a bank feed. Business Central then applies payments automatically to open customer and vendor entries, using matching rules and a match confidence level.
+This section covers how Business Central reconciles bank accounts and applies payments with little manual work. The Payment Reconciliation Journal imports bank statement lines (for example through a bank feed) and matches payment text to open customer or vendor ledger entries. You can review the proposed changes before posting.
 
-Two pages give the overall process and the automatic application steps. The rules page explains how to set matching criteria, such as document number, related party and amount tolerance, along with priority sorting and confidence levels. The Text-to-Account page covers automatic posting of recurring payments to specified accounts when match confidence is Low or Medium. Two more pages cover what to do when automatic application is not enough. You can review and reapply payments on the Payment Application page, or use Transfer Difference to Account for payments that have no matching document or have amount differences.
+The pages build on each other. Start with the general page on reconciling bank accounts and applying payments, then read the page on automatic application for the matching flow and Match Confidence levels. The rules page explains how matching is governed by related party information, document numbers, and amount tolerance. Text-to-Account mapping handles recurring items such as bank fees and interest, which are posted to an account instead of being applied to open entries.
 
-Start with "Reconcile bank accounts and apply payments" for the overview, then "Reconcile payments using automatic application" for the working steps. Read the rules page if matches are wrong or missing.
+For lines that automatic matching gets wrong or cannot match, two pages cover the fallback. The Payment Application page lets you correct matches or split a payment across several open entries. The transfer difference to account feature posts any unapplied amount directly to a chosen account.
 
 ## Key points
 
-- Payments are reconciled on the Payment Reconciliation Journal, after a bank statement import or bank feed.
-- Automatic application matches payments to open customer and vendor entries and assigns a match confidence.
-- Payment application rules set matching criteria: document number, related party, amount tolerance, with priority sorting and confidence levels.
-- Text-to-Account mapping posts recurring payments directly to debit and credit accounts when match confidence is Low or Medium.
-- The Payment Application page lets you review automatic results and manually apply or reapply payments, including split payments.
-- Manual application accounts for currency conversion, payment discounts, and a candidate lookback days parameter.
-- Transfer Difference to Account handles payments with no matching document or with amount differences.
+- The Payment Reconciliation Journal matches bank statement transactions to open customer, vendor, and bank account ledger entries, and you can review the result before posting.
+- Bank statement lines can be imported, including through a bank feed, as the starting point for reconciliation.
+- Match Confidence levels show how reliable each automatic match is.
+- Application rules set priority order and matching criteria: related party, document numbers, and amount tolerance. They also set review requirements.
+- Text-to-Account mapping posts recurring payments, such as bank fees and interest, to a specified account without applying them to open entries. A balancing account can be specified.
+- On the Payment Application page, use Apply Manually to fix a match or split a payment. Use Accept Application to confirm a match. The page has Applied Amount and Match Confidence fields and a Candidate Lookback (Days) setting.
+- Transfer Difference to Account posts an unapplied amount to a chosen account. You set Account Type, Account No., and Description for it.
 
 ## Learn pages
 
 - [Reconcile bank accounts and apply payments](https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts): Outlines tasks to reconcile your bank, receivables, and payables accounts, post cash receipts or expenses, and apply payments automatically.
   - In the observatory: [Page 1252 "Payment Application Rules"](../../../../../objects/page/1252.md), [Page 379 "Bank Acc. Reconciliation"](../../../../../objects/page/379.md)
 - [Reconcile payments using automatic application](https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-auto-application): Describes how to reconcile payments using automatic application to apply payments or cash receipts to related open entries.
-  - In the observatory: [Page 1282 "Payment Bank Account List"](../../../../../objects/page/1282.md), [Page 1292 "Payment Application"](../../../../../objects/page/1292.md), [Page 1298 "Bank Statement Filter"](../../../../../objects/page/1298.md)
+  - In the observatory: [Page 1252 "Payment Application Rules"](../../../../../objects/page/1252.md), [Page 1282 "Payment Bank Account List"](../../../../../objects/page/1282.md), [Page 1292 "Payment Application"](../../../../../objects/page/1292.md), [Page 1298 "Bank Statement Filter"](../../../../../objects/page/1298.md), [Report 1407 "Bank Account Statement"](../../../../../objects/report/1407.md)
 - [Review and apply payments manually after automatic application](https://learn.microsoft.com/dynamics365/business-central/receivables-how-review-apply-payments-auto-application): After payments are applied automatically, you can review all the entries for a payment and manually reapply those that were applied incorrectly.
-  - In the observatory: [Page 1253 "Payment Application Settings"](../../../../../objects/page/1253.md), [Page 1292 "Payment Application"](../../../../../objects/page/1292.md)
+  - In the observatory: [Page 1253 "Payment Application Settings"](../../../../../objects/page/1253.md), [Page 1292 "Payment Application"](../../../../../objects/page/1292.md), [Page 25 "Customer Ledger Entries"](../../../../../objects/page/25.md), [Page 29 "Vendor Ledger Entries"](../../../../../objects/page/29.md)
 - [Rules for automatic application of payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-set-up-payment-application-rules): Read about how to set Up Rules for the Automatic Application of Payments on the Payment Application Rules page.
   - In the observatory: [Page 1252 "Payment Application Rules"](../../../../../objects/page/1252.md)
 - [Setting up Text-to-Account mapping for recurring payments](https://learn.microsoft.com/dynamics365/business-central/receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation): Link text on payments with specific accounts, so that payments are posted to the accounts when you post the payment reconciliation journal.

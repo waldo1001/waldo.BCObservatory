@@ -8,10 +8,9 @@
   ],
   "summary": "Fixed a bug in electronic payments export where a missing email address for one vendor could incorrectly clear the Document No. field for another vendor.",
   "key_points": [
-    "Corrected logic in Bulk Vendor Remit Reporting to isolate vendor-specific validation issues",
-    "Missing email for one vendor no longer affects payment details of other vendors",
-    "Added test coverage to verify the fix and prevent regression",
-    "Electronic payments export now handles multiple vendors correctly"
+    "Fixes Export Electronic Payments so a missing email for one vendor no longer clears another vendor's Document No.",
+    "Change is in the NA Bulk Vendor Remit Reporting codeunit",
+    "Adds tests in ERM Electronic Funds Transfer"
   ],
   "change_kind": "fix",
   "behavior_change": true,

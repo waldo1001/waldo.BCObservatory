@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.013863
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-17T01:01:05.138Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: key point 1 says releases are 'organized into release waves'. The landing page lists release waves as a topic, so this is a reasonable reading but it adds a little to the source wording.",
+      "Minor: the overview says the landing page 'shows rollout status for versions such as 28.4, 28.5, 29.0 and 29.1'. The source says the page helps 'track rollout progress' and lists those versions, so the claim holds, but the exact rollout details are not in the summaries.",
+      "Minor: the 29.1 key points list features but leave out the expense agent and Copilot themes. Those themes appear in the overview, so this is acceptable."
+    ],
+    "input_hash": "065369700d5d66aadef06a19c686eee99a7b2649885ea4f297f86778432ed822",
+    "cost_usd": 0.040048
   }
 }

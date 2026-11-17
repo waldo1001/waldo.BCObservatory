@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/14118",
+  "input_hash": "d1ef05831ddde38825dd312b51b38bc527bc0549ad1eea7b56df3b092dae8dde",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-17T00:58:47.718Z",
+  "issues": [
+    "The page matches the description. Keeping the selected index after a refresh may be a small UI behavior change, but the author calls it a low-risk refactor, so false is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024681,
+    "changes_in_call": 6
+  }
+}

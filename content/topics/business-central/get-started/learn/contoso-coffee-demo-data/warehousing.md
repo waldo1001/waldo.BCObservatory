@@ -11,48 +11,48 @@ review:
   at: "2026-10-07T02:26:17.872Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
   input_hash: b786e8a1c4c8db4fa66e3ced32b54b91f0df541e466dba93233eb541ac5ebf8b
 evidence:
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro
-    title: Introduction to Contoso Coffee
-    date: "2022-04-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick
-    title: Receiving, Puting-away, Picking and Shipping in Basic Warehouse Configuration
-    date: "2024-02-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship
-    title: Receiving, puting-away, picking, and shipping in a mixed warehouse configuration
-    date: "2025-04-30"
+    title: "Contoso Coffee: Basic Warehouse Flow Walkthrough"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-directed-flow
-    title: Receiving, putting-away, moving, picking and shipping in advanced warehouse configuration
-    date: "2023-12-07"
+    title: "Contoso Coffee: Directed Warehouse Flow Walkthrough"
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship
+    title: "Contoso Coffee: Mixed Warehouse Flow Walkthrough"
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro
+    title: Introduction to Contoso Coffee Warehousing
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick
-    - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-directed-flow
+    - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship
+    - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro
   objects:
-    - object/page/4764
+    - object/page/4766
   features: []
   topics:
     - topic/business-central/get-started/learn/contoso-coffee-demo-data
@@ -75,7 +75,7 @@ coverage:
   blog: 0
   guideline: 0
 bc_forms:
-  - 4764
+  - 4766
 member_hash: e3b461b25ae1bc1a4bffc030efdee2744331894d0b5e9515c3823bc362a5ac09
 narrative: generated
 ---
@@ -106,19 +106,19 @@ Start with the introduction to see which location fits your scenario, then open 
 
 ## Learn pages
 
-- [Introduction to Contoso Coffee](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro): Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the warehousing capabilities in Business Central.
-  - In the observatory: [Page 5194 "Contoso Demo Tool"](../../../../../objects/page/5194.md)
-- [Receiving, Puting-away, Picking and Shipping in Basic Warehouse Configuration](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick): In Business Central, the inbound and outbound processes can be performed in different ways depending on the warehouse complexity level.
+- [Contoso Coffee: Basic Warehouse Flow Walkthrough](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick): Learn to receive, put away, pick, and ship Contoso Coffee items with inventory documents in a basic warehouse configuration in Business Central.
   - In the observatory: [Page 36957 "Locations"](../../../../../objects/page/36957.md), [Page 48 "Sales Orders"](../../../../../objects/page/48.md), [Page 56 "Purchase Orders"](../../../../../objects/page/56.md), [Page 7328 "Warehouse Employees"](../../../../../objects/page/7328.md), [Page 7390 "Posted Invt. Put-away"](../../../../../objects/page/7390.md), [Page 7392 "Posted Invt. Pick"](../../../../../objects/page/7392.md)
-- [Receiving, puting-away, picking, and shipping in a mixed warehouse configuration](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship): In Business Central, the inbound and outbound processes can be done in different ways depending on the warehouse complexity level.
-  - In the observatory: [Page 36957 "Locations"](../../../../../objects/page/36957.md), [Page 48 "Sales Orders"](../../../../../objects/page/48.md), [Page 56 "Purchase Orders"](../../../../../objects/page/56.md), [Page 7328 "Warehouse Employees"](../../../../../objects/page/7328.md), [Page 7332 "Warehouse Receipts"](../../../../../objects/page/7332.md), [Page 9313 "Warehouse Picks"](../../../../../objects/page/9313.md)
-- [Receiving, putting-away, moving, picking and shipping in advanced warehouse configuration](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-directed-flow): Inbound and outbound processes can be performed in different ways depending on the warehouse complexity level.
+- [Contoso Coffee: Directed Warehouse Flow Walkthrough](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-directed-flow): Practice receiving, cross-docking, bin replenishment, picking, and shipping Contoso Coffee items with directed put-away and pick in Business Central.
   - In the observatory: [Page 48 "Sales Orders"](../../../../../objects/page/48.md), [Page 56 "Purchase Orders"](../../../../../objects/page/56.md), [Page 5768 "Warehouse Receipt"](../../../../../objects/page/5768.md), [Page 5770 "Warehouse Put-away"](../../../../../objects/page/5770.md), [Page 7335 "Warehouse Shipment"](../../../../../objects/page/7335.md), [Page 7374 "Bin Contents"](../../../../../objects/page/7374.md)
+- [Contoso Coffee: Mixed Warehouse Flow Walkthrough](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship): Practice receiving Contoso Coffee items with warehouse receipts, then picking and shipping combined sales orders in a mixed warehouse configuration.
+  - In the observatory: [Page 36957 "Locations"](../../../../../objects/page/36957.md), [Page 48 "Sales Orders"](../../../../../objects/page/48.md), [Page 56 "Purchase Orders"](../../../../../objects/page/56.md), [Page 7328 "Warehouse Employees"](../../../../../objects/page/7328.md), [Page 7332 "Warehouse Receipts"](../../../../../objects/page/7332.md), [Page 9313 "Warehouse Picks"](../../../../../objects/page/9313.md)
+- [Introduction to Contoso Coffee Warehousing](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro): Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the warehousing capabilities in Business Central.
+  - In the observatory: [Page 5194 "Contoso Demo Tool"](../../../../../objects/page/5194.md)
 
 ## Business Central pages and reports
 
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
-- [Page 4764 "Jobs Module Setup"](../../../../../objects/page/4764.md) · captioned "Contoso Coffee Project Demo Data" · on [Table 4771 "Jobs Module Setup"](../../../../../objects/table/4771.md)
+- [Page 4766 "Warehouse Module Setup"](../../../../../objects/page/4766.md) · on [Table 4764 "Warehouse Module Setup"](../../../../../objects/table/4764.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

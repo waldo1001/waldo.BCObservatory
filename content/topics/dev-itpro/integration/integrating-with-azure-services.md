@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:15.779Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -65,7 +65,8 @@ links:
   topics:
     - topic/dev-itpro/integration
   localizations: []
-  videos: []
+  videos:
+    - video/oN0XfuCe6Qg
   posts:
     - post/demiliani-com/11817
     - post/demiliani-com/11887
@@ -89,7 +90,7 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 0
+  video: 1
   blog: 9
   guideline: 0
 bc_forms: []
@@ -164,5 +165,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Calling Business Central APIs Without a Client Secret](../../../posts/jpearson-blog/1485.md) (community post): "Managed identities assigned to Azure resources can obtain access tokens without needing client secrets"
 - [Calling Business Central Directly from a Managed Identity](../../../posts/jpearson-blog/1535.md) (community post): "Managed identities can be granted Business Central API permissions directly via PowerShell without requiring federated credentials"
 - [Integration with Azure Static Web Apps from Business Central](../../../posts/jpearson-blog/1601.md) (community post): "Integration with Azure Static Web Apps from Business Central using the WebPageViewer control add-in"
+- [What's Cooking in Business Central: External File Storage Module](../../../videos/oN0XfuCe6Qg.md) (video): "external file storage; api; azure blob storage; file accounts; file scenarios; al development"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

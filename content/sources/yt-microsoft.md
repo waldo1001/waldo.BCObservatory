@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T00:19:27.268Z"
+  at: "2026-11-17T00:16:35.786Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9ac4704aaf3fd4174ba3aeb9c81a81de415d1e0dea116ac158f5ed930120fb0f
@@ -48,7 +48,6 @@ links:
     - feature/573313
     - feature/573314
     - feature/573315
-    - feature/573316
     - feature/573317
     - feature/573318
     - feature/573319
@@ -711,7 +710,7 @@ footprint:
       weight: 3
   features:
     - id: feature/573255
-      weight: 6
+      weight: 5
     - id: feature/577820
       weight: 5
     - id: feature/573254
@@ -722,13 +721,13 @@ footprint:
       weight: 3
     - id: feature/573362
       weight: 3
+    - id: feature/578065
+      weight: 3
     - id: feature/573256
       weight: 2
     - id: feature/573257
       weight: 2
     - id: feature/573259
-      weight: 2
-    - id: feature/573260
       weight: 2
 first_item: "2023-10-23"
 last_item: "2026-10-29"
@@ -777,15 +776,15 @@ Items per quarter, oldest first:
 
 ## Roadmap features it demonstrates
 
-- [AI-Driven Approvals](../features/573255.md): Expense Agent, in preview, GA 2026-12, 6 videos
+- [AI-Driven Approvals](../features/573255.md): Expense Agent, in preview, GA 2026-12, 5 videos
 - [Use AI resources for your Copilot extensions](../features/577820.md): Copilot and agents, in preview, GA 2027-04, 5 videos
 - [Add date ranges and vehicle types in your mileage calculation](../features/573254.md): Expense Agent, in preview, GA 2026-10, 3 videos
 - [Control the lifecycle of all report layouts](../features/573320.md): Reporting and data analysis, generally available, GA 2026-10, 3 videos
 - [Enable Microsoft Copilot chat experience](../features/573362.md): Copilot and agents, generally available, GA 2026-10, 3 videos
 - [Expense Agent mobile app](../features/573265.md): generally available, GA 2026-10, 3 videos
+- [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md): Copilot and agents, generally available, GA 2026-07, 3 videos
 - [Actions on reports and pages can now inherit tooltips](../features/573313.md): Development, generally available, GA 2026-10, 2 videos
 - [Add an interim approver when you submit an expense report](../features/573260.md): Expense Agent, in preview, GA 2026-11, 2 videos
-- [AL developers can turn indexes on/off in AL code.](../features/573314.md): Development, generally available, GA 2026-10, 2 videos
 - [Audit AL app accessibility and debugging boundaries](../features/573336.md): Development, generally available, GA 2026-10, 2 videos
 - [Automate report outputs](../features/573318.md): Reporting and data analysis, generally available, GA 2026-10, 2 videos
 - [Build extensible and data-driven AL test suites](../features/573333.md): Development, generally available, GA 2026-10, 2 videos
@@ -799,7 +798,7 @@ Items per quarter, oldest first:
 - [Enable electronic invoicing in France](../features/576832.md): Country and regional, generally available, GA 2026-08, 2 videos
 - [Profile slow Business Central sessions with AI agents](../features/573335.md): Development, generally available, GA 2026-10, 2 videos
 - [Run data queries with MCP Server](../features/573312.md): Copilot and agents, generally available, GA 2026-10, 2 videos
-- [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md): Copilot and agents, generally available, GA 2026-07, 2 videos
+- [Try Payables Agent for free without setting up email](../features/576776.md): Copilot and agents, generally available, GA 2026-07, 2 videos
 - [Unlock more Business Central data with MCP server enhancements](../features/576789.md): Copilot and agents, generally available, GA 2026-06, 2 videos
 - [Use AL language intelligence from AI agents and other editors](../features/573338.md): Development, generally available, GA 2026-10, 2 videos
 - [Use assigned projects only in the web app](../features/573259.md): Expense Agent, in preview, GA 2026-12, 2 videos
@@ -811,8 +810,8 @@ Items per quarter, oldest first:
 - [Use system audit fields in analysis mode and in profiles](../features/573322.md): Reporting and data analysis, generally available, GA 2026-10, 2 videos
 - [[US] Match Shopify tax lines to tax jurisdictions](../features/574128.md): Ecommerce, in preview, GA 2027-04, 1 video
 - [Add EUDR certification information](../features/573251.md): Sustainability Management, announced, GA 2026-11, 1 video
-- [Administrators can turn SIFT indexes on/off](../features/573316.md): Governance and administration, generally available, GA 2026-10, 1 video
 - [Agent actions review notifications on lists](../features/573369.md): User experiences, generally available, GA 2026-10, 1 video
+- [AL developers can turn indexes on/off in AL code.](../features/573314.md): Development, generally available, GA 2026-10, 1 video
 - [Bookmark list views and analysis tabs](../features/573319.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Brand document reports with report themes](../features/573327.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Calculate and report VAT based on expense reports](../features/573262.md): Expense Agent, in preview, GA 2026-12, 1 video
@@ -850,7 +849,6 @@ Items per quarter, oldest first:
 - [Track your carbon footprint for fixed assets](../features/573377.md): Sustainability Management, generally available, GA 2026-10, 1 video
 - [Track your carbon footprint with item journals and item reclassification journals](../features/573378.md): Sustainability Management, generally available, GA 2026-10, 1 video
 - [Translate objects with the same name in different namespaces](../features/573359.md): Development, generally available, GA 2026-10, 1 video
-- [Try Payables Agent for free without setting up email](../features/576776.md): Copilot and agents, generally available, GA 2026-07, 1 video
 - [Upload, install, and manage PTEs in the admin center](../features/576815.md): Governance and administration, generally available, GA 2026-07, 1 video
 - [Use conditional visibility in the updated Word add-in](../features/573329.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Use formulas to calculate emissions in purchase documents](../features/573374.md): Sustainability Management, generally available, GA 2026-10, 1 video

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/aardvarklabs-blog/1826
+    - post/aardvarklabs-blog/2202
     - post/aardvarklabs-blog/2204
     - post/aardvarklabs-blog/2603
     - post/aardvarklabs-blog/2838
@@ -155,7 +155,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12051 [Peppol] Fix Remittance Advice XML line count, Note order and invoice reference](../../../../../changes/bcapps/12051.md) (code change): "Peppol remittance advice XML export now correctly reports"
 - [#12309 Fix infinite recursion in Config. Package Field XML name generation](../../../../../changes/bcapps/12309.md) (code change): "Prevents stack overflow when adding tables to Configuration Packages"
 - [#9073 Data Exchange Definition export performance improvement](../../../../../changes/bcapps/9073.md) (code change): "Data Exchange Definition exports now use in-memory mapping with bulk saves"
-- [How to Work with JSON in Business Central’s AL Code](../../../../../posts/aardvarklabs-blog/1826.md) (community post): "Export records by building JsonObject and JsonArray structures"
+- [Step by Step Guide to Importing Excel Data into Business Central](../../../../../posts/aardvarklabs-blog/2202.md) (community post): "Leverage the Excel Buffer record and File Management codeunit to read Excel files"
 - [Best Practices for Handling Delimited Data Imports into Business Central](../../../../../posts/aardvarklabs-blog/2204.md) (community post): "import comma-separated values CSV customer data into Business Central by parsing delimited files"
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../../../posts/aardvarklabs-blog/2603.md) (community post): "demonstrates how to parse and import delimited files containing header and detail records"
 - [Importing Multi-Tab Excel Files into Business Central](../../../../../posts/aardvarklabs-blog/2838.md) (community post): "import multi-tab Excel files into Business Central with header line"

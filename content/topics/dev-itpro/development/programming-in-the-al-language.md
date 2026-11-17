@@ -12,7 +12,7 @@ review:
   at: "2026-11-15T00:50:59.680Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -287,7 +287,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
     title: Available Fonts in Business Central
-    date: "2025-02-28"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null

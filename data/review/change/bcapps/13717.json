@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/13717",
+  "input_hash": "9d46a296edf2782536208277e1070608828643d513d3790633aabc8546b042fb",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-17T00:58:47.718Z",
+  "issues": [
+    "The description is only the title. Key point 1 claims an unsupported mechanism ('isolate vendor-specific validation issues'), so the key points are trimmed to what the title and changed files support."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024681,
+    "changes_in_call": 6
+  }
+}

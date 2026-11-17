@@ -12,26 +12,12 @@ review:
   at: "2026-10-07T02:17:11.266Z"
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
   input_hash: 7904aae3e0e596d47f467342088f784f29b85e18b9bba9f5ac08bf153a6cbb2f
 evidence:
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-915
-    title: About Assemble to order - Sales (report)
-    date: "2024-10-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-811
-    title: About the BOM - Sub-Assemblies (report)
-    date: "2024-10-23"
-    commit: null
-    t: null
-    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-assemble-items
     title: Assemble Items
@@ -40,16 +26,30 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-915
+    title: Assemble to Order - Sales (report)
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-812
     title: Assembly BOM - End Items (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-811
+    title: Assembly BOM - Sub-Assemblies (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-801
-    title: Assembly BOMs (report)
-    date: "2024-10-23"
+    title: Assembly BOMs Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -69,15 +69,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-810
-    title: BOM - Raw Materials (report)
-    date: "2024-10-23"
+    title: BOM - Raw Materials Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5872
     title: BOM Cost Share Distribution (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -97,8 +97,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5871
-    title: Item - Able to Make (Time) (report)
-    date: "2024-10-23"
+    title: Item - Able to Make (Timeline) (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -146,8 +146,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-809
-    title: Where-used list (report)
-    date: "2024-10-23"
+    title: Where-Used List Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null

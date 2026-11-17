@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T00:48:52.213Z"
+  at: "2026-11-17T00:48:58.898Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f1efcbb17d2bd6da5dc803bd44fa2ceab825687ded6591fd702e15a0b6bd5a88
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralforIWs.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralforIWs.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralforIWs.Entitlement.al (releases/29.x)
     date: null
-    commit: 9d65b5414f44cbad5890049a1e0490a64118ffdb
+    commit: ae251bc67417b1b37b41aaf52480e6a5c8f9294e
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Entitlement "EA - Dynamics 365 Business Central for IWs" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 9d65b541](https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralforIWs.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at ae251bc6](https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralforIWs.Entitlement.al) · facts from BC29
 
 ## Recent changes
 

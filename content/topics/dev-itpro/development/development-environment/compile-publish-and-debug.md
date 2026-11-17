@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:02:03.556Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -192,6 +192,6 @@ Other pages cover build and deployment settings: compilation scope (OnPrem or Cl
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12320 Fix 409 conflict in APIV2 Company Info E2E description test](../../../../changes/bcapps/12320.md) (code change): "Fixed 409 conflict errors in APIV2 Company Info E2E tests"
-- [What's New: Developer Tools (2024 release wave 1)](../../../../videos/tzeO0mc8RJo.md) (video): "AL tool; pipelines; object extensions; debugger upgrade"
+- [What's New: Developer Tools (2024 release wave 1)](../../../../videos/tzeO0mc8RJo.md) (video): "AL language extension debugger upgrade; System application debugging; AppSource preview state"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

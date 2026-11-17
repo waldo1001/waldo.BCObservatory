@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T00:48:52.213Z"
+  at: "2026-11-17T00:48:58.898Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 518d28ae78e72db17e132a9011f5320901c3ddffaf125065fcb4f01395034ff7
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app/src/EmailOutlookAPIClientv2.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app/src/EmailOutlookAPIClientv2.Interface.al
     title: src/Apps/W1/Email - Outlook REST API/app/src/EmailOutlookAPIClientv2.Interface.al (releases/29.x)
     date: null
-    commit: 9d65b5414f44cbad5890049a1e0490a64118ffdb
+    commit: ae251bc67417b1b37b41aaf52480e6a5c8f9294e
     t: null
     quote: null
 links:
@@ -79,7 +79,7 @@ relations:
 
 > Interface "Email - Outlook API Client v2" in Email - Outlook REST API (System.Email). 2 public procedures. Introduced in BC29, still in BC30. Obsolete (Pending since 28.0).
 
-Email - Outlook REST API · System.Email · BC29-30 · [source at 9d65b541](https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app/src/EmailOutlookAPIClientv2.Interface.al) · facts from BC29
+Email - Outlook REST API · System.Email · BC29-30 · [source at ae251bc6](https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app/src/EmailOutlookAPIClientv2.Interface.al) · facts from BC29
 
 ## Properties
 

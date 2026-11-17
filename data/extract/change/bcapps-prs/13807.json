@@ -8,10 +8,10 @@
   ],
   "summary": "The Total Number of Supplies field in the VAT Report page is corrected to display as a whole number instead of an amount with decimal places in the German version.",
   "key_points": [
-    "Field 33 in VATReportHeader is a Decimal FlowField that was incorrectly formatted as an amount with two decimal places",
-    "Changed AutoFormatType and DecimalPlaces settings to display the field as a whole number, matching the source field behavior",
-    "Avoids a breaking schema change by keeping the field as Decimal type while correcting its display format",
-    "Fixes incorrect tooltip and type presentation in the German VAT Report page"
+    "Field 33 Total Number of Supplies in VAT Report Header is a Decimal FlowField that was formatted as an amount, so it showed two decimal places",
+    "It now shows as a whole number, the same way the summed line field Number of Supplies does (AutoFormatType 0, DecimalPlaces 0:0)",
+    "The field stays Decimal, which avoids a breaking schema change to Integer",
+    "Applies to the German (DE) layer of the VAT Report page and table"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -82,7 +82,6 @@ links:
   videos:
     - video/1x3QyBX3swg
     - video/D7GxnNiGQ14
-    - video/G0avZpiDFtI
     - video/LW2JNV01sJo
     - video/snVsG69X-kw
     - video/XcQFvNnKpxk
@@ -113,7 +112,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 6
+  video: 5
   blog: 13
   guideline: 0
 bc_forms: []
@@ -160,8 +159,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 2 (BC29): Match Production Database Configuration](../../posts/yzhums-com/77070.md) (community post): "Enables more accurate performance testing using the Performance Toolkit"
 - [Microsoft presents: Index management](../../videos/1x3QyBX3swg.md) (video): "performance tuning; fragmentation; missing indexes; disabled indexes"
 - [20260223 - If You Can’t Make It Fast, Make It Feel Fast](../../videos/D7GxnNiGQ14.md) (video): "If You Can't Make It Fast, Make It Feel Fast"
-- [What's New: Server and Database (2025 release wave 1)](../../videos/G0avZpiDFtI.md) (video): "Faster Copy Company; Database Missing Indexes Page Enhancements"
-- [Meet the OptimAL Performance Initiative](../../videos/LW2JNV01sJo.md) (video): "Meet the OptimAL Performance Initiative"
+- [Meet the OptimAL Performance Initiative](../../videos/LW2JNV01sJo.md) (video): "performance optimization; continuous improvement; proactive management; code modernization"
 - [Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?](../../videos/snVsG69X-kw.md) (video): "User scalability in Business Central cloud"
 - [What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)](../../videos/XcQFvNnKpxk.md) (video): "Performance Testing before Go-Live with Performance Toolkit"
 

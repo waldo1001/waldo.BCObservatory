@@ -7,12 +7,12 @@ tier: official
 language: en
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-17T01:01:06.778Z"
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -126,7 +126,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-704
     title: Inventory - Transaction Detail (report)
-    date: "2024-10-18"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -188,15 +188,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-716
-    title: Inventory Cost and price list (report)
-    date: "2024-10-18"
+    title: Inventory Cost and Price List (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-713
     title: Inventory Customer Sales (report)
-    date: "2024-10-18"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -217,7 +217,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-708
     title: Inventory Order Details (report)
-    date: "2024-10-03"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -231,7 +231,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-813
     title: Inventory Picking List (report)
-    date: "2024-10-03"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -245,28 +245,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-709
     title: Inventory Purchase Orders (report)
-    date: "2024-10-14"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-718
     title: Inventory Sales Back Orders (report)
-    date: "2024-10-03"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-711
     title: Inventory Top 10 List (report)
-    date: "2024-10-18"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1001
-    title: Inventory Valuation (report)
-    date: "2024-10-18"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -294,6 +287,13 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-overview
     title: Inventory Valuation Overview Power BI Report
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app
+    title: Inventory Valuation Power BI App Reports
     date: "2026-11-12"
     commit: null
     t: null
@@ -583,7 +583,7 @@ narrative: generated
 
 > Inventory in Business Central covers item setup, counting and adjusting stock, availability, reservations, item tracking, transfers, bills of material and inventory analytics. It answers how-to questions about creating and managing items and moving or tracing stock.
 
-Path: [Business functionality](../business-functionality.md) > Inventory · tier official · system inventory · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../business-functionality.md) > Inventory · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -591,7 +591,7 @@ The Inventory section explains how to define and maintain items and then control
 
 Day-to-day pages cover counting and adjusting inventory (physical inventory orders and recordings, or journals with cycle counting), reclassification, transfers between locations, reservations, blocking items, and availability overviews. Item tracking pages cover setting up serial, lot and package tracking codes, assigning numbers on transactions, and tracing tracked items through posted entries.
 
-Start with "Managing inventory" for the overall picture, then "Create item cards for goods or services". The Inventory analytics subtopic (56 pages) covers Power BI apps, built-in and legacy reports, and ad-hoc analysis of item ledger entries.
+Start with "Managing inventory" for the overall picture, then "Create item cards for goods or services". The Inventory analytics subtopic (56 pages) covers Power BI apps, built-in reports, legacy reports and ad-hoc Data Analysis of inventory data, such as stock levels, inventory value, KPIs and trends.
 
 ## Key points
 

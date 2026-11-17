@@ -11,7 +11,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -20,14 +20,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-accessibility
     title: Accessibility and Keyboard Shortcuts
-    date: "2021-06-23"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/keyboard-shortcuts-cheatsheet
     title: Keyboard Quick Reference - PC Only
-    date: "2025-08-04"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -41,7 +41,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/touch-gestures
     title: Touch and Pen Gestures for Tablets and Phones
-    date: "2021-04-29"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null

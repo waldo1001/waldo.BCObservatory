@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -204,8 +204,6 @@ links:
     - topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central
   localizations: []
   videos:
-    - video/c91E6IykUnk
-    - video/FUtePZVZLKs
     - video/jdevJbGgB-k
     - video/juUBVPfIp8A
     - video/NE7NIjpkX3c
@@ -238,7 +236,7 @@ children:
 coverage:
   learn: 24
   code: 0
-  video: 8
+  video: 6
   blog: 6
   guideline: 0
 bc_forms: []
@@ -305,8 +303,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Enhancing Business Central with Address Validation AI](../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses"
 - [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "SetAuthorization uses your own Azure OpenAI deployment, which gives you control"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "build Copilot extensions using Microsoft-managed Azure OpenAI resources"
-- [Episode 519: The Last Frontier: Can AI Finally Conquer BC Report Layouts?](../../../videos/c91E6IykUnk.md) (video): "GitHub Copilot for AL development; Multi-agent workflow for development"
-- [AI consuming AI output. #businesscentral #bc #msdyn365bc](../../../videos/FUtePZVZLKs.md) (video): "AI consuming AI output; documentation generation; extension development"
 - [Business Central Under the Hood episode 1: Developing AI in Business Central](../../../videos/jdevJbGgB-k.md) (video): "Marketing text generation; Chat Copilot for Business Central; AI developer toolkit"
 - [What's New: AI Development Toolkit (2026 release wave 1)](../../../videos/juUBVPfIp8A.md) (video): "Content filtering policies; Prompt injection protection"
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../videos/NE7NIjpkX3c.md) (video): "copilot extension; cloud deployment; large language models; prompt engineering"

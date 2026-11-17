@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-purchase",
-  "input_hash": "2fa1c961aff11aca3436f9bb5c400b573d23e701630f33def9c14537c769c5b3",
-  "summary": "Set up purchase covers configuring purchasing in Business Central: payables setup, vendors and vendor bank accounts, purchasers, vendor priority, purchase prices and discounts, invoice posting policies, and total amount validation. It answers how-to setup questions for the purchasing area.",
-  "overview": "This section groups the pages needed to prepare Business Central for purchasing. It has no subtopics, so all content is on its own pages. The page \"Overview of tasks to set up purchasing\" is the natural starting point. It covers payables setup such as posting rules, number series, external document number requirements, exact cost reversing, discount calculation and prepayment checking.\n\nVendor setup pages cover registering a vendor (manually or from templates), setting up vendor bank accounts with preferred accounts and approval workflows, assigning a priority level to a vendor, and assigning purchasers to vendors for filtering reports and statistics.\n\nFurther pages cover pricing and control. They explain recording special purchase prices and discounts, setting up sales and purchase prices and discounts in general, defining invoice posting policies per user, and validating purchase amounts against document totals. A page on updating document dates with posting dates is also included, although its source describes it for sales transactions.",
+  "input_hash": "166a0525c2ca1f472e1eb69d93f12de605c7334d0677d007e93fc48ef0343a47",
+  "summary": "Purchase setup in Business Central: Purchases & Payables Setup options, vendor registration, vendor bank accounts, purchasers, priorities, prices and discounts, invoice posting policies, and purchase amount validation. It answers questions about configuring how purchasing and vendor data behave.",
+  "overview": "This section covers the setup tasks needed before you buy from vendors. It starts with an overview of purchasing setup tasks, centered on the Purchases & Payables Setup page and the vendor registration process. Other pages go deeper on single areas.\n\nVendor-related pages cover registering a vendor (vendor card, templates, remit-to addresses, order addresses, self-billing agreement), setting up vendor bank accounts, assigning purchasers to vendors, and giving vendors a priority for payment suggestions.\n\nPolicy and pricing pages cover invoice posting policies per user, validation of purchase amounts on invoices and credit memos, special purchase prices and discounts, and the general prices and discounts setup. Start with the overview page, then move to the page for the specific task. One page, on updating document dates with posting dates, is described only in terms of sales transactions.",
   "key_points": [
-    "Start with the overview of purchasing setup tasks: posting rules, number series, external document number, exact cost reversing, prepayment checking.",
-    "Register vendors manually or with templates; the vendor card can hold remit-to addresses, bank accounts, dimensions and optional self-billing agreements.",
-    "Vendor bank accounts support preferred accounts, IBAN management and approval workflows for new accounts.",
-    "Vendor priority numbers control ranking in payment suggestions and vendor lists.",
-    "Purchaser codes assigned to vendors help filter reports and prepare purchasing statistics.",
-    "Invoice posting policies per user can prohibit, allow or require posting invoices together with receipts or shipments.",
-    "The prices and discounts pages (tagged 2020 release wave 2) cover line discounts, invoice discounts, vendor price groups, discount posting principles, price lists with new and legacy pricing experiences, and automatic best price calculation.",
-    "Total amount validation on purchase invoices and credit memos checks document totals against line totals before posting (2025 release wave 1)."
+    "The overview page lists Purchases & Payables Setup options such as Calc. Inv. Disc. per VAT/Tax ID, Appln. between Currencies, Check Prepmt. when Posting, Prepmt. Auto Update, Ext. Doc. No. Mandatory and Exact Cost Reversing Mandatory.",
+    "Registering a vendor involves a vendor card, templates, remit-to addresses, order addresses, vendor bank account and an optional self-billing agreement.",
+    "Vendor priority numbers control the order of vendors in payment suggestions. A blank priority means no prioritization.",
+    "Invoice posting policy per user can be allowed, mandatory or prohibited for posting sales and purchase invoices together with shipments or receipts.",
+    "Total amount validation on purchase invoices and credit memos checks that document totals match line totals before posting (2025 release wave 1).",
+    "Special purchase prices, line discounts and invoice discounts are set per vendor. The pages cover the new pricing experience from 2020 release wave 2 and best price calculation.",
+    "Vendor bank accounts support a preferred account, an approval workflow, payment journal use, and export of payments to a bank file with AMC Banking 365 Fundamentals Extension.",
+    "Multiple purchasers can be set up with codes, assigned to vendors, and used as filters in statistics and reports."
   ],
   "members_used": 10,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:08:00.163Z",
+  "at": "2026-11-17T01:00:38.783Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.015081
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:20:14.674Z",
-    "verdict": "fix",
-    "issues": [
-      "The overview lists 'Updating document dates with posting dates' with the purchase pages, but its source summary says it covers sales transactions. The overview now says so.",
-      "The key point ties '2020 release wave 2' to automatic best price calculation alone. In the sources, that version is a page-level tag on the two prices and discounts pages, so it was moved to the pages. The point now also mentions price lists with new and legacy pricing experiences, which the 'Set up prices and discounts' page covers."
-    ],
-    "input_hash": "2fa1c961aff11aca3436f9bb5c400b573d23e701630f33def9c14537c769c5b3",
-    "cost_usd": 0.0550632
+    "cost_usd": 0.017043
   }
 }

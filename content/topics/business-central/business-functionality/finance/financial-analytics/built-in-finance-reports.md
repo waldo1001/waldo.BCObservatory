@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-reports
 type: topic
 title: Built-in finance reports
-summary: "Built-in finance reports in Business Central: one page per standard report, covering general ledger, trial balance, receivables, payables, VAT, consolidation, deferrals, cost accounting and fixed assets. Answers questions about what a report shows, its filters and options, and when to use it."
+summary: "Built-in finance reports in Business Central: reference pages for standard reports on general ledger, trial balances, receivables and payables, VAT, consolidation, cost accounting, deferrals and dimensions. Answers what each report shows, which options and filters it has, and which are obsolete or replaced by Excel versions."
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-11-11T00:59:21.146Z"
+  at: "2026-11-17T01:01:17.321Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: ccbd7d2fc64d24f0eedfa3d29321fbaa64fe2d952d3f609f9d8e2d936d9ffc56
+  input_hash: 9fd3bb262b8a72c38d88d34bb06b0035fbcec6d28902d8659039dbd116ec5731
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-reports
@@ -28,21 +28,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-reports
     title: Accounts receivable analytics
-    date: "2026-09-18"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-322
-    title: Aged Accounts Payable (report)
-    date: "2024-12-16"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4403
-    title: Aged Accounts Payables (Excel report)
-    date: "2024-12-14"
+    title: Aged Accounts Payable (Excel Report)
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-322
+    title: Aged Accounts Payable (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -55,8 +55,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-120
-    title: Aged Accounts Receivables (report)
-    date: "2024-10-18"
+    title: Aged Accounts Receivables (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -76,15 +76,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-37
-    title: Balance Comp. - Prev. Year (report)
-    date: "2025-06-21"
+    title: Balance Comp. - Prev. Year (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-151
-    title: Balance Sheet (report)
-    date: "2025-06-16"
+    title: Balance Sheet Overview (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -97,127 +97,120 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-20
-    title: Calculate and Post Tax Settlement (report)
-    date: "2025-06-25"
+    title: Calculate and Post Tax Settlement (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1
-    title: Chart of Accounts (report)
-    date: "2025-06-16"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-30
-    title: Check Value Posting (report)
-    date: "2025-06-21"
+    title: Chart of Accounts Setup (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-10
-    title: Closing Trial Balance (report)
-    date: "2025-06-23"
+    title: Closing Trial Balance (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-18
-    title: Consolidated Trial Balance (4) (report)
-    date: "2025-06-21"
+    title: Consolidated Trial Balance (4) (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4410
-    title: Consolidated Trial Balance (Excel report)
-    date: "2025-01-03"
+    title: Consolidated Trial Balance (Excel Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-17
-    title: Consolidated Trial Balance (report)
-    date: "2025-06-20"
+    title: Consolidated Trial Balance (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1127
-    title: Cost Acctg. Analysis (report)
-    date: "2025-06-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1138
-    title: Cost Acctg. Balance/Budget (report)
-    date: "2025-06-23"
+    title: Cost Accounting Analysis (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1128
-    title: Cost Acctg. Journal (report)
-    date: "2025-06-23"
+    title: Cost Accounting Journal (Report)
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1138
+    title: Cost Acctg. Balance/Budget (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1126
-    title: Cost Acctg. Statement (report)
-    date: "2025-06-23"
+    title: Cost Acctg. Statement (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1133
-    title: Cost Acctg. Statement/Budget (report)
-    date: "2025-06-23"
+    title: Cost Acctg. Statement/Budget (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1123
-    title: Cost Acctg. Stmt. per Period (report)
-    date: "2025-06-23"
+    title: Cost Acctg. Stmt. per Period (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1129
-    title: Cost Allocations (report)
-    date: "2025-06-23"
+    title: Cost Allocations Setup Review (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1125
-    title: Cost Types Details (report)
-    date: "2025-06-23"
+    title: Cost Types Details Report for Cost Entries
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-121
-    title: Customer - Balance to date (report)
-    date: "2024-10-03"
+    title: Customer - Balance to Date (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-104
-    title: Customer - Detail Trial Balance (report)
-    date: "2024-10-18"
+    title: Customer - Detail Trial Balance (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-108
-    title: Customer - Order Detail (report)
-    date: "2024-10-03"
+    title: Customer - Order Detail (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -230,29 +223,29 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-211
-    title: Customer - Payment Receipt (report)
-    date: "2024-10-18"
+    title: Customer - Payment Receipt (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-111
-    title: Customer - Top 10 list (report)
-    date: "2024-10-03"
+    title: Customer - Top 10 List (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4409
-    title: Customer - Top 10 List Excel (Excel report)
-    date: "2024-12-16"
+    title: Customer - Top List (Excel Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-129
-    title: Customer - Trial Balance (report)
-    date: "2024-10-03"
+    title: Customer - Trial Balance (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -265,15 +258,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1316
-    title: Customer Statement (report)
-    date: "2024-10-18"
+    title: Customer Statement Report for Account Activity
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-113
-    title: Customer/Item Sales (report)
-    date: "2024-10-03"
+    title: Customer/Item Sales Overview (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -286,8 +279,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-2500
-    title: Day Book VAT Entry (report)
-    date: "2025-06-25"
+    title: Day Book VAT Entry Review (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -298,12 +291,19 @@ evidence:
     commit: null
     t: null
     quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1700
+    title: Deferral Summary - G/L (report)
+    date: "2026-09-10"
+    commit: null
+    t: null
+    quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/payables-reports
     - https://learn.microsoft.com/dynamics365/business-central/receivables-reports
-    - https://learn.microsoft.com/dynamics365/business-central/reports/report-322
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-4403
+    - https://learn.microsoft.com/dynamics365/business-central/reports/report-322
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-4402
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-120
     - https://learn.microsoft.com/dynamics365/business-central/finance-analyze-excel
@@ -313,14 +313,13 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/finance-reports
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-20
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-1
-    - https://learn.microsoft.com/dynamics365/business-central/reports/report-30
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-10
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-18
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-4410
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-17
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-1127
-    - https://learn.microsoft.com/dynamics365/business-central/reports/report-1138
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-1128
+    - https://learn.microsoft.com/dynamics365/business-central/reports/report-1138
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-1126
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-1133
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-1123
@@ -344,9 +343,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-1702
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-1701
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-4
+    - https://learn.microsoft.com/dynamics365/business-central/reports/report-30
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-28
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-27
-    - https://learn.microsoft.com/dynamics365/business-central/reports/report-25
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-36
     - https://learn.microsoft.com/dynamics365/business-central/fa-reports
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-503
@@ -360,11 +359,12 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-33
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-117
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-156
+    - https://learn.microsoft.com/dynamics365/business-central/reports/report-25
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-112
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-155
+    - https://learn.microsoft.com/dynamics365/business-central/reports/report-38
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-4405
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-6
-    - https://learn.microsoft.com/dynamics365/business-central/reports/report-38
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-4406
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-9
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-31
@@ -375,12 +375,12 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-19
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-321
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-304
-    - https://learn.microsoft.com/dynamics365/business-central/reports/report-301
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-308
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-307
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-305
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-4404
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-329
+    - https://learn.microsoft.com/dynamics365/business-central/reports/report-301
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-317
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-313
   objects:
@@ -629,118 +629,116 @@ narrative: generated
 
 # Built-in finance reports
 
-> Built-in finance reports in Business Central: one page per standard report, covering general ledger, trial balance, receivables, payables, VAT, consolidation, deferrals, cost accounting and fixed assets. Answers questions about what a report shows, its filters and options, and when to use it.
+> Built-in finance reports in Business Central: reference pages for standard reports on general ledger, trial balances, receivables and payables, VAT, consolidation, cost accounting, deferrals and dimensions. Answers what each report shows, which options and filters it has, and which are obsolete or replaced by Excel versions.
 
 Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Built-in finance reports · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section documents the standard reports that ship with Business Central finance. Most pages describe a single report: what it shows, the main filters and options, and the task it supports, such as period-end checks, reconciliation, audit or tax filing. Many reports come as a classic report and an Excel report, for example Trial Balance, Aged Accounts Payables, Aged Accounts Receivable and Consolidated Trial Balance.
-
-The pages fall into groups: core finance (Balance Sheet, Income Statement, Trial Balance variants, Chart of Accounts, G/L Register, Audit Trail, Dimensions reports); customer and vendor reports (aging, balance to date, detail trial balance, order detail and summary, top 10 lists, statements, reminders); VAT and EU reporting; consolidation and intercompany; deferral summaries; and Cost Accounting reports. Analytics pages for accounts payable and receivable cover Power BI and Data Analysis, and a Fixed assets reports page covers depreciation and related reports.
-
-Start with the page "Built-in finance reports in Business Central", which gives the overview and the report explorer. Then open the page for the specific report you need. Some pages are marked legacy: the Excel financial statement workbooks are deprecated in favor of Excel layouts, and Vendor - Summary Aging is replaced by Aged Accounts Payable.
+Business Central includes a catalog of standard finance reports. An overview page lists the report groups (core finance, deferral, VAT, consolidation, cost accounting, receivables and payables) and points to the report explorer. Each report then has its own page that describes its purpose, its request-page options and filters, and who typically uses it.
+The pages cover several families. The Balance Sheet, Income Statement, Statement of Cashflows and Retained Earnings Statement use the financial report selected in General Ledger Setup. The Financial Report itself calculates amounts from row and column definitions. Trial balance reports come in Report and Excel forms. Customer and vendor reports cover aging, balance to date, detail and summary trial balances, order detail and summary, and top lists. Other families cover VAT, consolidation, cost accounting, deferral summaries, dimensions, and audit and register reports.
+Start with the overview page to find the right family. Then open the specific report page to check its filters and layout. Analytics pages for accounts payable and receivable show how these reports sit alongside Power BI and Data Analysis. Check the obsolescence notes first, because several older reports now have Excel replacements.
 
 ## Key points
 
-- The overview page lists report groups: core finance, deferral, VAT, consolidation, cost accounting, and receivables and payables.
-- Trial balance family: Trial Balance, by Period (12 periods), Detail, Closing and Trial Balance/Budget. The Trial Balance Excel report supports local currency and additional reporting currency, and the Trial Balance/Budget Excel report shows variances in local currency.
-- Aging reports exist as classic and Excel versions for payables and receivables, with aging buckets and period length, and with local and foreign currency analysis.
-- Customer and vendor reports include balance to date, detail trial balance, order detail and summary, top 10 lists, Customer Statement and Reminder.
-- VAT reports include VAT Statement, VAT Register, VAT Exceptions, VAT Reconciliation, G/L - VAT Reconciliation, Calculate and Post Tax Settlement and VIES declaration and number checks.
-- Consolidation reports cover Consolidated Trial Balance (standard, four-column and Excel), G/L Consolidation Eliminations and Intercompany Transactions.
-- Cost Accounting reports compare actual and budget costs by cost type, cost center and period, and review allocations and journals.
-- Deprecated items: the legacy Excel financial statement workbooks (use Excel layouts) and Vendor - Summary Aging (use Aged Accounts Payable).
+- The overview page groups reports into core finance, deferral, VAT, consolidation, cost accounting, and receivables and payables, and mentions the report explorer.
+- Aged Accounts Receivables (Report) is marked obsolete in version 28 and replaced by an Excel version. Customer - Top 10 List is also obsolete in version 28, so use Customer Top List Excel.
+- Vendor - Summary Aging (Report 305) is obsolete from version 28.0. Aged Accounts Payable has both a report page and an Excel report page.
+- The legacy Excel financial statement workbooks are deprecated. Use Excel layouts for financial reports or Excel report layouts instead.
+- Balance Sheet, Income Statement, Cash Flows and Retained Earnings reports take their rows and columns from the financial report selected in General Ledger Setup.
+- Trial balance variants include Trial Balance, Trial Balance by Period (up to 12 periods), Closing, Detail, Consolidated (report, Excel and four-business-unit versions), and budget comparison versions in report and Excel form.
+- VAT reports include Calculate and Post Tax Settlement (with test mode), VAT Statement, VAT Reconciliation, G/L - VAT Reconciliation, VAT Register, Day Book VAT Entry, VAT Exceptions, VAT Registration No. Check, and VAT-VIES Declaration. The VIES report does not submit data electronically.
+- Cost accounting reports compare actual costs with budgets by cost type, cost center and cost object, and also cover journal checks, allocations setup review and cost entry details.
 
 ## Learn pages
 
 - [Accounts payables analytics](https://learn.microsoft.com/dynamics365/business-central/payables-reports): See which analytics options are available in Business Central so that you can keep track of your accounts payable.
   - In the observatory: [Page 29 "Vendor Ledger Entries"](../../../../../objects/page/29.md), [Page 36994 "Aged Payables (Back Dating)"](../../../../../objects/page/36994.md), [Page 36996 "Detailed Vendor Ledger Entries"](../../../../../objects/page/36996.md)
 - [Accounts receivable analytics](https://learn.microsoft.com/dynamics365/business-central/receivables-reports): Explore the reports and analytics in the standard version of Business Central that can help you track your accounts receivable.
-- [Aged Accounts Payable (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-322): Analyze vendor balances at the end of each period. Use this report to monitor unpaid invoices and prioritize payments for overdue accounts.
-- [Aged Accounts Payables (Excel report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4403): Analyze vendor balances at the end of each period. Helps ensure the reliability of what you owe your vendors.
+  - In the observatory: [Page 25 "Customer Ledger Entries"](../../../../../objects/page/25.md)
+- [Aged Accounts Payable (Excel Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4403): Analyze vendor remaining amounts as of a selected date in Excel, with configurable aging periods, currency views, and document-level report data.
+- [Aged Accounts Payable (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-322): Analyze vendor balances at the end of each period. Use this report to monitor unpaid invoices and prioritize payments for overdue accounts.
 - [Aged Accounts Receivable (Excel report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4402): Analyze customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.
-- [Aged Accounts Receivables (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-120): Legacy report for analyzing customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.
+- [Aged Accounts Receivables (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-120): Legacy report for analyzing customer balances at the end of each period. Used as a gauge to measure the reliability of collectable debts for your customers.
 - [Analyzing Financial Statements in Microsoft Excel (legacy)](https://learn.microsoft.com/dynamics365/business-central/finance-analyze-excel): Learn about legacy Excel financial statement workbooks in Business Central and find current alternatives for financial reporting and analysis.
 - [Audit Trail (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-330): Review the audit trail of G/L registers and entries, including creation dates, user IDs, reversed entries, and transaction details for auditing and compliance.
-- [Balance Comp. - Prev. Year (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-37): Compare account balances side-by-side across two fiscal years and identify trends and variances. Use this report to analyze year-over-year financial performance and support strategic decision-making.
-- [Balance Sheet (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-151): Get an overview of your financials across assets, liabilities, and equity.
+- [Balance Comp. - Prev. Year (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-37): Compare debit and credit movements and ending balances for two date ranges, with account, dimension, rounding, and indentation options.
+- [Balance Sheet Overview (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-151): Review assets, liabilities, and equity using the balance sheet financial report selected in General Ledger Setup and its row and column definitions.
 - [Built-in finance reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-reports): Explore the built-in financial reports in the standard version of Business Central.
-- [Calculate and Post Tax Settlement (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-20): Used at the end of a VAT period to calculate and post the amount payable or receivable for tax filing. Calculates VAT based on posted entries and creates a journal to record the VAT settlement. Typically run monthly or quarterly depending on filing frequency.
-- [Chart of Accounts (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1): Review and manage your company’s general ledger structure by listing all G/L accounts with their types, balances, and categories.
-- [Check Value Posting (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-30): Verify whether value entries, such as inventory or cost postings, are correctly posted to the general ledger. Use this report to validate document posting behavior during implementation or troubleshooting.
-- [Closing Trial Balance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-10): Check end of financial year figures, excluding closing entries, and compare this year and the previous year.
-- [Consolidated Trial Balance (4) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-18): Get a combined overview of general ledger entries for two or more companies in one consolidated company. This version of the report lets you display up to four business units as columns. Use this report to analyze consolidated financial data from multiple companies.
-- [Consolidated Trial Balance (Excel report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4410): Use Excel to view a snapshot of your consolidated chart of accounts at a given point to check the debit and credit net change and closing balance.
-- [Consolidated Trial Balance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-17): Combines financial data across companies, allowing finance teams to analyze consolidated performance and ensure alignment across entities.
-- [Cost Acctg. Analysis (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1127): Presents a comparison of actual versus expected cost values. Choose the appropriate period and budget version before running. Highlights deviations between budgeted and actual cost performance to inform better forecasting.
-- [Cost Acctg. Balance/Budget (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1138): Use this report to analyze balances for cost accounts and budgets to support financial planning and control.
-- [Cost Acctg. Journal (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1128): Run this report to review posted cost entries and ensure transactions were properly recorded in cost journals.
-- [Cost Acctg. Statement (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1126): Summarizes all cost entries across selected dimensions such as departments or cost centers. Use filters for period, cost type, or cost object to refine the view and support operational analysis.
-- [Cost Acctg. Statement/Budget (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1133): Compares cost statements to budgeted amounts by cost center, showing variance by amount and percentage. Use this report to identify gaps between projected and actual costs and improve budgeting effectiveness.
-- [Cost Acctg. Stmt. per Period (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1123): Analyze cost activity within specific periods, such as monthly or quarterly intervals. The report shows actual cost entries grouped by reporting periods. Use date filters and cost dimensions to view targeted results.
-- [Cost Allocations (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1129): Displays how costs were split or assigned based on allocation rules. Use with cost centers or allocation bases. Explains cost distribution across entities using set allocation methods, ideal for cost control.
-- [Cost Types Details (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1125): Displays cost breakdowns by cost type, such as labor, materials, and overhead. Customize filters by period or cost center.
-- [Customer - Balance to date (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-121): Get a detailed balance for selected customers at the close of an accounting period or fiscal year, for example.
-- [Customer - Detail Trial Balance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-104): Check whether all entries for a specific customer are accounted for, or for other internal checks on customer ledgers.
-- [Customer - Order Detail (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-108): Analyze outstanding sales orders to understand your expected sales volume grouped by customer. To highlight overdue back orders, compare overall outstanding shipments with the planned shipment dates.
+- [Calculate and Post Tax Settlement (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-20): Calculate VAT settlement from open VAT entries, review a test report, or post the transfer to a settlement account and close the entries.
+- [Chart of Accounts Setup (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1): Review your chart of accounts setup, including account types, totaling ranges, posting groups, and consolidation translation methods.
+- [Closing Trial Balance (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-10): Review fiscal-year account totals and closing-entry treatment for income statement and balance sheet accounts in a closing trial balance.
+- [Consolidated Trial Balance (4) (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-18): Compare up to four business units in separate columns, with consolidated totals and eliminations, using previously imported financial data.
+- [Consolidated Trial Balance (Excel Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4410): Use Excel to view a snapshot of your consolidated chart of accounts at a given point to check the net change and closing balance.
+- [Consolidated Trial Balance (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-17): Combines financial data across companies, allowing finance teams to analyze consolidated performance and ensure alignment across entities.
+- [Cost Accounting Analysis (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1127): Compare actual net changes by cost type across up to seven cost center or cost object columns to review cost distribution in Business Central.
+- [Cost Accounting Journal (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1128): Review unposted cost journal lines and optional error messages to check dates, documents, cost types, and cost assignments before posting.
+- [Cost Acctg. Balance/Budget (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1138): Compare current-period and year-to-date costs with budgets by cost type, and review full-year budget amounts using the fiscal-year dates you select.
+- [Cost Acctg. Statement (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1126): Review debit and credit net changes in the chart of cost types, filtered by date, cost center, or cost object, in local or additional currency.
+- [Cost Acctg. Statement/Budget (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1133): Compare actual net changes and budget amounts by cost type, with actual costs as a percentage of budget and filters for cost centers or objects.
+- [Cost Acctg. Stmt. per Period (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1123): Compare cost type balances or net changes for two periods, with differences and percentage comparisons, using cost center or cost object filters.
+- [Cost Allocations Setup Review (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1129): Review allocation sources, targets, validity dates, and shares to check how costs are set up for distribution to cost centers and cost objects.
+- [Cost Types Details Report for Cost Entries](https://learn.microsoft.com/dynamics365/business-central/reports/report-1125): Displays cost breakdowns by cost type, such as labor, materials, and overhead. Customize filters by period or cost center.
+- [Customer - Balance to Date (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-121): Review customer balances and supporting entries at a historical ending date, with options for currency, unapplied entries, and zero balances.
+- [Customer - Detail Trial Balance (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-104): Review customer opening balances, ledger entries, remaining amounts, due dates, and running balances for reconciliation and account inquiries.
+- [Customer - Order Detail (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-108): Review outstanding sales order lines by bill-to customer, compare shipment dates with the work date, and identify quantities on back order.
 - [Customer - Order Summary (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-107): See outstanding sales order amounts by customer, grouped into 30-day shipment periods, to gauge expected sales volume.
-- [Customer - Payment Receipt (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-211): View payment receipts for each customer ledger entry of the type Payment.
-- [Customer - Top 10 list (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-111): Review customers with the most transactions within a selected period to identify sales trends and manage collectable debts.
-- [Customer - Top 10 List Excel (Excel report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4409): Review customers with the most transactions in a selected period directly in Excel. Identify sales trends and manage debt collections.
-- [Customer - Trial Balance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-129): Analyze and reconcile your customer balances at the end of the period by viewing the opening balance, each transaction within the period, and the closing balance grouped by customer.
-  - In the observatory: [Report 10806 "Customer Detail Trial Balance (FR)"](../../../../../objects/report/10806-fr.md)
+- [Customer - Payment Receipt (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-211): View receipts for customer payments and refunds in Business Central. Review applied entries, discounts, tolerances, and remaining unapplied amounts.
+- [Customer - Top 10 List (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-111): Rank customers by sales amount or current balance in local currency, select how many to show, and find the replacement Excel report.
+- [Customer - Top List (Excel Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4409): Rank customers by sales amounts or balances in local currency in Excel. Choose the number of customers and posting-date filters for your analysis.
+- [Customer - Trial Balance (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-129): Reconcile customer opening balances, debit and credit totals, and ending balances in local currency for a period and fiscal year to date.
 - [Customer List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-101): Get an overview of basic information for your customers.
-- [Customer Statement (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1316): Send customers an overview of outstanding amounts, and also use as a payment reminder about overdue amounts.
+- [Customer Statement Report for Account Activity](https://learn.microsoft.com/dynamics365/business-central/reports/report-1316): Send customers statements of account activity or open entries, review balances and overdue amounts, and schedule statements through the job queue.
   - In the observatory: [Report 153 "Customer Statement"](../../../../../objects/report/153.md)
-- [Customer/Item Sales (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-113): Analyze your item sales per customer to understand sales trends, optimize inventory management, and improve marketing efforts. Assess the relationship between discounts, sales amounts, and the volume of item sales.
+- [Customer/Item Sales Overview (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-113): Analyze invoiced item quantities, sales, discounts, and profit by customer, including related item charges and cost adjustments.
 - [Day Book Customer Ledger Entry (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-2501): Get a daily transaction overview for customer postings, similar in intent to a sales day book or a chronological audit-style listing of customer postings.
-- [Day Book VAT Entry (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-2500): Lists all VAT entries by document date in a register-style format. Use this report to review or audit tax postings across sales and purchase documents. Helpful for reconciliation and historical reference.
+- [Day Book VAT Entry Review (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-2500): Review posted VAT entries by VAT reporting date and posting type, with deductible and nondeductible amounts, for a date range of up to one year.
 - [Day Book Vendor Ledger Entry (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-2502): Get a daily transaction overview for vendor postings, similar in intent to a vendor day book or a chronological audit-style listing of vendor postings.
 - [Deferral Summary - G/L (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1700): Analyze how deferral entries affect general ledger accounts over time and reconcile recognized versus remaining deferred amounts as of a specific date.
 - [Deferral Summary - Purchasing (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1702): Review deferred purchasing expenses by vendor and posting period to verify accrual accuracy.
 - [Deferral Summary - Sales (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1701): Analyze deferred sales revenue by customer and period, showing recognized and remaining amounts as of a chosen balance date.
-- [Detail Trial Balance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4): Audit and reconcile your general ledger balances at the end of the period by viewing the net change, opening balance, each transaction in the period and the closing balance grouped by G/L account.
-- [Dimensions - Detail (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-28): Analyze your general ledger with dimension detail by building groups of dimensions for combinations of dimension values, and view a breakdown of general ledger entries for each segment.
-- [Dimensions - Total (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-27): Analyze your general ledger with dimension totals by building groups of dimensions for combinations of dimension values, and calculate a general ledger balance total for each segment.
-- [Financial Reporting (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-25): Analyze your chart of accounts with a configurable view of general ledger accounts. Simplifies reporting for typical scenarios such as balance sheets, income statements, and cash flow statements.
-- [Fiscal Year Balance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-36): Review opening and closing balances for each general ledger account within a selected fiscal year. Use this report to support fiscal year-end closing, reconciliation, and trend analysis.
+- [Detail Trial Balance Overview (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4): Audit general ledger opening balances, transactions, running balances, and closing balances for a selected period and account range.
+- [Dimension Check Value Posting (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-30): Find conflicts between default dimension value posting rules during setup or when investigating dimension-related document posting errors.
+- [Dimensions - Detail Overview (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-28): Review general ledger entries grouped by dimension combinations, with debit and credit totals for the analysis view and period you select.
+- [Dimensions - Total Overview (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-27): Analyze general ledger or cash flow totals by dimension combinations, using an analysis view, grouping levels, and a column definition.
+- [Fiscal Year Balance Overview (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-36): Review fiscal-year opening balances, selected-period debit and credit movements, and ending balances by general ledger account.
 - [Fixed assets reports](https://learn.microsoft.com/dynamics365/business-central/fa-reports): Explore the standard reports in Business Central that can help you track and manage your fixed assets.
-- [Foreign Currency Balance (report 503)](https://learn.microsoft.com/dynamics365/business-central/reports/report-503): Displays account balances in both local and foreign currencies for G/L, customer, or vendor accounts. Use it for monitoring and reconciling multi-currency transactions, especially during revaluation or when reviewing exchange rate impacts.
-- [G/L - VAT Reconciliation (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-11): Reconciles VAT amounts from the general ledger with VAT entries to ensure accurate tax filings. Use during VAT periods to validate that posted VAT entries match G/L amounts. Apply posting date and VAT period filters for precision.
-- [G/L Consolidation Eliminations (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-16): Identifies and removes internal transactions between entities to prevent duplication in consolidated financial statements.
-- [G/L Register (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-3): Review posted general ledger batches with entry numbers, posting dates, user IDs, and source descriptions to support audits and traceability.
-- [Income Statement (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-154): Get an income statement that shows your income, cost of goods sold (COGS), gross profit, expenses, and net income.
-- [Intercompany Transactions (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-512): Lists all posted intercompany sales, purchases, and journal entries between internal entities. Use it for reviewing and reconciling intercompany activity before financial consolidation to ensure transparency and balance across companies.
-- [Purchase statistics (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-312): Keep track of vendor performance and ensure that your company is getting the best value for its money.
-- [Receivables-Payables (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5): Displays a side-by-side comparison of customer and vendor balances versus G/L control accounts to confirm consistency and highlight reconciliation issues.
-- [Reconcile Cust. and Vend. Accs. (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-33): Understand the transactions for control general ledger accounts, and find discrepancies between your general ledger and customer and vendor ledgers.
+- [Foreign Currency Balance (Report 503)](https://learn.microsoft.com/dynamics365/business-central/reports/report-503): Compare customer, vendor, and bank account currency balances with local currency values at the work-date exchange rate without posting adjustments.
+- [G/L - VAT Reconciliation (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-11): Compare VAT statement account totals with VAT entries by G/L account, using posting dates for G/L entries and VAT reporting dates for VAT.
+- [G/L Consolidation Eliminations (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-16): Preview prepared consolidation elimination journal lines alongside consolidated balances before posting the elimination journal.
+- [G/L Register for Posted Entries (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-3): Review posted general ledger registers and their entries, with document references, posting dates, and optional posted document details.
+- [Income Statement Overview (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-154): Review income, cost of goods sold, expenses, and profit using the income statement financial report selected in General Ledger Setup.
+- [Intercompany Transactions (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-512): Review current-company G/L entries and mapped customer or vendor entries for intercompany partners, with opening balances and period transactions.
+- [Purchase Statistics by Vendor (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-312): Compare purchases, invoice discounts, payment discounts, and payment tolerances by vendor across five reporting periods in Business Central.
+- [Receivables-Payables Overview (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5): Compare receivables and payables by due date in local currency to review expected incoming and outgoing amounts across selected periods.
+- [Reconcile Cust. and Vend. Accs. (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-33): Understand the transactions for general ledger control accounts, and find discrepancies between your general ledger and customer and vendor ledgers.
 - [Reminder report](https://learn.microsoft.com/dynamics365/business-central/reports/report-117): Print or email issued reminders that show overdue customer invoices, interest, fees, and VAT so customers can settle outstanding balances.
   - In the observatory: [Table 297 "Issued Reminder Header"](../../../../../objects/table/297.md), [Table 298 "Issued Reminder Line"](../../../../../objects/table/298.md)
-- [Retained Earnings Statement (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-156): Get an Retained Earnings Statement that shows an overview of retained earnings from the start of a period, net income, and distributions to shareholders.
+- [Retained Earnings Statement (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-156): Get a Retained Earnings Statement that shows an overview of retained earnings from the start of a period, net income, and distributions to shareholders.
+- [Run Financial Report Overview (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-25): Run a financial report using row and column definitions to analyze general ledger amounts, budgets, dimensions, and selected date ranges.
 - [Sales Statistics (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-112): Analyze earnings from an individual customer or earnings trends.
-- [Statement of Cashflows (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-155): Get an Statement of Cashflows that shows an overview of operating activities, investment activities, and finance activities.
-- [Trial Balance (Excel report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4405): Use Excel to view a snapshot of your chart of accounts at a given point to check the debit and credit net change and closing balance.
-- [Trial Balance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-6): View a snapshot of your chart of accounts at a given point and check the debit and credit net change and closing balance.
-- [Trial Balance by Period (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-38): Get a detailed breakdown of your closing balances over 12 accounting periods for each general ledger account.
-- [Trial Balance/Budget (Excel report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4406): Use Excel to view a snapshot of your chart of accounts at a given point to check the debit and credit net change and closing balance compared to the budget.
-- [Trial Balance/Budget (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-9): View a snapshot of your chart of accounts at a given point and check the debit and credit net change and closing balance compared to the budget.
-- [VAT Exceptions (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-31): Identifies transactions where VAT was expected but not calculated or posted. Run this to catch inconsistencies before filing VAT returns.
-- [VAT Reconciliation Report (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-743): Use before tax filing to ensure that VAT amounts calculated on documents match what was posted to the general ledger. This report compares VAT calculated from documents with the amounts posted to the VAT G/L accounts. Use during tax preparation.
-- [VAT Register (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-13): Use this report to review individual VAT entries before filing, or when investigating discrepancies in tax calculations. Displays all VAT entries from posted sales, purchases, and journals. Use filters such as posting date, VAT business posting group, or document number to drill into specific transactions.
-- [VAT Registration No. Check (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-32): Cross-check VAT registration numbers against the EU VAT Information Exchange System (VIES). Best used before submitting EU sales reports. Ensures the accuracy of VAT numbers, helping prevent compliance issues with cross-border VAT reporting.
-- [VAT Statement (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-12): Use during VAT filing to calculate and report VAT due or refundable to tax authorities. Presents a structured summary of VAT based on the VAT Statement setup. Select the statement name and period to run the report accurately.
-- [VAT- VIES Declaration Tax Auth (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-19): Creates a declaration of intra-community sales for submission to the VIES system. Make sure customer VAT numbers and country codes are correct before running. Prepares compliant VIES reports summarizing EU sales, helping meet legal obligations for cross-border transactions.
-- [Vendor - Balance to Date (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-321): Keep track of your outstanding payables and manage your vendor relationships.
-- [Vendor - Detail Trial Balance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-304): Analyze and reconcile vendor balances at the end of a period.
-- [Vendor - List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-301): Use the report, for example, to maintain information about the vendor.
-- [Vendor - Order Detail (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-308): Analyze your outstanding purchase orders to understand your expected purchase volume by vendor.
-- [Vendor - Order Summary (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-307): Analyze your outstanding purchase orders to understand your expected purchase volume.
-- [Vendor - Summary Aging (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-305): The *Vendor - Summary Aging* report is a legacy report for aged accounts payable. We recommend that you use **Aged Accounts Payables** report instead.
-- [Vendor - Top 10 List Excel (Excel report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4404): Analyze the effect of vendors on cash flow, and prioritize vendor payments.
-- [Vendor - Trial Balance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-329): Analyze the closing balance of vendors at the end of the period and reconcile the vendor subledger against the payables accounts in the general ledger.
-- [Vendor Pre-Payment Journal (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-317): The report can be used to check payments before creating payment files and posting the journal.
-- [Vendor/Item Purchases (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-313): Analyze your item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases.
+- [Statement of Cashflows (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-155): Get a Statement of Cashflows that shows an overview of operating activities, investing activities, and financing activities.
+- [Trial Balance by Period (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-38): Review general ledger opening balances and net changes across up to 12 accounting periods to compare period movements and investigate trends.
+- [Trial Balance Excel Report for G/L Accounts](https://learn.microsoft.com/dynamics365/business-central/reports/report-4405): Use Excel to view a snapshot of your chart of accounts at a given point to check the debit and credit net change and closing balance.
+- [Trial Balance Overview (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-6): View a snapshot of your chart of accounts at a given point and check the debit and credit net change and closing balance.
+- [Trial Balance/Budget (Excel Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4406): Use Excel to view a snapshot of your chart of accounts at a given point to check the net change and closing balance compared to the budget.
+- [Trial Balance/Budget Overview (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-9): View a snapshot of your chart of accounts at a given point and check the debit and credit net change and closing balance compared to the budget.
+- [VAT Exceptions for VAT Differences (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-31): Review posted VAT entries with VAT differences above a minimum threshold, with options for reversed entries and additional reporting currency.
+- [VAT Reconciliation Report (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-743): Review G/L entries and their linked posted VAT bases and amounts to support tax reconciliation without recalculating VAT from source documents.
+- [VAT Register for Posted Entries (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-13): Review VAT entries associated with selected G/L registers, including VAT reporting dates, posting groups, bases, and tax amounts.
+- [VAT Registration No. Check (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-32): Check VAT registration number formats and duplicates for customers, vendors, and contacts using country/region formats configured locally.
+- [VAT Statement Overview (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-12): Print VAT statement totals for a selected VAT reporting period, with options for entry status, rounding, currency, and country filters.
+- [VAT- VIES Declaration Tax Auth (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-19): Review intra-EU sales totals by VAT registration number, with separate goods, services, and three-party trade amounts for tax reporting.
+- [Vendor - Balance to Date (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-321): Review vendor entries and balances as of a selected date, including later applications and unapplied entries, to support payables reconciliation.
+- [Vendor - Detail Trial Balance (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-304): Review opening balances, transactions, remaining amounts, and closing balances by vendor to support period-end reconciliation in Business Central.
+- [Vendor - Order Detail (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-308): Review outstanding purchase order lines by vendor, including expected receipt dates, discounts, amounts, and back order quantities in Business Central.
+- [Vendor - Order Summary (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-307): Review outstanding purchase order amounts by vendor and expected receipt date across three monthly periods to support purchasing and cost planning.
+- [Vendor - Summary Aging (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-305): Review vendor amounts grouped by due date with the legacy Summary Aging report, and find the current Excel alternative for accounts payable analysis.
+- [Vendor - Top List (Excel Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4404): Rank vendors by purchase amounts or balances in local currency in Excel. Choose the number of vendors and posting-date filters for your analysis.
+- [Vendor - Trial Balance (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-329): Analyze the closing balance of vendors at the end of the period and reconcile the vendor subledger against the payables accounts in the general ledger.
+- [Vendor List Report for Vendor Details](https://learn.microsoft.com/dynamics365/business-central/reports/report-301): Review vendor posting groups, payment terms, discounts, and balances in local currency with the legacy Vendor List report in Business Central.
+- [Vendor Pre-Payment Journal (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-317): Check unposted payment journal lines, applications, discounts, tolerances, and errors before creating payment files or posting in Business Central.
+- [Vendor/Item Purchases (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-313): Analyze invoiced item quantities, actual costs, and discounts by vendor in local currency to review historical purchasing costs in Business Central.
 
 ## Videos, posts and code changes
 

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/14002",
+  "input_hash": "82a8867554cbd576354b27882b638e7f2c4e3ec73f0f26e0a8d3ed1892e6cc99",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-17T00:58:47.718Z",
+  "issues": [
+    "The description never calls this a security attack or a vulnerability. The problem it describes is connectors resolving the segments, so an operation such as DeleteDirectory acts on the wrong folder. The summary and key point 2 are reworded.",
+    "breaking=true is justified: the public API now returns an error for callers outside the repository that pass relative segments."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024681,
+    "changes_in_call": 6
+  }
+}

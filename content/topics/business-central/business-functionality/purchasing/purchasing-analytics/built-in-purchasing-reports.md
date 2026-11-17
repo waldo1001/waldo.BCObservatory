@@ -2,26 +2,26 @@
 id: topic/business-central/business-functionality/purchasing/purchasing-analytics/built-in-purchasing-reports
 type: topic
 title: Built-in purchasing reports
-summary: Built-in purchasing reports in Business Central cover aged payables, vendor balances and trial balances, vendor ledger day books, open purchase orders, purchase history and statistics, item/vendor catalogs, purchase reservation availability, and document layouts such as purchase orders and e-document invoice previews. Use it to find what each report shows, who uses it, and which report fits a given purchasing or payables question.
+summary: "Built-in purchasing reports in Business Central: standard reports for vendor balances, aging, purchase orders, vendor purchases, item/vendor catalogs and e-document invoice previews. It answers questions about what each report shows, its filters and options, and who uses it."
 tier: official
 language: en
 system: purchasing
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:17:41.840Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-23T01:12:47.131Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: ce0beb3a888a682044fcfca236fc851786a0fd588fccb08480d8ce24de104a6e
+  input_hash: 7542a156ac9687d15a6e6c8959aa061648ed77bef61a87f86bbc1d20e581d58e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4403
-    title: Aged Accounts Payables (Excel report)
-    date: "2024-12-14"
+    title: Aged Accounts Payable (Excel Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -42,35 +42,35 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-709
     title: Inventory Purchase Orders (report)
-    date: "2024-10-14"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-714
     title: Inventory Vendor Purchases (report)
-    date: "2024-10-14"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-720
-    title: Item/vendor catalog (report)
-    date: "2024-10-14"
+    title: Item/Vendor Catalog Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-409
     title: Purchase Reservation Availability (report)
-    date: "2024-10-14"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-312
-    title: Purchase statistics (report)
-    date: "2024-10-14"
+    title: Purchase Statistics by Vendor (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -90,50 +90,50 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-304
-    title: Vendor - Detail Trial Balance (report)
-    date: "2024-10-14"
+    title: Vendor - Detail Trial Balance (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-308
-    title: Vendor - Order Detail (report)
-    date: "2024-10-14"
+    title: Vendor - Order Detail (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-307
-    title: Vendor - Order Summary (report)
-    date: "2024-10-14"
+    title: Vendor - Order Summary (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4404
-    title: Vendor - Top 10 List Excel (Excel report)
-    date: "2024-12-15"
+    title: Vendor - Top List (Excel Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-329
-    title: Vendor - Trial Balance (report)
-    date: "2024-10-14"
+    title: Vendor - Trial Balance (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-320
-    title: Vendor Item catalog (report)
-    date: "2024-10-14"
+    title: Vendor Item Catalog Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-313
-    title: Vendor/Item Purchases (report)
-    date: "2024-10-14"
+    title: Vendor/Item Purchases (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -227,44 +227,44 @@ narrative: generated
 
 # Built-in purchasing reports
 
-> Built-in purchasing reports in Business Central cover aged payables, vendor balances and trial balances, vendor ledger day books, open purchase orders, purchase history and statistics, item/vendor catalogs, purchase reservation availability, and document layouts such as purchase orders and e-document invoice previews. Use it to find what each report shows, who uses it, and which report fits a given purchasing or payables question.
+> Built-in purchasing reports in Business Central: standard reports for vendor balances, aging, purchase orders, vendor purchases, item/vendor catalogs and e-document invoice previews. It answers questions about what each report shows, its filters and options, and who uses it.
 
-Path: [Business functionality](../../../business-functionality.md) > [Purchasing](../../purchasing.md) > [Purchasing analytics](../purchasing-analytics.md) > Built-in purchasing reports · tier official · system purchasing · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Purchasing](../../purchasing.md) > [Purchasing analytics](../purchasing-analytics.md) > Built-in purchasing reports · tier official · system purchasing · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is a set of reference pages, one for each built-in purchasing report or Excel report. It also has an overview page on purchasing reports and analytical tasks, which covers Report Explorer, item availability and purchase date calculation. There are no subtopics. Each report page describes what the report shows and who uses it, such as procurement managers, warehouse teams and controllers.
+This section describes the standard reports that ship with the Purchasing area. They fall into a few groups. Vendor balance and ledger reports cover Aged Accounts Payable (Excel), Day Book Vendor Ledger Entry, Vendor - Trial Balance, Vendor - Detail Trial Balance and Vendor - Top List (Excel). Order reports cover Inventory Purchase Orders, Vendor - Order Detail, Vendor - Order Summary and the Standard Purchase Order document. Purchase analysis reports cover Inventory Vendor Purchases, Vendor/Item Purchases and Purchase Statistics by Vendor.
 
 ## Key points
 
-- Payables and vendor ranking: Aged Accounts Payables (Excel) groups vendor ledger data into aging buckets and periods, by currency, vendor and due date. Vendor - Top 10 List Excel ranks top vendors by purchases and balance in local currency, and you can set how many vendors it shows.
-- Reconciliation: Vendor - Trial Balance shows beginning balance and net change by vendor posting group, to reconcile against general ledger payables accounts. Vendor - Detail Trial Balance shows opening balance, transactions in a period and closing balance, for reconciliation and cash flow analysis.
-- Ledger activity: Day Book Vendor Ledger Entry lists vendor transactions in date order, grouped by posting date, for periodic review, audit documentation and checking payables activity.
-- Open orders: Inventory Purchase Orders, Vendor - Order Detail and Vendor - Order Summary track outstanding receipts, discounts, back orders and expected receipt dates. The summary report shows quantities not yet received across three 30-day periods.
-- Purchase history: Inventory Vendor Purchases (grouped by item) and Vendor/Item Purchases (grouped by vendor) show invoiced quantity, cost and discounts for a date period. Purchase statistics adds payment discounts taken and lost, and payment history.
-- Catalogs: Item/vendor catalog and Vendor Item catalog list vendors for selected items or items for selected vendors, with direct unit cost, lead time calculation and vendor item number.
-- Documents and previews: Standard Purchase - Order produces formal purchase orders to print or email. E-Doc Sample Purchase Invoice creates a preview PDF from e-document data so you can check the layout before using it in production.
-- Availability: Purchase Reservation Availability shows item availability for shipment on purchase documents such as return orders, and lets you update quantities to receive.
+- Aged Accounts Payable (Excel) ages vendor ledger entries by due, posting or document date, with configurable period length and count, LCY and FCY views, and an option to skip vendors with zero balance.
+- Vendor - Trial Balance shows beginning balance, net change and fiscal-year-to-date amounts by vendor posting group. Vendor - Detail Trial Balance adds transaction details with opening and closing balances.
+- Vendor - Top List (Excel) ranks vendors by purchase amount or balance (LCY). It uses Quantity, Date Filter and Show parameters, with Print and Analysis worksheets.
+- Vendor - Order Detail and Inventory Purchase Orders show outstanding order lines, discounts and expected receipt dates, which helps track back orders. Vendor - Order Summary groups outstanding amounts across three one-month periods from a starting date.
+- Inventory Vendor Purchases (grouped by item) and Vendor/Item Purchases (grouped by vendor) show invoiced quantity, cost including item charges, and discounts for a date period.
+- Item/vendor catalog and Vendor Item Catalog list vendors for items or items for vendors, with direct unit cost, lead time and vendor item number.
+- Standard Purchase Order produces the formal order for print or email, with prepayment handling, order archiving and interaction logging. E-Doc Sample Purchase Invoice creates a preview PDF from e-document data to check layout.
+- Purchase Reservation Availability shows item availability on purchase documents such as return orders and can update Qty. to Receive on order lines. It is restricted when warehouse functionality is used.
 
 ## Learn pages
 
-- [Aged Accounts Payables (Excel report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4403): Analyze vendor balances at the end of each period. Helps ensure the reliability of what you owe your vendors.
+- [Aged Accounts Payable (Excel Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4403): Analyze vendor remaining amounts as of a selected date in Excel, with configurable aging periods, currency views, and document-level report data.
 - [Day Book Vendor Ledger Entry (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-2502): Get a daily transaction overview for vendor postings, similar in intent to a vendor day book or a chronological audit-style listing of vendor postings.
 - [E-Doc Sample Purchase Invoice report](https://learn.microsoft.com/dynamics365/business-central/reports/report-6102): Generate a sample purchase invoice PDF to preview how an incoming e-document will look before it's posted and validate the layout.
-- [Inventory Purchase Orders (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-709): Analyze your outstanding purchase orders to understand your expected purchase volume by item. Compare your overall outstanding receipts with the expected receipt date to highlight any overdue back orders.
-- [Inventory Vendor Purchases (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-714): Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases.
-- [Item/vendor catalog (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-720): Review or share vendor catalogs, compare vendor offerings, and support purchasing decisions.
-- [Purchase Reservation Availability (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-409): View the availability of items for shipment on purchase documents, such as return orders.
-- [Purchase statistics (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-312): Keep track of vendor performance and ensure that your company is getting the best value for its money.
+- [Inventory Purchase Orders (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-709): Review outstanding purchase order quantities, expected receipt dates, discounts, and amounts by item. Identify overdue receipts for follow-up.
+- [Inventory Vendor Purchases (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-714): Analyze invoiced quantities, actual costs, and discounts by vendor and item. Use the Inventory Vendor Purchases report to review procurement spending.
+- [Item/Vendor Catalog Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-720): Review vendor prices, lead time calculations, and vendor item numbers for selected items. Use the Item/Vendor Catalog report for purchasing analysis.
+- [Purchase Reservation Availability (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-409): Review reserved item availability on purchase documents. Choose document or line details and optionally update quantities on purchase order lines.
+- [Purchase Statistics by Vendor (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-312): Compare purchases, invoice discounts, payment discounts, and payment tolerances by vendor across five reporting periods in Business Central.
 - [Purchasing reports and analytical tasks](https://learn.microsoft.com/dynamics365/business-central/purchase-reports): Learn which purchase reports are available in the standard version of Business Central so that you can keep track of your business.
 - [Standard Purchase Order report](https://learn.microsoft.com/dynamics365/business-central/reports/report-1322): Print or email a purchase order that shows vendor and delivery details, order lines, prepayments, VAT specifications, and totals.
-- [Vendor - Detail Trial Balance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-304): Analyze and reconcile vendor balances at the end of a period.
-- [Vendor - Order Detail (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-308): Analyze your outstanding purchase orders to understand your expected purchase volume by vendor.
-- [Vendor - Order Summary (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-307): Analyze your outstanding purchase orders to understand your expected purchase volume.
-- [Vendor - Top 10 List Excel (Excel report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4404): Analyze the effect of vendors on cash flow, and prioritize vendor payments.
-- [Vendor - Trial Balance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-329): Analyze the closing balance of vendors at the end of the period and reconcile the vendor subledger against the payables accounts in the general ledger.
-- [Vendor Item catalog (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-320): Get a list of vendors by item or items per vendor.
-- [Vendor/Item Purchases (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-313): Analyze your item purchases per vendor to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases.
+- [Vendor - Detail Trial Balance (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-304): Review opening balances, transactions, remaining amounts, and closing balances by vendor to support period-end reconciliation in Business Central.
+- [Vendor - Order Detail (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-308): Review outstanding purchase order lines by vendor, including expected receipt dates, discounts, amounts, and back order quantities in Business Central.
+- [Vendor - Order Summary (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-307): Review outstanding purchase order amounts by vendor and expected receipt date across three monthly periods to support purchasing and cost planning.
+- [Vendor - Top List (Excel Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4404): Rank vendors by purchase amounts or balances in local currency in Excel. Choose the number of vendors and posting-date filters for your analysis.
+- [Vendor - Trial Balance (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-329): Analyze the closing balance of vendors at the end of the period and reconcile the vendor subledger against the payables accounts in the general ledger.
+- [Vendor Item Catalog Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-320): Review vendor purchase prices, lead time calculations, and vendor item numbers with the Vendor Item Catalog report to support purchasing decisions.
+- [Vendor/Item Purchases (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-313): Analyze invoiced item quantities, actual costs, and discounts by vendor in local currency to review historical purchasing costs in Business Central.
 
 ## Videos, posts and code changes
 

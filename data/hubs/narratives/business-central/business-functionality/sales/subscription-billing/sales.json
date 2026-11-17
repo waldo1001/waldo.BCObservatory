@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/sales/subscription-billing/sales",
-  "input_hash": "233dc746d201f53533a4856d4efa9f53538db475646a6a1fc3a044269a9be824",
-  "summary": "Sales in Subscription billing covers selling subscription lines to customers in Business Central: sales quotes and orders with subscription lines, price calculation, foreign currency handling, and credit memos or cancellations. It answers how-to questions on these sales-side tasks.",
-  "overview": "This section describes the sales side of subscription billing. A sales quote or order records a monetary agreement with a customer and can carry recurring billing subscription lines. When the lines are shipped, they transfer to subscriptions.\n\nThe other pages cover topics around that flow: how the price of a subscription line is determined from a calculation base amount and percentage, how subscriptions in foreign currencies are converted and updated, and how to correct billing with credit memos or by deleting unposted invoices.\n\nStart with \"Sales with subscription lines\" to understand the main flow. Then read \"Sales price calculation\" and \"Manage subscriptions in foreign currencies\" for pricing and currency details. Use \"Credit memos and cancellation\" when billing needs correcting.",
+  "input_hash": "72d951612b4c516ff29090d9fd7f4438440bb9fdc278a2f37677ce634d5cc525",
+  "summary": "Sales in Subscription billing covers how subscription lines are sold and maintained on the customer side. It answers questions about sales quotes, orders and blanket orders with subscription packages, price calculation, foreign currency subscriptions, and credit memos or cancellation of billed contracts.",
+  "overview": "This section describes the sales side of subscription billing in Business Central. Subscription lines are assigned to sales documents (quotes, orders and blanket orders) through subscription packages. They are printed and billed on a recurring basis. The pages explain how the start date of a subscription line and the cancellation period are calculated.\n\nSupporting pages cover pricing, currency and corrections. Price calculation uses a calculation base amount and a percentage, with options for item price, document price, or document price with discount. Foreign currency pages explain currency codes, amount conversion and exchange rate updates. The credit memo page explains how to correct billed contract lines.\n\nStart with \"Sales with subscription lines\" to understand the basic flow. Then read \"Sales price calculation\" and \"Manage subscriptions in foreign currencies\" for pricing details. Use \"Credit memos and cancellation\" when you must correct or reverse billing.",
   "key_points": [
-    "Sales quotes or orders can include subscription lines, which transfer to subscriptions when shipped.",
-    "Subscription lines can be assigned and printed on sales documents; the page also mentions inventory picks, archiving documents and contract renewal.",
-    "Price calculation uses the Calculation Base Amount and Calculation Base % fields to set the Price field.",
-    "The base for price calculation can be Item Price, Document Price, or Document Price And Discount.",
-    "Foreign currency subscriptions use the Currency Code and Amount fields, with conversion by currency factor.",
-    "The Update exchange rates action refreshes rates on subscription lines, and a job queue can schedule it.",
-    "The Create Corrective Credit Memo action creates credit memos for subscription billing contracts.",
-    "Unposted invoices can be deleted, and billing lines and contract lines can be adjusted; deferral release is also covered."
+    "Sales quotes, orders and blanket orders can carry subscription lines assigned from subscription packages.",
+    "Subscription lines can be printed and shipped, and are billed on a recurring basis.",
+    "The start date of a subscription line and the cancellation period are calculated by the system.",
+    "Price is based on the Calculation Base Amount and Calculation Base % fields.",
+    "The price source can be Item Price, Document Price, or Document Price And Discount.",
+    "Foreign currency subscriptions use a Currency Code field, and the Update exchange rates action can refresh amounts via the currency factor.",
+    "Exchange rate updates can be scheduled with a job queue.",
+    "The Create Corrective Credit Memo action creates credit memos, and unposted invoices can be deleted. Billing lines and deferral release are also handled."
   ],
   "members_used": 4,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:04:52.841Z",
+  "at": "2026-11-17T01:00:07.340Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011230999999999998
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:25:39.861Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: saying the job queue schedules the Update exchange rates action is a reasonable inference. The source only lists 'Job queue scheduling' as a feature on that page, without saying what it schedules.",
-      "Minor: the source lists the Calculation Base Amount, Calculation Base % and Price fields but does not say exactly how one sets the other. The phrase 'to set the Price field' is a fair reading of the source but is not stated in it."
-    ],
-    "input_hash": "233dc746d201f53533a4856d4efa9f53538db475646a6a1fc3a044269a9be824",
-    "cost_usd": 0.0254232
+    "cost_usd": 0.011533
   }
 }

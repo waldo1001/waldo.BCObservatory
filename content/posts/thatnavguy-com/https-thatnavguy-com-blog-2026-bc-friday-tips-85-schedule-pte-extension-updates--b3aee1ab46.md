@@ -18,7 +18,7 @@ review:
   at: "2026-10-17T01:11:53.331Z"
   flags: []
 generated:
-  at: "2026-10-17T00:20:42.327Z"
+  at: "2026-11-17T00:16:35.786Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -72,7 +72,7 @@ preview:
   image_h: null
   site_name: null
   favicon: https://thatnavguy.com/favicon.svg
-  probed_at: "2026-10-17T01:09:09.538Z"
+  probed_at: "2026-11-17T00:53:19.298Z"
 ---
 
 # BC Friday Tips #85 Schedule PTE Extension Updates from the Admin Centre

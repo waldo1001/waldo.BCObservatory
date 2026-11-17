@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:03.176Z"
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -53,7 +53,6 @@ links:
     - video/IAacWsvav1E
     - video/snVsG69X-kw
   posts:
-    - post/aardvarklabs-blog/3761
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-24-30-2026--fa7b3b0afa
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c
@@ -70,7 +69,7 @@ coverage:
   learn: 3
   code: 0
   video: 2
-  blog: 5
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 058bea00d9eccf8163bca3e01c4821b017c920fc8cb8f73c78958b8eb65a9717
@@ -127,7 +126,6 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Optimizing Business Central Indexes for Performance with Copilot](../../../../posts/aardvarklabs-blog/3761.md) (community post): "export the Database Missing Indexes table to Excel"
 - [Weekly Review: Business Central AL Development – May 24–30, 2026](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-24-30-2026--fa7b3b0afa.md) (community post): "Index Management page uses SQL DMV queries to help decide which indexes to disable"
 - [Business Central 2026 Release Wave 2: Turn SIFT Indexes On or Off](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9.md) (community post): "SIFT indexes maintain pre-calculated aggregate information using SQL indexed views"
 - [Manage Database Index Usage in Business Central.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c.md) (community post): "manage database indexes directly from the client without SQL access"

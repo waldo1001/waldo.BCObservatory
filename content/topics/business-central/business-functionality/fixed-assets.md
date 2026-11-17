@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:48.992Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -56,105 +56,112 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5611
     title: FA Posting Group - Net Change Report (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5608
     title: Fixed Asset - Acquisition List (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4412
     title: Fixed Asset Analysis (Excel report)
-    date: "2024-12-26"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5600
-    title: Fixed Asset Analysis (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5605
     title: Fixed Asset Book Value 01 (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5606
     title: Fixed Asset Book Value 02 (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4411
     title: Fixed Asset Details (Excel report)
-    date: "2024-12-27"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5604
-    title: Fixed Asset Details (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5636
     title: Fixed Asset Document Nos. (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5610
     title: Fixed Asset G/L Analysis (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5620
+    title: Fixed Asset Insurance Analysis (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5602
     title: Fixed Asset Journal - Test (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5601
-    title: Fixed Asset List (report)
-    date: "2024-10-23"
+    title: Fixed Asset List and Setup (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4413
     title: Fixed Asset Projected Value (Excel report)
-    date: "2024-12-27"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5607
     title: Fixed Asset Projected Value (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5603
-    title: Fixed Asset Register (report)
-    date: "2024-10-23"
+    title: Fixed Asset Register Entries (report)
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5604
+    title: Fixed Asset Transaction Details (report)
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5600
+    title: Fixed Asset Value Analysis (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -173,16 +180,9 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5620
-    title: Insurance - Analysis (report)
-    date: "2024-11-11"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5624
     title: Insurance - Coverage Details (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -196,28 +196,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5625
     title: Insurance - Tot. Value Insured (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5626
     title: Insurance - Uninsured FAs (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5622
     title: Insurance Journal - Test (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5623
-    title: Insurance Register (report)
-    date: "2024-11-11"
+    title: Insurance Register Entries (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -237,22 +237,22 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5630
-    title: Maintenance - Analysis (report)
-    date: "2024-11-11"
+    title: Maintenance - Analysis (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5634
-    title: Maintenance - Details (report)
-    date: "2024-11-11"
+    title: Maintenance - Details (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5635
     title: Maintenance - Next Service (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null

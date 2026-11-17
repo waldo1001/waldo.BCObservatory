@@ -12,7 +12,7 @@ review:
   at: "2026-11-16T00:59:57.166Z"
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -397,7 +397,6 @@ links:
   localizations: []
   videos:
     - video/mnxOSl1Y9PI
-    - video/npkC4wyucyY
   posts:
     - post/aardvarklabs-blog/4177
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-07-weekly-review-business-central-al-development-june-28-july-4-2026--3ba0f69570
@@ -437,7 +436,7 @@ children:
 coverage:
   learn: 523
   code: 78
-  video: 2
+  video: 1
   blog: 5
   guideline: 0
 bc_forms:
@@ -601,7 +600,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [BC Friday Tips #62 VS Code AL Themes](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-62-vs-code-al-themes--b6e93a2c5d.md) (community post): "The AL Language extension in VS Code includes built-in themes called Business Central Light and Business Central Dark"
 - [AL Pocket Tools](../../posts/thatnavguy-com/https-thatnavguy-com-projects-al-pocket-tools--9c3084464c.md) (community post): "provides utilities for Dynamics 365 Business Central developers"
 - [What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)](../../videos/mnxOSl1Y9PI.md) (video): "Key Updates in our Learning Content documentation For Developers 2024 release wave 1"
-- [What's new in BC-Bench (2026 release wave 2)](../../videos/npkC4wyucyY.md) (video): "benchmarking; ai coding agents; bug fixing; code review; test generation"
 
 ## Business Central pages and reports
 

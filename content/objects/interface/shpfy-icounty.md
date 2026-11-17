@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T00:48:52.213Z"
+  at: "2026-11-17T00:48:58.898Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b3fc34eb6fe9853ab736902e85f2c97568cf1278c250b166d5719151a56ee3ee
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICounty.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICounty.Interface.al
     title: src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICounty.Interface.al (releases/29.x)
     date: null
-    commit: 9d65b5414f44cbad5890049a1e0490a64118ffdb
+    commit: ae251bc67417b1b37b41aaf52480e6a5c8f9294e
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Shpfy ICounty" in Shopify (Microsoft.Integration.Shopify). 2 public procedures. Introduced in BC29, still in BC30.
 
-Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 9d65b541](https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICounty.Interface.al) · facts from BC29
+Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at ae251bc6](https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/Apps/W1/Shopify/app/src/Customers/Interfaces/ShpfyICounty.Interface.al) · facts from BC29
 
 ## Properties
 

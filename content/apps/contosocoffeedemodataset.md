@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-11-17T00:52:33.580Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d817b17bc6ba38f914079a76f6e0f99d3e6c52996f4ed5b8ce9848fe89a67798
+  input_hash: a34f308ede11f35144f2e229ca6a89e1a65a2af65a455ea9a9a7bb46a402f033
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ContosoCoffeeDemoDataset/app

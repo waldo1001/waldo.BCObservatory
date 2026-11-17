@@ -19,7 +19,7 @@ review:
   at: "2026-10-17T01:11:53.331Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-17T00:16:35.786Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -91,7 +91,7 @@ preview:
   image_h: null
   site_name: Tech Adventures in Business Central | AL Development & AI Solutions
   favicon: https://tine.staric.net/favicon.ico
-  probed_at: "2026-10-17T01:09:09.536Z"
+  probed_at: "2026-11-17T00:53:19.014Z"
 ---
 
 # The Copilot harness is now VS Code's default

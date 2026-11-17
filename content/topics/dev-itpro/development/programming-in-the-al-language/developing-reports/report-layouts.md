@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -56,7 +56,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
     title: Available Fonts in Business Central
-    date: "2025-02-28"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -126,7 +126,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-get-started-layouts
     title: Get started creating report layouts
-    date: "2026-09-09"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -208,7 +208,6 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/developing-reports
   localizations: []
   videos:
-    - video/2u5_F9Ztt7U
     - video/9ZmmQEpPyB4
     - video/V8CSor5qBRE
     - video/W003w36Isto
@@ -261,7 +260,7 @@ children: []
 coverage:
   learn: 22
   code: 6
-  video: 4
+  video: 3
   blog: 34
   guideline: 0
 bc_forms:
@@ -367,7 +366,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 2 (BC29): Design themes, headers, and footers for document reports with the updated Word add-in](../../../../../posts/yzhums-com/76756.md) (community post): "Five predefined header layouts and five footer layouts can be inserted with one click"
 - [Dynamics 365 Business Central: How to quickly copy a report layout (Create a copy of the selected layout)](../../../../../posts/yzhums-com/76763.md) (community post): "Report layouts determine which fields, arrangement, and styling appear in reports"
 - [Business Central 2026 release wave 2 (BC29): Custom Report Layouts are now deprecated and have been removed](../../../../../posts/yzhums-com/77038.md) (community post): "Custom Report Layouts have been removed in Business Central 2026 wave 2"
-- [What's New: Server and Database (2026 release wave 1)](../../../../../videos/2u5_F9Ztt7U.md) (video): "Word Add-in for Document Reports Enhancement; Layout Lifecycle Control for Report Layouts"
 - [Let It Snow: How To Use Themable Layouts in Business Central (2024)](../../../../../videos/9ZmmQEpPyB4.md) (video): "Themeable layouts; Abts font in Office; Word layout watermark support"
 - [What’s New: Enhanced Document Reporting Features (For Developers) (2024 release wave 2)](../../../../../videos/V8CSor5qBRE.md) (video): "word layout engine; document reports; word add-in; layout controls"
 - [What's New: Reporting (For Developers) (2025 release wave 1)](../../../../../videos/W003w36Isto.md) (video): "Override Excel multiple data sheets property at layout level"

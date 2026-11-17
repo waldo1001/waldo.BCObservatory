@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d4267e15f9f94d7855fa46b178b2b257bd0a228598657f0f87aa90b3a2357688
@@ -352,7 +352,6 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/aardvarklabs-blog/1826
     - post/aardvarklabs-blog/3118
     - post/aardvarklabs-blog/3267
     - post/aardvarklabs-blog/4095
@@ -381,7 +380,7 @@ coverage:
   learn: 46
   code: 0
   video: 0
-  blog: 14
+  blog: 13
   guideline: 0
 bc_forms: []
 member_hash: d4267e15f9f94d7855fa46b178b2b257bd0a228598657f0f87aa90b3a2357688
@@ -448,7 +447,6 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#9045 Config. Packages with Native AL XML Data Types](../../../../../changes/bcapps/9045.md) (code change): "uses the native AL XML data types"
-- [How to Work with JSON in Business Central’s AL Code](../../../../../posts/aardvarklabs-blog/1826.md) (community post): "understanding JSON structures using JsonObject, JsonArray, and JsonToken types"
 - [Leveraging RecordRef and FieldRef for Dynamic Coding](../../../../../posts/aardvarklabs-blog/3118.md) (community post): "use weakly typed RecordRef and FieldRef objects in Business Central AL"
 - [Overcoming Integer Limits in Business Central with BigInteger](../../../../../posts/aardvarklabs-blog/3267.md) (community post): "BigInteger is a signed 64-bit type supporting 9.2 quintillion values"
 - [Business Central v29: ModuleInfo Gets Four New Runtime 18 Values](../../../../../posts/aardvarklabs-blog/4095.md) (community post): "Runtime 18 adds ContextSensitiveHelpUrl, EULA, Help and PrivacyStatement to the ModuleInfo data type"

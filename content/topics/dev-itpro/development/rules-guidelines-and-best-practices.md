@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:26.148Z"
   flags: []
 generated:
-  at: "2026-10-25T17:55:54.196Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -161,8 +161,7 @@ links:
     - topic/dev-itpro/development
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices
   localizations: []
-  videos:
-    - video/reUoIdQZaNM
+  videos: []
   posts: []
   guidelines: []
   changes:
@@ -182,7 +181,7 @@ children:
 coverage:
   learn: 19
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -233,6 +232,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#153 Promote knowledge for Microsoft-owned review skills](../../../changes/bcquality/153.md) (code change): "Moves 29 knowledge articles and 56 companion samples used by Microsoft-endorsed review skills"
 - [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../changes/bcquality/156.md) (code change): "Adds 17 AL/BC knowledge articles with good and bad samples across style, data modeling, web services"
 - [#157 18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource](../../../changes/bcquality/157.md) (code change): "BCQuality adds 18 new knowledge articles covering data modeling, testing, style, security, error handling"
-- [20260209 - Chaos to Clarity - Visualizing AL architecture for scalable Business Central solutions](../../../videos/reUoIdQZaNM.md) (video): "al architecture; design principles; documentation; abstraction levels"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

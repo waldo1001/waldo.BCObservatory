@@ -6,13 +6,13 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "The Create Product Information with Copilot app is discontinued and its functionality is obsoleted. The upgrade codeunit unregisters the Copilot capability once per database, a notification directs users to modern search instead, and most objects are wrapped in obsolescence guards with Pending state for 30.0 and Removed state for 33.0.",
+  "summary": "The Create Product Information with Copilot app is discontinued. Install and upgrade code unregister its Copilot capability, and the Item Substitution Entry page shows a notification pointing users to modern search. The other code objects are marked obsolete pending in 30.0, and the table extension fields move to Removed in 33.0.",
   "key_points": [
-    "Copilot capability for item substitution suggestions is unregistered via upgrade codeunit, guarded by upgrade tag MS-659006-UnregisterCreateProductInfoCapability-20261112",
-    "Subscriber to OnRegisterCopilotCapability removed to prevent re-registration when capabilities page is opened",
-    "New notification in Item Substitution Entry page directs users to use modern search instead, with don't show again option",
-    "Most app objects (codeunits, pages, table extension, enums) marked obsolete with Pending state for version 30.0, transitioning to Removed in 33.0",
-    "App removed from build configuration so it no longer installs on new environments"
+    "Upgrade unregisters the Create Product Information capability once per database, guarded by an upgrade tag; install also unregisters it",
+    "Removed the OnRegisterCopilotCapability subscriber so the capability is no longer re-registered",
+    "New notification codeunit on Item Substitution Entry points users to Use modern search, with a Don't show again option",
+    "Code objects are wrapped in CLEAN30 with ObsoleteState Pending and tag 30.0; the table extension fields go from Pending to Removed in 33.0",
+    "App removed from the build configuration so it is no longer installed"
   ],
   "change_kind": "obsoletion",
   "behavior_change": true,

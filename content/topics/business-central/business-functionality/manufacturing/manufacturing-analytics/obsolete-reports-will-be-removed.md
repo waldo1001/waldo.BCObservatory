@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:42.379Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -20,15 +20,15 @@ generated:
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000756
-    title: Detailed Calculation (report)
-    date: "2024-10-23"
+    title: Detailed Calculation Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000758
-    title: Item BOM Compare list (report)
-    date: "2024-11-04"
+    title: Item BOM Compare List (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -56,7 +56,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000767
     title: Prod. Order - Calculation (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -183,12 +183,12 @@ Start here if you rely on one of these reports and need to know what it covers, 
 
 ## Learn pages
 
-- [Detailed Calculation (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000756): Analyze the manufacturing costs for an item, including details from bills of materials, routing operations, and associated expenses. Scrap costs are accounted for, which gives you an accurate total cost for producing items.
-- [Item BOM Compare list (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000758): Compare similar final products with respect to their costs.
+- [Detailed Calculation Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000756): Review single-level manufacturing costs by item, including production BOM components, routing operations, scrap, and overhead for a calculation date.
+- [Item BOM Compare List (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000758): Compare component quantities and costs for two production items using the legacy Item BOM Compare List report. Find its replacement report.
 - [Machine Center List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000760): Get a list of the machine center setup in your company, which can help you manage and schedule production activities efficiently.
 - [Machine Center Load (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000784): Analyze the load on a machine center.
 - [Machine Center Load/Bar (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000786): Get a list of machine centers that are overloaded according to the plan.
-- [Prod. Order - Calculation (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000767): Get a list of your production orders and their costs.
+- [Prod. Order - Calculation (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000767): Review expected operation and component costs for production orders. Find the Production Order Statistics replacement for this obsolete report.
 - [Rolled-up Cost Shares (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000754): Get a comprehensive view of the costs associated with manufactured items, broken down into different cost components such as material, capacity, capacity overhead, subcontracting, and manufacturing overhead.
 - [Single-Level Cost Shares (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000755): Get a detailed breakdown of the costs associated with manufactured items at each level of the bill of materials (BOM). The report shows the cost contributions of materials, labor, and overheads for each individual component within the BOM.
 - [Work Center List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000759): Get a list of work center setup in your company, which can help you manage and schedule production activities efficiently.

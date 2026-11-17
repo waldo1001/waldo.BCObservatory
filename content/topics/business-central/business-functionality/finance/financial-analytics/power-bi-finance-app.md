@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-kpis
     title: Finance App KPIs and Measures (Power BI)
-    date: "2024-10-31"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null

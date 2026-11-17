@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -212,6 +212,7 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-apps-for-business-central
   localizations: []
   videos:
+    - video/7lxkboRGw28
     - video/9g1vwaXmy2s
   posts:
     - post/yzhums-com/71758
@@ -227,7 +228,7 @@ children:
 coverage:
   learn: 14
   code: 84
-  video: 1
+  video: 2
   blog: 1
   guideline: 0
 bc_forms:
@@ -360,6 +361,7 @@ Start with the KPI page to decide what to measure. Then use the financial report
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Business Central 2026 release wave 1 (BC28): Get item insights with advanced KPIs and Summary (new Item Statistics page)](../../../posts/yzhums-com/71758.md) (community post): "Item Statistics page that provides financial and performance metrics for items"
+- [20261109 - Not a Developer No Problem! Deploy & Embed Power BI Apps in Business Central](../../../videos/7lxkboRGw28.md) (video): "Power BI Apps as Embedded Business Central Reports; Multi-company reporting with Fabric"
 - [What's Cooking in Business Central: Financial Report Scheduling](../../../videos/9g1vwaXmy2s.md) (video): "financial report scheduling; recurring schedules; export to excel"
 
 ## Business Central pages and reports

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,7 +112,8 @@ links:
     - video/h6a8BVzvuZ4
     - video/hba7KVWrIwY
     - video/hL4PUhjyhNY
-  posts: []
+  posts:
+    - post/gerardorenteria-blog/15508
   guidelines: []
   changes:
     - change/bcapps/10029
@@ -135,7 +136,7 @@ coverage:
   learn: 8
   code: 16
   video: 6
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 42
@@ -212,6 +213,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9648 [master]-[BE] [PEPPOL] There is a problem between the totals on the invoice printout and the XML PEPPOL with Payment discount](../../../../changes/bcapps/9648.md) (code change): "Fixed discrepancy between invoice printout and PEPPOL XML totals"
 - [#9749 OIOUBL fixes after schematron update](../../../../changes/bcapps/9749.md) (code change): "OIOUBL export now correctly handles discounts by reporting them with proper VAT categories"
 - [#9878 Add buyer order reference to ZUGFeRD export](../../../../changes/bcapps/9878.md) (code change): "ZUGFeRD export now includes the buyer order reference"
+- [New Application Ideas of Dynamics 365 Business Central (2026 OCT)](../../../../posts/gerardorenteria-blog/15508.md) (community post): "Finance and localization ideas focus on e-invoicing (French rules, ZUGFeRD, EN 16931, E-Document for AT and CH)"
 - [What's new in E-Documents: Overview (2026 release wave 2)](../../../../videos/07G7aC14Y_w.md) (video): "EDI functionality in Business Central; Purchase order EDI document type; Sales order"
 - [What's New: E-Documents Connectors (2025 release wave 1)](../../../../videos/GM0DNxu39LM.md) (video): "E-Documents Connectors; e-documents; connectors; appsource; electronic invoicing; integration setup"
 - [What's New: E-Documents ZUGFeRD Format (2025 release wave 2)](../../../../videos/gVjrKPHlrgM.md) (video): "E-Documents ZUGFeRD Format; zugferd; pdf-a3; germany; invoicing; hybrid documents"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:16.249Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,7 +49,8 @@ links:
   topics:
     - topic/dev-itpro/integration-with-ai
   localizations: []
-  videos: []
+  videos:
+    - video/npkC4wyucyY
   posts: []
   guidelines: []
 learn_toc_path:
@@ -61,7 +62,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -98,5 +99,11 @@ The three pages fit together as two API overviews plus a transparency note. Star
 - [Prediction API overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ml-prediction-api-overview): Integrate with the Azure Machine Learning web service through the prediction API in Business Central.
   - In the observatory: [Codeunit 2003 "ML Prediction Management"](../../../objects/codeunit/2003.md)
 - [Transparency Note Machine Learning APIs for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ml-transparency-note): Understand how our AI technology works with regards to Machine Learning APIs, the choices system owners can make that influence system performance and behavior, and the importance of thinking about the whole system, including the technology, the people, and the environment
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's new in BC-Bench (2026 release wave 2)](../../../videos/npkC4wyucyY.md) (video): "AI coding agents; Bug fixing category; Pass@5 improvement with MCP"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

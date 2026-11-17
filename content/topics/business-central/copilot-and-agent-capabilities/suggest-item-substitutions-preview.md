@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:20.835Z"
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,6 +50,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/13506
+    - change/bcapps/14007
 learn_toc_path:
   - Copilot and agent capabilities
   - Suggest item substitutions (preview)
@@ -102,6 +103,7 @@ There are two pages. "Suggest substitute items with Copilot" is the how-to: it c
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#13506 Upgrade Marketing Text, Sales Lines Suggestions, and Item Substitution to GPT-5.6](../../../changes/bcapps/13506.md) (code change): "Item Substitution uses GPT-5.6 Ceres latest model."
+- [#14007 Obsolete Create Product Information with Copilot](../../../changes/bcapps/14007.md) (code change): "Copilot capability for item substitution suggestions is unregistered"
 - [What's New: Item Substitution with Copilot (2024 release wave 2)](../../../videos/bCIcq1zESKk.md) (video): "Item substitution with Copilot; Suggest with Copilot action"
 
 ## Business Central pages and reports

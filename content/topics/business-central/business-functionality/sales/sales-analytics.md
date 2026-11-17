@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/sales/sales-analytics
 type: topic
 title: Sales analytics
-summary: "Sales analytics in Business Central covers the ways to analyze sales data: the Power BI Sales app, built-in sales reports, ad-hoc Data Analysis on list pages, custom analysis reports, and legacy reports marked for removal. It answers what each report or tool shows and how to choose between them."
+summary: "Sales analytics in Business Central covers the ways to analyze sales data: the Power BI Sales app, built-in and legacy sales reports, ad-hoc analysis on list pages, and analysis reports built from templates. It answers what each report shows, which tool fits a task, and which reports are being removed."
 tier: official
 language: en
 system: sales
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0b2e07da2a9e8c34a3de5f7ea0d967094002b900e42c2ad30ed8f858b6fc832b
+  input_hash: fe1676040a908a4ad99359425528dfa27d0f2cd96b0c18f10e9ca41538c24d66
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales
@@ -62,15 +62,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-121
-    title: Customer - Balance to date (report)
-    date: "2024-10-03"
+    title: Customer - Balance to Date (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-108
-    title: Customer - Order Detail (report)
-    date: "2024-10-03"
+    title: Customer - Order Detail (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -90,22 +90,22 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-111
-    title: Customer - Top 10 list (report)
-    date: "2024-10-03"
+    title: Customer - Top 10 List (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4409
-    title: Customer - Top 10 List Excel (Excel report)
-    date: "2024-12-16"
+    title: Customer - Top List (Excel Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-129
-    title: Customer - Trial Balance (report)
-    date: "2024-10-03"
+    title: Customer - Trial Balance (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -119,28 +119,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-history
     title: Customer Retention History (Power BI report)
-    date: "2026-03-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-overview
     title: Customer Retention Overview (Power BI report)
-    date: "2026-03-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-113
-    title: Customer/Item Sales (report)
-    date: "2024-10-03"
+    title: Customer/Item Sales Overview (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-daily-sales
     title: Daily Sales Analysis Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -154,42 +154,42 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-708
     title: Inventory Order Details (report)
-    date: "2024-10-03"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-813
     title: Inventory Picking List (report)
-    date: "2024-10-03"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-718
     title: Inventory Sales Back Orders (report)
-    date: "2024-10-03"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-key-sales-influencers
     title: Key Sales Influencers Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-annual-total
     title: Moving Annual Total Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-average
     title: Moving Average Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -210,91 +210,91 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app
     title: Power BI Sales app
-    date: "2026-03-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model
     title: Power BI Sales App Semantic Model Reference
-    date: "2025-10-07"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget
     title: Sales Actual vs. Budget Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-analytics-overview
     title: Sales analytics
-    date: "2024-11-11"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-customer
     title: Sales by Customer Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-item
     title: Sales by Item Analysis Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-location
     title: Sales by Location Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-project
     title: Sales by Project Power BI Report
-    date: "2025-10-07"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-salesperson
     title: Sales by Salesperson Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-decomposition
     title: Sales Decomposition Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-demographics
     title: Sales Demographics Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-forecasting
     title: Sales Forecasting Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-kpis
     title: Sales KPIs and measures (Power BI)
-    date: "2026-03-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -473,27 +473,23 @@ narrative: generated
 
 # Sales analytics
 
-> Sales analytics in Business Central covers the ways to analyze sales data: the Power BI Sales app, built-in sales reports, ad-hoc Data Analysis on list pages, custom analysis reports, and legacy reports marked for removal. It answers what each report or tool shows and how to choose between them.
+> Sales analytics in Business Central covers the ways to analyze sales data: the Power BI Sales app, built-in and legacy sales reports, ad-hoc analysis on list pages, and analysis reports built from templates. It answers what each report shows, which tool fits a task, and which reports are being removed.
 
 Path: [Business functionality](../../business-functionality.md) > [Sales](../sales.md) > Sales analytics · tier official · system sales · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Sales analytics brings together the options that sales managers and operators have for monitoring KPIs and trends. The main routes are the Power BI Sales app, Financial Reporting, ad-hoc analysis on list pages, Open in Excel, and the built-in reports.
-
-The hub's own pages cover two hands-on tools. Ad-hoc analysis uses the Data Analysis feature on list pages for quick fact-checking and custom views without running a predefined report. Analysis reports combine line and column templates to build PivotTable-style reports on sales, purchases and inventory.
-
-Three subtopics go deeper. The Power BI Sales app section describes role-based reports, the star-schema semantic model and the KPI and measure definitions. Built-in sales reports lists receivables, order, salesperson and printable document reports with their filters. Legacy reports lists five reports that will be removed. Start with the Sales analytics overview page, then pick the tool that fits the question.
+Sales analytics groups the tools for monitoring sales KPIs and trends. The top-level page lists the options: Power BI reports, Financial Reporting, Data Analysis on list pages, Open in Excel, and built-in reports. It is aimed at sales managers and operators.
 
 ## Key points
 
-- Ad-hoc analysis uses Data Analysis mode on list pages, with pivot-style row groups, column labels, filters and custom tabs.
-- Analysis reports are built from line and column templates and analysis type codes, for sales turnover, profit calculations, periodic comparisons and item ledger analysis.
-- The Power BI Sales app offers role-based reports on a star-schema semantic model, with documented KPIs and measures.
-- Built-in reports cover receivables, customer balances, orders and back orders, salespersons, and printable documents such as quotes, invoices, credit memos, shipments and return receipts.
-- Built-in report variants exist for subscription billing, QR codes and sustainability data.
-- Other analysis routes named in the overview are Financial Reporting, Open in Excel, Chart of Accounts and dimensions.
-- Legacy reports marked for removal: Customer - Sales list, Customer - Top 10 list, Customer List, Sales Reservation Avail., and Sales Statistics.
+- Start with the Sales analytics overview page, which compares the available analysis options.
+- Ad-hoc analysis uses the Data Analysis feature on list pages, with analysis mode, pivot-style row groups and column labels, filtering and custom tabs, so no predefined report is needed.
+- Analysis reports combine line and column templates and analysis type codes to cover sales turnover, profit, periodic comparisons and item ledger analysis. They apply to sales, purchases and inventory.
+- The Power BI Sales app subtopic (24 pages) documents the report catalog, the semantic model, and the KPIs and measures.
+- The built-in sales reports subtopic (29 pages) covers receivables aging, customer balances and rankings, order and inventory reports, and salesperson reports. It also covers printable sales documents such as quotes, order confirmations, invoices, credit memos and shipments.
+- Legacy reports (5 pages) will be removed: Customer - Sales list, Customer - Top 10 List, Customer List, Sales Reservation Avail., and Sales Statistics. One of them is already obsolete.
+- Dimensions, the Chart of Accounts and Financial Reporting are also named as ways to analyze sales.
 
 ## Subtopics
 

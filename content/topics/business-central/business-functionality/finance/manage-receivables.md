@@ -2,40 +2,40 @@
 id: topic/business-central/business-functionality/finance/manage-receivables
 type: topic
 title: Manage receivables
-summary: "Receivables management in Business Central: applying customer payments, reconciling bank accounts, collecting overdue balances, setting payment tolerances, blocking customers, and analyzing or predicting late payments. It answers how-to and setup questions for the order-to-cash side of finance."
+summary: "Managing receivables in Business Central: registering and applying customer payments, reconciling bank accounts, collecting overdue balances, payment tolerances, SEPA Direct Debit, blocking customers, late payment prediction, and receivables analytics. It answers how-to and setup questions for the customer payment cycle."
 tier: official
 language: en
 system: sales
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:54:28.910Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 852912af360a402f9461bcf050768c73d336958c653afedb183decceb61b8654
+  input_hash: 92f83455ffada628675d6bd312edeb6040c8f61501539dbdc1a6fbf47bea256b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-reports
     title: Accounts receivable analytics
-    date: "2026-09-18"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-customer-payments-list-unpaid-sales-documents
     title: Apply payments to unpaid sales documents
-    date: "2024-07-08"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-collect-outstanding-balances
     title: Collect outstanding balances
-    date: "2024-08-26"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -49,14 +49,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-block-customers
     title: How to block sales to customers
-    date: "2024-07-05"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-manage-receivables
     title: Overview of tasks to manage receivables
-    date: "2024-07-08"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -77,49 +77,49 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts
     title: Reconcile bank accounts and apply payments
-    date: "2024-07-25"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-apply-sales-transactions-manually
     title: Reconcile customer payments with the cash receipt journal or from customer ledger entries
-    date: "2025-06-17"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-auto-application
     title: Reconcile payments using automatic application
-    date: "2024-06-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-review-apply-payments-auto-application
     title: Review and apply payments manually after automatic application
-    date: "2026-09-07"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-set-up-payment-application-rules
     title: Rules for automatic application of payments
-    date: "2024-06-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-tax-concept
     title: Sales tax in the default version
-    date: "2024-07-11"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-send-reminders
     title: Send Reminders of Outstanding Balances
-    date: "2024-07-05"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -133,14 +133,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation
     title: Setting up Text-to-Account mapping for recurring payments
-    date: "2024-03-06"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-cannot-apply-auto
     title: Using the transfer difference to account feature to reconcile payments
-    date: "2024-07-08"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -352,28 +352,28 @@ narrative: generated
 
 # Manage receivables
 
-> Receivables management in Business Central: applying customer payments, reconciling bank accounts, collecting overdue balances, setting payment tolerances, blocking customers, and analyzing or predicting late payments. It answers how-to and setup questions for the order-to-cash side of finance.
+> Managing receivables in Business Central: registering and applying customer payments, reconciling bank accounts, collecting overdue balances, payment tolerances, SEPA Direct Debit, blocking customers, late payment prediction, and receivables analytics. It answers how-to and setup questions for the customer payment cycle.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage receivables · tier official · system sales · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage receivables · tier official · system sales · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the tasks that follow a posted sales invoice. You can register and apply customer payments, reconcile them against bank statements, and chase overdue amounts with statements, reminders and finance charge memos. Related pages cover payment tolerances, blocking customers, netting balances for a company that is both customer and vendor, SEPA Direct Debit, sales tax, and Intrastat reporting.
+This section covers the receivables cycle in Business Central, from tracking what customers owe to collecting and applying payments. The "Overview of tasks to manage receivables" page is the best starting point. It links payment reconciliation, bank account reconciliation, payment registration, cash receipt journaling, and collection tasks.
 
-Start with "Overview of tasks to manage receivables". It compares the main tools: Payment Reconciliation Journal, Payment Registration, and Cash Receipt Journal. The subtopic on applying payments automatically and reconciling bank accounts goes deeper on importing bank statements or feeds, matching rules, and Text-to-Account mapping for recurring payments.
+Payment handling has several paths. Payments can be registered and applied to unpaid sales documents, applied through the cash receipt journal or customer ledger entries, or matched automatically in the Payment Reconciliation Journal (see the subtopic on automatic application and bank reconciliation). Payment tolerance pages explain how small differences or late discounts are accepted. SEPA Direct Debit covers collecting EURO payments through bank export files.
 
-For follow-up and insight, use "Collect outstanding balances" and "Send Reminders of Outstanding Balances" for dunning. Use "Accounts receivable analytics" and "Predict late payments for sales documents" to analyze collections and anticipate late payers.
+Collection and control pages cover statements, reminders, finance charge memos, Finance Agent in Outlook, blocking customers, and late payment prediction. Analytics pages cover Power BI and standard reports. Some pages cover related topics: sales tax in the default version, Intrastat reporting, and consolidating balances for a company that is both customer and vendor.
 
 ## Key points
 
-- Three ways to apply customer payments: Payment Reconciliation Journal, Payment Registration (individual or lump-sum, with partial payments and payment discounts), and Cash Receipt Journal or customer ledger entries.
-- Automatic payment application uses bank statement import or feeds, matching rules, and Text-to-Account mapping for recurring payments; leftovers are resolved manually.
-- Collection tools: Customer Statement report, reminders, finance charge memos with Finance Charge Terms, and Copilot for Finance in Outlook (with Dispute Status).
-- Payment tolerance and payment discount tolerance can be set by percentage and amount, per currency, with a grace period, warnings, and blocking per customer or vendor.
-- Customers can be blocked for shipping, invoicing, or all transactions, for example when insolvent.
-- Late Payment Prediction uses machine learning with confidence levels, using standard Microsoft models or custom Azure-based models.
-- Accounts Receivable Analytics offers Power BI reports, Data Analysis, and reports such as Average Collection Period and Aged Receivables.
-- SEPA Direct Debit collects EUR payments via XML export with mandates; Intrastat extended capabilities start in 2022 release wave 2; default sales tax is supported only in the US and Canada.
+- Start with the overview of receivables tasks, which ties together payment reconciliation, bank reconciliation, payment registration, and cash receipt journals.
+- Payments can be registered and applied to sales documents individually or as lump sums, with payment discount handling and search by document number and amount.
+- The Payment Reconciliation Journal matches bank statement lines to open customer, vendor, and bank ledger entries, with matching rules, text-to-account mapping, and manual fixes.
+- Payment tolerance and payment discount tolerance can be set by percentage and amount, per currency, with a warning notification and blocking per customer or vendor.
+- Collections use statements, reminders, finance charge memos, and Finance Agent in Outlook, with dispute status tracking.
+- Customers can be blocked with Ship, Invoice, or All settings in the Blocked field.
+- SEPA Direct Debit supports EURO collections through export formats, mandates, collection entries, and XML export to the bank.
+- The Late Payment Prediction extension uses machine learning, either Microsoft standard models or custom Azure-based models, and shows confidence levels.
 
 ## Subtopics
 
@@ -382,16 +382,17 @@ For follow-up and insight, use "Collect outstanding balances" and "Send Reminder
 ## More Learn pages
 
 - [Accounts receivable analytics](https://learn.microsoft.com/dynamics365/business-central/receivables-reports): Explore the reports and analytics in the standard version of Business Central that can help you track your accounts receivable.
+  - In the observatory: [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md)
 - [Apply payments to unpaid sales documents](https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-customer-payments-list-unpaid-sales-documents): You apply amounts paid by customers to related sales documents and post the payment to update the customer, general ledger, and bank ledger entries.
   - In the observatory: [Page 39 "General Journal"](../../../../objects/page/39.md), [Page 982 "Payment Registration Setup"](../../../../objects/page/982.md), [Page 983 "Payment Registration Details"](../../../../objects/page/983.md), [Page 985 "Document Search"](../../../../objects/page/985.md), [Page 986 "Document Search Result"](../../../../objects/page/986.md)
 - [Collect outstanding balances](https://learn.microsoft.com/dynamics365/business-central/receivables-collect-outstanding-balances): Learn how to remind your customers of outstanding payments. Send a customer statement, issue a reminder, or send a finance charge memo.
-  - In the observatory: [Page 444 "Reminder/Fin. Charge Entries"](../../../../objects/page/444.md)
+  - In the observatory: [Page 110 "Customer Posting Groups"](../../../../objects/page/110.md), [Page 36954 "Customers"](../../../../objects/page/36954.md), [Page 444 "Reminder/Fin. Charge Entries"](../../../../objects/page/444.md), [Report 153 "Customer Statement"](../../../../objects/report/153.md)
 - [Consolidate Balances for a Company that is a Customer and a Vendor](https://learn.microsoft.com/dynamics365/business-central/finance-consolidate-customer-vendor-balances): Describes how to consolidate balances for a customer that is also a vendor.
   - In the observatory: [Page 256 "Payment Journal"](../../../../objects/page/256.md), [Page 26 "Vendor Card"](../../../../objects/page/26.md), [Page 5094 "Marketing Setup"](../../../../objects/page/5094.md)
 - [How to block sales to customers](https://learn.microsoft.com/dynamics365/business-central/receivables-how-block-customers): If needed, you can block a customer from being included on sales documents and other sales transactions.
-  - In the observatory: [Page 36954 "Customers"](../../../../objects/page/36954.md)
+  - In the observatory: [Table 18 "Customer"](../../../../objects/table/18.md)
 - [Overview of tasks to manage receivables](https://learn.microsoft.com/dynamics365/business-central/receivables-manage-receivables): This article outlines tasks to manage receivables and apply payments to customer or vendor ledger entries.
-  - In the observatory: [Page 1252 "Payment Application Rules"](../../../../objects/page/1252.md), [Page 1290 "Payment Reconciliation Journal"](../../../../objects/page/1290.md), [Page 255 "Cash Receipt Journal"](../../../../objects/page/255.md), [Page 981 "Payment Registration"](../../../../objects/page/981.md)
+  - In the observatory: [Page 1252 "Payment Application Rules"](../../../../objects/page/1252.md), [Page 1290 "Payment Reconciliation Journal"](../../../../objects/page/1290.md), [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md), [Page 255 "Cash Receipt Journal"](../../../../objects/page/255.md), [Page 981 "Payment Registration"](../../../../objects/page/981.md)
 - [Payment tolerance and payment discount tolerance](https://learn.microsoft.com/dynamics365/business-central/finance-payment-tolerance-and-payment-discount-tolerance): This article explains how to set up payment tolerance to close an invoice when the payment doesn't fully cover the invoice amount.
   - In the observatory: [Page 110 "Customer Posting Groups"](../../../../objects/page/110.md), [Page 111 "Vendor Posting Groups"](../../../../objects/page/111.md)
 - [Predict late payments for sales documents](https://learn.microsoft.com/dynamics365/business-central/ui-extensions-late-payment-prediction): This article explains how to use our predictive model to predict whether a customer will pay an invoice on time.

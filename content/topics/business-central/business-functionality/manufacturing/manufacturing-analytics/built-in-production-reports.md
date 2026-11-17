@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:53.323Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,21 +21,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5872
     title: BOM Cost Share Distribution (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000780
-    title: Capacity Task list (report)
-    date: "2024-10-23"
+    title: Capacity Task List Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5871
-    title: Item - Able to Make (Time) (report)
-    date: "2024-10-23"
+    title: Item - Able to Make (Timeline) (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -49,7 +49,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000762
     title: Prod. Order - Job Card (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -91,7 +91,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000791
     title: Production Order Statistics (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -111,8 +111,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000787
-    title: Routing Sheet (report)
-    date: "2024-11-04"
+    title: Routing Sheet Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -126,7 +126,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000757
     title: Where-Used (Top Level) (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -248,12 +248,12 @@ Start with Production Reports and Analytics for the overall picture, then open t
 
 ## Learn pages
 
-- [BOM Cost Share Distribution (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5872): This report helps you decide whether to change component suppliers, or replace internal resources with outsourced labor (or vice versa). It also helps you review and modify an item's bill of materials.
+- [BOM Cost Share Distribution (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5872): Review how material, capacity, subcontracting, and overhead costs contribute to BOM costs. Compare single-level or rolled-up cost shares and details.
   - In the observatory: [Page 5872 "BOM Cost Shares"](../../../../../objects/page/5872.md)
-- [Capacity Task list (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000780): Analyze the capacity of work centers or machine centers.
-- [Item - Able to Make (Time) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5871): Check whether you can fulfill a sales order for an item by a specified date. Look at its current availability in combination with quantities that its components can supply if someone starts an assembly order.
+- [Capacity Task List Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000780): Review unfinished production order operations by work center or machine center. Check scheduled dates, times, input quantities, and capacity needs.
+- [Item - Able to Make (Timeline) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5871): Review projected item availability over time, including quantities that can be assembled or produced. Set the starting date, interval, and number of periods.
 - [Output Item Label report](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000769): Print barcode and QR code labels for manufacturing output items, including item details and serial, lot, or package tracking numbers.
-- [Prod. Order - Job Card (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000762): Explore the details of the components and operations for a production order.
+- [Prod. Order - Job Card (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000762): Review production order routing operations and linked component requirements. Print the Prod. Order - Job Card report for use on the shop floor.
 - [Prod. Order - Precalc. Time (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000764): Helps plan and schedule production activities by estimating the time needed to complete each production order based on factors such as work centers, machine centers, and routing information.
 - [Prod. Order - Shortage List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000788): Identify components that will be short on production orders by comparing scheduled needs against inventory, receipts, and other demand.
 - [Prod. Order Detailed Calc (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000768): Get a comprehensive analysis of the costs associated with production orders broken down to costs by material, capacity, overhead, and other cost components.
@@ -262,9 +262,9 @@ Start with Production Reports and Analytics for the overall picture, then open t
 - [Production Order Statistics (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000791): Analyze your actual costs and variance from expected cost for production orders to make key decisions about your production execution and its effect on costs.
 - [Production Reports and Analytics](https://learn.microsoft.com/dynamics365/business-central/production-reports): See which production reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
 - [Quantity Explosion of BOM (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000753): Explode a production BOM to every level and see the calculated component quantities needed for one or more items as of a specific date.
-- [Routing Sheet (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000787): Get an overview of the operations to do to build an item, including information on the work center, machine center, personnel, and tools involved.
+- [Routing Sheet Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000787): Get an overview of the operations to do to build an item, including information on the work center, machine center, and optional personnel and tools.
 - [Subcontractor - Dispatch List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000789): Generate a list of materials and components that need to be sent to manufacturing subcontractors for released production orders.
-- [Where-Used (Top Level) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000757): Get an overview of where, and in what quantities, you use items in the product structure of other items.
+- [Where-Used (Top Level) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000757): Trace where selected items are used across production BOM levels. Review parent items, required quantities, and the versions valid on a calculation date.
 
 ## Videos, posts and code changes
 

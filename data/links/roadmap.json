@@ -32931,10 +32931,10 @@
     "video/5xeATIUFiGg": {
       "kind": "video",
       "key": "video/5xeATIUFiGg",
-      "hash": "1dc9919d591553c589976d9842cb0d5e4d8f5f638556a7a1ff11f92ca8873763",
+      "hash": "f8836c85d1ff184a686e208c4cf36e183cb9cab1faa19b71af48fbe6466def01",
       "video_id": "5xeATIUFiGg",
       "title": "20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central",
-      "at": "2026-11-13T00:56:10.518Z",
+      "at": "2026-11-17T00:54:19.823Z",
       "matches": []
     },
     "video/5zXQ_aIT03s": {
@@ -32958,10 +32958,10 @@
     "video/669rJN75L2g": {
       "kind": "video",
       "key": "video/669rJN75L2g",
-      "hash": "3c02fb3cc05058c45e8e3fbd4ea230f91cf10f67a6a5fbaee4fa440cc29cec5f",
+      "hash": "7555698b98cf87c09d52a2b0f21107b1148994ede2f1968def274b0212fc6795",
       "video_id": "669rJN75L2g",
       "title": "Introducing: Tenant Discovery Endpoint (2025 release wave 1)",
-      "at": "2026-11-13T00:56:15.576Z",
+      "at": "2026-11-17T00:54:19.836Z",
       "matches": []
     },
     "video/6B6F38AswE8": {
@@ -32976,40 +32976,47 @@
     "video/6bX7Ab4KYMA": {
       "kind": "video",
       "key": "video/6bX7Ab4KYMA",
-      "hash": "f47209b5b14eae0c5ae2fd32f7a6db44899f66cc08d19980ed4898d41e520fe8",
+      "hash": "0c09b8f711da4a3d13d342d73d14445f6fe08efb50632a0f60fc3f295b5343e3",
       "video_id": "6bX7Ab4KYMA",
       "title": "What's New: Cloud Migration Tooling (2026 release wave 1)",
-      "at": "2026-11-13T00:56:17.166Z",
+      "at": "2026-11-17T00:54:19.492Z",
       "matches": []
     },
     "video/6d6iajwQQ-c": {
       "kind": "video",
       "key": "video/6d6iajwQQ-c",
-      "hash": "2fc32f80bd51d03e80b70a6889268742375cf5a18872c3b787a823a17149ff21",
+      "hash": "024dc05d4d6b6129decc3457be7c4ac8c3bad8cb11879cb4b3b098906d19aab4",
       "video_id": "6d6iajwQQ-c",
       "title": "What's New: Value Chain Automation with Production Orders (2025 release wave 1)",
-      "at": "2026-11-09T00:40:21.384Z",
+      "at": "2026-11-17T00:54:19.504Z",
       "matches": [
         {
           "feature": 0,
           "name": "Sustainability Value Entries",
           "t": 46,
           "roadmap_id": "573378",
-          "quote": "System collects emissions information when posting purchase documents and tracks changes through transfer orders, assembly orders, and production orders"
+          "quote": "track sustainability value entries similar to costing methods for items"
         },
         {
           "feature": 1,
           "name": "Value Chain Tracking",
           "t": 267,
           "roadmap_id": "573374",
-          "quote": "Sustainability setup feature that enables automatic collection and tracking of emissions from items and work machine centers through production documents"
+          "quote": "automatic collection and tracking of emissions from items and work machine centers"
         },
         {
-          "feature": 4,
-          "name": "Production Order Carbon Equivalent Tracking",
-          "t": 541,
+          "feature": 2,
+          "name": "Item Emissions on Item Cards",
+          "t": 359,
+          "roadmap_id": "573378",
+          "quote": "New fields on item card to display and enter emissions data"
+        },
+        {
+          "feature": 3,
+          "name": "Work Center Emissions",
+          "t": 501,
           "roadmap_id": "573374",
-          "quote": "Production orders now display total carbon equivalent based on production BOM materials and routing information"
+          "quote": "New sustainability fast tab on work centers to enter and track emissions data"
         },
         {
           "feature": 5,
@@ -33017,6 +33024,13 @@
           "t": 188,
           "roadmap_id": "573378",
           "quote": "Production journal, consumption journal, and output journal can now post emissions"
+        },
+        {
+          "feature": 7,
+          "name": "Routing Emissions Tracking",
+          "t": 481,
+          "roadmap_id": "573374",
+          "quote": "Routings now display carbon equivalent per unit field that collects emissions"
         }
       ]
     },
@@ -33050,37 +33064,37 @@
     "video/6rm45dSB6xg": {
       "kind": "video",
       "key": "video/6rm45dSB6xg",
-      "hash": "1b24a02284a914db1842d9bed63c5e18476c0af4c5a4aa04590da8ebdbb06cbe",
+      "hash": "f203353b294f4953b674b49d357327c0c3a8336577a6a987ef4ffbf35611d71d",
       "video_id": "6rm45dSB6xg",
       "title": "Expense Agent: Feedback (2026 release wave 1)",
-      "at": "2026-11-09T00:40:23.028Z",
+      "at": "2026-11-17T00:54:25.769Z",
       "matches": []
     },
     "video/6sH2u4jt-ow": {
       "kind": "video",
       "key": "video/6sH2u4jt-ow",
-      "hash": "ef889df48bd0e12160979d8889a1e89cd87d62802cf0ac159c7ff450fd6ffba5",
+      "hash": "e425972f2baa887b401e0b41638c120eccf21e5bfb5cc7c69d755befaf2b3243",
       "video_id": "6sH2u4jt-ow",
       "title": "What's Cooking in Business Central: Storing Document Attachments outside the Database",
-      "at": "2026-11-09T00:40:22.760Z",
+      "at": "2026-11-17T00:54:25.053Z",
       "matches": []
     },
     "video/6SyNNeHQDUo": {
       "kind": "video",
       "key": "video/6SyNNeHQDUo",
-      "hash": "d6c74d154c79cf4d4d2c5548b56c80eb7391c6a7cdc1f5233e6a66c6eaba16f4",
+      "hash": "564ac9d86b2d5f8269b8abdddaa2e6b1cfa12386676c28c99f045ac0330d6ef0",
       "video_id": "6SyNNeHQDUo",
       "title": "What's New: Co-Development Initiative (2024 release wave 2)",
-      "at": "2026-11-13T00:56:15.789Z",
+      "at": "2026-11-17T00:54:20.258Z",
       "matches": []
     },
     "video/6vHJQggN4F4": {
       "kind": "video",
       "key": "video/6vHJQggN4F4",
-      "hash": "598202439ea70475da6e53505913282f5befd2bf5c24d1460bca8127698c8b2e",
+      "hash": "3a30a4728c6cfd28552a01badad6325656c41812275e596f4249f448b0ec4478",
       "video_id": "6vHJQggN4F4",
       "title": "What's New: Product Information Management in Shopify Connector (2026 release wave 1)",
-      "at": "2026-11-09T00:40:25.406Z",
+      "at": "2026-11-17T00:54:24.215Z",
       "matches": []
     },
     "video/6WVsS3j-HTw": {
@@ -33095,10 +33109,10 @@
     "video/6Zb7VAvLVm4": {
       "kind": "video",
       "key": "video/6Zb7VAvLVm4",
-      "hash": "138532d716aea1bb9a3535ff74a26426473b4a29bb15b64900232d10641deaf9",
+      "hash": "b9887273d2e63e7a649b969f0b21aef67d9d25783429dd735354694ac1b81a00",
       "video_id": "6Zb7VAvLVm4",
       "title": "What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)",
-      "at": "2026-11-13T00:56:16.732Z",
+      "at": "2026-11-17T00:54:19.152Z",
       "matches": [
         {
           "feature": 10,
@@ -33112,62 +33126,120 @@
     "video/6zj34hjbpGU": {
       "kind": "video",
       "key": "video/6zj34hjbpGU",
-      "hash": "5e110c4d8844cd4de051e2c43c87ce2986823ddc47c2f0dde2b29a5089f96be2",
+      "hash": "05be99d2f5b9cb7ffb683077af2bac88748cfb53207cd8e7ce6defd303d250dd",
       "video_id": "6zj34hjbpGU",
       "title": "How Business Central Integrates with Microsoft Excel (2025)",
-      "at": "2026-11-09T00:40:26.724Z",
+      "at": "2026-11-17T00:54:26.438Z",
+      "matches": []
+    },
+    "video/7lxkboRGw28": {
+      "kind": "video",
+      "key": "video/7lxkboRGw28",
+      "hash": "cbb798d9bcab9140cc09ac05c6ba0f66f97036096533960a0736cde26d416f2e",
+      "video_id": "7lxkboRGw28",
+      "title": "20261109 - Not a Developer No Problem! Deploy & Embed Power BI Apps in Business Central",
+      "at": "2026-11-17T00:54:28.907Z",
       "matches": [
         {
-          "feature": 1,
-          "name": "Open or Edit in Excel option",
-          "t": 31,
-          "roadmap_id": "573317",
-          "quote": "Open or Edit in Excel option. On list pages"
+          "feature": 28,
+          "name": "Business Central mirroring to Fabric",
+          "t": 2868,
+          "roadmap_id": "574126",
+          "quote": "New feature that enables mirroring Business Central data to Microsoft Fabric"
+        },
+        {
+          "feature": 29,
+          "name": "Fabric mirrored database setup",
+          "t": 2963,
+          "roadmap_id": "574126",
+          "quote": "Mirrored database feature within Fabric integration requires Fabric capacity availability"
+        },
+        {
+          "feature": 30,
+          "name": "Multi-company reporting with Fabric",
+          "t": 3025,
+          "roadmap_id": "574126",
+          "quote": "Multi-company reporting from a single installed app"
+        },
+        {
+          "feature": 31,
+          "name": "Fabric table mirroring selectivity",
+          "t": 3129,
+          "roadmap_id": "574126",
+          "quote": "Fabric mirroring allows selective mirroring of specific Business Central tables"
         }
       ]
     },
     "video/7muCHEF593Q": {
       "kind": "video",
       "key": "video/7muCHEF593Q",
-      "hash": "77bdcbb41481e0df6873e4e903ab6f8847034ac293756ea387e517303f444645",
+      "hash": "a9d9da35d8b50fc3e6e006ba83cc50e981acf580ec48697809bed760f6aaf1d0",
       "video_id": "7muCHEF593Q",
       "title": "How to Access All Features in Business Central (2025)",
-      "at": "2026-11-10T00:50:57.403Z",
+      "at": "2026-11-17T00:54:29.403Z",
       "matches": []
     },
     "video/7QJeTXzZaEk": {
       "kind": "video",
       "key": "video/7QJeTXzZaEk",
-      "hash": "fa7f7a1ca9c08d826e10c588026d3005e75daf1b36b1e50b1fe059e14bdad3de",
+      "hash": "b1011fca40768c6d0a69996a4cdb5550a7cef1470ac9142a679f171ca36ce77f",
       "video_id": "7QJeTXzZaEk",
       "title": "Getting Started With Agents: Test Drive the Sales Order Agent (2025)",
-      "at": "2026-11-10T00:50:59.829Z",
+      "at": "2026-11-17T00:54:24.726Z",
       "matches": [
         {
           "feature": 0,
           "name": "Sales Order Agent",
           "t": 5,
+          "roadmap_id": "578068",
+          "quote": "Sales Order Agent. An AI agent that monitors a shared mailbox"
+        },
+        {
+          "feature": 0,
+          "name": "Sales Order Agent",
+          "t": 5,
           "roadmap_id": "578065",
-          "quote": "Sales Order Agent monitors a shared mailbox for sales quote requests"
+          "quote": "Sales Order Agent. An AI agent that monitors a shared mailbox for sales quote requests"
+        },
+        {
+          "feature": 1,
+          "name": "Email Account Integration",
+          "t": 90,
+          "roadmap_id": "578068",
+          "quote": "Email Account Integration. Business Central email account creation wizard that connects shared mailboxes"
+        },
+        {
+          "feature": 2,
+          "name": "Automatic Contact Creation from Email",
+          "t": 145,
+          "roadmap_id": "578068",
+          "quote": "Automatic Contact Creation from Email. When an email arrives from an unknown sender"
+        },
+        {
+          "feature": 3,
+          "name": "Payables Agent",
+          "t": 5,
+          "roadmap_id": "576776",
+          "quote": "Payables Agent. A companion AI agent for accounts payable processing"
         }
       ]
     },
     "video/7rIHz0zrgWU": {
       "kind": "video",
       "key": "video/7rIHz0zrgWU",
-      "hash": "19d045d1a833dc492dd28422b738f3fc4490e5cf754fafc3876dfa788bb788a1",
+      "hash": "233cb457a5618d0ca5370dffd6404bc23c0fe37689934840ffee46189e543c68",
       "video_id": "7rIHz0zrgWU",
       "title": "What's New: Telemetry (2023 release wave 2)",
-      "at": "2026-11-10T00:51:00.654Z",
+      "at": "2026-11-17T00:54:35.011Z",
       "matches": []
     },
     "video/7SSNcUMFtCw": {
       "kind": "video",
       "key": "video/7SSNcUMFtCw",
-      "hash": "23776697e0f9e5dd4e1f7e051e8934f14168ebe783d1b5dc7b69ef03655e447f",
+      "hash": "aa369f48583829f2a78fcf5f4d2b561d370149fa4a413f4be8bc683860fba04e",
       "video_id": "7SSNcUMFtCw",
       "title": "What's New: Business Central AI Resources (2025 release wave 1)",
-      "at": "2026-11-10T00:50:59.755Z",
+      "at": "2026-11-17T00:54:25.911Z",
       "matches": [
         {
           "feature": 0,
@@ -33175,69 +33247,34 @@
           "t": 6,
           "roadmap_id": "577820",
           "quote": "Microsoft managed Azure OpenAI resources that allow publishers to use large language models"
-        },
-        {
-          "feature": 2,
-          "name": "Content safety with blocking policy",
-          "t": 314,
-          "roadmap_id": "577820",
-          "quote": "Built-in content safety measures including blocking policy for calls to Azure OpenAI"
-        },
-        {
-          "feature": 3,
-          "name": "Set managed resource authorization function",
-          "t": 489,
-          "roadmap_id": "577820",
-          "quote": "AL code function that allows developers to use Business Central AI resources"
-        },
-        {
-          "feature": 6,
-          "name": "Data residency control for AI calls",
-          "t": 670,
-          "roadmap_id": "577820",
-          "quote": "Administrators can control whether AI calls cross geographical boundaries"
-        },
-        {
-          "feature": 7,
-          "name": "System prompts for AI safety",
-          "t": 702,
-          "roadmap_id": "577820",
-          "quote": "System prompts for AI safety appended to developer prompts as part of content safety"
-        },
-        {
-          "feature": 12,
-          "name": "AI Resources model availability",
-          "t": 1111,
-          "roadmap_id": "577820",
-          "quote": "Production-ready models available are GPT-4o and GPT-4o mini"
         }
       ]
     },
     "video/7v0jxCl_WR8": {
       "kind": "video",
       "key": "video/7v0jxCl_WR8",
-      "hash": "a6eb4d3b66d35eec1fa7747d8f872bd6a9a060c915621fd44d624732119a076e",
+      "hash": "75703a21fd859e855b8d8b1272738e0ee5fe7a3bfcc542ca87fc46a05630cd1d",
       "video_id": "7v0jxCl_WR8",
       "title": "What's New: Service Management Demo Data (2023 release wave 2)",
-      "at": "2026-11-10T00:50:59.649Z",
+      "at": "2026-11-17T00:54:30.613Z",
       "matches": []
     },
     "video/8037fdtrU1o": {
       "kind": "video",
       "key": "video/8037fdtrU1o",
-      "hash": "e69e4075a992daf2a1c847b2b0018b3142cde599e8f285e9ec6a418e73c6184b",
+      "hash": "0693457ee53dcb9a029f30d96bcfc08cbec927b8c5eae5f67a0fb4dcf26bda4a",
       "video_id": "8037fdtrU1o",
       "title": "What's New: Contoso Demo Tool (2025 release wave 1)",
-      "at": "2026-11-10T00:50:58.654Z",
+      "at": "2026-11-17T00:54:28.630Z",
       "matches": []
     },
     "video/88s0QjsaCUQ": {
       "kind": "video",
       "key": "video/88s0QjsaCUQ",
-      "hash": "600a38d83f7fafc69622f24960e6c9e5ac2bb777ed768becc8a9e59267e61afa",
+      "hash": "ad336135ffc40521b0592bebffae5eab0f339cf1617509d83e4ea23d9bb5c675",
       "video_id": "88s0QjsaCUQ",
       "title": "Understanding the Sign Up Context and Using it for Profiling Customers",
-      "at": "2026-11-10T00:51:03.407Z",
+      "at": "2026-11-17T00:54:32.297Z",
       "matches": []
     },
     "video/8C9JmtHdExM": {
@@ -33252,10 +33289,10 @@
     "video/8D8IFkqeTLU": {
       "kind": "video",
       "key": "video/8D8IFkqeTLU",
-      "hash": "cb0737a91203d2e4594c23bae4f947752ccc3611aa9a766cde4c63420ab6b8e9",
+      "hash": "ddf73d4a8249d7710ea9e77370fa0d3b36a641b0a48a92ae0c33eb8f7aa49bf9",
       "video_id": "8D8IFkqeTLU",
       "title": "Use FlowFields directly inside your Spreadsheet inside Business Central  (Advanced Spreadsheets)",
-      "at": "2026-11-10T00:51:05.363Z",
+      "at": "2026-11-17T00:54:34.096Z",
       "matches": []
     },
     "video/8hz-uNsKQbk": {
@@ -33270,10 +33307,10 @@
     "video/8IOEXgk7q5I": {
       "kind": "video",
       "key": "video/8IOEXgk7q5I",
-      "hash": "2da7a6c9975219fa0d359ae8aacd8a20ab7981ca1a941a1e2132ca405aa84fd9",
+      "hash": "14328ab8bf7cbc64ccae99e2d35075568cfd9ad987cdb1e582d86ae32f35a12b",
       "video_id": "8IOEXgk7q5I",
       "title": "What's New: Cost Adjustment (2025 release wave 1)",
-      "at": "2026-11-10T00:51:05.042Z",
+      "at": "2026-11-17T00:54:33.791Z",
       "matches": []
     },
     "video/8KMcu4B_eTk": {

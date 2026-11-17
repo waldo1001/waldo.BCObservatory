@@ -12,7 +12,7 @@ review:
   at: "2026-11-13T01:01:22.015Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,7 +70,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-reports
     title: Accounts receivable analytics
-    date: "2026-09-18"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -82,16 +82,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-322
-    title: Aged Accounts Payable (report)
-    date: "2024-12-16"
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4403
+    title: Aged Accounts Payable (Excel Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4403
-    title: Aged Accounts Payables (Excel report)
-    date: "2024-12-14"
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-322
+    title: Aged Accounts Payable (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -104,8 +104,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-120
-    title: Aged Accounts Receivables (report)
-    date: "2024-10-18"
+    title: Aged Accounts Receivables (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -203,7 +203,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-customer-payments-list-unpaid-sales-documents
     title: Apply payments to unpaid sales documents
-    date: "2024-07-08"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -230,15 +230,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-37
-    title: Balance Comp. - Prev. Year (report)
-    date: "2025-06-21"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-151
-    title: Balance Sheet (report)
-    date: "2025-06-16"
+    title: Balance Comp. - Prev. Year (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -246,6 +239,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-balance-sheet
     title: Balance Sheet by Month Power BI Report
     date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-151
+    title: Balance Sheet Overview (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -861,12 +861,14 @@ links:
     - video/pE19K17wpgI
   posts:
     - post/gerardorenteria-blog/14595
+    - post/gerardorenteria-blog/15508
     - post/yzhums-com/73165
   guidelines: []
   changes:
     - change/bcapps/10049
     - change/bcapps/11138
     - change/bcapps/11150
+    - change/bcapps/14061
     - change/bcapps/9275
     - change/bcapps/9311
     - change/bcapps/9341
@@ -897,7 +899,7 @@ coverage:
   learn: 258
   code: 525
   video: 6
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 1
@@ -1502,12 +1504,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10049 Removed the ReplicateData=false property](../../../changes/bcapps/10049.md) (code change): "Removed ReplicateData=false from three Spend Request tables"
 - [#11138 [29.x][Bug Fix] Fix recurring journal background posting for IRS 1099 invoice lines (US)](../../../changes/bcapps/11138.md) (code change): "IRS 1099 subscribers no longer call Modify(true) on journal lines during validation"
 - [#11150 Deliverable 638799: Requisitions in Base App: Missed dataclassification on user field](../../../changes/bcapps/11150.md) (code change): "A missing data classification attribute was restored on a user field"
+- [#14061 [MAIN] Fix TDS calculation on multi-line purchase invoices (Bug 659187)](../../../changes/bcapps/14061.md) (code change): "TDS was calculated only on the later invoice line once the annual threshold"
 - [#9275 [ALAppExtensions #30250] Matrix Management: reorder OnFormatRoundingFactor Signature](../../../changes/bcapps/9275.md) (code change): "Parameter order of OnAfterSetAmountDecimal event changed to put AmountDecimal first"
 - [#9311 Withholding Tax for Employee](../../../changes/bcapps/9311.md) (code change): "Withholding tax support for employee transactions has been added"
 - [#9341 [main][Change Request] Page 8901 - Add empty "layout" to the RoleCenter](../../../changes/bcapps/9341.md) (code change): "Empty layout section added to the Finance Manager Role Center"
 - [#9391 [Master] - Slice 616928: [Expense Management] [App part] Expense Managements Travel Requisitions 💸](../../../changes/bcapps/9391.md) (code change): "Expense Management adds travel requisition support: new API pages"
 - [#9587 Concurrent posting for General Ledger entries](../../../changes/bcapps/9587.md) (code change): "Concurrent posting support for General Ledger entries"
 - [New Application Ideas of Dynamics 365 Business Central (2026 APR)](../../../posts/gerardorenteria-blog/14595.md) (community post): "Ideas address both core functionality improvements and localization needs"
+- [New Application Ideas of Dynamics 365 Business Central (2026 OCT)](../../../posts/gerardorenteria-blog/15508.md) (community post): "Finance and localization ideas focus on e-invoicing and on SEPA and ISO 20022 exports"
 - [Business Central 2026 release wave 1 (BC28.1): Expense Management module (Manage employee expenses)](../../../posts/yzhums-com/73165.md) (community post): "new native Expense Management module that enables employees to create, submit, and track expense reports"
 - [Introducing: Withholding Taxes (2026 release wave 1)](../../../videos/d4mYltz4Zwg.md) (video): "Withholding Tax Posting Groups Configuration; Vendor Withholding Tax Enablement"
 - [What's New: Financial Management - Overview (2024 release wave 1)](../../../videos/HI7VcPzR2OE.md) (video): "Topics: gl revaluation; currency posting; excel reports; consolidation; collection management"

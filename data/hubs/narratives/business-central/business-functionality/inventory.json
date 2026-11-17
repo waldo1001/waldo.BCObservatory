@@ -2,7 +2,7 @@
   "hub_id": "topic/business-central/business-functionality/inventory",
   "input_hash": "d91a63e0499e23fe1658739c073a728ae032a2a885642710f70e9e24d9f43771",
   "summary": "Inventory in Business Central covers item setup, counting and adjusting stock, availability, reservations, item tracking, transfers, bills of material and inventory analytics. It answers how-to questions about creating and managing items and moving or tracing stock.",
-  "overview": "The Inventory section explains how to define and maintain items and then control the stock. Setup pages cover item cards (types, costing methods, templates, pricing, replenishment, substitutions), variants, catalog items, categories, attributes, item references, responsibility centers and bills of material. Copilot can suggest marketing text for items.\n\nDay-to-day pages cover counting and adjusting inventory (physical inventory orders and recordings, or journals with cycle counting), reclassification, transfers between locations, reservations, blocking items, and availability overviews. Item tracking pages cover setting up serial, lot and package tracking codes, assigning numbers on transactions, and tracing tracked items through posted entries.\n\nStart with \"Managing inventory\" for the overall picture, then \"Create item cards for goods or services\". The Inventory analytics subtopic (56 pages) covers Power BI apps, built-in and legacy reports, and ad-hoc analysis of item ledger entries.",
+  "overview": "The Inventory section explains how to define and maintain items and then control the stock. Setup pages cover item cards (types, costing methods, templates, pricing, replenishment, substitutions), variants, catalog items, categories, attributes, item references, responsibility centers and bills of material. Copilot can suggest marketing text for items.\n\nDay-to-day pages cover counting and adjusting inventory (physical inventory orders and recordings, or journals with cycle counting), reclassification, transfers between locations, reservations, blocking items, and availability overviews. Item tracking pages cover setting up serial, lot and package tracking codes, assigning numbers on transactions, and tracing tracked items through posted entries.\n\nStart with \"Managing inventory\" for the overall picture, then \"Create item cards for goods or services\". The Inventory analytics subtopic (56 pages) covers Power BI apps, built-in reports, legacy reports and ad-hoc Data Analysis of inventory data, such as stock levels, inventory value, KPIs and trends.",
   "key_points": [
     "Item cards define item types, costing methods, pricing, replenishment, variants and substitutions; item templates speed up creation.",
     "Catalog items represent vendor products not yet in inventory and can be converted to regular items when sold.",
@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.022249
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-17T01:01:06.778Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview says the Inventory analytics subtopic covers ad-hoc analysis \"of item ledger entries\". The subtopic summary only mentions ad-hoc Data Analysis for inventory data, so I changed the wording to match it.",
+      "Small point that I left unchanged: the key point saying item templates \"speed up creation\" is a mild inference. The source only lists item templates as a feature."
+    ],
+    "input_hash": "d91a63e0499e23fe1658739c073a728ae032a2a885642710f70e9e24d9f43771",
+    "cost_usd": 0.063792
   }
 }

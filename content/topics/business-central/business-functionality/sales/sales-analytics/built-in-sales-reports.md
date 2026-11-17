@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/sales/sales-analytics/built-in-sales-reports
 type: topic
 title: Built-in sales reports
-summary: "Built-in sales reports in Business Central: receivables and customer balance reports, order and back-order reports, salesperson reports, and printable sales documents (quotes, order confirmations, invoices, credit memos, shipments, return receipts). It also covers variants for subscription billing, QR codes and sustainability data. It answers what each report shows and which filters and options it has."
+summary: "Built-in sales reports in Business Central: receivables aging, customer balances and rankings, order and inventory reports, salesperson reports, and printable sales documents (quotes, order confirmations, invoices, credit memos, shipments). It answers what each report shows, which filters and options it has, and which layouts it uses."
 tier: official
 language: en
 system: sales
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:16:17.483Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: b09e9dbd914e5551b5b3d88da5a100aa098c464a0bacb5aa83fb6bc0e2207327
+  input_hash: 113b19ba90df5483df329ad6124c5feb475888b496ccf68cb905c12006e6981c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4402
@@ -48,15 +48,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-121
-    title: Customer - Balance to date (report)
-    date: "2024-10-03"
+    title: Customer - Balance to Date (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-108
-    title: Customer - Order Detail (report)
-    date: "2024-10-03"
+    title: Customer - Order Detail (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -69,22 +69,22 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4409
-    title: Customer - Top 10 List Excel (Excel report)
-    date: "2024-12-16"
+    title: Customer - Top List (Excel Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-129
-    title: Customer - Trial Balance (report)
-    date: "2024-10-03"
+    title: Customer - Trial Balance (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-113
-    title: Customer/Item Sales (report)
-    date: "2024-10-03"
+    title: Customer/Item Sales Overview (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -98,21 +98,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-708
     title: Inventory Order Details (report)
-    date: "2024-10-03"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-813
     title: Inventory Picking List (report)
-    date: "2024-10-03"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-718
     title: Inventory Sales Back Orders (report)
-    date: "2024-10-03"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -133,7 +133,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-reports
     title: Sales report overview
-    date: "2026-09-18"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -346,23 +346,28 @@ narrative: generated
 
 # Built-in sales reports
 
-> Built-in sales reports in Business Central: receivables and customer balance reports, order and back-order reports, salesperson reports, and printable sales documents (quotes, order confirmations, invoices, credit memos, shipments, return receipts). It also covers variants for subscription billing, QR codes and sustainability data. It answers what each report shows and which filters and options it has.
+> Built-in sales reports in Business Central: receivables aging, customer balances and rankings, order and inventory reports, salesperson reports, and printable sales documents (quotes, order confirmations, invoices, credit memos, shipments). It answers what each report shows, which filters and options it has, and which layouts it uses.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Built-in sales reports · tier official · system sales · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Built-in sales reports · tier official · system sales · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section documents the standard sales reports in Business Central. They fall into three groups. The first is analysis reports: Aged Accounts Receivable and Customer - Top 10 List (both Excel reports), Customer - Balance to date, Customer - Trial Balance, Customer - Order Detail, Customer - Order Summary, Customer/Item Sales, Day Book Customer Ledger Entry, and the Salesperson - Commission and Salesperson - Sales Statistics reports. The second is inventory-oriented order reports: Inventory Order Details, Inventory Picking List and Inventory Sales Back Orders. The third is printable customer documents. These are Standard Sales - Quote, Order Conf., Draft Invoice, Pro Forma Invoice, Invoice, Credit Memo, Shipment and Return Rcpt. The third group also has variants. The Contract reports add subscription billing details, two reports add QR codes to posted invoices and credit memos, and the Sust. reports add CO2e figures to quotes and invoices.
+This section documents the standard reports that ship with Business Central for sales. It starts with a Sales report overview page. That page explains how to reach sales reports through Report Explorer and links to ad-hoc analysis, the Power BI sales app and sales analytics.
+
+The other pages fall into a few groups. Analysis reports cover receivables and customers: Aged Accounts Receivable (Excel), Customer - Balance to Date, Trial Balance, Order Detail, Order Summary and Top List. Customer/Item Sales Overview, Day Book Customer Ledger Entry, and the two salesperson reports (Commission and Sales Statistics) also belong here. Inventory-oriented reports cover order details, the picking list and sales back orders.
+
+The third group is customer-facing documents. These include the standard quote, order confirmation, draft invoice, invoice, pro forma invoice, credit memo, shipment and return receipt reports. There are also extended variants: contract (subscription billing), QR code (payment and e-document) and sustainability (CO2e) versions. Start with the overview page, then open the page for the specific report to check its filters, options and layouts.
 
 ## Key points
 
-- Sales report overview is the entry page. It links to report documentation, ad-hoc analysis, Power BI integration and sales analytics.
-- Aged Accounts Receivable is an Excel report. It groups customer ledger entries into aging buckets by due date and global dimensions, with four worksheets that cover local and foreign currency.
-- Customer - Order Summary groups outstanding order quantities into three 30-day periods. Inventory Sales Back Orders lists sales lines whose outstanding quantity cannot be filled by the shipment date.
-- The standard sales documents cover quotes, order confirmations, draft, pro forma and posted invoices, credit memos, shipments and return receipts. Options include interaction logging, archiving and hiding zero-quantity lines.
-- The Standard Sales Pro Forma Invoice is meant for customs. It shows country of manufacture, tariff numbers and net weight.
-- The Contract reports for quotes, order confirmations and invoices add subscription billing details. On quotes and order confirmations, service commitments are grouped by billing period. On the order confirmation they are kept out of the subtotal and VAT.
-- Two QR variants exist: the posted sales invoice adds a payment QR code, and the posted credit memo adds a QR code for e-document support. The Sust. quote and invoice reports add CO2e per unit and total CO2e figures, formatted according to Sustainability Setup.
+- Sales report overview explains access through Report Explorer and links to ad-hoc analysis, the Power BI sales app and sales analytics.
+- Aged Accounts Receivable (Excel) has four worksheets. It buckets customer ledger entries by due date and global dimensions, with Aged as of and Period length parameters and LCY and FCY analysis.
+- Customer - Balance to Date shows open entries up to an ending date. Customer - Trial Balance shows beginning balance, debits, credits and ending balance by customer posting group.
+- Customer - Top List (Excel) ranks customers by sales amount or Balance (LCY), with Print and Analysis worksheets.
+- Order reports: Customer - Order Detail and Inventory Order Details track back orders and shipment dates. Customer - Order Summary groups outstanding quantities into three 30-day periods. Inventory Picking List and Inventory Sales Back Orders support fulfillment.
+- Salesperson - Commission and Salesperson - Sales Statistics cover commission (sales-based or profit-based) and sales, profit, discount and payment figures for a period.
+- Standard document reports (quote, order confirmation, draft invoice, invoice, pro forma invoice, credit memo, shipment, return receipt) offer filters, optional archiving or interaction logging, and zero-quantity line hiding. Several come in RDLC and Word layouts.
+- Extended variants: Contract reports add subscription billing and service commitments. Posted Sales Invoice and Crd Memo with QR add QR codes in Word layouts. Sust. reports add CO2e per unit, a total CO2e figure and a disclaimer.
 
 ## Learn pages
 
@@ -371,17 +376,16 @@ This section documents the standard sales reports in Business Central. They fall
 - [Contract Standard Sales Inv. report](https://learn.microsoft.com/dynamics365/business-central/reports/report-8008): Print or export a standard sales invoice that also lists the subscription billing details behind each contract-related invoice line.
   - In the observatory: [Report 1306 "Standard Sales - Invoice"](../../../../../objects/report/1306.md)
 - [Contract Standard Sales Quote report](https://learn.microsoft.com/dynamics365/business-central/reports/report-8011): Add subscription billing details to the standard sales quote so customers see recurring service commitments alongside one-time item charges.
-- [Customer - Balance to date (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-121): Get a detailed balance for selected customers at the close of an accounting period or fiscal year, for example.
-- [Customer - Order Detail (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-108): Analyze outstanding sales orders to understand your expected sales volume grouped by customer. To highlight overdue back orders, compare overall outstanding shipments with the planned shipment dates.
+- [Customer - Balance to Date (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-121): Review customer balances and supporting entries at a historical ending date, with options for currency, unapplied entries, and zero balances.
+- [Customer - Order Detail (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-108): Review outstanding sales order lines by bill-to customer, compare shipment dates with the work date, and identify quantities on back order.
 - [Customer - Order Summary (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-107): See outstanding sales order amounts by customer, grouped into 30-day shipment periods, to gauge expected sales volume.
-- [Customer - Top 10 List Excel (Excel report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4409): Review customers with the most transactions in a selected period directly in Excel. Identify sales trends and manage debt collections.
-- [Customer - Trial Balance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-129): Analyze and reconcile your customer balances at the end of the period by viewing the opening balance, each transaction within the period, and the closing balance grouped by customer.
-  - In the observatory: [Report 10806 "Customer Detail Trial Balance (FR)"](../../../../../objects/report/10806-fr.md)
-- [Customer/Item Sales (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-113): Analyze your item sales per customer to understand sales trends, optimize inventory management, and improve marketing efforts. Assess the relationship between discounts, sales amounts, and the volume of item sales.
+- [Customer - Top List (Excel Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4409): Rank customers by sales amounts or balances in local currency in Excel. Choose the number of customers and posting-date filters for your analysis.
+- [Customer - Trial Balance (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-129): Reconcile customer opening balances, debit and credit totals, and ending balances in local currency for a period and fiscal year to date.
+- [Customer/Item Sales Overview (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-113): Analyze invoiced item quantities, sales, discounts, and profit by customer, including related item charges and cost adjustments.
 - [Day Book Customer Ledger Entry (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-2501): Get a daily transaction overview for customer postings, similar in intent to a sales day book or a chronological audit-style listing of customer postings.
-- [Inventory Order Details (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-708): Analyze outstanding sales orders to understand your expected sales volume for items. To highlight any overdue back orders, compare your overall outstanding shipments with the planned shipment date.
-- [Inventory Picking List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-813): View which sales orders are covered when collecting items from inventory.
-- [Inventory Sales Back Orders (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-718): Get an overview of sales orders that can't be fulfilled because of out-of-stock items.
+- [Inventory Order Details (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-708): Review outstanding sales order quantities, shipment dates, discounts, and amounts by item. Identify back orders relative to the work date.
+- [Inventory Picking List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-813): Review sales order lines with a quantity to ship. Use the Inventory Picking List report to coordinate picking by item, location, bin, and shipment date.
+- [Inventory Sales Back Orders (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-718): Find sales order lines with outstanding quantities and shipment dates before the work date. Use the report to follow up on overdue shipments.
 - [Posted Sales Crd Memo with QR report](https://learn.microsoft.com/dynamics365/business-central/reports/report-6168): Add a QR code and e-document layout support to the Standard Sales - Credit Memo report for posted sales credit memos sent to customers.
   - In the observatory: [Report 1307 "Standard Sales - Credit Memo"](../../../../../objects/report/1307.md)
 - [Posted Sales Invoice with QR report](https://learn.microsoft.com/dynamics365/business-central/reports/report-6166): Add a payment QR code to the posted sales invoice layout so customers can pay directly from the printed or PDF document.

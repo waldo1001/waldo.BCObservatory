@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics
 type: topic
 title: Fixed assets analytics
-summary: "Fixed assets analytics in Business Central covers ways to analyze fixed asset data: ad-hoc Data Analysis on FA and GL ledger entries, built-in tools, standard and Excel reports, and legacy reports slated for removal. It answers questions about asset values, depreciation, insurance, maintenance and which report to use."
+summary: "Fixed assets analytics in Business Central covers ways to analyze fixed asset data: KPIs, ad-hoc Data Analysis of FA and GL ledger entries, built-in tools for disposal, insurance, maintenance, budgeting and reclassification, and standard and legacy reports. It helps pick the right tool or report for questions about asset value, depreciation, insurance and maintenance costs."
 tier: official
 language: en
 system: fixed-assets
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:15:53.640Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 4ef71d81fe782ddc9e49176d5c4f5725e74a83951b83aa2fee875bd7b7e5dd80
+  input_hash: aaeff40f7eb2c17b2fffec83d1c5ad7d745d97faeac0f2c7a52520be1aa7ad2e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa
@@ -35,105 +35,112 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5611
     title: FA Posting Group - Net Change Report (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5608
     title: Fixed Asset - Acquisition List (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4412
     title: Fixed Asset Analysis (Excel report)
-    date: "2024-12-26"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5600
-    title: Fixed Asset Analysis (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5605
     title: Fixed Asset Book Value 01 (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5606
     title: Fixed Asset Book Value 02 (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4411
     title: Fixed Asset Details (Excel report)
-    date: "2024-12-27"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5604
-    title: Fixed Asset Details (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5636
     title: Fixed Asset Document Nos. (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5610
     title: Fixed Asset G/L Analysis (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5620
+    title: Fixed Asset Insurance Analysis (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5602
     title: Fixed Asset Journal - Test (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5601
-    title: Fixed Asset List (report)
-    date: "2024-10-23"
+    title: Fixed Asset List and Setup (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4413
     title: Fixed Asset Projected Value (Excel report)
-    date: "2024-12-27"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5607
     title: Fixed Asset Projected Value (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5603
-    title: Fixed Asset Register (report)
-    date: "2024-10-23"
+    title: Fixed Asset Register Entries (report)
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5604
+    title: Fixed Asset Transaction Details (report)
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5600
+    title: Fixed Asset Value Analysis (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -152,16 +159,9 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5620
-    title: Insurance - Analysis (report)
-    date: "2024-11-11"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5624
     title: Insurance - Coverage Details (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -175,28 +175,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5625
     title: Insurance - Tot. Value Insured (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5626
     title: Insurance - Uninsured FAs (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5622
     title: Insurance Journal - Test (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5623
-    title: Insurance Register (report)
-    date: "2024-11-11"
+    title: Insurance Register Entries (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -216,22 +216,22 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5630
-    title: Maintenance - Analysis (report)
-    date: "2024-11-11"
+    title: Maintenance - Analysis (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5634
-    title: Maintenance - Details (report)
-    date: "2024-11-11"
+    title: Maintenance - Details (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5635
     title: Maintenance - Next Service (report)
-    date: "2024-11-11"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -391,26 +391,27 @@ narrative: generated
 
 # Fixed assets analytics
 
-> Fixed assets analytics in Business Central covers ways to analyze fixed asset data: ad-hoc Data Analysis on FA and GL ledger entries, built-in tools, standard and Excel reports, and legacy reports slated for removal. It answers questions about asset values, depreciation, insurance, maintenance and which report to use.
+> Fixed assets analytics in Business Central covers ways to analyze fixed asset data: KPIs, ad-hoc Data Analysis of FA and GL ledger entries, built-in tools for disposal, insurance, maintenance, budgeting and reclassification, and standard and legacy reports. It helps pick the right tool or report for questions about asset value, depreciation, insurance and maintenance costs.
 
-Path: [Business functionality](../../business-functionality.md) > [Fixed assets](../fixed-assets.md) > Fixed assets analytics · tier official · system fixed-assets · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Fixed assets](../fixed-assets.md) > Fixed assets analytics · tier official · system fixed-assets · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Fixed assets analytics brings together the ways to examine fixed asset data in Business Central. The overview page lists the options: KPIs, financial reports, consolidation, data analysis, Excel exports and built-in reports, across acquisitions, depreciation, insurance and maintenance.
+This section describes how to analyze fixed asset data in Business Central. The main page gives the overall picture: KPIs, financial reports, consolidation, data analysis, Excel exports and built-in reports, used to look at acquisitions, depreciation, insurance and maintenance.
 
-The hub's own pages cover the overview and ad-hoc analysis. Ad-hoc analysis uses the Data Analysis feature on FA ledger entries and GL entries, so you can check asset values or depreciation interactively without running a report. Three subtopics go deeper. Built-in tools cover disposing, insuring, maintaining, budgeting and reclassifying assets. Fixed assets reports covers the standard and Excel reports. Legacy reports describes three older reports marked for removal.
+The pages fit together by purpose. The ad-hoc analysis page explains how to use Data Analysis mode on FA ledger entries and GL entries without running a report, for example to track asset value or depreciation. The built-in tools subtopic covers day-to-day tasks such as disposing, insuring, maintaining, budgeting and reclassifying assets. The reports subtopic lists standard and Excel reports for book value, depreciation, acquisitions, ledger entries, registers, insurance and maintenance. Three legacy reports are documented separately and are marked for removal.
 
-Start with the Fixed assets analytics overview to pick an approach. Use ad-hoc analysis for quick questions, and the reports subtopic when you need a standard, repeatable output. Check the legacy page only if you still rely on those older reports.
+Start with the Fixed assets analytics page to choose an approach. Use the reports subtopic when you need a fixed output, and the ad-hoc analysis page when you want to explore the data interactively. Avoid the legacy reports for new work.
 
 ## Key points
 
-- Ad-hoc analysis uses Data Analysis mode on FA ledger entries and GL entries, with pivot mode and column management, and no report run needed.
-- Typical ad-hoc scenarios are asset value tracking (fixed asset valuation) and depreciation analysis.
-- The overview names KPIs, financial reports, consolidation, data analysis, Excel exports and built-in reports as analysis options.
-- Built-in tools cover posting disposals or retirements, insurance coverage, maintenance costs, budgeting, and transferring, splitting or combining assets.
-- The Fixed assets reports subtopic has 23 pages on standard and Excel reports: book value, depreciation, acquisitions, ledger entries, registers, insurance and maintenance.
-- Legacy reports marked for removal are Fixed Asset Analysis, Fixed Asset Details and Fixed Asset Projected Value.
+- Ad-hoc analysis uses the Data Analysis feature on FA ledger entries and GL entries, with pivot mode and column management, and needs no report run.
+- Typical ad-hoc scenarios are fixed asset valuation and depreciation tracking.
+- The overview page lists the analysis options: KPIs, financial reports, consolidation, data analysis, Excel exports and built-in reports.
+- Built-in tools cover disposing or retiring, insuring, maintaining, budgeting and reclassifying assets, including transferring, splitting and combining assets.
+- The fixed assets reports subtopic has 23 pages of standard and Excel reports on book value, depreciation, acquisitions, ledger entries and registers.
+- Insurance and maintenance reports cover insurance coverage and maintenance costs, and some reports help check journals.
+- Fixed Asset Analysis, Fixed Asset Details and Fixed Asset Projected Value are legacy reports that will be removed.
 
 ## Subtopics
 

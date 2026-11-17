@@ -2,25 +2,25 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-purchase
 type: topic
 title: Set up purchase
-summary: "Set up purchase covers configuring purchasing in Business Central: payables setup, vendors and vendor bank accounts, purchasers, vendor priority, purchase prices and discounts, invoice posting policies, and total amount validation. It answers how-to setup questions for the purchasing area."
+summary: "Purchase setup in Business Central: Purchases & Payables Setup options, vendor registration, vendor bank accounts, purchasers, priorities, prices and discounts, invoice posting policies, and purchase amount validation. It answers questions about configuring how purchasing and vendor data behave."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:20:14.674Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 2fa1c961aff11aca3436f9bb5c400b573d23e701630f33def9c14537c769c5b3
+  input_hash: 166a0525c2ca1f472e1eb69d93f12de605c7334d0677d007e93fc48ef0343a47
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-prioritize-vendors
     title: Assign a priority level to a vendor
-    date: "2025-10-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -34,21 +34,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-setup-purchasing
     title: Overview of tasks to set up purchasing
-    date: "2025-10-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-record-purchase-price-discount-payment-agreements
     title: Record special purchase prices and discounts
-    date: "2026-08-25"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-register-new-vendors
     title: Register a new vendor
-    date: "2026-08-26"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -62,7 +62,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-setup-purchasers
     title: Set up purchasers and assign purchasers to vendors
-    date: "2025-10-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -76,7 +76,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-set-up-vendors-bank-accounts
     title: Set up vendor bank accounts
-    date: "2026-08-17"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -193,28 +193,28 @@ narrative: generated
 
 # Set up purchase
 
-> Set up purchase covers configuring purchasing in Business Central: payables setup, vendors and vendor bank accounts, purchasers, vendor priority, purchase prices and discounts, invoice posting policies, and total amount validation. It answers how-to setup questions for the purchasing area.
+> Purchase setup in Business Central: Purchases & Payables Setup options, vendor registration, vendor bank accounts, purchasers, priorities, prices and discounts, invoice posting policies, and purchase amount validation. It answers questions about configuring how purchasing and vendor data behave.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up purchase · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up purchase · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section groups the pages needed to prepare Business Central for purchasing. It has no subtopics, so all content is on its own pages. The page "Overview of tasks to set up purchasing" is the natural starting point. It covers payables setup such as posting rules, number series, external document number requirements, exact cost reversing, discount calculation and prepayment checking.
+This section covers the setup tasks needed before you buy from vendors. It starts with an overview of purchasing setup tasks, centered on the Purchases & Payables Setup page and the vendor registration process. Other pages go deeper on single areas.
 
-Vendor setup pages cover registering a vendor (manually or from templates), setting up vendor bank accounts with preferred accounts and approval workflows, assigning a priority level to a vendor, and assigning purchasers to vendors for filtering reports and statistics.
+Vendor-related pages cover registering a vendor (vendor card, templates, remit-to addresses, order addresses, self-billing agreement), setting up vendor bank accounts, assigning purchasers to vendors, and giving vendors a priority for payment suggestions.
 
-Further pages cover pricing and control. They explain recording special purchase prices and discounts, setting up sales and purchase prices and discounts in general, defining invoice posting policies per user, and validating purchase amounts against document totals. A page on updating document dates with posting dates is also included, although its source describes it for sales transactions.
+Policy and pricing pages cover invoice posting policies per user, validation of purchase amounts on invoices and credit memos, special purchase prices and discounts, and the general prices and discounts setup. Start with the overview page, then move to the page for the specific task. One page, on updating document dates with posting dates, is described only in terms of sales transactions.
 
 ## Key points
 
-- Start with the overview of purchasing setup tasks: posting rules, number series, external document number, exact cost reversing, prepayment checking.
-- Register vendors manually or with templates; the vendor card can hold remit-to addresses, bank accounts, dimensions and optional self-billing agreements.
-- Vendor bank accounts support preferred accounts, IBAN management and approval workflows for new accounts.
-- Vendor priority numbers control ranking in payment suggestions and vendor lists.
-- Purchaser codes assigned to vendors help filter reports and prepare purchasing statistics.
-- Invoice posting policies per user can prohibit, allow or require posting invoices together with receipts or shipments.
-- The prices and discounts pages (tagged 2020 release wave 2) cover line discounts, invoice discounts, vendor price groups, discount posting principles, price lists with new and legacy pricing experiences, and automatic best price calculation.
-- Total amount validation on purchase invoices and credit memos checks document totals against line totals before posting (2025 release wave 1).
+- The overview page lists Purchases & Payables Setup options such as Calc. Inv. Disc. per VAT/Tax ID, Appln. between Currencies, Check Prepmt. when Posting, Prepmt. Auto Update, Ext. Doc. No. Mandatory and Exact Cost Reversing Mandatory.
+- Registering a vendor involves a vendor card, templates, remit-to addresses, order addresses, vendor bank account and an optional self-billing agreement.
+- Vendor priority numbers control the order of vendors in payment suggestions. A blank priority means no prioritization.
+- Invoice posting policy per user can be allowed, mandatory or prohibited for posting sales and purchase invoices together with shipments or receipts.
+- Total amount validation on purchase invoices and credit memos checks that document totals match line totals before posting (2025 release wave 1).
+- Special purchase prices, line discounts and invoice discounts are set per vendor. The pages cover the new pricing experience from 2020 release wave 2 and best price calculation.
+- Vendor bank accounts support a preferred account, an approval workflow, payment journal use, and export of payments to a bank file with AMC Banking 365 Fundamentals Extension.
+- Multiple purchasers can be set up with codes, assigned to vendors, and used as filters in statistics and reports.
 
 ## Learn pages
 
@@ -223,14 +223,16 @@ Further pages cover pricing and control. They explain recording special purchase
   - In the observatory: [Page 119 "User Setup"](../../../../objects/page/119.md)
 - [Overview of tasks to set up purchasing](https://learn.microsoft.com/dynamics365/business-central/purchasing-setup-purchasing): Describes the tasks to define your company's procurement policies and set up your purchasing processes.
 - [Record special purchase prices and discounts](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-record-purchase-price-discount-payment-agreements): Set up and manage special purchase prices and discounts for vendors, and automatically apply them to purchase documents.
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../objects/page/35603-ru.md), [Page 460 "Purchases & Payables Setup"](../../../../objects/page/460.md)
 - [Register a new vendor](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-register-new-vendors): Learn how to register vendors, save vendor cards as templates, and set up vendor-specific number series for self-billed purchase invoices.
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../objects/page/35603-ru.md)
 - [Set up prices and discounts](https://learn.microsoft.com/dynamics365/business-central/across-prices-and-discounts): Describes how to define standard and special price and discount agreements for sales and purchases.
 - [Set up purchasers and assign purchasers to vendors](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-setup-purchasers): Organize purchasers or purchasing agents in your company to enable efficient tracking and statistical analysis.
   - In the observatory: [Page 35603 "Vendors (RU)"](../../../../objects/page/35603-ru.md)
 - [Set up validation of purchase amounts](https://learn.microsoft.com/dynamics365/business-central/how-to-set-up-validation-of-purchase-amounts): You can validate the total amount on purchase invoices and credit memos before you post the documents.
   - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../../objects/page/460.md), [Page 51 "Purchase Invoice"](../../../../objects/page/51.md), [Page 52 "Purchase Credit Memo"](../../../../objects/page/52.md)
 - [Set up vendor bank accounts](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-set-up-vendors-bank-accounts): Learn how to associate bank accounts to vendors, including contact information, SWIFT, and IBAN codes.
-  - In the observatory: [Page 426 "Vendor Bank Account List"](../../../../objects/page/426.md)
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../../objects/page/35603-ru.md), [Page 426 "Vendor Bank Account List"](../../../../objects/page/426.md)
 - [Updating document dates with posting dates](https://learn.microsoft.com/dynamics365/business-central/across-link-doc-dates-to-posting-dates): Learn how to make sure that document dates on sales and purchase documents match their posting dates.
 
 ## Business Central pages and reports

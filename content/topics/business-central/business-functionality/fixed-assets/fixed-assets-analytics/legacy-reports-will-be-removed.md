@@ -12,38 +12,38 @@ review:
   at: "2026-10-07T02:27:17.864Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
   input_hash: a58f96a31d9cdee0f232ac2fcd6655d98e19abfdb649447c1a203fefaf3e15ac
 evidence:
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5600
-    title: Fixed Asset Analysis (report)
-    date: "2024-10-23"
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5607
+    title: Fixed Asset Projected Value (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5604
-    title: Fixed Asset Details (report)
-    date: "2024-10-23"
+    title: Fixed Asset Transaction Details (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5607
-    title: Fixed Asset Projected Value (report)
-    date: "2024-11-11"
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5600
+    title: Fixed Asset Value Analysis (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/reports/report-5600
-    - https://learn.microsoft.com/dynamics365/business-central/reports/report-5604
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5607
+    - https://learn.microsoft.com/dynamics365/business-central/reports/report-5604
+    - https://learn.microsoft.com/dynamics365/business-central/reports/report-5600
   objects:
     - object/report/5600
     - object/report/5604
@@ -103,9 +103,9 @@ Start with the page that matches your task: Analysis for reconciliation, checks 
 
 ## Learn pages
 
-- [Fixed Asset Analysis (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5600): This report helps with tasks such as reconciling fixed asset values with your general ledger, or reviewing net values and write down values. You can also see information only for sold fixed assets.
-- [Fixed Asset Details (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5604): Get detailed transaction information and reference data for your asset management.
-- [Fixed Asset Projected Value (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5607): Review projected depreciation amounts and book value for a future period for your fixed assets.
+- [Fixed Asset Projected Value (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5607): Forecast fixed asset depreciation and book values for a future period, choose projection intervals, and optionally copy depreciation to a G/L budget.
+- [Fixed Asset Transaction Details (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5604): Review posted fixed asset transactions for a selected depreciation book and FA posting date filter, with an option to include reversed ledger entries.
+- [Fixed Asset Value Analysis (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5600): Analyze fixed asset values with configurable date and amount columns, group totals, and optional future depreciation for a selected depreciation book.
 
 ## Business Central pages and reports
 

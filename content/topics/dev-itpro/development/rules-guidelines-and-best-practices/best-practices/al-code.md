@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,7 @@ links:
   videos:
     - video/kbRTIWH-nio
   posts:
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-21-27-2026--a323467e2a
     - post/jeremyvyska-com/1449
   guidelines: []
   changes:
@@ -94,7 +95,7 @@ coverage:
   learn: 4
   code: 0
   video: 1
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: ba956ebb86ef285878ddc0a53474259a24c07dfcd7d43b7bbd61833d0d693b78
@@ -155,6 +156,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#273 knowledge(style): SetFilter date operands as replacement values; product name via ProductName](../../../../../changes/bcquality/273.md) (code change): "SetFilter rule prevents date text parsing issues by requiring date operands"
 - [#65 Add data-modeling and appsource knowledge articles (MICROSOFT layer)](../../../../../changes/bcquality/65.md) (code change): "Seven remedial BCQuality knowledge articles added to the MICROSOFT layer covering data-modeling patterns, AppSource conventions, and styling best practices"
 - [#95 style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope](../../../../../changes/bcquality/95.md) (code change): "al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries"
+- [Weekly Review: Business Central AL Development – June 21–27, 2026](../../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-21-27-2026--a323467e2a.md) (community post): "Moving older AL apps to namespaces improves object clarity, reduces naming friction"
 - [BC Code Intelligence: Your New VS Code AI Development Partner](../../../../../posts/jeremyvyska-com/1449.md) (community post): "help developers solve problems faster and follow best practices"
 - [What's New: Introducing the Business Foundation and the No. Series Module (2024 release wave 1)](../../../../../videos/kbRTIWH-nio.md) (video): "backwards compatibility; non-breaking table movement between apps; deprecation scheme"
 

@@ -1,36 +1,23 @@
 {
   "hub_id": "topic/business-central/business-functionality/purchasing/purchasing-analytics/legacy-reports-will-be-removed",
-  "input_hash": "1cc452a8840057d0a03e5eb5dd8b42d1f489f40e548ddf4caae4c41012da7b31",
-  "summary": "Legacy purchasing analytics reports in Business Central that are marked for removal: Aged Accounts Payable, Payments on Hold, Vendor - List, and Vendor - Top 10 List. It answers questions about what each report shows and who uses it.",
-  "overview": "This section lists four older vendor-focused reports under Purchasing analytics. The Learn table of contents labels them \"will be removed\", so they describe reports that are being phased out.\n\nThe pages are independent of each other. Aged Accounts Payable and Payments on Hold cover open vendor balances and held entries. Vendor - List and Vendor - Top 10 List cover vendor master data and vendor ranking by purchases. Start with the page that matches the question: aging and reconciliation, held payments, vendor setup data, or top vendors.",
+  "input_hash": "93512177b77777d53e74db97a43680a2f1e943d07a42ab25dbb40338eca368c8",
+  "summary": "Legacy purchasing reports in Business Central that are obsolete and planned for removal: Aged Accounts Payable, Payments on Hold, Vendor - Top 10 List, and Vendor - List. It answers questions about what each report shows, its options, and what replaces it.",
+  "overview": "This section lists four older purchasing analytics reports that Microsoft Learn marks as obsolete or to be removed. They cover vendor payables aging, held vendor payments, top vendors by purchases or balance, and a general vendor details list. The pages are standalone, so there is no required reading order.\n\nEach page describes what the report displays and its options, which helps when you maintain existing setups that still use them. Some pages also name the replacement. Payments on Hold is replaced by filtering the Vendor Ledger Entries page, and Vendor - Top 10 List is replaced by the Vendor - Top 10 List Excel report. Aged Accounts Payable and Vendor - List are marked with version 28.0.\n\nStart with the report you currently use. Check its page for the obsolete status and plan a move to the alternative before removal.",
   "key_points": [
-    "Aged Accounts Payable shows outstanding invoice and payment amounts per vendor, calculates aging periods, and supports monitoring vendor payments and reconciling subledgers.",
-    "Aged Accounts Payable includes vendor balance calculation, an outstanding document breakdown, and percentage calculations.",
-    "Payments on Hold lists all vendor ledger entries where the On Hold field is populated.",
-    "Payments on Hold is aimed at procurement coordinators, accounts payable specialists, and controllers handling vendor disputes and invoice processing.",
-    "Vendor - List shows vendor master data: posting groups, payment terms, discounts, priority levels, default currency, and current balance.",
-    "Vendor - Top 10 List ranks vendors by transaction volume in a selected period and compares them with total purchases across all vendors.",
-    "All four reports are in a section marked as legacy and due to be removed."
+    "Aged Accounts Payable shows outstanding vendor invoices, credit memos, and payments with aging periods. It is used to monitor payments and reconcile subledgers.",
+    "Aged Accounts Payable options: Aged As Of date, Period Length, aging by due date, posting date, or document date, Heading Type, percentage calculation, and summary or detailed vendor views.",
+    "Payments on Hold lists open vendor ledger entries with an On Hold value. It is obsolete, and the replacement is to filter the Vendor Ledger Entries page.",
+    "Vendor - Top 10 List ranks vendors by Purchases (LCY) or Balance (LCY). You can adjust how many vendors appear. It is obsolete, and the Vendor - Top 10 List Excel report is the recommended alternative.",
+    "Vendor - List (Report 301) shows posting groups, payment terms, discounts, priority, default currency, and current balance.",
+    "Vendor - List and Aged Accounts Payable are marked for version 28.0, and Vendor - List is obsolete from that version and planned for removal."
   ],
   "members_used": 4,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:04:10.600Z",
+  "at": "2026-11-17T01:00:10.071Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.010553
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:25:36.422Z",
-    "verdict": "approve",
-    "issues": [
-      "The summary says the hub answers questions about 'who uses it' for each report. Audience roles are only given for Payments on Hold, so this slightly overstates what the sources cover.",
-      "The overview's claim that 'The pages are independent of each other' is an inference, not something the page summaries state. It's harmless but unsupported."
-    ],
-    "input_hash": "1cc452a8840057d0a03e5eb5dd8b42d1f489f40e548ddf4caae4c41012da7b31",
-    "cost_usd": 0.0263192
+    "cost_usd": 0.013095
   }
 }

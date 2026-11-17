@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:29.120Z"
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -28,21 +28,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-process
     title: Process sales quotes and orders with Sales Order Agent
-    date: "2026-10-02"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-order-agent
     title: Sales Order Agent overview
-    date: "2026-10-02"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-setup
     title: Set up Sales Order Agent
-    date: "2026-10-02"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null

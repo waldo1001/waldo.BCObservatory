@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -28,7 +28,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-reports
     title: Accounts receivable analytics
-    date: "2026-09-18"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -98,14 +98,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
     title: Available Fonts in Business Central
-    date: "2025-02-28"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-bookmarks
     title: Bookmark a Page or Report on Your Role Center
-    date: "2024-07-25"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -182,7 +182,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-develop-reports
     title: Develop Business Central Report Layouts and Datasets
-    date: "2026-11-11"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -196,7 +196,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-get-started-layouts
     title: Get started creating report layouts
-    date: "2026-09-09"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -631,9 +631,9 @@ links:
     - video/_1onqwZz4rA
     - video/1QuV_vkbNVU
     - video/6dEZQlmBlyI
+    - video/eDi32pS8eMo
     - video/VuULbBjzPcs
   posts:
-    - post/thinkaboutit-be/7635
     - post/yzhums-com/68975
   guidelines: []
 learn_toc_path:
@@ -650,8 +650,8 @@ children:
 coverage:
   learn: 69
   code: 315
-  video: 4
-  blog: 2
+  video: 5
+  blog: 1
   guideline: 0
 bc_forms:
   - 1
@@ -1008,11 +1008,11 @@ For technical readers, Develop reports explains datasets, layouts (Word, Excel, 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central Analytics: The Technology Is Not the Hard Part](../../posts/thinkaboutit-be/7635.md) (community post): "adoption success depends more on helping users ask better business questions than on technology maturity"
 - [Business Central 2025 wave 2 (BC27.1): Demo analytics with new enhanced demo data](../../posts/yzhums-com/68975.md) (community post): "provides enhanced sample data for sales and purchasing documents"
 - [What's New: Demo Data for Analytics (2025 release wave 2)](../../videos/_1onqwZz4rA.md) (video): "Enhanced Demo Data Tool for Analytics"
-- [Introducing Spreadsheets for Business Central](../../videos/1QuV_vkbNVU.md) (video): "spreadsheets; regions; data connectivity; charts; queries"
+- [Introducing Spreadsheets for Business Central](../../videos/1QuV_vkbNVU.md) (video): "Spreadsheets for Business Central; Regions; Virtual Fields; Page Regions"
 - [Use Data from a Report inside your Spreadsheet with Business Central (Advanced Spreadsheets)](../../videos/6dEZQlmBlyI.md) (video): "advanced spreadsheets; report regions; live data; charting"
+- [Use a reporting skill to create complex Spreadsheets in Business Central (Advanced Spreadsheets)](../../videos/eDi32pS8eMo.md) (video): "AI-powered Reporting Skills; Built-in Skill Templates; Agent-driven Spreadsheet Building"
 - [What's Cooking in Business Central: More Contoso Document Data for Analytics](../../videos/VuULbBjzPcs.md) (video): "More Contoso Document Data for Analytics"
 
 ## Business Central pages and reports

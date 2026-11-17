@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -82,7 +82,6 @@ links:
   localizations: []
   videos:
     - video/JI5KlMxrtoA
-    - video/Q-oazDEucLE
   posts:
     - post/gerardorenteria-blog/11565
     - post/jeremyvyska-com/1770
@@ -127,7 +126,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 2
+  video: 1
   blog: 5
   guideline: 0
 bc_forms: []
@@ -187,6 +186,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [ALCops: The Story So Far](../../../../posts/vondervoort-be/147.md) (community post): "ALCops is a community-driven collection of code analyzers for AL"
 - [Business Central 2026 release wave 2 (BC29): Detect tables approaching SQL column limits (New warning)](../../../../posts/yzhums-com/76053.md) (community post): "compiler warnings (AL0914 and AL0915) to alert developers when tables or table extensions contain many fields"
 - [How Good Can AL Code Get? — A Live ISO 5055 Review](../../../../videos/JI5KlMxrtoA.md) (video): "Code quality; static analysis; al cops; Default Analyzers Configuration"
-- [20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL](../../../../videos/Q-oazDEucLE.md) (video): "Static analysis linters for code quality"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

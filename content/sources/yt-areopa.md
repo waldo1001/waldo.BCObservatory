@@ -2,7 +2,7 @@
 id: source/yt-areopa
 type: source
 title: Areopa webinars
-summary: "Areopa webinars (Areopa (Steven Renders)): 17 videos in the knowledge base, 2025-12-09 to 2026-10-27, mostly about development, copilot, platform."
+summary: "Areopa webinars (Areopa (Steven Renders)): 18 videos in the knowledge base, 2025-12-09 to 2026-11-13, mostly about development, copilot, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:15:47.902Z"
+  at: "2026-11-17T00:16:35.786Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 6a0fa189eef0e32712a383b8cf7b8b3e66bf6c6e31861b880811413440ecec3c
+  input_hash: 5cd4e014f70ecd14291b0b91b82a75cf34931b8c3342cd68494481105514d335
 evidence:
   - kind: video
     url: https://www.youtube.com/channel/UCWL0RbbT6ILzzCd6Ix7t0AQ
@@ -29,6 +29,7 @@ links:
   learn: []
   objects: []
   features:
+    - feature/574126
     - feature/578068
   topics: []
   localizations: []
@@ -50,6 +51,7 @@ links:
     - video/d8SZ81uxj_k
     - video/5xeATIUFiGg
     - video/a3j6JjyWDv0
+    - video/7lxkboRGw28
   posts: []
   guidelines: []
 source_id: yt-areopa
@@ -58,7 +60,7 @@ url: https://www.youtube.com/channel/UCWL0RbbT6ILzzCd6Ix7t0AQ
 author: Areopa (Steven Renders)
 mvp: false
 full_text: false
-item_count: 17
+item_count: 18
 footprint:
   systems:
     - id: development
@@ -68,7 +70,7 @@ footprint:
     - id: platform
       weight: 2
     - id: reporting
-      weight: 1
+      weight: 2
     - id: sales
       weight: 1
   topics:
@@ -118,15 +120,17 @@ footprint:
     - id: codeunit Contoso bank helper code unit
       weight: 1
   features:
+    - id: feature/574126
+      weight: 1
     - id: feature/578068
       weight: 1
 first_item: "2025-12-09"
-last_item: "2026-10-27"
+last_item: "2026-11-13"
 ---
 
 # Areopa webinars
 
-> Areopa webinars (Areopa (Steven Renders)): 17 videos in the knowledge base, 2025-12-09 to 2026-10-27, mostly about development, copilot, platform.
+> Areopa webinars (Areopa (Steven Renders)): 18 videos in the knowledge base, 2025-12-09 to 2026-11-13, mostly about development, copilot, platform.
 
 [https://www.youtube.com/channel/UCWL0RbbT6ILzzCd6Ix7t0AQ](https://www.youtube.com/channel/UCWL0RbbT6ILzzCd6Ix7t0AQ) · channel · tier community
 
@@ -137,7 +141,7 @@ last_item: "2026-10-27"
 | development (9) | ai adoption (2) | api Business Central admin API (1) |
 | copilot (4) | al development (2) | api sales order item categories (1) |
 | platform (2) | automated testing (2) | api sales orders API (1) |
-| reporting (1) | error handling (2) | codeunit Agent Creation Codeunit (1) |
+| reporting (2) | error handling (2) | codeunit Agent Creation Codeunit (1) |
 | sales (1) | interfaces (2) | codeunit agent task (1) |
 |  | permissions (2) | codeunit agent task builder (1) |
 |  | prompt engineering (2) | codeunit agent task message builder (1) |
@@ -155,14 +159,16 @@ Items per quarter, oldest first:
 - 2026-Q1: **** 4
 - 2026-Q2: ****** 6
 - 2026-Q3: **** 4
-- 2026-Q4: ** 2
+- 2026-Q4: *** 3
 
 ## Roadmap features it demonstrates
 
+- [Data mirroring to Microsoft Fabric](../features/574126.md): in preview, GA 2027-04, 1 video
 - [Envision and design AI agents in Business Central](../features/578068.md): Copilot and agents, in preview, GA 2026-10, 1 video
 
 ## Most recent
 
+- [20261109 - Not a Developer No Problem! Deploy & Embed Power BI Apps in Business Central](../videos/7lxkboRGw28.md) (2026-11-13)
 - [20261026 - The Rollback That Wasn’t Transaction & Error Handling](../videos/a3j6JjyWDv0.md) (2026-10-27)
 - [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../videos/5xeATIUFiGg.md) (2026-10-19)
 - [290928 - You Are the Art : Notes from Six Years of Becoming a Speaker](../videos/d8SZ81uxj_k.md) (2026-09-29)

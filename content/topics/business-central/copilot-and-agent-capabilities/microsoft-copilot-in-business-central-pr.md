@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:12.958Z"
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -71,6 +71,7 @@ links:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442
     - post/thinkaboutit-be/8342
     - post/thinkaboutit-be/8348
+    - post/yzhums-com/65164
     - post/yzhums-com/65781
     - post/yzhums-com/67542
     - post/yzhums-com/75811
@@ -89,7 +90,7 @@ coverage:
   learn: 4
   code: 0
   video: 8
-  blog: 8
+  blog: 9
   guideline: 0
 bc_forms: []
 member_hash: 2062629c7a6a6ebd37a1793d9251eb5c396f63abc802c925e789a385ca6b189a
@@ -138,6 +139,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Microsoft Copilot in Business Central: What the New Unified Chat Experience Means](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442.md) (community post): "unified Copilot-style chat that reasons over Business Central data"
 - [Business Central 29: Exploring the New Microsoft Copilot Chat](../../../posts/thinkaboutit-be/8342.md) (community post): "unified Microsoft Copilot Chat that combines Business Central data, web information, and Microsoft 365 work context"
 - [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../../../posts/thinkaboutit-be/8348.md) (community post): "Edit with Copilot enables users to modify business data using natural language"
+- [Dynamics 365 Business Central: Using Ask Learn (AI assistant) on Microsoft Learn (Technical documentation)](../../../posts/yzhums-com/65164.md) (community post): "AI assistant in preview on Microsoft Learn"
 - [Business Central 2025 wave 1 (BC26.3): Chat with Copilot to learn how to use installed add-on apps](../../../posts/yzhums-com/65781.md) (community post): "Copilot chat to explain and guide users through installed add-on apps"
 - [Business Central 2025 wave 2 (BC27): Use enhanced chat with Copilot (Supports 20 more languages)](../../../posts/yzhums-com/67542.md) (community post): "Copilot chat supports 20 more languages, understands prompts"
 - [Business Central 2026 release wave 2 (BC29): Enable unified Copilot chat experience consistent with Microsoft Copilot (New Chat with Copilot)](../../../posts/yzhums-com/75811.md) (community post): "unified Copilot chat experience that matches Microsoft 365 Copilot's interface"

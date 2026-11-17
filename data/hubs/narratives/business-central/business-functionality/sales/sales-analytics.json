@@ -1,24 +1,24 @@
 {
   "hub_id": "topic/business-central/business-functionality/sales/sales-analytics",
-  "input_hash": "0b2e07da2a9e8c34a3de5f7ea0d967094002b900e42c2ad30ed8f858b6fc832b",
-  "summary": "Sales analytics in Business Central covers the ways to analyze sales data: the Power BI Sales app, built-in sales reports, ad-hoc Data Analysis on list pages, custom analysis reports, and legacy reports marked for removal. It answers what each report or tool shows and how to choose between them.",
-  "overview": "Sales analytics brings together the options that sales managers and operators have for monitoring KPIs and trends. The main routes are the Power BI Sales app, Financial Reporting, ad-hoc analysis on list pages, Open in Excel, and the built-in reports.\n\nThe hub's own pages cover two hands-on tools. Ad-hoc analysis uses the Data Analysis feature on list pages for quick fact-checking and custom views without running a predefined report. Analysis reports combine line and column templates to build PivotTable-style reports on sales, purchases and inventory.\n\nThree subtopics go deeper. The Power BI Sales app section describes role-based reports, the star-schema semantic model and the KPI and measure definitions. Built-in sales reports lists receivables, order, salesperson and printable document reports with their filters. Legacy reports lists five reports that will be removed. Start with the Sales analytics overview page, then pick the tool that fits the question.",
+  "input_hash": "fe1676040a908a4ad99359425528dfa27d0f2cd96b0c18f10e9ca41538c24d66",
+  "summary": "Sales analytics in Business Central covers the ways to analyze sales data: the Power BI Sales app, built-in and legacy sales reports, ad-hoc analysis on list pages, and analysis reports built from templates. It answers what each report shows, which tool fits a task, and which reports are being removed.",
+  "overview": "Sales analytics groups the tools for monitoring sales KPIs and trends. The top-level page lists the options: Power BI reports, Financial Reporting, Data Analysis on list pages, Open in Excel, and built-in reports. It is aimed at sales managers and operators.",
   "key_points": [
-    "Ad-hoc analysis uses Data Analysis mode on list pages, with pivot-style row groups, column labels, filters and custom tabs.",
-    "Analysis reports are built from line and column templates and analysis type codes, for sales turnover, profit calculations, periodic comparisons and item ledger analysis.",
-    "The Power BI Sales app offers role-based reports on a star-schema semantic model, with documented KPIs and measures.",
-    "Built-in reports cover receivables, customer balances, orders and back orders, salespersons, and printable documents such as quotes, invoices, credit memos, shipments and return receipts.",
-    "Built-in report variants exist for subscription billing, QR codes and sustainability data.",
-    "Other analysis routes named in the overview are Financial Reporting, Open in Excel, Chart of Accounts and dimensions.",
-    "Legacy reports marked for removal: Customer - Sales list, Customer - Top 10 list, Customer List, Sales Reservation Avail., and Sales Statistics."
+    "Start with the Sales analytics overview page, which compares the available analysis options.",
+    "Ad-hoc analysis uses the Data Analysis feature on list pages, with analysis mode, pivot-style row groups and column labels, filtering and custom tabs, so no predefined report is needed.",
+    "Analysis reports combine line and column templates and analysis type codes to cover sales turnover, profit, periodic comparisons and item ledger analysis. They apply to sales, purchases and inventory.",
+    "The Power BI Sales app subtopic (24 pages) documents the report catalog, the semantic model, and the KPIs and measures.",
+    "The built-in sales reports subtopic (29 pages) covers receivables aging, customer balances and rankings, order and inventory reports, and salesperson reports. It also covers printable sales documents such as quotes, order confirmations, invoices, credit memos and shipments.",
+    "Legacy reports (5 pages) will be removed: Customer - Sales list, Customer - Top 10 List, Customer List, Sales Reservation Avail., and Sales Statistics. One of them is already obsolete.",
+    "Dimensions, the Chart of Accounts and Financial Reporting are also named as ways to analyze sales."
   ],
   "members_used": 3,
   "subtopics_used": 3,
   "prompt_version": 1,
-  "at": "2026-11-13T01:00:34.597Z",
+  "at": "2026-11-17T01:00:29.087Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.013687000000000001
+    "cost_usd": 0.012060999999999999
   }
 }

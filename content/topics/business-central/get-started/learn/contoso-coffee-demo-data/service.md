@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:50.830Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -20,22 +20,22 @@ generated:
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/contoso-coffee-service-intro
-    title: Introduction to Contoso Coffee service management
-    date: "2026-07-16"
+    title: Introduction to Contoso Coffee Service Management
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-contract-flow
-    title: Walkthrough of service contracts for service items
-    date: "2024-08-26"
+    title: Walkthrough of Service Contracts for Service Items
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-basic-flow-order
-    title: Walkthrough of service orders for service items
-    date: "2025-02-18"
+    title: Walkthrough of Service Orders for Service Items
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -97,10 +97,10 @@ Start with the introduction, then pick the walkthrough that matches the scenario
 
 ## Learn pages
 
-- [Introduction to Contoso Coffee service management](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/contoso-coffee-service-intro): This article introduces you to the Consoso Coffee demonstration data for service management.
-- [Walkthrough of service contracts for service items](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-contract-flow): This article guides you through some scenarios for service items and contracts.
+- [Introduction to Contoso Coffee Service Management](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/contoso-coffee-service-intro): Set up Contoso Coffee service demo data to explore repairs, loaners, service contracts, and resources with the right skills in Business Central.
+- [Walkthrough of Service Contracts for Service Items](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-contract-flow): Use Contoso Coffee demo data to create and invoice a service contract, assign a skilled resource, and record and post service work.
   - In the observatory: [Page 6000 "Dispatch Board"](../../../../../objects/page/6000.md), [Page 9318 "Service Orders"](../../../../../objects/page/9318.md), [Page 9319 "Service Invoices"](../../../../../objects/page/9319.md), [Page 9321 "Service Contracts"](../../../../../objects/page/9321.md)
-- [Walkthrough of service orders for service items](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-basic-flow-order): This article guides you through several core processes that involve service orders and items.
+- [Walkthrough of Service Orders for Service Items](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-basic-flow-order): Use Contoso Coffee demo data to create a service order, lend and receive a loaner, record repair work, and post and invoice the service order.
   - In the observatory: [Page 5915 "Service Tasks"](../../../../../objects/page/5915.md), [Page 5920 "Service Document Log"](../../../../../objects/page/5920.md), [Page 5978 "Posted Service Invoice"](../../../../../objects/page/5978.md), [Page 9318 "Service Orders"](../../../../../objects/page/9318.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

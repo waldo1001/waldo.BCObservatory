@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T00:48:52.213Z"
+  at: "2026-11-17T00:48:58.898Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 147ca8c4ee14932d30c9c2bce7a758dcfcd1684a0c2ecd596761809c34964f05
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralDeviceBaseApp.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralDeviceBaseApp.Entitlement.al
     title: src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralDeviceBaseApp.Entitlement.al (releases/29.x)
     date: null
-    commit: 9d65b5414f44cbad5890049a1e0490a64118ffdb
+    commit: ae251bc67417b1b37b41aaf52480e6a5c8f9294e
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central Device BaseApp" in Base Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 
-Base Application · System.Security.AccessControl · BC23-30 · [source at 9d65b541](https://github.com/microsoft/BCApps/blob/9d65b5414f44cbad5890049a1e0490a64118ffdb/src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralDeviceBaseApp.Entitlement.al) · facts from BC29
+Base Application · System.Security.AccessControl · BC23-30 · [source at ae251bc6](https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/Layers/W1/BaseApp/Entitlements/Dynamics365BusinessCentralDeviceBaseApp.Entitlement.al) · facts from BC29
 
 ## Across versions
 

@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/13558",
+  "input_hash": "43b3ab76f104d47bee80f7d871743609f757ce4111ab29066ec2a2063d0bcccb",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-17T00:58:47.718Z",
+  "issues": [
+    "The description presents this as a bug fix (Fixes #13556, 'it is fixed'), not a feature.",
+    "Key points 3 to 5 guess at what each codeunit does without support. They are replaced with points grounded in the file list and description."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024681,
+    "changes_in_call": 6
+  }
+}

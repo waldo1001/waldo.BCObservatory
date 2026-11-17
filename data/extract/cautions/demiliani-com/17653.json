@@ -1,0 +1,40 @@
+{
+  "item_id": "blog/demiliani-com/17653",
+  "page_id": "post/demiliani-com/17653",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "with no setup at all, an agent can discover and read anything the signed-in user can see.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "A client that skips the Company header can move across companies too.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "gotcha",
+      "quote": "One bad guess and a wrong invoice is posted to the ledger.",
+      "objects": [
+        {
+          "type": "table",
+          "name": "purchase invoices"
+        }
+      ],
+      "events": [],
+      "versions": []
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011234,
+    "posts_in_call": 1
+  }
+}

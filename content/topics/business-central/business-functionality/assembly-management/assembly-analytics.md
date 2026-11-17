@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:22.627Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -20,29 +20,29 @@ generated:
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-915
-    title: About Assemble to order - Sales (report)
-    date: "2024-10-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-811
-    title: About the BOM - Sub-Assemblies (report)
-    date: "2024-10-23"
+    title: Assemble to Order - Sales (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-812
     title: Assembly BOM - End Items (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-811
+    title: Assembly BOM - Sub-Assemblies (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-801
-    title: Assembly BOMs (report)
-    date: "2024-10-23"
+    title: Assembly BOMs Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -55,37 +55,37 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-810
-    title: BOM - Raw Materials (report)
-    date: "2024-10-23"
+    title: BOM - Raw Materials Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5872
     title: BOM Cost Share Distribution (report)
-    date: "2024-10-23"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5871
-    title: Item - Able to Make (Time) (report)
-    date: "2024-10-23"
+    title: Item - Able to Make (Timeline) (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-809
-    title: Where-used list (report)
-    date: "2024-10-23"
+    title: Where-Used List Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-915
-    - https://learn.microsoft.com/dynamics365/business-central/reports/report-811
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-812
+    - https://learn.microsoft.com/dynamics365/business-central/reports/report-811
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-801
     - https://learn.microsoft.com/dynamics365/business-central/assembly-reports
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-810
@@ -202,17 +202,17 @@ Start with "Assembly Reports and Analytics in Business Central" for the overview
 
 ## Learn pages
 
-- [About Assemble to order - Sales (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-915): Analyze the quantity, cost, sales, and profit figures of assembly components. Analyses can support decisions such as whether to price a kit differently, or to stop or start using a particular item in assemblies.
-- [About the BOM - Sub-Assemblies (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-811): Get an overview of the components in a subassembly bill of materials, for both assembly and production.
-- [Assembly BOM - End Items (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-812): Get a list of items or bill of materials (BOMs) that are not components of any other BOMs.
-- [Assembly BOMs (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-801): Get an overview of Assembly Bill of Materials (BOMs), including BOMs that are part of the main BOM.
+- [Assemble to Order - Sales (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-915): Analyze quantities, costs, sales, and profit for assembly components. Compare assemble-to-order component sales with sales directly from inventory.
+- [Assembly BOM - End Items (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-812): Find items that aren't components in any assembly bill of materials. Filter the Assembly BOM - End Items report to focus on the items you need.
+- [Assembly BOM - Sub-Assemblies (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-811): Review items that have an assembly bill of materials and are components in another assembly. Check inventory, unit costs, and alternative item numbers.
+- [Assembly BOMs Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-801): Review assembly bills of materials and their components. Check component quantities, units of measure, and whether components have an assembly BOM.
   - In the observatory: [Table 90 "BOM Component"](../../../../objects/table/90.md)
 - [Assembly Reports and Analytics in Business Central](https://learn.microsoft.com/dynamics365/business-central/assembly-reports): See which assembly reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
-- [BOM - Raw Materials (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-810): Get an overview about the needed components for an items bill of material (BOM), both for assembly and for production.
-- [BOM Cost Share Distribution (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5872): This report helps you decide whether to change component suppliers, or replace internal resources with outsourced labor (or vice versa). It also helps you review and modify an item's bill of materials.
+- [BOM - Raw Materials Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-810): Review items without an assembly bill of materials. Check their inventory, base units of measure, vendor numbers, and lead time calculations.
+- [BOM Cost Share Distribution (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5872): Review how material, capacity, subcontracting, and overhead costs contribute to BOM costs. Compare single-level or rolled-up cost shares and details.
   - In the observatory: [Page 5872 "BOM Cost Shares"](../../../../objects/page/5872.md)
-- [Item - Able to Make (Time) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5871): Check whether you can fulfill a sales order for an item by a specified date. Look at its current availability in combination with quantities that its components can supply if someone starts an assembly order.
-- [Where-used list (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-809): Get a list of the bill of materials (BOMs) that the selected items are components of. Use the report in case you must change a component in a BOM. For example, if your vendor can no longer deliver a specific item that you used for your assembly/production.
+- [Item - Able to Make (Timeline) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5871): Review projected item availability over time, including quantities that can be assembled or produced. Set the starting date, interval, and number of periods.
+- [Where-Used List Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-809): Find the assembly bills of materials that contain selected items. Review the parent items and component quantities before replacing a component.
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-11-03T01:02:12.823Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -320,7 +320,8 @@ links:
   videos:
     - video/sk5CaXnvvng
     - video/VpNQ-CYNrkM
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/1826
   guidelines: []
   changes:
     - change/bcapps/11563
@@ -350,7 +351,7 @@ coverage:
   learn: 294
   code: 1
   video: 2
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 812
@@ -417,6 +418,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9784 [E-Document Formats] Fix defects in V2 draft migration for XRechnung, PINT A-NZ and Factura-E](../../../changes/bcapps/9784.md) (code change): "Fix defects in V2 draft migration for XRechnung, PINT A-NZ and Factura-E"
 - [#9796 Show a message when an e-document file cannot be viewed or no data could be extracted](../../../changes/bcapps/9796.md) (code change): "E-document import handling now displays user-friendly messages when a PDF file cannot be displayed"
 - [#9872 Add missing telemetry event IDs to E-Document Session.LogMessage calls](../../../changes/bcapps/9872.md) (code change): "Added missing telemetry event IDs to 21 Session.LogMessage calls in E-Document"
+- [How to Work with JSON in Business Central’s AL Code](../../../posts/aardvarklabs-blog/1826.md) (community post): "Working with JSON in Business Central AL involves understanding JSON structures"
 - [What's New: Server and Database - More Stable Web Services (2023 release wave 2)](../../../videos/sk5CaXnvvng.md) (video): "Editable Property Support in OData for Edit in Excel; HTTP 503 Return Code for Request Queue Timeout"
 - [What's New: Web Services in Business Central (2024 release wave 1)](../../../videos/VpNQ-CYNrkM.md) (video): "Web Services in Business Central; OData; API performance; Web service queue; SOAP deprecation"
 

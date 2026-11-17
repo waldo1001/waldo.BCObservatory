@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,7 +21,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
     title: Available Fonts in Business Central
-    date: "2025-02-28"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -42,14 +42,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-develop-reports
     title: Develop Business Central Report Layouts and Datasets
-    date: "2026-11-11"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-get-started-layouts
     title: Get started creating report layouts
-    date: "2026-09-09"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null

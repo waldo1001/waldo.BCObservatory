@@ -11,7 +11,7 @@ review:
   at: "2026-11-12T00:57:39.016Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -27,7 +27,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-prioritize-vendors
     title: Assign a priority level to a vendor
-    date: "2025-10-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -181,14 +181,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-setup-show-stockout-warning
     title: Display a stockout warning
-    date: "2025-06-17"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-how-enable-payment-service-extensions
     title: Enable customer payments with payment services
-    date: "2026-03-11"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -293,7 +293,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-how-to-set-up-shipping-agents
     title: How to Set Up Shipping Agents
-    date: "2021-06-23"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null

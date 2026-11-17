@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8c438475be31a82b5ecc70dd46ca9a719ca65424fa05e1169543a2730c6789d0
@@ -142,6 +142,7 @@ links:
   localizations: []
   videos:
     - video/h5PQI4I4b7c
+    - video/tzeO0mc8RJo
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-59-allocation-account-design--edfa12d35b
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561
@@ -159,7 +160,7 @@ children:
 coverage:
   learn: 15
   code: 7
-  video: 1
+  video: 2
   blog: 4
   guideline: 0
 bc_forms:
@@ -200,6 +201,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [BC Friday Tips #75 Dynamics BC Excel Reports](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212.md) (community post): "developers to add it as a dependency when extending these objects"
 - [Dynamics 365 Business Central: How to add a setup to the Manual Setup (1875, List) page](../../../../posts/yzhums-com/74973.md) (community post): "add a custom setup page to the Manual Setup page in Business Central using the Guided Experience"
 - [What's New in Shopify Connector: Metafields (2025 release wave 1)](../../../../videos/h5PQI4I4b7c.md) (video): "Metafield mapping via extensibility model"
+- [What's New: Developer Tools (2024 release wave 1)](../../../../videos/tzeO0mc8RJo.md) (video): "Object extensions in same application; AL tool; App.json comments support"
 
 ## Business Central pages and reports
 

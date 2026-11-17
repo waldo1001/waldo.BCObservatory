@@ -12,7 +12,7 @@ review:
   at: "2026-11-15T00:50:59.798Z"
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,7 +49,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-how-to-calculate-order-promising-dates
     title: Calculate order promising dates
-    date: "2024-03-05"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -91,14 +91,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-how-correct-cancel-sales-invoice
     title: Correct or cancel a posted sales invoice
-    date: "2025-06-10"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-how-sell-products
     title: Create a customer sales order and sell products
-    date: "2026-04-07"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -118,15 +118,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-121
-    title: Customer - Balance to date (report)
-    date: "2024-10-03"
+    title: Customer - Balance to Date (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-108
-    title: Customer - Order Detail (report)
-    date: "2024-10-03"
+    title: Customer - Order Detail (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -146,22 +146,22 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-111
-    title: Customer - Top 10 list (report)
-    date: "2024-10-03"
+    title: Customer - Top 10 List (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4409
-    title: Customer - Top 10 List Excel (Excel report)
-    date: "2024-12-16"
+    title: Customer - Top List (Excel Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-129
-    title: Customer - Trial Balance (report)
-    date: "2024-10-03"
+    title: Customer - Trial Balance (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -182,14 +182,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-history
     title: Customer Retention History (Power BI report)
-    date: "2026-03-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-customer-retention-overview
     title: Customer Retention Overview (Power BI report)
-    date: "2026-03-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -202,15 +202,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-113
-    title: Customer/Item Sales (report)
-    date: "2024-10-03"
+    title: Customer/Item Sales Overview (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-daily-sales
     title: Daily Sales Analysis Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -231,7 +231,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-date-calculation-for-sales
     title: Delivery date calculation for sales
-    date: "2024-03-06"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -259,14 +259,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-how-to-combine-shipments-on-a-single-invoice
     title: How to combine shipments on a single invoice
-    date: "2025-08-07"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-special-orders
     title: How to Create special orders
-    date: "2024-02-20"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -280,21 +280,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-708
     title: Inventory Order Details (report)
-    date: "2024-10-03"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-813
     title: Inventory Picking List (report)
-    date: "2024-10-03"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-718
     title: Inventory Sales Back Orders (report)
-    date: "2024-10-03"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -743,20 +743,23 @@ Two subtopics go deeper: Sales analytics (Power BI Sales app, built-in reports, 
 ## More Learn pages
 
 - [Calculate order promising dates](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-calculate-order-promising-dates): The order promising function is a tool for calculating the earliest possible date that an item is available for shipment or delivery.
-  - In the observatory: [Page 461 "Inventory Setup"](../../../objects/page/461.md), [Page 5703 "Location Card"](../../../objects/page/5703.md), [Page 99000958 "Order Promising Setup"](../../../objects/page/99000958.md), [Page 99000959 "Order Promising Lines"](../../../objects/page/99000959.md)
+  - In the observatory: [Page 42 "Sales Order"](../../../objects/page/42.md), [Page 461 "Inventory Setup"](../../../objects/page/461.md), [Page 5703 "Location Card"](../../../objects/page/5703.md), [Page 99000958 "Order Promising Setup"](../../../objects/page/99000958.md), [Page 99000959 "Order Promising Lines"](../../../objects/page/99000959.md)
 - [Correct or cancel a posted sales invoice](https://learn.microsoft.com/dynamics365/business-central/sales-how-correct-cancel-sales-invoice): This article describes how to correct, undo, or cancel a posted sales invoice and apply a sales credit memo.
   - In the observatory: [Page 132 "Posted Sales Invoice"](../../../objects/page/132.md), [Page 143 "Posted Sales Invoices"](../../../objects/page/143.md)
 - [Create a customer sales order and sell products](https://learn.microsoft.com/dynamics365/business-central/sales-how-sell-products): Describes how to create a sales order to record your agreement with a customer to sell or trade products under specific terms.
+  - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md), [Page 30 "Item Card"](../../../objects/page/30.md), [Page 459 "Sales & Receivables Setup"](../../../objects/page/459.md)
 - [Delivery date calculation for sales](https://learn.microsoft.com/dynamics365/business-central/sales-date-calculation-for-sales): The application automatically calculates the date on which you must order an item to have it in inventory on a certain date and available for picking.
 - [Enter External Document Numbers](https://learn.microsoft.com/dynamics365/business-central/across-enter-external-document-numbers): Enter customer and vendor document numbers on sales and purchase documents so you can find related entries and avoid duplicate purchase invoices.
 - [How to combine shipments on a single invoice](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-combine-shipments-on-a-single-invoice): Use the Combine Shipments feature to invoice multiple posted shipments for the same customer and currency on a single sales or service invoice.
+  - In the observatory: [Page 5708 "Get Shipment Lines"](../../../objects/page/5708.md)
 - [How to Create special orders](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-special-orders): Learn how to create a special order for a specific catalog item to be shipped to a specific customer.
-  - In the observatory: [Page 42 "Sales Order"](../../../objects/page/42.md)
+  - In the observatory: [Page 42 "Sales Order"](../../../objects/page/42.md), [Table 18 "Customer"](../../../objects/table/18.md), [Table 23 "Vendor"](../../../objects/table/23.md), [Table 27 "Item"](../../../objects/table/27.md)
 - [Invoice sales](https://learn.microsoft.com/dynamics365/business-central/sales-how-invoice-sales): Learn how to create a sales invoice or sales order to record a sale to a customer.
-  - In the observatory: [Page 143 "Posted Sales Invoices"](../../../objects/page/143.md)
+  - In the observatory: [Page 143 "Posted Sales Invoices"](../../../objects/page/143.md), [Page 9082 "Customer Statistics FactBox"](../../../objects/page/9082.md)
 - [Make drop shipments](https://learn.microsoft.com/dynamics365/business-central/sales-how-drop-shipment): Describes how to create a sales order linked to a purchase order to enable shipment directly from the vendor to the customer.
-  - In the observatory: [Page 42 "Sales Order"](../../../objects/page/42.md), [Page 45 "Sales List"](../../../objects/page/45.md), [Page 5522 "Order Planning"](../../../objects/page/5522.md)
+  - In the observatory: [Page 42 "Sales Order"](../../../objects/page/42.md), [Page 45 "Sales List"](../../../objects/page/45.md), [Page 50 "Purchase Order"](../../../objects/page/50.md), [Page 5522 "Order Planning"](../../../objects/page/5522.md)
 - [Make sales quotes](https://learn.microsoft.com/dynamics365/business-central/sales-how-make-offers): Read about how to create a sales offer to a customer or prospect to sell products.
+  - In the observatory: [Page 459 "Sales & Receivables Setup"](../../../objects/page/459.md)
 - [Merge Duplicate Customers, Vendors, or Contacts](https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records): Merge duplicate customer, vendor, or contact records in Business Central, choose which field values to keep, and resolve conflicts in related records.
   - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md), [Page 702 "Merge Duplicate"](../../../objects/page/702.md), [Page 704 "Merge Duplicate Conflicts"](../../../objects/page/704.md)
 - [Overview of tasks to manage sales](https://learn.microsoft.com/dynamics365/business-central/sales-manage-sales): Read all about how to use Business Central's services to manage your customers' sales activities with sales invoices, orders, quotes, and more.
@@ -767,11 +770,11 @@ Two subtopics go deeper: Sales analytics (Power BI Sales app, built-in reports, 
 - [Process partial shipments](https://learn.microsoft.com/dynamics365/business-central/sales-how-send-partial-shipments): Sales orders' shipments can be processed in Business Central with partial shipments using the Shipping Advice and Qty. to Ship fields.
   - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md)
 - [Process sales return orders](https://learn.microsoft.com/dynamics365/business-central/sales-how-process-sales-returns-orders): Describes how to create a sales return order to process a return, cancellation, or reimbursement for items or services you have been received payment for.
-  - In the observatory: [Page 5850 "Posted Sales Document Lines"](../../../objects/page/5850.md)
+  - In the observatory: [Page 42 "Sales Order"](../../../objects/page/42.md), [Page 5850 "Posted Sales Document Lines"](../../../objects/page/5850.md)
 - [Process sales returns or cancellations](https://learn.microsoft.com/dynamics365/business-central/sales-how-process-sales-returns-cancellations): Describes how to create a sales credit memo to process a return, cancellation, or reimbursement for items or services you received payment for.
   - In the observatory: [Page 21 "Customer Card"](../../../objects/page/21.md), [Page 232 "Apply Customer Entries"](../../../objects/page/232.md), [Page 459 "Sales & Receivables Setup"](../../../objects/page/459.md)
 - [Register new customers by creating a Customer Card](https://learn.microsoft.com/dynamics365/business-central/sales-how-register-new-customers): Describes how to create a customer card to register information about each new customer or client you sell to.
-  - In the observatory: [Page 300 "Ship-to Address"](../../../objects/page/300.md)
+  - In the observatory: [Page 300 "Ship-to Address"](../../../objects/page/300.md), [Page 459 "Sales & Receivables Setup"](../../../objects/page/459.md)
 - [Save Business Contacts to Microsoft Outlook](https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook): Learn how to synchronize Business Central contacts with Microsoft Outlook and Teams to streamline communication and access contact details effortlessly.
 - [Set up and invoicing sales prepayments](https://learn.microsoft.com/dynamics365/business-central/walkthrough-setting-up-and-invoicing-sales-prepayments): Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing.
 - [Standard recurring sales lines](https://learn.microsoft.com/dynamics365/business-central/sales-how-work-standard-lines): Set up frequently used sales lines to insert them on sales documents and quickly fill the lines with standard information.
@@ -781,7 +784,7 @@ Two subtopics go deeper: Sales analytics (Power BI Sales app, built-in reports, 
 - [Walkthrough: Conduct a Sales Campaign](https://learn.microsoft.com/dynamics365/business-central/walkthrough-conducting-a-sales-campaign): Follow a sales campaign in Business Central, from selecting contacts and saving segment criteria to sending correspondence and recording campaign responses.
   - In the observatory: [Page 5075 "Interaction Templates"](../../../objects/page/5075.md), [Page 5094 "Marketing Setup"](../../../objects/page/5094.md), [Page 5139 "Logged Segments"](../../../objects/page/5139.md), [Page 5142 "Save Segment Criteria"](../../../objects/page/5142.md), [Page 5155 "Segment Interaction Languages"](../../../objects/page/5155.md)
 - [Work with blanket sales orders or purchase orders](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-blanket-sales-orders): Use blanket orders when a customer agrees to buy large quantities that you deliver in small shipments over a period of time.
-  - In the observatory: [Page 516 "Sales Lines"](../../../objects/page/516.md)
+  - In the observatory: [Page 516 "Sales Lines"](../../../objects/page/516.md), [Table 5065 "Interaction Log Entry"](../../../objects/table/5065.md)
 - [Work with recurring revenue](https://learn.microsoft.com/dynamics365/business-central/finance-recurring-invoicing): Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue.
 
 ## Videos, posts and code changes

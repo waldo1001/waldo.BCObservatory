@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:17.392Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -28,7 +28,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/sales-tax-goods-services
     title: Reporting GST/HST in Canada
-    date: "2026-10-08"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null

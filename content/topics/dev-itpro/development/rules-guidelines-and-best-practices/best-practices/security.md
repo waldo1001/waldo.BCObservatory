@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:10.067Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,7 +42,9 @@ links:
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/demiliani-com/14011
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-05-weekly-review-business-central-al-development-may-17-23-2026--ded9223776
   guidelines: []
   changes:
     - change/bcapps/10346
@@ -62,7 +64,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 6c89dc26efa30a17537ece60767fa3ce2a7e9049c191393d9ad1dd5a2b8afdde
@@ -108,5 +110,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#187 Code reviewer skill for recognizing and validating unauthenticated responses](../../../../../changes/bcquality/187.md) (code change): "Helps enforce security best practices in extension code"
 - [#49 Promote security knowledge from community to Microsoft layer](../../../../../changes/bcquality/49.md) (code change): "Best practice guidance improved for temporary table data protection"
 - [#99 Add lifecycle error and privacy knowledge](../../../../../changes/bcquality/99.md) (code change): "ErrorInfo privacy exposure, and FeatureTelemetry logging, plus related review skills"
+- [Visual Studio Code Agent hook for auditing your AL coding sessions.](../../../../../posts/demiliani-com/14011.md) (community post): "audit hook goes in the .github folder of an AL project and writes timestamp"
+- [Weekly Review: Business Central AL Development – May 17–23, 2026](../../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-05-weekly-review-business-central-al-development-may-17-23-2026--ded9223776.md) (community post): "Security risks from VS Code extensions require vetting publishers, permission review"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

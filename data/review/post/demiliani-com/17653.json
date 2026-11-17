@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/demiliani-com/17653",
+  "input_hash": "1c911e5a3659a191dce744871831b715fa3e77cc9458d274c1d781ff2f80a9cd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-17T00:57:57.603Z",
+  "issues": [
+    "The three listed objects are generic placeholders, not objects the post names, so they are dropped. The post does name Customers API page 30009 and a sample PostApprovedPurchaseInvoice codeunit.",
+    "Key point 5 overstated the charging plan. The post only says Microsoft has announced plans to charge per tool call and that pricing and rollout details are not yet published. Key points are reworded to fix this.",
+    "Summary, quotes, features and systems are supported by the post. Both quotes appear word for word."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 3 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.079748,
+    "posts_in_call": 1
+  }
+}

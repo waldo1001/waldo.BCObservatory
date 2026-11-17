@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:35.768Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -28,7 +28,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5807
     title: Item Age Composition - Quantity (report)
-    date: "2024-10-18"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -95,7 +95,7 @@ Start here if you still use either report and need to know what it does. Both re
 ## Learn pages
 
 - [Inventory Availability Plan (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-707): Get an overview of specific items and stock-keeping units, and their availability.
-- [Item Age Composition - Quantity (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5807): Review the age of stock in your warehouse by quantity and identify unused or slow moving inventory.
+- [Item Age Composition - Quantity (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5807): Review current inventory quantities by age using the legacy Item Age Composition - Quantity report. Find the replacement Excel report for aging analysis.
 
 ## Business Central pages and reports
 

@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-finance
 type: topic
 title: Set up finance
-summary: "Finance setup in Business Central: chart of accounts, posting groups, payment terms and methods, VAT and other taxes, currencies, fiscal periods, collections (reminders, finance charges), Intrastat, and cash flow analysis. It answers how-to-configure questions for core accounting."
+summary: "Finance setup in Business Central: chart of accounts, posting groups, payment terms and methods, VAT and other taxes, currencies, fiscal periods, collections (reminders, finance charges), Intrastat, cash flow and financial reports. It answers how to configure each area and which settings control posting and calculation."
 tier: official
 language: en
 system: finance
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 3a68a90d2a71125b6fc59f20ee1be5f07af64340eabf9827304ffc01fae27d8f
+  input_hash: 7070595ae90129f3786db47a399d67b5b0fd7831b041a490d35d02b1354ba73e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-how-enable-application-ledger-entries-different-currencies
@@ -62,8 +62,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-how-to-set-up-cash-customers
-    title: Set Up Cash Customers
-    date: "2021-06-16"
+    title: Set up cash customers
+    date: "2026-06-16"
     commit: null
     t: null
     quote: null
@@ -449,28 +449,28 @@ narrative: generated
 
 # Set up finance
 
-> Finance setup in Business Central: chart of accounts, posting groups, payment terms and methods, VAT and other taxes, currencies, fiscal periods, collections (reminders, finance charges), Intrastat, and cash flow analysis. It answers how-to-configure questions for core accounting.
+> Finance setup in Business Central: chart of accounts, posting groups, payment terms and methods, VAT and other taxes, currencies, fiscal periods, collections (reminders, finance charges), Intrastat, cash flow and financial reports. It answers how to configure each area and which settings control posting and calculation.
 
 Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects the setup articles for the finance area. It starts with an overview page that lists finance setup tasks and links to the related articles, so that page is the best entry point.
+This section covers the accounting configuration that Business Central needs before and during financial operations. It has no subtopics. All pages are peers, and each explains one setup task, such as the chart of accounts, posting groups, payment terms, VAT, currencies or accounting periods.
 
-The core pages cover the chart of accounts, posting groups, payment terms, payment methods, accounting periods and fiscal years, and audit trail codes. Tax pages cover VAT, unrealized VAT for cash-based accounting, VAT registration number validation, withholding tax, excise tax, and Intrastat. Currency pages cover the additional reporting currency, exchange rate updates, and applying entries in different currencies.
+The page "Set up financial processes" works as the entry point. It lists the core finance setup tasks with links to the related articles. A sensible order is the chart of accounts, posting groups, accounting periods and fiscal years, then payment terms and methods. After that come VAT and other taxes, currencies, and the collections and reporting features.
 
-Collections and rounding pages cover reminder terms and levels, automated reminders, finance charge terms, multiple interest rates, payment tolerances, and invoice rounding. Other pages cover cash customers, allocation keys in general journals, financial reports built on account categories, and cash flow analysis.
+Other pages cover narrower needs. These include cash customers, invoice rounding, payment tolerances, allocation keys in recurring general journals, source and reason codes for audit trails, Intrastat, excise tax, withholding tax, cash flow analysis, and financial reports built from row and column definitions with account categories.
 
 ## Key points
 
-- Start with 'Set up financial processes', a table of finance setup tasks linked to detailed articles.
-- Posting groups (general business, general product, customer, vendor, inventory) map transactions to G/L accounts; the chart of accounts page covers account types, totaling, indentation and deletion controls.
-- Collections: reminder terms with levels, fixed and dynamic fees, finance charge terms (Average Daily Balance or Balance Due), multiple interest rates, and job-queue automation to create, issue and send reminders.
-- Payment setup: payment terms with date formulas and discounts, payment methods as defaults per customer or vendor, and payment tolerance by amount and percentage.
-- Tax setup: VAT (posting groups, registration numbers, clauses, reverse charge), unrealized VAT, VIES-based VAT number validation, withholding tax, excise tax (version 29), and Intrastat.
-- Currencies: additional reporting currency, exchange rate updates (manual or via a rate service), realized and unrealized gains and losses, and application of entries in different currencies.
-- Financial reports use row and column definitions with G/L account categories, dimensions and G/L budgets (2025 release wave 1).
-- Accounting periods and fiscal years cover period creation, closing, date locking and posting date controls.
+- Start with 'Set up financial processes', a table of finance setup tasks linking to the detailed articles.
+- Chart of accounts and posting groups (general, customer, vendor, inventory, VAT) map transactions to G/L accounts for automatic posting.
+- Payment terms use date formulas for due dates and discounts. Payment methods can be set as defaults per customer or vendor and overridden per document.
+- Payment tolerance and payment discount tolerance can be set by amount and percentage, with a warning notification and blocking per customer or vendor.
+- Currency topics: additional reporting currency (ACY), exchange rate updates (manual or by rate service), and applying entries across currencies with rounding accounts.
+- Collections setup: reminder terms and levels, fees and interest, finance charge terms, multiple interest rates, and automated create/issue/send reminders through job queue entries.
+- Tax setup: VAT (posting groups, registration numbers, clauses, version 23.1), unrealized VAT for cash-based accounting, VAT number validation through VIES, withholding tax, excise tax (version 29) and Intrastat (2022 release wave 2).
+- Reporting and analysis: financial reports from row and column definitions and account categories (2025 release wave 1), cash flow analysis, and fiscal year and period controls.
 
 ## Learn pages
 
@@ -486,7 +486,7 @@ Collections and rounding pages cover reminder terms and levels, automated remind
   - In the observatory: [Page 110 "Customer Posting Groups"](../../../../objects/page/110.md), [Page 111 "Vendor Posting Groups"](../../../../objects/page/111.md)
 - [Set up additional currencies](https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-additional-currencies): Your general ledger is set up to use your local currency (LCY), and another currency is set up as an additional currency, with a current exchange rate assigned.
   - In the observatory: [Page 472 "VAT Posting Setup"](../../../../objects/page/472.md)
-- [Set Up Cash Customers](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-set-up-cash-customers): This topic describes the steps required to set up the invoice with a customer number for customers who pay in cash.
+- [Set up cash customers](https://learn.microsoft.com/dynamics365/business-central/finance-how-to-set-up-cash-customers): This topic describes the steps required to set up the invoice with a customer number for customers who pay in cash.
 - [Set Up Codes for Audit Trails](https://learn.microsoft.com/dynamics365/business-central/finance-setup-trail-codes): Learn about the tasks to set up source codes and reason codes that you can use to track audit trails.
   - In the observatory: [Page 101 "General Journal Templates"](../../../../objects/page/101.md), [Page 20 "General Ledger Entries"](../../../../objects/page/20.md)
 - [Set up excise tax](https://learn.microsoft.com/dynamics365/business-central/finance-set-up-excise-tax): Learn how to set up excise tax types, assign one or more excise taxes to items, configure fixed assets, and prepare excise journals.

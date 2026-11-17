@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:12:52.482Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-17T00:54:59.443Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -94,7 +94,7 @@ links:
       why: names Page 6000 "Dispatch Board"
       by: code
     - to: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-contract-flow
-      title: Walkthrough of service contracts for service items
+      title: Walkthrough of Service Contracts for Service Items
       label: possibly related
       why: names Page 6000 "Dispatch Board"
       by: code
@@ -324,6 +324,6 @@ Not found in BC28-30: page "Contoso", page "service task", page "item worksheet"
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
 - [Overview of tasks to deliver service | Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/service-deliver-service) — possibly related: names Page 6000 "Dispatch Board"
-- [Walkthrough of service contracts for service items](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-contract-flow) — possibly related: names Page 6000 "Dispatch Board"
+- [Walkthrough of Service Contracts for Service Items](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-contract-flow) — possibly related: names Page 6000 "Dispatch Board"
 
 Presenters (as heard): Andrei Panko.

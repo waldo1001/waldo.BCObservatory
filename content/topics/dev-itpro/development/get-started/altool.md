@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:09.736Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,6 +43,7 @@ links:
   localizations: []
   videos:
     - video/ecYXnXULijI
+    - video/QT3RKx9rGJA
     - video/urLsKPqOSbc
   posts:
     - post/nataliekarolak-com/3995
@@ -64,7 +65,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 2
+  video: 3
   blog: 1
   guideline: 0
 bc_forms: []
@@ -114,6 +115,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2407 Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency](../../../../changes/al-go/2407.md) (code change): "AL-Go for GitHub now supports GitHub Enterprise Cloud with dynamic host resolution"
 - [Docs: What’s new in BC 28 for developers](../../../../posts/nataliekarolak-com/3995.md) (community post): "MCP tooling grows, including an Admin Center API MCP server usable from VS Code"
 - [Let's Build a Plug & Play Claude Code Setup for AL Development - The Business Central Coding Stream](../../../../videos/ecYXnXULijI.md) (video): "dev containers; dockerfile; AL development commands in Docker container"
+- [AL Go for GitHub January Office Hour](../../../../videos/QT3RKx9rGJA.md) (video): "AL Go for GitHub; versioning strategy; preprocessor symbols; incremental builds"
 - [Exploring Rabbit Holes with AL Tool Graphs](../../../../videos/urLsKPqOSbc.md) (video): "AL Tool Graphs; AL tools; call graphs; code analysis"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

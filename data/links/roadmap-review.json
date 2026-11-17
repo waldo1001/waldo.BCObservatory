@@ -146,147 +146,147 @@
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-approve-reports.md@ed406eabf16dc696": {
         "verdict": "keep",
         "reason": "Documents approvers reviewing compliance warnings and policy issues before approving, the approver-guidance part of the feature.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-overview.md@22e0ea1082245014": {
         "verdict": "drop",
         "reason": "General Expense Agent overview that only mentions policy compliance as a topic.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-policy-compliance.md@5baba922dac40e13": {
         "verdict": "keep",
         "reason": "Explains AI-assisted policy evaluation including background evaluation after submission and non-compliant flagging.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-approve-reports.md@1f45cc1f3227bb04": {
         "verdict": "drop",
         "reason": "Covers general approval and deterministic rule violations, not AI policy validation.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-categories-rules.md@371711c7d5364c33": {
         "verdict": "keep",
         "reason": "Documents setting up natural-language expense policies with AI evaluation.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-setup.md@b05b520074189001": {
         "verdict": "keep",
         "reason": "Setup page that includes enabling AI-assisted policy evaluation, a setting of this feature.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-submit-report.md@bc3c0f398897d31d": {
         "verdict": "drop",
         "reason": "About creating and submitting reports and rule violations, not AI approval policy validation.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
-      "video/4TE8uwIi91k#6@819d53210ab5222f": {
+      "video/4TE8uwIi91k#6@4151766ef06f91dc": {
         "verdict": "drop",
         "reason": "Describes mobile app approval, a different capability.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/ARKckFygbWQ#6@ee52f918d959bc18": {
         "verdict": "drop",
         "reason": "Generic wave 1 compliance checking based on rules, not clearly AI natural-language policy validation.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/cVfZoDwKYpI#46@b12d4e66f615e2c7": {
         "verdict": "keep",
         "reason": "Explains natural-language policies for business class, hotels, and alcohol, which this feature evaluates.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/cVfZoDwKYpI#9@b12d4e66f615e2c7": {
         "verdict": "drop",
         "reason": "Too general a description of a policy and rules engine.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/egE6UdOfar0#6@7d8c675d2687bc19": {
         "verdict": "drop",
         "reason": "Describes deterministic threshold rules, not natural-language AI policies.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/egE6UdOfar0#7@7d8c675d2687bc19": {
         "verdict": "keep",
         "reason": "Announces the policy-based approval mechanism handling business class, hotel, and alcohol policies.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/M0IzeLSn7qU#0@ebdf2cffeba1a5d7": {
         "verdict": "keep",
         "reason": "Demonstrates AI-driven approval policies that flag expenses for approvers without blocking approval.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/o94V_lF8oNM#0@bb33c215eabcc2f5": {
         "verdict": "keep",
         "reason": "Shows the toggle to evaluate free-text policies with AI to help approvers.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/o94V_lF8oNM#1@bb33c215eabcc2f5": {
         "verdict": "drop",
         "reason": "Pre-submission checks by submitters are a different capability from post-submission approval validation.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/o94V_lF8oNM#2@bb33c215eabcc2f5": {
         "verdict": "keep",
         "reason": "Shows flagged-policy status that requires approver attention.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/o94V_lF8oNM#3@bb33c215eabcc2f5": {
         "verdict": "keep",
         "reason": "Shows free-text policies by category that AI analyzes against submitted expenses.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/o94V_lF8oNM#4@bb33c215eabcc2f5": {
         "verdict": "drop",
         "reason": "Submitter-initiated pre-submission check, a different capability.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/o94V_lF8oNM#6@bb33c215eabcc2f5": {
         "verdict": "keep",
         "reason": "Shows how policy evaluation tracks expense versions and re-evaluates after changes.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/o94V_lF8oNM#7@bb33c215eabcc2f5": {
         "verdict": "drop",
         "reason": "An upcoming override-reason requirement, separate from this feature.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/o94V_lF8oNM#8@bb33c215eabcc2f5": {
         "verdict": "keep",
         "reason": "Shows a behavior of the AI policy check: it skips runs when nothing needs checking.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/pjML7lXSsd0#2@e7c0638dcaf3f932": {
         "verdict": "keep",
         "reason": "States the agent checks approvals against human-language company policies.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/qZALauRY_So#0@d587f11310a2bc0d": {
         "verdict": "drop",
         "reason": "General approval workflow, not AI policy validation.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/qZALauRY_So#1@d587f11310a2bc0d": {
         "verdict": "drop",
         "reason": "Wave 1 pre-submission AI suggestions, not post-submission approval policy validation.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/qZALauRY_So#4@d587f11310a2bc0d": {
         "verdict": "drop",
         "reason": "Approval notifications are a different capability.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/qZALauRY_So#5@d587f11310a2bc0d": {
         "verdict": "drop",
         "reason": "Rejecting or sending back reports is basic approval functionality.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/tj1vvsmAMVs#5@8bff31977f8f95e5": {
         "verdict": "keep",
         "reason": "Shows AI checking expenses against human-readable travel policies.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       },
       "video/tj1vvsmAMVs#6@8bff31977f8f95e5": {
         "verdict": "keep",
         "reason": "Shows policy flags that help approvers decide without hard blocking.",
-        "at": "2026-11-13T00:56:40.430Z"
+        "at": "2026-11-17T00:54:35.205Z"
       }
     },
     "573256": {
@@ -1551,18 +1551,23 @@
     "573314": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-table-keys.md@21f3ad43d15b290f": {
         "verdict": "drop",
-        "reason": "General table keys page; lists the Enabled property but does not describe turning indexes on/off from AL code at runtime.",
-        "at": "2026-11-15T00:44:13.205Z"
+        "reason": "General Learn page on table keys; it lists the existing Enabled property but doesn't describe turning indexes on or off from AL code at runtime.",
+        "at": "2026-11-17T00:54:43.316Z"
       },
       "video/1x3QyBX3swg#2@a139808ee668f539": {
         "verdict": "keep",
-        "reason": "Shows indexes defined with enabled false in AL and selectively enabled at runtime, part of the feature.",
-        "at": "2026-11-15T00:44:13.205Z"
+        "reason": "Shows indexes defined with enabled set to false in AL and then switched on at runtime for specific companies, which is the capability this feature adds.",
+        "at": "2026-11-17T00:54:43.316Z"
+      },
+      "video/2u5_F9Ztt7U#4@2ee38684e0681185": {
+        "verdict": "drop",
+        "reason": "Covers index usage insights and removing or auto-tuning unused indexes, a different capability from switching indexes on or off in AL code.",
+        "at": "2026-11-17T00:54:43.316Z"
       },
       "video/Sh3ySQSTw-o#6@e4496cd7c1ef9d3b": {
         "verdict": "keep",
-        "reason": "Explains runtime-controlled enabling/disabling of keys from logic, which is the feature.",
-        "at": "2026-11-15T00:44:13.205Z"
+        "reason": "Directly describes indexes defined with enabled equal false and turned on or off at runtime by code based on feature usage.",
+        "at": "2026-11-17T00:54:43.316Z"
       }
     },
     "573315": {
@@ -1595,53 +1600,58 @@
     "573316": {
       "docs/learn-devitpro/dev-itpro/administration/telemetry-table-index-trace.md@54936eef294927c8": {
         "verdict": "drop",
-        "reason": "Telemetry about index lifecycle events and AL properties, not the in-app SIFT on/off capability.",
-        "at": "2026-11-15T00:44:14.295Z"
+        "reason": "This page covers telemetry for index lifecycle events and the MaintainSIFTIndex property, not turning SIFT indexes on or off in the app.",
+        "at": "2026-11-17T00:54:50.021Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-ncci-performance.md@cb5709cbdc2abf72": {
         "verdict": "drop",
-        "reason": "General NCCI performance guidance mentioning SIFT disabling via design, not the admin toggle in the client.",
-        "at": "2026-11-15T00:44:14.295Z"
+        "reason": "This is general performance guidance on columnstore indexes; the SIFT disabling it mentions isn't the new in-app toggle.",
+        "at": "2026-11-17T00:54:50.021Z"
       },
       "video/1x3QyBX3swg#0@a139808ee668f539": {
         "verdict": "drop",
-        "reason": "Describes the earlier index management page for general indexes, not SIFT toggling.",
-        "at": "2026-11-15T00:44:14.295Z"
+        "reason": "It describes the general Index Management page from the earlier release, not SIFT toggling.",
+        "at": "2026-11-17T00:54:50.021Z"
       },
       "video/1x3QyBX3swg#1@a139808ee668f539": {
         "verdict": "drop",
-        "reason": "Covers the earlier enable/disable of regular indexes, which this SIFT feature extends.",
-        "at": "2026-11-15T00:44:14.295Z"
+        "reason": "It covers general enabling and disabling of indexes from the earlier index management release, with no mention of SIFT.",
+        "at": "2026-11-17T00:54:50.021Z"
+      },
+      "video/2u5_F9Ztt7U#4@2ee38684e0681185": {
+        "verdict": "drop",
+        "reason": "It covers insights into index usage and removing unused indexes, not turning SIFT indexes on or off.",
+        "at": "2026-11-17T00:54:50.021Z"
       },
       "video/bVPFIhkvZEA#0@bb20dfaf8ebc4a0d": {
         "verdict": "keep",
-        "reason": "Directly announces administrators turning SIFT indexes on or off from the Business Central client.",
-        "at": "2026-11-15T00:44:14.295Z"
+        "reason": "It directly announces that administrators can turn SIFT indexes on or off from the Business Central client.",
+        "at": "2026-11-17T00:54:50.021Z"
       },
       "video/bVPFIhkvZEA#1@bb20dfaf8ebc4a0d": {
         "verdict": "drop",
-        "reason": "Describes the existing Index Management page statistics in general, not the SIFT toggle itself.",
-        "at": "2026-11-15T00:44:14.295Z"
+        "reason": "It describes the existing Index Management page's statistics in general, not the SIFT toggle.",
+        "at": "2026-11-17T00:54:50.021Z"
       },
       "video/bVPFIhkvZEA#2@bb20dfaf8ebc4a0d": {
         "verdict": "keep",
-        "reason": "Shows the new index type classification that identifies SIFT indexes for management.",
-        "at": "2026-11-15T00:44:14.295Z"
+        "reason": "It shows the index management experience now labeling SIFT indexes as a type, which is part of the new SIFT management.",
+        "at": "2026-11-17T00:54:50.021Z"
       },
       "video/bVPFIhkvZEA#3@bb20dfaf8ebc4a0d": {
         "verdict": "keep",
-        "reason": "Demonstrates company-level enable/disable as part of the SIFT index management experience.",
-        "at": "2026-11-15T00:44:14.295Z"
+        "reason": "This segment of the SIFT toggle video explains company-level enable and disable control, a setting of the feature.",
+        "at": "2026-11-17T00:54:50.021Z"
       },
       "video/bVPFIhkvZEA#5@bb20dfaf8ebc4a0d": {
         "verdict": "keep",
-        "reason": "Explains the behavior of disabling a SIFT immediately and deferring enabling.",
-        "at": "2026-11-15T00:44:14.295Z"
+        "reason": "It explains how disabling or enabling a SIFT behaves: disabling is immediate and enabling waits for overnight maintenance.",
+        "at": "2026-11-17T00:54:50.021Z"
       },
       "video/IAacWsvav1E#2@e205272272bfcf86": {
         "verdict": "drop",
-        "reason": "Describes the 2026 wave 1 runtime toggle for regular indexes, the older capability this feature extends.",
-        "at": "2026-11-15T00:44:14.295Z"
+        "reason": "It describes the general runtime index toggle from 2026 release wave 1, which this SIFT feature extends, not the SIFT capability itself.",
+        "at": "2026-11-17T00:54:50.021Z"
       }
     },
     "573317": {
@@ -1675,186 +1685,186 @@
       "docs/learn-smb-docs/business-central/ui-work-report-inbox.md@0d42ee31887fa942": {
         "verdict": "drop",
         "reason": "Describes the existing Report Inbox page features (download, share, OneDrive) without mentioning the new APIs or automation.",
-        "at": "2026-11-13T00:56:22.412Z"
+        "at": "2026-11-17T00:54:43.221Z"
       },
-      "video/2N2NhNH7dsk#4@4b5d14fb3910a17a": {
+      "video/2N2NhNH7dsk#4@909245c324bc87dd": {
         "verdict": "keep",
         "reason": "Announces new report inbox APIs for automation via Power Platform and MCP, which matches the feature.",
-        "at": "2026-11-13T00:56:22.412Z"
+        "at": "2026-11-17T00:54:43.221Z"
       },
       "video/qj0VHB2Pmvc#8@12f1c16cc345f2ee": {
         "verdict": "keep",
         "reason": "Explains new report inbox APIs that let external systems automate workflows on report output.",
-        "at": "2026-11-13T00:56:22.412Z"
+        "at": "2026-11-17T00:54:43.221Z"
       }
     },
     "573319": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-analysis-view-package.md@6dfb24b9d017bb2b": {
         "verdict": "drop",
         "reason": "Covers packaging analysis views in AL extensions, not bookmarking to the role center or profiles.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "docs/learn-smb-docs/business-central/ad-hoc-analysis-sales.md@6610081b1e4bc21e": {
         "verdict": "drop",
         "reason": "General ad-hoc analysis of sales data with no mention of bookmarking.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "docs/learn-smb-docs/business-central/analysis-mode.md@675e6a4f9d6c79ee": {
         "verdict": "keep",
         "reason": "Explicitly documents bookmarking analysis views to the Role Center.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
-      "video/6Zb7VAvLVm4#10@138532d716aea1bb": {
+      "video/6Zb7VAvLVm4#10@b9887273d2e63e7a": {
         "verdict": "drop",
         "reason": "Power BI report page bookmarking is a different, older capability.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/eg3FRViYFNM#22@665fe2433cf9aea3": {
         "verdict": "drop",
         "reason": "General analysis tabs GA announcement with no bookmarking.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/eg3FRViYFNM#23@665fe2433cf9aea3": {
         "verdict": "drop",
         "reason": "Sharing analysis tabs via hyperlinks is a different capability.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/fJGY6d-2lO8#3@3960cb3a71257bdc": {
         "verdict": "drop",
         "reason": "Shipping analysis views with AL apps is not bookmarking.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/fy96_jdL1PQ#1@35837054f782e3e2": {
         "verdict": "drop",
         "reason": "General description of analysis on list pages.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/jqVt0hYDfz0#0@dc239d6c69643e5c": {
         "verdict": "drop",
         "reason": "Exporting analysis tabs to AL extensions is a different feature.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/jqVt0hYDfz0#2@dc239d6c69643e5c": {
         "verdict": "drop",
         "reason": "AL definition file syntax for analysis views is a different feature.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/jqVt0hYDfz0#3@dc239d6c69643e5c": {
         "verdict": "drop",
         "reason": "Page customizations with analysis views for profiles are not role center bookmarks.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/qmLVKyHRhNc#0@1825d048a5157ace": {
         "verdict": "drop",
         "reason": "General analyze data on list pages introduction.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/qmLVKyHRhNc#1@1825d048a5157ace": {
         "verdict": "drop",
         "reason": "Persistence of the analysis menu state is unrelated to bookmarking.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/qmLVKyHRhNc#10@1825d048a5157ace": {
         "verdict": "drop",
         "reason": "Company-specific sharing links are a different capability.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/qmLVKyHRhNc#2@1825d048a5157ace": {
         "verdict": "drop",
         "reason": "Data size limit removal is unrelated.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/qmLVKyHRhNc#3@1825d048a5157ace": {
         "verdict": "drop",
         "reason": "Analysis on query objects is a different capability.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/qmLVKyHRhNc#9@1825d048a5157ace": {
         "verdict": "drop",
         "reason": "Sharing analysis definitions is not bookmarking.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/ZpzZ6El8GXY#1@0b984cdcd651aeb9": {
         "verdict": "keep",
         "reason": "Demonstrates bookmarking an analysis tab for navigation from the role center.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/ZpzZ6El8GXY#2@0b984cdcd651aeb9": {
         "verdict": "keep",
         "reason": "Demonstrates bookmarking list views to the role center.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       },
       "video/ZpzZ6El8GXY#4@0b984cdcd651aeb9": {
         "verdict": "keep",
         "reason": "Demonstrates adding bookmarked analysis tabs and list views at the profile level.",
-        "at": "2026-11-13T00:56:34.138Z"
+        "at": "2026-11-17T00:54:43.223Z"
       }
     },
     "573320": {
       "docs/learn-smb-docs/business-central/ui-get-started-layouts.md@bea26acbed2ff5bb": {
         "verdict": "keep",
-        "reason": "The Learn page text names layout status management (Draft, Pending Approval, Approved, Retired) alongside extension layouts.",
-        "at": "2026-11-15T00:43:57.223Z"
+        "reason": "The Learn page documents layout status management (Draft, Pending Approval, Approved, Retired) for both extension and user-defined layouts.",
+        "at": "2026-11-17T00:54:54.329Z"
       },
       "docs/learn-smb-docs/business-central/ui-manage-report-layouts.md@6b390ad2298bdaad": {
         "verdict": "drop",
-        "reason": "General layout overview with nothing about layout status or lifecycle.",
-        "at": "2026-11-15T00:43:57.223Z"
+        "reason": "A general overview of layout types that doesn't mention layout status or lifecycle.",
+        "at": "2026-11-17T00:54:54.329Z"
       },
       "video/-vdhfNMNZQk#9@e0a03c793cdd31f1": {
         "verdict": "keep",
-        "reason": "Shows setting status on layouts, including Microsoft-shipped ones, to hide them from users.",
-        "at": "2026-11-15T00:43:57.223Z"
+        "reason": "Shows setting a status on layouts, including Microsoft-shipped ones, to hide them from users.",
+        "at": "2026-11-17T00:54:54.329Z"
       },
       "video/2N2NhNH7dsk#0@909245c324bc87dd": {
         "verdict": "keep",
-        "reason": "Explains that status now applies to app-supplied and Microsoft-shipped layouts, not just user-defined ones.",
-        "at": "2026-11-15T00:43:57.223Z"
+        "reason": "Explains that layout status now extends to app-supplied and Microsoft-shipped layouts.",
+        "at": "2026-11-17T00:54:54.329Z"
       },
       "video/2N2NhNH7dsk#1@909245c324bc87dd": {
         "verdict": "keep",
-        "reason": "Shows the lifecycle states and the layout status menu used to manage them.",
-        "at": "2026-11-15T00:43:57.223Z"
+        "reason": "Shows moving layouts through lifecycle states with the layout status menu.",
+        "at": "2026-11-17T00:54:54.329Z"
       },
       "video/2N2NhNH7dsk#2@909245c324bc87dd": {
         "verdict": "keep",
-        "reason": "Explains how status controls which layouts end users can see.",
-        "at": "2026-11-15T00:43:57.223Z"
+        "reason": "Explains how a layout's status controls which layouts end users can see.",
+        "at": "2026-11-17T00:54:54.329Z"
       },
-      "video/2u5_F9Ztt7U#7@bffa2df9567446a7": {
+      "video/2u5_F9Ztt7U#7@2ee38684e0681185": {
         "verdict": "keep",
-        "reason": "Announces lifecycle control for any layout in the system through status stages.",
-        "at": "2026-11-15T00:43:57.223Z"
+        "reason": "Directly announces lifecycle control for any layout in the system.",
+        "at": "2026-11-17T00:54:54.329Z"
       },
       "video/mS6NDhj20yI#4@c806ee19884b8096": {
         "verdict": "drop",
-        "reason": "Covers the older status management for user-defined layouts only.",
-        "at": "2026-11-15T00:43:57.223Z"
+        "reason": "Covers lifecycle status for user-defined layouts only, which is the older capability.",
+        "at": "2026-11-17T00:54:54.329Z"
       },
       "video/uxQRfChp96c#2@d361630c8e158753": {
         "verdict": "drop",
-        "reason": "About financial report definitions, not report layouts.",
-        "at": "2026-11-15T00:43:57.223Z"
+        "reason": "Covers status for financial report definitions, which is a different capability.",
+        "at": "2026-11-17T00:54:54.329Z"
       },
       "video/W003w36Isto#1@cd95377518f05e6f": {
         "verdict": "drop",
-        "reason": "AL obsolete tagging is a different developer capability.",
-        "at": "2026-11-15T00:43:57.223Z"
+        "reason": "Covers marking layouts obsolete in AL code, which is a different developer capability.",
+        "at": "2026-11-17T00:54:54.329Z"
       },
       "video/W003w36Isto#2@cd95377518f05e6f": {
         "verdict": "drop",
-        "reason": "About an Excel layout property, not layout status.",
-        "at": "2026-11-15T00:43:57.223Z"
+        "reason": "Covers an Excel layout property setting, not layout status.",
+        "at": "2026-11-17T00:54:54.329Z"
       },
       "video/W003w36Isto#3@cd95377518f05e6f": {
         "verdict": "drop",
-        "reason": "About layout validation, not lifecycle status.",
-        "at": "2026-11-15T00:43:57.223Z"
+        "reason": "Covers the layout validation action, not lifecycle status.",
+        "at": "2026-11-17T00:54:54.329Z"
       },
       "video/W003w36Isto#4@cd95377518f05e6f": {
         "verdict": "drop",
-        "reason": "About a layout info action, not setting layout status.",
-        "at": "2026-11-15T00:43:57.223Z"
+        "reason": "Covers the show layout info action, not lifecycle status.",
+        "at": "2026-11-17T00:54:54.329Z"
       }
     },
     "573321": {
@@ -4372,93 +4382,93 @@
     "573374": {
       "docs/learn-smb-docs/business-central/finance-sustainability-journal.md@5dfe7dfe2f181447": {
         "verdict": "drop",
-        "reason": "General journal page listing journal formulas and purchase document emissions as separate existing features, not formulas on purchase documents.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "General journal page that lists formula calculation and purchase document emissions as separate features, without describing formulas on purchase documents.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-purchase.md@b274b53cf9eb2e3b": {
         "verdict": "drop",
-        "reason": "Covers value chain and the existing purchase-document emissions toggle, not formula-based calculation on purchase lines.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Describes value chain tracking and the existing Use Emissions in Purchase Documents option, not formula-based calculation on purchase lines.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-setup.md@97eb108e95c84ff1": {
         "verdict": "drop",
-        "reason": "Value chain setup and tracking methods are unrelated to purchase document formulas.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Covers value chain setup and carbon tracking methods, which is a different capability.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
       "video/_ynMUzh956w#2@2e9b1f36e27e6884": {
         "verdict": "drop",
-        "reason": "Describes the 2024 journal formula capability, which is older and not in purchase documents.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Describes the original 2024 formulas for journals, not formulas in purchase documents.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
       "video/_ynMUzh956w#9@2e9b1f36e27e6884": {
         "verdict": "drop",
-        "reason": "Emission factors used in sustainability journal calculations are an older journal capability.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Describes emission factors used in sustainability journal calculations, which is an older capability.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
-      "video/2_yYu3RgYwo#7@e5a87bbd9ad8ec40": {
+      "video/6d6iajwQQ-c#1@024dc05d4d6b6129": {
         "verdict": "drop",
-        "reason": "Default sustainability values transferring to purchase lines is a different capability.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Describes value chain tracking for production documents, a different capability.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
-      "video/6d6iajwQQ-c#1@2fc32f80bd51d03e": {
+      "video/6d6iajwQQ-c#3@024dc05d4d6b6129": {
         "verdict": "drop",
-        "reason": "Value chain tracking through production documents is unrelated.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Describes emissions on work centers, which is unrelated to purchase document formulas.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
-      "video/6d6iajwQQ-c#4@2fc32f80bd51d03e": {
+      "video/6d6iajwQQ-c#7@024dc05d4d6b6129": {
         "verdict": "drop",
-        "reason": "Carbon equivalent on production orders is unrelated.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Describes routing emissions tracking, a different capability.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
       "video/JBGuaqk5nXk#0@d3011fa28115c8f7": {
         "verdict": "drop",
-        "reason": "Copilot CO2 calculation in journals is a different feature.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Describes a Copilot CO2 calculation action in journals, not purchase document formulas.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
       "video/JBGuaqk5nXk#6@d3011fa28115c8f7": {
         "verdict": "drop",
-        "reason": "Copilot calculation explanations are a different feature.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Describes Copilot explanations of calculations, a different capability.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
       "video/JoGW2xlIq0I#3@95b48d89d0d03acc": {
         "verdict": "drop",
-        "reason": "Collecting emissions from posted purchase invoices for assembly orders is a different feature.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Describes emissions collected from posted purchase invoices for assembly orders, not formula calculation.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
       "video/lcy36b9GS38#1@437cd523065442b8": {
         "verdict": "drop",
-        "reason": "General value chain automation overview, not purchase document formulas.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Gives a general overview of scope 3 value chain automation, too general to show this feature.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
       "video/NYG4pOtW-Xw#11@8ef20b3a7c778cb9": {
         "verdict": "drop",
-        "reason": "Manual emissions entry on purchase invoices is the older capability without formulas.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Describes manual emission entry on purchase invoices, the older capability that came before formulas.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
       "video/NYG4pOtW-Xw#2@8ef20b3a7c778cb9": {
         "verdict": "drop",
-        "reason": "Direct emissions entry in purchase documents is the older capability, not formula-based calculation.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Describes the earlier ability to enter emissions directly on purchase documents, without formulas.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
       "video/Sc8eGyMkBTA#0@66065a06d447af10": {
         "verdict": "drop",
-        "reason": "Value chain in projects is a different feature.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Describes value chain automation in projects, a different capability.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
       "video/Sc8eGyMkBTA#5@66065a06d447af10": {
         "verdict": "drop",
-        "reason": "Value chain tracking setup field is not the formula toggle.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Describes enabling value chain tracking, not the formula toggle or formula calculation.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
       "video/t_UXxbvgnHY#0@13bd58c8ea9ff88a": {
         "verdict": "keep",
-        "reason": "Directly announces sustainability formulas on purchase orders and invoices that work the same way as in journals.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Directly announces that sustainability formulas are available on purchase orders and invoices and work the same way as in journals.",
+        "at": "2026-11-17T00:54:47.336Z"
       },
       "video/uan4dV9eVCA#4@1c46376c931ac53e": {
         "verdict": "drop",
-        "reason": "Describes general emission formulas in journals without tying them to purchase documents.",
-        "at": "2026-11-09T00:40:45.556Z"
+        "reason": "Describes emission formulas in general, without saying they apply to purchase documents.",
+        "at": "2026-11-17T00:54:47.336Z"
       }
     },
     "573375": {
@@ -4525,53 +4535,58 @@
     "573378": {
       "docs/learn-smb-docs/business-central/finance-sustainability-journal.md@5dfe7dfe2f181447": {
         "verdict": "drop",
-        "reason": "Describes general sustainability journals, not emissions tracking in item or item reclassification journals.",
-        "at": "2026-11-09T00:40:40.869Z"
+        "reason": "It covers sustainability journals in general, not emissions tracking in item journals or item reclassification journals.",
+        "at": "2026-11-17T00:54:43.206Z"
       },
       "docs/learn-smb-docs/business-central/inventory-how-transfer-between-locations.md@dabf2e0d1fd3a6da": {
         "verdict": "drop",
-        "reason": "Covers transferring inventory between locations with no carbon or emissions content.",
-        "at": "2026-11-09T00:40:40.869Z"
+        "reason": "It covers item transfers and reclassification without any carbon or emissions tracking.",
+        "at": "2026-11-17T00:54:43.206Z"
       },
       "docs/learn-smb-docs/business-central/reports/report-6298.md@c059bed0696bf4bf": {
         "verdict": "drop",
-        "reason": "Sales quote report with CO2e fields is a different capability.",
-        "at": "2026-11-09T00:40:40.869Z"
+        "reason": "It covers CO2e fields on the sales quote report, which is a different capability.",
+        "at": "2026-11-17T00:54:43.206Z"
       },
       "docs/learn-smb-docs/business-central/reports/report-6299.md@d5c3bd192d9e4cd4": {
         "verdict": "drop",
-        "reason": "Sales invoice report with CO2e fields is a different capability.",
-        "at": "2026-11-09T00:40:40.869Z"
+        "reason": "It covers CO2e fields on the sales invoice report, which is a different capability.",
+        "at": "2026-11-17T00:54:43.206Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-item-journals.md@7de439ca479f5584": {
         "verdict": "keep",
-        "reason": "Documents recording item emissions and reclassifications in item journals to create sustainability value entries.",
-        "at": "2026-11-09T00:40:40.869Z"
+        "reason": "It documents recording item emissions and reclassifications in item journals to create sustainability value entries.",
+        "at": "2026-11-17T00:54:43.206Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-overview.md@93fee9fb3ff1e4a7": {
         "verdict": "drop",
-        "reason": "General value chain overview from an earlier release that doesn't mention item journals or item reclassification journals.",
-        "at": "2026-11-09T00:40:40.869Z"
+        "reason": "It is a general value chain overview from an earlier release and does not describe item journal emissions tracking.",
+        "at": "2026-11-17T00:54:43.206Z"
       },
-      "video/6d6iajwQQ-c#0@2fc32f80bd51d03e": {
+      "video/6d6iajwQQ-c#0@024dc05d4d6b6129": {
         "verdict": "drop",
-        "reason": "Covers sustainability value entries for purchases, transfers, assembly and production, not item journals.",
-        "at": "2026-11-09T00:40:40.869Z"
+        "reason": "It describes sustainability value entries for purchase, transfer, assembly and production orders, not item journals.",
+        "at": "2026-11-17T00:54:43.206Z"
       },
-      "video/6d6iajwQQ-c#5@2fc32f80bd51d03e": {
+      "video/6d6iajwQQ-c#2@024dc05d4d6b6129": {
         "verdict": "drop",
-        "reason": "Production, consumption and output journal emissions are a different capability.",
-        "at": "2026-11-09T00:40:40.869Z"
+        "reason": "It covers emissions fields on item cards, not item journals.",
+        "at": "2026-11-17T00:54:43.206Z"
+      },
+      "video/6d6iajwQQ-c#5@024dc05d4d6b6129": {
+        "verdict": "drop",
+        "reason": "It covers emissions posting in production, consumption and output journals, which is a different capability.",
+        "at": "2026-11-17T00:54:43.206Z"
       },
       "video/Sc8eGyMkBTA#1@66065a06d447af10": {
         "verdict": "drop",
-        "reason": "Sustainability FastTab on items is a different capability.",
-        "at": "2026-11-09T00:40:40.869Z"
+        "reason": "It covers the sustainability FastTab on item cards, not item journals.",
+        "at": "2026-11-17T00:54:43.206Z"
       },
       "video/t_UXxbvgnHY#2@13bd58c8ea9ff88a": {
         "verdict": "keep",
-        "reason": "Announces value chain emissions tracking in item journals and item reclassification journals.",
-        "at": "2026-11-09T00:40:40.869Z"
+        "reason": "It announces value chain emissions tracking in item journals and item reclassification journals.",
+        "at": "2026-11-17T00:54:43.206Z"
       }
     },
     "573379": {
@@ -4868,68 +4883,88 @@
     "574126": {
       "docs/learn-smb-docs/business-central/admin-fabric.md@1d8c50cd05111554": {
         "verdict": "keep",
-        "reason": "Directly documents mirroring selected companies and tables to OneLake in Fabric.",
-        "at": "2026-10-25T12:47:14.774Z"
+        "reason": "Main Learn page documenting data mirroring from Business Central to Fabric and OneLake.",
+        "at": "2026-11-17T00:54:49.993Z"
       },
       "docs/learn-smb-docs/business-central/admin-monitor-fabric-export.md@9a6724c6cf40da49": {
         "verdict": "keep",
-        "reason": "Documents the synchronization logging and troubleshooting part of the feature.",
-        "at": "2026-10-25T12:47:14.774Z"
+        "reason": "Documents the synchronization monitoring and troubleshooting logs that are part of the feature.",
+        "at": "2026-11-17T00:54:49.993Z"
       },
       "docs/learn-smb-docs/business-central/admin-set-up-fabric-mirroring.md@d3668cce32a85c30": {
         "verdict": "keep",
-        "reason": "Documents setting up the Fabric mirroring connection and choosing companies and tables.",
-        "at": "2026-10-25T12:47:14.774Z"
+        "reason": "Documents setup, including choosing the companies and tables to synchronize to OneLake.",
+        "at": "2026-11-17T00:54:49.993Z"
       },
       "docs/learn-smb-docs/business-central/fabric-faq.md@704575f3b3da2fb9": {
         "verdict": "keep",
-        "reason": "FAQ dedicated to the data mirroring to Fabric capability.",
-        "at": "2026-10-25T12:47:14.774Z"
+        "reason": "FAQ that explains how mirroring Business Central data to Fabric is set up, configured and behaves.",
+        "at": "2026-11-17T00:54:49.993Z"
       },
       "docs/learn-smb-docs/business-central/manufacturing-powerbi-app-semantic-model.md@34ab1d38bb9c4950": {
         "verdict": "drop",
-        "reason": "General Power BI Manufacturing semantic model page with no mention of Fabric mirroring.",
-        "at": "2026-10-25T12:47:14.774Z"
+        "reason": "Describes a Power BI semantic model's tables with no mention of Fabric mirroring.",
+        "at": "2026-11-17T00:54:49.993Z"
       },
       "docs/learn-smb-docs/business-central/reports-external-analysis.md@ae777c52ca04139f": {
         "verdict": "keep",
-        "reason": "Explicitly covers data mirroring to Microsoft Fabric as a way to export data for analytics.",
-        "at": "2026-10-25T12:47:14.774Z"
+        "reason": "Names data mirroring to Microsoft Fabric as a way to get Business Central data into BI tools.",
+        "at": "2026-11-17T00:54:49.993Z"
+      },
+      "video/7lxkboRGw28#28@cbb798d9bcab9140": {
+        "verdict": "keep",
+        "reason": "Announces the new feature for mirroring Business Central data to Fabric.",
+        "at": "2026-11-17T00:54:49.993Z"
+      },
+      "video/7lxkboRGw28#29@cbb798d9bcab9140": {
+        "verdict": "keep",
+        "reason": "Explains the Fabric capacity licensing needed to set up the mirrored database.",
+        "at": "2026-11-17T00:54:49.993Z"
+      },
+      "video/7lxkboRGw28#30@cbb798d9bcab9140": {
+        "verdict": "keep",
+        "reason": "Shows the Fabric-based Power BI apps reporting across multiple companies.",
+        "at": "2026-11-17T00:54:49.993Z"
+      },
+      "video/7lxkboRGw28#31@cbb798d9bcab9140": {
+        "verdict": "keep",
+        "reason": "Shows choosing specific tables to mirror.",
+        "at": "2026-11-17T00:54:49.993Z"
       },
       "video/kOCiyVql0go#0@db3d142d82f18bff": {
         "verdict": "keep",
-        "reason": "Video introduces syncing Business Central data to OneLake for use in Power BI.",
-        "at": "2026-10-25T12:47:14.774Z"
+        "reason": "Shows Business Central data syncing to OneLake for SQL and Power BI use.",
+        "at": "2026-11-17T00:54:49.993Z"
       },
       "video/kOCiyVql0go#1@db3d142d82f18bff": {
         "verdict": "keep",
-        "reason": "Shows the setup app with company and table selection for syncing.",
-        "at": "2026-10-25T12:47:14.774Z"
+        "reason": "Shows the setup app, including connection setup and company and table selection.",
+        "at": "2026-11-17T00:54:49.993Z"
       },
       "video/kOCiyVql0go#2@db3d142d82f18bff": {
         "verdict": "keep",
-        "reason": "Shows the synced tables landing in the OneLake mirrored database.",
-        "at": "2026-10-25T12:47:14.774Z"
+        "reason": "Shows synced tables being created in the OneLake mirrored database.",
+        "at": "2026-11-17T00:54:49.993Z"
       },
       "video/kOCiyVql0go#3@db3d142d82f18bff": {
         "verdict": "keep",
-        "reason": "Shows the ready-made Power BI apps running on the Fabric backend.",
-        "at": "2026-10-25T12:47:14.774Z"
+        "reason": "Shows the sample Power BI apps running on the Fabric backend.",
+        "at": "2026-11-17T00:54:49.993Z"
       },
       "video/kOCiyVql0go#4@db3d142d82f18bff": {
         "verdict": "keep",
-        "reason": "Shows the built-in synchronization logging for monitoring.",
-        "at": "2026-10-25T12:47:14.774Z"
+        "reason": "Shows the built-in synchronization logs used for monitoring.",
+        "at": "2026-11-17T00:54:49.993Z"
       },
       "video/kOCiyVql0go#5@db3d142d82f18bff": {
         "verdict": "keep",
         "reason": "Shows the APIs for setting up and monitoring the Fabric integration.",
-        "at": "2026-10-25T12:47:14.774Z"
+        "at": "2026-11-17T00:54:49.993Z"
       },
       "video/kOCiyVql0go#6@db3d142d82f18bff": {
         "verdict": "keep",
         "reason": "Shows the permission sets that control who can set up and manage the Fabric integration.",
-        "at": "2026-10-25T12:47:14.774Z"
+        "at": "2026-11-17T00:54:49.993Z"
       }
     },
     "574128": {
@@ -5962,178 +5997,168 @@
     "578068": {
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-configuration.md@fdfca3629b5b049b": {
         "verdict": "drop",
-        "reason": "Programmatic AL agent configuration is a pro-code capability distinct from the in-product agent design experience.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Programmatic AL configuration of agents is a separate pro-developer capability, not the in-product design experience.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-define-register.md@aeebd523e88ebd8b": {
         "verdict": "drop",
-        "reason": "Defining and registering agents in AL via interfaces is a separate developer capability, not the in-product designer.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Defining and registering agents in AL via interfaces is a different, later coding capability.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-overview.md@acc793d92a92e413": {
         "verdict": "drop",
-        "reason": "Coding agents in AL is a separate pro-code feature rather than the in-product agent designer.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Coding agents in AL is a separate capability from the in-product agent designer.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-setup-page.md@1cbdcaf8fe40b8d2": {
         "verdict": "drop",
-        "reason": "Building AL setup pages for agents is a developer extension capability, not this designer feature.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Building AL setup pages for coded agents is not part of the in-product design experience.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-tasks.md@a306d39a4af1dd7a": {
         "verdict": "keep",
-        "reason": "Documents creating agent tasks from events and email triggers via APIs, which the feature cites as the developer route to trigger custom agents.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Covers programmatic task creation and email-trigger simulation, matching the feature's mention of toolkit APIs for invoking agents.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-agent-create.md@39adb9608d662181": {
         "verdict": "keep",
-        "reason": "Directly documents creating and activating agents through the AI development toolkit with instruction editor, profiles, permissions and sandbox testing.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Documents creating and activating agents through the AI development toolkit with an instruction editor, profiles, permissions and a task playground.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-agent-visibility.md@3efe778bc7ba13bd": {
         "verdict": "drop",
-        "reason": "Agent visibility in the role center is a general agent topic, not the design experience.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Role center visibility of agents is general and not specific to this design feature.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-attachments.md@3c3a16e836716f2e": {
         "verdict": "drop",
-        "reason": "Attachment limits for agent tasks are generic agent task details, not this feature's capability.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Attachment limits for agent tasks are too general to tie to the design experience.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-best-practices.md@874e3c18622dcd61": {
         "verdict": "keep",
-        "reason": "Best practices for designing an agent, including instruction writing and testing, supports the agent design experience.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Best practices for designing an agent, including instruction writing and permissions, explain this feature.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-tasks-api.md@75815405dd5f4219": {
         "verdict": "keep",
-        "reason": "Covers the Tasks AL API for custom agents created with the toolkit, part of the APIs the feature mentions.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Tasks AL API for custom agents is part of the toolkit APIs for custom agents designed in-product.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-27-4.md@395084ec7c785ba3": {
         "verdict": "keep",
-        "reason": "Release notes announce the AI agent designer public preview in 27.4.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Release notes announce the AI agent designer public preview.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
-      "video/2ujWYYecA2c#0@b696de64b24090f5": {
+      "video/7QJeTXzZaEk#0@b1011fca40768c6d": {
         "verdict": "drop",
-        "reason": "About the built-in Sales Order Agent, not designing custom agents.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Describes the built-in Sales Order Agent, not the agent design experience.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
-      "video/7QJeTXzZaEk#0@0d2dda80efb65c7b": {
+      "video/7QJeTXzZaEk#1@b1011fca40768c6d": {
         "verdict": "drop",
-        "reason": "About the built-in Sales Order Agent, not designing custom agents.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Email account setup for the Sales Order Agent is a different capability.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
-      "video/7QJeTXzZaEk#1@0d2dda80efb65c7b": {
+      "video/7QJeTXzZaEk#2@b1011fca40768c6d": {
         "verdict": "drop",
-        "reason": "Email account setup for Sales Order Agent is unrelated to agent design.",
-        "at": "2026-11-04T00:55:30.789Z"
-      },
-      "video/7QJeTXzZaEk#4@0d2dda80efb65c7b": {
-        "verdict": "drop",
-        "reason": "Email accounts page is unrelated to agent design.",
-        "at": "2026-11-04T00:55:30.789Z"
-      },
-      "video/9cOdjHU15rE#1@5cacc59df80f2dd8": {
-        "verdict": "drop",
-        "reason": "Generic mention of a sales agent, not the design experience.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Contact creation by the Sales Order Agent is unrelated to designing agents.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/I7i25zBfyEQ#0@7db449f644ea1a2f": {
         "verdict": "drop",
-        "reason": "About the built-in Sales Order Agent, not designing custom agents.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Describes the built-in Sales Order Agent only.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/MNwTt06ZxwY#12@08785989a6de2e63": {
         "verdict": "drop",
-        "reason": "Production deployment via extensions is a different capability beyond the sandbox designer.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Deploying agents to production via extensions is a later, different capability.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/nbGw2g3KMXI#0@243db13b53ccaf67": {
         "verdict": "drop",
         "reason": "Describes the built-in Sales Order Agent only.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/nbGw2g3KMXI#1@243db13b53ccaf67": {
         "verdict": "drop",
         "reason": "Describes the built-in Payables Agent only.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/nbGw2g3KMXI#2@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "Describes an expense agent, not the design experience.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Describes a built-in expense agent, not the designer.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/nbGw2g3KMXI#3@243db13b53ccaf67": {
         "verdict": "keep",
-        "reason": "Shows custom agent creation inside Business Central requiring sandbox and version 27.4, i.e. the designer.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Shows building custom agents inside Business Central in a sandbox from version 27.4, which is this feature.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/nbGw2g3KMXI#31@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "Agent Factory codeunit in AL is pro-code agent development, a separate capability.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "AL Agent Factory codeunit is part of coding agents in AL, a separate capability.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/nbGw2g3KMXI#35@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "AL codeunit for creating agents is pro-code development, not the in-product designer.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "AL codeunit for creating agents belongs to the AL coding capability.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/nbGw2g3KMXI#37@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "AL agent development is a separate capability from the in-product design experience.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "AL agent development is a different capability from the in-product designer.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/nbGw2g3KMXI#5@243db13b53ccaf67": {
         "verdict": "keep",
         "reason": "Shows configuring agents with natural language instructions, a core part of the design experience.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/UIL8ej7mSKQ#0@ac155d6baa339527": {
         "verdict": "drop",
-        "reason": "Sales Order Agent email processing enhancement, not agent design.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Sales Order Agent email processing improvement is a different feature.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/UIL8ej7mSKQ#1@ac155d6baa339527": {
         "verdict": "drop",
-        "reason": "Sales Order Agent shipping address feature, unrelated.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Sales Order Agent shipping address feature is unrelated.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/UIL8ej7mSKQ#2@ac155d6baa339527": {
         "verdict": "drop",
-        "reason": "Sales Order Agent delivery dates feature, unrelated.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Sales Order Agent delivery date feature is unrelated.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/UIL8ej7mSKQ#3@ac155d6baa339527": {
         "verdict": "drop",
-        "reason": "Sales Order Agent guidance feature, not custom agent design.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Specific to the Sales Order Agent, not the agent design experience.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/XhO4oFmoh1M#0@3d7ec63ef426adeb": {
         "verdict": "drop",
         "reason": "Introduces the built-in Sales Order Agent only.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/XhO4oFmoh1M#5@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Sales Order Agent quote creation, unrelated to designing agents.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Sales Order Agent quote creation is a different capability.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/XhO4oFmoh1M#8@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Sales Order Agent email processing, unrelated to designing agents.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Sales Order Agent email processing is a different capability.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/XhO4oFmoh1M#9@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Sales Order Agent conversation, unrelated to designing agents.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Sales Order Agent customer conversation is a different capability.",
+        "at": "2026-11-17T00:54:59.439Z"
       },
       "video/xJ8gYzvWnTI#2@a156f6f7a8eca787": {
         "verdict": "drop",
-        "reason": "Generic mention of built-in Sales Order Agent.",
-        "at": "2026-11-04T00:55:30.789Z"
+        "reason": "Mentions the built-in Sales Order Agent generally.",
+        "at": "2026-11-17T00:54:59.439Z"
       }
     }
   }

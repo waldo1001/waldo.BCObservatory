@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:50.803Z"
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -102,7 +102,6 @@ links:
     - video/qABlX4AL3GM
     - video/Sh3ySQSTw-o
   posts:
-    - post/aardvarklabs-blog/3761
     - post/aardvarklabs-blog/4056
     - post/demiliani-com/12836
     - post/duiliotacconi-com/1983
@@ -129,7 +128,7 @@ coverage:
   learn: 9
   code: 0
   video: 3
-  blog: 10
+  blog: 9
   guideline: 0
 bc_forms: []
 member_hash: 35d16713950930e7d6df2a51e27b0d618b69b36f632ac1361932d9d0e629cddb
@@ -176,7 +175,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13952 Add key on Email Message Attachment Data to speed up email deletion](../../../../../changes/bcapps/13952.md) (code change): "Adds an index on the Data media field to avoid full table scans"
 - [#13953 Add key on Email Message Attachment Data to speed up email deletion (backport to releases/29.x)](../../../../../changes/bcapps/13953.md) (code change): "A database key was added to the Data field of the Email Message Attachment table"
 - [#226 Performance knowledge: justify low-selectivity fields in key columns](../../../../../changes/bcquality/226.md) (code change): "low-selectivity fields in table keys requiring evidence such as filtered reads"
-- [Optimizing Business Central Indexes for Performance with Copilot](../../../../../posts/aardvarklabs-blog/3761.md) (community post): "generate AL tableextension index recommendations"
 - [Smarter Keys, Better Performance: Exploring Business Central v29 Index Updates](../../../../../posts/aardvarklabs-blog/4056.md) (community post): "administrators to manage indexes and SIFT keys directly through the Index Management page"
 - [Dynamics 365 Business Central: use sequential GUIDs when possible.](../../../../../posts/demiliani-com/12836.md) (community post): "Sequential GUIDs insert data in order, keeping related records clustered"
 - [Dynamics 365 Business Central 2026 Wave 1. What’s New in Performance.](../../../../../posts/duiliotacconi-com/1983.md) (community post): "Removing unused indexes can speed up writes, and enabling needed ones can speed up reads"

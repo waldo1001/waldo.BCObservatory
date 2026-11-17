@@ -2,21 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/built-in-reports/finance
 type: topic
 title: Finance
-summary: "Finance built-in reports in Business Central: an overview of report categories, payables and receivables analytics, building financial reports from account categories, and sustainability reports. It answers questions about which finance reports exist and how to analyze vendor, customer and ledger data."
+summary: "Finance reporting and analytics in Business Central: built-in finance reports, payables and receivables analytics, building financial reports from account categories, and sustainability reports. It answers questions about which reports exist, how to analyze vendor and customer balances, and how to set up financial reports."
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:23:50.212Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 4b6fe899b9812fcaa555f04eb47523a6bb7f2cfe15913c021c89130dc5f116ff
+  input_hash: a6805a673b0e61e458305ad371dcd4269aa8143e0374d8d32bcffb749081c08d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-reports
@@ -28,7 +28,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-reports
     title: Accounts receivable analytics
-    date: "2026-09-18"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -258,33 +258,35 @@ narrative: generated
 
 # Finance
 
-> Finance built-in reports in Business Central: an overview of report categories, payables and receivables analytics, building financial reports from account categories, and sustainability reports. It answers questions about which finance reports exist and how to analyze vendor, customer and ledger data.
+> Finance reporting and analytics in Business Central: built-in finance reports, payables and receivables analytics, building financial reports from account categories, and sustainability reports. It answers questions about which reports exist, how to analyze vendor and customer balances, and how to set up financial reports.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Finance · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the built-in reports and analytics that support finance work. The overview page, "Built-in finance reports in Business Central", lists the report groups (core finance, deferral, VAT, consolidation, cost accounting, receivables and payables) and mentions the report explorer. It is the best starting point for finding a standard report.
+This section covers the built-in reporting tools for finance in Business Central. The overview page lists the available report groups (core finance, deferral, VAT, consolidation, cost accounting, and receivables and payables) and points to the report explorer for finding them.
 
-Two pages cover payables and receivables. Accounts payables analytics helps you analyze what you owe vendors using Power BI reports, Data Analysis, Aged Payables and Vendor Ledger reports, and the Payment Practice page for payment timing. Accounts receivable analytics helps you manage customer receivables with Power BI reports, Data Analysis and standard reports, including Average Collection Period and Aged Receivables.
+Two pages go deeper on analyzing balances. Accounts payable analytics covers what you owe vendors, using Power BI reports, Data Analysis, and the Payment Practice page. Accounts receivable analytics covers what customers owe, using the Power BI finance app, Data Analysis, and standard reports.
 
-For custom reporting, the page on building financial reports explains how to analyze general ledger accounts and compare them against budgets using row definitions, column definitions and G/L account categories. It covers prerequisites such as chart of accounts structure, dimensions and G/L budgets. A separate page covers sustainability reports, including the Track Item of Concern report and the Role Explorer.
+For custom financial statements, the page on building financial reports explains the prerequisites and how to create reports from row and column definitions with G/L account categories. A separate page covers sustainability reports, including tracking items of concern. Start with the overview page, then go to the topic that matches your task.
 
 ## Key points
 
-- The overview page groups built-in reports into core finance, deferral, VAT, consolidation, cost accounting, and receivables and payables, and mentions the report explorer.
-- Accounts payables analytics uses Power BI reports, Data Analysis, Aged Payables and Vendor Ledger reports, and the Payment Practice page to review payment timing.
-- Accounts receivable analytics uses Power BI reports, Data Analysis and standard reports, including Average Collection Period and Aged Receivables.
-- Financial reports analyze general ledger accounts and compare them against budgets using row definitions, column definitions and G/L account categories. You can create them from scratch or copy existing ones.
-- Prerequisites for financial reports include a structured chart of accounts, dimensions and G/L budgets. The page is tagged for 2025 release wave 1.
-- Sustainability reports use the Item of Concern field and the Track Item of Concern report to monitor inbound and outbound transactions of items with high pollution levels.
-- The Role Explorer is used with sustainability reports to analyze emissions.
+- The overview page lists built-in report groups: core finance, deferral, VAT, consolidation, cost accounting, and receivables and payables, and points to the report explorer.
+- Accounts payable analytics uses Power BI reports, Data Analysis, Aged Payables and Vendor Ledger reports, and the Payment Practice page to review payment timing.
+- Accounts receivable analytics uses the Power BI finance app, Data Analysis, the Average Collection Period report, and the Aged Receivables (Back Dating) report.
+- Report Explorer and custom report design are mentioned for receivables reporting.
+- Building financial reports uses row definitions, column definitions, and G/L account categories to analyze G/L accounts and compare them against budgets.
+- Prerequisites for financial reports include a chart of accounts structure, dimensions, and G/L budgets. You can create reports from scratch or copy existing ones.
+- The financial reports page is tied to 2025 release wave 1.
+- Sustainability reports use the Item of Concern field, the Track Item of Concern report, and the Role Explorer to monitor high-emission items and their inbound and outbound transactions.
 
 ## Learn pages
 
 - [Accounts payables analytics](https://learn.microsoft.com/dynamics365/business-central/payables-reports): See which analytics options are available in Business Central so that you can keep track of your accounts payable.
   - In the observatory: [Page 29 "Vendor Ledger Entries"](../../../../objects/page/29.md), [Page 36994 "Aged Payables (Back Dating)"](../../../../objects/page/36994.md), [Page 36996 "Detailed Vendor Ledger Entries"](../../../../objects/page/36996.md)
 - [Accounts receivable analytics](https://learn.microsoft.com/dynamics365/business-central/receivables-reports): Explore the reports and analytics in the standard version of Business Central that can help you track your accounts receivable.
+  - In the observatory: [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md)
 - [Build financial reports using financial data and account categories](https://learn.microsoft.com/dynamics365/business-central/bi-how-work-account-schedule): Describes how to use financial reports to create various views and reports for analyzing financial performance data.
   - In the observatory: [Page 118 "General Ledger Setup"](../../../../objects/page/118.md), [Page 8391 "Financial Report Categories"](../../../../objects/page/8391.md)
 - [Built-in finance reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-reports): Explore the built-in financial reports in the standard version of Business Central.

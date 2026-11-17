@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/general-business-functionality
 type: topic
 title: General business functionality
-summary: "General business functionality in Business Central covers features used across business areas: posting and previewing, comments, extended text, archiving, tasks, email, Excel export, job queues, attachments, and general journals. It also links to incoming documents, workflows and electronic data exchange. It answers how-to and setup questions on these shared tools."
+summary: "General business functionality in Business Central covers cross-area features: posting and previewing, batch posting and job queues, comments, extended text, archiving, tasks, email, Excel export, general journals, digital vouchers and external attachment storage. It also covers incoming documents, workflows and electronic data exchange. It answers how-to and setup questions."
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1c78ad6dba9f45011991333d717de17145139fafad11f2016aceef2bac241240
+  input_hash: 880b76e90802bcda9cc8385916f17aa98ec6bf4a893129b3e597841d8740bcb9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-about-the-data-exchange-framework
@@ -230,7 +230,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents
     title: Receive and Convert Electronic Documents
-    date: "2025-10-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -251,7 +251,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-how-to-send-electronic-documents
     title: Send Electronic Documents
-    date: "2021-06-23"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -626,28 +626,28 @@ narrative: generated
 
 # General business functionality
 
-> General business functionality in Business Central covers features used across business areas: posting and previewing, comments, extended text, archiving, tasks, email, Excel export, job queues, attachments, and general journals. It also links to incoming documents, workflows and electronic data exchange. It answers how-to and setup questions on these shared tools.
+> General business functionality in Business Central covers cross-area features: posting and previewing, batch posting and job queues, comments, extended text, archiving, tasks, email, Excel export, general journals, digital vouchers and external attachment storage. It also covers incoming documents, workflows and electronic data exchange. It answers how-to and setup questions.
 
 Path: [Business functionality](../business-functionality.md) > General business functionality · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects features that are not tied to one area such as sales or finance. They apply to documents and journals everywhere: posting (single, batch, scheduled, with preview), document statuses, comments, extended text, archiving, editing posted documents, tracking lines and finding related entries. Others cover sending email, exporting to Excel, online maps, user tasks, and general journals for posting directly to the G/L.
+This section collects features that are used across Business Central areas rather than in one module. Most pages are about everyday document work: posting documents and journals, previewing results, posting many documents at once, editing posted documents, archiving, tracking lines, finding related entries and understanding document statuses. Others cover helpers such as comments, extended text, user tasks, online maps, Excel export and suggested values.
 
-Three subtopics go deeper: Incoming documents (registering and OCR-processing external documents), Workflows (approval workflows and Power Automate flows) and Exchange data electronically (Data Exchange Framework, PEPPOL, bank files, SEPA direct debit, Yodlee).
+Three subtopics go deeper. Incoming documents covers registering external documents and using OCR. Workflows covers approval workflows and Power Automate flows. Exchange data electronically covers the Data Exchange Framework, PEPPOL, bank files, SEPA and bank feeds.
 
-Start with "Using general functionality across business areas" for an overview. Then go to the page that matches the task, for example Post Documents and Journals for posting, or Schedule jobs to run automatically for background processing.
+A good starting point is the page "Using general functionality across business areas", which gives the overview. Then go to the page for the task: Post Documents and Journals for posting, Schedule jobs to run automatically for the job queue, and Working with general journals to post directly to G/L for journals.
 
 ## Key points
 
-- Posting: Post, Preview Posting, Post and Send, Post and Email; batch posting immediately or scheduled through the job queue.
-- Preview Posting shows the entries that will be created before committing, with standard and extended preview types.
-- Document statuses (open, released, pending approval, pending prepayment) control what can be changed; posted documents can be edited for items like tracking numbers or payment references.
-- Comments, extended text (with language, date ranges and document type conditions) and line-level comments add information to cards and documents.
-- Archive documents automatically or manually, restore archived sales documents, and track or find related entries by document number, date, contact, serial or lot number.
-- Job Queue Entries schedule reports and codeunits one-time or recurring, with status tracking and failure notifications.
-- Attachments can be stored in external file storage (Azure Blob Storage, Azure File Share, SharePoint) in Business Central 28.0, 28.1 and 29; digital vouchers can require attachments at posting.
-- Subtopics cover incoming documents (7 pages), workflows (8 pages) and electronic data exchange (19 pages).
+- Posting: Post, Preview Posting, Post and Send and Post and Email are available depending on document type. Preview shows the entries before they are committed, in a standard or extended preview type.
+- Batch posting: post many sales and purchase documents immediately, or schedule them through the job queue to avoid performance issues.
+- Job Queue Entries schedule reports and codeunits one-time or recurring. They support status tracking, error notifications and inactivity timeouts.
+- Edit Posted Documents lets you update fields such as shipping tracking numbers or payment references on posted sales, purchase and service documents.
+- Archive Documents covers automatic and manual archiving of sales, purchase, service and project documents, restoring archived sales documents and retention policies.
+- External file storage for attachments supports Azure Blob Storage, Azure File Share and SharePoint, with Storage Sync and Migrate Files actions. The page lists Business Central 28.0, 28.1 and 29.
+- Digital vouchers can require attachments at posting for chosen source codes and entry types, to meet regional regulations.
+- Comments, extended text (with language and date conditions) and user tasks (assignable to people or groups) add information and coordination to records.
 
 ## Subtopics
 

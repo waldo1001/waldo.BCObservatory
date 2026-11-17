@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/set-up-business-central/set-up-sales",
-  "input_hash": "ef5622337dee6108a0715536479de572900ecb82a3bd6f64c925b5726c4a4e1e",
-  "summary": "Sales setup in Business Central: customers, pricing and discounts, salespeople, document sending, payment services, shipping, posting policies and subscription billing. It answers questions on configuring sales processes before use.",
-  "overview": "This section covers the configuration tasks to complete before managing sales. It starts with an overview page listing the tasks: customer registration, payment service extensions, sales pricing and discounts, salesperson setup, document sending profiles and VAT verification.\n\nThe pages fall into groups. Customer and pricing setup covers customer cards and templates, customer price groups, customer discount groups, special prices and discounts, and the general prices and discounts page, which covers the new and legacy pricing experiences. Document handling covers sending documents and emails, document sending profiles, and payment services such as PayPal and WorldPay. Logistics and control cover shipping agents, shipment methods, invoice posting policies, stockout warnings, salespeople and purchasers, and document date updates. A subtopic covers setup for subscription billing.\n\nStart with the overview page, then register customers and set up pricing. Move on to document sending and payment services once the basics are in place.",
+  "input_hash": "4ab1a8620531ed569cea0553fed46e20b959692d696c8d199c41e85ec4fd4a0a",
+  "summary": "Set up sales in Business Central covers the configuration of sales processes: Sales & Receivables rules, customers, prices and discounts, salespeople, shipping, document sending, payment services and posting policies. It also includes a subtopic on subscription billing setup. Use it for questions on configuring sales before use.",
+  "overview": "This section explains how to configure the sales side of Business Central. The starting page is the overview of tasks to configure sales processes. It centers on the Sales & Receivables page, where general rules and values for company sales policy are set, and it points to related setup such as document sending profiles, sales commission, payment methods, incoterms, shipping agents and invoice posting policy.\n\nThe other pages each handle one setup task. Customer records are covered by the customer card and templates, credit limits and salesperson assignment. Pricing is covered by the overview of prices and discounts, special prices and discounts, customer price groups and customer discount groups. Shipping and delivery are covered by shipment methods and shipping agents. Communication and payment are covered by sending documents and emails, document sending profiles, and PayPal or WorldPay payment services. Smaller pages cover stockout warnings, invoice posting policies and updating document dates with posting dates.\n\nThe subscription billing subtopic covers setup for recurring billing: contract defaults and types, subscription packages and lines, item options, contract import, job queue automation and permission sets. Start with the overview page, then go to the task page you need.",
   "key_points": [
-    "The overview page lists the setup tasks: customer registration, payment services, pricing and discounts, salespeople, document sending profiles, VAT verification.",
-    "Customer cards support templates, credit limits, overdue balance warnings, dimension templates and salesperson assignment by ship-to address.",
-    "Pricing pages cover price lists, line and invoice discounts, best price calculation, customer price groups and customer discount groups. The new sales pricing experience came with 2020 release wave 2.",
-    "Payment services such as PayPal Payments Standard and WorldPay Payments Standard add payment links to emailed sales documents (2023 release wave 2).",
-    "Document sending profiles can be set as the default or assigned per customer. Documents can be sent by email with PDF attachments and templates.",
-    "Invoice posting policies can prohibit, allow or require posting invoices together with shipments or receipts.",
-    "Shipping agents, shipping services and shipment methods (including Incoterms) support package tracking and order promising dates.",
-    "Salespeople and purchasers have codes and commission percentages. A stockout warning can be turned on for sales order quantities above available inventory."
+    "The overview page describes the Sales & Receivables page as the place for general sales rules and values, and links to other sales setup tasks.",
+    "Invoice posting policy can prohibit, require or allow posting of sales and purchase invoices together with shipments or receipts, set per user.",
+    "A stockout warning notifies sales order creators when quantities exceed inventory at a location, without blocking the order.",
+    "PayPal Payments Standard and WorldPay Payments Standard extensions let customers pay invoices through links in emailed sales documents (2023 release wave 2).",
+    "Prices and discounts cover price lists, line and invoice discounts and best price calculation, with new and legacy pricing experiences (2020 release wave 2).",
+    "Customer price groups and customer discount groups apply pricing or line discounts to many customers once the group code is assigned to the customer card.",
+    "Document sending profiles set preferred sending methods, including defaults and customer-specific profiles, and are used by the Post and Send action.",
+    "Shipping agents (with services and shipping times for order promising and package tracking) and shipment methods (with incoterms support) define delivery options."
   ],
   "members_used": 15,
   "subtopics_used": 1,
   "prompt_version": 1,
-  "at": "2026-11-03T01:01:40.166Z",
+  "at": "2026-11-17T01:00:39.968Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.019579
+    "cost_usd": 0.021153
   }
 }

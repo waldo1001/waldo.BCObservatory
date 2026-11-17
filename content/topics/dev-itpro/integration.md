@@ -12,7 +12,7 @@ review:
   at: "2026-11-15T00:50:57.511Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -381,7 +381,9 @@ links:
   localizations: []
   videos:
     - video/gAzmWJg9Z5g
-  posts: []
+  posts:
+    - post/demiliani-com/13215
+    - post/yzhums-com/75614
   guidelines: []
   changes:
     - change/bcapps/10437
@@ -408,7 +410,7 @@ coverage:
   learn: 378
   code: 62
   video: 1
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms:
   - 1
@@ -535,6 +537,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11484 [E-Documents Core] - Supported type direction configuration](../../changes/bcapps/11484.md) (code change): "E-Document services now support per-document-type direction configuration"
 - [#11527 E-document payment improvements](../../changes/bcapps/11527.md) (code change): "E-Document payment processing now supports durable, retryable occurrences"
 - [#13765 [E-Document] Set max output tokens for MLLM extraction](../../changes/bcapps/13765.md) (code change): "E-Document MLLM Handler sets an explicit maximum output token budget"
+- [SaaS ERP misconceptions: the “on-premises thinking trap”](../../posts/demiliani-com/13215.md) (community post): "redesign integrations using APIs and events instead of database connections"
+- [The End of Release Plans: Dynamics 365 & Power Platform Roadmaps Move to AI at Work roadmap (Moving from release waves to always-on disclosure)](../../posts/yzhums-com/75614.md) (community post): "Release Communications MCP Server gives programmatic access to roadmap data"
 - [What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers](../../videos/gAzmWJg9Z5g.md) (video): "Integration Overview Documentation; New Integration Landing Page"
 
 ## Business Central pages and reports

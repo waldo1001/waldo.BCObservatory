@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:34.022Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -154,6 +154,9 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/demiliani-com/12368
+    - post/demiliani-com/13908
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38
     - post/miljan-rs/966
     - post/nataliekarolak-com/4271
     - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07
@@ -191,7 +194,7 @@ coverage:
   learn: 17
   code: 0
   video: 0
-  blog: 6
+  blog: 9
   guideline: 0
 bc_forms: []
 member_hash: eaa6ed8c79aa4a9f6ef08300f6537b69d953326e78b7456545701d47f00a6f3d
@@ -254,6 +257,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#196 Strengthen review contracts and add AL reliability guidance](../../../../changes/bcquality/196.md) (code change): "Strengthen review contracts and add AL reliability guidance. Adds seven AL reliability rules"
 - [#251 Clarify 20-character limit for assignable permission set names](../../../../changes/bcquality/251.md) (code change): "Includes best practice showing full names with prefix/affix must fit 20 characters"
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Guidance added for event and interface compatibility patterns, covering enum unknown value handling"
+- [Vibe coding: yes or no?](../../../../posts/demiliani-com/12368.md) (community post): "ai-assisted coding; developer skills; code quality; llm tools"
+- [GitHub Copilot sessions: obtaining tips for better usage.](../../../../posts/demiliani-com/13908.md) (community post): "GitHub Copilot sessions: obtaining tips for better usage"
+- [Weekly Review: Business Central AL Development – June 7–13, 2026](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38.md) (community post): "AL performance hot paths improve dramatically by batching stream I/O, using TextBuilder"
 - [When “Errors” Don’t Stop the Process: A Hidden Risk in Business Central](../../../../posts/miljan-rs/966.md) (community post): "Safe usage pattern: validate first with error collection"
 - [Get the new BCQuality plugin for VS Code!](../../../../posts/nataliekarolak-com/4271.md) (community post): "helps AI agents and AL developers generate better code for Business Central"
 - [Introducing the “No Shortcuts” Series: The 100% Correct Way to Develop for Business Central](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07.md) (community post): "Shortcuts in development create technical debt and upgrade problems tomorrow"

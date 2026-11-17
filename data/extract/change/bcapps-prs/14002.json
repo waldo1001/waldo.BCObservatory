@@ -6,13 +6,13 @@
   "systems_joined": [
     "platform"
   ],
-  "summary": "External File Storage now rejects path segments that are purely \".\" or \"..\" to prevent directory traversal attacks, while allowing dots within file or folder names.",
+  "summary": "External File Storage now rejects any path where a whole segment is \".\" or \"..\", for all operations and connectors, so calls like DeleteDirectory('A/B/..') no longer act on folder A. Dots inside names stay valid. Callers that pass relative segments now get an error.",
   "key_points": [
-    "CheckPath validation rejects \".\" and \"..\" as complete path segments across all external storage operations",
-    "Prevents directory traversal vulnerabilities where connectors like SharePoint would resolve relative segments",
-    "Dots inside names like \"v1..2.pdf\" or \"..hidden\" remain valid",
-    "Public API behavior change: callers passing relative paths now receive an error instead of passing to the connector",
-    "No internal callers in the repository use relative paths; external extensions must normalize paths"
+    "CheckPath in External File Storage Impl. rejects whole \".\" or \"..\" segments with a new error",
+    "Stops connectors such as SharePoint from resolving relative segments and acting on the wrong folder",
+    "Dots inside names, such as v1..2.pdf, ..hidden or a., remain valid",
+    "Public API behavior change: try functions return false for such paths, so outside callers must pass normalized paths",
+    "New test codeunit 134754 File Storage Path Test covers the rejected and allowed cases"
   ],
   "change_kind": "fix",
   "behavior_change": true,

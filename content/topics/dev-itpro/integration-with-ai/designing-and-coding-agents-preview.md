@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -204,23 +204,14 @@ links:
   localizations: []
   videos:
     - video/1IIlArcHpOY
-    - video/4HE3BBCcV84
-    - video/9zQZHfXK-PQ
-    - video/EpDIrJE0HzA
-    - video/IDYhxt-8ImI
     - video/juUBVPfIp8A
     - video/jWqjDTbqjeE
     - video/MNwTt06ZxwY
     - video/moPzf04Mwlc
     - video/nbGw2g3KMXI
     - video/nPF84Ufkn4k
-    - video/q3xnjJD32kk
-    - video/qs1cg-GoDeQ
-    - video/Rvgt_VXFr1I
     - video/V4zCPAsYi_Y
     - video/Vq9Nk6_uxmQ
-    - video/WjF_sESaIPo
-    - video/xqwJTCPD9tA
   posts:
     - post/aardvarklabs-blog/3097
     - post/aardvarklabs-blog/3348
@@ -229,10 +220,7 @@ links:
     - post/bertverbeek-nl/1290
     - post/demiliani-com/12644
     - post/kauffmann-nl/8436
-    - post/thinkaboutit-be/8359
-    - post/wingate365-com/https-blog-wingate365-com-2026-02-ai-context-is-king-bc-mcp-for-mcs-html--94f99e5d2a
     - post/yzhums-com/70502
-    - post/yzhums-com/71603
   guidelines: []
   changes:
     - change/bcapps/13761
@@ -254,8 +242,8 @@ children:
 coverage:
   learn: 23
   code: 0
-  video: 18
-  blog: 11
+  video: 9
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: 2363f50364b2a6e5ec17552aa75d99987877fc7bce7ed791a7189963ccc729d0
@@ -331,27 +319,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "agents built directly in Business Central with those created in Copilot Studio"
 - [Dynamics 365 Business Central: debugging agent sessions.](../../../posts/demiliani-com/12644.md) (community post): "debug agent sessions directly from Visual Studio Code"
 - [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Production agents require manual conversion to AL code"
-- [Directions EMEA 2026, Day 2: Cowork, Agentic Development and Fabric](../../../posts/thinkaboutit-be/8359.md) (community post): "agentic AL development with BCQuality, native Business Central-Fabric integration"
-- [AI context is king - BC MCP for MCS Agents - London D365PPUG - Feb 2026](../../../posts/wingate365-com/https-blog-wingate365-com-2026-02-ai-context-is-king-bc-mcp-for-mcs-html--94f99e5d2a.md) (community post): "MCP is the standard protocol for connecting AI tools to external systems"
 - [Business Central 2025 wave 2 (BC27.4): Envision and design AI agents in Business Central (Custom Agent)](../../../posts/yzhums-com/70502.md) (community post): "users build custom AI agents that turn natural language goals into actions"
-- [The release plan for Dynamics 365 Business Central 2026 release wave 1 (BC28) is available now!!!](../../../posts/yzhums-com/71603.md) (community post): "Development improvements focus on AL developer productivity through troubleshooting tools and coding agents"
 - [What's New: Working with Instructions for Agents in Business Central](../../../videos/1IIlArcHpOY.md) (video): "Agent Instructions Framework; task execution; task chaining in agent workflows"
-- [MCP Server and API Queries (2026 release wave 1)](../../../videos/4HE3BBCcV84.md) (video): "external agents; agent development. Shows: API queries in MCP server"
-- [From Code to Docs: Using GitHub Copilot to Automate Business Central Documentation](../../../videos/9zQZHfXK-PQ.md) (video): "Using GitHub Copilot to automate Business Central documentation with agents"
-- [Build an Agent in Microsoft Copilot Studio for Business Central (2025)](../../../videos/EpDIrJE0HzA.md) (video): "Copilot Studio agents for Business Central"
-- [20260629 - AI Enabled Delivery for Consultants](../../../videos/IDYhxt-8ImI.md) (video): "Copilot Studio agents for Business Central; Future agentic scenarios"
 - [What's New: AI Development Toolkit (2026 release wave 1)](../../../videos/juUBVPfIp8A.md) (video): "AI Development Toolkit; agent development and design"
 - [Introducing: Envision, Design and Code Business Central Agents](../../../videos/jWqjDTbqjeE.md) (video): "agents; agentic ai; agent framework; permissions; profiles; instructions; agent design"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../videos/MNwTt06ZxwY.md) (video): "agents; agent configuration; permissions; profiles; instructions"
 - [What's New: How To Create Agents in Business Central](../../../videos/moPzf04Mwlc.md) (video): "How To Create Agents in Business Central; agent creation; no-code configuration"
 - [20260713 - From Zero to Agent Building agents in Business Central](../../../videos/nbGw2g3KMXI.md) (video): "agents; custom agents; agent building; sandbox environment"
 - [Business Central Under the Hood episode 13: Inside the Agent Runtime](../../../videos/nPF84Ufkn4k.md) (video): "agent runtime; task execution engine; agent memory; grounding; hallucination prevention"
-- [What's new: MCP Server (2026 release wave 2)](../../../videos/q3xnjJD32kk.md) (video): "MCP server; query tools; data analysis; agent capabilities"
-- [What's new: MCP Server (2026 release wave 2)](../../../videos/qs1cg-GoDeQ.md) (video): "mcp server; data tools; query tool; agents"
-- [What's New: Running Tests from Visual Studio Code (2026 release wave 1)](../../../videos/Rvgt_VXFr1I.md) (video): "copilot agents; Copilot agent for test fixing; agents outside VS Code"
 - [Getting Started With Agent Testing: Test Setup and Structuring (part 3)](../../../videos/V4zCPAsYi_Y.md) (video): "agent testing; test setup; data-driven tests; yaml configuration"
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../../../videos/Vq9Nk6_uxmQ.md) (video): "Custom agents; agent instructions; agent profiles; permissions; prompt engineering"
-- [Interfrucht GmbH](../../../videos/WjF_sESaIPo.md) (video): "Manifest Agent for Business Central; Automated purchase order creation"
-- [Designing Modern Integrations in Business Central](../../../videos/xqwJTCPD9tA.md) (video): "AI agents for integration design; Spec-driven development for integrations; Information flow visualization"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -7,11 +7,11 @@
   "words": 2540,
   "summary": "Curating a tight MCP catalog for Dynamics 365 Business Central agents improves both security and agent performance. The post explains how to use configurations, permissions and feature toggles to expose only the tools each agent job needs, and shows why large catalogs with auto-discovery fail as both security and decision-making surfaces.",
   "key_points": [
-    "A large MCP catalog is a security risk and confuses agents; each tool must earn its place through explicit curation",
-    "Business Central MCP configurations let you pick API objects, set per-object permissions (read, create, modify, delete, actions), and filter discovery to build tailored tool sets",
-    "The default configuration uses dynamic discovery with read-only access, exposing everything the user can read without setup - replace it with a minimal named default",
-    "Design one configuration per agent job with business-focused tools (such as custom posting actions) rather than raw table CRUD operations",
-    "Small, well-scoped catalogs reduce security surface, lower AI tool-call costs (which will soon be charged), and cut wrong decisions in ERP contexts"
+    "A large, loosely scoped MCP catalog widens the security surface and makes the agent more likely to pick the wrong tool; each tool should earn its place.",
+    "Named MCP configurations let you choose API pages and queries and set read, create, modify, delete and action permissions per object. Writes need Unblock Edit Tools turned on.",
+    "The built-in blank-named default runs in dynamic tool mode with read-only discovery, so agents can read anything the user can see. Replace it with a minimal named default, and send the Company header to pin the connection to one company.",
+    "Use one configuration per agent job and expose business actions, such as a custom API codeunit that posts only approved invoices, rather than raw table operations.",
+    "Small catalogs mean fewer wrong records and fewer tool calls, which matters because Microsoft has announced plans to charge per MCP tool call."
   ],
   "systems": [
     "integration",
@@ -27,20 +27,7 @@
     "api design",
     "permissions"
   ],
-  "objects": [
-    {
-      "type": "codeunit",
-      "name": "API codeunit"
-    },
-    {
-      "type": "page",
-      "name": "API pages"
-    },
-    {
-      "type": "query",
-      "name": "API queries"
-    }
-  ],
+  "objects": [],
   "features": [
     "Model Context Protocol (MCP) server",
     "API tools",

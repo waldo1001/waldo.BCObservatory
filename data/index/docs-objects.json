@@ -2,11 +2,11 @@
   "inputs": {
     "commits": {
       "28": "45cd68de3ce0d94d0e25a2b7ee87b76d78dbffa7",
-      "29": "9d65b5414f44cbad5890049a1e0490a64118ffdb",
+      "29": "ae251bc67417b1b37b41aaf52480e6a5c8f9294e",
       "30": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
     },
     "forms": 1734,
-    "forms_hash": "84e6a94294ef9cae0d58b6284d31ff9c8fa400c7606f36cc0f9270d6a11c0c5c"
+    "forms_hash": "9d030d7e9c241a6bde539234bc178f847e22db6c6684d7d1c2f645171ee74f08"
   },
   "majors": [
     "28",
@@ -15,7 +15,7 @@
   ],
   "commits": {
     "28": "45cd68de3ce0d94d0e25a2b7ee87b76d78dbffa7",
-    "29": "9d65b5414f44cbad5890049a1e0490a64118ffdb",
+    "29": "ae251bc67417b1b37b41aaf52480e6a5c8f9294e",
     "30": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
   },
   "docs": 1598,
@@ -17931,8 +17931,8 @@
     ],
     "docs/learn-smb-docs/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md": [
       {
-        "key": "page/4764",
-        "name": "Jobs Module Setup",
+        "key": "page/4766",
+        "name": "Warehouse Module Setup",
         "versions": [
           "29",
           "30"
@@ -71215,7 +71215,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-to-set-up-cash-customers.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-set-up-cash-customers",
-        "title": "Set Up Cash Customers",
+        "title": "Set up cash customers",
         "via": "ms.search.form"
       },
       {
@@ -71271,7 +71271,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-to-set-up-cash-customers.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-set-up-cash-customers",
-        "title": "Set Up Cash Customers",
+        "title": "Set up cash customers",
         "via": "ms.search.form"
       },
       {
@@ -81995,19 +81995,19 @@
         "via": "ms.search.form"
       }
     ],
-    "page/4764": [
-      {
-        "id": "docs/learn-smb-docs/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro",
-        "title": "Introduction to Contoso Coffee",
-        "via": "ms.search.form"
-      }
-    ],
     "page/4765": [
       {
         "id": "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro",
         "title": "Introduction to Contoso Coffee Manufacturing",
+        "via": "ms.search.form"
+      }
+    ],
+    "page/4766": [
+      {
+        "id": "docs/learn-smb-docs/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro",
+        "title": "Introduction to Contoso Coffee Warehousing",
         "via": "ms.search.form"
       }
     ],
@@ -103401,7 +103401,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1",
-        "title": "Chart of Accounts (report)",
+        "title": "Chart of Accounts Setup (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103421,7 +103421,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-3.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-3",
-        "title": "G/L Register (report)",
+        "title": "G/L Register for Posted Entries (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103441,7 +103441,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-4.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4",
-        "title": "Detail Trial Balance (report)",
+        "title": "Detail Trial Balance Overview (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103455,7 +103455,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5",
-        "title": "Receivables-Payables (report)",
+        "title": "Receivables-Payables Overview (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103475,7 +103475,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-6.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6",
-        "title": "Trial Balance (report)",
+        "title": "Trial Balance Overview (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103515,7 +103515,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-9.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-9",
-        "title": "Trial Balance/Budget (report)",
+        "title": "Trial Balance/Budget Overview (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103535,7 +103535,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-10.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-10",
-        "title": "Closing Trial Balance (report)",
+        "title": "Closing Trial Balance (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103561,7 +103561,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-11.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-11",
-        "title": "G/L - VAT Reconciliation (report)",
+        "title": "G/L - VAT Reconciliation (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103587,7 +103587,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-12.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-12",
-        "title": "VAT Statement (report)",
+        "title": "VAT Statement Overview (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103613,7 +103613,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-13.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-13",
-        "title": "VAT Register (report)",
+        "title": "VAT Register for Posted Entries (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103639,7 +103639,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-16.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-16",
-        "title": "G/L Consolidation Eliminations (report)",
+        "title": "G/L Consolidation Eliminations (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103671,7 +103671,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-17.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-17",
-        "title": "Consolidated Trial Balance (report)",
+        "title": "Consolidated Trial Balance (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103703,7 +103703,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-18.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-18",
-        "title": "Consolidated Trial Balance (4) (report)",
+        "title": "Consolidated Trial Balance (4) (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103729,7 +103729,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-19.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-19",
-        "title": "VAT- VIES Declaration Tax Auth (report)",
+        "title": "VAT- VIES Declaration Tax Auth (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103755,7 +103755,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-20.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-20",
-        "title": "Calculate and Post Tax Settlement (report)",
+        "title": "Calculate and Post Tax Settlement (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103799,7 +103799,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-25.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-25",
-        "title": "Financial Reporting (report)",
+        "title": "Run Financial Report Overview (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103819,7 +103819,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-27.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-27",
-        "title": "Dimensions - Total (report)",
+        "title": "Dimensions - Total Overview (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103839,7 +103839,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-28.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-28",
-        "title": "Dimensions - Detail (report)",
+        "title": "Dimensions - Detail Overview (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103853,7 +103853,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-30.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-30",
-        "title": "Check Value Posting (report)",
+        "title": "Dimension Check Value Posting (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103879,7 +103879,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-31.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-31",
-        "title": "VAT Exceptions (report)",
+        "title": "VAT Exceptions for VAT Differences (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103905,7 +103905,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-32.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-32",
-        "title": "VAT Registration No. Check (report)",
+        "title": "VAT Registration No. Check (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103937,7 +103937,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-33.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-33",
-        "title": "Reconcile Cust. and Vend. Accs. (report)",
+        "title": "Reconcile Cust. and Vend. Accs. (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103951,7 +103951,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-36.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-36",
-        "title": "Fiscal Year Balance (report)",
+        "title": "Fiscal Year Balance Overview (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103965,7 +103965,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-37.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-37",
-        "title": "Balance Comp. - Prev. Year (report)",
+        "title": "Balance Comp. - Prev. Year (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103985,7 +103985,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-38.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-38",
-        "title": "Trial Balance by Period (report)",
+        "title": "Trial Balance by Period (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104027,7 +104027,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-104.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-104",
-        "title": "Customer - Detail Trial Balance (report)",
+        "title": "Customer - Detail Trial Balance (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104055,7 +104055,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-108.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-108",
-        "title": "Customer - Order Detail (report)",
+        "title": "Customer - Order Detail (Report)",
         "via": "ms.search.form"
       },
       {
@@ -104089,7 +104089,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-111.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-111",
-        "title": "Customer - Top 10 list (report)",
+        "title": "Customer - Top 10 List (Report)",
         "via": "ms.search.form"
       },
       {
@@ -104135,7 +104135,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-113.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-113",
-        "title": "Customer/Item Sales (report)",
+        "title": "Customer/Item Sales Overview (Report)",
         "via": "ms.search.form"
       },
       {
@@ -104229,7 +104229,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-120.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-120",
-        "title": "Aged Accounts Receivables (report)",
+        "title": "Aged Accounts Receivables (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104243,7 +104243,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-121.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-121",
-        "title": "Customer - Balance to date (report)",
+        "title": "Customer - Balance to Date (Report)",
         "via": "ms.search.form"
       },
       {
@@ -104275,7 +104275,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-129.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-129",
-        "title": "Customer - Trial Balance (report)",
+        "title": "Customer - Trial Balance (Report)",
         "via": "ms.search.form"
       },
       {
@@ -104301,7 +104301,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-151.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-151",
-        "title": "Balance Sheet (report)",
+        "title": "Balance Sheet Overview (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104315,7 +104315,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-154.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-154",
-        "title": "Income Statement (report)",
+        "title": "Income Statement Overview (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104329,7 +104329,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-155.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-155",
-        "title": "Statement of Cashflows (report)",
+        "title": "Statement of Cashflows (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104343,7 +104343,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-156.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-156",
-        "title": "Retained Earnings Statement (report)",
+        "title": "Retained Earnings Statement (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104377,7 +104377,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-211.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-211",
-        "title": "Customer - Payment Receipt (report)",
+        "title": "Customer - Payment Receipt (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104391,7 +104391,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-301.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-301",
-        "title": "Vendor - List (report)",
+        "title": "Vendor List Report for Vendor Details",
         "via": "ms.search.form"
       }
     ],
@@ -104411,7 +104411,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-304.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-304",
-        "title": "Vendor - Detail Trial Balance (report)",
+        "title": "Vendor - Detail Trial Balance (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104425,7 +104425,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-305.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-305",
-        "title": "Vendor - Summary Aging (report)",
+        "title": "Vendor - Summary Aging (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104445,7 +104445,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-307.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-307",
-        "title": "Vendor - Order Summary (report)",
+        "title": "Vendor - Order Summary (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104465,7 +104465,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-308.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-308",
-        "title": "Vendor - Order Detail (report)",
+        "title": "Vendor - Order Detail (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104485,7 +104485,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-311.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-311",
-        "title": "Vendor - Top 10 List (report)",
+        "title": "Vendor - Top 10 List Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -104511,7 +104511,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-312.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-312",
-        "title": "Purchase statistics (report)",
+        "title": "Purchase Statistics by Vendor (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104531,7 +104531,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-313.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-313",
-        "title": "Vendor/Item Purchases (report)",
+        "title": "Vendor/Item Purchases (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104545,7 +104545,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-317.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-317",
-        "title": "Vendor Pre-Payment Journal (report)",
+        "title": "Vendor Pre-Payment Journal (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104571,7 +104571,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-319.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-319",
-        "title": "Payments on Hold (report)",
+        "title": "Payments on Hold Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -104591,7 +104591,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-320.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-320",
-        "title": "Vendor Item catalog (report)",
+        "title": "Vendor Item Catalog Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -104605,7 +104605,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-321.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-321",
-        "title": "Vendor - Balance to Date (report)",
+        "title": "Vendor - Balance to Date (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104625,7 +104625,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-322.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-322",
-        "title": "Aged Accounts Payable (report)",
+        "title": "Aged Accounts Payable (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104645,7 +104645,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-329.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-329",
-        "title": "Vendor - Trial Balance (report)",
+        "title": "Vendor - Trial Balance (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104681,7 +104681,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-503.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-503",
-        "title": "Foreign Currency Balance (report 503)",
+        "title": "Foreign Currency Balance (Report 503)",
         "via": "ms.search.form"
       }
     ],
@@ -104707,7 +104707,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-512.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-512",
-        "title": "Intercompany Transactions (report)",
+        "title": "Intercompany Transactions (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -104937,7 +104937,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-716.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-716",
-        "title": "Inventory Cost and price list (report)",
+        "title": "Inventory Cost and Price List (report)",
         "via": "ms.search.form"
       }
     ],
@@ -104985,7 +104985,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-720.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-720",
-        "title": "Item/vendor catalog (report)",
+        "title": "Item/Vendor Catalog Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -105031,7 +105031,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-743.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-743",
-        "title": "VAT Reconciliation Report (report)",
+        "title": "VAT Reconciliation Report (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -105045,7 +105045,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-801.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-801",
-        "title": "Assembly BOMs (report)",
+        "title": "Assembly BOMs Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -105059,7 +105059,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-809.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-809",
-        "title": "Where-used list (report)",
+        "title": "Where-Used List Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -105073,7 +105073,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-810.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-810",
-        "title": "BOM - Raw Materials (report)",
+        "title": "BOM - Raw Materials Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -105087,7 +105087,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-811.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-811",
-        "title": "About the BOM - Sub-Assemblies (report)",
+        "title": "Assembly BOM - Sub-Assemblies (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -105147,7 +105147,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-915.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-915",
-        "title": "About Assemble to order - Sales (report)",
+        "title": "Assemble to Order - Sales (report)",
         "via": "ms.search.form"
       }
     ],
@@ -105167,7 +105167,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1001.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1001",
-        "title": "Inventory Valuation (report)",
+        "title": "Inventory Valuation Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -105235,7 +105235,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1008.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1008",
-        "title": "Project Analysis (report)",
+        "title": "Project Financial Analysis (report)",
         "via": "ms.search.form"
       }
     ],
@@ -105275,7 +105275,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1010.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1010",
-        "title": "Project WIP to G/L (report)",
+        "title": "Project WIP to G/L Reconciliation (report)",
         "via": "ms.search.form"
       }
     ],
@@ -105315,7 +105315,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1012.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1012",
-        "title": "Projects per Customer (report)",
+        "title": "Projects per Customer (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -105335,7 +105335,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1013.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1013",
-        "title": "Items per Project (report)",
+        "title": "Item Usage per Project (report)",
         "via": "ms.search.form"
       }
     ],
@@ -105355,7 +105355,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1014.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1014",
-        "title": "Project per Item (report)",
+        "title": "Project Usage per Item (report)",
         "via": "ms.search.form"
       }
     ],
@@ -105417,7 +105417,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1101.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1101",
-        "title": "Resource – List (report)",
+        "title": "Resource List and Setup (report)",
         "via": "ms.search.form"
       }
     ],
@@ -105431,7 +105431,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1103.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1103",
-        "title": "Resource Register (report)",
+        "title": "Resource Register Entries (report)",
         "via": "ms.search.form"
       }
     ],
@@ -105445,7 +105445,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1105.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1105",
-        "title": "Resource Statistics (report)",
+        "title": "Resource Usage and Sales Statistics (report)",
         "via": "ms.search.form"
       }
     ],
@@ -105459,7 +105459,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1106.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1106",
-        "title": "Resource Utilization (report)",
+        "title": "Resource Capacity and Utilization (report)",
         "via": "ms.search.form"
       }
     ],
@@ -105493,7 +105493,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1123.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1123",
-        "title": "Cost Acctg. Stmt. per Period (report)",
+        "title": "Cost Acctg. Stmt. per Period (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -105513,7 +105513,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1125.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1125",
-        "title": "Cost Types Details (report)",
+        "title": "Cost Types Details Report for Cost Entries",
         "via": "ms.search.form"
       }
     ],
@@ -105533,7 +105533,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1126.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1126",
-        "title": "Cost Acctg. Statement (report)",
+        "title": "Cost Acctg. Statement (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -105553,7 +105553,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1127.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1127",
-        "title": "Cost Acctg. Analysis (report)",
+        "title": "Cost Accounting Analysis (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -105573,7 +105573,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1128.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1128",
-        "title": "Cost Acctg. Journal (report)",
+        "title": "Cost Accounting Journal (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -105593,7 +105593,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1129.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1129",
-        "title": "Cost Allocations (report)",
+        "title": "Cost Allocations Setup Review (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -105613,7 +105613,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1133.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1133",
-        "title": "Cost Acctg. Statement/Budget (report)",
+        "title": "Cost Acctg. Statement/Budget (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -105633,7 +105633,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1138.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1138",
-        "title": "Cost Acctg. Balance/Budget (report)",
+        "title": "Cost Acctg. Balance/Budget (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -105735,7 +105735,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1316.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1316",
-        "title": "Customer Statement (report)",
+        "title": "Customer Statement Report for Account Activity",
         "via": "ms.search.form"
       }
     ],
@@ -105869,7 +105869,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-2500.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-2500",
-        "title": "Day Book VAT Entry (report)",
+        "title": "Day Book VAT Entry Review (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -105925,7 +105925,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-4403.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4403",
-        "title": "Aged Accounts Payables (Excel report)",
+        "title": "Aged Accounts Payable (Excel Report)",
         "via": "ms.search.form"
       }
     ],
@@ -105933,7 +105933,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-4404.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4404",
-        "title": "Vendor - Top 10 List Excel (Excel report)",
+        "title": "Vendor - Top List (Excel Report)",
         "via": "ms.search.form"
       }
     ],
@@ -105953,7 +105953,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-4405.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4405",
-        "title": "Trial Balance (Excel report)",
+        "title": "Trial Balance Excel Report for G/L Accounts",
         "via": "ms.search.form"
       }
     ],
@@ -105961,7 +105961,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-4406.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4406",
-        "title": "Trial Balance/Budget (Excel report)",
+        "title": "Trial Balance/Budget (Excel Report)",
         "via": "ms.search.form"
       }
     ],
@@ -105969,7 +105969,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-4409.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4409",
-        "title": "Customer - Top 10 List Excel (Excel report)",
+        "title": "Customer - Top List (Excel Report)",
         "via": "ms.search.form"
       }
     ],
@@ -105989,7 +105989,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-4410.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4410",
-        "title": "Consolidated Trial Balance (Excel report)",
+        "title": "Consolidated Trial Balance (Excel Report)",
         "via": "ms.search.form"
       }
     ],
@@ -106271,7 +106271,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5600.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5600",
-        "title": "Fixed Asset Analysis (report)",
+        "title": "Fixed Asset Value Analysis (report)",
         "via": "ms.search.form"
       }
     ],
@@ -106291,7 +106291,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5601.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5601",
-        "title": "Fixed Asset List (report)",
+        "title": "Fixed Asset List and Setup (report)",
         "via": "ms.search.form"
       }
     ],
@@ -106319,7 +106319,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5603.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5603",
-        "title": "Fixed Asset Register (report)",
+        "title": "Fixed Asset Register Entries (report)",
         "via": "ms.search.form"
       }
     ],
@@ -106339,7 +106339,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5604.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5604",
-        "title": "Fixed Asset Details (report)",
+        "title": "Fixed Asset Transaction Details (report)",
         "via": "ms.search.form"
       }
     ],
@@ -106467,7 +106467,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5620.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5620",
-        "title": "Insurance - Analysis (report)",
+        "title": "Fixed Asset Insurance Analysis (report)",
         "via": "ms.search.form"
       }
     ],
@@ -106491,7 +106491,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5623.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5623",
-        "title": "Insurance Register (report)",
+        "title": "Insurance Register Entries (report)",
         "via": "ms.search.form"
       }
     ],
@@ -106523,7 +106523,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5630.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5630",
-        "title": "Maintenance - Analysis (report)",
+        "title": "Maintenance - Analysis (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -106531,7 +106531,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5633.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5633",
-        "title": "Maintenance Register (report)",
+        "title": "Maintenance Register Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -106539,7 +106539,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5634.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5634",
-        "title": "Maintenance - Details (report)",
+        "title": "Maintenance - Details (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -106685,7 +106685,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5871.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5871",
-        "title": "Item - Able to Make (Time) (report)",
+        "title": "Item - Able to Make (Timeline) (report)",
         "via": "ms.search.form"
       }
     ],
@@ -107443,7 +107443,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-7319.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-7319",
-        "title": "Warehouse Bin List (report)",
+        "title": "Warehouse Bin List Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -107559,7 +107559,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-99000756.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000756",
-        "title": "Detailed Calculation (report)",
+        "title": "Detailed Calculation Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -107587,7 +107587,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-99000758.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000758",
-        "title": "Item BOM Compare list (report)",
+        "title": "Item BOM Compare List (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -107689,7 +107689,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-99000780.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000780",
-        "title": "Capacity Task list (report)",
+        "title": "Capacity Task List Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -107733,7 +107733,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-99000787.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000787",
-        "title": "Routing Sheet (report)",
+        "title": "Routing Sheet Report in Business Central",
         "via": "ms.search.form"
       }
     ],

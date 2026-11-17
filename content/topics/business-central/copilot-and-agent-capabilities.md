@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -245,7 +245,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-process
     title: Process sales quotes and orders with Sales Order Agent
-    date: "2026-10-02"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -287,14 +287,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-suggest-sales-lines-with-copilot
     title: Sales line suggestions with Copilot
-    date: "2026-10-02"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-order-agent
     title: Sales Order Agent overview
-    date: "2026-10-02"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -359,15 +359,10 @@ links:
     - topic/business-central/copilot-and-agent-capabilities/summarize-preview
   localizations: []
   videos:
-    - video/bHXEbtsx0JY
-    - video/GlY_e-jH0V0
-    - video/p460TIQL2zw
     - video/q0TxpWfm9rc
     - video/xJ8gYzvWnTI
-    - video/YUgTqJsNLW0
   posts:
-    - post/gerardorenteria-blog/15508
-    - post/waldo-be/318712
+    - post/thinkaboutit-be/7284
     - post/yzhums-com/69476
   guidelines: []
   changes:
@@ -399,8 +394,8 @@ children:
 coverage:
   learn: 55
   code: 35
-  video: 6
-  blog: 3
+  video: 2
+  blog: 2
   guideline: 0
 bc_forms:
   - 16
@@ -501,15 +496,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13307 [SOA] Clear stale pricing notifications on item availability refresh](../../changes/bcapps/13307.md) (code change): "Sales Order Agent now clears stale pricing-error notifications when refreshing"
 - [#13469 [SOA] Do not show duplicate-contact notification on outgoing email](../../changes/bcapps/13469.md) (code change): "Sales Order Agent no longer displays the duplicate-contact notification"
 - [#13495 Migrate SOA auxiliary calls to GPT-5.6 and refine date-filter handling](../../changes/bcapps/13495.md) (code change): "Sales Order Agent now uses GPT-5.6 Ceres instead of GPT-4.1"
-- [New Application Ideas of Dynamics 365 Business Central (2026 OCT)](../../posts/gerardorenteria-blog/15508.md) (community post): "Copilot agents, data migrations, financial management, localization, inventory"
-- [The Business Central 2026 release wave 2 docs nobody asked for ..](../../posts/waldo-be/318712.md) (community post): "319 features identified from 38 videos with developer tools"
+- [Quick Tip: Business Central Updates 27.1 & 27.2: A Quick Look at What’s New](../../posts/thinkaboutit-be/7284.md) (community post): "introduce intelligent agents for automation"
 - [Dynamics 365 Business Central: All Copilot and agent capabilities](../../posts/yzhums-com/69476.md) (community post): "multiple AI-powered Copilot features for productivity"
-- [What's New: Sustainability Copilot (2025 release wave 2)](../../videos/bHXEbtsx0JY.md) (video): "Sustainability Copilot emissions calculation copilot sustainability journal emission factors"
-- [Urgency without Direction is a problem with AI. Use it with purpose.](../../videos/GlY_e-jH0V0.md) (video): "Copilot adoption; ai usage; feature overwhelm; learning strategies"
-- [Context Switching and Mental Load in AI-era is real.](../../videos/p460TIQL2zw.md) (video): "Context Switching and Mental Load in AI-era is real"
 - [What's New: Enhancements to Copilot Summaries (2025 release wave 2)](../../videos/q0TxpWfm9rc.md) (video): "Developer Configuration for Summarization; Enhanced Fields for Richer Insights"
 - [What's New: Business Central User Experience and Productivity (2026 release wave 1)](../../videos/xJ8gYzvWnTI.md) (video): "agent task pane; sales order agent; payables agent; review bar"
-- [Agents on the rise and with voice, do you think BC will have an agent you can speak to?](../../videos/YUgTqJsNLW0.md) (video): "agents; voice conversation; conversational ai; business manager agent"
 
 ## Business Central pages and reports
 

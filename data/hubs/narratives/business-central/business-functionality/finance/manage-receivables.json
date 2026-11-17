@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/finance/manage-receivables",
-  "input_hash": "852912af360a402f9461bcf050768c73d336958c653afedb183decceb61b8654",
-  "summary": "Receivables management in Business Central: applying customer payments, reconciling bank accounts, collecting overdue balances, setting payment tolerances, blocking customers, and analyzing or predicting late payments. It answers how-to and setup questions for the order-to-cash side of finance.",
-  "overview": "This section covers the tasks that follow a posted sales invoice. You can register and apply customer payments, reconcile them against bank statements, and chase overdue amounts with statements, reminders and finance charge memos. Related pages cover payment tolerances, blocking customers, netting balances for a company that is both customer and vendor, SEPA Direct Debit, sales tax, and Intrastat reporting.\n\nStart with \"Overview of tasks to manage receivables\". It compares the main tools: Payment Reconciliation Journal, Payment Registration, and Cash Receipt Journal. The subtopic on applying payments automatically and reconciling bank accounts goes deeper on importing bank statements or feeds, matching rules, and Text-to-Account mapping for recurring payments.\n\nFor follow-up and insight, use \"Collect outstanding balances\" and \"Send Reminders of Outstanding Balances\" for dunning. Use \"Accounts receivable analytics\" and \"Predict late payments for sales documents\" to analyze collections and anticipate late payers.",
+  "input_hash": "92f83455ffada628675d6bd312edeb6040c8f61501539dbdc1a6fbf47bea256b",
+  "summary": "Managing receivables in Business Central: registering and applying customer payments, reconciling bank accounts, collecting overdue balances, payment tolerances, SEPA Direct Debit, blocking customers, late payment prediction, and receivables analytics. It answers how-to and setup questions for the customer payment cycle.",
+  "overview": "This section covers the receivables cycle in Business Central, from tracking what customers owe to collecting and applying payments. The \"Overview of tasks to manage receivables\" page is the best starting point. It links payment reconciliation, bank account reconciliation, payment registration, cash receipt journaling, and collection tasks.\n\nPayment handling has several paths. Payments can be registered and applied to unpaid sales documents, applied through the cash receipt journal or customer ledger entries, or matched automatically in the Payment Reconciliation Journal (see the subtopic on automatic application and bank reconciliation). Payment tolerance pages explain how small differences or late discounts are accepted. SEPA Direct Debit covers collecting EURO payments through bank export files.\n\nCollection and control pages cover statements, reminders, finance charge memos, Finance Agent in Outlook, blocking customers, and late payment prediction. Analytics pages cover Power BI and standard reports. Some pages cover related topics: sales tax in the default version, Intrastat reporting, and consolidating balances for a company that is both customer and vendor.",
   "key_points": [
-    "Three ways to apply customer payments: Payment Reconciliation Journal, Payment Registration (individual or lump-sum, with partial payments and payment discounts), and Cash Receipt Journal or customer ledger entries.",
-    "Automatic payment application uses bank statement import or feeds, matching rules, and Text-to-Account mapping for recurring payments; leftovers are resolved manually.",
-    "Collection tools: Customer Statement report, reminders, finance charge memos with Finance Charge Terms, and Copilot for Finance in Outlook (with Dispute Status).",
-    "Payment tolerance and payment discount tolerance can be set by percentage and amount, per currency, with a grace period, warnings, and blocking per customer or vendor.",
-    "Customers can be blocked for shipping, invoicing, or all transactions, for example when insolvent.",
-    "Late Payment Prediction uses machine learning with confidence levels, using standard Microsoft models or custom Azure-based models.",
-    "Accounts Receivable Analytics offers Power BI reports, Data Analysis, and reports such as Average Collection Period and Aged Receivables.",
-    "SEPA Direct Debit collects EUR payments via XML export with mandates; Intrastat extended capabilities start in 2022 release wave 2; default sales tax is supported only in the US and Canada."
+    "Start with the overview of receivables tasks, which ties together payment reconciliation, bank reconciliation, payment registration, and cash receipt journals.",
+    "Payments can be registered and applied to sales documents individually or as lump sums, with payment discount handling and search by document number and amount.",
+    "The Payment Reconciliation Journal matches bank statement lines to open customer, vendor, and bank ledger entries, with matching rules, text-to-account mapping, and manual fixes.",
+    "Payment tolerance and payment discount tolerance can be set by percentage and amount, per currency, with a warning notification and blocking per customer or vendor.",
+    "Collections use statements, reminders, finance charge memos, and Finance Agent in Outlook, with dispute status tracking.",
+    "Customers can be blocked with Ship, Invoice, or All settings in the Blocked field.",
+    "SEPA Direct Debit supports EURO collections through export formats, mandates, collection entries, and XML export to the bank.",
+    "The Late Payment Prediction extension uses machine learning, either Microsoft standard models or custom Azure-based models, and shows confidence levels."
   ],
   "members_used": 13,
   "subtopics_used": 1,
   "prompt_version": 1,
-  "at": "2026-10-17T01:12:57.226Z",
+  "at": "2026-11-17T01:00:31.532Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.020315
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:54:28.910Z",
-    "verdict": "approve",
-    "issues": [
-      "Overview says the overview page 'compares' the three payment tools; the source only says to use one of them. 'Lists' or 'names' would be more exact. Minor.",
-      "The last key point puts SEPA, Intrastat and sales tax into one bullet. It is accurate but would read more clearly split up. Minor."
-    ],
-    "input_hash": "852912af360a402f9461bcf050768c73d336958c653afedb183decceb61b8654",
-    "cost_usd": 0.051939200000000005
+    "cost_usd": 0.021049
   }
 }

@@ -25,7 +25,7 @@ review:
   at: "2026-11-17T00:26:05.243Z"
   flags: []
 generated:
-  at: "2026-11-17T00:26:08.300Z"
+  at: "2026-11-17T00:54:59.443Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -77,7 +77,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/574126
   topics: []
   localizations: []
   videos: []
@@ -308,25 +309,33 @@ features:
     verified: false
     status_source: video
   - name: Business Central mirroring to Fabric
-    status: unclear
+    status: preview
     t: 2868
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "574126"
   - name: Fabric mirrored database setup
-    status: unclear
+    status: preview
     t: 2963
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "574126"
   - name: Multi-company reporting with Fabric
-    status: unclear
+    status: preview
     t: 3025
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "574126"
   - name: Fabric table mirroring selectivity
-    status: unclear
+    status: preview
     t: 3129
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "574126"
   - name: Fabric-ready Power BI apps
     status: announced
     t: 3129
@@ -438,12 +447,14 @@ The session then covers the assisted setup wizard, date tables, account category
 | Power BI Pro license requirement for publishing | status not stated, demoed | [43:18](https://www.youtube.com/watch?v=7lxkboRGw28&t=2598s) |  |
 | App update workflow in Power BI service | status not stated, demoed | [44:43](https://www.youtube.com/watch?v=7lxkboRGw28&t=2683s) |  |
 | Multi-company app deployment | status not stated | [45:52](https://www.youtube.com/watch?v=7lxkboRGw28&t=2752s) |  |
-| Business Central mirroring to Fabric | status not stated, demoed | [47:48](https://www.youtube.com/watch?v=7lxkboRGw28&t=2868s) |  |
-| Fabric mirrored database setup | status not stated, demoed | [49:23](https://www.youtube.com/watch?v=7lxkboRGw28&t=2963s) |  |
-| Multi-company reporting with Fabric | status not stated | [50:25](https://www.youtube.com/watch?v=7lxkboRGw28&t=3025s) |  |
-| Fabric table mirroring selectivity | status not stated | [52:09](https://www.youtube.com/watch?v=7lxkboRGw28&t=3129s) |  |
+| Business Central mirroring to Fabric | preview (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [47:48](https://www.youtube.com/watch?v=7lxkboRGw28&t=2868s) |  |
+| Fabric mirrored database setup | preview (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)), demoed | [49:23](https://www.youtube.com/watch?v=7lxkboRGw28&t=2963s) |  |
+| Multi-company reporting with Fabric | preview (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)) | [50:25](https://www.youtube.com/watch?v=7lxkboRGw28&t=3025s) |  |
+| Fabric table mirroring selectivity | preview (roadmap [Data mirroring to Microsoft Fabric](../features/574126.md)) | [52:09](https://www.youtube.com/watch?v=7lxkboRGw28&t=3129s) |  |
 | Fabric-ready Power BI apps | announced | [52:09](https://www.youtube.com/watch?v=7lxkboRGw28&t=3129s) | "they will have fabric ready apps that will be available also" ([52:09](https://www.youtube.com/watch?v=7lxkboRGw28&t=3129s)) |
 | MCP servers for Power BI with Copilot | status not stated | [55:38](https://www.youtube.com/watch?v=7lxkboRGw28&t=3338s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

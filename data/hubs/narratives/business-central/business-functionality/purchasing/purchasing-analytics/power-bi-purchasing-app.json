@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/purchasing/purchasing-analytics/power-bi-purchasing-app",
-  "input_hash": "7585faa4c24673f834ac81ec83b67146a7b28b1bdfca2a5ba7ea44668014c423",
-  "summary": "The Power BI Purchases app for Business Central purchasing analytics: its reports, the semantic model behind them, and the KPIs and measures they use. It answers questions about what each report shows, who it serves, and which metrics it tracks, such as spend, budget variance, vendor quality, returns, trends and forecasts.",
-  "overview": "The Power BI Purchases app packages purchasing analytics for executives, purchasing managers, purchasers and finance teams. One overview page introduces the app and lists its reports. Each report then has its own page describing the KPIs it shows and the decisions it supports.\n\nThe reports fall into a few groups. Breakdowns by dimension: Purchases by Item, Location, Purchaser and Vendor, plus Purchases Overview and Purchases Decomposition. Time comparisons: Daily Purchases, Moving Averages, Moving Annual Total, Period-Over-Period, Year-Over-Year and Actual vs. Budget. Specialized analyses: Key Purchase Influencers, Purchase Forecasting, Purchase Quote Overview, Purchases Return Overview and Vendor Quality Analysis.\n\nTwo reference pages sit underneath the reports. The semantic model page describes the star schema of fact and dimension tables. The KPIs and measures page explains how the measures are calculated. Start with the app overview page, then open the report page that matches your question. Use the reference pages when you need to know where a number comes from.",
+  "input_hash": "96295df2f8e4aeae31ef35041f3c0e1441c32d039ef72370eb0423a0506b3df5",
+  "summary": "The Power BI Purchases app for Business Central purchasing analytics: its reports, semantic model and KPI/measure reference. It answers questions about spend by vendor, item, location and purchaser, budget comparison, trends, forecasting, returns and vendor quality.",
+  "overview": "The Power BI Purchases app packages purchasing analytics for executives, purchasing managers and purchasers. The app page lists the reports. Each report has its own page describing its KPIs and intended audience.\n\nThe reports fall into a few groups. Overview and breakdown reports cover Purchases Overview, Purchases Decomposition, and Purchases by Item, Location, Purchaser and Vendor. Time-based reports cover Daily Purchases, Moving Averages, Moving Annual Total, Period-Over-Period and Year-Over-Year. Other reports cover Actual vs. Budget, Purchase Forecasting, Key Purchase Influencers, Purchase Quote Overview, Purchases Return Overview and Vendor Quality Analysis.\n\nStart with the app page to see the report set. Then use the semantic model page to see how Business Central tables map to Power BI fields. Use the KPIs and measures page when you need a measure definition.",
   "key_points": [
-    "The app overview lists the Purchases Overview, Purchases Decomposition, Daily Purchases, Moving Averages, Moving Annual Total and Period-Over-Period reports, among others.",
-    "Purchases by Item, Location, Purchaser and Vendor reports show Purchase (LCY), Purchase Quantity and % of grand total KPIs. The Vendor report adds Pareto cumulative percentages.",
-    "Actual vs. Budget reports Purchase (LCY), Purchase Amount YTD (Fiscal), Budget Amount, and the variance amount and percentage.",
-    "Moving Annual Total covers a rolling 12 months and includes Previous Year MAT and growth. Moving Averages compares purchases to 30-day averages.",
+    "The app page describes the Power BI Purchases app and its reports, including Purchases Overview, Decomposition, Daily Purchases, Moving Averages, Moving Annual Total and Period-Over-Period.",
+    "The semantic model uses a star schema. Fact tables include Purchase Budget, Purchase Credit Lines, Purchase Invoice Lines, Purchase Lines and Purchase Value Entries. Dimension tables such as Vendor give context.",
+    "The KPIs and measures page is the reference for budget variance, purchase quantity, vendor spend, Pareto analysis, moving annual total and period-over-period growth.",
+    "Actual vs. Budget compares purchase amounts with budget. KPIs include Budget Amount Variance and Budget Amount Variance %.",
+    "Moving Annual Total covers rolling 12 months with Previous Year MAT and growth. Moving Averages compares purchases to 30-day averages.",
     "Period-Over-Period compares fiscal months and quarters. Year-Over-Year compares the current year with the previous year.",
-    "Purchase Forecasting predicts three months ahead from six months of history, with monthly seasonality, by vendor and item category.",
-    "Purchases Return Overview and Vendor Quality Analysis cover return rates, credits, spend and item reliance, discount percentage and single-supplier items.",
-    "The semantic model is a star schema. Facts are purchase budgets, invoices, credit memos and value entries. Dimensions are vendors, items, projects and purchasers."
+    "Purchase Forecasting predicts the next three months from history. It supports vendor, item category and purchaser dimensions and confidence interval customization.",
+    "Purchases Return Overview and Vendor Quality Analysis cover return rates, credits, purchase discounts, spend and item reliance, and single-supplier identification."
   ],
   "members_used": 20,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-13T01:00:20.167Z",
+  "at": "2026-11-17T01:00:09.305Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.030716
+    "cost_usd": 0.027561
   }
 }

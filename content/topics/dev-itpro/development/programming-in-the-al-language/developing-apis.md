@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:21.197Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,7 +107,6 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/aardvarklabs-blog/3388
     - post/aardvarklabs-blog/4082
   guidelines: []
   changes:
@@ -128,7 +127,7 @@ coverage:
   learn: 10
   code: 0
   video: 0
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 198bbaa7e4c9ee4e788121e511fb23fa78de1ec0a3f9625833096531ab5a506e
@@ -182,7 +181,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13824 Implement namespace normalization for Fabric Data and Logging in setup pages and platform management](../../../../changes/bcapps/13824.md) (code change): "Fabric namespace fields on the setup pages and API now convert entered values to lowercase"
 - [#9725 [Master] - Slice 626127: [Excise Tax][VENDOR] Multiple Excise Taxes per Item](../../../../changes/bcapps/9725.md) (code change): "Item Excise Tax API page (7417)"
 - [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../../changes/bcquality/156.md) (code change): "2 web-services articles: keep consumer-provided key fields editable on insert"
-- [My 2026 Tradeshow Schedule and Highlights](../../../../posts/aardvarklabs-blog/3388.md) (community post): "the session guides migration to modern Business Central APIs"
 - [Business Central’s New API Overview: A Modern Replacement for Web Services](../../../../posts/aardvarklabs-blog/4082.md) (community post): "AL-defined APIs are the future direction Microsoft is moving toward"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

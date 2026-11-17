@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,7 +21,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget
     title: Actual vs. Budget Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -33,37 +33,37 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-322
-    title: Aged Accounts Payable (report)
-    date: "2024-12-16"
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4403
+    title: Aged Accounts Payable (Excel Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4403
-    title: Aged Accounts Payables (Excel report)
-    date: "2024-12-14"
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-322
+    title: Aged Accounts Payable (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-correct-cancel-unpaid-purchase-invoices
     title: Amend or cancel unpaid purchase invoices
-    date: "2025-10-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-analytics-overview
     title: Analytics in purchasing
-    date: "2025-10-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-date-calculation-for-purchases
     title: Calculate dates for purchases
-    date: "2025-10-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -77,21 +77,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-combine-receipts
     title: Combine Receipts or PO Lines on a Single Invoice
-    date: "2026-09-27"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-request-quotes
     title: Create a purchase quote to request an offer
-    date: "2026-03-27"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-daily-purchases
     title: Daily Purchases Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -119,35 +119,35 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-ext-doc-no
     title: External Document Numbers on Purchase Documents
-    date: "2025-10-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-709
     title: Inventory Purchase Orders (report)
-    date: "2024-10-14"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-714
     title: Inventory Vendor Purchases (report)
-    date: "2024-10-14"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-720
-    title: Item/vendor catalog (report)
-    date: "2024-10-14"
+    title: Item/Vendor Catalog Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-key-purchase-influencers
     title: Key Purchase Influencers (Power BI Report)
-    date: "2025-09-30"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -161,28 +161,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records
     title: Merge Duplicate Customers, Vendors, or Contacts
-    date: "2026-10-22"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-moving-annual-total
     title: Moving Annual Total (MAT) Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-moving-averages
     title: Moving Averages Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-manage-purchasing
     title: Overview of tasks to manage to purchase
-    date: "2026-06-17"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -195,106 +195,106 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-319
-    title: Payments on Hold (report)
-    date: "2024-10-14"
+    title: Payments on Hold Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-period-over-period
     title: Period-Over-Period Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app
     title: Power BI Purchases App for Purchasing Analytics
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-app-semantic-model
     title: Power BI Purchases app semantic model
-    date: "2026-07-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-process-purchase-returns-cancellations
     title: Process returns or cancellations
-    date: "2025-10-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchase-forecasting
     title: Purchase Forecasting (Power BI Report)
-    date: "2025-09-30"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchasing-how-purchase-products-sale
     title: Purchase items for a sale
-    date: "2025-10-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchase-quote-overview
     title: Purchase Quote Overview (Power BI Report)
-    date: "2025-09-30"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-409
     title: Purchase Reservation Availability (report)
-    date: "2024-10-14"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-312
-    title: Purchase statistics (report)
-    date: "2024-10-14"
+    title: Purchase Statistics by Vendor (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-item
     title: Purchases by Item Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-location
     title: Purchases by Location Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-purchaser
     title: Purchases by Purchaser Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-vendor
     title: Purchases by Vendor Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-decomposition
     title: Purchases Decomposition Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -605,11 +605,11 @@ Start with "Overview of tasks to manage to purchase" for the map of tasks, then 
 
 - [Amend or cancel unpaid purchase invoices](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-correct-cancel-unpaid-purchase-invoices): Explains how to correct, cancel, or undo a posted purchase invoice and automatically create a purchase credit memo.
 - [Calculate dates for purchases](https://learn.microsoft.com/dynamics365/business-central/purchasing-date-calculation-for-purchases): Learn how to calculate purchase dates to optimize inventory planning and streamline procurement processes.
-  - In the observatory: [Page 26 "Vendor Card"](../../../objects/page/26.md), [Page 30 "Item Card"](../../../objects/page/30.md), [Page 5700 "Stockkeeping Unit Card"](../../../objects/page/5700.md)
 - [Check amounts on purchase invoices and credit memos](https://learn.microsoft.com/dynamics365/business-central/check-purchase-amounts): You can verify that the total amount on purchase invoices and credit memos equals the total amounts, including VAT, on the lines.
   - In the observatory: [Page 460 "Purchases & Payables Setup"](../../../objects/page/460.md)
 - [Combine Receipts or PO Lines on a Single Invoice](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-combine-receipts): Use the Combine Receipts function to invoice multiple purchase receipts from the same vendor on a single purchase invoice.
-- [Create a purchase quote to request an offer](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-request-quotes): Describes how to create a sales offer or a request for quote (RFQ) document to record your offer to a customer to sell products under certain terms.
+  - In the observatory: [Page 26 "Vendor Card"](../../../objects/page/26.md), [Page 5818 "Matched Order Lines"](../../../objects/page/5818.md)
+- [Create a purchase quote to request an offer](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-request-quotes): Describes how to create a purchase quote or a request for quote (RFQ) document to request an offer from a vendor to buy products under certain terms.
 - [Enter External Document Numbers](https://learn.microsoft.com/dynamics365/business-central/across-enter-external-document-numbers): Enter customer and vendor document numbers on sales and purchase documents so you can find related entries and avoid duplicate purchase invoices.
 - [External Document Numbers on Purchase Documents](https://learn.microsoft.com/dynamics365/business-central/purchasing-ext-doc-no): Learn how to record vendor document numbers on purchase documents, make numbers mandatory, and use external document numbers to find posted entries.
 - [Match Purchase Invoice Drafts to Purchase Orders](https://learn.microsoft.com/dynamics365/business-central/match-purchase-invoice-drafts-to-orders): Learn how to match incoming purchase invoice draft lines to purchase orders and receipts, review warnings, and prepare invoices for posting.
@@ -620,19 +620,18 @@ Start with "Overview of tasks to manage to purchase" for the map of tasks, then 
 - [Payment practices report](https://learn.microsoft.com/dynamics365/business-central/ui-payment-practices): Learn how to easily create the Payment Practices report for vendors and customers.
   - In the observatory: [Page 532 "Company Sizes"](../../../objects/page/532.md)
 - [Process returns or cancellations](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-process-purchase-returns-cancellations): Explains how to create and post a purchase credit memo when you want to return items to a vendor or cancel purchased services.
-  - In the observatory: [Page 146 "Posted Purchase Invoices"](../../../objects/page/146.md), [Page 233 "Apply Vendor Entries"](../../../objects/page/233.md), [Page 5855 "Posted Purchase Document Lines"](../../../objects/page/5855.md)
+  - In the observatory: [Page 146 "Posted Purchase Invoices"](../../../objects/page/146.md), [Page 233 "Apply Vendor Entries"](../../../objects/page/233.md), [Page 460 "Purchases & Payables Setup"](../../../objects/page/460.md), [Page 52 "Purchase Credit Memo"](../../../objects/page/52.md), [Page 5855 "Posted Purchase Document Lines"](../../../objects/page/5855.md)
 - [Purchase items for a sale](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-purchase-products-sale): Create a purchase invoice for a vendor or supplier directly from a sales invoice to buy products needed for a sale.
-  - In the observatory: [Page 48 "Sales Orders"](../../../objects/page/48.md)
 - [Receive and Convert Electronic Documents](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents): Learn how to receive and convert electronic documents in Business Central, either directly from trading partners or through an OCR service.
 - [Record purchases with purchase invoices](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-record-purchases): Describes how to purchase inventory, noninventory items, or resources by creating and posting purchase invoices or orders.
-  - In the observatory: [Page 8510 "Over-Receipt Codes"](../../../objects/page/8510.md)
+  - In the observatory: [Page 202 "Resource Ledger Entries"](../../../objects/page/202.md), [Page 26 "Vendor Card"](../../../objects/page/26.md), [Page 29 "Vendor Ledger Entries"](../../../objects/page/29.md), [Page 30 "Item Card"](../../../objects/page/30.md), [Page 38 "Item Ledger Entries"](../../../objects/page/38.md), [Page 8510 "Over-Receipt Codes"](../../../objects/page/8510.md)
 - [Save Business Contacts to Microsoft Outlook](https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook): Learn how to synchronize Business Central contacts with Microsoft Outlook and Teams to streamline communication and access contact details effortlessly.
 - [Set up and use a purchase approval workflow](https://learn.microsoft.com/dynamics365/business-central/walkthrough-setting-up-and-using-a-purchase-approval-workflow): This walkthrough takes you through all the stages involved in setting up and using a purchase approval workflow in Business Central.
   - In the observatory: [Page 1500 "Workflows"](../../../objects/page/1500.md), [Page 1501 "Workflow"](../../../objects/page/1501.md), [Page 1505 "Workflow Templates"](../../../objects/page/1505.md), [Page 1512 "Notification Setup"](../../../objects/page/1512.md), [Page 1513 "Notification Schedule"](../../../objects/page/1513.md), [Page 56 "Purchase Orders"](../../../objects/page/56.md)
 - [Standard recurring purchase lines](https://learn.microsoft.com/dynamics365/business-central/purchasing-how-work-recurring-purchase-lines): Set up frequently used purchase lines to insert them on purchase documents and quickly fill the lines with standard information.
-  - In the observatory: [Page 9308 "Purchase Invoices"](../../../objects/page/9308.md)
+  - In the observatory: [Page 35603 "Vendors (RU)"](../../../objects/page/35603-ru.md), [Page 9308 "Purchase Invoices"](../../../objects/page/9308.md)
 - [Work with blanket sales orders or purchase orders](https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-blanket-sales-orders): Use blanket orders when a customer agrees to buy large quantities that you deliver in small shipments over a period of time.
-  - In the observatory: [Page 516 "Sales Lines"](../../../objects/page/516.md)
+  - In the observatory: [Page 516 "Sales Lines"](../../../objects/page/516.md), [Table 5065 "Interaction Log Entry"](../../../objects/table/5065.md)
 
 ## Videos, posts and code changes
 

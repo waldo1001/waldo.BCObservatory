@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:17.006Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -28,7 +28,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/sales-suggest-sales-lines-with-copilot
     title: Sales line suggestions with Copilot
-    date: "2026-10-02"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -97,7 +97,7 @@ Start with the main page to understand what the feature does and how matching be
 
 - [FAQ for suggest sales lines with Copilot](https://learn.microsoft.com/dynamics365/business-central/faq-sales-suggest-sales-lines-with-copilot): This FAQ provides information about the AI technology used in Business Central for sales line suggestions.
 - [Sales line suggestions with Copilot](https://learn.microsoft.com/dynamics365/business-central/sales-suggest-sales-lines-with-copilot): Learn how to suggest lines on sales orders with Copilot.
-  - In the observatory: [Page 42 "Sales Order"](../../../objects/page/42.md), [Table 27 "Item"](../../../objects/table/27.md), [Table 5777 "Item Reference"](../../../objects/table/5777.md)
+  - In the observatory: [Table 27 "Item"](../../../objects/table/27.md), [Table 5777 "Item Reference"](../../../objects/table/5777.md)
 
 ## Videos, posts and code changes
 

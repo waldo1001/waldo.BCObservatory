@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -232,6 +232,7 @@ links:
     - change/bcapps/13054
     - change/bcapps/13085
     - change/bcapps/13216
+    - change/bcapps/13243
     - change/bcapps/13248
     - change/bcapps/13310
     - change/bcapps/13403
@@ -396,6 +397,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13054 [FR] Delocalize delayed VAT and SEPA payment-slip integration](../../../../changes/bcapps/13054.md) (code change): "Delayed VAT recognition and percentage validation now run through"
 - [#13085 [Main]- Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.](../../../../changes/bcapps/13085.md) (code change): "VAT Rate Change Conversion codeunit fixes a behavior change"
 - [#13216 Fix VAT adjustment register](../../../../changes/bcapps/13216.md) (code change): "Fix VAT adjustment register. Fixes how the VAT adjustment register is handled"
+- [#13243 [main] Wrong Financial entries in Import Duty GST Calculation](../../../../changes/bcapps/13243.md) (code change): "Fixed incorrect GST and import duty financial entries when invoicing"
 - [#13248 [29.X]Non-Deductible Reverse-Charge VAT Correction Is Posted to Purchase VAT Account Instead of Payment Discount Account.](../../../../changes/bcapps/13248.md) (code change): "Non-deductible reverse-charge VAT correction is fixed to post to"
 - [#13310 [Master]-Reverse Charge VAT with 100% Non-Deductible VAT Posts Incorrectly in Foreign Currency Transactions.](../../../../changes/bcapps/13310.md) (code change): "reverse charge VAT with 100% non-deductible VAT in foreign currency"
 - [#13403 Bug 657097: [master] Suggest Lines fails with a duplicate ECSL VAT Report Line Relation record in GB environment](../../../../changes/bcapps/13403.md) (code change): "EC Sales List Suggest Lines in GB environment to process each VAT entry"

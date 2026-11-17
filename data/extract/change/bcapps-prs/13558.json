@@ -6,15 +6,14 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "The Fabric app now automatically exports logging tables during installation and upgrade to ensure the Tenant Fabric Export Details and Fabric Platform Export Summary tables are included in the export process.",
+  "summary": "The Microsoft Fabric Mirroring app now exports its two log tables, Tenant Fabric Export Details and Fabric Platform Export Summary, automatically. Previously they were left out. The install and upgrade codeunits were changed to set this up for new and existing installations.",
   "key_points": [
-    "Logging tables are now exported automatically during Fabric app installation and upgrade",
-    "Affects Tenant Fabric Export Details and Fabric Platform Export Summary tables",
-    "Platform management codeunit enhanced with table export logic",
-    "Table validation codeunit updated to handle logging table management",
-    "Related installation and upgrade codeunits include new export handling"
+    "Fixes the two Fabric log tables not being exported automatically",
+    "Affects Tenant Fabric Export Details and Fabric Platform Export Summary",
+    "Changes the Fabric Install and Fabric Upgrade codeunits, Fabric Platform Mgt, Fabric Table Validation and the Fabric Platform Tables page",
+    "Updates the existing tests to match"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

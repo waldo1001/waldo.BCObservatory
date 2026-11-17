@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -334,6 +334,7 @@ links:
   posts:
     - post/aardvarklabs-blog/2017
     - post/aardvarklabs-blog/2565
+    - post/aardvarklabs-blog/2812
     - post/aardvarklabs-blog/4082
     - post/demiliani-com/11962
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9
@@ -372,7 +373,7 @@ coverage:
   learn: 261
   code: 1
   video: 2
-  blog: 13
+  blog: 14
   guideline: 0
 bc_forms:
   - 812
@@ -459,6 +460,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields](../../../../changes/bcquality/253.md) (code change): "New knowledge article documents how to use AddLoadFields on API pages to prevent JIT loading failures"
 - [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "create Query objects configured as APIs in Business Central"
 - [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "migrate to Business Central API 2.0, create custom 2.0 APIs"
+- [Advanced JSON Management for Business Central Developers](../../../../posts/aardvarklabs-blog/2812.md) (community post): "Codeunit 5459 JSON Management provides a comprehensive toolset for reading, writing, and converting JSON"
 - [Business Central’s New API Overview: A Modern Replacement for Web Services](../../../../posts/aardvarklabs-blog/4082.md) (community post): "Business Central's new API Overview page provides a modern, unified interface to discover all API pages"
 - [Dynamics 365 Business Central: compressing API responses at max.](../../../../posts/demiliani-com/11962.md) (community post): "Brotli compression instead of gzip to reduce the size of OData API responses"
 - [D365 Business Central: How to Fix Missing Sales Invoices in the API](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) (community post): "The Sales Invoices API in Business Central aggregates posted and unposted invoices"

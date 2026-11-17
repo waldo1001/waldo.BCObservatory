@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:10.672Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,77 +21,77 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing
     title: Combine Automatic and Manual Flushing
-    date: "2026-05-19"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-firm-planned-production-order-change
-    title: Create a firm planned production order and change it
-    date: "2026-05-19"
+    title: Create a Firm Planned Production Order and Change It
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-production-bom-version
     title: Create a New Production BOM and BOM Version
-    date: "2022-04-01"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-routing
-    title: Create a New Routing
-    date: "2022-04-01"
+    title: Create a New Production Routing
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro
     title: Introduction to Contoso Coffee Manufacturing
-    date: "2026-07-16"
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/variants
+    title: Plan Production for Item Variants
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-process-subcontracting-operation
-    title: Set up and process a subcontracting operation
-    date: "2026-10-16"
+    title: Set Up and Process a Subcontracting Operation
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-new-capacity
-    title: Set Up New Capacity
-    date: "2022-04-01"
+    title: Set Up New Manufacturing Capacity
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges
-    title: Set up subcontracting prices and allocate item charges
-    date: "2026-10-19"
+    title: Set Up Subcontracting Prices and Allocate Item Charges
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods
-    title: Use different component supply methods in subcontracting
-    date: "2026-10-16"
+    title: Use Different Component Supply Methods in Subcontracting
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/order-planning-create-reserve-supply
     title: Use Order Planning to Create and Reserve Supply
-    date: "2022-04-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/variants
-    title: Variants
-    date: "2025-09-11"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -102,12 +102,12 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-production-bom-version
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-routing
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro
+    - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/variants
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-process-subcontracting-operation
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-new-capacity
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods
     - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/order-planning-create-reserve-supply
-    - https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/variants
   objects:
     - object/page/4765
   features: []
@@ -169,24 +169,24 @@ Subcontracting has its own group of pages: setting up and processing a subcontra
 
 ## Learn pages
 
-- [Combine Automatic and Manual Flushing](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing): Walkthrough for a production planner at Contoso Coffee, who wants to combine automatic and manual flushing.
+- [Combine Automatic and Manual Flushing](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing): Use Contoso Coffee manufacturing demo data to combine automatic and manual component consumption and operation output in Business Central.
   - In the observatory: [Page 38 "Item Ledger Entries"](../../../../../objects/page/38.md), [Page 5832 "Capacity Ledger Entries"](../../../../../objects/page/5832.md), [Page 99000823 "Output Journal"](../../../../../objects/page/99000823.md), [Page 99000831 "Released Production Order"](../../../../../objects/page/99000831.md), [Page 99000846 "Consumption Journal"](../../../../../objects/page/99000846.md)
-- [Create a firm planned production order and change it](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-firm-planned-production-order-change): Walkthrough for a production planner at Contoso Coffee who wants to create a firm planned production order and then modify it.
+- [Create a Firm Planned Production Order and Change It](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-firm-planned-production-order-change): Walkthrough for a production planner at Contoso Coffee who wants to create a firm planned production order and then modify it.
   - In the observatory: [Page 99000786 "Production BOM"](../../../../../objects/page/99000786.md)
-- [Create a New Production BOM and BOM Version](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-production-bom-version): Walkthrough to learn how to add another coffee maker to Contoso Coffee's product line in Business Central.
+- [Create a New Production BOM and BOM Version](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-production-bom-version): Learn how to use Contoso Coffee demo data to create a production bill of materials and a BOM version for the Airpot Lite in Business Central.
   - In the observatory: [Page 99000800 "Prod. BOM Version List"](../../../../../objects/page/99000800.md)
-- [Create a New Routing](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-routing): Walkthrough to learn how to enter all of the information for a new routing manually in Business Central.
+- [Create a New Production Routing](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-routing): Learn how to use Contoso Coffee demo data to manually create a production routing with two work center operations in Business Central.
 - [Introduction to Contoso Coffee Manufacturing](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro): Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the manufacturing capabilities in Business Central.
-- [Set up and process a subcontracting operation](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-process-subcontracting-operation): Walkthrough to learn how to set up and process a subcontracting operation with component transfers, work-in-progress tracking, and returns in Business Central.
+- [Plan Production for Item Variants](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/variants): Learn how to use Contoso Coffee demo data to assign variant-specific production BOMs and plan supply from demand forecasts in Business Central.
+- [Set Up and Process a Subcontracting Operation](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-process-subcontracting-operation): Walkthrough to learn how to set up and process a subcontracting operation with component transfers, work-in-progress tracking, and returns in Business Central.
   - In the observatory: [Page 9326 "Released Production Orders"](../../../../../objects/page/9326.md), [Page 99000768 "Manufacturing Setup"](../../../../../objects/page/99000768.md)
-- [Set Up New Capacity](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-new-capacity): Walkthrough to learn how to set up a new work center with a capacity calendar for a single shift in Business Central.
+- [Set Up New Manufacturing Capacity](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-new-capacity): Learn how to use Contoso Coffee demo data to set up a work center, a machine center, and a single-shift capacity calendar in Business Central.
   - In the observatory: [Page 99000770 "Machine Center Calendar"](../../../../../objects/page/99000770.md)
-- [Set up subcontracting prices and allocate item charges](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges): Walkthrough to learn how to set up subcontracting price lists and allocate extra costs using item charges in Business Central.
+- [Set Up Subcontracting Prices and Allocate Item Charges](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges): Walkthrough to learn how to set up subcontracting price lists and allocate extra costs using item charges in Business Central.
   - In the observatory: [Page 20500 "Subcontractor Prices"](../../../../../objects/page/20500.md), [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md), [Page 9326 "Released Production Orders"](../../../../../objects/page/9326.md)
-- [Use different component supply methods in subcontracting](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods): Walkthrough to learn how the three component supply methods work in subcontracting and how they affect planning in Business Central.
-- [Use Order Planning to Create and Reserve Supply](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/order-planning-create-reserve-supply): Walkthrough to learn how to use order planning to create the required production order for the supply in Business Central.
+- [Use Different Component Supply Methods in Subcontracting](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods): Walkthrough to learn how the three component supply methods work in subcontracting and how they affect planning in Business Central.
+- [Use Order Planning to Create and Reserve Supply](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/order-planning-create-reserve-supply): Learn how to use Contoso Coffee demo data and order planning to create and reserve subassembly supply for a production order in Business Central.
   - In the observatory: [Page 5522 "Order Planning"](../../../../../objects/page/5522.md), [Page 99000831 "Released Production Order"](../../../../../objects/page/99000831.md)
-- [Variants](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/variants): Learn how to update a demand forecast for each variant of a product in Business Central.
 
 ## Videos, posts and code changes
 

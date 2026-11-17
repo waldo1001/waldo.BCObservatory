@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/finance/manage-payables
 type: topic
 title: Manage payables
-summary: Manage payables in Business Central covers vendor payments, reconciliation, vendor blocking and disputes, payment tolerances, item charges, and payables analytics. It also holds related receivables topics such as collections, SEPA Direct Debit, and late payment prediction. Use it for how-to and setup questions on paying vendors and tracking what you owe.
+summary: Manage payables in Business Central covers paying vendors, applying and reconciling payments, blocking vendors, handling disputes, tolerances, item charges, SEPA Direct Debit, collections, and payables analytics. It answers how-to and setup questions for accounts payable work.
 tier: official
 language: en
 system: purchasing
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 73fe99260f5e9d21845d6253fcea4cbe05e508975f16075546cee4cdb88c1629
+  input_hash: 4609056b2fcbbe691cff80f0a7c7e3396766865d81a431ac0a3d82c20bf3784f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-reports
@@ -35,7 +35,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-collect-outstanding-balances
     title: Collect outstanding balances
-    date: "2024-08-26"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -112,14 +112,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts
     title: Reconcile bank accounts and apply payments
-    date: "2024-07-25"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-auto-application
     title: Reconcile payments using automatic application
-    date: "2024-06-03"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -140,7 +140,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-review-apply-payments-auto-application
     title: Review and apply payments manually after automatic application
-    date: "2026-09-07"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -154,7 +154,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation
     title: Setting up Text-to-Account mapping for recurring payments
-    date: "2024-03-06"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -182,7 +182,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-how-reconcile-payments-cannot-apply-auto
     title: Using the transfer difference to account feature to reconcile payments
-    date: "2024-07-08"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -469,28 +469,28 @@ narrative: generated
 
 # Manage payables
 
-> Manage payables in Business Central covers vendor payments, reconciliation, vendor blocking and disputes, payment tolerances, item charges, and payables analytics. It also holds related receivables topics such as collections, SEPA Direct Debit, and late payment prediction. Use it for how-to and setup questions on paying vendors and tracking what you owe.
+> Manage payables in Business Central covers paying vendors, applying and reconciling payments, blocking vendors, handling disputes, tolerances, item charges, SEPA Direct Debit, collections, and payables analytics. It answers how-to and setup questions for accounts payable work.
 
 Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage payables · tier official · system purchasing · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is about the accounts payable cycle: tracking what you owe vendors, paying them, and matching payments to invoices. The overview page lists the main tasks: payment journals, check preparation, bank file export, automatic and manual payment application, and item charges. Two subtopics go deeper: Make payments (journals, suggested payments, checks, bank files) and Apply payments automatically and reconcile bank accounts (bank statement import, matching, unmatched amounts).
+This section groups the tasks around what you owe vendors and how payments are settled. It also includes some receivables topics, such as collecting balances, predicting late payments and SEPA Direct Debit. The overview page, "Overview of tasks to manage accounts payable", lists the main flows: payment generation, check preparation, bank file export, automatic and manual payment application, and item charges.
 
-Standalone pages cover supporting topics. Vendor control pages explain how to block vendors and how to put ledger entries on hold during disputes. Other pages cover applying and unapplying vendor payments and refunds, payment tolerance and payment discount tolerance, item charges for extra trade costs, and payables analytics with Power BI and Data Analysis.
+Two subtopics go deeper. "Make payments" covers payment journals, suggesting payments, checks, bank file export and immediate settlement. "Apply payments automatically and reconcile bank accounts" covers the Payment Reconciliation Journal and matching bank statement lines to open entries.
 
-Some pages cover the customer side: collecting balances, SEPA Direct Debit, late payment prediction, and netting balances for a company that is both customer and vendor. Start with the overview page, then go to Make payments for the payment process, or to the reconciliation subtopic for bank matching.
+Standalone pages cover specific needs. They include blocking vendors, vendor payment disputes (On Hold), payment tolerances, applying or unapplying vendor payments, consolidating a company that is both customer and vendor, item charges for landed cost, and analytics with Power BI. Start with the overview page, then go to the subtopic that matches your task.
 
 ## Key points
 
-- Make payments covers payment journals, suggested payments, printing and voiding checks, and bank file export (SEPA, AMC Banking 365, positive pay).
-- Payment reconciliation imports bank statements or feeds and applies payments automatically, with match confidence, Text-to-Account mapping, and manual review of unmatched items.
-- Vendors can be blocked so they cannot be selected on purchase documents or receive payments, for example for insolvency or disputes.
-- Ledger entries can be set On Hold for disputes, which excludes them from Suggest Vendor Payments; a Payments on Hold report is available.
-- Payment tolerance and payment discount tolerance can be set by percentage and amount, per currency, with a grace period and blocking per customer or vendor.
-- Vendor payments and refunds can be applied to invoices and credit memos, including partial and multi-currency application, and erroneous applications can be unapplied.
-- Item charges assign freight, insurance, and customs costs to documents to get landed cost and accurate inventory valuation.
-- Payables analytics uses Power BI, Data Analysis, Aged Payables and Vendor Ledger reports, and the Payment Practice page.
+- Payment journals record vendor payments and refunds. Related tasks include suggesting payments, printing and voiding checks, and exporting bank files (SEPA, AMC Banking 365, positive pay).
+- The Payment Reconciliation Journal matches bank statement lines to open customer, vendor and bank ledger entries. You can correct matches manually, map recurring text to accounts, and transfer unapplied differences to an account.
+- Vendor payments and refunds can be applied to invoices and credit memos, including partial and multi-currency applications. Wrong applications can be unapplied.
+- Blocking a vendor stops it from being selected on purchase documents or receiving payments. Setting ledger entries On Hold excludes them from Suggest Vendor Payments, and the Payments on Hold report shows them.
+- Payment tolerance and payment discount tolerance let invoices close with small differences or late discounts. Both can be set by percentage and amount, per currency, and blocked per customer or vendor.
+- Item charges assign freight, insurance and customs duties to purchase or sales documents. This supports landed cost and inventory valuation.
+- A company that is both customer and vendor can have balances netted by linking the two through a contact.
+- Analytics options include Power BI, Data Analysis, Aged Payables and Vendor Ledger reports, and the Payment Practice page. Receivables topics include statements, reminders, finance charge memos, Late Payment Prediction and SEPA Direct Debit (EURO).
 
 ## Subtopics
 
@@ -504,7 +504,7 @@ Some pages cover the customer side: collecting balances, SEPA Direct Debit, late
 - [Block vendors](https://learn.microsoft.com/dynamics365/business-central/payables-how-block-vendors): Read about how to block vendors from being included in any transactions, or just how to block new payments to them.
   - In the observatory: [Page 35603 "Vendors (RU)"](../../../../objects/page/35603-ru.md)
 - [Collect outstanding balances](https://learn.microsoft.com/dynamics365/business-central/receivables-collect-outstanding-balances): Learn how to remind your customers of outstanding payments. Send a customer statement, issue a reminder, or send a finance charge memo.
-  - In the observatory: [Page 444 "Reminder/Fin. Charge Entries"](../../../../objects/page/444.md)
+  - In the observatory: [Page 110 "Customer Posting Groups"](../../../../objects/page/110.md), [Page 36954 "Customers"](../../../../objects/page/36954.md), [Page 444 "Reminder/Fin. Charge Entries"](../../../../objects/page/444.md), [Report 153 "Customer Statement"](../../../../objects/report/153.md)
 - [Consolidate Balances for a Company that is a Customer and a Vendor](https://learn.microsoft.com/dynamics365/business-central/finance-consolidate-customer-vendor-balances): Describes how to consolidate balances for a customer that is also a vendor.
   - In the observatory: [Page 256 "Payment Journal"](../../../../objects/page/256.md), [Page 26 "Vendor Card"](../../../../objects/page/26.md), [Page 5094 "Marketing Setup"](../../../../objects/page/5094.md)
 - [Handle vendor payment disputes](https://learn.microsoft.com/dynamics365/business-central/payables-how-handling-payment-disputes): Learn how to handle vendor payment disputes.

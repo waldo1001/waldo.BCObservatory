@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:03.756Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,14 +21,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-sync-master-data
     title: Manage master data synchronization
-    date: "2025-02-26"
+    date: "2026-09-26"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-set-up-data-sync
     title: Set up companies to synchronize master data
-    date: "2025-06-10"
+    date: "2026-09-28"
     commit: null
     t: null
     quote: null

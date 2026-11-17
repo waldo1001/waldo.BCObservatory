@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -324,7 +324,6 @@ links:
     - topic/dev-itpro/development/extensibility/embedding-power-bi
   localizations: []
   videos:
-    - video/6SyNNeHQDUo
     - video/uxYuoJP-uH8
   posts:
     - post/miljan-rs/866
@@ -354,7 +353,7 @@ children:
 coverage:
   learn: 42
   code: 9
-  video: 2
+  video: 1
   blog: 4
   guideline: 0
 bc_forms:
@@ -425,7 +424,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [BC Friday Tips #75 Dynamics BC Excel Reports](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212.md) (community post): "Excel Reports objects in Business Central belong to the Dynamics BC Excel Reports extension"
 - [Dynamics 365 Business Central: How to quickly check whether the table is a system table in AL](../../../posts/yzhums-com/53887.md) (community post): "how to check if a table is a system table using the IsSystemTable procedure"
 - [Dynamics 365 Business Central: How to add Filter by item attributes to the Item Ledger Entries page](../../../posts/yzhums-com/74458.md) (community post): "extend the Item Ledger Entries page to include filtering by item attributes"
-- [What's New: Co-Development Initiative (2024 release wave 2)](../../../videos/6SyNNeHQDUo.md) (video): "co-development; community contributions; github collaboration; platform extensibility"
 - [Let's pass MB-820: Episode 19 - Extend ApplicationArea with custom areas](../../../videos/uxYuoJP-uH8.md) (video): "Application Area extension; Enable custom area function; Application area validation"
 
 ## Business Central pages and reports

@@ -11,7 +11,7 @@ review:
   at: "2026-11-16T01:00:02.005Z"
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,13 +21,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis
     title: ABC Analysis (Power BI Report)
     date: "2026-05-26"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-915
-    title: About Assemble to order - Sales (report)
-    date: "2024-10-23"
     commit: null
     t: null
     quote: null
@@ -63,13 +56,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/production-about-production-orders
     title: About production orders
     date: "2026-06-02"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-811
-    title: About the BOM - Sub-Assemblies (report)
-    date: "2024-10-23"
     commit: null
     t: null
     quote: null
@@ -139,7 +125,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-reports
     title: Accounts receivable analytics
-    date: "2026-09-18"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -160,7 +146,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget
     title: Actual vs. Budget Power BI Report
-    date: "2026-11-12"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -294,6 +280,20 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz
     title: Advance Payments Localization for Czech (Extension)
     date: "2026-10-08"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz
+    title: Advanced Localization Pack for Czech (Extension) [CZ]
+    date: "2026-10-08"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4403
+    title: Aged Accounts Payable (Excel Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null

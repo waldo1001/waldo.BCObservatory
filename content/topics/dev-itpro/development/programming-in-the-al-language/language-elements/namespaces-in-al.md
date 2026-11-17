@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:23.659Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,7 +45,6 @@ links:
     - video/KmuTVkodRXM
   posts:
     - post/aardvarklabs-blog/3255
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-21-27-2026--a323467e2a
     - post/yzhums-com/68087
     - post/yzhums-com/70588
     - post/yzhums-com/71262
@@ -63,7 +62,7 @@ coverage:
   learn: 2
   code: 0
   video: 1
-  blog: 6
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: f4f9f021b50d52006b83b0a058e00599e1c04b536d7c283a84d69050106c3516
@@ -105,7 +104,6 @@ Start with "Namespaces in AL" for the concepts and scoping rules. Then read "Ado
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Navigating Namespace Changes in Business Central 28](../../../../../posts/aardvarklabs-blog/3255.md) (community post): "Fully qualified names enable direct object reference without using statements"
-- [Weekly Review: Business Central AL Development – June 21–27, 2026](../../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-21-27-2026--a323467e2a.md) (community post): "Moving older AL apps to namespaces improves object clarity, reduces naming friction"
 - [Business Central 2025 wave 2 (BC27): New field “AL Namespace” has been added to object metadata record (AllObj, AllObjWithCaption, Page Metadata, Report Metadata, and Codeunit Metadata)](../../../../../posts/yzhums-com/68087.md) (community post): "new AL Namespace field in object metadata tables"
 - [Dynamics 365 Business Central: Where to find all standard AL namespaces? (Download all AL namespaces)](../../../../../posts/yzhums-com/70588.md) (community post): "Namespaces organize code into logical groups and prevent naming conflicts"
 - [Business Central 2026 release wave 1 (BC28): Run AL objects and open record references using fully qualified names (Support for namespaces and fully qualified names)](../../../../../posts/yzhums-com/71262.md) (community post): "support for namespaces and fully qualified names in AL, allowing developers to run"

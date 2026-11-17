@@ -1,0 +1,25 @@
+{
+  "week": "2026-W47",
+  "input_hash": "96e2ea1de1a83d125a2ec0dc2af884949c83e205e7959bef7ee04845d960ea00",
+  "text": "The one breaking change is #14002 in External File Storage, which now rejects any path with a whole segment of \".\" or \"..\" for all operations and connectors, so DeleteDirectory('A/B/..') no longer acts on folder A. Callers passing relative segments now get an error; dots inside names stay valid. #14059 moves the No. Series Copilot to the GPT-5.6 Ceres managed deployment, replacing GPT-4.1, for content provenance compliance. #14007 discontinues Create Product Information with Copilot: install and upgrade code unregister its capability, the Item Substitution Entry page shows a notification pointing to modern search, other objects are marked obsolete pending in 30.0, and the table extension fields move to Removed in 33.0. #13558 makes the Microsoft Fabric Mirroring app export its two log tables automatically, with install and upgrade codeunits changed for new and existing installations. #13868 corrects the sign on the Czech VAT Statement report with the Opposite Sign option. #13807 shows Total Number of Supplies in the German VAT Report as a whole number. #13717 stops one vendor's missing email from clearing another vendor's Document No. in electronic payments export. #13243 fixes GST and import duty entries for partially received purchase orders from Import and SEZ vendors. #14118 is a refactor of the Indexes List Part page with no behaviour change.",
+  "changes": 9,
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.017938,
+  "at": "2026-11-17T00:16:35.786Z",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-17T00:59:15.227Z",
+    "verdict": "fix",
+    "issues": [
+      "Every claim matches the week's pull requests: all 9 numbers are correct, and the only breaking change is #14002, which is the one flagged as breaking.",
+      "The paragraph is about 230 words, which is over the 220-word limit. I shortened it by tightening the #14002 sentences and removing the two linking sentences ('Other behaviour changes concern Copilot and Fabric.' and 'Localization and finance fixes follow.'). The facts are unchanged."
+    ],
+    "input_hash": "96e2ea1de1a83d125a2ec0dc2af884949c83e205e7959bef7ee04845d960ea00",
+    "cost_usd": 0.090284,
+    "applied": [
+      "text"
+    ],
+    "rejected_edits": []
+  }
+}

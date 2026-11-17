@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/sales/subscription-billing/sales
 type: topic
 title: Sales
-summary: "Sales in Subscription billing covers selling subscription lines to customers in Business Central: sales quotes and orders with subscription lines, price calculation, foreign currency handling, and credit memos or cancellations. It answers how-to questions on these sales-side tasks."
+summary: Sales in Subscription billing covers how subscription lines are sold and maintained on the customer side. It answers questions about sales quotes, orders and blanket orders with subscription packages, price calculation, foreign currency subscriptions, and credit memos or cancellation of billed contracts.
 tier: official
 language: en
 system: sales
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:25:39.861Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 233dc746d201f53533a4856d4efa9f53538db475646a6a1fc3a044269a9be824
+  input_hash: 72d951612b4c516ff29090d9fd7f4438440bb9fdc278a2f37677ce634d5cc525
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/SRB/sales/credit-memo-cancellation
@@ -42,7 +42,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/SRB/sales/sales-service-commitments
     title: Sales with subscription lines
-    date: "2026-02-06"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -83,28 +83,28 @@ narrative: generated
 
 # Sales
 
-> Sales in Subscription billing covers selling subscription lines to customers in Business Central: sales quotes and orders with subscription lines, price calculation, foreign currency handling, and credit memos or cancellations. It answers how-to questions on these sales-side tasks.
+> Sales in Subscription billing covers how subscription lines are sold and maintained on the customer side. It answers questions about sales quotes, orders and blanket orders with subscription packages, price calculation, foreign currency subscriptions, and credit memos or cancellation of billed contracts.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Subscription billing](../subscription-billing.md) > Sales · tier official · system sales · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Subscription billing](../subscription-billing.md) > Sales · tier official · system sales · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes the sales side of subscription billing. A sales quote or order records a monetary agreement with a customer and can carry recurring billing subscription lines. When the lines are shipped, they transfer to subscriptions.
+This section describes the sales side of subscription billing in Business Central. Subscription lines are assigned to sales documents (quotes, orders and blanket orders) through subscription packages. They are printed and billed on a recurring basis. The pages explain how the start date of a subscription line and the cancellation period are calculated.
 
-The other pages cover topics around that flow: how the price of a subscription line is determined from a calculation base amount and percentage, how subscriptions in foreign currencies are converted and updated, and how to correct billing with credit memos or by deleting unposted invoices.
+Supporting pages cover pricing, currency and corrections. Price calculation uses a calculation base amount and a percentage, with options for item price, document price, or document price with discount. Foreign currency pages explain currency codes, amount conversion and exchange rate updates. The credit memo page explains how to correct billed contract lines.
 
-Start with "Sales with subscription lines" to understand the main flow. Then read "Sales price calculation" and "Manage subscriptions in foreign currencies" for pricing and currency details. Use "Credit memos and cancellation" when billing needs correcting.
+Start with "Sales with subscription lines" to understand the basic flow. Then read "Sales price calculation" and "Manage subscriptions in foreign currencies" for pricing details. Use "Credit memos and cancellation" when you must correct or reverse billing.
 
 ## Key points
 
-- Sales quotes or orders can include subscription lines, which transfer to subscriptions when shipped.
-- Subscription lines can be assigned and printed on sales documents; the page also mentions inventory picks, archiving documents and contract renewal.
-- Price calculation uses the Calculation Base Amount and Calculation Base % fields to set the Price field.
-- The base for price calculation can be Item Price, Document Price, or Document Price And Discount.
-- Foreign currency subscriptions use the Currency Code and Amount fields, with conversion by currency factor.
-- The Update exchange rates action refreshes rates on subscription lines, and a job queue can schedule it.
-- The Create Corrective Credit Memo action creates credit memos for subscription billing contracts.
-- Unposted invoices can be deleted, and billing lines and contract lines can be adjusted; deferral release is also covered.
+- Sales quotes, orders and blanket orders can carry subscription lines assigned from subscription packages.
+- Subscription lines can be printed and shipped, and are billed on a recurring basis.
+- The start date of a subscription line and the cancellation period are calculated by the system.
+- Price is based on the Calculation Base Amount and Calculation Base % fields.
+- The price source can be Item Price, Document Price, or Document Price And Discount.
+- Foreign currency subscriptions use a Currency Code field, and the Update exchange rates action can refresh amounts via the currency factor.
+- Exchange rate updates can be scheduled with a job queue.
+- The Create Corrective Credit Memo action creates credit memos, and unposted invoices can be deleted. Billing lines and deferral release are also handled.
 
 ## Learn pages
 

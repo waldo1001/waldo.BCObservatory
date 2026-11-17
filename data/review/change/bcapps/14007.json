@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/14007",
+  "input_hash": "bc2ca9f54306956cf41d8abdd29b8645859c16033a33d1861fc29ee8749013c1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-17T00:58:47.718Z",
+  "issues": [
+    "The summary and key point 4 are wrong to say most objects move from Pending in 30.0 to Removed in 33.0. Code objects are only Pending in 30.0 under CLEAN30. Only the Item Subst. Suggestion table extension fields go from Pending to Removed in 33.0.",
+    "The page leaves out that the install codeunit also unregisters the capability, and that the capability enum extension is kept."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024681,
+    "changes_in_call": 6
+  }
+}

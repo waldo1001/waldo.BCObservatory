@@ -11,7 +11,7 @@ review:
   at: "2026-11-16T00:59:57.310Z"
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,14 +48,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-accessibility
     title: Accessibility and Keyboard Shortcuts
-    date: "2021-06-23"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
     title: Available Fonts in Business Central
-    date: "2025-02-28"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -69,7 +69,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-bookmarks
     title: Bookmark a Page or Report on Your Role Center
-    date: "2024-07-25"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -118,7 +118,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing
     title: Combine Automatic and Manual Flushing
-    date: "2026-05-19"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -130,23 +130,44 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick
+    title: "Contoso Coffee: Basic Warehouse Flow Walkthrough"
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-directed-flow
+    title: "Contoso Coffee: Directed Warehouse Flow Walkthrough"
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship
+    title: "Contoso Coffee: Mixed Warehouse Flow Walkthrough"
+    date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-firm-planned-production-order-change
-    title: Create a firm planned production order and change it
-    date: "2026-05-19"
+    title: Create a Firm Planned Production Order and Change It
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-production-bom-version
     title: Create a New Production BOM and BOM Version
-    date: "2022-04-01"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-routing
-    title: Create a New Routing
-    date: "2022-04-01"
+    title: Create a New Production Routing
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -258,7 +279,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-get-started-layouts
     title: Get started creating report layouts
-    date: "2026-09-09"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -273,27 +294,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/quality-inspect-subcontracted-output
     title: Inspect subcontracted production operations
     date: "2026-11-04"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro
-    title: Introduction to Contoso Coffee
-    date: "2022-04-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/contoso-coffee-intro
-    title: Introduction to Contoso Coffee Demo Data
-    date: "2023-09-20"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro
-    title: Introduction to Contoso Coffee Manufacturing
-    date: "2026-07-16"
     commit: null
     t: null
     quote: null
@@ -325,8 +325,8 @@ links:
     - object/page/2753
     - object/page/2754
     - object/page/3563
-    - object/page/4764
     - object/page/4765
+    - object/page/4766
     - object/page/5194
     - object/page/7335
     - object/page/7337
@@ -433,8 +433,8 @@ bc_forms:
   - 2753
   - 2754
   - 3563
-  - 4764
   - 4765
+  - 4766
   - 5194
   - 7335
   - 7337
@@ -571,8 +571,8 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 2753 "Universal Print Shares List"](../../objects/page/2753.md) · captioned "Print Shares" · on [Table 2752 "Universal Print Share Buffer"](../../objects/table/2752.md) · via [Get productive in Business Central](get-started/get-productive-in-business-central.md)
 - [Page 2754 "Universal Printer Tray List"](../../objects/page/2754.md) · captioned "Universal Printer Trays" · on [Table 823 "Name/Value Buffer"](../../objects/table/823.md) · via [Get productive in Business Central](get-started/get-productive-in-business-central.md)
 - [Page 3563 "Allowed Languages"](../../objects/page/3563.md) · on [Table 3563 "Allowed Language"](../../objects/table/3563.md) · via [Get productive in Business Central](get-started/get-productive-in-business-central.md)
-- [Page 4764 "Jobs Module Setup"](../../objects/page/4764.md) · captioned "Contoso Coffee Project Demo Data" · on [Table 4771 "Jobs Module Setup"](../../objects/table/4771.md) · via [Learn](get-started/learn.md)
 - [Page 4765 "Manufacturing Module Setup"](../../objects/page/4765.md) · on [Table 4766 "Manufacturing Module Setup"](../../objects/table/4766.md) · via [Learn](get-started/learn.md)
+- [Page 4766 "Warehouse Module Setup"](../../objects/page/4766.md) · on [Table 4764 "Warehouse Module Setup"](../../objects/table/4764.md) · via [Learn](get-started/learn.md)
 - [Page 5194 "Contoso Demo Tool"](../../objects/page/5194.md) · on [Table 5161 "Contoso Demo Data Module"](../../objects/table/5161.md) · via [Learn](get-started/learn.md)
 - [Page 7335 "Warehouse Shipment"](../../objects/page/7335.md) · on [Table 7320 "Warehouse Shipment Header"](../../objects/table/7320.md) · via [Learn](get-started/learn.md)
 - [Page 7337 "Posted Whse. Shipment"](../../objects/page/7337.md) · on [Table 7322 "Posted Whse. Shipment Header"](../../objects/table/7322.md) · via [Learn](get-started/learn.md)

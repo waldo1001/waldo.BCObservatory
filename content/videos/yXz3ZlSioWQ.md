@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:57:04.819Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-17T00:54:59.443Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -96,7 +96,7 @@ links:
   guidelines: []
   related:
     - to: https://learn.microsoft.com/dynamics365/business-central/reports/report-5603
-      title: Fixed Asset Register (report)
+      title: Fixed Asset Register Entries (report)
       label: possibly related
       why: names Report 5603 "Fixed Asset Register"
       by: code
@@ -285,5 +285,5 @@ Not found in BC28-30: report "Fixed Asset Posting Group Net Change", report "Cus
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
-- [Fixed Asset Register (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5603) — possibly related: names Report 5603 "Fixed Asset Register"
+- [Fixed Asset Register Entries (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5603) — possibly related: names Report 5603 "Fixed Asset Register"
 - [Fixed assets reports](https://learn.microsoft.com/dynamics365/business-central/fa-reports) — possibly related: names Report 5603 "Fixed Asset Register"

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -177,8 +177,7 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/language-elements
   localizations: []
-  videos:
-    - video/tzeO0mc8RJo
+  videos: []
   posts: []
   guidelines: []
   changes:
@@ -195,7 +194,7 @@ children: []
 coverage:
   learn: 19
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -259,6 +258,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#186 Add Query filter semantics guidance](../../../../../changes/bcquality/186.md) (code change): "DataItemTableFilter remains active when runtime filters target the same field"
 - [#262 Trim two articles to the 10-keyword limit](../../../../../changes/bcquality/262.md) (code change): "Kept specific technical keywords related to types and properties"
-- [What's New: Developer Tools (2024 release wave 1)](../../../../../videos/tzeO0mc8RJo.md) (video): "Tooltips on tables; Instructional text on fields"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

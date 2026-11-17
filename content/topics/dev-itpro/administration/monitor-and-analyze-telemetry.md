@@ -12,7 +12,7 @@ review:
   at: "2026-10-23T01:12:47.130Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -316,6 +316,7 @@ links:
     - topic/dev-itpro/administration/monitor-and-analyze-telemetry/telemetry-by-area
   localizations: []
   videos:
+    - video/2u5_F9Ztt7U
     - video/7rIHz0zrgWU
     - video/BOY2442wHSc
     - video/F_pssS0FtUc
@@ -346,7 +347,7 @@ children:
 coverage:
   learn: 70
   code: 0
-  video: 7
+  video: 8
   blog: 9
   guideline: 0
 bc_forms: []
@@ -471,6 +472,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [BC Telemetry Buddy – 84 commits later..](../../../posts/waldo-be/318423.md) (community post): "production-ready tool for analyzing Business Central telemetry"
 - [I built the tool .. but forgot the skill..](../../../posts/waldo-be/318571.md) (community post): "BC Telemetry Buddy amplifies the quality of the input, so vague questions get vague but confident answers"
 - [Dynamics 365 Business Central: How to easily check who created an environment, company and record and when](../../../posts/yzhums-com/63913.md) (community post): "Tracking who created environments, companies, and records in Business Central can be done through telemetry"
+- [What's New: Server and Database (2026 release wave 1)](../../../videos/2u5_F9Ztt7U.md) (video): "Telemetry for MCP Configuration and Usage; Client Hardware and Network Telemetry"
 - [What's New: Telemetry (2023 release wave 2)](../../../videos/7rIHz0zrgWU.md) (video): "AI assisted performance analysis; Key influencers analysis; Top segments analysis"
 - [Connect Power BI Telemetry Apps to Read your Business Central Telemetry Data (2023)](../../../videos/BOY2442wHSc.md) (video): "power bi; telemetry; application insights; data connection"
 - [Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data](../../../videos/F_pssS0FtUc.md) (video): "telemetry data; usage analytics; power bi reporting; go-live optimization"

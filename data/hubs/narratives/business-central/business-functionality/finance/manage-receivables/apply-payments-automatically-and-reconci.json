@@ -1,37 +1,24 @@
 {
   "hub_id": "topic/business-central/business-functionality/finance/manage-receivables/apply-payments-automatically-and-reconci",
-  "input_hash": "cea8e8dbca986b6d27f4050960cc6134b3da9a751dfb46696b1f7f59afd533ef",
-  "summary": "Payment reconciliation in Business Central: importing bank statements or bank feeds, automatically applying payments to open customer and vendor entries, setting matching rules, handling recurring payments with Text-to-Account mapping, and resolving leftovers manually. It answers how-to questions about the Payment Reconciliation Journal and bank reconciliation.",
-  "overview": "This section covers how to match bank transactions to open invoices and reconcile bank accounts using the Payment Reconciliation Journal. You import a bank statement or use a bank feed. Business Central then applies payments automatically to open customer and vendor entries, using matching rules and a match confidence level.\n\nTwo pages give the overall process and the automatic application steps. The rules page explains how to set matching criteria, such as document number, related party and amount tolerance, along with priority sorting and confidence levels. The Text-to-Account page covers automatic posting of recurring payments to specified accounts when match confidence is Low or Medium. Two more pages cover what to do when automatic application is not enough. You can review and reapply payments on the Payment Application page, or use Transfer Difference to Account for payments that have no matching document or have amount differences.\n\nStart with \"Reconcile bank accounts and apply payments\" for the overview, then \"Reconcile payments using automatic application\" for the working steps. Read the rules page if matches are wrong or missing.",
+  "input_hash": "cd1f5afba2e75889b55a7b06a6e1ac21f9f02ad79a6446317970375291bab8c2",
+  "summary": "Automatic payment application and bank reconciliation in Business Central's Payment Reconciliation Journal. It answers questions about matching bank statement lines to open customer, vendor, and bank ledger entries, setting matching rules, mapping recurring text to accounts, and fixing matches manually.",
+  "overview": "This section covers how Business Central reconciles bank accounts and applies payments with little manual work. The Payment Reconciliation Journal imports bank statement lines (for example through a bank feed) and matches payment text to open customer or vendor ledger entries. You can review the proposed changes before posting.\n\nThe pages build on each other. Start with the general page on reconciling bank accounts and applying payments, then read the page on automatic application for the matching flow and Match Confidence levels. The rules page explains how matching is governed by related party information, document numbers, and amount tolerance. Text-to-Account mapping handles recurring items such as bank fees and interest, which are posted to an account instead of being applied to open entries.\n\nFor lines that automatic matching gets wrong or cannot match, two pages cover the fallback. The Payment Application page lets you correct matches or split a payment across several open entries. The transfer difference to account feature posts any unapplied amount directly to a chosen account.",
   "key_points": [
-    "Payments are reconciled on the Payment Reconciliation Journal, after a bank statement import or bank feed.",
-    "Automatic application matches payments to open customer and vendor entries and assigns a match confidence.",
-    "Payment application rules set matching criteria: document number, related party, amount tolerance, with priority sorting and confidence levels.",
-    "Text-to-Account mapping posts recurring payments directly to debit and credit accounts when match confidence is Low or Medium.",
-    "The Payment Application page lets you review automatic results and manually apply or reapply payments, including split payments.",
-    "Manual application accounts for currency conversion, payment discounts, and a candidate lookback days parameter.",
-    "Transfer Difference to Account handles payments with no matching document or with amount differences."
+    "The Payment Reconciliation Journal matches bank statement transactions to open customer, vendor, and bank account ledger entries, and you can review the result before posting.",
+    "Bank statement lines can be imported, including through a bank feed, as the starting point for reconciliation.",
+    "Match Confidence levels show how reliable each automatic match is.",
+    "Application rules set priority order and matching criteria: related party, document numbers, and amount tolerance. They also set review requirements.",
+    "Text-to-Account mapping posts recurring payments, such as bank fees and interest, to a specified account without applying them to open entries. A balancing account can be specified.",
+    "On the Payment Application page, use Apply Manually to fix a match or split a payment. Use Accept Application to confirm a match. The page has Applied Amount and Match Confidence fields and a Candidate Lookback (Days) setting.",
+    "Transfer Difference to Account posts an unapplied amount to a chosen account. You set Account Type, Account No., and Description for it."
   ],
   "members_used": 6,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:03:14.652Z",
+  "at": "2026-11-17T01:00:02.241Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.012871
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:22:54.616Z",
-    "verdict": "fix",
-    "issues": [
-      "The overview says the pages build on each other and that the 'last two pages' cover manual review and Transfer Difference to Account. In the page list, the manual review page is third and the Text-to-Account page is fifth, so this ordering claim is wrong and has been removed.",
-      "The overview says Text-to-Account handles recurring payments 'that have no invoice'. The summaries don't say this. They only say it posts recurring payments to specified accounts when match confidence is Low or Medium, so the overview now says that instead.",
-      "Small point: the key point about manual application handling a 'candidate lookback days parameter' is vague but matches the page features, so it stays."
-    ],
-    "input_hash": "cea8e8dbca986b6d27f4050960cc6134b3da9a751dfb46696b1f7f59afd533ef",
-    "cost_usd": 0.0416512
+    "cost_usd": 0.017320000000000002
   }
 }

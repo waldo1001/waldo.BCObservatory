@@ -2,7 +2,7 @@
 id: source/yt-hougaard
 type: source
 title: Erik Hougaard
-summary: "Erik Hougaard (MVP): 22 videos in the knowledge base, 2026-09-21 to 2026-11-09, mostly about reporting, development, sales."
+summary: "Erik Hougaard (MVP): 23 videos in the knowledge base, 2026-09-21 to 2026-11-16, mostly about reporting, development, sales."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T00:19:27.268Z"
+  at: "2026-11-17T00:16:35.786Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 11bee0aafc9afb9f22f3b553387323d9c1efab06e7f5bb0d4189c8b2c198db63
+  input_hash: 3ae17c49a696e86adb9c492cb256cf13ad1bf0f7d7208818fcae9fe395389e86
 evidence:
   - kind: video
     url: https://www.youtube.com/channel/UCcJCTa4PvbOQj50y_HJSxXw
@@ -57,6 +57,7 @@ links:
     - video/cwCZUHgDb9Q
     - video/YBVqwzig8Qc
     - video/aXM5Kuo3DHM
+    - video/C5OdiYfxozc
   posts: []
   guidelines: []
 source_id: yt-hougaard
@@ -65,13 +66,13 @@ url: https://www.youtube.com/channel/UCcJCTa4PvbOQj50y_HJSxXw
 author: Erik Hougaard
 mvp: true
 full_text: false
-item_count: 22
+item_count: 23
 footprint:
   systems:
     - id: reporting
       weight: 10
     - id: development
-      weight: 7
+      weight: 8
     - id: sales
       weight: 2
     - id: administration
@@ -106,6 +107,8 @@ footprint:
       weight: 2
     - id: table customer ledger entries
       weight: 2
+    - id: table customer table
+      weight: 2
     - id: codeunit A_FirePistol
       weight: 1
     - id: codeunit Azure blob storage code units
@@ -124,8 +127,6 @@ footprint:
       weight: 1
     - id: codeunit SharePoint
       weight: 1
-    - id: codeunit SharePoint EFQ
-      weight: 1
   features:
     - id: feature/573315
       weight: 1
@@ -134,12 +135,12 @@ footprint:
     - id: feature/573336
       weight: 1
 first_item: "2026-09-21"
-last_item: "2026-11-09"
+last_item: "2026-11-16"
 ---
 
 # Erik Hougaard
 
-> Erik Hougaard (MVP): 22 videos in the knowledge base, 2026-09-21 to 2026-11-09, mostly about reporting, development, sales.
+> Erik Hougaard (MVP): 23 videos in the knowledge base, 2026-09-21 to 2026-11-16, mostly about reporting, development, sales.
 
 [https://www.youtube.com/channel/UCcJCTa4PvbOQj50y_HJSxXw](https://www.youtube.com/channel/UCcJCTa4PvbOQj50y_HJSxXw) · channel · tier community
 
@@ -148,24 +149,24 @@ last_item: "2026-11-09"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | reporting (10) | advanced spreadsheets (6) | table Customer (2) |
-| development (7) | data visualization (4) | table customer ledger entries (2) |
-| sales (2) | live data (4) | codeunit A_FirePistol (1) |
-| administration (1) | ai agent (3) | codeunit Azure blob storage code units (1) |
-| finance (1) | al development (3) | codeunit codeunits (1) |
-| integration (1) | excel integration (3) | codeunit controller in (1) |
-|  | slicers (3) | codeunit Mermaid diagram codeunits (1) |
-|  | spreadsheets (3) | codeunit P underscore damage M object (1) |
-|  | advanced spreadsheets and reporting (2) | codeunit Quake engine (1) |
-|  | charts (2) | codeunit SFTP code client code unit (1) |
+| development (8) | data visualization (4) | table customer ledger entries (2) |
+| sales (2) | live data (4) | table customer table (2) |
+| administration (1) | ai agent (3) | codeunit A_FirePistol (1) |
+| finance (1) | al development (3) | codeunit Azure blob storage code units (1) |
+| integration (1) | excel integration (3) | codeunit codeunits (1) |
+|  | slicers (3) | codeunit controller in (1) |
+|  | spreadsheets (3) | codeunit Mermaid diagram codeunits (1) |
+|  | advanced spreadsheets and reporting (2) | codeunit P underscore damage M object (1) |
+|  | charts (2) | codeunit Quake engine (1) |
+|  |  | codeunit SFTP code client code unit (1) |
 |  |  | codeunit SharePoint (1) |
-|  |  | codeunit SharePoint EFQ (1) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
 - 2026-Q3: ************** 14
-- 2026-Q4: ******** 8
+- 2026-Q4: ********* 9
 
 ## Roadmap features it demonstrates
 
@@ -175,6 +176,7 @@ Items per quarter, oldest first:
 
 ## Most recent
 
+- [Going Stargazing with the Business Central Observatory](../videos/C5OdiYfxozc.md) (2026-11-16)
 - [FTP, FTPS, SFTP, What's the difference, and what about AL and Business Central](../videos/aXM5Kuo3DHM.md) (2026-11-09)
 - [What probem? I can stop whenever I want! (More Games in AL and Business Central)](../videos/YBVqwzig8Qc.md) (2026-11-02)
 - [Tips and Tricks for Better Pasting with Magic Page for Business Central](../videos/cwCZUHgDb9Q.md) (2026-11-01)
@@ -194,6 +196,5 @@ Items per quarter, oldest first:
 - [Edit G/L Budgets in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)](../videos/WYd8Qn3wVQQ.md) (2026-09-21)
 - [Use an Agent to SQL Query data inside your Spreadsheet with Business Central (Advanced Spreadsheets)](../videos/B9VbZzC2p7E.md) (2026-09-21)
 - [Use FlowFields directly inside your Spreadsheet inside Business Central (Advanced Spreadsheets)](../videos/8D8IFkqeTLU.md) (2026-09-21)
-- [Use Data from a Report inside your Spreadsheet with Business Central (Advanced Spreadsheets)](../videos/6dEZQlmBlyI.md) (2026-09-21)
 
 Source: videos of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

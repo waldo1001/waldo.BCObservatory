@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:48:32.947Z"
   flags: []
 generated:
-  at: "2026-11-16T00:54:58.322Z"
+  at: "2026-11-17T00:54:59.443Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -83,8 +83,6 @@ links:
   learn: []
   objects: []
   features:
-    - feature/573314
-    - feature/573316
     - feature/573320
     - feature/573328
     - feature/576841
@@ -152,13 +150,10 @@ features:
     verified: false
     status_source: video
   - name: Index Usage Insights and Management
-    status: ga
+    status: unclear
     t: 281
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573314"
-      - "573316"
+    status_source: video
   - name: AL Analysis View Definitions in Apps
     status: unclear
     t: 347
@@ -279,7 +274,7 @@ It describes memory work (a new platform codeunit for base64 conversion with str
 | File Support Using MCP Resources | status not stated | [1:28](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=88s) |
 | Reduced Memory Footprint Per Tenant | status not stated | [1:52](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=112s) |
 | Platform Codeunit for Base64 Conversion | status not stated | [2:24](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=144s) |
-| Index Usage Insights and Management | generally available (roadmap [AL developers can turn indexes on/off in AL code.](../features/573314.md), [Administrators can turn SIFT indexes on/off](../features/573316.md)) | [4:41](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=281s) |
+| Index Usage Insights and Management | status not stated | [4:41](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=281s) |
 | AL Analysis View Definitions in Apps | status not stated | [5:47](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=347s) |
 | Word Add-in for Document Reports Enhancement | generally available (roadmap [Design document reports with the updated Word add-in](../features/573328.md)) | [6:44](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=404s) |
 | Layout Lifecycle Control for Report Layouts | generally available (roadmap [Control the lifecycle of all report layouts](../features/573320.md)) | [7:29](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=449s) |

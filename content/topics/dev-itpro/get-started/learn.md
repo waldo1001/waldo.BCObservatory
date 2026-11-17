@@ -11,7 +11,7 @@ review:
   at: "2026-10-30T08:08:55.543Z"
   flags: []
 generated:
-  at: "2026-10-30T08:09:06.421Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,7 +41,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/contoso-coffee-intro
     title: Introduction to Contoso Coffee Demo Data
-    date: "2023-09-20"
+    date: "2026-11-12"
     commit: null
     t: null
     quote: null
@@ -152,7 +152,7 @@ Partners have two pages: Resources for partners, which gathers links on releases
 - [Application design details](https://learn.microsoft.com/dynamics365/business-central/design-details-application-design): This content contains detailed technical information about complex application features in Business Central.
 - [Business functionality supported by Business Central](https://learn.microsoft.com/dynamics365/business-central/across-business-functionality): Provides a feature overview of all the business functions and departments supported by application areas, such as finance, inventory, and project management.
 - [Business Process Walkthroughs](https://learn.microsoft.com/dynamics365/business-central/walkthrough-business-process-walkthroughs): This selection of walkthroughs provides step-by-step, end-to-end business processes that you can perform using the CRONUS demonstration company.
-- [Introduction to Contoso Coffee Demo Data](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/contoso-coffee-intro): Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the capabilities in Business Central.
+- [Introduction to Contoso Coffee Demo Data](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/contoso-coffee-intro): Use Contoso Coffee demo data to explore manufacturing, warehousing, service, projects, and Expense Agent scenarios in Dynamics 365 Business Central.
 - [Resources for partners](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go): Resources for partners contain a set of resources, services, and tools to support Microsoft Dynamics 365 Business Central.
 - [Viva Engage for Dynamics 365 Business Central Partners](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-viva-engage-partners): Viva Engage for Dynamics 365 Business Central Partners provides a set of resources, services, and tools to support Microsoft Dynamics 365 Business Central.
 

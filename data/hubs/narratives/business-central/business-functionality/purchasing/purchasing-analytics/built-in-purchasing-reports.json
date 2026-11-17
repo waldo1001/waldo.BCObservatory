@@ -1,39 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/purchasing/purchasing-analytics/built-in-purchasing-reports",
-  "input_hash": "ce0beb3a888a682044fcfca236fc851786a0fd588fccb08480d8ce24de104a6e",
-  "summary": "Built-in purchasing reports in Business Central cover aged payables, vendor balances and trial balances, vendor ledger day books, open purchase orders, purchase history and statistics, item/vendor catalogs, purchase reservation availability, and document layouts such as purchase orders and e-document invoice previews. Use it to find what each report shows, who uses it, and which report fits a given purchasing or payables question.",
-  "overview": "This section is a set of reference pages, one for each built-in purchasing report or Excel report. It also has an overview page on purchasing reports and analytical tasks, which covers Report Explorer, item availability and purchase date calculation. There are no subtopics. Each report page describes what the report shows and who uses it, such as procurement managers, warehouse teams and controllers.",
+  "input_hash": "7542a156ac9687d15a6e6c8959aa061648ed77bef61a87f86bbc1d20e581d58e",
+  "summary": "Built-in purchasing reports in Business Central: standard reports for vendor balances, aging, purchase orders, vendor purchases, item/vendor catalogs and e-document invoice previews. It answers questions about what each report shows, its filters and options, and who uses it.",
+  "overview": "This section describes the standard reports that ship with the Purchasing area. They fall into a few groups. Vendor balance and ledger reports cover Aged Accounts Payable (Excel), Day Book Vendor Ledger Entry, Vendor - Trial Balance, Vendor - Detail Trial Balance and Vendor - Top List (Excel). Order reports cover Inventory Purchase Orders, Vendor - Order Detail, Vendor - Order Summary and the Standard Purchase Order document. Purchase analysis reports cover Inventory Vendor Purchases, Vendor/Item Purchases and Purchase Statistics by Vendor.",
   "key_points": [
-    "Payables and vendor ranking: Aged Accounts Payables (Excel) groups vendor ledger data into aging buckets and periods, by currency, vendor and due date. Vendor - Top 10 List Excel ranks top vendors by purchases and balance in local currency, and you can set how many vendors it shows.",
-    "Reconciliation: Vendor - Trial Balance shows beginning balance and net change by vendor posting group, to reconcile against general ledger payables accounts. Vendor - Detail Trial Balance shows opening balance, transactions in a period and closing balance, for reconciliation and cash flow analysis.",
-    "Ledger activity: Day Book Vendor Ledger Entry lists vendor transactions in date order, grouped by posting date, for periodic review, audit documentation and checking payables activity.",
-    "Open orders: Inventory Purchase Orders, Vendor - Order Detail and Vendor - Order Summary track outstanding receipts, discounts, back orders and expected receipt dates. The summary report shows quantities not yet received across three 30-day periods.",
-    "Purchase history: Inventory Vendor Purchases (grouped by item) and Vendor/Item Purchases (grouped by vendor) show invoiced quantity, cost and discounts for a date period. Purchase statistics adds payment discounts taken and lost, and payment history.",
-    "Catalogs: Item/vendor catalog and Vendor Item catalog list vendors for selected items or items for selected vendors, with direct unit cost, lead time calculation and vendor item number.",
-    "Documents and previews: Standard Purchase - Order produces formal purchase orders to print or email. E-Doc Sample Purchase Invoice creates a preview PDF from e-document data so you can check the layout before using it in production.",
-    "Availability: Purchase Reservation Availability shows item availability for shipment on purchase documents such as return orders, and lets you update quantities to receive."
+    "Aged Accounts Payable (Excel) ages vendor ledger entries by due, posting or document date, with configurable period length and count, LCY and FCY views, and an option to skip vendors with zero balance.",
+    "Vendor - Trial Balance shows beginning balance, net change and fiscal-year-to-date amounts by vendor posting group. Vendor - Detail Trial Balance adds transaction details with opening and closing balances.",
+    "Vendor - Top List (Excel) ranks vendors by purchase amount or balance (LCY). It uses Quantity, Date Filter and Show parameters, with Print and Analysis worksheets.",
+    "Vendor - Order Detail and Inventory Purchase Orders show outstanding order lines, discounts and expected receipt dates, which helps track back orders. Vendor - Order Summary groups outstanding amounts across three one-month periods from a starting date.",
+    "Inventory Vendor Purchases (grouped by item) and Vendor/Item Purchases (grouped by vendor) show invoiced quantity, cost including item charges, and discounts for a date period.",
+    "Item/vendor catalog and Vendor Item Catalog list vendors for items or items for vendors, with direct unit cost, lead time and vendor item number.",
+    "Standard Purchase Order produces the formal order for print or email, with prepayment handling, order archiving and interaction logging. E-Doc Sample Purchase Invoice creates a preview PDF from e-document data to check layout.",
+    "Purchase Reservation Availability shows item availability on purchase documents such as return orders and can update Qty. to Receive on order lines. It is restricted when warehouse functionality is used."
   ],
   "members_used": 17,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:02:56.850Z",
+  "at": "2026-11-17T01:00:09.637Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.019555
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:17:41.840Z",
-    "verdict": "fix",
-    "issues": [
-      "The Purchase Reservation Availability report is one of the hub's pages, but the narrative leaves it out.",
-      "The overview says the section is only one page per report. It skips the 'Purchasing reports and analytical tasks' overview page, which covers Report Explorer, item availability and purchase date calculation.",
-      "The reconciliation point says both trial balance reports support reconciliation against general ledger payables. Only Vendor - Trial Balance is described that way. Vendor - Detail Trial Balance is described as supporting reconciliation and cash flow analysis.",
-      "To keep 8 key points, the Top 10 point was merged into the payables point so the missing report could be added."
-    ],
-    "input_hash": "ce0beb3a888a682044fcfca236fc851786a0fd588fccb08480d8ce24de104a6e",
-    "cost_usd": 0.0727472
+    "cost_usd": 0.023013
   }
 }

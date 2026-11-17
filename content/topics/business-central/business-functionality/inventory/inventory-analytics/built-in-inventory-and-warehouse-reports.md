@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/inventory/inventory-analytics/built-in-inventory-and-warehouse-reports
 type: topic
 title: Built-in inventory and warehouse reports
-summary: "Built-in inventory and warehouse reports in Business Central: what each report shows, who uses it, and which questions it answers. Covers availability and planning, valuation and costs, sales and purchase analysis, item analysis (ABC, aging, expiration, dimensions), warehouse bin and shipment reports, and barcode/QR label reports."
+summary: "Built-in inventory and warehouse reports in Business Central: availability, valuation, transactions, sales and purchase analysis, item analysis (ABC, age, expiration, dimensions), warehouse bin and shipment reports, and printable barcode/QR labels. Use it to find which report answers a given inventory or warehouse question."
 tier: official
 language: en
 system: inventory
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:16:06.979Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c88d0c722afb934665ec7abc0873a8c28f7f36370a2d561dca33120810158e00
+  input_hash: eb059f2bb012dfc71c00eb3c46e221705a65f057fff2f018d7f12b9de5b836fe
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-719
@@ -28,7 +28,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-704
     title: Inventory - Transaction Detail (report)
-    date: "2024-10-18"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -48,64 +48,64 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-716
-    title: Inventory Cost and price list (report)
-    date: "2024-10-18"
+    title: Inventory Cost and Price List (report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-713
     title: Inventory Customer Sales (report)
-    date: "2024-10-18"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-708
     title: Inventory Order Details (report)
-    date: "2024-10-03"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-813
     title: Inventory Picking List (report)
-    date: "2024-10-03"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-709
     title: Inventory Purchase Orders (report)
-    date: "2024-10-14"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-718
     title: Inventory Sales Back Orders (report)
-    date: "2024-10-03"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-711
     title: Inventory Top 10 List (report)
-    date: "2024-10-18"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1001
-    title: Inventory Valuation (report)
-    date: "2024-10-18"
+    title: Inventory Valuation Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-714
     title: Inventory Vendor Purchases (report)
-    date: "2024-10-14"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -119,35 +119,35 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5808
     title: Item Age Composition by Quantity and Value Excel (report)
-    date: "2024-10-18"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5806
     title: Item Charges - Specification (report)
-    date: "2024-10-18"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-7150
     title: Item Dimensions - Detail (report)
-    date: "2024-10-18"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-7151
     title: Item Dimensions - Total (report)
-    date: "2024-10-18"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5809
     title: Item Expiration - Quantity (report)
-    date: "2024-10-18"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -167,8 +167,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-720
-    title: Item/vendor catalog (report)
-    date: "2024-10-14"
+    title: Item/Vendor Catalog Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -217,21 +217,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-7320
     title: Warehouse Adjustment Bin (report)
-    date: "2024-10-18"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-7319
-    title: Warehouse Bin List (report)
-    date: "2024-10-18"
+    title: Warehouse Bin List Report in Business Central
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-7313
     title: Warehouse Shipment Status (report)
-    date: "2024-10-18"
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -371,64 +371,65 @@ narrative: generated
 
 # Built-in inventory and warehouse reports
 
-> Built-in inventory and warehouse reports in Business Central: what each report shows, who uses it, and which questions it answers. Covers availability and planning, valuation and costs, sales and purchase analysis, item analysis (ABC, aging, expiration, dimensions), warehouse bin and shipment reports, and barcode/QR label reports.
+> Built-in inventory and warehouse reports in Business Central: availability, valuation, transactions, sales and purchase analysis, item analysis (ABC, age, expiration, dimensions), warehouse bin and shipment reports, and printable barcode/QR labels. Use it to find which report answers a given inventory or warehouse question.
 
-Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Built-in inventory and warehouse reports · tier official · system inventory · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Built-in inventory and warehouse reports · tier official · system inventory · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is a catalog of standard reports for inventory and warehouse work. Each page describes one report: its purpose, the data it shows, and the roles that benefit from it. There are no subtopics. An overview page introduces inventory and warehouse reporting and the label printing options.
+This section is a catalog of standard reports for inventory and warehouse work. The landing page, Inventory and Warehouse Reports and Analytics, introduces reporting on current and past activity, including barcode printing. The other pages each describe one report, what it shows and who uses it.
 
-The reports fall into groups. Availability and planning: Inventory Availability, Inventory - Availability Plan Excel, Planning Availability, and Production Forecast. Valuation and cost: Inventory Valuation, Status, Inventory Cost and price list, and Item Charges - Specification. Sales and purchase analysis: Customer Sales, Order Details, Picking List, Purchase Orders, Sales Back Orders, Top 10 List, and Vendor Purchases. Item analysis: ABC Analysis, Item Age Composition, Item Expiration - Quantity, Item Dimensions (Detail and Total), Item Substitutions, and Item/vendor catalog. Warehouse: Adjustment Bin, Bin List, and Warehouse Shipment Status. Label reports: Item GTIN, Lot No, Reference No., and SN.
+The reports fall into groups. Availability and planning: Inventory Availability, Availability Plan Excel, Planning Availability, Production Forecast. Valuation and cost: Inventory Valuation, Status, Cost and price list, Item Charges - Specification, Transaction Detail. Sales and purchase analysis: Customer Sales, Order Details, Sales Back Orders, Top 10 List, Vendor Purchases, Purchase Orders, Item/vendor catalog. Item analysis: ABC Analysis, Item Age Composition, Item Expiration - Quantity, Item Substitutions, Item Dimensions Detail and Total. Warehouse: Picking List, Adjustment Bin, Bin List, Warehouse Shipment Status. Label reports: Item GTIN, Lot No, Reference No. and SN labels.
 
-Start with the overview page, then go to the page for the report you need. For example, use Inventory Valuation to reconcile the inventory subledger to the general ledger. Use the label report pages when you need barcode or QR labels.
+Start with the landing page for orientation, then open the page for the report that matches your question. Each page is self-contained, so there is no required reading order.
 
 ## Key points
 
-- Inventory Valuation shows quantity and value from a start date to an end date, with beginning and closing balances, and is used to reconcile the inventory subledger to the general ledger.
-- Availability reports (Inventory Availability, Availability Plan Excel, Planning Availability) combine on-hand stock with supply and demand from sales orders, purchase orders, and transfers. They show gross requirements, scheduled and planned receipts, and projected balance.
-- Inventory - Transaction Detail shows beginning quantity, each increase and decrease with running totals, and ending quantity for selected items over a period.
-- Sales and purchase reports include Customer Sales, Order Details, Sales Back Orders, Purchase Orders, Vendor Purchases, and Top 10 List. They show quantities, discounts, profit, and unfulfilled shipments or receipts.
-- Item ABC Analysis classifies items into A, B, and C categories by sales contribution, with configurable percentages. Item Age Composition and Item Expiration - Quantity show stock by age or expiry across three equal-length periods.
+- Inventory Availability and Planning Availability combine on-hand stock with expected supply and demand from sales orders, purchase orders and transfers; Availability Plan Excel adds gross requirements, scheduled and planned receipts.
+- Inventory Valuation shows beginning and closing balances with quantity and value changes, and helps reconcile the inventory subledger to general ledger accounts, with location filters and posting group totals.
+- Inventory Transaction Detail lists beginning quantity, each increase and decrease with running totals, and ending quantity for selected items over a period.
+- Sales-side reports: Customer Sales (quantities, amounts, discounts, profit), Order Details, Sales Back Orders (lines that cannot be fulfilled by the shipment date) and Top 10 List (highest or lowest selling items).
+- Item analysis reports: ABC Analysis classifies items into A, B, C by sales contribution with configurable percentages; Item Age Composition ages quantity and value over three equal periods; Item Expiration - Quantity covers expiration-tracked items.
 - Item Dimensions Detail and Total analyze value entries by dimension levels from analysis views, with location as an automatic dimension.
-- Warehouse reports: Adjustment Bin (advanced warehouses), Bin List (locations where bins are mandatory), and Shipment Status (open source documents per location).
-- Label reports (Item GTIN, Lot No, Reference No., SN) produce printable 1D barcode and 2D QR code labels using Word layouts for receiving, picking, and put-away.
+- Warehouse reports: Picking List, Adjustment Bin (advanced warehouses), Bin List (locations where bins are mandatory) and Warehouse Shipment Status per location.
+- Label reports (Item GTIN, Lot No, Reference No., SN) print 1D barcodes and 2D QR codes using Word layouts for scanning at receiving, picking and put-away.
 
 ## Learn pages
 
 - [Inventory - Availability Plan Excel (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-719): Get an overview of specific items and stock-keeping units, and their availability - all in Excel.
   - In the observatory: [Report 707 "Inventory - Availability Plan"](../../../../../objects/report/707.md)
-- [Inventory - Transaction Detail (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-704): Review all inventory movements for the selected items for a selected period. Audit historical inventory movements, such as sales, purchases, and stock transfers to determine the basis of a quantity that's currently in inventory.
+- [Inventory - Transaction Detail (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-704): Review inventory quantities and item ledger entries for a selected period. Follow increases, decreases, and running balances for selected items.
 - [Inventory and Warehouse Reports and Analytics](https://learn.microsoft.com/dynamics365/business-central/inventory-WMS-reports): Explore the inventory and warehouse reports and analytics that are available in the standard version of Business Central.
   - In the observatory: [Page 30 "Item Card"](../../../../../objects/page/30.md), [Page 5735 "Item Reference List"](../../../../../objects/page/5735.md), [Page 5737 "Item Reference Entries"](../../../../../objects/page/5737.md), [Page 6504 "Serial No. Information Card"](../../../../../objects/page/6504.md), [Page 6505 "Lot No. Information Card"](../../../../../objects/page/6505.md), [Page 6508 "Lot No. Information List"](../../../../../objects/page/6508.md)
 - [Inventory Availability (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-705): Review the current and future availability of items or SKUs. The report helps you identify potential shortages or surpluses by considering inventory, supply, and demand.
-- [Inventory Cost and price list (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-716): Analyze and manage your inventory costs and pricing strategies.
-- [Inventory Customer Sales (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-713): Analyze your customer sales per item to understand sales trends, optimize inventory management, and improve marketing efforts. Assess the relationship between discounts, sales amounts, and volume of item sales.
-- [Inventory Order Details (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-708): Analyze outstanding sales orders to understand your expected sales volume for items. To highlight any overdue back orders, compare your overall outstanding shipments with the planned shipment date.
-- [Inventory Picking List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-813): View which sales orders are covered when collecting items from inventory.
-- [Inventory Purchase Orders (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-709): Analyze your outstanding purchase orders to understand your expected purchase volume by item. Compare your overall outstanding receipts with the expected receipt date to highlight any overdue back orders.
-- [Inventory Sales Back Orders (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-718): Get an overview of sales orders that can't be fulfilled because of out-of-stock items.
-- [Inventory Top 10 List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-711): Review the highest or lowest selling items based on quantity and amount over a selected period.
-- [Inventory Valuation (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1001): Reconcile your inventory subledger with inventory accounts in the general ledger at the end of each period. Analyze the changes to expected costs posted during the period, and determine the value of on-hand inventory for financial reporting.
-- [Inventory Vendor Purchases (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-714): Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases.
+- [Inventory Cost and Price List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-716): Compare average cost, standard cost, last direct cost, and item prices. Use the Inventory Cost and Price List report for items or stockkeeping units.
+- [Inventory Customer Sales (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-713): Analyze invoiced quantities, sales amounts, discounts, and profit by customer and item. Use period filters to compare customer sales totals.
+- [Inventory Order Details (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-708): Review outstanding sales order quantities, shipment dates, discounts, and amounts by item. Identify back orders relative to the work date.
+- [Inventory Picking List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-813): Review sales order lines with a quantity to ship. Use the Inventory Picking List report to coordinate picking by item, location, bin, and shipment date.
+- [Inventory Purchase Orders (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-709): Review outstanding purchase order quantities, expected receipt dates, discounts, and amounts by item. Identify overdue receipts for follow-up.
+- [Inventory Sales Back Orders (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-718): Find sales order lines with outstanding quantities and shipment dates before the work date. Use the report to follow up on overdue shipments.
+- [Inventory Top 10 List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-711): Rank items by sales amounts in local currency or by inventory quantity. Choose the largest or smallest amounts to support purchase planning.
+- [Inventory Valuation Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-1001): Review opening and closing inventory quantities and values. Compare actual and expected inventory costs with costs posted to the general ledger.
+  - In the observatory: [Page 5826 "Inventory Posting Setup"](../../../../../objects/page/5826.md)
+- [Inventory Vendor Purchases (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-714): Analyze invoiced quantities, actual costs, and discounts by vendor and item. Use the Inventory Vendor Purchases report to review procurement spending.
 - [Item - ABC Analysis (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-723): Rank inventory items into A, B, and C categories based on their sales amounts to identify high-value items and support purchasing and replenishment decisions.
-- [Item Age Composition by Quantity and Value Excel (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5808): Review the age of stock in your warehouse by value and identify unused or slow-moving inventory.
-- [Item Charges - Specification (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5806): Analyze posted sales or purchase item charges to assess added costs, such as freight and physical handling.
+- [Item Age Composition by Quantity and Value Excel (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5808): Review the quantity and value of remaining inventory by age. Set an ending date and period length to group open item ledger entries into five buckets.
+- [Item Charges - Specification (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5806): Analyze posted sales or purchase item charges by item and inventory posting group. Include value entry details to review freight and handling costs.
 - [Item Dimensions - Detail (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-7150): Analyze item entries with dimension details by building groups of dimensions for combinations of dimension values. View a breakdown of value entries for each group.
-- [Item Dimensions - Total (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-7151): Analyze item entries with dimension totals by building groups of dimensions for combinations of dimension values. View a calculated total based on columns you define. For example, net change, balance at date, and actual vs. budget.
-- [Item Expiration - Quantity (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5809): Find on-hand stock that is expired or soon will.
+- [Item Dimensions - Total (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-7151): Analyze item totals by selected dimensions and periods. Use analysis column templates to compare quantities, amounts, and actual or budget figures.
+- [Item Expiration - Quantity (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5809): Review remaining inventory quantities by expiration date. Set periods and item or location filters to identify expired stock and stock nearing expiry.
 - [Item GTIN Label Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-6625): Print item labels that show item numbers and descriptions and encode Global Trade Item Number (GTIN) values as Code 39 barcodes and QR codes for scanning.
 - [Item Substitutions (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5701): Help you manage and track item substitutions in production orders and bills of materials (BOMs). It allows you to specify substitute items that can be used when the preferred items aren't available, ensuring that production can continue smoothly without delays.
-- [Item/vendor catalog (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-720): Review or share vendor catalogs, compare vendor offerings, and support purchasing decisions.
+- [Item/Vendor Catalog Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-720): Review vendor prices, lead time calculations, and vendor item numbers for selected items. Use the Item/Vendor Catalog report for purchasing analysis.
 - [Lot No Label Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-6628): Print labels that show item numbers and descriptions and encode lot numbers as Code 39 barcodes and QR codes for reliable scanning.
 - [Planning Availability (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99001048): Helps you manage inventory levels and ensure that items are available when you need them.
 - [Production Forecast (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-990003804): Help you plan future production needs by predicting the demand for items based on historical data and other factors. Use the report to help ensure that production schedules align with anticipated sales and inventory requirements.
 - [Reference No. Label Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-6626): Print item labels that show item numbers, descriptions, and units of measure and encode reference numbers as Code 39 barcodes and QR codes for scanning.
 - [SN Label Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-6627): Print labels that show item numbers and descriptions and encode serial numbers as Code 39 barcodes and QR codes for scanning.
 - [Status (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-706): Helps you monitor and manage your inventory operations effectively by providing real-time insights into the current state of your inventory. Might allow you to optimize your supply chain processes and reduce cost associated with inventory.
-- [Warehouse Adjustment Bin (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-7320): Get an overview of adjustment bin usage (for advanced warehouse scenarios).
-- [Warehouse Bin List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-7319): Get an overview of warehouse bins, their setup, and the quantity of items in them.
-- [Warehouse Shipment Status (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-7313): Get an overview of source documents that are open and have items shipped or due to ship per location.
+- [Warehouse Adjustment Bin (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-7320): Review remaining quantities in warehouse adjustment bins. Filter by location or item and optionally include items that currently have a zero quantity.
+- [Warehouse Bin List Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-7319): Review warehouse bins and their setup by location. Select Show Bin Contents to include item quantities, variants, and units of measure in the report.
+- [Warehouse Shipment Status (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-7313): Review open warehouse shipment documents by location. Check source documents, shipment status, bins, and shipped or outstanding item quantities.
 
 ## Videos, posts and code changes
 

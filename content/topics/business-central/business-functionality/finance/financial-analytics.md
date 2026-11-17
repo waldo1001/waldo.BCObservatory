@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/finance/financial-analytics
 type: topic
 title: Financial analytics
-summary: "Financial analytics in Business Central covers the tools for analyzing and reporting finance data: the Power BI finance app, Financial Reporting, built-in analysis tools and standard reports, ad-hoc Data Analysis, and multi-company consolidation. It answers questions about setup, report content, KPIs, and consolidating subsidiaries."
+summary: "Financial analytics in Business Central covers the tools for analyzing finance data: the Power BI finance app, Financial Reporting, built-in analysis tools and reports, ad-hoc Data Analysis, and multi-company consolidation. It answers questions about choosing a tool, setting it up, and reading the results."
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-11-13T01:01:13.995Z"
+  at: "2026-11-17T01:01:06.605Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-17T01:01:17.322Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 474f7b7e883ca760a221b324443f5aa9d067b9b939d39dd53601c6a6c7362096
+  input_hash: 07346aedcd64bfa880779f57868ed3245ade29e512750a1546023469e2d4911e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-reports
@@ -28,7 +28,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-reports
     title: Accounts receivable analytics
-    date: "2026-09-18"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -40,16 +40,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-322
-    title: Aged Accounts Payable (report)
-    date: "2024-12-16"
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4403
+    title: Aged Accounts Payable (Excel Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4403
-    title: Aged Accounts Payables (Excel report)
-    date: "2024-12-14"
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-322
+    title: Aged Accounts Payable (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -62,8 +62,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-120
-    title: Aged Accounts Receivables (report)
-    date: "2024-10-18"
+    title: Aged Accounts Receivables (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -153,15 +153,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-37
-    title: Balance Comp. - Prev. Year (report)
-    date: "2025-06-21"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-151
-    title: Balance Sheet (report)
-    date: "2025-06-16"
+    title: Balance Comp. - Prev. Year (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -169,6 +162,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-balance-sheet
     title: Balance Sheet by Month Power BI Report
     date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-151
+    title: Balance Sheet Overview (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -195,29 +195,22 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-20
-    title: Calculate and Post Tax Settlement (report)
-    date: "2025-06-25"
+    title: Calculate and Post Tax Settlement (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1
-    title: Chart of Accounts (report)
-    date: "2025-06-16"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-30
-    title: Check Value Posting (report)
-    date: "2025-06-21"
+    title: Chart of Accounts Setup (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-10
-    title: Closing Trial Balance (report)
-    date: "2025-06-23"
+    title: Closing Trial Balance (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -237,64 +230,71 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-18
-    title: Consolidated Trial Balance (4) (report)
-    date: "2025-06-21"
+    title: Consolidated Trial Balance (4) (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4410
-    title: Consolidated Trial Balance (Excel report)
-    date: "2025-01-03"
+    title: Consolidated Trial Balance (Excel Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-17
-    title: Consolidated Trial Balance (report)
-    date: "2025-06-20"
+    title: Consolidated Trial Balance (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1127
-    title: Cost Acctg. Analysis (report)
-    date: "2025-06-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1138
-    title: Cost Acctg. Balance/Budget (report)
-    date: "2025-06-23"
+    title: Cost Accounting Analysis (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1128
-    title: Cost Acctg. Journal (report)
-    date: "2025-06-23"
+    title: Cost Accounting Journal (Report)
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1138
+    title: Cost Acctg. Balance/Budget (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1126
-    title: Cost Acctg. Statement (report)
-    date: "2025-06-23"
+    title: Cost Acctg. Statement (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1133
-    title: Cost Acctg. Statement/Budget (report)
-    date: "2025-06-23"
+    title: Cost Acctg. Statement/Budget (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1123
-    title: Cost Acctg. Stmt. per Period (report)
-    date: "2025-06-23"
+    title: Cost Acctg. Stmt. per Period (Report)
+    date: "2026-11-13"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1129
+    title: Cost Allocations Setup Review (Report)
+    date: "2026-11-13"
     commit: null
     t: null
     quote: null
@@ -715,27 +715,26 @@ narrative: generated
 
 # Financial analytics
 
-> Financial analytics in Business Central covers the tools for analyzing and reporting finance data: the Power BI finance app, Financial Reporting, built-in analysis tools and standard reports, ad-hoc Data Analysis, and multi-company consolidation. It answers questions about setup, report content, KPIs, and consolidating subsidiaries.
+> Financial analytics in Business Central covers the tools for analyzing finance data: the Power BI finance app, Financial Reporting, built-in analysis tools and reports, ad-hoc Data Analysis, and multi-company consolidation. It answers questions about choosing a tool, setting it up, and reading the results.
 
 Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Financial analytics · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This area groups the ways to look at finance data in Business Central. Some are interactive, such as ad-hoc Data Analysis on list pages for general ledger, customer receivables and vendor payables, with Pivot Mode, Analysis Filters and multiple analysis tabs. Others are designed outputs, such as financial statements and KPIs built in Financial Reporting, the embedded Power BI finance app, and the built-in standard reports.
+Financial analytics groups the ways Business Central lets you look at finance data. Options range from quick analysis on list pages, to configurable financial statements and KPIs, to an embedded Power BI app and a large set of standard reports.
 
-Three pages sit directly in this area. The overview page introduces the options. The ad-hoc analysis page covers Data Analysis on list pages. The consolidation page explains how to combine data from several subsidiaries or business units into one consolidated company. Consolidation supports different charts of accounts, currencies, fiscal years and environments, with eliminations and file-based transfer.
+The hub's own pages cover three things. The overview page introduces the features. One page explains ad-hoc analysis with the Data Analysis feature on general ledger, customer and vendor lists. Another explains how to consolidate data from several companies into one consolidated company.
 
-Start with the overview page to pick a tool. Use the Built-in finance analysis tools for budget comparison and cash flow on the Accountant Role Center. Use the Built-in finance reports for a single standard report, Financial reporting for custom statements and KPIs, and the Power BI finance app for reports on aging, profitability and liquidity.
+The subtopics go deeper. Power BI finance app covers the app's setup, semantic model, KPIs and reports. Financial reporting covers designing and auditing reports. Built-in finance analysis tools covers budget comparison, cash flow and payment practices. Built-in finance reports is the reference for standard reports. Start with the overview page, then go to the subtopic that fits your need.
 
 ## Key points
 
-- Ad-hoc analysis uses the Data Analysis feature directly on list pages, with Pivot Mode, Analysis Filters and multiple tabs, so no report run is needed.
-- Consolidation combines subsidiaries or business units into a consolidated company and handles different charts of accounts, currencies, fiscal years and environments.
-- Consolidation features include GL account mapping, currency exchange rates, eliminations, business units and file-based transfer.
-- Financial Reporting (20 pages) covers row and column definitions, account categories, dimensions, Excel layouts, statistical accounts, KPI web services, telemetry and auditing.
-- The Power BI finance app (19 pages) has setup, a semantic model, a KPI reference and reports on receivables and payables aging, profitability, liquidity, liabilities, budget comparison and ledger entry reconciliation.
-- Built-in analysis tools (4 pages) cover budget versus actual, cash flow on the Accountant Role Center, the payment practices report, and the general ledger and chart of accounts.
-- Built-in finance reports (83 pages) have one page per standard report, covering general ledger, trial balance, receivables, payables, VAT, consolidation, deferrals, cost accounting and fixed assets.
+- Data Analysis lets you analyze general ledger, customer receivables and vendor payables from list pages without running reports. It offers Pivot Mode, Analysis Filters and multiple analysis tabs.
+- Consolidation combines data from subsidiaries or business units into a consolidated company. It supports different charts of accounts, currencies, fiscal years and environments, and includes eliminations, G/L account mapping and file-based transfer.
+- The Power BI finance app (19 pages) covers setup, the semantic model, a KPI reference and reports on receivables and payables aging, profitability, liquidity, liabilities, budget comparison and ledger entry reconciliation.
+- Financial reporting (20 pages) covers row and column definitions, account categories, dimensions, Excel layouts, statistical accounts and KPI web services. It also covers telemetry and auditing.
+- Built-in analysis tools cover budget versus actual comparison, cash flow analysis on the Accountant Role Center, the payment practices report, and the general ledger and chart of accounts structure.
+- Built-in finance reports (83 pages) is a reference for standard reports on general ledger, trial balances, receivables and payables, VAT, consolidation, cost accounting, deferrals and dimensions. It notes which reports are obsolete or replaced by Excel versions.
 
 ## Subtopics
 
