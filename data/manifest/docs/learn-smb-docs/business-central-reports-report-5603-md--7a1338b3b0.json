@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Fixed Asset Register (report)",
+  "title": "Fixed Asset Register Entries (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5603",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.475Z",
-      "blob": "5c0558cb32df982835d18cec782cd2b3a9a23714",
-      "words": 702,
+      "at": "2026-11-17T00:28:09.281Z",
+      "blob": "3b577e69e8f86102251270776dbbae114264a567",
+      "words": 711,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5603.md",
-    "description": "Get a detailed and organized overview of all your fixed asset transactions.",
-    "ms_date": "2024-10-23",
+    "description": "Review posted fixed asset ledger entries by register number, including documents, depreciation books, posting types, amounts, and G/L entry references.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 702,
+    "ai_usage": "ai-assisted",
+    "words": 711,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9b7c558b262eb33d817eed4dd9c1755150f1f0b492a9b6b987ced0d576270551"
+  "output_hash": "3b577e69e8f86102251270776dbbae114264a567"
 }

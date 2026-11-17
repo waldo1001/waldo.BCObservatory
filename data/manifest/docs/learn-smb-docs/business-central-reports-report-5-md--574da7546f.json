@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Receivables-Payables (report)",
+  "title": "Receivables-Payables Overview (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.349Z",
-      "blob": "92820584bc47fbf7902d49fa156bd829de47fb3f",
-      "words": 169,
+      "at": "2026-11-17T00:28:09.126Z",
+      "blob": "285c3083fa476bd1a009e33d7150f7d687e54e19",
+      "words": 170,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5.md",
-    "description": "Displays a side-by-side comparison of customer and vendor balances versus G/L control accounts to confirm consistency and highlight reconciliation issues.",
-    "ms_date": "2025-06-17",
+    "description": "Compare receivables and payables by due date in local currency to review expected incoming and outgoing amounts across selected periods.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 169,
+    "ai_usage": "ai-assisted",
+    "words": 170,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3cfa1939c8731bcb843f00bb04c570a4717bce388c8f2dbc9f0cc8bdd260b6e5"
+  "output_hash": "285c3083fa476bd1a009e33d7150f7d687e54e19"
 }

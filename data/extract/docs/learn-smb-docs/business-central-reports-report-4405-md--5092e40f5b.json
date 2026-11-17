@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-4405.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4405",
-  "title": "Trial Balance (Excel report)",
-  "blob": "0d88d216ad16db8ea32e9d5bc191e32d79ce065f",
-  "summary": "Trial Balance Excel report displays aggregated general ledger data with debit and credit columns for net change and balance, supporting local currency and additional reporting currency.",
+  "title": "Trial Balance Excel Report for G/L Accounts",
+  "blob": "79c884e0e60b044e586e664e2fc83e8e8c5cf1d3",
+  "summary": "The Trial Balance Excel report shows aggregated general ledger data with debit and credit columns for net change and balance in local and additional reporting currencies. Use it to verify financial data accuracy, analyze trends, and prepare financial statements at period end.",
   "systems": [
     "finance",
     "reporting"
@@ -12,8 +12,9 @@
     "trial balance",
     "general ledger",
     "financial reporting",
-    "excel report",
-    "gl accounts"
+    "debit and credit",
+    "chart of accounts",
+    "accounting periods"
   ],
   "objects": [
     {
@@ -22,13 +23,13 @@
     }
   ],
   "features": [
-    "trial balance reporting",
-    "debit and credit columns",
-    "local currency display",
-    "additional reporting currency",
-    "global dimensions",
-    "account categories",
-    "financial analysis"
+    "Date Filter",
+    "Hide Accounts with No Activity",
+    "LCY and ACY reporting",
+    "Global dimensions filtering",
+    "Account categories and subcategories",
+    "Opening and closing balances",
+    "Net change analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003275,
-      "pages_in_call": 8
+      "cost_usd": 0.003915,
+      "pages_in_call": 1
     }
   ]
 }

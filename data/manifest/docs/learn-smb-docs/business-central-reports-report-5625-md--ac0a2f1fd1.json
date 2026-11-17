@@ -7,15 +7,15 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5625",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.535Z",
-      "blob": "fc687c654268e841cce2b82b14a75178a14a85fa",
-      "words": 133,
+      "at": "2026-11-17T00:28:09.482Z",
+      "blob": "3a874b75f9ece64b250ef9bf3e48edc7939b6b81",
+      "words": 193,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5625.md",
-    "description": "Ensure that your fixed assets are adequately insured by reviewing the total coverage amount for all insured assets.",
-    "ms_date": "2024-11-11",
+    "description": "Review recorded insured amounts by fixed asset and insurance policy, using the insurance depreciation book and excluding inactive or disposed assets.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 133,
+    "ai_usage": "ai-assisted",
+    "words": 193,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9d07edfb61736e845f72340572291c3025550c144ce702cebd4978c69e8488d1"
+  "output_hash": "3a874b75f9ece64b250ef9bf3e48edc7939b6b81"
 }

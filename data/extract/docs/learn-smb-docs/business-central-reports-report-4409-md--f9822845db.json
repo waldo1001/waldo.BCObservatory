@@ -1,33 +1,37 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-4409.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4409",
-  "title": "Customer - Top 10 List Excel (Excel report)",
-  "blob": "75d98c0c252571a81b402b389c82c4c7c2cafde9",
-  "summary": "Customer - Top 10 List Excel report displays summarized sales and balance data for top customers with worksheets for analysis by sales, credit, and marketing teams.",
+  "title": "Customer - Top List (Excel Report)",
+  "blob": "bc5dd77ee45da4303f01cf2c5988bdd5953219ac",
+  "summary": "The Customer - Top List (Excel) report ranks customers by sales amounts or balances in local currency, helping sales representatives, managers, and credit teams identify top customers and prioritize follow-up activities.",
   "systems": [
     "sales",
-    "reporting"
+    "reporting",
+    "finance"
   ],
   "topics": [
-    "customer",
-    "sales analysis",
+    "customer analysis",
+    "sales reporting",
     "top customers",
-    "excel report",
-    "balance"
+    "balance tracking",
+    "excel reports",
+    "customer rankings"
   ],
   "objects": [
     {
       "type": "report",
-      "name": "Customer - Top 10 List Excel"
+      "name": "Customer - Top List (Excel)"
     }
   ],
   "features": [
-    "top customer list",
-    "sales data",
-    "balance data",
-    "excel workbook",
-    "filters",
-    "slicers"
+    "Sales amount ranking",
+    "Balance (LCY) ranking",
+    "Date Filter",
+    "Quantity control",
+    "Top Customer List (Print) worksheet",
+    "Top Customer List (Analysis) worksheet",
+    "TopCustomerData worksheet",
+    "Filters and slicers"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004528,
-      "pages_in_call": 8
+      "cost_usd": 0.003747,
+      "pages_in_call": 1
     }
   ]
 }

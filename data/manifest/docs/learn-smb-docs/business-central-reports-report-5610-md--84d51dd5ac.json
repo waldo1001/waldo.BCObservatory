@@ -7,15 +7,15 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5610",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.503Z",
-      "blob": "3765d9ad7a291495e9ebd6865486a507bca9df34",
-      "words": 511,
+      "at": "2026-11-17T00:28:09.380Z",
+      "blob": "b9f836b4365e48cc9ce011cdb40365a0fa6266d1",
+      "words": 537,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5610.md",
-    "description": "Help reconciling fixed assets transactions to the general ledger and specifically for validating the disposal entries.",
-    "ms_date": "2024-10-23",
+    "description": "Analyze fixed asset ledger amounts by posting date for reconciliation with the general ledger, including disposal and balancing disposal accounts.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 511,
+    "ai_usage": "ai-assisted",
+    "words": 537,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9fa7b5e2f3882b61e3c6c692319d8dc6447583d03fb7fce057673b3de4d70c1a"
+  "output_hash": "b9f836b4365e48cc9ce011cdb40365a0fa6266d1"
 }

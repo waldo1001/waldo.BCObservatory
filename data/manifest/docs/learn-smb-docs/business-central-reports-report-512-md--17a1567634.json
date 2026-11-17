@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Intercompany Transactions (report)",
+  "title": "Intercompany Transactions (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-512",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.455Z",
-      "blob": "7f96adc219ce5a999ce1c07568bb2582fcd79c2d",
-      "words": 175,
+      "at": "2026-11-17T00:28:09.180Z",
+      "blob": "b94ee5a8006b7dbfa07afe48b47de8d86cbfdce8",
+      "words": 214,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-512.md",
-    "description": "Lists all posted intercompany sales, purchases, and journal entries between internal entities. Use it for reviewing and reconciling intercompany activity before financial consolidation to ensure transparency and balance across companies.",
-    "ms_date": "2025-06-21",
+    "description": "Review current-company G/L entries and mapped customer or vendor entries for intercompany partners, with opening balances and period transactions.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "intercompany",
       "consolidation"
     ],
-    "ai_usage": null,
-    "words": 175,
+    "ai_usage": "ai-assisted",
+    "words": 214,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "09db734f711f6a33a2832c03865a7a3c1a6da5607995c7a0470a90a3e61220a9"
+  "output_hash": "b94ee5a8006b7dbfa07afe48b47de8d86cbfdce8"
 }

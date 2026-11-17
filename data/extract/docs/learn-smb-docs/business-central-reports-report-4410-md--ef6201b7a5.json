@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-4410.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4410",
-  "title": "Consolidated Trial Balance (Excel report)",
-  "blob": "cc1105d2b42dddf020970f9002e1a5f567e921af",
-  "summary": "The Consolidated Trial Balance Excel report shows net changes or balances of general ledger accounts aggregated by business unit with worksheets for LCY and ACY analysis.",
+  "title": "Consolidated Trial Balance (Excel Report)",
+  "blob": "93b7079ef9e619b4cfd6a228239786bead503138",
+  "summary": "Consolidated Trial Balance Excel report displays net changes and balances of general ledger accounts grouped by business unit and global dimensions after consolidation. Use it to analyze trial balances in the consolidation company with optional filters and slicers for detailed review.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
-    "trial balance",
     "consolidation",
-    "gl accounts",
+    "trial balance",
+    "general ledger",
+    "business units",
     "excel reporting",
-    "business units"
+    "financial analysis"
   ],
   "objects": [
     {
@@ -22,12 +23,13 @@
     }
   ],
   "features": [
-    "trial balance by business unit",
-    "LCY reporting",
-    "ACY reporting",
-    "dimension filtering",
-    "account category analysis",
-    "Excel worksheets"
+    "Trial balance by local currency (LCY)",
+    "Trial balance by additional reporting currency (ACY)",
+    "Business unit grouping",
+    "Global dimensions grouping",
+    "Filters and slicers",
+    "Printable worksheet",
+    "Account categories and subcategories analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005155,
-      "pages_in_call": 8
+      "cost_usd": 0.003824,
+      "pages_in_call": 1
     }
   ]
 }

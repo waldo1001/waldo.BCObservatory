@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-4403.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4403",
-  "title": "Aged Accounts Payables (Excel report)",
-  "blob": "ec263e7e8f99eb331e6ea68d52f0199690d8c5df",
-  "summary": "Aged Accounts Payables Excel report aggregates vendor ledger data bucketed by aging and period to analyze aged payables by currency, vendor, and due date.",
+  "title": "Aged Accounts Payable (Excel Report)",
+  "blob": "3b738a70897af912586557dc7450f19374258ea6",
+  "summary": "The Aged Accounts Payable (Excel) report displays vendor ledger entries with aging periods based on due, posting, or document dates, organized by local currency, foreign currency, and payment currency with filtering and hierarchical views.",
   "systems": [
     "purchasing",
     "finance",
@@ -11,25 +11,25 @@
   ],
   "topics": [
     "accounts payable",
-    "vendor aging",
-    "cash flow",
-    "vendor analysis",
-    "payment management",
-    "aged buckets"
+    "aging analysis",
+    "vendor ledger",
+    "excel reporting",
+    "currency analysis"
   ],
   "objects": [
     {
       "type": "report",
-      "name": "Aged Accounts Payables Excel"
+      "name": "Aged Accounts Payable (Excel)"
     }
   ],
   "features": [
-    "local currency",
-    "foreign currency",
-    "aging buckets",
-    "vendor grouping",
-    "due date hierarchy",
-    "currency filtering"
+    "aging by due date, posting date, or document date",
+    "period length and period count configuration",
+    "local currency (LCY) view",
+    "foreign currency (FCY) view",
+    "currency-based grouping",
+    "skip vendors with zero balance",
+    "filters and slicers"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002446,
-      "pages_in_call": 7
+      "cost_usd": 0.003701,
+      "pages_in_call": 1
     }
   ]
 }

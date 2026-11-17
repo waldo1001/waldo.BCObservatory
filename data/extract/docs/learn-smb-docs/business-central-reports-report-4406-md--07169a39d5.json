@@ -1,20 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-4406.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4406",
-  "title": "Trial Balance/Budget (Excel report)",
-  "blob": "4e34afa3870db68bf5a3a6e3cfda884ed9b6d6fb",
-  "summary": "Trial Balance/Budget Excel report compares general ledger data to budgets subtotaled by account category, showing variances and budget performance in local currency.",
+  "title": "Trial Balance/Budget (Excel Report)",
+  "blob": "608f45326bbf9d632129cdf949016aaea84744eb",
+  "summary": "Trial Balance/Budget Excel report shows general ledger data compared with budget amounts, displayed by account with net change, balance, and budget variance percentages in local currency.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
     "trial balance",
-    "budget variance",
-    "financial performance",
     "budget analysis",
     "general ledger",
-    "variance reporting"
+    "variance reporting",
+    "financial analysis"
   ],
   "objects": [
     {
@@ -23,12 +22,13 @@
     }
   ],
   "features": [
-    "budget comparison",
-    "variance analysis",
-    "net change",
-    "budget percent",
-    "account category summaries",
-    "global dimension grouping"
+    "Date Filter",
+    "Budget Filter",
+    "Global dimensions filtering",
+    "Account categories and subcategories",
+    "Net budget calculation",
+    "Budget balance calculation",
+    "Variance percentages"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002446,
-      "pages_in_call": 7
+      "cost_usd": 0.003926,
+      "pages_in_call": 1
     }
   ]
 }

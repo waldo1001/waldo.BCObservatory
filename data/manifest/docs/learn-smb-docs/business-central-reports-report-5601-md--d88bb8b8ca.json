@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Fixed Asset List (report)",
+  "title": "Fixed Asset List and Setup (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5601",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.465Z",
-      "blob": "cedbfad564ec8b45ef8722ee9482e7b66c73e10d",
-      "words": 514,
+      "at": "2026-11-17T00:28:09.245Z",
+      "blob": "a9e1dae2c2ed82ff89eba79590a9cad15c4a87cf",
+      "words": 484,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5601.md",
-    "description": "Get a comprehensive list of all fixed assets that an organization owned at a specific point in time.",
-    "ms_date": "2024-10-23",
+    "description": "Review fixed asset identification, classification, dimensions, and depreciation setup for a selected depreciation book, excluding inactive assets.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 514,
+    "ai_usage": "ai-assisted",
+    "words": 484,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5735dc408925dbc0231d0021401dfe61d9c34320bb732ab4b640b9f165a6f5e4"
+  "output_hash": "a9e1dae2c2ed82ff89eba79590a9cad15c4a87cf"
 }

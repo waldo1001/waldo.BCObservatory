@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Trial Balance/Budget (Excel report)",
+  "title": "Trial Balance/Budget (Excel Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4406",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.327Z",
-      "blob": "4e34afa3870db68bf5a3a6e3cfda884ed9b6d6fb",
-      "words": 677,
+      "at": "2026-11-17T00:28:03.104Z",
+      "blob": "608f45326bbf9d632129cdf949016aaea84744eb",
+      "words": 713,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:08.598Z",
+      "at": "2026-11-17T00:28:18.129Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002446
+      "cost_usd": 0.003926
     },
     "summarized": {
-      "at": "2026-10-06T18:54:08.645Z",
+      "at": "2026-11-17T00:28:18.130Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:08.646Z",
+      "at": "2026-11-17T00:28:18.130Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:08.647Z",
+      "at": "2026-11-17T00:28:18.131Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-4406.md",
-    "description": "Use Excel to view a snapshot of your chart of accounts at a given point to check the debit and credit net change and closing balance compared to the budget.",
-    "ms_date": "2024-12-17",
+    "description": "Use Excel to view a snapshot of your chart of accounts at a given point to check the net change and closing balance compared to the budget.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 677,
+    "ai_usage": "ai-assisted",
+    "words": 713,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "82f6ac76ebcc251f2a440382beee5b6ef43cce058378f79db190720d100a0f8b"
+  "output_hash": "02a0b7431afcfcde761527fbbc8e2e3d44b52e1e9a1c9dcac9183dc5a8d58531"
 }

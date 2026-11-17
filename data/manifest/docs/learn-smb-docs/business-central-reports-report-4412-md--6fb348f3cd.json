@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4412",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.340Z",
-      "blob": "619695d0367fd526a7baa399385e9e9f87b74661",
-      "words": 322,
+      "at": "2026-11-17T00:28:09.074Z",
+      "blob": "ad575cdcaf7143d09547851f85048c994a3edd69",
+      "words": 352,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:06.485Z",
+      "at": "2026-11-17T00:28:18.143Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002133
+      "cost_usd": 0.006306
     },
     "summarized": {
-      "at": "2026-10-06T18:54:06.765Z",
+      "at": "2026-11-17T00:28:18.143Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:06.769Z",
+      "at": "2026-11-17T00:28:18.144Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:06.771Z",
+      "at": "2026-11-17T00:28:18.145Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-4412.md",
-    "description": "Get an overview of your fixed asset, including book value, depreciation, and acquisitions for a given time period.",
-    "ms_date": "2024-12-26",
+    "description": "Analyze fixed asset acquisitions, depreciation, and book values in Excel for a selected depreciation book and period, including projected depreciation.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 322,
+    "ai_usage": "ai-assisted",
+    "words": 352,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d7ca4e56aa9e9525c37d9abf6cc43d3a87d07f71d15c0372adb35fe08c196073"
+  "output_hash": "53d523b4fd91dad848c5c4e66bff451f4256d5366072dc74a9097307886824f2"
 }

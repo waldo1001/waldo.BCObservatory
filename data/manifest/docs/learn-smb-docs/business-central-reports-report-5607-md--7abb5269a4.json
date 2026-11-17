@@ -7,15 +7,15 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5607",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.494Z",
-      "blob": "a7e6d0e7232e5b5dbd60d4fad110370ebda4884f",
-      "words": 311,
+      "at": "2026-11-17T00:28:09.352Z",
+      "blob": "e57026b977c4cf2c901a182427cd5d9d0fc04d92",
+      "words": 349,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5607.md",
-    "description": "Review projected depreciation amounts and book value for a future period for your fixed assets.",
-    "ms_date": "2024-11-11",
+    "description": "Forecast fixed asset depreciation and book values for a future period, choose projection intervals, and optionally copy depreciation to a G/L budget.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 311,
+    "ai_usage": "ai-assisted",
+    "words": 349,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2545d6b2f54e0147513ded580b3ead2ab55c2a5329bc4e2dc2d63df491116369"
+  "output_hash": "e57026b977c4cf2c901a182427cd5d9d0fc04d92"
 }

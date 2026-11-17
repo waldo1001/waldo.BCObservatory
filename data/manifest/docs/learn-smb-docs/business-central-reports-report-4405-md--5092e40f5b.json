@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Trial Balance (Excel report)",
+  "title": "Trial Balance Excel Report for G/L Accounts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4405",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.556Z",
-      "blob": "0d88d216ad16db8ea32e9d5bc191e32d79ce065f",
-      "words": 780,
+      "at": "2026-11-17T00:28:03.650Z",
+      "blob": "79c884e0e60b044e586e664e2fc83e8e8c5cf1d3",
+      "words": 826,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:23:10.892Z",
+      "at": "2026-11-17T00:28:09.211Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003275
+      "cost_usd": 0.003915
     },
     "summarized": {
-      "at": "2026-10-06T19:23:12.756Z",
+      "at": "2026-11-17T00:28:09.212Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:12.757Z",
+      "at": "2026-11-17T00:28:09.212Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:12.758Z",
+      "at": "2026-11-17T00:28:09.213Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-4405.md",
     "description": "Use Excel to view a snapshot of your chart of accounts at a given point to check the debit and credit net change and closing balance.",
-    "ms_date": "2025-06-15",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 780,
+    "ai_usage": "ai-assisted",
+    "words": 826,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e53382a5d8123c145596ae2af13965b7f188020565c968349c3b96395a1ed802"
+  "output_hash": "831769448d77e925f4d5855a831ca1847896ca3c210715e4df63ea5aab812b9d"
 }
