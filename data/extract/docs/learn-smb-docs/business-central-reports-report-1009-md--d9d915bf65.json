@@ -2,33 +2,42 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-1009.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1009",
   "title": "Project Actual to Budget (report)",
-  "blob": "7288819022e685e8d9db2c2d9c7819fd3d4b38e4",
-  "summary": "The Project Actual to Budget report compares scheduled and used amounts for projects, showing quantity, cost, and line amount for completed or in-progress projects.",
+  "blob": "eef871f37dd5645b8146bcbf5e30da2b1aead780",
+  "summary": "Project Actual to Budget report compares budget planning lines with posted usage for selected projects, showing quantities, costs, and differences. Use it to analyze project performance against budget and choose between local or foreign currency display.",
   "systems": [
     "projects",
     "reporting"
   ],
   "topics": [
-    "actual to budget",
-    "project comparison",
-    "scheduled amounts",
-    "used amounts",
-    "cost analysis"
+    "project management",
+    "budget analysis",
+    "actual vs budget",
+    "project reporting",
+    "cost comparison"
   ],
   "objects": [
     {
       "type": "report",
       "name": "Project Actual to Budget"
+    },
+    {
+      "type": "report",
+      "name": "Project Actual to Budget (Cost)"
+    },
+    {
+      "type": "report",
+      "name": "Project Actual to Budget (Price)"
     }
   ],
   "features": [
-    "scheduled amounts",
-    "used amounts",
-    "quantity",
-    "total cost",
-    "line amount",
-    "currency selection",
-    "regional alternatives"
+    "Budget vs actual comparison",
+    "Planning Date Filter",
+    "Posting Date Filter",
+    "Currency selection (local or foreign)",
+    "Resource grouping",
+    "Item grouping",
+    "G/L account grouping",
+    "Work type grouping"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001231,
-      "pages_in_call": 8
+      "cost_usd": 0.003568,
+      "pages_in_call": 1
     }
   ]
 }

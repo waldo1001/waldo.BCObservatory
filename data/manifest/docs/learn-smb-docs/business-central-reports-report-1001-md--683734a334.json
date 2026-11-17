@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Inventory Valuation (report)",
+  "title": "Inventory Valuation Report in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1001",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.796Z",
-      "blob": "fcfee3c1f94b7e12154b79a4c3516d6a29c7ce64",
-      "words": 791,
+      "at": "2026-11-17T00:26:19.461Z",
+      "blob": "bc6e3fd00e3db17df2b9b95ce4c26c77300b7a45",
+      "words": 820,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:45:51.063Z",
+      "at": "2026-11-17T00:26:24.618Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003196
+      "objects": 2,
+      "cost_usd": 0.00357
     },
     "summarized": {
-      "at": "2026-10-06T18:45:58.236Z",
+      "at": "2026-11-17T00:26:24.623Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:45:58.237Z",
+      "at": "2026-11-17T00:26:24.626Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:45:58.238Z",
+      "at": "2026-11-17T00:26:24.628Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1001.md",
-    "description": "Reconcile your inventory subledger with inventory accounts in the general ledger at the end of each period. Analyze the changes to expected costs posted during the period, and determine the value of on-hand inventory for financial reporting.",
-    "ms_date": "2024-10-18",
+    "description": "Review opening and closing inventory quantities and values. Compare actual and expected inventory costs with costs posted to the general ledger.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 791,
+    "ai_usage": "ai-assisted",
+    "words": 820,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d3908fc2bb629a2133101db158ee17e3873406b8b9f172990adc78f5b3ec3fc7"
+  "output_hash": "55c9fb49266de034fcc46ff475c42f35c6d3757faebbaad9b06e0e1216497d05"
 }

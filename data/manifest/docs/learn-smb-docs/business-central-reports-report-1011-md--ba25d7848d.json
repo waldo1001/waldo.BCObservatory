@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1011",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.054Z",
-      "blob": "509f4026b548a63cb1ab5072b8879dd6b56f7346",
-      "words": 231,
+      "at": "2026-11-17T00:26:24.124Z",
+      "blob": "91c98d06bc37955bee867658e551ba24f9a0e7cd",
+      "words": 273,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:27.588Z",
+      "at": "2026-11-17T00:26:31.414Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001231
+      "cost_usd": 0.00309
     },
     "summarized": {
-      "at": "2026-10-06T18:52:29.400Z",
+      "at": "2026-11-17T00:26:31.415Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:29.401Z",
+      "at": "2026-11-17T00:26:31.416Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:29.402Z",
+      "at": "2026-11-17T00:26:31.417Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1011.md",
-    "description": "Get an overview of your projects, with focus on invoiced amounts and remaining amounts to invoice for each customer.",
-    "ms_date": "2024-10-23",
+    "description": "Review billable and invoiced project costs and prices by customer, with suggested billing calculated as the remaining billable amounts for each task.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 231,
+    "ai_usage": "ai-assisted",
+    "words": 273,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9b56b5812c51e75373744c2d5eef5a74d1411ee827a352154752a7f5b72c3e9e"
+  "output_hash": "b97598f1183d5d26b3d65d41e9a4383098d3df52f56bf33d3300e12b28ff36ce"
 }

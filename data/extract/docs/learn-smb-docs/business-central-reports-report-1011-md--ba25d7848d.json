@@ -2,18 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-1011.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1011",
   "title": "Project Suggested Billing (report)",
-  "blob": "509f4026b548a63cb1ab5072b8879dd6b56f7346",
-  "summary": "The Project Suggested Billing report lists projects grouped by customer showing invoiced amounts and remaining amounts to bill.",
+  "blob": "91c98d06bc37955bee867658e551ba24f9a0e7cd",
+  "summary": "The Project Suggested Billing report displays all projects grouped by customer, showing invoiced amounts and remaining billable amounts to invoice based on planning and ledger entries.",
   "systems": [
     "projects",
-    "reporting",
-    "sales"
+    "finance",
+    "reporting"
   ],
   "topics": [
-    "project billing",
-    "suggested billing",
-    "customer grouping",
-    "invoiced amounts"
+    "billing",
+    "projects",
+    "invoicing",
+    "reporting",
+    "customer analysis",
+    "ledger entries"
   ],
   "objects": [
     {
@@ -22,12 +24,13 @@
     }
   ],
   "features": [
-    "projects by customer",
-    "invoiced amounts",
-    "remaining to invoice",
-    "total amounts",
-    "currency selection",
-    "regional alternatives"
+    "project billing",
+    "customer grouping",
+    "invoiced vs. remaining amounts",
+    "planning date filter",
+    "posting date filter",
+    "currency display options",
+    "regional availability"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001231,
-      "pages_in_call": 8
+      "cost_usd": 0.00309,
+      "pages_in_call": 1
     }
   ]
 }

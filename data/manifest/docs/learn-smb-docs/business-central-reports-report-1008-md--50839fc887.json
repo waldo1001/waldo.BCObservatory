@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Project Analysis (report)",
+  "title": "Project Financial Analysis (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1008",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.040Z",
-      "blob": "86e4f47707a6dbd0e2dcece05613b1d8531d8b1c",
-      "words": 273,
+      "at": "2026-11-17T00:26:19.500Z",
+      "blob": "1ddc228e8994b89db8c67d31c58e260982be17ec",
+      "words": 304,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:27.586Z",
+      "at": "2026-11-17T00:26:24.193Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001231
+      "cost_usd": 0.003076
     },
     "summarized": {
-      "at": "2026-10-06T18:52:29.392Z",
+      "at": "2026-11-17T00:26:24.194Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:29.393Z",
+      "at": "2026-11-17T00:26:24.195Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:29.394Z",
+      "at": "2026-11-17T00:26:24.196Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1008.md",
-    "description": "Get a financial overview of your projects based on your input.",
-    "ms_date": "2024-10-23",
+    "description": "Compare project budget, usage, billable, and invoiced prices, costs, or profit with eight configurable amount columns and a currency choice for each.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 273,
+    "ai_usage": "ai-assisted",
+    "words": 304,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9b564bc160191661c11a88ac5822bc2e1cd6428ba565927b0466f22ea6ec6a87"
+  "output_hash": "3cf6d14983d19d16e65ba912cfee6d4613b335d02a09d362fd5782527ab71cb0"
 }

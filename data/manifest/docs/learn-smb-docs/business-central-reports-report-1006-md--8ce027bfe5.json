@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1006",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.031Z",
-      "blob": "81e618a85c666e94be3e7d923d9fe3449a70103d",
-      "words": 197,
+      "at": "2026-11-17T00:26:19.449Z",
+      "blob": "44af79f45727126ed82832d40a2042a74379345d",
+      "words": 222,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:27.584Z",
+      "at": "2026-11-17T00:26:23.808Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001231
+      "cost_usd": 0.002749
     },
     "summarized": {
-      "at": "2026-10-06T18:52:29.386Z",
+      "at": "2026-11-17T00:26:23.809Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:29.387Z",
+      "at": "2026-11-17T00:26:23.809Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:29.388Z",
+      "at": "2026-11-17T00:26:23.810Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1006.md",
-    "description": "Get an overview of planning and project tasks for a project.",
-    "ms_date": "2024-10-23",
+    "description": "Review project planning lines by task, with budget and billable totals, quantities, costs, discounts, and amounts in local or foreign currency.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 197,
+    "ai_usage": "ai-assisted",
+    "words": 222,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "12715aa887f0a58e043b39580efaa80a9bef0cfebebd43e0d247d8dd95ef35d5"
+  "output_hash": "c03452efd606388105c7b02a9dc967ecb83a337355e9b19f93e2edbe79a04fb2"
 }

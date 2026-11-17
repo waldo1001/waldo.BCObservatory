@@ -1,19 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-1013.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1013",
-  "title": "Items per Project (report)",
-  "blob": "d882a837eee40bc22fbe7ec065b32f655af6551c",
-  "summary": "Items per Project report displays an overview of items used in projects with accumulated cost values and supports custom filtering for reporting needs.",
+  "title": "Item Usage per Project (report)",
+  "blob": "7471d6e9ca5f6ca84f2991d2ac92ad2976cdf7db",
+  "summary": "Items per Project report summarizes item usage from posted project ledger entries, grouping quantities, costs, and line amounts by item and unit of measure.",
   "systems": [
-    "projects",
-    "inventory",
-    "reporting"
+    "projects"
   ],
   "topics": [
-    "project reports",
-    "item analysis",
-    "project costing",
-    "cost tracking"
+    "reporting",
+    "projects",
+    "item usage",
+    "project ledger",
+    "posted entries"
   ],
   "objects": [
     {
@@ -22,9 +21,11 @@
     }
   ],
   "features": [
-    "item overview",
-    "accumulated cost values",
-    "custom filtering"
+    "Posting Date Filter",
+    "item filters",
+    "quantity grouping",
+    "cost tracking",
+    "line amounts"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001229,
-      "pages_in_call": 8
+      "cost_usd": 0.00282,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Items per Project (report)",
+  "title": "Item Usage per Project (report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1013",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.063Z",
-      "blob": "d882a837eee40bc22fbe7ec065b32f655af6551c",
-      "words": 181,
+      "at": "2026-11-17T00:26:24.692Z",
+      "blob": "7471d6e9ca5f6ca84f2991d2ac92ad2976cdf7db",
+      "words": 206,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:30.001Z",
+      "at": "2026-11-17T00:26:31.428Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001229
+      "cost_usd": 0.00282
     },
     "summarized": {
-      "at": "2026-10-06T18:52:30.011Z",
+      "at": "2026-11-17T00:26:31.430Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:30.012Z",
+      "at": "2026-11-17T00:26:31.431Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:30.014Z",
+      "at": "2026-11-17T00:26:31.432Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1013.md",
-    "description": "Get an overview of the items you use in a project.",
-    "ms_date": "2024-10-23",
+    "description": "Review posted item usage by project and unit of measure, including quantities, accumulated costs, and line amounts filtered by posting date.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 181,
+    "ai_usage": "ai-assisted",
+    "words": 206,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b8a2db7e0e7792639a0d570d460b29491ed1001bd72451f3c912f7a38f564fd9"
+  "output_hash": "2b0e42641ae1d40d002b8478223fdeaf8b9a3c4ddcee259c036e9a1c28ea172d"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1009",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.045Z",
-      "blob": "7288819022e685e8d9db2c2d9c7819fd3d4b38e4",
-      "words": 242,
+      "at": "2026-11-17T00:26:19.486Z",
+      "blob": "eef871f37dd5645b8146bcbf5e30da2b1aead780",
+      "words": 280,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:27.587Z",
+      "at": "2026-11-17T00:26:24.800Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.001231
+      "objects": 3,
+      "cost_usd": 0.003568
     },
     "summarized": {
-      "at": "2026-10-06T18:52:29.395Z",
+      "at": "2026-11-17T00:26:24.802Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:29.395Z",
+      "at": "2026-11-17T00:26:24.803Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:29.396Z",
+      "at": "2026-11-17T00:26:24.804Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1009.md",
-    "description": "Get an overview of actual vs. budgeted amounts for selected projects.",
-    "ms_date": "2024-10-23",
+    "description": "Compare budget planning lines with posted project usage by task, including quantity, cost, and line amount differences in local or foreign currency.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 242,
+    "ai_usage": "ai-assisted",
+    "words": 280,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "34c096a9b2825cce73aec35019475d06e13f517448e0875bf3e46cc48f1b558f"
+  "output_hash": "b80c53b5081d61175d2230ace316ea559a62326ad4c6162aa6d30a4676eaf211"
 }

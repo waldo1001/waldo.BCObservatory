@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1007",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.036Z",
-      "blob": "06f78d6b9c9ce24b93d3ba58ae50f53f8def0a27",
-      "words": 223,
+      "at": "2026-11-17T00:26:19.309Z",
+      "blob": "cecde528bdf8ad508ef4d54e61aa5851b0924b26",
+      "words": 229,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:27.585Z",
+      "at": "2026-11-17T00:26:24.096Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001231
+      "cost_usd": 0.002832
     },
     "summarized": {
-      "at": "2026-10-06T18:52:29.389Z",
+      "at": "2026-11-17T00:26:24.097Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:29.390Z",
+      "at": "2026-11-17T00:26:24.098Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:29.391Z",
+      "at": "2026-11-17T00:26:24.098Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1007.md",
-    "description": "Get an overview of posted project tasks, such as resources and items.",
-    "ms_date": "2024-10-23",
+    "description": "Review posted project usage and sales transactions by task, including quantities, costs, prices, discounts, and amounts in local or foreign currency.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 223,
+    "ai_usage": "ai-assisted",
+    "words": 229,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f3b9f5b3cf500ecdb0600222981ff3a23d908f0c43eae5ab44e66a8440ff508a"
+  "output_hash": "b95405de276bb54b87a596b6521d2486a08c199896d9f4428b1e0e727bec169c"
 }

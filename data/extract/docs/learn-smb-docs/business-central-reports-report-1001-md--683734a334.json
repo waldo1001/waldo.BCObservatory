@@ -1,33 +1,39 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-1001.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1001",
-  "title": "Inventory Valuation (report)",
-  "blob": "fcfee3c1f94b7e12154b79a4c3516d6a29c7ce64",
-  "summary": "The Inventory Valuation report shows inventory quantity and value from a start date to end date, including decreases and increases, for reconciling inventory subledger to general ledger.",
+  "title": "Inventory Valuation Report in Business Central",
+  "blob": "bc6e3fd00e3db17df2b9b95ce4c26c77300b7a45",
+  "summary": "The Inventory Valuation report shows beginning and closing inventory balances with quantity and value changes over a period, helping reconcile inventory subledger to general ledger accounts and analyze expected costs.",
   "systems": [
-    "finance",
-    "inventory"
+    "inventory",
+    "reporting",
+    "finance"
   ],
   "topics": [
     "inventory valuation",
+    "cost reconciliation",
     "financial reporting",
-    "cost accounting",
-    "reconciliation",
-    "general ledger"
+    "general ledger",
+    "expected costs",
+    "inventory analysis"
   ],
   "objects": [
     {
       "type": "report",
       "name": "Inventory Valuation"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Posting Setup"
     }
   ],
   "features": [
-    "Beginning balance reporting",
-    "Closing balance reporting",
-    "Value changes tracking",
-    "Expected cost posting",
-    "GL reconciliation",
-    "Location filtering"
+    "beginning balance",
+    "closing balance",
+    "expected cost posting",
+    "cost posted to G/L reconciliation",
+    "location filters",
+    "inventory posting group totals"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003196,
-      "pages_in_call": 8
+      "cost_usd": 0.00357,
+      "pages_in_call": 1
     }
   ]
 }

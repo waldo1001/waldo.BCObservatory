@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-1.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1",
-  "title": "Chart of Accounts (report)",
-  "blob": "e912a21c16c3b79836ba615b373c82d0d9c17b2e",
-  "summary": "Chart of Accounts report provides a complete list of general ledger accounts grouped by category with balances and account types, useful for account structure review, audits, and financial planning.",
+  "title": "Chart of Accounts Setup (Report)",
+  "blob": "fe81e1047413ef34a5ef7a613a51d1ff653d4226",
+  "summary": "The Chart of Accounts report displays general ledger accounts with their types, posting groups, and consolidation settings for account structure reviews, audits, and financial reporting verification.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
+    "chart of accounts",
     "general ledger",
-    "account structure",
-    "financial reporting",
+    "account setup",
     "audit",
-    "chart of accounts"
+    "posting groups",
+    "account structure"
   ],
   "objects": [
     {
@@ -22,11 +23,12 @@
     }
   ],
   "features": [
-    "account filtering",
-    "category grouping",
-    "balance display",
-    "account classification",
-    "account structure verification"
+    "account number order listing",
+    "account types display",
+    "posting groups verification",
+    "direct posting settings",
+    "consolidation translation methods",
+    "account filtering"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00256,
-      "pages_in_call": 8
+      "cost_usd": 0.00308,
+      "pages_in_call": 1
     }
   ]
 }
