@@ -7,15 +7,15 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-718",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.664Z",
-      "blob": "caaa90cd28fea6e62f1a2701645135b64236f9b9",
-      "words": 426,
+      "at": "2026-11-17T00:28:18.401Z",
+      "blob": "04dbf7053b35141b1cae7e3cf9f746b636b9508b",
+      "words": 443,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-718.md",
-    "description": "Get an overview of sales orders that can't be fulfilled because of out-of-stock items.",
-    "ms_date": "2024-10-03",
+    "description": "Find sales order lines with outstanding quantities and shipment dates before the work date. Use the report to follow up on overdue shipments.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 426,
+    "ai_usage": "ai-assisted",
+    "words": 443,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "46e088da76be612a443884b5b3384f2774cb864f01afeae3f919076955cba06b"
+  "output_hash": "04dbf7053b35141b1cae7e3cf9f746b636b9508b"
 }

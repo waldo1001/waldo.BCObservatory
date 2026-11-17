@@ -7,15 +7,15 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-7151",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.808Z",
-      "blob": "eec5e79e68077e7d4547ccfb5ca87d43c1a79e6f",
-      "words": 506,
+      "at": "2026-11-17T00:28:18.365Z",
+      "blob": "d51dcf04845aab6f361ab7c91bfaf6feae3f574e",
+      "words": 518,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-7151.md",
-    "description": "Analyze item entries with dimension totals by building groups of dimensions for combinations of dimension values. View a calculated total based on columns you define. For example, net change, balance at date, and actual vs. budget.",
-    "ms_date": "2024-10-18",
+    "description": "Analyze item totals by selected dimensions and periods. Use analysis column templates to compare quantities, amounts, and actual or budget figures.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 506,
+    "ai_usage": "ai-assisted",
+    "words": 518,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "53bb355e1c1f7f33ebb1c5ce924a3387ecc472683d3c1beec837af336907095d"
+  "output_hash": "d51dcf04845aab6f361ab7c91bfaf6feae3f574e"
 }

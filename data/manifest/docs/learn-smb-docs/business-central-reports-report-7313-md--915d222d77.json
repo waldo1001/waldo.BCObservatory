@@ -7,15 +7,15 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-7313",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.817Z",
-      "blob": "d40b06930cad4354a5506af45652a81ab24f14fd",
-      "words": 327,
+      "at": "2026-11-17T00:28:18.424Z",
+      "blob": "a4f7220fcf35913d0038fe2b87e8aae9a69f191e",
+      "words": 333,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-7313.md",
-    "description": "Get an overview of source documents that are open and have items shipped or due to ship per location.",
-    "ms_date": "2024-10-18",
+    "description": "Review open warehouse shipment documents by location. Check source documents, shipment status, bins, and shipped or outstanding item quantities.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 327,
+    "ai_usage": "ai-assisted",
+    "words": 333,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2aede1e91f168e4011f42ea84ab584a4f98c4aa1d12b752e9eaad69e64d987df"
+  "output_hash": "a4f7220fcf35913d0038fe2b87e8aae9a69f191e"
 }

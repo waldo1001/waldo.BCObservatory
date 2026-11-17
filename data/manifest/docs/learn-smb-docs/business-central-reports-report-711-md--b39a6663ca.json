@@ -7,15 +7,15 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-711",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.847Z",
-      "blob": "a792f5372c13667b3559dba62cf6af0f8317c5c9",
-      "words": 439,
+      "at": "2026-11-17T00:28:18.334Z",
+      "blob": "a887999ae73e57f1aad71dabe95862cb5dc9bea8",
+      "words": 449,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-711.md",
-    "description": "Review the highest or lowest selling items based on quantity and amount over a selected period.",
-    "ms_date": "2024-10-18",
+    "description": "Rank items by sales amounts in local currency or by inventory quantity. Choose the largest or smallest amounts to support purchase planning.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 439,
+    "ai_usage": "ai-assisted",
+    "words": 449,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2902dce61ac30071fe2d272ef899abbc6cb3ece6f3e6e3e7304d28f4359c332a"
+  "output_hash": "a887999ae73e57f1aad71dabe95862cb5dc9bea8"
 }

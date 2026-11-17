@@ -7,14 +7,14 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5872",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.575Z",
-      "blob": "d1be8386458b56a7987b95138bf447771fe7405f",
+      "at": "2026-11-17T00:28:18.277Z",
+      "blob": "4eb30904c0dce4e10db54e6491378b094187725b",
       "words": 542,
       "forms": 1
     },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5872.md",
-    "description": "This report helps you decide whether to change component suppliers, or replace internal resources with outsourced labor (or vice versa). It also helps you review and modify an item's bill of materials.",
-    "ms_date": "2024-10-23",
+    "description": "Review how material, capacity, subcontracting, and overhead costs contribute to BOM costs. Compare single-level or rolled-up cost shares and details.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 542,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3d2f0bed6d451567a999ea73ffc18c85a2cc127248fb19dc750e9c960790a117"
+  "output_hash": "4eb30904c0dce4e10db54e6491378b094187725b"
 }

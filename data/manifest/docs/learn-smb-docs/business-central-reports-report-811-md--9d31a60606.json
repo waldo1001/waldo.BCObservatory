@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "About the BOM - Sub-Assemblies (report)",
+  "title": "Assembly BOM - Sub-Assemblies (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-811",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.780Z",
-      "blob": "b1bcae38f908126a9378ab65c9e8db5dbe6ed97c",
-      "words": 193,
+      "at": "2026-11-17T00:28:18.480Z",
+      "blob": "33bdf647d40fc2bb3947f3333443865a7dcda94a",
+      "words": 210,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-811.md",
-    "description": "Get an overview of the components in a subassembly bill of materials, for both assembly and production.",
-    "ms_date": "2024-10-23",
+    "description": "Review items that have an assembly bill of materials and are components in another assembly. Check inventory, unit costs, and alternative item numbers.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 193,
+    "ai_usage": "ai-assisted",
+    "words": 210,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a0cf3293b508518f54b4f6e31579a7a2288d49c6e6013fb79d6762d358f7d0ce"
+  "output_hash": "33bdf647d40fc2bb3947f3333443865a7dcda94a"
 }

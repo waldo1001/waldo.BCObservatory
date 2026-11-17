@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Detailed Calculation (report)",
+  "title": "Detailed Calculation Report in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000756",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.812Z",
-      "blob": "42d723a1cdc6750fc305f3e8b7e0d5fd99156ac7",
-      "words": 362,
+      "at": "2026-11-17T00:28:18.512Z",
+      "blob": "24e428b988cd3aa8d9e5cc69095bab88b841ae70",
+      "words": 357,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-99000756.md",
-    "description": "Analyze the manufacturing costs for an item, including details from bills of materials, routing operations, and associated expenses. Scrap costs are accounted for, which gives you an accurate total cost for producing items.",
-    "ms_date": "2024-10-23",
+    "description": "Review single-level manufacturing costs by item, including production BOM components, routing operations, scrap, and overhead for a calculation date.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 362,
+    "ai_usage": "ai-assisted",
+    "words": 357,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2628c1528b2518f765bbb21be49a1c66edfd175e2e81b8aa464be3ed583ae79a"
+  "output_hash": "24e428b988cd3aa8d9e5cc69095bab88b841ae70"
 }

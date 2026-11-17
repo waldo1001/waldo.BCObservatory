@@ -7,15 +7,15 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000757",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.618Z",
-      "blob": "da602089409045acb0ea2c3d59b95844c8d28efb",
-      "words": 322,
+      "at": "2026-11-17T00:28:18.520Z",
+      "blob": "5b2584cc63d41a60d41c2f83442287be948cce86",
+      "words": 317,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-99000757.md",
-    "description": "Get an overview of where, and in what quantities, you use items in the product structure of other items.",
-    "ms_date": "2024-10-23",
+    "description": "Trace where selected items are used across production BOM levels. Review parent items, required quantities, and the versions valid on a calculation date.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 322,
+    "ai_usage": "ai-assisted",
+    "words": 317,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ba72134ebdfe8c35fb24f816f43e7a363ee216ef03c14f8e8e0a561c981abea9"
+  "output_hash": "5b2584cc63d41a60d41c2f83442287be948cce86"
 }

@@ -7,14 +7,14 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-714",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.856Z",
-      "blob": "366b8cbea4d866d42afc231184793de3b435cbec",
+      "at": "2026-11-17T00:28:18.377Z",
+      "blob": "26e54b640de25d92dbb2b76818920357e57cd006",
       "words": 439,
       "forms": 1
     },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-714.md",
-    "description": "Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases.",
-    "ms_date": "2024-10-14",
+    "description": "Analyze invoiced quantities, actual costs, and discounts by vendor and item. Use the Inventory Vendor Purchases report to review procurement spending.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 439,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "46d86fed6acc97af89787991b4e1aa3fe5298e8d0de769b44fe5ac8c568b4654"
+  "output_hash": "26e54b640de25d92dbb2b76818920357e57cd006"
 }

@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Variants",
+  "title": "Plan Production for Item Variants",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/variants",
   "published_at": "2026-11-13T08:44:50.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.385Z",
-      "blob": "6cba9d94346991933abe82bf0a6053fcd80f0a4b",
-      "words": 531,
+      "at": "2026-11-17T00:28:18.748Z",
+      "blob": "573de6468f7e1e9e642bc2b2d59519d306ebfb24",
+      "words": 535,
       "forms": 0
     },
     "extracted": {
@@ -44,17 +44,22 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/contoso-coffee/manufacturing/variants.md",
-    "description": "Learn how to update a demand forecast for each variant of a product in Business Central.",
-    "ms_date": "2025-09-11",
-    "ms_topic": "article",
+    "description": "Learn how to use Contoso Coffee demo data to assign variant-specific production BOMs and plan supply from demand forecasts in Business Central.",
+    "ms_date": "2026-11-12",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 531,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 535,
+    "identifiers": [
+      "SCM1006",
+      "BOM3002",
+      "BOM3003",
+      "BOM3001"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a76a9b68ca49e39decbae5dc2b6867b72f9a3e470878c78346120c3204c664a6"
+  "output_hash": "573de6468f7e1e9e642bc2b2d59519d306ebfb24"
 }

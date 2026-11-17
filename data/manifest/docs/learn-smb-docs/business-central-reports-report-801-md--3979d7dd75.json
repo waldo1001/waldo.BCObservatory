@@ -3,18 +3,18 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Assembly BOMs (report)",
+  "title": "Assembly BOMs Report in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-801",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.767Z",
-      "blob": "8ba3574b7aaf67656adf6ecc3908c4c26f356678",
+      "at": "2026-11-17T00:28:18.448Z",
+      "blob": "46d4e2c40e6c7fe4c2995dc6c4abfa6075f01e17",
       "words": 287,
       "forms": 1
     },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-801.md",
-    "description": "Get an overview of Assembly Bill of Materials (BOMs), including BOMs that are part of the main BOM.",
-    "ms_date": "2024-10-23",
+    "description": "Review assembly bills of materials and their components. Check component quantities, units of measure, and whether components have an assembly BOM.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 287,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c099d1420c61a934a7f0cda0ec27cd0ea2ebd647f5ccd48c408e50a7c9f86e56"
+  "output_hash": "46d4e2c40e6c7fe4c2995dc6c4abfa6075f01e17"
 }

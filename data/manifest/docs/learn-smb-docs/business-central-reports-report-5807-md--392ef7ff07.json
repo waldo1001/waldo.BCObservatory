@@ -7,15 +7,15 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5807",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.792Z",
-      "blob": "5de572e12d38e23631381685bd38682053e8100d",
-      "words": 606,
+      "at": "2026-11-17T00:28:18.250Z",
+      "blob": "1fc260c048e0fa9ce43f0ccd64fa78fa6d338675",
+      "words": 593,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5807.md",
-    "description": "Review the age of stock in your warehouse by quantity and identify unused or slow moving inventory.",
-    "ms_date": "2024-10-18",
+    "description": "Review current inventory quantities by age using the legacy Item Age Composition - Quantity report. Find the replacement Excel report for aging analysis.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 606,
+    "ai_usage": "ai-assisted",
+    "words": 593,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "11850c0c00436b6961c2efaa6a3389cb041edbe0ffd65e37ed42c5e95ee5dc48"
+  "output_hash": "1fc260c048e0fa9ce43f0ccd64fa78fa6d338675"
 }

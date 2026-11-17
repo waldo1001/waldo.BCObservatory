@@ -7,14 +7,14 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5806",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.800Z",
-      "blob": "81d451585e239be3ff80b5febe1b2c14e1086aea",
+      "at": "2026-11-17T00:28:18.222Z",
+      "blob": "5d3f2f62bad8a02852f1d8f3a10e7fca6121dd94",
       "words": 406,
       "forms": 1
     },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5806.md",
-    "description": "Analyze posted sales or purchase item charges to assess added costs, such as freight and physical handling.",
-    "ms_date": "2024-10-18",
+    "description": "Analyze posted sales or purchase item charges by item and inventory posting group. Include value entry details to review freight and handling costs.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 406,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ef4dfc9e159e467c83016c75a3648551b498b24a3c0c77f82cc39cd58476e13a"
+  "output_hash": "5d3f2f62bad8a02852f1d8f3a10e7fca6121dd94"
 }

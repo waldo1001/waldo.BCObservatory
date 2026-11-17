@@ -7,15 +7,15 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-713",
   "published_at": "2026-11-16T14:03:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.643Z",
-      "blob": "37f6af900183fb1f56047552e5d1538917b067b6",
-      "words": 397,
+      "at": "2026-11-17T00:28:18.348Z",
+      "blob": "ed73cdbf3c68137b5a5ec6f30e304a7895e3f474",
+      "words": 403,
       "forms": 1
     },
     "extracted": {
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-713.md",
-    "description": "Analyze your customer sales per item to understand sales trends, optimize inventory management, and improve marketing efforts. Assess the relationship between discounts, sales amounts, and volume of item sales.",
-    "ms_date": "2024-10-18",
+    "description": "Analyze invoiced quantities, sales amounts, discounts, and profit by customer and item. Use period filters to compare customer sales totals.",
+    "ms_date": "2026-11-13",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 397,
+    "ai_usage": "ai-assisted",
+    "words": 403,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4e34c181fad3e14beb0760ee16d8cace9e218a95dda49e196156eeb6d8f37595"
+  "output_hash": "ed73cdbf3c68137b5a5ec6f30e304a7895e3f474"
 }
