@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-kpis",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.747Z",
-      "blob": "33931e33f7b3e9af40cdb6c6a8e1d7b60ea22c41",
+      "at": "2026-11-17T00:26:09.554Z",
+      "blob": "fafced40e31a453ea5729f856f6a8d51f03d9ba0",
       "words": 5763,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:47:31.394Z",
+      "at": "2026-11-17T00:26:14.929Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.009865
+      "cost_usd": 0.030714
     },
     "summarized": {
-      "at": "2026-10-06T18:47:31.404Z",
+      "at": "2026-11-17T00:26:14.930Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:47:31.405Z",
+      "at": "2026-11-17T00:26:14.932Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:47:31.406Z",
+      "at": "2026-11-17T00:26:14.933Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-sales-kpis.md",
     "description": "Get an overview of all the KPIs and measures in the semantic model for the Power BI Sales app.",
-    "ms_date": "2026-03-03",
+    "ms_date": "2026-11-16",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "350717e9698170045c4923ece916e1064118b697bf1321b97ee05bbce728f756"
+  "output_hash": "51cef0f06fde2417198cfdd33cc0ef6c42bcd7ef687540f9b31e817712fb579e"
 }

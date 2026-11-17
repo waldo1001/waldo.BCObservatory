@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-salesperson",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:46.331Z",
-      "blob": "1b26cbec63115e92a80db2f5c05baba5b58fa6fb",
+      "at": "2026-11-17T00:26:09.486Z",
+      "blob": "4e695c6fe8bd7bbd49342c28e429c347ae95e7f6",
       "words": 340,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:55.988Z",
+      "at": "2026-11-17T00:26:09.590Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003493
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:55.998Z",
+      "at": "2026-11-17T00:26:09.591Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:56.006Z",
+      "at": "2026-11-17T00:26:09.592Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:56.016Z",
+      "at": "2026-11-17T00:26:09.593Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-sales-by-salesperson.md",
     "description": "Compare sales amounts, quantities, adjusted profit, and estimated opportunity value by salesperson in Power BI to monitor individual sales performance.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "45c660dcb4f46267f3205116f504d29154b2875b4c86c332db89cdf1bb84747e"
+  "output_hash": "6b9b89f8eb39b534905528ff9be1defac91564d76ac3566a76f190070750392f"
 }

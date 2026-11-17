@@ -2,17 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-setup-show-stockout-warning.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-setup-show-stockout-warning",
   "title": "Display a stockout warning",
-  "blob": "a8801a927c19941f98af5a13f04efb72aa75fbeb",
-  "summary": "Display a stockout warning notification when sales order quantities exceed available inventory to inform users of potential stock problems.",
+  "blob": "0605f76de1accd9c110ef45df09d93407108c500",
+  "summary": "Stockout warning settings let you notify sales order creators when item quantities exceed current inventory levels at a location, without blocking order creation.",
   "systems": [
     "sales",
     "inventory"
   ],
   "topics": [
-    "inventory warnings",
-    "stockout",
+    "stockout warning",
+    "inventory notification",
     "sales setup",
-    "low inventory"
+    "low inventory",
+    "inventory level"
   ],
   "objects": [
     {
@@ -21,8 +22,7 @@
     }
   ],
   "features": [
-    "stockout warning toggle",
-    "inventory level notification"
+    "Stockout Warning toggle"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00293,
-      "pages_in_call": 8
+      "cost_usd": 0.00289,
+      "pages_in_call": 1
     }
   ]
 }

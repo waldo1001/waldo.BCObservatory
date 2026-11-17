@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-daily-sales",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:25.105Z",
-      "blob": "62e64322f384000852eff7f72093d47b2599a438",
+      "at": "2026-11-17T00:26:09.087Z",
+      "blob": "ef59974fd61f5e8bc7a31eb5485ee587bc2d1b47",
       "words": 228,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:30.474Z",
+      "at": "2026-11-17T00:26:09.178Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003251
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:30.476Z",
+      "at": "2026-11-17T00:26:09.179Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:30.477Z",
+      "at": "2026-11-17T00:26:09.180Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:30.479Z",
+      "at": "2026-11-17T00:26:09.181Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-daily-sales.md",
     "description": "Analyze daily sales amounts, quantities, costs, and profits in the Power BI Sales app to identify trends across days, weeks, months, and years.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "75a187b882212d5f8c8d04a32e5f3bb00a7a77f1f94db772f511f5b31913469d"
+  "output_hash": "16637e18a45abc6ce5617198432221254f988cdff198d064d5048c56e331610f"
 }

@@ -1,18 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-10.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-10",
-  "title": "Closing Trial Balance (report)",
-  "blob": "8d089f6adbaa3638e4f65cacd86ce3b06f5aa3c9",
-  "summary": "The Closing Trial Balance report shows current and prior year G/L account balances to verify financial accuracy before closing the fiscal year.",
+  "title": "Closing Trial Balance (Report)",
+  "blob": "daa2e580a1cef8a879989f89e7e801e899023186",
+  "summary": "The Closing Trial Balance report shows this year's and last year's general ledger account debit and credit balances to verify financial data accuracy and ensure debits equal credits before closing the fiscal year.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
     "trial balance",
-    "closing",
     "general ledger",
-    "financial verification",
+    "year-end closing",
+    "financial reporting",
+    "account balances",
     "fiscal year"
   ],
   "objects": [
@@ -22,11 +23,13 @@
     }
   ],
   "features": [
-    "debit and credit balances",
+    "fiscal year starting date",
+    "general ledger balances",
     "income statement accounts",
-    "closing entries",
-    "year-over-year comparison",
-    "financial data verification"
+    "balance sheet accounts",
+    "year-end closing entries",
+    "debit and credit verification",
+    "additional reporting currency"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001231,
-      "pages_in_call": 8
+      "cost_usd": 0.003391,
+      "pages_in_call": 1
     }
   ]
 }

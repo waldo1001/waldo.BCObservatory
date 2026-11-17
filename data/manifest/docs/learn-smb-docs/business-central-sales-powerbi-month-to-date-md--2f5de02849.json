@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-month-to-date",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:30.432Z",
-      "blob": "2e4f4470075847fc4ac3fc0a5a75a3d287b8d934",
+      "at": "2026-11-17T00:26:09.103Z",
+      "blob": "395f9e2e7ae0e73ec656f7413db33761de8e6f08",
       "words": 352,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:40.584Z",
+      "at": "2026-11-17T00:26:09.170Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003389
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:40.597Z",
+      "at": "2026-11-17T00:26:09.172Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:40.599Z",
+      "at": "2026-11-17T00:26:09.173Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:40.602Z",
+      "at": "2026-11-17T00:26:09.173Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-month-to-date.md",
     "description": "Track accumulated sales and profit for the current fiscal month in the Power BI Sales app and review the customers contributing to monthly revenue.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "311e06fabd35dc380bf0934fd02d50c5c473168f1a39285f4999f3b5e597872c"
+  "output_hash": "a654dd8ef2c6b77f99b1a5c1faefb0d5f271290a8986c1d3f6ca9186bb3e85b2"
 }

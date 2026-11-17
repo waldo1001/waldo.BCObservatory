@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-overview",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:47.019Z",
-      "blob": "c364327ca1e8642b69a5fb987461b1e0f3ac2848",
+      "at": "2026-11-17T00:26:09.613Z",
+      "blob": "d4be1285f8b054ca8d0d6c615595e7763d96800b",
       "words": 291,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:56.096Z",
+      "at": "2026-11-17T00:26:09.708Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003551
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:56.098Z",
+      "at": "2026-11-17T00:26:09.710Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:56.099Z",
+      "at": "2026-11-17T00:26:09.712Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:56.100Z",
+      "at": "2026-11-17T00:26:09.713Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-sales-overview.md",
     "description": "Review sales amounts, adjusted profit, and outstanding sales documents in Power BI to monitor performance across customers, items, and salespeople.",
-    "ms_date": "2025-10-07",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b5a16b85e81bf18429de57f2c0a8c037d8e73ae643fef5a7f5b22f567d6c5a6f"
+  "output_hash": "da12ab44a42d7fa5f5b8d9ad4608963557a9e6f6f04c06225be0528699008295"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-item",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:40.673Z",
-      "blob": "9084aa376c19ca776d22a0098eabbb1d2e30760b",
+      "at": "2026-11-17T00:26:09.381Z",
+      "blob": "f79935a36ea5b94145a05ccbb2e1ef8db948d3b8",
       "words": 320,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:46.613Z",
+      "at": "2026-11-17T00:26:09.449Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003532
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:46.614Z",
+      "at": "2026-11-17T00:26:09.451Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:46.616Z",
+      "at": "2026-11-17T00:26:09.451Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:46.617Z",
+      "at": "2026-11-17T00:26:09.452Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-sales-by-item.md",
     "description": "Analyze sales amounts, quantities, costs, and adjusted profit by item and item category in Power BI to identify trends and monitor item profitability.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "56bce35acdb97ce8bdad8c225b8c2a87dff095c80d7dd83e0f01a37c0a694604"
+  "output_hash": "98efa43fef2750f70a102430485384fb3f93f3bdd566f05dd86af68a46de6e01"
 }

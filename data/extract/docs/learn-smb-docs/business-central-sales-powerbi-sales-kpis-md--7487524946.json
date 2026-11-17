@@ -2,27 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-sales-kpis.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-kpis",
   "title": "Sales KPIs and measures (Power BI)",
-  "blob": "33931e33f7b3e9af40cdb6c6a8e1d7b60ea22c41",
-  "summary": "Power BI semantic model for sales KPIs describing formulas and data sources for customer, opportunity, sales document, Pareto, project ledger, and budget-related measures used in sales analytics reporting.",
+  "blob": "fafced40e31a453ea5729f856f6a8d51f03d9ba0",
+  "summary": "Sales KPIs and measures in the Power BI Sales app document metrics for customer lifecycle (new, lost, recovered, returning customers), sales performance (invoices, credits, quotes), opportunities, profitability (gross profit, margins), and Pareto analysis. Use to understand KPI calculations and data sources for sales analytics dashboards.",
   "systems": [
     "sales",
     "reporting"
   ],
   "topics": [
     "power bi",
-    "sales kpis",
+    "kpis",
+    "measures",
+    "sales analytics",
     "customer metrics",
-    "opportunity analysis",
-    "profitability measures",
-    "sales forecasting"
+    "profitability",
+    "opportunities"
   ],
   "objects": [],
   "features": [
-    "Customer KPIs (lost, new, recovered, returning customers)",
-    "Opportunity entry measures and win/loss tracking",
-    "Sales document analytics (invoices, credit memos, returns)",
-    "Pareto analysis for customer profitability",
-    "Budget variance tracking and forecasting"
+    "customer lifecycle metrics",
+    "sales profitability measures",
+    "opportunity tracking",
+    "Pareto analysis",
+    "outstanding orders",
+    "return rates",
+    "budget variance",
+    "moving annual totals"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009865,
-      "pages_in_call": 5
+      "cost_usd": 0.030714,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-suggest-sales-lines-with-copilot",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.498Z",
-      "blob": "db383c4daae07314f3b79c50c3a2c0916fa36251",
+      "at": "2026-11-17T00:26:09.775Z",
+      "blob": "a39f338b3b26d8c6443285c54292f81da00cb28c",
       "words": 892,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:11:10.468Z",
+      "at": "2026-11-17T00:26:15.182Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.014314
+      "objects": 3,
+      "cost_usd": 0.004413
     },
     "summarized": {
-      "at": "2026-10-06T13:12:57.025Z",
+      "at": "2026-11-17T00:26:15.183Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:12:57.025Z",
+      "at": "2026-11-17T00:26:15.184Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:12:57.026Z",
+      "at": "2026-11-17T00:26:15.185Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-suggest-sales-lines-with-copilot.md",
     "description": "Learn how to suggest lines on sales orders with Copilot.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -60,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a3f882759066858d7366f825e2cbdf7575792b6455159a9a2f997a9d8bfe25b6"
+  "output_hash": "687e065d3f3d5109c5428e3166838b43d408049dc1e8a96406148330b7608e9c"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-customer",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:40.655Z",
-      "blob": "091bc89ccd0eb0abc8219b1529176ce448b644a5",
+      "at": "2026-11-17T00:26:09.302Z",
+      "blob": "67fa51c42cb2018c55081f260686e4fdadeec83e",
       "words": 359,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:46.961Z",
+      "at": "2026-11-17T00:26:09.365Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 9,
-      "cost_usd": 0.004412
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:46.962Z",
+      "at": "2026-11-17T00:26:09.366Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:46.963Z",
+      "at": "2026-11-17T00:26:09.367Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:46.964Z",
+      "at": "2026-11-17T00:26:09.368Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-sales-by-customer.md",
     "description": "Analyze sales, costs, and adjusted profit by customer in the Power BI Sales app to identify major customers and their contribution to profitability.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "98b07283d48d50d96461abb69df20f882197f4ee5df280ce343696048ffbed4d"
+  "output_hash": "7551ed6e864be4673117681a08872e7d42af805f1ec93b811c233cd3a5412f91"
 }

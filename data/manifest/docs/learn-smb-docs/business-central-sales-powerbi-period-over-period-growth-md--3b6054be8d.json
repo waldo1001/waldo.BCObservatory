@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-period-over-period-growth",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:32.283Z",
-      "blob": "bd29d272999da42ba4338e164c94c46d6cc0c745",
+      "at": "2026-11-17T00:26:09.335Z",
+      "blob": "7ff91e54eb90ef65113547f4e516e8773dc1328d",
       "words": 361,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:40.613Z",
+      "at": "2026-11-17T00:26:09.417Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00339
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:40.615Z",
+      "at": "2026-11-17T00:26:09.418Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:40.616Z",
+      "at": "2026-11-17T00:26:09.420Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:40.617Z",
+      "at": "2026-11-17T00:26:09.421Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-period-over-period-growth.md",
     "description": "Compare sales with the previous fiscal month, quarter, or year in Power BI to track revenue changes and evaluate period-over-period growth.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "14c082312bcd40bc41eed19b7794d7146942ecd62a71c8adb143944c2f2708d3"
+  "output_hash": "5332ba3db89a5fc55460f8676aad6ff3c1a8353950e4250b7817725d13197672"
 }

@@ -2,29 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-suggest-sales-lines-with-copilot.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-suggest-sales-lines-with-copilot",
   "title": "Sales line suggestions with Copilot",
-  "blob": "db383c4daae07314f3b79c50c3a2c0916fa36251",
-  "summary": "Sales Line Suggestions with Copilot helps users create sales documents faster by suggesting items to add to sales quotes, orders, and invoices using natural language prompts and keyword matching across product data.",
+  "blob": "a39f338b3b26d8c6443285c54292f81da00cb28c",
+  "summary": "Sales line suggestions with Copilot helps create sales documents faster by suggesting items to add to sales quotes, orders, and invoices based on natural language prompts or structured input.",
   "systems": [
     "sales",
     "copilot"
   ],
   "topics": [
+    "copilot",
     "sales lines",
-    "copilot suggestions",
-    "item search",
-    "natural language",
-    "keyword matching",
-    "document references"
+    "ai suggestions",
+    "sales documents",
+    "item search"
   ],
   "objects": [
-    {
-      "type": "page",
-      "name": "Sales Order"
-    },
-    {
-      "type": "page",
-      "name": "Suggested sales lines"
-    },
     {
       "type": "table",
       "name": "Item"
@@ -39,13 +30,12 @@
     }
   ],
   "features": [
-    "Find products capability",
-    "Find documents by reference capability",
-    "Permissive matching criteria",
-    "Balanced matching criteria",
-    "Precise matching criteria",
-    "Confidence scoring",
-    "Multi-language support"
+    "Sales line suggestions",
+    "Find products",
+    "Find documents by reference",
+    "Matching criteria (permissive, balanced, precise)",
+    "Confidence scores",
+    "Prompt guides"
   ],
   "versions": [],
   "parts": 1,
@@ -54,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.014314,
-      "pages_in_call": 2
+      "cost_usd": 0.004413,
+      "pages_in_call": 1
     }
   ]
 }

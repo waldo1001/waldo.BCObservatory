@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-return-order-overview",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:40.638Z",
-      "blob": "88f48bfa381a279191bca7586523a924129a9104",
+      "at": "2026-11-17T00:26:09.321Z",
+      "blob": "46db54a4e89dc77986cbb6e8845f2025c3b18c38",
       "words": 355,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:46.273Z",
+      "at": "2026-11-17T00:26:09.431Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003549
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:46.275Z",
+      "at": "2026-11-17T00:26:09.432Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:46.276Z",
+      "at": "2026-11-17T00:26:09.433Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:46.277Z",
+      "at": "2026-11-17T00:26:09.434Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-return-order-overview.md",
     "description": "The Return Order Overview report tracks and analyzes return orders, providing insights into the financial effect on the organization.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "630fea704e694c646de1cc152f0b83047a49fabcd9f187fb357f4beae59a1b5d"
+  "output_hash": "3bbed260e21fe7ae6f08140d91770ff7ff613dbf47c69cbe5f40993975e0ed97"
 }

@@ -2,36 +2,34 @@
   "item_id": "docs/learn-smb-docs/business-central/sales-manage-sales.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-manage-sales",
   "title": "Overview of tasks to manage sales",
-  "blob": "5e9a5c6e211f9ce1a0f461c0d789617d05976bac",
-  "summary": "Sales management overview covering sales invoices, orders, drop shipments, corrections, reconciliation, document delivery, workflows, analytics, and quote-to-invoice processes with links to detailed task guides.",
+  "blob": "3a82663a396c6d1bd39858db1eadc8e71d90110a",
+  "summary": "Overview of sales management tasks including creating sales invoices and orders, handling corrections and returns, processing payments, sending documents, and using analytics. Use this to understand the complete sales workflow from quotes through invoicing and customer management.",
   "systems": [
     "sales",
-    "inventory",
-    "crm"
+    "reporting"
   ],
   "topics": [
-    "sales orders",
     "sales invoices",
+    "sales orders",
     "sales quotes",
-    "returns",
-    "drop shipments",
+    "customer management",
     "payment reconciliation",
+    "sales returns",
+    "order fulfillment",
     "sales analytics"
   ],
   "objects": [],
   "features": [
     "sales invoices",
     "sales orders",
+    "sales quotes",
     "drop shipments",
     "order promising",
-    "sales credit memos",
+    "credit memos",
     "sales returns",
     "payment reconciliation",
-    "automatic payment application",
-    "email document delivery",
-    "approval workflows",
-    "power bi sales app",
-    "ad-hoc sales analysis"
+    "sales analytics",
+    "workflows"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007865,
-      "pages_in_call": 5
+      "cost_usd": 0.004716,
+      "pages_in_call": 1
     }
   ]
 }

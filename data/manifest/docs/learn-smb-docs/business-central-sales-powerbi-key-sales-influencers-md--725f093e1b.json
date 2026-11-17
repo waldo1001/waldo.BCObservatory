@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-key-sales-influencers",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:25.134Z",
-      "blob": "52c31912950ac2b58e26b4a4ba636c93894ea702",
+      "at": "2026-11-17T00:26:08.399Z",
+      "blob": "396630b8cf8a376ccf1075d587152ca9ed03b3c3",
       "words": 401,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:32.208Z",
+      "at": "2026-11-17T00:26:09.160Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 10,
-      "cost_usd": 0.004362
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:32.210Z",
+      "at": "2026-11-17T00:26:09.160Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:32.211Z",
+      "at": "2026-11-17T00:26:09.161Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:32.213Z",
+      "at": "2026-11-17T00:26:09.162Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-key-sales-influencers.md",
     "description": "Identify and analyze factors that influence sales performance. Explore the most impactful variables and trends based on sales data.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3b94066ac70c706a0489f9ebee421b84146ab06663f0968a55017b86984eef4c"
+  "output_hash": "97234bcb18d09e33775bce7f43733be0c2bc607b5b9503366e534f2f72826262"
 }

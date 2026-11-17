@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-sales-by-location",
   "published_at": "2026-11-16T14:08:19.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:20:40.692Z",
-      "blob": "68a8986fe9104f008ec5facba438dfb34a6469fe",
+      "at": "2026-11-17T00:26:09.398Z",
+      "blob": "8578511a73b9187aa9af71bdb57080a233b6285e",
       "words": 318,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-11-13T00:20:46.321Z",
+      "at": "2026-11-17T00:26:09.503Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003552
+      "cost_usd": 0
     },
     "summarized": {
-      "at": "2026-11-13T00:20:46.322Z",
+      "at": "2026-11-17T00:26:09.504Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:20:46.323Z",
+      "at": "2026-11-17T00:26:09.505Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:20:46.324Z",
+      "at": "2026-11-17T00:26:09.506Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/sales-powerbi-sales-by-location.md",
     "description": "Compare sales amounts, quantities, costs, and adjusted profit by warehouse location in Power BI to identify trends and evaluate location performance.",
-    "ms_date": "2026-11-12",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4b23db8cbffa3dec6f54bdb44bb056ad974873170e5a1f611ccee4ff0d70b4c4"
+  "output_hash": "5becfd2eb5622ab325091b13a35a2f840209fac84161dc21d0ce6ec3faf7639b"
 }
