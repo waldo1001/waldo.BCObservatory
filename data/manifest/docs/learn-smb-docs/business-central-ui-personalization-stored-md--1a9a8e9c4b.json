@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-personalization-stored",
   "published_at": "2026-11-13T08:44:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-11-11T00:23:34.095Z",
+      "at": "2026-11-18T00:23:26.196Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003753
+      "cost_usd": 0.006544
     },
     "summarized": {
-      "at": "2026-11-11T00:23:34.096Z",
+      "at": "2026-11-18T00:23:26.210Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-11T00:23:34.097Z",
+      "at": "2026-11-18T00:23:26.211Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-11T00:23:34.097Z",
+      "at": "2026-11-18T00:23:26.211Z",
       "page": false
     }
   },
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "326ca55675ec1753cfca4a552e9c57307214ea0c"
+  "output_hash": "0a05001d0b1a2f68855f9b00c5d92fcc1af31d5c0252201f3d10671daa012408"
 }

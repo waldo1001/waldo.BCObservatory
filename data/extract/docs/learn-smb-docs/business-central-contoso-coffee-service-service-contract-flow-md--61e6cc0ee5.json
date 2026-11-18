@@ -1,18 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/service/service-contract-flow.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-contract-flow",
-  "title": "Walkthrough of service contracts for service items",
-  "blob": "ec3c3f277397d6f0f63209d4cf0499e42cbc47a7",
-  "summary": "Service contract walkthrough demonstrates creating service items, contracts, service orders, resource allocation, time entries, and posting for regular maintenance service workflows.",
+  "title": "Walkthrough of Service Contracts for Service Items",
+  "blob": "afc100578447e44dd5d570d3a53d5043e11f4ecf",
+  "summary": "Walkthrough of Service Contracts for Service Items demonstrates creating service items through sales, setting up service contracts, allocating resources by skill, and posting service orders using Contoso Coffee demo data.",
   "systems": [
-    "service"
+    "service",
+    "sales"
   ],
   "topics": [
     "service contracts",
     "service items",
     "resource allocation",
-    "service orders",
-    "walkthrough"
+    "skills",
+    "invoicing",
+    "walkthrough",
+    "contoso coffee"
   ],
   "objects": [
     {
@@ -21,7 +24,11 @@
     },
     {
       "type": "page",
-      "name": "Service Orders"
+      "name": "Service Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Create Contract Service Orders"
     },
     {
       "type": "page",
@@ -29,16 +36,16 @@
     },
     {
       "type": "page",
-      "name": "Service Invoices"
+      "name": "Resource Allocations"
     }
   ],
   "features": [
-    "service item creation",
-    "contract templates",
-    "service invoicing",
-    "resource allocation",
-    "time entry",
-    "service order posting"
+    "Create service contracts",
+    "Service items",
+    "Resource allocation",
+    "Skill-based assignment",
+    "Service invoicing",
+    "Maintenance orders"
   ],
   "versions": [],
   "parts": 1,
@@ -47,7 +54,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004719,
+      "cost_usd": 0.005157,
       "pages_in_call": 8
     }
   ]

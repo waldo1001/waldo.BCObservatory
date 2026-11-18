@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1005",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.026Z",
-      "blob": "8eb0ccf80a9e58a6c497fbab0d69697fed6485c6",
+      "at": "2026-11-18T00:22:34.477Z",
+      "blob": "35b653ae9c54f069f706715362d7b7c0e578fb91",
       "words": 129,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:27.582Z",
+      "at": "2026-11-18T00:22:46.666Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001231
+      "cost_usd": 0.002675
     },
     "summarized": {
-      "at": "2026-10-06T18:52:29.382Z",
+      "at": "2026-11-18T00:22:46.667Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:29.384Z",
+      "at": "2026-11-18T00:22:46.667Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:29.385Z",
+      "at": "2026-11-18T00:22:46.668Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1005.md",
     "description": "Review the results of posting before you post to the projects ledger. Edit the journal lines if there are errors to correct.",
-    "ms_date": "2024-11-02",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 129,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "46f356f6d39908a26e590a43dd5d5c047cde91abeaa06dc13ecd3d55989cc67c"
+  "output_hash": "358ad2bcc8288d17d90edf83f1b1c444deacad4e718ce4d5a966070647473e06"
 }

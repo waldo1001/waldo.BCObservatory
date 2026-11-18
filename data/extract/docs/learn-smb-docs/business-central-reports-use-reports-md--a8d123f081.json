@@ -2,30 +2,27 @@
   "item_id": "docs/learn-smb-docs/business-central/reports-use-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-use-reports",
   "title": "Use Business Central Reports in Your Daily Work",
-  "blob": "afa83262255ae70df5b91eb4c6ff7d1835d3f834",
-  "summary": "Guide to using Business Central reports in daily work, including finding reports with Report Explorer, running and scheduling them, managing saved settings, changing layouts, and analyzing data with Excel or alternative analysis methods.",
+  "blob": "e6135fd6d591719d8100736f5873d402d744dbf9",
+  "summary": "Use Business Central reports for daily work by running standard reports, scheduling them, managing saved settings, analyzing report data in Excel, and using the Report Explorer to find available reports.",
   "systems": [
     "reporting"
   ],
   "topics": [
     "reports",
-    "report explorer",
-    "scheduling",
-    "data analysis",
-    "layouts",
-    "excel export"
+    "daily work",
+    "report scheduling",
+    "report settings",
+    "excel analysis"
   ],
   "objects": [],
   "features": [
     "Report Explorer",
-    "Request page",
-    "Bookmarks",
-    "Default printers",
-    "Report scheduling",
+    "request page",
+    "report scheduling",
     "Report Inbox",
-    "Saved report settings",
-    "Report layouts",
-    "Excel analysis"
+    "saved report settings",
+    "report layouts",
+    "data analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003377,
-      "pages_in_call": 1
+      "cost_usd": 0.003912,
+      "pages_in_call": 8
     }
   ]
 }

@@ -1,28 +1,34 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/manufacturing-analytics-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-analytics-overview",
-  "title": "Manufacturing analytics",
-  "blob": "2d61a02839e0518254bfdb9e9b5bb75a137642f2",
-  "summary": "Manufacturing analytics encompasses Power BI reports for KPIs, ad-hoc data analysis, built-in reports, and on-screen analytics to monitor production performance and work center load.",
+  "title": "Manufacturing Analytics and Reporting",
+  "blob": "1b62fedc0b261e37ce5c42fe60c9d0fec0bb94fa",
+  "summary": "Manufacturing Analytics and Reporting explains how to use Power BI, built-in reports, and ad-hoc data analysis tools to gain insights into manufacturing processes such as utilization, capacity, and production time.",
   "systems": [
     "manufacturing",
     "reporting"
   ],
   "topics": [
     "analytics",
-    "manufacturing",
     "power bi",
+    "manufacturing kpis",
+    "ad-hoc analysis",
     "reporting",
-    "kpis"
+    "business intelligence"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Prod. Output Item Label"
+    }
+  ],
   "features": [
-    "Power BI Manufacturing app",
-    "KPI monitoring",
-    "Data analysis on lists",
+    "Power BI manufacturing app",
+    "Manufacturing KPIs",
+    "Data analysis on list pages",
     "Open in Excel",
-    "Work center load visualization",
-    "Barcode printing"
+    "Built-in production reports",
+    "Barcode printing for finished goods"
   ],
   "versions": [],
   "parts": 1,
@@ -31,7 +37,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003592,
+      "cost_usd": 0.005157,
       "pages_in_call": 8
     }
   ]

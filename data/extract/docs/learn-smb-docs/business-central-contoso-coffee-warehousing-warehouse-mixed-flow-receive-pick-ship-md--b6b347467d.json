@@ -1,41 +1,31 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship",
-  "title": "Receiving, puting-away, picking, and shipping in a mixed warehouse configuration",
-  "blob": "25eec29d744466e4caf9521a6d6c04a4ccfea05d",
-  "summary": "Walkthrough of mixed warehouse configuration with basic inbound (Order-by-Order) and advanced outbound flows using Contoso Coffee YELLOW location demo data.",
+  "title": "Contoso Coffee: Mixed Warehouse Flow Walkthrough",
+  "blob": "df642bd7c4a79bdddd62fa4aa88adb6704ca8224",
+  "summary": "Contoso Coffee: Mixed Warehouse Flow Walkthrough demonstrates a mixed warehouse configuration combining warehouse receipts for inbound flow with warehouse picks and shipments for outbound flow in the YELLOW location.",
   "systems": [
     "warehouse",
-    "inventory",
-    "purchasing"
+    "inventory"
   ],
   "topics": [
+    "warehousing",
     "mixed warehouse",
-    "basic inbound",
-    "advanced outbound",
-    "warehouse configurations",
-    "contoso coffee"
+    "warehouse receipts",
+    "warehouse picks",
+    "warehouse shipments",
+    "inbound",
+    "outbound",
+    "walkthrough"
   ],
   "objects": [
-    {
-      "type": "page",
-      "name": "Warehouse Employees"
-    },
-    {
-      "type": "page",
-      "name": "Locations"
-    },
-    {
-      "type": "page",
-      "name": "Purchase Orders"
-    },
     {
       "type": "page",
       "name": "Warehouse Receipts"
     },
     {
       "type": "page",
-      "name": "Sales Orders"
+      "name": "Posted Warehouse Receipt"
     },
     {
       "type": "page",
@@ -44,15 +34,19 @@
     {
       "type": "page",
       "name": "Warehouse Picks"
+    },
+    {
+      "type": "page",
+      "name": "Posted Warehouse Shipment"
     }
   ],
   "features": [
-    "Inbound Flow",
-    "Outbound Flow",
-    "Over-Receipt Code",
-    "Warehouse Receipts",
-    "Warehouse Shipments",
-    "Warehouse Picks"
+    "Warehouse receipts",
+    "Warehouse picks",
+    "Warehouse shipments",
+    "Over-receipt codes",
+    "Create pick from shipment",
+    "Mixed warehouse configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -61,7 +55,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006456,
+      "cost_usd": 0.005157,
       "pages_in_call": 8
     }
   ]

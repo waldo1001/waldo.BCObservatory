@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/reports-develop-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-develop-reports",
   "title": "Develop Business Central Report Layouts and Datasets",
-  "blob": "e9e3d5487bacf29060c3f7a2a37bf9d7d51d2395",
-  "summary": "Report layouts and datasets define how reports present data. You can customize Word and Excel layouts yourself, but RDLC layouts may require developer help, and dataset changes require AL programming.",
+  "blob": "4b8a5c8aba7d255c6dc8fb450620f723bbb5e584",
+  "summary": "Develop Business Central report layouts and datasets using Word, Excel, and RDLC formats. Report objects define datasets and layouts; customization requires AL programming knowledge for datasets and can be self-service for Word and Excel layouts.",
   "systems": [
     "reporting",
     "development"
@@ -11,20 +11,22 @@
   "topics": [
     "report development",
     "report layouts",
-    "datasets",
-    "rdlc",
-    "word layouts",
-    "excel layouts"
+    "report datasets",
+    "al programming",
+    "customization"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Report"
+    }
+  ],
   "features": [
-    "Report object",
-    "Layout types",
     "Word layouts",
     "Excel layouts",
     "RDLC layouts",
-    "Custom report layouts",
-    "Report performance tuning"
+    "report datasets",
+    "layout types"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003285,
-      "pages_in_call": 1
+      "cost_usd": 0.003912,
+      "pages_in_call": 8
     }
   ]
 }

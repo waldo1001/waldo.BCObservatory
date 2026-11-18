@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-get-started-layouts",
   "published_at": "2026-11-13T08:44:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 3
     },
     "extracted": {
-      "at": "2026-11-12T00:19:16.270Z",
+      "at": "2026-11-18T00:23:38.408Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.013912
+      "cost_usd": 0.003912
     },
     "summarized": {
-      "at": "2026-11-12T00:19:16.271Z",
+      "at": "2026-11-18T00:23:38.453Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-12T00:19:16.272Z",
+      "at": "2026-11-18T00:23:38.453Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-12T00:19:16.272Z",
+      "at": "2026-11-18T00:23:38.454Z",
       "page": false
     }
   },
@@ -77,5 +77,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3f211ae81cd43681424c01298bfefdf93cce65ed"
+  "output_hash": "252bbceea646dba2093407e14d73b457174358740f2803b8340cc043c0563e4f"
 }

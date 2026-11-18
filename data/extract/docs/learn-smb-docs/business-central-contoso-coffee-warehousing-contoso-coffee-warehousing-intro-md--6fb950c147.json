@@ -1,32 +1,29 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro",
-  "title": "Introduction to Contoso Coffee",
-  "blob": "f2094678c94beb3f313047501d0f4a3d0f322d4b",
-  "summary": "Introduction to Contoso Coffee warehousing demo data with three warehouse locations for different configuration scenarios: basic with bins, advanced without bins, and advanced with directed put-away and pick.",
+  "title": "Introduction to Contoso Coffee Warehousing",
+  "blob": "94e62ea362e2b09139ea416148d6ab5d8eb5209f",
+  "summary": "Introduction to Contoso Coffee Warehousing describes three warehouse locations (SILVER, YELLOW, WHITE) with different configurations for learning basic, mixed, and advanced warehouse management scenarios using demo data.",
   "systems": [
     "warehouse",
     "inventory"
   ],
   "topics": [
     "warehousing",
-    "bins",
+    "contoso coffee",
+    "demo data",
     "locations",
-    "put-away",
-    "pick",
-    "contoso coffee"
+    "configurations",
+    "bins"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Contoso Demo Tool"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Warehouse Configurations",
-    "Bin Management",
-    "Demo Data Setup",
-    "Location Configuration"
+    "SILVER location (basic warehousing)",
+    "YELLOW location (mixed warehousing)",
+    "WHITE location (directed put-away and pick)",
+    "Contoso Demo Tool",
+    "Cross-docking",
+    "Breakbulk"
   ],
   "versions": [],
   "parts": 1,
@@ -35,7 +32,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006456,
+      "cost_usd": 0.005157,
       "pages_in_call": 8
     }
   ]

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Project Register (report)",
+  "title": "Project Register Report for Posted Entries",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1015",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.072Z",
-      "blob": "02f27840b48a5fad27c1a1fae4474f72eb96b2ab",
+      "at": "2026-11-18T00:22:55.999Z",
+      "blob": "fec325687a26fda7b85972850d40d5cc23b5d953",
       "words": 164,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:30.003Z",
+      "at": "2026-11-18T00:23:30.388Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001229
+      "cost_usd": 0.002642
     },
     "summarized": {
-      "at": "2026-10-06T18:52:30.019Z",
+      "at": "2026-11-18T00:23:30.389Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:30.020Z",
+      "at": "2026-11-18T00:23:30.390Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:30.021Z",
+      "at": "2026-11-18T00:23:30.390Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-1015.md",
-    "description": "Document a project register's contents for internal or external audits.",
-    "ms_date": "2024-11-02",
+    "description": "Document a project register's contents for internal or external audits. Review posted project entries, quantities, costs, and line amounts.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 164,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "25a880fba70b6c5173eadc872010da3810e562742b57ac8c32f1b6b46239d2d0"
+  "output_hash": "497d9dbea9cdd82b4ee281afca7cf2d2c8f5cb13c34bbe12032213a5768f132d"
 }

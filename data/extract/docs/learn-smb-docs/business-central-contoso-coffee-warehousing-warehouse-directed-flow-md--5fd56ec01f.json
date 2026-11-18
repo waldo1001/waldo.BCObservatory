@@ -1,46 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/warehousing/warehouse-directed-flow.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-directed-flow",
-  "title": "Receiving, putting-away, moving, picking and shipping in advanced warehouse configuration",
-  "blob": "831141a2f6f57a34a0367e4a40e8f093669d2f7b",
-  "summary": "Walkthrough of inbound and outbound flows in advanced warehouse configuration with directed put-away and pick using Contoso Coffee WHITE location demo data.",
+  "title": "Contoso Coffee: Directed Warehouse Flow Walkthrough",
+  "blob": "c9a3cf2d97e8f32ac38bc72c11dd195336f6f319",
+  "summary": "Contoso Coffee: Directed Warehouse Flow Walkthrough demonstrates advanced warehouse operations including cross-docking, bin replenishment, breakbulk, warehouse receipts, picks, and movements in the WHITE location.",
   "systems": [
     "warehouse",
-    "inventory",
-    "purchasing"
+    "inventory"
   ],
   "topics": [
+    "warehousing",
     "advanced warehouse",
-    "directed put-away",
     "directed pick",
-    "cross-dock",
+    "cross-docking",
     "bin replenishment",
-    "contoso coffee"
+    "breakbulk",
+    "walkthrough"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Sales Orders"
-    },
-    {
-      "type": "page",
-      "name": "Warehouse Shipment"
-    },
-    {
-      "type": "page",
-      "name": "Items"
-    },
-    {
-      "type": "page",
-      "name": "Bin Contents"
-    },
-    {
-      "type": "page",
-      "name": "Purchase Orders"
-    },
-    {
-      "type": "page",
-      "name": "Warehouse Receipt"
+      "name": "Warehouse Receipts"
     },
     {
       "type": "page",
@@ -61,16 +41,21 @@
     {
       "type": "page",
       "name": "Warehouse Picks"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Shipment"
     }
   ],
   "features": [
-    "Cross-Dock",
-    "Bin Replenishment",
-    "Break-Bulk",
-    "Warehouse Receipts",
-    "Warehouse Put-aways",
-    "Warehouse Picks",
-    "Warehouse Movements"
+    "Warehouse receipts",
+    "Warehouse put-away",
+    "Cross-dock bins",
+    "Bin replenishment",
+    "Breakbulk",
+    "Warehouse picks",
+    "Warehouse movements",
+    "Directed put-away and pick"
   ],
   "versions": [],
   "parts": 1,
@@ -79,7 +64,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006456,
+      "cost_usd": 0.005157,
       "pages_in_call": 8
     }
   ]

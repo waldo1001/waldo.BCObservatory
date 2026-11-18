@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-analytics-overview",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:24:35.524Z",
+      "at": "2026-11-18T00:23:02.214Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003592
+      "objects": 1,
+      "cost_usd": 0.005157
     },
     "summarized": {
-      "at": "2026-10-06T19:24:35.597Z",
+      "at": "2026-11-18T00:23:02.220Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:24:35.598Z",
+      "at": "2026-11-18T00:23:02.221Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:24:35.600Z",
+      "at": "2026-11-18T00:23:02.221Z",
       "page": false
     }
   },
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1b62fedc0b261e37ce5c42fe60c9d0fec0bb94fa"
+  "output_hash": "653cc588521c06cbae66a81752c6fe7cbe28e59258cac871d66b5079c6f93f71"
 }

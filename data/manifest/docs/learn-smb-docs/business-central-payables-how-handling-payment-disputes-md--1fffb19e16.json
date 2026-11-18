@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-handling-payment-disputes",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:52:08.825Z",
+      "at": "2026-11-18T00:23:31.657Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00312
+      "objects": 2,
+      "cost_usd": 0.003912
     },
     "summarized": {
-      "at": "2026-10-06T18:52:10.587Z",
+      "at": "2026-11-18T00:23:38.410Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:52:10.588Z",
+      "at": "2026-11-18T00:23:38.411Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:52:10.588Z",
+      "at": "2026-11-18T00:23:38.412Z",
       "page": false
     }
   },
@@ -62,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f4a9021b3e358eaf9102a124bc9738895cbf7fc1"
+  "output_hash": "4550a6037a2e846e9b2f0d440c758644ad86243e098a30361fe4db9587424fe9"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/touch-gestures",
   "published_at": "2026-11-13T08:44:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-11-11T00:20:28.931Z",
+      "at": "2026-11-18T00:23:38.383Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00297
+      "cost_usd": 0.003912
     },
     "summarized": {
-      "at": "2026-11-11T00:20:28.932Z",
+      "at": "2026-11-18T00:23:38.445Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-11T00:20:28.932Z",
+      "at": "2026-11-18T00:23:38.445Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-11T00:20:28.933Z",
+      "at": "2026-11-18T00:23:38.448Z",
       "page": false
     }
   },
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f17b8c0cd8d180fef3888b1c18dc395f7a6b1df2"
+  "output_hash": "524780716dfdd42d7608a4e7459d461051e390e40160c49eebded6d05e2dabba"
 }

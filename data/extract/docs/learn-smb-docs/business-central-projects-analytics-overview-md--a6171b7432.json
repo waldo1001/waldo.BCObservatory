@@ -1,31 +1,30 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-  "title": "Project analytics",
-  "blob": "9fcb5f8b3a13bfb4a16e0d4f5f4cb91cea3575e6",
-  "summary": "Project analytics in Business Central provides multiple features for analyzing project data including Power BI reports, ad-hoc analysis, and built-in reports to monitor project KPIs like completion rates and cost performance across different user roles.",
+  "title": "Project Analytics and Reporting",
+  "blob": "9aced5748b392db4ae794e70dc95ac50fbcf1d37",
+  "summary": "Project Analytics and Reporting provides tools for project managers to analyze project data through Power BI reports, ad-hoc analysis, and built-in reports, supporting different analytics needs by role such as executives, project managers, and project participants.",
   "systems": [
     "projects",
-    "reporting"
+    "reporting",
+    "finance"
   ],
   "topics": [
     "analytics",
+    "business intelligence",
     "power bi",
-    "project management",
-    "kpis"
+    "reporting",
+    "project kpis",
+    "data analysis"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Project Ledger Entries"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Power BI reports",
-    "Ad-hoc analysis",
-    "KPI monitoring",
+    "Power BI reports for projects",
+    "ad-hoc analysis on lists",
+    "Open in Excel",
+    "Built-in project analytics tools",
     "Built-in project reports",
-    "Data analysis on lists"
+    "Project performance monitoring"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003631,
-      "pages_in_call": 8
+      "cost_usd": 0.006544,
+      "pages_in_call": 4
     }
   ]
 }

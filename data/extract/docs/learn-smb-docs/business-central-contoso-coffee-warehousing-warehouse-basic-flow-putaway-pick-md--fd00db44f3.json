@@ -1,35 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick",
-  "title": "Receiving, Puting-away, Picking and Shipping in Basic Warehouse Configuration",
-  "blob": "fd2313a71d257fc704eba9af662697408ccc190e",
-  "summary": "Walkthrough of receiving, putting away, picking and shipping processes in basic warehouse configuration (Order-by-Order) using Contoso Coffee SILVER location demo data.",
+  "title": "Contoso Coffee: Basic Warehouse Flow Walkthrough",
+  "blob": "065233d21902c568951e3d0354b351cae739bde1",
+  "summary": "Contoso Coffee: Basic Warehouse Flow Walkthrough demonstrates inbound receiving and put-away, and outbound picking and shipping using inventory put-aways and picks in the SILVER location.",
   "systems": [
     "warehouse",
-    "inventory",
-    "purchasing"
+    "inventory"
   ],
   "topics": [
-    "warehouse flows",
-    "receiving",
-    "put-away",
-    "picking",
-    "shipping",
+    "warehousing",
     "basic warehouse",
-    "contoso coffee"
+    "put-away",
+    "pick",
+    "inbound",
+    "outbound",
+    "walkthrough"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Warehouse Employees"
-    },
-    {
-      "type": "page",
       "name": "Locations"
-    },
-    {
-      "type": "page",
-      "name": "Purchase Orders"
     },
     {
       "type": "page",
@@ -41,10 +32,6 @@
     },
     {
       "type": "page",
-      "name": "Sales Orders"
-    },
-    {
-      "type": "page",
       "name": "Inventory Picks"
     },
     {
@@ -53,12 +40,12 @@
     }
   ],
   "features": [
-    "Inbound Flow",
-    "Outbound Flow",
-    "Bin Setup",
-    "Default Bins",
-    "Inventory Put-away",
-    "Inventory Pick"
+    "Require Put-away setting",
+    "Require Pick setting",
+    "Inventory put-away",
+    "Inventory pick",
+    "Bin contents",
+    "Order-by-order configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -67,7 +54,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006456,
+      "cost_usd": 0.005157,
       "pages_in_call": 8
     }
   ]

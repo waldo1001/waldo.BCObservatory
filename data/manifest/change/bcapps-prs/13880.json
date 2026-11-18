@@ -6,7 +6,7 @@
   "title": "Resolve Payables Agent line accounts before PO matching",
   "url": "https://github.com/microsoft/BCApps/pull/13880",
   "published_at": "2026-11-17T11:39:18Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "resolve payables agent line accounts before po matching"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-18T00:22:48.516Z",
+  "retry_after": null
 }

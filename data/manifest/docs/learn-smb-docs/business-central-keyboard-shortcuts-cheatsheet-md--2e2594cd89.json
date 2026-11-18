@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/keyboard-shortcuts-cheatsheet",
   "published_at": "2026-11-13T08:44:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-11-11T00:19:50.294Z",
+      "at": "2026-11-18T00:23:38.366Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004032
+      "cost_usd": 0.003912
     },
     "summarized": {
-      "at": "2026-11-11T00:20:00.346Z",
+      "at": "2026-11-18T00:23:38.412Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-11T00:20:00.348Z",
+      "at": "2026-11-18T00:23:38.422Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-11T00:20:00.348Z",
+      "at": "2026-11-18T00:23:38.423Z",
       "page": false
     }
   },
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d7fa7f85ba62032fb0ffa10311c0e29444b37944"
+  "output_hash": "262c12435ce8c9ba6dd851b60159b155e835a6ea8d474c12a46df9252a0baef4"
 }
