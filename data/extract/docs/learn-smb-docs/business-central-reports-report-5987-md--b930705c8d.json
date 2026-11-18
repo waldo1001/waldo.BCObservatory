@@ -1,16 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5987.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5987",
-  "title": "Expired Contract Lines - Test (report)",
-  "blob": "3e2900ec64bfeac9981e2a7e1a5a5fc9e1ac7709",
-  "summary": "Expired Contract Lines - Test report shows contract lines that have expired and need removal from service contracts, displaying line numbers, service items, expiration dates, and line amounts.",
+  "title": "Expired Contract Lines - Test (Report)",
+  "blob": "1e2498cd9b6cd473f3a246a403583e77e25d6816",
+  "summary": "The Expired Contract Lines - Test report identifies contract lines that have expired and require removal from service contracts as of a specified date. It displays contract numbers, service items, expiration dates, and line amounts.",
   "systems": [
     "service"
   ],
   "topics": [
     "contract management",
     "expired contracts",
-    "testing"
+    "service items",
+    "reporting"
   ],
   "objects": [
     {
@@ -19,11 +20,9 @@
     }
   ],
   "features": [
-    "contract numbers",
-    "service items",
-    "contract expiration dates",
-    "line amounts",
-    "reason code"
+    "contract expiration date filtering",
+    "reason code selection",
+    "contract line removal"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001248,
-      "pages_in_call": 8
+      "cost_usd": 0.002904,
+      "pages_in_call": 1
     }
   ]
 }

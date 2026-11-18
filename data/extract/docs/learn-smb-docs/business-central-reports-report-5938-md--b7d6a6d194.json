@@ -1,17 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5938.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5938",
-  "title": "Service Profit (Service Items) (report)",
-  "blob": "22e832771d6ddf8402fba555b1c2bb99be871fc1",
-  "summary": "Service Profit (Service Items) report analyzes profitability metrics for service items including service amounts, discounts, costs, and profit calculations.",
+  "title": "Service Profit (Service Items) (Report)",
+  "blob": "8e046c6f07333153926e150ffea01416e84a340b",
+  "summary": "Service Profit (Service Items) report shows profit information for service items including service amounts, discounts, costs, and profit calculations.",
   "systems": [
     "service",
-    "finance"
+    "reporting"
   ],
   "topics": [
-    "service profitability",
-    "cost analysis",
-    "discount tracking"
+    "service management",
+    "profitability",
+    "reporting",
+    "service items"
   ],
   "objects": [
     {
@@ -20,10 +21,11 @@
     }
   ],
   "features": [
-    "profit analysis",
-    "cost tracking",
-    "discount reporting",
-    "service amount reporting"
+    "service amount",
+    "contract discount",
+    "service discount",
+    "service cost",
+    "profit calculation"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001065,
-      "pages_in_call": 8
+      "cost_usd": 0.002805,
+      "pages_in_call": 1
     }
   ]
 }

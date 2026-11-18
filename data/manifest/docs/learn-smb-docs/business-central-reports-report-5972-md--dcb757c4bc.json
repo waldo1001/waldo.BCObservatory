@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Service Contract Quote (document report)",
+  "title": "Service Contract Quote (Document Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5972",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.669Z",
-      "blob": "cd6b88039eef5de89c6fb89baccc152b0b04247b",
+      "at": "2026-11-18T00:25:25.602Z",
+      "blob": "d476556b9e29935a80730ee6b274add83acbe318",
       "words": 147,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:55.279Z",
+      "at": "2026-11-18T00:25:29.700Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001101
+      "cost_usd": 0.002808
     },
     "summarized": {
-      "at": "2026-10-06T18:54:55.318Z",
+      "at": "2026-11-18T00:25:29.702Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:55.319Z",
+      "at": "2026-11-18T00:25:29.703Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:55.320Z",
+      "at": "2026-11-18T00:25:29.705Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5972.md",
-    "description": "Generate a service contract quote document that you can send to your customer.",
-    "ms_date": "2024-11-02",
+    "description": "Generate a service contract quote document that you can send to your customer. Include contract details, discounts, and annual amounts.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 147,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d300afddd08fab83f17a4ff4f3b8d1add2ffd198ba9eb123316453a925b39481"
+  "output_hash": "7e2c9d027317f6b5d1b28e10414190283e9004c7cd01cc09a606424e3ca2d1ba"
 }

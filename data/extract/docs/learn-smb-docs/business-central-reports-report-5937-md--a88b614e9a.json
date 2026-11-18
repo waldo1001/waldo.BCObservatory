@@ -1,16 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5937.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5937",
-  "title": "Service Items Out of Warranty (report)",
-  "blob": "db512128121fe2333b1521dd0b0134c1336abefc",
-  "summary": "Service Items Out of Warranty report lists service items beyond their warranty period with warranty dates, contract counts, and customer details.",
+  "title": "Service Items Out of Warranty (Report)",
+  "blob": "1fd7e440ac00a79e215b941c30f53b904c86916f",
+  "summary": "The Service Items Out of Warranty report displays service items that are out of warranty, including warranty end dates, serial numbers, active contracts, and customer information. Use it to track warranty status of service items by filtering on warranty ending dates.",
   "systems": [
     "service"
   ],
   "topics": [
     "service items",
-    "warranty management",
-    "expired warranties"
+    "warranty",
+    "reporting",
+    "contract management"
   ],
   "objects": [
     {
@@ -19,9 +20,12 @@
     }
   ],
   "features": [
-    "warranty expiration tracking",
-    "out-of-warranty identification",
-    "contract monitoring"
+    "warranty end dates",
+    "serial numbers",
+    "active contracts",
+    "item descriptions",
+    "customer names",
+    "warranty filter"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001065,
-      "pages_in_call": 8
+      "cost_usd": 0.002927,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Contr. Gain/Loss - Resp. Ctr. (report)",
+  "title": "Contr. Gain/Loss - Resp. Ctr. (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5981",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.702Z",
-      "blob": "a3bab674992fd5b197a203fbb8a3bd9acbdab9b2",
-      "words": 163,
+      "at": "2026-11-18T00:25:32.781Z",
+      "blob": "50ace795076b723a7b07ef9cd0588ae405807219",
+      "words": 164,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:16.632Z",
+      "at": "2026-11-18T00:25:36.817Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001248
+      "cost_usd": 0.003167
     },
     "summarized": {
-      "at": "2026-10-06T18:55:16.643Z",
+      "at": "2026-11-18T00:25:36.818Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:16.644Z",
+      "at": "2026-11-18T00:25:36.819Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:16.645Z",
+      "at": "2026-11-18T00:25:36.820Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5981.md",
-    "description": "Analyze gains and losses made on contracts attached to the different responsibility centers.",
-    "ms_date": "2024-11-02",
+    "description": "Analyze gains and losses made on contracts attached to responsibility centers. View contract numbers, change types, dates, and amounts.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 163,
+    "ai_usage": "ai-assisted",
+    "words": 164,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c3c896c6fa4c9a9ff5fd351c7ffd87b8858e278a03734fcd016df97dbc647ae9"
+  "output_hash": "48f322d566997e24ec3a927a053954ce6f95aebe8f0808cd451c580da0980cd2"
 }

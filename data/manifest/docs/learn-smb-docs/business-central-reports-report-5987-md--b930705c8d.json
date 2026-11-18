@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Expired Contract Lines - Test (report)",
+  "title": "Expired Contract Lines - Test (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5987",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.726Z",
-      "blob": "3e2900ec64bfeac9981e2a7e1a5a5fc9e1ac7709",
+      "at": "2026-11-18T00:25:36.389Z",
+      "blob": "1e2498cd9b6cd473f3a246a403583e77e25d6816",
       "words": 196,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:16.637Z",
+      "at": "2026-11-18T00:25:40.047Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001248
+      "cost_usd": 0.002904
     },
     "summarized": {
-      "at": "2026-10-06T18:55:16.660Z",
+      "at": "2026-11-18T00:25:44.583Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:16.661Z",
+      "at": "2026-11-18T00:25:44.584Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:16.662Z",
+      "at": "2026-11-18T00:25:44.584Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5987.md",
-    "description": "Analyze which contract lines are expired and need to be removed from service contracts up to the date that you specify.",
-    "ms_date": "2024-11-02",
+    "description": "Analyze which contract lines are expired and need to be removed from service contracts up to the date that you specify. View line amounts.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 196,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "652b7686e5a2f7d590b93f27690629ab0d5da7e042819ddaddf1b7da1d6f82e2"
+  "output_hash": "677c8d7fe121c5c54c52d6538a140e38f180352eee91cab2a826866a2cdd4313"
 }

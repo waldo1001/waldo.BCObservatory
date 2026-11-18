@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Service Items (report)",
+  "title": "Service Items in Business Central (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5935",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.629Z",
-      "blob": "6bb7624aa59e0c59e3958bcaf90ba7be1fb5c569",
+      "at": "2026-11-18T00:25:20.658Z",
+      "blob": "1458b09436a70588995b881b8fab72c52cc27bdc",
       "words": 135,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:45.451Z",
+      "at": "2026-11-18T00:25:24.823Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001065
+      "cost_usd": 0.002799
     },
     "summarized": {
-      "at": "2026-10-06T18:54:55.286Z",
+      "at": "2026-11-18T00:25:24.824Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:55.287Z",
+      "at": "2026-11-18T00:25:24.825Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:55.288Z",
+      "at": "2026-11-18T00:25:24.825Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5935.md",
-    "description": "Get an overview of registered service items, grouped by customer.",
-    "ms_date": "2024-11-02",
+    "description": "Get an overview of registered service items, grouped by customer, including serial numbers, variant codes, and the number of active contracts.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 135,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "340ef8c707483b841ddd3eb06d821236f985eb6a21f5922659abf6ca84d9c320"
+  "output_hash": "60528faab1c278dbfc35b259bcc8745c2fb2c151f6f5a4d89482e8c9e8342a5f"
 }

@@ -1,16 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5939.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5939",
-  "title": "Service Item - Resource Usage (report)",
-  "blob": "afc2342f3c90e73722b0003201fe1e92541f70aa",
-  "summary": "Service Item - Resource Usage report tracks resource consumption for service items including quantities, costs, and profitability metrics.",
+  "title": "Service Item - Resource Usage (Report)",
+  "blob": "db3df613168516a99aa02f26a4350a681d4755ca",
+  "summary": "Service Item - Resource Usage report displays resource usage information for service items including quantity, usage costs, amounts, and profit metrics.",
   "systems": [
     "service"
   ],
   "topics": [
-    "resource usage",
     "service items",
-    "cost tracking"
+    "resource usage",
+    "reporting",
+    "costs",
+    "profit analysis"
   ],
   "objects": [
     {
@@ -19,9 +21,11 @@
     }
   ],
   "features": [
-    "resource usage tracking",
-    "cost analysis",
-    "profit analysis"
+    "Total quantity",
+    "Usage cost",
+    "Usage amount",
+    "Profit amount",
+    "Profit percentage"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001065,
-      "pages_in_call": 8
+      "cost_usd": 0.002794,
+      "pages_in_call": 1
     }
   ]
 }

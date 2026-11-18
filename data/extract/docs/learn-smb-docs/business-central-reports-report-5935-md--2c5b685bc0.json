@@ -1,16 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5935.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5935",
-  "title": "Service Items (report)",
-  "blob": "6bb7624aa59e0c59e3958bcaf90ba7be1fb5c569",
-  "summary": "Service Items report displays registered service items grouped by customer with details on descriptions, serial numbers, groups, and contract counts.",
+  "title": "Service Items in Business Central (Report)",
+  "blob": "1458b09436a70588995b881b8fab72c52cc27bdc",
+  "summary": "The Service Items report displays a list of registered service items grouped by customer, showing details like item description, serial number, service item group code, variant code, and active contract counts.",
   "systems": [
     "service"
   ],
   "topics": [
     "service items",
-    "customer information",
-    "contracts"
+    "reports",
+    "customer service",
+    "service contracts"
   ],
   "objects": [
     {
@@ -19,10 +20,12 @@
     }
   ],
   "features": [
-    "service item listing",
-    "customer grouping",
-    "contract tracking",
-    "serial number tracking"
+    "item description",
+    "customer number",
+    "serial number",
+    "service item group code",
+    "variant code",
+    "active contracts"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001065,
-      "pages_in_call": 8
+      "cost_usd": 0.002799,
+      "pages_in_call": 1
     }
   ]
 }

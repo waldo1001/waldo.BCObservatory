@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Contract Gain/Loss Entries (report)",
+  "title": "Contract Gain/Loss Entries (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5983",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.712Z",
-      "blob": "cff7c49101555bb60e7581a0d8c8873b638c6dc4",
+      "at": "2026-11-18T00:25:33.601Z",
+      "blob": "f9a4d3b416369b47639aa5f9d44e1d48f5c78495",
       "words": 145,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:16.634Z",
+      "at": "2026-11-18T00:25:37.363Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001248
+      "cost_usd": 0.003115
     },
     "summarized": {
-      "at": "2026-10-06T18:55:16.650Z",
+      "at": "2026-11-18T00:25:37.364Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:16.651Z",
+      "at": "2026-11-18T00:25:37.365Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:16.653Z",
+      "at": "2026-11-18T00:25:37.366Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5983.md",
-    "description": "Get an overview of shows all your service contract gain/loss entries.",
-    "ms_date": "2024-11-02",
+    "description": "Get an overview of all your service contract gain/loss entries, including reason codes, responsibility centers, customers, and types of change.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 145,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fdc2699428004874a56c58ece5e586a7399f8a468c46a0c1348fd557fcbd165b"
+  "output_hash": "cf713dd8f8c22384c3815842e362905c2985870ddb0ad4d96c4a44da42048dc8"
 }

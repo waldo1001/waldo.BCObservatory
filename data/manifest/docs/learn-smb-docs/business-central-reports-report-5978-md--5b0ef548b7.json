@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Serv. Contract - Salesperson (report)",
+  "title": "Serv. Contract - Salesperson (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5978",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.692Z",
-      "blob": "4fc13c83c58886bf033544c999e8c351df971600",
-      "words": 134,
+      "at": "2026-11-18T00:25:29.768Z",
+      "blob": "22c90fb21d337fe591a3f4f718daceabe828015c",
+      "words": 133,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:55.283Z",
+      "at": "2026-11-18T00:25:33.545Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001101
+      "cost_usd": 0.002853
     },
     "summarized": {
-      "at": "2026-10-06T18:54:57.053Z",
+      "at": "2026-11-18T00:25:33.546Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:57.054Z",
+      "at": "2026-11-18T00:25:33.547Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:57.055Z",
+      "at": "2026-11-18T00:25:33.549Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5978.md",
-    "description": "Get an overview of service contracts for each salesperson for a selected period.",
-    "ms_date": "2024-11-02",
+    "description": "Get an overview of service contracts for each salesperson for a selected period, including customer numbers, start dates, and annual amounts.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 134,
+    "ai_usage": "ai-assisted",
+    "words": 133,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cd27e5ed957937d173486290fa97fd74bf8cfb8963bf334ad29171ceeab1a638"
+  "output_hash": "69bcd84c65a53b5b145c738bcb5a6e365b5cdf7230df113586127f4ea29a471c"
 }

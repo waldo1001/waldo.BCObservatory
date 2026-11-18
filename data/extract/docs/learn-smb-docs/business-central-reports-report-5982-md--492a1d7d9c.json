@@ -1,16 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5982.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5982",
-  "title": "Maintenance Performance (report)",
-  "blob": "223482a08c79880e07579fa944e48a46d27459f3",
-  "summary": "Maintenance Performance report provides analysis of maintenance performance metrics for responsibility centers including annual amounts, expected amounts, and realization percentages.",
+  "title": "Maintenance Performance (Report)",
+  "blob": "e8844a62c741b8067e949b476812ff03514ca7f7",
+  "summary": "The Maintenance Performance report analyzes maintenance performance across responsibility centers, showing annual amounts, expected amounts, realized amounts, and percentage realized.",
   "systems": [
-    "service"
+    "service",
+    "reporting"
   ],
   "topics": [
-    "maintenance performance",
+    "maintenance",
+    "performance",
     "responsibility centers",
-    "performance analysis"
+    "reporting"
   ],
   "objects": [
     {
@@ -19,11 +21,11 @@
     }
   ],
   "features": [
-    "responsibility center",
-    "annual amount",
-    "amount expected",
-    "amount realized",
-    "percentage realized"
+    "maintenance analysis",
+    "responsibility center tracking",
+    "annual amount reporting",
+    "expected vs realized comparison",
+    "percentage realization"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001248,
-      "pages_in_call": 8
+      "cost_usd": 0.002751,
+      "pages_in_call": 1
     }
   ]
 }

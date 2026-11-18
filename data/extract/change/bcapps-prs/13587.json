@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13587",
+  "number": 13587,
+  "title": "Update Corp Card manual selection",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot",
+    "finance"
+  ],
+  "summary": "Corporate card matching and liability management capabilities are added to expense management, enabling manual selection of corporate cards for expenses with new pages, queries, and automated posting workflows.",
+  "key_points": [
+    "New expense source enumeration and corporate card expense matching interface introduced",
+    "Added corporate card liability transfer page and selection management codeunit",
+    "New queries for posted and pending report card displays and transactions",
+    "Expense and expense report tables extended with corporate card reference fields",
+    "Updated posting orchestration and validation to handle corporate card expenses with enhanced test coverage"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011134,
+    "changes_in_call": 1
+  }
+}

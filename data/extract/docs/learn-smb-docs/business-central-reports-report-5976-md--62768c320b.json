@@ -1,16 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5976.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5976",
-  "title": "Service Profit (Contracts) (report)",
-  "blob": "e8f43440c152731ff0812d355d95e732c8d2b605",
-  "summary": "Service Profit (Contracts) report shows profit information for service contracts based on the difference between service amount and service cost, including discounts and profit calculations.",
+  "title": "Service Profit (Contracts) (Report)",
+  "blob": "30a9a4d7af6d765a582fd3f71feb18e44db78b74",
+  "summary": "Service Profit (Contracts) report shows profit information for service contracts based on the difference between service amount and service cost.",
   "systems": [
     "service"
   ],
   "topics": [
     "service contracts",
     "profit analysis",
-    "reporting"
+    "service cost",
+    "service amount",
+    "contract management"
   ],
   "objects": [
     {
@@ -20,10 +22,11 @@
   ],
   "features": [
     "service amount",
-    "contract discount",
-    "service discount",
-    "service cost",
-    "profit amount"
+    "contract discount amount",
+    "service discount amount",
+    "service cost amount",
+    "profit amount",
+    "profit calculation"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001101,
-      "pages_in_call": 7
+      "cost_usd": 0.002634,
+      "pages_in_call": 1
     }
   ]
 }

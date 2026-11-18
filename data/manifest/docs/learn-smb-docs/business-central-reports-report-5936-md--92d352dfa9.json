@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Service Item Worksheet (report)",
+  "title": "Service Item Worksheet (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5936",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.633Z",
-      "blob": "e1d8c1050d78c5c4e5e994bcbb4d92643b57bea8",
+      "at": "2026-11-18T00:25:20.826Z",
+      "blob": "a0e7e8ca846c5c4b6c9ed58ab0a3d36df482aaab",
       "words": 143,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:45.452Z",
+      "at": "2026-11-18T00:25:24.971Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001065
+      "cost_usd": 0.002822
     },
     "summarized": {
-      "at": "2026-10-06T18:54:55.288Z",
+      "at": "2026-11-18T00:25:24.972Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:55.289Z",
+      "at": "2026-11-18T00:25:24.973Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:55.290Z",
+      "at": "2026-11-18T00:25:24.974Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5936.md",
-    "description": "Get an overview of what is needed for a service repair task.",
-    "ms_date": "2024-11-02",
+    "description": "Get an overview of what is needed for a service repair task, including service item details, warranty information, and repair statuses.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 143,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "38a4ef461de8a55b52388057e291a8c90dac3b8eacc6220a4b5136e6d63da5d6"
+  "output_hash": "08bddf1aacbf03036ebd1b28e2a862675344507a45e1fb4319a633c4110a0aca"
 }

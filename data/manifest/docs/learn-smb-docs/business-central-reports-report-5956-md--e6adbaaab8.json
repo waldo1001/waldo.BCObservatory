@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Service Load Level (report)",
+  "title": "Service Load Level in Business Central (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5956",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.656Z",
-      "blob": "de1bb2fdfd478531fceb258d6d934abcdeda9c7d",
+      "at": "2026-11-18T00:25:25.012Z",
+      "blob": "3d3df9aef21bb636c2bac9d178ecbeac00241ee9",
       "words": 134,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:45.456Z",
+      "at": "2026-11-18T00:25:28.762Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001065
+      "cost_usd": 0.002817
     },
     "summarized": {
-      "at": "2026-10-06T18:54:55.309Z",
+      "at": "2026-11-18T00:25:28.763Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:55.310Z",
+      "at": "2026-11-18T00:25:28.764Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:55.312Z",
+      "at": "2026-11-18T00:25:28.765Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5956.md",
-    "description": "Get an overview of the service load of your resources.",
-    "ms_date": "2024-11-02",
+    "description": "Get an overview of the service load of your resources. View capacity, usage, unused capacity percentages, sales, and sales percentages.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 134,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "384361b20ea4b8e87850021e99afe1644109a94a17c61a84f648981df67fcb45"
+  "output_hash": "0a9d5ffdb3001b611fd035b41d2f2ebb74ecf2e8ee4080d83cc1a1f8cb1827c3"
 }

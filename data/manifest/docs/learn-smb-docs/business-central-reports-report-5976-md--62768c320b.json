@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Service Profit (Contracts) (report)",
+  "title": "Service Profit (Contracts) (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5976",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.683Z",
-      "blob": "e8f43440c152731ff0812d355d95e732c8d2b605",
+      "at": "2026-11-18T00:25:29.161Z",
+      "blob": "30a9a4d7af6d765a582fd3f71feb18e44db78b74",
       "words": 148,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:55.281Z",
+      "at": "2026-11-18T00:25:32.704Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001101
+      "cost_usd": 0.002634
     },
     "summarized": {
-      "at": "2026-10-06T18:54:57.043Z",
+      "at": "2026-11-18T00:25:32.706Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:57.044Z",
+      "at": "2026-11-18T00:25:32.707Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:57.045Z",
+      "at": "2026-11-18T00:25:32.709Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5976.md",
-    "description": "Get an overview on profit for service contracts.",
-    "ms_date": "2024-11-02",
+    "description": "Get an overview of profit for service contracts based on the difference between service amounts and service costs, including discount details.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 148,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "34dc6c709655b0d2210daf5d813ec8f004a62a83a5a684aa27ad82ee390da1d2"
+  "output_hash": "2e8c6a6dd1dbfae542a7e87c5bdca8a7d554e3e3fe1ecbbd26c530ed76b78378"
 }

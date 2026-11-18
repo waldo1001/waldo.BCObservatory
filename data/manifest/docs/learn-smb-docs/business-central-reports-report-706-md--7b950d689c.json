@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Status (report)",
+  "title": "Status Report for Inventory Valuation",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-706",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.830Z",
-      "blob": "3ee0cc499b1ecfd43f50a1114eeb7947799c2e29",
-      "words": 143,
+      "at": "2026-11-18T00:25:38.982Z",
+      "blob": "6f477c16c9895b044b9a79902963aa8c5e4ca4c6",
+      "words": 144,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:45:56.471Z",
+      "at": "2026-11-18T00:25:44.692Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002007
+      "cost_usd": 0.003002
     },
     "summarized": {
-      "at": "2026-10-06T18:45:58.257Z",
+      "at": "2026-11-18T00:25:44.693Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:45:58.258Z",
+      "at": "2026-11-18T00:25:44.694Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:45:58.259Z",
+      "at": "2026-11-18T00:25:44.694Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-706.md",
-    "description": "Helps you monitor and manage your inventory operations effectively by providing real-time insights into the current state of your inventory. Might allow you to optimize your supply chain processes and reduce cost associated with inventory.",
-    "ms_date": "2024-11-01",
+    "description": "Review inventory quantities, unit costs, and values as of a selected status date. Use the report to monitor inventory and support supply chain decisions.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 143,
+    "ai_usage": "ai-assisted",
+    "words": 144,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1cbe88807dafb1f5d462884ae6946bcd8ae809c97bed2a6fea1a7de3cd2b94e1"
+  "output_hash": "05334749758459b6818d3f789602c269bdcff0637d42053cead4391f6fc34bfb"
 }

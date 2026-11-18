@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Contr. Serv. Orders - Test (report)",
+  "title": "Contr. Serv. Orders - Test (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5988",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.730Z",
-      "blob": "5e75d21fa2be8060b8cc3f1845b4c38e0ed82ff8",
-      "words": 237,
+      "at": "2026-11-18T00:25:36.873Z",
+      "blob": "6cdb8ad23dd88e10c8dc165b8aafe02f22563899",
+      "words": 238,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:16.638Z",
+      "at": "2026-11-18T00:25:44.592Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001248
+      "cost_usd": 0.003078
     },
     "summarized": {
-      "at": "2026-10-06T18:55:16.663Z",
+      "at": "2026-11-18T00:25:44.594Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:16.664Z",
+      "at": "2026-11-18T00:25:44.595Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:16.664Z",
+      "at": "2026-11-18T00:25:44.597Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5988.md",
-    "description": "Analyze which service contracts include service items that are due for service within the specified period.",
-    "ms_date": "2024-11-02",
+    "description": "Analyze which service contracts include service items that are due for service within the specified period, including contract and customer details.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 237,
+    "ai_usage": "ai-assisted",
+    "words": 238,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7938e2882d23cca50a68458bb0e19a8d77e1b0ca60fc73af75fce860394e8728"
+  "output_hash": "cd9e8062df58b916f32f5a33c5c9fd28c4f8da792cd59274cb76c9a0450ffb2c"
 }

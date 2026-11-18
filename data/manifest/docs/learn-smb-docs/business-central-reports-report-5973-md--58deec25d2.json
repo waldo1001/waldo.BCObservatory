@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Service Contract Quote-Detail (report)",
+  "title": "Service Contract Quote-Detail (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5973",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.674Z",
-      "blob": "61e5fbb0f6dd9cfc801ab1cc78416ec6bcca2ade",
+      "at": "2026-11-18T00:25:28.524Z",
+      "blob": "a3ca19e158cb039cdf3277704f012a8589f31aa1",
       "words": 136,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:55.279Z",
+      "at": "2026-11-18T00:25:32.031Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001101
+      "cost_usd": 0.002813
     },
     "summarized": {
-      "at": "2026-10-06T18:54:57.039Z",
+      "at": "2026-11-18T00:25:32.032Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:57.040Z",
+      "at": "2026-11-18T00:25:32.033Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:57.041Z",
+      "at": "2026-11-18T00:25:32.033Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5973.md",
-    "description": "Get an overview of all your service contract quotes.",
-    "ms_date": "2024-11-02",
+    "description": "Get an overview of all your service contract quotes. View service items, service contract discounts, and quoted amounts summarized by contract.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 136,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e12fd7a3a7d875d90feb49065b0c91533f2d894630090a55b31958525b186535"
+  "output_hash": "fb1d15324a8d14b729a7bf6391b89ebcb0e288d75295d81dfdb093fd6476bf65"
 }

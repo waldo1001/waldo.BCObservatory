@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Maintenance Visit - Planning (report)",
+  "title": "Maintenance Visit - Planning (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5980",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.697Z",
-      "blob": "5ebe075a8538831a5641e2adfc7bcc400763add5",
+      "at": "2026-11-18T00:25:32.060Z",
+      "blob": "8428ec3638dd6046b3a36576ce063874016f7c3d",
       "words": 149,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:16.631Z",
+      "at": "2026-11-18T00:25:35.673Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001248
+      "cost_usd": 0.002722
     },
     "summarized": {
-      "at": "2026-10-06T18:55:16.639Z",
+      "at": "2026-11-18T00:25:35.674Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:16.639Z",
+      "at": "2026-11-18T00:25:35.675Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:16.640Z",
+      "at": "2026-11-18T00:25:35.676Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5980.md",
-    "description": "Generate a report with all your schedules for maintenance visits.",
-    "ms_date": "2024-11-02",
+    "description": "Generate a report with all your schedules for maintenance visits, including service dates, service periods, contracts, and responsibility centers.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 149,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "27d2e3578113374d2d53bcfab6caeadd5a1c69e63b94196ba5963acc3d394925"
+  "output_hash": "72af278a5b3a48eab1d351c34c1e9b6af36921b235fcd925b3747ea8d91454a1"
 }

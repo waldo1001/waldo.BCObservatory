@@ -1,17 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5981.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5981",
-  "title": "Contr. Gain/Loss - Resp. Ctr. (report)",
-  "blob": "a3bab674992fd5b197a203fbb8a3bd9acbdab9b2",
-  "summary": "Contr. Gain/Loss - Resp. Ctr. report analyzes gains and losses on service contracts assigned to responsibility centers, with details on changes and financial amounts.",
+  "title": "Contr. Gain/Loss - Resp. Ctr. (Report)",
+  "blob": "50ace795076b723a7b07ef9cd0588ae405807219",
+  "summary": "The Contr. Gain/Loss - Resp. Ctr. report analyzes gains and losses on contracts assigned to responsibility centers, showing contract details, customer information, and change amounts.",
   "systems": [
-    "service"
+    "service",
+    "reporting"
   ],
   "topics": [
     "contract analysis",
     "gains and losses",
     "responsibility centers",
-    "financial reporting"
+    "service reporting"
   ],
   "objects": [
     {
@@ -20,13 +21,13 @@
     }
   ],
   "features": [
-    "responsibility center",
-    "customer number",
-    "ship-to code",
+    "contract gain/loss analysis",
+    "responsibility center filtering",
+    "customer number display",
+    "ship-to code tracking",
     "contract group code",
-    "change status",
-    "change date",
-    "amount"
+    "change date reporting",
+    "contract detail options"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001248,
-      "pages_in_call": 8
+      "cost_usd": 0.003167,
+      "pages_in_call": 1
     }
   ]
 }

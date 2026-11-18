@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Serv. Pricing Profitability (report)",
+  "title": "Service Pricing Profitability (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6080",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.739Z",
-      "blob": "bc142edce94b0589219defb4b535974aab20db7a",
+      "at": "2026-11-18T00:25:37.402Z",
+      "blob": "b073e699447d748cb35dab13c690a55dcfdaecb2",
       "words": 135,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:25.678Z",
+      "at": "2026-11-18T00:25:44.700Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002022
+      "cost_usd": 0.002863
     },
     "summarized": {
-      "at": "2026-10-06T18:55:25.687Z",
+      "at": "2026-11-18T00:25:44.700Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:25.688Z",
+      "at": "2026-11-18T00:25:44.701Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:25.689Z",
+      "at": "2026-11-18T00:25:44.702Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-6080.md",
-    "description": "Analyze profit from your service pricing.",
-    "ms_date": "2024-11-02",
+    "description": "Analyze profit from your service pricing, including usage amounts, invoice amounts, discount amounts, cost amounts, and profit percentages.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 135,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a18e42c9733382f375a28a89c82b231a267228d9ab49de6e7adb6428514baa47"
+  "output_hash": "f1b5b86d882595140451c452bdec37fd44ad8ec78d45355b7ef0ed7dfb742d1a"
 }

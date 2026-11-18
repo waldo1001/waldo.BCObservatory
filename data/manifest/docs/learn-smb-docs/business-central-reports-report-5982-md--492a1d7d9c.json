@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Maintenance Performance (report)",
+  "title": "Maintenance Performance (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5982",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.707Z",
-      "blob": "223482a08c79880e07579fa944e48a46d27459f3",
+      "at": "2026-11-18T00:25:32.801Z",
+      "blob": "e8844a62c741b8067e949b476812ff03514ca7f7",
       "words": 128,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:16.633Z",
+      "at": "2026-11-18T00:25:36.341Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001248
+      "cost_usd": 0.002751
     },
     "summarized": {
-      "at": "2026-10-06T18:55:16.646Z",
+      "at": "2026-11-18T00:25:36.343Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:16.648Z",
+      "at": "2026-11-18T00:25:36.344Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:16.649Z",
+      "at": "2026-11-18T00:25:36.345Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5982.md",
-    "description": "Analyze maintenance performance for your responsibility centers.",
-    "ms_date": "2024-11-02",
+    "description": "Analyze maintenance performance for your responsibility centers, including annual amounts, expected amounts, realized amounts, and percentages.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 128,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8f661c71b44058c76c64e58f280ddccf065a815dee0b09bb52774df68cbd0862"
+  "output_hash": "b8f39e09ea4851ed7a7c6a8bef5d4b3fdbdd7b856d3dc529c4a1c38785f880f3"
 }

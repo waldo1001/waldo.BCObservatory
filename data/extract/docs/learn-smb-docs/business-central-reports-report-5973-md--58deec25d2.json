@@ -1,16 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5973.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5973",
-  "title": "Service Contract Quote-Detail (report)",
-  "blob": "61e5fbb0f6dd9cfc801ab1cc78416ec6bcca2ade",
-  "summary": "Service Contract Quote-Detail report shows a detailed list of service contract quotes including service items, discounts, and summarized quoted amounts for each contract.",
+  "title": "Service Contract Quote-Detail (Report)",
+  "blob": "a3ca19e158cb039cdf3277704f012a8589f31aa1",
+  "summary": "Service Contract Quote-Detail report displays detailed information about service contract quotes including service items, contract discounts, and summarized quoted amounts for each contract.",
   "systems": [
     "service"
   ],
   "topics": [
-    "service contracts",
-    "quotes",
-    "reporting"
+    "service contract quotes",
+    "reporting",
+    "service items",
+    "contract discounts"
   ],
   "objects": [
     {
@@ -19,9 +20,10 @@
     }
   ],
   "features": [
+    "service contract quotes",
     "service items",
     "service contract discounts",
-    "quoted amounts"
+    "quoted amounts summary"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001101,
-      "pages_in_call": 7
+      "cost_usd": 0.002813,
+      "pages_in_call": 1
     }
   ]
 }

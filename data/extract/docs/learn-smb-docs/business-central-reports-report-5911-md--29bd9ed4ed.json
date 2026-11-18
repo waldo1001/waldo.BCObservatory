@@ -1,16 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5911.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5911",
-  "title": "Service - Invoice (document report)",
-  "blob": "6a6b793093c0554e4ab911f1017fb349eac6e786",
-  "summary": "Service - Invoice report produces service invoices for customers showing invoice number, order number, posting date, payment terms, customer details, and amount due.",
+  "title": "Service - Invoice (Document Report)",
+  "blob": "773c804365564540000dcaa1fd3586971018cffb",
+  "summary": "Service - Invoice report produces customer-facing service invoices with order details, posting dates, payment terms, customer information, and amounts due.",
   "systems": [
-    "service"
+    "service",
+    "reporting"
   ],
   "topics": [
-    "service invoice",
-    "document report",
-    "customer billing"
+    "service invoices",
+    "document reports",
+    "customer invoicing"
   ],
   "objects": [
     {
@@ -19,14 +20,13 @@
     }
   ],
   "features": [
-    "service invoice number",
-    "order number",
-    "posting date",
-    "due date",
-    "payment terms",
-    "customer name",
-    "VAT registration number",
-    "amount due"
+    "Service invoice number",
+    "Order number",
+    "Posting date and due date",
+    "Payment terms",
+    "Customer details",
+    "VAT registration",
+    "Amount due"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001088,
-      "pages_in_call": 7
+      "cost_usd": 0.002781,
+      "pages_in_call": 1
     }
   ]
 }

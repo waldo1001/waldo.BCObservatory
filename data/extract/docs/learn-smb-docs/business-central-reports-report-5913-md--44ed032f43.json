@@ -1,17 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5913.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5913",
-  "title": "Service - Shipment (document report)",
-  "blob": "ebc8dfd32642278fad4570e2489dd375580ac40e",
-  "summary": "The Service - Shipment report produces shipment documents showing shipment details, items, quantities, and customer information for posted service shipments. Use this report to generate shipment documents for customers with options for copies, correction lines, and lot/serial number appendix.",
+  "title": "Service - Shipment (Document Report)",
+  "blob": "544b54b43c7ab3e3113b31be0fdaed9560536df0",
+  "summary": "The Service - Shipment report produces shipment documents showing shipment numbers, item descriptions, quantities, and customer information for posted service shipments.",
   "systems": [
     "service"
   ],
   "topics": [
-    "service",
-    "shipment",
-    "document report",
-    "posted shipments"
+    "reporting",
+    "shipments",
+    "service management",
+    "document reports"
   ],
   "objects": [
     {
@@ -20,9 +20,12 @@
     }
   ],
   "features": [
-    "multiple copies",
-    "correction lines",
-    "lot and serial numbers"
+    "Multiple copies marking",
+    "Correction lines display",
+    "Lot and serial numbers appendix",
+    "Shipment number and date",
+    "Item description and quantity",
+    "Customer information"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003275,
-      "pages_in_call": 8
+      "cost_usd": 0.003039,
+      "pages_in_call": 1
     }
   ]
 }

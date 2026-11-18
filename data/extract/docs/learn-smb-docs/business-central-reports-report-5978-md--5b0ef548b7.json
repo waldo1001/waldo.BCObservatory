@@ -1,16 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5978.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5978",
-  "title": "Serv. Contract - Salesperson (report)",
-  "blob": "4fc13c83c58886bf033544c999e8c351df971600",
-  "summary": "Serv. Contract - Salesperson report shows a list of service contracts for each salesperson in a selected period, including customer details, start date, and annual amount.",
+  "title": "Serv. Contract - Salesperson (Report)",
+  "blob": "22c90fb21d337fe591a3f4f718daceabe828015c",
+  "summary": "Serv. Contract - Salesperson report displays service contracts for each salesperson during a selected period, showing customer details, start dates, and annual amounts.",
   "systems": [
     "service"
   ],
   "topics": [
     "service contracts",
-    "salesperson view",
-    "reporting"
+    "salesperson reporting",
+    "contract management",
+    "sales analysis"
   ],
   "objects": [
     {
@@ -19,11 +20,10 @@
     }
   ],
   "features": [
-    "customer number",
-    "name",
-    "description",
-    "start date",
-    "annual amount"
+    "service contracts list",
+    "salesperson grouping",
+    "period selection",
+    "contract annual amounts"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001101,
-      "pages_in_call": 7
+      "cost_usd": 0.002853,
+      "pages_in_call": 1
     }
   ]
 }

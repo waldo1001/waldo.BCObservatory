@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Service - Shipment (document report)",
+  "title": "Service - Shipment (Document Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5913",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.619Z",
-      "blob": "ebc8dfd32642278fad4570e2489dd375580ac40e",
+      "at": "2026-11-18T00:25:16.446Z",
+      "blob": "544b54b43c7ab3e3113b31be0fdaed9560536df0",
       "words": 201,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T21:17:39.814Z",
+      "at": "2026-11-18T00:25:20.987Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003275
+      "cost_usd": 0.003039
     },
     "summarized": {
-      "at": "2026-10-06T21:17:39.830Z",
+      "at": "2026-11-18T00:25:20.988Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T21:17:39.831Z",
+      "at": "2026-11-18T00:25:20.990Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T21:17:39.832Z",
+      "at": "2026-11-18T00:25:20.991Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5913.md",
-    "description": "Generate a service shipment document that you can send to your customer.",
-    "ms_date": "2024-11-02",
+    "description": "Generate a service shipment document that you can send to your customer. Include shipment details and an optional lot and serial number appendix.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 201,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4bfbc8e94385aa6e42b4c6ad2312436b91aa1136edf5a55f9aaeffb4557069b7"
+  "output_hash": "773409f7b79f3ba1bef59de7eb294184281ea1d823081313d3a6c3f933075f4a"
 }

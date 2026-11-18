@@ -1,16 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5977.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5977",
-  "title": "Service Contract - Customer (report)",
-  "blob": "d3b496ff2d79addfbc50f1a4cc6261f30bb0db99",
-  "summary": "Service Contract - Customer report shows a list of service contracts for each customer in a specified period, including status, next invoice date, invoice period, and amounts.",
+  "title": "Service Contract - Customer (Report)",
+  "blob": "2de300642b275735da651887a12b8c91cfd38a2e",
+  "summary": "The Service Contract - Customer report lists service contracts by customer for a specified period, showing status, invoice dates, periods, amounts per period, and annual amounts.",
   "systems": [
     "service"
   ],
   "topics": [
     "service contracts",
-    "customer view",
-    "reporting"
+    "customer contracts",
+    "reporting",
+    "invoicing",
+    "service management"
   ],
   "objects": [
     {
@@ -19,7 +21,7 @@
     }
   ],
   "features": [
-    "status",
+    "contract status",
     "next invoice date",
     "invoice period",
     "amount per period",
@@ -32,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001101,
-      "pages_in_call": 7
+      "cost_usd": 0.002691,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,16 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5983.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5983",
-  "title": "Contract Gain/Loss Entries (report)",
-  "blob": "cff7c49101555bb60e7581a0d8c8873b638c6dc4",
-  "summary": "Contract Gain/Loss Entries report shows all gain and loss entries for service contracts, including contract details, responsibility centers, and types of changes.",
+  "title": "Contract Gain/Loss Entries (Report)",
+  "blob": "f9a4d3b416369b47639aa5f9d44e1d48f5c78495",
+  "summary": "Contract Gain/Loss Entries report displays all gain and loss entries for service contracts, including contract numbers, reason codes, customer information, and contract gain/loss amounts.",
   "systems": [
     "service"
   ],
   "topics": [
-    "contract management",
-    "gains and losses",
-    "financial entries"
+    "contract",
+    "gain/loss",
+    "service contracts",
+    "reporting"
   ],
   "objects": [
     {
@@ -25,6 +26,7 @@
     "responsibility center",
     "customer number",
     "ship-to code",
+    "customer name",
     "type of change",
     "contract gain and loss"
   ],
@@ -35,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001248,
-      "pages_in_call": 8
+      "cost_usd": 0.003115,
+      "pages_in_call": 1
     }
   ]
 }

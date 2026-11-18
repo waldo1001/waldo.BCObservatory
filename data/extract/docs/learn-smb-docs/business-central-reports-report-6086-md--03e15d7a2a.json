@@ -1,18 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-6086.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6086",
-  "title": "Prepaid Contr. Entries (report)",
-  "blob": "6dec1057f6489ef2052796817ff42f125868e47a",
-  "summary": "The Prepaid Contr. Entries report shows the transfer of prepaid service contract ledger entry amounts from prepaid accounts to income accounts up to a specified date. Use it to track and verify prepaid service contract postings.",
+  "title": "Prepaid Contr. Entries (Report)",
+  "blob": "423325ee6ec4af6fcd3a284ab2e72e228a938f8d",
+  "summary": "The Prepaid Contr. Entries report displays the transfer of prepaid service contract ledger entry amounts from prepaid accounts to income accounts. It shows contract numbers, service items, account numbers, and amounts posted with configurable posting dates.",
   "systems": [
-    "service",
-    "reporting"
+    "service"
   ],
   "topics": [
-    "prepaid contracts",
-    "service ledger",
-    "contract entries",
-    "income recognition"
+    "prepaid entries",
+    "service contracts",
+    "ledger entries",
+    "reporting",
+    "posting dates"
   ],
   "objects": [
     {
@@ -21,11 +21,14 @@
     }
   ],
   "features": [
-    "contract tracking",
-    "prepaid amount transfer",
-    "ledger entry posting",
-    "date-based filtering",
-    "posting date configuration"
+    "prepaid service contract ledger entries",
+    "transfer to income accounts",
+    "contract numbers",
+    "service items",
+    "account numbers",
+    "amounts posted",
+    "configurable posting date",
+    "posting date as of filter"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002022,
-      "pages_in_call": 8
+      "cost_usd": 0.003042,
+      "pages_in_call": 1
     }
   ]
 }

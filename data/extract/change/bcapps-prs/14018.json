@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/14018",
+  "number": 14018,
+  "title": "[29.X]-ZUGFeRD: Custom Ship-to Address is not transferred to XML Delivery Address in the German version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Custom ship-to address fields are now correctly transferred to the XML delivery address in ZUGFeRD and XRechnung documents for German localization, and similar address handling is extended to PEPPOL invoices across W1 and NO localizations.",
+  "key_points": [
+    "Ship-to address details are properly mapped to XML delivery address fields in ZUGFeRD export",
+    "XRechnung export updated to handle custom ship-to address transfer",
+    "PEPPOL30 sales validation and XML exports enhanced to include address handling in W1 and NO versions",
+    "Comprehensive test coverage added for ZUGFeRD, XRechnung and PEPPOL address mapping scenarios",
+    "Addresses bug where custom ship-to addresses were not appearing in generated e-documents"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004374,
+    "changes_in_call": 1
+  }
+}

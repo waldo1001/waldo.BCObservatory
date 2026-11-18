@@ -1,16 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5915.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5915",
-  "title": "Service Document - Test (report)",
-  "blob": "641cf7baf5360e19ebdb0e2678991539fd4cdccf",
-  "summary": "Service Document - Test report verifies posting dates and checks for postable content in service documents.",
+  "title": "Service Document - Test (Report)",
+  "blob": "2cda90f2517a78bc1c83fcc58e60796f63c60f1f",
+  "summary": "Service Document - Test report shows and verifies posting dates in service documents and checks whether there's anything to post.",
   "systems": [
-    "service"
+    "service",
+    "reporting"
   ],
   "topics": [
-    "service documents",
-    "posting",
-    "verification"
+    "service management",
+    "reports",
+    "posting dates",
+    "document verification"
   ],
   "objects": [
     {
@@ -20,7 +22,7 @@
   ],
   "features": [
     "posting date verification",
-    "document posting check"
+    "service document checking"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001065,
-      "pages_in_call": 8
+      "cost_usd": 0.002713,
+      "pages_in_call": 1
     }
   ]
 }

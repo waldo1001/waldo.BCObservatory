@@ -1,16 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5912.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5912",
-  "title": "Service - Credit Memo (document report)",
-  "blob": "b84ae104cd803d5354c5bedc4a604420564b0ef7",
-  "summary": "Service - Credit Memo report produces service credit memos for customers that can only be printed after posting.",
+  "title": "Service - Credit Memo (Document Report)",
+  "blob": "d9b612153e1548f7d26c308fadca6cf23fd85bdc",
+  "summary": "Service - Credit Memo is a document report for printing posted service credit memos to send to customers, showing all or selected credit memos.",
   "systems": [
     "service"
   ],
   "topics": [
-    "service credit memo",
+    "service",
+    "credit memo",
     "document report",
-    "posted documents"
+    "printing"
   ],
   "objects": [
     {
@@ -19,8 +20,9 @@
     }
   ],
   "features": [
-    "credit memo",
-    "posted documents"
+    "print service credit memos",
+    "view posted credit memos",
+    "filter selected credit memos"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001088,
-      "pages_in_call": 7
+      "cost_usd": 0.002577,
+      "pages_in_call": 1
     }
   ]
 }
