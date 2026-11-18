@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:57.247Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,6 @@ links:
   videos:
     - video/auoHUd24Gfw
   posts:
-    - post/wingate365-com/https-blog-wingate365-com-2025-08-dynamicsminds-2025-portoroz-slovenia-html--fc223b1359
     - post/yzhums-com/67024
   guidelines: []
 learn_toc_path:
@@ -74,7 +73,7 @@ coverage:
   learn: 4
   code: 0
   video: 1
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 1e8a92be635f0e32edf1e5b1dca470a5a06c0027dde0320e46df27410561c37c
@@ -116,7 +115,6 @@ For delivery, the application lifecycle management page explains how to keep AL 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [DynamicsMinds 2025 - PortoroÅ¾, Slovenia](../../../../posts/wingate365-com/https-blog-wingate365-com-2025-08-dynamicsminds-2025-portoroz-slovenia-html--fc223b1359.md) (community post): "Virtual Tables and BC Data Sync to calling the API in code"
 - [Regarding the recent problem I encountered when opening Power Apps with Zscaler](../../../../posts/yzhums-com/67024.md) (community post): "problem I encountered when opening Power Apps with Zscaler"
 - [What's New: Using Power Pages with Business Central (2024 release wave 1)](../../../../videos/auoHUd24Gfw.md) (video): "Using Power Pages with Business Central; virtual tables; multi-company support; external user access"
 

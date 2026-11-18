@@ -12,7 +12,7 @@ review:
   at: "2026-11-15T00:50:59.680Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -555,8 +555,8 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9309 "Purchase Credit Memos"](../../../objects/page/9309.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md) · via [Tables and data](programming-in-the-al-language/tables-and-data.md)
 - [Page 9310 "Blanket Purchase Orders"](../../../objects/page/9310.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md) · via [Tables and data](programming-in-the-al-language/tables-and-data.md)
 - [Page 9311 "Purchase Return Order List"](../../../objects/page/9311.md) · captioned "Purchase Return Orders" · on [Table 38 "Purchase Header"](../../../objects/table/38.md) · via [Tables and data](programming-in-the-al-language/tables-and-data.md)
-- [Page 9650 "Custom Report Layouts"](../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../objects/table/9650.md) · via [Developing reports](programming-in-the-al-language/developing-reports.md)
-- [Page 9652 "Report Layout Selection"](../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../objects/table/9651.md) · via [Developing reports](programming-in-the-al-language/developing-reports.md)
+- [Page 9650 "Custom Report Layouts"](../../../objects/page/9650.md) · captioned "Custom Report Layouts (Obsoleted)" · on [Table 9650 "Custom Report Layout"](../../../objects/table/9650.md) · via [Developing reports](programming-in-the-al-language/developing-reports.md)
+- [Page 9652 "Report Layout Selection"](../../../objects/page/9652.md) · captioned "Report Layout Selection (Obsoleted)" · on [Table 9651 "Report Layout Selection"](../../../objects/table/9651.md) · via [Developing reports](programming-in-the-al-language/developing-reports.md)
 - [Page 9660 "Report Layouts"](../../../objects/page/9660.md) · via [Developing reports](programming-in-the-al-language/developing-reports.md)
 - [Page 9662 "Report Layout New Dialog"](../../../objects/page/9662.md) · captioned "Add New Layout for a Report" · via [Developing reports](programming-in-the-al-language/developing-reports.md)
 - [Page 9666 "Report Theme and Header/Footer"](../../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts" · via [Developing reports](programming-in-the-al-language/developing-reports.md)

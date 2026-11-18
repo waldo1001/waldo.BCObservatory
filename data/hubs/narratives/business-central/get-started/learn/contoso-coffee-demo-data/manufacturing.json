@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/get-started/learn/contoso-coffee-demo-data/manufacturing",
-  "input_hash": "d314a3cba50ab81881dbd0b16d2ae55f1aade55d2b0bfac5e3af47a83b2079fd",
-  "summary": "Manufacturing walkthroughs built on Contoso Coffee demo data in Business Central. They answer how to set up BOMs, routings, capacity, flushing, planning, variants and subcontracting, and how to process production orders with them.",
-  "overview": "This section is a set of hands-on walkthroughs that use the Contoso Coffee demo data. The introduction page describes the four sample products, their BOMs and routings, and the scenarios the data supports: production, subcontracting, flushing methods, capacity and demand forecasting.\n\nThe other pages each cover one task. Setup tasks include creating a production BOM and BOM version, creating a routing, and setting up a new work center and machine center with capacity calendars. Production tasks include creating and changing a firm planned production order, combining automatic and manual flushing, and using Order Planning to create and reserve supply. A further page covers variants with SKUs, forecasts and MPS planning.\n\nSubcontracting has its own group of pages: setting up and processing a subcontracting operation, using the three component supply methods, and setting up subcontracting prices with item charge allocation.",
+  "input_hash": "8c3250e6bfd6eb3f3050fbaeccc28128c0a5e3bb287cd7ab879f6eb2ff1b72e7",
+  "summary": "Manufacturing walkthroughs using Contoso Coffee demo data in Business Central. They answer how-to questions on production orders, BOMs, routings, capacity, flushing, variants, order planning and subcontracting.",
+  "overview": "This section is a set of hands-on scenarios built on the Contoso Coffee manufacturing demo data. The data has four products with production BOMs, routings, work centers and machine centers. Each scenario shows one manufacturing task step by step.\n\nThe pages fall into groups. Master data: new production BOMs and BOM versions, new routings, and new capacity (work centers, machine centers, calendars). Production orders: firm planned orders with backward and forward scheduling, combining automatic and manual flushing, and order planning to create and reserve subassembly supply. Variants: planning for item variants. Subcontracting: setting up and processing an operation, component supply methods, and subcontracting prices with item charges.\n\nStart with \"Introduction to Contoso Coffee Manufacturing\" to see the demo data and the scenarios it supports. Then pick the scenario that matches your task.",
   "key_points": [
-    "The introduction describes four sample products with different BOMs and routings, including phantom BOMs, standard and specific costing, item tracking and alternative routings.",
-    "BOM walkthrough covers creating a production BOM, adding components, certifying it, copying a BOM, and creating versions with a starting date.",
-    "Routing walkthrough covers operation numbers, work center assignment, setup and run time, and routing certification.",
-    "Capacity walkthrough sets up a work center and machine center with shop calendar, capacity calendar and efficiency.",
-    "Flushing walkthrough combines forward flushing, manual consumption journals and backward flushing, with output registration.",
-    "Firm planned production orders are created and changed using backward and forward scheduling and order refresh.",
-    "Order Planning walkthrough uses Calculate Plan, Make Orders and Reserve to supply subassemblies for parent orders.",
-    "Subcontracting pages cover the Subcontracting app, transfer orders to vendors, WIP transfers, price lists with minimum order amounts, item charge allocation, and the three component supply methods: transfer to vendor, consignment at vendor, vendor-supplied."
+    "The introduction page describes four optimized Contoso Coffee products with production BOMs, routings, work centers, machine centers, item tracking and phantom BOMs.",
+    "A new production BOM or BOM version is made by copying an existing BOM and removing components, then certifying it and setting a starting date.",
+    "A new routing needs a header and lines with operation details, and must be certified; the example routing is named New Path.",
+    "New capacity is set up by creating a work center (Test Department) and a machine center with a capacity calendar, an efficiency rating and single-shift hours.",
+    "Firm planned production orders can be refreshed and rescheduled with backward or forward scheduling, and quantities can be changed.",
+    "The flushing scenario combines forward, backward and manual flushing for components and operations, and checks results in Item Ledger Entries.",
+    "Variant planning covers variant BOMs, stockkeeping units and demand forecasts by variant with MPS planning.",
+    "Subcontracting scenarios cover transfer to vendor, receiving output, invoicing, the supply methods Transfer to Vendor, Consignment at Vendor and Vendor-Supplied, subcontractor prices with minimum amounts, and freight allocation by item charges."
   ],
   "members_used": 11,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-24T00:52:35.733Z",
+  "at": "2026-11-18T00:59:27.609Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.02087
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:55:10.672Z",
-    "verdict": "fix",
-    "issues": [
-      "The overview's last sentence gives a reading order (introduction, then BOM, routing and capacity setup, then production and subcontracting). No page summary supports this order, and the walkthroughs run on existing demo data, so they don't depend on each other. Removed.",
-      "Everything else matches the page summaries: the summary and all eight key points are supported, and there are no status words, versions or invented features."
-    ],
-    "input_hash": "d314a3cba50ab81881dbd0b16d2ae55f1aade55d2b0bfac5e3af47a83b2079fd",
-    "cost_usd": 0.049171200000000005
+    "cost_usd": 0.017417000000000002
   }
 }

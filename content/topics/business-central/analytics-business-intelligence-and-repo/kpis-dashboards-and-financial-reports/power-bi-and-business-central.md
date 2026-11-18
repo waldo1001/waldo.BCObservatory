@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -62,14 +62,11 @@ links:
   videos:
     - video/7lxkboRGw28
     - video/DVgclv3alZU
-    - video/F_pssS0FtUc
     - video/fy96_jdL1PQ
-    - video/gMyp9JkXf9g
     - video/hSJW3LiOBxg
   posts:
     - post/thinkaboutit-be/7226
     - post/thinkaboutit-be/7753
-    - post/yzhums-com/74390
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -81,8 +78,8 @@ children: []
 coverage:
   learn: 4
   code: 2
-  video: 6
-  blog: 3
+  video: 4
+  blog: 2
   guideline: 0
 bc_forms:
   - 6316
@@ -127,14 +124,11 @@ Start with the introduction to choose an approach, then go to the page for your 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [How to Install and Configure Power BI Monitor for Business Central](../../../../posts/thinkaboutit-be/7226.md) (community post): "Power BI Monitor extension enables Business Central users to manage Power BI resources directly through Business Central"
+- [How to Install and Configure Power BI Monitor for Business Central](../../../../posts/thinkaboutit-be/7226.md) (community post): "Power BI Monitor extension enables Business Central users to manage Power BI resources"
 - [Which Power BI License Do You Need for Business Central?](../../../../posts/thinkaboutit-be/7753.md) (community post): "Power BI Pro is required for any practical use of Power BI with Business Central"
-- [Business Central 2026 release wave 1 (BC28.2): Use new APIs for analyzing approval workflows for auditors and IT staff](../../../../posts/yzhums-com/74390.md) (community post): "Organizations can integrate with Power BI, Copilot Studio, and MCP Server for analytics"
 - [20261109 - Not a Developer No Problem! Deploy & Embed Power BI Apps in Business Central](../../../../videos/7lxkboRGw28.md) (video): "Five-click deployment for Business Central Power BI apps; Power BI workspace setup and access control"
 - [What's New: Enhanced Power BI and Excel with Business Central (2026 release wave 1)](../../../../videos/DVgclv3alZU.md) (video): "Excel as Client for Power BI Semantic Models; Agentic Excel Capabilities"
-- [Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data](../../../../videos/F_pssS0FtUc.md) (video): "Business Central Usage App; DAU/WAU/MAU Report; Sessions Report; User Locations Report"
 - [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../../videos/fy96_jdL1PQ.md) (video): "PowerBI integration and reporting; PowerBI Data Modeling; PowerBI Dashboards; PowerBI Scorecards"
-- [What's New: Excel Reports for Finance and Sales (2024 release wave 1)](../../../../videos/gMyp9JkXf9g.md) (video): "Excel reports; trial balance; accounts receivable; accounts payable; aging reports"
 - [What's New: Power BI and Reporting for Developers (2023 release wave 2)](../../../../videos/hSJW3LiOBxg.md) (video): "power bi integration; analytical reports"
 
 ## Business Central pages and reports

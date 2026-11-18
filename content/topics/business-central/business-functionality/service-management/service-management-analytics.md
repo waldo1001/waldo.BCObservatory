@@ -2,215 +2,208 @@
 id: topic/business-central/business-functionality/service-management/service-management-analytics
 type: topic
 title: Service management analytics
-summary: Service management analytics in Business Central covers service statistics and a set of 37 service management reports. It answers questions about analyzing service contracts, quotes, orders, items, resources, and profitability, and about what each report shows and which fields or options it offers.
+summary: Service management analytics in Business Central covers service statistics and a set of service reports. It answers questions about how to analyze service documents, evaluate service performance, and find what a specific service report shows.
 tier: official
 language: en
 system: service
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:15:32.951Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f85e2c0741bfaab46981613ac9433e0242d74487059b31a9a81cd6060b6df4fa
+  input_hash: 996de7c4a97bae5e2afb28e2584cde0c1e1b52668b10273bff987776a21152c4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5981
-    title: Contr. Gain/Loss - Resp. Ctr. (report)
-    date: "2024-11-02"
+    title: Contr. Gain/Loss - Resp. Ctr. (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5988
-    title: Contr. Serv. Orders - Test (report)
-    date: "2024-11-02"
+    title: Contr. Serv. Orders - Test (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5983
-    title: Contract Gain/Loss Entries (report)
-    date: "2024-11-02"
+    title: Contract Gain/Loss Entries (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5984
-    title: Contract Invoicing - Test (report)
-    date: "2024-11-02"
+    title: Contract Invoicing - Test (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5985
-    title: Contract Price Update - Test (report)
-    date: "2024-11-02"
+    title: Contract Price Update - Test (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5974
-    title: Contract Quotes to Be Signed (report)
-    date: "2024-11-02"
+    title: Contract Quotes to Be Signed (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5955
-    title: Dispatch Board (report)
-    date: "2024-11-02"
+    title: Dispatch Board in Business Central (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5987
-    title: Expired Contract Lines - Test (report)
-    date: "2024-11-02"
+    title: Expired Contract Lines - Test (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5982
-    title: Maintenance Performance (report)
-    date: "2024-11-02"
+    title: Maintenance Performance (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5980
-    title: Maintenance Visit - Planning (report)
-    date: "2024-11-02"
+    title: Maintenance Visit - Planning (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-6086
-    title: Prepaid Contr. Entries (report)
+    title: Prepaid Contr. Entries (Report)
     date: "2024-11-02"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5978
-    title: Serv. Contract - Salesperson (report)
-    date: "2024-11-02"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-6080
-    title: Serv. Pricing Profitability (report)
-    date: "2024-11-02"
+    title: Serv. Contract - Salesperson (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5912
-    title: Service - Credit Memo (document report)
-    date: "2024-11-02"
+    title: Service - Credit Memo (Document Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5911
-    title: Service - Invoice (document report)
-    date: "2024-11-02"
+    title: Service - Invoice (Document Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5913
-    title: Service - Shipment (document report)
-    date: "2024-11-02"
+    title: Service - Shipment (Document Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5977
-    title: Service Contract - Customer (report)
-    date: "2024-11-02"
+    title: Service Contract - Customer (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5970
-    title: Service Contract (report)
-    date: "2024-11-02"
+    title: Service Contract in Business Central (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5972
-    title: Service Contract Quote (document report)
-    date: "2024-11-02"
+    title: Service Contract Quote (Document Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5973
-    title: Service Contract Quote-Detail (report)
-    date: "2024-11-02"
+    title: Service Contract Quote-Detail (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5971
-    title: Service Contract-Detail (report)
-    date: "2024-11-02"
+    title: Service Contract-Detail (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5915
-    title: Service Document - Test (report)
-    date: "2024-11-02"
+    title: Service Document - Test (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5939
-    title: Service Item - Resource Usage (report)
-    date: "2024-11-02"
+    title: Service Item - Resource Usage (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5901
-    title: Service Item Line Labels (report)
-    date: "2024-11-02"
+    title: Service Item Line Labels (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5936
-    title: Service Item Worksheet (report)
-    date: "2024-11-02"
+    title: Service Item Worksheet (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5935
-    title: Service Items (report)
-    date: "2024-11-02"
+    title: Service Items in Business Central (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5937
-    title: Service Items Out of Warranty (report)
-    date: "2024-11-02"
+    title: Service Items Out of Warranty (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5956
-    title: Service Load Level (report)
-    date: "2024-11-02"
+    title: Service Load Level in Business Central (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -223,50 +216,57 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5908
-    title: Service Order - Response Time (report)
-    date: "2024-11-02"
+    title: Service Order - Response Time (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5900
-    title: Service Order (document report)
-    date: "2024-11-02"
+    title: Service Order (Document Report)
+    date: "2026-11-16"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-6080
+    title: Service Pricing Profitability (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5976
-    title: Service Profit (Contracts) (report)
-    date: "2024-11-02"
+    title: Service Profit (Contracts) (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5909
-    title: Service Profit (Resp. Centers) (report)
-    date: "2024-11-02"
+    title: Service Profit (Resp. Centers) (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5910
-    title: Service Profit (Serv. Orders) (report)
-    date: "2024-11-02"
+    title: Service Profit (Serv. Orders) (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5938
-    title: Service Profit (Service Items) (report)
-    date: "2024-11-02"
+    title: Service Profit (Service Items) (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5902
-    title: Service Quote (document report)
-    date: "2024-11-02"
+    title: Service Quote (Document Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -279,8 +279,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5904
-    title: Service Tasks (report)
-    date: "2024-11-02"
+    title: Service Tasks in Business Central (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -388,28 +388,28 @@ narrative: generated
 
 # Service management analytics
 
-> Service management analytics in Business Central covers service statistics and a set of 37 service management reports. It answers questions about analyzing service contracts, quotes, orders, items, resources, and profitability, and about what each report shows and which fields or options it offers.
+> Service management analytics in Business Central covers service statistics and a set of service reports. It answers questions about how to analyze service documents, evaluate service performance, and find what a specific service report shows.
 
-Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Service management analytics · tier official · system service · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Service management analytics · tier official · system service · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This area is about measuring and reviewing service management work. The own page, Service statistics, explains how to analyze service documents and judge performance across contracts, items, quotes, orders, invoices, and credit memos. It uses trendscapes and gain/loss analysis, and it also mentions sustainability metrics.
+This area covers how to analyze service management data in Business Central. It has two parts: the Service statistics page and a subtopic of report reference pages.
 
-The Service management reports subtopic is the reference part. It has 37 pages, one for each analytic, test, and document report. They cover service contracts, contract quotes, service orders, service items, resources, and profitability.
+Service statistics lets you review service documents and judge service management performance across contracts, items, quotes, orders, invoices, and credit memos. It includes trendscape analysis, contract analysis, gain/loss tracking, and sustainability metrics, and there is a separate view for service item statistics.
 
-Start with Service statistics for an on-screen view of how service operations are doing. Go to the reports subtopic when you need a printable or document-style output, or when you need to know what a specific report contains and which options it has.
+The Service management reports subtopic has 37 reference pages. They cover service contracts, service orders, service items, profitability, resource load, and printable service documents. Start with Service statistics for on-screen analysis, and go to the reports subtopic when you need to know what a given report lists and what it is for.
 
 ## Key points
 
-- Service statistics lets you analyze service documents and evaluate service management performance.
-- Statistics cover contracts, items, quotes, orders, invoices, and credit memos.
-- Trendscape analysis and gain/loss tracking are available, along with contract analysis.
-- Service item statistics are part of the statistics features.
-- Sustainability metrics are listed among the service statistics features.
-- The Service management reports subtopic has 37 reference pages.
-- Reports are grouped as analytic, test, and document reports.
-- Report topics include service contracts, contract quotes, service orders, service items, resources, and profitability.
+- Service statistics analyzes service documents to evaluate service management performance.
+- Coverage includes contracts, items, quotes, orders, invoices, and credit memos.
+- Trendscape analysis and gain/loss tracking are part of the statistics views.
+- Service item statistics is available as its own view.
+- Sustainability metrics are mentioned among the statistics features.
+- The Service management reports subtopic has 37 report reference pages.
+- Reports cover service contracts, service orders, service items, profitability, and resource load.
+- Printable service documents are also documented in the reports subtopic, with fields and purpose per report.
 
 ## Subtopics
 

@@ -460,70 +460,64 @@
       }
     },
     "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central": {
-      "post/demiliani-com/15981@1e3ae1a50e02a848": {
+      "post/thinkaboutit-be/7226@3c369c913420f437": {
         "verdict": "keep",
-        "reason": "Fabric data mirroring of Business Central tables for BI and Power BI reporting is related to getting Business Central data into Power BI; kept because in doubt.",
-        "at": "2026-10-26T08:44:54.994Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/7226@ab365594449abce1": {
-        "verdict": "keep",
-        "reason": "A third-party extension that manages and monitors Power BI resources from inside Business Central, which works with the Power BI integration.",
-        "at": "2026-10-26T08:44:54.994Z",
+        "reason": "Extension that manages and monitors Power BI resources from within Business Central, extending the integration.",
+        "at": "2026-11-18T00:56:23.308Z",
         "v": 2
       },
       "post/thinkaboutit-be/7753@57b11a7be3700d7b": {
         "verdict": "keep",
-        "reason": "Explains the Power BI licenses needed to use Power BI with Business Central, including embedded reports.",
-        "at": "2026-10-26T08:44:54.994Z",
-        "v": 2
-      },
-      "post/waldo-be/318707@075857747db2e4d8": {
-        "verdict": "keep",
-        "reason": "Native Fabric mirroring that feeds Fabric-based Power BI reporting on Business Central data; kept as related because in doubt.",
-        "at": "2026-10-26T08:44:54.994Z",
+        "reason": "Explains Power BI license requirements for using Power BI with Business Central, part of the integration overview.",
+        "at": "2026-11-18T00:56:23.308Z",
         "v": 2
       },
       "post/yzhums-com/73030@727c456195521108": {
         "verdict": "drop",
-        "reason": "Covers new customer retention reports in the Power BI Sales app, which the sibling Power BI apps section documents more exactly.",
-        "at": "2026-10-26T08:44:54.994Z",
+        "reason": "About specific new reports in the Power BI Sales app plus Excel subtotals; the Power BI apps section fits better.",
+        "at": "2026-11-18T00:56:23.308Z",
+        "v": 2
+      },
+      "post/yzhums-com/74390@a4b03aeae99a6145": {
+        "verdict": "drop",
+        "reason": "Subject is approval workflow APIs; Power BI is only mentioned as a possible consumer.",
+        "at": "2026-11-18T00:56:23.308Z",
+        "v": 2
+      },
+      "video/7lxkboRGw28@e7468c3cef5b5a25": {
+        "verdict": "keep",
+        "reason": "Covers connecting, embedding, licensing and setting up Power BI with Business Central, beyond just the apps.",
+        "at": "2026-11-18T00:56:23.308Z",
         "v": 2
       },
       "video/DVgclv3alZU@d09f2d38b9bbe715": {
         "verdict": "keep",
-        "reason": "Covers broad Power BI integration features such as embedded Power BI, the demo experience and semantic models.",
-        "at": "2026-10-26T08:44:54.994Z",
+        "reason": "Release overview of Power BI integration in Business Central, including embedded demo and semantic models.",
+        "at": "2026-11-18T00:56:23.308Z",
         "v": 2
       },
-      "video/F_pssS0FtUc@25880ebddffc054c": {
+      "video/F_pssS0FtUc@5a2b94b55b112835": {
         "verdict": "drop",
-        "reason": "Its subject is telemetry and usage analytics, not the Power BI integration this section documents.",
-        "at": "2026-10-26T08:44:54.994Z",
+        "reason": "About telemetry and the usage analytics app for admins, not the Power BI integration this section documents.",
+        "at": "2026-11-18T00:56:23.308Z",
         "v": 2
       },
-      "video/fy96_jdL1PQ@5e76d8486583f625": {
+      "video/fy96_jdL1PQ@3c254f17091a943f": {
         "verdict": "keep",
-        "reason": "Discusses Power BI integration, Power BI embedded in Business Central, data modeling and query APIs for Power BI.",
-        "at": "2026-10-26T08:44:54.994Z",
+        "reason": "Discusses Power BI integration, embedding in Business Central, query APIs and dashboards.",
+        "at": "2026-11-18T00:56:23.308Z",
+        "v": 2
+      },
+      "video/gMyp9JkXf9g@3ce244a37ebcf746": {
+        "verdict": "drop",
+        "reason": "Covers Excel reports for finance and sales, not Power BI.",
+        "at": "2026-11-18T00:56:23.308Z",
         "v": 2
       },
       "video/hSJW3LiOBxg@f09aed84ce5a6177": {
         "verdict": "keep",
         "reason": "Covers embedding Power BI reports, visuals and scorecards in Business Central.",
-        "at": "2026-10-26T08:44:54.994Z",
-        "v": 2
-      },
-      "video/kOCiyVql0go@49918665f6b1dd4c": {
-        "verdict": "keep",
-        "reason": "Fabric integration that enables multi-company Power BI reporting on Business Central data; kept because in doubt.",
-        "at": "2026-10-26T08:44:54.994Z",
-        "v": 2
-      },
-      "video/rAaUiKByyEE@094e815f636bfc37": {
-        "verdict": "drop",
-        "reason": "About updates to the Power BI Sales app, which the sibling Power BI apps section documents more exactly.",
-        "at": "2026-10-26T08:44:54.994Z",
+        "at": "2026-11-18T00:56:23.308Z",
         "v": 2
       }
     },
@@ -766,40 +760,40 @@
       }
     },
     "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent": {
-      "video/Fz8NLByllRc@7535e141cc6d29ae": {
+      "video/54uIhzZq3Os@782b50dad3ae2d33": {
         "verdict": "keep",
-        "reason": "Shows how to create and set up mileage expenses in Expense Agent, which is part of working with the agent.",
-        "at": "2026-10-25T17:54:09.676Z",
+        "reason": "Shows the expense report process in Expense Agent: dimensions, posting, and paying employees.",
+        "at": "2026-11-18T00:56:26.083Z",
         "v": 2
       },
-      "video/GwrMf1umTFg@71905062c4fae6ee": {
+      "video/Fz8NLByllRc@b2aede21b05eeb79": {
         "verdict": "keep",
-        "reason": "Shows project tracking and resource assignment for expenses in the Expense Agent web app.",
-        "at": "2026-10-25T17:54:09.676Z",
+        "reason": "Shows how to set up and use mileage expenses in Expense Agent.",
+        "at": "2026-11-18T00:56:26.083Z",
         "v": 2
       },
-      "video/Hct_HE0KzEc@628be1ace1732704": {
-        "verdict": "drop",
-        "reason": "A general interview on AI adoption in Business Central that only mentions Expense Agent and doesn't show how to work with it.",
-        "at": "2026-10-25T17:54:09.676Z",
+      "video/M0IzeLSn7qU@0a880d0c5d8978c0": {
+        "verdict": "keep",
+        "reason": "Covers approval processes in Expense Agent, which are part of working with the agent.",
+        "at": "2026-11-18T00:56:26.083Z",
         "v": 2
       },
-      "video/M0IzeLSn7qU@411128753699d378": {
+      "video/P1V4jy08YM8@e14b56653e4bfab3": {
         "verdict": "keep",
-        "reason": "Shows how expense approvals and approval policies work in Expense Agent.",
-        "at": "2026-10-25T17:54:09.676Z",
+        "reason": "Walks through the Expense Agent setup wizard, which is directly about working with the agent.",
+        "at": "2026-11-18T00:56:26.083Z",
         "v": 2
       },
-      "video/s3d9vW6tuT8@c2f01f6c3d1d4483": {
+      "video/s3d9vW6tuT8@db3f119e16215f5c": {
         "verdict": "keep",
-        "reason": "Shows how to use travel requests and create expense reports with Expense Agent.",
-        "at": "2026-10-25T17:54:09.676Z",
+        "reason": "Shows travel requests that create expense reports in Expense Agent.",
+        "at": "2026-11-18T00:56:26.083Z",
         "v": 2
       },
-      "video/vyQnSxRGJDA@43ba18146723000f": {
+      "video/vyQnSxRGJDA@c70b08961222236f": {
         "verdict": "keep",
-        "reason": "Shows how to set up and calculate per diem allowances in Expense Agent.",
-        "at": "2026-10-25T17:54:09.676Z",
+        "reason": "Shows how to set up and use per diem allowances in Expense Agent.",
+        "at": "2026-11-18T00:56:26.083Z",
         "v": 2
       }
     },
@@ -7134,88 +7128,112 @@
       }
     },
     "topic/dev-itpro/development/extension-lifecycle/testing": {
-      "post/demiliani-com/12482@b6104cb1d6840996": {
-        "verdict": "drop",
-        "reason": "About updating sandbox environments to preview versions, which is environment administration, not testing extensions.",
-        "at": "2026-10-30T01:09:10.516Z",
-        "v": 2
-      },
-      "post/dvlprlife-com/https://www.dvlprlife.com/2026/07/al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing/@cc8830a1e4f346cb": {
+      "video/aNRzlbxVPWE@683ba8dfccf93aac": {
         "verdict": "keep",
-        "reason": "A VS Code tool that analyses test handler functions (MessageHandler, ConfirmHandler, PageHandler) in test codeunits.",
-        "at": "2026-10-30T01:09:10.516Z",
-        "v": 2
-      },
-      "post/gerardorenteria-blog/11565@a1adbb44bfa791e6": {
-        "verdict": "keep",
-        "reason": "The changelog includes testing features this section documents: TestHttpRequestPolicy mocking, the TestType property and test isolation.",
-        "at": "2026-10-30T01:09:10.516Z",
-        "v": 2
-      },
-      "post/jpearson-blog/1590@e5d3f6540015d0a1": {
-        "verdict": "keep",
-        "reason": "Covers running AL tests through the test explorer and AL Test Runner.",
-        "at": "2026-10-30T01:09:10.516Z",
-        "v": 2
-      },
-      "post/sshadows-dk/https://sshadows.dk/blog/your-tests-all-pass/@f03044501f502b0e": {
-        "verdict": "keep",
-        "reason": "A mutation testing tool that measures the quality of AL test suites.",
-        "at": "2026-10-30T01:09:10.516Z",
-        "v": 2
-      },
-      "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/@14154f02a4527d5d": {
-        "verdict": "keep",
-        "reason": "Mainly covers AL Runner improvements for running AL tests, including test paging and safeguards against tests silently disappearing.",
-        "at": "2026-10-30T01:09:10.516Z",
-        "v": 2
-      },
-      "post/wingate365-com/https://blog.wingate365.com/2025/10/south-coast-summit-2025-ai-driven-page.html@0d806c4d729387e2": {
-        "verdict": "keep",
-        "reason": "Covers creating and scaling page scripting test automation.",
-        "at": "2026-10-30T01:09:10.516Z",
-        "v": 2
-      },
-      "post/yzhums-com/77021@47b7ed9708eb003b": {
-        "verdict": "keep",
-        "reason": "Covers new Page Scripting capabilities for repeatable user acceptance tests.",
-        "at": "2026-10-30T01:09:10.516Z",
-        "v": 2
-      },
-      "video/9CW5mydS9Vs@ac90087b90c2ab2e": {
-        "verdict": "keep",
-        "reason": "Covers test libraries, test isolation, test type, runners and test permissions for BC apps.",
-        "at": "2026-10-30T01:09:10.516Z",
+        "reason": "Covers writing agent eval tests in AL using the test library and suite setup, which is part of extension testing.",
+        "at": "2026-11-18T00:56:20.340Z",
         "v": 2
       },
       "video/eUkx_VCcyoU@7b21270aaf33f5fa": {
         "verdict": "keep",
-        "reason": "Includes the HTTP Client Handler for testing, a testing feature this section documents.",
-        "at": "2026-10-30T01:09:10.516Z",
+        "reason": "Includes the HTTP Client Handler for Testing feature, which is part of testing AL extensions.",
+        "at": "2026-11-18T00:56:20.340Z",
+        "v": 2
+      },
+      "video/EurgqGU1jG0@edb14011eda297ee": {
+        "verdict": "keep",
+        "reason": "About automated AL testing patterns, test doubles and code coverage for extensions.",
+        "at": "2026-11-18T00:56:20.340Z",
+        "v": 2
+      },
+      "video/Hdp4KbbGpQA@59483189c6971aa7": {
+        "verdict": "drop",
+        "reason": "About benchmarking AI coding agents on AL tasks, not about testing extensions.",
+        "at": "2026-11-18T00:56:20.340Z",
         "v": 2
       },
       "video/hNom9ZZuca0@a0273f33cef1d527": {
         "verdict": "keep",
-        "reason": "Covers data-driven testing and test handlers in the AL testing framework.",
-        "at": "2026-10-30T01:09:10.516Z",
+        "reason": "Covers AL testing framework features such as data-driven tests and test handlers.",
+        "at": "2026-11-18T00:56:20.340Z",
         "v": 2
       },
       "video/JI9OpaBx0nk@a7e451a7d6fd0a0c": {
         "verdict": "keep",
-        "reason": "Covers mocking outbound HTTP calls in AL tests with the test HTTP request policy.",
-        "at": "2026-10-30T01:09:10.516Z",
+        "reason": "Shows how to mock outbound HTTP calls in AL tests, a test isolation technique.",
+        "at": "2026-11-18T00:56:20.340Z",
         "v": 2
       },
       "video/qlFEdXPjX6A@c0acd9d9c46340fd": {
         "verdict": "keep",
-        "reason": "Includes the AI Test Type and the Required Test Isolation property, both testing features.",
-        "at": "2026-10-30T01:09:10.516Z",
+        "reason": "Includes the AI Test Type and the Required Test Isolation property for AL tests.",
+        "at": "2026-11-18T00:56:20.340Z",
+        "v": 2
+      },
+      "video/xB9kszf93hE@928b67b6a7122643": {
+        "verdict": "keep",
+        "reason": "Introduces agent testing with data-driven evaluations in AL.",
+        "at": "2026-11-18T00:56:20.340Z",
         "v": 2
       },
       "video/xr8C3c6WhOI@e9e8ed3d1b5f4c07": {
         "verdict": "keep",
-        "reason": "Covers running page scripting tests and deploying test apps in AL-Go workflows.",
-        "at": "2026-10-30T01:09:10.516Z",
+        "reason": "Covers automating extension tests and deploying test apps with AL-Go.",
+        "at": "2026-11-18T00:56:20.340Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/3214@fecc63e0187e92da": {
+        "verdict": "drop",
+        "reason": "It covers AI code review of pull requests, not testing extensions.",
+        "at": "2026-11-18T00:56:20.564Z",
+        "v": 2
+      },
+      "post/demiliani-com/12482@b6104cb1d6840996": {
+        "verdict": "drop",
+        "reason": "It covers updating sandbox environments to preview versions, which is environment administration rather than extension testing.",
+        "at": "2026-11-18T00:56:20.564Z",
+        "v": 2
+      },
+      "post/dvlprlife-com/https://www.dvlprlife.com/2026/07/al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing/@cc8830a1e4f346cb": {
+        "verdict": "keep",
+        "reason": "A VS Code lens for test handler functions (MessageHandler, ConfirmHandler, PageHandler) works directly with the test codeunits this section documents.",
+        "at": "2026-11-18T00:56:20.564Z",
+        "v": 2
+      },
+      "post/gerardorenteria-blog/11565@a1adbb44bfa791e6": {
+        "verdict": "keep",
+        "reason": "Part of this changelog covers testing features: HTTP mocking with TestHttpRequestPolicy, the TestType property and test isolation.",
+        "at": "2026-11-18T00:56:20.564Z",
+        "v": 2
+      },
+      "post/jpearson-blog/1590@e5d3f6540015d0a1": {
+        "verdict": "keep",
+        "reason": "It covers running AL tests from the VS Code test explorer and with AL Test Runner.",
+        "at": "2026-11-18T00:56:20.564Z",
+        "v": 2
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/your-tests-all-pass/@f03044501f502b0e": {
+        "verdict": "keep",
+        "reason": "It presents an AL mutation testing tool that checks how good an extension's tests are.",
+        "at": "2026-11-18T00:56:20.564Z",
+        "v": 2
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/@14154f02a4527d5d": {
+        "verdict": "keep",
+        "reason": "Most of the recap is about AL Runner, which executes AL tests, and how its results were checked against real BC sandboxes.",
+        "at": "2026-11-18T00:56:20.564Z",
+        "v": 2
+      },
+      "post/waldo-be/318755@62d8c4b8300aea40": {
+        "verdict": "keep",
+        "reason": "It covers AL Runner, a tool that runs AL test suites outside Business Central.",
+        "at": "2026-11-18T00:56:20.564Z",
+        "v": 2
+      },
+      "video/9CW5mydS9Vs@690dc16b8ea38dd7": {
+        "verdict": "keep",
+        "reason": "Microsoft's session covers test libraries, test isolation, test types, runners and running tests for BC apps.",
+        "at": "2026-11-18T00:56:20.564Z",
         "v": 2
       }
     },
@@ -10208,40 +10226,70 @@
       }
     },
     "topic/dev-itpro/integration-with-ai": {
-      "post/demiliani-com/12036@2c9b7f3c2df35822": {
+      "post/demiliani-com/13611@6c96e55c3dcf715b": {
         "verdict": "keep",
-        "reason": "Discusses making Business Central APIs consumable by LLMs and AI agents through metadata and OpenAPI, which is AI integration with Business Central.",
-        "at": "2026-10-28T08:42:42.123Z",
+        "reason": "Discusses Business Central's System.AI wrapper over Azure OpenAI Chat Completions and how it could evolve, which is the developer tooling for Copilot this section documents.",
+        "at": "2026-11-18T00:56:25.127Z",
         "v": 2
       },
-      "post/demiliani-com/13611@3f81a7d9140ce132": {
-        "verdict": "keep",
-        "reason": "Discusses the System.AI namespace that wraps Azure OpenAI Chat Completions, part of the developer tools for Copilot.",
-        "at": "2026-10-28T08:42:42.123Z",
+      "post/freddysblog/https://freddysblog.com/2026/08/23/which-model-should-you-use-for-which-task@08bd3fc0e8a468c5": {
+        "verdict": "drop",
+        "reason": "Covers model selection in general, with no tie shown to integrating AI into Business Central.",
+        "at": "2026-11-18T00:56:25.127Z",
         "v": 2
       },
       "post/jeremyvyska-com/1437@7d818304d4d4649e": {
         "verdict": "drop",
-        "reason": "About tuning GitHub Copilot for AL coding; its MCP use feeds knowledge to the coding assistant, not Business Central's MCP integration.",
-        "at": "2026-10-28T08:42:42.123Z",
+        "reason": "About feeding knowledge to GitHub Copilot to improve AL coding, not about integrating AI or MCP into Business Central.",
+        "at": "2026-11-18T00:56:25.127Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-818643009386692123@982baa375093ea02": {
         "verdict": "keep",
-        "reason": "Discusses agent design and the AI Development Toolkit and Agent Building Sandbox, which relate to designing and coding agents.",
-        "at": "2026-10-28T08:42:42.123Z",
+        "reason": "Covers agent design, the AI Development Toolkit and the Agent Building Sandbox, which relate to the section's subtopic on designing and coding agents.",
+        "at": "2026-11-18T00:56:25.127Z",
+        "v": 2
+      },
+      "post/waldo-be/318712@028849109406a45b": {
+        "verdict": "drop",
+        "reason": "A navigation site for release-wave videos; AI is only the tool used to build it.",
+        "at": "2026-11-18T00:56:25.127Z",
         "v": 2
       },
       "post/yzhums-com/75296@325b0526e8e1321c": {
         "verdict": "drop",
-        "reason": "A VS Code extension of AI coding-assistant skills for writing AL, not about integrating AI into Business Central.",
-        "at": "2026-10-28T08:42:42.123Z",
+        "reason": "An AI coding-assistant extension for AL development, not about integrating AI capabilities into Business Central.",
+        "at": "2026-11-18T00:56:25.127Z",
         "v": 2
       },
-      "video/7SSNcUMFtCw@0a389bab8e080e1f": {
+      "video/7SSNcUMFtCw@3c48524ce85d7ab2": {
         "verdict": "keep",
-        "reason": "Shows AI Resources, managed and bring-your-own Azure OpenAI, and the Azure OpenAI Deployments codeunit, all part of the developer tools for Copilot.",
-        "at": "2026-10-28T08:42:42.123Z",
+        "reason": "Shows AI Resources, managed resource authorization, the Azure OpenAI Deployments codeunit and bring-your-own subscription, which are part of the developer tools for Copilot.",
+        "at": "2026-11-18T00:56:25.127Z",
+        "v": 2
+      },
+      "video/94Lqd7Ap8YQ@107a723d06f9c07d": {
+        "verdict": "drop",
+        "reason": "About AI upskilling and partner talent programs, not the developer integration topics this section documents.",
+        "at": "2026-11-18T00:56:25.127Z",
+        "v": 2
+      },
+      "video/jWJc_D67Vfw@ab6457d447b40499": {
+        "verdict": "drop",
+        "reason": "A personal method for learning AI tools; MCP is mentioned only as a general tool, not as Business Central integration.",
+        "at": "2026-11-18T00:56:25.127Z",
+        "v": 2
+      },
+      "video/Wc8WlLZUCJc@c92bcca268b044dd": {
+        "verdict": "drop",
+        "reason": "A partner's internal AI transformation story, with no Business Central AI development content.",
+        "at": "2026-11-18T00:56:25.127Z",
+        "v": 2
+      },
+      "video/YIeE63Kn8sI@163466e106c76575": {
+        "verdict": "drop",
+        "reason": "Business-level AI strategy and governance, not developer integration of AI with Business Central.",
+        "at": "2026-11-18T00:56:25.127Z",
         "v": 2
       }
     },
@@ -11454,74 +11502,80 @@
     "topic/dev-itpro/integration/integrating-with-azure-services": {
       "post/demiliani-com/11817@8a143a847069d4a0": {
         "verdict": "keep",
-        "reason": "Azure Functions SQL trigger used for event-driven Business Central integrations.",
-        "at": "2026-11-15T00:46:47.520Z",
+        "reason": "Uses Azure Functions with SQL triggers to build event-driven integrations with Business Central.",
+        "at": "2026-11-18T00:56:25.637Z",
         "v": 2
       },
       "post/demiliani-com/11887@84d11ae88fab1c21": {
         "verdict": "keep",
-        "reason": "Uses an Azure Function and NAT gateway as middleware to give Business Central API calls a static outbound IP.",
-        "at": "2026-11-15T00:46:47.520Z",
+        "reason": "Uses an Azure Function with a NAT gateway as middleware so third-party calls to Business Central APIs come from a static IP.",
+        "at": "2026-11-18T00:56:25.637Z",
         "v": 2
       },
-      "post/demiliani-com/12002@5e3d72746319275a": {
-        "verdict": "keep",
-        "reason": "Covers handling large blobs in Azure Logic Apps used for Business Central integration.",
-        "at": "2026-11-15T00:46:47.520Z",
+      "post/demiliani-com/11932@906559ce335610ef": {
+        "verdict": "drop",
+        "reason": "About storage performance in Logic Apps in general; nothing in the evidence ties it to Business Central integration.",
+        "at": "2026-11-18T00:56:25.637Z",
         "v": 2
       },
-      "post/demiliani-com/12292@6546eff064d226b9": {
+      "post/demiliani-com/12002@75de838a59ba2cd7": {
         "verdict": "keep",
-        "reason": "Compares Logic Apps Blob connectors, which is part of building Azure integrations; kept despite the withheld summary.",
-        "at": "2026-11-15T00:46:47.520Z",
+        "reason": "Covers memory problems with large blobs in Logic Apps used for Business Central integration.",
+        "at": "2026-11-18T00:56:25.637Z",
         "v": 2
       },
-      "post/demiliani-com/12313@d1ff4cb84b0ab8cc": {
+      "post/demiliani-com/12292@6dd480b6c429f114": {
+        "verdict": "drop",
+        "reason": "Compares the two Logic Apps blob storage connectors in general; the evidence never mentions Business Central.",
+        "at": "2026-11-18T00:56:25.637Z",
+        "v": 2
+      },
+      "post/demiliani-com/12313@58f531fd56827f5d": {
         "verdict": "keep",
-        "reason": "Shows how to set up an Azure Logic App with the Business Central connector, including what the connector's parameters need.",
-        "at": "2026-11-15T00:46:47.520Z",
+        "reason": "Shows deploying a Logic App with the Business Central connector, including how to set the connector's parameters.",
+        "at": "2026-11-18T00:56:25.637Z",
         "v": 2
       },
       "post/demiliani-com/13020@b65fccecbe28dedd": {
         "verdict": "keep",
-        "reason": "Shows how to secure an Azure Storage account that Business Central accesses.",
-        "at": "2026-11-15T00:46:47.520Z",
+        "reason": "Shows how to secure an Azure Storage account so only Business Central can access it.",
+        "at": "2026-11-18T00:56:25.637Z",
         "v": 2
       },
-      "post/demiliani-com/13657@f77285cfb5357ba1": {
+      "post/demiliani-com/13840@dfbc8ac0f3a638ec": {
         "verdict": "drop",
-        "reason": "About Azure Blob Storage pricing tiers in general, with no Business Central integration.",
-        "at": "2026-11-15T00:46:47.520Z",
+        "reason": "About reaching Azure OpenAI from Logic Apps through a private endpoint, with no link to Business Central in the evidence.",
+        "at": "2026-11-18T00:56:25.637Z",
         "v": 2
       },
       "post/demiliani-com/17492@08f87c23334409de": {
         "verdict": "keep",
-        "reason": "Shows how to restrict Azure Storage to Business Central traffic using the Dynamics365BusinessCentral service tag.",
-        "at": "2026-11-15T00:46:47.520Z",
+        "reason": "Limits Azure Storage access to Business Central traffic using the Dynamics365BusinessCentral service tag.",
+        "at": "2026-11-18T00:56:25.637Z",
         "v": 2
       },
       "post/jpearson-blog/1485@8dea0139e96e8023": {
         "verdict": "keep",
-        "reason": "Shows how Azure Functions or Static Web Apps can call Business Central APIs using managed identities.",
-        "at": "2026-11-15T00:46:47.520Z",
+        "reason": "Shows Azure Functions or Static Web Apps calling Business Central APIs through a managed identity, without a client secret.",
+        "at": "2026-11-18T00:56:25.637Z",
         "v": 2
       },
       "post/jpearson-blog/1535@165fcd6854fd68d4": {
         "verdict": "keep",
-        "reason": "Shows how Azure resources can call Business Central directly from a managed identity.",
-        "at": "2026-11-15T00:46:47.520Z",
+        "reason": "Shows Azure resources calling Business Central APIs directly with a managed identity.",
+        "at": "2026-11-18T00:56:25.637Z",
         "v": 2
       },
-      "post/jpearson-blog/1601@4430c56e1a4d0bcd": {
+      "post/jpearson-blog/1601@c352932240af9e0d": {
         "verdict": "keep",
-        "reason": "Shows how to integrate an Azure Static Web App with Business Central.",
-        "at": "2026-11-15T00:46:47.520Z",
+        "reason": "Shows how to connect an Azure Static Web App to Business Central through the WebPageViewer add-in.",
+        "at": "2026-11-18T00:56:25.637Z",
         "v": 2
       },
-      "post/thinkaboutit-be/7226@ab365594449abce1": {
-        "verdict": "drop",
-        "reason": "A Power BI monitoring extension that fits the Power Platform section; Azure AD app registration is only a setup step.",
-        "at": "2026-11-15T00:46:47.520Z",
+      "video/oN0XfuCe6Qg@207f33cb0a84b559": {
+        "verdict": "keep",
+        "reason": "Covers the External File Storage module, which connects Business Central to Azure Blob Storage.",
+        "at": "2026-11-18T00:56:25.637Z",
         "v": 2
       }
     },

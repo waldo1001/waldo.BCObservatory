@@ -21,48 +21,53 @@
     "573253": {
       "docs/learn-devitpro/dev-itpro/compliance/apptest-countries-and-translations.md@466349fd62ad3085": {
         "verdict": "drop",
-        "reason": "General Business Central country and language availability page that does not describe Expense Agent language support.",
-        "at": "2026-10-30T08:02:02.659Z"
+        "reason": "This general Business Central page on country and language availability does not mention the Expense Agent.",
+        "at": "2026-11-18T00:53:28.914Z"
       },
       "docs/learn-smb-docs/business-central/about-locale-language.md@39db8481ca1568ab": {
         "verdict": "drop",
-        "reason": "General multilanguage configuration page, not about Expense Agent's expanded languages or regions.",
-        "at": "2026-10-30T08:02:02.659Z"
+        "reason": "This page covers general Business Central language and region settings, not the Expense Agent's language expansion.",
+        "at": "2026-11-18T00:53:28.914Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-calculate-depreciation-basis.md@fcb45685dce50721": {
         "verdict": "drop",
-        "reason": "Czech fixed asset depreciation is unrelated to Expense Agent localization.",
-        "at": "2026-10-30T08:02:02.659Z"
+        "reason": "This Czech fixed-asset depreciation page has nothing to do with the Expense Agent's language support.",
+        "at": "2026-11-18T00:53:28.914Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-depreciate-holidays-for-fixed-assets.md@71959b7198351bb6": {
         "verdict": "drop",
-        "reason": "Czech fixed asset depreciation holidays are unrelated to Expense Agent localization.",
-        "at": "2026-10-30T08:02:02.659Z"
+        "reason": "This Czech depreciation holiday page has nothing to do with the Expense Agent.",
+        "at": "2026-11-18T00:53:28.914Z"
+      },
+      "video/Ax8yXCf7BY4#8@540c7fa06cc0c991": {
+        "verdict": "drop",
+        "reason": "Czech Intrastat localization is a different capability.",
+        "at": "2026-11-18T00:53:28.914Z"
       },
       "video/cVfZoDwKYpI#4@b12d4e66f615e2c7": {
         "verdict": "drop",
-        "reason": "Describes reading receipts in different languages, not the agent's interface language and region expansion.",
-        "at": "2026-10-30T08:02:02.659Z"
+        "reason": "This is about reading multi-language receipts, not adding interface languages or countries for the agent.",
+        "at": "2026-11-18T00:53:28.914Z"
       },
       "video/kDixaZFPYE8#0@a1eeb5cda2d340cf": {
         "verdict": "drop",
-        "reason": "Describes the earlier wave 1 languages (Danish, French, German, Spanish, English), not the new languages this feature adds.",
-        "at": "2026-10-30T08:02:02.659Z"
+        "reason": "This covers the earlier wave 1 languages (Danish, French, German, Spanish, English), not the newly added ones.",
+        "at": "2026-11-18T00:53:28.914Z"
       },
       "video/kDixaZFPYE8#1@a1eeb5cda2d340cf": {
         "verdict": "drop",
-        "reason": "Describes the earlier wave 1 country expansion, not availability in all countries/regions.",
-        "at": "2026-10-30T08:02:02.659Z"
+        "reason": "This covers the earlier wave 1 list of countries, not availability in all countries.",
+        "at": "2026-11-18T00:53:28.914Z"
       },
       "video/tj1vvsmAMVs#16@8bff31977f8f95e5": {
         "verdict": "keep",
-        "reason": "Announces expanded Expense Agent support for Czech, Dutch, Icelandic, Italian, Norwegian, and Swedish.",
-        "at": "2026-10-30T08:02:02.659Z"
+        "reason": "It announces Expense Agent support for Czech, Dutch, Icelandic, Italian, Norwegian and Swedish.",
+        "at": "2026-11-18T00:53:28.914Z"
       },
       "video/tj1vvsmAMVs#17@8bff31977f8f95e5": {
         "verdict": "keep",
-        "reason": "Announces Expense Agent rolling out to all countries, which is this feature's region expansion.",
-        "at": "2026-10-30T08:02:02.659Z"
+        "reason": "It announces the Expense Agent's rollout to all countries, which is part of this feature.",
+        "at": "2026-11-18T00:53:28.914Z"
       }
     },
     "573254": {
@@ -145,148 +150,148 @@
     "573255": {
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-approve-reports.md@ed406eabf16dc696": {
         "verdict": "keep",
-        "reason": "Documents approvers reviewing compliance warnings and policy issues before approving, the approver-guidance part of the feature.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Describes approvers reviewing compliance warnings and policy issues before approving, the approver-guidance part of the feature.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-overview.md@22e0ea1082245014": {
         "verdict": "drop",
-        "reason": "General Expense Agent overview that only mentions policy compliance as a topic.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "General Expense Agent overview listing policy compliance only as a topic.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-policy-compliance.md@5baba922dac40e13": {
         "verdict": "keep",
-        "reason": "Explains AI-assisted policy evaluation including background evaluation after submission and non-compliant flagging.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Documents AI-assisted policy evaluation including background evaluation after submission and flagging.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-approve-reports.md@1f45cc1f3227bb04": {
         "verdict": "drop",
         "reason": "Covers general approval and deterministic rule violations, not AI policy validation.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-categories-rules.md@371711c7d5364c33": {
         "verdict": "keep",
-        "reason": "Documents setting up natural-language expense policies with AI evaluation.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Documents setting up expense policies with AI evaluation, the natural-language policy configuration.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-setup.md@b05b520074189001": {
         "verdict": "keep",
-        "reason": "Setup page that includes enabling AI-assisted policy evaluation, a setting of this feature.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Setup page explicitly includes the AI-assisted policy evaluation setting.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-submit-report.md@bc3c0f398897d31d": {
         "verdict": "drop",
-        "reason": "About creating and submitting reports and rule violations, not AI approval policy validation.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "About creating and submitting reports and rule violations, not AI policy validation for approvers.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/4TE8uwIi91k#6@4151766ef06f91dc": {
         "verdict": "drop",
-        "reason": "Describes mobile app approval, a different capability.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Covers mobile app approval, a different feature, and only touches on compliance flags.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
-      "video/ARKckFygbWQ#6@ee52f918d959bc18": {
+      "video/ARKckFygbWQ#6@a609e2db11d837c2": {
         "verdict": "drop",
-        "reason": "Generic wave 1 compliance checking based on rules, not clearly AI natural-language policy validation.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Wave 1 rule-based compliance determination, not AI validation against natural-language policies.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/cVfZoDwKYpI#46@b12d4e66f615e2c7": {
         "verdict": "keep",
-        "reason": "Explains natural-language policies for business class, hotels, and alcohol, which this feature evaluates.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Explains natural-language policies for business class, hotels and alcohol, the core of the feature.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/cVfZoDwKYpI#9@b12d4e66f615e2c7": {
         "verdict": "drop",
-        "reason": "Too general a description of a policy and rules engine.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Generic description of a policy and rules engine, too general.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/egE6UdOfar0#6@7d8c675d2687bc19": {
         "verdict": "drop",
-        "reason": "Describes deterministic threshold rules, not natural-language AI policies.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Describes deterministic threshold rules, which this feature goes beyond.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/egE6UdOfar0#7@7d8c675d2687bc19": {
         "verdict": "keep",
-        "reason": "Announces the policy-based approval mechanism handling business class, hotel, and alcohol policies.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Announces a planned policy-based approval mechanism for business class, hotel and alcohol policies.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/M0IzeLSn7qU#0@ebdf2cffeba1a5d7": {
         "verdict": "keep",
-        "reason": "Demonstrates AI-driven approval policies that flag expenses for approvers without blocking approval.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Demonstrates enabling AI-driven approval policies that flag expenses for approvers without blocking them.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/o94V_lF8oNM#0@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Shows the toggle to evaluate free-text policies with AI to help approvers.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Shows the toggle that uses AI to evaluate free-text policies to help approvers.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/o94V_lF8oNM#1@bb33c215eabcc2f5": {
         "verdict": "drop",
-        "reason": "Pre-submission checks by submitters are a different capability from post-submission approval validation.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Pre-submission self-check by submitters is a different capability from post-submission approval validation.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/o94V_lF8oNM#2@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Shows flagged-policy status that requires approver attention.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Shows flagging of reports with potential policy non-compliance for approver attention.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/o94V_lF8oNM#3@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Shows free-text policies by category that AI analyzes against submitted expenses.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Demonstrates free-text policies by category that AI evaluates against submitted expenses.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/o94V_lF8oNM#4@bb33c215eabcc2f5": {
         "verdict": "drop",
-        "reason": "Submitter-initiated pre-submission check, a different capability.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Submitter-initiated pre-submission check, not the post-submission approver feature.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/o94V_lF8oNM#6@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Shows how policy evaluation tracks expense versions and re-evaluates after changes.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Explains how policy evaluations are tracked and re-evaluated when expenses change, a behavior of the feature.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/o94V_lF8oNM#7@bb33c215eabcc2f5": {
-        "verdict": "drop",
-        "reason": "An upcoming override-reason requirement, separate from this feature.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "verdict": "keep",
+        "reason": "Describes approvers overriding policy violations with a reason, which keeps approvers in control.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/o94V_lF8oNM#8@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Shows a behavior of the AI policy check: it skips runs when nothing needs checking.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Explains when the AI policy checks run or are skipped, a behavior of the feature.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/pjML7lXSsd0#2@e7c0638dcaf3f932": {
         "verdict": "keep",
-        "reason": "States the agent checks approvals against human-language company policies.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Describes the agent checking approval compliance against human-language company policies.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/qZALauRY_So#0@d587f11310a2bc0d": {
         "verdict": "drop",
-        "reason": "General approval workflow, not AI policy validation.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Generic approval workflow with notifications, not AI policy validation.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/qZALauRY_So#1@d587f11310a2bc0d": {
         "verdict": "drop",
-        "reason": "Wave 1 pre-submission AI suggestions, not post-submission approval policy validation.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Pre-submission AI suggestions, a different and earlier capability.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/qZALauRY_So#4@d587f11310a2bc0d": {
         "verdict": "drop",
-        "reason": "Approval notifications are a different capability.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Approval notifications are unrelated to AI policy validation.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/qZALauRY_So#5@d587f11310a2bc0d": {
         "verdict": "drop",
-        "reason": "Rejecting or sending back reports is basic approval functionality.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Reject and send-back actions are the existing approval workflow, not this feature.",
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/tj1vvsmAMVs#5@8bff31977f8f95e5": {
         "verdict": "keep",
         "reason": "Shows AI checking expenses against human-readable travel policies.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "at": "2026-11-18T00:53:46.421Z"
       },
       "video/tj1vvsmAMVs#6@8bff31977f8f95e5": {
         "verdict": "keep",
-        "reason": "Shows policy flags that help approvers decide without hard blocking.",
-        "at": "2026-11-17T00:54:35.205Z"
+        "reason": "Shows non-blocking policy flags that help approvers make informed decisions.",
+        "at": "2026-11-18T00:53:46.421Z"
       }
     },
     "573256": {
@@ -1203,18 +1208,18 @@
     "573307": {
       "docs/learn-smb-docs/business-central/LocalFunctionality/India/Posting-No-series-setup.md@a6bc11cd8cb6b712": {
         "verdict": "drop",
-        "reason": "Covers location-based conditional number series in the Indian localization, not vendor-specific number series for self-billing.",
-        "at": "2026-11-10T00:51:22.374Z"
+        "reason": "This is about conditional, location-based number series in the Indian localization, not vendor-specific series for self-billing.",
+        "at": "2026-11-18T00:53:28.923Z"
       },
-      "video/8VRtBLNAOiI#2@d9b62cba40505f7a": {
+      "video/8VRtBLNAOiI#2@83473660a2166c3f": {
         "verdict": "drop",
-        "reason": "Describes the earlier single self-billing number series in Purchases & Payables Setup, not per-vendor number series.",
-        "at": "2026-11-10T00:51:22.374Z"
+        "reason": "It covers the earlier single self-billing number series in Purchases & Payables Setup, not the new per-vendor assignment.",
+        "at": "2026-11-18T00:53:28.923Z"
       },
       "video/N_J1HB_fUCM#5@35122e58438517de": {
         "verdict": "keep",
-        "reason": "Directly announces choosing a number series for each self-billing vendor, falling back to the setup default.",
-        "at": "2026-11-10T00:51:22.374Z"
+        "reason": "It shows choosing a number series for each self-billing vendor, falling back to the setup default when none is chosen.",
+        "at": "2026-11-18T00:53:28.923Z"
       }
     },
     "573308": {
@@ -1298,217 +1303,227 @@
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-configuration-trace.md@b6d86fa30c97c4d4": {
         "verdict": "drop",
         "reason": "Configuration telemetry; does not describe custom data query tools.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-server-trace.md@76b2ef9f35f9c38b": {
         "verdict": "drop",
-        "reason": "General MCP tool-call telemetry, not the data query capability.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "General tool call telemetry, not the data query capability.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md@594338000aff45d5": {
         "verdict": "drop",
         "reason": "AL development MCP server, a different product.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-22-1.md@e4e00f23ab2d0f9c": {
         "verdict": "drop",
         "reason": "Unrelated 2023 update.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/0WAOtNaKjws#5@7b84cb59744f5d3c": {
         "verdict": "drop",
         "reason": "MCP resources support is a different capability.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/0WAOtNaKjws#6@7b84cb59744f5d3c": {
         "verdict": "drop",
-        "reason": "Embedded file resources for large data is a different capability.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Embedded resources for large data is a different capability.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/4HE3BBCcV84#0@c5fe2a2a532e1563": {
         "verdict": "drop",
-        "reason": "Exposes existing API queries, not custom-defined queries for data without APIs.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Exposes existing API queries, not custom queries without APIs.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/4HE3BBCcV84#2@c5fe2a2a532e1563": {
         "verdict": "drop",
-        "reason": "Configuration of existing analytics API queries, not custom query tools.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Query object type configuration for analytics API queries, a different capability.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
-      "video/B9VbZzC2p7E#0@787ec256b6908244": {
+      "video/AMVAiPTfSrU#1@8e56bd0b31620b69": {
         "verdict": "drop",
-        "reason": "Spreadsheet SQL agent, not MCP server query tools.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "General MCP server mention.",
+        "at": "2026-11-18T00:53:31.626Z"
+      },
+      "video/B9VbZzC2p7E#0@52a39dc6517d202c": {
+        "verdict": "drop",
+        "reason": "SQL agent in a spreadsheet app, not MCP data query tools.",
+        "at": "2026-11-18T00:53:31.626Z"
+      },
+      "video/B9VbZzC2p7E#1@52a39dc6517d202c": {
+        "verdict": "drop",
+        "reason": "Spreadsheet app agent, unrelated to MCP query tools.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/C5cmG3sNjUg#0@dc724b8ce76af8c3": {
         "verdict": "drop",
-        "reason": "General MCP server exposing APIs.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "General MCP server API exposure.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/C5cmG3sNjUg#3@dc724b8ce76af8c3": {
         "verdict": "drop",
-        "reason": "Dynamic tool search over API pages, a different capability.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Dynamic tools search over API pages, a different capability.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/EpDIrJE0HzA#1@21321fae0c1fa1d7": {
         "verdict": "drop",
-        "reason": "General MCP server introduction.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "General MCP overview.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/EpDIrJE0HzA#2@21321fae0c1fa1d7": {
         "verdict": "drop",
-        "reason": "MCP configurations page, not data query tools.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "MCP configurations page in general.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/GeT5E_f9A9Q#0@be56261481e721e3": {
         "verdict": "drop",
-        "reason": "MCP configurations in general.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "General MCP configurations.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/GeT5E_f9A9Q#1@be56261481e721e3": {
         "verdict": "drop",
         "reason": "Dynamic tool mode, a different capability.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/GeT5E_f9A9Q#3@be56261481e721e3": {
         "verdict": "drop",
-        "reason": "Bound actions on API pages, different capability.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Bound actions, a different capability.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/GK6hM-nBYZk#1@389cdb7bd9e37f0c": {
         "verdict": "drop",
         "reason": "General MCP server mention.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/IDYhxt-8ImI#22@7ab728d0a7abc892": {
         "verdict": "drop",
         "reason": "General MCP explanation.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/iViHfCgL2L8#0@b4735c7cd0586a45": {
         "verdict": "drop",
         "reason": "General MCP server introduction.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/iViHfCgL2L8#2@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Default read-only configuration over API pages.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Default read-only configuration, not query tools.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/iViHfCgL2L8#3@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Write scenario configurations, unrelated.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Write scenario configurations, a different capability.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/LerAo-GGl8U#0@bad4154ca6e36eb9": {
         "verdict": "drop",
         "reason": "Admin MCP server, a different product.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/mBU2Iu0urw8#18@58e64b6744a3f5f9": {
         "verdict": "drop",
         "reason": "AL development MCP server.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/mBU2Iu0urw8#34@58e64b6744a3f5f9": {
         "verdict": "drop",
         "reason": "AL development MCP tooling.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/mBU2Iu0urw8#8@58e64b6744a3f5f9": {
         "verdict": "drop",
         "reason": "AL development MCP servers.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/q3xnjJD32kk#4@8159e1ae25b35be5": {
         "verdict": "keep",
-        "reason": "Directly describes agents constructing and running queries via MCP tools without APIs.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Describes agents building and running queries through MCP tools without APIs.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/qs1cg-GoDeQ#0@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Find tables tool is part of the MCP data query tool set.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Find tables tool belongs to the new MCP data query tool set.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/qs1cg-GoDeQ#1@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Table relations tool supports defining join queries in the data tool set.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Table relations tool supports defining join queries in this feature.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/qs1cg-GoDeQ#2@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Table schema tool supports defining queries in the data tool set.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Table schema tool helps agents define queries as part of this feature.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/qs1cg-GoDeQ#3@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Data query tool runs AL queries directly without APIs.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Data query tool runs AL queries directly without APIs, which is this feature.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/qs1cg-GoDeQ#4@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Describes agents constructing and compiling AL queries for ad hoc analysis.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Describes agents building and compiling AL queries for ad hoc data analysis.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/rm-FstU_I80#0@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP server description.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/rm-FstU_I80#10@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Static configuration for write scenarios.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Static configuration for writes, unrelated.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/rm-FstU_I80#11@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Default read-only access, not query tools.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Default read-only access, unrelated.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/rm-FstU_I80#14@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Search/describe/invoke tools, not data query tools.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Search, describe and invoke tools, not the data query tools.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/rm-FstU_I80#15@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "Natural-language data retrieval via existing APIs, too general.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/rm-FstU_I80#19@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Validate here concerns API related-entity exposure, not query validation.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Validate here is about choosing related entities for API exposure, not query validation.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/rm-FstU_I80#2@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP tools component.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/rm-FstU_I80#22@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Exposing existing queries via configuration, not custom query definition tools.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Exposing existing queries through configuration is a different capability.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/rm-FstU_I80#23@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Page and API selection, different capability.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Page and API selection, unrelated.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/rm-FstU_I80#6@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "General MCP server description.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "General MCP description.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/rm-FstU_I80#9@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Dynamic tool configuration, different capability.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Dynamic tool configuration, a different capability.",
+        "at": "2026-11-18T00:53:31.626Z"
       },
       "video/x0XF0lBvgEE#2@b58c3bf367517517": {
         "verdict": "keep",
-        "reason": "Explicitly announces the Run data queries with MCP Server feature.",
-        "at": "2026-11-16T00:54:55.588Z"
+        "reason": "Announces the Run data queries with MCP Server feature by name.",
+        "at": "2026-11-18T00:53:31.626Z"
       }
     },
     "573313": {
@@ -1887,80 +1902,115 @@
     "573322": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-analysis-view-package.md@6dfb24b9d017bb2b": {
         "verdict": "drop",
-        "reason": "About packaging analysis views in AL extensions, not system audit fields.",
-        "at": "2026-11-11T00:53:36.224Z"
+        "reason": "Covers packaging analysis views in AL extensions, not system audit fields.",
+        "at": "2026-11-18T00:53:22.728Z"
       },
       "docs/learn-smb-docs/business-central/analysis-mode.md@675e6a4f9d6c79ee": {
         "verdict": "drop",
         "reason": "General analysis mode documentation with no mention of system audit fields.",
-        "at": "2026-11-11T00:53:36.224Z"
+        "at": "2026-11-18T00:53:22.728Z"
       },
-      "video/Afv-r-eDt90#3@e51c1b28c0471285": {
+      "video/Afv-r-eDt90#3@1219e81cb5b6d402": {
         "verdict": "drop",
-        "reason": "About adding analysis views to profiles, a different capability from system audit fields.",
-        "at": "2026-11-11T00:53:36.224Z"
+        "reason": "Describes analysis views in profiles, a different capability from audit fields.",
+        "at": "2026-11-18T00:53:22.728Z"
+      },
+      "video/Afv-r-eDt90#5@1219e81cb5b6d402": {
+        "verdict": "drop",
+        "reason": "Covers hiding analysis views through personalization, which is unrelated to audit fields.",
+        "at": "2026-11-18T00:53:22.728Z"
       },
       "video/H7R_m8Ue38g#0@dfd016e4945deec0": {
         "verdict": "keep",
-        "reason": "Explains how system audit fields become flow fields that can be added to pages, which supports adding them directly to pages.",
-        "at": "2026-11-11T00:53:36.224Z"
+        "reason": "Explains that system audit fields became flow fields that can be added to pages, which supports the page part of the feature.",
+        "at": "2026-11-18T00:53:22.728Z"
       },
       "video/H7R_m8Ue38g#1@dfd016e4945deec0": {
         "verdict": "keep",
-        "reason": "Shows administrators adding system audit fields to pages through profile customization.",
-        "at": "2026-11-11T00:53:36.224Z"
+        "reason": "Shows admins adding system audit fields to pages through profile customization.",
+        "at": "2026-11-18T00:53:22.728Z"
       },
       "video/H7R_m8Ue38g#2@dfd016e4945deec0": {
         "verdict": "keep",
-        "reason": "Shows system audit fields used directly in analysis mode.",
-        "at": "2026-11-11T00:53:36.224Z"
+        "reason": "Shows system audit fields being used directly in analysis mode.",
+        "at": "2026-11-18T00:53:22.728Z"
       },
       "video/Sh3ySQSTw-o#8@e4496cd7c1ef9d3b": {
         "verdict": "keep",
-        "reason": "Announces system fields such as created by and modified on appearing in analysis mode column pickers.",
-        "at": "2026-11-11T00:53:36.224Z"
+        "reason": "Announces that system fields are now visible in analysis mode column pickers.",
+        "at": "2026-11-18T00:53:22.728Z"
       },
       "video/Sh3ySQSTw-o#9@e4496cd7c1ef9d3b": {
         "verdict": "keep",
-        "reason": "Announces system fields being included in profiles through the page designer.",
-        "at": "2026-11-11T00:53:36.224Z"
+        "reason": "Announces that system fields can be included in profiles through the page designer.",
+        "at": "2026-11-18T00:53:22.728Z"
       },
       "video/ZpzZ6El8GXY#0@0b984cdcd651aeb9": {
         "verdict": "keep",
-        "reason": "Announces using system audit fields in analysis tabs and views.",
-        "at": "2026-11-11T00:53:36.224Z"
+        "reason": "Announces that system fields can be used in analysis tabs and views.",
+        "at": "2026-11-18T00:53:22.728Z"
       },
       "video/ZpzZ6El8GXY#3@0b984cdcd651aeb9": {
         "verdict": "keep",
-        "reason": "Shows system audit fields added to pages in the page designer for profiles.",
-        "at": "2026-11-11T00:53:36.224Z"
+        "reason": "Shows system audit fields being added to pages in the page designer for profiles.",
+        "at": "2026-11-18T00:53:22.728Z"
       }
     },
     "573323": {
-      "video/5RJ3yZ7m1UU#0@587c2ed9cc979283": {
+      "video/9g1vwaXmy2s#0@707ea769e4882d3f": {
         "verdict": "drop",
-        "reason": "Describes the Power BI Finance app, not report packs producing a single PDF.",
-        "at": "2026-11-09T00:40:39.556Z"
+        "reason": "Describes scheduling a single financial report, an earlier feature, not report packs that combine multiple reports into one PDF.",
+        "at": "2026-11-18T00:53:20.735Z"
+      },
+      "video/9g1vwaXmy2s#1@707ea769e4882d3f": {
+        "verdict": "drop",
+        "reason": "Covers Excel/PDF export of individually scheduled reports, not a combined PDF from a report pack.",
+        "at": "2026-11-18T00:53:20.735Z"
+      },
+      "video/9g1vwaXmy2s#2@707ea769e4882d3f": {
+        "verdict": "drop",
+        "reason": "Covers email delivery of a single scheduled financial report, not report packs.",
+        "at": "2026-11-18T00:53:20.735Z"
+      },
+      "video/9g1vwaXmy2s#3@707ea769e4882d3f": {
+        "verdict": "drop",
+        "reason": "Covers recurrence controls for single-report schedules, an earlier capability.",
+        "at": "2026-11-18T00:53:20.735Z"
+      },
+      "video/9g1vwaXmy2s#4@707ea769e4882d3f": {
+        "verdict": "drop",
+        "reason": "Covers the report inbox for single scheduled reports, not report packs.",
+        "at": "2026-11-18T00:53:20.735Z"
+      },
+      "video/9g1vwaXmy2s#5@707ea769e4882d3f": {
+        "verdict": "drop",
+        "reason": "Covers custom filters on single-report schedules, not report packs.",
+        "at": "2026-11-18T00:53:20.735Z"
+      },
+      "video/9g1vwaXmy2s#6@707ea769e4882d3f": {
+        "verdict": "drop",
+        "reason": "Covers date filter formulas on a single financial report schedule, not report packs.",
+        "at": "2026-11-18T00:53:20.735Z"
       },
       "video/qj0VHB2Pmvc#6@12f1c16cc345f2ee": {
         "verdict": "keep",
-        "reason": "Directly announces report packs that run multiple reports into one consolidated PDF with scheduling.",
-        "at": "2026-11-09T00:40:39.556Z"
+        "reason": "Directly announces report packs that run multiple reports in one operation, produce a single PDF and can be scheduled.",
+        "at": "2026-11-18T00:53:20.735Z"
       },
       "video/uxQRfChp96c#5@d361630c8e158753": {
         "verdict": "drop",
-        "reason": "Describes scheduling of individual reports from an earlier wave, not report packs.",
-        "at": "2026-11-09T00:40:39.556Z"
+        "reason": "Describes the 2026 wave 1 single-report scheduling feature, not multi-report packs.",
+        "at": "2026-11-18T00:53:20.735Z"
       },
       "video/uxQRfChp96c#6@d361630c8e158753": {
         "verdict": "drop",
-        "reason": "Covers recurrence formulas for individual scheduled reports, a different earlier capability.",
-        "at": "2026-11-09T00:40:39.556Z"
+        "reason": "Covers the recurrence formula for single-report scheduling, an earlier capability.",
+        "at": "2026-11-18T00:53:20.735Z"
       },
       "video/uxQRfChp96c#7@d361630c8e158753": {
         "verdict": "drop",
-        "reason": "Covers custom filters for individual report schedules, not multi-report packs.",
-        "at": "2026-11-09T00:40:39.556Z"
+        "reason": "Covers custom filters for single scheduled reports, not report packs.",
+        "at": "2026-11-18T00:53:20.735Z"
       }
     },
     "573324": {
@@ -4717,167 +4767,162 @@
       "docs/learn-devitpro/dev-itpro/developer/devenv-page-scripting.md@638c3b095ba19407": {
         "verdict": "keep",
         "reason": "Learn page documents the page scripting tool including multiple row selection, a capability added by this feature.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "at": "2026-11-18T00:53:30.223Z"
       },
       "video/_JkZCp64jNw#54@82c883e9340b4ac6": {
         "verdict": "drop",
-        "reason": "About AL-Go import of page scripting tests, not the GA release or its new capabilities.",
-        "at": "2026-11-14T00:58:54.801Z"
-      },
-      "video/2isrH3RcSK8#42@94f39ec4032be693": {
-        "verdict": "drop",
-        "reason": "Describes pipeline execution, a different earlier capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "About running page scripting tests via AL-Go, not the GA release or its new capabilities.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
       "video/5GoAzII20L0#0@b899523c02851044": {
         "verdict": "drop",
-        "reason": "General tool description in a pipelines video; not about GA or new capabilities.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Generic description of the preview-era tool in a CI/CD video; nothing about GA, multi-select or dialog validation.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
       "video/5GoAzII20L0#1@b899523c02851044": {
         "verdict": "drop",
-        "reason": "About the bc-replay pipeline replayer, a different capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Describes the standalone CI/CD replayer, a different capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#0@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#0@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era introduction of the tool, an older capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Introduces the tool in preview (2024 wave 1), an older capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#1@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#1@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era control validation steps, not dialog message text validation.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Preview-era validation steps for controls, not dialog-text validation.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#10@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#10@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era UI collapsing feature, not part of this GA feature.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Preview feature for collapsing nested structures, not part of this GA feature.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#11@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#11@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era Power FX expressions, different capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Preview-era Power FX expressions, an older capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#12@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#12@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era wait steps, different capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Preview-era wait steps, an older capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#13@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#13@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era script parameters, different capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Preview-era script parameters, an older capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#14@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#14@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era include/suites, different capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Preview-era include command, an older capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#15@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#15@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Single-line filter selection in preview, not multi-row selection.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Filter-based single row selection in preview, not multi-row selection.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#16@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#16@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Pipeline execution, different capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Pipeline execution of scripts is a different capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#2@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#2@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era YAML persistence, older capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Preview-era YAML persistence, an older capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#3@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#3@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era playback controls, older capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Preview-era playback controls, an older capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#4@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#4@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era run-to-step, older capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Preview-era run-to-step, an older capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#5@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#5@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era link sharing, older capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Preview-era playback link sharing, an older capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#6@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#6@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era clipboard, older capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Preview-era clipboard, an older capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#7@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#7@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era session info pasting, older capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Preview-era session info pasting, an older capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#8@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#8@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era conditional branches, older capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Preview-era conditional steps, an older capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
-      "video/B8cWQGwajwQ#9@26dea849ad4d0f77": {
+      "video/B8cWQGwajwQ#9@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era optional pages, older capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Preview-era optional pages, an older capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
       "video/c91E6IykUnk#5@5c8b19f6639f30df": {
         "verdict": "drop",
-        "reason": "Mentions page scripting only incidentally for screenshot generation.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Playwright screenshot generation, unrelated to the GA feature.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
       "video/H5EuObmeF4o#21@56c1d175230d9e97": {
         "verdict": "drop",
-        "reason": "Describes 2025 wave 2 enhancements (step deletion, UI parameters, suites), not this feature.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Covers other 2025 wave 2 enhancements, not GA, multi-select or dialog validation.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
       "video/kCTYPb5t5XQ#2@91fbb3a0623a70e3": {
         "verdict": "drop",
-        "reason": "AL-Go test result visualization, different capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "AL-Go build summary visualizer, a different capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
       "video/KnyS6ZKI_2c#0@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "Step modification enhancement, a different capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Step modification enhancements, a different capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
       "video/KnyS6ZKI_2c#1@78d3bcda824e542f": {
         "verdict": "drop",
         "reason": "Parameters UI editing, a different capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "at": "2026-11-18T00:53:30.223Z"
       },
       "video/KnyS6ZKI_2c#2@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "Test suite UI creation, a different capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Test suites UI creation, a different capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
       "video/KnyS6ZKI_2c#3@78d3bcda824e542f": {
         "verdict": "drop",
         "reason": "Include script step, a different capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "at": "2026-11-18T00:53:30.223Z"
       },
       "video/KnyS6ZKI_2c#4@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "For-each row iteration, not multi-row selection or dialog validation.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "For-each row iteration, not multi-row selection.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
       "video/KnyS6ZKI_2c#5@78d3bcda824e542f": {
         "verdict": "drop",
-        "reason": "Expression-based conditional, a different capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Expression-based conditional branching, a different capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       },
       "video/KnyS6ZKI_2c#6@78d3bcda824e542f": {
         "verdict": "drop",
         "reason": "Server-side headless replay, a different capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "at": "2026-11-18T00:53:30.223Z"
       },
       "video/tzeO0mc8RJo#25@065597581ae2ee24": {
         "verdict": "drop",
-        "reason": "Introduces the preview tool in 2024 wave 1, an older capability.",
-        "at": "2026-11-14T00:58:54.801Z"
+        "reason": "Announces the tool's preview introduction in 2024 wave 1, an older capability.",
+        "at": "2026-11-18T00:53:30.223Z"
       }
     },
     "574126": {
@@ -5654,23 +5699,28 @@
     "576881": {
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-2.md@a9bb311cc9a398a9": {
         "verdict": "keep",
-        "reason": "The update 28.2 release notes list self-billed invoices as a new feature, so this announces the capability.",
-        "at": "2026-11-10T00:51:23.928Z"
+        "reason": "The Update 28.2 release notes list self-billed invoices as one of the new features, which announces this capability.",
+        "at": "2026-11-18T00:53:18.880Z"
       },
       "docs/learn-smb-docs/business-central/purchasing-how-register-new-vendors.md@220b80e6106747d9": {
         "verdict": "keep",
-        "reason": "The vendor registration page covers setting up the optional self-billing agreement, which is one of this feature's settings.",
-        "at": "2026-11-10T00:51:23.928Z"
+        "reason": "The vendor registration page covers setting up a self-billing agreement on the vendor card, which is this feature's main setting.",
+        "at": "2026-11-18T00:53:18.880Z"
       },
-      "video/8VRtBLNAOiI#0@d9b62cba40505f7a": {
+      "video/8VRtBLNAOiI#0@83473660a2166c3f": {
         "verdict": "keep",
-        "reason": "The video introduces self-billing invoices, where buyers create invoices on behalf of their vendors.",
-        "at": "2026-11-10T00:51:23.928Z"
+        "reason": "The video introduces self-billing invoices, which let buyers create invoices on behalf of their vendors.",
+        "at": "2026-11-18T00:53:18.880Z"
       },
-      "video/8VRtBLNAOiI#1@d9b62cba40505f7a": {
+      "video/8VRtBLNAOiI#1@83473660a2166c3f": {
         "verdict": "keep",
-        "reason": "The video shows the new self-billing Boolean field on the Vendor Card, which is part of this feature.",
-        "at": "2026-11-10T00:51:23.928Z"
+        "reason": "The video shows the new Boolean self-billing agreement field on the Vendor Card.",
+        "at": "2026-11-18T00:53:18.880Z"
+      },
+      "video/8VRtBLNAOiI#3@83473660a2166c3f": {
+        "verdict": "keep",
+        "reason": "The video shows the new self-billing invoice report selection and layout, which is part of this feature.",
+        "at": "2026-11-18T00:53:18.880Z"
       }
     },
     "577820": {
@@ -5790,375 +5840,390 @@
     "578065": {
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-26-4.md@f1bee3b256af7bc7": {
         "verdict": "drop",
-        "reason": "Covers multi-address and item alternatives in 26.4, different capabilities.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Covers 26.4 multi-address and item alternatives, which are different capabilities.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-26-5.md@4c3e67577586b86a": {
         "verdict": "drop",
-        "reason": "Hotfix release note only naming the agent generally.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Hotfix release note that only names the agent.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "docs/learn-smb-docs/business-central/sales-order-agent-item-availability.md@f0ac0beea4bf8923": {
         "verdict": "drop",
         "reason": "Item availability is a different capability.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "docs/learn-smb-docs/business-central/sales-order-agent-process.md@3c09b02bcfb9a770": {
         "verdict": "drop",
-        "reason": "General description of the agent's processing, not this feature.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "General description of how the agent processes orders, with nothing specific to this feature.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "docs/learn-smb-docs/business-central/sales-order-agent-setup.md@a8e31ee3a0a5cb4e": {
         "verdict": "drop",
-        "reason": "General setup page without multi-instance or new options described.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "General setup page that doesn't describe multiple instances, Try it out or the other new options.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "docs/learn-smb-docs/business-central/sales-order-agent.md@4ce08d422b3f9979": {
         "verdict": "drop",
         "reason": "General overview of the agent.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/_JkZCp64jNw#1@82c883e9340b4ac6": {
         "verdict": "drop",
-        "reason": "Item availability feature from 2025 wave 1, different capability.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows the item availability feature from 2025 wave 1.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/2ujWYYecA2c#1@dd3087755f6b49ef": {
         "verdict": "keep",
-        "reason": "Demonstrates the new Try it out experience for creating test tasks without real email.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows the new Try it out experience for creating test tasks without a real inbox.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/2ujWYYecA2c#5@dd3087755f6b49ef": {
         "verdict": "drop",
-        "reason": "Generic inbox/folder connection, does not show mandatory folder selection or other new behavior.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows general mailbox and optional folder setup, not the new mandatory folder or per-instance behavior.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/2ujWYYecA2c#7@dd3087755f6b49ef": {
         "verdict": "drop",
-        "reason": "Availability and capable-to-promise options are unrelated to this feature.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Availability and capable-to-promise settings aren't part of this feature.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/4nFViDASGhg#2@f64bf532be3480c7": {
         "verdict": "drop",
-        "reason": "Custom signature from 2025 wave 2 is an older capability.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "The custom signature is an older 2025 wave 2 capability.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/4nFViDASGhg#3@f64bf532be3480c7": {
         "verdict": "drop",
-        "reason": "Older attachment analysis configuration, not the new limits or diagnostics.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Attachment analysis settings are an older capability, not the new page limits or skip diagnostics.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/4nFViDASGhg#4@f64bf532be3480c7": {
         "verdict": "drop",
-        "reason": "Autonomous processing levels are a different capability.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Autonomous processing levels are an older capability.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/4nFViDASGhg#8@f64bf532be3480c7": {
         "verdict": "drop",
-        "reason": "Review configuration points are a different capability.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Review configuration is an older capability.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
-      "video/7QJeTXzZaEk#0@fa7f7a1ca9c08d82": {
+      "video/7QJeTXzZaEk#0@b1011fca40768c6d": {
         "verdict": "drop",
-        "reason": "General agent description.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "General introduction to the agent.",
+        "at": "2026-11-18T00:53:37.823Z"
+      },
+      "video/9cOdjHU15rE#1@5dcd5b11aad8e24d": {
+        "verdict": "drop",
+        "reason": "Only mentions the sales agent in passing.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/EwN3xb2q7vE#5@a0291f7fcb074d2a": {
         "verdict": "drop",
-        "reason": "Generic agent instance concept in developer toolkit, not multiple Sales Order Agents.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Describes generic agent instances in the development toolkit, not multiple Sales Order Agents.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/I7i25zBfyEQ#2@7db449f644ea1a2f": {
         "verdict": "drop",
-        "reason": "General quote creation description.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "General description of quote creation.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/I7i25zBfyEQ#3@7db449f644ea1a2f": {
         "verdict": "drop",
-        "reason": "Older basic setup description.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows the older basic setup.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/I7i25zBfyEQ#4@7db449f644ea1a2f": {
         "verdict": "drop",
-        "reason": "General Outlook integration description.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "General Outlook integration.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/j6gadQyB4gM#0@486e3ec62416ec0d": {
         "verdict": "drop",
-        "reason": "Custom email signature is an older, separate capability.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "The custom signature is an older capability.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/j6gadQyB4gM#1@486e3ec62416ec0d": {
         "verdict": "drop",
-        "reason": "Signature validation is a different capability.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Signature validation isn't part of this feature.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/kwGEoxN46hk#0@78d207d4c407c15f": {
         "verdict": "keep",
-        "reason": "Shows running multiple Sales Order Agents in parallel with different inboxes/folders.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows several Sales Order Agents running in parallel on different inboxes or folders.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/kwGEoxN46hk#1@78d207d4c407c15f": {
         "verdict": "keep",
-        "reason": "Shows per-agent folder configuration in the multi-instance setup.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows each agent being set to monitor its own email folder.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/kwGEoxN46hk#2@78d207d4c407c15f": {
         "verdict": "drop",
-        "reason": "Review settings are existing behavior, not tied to the new capabilities.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Review settings already existed, and the text doesn't say they are per instance.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/kwGEoxN46hk#3@78d207d4c407c15f": {
         "verdict": "drop",
-        "reason": "Custom signature setting is pre-existing, not shown as per-instance.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "The custom signature already existed, and the text doesn't say it is per instance.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/kwGEoxN46hk#4@78d207d4c407c15f": {
         "verdict": "keep",
-        "reason": "Demonstrates the three new options for handling unknown senders.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows the three new options for handling unknown senders.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/kwGEoxN46hk#5@78d207d4c407c15f": {
         "verdict": "keep",
-        "reason": "Shows per-agent statistics and switching between multiple agents.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows separate statistics for each agent and switching between agents.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/nbGw2g3KMXI#0@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "General agent description.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "General description of the agent.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/Qmd6_5vYKDg#0@bd16365810479920": {
         "verdict": "drop",
-        "reason": "General 2025 item matching description, older capability.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "General 2025 description of item matching.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/Qmd6_5vYKDg#1@bd16365810479920": {
         "verdict": "drop",
-        "reason": "Older 2025 multi-parameter item search, not the new multi-layer strategy.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows the older 2025 item search, not the new layered matching.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/Qmd6_5vYKDg#2@bd16365810479920": {
         "verdict": "drop",
-        "reason": "Older 2025 attribute search, not the new semantic ranking.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows the older 2025 attribute search, not the new AI-ranked attribute matching.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/Qmd6_5vYKDg#3@bd16365810479920": {
         "verdict": "drop",
-        "reason": "Item variant matching from 2025, older capability.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows older variant matching.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/Qmd6_5vYKDg#4@bd16365810479920": {
         "verdict": "drop",
-        "reason": "Older 2025 identifier search.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows the older 2025 identifier search.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/Qmd6_5vYKDg#5@bd16365810479920": {
         "verdict": "drop",
-        "reason": "Older 2025 item reference search.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows the older 2025 item reference search.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/Qmd6_5vYKDg#6@bd16365810479920": {
         "verdict": "drop",
-        "reason": "Extended text and translation search is older capability.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows the older search over extended text and translations.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/Qmd6_5vYKDg#7@bd16365810479920": {
         "verdict": "drop",
-        "reason": "General natural language item recognition from 2025.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows the older natural-language item recognition.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/XhO4oFmoh1M#0@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "General introduction of the agent.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "General introduction to the agent.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/XhO4oFmoh1M#1@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Older activation dialog, not the restructured per-instance setup.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows the older activation dialog.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/XhO4oFmoh1M#10@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "2025 wave 1 relevance filtering is the older capability, not the new relevance model.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows the 2025 wave 1 email filtering, not the new relevance model and attachment check.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/XhO4oFmoh1M#4@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Older 2025 item search across tables.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows the older multi-table item search.",
+        "at": "2026-11-18T00:53:37.823Z"
       },
       "video/XhO4oFmoh1M#6@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Older KPI dashboard, not per-instance KPI tracking.",
-        "at": "2026-11-16T00:54:50.249Z"
+        "reason": "Shows the older single-agent KPI dashboard, not per-instance tracking.",
+        "at": "2026-11-18T00:53:37.823Z"
       }
     },
     "578068": {
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-configuration.md@fdfca3629b5b049b": {
         "verdict": "drop",
-        "reason": "Programmatic AL configuration of agents is a separate pro-developer capability, not the in-product design experience.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Programmatic agent configuration via the Agent codeunit is AL-based agent development, not the in-product design experience.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-define-register.md@aeebd523e88ebd8b": {
         "verdict": "drop",
-        "reason": "Defining and registering agents in AL via interfaces is a different, later coding capability.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Defining and registering agents in AL via interfaces is a separate coded-agent capability.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-overview.md@acc793d92a92e413": {
         "verdict": "drop",
-        "reason": "Coding agents in AL is a separate capability from the in-product agent designer.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Coding agents in AL describes extension-based agent development, not the designer experience.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-setup-page.md@1cbdcaf8fe40b8d2": {
         "verdict": "drop",
-        "reason": "Building AL setup pages for coded agents is not part of the in-product design experience.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Setup pages for AL-coded agents are a different capability.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-tasks.md@a306d39a4af1dd7a": {
         "verdict": "keep",
-        "reason": "Covers programmatic task creation and email-trigger simulation, matching the feature's mention of toolkit APIs for invoking agents.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Covers the toolkit APIs to create agent tasks from events and emails, which the feature names as the way developers trigger custom agents.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-agent-create.md@39adb9608d662181": {
         "verdict": "keep",
-        "reason": "Documents creating and activating agents through the AI development toolkit with an instruction editor, profiles, permissions and a task playground.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Documents creating and activating agents with the AI development toolkit, including instructions, profiles, permissions and sandbox testing.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-agent-visibility.md@3efe778bc7ba13bd": {
         "verdict": "drop",
-        "reason": "Role center visibility of agents is general and not specific to this design feature.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Agent visibility in the role center is a general agent topic, not the design experience.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-attachments.md@3c3a16e836716f2e": {
         "verdict": "drop",
-        "reason": "Attachment limits for agent tasks are too general to tie to the design experience.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Attachment limits for agent tasks are generic and not specific to designing agents.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-best-practices.md@874e3c18622dcd61": {
         "verdict": "keep",
-        "reason": "Best practices for designing an agent, including instruction writing and permissions, explain this feature.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Best practices for designing an agent, including instructions, permissions and testing, explain the agent design feature.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-tasks-api.md@75815405dd5f4219": {
         "verdict": "keep",
-        "reason": "Tasks AL API for custom agents is part of the toolkit APIs for custom agents designed in-product.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Toolkit API for retrieving custom agents and detecting custom agent sessions supports the designed custom agents.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-27-4.md@395084ec7c785ba3": {
         "verdict": "keep",
         "reason": "Release notes announce the AI agent designer public preview.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/7QJeTXzZaEk#0@b1011fca40768c6d": {
         "verdict": "drop",
-        "reason": "Describes the built-in Sales Order Agent, not the agent design experience.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "About the built-in Sales Order Agent, not designing custom agents.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/7QJeTXzZaEk#1@b1011fca40768c6d": {
         "verdict": "drop",
         "reason": "Email account setup for the Sales Order Agent is a different capability.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/7QJeTXzZaEk#2@b1011fca40768c6d": {
         "verdict": "drop",
-        "reason": "Contact creation by the Sales Order Agent is unrelated to designing agents.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Contact creation from email is a Sales Order Agent behavior.",
+        "at": "2026-11-18T00:53:45.109Z"
+      },
+      "video/9cOdjHU15rE#1@5dcd5b11aad8e24d": {
+        "verdict": "drop",
+        "reason": "General mention of the sales agent only.",
+        "at": "2026-11-18T00:53:45.109Z"
+      },
+      "video/AMVAiPTfSrU#5@8e56bd0b31620b69": {
+        "verdict": "drop",
+        "reason": "Too general about partners building agents; no designer capability described.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/I7i25zBfyEQ#0@7db449f644ea1a2f": {
         "verdict": "drop",
-        "reason": "Describes the built-in Sales Order Agent only.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Describes the built-in Sales Order Agent.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/MNwTt06ZxwY#12@08785989a6de2e63": {
         "verdict": "drop",
-        "reason": "Deploying agents to production via extensions is a later, different capability.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Deploying agents to production via extensions is a different capability from the sandbox designer.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/nbGw2g3KMXI#0@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "Describes the built-in Sales Order Agent only.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Describes the built-in sales order agent.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/nbGw2g3KMXI#1@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "Describes the built-in Payables Agent only.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Describes the built-in payables agent.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/nbGw2g3KMXI#2@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "Describes a built-in expense agent, not the designer.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Describes the expense agent, not custom agent design.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/nbGw2g3KMXI#3@243db13b53ccaf67": {
         "verdict": "keep",
-        "reason": "Shows building custom agents inside Business Central in a sandbox from version 27.4, which is this feature.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Shows building custom agents inside Business Central in a sandbox from version 27.4, which is the designer feature.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/nbGw2g3KMXI#31@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "AL Agent Factory codeunit is part of coding agents in AL, a separate capability.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Agent Factory codeunit is AL-coded agent development, not the designer.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/nbGw2g3KMXI#35@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "AL codeunit for creating agents belongs to the AL coding capability.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "A codeunit that creates agents is AL-based development.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/nbGw2g3KMXI#37@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "AL agent development is a different capability from the in-product designer.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "AL agent development is a separate approach from the in-product designer.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/nbGw2g3KMXI#5@243db13b53ccaf67": {
         "verdict": "keep",
-        "reason": "Shows configuring agents with natural language instructions, a core part of the design experience.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Explains configuring agents with natural language instructions, a core part of the design experience.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/UIL8ej7mSKQ#0@ac155d6baa339527": {
         "verdict": "drop",
-        "reason": "Sales Order Agent email processing improvement is a different feature.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Sales order agent email processing enhancement, a different capability.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/UIL8ej7mSKQ#1@ac155d6baa339527": {
         "verdict": "drop",
-        "reason": "Sales Order Agent shipping address feature is unrelated.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Sales order agent shipping address feature, a different capability.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/UIL8ej7mSKQ#2@ac155d6baa339527": {
         "verdict": "drop",
-        "reason": "Sales Order Agent delivery date feature is unrelated.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Sales order agent delivery date feature, a different capability.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/UIL8ej7mSKQ#3@ac155d6baa339527": {
         "verdict": "drop",
-        "reason": "Specific to the Sales Order Agent, not the agent design experience.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Sales order agent guidance feature, not custom agent design.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/XhO4oFmoh1M#0@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Introduces the built-in Sales Order Agent only.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Introduces the built-in Sales Order Agent.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/XhO4oFmoh1M#5@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Sales Order Agent quote creation is a different capability.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Sales Order Agent quote creation, a different capability.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/XhO4oFmoh1M#8@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Sales Order Agent email processing is a different capability.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Sales Order Agent email processing, a different capability.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/XhO4oFmoh1M#9@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Sales Order Agent customer conversation is a different capability.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Sales Order Agent conversation, a different capability.",
+        "at": "2026-11-18T00:53:45.109Z"
       },
       "video/xJ8gYzvWnTI#2@a156f6f7a8eca787": {
         "verdict": "drop",
-        "reason": "Mentions the built-in Sales Order Agent generally.",
-        "at": "2026-11-17T00:54:59.439Z"
+        "reason": "Mentions only the built-in sales order agent.",
+        "at": "2026-11-18T00:53:45.109Z"
       }
     }
   }

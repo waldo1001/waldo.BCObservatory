@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,8 @@ links:
     - topic/dev-itpro/development/development-environment
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/yzhums-com/72539
   guidelines: []
 learn_toc_path:
   - Development
@@ -79,7 +80,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 80a2552c73aca59778fdb9e568092650f5d14f09ce0e7c5bb5b34b4b7e198dca
@@ -118,5 +119,11 @@ Start with the app identity page to understand what app.json fields mean and whe
 - [Choose an AL Runtime Version for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-choosing-runtime): Choose an AL runtime version for Business Central extensions. Check compiler defaults, server compatibility, and runtime-to-product version mappings.
 - [FAQ about Library & Dependency Apps in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-dependencies-libraries): Get answers to some of your questions about library apps and dependency apps in Dynamics 365 Business Central
 - [Understand App Identity for AL Apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-identity): Learn how app IDs, versions, names, publishers, and tenant scopes identify AL apps and affect upgrades, dependencies, and data continuity.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central: How to display/add “Sent To” on the Sent Emails (8883, List) page?](../../../../posts/yzhums-com/72539.md) (community post): "RecordRef and FieldRef on the Sent Email table"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

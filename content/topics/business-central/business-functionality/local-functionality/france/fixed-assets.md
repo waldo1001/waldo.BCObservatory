@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:39.730Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -55,6 +55,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9326
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -109,6 +111,12 @@ Start with the overview page to understand the derogatory approach. Then complet
   - In the observatory: [Report 5692 "Calculate Depreciation"](../../../../../objects/report/5692.md)
 - [Set Up Accelerated Depreciation](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-accelerated-depreciation): Set up depreciation books for fixed assets to use accelerated depreciation calculations in Business Central.
   - In the observatory: [Page 5600 "Fixed Asset Card"](../../../../../objects/page/5600.md), [Page 5612 "FA Posting Group Card"](../../../../../objects/page/5612.md), [Table 5601 "FA Ledger Entry"](../../../../../objects/table/5601.md)
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9326 [FI] Delocalize Depreciation Differences into a first-party extension](../../../../../changes/bcapps/9326.md) (code change): "Finland's Depreciation Differences feature moves from the base application into a first-party extension"
 
 ## Business Central pages and reports
 

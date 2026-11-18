@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-app
 type: topic
 title: Power BI inventory app
-summary: The Power BI Inventory app section describes the app's reports, KPIs and measures, and semantic model for Business Central inventory analysis. It answers questions about what each report shows, who uses it, which measures it contains, and how the data is structured.
+summary: The Power BI inventory app section describes the reports, KPIs and semantic model of the Business Central inventory app. It answers questions about what each report shows, who uses it, which measures it contains, and how the data model is structured.
 tier: official
 language: en
 system: inventory
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 37c3b2784424d6cfa365213608fe5692be01178d047d8e19d2815a11180a2af8
+  input_hash: f7471e813add7ae735a8fb538fd596f877665ace8a33da76c38091b727109566
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis
@@ -76,8 +76,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-forecasting
-    title: Inventory Forecasting (Power BI report)
-    date: "2025-09-30"
+    title: Inventory Forecasting (Power BI Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -209,28 +209,28 @@ narrative: generated
 
 # Power BI inventory app
 
-> The Power BI Inventory app section describes the app's reports, KPIs and measures, and semantic model for Business Central inventory analysis. It answers questions about what each report shows, who uses it, which measures it contains, and how the data is structured.
+> The Power BI inventory app section describes the reports, KPIs and semantic model of the Business Central inventory app. It answers questions about what each report shows, who uses it, which measures it contains, and how the data model is structured.
 
 Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Power BI inventory app · tier official · system inventory · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Power BI Inventory app gives leadership, managers and warehouse staff reports on stock levels, supply and demand, and item tracking. Each report has its own page that explains its purpose, audience and main KPIs.
+The Power BI Inventory app gives leadership, managers and warehouse staff reports on stock levels, supply, demand, and bin and item tracking. The section has one landing page that lists the reports, one page for KPIs and measures, one for the semantic model, and a page for each report.
 
-The reports fall into a few groups. Overview and availability: Inventory Overview, Item Availability, Gross Requirement, Scheduled Receipt, and Purchase and Sales Quantity. Breakdowns of stock: Inventory by Item, by Location, by Lot No. and by Serial No. Warehouse bins: Bin Contents and Bin Contents by Item Tracking. Planning and classification: ABC Analysis and Inventory Forecasting.
+The reports fall into groups. Overview and availability reports include Inventory Overview, Item Availability, Gross Requirement, Scheduled Receipt, and Purchase and Sales Quantity. Breakdown reports cover inventory by item, location, lot number and serial number. Warehouse reports cover bin contents, with and without item tracking. ABC Analysis and Inventory Forecasting support prioritization and planning.
 
-Start with the "Inventory Power BI App Reports and Analytics" page for the list of reports. Then use the KPIs and measures page for formulas and data sources, and the semantic model page to see the star schema of fact and dimension tables behind the reports.
+Start with the landing page, Inventory Power BI App Reports and Analytics, to pick a report. Use the KPIs and measures page for formulas and data sources, and the semantic model page to understand the star schema of fact and dimension tables behind the reports.
 
 ## Key points
 
-- Inventory Overview shows inventory quantity, scheduled receipts, gross requirements and projected available balance by location, for leadership who do not want to drill into detail.
-- Item Availability, Gross Requirement and Scheduled Receipt cover supply and demand. Gross Requirement combines demand from sales, service, projects, production, transfers and assembly.
-- Inventory by Item splits stock across purchase, production, sales and return documents. Inventory by Location shows stock across locations.
-- Inventory by Lot No. includes an Expired Inventory KPI. Inventory by Serial No. shows quantity per serial number.
-- Bin Contents reports show quantities per bin, and the item tracking version adds lot and serial numbers with zone and bin detail.
-- ABC Analysis ranks items into categories A, B and C by sales amount, using the ABC Analysis Setup page.
-- Inventory Forecasting predicts the next three months from historical data, with monthly seasonality and location-based forecasts.
-- The KPIs and measures page lists formulas and data sources. The semantic model uses fact tables for transactions and dimension tables for item, customer, vendor, location and bin in a star schema.
+- Inventory Overview shows quantity, scheduled receipts, gross requirements and projected available balance by location for management.
+- Item Availability, Gross Requirement and Scheduled Receipt reports cover supply and demand. Gross Requirement combines demand from sales, service, projects, production, transfers and assembly.
+- Scheduled Receipt shows inbound inventory from purchase orders, production, assembly and sales returns.
+- Inventory by Item, Location, Lot No. and Serial No. break stock down by those dimensions. The lot report includes an Expired Inventory KPI.
+- Bin Contents and Bin Contents by Item Tracking show bin-level quantities. The tracking version adds lot and serial numbers, zones and bins.
+- ABC Analysis ranks items into A, B and C categories by sales amount and uses an ABC Analysis Setup page.
+- Inventory Forecasting predicts the next three months from historical data and includes seasonality analysis.
+- The semantic model uses a star schema with fact tables for inventory transactions and dimension tables for item, customer, vendor, location and bin.
 
 ## Learn pages
 
@@ -245,7 +245,7 @@ Start with the "Inventory Power BI App Reports and Analytics" page for the list 
 - [Inventory by Lot No. Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-lot): Review inventory quantities, expiration dates, and expired stock by lot number with the Inventory by Lot No. Power BI report in Business Central.
   - In the observatory: [Table 27 "Item"](../../../../../objects/table/27.md)
 - [Inventory by Serial No. Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-serial-no): Track inventory quantities and transaction details for serial-tracked items with the Inventory by Serial No. Power BI report in Business Central.
-- [Inventory Forecasting (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-forecasting): The Inventory Forecasting report provides insights into your organization's inventory trends and future stock requirements.
+- [Inventory Forecasting (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-forecasting): The Inventory Forecasting report provides insights into your organization's inventory trends and future stock requirements.
 - [Inventory KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-kpis): The Inventory App KPIs provides a page to clearly identify all KPIs and Measures used in the Inventory Report.
 - [Inventory Overview Power BI Report](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-overview): Review stock quantities, gross requirements, scheduled receipts, and projected balances across locations with the Inventory Overview Power BI report.
 - [Inventory Power BI App Reports and Analytics](https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app): Explore inventory levels, item availability, demand, receipts, and bin contents with Power BI reports to support inventory decisions in Business Central.

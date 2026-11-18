@@ -2,7 +2,7 @@
 id: source/bcapps-prs
 type: source
 title: microsoft/BCApps pull requests
-summary: "microsoft/BCApps pull requests: 1311 code changes in the knowledge base, 2026-07-07 to 2026-11-16, mostly about development, finance, integration."
+summary: "microsoft/BCApps pull requests: 1323 code changes in the knowledge base, 2026-07-07 to 2026-11-17, mostly about development, finance, integration."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T00:16:35.786Z"
+  at: "2026-11-18T00:16:36.082Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a0a3891ce46a56c46f077b0811a729b1d38271dc65b2a77633cb7d004b521d55
+  input_hash: 2ccc538aa1755de284fe96717b5bb2de4d3420bfa3c9b32c0e1f0a4e4f713103
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
@@ -1338,64 +1338,84 @@ links:
     - change/bcapps/13552
     - change/bcapps/14061
     - change/bcapps/13243
+    - change/bcapps/14018
     - change/bcapps/14059
     - change/bcapps/13807
+    - change/bcapps/13587
     - change/bcapps/13717
     - change/bcapps/14007
+    - change/bcapps/9326
     - change/bcapps/13558
     - change/bcapps/14002
     - change/bcapps/14118
     - change/bcapps/13868
+    - change/bcapps/14006
+    - change/bcapps/14122
+    - change/bcapps/14078
+    - change/bcapps/14081
+    - change/bcapps/13601
+    - change/bcapps/14143
+    - change/bcapps/13965
+    - change/bcapps/14203
+    - change/bcapps/13987
 source_id: bcapps-prs
 kind: github-pr
 url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 1311
+item_count: 1323
 footprint:
   systems:
     - id: development
       weight: 638
     - id: finance
-      weight: 532
+      weight: 533
     - id: integration
-      weight: 407
+      weight: 413
     - id: inventory
       weight: 243
     - id: sales
-      weight: 232
+      weight: 238
     - id: manufacturing
-      weight: 199
+      weight: 201
   topics:
     - id: bc30
-      weight: 1204
+      weight: 1214
     - id: main
-      weight: 1204
+      weight: 1214
     - id: fix
-      weight: 811
+      weight: 819
     - id: feature
-      weight: 372
+      weight: 374
     - id: bc29
-      weight: 107
+      weight: 109
     - id: releases/29.x
-      weight: 107
+      weight: 109
     - id: refactor
-      weight: 54
+      weight: 55
     - id: performance
       weight: 37
     - id: codeunit gen. jnl.-post line
       weight: 29
     - id: other
-      weight: 20
+      weight: 21
   objects:
     - id: codeunit Gen. Jnl.-Post Line
       weight: 35
     - id: page Expense Agent Setup Wizard
-      weight: 20
+      weight: 21
     - id: table Expense Report Header
       weight: 19
     - id: permissionset Expense Management - Objects
+      weight: 16
+    - id: page Expense Agent Setup
+      weight: 15
+    - id: permissionset Expense Agent - Objects
+      weight: 15
+    - id: table Expense Agent Setup
+      weight: 15
+    - id: table Expense Report Line
       weight: 15
     - id: table Purchase Line
       weight: 15
@@ -1405,22 +1425,14 @@ footprint:
       weight: 14
     - id: codeunit Purch.-Post
       weight: 14
-    - id: page Expense Agent Setup
-      weight: 14
-    - id: permissionset Expense Agent - Objects
-      weight: 14
-    - id: table Expense Agent Setup
-      weight: 14
-    - id: table Expense Report Line
-      weight: 14
   features: []
 first_item: "2026-07-07"
-last_item: "2026-11-16"
+last_item: "2026-11-17"
 ---
 
 # microsoft/BCApps pull requests
 
-> microsoft/BCApps pull requests: 1311 code changes in the knowledge base, 2026-07-07 to 2026-11-16, mostly about development, finance, integration.
+> microsoft/BCApps pull requests: 1323 code changes in the knowledge base, 2026-07-07 to 2026-11-17, mostly about development, finance, integration.
 
 [https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -1428,47 +1440,47 @@ last_item: "2026-11-16"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (638) | bc30 (1204) | codeunit Gen. Jnl.-Post Line (35) |
-| finance (532) | main (1204) | page Expense Agent Setup Wizard (20) |
-| integration (407) | fix (811) | table Expense Report Header (19) |
-| inventory (243) | feature (372) | permissionset Expense Management - Objects (15) |
-| sales (232) | bc29 (107) | table Purchase Line (15) |
-| manufacturing (199) | releases/29.x (107) | table Sales Line (15) |
-|  | refactor (54) | codeunit Create Billing Documents (14) |
-|  | performance (37) | codeunit Purch.-Post (14) |
-|  | codeunit gen. jnl.-post line (29) | page Expense Agent Setup (14) |
-|  | other (20) | permissionset Expense Agent - Objects (14) |
-|  |  | table Expense Agent Setup (14) |
-|  |  | table Expense Report Line (14) |
+| development (638) | bc30 (1214) | codeunit Gen. Jnl.-Post Line (35) |
+| finance (533) | main (1214) | page Expense Agent Setup Wizard (21) |
+| integration (413) | fix (819) | table Expense Report Header (19) |
+| inventory (243) | feature (374) | permissionset Expense Management - Objects (16) |
+| sales (238) | bc29 (109) | page Expense Agent Setup (15) |
+| manufacturing (201) | releases/29.x (109) | permissionset Expense Agent - Objects (15) |
+|  | refactor (55) | table Expense Agent Setup (15) |
+|  | performance (37) | table Expense Report Line (15) |
+|  | codeunit gen. jnl.-post line (29) | table Purchase Line (15) |
+|  | other (21) | table Sales Line (15) |
+|  |  | codeunit Create Billing Documents (14) |
+|  |  | codeunit Purch.-Post (14) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 882
-- 2026-Q4: **************************************** 429
+- 2026-Q4: **************************************** 441
 
 ## Most recent
 
+- [#13987 [Main][All-e]"Specify the VAT registration number that you want to verify" error when entering a VAT Registration No. in the Sales Order if the Customer Card has no VAT Registration No](../changes/bcapps/13987.md) (2026-11-17)
+- [#14203 [Dataverse] Use commercial endpoints in Business Central online](../changes/bcapps/14203.md) (2026-11-17)
+- [#13965 Bug 658846: [29.x]Partner feedback: Mark "Custom Report Layouts" page caption with '(Obsoleted)' and also add a notification OnOpen](../changes/bcapps/13965.md) (2026-11-17)
+- [#14143 Enable internal SLS hooks for harms evaluations](../changes/bcapps/14143.md) (2026-11-17)
+- [#13601 Fixes #8840: Fix TryGetDictionaryValueFromKey in Customer Statistics FactBox](../changes/bcapps/13601.md) (2026-11-17)
+- [#14081 [Main] - Bug 656406: [Expense Agent] Setup wizard access text should mention the mobile app (Android/iOS) alongside Web](../changes/bcapps/14081.md) (2026-11-17)
+- [#14078 #10373 Fix Sales Cr.Memo - PEPPOL30 XSD scheme validity](../changes/bcapps/14078.md) (2026-11-17)
+- [#14122 [Subcontracting] Refresh the transfer order lines without saving in SetIsSubcontracting](../changes/bcapps/14122.md) (2026-11-17)
+- [#14006 GP - Better item transaction duplicate handling](../changes/bcapps/14006.md) (2026-11-17)
 - [#13868 [main] bug 658615 - Fix print of VAT Statement with Opposite Sign option](../changes/bcapps/13868.md) (2026-11-16)
 - [#14118 Refactor index list refresh and index-disable confirmations](../changes/bcapps/14118.md) (2026-11-16)
 - [#14002 External File Storage: reject "." and ".." path segments](../changes/bcapps/14002.md) (2026-11-16)
 - [#13558 Add logging table management during installation and upgrade processes](../changes/bcapps/13558.md) (2026-11-16)
+- [#9326 [FI] Delocalize Depreciation Differences into a first-party extension](../changes/bcapps/9326.md) (2026-11-16)
 - [#14007 Obsolete Create Product Information with Copilot](../changes/bcapps/14007.md) (2026-11-16)
 - [#13717 [Main]- Export Electronic Payments: one vendor's missing email can clear another vendor's Document No.](../changes/bcapps/13717.md) (2026-11-16)
+- [#13587 Update Corp Card manual selection](../changes/bcapps/13587.md) (2026-11-16)
 - [#13807 [main] Bug 657914 Total Number of Supplies has incorrect type and tooltip in the VAT Report page of the German version.](../changes/bcapps/13807.md) (2026-11-16)
 - [#14059 Use GPT-5.6 Ceres for No. Series Copilot](../changes/bcapps/14059.md) (2026-11-16)
-- [#13243 [main] Wrong Financial entries in Import Duty GST Calculation](../changes/bcapps/13243.md) (2026-11-16)
-- [#14061 [MAIN] Fix TDS calculation on multi-line purchase invoices (Bug 659187)](../changes/bcapps/14061.md) (2026-11-15)
-- [#13552 [Main]- Warehouse shipment item tracking inherits the source line's stale pick bin on the Transfer and Purchase-Return branches, so a second partial shipment fails with "You cannot select more than 0 units"](../changes/bcapps/13552.md) (2026-11-14)
-- [#13361 Foundation for Payables Agent V2.0](../changes/bcapps/13361.md) (2026-11-14)
-- [#13893 Add index management actions to update statistics per table or index](../changes/bcapps/13893.md) (2026-11-13)
-- [#13699 [main] Registering a Warehouse Movement with "Breakbulk Filter" enabled registers only the visible lines; hidden breakbulk lines remain unregistered](../changes/bcapps/13699.md) (2026-11-13)
-- [#13060 [Extensibility Request][Subscription Billing] Extension points for a partner billing extension: Billing Proposal visibility, purchase-side event parity, usage-based billing period, document line creation](../changes/bcapps/13060.md) (2026-11-13)
-- [#13928 Bug 658681: [Master Data Management] Support certificate secret for cross-environment synchronization](../changes/bcapps/13928.md) (2026-11-13)
-- [#13704 [Subcontracting] Add quantity-ready-to-start tracking for production routing operations](../changes/bcapps/13704.md) (2026-11-13)
-- [#13627 [E-Documents] Fix division by zero importing zero-amount purchase order lines](../changes/bcapps/13627.md) (2026-11-13)
-- [#13582 [main] Price Groups of Subscription Packages are not considered.](../changes/bcapps/13582.md) (2026-11-13)
-- [#9523 Issue #9474 OnBeforeDecreaseQtyForMaxQty](../changes/bcapps/9523.md) (2026-11-12)
+- [#14018 [29.X]-ZUGFeRD: Custom Ship-to Address is not transferred to XML Delivery Address in the German version.](../changes/bcapps/14018.md) (2026-11-16)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

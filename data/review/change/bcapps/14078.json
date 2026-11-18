@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/14078",
+  "input_hash": "e1e83a64ae686d1be3a3f0eb3d461461806362ac067d91f76549da7ab0447e29",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-18T00:57:47.545Z",
+  "issues": [
+    "Summary and key points match the description: TaxPointDate moves to sit right after IssueDate so the output passes the Peppol UBL CreditNote schema check.",
+    "The fix only shows when a custom PEPPOL Document Info Provider fills in TaxPointDate. The key points say this."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036297,
+    "changes_in_call": 6
+  }
+}

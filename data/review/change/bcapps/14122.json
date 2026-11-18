@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/14122",
+  "input_hash": "a43110a05b0ba4ec54002c7b96ec06fd31dbaab383a7127948f21244e9961369",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-18T00:57:47.545Z",
+  "issues": [
+    "The key point says the SetPerTaskBillingFieldsVisible pattern is used elsewhere in the app. The description puts it on the Job Task Lines subform, called from the Job Card, which is not in the Subcontracting app.",
+    "The summary was vague about the failure. It is a failed save of the subform line during the header fetch, and that closes the page."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036297,
+    "changes_in_call": 6
+  }
+}

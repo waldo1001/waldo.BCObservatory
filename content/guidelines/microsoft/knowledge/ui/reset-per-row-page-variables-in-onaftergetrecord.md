@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-14T00:13:17.671Z"
+  at: "2026-11-18T00:16:36.082Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 84c0fd4aa87e4dd98eb1f2151012febfc19c3916
@@ -30,7 +30,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/reset-per-row-page-variables-in-onaftergetrecord.md
     title: "microsoft/BCQuality: Define per-record page outputs on every control-flow path"
     date: "2026-11-06"
-    commit: d576b0fd6da902bf6e4cd7dd837b1f27b170edd2
+    commit: 90540bb901abb89de6d075a4014389df73ab8b64
     t: null
     quote: null
 links:
@@ -112,4 +112,4 @@ See sample: [`reset-per-row-page-variables-in-onaftergetrecord.bad.al`](https://
 
 ---
 
-From microsoft/BCQuality at d576b0f, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 90540bb, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

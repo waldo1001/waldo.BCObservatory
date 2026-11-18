@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -27,8 +27,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing
-    title: Ad-hoc analyses in purchasing
-    date: "2024-04-29"
+    title: Ad-Hoc Analysis of Purchasing Data
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -409,6 +409,8 @@ links:
   localizations: []
   videos:
     - video/8C9JmtHdExM
+    - video/8VRtBLNAOiI
+    - video/D56EVy3JgHA
     - video/DJ3LPRxn27g
     - video/DvZd6y69sWk
     - video/kDiDMPEaU0E
@@ -482,7 +484,7 @@ children:
 coverage:
   learn: 62
   code: 82
-  video: 5
+  video: 7
   blog: 16
   guideline: 0
 bc_forms:
@@ -694,6 +696,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 1 (BC28): Use self-billed invoices](../../../posts/yzhums-com/71666.md) (community post): "self-billed invoices, allowing buyers to generate invoices on behalf of suppliers"
 - [Business Central 2026 release wave 2 (BC29): Set up vendor-specific number series for self-billing invoices](../../../posts/yzhums-com/76268.md) (community post): "vendor-specific number series for self-billed purchase invoices"
 - [Allow Over Receipts of Products](../../../videos/8C9JmtHdExM.md) (video): "Over receipt codes; Over receipt code tolerance percentages; Item-level over receipt codes"
+- [Introducing: Self-Billing Invoices (2026 release wave 1)](../../../videos/8VRtBLNAOiI.md) (video): "self-billing; purchase invoice; vendor setup; invoicing process"
+- [What's New: Enhanced Purchase Order Matching with Copilot (2025 release wave 1)](../../../videos/D56EVy3JgHA.md) (video): "purchase order matching; copilot; automatic matching; invoice lines"
 - [What's New: Drop Shipments (2026 release wave 1)](../../../videos/DJ3LPRxn27g.md) (video): "drop shipments; purchase order; flexible operation sequences; get order lines"
 - [What's Cooking in Business Central: Edit Purchase Order Emails before Sending them to your Supplier](../../../videos/DvZd6y69sWk.md) (video): "Edit purchase order emails before sending them to your Supplier"
 - [What's New: Matching Purchase Invoices to Order and Receipt Lines (2026 release wave 1)](../../../videos/kDiDMPEaU0E.md) (video): "Match invoice line to multiple order lines; Match invoice to partial"

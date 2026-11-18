@@ -1,38 +1,40 @@
 {
   "hub_id": "topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-reports",
-  "input_hash": "9fd3bb262b8a72c38d88d34bb06b0035fbcec6d28902d8659039dbd116ec5731",
-  "summary": "Built-in finance reports in Business Central: reference pages for standard reports on general ledger, trial balances, receivables and payables, VAT, consolidation, cost accounting, deferrals and dimensions. Answers what each report shows, which options and filters it has, and which are obsolete or replaced by Excel versions.",
-  "overview": "Business Central includes a catalog of standard finance reports. An overview page lists the report groups (core finance, deferral, VAT, consolidation, cost accounting, receivables and payables) and points to the report explorer. Each report then has its own page that describes its purpose, its request-page options and filters, and who typically uses it.\nThe pages cover several families. The Balance Sheet, Income Statement, Statement of Cashflows and Retained Earnings Statement use the financial report selected in General Ledger Setup. The Financial Report itself calculates amounts from row and column definitions. Trial balance reports come in Report and Excel forms. Customer and vendor reports cover aging, balance to date, detail and summary trial balances, order detail and summary, and top lists. Other families cover VAT, consolidation, cost accounting, deferral summaries, dimensions, and audit and register reports.\nStart with the overview page to find the right family. Then open the specific report page to check its filters and layout. Analytics pages for accounts payable and receivable show how these reports sit alongside Power BI and Data Analysis. Check the obsolescence notes first, because several older reports now have Excel replacements.",
+  "input_hash": "abf1f9918ee19d98a3a8a973dfea236ec374302253ede1617487887274f936ca",
+  "summary": "Built-in finance reports in Business Central: mostly one page per standard report, covering general ledger, trial balance, receivables and payables, VAT, consolidation, cost accounting, deferral and dimension reports. There are also overview pages for fixed asset reports and for receivables and payables analytics. Use it to look up what a report shows, which options and filters it has, and who uses it.",
+  "overview": "This section is a catalog of the standard finance reports in Business Central. An overview page lists the report groups: core finance, deferral, VAT, consolidation, cost accounting, and receivables and payables. Most other pages each describe one report: its purpose, its request-page options and filters, and often the roles that use it. A few pages cover broader topics instead: accounts payable and receivables analytics with Power BI and Data Analysis, fixed assets reports, and the legacy Excel financial statement workbooks.\n\nMost areas have several reports. Trial balance variants include period, budget, closing, detail, Excel, and consolidated versions. Receivables and payables have aging, balance to date, trial balance, order, statistics, and top-list reports. VAT reports cover settlement, reconciliation, registers, statements, and VIES. Cost accounting has statement, budget, journal, allocation, and analysis reports. Some reports exist as both a classic report and an Excel report.\n\nStart with the overview page to find the group you need, then open the page for the specific report. Check the version notes. Aged Accounts Receivables and Customer - Top 10 List are marked obsolete in version 28 and replaced by Excel reports. Vendor - Summary Aging is marked obsolete from 28.0.",
   "key_points": [
-    "The overview page groups reports into core finance, deferral, VAT, consolidation, cost accounting, and receivables and payables, and mentions the report explorer.",
-    "Aged Accounts Receivables (Report) is marked obsolete in version 28 and replaced by an Excel version. Customer - Top 10 List is also obsolete in version 28, so use Customer Top List Excel.",
-    "Vendor - Summary Aging (Report 305) is obsolete from version 28.0. Aged Accounts Payable has both a report page and an Excel report page.",
-    "The legacy Excel financial statement workbooks are deprecated. Use Excel layouts for financial reports or Excel report layouts instead.",
-    "Balance Sheet, Income Statement, Cash Flows and Retained Earnings reports take their rows and columns from the financial report selected in General Ledger Setup.",
-    "Trial balance variants include Trial Balance, Trial Balance by Period (up to 12 periods), Closing, Detail, Consolidated (report, Excel and four-business-unit versions), and budget comparison versions in report and Excel form.",
-    "VAT reports include Calculate and Post Tax Settlement (with test mode), VAT Statement, VAT Reconciliation, G/L - VAT Reconciliation, VAT Register, Day Book VAT Entry, VAT Exceptions, VAT Registration No. Check, and VAT-VIES Declaration. The VIES report does not submit data electronically.",
-    "Cost accounting reports compare actual costs with budgets by cost type, cost center and cost object, and also cover journal checks, allocations setup review and cost entry details."
+    "Report groups: core finance, deferral, VAT, consolidation, cost accounting, receivables and payables, plus a separate fixed assets reports page.",
+    "Aged Accounts Receivables and Customer - Top 10 List are marked obsolete in version 28. Use Aged Accounts Receivable (Excel) and Customer - Top List (Excel) instead. Vendor - Summary Aging (Report 305) is obsolete from 28.0.",
+    "The classic aged reports and the Aged Accounts Payable Excel report can age by due date, posting date or document date, with a configurable period length. Both aged Excel reports offer local and foreign currency views.",
+    "Balance Sheet, Income Statement, Statement of Cashflows and Retained Earnings Statement are driven by financial report definitions set in General Ledger Setup.",
+    "Trial balance reports come in period, budget comparison, closing, detail, Excel and consolidated forms. Several of them offer dimension filters, and the Excel versions show local and additional reporting currency.",
+    "VAT reports include Calculate and Post Tax Settlement, VAT Statement, G/L - VAT Reconciliation, VAT Reconciliation Report, VAT Register, Day Book VAT Entry, VAT Exceptions, VAT Registration No. Check and VIES declaration.",
+    "Cost accounting reports compare actual costs with budgets by cost type, cost center and cost object. Others list unposted cost journal lines and cost allocation setups.",
+    "The legacy Excel financial statement workbooks are deprecated. Use Excel layouts for financial reports or Excel report layouts instead."
   ],
   "members_used": 80,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-17T01:00:05.279Z",
+  "at": "2026-11-18T00:59:21.656Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.07349800000000001
+    "cost_usd": 0.068521
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-17T01:01:17.321Z",
+    "at": "2026-11-18T01:00:22.249Z",
     "verdict": "fix",
     "issues": [
-      "Overview groups the Financial Report with statements that 'rely on report definitions set in General Ledger Setup'. The source says the Financial Report runs on row and column definitions and does not tie it to General Ledger Setup. Only Balance Sheet, Income Statement, Cash Flows and Retained Earnings are tied to General Ledger Setup.",
-      "Key point 3 labels the Aged Accounts Payable report page '(version 28.0)'. The source attaches that version without saying what changed or calling the report obsolete, so next to the obsolescence notes the label suggests a status the source does not state. Removed.",
-      "Overview opened with 'This section is'. Changed to 'Business Central includes' to keep with the wording rules."
+      "Key point 2 says the classic Aged Accounts Payable report is obsolete in version 28 and replaced by an Excel version. Its page summary only carries a 28.0 version tag and says nothing about it being obsolete. Only Aged Accounts Receivables, Customer - Top 10 List and Vendor - Summary Aging are marked obsolete.",
+      "Vendor - Summary Aging is marked obsolete from 28.0, but its summary does not name an Excel replacement. The overview's line that obsolete reports are 'replaced by Excel versions' goes further than the sources for that report.",
+      "Key point 3 says all aged reports can age by due date, posting date or document date. The Aged Accounts Receivable Excel report is described as aging by due date only.",
+      "Key point 5 says all trial balance reports support dimension filters and local or additional reporting currency. The sources only show that for some variants: dimension filters on the period, overview and budget reports, and LCY/ACY on the Excel and consolidated Excel reports.",
+      "The overview says every page other than the overview describes one report. Some pages are not single-report pages: accounts payable and receivables analytics (Power BI, Data Analysis), the fixed assets reports overview, and the legacy Excel financial statements page."
     ],
-    "input_hash": "9fd3bb262b8a72c38d88d34bb06b0035fbcec6d28902d8659039dbd116ec5731",
-    "cost_usd": 0.18295999999999998
+    "input_hash": "abf1f9918ee19d98a3a8a973dfea236ec374302253ede1617487887274f936ca",
+    "cost_usd": 0.193408
   }
 }

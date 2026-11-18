@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/purchasing/purchasing-analytics/built-in-purchasing-reports
 type: topic
 title: Built-in purchasing reports
-summary: "Built-in purchasing reports in Business Central: standard reports for vendor balances, aging, purchase orders, vendor purchases, item/vendor catalogs and e-document invoice previews. It answers questions about what each report shows, its filters and options, and who uses it."
+summary: Built-in purchasing reports in Business Central cover vendor balances, aging, purchase orders, vendor purchases, item and vendor catalogs, and purchase document layouts. It answers questions about what each report shows, its key parameters, and who uses it.
 tier: official
 language: en
 system: purchasing
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 7542a156ac9687d15a6e6c8959aa061648ed77bef61a87f86bbc1d20e581d58e
+  input_hash: 2347fb563bb09a54ab3fa3a27046ffaab11abe2827a1537211820238181e982e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-4403
@@ -227,24 +227,28 @@ narrative: generated
 
 # Built-in purchasing reports
 
-> Built-in purchasing reports in Business Central: standard reports for vendor balances, aging, purchase orders, vendor purchases, item/vendor catalogs and e-document invoice previews. It answers questions about what each report shows, its filters and options, and who uses it.
+> Built-in purchasing reports in Business Central cover vendor balances, aging, purchase orders, vendor purchases, item and vendor catalogs, and purchase document layouts. It answers questions about what each report shows, its key parameters, and who uses it.
 
 Path: [Business functionality](../../../business-functionality.md) > [Purchasing](../../purchasing.md) > [Purchasing analytics](../purchasing-analytics.md) > Built-in purchasing reports · tier official · system purchasing · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes the standard reports that ship with the Purchasing area. They fall into a few groups. Vendor balance and ledger reports cover Aged Accounts Payable (Excel), Day Book Vendor Ledger Entry, Vendor - Trial Balance, Vendor - Detail Trial Balance and Vendor - Top List (Excel). Order reports cover Inventory Purchase Orders, Vendor - Order Detail, Vendor - Order Summary and the Standard Purchase Order document. Purchase analysis reports cover Inventory Vendor Purchases, Vendor/Item Purchases and Purchase Statistics by Vendor.
+This section has one page per standard purchasing report, plus an introductory page, "Purchasing reports and analytical tasks", that describes the reports and analytical tasks for current and past purchase activity. It mentions Report Explorer, item availability, and purchase date calculation.
+
+The reports fall into a few groups. Vendor balance and ledger reports: Aged Accounts Payable (Excel), Day Book Vendor Ledger Entry, Vendor - Detail Trial Balance, Vendor - Trial Balance, and Vendor - Top List (Excel). Order reports: Inventory Purchase Orders, Vendor - Order Detail, Vendor - Order Summary, and Purchase Reservation Availability. Purchase analysis reports: Inventory Vendor Purchases, Vendor/Item Purchases, and Purchase Statistics by Vendor. Catalog reports: Item/Vendor Catalog and Vendor Item Catalog. Document reports: Standard Purchase Order and the E-Doc Sample Purchase Invoice preview.
+
+Start with the introductory page to see what is available, then open the page for the report that matches your task, such as aging, reconciling vendor accounts, spotting overdue back orders, or comparing vendor prices.
 
 ## Key points
 
-- Aged Accounts Payable (Excel) ages vendor ledger entries by due, posting or document date, with configurable period length and count, LCY and FCY views, and an option to skip vendors with zero balance.
-- Vendor - Trial Balance shows beginning balance, net change and fiscal-year-to-date amounts by vendor posting group. Vendor - Detail Trial Balance adds transaction details with opening and closing balances.
-- Vendor - Top List (Excel) ranks vendors by purchase amount or balance (LCY). It uses Quantity, Date Filter and Show parameters, with Print and Analysis worksheets.
-- Vendor - Order Detail and Inventory Purchase Orders show outstanding order lines, discounts and expected receipt dates, which helps track back orders. Vendor - Order Summary groups outstanding amounts across three one-month periods from a starting date.
-- Inventory Vendor Purchases (grouped by item) and Vendor/Item Purchases (grouped by vendor) show invoiced quantity, cost including item charges, and discounts for a date period.
-- Item/vendor catalog and Vendor Item Catalog list vendors for items or items for vendors, with direct unit cost, lead time and vendor item number.
-- Standard Purchase Order produces the formal order for print or email, with prepayment handling, order archiving and interaction logging. E-Doc Sample Purchase Invoice creates a preview PDF from e-document data to check layout.
-- Purchase Reservation Availability shows item availability on purchase documents such as return orders and can update Qty. to Receive on order lines. It is restricted when warehouse functionality is used.
+- Aged Accounts Payable (Excel) ages vendor ledger entries by due, posting, or document date, with configurable period length and count, in LCY or FCY views, and can skip vendors with zero balance.
+- Vendor - Trial Balance shows beginning balance, net change, and fiscal-year-to-date amounts by vendor posting group; Vendor - Detail Trial Balance adds transaction details with opening and closing balances.
+- Inventory Purchase Orders and Vendor - Order Detail show outstanding order lines with expected receipt dates, discounts, and help identify overdue back orders.
+- Vendor - Order Summary shows outstanding order amounts per vendor over three one-month periods from a chosen starting date, with an option to show local currency and exclude VAT.
+- Inventory Vendor Purchases and Vendor/Item Purchases report invoiced quantity, cost amount, discounts, and added costs, based on posted value entries.
+- Vendor - Top List (Excel) ranks vendors by purchases or balance (LCY) using Quantity, Date Filter, and Show parameters, with Print and Analysis worksheets.
+- Item/Vendor Catalog and Vendor Item Catalog list vendors per item or items per vendor with direct unit cost, lead time, and vendor item number.
+- Standard Purchase Order generates the formal order for print or email, with archiving and interaction logging; the E-Doc Sample Purchase Invoice produces a preview PDF to validate layout.
 
 ## Learn pages
 

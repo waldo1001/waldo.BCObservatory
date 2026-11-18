@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -170,10 +170,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Exploring Model Context Protocol (MCP) for Business Automation in Business Central](../../../posts/aardvarklabs-blog/2724.md) (community post): "Model Context Protocol (MCP) servers enable AI agents to interact with Business Central data"
 - [Microsoft Agent Framework and Business Central MCP server](../../../posts/bertverbeek-nl/1183.md) (community post): "Business Central MCP server enables AI agents to connect to Business Central"
 - [Creating MCP servers for Dynamics 365 Business Central with Azure Logic Apps.](../../../posts/demiliani-com/13470.md) (community post): "MCP servers standardize how AI agents interact with external systems"
-- [Fewer tools, better agents: curating the Dynamics 365 Business Central MCP catalog.](../../../posts/demiliani-com/17653.md) (community post): "Business Central MCP configurations let you pick API objects, set per-object permissions"
+- [Fewer tools, better agents: curating the Dynamics 365 Business Central MCP catalog.](../../../posts/demiliani-com/17653.md) (community post): "curating the Dynamics 365 Business Central MCP catalog for agents improves both security"
 - [🤖 AboutText: Teaching AI to Understand Your APIs ✨](../../../posts/gerardorenteria-blog/12682.md) (community post): "AboutText is a new property in BC 27.1 for APIV2 pages that describes API functionality to AI systems"
 - [Connect Any Agent to Business Central](../../../posts/katson-com/4678.md) (community post): "Connect external AI agents to Business Central using the Model Context Protocol"
-- [How to Connect Business Central MCP to Claude Desktop](../../../posts/katson-com/5026.md) (community post): "enabling third-party AI agents to access BC data"
+- [How to Connect Business Central MCP to Claude Desktop](../../../posts/katson-com/5026.md) (community post): "Business Central's native MCP server with Claude Desktop"
 - [Business Central 29: What’s New in the MCP Server?](../../../posts/thinkaboutit-be/8400.md) (community post): "MCP server Data Query Tools that let AI agents dynamically construct and execute AL queries"
 - [AI context is king - BC MCP for MCS Agents - London D365PPUG - Feb 2026](../../../posts/wingate365-com/https-blog-wingate365-com-2026-02-ai-context-is-king-bc-mcp-for-mcs-html--94f99e5d2a.md) (community post): "Business Central now has a built-in MCP server"
 - [Business Central 2025 wave 2 (BC27.1): Connect AI agents to Business Central through MCP server (Dynamics 365 Business Central MCP)](../../../posts/yzhums-com/68873.md) (community post): "Connect AI agents to Business Central through MCP server"

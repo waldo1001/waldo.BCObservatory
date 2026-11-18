@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/inventory/inventory-analytics
 type: topic
 title: Inventory analytics
-summary: Inventory analytics in Business Central covers Power BI apps, built-in reports, legacy reports and ad-hoc Data Analysis for inventory data. It answers questions about which tool or report to use for stock levels, inventory value, KPIs and trends, and how the data is structured.
+summary: Inventory analytics in Business Central covers Power BI apps, built-in inventory and warehouse reports, legacy reports and ad-hoc analysis of item ledger entries. It answers which tool or report shows which inventory data, what measures the apps contain, and which reports are being removed.
 tier: official
 language: en
 system: inventory
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 5908d52ee85c80bad0940ece025e9e167552ee1ca5c0c43ff044fc5fde997feb
+  input_hash: 77a87ae5d12797d1ef6d70dbb7632205c8c850ce22a05dfd8f928636861a2d6f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis
@@ -43,6 +43,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents
     title: Bin Contents Inventory Power BI Report
     date: "2026-11-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-990003804
+    title: Demand Forecast (Obsolete) Report
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -139,8 +146,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-forecasting
-    title: Inventory Forecasting (Power BI report)
-    date: "2025-09-30"
+    title: Inventory Forecasting (Power BI Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -291,13 +298,6 @@ evidence:
     commit: null
     t: null
     quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-7151
-    title: Item Dimensions - Total (report)
-    date: "2026-11-13"
-    commit: null
-    t: null
-    quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-inventory
@@ -358,6 +358,7 @@ links:
     - object/report/7319
     - object/report/7320
     - object/report/99001048
+    - object/report/99003804
   features: []
   topics:
     - topic/business-central/business-functionality/inventory
@@ -385,7 +386,7 @@ children:
   - topic/business-central/business-functionality/inventory/inventory-analytics/legacy-reports-will-be-removed
 coverage:
   learn: 56
-  code: 55
+  code: 56
   video: 1
   blog: 0
   guideline: 0
@@ -445,34 +446,34 @@ bc_forms:
   - 37110
   - 37111
   - 99001048
-  - 990003804
+  - 99003804
 member_hash: b2c40b9702752dd2381c274a9698ba9779507174447929d3dd6a66d362a686f1
 narrative: generated
 ---
 
 # Inventory analytics
 
-> Inventory analytics in Business Central covers Power BI apps, built-in reports, legacy reports and ad-hoc Data Analysis for inventory data. It answers questions about which tool or report to use for stock levels, inventory value, KPIs and trends, and how the data is structured.
+> Inventory analytics in Business Central covers Power BI apps, built-in inventory and warehouse reports, legacy reports and ad-hoc analysis of item ledger entries. It answers which tool or report shows which inventory data, what measures the apps contain, and which reports are being removed.
 
 Path: [Business functionality](../../business-functionality.md) > [Inventory](../inventory.md) > Inventory analytics · tier official · system inventory · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Inventory analytics groups the ways to analyze inventory in Business Central. The overview page introduces the options: Power BI reports, financial reports with dimensions, ad-hoc analysis, and built-in reports. They help different roles monitor KPIs and trends.
+Inventory analytics groups the ways to analyze inventory data in Business Central so that different roles can monitor KPIs and trends. The options are the Power BI Inventory app, the Power BI Inventory Valuation app, financial reporting with dimensions, ad-hoc analysis, and the built-in reports.
 
-Two Power BI subtopics cover the apps. The Power BI Inventory app describes its reports, KPIs, measures and semantic model. The Power BI inventory valuation app focuses on inventory value: beginning, net change and ending balances, comparison with general ledger cost, variance, and breakdowns by item and location.
+The landing page gives the overall picture. The Power BI inventory app pages describe each report, its audience, its measures and its semantic model. The valuation app pages cover inventory value: beginning, net change and ending balances, comparison with general ledger cost, variance, and breakdowns by item and location.
 
-For analysis inside Business Central, the ad-hoc analysis page shows how to use Data Analysis on item ledger entries from list pages, without running a report. The built-in inventory and warehouse reports subtopic is the place to find which report answers a given question. A short legacy section lists reports marked for removal. Start with the overview page, then pick the tool that fits your question.
+The built-in reports subtopic is the largest. It lists availability, valuation, cost and price, order, dimension, expiration, aging, warehouse and label reports, and notes which are obsolete. Two legacy reports, Inventory Availability Plan and Item Age Composition - Quantity, are marked for removal. For quick questions without a report, the ad-hoc analysis page shows how to use the Data Analysis feature directly on list pages. Start with the landing page, then pick the subtopic that matches the task.
 
 ## Key points
 
-- Four routes to inventory insight: Power BI reports, financial reporting with dimensions, ad-hoc analysis, and built-in reports.
-- The Power BI Inventory app documents its reports, KPIs, measures and semantic model (16 pages).
-- The Power BI inventory valuation app covers beginning, net change and ending balance values, comparison with general ledger cost, and variance by item and location.
-- Ad-hoc analysis uses the Data Analysis feature on item ledger entries from list pages, with scenarios for on-hand inventory, expiring stock, returned items, throughput and movements.
-- Ad-hoc analysis features include Analysis mode, Item Statistics, KPIs and Copilot summaries.
-- Built-in reports (31 pages) cover availability, valuation, transactions, sales and purchase analysis, ABC, age, expiration, dimensions, warehouse bin and shipment reports, and barcode/QR labels.
-- Legacy reports marked for removal are Inventory Availability Plan and Item Age Composition - Quantity.
+- The landing page names the main options: Power BI Inventory app, Power BI Inventory Valuation app, financial reporting, dimensions, ad-hoc analysis and built-in reports.
+- Ad-hoc analysis uses the Data Analysis feature on list pages to analyze item ledger entries without running reports.
+- Ad-hoc scenarios include on-hand inventory, expiring stock, returned items, throughput and movements.
+- The Power BI inventory app pages cover reports, KPIs, intended users, measures and the semantic model (16 pages).
+- The Power BI inventory valuation app covers beginning, net change and ending balance values, comparison with general ledger cost, variance, and breakdown by item and location (5 pages).
+- Built-in reports (31 pages) include availability, valuation, cost and price, sales and purchase order, dimension, expiration, aging, warehouse bin, shipment, and barcode and QR label reports.
+- Inventory Availability Plan and Item Age Composition - Quantity are legacy reports that will be removed.
 
 ## Subtopics
 
@@ -554,7 +555,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Report 6627 "SN Label"](../../../../objects/report/6627.md) · via [Built-in inventory and warehouse reports](inventory-analytics/built-in-inventory-and-warehouse-reports.md)
 - [Report 6628 "Lot No Label"](../../../../objects/report/6628.md) · via [Built-in inventory and warehouse reports](inventory-analytics/built-in-inventory-and-warehouse-reports.md)
 - [Report 99001048 "Planning Availability"](../../../../objects/report/99001048.md) · captioned "Planning Availability (Obsolete)" · via [Built-in inventory and warehouse reports](inventory-analytics/built-in-inventory-and-warehouse-reports.md)
-
-Learn also names 1 object with no object page: report/990003804.
+- [Report 99003804 "Demand Forecast"](../../../../objects/report/99003804.md) · captioned "Demand Forecast (Obsolete)" · via [Built-in inventory and warehouse reports](inventory-analytics/built-in-inventory-and-warehouse-reports.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

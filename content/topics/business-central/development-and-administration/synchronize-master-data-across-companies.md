@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:03.756Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,6 +105,7 @@ Start with the setup page to configure the source and subsidiary companies, then
 
 - [Manage master data synchronization](https://learn.microsoft.com/dynamics365/business-central/admin-sync-master-data): Learn how to manage master data synchronization.
 - [Set up companies to synchronize master data](https://learn.microsoft.com/dynamics365/business-central/admin-set-up-data-sync): Learn how to set up one or more companies to synchronize master data.
+  - In the observatory: [Codeunit 7245 "MDM Cross-Env Change Detector"](../../../objects/codeunit/7245.md)
 
 ## Videos and posts
 

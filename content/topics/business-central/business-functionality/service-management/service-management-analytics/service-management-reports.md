@@ -2,215 +2,208 @@
 id: topic/business-central/business-functionality/service-management/service-management-analytics/service-management-reports
 type: topic
 title: Service management reports
-summary: "Service management reports in Business Central: reference pages for each analytic, test, and document report covering service contracts, contract quotes, service orders, service items, resources, and profitability. Use it to find what a given report shows and which fields or options it offers."
+summary: "Service management reports in Business Central: reference pages for each report on service contracts, service orders, service items, profitability, resource load and printable service documents. Use it to find what a given report shows, which fields it lists, and what it is for."
 tier: official
 language: en
 system: service
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:15:51.300Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f6b6236fcf787a23c65e410aa078afd89a5b35bfc207ee7382044a043d1947ba
+  input_hash: 04cad2361a8a5635516c915abf099622339b52887336e9d30fb8293cb120170c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5981
-    title: Contr. Gain/Loss - Resp. Ctr. (report)
-    date: "2024-11-02"
+    title: Contr. Gain/Loss - Resp. Ctr. (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5988
-    title: Contr. Serv. Orders - Test (report)
-    date: "2024-11-02"
+    title: Contr. Serv. Orders - Test (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5983
-    title: Contract Gain/Loss Entries (report)
-    date: "2024-11-02"
+    title: Contract Gain/Loss Entries (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5984
-    title: Contract Invoicing - Test (report)
-    date: "2024-11-02"
+    title: Contract Invoicing - Test (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5985
-    title: Contract Price Update - Test (report)
-    date: "2024-11-02"
+    title: Contract Price Update - Test (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5974
-    title: Contract Quotes to Be Signed (report)
-    date: "2024-11-02"
+    title: Contract Quotes to Be Signed (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5955
-    title: Dispatch Board (report)
-    date: "2024-11-02"
+    title: Dispatch Board in Business Central (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5987
-    title: Expired Contract Lines - Test (report)
-    date: "2024-11-02"
+    title: Expired Contract Lines - Test (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5982
-    title: Maintenance Performance (report)
-    date: "2024-11-02"
+    title: Maintenance Performance (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5980
-    title: Maintenance Visit - Planning (report)
-    date: "2024-11-02"
+    title: Maintenance Visit - Planning (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-6086
-    title: Prepaid Contr. Entries (report)
+    title: Prepaid Contr. Entries (Report)
     date: "2024-11-02"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5978
-    title: Serv. Contract - Salesperson (report)
-    date: "2024-11-02"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-6080
-    title: Serv. Pricing Profitability (report)
-    date: "2024-11-02"
+    title: Serv. Contract - Salesperson (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5912
-    title: Service - Credit Memo (document report)
-    date: "2024-11-02"
+    title: Service - Credit Memo (Document Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5911
-    title: Service - Invoice (document report)
-    date: "2024-11-02"
+    title: Service - Invoice (Document Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5913
-    title: Service - Shipment (document report)
-    date: "2024-11-02"
+    title: Service - Shipment (Document Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5977
-    title: Service Contract - Customer (report)
-    date: "2024-11-02"
+    title: Service Contract - Customer (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5970
-    title: Service Contract (report)
-    date: "2024-11-02"
+    title: Service Contract in Business Central (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5972
-    title: Service Contract Quote (document report)
-    date: "2024-11-02"
+    title: Service Contract Quote (Document Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5973
-    title: Service Contract Quote-Detail (report)
-    date: "2024-11-02"
+    title: Service Contract Quote-Detail (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5971
-    title: Service Contract-Detail (report)
-    date: "2024-11-02"
+    title: Service Contract-Detail (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5915
-    title: Service Document - Test (report)
-    date: "2024-11-02"
+    title: Service Document - Test (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5939
-    title: Service Item - Resource Usage (report)
-    date: "2024-11-02"
+    title: Service Item - Resource Usage (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5901
-    title: Service Item Line Labels (report)
-    date: "2024-11-02"
+    title: Service Item Line Labels (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5936
-    title: Service Item Worksheet (report)
-    date: "2024-11-02"
+    title: Service Item Worksheet (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5935
-    title: Service Items (report)
-    date: "2024-11-02"
+    title: Service Items in Business Central (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5937
-    title: Service Items Out of Warranty (report)
-    date: "2024-11-02"
+    title: Service Items Out of Warranty (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5956
-    title: Service Load Level (report)
-    date: "2024-11-02"
+    title: Service Load Level in Business Central (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -223,57 +216,64 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5908
-    title: Service Order - Response Time (report)
-    date: "2024-11-02"
+    title: Service Order - Response Time (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5900
-    title: Service Order (document report)
-    date: "2024-11-02"
+    title: Service Order (Document Report)
+    date: "2026-11-16"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-6080
+    title: Service Pricing Profitability (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5976
-    title: Service Profit (Contracts) (report)
-    date: "2024-11-02"
+    title: Service Profit (Contracts) (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5909
-    title: Service Profit (Resp. Centers) (report)
-    date: "2024-11-02"
+    title: Service Profit (Resp. Centers) (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5910
-    title: Service Profit (Serv. Orders) (report)
-    date: "2024-11-02"
+    title: Service Profit (Serv. Orders) (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5938
-    title: Service Profit (Service Items) (report)
-    date: "2024-11-02"
+    title: Service Profit (Service Items) (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5902
-    title: Service Quote (document report)
-    date: "2024-11-02"
+    title: Service Quote (Document Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5904
-    title: Service Tasks (report)
-    date: "2024-11-02"
+    title: Service Tasks in Business Central (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -291,7 +291,6 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5980
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-6086
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5978
-    - https://learn.microsoft.com/dynamics365/business-central/reports/report-6080
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5912
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5911
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5913
@@ -310,6 +309,7 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/service-reports
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5908
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5900
+    - https://learn.microsoft.com/dynamics365/business-central/reports/report-6080
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5976
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5909
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5910
@@ -418,64 +418,68 @@ narrative: generated
 
 # Service management reports
 
-> Service management reports in Business Central: reference pages for each analytic, test, and document report covering service contracts, contract quotes, service orders, service items, resources, and profitability. Use it to find what a given report shows and which fields or options it offers.
+> Service management reports in Business Central: reference pages for each report on service contracts, service orders, service items, profitability, resource load and printable service documents. Use it to find what a given report shows, which fields it lists, and what it is for.
 
-Path: [Business functionality](../../../business-functionality.md) > [Service management](../../service-management.md) > [Service management analytics](../service-management-analytics.md) > Service management reports · tier official · system service · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Service management](../../service-management.md) > [Service management analytics](../service-management-analytics.md) > Service management reports · tier official · system service · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section lists the individual reports used to analyze and document service management. Each page describes one report and the data it shows, such as contract numbers, customers, responsibility centers, service items, dates, and amounts.\n\nThe reports fall into several groups. Contract reports cover contract lists and details, gain/loss entries, quotes, salesperson and customer views, and prepaid entries. Test reports let you check results before you act. They show which contracts are due for invoicing or a price update on a date, which service orders would be created for a period, which contract lines have expired, and whether a service document has a valid posting date and something to post. Item and order reports cover service items, warranty, worksheets, tasks, labels, response time, and the dispatch board. Profit and capacity reports cover service profit by contract, responsibility center, order, and item, plus load level, resource usage, pricing profitability, and maintenance performance. Document reports produce quotes, orders, invoices, credit memos, and shipments for customers.\n\nStart with the overview page named Service management reports, then open the page for the report you need. Pick the group that matches your question: planning and testing, monitoring contracts, tracking items and orders, analyzing profit, or printing customer documents.
+This section is a set of single-report reference pages for Service management. Each page describes one report or document report, the data it displays and, in some cases, the filters or options such as dates, reason codes or posting dates. There are no subtopics. An overview page introduces the group.
+
+The reports fall into several families. Contract reports list contracts by customer, salesperson or detail level, and cover quotes, gain/loss entries and prepaid entries. "Test" reports preview what a batch job would do: contract invoicing, contract price updates, expired contract lines, service orders from contracts, and service document posting checks. Service item and order reports cover items, warranty, worksheets, tasks, labels, the dispatch board and response time. Analysis reports cover profit (by contract, responsibility center, service order and service item), pricing profitability, maintenance performance, resource usage and load level. Document reports print service quotes, orders, invoices, shipments and credit memos for customers.
+
+Start with the family that matches your question, then open the specific report page to see its fields and filters.
 
 ## Key points
 
-- Test reports check results before you act. Contract Invoicing - Test and Contract Price Update - Test show contracts due on a specified date, and the price update test also lists errors. Contr. Serv. Orders - Test shows the service orders that would be created for a period. Expired Contract Lines - Test shows lines to remove. Service Document - Test checks the posting date and whether there is anything to post.
-- Contract Gain/Loss Entries and Contr. Gain/Loss - Resp. Ctr. analyze contract gains and losses with reason code, change status, and responsibility center.
-- Contract Quotes to Be Signed lists quotes awaiting signature with probability, quote amount, and optional forecast.
-- Service Contract, Service Contract-Detail, Service Contract - Customer, and Serv. Contract - Salesperson list contracts by different views, including annual amount and service period.
-- Profit reports cover contracts, responsibility centers, service orders, and service items, based on service amount minus service cost; Serv. Pricing Profitability adds usage, invoice, discount, and cost amounts.
-- Service Items, Service Items Out of Warranty, Service Item Worksheet, Service Item Line Labels, and Service Tasks track items, warranty, repair status, and serial numbers.
-- Service Load Level, Service Item - Resource Usage, Maintenance Performance, and Maintenance Visit - Planning cover capacity, utilization, resource consumption, realization percentage, and visit planning.
-- Document reports (Service Quote, Service Order, Service Contract Quote, Service Invoice, Service Shipment, Service Credit Memo) produce customer documents; the credit memo can only be printed after posting, and the shipment has options for copies, correction lines, and lot/serial appendix.
+- Contract reports: Service Contract, Service Contract-Detail, Service Contract - Customer, Serv. Contract - Salesperson, and quote reports (Contract Quotes to Be Signed, Service Contract Quote-Detail).
+- Gain/loss reports: Contract Gain/Loss Entries and Contr. Gain/Loss - Resp. Ctr. show contract changes, reason codes, customers and responsibility centers.
+- Test reports preview batch results: Contract Invoicing - Test, Contract Price Update - Test, Expired Contract Lines - Test, Contr. Serv. Orders - Test, Service Document - Test.
+- Prepaid Contr. Entries shows transfer of prepaid contract ledger amounts to income accounts, with a configurable posting date.
+- Profit reports compare service amount and service cost by contract, responsibility center, service order or service item; Service Pricing Profitability adds usage, invoice and discount amounts.
+- Operational reports include Dispatch Board, Service Order - Response Time, Service Tasks, Service Item Worksheet, Service Item Line Labels and Maintenance Visit - Planning.
+- Service Items and Service Items Out of Warranty list items by customer and filter by warranty ending date; Service Load Level shows resource capacity and utilization by quantity, cost or price.
+- Document reports print customer-facing Service Quote, Order, Invoice, Shipment and Credit Memo, and Contract Quote.
 
 ## Learn pages
 
-- [Contr. Gain/Loss - Resp. Ctr. (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5981): Analyze gains and losses made on contracts attached to the different responsibility centers.
-- [Contr. Serv. Orders - Test (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5988): Analyze which service contracts include service items that are due for service within the specified period.
-- [Contract Gain/Loss Entries (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5983): Get an overview of shows all your service contract gain/loss entries.
-- [Contract Invoicing - Test (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5984): See which service contracts are due for invoicing up to the date that you specify.
-- [Contract Price Update - Test (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5985): Get an overview of which service contracts need price updates up to the date that you specify.
-- [Contract Quotes to Be Signed (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5974): Get an overview of contract quotes to sign.
-- [Dispatch Board (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5955): Get an overview of your dispatch board.
-- [Expired Contract Lines - Test (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5987): Analyze which contract lines are expired and need to be removed from service contracts up to the date that you specify.
-- [Maintenance Performance (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5982): Analyze maintenance performance for your responsibility centers.
-- [Maintenance Visit - Planning (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5980): Generate a report with all your schedules for maintenance visits.
-- [Prepaid Contr. Entries (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-6086): Get an overview of the transfer of prepaid service contract ledger entries amounts from prepaid accounts to income accounts.
-- [Serv. Contract - Salesperson (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5978): Get an overview of service contracts for each salesperson for a selected period.
-- [Serv. Pricing Profitability (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-6080): Analyze profit from your service pricing.
-- [Service - Credit Memo (document report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5912): Generate a service credit memo document that you can send to your customer.
-- [Service - Invoice (document report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5911): Generate a service invoice document that you can send to your customer.
-- [Service - Shipment (document report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5913): Generate a service shipment document that you can send to your customer.
-- [Service Contract - Customer (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5977): Get an overview of service contracts for each customer in a selected time period.
-- [Service Contract (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5970): Get an overview of all your service contracts.
-- [Service Contract Quote (document report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5972): Generate a service contract quote document that you can send to your customer.
-- [Service Contract Quote-Detail (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5973): Get an overview of all your service contract quotes.
-- [Service Contract-Detail (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5971): Get an overview of your service contracts.
-- [Service Document - Test (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5915): Test that service orders, invoices, or credit memos look right before you post them.
-- [Service Item - Resource Usage (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5939): Analyze resource usage of service items.
-- [Service Item Line Labels (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5901): Get an overview of service items in your service orders.
-- [Service Item Worksheet (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5936): Get an overview of what is needed for a service repair task.
-- [Service Items (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5935): Get an overview of registered service items, grouped by customer.
-- [Service Items Out of Warranty (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5937): Get an overview of service items that are out of warranty.
-- [Service Load Level (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5956): Get an overview of the service load of your resources.
+- [Contr. Gain/Loss - Resp. Ctr. (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5981): Analyze gains and losses made on contracts attached to responsibility centers. View contract numbers, change types, dates, and amounts.
+- [Contr. Serv. Orders - Test (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5988): Analyze which service contracts include service items that are due for service within the specified period, including contract and customer details.
+- [Contract Gain/Loss Entries (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5983): Get an overview of all your service contract gain/loss entries, including reason codes, responsibility centers, customers, and types of change.
+- [Contract Invoicing - Test (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5984): See which service contracts are due for invoicing up to the date that you specify. View contract invoice periods, amounts, and next invoice dates.
+- [Contract Price Update - Test (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5985): Get an overview of which service contracts need price updates up to the date that you specify, including amounts, update percentages, and errors.
+- [Contract Quotes to Be Signed (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5974): Get an overview of contract quotes to sign, including customers, salespeople, probabilities, quoted amounts, and optional forecast amounts.
+- [Dispatch Board in Business Central (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5955): Get an overview of your dispatch board, including response dates and times, priorities, order numbers, service zones, and resource allocations.
+- [Expired Contract Lines - Test (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5987): Analyze which contract lines are expired and need to be removed from service contracts up to the date that you specify. View line amounts.
+- [Maintenance Performance (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5982): Analyze maintenance performance for your responsibility centers, including annual amounts, expected amounts, realized amounts, and percentages.
+- [Maintenance Visit - Planning (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5980): Generate a report with all your schedules for maintenance visits, including service dates, service periods, contracts, and responsibility centers.
+- [Prepaid Contr. Entries (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-6086): Get an overview of the transfer of prepaid service contract ledger entry amounts from prepaid accounts to income accounts.
+- [Serv. Contract - Salesperson (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5978): Get an overview of service contracts for each salesperson for a selected period, including customer numbers, start dates, and annual amounts.
+- [Service - Credit Memo (Document Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5912): Generate a service credit memo document that you can send to your customer. Print all or selected posted service credit memos.
+- [Service - Invoice (Document Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5911): Generate a service invoice document that you can send to your customer. Include invoice details, payment terms, prices, and amounts.
+- [Service - Shipment (Document Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5913): Generate a service shipment document that you can send to your customer. Include shipment details and an optional lot and serial number appendix.
+- [Service Contract - Customer (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5977): Get an overview of service contracts for each customer in a selected time period, including status, invoice dates, and annual amounts.
+- [Service Contract in Business Central (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5970): Get an overview of all your service contracts, including contract numbers, item numbers, serial numbers, service periods, and annual amounts.
+- [Service Contract Quote (Document Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5972): Generate a service contract quote document that you can send to your customer. Include contract details, discounts, and annual amounts.
+- [Service Contract Quote-Detail (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5973): Get an overview of all your service contract quotes. View service items, service contract discounts, and quoted amounts summarized by contract.
+- [Service Contract-Detail (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5971): Get an overview of your service contracts, including item numbers, serial numbers, service periods, contract values, discounts, and amounts.
+- [Service Document - Test (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5915): Test that service orders, invoices, or credit memos look right before you post them. Verify posting dates and check whether there is anything to post.
+- [Service Item - Resource Usage (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5939): Analyze resource usage of service items, including total quantities, usage costs, usage amounts, profit amounts, and profit percentages.
+- [Service Item Line Labels (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5901): Get an overview of service items in your service orders, including order numbers, service item numbers, serial numbers, and item names.
+- [Service Item Worksheet (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5936): Get an overview of what is needed for a service repair task, including service item details, warranty information, and repair statuses.
+- [Service Items in Business Central (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5935): Get an overview of registered service items, grouped by customer, including serial numbers, variant codes, and the number of active contracts.
+- [Service Items Out of Warranty (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5937): Get an overview of service items that are out of warranty, including warranty end dates, serial numbers, customer names, and active contracts.
+- [Service Load Level in Business Central (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5956): Get an overview of the service load of your resources. View capacity, usage, unused capacity percentages, sales, and sales percentages.
 - [Service management reports](https://learn.microsoft.com/dynamics365/business-central/service-reports): Explore the standard reports in Business Central that can help you track and manage your service management processes.
-- [Service Order - Response Time (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5908): Analyze response times for service orders that were shipped.
-- [Service Order (document report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5900): Generate a service order that you can send to your customer.
-- [Service Profit (Contracts) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5976): Get an overview on profit for service contracts.
-- [Service Profit (Resp. Centers) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5909): Get an overview on profit for responsibility centers.
-- [Service Profit (Serv. Orders) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5910): Get an overview on profit for service orders.
-- [Service Profit (Service Items) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5938): Get an overview on profit for service items.
-- [Service Quote (document report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5902): Generate a service quote document that you can send to your customer.
-- [Service Tasks (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5904): Get an overview of service tasks.
+- [Service Order - Response Time (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5908): Analyze response times for service orders that were shipped. View order numbers, customer names, order dates, and actual response times.
+- [Service Order (Document Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5900): Generate a service order that you can send to your customer. Include customer details, service items, service lines, and amounts.
+- [Service Pricing Profitability (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-6080): Analyze profit from your service pricing, including usage amounts, invoice amounts, discount amounts, cost amounts, and profit percentages.
+- [Service Profit (Contracts) (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5976): Get an overview of profit for service contracts based on the difference between service amounts and service costs, including discount details.
+- [Service Profit (Resp. Centers) (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5909): Get an overview of profit for responsibility centers based on the difference between service amounts and service costs for service orders.
+- [Service Profit (Serv. Orders) (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5910): Get an overview of profit for service orders based on service amounts and service costs. View customer numbers and service ledger details.
+- [Service Profit (Service Items) (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5938): Get an overview of profit for service items, including service amounts, contract discounts, service discounts, service costs, and profit amounts.
+- [Service Quote (Document Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5902): Generate a service quote document that you can send to your customer. Include the quote number, status, order date, and customer details.
+- [Service Tasks in Business Central (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5904): Get an overview of service tasks, including service order numbers, repair statuses, service item numbers, response dates, and priorities.
 
 ## Videos, posts and code changes
 

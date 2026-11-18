@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -158,7 +158,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13134 [main] Bug 656172 Payment Slips Summarized by Due Date are not aggregating correlative in the French version.](../../../../../changes/bcapps/13134.md) (code change): "Suggest Cust. Payments and Suggest Vend. Payments reports now aggregate"
 - [#13255 [Main]-Exporting vendor remittance gets stuck when a payment jour nal is sorted by Document No.](../../../../../changes/bcapps/13255.md) (code change): "Fixed vendor remittance export hanging when a payment journal is sorted"
 - [#13294 [29.x]-Exporting vendor remittance gets stuck when a payment jour nal is sorted by Document No.](../../../../../changes/bcapps/13294.md) (code change): "Exporting vendor remittance gets stuck when a payment journal is sorted"
-- [#13717 [Main]- Export Electronic Payments: one vendor's missing email can clear another vendor's Document No.](../../../../../changes/bcapps/13717.md) (code change): "Fixed a bug in electronic payments export where a missing email address"
+- [#13717 [Main]- Export Electronic Payments: one vendor's missing email can clear another vendor's Document No.](../../../../../changes/bcapps/13717.md) (code change): "Export Electronic Payments: one vendor's missing email can clear another vendor's Document No"
 - [#9051 [639592][ALAppExtensions #30277][Event Request] Codeunit 426 "Payment Tolerance Management" OnPmtTolGenJnlOnAfterCheckConditions](../../../../../changes/bcapps/9051.md) (code change): "Codeunit 426 Payment Tolerance Management exposes event allowing subscribers to modify general journal lines"
 - [#9356 [Main]-Payment XML file generated from EB Payment Journal upon selecting "FCY Symbol" includes currency text](../../../../../changes/bcapps/9356.md) (code change): "Payment XML files exported from EB Payment Journal now correctly exclude currency text"
 - [#9674 Fix missing table permissions on Stale Check action in Check Management Subscriber](../../../../../changes/bcapps/9674.md) (code change): "Stale Check action was failing due to missing Modify permissions"

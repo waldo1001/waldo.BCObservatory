@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T12:48:04.649Z"
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,6 +76,7 @@ links:
     - post/bertverbeek-nl/1263
     - post/demiliani-com/13755
     - post/demiliani-com/15935
+    - post/katson-com/5026
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0
     - post/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97
     - post/yzhums-com/67462
@@ -103,7 +104,7 @@ coverage:
   learn: 5
   code: 3
   video: 3
-  blog: 14
+  blog: 15
   guideline: 0
 bc_forms:
   - 7771
@@ -156,6 +157,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 4 – troubleshooting](../../../posts/bertverbeek-nl/1263.md) (community post): "troubleshoot Business Central agents when they don't behave as expected"
 - [Dynamics 365 Business Central agents: announcing new updates.](../../../posts/demiliani-com/13755.md) (community post): "A new setting on the Agents page shows which model each custom agent uses"
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../../posts/demiliani-com/15935.md) (community post): "Copilot features in Dynamics 365 Business Central may move prompts across geographies"
+- [How to Connect Business Central MCP to Claude Desktop](../../../posts/katson-com/5026.md) (community post): "AI agents like Claude access Business Central data through a desktop client"
 - [BC Friday Tips #45 Hide Agents Icon](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0.md) (community post): "hide the Agents icon by going to Copilot & agent capabilities"
 - [Ask AI about Dynamics Licensing](../../../posts/wingate365-com/https-blog-wingate365-com-2025-12-ask-ai-about-dynamics-licensing-html--28d5fb7f97.md) (community post): "Copilot Credits, a consumption currency pooled per tenant"
 - [Business Central 2025 wave 2 (BC27): Understand how each Copilot and agent capability is billed (Billing Type)](../../../posts/yzhums-com/67462.md) (community post): "Billing Type column on the Copilot and Agent Capabilities page"

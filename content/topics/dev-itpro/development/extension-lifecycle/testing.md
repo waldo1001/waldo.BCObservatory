@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,14 +94,12 @@ links:
     - video/aNRzlbxVPWE
     - video/eUkx_VCcyoU
     - video/EurgqGU1jG0
-    - video/Hdp4KbbGpQA
     - video/hNom9ZZuca0
     - video/JI9OpaBx0nk
     - video/qlFEdXPjX6A
     - video/xB9kszf93hE
     - video/xr8C3c6WhOI
   posts:
-    - post/aardvarklabs-blog/3214
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-07-al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing--1510616044
     - post/gerardorenteria-blog/11565
     - post/jpearson-blog/1590
@@ -122,6 +120,7 @@ links:
     - change/bcapps/12325
     - change/bcapps/12463
     - change/bcapps/12557
+    - change/bcapps/13558
     - change/bcapps/8924
     - change/bcapps/9293
     - change/bcquality/159
@@ -135,8 +134,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 10
-  blog: 7
+  video: 9
+  blog: 6
   guideline: 0
 bc_forms:
   - 149000
@@ -205,10 +204,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12325 [Expense tests] Re-enable reviewed APIs and consolidate Expense fixes](../../../../changes/bcapps/12325.md) (code change): "Clean test codeunit execution is turned on"
 - [#12463 Fix Email upgrade writing during no-transaction upgrade test](../../../../changes/bcapps/12463.md) (code change): "Email Installer no longer re-registers email tables based on allowed-table"
 - [#12557 Implement first-party app authentication for Microsoft Fabric Export](../../../../changes/bcapps/12557.md) (code change): "tests are extended"
+- [#13558 Add logging table management during installation and upgrade processes](../../../../changes/bcapps/13558.md) (code change): "Updates the existing tests to match"
 - [#8924 [QM] Fixed overflow runtime error](../../../../changes/bcapps/8924.md) (code change): "Adds a regression test in the miscellaneous QM tests codeunit"
 - [#9293 [Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)](../../../../changes/bcapps/9293.md) (code change): "Six new tests added covering the corrected behavior"
 - [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../changes/bcquality/159.md) (code change): "AL testing patterns from an external BC testing expert's blog"
-- [Streamline AL Development Using Copilot Code Review](../../../../posts/aardvarklabs-blog/3214.md) (community post): "GitHub's Copilot Code Review feature can assist with AL code reviews by checking code"
 - [AL EventLens 0.1.6: the handler lens, and a fix that needed fixing](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing--1510616044.md) (community post): "Handler lens shows test usage counts above handler functions such as MessageHandler, ConfirmHandler and PageHandler"
 - [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../../../../posts/gerardorenteria-blog/11565.md) (community post): "Testing enhancements enable HTTP request mocking with TestHttpRequestPolicy"
 - [Why do all my tests show up twice in the test explorer?](../../../../posts/jpearson-blog/1590.md) (community post): "Tests show up twice in the VS Code test explorer when the pre-release AL Language extension"
@@ -219,7 +218,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)](../../../../videos/aNRzlbxVPWE.md) (video): "Agent task flow mapping; multi-turn conversation testing; Test library data creation"
 - [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "testing; http client; call stack; HTTP Client Handler for Testing"
 - [20260504 - Super fast tests covering 100% of your code](../../../../videos/EurgqGU1jG0.md) (video): "automated testing; code coverage; test patterns; Fast automated testing framework"
-- [Business Central Under the Hood episode 15: BC-Bench: How we evaluate AI on AL tasks](../../../../videos/Hdp4KbbGpQA.md) (video): "BC-Bench; AL2 MCP Server; Test Generation Category"
 - [What's new: Testability Enhancements (2026 release wave 2)](../../../../videos/hNom9ZZuca0.md) (video): "Data-driven Testing in AL"
 - [Introducing: How to Mock Outbound Http Calls for Easier Testing (2025 release wave 1)](../../../../videos/JI9OpaBx0nk.md) (video): "outbound http testing; mocking; HTTP client handler; test isolation; request interception"
 - [What's New: AL Language (2025 release wave 2)](../../../../videos/qlFEdXPjX6A.md) (video): "AI Test Type; Required Test Isolation Property; Cancellation Token Propagation in VS Code"

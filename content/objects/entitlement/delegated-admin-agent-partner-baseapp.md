@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T00:48:58.898Z"
+  at: "2026-11-18T00:47:52.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1b5d0705ee24448227dd80e30bff23832544c35a1535c6dcd71e585534e19f1b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/Layers/W1/BaseApp/Entitlements/DelegatedAdminagentPartnerBaseApp.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Layers/W1/BaseApp/Entitlements/DelegatedAdminagentPartnerBaseApp.Entitlement.al
     title: src/Layers/W1/BaseApp/Entitlements/DelegatedAdminagentPartnerBaseApp.Entitlement.al (releases/29.x)
     date: null
-    commit: ae251bc67417b1b37b41aaf52480e6a5c8f9294e
+    commit: 4f49a1eb5ebb7384620fe1654dd53536c3abca03
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Entitlement "Delegated Admin agent - Partner BaseApp" in Base Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 
-Base Application · System.Security.AccessControl · BC23-30 · [source at ae251bc6](https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/Layers/W1/BaseApp/Entitlements/DelegatedAdminagentPartnerBaseApp.Entitlement.al) · facts from BC29
+Base Application · System.Security.AccessControl · BC23-30 · [source at 4f49a1eb](https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Layers/W1/BaseApp/Entitlements/DelegatedAdminagentPartnerBaseApp.Entitlement.al) · facts from BC29
 
 ## Across versions
 

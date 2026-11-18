@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.950Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -209,6 +209,7 @@ links:
     - change/bcapps/12261
     - change/bcapps/12328
     - change/bcapps/13623
+    - change/bcapps/14203
     - change/bcapps/9127
     - change/bcapps/9322
 learn_toc_path:
@@ -281,6 +282,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12261 Stop repeated rescheduling of Dataverse synch jobs on bulk changes](../../../changes/bcapps/12261.md) (code change): "Dataverse synchronization job reschedule logic now checks both the"
 - [#12328 [Master Data Management] Fix usage telemetry and make it emit max once per day](../../../changes/bcapps/12328.md) (code change): "Master Data Management usage telemetry distinguishing cross-environment and same-environment synchronizations"
 - [#13623 [Dataverse] Fix duplicate sales line numbers with automatic recurring lines](../../../changes/bcapps/13623.md) (code change): "creating a Business Central sales order from Dynamics 365 Sales"
+- [#14203 [Dataverse] Use commercial endpoints in Business Central online](../../../changes/bcapps/14203.md) (code change): "Business Central online now always uses commercial Dataverse endpoints regardless of the selected cloud"
 - [#9127 Add Dataverse Cloud endpoints override for sovereign clouds](../../../changes/bcapps/9127.md) (code change): "New interface and enum enable partners to override Dataverse endpoints for sovereign cloud environments"
 - [#9322 [FS Integration] SVCITEM-CUSTASSET mapping ignores "Convert to Customer Asset" flag — every Service Item synced to FS unconditionally](../../../changes/bcapps/9322.md) (code change): "Field Service Integration now respects the Dataverse Product setting Convert to Customer Asset"
 - [Business Central + Power Pages = TRUE - ColorCloud 2025](../../../posts/wingate365-com/https-blog-wingate365-com-2025-05-business-central-power-pages-true-html--3e063897e5.md) (community post): "Virtual Tables in Dataverse, supported in Power Pages, let external audiences interact with Business Central data"

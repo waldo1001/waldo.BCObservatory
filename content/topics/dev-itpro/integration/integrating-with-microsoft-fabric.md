@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,6 +92,7 @@ links:
   videos:
     - video/kOCiyVql0go
   posts:
+    - post/bertverbeek-nl/1143
     - post/bertverbeek-nl/1196
     - post/bertverbeek-nl/1209
     - post/bertverbeek-nl/1318
@@ -114,7 +115,7 @@ coverage:
   learn: 7
   code: 11
   video: 1
-  blog: 9
+  blog: 10
   guideline: 0
 bc_forms:
   - 8350
@@ -181,6 +182,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [[Preview] bc2adls and Fabric Open Mirroring](../../../posts/bertverbeek-nl/1143.md) (community post): "bc2adls and Fabric Open Mirroring; Business Central data files go to a Fabric Landing Zone"
 - [Data agent inside Fabric ask question on your Business Central Data](../../../posts/bertverbeek-nl/1196.md) (community post): "Data Agents in Microsoft Fabric enable users to ask natural language questions about Business Central data"
 - [Migrate bc2adls from PTE to appsource extension](../../../posts/bertverbeek-nl/1209.md) (community post): "bc2adls extension for exporting Business Central data to Azure Data Lake Storage"
 - [Native connection with Fabric in Business Central](../../../posts/bertverbeek-nl/1318.md) (community post): "Business Central introduces native integration with Microsoft Fabric for data synchronization"

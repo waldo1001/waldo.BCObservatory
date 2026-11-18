@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T00:48:58.898Z"
+  at: "2026-11-18T00:47:52.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1958e3b7cd6ed5773a0bbfa143714d92b98ed996ad4ea209266d3cb91abdefaf
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/System%20Application/App/ControlAddIns/src/WebPageViewer.ControlAddin.al
+    url: https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/System%20Application/App/ControlAddIns/src/WebPageViewer.ControlAddin.al
     title: src/System Application/App/ControlAddIns/src/WebPageViewer.ControlAddin.al (releases/29.x)
     date: null
-    commit: ae251bc67417b1b37b41aaf52480e6a5c8f9294e
+    commit: 4f49a1eb5ebb7384620fe1654dd53536c3abca03
     t: null
     quote: null
 links:
@@ -80,7 +80,7 @@ relations:
 
 > Control add-in "WebPageViewer" in System Application (System.Integration). 11 public procedures. Introduced in BC24, still in BC30.
 
-System Application · System.Integration · BC24-30 · [source at ae251bc6](https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/System%20Application/App/ControlAddIns/src/WebPageViewer.ControlAddin.al) · facts from BC29
+System Application · System.Integration · BC24-30 · [source at 4f49a1eb](https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/System%20Application/App/ControlAddIns/src/WebPageViewer.ControlAddin.al) · facts from BC29
 
 ## Procedures
 

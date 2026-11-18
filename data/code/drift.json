@@ -2,11 +2,11 @@
   "inputs": {
     "commits": {
       "28": "45cd68de3ce0d94d0e25a2b7ee87b76d78dbffa7",
-      "29": "ae251bc67417b1b37b41aaf52480e6a5c8f9294e",
+      "29": "4f49a1eb5ebb7384620fe1654dd53536c3abca03",
       "30": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
     },
     "forms": 1734,
-    "forms_hash": "9d030d7e9c241a6bde539234bc178f847e22db6c6684d7d1c2f645171ee74f08"
+    "forms_hash": "26b779880e3a6e0da137240a809880fe14065f90e956ef2d1fdf9047189c3e3a"
   },
   "majors": [
     "28",
@@ -1420,7 +1420,7 @@
         {
           "id": "docs/learn-smb-docs/business-central/reports/report-6086.md",
           "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6086",
-          "title": "Prepaid Contr. Entries (report)",
+          "title": "Prepaid Contr. Entries (Report)",
           "via": "ms.search.form"
         },
         {
@@ -1504,28 +1504,6 @@
           "id": "docs/learn-smb-docs/business-central/reports/report-8011.md",
           "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-8011",
           "title": "Contract Standard Sales Quote report",
-          "via": "ms.search.form"
-        }
-      ]
-    },
-    {
-      "key": "report/990000785",
-      "docs": [
-        {
-          "id": "docs/learn-smb-docs/business-central/reports/report-99000785.md",
-          "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000785",
-          "title": "Work Center Load/Bar (report)",
-          "via": "ms.search.form"
-        }
-      ]
-    },
-    {
-      "key": "report/990003804",
-      "docs": [
-        {
-          "id": "docs/learn-smb-docs/business-central/reports/report-990003804.md",
-          "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-990003804",
-          "title": "Production Forecast (report)",
           "via": "ms.search.form"
         }
       ]
@@ -2151,7 +2129,7 @@
         {
           "id": "docs/learn-smb-docs/business-central/payables-how-handling-payment-disputes.md",
           "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-handling-payment-disputes",
-          "title": "Handle vendor payment disputes",
+          "title": "Handle Vendor Payment Disputes",
           "via": "ms.search.form"
         },
         {
@@ -2247,7 +2225,7 @@
         {
           "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
           "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-          "title": "Fixed assets analytics",
+          "title": "Fixed Assets Analytics and Reporting",
           "via": "ms.search.form"
         },
         {
@@ -2273,7 +2251,7 @@
         {
           "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
           "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-          "title": "Fixed assets analytics",
+          "title": "Fixed Assets Analytics and Reporting",
           "via": "ms.search.form"
         },
         {
@@ -2299,7 +2277,7 @@
         {
           "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
           "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-          "title": "Fixed assets analytics",
+          "title": "Fixed Assets Analytics and Reporting",
           "via": "ms.search.form"
         },
         {
@@ -2371,7 +2349,7 @@
         {
           "id": "docs/learn-smb-docs/business-central/reports/report-99000759.md",
           "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000759",
-          "title": "Work Center List (report)",
+          "title": "Work Center List Report in Business Central",
           "via": "ms.search.form"
         }
       ]
@@ -2385,7 +2363,7 @@
         {
           "id": "docs/learn-smb-docs/business-central/reports/report-99000760.md",
           "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000760",
-          "title": "Machine Center List (report)",
+          "title": "Machine Center List Report in Business Central",
           "via": "ms.search.form"
         }
       ]
@@ -2425,7 +2403,7 @@
         {
           "id": "docs/learn-smb-docs/business-central/reports/report-99000783.md",
           "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000783",
-          "title": "Work Center Load (report)",
+          "title": "Work Center Load Report in Business Central",
           "via": "ms.search.form"
         }
       ]
@@ -2445,7 +2423,21 @@
         {
           "id": "docs/learn-smb-docs/business-central/reports/report-99000784.md",
           "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000784",
-          "title": "Machine Center Load (report)",
+          "title": "Machine Center Load Report in Business Central",
+          "via": "ms.search.form"
+        }
+      ]
+    },
+    {
+      "key": "report/99000785",
+      "name": "Work Center Load/Bar",
+      "state": "Pending",
+      "tag": "27.0",
+      "docs": [
+        {
+          "id": "docs/learn-smb-docs/business-central/reports/report-99000785.md",
+          "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000785",
+          "title": "Work Center Load/Bar Report in Business Central",
           "via": "ms.search.form"
         }
       ]
@@ -2459,7 +2451,7 @@
         {
           "id": "docs/learn-smb-docs/business-central/reports/report-99000786.md",
           "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000786",
-          "title": "Machine Center Load/Bar (report)",
+          "title": "Machine Center Load/Bar (Report)",
           "via": "ms.search.form"
         }
       ]
@@ -2473,7 +2465,21 @@
         {
           "id": "docs/learn-smb-docs/business-central/reports/report-99001048.md",
           "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99001048",
-          "title": "Planning Availability (report)",
+          "title": "Planning Availability (Report)",
+          "via": "ms.search.form"
+        }
+      ]
+    },
+    {
+      "key": "report/99003804",
+      "name": "Demand Forecast",
+      "state": "Pending",
+      "tag": "27.0",
+      "docs": [
+        {
+          "id": "docs/learn-smb-docs/business-central/reports/report-990003804.md",
+          "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-990003804",
+          "title": "Demand Forecast (Obsolete) Report",
           "via": "ms.search.form"
         }
       ]

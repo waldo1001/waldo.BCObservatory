@@ -7,12 +7,12 @@ tier: official
 language: en
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-18T01:00:03.203Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,8 +48,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/analytics-by-functional-area
-    title: Analytics by functional area
-    date: "2024-05-01"
+    title: Analytics by Functional Area Overview
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -969,7 +969,7 @@ narrative: generated
 
 > Analytics, business intelligence, and reporting in Business Central: KPIs, dashboards, financial reports, Power BI, ad-hoc analysis, built-in reports, daily report use, report development, and exporting data to external BI tools. It answers which tool or report fits a need and how to set it up or run it.
 
-Path: Analytics, business intelligence, and reporting · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
+Path: Analytics, business intelligence, and reporting · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -1001,7 +1001,7 @@ For technical readers, Develop reports explains datasets, layouts (Word, Excel, 
 
 ## More Learn pages
 
-- [Analytics by functional area](https://learn.microsoft.com/dynamics365/business-central/analytics-by-functional-area): Provides an overview of functional area specific landing pages for analytics in Business Central.
+- [Analytics by Functional Area Overview](https://learn.microsoft.com/dynamics365/business-central/analytics-by-functional-area): Provides an overview of functional area specific landing pages for analytics in Business Central, including finance, sales, and inventory.
 - [Analytics, business intelligence, and reporting overview](https://learn.microsoft.com/dynamics365/business-central/reports-bi-reporting): Provides an overview of all the analytics, business intelligence, and reporting features supported in Business Central.
 
 ## Videos and posts
@@ -1163,8 +1163,8 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9309 "Purchase Credit Memos"](../../objects/page/9309.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Ad-hoc data analysis](analytics-business-intelligence-and-repo/ad-hoc-data-analysis.md)
 - [Page 9310 "Blanket Purchase Orders"](../../objects/page/9310.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Ad-hoc data analysis](analytics-business-intelligence-and-repo/ad-hoc-data-analysis.md)
 - [Page 9311 "Purchase Return Order List"](../../objects/page/9311.md) · captioned "Purchase Return Orders" · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [Ad-hoc data analysis](analytics-business-intelligence-and-repo/ad-hoc-data-analysis.md)
-- [Page 9650 "Custom Report Layouts"](../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../objects/table/9650.md) · via [Use reports in daily work](analytics-business-intelligence-and-repo/use-reports-in-daily-work.md)
-- [Page 9652 "Report Layout Selection"](../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../objects/table/9651.md) · via [Use reports in daily work](analytics-business-intelligence-and-repo/use-reports-in-daily-work.md)
+- [Page 9650 "Custom Report Layouts"](../../objects/page/9650.md) · captioned "Custom Report Layouts (Obsoleted)" · on [Table 9650 "Custom Report Layout"](../../objects/table/9650.md) · via [Use reports in daily work](analytics-business-intelligence-and-repo/use-reports-in-daily-work.md)
+- [Page 9652 "Report Layout Selection"](../../objects/page/9652.md) · captioned "Report Layout Selection (Obsoleted)" · on [Table 9651 "Report Layout Selection"](../../objects/table/9651.md) · via [Use reports in daily work](analytics-business-intelligence-and-repo/use-reports-in-daily-work.md)
 - [Page 9660 "Report Layouts"](../../objects/page/9660.md) · via [Develop reports](analytics-business-intelligence-and-repo/develop-reports.md)
 - [Page 9662 "Report Layout New Dialog"](../../objects/page/9662.md) · captioned "Add New Layout for a Report" · via [Develop reports](analytics-business-intelligence-and-repo/develop-reports.md)
 - [Page 9663 "Tenant Report Layout Cfg"](../../objects/page/9663.md) · captioned "Report defaults for theme and header-footer" · via [Develop reports](analytics-business-intelligence-and-repo/develop-reports.md)

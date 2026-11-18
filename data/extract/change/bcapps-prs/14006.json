@@ -6,13 +6,13 @@
   "systems_joined": [
     "administration"
   ],
-  "summary": "GP migration now correctly handles duplicate inventory transactions when migrating multiple lot number receipt lines for the same item.",
+  "summary": "Fixes duplicate records during GP migration when inventory transactions contain multiple lot number receipt lines. A new GP item transactions buffer table is added and the GP Populate Combined Tables logic is updated, with permission set updates and new tests.",
   "key_points": [
-    "Introduces GP Item Transactions Buffer table to manage lot number receipt deduplication",
-    "Updates populate combined tables codeunit logic to prevent duplicate entries",
-    "Adds comprehensive test coverage for item transaction duplicate scenarios",
-    "Applies permission updates across all GP hybrid migration permission sets",
-    "Addresses specific issue where multiple lot lines caused unwanted duplicates in migration"
+    "New GP Item Transactions Buffer table added to the HybridGP app",
+    "GP Populate Combined Tables codeunit updated to avoid duplicate item transactions",
+    "Duplicates happened when a transaction had several lot number receipt lines",
+    "HybridGP permission sets and permission set extensions updated for the new table",
+    "New tests added in GP Item Transaction Tests"
   ],
   "change_kind": "fix",
   "behavior_change": true,

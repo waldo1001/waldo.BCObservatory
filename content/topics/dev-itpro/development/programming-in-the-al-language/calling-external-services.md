@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -97,8 +97,8 @@ links:
     - post/demiliani-com/13640
     - post/demiliani-com/14203
     - post/kauffmann-nl/8332
+    - post/wingate365-com/https-blog-wingate365-com-2026-04-trying-out-github-copilot-agent-for-html--9cac8e5838
     - post/yzhums-com/56046
-    - post/yzhums-com/63735
     - post/yzhums-com/64775
     - post/yzhums-com/65391
     - post/yzhums-com/65525
@@ -180,15 +180,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "consume external APIs from within Business Central by making HTTP requests"
 - [Native SFTP Support in Business Central 28](../../../../posts/aardvarklabs-blog/3460.md) (community post): "native SFTP Client codeunit for listing, uploading, downloading and deleting files"
 - [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "Business Central 2026 Wave 1 introduced a native SFTP Client codeunit for connecting to SFTP servers"
-- [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs"
+- [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs risk duplicating actions"
 - [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released"
+- [Trying out GitHub Copilot Agent for a Functional Task?](../../../../posts/wingate365-com/https-blog-wingate365-com-2026-04-trying-out-github-copilot-agent-for-html--9cac8e5838.md) (community post): "GitHub Copilot Agent can validate large numbers of CSV schema files against Business Central master data"
 - [Dynamics 365 Business Central: Generate barcode through external services/APIs (Telepen, Swiss QR Code, QR codes with colors, images or text……)](../../../../posts/yzhums-com/56046.md) (community post): "QuickChart API instead. QuickChart QR parameters cover format, margin, size"
-- [Dynamics 365 Business Central Blog Series: Integrate Business Central with SharePoint](../../../../posts/yzhums-com/63735.md) (community post): "uploading SharePoint files through AL and Graph API, saving reports to SharePoint"
 - [Dynamics 365 Business Central: Integrate with Microsoft Dataverse via APIs (Not using the standard Dataverse connector)](../../../../posts/yzhums-com/64775.md) (community post): "step-by-step guidance on authenticating with OAuth 2.0 and implementing GET, POST, PATCH, and DELETE operations"
 - [Dynamics 365 Business Central: How to set Allow HttpClient Requests for multiple extensions (selected extensions) at the same time](../../../../posts/yzhums-com/65391.md) (community post): "Allow HttpClient Requests for extensions to allow outbound HTTP calls"
 - [Dynamics 365 Business Central: How to quickly check if a Url is secure (Use https) via AL](../../../../posts/yzhums-com/65525.md) (community post): "Use codeunit 1299 Web Request Helper and its IsSecureHttpUrl procedure to validate URL security"
 - [Dynamics 365 Business Central: Automatically enable Allow HttpClient Requests after custom extension/app installation](../../../../posts/yzhums-com/65533.md) (community post): "Allow HttpClient Requests setting for custom extensions during installation"
 - [FTP, FTPS, SFTP, What's the difference, and what about AL and Business Central](../../../../videos/aXM5Kuo3DHM.md) (video): "SFTP client in Business Central; SFTP code unit methods; SSH fingerprint verification"
-- [What's Cooking in Business Central: Cookies and Collectible Errors in the REST Client](../../../../videos/qNHUj3ZEang.md) (video): "Cookie Support in REST Client; Collectible Errors in REST Client"
+- [What's Cooking in Business Central: Cookies and Collectible Errors in the REST Client](../../../../videos/qNHUj3ZEang.md) (video): "rest client; cookies; exception handling; collectible errors; error behavior"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

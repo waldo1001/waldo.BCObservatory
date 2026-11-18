@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/14006",
+  "input_hash": "8d3901fdcea22077ac15b26c9620345660607a4e406432cbcb9050b5d28ede57",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-18T00:57:47.545Z",
+  "issues": [
+    "The summary adds 'for the same item', which the description does not say.",
+    "The key point about how the buffer table deduplicates goes beyond what was given. Only the new table and the codeunit changes are known."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036297,
+    "changes_in_call": 6
+  }
+}

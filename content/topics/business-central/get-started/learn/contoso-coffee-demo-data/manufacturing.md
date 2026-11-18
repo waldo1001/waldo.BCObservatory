@@ -2,21 +2,21 @@
 id: topic/business-central/get-started/learn/contoso-coffee-demo-data/manufacturing
 type: topic
 title: Manufacturing
-summary: Manufacturing walkthroughs built on Contoso Coffee demo data in Business Central. They answer how to set up BOMs, routings, capacity, flushing, planning, variants and subcontracting, and how to process production orders with them.
+summary: Manufacturing walkthroughs using Contoso Coffee demo data in Business Central. They answer how-to questions on production orders, BOMs, routings, capacity, flushing, variants, order planning and subcontracting.
 tier: official
 language: en
 system: manufacturing
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:55:10.672Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d314a3cba50ab81881dbd0b16d2ae55f1aade55d2b0bfac5e3af47a83b2079fd
+  input_hash: 8c3250e6bfd6eb3f3050fbaeccc28128c0a5e3bb287cd7ab879f6eb2ff1b72e7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing
@@ -144,49 +144,46 @@ narrative: generated
 
 # Manufacturing
 
-> Manufacturing walkthroughs built on Contoso Coffee demo data in Business Central. They answer how to set up BOMs, routings, capacity, flushing, planning, variants and subcontracting, and how to process production orders with them.
+> Manufacturing walkthroughs using Contoso Coffee demo data in Business Central. They answer how-to questions on production orders, BOMs, routings, capacity, flushing, variants, order planning and subcontracting.
 
-Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Manufacturing · tier official · system manufacturing · narrative reviewed (checked by Opus)
+Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Manufacturing · tier official · system manufacturing · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is a set of hands-on walkthroughs that use the Contoso Coffee demo data. The introduction page describes the four sample products, their BOMs and routings, and the scenarios the data supports: production, subcontracting, flushing methods, capacity and demand forecasting.
+This section is a set of hands-on scenarios built on the Contoso Coffee manufacturing demo data. The data has four products with production BOMs, routings, work centers and machine centers. Each scenario shows one manufacturing task step by step.
 
-The other pages each cover one task. Setup tasks include creating a production BOM and BOM version, creating a routing, and setting up a new work center and machine center with capacity calendars. Production tasks include creating and changing a firm planned production order, combining automatic and manual flushing, and using Order Planning to create and reserve supply. A further page covers variants with SKUs, forecasts and MPS planning.
+The pages fall into groups. Master data: new production BOMs and BOM versions, new routings, and new capacity (work centers, machine centers, calendars). Production orders: firm planned orders with backward and forward scheduling, combining automatic and manual flushing, and order planning to create and reserve subassembly supply. Variants: planning for item variants. Subcontracting: setting up and processing an operation, component supply methods, and subcontracting prices with item charges.
 
-Subcontracting has its own group of pages: setting up and processing a subcontracting operation, using the three component supply methods, and setting up subcontracting prices with item charge allocation.
+Start with "Introduction to Contoso Coffee Manufacturing" to see the demo data and the scenarios it supports. Then pick the scenario that matches your task.
 
 ## Key points
 
-- The introduction describes four sample products with different BOMs and routings, including phantom BOMs, standard and specific costing, item tracking and alternative routings.
-- BOM walkthrough covers creating a production BOM, adding components, certifying it, copying a BOM, and creating versions with a starting date.
-- Routing walkthrough covers operation numbers, work center assignment, setup and run time, and routing certification.
-- Capacity walkthrough sets up a work center and machine center with shop calendar, capacity calendar and efficiency.
-- Flushing walkthrough combines forward flushing, manual consumption journals and backward flushing, with output registration.
-- Firm planned production orders are created and changed using backward and forward scheduling and order refresh.
-- Order Planning walkthrough uses Calculate Plan, Make Orders and Reserve to supply subassemblies for parent orders.
-- Subcontracting pages cover the Subcontracting app, transfer orders to vendors, WIP transfers, price lists with minimum order amounts, item charge allocation, and the three component supply methods: transfer to vendor, consignment at vendor, vendor-supplied.
+- The introduction page describes four optimized Contoso Coffee products with production BOMs, routings, work centers, machine centers, item tracking and phantom BOMs.
+- A new production BOM or BOM version is made by copying an existing BOM and removing components, then certifying it and setting a starting date.
+- A new routing needs a header and lines with operation details, and must be certified; the example routing is named New Path.
+- New capacity is set up by creating a work center (Test Department) and a machine center with a capacity calendar, an efficiency rating and single-shift hours.
+- Firm planned production orders can be refreshed and rescheduled with backward or forward scheduling, and quantities can be changed.
+- The flushing scenario combines forward, backward and manual flushing for components and operations, and checks results in Item Ledger Entries.
+- Variant planning covers variant BOMs, stockkeeping units and demand forecasts by variant with MPS planning.
+- Subcontracting scenarios cover transfer to vendor, receiving output, invoicing, the supply methods Transfer to Vendor, Consignment at Vendor and Vendor-Supplied, subcontractor prices with minimum amounts, and freight allocation by item charges.
 
 ## Learn pages
 
 - [Combine Automatic and Manual Flushing](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing): Use Contoso Coffee manufacturing demo data to combine automatic and manual component consumption and operation output in Business Central.
-  - In the observatory: [Page 38 "Item Ledger Entries"](../../../../../objects/page/38.md), [Page 5832 "Capacity Ledger Entries"](../../../../../objects/page/5832.md), [Page 99000823 "Output Journal"](../../../../../objects/page/99000823.md), [Page 99000831 "Released Production Order"](../../../../../objects/page/99000831.md), [Page 99000846 "Consumption Journal"](../../../../../objects/page/99000846.md)
+  - In the observatory: [Page 99000823 "Output Journal"](../../../../../objects/page/99000823.md), [Page 99000831 "Released Production Order"](../../../../../objects/page/99000831.md), [Page 99000846 "Consumption Journal"](../../../../../objects/page/99000846.md)
 - [Create a Firm Planned Production Order and Change It](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-firm-planned-production-order-change): Walkthrough for a production planner at Contoso Coffee who wants to create a firm planned production order and then modify it.
-  - In the observatory: [Page 99000786 "Production BOM"](../../../../../objects/page/99000786.md)
+  - In the observatory: [Page 9325 "Firm Planned Prod. Orders"](../../../../../objects/page/9325.md)
 - [Create a New Production BOM and BOM Version](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-production-bom-version): Learn how to use Contoso Coffee demo data to create a production bill of materials and a BOM version for the Airpot Lite in Business Central.
-  - In the observatory: [Page 99000800 "Prod. BOM Version List"](../../../../../objects/page/99000800.md)
+  - In the observatory: [Page 99000786 "Production BOM"](../../../../../objects/page/99000786.md), [Page 99000800 "Prod. BOM Version List"](../../../../../objects/page/99000800.md)
 - [Create a New Production Routing](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-routing): Learn how to use Contoso Coffee demo data to manually create a production routing with two work center operations in Business Central.
 - [Introduction to Contoso Coffee Manufacturing](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro): Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the manufacturing capabilities in Business Central.
+  - In the observatory: [Page 5194 "Contoso Demo Tool"](../../../../../objects/page/5194.md)
 - [Plan Production for Item Variants](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/variants): Learn how to use Contoso Coffee demo data to assign variant-specific production BOMs and plan supply from demand forecasts in Business Central.
 - [Set Up and Process a Subcontracting Operation](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-process-subcontracting-operation): Walkthrough to learn how to set up and process a subcontracting operation with component transfers, work-in-progress tracking, and returns in Business Central.
-  - In the observatory: [Page 9326 "Released Production Orders"](../../../../../objects/page/9326.md), [Page 99000768 "Manufacturing Setup"](../../../../../objects/page/99000768.md)
 - [Set Up New Manufacturing Capacity](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-new-capacity): Learn how to use Contoso Coffee demo data to set up a work center, a machine center, and a single-shift capacity calendar in Business Central.
-  - In the observatory: [Page 99000770 "Machine Center Calendar"](../../../../../objects/page/99000770.md)
 - [Set Up Subcontracting Prices and Allocate Item Charges](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges): Walkthrough to learn how to set up subcontracting price lists and allocate extra costs using item charges in Business Central.
-  - In the observatory: [Page 20500 "Subcontractor Prices"](../../../../../objects/page/20500.md), [Page 9308 "Purchase Invoices"](../../../../../objects/page/9308.md), [Page 9326 "Released Production Orders"](../../../../../objects/page/9326.md)
 - [Use Different Component Supply Methods in Subcontracting](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods): Walkthrough to learn how the three component supply methods work in subcontracting and how they affect planning in Business Central.
 - [Use Order Planning to Create and Reserve Supply](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/order-planning-create-reserve-supply): Learn how to use Contoso Coffee demo data and order planning to create and reserve subassembly supply for a production order in Business Central.
-  - In the observatory: [Page 5522 "Order Planning"](../../../../../objects/page/5522.md), [Page 99000831 "Released Production Order"](../../../../../objects/page/99000831.md)
 
 ## Videos, posts and code changes
 

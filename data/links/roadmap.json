@@ -33298,10 +33298,10 @@
     "video/8hz-uNsKQbk": {
       "kind": "video",
       "key": "video/8hz-uNsKQbk",
-      "hash": "694d11215a09664f0294055a4accd94374b0a096200f7ff64cf6ab73b88cdf65",
+      "hash": "4deeb65ab67a5cd48f2650ebbc72a7f7a84fea74fd7d5d26e7267d4ada95032e",
       "video_id": "8hz-uNsKQbk",
       "title": "How partners responds to the #BCTalent initiative: Reskill",
-      "at": "2026-11-10T00:51:08.455Z",
+      "at": "2026-11-18T00:52:54.474Z",
       "matches": []
     },
     "video/8IOEXgk7q5I": {
@@ -33375,40 +33375,47 @@
     "video/8t3WaWh7K9Y": {
       "kind": "video",
       "key": "video/8t3WaWh7K9Y",
-      "hash": "06500e4b562ba4c1ccceb2eec0aa2434e970b53e88ab27e17556d7baec433d99",
+      "hash": "5616f4a33bdd8bf685de1233f11a7f3cc306111d5fac70a3cf767a5d577379f3",
       "video_id": "8t3WaWh7K9Y",
       "title": "What's New in AL: Easy Access to Source Code with Open In VS Code and GitHub Projects (2024)",
-      "at": "2026-11-10T00:51:10.406Z",
+      "at": "2026-11-18T00:52:56.275Z",
       "matches": []
     },
     "video/8VRtBLNAOiI": {
       "kind": "video",
       "key": "video/8VRtBLNAOiI",
-      "hash": "d9b62cba40505f7aa87f0716522d06185783f4fdfe14d20865bf4d1b95109e7e",
+      "hash": "83473660a2166c3f39c9d27ff691e4f403ce9ef937b24a5db4836120b5df236f",
       "video_id": "8VRtBLNAOiI",
       "title": "Introducing: Self-Billing Invoices (2026 release wave 1)",
-      "at": "2026-11-10T00:51:04.542Z",
+      "at": "2026-11-18T00:52:54.104Z",
       "matches": [
         {
           "feature": 0,
           "name": "Self-Billing Invoices",
           "t": 7,
           "roadmap_id": "576881",
-          "quote": "create invoices on behalf of their vendors for goods or services received"
+          "quote": "create invoices on behalf of their vendors for goods or services"
         },
         {
           "feature": 1,
           "name": "Self-Billing Agreement Field on Vendor Card",
           "t": 127,
           "roadmap_id": "576881",
-          "quote": "A new boolean field on the invoicing fast tab of the vendor card"
+          "quote": "boolean field on the invoicing fast tab of the vendor card"
         },
         {
           "feature": 2,
           "name": "Posted Self-Billing Invoice Number Series",
           "t": 144,
           "roadmap_id": "573307",
-          "quote": "new number series configuration in Purchase and Payable Setup"
+          "quote": "number series configuration in Purchase and Payable Setup"
+        },
+        {
+          "feature": 3,
+          "name": "Self-Billing Invoice Report Selection",
+          "t": 186,
+          "roadmap_id": "576881",
+          "quote": "report selection for self-billing invoices in Purchase"
         }
       ]
     },
@@ -33424,79 +33431,137 @@
     "video/94Lqd7Ap8YQ": {
       "kind": "video",
       "key": "video/94Lqd7Ap8YQ",
-      "hash": "6dec36f063048447b8e2be10cbd3e980f68071f97b58f81d97db9139cf20f17d",
+      "hash": "cdda36f683068704cf9e7f67b134cadec69afd86ba785d56c19c0f2fe76bd99a",
       "video_id": "94Lqd7Ap8YQ",
       "title": "#BCTalent and AI: A Partner’s Guide",
-      "at": "2026-11-10T00:51:10.844Z",
+      "at": "2026-11-18T00:52:56.324Z",
       "matches": []
     },
     "video/9cOdjHU15rE": {
       "kind": "video",
       "key": "video/9cOdjHU15rE",
-      "hash": "d98f2c449fabfffeda7e728efc5e951d9e32553f16e39470092986232c0e557a",
+      "hash": "5dcd5b11aad8e24d347fa1afb1f55f94123fb9d4f5d4bfac251e49575826347a",
       "video_id": "9cOdjHU15rE",
       "title": "#BCTalent and AI: A Learner’s Guide",
-      "at": "2026-11-10T00:51:12.834Z",
-      "matches": []
+      "at": "2026-11-18T00:52:57.792Z",
+      "matches": [
+        {
+          "feature": 1,
+          "name": "BC Sales Agent",
+          "t": 291,
+          "roadmap_id": "578068",
+          "quote": "An AI agent integrated into Business Central that provides inbox copilot and AI capabilities"
+        },
+        {
+          "feature": 1,
+          "name": "BC Sales Agent",
+          "t": 291,
+          "roadmap_id": "578065",
+          "quote": "An AI agent integrated into Business Central that provides inbox copilot and AI capabilities"
+        }
+      ]
     },
     "video/9CW5mydS9Vs": {
       "kind": "video",
       "key": "video/9CW5mydS9Vs",
-      "hash": "3096d8bfe757d6e2762b16e532e2114696c1af6866a0868b4a0934837f8a7c5c",
+      "hash": "613563b1d4191fc34a8f62272d6a492e609edf6c1e47ab56b6f484fe8f822e8d",
       "video_id": "9CW5mydS9Vs",
       "title": "Microsoft presents: Tests, dependencies, runners and evals for BC applications",
-      "at": "2026-11-10T00:51:16.236Z",
+      "at": "2026-11-18T00:52:57.384Z",
       "matches": [
-        {
-          "feature": 17,
-          "name": "MCP server for test execution",
-          "t": 2299,
-          "roadmap_id": "573334",
-          "quote": "MCP server for test execution. Enables test execution through an MCP server"
-        },
         {
           "feature": 9,
           "name": "Native data-driven test support",
           "t": 1506,
           "roadmap_id": "573333",
-          "quote": "Native data-driven test support. Coming feature for native support of data-driven tests"
+          "quote": "native support of data-driven tests in AL with test data source attributes"
         }
       ]
     },
     "video/9esVS6I4wrY": {
       "kind": "video",
       "key": "video/9esVS6I4wrY",
-      "hash": "71e8ed539d0739e1809f482741c7be77fdc3dc3a9c73cf66522403d6cc527b90",
+      "hash": "80a3de5efde40cffbfa0f01518a753d9399e056cbdb7e259365b894e4d3c64f5",
       "video_id": "9esVS6I4wrY",
       "title": "Getting Started With Agents: Billing Agents in Business Central - Configure \"Pay as You Go\" (2025)",
-      "at": "2026-11-10T00:51:16.547Z",
+      "at": "2026-11-18T00:53:00.922Z",
       "matches": []
     },
     "video/9g1vwaXmy2s": {
       "kind": "video",
       "key": "video/9g1vwaXmy2s",
-      "hash": "a448c7fa92da835da0de9c40016b20b333cdc70aade4c0b3e7d5b0fa15476692",
+      "hash": "707ea769e4882d3f7aa84e67c791fa52738d3b6c98b5e67c42e67ee97bd6e5a3",
       "video_id": "9g1vwaXmy2s",
       "title": "What's Cooking in Business Central: Financial Report Scheduling",
-      "at": "2026-11-11T00:53:17.974Z",
-      "matches": []
+      "at": "2026-11-18T00:52:59.920Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Financial Report Scheduling",
+          "t": 6,
+          "roadmap_id": "573323",
+          "quote": "send financial reports automatically on a recurring schedule"
+        },
+        {
+          "feature": 1,
+          "name": "Export to Excel and PDF",
+          "t": 66,
+          "roadmap_id": "573323",
+          "quote": "automatically export financial reports to both Excel and PDF formats"
+        },
+        {
+          "feature": 2,
+          "name": "Email Delivery to Recipients",
+          "t": 77,
+          "roadmap_id": "573323",
+          "quote": "automatically emailed to nominated recipients as part of the scheduled delivery"
+        },
+        {
+          "feature": 3,
+          "name": "Report Scheduling Controls",
+          "t": 87,
+          "roadmap_id": "573323",
+          "quote": "next run date time field allows selecting when the report will first be sent"
+        },
+        {
+          "feature": 4,
+          "name": "Report Inbox and Logs",
+          "t": 123,
+          "roadmap_id": "573323",
+          "quote": "scheduled reports in their report inbox which can be accessed using the logs action"
+        },
+        {
+          "feature": 5,
+          "name": "Custom Filters for Schedules",
+          "t": 144,
+          "roadmap_id": "573323",
+          "quote": "filters can be set up that are specific to each schedule using custom filters"
+        },
+        {
+          "feature": 6,
+          "name": "Date Filter Formulas",
+          "t": 173,
+          "roadmap_id": "573323",
+          "quote": "Start and end date filter formulas can be applied to a financial report schedule"
+        }
+      ]
     },
     "video/9i6hVsw9x_U": {
       "kind": "video",
       "key": "video/9i6hVsw9x_U",
-      "hash": "dff2fb6d0b03e5d50b357aa232b2a8e7b6f2dff41ab03141ced5dff156c9bded",
+      "hash": "f01716ca82a5c1527dc93805f5e6fc2392ec421fde08b672f8e21804acad9f6e",
       "video_id": "9i6hVsw9x_U",
       "title": "AppSource App Previews",
-      "at": "2026-11-11T00:53:18.666Z",
+      "at": "2026-11-18T00:53:02.762Z",
       "matches": []
     },
     "video/9PWBpwv4LhQ": {
       "kind": "video",
       "key": "video/9PWBpwv4LhQ",
-      "hash": "3dccbb3c45a76cd61c97849c2d699c767bedddf513efff887cfc3ad0e198a03a",
+      "hash": "2807bcc6ede6c09d09fda0d71614d1fc10d34f1438511b99615b8ca2a1dbe6bf",
       "video_id": "9PWBpwv4LhQ",
       "title": "What's New: Resource Governance for Business Central Online (2023 release wave 2)",
-      "at": "2026-11-10T00:51:12.292Z",
+      "at": "2026-11-18T00:52:55.826Z",
       "matches": []
     },
     "video/9X-IWRkI2GM": {
@@ -33543,10 +33608,10 @@
     "video/9zQZHfXK-PQ": {
       "kind": "video",
       "key": "video/9zQZHfXK-PQ",
-      "hash": "697ad37e594666b504f08f2f9aa2885e50766e93fc92e53b2819efa221403c22",
+      "hash": "9385f8c29aa3cf240d41e140ac8a14eb1893f0833eee8f2ce82ac2fd54465652",
       "video_id": "9zQZHfXK-PQ",
       "title": "From Code to Docs: Using GitHub Copilot to Automate Business Central Documentation",
-      "at": "2026-11-11T00:53:18.411Z",
+      "at": "2026-11-18T00:53:02.731Z",
       "matches": []
     },
     "video/a1LQ3-SCtPE": {
@@ -33640,27 +33705,27 @@
     "video/ADXkUFI_VWI": {
       "kind": "video",
       "key": "video/ADXkUFI_VWI",
-      "hash": "33468efde93083de73b51cc61ef6260c10890930ba39db52076f34c7e5ff7579",
+      "hash": "e1829169ba066959c8b4d7dac5d4ace05d03e7a105dd134bbba240bd697b3262",
       "video_id": "ADXkUFI_VWI",
       "title": "Business Central Under the Hood episode 2: The Inner Workings of The AL Compiler",
-      "at": "2026-11-11T00:53:18.648Z",
+      "at": "2026-11-18T00:53:01.604Z",
       "matches": [
         {
           "feature": 2,
           "name": "Language Service Protocol support",
           "t": 731,
           "roadmap_id": "573338",
-          "quote": "Language Service Protocol support. Implementation of LSP for communication between the AL language server and editors"
+          "quote": "Language Service Protocol support. Implementation of LSP for communication between the AL language server"
         }
       ]
     },
     "video/Afv-r-eDt90": {
       "kind": "video",
       "key": "video/Afv-r-eDt90",
-      "hash": "e51c1b28c0471285d6654eb18026056ca16372858e65790dda982d825e135af9",
+      "hash": "1219e81cb5b6d402f93dab30eec92fcc6def98ee025506ac53c9954cc364427e",
       "video_id": "Afv-r-eDt90",
       "title": "What's New: Enhanced Analysis Mode (2026 release wave 1)",
-      "at": "2026-11-11T00:53:23.536Z",
+      "at": "2026-11-18T00:53:08.002Z",
       "matches": [
         {
           "feature": 3,
@@ -33668,23 +33733,44 @@
           "t": 278,
           "roadmap_id": "573322",
           "quote": "Analysis views can be added to page customizations and assigned to specific profiles"
+        },
+        {
+          "feature": 5,
+          "name": "Analysis view personalization",
+          "t": 400,
+          "roadmap_id": "573322",
+          "quote": "Users can hide analysis views they do not find useful through personalization mode"
         }
       ]
     },
     "video/AMVAiPTfSrU": {
       "kind": "video",
       "key": "video/AMVAiPTfSrU",
-      "hash": "6e413b7b22b1e256404371b2e8c1922ccc80e61e96b39a8df58299d64609b699",
+      "hash": "8e56bd0b31620b69d19767e477d8ccb33b284a720585acb3be14d32fdb939ef1",
       "video_id": "AMVAiPTfSrU",
       "title": "How 3 Partners are Building Powerful Agents for Business Central",
-      "at": "2026-11-11T00:53:16.032Z",
+      "at": "2026-11-18T00:53:01.575Z",
       "matches": [
         {
           "feature": 1,
           "name": "Business Central MCP server",
           "t": 36,
+          "roadmap_id": "573312",
+          "quote": "Business Central MCP server enables agents to connect with Business Central"
+        },
+        {
+          "feature": 1,
+          "name": "Business Central MCP server",
+          "t": 36,
           "roadmap_id": "576789",
-          "quote": "Business Central MCP server enables agents to connect with Business Central data and operations."
+          "quote": "Business Central MCP server enables agents to connect with Business Central"
+        },
+        {
+          "feature": 5,
+          "name": "Reusable agent development in Business Central",
+          "t": 128,
+          "roadmap_id": "578068",
+          "quote": "Reusable agent development in Business Central. Partners are developing agents directly"
         }
       ]
     },
@@ -33829,26 +33915,34 @@
     "video/AR2FiD64wbw": {
       "kind": "video",
       "key": "video/AR2FiD64wbw",
-      "hash": "4d9313ef48994ce1516184ae3f3a7edec01a0d1aa170138717b31423e229822e",
+      "hash": "230b01b006163f0695cd97bd97a114dd4425a6fae27d209fd8e46c9f11ba0ed7",
       "video_id": "AR2FiD64wbw",
       "title": "What's New: Shopify Connector (2024 release wave 2) in 2 minutes",
-      "at": "2026-11-11T00:53:17.346Z",
-      "matches": []
+      "at": "2026-11-18T00:53:04.465Z",
+      "matches": [
+        {
+          "feature": 2,
+          "name": "Company Catalogs Pricing Sync",
+          "t": 42,
+          "roadmap_id": "573342",
+          "quote": "Company Catalogs Pricing Sync. Use company catalogs in Business Central to synchronize company-specific prices and discounts"
+        }
+      ]
     },
     "video/ARKckFygbWQ": {
       "kind": "video",
       "key": "video/ARKckFygbWQ",
-      "hash": "ee52f918d959bc18fc1d70106b3b8c35961c628e7ff820275da0762974c8b220",
+      "hash": "a609e2db11d837c2d71363501d0befe3e5aa8c078800b621b470ff350162efa0",
       "video_id": "ARKckFygbWQ",
       "title": "Expense Agent: Web App Experience (2026 release wave 1)",
-      "at": "2026-11-11T00:53:19.955Z",
+      "at": "2026-11-18T00:53:05.855Z",
       "matches": [
         {
           "feature": 6,
           "name": "Expense compliance checking",
           "t": 209,
           "roadmap_id": "573255",
-          "quote": "The expense agent automatically determines if expenses are compliant or non-compliant based on rules and policy settings"
+          "quote": "automatically determines if expenses are compliant or non-compliant based on rules"
         }
       ]
     },
@@ -33873,11 +33967,19 @@
     "video/Ax8yXCf7BY4": {
       "kind": "video",
       "key": "video/Ax8yXCf7BY4",
-      "hash": "27743d683ccb9299ea1f54d5cbbdd856d61e5af6532216bea89d69003e6682a9",
+      "hash": "540c7fa06cc0c991835090d794bd1b1c674ebd0cb3373fa5c1cbe5f7122b9313",
       "video_id": "Ax8yXCf7BY4",
       "title": "What's New: Legislation and Localization (2023 release wave 2)",
-      "at": "2026-11-11T00:53:25.828Z",
-      "matches": []
+      "at": "2026-11-18T00:53:07.362Z",
+      "matches": [
+        {
+          "feature": 8,
+          "name": "Intrastat Czech Localization",
+          "t": 997,
+          "roadmap_id": "573253",
+          "quote": "Intrastat is now localized for Czech Republic with new release wave 2"
+        }
+      ]
     },
     "video/axQegcPweNY": {
       "kind": "video",
@@ -33909,24 +34011,24 @@
     "video/B-pxLlb-UN0": {
       "kind": "video",
       "key": "video/B-pxLlb-UN0",
-      "hash": "cc24d2defe813a6e149284205543b6ddcfe041fede6f232d416f784d25506c99",
+      "hash": "ecfad6b8abdf04a3ea50cf1126ce27f64f80b58274b3efde686319149887bf3b",
       "video_id": "B-pxLlb-UN0",
       "title": "What's New: Shopify Connector - Overview (2026 release wave 1)",
-      "at": "2026-11-11T00:53:24.111Z",
+      "at": "2026-11-18T00:53:09.250Z",
       "matches": [
-        {
-          "feature": 11,
-          "name": "Shopify API version upgrade to January 2026 release",
-          "t": 588,
-          "roadmap_id": "573341",
-          "quote": "Shopify API version upgrade to January 2026 release"
-        },
         {
           "feature": 10,
           "name": "Shopify API field changes for return information",
           "t": 563,
           "roadmap_id": "573343",
-          "quote": "Shopify API field changes for return information"
+          "quote": "Shopify updated their API to use a new field for return information"
+        },
+        {
+          "feature": 11,
+          "name": "Shopify API version upgrade to January 2026 release",
+          "t": 588,
+          "roadmap_id": "573341",
+          "quote": "Upgrade to Shopify API version released in January with validity through December 2026"
         }
       ]
     },
@@ -33950,129 +34052,129 @@
     "video/B8cWQGwajwQ": {
       "kind": "video",
       "key": "video/B8cWQGwajwQ",
-      "hash": "26dea849ad4d0f778f025c8c4efa8abf9539208ebdf697ecbb1a26996c4bffbc",
+      "hash": "89819ef77d98279ae1d51f7edfa3974bfdcdb5ef5eade176a9880e3cee103d03",
       "video_id": "B8cWQGwajwQ",
       "title": "In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)",
-      "at": "2026-11-11T00:53:28.733Z",
+      "at": "2026-11-18T00:53:11.443Z",
       "matches": [
         {
           "feature": 0,
           "name": "Page Scripting Tool",
           "t": 15,
           "roadmap_id": "573384",
-          "quote": "record and play user acceptance tests directly in the Business Central"
+          "quote": "Page Scripting Tool. A tool allowing customers and consultants to record and play user acceptance tests"
         },
         {
           "feature": 1,
           "name": "Validation Steps",
           "t": 301,
           "roadmap_id": "573384",
-          "quote": "insert validation steps during recording by right-clicking controls"
+          "quote": "Validation Steps. Ability to insert validation steps during recording by right-clicking controls to verify expected outcomes"
         },
         {
           "feature": 2,
           "name": "Script Persistence in YAML Format",
           "t": 399,
           "roadmap_id": "573384",
-          "quote": "Scripts are saved in YAML format as a metadata-driven format"
+          "quote": "Script Persistence in YAML Format. Scripts are saved in YAML format as a metadata-driven format"
         },
         {
           "feature": 3,
           "name": "Single-Step Playback Controls",
           "t": 572,
           "roadmap_id": "573384",
-          "quote": "single-step execution, rewind to restart, and see visual indicators"
+          "quote": "Single-Step Playback Controls. Users can navigate through recorded steps using next and previous buttons"
         },
         {
           "feature": 4,
           "name": "Run To Step Feature",
           "t": 813,
           "roadmap_id": "573384",
-          "quote": "run to execute playback only up to that specific step"
+          "quote": "Run To Step Feature. Users can right-click on a step in the context menu and select run"
         },
         {
           "feature": 5,
           "name": "Playback Link Sharing",
           "t": 854,
           "roadmap_id": "573384",
-          "quote": "copy a self-contained link from the toolbar that includes the full recording"
+          "quote": "Playback Link Sharing. Users can copy a self-contained link from the toolbar that includes the full recording"
         },
         {
           "feature": 6,
           "name": "Page Scripting Clipboard",
           "t": 934,
           "roadmap_id": "573384",
-          "quote": "Dedicated clipboard for storing values captured during recording steps"
+          "quote": "Page Scripting Clipboard. Dedicated clipboard for storing values captured during recording steps"
         },
         {
           "feature": 7,
           "name": "Session Information Pasting",
           "t": 1015,
           "roadmap_id": "573384",
-          "quote": "paste session information such as User ID into test steps"
+          "quote": "Session Information Pasting. Ability to access and paste session information such as User ID"
         },
         {
           "feature": 8,
           "name": "Conditional Step Branches",
           "t": 1037,
           "roadmap_id": "573384",
-          "quote": "create branches in test scripts that execute only when specified conditions"
+          "quote": "Conditional Step Branches. Feature to create branches in test scripts that execute only when specified conditions"
         },
         {
           "feature": 9,
           "name": "Optional Pages",
           "t": 1191,
           "roadmap_id": "573384",
-          "quote": "mark pages as optional in test scripts so that steps recorded on those pages"
+          "quote": "Optional Pages. Ability to mark pages as optional in test scripts so that steps recorded on those pages only execute"
         },
         {
           "feature": 10,
           "name": "Nested Structure Collapsing",
           "t": 1272,
           "roadmap_id": "573384",
-          "quote": "collapse nested conditional and optional page structures in long scripts"
+          "quote": "Nested Structure Collapsing. UI capability to collapse nested conditional and optional page structures in long scripts"
         },
         {
           "feature": 11,
           "name": "Power FX Expressions",
           "t": 1290,
           "roadmap_id": "573384",
-          "quote": "Support for Power FX expression language in the properties pane"
+          "quote": "Power FX Expressions. Support for Power FX expression language in the properties pane for simple calculations"
         },
         {
           "feature": 12,
           "name": "Wait Steps",
           "t": 1382,
           "roadmap_id": "573384",
-          "quote": "insert wait steps with configurable delay duration to accommodate scenarios"
+          "quote": "Wait Steps. Ability to insert wait steps with configurable delay duration to accommodate scenarios where operations take extra time"
         },
         {
           "feature": 13,
           "name": "Script Parameters",
           "t": 1522,
           "roadmap_id": "573384",
-          "quote": "parameterization of scripts with variables that can be reused throughout"
+          "quote": "Script Parameters. YAML-only feature allowing parameterization of scripts with variables that can be reused throughout"
         },
         {
           "feature": 14,
           "name": "Script Suites with Include Command",
           "t": 1616,
           "roadmap_id": "573384",
-          "quote": "bundle multiple smaller scripts together and execute them in sequence"
+          "quote": "Script Suites with Include Command. YAML-only feature to bundle multiple smaller scripts together and execute them in sequence"
         },
         {
           "feature": 15,
           "name": "Filter-based List Selection",
           "t": 1717,
           "roadmap_id": "573384",
-          "quote": "apply filters during recording to ensure the correct line is at the top"
+          "quote": "Filter-based List Selection. When selecting items from lists, users can apply filters during recording to ensure the correct line"
         },
         {
           "feature": 16,
           "name": "Pipeline Execution for Scripts",
           "t": 1851,
           "roadmap_id": "573384",
-          "quote": "run page scripting tool scripts as part of CI-CD pipelines and development workflows"
+          "quote": "Pipeline Execution for Scripts. Capability to run page scripting tool scripts as part of CI-CD pipelines and development workflows"
         }
       ]
     },
@@ -34088,10 +34190,10 @@
     "video/B9VbZzC2p7E": {
       "kind": "video",
       "key": "video/B9VbZzC2p7E",
-      "hash": "787ec256b6908244336421efec52c79bcbd2820d4d849b4c396ba58655676ec0",
+      "hash": "52a39dc6517d202cdbcd7a2beacacd47e7125a2e6f579811f207816ac67fadc3",
       "video_id": "B9VbZzC2p7E",
       "title": "Use an Agent to SQL Query data inside your Spreadsheet with Business Central (Advanced Spreadsheets)",
-      "at": "2026-11-11T00:53:30.163Z",
+      "at": "2026-11-18T00:53:11.098Z",
       "matches": [
         {
           "feature": 0,
@@ -34099,6 +34201,13 @@
           "t": 1,
           "roadmap_id": "573312",
           "quote": "AI agent that can automatically generate SQL statements to query data"
+        },
+        {
+          "feature": 1,
+          "name": "Advanced Spreadsheets with Agent Integration",
+          "t": 1,
+          "roadmap_id": "573312",
+          "quote": "AI agent that can manipulate spreadsheet content and generate SQL regions"
         }
       ]
     },

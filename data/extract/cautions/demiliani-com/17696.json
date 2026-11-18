@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/demiliani-com/17696",
+  "page_id": "post/demiliani-com/17696",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "get_microsoft_entra_id_token no longer returns the access token.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2.0"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "Deleting or renaming a production environment, and uninstalling an app with its data from one, now require user confirmation.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2.0"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "do not install with –omit=optional.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2.0"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "Microsoft is removing PTE upload from the Automation API in 2027 release wave 1.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "2027 release wave 1"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005437,
+    "posts_in_call": 1
+  }
+}

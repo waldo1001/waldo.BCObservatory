@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:48.992Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -27,8 +27,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa
-    title: Ad-hoc analysis of fixed assets data
-    date: "2025-03-10"
+    title: Ad-Hoc Analysis of Fixed Assets Data
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -117,6 +117,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5621
+    title: Fixed Asset Insurance List (Report)
+    date: "2026-11-16"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5602
     title: Fixed Asset Journal - Test (report)
     date: "2026-11-13"
@@ -167,8 +174,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview
-    title: Fixed assets analytics
-    date: "2025-10-03"
+    title: Fixed Assets Analytics and Reporting
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -183,13 +190,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5624
     title: Insurance - Coverage Details (report)
     date: "2026-11-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5621
-    title: Insurance - List (report)
-    date: "2024-11-02"
     commit: null
     t: null
     quote: null
@@ -402,6 +402,7 @@ links:
     - change/bcapps/13171
     - change/bcapps/13340
     - change/bcapps/13397
+    - change/bcapps/9326
     - change/bcapps/9662
     - change/bcapps/9687
 learn_toc_path:
@@ -537,6 +538,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13171 [Fixed Assets] Prevent change of FA Posting group after acquisition and FA journal cancellation line with empty Document No.](../../../changes/bcapps/13171.md) (code change): "FA Posting Group field is now protected after acquisition posting"
 - [#13340 [Master]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card.](../../../changes/bcapps/13340.md) (code change): "Fixed Asset Card page now properly updates the Fixed Asset List"
 - [#13397 [main] Incorrect depreciation calculation for assets used less than 180 days under Income Tax Act rules](../../../changes/bcapps/13397.md) (code change): "Fixed depreciation calculation for Indian fixed assets used less than 180 days"
+- [#9326 [FI] Delocalize Depreciation Differences into a first-party extension](../../../changes/bcapps/9326.md) (code change): "New extension app DepreciationDifferencesFI provides depreciation differences functionality"
 - [#9662 [Master]-Fixed Asset: Declining-Balance method - wrong calculation when running depreciation](../../../changes/bcapps/9662.md) (code change): "Fixed incorrect depreciation calculation when using the declining-balance method"
 - [#9687 [main] bug 642230 - Enhance FA General Report logic and add tests for Tax Deprec. Group and FA Posting Group handling](../../../changes/bcapps/9687.md) (code change): "Fixed a bug where the FA General Report procedures could clear the FA Posting Group"
 - [Business Central 2025 wave 2 (BC27): Automatically create multiple fixed asset cards](../../../posts/yzhums-com/68230.md) (community post): "automatic creation of multiple fixed asset cards when posting purchase invoices"

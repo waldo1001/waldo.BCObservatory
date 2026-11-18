@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:15.176Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -171,8 +171,7 @@ links:
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/upgrade-data
   localizations: []
-  videos:
-    - video/f_i4_BRz-oA
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -190,7 +189,7 @@ children:
 coverage:
   learn: 20
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -244,11 +243,5 @@ The page in this hub, Complete cloud migration, covers the final phase. Start wi
   - Prerequisite: User mappings can only execute once per environment and should be run as final step; test in sandbox before applying to production.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Microsoft presents: Cloud Migration from any SQL](../../../../videos/f_i4_BRz-oA.md) (video): "Cloud Migration Management Page; Replication Progress Tracking"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

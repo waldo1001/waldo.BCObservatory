@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/manufacturing/manufacturing-analytics/built-in-production-reports",
-  "input_hash": "488eff3774687815c99a14ccc8c069f73e83d0908c1a07543ca2a4d290052320",
-  "summary": "Built-in production reports in Business Central cover BOM cost and structure, production order costs and status, capacity and routing, shortages, subcontracting, and item labels. It answers which report shows a given manufacturing figure, what it filters on, and what it contains.",
-  "overview": "This section lists the standard reports available for manufacturing analysis. An entry page, Production Reports and Analytics, introduces the Report Explorer, work center load analysis and item availability. The other pages each describe one report.\n\nThe reports group by purpose. Cost reports include BOM Cost Share Distribution, Prod. Order Detailed Calc, Production Order - WIP and Production Order Statistics. Structure reports include Quantity Explosion of BOM and Where-Used (Top Level). Planning and shop floor reports include Capacity Task list, Prod. Order - Job Card, Precalc. Time, Shortage List, Routing Sheet, Subcontractor - Dispatch List and Item - Able to Make (Time). Production Order - List is Excel-based, and Output Item Label produces labels.\n\nStart with Production Reports and Analytics for the overall picture, then open the page for the specific report you need to check its filters and the data it shows.",
+  "input_hash": "fb6b8701b83d7b4e993c914abecb153328a96254d8aa54fd9c237480be1b2bcb",
+  "summary": "Built-in production reports in Business Central manufacturing: what each standard report shows, its filters and report number where given. Covers costing, BOM structure, capacity, shortages, WIP, subcontracting, shop floor documents and labels.",
+  "overview": "This section lists the standard reports that ship with Business Central for manufacturing. Each page describes one report: what it shows, the data it draws from (production orders, routings, BOMs, ledger entries) and the main filters or parameters. An overview page, Production Reports and Analytics, introduces the Report Explorer, work center load analysis and item availability.\n\nThe reports fall into groups. Cost reports: BOM Cost Share Distribution, Prod. Order - Detailed Calc., Production Order Statistics and Production Order - WIP. BOM structure reports: Quantity Explosion of BOM and Where-Used (Top Level). Planning and capacity reports: Capacity Task List, Prod. Order - Precalc. Time, Prod. Order - Shortage List and Item - Able to Make (Timeline). Shop floor and supplier documents: Job Card, Routing Sheet, Subcontractor - Dispatch List and Output Item Label. Production Order - List gives an Excel overview.\n\nStart with Production Reports and Analytics for orientation, then open the page for the report that matches your question, such as why a cost differs, which components are short, or where an item is used.",
   "key_points": [
-    "BOM Cost Share Distribution uses pie charts to show material/labor and direct/indirect cost proportions through a bill of materials.",
-    "Production Order Statistics breaks down material, capacity, subcontracting and overhead costs with variance analysis; Prod. Order Detailed Calc shows expected operation and material cost.",
-    "Production Order - WIP shows work-in-process cost for released orders from posted consumption, capacity and output.",
-    "Prod. Order - Shortage List shows missing component quantities per order and projected inventory up to a date filter, with filters for status and order number.",
-    "Capacity Task list, Precalc. Time, Job Card and Routing Sheet cover work center and machine center scheduling, routing times (setup, run, wait), and shop floor use.",
-    "Subcontractor - Dispatch List shows released routing lines at subcontractor vendors with remaining quantity and components to ship; it filters by vendor, work center, order and dates.",
-    "Quantity Explosion of BOM gives an indented, fully exploded component listing; Where-Used (Top Level) shows where items are used and in what quantities.",
-    "Output Item Label creates barcode and QR code labels for production output with serial, lot or package tracking; Production Order - List is an Excel report with two worksheets."
+    "Cost reports: BOM Cost Share Distribution shows how an item's cost spreads over components, labor, direct and indirect costs and overhead.",
+    "Production Order Statistics (99000791) compares expected and actual costs by category (material, capacity, subcontracting, overhead) with variance percentages.",
+    "Production Order - WIP shows work-in-process costs for released and finished orders from posted consumption, capacity entries and output.",
+    "Prod. Order - Shortage List shows missing component quantities per order and projected inventory through a cutoff date, with scheduled receipts and purchase order comparison.",
+    "Capacity Task List (99000780) lists unfinished operations by work center or machine center, excluding finished orders.",
+    "Quantity Explosion of BOM gives an indented, fully exploded component list; Where-Used (Top Level) (99000757) traces item usage across BOM levels using a calculation date.",
+    "Shop floor documents: Job Card (99000762), Routing Sheet (99000787) and Subcontractor - Dispatch List, which can be filtered by vendor, work center, order and dates.",
+    "Output Item Label creates barcode or QR code labels for production output, with serial, lot and package tracking; Production Order - List is an Excel report with two worksheets."
   ],
   "members_used": 16,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:02:58.868Z",
+  "at": "2026-11-18T00:59:13.682Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.019599
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:17:53.323Z",
-    "verdict": "approve",
-    "issues": [
-      "Item - Able to Make (Time) appears in the overview but has no key point. It covers whether BOM items can be made over time, based on supply, demand and component availability.",
-      "The key point grouping Capacity Task list, Precalc. Time, Job Card and Routing Sheet is broad. It does not mention the components and routing lines on the Job Card or the personnel and tools on the Routing Sheet.",
-      "In the summary's second sentence, 'It answers which report...' does not say what 'It' refers to. The meaning is still clear."
-    ],
-    "input_hash": "488eff3774687815c99a14ccc8c069f73e83d0908c1a07543ca2a4d290052320",
-    "cost_usd": 0.0482312
+    "cost_usd": 0.023488000000000002
   }
 }

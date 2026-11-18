@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.368Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,6 +93,7 @@ links:
   localizations: []
   videos:
     - video/3uVf6BEXt1w
+    - video/n4qog_IpKqw
     - video/NwMLT-k6J6Q
     - video/XNfgf7tCeaw
   posts:
@@ -108,7 +109,7 @@ children: []
 coverage:
   learn: 8
   code: 2
-  video: 3
+  video: 4
   blog: 2
   guideline: 0
 bc_forms:
@@ -213,6 +214,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [🏆🎯 Accelerate your BC Go-Live with Gamification](../../../posts/gerardorenteria-blog/11769.md) (community post): "accelerates user adoption during go-live by letting teams compete"
 - [ERP JumpStart: A Better Way to Get Started with Business Central](../../../posts/olofsimren-com/3763.md) (community post): "ERP JumpStart is a guided self-service implementation product"
 - [Why Onboarding Experiences are Important](../../../videos/3uVf6BEXt1w.md) (video): "Customer self-service onboarding; Template-based setup approach; Partner-knowledge apps"
+- [BCTalent Stories: Navitrans](../../../videos/n4qog_IpKqw.md) (video): "reskilling program; talent recruitment; business central adoption; consultant training"
 - [What's New: Creating Customer Centric Onboarding Experiences (2023 release wave 2)](../../../videos/NwMLT-k6J6Q.md) (video): "Onboarding checklist; Evaluation and trial checklists; Assisted setup list"
 - [Overview of Customer and Partner Onboarding Journeys](../../../videos/XNfgf7tCeaw.md) (video): "customer onboarding partner-led experience trial setup prospect profiling"
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -139,15 +139,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000760
-    title: Machine Center List (report)
-    date: "2024-11-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000784
-    title: Machine Center Load (report)
-    date: "2024-11-01"
+    title: Machine Center List Report in Business Central
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -159,9 +152,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000784
+    title: Machine Center Load Report in Business Central
+    date: "2026-11-16"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000786
-    title: Machine Center Load/Bar (report)
-    date: "2024-11-01"
+    title: Machine Center Load/Bar (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -181,8 +181,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/manufacturing-analytics-overview
-    title: Manufacturing analytics
-    date: "2025-05-26"
+    title: Manufacturing Analytics and Reporting
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -250,6 +250,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000768
+    title: Prod. Order - Detailed Calc. (Report)
+    date: "2026-11-16"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000762
     title: Prod. Order - Job Card (report)
     date: "2026-11-13"
@@ -258,8 +265,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000764
-    title: Prod. Order - Precalc. Time (report)
-    date: "2024-11-01"
+    title: Prod. Order - Precalc. Time (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -267,13 +274,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000788
     title: Prod. Order - Shortage List (report)
     date: "2026-09-10"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000768
-    title: Prod. Order Detailed Calc (report)
-    date: "2024-11-01"
     commit: null
     t: null
     quote: null
@@ -287,7 +287,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5802
     title: Production Order - WIP (report)
-    date: "2024-11-01"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -414,6 +414,7 @@ links:
     - object/report/99000780
     - object/report/99000783
     - object/report/99000784
+    - object/report/99000785
     - object/report/99000786
     - object/report/99000787
     - object/report/99000788
@@ -480,7 +481,7 @@ children:
   - topic/business-central/business-functionality/manufacturing/subcontracting
 coverage:
   learn: 63
-  code: 108
+  code: 109
   video: 11
   blog: 7
   guideline: 0
@@ -594,7 +595,6 @@ bc_forms:
   - 99001504
   - 99001560
   - 99001561
-  - 990000785
 member_hash: d3e75df5d15c2367d95ddc5e80f6e3ee82ad17c3d04cc67a46033cf5fe5e47b2
 narrative: generated
 ---
@@ -803,12 +803,13 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Report 99000780 "Capacity Task List"](../../../objects/report/99000780.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
 - [Report 99000783 "Work Center Load"](../../../objects/report/99000783.md) · captioned "Work Center Load (obsolete)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
 - [Report 99000784 "Machine Center Load"](../../../objects/report/99000784.md) · captioned "Machine Center Load (obsolete)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
+- [Report 99000785 "Work Center Load/Bar"](../../../objects/report/99000785.md) · captioned "Work Center Load/Bar (obsolete)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
 - [Report 99000786 "Machine Center Load/Bar"](../../../objects/report/99000786.md) · captioned "Machine Center Load/Bar (obsolete)" · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
 - [Report 99000787 "Routing Sheet"](../../../objects/report/99000787.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
 - [Report 99000788 "Prod. Order - Shortage List"](../../../objects/report/99000788.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
 - [Report 99000789 "Subcontractor - Dispatch List"](../../../objects/report/99000789.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
 - [Report 99000791 "Production Order Statistics"](../../../objects/report/99000791.md) · via [Manufacturing analytics](manufacturing/manufacturing-analytics.md)
 
-Learn also names 6 objects with no object page: page/9900083, page/99001503, page/99001504, page/99001560, page/99001561, report/990000785.
+Learn also names 5 objects with no object page: page/9900083, page/99001503, page/99001504, page/99001560, page/99001561.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

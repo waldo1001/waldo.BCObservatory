@@ -2,41 +2,41 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-consumption-billing.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing",
   "title": "Manage consumption-based billing",
-  "blob": "16909e739b1cdecd5eb956658e1b0418fcd37482",
+  "blob": "43519d777a643be54c370d7d65f2f42027d6b7ae",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Billable agent capabilities include Expense Agent (preview), Payables Agent, Sales Order Agent, and AI development toolkit (preview) design and coding."
+      "text": "Expense Agent, Payables Agent, Sales Order Agent, and AI development toolkit use consumption-based billing charged per use via Copilot Credits."
+    },
+    {
+      "kind": "status",
+      "text": "Expense Agent and AI development toolkit are in preview; Payables Agent and Sales Order Agent are generally available as of November 2026."
     },
     {
       "kind": "fact",
-      "text": "Copilot Credits are the billing units for consumption-based AI interactions and tasks in agents, with cost varying by agent type and features used."
+      "text": "Expense Agent costs 25 Copilot Credits per receipt processing and 15 Credits per approval policy check per category."
     },
     {
       "kind": "fact",
-      "text": "Expense Agent charges 50 Copilot Credits per uploaded receipt regardless of resulting expense line count."
+      "text": "Sales Order Agent costs 2 Credits per email analysis, 2-5 Credits per attachment processing, and 5 Credits per availability check or order creation."
     },
     {
       "kind": "fact",
-      "text": "Sales Order Agent typical process costs 14 Copilot Credits base (analyze email, check availability, create quote/order, generate response) plus optional charges for attachments."
-    },
-    {
-      "kind": "fact",
-      "text": "Payables Agent charges 50 Copilot Credits per invoice processing plus 5 per invoice line for extraction and intelligent matching."
-    },
-    {
-      "kind": "fact",
-      "text": "Two billing models available: prepaid capacity purchased through Microsoft 365 or Partner Center, or pay-as-you-go linked to Azure subscription."
-    },
-    {
-      "kind": "fact",
-      "text": "Prepaid capacity automatically consumed from default Power Platform environment; admins can allocate portions to specific environments through Power Platform admin center."
+      "text": "Payables Agent costs 50 Copilot Credits to process each invoice and 5 Credits per invoice line."
     },
     {
       "kind": "prerequisite",
-      "text": "For pay-as-you-go, link Business Central environment to Power Platform environment configured with Azure subscription."
+      "text": "Purchase Copilot Credit packs through Microsoft 365 admin center or Partner Center for prepaid capacity billing."
+    },
+    {
+      "kind": "step",
+      "text": "Allocate Copilot Credit capacity to specific Power Platform environments through Power Platform admin center to control consumption limits."
+    },
+    {
+      "kind": "limit",
+      "text": "AI capability becomes unavailable when quota is depleted; expenses without receipts and those without enabled approval policies incur no cost."
     }
   ],
   "dropped": 0,
@@ -44,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.010097,
-      "pages_in_call": 3
+      "cost_usd": 0.014641,
+      "pages_in_call": 1
     }
   ]
 }

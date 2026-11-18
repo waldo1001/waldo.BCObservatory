@@ -1,0 +1,27 @@
+{
+  "item_id": "change/bcapps-prs/13965",
+  "input_hash": "633f7162bf966a8d96621463de0263bb65059c68428a5e55b1b10183d600a132",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-18T00:57:41.315Z",
+  "issues": [
+    "Each page changes by one line, and the description only mentions an obsoletion comment in the caption. The notification on open comes from the title and is not supported.",
+    "The page invents 'Part of BC29 release maintenance' and generic awareness claims.",
+    "No Obsolete attributes are added, so 'obsoletion' does not fit. This is a caption text change.",
+    "Text-only caption change with no functional behavior change."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind other",
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022705,
+    "changes_in_call": 6
+  }
+}

@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/finance/financial-analytics/financial-reporting
 type: topic
 title: Financial reporting
-summary: "Financial reporting in Business Central: designing, building, viewing and auditing financial reports with row and column definitions, account categories, dimensions, Excel layouts, statistical accounts and KPI web services. It answers setup, design, troubleshooting, telemetry and auditing questions."
+summary: "Financial reporting in Business Central: building, viewing and troubleshooting financial reports with row and column definitions, account categories, dimensions, Excel layouts, statistical accounts, KPI web services, auditing and telemetry. It answers setup, design, balancing and export questions."
 tier: official
 language: en
 system: reporting
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c4e58f9b7f6832b401676e7e22530d139085fdb2020f0508a5d38159c568af29
+  input_hash: 734f8adf9524bba8d58fa100ea96aa7a800456128136a96a339c3ec2f445e203
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/bi-how-analyze-data-dimension
@@ -118,8 +118,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-report-selection
-    title: Report selection for finance reports in Business Central
-    date: "2025-08-22"
+    title: Report Selection for Finance Reports in Business Central
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -293,28 +293,28 @@ narrative: generated
 
 # Financial reporting
 
-> Financial reporting in Business Central: designing, building, viewing and auditing financial reports with row and column definitions, account categories, dimensions, Excel layouts, statistical accounts and KPI web services. It answers setup, design, troubleshooting, telemetry and auditing questions.
+> Financial reporting in Business Central: building, viewing and troubleshooting financial reports with row and column definitions, account categories, dimensions, Excel layouts, statistical accounts, KPI web services, auditing and telemetry. It answers setup, design, balancing and export questions.
 
 Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Financial reporting · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Financial reporting lets you build reports on general ledger data using row definitions (calculations, subtotals, account categories) and column definitions (net change, balance, budget comparisons, period formulas). Reports can be built from scratch or by copying existing ones. Walkthrough pages cover Trial Balance, Balance Sheet, Income Statement and cash flow forecast reports.
+Financial reporting lets you analyze general ledger data and budgets using reports built from row definitions (what to show), column definitions (how to show it) and G/L account categories. The pages cover the full path: the primary capabilities, account categories and report selection for built-in reports, designing and creating custom reports (Trial Balance, Balance Sheet, Income Statement, cash flow forecast), and reference pages for row and column definitions.
 
-Supporting pages cover dimension analysis and analysis views, G/L account categories, statistical accounts for non-monetary metrics such as headcount, and report selection for built-in finance reports in General Ledger Setup. Output options include on-screen viewing with drill-through, PDF and Excel export, Excel layouts, scheduling with email delivery, and KPI web services for Power BI.
+Other pages cover analysis and output. You can analyze by dimensions and analysis views, add statistical accounts for non-monetary metrics, view reports on-screen with drill-through, export to PDF or Excel, use Excel layouts, schedule runs with email delivery, and publish KPI web services for Power BI. Auditing, lifecycle and usage telemetry, the FAQ and the troubleshooting page support governance and support work.
 
-Start with "Primary capabilities of financial reporting" for the overview, then "Design your own financial reports" and the row and column definition pages. For problems, use "Troubleshoot Financial Reporting" and the FAQ. For governance, see "Auditing and financial reporting" and the two telemetry pages.
+Start with "Primary capabilities of financial reporting", then "Build financial reports using financial data and account categories" and the row and column definition pages. Use "Troubleshoot Financial Reporting" when a report does not balance to the general ledger.
 
 ## Key points
 
-- Row definitions handle calculations and subtotals that the chart of accounts cannot, with formulas, account categories, conditional display and cash flow accounts.
-- Column definitions control net change, balance, budget comparison, period formulas and percentages; PDF exports support up to 15 columns.
-- Account categories map G/L accounts to categories and subcategories to simplify balance sheet and income statement reporting.
-- Dimension perspectives and analysis views allow analysis by some or all values of a dimension, with custom totaling.
-- Reports can be viewed on-screen with drill-through, exported to PDF or Excel, printed, or scheduled with email delivery.
-- Excel integration supports downloading reports, uploading templates as layouts, and setting a default Excel layout.
-- Auditing uses the change log, telemetry, permission sets and change notifications; separate pages give KQL samples for lifecycle and usage telemetry.
-- Troubleshooting guidance covers balancing reports to the G/L, validation figures, and choosing net change versus balance at date.
+- Reports are built from row definitions and column definitions, with G/L account categories mapping accounts for Balance Sheet, Income Statement, Cash Flow and Retained Earnings reports.
+- Column definitions support net change, balance, budget comparison, period and comparison date formulas, percentages, and up to 15 columns in PDF exports.
+- Row definitions provide formulas, subtotals, account category support, conditional display, cash flow accounts and cost type integration.
+- Dimensions and analysis views allow analysis by some or all dimension values, with custom totaling across dimensions.
+- Excel integration covers downloading reports, uploading Excel templates as layouts, and setting a default Excel layout.
+- Reports can be viewed on-screen with drill-through, exported to PDF or Excel, printed, and scheduled with email delivery.
+- Auditing uses the change log, telemetry, permission sets and change notifications; separate telemetry pages give KQL samples for lifecycle and usage events.
+- Troubleshooting guidance covers balancing to the G/L, testing against trial balance, validation figures, and net change versus balance at date.
 
 ## Learn pages
 
@@ -347,7 +347,8 @@ Start with "Primary capabilities of financial reporting" for the overview, then 
 - [Organize report data using account categories](https://learn.microsoft.com/dynamics365/business-central/bi-account-categories): Learn how to categorize general ledger accounts for reporting purposes.
   - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 17 "G/L Account Card"](../../../../../objects/page/17.md)
 - [Primary capabilities of financial reporting](https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-capabilities): This article provides an overview of what you can do with financial reporting.
-- [Report selection for finance reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-report-selection): Describes how to setup which financial report definitions should be used for the core finance reports such as Balance Sheet, Income Statement, and Retained Earnings.
+- [Report Selection for Finance Reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-report-selection): Describes how to set up which financial report definitions should be used for finance reports such as Balance Sheet, Income Statement, and Retained Earnings.
+  - In the observatory: [Page 790 "G/L Account Categories"](../../../../../objects/page/790.md)
 - [Row definitions in Financial Reporting](https://learn.microsoft.com/dynamics365/business-central/bi-row-definitions): Describes how row definitions in financial reporting work.
 - [Set Up and Publish KPI Web Services Based on Financial Reports](https://learn.microsoft.com/dynamics365/business-central/bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules): This article describes how to show the financial-report KPI data based on specific financial reports.
 - [Troubleshoot Financial Reporting](https://learn.microsoft.com/dynamics365/business-central/bi-troubleshoot-financial-reports): Describes how to troubleshoot some typical issues in financial reporting.

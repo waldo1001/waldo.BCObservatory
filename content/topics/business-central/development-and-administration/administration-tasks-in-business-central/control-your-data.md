@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,6 +116,7 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf
     - post/yzhums-com/63913
+    - post/yzhums-com/69818
     - post/yzhums-com/71047
     - post/yzhums-com/76760
   guidelines: []
@@ -133,7 +134,7 @@ coverage:
   learn: 8
   code: 18
   video: 3
-  blog: 6
+  blog: 7
   guideline: 0
 bc_forms:
   - 107
@@ -210,6 +211,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [BC Friday Tips #34 Restore Environment](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08.md) (community post): "recovering accidentally deleted production data when no other backup exists"
 - [BC Friday Tips #79 Change Log Deletion on One Field](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf.md) (community post): "Enable deletion logging on only one field in the primary key"
 - [Dynamics 365 Business Central: How to easily check who created an environment, company and record and when](../../../../posts/yzhums-com/63913.md) (community post): "Every table has four system audit fields created and modified, at and by"
+- [Business Central 2026 release wave 1 (BC28): Storing Document Attachments outside the database (No customization) – See benefits of external storage support for document attachments](../../../../posts/yzhums-com/69818.md) (community post): "reduces database capacity usage, improves performance"
 - [Business Central 2026 release wave 1 (BC28): Show avatars for record creators and modifiers in lists (Created / Updated by) – Display data audit fields without customization](../../../../posts/yzhums-com/71047.md) (community post): "visual avatars in list pages to display which user or agent created or modified records"
 - [Dynamics 365 Business Central: How to import Change Log Setup (Table/Field) using Configuration Packages](../../../../posts/yzhums-com/76760.md) (community post): "The change log records direct user changes to data in the tables and fields"
 - [Use Retention Policies to Avoid Unnecessary Database Growth](../../../../videos/564XMP2IyLM.md) (video): "Use Retention Policies to Avoid Unnecessary Database Growth; automated deletion; data governance"

@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/developing-reports/how-users-work-with-reports
 type: topic
 title: How users work with reports
-summary: How end users run, print, schedule and configure reports in Business Central. It answers questions about report request pages, saved settings for reports and batch jobs, and choosing default printers.
+summary: "User-facing report tasks in Business Central: running, previewing, printing and scheduling reports, saving report and batch job settings, and choosing default printers. It answers how-to questions about request pages, output formats, saved options and printer selection."
 tier: official
 language: en
 system: development
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9ab14755f3bb90119af5157224253aaaec5cc6dd09434e59d5962d30c568c419
+  input_hash: 209bb8ac3124876d18c0a6be542fcc52aabbeb3ed40a904bdaa1963f1e6f826f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-saving-reusing-settings
@@ -85,26 +85,28 @@ narrative: generated
 
 # How users work with reports
 
-> How end users run, print, schedule and configure reports in Business Central. It answers questions about report request pages, saved settings for reports and batch jobs, and choosing default printers.
+> User-facing report tasks in Business Central: running, previewing, printing and scheduling reports, saving report and batch job settings, and choosing default printers. It answers how-to questions about request pages, output formats, saved options and printer selection.
 
 Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > How users work with reports · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes the user side of reports in Business Central: what a person sees and can set when they open a report or batch job. It has no subtopics, only three pages that cover separate parts of the workflow.
+This section describes what users do with reports once they exist: run them, adjust their options, send them to a printer or file, and reuse their settings. It has three pages and no subtopics.
 
-Start with "Run and Print Reports in Business Central" for the basics: finding and opening a report, using the request page and filters, previewing, printing, printing to file, and scheduling through the job queue. Then use "Manage Saved Settings for Reports and Batch Jobs" to keep options and filters for reuse, per user or shared across a company. Use "Specify a Default Printer in Business Central" to control which printer a report or user gets by default.
+"Run and Print Reports in Business Central" is the main page. It covers finding, previewing, printing, scheduling and customizing reports, including request page options, file formats, printers, layouts and resource limits. "Manage Saved Settings for Reports and Batch Jobs" explains how to keep predefined options and filters for reuse. "Specify a Default Printer in Business Central" explains how printers are chosen automatically.
+
+Start with the run and print page for the general flow. Then read the saved settings page if users repeat the same options, and the default printer page if printing needs to be set up for all users, one user or one report.
 
 ## Key points
 
-- Reports can be found, opened, previewed, printed, printed to file or scheduled from the request page.
-- Request pages offer filters, output options, printer selection, report layouts, and language and format settings.
-- Reports can be scheduled to run through the job queue.
-- Saved settings store options and filters for reports and batch jobs, and are managed on the Report Settings page.
+- Reports can be previewed, printed, or saved as PDF, Word, Excel or XML.
+- Reports can be scheduled, and scheduled runs are processed through the job queue.
+- The run and print page also covers report layouts, request page options and resource limits (2020 release wave 1 is listed).
+- Saved settings hold options and filters for reports and batch jobs, managed on the Report Settings page.
 - Saved settings can be user-specific or shared with all users in a company, and can be copied and edited.
-- Last used options and filters are available as saved settings.
-- Default printers can be set for all users, a specific user, or a specific report using the Printer Management and Printer Selections pages.
-- A printer selection hierarchy applies, and the default can be overridden on the report request page; Universal Print integration is covered.
+- Last used options and filters are also available as settings.
+- Default printers can be set for all users, a specific user, or a specific report via Printer Management and Printer Selections pages.
+- A printer selection hierarchy decides which printer applies, and users can override it on the report request page. Universal Print integration is mentioned.
 
 ## Learn pages
 

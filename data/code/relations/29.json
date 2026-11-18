@@ -2,12 +2,12 @@
   "inputs": [
     7,
     [
-      "ae251bc67417b1b37b41aaf52480e6a5c8f9294e",
+      "4f49a1eb5ebb7384620fe1654dd53536c3abca03",
       "4",
       9478,
-      "ae251bc67417b1b37b41aaf52480e6a5c8f9294e",
+      "4f49a1eb5ebb7384620fe1654dd53536c3abca03",
       "4",
-      6955
+      6961
     ]
   ],
   "schema": "al-relations@1",
@@ -18899,6 +18899,11 @@
       "k": "source_table"
     },
     {
+      "s": "page/7141",
+      "t": "table/6941",
+      "k": "source_table"
+    },
+    {
       "s": "page/7147",
       "t": "table/6940",
       "k": "source_table"
@@ -27486,6 +27491,21 @@
     {
       "s": "pageextension/6903",
       "t": "page/6840",
+      "k": "extends"
+    },
+    {
+      "s": "pageextension/6904",
+      "t": "page/9027",
+      "k": "extends"
+    },
+    {
+      "s": "pageextension/6905",
+      "t": "page/9045",
+      "k": "extends"
+    },
+    {
+      "s": "pageextension/6906",
+      "t": "page/9022",
       "k": "extends"
     },
     {
@@ -95402,6 +95422,66 @@
       "t": "table/6923",
       "k": "table_relation",
       "via": "Primary Approver No."
+    },
+    {
+      "s": "table/6941",
+      "t": "table/6900",
+      "k": "calc_formula",
+      "via": "Expenses - Policy Violated"
+    },
+    {
+      "s": "table/6941",
+      "t": "table/6900",
+      "k": "calc_formula",
+      "via": "Expenses - Released"
+    },
+    {
+      "s": "table/6941",
+      "t": "table/6906",
+      "k": "calc_formula",
+      "via": "Exp. Reports - Interim Appr."
+    },
+    {
+      "s": "table/6941",
+      "t": "table/6906",
+      "k": "calc_formula",
+      "via": "Exp. Reports - Pending Appr."
+    },
+    {
+      "s": "table/6941",
+      "t": "table/6906",
+      "k": "calc_formula",
+      "via": "Exp. Reports - Processed Pay"
+    },
+    {
+      "s": "table/6941",
+      "t": "table/6906",
+      "k": "calc_formula",
+      "via": "Expense Reports - Approved"
+    },
+    {
+      "s": "table/6941",
+      "t": "table/6906",
+      "k": "calc_formula",
+      "via": "Expense Reports - Completed"
+    },
+    {
+      "s": "table/6941",
+      "t": "table/6906",
+      "k": "calc_formula",
+      "via": "Expense Reports - Open"
+    },
+    {
+      "s": "table/6941",
+      "t": "table/6906",
+      "k": "calc_formula",
+      "via": "Expense Reports - Rejected"
+    },
+    {
+      "s": "table/6941",
+      "t": "table/6906",
+      "k": "calc_formula",
+      "via": "Expense Reports - Released"
     },
     {
       "s": "table/6943",
@@ -177533,7 +177613,13 @@
       "OnAfterClose": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/6908",
+            "proc": "OnAfterCloseSpendRequest",
+            "app": "ExpenseAgent"
+          }
+        ]
       },
       "OnAfterRelease": {
         "kind": "integration",
@@ -283727,7 +283813,7 @@
     }
   },
   "dead_events": {
-    "count": 22499
+    "count": 22498
   },
   "unresolved": [
     {
@@ -293940,18 +294026,18 @@
   "stats": {
     "runs_on": 737,
     "unresolved_unknown": 1492,
-    "extends": 1833,
-    "source_table": 3619,
+    "extends": 1836,
+    "source_table": 3620,
     "card_page": 318,
     "lookup_page": 822,
     "table_relation": 10191,
-    "calc_formula": 2536,
+    "calc_formula": 2546,
     "drilldown_page": 519,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5180,
-    "edges": 20575,
+    "subscribes": 5181,
+    "edges": 20589,
     "published_events": 26314,
-    "dead_events": 22499
+    "dead_events": 22498
   }
 }

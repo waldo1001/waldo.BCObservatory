@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:23.185Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,8 +58,7 @@ links:
     - topic/business-central/business-functionality/local-functionality/germany
   localizations: []
   videos: []
-  posts:
-    - post/miljan-rs/812
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/9690
@@ -76,7 +75,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 18a9ff2a5630cac50244eda874f01c9ab37272f84645242ded52e6a6199bfba5
@@ -119,6 +118,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#9690 Add XRechnung structured format reader for inbound e-documents](../../../../../changes/bcapps/9690.md) (code change): "Adds a structured format reader for German XRechnung e-documents that parses inbound XML"
 - [#9955 XRechnung – Invalid XML Generated When Invoice Discount Percentage Exceeds 2 Decimals](../../../../../changes/bcapps/9955.md) (code change): "XRechnung – Invalid XML Generated When Invoice Discount Percentage Exceeds 2 Decimals"
-- [Polishing xRechnung and ZUGFeRD in Business Central](../../../../../posts/miljan-rs/812.md) (community post): "xRechnung and ZUGFeRD formats built on the E-Documents framework"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

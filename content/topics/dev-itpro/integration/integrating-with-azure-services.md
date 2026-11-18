@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:15.779Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -71,7 +71,6 @@ links:
     - post/demiliani-com/11817
     - post/demiliani-com/11887
     - post/demiliani-com/12002
-    - post/demiliani-com/12292
     - post/demiliani-com/12313
     - post/demiliani-com/17492
     - post/jpearson-blog/1485
@@ -91,7 +90,7 @@ coverage:
   learn: 5
   code: 0
   video: 1
-  blog: 9
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: 5f81750627e96a1b61a6b2522a5843d9ff2fca65b2e2e1fb45389ef056851762
@@ -158,13 +157,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9430 Fix untrappable JSON error in E-Document ADI import (Bug 640122)](../../../changes/bcapps/9430.md) (code change): "E-Document matching assistance import now handles malformed Azure Document Intelligence responses"
 - [Azure Function SQL Trigger: how to use it (and why it can be useful in your Business Central projects)](../../../posts/demiliani-com/11817.md) (community post): "Azure SQL Triggers for Azure Functions enable real-time event-driven integrations"
 - [Dynamics 365 Business Central: using a static IP address to access APIs.](../../../posts/demiliani-com/11887.md) (community post): "third-party systems require a static IP address for API calls to Business Central"
-- [Azure Logic Apps: are you handling large blobs? Keep memory usage under control.](../../../posts/demiliani-com/12002.md) (community post): "Built-in Azure Logic Apps connectors load entire files into memory"
-- [Azure Logic Apps: Built-in vs Managed Azure Blob Storage Connector.](../../../posts/demiliani-com/12292.md) (community post): "Azure Logic Apps: Built-in vs Managed Azure Blob Storage Connector"
-- [Can I use AI to create and deploy an Azure Logic Apps with Business Central connector?](../../../posts/demiliani-com/12313.md) (community post): "AI successfully created and deployed an Azure Logic App with HTTP trigger"
+- [Azure Logic Apps: are you handling large blobs? Keep memory usage under control.](../../../posts/demiliani-com/12002.md) (community post): "Handling large blob files in Azure Logic Apps for Dynamics 365 Business Central integration"
+- [Can I use AI to create and deploy an Azure Logic Apps with Business Central connector?](../../../posts/demiliani-com/12313.md) (community post): "Azure Logic Apps with Business Central connector; ai-assisted development"
 - [Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter (part2) – now with Service Tags.](../../../posts/demiliani-com/17492.md) (community post): "restrict an Azure Storage Account to Business Central traffic by choosing the Dynamics365BusinessCentral service tag"
 - [Calling Business Central APIs Without a Client Secret](../../../posts/jpearson-blog/1485.md) (community post): "Managed identities assigned to Azure resources can obtain access tokens without needing client secrets"
 - [Calling Business Central Directly from a Managed Identity](../../../posts/jpearson-blog/1535.md) (community post): "Managed identities can be granted Business Central API permissions directly via PowerShell without requiring federated credentials"
-- [Integration with Azure Static Web Apps from Business Central](../../../posts/jpearson-blog/1601.md) (community post): "Integration with Azure Static Web Apps from Business Central using the WebPageViewer control add-in"
+- [Integration with Azure Static Web Apps from Business Central](../../../posts/jpearson-blog/1601.md) (community post): "integrate an Azure Static Web App with Business Central by using the WebPageViewer"
 - [What's Cooking in Business Central: External File Storage Module](../../../videos/oN0XfuCe6Qg.md) (video): "external file storage; api; azure blob storage; file accounts; file scenarios; al development"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -7,16 +7,16 @@ tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:20:27.418Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: fde34798879f0f5f594d0791ed8e6604504b4c90a91a05db665c5745533ea653
+  input_hash: 025f37fec6ac323c70999dabaf468f5ae4aeef9af69273b8355888285802053d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-about-cost-accounting
@@ -34,8 +34,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports
-    title: Built-in cost accounting reports in Business Central
-    date: "2025-06-23"
+    title: Built-in Cost Accounting Reports in Business Central
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -211,29 +211,30 @@ narrative: generated
 
 > Cost accounting in Business Central: terminology, setup of cost types, cost centers and cost objects, transferring ledger entries, allocating costs, cost budgets, and built-in reports. It answers how-to and concept questions about analyzing costs by type, location, and bearer.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Accounting for costs · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Accounting for costs · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Cost accounting analyzes business costs by type, location, and bearer to determine profitability. It works through cost types, cost centers, and cost objects, with allocations, budgets, and reports built on top of them.
+Cost accounting analyzes business costs by type, location, and bearer to determine profitability. It uses cost types, cost centers, and cost objects, linked to general ledger accounts, along with allocations, budgets, and reports.
 
-The pages follow the working order. Start with the overview, "About cost accounting" and the terminology page for concepts. Then use "Set up cost accounting" to define cost types, centers, and objects and link them to general ledger accounts. Next come transferring and posting cost entries, defining and allocating costs, and creating cost budgets. Reports and budget entry cleanup are covered last.
+The pages follow the working order. Start with "About cost accounting", the overview, and the terminology page for concepts. Then "Set up cost accounting" covers configuration. "Transferring and posting cost entries" explains how ledger entries reach cost accounting. "Defining and allocating costs" covers allocation, and the budget pages cover creating and deleting cost budgets. The built-in reports page points to reporting through Report Explorer.
 
 ## Key points
 
-- Setup defines cost types, cost centers, and cost objects and links them to general ledger accounts; cost center and cost object dimensions and automatic cost adjustment are part of it.
-- General ledger entries are transferred to cost accounting automatically by set criteria or posted manually; combined entries and tracing between cost and ledger entries are supported.
+- Cost accounting works with cost types, cost centers, and cost objects, linked to general ledger accounts during setup.
+- General ledger entries are transferred to cost accounting automatically by criteria, or posted manually; combined entries and tracing between cost and ledger entries are supported.
 - Cost allocations move costs and revenues between cost types, centers, and objects using allocation sources and targets.
 - Allocation bases can be static or dynamic, for example employee counts or sales figures.
-- Cost budgets are based on cost types for a fiscal period; batch jobs copy, allocate, and report budgets, with comparison to actual costs.
+- Cost budgets are created per fiscal period based on cost types; batch jobs copy, allocate, and report them, with comparison to actual costs.
 - A batch job deletes cost budget entries from the cost budget register while preventing gaps in the register sequence.
-- Report Explorer gives access to the built-in cost accounting reports.
+- Built-in cost accounting reports are available through Report Explorer.
+- The terminology page defines terms such as allocation key, allocation source, and allocation target.
 
 ## Learn pages
 
 - [About cost accounting](https://learn.microsoft.com/dynamics365/business-central/finance-about-cost-accounting): Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyze various issues.
 - [Accounting for costs overview](https://learn.microsoft.com/dynamics365/business-central/finance-manage-cost-accounting): Cost accounting helps you understand the costs of running a business. This article provides links to other articles with more information.
-- [Built-in cost accounting reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports): Explore the built-in cost accounting reports in the standard version of Business Central.
+- [Built-in Cost Accounting Reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports): Explore the built-in cost accounting reports in the standard version of Business Central. Compare costs, budgets, and allocations.
 - [Creating cost budgets](https://learn.microsoft.com/dynamics365/business-central/finance-create-cost-budgets): This article provides an overview of where to create and analyze cost budgets. Budgeting in cost accounting resembles budgeting in the general ledger.
   - In the observatory: [Page 1105 "Cost Allocation"](../../../../objects/page/1105.md), [Report 1134 "Copy Cost Budget"](../../../../objects/report/1134.md)
 - [Defining and allocating costs](https://learn.microsoft.com/dynamics365/business-central/finance-define-and-allocate-costs): Cost allocations move costs and revenues between cost types, cost centers, and cost objects. You can define as many allocations as you need.

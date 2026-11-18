@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,6 +67,7 @@ links:
     - video/YbuO1n_Lqj0
   posts:
     - post/thedynamicsexplorer-com/37042
+    - post/wingate365-com/https-blog-wingate365-com-2026-04-fixing-email-for-guest-users-in-d365-html--c090dc4f1f
     - post/yzhums-com/22035
     - post/yzhums-com/61951
     - post/yzhums-com/64474
@@ -94,7 +95,7 @@ coverage:
   learn: 2
   code: 21
   video: 2
-  blog: 8
+  blog: 9
   guideline: 0
 bc_forms:
   - 119
@@ -168,6 +169,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9599 Add event subscriber for OpenPermissionSetPage](../../../../../changes/bcapps/9599.md) (code change): "enables programmatic opening of the permission set details card based on client signals"
 - [#9692 Fix effective permission filtering](../../../../../changes/bcapps/9692.md) (code change): "Permission buffer population prioritizes exact object IDs over wildcard object ID 0"
 - [Dynamics 365 Business Central – Why when I create new users do they get full access by default](../../../../../posts/thedynamicsexplorer-com/37042.md) (community post): "New users get default permissions from their security groups and from the licence they are assigned"
+- [Fixing Email for Guest Users in D365 Business Central](../../../../../posts/wingate365-com/https-blog-wingate365-com-2026-04-fixing-email-for-guest-users-in-d365-html--c090dc4f1f.md) (community post): "Guest users in Dynamics 365 Business Central cannot use the built-in email connectors"
 - [Dynamics 365 Business Central: Do users really need permissions for Temporary Tables? (Permissions and temporary tables)](../../../../../posts/yzhums-com/22035.md) (community post): "Temporary tables do not require Table Data permissions"
 - [Dynamics 365 Business Central: How to disable/hide Power Automate action group for all users](../../../../../posts/yzhums-com/61951.md) (community post): "The feature can be hidden per user via permission 9630 Allow Action Automate"
 - [Dynamics 365 Business Central: How to check whether the current user has only the Microsoft 365 Plan in AL](../../../../../posts/yzhums-com/64474.md) (community post): "Use the Users In Plans query filtered by User Security ID to determine license type"

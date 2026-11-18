@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:20.721Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,8 +42,6 @@ links:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
   videos:
-    - video/CoQH7Z-leVE
-    - video/D56EVy3JgHA
     - video/z1H6nQCEIeY
   posts: []
   guidelines: []
@@ -58,7 +56,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 3
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -100,8 +98,6 @@ Start with the how-to page to understand the workflow, then read the FAQ for the
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "E-Document, AgentDesignExperience, Sales Order Agent, Shopify, Sustainability"
-- [E-invoice Matching with Copilot in Dynamics 365 Business Central (2024)](../../../videos/CoQH7Z-leVE.md) (video): "E-invoice Matching with Copilot in Dynamics 365 Business Central"
-- [What's New: Enhanced Purchase Order Matching with Copilot (2025 release wave 1)](../../../videos/D56EVy3JgHA.md) (video): "Enhanced Purchase Order Matching with Copilot"
 - [Introducing: E-Invoice Matching with Copilot (2024 release wave 1)](../../../videos/z1H6nQCEIeY.md) (video): "Introducing: E-Invoice Matching with Copilot (2024 release wave 1)"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

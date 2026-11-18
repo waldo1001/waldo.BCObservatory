@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics/fixed-assets-reports
 type: topic
 title: Fixed assets reports
-summary: "Fixed assets reports in Business Central: standard and Excel reports for fixed asset book values, depreciation, acquisitions, ledger entries and registers, plus insurance and maintenance reports. Use it to find which report answers a question about asset value, activity, insurance coverage, maintenance costs or journal checks."
+summary: "Fixed assets reports in Business Central: reference pages for the standard reports on asset values, depreciation, acquisitions, G/L reconciliation, insurance, maintenance and journal checks. Answers which report to use, what it shows, and which filters or setup it needs."
 tier: official
 language: en
 system: fixed-assets
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f5a6072438fde073acee992772df1543382c586dba5f63d837682eb7a1e739d4
+  input_hash: 82e8b9c2bc9c49bc6bceac52cf93540ff338c093f34a733782d43d1bdc4411f5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5611
@@ -82,6 +82,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5621
+    title: Fixed Asset Insurance List (Report)
+    date: "2026-11-16"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5602
     title: Fixed Asset Journal - Test (report)
     date: "2026-11-13"
@@ -120,13 +127,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5624
     title: Insurance - Coverage Details (report)
     date: "2026-11-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5621
-    title: Insurance - List (report)
-    date: "2024-11-02"
     commit: null
     t: null
     quote: null
@@ -190,13 +190,13 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5636
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5610
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5620
+    - https://learn.microsoft.com/dynamics365/business-central/reports/report-5621
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5602
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5601
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-4413
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5603
     - https://learn.microsoft.com/dynamics365/business-central/fa-reports
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5624
-    - https://learn.microsoft.com/dynamics365/business-central/reports/report-5621
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5625
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5626
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5622
@@ -284,28 +284,28 @@ narrative: generated
 
 # Fixed assets reports
 
-> Fixed assets reports in Business Central: standard and Excel reports for fixed asset book values, depreciation, acquisitions, ledger entries and registers, plus insurance and maintenance reports. Use it to find which report answers a question about asset value, activity, insurance coverage, maintenance costs or journal checks.
+> Fixed assets reports in Business Central: reference pages for the standard reports on asset values, depreciation, acquisitions, G/L reconciliation, insurance, maintenance and journal checks. Answers which report to use, what it shows, and which filters or setup it needs.
 
 Path: [Business functionality](../../../business-functionality.md) > [Fixed assets](../../fixed-assets.md) > [Fixed assets analytics](../fixed-assets-analytics.md) > Fixed assets reports · tier official · system fixed-assets · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section lists the reports available for fixed assets. An overview page describes the reports as tools for analyzing depreciation, acquisition, disposal, gains and losses, accumulated depreciation, book values and asset inventories for financial statements and management use. It groups them into core, insurance and maintenance reports, and also mentions ad-hoc analysis and analytics.
+This section documents each fixed asset report on its own page. The reports fall into a few groups: core asset and value reports (book value, analysis, details, projected value, acquisition list, list and setup), reconciliation and audit reports (G/L Analysis, FA Posting Group - Net Change, Register Entries, Document Nos.), insurance reports, maintenance reports, and test reports that check journal lines before posting.
 
-The core reports cover value and activity. Book Value 01 and 02, Fixed Asset Analysis, G/L Analysis and Projected Value deal with values and forecasts. Fixed Asset List, Acquisition List, Details, Document Nos., Register and the FA Posting Group - Net Change Report cover inventory, ledger entries and posting. Some are Excel reports (Analysis, Details, Projected Value). The rest are classic reports.
+Some reports are Excel reports (Fixed Asset Analysis, Fixed Asset Details, Fixed Asset Projected Value) and the rest are standard reports. Most can be filtered by depreciation book, date range or dimensions. The insurance reports that show coverage depend on the Insurance Depr. Book setting.
 
-Insurance reports show policies, coverage, over/under-insured status and uninsured assets. Maintenance reports show maintenance expenses, ledger entries and next service dates. Journal Test reports (Fixed Asset Journal and Insurance Journal) check lines before posting. To start, pick the report that matches the question, such as Fixed Asset List for setup data or Fixed Asset Register for posted transactions.
+Start with the overview page "Fixed assets reports" for the list of report types and their purposes. Then open the page for the specific report you need, for example Book Value 01 or 02 for valuation, G/L Analysis for reconciliation, or the Test reports before posting a journal.
 
 ## Key points
 
-- Book value reports: Book Value 01 shows acquisition cost, depreciation and book value with optional budget depreciation. Book Value 02 breaks book value down by changes in acquisition, depreciation and appreciation, including additions and disposals.
-- Excel reports: Fixed Asset Analysis, Fixed Asset Details and Fixed Asset Projected Value. They filter by depreciation book, dates and dimensions. Projected Value forecasts depreciation and book value for replacement planning.
-- Fixed Asset Acquisition List shows assets acquired in a date range, including assets that were created but not acquired.
-- Fixed Asset Register and Insurance Register show posted ledger entries by register number and can print when journals are posted.
-- Fixed Asset Document Nos. lists ledger entries by document type and number and warns about gaps in number series.
-- Fixed Asset G/L Analysis is calculated from fixed asset ledger entries and can be reconciled with general ledger entries. FA Posting Group - Net Change Report shows net change per posting group and in total.
-- Insurance reports: Analysis (premiums, coverage, over/under insured), Coverage Details, List, Tot. Value Insured and Uninsured FAs.
-- Maintenance reports: Analysis (expenses by category and type), Details (ledger entries, optional reversed entries) and Next Service (dates from the Fixed Asset Card).
+- Book value: Fixed Asset Book Value 01 shows acquisition cost, depreciation and book value for assets and groups; Book Value 02 breaks changes down by acquisition, depreciation, appreciation, disposal and reclassification. Both have a budget report option.
+- Excel reports: Fixed Asset Analysis, Fixed Asset Details and Fixed Asset Projected Value filter by depreciation book, dates and dimensions; Projected Value adds depreciation projections and running book value.
+- Reconciliation: Fixed Asset G/L Analysis and FA Posting Group - Net Change compare fixed asset entries with general ledger accounts and posting groups for a period.
+- Audit trail: Fixed Asset Register Entries and Insurance Register Entries list posted entries by register number and can print on Post and Print.
+- Fixed Asset - Acquisition List shows assets acquired in a date range and can include unacquired assets to find incomplete setup.
+- Insurance reports: Analysis (premiums, over/under insured), List, Coverage Details, Tot. Value Insured and Uninsured FAs; the last two require the Insurance Depr. Book setting and exclude inactive or disposed assets.
+- Maintenance reports: Analysis (expenses by category and code), Details (maintenance ledger entries) and Next Service (from the Next Service Date on the Fixed Asset Card).
+- Test reports for Fixed Asset and Insurance journals warn about missing document numbers, invalid dimensions, blocked assets and posting date problems before posting.
 
 ## Learn pages
 
@@ -318,13 +318,13 @@ Insurance reports show policies, coverage, over/under-insured status and uninsur
 - [Fixed Asset Document Nos. (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5636): Get a list of fixed asset ledger entries, sorted by document type and number. Use it to audit your fixed assets transactions.
 - [Fixed Asset G/L Analysis (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5610): Analyze fixed asset ledger amounts by posting date for reconciliation with the general ledger, including disposal and balancing disposal accounts.
 - [Fixed Asset Insurance Analysis (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5620): Get an overview of your insurance policies, including annual premiums, policy coverage, and information about over or underinsured assets.
+- [Fixed Asset Insurance List (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5621): Help monitor and manage insurance coverage for fixed assets. Review policy details when checking that your assets are adequately insured.
 - [Fixed Asset Journal - Test (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5602): Review the journal lines in a fixed asset journal. You can use the report to check the lines before you post the journal.
 - [Fixed Asset List and Setup (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5601): Review fixed asset identification, classification, dimensions, and depreciation setup for a selected depreciation book, excluding inactive assets.
 - [Fixed Asset Projected Value (Excel report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-4413): Review posted entries and projected depreciation in Excel for a fixed asset depreciation book, with running book values and configurable projection periods.
 - [Fixed Asset Register Entries (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5603): Review posted fixed asset ledger entries by register number, including documents, depreciation books, posting types, amounts, and G/L entry references.
 - [Fixed assets reports](https://learn.microsoft.com/dynamics365/business-central/fa-reports): Explore the standard reports in Business Central that can help you track and manage your fixed assets.
 - [Insurance - Coverage Details (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5624): Trace insurance coverage ledger entries by insurance policy and fixed asset, including posting dates, documents, insured amounts, and disposal status.
-- [Insurance - List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5621): Help monitor and manage your insurance coverage for fixed assets, ensuring that the assets are adequately insured.
 - [Insurance - Tot. Value Insured (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5625): Review recorded insured amounts by fixed asset and insurance policy, using the insurance depreciation book and excluding inactive or disposed assets.
 - [Insurance - Uninsured FAs (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5626): Find active fixed assets without insurance coverage ledger entries, and review their acquisition cost, depreciation, and book value for insurance follow-up.
 - [Insurance Journal - Test (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5622): Review the journal lines in a fixed asset insurance journal. You can use the report to check the lines before you post the journal.

@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts
 type: topic
 title: Report layouts
-summary: "Report layouts in Business Central AL development: creating and managing Word, Excel, RDLC and RDL layouts, defining multiple layouts per report, barcodes and fonts, hyperlinks, custom renderers, and customer/vendor document layouts. Answers how-to, setup and limits questions, and flags obsolete pages."
+summary: Report layouts in Business Central cover how to create, edit, assign and manage Word, Excel, RDLC/RDL and custom layouts for reports and documents. It answers questions about layout design, AL rendering definitions, barcodes, fonts, hyperlinks, document layouts for customers and vendors, and obsolete legacy layout procedures.
 tier: official
 language: en
 system: reporting
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 55e072e6c2d4f4b4b2e04aa85111101fde129916484fc0fd48f9693732da1b9f
+  input_hash: 40bacb542e95cb613d7a86e734008377931c57e81d9e34fdc524909698ca3674
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
@@ -276,24 +276,28 @@ narrative: generated
 
 # Report layouts
 
-> Report layouts in Business Central AL development: creating and managing Word, Excel, RDLC and RDL layouts, defining multiple layouts per report, barcodes and fonts, hyperlinks, custom renderers, and customer/vendor document layouts. Answers how-to, setup and limits questions, and flags obsolete pages.
+> Report layouts in Business Central cover how to create, edit, assign and manage Word, Excel, RDLC/RDL and custom layouts for reports and documents. It answers questions about layout design, AL rendering definitions, barcodes, fonts, hyperlinks, document layouts for customers and vendors, and obsolete legacy layout procedures.
 
 Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Report layouts · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how report output is designed and selected. It starts with overview and getting-started pages that explain layout types (Word, Excel, RDLC, external), subtypes (Default, Body), composite layouts with reusable themes and headers/footers, and layout status management. Pages on setting the layout used by a report explain default layouts per company and choosing a layout from the request page.
+Report layouts control the content and format of reports and documents. Business Central supports Word, Excel, RDLC/RDL and external layout types, plus composite layouts that combine reusable themes with headers and footers. The pages cover both the user side (choosing and managing layouts) and the developer side (defining datasets and layouts in AL).
+
+For a first pass, read "Report and document layouts overview" and "Get started creating report layouts". The latter explains choosing a format, exporting an existing layout or starting from a blank one, and managing status, validation and retirement on the Report Layouts page. "Set the layout used by a report" covers defaults per company and temporary selection from the request page.
+
+Format-specific pages follow. For Word: creating a Word layout report, the Business Central add-in, mapping fields with the XML Mapping pane, authoring tips and hyperlinks. For Excel: creating Excel layouts and the Excel layout report data contract. For RDL: creating RDL layouts and working with RDLC. Developer topics include defining multiple layouts in the rendering section, barcodes, fonts and custom report renders. Four pages marked obsolete describe older RDLC/Word workflows and point to the current pages.
 
 ## Key points
 
-- Start with Report and document layouts overview and Get started creating report layouts for current workflows.
-- Word layouts: create with the Business Central add-in or XML Mapping pane, use ReportMetadata and ReportRequest dataitems, hyperlinks via _Url and _UrlText columns.
-- Excel layouts: use PivotTables and formulas, a data contract, system worksheets, translations and ExcelLayoutMultipleDataSheets.
-- RDL and RDLC layouts are designed in SQL Server Report Builder or the Visual Studio RDLC designer.
-- Multiple layouts per report are defined in the rendering section with Caption, Summary and DefaultRenderingLayout properties.
-- Barcodes use the Barcode Font Provider interface, Barcode Symbology enum, EncodeFont and ValidateInput, with IDAutomation fonts.
-- Custom renderers are built with the OnCustomDocumentMergerEx event.
-- Four pages marked (Obsolete) describe legacy create, import/export, set and update procedures and point to the current pages.
+- Layout types: Word, Excel, RDLC/RDL and external, plus composite layouts using reusable themes and headers.
+- Get started: export an existing layout to customize it or create one from a blank template; manage status, validation and retirement on the Report Layouts page.
+- Layout selection: set a default per company, or switch temporarily from the report request page.
+- AL developers can define several layouts for one report in the rendering section, using Caption, Summary and DefaultRenderingLayout properties.
+- Word layouts: design with the Business Central add-in or the XML Mapping pane; hyperlinks use URL columns ending in _Url and _UrlText.
+- Excel layouts: support PivotTables, multiple worksheets and system worksheets; the data contract and ExcelLayoutMultipleDataSheets are covered.
+- Barcodes are added in AL through the Barcode Font Provider interface and Barcode Symbology enum, using IDAutomation fonts; a font list for the online service is provided.
+- Custom renders use the OnCustomDocumentMergerEx event; customers and vendors can have document layouts with email body and attachment settings.
 
 ## Learn pages
 
@@ -375,8 +379,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
 - [Page 21 "Customer Card"](../../../../../objects/page/21.md) · on [Table 18 "Customer"](../../../../../objects/table/18.md)
-- [Page 9650 "Custom Report Layouts"](../../../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../../../objects/table/9650.md)
-- [Page 9652 "Report Layout Selection"](../../../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../../../objects/table/9651.md)
+- [Page 9650 "Custom Report Layouts"](../../../../../objects/page/9650.md) · captioned "Custom Report Layouts (Obsoleted)" · on [Table 9650 "Custom Report Layout"](../../../../../objects/table/9650.md)
+- [Page 9652 "Report Layout Selection"](../../../../../objects/page/9652.md) · captioned "Report Layout Selection (Obsoleted)" · on [Table 9651 "Report Layout Selection"](../../../../../objects/table/9651.md)
 - [Page 9660 "Report Layouts"](../../../../../objects/page/9660.md)
 - [Page 9662 "Report Layout New Dialog"](../../../../../objects/page/9662.md) · captioned "Add New Layout for a Report"
 - [Page 9666 "Report Theme and Header/Footer"](../../../../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:21.103Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -71,6 +71,7 @@ links:
   changes:
     - change/bcapps/12186
     - change/bcapps/13953
+    - change/bcapps/14002
     - change/bcquality/134
     - change/bcquality/135
     - change/bcquality/148
@@ -136,6 +137,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12186 Set several fields in one ModifyAll call](../../../../../changes/bcapps/12186.md) (code change): "Consecutive ModifyAll calls on the same filtered record are merged"
 - [#13953 Add key on Email Message Attachment Data to speed up email deletion (backport to releases/29.x)](../../../../../changes/bcapps/13953.md) (code change): "improve performance when deleting emails, avoiding full table scans"
+- [#14002 External File Storage: reject "." and ".." path segments](../../../../../changes/bcapps/14002.md) (code change): "rejects any path where a whole segment is . or .., for all operations and connectors"
 - [#134 knowledge(performance): add community rules for performance](../../../../../changes/bcquality/134.md) (code change): "16 community performance rules for Business Central to BCQuality"
 - [#135 Correct severe misconception about SetCurrentKey in the knowledge base](../../../../../changes/bcquality/135.md) (code change): "SetCurrentKey generates ORDER BY clauses, not SQL index hints"
 - [#148 Add Job Queue reliability and scheduling guidance](../../../../../changes/bcquality/148.md) (code change): "reliability and scheduling practices for Job Queue and Task Scheduler workloads"

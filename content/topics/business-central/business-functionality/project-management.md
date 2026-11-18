@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -104,8 +104,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview
-    title: Project analytics
-    date: "2024-11-11"
+    title: Project Analytics and Reporting
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -133,7 +133,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1005
     title: Project Journal - Test (report)
-    date: "2024-11-02"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -181,8 +181,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1015
-    title: Project Register (report)
-    date: "2024-11-02"
+    title: Project Register Report for Posted Entries
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null

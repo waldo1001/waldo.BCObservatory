@@ -1,33 +1,24 @@
 {
   "hub_id": "topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics/legacy-reports-will-be-removed",
-  "input_hash": "a58f96a31d9cdee0f232ac2fcd6655d98e19abfdb649447c1a203fefaf3e15ac",
-  "summary": "Legacy fixed asset reports in Business Central that are marked for removal: Fixed Asset Analysis, Fixed Asset Details, and Fixed Asset Projected Value. It answers questions about what each report shows, such as valuation, depreciation, ledger entries, and projected book value.",
-  "overview": "This section holds three older fixed asset reports under Fixed assets analytics. The Learn table of contents labels the group \"will be removed\", so treat them as legacy and expect them to go away.\n\nThe reports cover different needs. Fixed Asset Analysis gives a broad view of asset values and depreciation with customizable date and data columns. Fixed Asset Details lists fixed asset ledger entries per asset. Fixed Asset Projected Value looks forward and forecasts depreciation and book value for a future period.\n\nStart with the page that matches your task: Analysis for reconciliation, checks and budget reporting, Details for entry-level review of cost, depreciation and book value, and Projected Value for budget planning. There are no subtopics.",
+  "input_hash": "9ba716021fb0e5361491aae774c8ae24c8d93f00c1a0b174acc1f9041e4c82bf",
+  "summary": "Legacy fixed asset analytics reports in Business Central that are scheduled for removal: Fixed Asset Projected Value, Transaction Details, and Value Analysis. It answers questions about what each report shows and that they are obsolete from version 28.0 in favor of Excel report replacements.",
+  "overview": "This section documents three older fixed asset reports that sit under Fixed assets analytics and are going to be removed. Each page describes what the report does and, where stated, marks it as obsolete from version 28.0, with the Excel report as the replacement.\n\nThe reports cover different needs. Projected Value forecasts future depreciation and book value over a period. Transaction Details lists fixed asset ledger entries for a depreciation book. Value Analysis gives a configurable examination of assets for reconciliation, check reports, and budget projections.\n\nStart here if you maintain existing processes that still use these reports, or need to understand what they did before moving to the Excel reports. For new work, use the Excel report replacements.",
   "key_points": [
-    "The section is labeled 'will be removed', so these reports are legacy.",
-    "Fixed Asset Analysis supports asset valuation, depreciation analysis, budget reporting and future depreciation calculation.",
-    "Fixed Asset Analysis has customizable date and data columns, used for reconciliation, check and budget reports.",
-    "Fixed Asset Details shows ledger entries with acquisition cost, depreciation and book value for each asset.",
-    "Fixed Asset Details can optionally include reversed entries.",
-    "Fixed Asset Projected Value forecasts depreciation and book value across specified date ranges for a future period.",
-    "Projected Value can compare multiple depreciation methods and copy amounts to a G/L budget."
+    "All three reports are legacy and will be removed; the pages reference version 28.0.",
+    "Fixed Asset Projected Value and Transaction Details are marked obsolete from version 28.0, with Excel report replacements.",
+    "Projected Value forecasts future depreciation and book value over a specified period, with several depreciation methods and interval breakdown.",
+    "Projected Value can be used for budget creation and tracks accumulated depreciation.",
+    "Transaction Details shows fixed asset ledger entries for a selected depreciation book, with transaction amounts, posting types, and G/L references.",
+    "Transaction Details supports date filtering, reversed entries, and excluding inactive assets.",
+    "Value Analysis offers configurable date columns and data columns for reconciliation, check reports, budget depreciation projection, and future value estimation."
   ],
   "members_used": 3,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:02.904Z",
+  "at": "2026-11-18T00:59:25.748Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.010173
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:27:17.864Z",
-    "verdict": "approve",
-    "issues": [],
-    "input_hash": "a58f96a31d9cdee0f232ac2fcd6655d98e19abfdb649447c1a203fefaf3e15ac",
-    "cost_usd": 0.0276712
+    "cost_usd": 0.010845
   }
 }

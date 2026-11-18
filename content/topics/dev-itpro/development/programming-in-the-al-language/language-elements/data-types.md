@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d4267e15f9f94d7855fa46b178b2b257bd0a228598657f0f87aa90b3a2357688
@@ -355,7 +355,6 @@ links:
     - post/aardvarklabs-blog/3118
     - post/aardvarklabs-blog/3267
     - post/aardvarklabs-blog/4095
-    - post/demiliani-com/11796
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2146591606221133853--27de9e092a
     - post/yzhums-com/17631
@@ -380,7 +379,7 @@ coverage:
   learn: 46
   code: 0
   video: 0
-  blog: 13
+  blog: 12
   guideline: 0
 bc_forms: []
 member_hash: d4267e15f9f94d7855fa46b178b2b257bd0a228598657f0f87aa90b3a2357688
@@ -450,7 +449,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Leveraging RecordRef and FieldRef for Dynamic Coding](../../../../../posts/aardvarklabs-blog/3118.md) (community post): "use weakly typed RecordRef and FieldRef objects in Business Central AL"
 - [Overcoming Integer Limits in Business Central with BigInteger](../../../../../posts/aardvarklabs-blog/3267.md) (community post): "BigInteger is a signed 64-bit type supporting 9.2 quintillion values"
 - [Business Central v29: ModuleInfo Gets Four New Runtime 18 Values](../../../../../posts/aardvarklabs-blog/4095.md) (community post): "Runtime 18 adds ContextSensitiveHelpUrl, EULA, Help and PrivacyStatement to the ModuleInfo data type"
-- [Dynamics 365 Business Central: using secrets in JsonObjects.](../../../../../posts/demiliani-com/11796.md) (community post): "SecretText data type protects secrets from debugging"
 - [Record.IsDirty in Business Central 29: a worked example](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4.md) (community post): "new API in Business Central 29 that lets AL code check"
 - [New ModuleInfo Properties in Business Central 29](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2146591606221133853--27de9e092a.md) (community post): "Four new ModuleInfo properties retrieve Help links"
 - [Dynamics 365 Business Central: How to convert Text/Integer to Date (Text/Integer Data type -> Date Data type)](../../../../../posts/yzhums-com/17631.md) (community post): "convert Text and Integer data types to Date in Business Central AL development"

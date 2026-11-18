@@ -11,7 +11,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -538,8 +538,8 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 2753 "Universal Print Shares List"](../../../objects/page/2753.md) · captioned "Print Shares" · on [Table 2752 "Universal Print Share Buffer"](../../../objects/table/2752.md) · via [Run and print reports](get-productive-in-business-central/run-and-print-reports.md)
 - [Page 2754 "Universal Printer Tray List"](../../../objects/page/2754.md) · captioned "Universal Printer Trays" · on [Table 823 "Name/Value Buffer"](../../../objects/table/823.md) · via [Run and print reports](get-productive-in-business-central/run-and-print-reports.md)
 - [Page 8900 "Administrator Main Role Center"](../../../objects/page/8900.md) · captioned "Administrator Role Center" · via [Run and print reports](get-productive-in-business-central/run-and-print-reports.md)
-- [Page 9650 "Custom Report Layouts"](../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../objects/table/9650.md) · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
-- [Page 9652 "Report Layout Selection"](../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../objects/table/9651.md) · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
+- [Page 9650 "Custom Report Layouts"](../../../objects/page/9650.md) · captioned "Custom Report Layouts (Obsoleted)" · on [Table 9650 "Custom Report Layout"](../../../objects/table/9650.md) · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
+- [Page 9652 "Report Layout Selection"](../../../objects/page/9652.md) · captioned "Report Layout Selection (Obsoleted)" · on [Table 9651 "Report Layout Selection"](../../../objects/table/9651.md) · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
 - [Page 9660 "Report Layouts"](../../../objects/page/9660.md) · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
 - [Page 9662 "Report Layout New Dialog"](../../../objects/page/9662.md) · captioned "Add New Layout for a Report" · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)
 - [Page 9663 "Tenant Report Layout Cfg"](../../../objects/page/9663.md) · captioned "Report defaults for theme and header-footer" · via [Change the look of externally facing documents](get-productive-in-business-central/change-the-look-of-externally-facing-doc.md)

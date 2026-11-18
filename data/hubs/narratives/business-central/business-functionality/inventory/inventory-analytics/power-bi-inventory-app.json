@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/inventory/inventory-analytics/power-bi-inventory-app",
-  "input_hash": "37c3b2784424d6cfa365213608fe5692be01178d047d8e19d2815a11180a2af8",
-  "summary": "The Power BI Inventory app section describes the app's reports, KPIs and measures, and semantic model for Business Central inventory analysis. It answers questions about what each report shows, who uses it, which measures it contains, and how the data is structured.",
-  "overview": "The Power BI Inventory app gives leadership, managers and warehouse staff reports on stock levels, supply and demand, and item tracking. Each report has its own page that explains its purpose, audience and main KPIs.\n\nThe reports fall into a few groups. Overview and availability: Inventory Overview, Item Availability, Gross Requirement, Scheduled Receipt, and Purchase and Sales Quantity. Breakdowns of stock: Inventory by Item, by Location, by Lot No. and by Serial No. Warehouse bins: Bin Contents and Bin Contents by Item Tracking. Planning and classification: ABC Analysis and Inventory Forecasting.\n\nStart with the \"Inventory Power BI App Reports and Analytics\" page for the list of reports. Then use the KPIs and measures page for formulas and data sources, and the semantic model page to see the star schema of fact and dimension tables behind the reports.",
+  "input_hash": "f7471e813add7ae735a8fb538fd596f877665ace8a33da76c38091b727109566",
+  "summary": "The Power BI inventory app section describes the reports, KPIs and semantic model of the Business Central inventory app. It answers questions about what each report shows, who uses it, which measures it contains, and how the data model is structured.",
+  "overview": "The Power BI Inventory app gives leadership, managers and warehouse staff reports on stock levels, supply, demand, and bin and item tracking. The section has one landing page that lists the reports, one page for KPIs and measures, one for the semantic model, and a page for each report.\n\nThe reports fall into groups. Overview and availability reports include Inventory Overview, Item Availability, Gross Requirement, Scheduled Receipt, and Purchase and Sales Quantity. Breakdown reports cover inventory by item, location, lot number and serial number. Warehouse reports cover bin contents, with and without item tracking. ABC Analysis and Inventory Forecasting support prioritization and planning.\n\nStart with the landing page, Inventory Power BI App Reports and Analytics, to pick a report. Use the KPIs and measures page for formulas and data sources, and the semantic model page to understand the star schema of fact and dimension tables behind the reports.",
   "key_points": [
-    "Inventory Overview shows inventory quantity, scheduled receipts, gross requirements and projected available balance by location, for leadership who do not want to drill into detail.",
-    "Item Availability, Gross Requirement and Scheduled Receipt cover supply and demand. Gross Requirement combines demand from sales, service, projects, production, transfers and assembly.",
-    "Inventory by Item splits stock across purchase, production, sales and return documents. Inventory by Location shows stock across locations.",
-    "Inventory by Lot No. includes an Expired Inventory KPI. Inventory by Serial No. shows quantity per serial number.",
-    "Bin Contents reports show quantities per bin, and the item tracking version adds lot and serial numbers with zone and bin detail.",
-    "ABC Analysis ranks items into categories A, B and C by sales amount, using the ABC Analysis Setup page.",
-    "Inventory Forecasting predicts the next three months from historical data, with monthly seasonality and location-based forecasts.",
-    "The KPIs and measures page lists formulas and data sources. The semantic model uses fact tables for transactions and dimension tables for item, customer, vendor, location and bin in a star schema."
+    "Inventory Overview shows quantity, scheduled receipts, gross requirements and projected available balance by location for management.",
+    "Item Availability, Gross Requirement and Scheduled Receipt reports cover supply and demand. Gross Requirement combines demand from sales, service, projects, production, transfers and assembly.",
+    "Scheduled Receipt shows inbound inventory from purchase orders, production, assembly and sales returns.",
+    "Inventory by Item, Location, Lot No. and Serial No. break stock down by those dimensions. The lot report includes an Expired Inventory KPI.",
+    "Bin Contents and Bin Contents by Item Tracking show bin-level quantities. The tracking version adds lot and serial numbers, zones and bins.",
+    "ABC Analysis ranks items into A, B and C categories by sales amount and uses an ABC Analysis Setup page.",
+    "Inventory Forecasting predicts the next three months from historical data and includes seasonality analysis.",
+    "The semantic model uses a star schema with fact tables for inventory transactions and dimension tables for item, customer, vendor, location and bin."
   ],
   "members_used": 16,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-13T01:00:18.826Z",
+  "at": "2026-11-18T00:59:12.745Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.024942000000000002
+    "cost_usd": 0.024908000000000003
   }
 }

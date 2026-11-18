@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -86,6 +86,7 @@ links:
     - video/snVsG69X-kw
     - video/XcQFvNnKpxk
   posts:
+    - post/demiliani-com/12532
     - post/demiliani-com/13096
     - post/demiliani-com/13254
     - post/demiliani-com/13369
@@ -113,7 +114,7 @@ coverage:
   learn: 7
   code: 0
   video: 5
-  blog: 13
+  blog: 14
   guideline: 0
 bc_forms: []
 member_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -144,6 +145,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2229 Surface empty BCPT results as a warning instead of silent success](../../changes/al-go/2229.md) (code change): "BCPT performance tests produce a results file with no entries"
 - [#13952 Add key on Email Message Attachment Data to speed up email deletion](../../changes/bcapps/13952.md) (code change): "database key is added on the Data field to significantly improve performance"
 - [#13953 Add key on Email Message Attachment Data to speed up email deletion (backport to releases/29.x)](../../changes/bcapps/13953.md) (code change): "Speeds up email deletion on large tenants"
+- [Do you have Azure Functions running on Linux Consumption plan? It’s time to migrate…](../../posts/demiliani-com/12532.md) (community post): "Azure Functions running on Linux Consumption plan migration deployment performance"
 - [Dynamics 365 Business Central UI performance: what about the browser and the local machine?](../../posts/demiliani-com/13096.md) (community post): "Business Central UI performance depends on network latency, browser capabilities, and local machine hardware"
 - [Dynamics 365 Business Central: understanding the Database Wait Statistics page.](../../posts/demiliani-com/13254.md) (community post): "Understanding wait categories, task counts, wait times, signal waits helps identify performance bottlenecks"
 - [Dynamics 365 Business Central: monitoring your customer’s network speed from telemetry.](../../posts/demiliani-com/13369.md) (community post): "New deviceHardware telemetry node contains CPU cores, memory, network downlink speed and round-trip time"

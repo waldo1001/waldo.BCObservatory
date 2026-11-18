@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/sales/sales-analytics
 type: topic
 title: Sales analytics
-summary: "Sales analytics in Business Central covers the ways to analyze sales data: the Power BI Sales app, built-in and legacy sales reports, ad-hoc analysis on list pages, and analysis reports built from templates. It answers what each report shows, which tool fits a task, and which reports are being removed."
+summary: "Sales analytics in Business Central covers the ways to analyze sales data: the Power BI Sales app, built-in analysis and document reports, ad-hoc Data Analysis on list pages, custom analysis reports, and legacy reports slated for removal. It answers what each report shows, its filters and options, and which method fits a need."
 tier: official
 language: en
 system: sales
@@ -12,16 +12,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: fe1676040a908a4ad99359425528dfa27d0f2cd96b0c18f10e9ca41538c24d66
+  input_hash: 1ee4e71fdc777dd0b5d95bf8c9260287f0a2b9fa1e3c52ea0f62f35ef42a65b4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales
-    title: Ad-hoc analysis of sales data
-    date: "2024-04-28"
+    title: Ad-Hoc Analysis of Sales Data in Business Central
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -473,23 +473,28 @@ narrative: generated
 
 # Sales analytics
 
-> Sales analytics in Business Central covers the ways to analyze sales data: the Power BI Sales app, built-in and legacy sales reports, ad-hoc analysis on list pages, and analysis reports built from templates. It answers what each report shows, which tool fits a task, and which reports are being removed.
+> Sales analytics in Business Central covers the ways to analyze sales data: the Power BI Sales app, built-in analysis and document reports, ad-hoc Data Analysis on list pages, custom analysis reports, and legacy reports slated for removal. It answers what each report shows, its filters and options, and which method fits a need.
 
 Path: [Business functionality](../../business-functionality.md) > [Sales](../sales.md) > Sales analytics · tier official · system sales · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Sales analytics groups the tools for monitoring sales KPIs and trends. The top-level page lists the options: Power BI reports, Financial Reporting, Data Analysis on list pages, Open in Excel, and built-in reports. It is aimed at sales managers and operators.
+Sales analytics gives sales managers and operators several routes to monitor KPIs and trends. These include the Power BI Sales app, Financial Reporting, Data Analysis on list pages, Open in Excel, and built-in reports. Dimensions and the Chart of Accounts support the analysis.
+
+The hub's own pages cover two hands-on methods. Ad-hoc analysis uses the Data Analysis feature on list pages, with analysis and pivot modes, row groups, column labels and filters, to explore sales orders and customer ledger entries without running a report. Analysis reports are built by combining line and column templates and analysis type codes, for example for sales turnover, profit and periodic comparisons.
+
+The subtopics go deeper. The Power BI Sales app section describes the report catalog, the semantic model and the KPIs. The built-in reports section covers analysis reports and printable sales documents. The legacy section lists five reports that will be removed. Start with the overview page to choose a method, then go to the matching subtopic.
 
 ## Key points
 
-- Start with the Sales analytics overview page, which compares the available analysis options.
-- Ad-hoc analysis uses the Data Analysis feature on list pages, with analysis mode, pivot-style row groups and column labels, filtering and custom tabs, so no predefined report is needed.
-- Analysis reports combine line and column templates and analysis type codes to cover sales turnover, profit, periodic comparisons and item ledger analysis. They apply to sales, purchases and inventory.
-- The Power BI Sales app subtopic (24 pages) documents the report catalog, the semantic model, and the KPIs and measures.
-- The built-in sales reports subtopic (29 pages) covers receivables aging, customer balances and rankings, order and inventory reports, and salesperson reports. It also covers printable sales documents such as quotes, order confirmations, invoices, credit memos and shipments.
-- Legacy reports (5 pages) will be removed: Customer - Sales list, Customer - Top 10 List, Customer List, Sales Reservation Avail., and Sales Statistics. One of them is already obsolete.
-- Dimensions, the Chart of Accounts and Financial Reporting are also named as ways to analyze sales.
+- Ad-hoc analysis uses the Data Analysis feature on list pages, with analysis mode, pivot mode, row groups, column labels and analysis filters.
+- Analysis reports are built from line and column templates and analysis type codes, and can cover sales, purchases and inventory.
+- Analysis reports can show sales turnover, profit calculations, periodic comparisons and item ledger analysis.
+- The Power BI Sales app has a report catalog, a semantic model and defined sales KPIs and measures.
+- Built-in reports include receivables aging, customer balances, orders, top customers and salesperson commission.
+- Printable sales documents include quotes, order confirmations, invoices, credit memos, shipments and return receipts.
+- Legacy reports to be removed: Customer - Sales list, Customer - Top 10 List, Customer List, Sales Reservation Avail. and Sales Statistics; one is already obsolete.
+- Other analysis options are Financial Reporting, Open in Excel, Chart of Accounts and dimensions.
 
 ## Subtopics
 
@@ -499,8 +504,8 @@ Sales analytics groups the tools for monitoring sales KPIs and trends. The top-l
 
 ## More Learn pages
 
-- [Ad-hoc analysis of sales data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales): Learn how to use the data analysis mode to analyze sales data.
-  - In the observatory: [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md), [Page 48 "Sales Orders"](../../../../objects/page/48.md)
+- [Ad-Hoc Analysis of Sales Data in Business Central](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales): Analyze sales order amounts, customer sales, and outstanding receivables in Business Central with analysis mode on sales orders and ledger entries.
+  - In the observatory: [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md), [Page 48 "Sales Orders"](../../../../objects/page/48.md), [Table 110 "Sales Shipment Header"](../../../../objects/table/110.md), [Table 112 "Sales Invoice Header"](../../../../objects/table/112.md), [Table 17 "G/L Entry"](../../../../objects/table/17.md), [Table 203 "Res. Ledger Entry"](../../../../objects/table/203.md)
 - [Create analysis reports](https://learn.microsoft.com/dynamics365/business-central/bi-how-create-analysis-views-reports): Describes how to create new analysis reports for sales, purchases, and inventory, and set up analysis templates.
   - In the observatory: [Page 7114 "Analysis Columns"](../../../../objects/page/7114.md), [Page 7117 "Sales Analysis Report"](../../../../objects/page/7117.md)
 - [Sales analytics](https://learn.microsoft.com/dynamics365/business-central/sales-analytics-overview): Business Central offers features that can help you gather, analyze, and share valuable sales data for business intelligence and decision-making in the sales organization.

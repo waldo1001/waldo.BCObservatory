@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -63,6 +63,8 @@ links:
   posts:
     - post/yzhums-com/77038
   guidelines: []
+  changes:
+    - change/bcapps/13965
 learn_toc_path:
   - Get started
   - Get productive in Business Central
@@ -115,17 +117,18 @@ The pages follow the life of a layout. You create or copy a layout, export or im
 - [(Obsolete) Update Custom Report Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-update-report-layouts): Test and update legacy custom report layouts after dataset changes in Business Central, and find guidance for changes that require manual fixes.
   - In the observatory: [Page 9656 "Report Layout Update Log"](../../../../../objects/page/9656.md)
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13965 Bug 658846: [29.x]Partner feedback: Mark "Custom Report Layouts" page caption with '(Obsoleted)' and also add a notification OnOpen](../../../../../changes/bcapps/13965.md) (code change): "Custom Report Layouts page caption is marked with (Obsoleted) and a notification is shown"
 - [Business Central 2026 release wave 2 (BC29): Custom Report Layouts are now deprecated and have been removed](../../../../../posts/yzhums-com/77038.md) (community post): "This legacy feature from Dynamics NAV was already obsolete but retained"
 
 ## Business Central pages and reports
 
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
-- [Page 9650 "Custom Report Layouts"](../../../../../objects/page/9650.md) · on [Table 9650 "Custom Report Layout"](../../../../../objects/table/9650.md)
-- [Page 9652 "Report Layout Selection"](../../../../../objects/page/9652.md) · on [Table 9651 "Report Layout Selection"](../../../../../objects/table/9651.md)
+- [Page 9650 "Custom Report Layouts"](../../../../../objects/page/9650.md) · captioned "Custom Report Layouts (Obsoleted)" · on [Table 9650 "Custom Report Layout"](../../../../../objects/table/9650.md)
+- [Page 9652 "Report Layout Selection"](../../../../../objects/page/9652.md) · captioned "Report Layout Selection (Obsoleted)" · on [Table 9651 "Report Layout Selection"](../../../../../objects/table/9651.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

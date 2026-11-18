@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/manufacturing/manufacturing-analytics/built-in-production-reports
 type: topic
 title: Built-in production reports
-summary: Built-in production reports in Business Central cover BOM cost and structure, production order costs and status, capacity and routing, shortages, subcontracting, and item labels. It answers which report shows a given manufacturing figure, what it filters on, and what it contains.
+summary: "Built-in production reports in Business Central manufacturing: what each standard report shows, its filters and report number where given. Covers costing, BOM structure, capacity, shortages, WIP, subcontracting, shop floor documents and labels."
 tier: official
 language: en
 system: manufacturing
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:17:53.323Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 488eff3774687815c99a14ccc8c069f73e83d0908c1a07543ca2a4d290052320
+  input_hash: fb6b8701b83d7b4e993c914abecb153328a96254d8aa54fd9c237480be1b2bcb
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5872
@@ -47,6 +47,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000768
+    title: Prod. Order - Detailed Calc. (Report)
+    date: "2026-11-16"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000762
     title: Prod. Order - Job Card (report)
     date: "2026-11-13"
@@ -55,8 +62,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000764
-    title: Prod. Order - Precalc. Time (report)
-    date: "2024-11-01"
+    title: Prod. Order - Precalc. Time (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -64,13 +71,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000788
     title: Prod. Order - Shortage List (report)
     date: "2026-09-10"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-99000768
-    title: Prod. Order Detailed Calc (report)
-    date: "2024-11-01"
     commit: null
     t: null
     quote: null
@@ -84,7 +84,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5802
     title: Production Order - WIP (report)
-    date: "2024-11-01"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -136,10 +136,10 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-99000780
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5871
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-99000769
+    - https://learn.microsoft.com/dynamics365/business-central/reports/report-99000768
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-99000762
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-99000764
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-99000788
-    - https://learn.microsoft.com/dynamics365/business-central/reports/report-99000768
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-99000763
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-5802
     - https://learn.microsoft.com/dynamics365/business-central/reports/report-99000791
@@ -223,42 +223,41 @@ narrative: generated
 
 # Built-in production reports
 
-> Built-in production reports in Business Central cover BOM cost and structure, production order costs and status, capacity and routing, shortages, subcontracting, and item labels. It answers which report shows a given manufacturing figure, what it filters on, and what it contains.
+> Built-in production reports in Business Central manufacturing: what each standard report shows, its filters and report number where given. Covers costing, BOM structure, capacity, shortages, WIP, subcontracting, shop floor documents and labels.
 
-Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Built-in production reports · tier official · system manufacturing · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Built-in production reports · tier official · system manufacturing · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section lists the standard reports available for manufacturing analysis. An entry page, Production Reports and Analytics, introduces the Report Explorer, work center load analysis and item availability. The other pages each describe one report.
+This section lists the standard reports that ship with Business Central for manufacturing. Each page describes one report: what it shows, the data it draws from (production orders, routings, BOMs, ledger entries) and the main filters or parameters. An overview page, Production Reports and Analytics, introduces the Report Explorer, work center load analysis and item availability.
 
-The reports group by purpose. Cost reports include BOM Cost Share Distribution, Prod. Order Detailed Calc, Production Order - WIP and Production Order Statistics. Structure reports include Quantity Explosion of BOM and Where-Used (Top Level). Planning and shop floor reports include Capacity Task list, Prod. Order - Job Card, Precalc. Time, Shortage List, Routing Sheet, Subcontractor - Dispatch List and Item - Able to Make (Time). Production Order - List is Excel-based, and Output Item Label produces labels.
+The reports fall into groups. Cost reports: BOM Cost Share Distribution, Prod. Order - Detailed Calc., Production Order Statistics and Production Order - WIP. BOM structure reports: Quantity Explosion of BOM and Where-Used (Top Level). Planning and capacity reports: Capacity Task List, Prod. Order - Precalc. Time, Prod. Order - Shortage List and Item - Able to Make (Timeline). Shop floor and supplier documents: Job Card, Routing Sheet, Subcontractor - Dispatch List and Output Item Label. Production Order - List gives an Excel overview.
 
-Start with Production Reports and Analytics for the overall picture, then open the page for the specific report you need to check its filters and the data it shows.
+Start with Production Reports and Analytics for orientation, then open the page for the report that matches your question, such as why a cost differs, which components are short, or where an item is used.
 
 ## Key points
 
-- BOM Cost Share Distribution uses pie charts to show material/labor and direct/indirect cost proportions through a bill of materials.
-- Production Order Statistics breaks down material, capacity, subcontracting and overhead costs with variance analysis; Prod. Order Detailed Calc shows expected operation and material cost.
-- Production Order - WIP shows work-in-process cost for released orders from posted consumption, capacity and output.
-- Prod. Order - Shortage List shows missing component quantities per order and projected inventory up to a date filter, with filters for status and order number.
-- Capacity Task list, Precalc. Time, Job Card and Routing Sheet cover work center and machine center scheduling, routing times (setup, run, wait), and shop floor use.
-- Subcontractor - Dispatch List shows released routing lines at subcontractor vendors with remaining quantity and components to ship; it filters by vendor, work center, order and dates.
-- Quantity Explosion of BOM gives an indented, fully exploded component listing; Where-Used (Top Level) shows where items are used and in what quantities.
-- Output Item Label creates barcode and QR code labels for production output with serial, lot or package tracking; Production Order - List is an Excel report with two worksheets.
+- Cost reports: BOM Cost Share Distribution shows how an item's cost spreads over components, labor, direct and indirect costs and overhead.
+- Production Order Statistics (99000791) compares expected and actual costs by category (material, capacity, subcontracting, overhead) with variance percentages.
+- Production Order - WIP shows work-in-process costs for released and finished orders from posted consumption, capacity entries and output.
+- Prod. Order - Shortage List shows missing component quantities per order and projected inventory through a cutoff date, with scheduled receipts and purchase order comparison.
+- Capacity Task List (99000780) lists unfinished operations by work center or machine center, excluding finished orders.
+- Quantity Explosion of BOM gives an indented, fully exploded component list; Where-Used (Top Level) (99000757) traces item usage across BOM levels using a calculation date.
+- Shop floor documents: Job Card (99000762), Routing Sheet (99000787) and Subcontractor - Dispatch List, which can be filtered by vendor, work center, order and dates.
+- Output Item Label creates barcode or QR code labels for production output, with serial, lot and package tracking; Production Order - List is an Excel report with two worksheets.
 
 ## Learn pages
 
 - [BOM Cost Share Distribution (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5872): Review how material, capacity, subcontracting, and overhead costs contribute to BOM costs. Compare single-level or rolled-up cost shares and details.
-  - In the observatory: [Page 5872 "BOM Cost Shares"](../../../../../objects/page/5872.md)
 - [Capacity Task List Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000780): Review unfinished production order operations by work center or machine center. Check scheduled dates, times, input quantities, and capacity needs.
 - [Item - Able to Make (Timeline) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5871): Review projected item availability over time, including quantities that can be assembled or produced. Set the starting date, interval, and number of periods.
 - [Output Item Label report](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000769): Print barcode and QR code labels for manufacturing output items, including item details and serial, lot, or package tracking numbers.
+- [Prod. Order - Detailed Calc. (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000768): Get a comprehensive analysis of the costs associated with production orders broken down to costs by material, capacity, overhead, and other cost components.
 - [Prod. Order - Job Card (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000762): Review production order routing operations and linked component requirements. Print the Prod. Order - Job Card report for use on the shop floor.
-- [Prod. Order - Precalc. Time (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000764): Helps plan and schedule production activities by estimating the time needed to complete each production order based on factors such as work centers, machine centers, and routing information.
+- [Prod. Order - Precalc. Time (Report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000764): Helps plan and schedule production activities by estimating the time needed to complete each production order based on routing information.
 - [Prod. Order - Shortage List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000788): Identify components that will be short on production orders by comparing scheduled needs against inventory, receipts, and other demand.
-- [Prod. Order Detailed Calc (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000768): Get a comprehensive analysis of the costs associated with production orders broken down to costs by material, capacity, overhead, and other cost components.
 - [Production Order - List (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000763): Get an Excel-based overview of production orders across their lifecycle, including status, item, source, location, and key dates.
-- [Production Order - WIP (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5802): Helps you track the costs of the production process.
+- [Production Order - WIP (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5802): Track the costs of the production process. Review consumption, capacity usage, output, and costs posted to the general ledger for production orders.
 - [Production Order Statistics (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000791): Analyze your actual costs and variance from expected cost for production orders to make key decisions about your production execution and its effect on costs.
 - [Production Reports and Analytics](https://learn.microsoft.com/dynamics365/business-central/production-reports): See which production reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
 - [Quantity Explosion of BOM (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000753): Explode a production BOM to every level and see the calculated component quantities needed for one or more items as of a specific date.

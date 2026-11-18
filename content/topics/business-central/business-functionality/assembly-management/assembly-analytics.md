@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/assembly-management/assembly-analytics
 type: topic
 title: Assembly analytics
-summary: "Assembly analytics covers the Business Central reports and analytics for assembly activity: BOM listings, sub-assemblies, end items, raw materials, where-used, cost share, item availability over time, and assemble-to-order sales. It answers questions about what each report shows and when to use it."
+summary: Assembly analytics covers the reports in Business Central that analyze assembly activity and assembly BOMs. It answers questions about BOM structure, where components are used, cost distribution, component availability over time, and assemble-to-order sales.
 tier: official
 language: en
 system: assembly
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:20:22.627Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: a8e1dbc418abddca97b1944113d54d6ab479254b09640a07ac89c67fb7ac8fc6
+  input_hash: 5f61efbb71e01ed480465df82a6b3f31ef274e547c0cf78bf9eafe76ddd68313
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-915
@@ -177,28 +177,28 @@ narrative: generated
 
 # Assembly analytics
 
-> Assembly analytics covers the Business Central reports and analytics for assembly activity: BOM listings, sub-assemblies, end items, raw materials, where-used, cost share, item availability over time, and assemble-to-order sales. It answers questions about what each report shows and when to use it.
+> Assembly analytics covers the reports in Business Central that analyze assembly activity and assembly BOMs. It answers questions about BOM structure, where components are used, cost distribution, component availability over time, and assemble-to-order sales.
 
-Path: [Business functionality](../../business-functionality.md) > [Assembly management](../assembly-management.md) > Assembly analytics · tier official · system assembly · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Assembly management](../assembly-management.md) > Assembly analytics · tier official · system assembly · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Assembly analytics is the reporting area for assembly management in Business Central. It gives production and business professionals insight into current and past assembly activity, assembly bills of materials (BOMs), component usage, cost and availability.
+Assembly analytics is a set of reports for production and business professionals who want insight into current and past assembly activity. An overview page introduces assembly reporting and analytics, and each of the other pages describes one report.
 
-The pages fit together as one overview page plus one page per report. The reports fall into groups. BOM structure reports are Assembly BOMs, Assembly BOM - End Items, BOM - Sub-Assemblies, BOM - Raw Materials and Where-used list. Cost and sales reports are BOM Cost Share Distribution and Assemble to order - Sales. Availability is covered by Item - Able to Make (Time).
+The reports fall into a few groups. BOM structure reports are Assembly BOMs, Assembly BOM - End Items, BOM - Sub-Assemblies, BOM - Raw Materials and Where-Used List. They show how items relate as parents, components and sub-assemblies. Cost and sales reports are BOM Cost Share Distribution and Assemble to Order - Sales. Availability is covered by Item - Able to Make (Timeline).
 
-Start with "Assembly Reports and Analytics in Business Central" for the overview, then open the page for the specific report you need.
+Start with the overview page, then pick the report that matches your question: structure, cost, sales, or whether components are available to meet a sales order date.
 
 ## Key points
 
-- Assembly Reports and Analytics in Business Central is the overview page for assembly reporting and analytics.
-- Assembly BOMs lists assembly BOMs with component names, BOM numbers, quantities, units of measure and nested BOMs.
-- Assembly BOM - End Items lists items or BOMs that are not components in other BOMs, with filtering by replenishment system.
-- BOM - Sub-Assemblies shows subassembly components with base unit of measure, inventory, unit costs and alternative items.
-- BOM - Raw Materials shows components with inventory levels, units of measure, vendors and lead times.
-- Where-used list shows which BOMs contain selected items as components.
-- BOM Cost Share Distribution uses pie charts to show material/labor and direct/indirect cost proportions of an item's cost.
-- Item - Able to Make (Time) tracks BOM item availability over time from supply, demand and component availability; Assemble to order - Sales shows component sales figures and profit margin.
+- Assembly BOMs report lists assembly BOMs with components, quantities and units of measure.
+- Assembly BOM - End Items lists items not used as components in any assembly BOM, with filters for assembly BOM and replenishment system.
+- BOM - Sub-Assemblies lists items that have assembly BOMs and are also components in other assembly BOMs, with unit of measure, inventory, unit costs and alternative items.
+- BOM - Raw Materials lists items without assembly BOMs, showing inventory levels, units of measure, vendors and lead times.
+- Where-Used List shows which assembly BOMs contain selected items as components.
+- BOM Cost Share Distribution shows how an item's total cost is spread across BOM components and labor, including direct and indirect costs and manufacturing overhead.
+- Item - Able to Make (Timeline) tracks BOM component availability over time to check whether sales orders can be fulfilled by given dates.
+- Assemble to Order - Sales (report 915) shows sales of components sold in assemble-to-order assemblies and as separate items, with an optional Show Assembly Details setting and profit margin.
 
 ## Learn pages
 
@@ -210,7 +210,6 @@ Start with "Assembly Reports and Analytics in Business Central" for the overview
 - [Assembly Reports and Analytics in Business Central](https://learn.microsoft.com/dynamics365/business-central/assembly-reports): See which assembly reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
 - [BOM - Raw Materials Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-810): Review items without an assembly bill of materials. Check their inventory, base units of measure, vendor numbers, and lead time calculations.
 - [BOM Cost Share Distribution (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5872): Review how material, capacity, subcontracting, and overhead costs contribute to BOM costs. Compare single-level or rolled-up cost shares and details.
-  - In the observatory: [Page 5872 "BOM Cost Shares"](../../../../objects/page/5872.md)
 - [Item - Able to Make (Timeline) (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5871): Review projected item availability over time, including quantities that can be assembled or produced. Set the starting date, interval, and number of periods.
 - [Where-Used List Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-809): Find the assembly bills of materials that contain selected items. Review the parent items and component quantities before replacing a component.
 

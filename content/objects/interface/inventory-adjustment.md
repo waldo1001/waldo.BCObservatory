@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T00:48:58.898Z"
+  at: "2026-11-18T00:47:52.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c32d51dd57975c1a400d04ecaae0408b927266e1c6a14aca014b8a4c7f365c81
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/Layers/W1/BaseApp/Inventory/Costing/InventoryAdjustment.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Layers/W1/BaseApp/Inventory/Costing/InventoryAdjustment.Interface.al
     title: src/Layers/W1/BaseApp/Inventory/Costing/InventoryAdjustment.Interface.al (releases/29.x)
     date: null
-    commit: ae251bc67417b1b37b41aaf52480e6a5c8f9294e
+    commit: 4f49a1eb5ebb7384620fe1654dd53536c3abca03
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Inventory Adjustment" in Base Application (Microsoft.Inventory.Costing). 4 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Inventory.Costing · BC23-30 · [source at ae251bc6](https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/Layers/W1/BaseApp/Inventory/Costing/InventoryAdjustment.Interface.al) · facts from BC29
+Base Application · Microsoft.Inventory.Costing · BC23-30 · [source at 4f49a1eb](https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Layers/W1/BaseApp/Inventory/Costing/InventoryAdjustment.Interface.al) · facts from BC29
 
 ## Procedures
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -313,15 +313,9 @@ links:
   localizations: []
   videos:
     - video/7SSNcUMFtCw
-    - video/94Lqd7Ap8YQ
-    - video/jWJc_D67Vfw
-    - video/Wc8WlLZUCJc
-    - video/YIeE63Kn8sI
   posts:
     - post/demiliani-com/13611
-    - post/freddysblog/https-freddysblog-com-2026-08-23-which-model-should-you-use-for-which-task--faa80c64bd
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
-    - post/waldo-be/318712
   guidelines: []
 learn_toc_path:
   - Integration with AI
@@ -335,8 +329,8 @@ children:
 coverage:
   learn: 56
   code: 3
-  video: 5
-  blog: 4
+  video: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 8350
@@ -383,14 +377,8 @@ For connecting external AI clients, the Model Context Protocol pages describe th
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.](../../posts/demiliani-com/13611.md) (community post): "Azure OpenAI's Responses API replaces Chat Completions as the recommended approach"
-- [Which AI Model Should You Use for Which Task?](../../posts/freddysblog/https-freddysblog-com-2026-08-23-which-model-should-you-use-for-which-task--faa80c64bd.md) (community post): "Which AI Model Should You Use for Which Task"
 - [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "ERP is shifting from recording transactions to enabling autonomous action through AI agents"
-- [The Business Central 2026 release wave 2 docs nobody asked for ..](../../posts/waldo-be/318712.md) (community post): "Site built using AI to process 68,000 words of YouTube captions"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "Business Central AI Resources; copilot; azure openai; content safety; data privacy"
-- [#BCTalent and AI: A Partner’s Guide](../../videos/94Lqd7Ap8YQ.md) (video): "ai upskilling; partner enablement; generative ai"
-- [20260518 - Learning AI the Way I Learned NAV](../../videos/jWJc_D67Vfw.md) (video): "AI as development partner; Deep learning methodology for complex systems"
-- [Infinity Group Internal AI Transformation](../../videos/Wc8WlLZUCJc.md) (video): "ai transformation; data consolidation; workflow automation; supplier invoicing"
-- [Episode 517: Flip the Script: Start with Your Business Problem, Not the AI Tool](../../videos/YIeE63Kn8sI.md) (video): "ai strategy; business process optimization; ai decision matrix"
 
 ## Business Central pages and reports
 

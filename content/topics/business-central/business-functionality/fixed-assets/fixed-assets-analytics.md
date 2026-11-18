@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics
 type: topic
 title: Fixed assets analytics
-summary: "Fixed assets analytics in Business Central covers ways to analyze fixed asset data: KPIs, ad-hoc Data Analysis of FA and GL ledger entries, built-in tools for disposal, insurance, maintenance, budgeting and reclassification, and standard and legacy reports. It helps pick the right tool or report for questions about asset value, depreciation, insurance and maintenance costs."
+summary: Fixed assets analytics in Business Central covers how to analyze asset data through ad-hoc Data Analysis, financial reports, KPIs, standard reports, and built-in tools for disposal, insurance, maintenance, budgeting and reclassification. It answers which report or tool to use and what each shows.
 tier: official
 language: en
 system: fixed-assets
@@ -12,16 +12,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: aaeff40f7eb2c17b2fffec83d1c5ad7d745d97faeac0f2c7a52520be1aa7ad2e
+  input_hash: 2822fc68a6d8c172492ce69853d8997ec1910daef5b2e08a3072dd91783498c3
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa
-    title: Ad-hoc analysis of fixed assets data
-    date: "2025-03-10"
+    title: Ad-Hoc Analysis of Fixed Assets Data
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -96,6 +96,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5621
+    title: Fixed Asset Insurance List (Report)
+    date: "2026-11-16"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5602
     title: Fixed Asset Journal - Test (report)
     date: "2026-11-13"
@@ -146,8 +153,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview
-    title: Fixed assets analytics
-    date: "2025-10-03"
+    title: Fixed Assets Analytics and Reporting
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -162,13 +169,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5624
     title: Insurance - Coverage Details (report)
     date: "2026-11-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5621
-    title: Insurance - List (report)
-    date: "2024-11-02"
     commit: null
     t: null
     quote: null
@@ -391,27 +391,27 @@ narrative: generated
 
 # Fixed assets analytics
 
-> Fixed assets analytics in Business Central covers ways to analyze fixed asset data: KPIs, ad-hoc Data Analysis of FA and GL ledger entries, built-in tools for disposal, insurance, maintenance, budgeting and reclassification, and standard and legacy reports. It helps pick the right tool or report for questions about asset value, depreciation, insurance and maintenance costs.
+> Fixed assets analytics in Business Central covers how to analyze asset data through ad-hoc Data Analysis, financial reports, KPIs, standard reports, and built-in tools for disposal, insurance, maintenance, budgeting and reclassification. It answers which report or tool to use and what each shows.
 
 Path: [Business functionality](../../business-functionality.md) > [Fixed assets](../fixed-assets.md) > Fixed assets analytics · tier official · system fixed-assets · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes how to analyze fixed asset data in Business Central. The main page gives the overall picture: KPIs, financial reports, consolidation, data analysis, Excel exports and built-in reports, used to look at acquisitions, depreciation, insurance and maintenance.
+This area explains the ways to analyze fixed assets data in Business Central. The overview page, Fixed Assets Analytics and Reporting, lists the options: financial reports, KPIs, data analysis on list pages, Open in Excel, dimensions analysis and company consolidation, plus built-in reports and on-screen tools for acquisitions, depreciation, insurance and budgets.
 
-The pages fit together by purpose. The ad-hoc analysis page explains how to use Data Analysis mode on FA ledger entries and GL entries without running a report, for example to track asset value or depreciation. The built-in tools subtopic covers day-to-day tasks such as disposing, insuring, maintaining, budgeting and reclassifying assets. The reports subtopic lists standard and Excel reports for book value, depreciation, acquisitions, ledger entries, registers, insurance and maintenance. Three legacy reports are documented separately and are marked for removal.
+A separate page covers ad-hoc analysis. The Data Analysis feature works directly from the FA Ledger Entries and General Ledger Entries list pages, without running a report. It offers Analysis Mode and Pivot Mode with customizable tabs, so you can track asset values and depreciation changes interactively.
 
-Start with the Fixed assets analytics page to choose an approach. Use the reports subtopic when you need a fixed output, and the ad-hoc analysis page when you want to explore the data interactively. Avoid the legacy reports for new work.
+Three subtopics sit below. Built-in tools cover disposing, insuring, maintaining, budgeting and reclassifying assets. Fixed assets reports is the reference for the standard reports. Legacy reports lists three reports scheduled for removal. Start with the overview page, then go to the reports reference to pick a report.
 
 ## Key points
 
-- Ad-hoc analysis uses the Data Analysis feature on FA ledger entries and GL entries, with pivot mode and column management, and needs no report run.
-- Typical ad-hoc scenarios are fixed asset valuation and depreciation tracking.
-- The overview page lists the analysis options: KPIs, financial reports, consolidation, data analysis, Excel exports and built-in reports.
-- Built-in tools cover disposing or retiring, insuring, maintaining, budgeting and reclassifying assets, including transferring, splitting and combining assets.
-- The fixed assets reports subtopic has 23 pages of standard and Excel reports on book value, depreciation, acquisitions, ledger entries and registers.
-- Insurance and maintenance reports cover insurance coverage and maintenance costs, and some reports help check journals.
-- Fixed Asset Analysis, Fixed Asset Details and Fixed Asset Projected Value are legacy reports that will be removed.
+- Data Analysis works from the FA Ledger Entries and General Ledger Entries list pages, with no report run needed.
+- Analysis Mode and Pivot Mode allow interactive analysis with customizable tabs and pivot tables.
+- The overview also names financial reporting, KPIs, Open in Excel, dimensions analysis and company consolidation as analysis options.
+- Built-in tools (5 pages) cover disposal or retirement, insurance, maintenance, budgeting, and transferring, splitting or combining assets.
+- Fixed assets reports (23 pages) cover asset values, depreciation, acquisitions, G/L reconciliation, insurance, maintenance and journal checks, with filters and setup needs.
+- Legacy reports Fixed Asset Projected Value, Transaction Details and Value Analysis are obsolete from version 28.0 and will be removed.
+- Excel report replacements are the successors to the legacy reports.
 
 ## Subtopics
 
@@ -421,9 +421,9 @@ Start with the Fixed assets analytics page to choose an approach. Use the report
 
 ## More Learn pages
 
-- [Ad-hoc analysis of fixed assets data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa): Learn how to use the data analysis mode to analyze fixed assets data.
-- [Fixed assets analytics](https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview): Learn how to gather, analyze, and share data about fixed assets for business intelligence.
-  - In the observatory: [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 20 "General Ledger Entries"](../../../../objects/page/20.md)
+- [Ad-Hoc Analysis of Fixed Assets Data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa): Analyze fixed asset values, value changes, and depreciation with analysis mode on ledger entries and the Fixed Assets Ad-hoc Analysis query.
+- [Fixed Assets Analytics and Reporting](https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview): Learn how to gather, analyze, and share data about fixed assets for business intelligence. Explore analysis tools and built-in reports.
+  - In the observatory: [Page 16 "Chart of Accounts"](../../../../objects/page/16.md), [Page 20 "General Ledger Entries"](../../../../objects/page/20.md), [Page 5604 "FA Ledger Entries"](../../../../objects/page/5604.md)
 
 ## Videos and posts
 

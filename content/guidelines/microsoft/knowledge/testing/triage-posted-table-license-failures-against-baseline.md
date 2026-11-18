@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-14T00:13:17.671Z"
+  at: "2026-11-18T00:16:36.082Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7c4ce144e5b562c176ef35c45f6b224aef10393d
@@ -31,7 +31,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/triage-posted-table-license-failures-against-baseline.md
     title: "microsoft/BCQuality: Compare posted-table license failures with the same-environment baseline"
     date: "2026-11-12"
-    commit: d576b0fd6da902bf6e4cd7dd837b1f27b170edd2
+    commit: 90540bb901abb89de6d075a4014389df73ab8b64
     t: null
     quote: null
 links:
@@ -107,4 +107,4 @@ Originally contributed by [NavNab](https://github.com/NavNab) in [PR #141](https
 
 ---
 
-From microsoft/BCQuality at d576b0f, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 90540bb, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

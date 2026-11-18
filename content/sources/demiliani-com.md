@@ -2,7 +2,7 @@
 id: source/demiliani-com
 type: source
 title: Stefano Demiliani
-summary: "Stefano Demiliani (MVP): 98 posts in the knowledge base, 2025-04-07 to 2026-11-16, mostly about development, platform, integration."
+summary: "Stefano Demiliani (MVP): 99 posts in the knowledge base, 2025-04-07 to 2026-11-17, mostly about development, platform, integration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T00:16:35.786Z"
+  at: "2026-11-18T00:16:36.082Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c14be4ee5866da7ff5e864997408d1f282653137f19b19b6f63d6526b3aaf3d2
+  input_hash: 38df54e6df1c3f5299980a0692827dcb387c8fe6a06f754b011edddb5c52c225
 evidence:
   - kind: blog
     url: https://demiliani.com
@@ -131,6 +131,7 @@ links:
     - post/demiliani-com/17586
     - post/demiliani-com/17609
     - post/demiliani-com/17653
+    - post/demiliani-com/17696
   guidelines: []
 source_id: demiliani-com
 kind: blog
@@ -138,17 +139,17 @@ url: https://demiliani.com
 author: Stefano Demiliani
 mvp: true
 full_text: false
-item_count: 98
+item_count: 99
 footprint:
   systems:
     - id: development
       weight: 79
     - id: platform
-      weight: 75
+      weight: 76
     - id: integration
-      weight: 68
+      weight: 69
     - id: administration
-      weight: 49
+      weight: 51
     - id: copilot
       weight: 43
     - id: localization
@@ -157,7 +158,7 @@ footprint:
     - id: performance
       weight: 13
     - id: security
-      weight: 12
+      weight: 13
     - id: al development
       weight: 11
     - id: agents
@@ -201,12 +202,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-04-07"
-last_item: "2026-11-16"
+last_item: "2026-11-17"
 ---
 
 # Stefano Demiliani
 
-> Stefano Demiliani (MVP): 98 posts in the knowledge base, 2025-04-07 to 2026-11-16, mostly about development, platform, integration.
+> Stefano Demiliani (MVP): 99 posts in the knowledge base, 2025-04-07 to 2026-11-17, mostly about development, platform, integration.
 
 [https://demiliani.com](https://demiliani.com) · blog · tier community
 
@@ -215,9 +216,9 @@ last_item: "2026-11-16"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (79) | performance (13) | api Dynamics 365 Business Central connector (1) |
-| platform (75) | security (12) | codeunit Agent (1) |
-| integration (68) | al development (11) | codeunit AOAI Chat Completion Params (1) |
-| administration (49) | agents (7) | codeunit AOAI Chat Messages (1) |
+| platform (76) | security (13) | codeunit Agent (1) |
+| integration (69) | al development (11) | codeunit AOAI Chat Completion Params (1) |
+| administration (51) | agents (7) | codeunit AOAI Chat Messages (1) |
 | copilot (43) | on-premises (7) | codeunit AOAI Operation Response (1) |
 | localization (2) | ai agents (6) | codeunit AzureOpenAI (1) |
 |  | automation (6) | codeunit File Management (1) |
@@ -237,10 +238,11 @@ Items per quarter, oldest first:
 - 2026-Q1: ************* 13
 - 2026-Q2: ************* 13
 - 2026-Q3: ***************** 17
-- 2026-Q4: *********** 11
+- 2026-Q4: ************ 12
 
 ## Most recent
 
+- [YAMPI (Dynamics 365 Business Central Admin MCP Server) version 2.0.x: a ground-up refresh.](../posts/demiliani-com/17696.md) (2026-11-17)
 - [Fewer tools, better agents: curating the Dynamics 365 Business Central MCP catalog.](../posts/demiliani-com/17653.md) (2026-11-16)
 - [AI and prompt injections: the invoice that approves itself.](../posts/demiliani-com/17609.md) (2026-11-13)
 - [Dynamics 365 Business Central: service update to .NET 10 and upgrade window.](../posts/demiliani-com/17586.md) (2026-11-04)
@@ -260,6 +262,5 @@ Items per quarter, oldest first:
 - [Dynamics 365 Business Central on Italy North Datacenter: here we are!](../posts/demiliani-com/15895.md) (2026-09-10)
 - [Dynamics 365 Business Central: automatic .NET runtime acquisition on AL Language Extension.](../posts/demiliani-com/14222.md) (2026-09-07)
 - [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../posts/demiliani-com/14203.md) (2026-09-01)
-- [New EU rules for software: what you need to know.](../posts/demiliani-com/14182.md) (2026-08-26)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

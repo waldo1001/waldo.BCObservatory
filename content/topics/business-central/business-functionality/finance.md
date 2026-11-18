@@ -12,7 +12,7 @@ review:
   at: "2026-11-13T01:01:22.015Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,8 +76,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance
-    title: Ad-hoc analysis of finance data
-    date: "2025-02-13"
+    title: Ad-Hoc Analysis of Finance Data
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -272,8 +272,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports
-    title: Built-in cost accounting reports in Business Central
-    date: "2025-06-23"
+    title: Built-in Cost Accounting Reports in Business Central
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -318,6 +318,7 @@ links:
     - object/page/21
     - object/page/25
     - object/page/27
+    - object/page/29
     - object/page/37
     - object/page/39
     - object/page/40
@@ -438,7 +439,6 @@ links:
     - object/page/489
     - object/page/490
     - object/page/506
-    - object/page/516
     - object/page/519
     - object/page/521
     - object/page/522
@@ -665,7 +665,6 @@ links:
     - object/page/4811
     - object/page/5050
     - object/page/5052
-    - object/page/5119
     - object/page/5200
     - object/page/5260
     - object/page/5264
@@ -711,7 +710,6 @@ links:
     - object/page/9252
     - object/page/9253
     - object/page/9297
-    - object/page/9300
     - object/page/9301
     - object/page/9305
     - object/page/9307
@@ -897,7 +895,7 @@ children:
   - topic/business-central/business-functionality/finance/multi-site-and-international-organizatio
 coverage:
   learn: 258
-  code: 525
+  code: 523
   video: 6
   blog: 3
   guideline: 0
@@ -922,6 +920,7 @@ bc_forms:
   - 25
   - 27
   - 28
+  - 29
   - 30
   - 31
   - 32
@@ -1071,7 +1070,6 @@ bc_forms:
   - 503
   - 506
   - 512
-  - 516
   - 519
   - 521
   - 522
@@ -1317,7 +1315,6 @@ bc_forms:
   - 4811
   - 5050
   - 5052
-  - 5119
   - 5200
   - 5260
   - 5261
@@ -1375,7 +1372,6 @@ bc_forms:
   - 9252
   - 9253
   - 9297
-  - 9300
   - 9301
   - 9305
   - 9307
@@ -1554,8 +1550,9 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 18 "G/L Account List"](../../../objects/page/18.md) · on [Table 15 "G/L Account"](../../../objects/table/15.md) · via [Financial analytics](finance/financial-analytics.md)
 - [Page 20 "General Ledger Entries"](../../../objects/page/20.md) · on [Table 17 "G/L Entry"](../../../objects/table/17.md) · via [Financial analytics](finance/financial-analytics.md)
 - [Page 21 "Customer Card"](../../../objects/page/21.md) · on [Table 18 "Customer"](../../../objects/table/18.md) · via [Manage receivables](finance/manage-receivables.md)
-- [Page 25 "Customer Ledger Entries"](../../../objects/page/25.md) · on [Table 21 "Cust. Ledger Entry"](../../../objects/table/21.md) · via [Manage receivables](finance/manage-receivables.md)
+- [Page 25 "Customer Ledger Entries"](../../../objects/page/25.md) · on [Table 21 "Cust. Ledger Entry"](../../../objects/table/21.md) · via [Financial analytics](finance/financial-analytics.md)
 - [Page 27 "Vendor List"](../../../objects/page/27.md) · captioned "Vendors" · on [Table 23 "Vendor"](../../../objects/table/23.md) · via [Manage payables](finance/manage-payables.md)
+- [Page 29 "Vendor Ledger Entries"](../../../objects/page/29.md) · on [Table 25 "Vendor Ledger Entry"](../../../objects/table/25.md) · via [Financial analytics](finance/financial-analytics.md)
 - [Page 37 "Where-Used List"](../../../objects/page/37.md) · on [Table 90 "BOM Component"](../../../objects/table/90.md) · via [Financial analytics](finance/financial-analytics.md)
 - [Page 40 "Item Journal"](../../../objects/page/40.md) · captioned "Item Journals" · on [Table 83 "Item Journal Line"](../../../objects/table/83.md) · via [Manage inventory costs](finance/manage-inventory-costs.md)
 - [Page 42 "Sales Order"](../../../objects/page/42.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md) · via [Invoicing prepayments](finance/invoicing-prepayments.md)
@@ -1573,7 +1570,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 103 "Account Schedule Names"](../../../objects/page/103.md) · captioned "(Financial Report) Row Definitions" · on [Table 84 "Acc. Schedule Name"](../../../objects/table/84.md) · via [Financial analytics](finance/financial-analytics.md)
 - [Page 104 "Account Schedule"](../../../objects/page/104.md) · captioned "(Financial Report) Row Definition" · on [Table 85 "Acc. Schedule Line"](../../../objects/table/85.md) · via [Financial analytics](finance/financial-analytics.md)
 - [Page 113 "Budget"](../../../objects/page/113.md) · via [Work with the chart of accounts and general ledger (G/L)](finance/work-with-the-chart-of-accounts-and-gene.md)
-- [Page 116 "G/L Registers"](../../../objects/page/116.md) · on [Table 45 "G/L Register"](../../../objects/table/45.md) · via [Work with the chart of accounts and general ledger (G/L)](finance/work-with-the-chart-of-accounts-and-gene.md)
+- [Page 116 "G/L Registers"](../../../objects/page/116.md) · on [Table 45 "G/L Register"](../../../objects/table/45.md) · via [Financial analytics](finance/financial-analytics.md)
 - [Page 118 "General Ledger Setup"](../../../objects/page/118.md) · on [Table 98 "General Ledger Setup"](../../../objects/table/98.md) · via [Financial analytics](finance/financial-analytics.md)
 - [Page 120 "G/L Budget Entries"](../../../objects/page/120.md) · on [Table 96 "G/L Budget Entry"](../../../objects/table/96.md) · via [Financial analytics](finance/financial-analytics.md)
 - [Page 121 "G/L Budget Names"](../../../objects/page/121.md) · captioned "G/L Budgets" · on [Table 95 "G/L Budget Name"](../../../objects/table/95.md) · via [Financial analytics](finance/financial-analytics.md)
@@ -1672,7 +1669,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 489 "Column Layout"](../../../objects/page/489.md) · captioned "(Financial Report) Column Definitions" · on [Table 334 "Column Layout"](../../../objects/table/334.md) · via [Financial analytics](finance/financial-analytics.md)
 - [Page 490 "Acc. Schedule Overview"](../../../objects/page/490.md) · captioned "Financial Report" · on [Table 85 "Acc. Schedule Line"](../../../objects/table/85.md) · via [Financial analytics](finance/financial-analytics.md)
 - [Page 506 "Item Application Entries"](../../../objects/page/506.md) · on [Table 339 "Item Application Entry"](../../../objects/table/339.md) · via [Manage inventory costs](finance/manage-inventory-costs.md)
-- [Page 516 "Sales Lines"](../../../objects/page/516.md) · on [Table 37 "Sales Line"](../../../objects/table/37.md) · via [Financial analytics](finance/financial-analytics.md)
 - [Page 519 "Item Journal Lines"](../../../objects/page/519.md) · on [Table 83 "Item Journal Line"](../../../objects/table/83.md) · via [Manage payables](finance/manage-payables.md)
 - [Page 521 "Application Worksheet"](../../../objects/page/521.md) · on [Table 32 "Item Ledger Entry"](../../../objects/table/32.md) · via [Manage inventory costs](finance/manage-inventory-costs.md)
 - [Page 522 "View Applied Entries"](../../../objects/page/522.md) · on [Table 32 "Item Ledger Entry"](../../../objects/table/32.md) · via [Manage payables](finance/manage-payables.md)
@@ -1892,7 +1888,6 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 4811 "Intrastat Report List"](../../../objects/page/4811.md) · on [Table 4811 "Intrastat Report Header"](../../../objects/table/4811.md) · via [Manage receivables](finance/manage-receivables.md)
 - [Page 5050 "Contact Card"](../../../objects/page/5050.md) · on [Table 5050 "Contact"](../../../objects/table/5050.md) · via [Manage receivables](finance/manage-receivables.md)
 - [Page 5052 "Contact List"](../../../objects/page/5052.md) · captioned "Contacts" · on [Table 5050 "Contact"](../../../objects/table/5050.md) · via [Manage receivables](finance/manage-receivables.md)
-- [Page 5119 "Sales Cycles"](../../../objects/page/5119.md) · on [Table 5090 "Sales Cycle"](../../../objects/table/5090.md) · via [Financial analytics](finance/financial-analytics.md)
 - [Page 5260 "G/L Account Mapping"](../../../objects/page/5260.md) · on [Table 5260 "G/L Account Mapping Header"](../../../objects/table/5260.md) · via [Work with the chart of accounts and general ledger (G/L)](finance/work-with-the-chart-of-accounts-and-gene.md)
 - [Page 5264 "Audit File Export Setup"](../../../objects/page/5264.md) · on [Table 5264 "Audit File Export Setup"](../../../objects/table/5264.md) · via [Work with the chart of accounts and general ledger (G/L)](finance/work-with-the-chart-of-accounts-and-gene.md)
 - [Page 5266 "Audit File Export Documents"](../../../objects/page/5266.md) · on [Table 5265 "Audit File Export Header"](../../../objects/table/5265.md) · via [Work with the chart of accounts and general ledger (G/L)](finance/work-with-the-chart-of-accounts-and-gene.md)
@@ -1927,9 +1922,8 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9252 "MyDim Value Combinations"](../../../objects/page/9252.md) · captioned "Dimension Value Combinations" · via [Working with dimensions](finance/working-with-dimensions.md)
 - [Page 9253 "Dim. Value Combinations Matrix"](../../../objects/page/9253.md) · captioned "Dimension Value Combinations Matrix" · on [Table 349 "Dimension Value"](../../../objects/table/349.md) · via [Working with dimensions](finance/working-with-dimensions.md)
 - [Page 9297 "Inventory - G/L Recon Matrix"](../../../objects/page/9297.md) · captioned "Inventory - G/L Reconciliation" · on [Table 367 "Dimension Code Buffer"](../../../objects/table/367.md) · via [Manage inventory costs](finance/manage-inventory-costs.md)
-- [Page 9300 "Sales Quotes"](../../../objects/page/9300.md) · on [Table 36 "Sales Header"](../../../objects/table/36.md) · via [Financial analytics](finance/financial-analytics.md)
-- [Page 9301 "Sales Invoice List"](../../../objects/page/9301.md) · captioned "Sales Invoices" · on [Table 36 "Sales Header"](../../../objects/table/36.md) · via [Financial analytics](finance/financial-analytics.md)
-- [Page 9305 "Sales Order List"](../../../objects/page/9305.md) · captioned "Sales Orders" · on [Table 36 "Sales Header"](../../../objects/table/36.md) · via [Financial analytics](finance/financial-analytics.md)
+- [Page 9301 "Sales Invoice List"](../../../objects/page/9301.md) · captioned "Sales Invoices" · on [Table 36 "Sales Header"](../../../objects/table/36.md) · via [Set up and use E-Documents](finance/set-up-and-use-e-documents.md)
+- [Page 9305 "Sales Order List"](../../../objects/page/9305.md) · captioned "Sales Orders" · on [Table 36 "Sales Header"](../../../objects/table/36.md) · via [Invoicing prepayments](finance/invoicing-prepayments.md)
 - [Page 9307 "Purchase Order List"](../../../objects/page/9307.md) · captioned "Purchase Orders" · on [Table 38 "Purchase Header"](../../../objects/table/38.md) · via [Invoicing prepayments](finance/invoicing-prepayments.md)
 - [Page 9308 "Purchase Invoices"](../../../objects/page/9308.md) · on [Table 38 "Purchase Header"](../../../objects/table/38.md) · via [Manage payables](finance/manage-payables.md)
 - [Page 9370 "Analysis View List Purchase"](../../../objects/page/9370.md) · captioned "Purchase Analysis Views" · on [Table 7152 "Item Analysis View"](../../../objects/table/7152.md) · via [Financial analytics](finance/financial-analytics.md)

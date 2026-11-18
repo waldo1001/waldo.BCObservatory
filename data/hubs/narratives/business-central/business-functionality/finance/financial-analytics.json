@@ -1,35 +1,35 @@
 {
   "hub_id": "topic/business-central/business-functionality/finance/financial-analytics",
-  "input_hash": "07346aedcd64bfa880779f57868ed3245ade29e512750a1546023469e2d4911e",
-  "summary": "Financial analytics in Business Central covers the tools for analyzing finance data: the Power BI finance app, Financial Reporting, built-in analysis tools and reports, ad-hoc Data Analysis, and multi-company consolidation. It answers questions about choosing a tool, setting it up, and reading the results.",
-  "overview": "Financial analytics groups the ways Business Central lets you look at finance data. Options range from quick analysis on list pages, to configurable financial statements and KPIs, to an embedded Power BI app and a large set of standard reports.\n\nThe hub's own pages cover three things. The overview page introduces the features. One page explains ad-hoc analysis with the Data Analysis feature on general ledger, customer and vendor lists. Another explains how to consolidate data from several companies into one consolidated company.\n\nThe subtopics go deeper. Power BI finance app covers the app's setup, semantic model, KPIs and reports. Financial reporting covers designing and auditing reports. Built-in finance analysis tools covers budget comparison, cash flow and payment practices. Built-in finance reports is the reference for standard reports. Start with the overview page, then go to the subtopic that fits your need.",
+  "input_hash": "0696c71219b75ce318d373798e384cf704be89a371d1917480549553607a6625",
+  "summary": "Financial analytics in Business Central covers the Power BI finance app, Financial Reporting, built-in analysis tools and standard finance reports, plus ad-hoc data analysis and multi-company consolidation. It answers questions about analyzing, reporting on and consolidating finance data.",
+  "overview": "Financial analytics groups the ways Business Central turns finance data into insight. Two own pages cover ad-hoc analysis with the Data Analysis feature on list pages, and consolidation of data from several companies into one consolidated company. The overview page ties these to the other areas.\n\nThe subtopics split by approach. The Power BI finance app offers an embedded app with a semantic model, KPI reference and reports on aging, profitability, liquidity and budget comparison. Financial reporting covers building and exporting financial statements and KPIs. Built-in finance analysis tools cover budget versus actual, cash flow and the payment practices report. Built-in finance reports has one page per standard report.\n\nTo start, read the overview page to pick an approach. Use Data Analysis for quick questions, Financial reporting for statements, the Power BI app for dashboards, and the consolidation page when data sits in more than one company.",
   "key_points": [
-    "Data Analysis lets you analyze general ledger, customer receivables and vendor payables from list pages without running reports. It offers Pivot Mode, Analysis Filters and multiple analysis tabs.",
-    "Consolidation combines data from subsidiaries or business units into a consolidated company. It supports different charts of accounts, currencies, fiscal years and environments, and includes eliminations, G/L account mapping and file-based transfer.",
-    "The Power BI finance app (19 pages) covers setup, the semantic model, a KPI reference and reports on receivables and payables aging, profitability, liquidity, liabilities, budget comparison and ledger entry reconciliation.",
-    "Financial reporting (20 pages) covers row and column definitions, account categories, dimensions, Excel layouts, statistical accounts and KPI web services. It also covers telemetry and auditing.",
-    "Built-in analysis tools cover budget versus actual comparison, cash flow analysis on the Accountant Role Center, the payment practices report, and the general ledger and chart of accounts structure.",
-    "Built-in finance reports (83 pages) is a reference for standard reports on general ledger, trial balances, receivables and payables, VAT, consolidation, cost accounting, deferrals and dimensions. It notes which reports are obsolete or replaced by Excel versions."
+    "Data Analysis lets you examine General Ledger, Customer Ledger and Vendor Ledger Entries interactively from list pages, with Pivot Mode and analysis filters, without running a report.",
+    "Consolidation combines data from subsidiaries or business units into a consolidated company, and supports different charts of accounts, currencies, fiscal years and environments.",
+    "Consolidation features include eliminations, currency exchange rates, business units, G/L account mapping and file-based transfer.",
+    "The Power BI finance app section (19 pages) covers setup, the semantic model, a KPI reference and reports on receivables and payables aging, profitability, liquidity, liabilities, budget comparison and ledger entry reconciliation.",
+    "Financial reporting (20 pages) covers row and column definitions, account categories, dimensions, Excel layouts, statistical accounts, KPI web services, auditing and telemetry.",
+    "Built-in finance analysis tools cover budget versus actual, cash flow analysis on the Accountant Role Center, the payment practices report, and general ledger and chart of accounts structure.",
+    "Built-in finance reports (83 pages) describes each standard report, including its options, filters and typical users, across G/L, trial balance, VAT, consolidation, cost accounting, deferral, dimension and fixed asset reports."
   ],
   "members_used": 3,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-11-17T01:00:29.763Z",
+  "at": "2026-11-18T00:59:42.629Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014969
+    "cost_usd": 0.015001
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-17T01:01:06.605Z",
-    "verdict": "approve",
+    "at": "2026-11-18T01:00:08.963Z",
+    "verdict": "fix",
     "issues": [
-      "Minor: the Financial reporting key point omits troubleshooting, which the subtopic summary lists among the questions it answers. Optional to add.",
-      "Minor: 'reading the results' in the summary loosely paraphrases the hub's question scope; not contradicted by sources."
+      "The Power BI key point says there are 19 pages on reports, but 19 is the page count for the whole section, including setup, the semantic model and the KPI reference. Reworded so the count covers the whole section."
     ],
-    "input_hash": "07346aedcd64bfa880779f57868ed3245ade29e512750a1546023469e2d4911e",
-    "cost_usd": 0.044480000000000006
+    "input_hash": "0696c71219b75ce318d373798e384cf704be89a371d1917480549553607a6625",
+    "cost_usd": 0.053664
   }
 }

@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics/fixed-assets-reports",
-  "input_hash": "f5a6072438fde073acee992772df1543382c586dba5f63d837682eb7a1e739d4",
-  "summary": "Fixed assets reports in Business Central: standard and Excel reports for fixed asset book values, depreciation, acquisitions, ledger entries and registers, plus insurance and maintenance reports. Use it to find which report answers a question about asset value, activity, insurance coverage, maintenance costs or journal checks.",
-  "overview": "This section lists the reports available for fixed assets. An overview page describes the reports as tools for analyzing depreciation, acquisition, disposal, gains and losses, accumulated depreciation, book values and asset inventories for financial statements and management use. It groups them into core, insurance and maintenance reports, and also mentions ad-hoc analysis and analytics.\n\nThe core reports cover value and activity. Book Value 01 and 02, Fixed Asset Analysis, G/L Analysis and Projected Value deal with values and forecasts. Fixed Asset List, Acquisition List, Details, Document Nos., Register and the FA Posting Group - Net Change Report cover inventory, ledger entries and posting. Some are Excel reports (Analysis, Details, Projected Value). The rest are classic reports.\n\nInsurance reports show policies, coverage, over/under-insured status and uninsured assets. Maintenance reports show maintenance expenses, ledger entries and next service dates. Journal Test reports (Fixed Asset Journal and Insurance Journal) check lines before posting. To start, pick the report that matches the question, such as Fixed Asset List for setup data or Fixed Asset Register for posted transactions.",
+  "input_hash": "82e8b9c2bc9c49bc6bceac52cf93540ff338c093f34a733782d43d1bdc4411f5",
+  "summary": "Fixed assets reports in Business Central: reference pages for the standard reports on asset values, depreciation, acquisitions, G/L reconciliation, insurance, maintenance and journal checks. Answers which report to use, what it shows, and which filters or setup it needs.",
+  "overview": "This section documents each fixed asset report on its own page. The reports fall into a few groups: core asset and value reports (book value, analysis, details, projected value, acquisition list, list and setup), reconciliation and audit reports (G/L Analysis, FA Posting Group - Net Change, Register Entries, Document Nos.), insurance reports, maintenance reports, and test reports that check journal lines before posting.\n\nSome reports are Excel reports (Fixed Asset Analysis, Fixed Asset Details, Fixed Asset Projected Value) and the rest are standard reports. Most can be filtered by depreciation book, date range or dimensions. The insurance reports that show coverage depend on the Insurance Depr. Book setting.\n\nStart with the overview page \"Fixed assets reports\" for the list of report types and their purposes. Then open the page for the specific report you need, for example Book Value 01 or 02 for valuation, G/L Analysis for reconciliation, or the Test reports before posting a journal.",
   "key_points": [
-    "Book value reports: Book Value 01 shows acquisition cost, depreciation and book value with optional budget depreciation. Book Value 02 breaks book value down by changes in acquisition, depreciation and appreciation, including additions and disposals.",
-    "Excel reports: Fixed Asset Analysis, Fixed Asset Details and Fixed Asset Projected Value. They filter by depreciation book, dates and dimensions. Projected Value forecasts depreciation and book value for replacement planning.",
-    "Fixed Asset Acquisition List shows assets acquired in a date range, including assets that were created but not acquired.",
-    "Fixed Asset Register and Insurance Register show posted ledger entries by register number and can print when journals are posted.",
-    "Fixed Asset Document Nos. lists ledger entries by document type and number and warns about gaps in number series.",
-    "Fixed Asset G/L Analysis is calculated from fixed asset ledger entries and can be reconciled with general ledger entries. FA Posting Group - Net Change Report shows net change per posting group and in total.",
-    "Insurance reports: Analysis (premiums, coverage, over/under insured), Coverage Details, List, Tot. Value Insured and Uninsured FAs.",
-    "Maintenance reports: Analysis (expenses by category and type), Details (ledger entries, optional reversed entries) and Next Service (dates from the Fixed Asset Card)."
+    "Book value: Fixed Asset Book Value 01 shows acquisition cost, depreciation and book value for assets and groups; Book Value 02 breaks changes down by acquisition, depreciation, appreciation, disposal and reclassification. Both have a budget report option.",
+    "Excel reports: Fixed Asset Analysis, Fixed Asset Details and Fixed Asset Projected Value filter by depreciation book, dates and dimensions; Projected Value adds depreciation projections and running book value.",
+    "Reconciliation: Fixed Asset G/L Analysis and FA Posting Group - Net Change compare fixed asset entries with general ledger accounts and posting groups for a period.",
+    "Audit trail: Fixed Asset Register Entries and Insurance Register Entries list posted entries by register number and can print on Post and Print.",
+    "Fixed Asset - Acquisition List shows assets acquired in a date range and can include unacquired assets to find incomplete setup.",
+    "Insurance reports: Analysis (premiums, over/under insured), List, Coverage Details, Tot. Value Insured and Uninsured FAs; the last two require the Insurance Depr. Book setting and exclude inactive or disposed assets.",
+    "Maintenance reports: Analysis (expenses by category and code), Details (maintenance ledger entries) and Next Service (from the Next Service Date on the Fixed Asset Card).",
+    "Test reports for Fixed Asset and Insurance journals warn about missing document numbers, invalid dimensions, blocked assets and posting date problems before posting."
   ],
   "members_used": 23,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-17T01:00:16.119Z",
+  "at": "2026-11-18T00:59:14.141Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.025384999999999998
+    "cost_usd": 0.030112
   }
 }

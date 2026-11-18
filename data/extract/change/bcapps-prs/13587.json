@@ -7,13 +7,13 @@
     "copilot",
     "finance"
   ],
-  "summary": "Corporate card matching and liability management capabilities are added to expense management, enabling manual selection of corporate cards for expenses with new pages, queries, and automated posting workflows.",
+  "summary": "Updates corporate card manual selection in the Expense Agent app. Adds card selection, expense matching and card liability codeunits, a card lookup page, a card liability transfer page, a corporate cards API page and report card queries, and changes expense, expense report and posting objects, with new and updated tests.",
   "key_points": [
-    "New expense source enumeration and corporate card expense matching interface introduced",
-    "Added corporate card liability transfer page and selection management codeunit",
-    "New queries for posted and pending report card displays and transactions",
-    "Expense and expense report tables extended with corporate card reference fields",
-    "Updated posting orchestration and validation to handle corporate card expenses with enhanced test coverage"
+    "New Expense Source enum and corporate card expense match interface with an implementing codeunit",
+    "New card selection and card liability management codeunits, plus card lookup and card liability transfer pages",
+    "New Expense Corporate Cards API page and a new Expense Capability enum value",
+    "New queries for report and posted report card displays and posted card transactions",
+    "Expense, expense report line and posting codeunits modified, with new liability tests and expanded posting tests"
   ],
   "change_kind": "feature",
   "behavior_change": true,

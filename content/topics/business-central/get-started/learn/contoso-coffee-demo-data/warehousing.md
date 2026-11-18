@@ -2,20 +2,20 @@
 id: topic/business-central/get-started/learn/contoso-coffee-demo-data/warehousing
 type: topic
 title: Warehousing
-summary: Contoso Coffee warehousing demo data in Business Central, covering three warehouse locations that show basic, mixed and advanced configurations. It answers questions about how receiving, put-away, picking, moving and shipping work in each setup.
+summary: Contoso Coffee warehousing demo data and walkthroughs in Business Central. It covers three locations (SILVER, YELLOW, WHITE) and answers questions about basic, mixed and directed warehouse flows, including receiving, put-away, picking, shipping, cross-docking and breakbulk.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:26:17.872Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: b786e8a1c4c8db4fa66e3ced32b54b91f0df541e466dba93233eb541ac5ebf8b
+  input_hash: a796ada720420be16373bf679cd6593e2defdabfaff7834841ab3671e23b8fee
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick
@@ -82,38 +82,35 @@ narrative: generated
 
 # Warehousing
 
-> Contoso Coffee warehousing demo data in Business Central, covering three warehouse locations that show basic, mixed and advanced configurations. It answers questions about how receiving, put-away, picking, moving and shipping work in each setup.
+> Contoso Coffee warehousing demo data and walkthroughs in Business Central. It covers three locations (SILVER, YELLOW, WHITE) and answers questions about basic, mixed and directed warehouse flows, including receiving, put-away, picking, shipping, cross-docking and breakbulk.
 
-Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Warehousing · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Warehousing · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section uses the Contoso Coffee demo data to walk through warehouse processes in three configurations. An introduction page describes the three demo locations: one basic with bins, one advanced without bins, and one advanced with directed put-away and pick.
+This section uses the Contoso Coffee demo data to teach warehouse management at three levels of complexity. Each level is tied to one demo location with its own configuration, so you can compare how the same inbound and outbound processes work with more or less structure.
 
-Three walkthroughs follow. The SILVER location shows the basic configuration (Order-by-Order) with inventory put-away and inventory pick. The YELLOW location shows a mixed setup with basic inbound and advanced outbound flows. The WHITE location shows the advanced configuration with directed put-away and pick.
-
-Start with the introduction to see which location fits your scenario, then open the walkthrough for that location.
+The introduction page describes the three locations and the Contoso Demo Tool used for the data. Three walkthroughs follow: basic flow in SILVER, mixed flow in YELLOW, and directed flow in WHITE. Start with the introduction, then work through the walkthroughs in order from basic to directed, or go straight to the one that matches the setup you want to learn.
 
 ## Key points
 
-- The demo data provides three warehouse locations for different configuration scenarios.
-- SILVER: basic warehouse configuration (Order-by-Order) with bins, default bins, inventory put-away and inventory pick.
-- YELLOW: mixed configuration with basic inbound and advanced outbound flows.
-- YELLOW walkthrough covers an over-receipt code, warehouse receipts, warehouse shipments and warehouse picks.
-- WHITE: advanced configuration with directed put-away and pick.
-- WHITE walkthrough covers cross-dock, bin replenishment, break-bulk, warehouse receipts, put-aways and picks.
-- The introduction page covers demo data setup, location configuration and bin management.
+- SILVER is the basic warehousing location. Its walkthrough uses the Require Put-away and Require Pick settings with inventory put-aways and inventory picks, and shows bin contents and order-by-order configuration.
+- YELLOW is the mixed location. Inbound uses warehouse receipts, and outbound uses warehouse picks and shipments.
+- The YELLOW walkthrough also covers over-receipt codes and creating a pick from a shipment.
+- WHITE is the advanced, directed put-away and pick location. Its walkthrough covers warehouse receipts, warehouse put-away, warehouse picks and movements.
+- The WHITE walkthrough also covers cross-dock bins, bin replenishment and breakbulk.
+- The Contoso Demo Tool supplies the demo data for these locations.
+- The section has four pages and no subtopics: one introduction and three walkthroughs.
 
 ## Learn pages
 
 - [Contoso Coffee: Basic Warehouse Flow Walkthrough](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick): Learn to receive, put away, pick, and ship Contoso Coffee items with inventory documents in a basic warehouse configuration in Business Central.
-  - In the observatory: [Page 36957 "Locations"](../../../../../objects/page/36957.md), [Page 48 "Sales Orders"](../../../../../objects/page/48.md), [Page 56 "Purchase Orders"](../../../../../objects/page/56.md), [Page 7328 "Warehouse Employees"](../../../../../objects/page/7328.md), [Page 7390 "Posted Invt. Put-away"](../../../../../objects/page/7390.md), [Page 7392 "Posted Invt. Pick"](../../../../../objects/page/7392.md)
+  - In the observatory: [Page 36957 "Locations"](../../../../../objects/page/36957.md), [Page 7390 "Posted Invt. Put-away"](../../../../../objects/page/7390.md), [Page 7392 "Posted Invt. Pick"](../../../../../objects/page/7392.md), [Page 9315 "Inventory Put-aways"](../../../../../objects/page/9315.md), [Page 9316 "Inventory Picks"](../../../../../objects/page/9316.md)
 - [Contoso Coffee: Directed Warehouse Flow Walkthrough](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-directed-flow): Practice receiving, cross-docking, bin replenishment, picking, and shipping Contoso Coffee items with directed put-away and pick in Business Central.
-  - In the observatory: [Page 48 "Sales Orders"](../../../../../objects/page/48.md), [Page 56 "Purchase Orders"](../../../../../objects/page/56.md), [Page 5768 "Warehouse Receipt"](../../../../../objects/page/5768.md), [Page 5770 "Warehouse Put-away"](../../../../../objects/page/5770.md), [Page 7335 "Warehouse Shipment"](../../../../../objects/page/7335.md), [Page 7374 "Bin Contents"](../../../../../objects/page/7374.md)
+  - In the observatory: [Page 5770 "Warehouse Put-away"](../../../../../objects/page/5770.md), [Page 7332 "Warehouse Receipts"](../../../../../objects/page/7332.md), [Page 7335 "Warehouse Shipment"](../../../../../objects/page/7335.md), [Page 9313 "Warehouse Picks"](../../../../../objects/page/9313.md), [Page 9314 "Warehouse Movements"](../../../../../objects/page/9314.md)
 - [Contoso Coffee: Mixed Warehouse Flow Walkthrough](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship): Practice receiving Contoso Coffee items with warehouse receipts, then picking and shipping combined sales orders in a mixed warehouse configuration.
-  - In the observatory: [Page 36957 "Locations"](../../../../../objects/page/36957.md), [Page 48 "Sales Orders"](../../../../../objects/page/48.md), [Page 56 "Purchase Orders"](../../../../../objects/page/56.md), [Page 7328 "Warehouse Employees"](../../../../../objects/page/7328.md), [Page 7332 "Warehouse Receipts"](../../../../../objects/page/7332.md), [Page 9313 "Warehouse Picks"](../../../../../objects/page/9313.md)
+  - In the observatory: [Page 7332 "Warehouse Receipts"](../../../../../objects/page/7332.md), [Page 9313 "Warehouse Picks"](../../../../../objects/page/9313.md)
 - [Introduction to Contoso Coffee Warehousing](https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/warehousing/contoso-coffee-warehousing-intro): Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the warehousing capabilities in Business Central.
-  - In the observatory: [Page 5194 "Contoso Demo Tool"](../../../../../objects/page/5194.md)
 
 ## Business Central pages and reports
 

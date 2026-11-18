@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,16 +96,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/powerbi-back-links
-    title: Use Power BI Back Links to Explore Business Central Data
-    date: "2026-11-11"
+    url: https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis
+    title: Use Key Performance Indicators (KPIs) to Meet Business Goals
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis
-    title: Using key performance indicators (KPIs) to meet your business goals
-    date: "2024-09-10"
+    url: https://learn.microsoft.com/dynamics365/business-central/powerbi-back-links
+    title: Use Power BI Back Links to Explore Business Central Data
+    date: "2026-11-11"
     commit: null
     t: null
     quote: null
@@ -354,7 +354,7 @@ Start with the KPI page to decide what to measure. Then use the financial report
 
 - [Build financial reports using financial data and account categories](https://learn.microsoft.com/dynamics365/business-central/bi-how-work-account-schedule): Describes how to use financial reports to create various views and reports for analyzing financial performance data.
   - In the observatory: [Page 118 "General Ledger Setup"](../../../objects/page/118.md), [Page 8391 "Financial Report Categories"](../../../objects/page/8391.md)
-- [Using key performance indicators (KPIs) to meet your business goals](https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis): Provides an overview of what key performance indicators (KPIs) are and how you can use them to meet your business goals.
+- [Use Key Performance Indicators (KPIs) to Meet Business Goals](https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis): Provides an overview of what key performance indicators (KPIs) are and how you can use them to meet your business goals.
 
 ## Videos and posts
 

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/14081",
+  "input_hash": "6b147740253ea52b077bccb75d330a83d3c22209ab1c0e3e7d17bf75b4cbf086",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-18T00:57:41.315Z",
+  "issues": [
+    "Caption and tooltip changes match the before and after table in the description; text-only, no behavior change."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022705,
+    "changes_in_call": 6
+  }
+}

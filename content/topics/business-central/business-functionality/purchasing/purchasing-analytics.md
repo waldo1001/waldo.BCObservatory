@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/purchasing/purchasing-analytics
 type: topic
 title: Purchasing analytics
-summary: "Purchasing analytics in Business Central covers the ways to analyze purchase data: the Power BI Purchases app, built-in purchasing reports, ad-hoc Data Analysis on lists, financial reporting, and obsolete legacy reports. It answers questions about which tool fits a role, what each report shows, and what replaces removed reports."
+summary: "Purchasing analytics in Business Central: the Power BI Purchases app, built-in purchasing reports, ad-hoc analysis with Data Analysis on list pages, and legacy reports planned for removal. It answers which tool fits a purchasing insight need and what each report shows."
 tier: official
 language: en
 system: purchasing
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d77529429a0f2959b97686c94ecb98ac142b6c093944558b99a6e4980026c98b
+  input_hash: 987a2da95f4cb4aba05043b5c45754d99b43bc1c3ee0c2958155256b05c7fb06
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget
@@ -27,8 +27,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing
-    title: Ad-hoc analyses in purchasing
-    date: "2024-04-29"
+    title: Ad-Hoc Analysis of Purchasing Data
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -434,28 +434,26 @@ narrative: generated
 
 # Purchasing analytics
 
-> Purchasing analytics in Business Central covers the ways to analyze purchase data: the Power BI Purchases app, built-in purchasing reports, ad-hoc Data Analysis on lists, financial reporting, and obsolete legacy reports. It answers questions about which tool fits a role, what each report shows, and what replaces removed reports.
+> Purchasing analytics in Business Central: the Power BI Purchases app, built-in purchasing reports, ad-hoc analysis with Data Analysis on list pages, and legacy reports planned for removal. It answers which tool fits a purchasing insight need and what each report shows.
 
 Path: [Business functionality](../../business-functionality.md) > [Purchasing](../purchasing.md) > Purchasing analytics · tier official · system purchasing · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Purchasing analytics describes how to get insight from purchase quotes, orders, invoices and vendor ledger entries. The overview page "Analytics in purchasing" maps the options to user roles, from purchasing officers to executives: Power BI reports, ad-hoc analysis on lists, Open in Excel, built-in reports, and Financial Reporting with the Chart of Accounts.
+Purchasing analytics covers the ways to get insight from purchase quotes, orders and invoices. Options include Power BI reports, financial reporting, ad-hoc analysis on lists, Open in Excel, and built-in reports. The audience ranges from purchasing officers to executives.
 
-The pages fit together by depth of analysis. Ad-hoc analyses in purchasing explains how to use the Data Analysis feature to analyze orders, invoices and vendor ledger entries without running a report. The Power BI purchasing app subtopic covers spend, budget comparison, trends, forecasting, returns and vendor quality. The built-in reports subtopic covers standard reports such as vendor balances, aging and purchase orders.
+The section has two own pages and three subtopics. "Analytics in purchasing" gives the overview of the options by user role, so start there. "Ad-Hoc Analysis of Purchasing Data" explains Data Analysis on list pages such as Purchase Orders, Purchase Lines and Vendor Ledger Entries. You can examine data interactively without running a report.
 
-Start with "Analytics in purchasing" to choose a tool. Then go to the Power BI app for dashboards, or to the built-in reports for printable or filterable output. Check the legacy reports subtopic if you rely on older reports, because they are planned for removal.
+The subtopics hold the detail. The Power BI purchasing app covers its reports, semantic model and KPI/measure reference. Built-in purchasing reports covers vendor balances, aging, purchase orders, catalogs and document layouts. The legacy reports subtopic lists obsolete reports and what replaces them. Check it before relying on an older report.
 
 ## Key points
 
-- Analytics in purchasing compares Power BI, financial reporting, ad-hoc analysis and built-in reports by user role.
-- Ad-hoc analysis uses the Data Analysis feature on purchase orders, invoices and vendor ledger entries, with Pivot Mode and Analysis Filters.
-- Ad-hoc analysis also covers a GRNI overview and payment analysis.
-- Open in Excel is offered as another way to analyze list data.
-- The Power BI Purchases app has reports, a semantic model and a KPI/measure reference (20 pages).
-- The Power BI app answers questions on spend by vendor, item, location and purchaser, budget comparison, trends, forecasting, returns and vendor quality.
-- Built-in reports (17 pages) cover vendor balances, aging, purchase orders, vendor purchases, item/vendor catalogs and e-document invoice previews.
-- Legacy reports are obsolete and planned for removal: Aged Accounts Payable, Payments on Hold, Vendor - Top 10 List and Vendor - List.
+- Start with 'Analytics in purchasing' to choose between Power BI, financial reporting, ad-hoc analysis, Open in Excel and built-in reports.
+- Data Analysis works from list pages such as Purchase Orders, Purchase Lines and Vendor Ledger Entries, with Analysis Mode and Pivot Mode (row groups, column labels).
+- Ad-hoc analysis includes a GRNI overview.
+- The Power BI Purchases app (20 pages) covers spend by vendor, item, location and purchaser, budget comparison, trends, forecasting, returns and vendor quality, plus the semantic model and KPI/measure reference.
+- Built-in reports (17 pages) cover vendor balances, aging, purchase orders, vendor purchases, item and vendor catalogs, and purchase document layouts.
+- Legacy reports planned for removal: Aged Accounts Payable, Payments on Hold, Vendor - Top 10 List and Vendor - List.
 
 ## Subtopics
 
@@ -465,8 +463,8 @@ Start with "Analytics in purchasing" to choose a tool. Then go to the Power BI a
 
 ## More Learn pages
 
-- [Ad-hoc analyses in purchasing](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing): Learn how to use the data analysis mode to analyze data in purchasing.
-  - In the observatory: [Page 146 "Posted Purchase Invoices"](../../../../objects/page/146.md), [Page 20 "General Ledger Entries"](../../../../objects/page/20.md), [Page 56 "Purchase Orders"](../../../../objects/page/56.md)
+- [Ad-Hoc Analysis of Purchasing Data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing): Analyze goods received but not invoiced, vendor balances, and payments on hold in Business Central with analysis mode on purchase and ledger entries.
+  - In the observatory: [Page 146 "Posted Purchase Invoices"](../../../../objects/page/146.md), [Page 20 "General Ledger Entries"](../../../../objects/page/20.md), [Page 56 "Purchase Orders"](../../../../objects/page/56.md), [Table 120 "Purch. Rcpt. Header"](../../../../objects/table/120.md), [Table 122 "Purch. Inv. Header"](../../../../objects/table/122.md), [Table 17 "G/L Entry"](../../../../objects/table/17.md)
 - [Analytics in purchasing](https://learn.microsoft.com/dynamics365/business-central/purchasing-analytics-overview): Learn how to use Business Central's analytics features to monitor purchasing KPIs, perform ad-hoc analysis, and create financial reports.
 
 ## Videos and posts

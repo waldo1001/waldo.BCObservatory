@@ -12,7 +12,7 @@ review:
   at: "2026-11-17T01:01:06.778Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,6 +78,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-how-register-new-items
     title: Create item cards for goods or services
     date: "2026-04-07"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-990003804
+    title: Demand Forecast (Obsolete) Report
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -202,8 +209,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-forecasting
-    title: Inventory Forecasting (Power BI report)
-    date: "2025-09-30"
+    title: Inventory Forecasting (Power BI Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -287,13 +294,6 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-overview
     title: Inventory Valuation Overview Power BI Report
-    date: "2026-11-12"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app
-    title: Inventory Valuation Power BI App Reports
     date: "2026-11-12"
     commit: null
     t: null
@@ -420,6 +420,7 @@ links:
     - object/report/7319
     - object/report/7320
     - object/report/99001048
+    - object/report/99003804
   features: []
   topics:
     - topic/business-central/business-functionality
@@ -467,7 +468,7 @@ children:
   - topic/business-central/business-functionality/inventory/inventory-analytics
 coverage:
   learn: 75
-  code: 100
+  code: 101
   video: 4
   blog: 12
   guideline: 0
@@ -574,7 +575,7 @@ bc_forms:
   - 99000896
   - 99000902
   - 99001048
-  - 990003804
+  - 99003804
 member_hash: 8bc58b8b36afd60ab4c4a84f3d0f340d97ee10239ed091942c13b357f090958b
 narrative: generated
 ---
@@ -781,7 +782,8 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Report 7319 "Warehouse Bin List"](../../../objects/report/7319.md) · via [Inventory analytics](inventory/inventory-analytics.md)
 - [Report 7320 "Whse. Adjustment Bin"](../../../objects/report/7320.md) · captioned "Warehouse Adjustment Bin" · via [Inventory analytics](inventory/inventory-analytics.md)
 - [Report 99001048 "Planning Availability"](../../../objects/report/99001048.md) · captioned "Planning Availability (Obsolete)" · via [Inventory analytics](inventory/inventory-analytics.md)
+- [Report 99003804 "Demand Forecast"](../../../objects/report/99003804.md) · captioned "Demand Forecast (Obsolete)" · via [Inventory analytics](inventory/inventory-analytics.md)
 
-Learn also names 3 objects with no object page: page/5390, page/5540, report/990003804.
+Learn also names 2 objects with no object page: page/5390, page/5540.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/13987",
+  "input_hash": "3bb7a0e75beef480fd6c2587164ada38a95235e4ed22b1f4c3305cb309d0849f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-18T00:57:41.315Z",
+  "issues": [
+    "Summary and key points match the description: a copy of the customer with the entered number is passed to the VIES check.",
+    "Fix covers 15 layers; tests were added in CZ, ES, NA and W1 only, which the page does not misstate."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022705,
+    "changes_in_call": 6
+  }
+}

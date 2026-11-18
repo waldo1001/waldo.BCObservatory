@@ -6,13 +6,13 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "Custom ship-to address fields are now correctly transferred to the XML delivery address in ZUGFeRD and XRechnung documents for German localization, and similar address handling is extended to PEPPOL invoices across W1 and NO localizations.",
+  "summary": "Backport to 29.x: a custom ship-to address on a document is now carried into the XML delivery address in ZUGFeRD exports for Germany, and the XRechnung export is also changed. PEPPOL30 sales validation, the W1 and NO PEPPOL30 invoice and credit memo XMLports, and related tests are modified too.",
   "key_points": [
-    "Ship-to address details are properly mapped to XML delivery address fields in ZUGFeRD export",
-    "XRechnung export updated to handle custom ship-to address transfer",
-    "PEPPOL30 sales validation and XML exports enhanced to include address handling in W1 and NO versions",
-    "Comprehensive test coverage added for ZUGFeRD, XRechnung and PEPPOL address mapping scenarios",
-    "Addresses bug where custom ship-to addresses were not appearing in generated e-documents"
+    "Fixes custom ship-to address not reaching the XML delivery address in ZUGFeRD",
+    "Export XRechnung Document codeunit also modified",
+    "PEPPOL30 Impl., PEPPOL30 sales validation, and the W1 and NO PEPPOL30 invoice and credit memo XMLports are changed",
+    "Tests added for ZUGFeRD, XRechnung, E-Document DE and PEPPOL30 management",
+    "Targets the releases/29.x branch"
   ],
   "change_kind": "fix",
   "behavior_change": true,

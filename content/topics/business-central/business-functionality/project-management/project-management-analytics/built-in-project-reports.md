@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/project-management/project-management-analytics/built-in-project-reports
 type: topic
 title: Built-in project reports
-summary: Built-in project reports in Business Central cover project quotes, budget vs actual analysis, billing, WIP reconciliation, item usage and resource reports. It helps answer which report shows a given project, item or resource view, and which filters and currency options it offers.
+summary: Built-in project reports in Business Central cover project quotes, budget versus actual analysis, billing, WIP reconciliation, item usage, and resource cost, capacity and usage. It answers which report to run for a given project or resource question and which filters and currency options each offers.
 tier: official
 language: en
 system: projects
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d6a88f4ac221b905ca2cf88da4c51ce3a87d496f312bbb4245866ba4acb79547
+  input_hash: 426b0056151b63e34eb643cc9ca996969fae78e52448330dfb25a39a396ed579
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1013
@@ -56,7 +56,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1005
     title: Project Journal - Test (report)
-    date: "2024-11-02"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -69,8 +69,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-1015
-    title: Project Register (report)
-    date: "2024-11-02"
+    title: Project Register Report for Posted Entries
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -239,24 +239,28 @@ narrative: generated
 
 # Built-in project reports
 
-> Built-in project reports in Business Central cover project quotes, budget vs actual analysis, billing, WIP reconciliation, item usage and resource reports. It helps answer which report shows a given project, item or resource view, and which filters and currency options it offers.
+> Built-in project reports in Business Central cover project quotes, budget versus actual analysis, billing, WIP reconciliation, item usage, and resource cost, capacity and usage. It answers which report to run for a given project or resource question and which filters and currency options each offers.
 
 Path: [Business functionality](../../../business-functionality.md) > [Project management](../../project-management.md) > [Project management analytics](../project-management-analytics.md) > Built-in project reports · tier official · system projects · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The section lists the standard reports for project and resource management. An overview page, Project Reports, introduces the tools for analyzing current and past project activity and points to the Report Explorer. The other pages each describe one report, with its filters and what it shows.
+This section lists the standard reports for project management analytics. The "Project Reports" page is the entry point: it describes the Report Explorer and the reporting tools for analyzing current and past project activity. The other pages each document one report, with its filters and what it shows.
+
+The reports fall into a few groups. Project reports: Job Quote and Job Task Quote (customer-facing quotes without budget lines), Project Planning Lines, Project Actual to Budget, Project Financial Analysis, Projects per Customer, Project Suggested Billing, Project Task Transaction Detail, Project WIP to G/L, Project Journal - Test, and Project Register. Item reports: Item Usage per Project and Project Usage per Item. Resource reports: Cost Breakdown, Capacity and Utilization, List, Register Entries, and Usage and Sales Statistics.
+
+Start with Project Reports to find the right report. Then open the page for that report to see its filters, such as planning date, posting date, project number or bill-to customer, and whether it can show local or foreign currency.
 
 ## Key points
 
-- Project Reports is the entry page. It describes the reporting tools and the Report Explorer.
-- Quotes: Job Quote covers a whole project. Job Task Quote covers a single project task. Both exclude budget lines and show billable planning lines.
-- Budget and financial analysis: Project Actual to Budget compares budget planning lines with posted usage. Project Financial Analysis offers up to eight configurable amount columns for budget, usage, billable and invoiced prices.
-- Billing: Project Suggested Billing and Projects per Customer group projects by customer. They show invoiced amounts, remaining billable amounts and invoicing percentages.
-- Detail and planning: Project Planning Lines, Project Task Transaction Detail and Project Register show planning lines, posted transactions and project registers. Project Register can print automatically when you post from project journal templates.
-- Project Journal - Test shows project journal lines, with optional dimensions information.
-- Project WIP to G/L compares work in process on selected projects with general ledger amounts. It groups by G/L account and project posting group.
-- Item reports: Item Usage per Project and Project Usage per Item summarize posted usage in both directions, with quantities, costs and line amounts by unit of measure.
+- Project Reports is the entry page, describing the Report Explorer and project analytics.
+- Job Quote and Job Task Quote produce customer quotes for a project or a single task and exclude budget-type lines.
+- Project Actual to Budget compares budget planning lines with posted usage, with planning and posting date filters and a local or foreign currency choice.
+- Project Financial Analysis compares budgeted, usage, billable and invoiced prices across up to eight customizable amount columns.
+- Project Suggested Billing and Projects per Customer group projects by customer and show invoiced versus remaining billable amounts, with completion and invoicing percentages in the latter.
+- Project WIP to G/L compares work in process on selected projects with general ledger amounts, grouped by G/L account and project posting group.
+- Item Usage per Project and Project Usage per Item summarize posted usage quantities, costs and line amounts from the item and project perspectives.
+- Resource reports cover cost breakdown of Usage entries, capacity versus usage, register entries, usage and sales statistics in local currency, and a basic resource list (report 1101).
 
 ## Learn pages
 
@@ -267,7 +271,7 @@ The section lists the standard reports for project and resource management. An o
 - [Project Financial Analysis (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1008): Compare project budget, usage, billable, and invoiced prices, costs, or profit with eight configurable amount columns and a currency choice for each.
 - [Project Journal - Test (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1005): Review the results of posting before you post to the projects ledger. Edit the journal lines if there are errors to correct.
 - [Project Planning Lines (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1006): Review project planning lines by task, with budget and billable totals, quantities, costs, discounts, and amounts in local or foreign currency.
-- [Project Register (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1015): Document a project register's contents for internal or external audits.
+- [Project Register Report for Posted Entries](https://learn.microsoft.com/dynamics365/business-central/reports/report-1015): Document a project register's contents for internal or external audits. Review posted project entries, quantities, costs, and line amounts.
 - [Project Reports](https://learn.microsoft.com/dynamics365/business-central/project-reports): See which project reports are available in the standard version of Business Central so that you can keep track of your business.
 - [Project Suggested Billing (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1011): Review billable and invoiced project costs and prices by customer, with suggested billing calculated as the remaining billable amounts for each task.
 - [Project Task Transaction Detail (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-1007): Review posted project usage and sales transactions by task, including quantities, costs, prices, discounts, and amounts in local or foreign currency.

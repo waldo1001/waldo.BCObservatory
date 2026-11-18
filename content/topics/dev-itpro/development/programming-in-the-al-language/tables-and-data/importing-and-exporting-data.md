@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -85,6 +85,7 @@ links:
     - post/yzhums-com/63762
     - post/yzhums-com/65326
     - post/yzhums-com/65426
+    - post/yzhums-com/66461
     - post/yzhums-com/68672
   guidelines: []
   changes:
@@ -105,7 +106,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 11
+  blog: 12
   guideline: 0
 bc_forms: []
 member_hash: 0701107680ab6374a75be6625747535fbf73f4ee24b8643401abc0d15b654ac8
@@ -165,6 +166,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central Blog Series: Import and Export data](../../../../../posts/yzhums-com/63762.md) (community post): "Configuration packages and XMLports provide standard approaches for bulk data import/export operations"
 - [Dynamics 365 Business Central: How to bulk import marketing text to items – Customization](../../../../../posts/yzhums-com/65326.md) (community post): "Custom AL code using XMLPORT with CSV format allows bulk import while handling large text values"
 - [Dynamics 365 Business Central: How to bulk import big/large text (length exceeds 250 and 2048) from external files via AL](../../../../../posts/yzhums-com/65426.md) (community post): "bulk import text longer than 250 or 2048 characters from external files"
+- [Dynamics 365 Business Central: How to quickly strip not supported chars in File Name via AL](../../../../../posts/yzhums-com/66461.md) (community post): "demonstrates using the StripNotsupportChrInFileName method from codeunit 419 to automatically clean file names before export"
 - [Dynamics 365 Business Central Blog Series: Handle CSV (comma-separated values) files](../../../../../posts/yzhums-com/68672.md) (community post): "importing and exporting table data as CSV"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

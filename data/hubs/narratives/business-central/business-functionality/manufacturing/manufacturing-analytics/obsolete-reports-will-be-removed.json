@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/manufacturing/manufacturing-analytics/obsolete-reports-will-be-removed",
-  "input_hash": "a88e12cd2f96cd33102c22b48faa0d5bbb9f71d07b963d48bacc5f9c26c52fc5",
-  "summary": "Obsolete manufacturing analytics reports in Business Central that will be removed. It covers cost reports (calculation, cost shares, BOM compare), and machine center and work center list and load reports. Use it to identify what each retiring report shows.",
-  "overview": "This section lists eleven manufacturing reports marked as obsolete and scheduled for removal. Each page describes one report: what it shows and which filters or fields it uses. There are no subtopics.\n\nThe reports fall into three groups. Cost reports: Detailed Calculation, Prod. Order - Calculation, Single-Level Cost Shares, Rolled-up Cost Shares and Item BOM Compare list. Capacity setup lists: Machine Center List and Work Center List. Capacity load reports: Machine Center Load, Machine Center Load/Bar, Work Center Load and Work Center Load/Bar.\n\nStart here if you rely on one of these reports and need to know what it covers, or if you are checking which reports to replace before they are removed. The summaries do not name replacements.",
+  "input_hash": "f8eec00e3011cec2f78a44c3be8e2cadbd330b0af4723e4532ef1043a23e0ecc",
+  "summary": "Obsolete manufacturing analytics reports in Business Central that are marked for removal. It covers cost reports (Detailed Calculation, cost shares, BOM compare, Prod. Order - Calculation) and capacity reports (machine and work center lists and load reports), and answers what each shows and what replaced it.",
+  "overview": "This section lists older manufacturing reports that Microsoft Learn flags as obsolete and due for removal. The pages fall into two groups: cost reports and capacity reports.\n\nThe cost group includes Detailed Calculation (99000756), Item BOM Compare List (99000758), Prod. Order - Calculation (99000767), Rolled-up Cost Shares and Single-Level Cost Shares. They break down material, capacity, subcontract and overhead costs for items, BOMs and production orders. The capacity group includes the Machine Center List and Work Center List reports, plus the Load and Load/Bar reports for machine centers and work centers. These show setup data, or the workload and overloads in a period.\n\nStart with the page for the report you are using and check whether it names a replacement. Several do: the load and load/bar reports point to Work/Machine Center Load, Item BOM Compare List to Compare Production Cost Shares, and Prod. Order - Calculation to Production Order Statistics. Plan to move to those reports.",
   "key_points": [
-    "Detailed Calculation shows a single-level cost breakdown for items: BOM components, routing operations (setup and run times, work center types) and scrap costs.",
-    "Item BOM Compare list compares components, costs and quantities between two production BOMs, including cost share and difference cost.",
-    "Single-Level Cost Shares breaks unit cost into material, capacity, subcontract and overhead, with the unit cost calculation date.",
-    "Rolled-up Cost Shares shows how BOM item costs accumulate to the parent item by BOM structure and cost type.",
-    "Prod. Order - Calculation lists production orders with expected operation costs, component costs and total manufacturing cost.",
-    "Machine Center List and Work Center List show setup data such as capacity, efficiency and work center assignment, with filtering. The work center list also shows unit cost, base calendar code and alternate work center.",
-    "Machine Center Load and Work Center Load show workload as the sum of planned and actual orders over a chosen period.",
-    "The Load/Bar reports for machine centers and work centers show overloaded ones according to production plans, with efficiency bars and configurable overload thresholds."
+    "Detailed Calculation (99000756) shows single-level cost for items: BOM details, routing operations, work center costs, setup and run times, and scrap.",
+    "Item BOM Compare List (99000758) compares two production BOMs by component, cost, quantity and cost difference; replaced by Compare Production Cost Shares.",
+    "Prod. Order - Calculation (99000767) lists expected operation and component costs; replaced by Production Order Statistics.",
+    "Rolled-up Cost Shares shows how material, capacity and overhead costs roll up through BOM levels.",
+    "Single-Level Cost Shares shows unit cost split into material, capacity, subcontract and overhead.",
+    "Machine Center Load, Machine Center Load/Bar, Work Center Load and Work Center Load/Bar are obsolete and replaced by Work/Machine Center Load.",
+    "The Load/Bar reports show overloaded centers with capacity, production order needs and efficiency bars, with a configurable overload threshold.",
+    "Machine Center List and Work Center List show setup data and can be filtered by number, name, capacity and efficiency; Work Center List also filters by group code and unit cost."
   ],
   "members_used": 11,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:06.660Z",
+  "at": "2026-11-18T00:59:19.840Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.015407
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:19:42.379Z",
-    "verdict": "approve",
-    "issues": [
-      "Overview says the reports are 'scheduled for removal'; the source only says they 'will be removed', and no schedule or date is given. This is minor, but 'marked for removal' would be more exact.",
-      "The overview's last sentence ('The summaries do not name replacements') refers to the source summaries, not to the Learn pages. It is accurate as a caveat, but it reads like a note from the writer rather than content for an agent.",
-      "Key point 6 groups 'work center assignment' with both list reports, but only the Machine Center List has that field. The wording 'such as' keeps it acceptable."
-    ],
-    "input_hash": "a88e12cd2f96cd33102c22b48faa0d5bbb9f71d07b963d48bacc5f9c26c52fc5",
-    "cost_usd": 0.040131200000000006
+    "cost_usd": 0.017425000000000003
   }
 }

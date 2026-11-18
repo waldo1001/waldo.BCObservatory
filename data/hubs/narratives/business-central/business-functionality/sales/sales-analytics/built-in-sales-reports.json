@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/sales/sales-analytics/built-in-sales-reports",
-  "input_hash": "113b19ba90df5483df329ad6124c5feb475888b496ccf68cb905c12006e6981c",
-  "summary": "Built-in sales reports in Business Central: receivables aging, customer balances and rankings, order and inventory reports, salesperson reports, and printable sales documents (quotes, order confirmations, invoices, credit memos, shipments). It answers what each report shows, which filters and options it has, and which layouts it uses.",
-  "overview": "This section documents the standard reports that ship with Business Central for sales. It starts with a Sales report overview page. That page explains how to reach sales reports through Report Explorer and links to ad-hoc analysis, the Power BI sales app and sales analytics.\n\nThe other pages fall into a few groups. Analysis reports cover receivables and customers: Aged Accounts Receivable (Excel), Customer - Balance to Date, Trial Balance, Order Detail, Order Summary and Top List. Customer/Item Sales Overview, Day Book Customer Ledger Entry, and the two salesperson reports (Commission and Sales Statistics) also belong here. Inventory-oriented reports cover order details, the picking list and sales back orders.\n\nThe third group is customer-facing documents. These include the standard quote, order confirmation, draft invoice, invoice, pro forma invoice, credit memo, shipment and return receipt reports. There are also extended variants: contract (subscription billing), QR code (payment and e-document) and sustainability (CO2e) versions. Start with the overview page, then open the page for the specific report to check its filters, options and layouts.",
+  "input_hash": "900b25e5975c4e9aa561de1fdcd5d7a904eafcce115878c1dab31c34362182fc",
+  "summary": "Built-in sales reports in Business Central: analysis reports (receivables aging, customer balances, orders, top customers, salesperson commission) and printable sales documents (quotes, order confirmations, invoices, credit memos, shipments, return receipts). Answers questions about what each report shows, its filters and options, and its layouts.",
+  "overview": "This section lists the standard sales reports that ship with Business Central. It starts with a Sales report overview page, which explains how to reach sales reports through Report Explorer and links to ad-hoc analysis, the Power BI sales app, and sales analytics.\n\nThe other pages fall into a few groups. Analysis reports cover receivables and customers (Aged Accounts Receivable Excel report, Customer - Balance to Date, Trial Balance, Order Detail, Order Summary, Top List, Customer/Item Sales, Day Book Customer Ledger Entry) and salespeople (Commission, Sales Statistics). Inventory-related reports cover order details, picking lists and back orders. Document reports print customer-facing documents: Standard Sales quote, order confirmation, draft invoice, invoice, pro forma invoice, credit memo, shipment and return receipt. Variants add subscription contract billing, QR codes, or sustainability (CO2e) data.\n\nStart with the overview page, then open the page for the report you need. Document report pages mostly describe filters (document number, customer number, printed tracking), optional archiving or interaction logging, and RDLC or Word layouts.",
   "key_points": [
     "Sales report overview explains access through Report Explorer and links to ad-hoc analysis, the Power BI sales app and sales analytics.",
-    "Aged Accounts Receivable (Excel) has four worksheets. It buckets customer ledger entries by due date and global dimensions, with Aged as of and Period length parameters and LCY and FCY analysis.",
-    "Customer - Balance to Date shows open entries up to an ending date. Customer - Trial Balance shows beginning balance, debits, credits and ending balance by customer posting group.",
-    "Customer - Top List (Excel) ranks customers by sales amount or Balance (LCY), with Print and Analysis worksheets.",
-    "Order reports: Customer - Order Detail and Inventory Order Details track back orders and shipment dates. Customer - Order Summary groups outstanding quantities into three 30-day periods. Inventory Picking List and Inventory Sales Back Orders support fulfillment.",
-    "Salesperson - Commission and Salesperson - Sales Statistics cover commission (sales-based or profit-based) and sales, profit, discount and payment figures for a period.",
-    "Standard document reports (quote, order confirmation, draft invoice, invoice, pro forma invoice, credit memo, shipment, return receipt) offer filters, optional archiving or interaction logging, and zero-quantity line hiding. Several come in RDLC and Word layouts.",
-    "Extended variants: Contract reports add subscription billing and service commitments. Posted Sales Invoice and Crd Memo with QR add QR codes in Word layouts. Sust. reports add CO2e per unit, a total CO2e figure and a disclaimer."
+    "Aged Accounts Receivable (Excel) buckets customer ledger entries by due date using Aged as of and Period length parameters, with four worksheets for LCY and FCY analysis.",
+    "Customer reports include Balance to Date (open entries at an ending date), Trial Balance (by posting group, with beginning balance, debits, credits, ending balance), Order Detail, Order Summary (three 30-day periods) and Top List (Excel, ranked by sales or balance LCY).",
+    "Salesperson - Commission and Salesperson - Sales Statistics cover commission (sales or profit based) and sales, profit, discount and payment totals for a period.",
+    "Inventory reports cover Order Details, Picking List (quantity to ship with location and bin codes) and Sales Back Orders (overdue shipments by item).",
+    "Standard document reports (quote, order confirmation, draft invoice, invoice, credit memo, shipment, return receipt, pro forma invoice) offer filters and options such as archiving, interaction logging, zero-quantity line hiding and assembly components.",
+    "Contract variants of the quote, order confirmation and invoice reports add subscription billing and service commitment sections grouped by billing period.",
+    "Posted Sales Invoice with QR and Credit Memo with QR add QR codes in Word layouts; Sust. invoice and quote reports add CO2e per unit, total CO2e and a disclaimer per Sustainability Setup."
   ],
   "members_used": 29,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-17T01:00:03.335Z",
+  "at": "2026-11-18T00:59:22.255Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.035531999999999994
+    "cost_usd": 0.031798999999999994
   }
 }

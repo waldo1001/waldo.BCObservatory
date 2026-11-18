@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:24.317Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -142,6 +142,8 @@ links:
     - video/Ry9QvV6D7lg
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/14006
 learn_toc_path:
   - Administration
   - Migrate to Business Central online
@@ -221,10 +223,11 @@ Replicate data explains how to run and manage replication from the Cloud Migrati
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#14006 GP - Better item transaction duplicate handling](../../../../changes/bcapps/14006.md) (code change): "GP migration now correctly handles duplicate inventory transactions when migrating multiple lot number receipt lines"
 - [GP Assessment Tool - Optimize Your Migration to Dynamics 365 Business Central (2024)](../../../../videos/2430rfEywuI.md) (video): "migration planning; cloud migration; gp to business central; assessment report"
 - [Dynamics GP Cloud Migration - Moving to Business Central](../../../../videos/Ry9QvV6D7lg.md) (video): "Dynamics GP Cloud Migration - Moving to Business Central"
 

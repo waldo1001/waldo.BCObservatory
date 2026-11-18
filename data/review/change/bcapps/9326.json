@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9326",
+  "input_hash": "d04715bc32a2da8ae1a38edeaa35afa16beeed00fd1b0ac34fa4172aae3229c6",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-18T00:57:47.545Z",
+  "issues": [
+    "The description supports all five obsoletions: the fields on FA Posting Group, FA Ledger Entry and Source Code Setup, the legacy report and the legacy posting buffer table, all Pending in 30.0 and removed in 33.0.",
+    "Keeping change_kind refactor and behavior_change false is defensible because the new behaviour is behind a feature key and the legacy schema stays until CLEANSCHEMA33."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036297,
+    "changes_in_call": 6
+  }
+}

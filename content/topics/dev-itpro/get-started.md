@@ -6,12 +6,12 @@ summary: The Get started section of Business Central documentation is an entry p
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-18T01:00:06.732Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -383,7 +383,7 @@ narrative: generated
 
 > The Get started section of Business Central documentation is an entry point for learning the product, developing apps, selling to customers, and finding answers and support. It helps an agent route questions on orientation, publishing and marketplace, partner sales, FAQs and help.
 
-Path: Get started · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: Get started · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

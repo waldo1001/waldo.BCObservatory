@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -143,6 +143,9 @@ links:
     - topic/business-central/business-functionality/finance/manage-payables
   localizations: []
   videos:
+    - video/axQegcPweNY
+    - video/CCIGX86ljYQ
+    - video/CoQH7Z-leVE
     - video/fpc_XlVEnWw
     - video/z4Ri5SAqUcc
   posts:
@@ -175,7 +178,7 @@ children: []
 coverage:
   learn: 9
   code: 45
-  video: 2
+  video: 5
   blog: 1
   guideline: 0
 bc_forms:
@@ -303,6 +306,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9578 [E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)](../../../../../changes/bcapps/9578.md) (code change): "Remittance Advice E-Document type with data assembly, validation, and PEPPOL 3.0 export"
 - [#9984 [Main] Error with unposted prepayment amounts on Order](../../../../../changes/bcapps/9984.md) (code change): "Error with unposted prepayment amounts on Order"
 - [Business Central 2026 release wave 1 (BC28.1): Create new Purchase Invoice from PDF (Out-of-the-Box)](../../../../../posts/yzhums-com/72842.md) (community post): "Purchase invoices can now be created manually from PDF files via a new"
+- [What's New: Draft Page for Electronic Invoices (2025 release wave 2)](../../../../../videos/axQegcPweNY.md) (video): "electronic invoices; purchase invoicing; document processing; item references"
+- [What's New: Document Preview in E-Documents (2025 release wave 1)](../../../../../videos/CCIGX86ljYQ.md) (video): "electronic invoicing; document preview; vendor documents; purchase invoice"
+- [E-invoice Matching with Copilot in Dynamics 365 Business Central (2024)](../../../../../videos/CoQH7Z-leVE.md) (video): "e-invoicing; invoice matching; copilot; purchase order"
 - [Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central](../../../../../videos/fpc_XlVEnWw.md) (video): "Payment journals; Suggest vendor payments wizard; Vendor priority functionality"
 - [Comparing the Pay Vendor Process in Dynamics GP with Dynamics 365 Business Central (2024)](../../../../../videos/z4Ri5SAqUcc.md) (video): "Payment Journals; Suggest Vendor Payments; Vendor Priority"
 

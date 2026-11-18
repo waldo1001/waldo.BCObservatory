@@ -1,25 +1,24 @@
 {
   "week": "2026-W47",
-  "input_hash": "96e2ea1de1a83d125a2ec0dc2af884949c83e205e7959bef7ee04845d960ea00",
-  "text": "The one breaking change is #14002 in External File Storage, which now rejects any path with a whole segment of \".\" or \"..\" for all operations and connectors, so DeleteDirectory('A/B/..') no longer acts on folder A. Callers passing relative segments now get an error; dots inside names stay valid. #14059 moves the No. Series Copilot to the GPT-5.6 Ceres managed deployment, replacing GPT-4.1, for content provenance compliance. #14007 discontinues Create Product Information with Copilot: install and upgrade code unregister its capability, the Item Substitution Entry page shows a notification pointing to modern search, other objects are marked obsolete pending in 30.0, and the table extension fields move to Removed in 33.0. #13558 makes the Microsoft Fabric Mirroring app export its two log tables automatically, with install and upgrade codeunits changed for new and existing installations. #13868 corrects the sign on the Czech VAT Statement report with the Opposite Sign option. #13807 shows Total Number of Supplies in the German VAT Report as a whole number. #13717 stops one vendor's missing email from clearing another vendor's Document No. in electronic payments export. #13243 fixes GST and import duty entries for partially received purchase orders from Import and SEZ vendors. #14118 is a refactor of the Indexes List Part page with no behaviour change.",
-  "changes": 9,
+  "input_hash": "1d4efc2787972baddb996bd428e0d805ee655c2aed1fdd3b79c4648cf4703443",
+  "text": "The one breaking change this week is #14002: External File Storage now rejects any path with a whole segment of \".\" or \"..\", for all operations and connectors, so callers passing relative segments get an error. Other behaviour changes follow. #14203 makes Business Central online always use commercial Dataverse endpoints, while on-premises still respects the selected cloud. #14059 moves No. Series Copilot to the GPT-5.6 Ceres deployment. #14007 discontinues Create Product Information with Copilot, with objects obsolete pending in 30.0 and field removal in 33.0. #13558 makes the Fabric Mirroring app export its two log tables. #13587 updates corporate card manual selection in the Expense Agent. Fixes in documents and tax: #14078 corrects TaxPointDate placement in the PEPPOL30 credit memo, #14018 carries custom ship-to addresses into ZUGFeRD delivery addresses, #13987 fixes VAT number validation on sales orders, #13868 fixes Czech VAT Statement signs, #13807 fixes the German VAT Report field type, and #13243 fixes GST entries for partly received import purchase orders. Smaller fixes: #14122, #14006, #13717 and #13601. Non-behavioural work: #14143, #14081, #13965, #14118, and #9326, which moves Finland's Depreciation Differences into a first-party extension.",
+  "changes": 21,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.017938,
-  "at": "2026-11-17T00:16:35.786Z",
+  "cost_usd": 0.029776,
+  "at": "2026-11-18T00:16:36.082Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-17T00:59:15.227Z",
-    "verdict": "fix",
+    "at": "2026-11-18T00:58:04.646Z",
+    "verdict": "approve",
     "issues": [
-      "Every claim matches the week's pull requests: all 9 numbers are correct, and the only breaking change is #14002, which is the one flagged as breaking.",
-      "The paragraph is about 230 words, which is over the 220-word limit. I shortened it by tightening the #14002 sentences and removing the two linking sentences ('Other behaviour changes concern Copilot and Fabric.' and 'Localization and finance fixes follow.'). The facts are unchanged."
+      "#14122, #14006, #13717 and #13601 are listed only by number under 'Smaller fixes', so readers can't tell what changed. It would help to name them briefly (subcontracting transfer lines refresh, GP item transaction duplicates in migration, electronic payments export clearing another vendor's Document No., Customer Statistics FactBox).",
+      "#14018 is a backport to 29.x and also changes the XRechnung and PEPPOL30 exports. The paragraph mentions only ZUGFeRD, which isn't wrong but is incomplete.",
+      "#13243 applies to Import and SEZ vendors. 'Import purchase orders' is a slight simplification."
     ],
-    "input_hash": "96e2ea1de1a83d125a2ec0dc2af884949c83e205e7959bef7ee04845d960ea00",
-    "cost_usd": 0.090284,
-    "applied": [
-      "text"
-    ],
+    "input_hash": "1d4efc2787972baddb996bd428e0d805ee655c2aed1fdd3b79c4648cf4703443",
+    "cost_usd": 0.078636,
+    "applied": [],
     "rejected_edits": []
   }
 }

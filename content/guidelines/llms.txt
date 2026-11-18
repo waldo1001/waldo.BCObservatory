@@ -3,7 +3,7 @@
 > Microsoft's BCQuality knowledge base for AL (microsoft/BCQuality, MIT): each rule and review skill as a page with its own text,
 > its good and bad examples, the objects and Learn pages it names and the pull requests that changed it. Frontmatter: schemas/frontmatter.guideline.json.
 
-465 rules and review skills, by domain.
+466 rules and review skills, by domain.
 
 ## performance
 
@@ -288,7 +288,7 @@
 - [Do not bypass critical operations with IsHandled](microsoft/knowledge/events/do-not-bypass-critical-operations-with-ishandled.md): The IsHandled override pattern lets a subscriber skip the guarded code entirely. (microsoft)
 - [Do not change shipped event attribute flags](microsoft/knowledge/events/do-not-change-shipped-event-attribute-flags.md): IncludeSender and, on Integration events, GlobalVarAccess have been event-contract flags since runtime 1.0. (microsoft)
 - [Do not publish events inside loops](microsoft/knowledge/events/do-not-publish-events-inside-loops.md): Raising an event on every iteration of a loop multiplies the cost of every subscriber by the number of records. (microsoft)
-- [Do not raise integration events inside a TryFunction](microsoft/knowledge/events/avoid-raising-events-inside-try-functions.md): A TryFunction catches all errors — including errors thrown by event subscribers. (microsoft)
+- [Do not raise integration events inside a TryFunction whose result the caller consumes](microsoft/knowledge/events/avoid-raising-events-inside-try-functions.md): A TryFunction whose caller consumes its Boolean result catches all errors raised during its execution — including errors thrown by event subscribers. (microsoft)
 - [Event parameter additions depend on publisher access, not position](microsoft/knowledge/events/add-new-event-parameters-at-the-end.md): Event subscribers bind publisher parameters by name and can omit parameters they do not use. (microsoft)
 - [Expose process context through a manually bound flag, not a single-instance boolean](microsoft/knowledge/events/expose-process-context-via-manually-bound-flag.md): When an extension drives a process over shared code — a base application report, a posting routine — other extensions hooked into that code cannot tell whether a run belongs to that process: AL keeps no ambient "current process", so the driving app has to publish the context itself. (microsoft)
 - [Isolated events are isolated only when no write transaction is open](microsoft/knowledge/events/isolated-events-are-isolated-only-outside-a-write-transaction.md): Setting Isolated = true on a BusinessEvent, IntegrationEvent, or InternalEvent (runtime 9.0 / BC20 and later) runs each subscriber in its own transaction: a failing subscriber is rolled back and the next subscriber, then the caller, continue. (microsoft)
@@ -394,6 +394,21 @@
 - [Verify webhook eligibility and complete every validationToken handshake](microsoft/knowledge/web-services/webhook-eligibility-and-validationtoken-renewal.md): Business Central can subscribe only to eligible API pages, not every endpoint that can be read through an API. (microsoft)
 - [Version changed API shapes with a new page object](microsoft/knowledge/web-services/version-apis-by-adding-not-mutating-published-versions.md): Once an API version is published, external clients depend on its exact shape — entity names, fields, keys, and behavior — as a stable contract. (microsoft)
 
+## error-handling
+
+- [A bare call to a \[TryFunction\] propagates its error; it is not a swallowed failure](microsoft/knowledge/error-handling/bare-tryfunction-call-propagates-errors.md): A bare call to a \[TryFunction\] procedure propagates errors like any ordinary method call. (microsoft)
+- [A declined `Confirm` in `OnValidate` must abort or revert, not skip a required side effect](microsoft/knowledge/error-handling/declined-confirm-must-abort-not-partially-apply.md): By the time a field's OnValidate body runs, the field already holds its new value. (microsoft)
+- [An unchecked Record.Get raises an error when the record is missing; it is not silently ignored](microsoft/knowledge/error-handling/unchecked-get-throws-when-record-not-found.md): Record.Get returns a Boolean, but its behavior when no record is found depends on whether the return value is consumed. (microsoft)
+- [Choose `TestField` For Conditional Checks And `FieldError` For Already-Failed Validation](microsoft/knowledge/error-handling/fielderror-vs-testfield.md): TestField and FieldError look interchangeable but behave differently, and choosing the wrong one produces either dead code or a check that never fires. (microsoft)
+- [Collect validation errors with ErrorBehavior::Collect and handle the collected list](microsoft/knowledge/error-handling/collect-validation-errors-with-errorbehavior.md): By default a procedure stops on the first Error, so a user fixing ten bad rows must rerun the operation ten times. (microsoft)
+- [Consume a TryFunction return value when the caller handles the failure](microsoft/knowledge/error-handling/ignored-tryfunction-return-disables-try-semantics.md): A \[TryFunction\] catches errors only when the caller uses its Boolean return value. (microsoft)
+- [Log writes that must capture failures must survive transaction rollback](microsoft/knowledge/error-handling/log-writes-must-survive-rollback.md): Inserting a log record inside the same transaction as the operation it logs looks correct until the operation errors: the transaction rolls back and takes the log entry with it. (microsoft)
+- [Match defensive vs. offensive error handling to the blast radius of being wrong](microsoft/knowledge/error-handling/defensive-vs-offensive-code-must-match-blast-radius.md): Whether code should guard gracefully (defensive) or fail loudly (offensive/fail-fast) is not a matter of habit or a blanket house style — it depends on what happens downstream if the guarded condition is silently defaulted or skipped. (microsoft)
+- [Page record triggers return true by default; a missing exit(true) does not block the operation](microsoft/knowledge/error-handling/page-boolean-triggers-default-to-true.md): The Boolean page record triggers OnInsertRecord, OnModifyRecord, OnDeleteRecord, and OnQueryClosePage return true by default. (microsoft)
+- [Prefer ErrorInfo with recommended actions over a plain Error for recoverable failures](microsoft/knowledge/error-handling/prefer-errorinfo-for-actionable-errors.md): A plain Error('text') ends the operation with a dead-end dialog: the user reads the message but the system offers no way forward. (microsoft)
+- [Rely On FieldError's Auto-Generated Context And Pass Only A Lowercase Predicate](microsoft/knowledge/error-handling/fielderror-default-message-logic.md): Rec.FieldError(FieldNo) does not just print the text you give it. (microsoft)
+- [Set ErrorInfo.ErrorType to Internal for defects you want in telemetry but not in the user's face](microsoft/knowledge/error-handling/errortype-internal-vs-client-for-diagnostics.md): ErrorInfo.ErrorType controls where an error's message is shown. (microsoft)
+
 ## reporting
 
 - [A layout added in a report extension is not used until it is selected](microsoft/knowledge/reporting/reportextension-layouts-are-not-selected-automatically.md): A reportextension can add layouts through its rendering section, but deploying the extension does not make any of them the report's layout. (microsoft)
@@ -408,20 +423,6 @@
 - [ReportExtension report triggers run after base report triggers](microsoft/knowledge/reporting/reportextension-report-triggers-run-after-base-triggers.md): OnPreReport and OnPostReport on a ReportExtension run after the corresponding triggers on the base report. (microsoft)
 - [SetTableView cannot broaden DataItemTableView](microsoft/knowledge/reporting/settableview-cannot-broaden-dataitemtableview.md): Report.SetTableView() applies the supplied record view by narrowing the view already defined by the report dataitem's DataItemTableView. (microsoft)
 - [Stop when RunRequestPage returns empty parameters](microsoft/knowledge/reporting/stop-when-runrequestpage-returns-empty-parameters.md): Report.RunRequestPage() returns an empty string when the user chooses Cancel. (microsoft)
-
-## error-handling
-
-- [A declined `Confirm` in `OnValidate` must abort or revert, not skip a required side effect](microsoft/knowledge/error-handling/declined-confirm-must-abort-not-partially-apply.md): By the time a field's OnValidate body runs, the field already holds its new value. (microsoft)
-- [An unchecked Record.Get raises an error when the record is missing; it is not silently ignored](microsoft/knowledge/error-handling/unchecked-get-throws-when-record-not-found.md): Record.Get returns a Boolean, but its behavior when no record is found depends on whether the return value is consumed. (microsoft)
-- [Choose `TestField` For Conditional Checks And `FieldError` For Already-Failed Validation](microsoft/knowledge/error-handling/fielderror-vs-testfield.md): TestField and FieldError look interchangeable but behave differently, and choosing the wrong one produces either dead code or a check that never fires. (microsoft)
-- [Collect validation errors with ErrorBehavior::Collect and handle the collected list](microsoft/knowledge/error-handling/collect-validation-errors-with-errorbehavior.md): By default a procedure stops on the first Error, so a user fixing ten bad rows must rerun the operation ten times. (microsoft)
-- [Consume a TryFunction return value to enable try semantics](microsoft/knowledge/error-handling/ignored-tryfunction-return-disables-try-semantics.md): A procedure marked \[TryFunction\] catches errors only when the caller uses its Boolean return value. (microsoft)
-- [Log writes that must capture failures must survive transaction rollback](microsoft/knowledge/error-handling/log-writes-must-survive-rollback.md): Inserting a log record inside the same transaction as the operation it logs looks correct until the operation errors: the transaction rolls back and takes the log entry with it. (microsoft)
-- [Match defensive vs. offensive error handling to the blast radius of being wrong](microsoft/knowledge/error-handling/defensive-vs-offensive-code-must-match-blast-radius.md): Whether code should guard gracefully (defensive) or fail loudly (offensive/fail-fast) is not a matter of habit or a blanket house style — it depends on what happens downstream if the guarded condition is silently defaulted or skipped. (microsoft)
-- [Page record triggers return true by default; a missing exit(true) does not block the operation](microsoft/knowledge/error-handling/page-boolean-triggers-default-to-true.md): The Boolean page record triggers OnInsertRecord, OnModifyRecord, OnDeleteRecord, and OnQueryClosePage return true by default. (microsoft)
-- [Prefer ErrorInfo with recommended actions over a plain Error for recoverable failures](microsoft/knowledge/error-handling/prefer-errorinfo-for-actionable-errors.md): A plain Error('text') ends the operation with a dead-end dialog: the user reads the message but the system offers no way forward. (microsoft)
-- [Rely On FieldError's Auto-Generated Context And Pass Only A Lowercase Predicate](microsoft/knowledge/error-handling/fielderror-default-message-logic.md): Rec.FieldError(FieldNo) does not just print the text you give it. (microsoft)
-- [Set ErrorInfo.ErrorType to Internal for defects you want in telemetry but not in the user's face](microsoft/knowledge/error-handling/errortype-internal-vs-client-for-diagnostics.md): ErrorInfo.ErrorType controls where an error's message is shown. (microsoft)
 
 ## appsource
 

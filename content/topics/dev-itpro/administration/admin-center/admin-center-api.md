@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bb0d1e64560b8effb8c0287e3daf60b34965af8a0a2835bf649ea71960b081bb
@@ -149,6 +149,7 @@ links:
   posts:
     - post/aardvarklabs-blog/3950
     - post/aardvarklabs-blog/3998
+    - post/demiliani-com/17696
   guidelines: []
 learn_toc_path:
   - Administration
@@ -161,7 +162,7 @@ coverage:
   learn: 15
   code: 0
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: bb0d1e64560b8effb8c0287e3daf60b34965af8a0a2835bf649ea71960b081bb
@@ -221,6 +222,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Mastering the Business Central Administration API: A Complete Guide for SaaS Admins](../../../../posts/aardvarklabs-blog/3950.md) (community post): "Business Central Administration API enables SaaS admins to automate environment management"
 - [Mastering Business Central API for App Management](../../../../posts/aardvarklabs-blog/3998.md) (community post): "automating extension management in Business Central using the Administration API, including deploying .app files"
+- [YAMPI (Dynamics 365 Business Central Admin MCP Server) version 2.0.x: a ground-up refresh.](../../../../posts/demiliani-com/17696.md) (community post): "PTE deployment moved from deprecated Automation API to Admin Center API v2.29 with batch folder deployment"
 - [Introducing: Tenant Discovery Endpoint (2025 release wave 1)](../../../../videos/669rJN75L2g.md) (video): "Tenant Discovery Endpoint; Manageable Tenants API; S2S App Authentication"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

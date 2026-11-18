@@ -2,11 +2,11 @@
   "inputs": {
     "commits": {
       "28": "45cd68de3ce0d94d0e25a2b7ee87b76d78dbffa7",
-      "29": "ae251bc67417b1b37b41aaf52480e6a5c8f9294e",
+      "29": "4f49a1eb5ebb7384620fe1654dd53536c3abca03",
       "30": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
     },
     "forms": 1734,
-    "forms_hash": "9d030d7e9c241a6bde539234bc178f847e22db6c6684d7d1c2f645171ee74f08"
+    "forms_hash": "26b779880e3a6e0da137240a809880fe14065f90e956ef2d1fdf9047189c3e3a"
   },
   "majors": [
     "28",
@@ -15,11 +15,11 @@
   ],
   "commits": {
     "28": "45cd68de3ce0d94d0e25a2b7ee87b76d78dbffa7",
-    "29": "ae251bc67417b1b37b41aaf52480e6a5c8f9294e",
+    "29": "4f49a1eb5ebb7384620fe1654dd53536c3abca03",
     "30": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
   },
   "docs": 1598,
-  "links": 5350,
+  "links": 5348,
   "by_doc": {
     "docs/learn-devitpro/dev-itpro/administration/apply-company-configuration-packages.md": [
       {
@@ -9623,8 +9623,8 @@
         "obsolete": null
       },
       {
-        "key": "page/516",
-        "name": "Sales Lines",
+        "key": "page/116",
+        "name": "G/L Registers",
         "versions": [
           "28",
           "29",
@@ -9636,8 +9636,8 @@
         "obsolete": null
       },
       {
-        "key": "page/9300",
-        "name": "Sales Quotes",
+        "key": "page/25",
+        "name": "Customer Ledger Entries",
         "versions": [
           "28",
           "29",
@@ -9649,40 +9649,16 @@
         "obsolete": null
       },
       {
-        "key": "page/5119",
-        "name": "Sales Cycles",
+        "key": "page/29",
+        "name": "Vendor Ledger Entries",
         "versions": [
           "28",
           "29",
           "30"
         ],
         "countries": [
-          "w1"
-        ],
-        "obsolete": null
-      },
-      {
-        "key": "page/9301",
-        "name": "Sales Invoice List",
-        "versions": [
-          "28",
-          "29",
-          "30"
-        ],
-        "countries": [
-          "w1"
-        ],
-        "obsolete": null
-      },
-      {
-        "key": "page/9305",
-        "name": "Sales Order List",
-        "versions": [
-          "28",
-          "29",
-          "30"
-        ],
-        "countries": [
+          "au",
+          "nz",
           "ru",
           "w1"
         ],
@@ -57655,11 +57631,17 @@
     ],
     "docs/learn-smb-docs/business-central/reports/report-990003804.md": [
       {
-        "key": "report/990003804",
-        "name": null,
-        "versions": [],
-        "countries": [],
-        "obsolete": null
+        "key": "report/99003804",
+        "name": "Demand Forecast",
+        "versions": [
+          "28",
+          "29",
+          "30"
+        ],
+        "countries": [
+          "w1"
+        ],
+        "obsolete": "Pending"
       }
     ],
     "docs/learn-smb-docs/business-central/reports/report-99000753.md": [
@@ -57915,11 +57897,17 @@
     ],
     "docs/learn-smb-docs/business-central/reports/report-99000785.md": [
       {
-        "key": "report/990000785",
-        "name": null,
-        "versions": [],
-        "countries": [],
-        "obsolete": null
+        "key": "report/99000785",
+        "name": "Work Center Load/Bar",
+        "versions": [
+          "28",
+          "29",
+          "30"
+        ],
+        "countries": [
+          "w1"
+        ],
+        "obsolete": "Pending"
       }
     ],
     "docs/learn-smb-docs/business-central/reports/report-99000786.md": [
@@ -71165,13 +71153,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-fa.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa",
-        "title": "Ad-hoc analysis of fixed assets data",
+        "title": "Ad-Hoc Analysis of Fixed Assets Data",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-finance.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance",
-        "title": "Ad-hoc analysis of finance data",
+        "title": "Ad-Hoc Analysis of Finance Data",
         "via": "ms.search.form"
       },
       {
@@ -71288,6 +71276,12 @@
       }
     ],
     "page/25": [
+      {
+        "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-finance.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance",
+        "title": "Ad-Hoc Analysis of Finance Data",
+        "via": "ms.search.form"
+      },
       {
         "id": "docs/learn-smb-docs/business-central/analysis-assist.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analysis-assist",
@@ -71433,9 +71427,15 @@
     ],
     "page/29": [
       {
+        "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-finance.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance",
+        "title": "Ad-Hoc Analysis of Finance Data",
+        "via": "ms.search.form"
+      },
+      {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-purchasing.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing",
-        "title": "Ad-hoc analyses in purchasing",
+        "title": "Ad-Hoc Analysis of Purchasing Data",
         "via": "ms.search.form"
       },
       {
@@ -72551,6 +72551,12 @@
     ],
     "page/116": [
       {
+        "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-finance.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance",
+        "title": "Ad-Hoc Analysis of Finance Data",
+        "via": "ms.search.form"
+      },
+      {
         "id": "docs/learn-smb-docs/business-central/finance-how-to-analyze-gl-entries.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-analyze-gl-entries",
         "title": "Analyze G/L entries",
@@ -72579,7 +72585,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-financial-reporting-report-selection.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-report-selection",
-        "title": "Report selection for finance reports in Business Central",
+        "title": "Report Selection for Finance Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -75793,12 +75799,6 @@
     ],
     "page/516": [
       {
-        "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-finance.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance",
-        "title": "Ad-hoc analysis of finance data",
-        "via": "ms.search.form"
-      },
-      {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-inventory.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-inventory",
         "title": "Ad-hoc analysis of inventory data",
@@ -75807,7 +75807,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-sales.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales",
-        "title": "Ad-hoc analysis of sales data",
+        "title": "Ad-Hoc Analysis of Sales Data in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -75829,7 +75829,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-purchasing.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing",
-        "title": "Ad-hoc analyses in purchasing",
+        "title": "Ad-Hoc Analysis of Purchasing Data",
         "via": "ms.search.form"
       },
       {
@@ -82221,12 +82221,6 @@
     ],
     "page/5119": [
       {
-        "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-finance.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance",
-        "title": "Ad-hoc analysis of finance data",
-        "via": "ms.search.form"
-      },
-      {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-inventory.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-inventory",
         "title": "Ad-hoc analysis of inventory data",
@@ -82235,7 +82229,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-sales.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales",
-        "title": "Ad-hoc analysis of sales data",
+        "title": "Ad-Hoc Analysis of Sales Data in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -83035,7 +83029,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-        "title": "Fixed assets analytics",
+        "title": "Fixed Assets Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -83073,7 +83067,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-        "title": "Fixed assets analytics",
+        "title": "Fixed Assets Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -83103,7 +83097,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-fa.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa",
-        "title": "Ad-hoc analysis of fixed assets data",
+        "title": "Ad-Hoc Analysis of Fixed Assets Data",
         "via": "ms.search.form"
       },
       {
@@ -83291,7 +83285,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-        "title": "Fixed assets analytics",
+        "title": "Fixed Assets Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -83305,7 +83299,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-        "title": "Fixed assets analytics",
+        "title": "Fixed Assets Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -83319,7 +83313,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-        "title": "Fixed assets analytics",
+        "title": "Fixed Assets Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -84425,7 +84419,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-sustainability.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sustainability",
-        "title": "Ad-hoc analysis of sustainability data",
+        "title": "Ad-Hoc Analysis of Sustainability Data",
         "via": "ms.search.form"
       },
       {
@@ -88509,12 +88503,6 @@
     ],
     "page/9300": [
       {
-        "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-finance.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance",
-        "title": "Ad-hoc analysis of finance data",
-        "via": "ms.search.form"
-      },
-      {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-inventory.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-inventory",
         "title": "Ad-hoc analysis of inventory data",
@@ -88523,7 +88511,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-sales.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales",
-        "title": "Ad-hoc analysis of sales data",
+        "title": "Ad-Hoc Analysis of Sales Data in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -88553,12 +88541,6 @@
     ],
     "page/9301": [
       {
-        "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-finance.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance",
-        "title": "Ad-hoc analysis of finance data",
-        "via": "ms.search.form"
-      },
-      {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-inventory.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-inventory",
         "title": "Ad-hoc analysis of inventory data",
@@ -88567,7 +88549,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-sales.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales",
-        "title": "Ad-hoc analysis of sales data",
+        "title": "Ad-Hoc Analysis of Sales Data in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -88675,12 +88657,6 @@
         "via": "ms.search.form"
       },
       {
-        "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-finance.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance",
-        "title": "Ad-hoc analysis of finance data",
-        "via": "ms.search.form"
-      },
-      {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-inventory.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-inventory",
         "title": "Ad-hoc analysis of inventory data",
@@ -88689,7 +88665,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-sales.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales",
-        "title": "Ad-hoc analysis of sales data",
+        "title": "Ad-Hoc Analysis of Sales Data in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -88757,7 +88733,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-purchasing.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing",
-        "title": "Ad-hoc analyses in purchasing",
+        "title": "Ad-Hoc Analysis of Purchasing Data",
         "via": "ms.search.form"
       },
       {
@@ -88795,7 +88771,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-purchasing.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing",
-        "title": "Ad-hoc analyses in purchasing",
+        "title": "Ad-Hoc Analysis of Purchasing Data",
         "via": "ms.search.form"
       },
       {
@@ -97619,7 +97595,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -97657,7 +97633,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -97695,7 +97671,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -97733,7 +97709,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -97771,7 +97747,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -97809,7 +97785,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -97847,7 +97823,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -97885,7 +97861,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -97923,7 +97899,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -97967,7 +97943,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98011,7 +97987,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98049,7 +98025,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98087,7 +98063,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98125,7 +98101,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98163,7 +98139,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98201,7 +98177,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98239,7 +98215,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98277,7 +98253,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98315,7 +98291,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98353,7 +98329,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98391,7 +98367,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98429,7 +98405,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98467,7 +98443,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98505,7 +98481,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98543,7 +98519,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98575,7 +98551,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98607,7 +98583,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98639,7 +98615,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98671,7 +98647,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98703,7 +98679,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98735,7 +98711,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98767,7 +98743,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98799,7 +98775,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98831,7 +98807,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98863,7 +98839,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98895,7 +98871,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98921,7 +98897,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98953,7 +98929,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -98985,7 +98961,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99017,7 +98993,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99049,7 +99025,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99081,7 +99057,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99113,7 +99089,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99145,7 +99121,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99177,7 +99153,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99209,7 +99185,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99241,7 +99217,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99273,7 +99249,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99305,13 +99281,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -99343,13 +99319,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -99381,13 +99357,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -99419,13 +99395,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -99457,13 +99433,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -99495,7 +99471,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99521,13 +99497,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -99575,7 +99551,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99607,7 +99583,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99639,7 +99615,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99671,7 +99647,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99703,7 +99679,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99735,7 +99711,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99767,7 +99743,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99799,7 +99775,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99831,7 +99807,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99863,7 +99839,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99895,7 +99871,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99927,7 +99903,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/analytics-about-kpis.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
-        "title": "Using key performance indicators (KPIs) to meet your business goals",
+        "title": "Use Key Performance Indicators (KPIs) to Meet Business Goals",
         "via": "ms.search.form"
       },
       {
@@ -99981,7 +99957,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -100291,7 +100267,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-forecasting.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-forecasting",
-        "title": "Inventory Forecasting (Power BI report)",
+        "title": "Inventory Forecasting (Power BI Report)",
         "via": "ms.search.form"
       }
     ],
@@ -103381,7 +103357,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-fa.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa",
-        "title": "Ad-hoc analysis of fixed assets data",
+        "title": "Ad-Hoc Analysis of Fixed Assets Data",
         "via": "ms.search.form"
       }
     ],
@@ -104295,7 +104271,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-financial-reporting-report-selection.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-report-selection",
-        "title": "Report selection for finance reports in Business Central",
+        "title": "Report Selection for Finance Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -104309,7 +104285,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-financial-reporting-report-selection.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-report-selection",
-        "title": "Report selection for finance reports in Business Central",
+        "title": "Report Selection for Finance Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -104323,7 +104299,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-financial-reporting-report-selection.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-report-selection",
-        "title": "Report selection for finance reports in Business Central",
+        "title": "Report Selection for Finance Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -104337,7 +104313,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-financial-reporting-report-selection.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-report-selection",
-        "title": "Report selection for finance reports in Business Central",
+        "title": "Report Selection for Finance Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -104553,7 +104529,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/payables-how-handling-payment-disputes.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-handling-payment-disputes",
-        "title": "Handle vendor payment disputes",
+        "title": "Handle Vendor Payment Disputes",
         "via": "ms.search.form"
       },
       {
@@ -104743,7 +104719,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-706.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-706",
-        "title": "Status (report)",
+        "title": "Status Report for Inventory Valuation",
         "via": "ms.search.form"
       }
     ],
@@ -105189,7 +105165,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -105209,7 +105185,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -105229,7 +105205,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -105249,7 +105225,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -105269,7 +105245,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -105289,7 +105265,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -105309,7 +105285,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -105329,7 +105305,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -105349,7 +105325,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -105369,13 +105345,13 @@
       {
         "id": "docs/learn-smb-docs/business-central/projects-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview",
-        "title": "Project analytics",
+        "title": "Project Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-1015.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-1015",
-        "title": "Project Register (report)",
+        "title": "Project Register Report for Posted Entries",
         "via": "ms.search.form"
       }
     ],
@@ -105481,7 +105457,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-cost-accounting-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports",
-        "title": "Built-in cost accounting reports in Business Central",
+        "title": "Built-in Cost Accounting Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -105501,7 +105477,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-cost-accounting-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports",
-        "title": "Built-in cost accounting reports in Business Central",
+        "title": "Built-in Cost Accounting Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -105521,7 +105497,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-cost-accounting-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports",
-        "title": "Built-in cost accounting reports in Business Central",
+        "title": "Built-in Cost Accounting Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -105541,7 +105517,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-cost-accounting-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports",
-        "title": "Built-in cost accounting reports in Business Central",
+        "title": "Built-in Cost Accounting Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -105561,7 +105537,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-cost-accounting-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports",
-        "title": "Built-in cost accounting reports in Business Central",
+        "title": "Built-in Cost Accounting Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -105581,7 +105557,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-cost-accounting-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports",
-        "title": "Built-in cost accounting reports in Business Central",
+        "title": "Built-in Cost Accounting Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -105601,7 +105577,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-cost-accounting-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports",
-        "title": "Built-in cost accounting reports in Business Central",
+        "title": "Built-in Cost Accounting Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -105621,7 +105597,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-cost-accounting-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports",
-        "title": "Built-in cost accounting reports in Business Central",
+        "title": "Built-in Cost Accounting Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -105773,7 +105749,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-cost-accounting-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports",
-        "title": "Built-in cost accounting reports in Business Central",
+        "title": "Built-in Cost Accounting Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -105799,7 +105775,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-cost-accounting-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports",
-        "title": "Built-in cost accounting reports in Business Central",
+        "title": "Built-in Cost Accounting Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -105825,7 +105801,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-cost-accounting-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports",
-        "title": "Built-in cost accounting reports in Business Central",
+        "title": "Built-in Cost Accounting Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -105941,7 +105917,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-cost-accounting-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports",
-        "title": "Built-in cost accounting reports in Business Central",
+        "title": "Built-in Cost Accounting Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -106259,7 +106235,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-        "title": "Fixed assets analytics",
+        "title": "Fixed Assets Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -106279,7 +106255,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-        "title": "Fixed assets analytics",
+        "title": "Fixed Assets Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -106307,7 +106283,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-        "title": "Fixed assets analytics",
+        "title": "Fixed Assets Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -106327,7 +106303,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-        "title": "Fixed assets analytics",
+        "title": "Fixed Assets Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -106347,7 +106323,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-        "title": "Fixed assets analytics",
+        "title": "Fixed Assets Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -106367,7 +106343,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-        "title": "Fixed assets analytics",
+        "title": "Fixed Assets Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -106393,7 +106369,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-        "title": "Fixed assets analytics",
+        "title": "Fixed Assets Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -106413,7 +106389,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-        "title": "Fixed assets analytics",
+        "title": "Fixed Assets Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -106433,7 +106409,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-        "title": "Fixed assets analytics",
+        "title": "Fixed Assets Analytics and Reporting",
         "via": "ms.search.form"
       },
       {
@@ -106475,7 +106451,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5621.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5621",
-        "title": "Insurance - List (report)",
+        "title": "Fixed Asset Insurance List (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -106571,7 +106547,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5701.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5701",
-        "title": "Item Substitutions (report)",
+        "title": "Item Substitutions Report for Inventory",
         "via": "ms.search.form"
       }
     ],
@@ -106713,7 +106689,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5900.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5900",
-        "title": "Service Order (document report)",
+        "title": "Service Order (Document Report)",
         "via": "ms.search.form"
       },
       {
@@ -106727,7 +106703,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5901.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5901",
-        "title": "Service Item Line Labels (report)",
+        "title": "Service Item Line Labels (Report)",
         "via": "ms.search.form"
       },
       {
@@ -106741,7 +106717,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5902.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5902",
-        "title": "Service Quote (document report)",
+        "title": "Service Quote (Document Report)",
         "via": "ms.search.form"
       },
       {
@@ -106755,7 +106731,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5904.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5904",
-        "title": "Service Tasks (report)",
+        "title": "Service Tasks in Business Central (Report)",
         "via": "ms.search.form"
       },
       {
@@ -106769,7 +106745,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5908.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5908",
-        "title": "Service Order - Response Time (report)",
+        "title": "Service Order - Response Time (Report)",
         "via": "ms.search.form"
       },
       {
@@ -106783,7 +106759,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5909.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5909",
-        "title": "Service Profit (Resp. Centers) (report)",
+        "title": "Service Profit (Resp. Centers) (Report)",
         "via": "ms.search.form"
       },
       {
@@ -106797,7 +106773,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5910.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5910",
-        "title": "Service Profit (Serv. Orders) (report)",
+        "title": "Service Profit (Serv. Orders) (Report)",
         "via": "ms.search.form"
       },
       {
@@ -106811,7 +106787,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5911.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5911",
-        "title": "Service - Invoice (document report)",
+        "title": "Service - Invoice (Document Report)",
         "via": "ms.search.form"
       },
       {
@@ -106825,7 +106801,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5912.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5912",
-        "title": "Service - Credit Memo (document report)",
+        "title": "Service - Credit Memo (Document Report)",
         "via": "ms.search.form"
       },
       {
@@ -106839,7 +106815,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5913.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5913",
-        "title": "Service - Shipment (document report)",
+        "title": "Service - Shipment (Document Report)",
         "via": "ms.search.form"
       },
       {
@@ -106853,7 +106829,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5915.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5915",
-        "title": "Service Document - Test (report)",
+        "title": "Service Document - Test (Report)",
         "via": "ms.search.form"
       },
       {
@@ -106867,7 +106843,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5935.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5935",
-        "title": "Service Items (report)",
+        "title": "Service Items in Business Central (Report)",
         "via": "ms.search.form"
       },
       {
@@ -106881,7 +106857,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5936.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5936",
-        "title": "Service Item Worksheet (report)",
+        "title": "Service Item Worksheet (Report)",
         "via": "ms.search.form"
       },
       {
@@ -106895,7 +106871,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5937.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5937",
-        "title": "Service Items Out of Warranty (report)",
+        "title": "Service Items Out of Warranty (Report)",
         "via": "ms.search.form"
       },
       {
@@ -106909,7 +106885,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5938.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5938",
-        "title": "Service Profit (Service Items) (report)",
+        "title": "Service Profit (Service Items) (Report)",
         "via": "ms.search.form"
       },
       {
@@ -106923,7 +106899,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5939.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5939",
-        "title": "Service Item - Resource Usage (report)",
+        "title": "Service Item - Resource Usage (Report)",
         "via": "ms.search.form"
       },
       {
@@ -106937,7 +106913,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5955.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5955",
-        "title": "Dispatch Board (report)",
+        "title": "Dispatch Board in Business Central (Report)",
         "via": "ms.search.form"
       },
       {
@@ -106951,7 +106927,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5956.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5956",
-        "title": "Service Load Level (report)",
+        "title": "Service Load Level in Business Central (Report)",
         "via": "ms.search.form"
       },
       {
@@ -106965,7 +106941,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5970.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5970",
-        "title": "Service Contract (report)",
+        "title": "Service Contract in Business Central (Report)",
         "via": "ms.search.form"
       },
       {
@@ -106979,7 +106955,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5971.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5971",
-        "title": "Service Contract-Detail (report)",
+        "title": "Service Contract-Detail (Report)",
         "via": "ms.search.form"
       },
       {
@@ -106993,7 +106969,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5972.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5972",
-        "title": "Service Contract Quote (document report)",
+        "title": "Service Contract Quote (Document Report)",
         "via": "ms.search.form"
       },
       {
@@ -107007,7 +106983,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5973.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5973",
-        "title": "Service Contract Quote-Detail (report)",
+        "title": "Service Contract Quote-Detail (Report)",
         "via": "ms.search.form"
       },
       {
@@ -107021,7 +106997,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5974.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5974",
-        "title": "Contract Quotes to Be Signed (report)",
+        "title": "Contract Quotes to Be Signed (Report)",
         "via": "ms.search.form"
       },
       {
@@ -107035,7 +107011,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5976.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5976",
-        "title": "Service Profit (Contracts) (report)",
+        "title": "Service Profit (Contracts) (Report)",
         "via": "ms.search.form"
       },
       {
@@ -107049,7 +107025,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5977.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5977",
-        "title": "Service Contract - Customer (report)",
+        "title": "Service Contract - Customer (Report)",
         "via": "ms.search.form"
       },
       {
@@ -107063,7 +107039,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5978.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5978",
-        "title": "Serv. Contract - Salesperson (report)",
+        "title": "Serv. Contract - Salesperson (Report)",
         "via": "ms.search.form"
       },
       {
@@ -107077,7 +107053,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5980.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5980",
-        "title": "Maintenance Visit - Planning (report)",
+        "title": "Maintenance Visit - Planning (Report)",
         "via": "ms.search.form"
       },
       {
@@ -107091,7 +107067,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5981.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5981",
-        "title": "Contr. Gain/Loss - Resp. Ctr. (report)",
+        "title": "Contr. Gain/Loss - Resp. Ctr. (Report)",
         "via": "ms.search.form"
       },
       {
@@ -107105,7 +107081,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5982.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5982",
-        "title": "Maintenance Performance (report)",
+        "title": "Maintenance Performance (Report)",
         "via": "ms.search.form"
       },
       {
@@ -107119,7 +107095,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5983.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5983",
-        "title": "Contract Gain/Loss Entries (report)",
+        "title": "Contract Gain/Loss Entries (Report)",
         "via": "ms.search.form"
       },
       {
@@ -107133,7 +107109,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5984.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5984",
-        "title": "Contract Invoicing - Test (report)",
+        "title": "Contract Invoicing - Test (Report)",
         "via": "ms.search.form"
       },
       {
@@ -107147,7 +107123,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5985.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5985",
-        "title": "Contract Price Update - Test (report)",
+        "title": "Contract Price Update - Test (Report)",
         "via": "ms.search.form"
       },
       {
@@ -107161,7 +107137,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5987.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5987",
-        "title": "Expired Contract Lines - Test (report)",
+        "title": "Expired Contract Lines - Test (Report)",
         "via": "ms.search.form"
       },
       {
@@ -107175,7 +107151,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-5988.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5988",
-        "title": "Contr. Serv. Orders - Test (report)",
+        "title": "Contr. Serv. Orders - Test (Report)",
         "via": "ms.search.form"
       },
       {
@@ -107189,7 +107165,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-6080.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6080",
-        "title": "Serv. Pricing Profitability (report)",
+        "title": "Service Pricing Profitability (Report)",
         "via": "ms.search.form"
       },
       {
@@ -107203,7 +107179,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-6086.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6086",
-        "title": "Prepaid Contr. Entries (report)",
+        "title": "Prepaid Contr. Entries (Report)",
         "via": "ms.search.form"
       },
       {
@@ -107495,7 +107471,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-cost-accounting-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports",
-        "title": "Built-in cost accounting reports in Business Central",
+        "title": "Built-in Cost Accounting Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -107509,7 +107485,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/finance-cost-accounting-reports.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-cost-accounting-reports",
-        "title": "Built-in cost accounting reports in Business Central",
+        "title": "Built-in Cost Accounting Reports in Business Central",
         "via": "ms.search.form"
       },
       {
@@ -107537,7 +107513,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-99000754.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000754",
-        "title": "Rolled-up Cost Shares (report)",
+        "title": "Rolled-up Cost Shares (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -107545,7 +107521,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-99000755.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000755",
-        "title": "Single-Level Cost Shares (report)",
+        "title": "Single-Level Cost Shares (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -107595,7 +107571,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-99000759.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000759",
-        "title": "Work Center List (report)",
+        "title": "Work Center List Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -107603,7 +107579,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-99000760.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000760",
-        "title": "Machine Center List (report)",
+        "title": "Machine Center List Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -107639,7 +107615,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-99000764.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000764",
-        "title": "Prod. Order - Precalc. Time (report)",
+        "title": "Prod. Order - Precalc. Time (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -107661,7 +107637,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-99000768.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000768",
-        "title": "Prod. Order Detailed Calc (report)",
+        "title": "Prod. Order - Detailed Calc. (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -107703,7 +107679,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-99000783.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000783",
-        "title": "Work Center Load (report)",
+        "title": "Work Center Load Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -107717,7 +107693,15 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-99000784.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000784",
-        "title": "Machine Center Load (report)",
+        "title": "Machine Center Load Report in Business Central",
+        "via": "ms.search.form"
+      }
+    ],
+    "report/99000785": [
+      {
+        "id": "docs/learn-smb-docs/business-central/reports/report-99000785.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000785",
+        "title": "Work Center Load/Bar Report in Business Central",
         "via": "ms.search.form"
       }
     ],
@@ -107725,7 +107709,7 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-99000786.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000786",
-        "title": "Machine Center Load/Bar (report)",
+        "title": "Machine Center Load/Bar (Report)",
         "via": "ms.search.form"
       }
     ],
@@ -107777,23 +107761,15 @@
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-99001048.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99001048",
-        "title": "Planning Availability (report)",
+        "title": "Planning Availability (Report)",
         "via": "ms.search.form"
       }
     ],
-    "report/990000785": [
-      {
-        "id": "docs/learn-smb-docs/business-central/reports/report-99000785.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000785",
-        "title": "Work Center Load/Bar (report)",
-        "via": "ms.search.form"
-      }
-    ],
-    "report/990003804": [
+    "report/99003804": [
       {
         "id": "docs/learn-smb-docs/business-central/reports/report-990003804.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-990003804",
-        "title": "Production Forecast (report)",
+        "title": "Demand Forecast (Obsolete) Report",
         "via": "ms.search.form"
       }
     ]

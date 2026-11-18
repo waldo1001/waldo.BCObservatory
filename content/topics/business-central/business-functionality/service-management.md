@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:45.537Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -34,43 +34,43 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5981
-    title: Contr. Gain/Loss - Resp. Ctr. (report)
-    date: "2024-11-02"
+    title: Contr. Gain/Loss - Resp. Ctr. (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5988
-    title: Contr. Serv. Orders - Test (report)
-    date: "2024-11-02"
+    title: Contr. Serv. Orders - Test (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5983
-    title: Contract Gain/Loss Entries (report)
-    date: "2024-11-02"
+    title: Contract Gain/Loss Entries (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5984
-    title: Contract Invoicing - Test (report)
-    date: "2024-11-02"
+    title: Contract Invoicing - Test (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5985
-    title: Contract Price Update - Test (report)
-    date: "2024-11-02"
+    title: Contract Price Update - Test (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5974
-    title: Contract Quotes to Be Signed (report)
-    date: "2024-11-02"
+    title: Contract Quotes to Be Signed (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -83,15 +83,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5955
-    title: Dispatch Board (report)
-    date: "2024-11-02"
+    title: Dispatch Board in Business Central (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5987
-    title: Expired Contract Lines - Test (report)
-    date: "2024-11-02"
+    title: Expired Contract Lines - Test (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -146,15 +146,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5982
-    title: Maintenance Performance (report)
-    date: "2024-11-02"
+    title: Maintenance Performance (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5980
-    title: Maintenance Visit - Planning (report)
-    date: "2024-11-02"
+    title: Maintenance Visit - Planning (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -188,113 +188,113 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-6086
-    title: Prepaid Contr. Entries (report)
+    title: Prepaid Contr. Entries (Report)
     date: "2024-11-02"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5978
-    title: Serv. Contract - Salesperson (report)
-    date: "2024-11-02"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-6080
-    title: Serv. Pricing Profitability (report)
-    date: "2024-11-02"
+    title: Serv. Contract - Salesperson (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5912
-    title: Service - Credit Memo (document report)
-    date: "2024-11-02"
+    title: Service - Credit Memo (Document Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5911
-    title: Service - Invoice (document report)
-    date: "2024-11-02"
+    title: Service - Invoice (Document Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5913
-    title: Service - Shipment (document report)
-    date: "2024-11-02"
+    title: Service - Shipment (Document Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5977
-    title: Service Contract - Customer (report)
-    date: "2024-11-02"
+    title: Service Contract - Customer (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5970
-    title: Service Contract (report)
-    date: "2024-11-02"
+    title: Service Contract in Business Central (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5972
-    title: Service Contract Quote (document report)
-    date: "2024-11-02"
+    title: Service Contract Quote (Document Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5973
-    title: Service Contract Quote-Detail (report)
-    date: "2024-11-02"
+    title: Service Contract Quote-Detail (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5971
-    title: Service Contract-Detail (report)
-    date: "2024-11-02"
+    title: Service Contract-Detail (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5915
-    title: Service Document - Test (report)
-    date: "2024-11-02"
+    title: Service Document - Test (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5939
-    title: Service Item - Resource Usage (report)
-    date: "2024-11-02"
+    title: Service Item - Resource Usage (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5901
-    title: Service Item Line Labels (report)
-    date: "2024-11-02"
+    title: Service Item Line Labels (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5936
-    title: Service Item Worksheet (report)
-    date: "2024-11-02"
+    title: Service Item Worksheet (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5935
-    title: Service Items (report)
-    date: "2024-11-02"
+    title: Service Items in Business Central (Report)
+    date: "2026-11-16"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5937
+    title: Service Items Out of Warranty (Report)
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null

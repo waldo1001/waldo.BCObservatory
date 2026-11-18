@@ -2,7 +2,7 @@
 id: app/expenseagent
 type: app
 title: ExpenseAgent
-summary: "ExpenseAgent (Microsoft.ExpenseAgent): 388 objects in BC29-30 (152 pages, 69 codeunits, 56 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos."
+summary: "ExpenseAgent (Microsoft.ExpenseAgent): 394 objects in BC29-30 (153 pages, 70 codeunits, 57 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T00:52:44.844Z"
+  at: "2026-11-18T00:51:20.604Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 869271876c5f9ff0de1599ba26898be55e50000748d8971421d6fff03275f6d8
+  input_hash: a1492c0ecabb72e62d8627feda336c7606b7779a3a70ef7d1cde6e76be89b149
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ExpenseAgent/app
@@ -71,6 +71,7 @@ links:
     - object/table/6938
     - object/table/6939
     - object/table/6940
+    - object/table/6941
     - object/table/6942
     - object/table/6943
     - object/table/6950
@@ -229,7 +230,6 @@ links:
     - object/page/7101
     - object/page/7102
     - object/page/7103
-    - object/page/7104
   features: []
   topics:
     - topic/business-central/business-functionality/expense-management-preview/set-up-expense-management
@@ -254,16 +254,16 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 388
+  objects: 394
   by_type:
-    page: 152
-    codeunit: 69
-    table: 56
+    page: 153
+    codeunit: 70
+    table: 57
     enum: 37
     entitlement: 25
     tableextension: 13
+    pageextension: 10
     permissionset: 8
-    pageextension: 7
     query: 6
     enumextension: 5
     report: 4
@@ -277,7 +277,7 @@ counts:
 
 # ExpenseAgent
 
-> ExpenseAgent (Microsoft.ExpenseAgent): 388 objects in BC29-30 (152 pages, 69 codeunits, 56 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos.
+> ExpenseAgent (Microsoft.ExpenseAgent): 394 objects in BC29-30 (153 pages, 70 codeunits, 57 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos.
 
 First-party app · folder `src/Apps/W1/ExpenseAgent/app` · namespace `Microsoft.ExpenseAgent` · BC29-30 · system copilot · facts from the code pillar and the joins, nothing machine-written
 
@@ -294,9 +294,9 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-388 objects, by type.
+394 objects, by type.
 
-### Tables (56)
+### Tables (57)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -341,6 +341,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6938 | [Traveler](../objects/table/6938.md) |  |
 | 6939 | [Mileage Rate Setup](../objects/table/6939.md) |  |
 | 6940 | [Expense Alternate Approver](../objects/table/6940.md) |  |
+| 6941 | [Expense Activities Cue](../objects/table/6941.md) |  |
 | 6942 | [EA Email Attachment](../objects/table/6942.md) |  |
 | 6943 | [Expense Agent Access Control](../objects/table/6943.md) |  |
 | 6950 | [EA KPI](../objects/table/6950.md) | Expense Agent |
@@ -375,7 +376,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 7109 | [Exp. Spend Req. Detail](../objects/tableextension/7109.md) |  |
 | 7110 | [Expense Employee](../objects/tableextension/7110.md) |  |
 
-### Pages (152)
+### Pages (153)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -530,9 +531,10 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 7136 | [Travel Request List](../objects/page/7136.md) | Travel Requests |
 | 7137 | [Travel Request Subform](../objects/page/7137.md) | Lines |
 | 7140 | [Expense Alternate Approvers](../objects/page/7140.md) |  |
+| 7141 | [Expense Activities](../objects/page/7141.md) |  |
 | 7147 | [Exp. Alternate Approvers API](../objects/page/7147.md) |  |
 
-### Page extensions (7)
+### Page extensions (10)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -540,6 +542,9 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6901 | [Exp. Employee Posting Groups](../objects/pageextension/6901.md) |  |
 | 6902 | [Expense Spend Request Card](../objects/pageextension/6902.md) |  |
 | 6903 | [Expense Spend Request List](../objects/pageextension/6903.md) |  |
+| 6904 | [Exp. Accountant RC Ext](../objects/pageextension/6904.md) |  |
+| 6905 | [Exp. Acc. Payable Admin RC Ext](../objects/pageextension/6905.md) |  |
+| 6906 | [Exp. Business Manager RC Ext](../objects/pageextension/6906.md) |  |
 | 6976 | [Source Code Setup](../objects/pageextension/6976.md) |  |
 | 6977 | [Exp. Approval User Setup](../objects/pageextension/6977.md) |  |
 | 6995 | [EA Agent Card](../objects/pageextension/6995.md) |  |
@@ -553,7 +558,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6951 | [Expense Report Cover Page](../objects/report/6951.md) |  |
 | 6952 | [Expense Report Summary Page](../objects/report/6952.md) |  |
 
-### Codeunits (69)
+### Codeunits (70)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -571,6 +576,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6911 | [Expense Per Diem Calculation](../objects/codeunit/6911.md) |  |
 | 6912 | [Expense Auto Population](../objects/codeunit/6912.md) |  |
 | 6913 | [Expense Agent Quota Impl.](../objects/codeunit/6913.md) |  |
+| 6914 | [Travel Req. Linked Reports](../objects/codeunit/6914.md) |  |
 | 6922 | [Expense Agent Entra App Mgt.](../objects/codeunit/6922.md) |  |
 | 6926 | [Expense Activity Log Mgt.](../objects/codeunit/6926.md) |  |
 | 6930 | [Expense Agent MCP Config.](../objects/codeunit/6930.md) |  |

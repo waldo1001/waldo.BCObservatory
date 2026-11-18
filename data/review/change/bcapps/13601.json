@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13601",
+  "input_hash": "591c411522eb56fb9fc913d3b6d144bf99051efcd72f476c597a3cdd03377ac8",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-18T00:57:41.315Z",
+  "issues": [
+    "Description is an empty template; the page only restates the title and diff size, which is all the evidence supports."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022705,
+    "changes_in_call": 6
+  }
+}

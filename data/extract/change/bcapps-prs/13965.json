@@ -6,16 +6,15 @@
   "systems_joined": [
     "platform"
   ],
-  "summary": "The Custom Report Layouts page caption is marked with '(Obsoleted)' and a notification is shown when opened to inform users that this feature is obsolete.",
+  "summary": "The caption of the Custom Report Layouts page now marks it as '(Obsoleted)'. The Report Layout Selection page gets a matching one-line change. The diff contains no notification logic.",
   "key_points": [
-    "Page 9650 'Custom Report Layouts' caption updated with '(Obsoleted)' marker",
-    "Notification added on page open to alert users about obsolescence",
-    "Similar change applied to Report Layout Selection page",
-    "Improves user awareness of deprecated functionality",
-    "Part of BC29 release maintenance"
+    "Custom Report Layouts page caption now includes an '(Obsoleted)' marker",
+    "One-line change also made on the Report Layout Selection page",
+    "Only caption text changes; no code is obsoleted and no notification is added in the diff",
+    "Targets the 29.x release branch"
   ],
-  "change_kind": "obsoletion",
-  "behavior_change": true,
+  "change_kind": "other",
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

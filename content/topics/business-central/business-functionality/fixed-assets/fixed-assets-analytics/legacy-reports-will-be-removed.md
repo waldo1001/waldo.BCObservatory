@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics/legacy-reports-will-be-removed
 type: topic
 title: Legacy reports (will be removed)
-summary: "Legacy fixed asset reports in Business Central that are marked for removal: Fixed Asset Analysis, Fixed Asset Details, and Fixed Asset Projected Value. It answers questions about what each report shows, such as valuation, depreciation, ledger entries, and projected book value."
+summary: "Legacy fixed asset analytics reports in Business Central that are scheduled for removal: Fixed Asset Projected Value, Transaction Details, and Value Analysis. It answers questions about what each report shows and that they are obsolete from version 28.0 in favor of Excel report replacements."
 tier: official
 language: en
 system: fixed-assets
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:27:17.864Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: a58f96a31d9cdee0f232ac2fcd6655d98e19abfdb649447c1a203fefaf3e15ac
+  input_hash: 9ba716021fb0e5361491aae774c8ae24c8d93f00c1a0b174acc1f9041e4c82bf
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-5607
@@ -79,27 +79,27 @@ narrative: generated
 
 # Legacy reports (will be removed)
 
-> Legacy fixed asset reports in Business Central that are marked for removal: Fixed Asset Analysis, Fixed Asset Details, and Fixed Asset Projected Value. It answers questions about what each report shows, such as valuation, depreciation, ledger entries, and projected book value.
+> Legacy fixed asset analytics reports in Business Central that are scheduled for removal: Fixed Asset Projected Value, Transaction Details, and Value Analysis. It answers questions about what each report shows and that they are obsolete from version 28.0 in favor of Excel report replacements.
 
-Path: [Business functionality](../../../business-functionality.md) > [Fixed assets](../../fixed-assets.md) > [Fixed assets analytics](../fixed-assets-analytics.md) > Legacy reports (will be removed) · tier official · system fixed-assets · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Fixed assets](../../fixed-assets.md) > [Fixed assets analytics](../fixed-assets-analytics.md) > Legacy reports (will be removed) · tier official · system fixed-assets · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section holds three older fixed asset reports under Fixed assets analytics. The Learn table of contents labels the group "will be removed", so treat them as legacy and expect them to go away.
+This section documents three older fixed asset reports that sit under Fixed assets analytics and are going to be removed. Each page describes what the report does and, where stated, marks it as obsolete from version 28.0, with the Excel report as the replacement.
 
-The reports cover different needs. Fixed Asset Analysis gives a broad view of asset values and depreciation with customizable date and data columns. Fixed Asset Details lists fixed asset ledger entries per asset. Fixed Asset Projected Value looks forward and forecasts depreciation and book value for a future period.
+The reports cover different needs. Projected Value forecasts future depreciation and book value over a period. Transaction Details lists fixed asset ledger entries for a depreciation book. Value Analysis gives a configurable examination of assets for reconciliation, check reports, and budget projections.
 
-Start with the page that matches your task: Analysis for reconciliation, checks and budget reporting, Details for entry-level review of cost, depreciation and book value, and Projected Value for budget planning. There are no subtopics.
+Start here if you maintain existing processes that still use these reports, or need to understand what they did before moving to the Excel reports. For new work, use the Excel report replacements.
 
 ## Key points
 
-- The section is labeled 'will be removed', so these reports are legacy.
-- Fixed Asset Analysis supports asset valuation, depreciation analysis, budget reporting and future depreciation calculation.
-- Fixed Asset Analysis has customizable date and data columns, used for reconciliation, check and budget reports.
-- Fixed Asset Details shows ledger entries with acquisition cost, depreciation and book value for each asset.
-- Fixed Asset Details can optionally include reversed entries.
-- Fixed Asset Projected Value forecasts depreciation and book value across specified date ranges for a future period.
-- Projected Value can compare multiple depreciation methods and copy amounts to a G/L budget.
+- All three reports are legacy and will be removed; the pages reference version 28.0.
+- Fixed Asset Projected Value and Transaction Details are marked obsolete from version 28.0, with Excel report replacements.
+- Projected Value forecasts future depreciation and book value over a specified period, with several depreciation methods and interval breakdown.
+- Projected Value can be used for budget creation and tracks accumulated depreciation.
+- Transaction Details shows fixed asset ledger entries for a selected depreciation book, with transaction amounts, posting types, and G/L references.
+- Transaction Details supports date filtering, reversed entries, and excluding inactive assets.
+- Value Analysis offers configurable date columns and data columns for reconciliation, check reports, budget depreciation projection, and future value estimation.
 
 ## Learn pages
 

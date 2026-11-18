@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -20,7 +20,7 @@ generated:
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sustainability
-    title: Ad-hoc analysis of sustainability data
+    title: Ad-Hoc Analysis of Sustainability Data
     date: "2024-06-12"
     commit: null
     t: null

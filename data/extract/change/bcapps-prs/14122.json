@@ -6,12 +6,13 @@
   "systems_joined": [
     "manufacturing"
   ],
-  "summary": "The SetIsSubcontracting method on the transfer order subform now refreshes without saving, preventing unwanted save attempts that could close the page when editing fails in certain scenarios.",
+  "summary": "SetIsSubcontracting on the Subc. Trans. Order Sub. page extension now calls CurrPage.Update(false), so it refreshes the transfer lines subform without saving the current line. This stops a failed line save from being raised inside the Transfer Order's record-fetch trigger and closing the page.",
   "key_points": [
-    "CurrPage.Update() changed to CurrPage.Update(false) to refresh the subform without triggering saves",
-    "Prevents save errors from propagating inside OnAfterGetCurrRecord trigger which would close the page",
-    "Maintains visibility updates for subcontracting actions while avoiding side effects from header fetches",
-    "Aligns with SetPerTaskBillingFieldsVisible pattern used elsewhere in the app"
+    "CurrPage.Update() replaced by CurrPage.Update(false) in SetIsSubcontracting",
+    "Transfer Order calls it from OnOpenPage and OnAfterGetCurrRecord, so before this each header fetch saved the current line",
+    "A save error no longer surfaces inside OnAfterGetCurrRecord and closes the page",
+    "Edited lines are still saved by the normal page save, for example when leaving the row",
+    "Matches how SetPerTaskBillingFieldsVisible refreshes the Job Task Lines subform from the Job Card"
   ],
   "change_kind": "fix",
   "behavior_change": true,

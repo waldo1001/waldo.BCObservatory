@@ -1,24 +1,24 @@
 {
   "hub_id": "topic/business-central/business-functionality/inventory/inventory-analytics",
-  "input_hash": "5908d52ee85c80bad0940ece025e9e167552ee1ca5c0c43ff044fc5fde997feb",
-  "summary": "Inventory analytics in Business Central covers Power BI apps, built-in reports, legacy reports and ad-hoc Data Analysis for inventory data. It answers questions about which tool or report to use for stock levels, inventory value, KPIs and trends, and how the data is structured.",
-  "overview": "Inventory analytics groups the ways to analyze inventory in Business Central. The overview page introduces the options: Power BI reports, financial reports with dimensions, ad-hoc analysis, and built-in reports. They help different roles monitor KPIs and trends.\n\nTwo Power BI subtopics cover the apps. The Power BI Inventory app describes its reports, KPIs, measures and semantic model. The Power BI inventory valuation app focuses on inventory value: beginning, net change and ending balances, comparison with general ledger cost, variance, and breakdowns by item and location.\n\nFor analysis inside Business Central, the ad-hoc analysis page shows how to use Data Analysis on item ledger entries from list pages, without running a report. The built-in inventory and warehouse reports subtopic is the place to find which report answers a given question. A short legacy section lists reports marked for removal. Start with the overview page, then pick the tool that fits your question.",
+  "input_hash": "77a87ae5d12797d1ef6d70dbb7632205c8c850ce22a05dfd8f928636861a2d6f",
+  "summary": "Inventory analytics in Business Central covers Power BI apps, built-in inventory and warehouse reports, legacy reports and ad-hoc analysis of item ledger entries. It answers which tool or report shows which inventory data, what measures the apps contain, and which reports are being removed.",
+  "overview": "Inventory analytics groups the ways to analyze inventory data in Business Central so that different roles can monitor KPIs and trends. The options are the Power BI Inventory app, the Power BI Inventory Valuation app, financial reporting with dimensions, ad-hoc analysis, and the built-in reports.\n\nThe landing page gives the overall picture. The Power BI inventory app pages describe each report, its audience, its measures and its semantic model. The valuation app pages cover inventory value: beginning, net change and ending balances, comparison with general ledger cost, variance, and breakdowns by item and location.\n\nThe built-in reports subtopic is the largest. It lists availability, valuation, cost and price, order, dimension, expiration, aging, warehouse and label reports, and notes which are obsolete. Two legacy reports, Inventory Availability Plan and Item Age Composition - Quantity, are marked for removal. For quick questions without a report, the ad-hoc analysis page shows how to use the Data Analysis feature directly on list pages. Start with the landing page, then pick the subtopic that matches the task.",
   "key_points": [
-    "Four routes to inventory insight: Power BI reports, financial reporting with dimensions, ad-hoc analysis, and built-in reports.",
-    "The Power BI Inventory app documents its reports, KPIs, measures and semantic model (16 pages).",
-    "The Power BI inventory valuation app covers beginning, net change and ending balance values, comparison with general ledger cost, and variance by item and location.",
-    "Ad-hoc analysis uses the Data Analysis feature on item ledger entries from list pages, with scenarios for on-hand inventory, expiring stock, returned items, throughput and movements.",
-    "Ad-hoc analysis features include Analysis mode, Item Statistics, KPIs and Copilot summaries.",
-    "Built-in reports (31 pages) cover availability, valuation, transactions, sales and purchase analysis, ABC, age, expiration, dimensions, warehouse bin and shipment reports, and barcode/QR labels.",
-    "Legacy reports marked for removal are Inventory Availability Plan and Item Age Composition - Quantity."
+    "The landing page names the main options: Power BI Inventory app, Power BI Inventory Valuation app, financial reporting, dimensions, ad-hoc analysis and built-in reports.",
+    "Ad-hoc analysis uses the Data Analysis feature on list pages to analyze item ledger entries without running reports.",
+    "Ad-hoc scenarios include on-hand inventory, expiring stock, returned items, throughput and movements.",
+    "The Power BI inventory app pages cover reports, KPIs, intended users, measures and the semantic model (16 pages).",
+    "The Power BI inventory valuation app covers beginning, net change and ending balance values, comparison with general ledger cost, variance, and breakdown by item and location (5 pages).",
+    "Built-in reports (31 pages) include availability, valuation, cost and price, sales and purchase order, dimension, expiration, aging, warehouse bin, shipment, and barcode and QR label reports.",
+    "Inventory Availability Plan and Item Age Composition - Quantity are legacy reports that will be removed."
   ],
   "members_used": 2,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-11-17T01:00:42.771Z",
+  "at": "2026-11-18T00:59:42.208Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.013559
+    "cost_usd": 0.013939000000000002
   }
 }

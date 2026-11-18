@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/inventory/inventory-analytics/legacy-reports-will-be-removed
 type: topic
 title: Legacy reports (will be removed)
-summary: "Legacy inventory reports in Business Central that are marked for removal: Inventory Availability Plan and Item Age Composition - Quantity. It answers questions about what each report shows, how it is filtered, and what it is used for."
+summary: "Legacy inventory analytics reports in Business Central that are marked for removal: Inventory Availability Plan and Item Age Composition - Quantity. It answers what each report shows and how it is configured or filtered."
 tier: official
 language: en
 system: inventory
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:21:35.768Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1c8892b475eeafd284d15b6dee72f1b49dbf044ccd15002d6c2cb402a71df7a3
+  input_hash: 4ba328eb83aa1f90410844dc544d76e6e58dfe1415b76008eb92e2d9396fed0e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports/report-707
@@ -69,33 +69,33 @@ narrative: generated
 
 # Legacy reports (will be removed)
 
-> Legacy inventory reports in Business Central that are marked for removal: Inventory Availability Plan and Item Age Composition - Quantity. It answers questions about what each report shows, how it is filtered, and what it is used for.
+> Legacy inventory analytics reports in Business Central that are marked for removal: Inventory Availability Plan and Item Age Composition - Quantity. It answers what each report shows and how it is configured or filtered.
 
-Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Legacy reports (will be removed) · tier official · system inventory · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Legacy reports (will be removed) · tier official · system inventory · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section lists inventory analytics reports that Microsoft Learn labels as legacy and will be removed. It has no subtopics and two pages, one for each report.
+This section holds two older inventory reports that are listed as going to be removed. Both sit under Inventory analytics and describe how inventory data was presented before replacements were offered.
 
-The Inventory Availability Plan report shows accumulated values such as gross requirements, scheduled receipts, and planned receipts by item and SKU. The page notes that an Excel replacement is available. The Item Age Composition - Quantity report shows on-hand inventory aged by receipt date in three equal-length periods, so you can find unused or slow-moving stock. You can filter it by warehouse and by item.
+The Inventory Availability Plan report shows accumulated values such as gross requirements, scheduled receipts and planned receipts, by item and by stockkeeping unit (SKU). The page notes that an Excel replacement is available. The Item Age Composition - Quantity report shows current inventory quantities aged by posting date. You can set the aging periods and filter by location and item. It is described as obsolete.
 
-Start here if you still use either report and need to know what it does. Both reports are slated for removal, so avoid building new processes on them. For Inventory Availability Plan, use the Excel replacement instead. The sources do not name a replacement for Item Age Composition - Quantity.
+Start with the page for the report you are working with. If you plan new analysis, check the replacement noted for the availability plan rather than relying on these reports.
 
 ## Key points
 
-- The whole section is marked as legacy and will be removed.
-- Inventory Availability Plan shows accumulated gross requirements, scheduled receipts, and planned receipts.
-- Inventory Availability Plan reports by item and by SKU.
-- An Excel replacement is available for the Inventory Availability Plan report.
-- Item Age Composition - Quantity ages on-hand inventory by receipt date.
-- Aging uses three periods of equal length.
-- Item Age Composition - Quantity can be filtered by warehouse and by item.
-- Item Age Composition - Quantity helps identify unused or slow-moving inventory.
+- Both reports are legacy and scheduled for removal.
+- Inventory Availability Plan shows accumulated gross requirements, scheduled receipts and planned receipts.
+- Inventory Availability Plan works by item and by SKU.
+- An Excel replacement exists for the Inventory Availability Plan report.
+- Item Age Composition - Quantity ages current inventory quantities by posting date.
+- Aging periods are configurable in Item Age Composition - Quantity.
+- Item Age Composition - Quantity can be filtered by location and item and is described as obsolete.
 
 ## Learn pages
 
 - [Inventory Availability Plan (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-707): Get an overview of specific items and stock-keeping units, and their availability.
 - [Item Age Composition - Quantity (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5807): Review current inventory quantities by age using the legacy Item Age Composition - Quantity report. Find the replacement Excel report for aging analysis.
+  - In the observatory: [Report 5809 "Item Expiration - Quantity"](../../../../../objects/report/5809.md)
 
 ## Business Central pages and reports
 

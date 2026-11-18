@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:55:18.848Z"
   flags: []
 generated:
-  at: "2026-11-17T00:54:59.443Z"
+  at: "2026-11-18T00:53:46.429Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -82,7 +82,6 @@ links:
   objects: []
   features:
     - feature/576776
-    - feature/578065
   topics: []
   localizations: []
   videos: []
@@ -116,12 +115,10 @@ chapters:
     title: Managing Email Accounts and Testing with Colleagues
 features:
   - name: Sales Order Agent
-    status: ga
+    status: unclear
     t: 5
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "578065"
+    status_source: video
   - name: Email Account Integration
     status: unclear
     t: 90
@@ -206,7 +203,7 @@ The presenter sends a test email requesting a quote. The agent reads the email, 
 
 | Feature | Status | At |
 |---|---|---|
-| Sales Order Agent | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)), demoed | [0:05](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=5s) |
+| Sales Order Agent | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=5s) |
 | Email Account Integration | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=90s) |
 | Automatic Contact Creation from Email | status not stated, demoed | [2:25](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=145s) |
 | Payables Agent | generally available (roadmap [Try Payables Agent for free without setting up email](../features/576776.md)) | [0:05](https://www.youtube.com/watch?v=7QJeTXzZaEk&t=5s) |

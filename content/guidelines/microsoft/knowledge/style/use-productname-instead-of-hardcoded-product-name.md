@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:17:15.357Z"
+  at: "2026-11-18T00:16:36.082Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ddad622e1088d81d927eef7eafd368bfe8daaf4e
@@ -31,7 +31,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/use-productname-instead-of-hardcoded-product-name.md
     title: "microsoft/BCQuality: Insert the product name with `ProductName`, not as literal text in a message"
     date: "2026-11-13"
-    commit: d576b0fd6da902bf6e4cd7dd837b1f27b170edd2
+    commit: 90540bb901abb89de6d075a4014389df73ab8b64
     t: null
     quote: null
 links:
@@ -112,4 +112,4 @@ See sample: [`use-productname-instead-of-hardcoded-product-name.bad.al`](https:/
 
 ---
 
-From microsoft/BCQuality at d576b0f, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 90540bb, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

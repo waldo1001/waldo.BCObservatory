@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:53.587Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,8 +74,7 @@ links:
     - topic/dev-itpro/integration
   localizations: []
   videos: []
-  posts:
-    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/9702
@@ -90,7 +89,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 8b44d3c4b42940a42001b1109b957abbe92c636ad9a0324c4e370e7b69a490f8
@@ -147,6 +146,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#9702 Default new E-Document services to import v2 and let users select the draft format](../../../changes/bcapps/9702.md) (code change): "New E-Document services now default to the v2 import pipeline, and the Import Process selector"
 - [#9711 Fix E-Document purchase draft header Sub Total overwrite; notify on mismatch](../../../changes/bcapps/9711.md) (code change): "E-Document purchase draft no longer silently overwrites the header Sub Total when lines are edited"
-- [Building BcMCPProxy.exe and Connecting to Claude Desktop (BLOG 3 OF 4)](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270.md) (community post): "This enables Claude to interact with BC through the MCP protocol"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

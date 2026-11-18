@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -212,6 +212,7 @@ links:
     - video/nPF84Ufkn4k
     - video/V4zCPAsYi_Y
     - video/Vq9Nk6_uxmQ
+    - video/WjF_sESaIPo
   posts:
     - post/aardvarklabs-blog/3097
     - post/aardvarklabs-blog/3348
@@ -242,7 +243,7 @@ children:
 coverage:
   learn: 23
   code: 0
-  video: 9
+  video: 10
   blog: 8
   guideline: 0
 bc_forms: []
@@ -329,5 +330,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central Under the Hood episode 13: Inside the Agent Runtime](../../../videos/nPF84Ufkn4k.md) (video): "agent runtime; task execution engine; agent memory; grounding; hallucination prevention"
 - [Getting Started With Agent Testing: Test Setup and Structuring (part 3)](../../../videos/V4zCPAsYi_Y.md) (video): "agent testing; test setup; data-driven tests; yaml configuration"
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../../../videos/Vq9Nk6_uxmQ.md) (video): "Custom agents; agent instructions; agent profiles; permissions; prompt engineering"
+- [Interfrucht GmbH](../../../videos/WjF_sESaIPo.md) (video): "agent automation; purchase order creation; document extraction"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

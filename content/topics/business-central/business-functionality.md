@@ -11,7 +11,7 @@ review:
   at: "2026-11-16T01:00:02.005Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -151,23 +151,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing
-    title: Ad-hoc analyses in purchasing
-    date: "2024-04-29"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance
-    title: Ad-hoc analysis of finance data
-    date: "2025-02-13"
+    title: Ad-Hoc Analysis of Finance Data
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa
-    title: Ad-hoc analysis of fixed assets data
-    date: "2025-03-10"
+    title: Ad-Hoc Analysis of Fixed Assets Data
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -186,15 +179,22 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing
+    title: Ad-Hoc Analysis of Purchasing Data
+    date: "2026-11-16"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales
-    title: Ad-hoc analysis of sales data
-    date: "2024-04-28"
+    title: Ad-Hoc Analysis of Sales Data in Business Central
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sustainability
-    title: Ad-hoc analysis of sustainability data
+    title: Ad-Hoc Analysis of Sustainability Data
     date: "2024-06-12"
     commit: null
     t: null
@@ -1870,12 +1870,14 @@ links:
     - object/report/99000780
     - object/report/99000783
     - object/report/99000784
+    - object/report/99000785
     - object/report/99000786
     - object/report/99000787
     - object/report/99000788
     - object/report/99000789
     - object/report/99000791
     - object/report/99001048
+    - object/report/99003804
   features: []
   topics:
     - topic/business-central/business-functionality/general-business-functionality
@@ -1933,7 +1935,7 @@ children:
   - topic/business-central/business-functionality/design-details
 coverage:
   learn: 1718
-  code: 1575
+  code: 1577
   video: 0
   blog: 0
   guideline: 0
@@ -3826,8 +3828,7 @@ bc_forms:
   - 99001504
   - 99001560
   - 99001561
-  - 990000785
-  - 990003804
+  - 99003804
 member_hash: 5b66c84d0ce45627072d1a42cff7b6d2e461d1bef28b4110290cf1ec66dec33a
 narrative: generated
 ---
@@ -3923,7 +3924,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 25 "Customer Ledger Entries"](../../objects/page/25.md) · on [Table 21 "Cust. Ledger Entry"](../../objects/table/21.md) · via [Finance](business-functionality/finance.md)
 - [Page 26 "Vendor Card"](../../objects/page/26.md) · on [Table 23 "Vendor"](../../objects/table/23.md) · via [General business functionality](business-functionality/general-business-functionality.md)
 - [Page 27 "Vendor List"](../../objects/page/27.md) · captioned "Vendors" · on [Table 23 "Vendor"](../../objects/table/23.md) · via [Finance](business-functionality/finance.md)
-- [Page 29 "Vendor Ledger Entries"](../../objects/page/29.md) · on [Table 25 "Vendor Ledger Entry"](../../objects/table/25.md) · via [Purchasing](business-functionality/purchasing.md)
+- [Page 29 "Vendor Ledger Entries"](../../objects/page/29.md) · on [Table 25 "Vendor Ledger Entry"](../../objects/table/25.md) · via [Finance](business-functionality/finance.md)
 - [Page 30 "Item Card"](../../objects/page/30.md) · on [Table 27 "Item"](../../objects/table/27.md) · via [General business functionality](business-functionality/general-business-functionality.md)
 - [Page 31 "Item List"](../../objects/page/31.md) · captioned "Items" · on [Table 27 "Item"](../../objects/table/27.md) · via [Inventory](business-functionality/inventory.md)
 - [Page 32 "Item Lookup"](../../objects/page/32.md) · captioned "Items" · on [Table 27 "Item"](../../objects/table/27.md) · via [Inventory](business-functionality/inventory.md)
@@ -4147,7 +4148,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 509 "Blanket Purchase Order"](../../objects/page/509.md) · on [Table 38 "Purchase Header"](../../objects/table/38.md) · via [General business functionality](business-functionality/general-business-functionality.md)
 - [Page 512 "Customer Disc. Groups"](../../objects/page/512.md) · on [Table 340 "Customer Discount Group"](../../objects/table/340.md) · via [Sales](business-functionality/sales.md)
 - [Page 515 "Item Avail. by Location Lines"](../../objects/page/515.md) · captioned "Lines" · on [Table 14 "Location"](../../objects/table/14.md) · via [Inventory](business-functionality/inventory.md)
-- [Page 516 "Sales Lines"](../../objects/page/516.md) · on [Table 37 "Sales Line"](../../objects/table/37.md) · via [Finance](business-functionality/finance.md)
+- [Page 516 "Sales Lines"](../../objects/page/516.md) · on [Table 37 "Sales Line"](../../objects/table/37.md) · via [Sales](business-functionality/sales.md)
 - [Page 517 "Requisition Lines"](../../objects/page/517.md) · on [Table 246 "Requisition Line"](../../objects/table/246.md) · via [Planning](business-functionality/planning.md)
 - [Page 518 "Purchase Lines"](../../objects/page/518.md) · on [Table 39 "Purchase Line"](../../objects/table/39.md) · via [Purchasing](business-functionality/purchasing.md)
 - [Page 519 "Item Journal Lines"](../../objects/page/519.md) · on [Table 83 "Item Journal Line"](../../objects/table/83.md) · via [General business functionality](business-functionality/general-business-functionality.md)
@@ -4510,7 +4511,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 5109 "Profile Questionnaires"](../../objects/page/5109.md) · captioned "Questionnaire Setup" · on [Table 5087 "Profile Questionnaire Header"](../../objects/table/5087.md) · via [Relationship management](business-functionality/relationship-management.md)
 - [Page 5110 "Profile Questionnaire Setup"](../../objects/page/5110.md) · on [Table 5088 "Profile Questionnaire Line"](../../objects/table/5088.md) · via [Relationship management](business-functionality/relationship-management.md)
 - [Page 5116 "Salesperson/Purchaser Card"](../../objects/page/5116.md) · on [Table 13 "Salesperson/Purchaser"](../../objects/table/13.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
-- [Page 5119 "Sales Cycles"](../../objects/page/5119.md) · on [Table 5090 "Sales Cycle"](../../objects/table/5090.md) · via [Finance](business-functionality/finance.md)
+- [Page 5119 "Sales Cycles"](../../objects/page/5119.md) · on [Table 5090 "Sales Cycle"](../../objects/table/5090.md) · via [Sales](business-functionality/sales.md)
 - [Page 5159 "Sales Order Archive"](../../objects/page/5159.md) · on [Table 5107 "Sales Header Archive"](../../objects/table/5107.md) · via [General business functionality](business-functionality/general-business-functionality.md)
 - [Page 5162 "Sales Quote Archive"](../../objects/page/5162.md) · on [Table 5107 "Sales Header Archive"](../../objects/table/5107.md) · via [General business functionality](business-functionality/general-business-functionality.md)
 - [Page 5164 "Purchase Quote Archive"](../../objects/page/5164.md) · on [Table 5109 "Purchase Header Archive"](../../objects/table/5109.md) · via [General business functionality](business-functionality/general-business-functionality.md)
@@ -4890,7 +4891,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9293 "Machine Center Calendar Matrix"](../../objects/page/9293.md) · on [Table 99000758 "Machine Center"](../../objects/table/99000758.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
 - [Page 9295 "Work Ctr. Grp. Calendar Matrix"](../../objects/page/9295.md) · on [Table 99000756 "Work Center Group"](../../objects/table/99000756.md) · via [Set up Business Central](business-functionality/set-up-business-central.md)
 - [Page 9297 "Inventory - G/L Recon Matrix"](../../objects/page/9297.md) · captioned "Inventory - G/L Reconciliation" · on [Table 367 "Dimension Code Buffer"](../../objects/table/367.md) · via [Finance](business-functionality/finance.md)
-- [Page 9300 "Sales Quotes"](../../objects/page/9300.md) · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Finance](business-functionality/finance.md)
+- [Page 9300 "Sales Quotes"](../../objects/page/9300.md) · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Sales](business-functionality/sales.md)
 - [Page 9301 "Sales Invoice List"](../../objects/page/9301.md) · captioned "Sales Invoices" · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Finance](business-functionality/finance.md)
 - [Page 9302 "Sales Credit Memos"](../../objects/page/9302.md) · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Sales](business-functionality/sales.md)
 - [Page 9303 "Blanket Sales Orders"](../../objects/page/9303.md) · on [Table 36 "Sales Header"](../../objects/table/36.md) · via [Sales](business-functionality/sales.md)
@@ -5459,13 +5460,15 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Report 99000780 "Capacity Task List"](../../objects/report/99000780.md) · via [Manufacturing](business-functionality/manufacturing.md)
 - [Report 99000783 "Work Center Load"](../../objects/report/99000783.md) · captioned "Work Center Load (obsolete)" · via [Manufacturing](business-functionality/manufacturing.md)
 - [Report 99000784 "Machine Center Load"](../../objects/report/99000784.md) · captioned "Machine Center Load (obsolete)" · via [Manufacturing](business-functionality/manufacturing.md)
+- [Report 99000785 "Work Center Load/Bar"](../../objects/report/99000785.md) · captioned "Work Center Load/Bar (obsolete)" · via [Manufacturing](business-functionality/manufacturing.md)
 - [Report 99000786 "Machine Center Load/Bar"](../../objects/report/99000786.md) · captioned "Machine Center Load/Bar (obsolete)" · via [Manufacturing](business-functionality/manufacturing.md)
 - [Report 99000787 "Routing Sheet"](../../objects/report/99000787.md) · via [Manufacturing](business-functionality/manufacturing.md)
 - [Report 99000788 "Prod. Order - Shortage List"](../../objects/report/99000788.md) · via [Manufacturing](business-functionality/manufacturing.md)
 - [Report 99000789 "Subcontractor - Dispatch List"](../../objects/report/99000789.md) · via [Manufacturing](business-functionality/manufacturing.md)
 - [Report 99000791 "Production Order Statistics"](../../objects/report/99000791.md) · via [Manufacturing](business-functionality/manufacturing.md)
 - [Report 99001048 "Planning Availability"](../../objects/report/99001048.md) · captioned "Planning Availability (Obsolete)" · via [Inventory](business-functionality/inventory.md)
+- [Report 99003804 "Demand Forecast"](../../objects/report/99003804.md) · captioned "Demand Forecast (Obsolete)" · via [Inventory](business-functionality/inventory.md)
 
-Learn also names 428 objects with no object page: page/86, page/311, page/325, page/326, page/327, page/328, page/950, page/1407, page/1805, page/1811, page/1826, page/2107, page/5261, page/5390, page/5540, page/7379, page/8451, page/9142, page/9245, page/10015, page/10016, page/10017, page/10018, page/10019, page/10020, page/10021, page/10030, page/10031, page/10033, page/10034, page/10036, page/10037, page/10048, page/10049, page/10050, page/10051, page/10101, page/10120, page/10121, page/10122, page/10123, page/10124, page/10125, page/10126, page/10127, page/10128, page/10129, page/10130, page/10131, page/10133, page/10134, page/10140, page/10141, page/10143, page/10144, page/10146, page/10147, page/10148, page/10455, page/10456, page/10458, page/10459, page/10530, page/10531, page/10532, page/10537, page/10538, page/10539, page/10601, page/10602, page/10604, page/10670, page/10671, page/10672, page/10673, page/10674, page/10675, page/10677, page/10678, page/10679, page/10680, page/10685, page/10686, page/10687, page/10688, page/10689, page/10690, page/10691, page/10692, page/10696, page/10697, page/10698, page/10704, page/10705, page/10710, page/10736, page/10737, page/10738, page/10740, page/10744, page/10751, page/10752, page/10753, page/10770, page/10771, page/10810, page/10811, page/10842, page/10860, page/10861, page/10864, page/10865, page/10866, page/10867, page/10868, page/10869, page/10870, page/10871, page/10872, page/10873, page/10874, page/10877, page/10878, page/10879, page/10880, page/10882, page/10900, page/11002, page/11003, page/11004, page/11007, page/11008, page/11009, page/11014, page/11016, page/11017, page/11019, page/11023, page/11024, page/11025, page/11026, page/11027, page/11028, page/11212, page/11290, page/11291, page/11300, page/11301, page/11303, page/11306, page/11307, page/11308, page/11400, page/11402, page/11403, page/11405, page/11500, page/11501, page/11502, page/11510, page/11511, page/11512, page/11513, page/11514, page/11515, page/11516, page/11517, page/11518, page/11600, page/11601, page/11602, page/11603, page/11604, page/11605, page/11606, page/11607, page/11608, page/11609, page/11610, page/11611, page/11612, page/11613, page/11614, page/11615, page/12100, page/12102, page/12103, page/12104, page/12105, page/12111, page/12112, page/12113, page/12116, page/12119, page/12121, page/12122, page/12123, page/12126, page/12127, page/12132, page/12133, page/12135, page/12140, page/12141, page/12143, page/12149, page/12150, page/12151, page/12152, page/12153, page/12154, page/12155, page/12156, page/12158, page/12170, page/12171, page/12172, page/12173, page/12174, page/12175, page/12176, page/12178, page/12180, page/12181, page/12182, page/12183, page/12184, page/12185, page/12186, page/12187, page/12188, page/12189, page/12190, page/12192, page/12193, page/12194, page/12195, page/12198, page/12199, page/12202, page/12203, page/12204, page/12409, page/12410, page/12411, page/13640, page/13645, page/13646, page/13647, page/17101, page/27001, page/27002, page/27003, page/27010, page/27011, page/27012, page/27013, page/27014, page/27015, page/27016, page/27017, page/27018, page/27030, page/27031, page/27032, page/27033, page/27034, page/27040, page/27041, page/27042, page/27043, page/27044, page/28040, page/28041, page/28042, page/28043, page/28044, page/28071, page/28072, page/28073, page/28074, page/28075, page/28076, page/28077, page/28078, page/28079, page/28080, page/28081, page/28082, page/28090, page/28091, page/28092, page/28093, page/28164, page/28165, page/28166, page/28167, page/31077, page/35291, page/35292, page/35293, page/35294, page/35295, page/35296, page/35297, page/35298, page/35299, page/35300, page/35301, page/35302, page/35303, page/35304, page/35305, page/35306, page/35490, page/35491, page/35561, page/35562, page/35563, page/35848, page/35850, page/36601, page/36646, page/100136, page/700071, page/700072, page/2000000, page/2000001, page/2000003, page/2000005, page/2000006, page/2000020, page/2000021, page/2000022, page/2000040, page/2000041, page/2000042, page/2000043, page/2000045, page/3010531, page/3010532, page/3010541, page/3010542, page/3010543, page/3010830, page/3010831, page/3010832, page/3010834, page/3010835, page/5005270, page/5005271, page/5005272, page/5005273, page/5005274, page/5005275, page/5005276, page/5005279, page/5005280, page/5005281, page/5005282, page/5005283, page/7000003, page/7000004, page/7000005, page/7000006, page/7000007, page/7000008, page/7000009, page/7000010, page/7000011, page/7000012, page/7000014, page/7000015, page/7000016, page/7000017, page/7000018, page/7000019, page/7000020, page/7000021, page/7000022, page/7000024, page/7000025, page/7000029, page/7000030, page/7000031, page/7000032, page/7000033, page/7000034, page/7000036, page/7000037, page/7000040, page/7000041, page/7000044, page/7000045, page/7000048, page/9900083, page/15000000, page/15000002, page/15000004, page/15000006, page/15000007, page/15000010, page/15000100, page/32000000, page/32000001, page/32000002, page/32000004, page/32000005, page/32000006, page/70000013, page/99000919, page/99001500, page/99001503, page/99001504, page/99001560, page/99001561, report/6086, report/6166, report/6168, report/6298, report/6299, report/8008, report/8010, report/8011, report/10007, report/10008, report/990000785, report/990003804.
+Learn also names 426 objects with no object page: page/86, page/311, page/325, page/326, page/327, page/328, page/950, page/1407, page/1805, page/1811, page/1826, page/2107, page/5261, page/5390, page/5540, page/7379, page/8451, page/9142, page/9245, page/10015, page/10016, page/10017, page/10018, page/10019, page/10020, page/10021, page/10030, page/10031, page/10033, page/10034, page/10036, page/10037, page/10048, page/10049, page/10050, page/10051, page/10101, page/10120, page/10121, page/10122, page/10123, page/10124, page/10125, page/10126, page/10127, page/10128, page/10129, page/10130, page/10131, page/10133, page/10134, page/10140, page/10141, page/10143, page/10144, page/10146, page/10147, page/10148, page/10455, page/10456, page/10458, page/10459, page/10530, page/10531, page/10532, page/10537, page/10538, page/10539, page/10601, page/10602, page/10604, page/10670, page/10671, page/10672, page/10673, page/10674, page/10675, page/10677, page/10678, page/10679, page/10680, page/10685, page/10686, page/10687, page/10688, page/10689, page/10690, page/10691, page/10692, page/10696, page/10697, page/10698, page/10704, page/10705, page/10710, page/10736, page/10737, page/10738, page/10740, page/10744, page/10751, page/10752, page/10753, page/10770, page/10771, page/10810, page/10811, page/10842, page/10860, page/10861, page/10864, page/10865, page/10866, page/10867, page/10868, page/10869, page/10870, page/10871, page/10872, page/10873, page/10874, page/10877, page/10878, page/10879, page/10880, page/10882, page/10900, page/11002, page/11003, page/11004, page/11007, page/11008, page/11009, page/11014, page/11016, page/11017, page/11019, page/11023, page/11024, page/11025, page/11026, page/11027, page/11028, page/11212, page/11290, page/11291, page/11300, page/11301, page/11303, page/11306, page/11307, page/11308, page/11400, page/11402, page/11403, page/11405, page/11500, page/11501, page/11502, page/11510, page/11511, page/11512, page/11513, page/11514, page/11515, page/11516, page/11517, page/11518, page/11600, page/11601, page/11602, page/11603, page/11604, page/11605, page/11606, page/11607, page/11608, page/11609, page/11610, page/11611, page/11612, page/11613, page/11614, page/11615, page/12100, page/12102, page/12103, page/12104, page/12105, page/12111, page/12112, page/12113, page/12116, page/12119, page/12121, page/12122, page/12123, page/12126, page/12127, page/12132, page/12133, page/12135, page/12140, page/12141, page/12143, page/12149, page/12150, page/12151, page/12152, page/12153, page/12154, page/12155, page/12156, page/12158, page/12170, page/12171, page/12172, page/12173, page/12174, page/12175, page/12176, page/12178, page/12180, page/12181, page/12182, page/12183, page/12184, page/12185, page/12186, page/12187, page/12188, page/12189, page/12190, page/12192, page/12193, page/12194, page/12195, page/12198, page/12199, page/12202, page/12203, page/12204, page/12409, page/12410, page/12411, page/13640, page/13645, page/13646, page/13647, page/17101, page/27001, page/27002, page/27003, page/27010, page/27011, page/27012, page/27013, page/27014, page/27015, page/27016, page/27017, page/27018, page/27030, page/27031, page/27032, page/27033, page/27034, page/27040, page/27041, page/27042, page/27043, page/27044, page/28040, page/28041, page/28042, page/28043, page/28044, page/28071, page/28072, page/28073, page/28074, page/28075, page/28076, page/28077, page/28078, page/28079, page/28080, page/28081, page/28082, page/28090, page/28091, page/28092, page/28093, page/28164, page/28165, page/28166, page/28167, page/31077, page/35291, page/35292, page/35293, page/35294, page/35295, page/35296, page/35297, page/35298, page/35299, page/35300, page/35301, page/35302, page/35303, page/35304, page/35305, page/35306, page/35490, page/35491, page/35561, page/35562, page/35563, page/35848, page/35850, page/36601, page/36646, page/100136, page/700071, page/700072, page/2000000, page/2000001, page/2000003, page/2000005, page/2000006, page/2000020, page/2000021, page/2000022, page/2000040, page/2000041, page/2000042, page/2000043, page/2000045, page/3010531, page/3010532, page/3010541, page/3010542, page/3010543, page/3010830, page/3010831, page/3010832, page/3010834, page/3010835, page/5005270, page/5005271, page/5005272, page/5005273, page/5005274, page/5005275, page/5005276, page/5005279, page/5005280, page/5005281, page/5005282, page/5005283, page/7000003, page/7000004, page/7000005, page/7000006, page/7000007, page/7000008, page/7000009, page/7000010, page/7000011, page/7000012, page/7000014, page/7000015, page/7000016, page/7000017, page/7000018, page/7000019, page/7000020, page/7000021, page/7000022, page/7000024, page/7000025, page/7000029, page/7000030, page/7000031, page/7000032, page/7000033, page/7000034, page/7000036, page/7000037, page/7000040, page/7000041, page/7000044, page/7000045, page/7000048, page/9900083, page/15000000, page/15000002, page/15000004, page/15000006, page/15000007, page/15000010, page/15000100, page/32000000, page/32000001, page/32000002, page/32000004, page/32000005, page/32000006, page/70000013, page/99000919, page/99001500, page/99001503, page/99001504, page/99001560, page/99001561, report/6086, report/6166, report/6168, report/6298, report/6299, report/8008, report/8010, report/8011, report/10007, report/10008.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

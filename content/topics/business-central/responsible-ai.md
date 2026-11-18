@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -158,7 +158,6 @@ links:
     - video/eA7CENx7se0
   posts:
     - post/demiliani-com/15935
-    - post/demiliani-com/17653
   guidelines: []
 learn_toc_path:
   - Responsible AI
@@ -169,7 +168,7 @@ coverage:
   learn: 16
   code: 0
   video: 3
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: f2775e8972cfc70743070e264192dc1ce538505db6e68fedc8c2bce0d391ad5d
@@ -225,7 +224,6 @@ Start with the index page, Responsible AI FAQs for Dynamics 365 Business Central
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../posts/demiliani-com/15935.md) (community post): "The Allow data movement toggle appears only when Business Central environment location differs from Copilot processing geography"
-- [Fewer tools, better agents: curating the Dynamics 365 Business Central MCP catalog.](../../posts/demiliani-com/17653.md) (community post): "A large MCP catalog is a security risk and confuses agents"
 - [What's New: Item Substitution with Copilot (2024 release wave 2)](../../videos/bCIcq1zESKk.md) (video): "responsible ai; llm; embedding; product information"
 - [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../videos/cVfZoDwKYpI.md) (video): "harmful eval testing and red teaming; eval-driven development"
 - [What's New: Testing Copilot in Business Central (2024 release wave 2)](../../videos/eA7CENx7se0.md) (video): "responsible ai; test automation; external evaluation with Azure AI Studio"

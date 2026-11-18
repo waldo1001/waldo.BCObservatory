@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/finance/financial-analytics
 type: topic
 title: Financial analytics
-summary: "Financial analytics in Business Central covers the tools for analyzing finance data: the Power BI finance app, Financial Reporting, built-in analysis tools and reports, ad-hoc Data Analysis, and multi-company consolidation. It answers questions about choosing a tool, setting it up, and reading the results."
+summary: Financial analytics in Business Central covers the Power BI finance app, Financial Reporting, built-in analysis tools and standard finance reports, plus ad-hoc data analysis and multi-company consolidation. It answers questions about analyzing, reporting on and consolidating finance data.
 tier: official
 language: en
 system: finance
 review:
   state: reviewed
   by: opus
-  at: "2026-11-17T01:01:06.605Z"
+  at: "2026-11-18T01:00:08.963Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 07346aedcd64bfa880779f57868ed3245ade29e512750a1546023469e2d4911e
+  input_hash: 0696c71219b75ce318d373798e384cf704be89a371d1917480549553607a6625
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/payables-reports
@@ -34,8 +34,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance
-    title: Ad-hoc analysis of finance data
-    date: "2025-02-13"
+    title: Ad-Hoc Analysis of Finance Data
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -306,12 +306,15 @@ links:
   objects:
     - object/page/18
     - object/page/20
+    - object/page/25
+    - object/page/29
     - object/page/37
     - object/page/65
     - object/page/99
     - object/page/103
     - object/page/104
     - object/page/108
+    - object/page/116
     - object/page/118
     - object/page/120
     - object/page/121
@@ -329,7 +332,6 @@ links:
     - object/page/488
     - object/page/489
     - object/page/490
-    - object/page/516
     - object/page/545
     - object/page/552
     - object/page/555
@@ -374,12 +376,8 @@ links:
     - object/page/2632
     - object/page/2633
     - object/page/2634
-    - object/page/5119
     - object/page/8364
     - object/page/9027
-    - object/page/9300
-    - object/page/9301
-    - object/page/9305
     - object/page/9370
     - object/page/9371
     - object/page/9372
@@ -522,7 +520,7 @@ children:
   - topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-reports
 coverage:
   learn: 129
-  code: 188
+  code: 186
   video: 1
   blog: 2
   guideline: 0
@@ -546,6 +544,7 @@ bc_forms:
   - 25
   - 27
   - 28
+  - 29
   - 30
   - 31
   - 32
@@ -564,6 +563,7 @@ bc_forms:
   - 111
   - 112
   - 113
+  - 116
   - 117
   - 118
   - 120
@@ -601,7 +601,6 @@ bc_forms:
   - 490
   - 503
   - 512
-  - 516
   - 545
   - 552
   - 555
@@ -671,7 +670,6 @@ bc_forms:
   - 4406
   - 4409
   - 4410
-  - 5119
   - 5600
   - 5601
   - 5603
@@ -684,9 +682,6 @@ bc_forms:
   - 5611
   - 8364
   - 9027
-  - 9300
-  - 9301
-  - 9305
   - 9370
   - 9371
   - 9372
@@ -715,26 +710,27 @@ narrative: generated
 
 # Financial analytics
 
-> Financial analytics in Business Central covers the tools for analyzing finance data: the Power BI finance app, Financial Reporting, built-in analysis tools and reports, ad-hoc Data Analysis, and multi-company consolidation. It answers questions about choosing a tool, setting it up, and reading the results.
+> Financial analytics in Business Central covers the Power BI finance app, Financial Reporting, built-in analysis tools and standard finance reports, plus ad-hoc data analysis and multi-company consolidation. It answers questions about analyzing, reporting on and consolidating finance data.
 
 Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Financial analytics · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Financial analytics groups the ways Business Central lets you look at finance data. Options range from quick analysis on list pages, to configurable financial statements and KPIs, to an embedded Power BI app and a large set of standard reports.
+Financial analytics groups the ways Business Central turns finance data into insight. Two own pages cover ad-hoc analysis with the Data Analysis feature on list pages, and consolidation of data from several companies into one consolidated company. The overview page ties these to the other areas.
 
-The hub's own pages cover three things. The overview page introduces the features. One page explains ad-hoc analysis with the Data Analysis feature on general ledger, customer and vendor lists. Another explains how to consolidate data from several companies into one consolidated company.
+The subtopics split by approach. The Power BI finance app offers an embedded app with a semantic model, KPI reference and reports on aging, profitability, liquidity and budget comparison. Financial reporting covers building and exporting financial statements and KPIs. Built-in finance analysis tools cover budget versus actual, cash flow and the payment practices report. Built-in finance reports has one page per standard report.
 
-The subtopics go deeper. Power BI finance app covers the app's setup, semantic model, KPIs and reports. Financial reporting covers designing and auditing reports. Built-in finance analysis tools covers budget comparison, cash flow and payment practices. Built-in finance reports is the reference for standard reports. Start with the overview page, then go to the subtopic that fits your need.
+To start, read the overview page to pick an approach. Use Data Analysis for quick questions, Financial reporting for statements, the Power BI app for dashboards, and the consolidation page when data sits in more than one company.
 
 ## Key points
 
-- Data Analysis lets you analyze general ledger, customer receivables and vendor payables from list pages without running reports. It offers Pivot Mode, Analysis Filters and multiple analysis tabs.
-- Consolidation combines data from subsidiaries or business units into a consolidated company. It supports different charts of accounts, currencies, fiscal years and environments, and includes eliminations, G/L account mapping and file-based transfer.
-- The Power BI finance app (19 pages) covers setup, the semantic model, a KPI reference and reports on receivables and payables aging, profitability, liquidity, liabilities, budget comparison and ledger entry reconciliation.
-- Financial reporting (20 pages) covers row and column definitions, account categories, dimensions, Excel layouts, statistical accounts and KPI web services. It also covers telemetry and auditing.
-- Built-in analysis tools cover budget versus actual comparison, cash flow analysis on the Accountant Role Center, the payment practices report, and the general ledger and chart of accounts structure.
-- Built-in finance reports (83 pages) is a reference for standard reports on general ledger, trial balances, receivables and payables, VAT, consolidation, cost accounting, deferrals and dimensions. It notes which reports are obsolete or replaced by Excel versions.
+- Data Analysis lets you examine General Ledger, Customer Ledger and Vendor Ledger Entries interactively from list pages, with Pivot Mode and analysis filters, without running a report.
+- Consolidation combines data from subsidiaries or business units into a consolidated company, and supports different charts of accounts, currencies, fiscal years and environments.
+- Consolidation features include eliminations, currency exchange rates, business units, G/L account mapping and file-based transfer.
+- The Power BI finance app section (19 pages) covers setup, the semantic model, a KPI reference and reports on receivables and payables aging, profitability, liquidity, liabilities, budget comparison and ledger entry reconciliation.
+- Financial reporting (20 pages) covers row and column definitions, account categories, dimensions, Excel layouts, statistical accounts, KPI web services, auditing and telemetry.
+- Built-in finance analysis tools cover budget versus actual, cash flow analysis on the Accountant Role Center, the payment practices report, and general ledger and chart of accounts structure.
+- Built-in finance reports (83 pages) describes each standard report, including its options, filters and typical users, across G/L, trial balance, VAT, consolidation, cost accounting, deferral, dimension and fixed asset reports.
 
 ## Subtopics
 
@@ -745,8 +741,7 @@ The subtopics go deeper. Power BI finance app covers the app's setup, semantic m
 
 ## More Learn pages
 
-- [Ad-hoc analysis of finance data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance): Learn how to use the data analysis mode to analyze finance data.
-  - In the observatory: [Page 116 "G/L Registers"](../../../../objects/page/116.md), [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md), [Page 29 "Vendor Ledger Entries"](../../../../objects/page/29.md)
+- [Ad-Hoc Analysis of Finance Data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance): Analyze receivables, payables, income, and asset transactions in Business Central with analysis mode on general ledger and customer or vendor entries.
 - [Consolidate data from multiple companies](https://learn.microsoft.com/dynamics365/business-central/finance-consolidated-company-reporting): This article explains how you can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company.
   - In the observatory: [Report 91 "Export Consolidation"](../../../../objects/report/91.md)
 - [Financial analytics](https://learn.microsoft.com/dynamics365/business-central/bi): Business Central helps you gather, analyze, and share company data for business intelligence.
@@ -766,17 +761,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
 - [Page 20 "General Ledger Entries"](../../../../objects/page/20.md) · on [Table 17 "G/L Entry"](../../../../objects/table/17.md)
+- [Page 25 "Customer Ledger Entries"](../../../../objects/page/25.md) · on [Table 21 "Cust. Ledger Entry"](../../../../objects/table/21.md)
+- [Page 29 "Vendor Ledger Entries"](../../../../objects/page/29.md) · on [Table 25 "Vendor Ledger Entry"](../../../../objects/table/25.md)
 - [Page 103 "Account Schedule Names"](../../../../objects/page/103.md) · captioned "(Financial Report) Row Definitions" · on [Table 84 "Acc. Schedule Name"](../../../../objects/table/84.md)
 - [Page 108 "Financial Reports"](../../../../objects/page/108.md) · on [Table 88 "Financial Report"](../../../../objects/table/88.md)
+- [Page 116 "G/L Registers"](../../../../objects/page/116.md) · on [Table 45 "G/L Register"](../../../../objects/table/45.md)
 - [Page 198 "Acc. Sched. KPI WS Dimensions"](../../../../objects/page/198.md) · captioned "Account Schedule KPI WS Dimensions" · on [Table 197 "Acc. Sched. KPI Buffer"](../../../../objects/table/197.md)
 - [Page 240 "Business Unit List"](../../../../objects/page/240.md) · captioned "Business Units" · on [Table 220 "Business Unit"](../../../../objects/table/220.md)
 - [Page 490 "Acc. Schedule Overview"](../../../../objects/page/490.md) · captioned "Financial Report" · on [Table 85 "Acc. Schedule Line"](../../../../objects/table/85.md)
-- [Page 516 "Sales Lines"](../../../../objects/page/516.md) · on [Table 37 "Sales Line"](../../../../objects/table/37.md)
 - [Page 1827 "Business Units Setup Subform"](../../../../objects/page/1827.md) · on [Table 1827 "Business Unit Setup"](../../../../objects/table/1827.md)
-- [Page 5119 "Sales Cycles"](../../../../objects/page/5119.md) · on [Table 5090 "Sales Cycle"](../../../../objects/table/5090.md)
-- [Page 9300 "Sales Quotes"](../../../../objects/page/9300.md) · on [Table 36 "Sales Header"](../../../../objects/table/36.md)
-- [Page 9301 "Sales Invoice List"](../../../../objects/page/9301.md) · captioned "Sales Invoices" · on [Table 36 "Sales Header"](../../../../objects/table/36.md)
-- [Page 9305 "Sales Order List"](../../../../objects/page/9305.md) · captioned "Sales Orders" · on [Table 36 "Sales Header"](../../../../objects/table/36.md)
 - [Page 36984 "Financial Overview"](../../../../objects/page/36984.md) · captioned "Financial Overview (Power BI)"
 - [Page 36985 "Income Statement by Month"](../../../../objects/page/36985.md) · captioned "Income Statement by Month (Power BI)"
 - [Page 36986 "Balance Sheet by Month"](../../../../objects/page/36986.md) · captioned "Balance Sheet by Month (Power BI)"

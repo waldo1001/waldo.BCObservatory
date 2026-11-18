@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T00:48:58.898Z"
+  at: "2026-11-18T00:47:52.902Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d40d4e7d8acfae68253649d07951868ae15b06f93e787458f83e28bce2e72451
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/Apps/W1/PowerBIReports/app/Core/ReportDeployments/PBIReportSetup.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Apps/W1/PowerBIReports/app/Core/ReportDeployments/PBIReportSetup.Interface.al
     title: src/Apps/W1/PowerBIReports/app/Core/ReportDeployments/PBIReportSetup.Interface.al (releases/29.x)
     date: null
-    commit: ae251bc67417b1b37b41aaf52480e6a5c8f9294e
+    commit: 4f49a1eb5ebb7384620fe1654dd53536c3abca03
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "PBI Report Setup" in PowerBIReports (Microsoft.PowerBIReports). 3 public procedures. Introduced in BC29, still in BC30.
 
-PowerBIReports · Microsoft.PowerBIReports · BC29-30 · [source at ae251bc6](https://github.com/microsoft/BCApps/blob/ae251bc67417b1b37b41aaf52480e6a5c8f9294e/src/Apps/W1/PowerBIReports/app/Core/ReportDeployments/PBIReportSetup.Interface.al) · facts from BC29
+PowerBIReports · Microsoft.PowerBIReports · BC29-30 · [source at 4f49a1eb](https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Apps/W1/PowerBIReports/app/Core/ReportDeployments/PBIReportSetup.Interface.al) · facts from BC29
 
 ## Procedures
 

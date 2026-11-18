@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -254,6 +254,7 @@ links:
     - change/bcapps/13159
     - change/bcapps/13228
     - change/bcapps/13336
+    - change/bcapps/13601
     - change/bcapps/13861
     - change/bcapps/9089
     - change/bcapps/9195
@@ -419,6 +420,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13159 [29x] Bug 652332 Issuing multiple Reminders or Finance Charge Memos with Print, produces a PDF only for the last one](../../../../changes/bcapps/13159.md) (code change): "printing of multiple Reminders or Finance Charge Memos so all selected documents"
 - [#13228 [Master]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](../../../../changes/bcapps/13228.md) (code change): "matching changes to customer ledger entries, across W1"
 - [#13336 [master] Create Reminders fails with "There is no Reminder Line within the filter" when all overdue entries are On Hold (new communication texts)](../../../../changes/bcapps/13336.md) (code change): "Create Reminders fails with "There is no Reminder Line within the filter" when all overdue entries are On Hold"
+- [#13601 Fixes #8840: Fix TryGetDictionaryValueFromKey in Customer Statistics FactBox](../../../../changes/bcapps/13601.md) (code change): "Fixed TryGetDictionaryValueFromKey method in the Customer Statistics FactBox"
 - [#13861 [Master]- Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](../../../../changes/bcapps/13861.md) (code change): "Adds missing dispute status code for on hold and document synchronization"
 - [#9089 Merge-ES-Excluded-from-Calculation-to-W1](../../../../changes/bcapps/9089.md) (code change): "Customer, vendor, ledger entry and General Ledger Setup tables change"
 - [#9195 Fix Aged Accounts Receivable (Report 120) performance on large ledger history](../../../../changes/bcapps/9195.md) (code change): "Aged Accounts Receivable report (Report 120) now reads only the four columns"

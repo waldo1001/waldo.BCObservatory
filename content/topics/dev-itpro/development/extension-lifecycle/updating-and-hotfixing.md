@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,6 +78,7 @@ links:
     - post/yzhums-com/67809
   guidelines: []
   changes:
+    - change/bcapps/13558
     - change/bcquality/210
 learn_toc_path:
   - Development
@@ -137,6 +138,7 @@ Two FAQ pages cover submitting and publishing updated Marketplace apps: validati
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13558 Add logging table management during installation and upgrade processes](../../../../changes/bcapps/13558.md) (code change): "The install and upgrade codeunits were changed to set this up"
 - [#210 knowledge(upgrade): upgrade code must not use ChangeCompany](../../../../changes/bcquality/210.md) (code change): "upgrade code must not use ChangeCompany. New quality rule and knowledge article prevent upgrade code from using ChangeCompany"
 - [Business Central 2025 wave 2 (BC27): UpdateAuditFields Method on DataTransfer is now in Cloud scope](../../../../posts/yzhums-com/67809.md) (community post): "UpdateAuditFields method on DataTransfer was previously OnPrem-only, now available in Cloud scope"
 

@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/inventory/inventory-analytics/built-in-inventory-and-warehouse-reports",
-  "input_hash": "eb059f2bb012dfc71c00eb3c46e221705a65f057fff2f018d7f12b9de5b836fe",
-  "summary": "Built-in inventory and warehouse reports in Business Central: availability, valuation, transactions, sales and purchase analysis, item analysis (ABC, age, expiration, dimensions), warehouse bin and shipment reports, and printable barcode/QR labels. Use it to find which report answers a given inventory or warehouse question.",
-  "overview": "This section is a catalog of standard reports for inventory and warehouse work. The landing page, Inventory and Warehouse Reports and Analytics, introduces reporting on current and past activity, including barcode printing. The other pages each describe one report, what it shows and who uses it.\n\nThe reports fall into groups. Availability and planning: Inventory Availability, Availability Plan Excel, Planning Availability, Production Forecast. Valuation and cost: Inventory Valuation, Status, Cost and price list, Item Charges - Specification, Transaction Detail. Sales and purchase analysis: Customer Sales, Order Details, Sales Back Orders, Top 10 List, Vendor Purchases, Purchase Orders, Item/vendor catalog. Item analysis: ABC Analysis, Item Age Composition, Item Expiration - Quantity, Item Substitutions, Item Dimensions Detail and Total. Warehouse: Picking List, Adjustment Bin, Bin List, Warehouse Shipment Status. Label reports: Item GTIN, Lot No, Reference No. and SN labels.\n\nStart with the landing page for orientation, then open the page for the report that matches your question. Each page is self-contained, so there is no required reading order.",
+  "input_hash": "85f374240ad781bbf42cb48425a5ddbfe600a39a55381ff96dfc98a492e611ea",
+  "summary": "Built-in inventory and warehouse reports in Business Central: availability, valuation, cost and price, sales and purchase order, dimension, expiration, aging, warehouse bin and shipment reports, plus barcode and QR label reports. Answers which report shows what, and which are obsolete.",
+  "overview": "This section is a catalog of standard reports for inventory and warehouse work. Each page describes one report: what it shows, which filters or options it has, and what it is used for. An overview page, Inventory and Warehouse Reports and Analytics, introduces the area, including barcode printing.\n\nThe reports fall into a few groups. Stock position and planning: Inventory Availability, Availability Plan Excel, Item Age Composition, Item Expiration - Quantity and Item - ABC Analysis. Valuation and cost: Inventory Valuation, Status report for inventory valuation, Inventory Cost and Price List, Item Charges - Specification, Transaction Detail and the Item Dimensions reports. Orders and trading partners: Order Details, Sales Back Orders, Purchase Orders, Picking List, Customer Sales, Vendor Purchases, Top 10 List, Item Substitutions and Item/Vendor Catalog. Warehouse: Adjustment Bin, Bin List and Shipment Status. Label reports (Item GTIN, Lot No, Reference No., SN) print barcodes and QR codes using Word layouts.\n\nStart with the overview page, then go to the report that matches your question. Check the obsolete reports first: Demand Forecast and Planning Availability should not be used in new work.",
   "key_points": [
-    "Inventory Availability and Planning Availability combine on-hand stock with expected supply and demand from sales orders, purchase orders and transfers; Availability Plan Excel adds gross requirements, scheduled and planned receipts.",
-    "Inventory Valuation shows beginning and closing balances with quantity and value changes, and helps reconcile the inventory subledger to general ledger accounts, with location filters and posting group totals.",
-    "Inventory Transaction Detail lists beginning quantity, each increase and decrease with running totals, and ending quantity for selected items over a period.",
-    "Sales-side reports: Customer Sales (quantities, amounts, discounts, profit), Order Details, Sales Back Orders (lines that cannot be fulfilled by the shipment date) and Top 10 List (highest or lowest selling items).",
-    "Item analysis reports: ABC Analysis classifies items into A, B, C by sales contribution with configurable percentages; Item Age Composition ages quantity and value over three equal periods; Item Expiration - Quantity covers expiration-tracked items.",
-    "Item Dimensions Detail and Total analyze value entries by dimension levels from analysis views, with location as an automatic dimension.",
-    "Warehouse reports: Picking List, Adjustment Bin (advanced warehouses), Bin List (locations where bins are mandatory) and Warehouse Shipment Status per location.",
-    "Label reports (Item GTIN, Lot No, Reference No., SN) print 1D barcodes and 2D QR codes using Word layouts for scanning at receiving, picking and put-away."
+    "Demand Forecast (Obsolete) was marked obsolete in version 27.0 and is planned for removal; Planning Availability is also obsolete and will be removed in a future release.",
+    "Inventory Valuation shows beginning and closing balances and helps reconcile the inventory subledger to general ledger accounts; the Status report shows valuation as of a given date by entry type.",
+    "Inventory Availability and Availability Plan Excel combine on-hand stock with supply and demand from sales orders, purchase orders and transfers.",
+    "Order reports: Order Details and Sales Back Orders track shipment dates and overdue lines; Purchase Orders tracks expected receipt dates and overdue back orders; Picking List shows quantities to ship with location and bin.",
+    "Analysis reports: ABC Analysis classifies items A, B, C by sales contribution; Top 10 List ranks by sales or inventory; Age Composition and Item Expiration find slow-moving or expiring stock.",
+    "Item Dimensions - Detail and Total break down value entries by dimension levels using analysis view configuration, and Total supports customizable analysis columns.",
+    "Item GTIN, Lot No, Reference No. and SN label reports print 1D barcodes and QR codes using Word layouts, for receiving, picking and put-away.",
+    "Warehouse reports: Adjustment Bin (advanced warehouses), Bin List (locations with mandatory bins) and Shipment Status (open source documents by location and bin)."
   ],
   "members_used": 31,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-17T01:00:14.193Z",
+  "at": "2026-11-18T00:59:14.563Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.032237
+    "cost_usd": 0.034582
   }
 }

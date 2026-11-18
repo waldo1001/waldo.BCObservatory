@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -151,6 +151,7 @@ links:
   videos: []
   posts:
     - post/yzhums-com/63735
+    - post/yzhums-com/69818
     - post/yzhums-com/72611
   guidelines: []
   changes:
@@ -170,7 +171,7 @@ coverage:
   learn: 16
   code: 5
   video: 0
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 1480
@@ -224,7 +225,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11967 Block Edit in Excel for pages based on the User table](../../../changes/bcapps/11967.md) (code change): "Edit in Excel now blocks page-based editing for tables that are the User table"
 - [#9454 Fix site scoped contextinfo](../../../changes/bcapps/9454.md) (code change): "SharePoint request-digest calls now correctly target site-scoped URLs"
-- [Dynamics 365 Business Central Blog Series: Integrate Business Central with SharePoint](../../../posts/yzhums-com/63735.md) (community post): "Integrate Business Central with SharePoint. This is an index of a blog series on connecting Business Central with SharePoint."
+- [Dynamics 365 Business Central Blog Series: Integrate Business Central with SharePoint](../../../posts/yzhums-com/63735.md) (community post): "storing document attachments outside the database without customization. Files can be uploaded to and imported from SharePoint"
+- [Business Central 2026 release wave 1 (BC28): Storing Document Attachments outside the database (No customization) – See benefits of external storage support for document attachments](../../../posts/yzhums-com/69818.md) (community post): "store attachments in SharePoint, Azure, or SFTP"
 - [Business Central 2026 release wave 1 (BC28): Copy contacts from BC to Microsoft 365 (Outlook & Teams)](../../../posts/yzhums-com/72611.md) (community post): "copy contacts from BC to Microsoft 365 Outlook and Teams"
 
 ## Business Central pages and reports

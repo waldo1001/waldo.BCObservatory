@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/14203",
+  "input_hash": "379943e7c50054297bf3b2d3ade16846150a42259f333f70f95a43bffb451194",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-18T00:57:41.315Z",
+  "issues": [
+    "The PR fixes a work item (AB#659543) and narrows existing endpoint resolution in SaaS. That is a fix, not a feature.",
+    "Other content is supported by the description."
+  ],
+  "applied": [
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022705,
+    "changes_in_call": 6
+  }
+}

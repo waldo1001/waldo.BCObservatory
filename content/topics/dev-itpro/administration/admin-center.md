@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -276,6 +276,7 @@ links:
   posts:
     - post/demiliani-com/14163
     - post/demiliani-com/17552
+    - post/demiliani-com/17696
     - post/duiliotacconi-com/1537
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8
@@ -311,7 +312,7 @@ coverage:
   learn: 31
   code: 0
   video: 13
-  blog: 25
+  blog: 26
   guideline: 0
 bc_forms: []
 member_hash: 930971b86417f2cb2b2eec1be9a17360eecf5bc00c57b0be177b1f74f8f8c24d
@@ -411,14 +412,14 @@ Start with the Business Central Administration Center page for an overview, then
   - Each purchased extra production environment adds 4 GB shared storage capacity and includes three more sandbox environments.
   - Content of nonsystem tables counts toward database usage; uninstalled extension data counts if not deleted during uninstall.
 - [Manage consumption-based billing](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing): Learn about managing consumption-based billing for Business Central.
-  - Billable agent capabilities include Expense Agent (preview), Payables Agent, Sales Order Agent, and AI development toolkit (preview) design and coding.
-  - Copilot Credits are the billing units for consumption-based AI interactions and tasks in agents, with cost varying by agent type and features used.
-  - Expense Agent charges 50 Copilot Credits per uploaded receipt regardless of resulting expense line count.
-  - Sales Order Agent typical process costs 14 Copilot Credits base (analyze email, check availability, create quote/order, generate response) plus optional charges for attachments.
-  - Payables Agent charges 50 Copilot Credits per invoice processing plus 5 per invoice line for extraction and intelligent matching.
-  - Two billing models available: prepaid capacity purchased through Microsoft 365 or Partner Center, or pay-as-you-go linked to Azure subscription.
-  - Prepaid capacity automatically consumed from default Power Platform environment; admins can allocate portions to specific environments through Power Platform admin center.
-  - Prerequisite: For pay-as-you-go, link Business Central environment to Power Platform environment configured with Azure subscription.
+  - Expense Agent, Payables Agent, Sales Order Agent, and AI development toolkit use consumption-based billing charged per use via Copilot Credits.
+  - Status: Expense Agent and AI development toolkit are in preview; Payables Agent and Sales Order Agent are generally available as of November 2026.
+  - Expense Agent costs 25 Copilot Credits per receipt processing and 15 Credits per approval policy check per category.
+  - Sales Order Agent costs 2 Credits per email analysis, 2-5 Credits per attachment processing, and 5 Credits per availability check or order creation.
+  - Payables Agent costs 50 Copilot Credits to process each invoice and 5 Credits per invoice line.
+  - Prerequisite: Purchase Copilot Credit packs through Microsoft 365 admin center or Partner Center for prepaid capacity billing.
+  - Step: Allocate Copilot Credit capacity to specific Power Platform environments through Power Platform admin center to control consumption limits.
+  - Limit: AI capability becomes unavailable when quota is depleted; expenses without receipts and those without enabled approval policies incur no cost.
 - [Manage Tenant-Specific Notifications](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-notifications): Set up recipients for Business Central tenant notifications and use email, Microsoft 365, and telemetry to monitor environment events.
   - Admin center sends email notifications when major updates available, environment updates succeed or fail, or extensions need compatibility changes.
   - At least one administrator email must be registered as notification recipient to ensure awareness of events requiring action.
@@ -480,6 +481,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Dynamics 365 Business Central: important changes in PTE management.](../../../posts/demiliani-com/14163.md) (community post): "upload PTEs and schedule their installation via the Admin Center's Manage Apps page"
 - [Dynamics 365 Business Central: matching Production database configuration for Sandboxes.](../../../posts/demiliani-com/17552.md) (community post): "In the Admin Center, a sandbox can temporarily get the database configuration"
+- [YAMPI (Dynamics 365 Business Central Admin MCP Server) version 2.0.x: a ground-up refresh.](../../../posts/demiliani-com/17696.md) (community post): "MCP Server that enables AI assistants like GitHub Copilot and Claude to perform advanced Business Central administration tasks"
 - [How to choose the best Update Window in Dynamics 365 Business Central Online](../../../posts/duiliotacconi-com/1537.md) (community post): "pick a Business Central Online update window so that application hotfixes"
 - [Managing Apps in the Business Central Admin Center](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "The Manage Apps page in the Business Central admin center controls the stack"
 - [How I Recreated the Extension Upload Experience in Business Central](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8.md) (community post): "calling the Business Central admin center API from AL"

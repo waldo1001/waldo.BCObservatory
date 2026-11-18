@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -313,6 +313,7 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-why-is-my-job-queue-tasks-cue-in-red--5ef8045384
     - post/yzhums-com/66714
     - post/yzhums-com/69023
+    - post/yzhums-com/72539
   guidelines: []
   changes:
     - change/bcapps/10449
@@ -327,7 +328,7 @@ coverage:
   learn: 30
   code: 65
   video: 1
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms:
   - 1
@@ -501,6 +502,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [D365 Business Central: Why is my Job Queue Tasks Cue in Red?](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-why-is-my-job-queue-tasks-cue-in-red--5ef8045384.md) (community post): "You can adjust this threshold through the Cue Setup page"
 - [Dynamics 365 Business Central: How to add custom pages, reports, and queries to Role Explorer (Customizing Role Explorer)](../../../posts/yzhums-com/66714.md) (community post): "adding custom pages, reports, and queries to role centers"
 - [Dynamics 365 Business Central: How to show Experience Tier (Essential or Premium) on the Companies (list page)](../../../posts/yzhums-com/69023.md) (community post): "A page extension on Companies adds a read-only Experience column"
+- [Dynamics 365 Business Central: How to display/add “Sent To” on the Sent Emails (8883, List) page?](../../../posts/yzhums-com/72539.md) (community post): "page extension that reads the internal Message Id"
 - [What's new: Add existing table fields to pages (2023 release wave 2)](../../../videos/iHgaNJucyvI.md) (video): "Add existing table fields to pages; role customization; personalization; page design"
 
 ## Business Central pages and reports

@@ -12,7 +12,7 @@ review:
   at: "2026-10-30T08:08:54.137Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-18T01:00:22.250Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,6 +61,7 @@ links:
   posts:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-07-july-2026-cumulative-updates-for-dynamics-365-business-central--36ef84971d
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-11-november-2026-cumulative-updates-for-dynamics-365-business-central--702bed97e1
+    - post/yzhums-com/69818
     - post/yzhums-com/71880
     - post/yzhums-com/71917
     - post/yzhums-com/72767
@@ -77,7 +78,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 6
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: a2f92bceaf479bc775b034d22d378cbefa3e722b436187aa4531b067299c5c74
@@ -118,6 +119,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [July 2026 Cumulative Updates for Dynamics 365 Business Central](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-july-2026-cumulative-updates-for-dynamics-365-business-central--36ef84971d.md) (community post): "cumulative updates released for different release waves and versions"
 - [November 2026 Cumulative Updates for Dynamics 365 Business Central](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-11-november-2026-cumulative-updates-for-dynamics-365-business-central--702bed97e1.md) (community post): "November 2026 cumulative updates for Business Central on-premises: 29.1"
+- [Business Central 2026 release wave 1 (BC28): Storing Document Attachments outside the database (No customization) – See benefits of external storage support for document attachments](../../../../posts/yzhums-com/69818.md) (community post): "BC28 introduces external storage support for document attachments"
 - [General Available: Dynamics 365 Business Central 2026 release wave 1 (BC28)](../../../../posts/yzhums-com/71880.md) (community post): "Business Central 2026 release wave 1 (BC28, version 28.0) is generally available"
 - [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (April, 2026)](../../../../posts/yzhums-com/71917.md) (community post): "Cumulative updates for Microsoft Dynamics 365 Business Central released in April 2026"
 - [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (May, 2026)](../../../../posts/yzhums-com/72767.md) (community post): "Update 28.1 released for 2026 release wave 1, with separate cloud and on-premises"

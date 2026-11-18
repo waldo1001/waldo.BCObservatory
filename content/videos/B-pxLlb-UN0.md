@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:49:30.530Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-18T00:53:46.429Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -82,7 +82,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573341
+    - feature/573343
   topics: []
   localizations: []
   videos: []
@@ -170,15 +172,19 @@ features:
     verified: false
     status_source: video
   - name: Shopify API field changes for return information
-    status: unclear
+    status: ga
     t: 563
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573343"
   - name: Shopify API version upgrade to January 2026 release
-    status: unclear
+    status: ga
     t: 588
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573341"
   - name: Product variant support for 2000 variants
     status: unclear
     t: 615
@@ -255,9 +261,11 @@ On the order side, it covers presentment currency in imported sales documents, a
 | Presentment currency in sales documents | status not stated, demoed | [5:39](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=339s) |
 | Fulfillment troubleshooting information | status not stated | [7:36](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=456s) |
 | Fulfillment limitations removed | status not stated | [8:19](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=499s) |
-| Shopify API field changes for return information | status not stated | [9:23](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=563s) |
-| Shopify API version upgrade to January 2026 release | status not stated | [9:48](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=588s) |
+| Shopify API field changes for return information | generally available (roadmap [Process Shopify order changes, exchanges, and refunds](../features/573343.md)) | [9:23](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=563s) |
+| Shopify API version upgrade to January 2026 release | generally available (roadmap [Keep Shopify connections current](../features/573341.md)) | [9:48](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=588s) |
 | Product variant support for 2000 variants | status not stated | [10:15](https://www.youtube.com/watch?v=B-pxLlb-UN0&t=615s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 
