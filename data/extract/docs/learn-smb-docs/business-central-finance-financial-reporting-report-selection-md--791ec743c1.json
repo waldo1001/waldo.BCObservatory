@@ -1,28 +1,39 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/finance-financial-reporting-report-selection.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-report-selection",
-  "title": "Report selection for finance reports in Business Central",
-  "blob": "777ff6df7c3a69b144fa09a7cbc6829a51cd2b54",
-  "summary": "Overview of report selection for built-in finance reports in Business Central, including use of G/L account categories and changing default report definitions in General Ledger Setup.",
+  "title": "Report Selection for Finance Reports in Business Central",
+  "blob": "c765fcc15fdb5cfe97c7c28146c0359a4b7010da",
+  "summary": "Report selection for built-in finance reports in Business Central uses G/L account categories to create financial report definitions for Balance Sheet, Income Statement, Cash Flow, and Retained Earnings reports.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
     "financial reporting",
-    "gl account categories",
-    "report selection",
-    "balance sheet",
-    "income statement"
-  ],
-  "objects": [],
-  "features": [
-    "G/L account categories",
-    "report definitions",
+    "g/l account categories",
     "balance sheet",
     "income statement",
     "cash flow",
-    "retained earnings"
+    "retained earnings",
+    "chart of accounts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "G/L Account Categories"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    }
+  ],
+  "features": [
+    "G/L account categories",
+    "financial report definitions",
+    "Balance Sheet report",
+    "Income Statement report",
+    "Cash Flow report",
+    "Retained Earnings report"
   ],
   "versions": [],
   "parts": 1,
@@ -31,7 +42,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006348,
+      "cost_usd": 0.003331,
       "pages_in_call": 8
     }
   ]

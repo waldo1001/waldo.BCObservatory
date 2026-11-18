@@ -1,51 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-component-supply-methods",
-  "title": "Use different component supply methods in subcontracting",
-  "blob": "dd4d0d66c589145016222f8f9b51f58171744cbb",
-  "summary": "How to set up and use three different component supply methods (transfer to vendor, consignment at vendor, and vendor-supplied) in subcontracting operations within the Contoso Coffee demo data, and how the planning system handles each method.",
+  "title": "Use Different Component Supply Methods in Subcontracting",
+  "blob": "2f7d28a0d683c8118f0046c979aefc2466df5804",
+  "summary": "Component supply methods in subcontracting specify how items reach a subcontractor: transfer from warehouse, purchase to subcontracting location, or vendor-supplied. This scenario explores three supply methods and their planning implications.",
   "systems": [
-    "manufacturing",
-    "integration"
+    "manufacturing"
   ],
   "topics": [
     "subcontracting",
     "component supply",
-    "production orders",
-    "planning",
-    "contoso coffee"
+    "production planning",
+    "vendor management",
+    "supply methods"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "SP-SCM1009, Airpot"
-    },
-    {
-      "type": "other",
-      "name": "SP-BOM1101, Housing Airpot"
-    },
-    {
-      "type": "other",
-      "name": "SP-BOM1107, Circuit board"
-    },
-    {
-      "type": "other",
-      "name": "SP-BOM1108, Power cord"
-    },
-    {
-      "type": "other",
-      "name": "SP-SCM1009-SUB-F"
-    }
-  ],
+  "objects": [],
   "features": [
-    "component supply methods",
-    "transfer to vendor",
-    "consignment at vendor",
-    "vendor-supplied components",
-    "production BOM configuration",
-    "routing link codes",
-    "subcontracting location code",
-    "flushing method"
+    "Transfer to Vendor",
+    "Consignment at Vendor",
+    "Vendor-Supplied",
+    "subcontracting location",
+    "planning worksheet"
   ],
   "versions": [],
   "parts": 1,
@@ -54,8 +29,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005623,
-      "pages_in_call": 1
+      "cost_usd": 0.003958,
+      "pages_in_call": 8
     }
   ]
 }

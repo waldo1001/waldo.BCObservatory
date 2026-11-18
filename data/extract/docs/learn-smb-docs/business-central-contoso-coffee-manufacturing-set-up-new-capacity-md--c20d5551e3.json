@@ -1,44 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/set-up-new-capacity.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-new-capacity",
-  "title": "Set Up New Capacity",
-  "blob": "a51c2eccd1e76d804f25889ea63da0338c78f043",
-  "summary": "Walkthrough for setting up a new work center and machine center with capacity calendars and efficiency ratings in Contoso Coffee manufacturing demo data.",
+  "title": "Set Up New Manufacturing Capacity",
+  "blob": "1bea08da460726bfef5092956d57b8d223da439c",
+  "summary": "Set up new manufacturing capacity by creating work centers and machine centers with capacity calendars in Business Central. This example configures a Test Department work center with one machine center and defines single-shift working hours.",
   "systems": [
-    "manufacturing",
-    "administration"
+    "manufacturing"
   ],
   "topics": [
-    "work centers",
-    "machine centers",
     "capacity",
-    "shop calendars",
-    "contoso coffee"
+    "work center",
+    "machine center",
+    "scheduling",
+    "demo data"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Work Centers"
-    },
-    {
-      "type": "page",
-      "name": "Machine Centers"
-    },
-    {
-      "type": "page",
-      "name": "Machine Center Calendar"
-    },
-    {
-      "type": "page",
-      "name": "Calc. Machine Center Calendar"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Work Center Setup",
-    "Machine Center Setup",
-    "Capacity Calendar",
-    "Efficiency",
-    "Shop Calendar"
+    "work center setup",
+    "machine center setup",
+    "capacity calendar",
+    "efficiency rating",
+    "shop calendar"
   ],
   "versions": [],
   "parts": 1,
@@ -47,7 +29,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006456,
+      "cost_usd": 0.003958,
       "pages_in_call": 8
     }
   ]

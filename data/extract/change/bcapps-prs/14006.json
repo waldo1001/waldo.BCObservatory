@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14006",
+  "number": 14006,
+  "title": "GP - Better item transaction duplicate handling",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "GP migration now correctly handles duplicate inventory transactions when migrating multiple lot number receipt lines for the same item.",
+  "key_points": [
+    "Introduces GP Item Transactions Buffer table to manage lot number receipt deduplication",
+    "Updates populate combined tables codeunit logic to prevent duplicate entries",
+    "Adds comprehensive test coverage for item transaction duplicate scenarios",
+    "Applies permission updates across all GP hybrid migration permission sets",
+    "Addresses specific issue where multiple lot lines caused unwanted duplicates in migration"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "fixes a duplicate issue that occurs when a GP migration client is migrating inventory transactions that contain multiple lot number receipt lines",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003787,
+    "changes_in_call": 1
+  }
+}

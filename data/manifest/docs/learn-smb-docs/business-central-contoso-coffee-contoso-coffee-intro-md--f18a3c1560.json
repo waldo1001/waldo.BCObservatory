@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/contoso-coffee-intro",
   "published_at": "2026-11-13T08:44:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:32:23.285Z",
+      "at": "2026-11-18T00:21:58.404Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002831
+      "objects": 2,
+      "cost_usd": 0.003331
     },
     "summarized": {
-      "at": "2026-10-06T19:32:23.372Z",
+      "at": "2026-11-18T00:21:58.419Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:23.373Z",
+      "at": "2026-11-18T00:21:58.420Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:23.374Z",
+      "at": "2026-11-18T00:21:58.420Z",
       "page": false
     }
   },
@@ -62,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "90277d63e622a7868897bc1be6ba5289e5a2dde2"
+  "output_hash": "d991456ffcc7dd32e5ed2e03da2a7d11ead2aee9cb8dd6ceb4c0c819208e53f8"
 }

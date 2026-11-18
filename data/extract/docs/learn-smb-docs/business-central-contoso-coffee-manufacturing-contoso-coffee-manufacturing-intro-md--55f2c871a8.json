@@ -2,28 +2,35 @@
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro",
   "title": "Introduction to Contoso Coffee Manufacturing",
-  "blob": "4b09282df57e1bfdd5207c2b4361ae44096f9b63",
-  "summary": "Contoso Coffee manufacturing demo data provides four sample products with different BOMs and routings to demonstrate production, subcontracting, flushing methods, capacity, and demand forecasting scenarios.",
+  "blob": "7f60bf69a4704170156cbf238da9ff814c3f819e",
+  "summary": "Contoso Coffee manufacturing demo data includes four optimized products with production BOMs, routings, and work centers to learn manufacturing capabilities for standard flow, item tracking, flushing, variants, and subcontracting.",
   "systems": [
-    "manufacturing",
-    "inventory"
+    "manufacturing"
   ],
   "topics": [
+    "manufacturing",
+    "production bom",
+    "routing",
     "contoso coffee",
     "demo data",
-    "bill of materials",
-    "routing",
-    "production",
-    "scenarios"
+    "variants",
+    "subcontracting"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Contoso Demo Tool"
+    }
+  ],
   "features": [
-    "product variants",
-    "phantom BOMs",
-    "standard costing",
-    "specific costing",
+    "production BOMs",
+    "routings",
+    "work centers",
+    "machine centers",
     "item tracking",
-    "alternative routings"
+    "phantom BOMs",
+    "alternative routings",
+    "subcontracting"
   ],
   "versions": [],
   "parts": 1,
@@ -32,7 +39,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006804,
+      "cost_usd": 0.003331,
       "pages_in_call": 8
     }
   ]

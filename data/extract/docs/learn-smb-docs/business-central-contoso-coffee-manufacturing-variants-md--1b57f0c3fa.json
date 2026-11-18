@@ -1,27 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/variants.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/variants",
-  "title": "Variants",
-  "blob": "6cba9d94346991933abe82bf0a6053fcd80f0a4b",
-  "summary": "Walkthrough for using Contoso Coffee demo data to learn about variants in manufacturing by setting up SKUs, demand forecasts, and running MPS planning.",
+  "title": "Plan Production for Item Variants",
+  "blob": "573de6468f7e1e9e642bc2b2d59519d306ebfb24",
+  "summary": "Item variants in Business Central allow production planning for different versions of the same item with separate bills of materials. This scenario demonstrates assigning variant BOMs, creating stockkeeping units, and demand forecasting by variant.",
   "systems": [
-    "manufacturing",
-    "inventory"
+    "manufacturing"
   ],
   "topics": [
     "variants",
-    "stockkeeping units",
+    "bill of materials",
     "demand forecast",
-    "mps planning",
-    "contoso coffee"
+    "stockkeeping units",
+    "production planning"
   ],
   "objects": [],
   "features": [
-    "Stockkeeping units for variants",
-    "Production BOMs by variant",
-    "Demand forecast by location and variant",
-    "MPS planning",
-    "Component verification"
+    "variants",
+    "stockkeeping units",
+    "variant BOMs",
+    "demand forecast",
+    "MPS planning"
   ],
   "versions": [],
   "parts": 1,
@@ -30,7 +29,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004232,
+      "cost_usd": 0.003958,
       "pages_in_call": 8
     }
   ]

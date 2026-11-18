@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/order-planning-create-reserve-supply",
   "published_at": "2026-11-13T08:44:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:32:42.290Z",
+      "at": "2026-11-18T00:22:13.817Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.006456
+      "objects": 0,
+      "cost_usd": 0.003958
     },
     "summarized": {
-      "at": "2026-10-06T19:32:42.299Z",
+      "at": "2026-11-18T00:22:13.822Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:42.300Z",
+      "at": "2026-11-18T00:22:13.823Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:42.301Z",
+      "at": "2026-11-18T00:22:13.823Z",
       "page": false
     }
   },
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2b61b31d3a0f828e7a4d359b4bd9d56f9d3272fe"
+  "output_hash": "5280e232d691f444ef3cbd9c74e9385281a90d4306ef968e8e81aac907340934"
 }

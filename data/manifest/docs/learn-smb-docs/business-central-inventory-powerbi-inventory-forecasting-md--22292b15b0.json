@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-forecasting",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:17.902Z",
+      "at": "2026-11-18T00:22:13.816Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002892
+      "objects": 0,
+      "cost_usd": 0.003958
     },
     "summarized": {
-      "at": "2026-10-06T19:04:17.914Z",
+      "at": "2026-11-18T00:22:13.820Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:17.915Z",
+      "at": "2026-11-18T00:22:13.820Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:17.916Z",
+      "at": "2026-11-18T00:22:13.821Z",
       "page": false
     }
   },
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b9d75b00f2298f695f2058476d71fa30e112d516"
+  "output_hash": "2b1ec23d7b8578af67e8ec90a65291e67ef5d9e688677a0709018ec27506dcac"
 }

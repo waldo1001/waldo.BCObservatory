@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/jobs/contoso-coffee-jobs-intro",
   "published_at": "2026-11-13T08:44:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:30:22.535Z",
+      "at": "2026-11-18T00:21:58.405Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.005419
+      "objects": 2,
+      "cost_usd": 0.003331
     },
     "summarized": {
-      "at": "2026-10-06T18:30:22.549Z",
+      "at": "2026-11-18T00:21:58.427Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:30:22.550Z",
+      "at": "2026-11-18T00:21:58.432Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:30:22.551Z",
+      "at": "2026-11-18T00:21:58.433Z",
       "page": false
     }
   },
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "acd2827b3c712a79b22201043ca0b336d332a98a"
+  "output_hash": "6bb1ab53eee4d67ba89d5a69e7210266e8883c85c14f850f2d5808c2fb69edaf"
 }

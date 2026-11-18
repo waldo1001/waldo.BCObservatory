@@ -1,26 +1,40 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/jobs/contoso-coffee-jobs-basic.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/jobs/contoso-coffee-jobs-basic",
-  "title": "Walkthrough of Basic Jobs",
-  "blob": "d26af4b98876f109414a5a80639dfa0255ac1c54",
-  "summary": "Walkthrough demonstrating basic project processes including adding project tasks, recording expenses for time and materials, and invoicing projects.",
+  "title": "Walkthrough of Basic Project Management",
+  "blob": "a0a257d39c56728e7ac538fb615ea0a87139cfd3",
+  "summary": "Project management walkthrough demonstrates core processes including adding project tasks, recording time spent on projects, and invoicing projects using Contoso Coffee demo data.",
   "systems": [
     "projects"
   ],
   "topics": [
     "project management",
-    "task tracking",
-    "expenses",
-    "invoicing",
-    "contoso coffee"
-  ],
-  "objects": [],
-  "features": [
     "project tasks",
     "time tracking",
-    "material expenses",
-    "project journals",
-    "sales invoicing"
+    "invoicing",
+    "contoso coffee",
+    "walkthrough"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Projects"
+    },
+    {
+      "type": "page",
+      "name": "Project Journals"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    }
+  ],
+  "features": [
+    "project tasks",
+    "time entry",
+    "project invoicing",
+    "Project Ledger Entries",
+    "Resource Ledger Entries"
   ],
   "versions": [],
   "parts": 1,
@@ -29,7 +43,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002917,
+      "cost_usd": 0.003331,
       "pages_in_call": 8
     }
   ]

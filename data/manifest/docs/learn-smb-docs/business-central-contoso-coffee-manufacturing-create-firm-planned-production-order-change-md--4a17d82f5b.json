@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-firm-planned-production-order-change",
   "published_at": "2026-11-13T08:44:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:32:16.395Z",
+      "at": "2026-11-18T00:21:58.407Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.005677
+      "objects": 1,
+      "cost_usd": 0.003331
     },
     "summarized": {
-      "at": "2026-10-06T18:32:16.408Z",
+      "at": "2026-11-18T00:21:58.436Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:32:16.409Z",
+      "at": "2026-11-18T00:21:58.437Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:32:16.410Z",
+      "at": "2026-11-18T00:21:58.437Z",
       "page": false
     }
   },
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1ded6601a7be02612ace934597a2113163ebc02b"
+  "output_hash": "8c8e85133430e4ecfa76ef896584781e3e9f4c56ef8cd0c273df76d640ee23f6"
 }

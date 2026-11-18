@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/contoso-coffee-intro.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/contoso-coffee-intro",
   "title": "Introduction to Contoso Coffee Demo Data",
-  "blob": "8aea8c3a04e19e0fb296d563a51bad4e6c60a35e",
-  "summary": "Contoso Coffee Demo Data provides fictitious company data for learning Business Central capabilities across manufacturing, warehousing, and service modules.",
+  "blob": "90277d63e622a7868897bc1be6ba5289e5a2dde2",
+  "summary": "Contoso Coffee demo data apps provide fictitious company scenarios for learning Business Central capabilities across manufacturing, warehousing, service, and project modules with configurable settings for starting dates, currency, and language.",
   "systems": [
     "manufacturing",
     "warehouse",
@@ -12,24 +12,29 @@
   "topics": [
     "demo data",
     "contoso coffee",
-    "sample data",
-    "training",
-    "modules"
+    "configuration",
+    "modules",
+    "demo scenarios"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Contoso Demo Tool"
+    },
+    {
+      "type": "page",
+      "name": "Expense Agent Module Setup"
     }
   ],
   "features": [
-    "demo data setup",
-    "manufacturing module",
-    "warehousing module",
-    "service module",
-    "common module",
-    "configuration",
-    "currency conversion"
+    "Contoso Coffee apps",
+    "Common module",
+    "Manufacturing module",
+    "Warehouse module",
+    "Service module",
+    "Job module",
+    "Expense Agent module",
+    "demo data generation"
   ],
   "versions": [],
   "parts": 1,
@@ -38,7 +43,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002831,
+      "cost_usd": 0.003331,
       "pages_in_call": 8
     }
   ]

@@ -1,27 +1,24 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/create-new-routing.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/create-new-routing",
-  "title": "Create a New Routing",
-  "blob": "c6f1addd348bdb389bc3b2ac2f5c34984ee548e7",
-  "summary": "Create a New Routing walkthrough demonstrates how to manually set up production routings with operations and work center assignments using Contoso Coffee demo data.",
+  "title": "Create a New Production Routing",
+  "blob": "866b49f693e28b9eb3863cad95ac169f197d7810",
+  "summary": "Create a new production routing in Business Central by setting up routing header and lines with operation details. This walkthrough uses Contoso Coffee demo data to manually configure a routing named New Path.",
   "systems": [
     "manufacturing"
   ],
   "topics": [
     "routing",
-    "production routing",
-    "work center",
-    "operations",
-    "setup time",
-    "run time"
+    "production",
+    "demo data",
+    "setup",
+    "contoso coffee"
   ],
   "objects": [],
   "features": [
-    "routing creation",
-    "operation numbers",
-    "work center assignment",
-    "setup time",
-    "run time",
+    "routing header",
+    "routing lines",
+    "operation setup",
     "routing certification"
   ],
   "versions": [],
@@ -31,7 +28,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002831,
+      "cost_usd": 0.003958,
       "pages_in_call": 8
     }
   ]

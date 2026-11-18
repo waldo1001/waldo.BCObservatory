@@ -2,30 +2,24 @@
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing",
   "title": "Combine Automatic and Manual Flushing",
-  "blob": "e463da56bdeec4558047156348cff016966abb7b",
-  "summary": "This walkthrough demonstrates combining automatic and manual flushing methods in production orders using Contoso Coffee demo data, showing how components are consumed through forward flushing, manual consumption journals, and backward flushing.",
+  "blob": "ee72634bd142a97920f1d3806de5f3685ad45461",
+  "summary": "Manufacturing walkthrough demonstrates combining automatic and manual flushing methods for components and operations in production orders using Contoso Coffee demo data.",
   "systems": [
     "manufacturing"
   ],
   "topics": [
     "flushing",
-    "consumption",
-    "production order",
-    "inventory",
+    "production orders",
+    "components",
+    "operations",
+    "manual flushing",
+    "automatic flushing",
     "contoso coffee"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Released Production Order"
-    },
-    {
-      "type": "page",
-      "name": "Item Ledger Entries"
-    },
-    {
-      "type": "page",
-      "name": "Capacity Ledger Entries"
     },
     {
       "type": "page",
@@ -37,12 +31,13 @@
     }
   ],
   "features": [
-    "automatic flushing",
-    "manual flushing",
     "forward flushing",
     "backward flushing",
-    "consumption posting",
-    "output registration"
+    "manual flushing",
+    "component consumption",
+    "production output",
+    "Item Ledger Entries",
+    "Capacity Ledger Entries"
   ],
   "versions": [],
   "parts": 1,
@@ -51,7 +46,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005677,
+      "cost_usd": 0.003331,
       "pages_in_call": 8
     }
   ]

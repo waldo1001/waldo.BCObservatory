@@ -6,10 +6,35 @@
   "title": "GP - Better item transaction duplicate handling",
   "url": "https://github.com/microsoft/BCApps/pull/14006",
   "published_at": "2026-11-17T12:05:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
+    },
+    "fetched": {
+      "at": "2026-11-18T00:21:30.662Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 9,
+      "objects": 8,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-18T00:21:37.709Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003787
+    },
+    "linked": {
+      "at": "2026-11-18T00:21:38.021Z",
+      "objects": 8,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-18T00:21:38.026Z",
+      "path": "content/changes/bcapps/14006.md"
     }
   },
   "input_hash": "4c2cd7171f1e1c41bcb5f5893f67589d71719050:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "gp better item transaction duplicate handling"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1ed6033e6b1114a2fcdd647ea5d7ba665d668a4e0d3ecdd91005157271eb950f"
 }

@@ -1,46 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges",
-  "title": "Set up subcontracting prices and allocate item charges",
-  "blob": "f53fb4e637dfd81e6f7e20f0bab42000f2e4c65c",
-  "summary": "Set up subcontracting price lists with minimum order amounts and allocate item charges like transport costs to subcontracted manufacturing work using the Contoso Coffee demo data.",
+  "title": "Set Up Subcontracting Prices and Allocate Item Charges",
+  "blob": "a89cf52688271ecf211435f57be68102a844c9d0",
+  "summary": "Subcontracting prices in Business Central set unit costs and minimum amounts for subcontracted work, while item charges allocate extra costs like freight to production orders. This scenario demonstrates price list setup and allocating transport costs.",
   "systems": [
-    "manufacturing",
-    "purchasing",
-    "finance"
+    "manufacturing"
   ],
   "topics": [
     "subcontracting",
     "pricing",
     "item charges",
-    "production orders",
+    "cost allocation",
     "purchase orders"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Subcontractor Prices"
-    },
-    {
-      "type": "page",
-      "name": "Released Production Orders"
-    },
-    {
-      "type": "page",
-      "name": "Purchase Invoices"
-    },
-    {
-      "type": "page",
-      "name": "Item Charge Assignment"
-    }
-  ],
+  "objects": [],
   "features": [
-    "subcontracting price lists",
-    "minimum order amounts",
-    "item charge allocation",
-    "production order costing",
-    "vendor pricing",
-    "routing integration"
+    "Subcontractor Prices",
+    "minimum amount",
+    "item charge assignment",
+    "cost allocation",
+    "price list"
   ],
   "versions": [],
   "parts": 1,
@@ -49,8 +29,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004937,
-      "pages_in_call": 1
+      "cost_usd": 0.003958,
+      "pages_in_call": 8
     }
   ]
 }

@@ -6,10 +6,35 @@
   "title": "[Subcontracting] Refresh the transfer order lines without saving in SetIsSubcontracting",
   "url": "https://github.com/microsoft/BCApps/pull/14122",
   "published_at": "2026-11-17T13:08:04Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
+    },
+    "fetched": {
+      "at": "2026-11-18T00:21:23.833Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-18T00:21:31.769Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004002
+    },
+    "linked": {
+      "at": "2026-11-18T00:21:31.896Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-18T00:21:31.900Z",
+      "path": "content/changes/bcapps/14122.md"
     }
   },
   "input_hash": "983bea8ea4a5917b41a5c33c091705cf91fd1e2e:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "subcontracting refresh the transfer order lines without saving in setissubcontracting"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b50acdc8e2f053d27a29c98f5385909625731fa5ec7818fb4aed88bf2193d239"
 }

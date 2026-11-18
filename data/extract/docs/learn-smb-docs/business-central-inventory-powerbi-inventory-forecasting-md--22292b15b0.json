@@ -1,40 +1,26 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-forecasting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-forecasting",
-  "title": "Inventory Forecasting (Power BI report)",
-  "blob": "d14ef239682fdbab2af6b0e48abd645dac2fc002",
-  "summary": "The Inventory Forecasting Power BI report predicts future inventory trends for the next three months based on historical data to help managers optimize stock levels and procurement decisions.",
+  "title": "Inventory Forecasting (Power BI Report)",
+  "blob": "b9d75b00f2298f695f2058476d71fa30e112d516",
+  "summary": "Inventory Forecasting Power BI report predicts future inventory trends based on historical data for the next three months. Inventory managers and procurement officers use it to monitor projected stock levels and make informed replenishment decisions.",
   "systems": [
     "inventory",
     "reporting"
   ],
   "topics": [
-    "power bi",
     "forecasting",
-    "inventory",
+    "power bi",
+    "inventory planning",
     "analytics",
-    "kpi"
+    "stock levels"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "Item Ledger Entries"
-    },
-    {
-      "type": "other",
-      "name": "Location"
-    },
-    {
-      "type": "other",
-      "name": "Item"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Quantity forecasting",
-    "Monthly seasonality analysis",
-    "Location-based forecasting",
-    "Customizable forecast parameters",
-    "Advanced forecasting techniques"
+    "Quantity",
+    "Quantity (Forecasting)",
+    "three-month forecast",
+    "seasonality analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -43,7 +29,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002892,
+      "cost_usd": 0.003958,
       "pages_in_call": 8
     }
   ]

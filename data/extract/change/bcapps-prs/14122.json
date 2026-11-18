@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/14122",
+  "number": 14122,
+  "title": "[Subcontracting] Refresh the transfer order lines without saving in SetIsSubcontracting",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "The SetIsSubcontracting method on the transfer order subform now refreshes without saving, preventing unwanted save attempts that could close the page when editing fails in certain scenarios.",
+  "key_points": [
+    "CurrPage.Update() changed to CurrPage.Update(false) to refresh the subform without triggering saves",
+    "Prevents save errors from propagating inside OnAfterGetCurrRecord trigger which would close the page",
+    "Maintains visibility updates for subcontracting actions while avoiding side effects from header fetches",
+    "Aligns with SetPerTaskBillingFieldsVisible pattern used elsewhere in the app"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004002,
+    "changes_in_call": 1
+  }
+}

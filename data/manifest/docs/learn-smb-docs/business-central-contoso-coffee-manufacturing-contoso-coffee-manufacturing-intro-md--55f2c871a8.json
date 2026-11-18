@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro",
   "published_at": "2026-11-13T08:44:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T14:22:28.305Z",
+      "at": "2026-11-18T00:21:58.406Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.006804
+      "objects": 1,
+      "cost_usd": 0.003331
     },
     "summarized": {
-      "at": "2026-10-06T14:22:28.309Z",
+      "at": "2026-11-18T00:21:58.435Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:22:28.309Z",
+      "at": "2026-11-18T00:21:58.435Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:22:28.309Z",
+      "at": "2026-11-18T00:21:58.436Z",
       "page": false
     }
   },
@@ -62,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7f60bf69a4704170156cbf238da9ff814c3f819e"
+  "output_hash": "3d05dfffa2f14e7213e2ffb3afd8b4bb79bafa87bd74e5a51b2379ded68757c8"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/variants",
   "published_at": "2026-11-13T08:44:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:05:10.911Z",
+      "at": "2026-11-18T00:22:13.819Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004232
+      "cost_usd": 0.003958
     },
     "summarized": {
-      "at": "2026-10-06T19:05:10.976Z",
+      "at": "2026-11-18T00:22:13.828Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:05:10.977Z",
+      "at": "2026-11-18T00:22:13.829Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:05:10.978Z",
+      "at": "2026-11-18T00:22:13.829Z",
       "page": false
     }
   },
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "573de6468f7e1e9e642bc2b2d59519d306ebfb24"
+  "output_hash": "290bc1ebb4e53654c7c0681d5ea71249cfe4de355f3deedd832642bec62067bc"
 }

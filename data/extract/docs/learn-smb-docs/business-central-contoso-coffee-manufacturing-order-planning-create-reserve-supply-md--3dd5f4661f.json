@@ -2,35 +2,24 @@
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/manufacturing/order-planning-create-reserve-supply.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/order-planning-create-reserve-supply",
   "title": "Use Order Planning to Create and Reserve Supply",
-  "blob": "4e6dc93c71e9bdb4d28bbe9ee08ddf490956a23c",
-  "summary": "Walkthrough using Order Planning to create production orders for subassemblies and reserve their output to fulfill specific parent order requirements in Contoso Coffee demo data.",
+  "blob": "2b61b31d3a0f828e7a4d359b4bd9d56f9d3272fe",
+  "summary": "Order planning in Business Central creates and reserves subassembly production orders for a parent production order. This scenario demonstrates planning a production order for Airpot using order planning to reserve output.",
   "systems": [
-    "manufacturing",
-    "projects"
+    "manufacturing"
   ],
   "topics": [
     "order planning",
-    "production orders",
+    "production planning",
+    "subassembly",
     "supply planning",
-    "reservations",
-    "contoso coffee"
+    "demo data"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Order Planning"
-    },
-    {
-      "type": "page",
-      "name": "Released Production Order"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Order Planning",
-    "Calculate Plan",
-    "Make Orders",
-    "Reserve",
-    "Production Orders"
+    "order planning",
+    "demand planning",
+    "production order creation",
+    "reserve function"
   ],
   "versions": [],
   "parts": 1,
@@ -39,7 +28,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006456,
+      "cost_usd": 0.003958,
       "pages_in_call": 8
     }
   ]

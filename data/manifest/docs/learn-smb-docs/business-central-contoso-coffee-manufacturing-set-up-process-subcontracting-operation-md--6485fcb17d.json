@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/set-up-process-subcontracting-operation",
   "published_at": "2026-11-13T08:44:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-23T21:59:15.492Z",
+      "at": "2026-11-18T00:22:13.818Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 6,
-      "cost_usd": 0.005744
+      "objects": 0,
+      "cost_usd": 0.003958
     },
     "summarized": {
-      "at": "2026-10-23T21:59:15.494Z",
+      "at": "2026-11-18T00:22:13.825Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-23T21:59:15.495Z",
+      "at": "2026-11-18T00:22:13.825Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-23T21:59:15.496Z",
+      "at": "2026-11-18T00:22:13.825Z",
       "page": false
     }
   },
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3920bdf38da04be1093387e011f7c575bee914a0"
+  "output_hash": "b8ea1dfbc61ebe9beccc30bc676ccedc8573c2ce36bad59042adecf35be8c1e3"
 }

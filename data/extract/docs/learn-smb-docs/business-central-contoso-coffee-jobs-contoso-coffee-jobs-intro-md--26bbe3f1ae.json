@@ -2,23 +2,35 @@
   "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/jobs/contoso-coffee-jobs-intro.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/jobs/contoso-coffee-jobs-intro",
   "title": "Introduction to Contoso Coffee Project Management",
-  "blob": "2ccc7478d0cf5f56dbda86f43f3e6c6aaa61b245",
-  "summary": "Introduction to Contoso Coffee Project Management describes the Contoso Coffee demo data app that provides sample resources, skills, and items for learning Business Central project management and job scenarios.",
+  "blob": "acd2827b3c712a79b22201043ca0b336d332a98a",
+  "summary": "Contoso Coffee project management demo data provides resources, items, and projects for installation, maintenance, and software update scenarios to learn Project Management capabilities.",
   "systems": [
     "projects"
   ],
   "topics": [
+    "project management",
     "contoso coffee",
     "demo data",
-    "project management",
-    "resources",
-    "skills"
+    "setup",
+    "configuration"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Contoso Demo Tool"
+    },
+    {
+      "type": "page",
+      "name": "Contoso Coffee Project Demo Data"
+    }
+  ],
   "features": [
-    "Contoso Coffee Jobs Demo Data page",
-    "resources with skills and zones",
-    "service items"
+    "installer resource",
+    "machine items",
+    "consumable items",
+    "supply items",
+    "service items",
+    "project planning lines"
   ],
   "versions": [],
   "parts": 1,
@@ -27,7 +39,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005419,
+      "cost_usd": 0.003331,
       "pages_in_call": 8
     }
   ]
