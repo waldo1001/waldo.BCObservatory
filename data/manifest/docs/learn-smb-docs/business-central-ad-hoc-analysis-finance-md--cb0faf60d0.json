@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Ad-hoc analysis of finance data",
+  "title": "Ad-Hoc Analysis of Finance Data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance",
-  "published_at": "2025-05-06T19:34:58.000Z",
+  "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.462Z",
-      "blob": "866ccc9e0e6da21ba5b5708651868dfcba5fc02b",
-      "words": 1566,
-      "forms": 6
+      "at": "2026-11-18T00:18:51.340Z",
+      "blob": "86a7afde6a6db06c65c191c5e82fcdc9fc89358b",
+      "words": 1682,
+      "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:26:14.983Z",
+      "at": "2026-11-18T00:19:12.367Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.00367
+      "cost_usd": 0.002567
     },
     "summarized": {
-      "at": "2026-10-06T19:26:14.991Z",
+      "at": "2026-11-18T00:19:12.380Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:14.991Z",
+      "at": "2026-11-18T00:19:12.381Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:14.992Z",
+      "at": "2026-11-18T00:19:12.381Z",
       "page": false
     }
   },
-  "input_hash": "866ccc9e0e6da21ba5b5708651868dfcba5fc02b",
+  "input_hash": "86a7afde6a6db06c65c191c5e82fcdc9fc89358b",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ad-hoc-analysis-finance.md",
-    "description": "Learn how to use the data analysis mode to analyze finance data.",
-    "ms_date": "2025-02-13",
+    "description": "Analyze receivables, payables, income, and asset transactions in Business Central with analysis mode on general ledger and customer or vendor entries.",
+    "ms_date": "2026-11-16",
     "ms_topic": "article",
     "search_form": [
       {
@@ -54,28 +54,18 @@
         "kind": null
       },
       {
-        "raw": "516",
-        "id": 516,
+        "raw": "116",
+        "id": 116,
         "kind": null
       },
       {
-        "raw": "9300",
-        "id": 9300,
+        "raw": "25",
+        "id": 25,
         "kind": null
       },
       {
-        "raw": "5119",
-        "id": 5119,
-        "kind": null
-      },
-      {
-        "raw": "9301",
-        "id": 9301,
-        "kind": null
-      },
-      {
-        "raw": "9305",
-        "id": 9305,
+        "raw": "29",
+        "id": 29,
         "kind": null
       }
     ],
@@ -85,12 +75,12 @@
       "analysis",
       "KPI"
     ],
-    "ai_usage": null,
-    "words": 1566,
+    "ai_usage": "ai-assisted",
+    "words": 1682,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0ab11e4371289ce04fe059c371e6e9286130c4fff507bdb4b630bfbe4c4d3246"
+  "output_hash": "845c87c7ffc1a810935157af28ca40e5cab75bc6ba2c1a1ad8f1f77899f9d33b"
 }

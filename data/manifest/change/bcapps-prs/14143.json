@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/14143",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Enable internal SLS hooks for harms evaluations",
+  "url": "https://github.com/microsoft/BCApps/pull/14143",
+  "published_at": "2026-11-17T20:19:27Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    },
+    "fetched": {
+      "at": "2026-11-18T00:18:57.952Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-18T00:19:12.405Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.00414
+    },
+    "linked": {
+      "at": "2026-11-18T00:19:12.520Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-18T00:19:12.527Z",
+      "path": "content/changes/bcapps/14143.md"
+    }
+  },
+  "input_hash": "50c1bcd1f9f8168edc74ee32d13ac568db2d400f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14143,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "50c1bcd1f9f8168edc74ee32d13ac568db2d400f",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "enable internal sls hooks for harms evaluations"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d2c6eafe86d618939582bcde9c31a05b5216eb4f6413d770ab619f908e87b27a"
+}

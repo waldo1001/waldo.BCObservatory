@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Use [TryFunction] for error catching, Codeunit.Run for atomic rollback",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/use-tryfunction-for-error-catching-not-rollback.md",
-  "published_at": "2026-09-09T15:31:03.000Z",
+  "published_at": "2026-11-17T10:17:43.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,17 +13,17 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-29T21:28:44.144Z",
-      "blob": "41f751fbf8f60d93deba38789141c835827c5c6f",
-      "words": 334,
+      "at": "2026-11-18T00:18:56.336Z",
+      "blob": "6d566f2f30279a6e67d80a5256e866717d04462b",
+      "words": 346,
       "forms": 0
     },
     "published": {
-      "at": "2026-10-29T21:28:44.223Z",
+      "at": "2026-11-18T00:18:56.383Z",
       "path": "content/guidelines/microsoft/knowledge/performance/use-tryfunction-for-error-catching-not-rollback.md"
     }
   },
-  "input_hash": "41f751fbf8f60d93deba38789141c835827c5c6f",
+  "input_hash": "6d566f2f30279a6e67d80a5256e866717d04462b",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -44,7 +44,7 @@
       "session-buffer"
     ],
     "ai_usage": null,
-    "words": 334,
+    "words": 346,
     "identifiers": [
       "DisableWriteInsideTryFunctions",
       "GetLastErrorText",
@@ -83,5 +83,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "41f751fbf8f60d93deba38789141c835827c5c6f"
+  "output_hash": "6d566f2f30279a6e67d80a5256e866717d04462b"
 }

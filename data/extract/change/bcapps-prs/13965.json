@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13965",
+  "number": 13965,
+  "title": "Bug 658846: [29.x]Partner feedback: Mark \"Custom Report Layouts\" page caption with '(Obsoleted)' and also add a notification OnOpen",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "The Custom Report Layouts page caption is marked with '(Obsoleted)' and a notification is shown when opened to inform users that this feature is obsolete.",
+  "key_points": [
+    "Page 9650 'Custom Report Layouts' caption updated with '(Obsoleted)' marker",
+    "Notification added on page open to alert users about obsolescence",
+    "Similar change applied to Report Layout Selection page",
+    "Improves user awareness of deprecated functionality",
+    "Part of BC29 release maintenance"
+  ],
+  "change_kind": "obsoletion",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "integration"
+  ],
+  "quote": "Added obsoletion comment to page caption",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003329,
+    "changes_in_call": 1
+  }
+}

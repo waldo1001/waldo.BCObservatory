@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/14122",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Subcontracting] Refresh the transfer order lines without saving in SetIsSubcontracting",
+  "url": "https://github.com/microsoft/BCApps/pull/14122",
+  "published_at": "2026-11-17T13:08:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    }
+  },
+  "input_hash": "983bea8ea4a5917b41a5c33c091705cf91fd1e2e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14122,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "983bea8ea4a5917b41a5c33c091705cf91fd1e2e",
+    "author": "Franco111000",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "subcontracting refresh the transfer order lines without saving in setissubcontracting"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/14203",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Dataverse] Use commercial endpoints in Business Central online",
+  "url": "https://github.com/microsoft/BCApps/pull/14203",
+  "published_at": "2026-11-17T22:19:55Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    },
+    "fetched": {
+      "at": "2026-11-18T00:18:36.359Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-18T00:18:50.618Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004012
+    },
+    "linked": {
+      "at": "2026-11-18T00:18:50.720Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-18T00:18:50.844Z",
+      "path": "content/changes/bcapps/14203.md"
+    }
+  },
+  "input_hash": "b8e5a115e324a4d60412b53925fb4cd08aa777e1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14203,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b8e5a115e324a4d60412b53925fb4cd08aa777e1",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "dataverse use commercial endpoints in business central online"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c7f5ae5ee29cba2de19d34089f0d702fe67034645be9508208271462aca01730"
+}

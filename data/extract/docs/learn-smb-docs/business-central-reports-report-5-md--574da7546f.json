@@ -1,20 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5",
-  "title": "Receivables-Payables (report)",
-  "blob": "92820584bc47fbf7902d49fa156bd829de47fb3f",
-  "summary": "Receivables-Payables report compares customer and vendor account balances with general ledger control accounts to reconcile accounts receivable and payable during financial close.",
+  "title": "Receivables-Payables Overview (Report)",
+  "blob": "285c3083fa476bd1a009e33d7150f7d687e54e19",
+  "summary": "Receivables-Payables report compares customer and vendor balances due across periods by original due dates, showing receivables, payables, net change, and cumulative net balance.",
   "systems": [
-    "finance",
     "sales",
-    "purchasing"
+    "purchasing",
+    "reporting"
   ],
   "topics": [
-    "accounts receivable",
-    "accounts payable",
-    "reconciliation",
-    "general ledger",
-    "financial close"
+    "receivables",
+    "payables",
+    "balance comparison",
+    "cash planning",
+    "due dates"
   ],
   "objects": [
     {
@@ -23,11 +23,10 @@
     }
   ],
   "features": [
-    "AR balance summary",
-    "AP balance summary",
-    "G/L reconciliation",
-    "posting date selection",
-    "currency selection"
+    "Period-based balance comparison",
+    "Due date grouping",
+    "Cumulative net balance",
+    "LCY amounts"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002133,
-      "pages_in_call": 7
+      "cost_usd": 0.002954,
+      "pages_in_call": 8
     }
   ]
 }

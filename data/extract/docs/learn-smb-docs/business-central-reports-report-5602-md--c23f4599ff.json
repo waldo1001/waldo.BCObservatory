@@ -2,16 +2,17 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5602.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5602",
   "title": "Fixed Asset Journal - Test (report)",
-  "blob": "eb5ecf660fbe062fda978a34745072be895376ad",
-  "summary": "Fixed Asset Journal - Test report displays journal lines in a Fixed Asset journal for verification before posting.",
+  "blob": "996a32be3d6ef122cb6cbfd26e439ebfd22ece71",
+  "summary": "Fixed Asset Journal - Test report shows journal lines in a Fixed Asset journal with validation warnings for issues before posting, such as missing document numbers and invalid dimensions.",
   "systems": [
-    "fixed-assets"
+    "fixed-assets",
+    "reporting"
   ],
   "topics": [
-    "reporting",
     "fixed assets",
-    "journal testing",
-    "posting verification"
+    "journal",
+    "validation",
+    "test report"
   ],
   "objects": [
     {
@@ -20,8 +21,11 @@
     }
   ],
   "features": [
-    "journal line verification",
-    "test reporting"
+    "Journal line validation",
+    "Missing document number detection",
+    "Blocked asset identification",
+    "Invalid dimension checking",
+    "Posting type validation"
   ],
   "versions": [],
   "parts": 1,
@@ -30,7 +34,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001233,
+      "cost_usd": 0.002954,
       "pages_in_call": 8
     }
   ]

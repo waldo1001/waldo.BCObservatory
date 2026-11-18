@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Ad-hoc analysis of sales data",
+  "title": "Ad-Hoc Analysis of Sales Data in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales",
-  "published_at": "2026-02-02T12:31:51.000Z",
+  "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.402Z",
-      "blob": "eddf43f9d3194dc219a4ef8183f2769f7ede5a0e",
-      "words": 993,
+      "at": "2026-11-18T00:19:12.546Z",
+      "blob": "d05a7c10ff5f2850f713ad2090fab184ad797e0b",
+      "words": 1123,
       "forms": 5
     },
     "extracted": {
@@ -38,14 +38,14 @@
       "page": false
     }
   },
-  "input_hash": "eddf43f9d3194dc219a4ef8183f2769f7ede5a0e",
+  "input_hash": "d05a7c10ff5f2850f713ad2090fab184ad797e0b",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ad-hoc-analysis-sales.md",
-    "description": "Learn how to use the data analysis mode to analyze sales data.",
-    "ms_date": "2024-04-28",
+    "description": "Analyze sales order amounts, customer sales, and outstanding receivables in Business Central with analysis mode on sales orders and ledger entries.",
+    "ms_date": "2026-11-16",
     "ms_topic": "article",
     "search_form": [
       {
@@ -80,12 +80,12 @@
       "analysis",
       "KPI"
     ],
-    "ai_usage": null,
-    "words": 993,
+    "ai_usage": "ai-assisted",
+    "words": 1123,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f6c87408d1e0ac70c789da5411800dd679c797d3313f39796eef13351ea9ead3"
+  "output_hash": "d05a7c10ff5f2850f713ad2090fab184ad797e0b"
 }

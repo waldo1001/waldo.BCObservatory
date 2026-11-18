@@ -1,0 +1,81 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13965,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13965",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-17T21:33:55Z",
+  "merge_commit_sha": "4f49a1eb5ebb7384620fe1654dd53536c3abca03",
+  "author": "BardurKnudsen",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Bug 658846: [29.x]Partner feedback: Mark \"Custom Report Layouts\" page caption with '(Obsoleted)' and also add a notification OnOpen",
+  "body_hash": "07ee2499d5eb7fbf9bdf4b6d89c684286dd6b845706c61b7ce483f0232854459",
+  "fixes_issues": [],
+  "work_items": [
+    658846
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/CustomReportLayouts.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayoutSelection.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 2,
+    "deletions": 2,
+    "al": 2
+  },
+  "join": {
+    "major": "29",
+    "commit": "ae251bc67417b1b37b41aaf52480e6a5c8f9294e",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/CustomReportLayouts.Page.al",
+        "status": "modified",
+        "key": "page/9650",
+        "type": "page",
+        "id": 9650,
+        "name": "Custom Report Layouts",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9650"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Reporting/ReportLayoutSelection.Page.al",
+        "status": "modified",
+        "key": "page/9652",
+        "type": "page",
+        "id": 9652,
+        "name": "Report Layout Selection",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9652"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

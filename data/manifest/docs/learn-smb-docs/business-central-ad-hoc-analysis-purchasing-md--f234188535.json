@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Ad-hoc analyses in purchasing",
+  "title": "Ad-Hoc Analysis of Purchasing Data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-purchasing",
-  "published_at": "2025-05-06T19:34:58.000Z",
+  "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.467Z",
-      "blob": "9e3acb3fc7b8eeb0626349dd745730b2257ac233",
-      "words": 1065,
+      "at": "2026-11-18T00:18:56.410Z",
+      "blob": "5f815c77739b5ba5a63b041a27eaea42c95ab427",
+      "words": 1152,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:26:14.984Z",
+      "at": "2026-11-18T00:19:12.330Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.00367
+      "objects": 11,
+      "cost_usd": 0.002516
     },
     "summarized": {
-      "at": "2026-10-06T19:26:14.993Z",
+      "at": "2026-11-18T00:19:12.335Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:14.994Z",
+      "at": "2026-11-18T00:19:12.336Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:14.995Z",
+      "at": "2026-11-18T00:19:12.336Z",
       "page": false
     }
   },
-  "input_hash": "9e3acb3fc7b8eeb0626349dd745730b2257ac233",
+  "input_hash": "5f815c77739b5ba5a63b041a27eaea42c95ab427",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ad-hoc-analysis-purchasing.md",
-    "description": "Learn how to use the data analysis mode to analyze data in purchasing.",
-    "ms_date": "2024-04-29",
+    "description": "Analyze goods received but not invoiced, vendor balances, and payments on hold in Business Central with analysis mode on purchase and ledger entries.",
+    "ms_date": "2026-11-16",
     "ms_topic": "article",
     "search_form": [
       {
@@ -75,12 +75,12 @@
       "analysis",
       "KPI"
     ],
-    "ai_usage": null,
-    "words": 1065,
+    "ai_usage": "ai-assisted",
+    "words": 1152,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e85f3b604fe09808b664850ff0332e00b0429508abd51f41dfe8912e9b6c84a2"
+  "output_hash": "f2e28836e31a8bdd40288d02fdb9768da5aaaa977d43e80fa9980affae28eb45"
 }

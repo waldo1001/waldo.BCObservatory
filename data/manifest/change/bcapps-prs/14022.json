@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/14022",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Expense Agent] Travel request fixes: deletion after cancel, linked reports, approver audit user, closure history",
+  "url": "https://github.com/microsoft/BCApps/pull/14022",
+  "published_at": "2026-11-17T00:19:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    }
+  },
+  "input_hash": "9d07d6c9abe7ff1aea6a46ebdaf17917193cacf1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14022,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9d07d6c9abe7ff1aea6a46ebdaf17917193cacf1",
+    "author": "claudiuciumedean",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent travel request fixes deletion after cancel linked reports approver audit user closure history"
+  }
+}

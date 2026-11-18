@@ -2,8 +2,8 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-consumption-billing.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-consumption-billing",
   "title": "Manage consumption-based billing",
-  "blob": "16909e739b1cdecd5eb956658e1b0418fcd37482",
-  "summary": "Set up consumption-based billing for Copilot and agent capabilities in Business Central using prepaid capacity or pay-as-you-go model through Power Platform.",
+  "blob": "43519d777a643be54c370d7d65f2f42027d6b7ae",
+  "summary": "Manage consumption-based billing for Copilot Credits used by agent capabilities including Expense Agent, Payables Agent, and Sales Order Agent, with options for prepaid capacity or pay-as-you-go setup.",
   "systems": [
     "copilot",
     "administration",
@@ -13,19 +13,20 @@
     "billing",
     "copilot credits",
     "agents",
-    "capacity management",
-    "pay-as-you-go"
+    "consumption-based",
+    "pay-as-you-go",
+    "prepaid capacity"
   ],
   "objects": [],
   "features": [
-    "Expense Agent billing",
-    "Payables Agent billing",
-    "Sales Order Agent billing",
-    "Copilot Credits",
-    "prepaid capacity",
-    "pay-as-you-go",
-    "Agent usage estimator",
-    "AI development toolkit"
+    "Expense Agent",
+    "Payables Agent",
+    "Sales Order Agent",
+    "Copilot Credit capacity allocation",
+    "Pay-as-you-go setup",
+    "Prepaid capacity management",
+    "Capacity forecasting",
+    "Usage telemetry"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008748,
-      "pages_in_call": 6
+      "cost_usd": 0.002954,
+      "pages_in_call": 8
     }
   ]
 }

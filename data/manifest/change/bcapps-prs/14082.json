@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/14082",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]-Bug 656406: [Expense Agent] Setup wizard access text should mention the mobile app (Android/iOS) alongside Web",
+  "url": "https://github.com/microsoft/BCApps/pull/14082",
+  "published_at": "2026-11-16T21:13:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    }
+  },
+  "input_hash": "35877d3733f9ece60d374ed2b7328175bf76ab95:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14082,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "35877d3733f9ece60d374ed2b7328175bf76ab95",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 656406 expense agent setup wizard access text should mention the mobile app android ios alongside web"
+  }
+}

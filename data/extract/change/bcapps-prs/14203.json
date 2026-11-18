@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14203",
+  "number": 14203,
+  "title": "[Dataverse] Use commercial endpoints in Business Central online",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Business Central online now always uses commercial Dataverse endpoints regardless of the selected cloud, while on-premises continues to respect the selected Dataverse Cloud setting for sovereign cloud scenarios.",
+  "key_points": [
+    "GetDataverseCloudEndpoints() returns Commercial endpoints when running in SaaS infrastructure",
+    "On-premises installations still respect the selected Dataverse Cloud value for GCC High and other sovereign clouds",
+    "All callers already use the GetDataverseCloudEndpoints() method so the change is centralized",
+    "Updated documentation to clarify the cloud selection only applies on-premises",
+    "New test validates that SaaS ignores Dataverse Cloud overrides and resolves to commercial endpoints"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004012,
+    "changes_in_call": 1
+  }
+}

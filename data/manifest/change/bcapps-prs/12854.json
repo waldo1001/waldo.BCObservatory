@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12854",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Set Shopify Connector BE target to Cloud",
+  "url": "https://github.com/microsoft/BCApps/pull/12854",
+  "published_at": "2026-11-17T00:52:30Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    }
+  },
+  "input_hash": "f9d965b879e7f9cdfc1a186cb92b67dc51c25f89:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12854,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f9d965b879e7f9cdfc1a186cb92b67dc51c25f89",
+    "author": "WaelAbuSeada",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "set shopify connector be target to cloud"
+  }
+}

@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Ad-hoc analysis of fixed assets data",
+  "title": "Ad-Hoc Analysis of Fixed Assets Data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa",
-  "published_at": "2025-05-06T19:34:58.000Z",
+  "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.458Z",
-      "blob": "27aa924893f139abced2ed74dec4abe2c3b6121b",
-      "words": 914,
+      "at": "2026-11-18T00:18:35.478Z",
+      "blob": "027b828ba573fbfd0b83b95bf5a62915a02b6496",
+      "words": 971,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:26:12.201Z",
+      "at": "2026-11-18T00:19:12.224Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.003525
+      "cost_usd": 0.002698
     },
     "summarized": {
-      "at": "2026-10-06T19:26:13.946Z",
+      "at": "2026-11-18T00:19:12.258Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:13.947Z",
+      "at": "2026-11-18T00:19:12.259Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:13.948Z",
+      "at": "2026-11-18T00:19:12.261Z",
       "page": false
     }
   },
-  "input_hash": "27aa924893f139abced2ed74dec4abe2c3b6121b",
+  "input_hash": "027b828ba573fbfd0b83b95bf5a62915a02b6496",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/ad-hoc-analysis-fa.md",
-    "description": "Learn how to use the data analysis mode to analyze fixed assets data.",
-    "ms_date": "2025-03-10",
+    "description": "Analyze fixed asset values, value changes, and depreciation with analysis mode on ledger entries and the Fixed Assets Ad-hoc Analysis query.",
+    "ms_date": "2026-11-16",
     "ms_topic": "article",
     "search_form": [
       {
@@ -70,12 +70,12 @@
       "analysis",
       "KPI"
     ],
-    "ai_usage": null,
-    "words": 914,
+    "ai_usage": "ai-assisted",
+    "words": 971,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1e0841f97bcbccb5095e60755aa2fd5f9a73da0a86e536850903d768542153b7"
+  "output_hash": "8eeaa6ee04d1e263cab880aebaeb0bd7a0fff9dc2ccadea248b3b9d7cac54749"
 }

@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/14145",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix GB posting date default tests",
+  "url": "https://github.com/microsoft/BCApps/pull/14145",
+  "published_at": "2026-11-17T20:55:54Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    }
+  },
+  "input_hash": "26407b48edb2aa928737ef300e5e2c954cdf358d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14145,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "26407b48edb2aa928737ef300e5e2c954cdf358d",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix gb posting date default tests"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-18T00:18:56.938Z",
+  "retry_after": null
+}

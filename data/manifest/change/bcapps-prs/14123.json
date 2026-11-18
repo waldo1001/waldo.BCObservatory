@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/14123",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Keep gift cards from unverified POS returns on the sales invoice",
+  "url": "https://github.com/microsoft/BCApps/pull/14123",
+  "published_at": "2026-11-17T14:38:13Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    }
+  },
+  "input_hash": "ffe26a0f4eb44c2539e183e4f37704564ae74484:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14123,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ffe26a0f4eb44c2539e183e4f37704564ae74484",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify keep gift cards from unverified pos returns on the sales invoice"
+  }
+}

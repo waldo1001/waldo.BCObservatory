@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14109",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Eight assembly planning tracking tests fail missing VAT Posting Setup in US/CA",
+  "url": "https://github.com/microsoft/BCApps/pull/14109",
+  "published_at": "2026-11-17T13:17:15Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    }
+  },
+  "input_hash": "284d778eb0bf7c9b6cbbaa7b0ba96e136c88adf9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14109,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "284d778eb0bf7c9b6cbbaa7b0ba96e136c88adf9",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master eight assembly planning tracking tests fail missing vat posting setup in us ca"
+  }
+}

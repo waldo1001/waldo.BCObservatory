@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/14078",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "#10373 Fix Sales Cr.Memo - PEPPOL30 XSD scheme validity",
+  "url": "https://github.com/microsoft/BCApps/pull/14078",
+  "published_at": "2026-11-17T13:17:15Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    }
+  },
+  "input_hash": "220d07dd8263eba35f96b75c338e03a9fc0690cf:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14078,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "220d07dd8263eba35f96b75c338e03a9fc0690cf",
+    "author": "RadoArvay",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "10373 fix sales cr memo peppol30 xsd scheme validity"
+  }
+}

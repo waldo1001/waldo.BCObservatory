@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/14006",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "GP - Better item transaction duplicate handling",
+  "url": "https://github.com/microsoft/BCApps/pull/14006",
+  "published_at": "2026-11-17T12:05:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    }
+  },
+  "input_hash": "4c2cd7171f1e1c41bcb5f5893f67589d71719050:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14006,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4c2cd7171f1e1c41bcb5f5893f67589d71719050",
+    "author": "jaymckinney-enavate",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "gp better item transaction duplicate handling"
+  }
+}

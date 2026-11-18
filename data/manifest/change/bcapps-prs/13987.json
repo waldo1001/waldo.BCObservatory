@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13987",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main][All-e]\"Specify the VAT registration number that you want to verify\" error when entering a VAT Registration No. in the Sales Order if the Customer Card has no VAT Registration No",
+  "url": "https://github.com/microsoft/BCApps/pull/13987",
+  "published_at": "2026-11-17T22:50:16Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    },
+    "fetched": {
+      "at": "2026-11-18T00:18:36.211Z",
+      "change_class": "code",
+      "files": 19,
+      "al": 15,
+      "objects": 12,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-11-18T00:18:51.089Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004882
+    },
+    "linked": {
+      "at": "2026-11-18T00:18:51.217Z",
+      "objects": 12,
+      "unjoined": 3,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-18T00:18:51.222Z",
+      "path": "content/changes/bcapps/13987.md"
+    }
+  },
+  "input_hash": "c15eb4ea09936becf422e9abf2262b870f8c01bf:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13987,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c15eb4ea09936becf422e9abf2262b870f8c01bf",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "all e specify the vat registration number that you want to verify error when entering a vat registration no in the sales order if the customer card has no vat registration no"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f9a762cfa6a8b77c1390af38ca0f316fce50b2a0c7b15c8434be007880cd1ccb"
+}

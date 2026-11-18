@@ -1,18 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-503.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-503",
-  "title": "Foreign Currency Balance (report 503)",
-  "blob": "c551e58a3d97d39c8c61760e41f98c494f10be13",
-  "summary": "Foreign Currency Balance report displays account balances in local and foreign currencies for G/L, customer, or vendor accounts to support multi-currency reconciliation and revaluation.",
+  "title": "Foreign Currency Balance (Report 503)",
+  "blob": "630f35aa2bf89674f9ace3197e1c55b148a08aee",
+  "summary": "Foreign Currency Balance report shows customer and vendor balances by currency with foreign-currency bank account balances, comparing local currency amounts with exchange-rate-converted values.",
   "systems": [
+    "sales",
+    "purchasing",
     "finance"
   ],
   "topics": [
     "foreign currency",
-    "currency balance",
-    "multi-currency",
-    "revaluation",
-    "reconciliation"
+    "exchange rates",
+    "balance reconciliation",
+    "currency revaluation"
   ],
   "objects": [
     {
@@ -21,11 +22,11 @@
     }
   ],
   "features": [
-    "G/L account balances",
-    "customer account balances",
-    "vendor account balances",
-    "local currency display",
-    "foreign currency display"
+    "Currency balance comparison",
+    "Exchange rate conversion",
+    "Bank account balances",
+    "Currency filtering",
+    "Date-based conversion rates"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002133,
-      "pages_in_call": 7
+      "cost_usd": 0.002954,
+      "pages_in_call": 8
     }
   ]
 }

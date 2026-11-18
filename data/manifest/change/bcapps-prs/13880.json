@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13880",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Resolve Payables Agent line accounts before PO matching",
+  "url": "https://github.com/microsoft/BCApps/pull/13880",
+  "published_at": "2026-11-17T11:39:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    }
+  },
+  "input_hash": "5f857b5d49a5f104dad0d410db65dfb96e7278e6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13880,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5f857b5d49a5f104dad0d410db65dfb96e7278e6",
+    "author": "dayland",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "resolve payables agent line accounts before po matching"
+  }
+}

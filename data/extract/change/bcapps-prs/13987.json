@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13987",
+  "number": 13987,
+  "title": "[Main][All-e]\"Specify the VAT registration number that you want to verify\" error when entering a VAT Registration No. in the Sales Order if the Customer Card has no VAT Registration No",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed a VAT registration number validation error in Sales Orders where the system incorrectly validated the customer's stored VAT number instead of the number entered on the document when the customer card had no VAT number and the VIES validation service was enabled.",
+  "key_points": [
+    "Sales Header VAT Registration No. field now passes a copy of the customer record with the entered number instead of the actual customer record for VIES validation",
+    "Preserves the existing behavior of only filling a blank customer VAT number, preventing unintended overwrites",
+    "Added comprehensive test cases to verify the validation checks the entered number when the customer has no VAT number",
+    "Fix applied across all localization layers (W1, NA, GB, FR, ES, IT, etc.)",
+    "Resolves error 'Specify the VAT registration number that you want to verify' when entering valid VAT numbers on sales documents"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "quote": "the field now passes a copy of the customer (CustomerToValidate) with the number entered on the document set",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004882,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13965",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 658846: [29.x]Partner feedback: Mark \"Custom Report Layouts\" page caption with '(Obsoleted)' and also add a notification OnOpen",
+  "url": "https://github.com/microsoft/BCApps/pull/13965",
+  "published_at": "2026-11-17T21:33:55Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    },
+    "fetched": {
+      "at": "2026-11-18T00:18:52.239Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-18T00:18:56.173Z",
+      "prompt": "extract-change@1",
+      "kind": "obsoletion",
+      "behavior": true,
+      "cost_usd": 0.003329
+    },
+    "linked": {
+      "at": "2026-11-18T00:18:56.284Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ae251bc67417b1b37b41aaf52480e6a5c8f9294e"
+    },
+    "published": {
+      "at": "2026-11-18T00:18:56.307Z",
+      "path": "content/changes/bcapps/13965.md"
+    }
+  },
+  "input_hash": "4f49a1eb5ebb7384620fe1654dd53536c3abca03:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13965,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "4f49a1eb5ebb7384620fe1654dd53536c3abca03",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 658846 29 x partner feedback mark custom report layouts page caption with obsoleted and also add a notification onopen"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d2e8c15f653a0bb730469eb073c8435a8e22858f528ba4a52b51e5689c91a2f2"
+}

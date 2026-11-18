@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/14018",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-ZUGFeRD: Custom Ship-to Address is not transferred to XML Delivery Address in the German version.",
+  "url": "https://github.com/microsoft/BCApps/pull/14018",
+  "published_at": "2026-11-16T10:11:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    }
+  },
+  "input_hash": "70aa1c2c7a785fa206b36057eefdad7c7f2a26ff:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14018,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "70aa1c2c7a785fa206b36057eefdad7c7f2a26ff",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "zugferd custom ship to address is not transferred to xml delivery address in the german version"
+  }
+}

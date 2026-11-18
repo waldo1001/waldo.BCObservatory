@@ -3,9 +3,9 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "Consume a TryFunction return value to enable try semantics",
+  "title": "Consume a TryFunction return value when the caller handles the failure",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/error-handling/ignored-tryfunction-return-disables-try-semantics.md",
-  "published_at": "2026-09-09T15:31:03.000Z",
+  "published_at": "2026-11-17T10:17:43.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,23 +13,23 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-29T21:28:26.449Z",
-      "blob": "902528bc48d67b994a30e7e0746ea206b3d2828c",
-      "words": 140,
+      "at": "2026-11-18T00:18:35.369Z",
+      "blob": "1c58e453303d8edd057eed0dd1b020198000b3d9",
+      "words": 284,
       "forms": 0
     },
     "published": {
-      "at": "2026-10-29T21:28:26.507Z",
+      "at": "2026-11-18T00:18:35.428Z",
       "path": "content/guidelines/microsoft/knowledge/error-handling/ignored-tryfunction-return-disables-try-semantics.md"
     }
   },
-  "input_hash": "902528bc48d67b994a30e7e0746ea206b3d2828c",
+  "input_hash": "1c58e453303d8edd057eed0dd1b020198000b3d9",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/knowledge/error-handling/ignored-tryfunction-return-disables-try-semantics.md",
-    "description": "A procedure marked [TryFunction] catches errors only when the caller uses its Boolean return value. An assignment or conditional makes the invocation a try-method call; a bare call is treated as an ordinary procedure call and exposes errors as usual.",
+    "description": "A [TryFunction] catches errors only when the caller uses its Boolean return value. An assignment or conditional makes the invocation a try-method call; a bare call is treated as an ordinary procedure call and exposes errors as usual.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
@@ -38,11 +38,16 @@
       "try-method",
       "boolean-return",
       "ignored-return-value",
-      "error-propagation"
+      "error-propagation",
+      "dead-failure-branch"
     ],
     "ai_usage": null,
-    "words": 140,
-    "identifiers": [],
+    "words": 284,
+    "identifiers": [
+      "GetLastErrorText",
+      "GetLastErrorCode",
+      "GetLastErrorObject"
+    ],
     "identifiers_rule": 2,
     "bcq": {
       "domain": "error-handling",
@@ -51,7 +56,8 @@
         "try-method",
         "boolean-return",
         "ignored-return-value",
-        "error-propagation"
+        "error-propagation",
+        "dead-failure-branch"
       ],
       "bc_version": [
         "13.."
@@ -66,11 +72,11 @@
         "all"
       ],
       "kind": "rule",
-      "summary": "A procedure marked [TryFunction] catches errors only when the caller uses its Boolean return value. An assignment or conditional makes the invocation a try-method call; a bare call is treated as an ordinary procedure call and exposes errors as usual."
+      "summary": "A [TryFunction] catches errors only when the caller uses its Boolean return value. An assignment or conditional makes the invocation a try-method call; a bare call is treated as an ordinary procedure call and exposes errors as usual."
     },
     "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "902528bc48d67b994a30e7e0746ea206b3d2828c"
+  "output_hash": "1c58e453303d8edd057eed0dd1b020198000b3d9"
 }

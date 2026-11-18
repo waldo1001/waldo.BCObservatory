@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/12711",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Remove duplicate FI layer files",
+  "url": "https://github.com/microsoft/BCApps/pull/12711",
+  "published_at": "2026-11-17T11:49:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-18T00:16:36.082Z"
+    }
+  },
+  "input_hash": "fc06edab38817b5b936cb93e588961e3f3d1b0d9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12711,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "fc06edab38817b5b936cb93e588961e3f3d1b0d9",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "remove duplicate fi layer files"
+  }
+}
