@@ -1,18 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-706.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-706",
-  "title": "Status (report)",
-  "blob": "3ee0cc499b1ecfd43f50a1114eeb7947799c2e29",
-  "summary": "Status report shows inventory valuation for items based on transactions from sales orders, purchase orders, and inventory transfers, broken down by entry types.",
+  "title": "Status Report for Inventory Valuation",
+  "blob": "6f477c16c9895b044b9a79902963aa8c5e4ca4c6",
+  "summary": "The Status report displays inventory valuation for items as of a specified date, broken down by entry types (purchase, sale, transfer, adjustments) with quantities, unit costs, and inventory values based on posted transactions.",
   "systems": [
     "inventory",
-    "sales",
-    "purchasing"
+    "reporting"
   ],
   "topics": [
     "inventory valuation",
-    "reporting",
-    "transaction analysis"
+    "status report",
+    "posted transactions",
+    "entry types",
+    "inventory value"
   ],
   "objects": [
     {
@@ -22,7 +23,9 @@
   ],
   "features": [
     "inventory valuation",
-    "entry types",
+    "status date",
+    "entry type breakdown",
+    "document number",
     "unit cost",
     "inventory value"
   ],
@@ -33,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002007,
-      "pages_in_call": 8
+      "cost_usd": 0.003002,
+      "pages_in_call": 1
     }
   ]
 }

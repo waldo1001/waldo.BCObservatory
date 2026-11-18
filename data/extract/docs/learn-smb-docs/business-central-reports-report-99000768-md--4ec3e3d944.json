@@ -1,30 +1,30 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-99000768.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000768",
-  "title": "Prod. Order Detailed Calc (report)",
-  "blob": "d98b6c8e9cb1bef623a55e1a7e78a82ffa26c26f",
-  "summary": "Prod. Order Detailed Calc report shows expected cost information for production orders based on routing and bill of materials details, including operation numbers, types, quantities, and cost amounts.",
+  "title": "Prod. Order - Detailed Calc. (Report)",
+  "blob": "544a42277f2614188ae674fdd37d7fd00c422f9d",
+  "summary": "Prod. Order - Detailed Calc. report shows expected cost information for production orders, including operation details, quantities, and costs from routing and bill of materials.",
   "systems": [
     "manufacturing"
   ],
   "topics": [
     "production orders",
-    "cost calculation",
+    "cost analysis",
     "routing",
     "bill of materials",
-    "report"
+    "reports"
   ],
   "objects": [
     {
       "type": "report",
-      "name": "Prod. Order Detailed Calc"
+      "name": "Prod. Order - Detailed Calc."
     }
   ],
   "features": [
-    "expected operation cost",
-    "production cost analysis",
-    "material cost",
-    "routing details"
+    "operation cost information",
+    "routing details",
+    "material costs",
+    "operation quantities"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002277,
-      "pages_in_call": 8
+      "cost_usd": 0.00289,
+      "pages_in_call": 1
     }
   ]
 }

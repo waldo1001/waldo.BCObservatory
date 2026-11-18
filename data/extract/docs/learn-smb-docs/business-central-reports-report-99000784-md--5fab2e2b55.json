@@ -1,16 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-99000784.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000784",
-  "title": "Machine Center Load (report)",
-  "blob": "096fdddbb2e6e7359bec8bcb8de4065933da8da6",
-  "summary": "The Machine Center Load report displays the work load on a machine center by summing required run times for all planned and actual orders over a specified period.",
+  "title": "Machine Center Load Report in Business Central",
+  "blob": "1e4e89181bfdf73e67c79a413a9576124719cf82",
+  "summary": "Machine Center Load report shows the workload on a machine center by displaying total allocated production order time in a specified period. This report is obsolete and replaced by the Work/Machine Center Load report.",
   "systems": [
     "manufacturing"
   ],
   "topics": [
     "machine center",
-    "load reporting",
-    "production planning"
+    "workload",
+    "production orders",
+    "reporting"
   ],
   "objects": [
     {
@@ -19,9 +20,9 @@
     }
   ],
   "features": [
-    "work load calculation",
-    "planned and actual orders",
-    "period-based analysis"
+    "machine center load calculation",
+    "production order time allocation",
+    "workload visualization"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00122,
-      "pages_in_call": 8
+      "cost_usd": 0.002807,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Prod. Order Detailed Calc (report)",
+  "title": "Prod. Order - Detailed Calc. (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000768",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.845Z",
-      "blob": "d98b6c8e9cb1bef623a55e1a7e78a82ffa26c26f",
+      "at": "2026-11-18T00:25:49.355Z",
+      "blob": "544a42277f2614188ae674fdd37d7fd00c422f9d",
       "words": 185,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:57.641Z",
+      "at": "2026-11-18T00:25:53.332Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002277
+      "cost_usd": 0.00289
     },
     "summarized": {
-      "at": "2026-10-06T18:55:57.649Z",
+      "at": "2026-11-18T00:25:53.333Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:59.463Z",
+      "at": "2026-11-18T00:25:53.334Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:59.465Z",
+      "at": "2026-11-18T00:25:53.335Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-99000768.md",
     "description": "Get a comprehensive analysis of the costs associated with production orders broken down to costs by material, capacity, overhead, and other cost components.",
-    "ms_date": "2024-11-01",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 185,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "71775111683674cc8499cd7b6a3344602eef3947bc5669c14e4855c5ad6e5b5f"
+  "output_hash": "8e244a33db74de5a7fce0cce919e9cf655b91e69b6cf4f611cd38a2e6c82db37"
 }

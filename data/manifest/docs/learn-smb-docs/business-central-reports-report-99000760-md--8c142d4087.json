@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Machine Center List (report)",
+  "title": "Machine Center List Report in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000760",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.826Z",
-      "blob": "36e5a61c241151e69fb558b6f8a1ec739124c2cc",
-      "words": 91,
+      "at": "2026-11-18T00:25:44.741Z",
+      "blob": "61692f0a09d9d49b37d3c87c287bd1b5a16db14e",
+      "words": 97,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:45.862Z",
+      "at": "2026-11-18T00:25:49.448Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.00121
+      "cost_usd": 0.003004
     },
     "summarized": {
-      "at": "2026-10-06T18:55:48.473Z",
+      "at": "2026-11-18T00:25:49.449Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:48.474Z",
+      "at": "2026-11-18T00:25:49.451Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:48.475Z",
+      "at": "2026-11-18T00:25:49.453Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-99000760.md",
     "description": "Get a list of the machine center setup in your company, which can help you manage and schedule production activities efficiently.",
-    "ms_date": "2024-11-01",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 91,
+    "ai_usage": "ai-assisted",
+    "words": 97,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6d88b8fe07e96050a18aba96ccd1b685932d473fec680756030ca8ba2f706644"
+  "output_hash": "c9f4fa00ab1a751f2bfe9384f75704281a70f2ea3979180656d89042f9a668f0"
 }

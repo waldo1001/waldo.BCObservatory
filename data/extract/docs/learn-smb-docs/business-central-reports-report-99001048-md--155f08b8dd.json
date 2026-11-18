@@ -1,18 +1,20 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-99001048.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99001048",
-  "title": "Planning Availability (report)",
-  "blob": "76ba8830624d3baee333ca88f9eed85d69c6f71a",
-  "summary": "The Planning Availability report provides an overview of item availability based on supply and demand from scheduled transactions like sales orders, purchase orders, and transfers, showing projected balance and document details.",
+  "title": "Planning Availability (Report)",
+  "blob": "304feac902547aec141beefb03488b1500227f80",
+  "summary": "Planning Availability report shows item availability based on supply and demand from scheduled transactions like sales orders, purchase orders, and transfers. This report is obsolete and will be removed in a future release.",
   "systems": [
     "inventory",
-    "warehouse"
+    "warehouse",
+    "manufacturing"
   ],
   "topics": [
-    "planning",
+    "reporting",
+    "inventory",
     "availability",
     "supply and demand",
-    "inventory"
+    "planning"
   ],
   "objects": [
     {
@@ -21,13 +23,11 @@
     }
   ],
   "features": [
-    "view date",
-    "gross requirement",
-    "planning receipt",
-    "scheduled receipts",
+    "item availability overview",
+    "supply and demand analysis",
+    "scheduled transactions",
     "projected balance",
-    "document type",
-    "document number"
+    "document tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002583,
-      "pages_in_call": 8
+      "cost_usd": 0.002973,
+      "pages_in_call": 1
     }
   ]
 }

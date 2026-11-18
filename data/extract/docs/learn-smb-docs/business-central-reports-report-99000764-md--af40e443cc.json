@@ -1,18 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-99000764.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000764",
-  "title": "Prod. Order - Precalc. Time (report)",
-  "blob": "1bf47a145e69d2a62a6e6300563b27d0436d543c",
-  "summary": "Prod. Order - Precalc. Time report shows calculated durations for production order routing times based on item, quantity, due date, and manufacturing data.",
+  "title": "Prod. Order - Precalc. Time (Report)",
+  "blob": "a7324eaf7c0aabf880a5836e364d84a8581a83bc",
+  "summary": "The Prod. Order - Precalc. Time report displays calculated durations for production order routing times based on production order details and manufacturing data like routing and BOM.",
   "systems": [
-    "manufacturing"
+    "manufacturing",
+    "reporting"
   ],
   "topics": [
     "production orders",
-    "routing",
-    "time calculation",
-    "scheduling",
-    "reporting"
+    "routing times",
+    "precalculated durations",
+    "capacity planning",
+    "manufacturing reports"
   ],
   "objects": [
     {
@@ -21,12 +22,11 @@
     }
   ],
   "features": [
-    "routing time calculation",
-    "starting time",
-    "ending time",
-    "capacity need",
-    "input quantity",
-    "scheduling dates"
+    "production order details",
+    "operation information",
+    "routing times",
+    "capacity needs",
+    "BOM integration"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00121,
-      "pages_in_call": 8
+      "cost_usd": 0.003074,
+      "pages_in_call": 1
     }
   ]
 }

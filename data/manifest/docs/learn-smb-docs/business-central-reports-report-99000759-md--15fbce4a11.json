@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Work Center List (report)",
+  "title": "Work Center List Report in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000759",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.822Z",
-      "blob": "1faac244453587a3962925f519c13d1b5b638f41",
-      "words": 141,
+      "at": "2026-11-18T00:25:44.734Z",
+      "blob": "1f6f53fe9fc1165f78a57a0cbb83a9302569cd49",
+      "words": 157,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:45.861Z",
+      "at": "2026-11-18T00:25:49.329Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.00121
+      "cost_usd": 0.003001
     },
     "summarized": {
-      "at": "2026-10-06T18:55:48.471Z",
+      "at": "2026-11-18T00:25:49.330Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:48.472Z",
+      "at": "2026-11-18T00:25:49.331Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:48.473Z",
+      "at": "2026-11-18T00:25:49.332Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-99000759.md",
     "description": "Get a list of work center setup in your company, which can help you manage and schedule production activities efficiently.",
-    "ms_date": "2024-11-01",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 141,
+    "ai_usage": "ai-assisted",
+    "words": 157,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fabaadc791a7b6566ca3bcdfb59e5220ea0d934bd505780f104194c19bdca5cd"
+  "output_hash": "03b1d0a9b9c75258a2d5ed5073c0c937e085ac788d83c9362924089e1549da77"
 }

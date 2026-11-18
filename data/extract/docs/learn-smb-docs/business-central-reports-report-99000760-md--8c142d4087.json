@@ -1,17 +1,16 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-99000760.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000760",
-  "title": "Machine Center List (report)",
-  "blob": "36e5a61c241151e69fb558b6f8a1ec739124c2cc",
-  "summary": "Machine Center List report shows machine centers setup in the company with filtering by number, name, work center, capacity, and efficiency.",
+  "title": "Machine Center List Report in Business Central",
+  "blob": "61692f0a09d9d49b37d3c87c287bd1b5a16db14e",
+  "summary": "Machine Center List report displays all machine centers configured in a company with filtering options by number, name, work center, capacity, and efficiency.",
   "systems": [
     "manufacturing"
   ],
   "topics": [
     "machine centers",
-    "capacity planning",
-    "production setup",
-    "reporting"
+    "production reporting",
+    "manufacturing setup"
   ],
   "objects": [
     {
@@ -20,10 +19,12 @@
     }
   ],
   "features": [
-    "machine center filtering",
-    "capacity",
-    "efficiency",
-    "work center assignment"
+    "Machine center listing",
+    "Filtering by number",
+    "Filtering by name",
+    "Filtering by work center number",
+    "Filtering by capacity",
+    "Filtering by efficiency"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00121,
-      "pages_in_call": 8
+      "cost_usd": 0.003004,
+      "pages_in_call": 1
     }
   ]
 }

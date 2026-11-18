@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Prod. Order - Precalc. Time (report)",
+  "title": "Prod. Order - Precalc. Time (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000764",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.835Z",
-      "blob": "1bf47a145e69d2a62a6e6300563b27d0436d543c",
+      "at": "2026-11-18T00:25:49.341Z",
+      "blob": "a7324eaf7c0aabf880a5836e364d84a8581a83bc",
       "words": 205,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:45.863Z",
+      "at": "2026-11-18T00:25:53.768Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.00121
+      "cost_usd": 0.003074
     },
     "summarized": {
-      "at": "2026-10-06T18:55:48.478Z",
+      "at": "2026-11-18T00:25:53.769Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:48.479Z",
+      "at": "2026-11-18T00:25:53.770Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:48.480Z",
+      "at": "2026-11-18T00:25:53.770Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-99000764.md",
-    "description": "Helps plan and schedule production activities by estimating the time needed to complete each production order based on factors such as work centers, machine centers, and routing information.",
-    "ms_date": "2024-11-01",
+    "description": "Helps plan and schedule production activities by estimating the time needed to complete each production order based on routing information.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 205,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "33236c56c7d417111086a434d7cc770b04920f5a46b6d0fe14cc70e7a0da96c1"
+  "output_hash": "8469209444b47654edd395b86524446d02a90f40d0225a655293d0d49e345614"
 }

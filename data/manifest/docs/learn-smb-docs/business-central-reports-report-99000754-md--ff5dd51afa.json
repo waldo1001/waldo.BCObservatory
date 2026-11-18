@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Rolled-up Cost Shares (report)",
+  "title": "Rolled-up Cost Shares (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000754",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.803Z",
-      "blob": "be34d0353a3f8cb33afb348dfbc19fa12fdf59ca",
+      "at": "2026-11-18T00:25:44.707Z",
+      "blob": "f68b8bc30235113c9644f8740a03958744ae6a0b",
       "words": 199,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:33.937Z",
+      "at": "2026-11-18T00:25:49.619Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001227
+      "cost_usd": 0.003012
     },
     "summarized": {
-      "at": "2026-10-06T18:55:36.460Z",
+      "at": "2026-11-18T00:25:49.621Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:38.124Z",
+      "at": "2026-11-18T00:25:49.622Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:38.125Z",
+      "at": "2026-11-18T00:25:49.623Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-99000754.md",
-    "description": "Get a comprehensive view of the costs associated with manufactured items, broken down into different cost components such as material, capacity, capacity overhead, subcontracting, and manufacturing overhead.",
-    "ms_date": "2024-11-01",
+    "description": "Get a view of the costs associated with manufactured items, broken down by material, capacity, capacity overhead, subcontracting, and manufacturing overhead.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 199,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8001406f4b3fa8fd92d6407c621c43f46f3991eca4d88ab7117d58a836eaa0cc"
+  "output_hash": "4edfb6b7bfc8b3caeadf105b8720869614085d691a2f41783fbcd95b3a0049d0"
 }

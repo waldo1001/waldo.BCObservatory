@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Work Center Load (report)",
+  "title": "Work Center Load Report in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000783",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.849Z",
-      "blob": "aba5a72280d0a1b763f9b8d20167f275b33eb1bf",
-      "words": 200,
+      "at": "2026-11-18T00:25:49.362Z",
+      "blob": "ada34e609bfa0845ae9ee0a6e7bddd40f3aa8c6b",
+      "words": 197,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:57.642Z",
+      "at": "2026-11-18T00:25:53.756Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002277
+      "cost_usd": 0.002787
     },
     "summarized": {
-      "at": "2026-10-06T18:55:59.467Z",
+      "at": "2026-11-18T00:25:53.757Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:59.468Z",
+      "at": "2026-11-18T00:25:53.758Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:59.469Z",
+      "at": "2026-11-18T00:25:53.759Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-99000783.md",
-    "description": "Analyze the load on a work center.",
-    "ms_date": "2024-11-01",
+    "description": "Analyze the load on a work center over specified periods, comparing allocated production order time with effective capacity in Business Central.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 200,
+    "ai_usage": "ai-assisted",
+    "words": 197,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "35fad0e86f04ed9cb207fc6bf02f331df82b9b3292665b39b6a26cd815638610"
+  "output_hash": "a62478c6d02954f8dfeba6d6694ab70dc934f1547b831b005076f0e58145cd1d"
 }

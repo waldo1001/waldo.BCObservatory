@@ -1,17 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-99000785.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000785",
-  "title": "Work Center Load/Bar (report)",
-  "blob": "e9d75ce0c57e834338ac6e68c0db3e3259a5810c",
-  "summary": "The Work Center Load/Bar report shows a list of work centers that are overloaded according to production plans, with graphical efficiency bars to visualize capacity status.",
+  "title": "Work Center Load/Bar Report in Business Central",
+  "blob": "e0cf04eb763d660a893aea969ebdf18d09c9f944",
+  "summary": "The Work Center Load/Bar report displays work centers that are overloaded according to production plans, showing capacity, production needs, and available load with efficiency bars. This report is obsolete and replaced by the Work/Machine Center Load report.",
   "systems": [
     "manufacturing"
   ],
   "topics": [
-    "work center",
-    "load reporting",
-    "capacity planning",
-    "overload visualization"
+    "work center load",
+    "production planning",
+    "capacity",
+    "overload analysis",
+    "reporting"
   ],
   "objects": [
     {
@@ -20,10 +21,12 @@
     }
   ],
   "features": [
-    "overload detection",
+    "work center capacity",
+    "effective capacity",
+    "production order needs",
+    "available load",
     "efficiency bars",
-    "capacity display",
-    "configurable overload thresholds"
+    "overload threshold"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00122,
-      "pages_in_call": 8
+      "cost_usd": 0.002946,
+      "pages_in_call": 1
     }
   ]
 }

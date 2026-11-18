@@ -1,17 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-99000759.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000759",
-  "title": "Work Center List (report)",
-  "blob": "1faac244453587a3962925f519c13d1b5b638f41",
-  "summary": "Work Center List report displays work centers and their setup including capacity, efficiency, and cost information for filtering and analysis.",
+  "title": "Work Center List Report in Business Central",
+  "blob": "1f6f53fe9fc1165f78a57a0cbb83a9302569cd49",
+  "summary": "Work Center List report displays work centers and their basic setup configuration, with filtering options by number, name, group code, cost, capacity, and efficiency metrics.",
   "systems": [
     "manufacturing"
   ],
   "topics": [
     "work centers",
-    "capacity planning",
-    "production setup",
-    "reporting"
+    "production",
+    "reporting",
+    "setup"
   ],
   "objects": [
     {
@@ -21,11 +21,10 @@
   ],
   "features": [
     "work center filtering",
+    "unit cost",
     "capacity",
     "efficiency",
-    "unit cost",
-    "base calendar code",
-    "alternate work center"
+    "shop calendar code"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00121,
-      "pages_in_call": 8
+      "cost_usd": 0.003001,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Production Forecast (report)",
+  "title": "Demand Forecast (Obsolete) Report",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-990003804",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.798Z",
-      "blob": "256d1479018c21fa3b9aef4b1c787d7f43d338af",
-      "words": 222,
+      "at": "2026-11-18T00:25:44.715Z",
+      "blob": "6115a30696a15490afa3a7800abfed3326d7127c",
+      "words": 238,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:33.936Z",
+      "at": "2026-11-18T00:25:49.320Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001227
+      "cost_usd": 0.003097
     },
     "summarized": {
-      "at": "2026-10-06T18:55:36.458Z",
+      "at": "2026-11-18T00:25:49.321Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:36.458Z",
+      "at": "2026-11-18T00:25:49.321Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:36.459Z",
+      "at": "2026-11-18T00:25:49.322Z",
       "page": false
     }
   },
@@ -44,25 +44,25 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-990003804.md",
-    "description": "Help you plan future production needs by predicting the demand for items based on historical data and other factors. Use the report to help ensure that production schedules align with anticipated sales and inventory requirements.",
-    "ms_date": "2024-11-01",
+    "description": "Review existing demand forecast quantities and sales orders to help plan production. Learn about the status of this obsolete report.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
-        "raw": "Report_990003804_Primary",
-        "id": 990003804,
+        "raw": "Report_99003804_Primary",
+        "id": 99003804,
         "kind": "Report Primary"
       }
     ],
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 222,
+    "ai_usage": "ai-assisted",
+    "words": 238,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e2696e7439a3c18d494f6bd75fa7dbfa26102069a6f422b1e592d6bc290b4cae"
+  "output_hash": "059d4471e89e0406459ae8d69d212b4d1cc6b6ad2f8388f25de80c3c6ac4d4b3"
 }

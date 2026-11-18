@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Planning Availability (report)",
+  "title": "Planning Availability (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99001048",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.397Z",
-      "blob": "76ba8830624d3baee333ca88f9eed85d69c6f71a",
-      "words": 176,
+      "at": "2026-11-18T00:25:53.800Z",
+      "blob": "304feac902547aec141beefb03488b1500227f80",
+      "words": 188,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:25:52.607Z",
+      "at": "2026-11-18T00:25:59.696Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002583
+      "cost_usd": 0.002973
     },
     "summarized": {
-      "at": "2026-10-06T19:25:52.627Z",
+      "at": "2026-11-18T00:25:59.697Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:52.629Z",
+      "at": "2026-11-18T00:25:59.698Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:52.631Z",
+      "at": "2026-11-18T00:25:59.698Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-99001048.md",
-    "description": "Helps you manage inventory levels and ensure that items are available when you need them.",
-    "ms_date": "2024-11-01",
+    "description": "Manage inventory levels and item availability with an overview of supply and demand from scheduled transactions in Business Central.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 176,
+    "ai_usage": "ai-assisted",
+    "words": 188,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4910475e2df20f0c8423405b6233aed3d72a61b303f2188d42d97395dd378aa1"
+  "output_hash": "025c318b9d7de0acbb29b77926abcd9de5981ddc068944fbeca6fa8e5cf9eea7"
 }

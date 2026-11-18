@@ -1,18 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-99000783.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000783",
-  "title": "Work Center Load (report)",
-  "blob": "aba5a72280d0a1b763f9b8d20167f275b33eb1bf",
-  "summary": "Work Center Load report shows the workload on a work center calculated as the sum of planned and actual orders run in a specified period.",
+  "title": "Work Center Load Report in Business Central",
+  "blob": "ada34e609bfa0845ae9ee0a6e7bddd40f3aa8c6b",
+  "summary": "The Work Center Load report shows workload allocation on a work center during a specified period. This report is obsolete and replaced by the Work/Machine Center Load report.",
   "systems": [
     "manufacturing"
   ],
   "topics": [
     "work center",
-    "workload",
-    "capacity planning",
+    "load",
     "production orders",
-    "report"
+    "workload",
+    "obsolete"
   ],
   "objects": [
     {
@@ -21,10 +21,9 @@
     }
   ],
   "features": [
-    "workload analysis",
-    "planned orders",
-    "actual orders",
-    "capacity tracking"
+    "workload allocation",
+    "production order time",
+    "time period analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002277,
-      "pages_in_call": 8
+      "cost_usd": 0.002787,
+      "pages_in_call": 1
     }
   ]
 }

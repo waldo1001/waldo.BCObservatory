@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Work Center Load/Bar (report)",
+  "title": "Work Center Load/Bar Report in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000785",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.383Z",
-      "blob": "e9d75ce0c57e834338ac6e68c0db3e3259a5810c",
-      "words": 219,
+      "at": "2026-11-18T00:25:49.693Z",
+      "blob": "e0cf04eb763d660a893aea969ebdf18d09c9f944",
+      "words": 233,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:25:45.884Z",
+      "at": "2026-11-18T00:25:54.171Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.00122
+      "cost_usd": 0.002946
     },
     "summarized": {
-      "at": "2026-10-06T19:25:45.904Z",
+      "at": "2026-11-18T00:25:54.172Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:45.905Z",
+      "at": "2026-11-18T00:25:54.173Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:45.906Z",
+      "at": "2026-11-18T00:25:54.174Z",
       "page": false
     }
   },
@@ -44,25 +44,25 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-99000785.md",
-    "description": "Get a list of work centers that are overloaded according to the plan.",
-    "ms_date": "2024-11-01",
+    "description": "Get a list of work centers that are overloaded according to the plan, with bars showing the load compared with effective capacity in Business Central.",
+    "ms_date": "2026-11-16",
     "ms_topic": "article",
     "search_form": [
       {
-        "raw": "Report_990000785_Primary",
-        "id": 990000785,
+        "raw": "Report_99000785_Primary",
+        "id": 99000785,
         "kind": "Report Primary"
       }
     ],
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 219,
+    "ai_usage": "ai-assisted",
+    "words": 233,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "45b78d863779e8b585c8ce69f941572bfb090c0ebd71440efd41648ec894b5b0"
+  "output_hash": "7c4ff125f97d1b36b7d1ca1e17f7d6c9357cf54257e63f58169e0ddd35db713d"
 }
