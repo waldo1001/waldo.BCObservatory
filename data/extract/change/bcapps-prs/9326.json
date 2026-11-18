@@ -1,0 +1,62 @@
+{
+  "item_id": "change/bcapps-prs/9326",
+  "number": 9326,
+  "title": "[FI] Delocalize Depreciation Differences into a first-party extension",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "fixed-assets",
+    "administration",
+    "platform"
+  ],
+  "summary": "Finland's Depreciation Differences feature moves from the base application into a first-party extension app, with legacy code marked obsolete and scheduled for removal in version 33.",
+  "key_points": [
+    "New extension app DepreciationDifferencesFI provides depreciation differences functionality with table extensions, page extensions, reports, and codeunits",
+    "Legacy BaseApp implementation marked obsolete (pending in 30.0, removed in 33.0) and wrapped behind CLEAN30 guards to support transitional migration",
+    "Feature uses a feature key (DepreciationDifferencesFI) and upgrade codeunit to migrate data from legacy schema until CLEANSCHEMA33",
+    "Helper procedures shared between migration paths avoid code duplication during transition period",
+    "Extension integrates with Contoso Coffee demo data and hybrid cloud migration infrastructure"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [
+    {
+      "object": "FA Posting Group",
+      "member": "depreciation difference fields",
+      "replacement": "DepreciationDifferencesFI extension table extension"
+    },
+    {
+      "object": "FA Ledger Entry",
+      "member": "depreciation difference fields",
+      "replacement": "DepreciationDifferencesFI extension table extension"
+    },
+    {
+      "object": "Source Code Setup",
+      "member": "depreciation difference fields",
+      "replacement": "DepreciationDifferencesFI extension table extension"
+    },
+    {
+      "object": "Calc. and Post Depr. Diff.",
+      "member": null,
+      "replacement": "Calc. and Post Depr. Diff. FI in DepreciationDifferencesFI extension"
+    },
+    {
+      "object": "Depr. Diff. Posting Buffer",
+      "member": null,
+      "replacement": "Depr. Diff. Posting Buffer FI in DepreciationDifferencesFI extension"
+    }
+  ],
+  "systems": [
+    "fixed-assets",
+    "finance",
+    "localization"
+  ],
+  "quote": "Delocalizes the Finland Depreciation Differences regulatory feature from the FI BaseApp layer into a new first-party extension app.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.014293,
+    "changes_in_call": 1
+  }
+}

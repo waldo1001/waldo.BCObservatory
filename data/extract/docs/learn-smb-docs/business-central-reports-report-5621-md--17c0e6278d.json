@@ -1,27 +1,28 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5621.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5621",
-  "title": "Insurance - List (report)",
-  "blob": "8fa91abf05be07dcfcb3a293912d8faf46abd306",
-  "summary": "Insurance - List report provides an overview of all insurance policies with the most important fields from insurance cards.",
+  "title": "Fixed Asset Insurance List (Report)",
+  "blob": "56f45d40b69c22b2b4c5fc83c9433f09a7295781",
+  "summary": "Fixed Asset Insurance List report displays an overview of insurance policies with the most important fields from insurance cards.",
   "systems": [
     "fixed-assets",
     "reporting"
   ],
   "topics": [
     "insurance",
-    "fixed assets",
     "policies",
-    "list"
+    "fixed assets",
+    "reporting"
   ],
   "objects": [
     {
       "type": "report",
-      "name": "Insurance - List"
+      "name": "Fixed Asset Insurance List"
     }
   ],
   "features": [
-    "insurance policies overview"
+    "insurance policy overview",
+    "insurance card details"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001081,
-      "pages_in_call": 8
+      "cost_usd": 0.002662,
+      "pages_in_call": 1
     }
   ]
 }

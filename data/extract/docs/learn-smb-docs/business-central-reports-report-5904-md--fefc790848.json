@@ -1,16 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5904.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5904",
-  "title": "Service Tasks (report)",
-  "blob": "2629be9eba7275e13de138fe9c9dd0ecaa5f347e",
-  "summary": "Service Tasks report displays a list of service tasks with service order number, item description, repair status, and service item details.",
+  "title": "Service Tasks in Business Central (Report)",
+  "blob": "8d3e01abdfaaafd646c7a59c8d0338e7419cb563",
+  "summary": "The Service Tasks report displays a list of service tasks with details including service order number, repair status, and service item information.",
   "systems": [
     "service"
   ],
   "topics": [
     "service tasks",
-    "repair status",
-    "service items"
+    "reporting",
+    "service orders",
+    "repair status"
   ],
   "objects": [
     {
@@ -20,7 +21,6 @@
   ],
   "features": [
     "service order number",
-    "service item description",
     "repair status",
     "service item"
   ],
@@ -31,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001088,
-      "pages_in_call": 7
+      "cost_usd": 0.002654,
+      "pages_in_call": 1
     }
   ]
 }

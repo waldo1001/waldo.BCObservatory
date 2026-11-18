@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Item Substitutions (report)",
+  "title": "Item Substitutions Report for Inventory",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5701",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.570Z",
-      "blob": "0c31966986ca2af505f10ac8425ac5c2bac2a113",
+      "at": "2026-11-18T00:23:41.385Z",
+      "blob": "adc573a5c4c80f4de6de08e77ea0e056bc596fee",
       "words": 253,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:54:28.820Z",
+      "at": "2026-11-18T00:24:04.551Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001267
+      "cost_usd": 0.002974
     },
     "summarized": {
-      "at": "2026-10-06T18:54:28.830Z",
+      "at": "2026-11-18T00:24:04.552Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:54:28.830Z",
+      "at": "2026-11-18T00:24:04.553Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:54:28.831Z",
+      "at": "2026-11-18T00:24:04.553Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5701.md",
-    "description": "Help you manage and track item substitutions in production orders and bills of materials (BOMs). It allows you to specify substitute items that can be used when the preferred items aren't available, ensuring that production can continue smoothly without delays.",
-    "ms_date": "2024-11-01",
+    "description": "Review substitute items, costs, quantities on hand, and interchangeability to help manage substitutions when preferred items aren't available.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 253,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c4a6cde9a44ff9e7815c975f3caea62b1598ee8c2994886f9405861311aa42f4"
+  "output_hash": "a0ec779cb70fdb003faaa2f9da274996caf71b83ce724191fc8e6d7c68575d60"
 }

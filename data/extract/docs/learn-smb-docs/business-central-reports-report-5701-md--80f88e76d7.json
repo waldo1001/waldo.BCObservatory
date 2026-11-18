@@ -1,17 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5701.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5701",
-  "title": "Item Substitutions (report)",
-  "blob": "0c31966986ca2af505f10ac8425ac5c2bac2a113",
-  "summary": "The Item Substitutions report displays items configured as substitutes for other items, showing substitute types, numbers, unit costs, quantities on hand, and interchangeability information.",
+  "title": "Item Substitutions Report for Inventory",
+  "blob": "adc573a5c4c80f4de6de08e77ea0e056bc596fee",
+  "summary": "The Item Substitutions report displays items set up as substitutes for other items, including item numbers, substitute types, descriptions, unit costs, quantities on hand, and other related details.",
   "systems": [
     "inventory"
   ],
   "topics": [
-    "items",
-    "substitutions",
-    "inventory",
-    "reporting"
+    "item substitution",
+    "inventory reporting",
+    "item availability",
+    "substitute items"
   ],
   "objects": [
     {
@@ -20,10 +20,11 @@
     }
   ],
   "features": [
-    "substitute items",
     "substitute type",
+    "substitute numbers",
     "unit cost",
     "quantity on hand",
+    "base unit of measure",
     "interchangeable",
     "conditional"
   ],
@@ -34,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001267,
-      "pages_in_call": 8
+      "cost_usd": 0.002974,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Service Quote (document report)",
+  "title": "Service Quote (Document Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5902",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.588Z",
-      "blob": "4f5f3be444465d63e77a7323211a4219bf1a376a",
+      "at": "2026-11-18T00:24:22.438Z",
+      "blob": "8578ef0f233b07ac38fbb7a49a4ee63438bd4e55",
       "words": 143,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:04.116Z",
+      "at": "2026-11-18T00:24:45.174Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001088
+      "cost_usd": 0.002737
     },
     "summarized": {
-      "at": "2026-10-06T18:55:04.126Z",
+      "at": "2026-11-18T00:24:45.175Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:04.127Z",
+      "at": "2026-11-18T00:24:45.175Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:04.128Z",
+      "at": "2026-11-18T00:24:45.175Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5902.md",
-    "description": "Generate a service quote document that you can send to your customer.",
-    "ms_date": "2024-11-02",
+    "description": "Generate a service quote document that you can send to your customer. Include the quote number, status, order date, and customer details.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 143,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2500ee19e2a02c8cb689a781ff376d6a102ddbc4a62b3067f2f4e26b922c2224"
+  "output_hash": "64dc32636290367411577b39c240c03578d646daa2e04e2a87af28ed877064b8"
 }

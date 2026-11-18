@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Service Profit (Resp. Centers) (report)",
+  "title": "Service Profit (Resp. Centers) (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5909",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.602Z",
-      "blob": "eb45dcd384d1ca02aa0ef5c83bc88d4dfb3a8488",
+      "at": "2026-11-18T00:24:54.633Z",
+      "blob": "62cdc270c1f545fcb5d5713b0b3c679d36acb433",
       "words": 133,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:04.120Z",
+      "at": "2026-11-18T00:25:15.901Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001088
+      "cost_usd": 0.002792
     },
     "summarized": {
-      "at": "2026-10-06T18:55:04.137Z",
+      "at": "2026-11-18T00:25:15.902Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:04.138Z",
+      "at": "2026-11-18T00:25:15.903Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:04.139Z",
+      "at": "2026-11-18T00:25:15.904Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5909.md",
-    "description": "Get an overview on profit for responsibility centers.",
-    "ms_date": "2024-11-02",
+    "description": "Get an overview of profit for responsibility centers based on the difference between service amounts and service costs for service orders.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 133,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f2b94e383eee336550f2e5fa6b26ba24bb05371489ee9a1975521c8e908411a1"
+  "output_hash": "329f2ea6dfea84458ee203bbf08904b693f171daa351e1895a65fb69c84d388f"
 }

@@ -6,14 +6,39 @@
   "title": "[FI] Delocalize Depreciation Differences into a first-party extension",
   "url": "https://github.com/microsoft/BCApps/pull/9326",
   "published_at": "2026-11-16T13:19:31Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-17T00:16:35.786Z"
+    },
+    "fetched": {
+      "at": "2026-11-18T00:24:58.129Z",
+      "change_class": "code",
+      "files": 61,
+      "al": 41,
+      "objects": 15,
+      "unjoined": 26
+    },
+    "extracted": {
+      "at": "2026-11-18T00:25:15.934Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.014293
+    },
+    "linked": {
+      "at": "2026-11-18T00:25:16.188Z",
+      "objects": 15,
+      "unjoined": 26,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-18T00:25:16.221Z",
+      "path": "content/changes/bcapps/9326.md"
     }
   },
   "input_hash": "c86d238fc0c3487477be46453852be3020438db8:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 9326,
@@ -31,6 +56,7 @@
     "community_contribution": false,
     "title_key": "fi delocalize depreciation differences into a first party extension"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-17T02:19:20.760Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3367e44229644a85ead32057f6d555d207b51b98e510e34fb0490acbb46620c7"
 }

@@ -1,0 +1,773 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9326,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9326",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-16T13:19:31Z",
+  "merge_commit_sha": "c86d238fc0c3487477be46453852be3020438db8",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Build: scripts & configs",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[FI] Delocalize Depreciation Differences into a first-party extension",
+  "body_hash": "986563fabfcc80dd9f91a8c871d2056fe08af87d8c90c62bd6c0b6ac011dfe27",
+  "fixes_issues": [],
+  "work_items": [
+    622873
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "build/groups.json",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects.json",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps FI/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "src/Apps/FI/ContosoCoffeeDemoDatasetFI/app/DemoData/FIContosoLocalization.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/ContosoCoffeeDemoDatasetFI/app/DemoData/FixedAsset/1.Setup Data/CreateFAPostingGrpFI.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/ExtensionLogo.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/app.json",
+      "status": "added",
+      "additions": 51,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/permissions/DepDiffFIObjects.PermissionSetExt.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/DepDiffFIDataClass.Codeunit.al",
+      "status": "added",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/DepDiffFIFeatureDataUpd.Codeunit.al",
+      "status": "added",
+      "additions": 115,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/DepDiffFIHelperProcedures.Codeunit.al",
+      "status": "added",
+      "additions": 63,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/DepDiffFISetup.Codeunit.al",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/DepDiffFISubscribers.Codeunit.al",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/DepDiffFIUpgradeTag.Codeunit.al",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/FIDepreciationDiffFeature.Codeunit.al",
+      "status": "added",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/InstallDepreciationDiffFI.Codeunit.al",
+      "status": "added",
+      "additions": 25,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/UpgradeDepreciationDiffFI.Codeunit.al",
+      "status": "added",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/EnumExtensions/DeprDiffFIFeatureToUpdate.EnumExt.al",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/PageExtensions/FAPostingGroupCardDeprDiff.PageExt.al",
+      "status": "added",
+      "additions": 63,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/PageExtensions/FAPostingGroupsDeprDiffFI.PageExt.al",
+      "status": "added",
+      "additions": 60,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/PageExtensions/FinanceManagerRCDeprDiffFI.PageExt.al",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/PageExtensions/SourceCodeSetupDeprDiffPg.PageExt.al",
+      "status": "added",
+      "additions": 48,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Reports/CalcandPostDeprDiff.rdlc",
+      "status": "added",
+      "additions": 1124,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Reports/CalcandPostDeprDiffFI.Report.al",
+      "status": "added",
+      "additions": 392,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/TableExtensions/FALedgerEntryDeprDiffFI.TableExt.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/TableExtensions/FAPostingGroupDeprDiffFI.TableExt.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/TableExtensions/SourceCodeSetupDeprDiffFI.TableExt.al",
+      "status": "added",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Tables/DeprDiffPostingBufferFI.Table.al",
+      "status": "added",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/demo data/CreateDeprDiffFAPostGrp.Codeunit.al",
+      "status": "added",
+      "additions": 45,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/demo data/DepDiffDemoDataFI.Codeunit.al",
+      "status": "added",
+      "additions": 43,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/demo data/ExtensionLogo.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/demo data/app.json",
+      "status": "added",
+      "additions": 57,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/test/ExtensionLogo.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/test/app.json",
+      "status": "added",
+      "additions": 71,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FI/DepreciationDifferencesFI/test/src/DeprDiffCalculationFI.Codeunit.al",
+      "status": "added",
+      "additions": 1733,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/app.json",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/HybridBCLast/app/src/codeunits/TableAndFieldMoveMappings.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/HybridBCLast/test/src/TestTransformationW1.Codeunit.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FALedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FAPostingGroupCard.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FAPostingGroups.Page.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Foundation/AuditCodes/SourceCodeSetup.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Foundation/AuditCodes/SourceCodeSetupFI.PageExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Foundation/AuditCodes/SourceCodeSetupFI.TableExt.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Local/FixedAssets/Depreciation/CalcandPostDeprDiff.Report.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Local/FixedAssets/Depreciation/DeprDiffPostingBuffer.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Permissions/local.permissionset.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Permissions/localread.permissionset.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Utilities/DataClassEvalDataCountry.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/DemoTool/CreateFAPostingGroup.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FI/Tests/ApplicationTestLibrary/LibraryFixedAsset.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/Tests/Fixed Asset/ERMFixedAssetsReports.Codeunit.al",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/Tests/Local/DeprDiffCalculation.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/Tests/NewObjectTests-Internal/CloudMigCountryTables.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FeatureKeyManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FeatureKeyManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 61,
+    "additions": 4739,
+    "deletions": 31,
+    "al": 41
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/HybridBCLast/app/src/codeunits/TableAndFieldMoveMappings.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/40030",
+        "type": "codeunit",
+        "id": 40030,
+        "name": "Table and Field Move Mappings",
+        "app": "HybridBCLast",
+        "cc": "w1",
+        "page": "codeunit/40030"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FALedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/5601",
+        "type": "table",
+        "id": 5601,
+        "name": "FA Ledger Entry",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/5601"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+        "status": "modified",
+        "key": "table/5606",
+        "type": "table",
+        "id": 5606,
+        "name": "FA Posting Group",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/5606"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Foundation/AuditCodes/SourceCodeSetup.Table.al",
+        "status": "modified",
+        "key": "table/242",
+        "type": "table",
+        "id": 242,
+        "name": "Source Code Setup",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/242"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Foundation/AuditCodes/SourceCodeSetupFI.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/13400",
+        "type": "pageextension",
+        "id": 13400,
+        "name": "SourceCodeSetupFI",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "pageextension/13400-fi"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Foundation/AuditCodes/SourceCodeSetupFI.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/13400",
+        "type": "tableextension",
+        "id": 13400,
+        "name": "SourceCodeSetupFI",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "tableextension/13400-fi"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Local/FixedAssets/Depreciation/CalcandPostDeprDiff.Report.al",
+        "status": "modified",
+        "key": "report/13402",
+        "type": "report",
+        "id": 13402,
+        "name": "Calc. and Post Depr. Diff.",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "report/13402-fi"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Local/FixedAssets/Depreciation/DeprDiffPostingBuffer.Table.al",
+        "status": "modified",
+        "key": "table/13401",
+        "type": "table",
+        "id": 13401,
+        "name": "Depr. Diff. Posting Buffer",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/13401-fi"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Permissions/local.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/1001",
+        "type": "permissionset",
+        "id": 1001,
+        "name": "LOCAL",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "permissionset/1001"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Permissions/localread.permissionset.al",
+        "status": "modified",
+        "key": "permissionset/1002",
+        "type": "permissionset",
+        "id": 1002,
+        "name": "LOCAL READ",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "permissionset/1002"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FeatureKeyManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/265",
+        "type": "codeunit",
+        "id": 265,
+        "name": "Feature Key Management",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/265"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+        "status": "modified",
+        "key": "table/5606",
+        "type": "table",
+        "id": 5606,
+        "name": "FA Posting Group",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/5606"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+        "status": "modified",
+        "key": "table/5606",
+        "type": "table",
+        "id": 5606,
+        "name": "FA Posting Group",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/5606"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FeatureKeyManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/265",
+        "type": "codeunit",
+        "id": 265,
+        "name": "Feature Key Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/265"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAPostingGroup.Table.al",
+        "status": "modified",
+        "key": "table/5606",
+        "type": "table",
+        "id": 5606,
+        "name": "FA Posting Group",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5606"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/FI/ContosoCoffeeDemoDatasetFI/app/DemoData/FIContosoLocalization.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/ContosoCoffeeDemoDatasetFI/app/DemoData/FixedAsset/1.Setup Data/CreateFAPostingGrpFI.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/permissions/DepDiffFIObjects.PermissionSetExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/DepDiffFIDataClass.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/DepDiffFIFeatureDataUpd.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/DepDiffFIHelperProcedures.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/DepDiffFISetup.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/DepDiffFISubscribers.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/DepDiffFIUpgradeTag.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/FIDepreciationDiffFeature.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/InstallDepreciationDiffFI.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Codeunits/UpgradeDepreciationDiffFI.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/EnumExtensions/DeprDiffFIFeatureToUpdate.EnumExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/PageExtensions/FAPostingGroupCardDeprDiff.PageExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/PageExtensions/FAPostingGroupsDeprDiffFI.PageExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/PageExtensions/FinanceManagerRCDeprDiffFI.PageExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/PageExtensions/SourceCodeSetupDeprDiffPg.PageExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Reports/CalcandPostDeprDiffFI.Report.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/TableExtensions/FALedgerEntryDeprDiffFI.TableExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/TableExtensions/FAPostingGroupDeprDiffFI.TableExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/TableExtensions/SourceCodeSetupDeprDiffFI.TableExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/DepreciationDifferencesFI/app/src/Tables/DeprDiffPostingBufferFI.Table.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FAPostingGroupCard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/FixedAssets/FixedAsset/FAPostingGroups.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Utilities/DataClassEvalDataCountry.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "fixed-assets",
+    "administration",
+    "platform"
+  ],
+  "apps": [
+    "Base Application",
+    "HybridBCLast"
+  ]
+}

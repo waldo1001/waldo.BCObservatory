@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Service Tasks (report)",
+  "title": "Service Tasks in Business Central (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5904",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.593Z",
-      "blob": "2629be9eba7275e13de138fe9c9dd0ecaa5f347e",
-      "words": 125,
+      "at": "2026-11-18T00:24:41.831Z",
+      "blob": "8d3e01abdfaaafd646c7a59c8d0338e7419cb563",
+      "words": 122,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:04.118Z",
+      "at": "2026-11-18T00:24:55.072Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001088
+      "cost_usd": 0.002654
     },
     "summarized": {
-      "at": "2026-10-06T18:55:04.129Z",
+      "at": "2026-11-18T00:24:55.072Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:04.130Z",
+      "at": "2026-11-18T00:24:55.073Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:04.131Z",
+      "at": "2026-11-18T00:24:55.073Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5904.md",
-    "description": "Get an overview of service tasks.",
-    "ms_date": "2024-11-02",
+    "description": "Get an overview of service tasks, including service order numbers, repair statuses, service item numbers, response dates, and priorities.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 125,
+    "ai_usage": "ai-assisted",
+    "words": 122,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "12f31e44d861d72024b0a4e5f6f775a0c47490fa1d8a7591e2c12510c7c74bd0"
+  "output_hash": "0bdac7ca468796afeb9984b8b7da2f9ab654fb3b2c1c20b2d900349192cfa91e"
 }

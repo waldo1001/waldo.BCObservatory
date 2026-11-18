@@ -6,7 +6,7 @@
   "title": "Set Shopify Connector BE target to Cloud",
   "url": "https://github.com/microsoft/BCApps/pull/12854",
   "published_at": "2026-11-17T00:52:30Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "set shopify connector be target to cloud"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-18T00:23:58.188Z",
+  "retry_after": null
 }

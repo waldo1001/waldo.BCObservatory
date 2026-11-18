@@ -13,7 +13,7 @@
     }
   },
   "input_hash": "5b04c33da1c85a63ae1e4359dbf33853af7ad30d:c1",
-  "attempts": 0,
+  "attempts": 1,
   "flags": [],
   "meta": {
     "number": 14135,
@@ -28,5 +28,7 @@
     ],
     "community_contribution": false,
     "title_key": "job queue don t cancel the executed task when scheduling the next run"
-  }
+  },
+  "last_error": "fetch failed",
+  "retry_after": "2026-11-18T02:23:38.458Z"
 }

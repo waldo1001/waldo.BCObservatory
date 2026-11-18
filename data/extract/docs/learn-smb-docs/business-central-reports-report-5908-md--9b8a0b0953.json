@@ -1,16 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5908.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5908",
-  "title": "Service Order - Response Time (report)",
-  "blob": "cd7d98ee3184b5ea27ef7dd68802b8f20ff3f293",
-  "summary": "Service Order - Response Time report shows response time metrics for shipped service orders including order number, customer name, dates, and actual response time.",
+  "title": "Service Order - Response Time (Report)",
+  "blob": "697e06143c642beaadddfd923c2e9acb7a8f20db",
+  "summary": "Service Order - Response Time report displays response time metrics for shipped service orders, including order details and actual response time.",
   "systems": [
-    "service"
+    "service",
+    "reporting"
   ],
   "topics": [
-    "response time",
     "service orders",
-    "performance metrics"
+    "response time",
+    "report",
+    "service management"
   ],
   "objects": [
     {
@@ -32,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001088,
-      "pages_in_call": 7
+      "cost_usd": 0.002762,
+      "pages_in_call": 1
     }
   ]
 }

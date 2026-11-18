@@ -2,16 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5802.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5802",
   "title": "Production Order - WIP (report)",
-  "blob": "77dcec21229150d2499db9ec76bc61d407f24c58",
-  "summary": "Production Order - WIP report shows work-in-process costs for released production orders based on posted consumption, capacity, and output transactions.",
+  "blob": "666b39d0f11920ff67d15fec4f5098e9c8045023",
+  "summary": "The Production Order - WIP report displays work-in-process costs for released and finished production orders based on posted transactions including consumptions, capacity entries, and output.",
   "systems": [
-    "manufacturing"
+    "manufacturing",
+    "reporting"
   ],
   "topics": [
-    "work-in-process",
     "production orders",
-    "cost analysis",
-    "wip costs"
+    "work-in-process",
+    "wip costs",
+    "cost accounting",
+    "production reports"
   ],
   "objects": [
     {
@@ -20,11 +22,11 @@
     }
   ],
   "features": [
-    "WIP cost overview",
+    "production order status",
     "consumption tracking",
     "capacity entries",
-    "output posting",
-    "G/L cost posting"
+    "output",
+    "cost posting to general ledger"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001959,
-      "pages_in_call": 8
+      "cost_usd": 0.002944,
+      "pages_in_call": 1
     }
   ]
 }

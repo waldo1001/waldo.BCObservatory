@@ -6,14 +6,39 @@
   "title": "Update Corp Card manual selection",
   "url": "https://github.com/microsoft/BCApps/pull/13587",
   "published_at": "2026-11-16T12:06:02Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-17T00:16:35.786Z"
+    },
+    "fetched": {
+      "at": "2026-11-18T00:24:58.527Z",
+      "change_class": "code",
+      "files": 69,
+      "al": 50,
+      "objects": 24,
+      "unjoined": 26
+    },
+    "extracted": {
+      "at": "2026-11-18T00:25:16.238Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.011134
+    },
+    "linked": {
+      "at": "2026-11-18T00:25:16.420Z",
+      "objects": 24,
+      "unjoined": 26,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-18T00:25:16.429Z",
+      "path": "content/changes/bcapps/13587.md"
     }
   },
   "input_hash": "a26aa566f6de32229a0054e7822e79553e376aa3:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13587,
@@ -31,6 +56,7 @@
     "community_contribution": false,
     "title_key": "update corp card manual selection"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-17T02:19:55.673Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "261f37628490a783780b1cf3c07df31bee20f7a8b6b04b5c518f19cb01d14698"
 }

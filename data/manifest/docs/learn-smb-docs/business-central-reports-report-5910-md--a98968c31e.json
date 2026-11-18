@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Service Profit (Serv. Orders) (report)",
+  "title": "Service Profit (Serv. Orders) (Report)",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5910",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:29.606Z",
-      "blob": "016f1352dfa36cc42eeedeafe3e74fb51fc9b3c8",
-      "words": 149,
+      "at": "2026-11-18T00:24:57.781Z",
+      "blob": "fcb842efc4947825f6c196214e0cccfb1a61264d",
+      "words": 150,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:55:04.121Z",
+      "at": "2026-11-18T00:25:16.229Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001088
+      "cost_usd": 0.002703
     },
     "summarized": {
-      "at": "2026-10-06T18:55:04.140Z",
+      "at": "2026-11-18T00:25:16.230Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:55:04.141Z",
+      "at": "2026-11-18T00:25:16.231Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:55:04.142Z",
+      "at": "2026-11-18T00:25:16.232Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5910.md",
-    "description": "Get an overview on profit for service orders.",
-    "ms_date": "2024-11-02",
+    "description": "Get an overview of profit for service orders based on service amounts and service costs. View customer numbers and service ledger details.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 149,
+    "ai_usage": "ai-assisted",
+    "words": 150,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9bc57b746d1b37a864a0297b01d0250958255d4c98c4062621073e647b6a55e3"
+  "output_hash": "9e7fcc39a20de1bca5e2411f3bb6f6330117f957b35a9fd5a6d98ccf830f715d"
 }

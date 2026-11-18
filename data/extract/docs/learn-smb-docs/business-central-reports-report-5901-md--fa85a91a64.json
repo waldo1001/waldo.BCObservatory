@@ -1,17 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5901.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5901",
-  "title": "Service Item Line Labels (report)",
-  "blob": "133efb3aea8c2573f4c392fc3a92fc0babcff87d",
-  "summary": "The Service Item Line Labels report lists service items included in service orders with order number, item number, serial number, and item name information for labeling purposes.",
+  "title": "Service Item Line Labels (Report)",
+  "blob": "d05189baf13d4ef1261a1a58f2f09bad8924f11e",
+  "summary": "Service Item Line Labels report displays a list of service items included in service orders, showing order number, service item number, serial number, and item name.",
   "systems": [
     "service"
   ],
   "topics": [
     "service items",
     "service orders",
-    "labels",
-    "reporting"
+    "reporting",
+    "labels"
   ],
   "objects": [
     {
@@ -20,9 +20,9 @@
     }
   ],
   "features": [
-    "service item listing",
-    "serial numbers",
-    "label printing"
+    "service item tracking",
+    "order information display",
+    "serial number display"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001267,
-      "pages_in_call": 8
+      "cost_usd": 0.00262,
+      "pages_in_call": 1
     }
   ]
 }

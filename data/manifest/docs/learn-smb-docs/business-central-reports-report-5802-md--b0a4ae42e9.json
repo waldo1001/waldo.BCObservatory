@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5802",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.610Z",
-      "blob": "77dcec21229150d2499db9ec76bc61d407f24c58",
-      "words": 235,
+      "at": "2026-11-18T00:23:43.839Z",
+      "blob": "666b39d0f11920ff67d15fec4f5098e9c8045023",
+      "words": 237,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:46:35.037Z",
+      "at": "2026-11-18T00:24:10.220Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001959
+      "cost_usd": 0.002944
     },
     "summarized": {
-      "at": "2026-10-06T18:46:36.975Z",
+      "at": "2026-11-18T00:24:10.224Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:46:36.976Z",
+      "at": "2026-11-18T00:24:10.225Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:46:36.977Z",
+      "at": "2026-11-18T00:24:10.225Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports/report-5802.md",
-    "description": "Helps you track the costs of the production process.",
-    "ms_date": "2024-11-01",
+    "description": "Track the costs of the production process. Review consumption, capacity usage, output, and costs posted to the general ledger for production orders.",
+    "ms_date": "2026-11-16",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -57,12 +57,12 @@
     "keywords": [
       "reporting"
     ],
-    "ai_usage": null,
-    "words": 235,
+    "ai_usage": "ai-assisted",
+    "words": 237,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ab12c5af66ec280b727ed66001a0aa0c955b9cde5c596cdf374b7eb15bde9ef0"
+  "output_hash": "ee69fe7d2ca96a070346bf4dbd989900f79e7e54c6556843bc46da0c8c1bd0e5"
 }

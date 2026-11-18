@@ -1,16 +1,16 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5902.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5902",
-  "title": "Service Quote (document report)",
-  "blob": "4f5f3be444465d63e77a7323211a4219bf1a376a",
-  "summary": "Service Quote report produces service quotes for customers showing quote number, status, order date, and customer details.",
+  "title": "Service Quote (Document Report)",
+  "blob": "8578ef0f233b07ac38fbb7a49a4ee63438bd4e55",
+  "summary": "Service Quote report produces service quotes for customers, displaying quote number, status, order date, customer details, and can print selected or all quotes.",
   "systems": [
     "service"
   ],
   "topics": [
-    "service quote",
-    "document report",
-    "customer communication"
+    "service quotes",
+    "document reports",
+    "printing"
   ],
   "objects": [
     {
@@ -22,7 +22,8 @@
     "service quote number",
     "status",
     "order date and time",
-    "customer name and address"
+    "customer name and address",
+    "print all or selected quotes"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001088,
-      "pages_in_call": 7
+      "cost_usd": 0.002737,
+      "pages_in_call": 1
     }
   ]
 }

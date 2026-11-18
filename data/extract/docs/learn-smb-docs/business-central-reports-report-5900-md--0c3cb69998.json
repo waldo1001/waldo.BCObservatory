@@ -1,16 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5900.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5900",
-  "title": "Service Order (document report)",
-  "blob": "e51ab9ea5ac5a93e47134b703d4d06ad8a78dd6f",
-  "summary": "The Service Order report produces a document for customers showing service order details including customer name, description, status, contract number, and service items, with amount display options.",
+  "title": "Service Order (Document Report)",
+  "blob": "39fb5a44957be37c03064bb30e4629e194e9c82c",
+  "summary": "Service Order report produces customer-facing service orders showing customer details, service items, order status, and amounts calculated by quantity or quantity invoiced.",
   "systems": [
     "service"
   ],
   "topics": [
+    "reports",
     "service orders",
-    "customer documents",
-    "reporting"
+    "document printing",
+    "customer communications"
   ],
   "objects": [
     {
@@ -19,10 +20,13 @@
     }
   ],
   "features": [
-    "service order details",
-    "quantity display",
-    "quantity invoiced",
-    "customer communication"
+    "Service order status display",
+    "Customer information",
+    "Service item and line details",
+    "Order date and time",
+    "Contract number",
+    "Quantity-based amount calculation",
+    "Quantity invoiced-based amount calculation"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001267,
-      "pages_in_call": 8
+      "cost_usd": 0.005304,
+      "pages_in_call": 1
     }
   ]
 }
