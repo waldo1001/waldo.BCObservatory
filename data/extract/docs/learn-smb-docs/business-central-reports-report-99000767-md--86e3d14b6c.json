@@ -2,16 +2,16 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-99000767.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000767",
   "title": "Prod. Order - Calculation (report)",
-  "blob": "cfa737b2c3d95238c0fe713fd5932ede7f6f4f75",
-  "summary": "Prod. Order - Calculation report lists production orders with expected operation costs, component costs, and total manufacturing costs.",
+  "blob": "5cad3e03615db20b3dfd09b9e67a01034a063c16",
+  "summary": "The Prod. Order - Calculation report (99000767) lists production orders with expected operation costs, component costs, and totals, though it is obsolete in favor of the Production Order Statistics report.",
   "systems": [
     "manufacturing"
   ],
   "topics": [
+    "manufacturing",
     "production orders",
     "cost calculation",
-    "operation costs",
-    "reporting"
+    "obsolete"
   ],
   "objects": [
     {
@@ -20,9 +20,9 @@
     }
   ],
   "features": [
-    "operation costs",
-    "component costs",
-    "total cost calculation"
+    "Production order costs",
+    "Operation costs",
+    "Component costs"
   ],
   "versions": [],
   "parts": 1,
@@ -31,7 +31,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00121,
+      "cost_usd": 0.002212,
       "pages_in_call": 8
     }
   ]

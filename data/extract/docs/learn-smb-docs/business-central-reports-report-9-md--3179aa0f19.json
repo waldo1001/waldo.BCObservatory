@@ -1,19 +1,17 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-9.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-9",
-  "title": "Trial Balance/Budget (report)",
-  "blob": "77f51df0b7a2b75c0ff4444105c796b9db71f27b",
-  "summary": "The Trial Balance/Budget report shows general ledger accounts with debit and credit net changes, balances, and actual vs. budgeted amount variances for financial analysis.",
+  "title": "Trial Balance/Budget Overview (Report)",
+  "blob": "1046e1612cff5ad7324c09e0cc44ec3d5546cfc0",
+  "summary": "Trial Balance/Budget report compares general ledger accounts with actual and budget amounts for a specified period with dimension filtering.",
   "systems": [
-    "finance",
-    "reporting"
+    "finance"
   ],
   "topics": [
     "trial balance",
-    "general ledger",
     "budgeting",
-    "financial analysis",
-    "variance analysis"
+    "general ledger",
+    "reporting"
   ],
   "objects": [
     {
@@ -22,20 +20,22 @@
     }
   ],
   "features": [
-    "general ledger accounts",
-    "debit and credit analysis",
-    "budget variance",
-    "period comparison",
-    "dimension filtering"
+    "trial balance",
+    "budget comparison",
+    "variance analysis",
+    "dimension filtering",
+    "fiscal year"
   ],
-  "versions": [],
+  "versions": [
+    "28.0"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001227,
+      "cost_usd": 0.001161,
       "pages_in_call": 8
     }
   ]

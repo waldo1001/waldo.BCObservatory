@@ -2,18 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5607.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5607",
   "title": "Fixed Asset Projected Value (report)",
-  "blob": "a7e6d0e7232e5b5dbd60d4fad110370ebda4884f",
-  "summary": "The Fixed Asset Projected Value report forecasts depreciation amounts and book value for a future period across specified date ranges, useful for comparing multiple depreciation methods and creating budget amounts.",
+  "blob": "e57026b977c4cf2c901a182427cd5d9d0fc04d92",
+  "summary": "Fixed Asset Projected Value report forecasts future depreciation and book value for fixed assets over a specified period using multiple depreciation methods. This legacy report is marked obsolete from version 28.0; use the Excel report replacement instead.",
   "systems": [
     "fixed-assets",
     "reporting"
   ],
   "topics": [
-    "projected value",
+    "fixed assets",
     "depreciation forecast",
+    "projected value",
     "book value",
-    "budget",
-    "multiple depreciation methods"
+    "legacy report",
+    "budgeting"
   ],
   "objects": [
     {
@@ -22,20 +23,22 @@
     }
   ],
   "features": [
-    "projected depreciation",
-    "book value forecast",
-    "budget creation",
-    "multiple depreciation methods",
-    "copy to G/L budget"
+    "Future Depreciation Forecasting",
+    "Multiple Depreciation Methods",
+    "Interval Breakdown",
+    "Budget Creation",
+    "Accumulated Depreciation Tracking"
   ],
-  "versions": [],
+  "versions": [
+    "version 28.0"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002169,
+      "cost_usd": 0.002698,
       "pages_in_call": 8
     }
   ]

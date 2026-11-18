@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5630.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5630",
-  "title": "Maintenance - Analysis (report)",
-  "blob": "94a23370835983cdce32a43f49576bea9ac33cac",
-  "summary": "Maintenance - Analysis report shows detailed maintenance expenses for fixed assets with options to group by category, select maintenance types, and choose date calculation methods.",
+  "title": "Maintenance - Analysis (Report)",
+  "blob": "d009df8c16cbbee3685887c0ea4b62becd977986",
+  "summary": "Maintenance - Analysis report shows detailed maintenance expenses for fixed assets, allowing grouping by category and breakdown by maintenance types using posting dates or fixed asset posting dates.",
   "systems": [
     "fixed-assets",
     "reporting"
@@ -12,7 +12,8 @@
     "maintenance",
     "fixed assets",
     "expenses",
-    "analysis"
+    "reporting",
+    "asset maintenance"
   ],
   "objects": [
     {
@@ -22,10 +23,11 @@
   ],
   "features": [
     "maintenance expenses",
-    "posting date selection",
-    "maintenance type filtering",
-    "asset grouping",
-    "period calculation"
+    "posting dates",
+    "fixed asset posting dates",
+    "maintenance codes",
+    "grouping by category",
+    "period selection"
   ],
   "versions": [],
   "parts": 1,
@@ -34,7 +36,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001081,
+      "cost_usd": 0.002516,
       "pages_in_call": 8
     }
   ]

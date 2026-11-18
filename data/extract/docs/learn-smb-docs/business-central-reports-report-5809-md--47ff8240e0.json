@@ -2,17 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5809.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5809",
   "title": "Item Expiration - Quantity (report)",
-  "blob": "12f78afad48a1b4687ece6f109ca2df24ce4ba30",
-  "summary": "Item Expiration - Quantity report shows current inventory levels for tracked expiration items across three preceding equal-length periods with expiry bucket analysis.",
+  "blob": "5e236e63a5d7c480bcfdff709d619b6360066192",
+  "summary": "Item Expiration - Quantity report shows current inventory levels for items tracked for expiration and calculates expiration timelines to help manage expired and expiring stock.",
   "systems": [
     "inventory",
     "warehouse"
   ],
   "topics": [
-    "expiration tracking",
-    "inventory management",
-    "reporting",
-    "quality control"
+    "item expiration",
+    "inventory tracking",
+    "expiration dates",
+    "quality control",
+    "stock management"
   ],
   "objects": [
     {
@@ -21,11 +22,10 @@
     }
   ],
   "features": [
-    "expiration tracking",
-    "inventory levels",
-    "period analysis",
-    "stock expiry",
-    "aging analysis"
+    "Expiration date tracking",
+    "Period calculation",
+    "Expired stock identification",
+    "Stock disposal planning"
   ],
   "versions": [],
   "parts": 1,
@@ -34,7 +34,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002007,
+      "cost_usd": 0.00243,
       "pages_in_call": 8
     }
   ]

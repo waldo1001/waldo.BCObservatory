@@ -1,17 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-99000780.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000780",
-  "title": "Capacity Task list (report)",
-  "blob": "22fd1e416eb55ee05ef51c8d2856e113ae36bce7",
-  "summary": "Capacity Task list report shows production orders waiting to be processed at work centers and machine centers with starting/ending times and input quantities.",
+  "title": "Capacity Task List Report in Business Central",
+  "blob": "a697974398c01205be1fb0547df1e53a086f79f2",
+  "summary": "The Capacity Task List report (99000780) shows unfinished production order operations by work center or machine center, excluding finished orders, with starting/ending dates, input quantities, and capacity needs.",
   "systems": [
     "manufacturing"
   ],
   "topics": [
+    "manufacturing",
     "capacity planning",
-    "production orders",
-    "work centers",
-    "scheduling"
+    "task list",
+    "work center",
+    "production orders"
   ],
   "objects": [
     {
@@ -20,10 +21,11 @@
     }
   ],
   "features": [
-    "pending production orders",
-    "work center capacity",
-    "machine center scheduling",
-    "timing information"
+    "Unfinished operations",
+    "Work center grouping",
+    "Machine center grouping",
+    "Capacity planning",
+    "Timing details"
   ],
   "versions": [],
   "parts": 1,
@@ -32,7 +34,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001959,
+      "cost_usd": 0.002212,
       "pages_in_call": 8
     }
   ]

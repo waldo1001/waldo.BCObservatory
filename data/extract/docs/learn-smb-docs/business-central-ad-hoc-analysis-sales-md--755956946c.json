@@ -1,18 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-sales.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales",
-  "title": "Ad-hoc analysis of sales data",
-  "blob": "eddf43f9d3194dc219a4ef8183f2769f7ede5a0e",
-  "summary": "Ad-hoc analysis of sales data feature enables interactive analysis of sales information directly from list pages using the Data Analysis feature. It provides quick fact-checking and custom views without running predefined reports.",
+  "title": "Ad-Hoc Analysis of Sales Data in Business Central",
+  "blob": "d05a7c10ff5f2850f713ad2090fab184ad797e0b",
+  "summary": "Ad-hoc analysis of sales data using the Data Analysis feature enables interactive exploration of sales orders, customer ledger entries, and related data directly from list pages without running traditional reports.",
   "systems": [
     "sales",
-    "reporting"
+    "reporting",
+    "platform"
   ],
   "topics": [
+    "ad-hoc analysis",
     "data analysis",
-    "sales analysis",
-    "interactive analysis",
-    "accounts receivable"
+    "sales data",
+    "analysis mode",
+    "pivot tables",
+    "interactive reporting"
   ],
   "objects": [
     {
@@ -22,15 +25,40 @@
     {
       "type": "page",
       "name": "Customer Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "Cust. Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Res. Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Sales Shipment Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
     }
   ],
   "features": [
+    "Data Analysis feature",
     "analysis mode",
-    "pivot tables",
+    "pivot mode",
     "row groups",
     "column labels",
-    "filtering",
-    "custom tabs"
+    "analysis filters",
+    "multiple analysis tabs"
   ],
   "versions": [],
   "parts": 1,
@@ -39,7 +67,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005488,
+      "cost_usd": 0.002638,
       "pages_in_call": 8
     }
   ]

@@ -2,18 +2,17 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-sync-master-data.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-sync-master-data",
   "title": "Manage master data synchronization",
-  "blob": "e0d56bf8ba9de2266d19296e520870966ea39601",
-  "summary": "Managing master data synchronization between source and subsidiary companies using job queue entries, with tools to handle schema changes, coupling, and troubleshooting synchronization issues.",
+  "blob": "8bc4161d048be28a31732ce0e4a4f21eba5d3f4a",
+  "summary": "Master data synchronization management provides tools for monitoring, maintaining, and troubleshooting ongoing synchronization between source and subsidiary companies.",
   "systems": [
     "administration",
     "integration"
   ],
   "topics": [
-    "master data sync",
-    "subsidiary synchronization",
-    "data coupling",
+    "synchronization",
+    "master data",
     "job queue",
-    "field mapping"
+    "troubleshooting"
   ],
   "objects": [
     {
@@ -22,21 +21,24 @@
     },
     {
       "type": "page",
-      "name": "Synchronization Fields"
+      "name": "Integration Synchronization Jobs"
     },
     {
       "type": "page",
-      "name": "Integration Synchronization Jobs"
+      "name": "Job Queue Entries"
+    },
+    {
+      "type": "page",
+      "name": "Synchronization Fields"
     }
   ],
   "features": [
-    "Master data synchronization",
-    "Record coupling",
-    "Overwrite local changes",
-    "Field mapping update",
-    "Full synchronization",
-    "Synchronization monitoring",
-    "Extension support"
+    "change detection",
+    "overwrite local changes",
+    "full synchronization",
+    "schema updates",
+    "coupling management",
+    "synchronization monitoring"
   ],
   "versions": [],
   "parts": 1,
@@ -45,7 +47,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004224,
+      "cost_usd": 0.003757,
       "pages_in_call": 8
     }
   ]

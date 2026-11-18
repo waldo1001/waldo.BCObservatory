@@ -2,28 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-printer-setup-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-overview",
   "title": "Printer Setup and Management Overview",
-  "blob": "ba88c1c01f74ad5f1ff54ca59c1c423274d1a8aa",
-  "summary": "Printer setup and management in Business Central enables users to send print jobs to cloud-enabled printers through Universal Print, email printers, or browser printing options.",
+  "blob": "1cea01e33e556c0f56bce86e38972eabe44ad252",
+  "summary": "Printer setup overview describes cloud-based printing options in Business Central including Universal Print, email printing, and browser printing for documents and reports.",
   "systems": [
     "administration",
     "platform"
   ],
   "topics": [
-    "printer setup",
-    "printer management",
+    "printing",
+    "printers",
+    "universal print",
+    "email print"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Printer Management"
+    }
+  ],
+  "features": [
     "universal print",
     "email print",
-    "cloud printing",
-    "report printing"
-  ],
-  "objects": [],
-  "features": [
-    "Universal Print",
-    "Email Print",
-    "Browser printing",
-    "Printer Management page",
-    "Universal Print Integration extension",
-    "Send to Email Printer extension"
+    "browser printing",
+    "printer registration",
+    "cloud-enabled printers"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003325,
-      "pages_in_call": 1
+      "cost_usd": 0.003757,
+      "pages_in_call": 8
     }
   ]
 }

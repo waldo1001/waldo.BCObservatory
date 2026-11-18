@@ -2,18 +2,16 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-812.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-812",
   "title": "Assembly BOM - End Items (report)",
-  "blob": "257b6bd319b3c1b795ac6fa587bbbd8517ebbc2c",
-  "summary": "The Assembly BOM - End Items report lists items or bills of materials that are not components in other BOMs, useful for identifying final assemblies.",
+  "blob": "5b304fd065bbfc6f63c1aceaf21bc63bac03ebdb",
+  "summary": "Assembly BOM - End Items report lists items not used as components in any assembly BOM, with filtering options.",
   "systems": [
-    "assembly",
-    "manufacturing"
+    "assembly"
   ],
   "topics": [
-    "bill of materials",
-    "end items",
-    "component analysis",
     "assembly",
-    "bom"
+    "end items",
+    "bills of materials",
+    "reporting"
   ],
   "objects": [
     {
@@ -22,8 +20,8 @@
     }
   ],
   "features": [
-    "bill of materials",
-    "end items filtering",
+    "end items listing",
+    "assembly BOM filtering",
     "replenishment system filtering"
   ],
   "versions": [],
@@ -33,7 +31,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001227,
+      "cost_usd": 0.001161,
       "pages_in_call": 8
     }
   ]

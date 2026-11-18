@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-troubleshoot-connectivity",
   "published_at": "2026-11-13T08:44:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-11-11T00:19:18.147Z",
+      "at": "2026-11-18T00:21:21.033Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00385
+      "objects": 1,
+      "cost_usd": 0.003757
     },
     "summarized": {
-      "at": "2026-11-11T00:19:18.148Z",
+      "at": "2026-11-18T00:21:21.095Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-11T00:19:18.148Z",
+      "at": "2026-11-18T00:21:21.095Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-11T00:19:18.149Z",
+      "at": "2026-11-18T00:21:21.096Z",
       "page": false
     }
   },
@@ -60,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6973258a87ac48a5b2d24293306f7bb958517e18"
+  "output_hash": "16de23fc8d6603f898c625a8fb8d670794c9b4938a203b0d9f0cc66cfdcbff5e"
 }

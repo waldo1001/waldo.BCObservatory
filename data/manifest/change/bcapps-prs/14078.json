@@ -6,10 +6,35 @@
   "title": "#10373 Fix Sales Cr.Memo - PEPPOL30 XSD scheme validity",
   "url": "https://github.com/microsoft/BCApps/pull/14078",
   "published_at": "2026-11-17T13:17:15Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
+    },
+    "fetched": {
+      "at": "2026-11-18T00:20:42.194Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-18T00:20:50.310Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00377
+    },
+    "linked": {
+      "at": "2026-11-18T00:20:50.436Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-18T00:20:50.443Z",
+      "path": "content/changes/bcapps/14078.md"
     }
   },
   "input_hash": "220d07dd8263eba35f96b75c338e03a9fc0690cf:c1",
@@ -32,5 +57,8 @@
     ],
     "community_contribution": true,
     "title_key": "10373 fix sales cr memo peppol30 xsd scheme validity"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b91498662497294088c5beb64a5453cb60d6d06bd75576d2555d3be8758f3954"
 }

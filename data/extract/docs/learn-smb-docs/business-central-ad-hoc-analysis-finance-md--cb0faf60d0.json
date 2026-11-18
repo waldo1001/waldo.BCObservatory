@@ -1,16 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-finance.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-finance",
-  "title": "Ad-hoc analysis of finance data",
-  "blob": "866ccc9e0e6da21ba5b5708651868dfcba5fc02b",
-  "summary": "Ad-hoc analysis of finance data using the Data Analysis feature to analyze general ledger, customer receivables, and vendor payables directly from list pages without running reports.",
+  "title": "Ad-Hoc Analysis of Finance Data",
+  "blob": "86a7afde6a6db06c65c191c5e82fcdc9fc89358b",
+  "summary": "The Data Analysis feature enables interactive ad-hoc analysis of finance data directly from list pages without running reports or switching applications, using General Ledger Entries, Customer Ledger Entries, and Vendor Ledger Entries for accounts receivable, payable, and general ledger analysis.",
   "systems": [
     "finance",
     "reporting"
   ],
   "topics": [
-    "ad-hoc analysis",
     "data analysis",
+    "ad-hoc analysis",
+    "finance",
+    "pivot mode",
     "general ledger",
     "accounts receivable",
     "accounts payable"
@@ -37,8 +39,8 @@
     "Data Analysis",
     "Pivot Mode",
     "Analysis Filters",
-    "multiple analysis tabs",
-    "ad-hoc scenarios"
+    "Ad-hoc analysis scenarios",
+    "Interactive data examination"
   ],
   "versions": [],
   "parts": 1,
@@ -47,7 +49,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00367,
+      "cost_usd": 0.002567,
       "pages_in_call": 8
     }
   ]

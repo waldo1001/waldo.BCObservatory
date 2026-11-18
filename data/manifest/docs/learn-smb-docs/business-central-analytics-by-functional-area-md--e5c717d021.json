@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Analytics by functional area",
+  "title": "Analytics by Functional Area Overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-by-functional-area",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.915Z",
-      "blob": "81462da2d3ba899ff8a503d9c7d4a3a63b415f85",
+      "at": "2026-11-18T00:19:52.064Z",
+      "blob": "e87a4b0aa854624ea93c6dfbd57e90d88398dead",
       "words": 30,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:40:22.352Z",
+      "at": "2026-11-18T00:20:47.108Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003787
+      "cost_usd": 0.001161
     },
     "summarized": {
-      "at": "2026-10-06T19:40:22.360Z",
+      "at": "2026-11-18T00:20:47.215Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:40:22.361Z",
+      "at": "2026-11-18T00:20:47.216Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:40:22.362Z",
+      "at": "2026-11-18T00:20:47.216Z",
       "page": false
     }
   },
@@ -44,19 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/analytics-by-functional-area.md",
-    "description": "Provides an overview of functional area specific landing pages for analytics in Business Central.",
-    "ms_date": "2024-05-01",
+    "description": "Provides an overview of functional area specific landing pages for analytics in Business Central, including finance, sales, and inventory.",
+    "ms_date": "2026-11-16",
     "ms_topic": "get-started",
     "search_form": [],
     "keywords": [
       "feature overview"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 30,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8bbfd3e89193646509720b50c50be6473dcddd6ad298e99ade2e9d9d8bf1731e"
+  "output_hash": "e319055a59d1b8323845cf7861942a3f3d0bf259ccb2ebc1e280b13654aec21c"
 }

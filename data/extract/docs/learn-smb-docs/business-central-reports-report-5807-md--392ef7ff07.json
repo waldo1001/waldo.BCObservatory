@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5807.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5807",
   "title": "Item Age Composition - Quantity (report)",
-  "blob": "5de572e12d38e23631381685bd38682053e8100d",
-  "summary": "The Item Age Composition - Quantity report shows on-hand inventory aged by receipt date in three equal-length periods to identify unused or slow-moving stock.",
+  "blob": "1fc260c048e0fa9ce43f0ccd64fa78fa6d338675",
+  "summary": "Item Age Composition - Quantity report shows current inventory quantities aged by posting date, with configurable aging periods and filtering by location and item.",
   "systems": [
     "inventory",
     "warehouse"
@@ -11,23 +11,29 @@
   "topics": [
     "inventory aging",
     "stock analysis",
-    "slow-moving items",
     "warehouse management",
-    "obsolete report"
+    "quantity"
   ],
   "objects": [
     {
       "type": "report",
       "name": "Item Age Composition - Quantity"
+    },
+    {
+      "type": "report",
+      "name": "Item Age Composition by Quantity and Value (Excel)"
+    },
+    {
+      "type": "report",
+      "name": "Item Expiration - Quantity"
     }
   ],
   "features": [
-    "Inventory aging analysis",
-    "Receipt date tracking",
-    "Period-based aging",
-    "Warehouse filtering",
-    "Item filtering",
-    "Slow-moving inventory identification"
+    "aging periods",
+    "posting date",
+    "location filtering",
+    "item filtering",
+    "obsolete report"
   ],
   "versions": [],
   "parts": 1,
@@ -36,7 +42,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003196,
+      "cost_usd": 0.002516,
       "pages_in_call": 8
     }
   ]

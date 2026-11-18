@@ -1,21 +1,23 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
-  "title": "Fixed assets analytics",
-  "blob": "d251d2d7dee8be1d124d56c345e599ff357a8867",
-  "summary": "Analyze fixed asset data using KPIs, financial reports, consolidation, data analysis, Excel exports, and built-in reports.",
+  "title": "Fixed Assets Analytics and Reporting",
+  "blob": "1e07d4df5301d52365746fc74aa59bfd073eeb0a",
+  "summary": "Fixed Assets Analytics and Reporting explains how to analyze fixed asset data through financial reports, KPIs, ad-hoc analysis, built-in reports, and on-screen analytics tools to track acquisitions, depreciation, insurance, and budgets.",
   "systems": [
     "fixed-assets",
-    "reporting",
-    "finance"
+    "finance",
+    "reporting"
   ],
   "topics": [
-    "fixed assets",
     "analytics",
+    "fixed assets",
+    "financial reporting",
+    "kpis",
     "business intelligence",
     "depreciation",
-    "maintenance",
-    "insurance"
+    "ledger entries",
+    "dimensions"
   ],
   "objects": [
     {
@@ -28,18 +30,18 @@
     },
     {
       "type": "page",
-      "name": "Fixed Asset Ledger Entries"
+      "name": "FA Ledger Entries"
     }
   ],
   "features": [
-    "asset acquisitions",
-    "asset depreciation",
-    "insurance monitoring",
-    "maintenance tracking",
-    "financial reporting",
-    "KPIs",
-    "data analysis",
-    "Excel integration"
+    "Financial Reporting",
+    "KPI tracking",
+    "Data analysis on list pages",
+    "Open in Excel",
+    "Dimensions analysis",
+    "Company consolidation",
+    "Asset depreciation tracking",
+    "Maintenance monitoring"
   ],
   "versions": [],
   "parts": 1,
@@ -48,7 +50,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005257,
+      "cost_usd": 0.002212,
       "pages_in_call": 8
     }
   ]

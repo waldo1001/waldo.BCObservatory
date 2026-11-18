@@ -2,17 +2,17 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5626.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5626",
   "title": "Insurance - Uninsured FAs (report)",
-  "blob": "a9834d10369e6390fc9c0041fdccaf5f0a7629fd",
-  "summary": "Insurance - Uninsured FAs report identifies fixed assets that have no amounts posted to the insurance coverage ledger.",
+  "blob": "6dbca8fd15caf43bff580dced9b0ddc49d1f4278",
+  "summary": "The Insurance - Uninsured FAs report identifies active, undisposed fixed assets without insurance coverage ledger entries, requiring the Insurance Depr. Book setting and showing acquisition cost, depreciation, and book value.",
   "systems": [
-    "fixed-assets",
-    "reporting"
+    "fixed-assets"
   ],
   "topics": [
     "insurance",
+    "uninsured assets",
     "fixed assets",
-    "uninsured",
-    "coverage"
+    "coverage gaps",
+    "depreciation book"
   ],
   "objects": [
     {
@@ -21,7 +21,11 @@
     }
   ],
   "features": [
-    "uninsured asset detection"
+    "Uninsured asset identification",
+    "Active asset filtering",
+    "Depreciation book requirement",
+    "Acquisition cost display",
+    "Book value reporting"
   ],
   "versions": [],
   "parts": 1,
@@ -30,7 +34,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001081,
+      "cost_usd": 0.002567,
       "pages_in_call": 8
     }
   ]

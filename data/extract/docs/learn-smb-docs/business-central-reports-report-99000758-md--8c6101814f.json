@@ -1,18 +1,18 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-99000758.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000758",
-  "title": "Item BOM Compare list (report)",
-  "blob": "63fc079a339284cd47bbf57d1efcb1695bd64bf0",
-  "summary": "Item BOM Compare list report compares components, costs, and quantities between two different production bills of materials for items.",
+  "title": "Item BOM Compare List (Report)",
+  "blob": "c6fd28abf3e86577c3c2ae646b3b18e49241a531",
+  "summary": "The Item BOM Compare list report (99000758) compares two production BOMs by listing all components, their costs, quantities, and cost differences, though it is obsolete in favor of the Compare Production Cost Shares report.",
   "systems": [
     "manufacturing"
   ],
   "topics": [
-    "bill of materials",
-    "comparison",
-    "cost analysis",
-    "production",
-    "reporting"
+    "manufacturing",
+    "bom",
+    "cost comparison",
+    "components",
+    "obsolete"
   ],
   "objects": [
     {
@@ -21,12 +21,10 @@
     }
   ],
   "features": [
-    "component comparison",
-    "cost comparison",
-    "material quantity",
-    "quantity exploded",
-    "cost share",
-    "difference cost"
+    "Component comparison",
+    "Cost analysis",
+    "Quantity exploding",
+    "Cost share calculation"
   ],
   "versions": [],
   "parts": 1,
@@ -35,7 +33,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00121,
+      "cost_usd": 0.002212,
       "pages_in_call": 8
     }
   ]

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14081",
+  "number": 14081,
+  "title": "[Main] - Bug 656406: [Expense Agent] Setup wizard access text should mention the mobile app (Android/iOS) alongside Web",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Expense Agent setup wizard updates UI text to clarify that the submission channels option enables access via both web and mobile app, not web only.",
+  "key_points": [
+    "Updated the 'Submission channels' group caption from 'Enable access via web' to 'Enable access via web and mobile app'",
+    "Modified the EnableWebAppAccess field tooltip to mention both Expense web app and Expense mobile app",
+    "Text-only change with no behavioral, visibility, or permission logic modifications",
+    "Change applies to page 6991 'Expense Agent Setup Wizard'"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "the text to cover both. It changes two strings on that option and nothing else",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004243,
+    "changes_in_call": 1
+  }
+}

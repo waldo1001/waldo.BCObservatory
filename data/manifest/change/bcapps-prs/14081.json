@@ -6,10 +6,35 @@
   "title": "[Main] - Bug 656406: [Expense Agent] Setup wizard access text should mention the mobile app (Android/iOS) alongside Web",
   "url": "https://github.com/microsoft/BCApps/pull/14081",
   "published_at": "2026-11-17T14:31:33Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
+    },
+    "fetched": {
+      "at": "2026-11-18T00:20:07.667Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-18T00:20:16.896Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.004243
+    },
+    "linked": {
+      "at": "2026-11-18T00:20:17.001Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-18T00:20:17.028Z",
+      "path": "content/changes/bcapps/14081.md"
     }
   },
   "input_hash": "d6cb195d622b1bc4246832196c53183ea5ec74a2:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 656406 expense agent setup wizard access text should mention the mobile app android ios alongside web"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0e4fd7b70ad925502bb5d0aaeff30e3324ce80cd1c2f24a976a9579b2c0e396c"
 }

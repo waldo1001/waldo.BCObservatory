@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-email",
   "published_at": "2026-11-13T08:44:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-11-12T00:16:52.426Z",
+      "at": "2026-11-18T00:21:21.026Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003646
+      "cost_usd": 0.003757
     },
     "summarized": {
-      "at": "2026-11-12T00:16:52.426Z",
+      "at": "2026-11-18T00:21:21.090Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-12T00:16:52.427Z",
+      "at": "2026-11-18T00:21:21.091Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-12T00:16:52.428Z",
+      "at": "2026-11-18T00:21:21.091Z",
       "page": false
     }
   },
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7a2b9b870a9ecdd279179d7ce3746d53943a98db"
+  "output_hash": "ac38fb4c13a99335dbf37a6851f0951008cefdbae56c319a1d2cb97f02be47f8"
 }

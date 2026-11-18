@@ -2,19 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-711.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-711",
   "title": "Inventory Top 10 List (report)",
-  "blob": "a792f5372c13667b3559dba62cf6af0f8317c5c9",
-  "summary": "Inventory Top 10 List report identifies highest or lowest selling items within a period to help purchasing managers, sales managers, and warehouse supervisors plan inventory and focus sales efforts.",
+  "blob": "a887999ae73e57f1aad71dabe95862cb5dc9bea8",
+  "summary": "The Inventory Top 10 List report ranks items by highest or lowest sales or inventory levels within a selected period to support purchasing planning and sales performance analysis.",
   "systems": [
     "inventory",
-    "purchasing",
-    "sales"
+    "sales",
+    "purchasing"
   ],
   "topics": [
-    "inventory",
-    "sales analysis",
+    "inventory analysis",
+    "top-selling items",
+    "sales ranking",
     "purchasing planning",
-    "items",
-    "stock levels"
+    "inventory optimization"
   ],
   "objects": [
     {
@@ -23,11 +23,11 @@
     }
   ],
   "features": [
-    "sales performance ranking",
-    "period filtering",
-    "inventory level monitoring",
-    "revenue analysis",
-    "cost of goods sold"
+    "sales ranking",
+    "inventory ranking",
+    "period selection",
+    "item filtering",
+    "quantity customization"
   ],
   "versions": [],
   "parts": 1,
@@ -36,7 +36,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004098,
+      "cost_usd": 0.002638,
       "pages_in_call": 8
     }
   ]

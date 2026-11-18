@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Fixed assets analytics",
+  "title": "Fixed Assets Analytics and Reporting",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.740Z",
-      "blob": "d251d2d7dee8be1d124d56c345e599ff357a8867",
-      "words": 1137,
+      "at": "2026-11-18T00:20:00.483Z",
+      "blob": "1e07d4df5301d52365746fc74aa59bfd073eeb0a",
+      "words": 1147,
       "forms": 14
     },
     "extracted": {
-      "at": "2026-10-06T19:01:50.311Z",
+      "at": "2026-11-18T00:20:58.159Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.005257
+      "cost_usd": 0.002212
     },
     "summarized": {
-      "at": "2026-10-06T19:01:52.223Z",
+      "at": "2026-11-18T00:20:58.216Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:01:52.225Z",
+      "at": "2026-11-18T00:20:58.217Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:01:52.225Z",
+      "at": "2026-11-18T00:20:58.217Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/fa-analytics-overview.md",
-    "description": "Learn how to gather, analyze, and share data about fixed assets for business intelligence.",
-    "ms_date": "2025-10-03",
+    "description": "Learn how to gather, analyze, and share data about fixed assets for business intelligence. Explore analysis tools and built-in reports.",
+    "ms_date": "2026-11-16",
     "ms_topic": "article",
     "search_form": [
       {
@@ -125,12 +125,12 @@
       "analysis",
       "KPI"
     ],
-    "ai_usage": null,
-    "words": 1137,
+    "ai_usage": "ai-assisted",
+    "words": 1147,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5c846156f373aa5c085c695b26154e41e98b8a3ff83877c17b3ac26d34a3422d"
+  "output_hash": "8636035947416818017616939fbef3d6664126fd49890e8136f2d9178c3201a7"
 }

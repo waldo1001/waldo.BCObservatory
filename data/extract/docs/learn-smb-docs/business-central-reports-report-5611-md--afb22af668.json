@@ -2,18 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5611.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5611",
   "title": "FA Posting Group - Net Change Report (report)",
-  "blob": "10e3f225e577db2446c1e00ecd88d86d3ac7114c",
-  "summary": "The FA Posting Group - Net Change Report shows the net change posted in fixed asset ledger entries for FA posting groups, with sections for individual posting groups and totals across all groups.",
+  "blob": "f1c0482ada7789fc88b9474ba9d71565b696fd3f",
+  "summary": "The FA Posting Group - Net Change Report compares fixed asset ledger entries with general ledger account changes by posting group and shows net change and total change for reconciliation during a specified period.",
   "systems": [
     "fixed-assets",
-    "reporting"
+    "finance"
   ],
   "topics": [
-    "posting groups",
+    "fixed assets",
     "net change",
-    "fixed asset ledger",
-    "general ledger accounts",
-    "depreciation books"
+    "posting groups",
+    "depreciation books",
+    "reconciliation",
+    "ledger entries"
   ],
   "objects": [
     {
@@ -22,10 +23,10 @@
     }
   ],
   "features": [
-    "net change calculation",
-    "posting group analysis",
-    "general ledger accounts",
-    "depreciation book filtering"
+    "Net change calculation",
+    "Posting group filtering",
+    "Depreciation book filtering",
+    "Starting and ending date range"
   ],
   "versions": [],
   "parts": 1,
@@ -34,7 +35,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002169,
+      "cost_usd": 0.002567,
       "pages_in_call": 8
     }
   ]

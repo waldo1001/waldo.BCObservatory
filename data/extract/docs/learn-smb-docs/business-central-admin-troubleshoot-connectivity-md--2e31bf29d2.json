@@ -2,29 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-troubleshoot-connectivity.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-troubleshoot-connectivity",
   "title": "Troubleshoot Connectivity for Business Central",
-  "blob": "91a888184eb4ea584137284e7a03b4eccf038124",
-  "summary": "Troubleshoot connectivity for Business Central Online by running diagnostic checks to verify internet connectivity, CDN resources, user authentication, environment discovery, application service, web server, and service health status.",
+  "blob": "6973258a87ac48a5b2d24293306f7bb958517e18",
+  "summary": "Troubleshooting Connectivity page verifies connectivity to Business Central resources and services by running automated checks for internet, CDN, authentication, and application service connectivity.",
   "systems": [
-    "administration",
-    "platform"
+    "platform",
+    "administration"
   ],
   "topics": [
-    "connectivity",
     "troubleshooting",
+    "connectivity",
     "diagnostics",
-    "network",
-    "authentication",
-    "business central online"
+    "support"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Troubleshooting Connectivity"
+    }
+  ],
   "features": [
-    "troubleshooting connectivity page",
-    "basic internet connectivity check",
-    "CDN resources loading check",
+    "internet connectivity check",
+    "CDN check",
     "user authentication check",
-    "Business Central environments discovery",
-    "application service connectivity check",
-    "web server connectivity check",
+    "environment discovery",
+    "application service connectivity",
+    "web server connectivity",
     "service health status"
   ],
   "versions": [],
@@ -34,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00385,
-      "pages_in_call": 1
+      "cost_usd": 0.003757,
+      "pages_in_call": 8
     }
   ]
 }

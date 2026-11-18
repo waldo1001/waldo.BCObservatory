@@ -14,16 +14,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T21:27:29.703Z"
+  at: "2026-11-18T00:19:12.563Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2af0cf423273143040ff892fe38f667e4c27e58d
+  input_hash: 243774a38cc8ebd0c1d46910215f1c69f659ba95
 evidence:
   - kind: guideline
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-error-handling-review.md
     title: "microsoft/BCQuality: AL error handling review"
-    date: "2026-10-05"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    date: "2026-11-17"
+    commit: 90540bb901abb89de6d075a4014389df73ab8b64
     t: null
     quote: null
 links:
@@ -132,7 +132,7 @@ Narrow the relevant files to the subset that applies to the changes under review
 - The changed procedures and triggers, weighted toward `OnValidate`/`OnInsert`/`OnModify` triggers, posting and validation routines, and procedures attributed with `[ErrorBehavior(...)]` or `[TryFunction]`.
 - Tokens extracted from the diff that relate to error surfacing and diagnostics (`Error`, `ErrorInfo`, `FieldError`, `TestField`, `Title`, `Message`, `DetailedMessage`, `AddAction`, `AddNavigationAction`, `RecordId`, `PageNo`, `ErrorBehavior`, `Collect`, `HasCollectedErrors`, `GetCollectedErrors`, `ClearCollectedErrors`, `ErrorType`, `Internal`, `Client`, `TryFunction`, `GetLastErrorText`, `Confirm`, `xRec`, Boolean assignment).
 - For the outbound HTTP call paths identified in Source, include `HttpClient`, `Get`, `Post`, `HttpResponseMessage`, response use, and caller failure handling (including `[TryFunction]` call sites) in keyword and topic matching.
-- Resolve changed standalone call targets; when the target declaration has `[TryFunction]`, worklist the ignored-return rule even if the declaration itself is unchanged. Only assignment and conditional use activate try semantics.
+- Resolve changed standalone call targets; when the target declaration has `[TryFunction]`, worklist both `ignored-tryfunction-return-disables-try-semantics` and `bare-tryfunction-call-propagates-errors` even if the declaration itself is unchanged. Only assignment and conditional use activate try semantics. A `Try` name prefix does not establish `[TryFunction]`; resolve the declaration.
 
 A file enters the candidate worklist when its `keywords` intersect the extracted tokens or its topic (derived from the index entry's `path`, `title`, and `description`) matches a changed object type. Read an article's full file — its `## Best Practice` / `## Anti Pattern` bodies — only after it makes the worklist; candidate selection uses the index alone.
 
@@ -145,7 +145,8 @@ The following targeted checks cover every current `error-handling` article:
 - Developer-only invariant text is raised with default client visibility, or a user-actionable validation is hidden as `ErrorType::Internal` — `errortype-internal-vs-client-for-diagnostics`.
 - `FieldError` receives a complete capitalized sentence, repeats the field caption/value, or ends the predicate with punctuation — `fielderror-default-message-logic`.
 - An unguarded `FieldError` is used as though it performed a comparison, or `TestField` is forced onto a complex rule needing a tailored predicate — `fielderror-vs-testfield`.
-- A resolved call target is marked `[TryFunction]` but the call is a standalone statement whose Boolean result is ignored — `ignored-tryfunction-return-disables-try-semantics`. This call-site rule supersedes the performance TryFunction article unless writes and rollback expectations are also visible.
+- A resolved call target is marked `[TryFunction]`, the call is a standalone statement whose Boolean result is ignored, and the surrounding code expects the failure to be caught (a later last-error check, failure branch or result, or a loop meant to continue past failures) — `ignored-tryfunction-return-disables-try-semantics`. This call-site rule supersedes the performance TryFunction article unless writes and rollback expectations are also visible.
+- A bare `[TryFunction]` call without such handling is intended propagation — `bare-tryfunction-call-propagates-errors`. It suppresses findings, including agent findings, that call the failure swallowed or ask for the result to be captured and re-raised.
 - A plain `Error` represents a known actionable correction that can be expressed through `ErrorInfo` actions/navigation, or an `ErrorInfo` omits the context needed for that action — `prefer-errorinfo-for-actionable-errors`.
 
 Once the candidate worklist is known, resolve layer-precedence conflicts per READ. Drop lower-precedence files whose normative guidance (`## Best Practice` or `## Anti Pattern`) directly contradicts a higher-precedence candidate, and record each dropped file in `suppressed` with `reason: "layer-precedence"`. Files that would have been candidates but are hidden because their layer is disabled in consumer configuration are recorded with `reason: "configuration"`. Files that never became candidates are NOT recorded in `suppressed`.
@@ -267,4 +268,4 @@ When no applicable error-handling knowledge is available, the report is:
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 90540bb, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

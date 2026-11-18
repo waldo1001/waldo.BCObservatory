@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14078",
+  "number": 14078,
+  "title": "#10373 Fix Sales Cr.Memo - PEPPOL30 XSD scheme validity",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Sales Credit Memo PEPPOL30 XMLport now exports the TaxPointDate element in the correct position within the XML structure to comply with the PEPPOL UBL CreditNote schema specification.",
+  "key_points": [
+    "TaxPointDate element repositioned to appear after IssueDate in the XML output",
+    "Aligns the XMLport structure with PEPPOL BIS3 CreditNote XSD requirements",
+    "Fixes validation failures when TaxPointDate has a populated value",
+    "Affects custom implementations of the PEPPOL Document Info Provider interface"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00377,
+    "changes_in_call": 1
+  }
+}

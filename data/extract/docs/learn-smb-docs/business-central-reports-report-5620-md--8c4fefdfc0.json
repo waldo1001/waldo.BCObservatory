@@ -1,19 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5620.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5620",
-  "title": "Insurance - Analysis (report)",
-  "blob": "4cddc51366e3dce6da47af4f195c811c45e1e9ce",
-  "summary": "Insurance - Analysis report shows insurance policy information including annual premiums, coverage amounts, and over/under insured status based on fixed asset values requiring insurance.",
+  "title": "Fixed Asset Insurance Analysis (report)",
+  "blob": "99a84ca8f0a76e3cdc47ea4eb1f1fd71f8c9cd82",
+  "summary": "The Insurance - Analysis report shows annual premiums, policy coverage, and insured values from insurance coverage ledger entries, including over/under insured calculations for each insurance policy.",
   "systems": [
-    "fixed-assets",
-    "reporting"
+    "fixed-assets"
   ],
   "topics": [
     "insurance",
-    "fixed assets",
-    "premiums",
+    "analysis",
     "coverage",
-    "analysis"
+    "premiums",
+    "insured value",
+    "ledger entries"
   ],
   "objects": [
     {
@@ -22,9 +22,11 @@
     }
   ],
   "features": [
-    "annual premiums",
-    "policy coverage",
-    "over/under insured calculation"
+    "Annual premiums",
+    "Policy coverage",
+    "Insured value",
+    "Over/Under Insured calculation",
+    "Date filtering"
   ],
   "versions": [],
   "parts": 1,
@@ -33,7 +35,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001081,
+      "cost_usd": 0.002567,
       "pages_in_call": 8
     }
   ]

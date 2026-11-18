@@ -1,30 +1,31 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5871.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5871",
-  "title": "Item - Able to Make (Time) (report)",
-  "blob": "25a8e59613cd65b44a9a12927a70c7e3ca20d720",
-  "summary": "Item - Able to Make (Time) report tracks bill of materials item availability over time based on supply, demand, and component availability to determine sales order fulfillment.",
+  "title": "Item - Able to Make (Timeline) (report)",
+  "blob": "86d6a706301a3f54bc9c930a1409a14120f6f42a",
+  "summary": "Item - Able to Make (Timeline) report tracks bill of materials component availability over time to determine if sales orders can be fulfilled by specified dates.",
   "systems": [
     "assembly",
     "manufacturing"
   ],
   "topics": [
     "bill of materials",
-    "item availability",
-    "production capacity",
-    "assembly"
+    "availability",
+    "assembly",
+    "production",
+    "timeline"
   ],
   "objects": [
     {
       "type": "report",
-      "name": "Item - Able to Make (Time)"
+      "name": "Item - Able to Make (Timeline)"
     }
   ],
   "features": [
     "BOM availability tracking",
-    "production capacity analysis",
-    "graphical display",
-    "component availability"
+    "Timeline visualization",
+    "Component availability",
+    "Production capacity"
   ],
   "versions": [],
   "parts": 1,
@@ -33,7 +34,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001959,
+      "cost_usd": 0.00243,
       "pages_in_call": 8
     }
   ]

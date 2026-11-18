@@ -6,10 +6,35 @@
   "title": "Fixes #8840: Fix TryGetDictionaryValueFromKey in Customer Statistics FactBox",
   "url": "https://github.com/microsoft/BCApps/pull/13601",
   "published_at": "2026-11-17T17:30:03Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
+    },
+    "fetched": {
+      "at": "2026-11-18T00:19:34.859Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-18T00:19:41.490Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003209
+    },
+    "linked": {
+      "at": "2026-11-18T00:19:41.599Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-18T00:19:41.604Z",
+      "path": "content/changes/bcapps/13601.md"
     }
   },
   "input_hash": "26ca78573b6618d06ca5d8f4c8389be3e2c77551:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "fixes 8840 fix trygetdictionaryvaluefromkey in customer statistics factbox"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5c4135af73ab7db8f605c509bdc0e88a020520d6a93a70a4b760022d0e420187"
 }

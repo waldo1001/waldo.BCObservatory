@@ -2,19 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-713.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-713",
   "title": "Inventory Customer Sales (report)",
-  "blob": "37f6af900183fb1f56047552e5d1538917b067b6",
-  "summary": "The Inventory Customer Sales report shows total items sold to customers in a period grouped by items, with quantities, amounts, discounts, and profit including item charges. Use it to monitor inventory levels, plan purchases, identify slow-moving items, and analyze sales performance.",
+  "blob": "ed73cdbf3c68137b5a5ec6f30e304a7895e3f474",
+  "summary": "The Inventory Customer Sales report shows total items sold to customers grouped by item, including quantities, amounts, discounts, and profit with added costs to analyze sales performance and customer behavior.",
   "systems": [
-    "inventory",
     "sales",
-    "reporting"
+    "inventory"
   ],
   "topics": [
-    "sales analysis",
-    "inventory tracking",
     "customer sales",
+    "item analysis",
+    "sales performance",
     "profit analysis",
-    "item performance"
+    "customer behavior"
   ],
   "objects": [
     {
@@ -23,11 +22,11 @@
     }
   ],
   "features": [
-    "value entry summation",
+    "sales by customer and item",
+    "profit margin calculation",
+    "discount analysis",
     "quantity invoiced",
-    "discount calculation",
-    "profit margin analysis",
-    "item charges inclusion"
+    "added cost inclusion"
   ],
   "versions": [],
   "parts": 1,
@@ -36,7 +35,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002247,
+      "cost_usd": 0.002638,
       "pages_in_call": 8
     }
   ]

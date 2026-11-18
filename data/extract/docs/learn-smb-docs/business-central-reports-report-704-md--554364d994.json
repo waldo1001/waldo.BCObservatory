@@ -2,18 +2,16 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-704.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-704",
   "title": "Inventory - Transaction Detail (report)",
-  "blob": "3d247e244389ece7a5144f88a662087e36bedfd9",
-  "summary": "Inventory - Transaction Detail report shows all inventory transaction details for selected items over a specified period, displaying beginning quantity, all increases and decreases with running totals, and ending quantity.",
+  "blob": "63f563692cd89dacf20b401254c3112fe61b90b8",
+  "summary": "Inventory - Transaction Detail report shows all inventory transaction details for selected items over a period, including opening/closing quantities and transaction history for auditing.",
   "systems": [
-    "inventory",
-    "reporting"
+    "inventory"
   ],
   "topics": [
     "inventory transactions",
-    "stock movements",
-    "auditing",
-    "posting dates",
-    "transaction tracking"
+    "transaction detail",
+    "audit trail",
+    "inventory tracking"
   ],
   "objects": [
     {
@@ -22,11 +20,11 @@
     }
   ],
   "features": [
-    "transaction details",
-    "beginning and ending quantities",
-    "running inventory updates",
-    "entry type tracking",
-    "period analysis"
+    "Transaction history",
+    "Opening and closing quantities",
+    "Entry type tracking",
+    "Period analysis",
+    "Inventory reconciliation"
   ],
   "versions": [],
   "parts": 1,
@@ -35,7 +33,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004098,
+      "cost_usd": 0.00243,
       "pages_in_call": 8
     }
   ]

@@ -2,17 +2,17 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5622.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5622",
   "title": "Insurance Journal - Test (report)",
-  "blob": "6df6118477d6a7f40f167c4a7768508136182a32",
-  "summary": "Insurance Journal - Test report displays journal lines from a fixed asset insurance journal with automatic filtering by journal template and batch names.",
+  "blob": "a702a2b8fef6e7aa2a844e3737a9f6f3c0ea162b",
+  "summary": "The Insurance Journal - Test report validates fixed asset insurance journal lines before posting, checking for missing document numbers, invalid asset numbers, posting dates, and dimensions.",
   "systems": [
-    "fixed-assets",
-    "reporting"
+    "fixed-assets"
   ],
   "topics": [
     "insurance",
-    "fixed assets",
     "journal",
-    "test"
+    "validation",
+    "fixed assets",
+    "test report"
   ],
   "objects": [
     {
@@ -21,8 +21,11 @@
     }
   ],
   "features": [
-    "journal line display",
-    "automatic filtering"
+    "Journal line validation",
+    "Missing document number detection",
+    "Invalid asset number checking",
+    "Posting date validation",
+    "Dimension validation"
   ],
   "versions": [],
   "parts": 1,
@@ -31,7 +34,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001081,
+      "cost_usd": 0.002567,
       "pages_in_call": 8
     }
   ]

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14143",
+  "number": 14143,
+  "title": "Enable internal SLS hooks for harms evaluations",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Internal hooks are added to the Sales Lines Suggestions feature to support harms evaluations. An internal event fires after chat completions and a CSV query-building method becomes internal for test reuse.",
+  "key_points": [
+    "New internal event OnAfterGenerateChatCompletion fires after text and attachment completion calls",
+    "CSV BuildSearchQuery method changed from local to internal for test reuse",
+    "Harms test app added to internalsVisibleTo list for dedicated test visibility",
+    "Internal visibility enforced at compiler level, restricting subscription to module and friend apps",
+    "No business flow or prompt changes; purely test infrastructure support"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00414,
+    "changes_in_call": 1
+  }
+}

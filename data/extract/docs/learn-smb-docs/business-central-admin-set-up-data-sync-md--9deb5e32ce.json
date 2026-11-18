@@ -2,19 +2,17 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-set-up-data-sync.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-data-sync",
   "title": "Set up companies to synchronize master data",
-  "blob": "5baadf0220829b3ca9478d6bdd1a5e3cff01db0f",
-  "summary": "Master Data Management Setup enables synchronization of nontransactional master data like customers, vendors, and items from a source company to subsidiary companies using a pull model, with support for match-based coupling and table filtering.",
+  "blob": "6b0362c50150cef9ff84d23383c5427011afd8af",
+  "summary": "Master data synchronization setup enables subsidiaries to pull customer, vendor, item, and employee data from a source company to avoid manual entry in multiple companies.",
   "systems": [
     "administration",
     "integration"
   ],
   "topics": [
-    "master data synchronization",
-    "subsidiary companies",
-    "data coupling",
-    "pull model",
-    "match-based coupling",
-    "job queue entries"
+    "master data",
+    "synchronization",
+    "subsidiaries",
+    "data management"
   ],
   "objects": [
     {
@@ -30,33 +28,27 @@
       "name": "Master Data Initial Synchronization"
     },
     {
-      "type": "page",
-      "name": "Select Coupling Criteria"
-    },
-    {
-      "type": "page",
-      "name": "View - Integration Synchronization Jobs"
+      "type": "codeunit",
+      "name": "MDM Cross-Env Change Detector"
     }
   ],
   "features": [
-    "Uni-directional synchronization",
-    "Match-based coupling with priority",
-    "Table filtering by criteria",
-    "Automatic job queue scheduling",
-    "Import/export synchronization setup",
-    "Create new records on match"
+    "uni-directional synchronization",
+    "same-environment synchronization",
+    "cross-environment synchronization",
+    "match-based coupling",
+    "table filtering",
+    "job queue integration"
   ],
-  "versions": [
-    "version 19.1"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007363,
-      "pages_in_call": 4
+      "cost_usd": 0.003757,
+      "pages_in_call": 8
     }
   ]
 }

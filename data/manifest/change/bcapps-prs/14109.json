@@ -6,7 +6,7 @@
   "title": "[Master]-Eight assembly planning tracking tests fail missing VAT Posting Setup in US/CA",
   "url": "https://github.com/microsoft/BCApps/pull/14109",
   "published_at": "2026-11-17T13:17:15Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "master eight assembly planning tracking tests fail missing vat posting setup in us ca"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-18T00:20:35.419Z",
+  "retry_after": null
 }

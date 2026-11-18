@@ -2,17 +2,17 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-5625.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5625",
   "title": "Insurance - Tot. Value Insured (report)",
-  "blob": "fc687c654268e841cce2b82b14a75178a14a85fa",
-  "summary": "Insurance - Tot. Value Insured report shows which insurance policies cover each asset and the coverage amounts for each.",
+  "blob": "3a874b75f9ece64b250ef9bf3e48edc7939b6b81",
+  "summary": "The Insurance - Tot. Value Insured report shows which insurance policies cover each asset and their amounts, requiring the Insurance Depr. Book setting and excluding inactive and disposed assets.",
   "systems": [
-    "fixed-assets",
-    "reporting"
+    "fixed-assets"
   ],
   "topics": [
     "insurance",
-    "fixed assets",
-    "coverage",
-    "value insured"
+    "total value",
+    "asset coverage",
+    "depreciation book",
+    "insured values"
   ],
   "objects": [
     {
@@ -21,8 +21,11 @@
     }
   ],
   "features": [
-    "policy coverage mapping",
-    "insured value"
+    "Insurance policy coverage",
+    "Asset coverage amounts",
+    "Insurance Depr. Book requirement",
+    "Active asset filtering",
+    "Disposal exclusion"
   ],
   "versions": [],
   "parts": 1,
@@ -31,7 +34,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001081,
+      "cost_usd": 0.002567,
       "pages_in_call": 8
     }
   ]

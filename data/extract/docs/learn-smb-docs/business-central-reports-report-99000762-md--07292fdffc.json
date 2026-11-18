@@ -2,17 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/reports/report-99000762.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000762",
   "title": "Prod. Order - Job Card (report)",
-  "blob": "93da46e0894f1d83198a35ccc96ddc73e6eeba4f",
-  "summary": "Prod. Order - Job Card report shows production order components and routing lines for shop floor use and production execution.",
+  "blob": "6f9fdb69b42800488183deb23be0c5f9d4ff4c32",
+  "summary": "The Prod. Order - Job Card report (99000762) shows production order components and routing lines needed to complete orders, typically printed for shop floor reference.",
   "systems": [
     "manufacturing"
   ],
   "topics": [
+    "manufacturing",
     "production orders",
-    "job scheduling",
+    "job card",
+    "components",
     "routing",
-    "shop floor",
-    "reporting"
+    "shop floor"
   ],
   "objects": [
     {
@@ -21,9 +22,10 @@
     }
   ],
   "features": [
-    "production order components",
-    "routing lines",
-    "shop floor operations"
+    "Production order detail",
+    "Component listing",
+    "Routing lines",
+    "Shop floor documentation"
   ],
   "versions": [],
   "parts": 1,
@@ -32,7 +34,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00121,
+      "cost_usd": 0.002212,
       "pages_in_call": 8
     }
   ]

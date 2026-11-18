@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/13601",
+  "number": 13601,
+  "title": "Fixes #8840: Fix TryGetDictionaryValueFromKey in Customer Statistics FactBox",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed TryGetDictionaryValueFromKey method in the Customer Statistics FactBox to resolve issue #8840.",
+  "key_points": [
+    "Corrects TryGetDictionaryValueFromKey functionality in Customer Statistics FactBox",
+    "Minimal change with 4 lines added and 2 lines removed",
+    "Affects only the Customer Statistics FactBox page in Base Application"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003209,
+    "changes_in_call": 1
+  }
+}

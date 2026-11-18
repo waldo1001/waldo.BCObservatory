@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales",
   "published_at": "2026-11-17T08:43:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T18:49:49.209Z",
+      "at": "2026-11-18T00:19:54.929Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.005488
+      "objects": 8,
+      "cost_usd": 0.002638
     },
     "summarized": {
-      "at": "2026-10-06T18:49:51.100Z",
+      "at": "2026-11-18T00:19:54.934Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:49:51.101Z",
+      "at": "2026-11-18T00:19:54.935Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:49:51.102Z",
+      "at": "2026-11-18T00:19:54.935Z",
       "page": false
     }
   },
@@ -87,5 +87,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d05a7c10ff5f2850f713ad2090fab184ad797e0b"
+  "output_hash": "196c66fda616d61b361abf8b7adcb5442160dc69466eebe4bf7f89f1f213b25b"
 }
