@@ -2,29 +2,38 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-18-4.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18-4",
   "title": "Update 18.4 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1",
-  "blob": "cdf37a4dd8fc6f425793cb50d18339d8db559d1d",
-  "summary": "Update 18.4 for Business Central 2021 release wave 1 includes localization updates for Great Britain and Norway with fraud prevention headers and SAF-T improvements.",
+  "blob": "48bd9b904ae9a10f2eec037323288d1a706a3361",
+  "summary": "Update 18.4 for Business Central 2021 Release Wave 1 includes hotfixes, localization updates for Great Britain and Norway, deprecation notices for obsolete reports 204-207, and guidance on upgrading Dataverse authentication from client secret-based to certificate-based methods.",
   "systems": [
     "localization",
-    "administration"
-  ],
-  "topics": [
-    "updates",
-    "release notes",
-    "localization",
-    "fraud prevention",
-    "vat",
+    "integration",
     "reporting"
   ],
-  "objects": [],
+  "topics": [
+    "update",
+    "hotfixes",
+    "localization",
+    "deprecation",
+    "dataverse",
+    "authentication",
+    "reports"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Custom Report Selection"
+    }
+  ],
   "features": [
-    "fraud prevention headers",
+    "Fraud prevention headers",
     "SAF-T improvements",
-    "localization updates"
+    "Report deprecation notifications",
+    "Certificate-based authentication",
+    "Dataverse integration"
   ],
   "versions": [
     "2021 release wave 1",
-    "update 18.4"
+    "18.4"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -32,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005403,
-      "pages_in_call": 8
+      "cost_usd": 0.003994,
+      "pages_in_call": 1
     }
   ]
 }

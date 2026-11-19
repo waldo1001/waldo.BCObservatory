@@ -2,30 +2,31 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-17-1.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-17-1",
   "title": "Update 17.1 for Microsoft Dynamics 365 Business Central 2020 Release Wave 2",
-  "blob": "2ad3eac837c6eede7b37b7483eeca217c49a901a",
-  "summary": "Update 17.1 for Business Central 2020 release wave 2 adds enhanced email, pricing experience improvements, VAT registration validation, and extension lifecycle telemetry. Use this for October 2020 online release features and cloud migration capabilities.",
+  "blob": "60626ef5f06a6dd5d5d550c65dbc5d292ba84e51",
+  "summary": "Update 17.1 for Business Central 2020 Release Wave 2 introduces enhanced email, improved sales pricing, VAT validation, snapshot debugging for sandbox environments, and cloud migration improvements including support for migrating directly from versions 14-16 and increased database size limits to 80 GB.",
   "systems": [
-    "sales",
-    "finance",
-    "administration"
+    "integration",
+    "administration",
+    "development"
   ],
   "topics": [
-    "update 17.1",
-    "2020 wave 2",
-    "email capabilities",
-    "pricing",
+    "update",
+    "release wave 2",
+    "hotfixes",
     "cloud migration",
-    "telemetry"
+    "snapshot debugging",
+    "mobile authentication",
+    "email capabilities"
   ],
   "objects": [],
   "features": [
     "Enhanced email capabilities",
-    "New sales pricing experience",
+    "Sales pricing experience",
+    "VAT Registration number lookup",
     "Account Schedules control",
-    "VAT Registration validation",
-    "Extension lifecycle telemetry",
-    "Cloud migration from on-premises",
     "Snapshot debugging",
+    "Cloud migration tool",
+    "Extension lifecycle telemetry",
     "Multifactor authentication for mobile"
   ],
   "versions": [
@@ -38,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004751,
-      "pages_in_call": 8
+      "cost_usd": 0.00448,
+      "pages_in_call": 1
     }
   ]
 }

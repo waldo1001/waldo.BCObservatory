@@ -2,18 +2,20 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-16-3.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-16-3",
   "title": "Update 16.3 for Microsoft Dynamics 365 Business Central 2020 Release Wave 1",
-  "blob": "99e2874592d8d3a67bb2050f7eb39222b9659edb",
-  "summary": "Update 16.3 for Business Central 2020 Release Wave 1 includes hotfixes and feature enhancements for bank reconciliation, extension lifecycle telemetry, client page view telemetry, and page layout caching.",
+  "blob": "dae96d07902be227998fb77cb9d8cc0006278d9d",
+  "summary": "Update 16.3 for Business Central 2020 Release Wave 1 includes bank reconciliation improvements, extension lifecycle and client page view telemetry in Application Insights, Marketplace app installation in the admin center, and browser caching for page layouts.",
   "systems": [
+    "administration",
     "platform",
-    "finance"
+    "integration"
   ],
   "topics": [
-    "release update",
-    "hotfixes",
-    "telemetry",
+    "update",
+    "release",
+    "2020 wave 1",
     "bank reconciliation",
-    "page caching",
+    "telemetry",
+    "marketplace apps",
     "performance"
   ],
   "objects": [],
@@ -21,13 +23,12 @@
     "bank reconciliation improvements",
     "extension lifecycle telemetry",
     "client page view telemetry",
-    "marketplace app updates",
-    "page layout caching",
-    "build tracking"
+    "Marketplace apps updates installation",
+    "page layout browser caching"
   ],
   "versions": [
     "2020 release wave 1",
-    "version 16.3"
+    "update 16.3"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -35,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005918,
-      "pages_in_call": 7
+      "cost_usd": 0.003778,
+      "pages_in_call": 1
     }
   ]
 }

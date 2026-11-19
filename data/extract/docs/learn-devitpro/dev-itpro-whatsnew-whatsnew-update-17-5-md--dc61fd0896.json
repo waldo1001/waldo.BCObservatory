@@ -2,12 +2,12 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-17-5.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-17-5",
   "title": "Update 17.5 for Microsoft Dynamics 365 Business Central 2020 Release Wave 2",
-  "blob": "e4c9d6807ca4cd0a18f296a7980a963ef57c9eb7",
-  "summary": "Update 17.5 for Business Central 2020 Release Wave 2 includes hotfixes, localization updates for multiple countries, and information about deprecated features like OData V3 and basic authentication.",
+  "blob": "2d861be312009db44942d1d80ccdab6f2d0b7b92",
+  "summary": "Update 17.5 for Business Central 2020 Release Wave 2 includes hotfixes, localization updates for multiple countries, and information about deprecated features like OData V3 and Basic Authentication.",
   "systems": [
     "localization",
     "integration",
-    "administration"
+    "platform"
   ],
   "topics": [
     "update",
@@ -15,21 +15,21 @@
     "localization",
     "odata",
     "authentication",
-    "browser",
-    "intrastat",
-    "vat"
+    "regulatory"
   ],
   "objects": [],
   "features": [
-    "Intrastat support",
-    "VAT reporting",
+    "Intrastat support for Partner VAT ID",
+    "Sales Invoice substitution in SII",
+    "VAT Annual Listing control",
+    "SAF-T export improvements",
     "OData V3 deprecation",
-    "Basic authentication removal",
-    "Internet Explorer 11 removal"
+    "Basic Authentication deprecation"
   ],
   "versions": [
     "2020 release wave 2",
-    "17.5"
+    "17.5",
+    "2021 release wave 1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -37,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00475,
-      "pages_in_call": 8
+      "cost_usd": 0.003923,
+      "pages_in_call": 1
     }
   ]
 }

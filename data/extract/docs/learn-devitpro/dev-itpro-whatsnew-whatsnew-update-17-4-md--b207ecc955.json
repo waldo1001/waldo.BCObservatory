@@ -2,32 +2,33 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-17-4.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-17-4",
   "title": "Update 17.4 for Microsoft Dynamics 365 Business Central 2020 Release Wave 2",
-  "blob": "012e85b016518a31a9e139985314d3067c4a397f",
-  "summary": "Update 17.4 for Business Central 2020 release wave 2 introduces recurring journals for dimension-based allocations and Microsoft Teams app general availability, alongside deprecation of OData V3 support and basic authentication removal.",
+  "blob": "4f06179a11814826589aa5a7a792cd3a42b4f794",
+  "summary": "Update 17.4 for Business Central 2020 release wave 2 includes hotfixes, recurring journals for dimension-based allocation, Teams app general availability, and deprecation notices for OData V3 and basic authentication.",
   "systems": [
+    "finance",
     "integration",
-    "administration",
-    "reporting"
+    "platform"
   ],
   "topics": [
-    "updates",
-    "release notes",
+    "update",
+    "release",
+    "hotfix",
     "odata",
     "authentication",
-    "recurring journals",
     "teams integration"
   ],
   "objects": [],
   "features": [
-    "recurring journals for dimension allocation",
-    "Microsoft Teams app general availability",
+    "recurring journals",
+    "dimension value allocation",
+    "Business Central app for Microsoft Teams",
     "OData V3 deprecation",
     "basic authentication removal",
-    "Web Service Access Key"
+    "web service access key"
   ],
   "versions": [
     "2020 release wave 2",
-    "update 17.4"
+    "17.4"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -35,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005403,
-      "pages_in_call": 8
+      "cost_usd": 0.003835,
+      "pages_in_call": 1
     }
   ]
 }
