@@ -6,10 +6,35 @@
   "title": "Show notification only to super users in env. where copilot substitution suggestion was used",
   "url": "https://github.com/microsoft/BCApps/pull/14218",
   "published_at": "2026-11-18T14:54:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-19T00:15:47.846Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:18:53.481Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-19T00:19:00.555Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004008
+    },
+    "linked": {
+      "at": "2026-11-19T00:19:00.683Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-19T00:19:00.687Z",
+      "path": "content/changes/bcapps/14218.md"
     }
   },
   "input_hash": "bf02d06cee934fdbc359adf7debf78203e3354bc:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "show notification only to super users in env where copilot substitution suggestion was used"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6a50bd6cd7da46747c061d8b964be42431b960a32af63455a2cbffe9d5537e8b"
 }

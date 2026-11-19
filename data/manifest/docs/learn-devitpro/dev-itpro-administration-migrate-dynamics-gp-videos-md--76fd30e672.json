@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp-videos",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.697Z",
-      "blob": "dbfe8af4105c2494a7ae90dcda685763d4aabbca",
-      "words": 343,
+      "at": "2026-11-19T00:19:07.290Z",
+      "blob": "ca80f872da6a6961d7ce3f981d2d5b132f258af2",
+      "words": 336,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:39:20.680Z",
+      "at": "2026-11-19T00:19:21.898Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003097
+      "cost_usd": 0.004069
     },
     "summarized": {
-      "at": "2026-10-06T19:39:20.687Z",
+      "at": "2026-11-19T00:19:21.898Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:39:20.687Z",
+      "at": "2026-11-19T00:19:21.899Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:39:20.688Z",
+      "at": "2026-11-19T00:19:21.899Z",
       "page": false
     }
   },
@@ -44,7 +44,7 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migrate-dynamics-gp-videos.md",
-    "description": "Get some tips and tricks for how to do things in Business Central online that you currently do in Dynamics GP.",
+    "description": "Compare everyday work in Dynamics GP and Business Central online through videos about transactions, vendor payments, dimensions, journals, and reports.",
     "ms_date": "2022-07-06",
     "ms_topic": "article",
     "search_form": [],
@@ -55,12 +55,12 @@
       "migration",
       "video"
     ],
-    "ai_usage": null,
-    "words": 343,
+    "ai_usage": "ai-assisted",
+    "words": 336,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cf8c2002198b5a06a0dea40d59dfdb097e0bb1eb5ca18bf9d372060ca0f424b1"
+  "output_hash": "306729239b52cfdf09f6ff509d9170ae484840fddd0ec2e2973c68d821df8f78"
 }

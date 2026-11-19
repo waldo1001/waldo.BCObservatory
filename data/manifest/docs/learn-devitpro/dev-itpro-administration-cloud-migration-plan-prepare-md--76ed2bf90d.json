@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T17:50:59.012Z",
+      "at": "2026-11-19T00:18:21.678Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.005993
+      "objects": 1,
+      "cost_usd": 0.011302
     },
     "summarized": {
-      "at": "2026-10-06T17:50:59.041Z",
+      "at": "2026-11-19T00:18:21.679Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:50:59.043Z",
+      "at": "2026-11-19T00:18:21.680Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:50:59.046Z",
+      "at": "2026-11-19T00:18:21.680Z",
       "page": false
     }
   },
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c770b2181aea4d62631baba60f04613bb0af9a4a"
+  "output_hash": "2da8fd09e82cd6d5982a8232e0e615b2ea3eae8d87690a0ee43978fe31d042da"
 }

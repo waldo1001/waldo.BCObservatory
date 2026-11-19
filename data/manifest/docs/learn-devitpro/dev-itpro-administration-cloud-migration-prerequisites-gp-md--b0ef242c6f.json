@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Cloud Migration Prerequisites for Dynamics GP",
+  "title": "Dynamics GP Migration Prerequisites for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-gp",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.845Z",
-      "blob": "c305dc595549b2ed469806bd520f85541c873308",
-      "words": 572,
+      "at": "2026-11-19T00:18:24.860Z",
+      "blob": "c17d56bc335a8372d564a4d8d2d5c4778d90f71f",
+      "words": 498,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:38:01.864Z",
+      "at": "2026-11-19T00:18:38.881Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.008526
+      "cost_usd": 0.003902
     },
     "summarized": {
-      "at": "2026-10-06T18:38:01.889Z",
+      "at": "2026-11-19T00:18:38.882Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:38:01.890Z",
+      "at": "2026-11-19T00:18:38.882Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:38:01.890Z",
+      "at": "2026-11-19T00:18:38.883Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/cloud-migration-prerequisites-gp.md",
-    "description": "This article outlines requirements on the Dynamics GP on-premises and online environments for cloud migration.",
-    "ms_date": "2024-02-29",
+    "description": "Check Dynamics GP source database, SQL Server, Business Central permissions, migration apps, and integration runtime requirements before cloud migration.",
+    "ms_date": "2026-11-17",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 572,
+    "ai_usage": "ai-assisted",
+    "words": 498,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9d6ee55d4790c011e1c94f748a8e5eff802fefa1fc8baf2d002c22b20519b4c3"
+  "output_hash": "071eaf56683649532807fedeb673076c5b383d5ec59a2fe0b050a44cd2e0afe3"
 }

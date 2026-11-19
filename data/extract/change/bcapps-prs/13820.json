@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13820",
+  "number": 13820,
+  "title": "[main] NO SAF-T changes imported category identifier casing and does not show full identifiers in mapping setup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Norwegian SAF-T now preserves original category identifiers during import and displays them in the mapping setup to prevent uppercase conversion issues and improve identifier visibility.",
+  "key_points": [
+    "Original category identifiers are preserved for all imported categories, not just those exceeding 20 characters",
+    "New read-only Category Extended No. column added to SAF-T G/L Mapping Subpage to display the full identifier",
+    "Category extended number refreshes when selecting or clearing a category on the mapping page",
+    "Existing category keys and account mappings remain unchanged, only reimport needed to repair short categories",
+    "24 unit tests added to cover import, reimport, mapping page, and XML export scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Preserve the original identifier for all imported categories and show it in a read-only Category Extended No. column.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004027,
+    "changes_in_call": 1
+  }
+}

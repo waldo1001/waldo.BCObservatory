@@ -1,26 +1,31 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-prerequisites-gp.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-gp",
-  "title": "Cloud Migration Prerequisites for Dynamics GP",
-  "blob": "c305dc595549b2ed469806bd520f85541c873308",
-  "summary": "Prerequisites for cloud migration from Dynamics GP on-premises to Business Central online, including destination environment setup, source system requirements, and infrastructure needs for self-hosted integration runtime.",
+  "title": "Dynamics GP Migration Prerequisites for Business Central",
+  "blob": "c17d56bc335a8372d564a4d8d2d5c4778d90f71f",
+  "summary": "Prerequisites for migrating Dynamics GP on-premises environments to Business Central online, including destination tenant requirements, permission sets, migration apps, source environment specifications, SQL Server database requirements, and integration runtime setup.",
   "systems": [
+    "administration",
     "integration",
-    "administration"
+    "platform"
   ],
   "topics": [
     "cloud migration",
     "dynamics gp",
     "prerequisites",
+    "permissions",
+    "sql server",
     "data migration",
-    "sql server"
+    "integration runtime"
   ],
   "objects": [],
   "features": [
+    "SUPER permission set",
     "Intelligent Cloud Base app",
-    "Dynamics GP Intelligent Cloud app",
-    "SQL Server authentication",
+    "Intelligent Cloud permission set",
+    "Cloud Migration Setup",
     "self-hosted integration runtime",
+    "SQL Server authentication",
     "data backup migration"
   ],
   "versions": [],
@@ -30,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008526,
-      "pages_in_call": 3
+      "cost_usd": 0.003902,
+      "pages_in_call": 1
     }
   ]
 }

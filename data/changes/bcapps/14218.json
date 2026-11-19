@@ -1,0 +1,54 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14218,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14218",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-18T14:54:50Z",
+  "merge_commit_sha": "bf02d06cee934fdbc359adf7debf78203e3354bc",
+  "author": "VolodySyn",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Show notification only to super users in env. where copilot substitution suggestion was used",
+  "body_hash": "dd680863bc261bb7522466e1e36b90d896c092c8cbb55d45c38a76193b0ba109",
+  "fixes_issues": [],
+  "work_items": [
+    659679
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Utilities/ItemSubstDiscontNotif.Codeunit.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 26,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/CreateProductInformationWithCopilot/app/Utilities/ItemSubstDiscontNotif.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

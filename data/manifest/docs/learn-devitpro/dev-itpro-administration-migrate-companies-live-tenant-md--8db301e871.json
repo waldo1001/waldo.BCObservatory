@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Migrating Business Central companies into live tenants",
+  "title": "Migrate Business Central Companies into Live Tenants",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-companies-live-tenant",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.692Z",
-      "blob": "8face050fc6e46598f7daffeaa4f80f81f18c2c1",
-      "words": 594,
+      "at": "2026-11-19T00:18:48.507Z",
+      "blob": "e624d492de0f84245b84d03aa77d4e6e28c96e31",
+      "words": 616,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:39:14.539Z",
+      "at": "2026-11-19T00:19:00.714Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00343
+      "cost_usd": 0.003746
     },
     "summarized": {
-      "at": "2026-10-06T19:39:16.365Z",
+      "at": "2026-11-19T00:19:00.715Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:39:16.366Z",
+      "at": "2026-11-19T00:19:00.716Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:39:16.366Z",
+      "at": "2026-11-19T00:19:00.716Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migrate-companies-live-tenant.md",
-    "description": "Learn about the risks when moving companies to live online tenants.",
-    "ms_date": "2024-03-01",
+    "description": "Learn about data loss, permissions, and upgrade risks when migrating Business Central on-premises companies into live online tenants.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 594,
+    "ai_usage": "ai-assisted",
+    "words": 616,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "50ea6bc1e205da76d724ead75a56e8a25ecb3c3e6c296e3c7df942dbf5200a4d"
+  "output_hash": "95fd5bc513d469850a7f8d9dfec53aa18ec1b7ecf84c6a8bea21caa35ef50186"
 }

@@ -1,0 +1,121 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11026,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11026",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-18T16:11:47Z",
+  "merge_commit_sha": "75309123c3c561753cc89d97020eef87ba2f5019",
+  "author": "Franco111000",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "Service Line CalcVATAmountLines: count VAT Difference once and clear filters before OnAfterCalcVATAmountLines",
+  "body_hash": "4c949320a39a3b3513d2b8b17be8ad288790c755c399c208616767f2d32fe249",
+  "fixes_issues": [
+    9102
+  ],
+  "work_items": [
+    659639
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/Tests/VAT/ERMChangeVATOnVATAmtLine.Codeunit.al",
+      "status": "modified",
+      "additions": 163,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/VAT/ERMChangeVATOnVATAmtLine.Codeunit.al",
+      "status": "modified",
+      "additions": 163,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/VAT/ERMChangeVATOnVATAmtLine.Codeunit.al",
+      "status": "modified",
+      "additions": 163,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Document/ServiceLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServiceLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/ERMChangeVATOnVATAmtLine.Codeunit.al",
+      "status": "modified",
+      "additions": 163,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 656,
+    "deletions": 6,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Document/ServiceLine.Table.al",
+        "status": "modified",
+        "key": "table/5902",
+        "type": "table",
+        "id": 5902,
+        "name": "Service Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/5902"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServiceLine.Table.al",
+        "status": "modified",
+        "key": "table/5902",
+        "type": "table",
+        "id": 5902,
+        "name": "Service Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5902"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "service"
+  ],
+  "apps": [
+    "Base Application"
+  ],
+  "issues": [
+    {
+      "number": 9102,
+      "title": "[Bug]: Service Line CalcVATAmountLines double-counts VAT Difference and leaks filters onto OnAfterCalcVATAmountLines",
+      "state": "closed"
+    }
+  ]
+}

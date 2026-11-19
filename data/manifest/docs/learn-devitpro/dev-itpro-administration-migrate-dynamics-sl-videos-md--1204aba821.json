@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Compare work processes in Dynamics SL to Business Central",
+  "title": "Compare Work in Dynamics SL and Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl-videos",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.508Z",
-      "blob": "cd96c0d63657e0341bad535df69ef92924c9d21c",
-      "words": 333,
+      "at": "2026-11-19T00:19:24.073Z",
+      "blob": "7e771009bd49987eb47039ba3a9a8d48b6e8276a",
+      "words": 336,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:33:47.611Z",
+      "at": "2026-11-19T00:19:37.339Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003878
+      "cost_usd": 0.004092
     },
     "summarized": {
-      "at": "2026-10-06T19:33:47.777Z",
+      "at": "2026-11-19T00:19:37.340Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:33:47.779Z",
+      "at": "2026-11-19T00:19:37.340Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:33:47.780Z",
+      "at": "2026-11-19T00:19:37.341Z",
       "page": false
     }
   },
@@ -44,7 +44,7 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migrate-dynamics-sl-videos.md",
-    "description": "Get tips and tricks for how to do things in Business Central online that you currently do in Dynamics SL.",
+    "description": "Compare everyday work in Dynamics SL and Business Central online through videos about transactions, vendor payments, dimensions, journals, and reports.",
     "ms_date": "2024-12-13",
     "ms_topic": "article",
     "search_form": [],
@@ -55,12 +55,12 @@
       "migration",
       "video"
     ],
-    "ai_usage": null,
-    "words": 333,
+    "ai_usage": "ai-assisted",
+    "words": 336,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9104da2a699eac48f7af92fd73d46eb4010b51b0646dfe4d8d33ef9f7e696536"
+  "output_hash": "c30592a092fa2f093df149669aa1b28001d9dd9dcbbded79fedbdc96ea73a08d"
 }

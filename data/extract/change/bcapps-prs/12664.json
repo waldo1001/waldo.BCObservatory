@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12664",
+  "number": 12664,
+  "title": "Fix production journal page ID validation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Production journal page ID validation now explicitly passes the page ID parameter to ensure templates are created with the correct page.",
+  "key_points": [
+    "PageID parameter is now explicitly passed during validation",
+    "Fixes issue where item journal templates were not created with the requested page ID",
+    "Affects Production Journal Management codeunit"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Pass `PageID` explicitly when validating the item journal template's `Page ID` field.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003037,
+    "changes_in_call": 1
+  }
+}

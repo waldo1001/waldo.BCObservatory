@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Dynamics SL Data Migrated to Business Central Online",
+  "title": "Dynamics SL Cloud Migration: Supported Data",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:33.810Z",
-      "blob": "d08f6525793f8d1c883faa819a39bd54c7c77b6c",
-      "words": 1199,
+      "at": "2026-11-19T00:19:29.680Z",
+      "blob": "7c8b1a17d297e0b87e9df61ff915e4693334e09d",
+      "words": 1540,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:15:50.171Z",
+      "at": "2026-11-19T00:19:44.401Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.005235
+      "objects": 24,
+      "cost_usd": 0.011844
     },
     "summarized": {
-      "at": "2026-10-06T19:15:51.964Z",
+      "at": "2026-11-19T00:19:44.401Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:15:51.965Z",
+      "at": "2026-11-19T00:19:44.402Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:15:51.966Z",
+      "at": "2026-11-19T00:19:44.402Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migrate-dynamics-sl.md",
-    "description": "Learn how to migrate to the cloud from Dynamics SL using an assisted setup guide in Business Central online.",
-    "ms_date": "2025-08-04",
+    "description": "Learn which Dynamics SL data migrates to Business Central online, including accounting periods, customers, vendors, inventory, projects, and history.",
+    "ms_date": "2026-11-17",
     "ms_topic": "upgrade-and-migration-article",
     "search_form": [
       {
@@ -60,12 +60,12 @@
       "SL",
       "migration"
     ],
-    "ai_usage": null,
-    "words": 1199,
+    "ai_usage": "ai-assisted",
+    "words": 1540,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "67ff1638d03e7167e6c162f2cb7a28cb3a5525f62ab9601883aab52b784dc31e"
+  "output_hash": "0f28bc146f6ed52948652176205883f81f68ce137d1191b5ac6720578116b90e"
 }

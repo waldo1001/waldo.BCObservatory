@@ -1,30 +1,133 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-dynamics-sl.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl",
-  "title": "Dynamics SL Data Migrated to Business Central Online",
-  "blob": "d08f6525793f8d1c883faa819a39bd54c7c77b6c",
-  "summary": "Dynamics SL Data Migrated to Business Central Online describes data mapping for fiscal periods, chart of accounts, customers, vendors, inventory items, and projects during cloud migration using the SL Company Migration Configuration.",
+  "title": "Dynamics SL Cloud Migration: Supported Data",
+  "blob": "7c8b1a17d297e0b87e9df61ff915e4693334e09d",
+  "summary": "Data migration from Dynamics SL to Business Central online covers general ledger, customers, vendors, inventory, projects, purchase/sales orders, and cash accounts with configuration options per company.",
   "systems": [
     "finance",
-    "purchasing",
-    "sales"
+    "sales",
+    "purchasing"
   ],
   "topics": [
-    "cloud migration",
     "data migration",
     "dynamics sl",
+    "cloud migration",
+    "chart of accounts",
     "dimensions",
-    "accounting periods"
+    "posting groups",
+    "inventory items"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "SL Company Migration Configuration"
+    },
+    {
+      "type": "page",
+      "name": "GL Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. Batch"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. GLSetup"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. GLTran Archive"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. APDoc Archive"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. APTran Archive"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. APAdjust"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. ARDoc Archive"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. ARTran Archive"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. ARAdjust"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. INTran Archive"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. LotSerT Archive"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. PurchOrd"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. PurOrdDet"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. POReceipt"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. POTran"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. SOHeader"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. SOLine"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. SOShipHeader"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. SOShipLine"
+    },
+    {
+      "type": "table",
+      "name": "SL Hist. SOType"
+    }
+  ],
   "features": [
-    "Fiscal periods mapping",
-    "Chart of Accounts",
-    "Dimension setup",
-    "Customer master records",
-    "Vendor master records",
-    "Inventory items",
-    "Project master records"
+    "fiscal period migration",
+    "subaccount segments to dimensions",
+    "customer master records",
+    "vendor master records",
+    "outstanding transactions",
+    "inventory item migration",
+    "historical data snapshots",
+    "project master records",
+    "purchase orders",
+    "sales orders",
+    "cash accounts"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +136,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005235,
-      "pages_in_call": 8
+      "cost_usd": 0.011844,
+      "pages_in_call": 1
     }
   ]
 }

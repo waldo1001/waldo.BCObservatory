@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Cloud Migration Prerequisites for Dynamics SL",
+  "title": "Dynamics SL Migration Prerequisites for Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-sl",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.504Z",
-      "blob": "72839f49c9f329392a36904643e60aa3f3e0e496",
-      "words": 579,
+      "at": "2026-11-19T00:18:26.602Z",
+      "blob": "2cf3469b0de1ecdf1106992036cbb25233fc4444",
+      "words": 591,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:33:47.610Z",
+      "at": "2026-11-19T00:18:40.635Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003878
+      "cost_usd": 0.004182
     },
     "summarized": {
-      "at": "2026-10-06T19:33:47.772Z",
+      "at": "2026-11-19T00:18:40.636Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:33:47.774Z",
+      "at": "2026-11-19T00:18:40.636Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:33:47.776Z",
+      "at": "2026-11-19T00:18:40.637Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/cloud-migration-prerequisites-sl.md",
-    "description": "Learn about the requirements for cloud migration in Dynamics SL on-premises and online.",
-    "ms_date": "2024-12-13",
+    "description": "Check Dynamics SL source database, SQL Server, Business Central permissions, migration apps, and integration runtime requirements before cloud migration.",
+    "ms_date": "2026-11-17",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 579,
+    "ai_usage": "ai-assisted",
+    "words": 591,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "56949f875a8119a173dbff3650fbcea902db5b55ace536eecb4f383260251d22"
+  "output_hash": "931e9021c71af43a3c019af0ae6ff3966495877690c3945d4d7706c2a1b5c328"
 }

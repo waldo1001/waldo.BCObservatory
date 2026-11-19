@@ -1,25 +1,25 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-estimate-compressed-data-size.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-estimate-compressed-data-size",
-  "title": "Estimating the data size in your Business Central online tenant",
-  "blob": "036881b4a9670d3d8521e660afee1ec22c80f753",
-  "summary": "Estimate the compressed data size of tables in Business Central online using SQL Server data compression, which affects on-premises database size calculations.",
+  "title": "Estimate Compressed Data Size for Business Central Online",
+  "blob": "142abb055515e901567854d8d184fdce45657b1c",
+  "summary": "Estimate compressed data size for Business Central Online using SQL Server data compression. All online tables use Page compression, so on-premises database size may differ when migrated.",
   "systems": [
     "administration",
     "platform"
   ],
   "topics": [
     "data compression",
-    "database size",
+    "cloud migration",
     "sql server",
-    "cloud migration"
+    "online tenant",
+    "database sizing"
   ],
   "objects": [],
   "features": [
-    "data compression",
     "page compression",
-    "size estimation",
-    "SQL stored procedure"
+    "data compression estimation",
+    "sql compression savings"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +28,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003903,
-      "pages_in_call": 8
+      "cost_usd": 0.00345,
+      "pages_in_call": 1
     }
   ]
 }

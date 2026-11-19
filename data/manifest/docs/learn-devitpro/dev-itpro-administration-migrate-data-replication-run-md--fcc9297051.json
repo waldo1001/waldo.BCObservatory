@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Run and manage data replication",
+  "title": "Run and Manage Cloud Migration Data Replication",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data-replication-run",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.349Z",
-      "blob": "3d274b99de8d052bac03247091f30661d1e52440",
-      "words": 490,
+      "at": "2026-11-19T00:19:05.455Z",
+      "blob": "66f7aadbd859719b6ede235fd714eeacc5d87a98",
+      "words": 510,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:49:44.224Z",
+      "at": "2026-11-19T00:19:18.527Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.00543
+      "cost_usd": 0.003644
     },
     "summarized": {
-      "at": "2026-10-06T18:49:44.234Z",
+      "at": "2026-11-19T00:19:18.527Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:49:44.235Z",
+      "at": "2026-11-19T00:19:18.528Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:49:44.236Z",
+      "at": "2026-11-19T00:19:18.528Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migrate-data-replication-run.md",
-    "description": "This article explains how to run data replication to move data from Business Central on-premises database to on line.",
-    "ms_date": "2024-12-20",
+    "description": "Learn how to run and monitor cloud migration data replication from an on-premises database to Business Central online and resolve replication errors.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 490,
+    "ai_usage": "ai-assisted",
+    "words": 510,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9d8abe5c627d91580665477d5273803c07ab60b223bfa5dd4ebd9a90bcfe59a8"
+  "output_hash": "87da5f1fb0f4adc0b29dd8f62d1a70b7133910d0f831eabb01560d5f98a10eeb"
 }

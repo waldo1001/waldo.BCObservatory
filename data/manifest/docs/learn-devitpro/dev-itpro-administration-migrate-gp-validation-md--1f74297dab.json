@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Migration validation overview",
+  "title": "Dynamics GP Migration Validation Overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-validation",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.812Z",
-      "blob": "184e870b22ca084fd56253e300b15cf21bda7c76",
-      "words": 571,
+      "at": "2026-11-19T00:19:47.776Z",
+      "blob": "5cabc01ad5f6e7d03a071834b0c2d32b4eecce6f",
+      "words": 747,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:38:01.857Z",
+      "at": "2026-11-19T00:19:58.735Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.006874
+      "objects": 6,
+      "cost_usd": 0.004824
     },
     "summarized": {
-      "at": "2026-10-06T18:38:01.869Z",
+      "at": "2026-11-19T00:19:58.736Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:38:01.870Z",
+      "at": "2026-11-19T00:19:58.737Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:38:01.871Z",
+      "at": "2026-11-19T00:19:58.737Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migrate-gp-validation.md",
-    "description": "Learn about the migration validation feature that verifies data migrated from Dynamics GP to Business Central.",
-    "ms_date": "2025-01-09",
-    "ms_topic": "article",
+    "description": "Validate Dynamics GP data migrated to Business Central, review failed tests and record details, and configure automatic or manual validation.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 571,
+    "ai_usage": "ai-assisted",
+    "words": 747,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ab081557d117073d2b575f5afcd1277a0eac918e55b86a8ac07751ac33413a8a"
+  "output_hash": "1e800ee36f929b77e548bbd951ea6b8f5544f6ba34318da392371afb362c229e"
 }

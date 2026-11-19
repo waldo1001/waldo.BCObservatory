@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Migrate on-premises data to Business Central online",
+  "title": "Business Central Online Data Migration Overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:23.253Z",
-      "blob": "186f6e7c8d173400e30a0d2f83a4cb12ff70049f",
-      "words": 316,
+      "at": "2026-11-19T00:19:05.437Z",
+      "blob": "2c67610b44e30385e1d721f5c10297e0856fe440",
+      "words": 330,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T17:50:59.022Z",
+      "at": "2026-11-19T00:19:18.556Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005993
+      "cost_usd": 0.003483
     },
     "summarized": {
-      "at": "2026-10-06T17:50:59.067Z",
+      "at": "2026-11-19T00:19:18.556Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:50:59.068Z",
+      "at": "2026-11-19T00:19:18.557Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:50:59.070Z",
+      "at": "2026-11-19T00:19:18.557Z",
       "page": false
     }
   },
@@ -45,8 +45,8 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migrate-data.md",
     "description": "Learn to set up cloud data migration to Business Central online from supported Dynamics versions and Business Central on-premises, managed by Azure Data Factory.",
-    "ms_date": "2026-05-23",
-    "ms_topic": "upgrade-and-migration-article",
+    "ms_date": "2026-11-17",
+    "ms_topic": "overview",
     "search_form": [
       {
         "raw": "2502",
@@ -63,12 +63,12 @@
       "cloud",
       "edge"
     ],
-    "ai_usage": null,
-    "words": 316,
+    "ai_usage": "ai-assisted",
+    "words": 330,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a8e61dfcedff8283e9d05b4dcdde4dddcb61d233f3c4eff40f20c9898b74b983"
+  "output_hash": "6cddcc66ea20580bcb525f920e8a789dae8842f18448d1f1fe04e48aad9f070b"
 }

@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14146,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14146",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-18T15:09:21Z",
+  "merge_commit_sha": "f78f88f29c5540aa36274d7d306a7566d23bccae",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[Fabric] Fix synchronization progress page name",
+  "body_hash": "8c6334da975e64000273e9ebf5b94cbc68ba9bf6b87f51c5d7d6a49c9bc81e1f",
+  "fixes_issues": [],
+  "work_items": [
+    659475
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/test/src/codeunit/TestFABPlatform.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 8,
+    "deletions": 8,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/48520",
+        "type": "codeunit",
+        "id": 48520,
+        "name": "Fabric Platform Mgt",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48520"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "MicrosoftFabricMirroring"
+  ]
+}

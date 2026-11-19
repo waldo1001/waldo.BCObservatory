@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13622",
+  "number": 13622,
+  "title": "[Main]- Edit in Excel insert fails on Price List Lines (Page 7001) — Unit of Measure Code validated before Product No. is set causing NavTestFieldException on Price Asset (Table 7003)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fixed a bug where inserting price list lines through Edit in Excel failed when a Unit of Measure Code was provided, because validation occurred against empty previous values instead of the current row data.",
+  "key_points": [
+    "Edit in Excel inserts to Price List Lines now validate against the current row values, not stale previous record state",
+    "Added IsODataClient() check to distinguish OData requests from other clients",
+    "Modified CopyRecTo procedures to use current record for new lines or OData clients",
+    "Prevents NavTestFieldException on Price Asset when Unit of Measure Code is set without Product No. being established first",
+    "Added unit test UnitOfMeasureCodeOnInsertLineViaOData to verify the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004149,
+    "changes_in_call": 1
+  }
+}

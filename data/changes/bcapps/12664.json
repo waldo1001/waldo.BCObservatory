@@ -1,0 +1,74 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12664,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12664",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-18T14:03:35Z",
+  "merge_commit_sha": "2fc26d07e3e5ce7a881dcbaf6c0fb861aba2d588",
+  "author": "auzhhv",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "Fix production journal page ID validation",
+  "body_hash": "f0992953e422c3910b500d4c56bc50fd587354395c6d51cd6b081356450157a4",
+  "fixes_issues": [
+    8273
+  ],
+  "work_items": [
+    659664
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Journal/ProductionJournalMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Journal/ProductionJournalMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5510",
+        "type": "codeunit",
+        "id": 5510,
+        "name": "Production Journal Mgt",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5510"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ],
+  "issues": [
+    {
+      "number": 8273,
+      "title": "[Bug]: codeunit 5510 \"Production Journal Mgt\" - SetTemplateAndBatchName",
+      "state": "closed"
+    }
+  ]
+}

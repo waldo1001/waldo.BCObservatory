@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Configure Dynamics SL company migration",
+  "title": "Dynamics SL Company Migration Configuration",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-configure-companies",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.165Z",
-      "blob": "acb5865e182690c594b9b605d289a0a8da129609",
-      "words": 1133,
+      "at": "2026-11-19T00:20:02.052Z",
+      "blob": "d8f661e5cecfabadd2c26c109104c35c8fae7338",
+      "words": 1264,
       "forms": 0
     },
     "extracted": {
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migrate-sl-configure-companies.md",
-    "description": "Learn how to use the Business Central cloud migration tools to specify the Dynamics SL company data for migrating to Business Central on-premises.",
-    "ms_date": "2026-04-10",
+    "description": "Learn how to configure modules, dimensions, posting, and historical snapshots for Dynamics SL company data migration to Business Central online.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1133,
+    "ai_usage": "ai-assisted",
+    "words": 1264,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4ca3d05f381036a99b318810a53e1af528b5b906ac0b46047b6a35a100a5c046"
+  "output_hash": "d8f661e5cecfabadd2c26c109104c35c8fae7338"
 }

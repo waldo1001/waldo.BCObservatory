@@ -1,0 +1,131 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13820,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13820",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-18T14:03:35Z",
+  "merge_commit_sha": "686905d203119ebb991af032387ec0a5e0565abb",
+  "author": "AleksanderGladkov",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] NO SAF-T changes imported category identifier casing and does not show full identifiers in mapping setup",
+  "body_hash": "a35e634bdd72a38beaac296bb210dbee768e86f56cec8a2df802e81be15f1bb7",
+  "fixes_issues": [],
+  "work_items": [
+    658524
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/GenerateSAFT13File.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/app/src/GLAccount Mapping/SAFTGLAccountMapping.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/app/src/GLAccount Mapping/SAFTGLMappingSubpage.Page.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/app/src/Install and Setup/SAFTXMLImport.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/test/src/SAFTUnitTests.Codeunit.al",
+      "status": "modified",
+      "additions": 109,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/test/src/SAFTXMLTests13.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 7,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 145,
+    "deletions": 18,
+    "al": 4
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/Export Engine/GenerateSAFT13File.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10692",
+        "type": "codeunit",
+        "id": 10692,
+        "name": "Generate SAF-T 1.3 File",
+        "app": "NorwegianSAFT",
+        "cc": "no",
+        "page": "codeunit/10692-no"
+      },
+      {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/GLAccount Mapping/SAFTGLAccountMapping.Table.al",
+        "status": "modified",
+        "key": "table/10674",
+        "type": "table",
+        "id": 10674,
+        "name": "SAF-T G/L Account Mapping",
+        "app": "NorwegianSAFT",
+        "cc": "no",
+        "page": "table/10674-no"
+      },
+      {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/GLAccount Mapping/SAFTGLMappingSubpage.Page.al",
+        "status": "modified",
+        "key": "page/10677",
+        "type": "page",
+        "id": 10677,
+        "name": "SAF-T G/L Mapping Subpage",
+        "app": "NorwegianSAFT",
+        "cc": "no",
+        "page": "page/10677-no"
+      },
+      {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/Install and Setup/SAFTXMLImport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10671",
+        "type": "codeunit",
+        "id": 10671,
+        "name": "SAF-T XML Import",
+        "app": "NorwegianSAFT",
+        "cc": "no",
+        "page": "codeunit/10671-no"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "NorwegianSAFT"
+  ]
+}

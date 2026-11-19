@@ -2,20 +2,22 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-dynamics-gp-videos.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp-videos",
   "title": "Compare Work in Dynamics GP to Business Central",
-  "blob": "dbfe8af4105c2494a7ae90dcda685763d4aabbca",
-  "summary": "Videos comparing work processes in Dynamics GP and Business Central, covering receivables, payables, cash receipts, dimensions, journal entries, and reports to help users transition between systems.",
+  "blob": "ca80f872da6a6961d7ce3f981d2d5b132f258af2",
+  "summary": "Video comparison of work processes between Dynamics GP and Business Central, covering receivables, payables, cash receipts, dimensions, journals, and reporting for users migrating from GP.",
   "systems": [
-    "administration",
-    "finance",
-    "sales"
+    "sales",
+    "purchasing",
+    "finance"
   ],
   "topics": [
     "migration",
     "dynamics gp",
     "receivables",
     "payables",
+    "cash receipts",
     "dimensions",
-    "general journal"
+    "general journal",
+    "reporting"
   ],
   "objects": [],
   "features": [
@@ -27,7 +29,7 @@
     "dimension transactions",
     "classes and templates",
     "general journal entries",
-    "entry correction",
+    "entry correction and reversal",
     "trial balance reports",
     "aging reports",
     "posting accounts"
@@ -39,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003097,
-      "pages_in_call": 8
+      "cost_usd": 0.004069,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,26 +1,30 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-companies-live-tenant.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-companies-live-tenant",
-  "title": "Migrating Business Central companies into live tenants",
-  "blob": "8face050fc6e46598f7daffeaa4f80f81f18c2c1",
-  "summary": "Migrating Business Central companies into live tenants documents the risks and considerations when migrating on-premises companies to an online tenant after going live, which is not officially supported.",
+  "title": "Migrate Business Central Companies into Live Tenants",
+  "blob": "e624d492de0f84245b84d03aa77d4e6e28c96e31",
+  "summary": "Migrating Business Central on-premises companies to live tenants after going live is not officially supported and carries risks of data loss. The page documents potential problems like permission replacement, data loss from per-database tables, duplicate upgrades, and integration issues, along with mitigation strategies.",
   "systems": [
     "administration",
-    "integration"
+    "integration",
+    "platform"
   ],
   "topics": [
     "cloud migration",
-    "live tenant migration",
-    "data loss risks",
-    "permission management"
+    "data loss",
+    "permissions",
+    "on-premises to online",
+    "live tenant",
+    "risk mitigation"
   ],
   "objects": [],
   "features": [
-    "Intelligent Cloud permission set",
-    "per-database data replication",
-    "number sequences migration",
-    "schema modification control",
-    "API integration configuration"
+    "INTELLIGENT CLOUD permission set",
+    "per-database table replication",
+    "Tenant Media table",
+    "number sequences",
+    "upgrade process",
+    "data modification handling"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00343,
-      "pages_in_call": 8
+      "cost_usd": 0.003746,
+      "pages_in_call": 1
     }
   ]
 }

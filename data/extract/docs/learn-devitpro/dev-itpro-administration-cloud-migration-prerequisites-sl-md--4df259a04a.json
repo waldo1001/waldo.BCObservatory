@@ -1,25 +1,31 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-prerequisites-sl.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-sl",
-  "title": "Cloud Migration Prerequisites for Dynamics SL",
-  "blob": "72839f49c9f329392a36904643e60aa3f3e0e496",
-  "summary": "Prerequisites for migrating data from Dynamics SL on-premises to Business Central online, covering destination environment, source system requirements, and database specifications.",
+  "title": "Dynamics SL Migration Prerequisites for Business Central",
+  "blob": "2cf3469b0de1ecdf1106992036cbb25233fc4444",
+  "summary": "Prerequisites for migrating Dynamics SL on-premises data to Business Central online, including destination environment setup, source database requirements, and integration runtime configuration.",
   "systems": [
     "administration",
-    "integration"
+    "integration",
+    "platform"
   ],
   "topics": [
     "cloud migration",
     "dynamics sl",
     "prerequisites",
-    "database requirements"
+    "online environment",
+    "database requirements",
+    "data preparation"
   ],
   "objects": [],
   "features": [
-    "SUPER permissions",
-    "Intelligent Cloud Base",
-    "SQL Server requirements",
-    "self-hosted integration runtime"
+    "SUPER permission set requirement",
+    "Business Central migration apps installation",
+    "Intelligent Cloud Base app",
+    "Dynamics SL Migration app",
+    "SQL Server authentication",
+    "Change tracking setup",
+    "Self-hosted integration runtime"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003878,
-      "pages_in_call": 8
+      "cost_usd": 0.004182,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/14218",
+  "number": 14218,
+  "title": "Show notification only to super users in env. where copilot substitution suggestion was used",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "A notification about retired Copilot item substitution suggestions now appears only to super users in companies that actually used the feature, preventing unnecessary warnings in unaffected environments.",
+  "key_points": [
+    "Checks Feature Uptake table to determine if the retired Copilot feature was used in the current company",
+    "Skips notification entirely for companies where the feature was never used",
+    "Prevents 'Don't show again' entries in My Notifications for unaffected companies",
+    "Uses RecordRef to safely read the internal System Application Feature Uptake table",
+    "Only accessible to users with Feature Uptake read permission, effectively limiting to super users"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": "shows the notification only in companies where the feature was actually used",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004008,
+    "changes_in_call": 1
+  }
+}

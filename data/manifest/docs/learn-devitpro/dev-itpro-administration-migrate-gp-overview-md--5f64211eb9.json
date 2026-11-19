@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Migrate on-premises GP data to Business Central online overview",
+  "title": "Dynamics GP Migration to Business Central Online",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-overview",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.353Z",
-      "blob": "4eb73bd943db53e85a18714cccf5d95ce08091b2",
-      "words": 1690,
+      "at": "2026-11-19T00:19:47.803Z",
+      "blob": "9ae35b2b13cd39eebed2ca63ba9819a74ff2da34",
+      "words": 1575,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T18:49:44.225Z",
+      "at": "2026-11-19T00:19:58.743Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.00543
+      "objects": 0,
+      "cost_usd": 0.00952
     },
     "summarized": {
-      "at": "2026-10-06T18:49:49.218Z",
+      "at": "2026-11-19T00:19:58.744Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:49:49.219Z",
+      "at": "2026-11-19T00:19:58.744Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:49:49.220Z",
+      "at": "2026-11-19T00:19:58.745Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migrate-gp-overview.md",
-    "description": "This article provides an overview of how the migration works and the necessary tasks for completing the migration from Dynamics GP on-premises.",
-    "ms_date": "2024-12-13",
+    "description": "Understand how Dynamics GP cloud migration works, from assessment and setup through data replication, transformation, validation, and going live online.",
+    "ms_date": "2026-11-17",
     "ms_topic": "upgrade-and-migration-article",
     "search_form": [
       {
@@ -63,12 +63,12 @@
       "cloud",
       "edge"
     ],
-    "ai_usage": null,
-    "words": 1690,
+    "ai_usage": "ai-assisted",
+    "words": 1575,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "001f16e09ccd255f69094e7d37cf0c55ba8237fded68fdc95036a5754f831cc2"
+  "output_hash": "967385dbf14b12a6c43ee8df327639b2b7082f7751b1a0ecd25b64340a66f8df"
 }

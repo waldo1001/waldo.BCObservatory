@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14020",
+  "number": 14020,
+  "title": "Bug 650215: Direct Transfer route does not populate configured In-Transit Code on transfer order",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Transfer orders using routes now correctly apply the configured In-Transit Code for Shipment and Receipt transfers, while clearing it for Direct Transfer posting mode.",
+  "key_points": [
+    "In-Transit Code is applied from routes for non-direct transfers and cleared for Direct Transfer posting",
+    "Synchronizes existing transfer lines with header values when either location changes on direct transfers",
+    "Direct transfer receipt quantities align with shipment quantities even with non-blank route transit codes",
+    "Receipt validation receives the in-memory header with updated Direct Transfer flag to prevent stale route mode",
+    "Thirteen regression tests added covering location-entry sequences, in-transit code replacement, and quantity defaults with inherited transit"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004443,
+    "changes_in_call": 1
+  }
+}

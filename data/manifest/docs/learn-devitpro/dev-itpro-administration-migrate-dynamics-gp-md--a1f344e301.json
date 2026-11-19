@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Migrate Dynamics GP data to the cloud",
+  "title": "Dynamics GP Data Migration to Business Central Online",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.984Z",
-      "blob": "e7d544bd83bf02032b738f43c7f7576a07d323d4",
-      "words": 2120,
+      "at": "2026-11-19T00:19:24.709Z",
+      "blob": "181b0fa26239a312256b42abf0f12560e8dfe0da",
+      "words": 2317,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T17:05:38.279Z",
+      "at": "2026-11-19T00:19:42.709Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 12,
-      "cost_usd": 0.00703
+      "objects": 13,
+      "cost_usd": 0.013922
     },
     "summarized": {
-      "at": "2026-10-06T17:35:03.913Z",
+      "at": "2026-11-19T00:19:42.710Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:35:07.372Z",
+      "at": "2026-11-19T00:19:42.710Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:35:07.387Z",
+      "at": "2026-11-19T00:19:42.711Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migrate-dynamics-gp.md",
-    "description": "Learn how to migrate to the cloud from Dynamics GP using an assisted setup guide in Business Central online. Move historical data to Azure Data Lake.",
-    "ms_date": "2026-01-14",
-    "ms_topic": "upgrade-and-migration-article",
+    "description": "Learn which Dynamics GP master records, outstanding transactions, and historical data you can migrate to Business Central online and how to select them.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "concept-article",
     "search_form": [
       {
         "raw": "4003",
@@ -60,12 +60,12 @@
       "gp",
       "migration"
     ],
-    "ai_usage": null,
-    "words": 2120,
+    "ai_usage": "ai-assisted",
+    "words": 2317,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bb1bb859eaef4ed71c097e621ce0dfb2405cb3c1490cd8c3d4c2848a22459541"
+  "output_hash": "6f5f596ad1450e9c09856ea3c0f0dc127a65f71447fd713de1b12d67f6c344b9"
 }

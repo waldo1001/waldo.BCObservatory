@@ -1,28 +1,56 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-gp-validation.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-validation",
-  "title": "Migration validation overview",
-  "blob": "184e870b22ca084fd56253e300b15cf21bda7c76",
-  "summary": "Migration validation feature verifies data migrated from Dynamics GP to Business Central by comparing source and migrated data across entities like G/L accounts, customers, and vendors.",
+  "title": "Dynamics GP Migration Validation Overview",
+  "blob": "5cabc01ad5f6e7d03a071834b0c2d32b4eecce6f",
+  "summary": "Migration validation for Dynamics GP to Business Central compares replicated source data with migrated data to identify discrepancies across entities like G/L accounts, customers, vendors, and items. Run validation automatically during data upgrade or manually after migration, then review results to resolve data issues before using Business Central.",
   "systems": [
     "administration",
+    "integration",
     "finance"
   ],
   "topics": [
-    "migration",
-    "data validation",
+    "data migration",
+    "validation",
     "dynamics gp",
     "cloud migration",
-    "data accuracy"
+    "data quality",
+    "migration errors"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "GP Company Migration Configuration"
+    },
+    {
+      "type": "page",
+      "name": "GP Migration Settings"
+    },
+    {
+      "type": "page",
+      "name": "Company Migration Status"
+    },
+    {
+      "type": "page",
+      "name": "Migration Validation Results"
+    },
+    {
+      "type": "page",
+      "name": "Migration Validation Errors"
+    }
+  ],
   "features": [
-    "Automatic validation",
-    "Manual validation",
-    "Validation results",
-    "Entity testing",
-    "Discrepancy detection",
-    "Record-level details"
+    "Automatic validation during data upgrade",
+    "Manual validation after migration",
+    "Validation results summary",
+    "Detailed validation error investigation",
+    "Validation test suppression",
+    "1099 vendor validation",
+    "Validation error fail migration option"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +59,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006874,
-      "pages_in_call": 5
+      "cost_usd": 0.004824,
+      "pages_in_call": 1
     }
   ]
 }

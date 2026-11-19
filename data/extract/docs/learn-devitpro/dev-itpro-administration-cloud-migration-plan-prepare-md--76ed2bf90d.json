@@ -1,41 +1,50 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-plan-prepare.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare",
-  "title": "Prepare and plan for cloud migration from Business Central on-premises",
-  "blob": "b0f4c2fe8450ab3010fc2bc440cc4ce67f1f6c8c",
-  "summary": "Plan and prepare Business Central on-premises to online migration by assessing current state, determining data scope, preparing environments, and creating a governance runbook.",
+  "title": "Plan and Prepare for Business Central Cloud Migration",
+  "blob": "c770b2181aea4d62631baba60f04613bb0af9a4a",
+  "summary": "Planning and preparing for Business Central cloud migration from on-premises environments. Use this to assess your current state, determine what data to migrate, estimate data size, prepare your database, plan environment strategy, and create a governance plan with runbooks and dry run cadence.",
   "systems": [
     "administration",
+    "platform",
     "integration"
   ],
   "topics": [
     "cloud migration",
-    "planning",
+    "data replication",
+    "on-premises",
+    "environment strategy",
+    "migration planning",
     "data preparation",
-    "governance",
-    "dry runs",
-    "environment strategy"
+    "governance"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    }
+  ],
   "features": [
-    "data assessment",
+    "data migration assessment",
     "company data migration",
     "extension data migration",
-    "environment strategy",
+    "data compression estimation",
     "change tracking",
-    "dry run planning",
-    "governance runbook",
-    "data compression estimation"
+    "dry run validation",
+    "migration runbook",
+    "data upgrade"
   ],
-  "versions": [],
+  "versions": [
+    "Business Central 14"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005993,
-      "pages_in_call": 8
+      "cost_usd": 0.011302,
+      "pages_in_call": 1
     }
   ]
 }

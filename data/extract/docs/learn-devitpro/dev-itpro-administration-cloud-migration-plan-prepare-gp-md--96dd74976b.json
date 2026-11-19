@@ -1,26 +1,31 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-plan-prepare-gp.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare-gp",
-  "title": "Prepare and plan for cloud migration from Dynamics GP",
-  "blob": "001f3e2a290b41c3d30e583071952c67fa5b8af6",
-  "summary": "Prepare and plan for cloud migration from Dynamics GP provides recommendations for defining migration strategy, using the migration assessment tool, determining data scope, and planning the migration approach including backup, replication, and upgrade steps.",
+  "title": "Plan Dynamics GP Cloud Migration to Business Central",
+  "blob": "0a313025ab868ca7584098a0fb0e84a643ebbad4",
+  "summary": "Plan and prepare for cloud migration from Dynamics GP to Business Central by assessing readiness, determining which companies and data to migrate, and establishing a migration strategy that minimizes downtime.",
   "systems": [
     "administration",
-    "integration"
+    "integration",
+    "platform"
   ],
   "topics": [
     "cloud migration",
-    "dynamics gp migration",
+    "dynamics gp",
+    "migration planning",
+    "data migration",
     "migration strategy",
-    "data migration planning"
+    "replication"
   ],
   "objects": [],
   "features": [
     "migration assessment tool",
-    "company-based data migration",
-    "replication process",
+    "company migration configuration",
+    "replication",
     "data upgrade",
-    "Azure Data Lake backup"
+    "data validation",
+    "Azure Data Lake copy",
+    "migration scheduling"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00343,
-      "pages_in_call": 8
+      "cost_usd": 0.003795,
+      "pages_in_call": 1
     }
   ]
 }

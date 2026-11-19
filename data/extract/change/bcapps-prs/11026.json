@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11026",
+  "number": 11026,
+  "title": "Service Line CalcVATAmountLines: count VAT Difference once and clear filters before OnAfterCalcVATAmountLines",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "service"
+  ],
+  "summary": "Service Line CalcVATAmountLines now counts VAT differences correctly and clears filters before firing the OnAfterCalcVATAmountLines event, matching the behavior of Sales and Purchase lines.",
+  "key_points": [
+    "Fixed VAT difference being counted twice in the accumulation by removing redundant term",
+    "Added VATAmountLine.Reset() before OnAfterCalcVATAmountLines event to ensure unfiltered records",
+    "Aligns Service Line implementation with Sales Line and Purchase Line behavior",
+    "Applied fix to both W1 and NA table layers",
+    "Added two regression tests covering VAT difference counting and filter clearing scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "service"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004695,
+    "changes_in_call": 1
+  }
+}

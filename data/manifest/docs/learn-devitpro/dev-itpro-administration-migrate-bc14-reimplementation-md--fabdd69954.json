@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Business Central 14 Reimplementation tool for cloud migration",
+  "title": "Business Central 14 Reimplementation for Cloud Migration",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-bc14-reimplementation",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:23.243Z",
-      "blob": "db99008154b8bb4cf526fce533b3fcc7d88bd2d1",
-      "words": 552,
+      "at": "2026-11-19T00:18:43.957Z",
+      "blob": "4cd2e46ca3072862bba385895c2fcabecc687b71",
+      "words": 963,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T17:50:59.018Z",
+      "at": "2026-11-19T00:18:57.113Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005993
+      "cost_usd": 0.004425
     },
     "summarized": {
-      "at": "2026-10-06T17:50:59.056Z",
+      "at": "2026-11-19T00:18:57.113Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:50:59.058Z",
+      "at": "2026-11-19T00:18:57.114Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:50:59.060Z",
+      "at": "2026-11-19T00:18:57.114Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migrate-bc14-reimplementation.md",
-    "description": "Learn about the Business Central 14 reimplementation tool that migrates only essential data from Business Central 14 on-premises to Business Central online.",
-    "ms_date": "2026-05-23",
-    "ms_topic": "conceptual",
+    "description": "Learn how to migrate selected Business Central 14 data to Business Central online, configure migration options, and extend the reimplementation tool.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 552,
+    "ai_usage": "ai-assisted",
+    "words": 963,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5c53b20fcbccc2b07923a746a1d090619439c84e2b37747bd4bc6f07c5d38a91"
+  "output_hash": "c313db68691361b0e4c53a5e06fcae445566460dab800b2355e32f4a816ec121"
 }

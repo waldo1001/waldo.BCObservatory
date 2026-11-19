@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/14146",
+  "number": 14146,
+  "title": "[Fabric] Fix synchronization progress page name",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fabric mirroring lifecycle messages now reference the correct page name 'Fabric Synchronization Overview' instead of 'Export Summary', with corresponding test updates.",
+  "key_points": [
+    "Corrected user-facing messages in Connect, Start, Stop, and Reset lifecycle operations to match actual page name",
+    "Updated four test cases to expect the corrected page name in messages",
+    "Synchronization behavior remains unchanged, only message text updated",
+    "Low-risk change affecting messages and tests only, no logic modifications"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Fabric mirroring lifecycle messages direct users to \"Export Summary\", but the page is named \"Fabric Synchronization Overview\".",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003477,
+    "changes_in_call": 1
+  }
+}

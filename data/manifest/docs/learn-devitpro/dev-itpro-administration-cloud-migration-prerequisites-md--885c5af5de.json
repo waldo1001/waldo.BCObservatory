@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Cloud migration prerequisites for Business Central",
+  "title": "Business Central Cloud Migration Prerequisites",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.186Z",
-      "blob": "b61ad74da9b74c47c130ee7f033a067e7ea41861",
-      "words": 741,
+      "at": "2026-11-19T00:18:26.588Z",
+      "blob": "f7d7f01cab4c346ab94a9de943c4769e02cab04b",
+      "words": 751,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:22.532Z",
+      "at": "2026-11-19T00:18:38.871Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003699
+      "objects": 1,
+      "cost_usd": 0.004086
     },
     "summarized": {
-      "at": "2026-10-06T19:25:24.327Z",
+      "at": "2026-11-19T00:18:38.872Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:24.329Z",
+      "at": "2026-11-19T00:18:38.873Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:24.335Z",
+      "at": "2026-11-19T00:18:38.873Z",
       "page": false
     }
   },
@@ -44,13 +44,13 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/cloud-migration-prerequisites.md",
-    "description": "This article outlines requirements on the Business Central on-premises and online environments for cloud migration. Review this information before you start the cloud migration.",
-    "ms_date": "2025-05-19",
-    "ms_topic": "article",
+    "description": "Review the requirements for Business Central on-premises and online environments, migration apps, SQL databases, and integration runtime before migration.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 741,
+    "ai_usage": "ai-assisted",
+    "words": 751,
     "identifiers": [
       "applicationVersion"
     ],
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c167ee77fb5f6f38174f71c1eb8d580ed4e65474fad059336b481805dfe5b8e7"
+  "output_hash": "45d257106e8cac226f624b0378d773b1965725648f82e82eb4f615c6f1f61919"
 }

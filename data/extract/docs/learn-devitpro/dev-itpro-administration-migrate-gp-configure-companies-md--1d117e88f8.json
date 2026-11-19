@@ -1,20 +1,19 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-gp-configure-companies.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-configure-companies",
-  "title": "Configure Dynamics GP company migration",
-  "blob": "b5805f4981b9cfa66599910b14029e5260413cce",
-  "summary": "Configure Dynamics GP company migration settings globally and per-company to specify modules, master data, posting behavior, and historical data for migrating to Business Central.",
+  "title": "Dynamics GP Company Migration Configuration",
+  "blob": "82533e251dc8028f5ea0f0f015f8d1c11b995dcb",
+  "summary": "Configure global and per-company migration settings for Dynamics GP data migration to Business Central, including dimensions, modules, master data, posting, and historical transactions.",
   "systems": [
-    "integration",
-    "finance",
-    "manufacturing"
+    "administration",
+    "integration"
   ],
   "topics": [
-    "dynamics gp",
     "cloud migration",
+    "dynamics gp",
+    "data migration",
     "configuration",
-    "modules",
-    "master data"
+    "company setup"
   ],
   "objects": [
     {
@@ -24,18 +23,21 @@
     {
       "type": "page",
       "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "GP Migration Settings"
     }
   ],
   "features": [
-    "dimensions",
-    "modules",
-    "master data only",
-    "auto posting",
-    "inactive records",
-    "recurring records",
-    "classes",
-    "historical snapshots",
-    "validation settings"
+    "set dimensions",
+    "choose modules to migrate",
+    "master data only migration",
+    "disable auto posting",
+    "inactive records and discontinued items",
+    "recurring sales and purchasing lines",
+    "classes as posting groups",
+    "historical snapshot migration"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004528,
-      "pages_in_call": 8
+      "cost_usd": 0.005004,
+      "pages_in_call": 1
     }
   ]
 }

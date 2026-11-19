@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-dynamics-gp.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp",
-  "title": "Migrate Dynamics GP data to the cloud",
-  "blob": "e7d544bd83bf02032b738f43c7f7576a07d323d4",
-  "summary": "Migrate Dynamics GP data to Business Central online including fiscal periods, chart of accounts, master records, inventory, checkbooks, and historical snapshots using cloud migration tools.",
+  "title": "Dynamics GP Data Migration to Business Central Online",
+  "blob": "181b0fa26239a312256b42abf0f12560e8dfe0da",
+  "summary": "Dynamics GP data migration to Business Central online covers migrated fiscal periods, chart of accounts, customer and vendor master records with outstanding transactions, inventory items, checkbook data, and historical snapshots configured via the GP Company Migration Configuration page.",
   "systems": [
     "finance",
     "sales",
@@ -13,8 +13,10 @@
     "data migration",
     "dynamics gp",
     "cloud migration",
+    "chart of accounts",
+    "dimensions",
     "master records",
-    "fiscal periods"
+    "transactions"
   ],
   "objects": [
     {
@@ -24,6 +26,10 @@
     {
       "type": "page",
       "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
     },
     {
       "type": "table",
@@ -67,15 +73,18 @@
     }
   ],
   "features": [
-    "Fiscal periods to accounting periods",
-    "Chart of accounts migration",
-    "Dimensions mapping",
-    "Customer and vendor records",
-    "Inventory migration",
-    "Checkbook transaction migration",
-    "Recurring sales lines generation",
-    "Recurring purchase lines generation",
-    "1099 vendor information"
+    "fiscal periods to accounting periods conversion",
+    "chart of accounts segment mapping",
+    "dimensions setup",
+    "shortcut dimensions",
+    "statistical accounts",
+    "customer master records migration",
+    "vendor master records migration",
+    "outstanding transactions migration",
+    "recurring sales lines generation",
+    "recurring purchase lines generation",
+    "inventory item master records",
+    "checkbook transaction migration"
   ],
   "versions": [],
   "parts": 1,
@@ -84,8 +93,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00703,
-      "pages_in_call": 8
+      "cost_usd": 0.013922,
+      "pages_in_call": 1
     }
   ]
 }
