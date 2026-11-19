@@ -2,33 +2,44 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-24-5.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-5",
   "title": "Update 24.5 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1",
-  "blob": "f7b2962a8f667fb90fd46555bfa5d84ea6280273",
-  "summary": "Update 24.5 changes and features for Business Central 2024 Release Wave 1, including hotfixes, intrastat automation, sustainability API integration, cloud migration enhancements, and mandatory feature preparations.",
+  "blob": "b677e6bebac7fcf6eac4a975b07e9fac022a5d01",
+  "summary": "Update 24.5 for Business Central 2024 Release Wave 1 includes hotfixes, feature changes for Intrastat reporting and sustainability APIs, cloud migration improvements, and external app dependency management.",
   "systems": [
     "reporting",
-    "integration",
-    "sustainability"
+    "sustainability",
+    "integration"
   ],
   "topics": [
     "update 24.5",
     "2024 release wave 1",
+    "hotfixes",
     "intrastat reporting",
-    "sustainability features",
+    "sustainability",
     "cloud migration",
-    "hotfixes"
+    "feature management"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Invoice Post. Buffer"
+    }
+  ],
   "features": [
-    "Intrastat country of origin automation",
-    "Sustainability API integration",
-    "Cloud migration record links and notes",
-    "External app dependencies",
-    "Invoice posting interface",
-    "Exchange rate adjustment"
+    "Automate country of origin for Intrastat reporting",
+    "Sustainability features for API integrations",
+    "Cloud migration for record links and notes",
+    "External app dependency management",
+    "G/L entry aggregations extension",
+    "Exchange rate adjustment extension",
+    "Feature management for upcoming features"
   ],
   "versions": [
-    "Update 24.5",
-    "2024 release wave 1"
+    "24.5",
+    "2024 release wave 1",
+    "23.1",
+    "23.0",
+    "26.0",
+    "2025 release wave 1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -36,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006497,
-      "pages_in_call": 8
+      "cost_usd": 0.004489,
+      "pages_in_call": 1
     }
   ]
 }

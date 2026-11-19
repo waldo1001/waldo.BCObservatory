@@ -2,40 +2,41 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-25-4.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-4",
   "title": "Update 25.4 for Microsoft Dynamics 365 Business Central 2024 release wave 2",
-  "blob": "fb7604ad3f3432303f5aed3ac6516bbc40d84027",
-  "summary": "Update 25.4 for 2024 release wave 2 extends Copilot Chat public preview to all countries and regions, adds package resources in extensions with AL access, and includes Czech VAT Statement updates.",
+  "blob": "b844b1210ec04d299f64efa6b74dd3c37f26a2fb",
+  "summary": "Update 25.4 for Business Central 2024 release wave 2 includes Chat with Copilot public preview expansion, packaging resources in extensions, VAT statement updates for Czech Republic, and mandatory feature transitions for G/L entry aggregations and exchange rate adjustments.",
   "systems": [
+    "platform",
     "copilot",
-    "localization",
-    "development"
+    "localization"
   ],
   "topics": [
     "update 25.4",
-    "copilot chat",
-    "package resources",
+    "chat with copilot",
+    "feature management",
+    "hotfixes",
+    "localization",
+    "extensions",
     "vat statement",
-    "czech republic"
+    "platform changes"
   ],
-  "objects": [
-    {
-      "type": "table",
-      "name": "VAT Attribute Codes"
-    },
-    {
-      "type": "table",
-      "name": "Invoice Post. Buffer"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Chat with Copilot",
+    "Chat with Copilot public preview",
     "Package resources in extensions",
-    "VAT Statement for Czech Republic",
-    "Exchange rate adjustments",
-    "G/L Entry Aggregations posting"
+    "New VAT Statement for Czech Republic",
+    "Exchange rate adjustment extensibility",
+    "G/L entry aggregation extensibility",
+    "Encrypt data at-rest with customer-managed encryption key",
+    "Get list of manageable environments for Entra apps"
   ],
   "versions": [
+    "25.4",
     "2024 release wave 2",
-    "25.4"
+    "25.2",
+    "23.1",
+    "23.0",
+    "26.0",
+    "2025 release wave 1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -43,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003556,
-      "pages_in_call": 8
+      "cost_usd": 0.004755,
+      "pages_in_call": 1
     }
   ]
 }

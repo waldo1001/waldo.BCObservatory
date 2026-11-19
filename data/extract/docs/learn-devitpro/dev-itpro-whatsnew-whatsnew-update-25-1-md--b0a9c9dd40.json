@@ -2,16 +2,18 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-25-1.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-1",
   "title": "Update 25.1 for Microsoft Dynamics 365 Business Central 2024 release wave 2",
-  "blob": "7f7e96e1569b09f547cf67b4f27e2fd5e256168b",
-  "summary": "Update 25.1 changes for Business Central 2024 Release Wave 2, including data search method changes, sustainability entry reporting, VAT return for Czechia, e-documents framework updates, and upcoming features.",
+  "blob": "bd2302be3d58b672fea27e97d113a9381a67b5d9",
+  "summary": "Update 25.1 for Business Central 2024 release wave 2 includes hotfixes, feature changes like data search method improvements, sustainability reporting, VAT Return for Czechia, and new e-documents service providers.",
   "systems": [
     "reporting",
-    "localization",
-    "sustainability"
+    "finance",
+    "copilot"
   ],
   "topics": [
     "update 25.1",
     "2024 release wave 2",
+    "hotfixes",
+    "feature changes",
     "data search",
     "sustainability reporting",
     "vat return",
@@ -19,16 +21,20 @@
   ],
   "objects": [],
   "features": [
-    "List data search method",
-    "Sustainability entries financial reporting",
-    "VAT Return Czechia",
-    "E-documents framework",
-    "Copilot chat enhancements",
-    "Sales Order Agent"
+    "change data search method in lists",
+    "report sustainability entries with financial reports",
+    "VAT Return feature for Czechia",
+    "new service providers in e-documents framework",
+    "experience enhancements to chat with Copilot",
+    "Sales Order Agent",
+    "extending G/L entry aggregations",
+    "extensible exchange rate adjustment"
   ],
   "versions": [
-    "Update 25.1",
-    "2024 release wave 2"
+    "25.1",
+    "2024 release wave 2",
+    "26.0",
+    "2025 release wave 1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -36,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006497,
-      "pages_in_call": 8
+      "cost_usd": 0.004899,
+      "pages_in_call": 1
     }
   ]
 }

@@ -2,37 +2,37 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-25-2.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-2",
   "title": "Update 25.2 for Microsoft Dynamics 365 Business Central 2024 release wave 2",
-  "blob": "2214a76b5c85c0ace39285ff5e649cd0e7675a52",
-  "summary": "Update 25.2 for Business Central 2024 release wave 2 introduces ad hoc analysis for fixed assets, IRS 1099 e-filing, cloud migration from Dynamics SL, E-Documents framework localization, embedded Power BI reports, and localization updates for Czech, Norwegian, and Spanish versions.",
+  "blob": "5659a1e053a4412e3ee789b75d602ce42cfdf1f8",
+  "summary": "Update 25.2 for Business Central 2024 release wave 2 includes hotfixes, feature changes for ad hoc analysis, E-filing 1099 forms, cloud migration from Dynamics SL, E-Documents framework localization, and embedded Power BI reports. Use this to understand what changed in this update and plan upgrades.",
   "systems": [
     "reporting",
-    "fixed-assets",
-    "projects"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "update 25.2",
-    "2024 release wave 2",
-    "e-documents",
-    "power bi",
+    "update",
+    "release wave 2",
+    "hotfixes",
+    "features",
     "localization",
-    "migration"
+    "e-documents",
+    "power bi"
   ],
   "objects": [],
   "features": [
-    "ad hoc analysis",
-    "IRS 1099 e-filing",
-    "Dynamics SL migration",
-    "E-Documents framework",
-    "embedded Power BI",
-    "SAF-T 1.3 mapping",
-    "Copy Document action",
-    "SII tax period"
+    "Ad hoc analysis on fixed assets, projects, and services",
+    "E-file IRS 1099 forms",
+    "Migrate from Dynamics SL",
+    "E-Documents framework localized for Germany",
+    "E-Documents framework for Spain",
+    "Embedded Power BI reports",
+    "Copy Document action for advance letters",
+    "SAF-T 1.3 mapping update",
+    "SII new period type"
   ],
   "versions": [
-    "2024 release wave 2",
     "25.2",
-    "25.3",
-    "26.0"
+    "2024 release wave 2"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -40,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002263,
-      "pages_in_call": 8
+      "cost_usd": 0.005301,
+      "pages_in_call": 1
     }
   ]
 }

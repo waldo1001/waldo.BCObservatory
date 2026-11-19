@@ -2,17 +2,27 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-25-5.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-5",
   "title": "Update 25.5 for Microsoft Dynamics 365 Business Central 2024 release wave 2",
-  "blob": "2c994b102a533c2067debbe95f4c2f8092acb628",
-  "summary": "Update 25.5 for 2024 release wave 2 contains hotfixes with no new features or localization updates, and maintains the platform 25.2 installation path.",
+  "blob": "7a37d5cb6604454461da0442bd1bc69f52355ad8",
+  "summary": "Update 25.5 for Business Central 2024 release wave 2 includes hotfixes and information about features becoming mandatory, such as extending G/L entry aggregations when posting invoices and new extensible exchange rate adjustment functionality.",
   "systems": [
-    "platform"
+    "platform",
+    "finance",
+    "development"
   ],
   "topics": [
     "update 25.5",
     "hotfixes",
+    "mandatory features",
+    "g/l entry aggregations",
+    "exchange rate adjustment",
+    "feature management",
     "2024 release wave 2"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "Feature Management"
+    },
     {
       "type": "table",
       "name": "Invoice Post. Buffer"
@@ -20,11 +30,20 @@
   ],
   "features": [
     "Extending G/L Entry Aggregations When Posting Invoices",
-    "Exchange rate adjustments"
+    "New extensible exchange rate adjustment",
+    "Posting review feature",
+    "Feature Management"
   ],
   "versions": [
+    "25.5",
     "2024 release wave 2",
-    "25.5"
+    "26.0",
+    "2025 release wave 1",
+    "25.2",
+    "25.0",
+    "25.1",
+    "23.1",
+    "23.0"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -32,8 +51,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003556,
-      "pages_in_call": 8
+      "cost_usd": 0.004459,
+      "pages_in_call": 1
     }
   ]
 }
