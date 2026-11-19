@@ -12,7 +12,7 @@ review:
   at: "2026-11-15T00:50:57.511Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,6 +61,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace
+    title: Analyzing App Key Vault Secret Trace Telemetry
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/
     title: API (v2.0) for Dynamics 365 Business Central
     date: "2026-08-10"
@@ -78,13 +85,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/api-overview
     title: API Overview Page in Business Central
     date: "2026-09-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace
-    title: App Key Vault Secret Trace Telemetry | Microsoft Docs
-    date: "2025-09-25"
     commit: null
     t: null
     quote: null
@@ -119,7 +119,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-azure-function-integration-trace
     title: Azure Function Integration Telemetry
-    date: "2022-08-16"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null

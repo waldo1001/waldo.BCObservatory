@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:50:39.630Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-11-19T00:53:46.759Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -84,6 +84,7 @@ links:
   objects:
     - object/page/7414
   features:
+    - feature/573614
     - feature/576844
   topics: []
   localizations: []
@@ -144,25 +145,24 @@ cautions:
     t: 924
 features:
   - name: Excise taxes framework
-    status: ga
+    status: unclear
     t: 6
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "576844"
+    status_source: video
   - name: Excise journal with multiple calculation models
-    status: ga
+    status: preview
     t: 88
     verified: false
     status_source: roadmap
     roadmap_ids:
-      - "576844"
+      - "573614"
   - name: Tax bases configuration
-    status: ga
+    status: unclear
     t: 186
     verified: false
-    status_source: roadmap
+    status_source: video
     roadmap_ids:
+      - "573614"
       - "576844"
   - name: Entry permissions and source types
     status: unclear
@@ -182,12 +182,10 @@ features:
     roadmap_ids:
       - "576844"
   - name: Excise journal calculation workflow
-    status: ga
+    status: unclear
     t: 369
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "576844"
+    status_source: video
   - name: Excise transaction logs
     status: unclear
     t: 170
@@ -272,13 +270,13 @@ Demos show item configuration with excise quantity, tax type and entry permissio
 
 | Feature | Status | At |
 |---|---|---|
-| Excise taxes framework | generally available (roadmap [Calculate taxes for plastic and sugar](../features/576844.md)), demoed | [0:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=6s) |
-| Excise journal with multiple calculation models | generally available (roadmap [Calculate taxes for plastic and sugar](../features/576844.md)), demoed | [1:28](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=88s) |
-| Tax bases configuration | generally available (roadmap [Calculate taxes for plastic and sugar](../features/576844.md)), demoed | [3:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=186s) |
+| Excise taxes framework | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=6s) |
+| Excise journal with multiple calculation models | preview (roadmap [Use complex calculation methods for excise duties](../features/573614.md)), demoed | [1:28](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=88s) |
+| Tax bases configuration | status not stated (roadmap [Use complex calculation methods for excise duties](../features/573614.md), [Calculate taxes for plastic and sugar](../features/576844.md)), demoed | [3:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=186s) |
 | Entry permissions and source types | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=256s) |
 | Excise duty rates on items and fixed assets | status not stated, demoed | [5:17](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=317s) |
 | Excise quantity configuration on items | generally available (roadmap [Calculate taxes for plastic and sugar](../features/576844.md)), demoed | [7:49](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=469s) |
-| Excise journal calculation workflow | generally available (roadmap [Calculate taxes for plastic and sugar](../features/576844.md)), demoed | [6:09](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=369s) |
+| Excise journal calculation workflow | status not stated, demoed | [6:09](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=369s) |
 | Excise transaction logs | status not stated, demoed | [2:50](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=170s) |
 | Parallel CBAM and EPR with excise taxes | status not stated, demoed | [8:51](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=531s) |
 | Dynamic reporting captions for excise types | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=232s) |

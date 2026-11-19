@@ -11,7 +11,7 @@ review:
   at: "2026-10-28T11:01:25.879Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,8 +68,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1
-    title: Deprecated Features in the application
-    date: "2026-02-20"
+    title: Deprecated features in the application
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null

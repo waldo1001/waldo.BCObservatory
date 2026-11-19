@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:47:41.158Z"
   flags: []
 generated:
-  at: "2026-11-18T00:53:46.429Z"
+  at: "2026-11-19T00:53:46.759Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,8 +80,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/576789
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -121,12 +120,10 @@ features:
     verified: false
     status_source: video
   - name: Business Central MCP server
-    status: ga
+    status: unclear
     t: 36
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "576789"
+    status_source: video
   - name: Payroll agent
     status: unclear
     t: 59
@@ -211,17 +208,17 @@ Examples include a payroll agent that reduces manual data entry and lets smaller
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Copilot Studio agent creation | status not stated | [0:24](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=24s) |
-| Business Central MCP server | generally available (roadmap [Unlock more Business Central data with MCP server enhancements](../features/576789.md)) | [0:36](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=36s) |
-| Payroll agent | status not stated | [0:59](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=59s) |
-| Manifest purchase order creation agent | status not stated | [1:54](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=114s) |
-| Sales claim agent | status not stated | [1:54](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=114s) |
-| Reusable agent development in Business Central | status not stated | [2:08](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=128s) |
-| Copilot Chat integration | status not stated | [2:19](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=139s) |
+Every feature below: status not stated.
 
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
+| Feature | At |
+|---|---|
+| Copilot Studio agent creation | [0:24](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=24s) |
+| Business Central MCP server | [0:36](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=36s) |
+| Payroll agent | [0:59](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=59s) |
+| Manifest purchase order creation agent | [1:54](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=114s) |
+| Sales claim agent | [1:54](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=114s) |
+| Reusable agent development in Business Central | [2:08](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=128s) |
+| Copilot Chat integration | [2:19](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=139s) |
 
 ## Quotes
 

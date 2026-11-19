@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:33.535Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -165,6 +165,7 @@ links:
     - change/bcapps/11906
     - change/bcapps/12868
     - change/bcapps/13442
+    - change/bcapps/14124
     - change/bcapps/9005
     - change/bcapps/9118
     - change/bcapps/9212
@@ -264,6 +265,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11906 [Main]-Incident 51000001968459: Issue while creating any import purchase invoice](../../../../changes/bcapps/11906.md) (code change): "Custom Duty is now included in inventory cost for import invoices"
 - [#12868 [29x]-Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment](../../../../changes/bcapps/12868.md) (code change): "rounding precision issue in the Adjust Cost process that was creating unexpected variance"
 - [#13442 [SCM] Post Inventory Cost to G/L: stop using marks, add clean-up for Post Value Entry to G/L](../../../../changes/bcapps/13442.md) (code change): "Post Inventory Cost to G/L: stop using marks, add clean-up"
+- [#14124 [main] Bug 658242 IT Report 12135 "Fiscal Inventory Valuation" shows prior-year value for an item first posted in a later year](../../../../changes/bcapps/14124.md) (code change): "Report 12135 now correctly displays inventory values for items first posted"
 - [#9005 (Bug 641089) Guard Item Ledger/Value Entry No. allocation in Item Jnl.-Post Line with CommitBehavior::Ignore](../../../../changes/bcapps/9005.md) (code change): "Item journal posting now prevents duplicate-key errors in concurrent scenarios"
 - [#9118 Bugs/master GitHub event batch 1745](../../../../changes/bcapps/9118.md) (code change): "Item Jnl.-Post Line changed in W1, APAC, CH, ES, IT and RU"
 - [#9212 Bug 629779: [Inventory] Show a single Export/Import item data action pair on Cost Adjustment and Item Card](../../../../changes/bcapps/9212.md) (code change): "Cost Adjustment and Item Card pages now show a single"

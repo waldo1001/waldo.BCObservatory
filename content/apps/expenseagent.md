@@ -2,7 +2,7 @@
 id: app/expenseagent
 type: app
 title: ExpenseAgent
-summary: "ExpenseAgent (Microsoft.ExpenseAgent): 394 objects in BC29-30 (153 pages, 70 codeunits, 57 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos."
+summary: "ExpenseAgent (Microsoft.ExpenseAgent): 482 objects in BC29-30 (177 pages, 99 codeunits, 68 tables, 45 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T00:51:20.604Z"
+  at: "2026-11-19T00:50:39.666Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a1492c0ecabb72e62d8627feda336c7606b7779a3a70ef7d1cde6e76be89b149
+  input_hash: 0bba2b99cc7d952406451713e988c7015c2e28befdd526ea87581260c9172fb8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ExpenseAgent/app
@@ -87,6 +87,17 @@ links:
     - object/table/7105
     - object/table/7106
     - object/table/7108
+    - object/table/7421
+    - object/table/7422
+    - object/table/7423
+    - object/table/7424
+    - object/table/7425
+    - object/table/7426
+    - object/table/7428
+    - object/table/7429
+    - object/table/7430
+    - object/table/7431
+    - object/table/7449
     - object/tableextension/6900
     - object/tableextension/6901
     - object/tableextension/6902
@@ -100,6 +111,10 @@ links:
     - object/tableextension/6976
     - object/tableextension/7109
     - object/tableextension/7110
+    - object/tableextension/7440
+    - object/tableextension/7441
+    - object/tableextension/7442
+    - object/tableextension/7443
     - object/page/6900
     - object/page/6901
     - object/page/6902
@@ -215,21 +230,6 @@ links:
     - object/page/7085
     - object/page/7086
     - object/page/7087
-    - object/page/7088
-    - object/page/7089
-    - object/page/7090
-    - object/page/7091
-    - object/page/7092
-    - object/page/7093
-    - object/page/7094
-    - object/page/7095
-    - object/page/7096
-    - object/page/7097
-    - object/page/7098
-    - object/page/7099
-    - object/page/7101
-    - object/page/7102
-    - object/page/7103
   features: []
   topics:
     - topic/business-central/business-functionality/expense-management-preview/set-up-expense-management
@@ -254,21 +254,21 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 394
+  objects: 482
   by_type:
-    page: 153
-    codeunit: 70
-    table: 57
-    enum: 37
+    page: 177
+    codeunit: 99
+    table: 68
+    enum: 45
     entitlement: 25
-    tableextension: 13
-    pageextension: 10
-    permissionset: 8
-    query: 6
+    tableextension: 17
+    pageextension: 13
+    permissionset: 11
+    query: 9
     enumextension: 5
     report: 4
+    interface: 4
     permissionsetextension: 4
-    interface: 1
     profile: 1
   hubs: 6
   videos: 6
@@ -277,7 +277,7 @@ counts:
 
 # ExpenseAgent
 
-> ExpenseAgent (Microsoft.ExpenseAgent): 394 objects in BC29-30 (153 pages, 70 codeunits, 57 tables, 37 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos.
+> ExpenseAgent (Microsoft.ExpenseAgent): 482 objects in BC29-30 (177 pages, 99 codeunits, 68 tables, 45 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos.
 
 First-party app · folder `src/Apps/W1/ExpenseAgent/app` · namespace `Microsoft.ExpenseAgent` · BC29-30 · system copilot · facts from the code pillar and the joins, nothing machine-written
 
@@ -294,9 +294,9 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-394 objects, by type.
+482 objects, by type.
 
-### Tables (57)
+### Tables (68)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -357,8 +357,19 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 7105 | [Posted Exp. Policy Evaluation](../objects/table/7105.md) | Posted Expense Policy Evaluation |
 | 7106 | [Exp. Policy To Eval Buffer](../objects/table/7106.md) | Expense Policy To Evaluate Buffer |
 | 7108 | [Expense Vehicle Type](../objects/table/7108.md) | Vehicle Type |
+| 7421 | [EA Corp Card](../objects/table/7421.md) | Corp Card |
+| 7422 | [EA Corp Card Statement](../objects/table/7422.md) | Corp Card Statement |
+| 7423 | [EA Corp Card Exception](../objects/table/7423.md) | Corp Card Exception |
+| 7424 | [EA Corp Card MCC Map](../objects/table/7424.md) | Corp Card MCC Map |
+| 7425 | [EA Corp Card Merchant Rule](../objects/table/7425.md) | Corp Card Merchant Rule |
+| 7426 | [EA Corp Card Provider](../objects/table/7426.md) | Corp Card Provider |
+| 7428 | [EA Corp Card Trans](../objects/table/7428.md) | Corp Card Transaction |
+| 7429 | [EA Corp Card Trans Detail](../objects/table/7429.md) | Corp Card Transaction Detail |
+| 7430 | [EA Corp Card Settlement](../objects/table/7430.md) | Corp Card Settlement |
+| 7431 | [EA Corp Card Settlement Line](../objects/table/7431.md) | Corp Card Settlement Statement |
+| 7449 | [EA Expense Management Cue](../objects/table/7449.md) | Expense Management Cue |
 
-### Table extensions (13)
+### Table extensions (17)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -375,8 +386,12 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6976 | [Gen. Journal Line](../objects/tableextension/6976.md) |  |
 | 7109 | [Exp. Spend Req. Detail](../objects/tableextension/7109.md) |  |
 | 7110 | [Expense Employee](../objects/tableextension/7110.md) |  |
+| 7440 | [EA Bank Acc. Rec. Line](../objects/tableextension/7440.md) |  |
+| 7441 | [EA Bank Account Stmt. Line](../objects/tableextension/7441.md) |  |
+| 7442 | [EA Bank Acc. Ledger Entry](../objects/tableextension/7442.md) |  |
+| 7443 | [EA Gen. Journal Line](../objects/tableextension/7443.md) |  |
 
-### Pages (153)
+### Pages (177)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -533,8 +548,32 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 7140 | [Expense Alternate Approvers](../objects/page/7140.md) |  |
 | 7141 | [Expense Activities](../objects/page/7141.md) |  |
 | 7147 | [Exp. Alternate Approvers API](../objects/page/7147.md) |  |
+| 7429 | [EA Corp Card Stmt. FactBox](../objects/page/7429.md) | Statement Reconciliation |
+| 7430 | [EA Corp Card Settlements](../objects/page/7430.md) | Corporate Card Settlements |
+| 7431 | [EA Corp Card Cards](../objects/page/7431.md) | Corporate Cards |
+| 7432 | [EA Corp Card Exceptions](../objects/page/7432.md) | Corporate Card Exceptions |
+| 7433 | [EA Corp Card Trans List](../objects/page/7433.md) | Corporate Card Transactions |
+| 7434 | [EA Corp Card Providers](../objects/page/7434.md) | Corporate Card Providers |
+| 7435 | [EA Corp Card MCC Map](../objects/page/7435.md) | Corporate Card MCC Map |
+| 7436 | [EA Corp Card Details](../objects/page/7436.md) | Corporate Card Level 3 Details |
+| 7437 | [EA Corp Card Merchant Rules](../objects/page/7437.md) | Merchant Normalization Rules |
+| 7438 | [EA Corp Card Dashboard](../objects/page/7438.md) | Corporate Card Dashboard |
+| 7439 | [EA Corp Card JQ Schedule](../objects/page/7439.md) | Corporate Card Import Schedule |
+| 7440 | [EA Corp Card Statement Lookup](../objects/page/7440.md) | Corporate Card Statements |
+| 7441 | [EA Corp Card Dashboard Fact](../objects/page/7441.md) | Recent Statements |
+| 7442 | [EA Corp Card Stats Factbox](../objects/page/7442.md) | Corporate Card Statistics |
+| 7443 | [EA Corp Card Statements](../objects/page/7443.md) | Corporate Card Statements |
+| 7444 | [EA Corp Card Statement](../objects/page/7444.md) | Corporate Card Statement |
+| 7445 | [EA Corp Card JQ Schedule Sub](../objects/page/7445.md) | Job Queue Schedule |
+| 7446 | [EA Corp Card Statement Trans](../objects/page/7446.md) | Statement Transactions |
+| 7447 | [EA Corp Card Settlement](../objects/page/7447.md) | Corporate Card Settlement |
+| 7448 | [EA Corp Card Settlement Lines](../objects/page/7448.md) | Settlement Statements |
+| 7449 | [EA Expense Mgmt Activities](../objects/page/7449.md) | Activities |
+| 7450 | [EA Corp Card Lookup](../objects/page/7450.md) | Select Corporate Card |
+| 7451 | [Expense Corporate Cards API](../objects/page/7451.md) |  |
+| 7452 | [EA Card Liability Transfer](../objects/page/7452.md) | Transfer Card Liability |
 
-### Page extensions (10)
+### Page extensions (13)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -548,6 +587,9 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6976 | [Source Code Setup](../objects/pageextension/6976.md) |  |
 | 6977 | [Exp. Approval User Setup](../objects/pageextension/6977.md) |  |
 | 6995 | [EA Agent Card](../objects/pageextension/6995.md) |  |
+| 7440 | [EA Payment Rec. Journal](../objects/pageextension/7440.md) |  |
+| 7441 | [EA Bank Account Stmt. Lines](../objects/pageextension/7441.md) |  |
+| 7442 | [EA Bank Acc. Ledger Entries](../objects/pageextension/7442.md) |  |
 
 ### Reports (4)
 
@@ -558,7 +600,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6951 | [Expense Report Cover Page](../objects/report/6951.md) |  |
 | 6952 | [Expense Report Summary Page](../objects/report/6952.md) |  |
 
-### Codeunits (70)
+### Codeunits (99)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -632,8 +674,37 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 7126 | [Create Expense Rule Conditions](../objects/codeunit/7126.md) |  |
 | 7128 | [Create Expense Rule Headers](../objects/codeunit/7128.md) |  |
 | 7133 | [Travel Request Approval](../objects/codeunit/7133.md) |  |
+| 7420 | [EA Corp Card Merchant Norm](../objects/codeunit/7420.md) |  |
+| 7421 | [EA Corp Card Match Mgt](../objects/codeunit/7421.md) |  |
+| 7422 | [EA Corp Card Expense Writer](../objects/codeunit/7422.md) |  |
+| 7423 | [EA Corp Card Post Import Orch](../objects/codeunit/7423.md) |  |
+| 7424 | [EA Corp Card Audit Subscribers](../objects/codeunit/7424.md) |  |
+| 7425 | [EA Corp Card JQ Mgt](../objects/codeunit/7425.md) |  |
+| 7426 | [EA Corp Card Enh. Match Mgt](../objects/codeunit/7426.md) |  |
+| 7427 | [EA Corp Card MCC Mgt](../objects/codeunit/7427.md) |  |
+| 7428 | [EA Corp Card Approval Mgt](../objects/codeunit/7428.md) |  |
+| 7429 | [EA Corp Card Report Mgt](../objects/codeunit/7429.md) |  |
+| 7430 | [EA Corp Card Feed Mgt](../objects/codeunit/7430.md) |  |
+| 7431 | [EA Corp Card Prov Reg](../objects/codeunit/7431.md) |  |
+| 7432 | [EA Corp Card Import Orch](../objects/codeunit/7432.md) |  |
+| 7433 | [EA Corp Card JQ Runner](../objects/codeunit/7433.md) |  |
+| 7434 | [EA Corp Card Data Exch Prov](../objects/codeunit/7434.md) |  |
+| 7435 | [EA Corp Card Validate Mgt](../objects/codeunit/7435.md) |  |
+| 7436 | [EA Corp Card Dedup Mgt](../objects/codeunit/7436.md) |  |
+| 7437 | [EA Corp Card Map Mgt](../objects/codeunit/7437.md) |  |
+| 7439 | [EA Corp Card DE Noop](../objects/codeunit/7439.md) |  |
+| 7440 | [EA Corp Card Post Mgt](../objects/codeunit/7440.md) |  |
+| 7441 | [EA Corp Card Statement Mgt](../objects/codeunit/7441.md) |  |
+| 7442 | [EA Create Corp Card Setup](../objects/codeunit/7442.md) |  |
+| 7443 | [EA Corp Card Settlement Mgt](../objects/codeunit/7443.md) |  |
+| 7444 | [EA Corp Card Error Context](../objects/codeunit/7444.md) |  |
+| 7445 | [EA Corp Card Stats Calculator](../objects/codeunit/7445.md) |  |
+| 7446 | [EA Corp Card Stmt Summary](../objects/codeunit/7446.md) |  |
+| 7447 | [EA Corp Card Selection Mgt](../objects/codeunit/7447.md) |  |
+| 7448 | [EA Corp Card Expense Match](../objects/codeunit/7448.md) |  |
+| 7449 | [EA Corp Card Liability Mgt](../objects/codeunit/7449.md) |  |
 
-### Queries (6)
+### Queries (9)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -643,8 +714,11 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 7082 | [Expense Per Diem Locations](../objects/query/7082.md) |  |
 | 7089 | [Expense Project Tasks Qry](../objects/query/7089.md) | Expense Project Tasks Query |
 | 7111 | [Travel Request Employees](../objects/query/7111.md) |  |
+| 7440 | [EA Posted Report Card Trans](../objects/query/7440.md) |  |
+| 7441 | [EA Report Card Displays](../objects/query/7441.md) |  |
+| 7442 | [EA Posted Report Card Displays](../objects/query/7442.md) |  |
 
-### Enums (37)
+### Enums (45)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -673,6 +747,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6922 | [Expense Activity Event Type](../objects/enum/6922.md) |  |
 | 6923 | [Expense Activity Initiator](../objects/enum/6923.md) |  |
 | 6924 | [Expense Activity Actor Role](../objects/enum/6924.md) |  |
+| 6925 | [Expense Source](../objects/enum/6925.md) |  |
 | 6968 | [Expense Agent Cons. Source](../objects/enum/6968.md) |  |
 | 6978 | [Expense Line Type](../objects/enum/6978.md) |  |
 | 6982 | [Expense Age Handling](../objects/enum/6982.md) |  |
@@ -685,6 +760,13 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6989 | [Expense Policy Status](../objects/enum/6989.md) |  |
 | 6990 | [Expense Policy Subject](../objects/enum/6990.md) |  |
 | 7108 | [Exp. Spend Req. Line Type](../objects/enum/7108.md) |  |
+| 7430 | [EA Corp Card Feed Type](../objects/enum/7430.md) | Corp Card Feed Type |
+| 7432 | [EA Corp Card Trans Status](../objects/enum/7432.md) | Corp Card Trans Status |
+| 7433 | [EA Corp Card Match Type](../objects/enum/7433.md) | Corp Card Match Type |
+| 7434 | [EA Corp Card Exception Type](../objects/enum/7434.md) | Corp Card Exception Type |
+| 7435 | [EA Corp Card Create Mode](../objects/enum/7435.md) | Corp Card Create Mode |
+| 7436 | [EA Corp Card Stmt Status](../objects/enum/7436.md) | Corp Card Statement Status |
+| 7437 | [EA Corp Card Settle Status](../objects/enum/7437.md) | Corp Card Settlement Status |
 
 ### Enum extensions (5)
 
@@ -696,13 +778,16 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6998 | [EA Agent Metadata](../objects/enumextension/6998.md) |  |
 | 7107 | [Exp. Spend Request Doc. Type](../objects/enumextension/7107.md) |  |
 
-### Interfaces (1)
+### Interfaces (4)
 
 | Id | Name | Caption |
 |---|---|---|
+|  | [EA Corp Card Expense Match](../objects/interface/ea-corp-card-expense-match.md) |  |
+|  | [EA Corp Card Expense Writer](../objects/interface/ea-corp-card-expense-writer.md) |  |
+|  | [EA Corp Card Provider](../objects/interface/ea-corp-card-provider.md) |  |
 |  | [Expense Agent Quota](../objects/interface/expense-agent-quota.md) |  |
 
-### Permission sets (8)
+### Permission sets (11)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -714,6 +799,9 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6952 | [Expense Agent - Objects](../objects/permissionset/6952.md) |  |
 | 6953 | [Expense Agent - Data](../objects/permissionset/6953.md) |  |
 | 6955 | [Expense Agent - Data Depen.](../objects/permissionset/6955.md) | Expense Agent - Data Dependencies |
+| 7421 | [EACorpCardEdit](../objects/permissionset/7421.md) | Corp Card Edit |
+| 7422 | [EACorpCardRead](../objects/permissionset/7422.md) | Corp Card Read |
+| 7423 | [EACorpCardAdmin](../objects/permissionset/7423.md) | Corp Card Admin |
 
 ### Permission set extensions (4)
 

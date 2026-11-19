@@ -2,26 +2,26 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets
 type: topic
 title: Using Azure Key Vault for app secrets
-summary: "Azure Key Vault for Business Central extension secrets: how to set up app key vaults for online and on-premises, how to read secrets from AL code, and how to monitor retrieval with telemetry. It answers setup, permission, coding and troubleshooting questions."
+summary: "Azure Key Vault for app secrets in Business Central extensions: how to set up app key vaults for online and on-premises, read secrets from AL code, and monitor retrieval with telemetry. It answers setup, permission, app.json, and troubleshooting questions."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:56:15.866Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0497b4406782f7846a9ab5fc24fc3f4032e1c2a2c083e57db4301c0b7350700f
+  input_hash: 25847120f033845e9ec9a8cd986fbcba77a4c2c86320e1bdb13da88c7e0cd2a7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace
-    title: App Key Vault Secret Trace Telemetry | Microsoft Docs
-    date: "2025-09-25"
+    title: Analyzing App Key Vault Secret Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -98,32 +98,32 @@ narrative: generated
 
 # Using Azure Key Vault for app secrets
 
-> Azure Key Vault for Business Central extension secrets: how to set up app key vaults for online and on-premises, how to read secrets from AL code, and how to monitor retrieval with telemetry. It answers setup, permission, coding and troubleshooting questions.
+> Azure Key Vault for app secrets in Business Central extensions: how to set up app key vaults for online and on-premises, read secrets from AL code, and monitor retrieval with telemetry. It answers setup, permission, app.json, and troubleshooting questions.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Handling security](../handling-security.md) > Using Azure Key Vault for app secrets · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Handling security](../handling-security.md) > Using Azure Key Vault for app secrets · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-App key vaults give extensions a central, secure place to store secrets, such as those needed for authenticated web service calls to external services. The section covers the concept, setup for each deployment type, the AL code to retrieve secrets, and telemetry for monitoring.
+App key vaults give extensions a central, secure place to keep secrets they need when making authenticated web service calls to external services. The section covers both online and on-premises deployments, the AL code that reads secrets, and the telemetry that shows whether retrieval worked.
 
-Start with the "Azure Key Vaults with Business Central" overview page. Then follow the setup page for your deployment: online setup covers Marketplace apps and the Dynamics 365 Business Central ISV key vault Reader application, while on-premises setup covers the Azure Key Vault, a Microsoft Entra app registration, permissions, and server instance configuration with a certificate and client credentials.
+Start with the overview page, Azure Key Vaults with Business Central. Then follow the setup page for your deployment. For online, this means provisioning the Dynamics 365 Business Central ISV key vault Reader application and granting it permissions. For on-premises, it means setting up the key vault, registering a Microsoft Entra application, granting permissions, and configuring the server instance with a certificate and client credentials.
 
-Developers then use "Use Key Vault Secrets in Business Central Extensions" to configure key vault URLs in app.json and read secrets in AL. The telemetry page helps diagnose failures in initialization and retrieval.
+Once the vault is ready, the page on using key vault secrets in extensions shows how to list key vault URLs in app.json and retrieve secrets with the App Key Vault Secret Provider codeunit. The telemetry page helps you analyze failures afterward.
 
 ## Key points
 
-- Extensions configure key vault URLs with keyVaultUrls in app.json and support multiple key vaults.
-- In AL, call TryInitializeFromCurrentApp and then GetSecret on the App Key Vault Secret Provider codeunit; secrets are returned as SecretText.
-- Online setup supports Marketplace apps and involves provisioning the Dynamics 365 Business Central ISV key vault Reader application and granting permissions.
-- Online setup uses an AllowedBusinessCentralAppIds secret and mentions role-based access control and Embed App program support.
-- On-premises setup requires registering a Microsoft Entra application, granting RBAC or access policy permissions, and configuring a certificate (self-signed supported) by thumbprint plus client credentials.
-- On-premises private key access must be controlled, and a container-based configuration script is available.
-- Publisher validation applies to secret retrieval.
-- App key vault telemetry records initialization and secret retrieval events with failure reasons, and the docs include KQL sample code for analysis.
+- Extensions retrieve secrets from Azure Key Vaults for authenticated calls to external services, in online and on-premises deployments.
+- Online setup supports Marketplace apps by provisioning the Dynamics 365 Business Central ISV key vault Reader application and granting permissions. It uses role-based access control and an AllowedBusinessCentralAppIds secret.
+- Online setup supports multiple key vaults and the Embed App program.
+- On-premises setup needs an Azure Key Vault, a Microsoft Entra app registration, permissions (RBAC or access policy), and server configuration with a certificate thumbprint and client credentials.
+- On-premises options include self-signed certificates, private key access control, and a container-based configuration script.
+- In AL, configure keyVaultUrls in app.json, then call TryInitializeFromCurrentApp and GetSecret on the App Key Vault Secret Provider codeunit. Secrets are returned as the SecretText type.
+- Publisher validation applies to secrets, and extensions can use multiple key vaults.
+- App key vault telemetry in Application Insights records initialization and retrieval successes and failures, including failure reasons, to help with monitoring and troubleshooting.
 
 ## Learn pages
 
-- [App Key Vault Secret Trace Telemetry \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace): Learn about app key vault secret trace telemetry in Business Central
+- [Analyzing App Key Vault Secret Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace): Analyze app key vault telemetry in Business Central to troubleshoot extension initialization failures and secret retrieval errors in Azure Key Vault.
   - App key vault telemetry gathers information about Azure Key Vault secret acquisition by extensions at runtime across initialization and retrieval stages.
   - Initialization stage verifies app key vault provider configuration via TryInitializeFromCurrentApp method and fails if extension lacks key vault specification or credentials are incorrect.
   - Retrieval stage attempts secret retrieval via GetSecret method call and fails if secret name is invalid, key vault doesn't exist, or application lacks read permissions.

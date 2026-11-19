@@ -2,17 +2,17 @@
 id: topic/business-central/business-functionality/purchasing
 type: topic
 title: Purchasing
-summary: Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and approvals. It answers how-to questions on posting and correcting purchase documents, matching invoices to receipts, blanket orders, date calculation, electronic documents, and purchasing analytics.
+summary: Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and approvals. It answers how-to questions on posting and correcting purchase documents, matching invoice drafts to orders and receipts, blanket orders, date calculation, electronic documents, and purchasing analytics.
 tier: official
 language: en
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-19T01:01:35.031Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -576,28 +576,28 @@ narrative: generated
 
 # Purchasing
 
-> Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and approvals. It answers how-to questions on posting and correcting purchase documents, matching invoices to receipts, blanket orders, date calculation, electronic documents, and purchasing analytics.
+> Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and approvals. It answers how-to questions on posting and correcting purchase documents, matching invoice drafts to orders and receipts, blanket orders, date calculation, electronic documents, and purchasing analytics.
 
-Path: [Business functionality](../business-functionality.md) > Purchasing · tier official · system purchasing · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../business-functionality.md) > Purchasing · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Purchasing section describes how a company buys goods and services in Business Central. Core pages cover creating purchase quotes and converting them to orders, recording purchases with purchase orders and invoices, and handling returns and cancellations through credit memos or return orders. Related pages cover amending or cancelling unpaid invoices, combining receipts or order lines on one invoice, and blanket orders for long-term agreements.
+The Purchasing section describes how a company buys goods and services in Business Central. Core pages cover creating purchase quotes and converting them to orders, recording purchases with purchase orders and invoices, purchasing items for a sale from sales documents, and handling returns and cancellations through credit memos or return orders. Related pages cover amending or cancelling unpaid invoices, combining receipts or order lines on one invoice, and blanket orders for long-term agreements.
 
-Supporting pages cover recurring purchase lines, external document numbers, date and lead time calculation, amount checks on invoices and credit memos, and purchase approval workflows. Incoming documents are covered by pages on matching invoice drafts to purchase orders (including Payables Agent proposals) and receiving electronic documents. Other pages cover merging duplicate vendors and syncing contacts to Outlook.
+Supporting pages cover recurring purchase lines, external document numbers, date and lead time calculation, amount checks on invoices and credit memos, and purchase approval workflows. For incoming documents, one page covers matching invoice drafts to purchase orders and receipts, including Payables Agent proposals. Another covers receiving and converting PEPPOL or OCR electronic documents, and it is scoped to versions before 2023 release wave 2. Other pages cover merging duplicate vendors and syncing contacts to Outlook and Teams.
 
-Start with "Overview of tasks to manage to purchase" for the map of tasks, then "Record purchases with purchase invoices" for the basic flow. The Purchasing analytics subtopic covers the Power BI Purchases app, built-in reports, Data Analysis, and the payment practices report is a separate page.
+Start with "Overview of tasks to manage to purchase" for the map of tasks, then "Record purchases with purchase invoices" for the basic flow. The Purchasing analytics subtopic covers the Power BI Purchases app, built-in reports, Data Analysis on list pages, and legacy reports planned for removal. The payment practices report has its own page in this section.
 
 ## Key points
 
-- Purchase quotes can be converted to purchase orders, and vendors can be created automatically from templates.
+- Purchase quotes can be converted to purchase orders. A quote for a contact with no vendor record can create the vendor from contact data, using a vendor template chosen by territory and country/region.
 - Unpaid posted purchase invoices can be corrected or cancelled with corrective credit memos that keep the audit trail.
-- Returns and cancellations use purchase credit memos or return orders, with exact cost reversing and item charge assignment options.
+- Returns and cancellations use purchase credit memos or return orders, with options such as Get Posted Document Lines to Reverse, Copy from Document, combining return shipments and exact cost reversing.
 - Get Receipt Lines and Get Order Lines combine several receipts or order lines on one vendor invoice.
-- Amount checks validate that document totals including VAT match the sum of purchase lines (2025 release wave 1).
-- Invoice drafts can be matched to purchase orders and receipts with validation of quantities, prices, units of measure and item tracking; Payables Agent can propose matches.
+- Amount checks validate that document totals including VAT match the sum of purchase lines before posting (page tagged 2025 release wave 1).
+- Invoice drafts can be matched to purchase orders and receipts with validation of quantities, prices, units of measure and item tracking; Payables Agent can propose matches for review.
 - Purchase approval workflows use approvers, amount limits and notifications.
-- The Purchasing analytics subtopic (43 pages) covers the Power BI Purchases app, built-in reports and Data Analysis.
+- The Purchasing analytics subtopic (43 pages) covers the Power BI Purchases app, built-in reports, Data Analysis and legacy reports planned for removal.
 
 ## Subtopics
 

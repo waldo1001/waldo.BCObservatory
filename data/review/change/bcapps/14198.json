@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/14198",
+  "input_hash": "490b79f450ce5d50a78020c10143f443d793a0cf94798f0a733d79ef2e7d3893",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-19T00:57:41.676Z",
+  "issues": [
+    "Content is supported by the description: prompts packaged as resources, safety prompts kept in Key Vault, semantic judge in evaluations, whole-message fallback, quantity handling."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023995,
+    "changes_in_call": 6
+  }
+}

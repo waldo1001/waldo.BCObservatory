@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T00:16:36.082Z"
+  at: "2026-11-19T00:15:47.846Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2ff4b72a6440b21490208d925994d38631dad674
@@ -30,7 +30,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/currreport-skip-current-trigger-and-later-triggers.md
     title: "microsoft/BCQuality: CurrReport.Skip: separate current-trigger exit from later triggers"
     date: "2026-11-04"
-    commit: 90540bb901abb89de6d075a4014389df73ab8b64
+    commit: 398bece9cc0c50ef1e061fa53b3c907bbd6d9479
     t: null
     quote: null
 links:
@@ -100,4 +100,4 @@ Claiming that an increment after a direct `Skip()` must run for the skipped reco
 
 ---
 
-From microsoft/BCQuality at 90540bb, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 398bece, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

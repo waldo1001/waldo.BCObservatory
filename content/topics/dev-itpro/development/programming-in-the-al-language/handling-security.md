@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:20.499Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -26,30 +26,30 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace
+    title: Analyzing App Key Vault Secret Trace Telemetry
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace
     title: Analyzing Permission Changes Trace Telemetry
-    date: "2021-04-01"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-dependency-cycle-trace
-    title: Analyzing permission dependency cycle trace telemetry
-    date: "2023-12-20"
+    title: Analyzing Permission Dependency Cycle Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace
     title: Analyzing Permission Error Trace Telemetry
-    date: "2022-07-27"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace
-    title: App Key Vault Secret Trace Telemetry | Microsoft Docs
-    date: "2025-09-25"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -185,6 +185,7 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets
   localizations: []
   videos:
+    - video/IIdtxatSw7A
     - video/tDcT_51ktqo
   posts:
     - post/aardvarklabs-blog/2953
@@ -225,7 +226,7 @@ children:
 coverage:
   learn: 22
   code: 0
-  video: 1
+  video: 2
   blog: 12
   guideline: 0
 bc_forms: []
@@ -296,6 +297,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to quickly check if a Url is secure (Use https) via AL](../../../../posts/yzhums-com/65525.md) (community post): "HTTPS encryption is critical for protecting sensitive data transmission in external integrations"
 - [Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL](../../../../posts/yzhums-com/65762.md) (community post): "use the Record.WritePermission() method in AL to check whether a user has write permissions"
 - [Business Central 2025 wave 2 (BC27): ‘Concealed’ text field type for sensitive data (New field-level property: MaskType)](../../../../posts/yzhums-com/67761.md) (community post): "MaskType field-level property that allows developers to conceal sensitive text"
+- [Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security.](../../../../videos/IIdtxatSw7A.md) (video): "Security development lifecycle; Static Code Analysis and Scanning; Secure Admin Workstation"
 - [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../videos/tDcT_51ktqo.md) (video): "Error Info Permission Checking; Permissions Work with Security Groups"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

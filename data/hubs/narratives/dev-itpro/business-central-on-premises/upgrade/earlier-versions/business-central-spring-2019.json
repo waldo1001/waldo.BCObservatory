@@ -1,39 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-spring-2019",
-  "input_hash": "29d56f557e4dfd70d2ef531300f4367cfc09da135364968fe307a10948047b5a",
-  "summary": "Upgrade guidance for Business Central on-premises spring 2019 (v.14). It covers technical upgrade, application code merging, single-tenant and multitenant data upgrade, cumulative update installation, codeunit 1 replacement, and upgrade considerations. It answers how to move from earlier Dynamics NAV or Business Central versions.",
-  "overview": "This section describes how to upgrade to Business Central on-premises spring 2019 (v.14). The entry page, \"Upgrading to On-Premises v.14\", explains that the path depends on the source version, with different routes for versions before NAV 2018. It splits the work into application code upgrade and data upgrade, for single-tenant or multitenant deployments.\n\nThe other pages cover each stage. \"Upgrade Application Code\" shows how to merge original, modified and target versions with PowerShell cmdlets. \"Converting a Database\" describes the technical upgrade, and \"Upgrading the Data\" covers the single-tenant data upgrade. Three quick reference checklists cover technical upgrade, single-tenant full upgrade and multitenant full upgrade. \"Upgrade Considerations\" and \"Transitioning from Codeunit 1 to System Codeunits\" cover changes that may affect custom code. \"Install a cumulative update\" covers updates within the version.\n\nStart with \"Upgrading to On-Premises v.14\" to pick your path. Then read \"Upgrade Considerations\" and use the quick reference that matches your deployment mode as a checklist.",
+  "input_hash": "21a90d6f36d79d9e3801cc9a3ff1ea436c3141e7c92a58163e58144bc3db1212",
+  "summary": "Business Central spring 2019 (v.14) on-premises upgrade documentation: planning, application code merge, technical upgrade, data upgrade for single-tenant and multitenant deployments, cumulative update installation, and the codeunit 1 transition. It answers how to upgrade from Dynamics NAV or earlier versions to v.14.",
+  "overview": "This section covers upgrading to Business Central on-premises Spring 2019 (version 14) from Dynamics NAV and earlier Business Central versions. The path depends on the source version, with different paths for versions before NAV 2018. An upgrade combines an application code upgrade and a data upgrade, and a technical upgrade converts the database itself.\n\nStart with \"Upgrading to On-Premises v.14\" and \"Business Central Upgrade Planning and Considerations\". They cover requirements, extension migration, schema changes and deprecated features to deal with first. Then follow the detailed pages: \"Upgrade Application Code\" for merging code, \"Converting a Database ... Technical Upgrade\" for database conversion, and \"Upgrading the Data\" for the single-tenant data upgrade. \"Transitioning from Codeunit 1 to System Codeunits\" helps update custom code.\n\nThe quick reference pages (technical upgrade, single-tenant full upgrade, multitenant technical upgrade) give task checklists to use while you run the upgrade. \"Install a cumulative update\" covers applying hotfixes and regulatory updates to an existing on-premises deployment.",
   "key_points": [
-    "The upgrade path depends on the source version. Versions before NAV 2018 follow different paths.",
-    "Upgrade has two parts: application code upgrade and data upgrade. Each applies to single-tenant or multitenant deployments.",
-    "Application code is merged with Merge-, Compare-, Update- and Export-NAVApplicationObject cmdlets. Conflicts are resolved in object text files.",
-    "Technical upgrade converts the database, synchronizes the schema, converts reports to RDL and migrates V1 extensions to V2. A license must be uploaded.",
-    "Data upgrade runs upgrade codeunits, synchronizes the schema, publishes extensions, generates symbols and imports or exports permission sets.",
-    "Codeunit 1 is removed. System codeunits now hold event publishers, and the page maps old triggers to the new ones.",
-    "Upgrade considerations include cloud migration, V1 to V2 extension conversion, CRM integration upgrade, MenuSuite search, profile customization and special characters in company names.",
-    "Cumulative update installation covers downloading the package, updating platform components, importing application objects, publishing extensions and uploading the license."
+    "Target is Business Central Spring 2019 (version 14) on-premises, with upgrade paths that differ for versions before NAV 2018.",
+    "Planning covers extension V1 to V2 conversion, upgrade codeunits, per-tenant extensions, the cloud migration tool, and CRM integration upgrade.",
+    "Application code is merged by comparing three versions (original, modified, target) with Merge-, Compare-, Update- and Export-NAVApplicationObject cmdlets, with conflict resolution.",
+    "Technical upgrade converts the database, including RDL report conversion, schema synchronization, license upload, and V1 to V2 extension migration.",
+    "Data upgrade runs upgrade codeunits and synchronizes the schema, with extension publishing, symbol generation and permission set import/export.",
+    "Quick references give checklists for technical upgrade, single-tenant full upgrade and multitenant full upgrade (tenant synchronization, encryption keys, permissions).",
+    "Codeunit 1 is removed and replaced by system codeunits with event publishers, so custom code must be updated.",
+    "Cumulative update install involves downloading the package, updating platform components, importing application objects, publishing extensions and uploading the license."
   ],
   "members_used": 10,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:04:09.895Z",
+  "at": "2026-11-19T01:00:41.304Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.018281
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:20:10.908Z",
-    "verdict": "approve",
-    "issues": [
-      "The overview says \"Install a cumulative update\" covers \"updates within the version\". That is a slight inference: the page summary lists October 2018, April 2019 and Spring 2019 and talks about hotfixes and regulatory features. It is acceptable, but \"hotfixes and regulatory features\" would be more precise.",
-      "Key point 4 says \"A license must be uploaded\". The source lists license upload as a step, not as a stated requirement. This is minor.",
-      "The page titled \"Multitenant Technical Upgrade Quick Reference\" is described as a multitenant full upgrade checklist. Its summary does describe a full upgrade, so this is fine. Agents should just know the title and the content differ.",
-      "\"Upgrade Considerations\" also covers report searchability and the transition from Dynamics NAV. Key point 7 leaves these out, which is acceptable."
-    ],
-    "input_hash": "29d56f557e4dfd70d2ef531300f4367cfc09da135364968fe307a10948047b5a",
-    "cost_usd": 0.046735200000000005
+    "cost_usd": 0.018737000000000004
   }
 }

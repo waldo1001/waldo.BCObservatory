@@ -12,12 +12,19 @@ review:
   at: "2026-10-24T00:54:26.148Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
   input_hash: d3ffac510c17d3c8eae2e582223e7d89fca414ce5b83d748c00c0db4d76b90df
 evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
+    title: Adding Telemetry to Your Business Central Application
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview
     title: Azure Key Vaults with Business Central
@@ -57,13 +64,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecate-external-business-events
     title: Deprecate external business events
     date: "2025-07-02"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
-    title: Developing telemetry into your Business Central application
-    date: "2024-02-09"
     commit: null
     t: null
     quote: null

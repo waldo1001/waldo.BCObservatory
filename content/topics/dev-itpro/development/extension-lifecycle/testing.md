@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,6 +97,7 @@ links:
     - video/hNom9ZZuca0
     - video/JI9OpaBx0nk
     - video/qlFEdXPjX6A
+    - video/Rvgt_VXFr1I
     - video/xB9kszf93hE
     - video/xr8C3c6WhOI
   posts:
@@ -121,6 +122,7 @@ links:
     - change/bcapps/12463
     - change/bcapps/12557
     - change/bcapps/13558
+    - change/bcapps/13622
     - change/bcapps/8924
     - change/bcapps/9293
     - change/bcquality/159
@@ -134,7 +136,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 9
+  video: 10
   blog: 6
   guideline: 0
 bc_forms:
@@ -205,6 +207,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12463 Fix Email upgrade writing during no-transaction upgrade test](../../../../changes/bcapps/12463.md) (code change): "Email Installer no longer re-registers email tables based on allowed-table"
 - [#12557 Implement first-party app authentication for Microsoft Fabric Export](../../../../changes/bcapps/12557.md) (code change): "tests are extended"
 - [#13558 Add logging table management during installation and upgrade processes](../../../../changes/bcapps/13558.md) (code change): "Updates the existing tests to match"
+- [#13622 [Main]- Edit in Excel insert fails on Price List Lines (Page 7001) — Unit of Measure Code validated before Product No. is set causing NavTestFieldException on Price Asset (Table 7003)](../../../../changes/bcapps/13622.md) (code change): "Added unit test UnitOfMeasureCodeOnInsertLineViaOData to verify the fix"
 - [#8924 [QM] Fixed overflow runtime error](../../../../changes/bcapps/8924.md) (code change): "Adds a regression test in the miscellaneous QM tests codeunit"
 - [#9293 [Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)](../../../../changes/bcapps/9293.md) (code change): "Six new tests added covering the corrected behavior"
 - [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../changes/bcquality/159.md) (code change): "AL testing patterns from an external BC testing expert's blog"
@@ -212,7 +215,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../../../../posts/gerardorenteria-blog/11565.md) (community post): "Testing enhancements enable HTTP request mocking with TestHttpRequestPolicy"
 - [Why do all my tests show up twice in the test explorer?](../../../../posts/jpearson-blog/1590.md) (community post): "Tests show up twice in the VS Code test explorer when the pre-release AL Language extension"
 - [Your Tests All Pass. I Have Bad News.](../../../../posts/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620.md) (community post): "Mutation testing is a technique that validates test quality by intentionally breaking code"
-- [Weekly Recap: August 7-14](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc.md) (community post): "AL Runner shipped 85 PRs fixing emulation-to-real-BC divergences in rename propagation"
+- [Weekly Recap: August 7-14](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc.md) (community post): "AL Runner shipped 85 PRs fixing emulation-to-real-BC divergences in rename propagation, calc formulas, test paging"
 - [Agent Maron & waldo: Mission AL Runner](../../../../posts/waldo-be/318755.md) (community post): "AL code tests outside Business Central using Rust and an in-memory database"
 - [Microsoft presents: Tests, dependencies, runners and evals for BC applications](../../../../videos/9CW5mydS9Vs.md) (video): "deterministic testing; propagated dependencies; application test library"
 - [Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)](../../../../videos/aNRzlbxVPWE.md) (video): "Agent task flow mapping; multi-turn conversation testing; Test library data creation"
@@ -221,6 +224,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's new: Testability Enhancements (2026 release wave 2)](../../../../videos/hNom9ZZuca0.md) (video): "Data-driven Testing in AL"
 - [Introducing: How to Mock Outbound Http Calls for Easier Testing (2025 release wave 1)](../../../../videos/JI9OpaBx0nk.md) (video): "outbound http testing; mocking; HTTP client handler; test isolation; request interception"
 - [What's New: AL Language (2025 release wave 2)](../../../../videos/qlFEdXPjX6A.md) (video): "AI Test Type; Required Test Isolation Property; Cancellation Token Propagation in VS Code"
+- [What's New: Running Tests from Visual Studio Code (2026 release wave 1)](../../../../videos/Rvgt_VXFr1I.md) (video): "Run tests in Visual Studio Code; Run profiles for tests; Code lens for test execution"
 - [Getting Started With Agent Testing: Why Are Evaluations Important? (Part 1)](../../../../videos/xB9kszf93hE.md) (video): "Getting Started With Agent Testing: Why Are Evaluations Important"
 - [What's New : AL-Go for GitHub on Quality and Testability (2025 release wave 1)](../../../../videos/xr8C3c6WhOI.md) (video): "Page Scripting Tests in AL-Go Workflow"
 

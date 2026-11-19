@@ -2,33 +2,33 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/replicate-data
 type: topic
 title: Replicate data
-summary: Data replication from Dynamics SL to Business Central online. It explains how replication works (large and small table flows, Azure BLOB storage, Azure Data Factory, change tracking) and how to run, monitor and troubleshoot it on the Cloud Migration Management page.
+summary: Replicating Dynamics SL data to Business Central online during cloud migration. It covers how the replication pipeline works (large and small table flows, company initialization, change tracking) and how to run, monitor, pause, abandon and rerun replication.
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:22:51.597Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f71d4d3c46269c3fb3be912f76f33eaea5a2db3d272e3c463d644ecea684512d
+  input_hash: 76ffe67af4be45d9c64c0f02613763dc34aaf1ffb9666c4c0b2282b0b20e3fcd
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication
-    title: Data replication overview
-    date: "2023-01-15"
+    title: Cloud Migration Data Replication Overview
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data-replication-run
-    title: Run and manage data replication
-    date: "2024-12-20"
+    title: Run and Manage Cloud Migration Data Replication
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -65,48 +65,48 @@ narrative: generated
 
 # Replicate data
 
-> Data replication from Dynamics SL to Business Central online. It explains how replication works (large and small table flows, Azure BLOB storage, Azure Data Factory, change tracking) and how to run, monitor and troubleshoot it on the Cloud Migration Management page.
+> Replicating Dynamics SL data to Business Central online during cloud migration. It covers how the replication pipeline works (large and small table flows, company initialization, change tracking) and how to run, monitor, pause, abandon and rerun replication.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Replicate data · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Replicate data · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the replication step of migrating from Dynamics SL to Business Central online. It has two pages: one explains the concepts and one explains the hands-on tasks.
+This section describes the replication step of a Dynamics SL migration to Business Central online. It applies after cloud migration setup is complete. It has two pages: one explains how replication works, and one explains how to run and manage it.
 
-"Data replication overview" describes how data moves from the on-premises database to the online environment. It covers the large table and small table flows, Azure BLOB storage, Azure Data Factory, the integration runtime, company initialization, and how rerunning replication uses change tracking.
+Start with the overview page. It describes the replication pipeline and the table-based copying flows, which are split into a large table flow and a small table flow. It also mentions Azure Blob Storage, the self-hosted integration runtime, company initialization, and the change tracking used for later runs.
 
-"Run and manage data replication" is the practical page. It uses the Cloud Migration Management page to create a diagnostics run, start replication, monitor progress, and review the Migration Log when errors occur. Start with the overview to understand the flow, then use the run page for the actual migration.
+Then use the run and manage page for the practical work. It covers running a diagnostics run, running data replication, watching progress in the migration log, pausing or abandoning a migration, and rerunning replication when you need to troubleshoot.
 
 ## Key points
 
-- Replication moves data from the on-premises database to a Business Central online environment.
-- Two flows exist: one for large tables and one for small tables, using Azure BLOB storage and Azure Data Factory.
-- An integration runtime is part of the replication architecture.
+- Replication happens after cloud migration setup and copies on-premises data to Business Central online.
+- The pipeline uses table-based copying flows, with separate large table and small table flows.
+- Azure Blob Storage and a self-hosted integration runtime are part of the replication pipeline.
 - Company initialization is part of the process.
-- Rerunning replication relies on change tracking.
-- Cloud Migration Management page is used to create a diagnostics run and to run replication.
-- Progress is monitored and errors are tracked through the Migration Log.
-- A migration can be paused or abandoned from the management page.
+- Change tracking is used for subsequent replication runs.
+- A diagnostics run is available before or alongside a full data replication run.
+- Progress is monitored in the migration log.
+- You can pause a migration, abandon it, or rerun data replication when troubleshooting.
 
 ## Learn pages
 
-- [Data replication overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication): Learn how to replicate on-premises data to an online environment after setting up the cloud migration.
-  - Data replication copies on-premises data to Business Central online as part of cloud migration.
-  - Large tables use flow with compression to Azure BLOB storage then decompression to online database.
-  - Smaller tables are optimized by serializing, compressing, and merging into single table before storage.
-  - When replication completes, you initialize non-initialized companies to ensure accessibility.
-  - First replication is full; subsequent runs replicate only changed data using SQL change tracking.
-  - Limit: If change tracking retention expires, full replication of affected tables occurs again.
-  - Migration log displays replication results after process completes.
-  - In the observatory: [Page 4005 "Hybrid Companies"](../../../../../objects/page/4005.md), [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
-- [Run and manage data replication](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data-replication-run): This article explains how to run data replication to move data from Business Central on-premises database to on line.
-  - Prerequisite: Cloud migration setup must be completed before data replication can run
-  - Step: Run diagnostics first to identify and fix issues before actual replication starts
-  - Step: Open Cloud Migration Management page and select Run data replication to start migrating data
-  - Step: Monitor progress by checking Migration Log list and status fields on Cloud Migration Management page
-  - When data replication is stopped, any data already migrated remains in the online database
-  - Generally only changed data since last replication is replicated on rerun
-  - Limit: Data replication cannot stop mid-table, waits until current table completes
+- [Cloud Migration Data Replication Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication): Learn how cloud migration data replication moves on-premises data to Business Central online, initializes companies, and handles subsequent replication runs.
+  - Step: Select Run data replication on Cloud Migration Management page to start data replication.
+  - Large tables are copied via self-hosted runtime to Azure Blob Storage then to online database; smaller tables are serialized into JSON first.
+  - Azure Blob Storage acts as temporary regional store so data does not move outside the region.
+  - When replication completes, you are prompted to initialize noninitialized companies to ensure they are accessible and functional.
+  - Prerequisite: Do not use a company until it is initialized, as setup data could be missing.
+  - Subsequent replication runs use SQL change tracking to replicate only data that changed since last replication.
+  - If change tracking retention period expires, the entire table is fully replicated again.
+  - In the observatory: [Page 40015 "Hybrid Companies List"](../../../../../objects/page/40015.md), [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
+- [Run and Manage Cloud Migration Data Replication](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data-replication-run): Learn how to run and monitor cloud migration data replication from an on-premises database to Business Central online and resolve replication errors.
+  - Prerequisite: Cloud migration must be set up before running data replication.
+  - Prerequisite: User must have SUPER permission set in online environment.
+  - Step: Before replication, run a diagnostic run to identify and fix issues without migrating data.
+  - Step: Open Cloud Migration Management page and select Run data replication to start replicating data.
+  - Generally only changed data is replicated on reruns; this makes subsequent replications faster than initial migration.
+  - Pause migration or Abandon migration cannot stop in-progress replication; must wait for completion first.
+  - Migrated data remains in online database after pausing or abandoning migration.
   - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.

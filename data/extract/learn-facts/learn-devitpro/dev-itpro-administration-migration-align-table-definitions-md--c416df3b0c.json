@@ -1,30 +1,30 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-align-table-definitions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-align-table-definitions",
-  "title": "Align SQL Table Definitions",
-  "blob": "705fbbcb2d5382945dd5b23d77c8c172c6bd550c",
+  "title": "Align SQL Table Definitions for Cloud Migration",
+  "blob": "592f0082394a2cae4efe284e72ba65476b888f1d",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
+      "kind": "prerequisite",
+      "text": "Source and destination tables must have matching primary keys and field names with identical data types."
+    },
+    {
       "kind": "fact",
-      "text": "On-premises and online table objects must have identical definitions for successful migration."
+      "text": "Replication checks field lengths and reports incompatible lengths as column-mapping errors."
     },
     {
-      "kind": "prerequisite",
-      "text": "Primary keys must match between source and destination tables."
-    },
-    {
-      "kind": "prerequisite",
-      "text": "Field names and data types must match between source and destination tables."
+      "kind": "fact",
+      "text": "Table names can differ if handled by table mapping during cloud migration setup."
     },
     {
       "kind": "limit",
-      "text": "Different table names, missing fields, and extra fields can be handled by table mapping."
+      "text": "Table and field IDs do not have to match for SQL replication."
     },
     {
       "kind": "limit",
-      "text": "Different table IDs and secondary keys do not affect cloud migration."
+      "text": "Secondary keys do not have to match for SQL replication."
     }
   ],
   "dropped": 0,
@@ -32,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005499,
-      "pages_in_call": 11
+      "cost_usd": 0.004023,
+      "pages_in_call": 10
     }
   ]
 }

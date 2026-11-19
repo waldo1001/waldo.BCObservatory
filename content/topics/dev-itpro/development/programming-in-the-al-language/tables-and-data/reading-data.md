@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:27.211Z"
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,6 +81,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/11847
+    - change/bcapps/13999
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -156,6 +157,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11847 Use matching key for workflow event step instance lookup](../../../../../changes/bcapps/11847.md) (code change): "A workflow step instance lookup key is redefined to match the actual filter and sort order"
+- [#13999 Intrastat export XML performance improvement](../../../../../changes/bcapps/13999.md) (code change): "Data Exch. Field rows are loaded once into a temporary record using FindSet"
 - [Leveraging RecordRef and FieldRef for Dynamic Coding](../../../../../posts/aardvarklabs-blog/3118.md) (community post): "demonstrates practical use cases like summing amounts across different table types"
 - [Optimized Locking feature vs Dynamics 365 Business Central](../../../../../posts/duiliotacconi-com/1425.md) (community post): "Tri-state locking and ReadIsolation in BC apply only to in-transaction single reads"
 - [Business Central 2025 wave 2 (BC27): RecordRef – Get/Search field by name (New overloads)](../../../../../posts/yzhums-com/67623.md) (community post): "new overloads to RecordRef Field and FieldExist methods"

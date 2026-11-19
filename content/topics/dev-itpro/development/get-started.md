@@ -12,12 +12,19 @@ review:
   at: "2026-10-28T11:01:28.806Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
   input_hash: 09a3e109704c0adba0a9f99cff109464bd2bf186f130aaba7f38b21d3f80c956
 evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
+    title: Adding Telemetry to Your Business Central Application
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-actions
     title: AL Code Actions in Visual Studio Code
@@ -76,8 +83,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace
-    title: Analyzing Marketplace submission validation trace telemetry
-    date: "2021-08-01"
+    title: Analyzing Marketplace Submission Validation Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -106,13 +113,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-productivity-tips
     title: Developer productivity tips
     date: "2025-06-17"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
-    title: Developing telemetry into your Business Central application
-    date: "2024-02-09"
     commit: null
     t: null
     quote: null
@@ -223,6 +223,7 @@ evidence:
     quote: null
 links:
   learn:
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-actions
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-code-navigation
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-explorer
@@ -232,7 +233,6 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-help-links-from-pages-tables-xmlports
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-runtime-packages
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-productivity-tips
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-differences
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-get-started
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-keyboard-shortcuts
@@ -306,6 +306,7 @@ Three subtopics extend the area. ALTool covers command-line compiling, packaging
 
 ## More Learn pages
 
+- [Adding Telemetry to Your Business Central Application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry): Instrument Business Central applications with telemetry to analyze usage, troubleshoot problems, and collect events in Application Insights or Windows logs.
 - [AL Code Actions in Visual Studio Code](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-actions): Learn about AL code actions in Visual Studio Code, including scope levels, available actions, and how to enable them for your project.
 - [AL code navigation](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-code-navigation): This article describes how to use the Go To Definition feature when debugging the AL code in Dynamics 365 Business Central.
 - [AL Explorer](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-explorer): The AL Explorer for Business Central lets you explore and navigate objects in extensions.
@@ -315,7 +316,6 @@ Three subtopics extend the area. ALTool covers command-line compiling, packaging
 - [Context-Sensitive Help Links for AL Objects](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-help-links-from-pages-tables-xmlports): Learn how to use the ContextSensitiveHelpPage property in AL to connect pages, queries, and request pages to context-sensitive Help.
 - [Create runtime packages for Business Central on-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-runtime-packages): Describes how you can create runtime packages used for distribution of extensions for Business Central.
 - [Developer productivity tips](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-productivity-tips): Learn about productivity tips when programming in AL for Business Central.
-- [Developing telemetry into your Business Central application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry): This article describes how to add code to application objects that enables you to gather telemetry.
 - [Differences in the development environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-differences): Describes the various differences between the C/SIDE and AL for Business Central.
 - [Get started with AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-get-started): Description of how to get started with the AL development environment.
 - [Keyboard shortcuts for AL in Visual Studio Code](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-keyboard-shortcuts): List of keyboard shortcuts for the new development environment (Visual Studio Code).

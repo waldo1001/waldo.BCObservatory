@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T00:47:52.902Z"
+  at: "2026-11-19T00:47:08.789Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 59fd56d00bdc46fa66a122ccecd2c2732b58033b810b6f21bf9ee20563b3fbba
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/System%20Application/App/Feature%20Key/src/FeatureDataUpdate.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/System%20Application/App/Feature%20Key/src/FeatureDataUpdate.Interface.al
     title: src/System Application/App/Feature Key/src/FeatureDataUpdate.Interface.al (releases/29.x)
     date: null
-    commit: 4f49a1eb5ebb7384620fe1654dd53536c3abca03
+    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Feature Data Update" in System Application (System.Environment.Configuration). 5 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Environment.Configuration · BC23-30 · [source at 4f49a1eb](https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/System%20Application/App/Feature%20Key/src/FeatureDataUpdate.Interface.al) · facts from BC29
+System Application · System.Environment.Configuration · BC23-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/System%20Application/App/Feature%20Key/src/FeatureDataUpdate.Interface.al) · facts from BC29
 
 ## Procedures
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,21 +81,16 @@ links:
     - video/4HE3BBCcV84
     - video/AMVAiPTfSrU
     - video/C5cmG3sNjUg
-    - video/D_Lur52IrIg
     - video/EpDIrJE0HzA
     - video/GeT5E_f9A9Q
     - video/H5EuObmeF4o
     - video/iViHfCgL2L8
-    - video/K8nFVw5M-Po
     - video/LerAo-GGl8U
     - video/q3xnjJD32kk
     - video/qs1cg-GoDeQ
     - video/rm-FstU_I80
-    - video/U1dAdtUjidc
-    - video/UFLo2XGGS14
     - video/UIL8ej7mSKQ
     - video/uMKLsKfKPc0
-    - video/yIYUCSK0Bh4
     - video/zei-IszvYNU
   posts:
     - post/aardvarklabs-blog/2724
@@ -119,7 +114,7 @@ children: []
 coverage:
   learn: 6
   code: 3
-  video: 20
+  video: 15
   blog: 11
   guideline: 0
 bc_forms:
@@ -182,21 +177,16 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [MCP Server and API Queries (2026 release wave 1)](../../../videos/4HE3BBCcV84.md) (video): "API queries in MCP server; Analytics API reference documentation; MCP server configuration"
 - [How 3 Partners are Building Powerful Agents for Business Central](../../../videos/AMVAiPTfSrU.md) (video): "Business Central MCP server; Copilot Studio agent creation; Reusable agent development"
 - [MCP Server for Business Central - Advanced Topics (Part 3)](../../../videos/C5cmG3sNjUg.md) (video): "MCP Server for Business Central; Dynamic Tools System; Copilot Studio Support"
-- [What's new in AL and Tools (2026 release wave 2)](../../../videos/D_Lur52IrIg.md) (video): "AL MCP (AL Management Control Platform); Agent-assisted production investigation"
 - [Build an Agent in Microsoft Copilot Studio for Business Central (2025)](../../../videos/EpDIrJE0HzA.md) (video): "Model Context Protocol (MCP) server for Business Central"
 - [Introducing MCP Server Configurations for Business Central (Part 2)](../../../videos/GeT5E_f9A9Q.md) (video): "MCP Server Configurations; Dynamic Tool Mode"
 - [Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)](../../../videos/H5EuObmeF4o.md) (video): "MCP server for Business Central"
 - [Introducing MCP Server for Business Central (Part 1)](../../../videos/iViHfCgL2L8.md) (video): "MCP Server for Business Central; Copilot Studio Integration"
-- [Business Central Under the Hood Special Edition: The Future of AL with Vibe Coding](../../../videos/K8nFVw5M-Po.md) (video): "vibe coding; ai-assisted development; Model Context Protocol Integration"
 - [Microsoft presents: Next level administration skills with the admin MCP server and agents](../../../videos/LerAo-GGl8U.md) (video): "Admin MCP Server for Business Central; Model Context Protocol (MCP) Fundamentals; OAuth 2.1 Authentication"
 - [What's new: MCP Server (2026 release wave 2)](../../../videos/q3xnjJD32kk.md) (video): "MCP Server query tools; data analysis; agent capabilities; al queries"
 - [What's new: MCP Server (2026 release wave 2)](../../../videos/qs1cg-GoDeQ.md) (video): "MCP Server data tools; query tool; agents; al queries"
 - [20260831 - Business Central MCP Server, standard and custom](../../../videos/rm-FstU_I80.md) (video): "model context protocol; mcp server; copilot studio; business central integration"
-- [What's New: Admin Center MCP Server (2026 release wave 1)](../../../videos/U1dAdtUjidc.md) (video): "Admin Center MCP Server; Environment Management via Natural Language"
-- [What's new: Agentic Developer Loop (2026 release wave 2)](../../../videos/UFLo2XGGS14.md) (video): "Agentic developer loop; Snapshot debugging MCP; AL tool as MCP proxy"
 - [Dynamics 365 Business Central 2025 Release Wave 2](../../../videos/UIL8ej7mSKQ.md) (video): "MCP server for Business Central"
 - [Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat](../../../videos/uMKLsKfKPc0.md) (video): "MCP Connector; MCP server connection for Business Central"
-- [Microsoft presents: BC-Bench: Can coding agents solve real-world AL tasks?](../../../videos/yIYUCSK0Bh4.md) (video): "AL-MCP for coding agents; Multi-run metrics for coding agents; Bug fixing agent evaluation"
 - [MCP Server and All Microsoft API's (2026 release wave 1)](../../../videos/zei-IszvYNU.md) (video): "All Microsoft published APIs available in MCP server; Add tools by API group in MCP configuration"
 
 ## Business Central pages and reports

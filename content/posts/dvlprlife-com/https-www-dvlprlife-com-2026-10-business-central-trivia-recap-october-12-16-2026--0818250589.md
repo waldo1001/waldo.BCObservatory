@@ -19,7 +19,7 @@ review:
   at: "2026-10-19T01:10:33.892Z"
   flags: []
 generated:
-  at: "2026-10-19T00:22:27.986Z"
+  at: "2026-11-19T00:15:47.846Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -80,7 +80,7 @@ preview:
   image_h: 630
   site_name: DvlprLife.com
   favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
-  probed_at: "2026-10-19T01:07:58.479Z"
+  probed_at: "2026-11-19T00:52:03.525Z"
 ---
 
 # Business Central Trivia Recap: October 12–16, 2026

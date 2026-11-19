@@ -12,7 +12,7 @@ review:
   at: "2026-11-15T00:50:59.798Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -527,6 +527,7 @@ links:
     - change/bcapps/13417
     - change/bcapps/13547
     - change/bcapps/13642
+    - change/bcapps/13917
     - change/bcapps/13987
     - change/bcapps/8914
     - change/bcapps/9096
@@ -820,6 +821,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13417 [Master]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo.](../../../changes/bcapps/13417.md) (code change): "Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice"
 - [#13547 [29.X]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo](../../../changes/bcapps/13547.md) (code change): "Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice"
 - [#13642 Preserve work descriptions on posted sales prepayment documents](../../../changes/bcapps/13642.md) (code change): "Preserve work descriptions on posted sales prepayment documents"
+- [#13917 [Main][ALL-E] Posting a Sales Credit Memo with a different Unit of Measure does not convert the quantity before updating the originating Sales Order (Blanket Sales Order is updated correctly)](../../../changes/bcapps/13917.md) (code change): "posting a sales credit memo with a different unit of measure failed to convert"
 - [#13987 [Main][All-e]"Specify the VAT registration number that you want to verify" error when entering a VAT Registration No. in the Sales Order if the Customer Card has no VAT Registration No](../../../changes/bcapps/13987.md) (code change): "VAT registration number validation error in Sales Orders where the system incorrectly validated"
 - [#8914 [Master]- Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.Changes](../../../changes/bcapps/8914.md) (code change): "Fixed an issue where editing a sales order line's description would unexpectedly change"
 - [#9096 Align Bill-to Name 2 editability with the other bill-to address fields on sales documents](../../../changes/bcapps/9096.md) (code change): "Bill-to Name 2 field on sales documents is now editable under the same conditions"

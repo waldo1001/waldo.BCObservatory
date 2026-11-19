@@ -12,7 +12,7 @@ review:
   at: "2026-11-16T00:59:57.166Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -141,6 +141,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-export-data-for-extension
     title: Adding data for Extensions
     date: "2021-04-01"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
+    title: Adding Telemetry to Your Business Central Application
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -288,13 +295,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-simple-statements
     title: AL simple statements
     date: "2025-01-24"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-type-conversion-expressions
-    title: AL type conversion in expressions
-    date: "2025-02-07"
     commit: null
     t: null
     quote: null

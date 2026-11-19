@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:27.474Z"
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -148,7 +148,6 @@ links:
     - post/aardvarklabs-blog/2759
     - post/demiliani-com/12927
     - post/olofsimren-com/3585
-    - post/olofsimren-com/3605
     - post/olofsimren-com/3630
     - post/yzhums-com/67462
   guidelines: []
@@ -167,7 +166,7 @@ coverage:
   learn: 15
   code: 0
   video: 9
-  blog: 6
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 2ff560236f34656dcd4015f51cfddab4d5ae4484d1dfe47d2ddcd8d76f8788c0
@@ -216,7 +215,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL](../../../../posts/aardvarklabs-blog/2759.md) (community post): "use Copilot to automatically upgrade raw service technician notes into professional"
 - [Dynamics 365 Business Central: prepare your extensions to support the Copilot Chat.](../../../../posts/demiliani-com/12927.md) (community post): "Extending Dynamics 365 Business Central with Copilot Chat support"
 - [Copilot Inventory Queries](../../../../posts/olofsimren-com/3585.md) (community post): "Built with the Copilot capability tools Microsoft provides for AL"
-- [Copilot in Planning Worksheet](../../../../posts/olofsimren-com/3605.md) (community post): "A Copilot extension for Planning Worksheet in Business Central helps planners"
 - [Copilot in Planning Parameter Worksheet](../../../../posts/olofsimren-com/3630.md) (community post): "uses Copilot powered by Azure OpenAI to suggest inventory planning parameters"
 - [Business Central 2025 wave 2 (BC27): Understand how each Copilot and agent capability is billed (Billing Type)](../../../../posts/yzhums-com/67462.md) (community post): "Developers must manually set the billing type when registering capabilities"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../../../videos/7SSNcUMFtCw.md) (video): "System prompts for AI safety; Model deprecation notifications via telemetry; Azure OpenAI Deployments"

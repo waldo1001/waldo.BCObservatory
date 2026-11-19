@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T00:47:52.902Z"
+  at: "2026-11-19T00:47:08.789Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c4afcdf27f3bd64b05f5ae9995662912b06d06a3b9e148c96731ece38bb47060
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Apps/W1/HybridBC14/app/src/Migration/BC14MigrationValidation.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/HybridBC14/app/src/Migration/BC14MigrationValidation.Interface.al
     title: src/Apps/W1/HybridBC14/app/src/Migration/BC14MigrationValidation.Interface.al (releases/29.x)
     date: null
-    commit: 4f49a1eb5ebb7384620fe1654dd53536c3abca03
+    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "BC14 Migration Validation" in HybridBC14 (Microsoft.DataMigration.BC14Reimplementation). 3 public procedures. Introduced in BC29, still in BC30.
 
-HybridBC14 · Microsoft.DataMigration.BC14Reimplementation · BC29-30 · [source at 4f49a1eb](https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Apps/W1/HybridBC14/app/src/Migration/BC14MigrationValidation.Interface.al) · facts from BC29
+HybridBC14 · Microsoft.DataMigration.BC14Reimplementation · BC29-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/HybridBC14/app/src/Migration/BC14MigrationValidation.Interface.al) · facts from BC29
 
 ## Procedures
 

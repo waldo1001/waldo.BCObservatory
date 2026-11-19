@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:15.779Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -20,15 +20,15 @@ generated:
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace
-    title: App Key Vault Secret Trace Telemetry | Microsoft Docs
-    date: "2025-09-25"
+    title: Analyzing App Key Vault Secret Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-azure-function-integration-trace
     title: Azure Function Integration Telemetry
-    date: "2022-08-16"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -49,7 +49,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview
     title: Monitoring and Analyzing Telemetry
-    date: "2025-06-20"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -122,14 +122,14 @@ The telemetry pages show how to monitor Azure-related operations. The overview c
 
 ## Learn pages
 
-- [App Key Vault Secret Trace Telemetry \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace): Learn about app key vault secret trace telemetry in Business Central
+- [Analyzing App Key Vault Secret Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace): Analyze app key vault telemetry in Business Central to troubleshoot extension initialization failures and secret retrieval errors in Azure Key Vault.
   - App key vault telemetry gathers information about Azure Key Vault secret acquisition by extensions at runtime across initialization and retrieval stages.
   - Initialization stage verifies app key vault provider configuration via TryInitializeFromCurrentApp method and fails if extension lacks key vault specification or credentials are incorrect.
   - Retrieval stage attempts secret retrieval via GetSecret method call and fails if secret name is invalid, key vault doesn't exist, or application lacks read permissions.
   - Status: EventId RT0014 indicates successful key vault initialization with severity level 1; RT0015 indicates initialization failure with severity level 3.
   - Status: EventId RT0016 indicates successful secret retrieval with severity level 1; RT0017 indicates retrieval failure with severity level 3.
   - Telemetry custom dimensions include extension ID, name, publisher, version, key vault URIs, client type, AL object details, and component version.
-- [Azure Function Integration Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-azure-function-integration-trace): Learn about telemetry on Azure Function integrations with Business Central
+- [Azure Function Integration Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-azure-function-integration-trace): Analyze Azure Function integration telemetry in Business Central to monitor successful requests, failed requests, and OAuth authorization failures.
   - Azure Function integration telemetry tracks calls from Business Central to Azure Functions.
   - Request succeeded event has eventId AL0000I74 with HTTP status code.
   - Request failed event has eventId AL0000I7P and includes status code and function host URL.
@@ -138,7 +138,7 @@ The telemetry pages show how to monitor Azure-related operations. The overview c
   - Sample KQL queries help analyze and alert on Azure Function integration failures.
 - [Azure Key Vaults with Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview): Learn how Business Central extensions use Azure Key Vault to securely retrieve secrets in online and on-premises environments.
 - [Integrating with Azure services](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-azure-overview): Learn how to integrate Business Central with Azure services.
-- [Monitoring and Analyzing Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview): Learn how Business Central provides telemetry for each environment, both for online and on-premises environments.
+- [Monitoring and Analyzing Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview): Monitor Business Central environments and extensions with Application Insights telemetry to diagnose errors, analyze performance, and track usage.
   - Telemetry can be enabled at environment level or per-extension level to collect operational data in Azure Application Insights.
   - With Business Central 2020 release wave 2 and later, publishers can set Application Insights connection strings in app.json manifest files.
   - Telemetry data is stored in Application Insights Logs tables called traces and pageViews for analysis via Kusto query language.

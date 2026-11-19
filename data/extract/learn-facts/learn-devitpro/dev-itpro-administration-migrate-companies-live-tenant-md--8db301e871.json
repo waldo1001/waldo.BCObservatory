@@ -1,38 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-companies-live-tenant.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-companies-live-tenant",
-  "title": "Migrating Business Central companies into live tenants",
-  "blob": "8face050fc6e46598f7daffeaa4f80f81f18c2c1",
+  "title": "Migrate Business Central Companies into Live Tenants",
+  "blob": "e624d492de0f84245b84d03aa77d4e6e28c96e31",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "status",
-      "text": "Migrating companies into live tenants after going live is not officially supported and carries risk of data loss."
+      "kind": "limit",
+      "text": "Migrating companies to live tenants after going live is not officially supported and may cause data loss."
     },
     {
       "kind": "fact",
-      "text": "By default, cloud migration replaces permission sets with Intelligent Cloud permissions except for SUPER users."
+      "text": "INTELLIGENT CLOUD permission set replaces system-scope assignments; SUPER and LOCAL assignments are retained."
+    },
+    {
+      "kind": "fact",
+      "text": "Per-database table data created online can be lost if replaced during migration; Tenant Media should be safely migrated incrementally."
     },
     {
       "kind": "limit",
-      "text": "Per-database table data in online tenant is at risk of being replaced by on-premises data."
-    },
-    {
-      "kind": "limit",
-      "text": "Exclude all per-database tables except Tenant Media before replication to minimize data loss risk."
+      "text": "Running upgrade twice on cloud migration must be avoided; it risks updating data twice including per-database data."
     },
     {
       "kind": "fact",
-      "text": "Upgrade tags must not be replaced; contact support immediately if they are."
+      "text": "Modifying data in replicated companies while system is live creates risk; users, jobs, or APIs might change data during migration."
     },
     {
       "kind": "fact",
-      "text": "Avoid running upgrade twice and monitor for business hours conflicts with large upgrades."
+      "text": "No schema changes or extension installations allowed during replication; this causes data integrity issues."
     },
     {
       "kind": "fact",
-      "text": "Reconfigure Dataverse mapping and API integrations after migration."
+      "text": "Dataverse mapping and API integrations must be reconfigured on migrated companies after migration completes."
     }
   ],
   "dropped": 0,
@@ -40,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004442,
-      "pages_in_call": 13
+      "cost_usd": 0.005948,
+      "pages_in_call": 9
     }
   ]
 }

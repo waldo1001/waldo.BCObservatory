@@ -11,7 +11,7 @@ review:
   at: "2026-10-28T11:03:23.872Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -33,8 +33,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1
-    title: Deprecated Features in the application
-    date: "2026-02-20"
+    title: Deprecated features in the application
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -114,7 +114,7 @@ Start with the deprecated features page to see what affects you and when. Then c
 ## More Learn pages
 
 - [Deleted objects in the Base App and first-party apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deleted-objects-25w1): Describes the objects that have been deleted in the W1 and country versions in 2025 release wave 1.
-- [Deprecated Features in the application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1): Describes the features that have been moved, removed, or replaced in the W1 version.
-  - In the observatory: [Codeunit 1799 "Import Config. Package File"](../../../objects/codeunit/1799.md), [Codeunit 1800 "Assisted Company Setup"](../../../objects/codeunit/1800.md), [Codeunit 1805 "Import Config. Package Files"](../../../objects/codeunit/1805.md), [Codeunit 9510 "Document Service Management"](../../../objects/codeunit/9510.md), [Enum 9120 "Company Data Type (Internal)"](../../../objects/enum/9120.md), [Enum 9121 "Company Data Type (Production)"](../../../objects/enum/9121.md)
+- [Deprecated features in the application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1): Describes the features that have been moved, removed, or replaced in the W1 version.
+  - In the observatory: [Page 20504 "Subc. Subcontracting Worksheet"](../../../objects/page/20504.md), [Page 99000886 "Subcontracting Worksheet"](../../../objects/page/99000886.md), [Report 20505 "Subc. Calculate Subcontracts"](../../../objects/report/20505.md), [Report 99001015 "Calculate Subcontracts"](../../../objects/report/99001015.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

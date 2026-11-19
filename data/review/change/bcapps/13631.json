@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13631",
+  "input_hash": "9830aa36d5ae71b1e7a69e1408e1a90141f447f9400e412a83fcfe5276279229",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-19T00:57:46.867Z",
+  "issues": [
+    "The page matches the description and files. The description says no automated tests were added, but the changed files include +276 lines in the ForeignCurrenciesCZL test codeunit, so the test point stands."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019255,
+    "changes_in_call": 6
+  }
+}

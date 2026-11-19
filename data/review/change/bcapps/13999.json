@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/13999",
+  "input_hash": "ae7c5ae977351ae7911456794198464142ff5f269f02a847c500c4840e0de6fb",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-19T00:57:41.676Z",
+  "issues": [
+    "behavior_change was false, but the PR adds two new progress dialogs that users see during interactive exports. The XML output stays the same, but the UI behavior changes."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023995,
+    "changes_in_call": 6
+  }
+}

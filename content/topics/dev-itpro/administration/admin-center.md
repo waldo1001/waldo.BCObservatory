@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -56,7 +56,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_environment_settings
     title: Business Central Admin Center API - Environment Settings
-    date: "2026-11-13"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
@@ -98,7 +98,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_telemetry
     title: Business Central Admin Center API - Telemetry (API)
-    date: "2025-11-17"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -196,7 +196,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments
     title: Managing Production and Sandbox Environments
-    date: "2026-09-28"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
@@ -428,13 +428,14 @@ Start with the Business Central Administration Center page for an overview, then
   - Application Insights telemetry includes most complete list of environment lifecycle events for automation and reporting.
   - If app incompatibility blocks updates, Microsoft sends 10 weeks of emails, then 6 weeks in-product notifications, then force-uninstall after 4-5 months.
 - [Managing Production and Sandbox Environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments): Learn how to use Business Central admin center to manage tenant environments, both sandbox and production.
-  - Business Central environments can link to Power Platform environments of the same type for inherited settings
-  - Limit: Cannot delete a Business Central environment if linked to a Power Platform environment
-  - Copy and Restore operations do not link the target environment to Power Platform as part of the operation
-  - Permissions: Internal admin with access to the admin center and permissions to update Power Platform environment properties required
-  - Only Power Platform environments in Ready state, matching environment type, and not already linked are available for linking
-  - Unlinking disables inherited settings but preserves existing integrations like Power Automate flows
-  - Default update window excludes 8 PM to 6 AM local time; can be changed after environment creation
+  - Environments tab provides overview and management of production and sandbox environments for the tenant.
+  - Business Central environment can link to Power Platform environment of the same type, inheriting selected settings from Power Platform.
+  - Limit: Cannot simultaneously link multiple Business Central environments to single Power Platform environment or vice versa.
+  - Limit: Cannot delete Business Central environment if linked to Power Platform environment.
+  - Copy and Restore operations create target environment not linked to Power Platform as part of operation.
+  - Operations log retained for 180 days, then deleted; environment deletion operations retained for 180 days even after permanent deletion.
+  - Step: Select Environments, then select New on action ribbon to create environment.
+  - Step: Enter environment name, select Production or Sandbox type, specify country, and select application version.
 - [Managing Sessions in the Admin Center](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions): View and cancel active sessions in the Business Central admin center. Restart an environment when canceling sessions doesn't resolve a problem.
   - Sessions page in admin center shows active sessions on each environment and allows canceling selected sessions.
   - Canceling sessions unblocks work when, for example, a long-running report locks data preventing other tasks.
@@ -502,7 +503,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: Cancelling a scheduled PTE update install (Next Major/Next Minor)](../../../posts/yzhums-com/69918.md) (community post): "The Extension Installation Status page has no cancel action for scheduled installs"
 - [Major update of Dynamics 365 Business Central 2026 release wave 1 (BC28) is available for existing customers](../../../posts/yzhums-com/72089.md) (community post): "Customers can schedule and reschedule their update date flexibly through the Business Central Admin Center"
 - [Dynamics 365 Business Central: Microsoft now displays the full name of the Country/Region when creating a new environment](../../../posts/yzhums-com/72784.md) (community post): "Business Central Admin Center now shows full country/region names during environment creation"
-- [Dynamics 365 Business Central: How to navigate directly from the BC admin center to the Power Platform admin center](../../../posts/yzhums-com/75111.md) (community post): "navigate directly from the Business Central admin center to the Power Platform admin center"
+- [Dynamics 365 Business Central: How to navigate directly from the BC admin center to the Power Platform admin center](../../../posts/yzhums-com/75111.md) (community post): "navigate directly from the Business Central admin center to the Power Platform admin center by selecting an environment"
 - [Dynamics 365 Business Central: Database exports are now significantly faster and more reliable](../../../posts/yzhums-com/75370.md) (community post): "Business Central database exports much faster and more reliable"
 - [Major update of Dynamics 365 Business Central 2026 release wave 2 (BC29) is available for existing customers](../../../posts/yzhums-com/76631.md) (community post): "schedule their environment updates through the Business Central Admin Center"
 - [Upgrade Business Central Sandbox to Preview Version](../../../videos/_6bYqpKzL8s.md) (video): "Schedule preview version update from admin center"

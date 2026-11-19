@@ -12,7 +12,7 @@ review:
   at: "2026-11-17T01:01:06.778Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-how-register-new-items
     title: Create item cards for goods or services
-    date: "2026-04-07"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -451,6 +451,7 @@ links:
     - change/bcapps/13855
     - change/bcapps/13898
     - change/bcapps/13926
+    - change/bcapps/14020
     - change/bcapps/9180
     - change/bcapps/9531
     - change/bcapps/9602
@@ -653,6 +654,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13855 [Main][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank](../../../changes/bcapps/13855.md) (code change): "Fixed decimal item attribute lookup to correctly distinguish between blank and zero values"
 - [#13898 [29.x][ALL-E] Item Attributes (Decimal): Unable to Enter 0 After Clearing the Attribute Value to blank](../../../changes/bcapps/13898.md) (code change): "Decimal item attributes now correctly handle entering 0 after clearing a value to blank"
 - [#13926 Bug 648938: Transfer Routes matrix does not indicate configured direct routes](../../../changes/bcapps/13926.md) (code change): "Transfer Routes matrix does not indicate configured direct routes"
+- [#14020 Bug 650215: Direct Transfer route does not populate configured In-Transit Code on transfer order](../../../changes/bcapps/14020.md) (code change): "Transfer orders using routes now correctly apply the configured In-Transit Code"
 - [#9180 Copy record links to posted Phys. Invt. Order and Recording headers](../../../changes/bcapps/9180.md) (code change): "Record links attached to physical inventory order and recording headers are now copied"
 - [#9531 [Master]- Report 152 "Calculate Low Level Code" terminates with error: "Cannot add instance as another with key %1 has already been added." after upgrade to v28.1](../../../changes/bcapps/9531.md) (code change): "items with multiple SKUs sharing the same Production BOM"
 - [#9602 User experience for adding attribute in item categories is wrong](../../../changes/bcapps/9602.md) (code change): "The user experience for adding attributes to item categories was corrected by modifying the item category attributes page"

@@ -1,6 +1,6 @@
 # BC Observatory: Interface objects
 
-198 objects, by id.
+201 objects, by id.
 
 - [Interface "AI Service Name"](ai-service-name.md): System Application
 - [Interface "Allocate Reservation"](allocate-reservation.md): Base Application
@@ -41,6 +41,9 @@
 - [Interface "Documents - Retention Period"](documents-retention-period.md): Base Application
 - [Interface "E-Document"](e-document.md): EDocument
 - [Interface "E-Document Integration"](e-document-integration.md): EDocument, obsolete 26.0
+- [Interface "EA Corp Card Expense Match"](ea-corp-card-expense-match.md): ExpenseAgent
+- [Interface "EA Corp Card Expense Writer"](ea-corp-card-expense-writer.md): ExpenseAgent
+- [Interface "EA Corp Card Provider"](ea-corp-card-provider.md): ExpenseAgent
 - [Interface "Edit in Excel Field Filter v2"](edit-in-excel-field-filter-v2.md): System Application
 - [Interface "Email - OAuth Client v2"](email-oauth-client-v2.md): Email - Outlook REST API
 - [Interface "Email - Outlook API Client v2"](email-outlook-api-client-v2.md): Email - Outlook REST API, obsolete 28.0

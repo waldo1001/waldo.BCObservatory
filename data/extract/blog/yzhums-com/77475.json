@@ -7,10 +7,10 @@
   "words": 274,
   "summary": "Business Central can automatically populate the Company Information page by pulling organization details from Microsoft 365, saving time during initial company setup. This feature uses the Assisted Setup wizard to retrieve billing account information already maintained in Microsoft 365.",
   "key_points": [
-    "Company details can be auto-filled from Microsoft 365 billing account information through Assisted Setup",
-    "Users must verify the automatically populated data before proceeding",
-    "Additional company information like logo and bank details can be manually added after the initial setup",
-    "Business Central companies typically reside in the same Microsoft 365 tenant"
+    "Start from Settings, Assisted setup, Enter company details. You must allow a request to an external service before the Company Setup wizard opens.",
+    "The wizard fills in basic company data taken from the billing account details in the Microsoft 365 admin center, and the user should check it before continuing.",
+    "Later steps of the same wizard let you add a company logo, contact details and bank information.",
+    "The Company Information data is used on documents such as invoice headers, and Business Central usually sits in the same tenant as Microsoft 365."
   ],
   "systems": [
     "administration",
@@ -34,7 +34,6 @@
   ],
   "features": [
     "Assisted Setup",
-    "Company Details Import",
     "Microsoft 365 Integration"
   ],
   "versions": [],

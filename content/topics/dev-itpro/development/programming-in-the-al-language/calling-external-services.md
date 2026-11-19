@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -20,7 +20,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-azure-function-integration-trace
     title: Azure Function Integration Telemetry
-    date: "2022-08-16"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -140,7 +140,7 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 
 ## Learn pages
 
-- [Azure Function Integration Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-azure-function-integration-trace): Learn about telemetry on Azure Function integrations with Business Central
+- [Azure Function Integration Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-azure-function-integration-trace): Analyze Azure Function integration telemetry in Business Central to monitor successful requests, failed requests, and OAuth authorization failures.
   - Azure Function integration telemetry tracks calls from Business Central to Azure Functions.
   - Request succeeded event has eventId AL0000I74 with HTTP status code.
   - Request failed event has eventId AL0000I7P and includes status code and function host URL.

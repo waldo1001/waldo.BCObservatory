@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:53:53.706Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -140,7 +140,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-events-windows-event-log
     title: Monitoring Business Central Server Events in Event Viewer
-    date: "2021-06-26"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -153,8 +153,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-long-running-sql-queries-event-log
-    title: Monitoring Long Running SQL Queries to the Event Log
-    date: "2021-04-01"
+    title: Monitoring Long-Running SQL Queries in the Event Log
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -224,7 +224,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-query-performance-using-query-store
     title: "Troubleshooting: Using Query Store to Monitor Query Performance"
-    date: "2021-04-01"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -272,8 +272,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-long-running-queries-using-event-log
-    title: Using Event Log to Monitor Long Running SQL Queries
-    date: "2021-04-01"
+    title: Using Event Log to Monitor Long-Running SQL Queries
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null

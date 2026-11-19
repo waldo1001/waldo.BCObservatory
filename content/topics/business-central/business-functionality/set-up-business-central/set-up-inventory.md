@@ -2,26 +2,26 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-inventory
 type: topic
 title: Set up inventory
-summary: "Inventory setup in Business Central: general inventory parameters, item cards and types, units of measure, categories, pictures, locations, stockkeeping units and responsibility centers. It answers how to configure and maintain the master data that inventory runs on."
+summary: "Inventory setup in Business Central: general inventory parameters, item cards and item types, copying items, units of measure, SKUs, locations, categories, item pictures and responsibility centers. It answers how to configure inventory and register items before trading."
 tier: official
 language: en
 system: inventory
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:19:44.974Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-26T08:22:02.554Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 4a9447bc81c51e01009f342c71b5fd8e96065ef6e92a92b65f9c2035c942656f
+  input_hash: 492d0ff6673c218af637b3ecb5df9994f01a41341da7ab8342273da3ba1bb656
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-how-register-new-items
     title: Create item cards for goods or services
-    date: "2026-04-07"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -188,28 +188,28 @@ narrative: generated
 
 # Set up inventory
 
-> Inventory setup in Business Central: general inventory parameters, item cards and types, units of measure, categories, pictures, locations, stockkeeping units and responsibility centers. It answers how to configure and maintain the master data that inventory runs on.
+> Inventory setup in Business Central: general inventory parameters, item cards and item types, copying items, units of measure, SKUs, locations, categories, item pictures and responsibility centers. It answers how to configure inventory and register items before trading.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up inventory · tier official · system inventory · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up inventory · tier official · system inventory · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the setup work that prepares Business Central to manage inventory. It starts with company-wide policies on the Inventory Setup page, such as automatic cost posting, cost adjustment, average cost calculation and the default costing method. It then moves to the master data: items, units of measure, categories, locations and stockkeeping units.
+This section covers the setup work needed before you manage inventory. It starts with company-wide policies on the Inventory Setup page, such as automatic cost posting, cost adjustment, the default costing method and concurrent posting. The "Setting up inventory" page gives the overview and links the other tasks.
 
-For items, one page explains the three item types (Inventory, Non-Inventory, Service) and another covers creating item cards, including costing methods, pricing, replenishment, variants and substitutions. Further pages show how to copy existing items, organize items in categories with attributes, and bulk import item pictures from a ZIP file.
+Most pages deal with items. You can learn the three item types (Inventory, Non-Inventory, Service), create item cards, and copy existing items to save time. You can also set up units of measure, organize items in categories with attributes, and bulk import pictures from a ZIP file. Item cards also cover templates, substitutions, pricing, replenishment and vendors.
 
-Location-related pages cover locations with bins, zones and transfer routes, stockkeeping units for location- and variant-specific data, and responsibility centers for administrative units assigned to users. Start with "Setting up inventory" for the overview, then Inventory Setup, item types and item cards.
+The remaining pages cover where and how inventory is held. Locations define warehouses and distribution centers with bins, zones and transfer routes. Stockkeeping units hold variant and location-specific data. Responsibility centers split administration across users and locations. A sensible order is: general inventory setup, locations, item types and item cards, then the optional pages.
 
 ## Key points
 
-- The Inventory Setup page sets Automatic Cost Posting, Automatic Cost Adjustment, Expected Cost Posting to G/L, Average Cost Calculation, Default Costing Method and concurrent posting.
-- Items have one of three types: Inventory, Non-Inventory or Service, and the type determines which costing, tracking and other features apply.
-- Item cards cover costing methods, pricing and discounts, replenishment, variants, substitutions, vendor data and item templates.
+- Inventory Setup page sets automatic cost posting, automatic cost adjustment, expected cost posting to G/L, average cost calculation, default costing method and concurrent inventory posting.
+- Item types are Inventory, Non-Inventory and Service, and each supports different sales, purchasing and inventory features.
+- Item cards cover costing methods, templates, substitutions, special pricing and discounts, replenishment system, vendors and warehouse settings.
 - The Copy Item function creates new items from existing ones, using number series for item numbers.
-- Item units of measure include a base unit, alternate units, translations, rounding precision and defaults for sales and purchasing.
-- Locations support bins (bin mandatory toggle, bin policies), zones, transfer routes, direct transfer and default dimensions.
-- Stockkeeping units hold location and variant specific data, including production BOM and routing overrides and manufacturing policy.
-- Responsibility centers act like cost or profit centers, can be assigned to users with a default, and filter sales, purchase and service documents.
+- Units of measure include a base unit, alternate units, translations, rounding precision and default sales and purchase units.
+- Locations support bins (bin mandatory toggle and bin policies), zones, transfer routes, direct transfer and default dimensions.
+- Stockkeeping units manage variants and location-specific data, including production BOM override, routing override and manufacturing policy.
+- Item pictures can be imported in bulk by naming files with item numbers and zipping them, then using the Import Item Pictures page.
 
 ## Learn pages
 

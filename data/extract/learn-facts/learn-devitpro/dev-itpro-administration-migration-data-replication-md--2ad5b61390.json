@@ -1,47 +1,47 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-data-replication.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication",
-  "title": "Data replication overview",
-  "blob": "023afd7e60da7f613f413abee7751f3ca43c1cee",
+  "title": "Cloud Migration Data Replication Overview",
+  "blob": "ce11bb417b93f17ca57d06124532150b41a7d8ea",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "fact",
-      "text": "Data replication copies on-premises data to Business Central online as part of cloud migration."
+      "kind": "step",
+      "text": "Select Run data replication on Cloud Migration Management page to start data replication."
     },
     {
       "kind": "fact",
-      "text": "Large tables use flow with compression to Azure BLOB storage then decompression to online database."
+      "text": "Large tables are copied via self-hosted runtime to Azure Blob Storage then to online database; smaller tables are serialized into JSON first."
     },
     {
       "kind": "fact",
-      "text": "Smaller tables are optimized by serializing, compressing, and merging into single table before storage."
+      "text": "Azure Blob Storage acts as temporary regional store so data does not move outside the region."
     },
     {
       "kind": "fact",
-      "text": "When replication completes, you initialize non-initialized companies to ensure accessibility."
+      "text": "When replication completes, you are prompted to initialize noninitialized companies to ensure they are accessible and functional."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Do not use a company until it is initialized, as setup data could be missing."
     },
     {
       "kind": "fact",
-      "text": "First replication is full; subsequent runs replicate only changed data using SQL change tracking."
-    },
-    {
-      "kind": "limit",
-      "text": "If change tracking retention expires, full replication of affected tables occurs again."
+      "text": "Subsequent replication runs use SQL change tracking to replicate only data that changed since last replication."
     },
     {
       "kind": "fact",
-      "text": "Migration log displays replication results after process completes."
+      "text": "If change tracking retention period expires, the entire table is fully replicated again."
     }
   ],
-  "dropped": 1,
+  "dropped": 0,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005499,
-      "pages_in_call": 11
+      "cost_usd": 0.004023,
+      "pages_in_call": 10
     }
   ]
 }

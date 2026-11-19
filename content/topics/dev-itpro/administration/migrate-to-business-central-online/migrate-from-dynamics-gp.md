@@ -2,33 +2,33 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp
 type: topic
 title: Migrate from Dynamics GP
-summary: "Migrating on-premises Dynamics GP to Business Central online: the process, preparation, cloud migration setup, data replication, data upgrade and final completion steps. It answers questions about phases, prerequisites, configuration, monitoring, validation, and post-migration users and permissions."
+summary: "Migration of Dynamics GP on-premises data to Business Central online: overview, preparation, cloud migration setup, data replication, data upgrade and completion steps. It answers questions about how to plan, configure, run, validate and finish a GP cloud migration."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T13:37:24.317Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: bf87e774b6710b1b51998d07fb32ac0da1dc3119e497fef0747c2d717e01ffdd
+  input_hash: 9f7f85efa72b63da20b442a361c9a983aca3b94e3083ab0f11814d84fa825353
 evidence:
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-gp
-    title: Cloud Migration Prerequisites for Dynamics GP
-    date: "2024-02-29"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-overview
+    title: Business Central Cloud Migration Setup Overview
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-overview
-    title: Cloud migration setup overview
-    date: "2024-12-13"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication
+    title: Cloud Migration Data Replication Overview
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -41,85 +41,85 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-gp
-    title: Complete cloud migration for Dynamics GP
-    date: "2024-02-29"
+    title: Complete Dynamics GP Migration to Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-configure-companies
-    title: Configure Dynamics GP company migration
-    date: "2026-01-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication
-    title: Data replication overview
-    date: "2023-01-15"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-gp
-    title: Managing Dynamics GP cloud migration
-    date: "2024-02-29"
+    title: Dynamics GP Company Migration Configuration
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp
-    title: Migrate Dynamics GP data to the cloud
-    date: "2026-01-14"
+    title: Dynamics GP Data Migration to Business Central Online
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-gp
+    title: Dynamics GP Migration Prerequisites for Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-overview
-    title: Migrate on-premises GP data to Business Central online overview
-    date: "2024-12-13"
+    title: Dynamics GP Migration to Business Central Online
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-validation
-    title: Migration validation overview
-    date: "2025-01-09"
+    title: Dynamics GP Migration Validation Overview
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-gp
+    title: Manage Dynamics GP Cloud Migration in Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare-gp
-    title: Prepare and plan for cloud migration from Dynamics GP
-    date: "2024-02-19"
+    title: Plan Dynamics GP Cloud Migration to Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-retain-permissions
-    title: Retain permissions
-    date: "2024-02-29"
+    title: Retain User Permissions During Cloud Migration
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data-replication-run
-    title: Run and manage data replication
-    date: "2024-12-20"
+    title: Run and Manage Cloud Migration Data Replication
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-gp
-    title: Run cloud migration setup for Dynamics GP migration
-    date: "2024-02-29"
+    title: Set Up Dynamics GP Cloud Migration to Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade-gp
-    title: Upgrade data for Dynamics GP cloud migration
-    date: "2024-02-29"
+    title: Upgrade Dynamics GP Data During Cloud Migration
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -170,27 +170,28 @@ narrative: generated
 
 # Migrate from Dynamics GP
 
-> Migrating on-premises Dynamics GP to Business Central online: the process, preparation, cloud migration setup, data replication, data upgrade and final completion steps. It answers questions about phases, prerequisites, configuration, monitoring, validation, and post-migration users and permissions.
+> Migration of Dynamics GP on-premises data to Business Central online: overview, preparation, cloud migration setup, data replication, data upgrade and completion steps. It answers questions about how to plan, configure, run, validate and finish a GP cloud migration.
 
-Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Dynamics GP · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Dynamics GP · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section walks through moving Dynamics GP data into Business Central online. It follows the order of the migration: an overview of the process and migrated data, preparation and planning, setting up cloud migration, replicating data, upgrading data, and completing the migration.
+This section covers moving Dynamics GP on-premises data to Business Central online through cloud migration. It follows the migration in order: an overview of the process and data mapping, preparation (prerequisites and planning), setup of the cloud migration connection and GP settings, replication of data, and then upgrade and completion.
 
-Start with the Overview to understand the phases, which GP data moves, and how everyday GP work maps to Business Central. Then use Prepare to check prerequisites for the destination environment, the source system and the self-hosted integration runtime, and to plan scope and approach. Set up cloud migration covers the connection and pipeline, running the setup, GP company migration settings, and retaining user permissions.
+Start with the Overview subtopic to understand the process, which GP data is migrated and how GP work processes compare to Business Central. Then use Prepare to check tenant, permissions, apps, SQL Server and integration runtime requirements, and to plan companies, data and downtime. Set up cloud migration comes next, followed by Replicate data for running, monitoring, pausing, rerunning and validating runs.
 
-Replicate data explains how to run and manage replication from the Cloud Migration Management page and how to validate migrated data. The two pages in this section cover the later steps. Data upgrade transforms GP tables into Business Central tables, and you review migration errors in the operations log. Completing the migration means validating data, disabling cloud migration, and setting up user accounts and permission sets in Business Central online.
+The two pages directly in this hub cover the last stages. After replication finishes, data upgrade transforms GP tables into Business Central tables in background tasks. To complete the migration, you validate the data, disable cloud migration and set up users and permissions in the target environment.
 
 ## Key points
 
-- Source is on-premises Dynamics GP and the target is Business Central online.
-- Prepare covers prerequisites for the destination, the source system and the self-hosted integration runtime.
-- Planning covers migration strategy, the migration assessment tool, data scope, and an approach with backup, replication and upgrade steps.
-- Setup involves the connection and pipeline, running the setup, GP company migration settings, and retaining user permissions.
-- Replication is run and managed from the Cloud Migration Management page, followed by validation of migrated data.
-- Data upgrade transforms Dynamics GP tables into Business Central tables; errors can be checked in the operations log.
-- Completion means checking validation status, disabling cloud migration, and setting up user accounts and permission sets.
+- Cloud migration moves Dynamics GP on-premises data to Business Central online.
+- Prepare covers prerequisites (tenant, permissions, apps, source and SQL Server requirements, integration runtime) and planning (readiness assessment, choosing companies and data, minimizing downtime).
+- Setup involves the Cloud Migration Setup connection and pipelines, GP company and module settings, and how user permissions are handled.
+- Replication runs can be run, monitored, paused and rerun, and the migrated data can be validated.
+- Data upgrade runs after replication and starts automatically, transforming GP tables into Business Central tables in background tasks.
+- If the upgrade has errors, you can investigate them and recover failed companies, and test the results with validation.
+- To complete the migration, use Run All Validation and check Validation Status, then disable cloud migration.
+- After completion, set up user accounts and permissions in the target environment.
 
 ## Subtopics
 
@@ -201,25 +202,23 @@ Replicate data explains how to run and manage replication from the Cloud Migrati
 
 ## More Learn pages
 
-- [Complete cloud migration for Dynamics GP](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-gp): This article describes the task you do to complete the data migration from Dynamics GP to online.
-  - Step: Validate migrated data by running validation tests from Cloud Migration Management page.
-  - Step: Disable cloud migration in Cloud Migration Setup once desired data migrated.
-  - Each migration run overwrites outstanding documents and changes made in target company.
-  - When cloud migration disabled, setup deleted but integration runtime remains.
-  - Integration runtime cloud registration auto-cleaned after couple weeks of non-use.
-  - Step: Set up user accounts in Microsoft 365 tenant with Business Central licenses.
-  - Step: Create Business Central user accounts associated with Microsoft 365 email addresses.
-  - Step: Assign proper permission sets to users in Business Central.
+- [Complete Dynamics GP Migration to Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-gp): Learn how to validate Dynamics GP migration results, disable cloud migration, and set up Business Central online users and permissions before going live.
+  - Step: Validate migrated data by running migration validation tests from Cloud Migration Management page.
+  - Step: Open Cloud Migration Management page and select Disable Cloud Migration with SUPER permission set.
+  - Step: On Cloud Ready Checklist page, turn on I have read and understand the recommended steps switch, then select Disable Cloud Migration.
+  - Integration runtime remains installed after disabling cloud migration and can be reused for future migrations.
+  - Step: Set up users by creating Microsoft 365 accounts with Business Central licenses for each user.
+  - Step: Create Business Central accounts associated with Microsoft 365 email and assign proper permissions to data.
+  - Dynamics GP user accounts and permissions are not migrated to Business Central online.
   - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../objects/page/40063.md), [Page 4020 "Post Migration Checklist"](../../../../objects/page/4020.md)
-- [Upgrade data for Dynamics GP cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade-gp): This article explains the process for running the data upgrade as part of Dynamics GP cloud migration.
-  - Prerequisite: Data replication must be completed before running data upgrade.
-  - Data upgrade transforms Dynamics GP tables into Business Central tables.
-  - All client connections are terminated during data upgrade; reconnection not possible until upgrade completes.
-  - Hotfixes cannot be applied and scheduled tasks cannot run during upgrade.
-  - Step: Inform active Business Central users to sign out before starting upgrade.
-  - Step: Open Cloud Migration Management and select Run data upgrade.
-  - Check Migration Errors FactBox if upgrade fails to view detailed error information.
-  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../objects/page/40063.md)
+- [Upgrade Dynamics GP Data During Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade-gp): Learn how Dynamics GP data is transformed into Business Central data, control automatic migration, monitor company progress, and handle upgrade failures.
+  - Prerequisite: Run data replication on companies to migrate before starting data upgrade.
+  - Prerequisite: Have the SUPER permission set and complete company setup and resolve replication errors.
+  - Dynamics GP migration transforms data for individual companies in background tasks without disconnecting users.
+  - On GP Migration Settings, Run migration after replication is on by default and starts transformation automatically.
+  - Step: Open Cloud Migration Management page, select latest successful replication run, then select Run Data Upgrade Now.
+  - Limit: Failed Dynamics GP company upgrade cannot be restarted by selecting Run Data Upgrade Now again; must delete company and migrate again.
+  - In the observatory: [Page 1799 "Data Migration Overview"](../../../../objects/page/1799.md), [Page 40063 "Cloud Migration Management"](../../../../objects/page/40063.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
@@ -227,7 +226,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#14006 GP - Better item transaction duplicate handling](../../../../changes/bcapps/14006.md) (code change): "GP migration now correctly handles duplicate inventory transactions when migrating multiple lot number receipt lines"
+- [#14006 GP - Better item transaction duplicate handling](../../../../changes/bcapps/14006.md) (code change): "Fixes duplicate records during GP migration when inventory transactions contain multiple lot"
 - [GP Assessment Tool - Optimize Your Migration to Dynamics 365 Business Central (2024)](../../../../videos/2430rfEywuI.md) (video): "migration planning; cloud migration; gp to business central; assessment report"
 - [Dynamics GP Cloud Migration - Moving to Business Central](../../../../videos/Ry9QvV6D7lg.md) (video): "Dynamics GP Cloud Migration - Moving to Business Central"
 

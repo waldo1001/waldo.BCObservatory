@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,6 +127,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/13757
+    - change/bcapps/13965
 learn_toc_path:
   - Business functionality
   - Manufacturing
@@ -195,6 +198,13 @@ Start with the page for the report you are using and check whether it names a re
 - [Work Center List Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000759): Get a list of work center setup in your company, which can help you manage and schedule production activities efficiently.
 - [Work Center Load Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000783): Analyze the load on a work center over specified periods, comparing allocated production order time with effective capacity in Business Central.
 - [Work Center Load/Bar Report in Business Central](https://learn.microsoft.com/dynamics365/business-central/reports/report-99000785): Get a list of work centers that are overloaded according to the plan, with bars showing the load compared with effective capacity in Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#13757 Fix stale report filename captions and cover language resolution](../../../../../changes/bcapps/13757.md) (code change): "Fixed a bug where the report filename resolver incorrectly returned true for nonexistent reports"
+- [#13965 Bug 658846: [29.x]Partner feedback: Mark "Custom Report Layouts" page caption with '(Obsoleted)' and also add a notification OnOpen](../../../../../changes/bcapps/13965.md) (code change): "Custom Report Layouts page caption now includes an '(Obsoleted)' marker"
 
 ## Business Central pages and reports
 

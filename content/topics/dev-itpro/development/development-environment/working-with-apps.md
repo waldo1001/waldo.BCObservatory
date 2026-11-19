@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,6 +67,7 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/duiliotacconi-com/1748
     - post/yzhums-com/72539
   guidelines: []
 learn_toc_path:
@@ -80,7 +81,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 80a2552c73aca59778fdb9e568092650f5d14f09ce0e7c5bb5b34b4b7e198dca
@@ -124,6 +125,7 @@ Start with the app identity page to understand what app.json fields mean and whe
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Cloud Customer Management System (CCMS): to avoid reinventing the wheel](../../../../posts/duiliotacconi-com/1748.md) (community post): "CCMS is a free, open-source Business Central app written in AL for managing partners' cloud customer tenants"
 - [Dynamics 365 Business Central: How to display/add “Sent To” on the Sent Emails (8883, List) page?](../../../../posts/yzhums-com/72539.md) (community post): "RecordRef and FieldRef on the Sent Email table"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

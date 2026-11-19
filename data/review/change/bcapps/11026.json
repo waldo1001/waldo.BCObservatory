@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11026",
+  "input_hash": "d4041934c0290b9bf4832e5bb85a6bab94242df1192853ed25869c49a23ccbe5",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-19T00:57:41.676Z",
+  "issues": [
+    "Matches the description: the duplicated VAT Difference term is removed, Reset is added before the event, W1 and NA layers are patched, and tests are mirrored into the APAC, ES and IT layers."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023995,
+    "changes_in_call": 6
+  }
+}

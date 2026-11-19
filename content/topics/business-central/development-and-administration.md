@@ -12,7 +12,7 @@ review:
   at: "2026-11-16T00:59:59.321Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -62,8 +62,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises
-    title: Business Central on-premises to online migration overview
-    date: "2026-05-23"
+    title: Business Central On-Premises to Online Migration Overview
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data
+    title: Business Central Online Data Migration Overview
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -167,8 +174,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1
-    title: Deprecated Features in the application
-    date: "2026-02-20"
+    title: Deprecated features in the application
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -190,6 +197,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/ui-extensions-essential-business-insights
     title: Display actionable insights in Role Centers
     date: "2023-12-12"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp
+    title: Dynamics GP Data Migration to Business Central Online
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -257,6 +271,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage
+    title: Manage Business Central Cloud Migration
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-manage-data-encryption
     title: Manage Data Encryption in Business Central
     date: "2026-11-12"
@@ -274,27 +295,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/admin-sync-master-data
     title: Manage master data synchronization
     date: "2026-09-26"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-manage-documents
-    title: Manage storage by deleting documents or compressing data
-    date: "2026-09-03"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-manage-user-settings-preferences
-    title: Manage user settings and preferences as the administrator
-    date: "2024-07-27"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-users-profiles-roles
-    title: Manage users and roles
-    date: "2026-06-17"
     commit: null
     t: null
     quote: null
@@ -774,8 +774,8 @@ Developers should start with the page on developing extensions in AL, which expl
   - Partners can log in as delegated administrator to set up and troubleshoot customer environments.
   - Switching partners requires removing reseller relationship, disabling delegated admin, clearing partner settings, and adding new partner.
 - [Configure Copilot and agent capabilities](https://learn.microsoft.com/dynamics365/business-central/enable-ai): Learn how to control Copilot and agent features in Business Central, including deactivation, user access, and data governance controls.
-- [Deprecated Features in the application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1): Describes the features that have been moved, removed, or replaced in the W1 version.
-  - In the observatory: [Codeunit 1799 "Import Config. Package File"](../../objects/codeunit/1799.md), [Codeunit 1800 "Assisted Company Setup"](../../objects/codeunit/1800.md), [Codeunit 1805 "Import Config. Package Files"](../../objects/codeunit/1805.md), [Codeunit 9510 "Document Service Management"](../../objects/codeunit/9510.md), [Enum 9120 "Company Data Type (Internal)"](../../objects/enum/9120.md), [Enum 9121 "Company Data Type (Production)"](../../objects/enum/9121.md)
+- [Deprecated features in the application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1): Describes the features that have been moved, removed, or replaced in the W1 version.
+  - In the observatory: [Page 20504 "Subc. Subcontracting Worksheet"](../../objects/page/20504.md), [Page 99000886 "Subcontracting Worksheet"](../../objects/page/99000886.md), [Report 20505 "Subc. Calculate Subcontracts"](../../objects/report/20505.md), [Report 99001015 "Calculate Subcontracts"](../../objects/report/99001015.md)
 - [Developing extensions in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview): Overview of the development experience for building extensions using the AL language.
 - [Development and administration for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/): Learn how to extend, manage, and customize Dynamics 365 Business Central.
 - [Performance Overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-overview): Learn different ways to improve the performance of Business Central as a functional consultant, a developer, or an administrator.

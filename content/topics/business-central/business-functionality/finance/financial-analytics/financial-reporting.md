@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -34,15 +34,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-lifecycle-trace
-    title: Analyzing financial report lifecycle trace telemetry
-    date: "2025-03-20"
+    title: Analyzing Financial Report Lifecycle Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-usage-trace
-    title: Analyzing financial report usage trace telemetry
-    date: "2025-03-20"
+    title: Analyzing Financial Report Usage Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -321,14 +321,14 @@ Start with "Primary capabilities of financial reporting", then "Build financial 
 - [Analyze data by dimensions](https://learn.microsoft.com/dynamics365/business-central/bi-how-analyze-data-dimension): This article describes how you can analyze business data by dimensions to gain greater insight into your business.
   - In the observatory: [Page 554 "Analysis by Dimensions"](../../../../../objects/page/554.md)
 - [Analyze data for some or all values of a dimension](https://learn.microsoft.com/dynamics365/business-central/bi-analyze-data-dimension-perspective): Learn how to set up dimension perspectives that let you analyze data for all dimension values in one financial report.
-- [Analyzing financial report lifecycle trace telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-lifecycle-trace): Learn about the telemetry for financial report lifecycle telemetry in Azure Application Insights.
+- [Analyzing Financial Report Lifecycle Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-lifecycle-trace): Analyze financial report lifecycle telemetry in Business Central to track changes, copies, imports, and exports of report, row, and column definitions.
   - Telemetry tracks 18 lifecycle operations on financial reporting definitions including creation, modification, copying, export, import and deletion of row, column and report definitions.
   - Each operation type has a unique event ID: row definition created (AL0000O81), modified (AL0000O82), deleted (AL0000O84), column definition created (AL0000O85), modified (AL0000O86), deleted…
   - Copy operations generate event IDs AL0000OKV for row definitions, AL0000OKW for column definitions, and AL0000OKX for report definitions.
   - Import and export operations share event IDs: AL0000ONP for row definitions, AL0000ONQ for column definitions, AL0000ONR for report definitions.
   - All telemetry events include user ID, tenant ID, environment name, environment type and company name dimensions to identify who performed the operation and where.
   - Telemetry captures the specific code of the definition being operated on through alRowDefinitionCode, alColumnDefinitionCode or alReportDefinitionCode custom dimensions.
-- [Analyzing financial report usage trace telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-usage-trace): Learn about the telemetry for financial report usage telemetry in Azure Application Insights.
+- [Analyzing Financial Report Usage Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-usage-trace): Analyze financial report usage telemetry in Business Central to identify reports viewed on-screen or run as reports, including their definition codes.
   - Financial report usage telemetry tracks when users run reports on-screen and from the request page, capturing who ran the report and which definitions were used.
   - On-screen report execution has event ID AL0000OKU while request page execution has event ID AL0000O76.
   - All usage events include report, row and column definition codes plus user ID, tenant ID, environment name, environment type and company name.

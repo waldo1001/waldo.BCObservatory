@@ -1,34 +1,26 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-data.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data",
-  "title": "Migrate on-premises data to Business Central online",
-  "blob": "186f6e7c8d173400e30a0d2f83a4cb12ff70049f",
+  "title": "Business Central Online Data Migration Overview",
+  "blob": "2c67610b44e30385e1d721f5c10297e0856fe440",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "status",
-      "text": "Generally available."
+      "kind": "fact",
+      "text": "Supported migration paths include Business Central on-premises, Dynamics GP, Dynamics SL, and Dynamics NAV to online."
     },
     {
       "kind": "fact",
-      "text": "Customers from non-SQL sources can use configuration packages to migrate to on-premises first, then to online."
+      "text": "Non-SQL source data can be migrated using configuration packages and templates to on-premises first."
     },
     {
       "kind": "fact",
-      "text": "QuickBooks customers can use Microsoft apps to migrate directly to Business Central online."
+      "text": "QuickBooks customers can use Microsoft apps to migrate to Business Central online."
     },
     {
       "kind": "fact",
-      "text": "Migration paths exist for Business Central, Dynamics GP, Dynamics SL, and Dynamics NAV."
-    },
-    {
-      "kind": "fact",
-      "text": "Business Central 14 reimplementation tool migrates only master data, opening balances, and setup."
-    },
-    {
-      "kind": "fact",
-      "text": "Custom migration from any SQL source is supported."
+      "text": "Business Central 14 reimplementation tool migrates selected business data for fresh start without legacy customizations."
     }
   ],
   "dropped": 0,
@@ -36,8 +28,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005651,
-      "pages_in_call": 10
+      "cost_usd": 0.005948,
+      "pages_in_call": 9
     }
   ]
 }

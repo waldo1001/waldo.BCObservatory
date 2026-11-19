@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/14020",
+  "input_hash": "2eb43b7ff4c7eb68739812494a7b5257f39b4ab4c02762d05417d37056ea55df",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-19T00:57:42.856Z",
+  "issues": [
+    "Key point 1 leaves out that the In-Transit Code is now applied for Shipment and Receipt routes, which is the core fix.",
+    "Key point 4 misstates the mechanism. The in-memory header is supplied to the line's cached header before location validation; it is not that receipt validation receives it."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018636,
+    "changes_in_call": 6
+  }
+}

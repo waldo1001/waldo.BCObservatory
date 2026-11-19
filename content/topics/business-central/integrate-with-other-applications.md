@@ -11,7 +11,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection
     title: Connect to Microsoft Dataverse
-    date: "2025-06-10"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -160,7 +160,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-common-data-service
     title: Integrate with Microsoft Dataverse via data sync
-    date: "2026-06-17"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null

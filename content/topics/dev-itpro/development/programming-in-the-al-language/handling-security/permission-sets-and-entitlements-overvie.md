@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/handling-security/permission-sets-and-entitlements-overvie
 type: topic
 title: Permission sets and entitlements overview
-summary: "Permission sets and entitlements in Business Central AL development: defining permission set and entitlement objects, composing and extending permission sets, setting object permissions, inherent permissions, exporting to XML, upgrading from legacy permissions, and analyzing permission telemetry."
+summary: "Permission sets and entitlements in Business Central AL development: how to define, compose, extend, export and upgrade permission sets, how entitlements tie licenses to objects, and how to use inherent permissions. It also covers permission-related telemetry. Use it for questions on AL permission objects and on diagnosing permission errors."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:18:55.702Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 778674d463cc046fec6980997353cfb7039301a7b757fc4d3e1224ae11b04f64
+  input_hash: a0139fde23bbbda7f1f192751153a6f88d0811dd65daee4eae9f720d0ce30e41
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_permissionset_get
@@ -28,21 +28,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace
     title: Analyzing Permission Changes Trace Telemetry
-    date: "2021-04-01"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-dependency-cycle-trace
-    title: Analyzing permission dependency cycle trace telemetry
-    date: "2023-12-20"
+    title: Analyzing Permission Dependency Cycle Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace
     title: Analyzing Permission Error Trace Telemetry
-    date: "2022-07-27"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -168,47 +168,48 @@ narrative: generated
 
 # Permission sets and entitlements overview
 
-> Permission sets and entitlements in Business Central AL development: defining permission set and entitlement objects, composing and extending permission sets, setting object permissions, inherent permissions, exporting to XML, upgrading from legacy permissions, and analyzing permission telemetry.
+> Permission sets and entitlements in Business Central AL development: how to define, compose, extend, export and upgrade permission sets, how entitlements tie licenses to objects, and how to use inherent permissions. It also covers permission-related telemetry. Use it for questions on AL permission objects and on diagnosing permission errors.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Handling security](../handling-security.md) > Permission sets and entitlements overview · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Handling security](../handling-security.md) > Permission sets and entitlements overview · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This area explains how access is controlled in Business Central from the AL developer side. Entitlements define what a customer's license or Microsoft Entra role allows. Permissions are assigned by administrators, and permission sets group them logically. The overview page "Entitlements and permission sets overview" explains these differences and covers upgrade considerations from versions before 18.0.
+This section covers the AL-based security model. Entitlements define which objects a customer can use based on purchased licenses or Microsoft Entra roles. Permissions are assigned by administrators, and permission sets group them logically. The pages explain the concepts and the AL objects: permission set, permission set extension and entitlement.
 
-The authoring pages cover the Permission set object, the Permission Set Extension object, composing sets from other sets, permissions on objects, inherent permissions, and the Entitlement object. Two further pages cover exporting permission sets to XML and upgrading from legacy data-based permissions to AL object-based permissions.
+Several pages cover how to build permissions. You assign read, insert, modify, delete and execute permissions on objects, directly or indirectly. You can compose sets from other sets with included and excluded permission sets. Extensions can add permissions to existing sets. Inherent permissions give specific AL methods temporary elevated access without changing user permission sets. Other pages cover exporting permission sets to XML and upgrading from legacy data-based permissions to AL object-based permissions.
 
-Three telemetry pages cover auditing and troubleshooting: permission changes, permission errors, and permission dependency cycles. Start with the overview page, then read the Permission set object and Permissions on Objects pages. Use the telemetry pages when diagnosing problems.
+Three telemetry pages cover monitoring: permission changes, permission errors and dependency cycles. Start with "Entitlements and permission sets overview" for the concepts, then "Permission set object" and "Permissions on Objects" for practical authoring.
 
 ## Key points
 
-- Entitlements give license-based access, permissions are assigned by administrators, and permission sets are logical groups of permissions.
-- Permission set objects use the Assignable, Permissions, IncludedPermissionSets and ExcludedPermissionSets properties. Sets can be composed hierarchically, and some can be nonassignable.
-- Permission set extension objects add permissions to existing sets, and the permissions are applied automatically when the extension is installed.
-- Permissions on objects cover read, insert, modify, delete and execute, with direct and indirect permissions, abbreviations and wildcards.
-- The inherentpermissions attribute gives specific AL methods or events temporary elevated permissions without changing user permission sets.
-- Entitlement objects (2023 release wave 2) support role-based, per-user plan, unlicensed, Microsoft Entra group and application scope entitlements, and support Marketplace app monetization.
-- Permission sets can be exported to XML and packaged into extensions. Visual Studio Code can generate permission set XML with default permissions for extension objects.
-- Upgrading from legacy data-based permissions to AL object-based permissions involves identifying customizations and creating new Permission Set and Permission Set Extension objects (versions 18 and 19).
+- Entitlements are license-based access, permissions are assigned by administrators, and permission sets are logical groups of permissions.
+- The permission set object has Assignable, Permissions, IncludedPermissionSets and ExcludedPermissionSets properties. Nonassignable sets can be used as building blocks.
+- Permission set extension objects add permissions to existing sets and apply automatically when the extension is installed.
+- Entitlement objects (2023 release wave 2) support role-based, per-user plan, unlicensed, Microsoft Entra group and application scope entitlements, and Marketplace app transactability.
+- Permissions on objects can be direct or indirect, and the page lists permission abbreviations and wildcards.
+- The inherentpermissions attribute grants temporary read, write or execute rights to specific AL methods or events.
+- Upgrading from legacy data-based permissions to AL object-based permissions applies to versions 18 and 19 and involves identifying customizations and creating new AL objects.
+- Telemetry covers permission changes (version 17.2), permission errors (RT0031) and permission dependency cycles (RT0032), with KQL samples for analysis.
 
 ## Learn pages
 
 - [(automation API) Get permissionSet](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_permissionset_get): Gets a permission set object in Dynamics 365 Business Central.
-- [Analyzing Permission Changes Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace): Learn about the telemetry for permission changes made in Business Central
+- [Analyzing Permission Changes Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace): Analyze Business Central permission change telemetry to track permission sets, user assignments, and changes made by extensions during installation or updates.
   - Status: Permission changes telemetry applies to Business Central 2020 release wave 2, version 17.2, and later.
   - Tracks user-defined permission set creation, deletion, and system permission set links.
   - Monitors assignment or removal of permission sets from users and user groups.
   - Captures permission set changes made by apps or extensions during install or upgrade.
   - Events AL0000E2A through AL0000E2F track specific permission set operations with details.
   - LC0058 event identifies app or extension that changed permission set with ID, name, publisher.
-- [Analyzing permission dependency cycle trace telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-dependency-cycle-trace): Learn about the permission dependency cycle trace telemetry in Business Central
+  - In the observatory: [Codeunit 1351 "Telemetry Subscribers"](../../../../../objects/codeunit/1351.md)
+- [Analyzing Permission Dependency Cycle Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-dependency-cycle-trace): Analyze permission dependency cycle telemetry in Business Central to identify circular permission set references and investigate the dependency path.
   - Permission dependency cycle occurs when permission set depends on itself directly or indirectly
   - Dependency cycle discovered event has ID RT0032 with severity level 3
   - Cycle error message shows circular reference path, for example [XX]->[YY]->[XX]
   - Telemetry includes AL object ID and type if error relates to specific object
   - Permission area values recorded are System, Entitlement, Company, or Object
   - Permission type values include Delete, Execute, Insert, Modify, Read, or Undefined
-- [Analyzing Permission Error Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace): Learn about the permission error telemetry in Business Central
+- [Analyzing Permission Error Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace): Analyze permission error telemetry in Business Central to identify missing permissions, inspect affected objects, and investigate errors reported to users.
   - Permission error telemetry signals when users get permission-related error dialogs.
   - Permission Error Shown event has eventId RT0031 at severity level 1.
   - Data includes object ID, name, type, and permission area that caused the error.

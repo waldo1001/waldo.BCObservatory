@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T00:16:36.082Z"
+  at: "2026-11-19T00:15:47.846Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c5e1881270e8459c8ecdec031347910add92d6f2
@@ -23,7 +23,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-style-review.md
     title: "microsoft/BCQuality: AL style review"
     date: "2026-11-13"
-    commit: 90540bb901abb89de6d075a4014389df73ab8b64
+    commit: 398bece9cc0c50ef1e061fa53b3c907bbd6d9479
     t: null
     quote: null
 links:
@@ -268,4 +268,4 @@ Output conforms to the DO output contract. Every finding this skill emits MUST s
 
 ---
 
-From microsoft/BCQuality at 90540bb, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at 398bece, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

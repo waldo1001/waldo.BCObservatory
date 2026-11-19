@@ -1,42 +1,42 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-dynamics-gp.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp",
-  "title": "Migrate Dynamics GP data to the cloud",
-  "blob": "e7d544bd83bf02032b738f43c7f7576a07d323d4",
+  "title": "Dynamics GP Data Migration to Business Central Online",
+  "blob": "181b0fa26239a312256b42abf0f12560e8dfe0da",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Fiscal periods from Dynamics GP migrate to Business Central as accounting periods, with historical years becoming open and requiring closure."
+      "text": "Fiscal periods in Dynamics GP migrate to Business Central as accounting periods; historical years come over as open."
     },
     {
       "kind": "fact",
-      "text": "Chart of Accounts account numbers map from the main segment; remaining segments become dimensions, with up to eight shortcut dimensions supported."
+      "text": "Chart of accounts main segment becomes GL account; remaining segments become dimensions or shortcut dimensions."
     },
     {
       "kind": "fact",
-      "text": "Customer addresses migrate as shipping addresses; vendor addresses migrate with Remit To as primary and others as order addresses."
+      "text": "GP unit accounts migrate to Business Central statistical accounts automatically with balances."
     },
     {
       "kind": "fact",
-      "text": "Outstanding transactions migrate with remaining balance amounts, not original invoice amounts."
+      "text": "Active customers can be migrated exclusively; all customer addresses become shipping addresses in Business Central."
     },
     {
       "kind": "fact",
-      "text": "Unit of Measure Schedules from GP don't have direct equivalents; Business Central supports alternate units of measure per item instead."
+      "text": "Outstanding receivables transactions migrate with remaining balance amounts, not full invoice amounts."
     },
     {
       "kind": "fact",
-      "text": "Unreconciled bank transactions migrate; undeposited receipts do not migrate and must be deposited in GP before migration."
+      "text": "Inactive customers default excluded; temporary vendors default included in migration configuration."
     },
     {
       "kind": "fact",
-      "text": "Historical snapshot data stores in extension tables including GL, Receivables, Payables, Sales, Purchase, and Inventory transaction records."
+      "text": "Recurring sales and purchase lines can be automatically generated based on customer or vendor accounts."
     },
     {
       "kind": "fact",
-      "text": "1099 vendor information and box amounts migrate if selected, with the earliest supported year being 2024."
+      "text": "Vendor 1099 information migrates in US environments with tax type, box number, and Federal ID mapped correctly."
     }
   ],
   "dropped": 0,
@@ -44,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007325,
-      "pages_in_call": 7
+      "cost_usd": 0.005948,
+      "pages_in_call": 9
     }
   ]
 }

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -63,7 +63,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/faq-suggest-item-substitutions-with-copilot
     title: FAQ for suggest item substitutions with Copilot
-    date: "2026-10-02"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -158,6 +158,7 @@ links:
     - video/eA7CENx7se0
   posts:
     - post/demiliani-com/15935
+    - post/freddysblog/https-freddysblog-com-2026-11-07-directions-emea-2026--4bd603011b
   guidelines: []
 learn_toc_path:
   - Responsible AI
@@ -168,7 +169,7 @@ coverage:
   learn: 16
   code: 0
   video: 3
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: f2775e8972cfc70743070e264192dc1ce538505db6e68fedc8c2bce0d391ad5d
@@ -209,6 +210,7 @@ Start with the index page, Responsible AI FAQs for Dynamics 365 Business Central
 - [FAQ for marketing text suggestions](https://learn.microsoft.com/dynamics365/business-central/faqs-marketing-text): This FAQ provides information about the AI technology used in marketing text suggestions in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 - [FAQ for Sales Order Agent](https://learn.microsoft.com/dynamics365/business-central/faqs-sales-order-taker-agent): This FAQ provides information about the AI technology used by Sales Order Agent in Business Central. It provides key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 - [FAQ for suggest item substitutions with Copilot](https://learn.microsoft.com/dynamics365/business-central/faq-suggest-item-substitutions-with-copilot): This FAQ provides information about an AI feature in Business Central.
+  - In the observatory: [Page 5716 "Item Substitution Entry"](../../objects/page/5716.md)
 - [FAQ for Suggest Number Series with Copilot](https://learn.microsoft.com/dynamics365/business-central/faq-suggest-number-series-with-copilot): This FAQ provides information about the AI technology used in Business Central.
 - [FAQ for suggest sales lines with Copilot](https://learn.microsoft.com/dynamics365/business-central/faq-sales-suggest-sales-lines-with-copilot): This FAQ provides information about the AI technology used in Business Central for sales line suggestions.
 - [FAQs for analysis assist (preview)](https://learn.microsoft.com/dynamics365/business-central/faqs-analysis-assist): This FAQ provides information about the AI technology used for analyzing data on pages in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
@@ -224,6 +226,7 @@ Start with the index page, Responsible AI FAQs for Dynamics 365 Business Central
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../posts/demiliani-com/15935.md) (community post): "The Allow data movement toggle appears only when Business Central environment location differs from Copilot processing geography"
+- [Directions EMEA 2026 Reflections](../../posts/freddysblog/https-freddysblog-com-2026-11-07-directions-emea-2026--4bd603011b.md) (community post): "developers stay responsible for AI-written AL and need ways to verify it"
 - [What's New: Item Substitution with Copilot (2024 release wave 2)](../../videos/bCIcq1zESKk.md) (video): "responsible ai; llm; embedding; product information"
 - [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../videos/cVfZoDwKYpI.md) (video): "harmful eval testing and red teaming; eval-driven development"
 - [What's New: Testing Copilot in Business Central (2024 release wave 2)](../../videos/eA7CENx7se0.md) (video): "responsible ai; test automation; external evaluation with Azure AI Studio"

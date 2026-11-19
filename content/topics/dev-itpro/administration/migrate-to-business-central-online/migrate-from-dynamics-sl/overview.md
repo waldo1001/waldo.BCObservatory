@@ -2,47 +2,47 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/overview
 type: topic
 title: Overview
-summary: Migration overview for moving from Dynamics SL on-premises to Business Central online. It answers questions about the end-to-end process, which SL data is migrated and how it is mapped, how to manage and track a cloud migration, and how SL work processes compare to Business Central.
+summary: Overview of migrating from Dynamics SL on-premises to Business Central online. It covers the migration process and phases, which data is supported, how to manage migration runs and errors in Business Central, and how everyday work compares between the two products.
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:26:24.979Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f4a9882ed27511c3d0f5f52476c4633e38dfa37e1e814f4b54693c6f85690178
+  input_hash: 38224669353a15f2f55aa7df83f2c6ebcc3cd39e01febd2fa3d81fa4dfce271e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl-videos
-    title: Compare work processes in Dynamics SL to Business Central
+    title: Compare Work in Dynamics SL and Business Central
     date: "2024-12-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl
-    title: Dynamics SL Data Migrated to Business Central Online
-    date: "2025-08-04"
+    title: "Dynamics SL Cloud Migration: Supported Data"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-overview
-    title: Dynamics SL migration to Business Central online End-to-end overview
-    date: "2024-12-13"
+    title: Dynamics SL Migration to Business Central Online
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-sl
-    title: Managing Dynamics SL cloud migration
-    date: "2024-12-13"
+    title: Manage Dynamics SL Cloud Migration in Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -84,50 +84,53 @@ narrative: generated
 
 # Overview
 
-> Migration overview for moving from Dynamics SL on-premises to Business Central online. It answers questions about the end-to-end process, which SL data is migrated and how it is mapped, how to manage and track a cloud migration, and how SL work processes compare to Business Central.
+> Overview of migrating from Dynamics SL on-premises to Business Central online. It covers the migration process and phases, which data is supported, how to manage migration runs and errors in Business Central, and how everyday work compares between the two products.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Overview · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Overview · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section introduces the migration from Dynamics SL to Business Central online. The end-to-end overview explains the phases: assessment, setup, data replication and data upgrade, plus environment management. It also mentions Azure Data Factory, the Integration Runtime and the Intelligent Cloud permission set.
+This section is the entry point for moving from Dynamics SL to Business Central online. It explains the basics of cloud migration: the components involved, the end-to-end phases (setup, assessment, preparation, data replication, data upgrade, completion) and how to work with environments during migration.
 
-The data page describes what is migrated and how it is mapped when you use the SL Company Migration Configuration. It covers fiscal periods, chart of accounts, dimension setup, customers, vendors, inventory items and projects. The management page explains how to use the Cloud Migration Management page and the cloud migration API to set up, run and track a migration.
+The supported data page lists what moves over: general ledger, customers, vendors, inventory, projects, purchase and sales orders, and cash accounts. It also describes configuration options per company. Read it before you plan the migration to check that your data is covered.
 
-The last page is a set of video tutorials comparing everyday work in the two products. Start with the end-to-end overview, then check the data mapping, then use the management page while running the migration.
+Once a migration is running, the Cloud Migration Management page is the place to track it. The last page is a set of video comparisons for Dynamics SL users, covering receivables, payables, cash receipts, dimensions, journals and reporting. Start with the migration overview, then read the supported data page, then use the management page during the run.
 
 ## Key points
 
-- The end-to-end overview covers assessment, setup, replication, upgrade phases and environment management.
-- Migration uses Azure Data Factory and an Integration Runtime to replicate data.
-- An Intelligent Cloud permission set is part of the setup.
-- Mapped data includes fiscal periods, chart of accounts, dimension setup, customers, vendors, inventory items and projects.
-- Data mapping is driven by the SL Company Migration Configuration.
-- The Cloud Migration Management page lets you run data replication, run data upgrade, refresh migration status and manage custom tables.
-- The Migration Log tracks progress, and a cloud migration API is also available.
-- Video tutorials compare SL and Business Central for receivables, payables, customer receipts, dimensions, general journals and trial balance reports.
+- The migration overview describes the phases: cloud migration setup, assessment, preparation, data replication, data upgrade and completion.
+- Supported data includes general ledger, customers, vendors, inventory items, projects, purchase and sales orders, and cash accounts.
+- Fiscal periods are migrated. Subaccount segments are migrated to dimensions.
+- Customer and vendor master records and outstanding transactions are migrated, with configuration options per company.
+- The Cloud Migration Management page shows the migration log and replication results. Results include tables successful, remaining and failed.
+- Errors can be investigated through SL Cloud Migration Errors, Failed Companies, and Posting Errors and Warnings.
+- From the management page you can run data replication, upgrade and completion actions.
+- Video comparisons show how receivables, payables, vendor payments, customer cash receipts, dimensions and journals work in Dynamics SL and in Business Central.
 
 ## Learn pages
 
-- [Compare work processes in Dynamics SL to Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl-videos): Get tips and tricks for how to do things in Business Central online that you currently do in Dynamics SL.
+- [Compare Work in Dynamics SL and Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl-videos): Compare everyday work in Dynamics SL and Business Central online through videos about transactions, vendor payments, dimensions, journals, and reports.
   - Videos compare work processes between Dynamics SL and Business Central for user training
   - Topics covered include receivables, payables, customer receipts, dimensions, general journals, and posting accounts
-- [Dynamics SL Data Migrated to Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl): Learn how to migrate to the cloud from Dynamics SL using an assisted setup guide in Business Central online.
-  - Dynamics SL fiscal periods migrate as Business Central accounting periods; historical years come over as open and must be manually closed.
-  - Dynamics SL subaccount segments map to Business Central dimensions; main segment defines Global Dimension 1, second segment defines Global Dimension 2, additional segments become shortcut dimensions…
-  - Customer and vendor master records migrate with Receivables and Payables outstanding transactions at remaining balance amounts; inactive customers and vendors can be excluded.
-  - Inventory items migrate with cost valuation method, location information, quantity on hand, and serial or lot tracking information from Dynamics SL.
-  - Historical snapshot data from GL, Receivables, Payables, Sales Orders, Purchase Orders, and Inventory transactions migrates to extension tables for Power BI and Power Apps reporting.
-  - Project Controller master data including Projects, Tasks, and Resources migrate if in Active, Plan, or On Hold status based on configuration settings.
-- [Dynamics SL migration to Business Central online End-to-end overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-overview): Learn about the migration process and the necessary tasks for completing the migration from Dynamics SL on-premises.
-  - Cloud migration securely moves data from on-premises SQL Server to Business Central online using Azure Data Factory pipelines.
-  - Data migrated includes system setup, master data for accounts and items, open document amounts, account balances, and historical data.
-  - Data migrates table by table, with errors captured for failed tables; migration continues to next table.
-  - On-premises solution remains operative until migration completes; existing online data gets overwritten by on-premises data.
-  - Existing users without SUPER permissions are automatically assigned Intelligent Cloud permission set to restrict data entry during migration.
-  - Limit: Users assigned Intelligent Cloud permission set have read-only access; insert, modify, or delete permissions could negatively impact data.
-  - Prerequisite: At least one user in each company must have SUPER permissions before configuring connection from on-premises to online.
-- [Managing Dynamics SL cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-sl): Learn about the Cloud Migration Management page in Business Central for migrating from Dynamics SL.
+- [Dynamics SL Cloud Migration: Supported Data](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl): Learn which Dynamics SL data migrates to Business Central online, including accounting periods, customers, vendors, inventory, projects, and history.
+  - Fiscal periods in Dynamics SL migrate to Business Central as accounting periods; historical years come over as open.
+  - SL account numbers map to BC GL accounts; subaccount segments become dimensions or shortcut dimensions.
+  - Active customers default for migration; customer addresses become shipping addresses in Business Central.
+  - Default customer posting group created by SL migration is called SL; customer classes update this.
+  - Outstanding receivables migrate with remaining balance; only released documents with nonzero balance migrate.
+  - Vendor primary address becomes main address; other addresses become order addresses or remit-to addresses.
+  - Active vendor EFT bank information migrates as preferred bank account on vendor record.
+  - Inventory costing methods FIFO, LIFO, average, and standard map directly; specific identification maps to FIFO.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../../objects/page/118.md), [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md), [Table 42800 "SL Hist. APAdjust"](../../../../../objects/table/42800.md), [Table 42803 "SL Hist. ARAdjust"](../../../../../objects/table/42803.md), [Table 42806 "SL Hist. Batch"](../../../../../objects/table/42806.md), [Table 42809 "SL Hist. POReceipt"](../../../../../objects/table/42809.md)
+- [Dynamics SL Migration to Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-overview): Understand how Dynamics SL cloud migration works, from assessment and setup through data replication, company-level transformation, testing, and going live.
+  - Data migration securely moves data from on-premises SQL Server to Business Central online via Azure Data Factory.
+  - Azure Data Factory uses self-hosted integration runtime to securely copy data from on-premises to cloud, checking only SQL permissions.
+  - Migrated data includes system setup, master data for accounts and customers, open document amounts, account balances, and historical data.
+  - Status: On-premises solution remains operative until cloud migration completes.
+  - Dynamics SL Analysis and Repair tools help evaluate readiness and detect migration issues before starting.
+  - Users added during migration should not have Intelligent Cloud permission set automatically assigned.
+  - Limit: Avoid entering data in online companies during migration, as rerunning migration can overwrite it.
+- [Manage Dynamics SL Cloud Migration in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-sl): Learn how to monitor Dynamics SL cloud migration, investigate errors, configure companies and table mappings, and manage replication and data upgrade.
   - Cloud Migration Management page provides central hub for managing migration with status tracking and error details.
   - Migration Log shows status of all runs including time and progress; tiles display migrated table counts.
   - Configure SL Migration action sets up migration settings for migrating company data from Dynamics SL.

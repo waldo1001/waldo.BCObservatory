@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T00:47:52.902Z"
+  at: "2026-11-19T00:47:08.789Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5da82d6b5a7b74ade9ae335c04e72283bf56793c35460c6878473b682007aa7d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Layers/W1/BaseApp/Projects/RoleCenters/Projects.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Layers/W1/BaseApp/Projects/RoleCenters/Projects.Profile.al
     title: src/Layers/W1/BaseApp/Projects/RoleCenters/Projects.Profile.al (releases/29.x)
     date: null
-    commit: 4f49a1eb5ebb7384620fe1654dd53536c3abca03
+    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "PROJECTS" in Base Application (Microsoft.Projects.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Projects.RoleCenters · captioned "Project" · BC23-30 · [source at 4f49a1eb](https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Layers/W1/BaseApp/Projects/RoleCenters/Projects.Profile.al) · facts from BC29
+Base Application · Microsoft.Projects.RoleCenters · captioned "Project" · BC23-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Layers/W1/BaseApp/Projects/RoleCenters/Projects.Profile.al) · facts from BC29
 
 ## Properties
 

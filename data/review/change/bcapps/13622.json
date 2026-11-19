@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13622",
+  "input_hash": "4c3f9114955d3569e5d1cb385367737bdd59f3c30ef1728b7a868cf6a181b7fc",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-19T00:57:42.856Z",
+  "issues": [
+    "Summary and key points match the description: CopyRecTo now uses the current record for new lines or OData clients, IsODataClient was added in W1 and APAC, and a test was added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018636,
+    "changes_in_call": 6
+  }
+}

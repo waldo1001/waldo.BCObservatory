@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/yzhums-com/77475",
+  "input_hash": "929b26e7d9f6fff549893fe49b9e7bb74c15f7390df7a62fcb1e35854912ad38",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-19T00:57:03.655Z",
+  "issues": [
+    "The key point said the logo, contact and bank details are added after setup. In the post they are later steps of the same Company Setup wizard, so I rewrote the key points.",
+    "The key points left out that the wizard is started from Assisted setup via Enter company details, and that the request to an external service must be allowed. Both are now included.",
+    "The feature name Company Details Import is invented and does not appear in the post, so I dropped it.",
+    "The summary, objects, systems and both quotes match the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043508,
+    "posts_in_call": 2
+  }
+}

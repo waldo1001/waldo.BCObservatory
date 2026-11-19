@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/error-handling
 type: topic
 title: Error handling
-summary: Error handling in Business Central AL covers how to raise, catch, collect and present runtime errors, and how to design code that fails gracefully. It answers questions about error dialogs, try methods, collectible errors, actionable errors with Fix-it and Show-it actions, UX guidelines, and error telemetry.
+summary: Error handling in AL for Business Central covers error dialogs, try methods, collectible errors, actionable errors with Fix-it and Show-it actions, failure modeling, UX guidelines, and error telemetry. It answers how to raise, catch, collect, present and log errors.
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:18:03.133Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 4a21c07b148f5af6fe8ac83f95325cee9a2f0e447a81f4aa3bf8a573c9eb78d4
+  input_hash: 4dd32dc85cb0aa58e805985cae72047c7f17679b4a7e8819d1d5e25698b3b930
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actionable-errors
@@ -34,15 +34,22 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-message-voting-trace
-    title: Analyzing Error Message Vote Telemetry | Microsoft Docs
-    date: "2022-03-22"
+    title: Analyzing Error Message Vote Telemetry
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-method-trace
+    title: Analyzing Error Method Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace
     title: Analyzing Permission Error Trace Telemetry
-    date: "2022-07-27"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -85,13 +92,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/dialog/dialog-loginternalerror-string-string-dataclassification-verbosity-method
     title: Dialog.LogInternalError(Text, Text, DataClassification, Verbosity) Method
     date: "2026-10-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-method-trace
-    title: Error method trace telemetry
-    date: "2023-12-21"
     commit: null
     t: null
     quote: null
@@ -185,27 +185,27 @@ narrative: generated
 
 # Error handling
 
-> Error handling in Business Central AL covers how to raise, catch, collect and present runtime errors, and how to design code that fails gracefully. It answers questions about error dialogs, try methods, collectible errors, actionable errors with Fix-it and Show-it actions, UX guidelines, and error telemetry.
+> Error handling in AL for Business Central covers error dialogs, try methods, collectible errors, actionable errors with Fix-it and Show-it actions, failure modeling, UX guidelines, and error telemetry. It answers how to raise, catch, collect, present and log errors.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Error handling · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Error handling · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains how AL code deals with errors from design to diagnosis. It starts with an overview of strategies (error dialogs, try methods, error collection, telemetry, the ErrorInfo data type and error message quality), then goes into each technique on its own page.
+This section explains how to deal with runtime errors in AL code. It starts with the general "AL error handling" page, which lists the main strategies: error dialogs, try methods, error collection, telemetry, the ErrorInfo data type and error message quality. The other pages go deeper on each strategy.
 
-For writing code, the pages cover try methods with the TryFunction attribute, collectible errors using the ErrorBehavior attribute and the error collection API, and actionable errors built with ErrorInfo. Failure modeling and robust coding practices give the design principles behind these choices. The user experience guidelines page covers wording, voice and dialog best practices.
+For writing errors, "Actionable errors" and "User experience guidelines for errors" describe how to use ErrorInfo with Fix-it and Show-it actions, and how to word and format messages. For catching and collecting errors, "Handling errors using try methods" and "Collecting Errors" cover the TryFunction attribute and the ErrorBehavior attribute with the error collection API. "Failure modeling and robust coding practices" gives the design principles behind defensive code.
 
-For diagnosis, the page on the error dialog explains what users see and what they can copy for support, such as the AL call stack and the Application Insights session ID. The Error telemetry subtopic goes further into analyzing error events in Application Insights. A subtopic with AL language reference pages for errors is also part of the section. Start with "AL error handling" for orientation.
+For investigating errors, "Understanding the error dialog" explains the details users can copy, such as the AL call stack and the Application Insights session ID. The Error telemetry subtopic covers logging errors and feature usage to Application Insights. A subtopic with AL language reference pages for errors is also part of the section. Start with "AL error handling", then pick the page that matches your task.
 
 ## Key points
 
-- Actionable errors use ErrorInfo objects with Fix-it and Show-it actions, up to two actions per error, with consistent button labels and field validation support.
-- Try methods use the TryFunction attribute, return a boolean, and can be inspected with GetLastErrorText and GetLastErrorObject; database write restrictions apply, and the page mentions runtime version 2.0.
-- Collectible errors (ErrorBehavior attribute and error collection API) let a procedure gather several validation errors and show them together instead of stopping at the first.
-- The error dialog has a Copy Details section with the AL call stack and the Application Insights session ID, useful for troubleshooting.
-- Failure modeling lists six robust coding principles: do not trust external code, consumers or the environment; offer graceful degradation; hide internal data structures; assume improbable events happen at scale.
-- UX guidelines cover actionable messages, message formatting, validation errors and voice for error text.
-- Error telemetry covers event IDs, dimensions, KQL analysis, permission errors, user votes on error messages, and logging with the Telemetry AL module.
+- Actionable errors use ErrorInfo objects with up to two actions: Fix-it actions that apply a recommended solution and Show-it actions that navigate the user to relevant information.
+- Try methods use the TryFunction attribute, return a boolean, and let you read the error with GetLastErrorText and GetLastErrorObject. They have restrictions on database writes, and the page mentions runtime version 2.0.
+- Collectible errors let a procedure gather several validation errors instead of stopping at the first. They use the ErrorBehavior attribute and an error collection API, and you can show the errors in the standard dialog or a custom UI.
+- The error dialog has a Copy Details section with the AL call stack and the Application Insights session ID. The page mentions 2022 release wave 2 and 2023 release wave 1.
+- Failure modeling rests on six principles: do not trust external code, consumers or the environment; offer graceful degradation; hide internal data structures; and assume improbable events will happen at scale.
+- UX guidelines cover error message formatting, voice, validation errors, and best practices for error dialogs.
+- Error telemetry covers logging to Application Insights, error message votes, permission errors (RT0031), and using the Telemetry AL module to log feature usage, errors and uptake.
 
 ## Subtopics
 

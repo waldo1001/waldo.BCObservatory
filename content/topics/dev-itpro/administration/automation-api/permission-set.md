@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-26T06:43:56.210Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f303ff1d659dca414e1c4ad32cafa5be7c4e8e6ccac7a9e0d865dfd96dc67cbf
@@ -40,7 +40,8 @@ links:
   topics:
     - topic/dev-itpro/administration/automation-api
   localizations: []
-  videos: []
+  videos:
+    - video/YbuO1n_Lqj0
   posts:
     - post/yzhums-com/74366
   guidelines: []
@@ -56,7 +57,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 1
   blog: 1
   guideline: 0
 bc_forms: []
@@ -81,5 +82,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#9599 Add event subscriber for OpenPermissionSetPage](../../../../changes/bcapps/9599.md) (code change): "Adds the codeunit to the Permission Sets - Objects permission set"
 - [Business Central 2026 release wave 1 (BC28.2): Use new APIs for analyzing permissions for auditors and IT staff](../../../../posts/yzhums-com/74366.md) (community post): "Five new read-only APIs expose permission data: Expanded Permission Sets, Access Control"
+- [What's New: Enhanced IT Audit Reporting (2026 release wave 1)](../../../../videos/YbuO1n_Lqj0.md) (video): "Permission Sets API; Expanded Permission Sets API; Security Groups API"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

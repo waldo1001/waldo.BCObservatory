@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/14218",
+  "input_hash": "505f89bc3f618b6745f60ca5d1db5503596628c86da0bf261da56b2456852284",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-19T00:57:42.856Z",
+  "issues": [
+    "The page is accurate: notification limited to companies with a Feature Uptake row, Feature Uptake read through RecordRef, users without read permission (in practice everyone except SUPER) see nothing, and My Notifications entry added only where the feature was used."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018636,
+    "changes_in_call": 6
+  }
+}

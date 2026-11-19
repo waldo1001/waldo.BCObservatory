@@ -6,11 +6,11 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "Report 12135 now correctly displays inventory values for items first posted in later years instead of showing prior-year values.",
+  "summary": "In the Italian localization, report 12135 Fiscal Inventory Valuation no longer shows a prior-year value for an item that was first posted in a later year.",
   "key_points": [
-    "Fixed incorrect value calculation in Fiscal Inventory Valuation report",
-    "Report now properly handles items with posting dates in years after initial setup",
-    "Applied fix to both report logic and test coverage for LIFO valuation"
+    "Fixes the IT report 12135 Fiscal Inventory Valuation showing a prior-year value for items first posted in a later year",
+    "Small change to the report logic",
+    "Test added to the UTFiscalLIFO test codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

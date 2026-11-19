@@ -1,38 +1,24 @@
 {
   "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/prepare",
-  "input_hash": "03b97b234ebde8a7714b553f60436119559751a849e6348589fbe547996ad1de",
-  "summary": "Preparation for migrating Dynamics SL on-premises data to Business Central online. It answers questions about prerequisites (destination, source system, database) and about planning: assessment tools, data selection, migration approaches, and scheduling.",
-  "overview": "This section covers the steps to take before running a cloud migration from Dynamics SL to Business Central online. It has two pages: one on prerequisites and one on planning and preparation.\n\nStart with the prerequisites page. It lists what the destination environment, the source system and the database must meet, including SUPER permissions, Intelligent Cloud Base, SQL Server requirements and a self-hosted integration runtime.\n\nThen read the planning page. It covers the Migration Assessment Tool, Analysis Tool and Repair Tool, choosing which data to migrate, migration approaches such as replication, a data backup strategy, and scheduling.",
+  "input_hash": "535524969a650e77f32d9b29b110d1c329f47dbf9056cc3d2b8111dfbcd1c8a2",
+  "summary": "Preparation steps for migrating Dynamics SL on-premises data to Business Central online. It answers questions about prerequisites for the destination environment, source database and integration runtime, and about planning the migration with the assessment, analysis and repair tools.",
+  "overview": "This section covers what to do before running a Dynamics SL to Business Central cloud migration. It has two pages: one on prerequisites and one on planning.\n\nThe prerequisites page covers the destination environment (the SUPER permission set and installing the migration apps), the source database (SQL Server authentication and change tracking) and the integration runtime. The planning page covers the assessment tools, the data migration strategy and the migration approach steps.\n\nStart with the planning page to decide on scope and approach, including the per-company migration model. Then work through the prerequisites page to prepare both environments before you start the migration.",
   "key_points": [
-    "Prerequisites cover three areas: the destination environment, the source system, and database specifications.",
-    "SUPER permissions are listed as a prerequisite.",
-    "Intelligent Cloud Base is part of the prerequisites.",
-    "SQL Server requirements apply to the source database.",
-    "A self-hosted integration runtime is needed for the migration.",
-    "Planning uses the Migration Assessment Tool, Analysis Tool and Repair Tool.",
-    "Planning includes choosing which data to migrate, picking a migration approach (including replication), and scheduling.",
-    "A data backup strategy is part of preparation."
+    "The user running the migration needs the SUPER permission set in the destination Business Central environment.",
+    "The destination needs the Business Central migration apps, including the Intelligent Cloud Base app and the Dynamics SL Migration app.",
+    "The source database must use SQL Server authentication and have change tracking set up.",
+    "The prerequisites also include configuring the integration runtime.",
+    "Planning uses three tools: the Migration Assessment Tool, the Analysis Tool and the Repair Tool.",
+    "The migration is done per company.",
+    "The migration approach covers data replication and data upgrade."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:06:46.070Z",
+  "at": "2026-11-19T01:00:36.619Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008611
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:22:49.261Z",
-    "verdict": "approve",
-    "issues": [
-      "Key point 'SQL Server requirements apply to the source database' slightly over-specifies: the page lists 'SQL Server requirements' and 'database specifications' but does not explicitly say these apply to the source database. It is a reasonable inference but could be softened to 'SQL Server requirements are part of the database prerequisites.'",
-      "Linking 'replication' to 'migration approaches' is inferred from the page's mention of migration approaches alongside the replication feature. It is plausible but not stated directly.",
-      "Several key points just restate feature names (SUPER permissions, Intelligent Cloud Base) and add little detail. That is acceptable given how thin the source summaries are."
-    ],
-    "input_hash": "03b97b234ebde8a7714b553f60436119559751a849e6348589fbe547996ad1de",
-    "cost_usd": 0.023775200000000003
+    "cost_usd": 0.008579
   }
 }

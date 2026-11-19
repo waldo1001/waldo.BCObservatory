@@ -2,33 +2,33 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/upgrade-data
 type: topic
 title: Upgrade data
-summary: Upgrade data covers running data upgrade during cloud migration from earlier Business Central on-premises versions, and how to skip the API data upgrade to shorten upgrade time. It answers questions on prerequisites, process, error handling, monitoring, and per-company disabling of API upgrade.
+summary: Data upgrade during cloud migration from Business Central on-premises to Business Central online. It answers how to run the data upgrade from the Cloud Migration Management page and how to skip API data upgrade per company to avoid long-running upgrades.
 tier: official
 language: en
 system: platform
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:22:41.499Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0a342646d08f02686c41a0c4520ca4bb26f53500572af345474e6175153c6161
+  input_hash: 9f7d54f56d3021c59a2bb20ebc0a36dde076df19e1ef3e27ca8c8c6d5662dede
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade
-    title: Run data upgrade
-    date: "2023-02-22"
+    title: Run a Cloud Migration Data Upgrade
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade
-    title: Skip API data upgrade in cloud migration
-    date: "2023-12-12"
+    title: Skip API Data Upgrade During Cloud Migration
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -68,42 +68,42 @@ narrative: generated
 
 # Upgrade data
 
-> Upgrade data covers running data upgrade during cloud migration from earlier Business Central on-premises versions, and how to skip the API data upgrade to shorten upgrade time. It answers questions on prerequisites, process, error handling, monitoring, and per-company disabling of API upgrade.
+> Data upgrade during cloud migration from Business Central on-premises to Business Central online. It answers how to run the data upgrade from the Cloud Migration Management page and how to skip API data upgrade per company to avoid long-running upgrades.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Business Central on-premises](../migrate-from-business-central-on-premise.md) > Upgrade data · tier official · system platform · narrative reviewed (checked by Opus)
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Business Central on-premises](../migrate-from-business-central-on-premise.md) > Upgrade data · tier official · system platform · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section belongs to the migration path from Business Central on-premises to Business Central online. It deals with the data upgrade step, which upgrades platform-related data when you migrate from earlier Business Central versions.
+This section covers the data upgrade step of a cloud migration when the on-premises source is an earlier version than the online target. The data upgrade runs the logic needed to bring migrated data up to the current version, and it can be scheduled from the Cloud Migration Management page.
 
-Two pages make up the section. "Run data upgrade" describes the prerequisites, the process, how errors are handled, and how to monitor the upgrade, including telemetry and point-in-time restore. "Skip API data upgrade in cloud migration" is a focused option for cases where the upgrade runs too long.
+Two pages make up the section. "Run a Cloud Migration Data Upgrade" explains how to run the upgrade, including company-level and environment-wide upgrades and the role of point-in-time restore. "Skip API Data Upgrade During Cloud Migration" explains how to avoid long-running API upgrade processes by skipping them first and completing them after going live on the tenant.
 
-Start with "Run data upgrade" to understand the full flow. Read the skip API page if long-running upgrade times are a concern, since it explains how to postpone the API upgrade until after go-live.
+Start with the run page to understand the standard flow. Read the skip page if your data volume makes the API upgrade slow and you want to defer it.
 
 ## Key points
 
-- Data upgrade during cloud migration upgrades platform-related data when migrating from earlier Business Central versions.
-- The Run data upgrade page covers prerequisites, process, error handling, and monitoring.
-- Point-in-time restore and telemetry are mentioned in connection with running and monitoring the upgrade.
-- Skipping API data upgrade reduces long-running upgrade times.
-- With the skip option, the API upgrade is disabled during cloud migration and run after going live.
-- In Business Central online, disable it through Cloud Migration Management.
-- On-premises, disable it with SQL queries.
-- The setting is applied on a per-company basis.
+- Data upgrade is needed when migrating from an earlier version to Business Central online.
+- The upgrade can be scheduled from the Cloud Migration Management page.
+- Upgrades can be run at company level or environment-wide.
+- The run page mentions point-in-time restore and names Business Central 14 as a version.
+- API data upgrade can be skipped to avoid long-running upgrade processes.
+- After skipping, the API upgrade is completed once the tenant is live.
+- Skipping can be set per company, using Disable API Data Upgrades and Manage API Upgrade in the online environment.
+- On-premises, the API upgrade skip is done with SQL queries.
 
 ## Learn pages
 
-- [Run data upgrade](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade): This article explains the process for running the data upgrade as part of cloud migration.
-  - Prerequisite: Data replication must complete before running data upgrade.
-  - Data upgrade runs logic to upgrade platform-related data when migrating from earlier versions.
-  - Step: Open Cloud Migration Management page and select Run data upgrade.
-  - All client connections are terminated during data upgrade; no reconnection until it completes.
-  - Successful upgrade shows Complete status and environment becomes active again for client access.
-  - Failed upgrade triggers automatic point-in-time restore to revert environment state.
-  - Limit: Long-running upgrades on Business Central on-premises can be accelerated by skipping API data upgrade.
-  - You can cancel running data upgrade from admin center; restore process may take over one hour.
+- [Run a Cloud Migration Data Upgrade](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade): Learn how to prepare for and run a data upgrade during Business Central cloud migration, monitor progress, and handle upgrade errors.
+  - Prerequisite: Data replication must be run before starting data upgrade.
+  - Prerequisite: Have the SUPER permission set in the online environment.
+  - No data upgrade is needed when source and destination use the same major version.
+  - During environment-wide data upgrade, all client connections are terminated and no other processes run.
+  - Step: Open Cloud Migration Management page and select Run data upgrade to schedule the upgrade.
+  - Track upgrade status in Business Central admin center from Environment Operations page or admin center API.
+  - If data upgrade fails, automatic point-in-time restore reverts tenant to state before upgrade.
+  - Business Central 14 migration schedules company upgrades individually in background, not environment-wide.
   - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
-- [Skip API data upgrade in cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade): This article explains things you can skip the API data upgrade during cloud migration and complete it after going live
+- [Skip API Data Upgrade During Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade): Learn how to skip API data upgrade for selected companies during Business Central cloud migration and complete the upgrade after going live.
   - Long-running API data upgrades during cloud migration can be skipped per company and resumed after going live.
   - Prerequisite: Cloud migration setup and data replication must be completed before skipping API data upgrade.
   - Step: Sign in to Business Central online and search for Cloud Migration Management page.

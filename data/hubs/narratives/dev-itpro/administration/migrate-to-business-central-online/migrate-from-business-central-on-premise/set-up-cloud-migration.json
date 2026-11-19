@@ -1,39 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/set-up-cloud-migration",
-  "input_hash": "9dbbfe2868beacd69775b0b0ed99d424fa7b8e85b2bd32c6f9acb32e854a798d",
-  "summary": "Setting up cloud migration from Business Central on-premises to Business Central online: running Cloud Migration Setup, the integration runtime and pipelines, table mappings, replication settings, and permission retention. It answers how to configure and adjust a migration.",
-  "overview": "This section covers the setup work needed before and during a cloud migration from Business Central on-premises to online. Setup establishes the connection and pipelines between the two databases, using an integration runtime and Azure Data Factory preparation and replication pipelines, with compatibility checks and table mapping.\n\nStart with the overview page to understand the components, then follow Run Cloud Migration Setup, which configures the connection and supports delegated administrators and migrating multiple companies. After that, the other pages cover optional adjustments: changing which tables are replicated and whether existing online data is preserved, defining table mappings, and retaining user permissions.",
+  "input_hash": "de620d094517e9079659795f288115b9c78cf00e15bfab1eea0436468af3c591",
+  "summary": "Setting up cloud migration from Business Central on-premises to Business Central online. It answers questions about running the Cloud Migration Setup guide, changing table replication, mapping tables and fields, and keeping user permissions during migration.",
+  "overview": "This section covers the configuration work done before and around data replication from an on-premises Business Central database to an online tenant. Cloud Migration Setup creates the connection and pipeline between the two databases and creates the selected companies. It prepares the environment for replication but does not migrate business data itself.\n\nStart with the overview page and the page on running the Cloud Migration Setup assisted setup guide. The guide covers the SQL database connection, the integration runtime, company selection, and delegated administrator approval. After that, use the other pages to adjust the migration. These pages cover how specific tables are replicated, how tables are renamed or fields moved to table extensions, and how user permissions are handled.",
   "key_points": [
-    "Cloud migration setup creates the connection and pipeline between on-premises and online databases using integration runtime and Azure Data Factory pipelines.",
-    "The preparation pipeline and replication pipeline, plus compatibility checks, are part of the setup described in the overview.",
-    "Run Cloud Migration Setup supports delegated administrator approval and selecting multiple companies to migrate.",
-    "Replication settings can be changed to choose which tables are migrated and whether to preserve existing cloud data.",
-    "Table mappings let you rename tables and move fields to table extensions; they can be imported and exported.",
-    "Mapping development uses the ReplicateData property and the OnInsertDefaultTableMappings event.",
-    "Permissions can be retained via the Cloud Migration Management page (enable or disable removing permissions from users) or a custom extension.",
-    "The OnBeforeResetUsersToIntelligentCloudPermissions event and the Intelligent Cloud permission set relate to permission handling."
+    "Cloud Migration Setup sets up the connection and pipeline between on-premises and online databases, creates selected companies, and prepares for replication without migrating business data.",
+    "The Cloud Migration Setup assisted setup guide configures the SQL database connection, integration runtime, company selection, and delegated administrator approval.",
+    "The setup involves a preparation pipeline, a replication pipeline, and compatibility checks.",
+    "Replication can be changed per table: include or exclude tables, replace full table data, or preserve existing cloud data. You can view changed records and reset to defaults.",
+    "Table mappings let you rename tables or move fields to table extensions. Multiple source tables cannot map to the same destination.",
+    "Mapping definitions can be imported and exported, and default mappings can be restored. The ReplicateData property and the OnInsertDefaultTableMappings event are supported.",
+    "By default, migration removes system-scope permission sets from non-SUPER users and assigns the INTELLIGENT CLOUD permission set.",
+    "Original permissions can be retained through Cloud Migration Management page settings or a custom extension using the OnBeforeResetUsersToIntelligentCloudPermissions event."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:03:52.031Z",
+  "at": "2026-11-19T01:00:27.168Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011763
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:24:45.872Z",
-    "verdict": "approve",
-    "issues": [
-      "Key points 1 and 2 overlap; both restate the overview page's components (integration runtime, Azure Data Factory pipelines) and could be merged.",
-      "Key point 8 ('relate to permission handling') is vague; it could say these are the event and permission set involved when retaining permissions.",
-      "Key point 6 says mapping development 'uses' ReplicateData and OnInsertDefaultTableMappings; the source only lists them as features of the table mapping page, so the wording is slightly interpretive but acceptable.",
-      "The replication page's 'default settings' and 'change history' features are not mentioned; optional to add."
-    ],
-    "input_hash": "9dbbfe2868beacd69775b0b0ed99d424fa7b8e85b2bd32c6f9acb32e854a798d",
-    "cost_usd": 0.0401592
+    "cost_usd": 0.016426
   }
 }

@@ -1,38 +1,42 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-gp-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-overview",
-  "title": "Migrate on-premises GP data to Business Central online overview",
-  "blob": "4eb73bd943db53e85a18714cccf5d95ce08091b2",
+  "title": "Dynamics GP Migration to Business Central Online",
+  "blob": "9ae35b2b13cd39eebed2ca63ba9819a74ff2da34",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Cloud migration uses Azure Data Factory to securely replicate data from on-premises SQL Server to Business Central online"
+      "text": "Azure Data Factory is managed cloud service that migrates large raw data volumes across data sources and controls integration projects."
     },
     {
       "kind": "fact",
-      "text": "Migrated data includes system setup, master data, transactional data, classes, vendor 1099, and historical data"
+      "text": "Self-hosted integration runtime installed on-premises network for SQL Server; Azure Integration Runtime used for Azure SQL Database."
     },
     {
       "kind": "fact",
-      "text": "Data migration is table-by-table with success and failure tracking; migration continues even if a table fails"
+      "text": "Data includes system setup, master data, transactional data, classes, vendor 1099, and historical data."
     },
     {
       "kind": "fact",
-      "text": "On-premises solution remains operative environment until cloud migration is completed"
+      "text": "Data replicates table by table with success and failure tracked per table; failures captured without stopping process."
+    },
+    {
+      "kind": "step",
+      "text": "Complete migration assessment using cloud migration assessment tool before starting process."
+    },
+    {
+      "kind": "step",
+      "text": "After data replication, configure Dynamics GP company migration settings and review automatic transformation setting."
     },
     {
       "kind": "fact",
-      "text": "Users without SUPER permissions are automatically assigned Intelligent Cloud permission set during migration"
+      "text": "Dynamics GP migration retains existing BC user permissions; does not automatically assign Intelligent Cloud permission set."
     },
     {
       "kind": "fact",
-      "text": "Data entry in online tenant during migration is limited to data not included in migration from on-premises"
-    },
-    {
-      "kind": "limit",
-      "text": "Cannot install or uninstall extensions during migration without disabling cloud migration first"
+      "text": "Avoid entering data in online companies during migration; entered data can be overwritten by rerunning migration."
     }
   ],
   "dropped": 0,
@@ -40,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005231,
-      "pages_in_call": 10
+      "cost_usd": 0.005948,
+      "pages_in_call": 9
     }
   ]
 }

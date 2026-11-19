@@ -12,7 +12,7 @@ review:
   at: "2026-11-09T00:45:18.470Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -22,6 +22,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
     title: Business Central Upgrade Compatibility Matrix
     date: "2026-11-06"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations
+    title: Business Central Upgrade Planning and Considerations
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -287,13 +294,6 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v14-v21
     title: Technical Upgrade From Version 14 to Version 21
-    date: "2024-04-18"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v14-v22
-    title: Technical Upgrade From Version 14 to Version 22
     date: "2024-04-18"
     commit: null
     t: null

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/14219",
+  "input_hash": "e94609e9c79fdd6582e9ef8d9244f5c5e15b6f616457f1a758269b27fa31dbf2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-19T00:57:46.867Z",
+  "issues": [
+    "The claim that this fixes a regression is not supported. The description only links a work item.",
+    "The summary reads more into the change than the title supports. Reworded it to say the copy no longer ignores the target description."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019255,
+    "changes_in_call": 6
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -210,12 +210,17 @@ links:
     - video/QCo-uIfPs9g
     - video/RfHVHa_Qiqk
     - video/sv1utmneaXA
+    - video/sycmF3cJa_s
   posts:
     - post/aardvarklabs-blog/1609
     - post/aardvarklabs-blog/1816
     - post/aardvarklabs-blog/1891
     - post/aardvarklabs-blog/2467
     - post/aardvarklabs-blog/2663
+    - post/gerardorenteria-blog/14522
+    - post/gerardorenteria-blog/14663
+    - post/gerardorenteria-blog/14730
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7674654517960739875--1e3bc4a2a9
     - post/thinkaboutit-be/8204
   guidelines: []
   changes:
@@ -236,8 +241,8 @@ children:
 coverage:
   learn: 24
   code: 0
-  video: 6
-  blog: 6
+  video: 7
+  blog: 10
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -302,6 +307,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Implementing a Multi-Step Process for AI Recommendations in Business Central](../../../posts/aardvarklabs-blog/1891.md) (community post): "This post demonstrates how to build a multi-step AI-assisted process in Business Central"
 - [Enhancing Business Central with Address Validation AI](../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses"
 - [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "SetAuthorization uses your own Azure OpenAI deployment, which gives you control"
+- [🪝 VS Code Agent Hooks: Give Copilot Context Before the First Message](../../../posts/gerardorenteria-blog/14522.md) (community post): "VS Code Agent Hooks allow developers to automatically run scripts at specific lifecycle events"
+- [🧠 Global memory for your VS Code agent: preferences that follow you](../../../posts/gerardorenteria-blog/14663.md) (community post): "Global memory for your VS Code agent: preferences that follow you"
+- [🪶 How to slim down the prompt and spend fewer credits in Github Copilot](../../../posts/gerardorenteria-blog/14730.md) (community post): "How to slim down the prompt and spend fewer credits in Github Copilot"
+- [🚀 Exploring Vibe Coding with GitHub Copilot for Business Central.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7674654517960739875--1e3bc4a2a9.md) (community post): "GitHub Copilot to co-create AL solutions for Business Central"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "build Copilot extensions using Microsoft-managed Azure OpenAI resources"
 - [Business Central Under the Hood episode 1: Developing AI in Business Central](../../../videos/jdevJbGgB-k.md) (video): "Marketing text generation; Chat Copilot for Business Central; AI developer toolkit"
 - [What's New: AI Development Toolkit (2026 release wave 1)](../../../videos/juUBVPfIp8A.md) (video): "Content filtering policies; Prompt injection protection"
@@ -309,5 +318,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New: Extending Copilot in Business Central (2024 Release Wave 2)](../../../videos/QCo-uIfPs9g.md) (video): "Telemetry for Copilot Features; Managed AI Resources; Temperature and Max Tokens"
 - [Business Central Under the Hood episode 8: AI Small Language Models and Fine-tuning](../../../videos/RfHVHa_Qiqk.md) (video): "small language models; fine-tuning; model distillation; phi models"
 - [Introducing: Extending Copilot Chat with Your App's Documentation (2025 release wave 2)](../../../videos/sv1utmneaXA.md) (video): "Extending Copilot Chat with Your App's Documentation"
+- [Copilot Assisted Scheduling by PrintVis](../../../videos/sycmF3cJa_s.md) (video): "Copilot Assisted Scheduling; Optimization Options; Schedule Loading"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-26T08:46:07.995Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a9460406e795a84eabda657a992f88787903db8ccb42613287315cedca8bb897
@@ -104,6 +104,6 @@ Path: [Administration](../../administration.md) > [Automation API](../automation
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Dynamics 365 Business Central: How to restrict certain tables from importing data through Configuration Package](../../../../posts/yzhums-com/64265.md) (community post): "restrict additional tables from being imported, you can use customization"
+- [Dynamics 365 Business Central: How to restrict certain tables from importing data through Configuration Package](../../../../posts/yzhums-com/64265.md) (community post): "Configuration Packages can import data into Business Central, but posted tables, entry tables, and system tables are blocked by default"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

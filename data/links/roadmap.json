@@ -34214,10 +34214,10 @@
     "video/BC82BSrtng0": {
       "kind": "video",
       "key": "video/BC82BSrtng0",
-      "hash": "02e66f86a9154f9d5e063766cdb674341751b1ebe81b30791faab0451db4ad07",
+      "hash": "25e1413ba8722c7a43bd83b0aafdf950d08cc85aad93af0f4624cb58098cffdd",
       "video_id": "BC82BSrtng0",
       "title": "Comparing Subaccounts Segments and Dimensions Transaction and Reporting Dynamics SL and Dynamics",
-      "at": "2026-11-11T00:53:29.703Z",
+      "at": "2026-11-19T00:53:01.984Z",
       "matches": []
     },
     "video/bCIcq1zESKk": {
@@ -34241,11 +34241,19 @@
     "video/BlkW7VC52c0": {
       "kind": "video",
       "key": "video/BlkW7VC52c0",
-      "hash": "9551a83328700933e38443c1e4e5ed94b91b51a16cdfbb61c78dd2a88442bc9d",
+      "hash": "e115a72727398d56cfab60f938f7f50364f872d5872c3c099e3aa34a05c7c56b",
       "video_id": "BlkW7VC52c0",
       "title": "Copy Data Between Companies in Business Central (2 Built-In Methods You're Probably Missing)",
-      "at": "2026-11-11T00:53:31.324Z",
-      "matches": []
+      "at": "2026-11-19T00:52:59.342Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Master Data Management Setup",
+          "t": 46,
+          "roadmap_id": "573613",
+          "quote": "pulling data from a source company to a target company using a pull strategy"
+        }
+      ]
     },
     "video/bnqxycPzbeI": {
       "kind": "video",
@@ -34259,28 +34267,28 @@
     "video/BofJJPqgrTI": {
       "kind": "video",
       "key": "video/BofJJPqgrTI",
-      "hash": "b4816a161a4d3dbcc7586cd74ab23151134daaa6da7cc2c9104dbac5d64f5986",
+      "hash": "5ae73fcd97f83a4267d507c82a81c66c5c213b6dbffd425a3cc522c72c0047ca",
       "video_id": "BofJJPqgrTI",
       "title": "What's New: Excel Layouts For Developers (2024 release wave 1)",
-      "at": "2026-11-11T00:53:36.005Z",
+      "at": "2026-11-19T00:53:03.386Z",
       "matches": []
     },
     "video/BOY2442wHSc": {
       "kind": "video",
       "key": "video/BOY2442wHSc",
-      "hash": "acdc2f2432099df7e7db91c9cf61f4237700abf89d610d127716a4563bcc78bd",
+      "hash": "7e22737c3fa62e915294b70e7fccfbe1eb1ac8bd69307ecb63d5bdd8a87703f5",
       "video_id": "BOY2442wHSc",
       "title": "Connect Power BI Telemetry Apps to Read your Business Central Telemetry Data (2023)",
-      "at": "2026-11-11T00:53:30.961Z",
+      "at": "2026-11-19T00:53:02.971Z",
       "matches": []
     },
     "video/BrMKx3wqYac": {
       "kind": "video",
       "key": "video/BrMKx3wqYac",
-      "hash": "b0d2d7ca0f062d03616cf7a092433f394e8c42281d3161aa6bc1d303c0b74cd8",
+      "hash": "c7cff39702fb9b5cd3450230d86ee1556479f61360c73e07b4b18b82f7bd5d06",
       "video_id": "BrMKx3wqYac",
       "title": "Introducing: AI Consumption Billing for Business Central (2025 release wave 1)",
-      "at": "2026-11-11T00:53:33.621Z",
+      "at": "2026-11-19T00:53:00.159Z",
       "matches": []
     },
     "video/bvGdaxC3sq8": {
@@ -34340,85 +34348,113 @@
     "video/BwBR8JwwQa4": {
       "kind": "video",
       "key": "video/BwBR8JwwQa4",
-      "hash": "d6e0116c58a49c449bb558b20f943bbf534833e55826a29fca6663123f9c1800",
+      "hash": "7bd4205992410d8455a19c5eb0080a7a0e9ab12f6b5a916dffb1f17b44b26b85",
       "video_id": "BwBR8JwwQa4",
       "title": "What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)",
-      "at": "2026-10-25T12:33:22.653Z",
+      "at": "2026-11-19T00:53:04.360Z",
       "matches": [
         {
           "feature": 0,
           "name": "Shopify B2B company locations import",
           "t": 5,
           "roadmap_id": "573342",
-          "quote": "imports all company locations from Shopify into Business Central"
+          "quote": "Shopify connector now imports all company locations from Shopify into Business Central"
         },
         {
           "feature": 0,
           "name": "Shopify B2B company locations import",
           "t": 5,
           "roadmap_id": "576836",
-          "quote": "imports all company locations from Shopify into Business Central"
+          "quote": "Shopify connector now imports all company locations from Shopify into Business Central"
         },
         {
           "feature": 1,
           "name": "Tax ID automatic entity mapping",
           "t": 5,
           "roadmap_id": "573342",
-          "quote": "Tax ID information imported from Shopify for automatic entity mapping"
+          "quote": "Tax ID information imported from Shopify can be used for automatic entity mapping"
+        },
+        {
+          "feature": 1,
+          "name": "Tax ID automatic entity mapping",
+          "t": 5,
+          "roadmap_id": "576836",
+          "quote": "Tax ID information imported from Shopify can be used for automatic entity mapping"
         },
         {
           "feature": 2,
           "name": "Customer export with tax ID and company ID",
           "t": 25,
           "roadmap_id": "573342",
-          "quote": "connector now includes tax ID and company ID information"
+          "quote": "When exporting customer data from Business Central to Shopify, the connector now includes tax ID"
         },
         {
           "feature": 3,
           "name": "Payment terms mapping",
           "t": 69,
           "roadmap_id": "573342",
-          "quote": "Payment terms can be mapped between Shopify and Business Central"
+          "quote": "Payment terms can be mapped between Shopify and Business Central, with payment term details transferring"
+        },
+        {
+          "feature": 3,
+          "name": "Payment terms mapping",
+          "t": 69,
+          "roadmap_id": "576836",
+          "quote": "Payment terms can be mapped between Shopify and Business Central, with payment term details transferring"
         },
         {
           "feature": 4,
           "name": "Automatic catalog creation with customer-specific pricing",
           "t": 25,
           "roadmap_id": "573342",
-          "quote": "automatically create catalogs ensuring prices are equal between Shopify and Business Central"
+          "quote": "Shopify connector can automatically create catalogs ensuring prices are equal between Shopify"
+        },
+        {
+          "feature": 4,
+          "name": "Automatic catalog creation with customer-specific pricing",
+          "t": 25,
+          "roadmap_id": "576836",
+          "quote": "Shopify connector can automatically create catalogs ensuring prices are equal between Shopify"
         },
         {
           "feature": 5,
           "name": "Shopify shop card tax ID mapping field",
           "t": 131,
           "roadmap_id": "573342",
-          "quote": "New field on Shopify shop card page allows configuration of which tax ID"
+          "quote": "New field on Shopify shop card page allows configuration of which tax ID to send to Shopify"
+        },
+        {
+          "feature": 6,
+          "name": "Company attention field in location",
+          "t": 186,
+          "roadmap_id": "573342",
+          "quote": "Shopify connector fills in the company/attention field in the created company location"
         },
         {
           "feature": 6,
           "name": "Company attention field in location",
           "t": 186,
           "roadmap_id": "576836",
-          "quote": "Shopify connector fills in the company/attention field in created company location"
+          "quote": "Shopify connector fills in the company/attention field in the created company location"
         }
       ]
     },
     "video/ByRoL46n-Gg": {
       "kind": "video",
       "key": "video/ByRoL46n-Gg",
-      "hash": "eac7a59e65cec593582ddabb9644bb753a255fa35cba5d41fed0b7a8220712cd",
+      "hash": "1940f8ec32fe72ca44a063bcb2a6bbaef0158e9b54df773bf004b469663899f6",
       "video_id": "ByRoL46n-Gg",
       "title": "Introducing: Dynamics 365 Field Service Integration with Business Central (2024 release wave 1)",
-      "at": "2026-10-25T12:33:21.882Z",
+      "at": "2026-11-19T00:53:04.886Z",
       "matches": []
     },
     "video/BZF4MrVfvfY": {
       "kind": "video",
       "key": "video/BZF4MrVfvfY",
-      "hash": "090d6ce2a1d56349142c20306f1510df37b56e81c23132af889e38634b4cbfa0",
+      "hash": "5f5fcfced98880b4035976cd6307b3cddd3aabab1060d843405330e116a97f21",
       "video_id": "BZF4MrVfvfY",
       "title": "What's New: Fixed and Variable G/L Allocations (2023 release wave 2)",
-      "at": "2026-11-11T00:53:31.034Z",
+      "at": "2026-11-19T00:53:01.876Z",
       "matches": []
     },
     "video/c3paEbmDNmM": {
@@ -34433,38 +34469,55 @@
     "video/C5cmG3sNjUg": {
       "kind": "video",
       "key": "video/C5cmG3sNjUg",
-      "hash": "dc724b8ce76af8c3b59583164d8f5bc02d10335777bdaa56076393bf735dd5c9",
+      "hash": "a099f952caced8815bc3c01a5dd5a7838d7affec2b019260f59848278765d82b",
       "video_id": "C5cmG3sNjUg",
       "title": "MCP Server for Business Central - Advanced Topics (Part 3)",
-      "at": "2026-10-30T07:52:44.372Z",
+      "at": "2026-11-19T00:53:06.780Z",
       "matches": [
         {
           "feature": 0,
           "name": "MCP Server for Business Central",
           "t": 75,
-          "roadmap_id": "576789",
-          "quote": "MCP server that exposes all built-in APIs for data"
+          "roadmap_id": "573312",
+          "quote": "MCP server that exposes all built-in APIs for data and allows custom APIs to be added"
         },
         {
           "feature": 0,
           "name": "MCP Server for Business Central",
           "t": 75,
-          "roadmap_id": "573312",
-          "quote": "MCP server that exposes all built-in APIs for data"
+          "roadmap_id": "576789",
+          "quote": "MCP server that exposes all built-in APIs for data and allows custom APIs"
         },
         {
           "feature": 3,
           "name": "Dynamic Tools System with Semantic Search",
           "t": 221,
           "roadmap_id": "573312",
-          "quote": "System where MCP client passes keywords to BC actions search tool"
+          "quote": "MCP client passes keywords to BC actions search tool, performs semantic search"
+        }
+      ]
+    },
+    "video/C5OdiYfxozc": {
+      "kind": "video",
+      "key": "video/C5OdiYfxozc",
+      "hash": "9c805c7414770aa41c1494016ac79ef9110638518b74829e999e417d686d6539",
+      "video_id": "C5OdiYfxozc",
+      "title": "Going Stargazing with the Business Central Observatory",
+      "at": "2026-11-19T00:53:06.068Z",
+      "matches": [
+        {
+          "feature": 2,
+          "name": "MCP server for BC Observatory",
+          "t": 136,
+          "roadmap_id": "573312",
+          "quote": "A Model Context Protocol server that provides programmatic access to the BC Observatory data"
         },
         {
-          "feature": 6,
-          "name": "Discover Additional Objects Feature",
-          "t": 486,
-          "roadmap_id": "576789",
-          "quote": "Discover Additional Objects Feature. Setting that enables discovery of readonly API pages"
+          "feature": 5,
+          "name": "Field schema queries via MCP",
+          "t": 242,
+          "roadmap_id": "573312",
+          "quote": "Ability to query AL table field definitions through MCP, returning field number, name, field class"
         }
       ]
     },
@@ -34497,42 +34550,63 @@
     "video/CCIGX86ljYQ": {
       "kind": "video",
       "key": "video/CCIGX86ljYQ",
-      "hash": "5c9e0444d4d61cf34571a19af6c580a04ab54c8cc46fa54bc2eff698f27ecdd3",
+      "hash": "89fe66b2ff28b1a5795e00d059088b797e57f5e88d125df68d9e077219cabfb4",
       "video_id": "CCIGX86ljYQ",
       "title": "What's New: Document Preview in E-Documents (2025 release wave 1)",
-      "at": "2026-11-01T00:40:22.422Z",
+      "at": "2026-11-19T00:53:06.890Z",
       "matches": []
     },
     "video/Ccmzcoqzox0": {
       "kind": "video",
       "key": "video/Ccmzcoqzox0",
-      "hash": "14fa245643eb7f61ce3b859e0d74862542629c60f1d8018ca6e62b1f7b2b14a6",
+      "hash": "d73a38122b59f3bd347c6a5555a5b50ca80bb2b0f9eb8466af46c04dd416bb92",
       "video_id": "Ccmzcoqzox0",
       "title": "Mavericks of Business Central: Different career paths & opportunities",
-      "at": "2026-10-25T12:33:27.165Z",
+      "at": "2026-11-19T00:53:08.052Z",
       "matches": []
     },
     "video/Cj_n5x3gN_Y": {
       "kind": "video",
       "key": "video/Cj_n5x3gN_Y",
-      "hash": "c1c26a6ed77f06cc1e73f5c0689396dc700c9f71c48841044b6e6885a92f0929",
+      "hash": "d6622cfdee3b73af914a1dd3e2ee8d0754ada743a276441a8b9921bee72106c9",
       "video_id": "Cj_n5x3gN_Y",
       "title": "What's New: Excise Taxes (2026 release wave 1)",
-      "at": "2026-11-01T00:40:28.161Z",
+      "at": "2026-11-19T00:53:10.365Z",
       "matches": [
         {
           "feature": 0,
           "name": "Excise taxes framework",
           "t": 6,
-          "roadmap_id": "576844",
-          "quote": "A configurable framework for calculating and managing excise taxes"
+          "roadmap_id": "573306",
+          "quote": "configurable framework for calculating and managing excise taxes and duties"
+        },
+        {
+          "feature": 0,
+          "name": "Excise taxes framework",
+          "t": 6,
+          "roadmap_id": "573614",
+          "quote": "configurable framework for calculating and managing excise taxes and duties"
         },
         {
           "feature": 1,
           "name": "Excise journal with multiple calculation models",
           "t": 88,
-          "roadmap_id": "576844",
-          "quote": "An excise journal that supports multiple calculation models"
+          "roadmap_id": "573306",
+          "quote": "excise journal that supports multiple calculation models"
+        },
+        {
+          "feature": 1,
+          "name": "Excise journal with multiple calculation models",
+          "t": 88,
+          "roadmap_id": "573614",
+          "quote": "excise journal that supports multiple calculation models"
+        },
+        {
+          "feature": 2,
+          "name": "Tax bases configuration",
+          "t": 186,
+          "roadmap_id": "573614",
+          "quote": "Six different tax base models for calculating excise taxes"
         },
         {
           "feature": 2,
@@ -34542,11 +34616,18 @@
           "quote": "Six different tax base models for calculating excise taxes"
         },
         {
+          "feature": 3,
+          "name": "Entry permissions and source types",
+          "t": 256,
+          "roadmap_id": "573306",
+          "quote": "Configurable entry permissions to specify which transaction types contribute to excise tax calculation"
+        },
+        {
           "feature": 4,
           "name": "Excise duty rates on items and fixed assets",
           "t": 317,
           "roadmap_id": "573306",
-          "quote": "Configuration of fixed excise duty rates that can be applied to items"
+          "quote": "Configuration of fixed excise duty rates that can be applied to items or fixed assets"
         },
         {
           "feature": 5,
@@ -34559,7 +34640,14 @@
           "feature": 6,
           "name": "Excise journal calculation workflow",
           "t": 369,
-          "roadmap_id": "576844",
+          "roadmap_id": "573306",
+          "quote": "Automated workflow that identifies excise types, searches for relevant entries"
+        },
+        {
+          "feature": 6,
+          "name": "Excise journal calculation workflow",
+          "t": 369,
+          "roadmap_id": "573614",
           "quote": "Automated workflow that identifies excise types, searches for relevant entries"
         }
       ]
@@ -34567,10 +34655,10 @@
     "video/CkGTSItdTbs": {
       "kind": "video",
       "key": "video/CkGTSItdTbs",
-      "hash": "1ae804f343c981d40fc0e5188298705e885d6bd90ee79b8e8c3def9736674bc1",
+      "hash": "1220ca52938cf5e2ec5df3080a110e8083e2c92aa4674cb2cb6b0e8896aab0e6",
       "video_id": "CkGTSItdTbs",
       "title": "What's New: Create Multiple Fixed Assets (2025 release wave 2)",
-      "at": "2026-10-30T07:52:46.090Z",
+      "at": "2026-11-19T00:53:10.133Z",
       "matches": []
     },
     "video/cnIJZ2Ozcxs": {
@@ -34585,11 +34673,26 @@
     "video/CoQH7Z-leVE": {
       "kind": "video",
       "key": "video/CoQH7Z-leVE",
-      "hash": "5d40a4e7335a59de3cf2a51ed89b4f09270d8096220743c935ff0e3a393b0ad9",
+      "hash": "3b62f068385523dcdecdc1fec2c4acc648a6dfd76bd1978ca121c5a45fff02d4",
       "video_id": "CoQH7Z-leVE",
       "title": "E-invoice Matching with Copilot in Dynamics 365 Business Central (2024)",
-      "at": "2026-11-01T00:40:24.820Z",
-      "matches": []
+      "at": "2026-11-19T00:53:09.125Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "E-invoice Matching with Copilot",
+          "t": 2,
+          "roadmap_id": "573380",
+          "quote": "Copilot analyzes electronic invoices and automatically compares line items with purchase orders"
+        },
+        {
+          "feature": 1,
+          "name": "Discrepancy Detection and Tolerance Levels",
+          "t": 22,
+          "roadmap_id": "573380",
+          "quote": "Copilot signals discrepancies that fall within user-controlled tolerance levels"
+        }
+      ]
     },
     "video/crDXSPsoIQ8": {
       "kind": "video",
@@ -34863,10 +34966,10 @@
     "video/D2KPQEbO40Q": {
       "kind": "video",
       "key": "video/D2KPQEbO40Q",
-      "hash": "d13b2b334f9b4bbec0fd13b493362d06e953d4c4c25a6fd7199544909c3b8ecd",
+      "hash": "7cd637ab9f81f2b0adcfbc5b116bbce96fa6faebf4abaad34a749896288394d6",
       "video_id": "D2KPQEbO40Q",
       "title": "Dynamics 365 Business Central 2025 Release Wave 1 Release Highlights",
-      "at": "2026-11-01T00:40:24.973Z",
+      "at": "2026-11-19T00:53:09.726Z",
       "matches": []
     },
     "video/d4mYltz4Zwg": {
@@ -34952,24 +35055,24 @@
     "video/D56EVy3JgHA": {
       "kind": "video",
       "key": "video/D56EVy3JgHA",
-      "hash": "d7b40c01d73b42fcda4b71e98c8e1ba60fd28a13242c7595e3b42560461ffc1b",
+      "hash": "c571da5c02799d32cede260462e0b058b2f895bd464128ee3e4cd709b7017738",
       "video_id": "D56EVy3JgHA",
       "title": "What's New: Enhanced Purchase Order Matching with Copilot (2025 release wave 1)",
-      "at": "2026-10-30T07:52:50.129Z",
+      "at": "2026-11-19T00:53:11.227Z",
       "matches": [
         {
           "feature": 0,
           "name": "Support for All Entry Types",
           "t": 29,
           "roadmap_id": "573380",
-          "quote": "Extended matching support beyond general ledger accounts and items to include resources"
+          "quote": "Extended matching support beyond general ledger accounts and items to include resources, item charges"
         },
         {
           "feature": 1,
           "name": "Automatic Extra Line Addition from Invoice",
           "t": 41,
           "roadmap_id": "573380",
-          "quote": "Allows automatic addition of extra lines from inbound electronic invoices"
+          "quote": "Allows automatic addition of extra lines from inbound electronic invoices to purchase orders"
         },
         {
           "feature": 2,
@@ -34993,28 +35096,21 @@
           "quote": "New simplified interface to quickly create purchase order lines from imported invoice lines"
         },
         {
-          "feature": 5,
-          "name": "Auto-Matching Based on 80% Similarity",
-          "t": 294,
-          "roadmap_id": "573380",
-          "quote": "Existing functionality that performs automatic matching when string similarity reaches 80%"
-        },
-        {
           "feature": 6,
           "name": "Copilot Matching with LLM",
           "t": 308,
           "roadmap_id": "573380",
-          "quote": "Existing Copilot functionality that uses large language models to match invoice lines"
+          "quote": "Copilot functionality that uses large language models to match invoice lines with purchase order lines"
         }
       ]
     },
     "video/D7GxnNiGQ14": {
       "kind": "video",
       "key": "video/D7GxnNiGQ14",
-      "hash": "f6a366b25f78a929b9c7d81813f195459f71c8900e24efc623cf2670714ad14e",
+      "hash": "da631961405a4df9053a545b9faf6ba49638d6e6b8a16e58d8940c2c17566c77",
       "video_id": "D7GxnNiGQ14",
       "title": "20260223 - If You Can’t Make It Fast, Make It Feel Fast",
-      "at": "2026-10-25T12:33:30.661Z",
+      "at": "2026-11-19T00:53:13.737Z",
       "matches": []
     },
     "video/d8SZ81uxj_k": {
@@ -35038,19 +35134,19 @@
     "video/DHODFt_jVO4": {
       "kind": "video",
       "key": "video/DHODFt_jVO4",
-      "hash": "c8aded1ca11a1c82048960a3b4ef8ae33e46778e904cbfb60413b6d3d633630d",
+      "hash": "4778c2b818a37d30cb39172e087a6325cda975a06d1a8646edbb9b6852cc6d61",
       "video_id": "DHODFt_jVO4",
       "title": "What's New in Manufacturing: Costing (2025 release wave 1)",
-      "at": "2026-11-01T00:40:27.550Z",
+      "at": "2026-11-19T00:53:14.892Z",
       "matches": []
     },
     "video/DJ3LPRxn27g": {
       "kind": "video",
       "key": "video/DJ3LPRxn27g",
-      "hash": "5a4ccc2f2eeba61eca08d160a540bfa1bb83b7d1f01bbcbc8a585cab2af6d508",
+      "hash": "31698b343729def7aaa19f4c0f099a0068ee9856a71806cbfb0577141a2f8776",
       "video_id": "DJ3LPRxn27g",
       "title": "What's New: Drop Shipments (2026 release wave 1)",
-      "at": "2026-11-01T00:40:29.045Z",
+      "at": "2026-11-19T00:53:15.231Z",
       "matches": []
     },
     "video/Dkd8_cGzIvc": {

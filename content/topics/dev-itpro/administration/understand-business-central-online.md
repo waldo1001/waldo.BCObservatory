@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:38.985Z"
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -28,7 +28,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations
     title: Country/Regional Availability and Supported Languages
-    date: "2026-08-03"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -105,7 +105,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology
     title: Understanding the infrastructure of Business Central online
-    date: "2025-06-20"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -303,7 +303,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (March, 2026)](../../../posts/yzhums-com/71227.md) (community post): "BC28 (2026 release wave 1) is available as public preview"
 - [Cumulative Update Summary for Microsoft Dynamics 365 Business Central (November, 2026)](../../../posts/yzhums-com/77153.md) (community post): "Lists the November 2026 cumulative updates for Business Central: BC29 CU01"
 - [What's New: Resource Governance for Business Central Online (2023 release wave 2)](../../../videos/9PWBpwv4LhQ.md) (video): "What's New: Resource Governance for Business Central Online"
-- [What's New: Cloud for Sovereignty (2026 release wave 1)](../../../videos/n9HaH2dZUaU.md) (video): "cloud sovereignty; data protection; access controls; encryption"
+- [What's New: Cloud for Sovereignty (2026 release wave 1)](../../../videos/n9HaH2dZUaU.md) (video): "Cloud sovereignty; data protection; access controls; encryption; compliance; audit logging"
 
 ## Business Central pages and reports
 

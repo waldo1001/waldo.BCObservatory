@@ -1,17 +1,17 @@
 {
   "hub_id": "topic/business-central/business-functionality/purchasing",
   "input_hash": "3f6b236091a9803142fd2644a81b77ba0860f72c2b8f6c357e9df3debd4ab162",
-  "summary": "Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and approvals. It answers how-to questions on posting and correcting purchase documents, matching invoices to receipts, blanket orders, date calculation, electronic documents, and purchasing analytics.",
-  "overview": "The Purchasing section describes how a company buys goods and services in Business Central. Core pages cover creating purchase quotes and converting them to orders, recording purchases with purchase orders and invoices, and handling returns and cancellations through credit memos or return orders. Related pages cover amending or cancelling unpaid invoices, combining receipts or order lines on one invoice, and blanket orders for long-term agreements.\n\nSupporting pages cover recurring purchase lines, external document numbers, date and lead time calculation, amount checks on invoices and credit memos, and purchase approval workflows. Incoming documents are covered by pages on matching invoice drafts to purchase orders (including Payables Agent proposals) and receiving electronic documents. Other pages cover merging duplicate vendors and syncing contacts to Outlook.\n\nStart with \"Overview of tasks to manage to purchase\" for the map of tasks, then \"Record purchases with purchase invoices\" for the basic flow. The Purchasing analytics subtopic covers the Power BI Purchases app, built-in reports, Data Analysis, and the payment practices report is a separate page.",
+  "summary": "Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and approvals. It answers how-to questions on posting and correcting purchase documents, matching invoice drafts to orders and receipts, blanket orders, date calculation, electronic documents, and purchasing analytics.",
+  "overview": "The Purchasing section describes how a company buys goods and services in Business Central. Core pages cover creating purchase quotes and converting them to orders, recording purchases with purchase orders and invoices, purchasing items for a sale from sales documents, and handling returns and cancellations through credit memos or return orders. Related pages cover amending or cancelling unpaid invoices, combining receipts or order lines on one invoice, and blanket orders for long-term agreements.\n\nSupporting pages cover recurring purchase lines, external document numbers, date and lead time calculation, amount checks on invoices and credit memos, and purchase approval workflows. For incoming documents, one page covers matching invoice drafts to purchase orders and receipts, including Payables Agent proposals. Another covers receiving and converting PEPPOL or OCR electronic documents, and it is scoped to versions before 2023 release wave 2. Other pages cover merging duplicate vendors and syncing contacts to Outlook and Teams.\n\nStart with \"Overview of tasks to manage to purchase\" for the map of tasks, then \"Record purchases with purchase invoices\" for the basic flow. The Purchasing analytics subtopic covers the Power BI Purchases app, built-in reports, Data Analysis on list pages, and legacy reports planned for removal. The payment practices report has its own page in this section.",
   "key_points": [
-    "Purchase quotes can be converted to purchase orders, and vendors can be created automatically from templates.",
+    "Purchase quotes can be converted to purchase orders. A quote for a contact with no vendor record can create the vendor from contact data, using a vendor template chosen by territory and country/region.",
     "Unpaid posted purchase invoices can be corrected or cancelled with corrective credit memos that keep the audit trail.",
-    "Returns and cancellations use purchase credit memos or return orders, with exact cost reversing and item charge assignment options.",
+    "Returns and cancellations use purchase credit memos or return orders, with options such as Get Posted Document Lines to Reverse, Copy from Document, combining return shipments and exact cost reversing.",
     "Get Receipt Lines and Get Order Lines combine several receipts or order lines on one vendor invoice.",
-    "Amount checks validate that document totals including VAT match the sum of purchase lines (2025 release wave 1).",
-    "Invoice drafts can be matched to purchase orders and receipts with validation of quantities, prices, units of measure and item tracking; Payables Agent can propose matches.",
+    "Amount checks validate that document totals including VAT match the sum of purchase lines before posting (page tagged 2025 release wave 1).",
+    "Invoice drafts can be matched to purchase orders and receipts with validation of quantities, prices, units of measure and item tracking; Payables Agent can propose matches for review.",
     "Purchase approval workflows use approvers, amount limits and notifications.",
-    "The Purchasing analytics subtopic (43 pages) covers the Power BI Purchases app, built-in reports and Data Analysis."
+    "The Purchasing analytics subtopic (43 pages) covers the Power BI Purchases app, built-in reports, Data Analysis and legacy reports planned for removal."
   ],
   "members_used": 19,
   "subtopics_used": 1,
@@ -21,5 +21,20 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.023433000000000002
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-19T01:01:35.031Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 3 adds 'item charge assignment options', which the returns page does not support. Its features are Create Corrective Credit Memo, Get Posted Document Lines to Reverse, Copy from Document, Apply Entries, Exact Cost Reversing and Combine Return Shipments.",
+      "Key point 1 says vendors are created 'automatically from templates'. The source says vendors are created from contact data when a quote is for a contact with no vendor record, and a vendor template is selected based on territory and country/region.",
+      "The overview mentions receiving electronic documents without the page's 'before 2023 release wave 2' scope.",
+      "The last sentence of the overview is garbled: it merges the analytics subtopic and the payment practices report into one run-on sentence. It also leaves out the legacy reports planned for removal.",
+      "Minor: the 'Purchase items for a sale' page is not mentioned. Adding it makes the narrative more complete."
+    ],
+    "input_hash": "3f6b236091a9803142fd2644a81b77ba0860f72c2b8f6c357e9df3debd4ab162",
+    "cost_usd": 0.093944
   }
 }

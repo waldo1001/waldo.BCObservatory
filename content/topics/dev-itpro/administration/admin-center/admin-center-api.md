@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bb0d1e64560b8effb8c0287e3daf60b34965af8a0a2835bf649ea71960b081bb
@@ -55,7 +55,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_environment_settings
     title: Business Central Admin Center API - Environment Settings
-    date: "2026-11-13"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
@@ -97,7 +97,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_telemetry
     title: Business Central Admin Center API - Telemetry (API)
-    date: "2025-11-17"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null

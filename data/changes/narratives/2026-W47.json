@@ -1,23 +1,22 @@
 {
   "week": "2026-W47",
-  "input_hash": "1d4efc2787972baddb996bd428e0d805ee655c2aed1fdd3b79c4648cf4703443",
-  "text": "The one breaking change this week is #14002: External File Storage now rejects any path with a whole segment of \".\" or \"..\", for all operations and connectors, so callers passing relative segments get an error. Other behaviour changes follow. #14203 makes Business Central online always use commercial Dataverse endpoints, while on-premises still respects the selected cloud. #14059 moves No. Series Copilot to the GPT-5.6 Ceres deployment. #14007 discontinues Create Product Information with Copilot, with objects obsolete pending in 30.0 and field removal in 33.0. #13558 makes the Fabric Mirroring app export its two log tables. #13587 updates corporate card manual selection in the Expense Agent. Fixes in documents and tax: #14078 corrects TaxPointDate placement in the PEPPOL30 credit memo, #14018 carries custom ship-to addresses into ZUGFeRD delivery addresses, #13987 fixes VAT number validation on sales orders, #13868 fixes Czech VAT Statement signs, #13807 fixes the German VAT Report field type, and #13243 fixes GST entries for partly received import purchase orders. Smaller fixes: #14122, #14006, #13717 and #13601. Non-behavioural work: #14143, #14081, #13965, #14118, and #9326, which moves Finland's Depreciation Differences into a first-party extension.",
-  "changes": 21,
+  "input_hash": "5852bf8025904b3b1dce791c739ce010ab9c2b2c1a168df5db2fc3d0a5c17c33",
+  "text": "The one breaking change this week is #14002: External File Storage now rejects any path segment that is \".\" or \"..\", so callers passing relative segments get an error. Other behaviour changes are mostly fixes. Copilot work moves on: #14059 switches No. Series Copilot to GPT-5.6 Ceres, #14198 updates Sales Lines Suggestions prompts for the same migration, and #14007 discontinues Create Product Information with Copilot, with #14218 limiting the related notification to super users in affected companies. Localization fixes cover Italy (#14124, #11660), Norway (#13820, plus SAF-T 1.40 support in #13264), the Czech Republic (#13868, #13631), Germany (#13807, #14018) and India GST (#13243). Core finance and supply fixes include #13917 on credit memo unit of measure, #13987 on VAT number validation, #14020 on the In-Transit Code, #11026 on service line VAT difference and #13622 on Edit in Excel for price lines. Expense Agent gets #13587, #13978 and #13920. E-documents get #14200 and #13679. Fabric mirroring gets #13558 and #14146. #13999 speeds up Intrastat XML export. #9326 moves Finnish Depreciation Differences into a first-party extension, with legacy code obsolete and removal planned for version 33.",
+  "changes": 41,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.029776,
-  "at": "2026-11-18T00:16:36.082Z",
+  "cost_usd": 0.047554,
+  "at": "2026-11-19T00:15:47.846Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-18T00:58:04.646Z",
+    "at": "2026-11-19T00:58:03.866Z",
     "verdict": "approve",
     "issues": [
-      "#14122, #14006, #13717 and #13601 are listed only by number under 'Smaller fixes', so readers can't tell what changed. It would help to name them briefly (subcontracting transfer lines refresh, GP item transaction duplicates in migration, electronic payments export clearing another vendor's Document No., Customer Statistics FactBox).",
-      "#14018 is a backport to 29.x and also changes the XRechnung and PEPPOL30 exports. The paragraph mentions only ZUGFeRD, which isn't wrong but is incomplete.",
-      "#13243 applies to Import and SEZ vendors. 'Import purchase orders' is a slight simplification."
+      "It leaves out some behaviour changes that readers may care about. The most notable is #14203: Business Central online now always uses commercial Dataverse endpoints, whatever cloud is selected, while on-premises still follows the setting. Also left out: #14078 (PEPPOL30 credit memo schema fix), #14006 (duplicate handling in the Dynamics GP migration), #13717 (electronic payments export no longer clears another vendor's Document No.), #14219, #14122, #13757, #13601 and #12664. These are omissions, not errors.",
+      "#9326 sits in the middle of behaviour-change items, but it is flagged as a refactor with no behaviour change. It doesn't claim to be one, so the wording is acceptable."
     ],
-    "input_hash": "1d4efc2787972baddb996bd428e0d805ee655c2aed1fdd3b79c4648cf4703443",
-    "cost_usd": 0.078636,
+    "input_hash": "5852bf8025904b3b1dce791c739ce010ab9c2b2c1a168df5db2fc3d0a5c17c33",
+    "cost_usd": 0.113332,
     "applied": [],
     "rejected_edits": []
   }

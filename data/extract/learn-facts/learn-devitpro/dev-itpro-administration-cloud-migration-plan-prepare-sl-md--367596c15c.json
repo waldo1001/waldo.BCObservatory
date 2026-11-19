@@ -1,38 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-plan-prepare-sl.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare-sl",
-  "title": "Prepare and plan for cloud migration from Dynamics SL",
-  "blob": "c74ba58f41b874264c1d31bbf5438b6703f8563c",
+  "title": "Plan Dynamics SL Cloud Migration to Business Central",
+  "blob": "fbc2bf783a0c8d4fafe789135f940cfe5ba040eb",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "step",
-      "text": "Run Migration Assessment Tool to assess readiness and identify potential issues before migration"
-    },
-    {
-      "kind": "step",
-      "text": "Determine which companies to migrate upfront to save time and resources"
+      "kind": "fact",
+      "text": "Migration Assessment Tool provides insight into readiness and detects potential issues with Dynamics SL system."
     },
     {
       "kind": "fact",
-      "text": "Migration can run from live production database or from backup; backup approach improves speed and minimizes downtime"
+      "text": "Analysis Tool generates report examining data that can be migrated and modules in use."
     },
     {
       "kind": "fact",
-      "text": "Full database backup is required; differential or partial backups cannot be used due to Change Tracking requirements"
+      "text": "Repair Tool validates Dynamics SL data and identifies issues requiring repair before migration."
     },
     {
       "kind": "fact",
-      "text": "Schedule migration to avoid conflicts with scheduled updates to Business Central online"
+      "text": "Data migrated determined on per-company basis, can migrate all companies or only specific ones."
+    },
+    {
+      "kind": "fact",
+      "text": "Most migrations can run from on-premises production database with minimal downtime for end users."
     },
     {
       "kind": "prerequisite",
-      "text": "Analysis and Repair tools must be downloaded from GitHub and run before migration setup"
+      "text": "Keep Dynamics SL source version and Business Central online version unchanged during cloud migration setup."
     },
     {
-      "kind": "limit",
-      "text": "Do not update on-premises environment or reschedule cloud updates during migration period"
+      "kind": "fact",
+      "text": "Schedule online environment updates for date after cloud migration completes."
     }
   ],
   "dropped": 0,
@@ -40,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005231,
-      "pages_in_call": 10
+      "cost_usd": 0.00502,
+      "pages_in_call": 11
     }
   ]
 }

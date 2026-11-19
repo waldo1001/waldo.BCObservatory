@@ -12,7 +12,7 @@ review:
   at: "2026-11-13T01:01:22.015Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -181,15 +181,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-lifecycle-trace
-    title: Analyzing financial report lifecycle trace telemetry
-    date: "2025-03-20"
+    title: Analyzing Financial Report Lifecycle Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-usage-trace
-    title: Analyzing financial report usage trace telemetry
-    date: "2025-03-20"
+    title: Analyzing Financial Report Usage Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null

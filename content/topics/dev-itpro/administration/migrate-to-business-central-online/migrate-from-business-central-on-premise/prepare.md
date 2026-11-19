@@ -2,80 +2,80 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/prepare
 type: topic
 title: Prepare
-summary: "Preparation steps for migrating Business Central on-premises to online: planning, data scope, cleaning data, aligning SQL table definitions, estimating data size, tuning performance, and upgrade considerations. It answers what to check and fix before starting a cloud migration."
+summary: Preparation steps for migrating Business Central on-premises to Business Central online. It covers planning, data cleaning, SQL table alignment, compressed size estimation, performance tuning, upgrade considerations and the risks of migrating into live tenants.
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:22:21.848Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f80f0992723db520206def0be2aba1face27bbe11b2e0f7f181513c94ecebb51
+  input_hash: acfed2c1f641b3e604fa95f2901afe7e353b34b307d73213cdec407eaf1a0c42
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-align-table-definitions
-    title: Align SQL Table Definitions
-    date: "2022-11-25"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-clean-data
-    title: Clean data
-    date: "2023-03-24"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-estimate-compressed-data-size
-    title: Estimating the data size in your Business Central online tenant
-    date: "2023-11-06"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-companies-live-tenant
-    title: Migrating Business Central companies into live tenants
-    date: "2024-03-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-optimize-replication
-    title: Optimizing cloud migration performance
-    date: "2023-03-22"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare
-    title: Prepare and plan for cloud migration from Business Central on-premises
-    date: "2026-05-23"
+    title: Align SQL Table Definitions for Cloud Migration
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations
-    title: Upgrade Considerations
-    date: "2021-04-01"
+    title: Business Central Upgrade Planning and Considerations
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-clean-data
+    title: Clean Business Central Data Before Cloud Migration
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-estimate-compressed-data-size
+    title: Estimate Compressed Data Size for Business Central Online
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-companies-live-tenant
+    title: Migrate Business Central Companies into Live Tenants
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-optimize-replication
+    title: Optimize Business Central Cloud Migration Performance
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare
+    title: Plan and Prepare for Business Central Cloud Migration
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-align-table-definitions
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-clean-data
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-estimate-compressed-data-size
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-companies-live-tenant
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-optimize-replication
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations
   objects: []
   features: []
   topics:
@@ -105,60 +105,60 @@ narrative: generated
 
 # Prepare
 
-> Preparation steps for migrating Business Central on-premises to online: planning, data scope, cleaning data, aligning SQL table definitions, estimating data size, tuning performance, and upgrade considerations. It answers what to check and fix before starting a cloud migration.
+> Preparation steps for migrating Business Central on-premises to Business Central online. It covers planning, data cleaning, SQL table alignment, compressed size estimation, performance tuning, upgrade considerations and the risks of migrating into live tenants.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Business Central on-premises](../migrate-from-business-central-on-premise.md) > Prepare · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Business Central on-premises](../migrate-from-business-central-on-premise.md) > Prepare · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the work to do before running a cloud migration from Business Central on-premises. It starts with planning: assessing the current state, deciding which company and extension data to migrate, preparing environments, and writing a governance runbook that includes dry runs.
+This section is the checklist to work through before running a cloud migration from Business Central on-premises. It starts with a planning page that helps you assess your current state, decide which company and extension data to migrate, estimate data size, prepare the database, and set up a governance plan with runbooks and a dry run cadence.
 
-The other pages deal with specific readiness tasks. You can clean data (invalid characters in code fields, corrupt company names, outdated data), align SQL table definitions between on-premises and online, and estimate the compressed data size of the online tenant. For large databases there is guidance on performance. There are also notes on upgrade considerations and on the risks of migrating companies into a tenant that is already live.
+The other pages cover specific preparation tasks. They explain how to clean data (corrupted code fields and company names, compressing or archiving old data), how to make on-premises SQL table definitions match online ones, and how to estimate size with page compression, which all online tables use. Further pages cover upgrade considerations when coming from Dynamics NAV, performance tuning for large databases, and the risks of moving companies into a tenant that is already live.
 
-Start with "Prepare and plan for cloud migration from Business Central on-premises" to build the plan. Then work through data cleaning, table alignment and size estimation. Read the performance and upgrade pages if your database is large or runs an older version.
+Start with "Plan and Prepare for Business Central Cloud Migration", then use the task pages that apply to your database. Read the live tenant page before you plan any migration into a tenant that is already in use.
 
 ## Key points
 
-- Planning covers data assessment, company and extension data migration, environment strategy, change tracking, dry run planning and a governance runbook.
-- On-premises and online SQL table objects must have matching primary keys, field names and data types. Table mapping can handle different names and fields.
-- Data cleaning includes sanitizing code fields with the Invoke-NAVSanitizeField cmdlet, fixing corrupt company names, and compressing or archiving old data.
-- Online data size can be estimated with SQL Server data compression (page compression) and a SQL stored procedure.
-- Performance tips for large databases: deploy to Azure SQL Database, monitor CPU and memory, migrate fewer companies per batch, optimize statistics and indexes, and skip API data upgrades where possible.
-- Migrating companies into a live tenant after go-live is not officially supported. The page documents risks such as the Intelligent Cloud permission set, per-database replication, number sequences, schema modification and API integration setup.
-- Upgrade considerations apply to Spring 2019 and later, including extension V1 to V2 conversion, CRM integration upgrade, MenuSuite search, profile customization and special characters in company names.
+- Planning covers assessing current state, choosing company and extension data to migrate, estimating size, and building a governance plan with runbooks and dry runs.
+- Source and destination SQL tables must match on primary keys, field names, data types and field lengths for replication to work.
+- Clean data first: the Invoke-NAVSanitizeField cmdlet fixes corrupted code fields, and corrupted company names should be identified. Compress or archive outdated data.
+- All online tables use page compression, so on-premises database size can differ after migration. Use SQL Server compression estimates.
+- Performance for large databases can improve by deploying to Azure SQL, upscaling the database, reducing companies per batch, reorganizing indexes, updating statistics, and managing API data upgrades.
+- Migrating on-premises companies into live tenants after go-live is not officially supported and risks data loss, permission replacement (INTELLIGENT CLOUD permission set), per-database table issues, and duplicate upgrades.
+- Upgrade planning from Dynamics NAV covers extension V1 to V2 conversion, upgrade codeunits, per-tenant extensions, and deprecated features such as MenuSuite and CRM integration upgrade.
 
 ## Learn pages
 
-- [Align SQL Table Definitions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-align-table-definitions): Learn what table properties need to be the same in on-premises and online database for cloud migration to work.
-  - On-premises and online table objects must have identical definitions for successful migration.
-  - Prerequisite: Primary keys must match between source and destination tables.
-  - Prerequisite: Field names and data types must match between source and destination tables.
-  - Limit: Different table names, missing fields, and extra fields can be handled by table mapping.
-  - Limit: Different table IDs and secondary keys do not affect cloud migration.
-- [Clean data](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-clean-data): This article discusses tasks to do on data in Business Central on-premises database before you run cloud migration.
-  - Code data type fields with lowercase characters and whitespace must be cleaned before cloud migration to prevent failures in the cloud.
-  - Step: Run Invoke-NAVSanitizeField PowerShell cmdlet from Business Central Administration Shell against the on-premises database to delete invalid characters.
-  - Cmdlet returns object containing number of rows modified, tables impacted, and potentially ignored records list.
-  - Company names with trailing spaces, leading spaces, or carriage return characters prevent those companies from being picked up for migration.
-  - Step: Use SQL query to identify corrupted company names instead of the sanitize field cmdlet, then manually correct them.
-  - Compress and archive out-of-date data using Data Archive extension page 9035 to improve migration performance.
-  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
-- [Estimating the data size in your Business Central online tenant](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-estimate-compressed-data-size): This article outlines how to estimate the data size in your Business Central online tenant
-  - Online data is compressed using SQL Server page compression; on-premises size does not match migrated size.
-  - All online tables use CompressionType set to Page.
-  - Stored procedure estimate_page_compressed_table_sizes calculates compressed size of all or selected tables.
-  - Stored procedure fails if table columns contain ampersand character; query identifies such tables to exclude.
-  - Step: Create and run provided stored procedure with optional filters for specific tables or exclusions.
-  - Step: Execute procedure against tenant database to get compression savings estimates.
-- [Migrating Business Central companies into live tenants](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-companies-live-tenant): Learn about the risks when moving companies to live online tenants.
-  - Status: Migrating companies into live tenants after going live is not officially supported and carries risk of data loss.
-  - By default, cloud migration replaces permission sets with Intelligent Cloud permissions except for SUPER users.
-  - Limit: Per-database table data in online tenant is at risk of being replaced by on-premises data.
-  - Limit: Exclude all per-database tables except Tenant Media before replication to minimize data loss risk.
-  - Upgrade tags must not be replaced; contact support immediately if they are.
-  - Avoid running upgrade twice and monitor for business hours conflicts with large upgrades.
-  - Reconfigure Dataverse mapping and API integrations after migration.
-- [Optimizing cloud migration performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-optimize-replication): This article explains things you can do to improve the performance of the cloud migration, especially when migrating large databases.
+- [Align SQL Table Definitions for Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-align-table-definitions): Learn which SQL table definitions must match between Business Central on-premises and online databases before you run cloud migration.
+  - Prerequisite: Source and destination tables must have matching primary keys and field names with identical data types.
+  - Replication checks field lengths and reports incompatible lengths as column-mapping errors.
+  - Table names can differ if handled by table mapping during cloud migration setup.
+  - Limit: Table and field IDs do not have to match for SQL replication.
+  - Limit: Secondary keys do not have to match for SQL replication.
+- [Business Central Upgrade Planning and Considerations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations): Review application, customization, schema, and data considerations when upgrading a Dynamics NAV solution to Business Central on-premises.
+- [Clean Business Central Data Before Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-clean-data): Prepare Business Central on-premises data for cloud migration by sanitizing code fields, checking company names, and compressing or archiving old data.
+  - Step: Open Business Central Administration Shell as administrator and run Invoke-NAVSanitizeField cmdlet against on-premises database.
+  - Corrupted code fields contain invalid characters like lowercase letters and whitespace that must be deleted before migration.
+  - Invoke-NAVSanitizeField cmdlet returns object containing number of rows modified, tables impacted, and potentially ignored records.
+  - Company names with invalid characters prevent tables from being picked up for cloud migration.
+  - Step: Use SQL query to identify corrupted company names with trailing spaces, leading spaces, line feeds, or carriage returns.
+  - Compress and archive outdated data using Data Administration page 9035 before migration.
+  - In the observatory: [Page 9035 "Data Administration"](../../../../../objects/page/9035.md)
+- [Estimate Compressed Data Size for Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-estimate-compressed-data-size): Estimate compressed data size for Business Central online before cloud migration by using SQL Server compression estimates for your source tables.
+  - Data in Business Central online is compressed using SQL Server data compression feature.
+  - All tables in online version compressed with CompressionType set to Page.
+  - Data size in on-premises database may not match data size when migrated to online service.
+  - Provided SQL stored procedure estimates compressed size of all or some tables in database.
+  - Limit: Stored procedure sp_estimate_data_compression_savings fails if table has columns with ampersand in name.
+- [Migrate Business Central Companies into Live Tenants](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-companies-live-tenant): Learn about data loss, permissions, and upgrade risks when migrating Business Central on-premises companies into live online tenants.
+  - Limit: Migrating companies to live tenants after going live is not officially supported and may cause data loss.
+  - INTELLIGENT CLOUD permission set replaces system-scope assignments; SUPER and LOCAL assignments are retained.
+  - Per-database table data created online can be lost if replaced during migration; Tenant Media should be safely migrated incrementally.
+  - Limit: Running upgrade twice on cloud migration must be avoided; it risks updating data twice including per-database data.
+  - Modifying data in replicated companies while system is live creates risk; users, jobs, or APIs might change data during migration.
+  - No schema changes or extension installations allowed during replication; this causes data integrity issues.
+  - Dataverse mapping and API integrations must be reconfigured on migrated companies after migration completes.
+- [Optimize Business Central Cloud Migration Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-optimize-replication): Learn how to improve Business Central cloud migration performance by managing company batches, source database resources, and API data upgrades.
   - Deploy source database to Azure SQL Database instead of on-premises SQL Server for faster data replication and easier self-hosted integration runtime setup.
   - Step: Monitor CPU and memory utilization in Azure portal using Metrics for SQL Database; upscale if high consumption occurs.
   - Cloud migration is optimized for batches of up to 250 companies; reduce companies in batch if database has hundreds.
@@ -166,17 +166,17 @@ Start with "Prepare and plan for cloud migration from Business Central on-premis
   - Step: Skip API data upgrade on company basis during migration, then run it after going live if extended upgrade time occurs.
   - Limit: Large data sets in companies should be broken into separate migration runs; each large company may need individual handling.
   - Use Cloud Migration APIs for moving many companies; find samples in BC Tech GitHub repository for automation.
-  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md), [Page 9035 "Data Administration"](../../../../../objects/page/9035.md)
-- [Prepare and plan for cloud migration from Business Central on-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare): This article provides recommendations to help you define your cloud migration strategy and get environments and users ready for cloud migration.
-  - Assess current state by reviewing version, database size, customization inventory, largest tables, and compliance requirements.
-  - On-premises data in extension tables migrates only if extension is installed online and ReplicateData property is true.
-  - Compressed data size in cloud may differ from on-premises size due to SQL Server data compression feature.
-  - Step: Archive obsolete history, shrink oversized log tables, and validate schema changes before migration.
-  - Per-database tables migrate regardless of company selection; plan batches for multi-company migration early.
-  - Prerequisite: Use sandbox environment for dry runs and validation; do not set up migration for production already in use.
-  - Step: Enable change tracking on on-premises database for expected days between backups; minimum three days enforced.
-  - Create full backup of on-premises database; differential or partial backups not supported as they lack Change Tracking data.
-- [Upgrade Considerations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations): This article provides tips and considerations to prepare a solution when you are planning to upgrade Microsoft Dynamics 365 Business Central.
+  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md), [Page 9035 "Data Administration"](../../../../../objects/page/9035.md), [Page 9994 "API Data Upgrade List"](../../../../../objects/page/9994.md)
+- [Plan and Prepare for Business Central Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare): This article provides recommendations to help you define your cloud migration strategy and get environments and users ready for cloud migration.
+  - Step: Assess current on-premises environment including version, database size, customizations, and compliance requirements.
+  - Per-database tables shared across companies and can be replicated regardless of which companies selected.
+  - Prerequisite: Move all companies to tenant before going live; moving into live tenant can lead to data loss.
+  - Extension data migrated only if extension installed in online environment and ReplicateData property set to true.
+  - Limit: Data compression in online means on-premises database size may not match migrated data size.
+  - Change tracking retention period should be at least three days for migration strategy.
+  - Prerequisite: Keep environments on Business Central version used when cloud migration set up; do not update on-premises.
+  - Create migration runbook documenting owners, dependencies, timelines, decision gates, and rollback options.
+  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -178,7 +178,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to easily prevent users from adding or modifying Links and Notes (Making Links and Notes Read-Only)](../../../../../posts/yzhums-com/72087.md) (community post): "Excluding Insert, Modify, and Delete permissions on RecordLinks makes Links and Notes read-only"
 - [Dynamics 365 Business Central: Why can’t a Super User create a new Company](../../../../../posts/yzhums-com/73365.md) (community post): "Only users with the SUPER permission set can create a new company"
 - [What's Cooking in Business Central: Replace Permission Sets Upon Import](../../../../../videos/asSSBl8Cj34.md) (video): "Replace permission sets upon import; Import permission sets action"
-- [What's New: Enhanced IT Audit Reporting (2026 release wave 1)](../../../../../videos/YbuO1n_Lqj0.md) (video): "permissions; approvals; user management; analysis mode"
+- [What's New: Enhanced IT Audit Reporting (2026 release wave 1)](../../../../../videos/YbuO1n_Lqj0.md) (video): "Permission Overview page; Approval User Overview page; Approval Entry Overview page"
 
 ## Business Central pages and reports
 

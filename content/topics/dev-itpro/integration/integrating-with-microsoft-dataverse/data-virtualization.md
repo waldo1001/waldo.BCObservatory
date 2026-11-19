@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:37.894Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,7 +49,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview
     title: Microsoft Power Platform integration with Business Central via Virtual Tables
-    date: "2025-09-30"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null

@@ -1,51 +1,47 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-finish-gp.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-gp",
-  "title": "Complete cloud migration for Dynamics GP",
-  "blob": "4f0ecc6f7cf68d04d5a290de8370a64aa5c8ebde",
+  "title": "Complete Dynamics GP Migration to Business Central",
+  "blob": "60f6e260226618224db552246d31a50aa2bf0d87",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "step",
-      "text": "Validate migrated data by running validation tests from Cloud Migration Management page."
+      "text": "Validate migrated data by running migration validation tests from Cloud Migration Management page."
     },
     {
       "kind": "step",
-      "text": "Disable cloud migration in Cloud Migration Setup once desired data migrated."
+      "text": "Open Cloud Migration Management page and select Disable Cloud Migration with SUPER permission set."
+    },
+    {
+      "kind": "step",
+      "text": "On Cloud Ready Checklist page, turn on I have read and understand the recommended steps switch, then select Disable Cloud Migration."
     },
     {
       "kind": "fact",
-      "text": "Each migration run overwrites outstanding documents and changes made in target company."
+      "text": "Integration runtime remains installed after disabling cloud migration and can be reused for future migrations."
+    },
+    {
+      "kind": "step",
+      "text": "Set up users by creating Microsoft 365 accounts with Business Central licenses for each user."
+    },
+    {
+      "kind": "step",
+      "text": "Create Business Central accounts associated with Microsoft 365 email and assign proper permissions to data."
     },
     {
       "kind": "fact",
-      "text": "When cloud migration disabled, setup deleted but integration runtime remains."
-    },
-    {
-      "kind": "fact",
-      "text": "Integration runtime cloud registration auto-cleaned after couple weeks of non-use."
-    },
-    {
-      "kind": "step",
-      "text": "Set up user accounts in Microsoft 365 tenant with Business Central licenses."
-    },
-    {
-      "kind": "step",
-      "text": "Create Business Central user accounts associated with Microsoft 365 email addresses."
-    },
-    {
-      "kind": "step",
-      "text": "Assign proper permission sets to users in Business Central."
+      "text": "Dynamics GP user accounts and permissions are not migrated to Business Central online."
     }
   ],
-  "dropped": 0,
+  "dropped": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004442,
-      "pages_in_call": 13
+      "cost_usd": 0.004023,
+      "pages_in_call": 10
     }
   ]
 }

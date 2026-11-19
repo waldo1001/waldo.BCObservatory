@@ -11,7 +11,7 @@ review:
   at: "2026-11-17T01:01:05.138Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -20,280 +20,280 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-2
     title: Update 15.2 for Microsoft Dynamics 365 Business Central 2019 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-3
     title: Update 15.3 for Microsoft Dynamics 365 Business Central 2019 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-4
     title: Update 15.4 for Microsoft Dynamics 365 Business Central 2019 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-16-1
     title: Update 16.1 for Microsoft Dynamics 365 Business Central 2020 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-16-2
     title: Update 16.2 for Microsoft Dynamics 365 Business Central 2020 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-16-3
     title: Update 16.3 for Microsoft Dynamics 365 Business Central 2020 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-16-4
     title: Update 16.4 for Microsoft Dynamics 365 Business Central 2020 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-16-5
     title: Update 16.5 for Microsoft Dynamics 365 Business Central 2020 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-17-1
     title: Update 17.1 for Microsoft Dynamics 365 Business Central 2020 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-17-2
     title: Update 17.2 for Microsoft Dynamics 365 Business Central 2020 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-17-3
     title: Update 17.3 for Microsoft Dynamics 365 Business Central 2020 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-17-4
     title: Update 17.4 for Microsoft Dynamics 365 Business Central 2020 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-17-5
     title: Update 17.5 for Microsoft Dynamics 365 Business Central 2020 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18.1
     title: Update 18.1 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18-2
     title: Update 18.2 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18-3
     title: Update 18.3 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18-4
     title: Update 18.4 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18-5
     title: Update 18.5 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-1
     title: Update 19.1 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-2
     title: Update 19.2 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-3
     title: Update 19.3 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-4
     title: Update 19.4 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-5
     title: Update 19.5 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-20-1
     title: Update 20.1 for Business Central online
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-20-2
     title: Update 20.2 for Microsoft Dynamics 365 Business Central 2022 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-20-3
     title: Update 20.3 for Microsoft Dynamics 365 Business Central 2022 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-20-4
     title: Update 20.4 for Microsoft Dynamics 365 Business Central 2022 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-20-5
     title: Update 20.5 for Microsoft Dynamics 365 Business Central 2022 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-20-6
     title: Update 20.6 for Microsoft Dynamics 365 Business Central 2022 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-1
     title: Update 21.1 for Microsoft Dynamics 365 Business Central 2022 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-2
     title: Update 21.2 for Microsoft Dynamics 365 Business Central 2022 release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-3
     title: Update 21.3 for Microsoft Dynamics 365 Business Central 2022 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-4
     title: Update 21.4 for Microsoft Dynamics 365 Business Central 2022 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-5
     title: Update 21.5 for Microsoft Dynamics 365 Business Central 2022 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-1
     title: Update 22.1 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-2
     title: Update 22.2 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-3
     title: Update 22.3 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-4
     title: Update 22.4 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-5
     title: Update 22.5 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-1
     title: Update 23.1 for Microsoft Dynamics 365 Business Central 2023 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null

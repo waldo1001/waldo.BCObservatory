@@ -2,33 +2,33 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/prepare
 type: topic
 title: Prepare
-summary: "Preparation for migrating Dynamics SL on-premises data to Business Central online. It answers questions about prerequisites (destination, source system, database) and about planning: assessment tools, data selection, migration approaches, and scheduling."
+summary: Preparation steps for migrating Dynamics SL on-premises data to Business Central online. It answers questions about prerequisites for the destination environment, source database and integration runtime, and about planning the migration with the assessment, analysis and repair tools.
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:22:49.261Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 03b97b234ebde8a7714b553f60436119559751a849e6348589fbe547996ad1de
+  input_hash: 535524969a650e77f32d9b29b110d1c329f47dbf9056cc3d2b8111dfbcd1c8a2
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-sl
-    title: Cloud Migration Prerequisites for Dynamics SL
-    date: "2024-12-13"
+    title: Dynamics SL Migration Prerequisites for Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare-sl
-    title: Prepare and plan for cloud migration from Dynamics SL
-    date: "2024-12-13"
+    title: Plan Dynamics SL Cloud Migration to Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -65,47 +65,47 @@ narrative: generated
 
 # Prepare
 
-> Preparation for migrating Dynamics SL on-premises data to Business Central online. It answers questions about prerequisites (destination, source system, database) and about planning: assessment tools, data selection, migration approaches, and scheduling.
+> Preparation steps for migrating Dynamics SL on-premises data to Business Central online. It answers questions about prerequisites for the destination environment, source database and integration runtime, and about planning the migration with the assessment, analysis and repair tools.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Prepare · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Prepare · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the steps to take before running a cloud migration from Dynamics SL to Business Central online. It has two pages: one on prerequisites and one on planning and preparation.
+This section covers what to do before running a Dynamics SL to Business Central cloud migration. It has two pages: one on prerequisites and one on planning.
 
-Start with the prerequisites page. It lists what the destination environment, the source system and the database must meet, including SUPER permissions, Intelligent Cloud Base, SQL Server requirements and a self-hosted integration runtime.
+The prerequisites page covers the destination environment (the SUPER permission set and installing the migration apps), the source database (SQL Server authentication and change tracking) and the integration runtime. The planning page covers the assessment tools, the data migration strategy and the migration approach steps.
 
-Then read the planning page. It covers the Migration Assessment Tool, Analysis Tool and Repair Tool, choosing which data to migrate, migration approaches such as replication, a data backup strategy, and scheduling.
+Start with the planning page to decide on scope and approach, including the per-company migration model. Then work through the prerequisites page to prepare both environments before you start the migration.
 
 ## Key points
 
-- Prerequisites cover three areas: the destination environment, the source system, and database specifications.
-- SUPER permissions are listed as a prerequisite.
-- Intelligent Cloud Base is part of the prerequisites.
-- SQL Server requirements apply to the source database.
-- A self-hosted integration runtime is needed for the migration.
-- Planning uses the Migration Assessment Tool, Analysis Tool and Repair Tool.
-- Planning includes choosing which data to migrate, picking a migration approach (including replication), and scheduling.
-- A data backup strategy is part of preparation.
+- The user running the migration needs the SUPER permission set in the destination Business Central environment.
+- The destination needs the Business Central migration apps, including the Intelligent Cloud Base app and the Dynamics SL Migration app.
+- The source database must use SQL Server authentication and have change tracking set up.
+- The prerequisites also include configuring the integration runtime.
+- Planning uses three tools: the Migration Assessment Tool, the Analysis Tool and the Repair Tool.
+- The migration is done per company.
+- The migration approach covers data replication and data upgrade.
 
 ## Learn pages
 
-- [Cloud Migration Prerequisites for Dynamics SL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-sl): Learn about the requirements for cloud migration in Dynamics SL on-premises and online.
-  - Prerequisite: Destination must have Business Central online tenant with at least one SUPER permission user
-  - Prerequisite: Must install Intelligent Cloud Base, Dynamics SL Intelligent Cloud, and related apps with latest updates
-  - Permissions: User performing migration needs SUPER permissions and Microsoft admin center admin role, or delegated admin with permission grant
-  - Prerequisite: Source database must be Dynamics SL 2015 or later on SQL Server 2016 SP1 or later with compatibility level 130 or higher
-  - Prerequisite: SQL Server must have TCP/IP enabled and configured for SQL Server authentication with sysadmin and db_owner roles
-  - Prerequisite: Self-hosted integration runtime machine required for on-premises local databases
-  - Limit: Migration currently only supported for United States, Canada, United Kingdom, and Australia markets
-- [Prepare and plan for cloud migration from Dynamics SL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare-sl): Learn how to define your cloud migration strategy and prepare environments and users for Dynamics SL cloud migration.
-  - Step: Run Migration Assessment Tool to assess readiness and identify potential issues before migration
-  - Step: Determine which companies to migrate upfront to save time and resources
-  - Migration can run from live production database or from backup; backup approach improves speed and minimizes downtime
-  - Full database backup is required; differential or partial backups cannot be used due to Change Tracking requirements
-  - Schedule migration to avoid conflicts with scheduled updates to Business Central online
-  - Prerequisite: Analysis and Repair tools must be downloaded from GitHub and run before migration setup
-  - Limit: Do not update on-premises environment or reschedule cloud updates during migration period
+- [Dynamics SL Migration Prerequisites for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-sl): Check Dynamics SL source database, SQL Server, Business Central permissions, migration apps, and integration runtime requirements before cloud migration.
+  - Prerequisite: Customer has Business Central online tenant.
+  - Prerequisite: At least one user has SUPER permission set in target company.
+  - Dynamics SL migration retains existing Business Central user permissions; users not automatically reassigned to Intelligent Cloud.
+  - Prerequisite: Install Intelligent Cloud Base, Dynamics SL Migration, Dynamics SL Migration US, and Dynamics SL Historical Data apps.
+  - Status: Supported for United States, Canada, United Kingdom, and Australia markets only.
+  - Prerequisite: Dynamics SL 2015 or later on-premises.
+  - Prerequisite: SQL Server 2016 SP1 or later with compatibility level 130 or higher.
+  - Step: Download SL database preparation scripts and run procedures to enable change tracking on application database.
+- [Plan Dynamics SL Cloud Migration to Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare-sl): Plan your Dynamics SL migration to Business Central online, select company data, test replication, and schedule the final backup, upgrade, and validation.
+  - Migration Assessment Tool provides insight into readiness and detects potential issues with Dynamics SL system.
+  - Analysis Tool generates report examining data that can be migrated and modules in use.
+  - Repair Tool validates Dynamics SL data and identifies issues requiring repair before migration.
+  - Data migrated determined on per-company basis, can migrate all companies or only specific ones.
+  - Most migrations can run from on-premises production database with minimal downtime for end users.
+  - Prerequisite: Keep Dynamics SL source version and Business Central online version unchanged during cloud migration setup.
+  - Schedule online environment updates for date after cloud migration completes.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 

@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/13920",
+  "input_hash": "108d1f77ab671d049cc637dd8721eb6a5eac0596e342d6888f32717504999c05",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-19T00:57:37.230Z",
+  "issues": [
+    "The description holds only a work item link, so how the fix works cannot be confirmed. The change could add a length check or change the field definitions.",
+    "The summary and key points say a 50-character limit is now enforced and longer addresses are blocked. Nothing given supports that; the title only says such addresses fail to save.",
+    "'Extended ... validation' and 'Aligns with Text[50] limits' are guesses."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022552,
+    "changes_in_call": 2
+  }
+}

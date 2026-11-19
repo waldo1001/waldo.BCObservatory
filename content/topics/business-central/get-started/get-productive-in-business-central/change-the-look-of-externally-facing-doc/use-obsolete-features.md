@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -121,7 +121,7 @@ The pages follow the life of a layout. You create or copy a layout, export or im
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#13965 Bug 658846: [29.x]Partner feedback: Mark "Custom Report Layouts" page caption with '(Obsoleted)' and also add a notification OnOpen](../../../../../changes/bcapps/13965.md) (code change): "Custom Report Layouts page caption is marked with (Obsoleted) and a notification is shown"
+- [#13965 Bug 658846: [29.x]Partner feedback: Mark "Custom Report Layouts" page caption with '(Obsoleted)' and also add a notification OnOpen](../../../../../changes/bcapps/13965.md) (code change): "Mark "Custom Report Layouts" page caption with '(Obsoleted)'"
 - [Business Central 2026 release wave 2 (BC29): Custom Report Layouts are now deprecated and have been removed](../../../../../posts/yzhums-com/77038.md) (community post): "This legacy feature from Dynamics NAV was already obsolete but retained"
 
 ## Business Central pages and reports

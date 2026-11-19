@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T00:47:52.902Z"
+  at: "2026-11-19T00:47:08.789Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 4edfd4d78e1c0df75655aad6b8d64d3d377d61be0e42eac179a6a42e65ff32a6
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralPremiumCOHUB.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralPremiumCOHUB.Entitlement.al
     title: src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralPremiumCOHUB.Entitlement.al (releases/29.x)
     date: null
-    commit: 4f49a1eb5ebb7384620fe1654dd53536c3abca03
+    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central Premium COHUB" in CompanyHub (Mirosoft.Integration.CompanyHub). Introduced in BC29, still in BC30.
 
-CompanyHub · Mirosoft.Integration.CompanyHub · BC29-30 · [source at 4f49a1eb](https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralPremiumCOHUB.Entitlement.al) · facts from BC29
+CompanyHub · Mirosoft.Integration.CompanyHub · BC29-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/CompanyHub/app/Entitlements/Dynamics365BusinessCentralPremiumCOHUB.Entitlement.al) · facts from BC29
 
 ## Across versions
 

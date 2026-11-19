@@ -8,11 +8,11 @@
   ],
   "summary": "Norwegian SAF-T now preserves original category identifiers during import and displays them in the mapping setup to prevent uppercase conversion issues and improve identifier visibility.",
   "key_points": [
-    "Original category identifiers are preserved for all imported categories, not just those exceeding 20 characters",
-    "New read-only Category Extended No. column added to SAF-T G/L Mapping Subpage to display the full identifier",
-    "Category extended number refreshes when selecting or clearing a category on the mapping page",
-    "Existing category keys and account mappings remain unchanged, only reimport needed to repair short categories",
-    "24 unit tests added to cover import, reimport, mapping page, and XML export scenarios"
+    "Original category identifier now stored for all imported categories, not only those over 20 characters",
+    "New read-only Category Extended No. column on the SAF-T G/L Mapping Subpage shows the full identifier",
+    "Value refreshes when a category is selected or cleared",
+    "Existing category keys and mappings unchanged; reimport source files and regenerate the export to repair short categories",
+    "Import, mapping page and XML export tests updated and extended"
   ],
   "change_kind": "fix",
   "behavior_change": true,

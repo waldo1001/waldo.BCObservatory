@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:33.183Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -20,8 +20,22 @@ generated:
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises
-    title: Business Central on-premises to online migration overview
-    date: "2026-05-23"
+    title: Business Central On-Premises to Online Migration Overview
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data
+    title: Business Central Online Data Migration Overview
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp
+    title: Dynamics GP Data Migration to Business Central Online
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -34,32 +48,18 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage
-    title: Managing cloud migration
-    date: "2023-07-04"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp
-    title: Migrate Dynamics GP data to the cloud
-    date: "2026-01-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data
-    title: Migrate on-premises data to Business Central online
-    date: "2026-05-23"
+    title: Manage Business Central Cloud Migration
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/faq-migrate-data
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data
   objects:
     - object/page/4003
   features: []
@@ -116,15 +116,30 @@ Start with the on-premises migration page to pick an approach, then read the ove
 
 ## Learn pages
 
-- [Business Central on-premises to online migration overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises): This article provides an overview of how the migration works from Business Central on-premises and the necessary tasks for completing the migration.
-  - Status: Generally available.
-  - Cloud migration transfers business data from on-premises SQL Server or Azure SQL to Business Central online using Azure Data Factory.
-  - Integration Runtime connects the on-premises database directly to Azure Data Factory; self-hosted runtime used for SQL Server, Azure Integration Runtime for Azure SQL.
-  - Limit: System tables, users, permissions, and record links are not migrated.
-  - Online data is compressed using SQL Server compression, so data size may differ from on-premises size.
-  - After cloud migration setup, online tenant is read-only; non-SUPER users get Intelligent Cloud permission set automatically.
-  - Step: Phase 1: Verify prerequisites, review data quality, and optimize performance.
-  - Step: Phase 2: Run Set up Cloud Migration assisted setup to establish connection and pipeline.
+- [Business Central On-Premises to Online Migration Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises): This article provides an overview of how the migration works from Business Central on-premises and the necessary tasks for completing the migration.
+  - Azure Data Factory securely replicates data between on-premises and online, examining only SQL permissions, not application permissions.
+  - System tables, users, and permissions are not migrated; record links and notes require a separate step using Migrate Record Links action.
+  - Data is compressed using SQL Server compression in online, so migrated data size may differ from on-premises database size.
+  - Data migration can run multiple times; initial migration takes longest, subsequent runs migrate only changed data.
+  - On-premises solution remains operative environment until cloud migration is completed; existing online data gets overwritten during replication.
+  - Intelligent Cloud permission set provides read-only access during migration; only SUPER users can modify system.
+  - Step: Phase 1 involves planning, verifying prerequisites, reviewing data quality, and optimizing migration performance.
+  - Step: Phase 2 establishes connection and pipeline through Cloud Migration Setup assisted guide without replicating data.
+- [Business Central Online Data Migration Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data): Learn to set up cloud data migration to Business Central online from supported Dynamics versions and Business Central on-premises, managed by Azure Data Factory.
+  - Supported migration paths include Business Central on-premises, Dynamics GP, Dynamics SL, and Dynamics NAV to online.
+  - Non-SQL source data can be migrated using configuration packages and templates to on-premises first.
+  - QuickBooks customers can use Microsoft apps to migrate to Business Central online.
+  - Business Central 14 reimplementation tool migrates selected business data for fresh start without legacy customizations.
+- [Dynamics GP Data Migration to Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp): Learn which Dynamics GP master records, outstanding transactions, and historical data you can migrate to Business Central online and how to select them.
+  - Fiscal periods in Dynamics GP migrate to Business Central as accounting periods; historical years come over as open.
+  - Chart of accounts main segment becomes GL account; remaining segments become dimensions or shortcut dimensions.
+  - GP unit accounts migrate to Business Central statistical accounts automatically with balances.
+  - Active customers can be migrated exclusively; all customer addresses become shipping addresses in Business Central.
+  - Outstanding receivables transactions migrate with remaining balance amounts, not full invoice amounts.
+  - Inactive customers default excluded; temporary vendors default included in migration configuration.
+  - Recurring sales and purchase lines can be automatically generated based on customer or vendor accounts.
+  - Vendor 1099 information migrates in US environments with tax type, box number, and Federal ID mapped correctly.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../objects/page/118.md), [Page 40063 "Cloud Migration Management"](../../../objects/page/40063.md), [Table 40900 "Hist. G/L Account"](../../../objects/table/40900.md), [Table 40901 "Hist. Gen. Journal Line"](../../../objects/table/40901.md), [Table 40902 "Hist. Sales Trx. Header"](../../../objects/table/40902.md), [Table 40903 "Hist. Sales Trx. Line"](../../../objects/table/40903.md)
 - [FAQ about Migrating to Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/faq-migrate-data): Get answers to frequently asked questions about migrating to Business Central online from on-premises solutions, including supported versions and data limits.
   - Prerequisite: On-premises solution must use SQL Server 2016 or later with database compatibility level 130 or higher.
   - Data migrates using Azure Data Factory service with self-hosted integration runtime managing communication between cloud and on-premises SQL Server.
@@ -134,7 +149,7 @@ Start with the on-premises migration page to pick an approach, then read the ove
   - On-premises users are added to Intelligent Cloud user group; online environment is read-only during migration.
   - Data replication is one way only from on-premises to Business Central online; must stop using on-premises after going live.
   - Limit: On-premises users and permissions do not replicate; users must be manually added and permissions granted in cloud tenant.
-- [Managing cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage): Describes the Cloud Migration Management page in Business Central.
+- [Manage Business Central Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage): Learn which actions are available on the Cloud Migration Management page in Business Central to replicate data, track progress, and complete migration.
   - Cloud Migration Management page in the web client serves as the central hub for configuring and tracking data migration runs and services.
   - Data replication can be rerun after initial migration, moving only changes since the last run using change tracking.
   - User mapping renames the Name field on the User Card to match on-premises user names; perform this only once per migration.
@@ -142,23 +157,7 @@ Start with the on-premises migration page to pick an approach, then read the ove
   - Step: Reset cloud data clears all cloud tenant data and enables restarting the entire migration from the beginning.
   - Limit: Cloud migration cannot run if the target environment is undergoing upgrade; must disable it, upgrade, then reconfigure.
   - Setup checklist displays recommended steps to prepare tables not migrated for use as the primary system going live.
-- [Migrate Dynamics GP data to the cloud](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp): Learn how to migrate to the cloud from Dynamics GP using an assisted setup guide in Business Central online. Move historical data to Azure Data Lake.
-  - Fiscal periods from Dynamics GP migrate to Business Central as accounting periods, with historical years becoming open and requiring closure.
-  - Chart of Accounts account numbers map from the main segment; remaining segments become dimensions, with up to eight shortcut dimensions supported.
-  - Customer addresses migrate as shipping addresses; vendor addresses migrate with Remit To as primary and others as order addresses.
-  - Outstanding transactions migrate with remaining balance amounts, not original invoice amounts.
-  - Unit of Measure Schedules from GP don't have direct equivalents; Business Central supports alternate units of measure per item instead.
-  - Unreconciled bank transactions migrate; undeposited receipts do not migrate and must be deposited in GP before migration.
-  - Historical snapshot data stores in extension tables including GL, Receivables, Payables, Sales, Purchase, and Inventory transaction records.
-  - 1099 vendor information and box amounts migrate if selected, with the earliest supported year being 2024.
-  - In the observatory: [Page 118 "General Ledger Setup"](../../../objects/page/118.md), [Table 40900 "Hist. G/L Account"](../../../objects/table/40900.md), [Table 40901 "Hist. Gen. Journal Line"](../../../objects/table/40901.md), [Table 40902 "Hist. Sales Trx. Header"](../../../objects/table/40902.md), [Table 40903 "Hist. Sales Trx. Line"](../../../objects/table/40903.md), [Table 40904 "Hist. Receivables Document"](../../../objects/table/40904.md)
-- [Migrate on-premises data to Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data): Learn to set up cloud data migration to Business Central online from supported Dynamics versions and Business Central on-premises, managed by Azure Data Factory.
-  - Status: Generally available.
-  - Customers from non-SQL sources can use configuration packages to migrate to on-premises first, then to online.
-  - QuickBooks customers can use Microsoft apps to migrate directly to Business Central online.
-  - Migration paths exist for Business Central, Dynamics GP, Dynamics SL, and Dynamics NAV.
-  - Business Central 14 reimplementation tool migrates only master data, opening balances, and setup.
-  - Custom migration from any SQL source is supported.
+  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../objects/page/40063.md), [Page 9807 "User Card"](../../../objects/page/9807.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 

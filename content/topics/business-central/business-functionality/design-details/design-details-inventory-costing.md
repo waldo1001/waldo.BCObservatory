@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:53.515Z"
   flags: []
 generated:
-  at: "2026-11-07T01:06:39.442Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -215,6 +215,8 @@ links:
     - change/bcapps/12868
     - change/bcapps/13220
     - change/bcapps/13725
+    - change/bcapps/14020
+    - change/bcapps/14124
     - change/bcapps/9062
     - change/bcapps/9212
     - change/bcapps/9398
@@ -315,6 +317,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12868 [29x]-Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment](../../../../changes/bcapps/12868.md) (code change): "Adjust Cost creates an additional unexpected variance amount due to rounding precision"
 - [#13220 Fix average cost adjustment overflow on same-period transfers](../../../../changes/bcapps/13220.md) (code change): "Same-period transfers no longer cause average cost adjustments to overflow"
 - [#13725 Reduce repeated ILE reads and JIT loads in average cost adjustment](../../../../changes/bcapps/13725.md) (code change): "Codeunit 5895 Inventory Adjustment reduces repeated database reads and JIT loads during average cost calculation"
+- [#14020 Bug 650215: Direct Transfer route does not populate configured In-Transit Code on transfer order](../../../../changes/bcapps/14020.md) (code change): "In-Transit Code is applied from routes for non-direct transfers"
+- [#14124 [main] Bug 658242 IT Report 12135 "Fiscal Inventory Valuation" shows prior-year value for an item first posted in a later year](../../../../changes/bcapps/14124.md) (code change): "Fixed incorrect value calculation in Fiscal Inventory Valuation report"
 - [#9062 [Master]-Production Order - WIP shows incorrect consumption amount.](../../../../changes/bcapps/9062.md) (code change): "incorrect consumption amount shown for production orders in the Inventory Valuation - WIP report"
 - [#9212 Bug 629779: [Inventory] Show a single Export/Import item data action pair on Cost Adjustment and Item Card](../../../../changes/bcapps/9212.md) (code change): "Manufacturing-enabled installations route to production data XMLPorts"
 - [#9398 [Main]Incorrect Cost Amount (Actual) in Value Entries after posting Assembly Process and calulating the assembly standard costsInitial commit](../../../../changes/bcapps/9398.md) (code change): "Fixes wrong Cost Amount (Actual) in value entries for assembly orders after Calc. Assembly Std. Cost"

@@ -8,10 +8,9 @@
   ],
   "summary": "Fabric mirroring lifecycle messages now reference the correct page name 'Fabric Synchronization Overview' instead of 'Export Summary', with corresponding test updates.",
   "key_points": [
-    "Corrected user-facing messages in Connect, Start, Stop, and Reset lifecycle operations to match actual page name",
-    "Updated four test cases to expect the corrected page name in messages",
-    "Synchronization behavior remains unchanged, only message text updated",
-    "Low-risk change affecting messages and tests only, no logic modifications"
+    "Connect, Start, Stop and Reset messages now name the 'Fabric Synchronization Overview' page instead of 'Export Summary'",
+    "Existing lifecycle tests updated to expect the corrected page name",
+    "Synchronization logic, data, permissions and upgrade are unchanged"
   ],
   "change_kind": "fix",
   "behavior_change": true,

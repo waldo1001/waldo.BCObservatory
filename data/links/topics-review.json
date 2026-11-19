@@ -7324,38 +7324,80 @@
     "topic/dev-itpro/development/get-started/altool": {
       "post/aardvarklabs-blog/4177@afd250dfae2d6a81": {
         "verdict": "drop",
-        "reason": "About a separate community VS Code extension for exploring AL code, not Microsoft's ALTool.",
-        "at": "2026-11-04T00:57:35.546Z",
+        "reason": "About a separate VS Code exploration extension, not ALTool.",
+        "at": "2026-11-19T00:56:27.436Z",
+        "v": 2
+      },
+      "post/gerardorenteria-blog/14079@183cf3299097d5b4": {
+        "verdict": "drop",
+        "reason": "AL Language extension changelog; evidence does not cover ALTool.",
+        "at": "2026-11-19T00:56:27.436Z",
         "v": 2
       },
       "post/nataliekarolak-com/3995@86d3d7fd9a3178df": {
         "verdict": "keep",
-        "reason": "Covers the new standalone MCP server in ALTool, which is a capability of the tool this section documents.",
-        "at": "2026-11-04T00:57:35.546Z",
+        "reason": "Mentions the new standalone MCP server in ALTool.",
+        "at": "2026-11-19T00:56:27.436Z",
+        "v": 2
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/bc-toolbox-vs-microsoft-mcp/@d0b08fdc43ea1fc4": {
+        "verdict": "keep",
+        "reason": "Discusses Microsoft's AL MCP Server (served via ALTool) and its build/compile/publish/symbol capabilities.",
+        "at": "2026-11-19T00:56:27.436Z",
+        "v": 2
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/from-work-item-to-pr-without-me/@d06df9d7dad320b0": {
+        "verdict": "drop",
+        "reason": "Agent pipeline using AL LSP, not ALTool.",
+        "at": "2026-11-19T00:56:27.436Z",
+        "v": 2
+      },
+      "post/sshadows-dk/https://sshadows.dk/blog/other-peoples-code-in-my-repos/@c3371ba6163fa2cb": {
+        "verdict": "drop",
+        "reason": "Community tooling contributions unrelated to ALTool.",
+        "at": "2026-11-19T00:56:27.436Z",
+        "v": 2
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/optimizing-bc-code-history-range-requests/@c49a8b16de57d4ed": {
+        "verdict": "drop",
+        "reason": "Code history download pipeline optimization, not ALTool.",
+        "at": "2026-11-19T00:56:27.436Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/01/07/object-ids-now-assignable-by-vs-code-agents-lm-tool-integration/@f9cabfb8bbb1e894": {
         "verdict": "drop",
-        "reason": "About AL Object ID Ninja's integration with language-model agents, which has nothing to do with ALTool.",
-        "at": "2026-11-04T00:57:35.546Z",
+        "reason": "About AL Object ID Ninja, a different tool.",
+        "at": "2026-11-19T00:56:27.436Z",
         "v": 2
       },
       "post/vondervoort-be/130@80f191b9b56f9b87": {
         "verdict": "drop",
-        "reason": "About the ALCops code analyzers, a separate community project unrelated to ALTool.",
-        "at": "2026-11-04T00:57:35.546Z",
+        "reason": "About ALCops analyzers, not ALTool.",
+        "at": "2026-11-19T00:56:27.436Z",
         "v": 2
       },
       "post/waldo-be/318731@a281429d51145b83": {
         "verdict": "drop",
-        "reason": "About the BC Observatory knowledge map and its MCP server, not ALTool.",
-        "at": "2026-11-04T00:57:35.546Z",
+        "reason": "About BC Observatory knowledge map, not ALTool.",
+        "at": "2026-11-19T00:56:27.436Z",
+        "v": 2
+      },
+      "video/ecYXnXULijI@f24c352d89b69472": {
+        "verdict": "drop",
+        "reason": "Claude Code dev container setup, not ALTool.",
+        "at": "2026-11-19T00:56:27.436Z",
+        "v": 2
+      },
+      "video/QT3RKx9rGJA@214f73544c9ee1b6": {
+        "verdict": "drop",
+        "reason": "AL-Go for GitHub office hour, not ALTool.",
+        "at": "2026-11-19T00:56:27.436Z",
         "v": 2
       },
       "video/urLsKPqOSbc@affd8c83d223efd0": {
         "verdict": "keep",
-        "reason": "Demonstrates ALTool's graph commands (generating, extracting and exporting call graphs), which belong to the tool this section documents.",
-        "at": "2026-11-04T00:57:35.546Z",
+        "reason": "Demonstrates ALTool graph commands for call graph extraction and export.",
+        "at": "2026-11-19T00:56:27.436Z",
         "v": 2
       }
     },
@@ -11128,232 +11170,232 @@
       }
     },
     "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol": {
+      "post/aardvarklabs-blog/2724@835aa5e152aa4b41": {
+        "verdict": "keep",
+        "reason": "Shows how to set up a Business Central MCP server configuration with per-API permissions and connect it in Copilot Studio.",
+        "at": "2026-11-19T00:56:27.344Z",
+        "v": 2
+      },
+      "post/bertverbeek-nl/1183@38b217cdcf959340": {
+        "verdict": "keep",
+        "reason": "Shows how to connect pro-code agents to the Business Central MCP server endpoint, including authentication.",
+        "at": "2026-11-19T00:56:27.344Z",
+        "v": 2
+      },
+      "post/demiliani-com/13470@315c43b5d77dc93a": {
+        "verdict": "keep",
+        "reason": "Builds MCP servers that expose Business Central to AI agents through Logic Apps, a related way of integrating Business Central with MCP.",
+        "at": "2026-11-19T00:56:27.344Z",
+        "v": 2
+      },
+      "post/demiliani-com/13611@6c96e55c3dcf715b": {
+        "verdict": "drop",
+        "reason": "About Azure OpenAI's Responses API and System.AI, not MCP integration.",
+        "at": "2026-11-19T00:56:27.344Z",
+        "v": 2
+      },
+      "post/demiliani-com/17653@3bd55f252eafe20e": {
+        "verdict": "keep",
+        "reason": "Covers MCP server configurations, permissions, dynamic tool mode and the default configuration, all of which the section documents.",
+        "at": "2026-11-19T00:56:27.344Z",
+        "v": 2
+      },
+      "post/gerardorenteria-blog/12682@f9e052c6e87216fe": {
+        "verdict": "keep",
+        "reason": "The AboutText property sets the tool descriptions that the MCP server shows to AI clients.",
+        "at": "2026-11-19T00:56:27.344Z",
+        "v": 2
+      },
+      "post/katson-com/4678@37fb41e1d36fd114": {
+        "verdict": "keep",
+        "reason": "Connects external agents to the Business Central MCP server through a proxy, including the MCP Server Configuration prerequisites.",
+        "at": "2026-11-19T00:56:27.344Z",
+        "v": 2
+      },
+      "post/katson-com/5026@bdacfbac3a71c5ff": {
+        "verdict": "keep",
+        "reason": "Explains how to enable the native Business Central MCP server and connect Claude Desktop to it.",
+        "at": "2026-11-19T00:56:27.344Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8342@4a230f2efa38bf14": {
+        "verdict": "drop",
+        "reason": "Its subject is the new Copilot Chat; the MCP server is only mentioned as the mechanism behind it.",
+        "at": "2026-11-19T00:56:27.344Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8400@19dd29f8b5e2cd5f": {
+        "verdict": "keep",
+        "reason": "Covers new MCP server system tools and the new Server Features and System Tools sections of the MCP configuration page.",
+        "at": "2026-11-19T00:56:27.344Z",
+        "v": 2
+      },
+      "post/waldo-be/318371@f8eeca6f0820e518": {
+        "verdict": "drop",
+        "reason": "A separate MCP tool for analysing telemetry, not integration with Business Central's MCP server.",
+        "at": "2026-11-19T00:56:27.344Z",
+        "v": 2
+      },
+      "post/wingate365-com/https://blog.wingate365.com/2026/02/ai-context-is-king-bc-mcp-for-mcs.html@40fc0d3b72d92f90": {
+        "verdict": "keep",
+        "reason": "Talk about Business Central's built-in MCP server and how agents use it.",
+        "at": "2026-11-19T00:56:27.344Z",
+        "v": 2
+      },
+      "post/yzhums-com/68873@d0cac12b6c6c4959": {
+        "verdict": "keep",
+        "reason": "Walks through the MCP server configuration page, its permissions and options, and the Copilot Studio connection.",
+        "at": "2026-11-19T00:56:27.344Z",
+        "v": 2
+      },
+      "post/yzhums-com/76419@b026fea1d37aa5ab": {
+        "verdict": "keep",
+        "reason": "Covers new Data Query Tools for the Business Central MCP Server and its configuration page.",
+        "at": "2026-11-19T00:56:27.426Z",
+        "v": 2
+      },
       "video/0WAOtNaKjws@30ae39eddcc63477": {
         "verdict": "keep",
-        "reason": "Covers new Business Central MCP server features such as configuration validation, import/export and MCP resources.",
-        "at": "2026-11-16T00:57:19.932Z",
+        "reason": "Covers MCP Server enhancements such as configuration validation, import/export, and connection setup.",
+        "at": "2026-11-19T00:56:27.426Z",
         "v": 2
       },
       "video/4HE3BBCcV84@887694324cf2c66e": {
         "verdict": "keep",
         "reason": "Shows how to expose API queries through the MCP server configuration.",
-        "at": "2026-11-16T00:57:19.932Z",
-        "v": 2
-      },
-      "video/9CW5mydS9Vs@086c044188d418c2": {
-        "verdict": "drop",
-        "reason": "About AL testing; its MCP mention is a developer-tooling server for running tests, which the developer tools for Copilot section covers better.",
-        "at": "2026-11-16T00:57:19.932Z",
+        "at": "2026-11-19T00:56:27.426Z",
         "v": 2
       },
       "video/AMVAiPTfSrU@714cbb737c9bdc05": {
         "verdict": "keep",
-        "reason": "Shows partners building agents on the Business Central MCP server with Copilot Studio.",
-        "at": "2026-11-16T00:57:19.932Z",
+        "reason": "Partners build agents with Copilot Studio on top of the Business Central MCP server.",
+        "at": "2026-11-19T00:56:27.426Z",
         "v": 2
       },
       "video/C5cmG3sNjUg@b9ff5d4f6a7c8a79": {
         "verdict": "keep",
-        "reason": "Covers advanced MCP server topics: configurations, dynamic tools and API page naming.",
-        "at": "2026-11-16T00:57:19.932Z",
+        "reason": "Goes deep on MCP server configurations, dynamic tools, and API page tools.",
+        "at": "2026-11-19T00:56:27.426Z",
+        "v": 2
+      },
+      "video/D_Lur52IrIg@a25df74a3246ae7e": {
+        "verdict": "drop",
+        "reason": "Its MCP content is about the AL developer tooling (AL MCP), which the sibling developer-tools section documents.",
+        "at": "2026-11-19T00:56:27.426Z",
         "v": 2
       },
       "video/EpDIrJE0HzA@9c3c2c0b5b7d7b14": {
         "verdict": "keep",
-        "reason": "Shows connecting a Copilot Studio agent to the Business Central MCP server and the MCP Configurations page.",
-        "at": "2026-11-16T00:57:19.932Z",
+        "reason": "Builds a Copilot Studio agent using the Business Central MCP server and its MCP Configurations page.",
+        "at": "2026-11-19T00:56:27.426Z",
         "v": 2
       },
       "video/GeT5E_f9A9Q@552414c7a4306ac7": {
         "verdict": "keep",
-        "reason": "Explains MCP server configurations, dynamic tool mode and authentication.",
-        "at": "2026-11-16T00:57:19.932Z",
+        "reason": "Introduces MCP Server Configurations, dynamic tool mode, and authentication.",
+        "at": "2026-11-19T00:56:27.426Z",
         "v": 2
       },
       "video/H5EuObmeF4o@65e5d25e65e102e1": {
         "verdict": "keep",
-        "reason": "A release-wave overview, but it includes the MCP server for Business Central as one feature.",
-        "at": "2026-11-16T00:57:19.932Z",
+        "reason": "This release overview includes the MCP server for Business Central as one of its features.",
+        "at": "2026-11-19T00:56:27.426Z",
         "v": 2
       },
       "video/iViHfCgL2L8@86bf1ad9e4406c42": {
         "verdict": "keep",
-        "reason": "Introduces the Business Central MCP server, its read-only default and its configurations.",
-        "at": "2026-11-16T00:57:19.932Z",
+        "reason": "Introduces the MCP Server for Business Central with its default and write configurations.",
+        "at": "2026-11-19T00:56:27.426Z",
+        "v": 2
+      },
+      "video/K8nFVw5M-Po@643e82f9b7c66777": {
+        "verdict": "drop",
+        "reason": "About AI-assisted AL coding, where MCP is used as developer tooling; that subject belongs to the sibling developer-tools section.",
+        "at": "2026-11-19T00:56:27.426Z",
         "v": 2
       },
       "video/LerAo-GGl8U@a026b373ecce8d1f": {
         "verdict": "keep",
-        "reason": "Covers the admin MCP server for Business Central and MCP basics, which relate to MCP integration.",
-        "at": "2026-11-16T00:57:19.932Z",
+        "reason": "Covers connecting agents to Business Central through an MCP server, including MCP fundamentals and authentication.",
+        "at": "2026-11-19T00:56:27.426Z",
         "v": 2
       },
       "video/nMiLzdfidos@bc64d3b6b0e36a5a": {
         "verdict": "drop",
-        "reason": "About AL language and developer tools; its AL MCP server belongs in the developer tools for Copilot section.",
-        "at": "2026-11-16T00:57:19.932Z",
+        "reason": "About AL language and developer tooling; its AL MCP server content belongs to the sibling developer-tools section.",
+        "at": "2026-11-19T00:56:27.426Z",
         "v": 2
       },
       "video/nPF84Ufkn4k@dee0569db1149362": {
         "verdict": "drop",
-        "reason": "About how the agent runtime works inside; MCP appears only in passing, and the agent design section fits it better.",
-        "at": "2026-11-16T00:57:19.932Z",
+        "reason": "About the agent runtime internals; MCP tools for agents is a minor point better suited to the agents sibling section.",
+        "at": "2026-11-19T00:56:27.503Z",
         "v": 2
       },
       "video/q3xnjJD32kk@6476ce202d58d970": {
         "verdict": "keep",
-        "reason": "Covers new MCP server query tools and configuration changes.",
-        "at": "2026-11-16T00:57:19.932Z",
-        "v": 2
-      },
-      "post/aardvarklabs-blog/2724@835aa5e152aa4b41": {
-        "verdict": "keep",
-        "reason": "Covers MCP server configuration in Business Central, per-API permissions and connecting through Copilot Studio.",
-        "at": "2026-11-16T00:57:21.080Z",
-        "v": 2
-      },
-      "post/bertverbeek-nl/1183@38b217cdcf959340": {
-        "verdict": "keep",
-        "reason": "Shows pro-code agents connecting to the Business Central MCP endpoint, including authentication.",
-        "at": "2026-11-16T00:57:21.080Z",
-        "v": 2
-      },
-      "post/demiliani-com/13470@315c43b5d77dc93a": {
-        "verdict": "keep",
-        "reason": "Builds MCP servers that expose Business Central to AI agents, which extends MCP integration with Business Central.",
-        "at": "2026-11-16T00:57:21.080Z",
-        "v": 2
-      },
-      "post/demiliani-com/13611@6c96e55c3dcf715b": {
-        "verdict": "drop",
-        "reason": "Compares the Azure OpenAI Responses API with Chat Completions and System.AI; no MCP content.",
-        "at": "2026-11-16T00:57:21.080Z",
-        "v": 2
-      },
-      "post/gerardorenteria-blog/12682@f9e052c6e87216fe": {
-        "verdict": "keep",
-        "reason": "The AboutText property describes APIs to AI agents when they are exposed through the MCP server configuration.",
-        "at": "2026-11-16T00:57:21.080Z",
-        "v": 2
-      },
-      "post/katson-com/4678@37fb41e1d36fd114": {
-        "verdict": "keep",
-        "reason": "Connects external agents to the Business Central MCP server through a proxy, with setup and prerequisites.",
-        "at": "2026-11-16T00:57:21.080Z",
-        "v": 2
-      },
-      "post/katson-com/5026@9a27bff87e7919fe": {
-        "verdict": "keep",
-        "reason": "Step-by-step setup of the native Business Central MCP server with Claude Desktop.",
-        "at": "2026-11-16T00:57:21.080Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/8342@4a230f2efa38bf14": {
-        "verdict": "drop",
-        "reason": "Mainly about the end-user Copilot Chat feature; MCP is only a passing mention.",
-        "at": "2026-11-16T00:57:21.080Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/8400@19dd29f8b5e2cd5f": {
-        "verdict": "keep",
-        "reason": "Covers new MCP server data query tools and changes to the MCP Server Configuration page.",
-        "at": "2026-11-16T00:57:21.080Z",
-        "v": 2
-      },
-      "post/waldo-be/318371@f8eeca6f0820e518": {
-        "verdict": "drop",
-        "reason": "About a telemetry-analysis VS Code extension with its own bundled MCP, not Business Central's MCP server.",
-        "at": "2026-11-16T00:57:21.080Z",
-        "v": 2
-      },
-      "post/wingate365-com/https://blog.wingate365.com/2026/02/ai-context-is-king-bc-mcp-for-mcs.html@40fc0d3b72d92f90": {
-        "verdict": "keep",
-        "reason": "Presents Business Central's built-in MCP server for connecting AI agents.",
-        "at": "2026-11-16T00:57:21.080Z",
-        "v": 2
-      },
-      "post/yzhums-com/68873@d0cac12b6c6c4959": {
-        "verdict": "keep",
-        "reason": "Walks through the MCP server configuration page and connecting through Copilot Studio.",
-        "at": "2026-11-16T00:57:21.080Z",
-        "v": 2
-      },
-      "post/yzhums-com/76419@b026fea1d37aa5ab": {
-        "verdict": "keep",
-        "reason": "Covers the MCP server data query system tools and the Server Features configuration.",
-        "at": "2026-11-16T00:57:21.080Z",
+        "reason": "Covers the Business Central MCP server's query tools, configuration and security settings.",
+        "at": "2026-11-19T00:56:27.503Z",
         "v": 2
       },
       "video/qs1cg-GoDeQ@53f0a9316fdc92cf": {
         "verdict": "keep",
-        "reason": "It demonstrates the Business Central MCP server's data tools and how its features are configured.",
-        "at": "2026-11-16T00:57:23.410Z",
+        "reason": "Covers the Business Central MCP server's data tools and configuration.",
+        "at": "2026-11-19T00:56:27.503Z",
         "v": 2
       },
       "video/rm-FstU_I80@257925a273b21192": {
         "verdict": "keep",
-        "reason": "It covers in depth how to set up the Business Central MCP server, choose what it exposes and connect it to Copilot Studio.",
-        "at": "2026-11-16T00:57:23.410Z",
+        "reason": "Explains the Business Central MCP server: setup, configuration and connecting it from Copilot Studio and VS Code.",
+        "at": "2026-11-19T00:56:27.503Z",
         "v": 2
       },
-      "video/tMqCSibSRug@bc0b3a27989e2662": {
+      "video/Rvgt_VXFr1I@1ae2843a5945ec61": {
         "verdict": "drop",
-        "reason": "Its MCP server belongs to a third-party code linter, not to Business Central's MCP integration.",
-        "at": "2026-11-16T00:57:23.410Z",
+        "reason": "About running AL tests in VS Code; AL MCP is a passing mention about developer tooling.",
+        "at": "2026-11-19T00:56:27.503Z",
         "v": 2
       },
       "video/U1dAdtUjidc@2d1eb4c89d7629d4": {
-        "verdict": "keep",
-        "reason": "It shows an MCP server for managing Business Central environments, which is closely related MCP integration and worth keeping when in doubt.",
-        "at": "2026-11-16T00:57:23.410Z",
+        "verdict": "drop",
+        "reason": "The Admin Center MCP server is a separate server for the admin center API, not the Business Central integration MCP server this section documents.",
+        "at": "2026-11-19T00:56:27.503Z",
         "v": 2
       },
-      "video/UFLo2XGGS14@9ca37da61d82c657": {
+      "video/UFLo2XGGS14@672e6d5f3019befa": {
         "verdict": "drop",
-        "reason": "It covers MCP for AL debugging and profiling, which fits the developer tools section beside this one better.",
-        "at": "2026-11-16T00:57:23.410Z",
+        "reason": "About AL developer tools exposed through MCP for debugging and profiling, which the developer-tools sibling covers better.",
+        "at": "2026-11-19T00:56:27.503Z",
         "v": 2
       },
       "video/UIL8ej7mSKQ@24814d31abc584d1": {
         "verdict": "keep",
-        "reason": "This release overview includes the MCP server for Business Central as one of its features.",
-        "at": "2026-11-16T00:57:23.410Z",
+        "reason": "Release overview that includes a segment introducing the Business Central MCP server.",
+        "at": "2026-11-19T00:56:27.503Z",
         "v": 2
       },
       "video/uMKLsKfKPc0@0bf15ee4e4d6825f": {
         "verdict": "keep",
-        "reason": "It shows connecting Copilot Studio agents to the Business Central MCP server and controlling access to it.",
-        "at": "2026-11-16T00:57:23.410Z",
+        "reason": "Shows connecting Copilot Studio agents to the Business Central MCP server and controlling access to it.",
+        "at": "2026-11-19T00:56:27.503Z",
         "v": 2
       },
       "video/V7NgFOIcGgM@33fa3f6007423f1b": {
         "verdict": "drop",
-        "reason": "It is about Copilot Chat in Business Central and mentions MCP only as the technology underneath.",
-        "at": "2026-11-16T00:57:23.410Z",
+        "reason": "About Copilot Chat in Business Central; MCP only appears as the technology underneath it.",
+        "at": "2026-11-19T00:56:27.503Z",
         "v": 2
       },
-      "video/xWOddQt1GUM@b37a64fe3602a41b": {
+      "video/yIYUCSK0Bh4@86b6c5254c903ff8": {
         "verdict": "drop",
-        "reason": "This podcast is about AI-assisted AL development; MCP comes up only in passing as a developer tool.",
-        "at": "2026-11-16T00:57:23.410Z",
-        "v": 2
-      },
-      "video/yIYUCSK0Bh4@d35f3695dd657589": {
-        "verdict": "drop",
-        "reason": "It is about benchmarking AI coding agents, and its AL-MCP is a developer tool, not the Business Central MCP integration.",
-        "at": "2026-11-16T00:57:23.410Z",
+        "reason": "About benchmarking AL coding agents; AL-MCP is incidental.",
+        "at": "2026-11-19T00:56:27.503Z",
         "v": 2
       },
       "video/zei-IszvYNU@244b0b60ce997ba7": {
         "verdict": "keep",
-        "reason": "It shows adding Microsoft API groups as tools in the MCP server configuration.",
-        "at": "2026-11-16T00:57:23.410Z",
-        "v": 2
-      },
-      "video/zQg48VT0crU@0efa62fb9983f330": {
-        "verdict": "drop",
-        "reason": "It is about AI development workflows, and its MCP servers are coding tools rather than the Business Central MCP integration.",
-        "at": "2026-11-16T00:57:23.410Z",
+        "reason": "Covers exposing Microsoft APIs as tools in the MCP server configuration.",
+        "at": "2026-11-19T00:56:27.503Z",
         "v": 2
       }
     },
@@ -12285,112 +12327,124 @@
       }
     },
     "topic/dev-itpro/performance": {
-      "post/demiliani-com/11962@59c4b3f4f738556f": {
-        "verdict": "keep",
-        "reason": "Shows how to make OData API responses faster with compression, which is part of web service performance in this section.",
-        "at": "2026-10-30T08:05:53.161Z",
+      "post/demiliani-com/12532@2ca9e54e70d85ce6": {
+        "verdict": "drop",
+        "reason": "About migrating Azure Functions hosting plans, not Business Central performance.",
+        "at": "2026-11-19T00:56:23.608Z",
         "v": 2
       },
       "post/demiliani-com/13096@d983992cb248690a": {
         "verdict": "keep",
-        "reason": "Covers how the browser, network latency and client hardware affect UI performance, which this section documents.",
-        "at": "2026-10-30T08:05:53.161Z",
+        "reason": "Covers Business Central client performance: browser, network latency and hardware, and how to measure them.",
+        "at": "2026-11-19T00:56:23.608Z",
         "v": 2
       },
       "post/demiliani-com/13254@1e5abc180a70baaf": {
         "verdict": "keep",
-        "reason": "Explains the Database Wait Statistics page, a tool for finding performance bottlenecks.",
-        "at": "2026-10-30T08:05:53.161Z",
+        "reason": "Explains the Database Wait Statistics page for diagnosing Business Central performance bottlenecks.",
+        "at": "2026-11-19T00:56:23.608Z",
         "v": 2
       },
       "post/demiliani-com/13369@6629bda418af7616": {
         "verdict": "keep",
-        "reason": "Uses page view telemetry on client network speed to diagnose slow pages.",
-        "at": "2026-10-30T08:05:53.161Z",
+        "reason": "Uses page-view telemetry to tell network-related slowness apart from slow code, which is a performance diagnostics topic.",
+        "at": "2026-11-19T00:56:23.608Z",
         "v": 2
       },
       "post/demiliani-com/17552@b36e7d019e4ec65d": {
         "verdict": "keep",
-        "reason": "The sandbox's production-level database configuration is meant for performance testing and the Performance Toolkit.",
-        "at": "2026-10-30T08:05:53.161Z",
+        "reason": "Sandbox database setup for realistic performance testing, including use with the Performance Toolkit.",
+        "at": "2026-11-19T00:56:23.608Z",
         "v": 2
       },
       "post/duiliotacconi-com/1457@4876ff8966589696": {
         "verdict": "keep",
-        "reason": "Covers the less-locking posting engine and FlowField optimizations, which bring performance and concurrency gains.",
-        "at": "2026-10-30T08:05:53.161Z",
+        "reason": "Shows real results from performance features: less locking, FlowField optimization and deadlock tuning.",
+        "at": "2026-11-19T00:56:23.608Z",
         "v": 2
       },
       "post/duiliotacconi-com/1624@a371d282bf3e4643": {
         "verdict": "keep",
-        "reason": "Reviews version 27 performance features: SQL statements in AL profiles, FlowField optimization and new locking functions.",
-        "at": "2026-10-30T08:05:53.161Z",
+        "reason": "Reviews performance improvements in version 27, including flow field SQL optimization and AL profiler changes.",
+        "at": "2026-11-19T00:56:23.608Z",
         "v": 2
       },
       "post/duiliotacconi-com/2001@bbcde3b30b8db4a5": {
         "verdict": "keep",
-        "reason": "Index management is a database performance tuning feature that belongs under performance.",
-        "at": "2026-10-30T08:05:53.161Z",
+        "reason": "Index management, where unused indexes are disabled to improve write performance, is performance tuning in this section's scope.",
+        "at": "2026-11-19T00:56:23.608Z",
+        "v": 2
+      },
+      "post/duiliotacconi-com/2238@e952acfe9a1f7853": {
+        "verdict": "keep",
+        "reason": "Analyzes upgrade performance, the cost of table extensions and storing BLOBs in the database, using telemetry; this is relevant performance guidance.",
+        "at": "2026-11-19T00:56:23.608Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/@aea1381f91018eec": {
         "verdict": "keep",
-        "reason": "Covers index and SIFT design trade-offs for read and write performance, which this section documents.",
-        "at": "2026-10-30T08:05:53.161Z",
+        "reason": "Index design for performance, covering trade-offs between reads and writes, SIFT views and telemetry checks.",
+        "at": "2026-11-19T00:56:23.608Z",
         "v": 2
       },
-      "post/thinkaboutit-be/8359@db8d195b01005a25": {
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-53-areopa-webinars/@e53839ec71b426d1": {
+        "verdict": "drop",
+        "reason": "A promotion for a general webinar series that only lists performance as one of its topics; it doesn't teach anything about performance.",
+        "at": "2026-11-19T00:56:36.442Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8359@a6bca20eafd3b9df": {
         "verdict": "keep",
-        "reason": "Partly covers platform performance improvements such as table-extension storage optimization and AL-based index management.",
-        "at": "2026-10-30T08:06:01.250Z",
+        "reason": "Covers platform performance improvements such as table-extension storage optimization and AL-based index management, though most of the recap is on other subjects.",
+        "at": "2026-11-19T00:56:36.442Z",
         "v": 2
       },
       "post/waldo-be/317739@5b3804a03ad435cc": {
         "verdict": "keep",
-        "reason": "Uses Admin Center sessions and database locks to troubleshoot performance problems.",
-        "at": "2026-10-30T08:06:01.250Z",
+        "reason": "Uses the Admin Center Sessions window together with Database Locks to troubleshoot performance problems.",
+        "at": "2026-11-19T00:56:36.442Z",
         "v": 2
       },
       "post/waldo-be/318212@8029f096336be096": {
         "verdict": "keep",
-        "reason": "Covers troubleshooting missing indexes, a core performance topic.",
-        "at": "2026-10-30T08:06:01.250Z",
+        "reason": "Explains how to troubleshoot performance using the Missing Indexes page and telemetry.",
+        "at": "2026-11-19T00:56:36.442Z",
         "v": 2
       },
-      "post/yzhums-com/69818@9b2fd52aaf5845d9": {
-        "verdict": "drop",
-        "reason": "About external storage for document attachments; performance is only a side benefit.",
-        "at": "2026-10-30T08:06:01.250Z",
+      "post/yzhums-com/77070@e05570bb46fed031": {
+        "verdict": "keep",
+        "reason": "Covers matching sandbox database configuration to production so performance testing with the Performance Toolkit is accurate.",
+        "at": "2026-11-19T00:56:36.442Z",
+        "v": 2
+      },
+      "video/1x3QyBX3swg@245a293a08fbace4": {
+        "verdict": "keep",
+        "reason": "Covers index management, usage statistics and missing indexes for performance tuning.",
+        "at": "2026-11-19T00:56:36.442Z",
         "v": 2
       },
       "video/D7GxnNiGQ14@2446d7df83cf29ee": {
         "verdict": "keep",
-        "reason": "Covers asynchronous processing patterns (page background tasks, job queue, task scheduler) used to improve performance.",
-        "at": "2026-10-30T08:06:01.250Z",
+        "reason": "Covers performance optimization with page background tasks, the task scheduler and the job queue.",
+        "at": "2026-11-19T00:56:36.442Z",
         "v": 2
       },
-      "video/G0avZpiDFtI@2e57a6a480e57859": {
+      "video/LW2JNV01sJo@f498c3ed6e27ea82": {
         "verdict": "keep",
-        "reason": "Includes database performance features such as calculating only visible FlowFields and improvements to the Missing Indexes page.",
-        "at": "2026-10-30T08:06:01.250Z",
-        "v": 2
-      },
-      "video/LW2JNV01sJo@4d9ed486295354d5": {
-        "verdict": "keep",
-        "reason": "Introduces Microsoft's performance initiative for Business Central.",
-        "at": "2026-10-30T08:06:01.250Z",
+        "reason": "Presents Microsoft's OptimAL performance initiative for Business Central.",
+        "at": "2026-11-19T00:56:36.442Z",
         "v": 2
       },
       "video/snVsG69X-kw@96bf3633cbaa6ef7": {
         "verdict": "keep",
-        "reason": "Explains cloud scalability, the performance profiler, database locks, missing indexes and telemetry.",
-        "at": "2026-10-30T08:06:01.250Z",
+        "reason": "Covers cloud scalability, the performance profiler, the database locks and missing indexes pages, and the Performance Toolkit.",
+        "at": "2026-11-19T00:56:36.442Z",
         "v": 2
       },
       "video/XcQFvNnKpxk@41bd29e0fe59a068": {
         "verdict": "keep",
-        "reason": "Covers performance testing with the Performance Toolkit, which belongs in this section.",
-        "at": "2026-10-30T08:06:01.250Z",
+        "reason": "Covers performance testing before go-live with the Performance Toolkit.",
+        "at": "2026-11-19T00:56:36.442Z",
         "v": 2
       }
     },

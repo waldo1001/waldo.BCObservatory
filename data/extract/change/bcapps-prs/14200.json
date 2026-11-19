@@ -8,11 +8,11 @@
   ],
   "summary": "Purchase order match warnings now refresh immediately when a draft line is edited, eliminating stale warning messages after the user corrects values like unit cost.",
   "key_points": [
-    "Line is saved and warnings recalculated before page refresh when editing Quantity, Direct Unit Cost, Line Discount, Line Type, No., or Unit of Measure",
-    "Corrected lines now show 'No warnings' status immediately instead of retaining previous warnings",
-    "Warnings column disappears once no line has warnings",
-    "Aligns behavior with purchase order subform which saves before recalculating totals",
-    "Low risk change with minimal performance impact"
+    "Editing Quantity, Direct Unit Cost, Line Discount, Line Type, No. or Unit of Measure saves the line and recalculates the warnings before the page refreshes",
+    "A corrected line shows No warnings right away instead of the old warnings",
+    "The Warnings column goes away once no line has a warning",
+    "Works like the purchase order subform, which saves the line before recalculating totals",
+    "Page-only change: warnings are recalculated once more per edit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

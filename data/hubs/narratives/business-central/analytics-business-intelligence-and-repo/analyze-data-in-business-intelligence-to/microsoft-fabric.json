@@ -1,24 +1,24 @@
 {
   "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
-  "input_hash": "3bb12d6eed0ef647f9e5c5a0b8fef4c33c3327c53f908eca8b437cfd73208b66",
-  "summary": "Business Central data mirroring to Microsoft Fabric replicates Business Central online data into OneLake for analytics. The section answers questions about what mirroring is, how to set it up, how to manage which companies and tables sync, how to monitor and troubleshoot runs, and common FAQ limits.",
-  "overview": "Data mirroring is a managed integration that connects Business Central online to Microsoft Fabric. It copies an initial snapshot and then ongoing changes into an open mirrored database in OneLake, stored in Delta Parquet format, so analytics and data engineering teams do not need to read repeatedly from APIs.\n\nThe pages follow the lifecycle of the integration. Start with the overview page to understand the capability, then use the setup page to connect through the Connect to Microsoft Fabric assisted setup or the Microsoft Fabric Mirroring Setup page. That setup covers service principal authentication, workspace access, and the choice of companies and tables. The management page covers the same setup page for ongoing control: schedules, configuration packages, permission sets, and start, stop, or reset actions.\n\nOnce synchronization runs, the monitoring page explains the Fabric Synchronization Overview and Synchronization Details views for run states, errors, and table-level results. The FAQ covers availability, Fabric capacity needs, schema changes, and latency, and it is marked as preview.",
+  "input_hash": "ece3bef23a80aa3d2c7a74992ff804656d296408db554971e94f2762e5ff349a",
+  "summary": "Microsoft Fabric mirroring for Business Central online: how data is replicated into OneLake, how to set it up, manage and monitor synchronization, and common FAQ answers. It answers questions about setup, table and company selection, limits, scheduling and troubleshooting.",
+  "overview": "Data mirroring connects Business Central online to Microsoft Fabric. It replicates an initial snapshot and then ongoing changes into OneLake, stored in Delta Parquet format. Analytics and data engineering teams can then use the data in Fabric and Power BI without repeatedly reading from APIs.\n\nThe pages follow the life of the integration. Start with the mirroring overview to see what it does and its limits. Then use the setup page, which covers the assisted setup guide or the Microsoft Fabric Mirroring Setup page, service principal authentication, and choosing companies and tables. After that, the management page explains how to control synchronization, and the monitoring page explains how to check runs and fix errors. The FAQ covers availability, capacity requirements and behavior questions, and it is marked as preview.",
   "key_points": [
-    "Mirroring replicates an initial snapshot plus incremental changes from Business Central online into OneLake, stored as Delta Parquet.",
-    "Supports multiple Business Central companies and up to 1,000 selected tables.",
-    "Setup uses the Connect to Microsoft Fabric assisted setup or the Microsoft Fabric Mirroring Setup page, with service principal authentication and workspace access management.",
+    "Mirroring replicates an initial snapshot and then incremental changes from Business Central online into OneLake in Delta Parquet format.",
+    "Multiple companies are supported, with up to 1,000 selected tables.",
+    "Setup uses the assisted setup guide or the Microsoft Fabric Mirroring Setup page, with service principal authentication. The setup page references version 29.1.",
     "A configuration package provides a curated set of standard tables.",
-    "The Mirroring Setup page controls schedule and interval, permission sets, and start, stop, and reset of data export.",
-    "Monitor runs with the Fabric Synchronization Overview and Synchronization Details, including error filtering, company and table details, and watermark tracking.",
-    "The FAQ covers Fabric capacity requirements, table and field selection, schema change handling, and synchronization latency, and it is marked as preview."
+    "The Microsoft Fabric Mirroring Setup page controls company and table selection, permission sets, schedule and interval, and the start, stop and reset actions.",
+    "Fabric Synchronization Overview and Synchronization Details show run states, errors, table-level results and watermarks.",
+    "The FAQ covers Fabric capacity requirements, table and field selection, schema change handling and latency control, and it is labeled preview."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-07T01:06:08.891Z",
+  "at": "2026-11-19T01:01:05.198Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014527000000000002
+    "cost_usd": 0.013500999999999999
   }
 }

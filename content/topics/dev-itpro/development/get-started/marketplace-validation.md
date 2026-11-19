@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/get-started/marketplace-validation
 type: topic
 title: Marketplace validation
-summary: "Marketplace validation covers what partners need to do before and after submitting Business Central apps to AppSource: the technical validation checklist and FAQ, telemetry for validation results, and guidance on landing pages and videos. It answers questions on requirements, self-validation, diagnosing failed validation and marketing an app."
+summary: Marketplace validation covers what partners need to do before and after submitting Business Central apps to AppSource. It answers questions about the technical validation checklist and FAQ, validation telemetry in Application Insights, breaking changes validation, and marketing assets such as landing pages and videos.
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:55:46.687Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: df1095e3a82b137a5e19edc1d5c890334b6ee0bc7b9440f585e01fcab967ec84
+  input_hash: b94f00d63a4cb4cf50c014977fb78ba1ef026ce9f4d78b74e25e53663cc743cf
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-app-validation-trace
@@ -27,8 +27,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace
-    title: Analyzing Marketplace submission validation trace telemetry
-    date: "2021-08-01"
+    title: Analyzing Marketplace Submission Validation Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -109,28 +109,28 @@ narrative: generated
 
 # Marketplace validation
 
-> Marketplace validation covers what partners need to do before and after submitting Business Central apps to AppSource: the technical validation checklist and FAQ, telemetry for validation results, and guidance on landing pages and videos. It answers questions on requirements, self-validation, diagnosing failed validation and marketing an app.
+> Marketplace validation covers what partners need to do before and after submitting Business Central apps to AppSource. It answers questions about the technical validation checklist and FAQ, validation telemetry in Application Insights, breaking changes validation, and marketing assets such as landing pages and videos.
 
-Path: [Development](../../development.md) > [Get started](../get-started.md) > Marketplace validation · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Get started](../get-started.md) > Marketplace validation · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is for partners publishing Business Central extensions on the Marketplace. The core pages are the technical validation checklist, which lists mandatory requirements and explains how validation is done, and the technical validation FAQ, which answers common questions on the process, app identity, code-signing, Application Insights and app previews.
+This section is for partners who publish Business Central extensions on the Marketplace. It has no subtopics. Its six pages fall into two groups: technical validation and marketing guidance.
 
-Two telemetry pages help after submission. One documents the validation traces sent to Application Insights, including AL compiler diagnostics, AppSourceCop diagnostic codes and KQL samples. The other explains how to detect when an AppSource app fails validation against upcoming Business Central releases (breaking changes validation).
+For technical validation, start with the Technical validation checklist. It lists the mandatory requirements before submission and explains how validation is done, including self-validation with BcContainerHelper and AppSourceCop analysis. The Technical validation FAQ covers common questions on the process, app identity, code-signing, Azure Application Insights, app previews and marketplace offers. Two telemetry pages explain how to use Application Insights traces. One covers submission validation results and the other covers breaking changes validation against upcoming Business Central releases.
 
-Two pages cover marketing: how to build an effective sales landing page and how to make compelling videos. Start with the checklist, use the FAQ for specific questions, then use the telemetry pages to troubleshoot results.
+Two further pages give marketing advice: how to build an effective sales landing page and how to make compelling videos for different personas.
 
 ## Key points
 
-- The technical validation checklist lists mandatory requirements before submission, including manifest validation, affix registration, digital code signing, permission sets and extension publishing.
-- Partners can self-validate using BcContainerHelper and AppSourceCop analysis.
-- Submission validation traces go to Application Insights and include validation phases, AL compiler diagnostics and AppSourceCop diagnostic codes.
-- The submission trace page includes KQL code samples and references 2021 release wave 1 (version 18.4).
-- Breaking changes validation telemetry shows when an AppSource app fails validation against upcoming Business Central releases.
-- The FAQ covers app identity validation, code-signing validation, Azure Application Insights usage, app previews and marketplace offers.
+- The Technical validation checklist lists mandatory requirements before submission, including manifest validation, affix registration, digital code signing, permission sets and extension publishing.
+- Partners can self-validate with BcContainerHelper and AppSourceCop analysis before submitting.
+- Submission validation telemetry uses Application Insights traces to track validation phases, diagnostics and failures, including AL compiler and AppSourceCop checks.
+- The submission validation telemetry page references 2021 release wave 1 and version 18.4.
+- Breaking changes validation telemetry helps partners detect when their AppSource apps fail validation against upcoming Business Central releases.
+- The Technical validation FAQ covers app identity, code-signing, Azure Application Insights, app previews and marketplace offers.
 - The landing page guide covers layout, headline copy, pain-based messaging, benefits, testimonials and video demonstrations.
-- The video guide describes why, how and what videos plus customer testimony, with structure and persona targeting.
+- The video guide describes why, how, what and customer testimony videos, with a structure built around benefits, pain points and a call to action.
 
 ## Learn pages
 
@@ -140,7 +140,7 @@ Two pages cover marketing: how to build an effective sales landing page and how 
   - Breaking changes validation is separate from Marketplace submission validation that occurs in Partner Center.
   - Limit: AL compiler errors and AppSourceCop analyzer issues are reported as validation diagnostics during the process.
   - Validation diagnostics can be information, warning, or error severity levels based on issue type.
-- [Analyzing Marketplace submission validation trace telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace): Learn about the telemetry for publishing apps to Marketplace from Partner Center.
+- [Analyzing Marketplace Submission Validation Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace): Analyze Business Central Marketplace submission validation telemetry to track validation stages, identify diagnostics, and investigate publication failures.
   - Status: Available from Business Central 2021 release wave 1, version 18.4 and later.
   - Telemetry traces are emitted for validation process phases when app is submitted to Marketplace.
   - Validation runs against each extension for each country and Business Central version specified.

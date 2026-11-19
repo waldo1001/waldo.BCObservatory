@@ -1,38 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-sl-configure-companies.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-configure-companies",
-  "title": "Configure Dynamics SL company migration",
-  "blob": "acb5865e182690c594b9b605d289a0a8da129609",
+  "title": "Dynamics SL Company Migration Configuration",
+  "blob": "d8f661e5cecfabadd2c26c109104c35c8fae7338",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "status",
-      "text": "Generally available."
-    },
-    {
       "kind": "prerequisite",
-      "text": "Run cloud migration setup before configuring company migration."
+      "text": "Run cloud migration setup for Dynamics SL migration before configuring company migration."
+    },
+    {
+      "kind": "step",
+      "text": "Open SL Company Migration Configuration page from Cloud Migration Management, then select Configure SL Migration."
+    },
+    {
+      "kind": "step",
+      "text": "Set Dimension 1 and Dimension 2 in the Per Company section by selecting Dynamics SL subaccount segments for global dimensions."
+    },
+    {
+      "kind": "step",
+      "text": "Choose which modules to migrate: General Ledger, Accounts Payable, Accounts Receivable, and Inventory are selected by default."
+    },
+    {
+      "kind": "step",
+      "text": "Specify the Oldest GL Year field for general ledger data to control how many years back to migrate."
     },
     {
       "kind": "fact",
-      "text": "SL Company Migration Configuration page opens automatically after Cloud Migration Setup."
-    },
-    {
-      "kind": "step",
-      "text": "Configure migration globally or per company using Modules, Master Data Only, and other sections."
-    },
-    {
-      "kind": "step",
-      "text": "Set Oldest GL Year to specify how far back to migrate GL account summary transactions."
-    },
-    {
-      "kind": "step",
-      "text": "Set Oldest Snapshot Year to specify earliest year for historical transaction migration."
+      "text": "Open purchase orders require General Ledger, Accounts Payable, and Inventory. Open sales orders require General Ledger, Accounts Receivable, and Inventory."
     },
     {
       "kind": "fact",
-      "text": "Inactive records and discontinued items not migrated by default unless enabled."
+      "text": "Most global settings are copied to company-level settings, but Include Hold Status Resources and Include Plan Status Projects are not copied."
     }
   ],
   "dropped": 0,
@@ -40,7 +40,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005651,
+      "cost_usd": 0.004023,
       "pages_in_call": 10
     }
   ]

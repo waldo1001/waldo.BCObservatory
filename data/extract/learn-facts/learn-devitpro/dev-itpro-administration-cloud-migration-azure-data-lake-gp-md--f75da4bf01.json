@@ -1,47 +1,43 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-azure-data-lake-gp.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-azure-data-lake-gp",
-  "title": "Move Dynamics GP database to Azure Data Lake",
-  "blob": "d3024e936d70e248448833ecb574c204c4c98529",
+  "title": "Copy Dynamics GP Data to Azure Data Lake Storage",
+  "blob": "988721632070a8f38c087c580b4bf0f263e37cd0",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "fact",
-      "text": "Can create copy of Dynamics GP database in Azure Data Lake for future reference after migration."
+      "kind": "limit",
+      "text": "Does not replace SQL Server backups used for migration or recovery."
     },
     {
       "kind": "prerequisite",
-      "text": "Azure Data Lake Gen2 storage account with access to storage account name and key."
+      "text": "Have Azure Data Lake Storage Gen2 account with access to name and account key."
     },
     {
-      "kind": "step",
-      "text": "Open Cloud Migration Management page and select Azure Data Lake action."
+      "kind": "prerequisite",
+      "text": "Cloud migration setup enabled for Dynamics GP."
     },
     {
-      "kind": "step",
-      "text": "Complete Azure Data Lake Migration Setup guided wizard."
-    },
-    {
-      "kind": "fact",
-      "text": "Database folder in Azure Data Lake is always named gp-database; can rename after migration."
+      "kind": "prerequisite",
+      "text": "Have SUPER permission set to use Azure Data Lake action on Cloud Migration Management."
     },
     {
       "kind": "fact",
-      "text": "Subfolders follow Dynamics GP series folder naming conventions; unmapped files go to 3rd Party folder."
+      "text": "Database folder in Azure Data Lake always set to gp-database; can rename after migration completes."
     },
     {
       "kind": "fact",
-      "text": "Must delete gp-database folder and contents before running wizard again."
+      "text": "Second run requires deleting existing gp-database folder and contents first to copy data again."
     }
   ],
-  "dropped": 0,
+  "dropped": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004442,
-      "pages_in_call": 13
+      "cost_usd": 0.00502,
+      "pages_in_call": 11
     }
   ]
 }

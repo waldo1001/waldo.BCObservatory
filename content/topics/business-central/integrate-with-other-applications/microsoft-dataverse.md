@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-04T01:01:00.445Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,7 +21,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection
     title: Connect to Microsoft Dataverse
-    date: "2025-06-10"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -35,7 +35,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-common-data-service
     title: Integrate with Microsoft Dataverse via data sync
-    date: "2026-06-17"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -163,9 +163,10 @@ Operational pages cover running synchronization manually (full, modified records
 ## Learn pages
 
 - [Connect to Microsoft Dataverse](https://learn.microsoft.com/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection): Set up a connection between Business Central and Dataverse. Businesses typically create the connection to integrate data with another Dynamics 365 app.
-  - In the observatory: [Page 36954 "Customers"](../../../objects/page/36954.md), [Page 483 "Currency Exchange Rates"](../../../objects/page/483.md), [Page 5 "Currencies"](../../../objects/page/5.md)
+  - In the observatory: [Page 36954 "Customers"](../../../objects/page/36954.md)
 - [Dataverse data ownership models for synchronization](https://learn.microsoft.com/dynamics365/business-central/admin-cds-company-concept): Choose a data ownership model for Business Central and Dataverse synchronization, and learn how companies, business units, and teams control access.
 - [Integrate with Microsoft Dataverse via data sync](https://learn.microsoft.com/dynamics365/business-central/admin-common-data-service): Introduction to how to integrate and use Microsoft Dataverse and its components to connect to other Dynamics 365 applications.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../objects/page/118.md), [Page 483 "Currency Exchange Rates"](../../../objects/page/483.md), [Page 5 "Currencies"](../../../objects/page/5.md)
 - [Integrating with Microsoft Dataverse](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/dataverse-integration-overview): Learn how to integrate Business Central with Microsoft Dataverse
 - [Manual Synchronization of Table Mappings \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/admin-manual-synchronization-of-table-mappings): The synchronization copies data between Microsoft Dataverse tables and Business Central to keep both systems up-to-date.
 - [Mapping the tables and fields to synchronize](https://learn.microsoft.com/dynamics365/business-central/admin-how-to-modify-table-mappings-for-synchronization): Learn how to map tables and fields for synchronizing data between Business Central and Microsoft Dataverse.

@@ -3,21 +3,21 @@
     7,
     [
       1,
-      "4f49a1eb5ebb7384620fe1654dd53536c3abca03",
+      "8df2ba47b62fdf6e6189524d4680b9bfb49bb553",
       "4",
-      "4f49a1eb5ebb7384620fe1654dd53536c3abca03",
+      "8df2ba47b62fdf6e6189524d4680b9bfb49bb553",
       "4"
     ]
   ],
   "schema": "bcobs-field-docs@1",
   "major": "29",
   "stats": {
-    "tooltips": 18854,
-    "bound": 12787,
-    "unparsed": 2994,
-    "unmatched": 3073,
-    "tables": 1084,
-    "fields": 8977
+    "tooltips": 19052,
+    "bound": 12964,
+    "unparsed": 2998,
+    "unmatched": 3090,
+    "tables": 1096,
+    "fields": 9103
   },
   "tables": {
     "table/4": {
@@ -6752,6 +6752,16 @@
         "page": "page/165",
         "control": "Debit Amount (LCY)"
       },
+      "EA Corp Card Settle Entry No.": {
+        "tooltip": "Specifies the corporate card settlement that created this bank account ledger entry.",
+        "page": "pageextension/7442",
+        "control": "EA Corp Card Settle Entry No."
+      },
+      "EA Corp Card Trans Entry No.": {
+        "tooltip": "Specifies the corporate card transaction that created this bank account ledger entry.",
+        "page": "pageextension/7442",
+        "control": "EA Corp Card Trans Entry No."
+      },
       "Open": {
         "tooltip": "Specifies whether the amount on the bank account entry has been fully applied to or if there is still a remaining amount that must be applied to.",
         "page": "page/165",
@@ -6801,6 +6811,16 @@
         "page": "page/1290",
         "control": "Applied Entries"
       },
+      "EA Corp Card Trans Entry No.": {
+        "tooltip": "Specifies the corporate card transaction that created this payment reconciliation line.",
+        "page": "pageextension/7440",
+        "control": "EA Corp Card Trans Entry No."
+      },
+      "EA Posted Exp. Report No.": {
+        "tooltip": "Specifies the posted expense report linked to this payment reconciliation line.",
+        "page": "pageextension/7440",
+        "control": "EA Posted Exp. Report No."
+      },
       "Statement Amount": {
         "tooltip": "Specifies the amount of the transaction on the bank's statement shown on this reconciliation line.",
         "page": "page/1291",
@@ -6810,6 +6830,18 @@
         "tooltip": "Specifies the date when the payment represented by the journal line was recorded in the bank account.",
         "page": "page/1287",
         "control": "Transaction Date"
+      }
+    },
+    "table/276": {
+      "EA Corp Card Trans Entry No.": {
+        "tooltip": "Specifies the corporate card transaction represented by this statement line.",
+        "page": "pageextension/7441",
+        "control": "EA Corp Card Trans Entry No."
+      },
+      "EA Posted Exp. Report No.": {
+        "tooltip": "Specifies the posted expense report linked to this statement line.",
+        "page": "pageextension/7441",
+        "control": "EA Posted Exp. Report No."
       }
     },
     "table/279": {
@@ -10285,6 +10317,11 @@
         "tooltip": "Specifies the date formula that is used to calculate the next time the recurring job queue entry will run. If you use a date formula, all other recurrence settings are cleared.",
         "page": "page/673",
         "control": "Next Run Date Formula"
+      },
+      "No. of Attempts to Run": {
+        "tooltip": "Specifies the number of times this job queue entry has been executed.",
+        "page": "page/7445",
+        "control": "No. of Attempts to Run"
       },
       "No. of Minutes between Runs": {
         "tooltip": "Specifies the minimum number of minutes that are to elapse between runs of a job queue entry. The value cannot be less than one minute. This field only has meaning if the job queue entry is set to be a recurring job. If you use a no. of minutes between runs, the date formula setting is cleared.",
@@ -29374,6 +29411,11 @@
         "page": "page/6988",
         "control": "Shortcut Dimension 2 Code"
       },
+      "Source": {
+        "tooltip": "Specifies how the expense was originally created.",
+        "page": "page/6927",
+        "control": "source"
+      },
       "Starting Date and Time": {
         "tooltip": "Specifies the start of the travel period for this expense. Editable for Per Diem expenses.",
         "page": "page/6988",
@@ -32890,6 +32932,618 @@
         "tooltip": "Specifies whether this rate applies to an Item or Fixed Asset.",
         "page": "page/7418",
         "control": "Source Type"
+      }
+    },
+    "table/7421": {
+      "Blocked": {
+        "tooltip": "Specifies whether this card is blocked from new imports.",
+        "page": "page/7431",
+        "control": "Blocked"
+      },
+      "Card Id": {
+        "tooltip": "Specifies the internal card identifier.",
+        "page": "page/7431",
+        "control": "Card Id"
+      },
+      "Expense User No.": {
+        "tooltip": "Specifies the expense user linked to this card.",
+        "page": "page/7431",
+        "control": "Expense User No."
+      },
+      "External Card Ref": {
+        "tooltip": "Specifies the provider external card reference.",
+        "page": "page/7431",
+        "control": "External Card Ref"
+      },
+      "Provider Code": {
+        "tooltip": "Specifies the transaction feed provider for this card.",
+        "page": "page/7431",
+        "control": "Provider Code"
+      }
+    },
+    "table/7422": {
+      "Closed At": {
+        "tooltip": "Specifies when reconciliation of the statement was closed.",
+        "page": "page/7444",
+        "control": "Closed At"
+      },
+      "Closed By User ID": {
+        "tooltip": "Specifies the user who closed reconciliation of the statement.",
+        "page": "page/7444",
+        "control": "Closed By User ID"
+      },
+      "Currency Code": {
+        "tooltip": "Specifies the currency of the provider statement.",
+        "page": "page/7444",
+        "control": "Currency Code"
+      },
+      "Duplicates": {
+        "tooltip": "Specifies the number of duplicate transactions.",
+        "page": "page/7441",
+        "control": "Duplicates"
+      },
+      "Exceptions": {
+        "tooltip": "Specifies the number of unresolved import and post-import processing exceptions. Choose the number to review the errors.",
+        "page": "page/7444",
+        "control": "Exceptions"
+      },
+      "Imported": {
+        "tooltip": "Specifies the number of imported transactions.",
+        "page": "page/7441",
+        "control": "Imported"
+      },
+      "Imported Transactions": {
+        "tooltip": "Specifies the total number of statement lines.",
+        "page": "page/7444",
+        "control": "Imported Transactions"
+      },
+      "Matched Transactions": {
+        "tooltip": "Specifies the number of statement lines linked to imported corporate card transactions.",
+        "page": "page/7444",
+        "control": "Matched Transactions"
+      },
+      "Period End Date": {
+        "tooltip": "Specifies the last transaction date covered by the statement.",
+        "page": "page/7444",
+        "control": "Period End Date"
+      },
+      "Period Start Date": {
+        "tooltip": "Specifies the first transaction date covered by the statement.",
+        "page": "page/7444",
+        "control": "Period Start Date"
+      },
+      "Prev. Reconciled Amount": {
+        "tooltip": "Specifies the reconciled amount captured before invalidation.",
+        "page": "page/7444",
+        "control": "Prev. Reconciled Amount"
+      },
+      "Prev. Reconciled Transactions": {
+        "tooltip": "Specifies the reconciled transaction count captured before invalidation.",
+        "page": "page/7444",
+        "control": "Prev. Reconciled Transactions"
+      },
+      "Previous Closed At": {
+        "tooltip": "Specifies when the previous reconciliation closure occurred.",
+        "page": "page/7444",
+        "control": "Previous Closed At"
+      },
+      "Previous Closed By User ID": {
+        "tooltip": "Specifies the user who completed the previous reconciliation closure.",
+        "page": "page/7444",
+        "control": "Previous Closed By User ID"
+      },
+      "Provider Code": {
+        "tooltip": "Specifies the corporate card provider that issued the statement.",
+        "page": "page/7444",
+        "control": "Provider Code"
+      },
+      "Recon. Invalidation Reason": {
+        "tooltip": "Specifies why reconciliation must be performed again.",
+        "page": "page/7444",
+        "control": "Recon. Invalidation Reason"
+      },
+      "Reconciliation Invalidated At": {
+        "tooltip": "Specifies when reconciliation was invalidated.",
+        "page": "page/7444",
+        "control": "Reconciliation Invalidated At"
+      },
+      "Reconciliation Invalidated By": {
+        "tooltip": "Specifies the user who invalidated reconciliation.",
+        "page": "page/7444",
+        "control": "Reconciliation Invalidated By"
+      },
+      "Settlement Entry No.": {
+        "tooltip": "Specifies the settlement that includes this statement.",
+        "page": "page/7444",
+        "control": "Settlement Entry No."
+      },
+      "Statement Date": {
+        "tooltip": "Specifies the date of the provider statement.",
+        "page": "page/7444",
+        "control": "Statement Date"
+      },
+      "Statement Entry No.": {
+        "tooltip": "Specifies the internal entry number of the imported statement.",
+        "page": "page/7443",
+        "control": "Statement Entry No."
+      },
+      "Statement No.": {
+        "tooltip": "Specifies the statement identifier assigned by the provider.",
+        "page": "page/7444",
+        "control": "Statement No."
+      },
+      "Statement Total": {
+        "tooltip": "Specifies the total amount reported by the provider.",
+        "page": "page/7444",
+        "control": "Statement Total"
+      },
+      "Status": {
+        "tooltip": "Specifies whether the provider statement is open or validated.",
+        "page": "page/7444",
+        "control": "Status"
+      },
+      "Transaction Total": {
+        "tooltip": "Specifies the total amount of the statement lines.",
+        "page": "page/7444",
+        "control": "Transaction Total"
+      }
+    },
+    "table/7423": {
+      "Entry No.": {
+        "tooltip": "Specifies the exception entry number.",
+        "page": "page/7432",
+        "control": "Entry No."
+      },
+      "Exception Type": {
+        "tooltip": "Specifies the exception type.",
+        "page": "page/7432",
+        "control": "Exception Type"
+      },
+      "Message": {
+        "tooltip": "Specifies details about the exception.",
+        "page": "page/7432",
+        "control": "Message"
+      },
+      "Resolved": {
+        "tooltip": "Specifies whether the exception has been resolved.",
+        "page": "page/7432",
+        "control": "Resolved"
+      },
+      "Resolved By": {
+        "tooltip": "Specifies who resolved the exception.",
+        "page": "page/7432",
+        "control": "Resolved By"
+      },
+      "Resolved DT": {
+        "tooltip": "Specifies when the exception was resolved.",
+        "page": "page/7432",
+        "control": "Resolved DT"
+      },
+      "Statement Entry No.": {
+        "tooltip": "Specifies the batch where this exception was raised.",
+        "page": "page/7432",
+        "control": "Statement Entry No."
+      },
+      "Trans Entry No.": {
+        "tooltip": "Specifies the transaction entry linked to this exception.",
+        "page": "page/7432",
+        "control": "Trans Entry No."
+      }
+    },
+    "table/7424": {
+      "Blocked": {
+        "tooltip": "Specifies whether this mapping is blocked.",
+        "page": "page/7435",
+        "control": "Blocked"
+      },
+      "Expense Category": {
+        "tooltip": "Specifies the expense category mapped to this MCC.",
+        "page": "page/7435",
+        "control": "Expense Category"
+      },
+      "VAT Bus. Posting Group": {
+        "tooltip": "Specifies the VAT business posting group suggestion for this MCC.",
+        "page": "page/7435",
+        "control": "VAT Bus. Posting Group"
+      }
+    },
+    "table/7425": {
+      "Active": {
+        "tooltip": "Specifies whether this rule is active.",
+        "page": "page/7437",
+        "control": "Active"
+      },
+      "Expense Category": {
+        "tooltip": "Specifies the expense category code for matching transactions.",
+        "page": "page/7437",
+        "control": "Expense Category"
+      },
+      "Normalized Name": {
+        "tooltip": "Specifies the normalized merchant name to use when this pattern matches.",
+        "page": "page/7437",
+        "control": "Normalized Name"
+      },
+      "Pattern": {
+        "tooltip": "Specifies the text to find in merchant names. Matching is not case-sensitive, and asterisks (*) can be used around the text.",
+        "page": "page/7437",
+        "control": "Pattern"
+      },
+      "Priority": {
+        "tooltip": "Specifies the priority order for rule evaluation (lower = higher priority).",
+        "page": "page/7437",
+        "control": "Priority"
+      },
+      "Rule Id": {
+        "tooltip": "Specifies the rule ID.",
+        "page": "page/7437",
+        "control": "Rule Id"
+      }
+    },
+    "table/7426": {
+      "Code": {
+        "tooltip": "Specifies the provider code.",
+        "page": "page/7434",
+        "control": "Code"
+      },
+      "Corp Card Bank Account No.": {
+        "tooltip": "Specifies the bank account that represents the corporate card liability.",
+        "page": "page/7434",
+        "control": "Corp Card Bank Account No."
+      },
+      "Data Exch Def Code": {
+        "tooltip": "Specifies the data exchange definition code used for file-based imports.",
+        "page": "page/7434",
+        "control": "Data Exch Def Code"
+      },
+      "Description": {
+        "tooltip": "Specifies the provider description.",
+        "page": "page/7434",
+        "control": "Description"
+      },
+      "Enabled": {
+        "tooltip": "Specifies whether this provider is enabled for import.",
+        "page": "page/7434",
+        "control": "Enabled"
+      },
+      "Feed Type": {
+        "tooltip": "Specifies the feed type used to import transactions.",
+        "page": "page/7434",
+        "control": "Feed Type"
+      },
+      "Last Import DT": {
+        "tooltip": "Specifies the date-time of the latest import run.",
+        "page": "page/7434",
+        "control": "Last Import DT"
+      },
+      "Last Statement Entry No.": {
+        "tooltip": "Specifies the latest imported statement entry.",
+        "page": "page/7434",
+        "control": "Last Statement Entry No."
+      },
+      "Payment Bank Account No.": {
+        "tooltip": "Specifies the real bank account from which settlements are paid.",
+        "page": "page/7434",
+        "control": "Payment Bank Account No."
+      }
+    },
+    "table/7428": {
+      "Amount": {
+        "tooltip": "Specifies the transaction amount.",
+        "page": "page/7433",
+        "control": "Amount"
+      },
+      "Amount (LCY)": {
+        "tooltip": "Specifies the transaction amount posted to the corporate card liability in the local currency.",
+        "page": "page/7433",
+        "control": "Amount (LCY)"
+      },
+      "Card Id": {
+        "tooltip": "Specifies the internal corporate card identifier resolved in Business Central, not a card number supplied by the provider.",
+        "page": "page/7433",
+        "control": "Card Id"
+      },
+      "Currency Code": {
+        "tooltip": "Specifies the transaction currency code.",
+        "page": "page/7433",
+        "control": "Currency Code"
+      },
+      "Entry No.": {
+        "tooltip": "Specifies the transaction entry number.",
+        "page": "page/7433",
+        "control": "Entry No."
+      },
+      "Expense No.": {
+        "tooltip": "Specifies the linked expense number if created.",
+        "page": "page/7433",
+        "control": "Expense No."
+      },
+      "Liability Bank Entry No.": {
+        "tooltip": "Specifies the bank ledger entry created by transferring an already-posted manual expense liability.",
+        "page": "page/7433",
+        "control": "Liability Bank Entry No."
+      },
+      "Liability Reversal Trans. No.": {
+        "tooltip": "Specifies the transaction that reversed the manual expense liability transfer.",
+        "page": "page/7433",
+        "control": "Liability Reversal Trans. No."
+      },
+      "MCC": {
+        "tooltip": "Specifies the merchant category code for this transaction.",
+        "page": "page/7433",
+        "control": "MCC"
+      },
+      "Merchant Raw": {
+        "tooltip": "Specifies the transaction description reported by the provider.",
+        "page": "page/7446",
+        "control": "Merchant Raw"
+      },
+      "Posted Expense Report No.": {
+        "tooltip": "Specifies the posted expense report linked to this transaction.",
+        "page": "page/7433",
+        "control": "Posted Expense Report No."
+      },
+      "Provider Code": {
+        "tooltip": "Specifies the provider code for this transaction.",
+        "page": "page/7433",
+        "control": "Provider Code"
+      },
+      "Provider Statement No.": {
+        "tooltip": "Specifies the corporate card provider statement linked to this transaction.",
+        "page": "page/7433",
+        "control": "Provider Statement No."
+      },
+      "Provider Trans Id": {
+        "tooltip": "Specifies the provider transaction identifier.",
+        "page": "page/7433",
+        "control": "Provider Trans Id"
+      },
+      "Statement Entry No.": {
+        "tooltip": "Specifies the statement that contains this transaction.",
+        "page": "page/7433",
+        "control": "Statement Entry No."
+      },
+      "Status": {
+        "tooltip": "Specifies the processing status for this transaction.",
+        "page": "page/7433",
+        "control": "Status"
+      },
+      "Trans Date": {
+        "tooltip": "Specifies the transaction date.",
+        "page": "page/7433",
+        "control": "Trans Date"
+      }
+    },
+    "table/7429": {
+      "Description": {
+        "tooltip": "Specifies the merchant-provided Level 3 line description.",
+        "page": "page/7436",
+        "control": "Description"
+      },
+      "Line No.": {
+        "tooltip": "Specifies the detail line number.",
+        "page": "page/7436",
+        "control": "Line No."
+      },
+      "Quantity": {
+        "tooltip": "Specifies the quantity from the Level 3 detail line.",
+        "page": "page/7436",
+        "control": "Quantity"
+      },
+      "Tax Amount": {
+        "tooltip": "Specifies the tax amount from the Level 3 detail line.",
+        "page": "page/7436",
+        "control": "Tax Amount"
+      },
+      "Tax Code": {
+        "tooltip": "Specifies the tax code from the Level 3 detail line.",
+        "page": "page/7436",
+        "control": "Tax Code"
+      },
+      "Trans Entry No.": {
+        "tooltip": "Specifies the linked corporate card transaction entry.",
+        "page": "page/7436",
+        "control": "Trans Entry No."
+      },
+      "Unit Cost": {
+        "tooltip": "Specifies the unit cost from the Level 3 detail line.",
+        "page": "page/7436",
+        "control": "Unit Cost"
+      },
+      "VAT Amount": {
+        "tooltip": "Specifies the VAT amount from the Level 3 detail line.",
+        "page": "page/7436",
+        "control": "VAT Amount"
+      }
+    },
+    "table/7430": {
+      "Corp Card Bank Acc. Entry No.": {
+        "tooltip": "Specifies the bank account ledger entry that cleared the corporate card liability.",
+        "page": "page/7447",
+        "control": "Corp Card Bank Acc. Entry No."
+      },
+      "Corp Card Bank Account No.": {
+        "tooltip": "Specifies the corporate card liability bank account that will receive the transfer.",
+        "page": "page/7447",
+        "control": "Corp Card Bank Account No."
+      },
+      "Corp Card Reversal Entry No.": {
+        "tooltip": "Specifies the reversal entry for the corporate card bank account.",
+        "page": "page/7447",
+        "control": "Corp Card Reversal Entry No."
+      },
+      "Currency Code": {
+        "tooltip": "Specifies the currency of the settlement.",
+        "page": "page/7447",
+        "control": "Currency Code"
+      },
+      "G/L Register No.": {
+        "tooltip": "Specifies the G/L register created by settlement posting.",
+        "page": "page/7447",
+        "control": "G/L Register No."
+      },
+      "Payment Bank Acc. Entry No.": {
+        "tooltip": "Specifies the bank account ledger entry for the payment from the real bank account.",
+        "page": "page/7447",
+        "control": "Payment Bank Acc. Entry No."
+      },
+      "Payment Bank Account No.": {
+        "tooltip": "Specifies the real bank account from which the settlement will be paid.",
+        "page": "page/7447",
+        "control": "Payment Bank Account No."
+      },
+      "Payment Reversal Entry No.": {
+        "tooltip": "Specifies the reversal entry for the payment bank account.",
+        "page": "page/7447",
+        "control": "Payment Reversal Entry No."
+      },
+      "Posted Date": {
+        "tooltip": "Specifies the date on which the settlement was posted.",
+        "page": "page/7447",
+        "control": "Posted Date"
+      },
+      "Posted Document No.": {
+        "tooltip": "Specifies the document number used to post the settlement.",
+        "page": "page/7447",
+        "control": "Posted Document No."
+      },
+      "Provider Code": {
+        "tooltip": "Specifies the provider being settled.",
+        "page": "page/7447",
+        "control": "Provider Code"
+      },
+      "Reversal G/L Register No.": {
+        "tooltip": "Specifies the G/L register created by settlement reversal.",
+        "page": "page/7447",
+        "control": "Reversal G/L Register No."
+      },
+      "Reversal Reason": {
+        "tooltip": "Specifies why the posted settlement must be reversed.",
+        "page": "page/7447",
+        "control": "Reversal Reason"
+      },
+      "Reversal Transaction No.": {
+        "tooltip": "Specifies the transaction number created by settlement reversal.",
+        "page": "page/7447",
+        "control": "Reversal Transaction No."
+      },
+      "Reversed At": {
+        "tooltip": "Specifies when the settlement was reversed.",
+        "page": "page/7447",
+        "control": "Reversed At"
+      },
+      "Reversed By User ID": {
+        "tooltip": "Specifies the user who reversed the settlement.",
+        "page": "page/7447",
+        "control": "Reversed By User ID"
+      },
+      "Settlement Amount": {
+        "tooltip": "Specifies the amount that the provider will collect.",
+        "page": "page/7447",
+        "control": "Settlement Amount"
+      },
+      "Settlement Date": {
+        "tooltip": "Specifies the date of the provider settlement.",
+        "page": "page/7447",
+        "control": "Settlement Date"
+      },
+      "Settlement Entry No.": {
+        "tooltip": "Specifies the internal settlement entry number.",
+        "page": "page/7447",
+        "control": "Settlement Entry No."
+      },
+      "Settlement No.": {
+        "tooltip": "Specifies the provider settlement identifier.",
+        "page": "page/7447",
+        "control": "Settlement No."
+      },
+      "Statement Count": {
+        "tooltip": "Specifies the number of included statements.",
+        "page": "page/7447",
+        "control": "Statement Count"
+      },
+      "Statement Total": {
+        "tooltip": "Specifies the total amount of the included statements.",
+        "page": "page/7447",
+        "control": "Statement Total"
+      },
+      "Status": {
+        "tooltip": "Specifies the lifecycle status of the settlement.",
+        "page": "page/7447",
+        "control": "Status"
+      },
+      "Transaction No.": {
+        "tooltip": "Specifies the transaction number assigned to the settlement entries.",
+        "page": "page/7447",
+        "control": "Transaction No."
+      }
+    },
+    "table/7431": {
+      "Currency Code": {
+        "tooltip": "Specifies the currency of the included statement.",
+        "page": "page/7448",
+        "control": "Currency Code"
+      },
+      "Inactive": {
+        "tooltip": "Specifies whether the historical settlement relationship was released by settlement reversal.",
+        "page": "page/7448",
+        "control": "Inactive"
+      },
+      "Statement Amount": {
+        "tooltip": "Specifies the amount of the included statement.",
+        "page": "page/7448",
+        "control": "Statement Amount"
+      },
+      "Statement Date": {
+        "tooltip": "Specifies the date of the included statement.",
+        "page": "page/7448",
+        "control": "Statement Date"
+      },
+      "Statement Entry No.": {
+        "tooltip": "Specifies the validated statement included in the settlement.",
+        "page": "page/7448",
+        "control": "Statement Entry No."
+      },
+      "Statement No.": {
+        "tooltip": "Specifies the provider statement number.",
+        "page": "page/7448",
+        "control": "Statement No."
+      }
+    },
+    "table/7449": {
+      "Approved Reports": {
+        "tooltip": "Specifies the number of approved expense reports that are not yet posted.",
+        "page": "page/7449",
+        "control": "Approved Reports"
+      },
+      "Card Transactions to Review": {
+        "tooltip": "Specifies the number of imported corporate card transactions that are not yet turned into expenses.",
+        "page": "page/7449",
+        "control": "Card Transactions to Review"
+      },
+      "Open Expense Reports": {
+        "tooltip": "Specifies the number of expense reports that are not yet submitted.",
+        "page": "page/7449",
+        "control": "Open Expense Reports"
+      },
+      "Open Expenses": {
+        "tooltip": "Specifies the number of expenses that are not yet submitted.",
+        "page": "page/7449",
+        "control": "Open Expenses"
+      },
+      "Pending Approval": {
+        "tooltip": "Specifies the number of expense reports that are waiting for approval.",
+        "page": "page/7449",
+        "control": "Pending Approval"
+      },
+      "Rejected Reports": {
+        "tooltip": "Specifies the number of rejected expense reports.",
+        "page": "page/7449",
+        "control": "Rejected Reports"
+      },
+      "Unresolved Card Exceptions": {
+        "tooltip": "Specifies the number of corporate card import exceptions that need attention.",
+        "page": "page/7449",
+        "control": "Unresolved Card Exceptions"
       }
     },
     "table/7501": {

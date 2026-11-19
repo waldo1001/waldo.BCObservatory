@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -84,7 +84,7 @@ links:
     - video/JI5KlMxrtoA
   posts:
     - post/gerardorenteria-blog/11565
-    - post/jeremyvyska-com/1770
+    - post/sshadows-dk/https-sshadows-dk-blog-from-work-item-to-pr-without-me--5ccd693009
     - post/vondervoort-be/130
     - post/vondervoort-be/147
     - post/yzhums-com/76053
@@ -181,7 +181,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#273 knowledge(style): SetFilter date operands as replacement values; product name via ProductName](../../../../changes/bcquality/273.md) (code change): "Two new code style rules guide developers to use replacement values"
 - [#54 Emit human-readable domain label on review findings](../../../../changes/bcquality/54.md) (code change): "BCQuality review leaves now set an optional human-readable domain label"
 - [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../../../../posts/gerardorenteria-blog/11565.md) (community post): "Analyzer rule additions validate field classifications (AS0138, AS0139, PTE0026)"
-- [Fall 2026 Agentic Development Classes: Copilot Refresh, Claude Code, and BCQuality](../../../../posts/jeremyvyska-com/1770.md) (community post): "BCQuality integration for consistent code quality"
+- [I Tag a Work Item. Sometimes I Come Back to a PR.](../../../../posts/sshadows-dk/https-sshadows-dk-blog-from-work-item-to-pr-without-me--5ccd693009.md) (community post): "AL language server protocol (LSP) with documentSymbol, findReferences, and hover enables agents to understand code structure"
 - [ALCops: The Next Chapter of LinterCop](../../../../posts/vondervoort-be/130.md) (community post): "code analyzer collection for AL that succeeds LinterCop"
 - [ALCops: The Story So Far](../../../../posts/vondervoort-be/147.md) (community post): "ALCops is a community-driven collection of code analyzers for AL"
 - [Business Central 2026 release wave 2 (BC29): Detect tables approaching SQL column limits (New warning)](../../../../posts/yzhums-com/76053.md) (community post): "compiler warnings (AL0914 and AL0915) to alert developers when tables or table extensions contain many fields"

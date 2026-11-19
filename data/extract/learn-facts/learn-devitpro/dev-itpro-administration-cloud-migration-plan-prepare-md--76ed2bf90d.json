@@ -1,42 +1,42 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-plan-prepare.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare",
-  "title": "Prepare and plan for cloud migration from Business Central on-premises",
-  "blob": "b0f4c2fe8450ab3010fc2bc440cc4ce67f1f6c8c",
+  "title": "Plan and Prepare for Business Central Cloud Migration",
+  "blob": "c770b2181aea4d62631baba60f04613bb0af9a4a",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "fact",
-      "text": "Assess current state by reviewing version, database size, customization inventory, largest tables, and compliance requirements."
-    },
-    {
-      "kind": "fact",
-      "text": "On-premises data in extension tables migrates only if extension is installed online and ReplicateData property is true."
-    },
-    {
-      "kind": "fact",
-      "text": "Compressed data size in cloud may differ from on-premises size due to SQL Server data compression feature."
-    },
-    {
       "kind": "step",
-      "text": "Archive obsolete history, shrink oversized log tables, and validate schema changes before migration."
+      "text": "Assess current on-premises environment including version, database size, customizations, and compliance requirements."
     },
     {
       "kind": "fact",
-      "text": "Per-database tables migrate regardless of company selection; plan batches for multi-company migration early."
+      "text": "Per-database tables shared across companies and can be replicated regardless of which companies selected."
     },
     {
       "kind": "prerequisite",
-      "text": "Use sandbox environment for dry runs and validation; do not set up migration for production already in use."
-    },
-    {
-      "kind": "step",
-      "text": "Enable change tracking on on-premises database for expected days between backups; minimum three days enforced."
+      "text": "Move all companies to tenant before going live; moving into live tenant can lead to data loss."
     },
     {
       "kind": "fact",
-      "text": "Create full backup of on-premises database; differential or partial backups not supported as they lack Change Tracking data."
+      "text": "Extension data migrated only if extension installed in online environment and ReplicateData property set to true."
+    },
+    {
+      "kind": "limit",
+      "text": "Data compression in online means on-premises database size may not match migrated data size."
+    },
+    {
+      "kind": "fact",
+      "text": "Change tracking retention period should be at least three days for migration strategy."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Keep environments on Business Central version used when cloud migration set up; do not update on-premises."
+    },
+    {
+      "kind": "fact",
+      "text": "Create migration runbook documenting owners, dependencies, timelines, decision gates, and rollback options."
     }
   ],
   "dropped": 0,
@@ -44,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005472,
-      "pages_in_call": 10
+      "cost_usd": 0.00502,
+      "pages_in_call": 11
     }
   ]
 }

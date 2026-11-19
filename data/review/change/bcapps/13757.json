@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/13757",
+  "input_hash": "57db1872862df046f890acd31deaade2c03435fe8e7891f4ab665578ff9df1c9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-19T00:57:41.676Z",
+  "issues": [
+    "Key point 2 presents the GlobalLanguage and Language.GetLanguageIdOrDefault caption lookup as a change. The description says this already existed and the PR does not change the language selection policy."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023995,
+    "changes_in_call": 6
+  }
+}

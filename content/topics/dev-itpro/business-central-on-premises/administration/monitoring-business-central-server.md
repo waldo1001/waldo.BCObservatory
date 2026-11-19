@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:08.228Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,7 +42,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-events-windows-event-log
     title: Monitoring Business Central Server Events in Event Viewer
-    date: "2021-06-26"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null

@@ -2,159 +2,159 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise
 type: topic
 title: Migrate from Business Central on-premises
-summary: "Migration from Business Central on-premises to Business Central online: the cloud migration process and its phases, preparation, setup, data replication, data upgrade, and completion. It answers what to do at each phase and how to configure, run, monitor, and finish a migration."
+summary: "Migration of Business Central on-premises data to Business Central online: process and roadmap, preparation, cloud migration setup, data replication, data upgrade and completion steps. It answers how to plan, run, monitor and finish a cloud migration."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:17:15.176Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 6729a438cd5801c475d7fb7c02e8369105f6ac4a3614f484b712e760ca1f7030
+  input_hash: b50e0cdd92096f37a645781246189d9ab3cc21725b05a6a8208f52e8970d0c1f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-align-table-definitions
-    title: Align SQL Table Definitions
-    date: "2022-11-25"
+    title: Align SQL Table Definitions for Cloud Migration
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-bc14-reimplementation
-    title: Business Central 14 Reimplementation tool for cloud migration
-    date: "2026-05-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises
-    title: Business Central on-premises to online migration overview
-    date: "2026-05-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-change-replication
-    title: Change the way data is replicated to Business Central online
-    date: "2023-12-07"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-clean-data
-    title: Clean data
-    date: "2023-03-24"
+    title: Business Central 14 Reimplementation for Cloud Migration
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-overview
-    title: Cloud migration setup overview
-    date: "2024-12-13"
+    title: Business Central Cloud Migration Setup Overview
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish
-    title: Complete cloud migration
-    date: "2025-09-22"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication
-    title: Data replication overview
-    date: "2023-01-15"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-table-mapping
-    title: Define migration table mappings
-    date: "2023-03-22"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-estimate-compressed-data-size
-    title: Estimating the data size in your Business Central online tenant
-    date: "2023-11-06"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage
-    title: Managing cloud migration
-    date: "2023-07-04"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-companies-live-tenant
-    title: Migrating Business Central companies into live tenants
-    date: "2024-03-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-optimize-replication
-    title: Optimizing cloud migration performance
-    date: "2023-03-22"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare
-    title: Prepare and plan for cloud migration from Business Central on-premises
-    date: "2026-05-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-retain-permissions
-    title: Retain permissions
-    date: "2024-02-29"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data-replication-run
-    title: Run and manage data replication
-    date: "2024-12-20"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup
-    title: Run Cloud Migration Setup
-    date: "2024-03-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade
-    title: Run data upgrade
-    date: "2023-02-22"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade
-    title: Skip API data upgrade in cloud migration
-    date: "2023-12-12"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises
+    title: Business Central On-Premises to Online Migration Overview
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations
-    title: Upgrade Considerations
-    date: "2021-04-01"
+    title: Business Central Upgrade Planning and Considerations
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-change-replication
+    title: Change Cloud Migration Replication in Business Central Online
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-clean-data
+    title: Clean Business Central Data Before Cloud Migration
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication
+    title: Cloud Migration Data Replication Overview
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish
+    title: Complete Cloud Migration to Business Central Online
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-table-mapping
+    title: Define Cloud Migration Table Mappings in Business Central
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-estimate-compressed-data-size
+    title: Estimate Compressed Data Size for Business Central Online
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage
+    title: Manage Business Central Cloud Migration
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-companies-live-tenant
+    title: Migrate Business Central Companies into Live Tenants
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-optimize-replication
+    title: Optimize Business Central Cloud Migration Performance
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare
+    title: Plan and Prepare for Business Central Cloud Migration
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-retain-permissions
+    title: Retain User Permissions During Cloud Migration
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade
+    title: Run a Cloud Migration Data Upgrade
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data-replication-run
+    title: Run and Manage Cloud Migration Data Replication
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup
+    title: Run Business Central Cloud Migration Setup
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade
+    title: Skip API Data Upgrade During Cloud Migration
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -199,28 +199,27 @@ narrative: generated
 
 # Migrate from Business Central on-premises
 
-> Migration from Business Central on-premises to Business Central online: the cloud migration process and its phases, preparation, setup, data replication, data upgrade, and completion. It answers what to do at each phase and how to configure, run, monitor, and finish a migration.
+> Migration of Business Central on-premises data to Business Central online: process and roadmap, preparation, cloud migration setup, data replication, data upgrade and completion steps. It answers how to plan, run, monitor and finish a cloud migration.
 
-Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Business Central on-premises · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Business Central on-premises · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes how to move a Business Central on-premises solution to Business Central online. The Overview subtopic explains the end-to-end process, its five phases, and the Cloud Migration Management page. It also covers the version 14 reimplementation tool, which is for essential data only.
+This section covers moving data from Business Central on-premises to Business Central online. It follows a five-phase roadmap, and the pages are grouped by phase: overview, prepare, set up cloud migration, replicate data, upgrade data, and complete the migration.
 
-The other subtopics follow the phases in order. Prepare covers planning, data scope, cleanup, SQL table definition alignment, data size estimates, and performance tuning. Set up cloud migration covers Cloud Migration Setup, the integration runtime and pipelines, table mappings, replication settings, and permission retention. Replicate data explains how replication works and how to run, monitor, pause, or troubleshoot it. Upgrade data covers data upgrade from earlier on-premises versions and skipping the API data upgrade.
+Start with the Overview to understand the migration process, its components and how to manage a run from the Cloud Migration Management page. Then work through Prepare (planning, data cleaning, SQL table alignment, size estimation, performance tuning, upgrade considerations and the risks of migrating into live tenants) before you run the Cloud Migration Setup guide.
 
-The page in this hub, Complete cloud migration, covers the final phase. Start with the Overview to choose an approach, then work through Prepare before configuring anything.
+After setup, replication copies the data and the data upgrade runs from the same management page. The final page in this hub, Complete Cloud Migration to Business Central Online, covers the closing tasks: migrating record links and notes, disabling cloud migration, running API data upgrade, setting up users and permissions, defining user mappings, reconfiguring integrations such as Dynamics 365 Sales, and validating the result.
 
 ## Key points
 
-- The migration process has five phases and is managed from the Cloud Migration Management page.
-- A version 14 reimplementation tool exists for migrating essential data only.
-- Prepare steps include planning, data scope, cleaning data, aligning SQL table definitions, estimating data size, and tuning performance.
-- Setup involves Cloud Migration Setup, the integration runtime and pipelines, table mappings, replication settings, and permission retention.
-- Replication uses Azure BLOB storage, Azure Data Factory, and change tracking, with separate flows for large and small tables.
-- Replication can be run, monitored, paused, and troubleshot in Cloud Migration Management.
-- Data upgrade applies to earlier on-premises versions, and the API data upgrade can be disabled per company to shorten upgrade time.
-- Completion tasks include migrating record links and notes, disabling cloud migration, running API upgrades, setting up user mappings, reconnecting Sales integration, and monitoring telemetry.
+- The Overview describes the migration process and components, the five-phase roadmap, and managing a run from the Cloud Migration Management page. It also covers the version 14 reimplementation tool.
+- Prepare covers planning, data cleaning, SQL table alignment, compressed size estimation, performance tuning, upgrade considerations and the risks of migrating into live tenants.
+- Setup uses the Cloud Migration Setup guide. It also covers changing table replication, mapping tables and fields, and keeping user permissions during migration.
+- Replication can be run, monitored, paused, abandoned and rerun. The pages describe separate flows for large and small tables, company initialization and troubleshooting.
+- Data upgrade is run from the Cloud Migration Management page. API data upgrade can be skipped per company to avoid long-running upgrades.
+- Completion tasks include migrating record links and notes, disabling cloud migration, and running API data upgrade.
+- After migration, set up users and permissions, define user mappings, reconfigure integrations (for example Dynamics 365 Sales) and validate the migration.
 
 ## Subtopics
 
@@ -232,7 +231,7 @@ The page in this hub, Complete cloud migration, covers the final phase. Start wi
 
 ## More Learn pages
 
-- [Complete cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish): This article describes the task you do to complete the data migration from on-premises to online.
+- [Complete Cloud Migration to Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish): Learn how to complete Business Central cloud migration, migrate record links and notes, disable migration, and set up users and integrations.
   - Final cloud migration phase handles record links and notes migration, disables cloud migration, runs API data upgrade, sets up users, maps user accounts, and reconfigures integrations.
   - Step: Migrate record links and notes from buffer table to actual table via Migrate Record Links and Notes action on Cloud Migration Management page.
   - Step: Disable cloud migration by selecting Complete Cloud, reading checklist information, toggling acknowledgment switch, then selecting Disable Cloud Migration and confirming.
@@ -241,6 +240,7 @@ The page in this hub, Complete cloud migration, covers the final phase. Start wi
   - Limit: User accounts and permissions from Business Central on-premises are not migrated; each on-premises user requires new Microsoft 365 account with Business Central license.
   - External integrations and services must be updated to reflect new environment URL and Microsoft Entra Tenant ID after migration.
   - Prerequisite: User mappings can only execute once per environment and should be run as final step; test in sandbox before applying to production.
+  - In the observatory: [Codeunit 9800 "User"](../../../../objects/codeunit/9800.md), [Page 40063 "Cloud Migration Management"](../../../../objects/page/40063.md), [Page 4020 "Post Migration Checklist"](../../../../objects/page/4020.md), [Page 9802 "Permission Sets"](../../../../objects/page/9802.md), [Page 9994 "API Data Upgrade List"](../../../../objects/page/9994.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 

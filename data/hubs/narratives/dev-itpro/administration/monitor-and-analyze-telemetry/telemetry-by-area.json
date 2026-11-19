@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/administration/monitor-and-analyze-telemetry/telemetry-by-area",
-  "input_hash": "a9c6494ee38833d40908ef7062e91cc05a58432f16f4dcfab86169e227f0879b",
-  "summary": "Telemetry by area is a reference to the Business Central telemetry events sent to Application Insights, organized by area such as extensions, jobs, performance, security, web services, AI/MCP and company or environment lifecycle. It answers which events exist, their IDs and custom dimensions, and how to analyze them with KQL.",
-  "overview": "This section is a catalog of telemetry areas. Each page covers one area: what operation is logged, the event IDs, the custom dimensions, and often sample KQL queries for Application Insights. Some pages list traces and some list pageViews data.\n\nThe areas fall into groups. Performance and database: SQL query traces, long running SQL and AL methods, wait statistics, deadlocks, lock timeouts, and the Performance Toolkit. Lifecycle: environments, companies, extensions, extension updates, cloud migration, job queue and task scheduler. Security and access: authorization, permission changes and errors, field monitoring, and web service access keys. Integration and AI: web service requests, outgoing requests, Azure Functions, MCP configuration and tool calls, agent lifecycle, and AI consumption.\n\nStart with \"Telemetry area overview\" to see what is available. Then open the page for the area you are troubleshooting. Check the version notes on each page, because many areas apply only from a given release wave or version.",
+  "input_hash": "c974f62268f298fbcdfc3e7cb753fbebb9e83e3c9156ba08d30f43d1bfd7242d",
+  "summary": "Telemetry by area documents the Business Central telemetry events sent to Application Insights, grouped by functional area. It answers which event IDs and custom dimensions exist for a given area (security, performance, extensions, web services, AI/MCP, environments, jobs) and how to analyze them with KQL.",
+  "overview": "This section is a catalog of telemetry pages, one per area of the product. Each page lists the events emitted for that area, their event IDs where given (for example RT0001-RT0004 for authorization, RT0028 for deadlocks, RT0054 for MCP tool calls), the custom dimensions, and sample KQL queries. Pages note the release wave or version in which an area became available.",
   "key_points": [
-    "Start with the Telemetry area overview page, which lists the operations logged to traces or pageViews tables in Application Insights.",
-    "Performance events include SQL query trace (RT0009), long running AL methods (RT0018), database deadlocks (RT0028), and lock timeouts (RT0012, RT0013). Long running SQL queries are those over 750 ms.",
-    "Error and permission events include the Error method trace (RT0030) and permission errors (RT0031).",
-    "AI and agent areas: agent lifecycle (LC0066, LC0067, LC0068), MCP configuration, MCP tool calls (RT0054) and AI consumption of Copilot Credits (RT0055). Agent lifecycle and both MCP pages apply to 2026 release wave 1, version 28.0.",
-    "Open in Excel telemetry uses RT0056 and is listed for 2026 release wave 2.",
-    "Audit-oriented areas: permission changes, field monitoring, changelog configuration, retention policies and feature management.",
-    "Lifecycle and validation areas cover environments, companies, extensions, cloud migration, Marketplace submissions, breaking changes validation, and per-tenant extension (PTE) validation.",
-    "Feature telemetry describes the Telemetry AL module. FeatureTelemetry has LogUsage, LogError and LogUptake for your own extensions."
+    "Start with Business Central Telemetry Area Overview. It describes the traces and pageViews tables in Application Insights and lists the telemetry areas and event IDs.",
+    "Performance and database areas: long running SQL queries (over 750 ms), long running AL methods (RT0018), SQL query trace (RT0009), deadlocks (RT0028), lock timeouts, wait statistics, and table index changes.",
+    "Security and audit areas: authorization (RT0001-RT0004), permission errors (RT0031), permission dependency cycles (RT0032), permission set changes, field monitoring, and changelog configuration.",
+    "Extension and app areas: extension lifecycle, extension update and upgrade tags, per-tenant extension upload validation, AppSource submission validation, breaking changes validation, and environment validation.",
+    "Web service areas: incoming requests, outgoing HttpClient requests, certificate validation errors (RT0052), access key authentication, and web service publish failures.",
+    "AI and agent areas (2026 release wave 1, version 28.0): agent lifecycle, MCP configuration, MCP server tool calls (RT0054). AI consumption (RT0055) tracks Copilot Credits.",
+    "Operations areas: environment and company lifecycle, job queue, task scheduler, cloud migration, configuration packages, retention policies, and stopped sessions.",
+    "Developer-facing pages cover Feature telemetry (LogUsage, LogError, LogUptake) and the Performance Toolkit. Verbose logging controls extra trace detail."
   ],
   "members_used": 61,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-17T01:13:05.136Z",
+  "at": "2026-11-19T01:00:58.485Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.056251
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:53:39.989Z",
-    "verdict": "approve",
-    "issues": [
-      "Calling retention policies and feature management 'audit-oriented' goes a little beyond the sources. Retention policy telemetry logs setup, enabling, applying and deleting expired records. Feature management telemetry tracks when admins turn features on or off. Neither page says it is for auditing.",
-      "The overview opens with 'This section is a catalog'. The rules allow this, but starting with the subject would be better.",
-      "The narrative leaves out many smaller areas, such as report generation, page views, email, the Excel-free financial report areas, onboarding and checklists. This is fine for a summary, but an agent will not learn about those areas from the key points alone."
-    ],
-    "input_hash": "a9c6494ee38833d40908ef7062e91cc05a58432f16f4dcfab86169e227f0879b",
-    "cost_usd": 0.12639519999999999
+    "cost_usd": 0.057901
   }
 }

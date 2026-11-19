@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -239,7 +239,6 @@ Feature Management pages explain how to enable upcoming features early and list 
   - Limit: Six features are mandatory in version 29 and can no longer be controlled in Feature Management.
   - Advanced Tell Me and semantic similarity search were delayed from version 29 to version 30 as mandatory.
   - Prerequisite: Some mandatory features apply to specific country localizations such as Italy VAT settlements and US 1099 forms.
-  - In the observatory: [Page 118 "General Ledger Setup"](../../../objects/page/118.md), [Page 1518 "My Notifications"](../../../objects/page/1518.md), [Page 2610 "Feature Management"](../../../objects/page/2610.md)
 - [Overview of tasks to set up Business Central](https://learn.microsoft.com/dynamics365/business-central/setup): Read an overview of the tasks necessary to set up, initialize, and configure Business Central to suit your needs.
 - [Preparing your network for the Excel Add-In](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins): This article includes information that helps administrators configure advanced device and network settings for the Excel add-in for Business Central.
   - Excel add-in requires network access to four Microsoft services for functioning and synchronizing data with Business Central.

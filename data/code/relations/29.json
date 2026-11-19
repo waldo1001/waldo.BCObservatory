@@ -2,12 +2,12 @@
   "inputs": [
     7,
     [
-      "4f49a1eb5ebb7384620fe1654dd53536c3abca03",
+      "8df2ba47b62fdf6e6189524d4680b9bfb49bb553",
       "4",
       9478,
-      "4f49a1eb5ebb7384620fe1654dd53536c3abca03",
+      "8df2ba47b62fdf6e6189524d4680b9bfb49bb553",
       "4",
-      6961
+      7049
     ]
   ],
   "schema": "al-relations@1",
@@ -3236,6 +3236,21 @@
     {
       "s": "codeunit/74",
       "t": "table/39",
+      "k": "runs_on"
+    },
+    {
+      "s": "codeunit/7423",
+      "t": "table/7428",
+      "k": "runs_on"
+    },
+    {
+      "s": "codeunit/7432",
+      "t": "table/7422",
+      "k": "runs_on"
+    },
+    {
+      "s": "codeunit/7433",
+      "t": "table/472",
       "k": "runs_on"
     },
     {
@@ -19774,8 +19789,63 @@
       "k": "source_table"
     },
     {
+      "s": "page/7429",
+      "t": "table/7422",
+      "k": "source_table"
+    },
+    {
       "s": "page/743",
       "t": "table/743",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7430",
+      "t": "page/7447",
+      "k": "card_page"
+    },
+    {
+      "s": "page/7430",
+      "t": "table/7430",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7431",
+      "t": "table/7421",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7432",
+      "t": "table/7423",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7433",
+      "t": "table/7428",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7434",
+      "t": "table/7426",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7435",
+      "t": "table/7424",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7436",
+      "t": "table/7429",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7437",
+      "t": "table/7425",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7439",
+      "t": "table/7426",
       "k": "source_table"
     },
     {
@@ -19789,8 +19859,68 @@
       "k": "source_table"
     },
     {
+      "s": "page/7440",
+      "t": "table/7422",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7441",
+      "t": "table/7422",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7443",
+      "t": "page/7444",
+      "k": "card_page"
+    },
+    {
+      "s": "page/7443",
+      "t": "table/7422",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7444",
+      "t": "table/7422",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7445",
+      "t": "table/472",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7446",
+      "t": "table/7428",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7447",
+      "t": "table/7430",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7448",
+      "t": "table/7431",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7449",
+      "t": "table/7449",
+      "k": "source_table"
+    },
+    {
       "s": "page/745",
       "t": "table/745",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7450",
+      "t": "table/7421",
+      "k": "source_table"
+    },
+    {
+      "s": "page/7451",
+      "t": "table/7421",
       "k": "source_table"
     },
     {
@@ -27631,6 +27761,21 @@
     {
       "s": "pageextension/7419",
       "t": "page/38",
+      "k": "extends"
+    },
+    {
+      "s": "pageextension/7440",
+      "t": "page/1290",
+      "k": "extends"
+    },
+    {
+      "s": "pageextension/7441",
+      "t": "page/384",
+      "k": "extends"
+    },
+    {
+      "s": "pageextension/7442",
+      "t": "page/372",
       "k": "extends"
     },
     {
@@ -93930,6 +94075,12 @@
       "via": "Vehicle Type"
     },
     {
+      "s": "table/6900",
+      "t": "table/7421",
+      "k": "table_relation",
+      "via": "Corporate Card Id"
+    },
+    {
       "s": "table/6901",
       "t": "page/6977",
       "k": "lookup_page"
@@ -94377,6 +94528,12 @@
       "via": "Vehicle Type"
     },
     {
+      "s": "table/6907",
+      "t": "table/7421",
+      "k": "table_relation",
+      "via": "Corporate Card Id"
+    },
+    {
       "s": "table/6908",
       "t": "page/6912",
       "k": "lookup_page"
@@ -94742,6 +94899,12 @@
     },
     {
       "s": "table/6916",
+      "t": "table/15",
+      "k": "table_relation",
+      "via": "Card Payable Account No."
+    },
+    {
+      "s": "table/6916",
       "t": "table/156",
       "k": "table_relation",
       "via": "Account No.",
@@ -94863,6 +95026,12 @@
       "t": "table/7108",
       "k": "table_relation",
       "via": "Vehicle Type"
+    },
+    {
+      "s": "table/6916",
+      "t": "table/7421",
+      "k": "table_relation",
+      "via": "Corporate Card Id"
     },
     {
       "s": "table/6917",
@@ -95242,6 +95411,12 @@
       "t": "table/6923",
       "k": "table_relation",
       "via": "Default Approver No."
+    },
+    {
+      "s": "table/6930",
+      "t": "table/7426",
+      "k": "table_relation",
+      "via": "Corp Card Default Provider"
     },
     {
       "s": "table/6931",
@@ -99665,6 +99840,222 @@
       "via": "VAT Report Config. Code"
     },
     {
+      "s": "table/7421",
+      "t": "page/7431",
+      "k": "drilldown_page"
+    },
+    {
+      "s": "table/7421",
+      "t": "page/7431",
+      "k": "lookup_page"
+    },
+    {
+      "s": "table/7421",
+      "t": "table/6923",
+      "k": "table_relation",
+      "via": "Expense User No."
+    },
+    {
+      "s": "table/7421",
+      "t": "table/7426",
+      "k": "calc_formula",
+      "via": "Provider Short Name"
+    },
+    {
+      "s": "table/7421",
+      "t": "table/7426",
+      "k": "table_relation",
+      "via": "Provider Code"
+    },
+    {
+      "s": "table/7422",
+      "t": "page/7440",
+      "k": "lookup_page"
+    },
+    {
+      "s": "table/7422",
+      "t": "page/7444",
+      "k": "drilldown_page"
+    },
+    {
+      "s": "table/7422",
+      "t": "table/1220",
+      "k": "table_relation",
+      "via": "Data Exch Entry No."
+    },
+    {
+      "s": "table/7422",
+      "t": "table/7426",
+      "k": "table_relation",
+      "via": "Provider Code"
+    },
+    {
+      "s": "table/7422",
+      "t": "table/7428",
+      "k": "calc_formula",
+      "via": "Imported Transactions"
+    },
+    {
+      "s": "table/7422",
+      "t": "table/7428",
+      "k": "calc_formula",
+      "via": "Matched Transactions"
+    },
+    {
+      "s": "table/7422",
+      "t": "table/7428",
+      "k": "calc_formula",
+      "via": "Transaction Total"
+    },
+    {
+      "s": "table/7422",
+      "t": "table/7431",
+      "k": "calc_formula",
+      "via": "Settlement Entry No."
+    },
+    {
+      "s": "table/7423",
+      "t": "page/7432",
+      "k": "drilldown_page"
+    },
+    {
+      "s": "table/7423",
+      "t": "page/7432",
+      "k": "lookup_page"
+    },
+    {
+      "s": "table/7423",
+      "t": "table/7422",
+      "k": "table_relation",
+      "via": "Statement Entry No."
+    },
+    {
+      "s": "table/7423",
+      "t": "table/7428",
+      "k": "table_relation",
+      "via": "Trans Entry No."
+    },
+    {
+      "s": "table/7424",
+      "t": "page/7435",
+      "k": "drilldown_page"
+    },
+    {
+      "s": "table/7424",
+      "t": "page/7435",
+      "k": "lookup_page"
+    },
+    {
+      "s": "table/7424",
+      "t": "table/323",
+      "k": "table_relation",
+      "via": "VAT Bus. Posting Group"
+    },
+    {
+      "s": "table/7424",
+      "t": "table/6921",
+      "k": "table_relation",
+      "via": "Expense Category"
+    },
+    {
+      "s": "table/7425",
+      "t": "table/6921",
+      "k": "table_relation",
+      "via": "Expense Category"
+    },
+    {
+      "s": "table/7426",
+      "t": "page/7434",
+      "k": "drilldown_page"
+    },
+    {
+      "s": "table/7426",
+      "t": "page/7434",
+      "k": "lookup_page"
+    },
+    {
+      "s": "table/7426",
+      "t": "table/1222",
+      "k": "table_relation",
+      "via": "Data Exch Def Code"
+    },
+    {
+      "s": "table/7426",
+      "t": "table/270",
+      "k": "table_relation",
+      "via": "Corp Card Bank Account No."
+    },
+    {
+      "s": "table/7426",
+      "t": "table/270",
+      "k": "table_relation",
+      "via": "Payment Bank Account No."
+    },
+    {
+      "s": "table/7428",
+      "t": "page/7433",
+      "k": "drilldown_page"
+    },
+    {
+      "s": "table/7428",
+      "t": "page/7433",
+      "k": "lookup_page"
+    },
+    {
+      "s": "table/7428",
+      "t": "table/271",
+      "k": "table_relation",
+      "via": "Liability Bank Entry No."
+    },
+    {
+      "s": "table/7428",
+      "t": "table/6915",
+      "k": "table_relation",
+      "via": "Posted Expense Report No."
+    },
+    {
+      "s": "table/7428",
+      "t": "table/7421",
+      "k": "table_relation",
+      "via": "Card Id"
+    },
+    {
+      "s": "table/7428",
+      "t": "table/7422",
+      "k": "calc_formula",
+      "via": "Provider Statement No."
+    },
+    {
+      "s": "table/7428",
+      "t": "table/7422",
+      "k": "table_relation",
+      "via": "Statement Entry No."
+    },
+    {
+      "s": "table/7428",
+      "t": "table/7424",
+      "k": "table_relation",
+      "via": "MCC"
+    },
+    {
+      "s": "table/7428",
+      "t": "table/7426",
+      "k": "table_relation",
+      "via": "Provider Code"
+    },
+    {
+      "s": "table/7428",
+      "t": "table/9",
+      "k": "table_relation",
+      "via": "Country"
+    },
+    {
+      "s": "table/7429",
+      "t": "table/7428",
+      "k": "table_relation",
+      "via": "Trans Entry No."
+    },
+    {
       "s": "table/743",
       "t": "page/743",
       "k": "lookup_page"
@@ -99694,6 +100085,94 @@
       "via": "Report Version"
     },
     {
+      "s": "table/7430",
+      "t": "page/7430",
+      "k": "lookup_page"
+    },
+    {
+      "s": "table/7430",
+      "t": "page/7447",
+      "k": "drilldown_page"
+    },
+    {
+      "s": "table/7430",
+      "t": "table/270",
+      "k": "table_relation",
+      "via": "Corp Card Bank Account No."
+    },
+    {
+      "s": "table/7430",
+      "t": "table/270",
+      "k": "table_relation",
+      "via": "Payment Bank Account No."
+    },
+    {
+      "s": "table/7430",
+      "t": "table/271",
+      "k": "table_relation",
+      "via": "Corp Card Bank Acc. Entry No."
+    },
+    {
+      "s": "table/7430",
+      "t": "table/271",
+      "k": "table_relation",
+      "via": "Corp Card Reversal Entry No."
+    },
+    {
+      "s": "table/7430",
+      "t": "table/271",
+      "k": "table_relation",
+      "via": "Payment Bank Acc. Entry No."
+    },
+    {
+      "s": "table/7430",
+      "t": "table/271",
+      "k": "table_relation",
+      "via": "Payment Reversal Entry No."
+    },
+    {
+      "s": "table/7430",
+      "t": "table/45",
+      "k": "table_relation",
+      "via": "G/L Register No."
+    },
+    {
+      "s": "table/7430",
+      "t": "table/45",
+      "k": "table_relation",
+      "via": "Reversal G/L Register No."
+    },
+    {
+      "s": "table/7430",
+      "t": "table/7426",
+      "k": "table_relation",
+      "via": "Provider Code"
+    },
+    {
+      "s": "table/7430",
+      "t": "table/7431",
+      "k": "calc_formula",
+      "via": "Statement Count"
+    },
+    {
+      "s": "table/7430",
+      "t": "table/7431",
+      "k": "calc_formula",
+      "via": "Statement Total"
+    },
+    {
+      "s": "table/7431",
+      "t": "table/7422",
+      "k": "table_relation",
+      "via": "Statement Entry No."
+    },
+    {
+      "s": "table/7431",
+      "t": "table/7430",
+      "k": "table_relation",
+      "via": "Settlement Entry No."
+    },
+    {
       "s": "table/744",
       "t": "table/740",
       "k": "table_relation",
@@ -99704,6 +100183,48 @@
       "t": "table/741",
       "k": "table_relation",
       "via": "VAT Report Line No."
+    },
+    {
+      "s": "table/7449",
+      "t": "table/6900",
+      "k": "calc_formula",
+      "via": "Open Expenses"
+    },
+    {
+      "s": "table/7449",
+      "t": "table/6906",
+      "k": "calc_formula",
+      "via": "Approved Reports"
+    },
+    {
+      "s": "table/7449",
+      "t": "table/6906",
+      "k": "calc_formula",
+      "via": "Open Expense Reports"
+    },
+    {
+      "s": "table/7449",
+      "t": "table/6906",
+      "k": "calc_formula",
+      "via": "Pending Approval"
+    },
+    {
+      "s": "table/7449",
+      "t": "table/6906",
+      "k": "calc_formula",
+      "via": "Rejected Reports"
+    },
+    {
+      "s": "table/7449",
+      "t": "table/7423",
+      "k": "calc_formula",
+      "via": "Unresolved Card Exceptions"
+    },
+    {
+      "s": "table/7449",
+      "t": "table/7428",
+      "k": "calc_formula",
+      "via": "Card Transactions to Review"
     },
     {
       "s": "table/746",
@@ -115982,6 +116503,74 @@
       "k": "extends"
     },
     {
+      "s": "tableextension/7440",
+      "t": "table/274",
+      "k": "extends"
+    },
+    {
+      "s": "tableextension/7440",
+      "t": "table/6915",
+      "k": "table_relation",
+      "via": "EA Posted Exp. Report No."
+    },
+    {
+      "s": "tableextension/7440",
+      "t": "table/7428",
+      "k": "table_relation",
+      "via": "EA Corp Card Trans Entry No."
+    },
+    {
+      "s": "tableextension/7441",
+      "t": "table/276",
+      "k": "extends"
+    },
+    {
+      "s": "tableextension/7441",
+      "t": "table/6915",
+      "k": "table_relation",
+      "via": "EA Posted Exp. Report No."
+    },
+    {
+      "s": "tableextension/7441",
+      "t": "table/7428",
+      "k": "table_relation",
+      "via": "EA Corp Card Trans Entry No."
+    },
+    {
+      "s": "tableextension/7442",
+      "t": "table/271",
+      "k": "extends"
+    },
+    {
+      "s": "tableextension/7442",
+      "t": "table/7428",
+      "k": "table_relation",
+      "via": "EA Corp Card Trans Entry No."
+    },
+    {
+      "s": "tableextension/7442",
+      "t": "table/7430",
+      "k": "table_relation",
+      "via": "EA Corp Card Settle Entry No."
+    },
+    {
+      "s": "tableextension/7443",
+      "t": "table/7428",
+      "k": "table_relation",
+      "via": "EA Corp Card Trans Entry No."
+    },
+    {
+      "s": "tableextension/7443",
+      "t": "table/7430",
+      "k": "table_relation",
+      "via": "EA Corp Card Settle Entry No."
+    },
+    {
+      "s": "tableextension/7443",
+      "t": "table/81",
+      "k": "extends"
+    },
+    {
       "s": "tableextension/774",
       "t": "table/774",
       "k": "extends"
@@ -122066,7 +122655,13 @@
       "OnPostBankAccOnBeforeBankAccLedgEntryInsert": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/7443",
+            "proc": "CopyCorpCardReferencesToBankAccountLedgerEntry",
+            "app": "ExpenseAgent"
+          }
+        ]
       },
       "OnPostBankAccOnBeforeCheckCurrencyCode": {
         "kind": "integration",
@@ -123016,7 +123611,13 @@
       "OnSetFieldOnBeforeFieldRefValidate": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/7437",
+            "proc": "OnSetFieldOnBeforeFieldRefValidate",
+            "app": "ExpenseAgent"
+          }
+        ]
       },
       "OnSetFieldOnBeforeGetTransformedValue": {
         "kind": "integration",
@@ -177787,6 +178388,11 @@
             "s": "codeunit/7057",
             "proc": "OnAfterProcessExpenseReportLine",
             "app": "ExpenseWithholdingTax"
+          },
+          {
+            "s": "codeunit/7440",
+            "proc": "OnAfterProcessExpenseReportLine",
+            "app": "ExpenseAgent"
           }
         ]
       },
@@ -186383,6 +186989,23 @@
         "subs": []
       },
       "OnBeforeInsertExciseJournalLineForItem": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      }
+    },
+    "codeunit/7434": {
+      "OnAfterAck": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnAfterDownload": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnBeforeInjectSourceContent": {
         "kind": "integration",
         "obsolete": null,
         "subs": []
@@ -283813,7 +284436,7 @@
     }
   },
   "dead_events": {
-    "count": 22498
+    "count": 22499
   },
   "unresolved": [
     {
@@ -291397,6 +292020,12 @@
     {
       "s": "table/6916",
       "k": "table_relation",
+      "raw": "Currency.Code",
+      "reason": "unknown"
+    },
+    {
+      "s": "table/6916",
+      "k": "table_relation",
       "raw": "Customer.\"No.\"",
       "reason": "unknown"
     },
@@ -292091,6 +292720,36 @@
       "reason": "unknown"
     },
     {
+      "s": "table/7421",
+      "k": "table_relation",
+      "raw": "Currency.Code",
+      "reason": "unknown"
+    },
+    {
+      "s": "table/7422",
+      "k": "table_relation",
+      "raw": "Currency.Code",
+      "reason": "unknown"
+    },
+    {
+      "s": "table/7428",
+      "k": "table_relation",
+      "raw": "Currency.Code",
+      "reason": "unknown"
+    },
+    {
+      "s": "table/7428",
+      "k": "table_relation",
+      "raw": "Expense.\"No.\"",
+      "reason": "unknown"
+    },
+    {
+      "s": "table/7428",
+      "k": "table_relation",
+      "raw": "Expense.\"No.\"",
+      "reason": "unknown"
+    },
+    {
       "s": "table/743",
       "k": "table_relation",
       "raw": "\"CodeUnit Metadata\".ID",
@@ -292124,6 +292783,18 @@
       "s": "table/743",
       "k": "calc_formula",
       "raw": "lookup(AllObjWithCaption.\"Object Caption\" where(\"Object Type\" = const(Codeunit), \"Object ID\" = field(\"Receive Submitted Return CU ID\")))",
+      "reason": "unknown"
+    },
+    {
+      "s": "table/7430",
+      "k": "table_relation",
+      "raw": "Currency.Code",
+      "reason": "unknown"
+    },
+    {
+      "s": "table/7431",
+      "k": "table_relation",
+      "raw": "Currency.Code",
       "reason": "unknown"
     },
     {
@@ -294024,20 +294695,20 @@
     }
   ],
   "stats": {
-    "runs_on": 737,
-    "unresolved_unknown": 1492,
-    "extends": 1836,
-    "source_table": 3620,
-    "card_page": 318,
-    "lookup_page": 822,
-    "table_relation": 10191,
-    "calc_formula": 2546,
-    "drilldown_page": 519,
+    "runs_on": 740,
+    "unresolved_unknown": 1500,
+    "extends": 1843,
+    "source_table": 3641,
+    "card_page": 320,
+    "lookup_page": 829,
+    "table_relation": 10235,
+    "calc_formula": 2561,
+    "drilldown_page": 526,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5181,
-    "edges": 20589,
-    "published_events": 26314,
-    "dead_events": 22498
+    "subscribes": 5184,
+    "edges": 20695,
+    "published_events": 26317,
+    "dead_events": 22499
   }
 }

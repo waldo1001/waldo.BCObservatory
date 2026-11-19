@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T00:47:52.902Z"
+  at: "2026-11-19T00:47:08.789Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 81355f3a87b8bb1993557d6456a1b060409cdcc543b31edf5f23fd5fbb79b9e0
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Apps/W1/EmailLogging/app/src/entitlements/DelegatedBCAdminAgentPartnerEmailLogging.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/EmailLogging/app/src/entitlements/DelegatedBCAdminAgentPartnerEmailLogging.Entitlement.al
     title: src/Apps/W1/EmailLogging/app/src/entitlements/DelegatedBCAdminAgentPartnerEmailLogging.Entitlement.al (releases/29.x)
     date: null
-    commit: 4f49a1eb5ebb7384620fe1654dd53536c3abca03
+    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Delegated BC Admin agent - Partner Email Logging" in EmailLogging (Microsoft.CRM.EmailLoggin). Introduced in BC29, still in BC30.
 
-EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at 4f49a1eb](https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Apps/W1/EmailLogging/app/src/entitlements/DelegatedBCAdminAgentPartnerEmailLogging.Entitlement.al) · facts from BC29
+EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/EmailLogging/app/src/entitlements/DelegatedBCAdminAgentPartnerEmailLogging.Entitlement.al) · facts from BC29
 
 ## Across versions
 

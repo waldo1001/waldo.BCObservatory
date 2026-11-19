@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/replicate-data",
-  "input_hash": "f71d4d3c46269c3fb3be912f76f33eaea5a2db3d272e3c463d644ecea684512d",
-  "summary": "Data replication from Dynamics SL to Business Central online. It explains how replication works (large and small table flows, Azure BLOB storage, Azure Data Factory, change tracking) and how to run, monitor and troubleshoot it on the Cloud Migration Management page.",
-  "overview": "This section covers the replication step of migrating from Dynamics SL to Business Central online. It has two pages: one explains the concepts and one explains the hands-on tasks.\n\n\"Data replication overview\" describes how data moves from the on-premises database to the online environment. It covers the large table and small table flows, Azure BLOB storage, Azure Data Factory, the integration runtime, company initialization, and how rerunning replication uses change tracking.\n\n\"Run and manage data replication\" is the practical page. It uses the Cloud Migration Management page to create a diagnostics run, start replication, monitor progress, and review the Migration Log when errors occur. Start with the overview to understand the flow, then use the run page for the actual migration.",
+  "input_hash": "76ffe67af4be45d9c64c0f02613763dc34aaf1ffb9666c4c0b2282b0b20e3fcd",
+  "summary": "Replicating Dynamics SL data to Business Central online during cloud migration. It covers how the replication pipeline works (large and small table flows, company initialization, change tracking) and how to run, monitor, pause, abandon and rerun replication.",
+  "overview": "This section describes the replication step of a Dynamics SL migration to Business Central online. It applies after cloud migration setup is complete. It has two pages: one explains how replication works, and one explains how to run and manage it.\n\nStart with the overview page. It describes the replication pipeline and the table-based copying flows, which are split into a large table flow and a small table flow. It also mentions Azure Blob Storage, the self-hosted integration runtime, company initialization, and the change tracking used for later runs.\n\nThen use the run and manage page for the practical work. It covers running a diagnostics run, running data replication, watching progress in the migration log, pausing or abandoning a migration, and rerunning replication when you need to troubleshoot.",
   "key_points": [
-    "Replication moves data from the on-premises database to a Business Central online environment.",
-    "Two flows exist: one for large tables and one for small tables, using Azure BLOB storage and Azure Data Factory.",
-    "An integration runtime is part of the replication architecture.",
+    "Replication happens after cloud migration setup and copies on-premises data to Business Central online.",
+    "The pipeline uses table-based copying flows, with separate large table and small table flows.",
+    "Azure Blob Storage and a self-hosted integration runtime are part of the replication pipeline.",
     "Company initialization is part of the process.",
-    "Rerunning replication relies on change tracking.",
-    "Cloud Migration Management page is used to create a diagnostics run and to run replication.",
-    "Progress is monitored and errors are tracked through the Migration Log.",
-    "A migration can be paused or abandoned from the management page."
+    "Change tracking is used for subsequent replication runs.",
+    "A diagnostics run is available before or alongside a full data replication run.",
+    "Progress is monitored in the migration log.",
+    "You can pause a migration, abandon it, or rerun data replication when troubleshooting."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:04:51.400Z",
+  "at": "2026-11-19T01:00:39.121Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008979
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:22:51.597Z",
-    "verdict": "approve",
-    "issues": [
-      "Second key point ties both the large and small table flows to Azure BLOB storage and Azure Data Factory. The source lists these items but does not say which flow uses which service. This is a minor stretch.",
-      "The overview does not mention pausing or abandoning a migration, but the key points cover it."
-    ],
-    "input_hash": "f71d4d3c46269c3fb3be912f76f33eaea5a2db3d272e3c463d644ecea684512d",
-    "cost_usd": 0.0252632
+    "cost_usd": 0.008983
   }
 }

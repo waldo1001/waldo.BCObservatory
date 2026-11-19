@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.950Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -126,7 +126,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-common-data-service
     title: Integrate with Microsoft Dataverse via data sync
-    date: "2026-06-17"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -140,7 +140,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview
     title: Microsoft Power Platform integration with Business Central via Virtual Tables
-    date: "2025-09-30"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null

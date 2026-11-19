@@ -4987,6 +4987,20 @@
         }
       ]
     },
+    "change/bcapps/11026": {
+      "kind": "change",
+      "key": "change/bcapps/11026",
+      "hash": "6e4bc501e79dc72f9728071d9bba131c580355da359405f33cbe3c8422dabab8",
+      "title": "#11026 Service Line CalcVATAmountLines: count VAT Difference once and clear filters before OnAfterCalcVATAmountLines",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:31.427Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/service-management/deliver-service",
+          "quote": "Service Line CalcVATAmountLines now counts VAT differences correctly"
+        }
+      ]
+    },
     "change/bcapps/11027": {
       "kind": "change",
       "key": "change/bcapps/11027",
@@ -6921,6 +6935,15 @@
           "quote": "Shopify webhook subscriptions now request only the required fields"
         }
       ]
+    },
+    "change/bcapps/11660": {
+      "kind": "change",
+      "key": "change/bcapps/11660",
+      "hash": "c05b774002390e096949d356a27a6b63c733e2649dc06964853fe21f4cfb9888",
+      "title": "#11660 Fix #11377: Prevent invalid FatturaPA CAP values",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:33.822Z",
+      "matches": []
     },
     "change/bcapps/11664": {
       "kind": "change",
@@ -9807,6 +9830,20 @@
         }
       ]
     },
+    "change/bcapps/12664": {
+      "kind": "change",
+      "key": "change/bcapps/12664",
+      "hash": "a8b58f448bd09228b3e4aa5ea85859c55b301b461beec93f5252866db2e6b168",
+      "title": "#12664 Fix production journal page ID validation",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:28.663Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing",
+          "quote": "Production journal page ID validation now explicitly passes the page ID parameter"
+        }
+      ]
+    },
     "change/bcapps/12669": {
       "kind": "change",
       "key": "change/bcapps/12669",
@@ -11173,6 +11210,20 @@
         }
       ]
     },
+    "change/bcapps/13264": {
+      "kind": "change",
+      "key": "change/bcapps/13264",
+      "hash": "4e85ec10d22365852396ee192bd2b3b3b3184570667bb21c346e328ee943a8dc",
+      "title": "#13264 implement support for SAF-T 1.40",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:32.298Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/sweden/core-finance",
+          "quote": "Support for SAF-T 1.40 format in Norwegian localization"
+        }
+      ]
+    },
     "change/bcapps/13272": {
       "kind": "change",
       "key": "change/bcapps/13272",
@@ -12159,18 +12210,14 @@
     "change/bcapps/13587": {
       "kind": "change",
       "key": "change/bcapps/13587",
-      "hash": "7f75d23e2d59b9e60eb5e93bda50a122ebfdf5d3163405f36fc79a1702b85765",
+      "hash": "37894755f7e28a703d0069aa9ee51e3e2c0b9c1085c87985c142835d95888788",
       "title": "#13587 Update Corp Card manual selection",
       "source": "bcapps-prs",
-      "at": "2026-11-18T00:54:27.938Z",
+      "at": "2026-11-19T00:54:43.994Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/expense-management-preview/understand-expense-agent",
-          "quote": "Corporate card matching and liability management capabilities are added to expense management"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
-          "quote": "enabling manual selection of corporate cards for expenses with new pages, queries, and automated posting workflows"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Updates corporate card manual selection in the Expense Agent app"
         }
       ]
     },
@@ -12272,6 +12319,24 @@
         }
       ]
     },
+    "change/bcapps/13622": {
+      "kind": "change",
+      "key": "change/bcapps/13622",
+      "hash": "a9311f11692861578ae5f0936a9b2da94a20351df253271ca8ebac5158f87604",
+      "title": "#13622 [Main]- Edit in Excel insert fails on Price List Lines (Page 7001) — Unit of Measure Code validated before Product No. is set causing NavTestFieldException on Price Asset (Table 7003)",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:38.707Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-apis",
+          "quote": "Edit in Excel inserts to Price List Lines now validate against the current row values"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "Added unit test UnitOfMeasureCodeOnInsertLineViaOData to verify the fix"
+        }
+      ]
+    },
     "change/bcapps/13623": {
       "kind": "change",
       "key": "change/bcapps/13623",
@@ -12323,6 +12388,20 @@
         }
       ]
     },
+    "change/bcapps/13631": {
+      "kind": "change",
+      "key": "change/bcapps/13631",
+      "hash": "bb4d0ee697e887714e19a7eecce73400d33b15434bc9dbf5c9099a15eccded34",
+      "title": "#13631 [main] bug 646068 - Add support for disabling incremental exchange gain/loss posting in General Ledger Setup",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:32.298Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/czech-republic/core-finance",
+          "quote": "Czech localization now allows disabling incremental exchange gain/loss posting"
+        }
+      ]
+    },
     "change/bcapps/13641": {
       "kind": "change",
       "key": "change/bcapps/13641",
@@ -12368,6 +12447,15 @@
           "quote": "Expense Agent Setup Wizard now exposes VAT configuration controls"
         }
       ]
+    },
+    "change/bcapps/13679": {
+      "kind": "change",
+      "key": "change/bcapps/13679",
+      "hash": "a0687083d248288fcbdcf8b6e5b49e55ba95a6b4c713c7879309d152498d0033",
+      "title": "#13679 [E-Document Core] Grant Execute on the status factbox, PDF preview and Navigate handler",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:33.822Z",
+      "matches": []
     },
     "change/bcapps/13690": {
       "kind": "change",
@@ -12539,6 +12627,20 @@
         }
       ]
     },
+    "change/bcapps/13757": {
+      "kind": "change",
+      "key": "change/bcapps/13757",
+      "hash": "8b45932552b7d0e02e0be65309fb4e62cbaa80846e1f8a1e0a1ca9b08a9b60d3",
+      "title": "#13757 Fix stale report filename captions and cover language resolution",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:36.126Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing/manufacturing-analytics/obsolete-reports-will-be-removed",
+          "quote": "Fixed a bug where the report filename resolver incorrectly returned true for nonexistent reports"
+        }
+      ]
+    },
     "change/bcapps/13759": {
       "kind": "change",
       "key": "change/bcapps/13759",
@@ -12682,6 +12784,20 @@
         }
       ]
     },
+    "change/bcapps/13820": {
+      "kind": "change",
+      "key": "change/bcapps/13820",
+      "hash": "0356151efefb4fb7e9476f11033511895346e959678fd5967ed50dfe608e700e",
+      "title": "#13820 [main] NO SAF-T changes imported category identifier casing and does not show full identifiers in mapping setup",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:32.298Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/sweden/core-finance",
+          "quote": "Norwegian SAF-T now preserves original category identifiers during import"
+        }
+      ]
+    },
     "change/bcapps/13822": {
       "kind": "change",
       "key": "change/bcapps/13822",
@@ -12784,6 +12900,34 @@
         }
       ]
     },
+    "change/bcapps/13917": {
+      "kind": "change",
+      "key": "change/bcapps/13917",
+      "hash": "71fc8ae77e9fa1102141e0f9deace61e7b915efd8e544e1fd29cd4bcb3ec59ed",
+      "title": "#13917 [Main][ALL-E] Posting a Sales Credit Memo with a different Unit of Measure does not convert the quantity before updating the originating Sales Order (Blanket Sales Order is updated correctly)",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:36.843Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sales",
+          "quote": "posting a sales credit memo with a different unit of measure failed to convert"
+        }
+      ]
+    },
+    "change/bcapps/13920": {
+      "kind": "change",
+      "key": "change/bcapps/13920",
+      "hash": "74325d890c68b2759694bc2e3844b6433edb89c01e3ffff118fd8f54d9ebe945",
+      "title": "#13920 [Main] - Bug 656559: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:43.994Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Address fields in expense-related tables now enforce a 50-character limit"
+        }
+      ]
+    },
     "change/bcapps/13926": {
       "kind": "change",
       "key": "change/bcapps/13926",
@@ -12869,14 +13013,32 @@
     "change/bcapps/13965": {
       "kind": "change",
       "key": "change/bcapps/13965",
-      "hash": "dcd20d7d807da0544a8a21f684f56645f3791d1f31cdf5afd71ba61912df982c",
+      "hash": "8200314a8f7b2eacb9418ea57ec08411ab25c2e63f36f10040c3b49d162afbfd",
       "title": "#13965 Bug 658846: [29.x]Partner feedback: Mark \"Custom Report Layouts\" page caption with '(Obsoleted)' and also add a notification OnOpen",
       "source": "bcapps-prs",
-      "at": "2026-11-18T00:54:31.959Z",
+      "at": "2026-11-19T00:54:36.126Z",
       "matches": [
         {
+          "topic": "topic/business-central/business-functionality/manufacturing/manufacturing-analytics/obsolete-reports-will-be-removed",
+          "quote": "Custom Report Layouts page caption now includes an '(Obsoleted)' marker"
+        },
+        {
           "topic": "topic/business-central/get-started/get-productive-in-business-central/change-the-look-of-externally-facing-doc/use-obsolete-features",
-          "quote": "Custom Report Layouts page caption is marked with (Obsoleted) and a notification is shown"
+          "quote": "Mark \"Custom Report Layouts\" page caption with '(Obsoleted)'"
+        }
+      ]
+    },
+    "change/bcapps/13978": {
+      "kind": "change",
+      "key": "change/bcapps/13978",
+      "hash": "ce7a1e908ff61dc0fdaf4cca1e2a1ae397b7ce5637c576df8b3d0175a1c34ad3",
+      "title": "#13978 [Main] - Bug 658633: [Expense Agent] Limited self-approval cannot be combined with escalation to an unlimited approver",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:43.994Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+          "quote": "Fixed approval handling in Expense Agent to allow limited self-approval"
         }
       ]
     },
@@ -12891,6 +13053,24 @@
         {
           "topic": "topic/business-central/business-functionality/sales",
           "quote": "VAT registration number validation error in Sales Orders where the system incorrectly validated"
+        }
+      ]
+    },
+    "change/bcapps/13999": {
+      "kind": "change",
+      "key": "change/bcapps/13999",
+      "hash": "74f4e8ceb18e80ce36a67571deab6d5f0f061d730b7a3bfbcfc1d42dfd68badb",
+      "title": "#13999 Intrastat export XML performance improvement",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:38.707Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/reading-data",
+          "quote": "Data Exch. Field rows are loaded once into a temporary record using FindSet"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data",
+          "quote": "buffers Data Exch. Field rows in memory and reads from the temporary table instead of querying the database"
         }
       ]
     },
@@ -12911,14 +13091,14 @@
     "change/bcapps/14006": {
       "kind": "change",
       "key": "change/bcapps/14006",
-      "hash": "4f73ae34fe0d31b64de79c83104e9753faabf129b505cd11cdddc9f09e64881f",
+      "hash": "144350e89ab413bffec72bb093c1ed962c22487570affde2d1a5b760c30b05b7",
       "title": "#14006 GP - Better item transaction duplicate handling",
       "source": "bcapps-prs",
-      "at": "2026-11-18T00:54:27.481Z",
+      "at": "2026-11-19T00:54:30.932Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp",
-          "quote": "GP migration now correctly handles duplicate inventory transactions when migrating multiple lot number receipt lines"
+          "quote": "Fixes duplicate records during GP migration when inventory transactions contain multiple lot"
         }
       ]
     },
@@ -12939,11 +13119,29 @@
     "change/bcapps/14018": {
       "kind": "change",
       "key": "change/bcapps/14018",
-      "hash": "7f0d751d107e114cceadbc350db850bdc1a8f173109358ef40178ecd9b0681f8",
+      "hash": "f0e394dd53cdb5338ae97f36e6f7ca05c570e4f183102425fa70cbaf75f5f5fc",
       "title": "#14018 [29.X]-ZUGFeRD: Custom Ship-to Address is not transferred to XML Delivery Address in the German version.",
       "source": "bcapps-prs",
-      "at": "2026-11-18T00:54:29.358Z",
+      "at": "2026-11-19T00:54:33.822Z",
       "matches": []
+    },
+    "change/bcapps/14020": {
+      "kind": "change",
+      "key": "change/bcapps/14020",
+      "hash": "cf0412569c540d8f6f8b9c31bc84f6c29485827a949f4481d31c3bcfb866e421",
+      "title": "#14020 Bug 650215: Direct Transfer route does not populate configured In-Transit Code on transfer order",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:38.784Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/inventory",
+          "quote": "Transfer orders using routes now correctly apply the configured In-Transit Code"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-inventory-costing",
+          "quote": "In-Transit Code is applied from routes for non-direct transfers"
+        }
+      ]
     },
     "change/bcapps/14059": {
       "kind": "change",
@@ -13003,14 +13201,32 @@
     "change/bcapps/14122": {
       "kind": "change",
       "key": "change/bcapps/14122",
-      "hash": "2d96f37f9461fd9564a8aef73d2937b871bfd8500c2eb81c877fbf155bf7d155",
+      "hash": "d9118b96b6274039cb58f00848e737c5db0148d0d844827973007f2f2f5aecd5",
       "title": "#14122 [Subcontracting] Refresh the transfer order lines without saving in SetIsSubcontracting",
       "source": "bcapps-prs",
-      "at": "2026-11-18T00:54:34.872Z",
+      "at": "2026-11-19T00:54:28.663Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
-          "quote": "SetIsSubcontracting method on the transfer order subform now refreshes without saving"
+          "quote": "SetIsSubcontracting on the Subc. Trans. Order Sub. page extension now calls CurrPage.Update"
+        }
+      ]
+    },
+    "change/bcapps/14124": {
+      "kind": "change",
+      "key": "change/bcapps/14124",
+      "hash": "11603789ec26e7e0a754324071bc84fb14d7cc406e0d3b82e2bfd8163b1ebfd5",
+      "title": "#14124 [main] Bug 658242 IT Report 12135 \"Fiscal Inventory Valuation\" shows prior-year value for an item first posted in a later year",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:38.784Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-inventory-costing",
+          "quote": "Fixed incorrect value calculation in Fiscal Inventory Valuation report"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-inventory-costs",
+          "quote": "Report 12135 now correctly displays inventory values for items first posted"
         }
       ]
     },
@@ -13028,6 +13244,38 @@
         }
       ]
     },
+    "change/bcapps/14146": {
+      "kind": "change",
+      "key": "change/bcapps/14146",
+      "hash": "844e22684c7cd478b1674ae5f4ce54dc870c1bcbf11b66f4baf863ca736c45a0",
+      "title": "#14146 [Fabric] Fix synchronization progress page name",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:38.707Z",
+      "matches": []
+    },
+    "change/bcapps/14198": {
+      "kind": "change",
+      "key": "change/bcapps/14198",
+      "hash": "0784924454ab1b1db50ce2b79397c54208d4dac56874959b93856ca498435775",
+      "title": "#14198 [SLS] Update accuracy prompts for GPT-5.6 Ceres migration",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:36.843Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/sales-line-suggestion-preview",
+          "quote": "Sales Lines Suggestions prompts and accuracy evaluations are updated for GPT-5.6"
+        }
+      ]
+    },
+    "change/bcapps/14200": {
+      "kind": "change",
+      "key": "change/bcapps/14200",
+      "hash": "a5793b607a79f76c91c0276926008216f2200de8b0a3b000e63d51714280908d",
+      "title": "#14200 Refresh the purchase order match warnings of a draft line as soon as it is edited",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:33.822Z",
+      "matches": []
+    },
     "change/bcapps/14203": {
       "kind": "change",
       "key": "change/bcapps/14203",
@@ -13039,6 +13287,38 @@
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
           "quote": "Business Central online now always uses commercial Dataverse endpoints regardless of the selected cloud"
+        }
+      ]
+    },
+    "change/bcapps/14218": {
+      "kind": "change",
+      "key": "change/bcapps/14218",
+      "hash": "1ece3e3484620da76b60debd0747d0c2bd618c51c0ec5bb78d8c8dc3042dfd72",
+      "title": "#14218 Show notification only to super users in env. where copilot substitution suggestion was used",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:43.994Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "quote": "notification about retired Copilot item substitution suggestions now appears only"
+        }
+      ]
+    },
+    "change/bcapps/14219": {
+      "kind": "change",
+      "key": "change/bcapps/14219",
+      "hash": "a662acaf711b90a2b2a845edfd29a8f4a8778d626cf34c6cdb4f4f6f745819ab",
+      "title": "#14219 [QM] Copy template doesn't ignore target description anymore ",
+      "source": "bcapps-prs",
+      "at": "2026-11-19T00:54:38.784Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/quality-management",
+          "quote": "The report for copying quality inspection templates now respects the target"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/quality-management/set-up-quality-management",
+          "quote": "Template copy behavior changed to preserve target description"
         }
       ]
     },
@@ -22991,16 +23271,11 @@
     "post/demiliani-com/12975": {
       "kind": "post",
       "key": "post/demiliani-com/12975",
-      "hash": "8148d4d75b43b31cb9aafc522983a9df2007b8449708a48a81d5989d192553bc",
+      "hash": "1e7c33fd0b37e38e03980b7a82bb59fd09460ea096e1f9a7775bab5d856b8e05",
       "title": "My MCP server for Dynamics 365 Business Central Administration now supports handling PTEs.",
       "source": "demiliani-com",
-      "at": "2026-10-23T01:10:50.077Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "MCP server for Dynamics 365 Business Central Administration"
-        }
-      ],
+      "at": "2026-11-19T00:54:41.617Z",
+      "matches": [],
       "second": {
         "at": "2026-10-23T01:10:26.625Z",
         "dropped": [
@@ -23240,20 +23515,11 @@
     "post/demiliani-com/13541": {
       "kind": "post",
       "key": "post/demiliani-com/13541",
-      "hash": "b2b49b1974057c7f8af337cb80445b015f28310734d1a2f2e29d7f2ca70cebce",
+      "hash": "7e1448f9c8517a3cce2441b2d1e17a569eb81a3b45baf1149c91d7af604da63b",
       "title": "YAMPI (the Dynamics 365 Business Central Administration MCP Server): installing apps from Microsoft’s Marketplace.",
       "source": "demiliani-com",
-      "at": "2026-10-23T01:10:54.111Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration/connect-apps",
-          "quote": "installing apps from Microsoft's Marketplace.. YAMPI version 1.2.1 adds the ability to install Marketplace apps"
-        },
-        {
-          "topic": "topic/dev-itpro/development/development-environment/other-tools",
-          "quote": "YAMPI is the author's Business Central administration MCP server, now at version 1.2.1"
-        }
-      ],
+      "at": "2026-11-19T00:54:41.617Z",
+      "matches": [],
       "second": {
         "at": "2026-10-23T01:10:26.625Z",
         "dropped": [
@@ -23618,16 +23884,11 @@
     "post/demiliani-com/14064": {
       "kind": "post",
       "key": "post/demiliani-com/14064",
-      "hash": "9c5177013b89182521aedde6c95757384d29cd53ac146e4666b38de31b4f2510",
+      "hash": "efdce3d72ef4c142097d92229e7be40650ab56aa3da50a881b6c2945a570887f",
       "title": "How can I move my Business Central-related Azure resources to a new Azure region?",
       "source": "demiliani-com",
-      "at": "2026-10-23T01:10:54.111Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/administration/monitor-and-analyze-telemetry",
-          "quote": "telemetry connection string and the Power Platform environment references"
-        }
-      ],
+      "at": "2026-11-19T00:54:44.197Z",
+      "matches": [],
       "second": {
         "at": "2026-10-23T01:10:26.625Z",
         "dropped": [
@@ -24299,11 +24560,20 @@
     "post/duiliotacconi-com/1748": {
       "kind": "post",
       "key": "post/duiliotacconi-com/1748",
-      "hash": "6d3b291165d7b5f226f9769384b3b6628825846db247b69553e3c85b43442819",
+      "hash": "773eac0d7d19f635793d3b6742b9d693cf4fb44038f292838fee0cece66b4fab",
       "title": "Cloud Customer Management System (CCMS): to avoid reinventing the wheel",
       "source": "duiliotacconi-com",
-      "at": "2026-10-23T01:10:54.111Z",
-      "matches": [],
+      "at": "2026-11-19T00:54:44.197Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/development-environment/working-with-apps",
+          "quote": "CCMS is a free, open-source Business Central app written in AL for managing partners' cloud customer tenants"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/automation-api",
+          "quote": "environment lists, rescheduling updates, installed apps and available updates, telemetry, capacity and feature management"
+        }
+      ],
       "second": {
         "at": "2026-10-23T01:10:26.625Z",
         "dropped": [
@@ -25119,20 +25389,29 @@
     "post/freddysblog/https://freddysblog.com/2026/11/07/directions-emea-2026": {
       "kind": "post",
       "key": "post/freddysblog/https://freddysblog.com/2026/11/07/directions-emea-2026",
-      "hash": "844e172f6db4a6abaed3783d1cd55d6432bc156b5015e6640da34e42941b951c",
+      "hash": "c0f1843cfd04ffbcdfb43a2b11a1b729c4399367c07d944860d69822fd05bd02",
       "title": "Directions EMEA 2026 Reflections",
       "source": "freddysblog",
-      "at": "2026-11-11T00:54:41.463Z",
+      "at": "2026-11-19T00:54:45.078Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "AI agents are already giving partners efficiency and quality gains"
-        },
-        {
-          "topic": "topic/dev-itpro/responsible-ai",
+          "topic": "topic/business-central/responsible-ai",
           "quote": "developers stay responsible for AI-written AL and need ways to verify it"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-11-19T00:54:09.976Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+            "reason": "Conference reflections where 'AI agents' means AI-assisted development, not Business Central agents."
+          },
+          {
+            "topic": "topic/dev-itpro/responsible-ai",
+            "reason": "A conference recap that mentions developer responsibility for AI-written code only in passing; it doesn't cover responsible AI as this section documents it."
+          }
+        ]
+      }
     },
     "post/freddysblog/https://freddysblog.com/2026/11/10/human-vs-ai": {
       "kind": "post",
@@ -25182,10 +25461,10 @@
     "post/gerardorenteria-blog/10732": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/10732",
-      "hash": "e96d0712616f6172a4f2d1c3c6c5163c8534de7bb9e578d15e3fd4dac146af6a",
+      "hash": "86b43a1630483993455624b2fc9c46e348d757bd96c0db8042751dd1d46c0f38",
       "title": "New Application Ideas of Dynamics 365 Business Central (2025 MAR)",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-21T09:20:06.942Z",
+      "at": "2026-11-19T00:54:45.078Z",
       "matches": [],
       "second": {
         "at": "2026-10-21T09:15:29.370Z",
@@ -25223,10 +25502,10 @@
     "post/gerardorenteria-blog/10927": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/10927",
-      "hash": "e1430d61fd5a588c8ecd66255a62f26a6256a53618623e476e9d6133c277c80d",
+      "hash": "84b41c64437620236f04367df6123bd107a1419604203bd832d9a23c6eba8d59",
       "title": "New Application Ideas of Dynamics 365 Business Central (2025 APR)",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-21T09:20:06.942Z",
+      "at": "2026-11-19T00:54:45.078Z",
       "matches": [],
       "second": {
         "at": "2026-10-21T09:15:29.370Z",
@@ -25241,10 +25520,10 @@
     "post/gerardorenteria-blog/11003": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/11003",
-      "hash": "08079a5f2283afd11c9b75d1b8193931fcd7b2ce64a69587633de5f23b4f48b1",
+      "hash": "1356303a5a0b9aba19f30f3e1747349268f212fdeeb13fb06aa32dba6191e089",
       "title": "LLM’s training cut-off dates 👀MCP Server Context7 to the rescue. 🤖",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-22T01:10:06.377Z",
+      "at": "2026-11-19T00:54:45.078Z",
       "matches": [],
       "second": {
         "at": "2026-10-22T01:09:42.909Z",
@@ -25303,16 +25582,11 @@
     "post/gerardorenteria-blog/11354": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/11354",
-      "hash": "96266a6dd9a4e8824ae6727a286fd94839c83cbcc56f166210ef181e28c8bc96",
+      "hash": "9cbb6a01fd64c8816cbf67d2705a8aba72619b4bc23b1ef7effba5a4e82b5b74",
       "title": "🚀 Boost your Copilot: Real-Time Access to Official Microsoft Learn 🚀",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-21T09:20:04.272Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "enables developers to access real-time official Microsoft documentation within GitHub Copilot"
-        }
-      ],
+      "at": "2026-11-19T00:54:45.078Z",
+      "matches": [],
       "second": {
         "at": "2026-10-21T09:15:29.370Z",
         "dropped": [
@@ -26111,16 +26385,11 @@
     "post/gerardorenteria-blog/13945": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/13945",
-      "hash": "46831719c8bc5ce4838f5a9479f98b22e151c595dd7dafb06afca0342010dfd6",
+      "hash": "073d536af6da2c180e6e8bc2ed6cbfe9083e7278cdb9b891a5a8a16cc9c6f5f9",
       "title": "⚙️ GitHub Copilot: Workspace-Level Control Over AI Context 🔄",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-21T09:20:21.809Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "GitHub Copilot allows developers to organize and control AI context at the workspace level"
-        }
-      ],
+      "at": "2026-11-19T00:54:46.319Z",
+      "matches": [],
       "second": {
         "at": "2026-10-21T09:15:29.370Z",
         "dropped": [
@@ -26134,16 +26403,11 @@
     "post/gerardorenteria-blog/13993": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/13993",
-      "hash": "8ca8589c6cc08b08166f6f6be1fd94f9bcfd593d5bee43d737912cd8dd52cfab",
+      "hash": "45f1dd69ce18e89a8e9e7a3949a4c0a1906350f4ff6c46fe95f80e5ba932ec83",
       "title": "🧠 Agent Skills + MCPs: check your BC extension health in VS Code 🔍",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-22T01:10:06.377Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "orchestrate external tools like YAMPI and BC Telemetry Buddy to analyze Business Central extension health"
-        }
-      ],
+      "at": "2026-11-19T00:54:46.319Z",
+      "matches": [],
       "second": {
         "at": "2026-10-22T01:09:42.909Z",
         "dropped": [
@@ -26161,11 +26425,16 @@
     "post/gerardorenteria-blog/14079": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/14079",
-      "hash": "42bbdb75b3c81f50c7d036c0b6e9923700146a06304fad52cb8f87ab929e336a",
+      "hash": "183cf3299097d5b4297bb71d3aec3949849baa78d3b91b7926cb2a4c1c56f62f",
       "title": "AL Language extension for Microsoft Dynamics 365 Business Central – versions",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-21T09:20:21.809Z",
-      "matches": [],
+      "at": "2026-11-19T00:54:46.319Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL Language extension for Microsoft Dynamics 365 Business Central – versions"
+        }
+      ],
       "second": {
         "at": "2026-10-21T09:15:29.370Z",
         "dropped": [
@@ -26256,11 +26525,16 @@
     "post/gerardorenteria-blog/14522": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/14522",
-      "hash": "f1029b981dbbc3f5e7cc306c970b7c403eb3eecc0bbdd37f107e077be01b8065",
+      "hash": "bad4b76377204575f2401e246db99758aecc4242b6b6696e1666b24781c55cdb",
       "title": "🪝 VS Code Agent Hooks: Give Copilot Context Before the First Message",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-21T09:20:21.809Z",
-      "matches": [],
+      "at": "2026-11-19T00:54:46.319Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "VS Code Agent Hooks allow developers to automatically run scripts at specific lifecycle events"
+        }
+      ],
       "second": {
         "at": "2026-10-21T09:15:29.370Z",
         "dropped": [
@@ -26310,11 +26584,16 @@
     "post/gerardorenteria-blog/14663": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/14663",
-      "hash": "60b12a1fafda2d2aeb4a0598357d4cbd5f5dbce40f67e440e4977d96ae120444",
+      "hash": "1b6ca2e438286ef2cf03f15d370c3fc1c302fa149fddeeac1cab55d1c9ada13f",
       "title": "🧠 Global memory for your VS Code agent: preferences that follow you",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-21T09:20:20.536Z",
-      "matches": [],
+      "at": "2026-11-19T00:54:46.319Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "Global memory for your VS Code agent: preferences that follow you"
+        }
+      ],
       "second": {
         "at": "2026-10-21T09:15:29.370Z",
         "dropped": [
@@ -26337,11 +26616,16 @@
     "post/gerardorenteria-blog/14730": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/14730",
-      "hash": "0d756df21990cb893e0aa1e024bc89dad5a354c133c8045260aab97d7c8d70f0",
+      "hash": "291342724016cef482a8b349075e1b2943a2dce771c0e264e346413407dbaf99",
       "title": "🪶 How to slim down the prompt and spend fewer credits in Github Copilot",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-21T09:20:20.536Z",
-      "matches": [],
+      "at": "2026-11-19T00:54:46.319Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "How to slim down the prompt and spend fewer credits in Github Copilot"
+        }
+      ],
       "second": {
         "at": "2026-10-21T09:15:29.370Z",
         "dropped": [
@@ -26721,16 +27005,11 @@
     "post/jeremyvyska-com/1437": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1437",
-      "hash": "7d818304d4d4649ec5896a0fac4e65436dc0795f2cf3d17150be6fae1abbe21b",
+      "hash": "388615fadc8463c94ddcd0bdebca07ee9220ee23c5758a6d1a81cae28e33ce57",
       "title": "Testing GitHub Copilot Knowledge Engineering: What Actually Works and What Doesn\\’t",
       "source": "jeremyvyska-com",
-      "at": "2026-10-28T08:41:34.946Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai",
-          "quote": "Model Context Protocol delivery showed that systematic, context-aware knowledge delivery achieved 100x+ performance improvements"
-        }
-      ],
+      "at": "2026-11-19T00:54:52.412Z",
+      "matches": [],
       "second": {
         "at": "2026-10-28T08:41:25.356Z",
         "dropped": [
@@ -26811,20 +27090,24 @@
     "post/jeremyvyska-com/1739": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1739",
-      "hash": "0a6ca3ff4daf59ffa0605c1bdaf601014c817941dd1448cc9c781924cf9db3ca",
+      "hash": "177ab4f4e4d23ac571a19d2dfe85dc8c3a669cd7b1792ffa9e2de6a6b199be4b",
       "title": "Agentic Development Training Spring/Summer 2026",
       "source": "jeremyvyska-com",
-      "at": "2026-11-11T00:54:41.805Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "teaches Business Central developers how to build AI-powered agentic workflows for development tasks"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "agentic workflows; ai-assisted coding; developer training; workflow automation"
-        }
-      ]
+      "at": "2026-11-19T00:54:52.412Z",
+      "matches": [],
+      "second": {
+        "at": "2026-11-19T00:54:09.976Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+            "reason": "Training on AI-assisted coding workflows, not on designing agents in Business Central."
+          },
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+            "reason": "Announces training on AI-assisted development workflows, not building Copilot capabilities in Business Central."
+          }
+        ]
+      }
     },
     "post/jeremyvyska-com/1756": {
       "kind": "post",
@@ -26865,24 +27148,11 @@
     "post/jeremyvyska-com/1770": {
       "kind": "post",
       "key": "post/jeremyvyska-com/1770",
-      "hash": "2ea70905f36ae767b121c147084fe2aab8c461c54ac94211135316ec65dd7582",
+      "hash": "74ac50a587f2a05717a73b83517bdf437cd42d652bb5774bf7beeab21364b693",
       "title": "Fall 2026 Agentic Development Classes: Copilot Refresh, Claude Code, and BCQuality",
       "source": "jeremyvyska-com",
-      "at": "2026-11-06T00:57:07.007Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Three standalone agentic development classes for Business Central teams"
-        },
-        {
-          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "BCQuality integration for consistent code quality"
-        },
-        {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
-          "quote": "GitHub Copilot updates for AL development"
-        }
-      ],
+      "at": "2026-11-19T00:54:52.412Z",
+      "matches": [],
       "second": {
         "at": "2026-10-28T08:41:25.356Z",
         "dropped": [
@@ -27781,16 +28051,11 @@
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7429326284625186983": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7429326284625186983",
-      "hash": "b26475ef6e557180c8876e71389e1c1bc069267e61fbc6d3ec7a56a63455209b",
+      "hash": "970fdffee4e22dd94bd8b39adbfee985426991a3e5bb0ebea784b177e09b77a3",
       "title": "Testing Your MCP Connection with Real Business Central Questions and Best Practices (BLOG 4 OF 4)",
       "source": "mohana-blog",
-      "at": "2026-10-24T00:07:17.005Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration/web-services/apis",
-          "quote": "Custom API pages are needed when standard BC APIs lack required data"
-        }
-      ],
+      "at": "2026-11-19T00:54:46.042Z",
+      "matches": [],
       "second": {
         "at": "2026-10-24T00:07:00.898Z",
         "dropped": [
@@ -28232,16 +28497,11 @@
     "post/olofsimren-com/3605": {
       "kind": "post",
       "key": "post/olofsimren-com/3605",
-      "hash": "671e0072eccfd4bdec88d002f2eb5e7603a91226eabe58f2ac46b1487a833b0c",
+      "hash": "6785c384c1bcb17a1491cb4cc80787c0ba2c8b1d053144ffc88c9225632a69a3",
       "title": "Copilot in Planning Worksheet",
       "source": "olofsimren-com",
-      "at": "2026-10-21T09:21:18.107Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
-          "quote": "A Copilot extension for Planning Worksheet in Business Central helps planners"
-        }
-      ],
+      "at": "2026-11-19T00:54:38.392Z",
+      "matches": [],
       "second": {
         "at": "2026-10-21T09:15:29.370Z",
         "dropped": [
@@ -28399,18 +28659,14 @@
     "post/olofsimren-com/3865": {
       "kind": "post",
       "key": "post/olofsimren-com/3865",
-      "hash": "f008fe9eb81c022ce219d474e0d51411e632194f9fb446a87da99d176748b6b4",
+      "hash": "34a656bcba69f93539548835d6a3d68ac09a405ee039c314f38052d7798206a1",
       "title": "Business Central Case Study: How World Emblem Automated High-Volume Manufacturing Processes",
       "source": "olofsimren-com",
-      "at": "2026-10-29T21:35:45.729Z",
+      "at": "2026-11-19T00:54:38.392Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/manufacturing/manufacturing-analytics",
-          "quote": "Used Business Central automation and configuration-driven customizations to scale operations"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-external-systems-using",
-          "quote": "Migrated freight calculation logic from external systems into Business Central"
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
+          "quote": "Automated warehouse routing and order decisions; Migrated freight calculation logic from external systems"
         }
       ],
       "second": {
@@ -28452,10 +28708,10 @@
     "post/olofsimren-com/3928": {
       "kind": "post",
       "key": "post/olofsimren-com/3928",
-      "hash": "0adb98ce84c99c8bae8ad54300a56f28e2e426565bf8cd255b9374677605fcd6",
+      "hash": "f91a2b1be8f82cae20425a223042d5f45676f940e11aef0a538a6d6e8a62855e",
       "title": "Business Central Case Study: Engineer-to-Order Manufacturing at Zook",
       "source": "olofsimren-com",
-      "at": "2026-10-31T01:01:40.635Z",
+      "at": "2026-11-19T00:54:38.392Z",
       "matches": [],
       "second": {
         "at": "2026-10-31T01:01:09.675Z",
@@ -28518,10 +28774,10 @@
     "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1332073184894863010": {
       "kind": "post",
       "key": "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1332073184894863010",
-      "hash": "4d5be4108d77239ebaf4e535e71789421702b30eba979c59023bd93e3e754647",
+      "hash": "a6ddb30a550b4b9d028eaf65b83d498050e815c5744447321ea1a1bc8f649e76",
       "title": "How User and AI Agent Avatars Improve Record Ownership in Business Central BC 28",
       "source": "sauravdhyani-com",
-      "at": "2026-10-21T09:18:42.869Z",
+      "at": "2026-11-19T00:54:44.197Z",
       "matches": [],
       "second": {
         "at": "2026-10-21T09:15:29.370Z",
@@ -28586,10 +28842,10 @@
     "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2130488198731903549": {
       "kind": "post",
       "key": "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2130488198731903549",
-      "hash": "97e855d0b08e4c6e3089b9c928ffae3c751bd6d7f07a9c4392b5a34318f50ff0",
+      "hash": "ade2502f8ba34f8cbc43ee1fa73857cba1b5e58ad57bd98b02c68b9a6e8123a7",
       "title": "AI-Part1: what-is-GitHub-copilot-in-vscode-business-central.",
       "source": "sauravdhyani-com",
-      "at": "2026-10-21T09:20:29.004Z",
+      "at": "2026-11-19T00:54:52.412Z",
       "matches": [],
       "second": {
         "at": "2026-10-21T09:15:29.370Z",
@@ -28803,16 +29059,11 @@
     "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-426088323488837430": {
       "kind": "post",
       "key": "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-426088323488837430",
-      "hash": "b9bc85dfeecae5e07785963569c66c07327dd714cd390d87ca4c4015244350b3",
+      "hash": "b22cf2d20f60905d9777c4e941f4a11b09b9a9c474efd9acb3355fca2ade3c7d",
       "title": "Business Central 2026 Release Wave 2 Preview Is Now Available",
       "source": "sauravdhyani-com",
-      "at": "2026-10-22T01:10:06.377Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-2-v27",
-          "quote": "Business Central 2026 release wave 2 preview is now available for testing"
-        }
-      ],
+      "at": "2026-11-19T00:54:52.412Z",
+      "matches": [],
       "second": {
         "at": "2026-10-22T01:09:42.909Z",
         "dropped": [
@@ -29038,18 +29289,14 @@
     "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875": {
       "kind": "post",
       "key": "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875",
-      "hash": "b94f6d6fdd1fc4fe42e03d173bfc06692db14e7cbac68fc8d968be9aa20bdcad",
+      "hash": "6f73990c21cad57eff191f555a12813b0d210b6609986f3ca9c246ce0c44deca",
       "title": "🚀 Exploring Vibe Coding with GitHub Copilot for Business Central.",
       "source": "sauravdhyani-com",
-      "at": "2026-10-21T09:20:40.624Z",
+      "at": "2026-11-19T00:54:52.412Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "Vibe Coding is a development approach where developers partner with AI tools like GitHub Copilot"
-        },
-        {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "Vibe Coding is a development approach where developers partner with AI tools like GitHub Copilot"
+          "quote": "GitHub Copilot to co-create AL solutions for Business Central"
         }
       ],
       "second": {
@@ -29222,11 +29469,16 @@
     "post/sshadows-dk/https://sshadows.dk/blog/bc-toolbox-vs-microsoft-mcp/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/bc-toolbox-vs-microsoft-mcp/",
-      "hash": "6a7b17c8920124db19bf34062513aac8d95606e60b42e8e9b352c7565db5aae8",
+      "hash": "d0b08fdc43ea1fc4d68a5171912a96ffd08d7ee8259891751ff1a7b27921936f",
       "title": "Microsoft Ships an AL MCP Server. So Why Did I Build My Own?",
       "source": "sshadows-dk",
-      "at": "2026-10-25T17:01:02.391Z",
-      "matches": [],
+      "at": "2026-11-19T00:54:52.780Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "code coverage, interactive debugging, profiling analysis, call graphs, breaking change detection"
+        }
+      ],
       "second": {
         "at": "2026-10-25T17:00:53.705Z",
         "dropped": [
@@ -29324,11 +29576,20 @@
     "post/sshadows-dk/https://sshadows.dk/blog/from-work-item-to-pr-without-me/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/from-work-item-to-pr-without-me/",
-      "hash": "37ae552e479d0548ac09d7b25d0512019526ed4a45f7d6df8c5d4b1916e539b7",
+      "hash": "d06df9d7dad320b06118a58ce58cea9acdc9d8326ab69c47b87480eae4ca0b91",
       "title": "I Tag a Work Item. Sometimes I Come Back to a PR.",
       "source": "sshadows-dk",
-      "at": "2026-10-25T17:01:07.935Z",
-      "matches": [],
+      "at": "2026-11-19T00:54:52.780Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL language server protocol (LSP) with documentSymbol, findReferences, and hover enables agents"
+        },
+        {
+          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+          "quote": "AL language server protocol (LSP) with documentSymbol, findReferences, and hover enables agents to understand code structure"
+        }
+      ],
       "second": {
         "at": "2026-10-25T17:00:53.705Z",
         "dropped": [
@@ -29386,14 +29647,18 @@
     "post/sshadows-dk/https://sshadows.dk/blog/other-peoples-code-in-my-repos/": {
       "kind": "post",
       "key": "post/sshadows-dk/https://sshadows.dk/blog/other-peoples-code-in-my-repos/",
-      "hash": "59426bf66bafcfa98c64fd1105eba6b18a82d889f320809e999d4b36b15bb5c1",
+      "hash": "c3371ba6163fa2cb973be802219f8bdc3cf84dc7be6968195f7bd58952bb4537",
       "title": "Other People's Code in My Repos, and Mine in Theirs",
       "source": "sshadows-dk",
-      "at": "2026-10-25T17:01:07.935Z",
+      "at": "2026-11-19T00:54:52.780Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/get-started",
-          "quote": "contributions to AL and Business Central development tools from external developers"
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "expanded functionality in bc-dev-mcp driven mostly by community PRs, standardization of AL file support"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing",
+          "quote": "LethAL, a mutation testing tool for AL, went public"
         }
       ],
       "second": {
@@ -29783,11 +30048,16 @@
     "post/stefanmaron-com/https://stefanmaron.com/posts/optimizing-bc-code-history-range-requests/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/optimizing-bc-code-history-range-requests/",
-      "hash": "8c1c94c8e82938a11117236054191301c043be4585608625511c8df169352f08",
+      "hash": "c49a8b16de57d4ed7a94ebb932564f25a9f7877051a44a46ad9e1259e1eed42e",
       "title": "Optimizing BC Code History Downloads with HTTP Range Requests",
       "source": "stefanmaron-com",
-      "at": "2026-10-22T01:10:10.496Z",
-      "matches": [],
+      "at": "2026-11-19T00:54:52.780Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "Optimizing the MSDyn365BC.Sandbox.Code.History repository's daily download pipeline by fixing silent failures"
+        }
+      ],
       "second": {
         "at": "2026-10-22T01:09:42.909Z",
         "dropped": [
@@ -29873,18 +30143,14 @@
     "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/",
-      "hash": "14154f02a4527d5d9ec3db44f18eadeeaafb35f67a9d3625d31899909890e91e",
+      "hash": "4913928515cdb0a51f704a19e31a9a5d8b49fbe3abd9957db96d7e3e80ff9bf8",
       "title": "Weekly Recap: August 7-14",
       "source": "stefanmaron-com",
-      "at": "2026-10-22T01:10:10.496Z",
+      "at": "2026-11-19T00:54:52.780Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
-          "quote": "AL Runner shipped 85 PRs fixing emulation-to-real-BC divergences in rename propagation"
-        },
-        {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
-          "quote": "Compile benchmarking revealed NuGet folder dependency caches are faster than artifact folders"
+          "quote": "AL Runner shipped 85 PRs fixing emulation-to-real-BC divergences in rename propagation, calc formulas, test paging"
         }
       ],
       "second": {
@@ -30395,11 +30661,16 @@
     "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-53-areopa-webinars/": {
       "kind": "post",
       "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-53-areopa-webinars/",
-      "hash": "39ddce7f5f8ec109b17f4cdfde190aad210c4aaf35d9b48e36ed4ad2841b2dbd",
+      "hash": "e53839ec71b426d12b6f9a13b051e525f7976368ced21ec0c30fb2aded711f96",
       "title": "BC Friday Tips #53 Areopa Webinars",
       "source": "thatnavguy-com",
-      "at": "2026-10-21T09:20:42.599Z",
-      "matches": [],
+      "at": "2026-11-19T00:54:52.780Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/performance",
+          "quote": "Areopa hosts free webinars for Business Central consultants covering performance troubleshooting"
+        }
+      ],
       "second": {
         "at": "2026-10-21T09:15:29.370Z",
         "dropped": [
@@ -35087,18 +35358,18 @@
     "post/yzhums-com/64265": {
       "kind": "post",
       "key": "post/yzhums-com/64265",
-      "hash": "43f7f4931aa12e3d063c8e8ab8afa1365373435119dffa3bc672a2821a107c11",
+      "hash": "2e8a8d7fa5faa084ecf495175538d1d26172555b8694b76aacb3b74d96542014",
       "title": "Dynamics 365 Business Central: How to restrict certain tables from importing data through Configuration Package",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:43:42.549Z",
+      "at": "2026-11-19T00:54:44.197Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/automation-api/configuration-package",
-          "quote": "restrict additional tables from being imported, you can use customization"
+          "quote": "Configuration Packages can import data into Business Central, but posted tables, entry tables, and system tables are blocked by default"
         },
         {
           "topic": "topic/dev-itpro/development/extensibility/using-events",
-          "quote": "OnAfterIsSystemTable event in a codeunit to mark unwanted tables"
+          "quote": "OnAfterIsSystemTable event in a codeunit to mark unwanted tables as system tables and prevent users from importing them"
         }
       ],
       "second": {
@@ -39696,18 +39967,14 @@
     "post/yzhums-com/75111": {
       "kind": "post",
       "key": "post/yzhums-com/75111",
-      "hash": "6dacb10bfb6b97ba4b25eb5eefbd97ab7284ac50e34f18bee28457e0c28b953c",
+      "hash": "fb38532c7c9e0da0d2b932474f1803ca96822a7991a96f51f4a276a87e3b4102",
       "title": "Dynamics 365 Business Central: How to navigate directly from the BC admin center to the Power Platform admin center",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:38.420Z",
+      "at": "2026-11-19T00:54:44.197Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/admin-center",
-          "quote": "navigate directly from the Business Central admin center to the Power Platform admin center"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor",
-          "quote": "managing Copilot credits and administering Power Platform resources linked to Business Central"
+          "quote": "navigate directly from the Business Central admin center to the Power Platform admin center by selecting an environment"
         }
       ],
       "second": {
@@ -40884,18 +41151,22 @@
     "post/yzhums-com/77184": {
       "kind": "post",
       "key": "post/yzhums-com/77184",
-      "hash": "3dec0bba8b5bfabb156e550aa5d1a1cfd2a96b842773954c458f5418316d62da",
+      "hash": "cfe1141b1a64f50b1931a40be9a0003d1f3846ba74e46e1ebf4691cd0f747f70",
       "title": "Business Central 2026 release wave 2 (BC29.1): Data mirroring to Microsoft Fabric (No APIs or OData Needed)",
       "source": "yzhums-com",
-      "at": "2026-11-16T00:55:37.189Z",
+      "at": "2026-11-19T00:54:31.459Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
-          "quote": "data mirroring to Microsoft Fabric, enabling users to select companies and tables for replication into OneLake"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
+          "quote": "data mirroring to Microsoft Fabric, enabling organizations to synchronize"
         },
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
-          "quote": "Business Central continuously syncs initial snapshots and ongoing changes in Delta Parquet format for use with Fabric analytics"
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
+          "quote": "data mirroring replicates Business Central data to Microsoft Fabric's OneLake"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization",
+          "quote": "Data mirroring replicates Business Central data to Microsoft Fabric's OneLake in Delta Parquet format"
         }
       ]
     },
@@ -40934,6 +41205,24 @@
       "source": "yzhums-com",
       "at": "2026-11-15T00:45:16.406Z",
       "matches": []
+    },
+    "post/yzhums-com/77475": {
+      "kind": "post",
+      "key": "post/yzhums-com/77475",
+      "hash": "b13c0bdf32eaea183482da214cc5c3889b727a81e666f69d9154d5f105637988",
+      "title": "Dynamics 365 Business Central: Enter Company Details quickly using information from Microsoft 365",
+      "source": "yzhums-com",
+      "at": "2026-11-19T00:54:30.932Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/company-hub",
+          "quote": "Business Central can automatically populate the Company Information page"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office",
+          "quote": "pulling organization details from Microsoft 365, saving time during initial company setup"
+        }
+      ]
     },
     "video/_1LhwG2ZgFw": {
       "kind": "video",
@@ -44398,16 +44687,11 @@
     "video/efoFM5uiCxg": {
       "kind": "video",
       "key": "video/efoFM5uiCxg",
-      "hash": "9916d7f7cd0a6d76efba27f1edc3e753acfe11b6698fcdda1d59d6d0277b7b00",
+      "hash": "820047c4ca4728d9674a355dfc38cb30a2ea1a4bc82aececebbe0d567d1d50df",
       "title": "What's New: Get Notified of Issues with Job Queues (2024 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-23T01:10:50.077Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/administration/automation-api",
-          "quote": "job queue notifications; background processing; business events"
-        }
-      ],
+      "at": "2026-11-19T00:54:41.617Z",
+      "matches": [],
       "second": {
         "at": "2026-10-23T01:10:26.625Z",
         "dropped": [
@@ -45628,20 +45912,11 @@
     "video/HvgGcTnYo9g": {
       "kind": "video",
       "key": "video/HvgGcTnYo9g",
-      "hash": "24a3e9b4d8d7a50bb648f7b065d7e38a3ba7c325439c02ac76198b4595a782e5",
+      "hash": "0012f14c3e1125a5f1c8a6881af53e6ecfc6a790998b041ab19aa8925b953529",
       "title": "Bartek Ingredients Inc.",
       "source": "yt-microsoft",
-      "at": "2026-10-24T00:07:16.263Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/business-functionality/manufacturing/manufacturing-analytics",
-          "quote": "Production reporting and analytics; Workflow automation for order processing"
-        },
-        {
-          "topic": "topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-automate",
-          "quote": "Workflow automation for order processing; AI-assisted demand planning"
-        }
-      ],
+      "at": "2026-11-19T00:54:38.392Z",
+      "matches": [],
       "second": {
         "at": "2026-10-24T00:07:00.898Z",
         "dropped": [
@@ -45821,11 +46096,16 @@
     "video/IIdtxatSw7A": {
       "kind": "video",
       "key": "video/IIdtxatSw7A",
-      "hash": "2a13935de5635fbd5a7c520429d5c55348b12d2cf8f0f5c4b5b1587480dd8963",
+      "hash": "99586ea6f23b6ea2196c404ee57e06da5f94dce9a6c228aad80ede9a63a38bee",
       "title": "Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security.",
       "source": "yt-microsoft",
-      "at": "2026-10-21T09:18:25.407Z",
-      "matches": [],
+      "at": "2026-11-19T00:54:41.617Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security",
+          "quote": "Security development lifecycle; Static Code Analysis and Scanning; Secure Admin Workstation"
+        }
+      ],
       "second": {
         "at": "2026-10-21T09:15:29.370Z",
         "dropped": [
@@ -47508,14 +47788,14 @@
     "video/n9HaH2dZUaU": {
       "kind": "video",
       "key": "video/n9HaH2dZUaU",
-      "hash": "58be66a505275a0fbcb144ca0a07ffd0c19d7ae2337e81fa617784ed2daa620a",
+      "hash": "9b78c266521d77e4dbe5aef8f8486e836aa414c1c0e1db7af4728634ccec6413",
       "title": "What's New: Cloud for Sovereignty (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-23T01:10:50.077Z",
+      "at": "2026-11-19T00:54:41.617Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/understand-business-central-online",
-          "quote": "cloud sovereignty; data protection; access controls; encryption"
+          "quote": "Cloud sovereignty; data protection; access controls; encryption; compliance; audit logging"
         }
       ],
       "second": {
@@ -48208,13 +48488,13 @@
     "video/PeI-Jv4KVn8": {
       "kind": "video",
       "key": "video/PeI-Jv4KVn8",
-      "hash": "d7787afd64d454ce92422a4f2ed8eceb847e6630914b0620f080a84882a11bd9",
+      "hash": "d8197333c80fea87166be33a91f55f4d4feb4f301f8ac9d5fc3f3497ed30be82",
       "title": "Copilot Managing Maintenance Intake by Zig",
       "source": "yt-microsoft",
-      "at": "2026-10-21T09:21:28.764Z",
+      "at": "2026-11-19T00:54:43.931Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities",
+          "topic": "topic/business-central/business-functionality/service-management",
           "quote": "Copilot-powered maintenance intake; Image-based maintenance issue analysis"
         }
       ],
@@ -48698,20 +48978,11 @@
     "video/QK-Qsh_6YL4": {
       "kind": "video",
       "key": "video/QK-Qsh_6YL4",
-      "hash": "8ba69d9b3b8baddbb66112db0e4a3ec2143df734e22fe212ba1e5fc43674deb2",
+      "hash": "445e958f42599465d021be0f5e167d31df5c6e68ca2c8b86f3132aed98a0a77b",
       "title": "Copilot Completing Time Sheets by Pryme Global",
       "source": "yt-microsoft",
-      "at": "2026-10-24T00:07:17.005Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
-          "quote": "Copilot Completing Time Sheets by Pryme Global. Topics: copilot; time sheets"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-business-central-with-office",
-          "quote": "Microsoft Graph integration for time sheet data; Time sheet entry explanations"
-        }
-      ],
+      "at": "2026-11-19T00:54:46.042Z",
+      "matches": [],
       "second": {
         "at": "2026-10-24T00:07:00.898Z",
         "dropped": [
@@ -49256,16 +49527,33 @@
     "video/Rvgt_VXFr1I": {
       "kind": "video",
       "key": "video/Rvgt_VXFr1I",
-      "hash": "1285c256f05ecee318be2ab1f7e11bf1767cb01396ead34262892aa6f81c92da",
+      "hash": "1ae2843a5945ec61144d9ced09e0dcc97999b409a847db20c1f5cdc2fa9842c0",
       "title": "What's New: Running Tests from Visual Studio Code (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-11-11T00:54:42.676Z",
+      "at": "2026-11-19T00:54:45.078Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "copilot agents; Copilot agent for test fixing; agents outside VS Code"
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "Run tests in Visual Studio Code; Run profiles for tests; Code lens for test execution"
+        },
+        {
+          "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler",
+          "quote": "Debug tests from VS Code; Copilot agent for test fixing; Test framework using launch.json"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "AL MCP for agents outside VS Code"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-11-19T00:54:09.976Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+            "reason": "About running AL tests in VS Code, not about designing or coding agents."
+          }
+        ]
+      }
     },
     "video/rWZcmEwwVHg": {
       "kind": "video",
@@ -49616,11 +49904,16 @@
     "video/sycmF3cJa_s": {
       "kind": "video",
       "key": "video/sycmF3cJa_s",
-      "hash": "129ef44d7ea52c1bacbafbc889570c94bedf98cbe7816027bea5e7f49f02f4b2",
+      "hash": "0055d7202fe4643d2f8c32c0c0c4531f69e5066eab4011fcf2cd24cc246f215a",
       "title": "Copilot Assisted Scheduling by PrintVis",
       "source": "yt-microsoft",
-      "at": "2026-10-21T09:21:18.107Z",
-      "matches": [],
+      "at": "2026-11-19T00:54:38.392Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "Copilot Assisted Scheduling; Optimization Options; Schedule Loading"
+        }
+      ],
       "second": {
         "at": "2026-10-21T09:15:29.370Z",
         "dropped": [
@@ -51735,14 +52028,18 @@
     "video/YbuO1n_Lqj0": {
       "kind": "video",
       "key": "video/YbuO1n_Lqj0",
-      "hash": "cf2ca9df9ccfa6a430f6d5937c3a5228af666ac6ed9b4a7d9ce3f2cd144ccf97",
+      "hash": "7098df066ba5ad356d46ff4e1860bd35cb9f8670e147ee5c1f770365a95c3232",
       "title": "What's New: Enhanced IT Audit Reporting (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-23T01:10:50.077Z",
+      "at": "2026-11-19T00:54:41.617Z",
       "matches": [
         {
           "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions",
-          "quote": "permissions; approvals; user management; analysis mode"
+          "quote": "Permission Overview page; Approval User Overview page; Approval Entry Overview page"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/automation-api/permission-set",
+          "quote": "Permission Sets API; Expanded Permission Sets API; Security Groups API"
         }
       ],
       "second": {

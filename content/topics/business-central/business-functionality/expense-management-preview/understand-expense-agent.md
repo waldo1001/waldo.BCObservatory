@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,7 +68,6 @@ links:
   changes:
     - change/bcapps/12599
     - change/bcapps/12670
-    - change/bcapps/13587
 learn_toc_path:
   - Business functionality
   - Expense management (preview)
@@ -128,7 +127,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12599 [Master] - Slice 629913: [Expense Agent][VENDOR] Enforced background itemization required for approvals](../../../../changes/bcapps/12599.md) (code change): "Expense Agent now requires itemization when an enabled Expense Policy"
 - [#12670 [Master] - Slice 580818: [Expense Management][VENDOR] Role Centers updates 💸](../../../../changes/bcapps/12670.md) (code change): "Expense Management role centers now display activity cues showing expense report statuses"
-- [#13587 Update Corp Card manual selection](../../../../changes/bcapps/13587.md) (code change): "Corporate card matching and liability management capabilities are added to expense management"
 - [Introducing: Expense Agent in Business Central (2026 release wave 1)](../../../../videos/egE6UdOfar0.md) (video): "Expense Agent, receipt processing, approval workflow, expense reporting"
 - [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../../videos/M0IzeLSn7qU.md) (video): "AI-driven approval policies; Enhanced approval history and audit trail"
 

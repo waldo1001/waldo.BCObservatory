@@ -6,13 +6,12 @@
   "systems_joined": [
     "copilot"
   ],
-  "summary": "Address fields in expense-related tables now enforce a 50-character limit to prevent save failures on mileage report lines.",
+  "summary": "Fixes mileage starting and ending point addresses longer than 50 characters failing to save on expense report lines. Address field definitions change in the Expense, Expense Report Line and Posted Expense Report Line tables of the Expense Agent app.",
   "key_points": [
-    "Extended Expense table address field validation",
-    "Updated ExpenseReportLine address field validation",
-    "Updated PostedExpenseReportLine address field validation",
-    "Prevents addresses over 50 characters from being saved",
-    "Aligns with Business Central Text[50] field limits"
+    "Fixes bug 656559, where mileage start/end addresses over 50 characters failed to save",
+    "Touches address fields in the Expense table",
+    "Touches matching fields in Expense Report Line and Posted Expense Report Line",
+    "Small change of a few lines in each of the three tables"
   ],
   "change_kind": "fix",
   "behavior_change": true,

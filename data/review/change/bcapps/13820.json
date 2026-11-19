@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/13820",
+  "input_hash": "a4682f04a680b2b9b5690a4fc6f088933e9df30a61edf20362248d65aa8fd2db",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-19T00:57:42.856Z",
+  "issues": [
+    "The key point claims 24 unit tests were added. The description says 24 targeted tests passed, not that 24 were added."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018636,
+    "changes_in_call": 6
+  }
+}

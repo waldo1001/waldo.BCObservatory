@@ -6,12 +6,11 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "The report for copying quality inspection templates now respects the target template's description instead of overwriting it with the source template's description.",
+  "summary": "The Qlty. Inspection Copy Template report (20402) in Quality Management no longer ignores the target description when copying a template. Tests were added for the copy.",
   "key_points": [
-    "Template copy behavior changed to preserve target description",
-    "Fixes regression where target description was incorrectly overwritten",
-    "Report 20402 logic updated to handle description field correctly",
-    "Test coverage added for the template copy functionality"
+    "Report 20402 no longer ignores the target description when copying a template",
+    "Small change in the copy report logic",
+    "Tests added in the Quality Management test codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

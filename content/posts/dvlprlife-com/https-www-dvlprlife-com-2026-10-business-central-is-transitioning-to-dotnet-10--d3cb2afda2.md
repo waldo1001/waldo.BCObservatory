@@ -20,7 +20,7 @@ review:
   at: "2026-10-19T01:10:33.892Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-19T00:15:47.846Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -122,7 +122,7 @@ preview:
   image_h: 270
   site_name: DvlprLife.com
   favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
-  probed_at: "2026-10-19T01:07:57.310Z"
+  probed_at: "2026-11-19T00:52:02.159Z"
 ---
 
 # Business Central Is Transitioning to .NET 10, and Here's What You Should Check

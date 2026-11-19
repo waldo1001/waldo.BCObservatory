@@ -12,12 +12,19 @@ review:
   at: "2026-10-24T00:54:34.022Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
   input_hash: 433b81cfba098a94ac539db0a85a20f3f9c23b92227e68abd9569121c6a66d5c
 evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
+    title: Adding Telemetry to Your Business Central Application
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview
     title: Azure Key Vaults with Business Central
@@ -50,13 +57,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-advanced-example
     title: Building an Advanced Sample Extension
     date: "2022-12-29"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
-    title: Developing telemetry into your Business Central application
-    date: "2024-02-09"
     commit: null
     t: null
     quote: null
@@ -236,7 +236,7 @@ Start with AL code for conventions, then Testing and the scenario documentation 
 
 ## More Learn pages
 
-- [Developing telemetry into your Business Central application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry): This article describes how to add code to application objects that enables you to gather telemetry.
+- [Adding Telemetry to Your Business Central Application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry): Instrument Business Central applications with telemetry to analyze usage, troubleshoot problems, and collect events in Application Insights or Windows logs.
 - [Requirements for connectivity apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/connectivity-apps-requirements): Learn about connectivity apps, how they can increase business productivity, and how to get your app listed as a connectivity app.
 - [User scenario documentation](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-userscenario): Describing how to generate the required scenario document to get your app approved for Marketplace.
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -189,7 +189,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-overview
     title: Designing and coding agents (preview)
-    date: "2026-10-02"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null

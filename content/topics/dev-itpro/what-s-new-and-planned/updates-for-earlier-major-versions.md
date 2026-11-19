@@ -11,7 +11,7 @@ review:
   at: "2026-11-11T00:59:22.222Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -20,280 +20,280 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-2
     title: Update 15.2 for Microsoft Dynamics 365 Business Central 2019 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-3
     title: Update 15.3 for Microsoft Dynamics 365 Business Central 2019 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-4
     title: Update 15.4 for Microsoft Dynamics 365 Business Central 2019 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-16-1
     title: Update 16.1 for Microsoft Dynamics 365 Business Central 2020 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-16-2
     title: Update 16.2 for Microsoft Dynamics 365 Business Central 2020 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-16-3
     title: Update 16.3 for Microsoft Dynamics 365 Business Central 2020 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-16-4
     title: Update 16.4 for Microsoft Dynamics 365 Business Central 2020 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-16-5
     title: Update 16.5 for Microsoft Dynamics 365 Business Central 2020 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-17-1
     title: Update 17.1 for Microsoft Dynamics 365 Business Central 2020 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-17-2
     title: Update 17.2 for Microsoft Dynamics 365 Business Central 2020 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-17-3
     title: Update 17.3 for Microsoft Dynamics 365 Business Central 2020 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-17-4
     title: Update 17.4 for Microsoft Dynamics 365 Business Central 2020 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-17-5
     title: Update 17.5 for Microsoft Dynamics 365 Business Central 2020 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18.1
     title: Update 18.1 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18-2
     title: Update 18.2 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18-3
     title: Update 18.3 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18-4
     title: Update 18.4 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18-5
     title: Update 18.5 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-1
     title: Update 19.1 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-2
     title: Update 19.2 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-3
     title: Update 19.3 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-4
     title: Update 19.4 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-5
     title: Update 19.5 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-20-1
     title: Update 20.1 for Business Central online
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-20-2
     title: Update 20.2 for Microsoft Dynamics 365 Business Central 2022 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-20-3
     title: Update 20.3 for Microsoft Dynamics 365 Business Central 2022 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-20-4
     title: Update 20.4 for Microsoft Dynamics 365 Business Central 2022 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-20-5
     title: Update 20.5 for Microsoft Dynamics 365 Business Central 2022 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-20-6
     title: Update 20.6 for Microsoft Dynamics 365 Business Central 2022 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-1
     title: Update 21.1 for Microsoft Dynamics 365 Business Central 2022 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-2
     title: Update 21.2 for Microsoft Dynamics 365 Business Central 2022 release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-3
     title: Update 21.3 for Microsoft Dynamics 365 Business Central 2022 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-4
     title: Update 21.4 for Microsoft Dynamics 365 Business Central 2022 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-5
     title: Update 21.5 for Microsoft Dynamics 365 Business Central 2022 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-1
     title: Update 22.1 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-2
     title: Update 22.2 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-3
     title: Update 22.3 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-4
     title: Update 22.4 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-5
     title: Update 22.5 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-1
     title: Update 23.1 for Microsoft Dynamics 365 Business Central 2023 Release Wave 2
-    date: "2024-04-01"
+    date: "2026-11-18"
     commit: null
     t: null
     quote: null
@@ -439,7 +439,9 @@ Start with the page for the wave you run or plan to move to. The major or previe
 - [Update 18.1 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18.1): Get an overview of new and changed capabilities in the 18.1 update of Business Central online, which is part of 2021 release wave 1.
 - [Update 18.2 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18-2): Get an overview of new and changed capabilities in the 18.2 update of Business Central online, which is part of 2021 release wave 1.
 - [Update 18.3 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18-3): Get an overview of new and changed capabilities in the 18.3 update of Business Central online, which is part of 2021 release wave 1.
+  - In the observatory: [Table 9657 "Custom Report Selection"](../../../objects/table/9657.md)
 - [Update 18.4 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18-4): Get an overview of new and changed capabilities in the 18.4 update of Business Central online, which is part of 2021 release wave 1.
+  - In the observatory: [Table 9657 "Custom Report Selection"](../../../objects/table/9657.md)
 - [Update 18.5 for Microsoft Dynamics 365 Business Central 2021 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-18-5): Get an overview of new and changed capabilities in the 18.5 update of Business Central online, which is part of 2021 release wave 1.
 - [Update 19.1 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-1): Get an overview of new and changed capabilities in the 19.1 update of Business Central online, which is part of 2021 release wave 2.
 - [Update 19.2 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-2): Get an overview of new and changed capabilities in the 19.2 update of Business Central online, which is part of 2021 release wave 2.
@@ -461,37 +463,43 @@ Start with the page for the wave you run or plan to move to. The major or previe
 - [Update 22.1 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-1): Get an overview of new and changed capabilities in the 22.1 update of Business Central online, which is part of 2023 release wave 1.
 - [Update 22.2 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-2): Get an overview of new and changed capabilities in the 22.2 update of Business Central online, which is part of 2023 release wave 1.
 - [Update 22.3 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-3): Get an overview of new and changed capabilities in the 22.3 update of Business Central online, which is part of 2023 release wave 1.
-- [Update 22.4 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-4): Get an overview of new and changed capabilities in the 22.4 update of Business Central online, which is part of 2023 release wave 1.
   - In the observatory: [Table 11401 "CBG Statement Line (NL)"](../../../objects/table/11401-nl.md)
+- [Update 22.4 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-4): Get an overview of new and changed capabilities in the 22.4 update of Business Central online, which is part of 2023 release wave 1.
+  - In the observatory: [Page 459 "Sales & Receivables Setup"](../../../objects/page/459.md)
 - [Update 22.5 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-5): Get an overview of new and changed capabilities in the 22.5 update of Business Central online, which is part of 2023 release wave 1.
 - [Update 23.1 for Microsoft Dynamics 365 Business Central 2023 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-1): Get an overview of new and changed capabilities in the 23.1 update of Business Central online, which is part of 2023 release wave 2.
+  - In the observatory: [Interface "Invoice Posting"](../../../objects/interface/invoice-posting.md), [Table 49 "Invoice Post. Buffer"](../../../objects/table/49.md)
 - [Update 23.2 for Microsoft Dynamics 365 Business Central 2023 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-2): Get an overview of new and changed capabilities in the 23.2 update of Business Central online, which is part of 2023 release wave 2.
 - [Update 23.3 for Microsoft Dynamics 365 Business Central 2023 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-3): Get an overview of new and changed capabilities in the 23.3 update of Business Central online, which is part of 2023 release wave 2.
 - [Update 23.4 for Microsoft Dynamics 365 Business Central 2023 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-4): Get an overview of new and changed capabilities in the 23.4 update of Business Central online, which is part of 2023 release wave 2.
+  - In the observatory: [Page 2610 "Feature Management"](../../../objects/page/2610.md)
 - [Update 23.5 for Microsoft Dynamics 365 Business Central 2023 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-5): Get an overview of new and changed capabilities in the 23.5 update of Business Central online, which is part of 2023 release wave 2.
+  - In the observatory: [Page 2610 "Feature Management"](../../../objects/page/2610.md)
 - [Update 24.1 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-1): Get an overview of new and changed capabilities in the 24.1 update of Business Central online, which is part of 2024 release wave 1.
-  - In the observatory: [Interface "Invoice Posting"](../../../objects/interface/invoice-posting.md), [Table 325 "VAT Posting Setup"](../../../objects/table/325.md), [Table 49 "Invoice Post. Buffer"](../../../objects/table/49.md)
+  - In the observatory: [Interface "Invoice Posting"](../../../objects/interface/invoice-posting.md), [Table 49 "Invoice Post. Buffer"](../../../objects/table/49.md)
 - [Update 24.2 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-2): Get an overview of new and changed capabilities in the 24.2 update of Business Central online, which is part of 2024 release wave 1.
 - [Update 24.3 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-3): Get an overview of new and changed capabilities in the 24.3 update of Business Central online, which is part of 2024 release wave 1.
   - In the observatory: [Codeunit 13413 "Exp. SEPA CT pain.001.001.09 (FI)"](../../../objects/codeunit/13413-fi.md), [Report 11000015 "SEPA ISO20022 Pain 008.001.08 (NL)"](../../../objects/report/11000015-nl.md), [Report 13413 "Exp. SEPA CT pain.001.001.09 (FI)"](../../../objects/report/13413-fi.md), [Report 2000007 "File SEPA 001.001.09 Pmts (BE)"](../../../objects/report/2000007-be.md), [Report 2000008 "File FCY SEPA 001.001.09 Pmts (BE)"](../../../objects/report/2000008-be.md), [XMLport 11501 "SEPA DD pain.008.001.02.ch03 (CH)"](../../../objects/xmlport/11501-ch.md)
 - [Update 24.4 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-4): Get an overview of new and changed capabilities in the 24.4 update of Business Central online, which is part of 2024 release wave 1.
   - In the observatory: [Report 12111 "Denied Vendors List (IT)"](../../../objects/report/12111-it.md), [Table 9 "Country/Region"](../../../objects/table/9.md)
 - [Update 24.5 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-5): Get an overview of new and changed capabilities in the 24.5 update of Business Central online, which is part of 2024 release wave 1.
+  - In the observatory: [Table 49 "Invoice Post. Buffer"](../../../objects/table/49.md)
 - [Update 25.1 for Microsoft Dynamics 365 Business Central 2024 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-1): Get an overview of new and changed capabilities in the 25.1 update of Business Central online, which is part of 2024 release wave 2.
 - [Update 25.2 for Microsoft Dynamics 365 Business Central 2024 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-2): Get an overview of new and changed capabilities in the 25.2 update of Business Central online, which is part of 2024 release wave 2.
 - [Update 25.3 for Microsoft Dynamics 365 Business Central 2024 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-3): Get an overview of new and changed capabilities in the 25.3 update of Business Central online, which is part of 2024 release wave 2.
+  - In the observatory: [Page 2610 "Feature Management"](../../../objects/page/2610.md), [Table 17 "G/L Entry"](../../../objects/table/17.md), [Table 49 "Invoice Post. Buffer"](../../../objects/table/49.md)
 - [Update 25.4 for Microsoft Dynamics 365 Business Central 2024 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-4): Get an overview of new and changed capabilities in the 25.4 update of Business Central online, which is part of 2024 release wave 2.
-  - In the observatory: [Table 49 "Invoice Post. Buffer"](../../../objects/table/49.md)
 - [Update 25.5 for Microsoft Dynamics 365 Business Central 2024 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-5): Get an overview of new and changed capabilities in the 25.5 update of Business Central online, which is part of 2024 release wave 2.
-  - In the observatory: [Table 49 "Invoice Post. Buffer"](../../../objects/table/49.md)
+  - In the observatory: [Page 2610 "Feature Management"](../../../objects/page/2610.md), [Table 49 "Invoice Post. Buffer"](../../../objects/table/49.md)
 - [Update 26.1 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-26-1): Get an overview of new and changed capabilities in the 26.1 update of Business Central online, which is part of 2025 release wave 1
 - [Update 26.2 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-26-2): Get an overview of new and changed capabilities in the 26.2 update of Business Central online, which is part of 2025 release wave 1
 - [Update 26.3 for Microsoft Dynamics 365 Business Central 2025 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-26-3): Get an overview of new and changed capabilities in the 26.3 update of Business Central online, which is part of 2025 release wave 1
 - [Update 26.4 for Microsoft Dynamics 365 Business Central 2025 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-26-4): Get an overview of new and changed capabilities in the 26.4 update of Business Central online, which is part of 2025 release wave 1
 - [Update 26.5 for Microsoft Dynamics 365 Business Central 2025 Release Wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-26-5): Get an overview of new and changed capabilities in the 26.5 update of Business Central online, which is part of 2025 release wave 1
-- [Update 27.1 for Microsoft Dynamics 365 Business Central 2025 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-1): Get an overview of new and changed capabilities in the 27.1 update of Business Central online, which is part of 2025 release wave 2
   - In the observatory: [Page 2610 "Feature Management"](../../../objects/page/2610.md)
+- [Update 27.1 for Microsoft Dynamics 365 Business Central 2025 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-1): Get an overview of new and changed capabilities in the 27.1 update of Business Central online, which is part of 2025 release wave 2
 - [Update 27.2 for Microsoft Dynamics 365 Business Central 2025 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-2): Get an overview of new and changed capabilities in the 27.2 update of Business Central online, which is part of 2025 release wave 2
+  - In the observatory: [Page 10072 "IRS 1099 Vendor Overview (US)"](../../../objects/page/10072-us.md), [Page 2610 "Feature Management"](../../../objects/page/2610.md)
 - [Update 27.3 for Microsoft Dynamics 365 Business Central 2025 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-3): Get an overview of new and changed capabilities in the 27.3 update of Business Central online, which is part of 2025 release wave 2
 - [Update 27.4 for Microsoft Dynamics 365 Business Central 2025 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-4): Get an overview of new and changed capabilities in the 27.4 update of Business Central online, which is part of 2025 release wave 2
 - [Update 27.5 for Microsoft Dynamics 365 Business Central 2025 Release Wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-5): Get an overview of new and changed capabilities in the 27.5 update of Business Central online, which is part of 2025 release wave 2

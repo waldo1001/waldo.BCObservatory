@@ -12,19 +12,12 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
   input_hash: d80451a28c24530715c94c442410d1c451131d001b2f0000f2bb62e2911e1b73
 evidence:
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert
-    title: Alert on Telemetry
-    date: "2022-11-17"
-    commit: null
-    t: null
-    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-profiler-overview
     title: Analyze AL Performance with the AL Profiler
@@ -34,15 +27,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql
-    title: Analyze and monitor telemetry with KQL
-    date: "2024-12-19"
+    title: Analyze and Monitor Telemetry with KQL
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app
-    title: Analyze and monitor telemetry with Power BI
-    date: "2024-03-21"
+    title: Analyze and Monitor Telemetry with Power BI
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -55,8 +48,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry
-    title: Available Telemetry
-    date: "2021-07-09"
+    title: Available Business Central Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -119,7 +112,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview
     title: Monitoring and Analyzing Telemetry
-    date: "2025-06-20"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -152,6 +145,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert
+    title: Set Up Business Central Telemetry Alerts
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-snapshot-debugging
     title: Snapshot debugging
     date: "2026-09-25"
@@ -161,7 +161,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting
     title: Troubleshooting Cloud Migration
-    date: "2025-05-19"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -209,8 +209,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights
-    title: Turn sending telemetry to application insights on or off
-    date: "2024-07-23"
+    title: Turn Business Central Environment Telemetry On or Off
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null

@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.016369
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-19T01:01:23.413Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the closing phrase of the summary, 'answers how-to and where-to-find questions', is generic filler. No source summary describes it.",
+      "Minor: 'best starting point' for the overview page is an editorial judgment rather than a sourced claim. It is reasonable and harmless.",
+      "Minor omission: by-product handling (About production orders) and stop codes (Batch post production output) are not mentioned. Adding them is optional."
+    ],
+    "input_hash": "49b7ae4c687b785098fdeb3c68952ced6c10739339e3ef6bf0ace3cee12d1fab",
+    "cost_usd": 0.047951999999999995
   }
 }

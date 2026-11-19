@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl",
-  "input_hash": "3d6ec81646d1bd0ea7f4e94e7a61922c10aa6a7e37d833ddabb626c9da6b29c8",
-  "summary": "Migration of Dynamics SL on-premises data to Business Central online: overview, preparation, cloud migration setup, data replication, data upgrade, and completion. It answers questions about the end-to-end process, setup steps, running and monitoring replication, and post-migration tasks such as users and permissions.",
-  "overview": "This section covers moving from Dynamics SL on-premises to Business Central online using cloud migration. The pages follow the order of the project: an overview of the process and data mapping, preparation and planning, cloud migration setup, data replication, data upgrade, and completion.\n\nStart with the Overview subtopic to see which SL data is migrated, how it is mapped, and how SL work processes compare to Business Central. Then use Prepare to check prerequisites and plan data selection, approach and schedule. Set up cloud migration covers the connection and pipeline architecture and the Cloud Migration Setup guide. Replicate data explains how data moves and how to monitor it.\n\nThe section's own pages cover the last two steps. One runs the data upgrade, which transforms Dynamics SL tables into Business Central tables. The other covers completing the migration: disabling cloud migration, setting up users and permissions, and a post-migration checklist.",
+  "input_hash": "be25a1a3f28ec860ca9bb361dfea2a9124611fb2d0c06889612531c61fd3c412",
+  "summary": "Migrating Dynamics SL on-premises data to Business Central online: preparation, cloud migration setup, data replication, data upgrade and post-migration completion. It answers questions on prerequisites, connecting the databases, running and monitoring replication, fixing errors, and finishing in the new environment.",
+  "overview": "This section describes the full path from Dynamics SL on-premises to Business Central online. It starts with an overview of the migration process, phases, supported data and how everyday work compares between the two products. Then it moves through the stages in order: Prepare, Set up cloud migration, Replicate data, upgrade, and complete.\n\nPreparation covers prerequisites for the destination environment, the source database and the integration runtime, plus planning with the assessment, analysis and repair tools. Setup uses the Cloud Migration Setup guide, the SQL connection and integration runtime, company selection, and the SL Company Migration Configuration page. Replication then copies the data, and you can run, monitor, pause, abandon and rerun it.\n\nAfter replication finishes, the upgrade transforms Dynamics SL tables into Business Central tables. It is run from the Cloud Migration Management page. The last page covers disabling cloud migration, resolving errors, and setting up users and permissions. Start with the Overview, then follow Prepare.",
   "key_points": [
-    "Overview explains the end-to-end process, which SL data is migrated, how it is mapped, and how to track a cloud migration.",
-    "Prepare lists prerequisites for the destination, source system and database, and planning topics: assessment tools, data selection, migration approaches and scheduling.",
-    "Set up cloud migration covers connection and pipeline architecture, the Cloud Migration Setup guide, and global and per-company settings.",
-    "Replication uses large and small table flows, Azure BLOB storage, Azure Data Factory and change tracking, and is run and monitored on the Cloud Migration Management page.",
-    "Data upgrade transforms Dynamics SL tables into Business Central tables during cloud migration.",
-    "Completing the migration includes disabling cloud migration and setting up user accounts and permissions in Business Central online.",
-    "The completion page also mentions Microsoft 365 integration, the self-hosted Integration Runtime and a post-migration checklist."
+    "The Overview covers migration phases, supported data, managing runs and errors, and how daily work compares between Dynamics SL and Business Central.",
+    "Prepare covers prerequisites for the destination environment, source database and integration runtime.",
+    "Planning uses the assessment, analysis and repair tools.",
+    "Setup uses the Cloud Migration Setup guide, which includes the SQL connection, integration runtime and company selection.",
+    "Migration settings are chosen on the SL Company Migration Configuration page.",
+    "Replication uses large and small table flows, company initialization and change tracking. You can run, monitor, pause, abandon and rerun it.",
+    "Data upgrade runs from the Cloud Migration Management page after replication is complete, and it covers background tasks, error recovery and posting errors.",
+    "To complete the migration, disable cloud migration, resolve errors (SL Cloud Migration Errors), and set up user accounts and permission sets."
   ],
   "members_used": 2,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-10-07T02:09:28.795Z",
+  "at": "2026-11-19T01:01:04.036Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.012799000000000001
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:19:06.493Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor wording: 'One runs the data upgrade' would read better as 'One explains how to run the data upgrade'.",
-      "'The pages follow the order of the project' is inferred from the logical sequence, not from the table of contents order shown in the inputs. The own pages are listed with Complete before Upgrade.",
-      "Troubleshooting replication on the Cloud Migration Management page is left out. This is an omission, not an error."
-    ],
-    "input_hash": "3d6ec81646d1bd0ea7f4e94e7a61922c10aa6a7e37d833ddabb626c9da6b29c8",
-    "cost_usd": 0.031963200000000004
+    "cost_usd": 0.027069799999999998
   }
 }

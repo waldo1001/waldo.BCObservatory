@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:20.835Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,14 +21,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/faq-suggest-item-substitutions-with-copilot
     title: FAQ for suggest item substitutions with Copilot
-    date: "2026-10-02"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/suggest-item-substitutions-copilot
     title: Suggest substitute items with Copilot
-    date: "2026-10-02"
+    date: "2026-11-16"
     commit: null
     t: null
     quote: null
@@ -96,7 +96,9 @@ There are two pages. "Suggest substitute items with Copilot" is the how-to: it c
 ## Learn pages
 
 - [FAQ for suggest item substitutions with Copilot](https://learn.microsoft.com/dynamics365/business-central/faq-suggest-item-substitutions-with-copilot): This FAQ provides information about an AI feature in Business Central.
+  - In the observatory: [Page 5716 "Item Substitution Entry"](../../../objects/page/5716.md)
 - [Suggest substitute items with Copilot](https://learn.microsoft.com/dynamics365/business-central/suggest-item-substitutions-copilot): Assign substitute items faster with assistance from Copilot.
+  - In the observatory: [Table 27 "Item"](../../../objects/table/27.md), [Table 5777 "Item Reference"](../../../objects/table/5777.md)
 
 ## Videos, posts and code changes
 

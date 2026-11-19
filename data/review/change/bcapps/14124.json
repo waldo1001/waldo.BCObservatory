@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/14124",
+  "input_hash": "77b64dc4430668d99467c1702bb8c9d96ce512a53a2fe677c641dd241f35a223",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-19T00:57:46.867Z",
+  "issues": [
+    "Years after initial setup is not supported by the input.",
+    "Saying the fix was applied to test coverage is misleading. A test was added in UTFiscalLIFO.",
+    "The page does not say this is the Italian localization."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019255,
+    "changes_in_call": 6
+  }
+}

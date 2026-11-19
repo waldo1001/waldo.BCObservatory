@@ -1,42 +1,42 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-business-central-on-premises.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises",
-  "title": "Business Central on-premises to online migration overview",
-  "blob": "d8a0b824d978e9ae73b02439e4e8d9e0667a39da",
+  "title": "Business Central On-Premises to Online Migration Overview",
+  "blob": "12da8286ba61f1187d847ad5ba0c0bb58591c64b",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "status",
-      "text": "Generally available."
+      "kind": "fact",
+      "text": "Azure Data Factory securely replicates data between on-premises and online, examining only SQL permissions, not application permissions."
     },
     {
       "kind": "fact",
-      "text": "Cloud migration transfers business data from on-premises SQL Server or Azure SQL to Business Central online using Azure Data Factory."
+      "text": "System tables, users, and permissions are not migrated; record links and notes require a separate step using Migrate Record Links action."
     },
     {
       "kind": "fact",
-      "text": "Integration Runtime connects the on-premises database directly to Azure Data Factory; self-hosted runtime used for SQL Server, Azure Integration Runtime for Azure SQL."
-    },
-    {
-      "kind": "limit",
-      "text": "System tables, users, permissions, and record links are not migrated."
+      "text": "Data is compressed using SQL Server compression in online, so migrated data size may differ from on-premises database size."
     },
     {
       "kind": "fact",
-      "text": "Online data is compressed using SQL Server compression, so data size may differ from on-premises size."
+      "text": "Data migration can run multiple times; initial migration takes longest, subsequent runs migrate only changed data."
     },
     {
       "kind": "fact",
-      "text": "After cloud migration setup, online tenant is read-only; non-SUPER users get Intelligent Cloud permission set automatically."
+      "text": "On-premises solution remains operative environment until cloud migration is completed; existing online data gets overwritten during replication."
+    },
+    {
+      "kind": "fact",
+      "text": "Intelligent Cloud permission set provides read-only access during migration; only SUPER users can modify system."
     },
     {
       "kind": "step",
-      "text": "Phase 1: Verify prerequisites, review data quality, and optimize performance."
+      "text": "Phase 1 involves planning, verifying prerequisites, reviewing data quality, and optimizing migration performance."
     },
     {
       "kind": "step",
-      "text": "Phase 2: Run Set up Cloud Migration assisted setup to establish connection and pipeline."
+      "text": "Phase 2 establishes connection and pipeline through Cloud Migration Setup assisted guide without replicating data."
     }
   ],
   "dropped": 0,
@@ -44,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005651,
-      "pages_in_call": 10
+      "cost_usd": 0.005948,
+      "pages_in_call": 9
     }
   ]
 }

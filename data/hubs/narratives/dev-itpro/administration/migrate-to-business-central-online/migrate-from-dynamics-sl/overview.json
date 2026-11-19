@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-sl/overview",
-  "input_hash": "f4a9882ed27511c3d0f5f52476c4633e38dfa37e1e814f4b54693c6f85690178",
-  "summary": "Migration overview for moving from Dynamics SL on-premises to Business Central online. It answers questions about the end-to-end process, which SL data is migrated and how it is mapped, how to manage and track a cloud migration, and how SL work processes compare to Business Central.",
-  "overview": "This section introduces the migration from Dynamics SL to Business Central online. The end-to-end overview explains the phases: assessment, setup, data replication and data upgrade, plus environment management. It also mentions Azure Data Factory, the Integration Runtime and the Intelligent Cloud permission set.\n\nThe data page describes what is migrated and how it is mapped when you use the SL Company Migration Configuration. It covers fiscal periods, chart of accounts, dimension setup, customers, vendors, inventory items and projects. The management page explains how to use the Cloud Migration Management page and the cloud migration API to set up, run and track a migration.\n\nThe last page is a set of video tutorials comparing everyday work in the two products. Start with the end-to-end overview, then check the data mapping, then use the management page while running the migration.",
+  "input_hash": "38224669353a15f2f55aa7df83f2c6ebcc3cd39e01febd2fa3d81fa4dfce271e",
+  "summary": "Overview of migrating from Dynamics SL on-premises to Business Central online. It covers the migration process and phases, which data is supported, how to manage migration runs and errors in Business Central, and how everyday work compares between the two products.",
+  "overview": "This section is the entry point for moving from Dynamics SL to Business Central online. It explains the basics of cloud migration: the components involved, the end-to-end phases (setup, assessment, preparation, data replication, data upgrade, completion) and how to work with environments during migration.\n\nThe supported data page lists what moves over: general ledger, customers, vendors, inventory, projects, purchase and sales orders, and cash accounts. It also describes configuration options per company. Read it before you plan the migration to check that your data is covered.\n\nOnce a migration is running, the Cloud Migration Management page is the place to track it. The last page is a set of video comparisons for Dynamics SL users, covering receivables, payables, cash receipts, dimensions, journals and reporting. Start with the migration overview, then read the supported data page, then use the management page during the run.",
   "key_points": [
-    "The end-to-end overview covers assessment, setup, replication, upgrade phases and environment management.",
-    "Migration uses Azure Data Factory and an Integration Runtime to replicate data.",
-    "An Intelligent Cloud permission set is part of the setup.",
-    "Mapped data includes fiscal periods, chart of accounts, dimension setup, customers, vendors, inventory items and projects.",
-    "Data mapping is driven by the SL Company Migration Configuration.",
-    "The Cloud Migration Management page lets you run data replication, run data upgrade, refresh migration status and manage custom tables.",
-    "The Migration Log tracks progress, and a cloud migration API is also available.",
-    "Video tutorials compare SL and Business Central for receivables, payables, customer receipts, dimensions, general journals and trial balance reports."
+    "The migration overview describes the phases: cloud migration setup, assessment, preparation, data replication, data upgrade and completion.",
+    "Supported data includes general ledger, customers, vendors, inventory items, projects, purchase and sales orders, and cash accounts.",
+    "Fiscal periods are migrated. Subaccount segments are migrated to dimensions.",
+    "Customer and vendor master records and outstanding transactions are migrated, with configuration options per company.",
+    "The Cloud Migration Management page shows the migration log and replication results. Results include tables successful, remaining and failed.",
+    "Errors can be investigated through SL Cloud Migration Errors, Failed Companies, and Posting Errors and Warnings.",
+    "From the management page you can run data replication, upgrade and completion actions.",
+    "Video comparisons show how receivables, payables, vendor payments, customer cash receipts, dimensions and journals work in Dynamics SL and in Business Central."
   ],
   "members_used": 4,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:37.299Z",
+  "at": "2026-11-19T01:00:34.986Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011599
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:26:24.979Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the key point that migration 'uses Azure Data Factory and an Integration Runtime to replicate data' is inferred from feature lists rather than stated outright, but it is a reasonable reading.",
-      "Minor: 'An Intelligent Cloud permission set is part of the setup' is a light inference from the feature list of the end-to-end overview page."
-    ],
-    "input_hash": "f4a9882ed27511c3d0f5f52476c4633e38dfa37e1e814f4b54693c6f85690178",
-    "cost_usd": 0.0310792
+    "cost_usd": 0.012032999999999999
   }
 }

@@ -1,38 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-data-replication-run.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data-replication-run",
-  "title": "Run and manage data replication",
-  "blob": "3d274b99de8d052bac03247091f30661d1e52440",
+  "title": "Run and Manage Cloud Migration Data Replication",
+  "blob": "66f7aadbd859719b6ede235fd714eeacc5d87a98",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "prerequisite",
-      "text": "Cloud migration setup must be completed before data replication can run"
+      "text": "Cloud migration must be set up before running data replication."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "User must have SUPER permission set in online environment."
     },
     {
       "kind": "step",
-      "text": "Run diagnostics first to identify and fix issues before actual replication starts"
+      "text": "Before replication, run a diagnostic run to identify and fix issues without migrating data."
     },
     {
       "kind": "step",
-      "text": "Open Cloud Migration Management page and select Run data replication to start migrating data"
-    },
-    {
-      "kind": "step",
-      "text": "Monitor progress by checking Migration Log list and status fields on Cloud Migration Management page"
+      "text": "Open Cloud Migration Management page and select Run data replication to start replicating data."
     },
     {
       "kind": "fact",
-      "text": "When data replication is stopped, any data already migrated remains in the online database"
+      "text": "Generally only changed data is replicated on reruns; this makes subsequent replications faster than initial migration."
     },
     {
       "kind": "fact",
-      "text": "Generally only changed data since last replication is replicated on rerun"
+      "text": "Pause migration or Abandon migration cannot stop in-progress replication; must wait for completion first."
     },
     {
-      "kind": "limit",
-      "text": "Data replication cannot stop mid-table, waits until current table completes"
+      "kind": "fact",
+      "text": "Migrated data remains in online database after pausing or abandoning migration."
     }
   ],
   "dropped": 0,
@@ -40,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005231,
-      "pages_in_call": 10
+      "cost_usd": 0.005948,
+      "pages_in_call": 9
     }
   ]
 }

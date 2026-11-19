@@ -12,7 +12,7 @@ review:
   at: "2026-11-03T01:02:12.823Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -399,7 +399,7 @@ Start with the publishing subtopic to expose an endpoint, then the OData, SOAP o
   - In the observatory: [Codeunit 49 "GlobalTriggerManagement"](../../../objects/codeunit/49.md)
 - [Troubleshooting web service errors (OData, API, and SOAP)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-troubleshooting): Learn about how to troubleshoot Business Central web service errors (OData, API, and SOAP).
 - [Web Service Performance (OData, API, and SOAP)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-performance): Learn about how performance of Business Central web services (OData, API, and SOAP)
-- [Web Service Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-telemetry): Learn about how Business Central emits telemetry about web service requests
+- [Web Service Telemetry in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-telemetry): Monitor Business Central web service requests with telemetry to analyze endpoint usage, HTTP failures, access key authentication, and publishing errors.
 - [Web Services Terms of Use](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/webservices-terms-of-use): Terms of Use for Business Central APIs
 
 ## Videos, posts and code changes

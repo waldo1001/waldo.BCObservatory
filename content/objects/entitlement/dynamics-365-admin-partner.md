@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T00:47:52.902Z"
+  at: "2026-11-19T00:47:08.789Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f6407bf68f866d81da8dc15411429a192416b1a40ab833278d62c294b560b692
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/System%20Application/App/Entitlements/Dynamics365AdminPartner.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/System%20Application/App/Entitlements/Dynamics365AdminPartner.Entitlement.al
     title: src/System Application/App/Entitlements/Dynamics365AdminPartner.Entitlement.al (releases/29.x)
     date: null
-    commit: 4f49a1eb5ebb7384620fe1654dd53536c3abca03
+    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Entitlement "Dynamics 365 Admin - Partner" in System Application (System.Security.AccessControl). Present since at least BC23, still in BC30, changed in BC25.
 
-System Application · System.Security.AccessControl · BC23-30 · [source at 4f49a1eb](https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/System%20Application/App/Entitlements/Dynamics365AdminPartner.Entitlement.al) · facts from BC29
+System Application · System.Security.AccessControl · BC23-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/System%20Application/App/Entitlements/Dynamics365AdminPartner.Entitlement.al) · facts from BC29
 
 ## Across versions
 

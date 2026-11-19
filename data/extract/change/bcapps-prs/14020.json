@@ -8,11 +8,11 @@
   ],
   "summary": "Transfer orders using routes now correctly apply the configured In-Transit Code for Shipment and Receipt transfers, while clearing it for Direct Transfer posting mode.",
   "key_points": [
-    "In-Transit Code is applied from routes for non-direct transfers and cleared for Direct Transfer posting",
-    "Synchronizes existing transfer lines with header values when either location changes on direct transfers",
-    "Direct transfer receipt quantities align with shipment quantities even with non-blank route transit codes",
-    "Receipt validation receives the in-memory header with updated Direct Transfer flag to prevent stale route mode",
-    "Thirteen regression tests added covering location-entry sequences, in-transit code replacement, and quantity defaults with inherited transit"
+    "Route In-Transit Code now applied for Shipment and Receipt and non-direct routes, and cleared for Direct Transfer posting",
+    "For direct transfers, existing lines are synced with the header in-transit value when either location changes",
+    "Direct-transfer receipt quantities stay aligned with shipment quantities even when the route has a transit code",
+    "Line's cached header gets the in-memory header and Direct Transfer flag before location validation, preventing stale route mode",
+    "Thirteen regression tests added; changes propagated to IT, NA and RU layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

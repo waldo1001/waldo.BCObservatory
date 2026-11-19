@@ -12,19 +12,12 @@ review:
   at: "2026-10-23T01:12:47.130Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
   input_hash: ef7c4f54e4ea6cd7fdfffb35a5dfe92550e8c97a3b238a9ab42dfb614894f630
 evidence:
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert
-    title: Alert on Telemetry
-    date: "2022-11-17"
-    commit: null
-    t: null
-    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-agent-lifecycle-trace
     title: Analyze Agent Lifecycle Telemetry
@@ -34,15 +27,15 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql
-    title: Analyze and monitor telemetry with KQL
-    date: "2024-12-19"
+    title: Analyze and Monitor Telemetry with KQL
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app
-    title: Analyze and monitor telemetry with Power BI
-    date: "2024-03-21"
+    title: Analyze and Monitor Telemetry with Power BI
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -61,6 +54,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-cloud-migration-trace
+    title: Analyze Business Central Cloud Migration Trace Telemetry
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-business-events-trace
     title: Analyze business events telemetry
     date: "2026-05-01"
@@ -75,9 +75,9 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace
-    title: Analyze email trace telemetry
-    date: "2024-01-02"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-trace
+    title: Analyze Incoming Web Service Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -91,7 +91,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-mcp-server-trace
     title: Analyze MCP Server Tool Calls Telemetry
-    date: "2025-01-20"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -124,100 +124,142 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace
+    title: Analyzing App Key Vault Secret Trace Telemetry
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-authorization-trace
+    title: Analyzing Authorization Trace Telemetry
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-changelog-configuration-trace
-    title: Analyzing Changelog Configuration Changes Telemetry
-    date: "2023-10-23"
+    title: Analyzing Changelog Configuration Changes Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-client-action-trace
-    title: Analyzing client action telemetry
-    date: "2023-03-07"
+    title: Analyzing Client Action Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-client-add-in-exceptions
-    title: Analyzing client control add-in exception telemetry
-    date: "2025-03-20"
+    title: Analyzing Client Control Add-In Exception Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-cloud-migration-trace
-    title: Analyzing Cloud migration trace telemetry
-    date: "2023-05-12"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-company-lifecycle-trace
+    title: Analyzing Company Lifecycle Trace Telemetry
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-deadlocks-trace
+    title: Analyzing Database Deadlock Telemetry
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-locks-trace
+    title: Analyzing Database Lock Timeout Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-wait-statistics-trace
     title: Analyzing Database Wait Statistics Telemetry
-    date: "2022-06-16"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-environment-lifecycle-trace
-    title: Analyzing Environment Lifecycle Trace Telemetry
-    date: "2025-03-31"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-environment-validation-trace
-    title: Analyzing environment validation telemetry
-    date: "2023-10-27"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace
+    title: Analyzing Email Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-message-voting-trace
-    title: Analyzing Error Message Vote Telemetry | Microsoft Docs
-    date: "2022-03-22"
+    title: Analyzing Error Message Vote Telemetry
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-method-trace
+    title: Analyzing Error Method Trace Telemetry
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-lifecycle-trace
+    title: Analyzing Extension Lifecycle Trace Telemetry
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-update-trace
+    title: Analyzing Extension Update Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-pte-upload-validation-trace
     title: Analyzing Extension Upload Validation Telemetry
-    date: "2023-11-03"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace
-    title: Analyzing Field Monitoring Telemetry
-    date: "2021-05-01"
+    title: Analyzing Field Monitoring Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-lifecycle-trace
-    title: Analyzing financial report lifecycle trace telemetry
-    date: "2025-03-20"
+    title: Analyzing Financial Report Lifecycle Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-usage-trace
-    title: Analyzing financial report usage trace telemetry
-    date: "2025-03-20"
+    title: Analyzing Financial Report Usage Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace
     title: Analyzing Job Queue Lifecycle Trace Telemetry
-    date: "2023-08-21"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-al-method-trace
     title: Analyzing Long Running AL Methods Telemetry
-    date: "2025-10-14"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -237,8 +279,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace
-    title: Analyzing Marketplace submission validation trace telemetry
-    date: "2021-08-01"
+    title: Analyzing Marketplace Submission Validation Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -251,61 +293,19 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-onboarding-trace
-    title: Analyzing onboarding telemetry
-    date: "2023-12-21"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-performance-toolkit-trace
-    title: Analyzing Performance Toolkit Telemetry
-    date: "2023-03-22"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace
-    title: Analyzing Permission Changes Trace Telemetry
-    date: "2021-04-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-dependency-cycle-trace
-    title: Analyzing permission dependency cycle trace telemetry
-    date: "2023-12-20"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace
-    title: Analyzing Permission Error Trace Telemetry
-    date: "2022-07-27"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-profile-configuration-lifecycle-trace
-    title: Analyzing profile configuration lifecycle telemetry
-    date: "2023-12-18"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-report-layout-lifecycle-trace
-    title: Analyzing report layout lifecycle telemetry
-    date: "2024-11-06"
+    title: Analyzing Onboarding Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-control-cost
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-event-ids
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-faq
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights
@@ -386,23 +386,14 @@ For event lookups, the Available Telemetry and Event IDs pages list events by gr
 
 ## More Learn pages
 
-- [Alert on Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert): Learn how to alert on Business Central telemetry.
-  - Set up alerts on telemetry to notify when significant events occur in your environment.
-  - Use Power BI Metrics for no-code alerting on telemetry data.
-  - Use Application Insights, Azure Logic Apps, or Power Automate for advanced alerting.
-  - KQL queries define alerting conditions; set recurrence to match query lookback period.
-  - Step: In Azure portal, go to Application Insights resource and select Alerts.
-  - Step: Add custom log search condition with KQL query for alerting rule.
-  - Sample alerting queries are available in Business Central BCTech GitHub repository.
-  - Logic Apps and Power Automate need API Connection authentication using Application ID and API Key.
-- [Analyze and monitor telemetry with KQL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql): Learn how to query Business Central telemetry with KQL.
+- [Analyze and Monitor Telemetry with KQL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql): Query Business Central telemetry with Kusto Query Language to follow sessions and users, investigate performance, and analyze report usage.
   - Business Central telemetry is stored in Azure Application Insights in traces and pageViews tables
   - Kusto Query Language (KQL) is used to query telemetry data in Application Insights
   - From Log Analytics, traces map to AppTraces table and pageViews map to AppPageViews table
   - All telemetry events have timestamp in UTC timezone that can be converted to local timezone
   - Session ID in version 24 and later allows tracking all events within a single user session
   - KQL queries can find start time of events like reports or long-running operations using execution time
-- [Analyze and monitor telemetry with Power BI](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app): Learn how to install, configure, and use the Power BI app on Business Central telemetry data.
+- [Analyze and Monitor Telemetry with Power BI](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app): Install and configure Power BI apps for Business Central telemetry to analyze usage, investigate errors, and monitor environment performance.
   - Two free Power BI apps analyze telemetry: one for environment telemetry, one for app and extension telemetry.
   - Usage report shows sessions, clients, user locations, page views, reports, features, integrations, and deprecated features.
   - Error report displays user errors, integration errors, and system errors across environments or apps.
@@ -411,10 +402,10 @@ For event lookups, the Available Telemetry and Event IDs pages list events by gr
   - Prerequisite: Power BI pro license required to use the apps.
   - Step: Install app from Microsoft Marketplace using the provided link.
   - Step: Get Application ID from Azure portal and connect to Application Insights resource in Power BI.
-- [Available Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry): Get an overview of available telemetry in Business Central
+- [Available Business Central Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry): Find Business Central telemetry by area or event ID to monitor environments and extensions, diagnose errors, and analyze performance.
   - Business Central telemetry is organized by areas and by event IDs in Application Insights.
   - Event IDs include application events, client events, lifecycle events, and runtime events.
-- [Controlling Telemetry Cost](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-control-cost): Learn how to control the cost of Business Central provides telemetry.
+- [Control Business Central Telemetry Costs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-control-cost): Control Business Central telemetry costs with ingestion filters, daily caps, and retention settings for your Azure Application Insights data.
   - Set daily cap on telemetry data ingestion and alerts when cap is reached to control costs.
   - First 5 GB monthly is free; 160 MB daily cap allows 5000 to 80000 events daily depending on event size.
   - Typical telemetry event consumes 2-10 KB; maximum event size is 32 KB.
@@ -423,7 +414,7 @@ For event lookups, the Available Telemetry and Event IDs pages list events by gr
   - AppInsights resource must be Workspace-based to use Data Collection Rules with Log Analytics backend.
   - Business Central logs to AppTraces and AppPageViews tables; filter these with KQL queries on workspace.
   - Reduce retention cost using default retention periods of 30 to 730 days or purge data with user-defined filters.
-- [Monitoring and Analyzing Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview): Learn how Business Central provides telemetry for each environment, both for online and on-premises environments.
+- [Monitoring and Analyzing Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview): Monitor Business Central environments and extensions with Application Insights telemetry to diagnose errors, analyze performance, and track usage.
   - Telemetry can be enabled at environment level or per-extension level to collect operational data in Azure Application Insights.
   - With Business Central 2020 release wave 2 and later, publishers can set Application Insights connection strings in app.json manifest files.
   - Telemetry data is stored in Application Insights Logs tables called traces and pageViews for analysis via Kusto query language.
@@ -431,6 +422,15 @@ For event lookups, the Available Telemetry and Event IDs pages list events by gr
   - Free Power BI apps analyze Business Central telemetry; one app covers environments while another covers apps and extensions.
   - Permissions: AL developers can create custom telemetry messages using Feature Telemetry codeunit or LogMessage method from Session class.
   - In the observatory: [Codeunit 8703 "Feature Telemetry"](../../../objects/codeunit/8703.md)
+- [Set Up Business Central Telemetry Alerts](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert): Set up alerts on Business Central telemetry with Azure Monitor, Logic Apps, or Power Automate to respond to issues and environment changes.
+  - Set up alerts on telemetry to notify when significant events occur in your environment.
+  - Use Power BI Metrics for no-code alerting on telemetry data.
+  - Use Application Insights, Azure Logic Apps, or Power Automate for advanced alerting.
+  - KQL queries define alerting conditions; set recurrence to match query lookback period.
+  - Step: In Azure portal, go to Application Insights resource and select Alerts.
+  - Step: Add custom log search condition with KQL query for alerting rule.
+  - Sample alerting queries are available in Business Central BCTech GitHub repository.
+  - Logic Apps and Power Automate need API Connection authentication using Application ID and API Key.
 - [Telemetry Event IDs in Application Insights \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-event-ids): Learn about the event IDs of Business Central events emitted to Azure Application Insights.
   - Status: Generally available, reference page for telemetry event IDs
   - AL event IDs emitted by application code receive AL prefix when sent to Application Insights
@@ -438,7 +438,7 @@ For event lookups, the Available Telemetry and Event IDs pages list events by gr
   - AL events originate from Session.LogMessage, Telemetry codeunit, or Feature Telemetry codeunit
   - Event dimensions names are prefixed with 'al' when converted to Application Insights format
   - Business Central applications repository contains source code for finding AL event origins
-- [Telemetry FAQ (Frequently Asked Questions)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-faq): See frequently asked questions we get on telemetry in Business Central
+- [Telemetry FAQ (Frequently Asked Questions)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-faq): Get answers about Business Central telemetry setup, costs, privacy, retention, access, and querying data in Azure Application Insights.
   - Business Central service does not emit personal or customer data to Application Insights
   - Telemetry emits only service runtime data, tenant identifiers, configuration data, and usage data
   - Each custom dimension in events has 8,000 character limit; overflow keys are named with _1 and _2 suffixes
@@ -446,7 +446,7 @@ For event lookups, the Available Telemetry and Event IDs pages list events by gr
   - Limit: Application Insights instrumentation was not backported to versions earlier than 15.0
   - Azure workspace default retention policy can be set to 30, 31, 60, 90, 120, 180, 270, 365, 550, or 730 days
   - Permissions: Grant read-only access by assigning Reader role in Access Control (IAM) page and optionally on Resource Group
-- [Turn sending telemetry to application insights on or off](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights): Learn how you can get richer telemetry by connecting your Business Central with Application Insights for telemetry.
+- [Turn Business Central Environment Telemetry On or Off](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights): Connect Business Central online or on-premises environments to Azure Application Insights to collect telemetry and troubleshoot issues.
   - Status: Generally available for Business Central online and on-premises
   - Prerequisite: Microsoft Azure subscription and Application Insights resource are required to send telemetry
   - Prerequisite: For version 17 and earlier, copy the Instrumentation Key; for later versions, copy the Connection String from Azure portal

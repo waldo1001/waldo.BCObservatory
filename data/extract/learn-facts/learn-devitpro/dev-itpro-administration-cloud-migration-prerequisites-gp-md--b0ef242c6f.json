@@ -1,38 +1,42 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-prerequisites-gp.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-gp",
-  "title": "Cloud Migration Prerequisites for Dynamics GP",
-  "blob": "c305dc595549b2ed469806bd520f85541c873308",
+  "title": "Dynamics GP Migration Prerequisites for Business Central",
+  "blob": "c17d56bc335a8372d564a4d8d2d5c4778d90f71f",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "prerequisite",
-      "text": "Destination requires Business Central online tenant with at least one SUPER user."
+      "text": "Customer has Business Central online tenant."
     },
     {
       "kind": "prerequisite",
-      "text": "Install Intelligent Cloud Base, Dynamics GP Intelligent Cloud, and history SmartLists apps."
-    },
-    {
-      "kind": "limit",
-      "text": "GP migration currently supported only in US, Canada, UK, and Australia markets."
-    },
-    {
-      "kind": "prerequisite",
-      "text": "Source requires Dynamics GP 2015 or later on SQL Server 2016 SP1 or later."
-    },
-    {
-      "kind": "prerequisite",
-      "text": "SQL database compatibility level must be 130 or higher with TCP/IP enabled."
-    },
-    {
-      "kind": "prerequisite",
-      "text": "SQL authentication login needs sysadmin role at server level and db_owner role at database level."
+      "text": "At least one user has SUPER permission set in target company."
     },
     {
       "kind": "fact",
-      "text": "Self-hosted integration runtime machine must meet Azure Data Factory prerequisites."
+      "text": "Dynamics GP migration retains existing Business Central user permissions; users not automatically reassigned to Intelligent Cloud."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Install Intelligent Cloud Base, Dynamics GP Intelligent Cloud, Dynamics GP Intelligent Cloud US, and Dynamics GP History SmartLists apps."
+    },
+    {
+      "kind": "status",
+      "text": "Supported for United States, Canada, United Kingdom, and Australia markets only."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Dynamics GP 2015 or later on-premises."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "SQL Server 2016 SP1 or later with compatibility level 130 or higher."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Login account must have sysadmin role at server level and db_owner role at database level."
     }
   ],
   "dropped": 0,
@@ -40,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004442,
-      "pages_in_call": 13
+      "cost_usd": 0.00502,
+      "pages_in_call": 11
     }
   ]
 }

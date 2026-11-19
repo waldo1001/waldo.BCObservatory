@@ -2,26 +2,26 @@
 id: topic/dev-itpro/development/troubleshooting/troubleshooting-guides-tsgs
 type: topic
 title: Troubleshooting guides (TSGs)
-summary: Troubleshooting guides (TSGs) for Business Central development and administration. They cover cloud migration problems, report errors and slow performance, and web service failures (OData, API, SOAP). Use them for questions about causes of errors, telemetry to check, and fixes.
+summary: Troubleshooting guides (TSGs) for Business Central development and administration. They cover cloud migration to Business Central online, report errors and performance, and web service (OData, API, SOAP) failures. Use them to diagnose problems and find the right telemetry or debugging approach.
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:26:53.471Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 2f6e298df58e16603f6922a301172b3a824b0052859f7072891f11c4142ec208
+  input_hash: 45a5b38176db42eba7648edebf5d045d46c6794761f734427000ea5c63e50e53
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting
     title: Troubleshooting Cloud Migration
-    date: "2025-05-19"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -80,27 +80,29 @@ narrative: generated
 
 # Troubleshooting guides (TSGs)
 
-> Troubleshooting guides (TSGs) for Business Central development and administration. They cover cloud migration problems, report errors and slow performance, and web service failures (OData, API, SOAP). Use them for questions about causes of errors, telemetry to check, and fixes.
+> Troubleshooting guides (TSGs) for Business Central development and administration. They cover cloud migration to Business Central online, report errors and performance, and web service (OData, API, SOAP) failures. Use them to diagnose problems and find the right telemetry or debugging approach.
 
-Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting.md) > Troubleshooting guides (TSGs) · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting.md) > Troubleshooting guides (TSGs) · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The TSGs are task-focused guides for diagnosing specific problems in Business Central. Each guide describes symptoms, the likely causes, and how to find the root cause, often with telemetry and debugging tools.
+The TSGs are task-focused guides for diagnosing specific problems. Two guides sit directly in this section: one for cloud migration to Business Central online and one for reports. A subtopic covers web services.
 
-Two guides sit directly in this section. Troubleshooting Cloud Migration covers database compatibility, change tracking, user permissions, Integration Runtime setup, version requirements and common data problems. Troubleshooting reports covers analyzing report telemetry, finding the cause of report errors or slow performance, and resolving common reporting exceptions.
+The cloud migration guide walks through checks on the source and the migration setup: SQL Server compatibility level, change tracking, migration user permissions, integration runtime configuration and diagnostics, company name validation, and monitoring of the Tenant Media table. It references version 25.0.
 
-A subtopic, Troubleshoot web services, has two pages on OData, API and SOAP calls. It covers HTTP status codes, OData error codes and how AL runtime exceptions map to OData errors. Start with the guide that matches your problem area, then follow its telemetry and debugging advice.
+The reports guide describes how to analyze report telemetry, find the root cause of report errors or slow performance, and resolve common reporting exceptions. It touches report limits, RDL layouts, Excel and Word layouts, and debugging. The web services subtopic (2 pages) covers failed calls, HTTP status codes, OData error codes, and how AL runtime exceptions map to OData errors.
+
+Start with the guide that matches your symptom. For migration, begin with the compatibility and change tracking checks. For reports or web services, begin with telemetry.
 
 ## Key points
 
-- Cloud migration guide covers SQL Server compatibility, change tracking, and Integration Runtime setup.
-- Cloud migration guide also covers migration user permissions, company name validation, and the tenant media table, with notes for versions 23, 24 and 25.
-- Reports guide covers report limits, report telemetry, and performance analysis.
-- Reports guide addresses both RDL layouts and Excel/Word layouts, and how to debug report issues.
-- Web services troubleshooting covers failed OData, API and SOAP calls and their HTTP status codes.
-- Web services pages explain OData error codes and how AL runtime exceptions map to them.
-- Telemetry is a recurring tool for finding root causes in the reports and web services guides.
+- Cloud migration TSG checks SQL Server compatibility level, change tracking, and migration user permissions.
+- Cloud migration TSG also covers integration runtime setup and diagnostics, company name validation, and Tenant Media table monitoring (version 25.0).
+- Reports TSG shows how to use report telemetry to find the cause of errors and slow performance.
+- Reports TSG covers report limits, RDL layouts, Excel/Word layouts, and debugging.
+- Web services subtopic (2 pages) covers OData, API and SOAP failures.
+- Web services guides explain HTTP status codes, OData error codes, and how AL runtime exceptions map to OData errors.
+- Web services guides point to telemetry and debugging tools for finding the cause of failed calls.
 
 ## Subtopics
 
@@ -117,6 +119,7 @@ A subtopic, Troubleshoot web services, has two pages on OData, API and SOAP call
   - Limit: Cannot migrate multiple on-premises databases to same online environment or same database to multiple environments simultaneously.
   - Check applicationVersion field in $ndo$tenantdatabaseproperty table; if blank or outdated, migration cannot run.
   - Step: After migration completes, run Repair Companion Table Records action on Cloud Migration Management page if data is missing.
+  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../objects/page/40063.md)
 - [Troubleshooting reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-troubleshooting): Learn about how to troubleshoot Business Central reports
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.

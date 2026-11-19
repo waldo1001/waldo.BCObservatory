@@ -12,37 +12,30 @@ review:
   at: "2026-10-07T02:22:43.785Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
   input_hash: 1888a9df09c63c9898c62fd4596ebb6cdc3c61cba798497d43b8343ae43b3851
 evidence:
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert
-    title: Alert on Telemetry
-    date: "2022-11-17"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql
-    title: Analyze and monitor telemetry with KQL
-    date: "2024-12-19"
+    title: Analyze and Monitor Telemetry with KQL
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app
-    title: Analyze and monitor telemetry with Power BI
-    date: "2024-03-21"
+    title: Analyze and Monitor Telemetry with Power BI
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry
-    title: Available Telemetry
-    date: "2021-07-09"
+    title: Available Business Central Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -56,25 +49,32 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview
     title: Monitoring and Analyzing Telemetry
-    date: "2025-06-20"
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert
+    title: Set Up Business Central Telemetry Alerts
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights
-    title: Turn sending telemetry to application insights on or off
-    date: "2024-07-23"
+    title: Turn Business Central Environment Telemetry On or Off
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
 links:
   learn:
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-work-perf-problem
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights
   objects: []
   features: []
@@ -133,23 +133,14 @@ To analyze data, use the free Power BI apps (usage, error, performance, administ
 
 ## Learn pages
 
-- [Alert on Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert): Learn how to alert on Business Central telemetry.
-  - Set up alerts on telemetry to notify when significant events occur in your environment.
-  - Use Power BI Metrics for no-code alerting on telemetry data.
-  - Use Application Insights, Azure Logic Apps, or Power Automate for advanced alerting.
-  - KQL queries define alerting conditions; set recurrence to match query lookback period.
-  - Step: In Azure portal, go to Application Insights resource and select Alerts.
-  - Step: Add custom log search condition with KQL query for alerting rule.
-  - Sample alerting queries are available in Business Central BCTech GitHub repository.
-  - Logic Apps and Power Automate need API Connection authentication using Application ID and API Key.
-- [Analyze and monitor telemetry with KQL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql): Learn how to query Business Central telemetry with KQL.
+- [Analyze and Monitor Telemetry with KQL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql): Query Business Central telemetry with Kusto Query Language to follow sessions and users, investigate performance, and analyze report usage.
   - Business Central telemetry is stored in Azure Application Insights in traces and pageViews tables
   - Kusto Query Language (KQL) is used to query telemetry data in Application Insights
   - From Log Analytics, traces map to AppTraces table and pageViews map to AppPageViews table
   - All telemetry events have timestamp in UTC timezone that can be converted to local timezone
   - Session ID in version 24 and later allows tracking all events within a single user session
   - KQL queries can find start time of events like reports or long-running operations using execution time
-- [Analyze and monitor telemetry with Power BI](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app): Learn how to install, configure, and use the Power BI app on Business Central telemetry data.
+- [Analyze and Monitor Telemetry with Power BI](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app): Install and configure Power BI apps for Business Central telemetry to analyze usage, investigate errors, and monitor environment performance.
   - Two free Power BI apps analyze telemetry: one for environment telemetry, one for app and extension telemetry.
   - Usage report shows sessions, clients, user locations, page views, reports, features, integrations, and deprecated features.
   - Error report displays user errors, integration errors, and system errors across environments or apps.
@@ -158,11 +149,11 @@ To analyze data, use the free Power BI apps (usage, error, performance, administ
   - Prerequisite: Power BI pro license required to use the apps.
   - Step: Install app from Microsoft Marketplace using the provided link.
   - Step: Get Application ID from Azure portal and connect to Application Insights resource in Power BI.
-- [Available Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry): Get an overview of available telemetry in Business Central
+- [Available Business Central Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry): Find Business Central telemetry by area or event ID to monitor environments and extensions, diagnose errors, and analyze performance.
   - Business Central telemetry is organized by areas and by event IDs in Application Insights.
   - Event IDs include application events, client events, lifecycle events, and runtime events.
 - [How to work with a performance problem](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-work-perf-problem): Troubleshooting process that can help to guide you to find the root cause slow performance.
-- [Monitoring and Analyzing Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview): Learn how Business Central provides telemetry for each environment, both for online and on-premises environments.
+- [Monitoring and Analyzing Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview): Monitor Business Central environments and extensions with Application Insights telemetry to diagnose errors, analyze performance, and track usage.
   - Telemetry can be enabled at environment level or per-extension level to collect operational data in Azure Application Insights.
   - With Business Central 2020 release wave 2 and later, publishers can set Application Insights connection strings in app.json manifest files.
   - Telemetry data is stored in Application Insights Logs tables called traces and pageViews for analysis via Kusto query language.
@@ -170,7 +161,16 @@ To analyze data, use the free Power BI apps (usage, error, performance, administ
   - Free Power BI apps analyze Business Central telemetry; one app covers environments while another covers apps and extensions.
   - Permissions: AL developers can create custom telemetry messages using Feature Telemetry codeunit or LogMessage method from Session class.
   - In the observatory: [Codeunit 8703 "Feature Telemetry"](../../../../objects/codeunit/8703.md)
-- [Turn sending telemetry to application insights on or off](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights): Learn how you can get richer telemetry by connecting your Business Central with Application Insights for telemetry.
+- [Set Up Business Central Telemetry Alerts](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert): Set up alerts on Business Central telemetry with Azure Monitor, Logic Apps, or Power Automate to respond to issues and environment changes.
+  - Set up alerts on telemetry to notify when significant events occur in your environment.
+  - Use Power BI Metrics for no-code alerting on telemetry data.
+  - Use Application Insights, Azure Logic Apps, or Power Automate for advanced alerting.
+  - KQL queries define alerting conditions; set recurrence to match query lookback period.
+  - Step: In Azure portal, go to Application Insights resource and select Alerts.
+  - Step: Add custom log search condition with KQL query for alerting rule.
+  - Sample alerting queries are available in Business Central BCTech GitHub repository.
+  - Logic Apps and Power Automate need API Connection authentication using Application ID and API Key.
+- [Turn Business Central Environment Telemetry On or Off](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights): Connect Business Central online or on-premises environments to Azure Application Insights to collect telemetry and troubleshoot issues.
   - Status: Generally available for Business Central online and on-premises
   - Prerequisite: Microsoft Azure subscription and Application Insights resource are required to send telemetry
   - Prerequisite: For version 17 and earlier, copy the Instrumentation Key; for later versions, copy the Connection String from Azure portal

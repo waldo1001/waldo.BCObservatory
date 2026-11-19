@@ -1,6 +1,6 @@
 # BC Observatory: Enum objects
 
-1132 objects, by id.
+1140 objects, by id.
 
 - [Enum 5 "Interest Calculation Method"](5.md): Base Application
 - [Enum 6 "Gen. Journal Document Type"](6.md): Base Application
@@ -730,6 +730,7 @@
 - [Enum 6922 "Expense Activity Event Type"](6922.md): ExpenseAgent
 - [Enum 6923 "Expense Activity Initiator"](6923.md): ExpenseAgent
 - [Enum 6924 "Expense Activity Actor Role"](6924.md): ExpenseAgent
+- [Enum 6925 "Expense Source"](6925.md): ExpenseAgent
 - [Enum 6968 "Expense Agent Cons. Source"](6968.md): ExpenseAgent
 - [Enum 6978 "Expense Line Type"](6978.md): ExpenseAgent
 - [Enum 6982 "Expense Age Handling"](6982.md): ExpenseAgent
@@ -799,6 +800,13 @@
 - [Enum 7415 "Excise Calculation Type"](7415.md): ExciseTaxes
 - [Enum 7416 "Excise Bonded Handling"](7416.md): ExciseTaxes
 - [Enum 7417 "Excise Bonded Loc. Treatment"](7417.md): ExciseTaxes
+- [Enum 7430 "EA Corp Card Feed Type"](7430.md): ExpenseAgent
+- [Enum 7432 "EA Corp Card Trans Status"](7432.md): ExpenseAgent
+- [Enum 7433 "EA Corp Card Match Type"](7433.md): ExpenseAgent
+- [Enum 7434 "EA Corp Card Exception Type"](7434.md): ExpenseAgent
+- [Enum 7435 "EA Corp Card Create Mode"](7435.md): ExpenseAgent
+- [Enum 7436 "EA Corp Card Stmt Status"](7436.md): ExpenseAgent
+- [Enum 7437 "EA Corp Card Settle Status"](7437.md): ExpenseAgent
 - [Enum 7568 "Geolocation Status"](7568.md): System Application
 - [Enum 7580 "Onboarding Signal Type"](7580.md): Base Application
 - [Enum 7602 "Calendar Source Type"](7602.md): Base Application

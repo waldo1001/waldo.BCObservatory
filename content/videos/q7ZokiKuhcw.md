@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:08:19.821Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-11-19T00:53:46.759Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -79,6 +79,11 @@ links:
   posts: []
   guidelines: []
   related:
+    - to: post/yzhums-com/77475
+      title: "Dynamics 365 Business Central: Enter Company Details quickly using information from Microsoft 365"
+      label: possibly related
+      why: both name Page 1 "Company Information"
+      by: code
     - to: post/yzhums-com/69023
       title: "Dynamics 365 Business Central: How to show Experience Tier (Essential or Premium) on the Companies (list page)"
       label: possibly related
@@ -201,5 +206,6 @@ As heard in the captions. A name that matches one object page by exact type and 
 
 No source states these links: they share an object, a model read them, or a person found the same subject.
 
+- [Dynamics 365 Business Central: Enter Company Details quickly using information from Microsoft 365](../posts/yzhums-com/77475.md) — possibly related: both name Page 1 "Company Information"
 - [Dynamics 365 Business Central: How to show Experience Tier (Essential or Premium) on the Companies (list page)](../posts/yzhums-com/69023.md) — possibly related: both name Page 1 "Company Information"
 - [What's New: The Danish Bookkeeping Act (2023 release wave 2)](../videos/205F8ljmInU.md) — possibly related: both name Page 1 "Company Information"

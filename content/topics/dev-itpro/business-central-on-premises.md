@@ -11,7 +11,7 @@ review:
   at: "2026-11-09T00:45:11.850Z"
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,6 +49,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
     title: Business Central Upgrade Compatibility Matrix
     date: "2026-11-06"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations
+    title: Business Central Upgrade Planning and Considerations
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -287,13 +294,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v26
     title: Install a Business Central 2025 Release Wave 1 (Version 26) Update
     date: "2025-09-02"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v27
-    title: Install a Business Central 2025 release Wave 2 (version 27) Update
-    date: "2026-02-02"
     commit: null
     t: null
     quote: null

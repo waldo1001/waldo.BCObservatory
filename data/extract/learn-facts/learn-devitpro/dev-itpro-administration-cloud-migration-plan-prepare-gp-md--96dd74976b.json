@@ -1,42 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-plan-prepare-gp.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare-gp",
-  "title": "Prepare and plan for cloud migration from Dynamics GP",
-  "blob": "001f3e2a290b41c3d30e583071952c67fa5b8af6",
+  "title": "Plan Dynamics GP Cloud Migration to Business Central",
+  "blob": "0a313025ab868ca7584098a0fb0e84a643ebbad4",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Migration assessment tool at bcmigrationassessments.com provides insight on readiness and detects potential issues."
+      "text": "Migration assessment tool provides insight into readiness and detects potential migration issues."
     },
     {
       "kind": "fact",
-      "text": "Data migration is determined per company; choose which companies to migrate to save time and resources."
+      "text": "Data migrated determined on per-company basis, can migrate all companies or only specific ones."
     },
     {
       "kind": "fact",
-      "text": "For large migrations, run from a backup of on-premises database to improve speed and minimize downtime."
+      "text": "More companies replicated in single operation means longer migration time."
     },
     {
-      "kind": "step",
-      "text": "Create full backup of on-premises production database."
+      "kind": "fact",
+      "text": "Most migrations can run from on-premises production database with minimal downtime for end users."
     },
     {
-      "kind": "step",
-      "text": "Complete cloud migration setup including company selection."
+      "kind": "fact",
+      "text": "Large migrations benefit from running from backup of on-premises database to improve speeds and minimize downtime."
     },
     {
-      "kind": "step",
-      "text": "Run replication and address any issues that arise."
+      "kind": "prerequisite",
+      "text": "Keep Dynamics GP source version and Business Central online version unchanged during cloud migration setup."
     },
     {
-      "kind": "step",
-      "text": "Stop on-premises usage before final backup of production database."
-    },
-    {
-      "kind": "step",
-      "text": "Run Data Upgrade on cloud environment."
+      "kind": "fact",
+      "text": "Schedule online environment updates for date after cloud migration completes."
     }
   ],
   "dropped": 0,
@@ -44,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003948,
-      "pages_in_call": 15
+      "cost_usd": 0.00502,
+      "pages_in_call": 11
     }
   ]
 }

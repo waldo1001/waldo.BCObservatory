@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:18.682Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -20,57 +20,64 @@ generated:
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-align-table-definitions
-    title: Align SQL Table Definitions
-    date: "2022-11-25"
+    title: Align SQL Table Definitions for Cloud Migration
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-bc14-reimplementation
-    title: Business Central 14 Reimplementation tool for cloud migration
-    date: "2026-05-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises
-    title: Business Central on-premises to online migration overview
-    date: "2026-05-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-change-replication
-    title: Change the way data is replicated to Business Central online
-    date: "2023-12-07"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-clean-data
-    title: Clean data
-    date: "2023-03-24"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-gp
-    title: Cloud Migration Prerequisites for Dynamics GP
-    date: "2024-02-29"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-sl
-    title: Cloud Migration Prerequisites for Dynamics SL
-    date: "2024-12-13"
+    title: Business Central 14 Reimplementation for Cloud Migration
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-overview
-    title: Cloud migration setup overview
-    date: "2024-12-13"
+    title: Business Central Cloud Migration Setup Overview
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises
+    title: Business Central On-Premises to Online Migration Overview
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data
+    title: Business Central Online Data Migration Overview
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations
+    title: Business Central Upgrade Planning and Considerations
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-change-replication
+    title: Change Cloud Migration Replication in Business Central Online
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-clean-data
+    title: Clean Business Central Data Before Cloud Migration
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication
+    title: Cloud Migration Data Replication Overview
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -83,43 +90,29 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl-videos
-    title: Compare work processes in Dynamics SL to Business Central
+    title: Compare Work in Dynamics SL and Business Central
     date: "2024-12-13"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish
-    title: Complete cloud migration
-    date: "2025-09-22"
+    title: Complete Cloud Migration to Business Central Online
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-gp
-    title: Complete cloud migration for Dynamics GP
-    date: "2024-02-29"
+    title: Complete Dynamics GP Migration to Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-sl
-    title: Complete cloud migration for Dynamics SL
-    date: "2024-12-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-configure-companies
-    title: Configure Dynamics GP company migration
-    date: "2026-01-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-configure-companies
-    title: Configure Dynamics SL company migration
-    date: "2026-04-10"
+    title: Complete Dynamics SL Migration to Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -138,37 +131,79 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication
-    title: Data replication overview
-    date: "2023-01-15"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-table-mapping
+    title: Define Cloud Migration Table Mappings in Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-table-mapping
-    title: Define migration table mappings
-    date: "2023-03-22"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-configure-companies
+    title: Dynamics GP Company Migration Configuration
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp
+    title: Dynamics GP Data Migration to Business Central Online
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-gp
+    title: Dynamics GP Migration Prerequisites for Business Central
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-overview
+    title: Dynamics GP Migration to Business Central Online
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-validation
+    title: Dynamics GP Migration Validation Overview
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl
-    title: Dynamics SL Data Migrated to Business Central Online
-    date: "2025-08-04"
+    title: "Dynamics SL Cloud Migration: Supported Data"
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-configure-companies
+    title: Dynamics SL Company Migration Configuration
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-prerequisites-sl
+    title: Dynamics SL Migration Prerequisites for Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-overview
-    title: Dynamics SL migration to Business Central online End-to-end overview
-    date: "2024-12-13"
+    title: Dynamics SL Migration to Business Central Online
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-estimate-compressed-data-size
-    title: Estimating the data size in your Business Central online tenant
-    date: "2023-11-06"
+    title: Estimate Compressed Data Size for Business Central Online
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -181,29 +216,29 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage
-    title: Managing cloud migration
-    date: "2023-07-04"
+    title: Manage Business Central Cloud Migration
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-gp
-    title: Managing Dynamics GP cloud migration
-    date: "2024-02-29"
+    title: Manage Dynamics GP Cloud Migration in Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-sl
-    title: Managing Dynamics SL cloud migration
-    date: "2024-12-13"
+    title: Manage Dynamics SL Cloud Migration in Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp
-    title: Migrate Dynamics GP data to the cloud
-    date: "2026-01-14"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-companies-live-tenant
+    title: Migrate Business Central Companies into Live Tenants
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -215,94 +250,59 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data
-    title: Migrate on-premises data to Business Central online
-    date: "2026-05-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-overview
-    title: Migrate on-premises GP data to Business Central online overview
-    date: "2024-12-13"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-companies-live-tenant
-    title: Migrating Business Central companies into live tenants
-    date: "2024-03-01"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-validation
-    title: Migration validation overview
-    date: "2025-01-09"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-optimize-replication
-    title: Optimizing cloud migration performance
-    date: "2023-03-22"
+    title: Optimize Business Central Cloud Migration Performance
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare
-    title: Prepare and plan for cloud migration from Business Central on-premises
-    date: "2026-05-23"
+    title: Plan and Prepare for Business Central Cloud Migration
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare-gp
-    title: Prepare and plan for cloud migration from Dynamics GP
-    date: "2024-02-19"
+    title: Plan Dynamics GP Cloud Migration to Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare-sl
-    title: Prepare and plan for cloud migration from Dynamics SL
-    date: "2024-12-13"
+    title: Plan Dynamics SL Cloud Migration to Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-retain-permissions
-    title: Retain permissions
-    date: "2024-02-29"
+    title: Retain User Permissions During Cloud Migration
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade
+    title: Run a Cloud Migration Data Upgrade
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data-replication-run
-    title: Run and manage data replication
-    date: "2024-12-20"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup
-    title: Run Cloud Migration Setup
-    date: "2024-03-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-gp
-    title: Run cloud migration setup for Dynamics GP migration
-    date: "2024-02-29"
+    title: Run and Manage Cloud Migration Data Replication
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
 links:
   learn:
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-custom-migration
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/faq-migrate-data
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting
   objects:
     - object/page/4003
@@ -379,6 +379,11 @@ Supporting pages include custom migration from any SQL source (no-code mappings,
 
 ## More Learn pages
 
+- [Business Central Online Data Migration Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data): Learn to set up cloud data migration to Business Central online from supported Dynamics versions and Business Central on-premises, managed by Azure Data Factory.
+  - Supported migration paths include Business Central on-premises, Dynamics GP, Dynamics SL, and Dynamics NAV to online.
+  - Non-SQL source data can be migrated using configuration packages and templates to on-premises first.
+  - QuickBooks customers can use Microsoft apps to migrate to Business Central online.
+  - Business Central 14 reimplementation tool migrates selected business data for fresh start without legacy customizations.
 - [Custom migration from any SQL source](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-custom-migration): Learn how to set up and run custom migrations from any SQL-based source to Business Central online, including no-code options and custom migration apps.
   - No-code custom migration lets you select specific tables to copy from SQL source without writing code.
   - Replication mapping type copies data during data replication runs; Setup mapping type copies data during assisted setup before companies are created.
@@ -398,13 +403,6 @@ Supporting pages include custom migration from any SQL source (no-code mappings,
   - On-premises users are added to Intelligent Cloud user group; online environment is read-only during migration.
   - Data replication is one way only from on-premises to Business Central online; must stop using on-premises after going live.
   - Limit: On-premises users and permissions do not replicate; users must be manually added and permissions granted in cloud tenant.
-- [Migrate on-premises data to Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-data): Learn to set up cloud data migration to Business Central online from supported Dynamics versions and Business Central on-premises, managed by Azure Data Factory.
-  - Status: Generally available.
-  - Customers from non-SQL sources can use configuration packages to migrate to on-premises first, then to online.
-  - QuickBooks customers can use Microsoft apps to migrate directly to Business Central online.
-  - Migration paths exist for Business Central, Dynamics GP, Dynamics SL, and Dynamics NAV.
-  - Business Central 14 reimplementation tool migrates only master data, opening balances, and setup.
-  - Custom migration from any SQL source is supported.
 - [Troubleshooting Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting): Learn how to troubleshoot problems that you might experience with the cloud migration to Business Central online from on-premises.
   - SQL Server compatibility level must be 130 or higher; query sys.databases or run ALTER DATABASE command to set it correctly.
   - Change tracking must be enabled on database; run ALTER DATABASE command to enable with 3-day retention and auto-cleanup.
@@ -414,6 +412,7 @@ Supporting pages include custom migration from any SQL source (no-code mappings,
   - Limit: Cannot migrate multiple on-premises databases to same online environment or same database to multiple environments simultaneously.
   - Check applicationVersion field in $ndo$tenantdatabaseproperty table; if blank or outdated, migration cannot run.
   - Step: After migration completes, run Repair Companion Table Records action on Cloud Migration Management page if data is missing.
+  - In the observatory: [Page 40063 "Cloud Migration Management"](../../../objects/page/40063.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 

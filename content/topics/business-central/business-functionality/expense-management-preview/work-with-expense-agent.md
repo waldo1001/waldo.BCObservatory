@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,8 +90,6 @@ links:
     - video/vyQnSxRGJDA
   posts: []
   guidelines: []
-  changes:
-    - change/bcapps/13587
 learn_toc_path:
   - Business functionality
   - Expense management (preview)
@@ -144,11 +142,10 @@ The pages follow the expense workflow. Start with the overview, then read about 
 - [Use the Expense Agent Mobile App (preview)](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-mobile-app): Capture receipts on the go with the Business Central Expenses mobile app for iOS and Android, featuring document scanning and offline support.
   - In the observatory: [Page 7128 "Mileage Rate Setup"](../../../../objects/page/7128.md)
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#13587 Update Corp Card manual selection](../../../../changes/bcapps/13587.md) (code change): "enabling manual selection of corporate cards for expenses with new pages, queries, and automated posting workflows"
 - [Expense Agent: Finance Controlling (2026 release wave 1)](../../../../videos/54uIhzZq3Os.md) (video): "Expense Agent; Default dimensions on employee records; Billable information on expenses"
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../../videos/Fz8NLByllRc.md) (video): "Automatic mileage rate calculation; Round trip toggle; Mileage rate configuration"
 - [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../../videos/M0IzeLSn7qU.md) (video): "Expense Agent; approval process; audit trail; delegated approvers"

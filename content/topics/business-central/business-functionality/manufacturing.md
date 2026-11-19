@@ -7,12 +7,12 @@ tier: official
 language: en
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-19T01:01:23.413Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -461,6 +461,7 @@ links:
     - change/bcapps/12520
     - change/bcapps/12552
     - change/bcapps/12584
+    - change/bcapps/12664
     - change/bcapps/12783
     - change/bcapps/13704
     - change/bcapps/13724
@@ -603,7 +604,7 @@ narrative: generated
 
 > Manufacturing in Business Central covers production orders and their lifecycle: creating orders, posting consumption, output, scrap and capacity, reversing transactions, and finished order costing. It also covers subcontracting and manufacturing analytics, and answers how-to and where-to-find questions.
 
-Path: [Business functionality](../business-functionality.md) > Manufacturing · tier official · system manufacturing · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../business-functionality.md) > Manufacturing · tier official · system manufacturing · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -667,6 +668,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12520 [29.X]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure](../../../changes/bcapps/12520.md) (code change): "Reverse Production Entry now correctly handles production output posted using non-base units"
 - [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/12552.md) (code change): "sales order with a linked released production order caused repeated production order status warnings"
 - [#12584 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](../../../changes/bcapps/12584.md) (code change): "Posted, uninvoiced subcontracting receipts can again be pulled into a separate purchase invoice"
+- [#12664 Fix production journal page ID validation](../../../changes/bcapps/12664.md) (code change): "Production journal page ID validation now explicitly passes the page ID parameter"
 - [#12783 [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../changes/bcapps/12783.md) (code change): "multiplies the subcontractor price by the operation time factor and rounds to the unit-amount precision"
 - [#13704 [Subcontracting] Add quantity-ready-to-start tracking for production routing operations](../../../changes/bcapps/13704.md) (code change): "New read-only Quantity Ready to Start field on production routing lines"
 - [#13724 Bug 651757: Allow warehouse pick for MTO subassembly after registered put-away](../../../changes/bcapps/13724.md) (code change): "Warehouse pick selection for make-to-order subassemblies now allows higher-level"

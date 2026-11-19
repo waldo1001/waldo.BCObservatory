@@ -1,42 +1,42 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-bc14-reimplementation.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-bc14-reimplementation",
-  "title": "Business Central 14 Reimplementation tool for cloud migration",
-  "blob": "db99008154b8bb4cf526fce533b3fcc7d88bd2d1",
+  "title": "Business Central 14 Reimplementation for Cloud Migration",
+  "blob": "4cd2e46ca3072862bba385895c2fcabecc687b71",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Business Central 14 Reimplementation tool migrates only essential business data for clean start without legacy customizations."
+      "text": "Business Central 14 Reimplementation tool migrates selected business data for clean start without legacy customizations."
     },
     {
       "kind": "status",
-      "text": "Reimplementation approach available for Business Central version 14; standard full migration tools available for other versions."
-    },
-    {
-      "kind": "limit",
-      "text": "Business Central 14 reimplementation tool only supports version 14; for other versions use standard cloud migration."
+      "text": "Only supports Business Central version 14; for other versions use standard cloud migration."
     },
     {
       "kind": "fact",
-      "text": "Migrates master data, transactional data, opening balances, and setup data; legacy C/AL customizations not migrated by default."
+      "text": "Migrates master data, transactional data, opening balances, setup data, and historical data based on enabled modules."
     },
     {
       "kind": "limit",
-      "text": "Arbitrary ledger history beyond defined subset not migrated by default; extension data not included without customization."
+      "text": "Built-in migrators do not migrate open sales orders or purchase orders."
+    },
+    {
+      "kind": "limit",
+      "text": "Legacy C/AL customizations and extension data not migrated by built-in migrators."
     },
     {
       "kind": "fact",
-      "text": "Tool includes more than 40 migrators for modular business data transfer; more migrators expected over time."
+      "text": "More than 40 migrators included for transferring defined sets of business data."
     },
     {
       "kind": "step",
-      "text": "Follow standard cloud migration setup process; on Product page select Business Central 14 Reimplementation."
+      "text": "Complete preparation steps, run cloud migration setup, and select Dynamics 365 Business Central Re-implementation v.14 as Product."
     },
     {
       "kind": "fact",
-      "text": "Tool is open source and extensible; partners can add migration modules for ISV solutions and customize data transformation."
+      "text": "Tool is open source and extensible for partners to add modules or customize transformation logic."
     }
   ],
   "dropped": 0,
@@ -44,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005472,
-      "pages_in_call": 10
+      "cost_usd": 0.00502,
+      "pages_in_call": 11
     }
   ]
 }

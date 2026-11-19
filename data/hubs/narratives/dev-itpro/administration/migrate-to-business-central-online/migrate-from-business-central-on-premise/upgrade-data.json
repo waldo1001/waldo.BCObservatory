@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/upgrade-data",
-  "input_hash": "0a342646d08f02686c41a0c4520ca4bb26f53500572af345474e6175153c6161",
-  "summary": "Upgrade data covers running data upgrade during cloud migration from earlier Business Central on-premises versions, and how to skip the API data upgrade to shorten upgrade time. It answers questions on prerequisites, process, error handling, monitoring, and per-company disabling of API upgrade.",
-  "overview": "This section belongs to the migration path from Business Central on-premises to Business Central online. It deals with the data upgrade step, which upgrades platform-related data when you migrate from earlier Business Central versions.\n\nTwo pages make up the section. \"Run data upgrade\" describes the prerequisites, the process, how errors are handled, and how to monitor the upgrade, including telemetry and point-in-time restore. \"Skip API data upgrade in cloud migration\" is a focused option for cases where the upgrade runs too long.\n\nStart with \"Run data upgrade\" to understand the full flow. Read the skip API page if long-running upgrade times are a concern, since it explains how to postpone the API upgrade until after go-live.",
+  "input_hash": "9f7d54f56d3021c59a2bb20ebc0a36dde076df19e1ef3e27ca8c8c6d5662dede",
+  "summary": "Data upgrade during cloud migration from Business Central on-premises to Business Central online. It answers how to run the data upgrade from the Cloud Migration Management page and how to skip API data upgrade per company to avoid long-running upgrades.",
+  "overview": "This section covers the data upgrade step of a cloud migration when the on-premises source is an earlier version than the online target. The data upgrade runs the logic needed to bring migrated data up to the current version, and it can be scheduled from the Cloud Migration Management page.\n\nTwo pages make up the section. \"Run a Cloud Migration Data Upgrade\" explains how to run the upgrade, including company-level and environment-wide upgrades and the role of point-in-time restore. \"Skip API Data Upgrade During Cloud Migration\" explains how to avoid long-running API upgrade processes by skipping them first and completing them after going live on the tenant.\n\nStart with the run page to understand the standard flow. Read the skip page if your data volume makes the API upgrade slow and you want to defer it.",
   "key_points": [
-    "Data upgrade during cloud migration upgrades platform-related data when migrating from earlier Business Central versions.",
-    "The Run data upgrade page covers prerequisites, process, error handling, and monitoring.",
-    "Point-in-time restore and telemetry are mentioned in connection with running and monitoring the upgrade.",
-    "Skipping API data upgrade reduces long-running upgrade times.",
-    "With the skip option, the API upgrade is disabled during cloud migration and run after going live.",
-    "In Business Central online, disable it through Cloud Migration Management.",
-    "On-premises, disable it with SQL queries.",
-    "The setting is applied on a per-company basis."
+    "Data upgrade is needed when migrating from an earlier version to Business Central online.",
+    "The upgrade can be scheduled from the Cloud Migration Management page.",
+    "Upgrades can be run at company level or environment-wide.",
+    "The run page mentions point-in-time restore and names Business Central 14 as a version.",
+    "API data upgrade can be skipped to avoid long-running upgrade processes.",
+    "After skipping, the API upgrade is completed once the tenant is live.",
+    "Skipping can be set per company, using Disable API Data Upgrades and Manage API Upgrade in the online environment.",
+    "On-premises, the API upgrade skip is done with SQL queries."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:00.433Z",
+  "at": "2026-11-19T01:00:27.766Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.009391
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:22:41.499Z",
-    "verdict": "approve",
-    "issues": [
-      "Summary says 'earlier Business Central on-premises versions'; the page summary says only 'earlier Business Central versions'. The hub's TOC path (Migrate from Business Central on-premises) makes this reasonable, but it is a small inference.",
-      "The overview puts point-in-time restore under monitoring ('how to monitor the upgrade, including telemetry and point-in-time restore'). The source only lists it as a feature of the Run data upgrade page and does not say what role it plays. Key point 3 says this more carefully."
-    ],
-    "input_hash": "0a342646d08f02686c41a0c4520ca4bb26f53500572af345474e6175153c6161",
-    "cost_usd": 0.0284832
+    "cost_usd": 0.01291
   }
 }

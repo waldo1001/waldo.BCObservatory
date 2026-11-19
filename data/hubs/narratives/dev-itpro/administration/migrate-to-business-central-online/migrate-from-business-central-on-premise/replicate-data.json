@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/replicate-data",
-  "input_hash": "f71d4d3c46269c3fb3be912f76f33eaea5a2db3d272e3c463d644ecea684512d",
-  "summary": "Data replication from Business Central on-premises to Business Central online: how the replication process works (large and small table flows, Azure BLOB storage, Azure Data Factory, change tracking) and how to run, monitor, pause, or troubleshoot it in Cloud Migration Management.",
-  "overview": "This section covers the replication step of a cloud migration from Business Central on-premises to an online environment. It has two pages: one explaining how replication works, and one explaining how to operate it.\n\nStart with Data replication overview. It describes the large table flow and the small table flow, the use of Azure BLOB storage and Azure Data Factory, the integration runtime, company initialization, and how replication can be rerun using change tracking.\n\nThen use Run and manage data replication for the hands-on steps. It uses the Cloud Migration Management page to create a diagnostics run, start replication, follow progress, check the Migration Log, and handle problems by pausing or abandoning a migration.",
+  "input_hash": "76ffe67af4be45d9c64c0f02613763dc34aaf1ffb9666c4c0b2282b0b20e3fcd",
+  "summary": "Data replication in cloud migration from Business Central on-premises to Business Central online. It covers how the replication pipeline works, and how to run, monitor, pause, abandon and rerun replication. It answers questions about flows for large and small tables, company initialization and troubleshooting.",
+  "overview": "This section covers the replication step of a cloud migration, after setup is done. It explains how on-premises data is copied to Business Central online and how to operate the process.\n\nThe overview page describes the replication pipeline: table-based copying with separate flows for large and small tables, use of Azure Blob Storage and a self-hosted integration runtime, company initialization, and change tracking for later runs. The run and manage page is the practical guide. It covers starting replication, running diagnostics, watching progress in the migration log, and handling problems.\n\nStart with the overview to understand what happens during a run. Then use the run and manage page when you start replication or need to pause, abandon or rerun it.",
   "key_points": [
-    "Replication moves data from an on-premises database to an online Business Central environment.",
-    "Tables follow either a large table flow or a small table flow.",
-    "Azure BLOB storage and Azure Data Factory, with an integration runtime, take part in the process.",
-    "Company initialization is part of the replication process.",
-    "Replication can be rerun, and change tracking is used for reruns.",
-    "Cloud Migration Management is the page used to run and manage replication.",
-    "You can create a diagnostics run before running replication.",
-    "Progress is monitored in Cloud Migration Management and the Migration Log, and you can pause or abandon a migration."
+    "Replication runs after cloud migration setup is complete.",
+    "The pipeline copies data table by table, with separate flows for large tables and small tables.",
+    "Azure Blob Storage and a self-hosted integration runtime are part of the replication flow.",
+    "Company initialization is part of the process, and change tracking is used for subsequent runs.",
+    "A diagnostics run is available to check the migration before or alongside full replication.",
+    "Progress is monitored through the migration log.",
+    "You can pause a migration, abandon it, or rerun data replication.",
+    "The section has two pages and no subtopics."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:04:50.117Z",
+  "at": "2026-11-19T01:00:26.743Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008943
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:22:47.056Z",
-    "verdict": "approve",
-    "issues": [
-      "Key point 7 says a diagnostics run is created 'before' running replication. The source lists diagnostic runs as a feature but does not state the order. This is a reasonable inference but is not explicitly supported.",
-      "The overview links pausing and abandoning a migration to handling problems. The source lists pause and abandon as features and mentions troubleshooting errors separately. This is a slight inference and is acceptable."
-    ],
-    "input_hash": "f71d4d3c46269c3fb3be912f76f33eaea5a2db3d272e3c463d644ecea684512d",
-    "cost_usd": 0.0268872
+    "cost_usd": 0.011924
   }
 }

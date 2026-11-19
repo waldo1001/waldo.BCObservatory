@@ -21,7 +21,7 @@ review:
   at: "2026-10-19T01:10:33.892Z"
   flags: []
 generated:
-  at: "2026-10-24T01:02:25.817Z"
+  at: "2026-11-19T00:15:47.846Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -105,7 +105,7 @@ preview:
   image_h: null
   site_name: Tech Adventures in Business Central | AL Development & AI Solutions
   favicon: https://tine.staric.net/favicon.ico
-  probed_at: "2026-10-19T01:07:57.314Z"
+  probed_at: "2026-11-19T00:52:02.160Z"
 ---
 
 # "Dev X used 200k tokens with Opus" is not telemetry

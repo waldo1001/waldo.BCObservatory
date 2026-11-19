@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T00:47:52.902Z"
+  at: "2026-11-19T00:47:08.789Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f09e265ec04daaa403cd4ec0832b191c5001eef17116b1e4c0e3590e3d9e9a6e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SalesValidationAgent.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SalesValidationAgent.Profile.al
     title: src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SalesValidationAgent.Profile.al (releases/29.x)
     date: null
-    commit: 4f49a1eb5ebb7384620fe1654dd53536c3abca03
+    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Profile "Sales Validation Agent" in AgentSamples (System.Agents.Designer.AgentSamples.SalesValidation). Introduced in BC29, still in BC30.
 
-AgentSamples · System.Agents.Designer.AgentSamples.SalesValidation · captioned "Sales Validation Agent (Copilot)" · BC29-30 · [source at 4f49a1eb](https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SalesValidationAgent.Profile.al) · facts from BC29
+AgentSamples · System.Agents.Designer.AgentSamples.SalesValidation · captioned "Sales Validation Agent (Copilot)" · BC29-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SalesValidationAgent.Profile.al) · facts from BC29
 
 ## Properties
 

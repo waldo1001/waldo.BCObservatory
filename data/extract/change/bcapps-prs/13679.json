@@ -8,11 +8,11 @@
   ],
   "summary": "The E-Document Core permission set now grants Execute permission on the status factbox page, picture preview page, and navigate handler codeunit to prevent permission errors when users access E-Document components on standard pages.",
   "key_points": [
-    "Added Execute permission on Page 6187 (E-Doc. Status FactBox), Page 6111 (Inbound E-Doc. Picture), and Codeunit 6247 (E-Doc. Navigate Handler) to the E-Document Core permission set",
-    "Resolves error messages for users with custom permission sets lacking page wildcards when opening Sales Orders with E-Document components",
-    "These objects are embedded as parts on 25 standard pages but were missing from the permission set",
-    "Added test to verify the permission set includes Execute on these objects",
-    "Affects E-Document Core and inherited roles like E-Document Core - Read, User, Admin, Edit, and Basic"
+    "Adds Execute on page 6187 E-Doc. Status FactBox, page 6111 Inbound E-Doc. Picture and codeunit 6247 E-Doc. Navigate Handler to permission set E-Doc. Core - Objects",
+    "Fixes a permission error when opening a Sales Order for users whose custom sets have no page wildcard",
+    "Page 6187 is a part on 25 standard pages, page 6111 is a part on purchase invoice and draft pages, and codeunit 6247 subscribes to Navigate",
+    "E-Doc. Core - Read, User, Admin, Edit and Basic inherit the new grants",
+    "A test checks that the expanded Read set grants Execute on these objects"
   ],
   "change_kind": "fix",
   "behavior_change": true,

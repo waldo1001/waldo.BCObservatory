@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:13.086Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,6 +52,7 @@ links:
   videos: []
   posts:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-24-30-2026--fa7b3b0afa
+    - post/sshadows-dk/https-sshadows-dk-blog-other-peoples-code-in-my-repos--fefcc34300
     - post/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620
     - post/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b
   guidelines: []
@@ -74,7 +75,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 75d4b13edabb094c6bfaa4d84768e2b4ed6400d134dd3b0ffd88e878640ecc56
@@ -123,6 +124,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#202 Restore deterministic review fixture coverage](../../../../../changes/bcquality/202.md) (code change): "Registers 23 paired knowledge articles across data modeling, error handling, performance, security, style, testing, UI, upgrade and web services"
 - [#96 Add missing AL review leaf skills](../../../../../changes/bcquality/96.md) (code change): "Four new AL code review leaf skills were added to cover testing, data modeling, AppSource, and telemetry"
 - [Weekly Review: Business Central AL Development – May 24–30, 2026](../../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-24-30-2026--fa7b3b0afa.md) (community post): "AL unit tests can run independently of the base app by structuring logic as a sub-extension"
+- [Other People's Code in My Repos, and Mine in Theirs](../../../../../posts/sshadows-dk/https-sshadows-dk-blog-other-peoples-code-in-my-repos--fefcc34300.md) (community post): "LethAL, a mutation testing tool for AL, went public"
 - [Your Tests All Pass. I Have Bad News.](../../../../../posts/sshadows-dk/https-sshadows-dk-blog-your-tests-all-pass--ed8005b620.md) (community post): "mutation testing shows whether a test would notice that line breaking"
 - [AL Runner: Run AL Unit Tests Without a BC Service Tier](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b.md) (community post): "Test execution runs in seconds compared to 15-30 minute container-based pipelines"
 

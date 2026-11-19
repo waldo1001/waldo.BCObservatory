@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.961Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-common-data-service
     title: Integrate with Microsoft Dataverse via data sync
-    date: "2026-06-17"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -142,6 +142,7 @@ links:
     - post/bertverbeek-nl/1353
     - post/yzhums-com/63916
     - post/yzhums-com/71914
+    - post/yzhums-com/77184
   guidelines: []
   changes:
     - change/bcapps/13579
@@ -158,7 +159,7 @@ coverage:
   learn: 15
   code: 1
   video: 1
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms:
   - 7214
@@ -219,6 +220,7 @@ Start with the "Integrate with Microsoft Dataverse via data sync" page for the b
   - In the observatory: [Codeunit 5330 "CRM Integration Management"](../../../../objects/codeunit/5330.md), [Codeunit 5332 "Lookup CRM Tables"](../../../../objects/codeunit/5332.md), [Codeunit 5334 "CRM Setup Defaults"](../../../../objects/codeunit/5334.md), [Codeunit 5340 "CRM Integration Table Synch."](../../../../objects/codeunit/5340.md), [Codeunit 5342 "CRM Synch. Helper"](../../../../objects/codeunit/5342.md), [Codeunit 5364 "Int. Option Synch. Invoke"](../../../../objects/codeunit/5364.md)
 - [Generate AL Proxy Tables for Dataverse](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-table-proxy-generator): Use the AL Table Proxy Generator to create Business Central integration tables from Microsoft Dataverse tables and their relationships.
 - [Integrate with Microsoft Dataverse via data sync](https://learn.microsoft.com/dynamics365/business-central/admin-common-data-service): Introduction to how to integrate and use Microsoft Dataverse and its components to connect to other Dynamics 365 applications.
+  - In the observatory: [Page 118 "General Ledger Setup"](../../../../objects/page/118.md), [Page 483 "Currency Exchange Rates"](../../../../objects/page/483.md), [Page 5 "Currencies"](../../../../objects/page/5.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 
@@ -231,6 +233,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Credentials setup on Microsoft Fabric Mirroring in Business Central](../../../../posts/bertverbeek-nl/1353.md) (community post): "data synchronization; azure; authentication"
 - [Dynamics 365 Business Central Blog Series: Integrate with Microsoft Dataverse](../../../../posts/yzhums-com/63916.md) (community post): "data synchronization, connector setup, oauth authentication, table mapping"
 - [Business Central 2026 release wave 1 (BC28): Map new Dataverse fields (New and custom Dataverse tables are readily available for mapping from the lookup on Integration Table column)](../../../../posts/yzhums-com/71914.md) (community post): "New fields added to Dataverse can now be mapped through the Integration Table Mappings page"
+- [Business Central 2026 release wave 2 (BC29.1): Data mirroring to Microsoft Fabric (No APIs or OData Needed)](../../../../posts/yzhums-com/77184.md) (community post): "Data mirroring replicates Business Central data to Microsoft Fabric's OneLake in Delta Parquet format"
 - [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../../../../videos/fIOnGEARkKs.md) (video): "Multi-currency synchronization; Additional field mappings for integration"
 
 ## Business Central pages and reports

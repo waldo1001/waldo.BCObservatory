@@ -2,37 +2,41 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments",
   "title": "Managing Production and Sandbox Environments",
-  "blob": "dc8779287cd71cf01455847158cfd548bcc7642a",
+  "blob": "f306dae29799019cb88b756d712e8b8f4b57cf73",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Business Central environments can link to Power Platform environments of the same type for inherited settings"
+      "text": "Environments tab provides overview and management of production and sandbox environments for the tenant."
+    },
+    {
+      "kind": "fact",
+      "text": "Business Central environment can link to Power Platform environment of the same type, inheriting selected settings from Power Platform."
     },
     {
       "kind": "limit",
-      "text": "Cannot delete a Business Central environment if linked to a Power Platform environment"
+      "text": "Cannot simultaneously link multiple Business Central environments to single Power Platform environment or vice versa."
+    },
+    {
+      "kind": "limit",
+      "text": "Cannot delete Business Central environment if linked to Power Platform environment."
     },
     {
       "kind": "fact",
-      "text": "Copy and Restore operations do not link the target environment to Power Platform as part of the operation"
-    },
-    {
-      "kind": "permission",
-      "text": "Internal admin with access to the admin center and permissions to update Power Platform environment properties required"
+      "text": "Copy and Restore operations create target environment not linked to Power Platform as part of operation."
     },
     {
       "kind": "fact",
-      "text": "Only Power Platform environments in Ready state, matching environment type, and not already linked are available for linking"
+      "text": "Operations log retained for 180 days, then deleted; environment deletion operations retained for 180 days even after permanent deletion."
     },
     {
-      "kind": "fact",
-      "text": "Unlinking disables inherited settings but preserves existing integrations like Power Automate flows"
+      "kind": "step",
+      "text": "Select Environments, then select New on action ribbon to create environment."
     },
     {
-      "kind": "fact",
-      "text": "Default update window excludes 8 PM to 6 AM local time; can be changed after environment creation"
+      "kind": "step",
+      "text": "Enter environment name, select Production or Sandbox type, specify country, and select application version."
     }
   ],
   "dropped": 0,
@@ -40,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008532,
-      "pages_in_call": 5
+      "cost_usd": 0.00502,
+      "pages_in_call": 11
     }
   ]
 }

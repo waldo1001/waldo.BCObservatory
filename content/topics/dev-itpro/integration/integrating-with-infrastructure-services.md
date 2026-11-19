@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,7 +42,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview
     title: Monitoring and Analyzing Telemetry
-    date: "2025-06-20"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -192,7 +192,7 @@ For network and operations, the Azure security service tags page explains how to
 - [Control Access Using Security Groups](https://learn.microsoft.com/dynamics365/business-central/ui-security-groups): This article describes how to use security groups to define user permissions.
 - [Create users according to licenses](https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions): Describes how to add users to Business Central online or on-premises based on licenses.
 - [Integrating with infrastructure services](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-infrastructure-overview): Learn how Business Central integrates with infrastructure services.
-- [Monitoring and Analyzing Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview): Learn how Business Central provides telemetry for each environment, both for online and on-premises environments.
+- [Monitoring and Analyzing Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview): Monitor Business Central environments and extensions with Application Insights telemetry to diagnose errors, analyze performance, and track usage.
   - Telemetry can be enabled at environment level or per-extension level to collect operational data in Azure Application Insights.
   - With Business Central 2020 release wave 2 and later, publishers can set Application Insights connection strings in app.json manifest files.
   - Telemetry data is stored in Application Insights Logs tables called traces and pageViews for analysis via Kusto query language.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.932Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -357,6 +357,7 @@ links:
   changes:
     - change/bcapps/10255
     - change/bcapps/10486
+    - change/bcapps/13999
     - change/bcapps/7938
     - change/bcquality/203
     - change/bcquality/228
@@ -457,6 +458,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10255 Add expense activity history foundation](../../../../changes/bcapps/10255.md) (code change): "New append-only activity log table records expense report lifecycle events"
 - [#10486 [Quality Management] Use Bin code selection for transfer disposition in workflow response](../../../../changes/bcapps/10486.md) (code change): "The Quality Management transfer disposition now uses the bin"
+- [#13999 Intrastat export XML performance improvement](../../../../changes/bcapps/13999.md) (code change): "buffers Data Exch. Field rows in memory and reads from the temporary table instead of querying the database"
 - [#7938 Bugs/632378 make quality inspection gen rule warning actionable](../../../../changes/bcapps/7938.md) (code change): "Makes the warning about quality inspection generation rules actionable"
 - [#203 knowledge(data-modeling): Prices Including VAT decides the basis of sales/purchase/service line amounts](../../../../changes/bcquality/203.md) (code change): "Prices Including VAT header flag affects the basis of line amount fields in sales, purchase, and service documents"
 - [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../../../../changes/bcquality/228.md) (code change): "Call CalcFields on a BLOB before reading its stream"

@@ -1,34 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-data-upgrade-sl.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade-sl",
-  "title": "Upgrade data for Dynamics SL cloud migration",
-  "blob": "ae33327ec54d93067f57790f52d7741d3269da7a",
+  "title": "Upgrade Dynamics SL Data During Cloud Migration",
+  "blob": "7d167ea6bc65fda03b242949756cfafc85eb6496",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "prerequisite",
-      "text": "Data replication must complete for companies being migrated before running data upgrade."
+      "text": "Run data replication on companies to migrate before starting data upgrade."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Have the SUPER permission set and complete company setup and resolve replication errors."
+    },
+    {
+      "kind": "fact",
+      "text": "Dynamics SL migration transforms data for individual companies in background tasks without environment-wide user disconnection."
+    },
+    {
+      "kind": "fact",
+      "text": "Complete final replication before starting data upgrade, as Dynamics SL waits for manual upgrade start."
     },
     {
       "kind": "step",
-      "text": "Ask active Business Central users to finish tasks and sign out before starting data upgrade."
-    },
-    {
-      "kind": "fact",
-      "text": "When data upgrade starts, all client connections are terminated and cannot reconnect until upgrade completes."
+      "text": "Open Cloud Migration Management page and select Run data upgrade to schedule the data upgrade."
     },
     {
       "kind": "step",
-      "text": "Open Cloud Migration Management page and select Run data upgrade to schedule upgrade process."
+      "text": "Use Refresh status to update progress and select SL Cloud Migration Errors or Failed Companies to investigate failures."
     },
     {
-      "kind": "fact",
-      "text": "Data upgrade transforms Dynamics SL tables into Business Central tables."
-    },
-    {
-      "kind": "fact",
-      "text": "Hotfixes and scheduled tasks cannot run during data upgrade to prevent database locks and errors."
+      "kind": "limit",
+      "text": "Failed Dynamics SL company upgrade cannot be restarted by selecting Run data upgrade again; must delete company and migrate again."
     }
   ],
   "dropped": 0,
@@ -36,7 +40,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005028,
+      "cost_usd": 0.004023,
       "pages_in_call": 10
     }
   ]

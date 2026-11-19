@@ -1,38 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-sl-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-overview",
-  "title": "Dynamics SL migration to Business Central online End-to-end overview",
-  "blob": "c81ab07729cc7c06c809e5ea22c928cc618e16f2",
+  "title": "Dynamics SL Migration to Business Central Online",
+  "blob": "0987c07649847d09bf340b5e064df3284f8fb9d0",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Cloud migration securely moves data from on-premises SQL Server to Business Central online using Azure Data Factory pipelines."
+      "text": "Data migration securely moves data from on-premises SQL Server to Business Central online via Azure Data Factory."
     },
     {
       "kind": "fact",
-      "text": "Data migrated includes system setup, master data for accounts and items, open document amounts, account balances, and historical data."
+      "text": "Azure Data Factory uses self-hosted integration runtime to securely copy data from on-premises to cloud, checking only SQL permissions."
     },
     {
       "kind": "fact",
-      "text": "Data migrates table by table, with errors captured for failed tables; migration continues to next table."
+      "text": "Migrated data includes system setup, master data for accounts and customers, open document amounts, account balances, and historical data."
+    },
+    {
+      "kind": "status",
+      "text": "On-premises solution remains operative until cloud migration completes."
     },
     {
       "kind": "fact",
-      "text": "On-premises solution remains operative until migration completes; existing online data gets overwritten by on-premises data."
+      "text": "Dynamics SL Analysis and Repair tools help evaluate readiness and detect migration issues before starting."
     },
     {
       "kind": "fact",
-      "text": "Existing users without SUPER permissions are automatically assigned Intelligent Cloud permission set to restrict data entry during migration."
+      "text": "Users added during migration should not have Intelligent Cloud permission set automatically assigned."
     },
     {
       "kind": "limit",
-      "text": "Users assigned Intelligent Cloud permission set have read-only access; insert, modify, or delete permissions could negatively impact data."
-    },
-    {
-      "kind": "prerequisite",
-      "text": "At least one user in each company must have SUPER permissions before configuring connection from on-premises to online."
+      "text": "Avoid entering data in online companies during migration, as rerunning migration can overwrite it."
     }
   ],
   "dropped": 0,
@@ -40,7 +40,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005028,
+      "cost_usd": 0.004023,
       "pages_in_call": 10
     }
   ]

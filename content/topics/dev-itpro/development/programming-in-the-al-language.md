@@ -12,7 +12,7 @@ review:
   at: "2026-11-15T00:50:59.680Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -131,6 +131,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
+    title: Adding Telemetry to Your Business Central Application
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-namespaces-structure
     title: Adopting namespaces in AL
     date: "2026-06-09"
@@ -208,30 +215,44 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace
+    title: Analyzing App Key Vault Secret Trace Telemetry
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-message-voting-trace
-    title: Analyzing Error Message Vote Telemetry | Microsoft Docs
-    date: "2022-03-22"
+    title: Analyzing Error Message Vote Telemetry
+    date: "2026-11-17"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-method-trace
+    title: Analyzing Error Method Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace
     title: Analyzing Permission Changes Trace Telemetry
-    date: "2021-04-01"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-dependency-cycle-trace
-    title: Analyzing permission dependency cycle trace telemetry
-    date: "2023-12-20"
+    title: Analyzing Permission Dependency Cycle Trace Telemetry
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace
     title: Analyzing Permission Error Trace Telemetry
-    date: "2022-07-27"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -246,13 +267,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api-querytype
     title: API query type
     date: "2026-09-21"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace
-    title: App Key Vault Secret Trace Telemetry | Microsoft Docs
-    date: "2025-09-25"
     commit: null
     t: null
     quote: null
@@ -281,20 +295,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview
     title: Asynchronous Processing in AL for Business Central
     date: "2026-10-23"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
-    title: Available Fonts in Business Central
-    date: "2026-11-12"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-azure-function-integration-trace
-    title: Azure Function Integration Telemetry
-    date: "2022-08-16"
     commit: null
     t: null
     quote: null

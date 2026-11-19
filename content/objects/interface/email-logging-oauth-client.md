@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T00:47:52.902Z"
+  at: "2026-11-19T00:47:08.789Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a7951052a79b6d77292257f68f140ff3d43b4cb73e17feea81178a41f571e6dd
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingOAuthClient.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingOAuthClient.Interface.al
     title: src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingOAuthClient.Interface.al (releases/29.x)
     date: null
-    commit: 4f49a1eb5ebb7384620fe1654dd53536c3abca03
+    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Email Logging OAuth Client" in EmailLogging (Microsoft.CRM.EmailLoggin). 8 public procedures. Introduced in BC29, still in BC30.
 
-EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at 4f49a1eb](https://github.com/microsoft/BCApps/blob/4f49a1eb5ebb7384620fe1654dd53536c3abca03/src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingOAuthClient.Interface.al) · facts from BC29
+EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingOAuthClient.Interface.al) · facts from BC29
 
 ## Properties
 

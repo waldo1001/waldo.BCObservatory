@@ -2,21 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/administration/monitoring-business-central-server/monitoring-server-events-on-premises
 type: topic
 title: Monitoring server events on-premises
-summary: Monitoring Business Central server events on-premises covers the admin, operational and debug events the server writes through Event Tracing for Windows. It answers questions about viewing events in Event Viewer or PowerShell, collecting trace data with Logman, Performance Monitor or PerfView, and limiting telemetry traces.
+summary: Monitoring Business Central server events on-premises covers admin, operational, debug and trace events, and how to view them in Event Viewer or PowerShell. It also covers collecting .etl trace data with Logman, Performance Monitor or PerfView, and limiting telemetry trace events.
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:20:55.858Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 02df5a19340f83790215a3de1b94326aef3d9bb4f369f497296a98706425e005
+  input_hash: 53f9a280f0018e92e165503c6487d7c9e3c27bf086e0a5a7a2cff24f4a1cb41b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/server-events
@@ -35,7 +35,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-events-windows-event-log
     title: Monitoring Business Central Server Events in Event Viewer
-    date: "2021-06-26"
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -121,28 +121,28 @@ narrative: generated
 
 # Monitoring server events on-premises
 
-> Monitoring Business Central server events on-premises covers the admin, operational and debug events the server writes through Event Tracing for Windows. It answers questions about viewing events in Event Viewer or PowerShell, collecting trace data with Logman, Performance Monitor or PerfView, and limiting telemetry traces.
+> Monitoring Business Central server events on-premises covers admin, operational, debug and trace events, and how to view them in Event Viewer or PowerShell. It also covers collecting .etl trace data with Logman, Performance Monitor or PerfView, and limiting telemetry trace events.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Administration](../../administration.md) > [Monitoring Business Central server](../monitoring-business-central-server.md) > Monitoring server events on-premises · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Administration](../../administration.md) > [Monitoring Business Central server](../monitoring-business-central-server.md) > Monitoring server events on-premises · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Business Central server uses Event Tracing for Windows to record events that help diagnose conditions and troubleshoot performance. Events are grouped into channels (Admin, Operational, Debug) in Windows Event logs. They cover SQL connections, service startup and shutdown, tenant mounting, authentication, certificate monitoring and licensing violations. Trace events add SQL statements, service calls, AL function execution and telemetry.
+Business Central Server uses Event Tracing for Windows to record events that help diagnose conditions and troubleshoot performance. Events are grouped into channels (Admin, Operational, Debug) in Windows Event logs. Server events cover SQL connections, service startup and shutdown, tenant mounting, authentication, certificate monitoring and licensing violations. Trace events cover SQL statements, service calls, AL function execution and telemetry.
 
-Start with the overview page and the server events reference to learn the channels and event categories. To read events, use Event Viewer (with filtering, including XML filters) or the Get-WinEvent cmdlet in PowerShell. For deeper analysis, the trace event reference lists the Microsoft-DynamicsNAV-Server and Microsoft-DynamicsNAV-Common providers and their hexadecimal keyword filters. Three tools can collect that data into .etl files: Logman, Performance Monitor (Data Collector Sets) and PerfView.
+Start with the overview page and the server events reference to learn the channels and event categories. Then choose a viewing method: Event Viewer, where you can filter by tenant, instance, severity and time, or the Get-WinEvent cmdlet in PowerShell.
 
-If telemetry traces are too noisy, a separate page explains how to turn them off or limit them with the Diagnostic Trace Level setting.
+For deeper analysis, trace events from the Microsoft-DynamicsNAV-Server and Microsoft-DynamicsNAV-Common providers can be collected into .etl files. Three tools are described: Logman, Performance Monitor (Data Collector Sets) and PerfView. Each one uses keyword filters to select event types. A separate page explains how to turn off or limit telemetry trace events.
 
 ## Key points
 
-- Events are grouped into Admin, Operational and Debug channels in Windows Event logs.
-- Server events include SQL connection issues, service start and stop, tenant mounting, authentication, certificate monitoring and licensing violations.
-- Trace events come from the Microsoft-DynamicsNAV-Server and Microsoft-DynamicsNAV-Common providers and are filtered with hexadecimal keywords.
-- Trace events cover SQL statements, service calls, AL function execution, telemetry and session tracking.
-- Event Viewer supports event filtering, including XML filtering.
-- PowerShell's Get-WinEvent cmdlet reads instance events and trace events from logs and event tracing files.
-- Logman, Performance Monitor Data Collector Sets and PerfView each collect trace data into .etl files.
-- Set the Diagnostic Trace Level in CustomSettings.config or with Set-NAVServerConfiguration to turn off or limit telemetry traces.
+- Events are written to Admin, Operational and Debug channels in Windows Event logs, and some go to the Windows Application log.
+- Server events include SQL connection issues, service start and stop, tenant mounting, authentication events, certificate monitoring and licensing violations.
+- Trace events from the Microsoft-DynamicsNAV-Server and Microsoft-DynamicsNAV-Common providers track SQL statements, service calls, AL function execution and telemetry, filtered with hexadecimal keywords.
+- Event Viewer lets you filter events by tenant, instance, severity and time.
+- PowerShell's Get-WinEvent cmdlet reads server instance events and trace events from event logs and trace files.
+- Logman, Performance Monitor (Data Collector Sets with trace buffer and keyword settings) and PerfView each collect trace data into .etl files.
+- The Diagnostic Trace Level setting turns off or limits telemetry trace events. You set it in CustomSettings.config or with Set-NAVServerConfiguration.
+- The Event Viewer monitoring page references version 29.
 
 ## Learn pages
 
@@ -163,7 +163,7 @@ If telemetry traces are too noisy, a separate page explains how to turn them off
   - Limit: Full AL function tracing must be configured separately; statements and nested AL functions are not traced by default.
   - Telemetry trace events provide data about application operations and usage, including both system and custom events sent via SENDTRACETAG.
   - Some trace events have separate start and stop operations to measure duration; monitoring tools like PerfView automatically calculate duration.
-- [Monitoring Business Central Server Events in Event Viewer](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-events-windows-event-log): Learn about using event viewer to monitor Business Central Server instances
+- [Monitoring Business Central Server Events in Event Viewer](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-events-windows-event-log): Use Windows Event Viewer to inspect Business Central Server events, browse channel logs, and filter errors by tenant, server instance, and time range.
   - Server events are recorded in Event Viewer under Applications and Services Logs in Microsoft > DynamicsNAV folder.
   - Admin log contains events for end users and IT administrators indicating problems that need action, such as tenant database failing to mount.
   - Operational log provides information about server operations including ordinary events that do not require action but help diagnose problems.

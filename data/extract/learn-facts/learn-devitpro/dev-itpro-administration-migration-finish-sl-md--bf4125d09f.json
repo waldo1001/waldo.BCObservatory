@@ -1,38 +1,42 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-finish-sl.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-sl",
-  "title": "Complete cloud migration for Dynamics SL",
-  "blob": "d82eb8f9fb1f8cacf4fcac4e7d70cf104b889264",
+  "title": "Complete Dynamics SL Migration to Business Central",
+  "blob": "6aef0fa539d2646b925c7230fd6531c6dfd2c75f",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "step",
-      "text": "Disable cloud migration by opening Cloud Migration Management page and selecting Complete Cloud."
-    },
-    {
-      "kind": "fact",
-      "text": "Disabling cloud migration deletes environment setup but integration runtime remains."
-    },
-    {
-      "kind": "fact",
-      "text": "Integration runtime cloud registration automatically cleans up if unused for couple of weeks."
+      "text": "Select Complete migration with SUPER permission set, then on Cloud Ready Checklist page turn on the confirmation switch."
     },
     {
       "kind": "step",
-      "text": "Create accounts in Microsoft 365 tenant with Business Central license for each on-premises user."
+      "text": "Select Disable Cloud Migration and confirm with Yes to end the migration."
+    },
+    {
+      "kind": "fact",
+      "text": "Integration runtime remains installed after completing cloud migration; cloud registration auto-cleans if unused for weeks."
     },
     {
       "kind": "step",
-      "text": "Create Business Central accounts linked to Microsoft 365 email and assign proper permissions."
+      "text": "Set up users by creating Microsoft 365 accounts with Business Central licenses for each user."
+    },
+    {
+      "kind": "step",
+      "text": "Create Business Central accounts associated with Microsoft 365 email and assign proper permissions to data."
+    },
+    {
+      "kind": "fact",
+      "text": "Dynamics SL user accounts and permissions are not migrated to Business Central online."
     }
   ],
-  "dropped": 0,
+  "dropped": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005028,
+      "cost_usd": 0.004023,
       "pages_in_call": 10
     }
   ]

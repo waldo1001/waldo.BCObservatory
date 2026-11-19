@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:45.537Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -348,6 +348,7 @@ links:
   videos:
     - video/Jbo2DOCd7Pw
     - video/N8Unj6WLB6U
+    - video/PeI-Jv4KVn8
     - video/pEXl-POet_4
     - video/WvG4EOHQuiw
   posts:
@@ -370,7 +371,7 @@ children:
 coverage:
   learn: 56
   code: 35
-  video: 4
+  video: 5
   blog: 1
   guideline: 0
 bc_forms:
@@ -459,6 +460,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 1 (BC28): Filter receipt and shipment lines to quickly find documents you want to invoice (New filters on the Get Receipt Lines, Get Shipment Lines, and Get Service Shipment Lines pages)](../../../posts/yzhums-com/71648.md) (community post): "Get Service Shipment Lines pages to help users quickly locate"
 - [What's New: Integration with Dynamics 365 Field Service (2025 release wave 1)](../../../videos/Jbo2DOCd7Pw.md) (video): "Field Service Integration for Service Management; Dataverse Data Sync Technology; Work Order"
 - [What's New: Service Management (2024 release wave 1)](../../../videos/N8Unj6WLB6U.md) (video): "Service quote; service order; service contract; service items; invoicing policy"
+- [Copilot Managing Maintenance Intake by Zig](../../../videos/PeI-Jv4KVn8.md) (video): "Copilot-powered maintenance intake; Image-based maintenance issue analysis"
 - [What's New: Project and Service Management (2024 release wave 1)](../../../videos/pEXl-POet_4.md) (video): "service archiving; service filing; service contract filing improvements"
 - [What's New: Field Service Integration to Service Management (2024 release wave 2)](../../../videos/WvG4EOHQuiw.md) (video): "Field Service Integration to Service Management (2024 release wave 2)"
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:21.197Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-19T01:01:35.036Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,8 +83,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-telemetry
-    title: Web Service Telemetry
-    date: "2023-06-13"
+    title: Web Service Telemetry in Business Central
+    date: "2026-11-17"
     commit: null
     t: null
     quote: null
@@ -114,6 +114,7 @@ links:
     - change/bcapps/10130
     - change/bcapps/11701
     - change/bcapps/13554
+    - change/bcapps/13622
     - change/bcapps/13824
     - change/bcapps/9725
     - change/bcquality/156
@@ -170,7 +171,7 @@ Once an API exists, the remaining pages cover use and operation. They include ti
 - [Troubleshooting REST API/OData calls](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/dynamics-error-codes): Learn about how to troubleshoot Business Central web service errors of types REST API or OData.
 - [Using filters with API/OData calls](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-filtering): Learn how to use filters with API calls to get targeted information in return.
 - [Web Service Performance (OData, API, and SOAP)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-performance): Learn about how performance of Business Central web services (OData, API, and SOAP)
-- [Web Service Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-telemetry): Learn about how Business Central emits telemetry about web service requests
+- [Web Service Telemetry in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-telemetry): Monitor Business Central web service requests with telemetry to analyze endpoint usage, HTTP failures, access key authentication, and publishing errors.
 
 ## Videos, posts and code changes
 
@@ -179,6 +180,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10130 [ExpenseAgent] Expose VatSpecifications on Expense API Page](../../../../changes/bcapps/10130.md) (code change): "The Expense API page now exposes VAT specifications through a new part"
 - [#11701 [MCP] Hide codeunit APIs from Available APIs dropdown (AB#650771)](../../../../changes/bcapps/11701.md) (code change): "Codeunit API options are hidden from the MCP Configuration Available APIs dropdown"
 - [#13554 Add procedures to import configuration packages and manage table operations in Fabric API](../../../../changes/bcapps/13554.md) (code change): "The Fabric API now supports resetting and removing tables"
+- [#13622 [Main]- Edit in Excel insert fails on Price List Lines (Page 7001) — Unit of Measure Code validated before Product No. is set causing NavTestFieldException on Price Asset (Table 7003)](../../../../changes/bcapps/13622.md) (code change): "Edit in Excel inserts to Price List Lines now validate against the current row values"
 - [#13824 Implement namespace normalization for Fabric Data and Logging in setup pages and platform management](../../../../changes/bcapps/13824.md) (code change): "Fabric namespace fields on the setup pages and API now convert entered values to lowercase"
 - [#9725 [Master] - Slice 626127: [Excise Tax][VENDOR] Multiple Excise Taxes per Item](../../../../changes/bcapps/9725.md) (code change): "Item Excise Tax API page (7417)"
 - [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../../changes/bcquality/156.md) (code change): "2 web-services articles: keep consumer-provided key fields editable on insert"
