@@ -1,0 +1,46 @@
+{
+  "id": "change/bcapps-prs/11026",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Service Line CalcVATAmountLines: count VAT Difference once and clear filters before OnAfterCalcVATAmountLines",
+  "url": "https://github.com/microsoft/BCApps/pull/11026",
+  "published_at": "2026-11-18T16:11:47Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-19T00:15:47.846Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:18:13.260Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "75309123c3c561753cc89d97020eef87ba2f5019:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11026,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "75309123c3c561753cc89d97020eef87ba2f5019",
+    "author": "Franco111000",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "service line calcvatamountlines count vat difference once and clear filters before onaftercalcvatamountlines"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4edc7cb6fe8441c47c13c9f51ac8b073552da6d61fbb06445e442748a6fb4e69"
+}

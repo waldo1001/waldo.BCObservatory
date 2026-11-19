@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13820",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] NO SAF-T changes imported category identifier casing and does not show full identifiers in mapping setup",
+  "url": "https://github.com/microsoft/BCApps/pull/13820",
+  "published_at": "2026-11-18T14:03:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-19T00:15:47.846Z"
+    }
+  },
+  "input_hash": "686905d203119ebb991af032387ec0a5e0565abb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13820,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "686905d203119ebb991af032387ec0a5e0565abb",
+    "author": "AleksanderGladkov",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "no saf t changes imported category identifier casing and does not show full identifiers in mapping setup"
+  }
+}

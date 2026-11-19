@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13999",
+  "number": 13999,
+  "title": "Intrastat export XML performance improvement",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Codeunit 1283 now buffers Data Exch. Field rows in memory and reads from the temporary table instead of querying the database for each XML line and column, eliminating tens of thousands of round trips during large Intrastat exports. Progress dialogs were added to show export status.",
+  "key_points": [
+    "Data Exch. Field rows are loaded once into a temporary record using FindSet, reducing database round trips from thousands to one",
+    "New GetDataExchFieldValue overload reads from the in-memory buffer instead of the database",
+    "Progress dialogs display during read and write phases, with update frequency scaling (1, 10, or 100 lines) based on total line count",
+    "Dialogs only appear when GuiAllowed() is true, so background sessions see no UI changes",
+    "Generated XML output remains identical; existing events and the original GetDataExchFieldValue overload are preserved"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004322,
+    "changes_in_call": 1
+  }
+}

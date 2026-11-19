@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/11660",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix #11377: Prevent invalid FatturaPA CAP values",
+  "url": "https://github.com/microsoft/BCApps/pull/11660",
+  "published_at": "2026-11-18T21:25:03Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-19T00:15:47.846Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:17:56.653Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-19T00:18:11.373Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004112
+    },
+    "linked": {
+      "at": "2026-11-19T00:18:11.476Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-19T00:18:11.480Z",
+      "path": "content/changes/bcapps/11660.md"
+    }
+  },
+  "input_hash": "2c0357aaf61ccc8e94cd3f519bf375c5d4bc047f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11660,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2c0357aaf61ccc8e94cd3f519bf375c5d4bc047f",
+    "author": "marcus905",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "fix 11377 prevent invalid fatturapa cap values"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4a330fb6eaae56fd86f6fc19cff6d1b8cc6a5e27ad717167bf7e463a8a49d027"
+}

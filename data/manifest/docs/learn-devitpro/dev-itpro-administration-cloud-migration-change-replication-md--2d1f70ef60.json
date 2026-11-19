@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Change the way data is replicated to Business Central online",
+  "title": "Change Cloud Migration Replication in Business Central Online",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-change-replication",
-  "published_at": "2024-01-29T14:53:25.000Z",
+  "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,48 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:54.727Z",
-      "blob": "3657c20b06320ee42b0bf0dfdc06dba02dceade6",
-      "words": 729,
+      "at": "2026-11-19T00:17:55.424Z",
+      "blob": "df44314b2c9dba9442c9c4e2199669fce965f350",
+      "words": 746,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:45:39.992Z",
+      "at": "2026-11-19T00:18:11.196Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002917
+      "objects": 2,
+      "cost_usd": 0.004219
     },
     "summarized": {
-      "at": "2026-10-06T19:45:40.062Z",
+      "at": "2026-11-19T00:18:11.197Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:45:40.063Z",
+      "at": "2026-11-19T00:18:11.197Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:45:40.064Z",
+      "at": "2026-11-19T00:18:11.198Z",
       "page": false
     }
   },
-  "input_hash": "3657c20b06320ee42b0bf0dfdc06dba02dceade6",
+  "input_hash": "df44314b2c9dba9442c9c4e2199669fce965f350",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/cloud-migration-change-replication.md",
-    "description": "Learn how to use the replication properties to include or exclude specific tables from cloud migration.",
-    "ms_date": "2023-12-07",
+    "description": "Learn how to include or exclude tables from Business Central cloud migration and control whether replication preserves or replaces online data.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 729,
+    "ai_usage": "ai-assisted",
+    "words": 746,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5f88b150a6717e8b0aaa602218fa66b7a81e434b8b21b1ce0b3fa8c1c60674e8"
+  "output_hash": "e83c20392421b22cd3df562bb4dc53d01a7a585ac225f55955f744d7606daa11"
 }

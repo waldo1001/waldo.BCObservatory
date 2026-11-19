@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13999,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13999",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-18T17:18:09Z",
+  "merge_commit_sha": "6d8ae888461a43e340a0e1428b79b613f48ce7f8",
+  "author": "VolodySyn",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Intrastat export XML performance improvement",
+  "body_hash": "f339299e1f41c8243304374335daa9c8d8f6b57e13dcd53003dd109985fd25f5",
+  "fixes_issues": [],
+  "work_items": [
+    658967
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/ExportGenericXML.Codeunit.al",
+      "status": "modified",
+      "additions": 77,
+      "deletions": 8,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 77,
+    "deletions": 8,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/ExportGenericXML.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1283",
+        "type": "codeunit",
+        "id": 1283,
+        "name": "Export Generic XML",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1283"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

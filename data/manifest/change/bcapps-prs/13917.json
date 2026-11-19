@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13917",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main][ALL-E] Posting a Sales Credit Memo with a different Unit of Measure does not convert the quantity before updating the originating Sales Order (Blanket Sales Order is updated correctly)",
+  "url": "https://github.com/microsoft/BCApps/pull/13917",
+  "published_at": "2026-11-18T12:09:40Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-19T00:15:47.846Z"
+    }
+  },
+  "input_hash": "6d987a0e264b9b982d90703ec24922161f5a76c9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13917,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6d987a0e264b9b982d90703ec24922161f5a76c9",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "all e posting a sales credit memo with a different unit of measure does not convert the quantity before updating the originating sales order blanket sales order is updated correctly"
+  }
+}

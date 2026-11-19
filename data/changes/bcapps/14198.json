@@ -1,0 +1,234 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14198,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14198",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-18T21:47:49Z",
+  "merge_commit_sha": "a0abd2e8e7cd71bdbf7ceb5db3f0a4cec87d8466",
+  "author": "qasimikram",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[SLS] Update accuracy prompts for GPT-5.6 Ceres migration",
+  "body_hash": "7b4f26783d013d30d8ff57669da0ff66a596f0f8262426122cf8ae3f7a924354",
+  "fixes_issues": [],
+  "work_items": [
+    659533,
+    659623
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/.resources/BCSLSAttachmentTaskPrompt.md",
+      "status": "added",
+      "additions": 33,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/.resources/BCSLSGetProductFromCsvTemplateUserInputPrompt.md",
+      "status": "added",
+      "additions": 2,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/.resources/BCSLSMagicFunctionPrompt.json",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/.resources/BCSLSParseCsvPrompt.json",
+      "status": "added",
+      "additions": 68,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/.resources/BCSLSSearchItemsWithFiltersPrompt.json",
+      "status": "added",
+      "additions": 105,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/.resources/BCSLSTaskPrompt.md",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/SLSPrompts.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/SalesAzureOpenAITools/FunctionsImpl/SearchItemsWithFiltersFunc.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/Search/Search.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/app.json",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/test/.resources/Datasets/DocLookupPromptTest.jsonl",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 11,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/test/.resources/Datasets/ItemEntitySearch.jsonl",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 20,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/test/.resources/Datasets/MagicFunctionPromptTest.jsonl",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/test/.resources/Datasets/SearchItemWithinDocument.jsonl",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/test/.resources/Datasets/SearchSplitItemPromptTestDataset.jsonl",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 5,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/test/.resources/SLSExtractionEvaluatorPrompt.md",
+      "status": "added",
+      "additions": 47,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/test/AI Tests/ItemEntitySearch.Codeunit.al",
+      "status": "modified",
+      "additions": 41,
+      "deletions": 19,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/test/AI Tests/MagicFunctionPromptTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/test/AI Tests/SLSPromptTest.Codeunit.al",
+      "status": "modified",
+      "additions": 115,
+      "deletions": 87,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/test/DocumentLookupTest.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/test/SLSTestUtility.Codeunit.al",
+      "status": "modified",
+      "additions": 65,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/test/SearchItemTest.Codeunit.al",
+      "status": "modified",
+      "additions": 154,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 22,
+    "additions": 743,
+    "deletions": 179,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesLinesSuggestions/app/SLSPrompts.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7276",
+        "type": "codeunit",
+        "id": 7276,
+        "name": "SLS Prompts",
+        "app": "SalesLinesSuggestions",
+        "cc": "w1",
+        "page": "codeunit/7276"
+      },
+      {
+        "path": "src/Apps/W1/SalesLinesSuggestions/app/SalesAzureOpenAITools/FunctionsImpl/SearchItemsWithFiltersFunc.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7291",
+        "type": "codeunit",
+        "id": 7291,
+        "name": "Search Items With Filters Func",
+        "app": "SalesLinesSuggestions",
+        "cc": "w1",
+        "page": "codeunit/7291"
+      },
+      {
+        "path": "src/Apps/W1/SalesLinesSuggestions/app/Search/Search.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7282",
+        "type": "codeunit",
+        "id": 7282,
+        "name": "Search",
+        "app": "SalesLinesSuggestions",
+        "cc": "w1",
+        "page": "codeunit/7282"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "SalesLinesSuggestions"
+  ]
+}

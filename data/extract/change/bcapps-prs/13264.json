@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13264",
+  "number": 13264,
+  "title": "implement support for SAF-T 1.40",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Support for SAF-T 1.40 format in Norwegian localization adds handling for new long monetary types and restructured tax amount fields for foreign currency scenarios.",
+  "key_points": [
+    "New SAFlongmonetaryType introduced for SAF-T 1.40",
+    "CurrencyAmount and ExchangeRate now use SAFlongmonetaryType",
+    "NOK amount structure updated with DebitTaxAmount and CreditTaxAmount for foreign-currency tax scenarios",
+    "New GenerateSAFT14File codeunit added to handle 1.40 format generation",
+    "Tests added for new SAF-T 1.40 XML structure"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "New SAFlongmonetaryType, CurrencyAmount changed to SAFlongmonetaryType, ExchangeRate changed to SAFlongmonetaryType, new NOK amount structure DebitTaxAmount / CreditTaxAmount.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004722,
+    "changes_in_call": 1
+  }
+}

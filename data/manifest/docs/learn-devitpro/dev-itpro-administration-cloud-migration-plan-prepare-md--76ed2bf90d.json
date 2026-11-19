@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Prepare and plan for cloud migration from Business Central on-premises",
+  "title": "Plan and Prepare for Business Central Cloud Migration",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare",
-  "published_at": "2026-06-19T12:45:51.000Z",
+  "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:23.234Z",
-      "blob": "b0f4c2fe8450ab3010fc2bc440cc4ce67f1f6c8c",
-      "words": 1948,
+      "at": "2026-11-19T00:18:11.534Z",
+      "blob": "c770b2181aea4d62631baba60f04613bb0af9a4a",
+      "words": 2004,
       "forms": 0
     },
     "extracted": {
@@ -38,23 +38,25 @@
       "page": false
     }
   },
-  "input_hash": "b0f4c2fe8450ab3010fc2bc440cc4ce67f1f6c8c",
+  "input_hash": "c770b2181aea4d62631baba60f04613bb0af9a4a",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/cloud-migration-plan-prepare.md",
     "description": "This article provides recommendations to help you define your cloud migration strategy and get environments and users ready for cloud migration.",
-    "ms_date": "2026-05-23",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1948,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 2004,
+    "identifiers": [
+      "ReplicateData"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ca04d23d4f628d520858e88f03792f55aa993cb1a2068ba31c6423bba630fe16"
+  "output_hash": "c770b2181aea4d62631baba60f04613bb0af9a4a"
 }

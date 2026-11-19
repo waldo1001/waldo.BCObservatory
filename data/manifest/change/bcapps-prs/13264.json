@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13264",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "implement support for SAF-T 1.40",
+  "url": "https://github.com/microsoft/BCApps/pull/13264",
+  "published_at": "2026-11-18T22:45:27Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-19T00:15:47.846Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:17:44.561Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 11,
+      "objects": 10,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-19T00:17:49.084Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004722
+    },
+    "linked": {
+      "at": "2026-11-19T00:17:49.228Z",
+      "objects": 10,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-19T00:17:49.349Z",
+      "path": "content/changes/bcapps/13264.md"
+    }
+  },
+  "input_hash": "de807a07ed87c73bf4451ae85c7d60b2b27887e3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13264,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "de807a07ed87c73bf4451ae85c7d60b2b27887e3",
+    "author": "AndersLarsenMicrosoft",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "implement support for saf t 1 40"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "96ef2c39538c75b4f0c97627a4c98a23979ef864d426a0793f3ad4d7a92421e1"
+}

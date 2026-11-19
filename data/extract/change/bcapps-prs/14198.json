@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14198",
+  "number": 14198,
+  "title": "[SLS] Update accuracy prompts for GPT-5.6 Ceres migration",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Sales Lines Suggestions prompts and accuracy evaluations are updated for GPT-5.6 Ceres migration, with six task and tool prompts now packaged as app resources and semantic judgment replacing keyword matching for product meaning detection.",
+  "key_points": [
+    "Six normal prompts packaged as app resources via NavApp.GetResourceAsText instead of Key Vault secrets",
+    "Safety and meta prompts remain in Key Vault for central management",
+    "Semantic evaluation with GPT-5.6 Ceres judge replaces keyword/feature matching for product meaning",
+    "Whole-message fallback policy: mixed unsupported and supported requests route only to magic_function",
+    "Quantities preserved including zero and fractions, datasets updated for routing, extraction and confidence checks"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": "Update Sales Lines Suggestions prompts, quantity handling and accuracy evaluations for the GPT-5.6 Ceres migration.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005183,
+    "changes_in_call": 1
+  }
+}

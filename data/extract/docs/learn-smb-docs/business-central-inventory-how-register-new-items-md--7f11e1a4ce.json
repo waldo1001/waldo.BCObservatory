@@ -2,21 +2,22 @@
   "item_id": "docs/learn-smb-docs/business-central/inventory-how-register-new-items.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-register-new-items",
   "title": "Create item cards for goods or services",
-  "blob": "4d2e6bb107a8be6e90fde98abb6809851dd654c9",
-  "summary": "Create and manage item cards for goods or services, including setup of item types, costing methods, pricing, replenishment, variants, and substitutions in Business Central inventory.",
+  "blob": "b889b4fd780e15a5d7d962a29fe3cbdd02e75040",
+  "summary": "Register new items by creating item cards to represent goods or services your business trades. Configure item types, costing methods, templates, substitutions, pricing, replenishment, vendors, and warehouse settings.",
   "systems": [
     "inventory",
     "purchasing",
-    "sales"
+    "warehouse"
   ],
   "topics": [
-    "items",
-    "inventory",
     "item setup",
-    "product management",
-    "costing",
-    "variants",
-    "pricing"
+    "item card",
+    "item types",
+    "inventory management",
+    "costing methods",
+    "item templates",
+    "pricing",
+    "replenishment"
   ],
   "objects": [
     {
@@ -29,6 +30,14 @@
     },
     {
       "type": "page",
+      "name": "Default Dimensions"
+    },
+    {
+      "type": "page",
+      "name": "Average Cost Calc. Overview"
+    },
+    {
+      "type": "page",
       "name": "Item Substitution Entry"
     },
     {
@@ -38,25 +47,19 @@
     {
       "type": "page",
       "name": "Item Vendor Catalog"
-    },
-    {
-      "type": "page",
-      "name": "Default Dimensions"
-    },
-    {
-      "type": "page",
-      "name": "Average Cost Calc. Overview"
     }
   ],
   "features": [
-    "item types",
+    "item types (inventory, non-inventory, service)",
     "costing methods",
     "item templates",
     "item substitutions",
-    "pricing and discounts",
-    "vendor management",
-    "inventory tracking",
-    "warehouse management"
+    "special pricing and discounts",
+    "replenishment system selection",
+    "bills of materials",
+    "warehouse management fields",
+    "supply planning parameters",
+    "vendor management"
   ],
   "versions": [],
   "parts": 1,
@@ -65,8 +68,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.009844,
-      "pages_in_call": 5
+      "cost_usd": 0.005894,
+      "pages_in_call": 1
     }
   ]
 }

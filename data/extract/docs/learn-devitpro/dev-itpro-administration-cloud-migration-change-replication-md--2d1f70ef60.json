@@ -1,26 +1,40 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-change-replication.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-change-replication",
-  "title": "Change the way data is replicated to Business Central online",
-  "blob": "3657c20b06320ee42b0bf0dfdc06dba02dceade6",
-  "summary": "Guide for changing data replication settings in cloud migration to Business Central online, including which tables to migrate and whether to preserve existing online data.",
+  "title": "Change Cloud Migration Replication in Business Central Online",
+  "blob": "df44314b2c9dba9442c9c4e2199669fce965f350",
+  "summary": "Change how specific tables are replicated during cloud migration in Business Central online, including whether to replace full tables or preserve existing cloud data.",
   "systems": [
     "administration",
-    "integration"
+    "integration",
+    "platform"
   ],
   "topics": [
     "cloud migration",
     "data replication",
-    "table mapping",
-    "data preservation"
+    "tenant",
+    "on-premises",
+    "table configuration"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "Select tables to migrate"
+    }
+  ],
   "features": [
-    "replicate data",
-    "preserve cloud data",
-    "table selection",
-    "default settings",
-    "change history"
+    "Change how data is replicated",
+    "Include or exclude tables from migration",
+    "Preserve cloud data option",
+    "Replace full table data",
+    "View changed records",
+    "Reset to default settings",
+    "View change history",
+    "Filter by company and table name"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002917,
-      "pages_in_call": 8
+      "cost_usd": 0.004219,
+      "pages_in_call": 1
     }
   ]
 }

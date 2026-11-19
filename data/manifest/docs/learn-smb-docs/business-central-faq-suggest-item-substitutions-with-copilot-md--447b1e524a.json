@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "FAQ for suggest item substitutions with Copilot",
   "url": "https://learn.microsoft.com/dynamics365/business-central/faq-suggest-item-substitutions-with-copilot",
-  "published_at": "2026-10-05T08:46:22.000Z",
+  "published_at": "2026-11-18T12:57:02.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,48 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.355Z",
-      "blob": "c3dfac4bd6420b14816693f004482830cc25e7cf",
-      "words": 929,
+      "at": "2026-11-19T00:17:33.092Z",
+      "blob": "1225388823d6c392718c4f7e2b9f1f9d4474620c",
+      "words": 953,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:01:37.572Z",
+      "at": "2026-11-19T00:17:47.345Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.007053
+      "objects": 1,
+      "cost_usd": 0.004614
     },
     "summarized": {
-      "at": "2026-10-06T13:02:45.590Z",
+      "at": "2026-11-19T00:17:47.346Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:02:45.590Z",
+      "at": "2026-11-19T00:17:47.347Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:02:45.591Z",
+      "at": "2026-11-19T00:17:47.347Z",
       "page": false
     }
   },
-  "input_hash": "c3dfac4bd6420b14816693f004482830cc25e7cf",
+  "input_hash": "1225388823d6c392718c4f7e2b9f1f9d4474620c",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/faq-suggest-item-substitutions-with-copilot.md",
     "description": "This FAQ provides information about an AI feature in Business Central.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-11-16",
     "ms_topic": "faq",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 929,
+    "ai_usage": "ai-assisted",
+    "words": 953,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8a1910feb081202c23627daa1ec2296acf9bb5ac9d72b920d38226a91716a9b0"
+  "output_hash": "c9ffe9334f7779640fe7a5385b1249d88a920570354edf0f39c0cc19bc509862"
 }

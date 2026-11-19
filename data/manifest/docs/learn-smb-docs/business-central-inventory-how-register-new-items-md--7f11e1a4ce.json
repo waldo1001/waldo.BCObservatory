@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Create item cards for goods or services",
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-register-new-items",
-  "published_at": "2026-05-06T01:55:00.000Z",
+  "published_at": "2026-11-18T12:57:02.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,39 +13,39 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.935Z",
-      "blob": "4d2e6bb107a8be6e90fde98abb6809851dd654c9",
-      "words": 1432,
+      "at": "2026-11-19T00:17:43.947Z",
+      "blob": "b889b4fd780e15a5d7d962a29fe3cbdd02e75040",
+      "words": 1369,
       "forms": 15
     },
     "extracted": {
-      "at": "2026-10-06T18:41:29.522Z",
+      "at": "2026-11-19T00:17:49.367Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 7,
-      "cost_usd": 0.009844
+      "cost_usd": 0.005894
     },
     "summarized": {
-      "at": "2026-10-06T18:41:29.530Z",
+      "at": "2026-11-19T00:17:49.368Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:41:29.531Z",
+      "at": "2026-11-19T00:17:49.369Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:41:29.533Z",
+      "at": "2026-11-19T00:17:49.369Z",
       "page": false
     }
   },
-  "input_hash": "4d2e6bb107a8be6e90fde98abb6809851dd654c9",
+  "input_hash": "b889b4fd780e15a5d7d962a29fe3cbdd02e75040",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/inventory-how-register-new-items.md",
     "description": "You create item cards for services that you sell as hours and for physical products. Examples include assembly items and finished goods that you sell from your inventory.",
-    "ms_date": "2026-04-07",
+    "ms_date": "2026-11-16",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -133,11 +133,11 @@
       "item substitution"
     ],
     "ai_usage": null,
-    "words": 1432,
+    "words": 1369,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e527f97e5bda4bdca4a17860299e0ebe977e23296fb9643541cb7dd0971c9dd2"
+  "output_hash": "020e6e271fa8d2e0231b2f33ed3eb1c1f592544bb975086e35babf9e7bd70056"
 }

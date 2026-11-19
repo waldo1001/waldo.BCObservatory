@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/14218",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Show notification only to super users in env. where copilot substitution suggestion was used",
+  "url": "https://github.com/microsoft/BCApps/pull/14218",
+  "published_at": "2026-11-18T14:54:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-19T00:15:47.846Z"
+    }
+  },
+  "input_hash": "bf02d06cee934fdbc359adf7debf78203e3354bc:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14218,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "bf02d06cee934fdbc359adf7debf78203e3354bc",
+    "author": "VolodySyn",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "show notification only to super users in env where copilot substitution suggestion was used"
+  }
+}

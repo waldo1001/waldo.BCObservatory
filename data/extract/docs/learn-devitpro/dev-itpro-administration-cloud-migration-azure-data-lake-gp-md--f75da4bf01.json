@@ -1,19 +1,20 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/cloud-migration-azure-data-lake-gp.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-azure-data-lake-gp",
-  "title": "Move Dynamics GP database to Azure Data Lake",
-  "blob": "d3024e936d70e248448833ecb574c204c4c98529",
-  "summary": "Moving Dynamics GP database to Azure Data Lake creates a cloud copy of the on-premises database for historical data access after migration. Requires Azure Data Lake Gen2 storage account and uses Cloud Migration Management to configure and monitor the data move.",
+  "title": "Copy Dynamics GP Data to Azure Data Lake Storage",
+  "blob": "988721632070a8f38c087c580b4bf0f263e37cd0",
+  "summary": "Copy Dynamics GP data to Azure Data Lake Storage for historical reference after migrating to Business Central online. This optional process preserves data not migrated to Business Central by creating a copy in Azure storage.",
   "systems": [
     "integration",
     "administration"
   ],
   "topics": [
-    "dynamics gp migration",
     "azure data lake",
     "cloud migration",
+    "dynamics gp",
+    "data copy",
     "historical data",
-    "storage account"
+    "azure storage"
   ],
   "objects": [
     {
@@ -26,11 +27,13 @@
     }
   ],
   "features": [
-    "Azure Data Lake Gen2 storage",
-    "database copy",
-    "gp-database folder",
-    "series folder structure",
-    "historical data access"
+    "Azure Data Lake Storage Gen2 integration",
+    "Cloud migration setup",
+    "Data replication",
+    "Storage account access",
+    "SUPER permission set requirement",
+    "GP database folder structure",
+    "Third-party file handling"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006174,
-      "pages_in_call": 8
+      "cost_usd": 0.004036,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/yzhums-com/77475",
+  "url": "https://yzhums.com/77475/",
+  "title": "Dynamics 365 Business Central: Enter Company Details quickly using information from Microsoft 365",
+  "source": "yzhums-com",
+  "published_at": "2026-11-17T01:31:32.000Z",
+  "words": 274,
+  "summary": "Business Central can automatically populate the Company Information page by pulling organization details from Microsoft 365, saving time during initial company setup. This feature uses the Assisted Setup wizard to retrieve billing account information already maintained in Microsoft 365.",
+  "key_points": [
+    "Company details can be auto-filled from Microsoft 365 billing account information through Assisted Setup",
+    "Users must verify the automatically populated data before proceeding",
+    "Additional company information like logo and bank details can be manually added after the initial setup",
+    "Business Central companies typically reside in the same Microsoft 365 tenant"
+  ],
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "company setup",
+    "assisted setup",
+    "microsoft 365 integration",
+    "company information"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Company Setup"
+    }
+  ],
+  "features": [
+    "Assisted Setup",
+    "Company Details Import",
+    "Microsoft 365 Integration"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Did you know that you can actually pull this information directly from the details already maintained in Microsoft 365?",
+      "why_it_matters": "Highlights the key capability of integrating Microsoft 365 data to streamline company setup in Business Central"
+    },
+    {
+      "text": "The information on this page was downloaded from Microsoft 365. Before you proceed, verify that it's correct.",
+      "why_it_matters": "Emphasizes the importance of validation despite automation, ensuring data accuracy during setup"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00445,
+    "posts_in_call": 1
+  }
+}

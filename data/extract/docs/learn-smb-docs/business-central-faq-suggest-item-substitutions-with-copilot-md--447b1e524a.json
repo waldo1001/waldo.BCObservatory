@@ -2,25 +2,34 @@
   "item_id": "docs/learn-smb-docs/business-central/faq-suggest-item-substitutions-with-copilot.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/faq-suggest-item-substitutions-with-copilot",
   "title": "FAQ for suggest item substitutions with Copilot",
-  "blob": "c3dfac4bd6420b14816693f004482830cc25e7cf",
-  "summary": "Suggest item substitutions with Copilot helps identify similar or interchangeable products to reduce duplicates and streamline product portfolio management. Use this page to understand the substitution feature's capabilities, limitations, and best practices for responsible use.",
+  "blob": "1225388823d6c392718c4f7e2b9f1f9d4474620c",
+  "summary": "FAQ describing the retired Copilot feature for suggesting item substitutions in Business Central, which helped identify similar items for substitution by searching item descriptions and using embeddings. The feature is no longer available; users should refer to manual substitution setup instead.",
   "systems": [
     "inventory",
     "copilot"
   ],
   "topics": [
-    "item management",
-    "product substitution",
-    "similar items",
-    "duplication prevention",
-    "ai suggestions"
+    "copilot",
+    "item substitutions",
+    "product management",
+    "ai",
+    "responsible ai",
+    "data movement",
+    "limitations"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Substitution Entry"
+    }
+  ],
   "features": [
-    "Item substitution suggestions",
-    "Similarity search using embeddings",
-    "Keyword and synonym extraction",
-    "Multi-table product search"
+    "suggest item substitutions",
+    "item search using embeddings",
+    "keyword extraction",
+    "synonym identification",
+    "AI-powered suggestions",
+    "feedback mechanism"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007053,
-      "pages_in_call": 5
+      "cost_usd": 0.004614,
+      "pages_in_call": 1
     }
   ]
 }

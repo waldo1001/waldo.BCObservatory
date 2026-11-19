@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13757",
+  "number": 13757,
+  "title": "Fix stale report filename captions and cover language resolution",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Fixed a bug where the report filename resolver incorrectly returned true for nonexistent reports when the output value was already populated, and added language resolution coverage with regression tests.",
+  "key_points": [
+    "Clear output value before metadata lookup so nonexistent/zero report IDs correctly return false instead of true",
+    "Report name caption now reads metadata under the selected GlobalLanguage through Language.GetLanguageIdOrDefault",
+    "Nine new AL regression tests cover explicit language selection, blank-code company defaults, language restoration, translated captions, and nonexistent reports",
+    "Two test-only report objects and checked-in German translation resource enable testing without relying on installed Base Application translations",
+    "Implementation comment clarified to distinguish metadata resource selection from report's effective rendering language"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Clear the output before resolving so nonexistent/zero report IDs return false and empty output.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00436,
+    "changes_in_call": 1
+  }
+}

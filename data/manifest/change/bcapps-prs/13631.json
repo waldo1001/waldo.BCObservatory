@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13631",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 646068 - Add support for disabling incremental exchange gain/loss posting in General Ledger Setup",
+  "url": "https://github.com/microsoft/BCApps/pull/13631",
+  "published_at": "2026-11-18T06:14:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-19T00:15:47.846Z"
+    }
+  },
+  "input_hash": "79cad70180a1fe394cef4d1f12e52315082120ea:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13631,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "79cad70180a1fe394cef4d1f12e52315082120ea",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 646068 add support for disabling incremental exchange gain loss posting in general ledger setup"
+  }
+}

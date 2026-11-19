@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13959",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 654031: Partner feedback: Mark \"Custom Report Layouts\" page caption with '(Obsoleted)' and also add a notification OnOpen",
+  "url": "https://github.com/microsoft/BCApps/pull/13959",
+  "published_at": "2026-11-18T02:52:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-19T00:15:47.846Z"
+    }
+  },
+  "input_hash": "b43d7f7499f3c31386829fb692d99ea1ac2db263:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13959,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b43d7f7499f3c31386829fb692d99ea1ac2db263",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 654031 partner feedback mark custom report layouts page caption with obsoleted and also add a notification onopen"
+  }
+}

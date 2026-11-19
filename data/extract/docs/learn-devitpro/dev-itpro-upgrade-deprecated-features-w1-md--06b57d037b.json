@@ -1,144 +1,162 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/upgrade/deprecated-features-w1.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1",
-  "title": "Deprecated Features in the application",
-  "blob": "18280a514066f852f1b12319c33a7d86a328f031",
-  "summary": "Deprecated features in Business Central W1 version including removals and replacements across multiple release waves. Use to understand which features are ending, when they're being removed, and what alternatives are available.",
+  "title": "Deprecated features in the application",
+  "blob": "0c8990dc92f446d7fa757dd166a3084892fcdb16",
+  "summary": "Deprecated features in Business Central W1 version covering removals and replacements across release waves 2027, 2026, 2025, 2024, 2023, 2022, 2021, 2020, and 2019 including AMC Fundamentals, Peppol formats, legacy reports, and APIs.",
   "systems": [
-    "platform",
-    "finance",
-    "sales"
+    "administration",
+    "reporting",
+    "integration"
   ],
   "topics": [
-    "deprecation",
-    "obsolete",
+    "deprecated features",
+    "obsolete objects",
+    "api migration",
     "feature removal",
-    "migration",
-    "api",
-    "power bi",
-    "excel reports",
-    "peppol"
+    "release waves",
+    "breaking changes"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "Manufacturing Setup"
-    },
-    {
-      "type": "page",
-      "name": "Inventory Setup"
-    },
-    {
-      "type": "page",
-      "name": "Location Card"
-    },
-    {
-      "type": "page",
-      "name": "Feature Management"
-    },
-    {
-      "type": "page",
-      "name": "Contoso Coffee demo data"
-    },
-    {
-      "type": "enum",
-      "name": "Company Data Type (Internal)"
-    },
-    {
-      "type": "enum",
-      "name": "Company Data Type (Sandbox)"
-    },
-    {
-      "type": "enum",
-      "name": "Company Data Type (Production)"
+      "type": "codeunit",
+      "name": "1799 Import Config. Package File"
     },
     {
       "type": "codeunit",
-      "name": "Import Config. Package File"
+      "name": "1800 Assisted Company Setup"
     },
     {
       "type": "codeunit",
-      "name": "Assisted Company Setup"
+      "name": "1805 Import Config. Package Files"
     },
     {
       "type": "codeunit",
-      "name": "Import Config. Package Files"
-    },
-    {
-      "type": "codeunit",
-      "name": "Log Table Permissions"
-    },
-    {
-      "type": "codeunit",
-      "name": "Log Table Data Permissions"
-    },
-    {
-      "type": "codeunit",
-      "name": "Document Service Management"
+      "name": "9510 Document Service Management"
     },
     {
       "type": "table",
-      "name": "Assisted Company Setup Status"
-    },
-    {
-      "type": "table",
-      "name": "Invoice Post. Buffer"
+      "name": "1802 Assisted Company Setup Status"
     },
     {
       "type": "page",
-      "name": "Company Creation Wizard"
+      "name": "9192 Company Creation Wizard"
     },
     {
       "type": "page",
-      "name": "Business Manager"
+      "name": "9551 Document Service Config"
     },
     {
       "type": "page",
-      "name": "Accountant"
+      "name": "621 Intercompany Setup"
     },
     {
       "type": "page",
-      "name": "Permission Sets"
+      "name": "653 Intercompany Setup"
     },
     {
-      "type": "page",
-      "name": "Permissions"
+      "type": "enum",
+      "name": "9120 Company Data Type (Internal)"
     },
     {
-      "type": "page",
-      "name": "Expanded Permissions"
+      "type": "enum",
+      "name": "9121 Company Data Type (Sandbox)"
     },
     {
-      "type": "page",
-      "name": "Tenant Permissions"
+      "type": "enum",
+      "name": "9122 Company Data Type (Production)"
     },
     {
-      "type": "page",
-      "name": "Permission Set"
+      "type": "report",
+      "name": "120 Aged Accounts Receivables (Legacy)"
     },
     {
-      "type": "page",
-      "name": "Microsoft SharePoint Connection Setup"
+      "type": "report",
+      "name": "322 Aged Accounts Payable (legacy)"
     },
     {
-      "type": "page",
-      "name": "Bank Reconciliation"
+      "type": "report",
+      "name": "6 Trial Balance (legacy)"
     },
     {
-      "type": "page",
-      "name": "Bank Rec. Worksheet"
+      "type": "report",
+      "name": "9 Trial Balance/Budget (legacy)"
     },
     {
-      "type": "page",
-      "name": "Intercompany Setup"
+      "type": "report",
+      "name": "5600 Fixed Asset Analysis (legacy)"
     },
     {
-      "type": "page",
-      "name": "Subc. Subcontracting Worksheet"
+      "type": "report",
+      "name": "5604 Fixed Asset Details (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "5607 Fixed Asset Projected Value (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "99000759 Work Center List (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "99000760 Machine Center List (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "99000754 Rolled-up Cost Shares (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "99000755 Single-Level Cost Shares (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "99000756 Detailed Calculation (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "99000758 Item BOM Compare list (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "99000783 Work Center Load (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "99000784 Machine Center Load (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "99000785 Work Center Load (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "99000786 Machine Center Load (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "99000767 Prod. Order - Calculation (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "111 Customer - Top 10 List (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "301 Vendor - List (legacy)"
+    },
+    {
+      "type": "report",
+      "name": "305 Vendor - Summary Aging (legacy)"
     },
     {
       "type": "page",
       "name": "Subcontracting Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Subc. Subcontracting Worksheet"
     },
     {
       "type": "report",
@@ -147,113 +165,29 @@
     {
       "type": "report",
       "name": "Subc. Calculate Subcontracts"
-    },
-    {
-      "type": "report",
-      "name": "Aged Accounts Receivables (Legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Aged Accounts Payable (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Trial Balance (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Trial Balance/Budget (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Fixed Asset Analysis (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Fixed Asset Details (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Fixed Asset Projected Value (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Work Center List (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Machine Center List (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Rolled-up Cost Shares (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Single-Level Cost Shares (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Detailed Calculation (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Item BOM Compare list (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Work Center Load (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Machine Center Load (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Prod. Order - Calculation (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Customer - Top 10 List (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Vendor - List (legacy)"
-    },
-    {
-      "type": "report",
-      "name": "Vendor - Summary Aging (legacy)"
-    },
-    {
-      "type": "interface",
-      "name": "Invoice Posting"
     }
   ],
   "features": [
-    "AMC Fundamentals app",
-    "Peppol BIS 2.0 and 2.1",
-    "Peppol BIS 3.0",
-    "Finance reports API",
-    "Analytics API",
-    "Excel reports",
-    "API v1.0",
-    "API v2.0",
-    "Power BI apps",
-    "Intelligent Cloud Insights",
-    "legacy reports",
-    "configuration packages"
+    "AMC Fundamentals app replacement",
+    "Peppol BIS 3.0 migration",
+    "Finance reports API removal",
+    "Excel reports replacement",
+    "API v1.0 to v2.0 migration",
+    "Legacy Power BI apps replacement",
+    "User groups to security groups migration",
+    "Configuration packages removal"
   ],
   "versions": [
     "2027 release wave 1",
     "version 30.0",
+    "December 2026",
+    "version 29.2",
     "2026 release wave 2",
     "2026 release wave 1",
     "version 28.0",
     "version 28.3",
     "2025 release wave 2",
-    "2025 release wave 1",
-    "2024 release wave 2",
-    "update 25.2"
+    "2025 release wave 1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -261,7 +195,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.032735,
+      "cost_usd": 0.032662,
       "pages_in_call": 1
     }
   ]

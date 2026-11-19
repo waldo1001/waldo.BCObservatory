@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Deprecated Features in the application",
+  "title": "Deprecated features in the application",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1",
-  "published_at": "2026-10-26T09:30:18.000Z",
+  "published_at": "2026-11-18T14:01:54.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,48 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-28T09:13:26.553Z",
-      "blob": "18280a514066f852f1b12319c33a7d86a328f031",
-      "words": 5195,
+      "at": "2026-11-19T00:17:33.046Z",
+      "blob": "0c8990dc92f446d7fa757dd166a3084892fcdb16",
+      "words": 5281,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-28T09:13:40.868Z",
+      "at": "2026-11-19T00:17:55.224Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 52,
-      "cost_usd": 0.032735
+      "objects": 37,
+      "cost_usd": 0.032662
     },
     "summarized": {
-      "at": "2026-10-28T09:13:40.869Z",
+      "at": "2026-11-19T00:17:55.225Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-28T09:13:40.871Z",
+      "at": "2026-11-19T00:17:55.225Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-28T09:13:40.872Z",
+      "at": "2026-11-19T00:17:55.226Z",
       "page": false
     }
   },
-  "input_hash": "18280a514066f852f1b12319c33a7d86a328f031",
+  "input_hash": "0c8990dc92f446d7fa757dd166a3084892fcdb16",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/upgrade/deprecated-features-w1.md",
     "description": "Describes the features that have been moved, removed, or replaced in the W1 version.",
-    "ms_date": "2026-02-20",
+    "ms_date": "2026-11-16",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 5195,
+    "words": 5281,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dce093038f7b1ee77ef5bb55b0722c8ae14ee22764c3eb9d6c38c6916e21cc51"
+  "output_hash": "48799fad3c563236feca7c3ca9a91d2c6f4ba734f9cad488933817cd0a29e60a"
 }

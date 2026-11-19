@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Move Dynamics GP database to Azure Data Lake",
+  "title": "Copy Dynamics GP Data to Azure Data Lake Storage",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-azure-data-lake-gp",
-  "published_at": "2024-11-21T09:54:17.000Z",
+  "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,48 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:42.502Z",
-      "blob": "d3024e936d70e248448833ecb574c204c4c98529",
-      "words": 591,
+      "at": "2026-11-19T00:17:53.556Z",
+      "blob": "988721632070a8f38c087c580b4bf0f263e37cd0",
+      "words": 523,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:43:52.200Z",
+      "at": "2026-11-19T00:17:57.582Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.006174
+      "cost_usd": 0.004036
     },
     "summarized": {
-      "at": "2026-10-06T19:44:04.184Z",
+      "at": "2026-11-19T00:18:11.176Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:44:04.185Z",
+      "at": "2026-11-19T00:18:11.177Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:44:04.186Z",
+      "at": "2026-11-19T00:18:11.178Z",
       "page": false
     }
   },
-  "input_hash": "d3024e936d70e248448833ecb574c204c4c98529",
+  "input_hash": "988721632070a8f38c087c580b4bf0f263e37cd0",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/cloud-migration-azure-data-lake-gp.md",
-    "description": "Learn how to create a copy of the Dynamics GP database in Azure Data Lake so that you have it for future reference after the migration.",
-    "ms_date": "2024-02-29",
+    "description": "Copy Dynamics GP data to Azure Data Lake Storage for historical reference, configure the storage account connection, and monitor progress in Business Central.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 591,
+    "ai_usage": "ai-assisted",
+    "words": 523,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ae8fce3e782388e724d57d9724a0a7147ab688b983932b9d4045382c1b87534e"
+  "output_hash": "3d48f2968a2e44cc2881ae998e02b1d3d478ef2f882b0c925891ac8e05fe1ea5"
 }

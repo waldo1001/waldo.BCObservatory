@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "AL boolean operators do not short-circuit",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/boolean-operators-do-not-short-circuit.md",
-  "published_at": "2026-09-09T15:31:03.000Z",
+  "published_at": "2026-11-18T09:17:45.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,17 +13,17 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-29T21:28:35.693Z",
-      "blob": "9c840a78c65c14b66058f2a890a0f286580604ea",
-      "words": 664,
+      "at": "2026-11-19T00:17:33.064Z",
+      "blob": "e2b494a01eef220e8b95aa8aa11f083919742b31",
+      "words": 811,
       "forms": 0
     },
     "published": {
-      "at": "2026-10-29T21:28:35.751Z",
+      "at": "2026-11-19T00:17:43.313Z",
       "path": "content/guidelines/microsoft/knowledge/performance/boolean-operators-do-not-short-circuit.md"
     }
   },
-  "input_hash": "9c840a78c65c14b66058f2a890a0f286580604ea",
+  "input_hash": "e2b494a01eef220e8b95aa8aa11f083919742b31",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -45,7 +45,7 @@
       "early-exit"
     ],
     "ai_usage": null,
-    "words": 664,
+    "words": 811,
     "identifiers": [
       "IsEmpty"
     ],
@@ -82,5 +82,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9c840a78c65c14b66058f2a890a0f286580604ea"
+  "output_hash": "e2b494a01eef220e8b95aa8aa11f083919742b31"
 }

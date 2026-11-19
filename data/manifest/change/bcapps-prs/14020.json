@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14020",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 650215: Direct Transfer route does not populate configured In-Transit Code on transfer order",
+  "url": "https://github.com/microsoft/BCApps/pull/14020",
+  "published_at": "2026-11-18T14:40:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-19T00:15:47.846Z"
+    }
+  },
+  "input_hash": "8a50fc635361e47fc0c2cfd61ed5a0df309c210e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14020,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8a50fc635361e47fc0c2cfd61ed5a0df309c210e",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 650215 direct transfer route does not populate configured in transit code on transfer order"
+  }
+}

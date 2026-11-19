@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13757",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix stale report filename captions and cover language resolution",
+  "url": "https://github.com/microsoft/BCApps/pull/13757",
+  "published_at": "2026-11-18T22:29:53Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-19T00:15:47.846Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:17:50.572Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-19T00:17:55.243Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00436
+    },
+    "linked": {
+      "at": "2026-11-19T00:17:55.388Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-19T00:17:55.393Z",
+      "path": "content/changes/bcapps/13757.md"
+    }
+  },
+  "input_hash": "e743536e5169174263f7b152fa958505e02c5b95:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13757,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e743536e5169174263f7b152fa958505e02c5b95",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix stale report filename captions and cover language resolution"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9fa6ebb4a8a6bca0db4eef748af1db34ae4d3f626522cefc316a1b6d4e184ece"
+}

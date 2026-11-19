@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Estimating the data size in your Business Central online tenant",
+  "title": "Estimate Compressed Data Size for Business Central Online",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-estimate-compressed-data-size",
-  "published_at": "2025-05-06T19:27:26.000Z",
+  "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,50 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.521Z",
-      "blob": "036881b4a9670d3d8521e660afee1ec22c80f753",
-      "words": 153,
+      "at": "2026-11-19T00:17:57.141Z",
+      "blob": "142abb055515e901567854d8d184fdce45657b1c",
+      "words": 154,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:33:47.700Z",
+      "at": "2026-11-19T00:18:11.494Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003903
+      "cost_usd": 0.00345
     },
     "summarized": {
-      "at": "2026-10-06T19:33:47.787Z",
+      "at": "2026-11-19T00:18:11.495Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:33:47.789Z",
+      "at": "2026-11-19T00:18:11.496Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:33:47.794Z",
+      "at": "2026-11-19T00:18:11.496Z",
       "page": false
     }
   },
-  "input_hash": "036881b4a9670d3d8521e660afee1ec22c80f753",
+  "input_hash": "142abb055515e901567854d8d184fdce45657b1c",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/cloud-migration-estimate-compressed-data-size.md",
-    "description": "This article outlines how to estimate the data size in your Business Central online tenant",
-    "ms_date": "2023-11-06",
-    "ms_topic": "concept-article",
+    "description": "Estimate compressed data size for Business Central online before cloud migration by using SQL Server compression estimates for your source tables.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 153,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 154,
+    "identifiers": [
+      "CompressionType"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2a4da56b60584097569344f2b8bf82a783413df255c28b5c5e464684fd755fc0"
+  "output_hash": "a9f13877fbdc9e240859ec42b9980b9bb131a5adb4b381b8c96c49736586cf6b"
 }

@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/14198",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SLS] Update accuracy prompts for GPT-5.6 Ceres migration",
+  "url": "https://github.com/microsoft/BCApps/pull/14198",
+  "published_at": "2026-11-18T21:47:49Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-19T00:15:47.846Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:17:51.938Z",
+      "change_class": "code",
+      "files": 22,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-19T00:17:56.398Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005183
+    },
+    "linked": {
+      "at": "2026-11-19T00:17:56.520Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-19T00:17:56.529Z",
+      "path": "content/changes/bcapps/14198.md"
+    }
+  },
+  "input_hash": "a0abd2e8e7cd71bdbf7ceb5db3f0a4cec87d8466:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14198,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a0abd2e8e7cd71bdbf7ceb5db3f0a4cec87d8466",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "sls update accuracy prompts for gpt 5 6 ceres migration"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7d525364011149af45985c5f14cd1aedfcb5864f99bcc1f25e714ad6b1c870ff"
+}

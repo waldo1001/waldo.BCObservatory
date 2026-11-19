@@ -4,62 +4,56 @@
   "title": "Business Central 2026 release wave 2 (BC29.1): Data mirroring to Microsoft Fabric (No APIs or OData Needed)",
   "source": "yzhums-com",
   "published_at": "2026-11-12T04:08:56.000Z",
-  "words": 1794,
-  "summary": "Business Central 2026 wave 2 introduces data mirroring to Microsoft Fabric, enabling users to select companies and tables for replication into OneLake without requiring APIs or OData. Business Central continuously syncs initial snapshots and ongoing changes in Delta Parquet format for use with Fabric analytics tools, Power BI, and Data Factory.",
+  "words": 1810,
+  "summary": "Business Central 2026 wave 2 introduces data mirroring to Microsoft Fabric, enabling organizations to synchronize selected companies and tables to OneLake for analytics, reporting, and integration with Power BI and Data Factory. The post provides detailed setup instructions including workspace preparation, service principal configuration, and table selection, along with guidance on troubleshooting and monitoring export status.",
   "key_points": [
-    "Data mirroring copies the Business Central companies and tables you select into an open mirrored database in Fabric OneLake, stored in Delta Parquet format",
-    "Authentication uses either a custom Entra app registration or a service principal for the Dynamics 365 Business Central Fabric Export app, and that identity needs at least Contributor access on the Fabric workspace",
-    "Setup happens on the Microsoft Fabric Mirroring Setup page: choose the workspace, add companies and tables, then start continuous synchronization with a configurable interval in minutes",
-    "Before the connection works, an admin must approve the privacy notice and Allow HttpClient Requests must be enabled in Extension Settings",
-    "In the author's test on a standard database, the first export took close to two hours and later runs took about 20 minutes each, with progress visible in Fabric Synchronization Overview"
+    "Data mirroring replicates Business Central data to Microsoft Fabric's OneLake in Delta Parquet format without requiring APIs or OData",
+    "Setup requires creating an open-mirrored database in Fabric and configuring either a custom app registration or using the Microsoft Business Central Fabric Export application",
+    "Administrators must add companies and tables to synchronize, then start continuous exports which run asynchronously with configurable intervals",
+    "Synchronized data becomes available for analytics experiences including Fabric IQ, Power BI, Data Factory, and other Fabric tools",
+    "Initial exports take approximately two hours for standard databases, with subsequent exports completing in around 20 minutes"
   ],
   "systems": [
+    "reporting",
     "integration",
-    "reporting"
+    "platform"
   ],
   "topics": [
     "data mirroring",
     "microsoft fabric",
-    "analytics",
     "onelake",
-    "continuous export",
-    "power bi"
+    "analytics",
+    "power bi",
+    "data synchronization",
+    "setup configuration"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Microsoft Fabric Mirroring Setup"
-    },
-    {
-      "type": "page",
-      "name": "Fabric Synchronization Overview"
-    },
-    {
-      "type": "page",
-      "name": "Privacy Notices Status"
-    },
-    {
-      "type": "page",
-      "name": "Extension Settings"
-    }
-  ],
+  "objects": [],
   "features": [
-    "data mirroring to Fabric",
-    "OneLake integration",
-    "Delta Parquet format",
-    "continuous export",
-    "company and table selection",
-    "synchronization monitoring"
+    "Data mirroring to Microsoft Fabric",
+    "Open mirrored database creation",
+    "Service principal configuration",
+    "Company and table selection",
+    "Continuous export scheduling",
+    "Fabric Synchronization Overview",
+    "Privacy Notices Status page"
   ],
   "versions": [
-    "2026 release wave 2",
-    "BC29.1"
+    "BC29.1",
+    "2026 release wave 2"
   ],
   "language": "en",
   "quotes": [
     {
-      "text": "Data mirroring connects Business Central online to an open mirrored database in Microsoft Fabric. You select the companies and tables to synchronize.",
-      "why_it_matters": "Explains the core capability of selective data replication without requiring APIs."
+      "text": "Data mirroring connects Business Central online to an open mirrored database in Microsoft Fabric.",
+      "why_it_matters": "Explains the core mechanism of the feature and its direct connection model without intermediate APIs"
+    },
+    {
+      "text": "Fabric IQ, Power BI, Data Factory, and other analytics experiences can use the synchronized data without repeatedly reading it from Business Central APIs.",
+      "why_it_matters": "Highlights the performance benefit of storing data in OneLake in analytics-ready format rather than querying APIs repeatedly"
+    },
+    {
+      "text": "An administrator must approve the notice before the connection or synchronization can start.",
+      "why_it_matters": "Identifies a critical administrative gate that must be cleared on the Privacy Notices Status page before feature can function"
     }
   ],
   "trimmed_for_policy": 0,
@@ -67,7 +61,7 @@
   "llm": {
     "model": "claude-haiku-4-5-20251001",
     "cached": false,
-    "cost_usd": 0.008626,
-    "posts_in_call": 3
+    "cost_usd": 0.012634,
+    "posts_in_call": 1
   }
 }

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13991",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main][All-E] Warehouse Pick cannot be updated with newly received quantity after Purchase Receipt has been posted",
+  "url": "https://github.com/microsoft/BCApps/pull/13991",
+  "published_at": "2026-11-18T09:33:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-19T00:15:47.846Z"
+    }
+  },
+  "input_hash": "78dbb62d17b0403a2b7b1c6384db06109fed2d15:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13991,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "78dbb62d17b0403a2b7b1c6384db06109fed2d15",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "all e warehouse pick cannot be updated with newly received quantity after purchase receipt has been posted"
+  }
+}

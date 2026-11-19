@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11660",
+  "number": 11660,
+  "title": "Fix #11377: Prevent invalid FatturaPA CAP values",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "FatturaPA validation now requires domestic CAP (postal code) values to contain exactly five numeric characters, preventing invalid values like '1234A' from being written to the XML schema.",
+  "key_points": [
+    "Validates company and domestic customer post codes before FatturaPA document generation",
+    "Enforces five-digit numeric CAP requirement only for domestic Italian addresses",
+    "Foreign recipient behavior unchanged, still emits '00000' for non-Italian postal codes",
+    "Invalid values reported through existing FatturaPA error validation flow",
+    "Standard Post Code field remains unrestricted for normal Business Central use"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004112,
+    "changes_in_call": 1
+  }
+}

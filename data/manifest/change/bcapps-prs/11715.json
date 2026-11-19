@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11715",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Slice 440258: Fixed Asset Journal Approval",
+  "url": "https://github.com/microsoft/BCApps/pull/11715",
+  "published_at": "2026-11-18T14:03:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-19T00:15:47.846Z"
+    }
+  },
+  "input_hash": "bed52d8a701cd7810534f873dd490f9033d40ca0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11715,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "bed52d8a701cd7810534f873dd490f9033d40ca0",
+    "author": "ViditGupta1277",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "slice 440258 fixed asset journal approval"
+  }
+}
