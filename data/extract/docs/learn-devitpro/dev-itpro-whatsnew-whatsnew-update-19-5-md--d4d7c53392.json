@@ -2,25 +2,28 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-19-5.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-5",
   "title": "Update 19.5 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2",
-  "blob": "1e29b2f484da03b2cd5299fb96efae8eaf152ab5",
-  "summary": "Update 19.5 for Business Central 2021 Release Wave 2 includes hotfixes and localization updates for Norway and India, with improved SAF-T export and Service Transfer Order preview posting.",
+  "blob": "5b52d784dfe2c748d7b1ac7acd2dc0646368faf7",
+  "summary": "Update 19.5 for Business Central 2021 Release Wave 2 includes hotfixes, localization updates for Norway and India, and guidance on cloud migration and Dataverse authentication changes.",
   "systems": [
+    "administration",
     "localization",
-    "finance"
+    "integration"
   ],
   "topics": [
-    "update",
+    "update 19.5",
     "hotfixes",
     "localization",
-    "saf-t",
-    "india",
-    "norway"
+    "saf-t export",
+    "service transfer order",
+    "cloud migration",
+    "dataverse authentication"
   ],
   "objects": [],
   "features": [
-    "SAF-T export",
-    "Preview posting",
-    "Service Transfer Order"
+    "SAF-T export for Norway",
+    "Preview Posting on Service Transfer Order for India",
+    "Cloud migration data upgrade",
+    "Certificate-based authentication for Dataverse"
   ],
   "versions": [
     "2021 release wave 2",
@@ -32,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00475,
-      "pages_in_call": 8
+      "cost_usd": 0.004051,
+      "pages_in_call": 1
     }
   ]
 }

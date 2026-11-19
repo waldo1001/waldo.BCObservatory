@@ -2,20 +2,22 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-20-3.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-20-3",
   "title": "Update 20.3 for Microsoft Dynamics 365 Business Central 2022 Release Wave 1",
-  "blob": "5912328dd252f6eb6d2933c1f2a5cc503d77ea0c",
-  "summary": "Update 20.3 for Business Central 2022 release wave 1 includes hotfixes, feature changes like improved update settings and AppSourceCop validation, localization updates for VAT clauses and data export, and announcements about the Shopify Connector availability and Excel Add-in security updates.",
+  "blob": "1f7a57157aa50ae48de16b571ecce2f993524e18",
+  "summary": "Update 20.3 for Business Central 2022 Release Wave 1 includes improved update management settings, new AppSourceCop validation for obsoleted objects, To-Job Bin Code field for warehouse operations, VAT clause extended text functionality, and Business Data Export file enhancements for Germany.",
   "systems": [
-    "administration",
-    "integration",
-    "localization"
+    "platform",
+    "warehouse",
+    "projects"
   ],
   "topics": [
-    "updates",
+    "update 20.3",
     "hotfixes",
-    "feature changes",
-    "localization",
-    "shopify connector",
-    "excel add-in"
+    "warehouse pick operations",
+    "appsourcecop",
+    "vat clauses",
+    "extended text",
+    "business data export",
+    "shopify connector"
   ],
   "objects": [
     {
@@ -24,15 +26,17 @@
     }
   ],
   "features": [
-    "Improved settings for managing updates",
-    "AppSourceCop validation",
+    "improved update management settings",
+    "AppSourceCop validation for obsoleted objects",
     "To-Job Bin Code field",
-    "Extended text functionality for VAT clauses",
-    "Business Data Export enhancements"
+    "VAT clause extended text functionality",
+    "Business Data Export file enhancements",
+    "Shopify Connector"
   ],
   "versions": [
     "2022 release wave 1",
-    "update 20.3"
+    "update 20.3",
+    "20.1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -40,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00384,
-      "pages_in_call": 8
+      "cost_usd": 0.004739,
+      "pages_in_call": 1
     }
   ]
 }

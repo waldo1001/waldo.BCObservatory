@@ -2,36 +2,36 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-20-1.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-20-1",
   "title": "Update 20.1 for Business Central online",
-  "blob": "ecba4dc9fc61c7906ea82993eb4318e25cc6f8e3",
-  "summary": "Update 20.1 for Business Central 2022 Release Wave 1 adds Power Automate actions on pages, fraud prevention headers for UK, 20 new country expansions, and multiple localization updates including CFDI 2.0 for Mexico and Intrastat improvements.",
+  "blob": "078cf6060fa21f7a6bdb3a54ad93fe36f8f1c4b0",
+  "summary": "Update 20.1 for Business Central online covers hotfixes, feature changes including Power Automate integration, localization updates for multiple countries, and information about the Shopify Connector, mobile app updates, and PWA technology transition.",
   "systems": [
-    "sales",
-    "purchasing",
-    "localization"
+    "integration",
+    "localization",
+    "administration"
   ],
   "topics": [
     "update",
-    "power-automate",
+    "hotfixes",
+    "power automate",
     "localization",
-    "mexico",
-    "denmark",
-    "france",
-    "norway",
-    "intrastat",
-    "vat"
+    "mobile app",
+    "shopify connector",
+    "cloud migration"
   ],
   "objects": [],
   "features": [
-    "Power Automate actions",
-    "Fraud prevention headers",
-    "Country expansion",
-    "CFDI 2.0",
-    "Intrastat reporting",
-    "Shopify connector"
+    "Power Automate action group on card and list pages",
+    "Power Platform and Azure Logic Apps connector",
+    "Fraud prevention headers for UK clients",
+    "CFDI Payment version 2.0",
+    "Intrastat reporting enhancements",
+    "VAT return line free text support",
+    "Shopify Connector",
+    "PWA app"
   ],
   "versions": [
-    "2022 release wave 1",
-    "20.1"
+    "20.1",
+    "2022 release wave 1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -39,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00475,
-      "pages_in_call": 8
+      "cost_usd": 0.00518,
+      "pages_in_call": 1
     }
   ]
 }

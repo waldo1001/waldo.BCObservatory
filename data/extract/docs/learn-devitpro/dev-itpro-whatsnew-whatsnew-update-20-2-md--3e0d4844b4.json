@@ -2,33 +2,32 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-20-2.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-20-2",
   "title": "Update 20.2 for Microsoft Dynamics 365 Business Central 2022 Release Wave 1",
-  "blob": "8e994e8d7e7356d885cc248744e9ba54e267bb04",
-  "summary": "Update 20.2 for Business Central 2022 release wave 1 includes hotfixes, localization updates for Intrastat, Shopify connector availability, and Excel add-in security changes.",
+  "blob": "a94c737c53b69df370293739a9534d29d87d7c2f",
+  "summary": "Update 20.2 for Business Central 2022 release wave 1 includes hotfixes, Intrastat field enhancements, general availability of Shopify Connector, and updates to Excel Add-in security configuration.",
   "systems": [
-    "reporting",
-    "sales",
-    "inventory"
+    "integration",
+    "localization",
+    "administration"
   ],
   "topics": [
     "update",
     "hotfixes",
-    "localization",
     "intrastat",
-    "shopify",
+    "shopify connector",
     "excel add-in",
-    "2022 release wave 1"
+    "localization"
   ],
   "objects": [],
   "features": [
-    "release and reopen multiple documents",
-    "intrastat partner type",
-    "shopify connector",
-    "excel add-in update",
-    "per-tenant extensions"
+    "Intrastat Partner Type field",
+    "Shopify Connector",
+    "Release and reopen multiple documents",
+    "Excel Add-in security update",
+    "Per-Tenant Extensions disclaimer change"
   ],
   "versions": [
-    "update 20.2",
-    "2022 release wave 1"
+    "2022 release wave 1",
+    "update 20.2"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -36,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00503,
-      "pages_in_call": 8
+      "cost_usd": 0.004439,
+      "pages_in_call": 1
     }
   ]
 }

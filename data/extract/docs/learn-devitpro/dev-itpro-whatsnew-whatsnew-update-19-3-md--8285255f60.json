@@ -2,32 +2,34 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-19-3.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-3",
   "title": "Update 19.3 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2",
-  "blob": "7557bebf95d6a0e2ffd0adbffaec1afdce885e3d",
-  "summary": "Update 19.3 for Business Central 2021 release wave 2 updates Intrastat reporting for 2022 requirements, CFDI Carta de Porte 2.0 for Mexico, and electronic VAT return capabilities for Norway.",
+  "blob": "210904bb08e716d8237e069cb70b2b7c06c0b6ce",
+  "summary": "Update 19.3 for Business Central 2021 Release Wave 2 includes hotfixes and localization updates for Intrastat reporting, Mexican CFDI Carta de Porte compliance, German Intrastat XML format, and Norwegian electronic VAT return capabilities.",
   "systems": [
     "localization",
     "finance",
-    "administration"
+    "integration"
   ],
   "topics": [
-    "updates",
-    "release notes",
-    "intrastat",
-    "vat",
+    "update 19.3",
+    "intrastat reporting",
     "localization",
-    "reporting"
+    "cfdi",
+    "carta de porte",
+    "vat return",
+    "hotfixes"
   ],
   "objects": [],
   "features": [
-    "Intrastat reporting 2022 requirements",
-    "CFDI Carta de Porte 2.0",
-    "electronic VAT return",
-    "VAT codes",
-    "Elster xml visibility"
+    "Intrastat reporting updates",
+    "CFDI Carta de Porte compliance",
+    "Mexican waybill support",
+    "Electronic VAT return for Norway",
+    "VAT code setup",
+    "Certificate-based authentication for Dataverse"
   ],
   "versions": [
     "2021 release wave 2",
-    "update 19.3"
+    "19.3"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -35,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005403,
-      "pages_in_call": 8
+      "cost_usd": 0.004323,
+      "pages_in_call": 1
     }
   ]
 }

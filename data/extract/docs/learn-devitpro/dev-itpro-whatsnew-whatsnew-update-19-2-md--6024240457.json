@@ -2,34 +2,36 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-19-2.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-2",
   "title": "Update 19.2 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2",
-  "blob": "b7b5be2dac502a16bc0880059ca7b9bd91856398",
-  "summary": "Update 19.2 for Business Central 2021 Release Wave 2 introduces two-dimensional barcodes in reports, AL compiler improvements, Dataverse synchronization, and Intrastat format updates for 2022.",
+  "blob": "295ffc07ee16268c0208e79cc5c0d77ee465b009",
+  "summary": "Update 19.2 for Business Central 2021 Release Wave 2 introduces two-dimensional barcodes in reports, AL compiler diagnostic URLs, and multiline text field synchronization with Dataverse. It includes localization updates for Intrastat requirements, Mexico Carta de Porte 2.0, and Norway VAT Return submission.",
   "systems": [
-    "localization",
-    "development",
-    "integration"
+    "reporting",
+    "integration",
+    "localization"
   ],
   "topics": [
-    "update",
-    "barcodes",
-    "dataverse",
+    "update 19.2",
+    "2021 release wave 2",
+    "barcode reporting",
+    "al compiler",
+    "dataverse synchronization",
+    "localization",
     "intrastat",
-    "mexico",
-    "norway",
-    "vat"
+    "vat reporting"
   ],
   "objects": [],
   "features": [
-    "2D barcodes",
-    "AL compiler diagnostics",
-    "Dataverse multiline text sync",
-    "Intrastat 2022 requirements",
-    "MX Carta de Porte 2.0",
-    "VAT return submission"
+    "two-dimensional barcodes in reports",
+    "AL compiler diagnostic messages with URLs",
+    "multiline text field synchronization with Dataverse",
+    "Intrastat 2022 format updates",
+    "Mexico Carta de Porte 2.0",
+    "Norway VAT Return submission",
+    "certificate-based authentication for Dataverse"
   ],
   "versions": [
-    "2021 release wave 2",
-    "19.2"
+    "update 19.2",
+    "2021 release wave 2"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -37,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00475,
-      "pages_in_call": 8
+      "cost_usd": 0.004435,
+      "pages_in_call": 1
     }
   ]
 }

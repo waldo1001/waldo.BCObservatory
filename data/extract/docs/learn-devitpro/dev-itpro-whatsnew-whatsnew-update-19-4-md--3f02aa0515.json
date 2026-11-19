@@ -2,27 +2,31 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-19-4.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-4",
   "title": "Update 19.4 for Microsoft Dynamics 365 Business Central 2021 Release Wave 2",
-  "blob": "153fea654f39de1316c226f5de75d9387b93e6dd",
-  "summary": "Update 19.4 for Business Central 2021 release wave 2 enables delegated admin cloud migration setup, updates CFDI cancellation schema for Mexico, and adds Intrastat enhancements for Germany and Italy.",
+  "blob": "452ac6460a6fcea2979e415094726df2952e38b0",
+  "summary": "Update 19.4 for Business Central 2021 Release Wave 2 includes hotfixes, delegated admin cloud migration approval, and localization updates for Mexico, Norway, Germany, and Italy VAT and electronic filing features.",
   "systems": [
-    "localization",
     "administration",
+    "localization",
     "finance"
   ],
   "topics": [
-    "updates",
-    "release notes",
-    "cloud-migration",
-    "cfdi",
-    "intrastat",
-    "localization"
+    "update",
+    "hotfixes",
+    "cloud migration",
+    "localization",
+    "vat",
+    "electronic filing",
+    "delegated admin"
   ],
   "objects": [],
   "features": [
-    "delegated admin cloud migration approval",
-    "CFDI cancellation schema",
-    "electronic VAT return updates",
-    "Intrastat field additions"
+    "Delegated Admin Cloud Migration Approval",
+    "CFDI Cancellation Schema changes",
+    "Electronic VAT Return Submission",
+    "Elster xml file visibility",
+    "Intrastat export enhancements",
+    "Secondary read-only database for Power BI",
+    "Certificate-based authentication for Dataverse"
   ],
   "versions": [
     "2021 release wave 2",
@@ -34,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005403,
-      "pages_in_call": 8
+      "cost_usd": 0.004596,
+      "pages_in_call": 1
     }
   ]
 }
