@@ -2,30 +2,36 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-27-3.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-3",
   "title": "Update 27.3 for Microsoft Dynamics 365 Business Central 2025 Release Wave 2",
-  "blob": "ad8ae2b144a97c8faebd807c5fe93fdd97100dc7",
-  "summary": "Update 27.3 for Business Central 2025 release wave 2 includes Payables Agent features, Verifactu embedded mode for Spain, and IRS 1099 bulk printing with upgrade information for online and on-premises customers.",
+  "blob": "8c28b92bc94bdc063b77ec454cbe01cad3ee2ad8",
+  "summary": "Business Central Update 27.3 for 2025 Release Wave 2 includes Payables Agent enhancements for invoice matching, localization features for Spain and US, and administrative capabilities like canceling running environment updates. The update is available from October 2025 to April 2026.",
   "systems": [
     "copilot",
+    "purchasing",
     "administration"
   ],
   "topics": [
-    "update",
-    "release wave 2",
-    "payables",
-    "spain",
-    "1099"
+    "update 27.3",
+    "2025 release wave 2",
+    "payables agent",
+    "hotfixes",
+    "localization",
+    "feature management"
   ],
   "objects": [],
   "features": [
-    "Payables Agent",
-    "purchase invoice matching",
-    "confidence levels",
-    "Verifactu embedded mode",
-    "IRS 1099 bulk printing"
+    "Match purchase invoices to orders with Payables Agent",
+    "Payables Agent confidence level",
+    "Payables Agent expanded country/region availability",
+    "Embedded Verifactu mode in Spain",
+    "Print IRS 1099 form copies in bulk",
+    "Cancel running environment update"
   ],
   "versions": [
     "27.3",
-    "2025 release wave 2"
+    "2025 release wave 2",
+    "version 27",
+    "version 25",
+    "version 24"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -33,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00421,
-      "pages_in_call": 8
+      "cost_usd": 0.004941,
+      "pages_in_call": 1
     }
   ]
 }

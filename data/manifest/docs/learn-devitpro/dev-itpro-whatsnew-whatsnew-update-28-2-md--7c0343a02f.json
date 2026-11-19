@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-2",
   "published_at": "2026-11-18T09:31:51.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.605Z",
-      "blob": "c200641397dc0e4fc2ac3f128e9f6bd138a147b1",
+      "at": "2026-11-19T00:26:38.115Z",
+      "blob": "2c84f027094cb9e0df5812b219d9501fa8153dfe",
       "words": 957,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T16:15:00.228Z",
+      "at": "2026-11-19T00:26:52.966Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0
+      "objects": 9,
+      "cost_usd": 0.00647
     },
     "summarized": {
-      "at": "2026-10-06T16:15:00.242Z",
+      "at": "2026-11-19T00:26:52.967Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T16:15:00.243Z",
+      "at": "2026-11-19T00:26:52.968Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T16:15:00.244Z",
+      "at": "2026-11-19T00:26:52.969Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/whatsnew/whatsnew-update-28-2.md",
     "description": "Get an overview of new and changed capabilities in the 28.2 update of Business Central online, which is part of 2026 release wave 1",
-    "ms_date": "2026-06-12",
+    "ms_date": "2026-11-18",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "63f5a6d56ebe1d8d6e54203de556b1341d0823746e7e8e1f8dea2dbd1dd4fc4a"
+  "output_hash": "81d5ebccbbe36368724bbb4a784b205e1c0c85da3c3824dd2a1bd69daea86aed"
 }

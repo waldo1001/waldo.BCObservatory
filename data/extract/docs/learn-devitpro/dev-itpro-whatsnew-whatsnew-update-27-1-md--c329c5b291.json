@@ -2,38 +2,32 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-27-1.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-1",
   "title": "Update 27.1 for Microsoft Dynamics 365 Business Central 2025 Release Wave 2",
-  "blob": "b6572f4c829669f386281ea8b1fbbba49db1dfd6",
-  "summary": "Update 27.1 for Business Central 2025 release wave 2 introduces copilot agents for payables and sales automation, e-documents enhancements, SEPA file support, digital product pass reporting, and cloud migration features for recurring purchase and sales lines from Dynamics GP.",
+  "blob": "c3bee92387ea27aa974706dbdd8c932e86541341",
+  "summary": "Update 27.1 for Business Central 2025 release wave 2 introduces new Copilot and AI agent capabilities for payables and sales automation, e-document processing enhancements, financial management features, and sustainability reporting, with general availability for most features and optional features becoming mandatory in the next release wave.",
   "systems": [
     "copilot",
-    "purchasing",
+    "finance",
     "sales"
   ],
   "topics": [
-    "update 27.1",
-    "2025 release wave 2",
-    "payables agent",
-    "sales order agent",
+    "copilot agents",
+    "payables automation",
+    "sales order automation",
     "e-documents",
-    "copilot",
-    "cloud migration"
+    "financial management",
+    "sustainability",
+    "localization"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Feature Management"
-    }
-  ],
+  "objects": [],
   "features": [
-    "payables agent",
-    "sales order agent",
-    "e-documents processing",
-    "SEPA CAMT053",
-    "audit trail report",
-    "digital product pass reporting",
-    "concealed text field type",
-    "recurring purchase lines",
-    "recurring sales lines"
+    "Payables Agent for automating payables processes",
+    "Enhanced Sales Order Agent",
+    "MCP server integration for AI agents",
+    "Two-step e-document processing",
+    "E-Documents framework with Power Automate",
+    "Audit Trail report printing",
+    "Account Payable Role Center",
+    "Digital Product Pass reporting"
   ],
   "versions": [
     "27.1",
@@ -45,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006278,
-      "pages_in_call": 3
+      "cost_usd": 0.005728,
+      "pages_in_call": 1
     }
   ]
 }

@@ -2,48 +2,85 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-2.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-2",
   "title": "Update 28.2 for Microsoft Dynamics 365 Business Central 2026 Release Wave 1",
-  "blob": "c200641397dc0e4fc2ac3f128e9f6bd138a147b1",
-  "summary": "Update 28.2 for Business Central 2026 release wave 1 details hotfixes and new features including Sales Order Agent multilingual support, Australian payment reporting compliance, quality management word layouts, and new APIs for approval workflows and permissions analysis.",
+  "blob": "2c84f027094cb9e0df5812b219d9501fa8153dfe",
+  "summary": "Update 28.2 for Business Central 2026 release wave 1 introduces Copilot and agent enhancements, localization features for Australia, France and UK, e-document payment capabilities, withholding taxes, quality management improvements, and new APIs for approval workflows and permissions analysis.",
   "systems": [
     "copilot",
-    "sales",
-    "finance"
+    "localization",
+    "integration"
   ],
   "topics": [
-    "release notes",
     "update 28.2",
     "2026 release wave 1",
-    "hotfixes",
-    "feature changes",
-    "ai agents"
+    "copilot agents",
+    "quality management",
+    "e-documents",
+    "localization",
+    "apis",
+    "withholding taxes"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Quality Inspection"
+    },
+    {
+      "type": "page",
+      "name": "Quality Inspections"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Quality Management"
+    },
+    {
+      "type": "page",
+      "name": "Quality Manager Role Center"
+    },
+    {
+      "type": "page",
+      "name": "Quality Management Setup"
+    },
+    {
+      "type": "page",
+      "name": "Copilot & agent capabilities"
+    },
+    {
+      "type": "report",
+      "name": "Certificate of Analysis"
+    },
+    {
+      "type": "report",
+      "name": "Non-Conformance"
+    },
+    {
+      "type": "report",
+      "name": "General Purpose Inspection"
+    }
+  ],
   "features": [
     "Sales Order Agent",
-    "text search language configuration",
-    "email attachment handling",
-    "quality management word layouts",
-    "withholding tax calculation",
-    "accelerated depreciation",
-    "self-billed invoices",
-    "cloud migration tool",
-    "approval workflow apis",
-    "permissions analysis apis"
+    "Quality management word layouts",
+    "Withholding tax calculation",
+    "E-document payments",
+    "Accelerated depreciation",
+    "Payment practices",
+    "AI model selection for agents",
+    "Approval workflow APIs",
+    "Permissions analysis APIs"
   ],
   "versions": [
     "2026 release wave 1",
-    "update 28.2",
     "version 28.2",
-    "version 28.0"
+    "version 28"
   ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": true,
-      "cost_usd": null,
-      "pages_in_call": 6
+      "cached": false,
+      "cost_usd": 0.00647,
+      "pages_in_call": 1
     }
   ]
 }
