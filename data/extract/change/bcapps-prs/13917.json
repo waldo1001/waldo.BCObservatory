@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/13917",
+  "number": 13917,
+  "title": "[Main][ALL-E] Posting a Sales Credit Memo with a different Unit of Measure does not convert the quantity before updating the originating Sales Order (Blanket Sales Order is updated correctly)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed a bug where posting a sales credit memo with a different unit of measure failed to convert the quantity before updating the originating sales order, causing incorrect deductions.",
+  "key_points": [
+    "Credit memo quantities are now converted to the sales order line's unit of measure before updating shipped and invoiced quantities",
+    "Previously, 8 PCS was incorrectly deducted as 8 SET instead of 2 SET when units differed",
+    "Regression tests added for different, fractional, and matching units of measure scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Convert the credited base quantity using the sales order line's Qty. per Unit of Measure before updating quantities.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003665,
+    "changes_in_call": 1
+  }
+}

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Data replication overview",
+  "title": "Cloud Migration Data Replication Overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.358Z",
-      "blob": "023afd7e60da7f613f413abee7751f3ca43c1cee",
-      "words": 732,
+      "at": "2026-11-19T00:20:32.357Z",
+      "blob": "ce11bb417b93f17ca57d06124532150b41a7d8ea",
+      "words": 751,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:49:44.227Z",
+      "at": "2026-11-19T00:20:44.231Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.00543
+      "objects": 3,
+      "cost_usd": 0.004191
     },
     "summarized": {
-      "at": "2026-10-06T18:49:49.222Z",
+      "at": "2026-11-19T00:20:44.231Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:49:49.223Z",
+      "at": "2026-11-19T00:20:44.232Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:49:51.076Z",
+      "at": "2026-11-19T00:20:44.232Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-data-replication.md",
-    "description": "Learn how to replicate on-premises data to an online environment after setting up the cloud migration.",
-    "ms_date": "2023-01-15",
-    "ms_topic": "article",
+    "description": "Learn how cloud migration data replication moves on-premises data to Business Central online, initializes companies, and handles subsequent replication runs.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 732,
+    "ai_usage": "ai-assisted",
+    "words": 751,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5533aca22f4c524f3f56e3a59e6c8d97c76b2bf04aaac8e1f4eedcb835699bf2"
+  "output_hash": "55f317c8d6c17eb45ccb2c155d723256bc8a9eb9af05c9ab8d94a6c06c2d671f"
 }

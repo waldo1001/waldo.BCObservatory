@@ -13,7 +13,7 @@
     }
   },
   "input_hash": "72f70f6eb0f18c8a8967ba9983a889a43a11b454:c1",
-  "attempts": 0,
+  "attempts": 1,
   "flags": [],
   "meta": {
     "number": 13503,
@@ -31,5 +31,7 @@
     ],
     "community_contribution": true,
     "title_key": "prepayment amounts are incorrectly recalculated in statistics after partial posting when prepmt amt to deduct excl vat is manually adjusted"
-  }
+  },
+  "last_error": "fetch failed",
+  "retry_after": "2026-11-19T02:20:18.253Z"
 }

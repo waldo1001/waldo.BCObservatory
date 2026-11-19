@@ -1,32 +1,45 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-data-upgrade-gp.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade-gp",
-  "title": "Upgrade data for Dynamics GP cloud migration",
-  "blob": "fc97cd0047551f50b196f63b17b5e520a2f1d4b6",
-  "summary": "Run data upgrade for Dynamics GP cloud migration to transform Dynamics GP tables into Business Central tables during the migration process.",
+  "title": "Upgrade Dynamics GP Data During Cloud Migration",
+  "blob": "5e13eb00b662ce69cc5a1f40f86e4c44a187da86",
+  "summary": "Upgrade Dynamics GP tables to Business Central tables during cloud migration by running data transformation in background tasks after completing data replication.",
   "systems": [
-    "integration",
     "administration",
-    "finance"
+    "integration"
   ],
   "topics": [
-    "dynamics gp",
     "cloud migration",
+    "dynamics gp",
     "data upgrade",
-    "data replication",
-    "business central online"
+    "data transformation",
+    "data replication"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "GP Migration Settings"
+    },
+    {
+      "type": "page",
+      "name": "GP Migration Overview"
+    },
+    {
+      "type": "page",
+      "name": "Data Migration Overview"
     }
   ],
   "features": [
-    "data upgrade",
-    "cloud migration",
-    "migration errors",
-    "operations log"
+    "Data upgrade",
+    "Background data transformation",
+    "Automatic migration after replication",
+    "Migration error investigation",
+    "Failed company recovery",
+    "Validation testing"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004528,
-      "pages_in_call": 8
+      "cost_usd": 0.003882,
+      "pages_in_call": 1
     }
   ]
 }

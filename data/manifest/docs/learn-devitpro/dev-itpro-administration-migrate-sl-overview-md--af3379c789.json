@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Dynamics SL migration to Business Central online End-to-end overview",
+  "title": "Dynamics SL Migration to Business Central Online",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-overview",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.513Z",
-      "blob": "c81ab07729cc7c06c809e5ea22c928cc618e16f2",
-      "words": 1693,
+      "at": "2026-11-19T00:20:16.229Z",
+      "blob": "0987c07649847d09bf340b5e064df3284f8fb9d0",
+      "words": 1569,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:33:47.613Z",
+      "at": "2026-11-19T00:20:27.744Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003878
+      "cost_usd": 0.009542
     },
     "summarized": {
-      "at": "2026-10-06T19:33:47.783Z",
+      "at": "2026-11-19T00:20:27.745Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:33:47.784Z",
+      "at": "2026-11-19T00:20:27.746Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:33:47.786Z",
+      "at": "2026-11-19T00:20:27.746Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migrate-sl-overview.md",
-    "description": "Learn about the migration process and the necessary tasks for completing the migration from Dynamics SL on-premises.",
-    "ms_date": "2024-12-13",
-    "ms_topic": "article",
+    "description": "Understand how Dynamics SL cloud migration works, from assessment and setup through data replication, company-level transformation, testing, and going live.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "overview",
     "search_form": [
       {
         "raw": "2502",
@@ -63,12 +63,12 @@
       "cloud",
       "edge"
     ],
-    "ai_usage": null,
-    "words": 1693,
+    "ai_usage": "ai-assisted",
+    "words": 1569,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cd281f719157d61c05db3f16ebde84844f1f08cf02de27acc3ecf14dd20d98b2"
+  "output_hash": "498a2dbdb4068202d15d1dcf74c9c4b21681c708331545941172c844bce30708"
 }

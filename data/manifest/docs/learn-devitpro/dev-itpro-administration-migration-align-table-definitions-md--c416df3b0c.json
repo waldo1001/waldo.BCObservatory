@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Align SQL Table Definitions",
+  "title": "Align SQL Table Definitions for Cloud Migration",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-align-table-definitions",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.702Z",
-      "blob": "705fbbcb2d5382945dd5b23d77c8c172c6bd550c",
-      "words": 159,
+      "at": "2026-11-19T00:20:19.525Z",
+      "blob": "592f0082394a2cae4efe284e72ba65476b888f1d",
+      "words": 223,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:39:20.681Z",
+      "at": "2026-11-19T00:20:31.009Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003097
+      "objects": 1,
+      "cost_usd": 0.003289
     },
     "summarized": {
-      "at": "2026-10-06T19:39:20.689Z",
+      "at": "2026-11-19T00:20:31.010Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:39:20.690Z",
+      "at": "2026-11-19T00:20:31.010Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:39:20.691Z",
+      "at": "2026-11-19T00:20:31.011Z",
       "page": false
     }
   },
@@ -44,17 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-align-table-definitions.md",
-    "description": "Learn what table properties need to be the same in on-premises and online database for cloud migration to work.",
-    "ms_date": "2022-11-25",
-    "ms_topic": "article",
+    "description": "Learn which SQL table definitions must match between Business Central on-premises and online databases before you run cloud migration.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 159,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 223,
+    "identifiers": [
+      "MyField1",
+      "MyTable"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "84753096c0caab9f7a07071d6320a033a7756b6b7469f727ea1d721e209ca676"
+  "output_hash": "165d17fd7a7a4f000b6a96fe9a9ad73a13bd5a3c254b5ec7c41026bb7e21be35"
 }

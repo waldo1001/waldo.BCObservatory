@@ -1,18 +1,20 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-data-upgrade-sl.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade-sl",
-  "title": "Upgrade data for Dynamics SL cloud migration",
-  "blob": "ae33327ec54d93067f57790f52d7741d3269da7a",
-  "summary": "Run data upgrade for Dynamics SL cloud migration to transform Dynamics SL tables into Business Central tables during the cloud migration process.",
+  "title": "Upgrade Dynamics SL Data During Cloud Migration",
+  "blob": "7d167ea6bc65fda03b242949756cfafc85eb6496",
+  "summary": "Upgrade transforms Dynamics SL tables into Business Central tables during cloud migration by running data upgrade in the Cloud Migration Management page after completing data replication.",
   "systems": [
+    "integration",
     "administration",
-    "integration"
+    "platform"
   ],
   "topics": [
-    "data migration",
-    "dynamics sl",
     "cloud migration",
-    "data upgrade"
+    "data upgrade",
+    "dynamics sl",
+    "data transformation",
+    "business central online"
   ],
   "objects": [
     {
@@ -21,14 +23,33 @@
     },
     {
       "type": "page",
-      "name": "Migration Errors"
+      "name": "SL Cloud Migration Errors"
+    },
+    {
+      "type": "page",
+      "name": "Failed Companies"
+    },
+    {
+      "type": "page",
+      "name": "Posting Errors"
+    },
+    {
+      "type": "page",
+      "name": "SL Cloud Migration Warnings"
+    },
+    {
+      "type": "page",
+      "name": "Data Migration Overview"
     }
   ],
   "features": [
     "data upgrade",
     "cloud migration",
-    "Dynamics SL migration",
-    "data replication"
+    "data replication",
+    "background tasks",
+    "error recovery",
+    "posting errors",
+    "migration telemetry"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +58,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003903,
-      "pages_in_call": 8
+      "cost_usd": 0.003915,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Clean data",
+  "title": "Clean Business Central Data Before Cloud Migration",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-clean-data",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:54.735Z",
-      "blob": "b2c29dadb2871c1980f0b2e5ca3645997c314aab",
-      "words": 594,
+      "at": "2026-11-19T00:20:29.103Z",
+      "blob": "f3ab30bba30c9e90a9ed307a1d89a439af0fce23",
+      "words": 625,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:45:48.582Z",
+      "at": "2026-11-19T00:20:41.109Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.003111
+      "objects": 1,
+      "cost_usd": 0.004083
     },
     "summarized": {
-      "at": "2026-10-06T19:45:48.586Z",
+      "at": "2026-11-19T00:20:41.110Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:45:48.586Z",
+      "at": "2026-11-19T00:20:41.110Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:45:48.587Z",
+      "at": "2026-11-19T00:20:41.111Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-clean-data.md",
-    "description": "This article discusses tasks to do on data in Business Central on-premises database before you run cloud migration.",
-    "ms_date": "2023-03-24",
+    "description": "Prepare Business Central on-premises data for cloud migration by sanitizing code fields, checking company names, and compressing or archiving old data.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 594,
+    "ai_usage": "ai-assisted",
+    "words": 625,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d670878353d83e030f64685a97b35941d1cbbf905ecb6b4b55a1658c944c5db4"
+  "output_hash": "64ba6e941fcc85f05655ee9eead1d31ef3ffe5b1345248866d793e18b82ba33e"
 }

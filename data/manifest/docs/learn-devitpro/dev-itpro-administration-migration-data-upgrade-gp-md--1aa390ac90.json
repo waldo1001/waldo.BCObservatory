@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Upgrade data for Dynamics GP cloud migration",
+  "title": "Upgrade Dynamics GP Data During Cloud Migration",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade-gp",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.850Z",
-      "blob": "fc97cd0047551f50b196f63b17b5e520a2f1d4b6",
-      "words": 276,
+      "at": "2026-11-19T00:20:34.912Z",
+      "blob": "5e13eb00b662ce69cc5a1f40f86e4c44a187da86",
+      "words": 383,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:39:28.795Z",
+      "at": "2026-11-19T00:20:56.597Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.004528
+      "objects": 4,
+      "cost_usd": 0.003882
     },
     "summarized": {
-      "at": "2026-10-06T18:39:28.804Z",
+      "at": "2026-11-19T00:20:56.598Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:39:28.807Z",
+      "at": "2026-11-19T00:20:56.598Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:39:28.809Z",
+      "at": "2026-11-19T00:20:56.598Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-data-upgrade-gp.md",
-    "description": "This article explains the process for running the data upgrade as part of Dynamics GP cloud migration.",
-    "ms_date": "2024-02-29",
+    "description": "Learn how Dynamics GP data is transformed into Business Central data, control automatic migration, monitor company progress, and handle upgrade failures.",
+    "ms_date": "2026-11-17",
     "ms_topic": "upgrade-and-migration-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 276,
+    "ai_usage": "ai-assisted",
+    "words": 383,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7490fe029667b21fa12464ab2e9b249ff0bd4e922fea91027621554253576f59"
+  "output_hash": "d2b01c235464a7e123739d215047a3738a00d9ba497728dca56dcb7905ee2b17"
 }

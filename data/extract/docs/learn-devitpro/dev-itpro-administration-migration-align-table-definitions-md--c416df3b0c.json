@@ -1,26 +1,33 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-align-table-definitions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-align-table-definitions",
-  "title": "Align SQL Table Definitions",
-  "blob": "705fbbcb2d5382945dd5b23d77c8c172c6bd550c",
-  "summary": "Cloud migration requires on-premises and online SQL table objects to have matching primary keys, field names, and data types; table mapping can handle different names and fields.",
+  "title": "Align SQL Table Definitions for Cloud Migration",
+  "blob": "592f0082394a2cae4efe284e72ba65476b888f1d",
+  "summary": "Align SQL Table Definitions for Cloud Migration explains the requirements for matching table definitions between on-premises source and online destination tables during cloud migration replication, including primary keys, field names, and data types.",
   "systems": [
     "administration",
-    "integration"
+    "integration",
+    "platform"
   ],
   "topics": [
-    "migration",
-    "data upgrade",
-    "sql",
-    "table definitions",
-    "cloud migration"
+    "cloud migration",
+    "sql table definitions",
+    "table mapping",
+    "replication",
+    "schema compatibility"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "MyTable"
+    }
+  ],
   "features": [
-    "primary keys",
-    "field names",
-    "data types",
-    "table mapping"
+    "Primary key matching",
+    "Field name and data type alignment",
+    "Field length checking",
+    "Table mapping",
+    "SQL replication"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003097,
-      "pages_in_call": 8
+      "cost_usd": 0.003289,
+      "pages_in_call": 1
     }
   ]
 }

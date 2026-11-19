@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Upgrade data for Dynamics SL cloud migration",
+  "title": "Upgrade Dynamics SL Data During Cloud Migration",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade-sl",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.517Z",
-      "blob": "ae33327ec54d93067f57790f52d7741d3269da7a",
-      "words": 245,
+      "at": "2026-11-19T00:20:56.581Z",
+      "blob": "7d167ea6bc65fda03b242949756cfafc85eb6496",
+      "words": 323,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:33:47.691Z",
+      "at": "2026-11-19T00:21:18.960Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.003903
+      "objects": 6,
+      "cost_usd": 0.003915
     },
     "summarized": {
-      "at": "2026-10-06T19:33:47.719Z",
+      "at": "2026-11-19T00:21:18.961Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:33:47.720Z",
+      "at": "2026-11-19T00:21:18.961Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:33:47.725Z",
+      "at": "2026-11-19T00:21:18.962Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-data-upgrade-sl.md",
-    "description": "Discover the process for running the data upgrade as part of Dynamics SL cloud migration.",
-    "ms_date": "2024-12-13",
+    "description": "Learn how to transform replicated Dynamics SL data into Business Central data, monitor company-level background upgrades, and recover from failed migrations.",
+    "ms_date": "2026-11-17",
     "ms_topic": "upgrade-and-migration-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 245,
+    "ai_usage": "ai-assisted",
+    "words": 323,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "36467b7f30ad1a43ab9e601cc7185ef6104694a5f140df07ca02b421a2f3ce4c"
+  "output_hash": "ef2b704cdf38b9a1d933b6477f0506cf72ea971fdb35a82c3184e376196a04c8"
 }

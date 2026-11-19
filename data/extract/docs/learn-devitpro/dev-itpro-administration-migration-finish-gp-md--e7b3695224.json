@@ -1,20 +1,21 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-finish-gp.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-gp",
-  "title": "Complete cloud migration for Dynamics GP",
-  "blob": "4f0ecc6f7cf68d04d5a290de8370a64aa5c8ebde",
-  "summary": "Complete Dynamics GP cloud migration by validating data, disabling cloud migration, and setting up users and permissions in Business Central online.",
+  "title": "Complete Dynamics GP Migration to Business Central",
+  "blob": "60f6e260226618224db552246d31a50aa2bf0d87",
+  "summary": "Complete Dynamics GP cloud migration to Business Central online by validating data, disabling cloud migration, and setting up users and permissions in the target environment.",
   "systems": [
-    "integration",
     "administration",
-    "finance"
+    "integration"
   ],
   "topics": [
-    "dynamics gp",
     "cloud migration",
-    "data validation",
+    "dynamics gp",
+    "data migration",
+    "post-migration",
     "user setup",
-    "permissions"
+    "permissions",
+    "validation"
   ],
   "objects": [
     {
@@ -27,18 +28,17 @@
     },
     {
       "type": "page",
-      "name": "Cloud Migration Setup"
-    },
-    {
-      "type": "page",
       "name": "Cloud Ready Checklist"
     }
   ],
   "features": [
-    "validation status",
-    "disable cloud migration",
-    "permission sets",
-    "user accounts"
+    "Migration validation",
+    "Validation Status",
+    "Run All Validation",
+    "Disable Cloud Migration",
+    "Integration runtime",
+    "User account setup",
+    "Permission sets"
   ],
   "versions": [],
   "parts": 1,
@@ -47,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004528,
-      "pages_in_call": 8
+      "cost_usd": 0.003878,
+      "pages_in_call": 1
     }
   ]
 }

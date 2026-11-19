@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Run data upgrade",
+  "title": "Run a Cloud Migration Data Upgrade",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.874Z",
-      "blob": "055584d51a462fc4c47d7af9ca3ff8f58fe8663f",
-      "words": 648,
+      "at": "2026-11-19T00:20:59.584Z",
+      "blob": "a276afd5e4bf2395910eadd3e003cebabf810758",
+      "words": 826,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:51:45.287Z",
+      "at": "2026-11-19T00:21:40.447Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.005629
+      "objects": 2,
+      "cost_usd": 0.003967
     },
     "summarized": {
-      "at": "2026-10-06T18:51:47.619Z",
+      "at": "2026-11-19T00:21:40.448Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:51:47.626Z",
+      "at": "2026-11-19T00:21:40.449Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:51:47.627Z",
+      "at": "2026-11-19T00:21:40.449Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-data-upgrade.md",
-    "description": "This article explains the process for running the data upgrade as part of cloud migration.",
-    "ms_date": "2023-02-22",
+    "description": "Learn how to prepare for and run a data upgrade during Business Central cloud migration, monitor progress, and handle upgrade errors.",
+    "ms_date": "2026-11-17",
     "ms_topic": "upgrade-and-migration-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 648,
+    "ai_usage": "ai-assisted",
+    "words": 826,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6c596d745d403b37be1fddb6a34b85f4f4f1e3c48a14f59e97b70b419f489666"
+  "output_hash": "0e2b571c1143bebf7eeb76e8c07fc93826f53a277871dadfe0d292baede6dca1"
 }

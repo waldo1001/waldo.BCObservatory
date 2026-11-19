@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/14219",
+  "number": 14219,
+  "title": "[QM] Copy template doesn't ignore target description anymore ",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "The report for copying quality inspection templates now respects the target template's description instead of overwriting it with the source template's description.",
+  "key_points": [
+    "Template copy behavior changed to preserve target description",
+    "Fixes regression where target description was incorrectly overwritten",
+    "Report 20402 logic updated to handle description field correctly",
+    "Test coverage added for the template copy functionality"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003072,
+    "changes_in_call": 1
+  }
+}

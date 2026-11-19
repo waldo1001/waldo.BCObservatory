@@ -1,18 +1,22 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-sl-configure-companies.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-configure-companies",
-  "title": "Configure Dynamics SL company migration",
-  "blob": "acb5865e182690c594b9b605d289a0a8da129609",
-  "summary": "Configuring Dynamics SL company migration sets global and per-company settings for data migration including module selection, dimensions, auto-posting, and historical snapshots.",
+  "title": "Dynamics SL Company Migration Configuration",
+  "blob": "d8f661e5cecfabadd2c26c109104c35c8fae7338",
+  "summary": "The SL Company Migration Configuration page sets global and per-company migration settings for Dynamics SL data migration to Business Central, including module selection, dimensions, master data, posting preferences, and historical data cutoffs.",
   "systems": [
+    "administration",
     "integration",
-    "administration"
+    "finance"
   ],
   "topics": [
+    "dynamics sl migration",
+    "cloud migration",
+    "company configuration",
     "data migration",
-    "dynamics sl",
-    "company setup",
-    "module configuration"
+    "modules",
+    "dimensions",
+    "historical data"
   ],
   "objects": [
     {
@@ -25,13 +29,14 @@
     }
   ],
   "features": [
-    "module selection",
-    "dimension mapping",
-    "master data migration",
-    "auto-posting control",
-    "historical snapshots",
-    "1099 information",
-    "inactive records"
+    "Module selection",
+    "Global dimensions configuration",
+    "Master data only migration",
+    "Auto posting control",
+    "Inactive records migration",
+    "Posting groups migration",
+    "Historical snapshot selection",
+    "Per-company configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +45,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005757,
-      "pages_in_call": 8
+      "cost_usd": 0.00496,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-configure-companies",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:42:17.230Z",
+      "at": "2026-11-19T00:20:24.759Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.005757
+      "cost_usd": 0.00496
     },
     "summarized": {
-      "at": "2026-10-06T18:42:17.823Z",
+      "at": "2026-11-19T00:20:24.759Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:42:17.824Z",
+      "at": "2026-11-19T00:20:24.760Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:42:17.825Z",
+      "at": "2026-11-19T00:20:24.760Z",
       "page": false
     }
   },
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d8f661e5cecfabadd2c26c109104c35c8fae7338"
+  "output_hash": "1b006542c9f5489645989ad85d70a4731f4d0c6194996a3ab79769194ed5a839"
 }

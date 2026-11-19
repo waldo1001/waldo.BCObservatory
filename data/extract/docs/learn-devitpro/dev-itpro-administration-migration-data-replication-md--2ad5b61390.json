@@ -1,17 +1,20 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-data-replication.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-replication",
-  "title": "Data replication overview",
-  "blob": "023afd7e60da7f613f413abee7751f3ca43c1cee",
-  "summary": "Describes data replication process from on-premises to Business Central online including large and small table flows, Azure BLOB storage, Azure Data Factory, company initialization, and rerunning replication with change tracking.",
+  "title": "Cloud Migration Data Replication Overview",
+  "blob": "ce11bb417b93f17ca57d06124532150b41a7d8ea",
+  "summary": "Cloud Migration Data Replication explains how to replicate on-premises data to Business Central online after setup, covering the replication pipeline, table-based copying flows, company initialization, and change tracking for subsequent runs.",
   "systems": [
+    "administration",
     "integration",
-    "administration"
+    "platform"
   ],
   "topics": [
     "data replication",
-    "azure data factory",
     "cloud migration",
+    "data transfer",
+    "on-premises to online",
+    "azure data factory",
     "change tracking",
     "company initialization"
   ],
@@ -22,16 +25,22 @@
     },
     {
       "type": "page",
-      "name": "Hybrid Companies"
+      "name": "Hybrid Companies List"
+    },
+    {
+      "type": "page",
+      "name": "Migration log"
     }
   ],
   "features": [
-    "Large table flow",
-    "Small table flow",
-    "Azure BLOB storage",
-    "Integration runtime",
-    "Change tracking",
-    "Company initialization"
+    "run data replication",
+    "large table flow",
+    "small table flow",
+    "azure blob storage",
+    "self-hosted integration runtime",
+    "company initialization",
+    "change tracking",
+    "full replication"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +49,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00543,
-      "pages_in_call": 8
+      "cost_usd": 0.004191,
+      "pages_in_call": 1
     }
   ]
 }
