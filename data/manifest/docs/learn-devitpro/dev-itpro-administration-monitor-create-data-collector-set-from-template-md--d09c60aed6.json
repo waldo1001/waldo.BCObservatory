@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-create-data-collector-set-from-template",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.676Z",
-      "blob": "e065cdb701acc0e77a2e97820c85240f254dcfbf",
-      "words": 322,
+      "at": "2026-11-19T00:24:07.970Z",
+      "blob": "e752f96a88a7748fd32759ffd07e07abf1369236",
+      "words": 312,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:35:02.696Z",
+      "at": "2026-11-19T00:24:12.695Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003352
+      "cost_usd": 0.003162
     },
     "summarized": {
-      "at": "2026-10-06T19:35:02.705Z",
+      "at": "2026-11-19T00:24:12.696Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:35:02.705Z",
+      "at": "2026-11-19T00:24:12.697Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:35:02.706Z",
+      "at": "2026-11-19T00:24:12.697Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/monitor-create-data-collector-set-from-template.md",
-    "description": "Use the template to create user-defined Data collector Set for monitoring all Server instances on the computer that is running Business Cenytral Server.",
-    "ms_date": "2021-04-01",
+    "description": "Create a Data Collector Set from the Business Central Server template to collect performance counters for server instances, memory, disks, and SQL Server.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 322,
+    "ai_usage": "ai-assisted",
+    "words": 312,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e81d948de7e7fecaca1edd6dd215c82f2b64ac4ff56e7f33d09a42aee313e8b9"
+  "output_hash": "9f968c2507833837949319e36c70e02f639995440c226dea1eded22d80a77a12"
 }

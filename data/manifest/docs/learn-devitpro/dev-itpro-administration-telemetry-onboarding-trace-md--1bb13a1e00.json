@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing onboarding telemetry",
+  "title": "Analyzing Onboarding Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-onboarding-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.470Z",
-      "blob": "d13bf56b0d4015df7e8c4b577178f8bf14ea4cdc",
-      "words": 142,
+      "at": "2026-11-19T00:24:33.160Z",
+      "blob": "3607e60f71260b44717a924436f2bf013d4458cd",
+      "words": 295,
       "forms": 0
     },
     "extracted": {
@@ -44,20 +44,22 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-onboarding-trace.md",
-    "description": "Learn about the onboarding telemetry in Business Central",
-    "ms_date": "2023-12-21",
-    "ms_topic": "concept-article",
+    "description": "Analyze onboarding telemetry in Business Central to track registered onboarding signals, completed criteria, and the dates associated with each signal.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [
       "telemetry",
       "onboarding"
     ],
-    "ai_usage": null,
-    "words": 142,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 295,
+    "identifiers": [
+      "severityLevel"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9ad51f18be4c27db6dcb2672e4f6c9bc8a4e72d3652f2ea12960ee2c0225edbd"
+  "output_hash": "3607e60f71260b44717a924436f2bf013d4458cd"
 }

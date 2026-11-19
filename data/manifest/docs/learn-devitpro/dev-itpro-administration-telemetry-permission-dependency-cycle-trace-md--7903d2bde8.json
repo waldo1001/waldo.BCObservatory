@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing permission dependency cycle trace telemetry",
+  "title": "Analyzing Permission Dependency Cycle Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-dependency-cycle-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.760Z",
-      "blob": "6ec27a94c1b464a5ebeb49354d2c626a864977af",
-      "words": 327,
+      "at": "2026-11-19T00:24:36.067Z",
+      "blob": "bd8b2603719e1b5c24e06e007d81ecaa51216ce6",
+      "words": 323,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:39:33.327Z",
+      "at": "2026-11-19T00:24:40.074Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003537
+      "cost_usd": 0.003447
     },
     "summarized": {
-      "at": "2026-10-06T19:39:39.475Z",
+      "at": "2026-11-19T00:24:40.077Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:39:39.476Z",
+      "at": "2026-11-19T00:24:40.081Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:39:39.477Z",
+      "at": "2026-11-19T00:24:40.082Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-permission-dependency-cycle-trace.md",
-    "description": "Learn about the permission dependency cycle trace  telemetry in Business Central",
-    "ms_date": "2023-12-20",
+    "description": "Analyze permission dependency cycle telemetry in Business Central to identify circular permission set references and investigate the dependency path.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -54,15 +54,14 @@
       "permission set",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 327,
+    "ai_usage": "ai-assisted",
+    "words": 323,
     "identifiers": [
-      "permissionArea",
       "RT0032"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6073f05dc974da21dc0d641b2b938de03fb4d19d1143a1b54f1f83050eb3678a"
+  "output_hash": "25e7c1db5e67c583be711db7bd1daadb7aba3b73d6294c98704ea9c9997ad361"
 }

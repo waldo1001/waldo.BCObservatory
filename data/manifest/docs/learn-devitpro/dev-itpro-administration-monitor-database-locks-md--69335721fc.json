@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Monitoring SQL Database Locks",
+  "title": "Monitoring SQL Database Locks in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-database-locks",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.706Z",
-      "blob": "5d818e3bfc22f1ad433ee684d4623f0844ea3ffc",
-      "words": 413,
+      "at": "2026-11-19T00:24:08.245Z",
+      "blob": "af9b430bf5b682044b0e48aaffff23e87b4554c9",
+      "words": 433,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:39:20.682Z",
+      "at": "2026-11-19T00:24:12.681Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003097
+      "cost_usd": 0.003304
     },
     "summarized": {
-      "at": "2026-10-06T19:39:20.692Z",
+      "at": "2026-11-19T00:24:12.682Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:39:20.693Z",
+      "at": "2026-11-19T00:24:12.683Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:39:20.694Z",
+      "at": "2026-11-19T00:24:12.684Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/monitor-database-locks.md",
-    "description": "Read about database locks for Business Central on-premises.",
-    "ms_date": "2021-04-01",
+    "description": "Monitor database locks in Business Central to identify affected tables, SQL sessions, and AL code, and investigate transactions that block other users.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 413,
+    "ai_usage": "ai-assisted",
+    "words": 433,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6e6aa220fa231ba0fb5277934151e33b9b3b932ec260b1e98d42d87499d4d269"
+  "output_hash": "57bdfcbed012f34533b17972418e09fb8bc5ced209b31e9ac712d362abae6871"
 }

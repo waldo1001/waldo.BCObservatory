@@ -2,38 +2,44 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-faq.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-faq",
   "title": "Telemetry FAQ (Frequently Asked Questions)",
-  "blob": "47658d2dabb8ea5dff8b9119bb6e383a3220d512",
-  "summary": "Telemetry FAQ answers common questions about enabling, configuring, and analyzing Business Central telemetry sent to Azure Application Insights, including cost control and data retention.",
+  "blob": "b63e3a262adc2ee74f45b888ded6235b9de1b6cf",
+  "summary": "Telemetry FAQ addresses common questions about enabling telemetry in Business Central, sending extension telemetry to Azure Application Insights, managing costs, querying telemetry data, data retention and deletion, and privacy compliance.",
   "systems": [
-    "reporting",
-    "administration"
+    "administration",
+    "development",
+    "platform"
   ],
   "topics": [
     "telemetry",
-    "faq",
-    "application insights",
-    "cost",
+    "azure application insights",
+    "monitoring",
+    "data retention",
     "kql",
-    "log analytics"
+    "privacy",
+    "power bi"
   ],
   "objects": [],
   "features": [
     "telemetry enablement",
-    "cost control",
+    "application insights integration",
+    "log analytics querying",
     "custom dimensions overflow",
-    "data retention",
-    "log analytics queries",
-    "purge API"
+    "data retention configuration",
+    "purge api",
+    "access control",
+    "telemetry id assignment"
   ],
-  "versions": [],
+  "versions": [
+    "15.0"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005577,
-      "pages_in_call": 8
+      "cost_usd": 0.004963,
+      "pages_in_call": 1
     }
   ]
 }

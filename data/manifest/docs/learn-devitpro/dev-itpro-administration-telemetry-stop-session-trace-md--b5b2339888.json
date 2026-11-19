@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-stop-session-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.162Z",
-      "blob": "4be759c3b43bd1f6d311cc03e81eeb7e39147908",
-      "words": 531,
+      "at": "2026-11-19T00:24:40.186Z",
+      "blob": "fd6b8436c747f6ab6b96af7fe617a1b603e67a47",
+      "words": 555,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:21:01.350Z",
+      "at": "2026-11-19T00:24:44.532Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.006341
+      "objects": 3,
+      "cost_usd": 0.004079
     },
     "summarized": {
-      "at": "2026-10-06T18:21:03.250Z",
+      "at": "2026-11-19T00:25:01.281Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:21:03.251Z",
+      "at": "2026-11-19T00:25:01.282Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:21:03.252Z",
+      "at": "2026-11-19T00:25:01.287Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-stop-session-trace.md",
-    "description": "Learn about analyzing stop session telemetry in Business Central.",
-    "ms_date": "2022-07-26",
+    "description": "Analyze stop session telemetry in Business Central to identify session cancellation requests, their results, and the AL code or management client involved.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,9 +56,12 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 531,
+    "ai_usage": "ai-assisted",
+    "words": 555,
     "identifiers": [
+      "StopSession",
+      "WebClient",
+      "ManagementClient",
       "stoppingSessionID",
       "RT0029"
     ],
@@ -66,5 +69,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "545db2f4847650d6599e1581543b41829b08ac7ede7407ceadf8c26395b49296"
+  "output_hash": "2c8e9ae8b936b45acb3eb4bcea08dd0a40ea4239fa60203ce50933063ad7f5c4"
 }

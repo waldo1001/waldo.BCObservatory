@@ -1,20 +1,18 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-skip-api-data-upgrade.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade",
-  "title": "Skip API data upgrade in cloud migration",
-  "blob": "e6299d6441dd5a0a7146dd85e2d9ebdbf4d8d517",
-  "summary": "Skip API data upgrade in cloud migration to reduce long-running upgrade times by disabling the API upgrade during cloud migration and running it after going live. Use Cloud Migration Management in Business Central online or SQL queries on-premises to disable per company.",
+  "title": "Skip API Data Upgrade During Cloud Migration",
+  "blob": "8612e881797507117fed5d11942752757e6d87cf",
+  "summary": "Skip API data upgrade during cloud migration to avoid long-running upgrade processes, then complete the upgrade after going live on the tenant. The upgrade can be disabled per company from the online environment or on-premises using SQL queries.",
   "systems": [
     "integration",
-    "administration",
-    "platform"
+    "administration"
   ],
   "topics": [
     "cloud migration",
     "api upgrade",
     "data upgrade",
-    "online environment",
-    "on-premises"
+    "tenant setup"
   ],
   "objects": [
     {
@@ -23,7 +21,7 @@
     },
     {
       "type": "page",
-      "name": "API upgrade overview"
+      "name": "API Upgrade Overview"
     },
     {
       "type": "page",
@@ -31,10 +29,12 @@
     }
   ],
   "features": [
-    "skip API data upgrade",
-    "disable API data upgrade",
-    "per-company basis",
-    "cloud migration setup"
+    "Skip API data upgrade",
+    "Disable API Data Upgrades",
+    "Manage API Upgrade",
+    "Per-company upgrade control",
+    "On-premises upgrade skip",
+    "Online environment upgrade skip"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003111,
-      "pages_in_call": 2
+      "cost_usd": 0.004138,
+      "pages_in_call": 1
     }
   ]
 }

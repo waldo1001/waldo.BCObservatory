@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing Verbose Enable and Disable Telemetry | Microsoft Docs",
+  "title": "Analyzing Verbose Logging Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-verbose-logging-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.969Z",
-      "blob": "4d0f19801194a9486a786369c38070b182607695",
-      "words": 448,
+      "at": "2026-11-19T00:24:42.282Z",
+      "blob": "20dbf1e4bc953c57e72dd5bdd1210b159cc80361",
+      "words": 459,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:03:09.375Z",
+      "at": "2026-11-19T00:25:01.343Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003456
+      "cost_usd": 0.003578
     },
     "summarized": {
-      "at": "2026-10-06T19:03:09.386Z",
+      "at": "2026-11-19T00:25:01.345Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:03:09.388Z",
+      "at": "2026-11-19T00:25:01.353Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:03:09.389Z",
+      "at": "2026-11-19T00:25:01.354Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-verbose-logging-trace.md",
-    "description": "Learn about the verbose logging telemetry in Business Central",
-    "ms_date": "2022-03-23",
+    "description": "Analyze verbose logging telemetry in Business Central to see when additional logging starts and ends for a session while troubleshooting user problems.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,8 +56,8 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 448,
+    "ai_usage": "ai-assisted",
+    "words": 459,
     "identifiers": [
       "RT0023",
       "RT0024"
@@ -66,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "531ca9837ea8134f44f37719ac29be65e8d1af55624b44297e94906f5e11b958"
+  "output_hash": "5c31e31b6be61ac60de31caef0a92c9e1669348c1cafbce46c8b0c286cecb239"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing profile configuration lifecycle telemetry",
+  "title": "Analyzing Profile Configuration Lifecycle Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-profile-configuration-lifecycle-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.960Z",
-      "blob": "49d288da2c794db4e88fa9e533f4f1e0778624aa",
-      "words": 1244,
+      "at": "2026-11-19T00:24:37.552Z",
+      "blob": "84100ad99b29c062bd0b1512f825d9816d86a6e6",
+      "words": 1267,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:03:03.296Z",
+      "at": "2026-11-19T00:24:42.221Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.007288
+      "cost_usd": 0.01099
     },
     "summarized": {
-      "at": "2026-10-06T19:03:05.090Z",
+      "at": "2026-11-19T00:24:42.222Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:03:05.091Z",
+      "at": "2026-11-19T00:24:42.223Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:03:05.092Z",
+      "at": "2026-11-19T00:24:42.223Z",
       "page": false
     }
   },
@@ -44,13 +44,13 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-profile-configuration-lifecycle-trace.md",
-    "description": "Learn about the telemetry for configuration profiles using the in-client designer.",
-    "ms_date": "2023-12-18",
+    "description": "Analyze Business Central profile configuration telemetry to track profile imports, exports, copying, creation, deletion, and page customization changes.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1244,
+    "ai_usage": "ai-assisted",
+    "words": 1267,
     "identifiers": [
       "LC0046",
       "LC0047",
@@ -67,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1bfac455c642729d2ea437d164d4e18248e0ec86c1b128ab719c4816738297eb"
+  "output_hash": "5eac37e55a6a624290b96db3efd0a0ca30206680f4c07274e289500fa37cea08"
 }

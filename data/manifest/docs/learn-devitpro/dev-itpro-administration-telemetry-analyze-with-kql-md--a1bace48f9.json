@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyze and monitor telemetry with KQL",
+  "title": "Analyze and Monitor Telemetry with KQL",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:42.480Z",
-      "blob": "34988f0b0a2f1d5f630dda8f3acdbad0922ee590",
-      "words": 1380,
+      "at": "2026-11-19T00:24:14.137Z",
+      "blob": "6d3d912575836ea5447b1d42fdb0c1023a96feb9",
+      "words": 1374,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:43:52.199Z",
+      "at": "2026-11-19T00:24:19.013Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.006174
+      "cost_usd": 0.017465
     },
     "summarized": {
-      "at": "2026-10-06T19:44:04.181Z",
+      "at": "2026-11-19T00:24:19.014Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:44:04.182Z",
+      "at": "2026-11-19T00:24:19.017Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:44:04.183Z",
+      "at": "2026-11-19T00:24:19.018Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-analyze-with-kql.md",
-    "description": "Learn how to query Business Central telemetry with KQL.",
-    "ms_date": "2024-12-19",
+    "description": "Query Business Central telemetry with Kusto Query Language to follow sessions and users, investigate performance, and analyze report usage.",
+    "ms_date": "2026-11-17",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -56,8 +56,8 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 1380,
+    "ai_usage": "ai-assisted",
+    "words": 1374,
     "identifiers": [
       "pageViews",
       "customDimensions"
@@ -66,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c8ab7142368418bb29b0e92873524788ce8ad57e56740b87ec4030d454d4eacf"
+  "output_hash": "50017c981cc15b3098630b1229f4c1f1bf06da445baa8c40215a502310204d97"
 }

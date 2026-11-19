@@ -1,0 +1,100 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13920,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13920",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-18T05:41:09Z",
+  "merge_commit_sha": "cf42687b29edfc14c5db330a4f93367b3bcca8cd",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main] - Bug 656559: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)",
+  "body_hash": "10aafba5d4d1d5b520367ffff6494d7c978a11a292330570efcfa9d49e1fbadb",
+  "fixes_issues": [],
+  "work_items": [
+    656559
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/Expense.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLine.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportLine.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 12,
+    "deletions": 6,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/Expense.Table.al",
+        "status": "modified",
+        "key": "table/6900",
+        "type": "table",
+        "id": 6900,
+        "name": "Expense",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6900"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLine.Table.al",
+        "status": "modified",
+        "key": "table/6907",
+        "type": "table",
+        "id": 6907,
+        "name": "Expense Report Line",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6907"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportLine.Table.al",
+        "status": "modified",
+        "key": "table/6916",
+        "type": "table",
+        "id": 6916,
+        "name": "Posted Expense Report Line",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6916"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

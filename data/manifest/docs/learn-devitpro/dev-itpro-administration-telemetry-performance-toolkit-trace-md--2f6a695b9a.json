@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing Performance Toolkit Telemetry",
+  "title": "Performance Toolkit Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-performance-toolkit-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.259Z",
-      "blob": "5bd4a72d8ea49fbd2408989bdc1b4f533c2fbb41",
-      "words": 1362,
+      "at": "2026-11-19T00:24:34.310Z",
+      "blob": "f9478a0a9440c1391cf5b848a34a1a01cd1f23c8",
+      "words": 1356,
       "forms": 0
     },
     "extracted": {
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-performance-toolkit-trace.md",
-    "description": "Learn about the telemetry for the Performance Toolkit in Business Central",
-    "ms_date": "2023-03-22",
-    "ms_topic": "concept-article",
+    "description": "Analyze Performance Toolkit telemetry in Business Central to monitor test runs and compare scenario duration, SQL statement counts, and execution results.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [
       "administration",
@@ -59,12 +59,16 @@
       "Performance Toolkit",
       "performance"
     ],
-    "ai_usage": null,
-    "words": 1362,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 1356,
+    "identifiers": [
+      "severityLevel",
+      "alCodeunitName",
+      "alOperation"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "07c95a77594891416d70c3f472d3a58a5e3a55b84cf75ecffbe526118fe4dada"
+  "output_hash": "f9478a0a9440c1391cf5b848a34a1a01cd1f23c8"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Alert on Telemetry",
+  "title": "Set Up Business Central Telemetry Alerts",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:42.553Z",
-      "blob": "cfe58fd1562cfc41d3ef72b595ecf5ad9b2222ee",
-      "words": 659,
+      "at": "2026-11-19T00:24:12.950Z",
+      "blob": "dad53c881caf61ada32c25c438d89940b2bd55a5",
+      "words": 679,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:44:08.537Z",
+      "at": "2026-11-19T00:24:17.669Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003679
+      "cost_usd": 0.00411
     },
     "summarized": {
-      "at": "2026-10-06T19:44:15.457Z",
+      "at": "2026-11-19T00:24:17.671Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:44:15.458Z",
+      "at": "2026-11-19T00:24:17.673Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:44:15.459Z",
+      "at": "2026-11-19T00:24:17.674Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-alert.md",
-    "description": "Learn how to alert on Business Central telemetry.",
-    "ms_date": "2022-11-17",
+    "description": "Set up alerts on Business Central telemetry with Azure Monitor, Logic Apps, or Power Automate to respond to issues and environment changes.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,17 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 659,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 679,
+    "identifiers": [
+      "AppTraces",
+      "TimeGenerated",
+      "customDimensions",
+      "LC0101"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d05d189e77d03065b1785abf683f720baac940e9fcdec9b14c6cd7e870105af1"
+  "output_hash": "d2a4574c605fb8b2a7896ceb0a07c3a49087f3475347dd983ecd4b7d87f4588d"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Monitoring Long Running SQL Queries to the Event Log",
+  "title": "Monitoring Long-Running SQL Queries in the Event Log",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-long-running-sql-queries-event-log",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.400Z",
-      "blob": "de533db668f84153098ca6c30bd0f06d37f78c15",
-      "words": 1070,
+      "at": "2026-11-19T00:24:10.074Z",
+      "blob": "c305493ceeb5670943b5929e78ef21941bfaf2b6",
+      "words": 1067,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T14:22:43.958Z",
+      "at": "2026-11-19T00:24:14.050Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005878
+      "cost_usd": 0.003533
     },
     "summarized": {
-      "at": "2026-10-06T14:22:43.962Z",
+      "at": "2026-11-19T00:24:14.055Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:22:43.962Z",
+      "at": "2026-11-19T00:24:14.059Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:22:43.962Z",
+      "at": "2026-11-19T00:24:14.065Z",
       "page": false
     }
   },
@@ -44,17 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/monitor-long-running-sql-queries-event-log.md",
-    "description": "This topic provides an overview on how to monitor long running SQL queries in the event log starting with NAV 2017.",
-    "ms_date": "2021-04-01",
+    "description": "Monitor long-running SQL queries from Business Central Server in the Windows event log and Application Insights to investigate slow database operations.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1070,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 1067,
+    "identifiers": [
+      "SqlLongRunningThreshold",
+      "SqlLongRunningThresholdForApplicationInsights"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1fb6890ad2ea9326e4d8982e5b8f9ad79d4db0899bd27ab240404324dc282a9c"
+  "output_hash": "0b52adbacf9ed2717fa75271307a9117541b6dfd7002bbe232b2f8a178d3c4b3"
 }

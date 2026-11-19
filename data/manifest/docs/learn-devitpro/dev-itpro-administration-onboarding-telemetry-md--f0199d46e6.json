@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Measure onboarding progress using telemetry",
+  "title": "Measure Onboarding Progress Using Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-telemetry",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.456Z",
-      "blob": "0a86d8b8998992387b8f7824ae45dfeb5baff0ce",
-      "words": 517,
+      "at": "2026-11-19T00:24:12.716Z",
+      "blob": "7c975c0b991c9400e8146def69635614f394ed3d",
+      "words": 526,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:33:26.413Z",
+      "at": "2026-11-19T00:24:18.413Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 7,
-      "cost_usd": 0.003843
+      "objects": 8,
+      "cost_usd": 0.005188
     },
     "summarized": {
-      "at": "2026-10-06T19:33:28.252Z",
+      "at": "2026-11-19T00:24:18.414Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:33:28.252Z",
+      "at": "2026-11-19T00:24:18.417Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:33:28.253Z",
+      "at": "2026-11-19T00:24:18.420Z",
       "page": false
     }
   },
@@ -45,16 +45,18 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/onboarding-telemetry.md",
     "description": "Learn how you can use onboarding telemetry to measure customers' progress with onboarding to Dynamics 365 Business Central.",
-    "ms_date": "2025-01-30",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 517,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 526,
+    "identifiers": [
+      "LogMessage"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3c442f0abf75681bebc9a3a0ae2a2e9237441dc91530ac0a0c2dd211cd29e8d2"
+  "output_hash": "0c162af2a2824f49785098c7a4bec9d7b3ee593c83779c0def16f8f97fc2be07"
 }

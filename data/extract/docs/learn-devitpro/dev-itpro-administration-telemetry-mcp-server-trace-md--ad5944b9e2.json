@@ -2,27 +2,30 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-server-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-mcp-server-trace",
   "title": "Analyze MCP Server Tool Calls Telemetry",
-  "blob": "bb483b3d427c3fb638cf81cebd978f19995ca6da",
-  "summary": "MCP Server telemetry tracks tool calls made through Model Context Protocol configurations in Business Central. Use event RT0054 to monitor MCP tool usage, success rates, and troubleshoot failures.",
+  "blob": "fc2d9faf8bc38c82f4304a3ec77ff0b738c00cd7",
+  "summary": "MCP server telemetry in Business Central tracks data about tool calls from external MCP hosts, with event ID RT0054 capturing call details including configuration, tool names, results, and execution times for monitoring external client usage.",
   "systems": [
-    "copilot",
     "integration",
-    "administration"
+    "administration",
+    "copilot"
   ],
   "topics": [
-    "mcp",
+    "mcp server",
     "telemetry",
-    "tool-calls",
+    "tool calls",
     "monitoring",
-    "kql"
+    "kql queries",
+    "event tracking"
   ],
   "objects": [],
   "features": [
-    "MCP Server tool calls",
-    "Telemetry event RT0054",
-    "Tool invocation tracking",
-    "Configuration monitoring",
-    "Failure analysis"
+    "MCP server tool call telemetry",
+    "tool invocation result tracking",
+    "failure reason reporting",
+    "execution time metrics",
+    "configuration tracking",
+    "client identification",
+    "dynamic tool support"
   ],
   "versions": [
     "2026 release wave 1",
@@ -34,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006414,
-      "pages_in_call": 8
+      "cost_usd": 0.004612,
+      "pages_in_call": 1
     }
   ]
 }

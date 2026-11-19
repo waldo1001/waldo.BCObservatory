@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyze and monitor telemetry with Power BI",
+  "title": "Analyze and Monitor Telemetry with Power BI",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.968Z",
-      "blob": "b101349c7505d521644d79083eafd060b61603aa",
-      "words": 3265,
+      "at": "2026-11-19T00:24:37.404Z",
+      "blob": "b8dede8ef866bb1a5392a19b576d28badd471f83",
+      "words": 3279,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:48:16.204Z",
+      "at": "2026-11-19T00:24:43.290Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005577
+      "cost_usd": 0.015307
     },
     "summarized": {
-      "at": "2026-10-06T18:48:17.876Z",
+      "at": "2026-11-19T00:24:43.291Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:48:17.877Z",
+      "at": "2026-11-19T00:24:43.291Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:48:17.878Z",
+      "at": "2026-11-19T00:24:43.292Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-power-bi-app.md",
-    "description": "Learn how to install, configure, and use the Power BI app on Business Central telemetry data.",
-    "ms_date": "2024-03-21",
+    "description": "Install and configure Power BI apps for Business Central telemetry to analyze usage, investigate errors, and monitor environment performance.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 3265,
+    "ai_usage": "ai-assisted",
+    "words": 3279,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1941914f8e0441af9ed7c7696c85dd55ff14a64fbfb46be6aa9ca63c4cefd791"
+  "output_hash": "f95380fa0776c561edbca9dde353a0a92cdfd9d5523d5afd16607702f253af45"
 }

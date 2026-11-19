@@ -7,15 +7,15 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_environment_settings",
   "published_at": "2026-11-18T11:28:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-14T00:14:22.762Z",
-      "blob": "ae1be2842200d5339a122a4c652916d3e11ffd0d",
-      "words": 1364,
+      "at": "2026-11-19T00:24:02.265Z",
+      "blob": "27d486db033344f92b79c3cceec2a4a7ace0ddc6",
+      "words": 1649,
       "forms": 0
     }
   },
@@ -26,7 +26,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/administration-center-api_environment_settings.md",
     "description": "Configure Business Central environment settings via Admin Center API, including update windows, App Insights, security groups, and access controls.",
-    "ms_date": "2026-11-13",
+    "ms_date": "2026-11-18",
     "ms_topic": "reference",
     "search_form": [],
     "keywords": [
@@ -37,7 +37,7 @@
       "telemetry"
     ],
     "ai_usage": "ai-assisted",
-    "words": 1364,
+    "words": 1649,
     "identifiers": [
       "apiVersion",
       "applicationFamily",
@@ -52,11 +52,18 @@
       "ScheduledUpgradeConstraintViolation",
       "cannotSetAppInsightsKey",
       "AllowAllPartnerTenants",
-      "AllowSelectedPartnerTenants"
+      "AllowSelectedPartnerTenants",
+      "moveToSandboxDatabaseConfiguration",
+      "invalidTenantLicense",
+      "productionConfigurationNotEligible",
+      "productionConfigurationAlreadyActive",
+      "productionConfigurationMonthlyLimitReached",
+      "productionConfigurationQuotaCheckUnavailable",
+      "productionConfigurationOutcomeUnknown"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ae1be2842200d5339a122a4c652916d3e11ffd0d"
+  "output_hash": "27d486db033344f92b79c3cceec2a4a7ace0ddc6"
 }

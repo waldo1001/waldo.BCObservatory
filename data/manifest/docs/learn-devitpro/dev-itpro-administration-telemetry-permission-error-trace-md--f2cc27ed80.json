@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.464Z",
-      "blob": "a66c7da4f5f70839b98e59a8f92703268c61b252",
-      "words": 369,
+      "at": "2026-11-19T00:24:36.411Z",
+      "blob": "c7059b1c81551a597392f06c602975bcdb818873",
+      "words": 362,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:43:56.204Z",
+      "at": "2026-11-19T00:24:40.060Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00627
+      "cost_usd": 0.003946
     },
     "summarized": {
-      "at": "2026-10-06T18:43:58.017Z",
+      "at": "2026-11-19T00:24:40.062Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:43:58.018Z",
+      "at": "2026-11-19T00:24:40.062Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:43:58.019Z",
+      "at": "2026-11-19T00:24:40.063Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-permission-error-trace.md",
-    "description": "Learn about the permission error telemetry in Business Central",
-    "ms_date": "2022-07-27",
+    "description": "Analyze permission error telemetry in Business Central to identify missing permissions, inspect affected objects, and investigate errors reported to users.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,15 +56,16 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 369,
+    "ai_usage": "ai-assisted",
+    "words": 362,
     "identifiers": [
       "permissionArea",
+      "WebClient",
       "RT0031"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c840591ed7f3eacd1c2e747aed9bae090432fb2a3a60b77915ff1797739ee529"
+  "output_hash": "6e40c669b6bb8b2f07d5dbeadaf6f9164324bfce7f1615a704df361800fbb4f0"
 }

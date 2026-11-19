@@ -1,30 +1,36 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-database-deadlocks.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-database-deadlocks",
-  "title": "Monitoring SQL Database Deadlocks",
-  "blob": "3ad5e036475ebd4e92e4e27c9e087cc535e08a84",
-  "summary": "SQL database deadlock logging records deadlock events in the Windows Event Log with AL code context and SQL Server deadlock reports to help identify application design issues causing transactions to block each other.",
+  "title": "Monitoring SQL Database Deadlocks in Business Central",
+  "blob": "dc7210a297add9e7617c5afc9fe70b89090a619f",
+  "summary": "Setting up and monitoring SQL Server deadlocks in Business Central by configuring SQL Server permissions, enabling deadlock logging on the server instance, and viewing results in Windows Event Viewer or Application Insights.",
   "systems": [
-    "administration",
-    "platform"
+    "platform",
+    "administration"
   ],
   "topics": [
     "deadlock monitoring",
-    "database performance",
-    "logging",
-    "event viewer"
+    "sql server",
+    "event logging",
+    "performance",
+    "database administration",
+    "troubleshooting"
   ],
   "objects": [],
   "features": [
-    "Deadlock logging",
-    "Enable Deadlock Monitoring",
-    "Extended Events",
+    "EnableDeadlockMonitoring setting",
     "ring_buffer target",
     "event_file target",
-    "deadlock_report_event_file_view"
+    "Windows Event Viewer logging",
+    "Application Insights telemetry",
+    "SQL Server Extended Events",
+    "deadlock XML reports",
+    "Event ID 705"
   ],
   "versions": [
-    "Cumulative Update 3"
+    "version 20",
+    "version 21",
+    "version 29"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -32,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003352,
-      "pages_in_call": 8
+      "cost_usd": 0.01044,
+      "pages_in_call": 1
     }
   ]
 }

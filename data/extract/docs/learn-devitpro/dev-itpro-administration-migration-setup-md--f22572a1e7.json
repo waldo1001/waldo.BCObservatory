@@ -1,29 +1,49 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-setup.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup",
-  "title": "Run Cloud Migration Setup",
-  "blob": "4c6a15e1a1017e1af4c7e63adb24e9273d39bed2",
-  "summary": "Cloud Migration Setup configures components and connections to migrate data from Business Central on-premises to online, with support for delegated administrators and multiple company migrations.",
+  "title": "Run Business Central Cloud Migration Setup",
+  "blob": "5b551d9b11efd5b8311146ba746ec10a576f20ee",
+  "summary": "Cloud Migration Setup guides configuring components and connections to migrate data from Business Central on-premises to Business Central online, including SQL database connection, company selection, and delegated administrator approval workflows.",
   "systems": [
+    "administration",
     "integration",
-    "administration"
+    "platform"
   ],
   "topics": [
     "cloud migration",
-    "data migration",
+    "data replication",
+    "setup guide",
     "on-premises to online",
-    "assisted setup",
-    "sql database",
-    "azure data factory"
+    "sql database connection",
+    "delegated administrators"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Setup"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "Delegated admin consent for cloud migration"
+    },
+    {
+      "type": "page",
+      "name": "Select Companies to Migrate"
+    }
+  ],
   "features": [
-    "Cloud Migration Setup",
-    "delegated administrator approval",
-    "table mappings",
-    "permission retention",
-    "multiple company selection",
-    "integration runtime configuration"
+    "Cloud Migration Setup assisted setup guide",
+    "SQL database connection configuration",
+    "Integration runtime setup",
+    "Company selection and migration",
+    "Delegated administrator approval",
+    "Table mappings",
+    "User permission retention",
+    "Data pipeline management"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007288,
-      "pages_in_call": 7
+      "cost_usd": 0.005116,
+      "pages_in_call": 1
     }
   ]
 }

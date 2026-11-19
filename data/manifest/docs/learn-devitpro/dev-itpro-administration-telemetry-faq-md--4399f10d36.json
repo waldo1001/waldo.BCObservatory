@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-faq",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.958Z",
-      "blob": "47658d2dabb8ea5dff8b9119bb6e383a3220d512",
-      "words": 990,
+      "at": "2026-11-19T00:24:31.865Z",
+      "blob": "b63e3a262adc2ee74f45b888ded6235b9de1b6cf",
+      "words": 1022,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:48:16.203Z",
+      "at": "2026-11-19T00:24:36.035Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005577
+      "cost_usd": 0.004963
     },
     "summarized": {
-      "at": "2026-10-06T18:48:16.214Z",
+      "at": "2026-11-19T00:24:36.036Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:48:17.871Z",
+      "at": "2026-11-19T00:24:36.037Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:48:17.873Z",
+      "at": "2026-11-19T00:24:36.037Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-faq.md",
-    "description": "See frequently asked questions we get on telemetry in Business Central",
-    "ms_date": "2024-07-23",
-    "ms_topic": "how-to",
+    "description": "Get answers about Business Central telemetry setup, costs, privacy, retention, access, and querying data in Azure Application Insights.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "faq",
     "search_form": [],
     "keywords": [
       "administration",
@@ -56,8 +56,8 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 990,
+    "ai_usage": "ai-assisted",
+    "words": 1022,
     "identifiers": [
       "customDimensions",
       "extensionCompilationDependencyList"
@@ -66,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "239ff07dfbe905314bd52888c0b4f7fd3ace84d90cc2ab4aa09cdb7cdf031eba"
+  "output_hash": "d1ebaf10b2ddabc9a2a6f0d71fc9e7294d586225e53ebb66dc5b68ff77cbf795"
 }

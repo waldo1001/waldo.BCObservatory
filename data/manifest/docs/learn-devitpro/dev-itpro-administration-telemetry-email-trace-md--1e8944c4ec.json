@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyze email trace telemetry",
+  "title": "Analyzing Email Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.535Z",
-      "blob": "59f14a7af695451520523c6a9b6d54d853fead89",
-      "words": 650,
+      "at": "2026-11-19T00:24:27.384Z",
+      "blob": "d5215a42a33d72104451240115f9fb467efb124c",
+      "words": 596,
       "forms": 0
     },
     "extracted": {
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-email-trace.md",
-    "description": "Learn about the email telemetry in Business Central",
-    "ms_date": "2024-01-02",
-    "ms_topic": "how-to",
+    "description": "Analyze email telemetry in Business Central to monitor email delivery and troubleshoot failures when connecting or authenticating to SMTP servers.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [
       "administration",
@@ -56,12 +56,14 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 650,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 596,
+    "identifiers": [
+      "severityLevel"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ddf57faad0b64c8d05292693dff2edb8b5c9cafc87c48fc21ae62caa02992b6f"
+  "output_hash": "d5215a42a33d72104451240115f9fb467efb124c"
 }

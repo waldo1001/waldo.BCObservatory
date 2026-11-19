@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments",
   "published_at": "2026-11-18T11:28:33.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-16T00:26:45.639Z",
-      "blob": "dc8779287cd71cf01455847158cfd548bcc7642a",
-      "words": 1394,
+      "at": "2026-11-19T00:24:02.304Z",
+      "blob": "f306dae29799019cb88b756d712e8b8f4b57cf73",
+      "words": 1454,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-16T00:26:51.608Z",
+      "at": "2026-11-19T00:24:06.775Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.011201
+      "cost_usd": 0.011263
     },
     "summarized": {
-      "at": "2026-10-16T00:26:51.610Z",
+      "at": "2026-11-19T00:24:06.776Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-16T00:26:51.612Z",
+      "at": "2026-11-19T00:24:06.777Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-16T00:26:51.613Z",
+      "at": "2026-11-19T00:24:06.778Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/tenant-admin-center-environments.md",
     "description": "Learn how to use Business Central admin center to manage tenant environments, both sandbox and production.",
-    "ms_date": "2026-09-28",
+    "ms_date": "2026-11-18",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,11 +58,11 @@
       "backup"
     ],
     "ai_usage": null,
-    "words": 1394,
+    "words": 1454,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fdc1dee8ae199e57967896e56ee91bcf3ed6b6dda42b4b32b845a5bca64e2ea8"
+  "output_hash": "7fa419bc580eec412babd2b356a21c6e65b729ebacc01fdeadb5241d5fcf3f0d"
 }

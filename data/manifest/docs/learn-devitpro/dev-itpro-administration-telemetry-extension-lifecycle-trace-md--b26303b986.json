@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Extension Lifecycle Trace Telemetry | Microsoft Docs",
+  "title": "Analyzing Extension Lifecycle Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-lifecycle-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.582Z",
-      "blob": "5905aabf5f74765f56101a335277cdbb6fc6a914",
-      "words": 7673,
+      "at": "2026-11-19T00:24:29.806Z",
+      "blob": "b9e07235cafb2a89f51b179d9a27eca6610519f0",
+      "words": 7659,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T16:14:49.082Z",
+      "at": "2026-11-19T00:24:34.256Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0
+      "cost_usd": 0.04486
     },
     "summarized": {
-      "at": "2026-10-06T16:14:59.862Z",
+      "at": "2026-11-19T00:24:34.257Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T16:14:59.863Z",
+      "at": "2026-11-19T00:24:34.258Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T16:14:59.864Z",
+      "at": "2026-11-19T00:24:34.259Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-extension-lifecycle-trace.md",
-    "description": "Learn about the extension lifecycle telemetry in Business Central",
-    "ms_date": "2021-05-12",
+    "description": "Analyze Business Central extension lifecycle telemetry to track publishing, installation, synchronization, updates, and failures across environments.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,9 +56,10 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 7673,
+    "ai_usage": "ai-assisted",
+    "words": 7659,
     "identifiers": [
+      "extensionId",
       "extensionVersion",
       "LC0020",
       "LC0021",
@@ -95,5 +96,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "346743f1c5f2228e4a10e49a49f10924d7b0340292a34823edf0accb3fa87b02"
+  "output_hash": "d1b6e612841e201377890e13e725ff7cca8b149a2d6b1f6c9340946244ab3fa9"
 }

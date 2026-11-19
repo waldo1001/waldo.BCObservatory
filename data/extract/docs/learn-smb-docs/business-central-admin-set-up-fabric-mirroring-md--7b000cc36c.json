@@ -2,42 +2,56 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-set-up-fabric-mirroring.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring",
   "title": "Set Up Business Central Data Mirroring to Microsoft Fabric",
-  "blob": "26b1af1bf1bf5ec35ef416c621c3ab3578eedd35",
-  "summary": "Set up data mirroring from Business Central online to Microsoft Fabric to synchronize Business Central data to an open mirrored database in OneLake for use with Fabric analytics tools. Configure the connection using assisted setup or the Microsoft Fabric Mirroring Setup page, select companies and tables to synchronize, and manage authentication through a service principal.",
+  "blob": "e78a14d571cbfec5bb63dd0f1099759fd75dbacc",
+  "summary": "Set up data mirroring from Business Central online to Microsoft Fabric to synchronize Business Central data with an open mirrored database for use with Fabric analytics and Power BI. Use the assisted setup guide or Microsoft Fabric Mirroring Setup page to configure the connection, authenticate with a service principal, select companies and tables, and start continuous synchronization.",
   "systems": [
     "integration",
-    "administration",
-    "reporting"
+    "reporting",
+    "administration"
   ],
   "topics": [
     "data mirroring",
     "microsoft fabric",
-    "onelake",
-    "data synchronization",
     "fabric export",
+    "data synchronization",
     "analytics",
     "authentication",
-    "service principal"
+    "open mirrored database"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Connect to Microsoft Fabric (Preview)"
+    },
+    {
+      "type": "page",
+      "name": "Microsoft Fabric Mirroring Setup (Preview)"
+    },
+    {
+      "type": "page",
+      "name": "Fabric Synchronization Overview"
+    }
+  ],
   "features": [
-    "Connect to Microsoft Fabric assisted setup",
-    "Microsoft Fabric Mirroring Setup page",
-    "data synchronization configuration",
-    "company and table selection",
-    "service principal authentication",
-    "workspace access management",
-    "export status monitoring",
-    "fabric synchronization overview"
+    "Data mirroring to Fabric",
+    "Service principal authentication",
+    "Company and table selection",
+    "Continuous synchronization",
+    "Incremental export",
+    "OneLake data availability",
+    "Connection status monitoring",
+    "Workspace access management"
   ],
-  "versions": [],
+  "versions": [
+    "29.1"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.012834,
+      "cost_usd": 0.014534,
       "pages_in_call": 1
     }
   ]

@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Feature management telemetry",
+  "title": "Feature Management Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-feature-management-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.539Z",
-      "blob": "344ace3bb044b5e6f5c2b6e6f2b6072a1658cccc",
-      "words": 182,
+      "at": "2026-11-19T00:24:32.669Z",
+      "blob": "c5ac77b9b86042dd66e6e6ce96a0ebf695cec5e7",
+      "words": 200,
       "forms": 0
     },
     "extracted": {
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-feature-management-trace.md",
-    "description": "Learn about the telemetry that is emitted from the Feature Management page in Business Central.",
-    "ms_date": "2023-12-22",
-    "ms_topic": "article",
+    "description": "Analyze feature management telemetry in Business Central to identify feature switches, their new state, and the user who changed each feature.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [
       "administration",
@@ -58,12 +58,14 @@
       "data",
       "sensitive"
     ],
-    "ai_usage": null,
-    "words": 182,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 200,
+    "identifiers": [
+      "severityLevel"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9626b6300d8f42b81913684baad5fc3a98fccf3d73c25e2ad5e9d59835af4336"
+  "output_hash": "c5ac77b9b86042dd66e6e6ce96a0ebf695cec5e7"
 }

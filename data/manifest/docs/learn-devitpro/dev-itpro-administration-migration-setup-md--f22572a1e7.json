@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Run Cloud Migration Setup",
+  "title": "Run Business Central Cloud Migration Setup",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.927Z",
-      "blob": "4c6a15e1a1017e1af4c7e63adb24e9273d39bed2",
-      "words": 1202,
+      "at": "2026-11-19T00:23:39.840Z",
+      "blob": "5b551d9b11efd5b8311146ba746ec10a576f20ee",
+      "words": 1155,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:03:03.287Z",
+      "at": "2026-11-19T00:23:54.562Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.007288
+      "objects": 4,
+      "cost_usd": 0.005116
     },
     "summarized": {
-      "at": "2026-10-06T19:03:03.297Z",
+      "at": "2026-11-19T00:23:54.563Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:03:03.298Z",
+      "at": "2026-11-19T00:23:54.563Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:03:03.298Z",
+      "at": "2026-11-19T00:23:54.564Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-setup.md",
-    "description": "This article explains how to run the Cloud Migration Setup assisted setup guide to configure the components and connection for migrating data from a Business Central on-premises database to Business Central online environment.",
-    "ms_date": "2024-03-14",
+    "description": "Run the Cloud Migration Setup guide to connect a Business Central on-premises database to an online environment and select the companies to migrate.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1202,
+    "ai_usage": "ai-assisted",
+    "words": 1155,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8082f0837ccd8a16dd9107db0981cb93389553074d6e2af567d5ed249b7036fa"
+  "output_hash": "6856a422df08ec98708a46eac06a41a12ad426067bc99685b9160b054960f52e"
 }

@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "User Checklist Trace Telemetry | Microsoft Docs",
+  "title": "User Checklist Trace Telemetry Reference",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-user-checklist-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.340Z",
-      "blob": "5125c9a55274bbb3e59365308031002aa2fbb635",
-      "words": 310,
+      "at": "2026-11-19T00:24:42.252Z",
+      "blob": "2cf6bbf7f2e9b306e44471d8e673b422989c8211",
+      "words": 420,
       "forms": 0
     },
     "extracted": {
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-user-checklist-trace.md",
-    "description": "Learn about the user checklist telemetry in Business Central",
-    "ms_date": "2025-01-17",
-    "ms_topic": "checklist",
+    "description": "Analyze user checklist telemetry in Business Central to track checklist status changes and identify the guided experience items associated with them.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [
       "administration",
@@ -56,12 +56,14 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 310,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 420,
+    "identifiers": [
+      "severityLevel"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3e3c30a5e6bdb4b637df7b1ec78cd19d161a3d53987e960619a3da24d2a05dd2"
+  "output_hash": "2cf6bbf7f2e9b306e44471d8e673b422989c8211"
 }

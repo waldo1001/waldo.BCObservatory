@@ -2,31 +2,35 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-permission-changes-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace",
   "title": "Analyzing Permission Changes Trace Telemetry",
-  "blob": "37b9999ff63fdc5301449de0573ec8a5edbfeb27",
-  "summary": "Permission changes telemetry tracks user-defined permission set creation, deletion, assignment, and modifications by extensions for security and compliance auditing.",
+  "blob": "5ad58e5a9a4217f6f646b8fc60cc07d95f434940",
+  "summary": "Permission changes trace telemetry collects data about permission set operations including creation, deletion, linking, and assignments to users and groups. Use this to monitor and audit permission set changes via telemetry events and KQL queries.",
   "systems": [
-    "administration",
-    "reporting"
+    "administration"
   ],
   "topics": [
     "telemetry",
     "permissions",
-    "security",
+    "permission sets",
+    "trace events",
+    "kql",
     "auditing",
-    "user groups",
-    "kql"
+    "user groups"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Telemetry Subscribers"
+    }
+  ],
   "features": [
-    "user-defined permission set added",
-    "user-defined permission set removed",
-    "permission set link added",
-    "permission set link removed",
-    "permission set assigned to user",
-    "permission set removed from user",
-    "permission set assigned to user group",
-    "permission set removed from user group",
-    "permission set changed by extension"
+    "Permission set added event",
+    "Permission set removed event",
+    "Permission set link added event",
+    "Permission set link removed event",
+    "Permission set assigned to user event",
+    "Permission set removed from user event",
+    "Permission set assigned to user group event",
+    "Permission set changed by extension event"
   ],
   "versions": [
     "2020 release wave 2",
@@ -38,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007288,
-      "pages_in_call": 7
+      "cost_usd": 0.01522,
+      "pages_in_call": 1
     }
   ]
 }

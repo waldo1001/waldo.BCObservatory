@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-task-scheduler-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.440Z",
-      "blob": "70db5ee3ac5763b2d2bb19e21bc24500998df88a",
-      "words": 2184,
+      "at": "2026-11-19T00:24:40.212Z",
+      "blob": "374d4717286462d2429754570ba65b4a7fcaefba",
+      "words": 2141,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T15:15:27.327Z",
+      "at": "2026-11-19T00:25:01.293Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.007462
+      "cost_usd": 0.014135
     },
     "summarized": {
-      "at": "2026-10-06T15:15:27.330Z",
+      "at": "2026-11-19T00:25:01.294Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T15:15:27.330Z",
+      "at": "2026-11-19T00:25:01.295Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T15:15:27.330Z",
+      "at": "2026-11-19T00:25:01.296Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-task-scheduler-trace.md",
-    "description": "Learn about the task scheduler telemetry in Business Central",
-    "ms_date": "2023-12-15",
+    "description": "Analyze Business Central task scheduler telemetry to track task creation and execution, investigate failures and cancellations, and monitor timeout changes.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,10 +56,11 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 2184,
+    "ai_usage": "ai-assisted",
+    "words": 2141,
     "identifiers": [
       "failureReason",
+      "customDimensions",
       "MaxTaskSchedulerSessionTimeout",
       "LC0040",
       "LC0041",
@@ -73,5 +74,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b99a3025bfdc1a886bcb5d88378a0b6129d9fc61479d17befc378763b6b22a73"
+  "output_hash": "635adbc46c0b65f4fb694cfc7a4387989f0abe1871b38ee5318fed38c73fa9da"
 }

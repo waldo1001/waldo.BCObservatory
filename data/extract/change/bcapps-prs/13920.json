@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13920",
+  "number": 13920,
+  "title": "[Main] - Bug 656559: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Address fields in expense-related tables now enforce a 50-character limit to prevent save failures on mileage report lines.",
+  "key_points": [
+    "Extended Expense table address field validation",
+    "Updated ExpenseReportLine address field validation",
+    "Updated PostedExpenseReportLine address field validation",
+    "Prevents addresses over 50 characters from being saved",
+    "Aligns with Business Central Text[50] field limits"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003159,
+    "changes_in_call": 1
+  }
+}

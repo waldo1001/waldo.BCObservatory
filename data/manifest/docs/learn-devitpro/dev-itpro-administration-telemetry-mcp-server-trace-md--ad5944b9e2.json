@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-mcp-server-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:24.281Z",
-      "blob": "bb483b3d427c3fb638cf81cebd978f19995ca6da",
-      "words": 339,
+      "at": "2026-11-19T00:24:32.832Z",
+      "blob": "fc2d9faf8bc38c82f4304a3ec77ff0b738c00cd7",
+      "words": 352,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T17:52:58.915Z",
+      "at": "2026-11-19T00:24:37.374Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.006414
+      "cost_usd": 0.004612
     },
     "summarized": {
-      "at": "2026-10-06T17:52:58.932Z",
+      "at": "2026-11-19T00:24:37.375Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:52:58.933Z",
+      "at": "2026-11-19T00:24:37.375Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:52:58.933Z",
+      "at": "2026-11-19T00:24:37.376Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-mcp-server-trace.md",
-    "description": "Learn about the MCP Server telemetry in Business Central",
-    "ms_date": "2025-01-20",
-    "ms_topic": "how-to",
+    "description": "Analyze Business Central MCP server tool call telemetry to track tool usage, investigate invocation failures, and compare performance across configurations.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "administration",
@@ -58,8 +58,8 @@
       "mcp",
       "copilot"
     ],
-    "ai_usage": null,
-    "words": 339,
+    "ai_usage": "ai-assisted",
+    "words": 352,
     "identifiers": [
       "RT0054"
     ],
@@ -67,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ea54c7b98f5ed6e7ccd3f39b1f988bdfdb7208ff115b86b76f522624888cd6d8"
+  "output_hash": "9d130b02bfc9ecb644f1d00d95f638f1405a726aad9e65393a6284027816593e"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Company lifecycle trace | Microsoft Docs",
+  "title": "Analyzing Company Lifecycle Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-company-lifecycle-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.940Z",
-      "blob": "c7611dd6b358e313298bb2f27b9651bdab0f30ae",
-      "words": 2117,
+      "at": "2026-11-19T00:24:22.719Z",
+      "blob": "ae816a2723684561211ef0ffd01a271164b0f594",
+      "words": 2077,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:03:03.290Z",
+      "at": "2026-11-19T00:24:27.347Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.007288
+      "cost_usd": 0.015815
     },
     "summarized": {
-      "at": "2026-10-06T19:03:05.082Z",
+      "at": "2026-11-19T00:24:27.348Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:03:05.083Z",
+      "at": "2026-11-19T00:24:27.349Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:03:05.084Z",
+      "at": "2026-11-19T00:24:27.349Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-company-lifecycle-trace.md",
-    "description": "Learn about the company lifecycle telemetry in Business Central",
-    "ms_date": "2023-12-21",
+    "description": "Analyze Business Central company lifecycle telemetry to track company creation, copying, and deletion, and investigate canceled or failed operations.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,8 +56,8 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 2117,
+    "ai_usage": "ai-assisted",
+    "words": 2077,
     "identifiers": [
       "LC0001",
       "LC0002",
@@ -73,5 +73,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4e3280f91b881942acb43493abd0cfe814af1c6be81ef4fcb6384021b4432922"
+  "output_hash": "b032329127a1d1ed19594ae9c87bd2f07ab6fdaa9f204130c3f6027253f655a5"
 }

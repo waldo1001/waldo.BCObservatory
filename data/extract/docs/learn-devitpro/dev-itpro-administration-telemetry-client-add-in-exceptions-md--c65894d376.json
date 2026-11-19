@@ -1,25 +1,34 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-client-add-in-exceptions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-client-add-in-exceptions",
-  "title": "Analyzing client control add-in exception telemetry",
-  "blob": "dddaeb96e3ce99c664c2da723d4a2aec10759930",
-  "summary": "Analyze control add-in exception telemetry to gather statistics about exceptions thrown in control add-ins for troubleshooting.",
+  "title": "Analyzing Client Control Add-In Exception Telemetry",
+  "blob": "23783b0efe7208b2c3045aa13c218b5961195939",
+  "summary": "Client control add-in exception telemetry collects data about exceptions thrown in control add-ins, including exception type, add-in details, and user environment information for troubleshooting and error mitigation.",
   "systems": [
-    "development",
-    "administration"
+    "administration",
+    "development"
   ],
   "topics": [
     "telemetry",
-    "control add-in",
-    "exceptions",
-    "monitoring"
+    "client control add-in",
+    "exception monitoring",
+    "troubleshooting",
+    "application insights",
+    "kql analysis"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Control add-in object"
+    }
+  ],
   "features": [
-    "exception tracking",
-    "control add-in monitoring",
-    "error reporting",
-    "Application Insights integration"
+    "exception tracking in control add-ins",
+    "Azure Application Insights integration",
+    "exception grouping by problem ID",
+    "custom dimensions logging",
+    "KQL query samples",
+    "stack trace analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003903,
-      "pages_in_call": 8
+      "cost_usd": 0.004691,
+      "pages_in_call": 1
     }
   ]
 }

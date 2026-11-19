@@ -2,29 +2,26 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-permission-error-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace",
   "title": "Analyzing Permission Error Trace Telemetry",
-  "blob": "a66c7da4f5f70839b98e59a8f92703268c61b252",
-  "summary": "Permission error trace telemetry explains how to analyze permission-related error events in Application Insights when users lack required permissions, including telemetry dimensions and KQL queries for identifying permission problems.",
+  "blob": "c7059b1c81551a597392f06c602975bcdb818873",
+  "summary": "Permission error trace telemetry helps identify and analyze permission problems users experience in Business Central by logging signals to Application Insights when users encounter permission-related error dialogs.",
   "systems": [
-    "development",
-    "administration"
+    "administration",
+    "development"
   ],
   "topics": [
     "telemetry",
     "permissions",
-    "error",
+    "error analysis",
     "application insights",
-    "monitoring",
-    "diagnostics",
-    "kql"
+    "monitoring"
   ],
   "objects": [],
   "features": [
-    "permission error shown",
+    "Permission error trace telemetry",
     "eventId RT0031",
-    "errorMessage",
-    "permissionArea",
-    "permissionType",
-    "alStackTrace"
+    "custom dimensions tracking",
+    "permission error dialogs",
+    "KQL analysis samples"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00627,
-      "pages_in_call": 8
+      "cost_usd": 0.003946,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing Changelog Configuration Changes Telemetry",
+  "title": "Analyzing Changelog Configuration Changes Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-changelog-configuration-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.935Z",
-      "blob": "b143f85a58dc7597fef60d7110c15459034581a4",
-      "words": 579,
+      "at": "2026-11-19T00:24:19.121Z",
+      "blob": "d708be5f3616d581adb98bff1118ad252348e9a6",
+      "words": 621,
       "forms": 0
     },
     "extracted": {
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-changelog-configuration-trace.md",
-    "description": "Learn about the telemetry for monitoring changes to changelog configuration in Business Central",
-    "ms_date": "2023-10-23",
-    "ms_topic": "concept-article",
+    "description": "Analyze changelog configuration telemetry in Business Central to identify fields added to tracking, logging changes, and fields removed from tracking.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [
       "administration",
@@ -58,12 +58,15 @@
       "data",
       "sensitive"
     ],
-    "ai_usage": null,
-    "words": 579,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 621,
+    "identifiers": [
+      "severityLevel",
+      "alCategory"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "20c12f2ac000c3cb6fc4e6f72eb1dd4bb48b3eebcc7988ef1e18498632fd5ed6"
+  "output_hash": "d708be5f3616d581adb98bff1118ad252348e9a6"
 }

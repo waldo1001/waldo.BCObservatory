@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-al-method-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.419Z",
-      "blob": "9dc39d0a8042905f2dcfcd62789aa433ce35f634",
-      "words": 722,
+      "at": "2026-11-19T00:24:12.728Z",
+      "blob": "179e22509d6fa1fd6e6cf7d05a7bfa0b65de29c5",
+      "words": 716,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T14:22:43.960Z",
+      "at": "2026-11-19T00:24:18.013Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005878
+      "cost_usd": 0.005276
     },
     "summarized": {
-      "at": "2026-10-06T14:22:43.965Z",
+      "at": "2026-11-19T00:24:18.014Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:22:43.965Z",
+      "at": "2026-11-19T00:24:18.015Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:22:43.966Z",
+      "at": "2026-11-19T00:24:18.015Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-al-method-trace.md",
-    "description": "Learn about analyzing long running AL methods in Business Central.",
-    "ms_date": "2025-10-14",
+    "description": "Analyze long-running AL method telemetry in Business Central to identify slow extension code, examine execution times, and troubleshoot performance issues.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,19 +56,20 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 722,
+    "ai_usage": "ai-assisted",
+    "words": 716,
     "identifiers": [
+      "extensionInfo",
+      "RT0018",
       "extensionName",
       "extensionVersion",
       "extensionPublisher",
       "subscriberExecutionCount",
-      "executionTime",
-      "RT0018"
+      "executionTime"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e50760db849cc3a37357cf268c3a877d0004883d24ac5f300ccd834f64397e15"
+  "output_hash": "c92c311c893e43598b202217027d5c48e324b165362d15979c29f2d163f9b260"
 }

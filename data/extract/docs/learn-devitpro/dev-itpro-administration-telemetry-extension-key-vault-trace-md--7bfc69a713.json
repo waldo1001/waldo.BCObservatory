@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-extension-key-vault-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace",
-  "title": "App Key Vault Secret Trace Telemetry | Microsoft Docs",
-  "blob": "80027fb972984a397823565193a7ff7a97c6172a",
-  "summary": "App key vault telemetry gathers information about extension secret acquisition from Azure Key Vaults at runtime through initialization and retrieval operations, with telemetry events and KQL sample code for troubleshooting failures.",
+  "title": "Analyzing App Key Vault Secret Trace Telemetry",
+  "blob": "827225eb1e95b19cb9b1bd6f889de5da10d9d97d",
+  "summary": "App key vault telemetry tracks the initialization and retrieval of secrets from Azure Key Vaults by extensions at runtime. Use this to monitor, troubleshoot, and analyze success or failure events in your extension's Application Insights resource.",
   "systems": [
     "development",
     "administration",
@@ -11,20 +11,22 @@
   ],
   "topics": [
     "telemetry",
-    "key vault",
+    "app key vault",
+    "azure key vault",
     "extensions",
-    "azure",
-    "secrets",
     "monitoring",
-    "troubleshooting"
+    "troubleshooting",
+    "application insights"
   ],
   "objects": [],
   "features": [
-    "App Key Vault initialization",
-    "App Key Vault secret retrieval",
-    "Failure reason tracking",
-    "KQL analysis",
-    "Telemetry dimensions"
+    "App key vault secret initialization",
+    "App key vault secret retrieval",
+    "TryInitializeFromCurrentApp method",
+    "GetSecret method",
+    "Azure Key Vault Client Identity",
+    "failure reason tracking",
+    "KQL analysis queries"
   ],
   "versions": [],
   "parts": 1,
@@ -33,7 +35,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.011614,
+      "cost_usd": 0.011792,
       "pages_in_call": 1
     }
   ]

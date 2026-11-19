@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.573Z",
-      "blob": "cc9f266b5fd24df4da9395d3cc617d05a922085c",
-      "words": 2044,
+      "at": "2026-11-19T00:23:57.077Z",
+      "blob": "3106a5b404d303606b4b4bd915627158384884f9",
+      "words": 2006,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T16:14:49.075Z",
+      "at": "2026-11-19T00:24:03.009Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0
+      "objects": 2,
+      "cost_usd": 0.011272
     },
     "summarized": {
-      "at": "2026-10-06T16:14:59.856Z",
+      "at": "2026-11-19T00:24:03.010Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T16:14:59.857Z",
+      "at": "2026-11-19T00:24:03.012Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T16:14:59.858Z",
+      "at": "2026-11-19T00:24:03.014Z",
       "page": false
     }
   },
@@ -45,15 +45,15 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-troubleshooting.md",
     "description": "Learn how to troubleshoot problems that you might experience with the cloud migration to Business Central online from on-premises.",
-    "ms_date": "2025-05-19",
+    "ms_date": "2026-11-17",
     "ms_topic": "troubleshooting",
     "search_form": [],
     "keywords": [
       "cloud",
       "edge"
     ],
-    "ai_usage": null,
-    "words": 2044,
+    "ai_usage": "ai-assisted",
+    "words": 2006,
     "identifiers": [
       "applicationVersion"
     ],
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5f33975039aece17d5cf268a1c8df9771e7e73dac7b12ef7a616adddce442282"
+  "output_hash": "cf392abce443b3e39e2ce32821103edb7a7f7141ee1a23df99b5460421a5e5fb"
 }

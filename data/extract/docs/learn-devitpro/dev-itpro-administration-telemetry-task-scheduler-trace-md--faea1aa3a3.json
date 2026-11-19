@@ -2,29 +2,31 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-task-scheduler-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-task-scheduler-trace",
   "title": "Analyzing Task Scheduler Telemetry",
-  "blob": "70db5ee3ac5763b2d2bb19e21bc24500998df88a",
-  "summary": "Analyze task scheduler telemetry traces in Application Insights to monitor scheduled task execution, failures, retries, and performance. Monitor task lifecycle events including creation, readiness, completion, cancellation, and failure outcomes.",
+  "blob": "374d4717286462d2429754570ba65b4a7fcaefba",
+  "summary": "Task Scheduler telemetry traces document how to analyze task creation, execution, failures, and completion events. Use this to monitor and debug scheduled tasks in Business Central by querying trace dimensions like task ID, codeunit object ID, timeout, and execution results.",
   "systems": [
-    "platform",
-    "reporting"
+    "administration",
+    "development",
+    "platform"
   ],
   "topics": [
     "telemetry",
     "task scheduler",
-    "diagnostics",
     "monitoring",
-    "kql",
-    "performance"
+    "diagnostics",
+    "performance",
+    "troubleshooting"
   ],
   "objects": [],
   "features": [
-    "task creation traces",
-    "task completion traces",
-    "task failure analysis",
-    "task cancellation handling",
-    "timeout management",
-    "retry tracking",
-    "KQL query samples"
+    "Task created trace",
+    "Task ready trace",
+    "Task removed trace",
+    "Task canceled trace",
+    "Task failed trace",
+    "Task completed trace",
+    "Task timeout changed trace",
+    "KQL analysis"
   ],
   "versions": [
     "version 22.0"
@@ -35,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007462,
-      "pages_in_call": 6
+      "cost_usd": 0.014135,
+      "pages_in_call": 1
     }
   ]
 }

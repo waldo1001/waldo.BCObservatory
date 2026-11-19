@@ -1,25 +1,27 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-verbose-logging-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-verbose-logging-trace",
-  "title": "Analyzing Verbose Enable and Disable Telemetry | Microsoft Docs",
-  "blob": "4d0f19801194a9486a786369c38070b182607695",
-  "summary": "Verbose telemetry is recorded when additional logging is turned on or off for a Business Central session to help troubleshoot issues.",
+  "title": "Analyzing Verbose Logging Telemetry",
+  "blob": "20dbf1e4bc953c57e72dd5bdd1210b159cc80361",
+  "summary": "Verbose logging telemetry traces record when additional logging is enabled or disabled in Business Central sessions, including event details and custom dimensions like tenant ID and environment type.",
   "systems": [
     "administration",
-    "platform"
+    "platform",
+    "development"
   ],
   "topics": [
     "telemetry",
-    "logging",
     "verbose logging",
-    "session tracking",
-    "troubleshooting"
+    "diagnostic traces",
+    "monitoring",
+    "session logging"
   ],
   "objects": [],
   "features": [
-    "verbose logging",
-    "session telemetry",
-    "additional logging"
+    "verbose telemetry enabled for session",
+    "verbose telemetry disabled for session",
+    "Help and Support page logging",
+    "AL call logging control"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003456,
-      "pages_in_call": 8
+      "cost_usd": 0.003578,
+      "pages_in_call": 1
     }
   ]
 }

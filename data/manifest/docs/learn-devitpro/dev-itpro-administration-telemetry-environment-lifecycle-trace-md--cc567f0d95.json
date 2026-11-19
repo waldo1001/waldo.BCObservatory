@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing Environment Lifecycle Trace Telemetry",
+  "title": "Environment Lifecycle Telemetry in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-environment-lifecycle-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.051Z",
-      "blob": "b6ae32c51edb95ccf6226b9ddf0d4a1f731b71c2",
-      "words": 4935,
+      "at": "2026-11-19T00:24:27.517Z",
+      "blob": "ff1cce0f2a0f324b2c3c4b932e69ec30a48922c3",
+      "words": 4944,
       "forms": 0
     },
     "extracted": {
@@ -44,13 +44,13 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-environment-lifecycle-trace.md",
-    "description": "Learn about the environment lifecycle telemetry in Business Central.",
-    "ms_date": "2025-03-31",
-    "ms_topic": "concept-article",
+    "description": "Analyze Business Central environment lifecycle telemetry to monitor updates, restarts, copies, restores, transfers, and other administrative operations.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 4935,
+    "ai_usage": "ai-assisted",
+    "words": 4944,
     "identifiers": [
       "LC0100",
       "LC0101",
@@ -97,5 +97,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fdea23811bb40267c7b0505866134025c15b77b4bc49061b9dba7a8844497e0f"
+  "output_hash": "ff1cce0f2a0f324b2c3c4b932e69ec30a48922c3"
 }

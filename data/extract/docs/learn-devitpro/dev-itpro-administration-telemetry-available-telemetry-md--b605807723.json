@@ -1,25 +1,28 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-available-telemetry.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry",
-  "title": "Available Telemetry",
-  "blob": "bfd83648841c65e75d7be648a717409d4f5b5c8d",
-  "summary": "Overview of telemetry events available in Application Insights for Business Central, covering application, client, lifecycle, and runtime events by event ID.",
+  "title": "Available Business Central Telemetry",
+  "blob": "91d62f52fe734aac221c5c058bd7d28ac6aae8bb",
+  "summary": "Available Business Central Telemetry documents the telemetry events that Business Central emits to Azure Application Insights, organized by area and event ID, to help monitor operations.",
   "systems": [
     "administration",
-    "platform"
+    "platform",
+    "reporting"
   ],
   "topics": [
     "telemetry",
     "application insights",
     "monitoring",
-    "event logging"
+    "diagnostics",
+    "event tracking"
   ],
   "objects": [],
   "features": [
-    "application events",
-    "client events",
+    "Application Insights integration",
+    "telemetry event IDs",
     "lifecycle events",
-    "runtime events"
+    "runtime events",
+    "client events"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002917,
-      "pages_in_call": 8
+      "cost_usd": 0.005434,
+      "pages_in_call": 1
     }
   ]
 }

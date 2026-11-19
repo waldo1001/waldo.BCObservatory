@@ -1,35 +1,47 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-webservices-outgoing-certificate-validation-errors.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-outgoing-certificate-validation-errors",
-  "title": "Server certificate validation errors for outgoing web service requests",
-  "blob": "a9ca0e304f6cc081a4d3ccfffd749bd92407de02",
-  "summary": "Analyze server certificate validation errors in outgoing web service requests using HTTPClient to identify certificate issues on remote endpoints.",
+  "title": "Outgoing Web Service Certificate Validation Error Telemetry",
+  "blob": "395a90147ea01eecbc2b197b8e0dfcfcca0c5358",
+  "summary": "Outgoing web service certificate validation error telemetry tracks server certificate validation failures when AL HttpClient makes outgoing requests, helping diagnose connectivity issues with external endpoints.",
   "systems": [
     "integration",
-    "development"
+    "development",
+    "administration"
   ],
   "topics": [
     "telemetry",
-    "ssl certificate",
-    "http client",
-    "web services"
-  ],
-  "objects": [],
-  "features": [
+    "web services",
     "certificate validation",
-    "HTTP request monitoring",
-    "certificate chain analysis",
-    "endpoint validation"
+    "httpclient",
+    "diagnostics",
+    "monitoring"
   ],
-  "versions": [],
+  "objects": [
+    {
+      "type": "other",
+      "name": "HttpClient"
+    }
+  ],
+  "features": [
+    "server certificate validation error tracking",
+    "event ID RT0052",
+    "certificate chain analysis",
+    "failure reason reporting",
+    "endpoint URI logging",
+    "AL object tracking"
+  ],
+  "versions": [
+    "version 26.0"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003903,
-      "pages_in_call": 8
+      "cost_usd": 0.004123,
+      "pages_in_call": 1
     }
   ]
 }

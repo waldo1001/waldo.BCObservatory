@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing client action telemetry",
+  "title": "Analyzing Client Action Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-client-action-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.755Z",
-      "blob": "a14a5253e8af46e896c1fbed907a7ea38649cd67",
-      "words": 175,
+      "at": "2026-11-19T00:24:19.173Z",
+      "blob": "fbdebbe64763d18c6b9a29e785c8d200ed6f3b1d",
+      "words": 172,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:39:33.325Z",
+      "at": "2026-11-19T00:24:22.925Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003537
+      "cost_usd": 0.003457
     },
     "summarized": {
-      "at": "2026-10-06T19:39:39.471Z",
+      "at": "2026-11-19T00:24:22.926Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:39:39.472Z",
+      "at": "2026-11-19T00:24:22.927Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:39:39.474Z",
+      "at": "2026-11-19T00:24:22.929Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-client-action-trace.md",
-    "description": "Learn about the telemetry from client action in Business Central",
-    "ms_date": "2023-03-07",
+    "description": "Analyze client action telemetry in Business Central to track supported page actions, understand feature usage, and identify the associated pages and apps.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,8 +56,8 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 175,
+    "ai_usage": "ai-assisted",
+    "words": 172,
     "identifiers": [
       "CL0003"
     ],
@@ -65,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6384c72fd65078f599d7cdf9f772735761d8575e453135f7756d8028edd2c066"
+  "output_hash": "ee63cb034c4bd277afa7a9f8e1b52564aebc46028fc7fbb596377a17ed5e26f2"
 }

@@ -6,14 +6,22 @@
   "title": "Remove duplicate FI layer files",
   "url": "https://github.com/microsoft/BCApps/pull/12711",
   "published_at": "2026-11-17T11:49:23Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:24:09.034Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
     }
   },
   "input_hash": "fc06edab38817b5b936cb93e588961e3f3d1b0d9:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12711,
@@ -32,6 +40,7 @@
     "community_contribution": true,
     "title_key": "remove duplicate fi layer files"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-11-18T02:22:33.548Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5eb2343c446c43e537c5a0574ba6611b8160954309454cac3921d2322ed198fb"
 }

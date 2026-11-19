@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Turn sending telemetry to application insights on or off",
+  "title": "Turn Business Central Environment Telemetry On or Off",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.434Z",
-      "blob": "2e81baa1728b3b750d1b355bcf9a61e4dcb928be",
-      "words": 1285,
+      "at": "2026-11-19T00:24:27.413Z",
+      "blob": "dbb204ae920e712f72886a81b378baed628b5250",
+      "words": 1222,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T15:15:27.302Z",
+      "at": "2026-11-19T00:24:31.826Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.007462
+      "cost_usd": 0.011217
     },
     "summarized": {
-      "at": "2026-10-06T15:15:27.329Z",
+      "at": "2026-11-19T00:24:31.827Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T15:15:27.329Z",
+      "at": "2026-11-19T00:24:31.828Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T15:15:27.329Z",
+      "at": "2026-11-19T00:24:31.829Z",
       "page": false
     }
   },
@@ -44,17 +44,21 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-enable-application-insights.md",
-    "description": "Learn how you can get richer telemetry by connecting your Business Central with Application Insights for telemetry.",
-    "ms_date": "2024-07-23",
+    "description": "Connect Business Central online or on-premises environments to Azure Application Insights to collect telemetry and troubleshoot issues.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1285,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 1222,
+    "identifiers": [
+      "AadTenantId",
+      "EnvironmentName",
+      "EnvironmentType"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "30611de443c6bb6ed816cdef700129cd7cd6b7ccc49837c28cc6657de66330c2"
+  "output_hash": "514f0ad6c92e143147b8cf7ac98163a737ce6fa908a69d50b282483c2a41a80a"
 }

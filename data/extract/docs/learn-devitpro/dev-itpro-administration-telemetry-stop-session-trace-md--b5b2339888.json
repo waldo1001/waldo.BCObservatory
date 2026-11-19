@@ -2,28 +2,40 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-stop-session-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-stop-session-trace",
   "title": "Analyzing Stopped Session Telemetry",
-  "blob": "4be759c3b43bd1f6d311cc03e81eeb7e39147908",
-  "summary": "Analyzing Stopped Session Telemetry documents how to monitor and record when background sessions are stopped in Business Central using the StopSession method or admin center through Application Insights.",
+  "blob": "fd6b8436c747f6ab6b96af7fe617a1b603e67a47",
+  "summary": "This page documents how to analyze telemetry data for Business Central session stops initiated through the StopSession method or admin center, including event dimensions and custom telemetry fields captured in Application Insights.",
   "systems": [
     "administration",
     "platform"
   ],
   "topics": [
     "telemetry",
-    "background sessions",
-    "session management",
     "application insights",
-    "stopsession method",
-    "admin center"
+    "session management",
+    "diagnostics",
+    "monitoring"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Session"
+    },
+    {
+      "type": "other",
+      "name": "StopSession method"
+    },
+    {
+      "type": "other",
+      "name": "StartSession method"
+    }
+  ],
   "features": [
-    "StopSession method invocation tracking",
-    "Session stopped telemetry",
-    "Background session monitoring",
-    "Admin center session cancellation",
-    "Stack trace capture",
-    "ClientType tracking"
+    "StopSession telemetry",
+    "Session stop event tracking",
+    "Application Insights integration",
+    "Admin center session management",
+    "Custom dimensions reporting",
+    "Session cancellation tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006341,
-      "pages_in_call": 2
+      "cost_usd": 0.004079,
+      "pages_in_call": 1
     }
   ]
 }

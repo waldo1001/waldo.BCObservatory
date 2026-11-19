@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Server certificate validation errors for outgoing web service requests",
+  "title": "Outgoing Web Service Certificate Validation Error Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-outgoing-certificate-validation-errors",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.549Z",
-      "blob": "a9ca0e304f6cc081a4d3ccfffd749bd92407de02",
-      "words": 312,
+      "at": "2026-11-19T00:24:43.505Z",
+      "blob": "395a90147ea01eecbc2b197b8e0dfcfcca0c5358",
+      "words": 345,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:33:47.716Z",
+      "at": "2026-11-19T00:25:01.301Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003903
+      "objects": 1,
+      "cost_usd": 0.004123
     },
     "summarized": {
-      "at": "2026-10-06T19:33:47.827Z",
+      "at": "2026-11-19T00:25:01.302Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:33:47.830Z",
+      "at": "2026-11-19T00:25:01.303Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:33:47.832Z",
+      "at": "2026-11-19T00:25:01.304Z",
       "page": false
     }
   },
@@ -44,19 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-webservices-outgoing-certificate-validation-errors.md",
-    "description": "Learn about telemetry for server certificate validation errors for outgoing web service requests in Business Central",
-    "ms_date": "2025-03-20",
+    "description": "Analyze outgoing web service certificate validation telemetry in Business Central to identify invalid server certificates and troubleshoot AL HttpClient requests.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 312,
+    "ai_usage": "ai-assisted",
+    "words": 345,
     "identifiers": [
+      "HttpClient",
       "RT0052"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e9790c663b3105475ba0d614cf8a65947c55958621aace86bf876840222d2f1c"
+  "output_hash": "81481335183d8a29f33744ec9a96be2891ac743b52fe2dc7746e2d9c910f65ed"
 }

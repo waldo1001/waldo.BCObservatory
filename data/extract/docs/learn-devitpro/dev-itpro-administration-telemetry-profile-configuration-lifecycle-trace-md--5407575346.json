@@ -1,32 +1,31 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-profile-configuration-lifecycle-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-profile-configuration-lifecycle-trace",
-  "title": "Analyzing profile configuration lifecycle telemetry",
-  "blob": "49d288da2c794db4e88fa9e533f4f1e0778624aa",
-  "summary": "Profile configuration lifecycle telemetry tracks import, export, copy, creation, and deletion of user profiles and page customizations from the web client.",
+  "title": "Analyzing Profile Configuration Lifecycle Telemetry",
+  "blob": "84100ad99b29c062bd0b1512f825d9816d86a6e6",
+  "summary": "Profile configuration lifecycle telemetry documentation explains telemetry signals emitted when users import, export, copy, create, or remove profiles and page customizations in Business Central, viewable through Application Insights.",
   "systems": [
     "administration",
-    "reporting"
+    "development"
   ],
   "topics": [
     "telemetry",
     "profiles",
-    "customization",
-    "page personalization",
-    "kql"
+    "page customization",
+    "application insights",
+    "monitoring",
+    "diagnostics"
   ],
   "objects": [],
   "features": [
-    "profile import succeeded",
-    "profile import failed",
-    "profile export succeeded",
-    "profile export failed",
-    "profile copy succeeded",
-    "profile copy failed",
-    "profile created successfully",
-    "profile removed",
-    "profile page customization removed",
-    "profile page customization converted"
+    "profile import",
+    "profile export",
+    "profile copy",
+    "profile creation",
+    "profile removal",
+    "page customization removal",
+    "page customization conversion",
+    "telemetry schema"
   ],
   "versions": [
     "2022 release wave 2",
@@ -38,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007288,
-      "pages_in_call": 7
+      "cost_usd": 0.01099,
+      "pages_in_call": 1
     }
   ]
 }

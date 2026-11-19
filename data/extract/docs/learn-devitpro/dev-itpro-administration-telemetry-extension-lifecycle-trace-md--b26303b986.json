@@ -1,36 +1,40 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-extension-lifecycle-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-lifecycle-trace",
-  "title": "Extension Lifecycle Trace Telemetry | Microsoft Docs",
-  "blob": "5905aabf5f74765f56101a335277cdbb6fc6a914",
-  "summary": "Extension Lifecycle Trace Telemetry documents telemetry data collected for extension operations including compiling, synchronizing, publishing, installing, updating, and uninstalling extensions. Use this to monitor and diagnose extension lifecycle events and failures.",
+  "title": "Analyzing Extension Lifecycle Trace Telemetry",
+  "blob": "b9e07235cafb2a89f51b179d9a27eca6610519f0",
+  "summary": "Extension lifecycle trace telemetry captures data about success and failure of extension operations including compiling, publishing, synchronizing, installing, updating, and uninstalling extensions across Business Central online and on-premises environments.",
   "systems": [
-    "development",
     "administration",
-    "integration"
+    "development",
+    "platform"
   ],
   "topics": [
     "telemetry",
     "extensions",
     "lifecycle",
-    "tracing",
+    "monitoring",
     "diagnostics",
-    "app management"
+    "publishing",
+    "installation",
+    "troubleshooting"
   ],
   "objects": [],
   "features": [
-    "extension compilation tracing",
-    "extension publishing tracing",
-    "extension synchronization tracing",
-    "extension installation tracing",
-    "extension update tracing",
-    "extension uninstallation tracing",
-    "extension unpublishing tracing",
-    "control plane tracing"
+    "extension compilation",
+    "extension publishing",
+    "extension synchronization",
+    "extension installation",
+    "extension uninstallation",
+    "extension updating",
+    "RAD publishing",
+    "dependency tracking"
   ],
   "versions": [
-    "2020 release wave 1 version 16.3",
-    "2020 release wave 2 version 17.1",
+    "2020 release wave 1",
+    "version 16.3",
+    "2020 release wave 2",
+    "version 17.1",
     "version 21.1"
   ],
   "parts": 1,
@@ -38,8 +42,8 @@
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": true,
-      "cost_usd": null,
+      "cached": false,
+      "cost_usd": 0.04486,
       "pages_in_call": 1
     }
   ]

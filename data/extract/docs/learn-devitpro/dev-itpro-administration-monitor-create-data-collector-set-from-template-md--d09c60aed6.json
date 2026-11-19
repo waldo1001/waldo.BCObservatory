@@ -2,22 +2,23 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-create-data-collector-set-from-template.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-create-data-collector-set-from-template",
   "title": "Create Data Collector Set Using Template",
-  "blob": "e065cdb701acc0e77a2e97820c85240f254dcfbf",
-  "summary": "Data collector sets can be created from the DataCollectorSet.xml template installed with Business Central Server to monitor performance data and store results in log files viewable in Performance Monitor.",
+  "blob": "e752f96a88a7748fd32759ffd07e07abf1369236",
+  "summary": "Create a Data Collector Set from the Business Central template using Performance Monitor to collect and monitor server performance data stored in log files.",
   "systems": [
     "administration",
     "platform"
   ],
   "topics": [
-    "performance monitoring",
-    "data collection",
-    "diagnostics"
+    "monitoring",
+    "performance counters",
+    "data collector sets",
+    "server administration"
   ],
   "objects": [],
   "features": [
-    "Data Collector Sets",
-    "Performance Monitor",
-    "DataCollectorSet.xml template"
+    "Data Collector Set template",
+    "Performance Monitor integration",
+    "log file storage"
   ],
   "versions": [],
   "parts": 1,
@@ -26,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003352,
-      "pages_in_call": 8
+      "cost_usd": 0.003162,
+      "pages_in_call": 1
     }
   ]
 }

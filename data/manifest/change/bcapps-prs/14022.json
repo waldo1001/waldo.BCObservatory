@@ -6,14 +6,22 @@
   "title": "[Expense Agent] Travel request fixes: deletion after cancel, linked reports, approver audit user, closure history",
   "url": "https://github.com/microsoft/BCApps/pull/14022",
   "published_at": "2026-11-17T00:19:53Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:24:10.044Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 11,
+      "objects": 10,
+      "unjoined": 1
     }
   },
   "input_hash": "9d07d6c9abe7ff1aea6a46ebdaf17917193cacf1:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 14022,
@@ -30,6 +38,7 @@
     "community_contribution": false,
     "title_key": "expense agent travel request fixes deletion after cancel linked reports approver audit user closure history"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-18T02:24:16.922Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b94703beaf551627febf89532341768bcc78518ea8b4432cc8c10663bbb6f1ac"
 }

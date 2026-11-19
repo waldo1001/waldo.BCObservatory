@@ -6,14 +6,22 @@
   "title": "[Quality Management] Pass the single tracking record and clear the right filter in the purchase receipt subscriber",
   "url": "https://github.com/microsoft/BCApps/pull/12291",
   "published_at": "2026-11-17T11:49:23Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:24:08.151Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "a9ef0052c43b36023e60e8442c7c827c42a77667:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12291,
@@ -33,6 +41,7 @@
     "community_contribution": true,
     "title_key": "quality management pass the single tracking record and clear the right filter in the purchase receipt subscriber"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-11-18T02:22:15.466Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "847022ac088373b8671c0e1790e43ac2151ed4c62633f21839a7f85ddde33923"
 }

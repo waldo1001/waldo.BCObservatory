@@ -1,31 +1,29 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-error-message-voting-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-message-voting-trace",
-  "title": "Analyzing Error Message Vote Telemetry | Microsoft Docs",
-  "blob": "a413d9fc3f33d329798789f685b0920eab9c9f16",
-  "summary": "Error message voting telemetry in Business Central captures user feedback on error message helpfulness and records it in Application Insights for developers to analyze error quality.",
+  "title": "Analyzing Error Message Vote Telemetry",
+  "blob": "0873805bce26a4652b1ce15ee937a6afd421f0d3",
+  "summary": "Error message vote telemetry tracks whether users find error messages helpful through yes/no feedback recorded in Application Insights. Use this to analyze error message quality and improve user experience.",
   "systems": [
     "administration",
-    "development"
+    "development",
+    "reporting"
   ],
   "topics": [
     "telemetry",
     "error messages",
-    "monitoring",
+    "user feedback",
     "application insights",
-    "user feedback"
+    "monitoring",
+    "diagnostics"
   ],
-  "objects": [
-    {
-      "type": "codeunit",
-      "name": "Error"
-    }
-  ],
+  "objects": [],
   "features": [
     "error message voting",
-    "user feedback telemetry",
+    "telemetry tracking",
+    "user feedback collection",
     "Application Insights integration",
-    "error tracking"
+    "stack trace recording"
   ],
   "versions": [
     "2022 release wave 1"
@@ -36,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006456,
-      "pages_in_call": 4
+      "cost_usd": 0.003723,
+      "pages_in_call": 1
     }
   ]
 }

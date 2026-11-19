@@ -1,26 +1,27 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-client-action-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-client-action-trace",
-  "title": "Analyzing client action telemetry",
-  "blob": "a14a5253e8af46e896c1fbed907a7ea38649cd67",
-  "summary": "Analyzing Client Action Telemetry documents how to gather data about user actions on pages through Application Insights to track feature usage statistics.",
+  "title": "Analyzing Client Action Telemetry",
+  "blob": "fbdebbe64763d18c6b9a29e785c8d200ed6f3b1d",
+  "summary": "Client action telemetry tracks user-selected actions on Business Central pages like analysis mode toggling. Use this data to gather statistics about how users interact with client features.",
   "systems": [
-    "reporting",
-    "administration"
+    "administration",
+    "reporting"
   ],
   "topics": [
     "telemetry",
     "client actions",
-    "application insights",
-    "user actions",
-    "page events"
+    "monitoring",
+    "usage analytics",
+    "application insights"
   ],
   "objects": [],
   "features": [
-    "client action tracking",
-    "application insights integration",
-    "usage statistics",
-    "page view telemetry"
+    "client action invoked",
+    "analysis mode",
+    "action tracking",
+    "user environment data",
+    "event dimensions"
   ],
   "versions": [
     "2023 release wave 1",
@@ -32,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003537,
-      "pages_in_call": 8
+      "cost_usd": 0.003457,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/13631",
+  "number": 13631,
+  "title": "[main] bug 646068 - Add support for disabling incremental exchange gain/loss posting in General Ledger Setup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "development"
+  ],
+  "summary": "Czech localization now allows disabling incremental exchange gain/loss posting in General Ledger Setup, letting companies choose between incremental posting and standard W1 exchange gain/loss calculations.",
+  "key_points": [
+    "New setting on Currency FastTab of General Ledger Setup to toggle between incremental and W1-style exchange gain/loss posting",
+    "Defaults to disabled, preserving existing Czech incremental posting behavior without requiring data migration",
+    "When enabled, allows reversal of previously posted unrealized exchange gains and losses per W1 approach",
+    "Extended General Ledger Setup table, page, and permissions for Czech localization",
+    "Test coverage added for foreign currency scenarios"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "When enabled, the setting allows the W1 application calculations, including the reversal of previously posted unrealized exchange gains and losses.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00421,
+    "changes_in_call": 1
+  }
+}

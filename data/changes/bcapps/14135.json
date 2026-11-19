@@ -1,0 +1,107 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14135,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14135",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-17T10:12:44Z",
+  "merge_commit_sha": "5b04c33da1c85a63ae1e4359dbf33853af7ad30d",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Job Queue] Don't cancel the executed task when scheduling the next run",
+  "body_hash": "33012df8177920599d82b2b1186d14f2c0cc8b88ece5f5fdf8c4f70a22567e27",
+  "fixes_issues": [],
+  "work_items": [
+    576270,
+    659464
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueDispatcher.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueEntry.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueErrorHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/TestJobQueueSNAP.Codeunit.al",
+      "status": "modified",
+      "additions": 121,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 141,
+    "deletions": 3,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueDispatcher.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/448",
+        "type": "codeunit",
+        "id": 448,
+        "name": "Job Queue Dispatcher",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/448"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueEntry.Table.al",
+        "status": "modified",
+        "key": "table/472",
+        "type": "table",
+        "id": 472,
+        "name": "Job Queue Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/472"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/JobQueue/JobQueueErrorHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/450",
+        "type": "codeunit",
+        "id": 450,
+        "name": "Job Queue Error Handler",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/450"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

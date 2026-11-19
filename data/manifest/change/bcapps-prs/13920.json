@@ -6,10 +6,35 @@
   "title": "[Main] - Bug 656559: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)",
   "url": "https://github.com/microsoft/BCApps/pull/13920",
   "published_at": "2026-11-18T05:41:09Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-19T00:15:47.846Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:24:03.219Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-19T00:24:07.480Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003159
+    },
+    "linked": {
+      "at": "2026-11-19T00:24:07.586Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-19T00:24:07.590Z",
+      "path": "content/changes/bcapps/13920.md"
     }
   },
   "input_hash": "cf42687b29edfc14c5db330a4f93367b3bcca8cd:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 656559 mileage starting ending point addresses over 50 characters fail to save on report lines bc text 50 limit not enforced"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "60344e2b931fb469f72fd1281027d954e5b580a3464c93aec0f713ee6041a9bb"
 }

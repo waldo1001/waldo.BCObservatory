@@ -1,27 +1,33 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-control-cost.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-control-cost",
-  "title": "Controlling Telemetry Cost",
-  "blob": "16077e330f84ff0f3ea7bf8d72a2f6e6afdfceaa",
-  "summary": "Controlling telemetry cost involves setting daily data ingestion caps, using data collection rules to filter telemetry, and managing data retention periods to optimize Azure Monitor expenses for Business Central telemetry.",
+  "title": "Control Business Central Telemetry Costs",
+  "blob": "c631a95b574e4639fc800aa92c39ccb801eadd1e",
+  "summary": "Control Business Central telemetry costs through data ingestion management using sampling, data collection rules, daily caps, and retention policies in Azure Monitor Log Analytics.",
   "systems": [
     "administration",
-    "integration"
+    "platform",
+    "reporting"
   ],
   "topics": [
     "telemetry",
-    "cost optimization",
+    "cost control",
     "azure monitor",
-    "data collection rules",
-    "application insights"
+    "data ingestion",
+    "log analytics",
+    "data retention",
+    "data collection rules"
   ],
   "objects": [],
   "features": [
+    "data collection rules (DCR)",
     "daily cap on data ingestion",
-    "data collection rules",
-    "sampling",
-    "retention periods",
-    "cost monitoring"
+    "sampling and filtering",
+    "custom ingestion endpoint",
+    "data retention configuration",
+    "cost calculation and estimation",
+    "event size limits (64 KB maximum)",
+    "workspace-based Application Insights"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.011886,
-      "pages_in_call": 3
+      "cost_usd": 0.004521,
+      "pages_in_call": 1
     }
   ]
 }

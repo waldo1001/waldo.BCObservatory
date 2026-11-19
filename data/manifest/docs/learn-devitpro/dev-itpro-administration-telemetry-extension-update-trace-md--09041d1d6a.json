@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Extension Update Trace Telemetry | Microsoft Docs",
+  "title": "Analyzing Extension Update Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-update-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.953Z",
-      "blob": "7f22208631103e3d8274d742e48410409f2ce58a",
-      "words": 906,
+      "at": "2026-11-19T00:24:31.394Z",
+      "blob": "5c0bd4e86724ba5ccbab759ab1ede597e4eb5f4c",
+      "words": 901,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:48:16.202Z",
+      "at": "2026-11-19T00:24:36.384Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.005577
+      "objects": 2,
+      "cost_usd": 0.005221
     },
     "summarized": {
-      "at": "2026-10-06T18:48:16.212Z",
+      "at": "2026-11-19T00:24:36.385Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:48:16.213Z",
+      "at": "2026-11-19T00:24:36.386Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:48:16.214Z",
+      "at": "2026-11-19T00:24:36.386Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-extension-update-trace.md",
-    "description": "Learn about the extension upgrade telemetry in Business Central",
-    "ms_date": "2021-04-01",
+    "description": "Analyze Business Central extension update telemetry to investigate upgrade code failures and track upgrade tags used during extension upgrades.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,8 +56,8 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 906,
+    "ai_usage": "ai-assisted",
+    "words": 901,
     "identifiers": [
       "HasUpgradeTag",
       "SetUpgradeTag",
@@ -67,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e4bb6bc9ceb2147bc35443cd85022364b0ae5722c577658a9ab093af9aec7524"
+  "output_hash": "df31d0594d74a2f1a7e320b1212849b9e6d39887ade218bec2d71375baed8446"
 }

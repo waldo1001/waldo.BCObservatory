@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Controlling Telemetry Cost",
+  "title": "Control Business Central Telemetry Costs",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-control-cost",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.892Z",
-      "blob": "16077e330f84ff0f3ea7bf8d72a2f6e6afdfceaa",
-      "words": 852,
+      "at": "2026-11-19T00:24:22.958Z",
+      "blob": "c631a95b574e4639fc800aa92c39ccb801eadd1e",
+      "words": 881,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:02:53.466Z",
+      "at": "2026-11-19T00:24:27.471Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.011886
+      "cost_usd": 0.004521
     },
     "summarized": {
-      "at": "2026-10-06T19:03:03.300Z",
+      "at": "2026-11-19T00:24:27.473Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:03:03.300Z",
+      "at": "2026-11-19T00:24:27.473Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:03:03.301Z",
+      "at": "2026-11-19T00:24:27.474Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-control-cost.md",
-    "description": "Learn how to control the cost of Business Central provides telemetry.",
-    "ms_date": "2023-12-05",
-    "ms_topic": "overview",
+    "description": "Control Business Central telemetry costs with ingestion filters, daily caps, and retention settings for your Azure Application Insights data.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "administration",
@@ -56,12 +56,17 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 852,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 881,
+    "identifiers": [
+      "AppTraces",
+      "AppPageViews",
+      "pageViews",
+      "IngestionEndpoint"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0c0bac0332ad46c53f6f51a4a13cd5e2bad65a40181226cc727c90f91fe9a8f0"
+  "output_hash": "c5c764764e107bac1b038e8f9deba99fe9a494963fb59eb518d775a6a56e2558"
 }

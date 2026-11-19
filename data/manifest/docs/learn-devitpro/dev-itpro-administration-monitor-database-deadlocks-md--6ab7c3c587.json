@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Monitoring SQL Database Deadlocks",
+  "title": "Monitoring SQL Database Deadlocks in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-database-deadlocks",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.681Z",
-      "blob": "3ad5e036475ebd4e92e4e27c9e087cc535e08a84",
-      "words": 1278,
+      "at": "2026-11-19T00:24:08.121Z",
+      "blob": "dc7210a297add9e7617c5afc9fe70b89090a619f",
+      "words": 1384,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:35:02.697Z",
+      "at": "2026-11-19T00:24:12.890Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003352
+      "cost_usd": 0.01044
     },
     "summarized": {
-      "at": "2026-10-06T19:35:02.707Z",
+      "at": "2026-11-19T00:24:12.892Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:35:02.708Z",
+      "at": "2026-11-19T00:24:12.893Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:35:02.709Z",
+      "at": "2026-11-19T00:24:12.894Z",
       "page": false
     }
   },
@@ -44,17 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/monitor-database-deadlocks.md",
-    "description": "Read about how you can configure Business Central on-premises to log deadlocks that occur in the SQL database.",
-    "ms_date": "2021-04-01",
+    "description": "Configure Business Central on-premises to log SQL Server deadlocks, collect diagnostic details, and analyze the affected transactions and AL code.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1278,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 1384,
+    "identifiers": [
+      "EnableDeadlockMonitoring"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ade00302c99a3f6bda9fa269b19ccf4f3ad5f27ef337190035c749accd41bb35"
+  "output_hash": "4317c8801d71fd0609b65f342baa74f95c310809c552009fd50e0818c365b76a"
 }

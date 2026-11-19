@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-wait-statistics-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.945Z",
-      "blob": "c627b9d6d93e6481a70eeb387601980c4e6ace2f",
-      "words": 310,
+      "at": "2026-11-19T00:24:25.812Z",
+      "blob": "fb53acce5d9a087e63834ca46e77bcc4a064838c",
+      "words": 341,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T21:17:39.818Z",
+      "at": "2026-11-19T00:24:29.773Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003275
+      "objects": 1,
+      "cost_usd": 0.003754
     },
     "summarized": {
-      "at": "2026-10-06T21:17:39.845Z",
+      "at": "2026-11-19T00:24:29.774Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T21:17:39.854Z",
+      "at": "2026-11-19T00:24:29.775Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T21:17:39.855Z",
+      "at": "2026-11-19T00:24:29.776Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-database-wait-statistics-trace.md",
-    "description": "Learn about the telemetry for database wait statics for Business Central in Azure Application Insights.",
-    "ms_date": "2022-06-16",
+    "description": "Analyze database wait statistics telemetry in Business Central to compare wait categories, correlate snapshot entries, and investigate database performance.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,8 +56,8 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 310,
+    "ai_usage": "ai-assisted",
+    "words": 341,
     "identifiers": [
       "RT0025",
       "RT0026"
@@ -66,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "02643dcef3f96193f7d7bbcb7055ba9f62a137b8b9ca56f72f8ef5e8abe5794b"
+  "output_hash": "629f8ea5d8c6d47538bfb5108353182958f4adbcc37c24015a930398a5d0695c"
 }

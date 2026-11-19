@@ -2,8 +2,8 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments",
   "title": "Managing Production and Sandbox Environments",
-  "blob": "dc8779287cd71cf01455847158cfd548bcc7642a",
-  "summary": "The Environments tab in the Business Central admin center manages production and sandbox environments, including environment creation, linking to Power Platform, and tracking administrative operations. Use it to view environment details, manage updates, copy environments, and access a log of all admin center operations.",
+  "blob": "f306dae29799019cb88b756d712e8b8f4b57cf73",
+  "summary": "The Environments tab in the Business Central admin center allows you to view, create, and manage production and sandbox environments, link them to Power Platform environments, and monitor administrative operations.",
   "systems": [
     "administration",
     "platform",
@@ -14,19 +14,22 @@
     "production environments",
     "sandbox environments",
     "power platform integration",
-    "admin center operations",
-    "environment lifecycle"
+    "admin center",
+    "environment lifecycle",
+    "operations log"
   ],
   "objects": [],
   "features": [
-    "Environment overview and details",
-    "Linked Power Platform environment management",
+    "View environment details",
     "Create new environments",
     "Copy environments",
-    "Environment deletion and recovery",
-    "Update window configuration",
+    "Delete and recover environments",
+    "Link to Power Platform environments",
+    "Unlink environments",
+    "Set update windows",
     "Administrative operations log",
-    "Environment rename and transfer"
+    "Environment security groups",
+    "Microsoft 365 licenses access control"
   ],
   "versions": [
     "25.x"
@@ -37,7 +40,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.011201,
+      "cost_usd": 0.011263,
       "pages_in_call": 1
     }
   ]

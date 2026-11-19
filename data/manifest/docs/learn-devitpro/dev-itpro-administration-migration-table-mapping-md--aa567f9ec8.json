@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Define migration table mappings",
+  "title": "Define Cloud Migration Table Mappings in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-table-mapping",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:42.549Z",
-      "blob": "d004a596001ad42bd42a2720e459c63f222283ea",
-      "words": 908,
+      "at": "2026-11-19T00:23:54.086Z",
+      "blob": "94758e6db01993ca692ff2df296d4cef0ed277fc",
+      "words": 957,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:44:08.536Z",
+      "at": "2026-11-19T00:24:02.197Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.003679
+      "objects": 4,
+      "cost_usd": 0.005109
     },
     "summarized": {
-      "at": "2026-10-06T19:44:15.454Z",
+      "at": "2026-11-19T00:24:02.198Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:44:15.455Z",
+      "at": "2026-11-19T00:24:02.199Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:44:15.456Z",
+      "at": "2026-11-19T00:24:02.199Z",
       "page": false
     }
   },
@@ -44,13 +44,13 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-table-mapping.md",
-    "description": "Learn how to use migration table mapping to rename the table during the cloud migration or to move a subset of fields to a different table or table extension.",
-    "ms_date": "2023-03-22",
+    "description": "Learn how to use cloud migration table mapping to rename a table during cloud migration or to move a subset of fields to a different table or table extension.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 908,
+    "ai_usage": "ai-assisted",
+    "words": 957,
     "identifiers": [
       "OnInsertDefaultTableMappings"
     ],
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ae0c1a8c0be9ec0d24f033f4f490ff1eb7d3e176eaeca748fc4df4748731cc50"
+  "output_hash": "3d9a83d690be30c5a01d833bcd4a68184ed5143a7a31263324092d31755dea07"
 }

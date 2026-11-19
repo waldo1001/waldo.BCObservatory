@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing financial report lifecycle trace telemetry",
+  "title": "Analyzing Financial Report Lifecycle Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-lifecycle-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.034Z",
-      "blob": "5c117831c315d1e31b2e3331e87b43af3c7abbec",
-      "words": 1440,
+      "at": "2026-11-19T00:24:32.742Z",
+      "blob": "3840dc223b7e924606dccedc2eb4fabaf59357f9",
+      "words": 1487,
       "forms": 0
     },
     "extracted": {
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-financial-report-lifecycle-trace.md",
-    "description": "Learn about the telemetry for financial report lifecycle telemetry in Azure Application Insights.",
-    "ms_date": "2025-03-20",
-    "ms_topic": "concept-article",
+    "description": "Analyze financial report lifecycle telemetry in Business Central to track changes, copies, imports, and exports of report, row, and column definitions.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [
       "administration",
@@ -56,12 +56,14 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 1440,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 1487,
+    "identifiers": [
+      "severityLevel"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b0f85c15ce38ad5eac889ec60fafce99368610f638d44e8eeeef7bbdd35d3a1e"
+  "output_hash": "3840dc223b7e924606dccedc2eb4fabaf59357f9"
 }

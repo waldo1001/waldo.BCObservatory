@@ -1,40 +1,47 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-power-bi-app.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app",
-  "title": "Analyze and monitor telemetry with Power BI",
-  "blob": "b101349c7505d521644d79083eafd060b61603aa",
-  "summary": "Power BI apps for telemetry provide free, open-source reports for analyzing Business Central telemetry across usage, errors, performance, and administration with pre-built dashboards and configuration options.",
+  "title": "Analyze and Monitor Telemetry with Power BI",
+  "blob": "b8dede8ef866bb1a5392a19b576d28badd471f83",
+  "summary": "Power BI apps for analyzing Business Central telemetry provide four reports (Usage, Errors, Performance, Administration) to monitor environment and app performance, troubleshoot issues, and track changes. Use these free open-source apps to investigate usage patterns, system errors, performance bottlenecks, and administrative changes in Business Central.",
   "systems": [
+    "administration",
     "reporting",
-    "administration"
+    "platform"
   ],
   "topics": [
-    "power bi",
     "telemetry",
-    "reporting",
-    "dashboard",
+    "power bi",
+    "monitoring",
     "analytics",
-    "application insights"
+    "performance",
+    "errors",
+    "usage analysis",
+    "administration"
   ],
   "objects": [],
   "features": [
-    "usage report",
-    "error report",
-    "performance report",
-    "administration report",
-    "Power BI Metrics",
-    "sample data",
-    "dataset configuration"
+    "Usage report with sessions, clients, locations, page views, reports, feature usage, integrations, and deprecated features tracking",
+    "Error report covering user errors, integration errors, and system errors",
+    "Performance report with session timings, page views, reports, long-running SQL queries, database lock timeouts, and job queue timings",
+    "Administration report showing environment inventory, update planning, and change tracking for environments, companies, extensions, indexes, and fields",
+    "Azure Application Insights integration",
+    "Microsoft Entra tenant mapping",
+    "Scheduled data refresh configuration",
+    "KQL query access for deeper analysis"
   ],
-  "versions": [],
+  "versions": [
+    "version 20.0",
+    "version 21.0"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005577,
-      "pages_in_call": 8
+      "cost_usd": 0.015307,
+      "pages_in_call": 1
     }
   ]
 }

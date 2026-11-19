@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Telemetry area overview",
+  "title": "Business Central Telemetry Area Overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-area-overview",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:42.557Z",
-      "blob": "68932530811cc06aaac445cd210fa2c74fd9f647",
+      "at": "2026-11-19T00:24:17.713Z",
+      "blob": "a1e4d757c4964ad6958e264bbbfc4df83703dcc8",
       "words": 37,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:44:08.538Z",
+      "at": "2026-11-19T00:24:21.427Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003679
+      "cost_usd": 0.002777
     },
     "summarized": {
-      "at": "2026-10-06T19:44:15.460Z",
+      "at": "2026-11-19T00:24:21.428Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:44:15.460Z",
+      "at": "2026-11-19T00:24:21.428Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:44:15.461Z",
+      "at": "2026-11-19T00:24:21.428Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-area-overview.md",
-    "description": "Get an overview of available telemetry areas in Business Central",
-    "ms_date": "2021-07-09",
+    "description": "Explore Business Central telemetry areas to find events for monitoring usage, diagnosing errors, and analyzing environment performance.",
+    "ms_date": "2026-11-17",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,14 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 37,
-    "identifiers": [],
+    "identifiers": [
+      "pageViews"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d2afa3e45f7f41c81edbf0d32d3df6a3ac3bf96f34a3d92dfbbc57211569a129"
+  "output_hash": "23195f86e213fc9f7112e5c5e002e448ee78c9e5c1f8164f67034a6cb88ccc0e"
 }

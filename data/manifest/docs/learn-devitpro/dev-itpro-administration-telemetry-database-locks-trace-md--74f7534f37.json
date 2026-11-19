@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Database Lock Timeout Trace Telemetry | Microsoft Docs",
+  "title": "Analyzing Database Lock Timeout Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-locks-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.429Z",
-      "blob": "647e072197a589cbcf1549e0c9aafb3345434aae",
-      "words": 1407,
+      "at": "2026-11-19T00:24:24.456Z",
+      "blob": "a5bd8b885d6e6d59b323e03f632139c63629bca9",
+      "words": 1389,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T14:22:43.960Z",
+      "at": "2026-11-19T00:24:28.637Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005878
+      "cost_usd": 0.01229
     },
     "summarized": {
-      "at": "2026-10-06T14:22:43.967Z",
+      "at": "2026-11-19T00:24:28.639Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:22:43.967Z",
+      "at": "2026-11-19T00:24:28.640Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:22:43.967Z",
+      "at": "2026-11-19T00:24:28.640Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-database-locks-trace.md",
-    "description": "Learn about the database lock timeout telemetry in Business Central",
-    "ms_date": "2021-04-01",
-    "ms_topic": "how-to",
+    "description": "Analyze database lock timeout telemetry in Business Central and correlate lock snapshots to identify blocked sessions and troubleshoot database contention.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "administration",
@@ -57,9 +57,10 @@
       "telemetry"
     ],
     "ai_usage": "ai-assisted",
-    "words": 1407,
+    "words": 1389,
     "identifiers": [
       "EnableLockTimeoutMonitoring",
+      "WebClient",
       "snapshotId",
       "RT0012",
       "RT0013",
@@ -69,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1afdc348601b9c59abe872d3a19f424856018b13db4c5a7d232557a24c486a79"
+  "output_hash": "c7d1a5456c6a92513cd547048841701aa369df3e87f932087f948999c4499be5"
 }

@@ -1,20 +1,20 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-setup-sl.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-sl",
-  "title": "Run cloud migration setup for Dynamics SL migration",
-  "blob": "9c0050cb88ae16d89f6d49f70aca1a4a049b9104",
-  "summary": "Running the Cloud Migration Setup guide configures components and connections for migrating Business Central on-premises data to online. Use this to prepare cloud migration for Dynamics SL, handle delegated administrator approval, and configure SQL database connections and integration runtime.",
+  "title": "Set Up Dynamics SL Cloud Migration to Business Central",
+  "blob": "9d4100e5e164cdec7a3f5eeba89e7bc4111187ee",
+  "summary": "Configure cloud migration components and connections to migrate data from Dynamics SL on-premises to Business Central online using the Cloud Migration Setup guide.",
   "systems": [
     "integration",
     "administration"
   ],
   "topics": [
-    "dynamics sl migration",
-    "cloud migration setup",
-    "azure data factory",
+    "cloud migration",
+    "dynamics sl",
+    "data migration",
+    "setup",
     "integration runtime",
-    "delegated administrator",
-    "storage capacity"
+    "delegated administrators"
   ],
   "objects": [
     {
@@ -23,20 +23,21 @@
     },
     {
       "type": "page",
-      "name": "Cloud Migration Approval"
+      "name": "Delegated admin consent for cloud migration"
     },
     {
       "type": "page",
-      "name": "SL Company Migration Configuration"
+      "name": "Cloud Migration Management"
     }
   ],
   "features": [
     "Cloud Migration Setup guide",
-    "delegated administrator approval",
-    "SQL database connection",
-    "integration runtime configuration",
-    "company selection",
-    "storage capacity management"
+    "SQL database connection configuration",
+    "Integration runtime setup",
+    "Company selection for migration",
+    "Delegated administrator approval",
+    "Runtime service key reset",
+    "Data pipeline creation"
   ],
   "versions": [],
   "parts": 1,
@@ -45,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006174,
-      "pages_in_call": 8
+      "cost_usd": 0.004311,
+      "pages_in_call": 1
     }
   ]
 }

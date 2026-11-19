@@ -6,14 +6,22 @@
   "title": "Remove duplicate FR customer and vendor ledger entry tables",
   "url": "https://github.com/microsoft/BCApps/pull/12701",
   "published_at": "2026-11-17T11:57:03Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:24:06.603Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
     }
   },
   "input_hash": "6aba0ade70d60bc0838e8b0824eaf05895b2c3af:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12701,
@@ -31,6 +39,7 @@
     "community_contribution": true,
     "title_key": "remove duplicate fr customer and vendor ledger entry tables"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-18T02:22:09.853Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d4a62c157c9c123b9eba333233cca9ea86ba6ef4063ac6178ab9d4a11f8e7fb6"
 }

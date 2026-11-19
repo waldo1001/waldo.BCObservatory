@@ -1,35 +1,40 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-analyze-with-kql.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql",
-  "title": "Analyze and monitor telemetry with KQL",
-  "blob": "34988f0b0a2f1d5f630dda8f3acdbad0922ee590",
-  "summary": "Analyzing telemetry with Kusto Query Language (KQL) enables querying Business Central telemetry stored in Application Insights. Provides KQL examples for analyzing report usage, session tracking, user activity, and converting timestamps across timezones.",
+  "title": "Analyze and Monitor Telemetry with KQL",
+  "blob": "6d3d912575836ea5447b1d42fdb0c1023a96feb9",
+  "summary": "Analyze and monitor telemetry from Business Central stored in Azure Application Insights using Kusto Query Language (KQL). Learn KQL syntax, examples for querying traces and pageViews tables, and techniques for session/user tracking and report usage analysis.",
   "systems": [
+    "administration",
     "reporting",
-    "development"
+    "platform"
   ],
   "topics": [
-    "kusto query language",
-    "kql",
-    "application insights",
     "telemetry",
-    "log analytics",
-    "report analysis",
-    "session tracking"
+    "kql",
+    "kusto",
+    "application insights",
+    "monitoring",
+    "troubleshooting",
+    "analytics"
   ],
   "objects": [],
   "features": [
-    "Kusto queries",
-    "Application Insights",
-    "Log Analytics",
-    "traces table",
-    "pageViews table",
-    "custom dimensions",
-    "session tracking",
-    "user activity analysis"
+    "KQL query language",
+    "Application Insights integration",
+    "Log Analytics workspace",
+    "Session tracking",
+    "User tracking",
+    "Report telemetry analysis",
+    "Timezone conversion",
+    "Event timestamp queries"
   ],
   "versions": [
-    "version 24"
+    "version 24",
+    "version 20.0",
+    "version 19.1",
+    "version 17.3",
+    "version 16.1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -37,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006174,
-      "pages_in_call": 8
+      "cost_usd": 0.017465,
+      "pages_in_call": 1
     }
   ]
 }

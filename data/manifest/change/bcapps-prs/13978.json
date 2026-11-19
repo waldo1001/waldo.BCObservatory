@@ -6,10 +6,35 @@
   "title": "[Main] - Bug 658633: [Expense Agent] Limited self-approval cannot be combined with escalation to an unlimited approver",
   "url": "https://github.com/microsoft/BCApps/pull/13978",
   "published_at": "2026-11-18T05:40:17Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-19T00:15:47.846Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:24:03.435Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-19T00:24:07.858Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003534
+    },
+    "linked": {
+      "at": "2026-11-19T00:24:07.962Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-19T00:24:07.965Z",
+      "path": "content/changes/bcapps/13978.md"
     }
   },
   "input_hash": "a82ac867bce38b92d39be14684074dbb3b94d226:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 658633 expense agent limited self approval cannot be combined with escalation to an unlimited approver"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4f837d06538754031902930c723b0388b55deb076aa0404f5fa65020602f9ae4"
 }

@@ -1,29 +1,32 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-alert.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert",
-  "title": "Alert on Telemetry",
-  "blob": "cfe58fd1562cfc41d3ef72b595ecf5ad9b2222ee",
-  "summary": "Alert on Telemetry explains how to set up alerts on Business Central telemetry events using Power BI, Azure Application Insights, Logic Apps, or Power Automate with KQL queries.",
+  "title": "Set Up Business Central Telemetry Alerts",
+  "blob": "dad53c881caf61ada32c25c438d89940b2bd55a5",
+  "summary": "Set up telemetry alerts in Business Central using Azure Application Insights, Logic Apps, or Power Automate to monitor environment and app events with KQL queries and automated notifications.",
   "systems": [
-    "reporting",
     "administration",
-    "integration"
+    "platform",
+    "reporting"
   ],
   "topics": [
     "telemetry",
     "alerts",
     "monitoring",
     "application insights",
+    "automation",
+    "notifications",
     "kql queries"
   ],
   "objects": [],
   "features": [
-    "Power BI Metrics",
     "Azure Application Insights Alerts",
     "Azure Logic Apps",
     "Power Automate",
-    "KQL query-based alerting",
-    "Custom log search"
+    "Power BI goals",
+    "KQL query alerting",
+    "Azure Monitor Logs connector",
+    "Custom notifications"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003679,
-      "pages_in_call": 8
+      "cost_usd": 0.00411,
+      "pages_in_call": 1
     }
   ]
 }

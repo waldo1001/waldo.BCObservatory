@@ -2,21 +2,21 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview",
   "title": "Monitoring and Analyzing Telemetry",
-  "blob": "6281096014f0669bcee7f855d732d3a1e8b79758",
-  "summary": "Monitoring and analyzing telemetry overview explains how to enable telemetry at environment and app levels, view data with Power BI, analyze with KQL, and set up alerts on Business Central operations.",
+  "blob": "8b5cbf5ca14a2fee444b2efe996962ab999066d6",
+  "summary": "Telemetry in Business Central can be enabled at environment and app/extension levels to emit operational data to Azure Application Insights. Use this to monitor performance, track usage of custom extensions, and analyze data via Power BI or KQL queries.",
   "systems": [
-    "reporting",
     "administration",
-    "development"
+    "development",
+    "platform"
   ],
   "topics": [
     "telemetry",
+    "azure application insights",
     "monitoring",
-    "analysis",
-    "application insights",
-    "power bi",
-    "kql",
-    "alerts"
+    "analytics",
+    "extensions",
+    "alerts",
+    "power bi"
   ],
   "objects": [
     {
@@ -26,12 +26,13 @@
   ],
   "features": [
     "environment-level telemetry",
-    "app-level telemetry",
+    "app/extension-level telemetry",
+    "Azure Application Insights integration",
+    "telemetry cost control",
     "Power BI analysis",
-    "KQL queries",
-    "alert setup",
-    "custom telemetry",
-    "LogMessage method"
+    "KQL query analysis",
+    "custom telemetry via LogMessage",
+    "alert setup"
   ],
   "versions": [
     "2020 release wave 2"
@@ -42,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005577,
-      "pages_in_call": 8
+      "cost_usd": 0.00458,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,20 +1,21 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/onboarding-telemetry.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-telemetry",
-  "title": "Measure onboarding progress using telemetry",
-  "blob": "0a86d8b8998992387b8f7824ae45dfeb5baff0ce",
-  "summary": "Measure onboarding progress using telemetry describes automatic signals emitted when companies complete onboarding milestones like sales and purchases, with criteria based on posted documents and methods to extend signals.",
+  "title": "Measure Onboarding Progress Using Telemetry",
+  "blob": "7c975c0b991c9400e8146def69635614f394ed3d",
+  "summary": "Onboarding telemetry in Business Central automatically signals when companies complete key processes like sales, purchases, and payments. Partners can extend the framework with custom signals based on their own criteria.",
   "systems": [
     "administration",
-    "reporting",
-    "sales"
+    "integration",
+    "reporting"
   ],
   "topics": [
+    "onboarding",
     "telemetry",
-    "onboarding signals",
-    "metrics",
-    "progress tracking",
-    "business processes"
+    "signals",
+    "tracking",
+    "completion",
+    "partner extensions"
   ],
   "objects": [
     {
@@ -34,6 +35,10 @@
       "name": "Vendor Ledger Entry"
     },
     {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
       "type": "enum",
       "name": "Onboarding Signal Type"
     },
@@ -47,12 +52,14 @@
     }
   ],
   "features": [
-    "onboarding signals",
-    "sales signal",
-    "purchase signal",
-    "payment signals",
-    "signal extension",
-    "telemetry events"
+    "Onboarding started signal",
+    "Sales invoice signal",
+    "Purchase invoice signal",
+    "Customer payment signal",
+    "Vendor payment signal",
+    "Custom onboarding signals",
+    "Enum extension for signals",
+    "Telemetry event IDs"
   ],
   "versions": [],
   "parts": 1,
@@ -61,8 +68,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003843,
-      "pages_in_call": 8
+      "cost_usd": 0.005188,
+      "pages_in_call": 1
     }
   ]
 }

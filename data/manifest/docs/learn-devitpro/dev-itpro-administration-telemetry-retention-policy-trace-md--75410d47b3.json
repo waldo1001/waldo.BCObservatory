@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing retention policy trace telemetry",
+  "title": "Retention Policy Trace Telemetry Reference",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.964Z",
-      "blob": "a4869163e9c26670cc82e811b7c61b0fc8b9c4a7",
-      "words": 893,
+      "at": "2026-11-19T00:24:40.158Z",
+      "blob": "bd48662557c6adc043540435728f0f25df25ccfd",
+      "words": 902,
       "forms": 0
     },
     "extracted": {
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-retention-policy-trace.md",
-    "description": "Learn about the telemetry for retention policies in Business Central",
-    "ms_date": "2023-12-27",
-    "ms_topic": "concept-article",
+    "description": "Analyze retention policy telemetry in Business Central to monitor policy log entries, deleted records, and when policies are enabled or disabled.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [
       "administration",
@@ -56,12 +56,14 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 893,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 902,
+    "identifiers": [
+      "OrganizationIdentifiableInformation"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "15da0baee298227580331d4cfa676b7e198a9d778f91dc8b05640ebd1afc9be5"
+  "output_hash": "bd48662557c6adc043540435728f0f25df25ccfd"
 }

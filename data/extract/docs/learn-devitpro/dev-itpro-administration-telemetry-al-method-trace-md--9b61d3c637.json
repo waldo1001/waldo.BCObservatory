@@ -2,31 +2,39 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-al-method-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-al-method-trace",
   "title": "Analyzing Long Running AL Methods Telemetry",
-  "blob": "9dc39d0a8042905f2dcfcd62789aa433ce35f634",
-  "summary": "Analyze telemetry data about long-running AL methods to identify performance bottlenecks and understand how extensions contribute to execution time.",
+  "blob": "179e22509d6fa1fd6e6cf7d05a7bfa0b65de29c5",
+  "summary": "Analyzing Long Running AL Methods Telemetry describes how the Business Central server emits telemetry about AL method execution time and database performance, including method dimensions and KQL code for analyzing performance issues caused by extensions.",
   "systems": [
     "development",
-    "reporting"
+    "administration",
+    "platform"
   ],
   "topics": [
-    "al performance",
     "telemetry",
-    "execution time",
-    "debugging"
+    "al methods",
+    "performance",
+    "application insights",
+    "troubleshooting",
+    "sql metrics"
   ],
   "objects": [],
   "features": [
     "AL Function Timing",
-    "Long-running method detection",
-    "Extension performance tracking",
-    "KQL analysis",
-    "Event ID RT0018"
+    "AL Function Logging Threshold",
+    "Operation exceeded time threshold event (RT0018)",
+    "Extension execution metrics",
+    "SQL metrics",
+    "Method execution times",
+    "Stack trace analysis",
+    "Event subscriber counts"
   ],
   "versions": [
-    "2023 release wave 1",
-    "version 22.0",
+    "version 28",
+    "version 29",
     "version 21.6",
-    "version 22.1"
+    "version 22.0",
+    "version 22.1",
+    "2023 release wave 1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -34,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005878,
-      "pages_in_call": 8
+      "cost_usd": 0.005276,
+      "pages_in_call": 1
     }
   ]
 }

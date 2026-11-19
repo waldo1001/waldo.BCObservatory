@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing Web Service Access Key Telemetry | Microsoft Docs",
+  "title": "Analyzing Web Service Access Key Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-access-key-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.973Z",
-      "blob": "02dcc65190ff49d0ff2f7803349f0c3b53f824a8",
-      "words": 738,
+      "at": "2026-11-19T00:24:43.320Z",
+      "blob": "dd8f2298565d3d79686b92da2362103a9c58c1a5",
+      "words": 676,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:03:09.376Z",
+      "at": "2026-11-19T00:25:01.385Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003456
+      "cost_usd": 0.004181
     },
     "summarized": {
-      "at": "2026-10-06T19:03:09.391Z",
+      "at": "2026-11-19T00:25:01.386Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:03:09.392Z",
+      "at": "2026-11-19T00:25:01.388Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:03:09.393Z",
+      "at": "2026-11-19T00:25:01.388Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-webservices-access-key-trace.md",
-    "description": "Learn about the web service access key telemetry in Business Central",
-    "ms_date": "2021-04-01",
+    "description": "Analyze web service access key telemetry in Business Central to monitor authentication attempts, identify failures, and plan migration away from access keys.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,8 +56,8 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 738,
+    "ai_usage": "ai-assisted",
+    "words": 676,
     "identifiers": [
       "RT0020",
       "RT0021"
@@ -66,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "05b28a78659de1144294c3b830e4664916489cf5abdef43e3910f8fa9dc37843"
+  "output_hash": "98d1fa0488477d2e88287c17b52472c500610f85e62100f44f48e475d97fc23a"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring",
   "published_at": "2026-11-18T09:48:16.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
     },
     "fetched": {
-      "at": "2026-11-07T00:21:44.539Z",
-      "blob": "26b1af1bf1bf5ec35ef416c621c3ab3578eedd35",
-      "words": 2048,
+      "at": "2026-11-19T00:24:02.930Z",
+      "blob": "e78a14d571cbfec5bb63dd0f1099759fd75dbacc",
+      "words": 2378,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-11-07T00:22:00.793Z",
+      "at": "2026-11-19T00:24:08.184Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.012834
+      "objects": 3,
+      "cost_usd": 0.014534
     },
     "summarized": {
-      "at": "2026-11-07T00:22:00.796Z",
+      "at": "2026-11-19T00:24:08.185Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-07T00:22:00.797Z",
+      "at": "2026-11-19T00:24:08.186Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-07T00:22:00.797Z",
+      "at": "2026-11-19T00:24:08.187Z",
       "page": false
     }
   },
@@ -68,7 +68,7 @@
       "synchronization"
     ],
     "ai_usage": "ai-assisted",
-    "words": 2048,
+    "words": 2378,
     "identifiers": [
       "BusinessCentral"
     ],
@@ -76,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e0f834761aab991f746d4dd8fcf14f1873e4e8a2ec7a70ebe462b6ea5b68bd5a"
+  "output_hash": "914fb87b17139f860e287814306b1caa04b91a465bd9f93ce20faadfa40aa8f9"
 }

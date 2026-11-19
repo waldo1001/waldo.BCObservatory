@@ -1,40 +1,43 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-error-method-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-method-trace",
-  "title": "Error method trace telemetry",
-  "blob": "98802b8ce52de5ae6753f7c959a20475cfe48b4f",
-  "summary": "Error method trace telemetry documents how to analyze error dialog events emitted when the Error method is called in AL code, including dimensions, custom fields for identifying errors, and KQL examples for Application Insights analysis.",
+  "title": "Analyzing Error Method Trace Telemetry",
+  "blob": "526d9bb43543a1541eed2d06dded7ecfe74b7671",
+  "summary": "Error method trace telemetry captures and analyzes error dialogs shown to users, including those from AL Error method calls and platform errors. Use this to identify error patterns, set up alerts, and diagnose issues via Application Insights.",
   "systems": [
+    "administration",
     "development",
-    "administration"
+    "platform"
   ],
   "topics": [
     "telemetry",
-    "error",
-    "application insights",
-    "monitoring",
+    "error handling",
     "diagnostics",
-    "kql",
-    "error dialog"
+    "application insights",
+    "al code",
+    "monitoring"
   ],
   "objects": [],
   "features": [
-    "error dialog displayed",
-    "eventId RT0030",
-    "alErrorMessage",
-    "alStackTrace",
-    "error analysis",
-    "alert setup"
+    "Error dialog telemetry",
+    "AL stack trace capture",
+    "Error message filtering",
+    "Privacy filtering",
+    "Alert setup",
+    "KQL query support"
   ],
-  "versions": [],
+  "versions": [
+    "version 22.0",
+    "version 21.4"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00627,
-      "pages_in_call": 8
+      "cost_usd": 0.004611,
+      "pages_in_call": 1
     }
   ]
 }

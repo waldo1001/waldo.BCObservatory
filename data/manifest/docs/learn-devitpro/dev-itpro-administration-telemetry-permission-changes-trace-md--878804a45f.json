@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.955Z",
-      "blob": "37b9999ff63fdc5301449de0573ec8a5edbfeb27",
-      "words": 1170,
+      "at": "2026-11-19T00:24:34.343Z",
+      "blob": "5ad58e5a9a4217f6f646b8fc60cc07d95f434940",
+      "words": 1238,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:03:03.295Z",
+      "at": "2026-11-19T00:24:39.287Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.007288
+      "objects": 1,
+      "cost_usd": 0.01522
     },
     "summarized": {
-      "at": "2026-10-06T19:03:05.087Z",
+      "at": "2026-11-19T00:24:39.289Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:03:05.088Z",
+      "at": "2026-11-19T00:24:39.290Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:03:05.089Z",
+      "at": "2026-11-19T00:24:39.291Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-permission-changes-trace.md",
-    "description": "Learn about the telemetry for permission changes made in Business Central",
-    "ms_date": "2021-04-01",
+    "description": "Analyze Business Central permission change telemetry to track permission sets, user assignments, and changes made by extensions during installation or updates.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,8 +56,8 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 1170,
+    "ai_usage": "ai-assisted",
+    "words": 1238,
     "identifiers": [
       "LC0058"
     ],
@@ -65,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0adfcb1efd1f62fc647f9af348a34e32a34d78ef981cea3c0edd292519bb6a79"
+  "output_hash": "d431507ceead32c95e744817479ed49d10ffcc3caa308db0b723fcd0959da2e2"
 }

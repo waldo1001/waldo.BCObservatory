@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Skip API data upgrade in cloud migration",
+  "title": "Skip API Data Upgrade During Cloud Migration",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:54.731Z",
-      "blob": "e6299d6441dd5a0a7146dd85e2d9ebdbf4d8d517",
-      "words": 527,
+      "at": "2026-11-19T00:23:39.827Z",
+      "blob": "8612e881797507117fed5d11942752757e6d87cf",
+      "words": 536,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:45:48.581Z",
+      "at": "2026-11-19T00:23:54.555Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.003111
+      "cost_usd": 0.004138
     },
     "summarized": {
-      "at": "2026-10-06T19:45:48.583Z",
+      "at": "2026-11-19T00:23:54.556Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:45:48.584Z",
+      "at": "2026-11-19T00:23:54.556Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:45:48.585Z",
+      "at": "2026-11-19T00:23:54.556Z",
       "page": false
     }
   },
@@ -44,17 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-skip-api-data-upgrade.md",
-    "description": "This article explains things you can skip the API data upgrade during cloud migration and complete it after going live",
-    "ms_date": "2023-12-12",
+    "description": "Learn how to skip API data upgrade for selected companies during Business Central cloud migration and complete the upgrade after going live.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 527,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 536,
+    "identifiers": [
+      "SetCompanyName"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "73827582b20876d42524c47f821d4189c6bd535d8b678380e41d8018882e3351"
+  "output_hash": "150c6fe426d21a442ddca331e80b1f5102eb113c916d1063b903466d8a08f373"
 }

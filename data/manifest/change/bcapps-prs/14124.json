@@ -6,10 +6,35 @@
   "title": "[main] Bug 658242 IT Report 12135 \"Fiscal Inventory Valuation\" shows prior-year value for an item first posted in a later year",
   "url": "https://github.com/microsoft/BCApps/pull/14124",
   "published_at": "2026-11-18T05:49:51Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-19T00:15:47.846Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:23:57.391Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-19T00:24:01.708Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003071
+    },
+    "linked": {
+      "at": "2026-11-19T00:24:01.818Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-19T00:24:01.822Z",
+      "path": "content/changes/bcapps/14124.md"
     }
   },
   "input_hash": "49c1e8956de9526642018f212df46feb954858c7:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 658242 it report 12135 fiscal inventory valuation shows prior year value for an item first posted in a later year"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ad2effdb944ed04e409778e4aca5db7515ce7414e23ee75b9997271c135a529d"
 }

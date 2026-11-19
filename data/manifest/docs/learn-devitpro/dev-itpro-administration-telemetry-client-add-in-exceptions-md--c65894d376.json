@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing client control add-in exception telemetry",
+  "title": "Analyzing Client Control Add-In Exception Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-client-add-in-exceptions",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.530Z",
-      "blob": "dddaeb96e3ce99c664c2da723d4a2aec10759930",
-      "words": 372,
+      "at": "2026-11-19T00:24:21.456Z",
+      "blob": "23783b0efe7208b2c3045aa13c218b5961195939",
+      "words": 377,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:33:47.710Z",
+      "at": "2026-11-19T00:24:25.781Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003903
+      "objects": 1,
+      "cost_usd": 0.004691
     },
     "summarized": {
-      "at": "2026-10-06T19:33:47.803Z",
+      "at": "2026-11-19T00:24:25.782Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:33:47.805Z",
+      "at": "2026-11-19T00:24:25.783Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:33:47.807Z",
+      "at": "2026-11-19T00:24:25.783Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-client-add-in-exceptions.md",
-    "description": "Learn about the telemetry from client add-in exceptions in Business Central",
-    "ms_date": "2025-03-20",
+    "description": "Analyze Business Central control add-in exceptions in Application Insights to identify affected extensions, inspect error details, and troubleshoot failures.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,14 +56,15 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 372,
+    "ai_usage": "ai-assisted",
+    "words": 377,
     "identifiers": [
+      "ControlAddIn",
       "CL0005"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fb000c04a0bf1f1180afc55aae053922687bf948c73278dc84a9553d3f183ff3"
+  "output_hash": "22c2b01b7469f04308935a6100c94a52a6d234f57decf44dea33dc74b65c9350"
 }

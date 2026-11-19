@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Authorization Trace | Microsoft Docs",
+  "title": "Analyzing Authorization Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-authorization-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.539Z",
-      "blob": "b5ee5e8b791584b67042866eee7e0bdb0e3eae3e",
-      "words": 2347,
+      "at": "2026-11-19T00:24:18.054Z",
+      "blob": "a363cd0e46aa31e9c89a39b999ce72c198af010d",
+      "words": 2317,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:50:31.925Z",
+      "at": "2026-11-19T00:24:23.291Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.006845
+      "cost_usd": 0.013925
     },
     "summarized": {
-      "at": "2026-10-06T18:50:31.958Z",
+      "at": "2026-11-19T00:24:23.293Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:50:31.958Z",
+      "at": "2026-11-19T00:24:23.294Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:50:31.959Z",
+      "at": "2026-11-19T00:24:23.296Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-authorization-trace.md",
-    "description": "Learn about the Authorization telemetry in Business Central",
-    "ms_date": "2022-09-12",
+    "description": "Analyze Business Central authorization telemetry to troubleshoot sign-in failures, company access problems, entitlements, and company-opening performance.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,10 +56,12 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 2347,
+    "ai_usage": "ai-assisted",
+    "words": 2317,
     "identifiers": [
-      "eventID",
+      "OnOpenCompany",
+      "UnknownClient",
+      "clientType",
       "RT0003",
       "RT0001",
       "RT0004",
@@ -69,5 +71,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "78027e53868ba7cbcae597b4d06aa20f17eb044958470706e313319ced52060c"
+  "output_hash": "630b140f3b4293edbf0740d1267c7d919d6dc1359a68c6c7593730afa684d8b2"
 }

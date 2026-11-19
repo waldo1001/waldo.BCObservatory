@@ -2,42 +2,52 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-troubleshooting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting",
   "title": "Troubleshooting Cloud Migration",
-  "blob": "cc9f266b5fd24df4da9395d3cc617d05a922085c",
-  "summary": "Troubleshooting guide for cloud migration issues in Business Central, covering database compatibility, change tracking, user permissions, Integration Runtime setup, version requirements, and common data problems.",
+  "blob": "3106a5b404d303606b4b4bd915627158384884f9",
+  "summary": "Troubleshoot cloud migration issues to Business Central online by verifying SQL Server compatibility, database user permissions, change tracking, integration runtime configuration, and data integrity requirements.",
   "systems": [
     "administration",
-    "integration"
+    "integration",
+    "platform"
   ],
   "topics": [
     "cloud migration",
     "troubleshooting",
-    "integration runtime",
     "data replication",
-    "sql server"
+    "on-premises",
+    "integration runtime",
+    "database requirements"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "Data Migration Setup"
+    }
+  ],
   "features": [
-    "SQL Server compatibility",
-    "change tracking",
-    "Integration Runtime",
-    "migration user permissions",
-    "company name validation",
-    "tenant media table",
-    "cloud migration management"
+    "SQL Server compatibility level validation",
+    "Change tracking configuration",
+    "Migration user permissions",
+    "Integration runtime setup and diagnostics",
+    "Company name validation",
+    "Tenant Media table monitoring",
+    "Repair Companion Table Records",
+    "Cloud migration disabling"
   ],
   "versions": [
-    "version 23",
-    "version 24",
-    "version 25"
+    "version 25.0"
   ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": true,
-      "cost_usd": null,
-      "pages_in_call": 7
+      "cached": false,
+      "cost_usd": 0.011272,
+      "pages_in_call": 1
     }
   ]
 }

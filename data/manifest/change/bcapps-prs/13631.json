@@ -6,10 +6,35 @@
   "title": "[main] bug 646068 - Add support for disabling incremental exchange gain/loss posting in General Ledger Setup",
   "url": "https://github.com/microsoft/BCApps/pull/13631",
   "published_at": "2026-11-18T06:14:25Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-19T00:15:47.846Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:23:57.229Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-19T00:24:01.919Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.00421
+    },
+    "linked": {
+      "at": "2026-11-19T00:24:02.024Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-19T00:24:02.029Z",
+      "path": "content/changes/bcapps/13631.md"
     }
   },
   "input_hash": "79cad70180a1fe394cef4d1f12e52315082120ea:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 646068 add support for disabling incremental exchange gain loss posting in general ledger setup"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2239d52da45cc468c50c07b46cc147c3056cd5f0d9a2caa9485dc6629ebfeb74"
 }

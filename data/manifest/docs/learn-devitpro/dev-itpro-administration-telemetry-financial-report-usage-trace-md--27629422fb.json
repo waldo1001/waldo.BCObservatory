@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing financial report usage trace telemetry",
+  "title": "Analyzing Financial Report Usage Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-financial-report-usage-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.544Z",
-      "blob": "5831639d0a8046101e4bfe4e5dd19f079c756fdf",
-      "words": 261,
+      "at": "2026-11-19T00:24:32.772Z",
+      "blob": "76ea4a160a36d853eed43e21a133c049a476164c",
+      "words": 293,
       "forms": 0
     },
     "extracted": {
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-financial-report-usage-trace.md",
-    "description": "Learn about the telemetry for financial report usage telemetry in Azure Application Insights.",
-    "ms_date": "2025-03-20",
-    "ms_topic": "concept-article",
+    "description": "Analyze financial report usage telemetry in Business Central to identify reports viewed on-screen or run as reports, including their definition codes.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [
       "administration",
@@ -56,12 +56,14 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 261,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 293,
+    "identifiers": [
+      "severityLevel"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a42c9113c4f57cf019f2f2ebbe48c31864fa3ff45fe96210562c3853331f8c53"
+  "output_hash": "76ea4a160a36d853eed43e21a133c049a476164c"
 }

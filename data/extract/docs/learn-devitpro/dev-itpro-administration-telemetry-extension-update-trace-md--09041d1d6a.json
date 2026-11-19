@@ -1,34 +1,37 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-extension-update-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-update-trace",
-  "title": "Extension Update Trace Telemetry | Microsoft Docs",
-  "blob": "7f22208631103e3d8274d742e48410409f2ce58a",
-  "summary": "Extension update trace telemetry monitors upgrade failures and upgrade tag usage in extension codeunits, capturing exception messages, stack traces, and upgrade tag calls to help troubleshoot data upgrade issues.",
+  "title": "Analyzing Extension Update Trace Telemetry",
+  "blob": "5c0bd4e86724ba5ccbab759ab1ede597e4eb5f4c",
+  "summary": "Extension update trace telemetry captures information about extension upgrade operations including upgrade code failures and upgrade tag usage to help troubleshoot data upgrade issues for per-tenant and Marketplace extensions.",
   "systems": [
     "development",
-    "reporting"
+    "administration"
   ],
   "topics": [
     "telemetry",
-    "extensions",
-    "upgrade",
-    "tracing",
-    "diagnostics",
-    "exceptions"
+    "extension upgrades",
+    "upgrade tags",
+    "exception handling",
+    "troubleshooting"
   ],
   "objects": [
     {
       "type": "codeunit",
-      "name": "Upgrade Tag"
+      "name": "9999 Upgrade Tag"
+    },
+    {
+      "type": "codeunit",
+      "name": "9996 Upgrade Tag Impl."
     }
   ],
   "features": [
-    "upgrade code failures",
-    "upgrade tag usage",
-    "HasUpgradeTag",
-    "SetUpgradeTag",
-    "exception tracking",
-    "AL stack trace"
+    "upgrade code failure telemetry",
+    "upgrade tag usage tracking",
+    "HasUpgradeTag method tracing",
+    "SetUpgradeTag method tracing",
+    "exception message capture",
+    "AL stack trace logging"
   ],
   "versions": [
     "2020 release wave 1",
@@ -42,8 +45,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005577,
-      "pages_in_call": 8
+      "cost_usd": 0.005221,
+      "pages_in_call": 1
     }
   ]
 }

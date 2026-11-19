@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing Error Message Vote Telemetry | Microsoft Docs",
+  "title": "Analyzing Error Message Vote Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-message-voting-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.074Z",
-      "blob": "a413d9fc3f33d329798789f685b0920eab9c9f16",
-      "words": 522,
+      "at": "2026-11-19T00:24:27.601Z",
+      "blob": "0873805bce26a4652b1ce15ee937a6afd421f0d3",
+      "words": 517,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:14:15.277Z",
+      "at": "2026-11-19T00:24:31.350Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.006456
+      "objects": 0,
+      "cost_usd": 0.003723
     },
     "summarized": {
-      "at": "2026-10-06T18:16:05.464Z",
+      "at": "2026-11-19T00:24:31.351Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:16:05.465Z",
+      "at": "2026-11-19T00:24:31.352Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:16:05.466Z",
+      "at": "2026-11-19T00:24:31.352Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-error-message-voting-trace.md",
-    "description": "Learn about error message vote telemetry in Business Central",
-    "ms_date": "2022-03-22",
+    "description": "Analyze error message vote telemetry in Business Central to find messages users consider unhelpful and investigate the associated errors and extensions.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,8 +56,8 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 522,
+    "ai_usage": "ai-assisted",
+    "words": 517,
     "identifiers": [
       "CL0002"
     ],
@@ -65,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9a3711f4f30c03cec48016a92e9330a63e50dee195ea0c6ab9c3c7c6510cd456"
+  "output_hash": "1f86ce5f93418a798bdb971763068d3ede988ba2519e3caa8a26f65d7e6e97db"
 }

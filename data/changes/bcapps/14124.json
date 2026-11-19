@@ -1,0 +1,70 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14124,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14124",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-18T05:49:51Z",
+  "merge_commit_sha": "49c1e8956de9526642018f212df46feb954858c7",
+  "author": "MSNehaNawal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[main] Bug 658242 IT Report 12135 \"Fiscal Inventory Valuation\" shows prior-year value for an item first posted in a later year",
+  "body_hash": "868ec22773fc331b97738b076c2b8baec2b92ef61ed2770555a37e3c1e35cd0a",
+  "fixes_issues": [],
+  "work_items": [
+    658242
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Local/Inventory/Reports/FiscalInventoryValuation.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/Local/UTFiscalLIFO.Codeunit.al",
+      "status": "modified",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 36,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Local/Inventory/Reports/FiscalInventoryValuation.Report.al",
+        "status": "modified",
+        "key": "report/12135",
+        "type": "report",
+        "id": 12135,
+        "name": "Fiscal Inventory Valuation",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "report/12135-it"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

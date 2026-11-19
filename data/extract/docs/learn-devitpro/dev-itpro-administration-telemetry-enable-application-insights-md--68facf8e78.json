@@ -1,36 +1,36 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-enable-application-insights.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights",
-  "title": "Turn sending telemetry to application insights on or off",
-  "blob": "2e81baa1728b3b750d1b355bcf9a61e4dcb928be",
-  "summary": "Turn environment telemetry on or off by setting up Azure Application Insights to monitor Business Central online and on-premises deployments. Configure connection strings or instrumentation keys for the server, admin center, or individual tenants.",
+  "title": "Turn Business Central Environment Telemetry On or Off",
+  "blob": "dbb204ae920e712f72886a81b378baed628b5250",
+  "summary": "Configure telemetry to send Business Central environment data to Azure Application Insights for online and on-premises deployments. Use this to monitor and troubleshoot system performance and user activities.",
   "systems": [
     "administration",
-    "platform"
+    "platform",
+    "development"
   ],
   "topics": [
     "telemetry",
-    "application insights",
-    "diagnostics",
+    "azure application insights",
     "monitoring",
+    "diagnostics",
     "configuration",
-    "azure"
+    "environment setup"
   ],
   "objects": [],
   "features": [
-    "Application Insights integration",
-    "telemetry configuration",
-    "connection strings",
-    "instrumentation keys",
-    "user telemetry IDs",
-    "on-premises setup",
-    "online setup"
+    "telemetry enablement",
+    "Azure Application Insights integration",
+    "connection string configuration",
+    "instrumentation key",
+    "user telemetry ID assignment",
+    "single-tenant mode setup",
+    "multitenant mode setup",
+    "Docker sandbox telemetry"
   ],
   "versions": [
-    "version 15",
-    "version 16",
-    "version 17",
-    "2020 release wave 2"
+    "2020 release wave 2",
+    "version 24"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -38,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007462,
-      "pages_in_call": 6
+      "cost_usd": 0.011217,
+      "pages_in_call": 1
     }
   ]
 }

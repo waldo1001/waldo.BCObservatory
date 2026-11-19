@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14082,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14082",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-16T21:13:00Z",
+  "merge_commit_sha": "35877d3733f9ece60d374ed2b7328175bf76ab95",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29.x]-Bug 656406: [Expense Agent] Setup wizard access text should mention the mobile app (Android/iOS) alongside Web",
+  "body_hash": "d420c1a6dd2869feccc14eb05a371a0016327e1091057f5b445d3ab9b01d2d32",
+  "fixes_issues": [],
+  "work_items": [
+    656406
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "8df2ba47b62fdf6e6189524d4680b9bfb49bb553",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Pages/ExpenseAgentSetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/6991",
+        "type": "page",
+        "id": 6991,
+        "name": "Expense Agent Setup Wizard",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "page/6991"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

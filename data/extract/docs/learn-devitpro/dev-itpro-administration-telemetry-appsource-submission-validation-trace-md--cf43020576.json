@@ -1,27 +1,34 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-appsource-submission-validation-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace",
-  "title": "Analyzing Marketplace submission validation trace telemetry",
-  "blob": "98e53909765bb2f71d92b7925ad69a1cd1016ab3",
-  "summary": "This telemetry guide documents Marketplace submission validation traces emitted to Application Insights, detailing validation phases, diagnostic events, and KQL code samples for analyzing app submission results.",
+  "title": "Analyzing Marketplace Submission Validation Telemetry",
+  "blob": "aa7b467afaa9f0b5f144985c4a7196d30066b242",
+  "summary": "Analyzing marketplace submission validation telemetry describes how to monitor and troubleshoot app validation results when submitting extensions to AppSource, using Application Insights telemetry traces that track validation phases, diagnostics, and failures.",
   "systems": [
     "development",
-    "administration"
+    "administration",
+    "integration"
   ],
   "topics": [
     "telemetry",
-    "marketplace",
     "appsource",
+    "marketplace",
+    "submission",
     "validation",
-    "application insights"
+    "app insights",
+    "diagnostics",
+    "extension"
   ],
   "objects": [],
   "features": [
-    "validation traces",
-    "AL compiler diagnostics",
-    "AppSourceCop analyzer",
-    "diagnostic codes",
-    "KQL queries"
+    "Marketplace submission validation telemetry",
+    "Application Insights integration",
+    "Validation process tracking",
+    "Extension validation diagnostics",
+    "AL compiler validation",
+    "AppSourceCop code analyzer",
+    "Version and country-region validation",
+    "Hotfix validation"
   ],
   "versions": [
     "2021 release wave 1",
@@ -32,9 +39,9 @@
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": true,
-      "cost_usd": null,
-      "pages_in_call": 7
+      "cached": false,
+      "cost_usd": 0.016352,
+      "pages_in_call": 1
     }
   ]
 }

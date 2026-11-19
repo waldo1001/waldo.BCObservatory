@@ -7,15 +7,15 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-azure-function-integration-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.526Z",
-      "blob": "afa4704b220de0c844e42d0644e627cd4d700e51",
-      "words": 405,
+      "at": "2026-11-19T00:24:19.072Z",
+      "blob": "c9783101542758344abff3a162fd86b1042ecd07",
+      "words": 414,
       "forms": 0
     },
     "extracted": {
@@ -44,21 +44,23 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-azure-function-integration-trace.md",
-    "description": "Learn about telemetry on Azure Function integrations with Business Central",
-    "ms_date": "2022-08-16",
-    "ms_topic": "how-to",
+    "description": "Analyze Azure Function integration telemetry in Business Central to monitor successful requests, failed requests, and OAuth authorization failures.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [
       "administration",
       "tenant",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 405,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 414,
+    "identifiers": [
+      "severityLevel"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "91bbf336951c8efcda3b12a90eb56fc22531a0a65c21118cb049786cc092afc0"
+  "output_hash": "c9783101542758344abff3a162fd86b1042ecd07"
 }

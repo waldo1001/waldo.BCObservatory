@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:27.963Z",
-      "blob": "6281096014f0669bcee7f855d732d3a1e8b79758",
-      "words": 630,
+      "at": "2026-11-19T00:24:33.219Z",
+      "blob": "8b5cbf5ca14a2fee444b2efe996962ab999066d6",
+      "words": 620,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:48:16.204Z",
+      "at": "2026-11-19T00:24:37.508Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.005577
+      "cost_usd": 0.00458
     },
     "summarized": {
-      "at": "2026-10-06T18:48:17.874Z",
+      "at": "2026-11-19T00:24:37.510Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:48:17.875Z",
+      "at": "2026-11-19T00:24:37.511Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:48:17.875Z",
+      "at": "2026-11-19T00:24:37.512Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-overview.md",
-    "description": "Learn how Business Central provides telemetry for each environment, both for online and on-premises environments.",
-    "ms_date": "2025-06-20",
+    "description": "Monitor Business Central environments and extensions with Application Insights telemetry to diagnose errors, analyze performance, and track usage.",
+    "ms_date": "2026-11-17",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,14 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 630,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 620,
+    "identifiers": [
+      "pageViews"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fcc4a5eef0983cc78245d2e6349233dea911c9c24bfa097d355f757257c1021e"
+  "output_hash": "b9a1b42cfe288b417146df5795dcf3b7285de13b8866621ddc3b7ffbce5adab4"
 }

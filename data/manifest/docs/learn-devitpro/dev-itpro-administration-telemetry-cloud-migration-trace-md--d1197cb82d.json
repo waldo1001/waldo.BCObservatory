@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing Cloud migration trace telemetry",
+  "title": "Analyze Business Central Cloud Migration Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-cloud-migration-trace",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.013Z",
-      "blob": "be221f3dba03c0b050a6bb9374a1eef2f7a5aca6",
-      "words": 571,
+      "at": "2026-11-19T00:23:57.072Z",
+      "blob": "dad6cc59e27c0568095c7182d6b1d55ba2585ccb",
+      "words": 739,
       "forms": 0
     },
     "extracted": {
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-cloud-migration-trace.md",
-    "description": "Learn about cloud migration telemetry for Dynamics 365 Business Central",
-    "ms_date": "2023-05-12",
-    "ms_topic": "concept-article",
+    "description": "Analyze cloud migration trace telemetry in Business Central to monitor replication, companion table repair, data upgrades, and migration disablement.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [
       "administration",
@@ -57,8 +57,8 @@
       "telemetry",
       "cloud migration"
     ],
-    "ai_usage": null,
-    "words": 571,
+    "ai_usage": "ai-assisted",
+    "words": 739,
     "identifiers": [
       "LC0175",
       "LC0176",
@@ -70,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3180977ed43c574a26cd59f1c6084670013a7a7b0a7d32e66a747485359dc6b0"
+  "output_hash": "dad6cc59e27c0568095c7182d6b1d55ba2585ccb"
 }

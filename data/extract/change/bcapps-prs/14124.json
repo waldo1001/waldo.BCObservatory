@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/14124",
+  "number": 14124,
+  "title": "[main] Bug 658242 IT Report 12135 \"Fiscal Inventory Valuation\" shows prior-year value for an item first posted in a later year",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Report 12135 now correctly displays inventory values for items first posted in later years instead of showing prior-year values.",
+  "key_points": [
+    "Fixed incorrect value calculation in Fiscal Inventory Valuation report",
+    "Report now properly handles items with posting dates in years after initial setup",
+    "Applied fix to both report logic and test coverage for LIFO valuation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003071,
+    "changes_in_call": 1
+  }
+}

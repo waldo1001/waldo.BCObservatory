@@ -7,15 +7,15 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.039Z",
-      "blob": "41bf01f70f7798cdf1e2a395c31a222706ea983b",
-      "words": 1408,
+      "at": "2026-11-19T00:24:32.802Z",
+      "blob": "3962865c19f54733cceab8154c44fa235bc69efc",
+      "words": 1496,
       "forms": 0
     },
     "extracted": {
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-job-queue-lifecycle-trace.md",
-    "description": "Learn about the telemetry for job queue entries in Business Central",
-    "ms_date": "2023-08-21",
-    "ms_topic": "how-to",
+    "description": "Analyze job queue lifecycle telemetry in Business Central to monitor queued tasks, successful runs, retries, cancellations, and entries that fail.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [
       "administration",
@@ -56,12 +56,12 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 1408,
+    "ai_usage": "ai-assisted",
+    "words": 1496,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "10d7245674d9937ed11830639c5ec183e90772960a28e9bd80343ce4f0c02732"
+  "output_hash": "3962865c19f54733cceab8154c44fa235bc69efc"
 }

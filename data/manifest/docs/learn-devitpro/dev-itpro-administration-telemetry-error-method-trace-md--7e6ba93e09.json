@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Error method trace telemetry",
+  "title": "Analyzing Error Method Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-method-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.460Z",
-      "blob": "98802b8ce52de5ae6753f7c959a20475cfe48b4f",
-      "words": 518,
+      "at": "2026-11-19T00:24:28.394Z",
+      "blob": "526d9bb43543a1541eed2d06dded7ecfe74b7671",
+      "words": 530,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:43:56.203Z",
+      "at": "2026-11-19T00:24:32.638Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00627
+      "cost_usd": 0.004611
     },
     "summarized": {
-      "at": "2026-10-06T18:43:58.014Z",
+      "at": "2026-11-19T00:24:32.639Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:43:58.015Z",
+      "at": "2026-11-19T00:24:32.640Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:43:58.015Z",
+      "at": "2026-11-19T00:24:32.640Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-error-method-trace.md",
-    "description": "Learn about the Error method telemetry in Business Central",
-    "ms_date": "2023-12-21",
+    "description": "Analyze error dialog telemetry in Business Central to investigate AL errors, inspect stack traces and failure reasons, and identify problems affecting users.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,8 +56,8 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 518,
+    "ai_usage": "ai-assisted",
+    "words": 530,
     "identifiers": [
       "TextConst",
       "RT0030"
@@ -66,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fe3b2a331713b480b31dcc73d9718ebbb0ae30b706e1977d43b4d1ae1a1ccb01"
+  "output_hash": "64c408f5fe7ae2adfe27e3e62205a41f4cdbaedc4b5b4c04a0dfdc0a60237844"
 }

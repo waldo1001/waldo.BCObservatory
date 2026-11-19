@@ -6,14 +6,22 @@
   "title": "[Shopify] Keep gift cards from unverified POS returns on the sales invoice",
   "url": "https://github.com/microsoft/BCApps/pull/14123",
   "published_at": "2026-11-17T14:38:13Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:24:05.525Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
     }
   },
   "input_hash": "ffe26a0f4eb44c2539e183e4f37704564ae74484:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 14123,
@@ -30,6 +38,7 @@
     "community_contribution": false,
     "title_key": "shopify keep gift cards from unverified pos returns on the sales invoice"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-18T02:20:20.446Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "366b098ea2568ac67f5cb6d98835b164d2f3c7fcab6d1b4dbc754cb41d321c75"
 }

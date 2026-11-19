@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "App Key Vault Secret Trace Telemetry | Microsoft Docs",
+  "title": "Analyzing App Key Vault Secret Trace Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-15T00:25:40.316Z",
-      "blob": "80027fb972984a397823565193a7ff7a97c6172a",
-      "words": 1357,
+      "at": "2026-11-19T00:24:28.684Z",
+      "blob": "827225eb1e95b19cb9b1bd6f889de5da10d9d97d",
+      "words": 1366,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-15T00:25:51.447Z",
+      "at": "2026-11-19T00:24:33.117Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.011614
+      "cost_usd": 0.011792
     },
     "summarized": {
-      "at": "2026-10-15T00:25:51.449Z",
+      "at": "2026-11-19T00:24:33.119Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-15T00:25:51.450Z",
+      "at": "2026-11-19T00:24:33.120Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-15T00:25:51.451Z",
+      "at": "2026-11-19T00:24:33.121Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-extension-key-vault-trace.md",
-    "description": "Learn about app key vault secret trace telemetry in Business Central",
-    "ms_date": "2025-09-25",
-    "ms_topic": "how-to",
+    "description": "Analyze app key vault telemetry in Business Central to troubleshoot extension initialization failures and secret retrieval errors in Azure Key Vault.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "administration",
@@ -56,11 +56,12 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 1357,
+    "ai_usage": "ai-assisted",
+    "words": 1366,
     "identifiers": [
       "TryInitializeFromCurrentApp",
       "GetSecret",
+      "WebClient",
       "RT0014",
       "RT0015",
       "RT0016",
@@ -70,5 +71,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bd7aca6aca2cc9c8527e86bab9a1d69b286c9b0539607ef4b77e6ee9cd32c8cb"
+  "output_hash": "9d92c2d8e27ee1b914fc87964794706423c3bc56279b5ee1011d606f354a5b2d"
 }

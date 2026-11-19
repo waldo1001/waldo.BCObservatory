@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Analyzing report layout lifecycle telemetry",
+  "title": "Report Layout Lifecycle Telemetry Reference",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-report-layout-lifecycle-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.764Z",
-      "blob": "51f4ad9264dfe5b7f85fb5193c7690bfbbfa6490",
-      "words": 642,
+      "at": "2026-11-19T00:24:40.121Z",
+      "blob": "84105981ae4f01f79d53639472f62e02d03c56ee",
+      "words": 716,
       "forms": 0
     },
     "extracted": {
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-report-layout-lifecycle-trace.md",
-    "description": "Learn about report layout lifecycle telemetry in Business Central",
-    "ms_date": "2024-11-06",
-    "ms_topic": "concept-article",
+    "description": "Analyze report layout lifecycle telemetry in Business Central to track layouts added, replaced, deleted, exported, or selected as the report default.",
+    "ms_date": "2026-11-17",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [
       "administration",
@@ -56,12 +56,16 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 642,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 716,
+    "identifiers": [
+      "severityLevel",
+      "alNewLayoutDescription",
+      "alNewLayoutName"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "98651e78b629e058d5651cd1b09abc97833ef998528767f12a3e4452c895afec"
+  "output_hash": "84105981ae4f01f79d53639472f62e02d03c56ee"
 }
