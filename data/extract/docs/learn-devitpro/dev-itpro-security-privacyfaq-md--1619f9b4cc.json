@@ -2,26 +2,26 @@
   "item_id": "docs/learn-devitpro/dev-itpro/security/PrivacyFAQ.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/PrivacyFAQ",
   "title": "Privacy FAQ",
-  "blob": "0a784d908b7809e45f5e1dacdcc0d95b2177096a",
-  "summary": "Privacy FAQ provides links to resources about privacy, personal data, compliance, international availability, and data residency for Business Central customers.",
+  "blob": "6659cea2ca40bd97892097828b51c6cd266ddc2a",
+  "summary": "Privacy FAQ provides links to answers about privacy and personal data handling in Dynamics 365 Business Central, including compliance, regional availability, and data categorization information.",
   "systems": [
     "administration",
     "platform"
   ],
   "topics": [
     "privacy",
+    "personal data",
     "compliance",
-    "data residency",
-    "gdpr",
+    "security",
+    "data protection",
     "eu data boundary"
   ],
   "objects": [],
   "features": [
-    "data privacy",
+    "privacy FAQ",
+    "customer data definitions",
     "regional availability",
-    "trust center",
-    "eu data boundary",
-    "azure front door"
+    "international support"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005417,
-      "pages_in_call": 8
+      "cost_usd": 0.002916,
+      "pages_in_call": 1
     }
   ]
 }
