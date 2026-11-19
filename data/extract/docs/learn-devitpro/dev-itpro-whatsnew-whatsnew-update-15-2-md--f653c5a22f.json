@@ -2,32 +2,33 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-15-2.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-2",
   "title": "Update 15.2 for Microsoft Dynamics 365 Business Central 2019 Release Wave 2",
-  "blob": "c01712dc51dff8f7c477af5451720debf109c666",
-  "summary": "Update 15.2 for 2019 Release Wave 2 includes hotfixes and feature changes such as adding Name 2 field to customer and vendor cards, including job information in archived documents, using VAT clauses on different document types, and viewing item availability by unit of measure.",
+  "blob": "ffca60b63a8cfd4ea3dc2103168a5bef254eec19",
+  "summary": "Update 15.2 for Business Central 2019 Release Wave 2 introduces new features including Name 2 field for customers and vendors, job information in archived documents, VAT clauses on different document types, item availability by unit of measure, and general journal line counts.",
   "systems": [
     "sales",
     "purchasing",
     "inventory"
   ],
   "topics": [
-    "update",
-    "release wave 2",
-    "customer setup",
-    "vendor setup",
+    "updates",
+    "2019 wave 2",
+    "features",
+    "customers",
+    "vendors",
     "vat",
-    "item availability"
+    "inventory"
   ],
   "objects": [],
   "features": [
     "Name 2 field on customer and vendor cards",
-    "Job information in archived documents",
-    "VAT clauses on document types",
-    "Item availability by unit of measure",
-    "General journal line count"
+    "job information in archived sales and purchase documents",
+    "VAT clauses on different document types",
+    "item availability by unit of measure",
+    "general journal line count view"
   ],
   "versions": [
     "2019 release wave 2",
-    "update 15.2"
+    "15.2"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -35,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006307,
-      "pages_in_call": 6
+      "cost_usd": 0.004412,
+      "pages_in_call": 1
     }
   ]
 }

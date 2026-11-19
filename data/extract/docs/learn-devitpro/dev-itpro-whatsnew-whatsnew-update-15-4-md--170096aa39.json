@@ -2,24 +2,29 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-15-4.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-4",
   "title": "Update 15.4 for Microsoft Dynamics 365 Business Central 2019 Release Wave 2",
-  "blob": "271a56de107aef17bff67573fc1f1a2eedcaa7d8",
-  "summary": "Update 15.4 for 2019 Release Wave 2 completes rollout of report bookmarking feature and provides information on major update processes and preview environments for upcoming releases.",
+  "blob": "262348e33984e6e3bf47549bc91bb410c7c18185",
+  "summary": "Update 15.4 for Business Central 2019 Release Wave 2 introduces bookmarking reports and includes hotfixes and regulatory features. Use this to understand changes and rollout details for this update.",
   "systems": [
     "reporting",
-    "administration"
+    "platform"
   ],
   "topics": [
-    "update",
-    "release wave 2",
-    "reporting"
+    "update 15.4",
+    "2019 wave 2",
+    "hotfixes",
+    "bookmarking reports",
+    "feature changes",
+    "upgrade"
   ],
   "objects": [],
   "features": [
-    "Report bookmarking"
+    "Bookmarking a report",
+    "Hotfixes",
+    "Regulatory features"
   ],
   "versions": [
-    "2019 release wave 2",
-    "update 15.4"
+    "Update 15.4",
+    "2019 Release Wave 2"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -27,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006307,
-      "pages_in_call": 6
+      "cost_usd": 0.003247,
+      "pages_in_call": 1
     }
   ]
 }

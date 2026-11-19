@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-publish-failure-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.444Z",
-      "blob": "0e552116b6687945f4087dfa9d96129bf4fb49d9",
+      "at": "2026-11-19T00:25:01.426Z",
+      "blob": "8000df7dba2968bb928ef9b23a2c5507b2fdbc29",
       "words": 503,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:33:05.526Z",
+      "at": "2026-11-19T00:25:06.925Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005156
+      "cost_usd": 0.010076
     },
     "summarized": {
-      "at": "2026-10-06T19:33:28.246Z",
+      "at": "2026-11-19T00:25:06.927Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:33:28.247Z",
+      "at": "2026-11-19T00:25:06.928Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:33:28.248Z",
+      "at": "2026-11-19T00:25:06.928Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-webservices-publish-failure-trace.md",
-    "description": "Learn about the web service publish failure telemetry in Business Central",
-    "ms_date": "2023-06-21",
+    "description": "Analyze web service publish failure telemetry in Business Central to investigate metadata generation errors and identify affected pages, controls, and fields.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,7 +56,7 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 503,
     "identifiers": [
       "RT0033",
@@ -70,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b121a84bb0504613c7dd34fae016554214a65c4f32fa72a920bcff38b07b6b52"
+  "output_hash": "df36e7c629e5b11136042299e995aaa3a1106ae33c16e1f0383d37d2f542ca45"
 }

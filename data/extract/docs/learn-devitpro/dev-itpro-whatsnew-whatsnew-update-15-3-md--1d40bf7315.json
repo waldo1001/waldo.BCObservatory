@@ -2,31 +2,34 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-15-3.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-3",
   "title": "Update 15.3 for Microsoft Dynamics 365 Business Central 2019 Release Wave 2",
-  "blob": "814fad70a93c375a908f5552f29602b1355dcc7f",
-  "summary": "Update 15.3 for 2019 Release Wave 2 includes hotfixes and feature changes such as viewing reference and external document numbers on sales documents, skipping empty lines in account schedule reports, MICR fonts support, and sign-in attempt telemetry for partners.",
+  "blob": "43a51f6c964d06c3a9a0a7071843a07530a8f1a6",
+  "summary": "Update 15.3 for Business Central 2019 Release Wave 2 introduces hotfixes, feature changes including reference document display on sales documents, MICR fonts, printer extension events, report bookmarking, and sign-in telemetry. Use this page to understand what changed in this update and upgrade paths.",
   "systems": [
-    "sales",
-    "reporting"
+    "administration",
+    "reporting",
+    "development"
   ],
   "topics": [
-    "update",
-    "release wave 2",
+    "update 15.3",
+    "2019 release wave 2",
+    "hotfixes",
+    "feature changes",
+    "document display",
     "telemetry",
-    "reporting",
-    "security"
+    "browser support"
   ],
   "objects": [],
   "features": [
-    "Reference and external document numbers on sales documents",
+    "Reference and external document number on sales documents",
     "Skip empty lines in Account Schedule report",
-    "MICR fonts",
+    "MICR fonts support",
     "Printer extension events",
     "Report bookmarking",
     "Sign-in attempt telemetry"
   ],
   "versions": [
-    "2019 release wave 2",
-    "update 15.3"
+    "15.3",
+    "2019 release wave 2"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -34,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006307,
-      "pages_in_call": 6
+      "cost_usd": 0.004021,
+      "pages_in_call": 1
     }
   ]
 }

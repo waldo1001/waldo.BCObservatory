@@ -2,30 +2,30 @@
   "item_id": "docs/learn-devitpro/dev-itpro/deployment/app-components.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/app-components",
   "title": "Components and capabilities",
-  "blob": "80f33946cddb16bae81177d5514aceb64f37d0b0",
-  "summary": "App components and deployment capabilities for building Marketplace and embedded apps in Business Central, including base application, platform, and ecosystem integrations with Microsoft and third-party services.",
+  "blob": "a13810a5b24e6438c77c9cf966fbe2bf5a69dcc4",
+  "summary": "Components and capabilities of Business Central apps, including base application, platform, and ecosystem integration options like APIs, Power BI, Power Automate, and Dynamics 365 Sales integration.",
   "systems": [
-    "development",
     "integration",
+    "development",
     "platform"
   ],
   "topics": [
-    "app components",
+    "app development",
     "deployment",
-    "marketplace apps",
-    "embedded apps",
+    "components",
     "integration capabilities",
-    "ecosystem"
+    "ecosystem",
+    "marketplace apps"
   ],
   "objects": [],
   "features": [
-    "Base application",
-    "Platform",
     "Dynamics 365 API endpoint",
     "Outlook Add-in",
-    "Power BI",
-    "Power Automate",
-    "Power Apps",
+    "Power BI integration",
+    "Power Automate integration",
+    "Power Apps integration",
+    "Azure Machine Learning",
+    "Dynamics 365 Sales integration",
     "Microsoft Graph"
   ],
   "versions": [],
@@ -35,7 +35,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003368,
+      "cost_usd": 0.006356,
       "pages_in_call": 1
     }
   ]

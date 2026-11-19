@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Creating custom telemetry events for Azure Application Insights",
+  "title": "Creating Custom Telemetry Events for Azure Application Insights",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-22T00:20:43.044Z",
-      "blob": "7d95301901a3c8e311f155472e9c508e01b3c867",
-      "words": 1578,
+      "at": "2026-11-19T00:25:06.046Z",
+      "blob": "80858b2909db16c4d63a6be812ed41529dd21244",
+      "words": 1590,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-22T00:20:58.333Z",
+      "at": "2026-11-19T00:25:11.068Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.011794
+      "cost_usd": 0.012335
     },
     "summarized": {
-      "at": "2026-10-22T00:20:58.334Z",
+      "at": "2026-11-19T00:25:11.069Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-22T00:20:58.335Z",
+      "at": "2026-11-19T00:25:11.069Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-22T00:20:58.336Z",
+      "at": "2026-11-19T00:25:11.070Z",
       "page": false
     }
   },
@@ -44,23 +44,28 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights.md",
-    "description": "This article describes how to add code to application objects that enables you to log  telemetry.",
-    "ms_date": "2024-02-09",
+    "description": "Add custom telemetry events to Business Central extensions with Session.LogMessage, choose their scope, and define dimensions for Application Insights.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1578,
+    "ai_usage": "ai-assisted",
+    "words": 1590,
     "identifiers": [
+      "LogMessage",
+      "TelemetryScope",
+      "customDimensions",
+      "ExtensionPublisher",
       "PageExtension",
+      "WebClient",
       "alResult",
       "OnRun",
-      "DataClassification",
-      "SystemMetadata"
+      "SystemMetadata",
+      "OrganizationIdentifiableInformation"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bbd68113f892060a49f34cfb57fac47be8fd655f21f430a886f3c85f7f5e05b7"
+  "output_hash": "0c93720a96d7a95404831937f630705111083f8a1dea465a3cf1ec2803976afd"
 }

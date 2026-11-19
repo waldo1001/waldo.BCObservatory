@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-query-performance-using-query-store",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:42.562Z",
-      "blob": "af1d31bacb11c69a80c65d18c886e3d0c09b1ed2",
-      "words": 231,
+      "at": "2026-11-19T00:25:01.438Z",
+      "blob": "47215e3764312718e15dd029d8cdeb72fec890dc",
+      "words": 238,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:44:10.453Z",
+      "at": "2026-11-19T00:25:05.989Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003679
+      "cost_usd": 0.002955
     },
     "summarized": {
-      "at": "2026-10-06T19:44:15.463Z",
+      "at": "2026-11-19T00:25:05.989Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:44:15.464Z",
+      "at": "2026-11-19T00:25:05.990Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:44:15.465Z",
+      "at": "2026-11-19T00:25:05.990Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/troubleshoot-query-performance-using-query-store.md",
-    "description": "Use SQL Server Query Store to troubleshoot query performance. SQL Server Query Store feature provides insight on database query plan choice and performance.",
-    "ms_date": "2021-04-01",
+    "description": "Use SQL Server Query Store to troubleshoot query performance. The SQL Server Query Store feature provides insight on database query plan choice and performance.",
+    "ms_date": "2026-11-17",
     "ms_topic": "troubleshooting",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 231,
+    "ai_usage": "ai-assisted",
+    "words": 238,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d39e5db317e958fb81b79b2c5f72c0cba05bd6e581cdc86b92bb305550116b94"
+  "output_hash": "8a90f5b31406f8780781ad81d344f5385c0fce1a06420dd35e096ac519831582"
 }

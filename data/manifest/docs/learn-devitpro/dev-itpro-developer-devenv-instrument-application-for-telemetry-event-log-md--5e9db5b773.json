@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Creating custom telemetry events for the Event Log",
+  "title": "Creating Custom Telemetry Events for the Event Log",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-event-log",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.483Z",
-      "blob": "92f0b103ba0893725df7e655971222fdd54d025f",
-      "words": 578,
+      "at": "2026-11-19T00:25:06.191Z",
+      "blob": "0aa5f4e7859ae5ed8dcdd60088989e9d01737882",
+      "words": 582,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T16:14:48.946Z",
+      "at": "2026-11-19T00:25:11.086Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0
+      "cost_usd": 0.004421
     },
     "summarized": {
-      "at": "2026-10-06T16:14:48.963Z",
+      "at": "2026-11-19T00:25:11.087Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T16:14:48.964Z",
+      "at": "2026-11-19T00:25:11.088Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T16:14:48.965Z",
+      "at": "2026-11-19T00:25:11.088Z",
       "page": false
     }
   },
@@ -44,14 +44,16 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-instrument-application-for-telemetry-event-log.md",
-    "description": "This topic describes how to add code to application objects that enables you to gather telemetry.",
-    "ms_date": "2021-04-01",
+    "description": "Create custom telemetry events with SendTraceTag in Business Central on-premises, view them in Windows event logs, and control logging severity.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 578,
+    "ai_usage": "ai-assisted",
+    "words": 582,
     "identifiers": [
+      "SendTraceTag",
+      "LogMessage",
       "OnRun",
       "TraceLevel"
     ],
@@ -59,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "33be7b5da824fd6fdc4d114886941d6c78bc8ad082baf5614b6a0f5b8f6b3fce"
+  "output_hash": "c41bfbc749b1600aafc9c204e9fb8a56f46146dd773e502fa150269eaf88475d"
 }

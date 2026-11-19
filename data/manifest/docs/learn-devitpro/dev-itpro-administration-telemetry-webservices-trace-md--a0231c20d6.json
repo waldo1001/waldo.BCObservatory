@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Web Service Request Trace",
+  "title": "Analyze Incoming Web Service Telemetry",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-trace",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.060Z",
-      "blob": "67b4bd02b1085d7775e0589cba7eb8dda10100b9",
-      "words": 1920,
+      "at": "2026-11-19T00:25:01.415Z",
+      "blob": "54e5b79169c613469ef0b4bc8772d4302c64d5df",
+      "words": 1928,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:14:15.275Z",
+      "at": "2026-11-19T00:25:07.280Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.012873
+      "cost_usd": 0.016253
     },
     "summarized": {
-      "at": "2026-10-06T18:16:03.787Z",
+      "at": "2026-11-19T00:25:07.285Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:16:03.788Z",
+      "at": "2026-11-19T00:25:07.286Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:16:03.789Z",
+      "at": "2026-11-19T00:25:07.288Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/telemetry-webservices-trace.md",
-    "description": "Learn about the web service request telemetry in Business Central",
-    "ms_date": "2025-03-13",
+    "description": "Analyze incoming Business Central web service telemetry to identify callers, investigate failed requests, and troubleshoot endpoint performance.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,10 +56,12 @@
       "sandbox",
       "telemetry"
     ],
-    "ai_usage": null,
-    "words": 1920,
+    "ai_usage": "ai-assisted",
+    "words": 1928,
     "identifiers": [
-      "eventID",
+      "ODataV4",
+      "ODataV3",
+      "failureReason",
       "RT0008",
       "RT0053"
     ],
@@ -67,5 +69,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e0295e0b934592baa0ea92d0cac3d00b16bd61b325a80cc4e85a88e2e74f301e"
+  "output_hash": "92aeb7ae576650cbfcdc11e0271e49b1899970fd7d77f800fd1ae78e4e3d0564"
 }

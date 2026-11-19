@@ -1,41 +1,32 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-instrument-application-for-telemetry.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry",
-  "title": "Developing telemetry into your Business Central application",
-  "blob": "e4c1e7f74691b79994ad789918898c9197f81c85",
-  "summary": "Instrumenting applications with telemetry signals allows collection and analysis of production data about user activities, errors, and performance for troubleshooting and monitoring against business goals.",
+  "title": "Adding Telemetry to Your Business Central Application",
+  "blob": "9b5df21af992abc00d8a856ce7d1f95c99bec54e",
+  "summary": "Implementing telemetry signals in Business Central applications to collect and analyze data about usage, errors, performance, and lifecycle events. Use this to instrument your application code for monitoring and troubleshooting in production environments.",
   "systems": [
     "development",
-    "administration",
-    "platform"
+    "platform",
+    "administration"
   ],
   "topics": [
     "telemetry",
-    "instrumentation",
-    "monitoring",
     "application insights",
     "event logging",
-    "custom events"
+    "monitoring",
+    "custom events",
+    "performance analysis",
+    "extension development"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "LOGMESSAGE"
-    },
-    {
-      "type": "other",
-      "name": "SendTraceTag"
-    }
-  ],
+  "objects": [],
   "features": [
-    "custom telemetry signals",
-    "Application Insights",
-    "Event Log",
-    "usage telemetry",
-    "error telemetry",
-    "performance telemetry",
-    "lifecycle event telemetry",
-    "feature usage system"
+    "Custom telemetry signals",
+    "Application Insights integration",
+    "Event Log logging",
+    "LogMessage method",
+    "SendTraceTag method",
+    "Feature usage system module",
+    "Telemetry data analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -44,7 +35,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004389,
+      "cost_usd": 0.00418,
       "pages_in_call": 1
     }
   ]

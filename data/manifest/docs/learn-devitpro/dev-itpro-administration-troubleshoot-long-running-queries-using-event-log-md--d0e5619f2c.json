@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Using Event Log to Monitor Long Running SQL Queries",
+  "title": "Using Event Log to Monitor Long-Running SQL Queries",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-long-running-queries-using-event-log",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.206Z",
-      "blob": "579eb4fd671d3a712c2538dc817b5948d190f863",
-      "words": 414,
+      "at": "2026-11-19T00:25:01.451Z",
+      "blob": "32186a76e57a3076c64c4458deb3a17119243991",
+      "words": 358,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:47.880Z",
+      "at": "2026-11-19T00:25:06.429Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004432
+      "cost_usd": 0.003948
     },
     "summarized": {
-      "at": "2026-10-06T19:17:47.888Z",
+      "at": "2026-11-19T00:25:06.431Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:47.889Z",
+      "at": "2026-11-19T00:25:06.432Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:47.890Z",
+      "at": "2026-11-19T00:25:06.433Z",
       "page": false
     }
   },
@@ -44,17 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/troubleshoot-long-running-queries-using-event-log.md",
-    "description": "Shows how to monitor long running SQL queries in Event Viewer. Use the information determine SQL queries that are good candidates for optimization.",
-    "ms_date": "2021-04-01",
+    "description": "Use Windows Event Viewer to investigate long-running SQL queries in Business Central and inspect SQL statements and AL call stacks for optimization.",
+    "ms_date": "2026-11-17",
     "ms_topic": "troubleshooting-general",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 414,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 358,
+    "identifiers": [
+      "SqlLongRunningThreshold"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1bbf393f3f643606c289204b429a380640a42ebe96046bc2e992852867a69aea"
+  "output_hash": "343f675c5c61909a4b663fef47544cbfe0a3beb772e16a3ba40a2d226d77995f"
 }

@@ -2,33 +2,36 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-16-2.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-16-2",
   "title": "Update 16.2 for Microsoft Dynamics 365 Business Central 2020 Release Wave 1",
-  "blob": "a02ed450673ad9579142358e40c3df3e0f83cd09",
-  "summary": "Update 16.2 for Business Central 2020 Release Wave 1 details hotfixes and feature changes including data migration from on-premises, improved telemetry, web client header updates, and marketplace app management.",
+  "blob": "eb74ea306bbe3e599f8df3642fc53fb7c8ec17be",
+  "summary": "Update 16.2 for Business Central 2020 Release Wave 1 introduces data migration from on-premises versions, improved telemetry, authentication updates, and web client enhancements. Use this page to learn about new features, hotfixes, and upgrade information for this release.",
   "systems": [
-    "platform",
-    "administration"
+    "integration",
+    "administration",
+    "platform"
   ],
   "topics": [
-    "release update",
+    "update",
+    "release wave 1",
     "hotfixes",
-    "migration",
-    "telemetry",
+    "data migration",
+    "authentication",
     "web client",
-    "marketplace apps"
+    "telemetry",
+    "performance"
   ],
   "objects": [],
   "features": [
-    "data migration",
-    "error telemetry",
-    "web client header customization",
-    "user experience improvements",
-    "modern authentication",
-    "marketplace app updates",
-    "configuration packages"
+    "Data migration from Business Central 14.x on-premises to 15.x online",
+    "Error telemetry updates in Application Insights",
+    "URL parameter to hide web client header",
+    "Modern authentication for Dataverse and Dynamics 365 Sales",
+    "Marketplace apps update management",
+    "Web client header redesign",
+    "Configuration package import performance warnings"
   ],
   "versions": [
     "2020 release wave 1",
-    "version 16.2"
+    "update 16.2"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -36,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005918,
-      "pages_in_call": 7
+      "cost_usd": 0.004273,
+      "pages_in_call": 1
     }
   ]
 }

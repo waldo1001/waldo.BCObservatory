@@ -2,27 +2,28 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-webservices-publish-failure-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-publish-failure-trace",
   "title": "Web Service Publish Failure Trace",
-  "blob": "0e552116b6687945f4087dfa9d96129bf4fb49d9",
-  "summary": "Web service publish failure telemetry documents error events when metadata cannot be created for published web services, providing dimensions for investigating service publishing issues.",
+  "blob": "8000df7dba2968bb928ef9b23a2c5507b2fdbc29",
+  "summary": "Web service publish failure telemetry documents errors that occur when web services cannot be published or are not working correctly due to metadata generation issues. Use this for investigating and troubleshooting web service failures.",
   "systems": [
     "integration",
     "administration",
-    "reporting"
+    "development"
   ],
   "topics": [
-    "telemetry",
     "web services",
-    "diagnostics",
-    "metadata errors",
-    "troubleshooting"
+    "telemetry",
+    "troubleshooting",
+    "metadata",
+    "publish errors"
   ],
   "objects": [],
   "features": [
-    "web service metadata errors",
-    "publish failure traces",
-    "telemetry events",
-    "error logging",
-    "KQL analysis"
+    "web service metadata error reporting",
+    "telemetry event tracking",
+    "table relation navigation properties",
+    "subpage name validation",
+    "control element validation",
+    "table field validation"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005156,
-      "pages_in_call": 8
+      "cost_usd": 0.010076,
+      "pages_in_call": 1
     }
   ]
 }

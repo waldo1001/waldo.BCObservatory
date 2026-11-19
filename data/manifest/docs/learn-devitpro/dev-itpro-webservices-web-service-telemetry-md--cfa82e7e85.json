@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Web Service Telemetry",
+  "title": "Web Service Telemetry in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/web-service-telemetry",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.615Z",
-      "blob": "eae8b6d666f1dd93d5cb678ea6d84cf9ce697794",
-      "words": 255,
+      "at": "2026-11-19T00:25:06.969Z",
+      "blob": "2324be0b37ecf915ed146c778780182b2b61b0b3",
+      "words": 264,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:34:17.705Z",
+      "at": "2026-11-19T00:25:10.988Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00317
+      "cost_usd": 0.003356
     },
     "summarized": {
-      "at": "2026-10-06T19:34:19.478Z",
+      "at": "2026-11-19T00:25:10.989Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:34:19.479Z",
+      "at": "2026-11-19T00:25:10.990Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:34:19.480Z",
+      "at": "2026-11-19T00:25:10.990Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/webservices/web-service-telemetry.md",
-    "description": "Learn about how Business Central emits telemetry about web service requests",
-    "ms_date": "2023-06-13",
+    "description": "Monitor Business Central web service requests with telemetry to analyze endpoint usage, HTTP failures, access key authentication, and publishing errors.",
+    "ms_date": "2026-11-17",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 255,
+    "ai_usage": "ai-assisted",
+    "words": 264,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "89a1e84dbdc245a61be6b28a2fd45c9c9dc4283ab99614116169e5c16c04bfb8"
+  "output_hash": "ef138fe0c42c5657473bfc20ecda722ea22a091c22763f23ebd01787b40e479a"
 }

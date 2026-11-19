@@ -1,20 +1,22 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights",
-  "title": "Creating custom telemetry events for Azure Application Insights",
-  "blob": "7d95301901a3c8e311f155472e9c508e01b3c867",
-  "summary": "Creating custom telemetry events for Azure Application Insights explains how to develop extensions that emit custom telemetry trace events to Application Insights using the LogMessage method in AL code.",
+  "title": "Creating Custom Telemetry Events for Azure Application Insights",
+  "blob": "80858b2909db16c4d63a6be812ed41529dd21244",
+  "summary": "Creating custom telemetry events for Application Insights describes how to develop extensions that emit telemetry trace events using the Session.LogMessage method in AL code, with guidance on parameters, scoping, and best practices for designing telemetry.",
   "systems": [
     "development",
-    "administration"
+    "platform",
+    "integration"
   ],
   "topics": [
     "telemetry",
     "application insights",
     "custom events",
-    "al development",
+    "al code",
     "logging",
-    "diagnostics"
+    "extension development",
+    "monitoring"
   ],
   "objects": [
     {
@@ -23,22 +25,24 @@
     }
   ],
   "features": [
-    "LogMessage method",
-    "Dictionary for custom dimensions",
-    "Dimension overloads",
-    "TelemetryScope control",
-    "DataClassification filtering",
-    "Default dimensions",
-    "EventID conventions"
+    "Custom telemetry event creation",
+    "LogMessage method with dictionary",
+    "LogMessage method with dimension overloads",
+    "TelemetryScope configuration",
+    "DataClassification parameter",
+    "CustomDimensions",
+    "Feature usage module from System Application"
   ],
-  "versions": [],
+  "versions": [
+    "version 29"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.011794,
+      "cost_usd": 0.012335,
       "pages_in_call": 1
     }
   ]

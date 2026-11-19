@@ -2,25 +2,28 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tools-monitor-performance-counters-and-events.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tools-monitor-performance-counters-and-events",
   "title": "Tools for Monitoring Performance Counters and Events",
-  "blob": "8c8887e1ac1fe2a412db0e155f5b78924d9ad023",
-  "summary": "Tools available for monitoring Business Central Server include Windows Performance Monitor, Event Viewer, Logman, PowerShell, Microsoft TraceEvent Library, and PerfView for collecting and analyzing performance counters and trace events.",
+  "blob": "08865c326efd6e87b35c9a824c44b19cbebd7ee8",
+  "summary": "Monitoring tools for Business Central Server performance counters and events include Windows Performance Monitor, Event Viewer, Logman, PowerShell, Microsoft TraceEvent Library, and PerfView for diagnosing server performance issues.",
   "systems": [
     "administration",
     "platform"
   ],
   "topics": [
-    "performance monitoring",
-    "diagnostics",
-    "event tracing"
+    "monitoring",
+    "performance counters",
+    "event tracing",
+    "diagnostic tools",
+    "server events",
+    "windows tools"
   ],
   "objects": [],
   "features": [
     "Windows Performance Monitor",
     "Windows Event Viewer",
-    "Logman",
-    "PowerShell Get-WinEvent",
+    "Logman event trace sessions",
+    "PowerShell Get-WinEvent cmdlet",
     "Microsoft TraceEvent Library",
-    "PerfView"
+    "PerfView performance analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003352,
-      "pages_in_call": 8
+      "cost_usd": 0.003446,
+      "pages_in_call": 1
     }
   ]
 }

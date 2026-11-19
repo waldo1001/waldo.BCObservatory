@@ -2,29 +2,32 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/app-maintain.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-maintain",
   "title": "Maintain Marketplace apps and per-tenant extensions",
-  "blob": "4bd3e4b8b3da7535700a8c4662c2441c85072273",
-  "summary": "Marketplace apps and per-tenant extensions must be kept up-to-date with Business Central release cycles. Partners have responsibilities to maintain code compatibility to prevent service disruptions, with specific update, grace, and enforced update periods outlined for major releases.",
+  "blob": "316c6a753d4f7fa1a1f301d1f5aee582bb9e6d7d",
+  "summary": "Guidance for app publishers and resellers to keep Marketplace apps and per-tenant extensions updated with Business Central's major and minor releases, including preview and enforcement periods to ensure tenant compatibility.",
   "systems": [
     "integration",
     "development",
     "administration"
   ],
   "topics": [
-    "apps and extensions",
-    "marketplace",
-    "updates and releases",
-    "compatibility",
-    "publisher responsibilities"
+    "marketplace apps",
+    "per-tenant extensions",
+    "app lifecycle",
+    "update compatibility",
+    "extension validation",
+    "preview environments",
+    "enforcement periods"
   ],
   "objects": [],
   "features": [
-    "preview environments",
-    "prerelease bits access",
-    "AppSourceCop analyzer rules",
+    "Marketplace app certification",
+    "per-tenant extension deployment",
     "automated extension validation",
-    "update scheduling",
-    "compatibility testing",
-    "notification recipients"
+    "AppSourceCop analyzer",
+    "preview version testing",
+    "technical incompatibility detection",
+    "grace period enforcement",
+    "automatic extension uninstall"
   ],
   "versions": [],
   "parts": 1,
@@ -33,7 +36,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005329,
+      "cost_usd": 0.005287,
       "pages_in_call": 1
     }
   ]

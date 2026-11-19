@@ -1,47 +1,48 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-instrument-application-for-telemetry-event-log.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-event-log",
-  "title": "Creating custom telemetry events for the Event Log",
-  "blob": "92f0b103ba0893725df7e655971222fdd54d025f",
-  "summary": "Creating custom telemetry events for the Event Log describes using the obsolete SENDTRACETAG method to emit trace events to the server Event Log for monitoring with Event Viewer and other tools.",
+  "title": "Creating Custom Telemetry Events for the Event Log",
+  "blob": "0aa5f4e7859ae5ed8dcdd60088989e9d01737882",
+  "summary": "Creating custom telemetry events for the Event Log explains how to use the SendTraceTag method in AL code to generate trace events that are sent to the Business Central Server's Event Log.",
   "systems": [
     "development",
-    "administration"
+    "administration",
+    "platform"
   ],
   "topics": [
     "telemetry",
     "event log",
-    "monitoring",
+    "custom events",
+    "sendtracetag",
     "trace events",
-    "diagnostics",
-    "logging"
+    "monitoring"
   ],
   "objects": [
     {
       "type": "other",
-      "name": "SENDTRACETAG method"
+      "name": "SendTraceTag method"
     }
   ],
   "features": [
-    "SENDTRACETAG method (obsolete)",
-    "Event categorization",
-    "Verbosity levels",
-    "DataClassification assignment",
+    "SendTraceTag method",
+    "telemetry trace events",
+    "event severity levels",
+    "data classification",
+    "event categories",
     "Event Viewer integration",
-    "TraceLevel configuration",
-    "Performance Monitor integration"
+    "TraceLevel configuration"
   ],
   "versions": [
-    "2020 release wave 2 (v17)"
+    "2020 release wave 2"
   ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": true,
-      "cost_usd": null,
-      "pages_in_call": 5
+      "cached": false,
+      "cost_usd": 0.004421,
+      "pages_in_call": 1
     }
   ]
 }

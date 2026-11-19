@@ -2,8 +2,8 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/readiness/readiness-ready-to-go.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go",
   "title": "Resources for partners",
-  "blob": "52036fe7370415cb4b9d53696889e15be2d57adc",
-  "summary": "Central hub for Microsoft partners with curated resources, links, and information about Business Central releases, roadmaps, training, development, Copilot and agents, partner programs, and customer onboarding.",
+  "blob": "d9a7b1fdb75e107d38215fe691d9b88efa2d09de",
+  "summary": "Partner resources and links for Business Central including release information, training, marketing materials, AI innovation with Copilot and agents, development tools, and go-to-market resources.",
   "systems": [
     "administration",
     "copilot",
@@ -11,23 +11,24 @@
   ],
   "topics": [
     "partner resources",
-    "release information",
-    "copilot and agents",
+    "readiness",
+    "release planning",
+    "copilot",
+    "agents",
+    "development",
     "marketplace",
-    "migration",
-    "training",
-    "licensing"
+    "migration"
   ],
   "objects": [],
   "features": [
-    "AI at Work roadmap",
-    "2026 release wave 2 updates",
+    "Expense Agent",
     "Sales Order Agent",
     "Payables Agent",
-    "Expense Agent",
     "Copilot in Business Central",
-    "partner sandbox",
-    "marketplace apps"
+    "Agent development toolkit",
+    "Microsoft Copilot Roadmap",
+    "DevOps for apps",
+    "API development"
   ],
   "versions": [
     "2026 release wave 2",
@@ -39,7 +40,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.016709,
+      "cost_usd": 0.016822,
       "pages_in_call": 1
     }
   ]

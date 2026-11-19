@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tools-monitor-performance-counters-and-events",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.685Z",
-      "blob": "8c8887e1ac1fe2a412db0e155f5b78924d9ad023",
-      "words": 340,
+      "at": "2026-11-19T00:25:01.401Z",
+      "blob": "08865c326efd6e87b35c9a824c44b19cbebd7ee8",
+      "words": 263,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:35:02.697Z",
+      "at": "2026-11-19T00:25:06.131Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003352
+      "cost_usd": 0.003446
     },
     "summarized": {
-      "at": "2026-10-06T19:35:02.710Z",
+      "at": "2026-11-19T00:25:06.132Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:35:02.711Z",
+      "at": "2026-11-19T00:25:06.133Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:35:02.712Z",
+      "at": "2026-11-19T00:25:06.133Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/tools-monitor-performance-counters-and-events.md",
-    "description": "Learn about the tools that you can use to monitor Business Central Server performance counters and events.",
-    "ms_date": "2021-04-01",
+    "description": "Compare tools for monitoring Business Central Server performance counters and event logs, including Performance Monitor, Event Viewer, and PowerShell.",
+    "ms_date": "2026-11-17",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 340,
+    "ai_usage": "ai-assisted",
+    "words": 263,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2f5ee682df119eaa92209a8dfdf0b545b810bd89a549e47196c9c36ce93ed91e"
+  "output_hash": "ad4dfc6127ddad26d2dc0e06964b7cfa6d023b72d123ffa5fed382af24e1614c"
 }

@@ -1,26 +1,30 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/troubleshoot-long-running-queries-using-event-log.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-long-running-queries-using-event-log",
-  "title": "Using Event Log to Monitor Long Running SQL Queries",
-  "blob": "579eb4fd671d3a712c2538dc817b5948d190f863",
-  "summary": "Monitoring long running SQL queries using Event Viewer and Event Log to identify performance optimization candidates. Use when analyzing slow queries and their AL call stacks in Business Central.",
+  "title": "Using Event Log to Monitor Long-Running SQL Queries",
+  "blob": "32186a76e57a3076c64c4458deb3a17119243991",
+  "summary": "Using Event Log to monitor long-running SQL queries in Business Central by checking Windows Event Viewer or Application and Services Logs, with configurable threshold settings and AL call stack information to identify optimization candidates.",
   "systems": [
+    "platform",
     "administration",
-    "platform"
+    "development"
   ],
   "topics": [
     "sql queries",
-    "performance",
     "event log",
-    "monitoring",
-    "troubleshooting"
+    "performance monitoring",
+    "troubleshooting",
+    "long-running queries",
+    "event viewer"
   ],
   "objects": [],
   "features": [
-    "SqlLongRunningThreshold",
-    "Event Viewer monitoring",
+    "Event Viewer logging",
+    "SqlLongRunningThreshold setting",
     "AL call stack",
-    "query performance analysis"
+    "Windows Logs",
+    "Applications and Services Logs",
+    "query execution monitoring"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004432,
-      "pages_in_call": 8
+      "cost_usd": 0.003948,
+      "pages_in_call": 1
     }
   ]
 }

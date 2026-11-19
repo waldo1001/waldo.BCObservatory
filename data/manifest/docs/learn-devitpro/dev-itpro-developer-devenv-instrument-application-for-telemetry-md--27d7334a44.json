@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Developing telemetry into your Business Central application",
+  "title": "Adding Telemetry to Your Business Central Application",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry",
   "published_at": "2026-11-18T09:47:34.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-22T00:21:01.514Z",
-      "blob": "e4c1e7f74691b79994ad789918898c9197f81c85",
-      "words": 589,
+      "at": "2026-11-19T00:25:06.478Z",
+      "blob": "9b5df21af992abc00d8a856ce7d1f95c99bec54e",
+      "words": 598,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-22T00:21:13.546Z",
+      "at": "2026-11-19T00:25:11.322Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.004389
+      "objects": 0,
+      "cost_usd": 0.00418
     },
     "summarized": {
-      "at": "2026-10-22T00:21:13.547Z",
+      "at": "2026-11-19T00:25:11.323Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-22T00:21:13.548Z",
+      "at": "2026-11-19T00:25:11.324Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-22T00:21:13.549Z",
+      "at": "2026-11-19T00:25:11.325Z",
       "page": false
     }
   },
@@ -44,17 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-instrument-application-for-telemetry.md",
-    "description": "This article describes how to add code to application objects that enables you to gather telemetry.",
-    "ms_date": "2024-02-09",
+    "description": "Instrument Business Central applications with telemetry to analyze usage, troubleshoot problems, and collect events in Application Insights or Windows logs.",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 589,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 598,
+    "identifiers": [
+      "LogMessage"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2ab522c6c54089534bf3132f09954d1b68eb629fe6e5518ad19572328c577a99"
+  "output_hash": "2644b72f5dcf1284f36e4aae6aa6addf5b87a8bfda31343f34360c18d6514cc6"
 }
