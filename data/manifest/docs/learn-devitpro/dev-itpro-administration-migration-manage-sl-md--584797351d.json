@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Managing Dynamics SL cloud migration",
+  "title": "Manage Dynamics SL Cloud Migration in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-sl",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:42.312Z",
-      "blob": "76c8a7d0cd45cec98850db6710ac6b1a5bd7ad78",
-      "words": 526,
+      "at": "2026-11-19T00:22:02.190Z",
+      "blob": "e105ffbf161818e25eeea00091e4b0851d397b39",
+      "words": 599,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:43:43.700Z",
+      "at": "2026-11-19T00:22:31.577Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.004041
+      "objects": 3,
+      "cost_usd": 0.004297
     },
     "summarized": {
-      "at": "2026-10-06T19:43:43.720Z",
+      "at": "2026-11-19T00:22:31.578Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:45.475Z",
+      "at": "2026-11-19T00:22:31.579Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:45.477Z",
+      "at": "2026-11-19T00:22:31.579Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-manage-sl.md",
-    "description": "Learn about the Cloud Migration Management page in Business Central for migrating from Dynamics SL.",
-    "ms_date": "2024-12-13",
+    "description": "Learn how to monitor Dynamics SL cloud migration, investigate errors, configure companies and table mappings, and manage replication and data upgrade.",
+    "ms_date": "2026-11-17",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 526,
+    "ai_usage": "ai-assisted",
+    "words": 599,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "028b67d73eb88d9a26601512c38f74116bf078f2ba0f21aff932040a8915bd19"
+  "output_hash": "45549fe61485d80578e0b5b817e5c92ea15f80184c1215a4dd37371fdcc878e3"
 }

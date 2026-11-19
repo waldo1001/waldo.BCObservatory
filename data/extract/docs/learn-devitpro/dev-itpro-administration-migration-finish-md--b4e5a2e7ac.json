@@ -1,28 +1,66 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-finish.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish",
-  "title": "Complete cloud migration",
-  "blob": "0eef3b1ce6ac0c4396133f565d617c80950717c1",
-  "summary": "Final phase tasks for completing cloud migration from Business Central on-premises to online, including disabling migration, running API upgrades, setting up users, and reconnecting integrations.",
+  "title": "Complete Cloud Migration to Business Central Online",
+  "blob": "50a316f6d0a94955a602b7d66c4bf08c9b527207",
+  "summary": "Complete Cloud Migration to Business Central Online documents the final phase of cloud migration from on-premises, including migrating record links and notes, disabling cloud migration, running API data upgrade, setting up users and permissions, defining user mappings, reconfiguring integrations, and validating the migration.",
   "systems": [
     "administration",
-    "platform",
-    "integration"
+    "integration",
+    "platform"
   ],
   "topics": [
     "cloud migration",
-    "on-premises",
+    "data migration",
+    "user setup",
+    "permissions",
     "api upgrade",
-    "user management",
-    "integration setup"
+    "integration",
+    "post-migration",
+    "online environment"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "Post Migration Checklist"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Ready Checklist"
+    },
+    {
+      "type": "page",
+      "name": "API Upgrade Overview"
+    },
+    {
+      "type": "page",
+      "name": "API Data Upgrade List"
+    },
+    {
+      "type": "page",
+      "name": "Define User Mappings"
+    },
+    {
+      "type": "page",
+      "name": "Permission Sets"
+    },
+    {
+      "type": "codeunit",
+      "name": "User"
+    }
+  ],
   "features": [
-    "migrate record links and notes",
-    "disable cloud migration",
+    "record links and notes migration",
+    "cloud migration disable",
     "API data upgrade",
+    "user and permissions setup",
     "user mappings",
-    "Sales integration",
+    "Dynamics 365 Sales integration",
+    "external integrations reconnection",
     "telemetry monitoring"
   ],
   "versions": [],
@@ -32,8 +70,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007169,
-      "pages_in_call": 8
+      "cost_usd": 0.005955,
+      "pages_in_call": 1
     }
   ]
 }

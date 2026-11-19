@@ -1,24 +1,22 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-finish-sl.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-sl",
-  "title": "Complete cloud migration for Dynamics SL",
-  "blob": "d82eb8f9fb1f8cacf4fcac4e7d70cf104b889264",
-  "summary": "Complete cloud migration for Dynamics SL explains the final phase of cloud migration including disabling cloud migration and setting up users and permissions in Business Central online.",
+  "title": "Complete Dynamics SL Migration to Business Central",
+  "blob": "6aef0fa539d2646b925c7230fd6531c6dfd2c75f",
+  "summary": "Complete Dynamics SL cloud migration to Business Central online by disabling cloud migration, resolving errors, and setting up users and permissions in the new environment.",
   "systems": [
     "administration",
     "integration"
   ],
   "topics": [
+    "migration",
     "cloud migration",
     "dynamics sl",
-    "user permissions",
-    "migration completion"
+    "user setup",
+    "permissions",
+    "data transformation"
   ],
   "objects": [
-    {
-      "type": "page",
-      "name": "Cloud Migration Setup"
-    },
     {
       "type": "page",
       "name": "Cloud Migration Management"
@@ -33,12 +31,14 @@
     }
   ],
   "features": [
-    "Disable cloud migration",
-    "User account setup",
-    "Permission assignment",
-    "Microsoft 365 integration",
-    "Self-hosted Integration Runtime",
-    "Post migration checklist"
+    "cloud migration",
+    "disable cloud migration",
+    "user accounts",
+    "permission sets",
+    "integration runtime",
+    "SL Cloud Migration Errors",
+    "Failed Companies",
+    "Posting Errors"
   ],
   "versions": [],
   "parts": 1,
@@ -47,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004041,
-      "pages_in_call": 8
+      "cost_usd": 0.003678,
+      "pages_in_call": 1
     }
   ]
 }

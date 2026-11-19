@@ -1,20 +1,19 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-setup-gp.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-gp",
-  "title": "Run cloud migration setup for Dynamics GP migration",
-  "blob": "3b3907dc52a1797465e2eab86497549e750d891e",
-  "summary": "Run cloud migration setup for Dynamics GP to configure components and connections for migrating data from Business Central on-premises to online, including delegated administrator approval.",
+  "title": "Set Up Dynamics GP Cloud Migration to Business Central",
+  "blob": "011a2033b4f409b71fd9591e62eba96efcf8bff5",
+  "summary": "Dynamics GP Cloud Migration Setup guides administrators through configuring cloud migration components and SQL database connections to migrate data from Dynamics GP on-premises to Business Central online.",
   "systems": [
-    "integration",
     "administration",
-    "finance"
+    "integration"
   ],
   "topics": [
-    "dynamics gp",
     "cloud migration",
-    "setup",
-    "sql database",
-    "integration runtime"
+    "dynamics gp",
+    "setup guide",
+    "data migration",
+    "sql configuration"
   ],
   "objects": [
     {
@@ -23,20 +22,30 @@
     },
     {
       "type": "page",
-      "name": "Cloud Migration Management"
+      "name": "GP Company Migration Configuration"
     },
     {
       "type": "page",
-      "name": "GP Company Migration Configuration"
+      "name": "GP Migration Settings"
+    },
+    {
+      "type": "page",
+      "name": "Delegated admin consent for cloud migration"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
     }
   ],
   "features": [
-    "cloud migration setup",
-    "delegated administrator",
-    "sql database connection",
-    "integration runtime",
-    "data pipeline",
-    "tenant setup"
+    "Cloud Migration Setup assisted setup",
+    "SQL database connection configuration",
+    "Integration runtime configuration",
+    "Company selection for migration",
+    "Delegated administrator approval",
+    "Automatic Validation",
+    "Data transformation",
+    "Multi-tenant support"
   ],
   "versions": [],
   "parts": 1,
@@ -45,8 +54,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004528,
-      "pages_in_call": 8
+      "cost_usd": 0.004865,
+      "pages_in_call": 1
     }
   ]
 }

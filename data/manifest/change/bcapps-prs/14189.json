@@ -6,7 +6,7 @@
   "title": "[FI] Fix depreciation demo data publish order",
   "url": "https://github.com/microsoft/BCApps/pull/14189",
   "published_at": "2026-11-18T09:33:36Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-19T00:15:47.846Z"
@@ -30,5 +30,8 @@
     ],
     "community_contribution": false,
     "title_key": "fi fix depreciation demo data publish order"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-19T00:22:51.561Z",
+  "retry_after": null
 }

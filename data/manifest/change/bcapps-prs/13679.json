@@ -6,10 +6,35 @@
   "title": "[E-Document Core] Grant Execute on the status factbox, PDF preview and Navigate handler",
   "url": "https://github.com/microsoft/BCApps/pull/13679",
   "published_at": "2026-11-18T10:13:44Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-19T00:15:47.846Z"
+    },
+    "fetched": {
+      "at": "2026-11-19T00:22:08.548Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-19T00:22:30.217Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004901
+    },
+    "linked": {
+      "at": "2026-11-19T00:22:30.355Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-19T00:22:30.362Z",
+      "path": "content/changes/bcapps/13679.md"
     }
   },
   "input_hash": "45df54cccd685371728ebb5242c5836f9826bfc5:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": true,
     "title_key": "e document core grant execute on the status factbox pdf preview and navigate handler"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "86f9c308a44a803e4e63ccf2c7617304f3a4f64cfc585b158fe1234b109fa001"
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14200",
+  "number": 14200,
+  "title": "Refresh the purchase order match warnings of a draft line as soon as it is edited",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Purchase order match warnings now refresh immediately when a draft line is edited, eliminating stale warning messages after the user corrects values like unit cost.",
+  "key_points": [
+    "Line is saved and warnings recalculated before page refresh when editing Quantity, Direct Unit Cost, Line Discount, Line Type, No., or Unit of Measure",
+    "Corrected lines now show 'No warnings' status immediately instead of retaining previous warnings",
+    "Warnings column disappears once no line has warnings",
+    "Aligns behavior with purchase order subform which saves before recalculating totals",
+    "Low risk change with minimal performance impact"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003745,
+    "changes_in_call": 1
+  }
+}

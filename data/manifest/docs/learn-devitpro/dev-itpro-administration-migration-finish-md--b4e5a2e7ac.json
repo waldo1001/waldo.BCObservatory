@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Complete cloud migration",
+  "title": "Complete Cloud Migration to Business Central Online",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:20.164Z",
-      "blob": "0eef3b1ce6ac0c4396133f565d617c80950717c1",
-      "words": 1195,
+      "at": "2026-11-19T00:21:45.608Z",
+      "blob": "50a316f6d0a94955a602b7d66c4bf08c9b527207",
+      "words": 1285,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T14:21:58.837Z",
+      "at": "2026-11-19T00:21:58.041Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.007169
+      "objects": 8,
+      "cost_usd": 0.005955
     },
     "summarized": {
-      "at": "2026-10-06T14:21:58.842Z",
+      "at": "2026-11-19T00:21:58.042Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:21:58.842Z",
+      "at": "2026-11-19T00:21:58.043Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:21:58.842Z",
+      "at": "2026-11-19T00:21:58.043Z",
       "page": false
     }
   },
@@ -44,17 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-finish.md",
-    "description": "This article describes the task you do to complete the data migration from on-premises to online.",
-    "ms_date": "2025-09-22",
+    "description": "Learn how to complete Business Central cloud migration, migrate record links and notes, disable migration, and set up users and integrations.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1195,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 1285,
+    "identifiers": [
+      "RenameUser"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7c8aa910d5b5a7c93390f8937a950b6c707a5af1b8865cb27459464c7a23fa59"
+  "output_hash": "829a3e8517cde235ff23f40d8bb7ced898c850d982423edf11e330b89ac1caca"
 }

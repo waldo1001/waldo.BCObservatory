@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-optimize-replication.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-optimize-replication",
-  "title": "Optimizing cloud migration performance",
-  "blob": "87159fe082ddcc444e51b13eda238ea1eb5e6cae",
-  "summary": "Practical steps to improve cloud migration performance for large Business Central databases, including deploying to Azure SQL Database, monitoring resources, reducing companies per migration batch, and managing API upgrades.",
+  "title": "Optimize Business Central Cloud Migration Performance",
+  "blob": "1fd8cbefa1bad840f8ed6443d3d9aa0a7999c40f",
+  "summary": "Practical steps to enhance cloud migration performance for large databases, including deploying to Azure SQL, upscaling resources, reducing companies per batch, and managing API upgrades.",
   "systems": [
     "administration",
     "platform",
@@ -12,10 +12,10 @@
   "topics": [
     "cloud migration",
     "performance optimization",
-    "azure sql database",
+    "database migration",
+    "azure sql",
     "data replication",
-    "api upgrade",
-    "database management"
+    "api upgrade"
   ],
   "objects": [
     {
@@ -29,15 +29,25 @@
     {
       "type": "page",
       "name": "Data Administration"
+    },
+    {
+      "type": "page",
+      "name": "API upgrade overview"
+    },
+    {
+      "type": "page",
+      "name": "API Data Upgrade List"
     }
   ],
   "features": [
-    "Azure SQL Database deployment",
-    "CPU and memory monitoring",
-    "Company batch migration",
-    "Statistics and index optimization",
-    "API data upgrade skipping",
-    "Capacity management"
+    "Azure SQL Database migration",
+    "Database upscaling",
+    "Company batching",
+    "Index reorganization",
+    "Statistics update",
+    "API data upgrade management",
+    "Cloud Migration APIs",
+    "Capacity monitoring"
   ],
   "versions": [],
   "parts": 1,
@@ -46,8 +56,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006497,
-      "pages_in_call": 8
+      "cost_usd": 0.005957,
+      "pages_in_call": 1
     }
   ]
 }

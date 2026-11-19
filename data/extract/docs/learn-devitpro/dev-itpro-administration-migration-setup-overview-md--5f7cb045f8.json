@@ -1,36 +1,32 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-setup-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-overview",
-  "title": "Cloud migration setup overview",
-  "blob": "01c3350ea847f7b2b100576684fd3260458063f7",
-  "summary": "Cloud migration setup establishes the connection and pipeline between on-premises and online Business Central databases through integration runtime and Azure Data Factory preparation and replication pipelines.",
+  "title": "Business Central Cloud Migration Setup Overview",
+  "blob": "85b2447e85e33fb402bb17cdc61fe875dfae62a1",
+  "summary": "Cloud Migration Setup establishes the connection and pipeline between on-premises and online tenant databases, creates selected companies, and prepares the environment for data replication without migrating business data.",
   "systems": [
-    "administration",
-    "integration"
+    "integration",
+    "administration"
   ],
   "topics": [
     "cloud migration",
     "setup",
     "on-premises",
+    "online",
     "data pipeline",
     "azure data factory"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Cloud Migration Setup"
-    },
-    {
-      "type": "table",
-      "name": "Active Session"
-    }
-  ],
+  "objects": [],
   "features": [
+    "Cloud Migration Setup",
+    "SQL database connection",
     "integration runtime",
     "preparation pipeline",
     "replication pipeline",
     "compatibility checks",
-    "table mapping"
+    "stored procedures",
+    "company creation",
+    "data upgrade"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004125,
-      "pages_in_call": 8
+      "cost_usd": 0.003146,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13679",
+  "number": 13679,
+  "title": "[E-Document Core] Grant Execute on the status factbox, PDF preview and Navigate handler",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The E-Document Core permission set now grants Execute permission on the status factbox page, picture preview page, and navigate handler codeunit to prevent permission errors when users access E-Document components on standard pages.",
+  "key_points": [
+    "Added Execute permission on Page 6187 (E-Doc. Status FactBox), Page 6111 (Inbound E-Doc. Picture), and Codeunit 6247 (E-Doc. Navigate Handler) to the E-Document Core permission set",
+    "Resolves error messages for users with custom permission sets lacking page wildcards when opening Sales Orders with E-Document components",
+    "These objects are embedded as parts on 25 standard pages but were missing from the permission set",
+    "Added test to verify the permission set includes Execute on these objects",
+    "Affects E-Document Core and inherited roles like E-Document Core - Read, User, Admin, Edit, and Basic"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004901,
+    "changes_in_call": 1
+  }
+}

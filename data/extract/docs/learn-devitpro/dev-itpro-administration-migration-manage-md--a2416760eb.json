@@ -1,27 +1,49 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-manage.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage",
-  "title": "Managing cloud migration",
-  "blob": "2e657795608b4615d25fe58a921aa55c3bdbdb69",
-  "summary": "Overview of the Cloud Migration Management page for managing data migration to Business Central online, including migration runs, configuration, and troubleshooting actions.",
+  "title": "Manage Business Central Cloud Migration",
+  "blob": "c372b6ddfb68d954567766e0b2ab36f4758a07f4",
+  "summary": "The Cloud Migration Management page provides a central hub for managing cloud data migration in Business Central through actions like data replication, upgrades, table mappings, and user mappings. Use it to track migration runs, resolve errors, and complete the migration process.",
   "systems": [
     "administration",
-    "integration"
+    "integration",
+    "platform"
   ],
   "topics": [
     "cloud migration",
-    "data migration",
+    "data replication",
     "migration management",
-    "online tenant"
+    "data upgrade",
+    "table mappings",
+    "user mappings"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Migration Setup"
+    },
+    {
+      "type": "page",
+      "name": "User Card"
+    }
+  ],
   "features": [
     "run data replication",
     "run data upgrade",
-    "cloud migration setup",
-    "user mapping",
-    "diagnostic run",
-    "reset cloud data"
+    "refresh status",
+    "complete migration",
+    "pause migration",
+    "abandon migration",
+    "manage table mappings",
+    "define user mappings",
+    "migrate record links and notes",
+    "create diagnostic run",
+    "get runtime service key",
+    "reset runtime service key"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002917,
-      "pages_in_call": 8
+      "cost_usd": 0.005219,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Cloud migration setup overview",
+  "title": "Business Central Cloud Migration Setup Overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-overview",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:23.262Z",
-      "blob": "01c3350ea847f7b2b100576684fd3260458063f7",
-      "words": 394,
+      "at": "2026-11-19T00:22:56.332Z",
+      "blob": "85b2447e85e33fb402bb17cdc61fe875dfae62a1",
+      "words": 359,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T17:52:19.186Z",
+      "at": "2026-11-19T00:23:27.363Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.004125
+      "objects": 0,
+      "cost_usd": 0.003146
     },
     "summarized": {
-      "at": "2026-10-06T17:52:21.007Z",
+      "at": "2026-11-19T00:23:27.364Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:52:21.008Z",
+      "at": "2026-11-19T00:23:27.365Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:52:21.009Z",
+      "at": "2026-11-19T00:23:27.365Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-setup-overview.md",
     "description": "Learn what happens when you set up cloud migration from on-premises to Business Central online, including the data pipeline and connection process.",
-    "ms_date": "2024-12-13",
-    "ms_topic": "install-set-up-deploy",
+    "ms_date": "2026-11-17",
+    "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 394,
+    "ai_usage": "ai-assisted",
+    "words": 359,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ca2290185ed0a1a0bb7fc2694ffdf1454a23e260ce84d18f278db2980f46530a"
+  "output_hash": "832f59feaf0f0ab10a09690dcca9531bea821317414b6f51069cae36c24f67e5"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Managing Dynamics GP cloud migration",
+  "title": "Manage Dynamics GP Cloud Migration in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-gp",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:42.540Z",
-      "blob": "5faae8cfc505244462dcb8de7732578c0213ed9e",
-      "words": 884,
+      "at": "2026-11-19T00:21:45.588Z",
+      "blob": "9f919d6c0d04893a2765a5dea60bffca49ce6ab3",
+      "words": 650,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:44:08.533Z",
+      "at": "2026-11-19T00:21:58.007Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003679
+      "objects": 6,
+      "cost_usd": 0.004749
     },
     "summarized": {
-      "at": "2026-10-06T19:44:10.456Z",
+      "at": "2026-11-19T00:21:58.008Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:44:10.457Z",
+      "at": "2026-11-19T00:21:58.008Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:44:10.458Z",
+      "at": "2026-11-19T00:21:58.009Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-manage-gp.md",
-    "description": "Describes the Cloud Migration Management page in Business Central for migrating from Dynamics GP.",
-    "ms_date": "2024-02-29",
+    "description": "Learn how to monitor Dynamics GP cloud migration, investigate errors, configure companies, and manage replication, data upgrade, and runtime service keys.",
+    "ms_date": "2026-11-17",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 884,
+    "ai_usage": "ai-assisted",
+    "words": 650,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "63a3b89606f5503b6dd190a1e362ef77675ff0d9f5a00c013ee4708de51f9eca"
+  "output_hash": "030150cc9d4155018b853d5ba428b30b72bc7d8c041a67d872db34505b2f2aad"
 }

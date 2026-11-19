@@ -1,35 +1,56 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-manage-gp.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-gp",
-  "title": "Managing Dynamics GP cloud migration",
-  "blob": "5faae8cfc505244462dcb8de7732578c0213ed9e",
-  "summary": "Managing Dynamics GP cloud migration describes how to use the Cloud Migration Management page in Business Central online or the cloud migration API to set up, run, track, and manage data migration from on-premises Dynamics GP to cloud.",
+  "title": "Manage Dynamics GP Cloud Migration in Business Central",
+  "blob": "9f919d6c0d04893a2765a5dea60bffca49ce6ab3",
+  "summary": "The Cloud Migration Management page in Business Central provides a central hub for managing Dynamics GP cloud data migration, including monitoring migration runs, tracking progress, and performing migration actions like data replication and upgrade.",
   "systems": [
     "integration",
-    "administration"
+    "administration",
+    "platform"
   ],
   "topics": [
-    "dynamics gp migration",
     "cloud migration",
+    "dynamics gp",
     "data replication",
     "migration management",
-    "on-premises to cloud"
+    "cloud migration api"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "GP Migration Overview"
+    },
+    {
+      "type": "page",
+      "name": "GP Detail Snapshot Migration Status"
+    },
+    {
+      "type": "page",
+      "name": "GP Migration Settings"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Ready Checklist"
+    },
+    {
+      "type": "page",
+      "name": "Migration Table Mapping"
     }
   ],
   "features": [
-    "Migration Log",
-    "Migration Information tiles",
-    "Run Migration Now",
-    "Run Data Upgrade Now",
-    "Reset Cloud Data",
-    "Disable Cloud Migration",
-    "GP Company Migration Configuration",
-    "Azure Data Lake integration"
+    "Cloud Migration Management page",
+    "migration runs tracking",
+    "replication statistics",
+    "data replication",
+    "data upgrade",
+    "runtime service key management",
+    "custom table mappings",
+    "Azure Data Lake copy"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +59,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003679,
-      "pages_in_call": 8
+      "cost_usd": 0.004749,
+      "pages_in_call": 1
     }
   ]
 }

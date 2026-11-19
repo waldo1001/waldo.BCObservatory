@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-manage-sl.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-sl",
-  "title": "Managing Dynamics SL cloud migration",
-  "blob": "76c8a7d0cd45cec98850db6710ac6b1a5bd7ad78",
-  "summary": "Managing Dynamics SL cloud migration describes using the Cloud Migration Management page and cloud migration API to set up, run, and track data migration from Dynamics SL to Business Central online.",
+  "title": "Manage Dynamics SL Cloud Migration in Business Central",
+  "blob": "e105ffbf161818e25eeea00091e4b0851d397b39",
+  "summary": "The Cloud Migration Management page in Business Central provides a central interface for managing Dynamics SL cloud migration, allowing users to track migration runs, view replication results, investigate errors, and execute migration actions like data replication, upgrade, and completion.",
   "systems": [
     "administration",
     "integration"
@@ -11,9 +11,9 @@
   "topics": [
     "cloud migration",
     "dynamics sl",
-    "migration management",
     "data replication",
-    "migration api"
+    "migration management",
+    "data upgrade"
   ],
   "objects": [
     {
@@ -22,16 +22,22 @@
     },
     {
       "type": "page",
+      "name": "Cloud Ready Checklist"
+    },
+    {
+      "type": "page",
       "name": "Migration Table Mapping"
     }
   ],
   "features": [
-    "Cloud Migration Management page",
-    "Migration Log tracking",
-    "Run data replication",
-    "Data upgrade execution",
-    "Custom table management",
-    "Migration status refresh"
+    "Migration log",
+    "Tables successful/remaining/failed tracking",
+    "SL Cloud Migration Errors investigation",
+    "Failed Companies tracking",
+    "Posting Errors and Warnings",
+    "Data replication",
+    "Data upgrade",
+    "Azure Data Lake integration"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004041,
-      "pages_in_call": 8
+      "cost_usd": 0.004297,
+      "pages_in_call": 1
     }
   ]
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Optimizing cloud migration performance",
+  "title": "Optimize Business Central Cloud Migration Performance",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-optimize-replication",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.244Z",
-      "blob": "87159fe082ddcc444e51b13eda238ea1eb5e6cae",
-      "words": 1456,
+      "at": "2026-11-19T00:22:08.498Z",
+      "blob": "1fd8cbefa1bad840f8ed6443d3d9aa0a7999c40f",
+      "words": 1403,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:12:59.303Z",
+      "at": "2026-11-19T00:22:45.291Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.006497
+      "objects": 5,
+      "cost_usd": 0.005957
     },
     "summarized": {
-      "at": "2026-10-06T19:12:59.312Z",
+      "at": "2026-11-19T00:22:45.292Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:12:59.313Z",
+      "at": "2026-11-19T00:22:45.293Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:12:59.314Z",
+      "at": "2026-11-19T00:22:45.293Z",
       "page": false
     }
   },
@@ -44,17 +44,19 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-optimize-replication.md",
-    "description": "This article explains things you can do to improve the performance of the cloud migration, especially when migrating large databases.",
-    "ms_date": "2023-03-22",
+    "description": "Learn how to improve Business Central cloud migration performance by managing company batches, source database resources, and API data upgrades.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1456,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 1403,
+    "identifiers": [
+      "SetCompanyName"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a09c11bc74ad33a245d01df4b075b8a44fe55fa1509dba7ec43fd27d061e9551"
+  "output_hash": "e3396ab7b6dfa0472926770ae479899523af7dc6bf87b586647136fd04992059"
 }

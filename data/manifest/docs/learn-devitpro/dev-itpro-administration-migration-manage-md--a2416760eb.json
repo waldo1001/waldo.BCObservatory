@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Managing cloud migration",
+  "title": "Manage Business Central Cloud Migration",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:54.722Z",
-      "blob": "2e657795608b4615d25fe58a921aa55c3bdbdb69",
-      "words": 1543,
+      "at": "2026-11-19T00:22:08.511Z",
+      "blob": "c372b6ddfb68d954567766e0b2ab36f4758a07f4",
+      "words": 1623,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:45:39.991Z",
+      "at": "2026-11-19T00:22:38.717Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002917
+      "objects": 3,
+      "cost_usd": 0.005219
     },
     "summarized": {
-      "at": "2026-10-06T19:45:40.060Z",
+      "at": "2026-11-19T00:22:38.718Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:45:40.060Z",
+      "at": "2026-11-19T00:22:38.718Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:45:40.061Z",
+      "at": "2026-11-19T00:22:38.718Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-manage.md",
-    "description": "Describes the Cloud Migration Management page in Business Central.",
-    "ms_date": "2023-07-04",
+    "description": "Learn which actions are available on the Cloud Migration Management page in Business Central to replicate data, track progress, and complete migration.",
+    "ms_date": "2026-11-17",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1543,
+    "ai_usage": "ai-assisted",
+    "words": 1623,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6bbba853a68fafcc29c915ec7c3e32e7fb0df6ac8e896dc59a02c5f776db4e1b"
+  "output_hash": "8fe386ecf4f137ffea97726cb7b48695c723a0574924e24d798a393510339e2d"
 }

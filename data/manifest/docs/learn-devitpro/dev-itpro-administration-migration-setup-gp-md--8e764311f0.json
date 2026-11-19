@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Run cloud migration setup for Dynamics GP migration",
+  "title": "Set Up Dynamics GP Cloud Migration to Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-gp",
   "published_at": "2026-11-18T12:18:21.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:25.859Z",
-      "blob": "3b3907dc52a1797465e2eab86497549e750d891e",
-      "words": 1019,
+      "at": "2026-11-19T00:22:51.547Z",
+      "blob": "011a2033b4f409b71fd9591e62eba96efcf8bff5",
+      "words": 848,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:39:28.797Z",
+      "at": "2026-11-19T00:23:27.370Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.004528
+      "objects": 5,
+      "cost_usd": 0.004865
     },
     "summarized": {
-      "at": "2026-10-06T18:39:28.813Z",
+      "at": "2026-11-19T00:23:27.371Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:39:28.814Z",
+      "at": "2026-11-19T00:23:27.371Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:39:28.815Z",
+      "at": "2026-11-19T00:23:27.372Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/migration-setup-gp.md",
-    "description": "This article explains how to run the Cloud Migration Setup assisted setup guide to configure the components and connection for migrating data from a Dynamics GP on-premises database to Business Central online environment.",
-    "ms_date": "2024-02-29",
+    "description": "Learn how to connect Dynamics GP to Business Central online, select companies, configure migration options, and obtain delegated administrator consent.",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1019,
+    "ai_usage": "ai-assisted",
+    "words": 848,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ef82674548ba3465ebb5f4e202c226e8c2005089190e4459a91f88bbb1ee274d"
+  "output_hash": "50aa62fac0d186f57a217af928b00566df338cf6ee95913038c23eeb80b37831"
 }
