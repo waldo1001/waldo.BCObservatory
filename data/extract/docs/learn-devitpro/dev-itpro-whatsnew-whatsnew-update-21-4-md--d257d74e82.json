@@ -2,30 +2,35 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-21-4.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-4",
   "title": "Update 21.4 for Microsoft Dynamics 365 Business Central 2022 Release Wave 2",
-  "blob": "0cbdcab1ae4fc84756dd471faa9f3e4732433d00",
-  "summary": "Update 21.4 for Dynamics 365 Business Central 2022 release wave 2 includes service releases for environment visibility, environment restoration, and traffic restrictions on system integrations.",
+  "blob": "e19f7539a47d7757fabc5bb945c0afd82c33637e",
+  "summary": "Update 21.4 for Business Central 2022 release wave 2 includes hotfixes, launch configuration reuse, service improvements for environment management and visibility, and Mexico localization for electronic document cancellation status.",
   "systems": [
     "administration",
-    "platform"
+    "integration",
+    "localization"
   ],
   "topics": [
-    "updates",
-    "service releases",
-    "environment management",
-    "security",
-    "localization"
+    "update 21.4",
+    "hotfixes",
+    "launch configuration",
+    "localization",
+    "mexico",
+    "electronic documents",
+    "environment management"
   ],
   "objects": [],
   "features": [
-    "service interruption visibility",
-    "environment restoration",
-    "point-in-time restore",
-    "service tags",
-    "CDFI status"
+    "Reuse launch configurations across workspace projects",
+    "Service interruption visibility",
+    "Admin communications",
+    "Restore deleted environments",
+    "Restore environments to point in time",
+    "Restrict traffic with service tags",
+    "CDFI electronic document cancellation status"
   ],
   "versions": [
     "2022 release wave 2",
-    "update 21.4"
+    "21.4"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -33,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004285,
-      "pages_in_call": 7
+      "cost_usd": 0.00413,
+      "pages_in_call": 1
     }
   ]
 }

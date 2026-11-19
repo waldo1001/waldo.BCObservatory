@@ -2,31 +2,33 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-21-5.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-5",
   "title": "Update 21.5 for Microsoft Dynamics 365 Business Central 2022 Release Wave 2",
-  "blob": "37ae8e1bc70ff6d26c48b10e7d78a89739068996",
-  "summary": "Update 21.5 for Dynamics 365 Business Central 2022 release wave 2 adds Registration No. field to customers and vendors, deferrals on local reports, and VAT declaration updates.",
+  "blob": "3fa4cf8b5799c7b7c1fdb1f7b5e9a74a9ab0fed2",
+  "summary": "Update 21.5 for Business Central 2022 Release Wave 2 includes hotfixes, feature changes for data transfer with CopyRows, and localization updates for Belgium, United States, and other regions including deferrals handling and VAT declaration updates.",
   "systems": [
-    "finance",
-    "platform"
+    "localization",
+    "platform",
+    "administration"
   ],
   "topics": [
-    "updates",
-    "registration",
+    "update",
+    "hotfixes",
+    "localization",
     "deferrals",
-    "vat",
-    "localization"
+    "vat declaration",
+    "data transfer",
+    "registration number"
   ],
   "objects": [],
   "features": [
-    "Registration No. field",
-    "SystemID copy",
-    "data audit",
-    "deferrals",
-    "Intervat VAT",
-    "EIN number"
+    "CopyRows data transfer with SystemID and audit fields",
+    "Registration No. field for Customers and Vendors",
+    "Deferrals on local Purchase/Sales Ledger reports",
+    "Intervat VAT declaration version 9",
+    "EIN Number and IRS Employee Contact"
   ],
   "versions": [
-    "2022 release wave 2",
-    "update 21.5"
+    "update 21.5",
+    "2022 release wave 2"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -34,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004285,
-      "pages_in_call": 7
+      "cost_usd": 0.004191,
+      "pages_in_call": 1
     }
   ]
 }

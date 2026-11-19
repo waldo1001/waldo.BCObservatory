@@ -2,7 +2,7 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-21-3.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-3",
   "title": "Update 21.3 for Microsoft Dynamics 365 Business Central 2022 Release Wave 2",
-  "blob": "0c848ed2f990b127e537d87322074d0356539bec",
+  "blob": "c71ac9f44e513ccd01fa6b781d4224c23b549905",
   "summary": "Update 21.3 for 2022 Release Wave 2 introduces hotfixes, feature changes including reusable launch configurations, media support for connectors, payment reconciliation reversal, attachment access improvements, and extended localization updates for Switzerland, France, United Kingdom with VAT date and Intrastat enhancements.",
   "systems": [
     "integration",
@@ -43,8 +43,8 @@
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": false,
-      "cost_usd": 0.005209,
+      "cached": true,
+      "cost_usd": null,
       "pages_in_call": 1
     }
   ]
