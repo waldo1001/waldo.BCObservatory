@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection",
   "published_at": "2026-11-18T09:23:39.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.309Z",
-      "blob": "1b34fd646dbf7cb4f1ac3ac8b2b9263c89ffc32a",
-      "words": 3031,
+      "at": "2026-11-19T00:26:53.108Z",
+      "blob": "41edd1ee40be9b7bf187edcfa42b7ccaf4c50233",
+      "words": 3026,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:49:41.420Z",
+      "at": "2026-11-19T00:27:00.041Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 8,
-      "cost_usd": 0.010525
+      "objects": 7,
+      "cost_usd": 0.017613
     },
     "summarized": {
-      "at": "2026-10-06T18:49:43.248Z",
+      "at": "2026-11-19T00:27:00.042Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:49:43.249Z",
+      "at": "2026-11-19T00:27:00.043Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:49:43.250Z",
+      "at": "2026-11-19T00:27:00.044Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-how-to-set-up-a-dynamics-crm-connection.md",
     "description": "Set up a connection between Business Central and Dataverse. Businesses typically create the connection to integrate data with another Dynamics 365 app.",
-    "ms_date": "2025-06-10",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 3031,
+    "words": 3026,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6cb70b5bd22ce43c2fc69d544c6071503da50b004df1c9a677be9aa20970893f"
+  "output_hash": "447b3b229b370b8ec4a0d68a9a637b08c5ab1d9e5c93eed3b869565f7e460100"
 }

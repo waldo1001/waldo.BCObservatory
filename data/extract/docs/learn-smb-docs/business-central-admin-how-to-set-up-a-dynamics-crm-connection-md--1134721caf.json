@@ -2,25 +2,29 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-how-to-set-up-a-dynamics-crm-connection.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection",
   "title": "Connect to Microsoft Dataverse",
-  "blob": "1b34fd646dbf7cb4f1ac3ac8b2b9263c89ffc32a",
-  "summary": "Explains how to set up and manage a connection between Business Central and Microsoft Dataverse for integrating with other Dynamics 365 applications, including authentication, data synchronization, and record coupling.",
+  "blob": "41edd1ee40be9b7bf187edcfa42b7ccaf4c50233",
+  "summary": "Setting up a connection between Business Central and Microsoft Dataverse to integrate and synchronize data with other Dynamics 365 apps like Sales and Field Service. Use this for enabling cross-system data integration and managing ownership models, currencies, and authentication methods.",
   "systems": [
     "integration",
-    "crm",
-    "administration"
+    "administration",
+    "crm"
   ],
   "topics": [
     "dataverse connection",
-    "dynamics 365 integration",
     "data synchronization",
     "authentication",
+    "currency setup",
     "record coupling",
-    "currency handling"
+    "integration setup"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Dataverse Connection Setup"
+    },
+    {
+      "type": "page",
+      "name": "Microsoft Dynamics 365 Connection Setup"
     },
     {
       "type": "page",
@@ -40,32 +44,21 @@
     },
     {
       "type": "page",
-      "name": "Currencies"
-    },
-    {
-      "type": "page",
-      "name": "Currency Exchange Rates"
-    },
-    {
-      "type": "page",
-      "name": "Microsoft Dynamics 365 Connection Setup"
+      "name": "Select Coupling Criteria"
     }
   ],
   "features": [
-    "Dataverse connection",
-    "Data synchronization",
-    "Match-based coupling",
-    "Ownership model",
-    "Certificate-based authentication",
-    "Multi-currency support",
-    "Full synchronization",
-    "Integration table mappings",
-    "Record coupling",
-    "Data encryption"
+    "Dataverse connection setup",
+    "match-based coupling",
+    "certificate-based authentication",
+    "currency synchronization",
+    "ownership model selection",
+    "data encryption",
+    "initial synchronization",
+    "integration table mappings"
   ],
   "versions": [
-    "2020 release wave 1",
-    "version 16.5"
+    "2020 release wave 1 version 16.5"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -73,8 +66,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.010525,
-      "pages_in_call": 3
+      "cost_usd": 0.017613,
+      "pages_in_call": 1
     }
   ]
 }

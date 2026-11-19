@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology",
   "published_at": "2026-11-17T19:22:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.983Z",
-      "blob": "1ce0172ef6c35917cec39fb76a3cbbf56eeb2b5b",
-      "words": 900,
+      "at": "2026-11-19T00:26:57.858Z",
+      "blob": "29c7c422538885d2e1e12e84ed613f14986eb1c2",
+      "words": 866,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:03:09.378Z",
+      "at": "2026-11-19T00:27:02.035Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003456
+      "cost_usd": 0.004369
     },
     "summarized": {
-      "at": "2026-10-06T19:03:09.398Z",
+      "at": "2026-11-19T00:27:05.054Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:03:09.398Z",
+      "at": "2026-11-19T00:27:05.056Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:03:09.399Z",
+      "at": "2026-11-19T00:27:05.057Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/administration/tenant-environment-topology.md",
     "description": "Learn how environments in Business Central online reflect the Microsoft Entra tenant with an example of environments and companies across two countries/regions.",
-    "ms_date": "2025-06-20",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -55,11 +55,11 @@
       "environment"
     ],
     "ai_usage": null,
-    "words": 900,
+    "words": 866,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7ecdd66e6c9e8da572f294425577c1f4a4d5fe501f7ecdb1432221ef54ffdb24"
+  "output_hash": "dae764e28d6a09d1f44d467655fc3dd2754d24e4c201ceb5f3a491924788b540"
 }

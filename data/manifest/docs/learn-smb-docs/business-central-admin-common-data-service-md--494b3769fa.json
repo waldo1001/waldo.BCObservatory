@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-common-data-service",
   "published_at": "2026-11-18T09:23:39.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:24.330Z",
-      "blob": "0388f94b412d04508fb756147231169b2907ea18",
-      "words": 1006,
+      "at": "2026-11-19T00:26:53.103Z",
+      "blob": "4a3a0093f979bb0b73415eff76e58bfc10f51f6b",
+      "words": 1071,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T17:54:44.116Z",
+      "at": "2026-11-19T00:26:59.023Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.006011
+      "objects": 4,
+      "cost_usd": 0.01068
     },
     "summarized": {
-      "at": "2026-10-06T17:55:52.974Z",
+      "at": "2026-11-19T00:26:59.024Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:55:52.976Z",
+      "at": "2026-11-19T00:26:59.024Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:55:55.061Z",
+      "at": "2026-11-19T00:26:59.025Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/admin-common-data-service.md",
     "description": "Introduction to how to integrate and use Microsoft Dataverse and its components to connect to other Dynamics 365 applications.",
-    "ms_date": "2026-06-17",
+    "ms_date": "2026-11-17",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -55,12 +55,12 @@
       }
     ],
     "keywords": [],
-    "ai_usage": null,
-    "words": 1006,
+    "ai_usage": "ai-assisted",
+    "words": 1071,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6527e8b34cf0417d41027b2c5972be5df4c1b7c9c16cc7d3b9f5bd2b6e6a7908"
+  "output_hash": "997b2bf76b243cc08ca874ca435c1e4cebc5384feca93458a2e8bbee57cfd8f4"
 }

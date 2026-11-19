@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-overview",
   "published_at": "2026-11-17T19:22:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.624Z",
-      "blob": "1b5ae22bab0a91f8f8ca6af16c94c650e4571d6d",
-      "words": 981,
+      "at": "2026-11-19T00:26:59.052Z",
+      "blob": "ea21edfac39e514f1814b455c40321705c16cd9f",
+      "words": 970,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:18:33.355Z",
+      "at": "2026-11-19T00:27:05.093Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.01016
+      "objects": 0,
+      "cost_usd": 0.004682
     },
     "summarized": {
-      "at": "2026-10-06T13:20:13.147Z",
+      "at": "2026-11-19T00:27:05.094Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:20:13.148Z",
+      "at": "2026-11-19T00:27:05.096Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:20:13.148Z",
+      "at": "2026-11-19T00:27:05.119Z",
       "page": false
     }
   },
@@ -45,16 +45,16 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/ai/ai-development-toolkit-overview.md",
     "description": "Discover the AI Development Toolkit for testing AI capabilities in Business Central by building agents. Prototype, validate, and refine AI-powered solutions.",
-    "ms_date": "2026-10-02",
+    "ms_date": "2026-11-17",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 981,
+    "words": 970,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "66ebe71629952cdf92adcb19768d7e94d71042d619a4e460ad73712ea0d37a21"
+  "output_hash": "2e9dc08b0eb5a330df355c8f8b05b77df9cd31fa342281ac718127c52adf6e0f"
 }

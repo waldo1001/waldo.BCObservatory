@@ -2,31 +2,48 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-common-data-service.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-common-data-service",
   "title": "Integrate with Microsoft Dataverse via data sync",
-  "blob": "0388f94b412d04508fb756147231169b2907ea18",
-  "summary": "Integrate Business Central with Microsoft Dataverse to synchronize data bidirectionally with other Dynamics 365 applications like Customer Engagement for unified data management.",
+  "blob": "4a3a0093f979bb0b73415eff76e58bfc10f51f6b",
+  "summary": "Integrate Business Central with Microsoft Dataverse to synchronize data bidirectionally with Dynamics 365 applications like Sales or Dynamics Field Service. The page covers setup requirements, the Base Integration Solution, and handling currency differences between systems.",
   "systems": [
     "integration",
+    "crm",
     "administration"
   ],
   "topics": [
     "dataverse",
     "data synchronization",
-    "dynamics 365",
     "integration",
-    "customer engagement"
+    "entity mapping",
+    "currency handling",
+    "user accounts"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Dataverse Connection Setup"
+    },
+    {
+      "type": "page",
+      "name": "Currencies"
+    },
+    {
+      "type": "page",
+      "name": "Currency Exchange Rates"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
     }
   ],
   "features": [
-    "Bidirectional data sync",
-    "Entity mapping",
+    "bidirectional data synchronization",
+    "unidirectional data synchronization",
     "Base Integration Solution",
-    "Currency synchronization",
-    "Company copying with integration"
+    "integration table mappings",
+    "currency conversion",
+    "company copying",
+    "entity mapping",
+    "tenant verification"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006011,
-      "pages_in_call": 7
+      "cost_usd": 0.01068,
+      "pages_in_call": 1
     }
   ]
 }

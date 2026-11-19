@@ -2,41 +2,45 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-29-1.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-29-1",
   "title": "What's New or Changed in Business Central 2026 release wave 2 - Update 29.1",
-  "blob": "84dfee02f72f21447db2500efd9ffc3fb1722b93",
-  "summary": "What's new in Business Central 2026 release wave 2 update 29.1, including localization features, expense agent enhancements, finance improvements, and Microsoft Copilot capabilities.",
+  "blob": "3ed86b13ebd17889ccc90496e40db250392f0120",
+  "summary": "Update 29.1 for Business Central 2026 release wave 2 introduces new features across localizations, e-documents, expense and payables agents, finance capabilities, and copilot integration. Use this page to understand new features, hotfixes, and upgrade paths for version 29.1.",
   "systems": [
     "finance",
-    "administration",
-    "localization"
+    "copilot",
+    "administration"
   ],
   "topics": [
-    "release notes",
     "update 29.1",
-    "copilot",
+    "2026 release wave 2",
     "localization",
-    "excise duty",
-    "approvals",
-    "sustainability"
+    "copilot",
+    "expense agent",
+    "payables agent",
+    "excise duties",
+    "e-documents"
   ],
   "objects": [],
   "features": [
-    "SAF-T audit file format for Austria and Iceland",
+    "Austria SAF-T audit file format",
     "French localization extension",
-    "euBP export with audit files",
-    "EET Integration in Czechia",
-    "Non-deductible VAT framework in Belgium",
-    "Self-billing enablement",
+    "Germany euBP with audit files export",
+    "Iceland SAF-T audit file format",
+    "Czechia EET Integration",
+    "Belgium non-deductible VAT framework",
+    "E-Documents self-billing",
     "Interim approver for expense reports",
     "Automatic expense reports per trip",
     "Bonded locations for excise duty",
     "Cross-environment Master Data Management",
-    "Fixed asset journal approvals",
-    "Batch totals for payment journals"
+    "Fixed asset journal approvals"
   ],
   "versions": [
     "2026 release wave 2",
     "update 29.1",
-    "version 29.1"
+    "version 29.1",
+    "version 29",
+    "version 28",
+    "version 30"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -44,7 +48,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005256,
+      "cost_usd": 0.005632,
       "pages_in_call": 1
     }
   ]

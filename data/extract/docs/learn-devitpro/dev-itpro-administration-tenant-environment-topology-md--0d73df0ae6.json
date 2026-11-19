@@ -2,26 +2,31 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-environment-topology.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology",
   "title": "Understanding the infrastructure of Business Central online",
-  "blob": "1ce0172ef6c35917cec39fb76a3cbbf56eeb2b5b",
-  "summary": "Business Central online infrastructure is organized around Microsoft Entra tenants, environments by country/localization, and companies as separate legal entities within each environment.",
+  "blob": "29c7c422538885d2e1e12e84ed613f14986eb1c2",
+  "summary": "Understanding Business Central online infrastructure covers tenant topology, Microsoft Entra ID integration, environments, and companies. Use this to understand deployment options, organizational structure mapping, and how environments relate to Microsoft Entra tenants and licensing.",
   "systems": [
     "administration",
     "platform"
   ],
   "topics": [
     "infrastructure",
-    "multi-tenancy",
-    "entra id",
+    "tenant topology",
+    "microsoft entra id",
     "environments",
-    "companies"
+    "companies",
+    "deployment configuration",
+    "licensing"
   ],
   "objects": [],
   "features": [
-    "environments",
-    "companies",
-    "Microsoft Entra tenant",
-    "sandbox environments",
-    "production environments"
+    "Microsoft Entra tenant management",
+    "Environment configuration",
+    "Multiple companies per environment",
+    "License assignment",
+    "User permissions",
+    "Environment transfer between tenants",
+    "Sandbox and production environments",
+    "Financial data consolidation"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003456,
-      "pages_in_call": 8
+      "cost_usd": 0.004369,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations",
   "published_at": "2026-11-17T19:22:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.923Z",
-      "blob": "825507de64e16e97a7a4b9823def53e72d936db9",
-      "words": 1459,
+      "at": "2026-11-19T00:26:59.770Z",
+      "blob": "bf81ea6161004d74afb85dd4cbd6f165117e8698",
+      "words": 1466,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T14:21:24.400Z",
+      "at": "2026-11-19T00:27:05.073Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.007242
+      "cost_usd": 0.018161
     },
     "summarized": {
-      "at": "2026-10-06T14:21:24.405Z",
+      "at": "2026-11-19T00:27:05.074Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:21:24.406Z",
+      "at": "2026-11-19T00:27:05.075Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:21:24.406Z",
+      "at": "2026-11-19T00:27:05.076Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/compliance/apptest-countries-and-translations.md",
     "description": "Learn where Business Central is available, which languages are supported, and how partners deliver localized solutions through Microsoft commercial marketplace.",
-    "ms_date": "2026-08-03",
+    "ms_date": "2026-11-17",
     "ms_topic": "article",
     "search_form": [
       {
@@ -66,11 +66,11 @@
     ],
     "keywords": [],
     "ai_usage": null,
-    "words": 1459,
+    "words": 1466,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "163b355aa368f66513ac1379e961f461fe06a0bacb170608a1c34aa05d69775c"
+  "output_hash": "e0f05cdfb668e0450817efc2aba9263508b6a4d7b1a213407ef7970a8c73a5ba"
 }

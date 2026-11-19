@@ -2,43 +2,36 @@
   "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-overview",
   "title": "Designing and coding agents (preview)",
-  "blob": "1b5ae22bab0a91f8f8ca6af16c94c650e4571d6d",
-  "summary": "Design and code agents using the Business Central AI development toolkit to prototype AI-powered features, validate use cases, and experiment with prompts in sandbox environments before building production solutions.",
+  "blob": "ea21edfac39e514f1814b455c40321705c16cd9f",
+  "summary": "The AI development toolkit enables developers, product owners, and consultants to design and prototype AI-powered agents in Business Central by configuring instructions, tasks, and permissions before building production solutions with AL extensions.",
   "systems": [
     "copilot",
     "development",
-    "administration"
+    "platform"
   ],
   "topics": [
     "agent design",
-    "agent lifecycle",
+    "ai development",
     "prototyping",
-    "permissions and profiles",
-    "sandbox environment",
-    "instruction keywords",
-    "agent tasks",
-    "ai integration"
+    "instructions",
+    "tasks",
+    "permissions",
+    "profiles",
+    "sandbox"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Agents (preview)"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Agent lifecycle (create, configure, activate, iterate, graduate, cleanup)",
     "Custom Agent capability",
-    "Instructions and tasks configuration",
-    "Permissions and profile management",
-    "Sandbox-only environment support",
-    "Least privilege permission model",
-    "Custom UI profiles for agents",
-    "Single list per page interaction",
-    "English language support"
+    "agent instructions",
+    "agent tasks",
+    "permission sets",
+    "profile assignment",
+    "task triggers",
+    "execution cost tracking",
+    "sandbox testing"
   ],
   "versions": [
-    "preview",
-    "27.2"
+    "version 27.2"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -46,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.01016,
-      "pages_in_call": 3
+      "cost_usd": 0.004682,
+      "pages_in_call": 1
     }
   ]
 }
