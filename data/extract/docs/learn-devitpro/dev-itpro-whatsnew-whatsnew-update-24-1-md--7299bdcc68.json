@@ -2,26 +2,22 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-24-1.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-1",
   "title": "Update 24.1 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1",
-  "blob": "fb11d3eb886e02c97c1b480359a36224a559ff13",
-  "summary": "Update 24.1 for Business Central 2024 release wave 1 documents multiple file uploads support, SII ignore option for Spain, and upcoming mandatory features for G/L entry aggregations and exchange rate adjustments.",
+  "blob": "7ee3db51379b97b5ecd140a75b1823905e3a7d8c",
+  "summary": "Update 24.1 for Business Central 2024 Release Wave 1 includes hotfixes, multiple file upload handling, and Spanish localization for VAT posting. Use this to understand changes and prepare for mandatory features becoming mandatory in future updates.",
   "systems": [
-    "sales",
+    "platform",
     "finance",
-    "localization"
+    "integration"
   ],
   "topics": [
-    "updates",
+    "update 24.1",
     "2024 release wave 1",
+    "hotfixes",
     "file uploads",
-    "sii",
-    "feature management",
-    "mandatory features"
+    "localization",
+    "feature management"
   ],
   "objects": [
-    {
-      "type": "table",
-      "name": "VAT Posting Setup"
-    },
     {
       "type": "table",
       "name": "Invoice Post. Buffer"
@@ -32,15 +28,19 @@
     }
   ],
   "features": [
-    "multiple file uploads",
-    "ignore in SII option",
-    "G/L entry aggregations",
-    "exchange rate adjustments",
-    "extensibility"
+    "Handle multiple file uploads",
+    "Ignore in SII option for G/L Account",
+    "Extending G/L Entry Aggregations When Posting Invoices",
+    "New extensible exchange rate adjustment",
+    "Posting review feature"
   ],
   "versions": [
+    "24.1",
     "2024 release wave 1",
-    "update 24.1"
+    "23.1",
+    "26.0",
+    "2025 release wave 1",
+    "23.0"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -48,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004356,
-      "pages_in_call": 7
+      "cost_usd": 0.004605,
+      "pages_in_call": 1
     }
   ]
 }

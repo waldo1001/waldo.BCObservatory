@@ -2,33 +2,38 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-23-3.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-3",
   "title": "Update 23.3 for Microsoft Dynamics 365 Business Central 2023 Release Wave 2",
-  "blob": "1b55c9674703e00c1cc6b45d3f250fd8526ecc45",
-  "summary": "Update 23.3 for Business Central 2023 Release Wave 2 adds e-invoicing with NemHandel in Denmark, cloud migration proactive warnings, translatable Excel layouts, generic Microsoft Graph API wrapper, and Azure File Services API module.",
+  "blob": "bcb4bb97919ae0e80ff49c1727c899b26ea7720d",
+  "summary": "Update 23.3 for Business Central 2023 Release Wave 2 includes e-invoicing with NemHandel, cloud migration warnings, translatable Excel layouts, Graph API and Azure File Services modules, and localization updates for US IRS forms and Swiss VAT rates.",
   "systems": [
     "localization",
-    "development",
-    "integration"
+    "integration",
+    "development"
   ],
   "topics": [
-    "update",
+    "update 23.3",
+    "2023 release wave 2",
     "e-invoicing",
     "denmark",
-    "cloud-migration",
-    "excel",
-    "graph-api",
-    "azure"
+    "localization",
+    "hotfixes",
+    "scheduled tasks"
   ],
   "objects": [],
   "features": [
     "E-invoicing with NemHandel",
-    "Cloud migration warnings",
+    "Cloud migration configuration warnings",
     "Translatable Excel layouts",
-    "Microsoft Graph API wrapper",
-    "Azure File Services API"
+    "Excel layout metadata",
+    "Generic Microsoft Graph API Wrapper",
+    "Azure File Services API module",
+    "Scheduled task throughput",
+    "IRS 1099 and 1096 form updates"
   ],
   "versions": [
+    "update 23.3",
     "2023 release wave 2",
-    "23.3"
+    "update 26.0",
+    "2025 release wave 1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -36,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00475,
-      "pages_in_call": 8
+      "cost_usd": 0.005161,
+      "pages_in_call": 1
     }
   ]
 }

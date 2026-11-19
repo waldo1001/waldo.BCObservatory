@@ -2,33 +2,49 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-23-4.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-4",
   "title": "Update 23.4 for Microsoft Dynamics 365 Business Central 2023 Release Wave 2",
-  "blob": "17cdfb28819be7a5876baa7471e8ff375b7863ba",
-  "summary": "Update 23.4 for Business Central 2023 Release Wave 2 enables ISV Marketplace app previews, improves SII document sending in Spain, and enhances VAT e-submission in Denmark with Microsoft default certificate support.",
+  "blob": "e6f8cb3d03e233e224f2a4fd75d1b0771486d5e2",
+  "summary": "Update 23.4 for 2023 Release Wave 2 includes hotfixes, localization updates for Spain and Denmark, new Dynamics 365 Business Central Administrator role, environment transfer capabilities, Shopify API upgrade, and features becoming mandatory in future releases.",
   "systems": [
-    "localization",
+    "administration",
     "integration",
-    "development"
+    "localization"
   ],
   "topics": [
-    "update",
-    "marketplace",
-    "spain",
-    "denmark",
-    "sii",
-    "vat",
-    "entra"
+    "update 23.4",
+    "2023 release wave 2",
+    "hotfixes",
+    "localization",
+    "entra administrator role",
+    "shopify connector",
+    "feature management",
+    "mandatory features"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Feature Management"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Shop Card"
+    }
+  ],
   "features": [
-    "Marketplace app preview",
-    "SII document sending",
-    "VAT e-submission",
-    "Entra role support",
-    "Environment transfer"
+    "Marketplace ISV app preview",
+    "Spanish SII document sending improvements",
+    "Danish VAT E-submission with Microsoft certificate",
+    "Dynamics 365 Business Central Administrator role",
+    "Environment transfer between Entra tenants",
+    "Shopify Admin API 2023-10 support",
+    "Automatic Marketplace app updates",
+    "Extending G/L Entry Aggregations interface",
+    "Extensible exchange rate adjustment"
   ],
   "versions": [
+    "23.4",
     "2023 release wave 2",
-    "23.4"
+    "26.0",
+    "2025 release wave 1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -36,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00475,
-      "pages_in_call": 8
+      "cost_usd": 0.005532,
+      "pages_in_call": 1
     }
   ]
 }

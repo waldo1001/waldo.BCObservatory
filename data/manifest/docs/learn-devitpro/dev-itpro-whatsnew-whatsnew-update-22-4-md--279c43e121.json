@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-4",
   "published_at": "2026-11-18T09:31:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:21:30.203Z",
+      "at": "2026-11-19T00:26:04.573Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.004356
+      "cost_usd": 0.003814
     },
     "summarized": {
-      "at": "2026-10-06T19:21:30.215Z",
+      "at": "2026-11-19T00:26:04.574Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:21:30.216Z",
+      "at": "2026-11-19T00:26:04.575Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:21:30.217Z",
+      "at": "2026-11-19T00:26:04.577Z",
       "page": false
     }
   },
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "14a49e0a2830cf7b351f00346dabf4b19c5e3a46"
+  "output_hash": "0b322d1c526540c5f4af761ad3da5ce6daef6991a6d8887eccaea6d7de7427a8"
 }

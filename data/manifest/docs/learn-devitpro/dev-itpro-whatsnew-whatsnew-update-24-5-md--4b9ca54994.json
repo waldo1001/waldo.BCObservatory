@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-5",
   "published_at": "2026-11-18T09:31:51.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:32.252Z",
-      "blob": "f7b2962a8f667fb90fd46555bfa5d84ea6280273",
+      "at": "2026-11-19T00:26:10.618Z",
+      "blob": "b677e6bebac7fcf6eac4a975b07e9fac022a5d01",
       "words": 598,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:12:59.306Z",
+      "at": "2026-11-19T00:26:17.195Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.006497
+      "objects": 1,
+      "cost_usd": 0.004489
     },
     "summarized": {
-      "at": "2026-10-06T19:13:10.656Z",
+      "at": "2026-11-19T00:26:17.197Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:13:10.657Z",
+      "at": "2026-11-19T00:26:17.198Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:13:10.658Z",
+      "at": "2026-11-19T00:26:17.199Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/whatsnew/whatsnew-update-24-5.md",
     "description": "Get an overview of new and changed capabilities in the 24.5 update of Business Central online, which is part of 2024 release wave 1.",
-    "ms_date": "2024-09-04",
+    "ms_date": "2026-11-18",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [],
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "defc52b4ca8ed5d7d53a1bbd58247b2eef74159c6d577ce12059d264e8e3a437"
+  "output_hash": "64794f785d57e28925b6ac3bbb75375cc79d5688d83d7145d9aadf1e0a459915"
 }

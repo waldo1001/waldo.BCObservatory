@@ -2,35 +2,36 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-22-5.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-5",
   "title": "Update 22.5 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1",
-  "blob": "054b9b50d2caa0fa098fc57bd950ba927e2caf76",
-  "summary": "Update 22.5 for Business Central 2023 release wave 1 documents general ledger posting aggregations, device license job queue functionality, copy links in journal posting, and localization updates for France, Denmark covering SAF-T, standard chart of accounts, and Regnskab Basis integration.",
+  "blob": "1c2244121af1e8ddb089dca535b4ec79acf88d68",
+  "summary": "Update 22.5 for Business Central 2023 Release Wave 1 introduces feature changes including general ledger posting aggregation extension, device license job queue capabilities, and copy links when posting journals, along with localization updates for France, Denmark, and other regions.",
   "systems": [
     "finance",
     "localization",
-    "reporting"
+    "administration"
   ],
   "topics": [
-    "updates",
-    "2023 release wave 1",
-    "posting",
-    "journal",
+    "update 22.5",
+    "general ledger posting",
+    "job queue",
     "localization",
-    "audit",
-    "chart of accounts"
+    "denmark",
+    "france",
+    "saf-t",
+    "regnskab basis"
   ],
   "objects": [],
   "features": [
-    "general ledger posting aggregations",
-    "device license job queue",
-    "copy links in journals",
-    "SAF-T export",
-    "standard chart of accounts",
-    "Regnskab Basis CSV export",
-    "transaction numbering"
+    "extend general ledger posting aggregations",
+    "device license job queue setup",
+    "copy links when posting general journals",
+    "unique numbering for french invoices",
+    "standard audit file export (SAF-T)",
+    "standard chart of accounts for denmark",
+    "regnskab basis csv export"
   ],
   "versions": [
-    "2023 release wave 1",
-    "update 22.5"
+    "update 22.5",
+    "2023 release wave 1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -38,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004356,
-      "pages_in_call": 7
+      "cost_usd": 0.004517,
+      "pages_in_call": 1
     }
   ]
 }

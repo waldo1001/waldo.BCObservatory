@@ -2,33 +2,50 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-23-5.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-5",
   "title": "Update 23.5 for Microsoft Dynamics 365 Business Central 2023 Release Wave 2",
-  "blob": "383617a5c323402e14db9b35efdd3b65affb4954",
-  "summary": "Update 23.5 for Business Central 2023 Release Wave 2 introduces hotfixes, localization updates for Norway and Mexico, improved administration roles, and upcoming features becoming mandatory. Use this page to learn what changed in this minor update and prepare for upcoming feature transitions.",
+  "blob": "c5dd3657a83014d614455ebd4faf09ff08591e34",
+  "summary": "Update 23.5 for Business Central 2023 release wave 2 includes hotfixes, localization updates for Norway and Mexico, new Dynamics 365 Business Central Administrator role, Shopify connector updates, and mandatory feature transitions for G/L entry aggregations and exchange rate adjustments.",
   "systems": [
     "administration",
-    "localization",
-    "finance"
+    "integration",
+    "localization"
   ],
   "topics": [
-    "update 23.5",
+    "updates",
     "hotfixes",
     "localization",
     "administration",
-    "feature management",
-    "shopify"
+    "entra roles",
+    "shopify integration",
+    "feature management"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Feature Management"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Shop Card"
+    }
+  ],
   "features": [
+    "Improved update release processes",
     "Dynamics 365 Business Central Administrator role",
-    "Shopify connector update",
-    "Marketplace app updates",
+    "Shopify Admin API 2023-10",
+    "Marketplace app auto-updates",
     "Extending G/L Entry Aggregations When Posting Invoices",
-    "New extensible exchange rate adjustment"
+    "New extensible exchange rate adjustment",
+    "Electronic VAT submission updates",
+    "Carta Porte Complement 3.0"
   ],
   "versions": [
     "23.5",
     "2023 release wave 2",
-    "update 26.0"
+    "23.4",
+    "23.1",
+    "23.0",
+    "26.0",
+    "2025 release wave 1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -36,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008773,
-      "pages_in_call": 5
+      "cost_usd": 0.005255,
+      "pages_in_call": 1
     }
   ]
 }

@@ -2,36 +2,40 @@
   "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-23-2.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-2",
   "title": "Update 23.2 for Microsoft Dynamics 365 Business Central 2023 Release Wave 2",
-  "blob": "5862a2fcb607ac611424017da4c23526a7b0083e",
-  "summary": "Update 23.2 for Business Central 2023 Release Wave 2 improves Dynamics GP migration troubleshooting, enables generative AI integration in AL, adds VAT posting setup, and expands Denmark localization with e-invoicing and e-documents framework.",
+  "blob": "3e8e3277d8387b58777c1fc92f308b6e57ee3bca",
+  "summary": "Update 23.2 for Business Central 2023 Release Wave 2 includes hotfixes, VAT posting improvements, generative AI integration, enhanced Dynamics GP migration troubleshooting, and localization features for Denmark including e-invoicing and digital vouchers.",
   "systems": [
-    "localization",
-    "development",
-    "integration"
+    "finance",
+    "integration",
+    "development"
   ],
   "topics": [
-    "update",
-    "dynamics-gp",
-    "generative-ai",
-    "vat",
-    "denmark",
+    "update 23.2",
+    "hotfixes",
+    "generative ai",
+    "vat posting",
+    "dynamics gp migration",
+    "denmark localization",
     "e-invoicing",
-    "peppol",
-    "nemhandel"
+    "feature management"
   ],
   "objects": [],
   "features": [
-    "GP migration troubleshooting",
-    "Generative AI integration",
-    "VAT posting",
-    "E-invoicing",
-    "E-documents framework",
-    "PEPPOL format",
-    "Digital vouchers"
+    "Improved data upgrade troubleshooting for Dynamics GP migration",
+    "Generative AI integration in AL solutions",
+    "VAT posting in General Ledger setup",
+    "New operational limits on scheduled tasks and web requests",
+    "Denmark e-submission of VAT returns",
+    "Denmark e-invoicing with Nemhandel",
+    "Denmark digital vouchers enforcement",
+    "Extending G/L Entry Aggregations interface"
   ],
   "versions": [
     "2023 release wave 2",
-    "23.2"
+    "update 23.2",
+    "update 23.1",
+    "update 26.0",
+    "2025 release wave 1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -39,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00475,
-      "pages_in_call": 8
+      "cost_usd": 0.005132,
+      "pages_in_call": 1
     }
   ]
 }
