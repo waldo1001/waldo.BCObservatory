@@ -237,7 +237,7 @@ test("hubs: size and narrative when named; a hub's own words do not count again 
   assert.equal(Math.round(scoreRecord(i, i.records[0], p("subscription")).s * 10) / 10, 13.2, "title 3 + starts 3 + log2(19) 4.2 + reviewed 2 + 1: the tag 'subscription billing' adds nothing");
   const app = pageToRecord({ path: "apps/x", type: "app", title: "Subscription Billing", summary: "", tier: "official", members: 377 });
   const j = prepare([app]);
-  assert.equal(Math.round(scoreRecord(j, j.records[0], p("subscription")).s * 100) / 100, 13.56, "title 3 + starts 3 + log2(378) 8.56 + no narrative -2 + 1");
+  assert.equal(Math.round(scoreRecord(j, j.records[0], p("subscription")).s * 100) / 100, 9.28, "title 3 + starts 3 + log2(378) 8.56 at half weight (an app page counts objects) + no narrative -2 + 1");
 });
 
 // ---------------------------------------------------------------------------------------------- symbols
@@ -352,7 +352,7 @@ test("lift: a generic word keeps the symbols' baseline: enum values named like i
   // the baseline of a symbol: 2 x the owner's importance, the layer and the type prior only when the query asked for symbols
   const imp = (id: string) => by(id).importance;
   const generic = (id: string) => Math.round(scoreRecord(i, by(id), p("posting")).s * 100) / 100, kind = (id: string) => Math.round(scoreRecord(i, by(id), p("value: Posting")).s * 100) / 100;
-  assert.equal(Math.round((generic("objects/enum/16#value-0") - generic("objects/enum/6211#value-1")) * 100) / 100, Math.round(0.6 * 2 * (imp("objects/enum/16") - imp("objects/enum/6211")) * 100) / 100, "a generic word: the importance only");
+  assert.equal(Math.round((generic("objects/enum/16#value-0") - generic("objects/enum/6211#value-1")) * 100) / 100, Math.round(0.5 * 2 * (imp("objects/enum/16") - imp("objects/enum/6211")) * 100) / 100, "a generic word: the importance only, demoted to half");
   assert.equal(Math.round((kind("objects/enum/16#value-0") - kind("objects/enum/6211#value-1")) * 100) / 100, Math.round((0.5 + 2 * (imp("objects/enum/16") - imp("objects/enum/6211"))) * 100) / 100, "a kind: the owner's layer too");
 });
 
@@ -654,4 +654,29 @@ test("guideline records rank at GUIDELINE_FACTOR of their score: below an equal 
   const learnS = scoreRecord(ix, ix.records[0], p("IntegrationEvent BusinessEvent")).s, ruleS = scoreRecord(ix, ix.records[1], p("IntegrationEvent BusinessEvent")).s;
   assert.ok(Math.abs(ruleS - learnS * GUIDELINE_FACTOR) < 0.5, `${ruleS} vs ${learnS}`);
   assert.equal(search(ix, p("agent setup user security id"))[0].r.id, "guidelines/community/knowledge/agents/y");
+});
+
+test("typo: a word met in a handful of records also meets a far more common word one typo away, below the exact form", () => {
+  const page = (path: string, title: string) => pageToRecord({ path, type: "change", title, summary: "", tier: "official" });
+  const common = Array.from({ length: 40 }, (_, k) => page(`changes/x/${k}`, `Change ${k} to Customer`));
+  const i = prepare([page("changes/x/typo", "Report Inventory Custmer Sales"), ...common]);
+  const ids = search(i, p("custmer")).map((h) => h.r.id);
+  assert.equal(ids[0], "changes/x/typo", "the exact form first");
+  assert.ok(ids.length > 1 && ids.includes("changes/x/3"), "the common word one typo away as well");
+  // a word met by many records keeps the old rule: no typo candidates next to it
+  const j = prepare([...Array.from({ length: 5 }, (_, k) => page(`changes/y/${k}`, `Custmer ${k}`)), ...common]);
+  assert.ok(search(j, p("custmer")).every((h) => h.r.id.startsWith("changes/y/")));
+});
+
+test("hubs: a hub the query names ranks above a hub under it; a parent that only mentions the word is not lifted", () => {
+  const hub = (path: string, title: string, members: number, narrative: "reviewed" | "unreviewed", summary = "") =>
+    pageToRecord({ path, type: "topic", title, summary, tier: "official", members, narrative });
+  const i = prepare([
+    hub("topics/bc/sales", "Sales", 900, "reviewed", "Sales, subscription billing and more."),
+    hub("topics/bc/sales/subscription-billing", "Subscription billing", 77, "unreviewed"),
+    hub("topics/bc/sales/subscription-billing/analytics", "Subscription billing analytics", 21, "reviewed"),
+  ]);
+  const hits = search(i, p("subscription"));
+  assert.deepEqual(hits.map((h) => h.r.id).slice(0, 2), ["topics/bc/sales/subscription-billing", "topics/bc/sales/subscription-billing/analytics"]);
+  assert.ok(hits.findIndex((h) => h.r.id === "topics/bc/sales") > 1, "Sales names it in its text only");
 });

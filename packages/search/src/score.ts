@@ -213,6 +213,8 @@ function prefixed(sorted: string[], p: string): string[] {
   for (let i = lo; i < sorted.length && sorted[i].startsWith(p); i++) out.push(sorted[i]);
   return out;
 }
+/** A query word met in this many records or fewer also meets a word one typo away that is RARE_FACTOR times as common. */
+const RARE_WORD = 3, RARE_FACTOR = 20;
 /** Index words one typo away (two from nine letters), bucketed by first letter and length +-2. */
 export function fuzzyCandidates(index: Index, word: string): string[] {
   const st = STATE.get(index);
@@ -247,6 +249,12 @@ function matcherOf(index: Index, st: State, t: Term): Matcher {
     for (const w of st.stems.get(t.stem) ?? []) set(w, { f: 0.75, how: "stem" });
     if (t.text.length >= 3) for (const w of prefixed(sortedVocab(index, st), t.text)) set(w, { f: 0.75, how: "prefix" });
     if (!words.size) for (const w of fuzzyCandidates(index, t.text)) set(w, { f: 0.5, how: "fuzzy", via: w });
+    else {
+      // a word met in a handful of records only is likely somebody else's typo ("custmer": two pull request titles):
+      // a word one typo away that is far more common is a candidate too, below the exact form
+      const found = [...words.keys()].reduce((a, w) => a + (index.vocab.get(w) ?? 0), 0);
+      if (found <= RARE_WORD) for (const w of fuzzyCandidates(index, t.text)) if (!words.has(w) && (index.vocab.get(w) ?? 0) >= RARE_FACTOR * found) set(w, { f: 0.5, how: "fuzzy", via: w });
+    }
   }
   for (const alt of t.alts) {
     if (alt.includes(" ")) {
@@ -423,13 +431,16 @@ export function scoreRecord(index: Index, r: SearchRecord, q: ParsedQuery): { s:
   if (eq) { s += 10 * eq - (owned ? textPts : 0); why.push(!byName ? "caption" : eq >= 0.75 ? "name" : "name~"); }
   else if (starts) { s += 3 * starts; why.push("starts"); }
   // a hub (or an app page) is a starting point in proportion to what hangs off it, when its title or TOC names the query
-  if ((r.type === "topic" || r.type === "app") && !symbol && named) s += Math.log2((r.members ?? 0) + 1);
+  // an app page's members are its objects, hundreds of them where a hub counts Learn pages, objects, videos and posts:
+  // at half weight an app page stands beside the hub of the same name rather than above it
+  if ((r.type === "topic" || r.type === "app") && !symbol && named) s += Math.log2((r.members ?? 0) + 1) * (r.type === "app" ? 0.5 : 1);
   // an app page has no narrative: it ranks as "none", as D77 ranks a derived hub
   if ((r.type === "topic" || r.type === "app") && !symbol) s += NARRATIVE[r.narrative ?? (r.type === "app" ? "none" : "unreviewed")] ?? 0;
   s += countryPoints(q, r, country);
   if (q.types.length && objectish) s += 3;
   s = symbol ? s + 2 * r.importance + (owned ? LAYER[r.layer] + prior : 0) : lift(s);
-  if (objectish && !lifted) { s *= 0.6; why.push("demoted"); }
+  // a symbol named by a generic word ("posting": six enum values) goes below the pages that word also starts (D95)
+  if (objectish && !lifted) { s *= symbol ? 0.5 : 0.6; why.push("demoted"); }
   if (r.type === "guideline") s *= GUIDELINE_FACTOR;
   return { s, why };
 }
@@ -474,12 +485,36 @@ export function search(index: Index, q: ParsedQuery, opts: { limit?: number; kin
     if (s > 0) hits.push({ r, s, why, band: s >= 900 || (why.includes("name") && !why.includes("demoted")) ? "exact" : "match" });
   }
   learnTitleBand(index, q, hits, opts);
+  parentsFirst(hits);
   hits.sort(opts.sort === "date" ? byDate : byRank);
   return opts.limit ? hits.slice(0, opts.limit) : hits;
 }
 
-/** Title words that never count for the Learn title band: function words. */
-const TITLE_STOP = new Set(["a", "an", "the", "of", "to", "in", "on", "and", "or", "for", "with", "your", "you", "how", "what", "is", "are", "by", "from", "about", "using", "use"]);
+/**
+ * A hub whose own title the query names never ranks below a hub under it in the Learn TOC: the parent is the starting
+ * point, and a narrative waiting for review must not drop it below its own sub-hub ("Subscription billing analytics").
+ * A parent that only mentions the word in its text ("Sales") is not lifted.
+ */
+function parentsFirst(hits: Hit[]): void {
+  const hubs = new Map<string, Hit>();
+  const titled = (h: Hit) => h.why.some((w) => w === "starts" || w === "name" || w === "name~");
+  for (const h of hits) if (h.r.kind === "page" && h.r.type === "topic") hubs.set(h.r.id, h);
+  if (hubs.size < 2) return;
+  // deepest first, so a lift carries up through every level
+  for (const h of [...hubs.values()].sort((a, b) => b.r.id.split("/").length - a.r.id.split("/").length)) {
+    for (let p = h.r.id.slice(0, h.r.id.lastIndexOf("/")); p.includes("/"); p = p.slice(0, p.lastIndexOf("/"))) {
+      const parent = hubs.get(p);
+      if (parent && titled(parent) && parent.s <= h.s) parent.s = h.s + 0.01;
+    }
+  }
+}
+
+/**
+ * Title words that never count for the Learn title band: function words, and the product's own name, which every
+ * article here is about and no question repeats ("Copy an environment" became "Copy a Business Central Environment").
+ */
+const TITLE_STOP = new Set(["a", "an", "the", "of", "to", "in", "on", "and", "or", "for", "with", "your", "you", "how", "what", "is", "are", "by", "from", "about", "using", "use",
+  "business", "central", "dynamics", "365", "microsoft"]);
 /** A Learn title band hit scores this, plus one per query word its title meets: above any page matched by text alone. */
 export const LEARN_TITLE_SCORE = 30;
 const LEARN_ROWS = new WeakMap<Index, { n: number; rows: number[] }>();

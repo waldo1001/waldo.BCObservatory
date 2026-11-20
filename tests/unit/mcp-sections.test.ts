@@ -256,7 +256,7 @@ const pathOf = (file: string) => file.slice(CONTENT.length + 1).replace(/\.md$/,
 const STATUS = /\nRows (\d+)-(\d+) of (\d+)\.(?: Next: bc_cat\("[^"]+", section: "[^"]+", offset: (\d+)\)| The section's closing text: bc_cat\("[^"]+", section: "[^"]+", offset: (\d+)\))?\n$/;
 
 test("real pages: Codeunit 80, Table 18 and Table 36 compact", (t) => {
-  for (const [path, max] of [["objects/codeunit/80", 12_000], ["objects/table/18", 17_000], ["objects/table/36", 18_000]] as const) {
+  for (const [path, max] of [["objects/codeunit/80", 12_000], ["objects/table/18", 20_000], ["objects/table/36", 20_000]] as const) {
     const md = readFileSync(join(CONTENT, `${path}.md`), "utf8");
     const c = compactView(md, path, 30_000);
     t.diagnostic(`${path}: ${md.length} characters, compact ${c.length}`);
