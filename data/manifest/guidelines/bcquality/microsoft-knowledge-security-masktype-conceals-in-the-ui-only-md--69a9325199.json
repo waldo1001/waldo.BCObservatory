@@ -1,0 +1,84 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/security/masktype-conceals-in-the-ui-only.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "`MaskType` conceals a value in the UI only",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/masktype-conceals-in-the-ui-only.md",
+  "published_at": "2026-11-19T15:23:15.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:17:12.299Z",
+      "blob": "3fcae9825d055e1d2af6949e7682c0a58b6e0a90",
+      "words": 379,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-20T00:17:22.037Z",
+      "path": "content/guidelines/microsoft/knowledge/security/masktype-conceals-in-the-ui-only.md"
+    }
+  },
+  "input_hash": "3fcae9825d055e1d2af6949e7682c0a58b6e0a90",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/security/masktype-conceals-in-the-ui-only.md",
+    "description": "MaskType = Concealed on a table field or page field makes the client display the value masked, with a hide/show icon that lets the user reveal it. It is available from runtime 16.0 for Code, Text, Decimal, Integer, and BigInteger fields.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "masktype",
+      "concealed",
+      "masking",
+      "sensitive-data",
+      "ui-only",
+      "extendeddatatype",
+      "feature-key"
+    ],
+    "ai_usage": null,
+    "words": 379,
+    "identifiers": [
+      "MaskType",
+      "BigInteger",
+      "ConfigurationDialog"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "security",
+      "keywords": [
+        "masktype",
+        "concealed",
+        "masking",
+        "sensitive-data",
+        "ui-only",
+        "extendeddatatype",
+        "feature-key"
+      ],
+      "bc_version": [
+        "27.."
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "MaskType = Concealed on a table field or page field makes the client display the value masked, with a hide/show icon that lets the user reveal it. It is available from runtime 16.0 for Code, Text, Decimal, Integer, and BigInteger fields."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3fcae9825d055e1d2af6949e7682c0a58b6e0a90"
+}

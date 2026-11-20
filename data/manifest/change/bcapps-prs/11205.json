@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/11205",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Inventory internal new body layouts and obsolete current",
+  "url": "https://github.com/microsoft/BCApps/pull/11205",
+  "published_at": "2026-11-19T19:58:37Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:17:31.994Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-20T00:17:47.889Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.005297
+    },
+    "linked": {
+      "at": "2026-11-20T00:17:47.999Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-20T00:17:48.003Z",
+      "path": "content/changes/bcapps/11205.md"
+    }
+  },
+  "input_hash": "41c507823724f6be93e9882c1330735986cd84f9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11205,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "41c507823724f6be93e9882c1330735986cd84f9",
+    "author": "MSlenejennum",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "inventory internal new body layouts and obsolete current"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8b510afe52d57f091578d82f06d42267be89af62e98544e654151529e7ddadd7"
+}

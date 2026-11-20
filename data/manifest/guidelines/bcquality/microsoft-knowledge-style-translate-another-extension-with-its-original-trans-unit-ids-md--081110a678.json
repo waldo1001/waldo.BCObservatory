@@ -1,0 +1,80 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/style/translate-another-extension-with-its-original-trans-unit-ids.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Translate another extension with its own translation IDs",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/translate-another-extension-with-its-original-trans-unit-ids.md",
+  "published_at": "2026-11-19T15:23:15.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:17:48.174Z",
+      "blob": "cc9b2cc38b285da82b467135e3343985027399c6",
+      "words": 270,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-20T00:17:48.243Z",
+      "path": "content/guidelines/microsoft/knowledge/style/translate-another-extension-with-its-original-trans-unit-ids.md"
+    }
+  },
+  "input_hash": "cc9b2cc38b285da82b467135e3343985027399c6",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/style/translate-another-extension-with-its-original-trans-unit-ids.md",
+    "description": "An extension can ship translations for a different extension, for example a language app that translates the Base Application. The translated extension must be listed in dependencies in app.json, and the translated .xlf file goes in a Translations folder at the root of the translating extension.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "xliff",
+      "translation",
+      "dependency",
+      "trans-unit",
+      "base-application",
+      "language-app",
+      "original-attribute"
+    ],
+    "ai_usage": null,
+    "words": 270,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "xliff",
+        "translation",
+        "dependency",
+        "trans-unit",
+        "base-application",
+        "language-app",
+        "original-attribute"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "An extension can ship translations for a different extension, for example a language app that translates the Base Application. The translated extension must be listed in dependencies in app.json, and the translated .xlf file goes in a Translations folder at the root of the translating extension."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cc9b2cc38b285da82b467135e3343985027399c6"
+}

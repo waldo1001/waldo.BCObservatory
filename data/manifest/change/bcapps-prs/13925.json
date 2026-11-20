@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13925",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29x]-Bug 658773: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)",
+  "url": "https://github.com/microsoft/BCApps/pull/13925",
+  "published_at": "2026-11-19T04:36:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    }
+  },
+  "input_hash": "5db4501b32a14ebad4276df9a4e1b89ec06e84ef:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13925,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "5db4501b32a14ebad4276df9a4e1b89ec06e84ef",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "29x bug 658773 mileage starting ending point addresses over 50 characters fail to save on report lines bc text 50 limit not enforced"
+  }
+}

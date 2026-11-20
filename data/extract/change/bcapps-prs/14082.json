@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/14082",
+  "number": 14082,
+  "title": "[29.x]-Bug 656406: [Expense Agent] Setup wizard access text should mention the mobile app (Android/iOS) alongside Web",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense Agent setup wizard text is updated to clarify that users can submit expenses via both the web and mobile apps.",
+  "key_points": [
+    "Caption changed to mention web and mobile app access",
+    "Tooltip clarified to reference both Expense web app and mobile app",
+    "No behavioral changes or logic modifications",
+    "Text-only change applied to BC29 release"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Registered users can also use the Expense mobile app, so this PR updates the text to cover both.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003843,
+    "changes_in_call": 5
+  }
+}

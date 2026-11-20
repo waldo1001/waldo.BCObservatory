@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/14288",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Grant report layout override permissions for non-SUPER users",
+  "url": "https://github.com/microsoft/BCApps/pull/14288",
+  "published_at": "2026-11-19T10:37:33Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    }
+  },
+  "input_hash": "9a919d6cc004c3e59ae5630b95491b324b579fb2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14288,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9a919d6cc004c3e59ae5630b95491b324b579fb2",
+    "author": "jehelles",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "grant report layout override permissions for non super users"
+  }
+}

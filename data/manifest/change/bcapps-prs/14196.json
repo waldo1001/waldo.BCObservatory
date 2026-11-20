@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14196",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29x] Bug 653145 The <SistemaInformatico> node in the Spanish Verifactu XML",
+  "url": "https://github.com/microsoft/BCApps/pull/14196",
+  "published_at": "2026-11-19T05:17:06Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    }
+  },
+  "input_hash": "1a3c66fec1f6a03b964d2b5259ab13dd730e2b37:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14196,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "1a3c66fec1f6a03b964d2b5259ab13dd730e2b37",
+    "author": "MSNehaNawal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "29x bug 653145 the sistemainformatico node in the spanish verifactu xml"
+  }
+}

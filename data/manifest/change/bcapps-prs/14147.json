@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/14147",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix reactivated direct transfer and BEANS issues",
+  "url": "https://github.com/microsoft/BCApps/pull/14147",
+  "published_at": "2026-11-19T14:42:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    }
+  },
+  "input_hash": "4638716cfe27e8d2556f634f2a51dcc490ceacbb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14147,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4638716cfe27e8d2556f634f2a51dcc490ceacbb",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix reactivated direct transfer and beans issues"
+  }
+}

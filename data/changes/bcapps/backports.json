@@ -35,6 +35,15 @@
       "title_key": "add produced item template to contoso coffee manufacturing demo data"
     }
   ],
+  "9347": [
+    {
+      "number": 12588,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-18T18:43:44Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12588",
+      "title_key": "fix issuedate in e documents for germany backport to releases 29 x"
+    }
+  ],
   "9646": [
     {
       "number": 11817,
@@ -944,6 +953,15 @@
       "title_key": "fix self billing test fixture rollback"
     }
   ],
+  "13052": [
+    {
+      "number": 13971,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-17T11:42:47Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13971",
+      "title_key": "shopify upgrade tax matching to gpt 5 6 ceres"
+    }
+  ],
   "13054": [
     {
       "number": 13168,
@@ -1196,6 +1214,15 @@
       "title_key": "add performance regression test for ile sign cache in average cost adjustment"
     }
   ],
+  "13820": [
+    {
+      "number": 13884,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-18T11:07:42Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13884",
+      "title_key": "bug 658523 29 x no saf t changes imported category identifier casing and does not show full identifiers in mapping setup"
+    }
+  ],
   "13883": [
     {
       "number": 13890,
@@ -1203,6 +1230,42 @@
       "merged_at": "2026-11-12T07:59:00Z",
       "url": "https://github.com/microsoft/BCApps/pull/13890",
       "title_key": "shopify initialize return processing for existing shops on upgrade"
+    }
+  ],
+  "13988": [
+    {
+      "number": 14302,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-19T13:18:52Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14302",
+      "title_key": "bug 659806 29 x icm 21000000019859 fr factur x buyer siren legal identifier bt 47 bt 47 1 missing from cii xml"
+    }
+  ],
+  "13999": [
+    {
+      "number": 14285,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-19T01:21:53Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14285",
+      "title_key": "intrastat de poor export performance"
+    }
+  ],
+  "14059": [
+    {
+      "number": 14258,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-19T13:40:40Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14258",
+      "title_key": "use gpt 5 6 ceres for no series copilot"
+    }
+  ],
+  "14218": [
+    {
+      "number": 14221,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-18T14:07:19Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14221",
+      "title_key": "show notification only to super users in env where copilot substitution suggestion was used"
     }
   ],
   "unmatched": [
@@ -2563,6 +2626,146 @@
       "merged_at": "2026-11-13T22:41:16Z",
       "url": "https://github.com/microsoft/BCApps/pull/14036",
       "title_key": "soa backport all remaining app fixes from main"
+    },
+    {
+      "number": 13726,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-15T19:29:56Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13726",
+      "title_key": "wrong financial entries in import duty gst calculation"
+    },
+    {
+      "number": 14062,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-15T19:33:15Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14062",
+      "title_key": "fix tds calculation on multi line purchase invoices bug 659198"
+    },
+    {
+      "number": 14067,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-15T20:51:23Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14067",
+      "title_key": "obsolete create product information with copilot"
+    },
+    {
+      "number": 13860,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-16T15:17:07Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13860",
+      "title_key": "ab 658596 partial downport defer expense vat validation"
+    },
+    {
+      "number": 13967,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-16T15:32:36Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13967",
+      "title_key": "bug subscription billing subscription lines overdue cue counts lines of contracts that already ended"
+    },
+    {
+      "number": 13609,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-16T22:02:18Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13609",
+      "title_key": "customer direct debit payment slip sepa file generation fails and credit memo is processed incorrectly when invoice and credit memo exist for the same customer in the french version"
+    },
+    {
+      "number": 14102,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-17T03:48:05Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14102",
+      "title_key": "avoid empty gst component lookup on customer reapplication bug 65936"
+    },
+    {
+      "number": 14107,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-17T08:31:18Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14107",
+      "title_key": "omit the buyer partytaxscheme when the company has no vat registration"
+    },
+    {
+      "number": 13873,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-17T10:40:08Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13873",
+      "title_key": "slice 580818 expense management vendor role centers updates"
+    },
+    {
+      "number": 14187,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-17T16:40:48Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14187",
+      "title_key": "expense agent travel request fixes deletion after cancel linked reports approver audit user closure history"
+    },
+    {
+      "number": 14034,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-18T08:40:55Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14034",
+      "title_key": "marketing text update model to gpt 5 6"
+    },
+    {
+      "number": 14195,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-18T08:51:35Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14195",
+      "title_key": "job queue don t cancel the executed task when scheduling the next run ab 659606"
+    },
+    {
+      "number": 14205,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-18T16:26:04Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14205",
+      "title_key": "downport corp card basics and manual selection"
+    },
+    {
+      "number": 14114,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-19T05:20:12Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14114",
+      "title_key": "price groups of subscription packages are not considered"
+    },
+    {
+      "number": 12808,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-19T08:48:25Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12808",
+      "title_key": "prevent outlook add in deadlock when creating suggested lines"
+    },
+    {
+      "number": 14289,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-19T09:12:45Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14289",
+      "title_key": "grant report layout override permissions for non super users"
+    },
+    {
+      "number": 14245,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-19T11:56:29Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14245",
+      "title_key": "slice 440258 fixed asset journal approval"
+    },
+    {
+      "number": 14215,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-19T14:26:06Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14215",
+      "title_key": "bug 659671 master data management support certificate secret for cross environment synchronization"
+    },
+    {
+      "number": 14202,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-19T14:39:29Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14202",
+      "title_key": "expense agent remove preview from app names"
+    },
+    {
+      "number": 14099,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-19T15:05:16Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14099",
+      "title_key": "fix customer gst application posting sequence bug 659371 29 x"
     }
   ]
 }

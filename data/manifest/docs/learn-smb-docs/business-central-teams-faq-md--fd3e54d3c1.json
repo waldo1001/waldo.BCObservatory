@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Business Central and Microsoft Teams FAQ",
   "url": "https://learn.microsoft.com/dynamics365/business-central/teams-faq",
-  "published_at": "2026-11-10T08:04:53.000Z",
+  "published_at": "2026-11-19T18:36:41.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,32 +13,32 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-11T00:24:40.881Z",
-      "blob": "1cfd3e315acdc8ca972e1d67d9427dbfec9d0817",
-      "words": 5097,
+      "at": "2026-11-20T00:17:12.290Z",
+      "blob": "0250a6f167ba37618df33043a3ca5976546e0bbd",
+      "words": 5094,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-11-11T00:24:46.818Z",
+      "at": "2026-11-20T00:17:27.633Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.021471
+      "objects": 1,
+      "cost_usd": 0.021208
     },
     "summarized": {
-      "at": "2026-11-11T00:24:46.819Z",
+      "at": "2026-11-20T00:17:27.634Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-11T00:24:46.821Z",
+      "at": "2026-11-20T00:17:27.635Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-11T00:24:46.821Z",
+      "at": "2026-11-20T00:17:27.635Z",
       "page": false
     }
   },
-  "input_hash": "1cfd3e315acdc8ca972e1d67d9427dbfec9d0817",
+  "input_hash": "0250a6f167ba37618df33043a3ca5976546e0bbd",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -62,11 +62,11 @@
       "errors"
     ],
     "ai_usage": "ai-assisted",
-    "words": 5097,
+    "words": 5094,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "885b9071b9eae3b497d144c193012997b06cdf0557f5623023b7a8448ba0f350"
+  "output_hash": "89b1a4d4c564a57b9648a0558e7f1a73677d51d14e8eb3a58a189cd88effd91d"
 }

@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/13113",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 656064: Reenable tests - Expense Agent: Itemization table holds unrounded values, leading to rounding errors. Also missing currency code.",
+  "url": "https://github.com/microsoft/BCApps/pull/13113",
+  "published_at": "2026-11-19T10:46:40Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    }
+  },
+  "input_hash": "145ddb740a498be21eef4028ce53e38ea0b6a61c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13113,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "145ddb740a498be21eef4028ce53e38ea0b6a61c",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Ownership: Manual",
+      "Ownership: Needs Review"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 656064 reenable tests expense agent itemization table holds unrounded values leading to rounding errors also missing currency code"
+  }
+}

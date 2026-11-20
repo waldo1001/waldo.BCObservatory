@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-onedrive-faq.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-onedrive-faq",
   "title": "OneDrive in Business Central FAQ",
-  "blob": "ea7d27eb4eb1185cead3c7b410e2971509789b37",
-  "summary": "OneDrive in Business Central FAQ answers common questions about using OneDrive for Business with Business Central, covering client support, differences from SharePoint, plan availability, deployment scenarios, and troubleshooting guidance.",
+  "blob": "c7cce48e95377575f2537095f04d00ec23136971",
+  "summary": "Common questions and answers about using OneDrive for Business with Business Central, covering integration capabilities, supported deployments, features, and troubleshooting.",
   "systems": [
     "integration",
     "administration"
@@ -11,40 +11,24 @@
   "topics": [
     "onedrive",
     "file sharing",
-    "collaboration",
-    "integration setup",
+    "microsoft 365",
+    "configuration",
     "troubleshooting",
-    "faq"
+    "mobile apps"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "OneDrive Setup"
-    },
-    {
-      "type": "page",
-      "name": "SharePoint Connection Setup"
-    },
-    {
-      "type": "page",
-      "name": "Privacy Notices Status"
-    }
-  ],
+  "objects": [],
   "features": [
+    "OneDrive Setup assisted setup guide",
     "Open in OneDrive action",
     "Share action",
     "Open in Excel action",
     "Edit in Excel action",
-    "Report to file sharing",
-    "OneDrive Setup guided setup",
-    "Use with app features option",
-    "Use with system features option"
+    "Report file export to OneDrive",
+    "Guest user limitations",
+    "Delegated admin file download"
   ],
   "versions": [
     "2021 release wave 2",
-    "version 21",
-    "version 22",
-    "2023 release wave 2",
     "version 23.0"
   ],
   "parts": 1,
@@ -53,7 +37,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005341,
+      "cost_usd": 0.004637,
       "pages_in_call": 1
     }
   ]

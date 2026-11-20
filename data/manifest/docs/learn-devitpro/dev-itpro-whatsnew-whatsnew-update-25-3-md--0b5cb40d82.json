@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Update 25.3 for Microsoft Dynamics 365 Business Central 2024 release wave 2",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-3",
-  "published_at": "2026-11-18T09:31:51.000Z",
+  "published_at": "2026-11-19T18:36:03.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,32 +13,32 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-19T00:26:17.221Z",
-      "blob": "0182bf6c514956f275191becaf75b68a34d2c2be",
-      "words": 1296,
+      "at": "2026-11-20T00:17:28.865Z",
+      "blob": "bdcbd81cc0dff6050ce9fcbaac3a39bba49d0de6",
+      "words": 1302,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-11-19T00:26:24.474Z",
+      "at": "2026-11-20T00:17:34.138Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 6,
-      "cost_usd": 0.006587
+      "objects": 0,
+      "cost_usd": 0.005676
     },
     "summarized": {
-      "at": "2026-11-19T00:26:24.475Z",
+      "at": "2026-11-20T00:17:34.138Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-19T00:26:24.476Z",
+      "at": "2026-11-20T00:17:34.139Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-19T00:26:24.477Z",
+      "at": "2026-11-20T00:17:34.139Z",
       "page": false
     }
   },
-  "input_hash": "0182bf6c514956f275191becaf75b68a34d2c2be",
+  "input_hash": "bdcbd81cc0dff6050ce9fcbaac3a39bba49d0de6",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -50,11 +50,11 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1296,
+    "words": 1302,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cb12e9a5496335e2d30f7d3ce2621b470f8996a525e25993caf03771700a4721"
+  "output_hash": "d7dda292d0e5f93e55e90b5349c45afe22840a16ce1c9748d56c43fca82310ab"
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14135",
+  "number": 14135,
+  "title": "[Job Queue] Don't cancel the executed task when scheduling the next run",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Job Queue no longer cancels a task that is currently executing when scheduling its next recurring run, reducing unnecessary cancellation notifications.",
+  "key_points": [
+    "Executed tasks are no longer cancelled when the next run is scheduled",
+    "New internal FinalizeRun overload preserves the executed task ID",
+    "CancelTask still clears System Task ID but skips platform cancel for executing tasks",
+    "Replacement tasks and other scenarios still cancelled as before",
+    "No public API or event signature changes"
+  ],
+  "change_kind": "performance",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003843,
+    "changes_in_call": 5
+  }
+}

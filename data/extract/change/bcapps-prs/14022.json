@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14022",
+  "number": 14022,
+  "title": "[Expense Agent] Travel request fixes: deletion after cancel, linked reports, approver audit user, closure history",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Four travel request improvements: deletion after report cancellation, linked reports visibility, approver user tracking in audit fields, and activity logging for request closure.",
+  "key_points": [
+    "Travel requests can now be deleted after linked posted reports are canceled",
+    "New actions show all expense and posted expense reports linked to a travel request",
+    "Approve/reject audit fields now record the approver's BC user instead of session user",
+    "New Closed activity event logs when travel requests are closed",
+    "Permission sets updated for new functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003843,
+    "changes_in_call": 5
+  }
+}

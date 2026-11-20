@@ -6,7 +6,7 @@
   "title": "[Job Queue] Don't cancel the executed task when scheduling the next run",
   "url": "https://github.com/microsoft/BCApps/pull/14135",
   "published_at": "2026-11-17T10:12:44Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 3,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-20T00:17:34.593Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": true,
+      "cost_usd": 0.003843
+    },
+    "linked": {
+      "at": "2026-11-20T00:17:34.947Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-20T00:17:34.951Z",
+      "path": "content/changes/bcapps/14135.md"
     }
   },
   "input_hash": "5b04c33da1c85a63ae1e4359dbf33853af7ad30d:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "62f41348a03063f650e28ea24663a1610c8527ccde3aa4fc42b626e9420f9dfb"
+  "output_hash": "9060dd48fba795492d9bd580bdb3a407295d58dd917437edfd0af0dc16055cdf"
 }

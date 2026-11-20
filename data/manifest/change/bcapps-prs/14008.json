@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/14008",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MAIN] Fix customer GST application posting sequence (Bug 659070)",
+  "url": "https://github.com/microsoft/BCApps/pull/14008",
+  "published_at": "2026-11-19T21:00:49Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:17:22.868Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-20T00:17:47.179Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003486
+    },
+    "linked": {
+      "at": "2026-11-20T00:17:47.286Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-20T00:17:47.293Z",
+      "path": "content/changes/bcapps/14008.md"
+    }
+  },
+  "input_hash": "75874770fa2b3bb95fd77d91c6302c6643ca3549:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14008,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "75874770fa2b3bb95fd77d91c6302c6643ca3549",
+    "author": "v-ajaztabrez",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix customer gst application posting sequence bug 659070"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "74e1980f675b0025bcc41184ca040634e9e96ecbddc55dab4a325227b50226a5"
+}

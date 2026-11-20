@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/14307",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SLS][29.x] Backport production app updates for GPT-5.6 Ceres",
+  "url": "https://github.com/microsoft/BCApps/pull/14307",
+  "published_at": "2026-11-19T16:54:02Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    }
+  },
+  "input_hash": "4303e5e584d3aa5d9e98cbc615525a5396ad6ed7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14307,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "4303e5e584d3aa5d9e98cbc615525a5396ad6ed7",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "sls 29 x backport production app updates for gpt 5 6 ceres"
+  }
+}

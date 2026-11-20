@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "OneDrive in Business Central FAQ",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-onedrive-faq",
-  "published_at": "2026-11-10T08:04:53.000Z",
+  "published_at": "2026-11-19T18:36:41.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,32 +13,32 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-11T00:24:11.606Z",
-      "blob": "ea7d27eb4eb1185cead3c7b410e2971509789b37",
-      "words": 1132,
+      "at": "2026-11-20T00:17:12.279Z",
+      "blob": "c7cce48e95377575f2537095f04d00ec23136971",
+      "words": 1129,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-11-11T00:24:16.790Z",
+      "at": "2026-11-20T00:17:27.640Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.005341
+      "objects": 0,
+      "cost_usd": 0.004637
     },
     "summarized": {
-      "at": "2026-11-11T00:24:16.791Z",
+      "at": "2026-11-20T00:17:27.640Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-11T00:24:16.792Z",
+      "at": "2026-11-20T00:17:27.641Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-11T00:24:16.792Z",
+      "at": "2026-11-20T00:17:27.641Z",
       "page": false
     }
   },
-  "input_hash": "ea7d27eb4eb1185cead3c7b410e2971509789b37",
+  "input_hash": "c7cce48e95377575f2537095f04d00ec23136971",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -55,11 +55,11 @@
       "browser"
     ],
     "ai_usage": "ai-assisted",
-    "words": 1132,
+    "words": 1129,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "45dcf7f9b3a6f7fdf19fa16afabfaad7a8c5c111548a65068c08cf47be0e40de"
+  "output_hash": "c3248dde1e04b5caef6c848164b984afd7c00fa959cb697947fe6a1927d2caf8"
 }

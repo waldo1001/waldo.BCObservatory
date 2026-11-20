@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2444",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Implement retry logic for GitHub App token requests to handle transient errors",
+  "url": "https://github.com/microsoft/AL-Go/pull/2444",
+  "published_at": "2026-11-19T11:46:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    }
+  },
+  "input_hash": "403f36ab563291207687c513c8dedd93f683f8ce:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2444,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "403f36ab563291207687c513c8dedd93f683f8ce",
+    "author": "AlexanderMarcher",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "implement retry logic for github app token requests to handle transient errors"
+  }
+}

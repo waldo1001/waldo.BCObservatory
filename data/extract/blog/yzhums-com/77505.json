@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/yzhums-com/77505",
+  "url": "https://yzhums.com/77505/",
+  "title": "Business Central 2027 wave 1 (BC30): Remove ability to expose a Microsoft page as an OData endpoint (Disable OData web services on Microsoft UI pages)",
+  "source": "yzhums-com",
+  "published_at": "2026-11-18T00:39:48.000Z",
+  "words": 725,
+  "summary": "Business Central version 30 (2027 wave 1) removes the ability to expose Microsoft pages as OData endpoints because UI pages should not be treated as APIs and are subject to breaking changes. Customers using OData integrations on Microsoft pages must copy the page source code into their own extensions before upgrading, or consider alternative integration methods like API pages or Data Mirroring to Microsoft Fabric.",
+  "key_points": [
+    "Microsoft pages can no longer be exposed as OData endpoints starting in BC v30, affecting all pages from Microsoft publisher apps including Base Application and System Application",
+    "UI pages are not designed as APIs and may change without warning, making them unreliable for integration endpoints",
+    "Customers must copy Microsoft page source code into their own extensions and republish as OData endpoints to maintain existing integrations",
+    "API pages or Data Mirroring to Microsoft Fabric are recommended alternatives for data integration instead of OData on UI pages"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "odata",
+    "web services",
+    "api",
+    "deprecation",
+    "migration",
+    "breaking changes",
+    "integration"
+  ],
+  "objects": [],
+  "features": [
+    "OData web services",
+    "UI pages",
+    "Microsoft pages exposure",
+    "API pages",
+    "Data Mirroring to Microsoft Fabric"
+  ],
+  "versions": [
+    "30.0",
+    "2027 wave 1"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A UI page isn't an API and therefore changes to them can happen in a release without this being considered a breaking change.",
+      "why_it_matters": "This principle justifies why Microsoft is removing OData exposure on pages - pages are UI components, not stable API contracts"
+    },
+    {
+      "text": "Starting in version 30, it's no longer possible to expose a Microsoft page as an OData endpoint.",
+      "why_it_matters": "This is the core removal that customers must prepare for before upgrading to BC v30"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005902,
+    "posts_in_call": 1
+  }
+}

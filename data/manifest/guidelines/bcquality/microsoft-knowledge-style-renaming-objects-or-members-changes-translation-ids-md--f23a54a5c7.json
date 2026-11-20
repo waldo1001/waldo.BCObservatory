@@ -1,0 +1,82 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/style/renaming-objects-or-members-changes-translation-ids.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Renaming an object or member changes its translation IDs",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/renaming-objects-or-members-changes-translation-ids.md",
+  "published_at": "2026-11-19T15:23:15.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:17:48.170Z",
+      "blob": "fa8397987ab7ddf5e416d515ccc938265f1e85c9",
+      "words": 332,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-20T00:17:48.220Z",
+      "path": "content/guidelines/microsoft/knowledge/style/renaming-objects-or-members-changes-translation-ids.md"
+    }
+  },
+  "input_hash": "fa8397987ab7ddf5e416d515ccc938265f1e85c9",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/style/renaming-objects-or-members-changes-translation-ids.md",
+    "description": "Each <trans-unit> in an XLIFF file has an id that identifies the object or object member that defines the text. In the legacy format the ID is built from hashes of those names, for example Page 1066360047 - Property 2879900210.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "trans-unit",
+      "translation-id",
+      "rename",
+      "xliff",
+      "as0125",
+      "namespace",
+      "translationswithnamespaces"
+    ],
+    "ai_usage": null,
+    "words": 332,
+    "identifiers": [
+      "TranslationsWithNamespaces"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "trans-unit",
+        "translation-id",
+        "rename",
+        "xliff",
+        "as0125",
+        "namespace",
+        "translationswithnamespaces"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Each <trans-unit> in an XLIFF file has an id that identifies the object or object member that defines the text. In the legacy format the ID is built from hashes of those names, for example Page 1066360047 - Property 2879900210."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fa8397987ab7ddf5e416d515ccc938265f1e85c9"
+}

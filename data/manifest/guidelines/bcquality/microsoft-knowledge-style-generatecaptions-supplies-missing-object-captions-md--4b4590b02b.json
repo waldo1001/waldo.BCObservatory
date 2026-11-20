@@ -1,0 +1,84 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/style/generatecaptions-supplies-missing-object-captions.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "`GenerateCaptions` supplies captions for objects that declare none",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/generatecaptions-supplies-missing-object-captions.md",
+  "published_at": "2026-11-19T15:23:15.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:17:27.664Z",
+      "blob": "1482c19a6a1836e37e3dc5a7a42034171dfb75fa",
+      "words": 270,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-20T00:17:27.708Z",
+      "path": "content/guidelines/microsoft/knowledge/style/generatecaptions-supplies-missing-object-captions.md"
+    }
+  },
+  "input_hash": "1482c19a6a1836e37e3dc5a7a42034171dfb75fa",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/style/generatecaptions-supplies-missing-object-captions.md",
+    "description": "The GenerateCaptions compiler feature in app.json generates a caption from the object name for pages, tables, reports, XMLports, and request pages that have no Caption or CaptionML of their own, and writes those captions to the XLIFF file so they can be translated.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "generatecaptions",
+      "caption",
+      "translation-file",
+      "xliff",
+      "app-json",
+      "object-caption",
+      "false-positive"
+    ],
+    "ai_usage": null,
+    "words": 270,
+    "identifiers": [
+      "GenerateCaptions",
+      "CaptionML",
+      "TranslationFile"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "generatecaptions",
+        "caption",
+        "translation-file",
+        "xliff",
+        "app-json",
+        "object-caption",
+        "false-positive"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The GenerateCaptions compiler feature in app.json generates a caption from the object name for pages, tables, reports, XMLports, and request pages that have no Caption or CaptionML of their own, and writes those captions to the XLIFF file so they can be translated."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1482c19a6a1836e37e3dc5a7a42034171dfb75fa"
+}

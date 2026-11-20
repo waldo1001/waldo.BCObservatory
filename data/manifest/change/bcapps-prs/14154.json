@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/14154",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Keep email attachments next to the current message",
+  "url": "https://github.com/microsoft/BCApps/pull/14154",
+  "published_at": "2026-11-19T15:35:52Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    }
+  },
+  "input_hash": "4544a12640dcc2303c9eeeb6e7029320e7383a64:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14154,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4544a12640dcc2303c9eeeb6e7029320e7383a64",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa keep email attachments next to the current message"
+  }
+}

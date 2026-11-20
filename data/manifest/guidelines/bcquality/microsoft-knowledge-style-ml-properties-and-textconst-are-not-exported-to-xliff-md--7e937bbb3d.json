@@ -1,0 +1,94 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/style/ml-properties-and-textconst-are-not-exported-to-xliff.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "`ML` properties and `TextConst` are not exported to the XLIFF file",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/ml-properties-and-textconst-are-not-exported-to-xliff.md",
+  "published_at": "2026-11-19T15:23:15.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:17:31.754Z",
+      "blob": "8d11dd64b42496909ce6989d9193f0d4de83fe50",
+      "words": 253,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-20T00:17:31.832Z",
+      "path": "content/guidelines/microsoft/knowledge/style/ml-properties-and-textconst-are-not-exported-to-xliff.md"
+    }
+  },
+  "input_hash": "8d11dd64b42496909ce6989d9193f0d4de83fe50",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/style/ml-properties-and-textconst-are-not-exported-to-xliff.md",
+    "description": "The generated XLIFF file contains the strings of Caption, ToolTip, and the other label properties, of Label variables, and of report labels.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "captionml",
+      "tooltipml",
+      "optioncaptionml",
+      "textconst",
+      "xliff",
+      "translation",
+      "label",
+      "multilanguage"
+    ],
+    "ai_usage": null,
+    "words": 253,
+    "identifiers": [
+      "TextConst",
+      "ToolTip",
+      "CaptionML",
+      "ToolTipML",
+      "OptionCaptionML",
+      "InstructionalTextML",
+      "PromotedActionCategoriesML",
+      "RequestFilterHeadingML",
+      "AboutTitleML",
+      "AboutTextML",
+      "OptionCaption"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "captionml",
+        "tooltipml",
+        "optioncaptionml",
+        "textconst",
+        "xliff",
+        "translation",
+        "label",
+        "multilanguage"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "The generated XLIFF file contains the strings of Caption, ToolTip, and the other label properties, of Label variables, and of report labels."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8d11dd64b42496909ce6989d9193f0d4de83fe50"
+}

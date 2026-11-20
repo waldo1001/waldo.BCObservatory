@@ -2,34 +2,31 @@
   "item_id": "docs/learn-devitpro/dev-itpro/service-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/service-overview",
   "title": "Service overview for Business Central online",
-  "blob": "f6c90cd15522aeb79b8309acfaaba3f4461eb99f",
-  "summary": "Service overview for Business Central online covers the multitenant cloud architecture, global availability, security and compliance, business continuity with automatic backups and geo-redundancy, and service update schedules.",
+  "blob": "43083ef99eb34a3f254023c5ed5dc4d8cb9d3b28",
+  "summary": "Service overview for Business Central online explains the multitenant cloud architecture, global availability, security and compliance foundations, business continuity with automated backups and geo-redundancy, and release wave update schedule (April and October major updates, monthly minor updates).",
   "systems": [
     "platform",
     "administration",
-    "reporting"
+    "copilot"
   ],
   "topics": [
-    "service overview",
-    "cloud infrastructure",
-    "business continuity",
+    "cloud service",
+    "multitenant",
+    "azure",
+    "high availability",
     "disaster recovery",
     "backups",
     "compliance",
-    "security",
-    "service updates"
+    "release waves"
   ],
   "objects": [],
   "features": [
-    "multitenant service architecture",
-    "Azure cloud ecosystem",
-    "99.99% availability",
-    "28-day automatic backups",
+    "business continuity and disaster recovery",
+    "automated backups",
     "geo-redundant backups",
-    "Azure availability zones",
+    "availability zones",
     "maintenance windows",
-    "monthly minor updates",
-    "twice-yearly major updates"
+    "service level agreements"
   ],
   "versions": [],
   "parts": 1,
@@ -38,7 +35,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008675,
+      "cost_usd": 0.004538,
       "pages_in_call": 1
     }
   ]

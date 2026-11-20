@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14314",
+  "number": 14314,
+  "title": "Update expense category and subcategory descriptions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense category and subcategory descriptions are clarified to explain what purchases they cover, such as MEALS now covering food and beverages regardless of merchant type.",
+  "key_points": [
+    "MEALS now covers food and beverages for any merchant type",
+    "PERSONAL describes general retail merchandise",
+    "PHARMACY covers health-related products for any merchant type",
+    "MISC remains the fallback for unclassified purchases",
+    "Descriptions updated consistently across setup and demo data"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Align the 12 category/subcategory descriptions for MEALS, PERSONAL, PHARMACY, and MISC with the updated expense classification descriptions supplied for this change.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003843,
+    "changes_in_call": 5
+  }
+}

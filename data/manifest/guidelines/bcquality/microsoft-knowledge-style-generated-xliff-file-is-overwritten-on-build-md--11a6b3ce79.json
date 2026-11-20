@@ -1,0 +1,80 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/style/generated-xliff-file-is-overwritten-on-build.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "The generated XLIFF file is rewritten on every build",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/generated-xliff-file-is-overwritten-on-build.md",
+  "published_at": "2026-11-19T15:23:15.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:17:28.808Z",
+      "blob": "541f12c50d7a5a3715aba1f1bcaa429d63a6e726",
+      "words": 271,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-20T00:17:28.838Z",
+      "path": "content/guidelines/microsoft/knowledge/style/generated-xliff-file-is-overwritten-on-build.md"
+    }
+  },
+  "input_hash": "541f12c50d7a5a3715aba1f1bcaa429d63a6e726",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/style/generated-xliff-file-is-overwritten-on-build.md",
+    "description": "With \"features\": [ \"TranslationFile\" ] in app.json, each build writes a .xlf file into the Translations folder that contains every label, label property, and report label of the extension as <source> elements. That generated file is build output: the next build overwrites it.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "xliff",
+      "xlf",
+      "translation-file",
+      "generated",
+      "translations-folder",
+      "target-language",
+      "app-json"
+    ],
+    "ai_usage": null,
+    "words": 271,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "style",
+      "keywords": [
+        "xliff",
+        "xlf",
+        "translation-file",
+        "generated",
+        "translations-folder",
+        "target-language",
+        "app-json"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "With \"features\": [ \"TranslationFile\" ] in app.json, each build writes a .xlf file into the Translations folder that contains every label, label property, and report label of the extension as <source> elements. That generated file is build output: the next build overwrites it."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "541f12c50d7a5a3715aba1f1bcaa429d63a6e726"
+}
