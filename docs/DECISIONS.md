@@ -1474,3 +1474,28 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   Tables 18 and 36 go from 17,000 and 18,000 to 20,000 characters (Table 36 had grown to 18,003; the budget is
   30,000). All 46 golden queries hold again on the site scorer and on the MCP server, none pending. Not changed:
   `pr-validate` still runs on pull requests only, so content drift stays invisible until the next PR.
+- **D130 The MCP server cleans up its shard cache (2026-11-20, MCP 0.15.1).** A colleague reported a disk filled
+  "by an MCP". The server kept every index shard it ever downloaded in `<cache>/bc-observatory/<site hash>/`: 513 MB
+  in 166 files on the owner's Mac since 2026-10-06, none still named by the manifests, and about 21 MB of new shards
+  per nightly (measured from the nightly commits of 2026-10-21 to 2026-11-20), so a daily user gained about 650 MB a
+  month. Now, after a complete index load, the server marks every cache file its manifests name (mtime = now,
+  including the Learn facts read only on the first brief) and deletes the cache's other files that no manifest has
+  named for two days. Every client session runs its own server on the same folder, shard names are content-hashed
+  and a retired shard is a 404 on the site, and a session keeps its manifest for at most a day: two days since the
+  last load that named a file leaves a day of margin. File age alone was rejected: a shard unchanged for a week and
+  dropped today would go at once while a session with yesterday's manifest may still read it; deleting at once
+  (30 MB steady) was rejected for the same reason. A load that throws deletes nothing; one that lost its Learn shard
+  or could not reach the symbols manifest (a 404 there counts as complete) marks and deletes nothing. Only regular
+  files directly in the site's folder that the cache owns (`<key>.json` and its temp files) are touched, never
+  `install-id`, `models/`, another site's folder, a folder or a link; every error is swallowed per file (EBUSY and
+  EPERM on Windows). Shards are written to a temp file and renamed into place, so a killed or concurrent download
+  no longer leaves half a file under a hash name, and a manifest key that is not a plain file name gets no cache
+  file. Measured with the built server on a reconstructed stale cache: 142 files, 478 MB, to 18 files, 59 MB after
+  the first search, nothing downloaded again by the next session; two servers at once left every file whole. Run on
+  Windows 11 ARM64 with Defender on: 13 unit tests and 12 live checks pass, including a stale file locked without
+  sharing (skipped, deleted by the next session). Known limit: a server from before 0.15.1 does not mark files, so
+  while one still runs a new one can delete a Learn facts file it has not read yet, and its briefs lose key facts
+  until its daily reload. npx copies are not part of this: `bc-observatory@latest` uses one `_npx` folder, updated
+  in place (npm hashes the spec as typed). Also fixed: `tests/unit/mcp-telemetry.test.ts` set
+  `BC_OBSERVATORY_LOCAL` after its first import of the server, so `npm test` loaded the live index into the
+  developer's real cache folder.

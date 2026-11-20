@@ -43,7 +43,7 @@ import { brief } from "./brief.js";
 import { createTelemetry, type Client, type Outcome, type ToolCall } from "./telemetry.js";
 import { cachePath, sweepCache, writeCached } from "./cache.js";
 
-const VERSION = "0.15.0";
+const VERSION = "0.15.1";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
 /** D110: the Application Insights connection string, set by esbuild define in publish-mcp; tsx runs have none. */
