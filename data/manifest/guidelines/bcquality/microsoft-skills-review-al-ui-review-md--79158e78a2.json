@@ -7,19 +7,19 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-ui-review.md",
   "published_at": "2026-11-19T15:23:15.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-11-07T00:19:57.587Z",
-      "blob": "718db08c817f0a403abc41c7d41675d286848d8b",
-      "words": 1833,
+      "at": "2026-11-20T00:18:36.712Z",
+      "blob": "a346bd0dfe7d152f40ef19b1d901316066018b3b",
+      "words": 2005,
       "forms": 0
     },
     "published": {
-      "at": "2026-11-07T00:19:57.814Z",
+      "at": "2026-11-20T00:18:41.834Z",
       "path": "content/guidelines/microsoft/skills/review/al-ui-review.md"
     }
   },
@@ -29,14 +29,18 @@
   "meta": {
     "repo": "microsoft/BCQuality",
     "path": "microsoft/skills/review/al-ui-review.md",
-    "description": "Reviews AL page and control add-in UI files, and AL code that sends or recalls notifications, against UI text, caption, tooltip, notification, and accessibility guidance from BCQuality.",
+    "description": "Reviews AL page and control add-in UI files, AL code that sends or recalls notifications, and AL code that registers guided experience setup items, against UI text, caption, tooltip, notification, and accessibility guidance from BCQuality.",
     "ms_date": null,
     "ms_topic": null,
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1833,
+    "words": 2005,
     "identifiers": [
+      "OnRegisterAssistedSetup",
+      "OnRegisterManualSetup",
+      "InsertAssistedSetup",
+      "InsertManualSetup",
       "CardPageID",
       "SubPageLink",
       "AutoSplitKey",
@@ -72,11 +76,7 @@
       "skipIfBusy",
       "successCallback",
       "errorCallback",
-      "setInterval",
-      "ClientServicesMaxUploadSize",
-      "AccessByPermission",
-      "ReadPermission",
-      "WritePermission"
+      "setInterval"
     ],
     "identifiers_rule": 2,
     "bcq": {
@@ -96,11 +96,11 @@
         "all"
       ],
       "kind": "skill",
-      "summary": "Reviews AL page and control add-in UI files, and AL code that sends or recalls notifications, against UI text, caption, tooltip, notification, and accessibility guidance from BCQuality."
+      "summary": "Reviews AL page and control add-in UI files, AL code that sends or recalls notifications, and AL code that registers guided experience setup items, against UI text, caption, tooltip, notification, and accessibility guidance from BCQuality."
     },
     "bcq_rule": 1
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "718db08c817f0a403abc41c7d41675d286848d8b"
+  "output_hash": "a346bd0dfe7d152f40ef19b1d901316066018b3b"
 }

@@ -3,14 +3,24 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "dependency version is a minimum",
+  "title": "The `version` of a dependency in `app.json` is a minimum",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/dependency-version-is-a-minimum.md",
   "published_at": "2026-11-19T15:23:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:18:06.965Z",
+      "blob": "ee45808ea9abda23cd90aef4b176d75dedaa2d65",
+      "words": 324,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-20T00:18:12.493Z",
+      "path": "content/guidelines/microsoft/knowledge/upgrade/dependency-version-is-a-minimum.md"
     }
   },
   "input_hash": "ee45808ea9abda23cd90aef4b176d75dedaa2d65",
@@ -18,6 +28,53 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/upgrade/dependency-version-is-a-minimum.md"
-  }
+    "path": "microsoft/knowledge/upgrade/dependency-version-is-a-minimum.md",
+    "description": "Each entry in the dependencies list of app.json names another extension by id, name, publisher, and version. The version does not pin the dependency.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "app-json",
+      "dependencies",
+      "minimum-version",
+      "dependency-version",
+      "symbols",
+      "manifest",
+      "compatibility"
+    ],
+    "ai_usage": null,
+    "words": 324,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "upgrade",
+      "keywords": [
+        "app-json",
+        "dependencies",
+        "minimum-version",
+        "dependency-version",
+        "symbols",
+        "manifest",
+        "compatibility"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Each entry in the dependencies list of app.json names another extension by id, name, publisher, and version. The version does not pin the dependency."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ee45808ea9abda23cd90aef4b176d75dedaa2d65"
 }

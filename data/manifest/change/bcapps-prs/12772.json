@@ -6,7 +6,7 @@
   "title": "Bug 654042: [DocumentReporting] Exporting Word layout themes uses the wrong file extension",
   "url": "https://github.com/microsoft/BCApps/pull/12772",
   "published_at": "2026-11-17T14:56:55Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-20T00:17:47.180Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003486
+    },
+    "linked": {
+      "at": "2026-11-20T00:17:47.507Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-20T00:17:47.511Z",
+      "path": "content/changes/bcapps/12772.md"
     }
   },
   "input_hash": "30062f0817ae6075712fe98e4cdfa006f39e086c:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b1450bb32e1f1298b2c0af065fe43f8ed21354c332f13ba73acd6734495170ac"
+  "output_hash": "4d63844a2f193ab34330c7113d1d9fd0d770a46ab7df9afe61152bc2b112bddc"
 }

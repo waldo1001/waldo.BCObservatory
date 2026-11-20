@@ -3,14 +3,24 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "xmlport import export return value controls failure handling",
+  "title": "The return value of `Xmlport.Import` and `Xmlport.Export` decides who handles a failure",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/xmlport/xmlport-import-export-return-value-controls-failure-handling.md",
   "published_at": "2026-11-19T15:23:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:18:17.590Z",
+      "blob": "d387f73873399b7aa29acc273f3a7cf8760d9546",
+      "words": 269,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-20T00:18:23.155Z",
+      "path": "content/guidelines/microsoft/knowledge/xmlport/xmlport-import-export-return-value-controls-failure-handling.md"
     }
   },
   "input_hash": "d387f73873399b7aa29acc273f3a7cf8760d9546",
@@ -18,6 +28,53 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/xmlport/xmlport-import-export-return-value-controls-failure-handling.md"
-  }
+    "path": "microsoft/knowledge/xmlport/xmlport-import-export-return-value-controls-failure-handling.md",
+    "description": "Xmlport.Import and Xmlport.Export have an optional Boolean return value: true when the operation succeeded, otherwise false. The option changes the failure behavior. When the return value is omitted and the operation does not succeed, a run-time error occurs.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "xmlport",
+      "xmlport-import",
+      "xmlport-export",
+      "return-value",
+      "runtime-error",
+      "error-handling",
+      "instream"
+    ],
+    "ai_usage": null,
+    "words": 269,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "xmlport",
+      "keywords": [
+        "xmlport",
+        "xmlport-import",
+        "xmlport-export",
+        "return-value",
+        "runtime-error",
+        "error-handling",
+        "instream"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Xmlport.Import and Xmlport.Export have an optional Boolean return value: true when the operation succeeded, otherwise false. The option changes the failure behavior. When the return value is omitted and the operation does not succeed, a run-time error occurs."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d387f73873399b7aa29acc273f3a7cf8760d9546"
 }

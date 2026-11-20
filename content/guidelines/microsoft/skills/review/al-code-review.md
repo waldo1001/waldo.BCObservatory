@@ -14,16 +14,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T21:27:35.819Z"
+  at: "2026-11-20T00:18:33.943Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 30bf659c5fcf95d7e9dd10655d4f0de51b7d0707
+  input_hash: b5947ce4b827f8d60cd3755ef54148e0ef332b2f
 evidence:
   - kind: guideline
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-code-review.md
     title: "microsoft/BCQuality: AL code review"
-    date: "2026-10-02"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    date: "2026-11-19"
+    commit: dd49341915045164248349bd891b106ebb4b34cb
     t: null
     quote: null
 links:
@@ -434,4 +434,4 @@ invoked leaf:
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

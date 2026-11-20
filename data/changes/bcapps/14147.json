@@ -1,0 +1,97 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14147,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14147",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-19T14:42:01Z",
+  "merge_commit_sha": "4638716cfe27e8d2556f634f2a51dcc490ceacbb",
+  "author": "alexei-dobriansky",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Fix reactivated direct transfer and BEANS issues",
+  "body_hash": "cdcfcbbda68dad055e3b0b141739f9f875ca317c19d7c03e00efd187f135c02c",
+  "fixes_issues": [],
+  "work_items": [
+    647714,
+    649163
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Quality Management/Demo Data/DemoData/2.Master Data/CreateQMResultConditConf.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Transfer/ReleaseTransferDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Transfer/ReleaseTransferDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMDirectTransferWarehouse.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 63,
+    "deletions": 8,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Transfer/ReleaseTransferDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5708",
+        "type": "codeunit",
+        "id": 5708,
+        "name": "Release Transfer Document",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/5708"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Transfer/ReleaseTransferDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5708",
+        "type": "codeunit",
+        "id": 5708,
+        "name": "Release Transfer Document",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5708"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

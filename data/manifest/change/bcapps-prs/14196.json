@@ -6,7 +6,7 @@
   "title": "[29x] Bug 653145 The <SistemaInformatico> node in the Spanish Verifactu XML",
   "url": "https://github.com/microsoft/BCApps/pull/14196",
   "published_at": "2026-11-19T05:17:06Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "29x bug 653145 the sistemainformatico node in the spanish verifactu xml"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-20T00:19:17.896Z",
+  "retry_after": null
 }

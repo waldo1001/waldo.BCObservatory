@@ -6,7 +6,7 @@
   "title": "Remove duplicate FR customer and vendor ledger entry tables",
   "url": "https://github.com/microsoft/BCApps/pull/12701",
   "published_at": "2026-11-17T11:57:03Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-18T00:16:36.082Z"
@@ -18,6 +18,23 @@
       "al": 2,
       "objects": 0,
       "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-11-20T00:17:47.182Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.003486
+    },
+    "linked": {
+      "at": "2026-11-20T00:17:47.762Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-20T00:17:47.768Z",
+      "path": "content/changes/bcapps/12701.md"
     }
   },
   "input_hash": "6aba0ade70d60bc0838e8b0824eaf05895b2c3af:c1",
@@ -41,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d4a62c157c9c123b9eba333233cca9ea86ba6ef4063ac6178ab9d4a11f8e7fb6"
+  "output_hash": "53514415e4603c109c8c4e2c2d0d9a2cb3e5ccb3f24dce0f8e3e7349da495635"
 }

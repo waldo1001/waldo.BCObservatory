@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14154",
+  "number": 14154,
+  "title": "[SOA] Keep email attachments next to the current message",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Attachments part on the SOA Email Message page moved directly below the Message, before Previous Messages, to visually group current message content with its attachments.",
+  "key_points": [
+    "Reordered page controls to place Attachments immediately after Message instead of after Previous Messages",
+    "Improves usability by keeping current message and attachments together visually",
+    "No changes to captions, visibility, attachment behavior, or sending logic",
+    "Low-risk layout-only change with no schema or permission impacts",
+    "Affects both incoming and outgoing messages in Sales Order Agent"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": "Move the existing Attachments part immediately below Message and before Previous Messages on page 4404",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003778,
+    "changes_in_call": 1
+  }
+}

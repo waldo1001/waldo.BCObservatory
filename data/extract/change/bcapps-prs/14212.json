@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14212",
+  "number": 14212,
+  "title": "Power BI autodeployment UX fixes: clearing records should affect only the selected + reorganizing actions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration",
+    "reporting"
+  ],
+  "summary": "Power BI auto-deployment functionality now clears only selected deployment records instead of all records, and actions on the deployment page have been reorganized.",
+  "key_points": [
+    "Clear deployment records action now affects only the selected record, not all records",
+    "Actions on the Power BI Report Deployments page have been reorganized per product management request",
+    "Changes apply to Power BI deployment UI and event handling logic",
+    "Integration tests added to cover the new clearing behavior"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting"
+  ],
+  "quote": "When clearing deployment records to clear the state in Business Central, only the selected one is affected, instead of all of them",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003615,
+    "changes_in_call": 1
+  }
+}

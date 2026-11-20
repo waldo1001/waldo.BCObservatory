@@ -7,19 +7,19 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-security-review.md",
   "published_at": "2026-11-19T15:23:15.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-29T21:27:16.076Z",
-      "blob": "98d8bee922c5dd76839dbeb75cafa731a6461854",
-      "words": 1516,
+      "at": "2026-11-20T00:18:36.717Z",
+      "blob": "7e69cd682e5b6435f2be8dea08513ec4a01d980e",
+      "words": 1633,
       "forms": 0
     },
     "published": {
-      "at": "2026-10-29T21:27:17.569Z",
+      "at": "2026-11-20T00:18:41.650Z",
       "path": "content/guidelines/microsoft/skills/review/al-security-review.md"
     }
   },
@@ -35,7 +35,7 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1516,
+    "words": 1633,
     "identifiers": [
       "OAuth2",
       "HttpClient",
@@ -58,6 +58,7 @@
       "FilterGroup",
       "OnOpenPage",
       "SetRange",
+      "MaskType",
       "OnRun",
       "ToolTip",
       "OptionCaption",
@@ -86,5 +87,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "98d8bee922c5dd76839dbeb75cafa731a6461854"
+  "output_hash": "7e69cd682e5b6435f2be8dea08513ec4a01d980e"
 }

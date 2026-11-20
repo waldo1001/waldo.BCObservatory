@@ -6,7 +6,7 @@
   "title": "[FR] Add buyer SIREN legal identifier to Factur-X CII export",
   "url": "https://github.com/microsoft/BCApps/pull/13988",
   "published_at": "2026-11-19T14:31:53Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "fr add buyer siren legal identifier to factur x cii export"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-20T00:18:15.826Z",
+  "retry_after": null
 }

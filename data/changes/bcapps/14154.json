@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14154,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14154",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-19T15:35:52Z",
+  "merge_commit_sha": "4544a12640dcc2303c9eeeb6e7029320e7383a64",
+  "author": "qasimikram",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[SOA] Keep email attachments next to the current message",
+  "body_hash": "4684485a6b2e6cd23c7d2fc11721d829e80a61480de6bf1e65612ab82a7413a3",
+  "fixes_issues": [],
+  "work_items": [
+    658717
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAEmailMessage.Page.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 7,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 7,
+    "deletions": 7,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Integration/SOAEmailMessage.Page.al",
+        "status": "modified",
+        "key": "page/4404",
+        "type": "page",
+        "id": 4404,
+        "name": "SOA Email Message",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "page/4404"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

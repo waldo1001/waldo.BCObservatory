@@ -3,14 +3,24 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "api query is read only and has no webhooks",
+  "title": "An API query is read-only and does not support webhooks",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/api-query-is-read-only-and-has-no-webhooks.md",
   "published_at": "2026-11-19T15:23:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:18:15.822Z",
+      "blob": "c187abcdfa48ecd31ae9555cf84be0eaf266be77",
+      "words": 342,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-20T00:18:21.325Z",
+      "path": "content/guidelines/microsoft/knowledge/web-services/api-query-is-read-only-and-has-no-webhooks.md"
     }
   },
   "input_hash": "c187abcdfa48ecd31ae9555cf84be0eaf266be77",
@@ -18,6 +28,55 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/web-services/api-query-is-read-only-and-has-no-webhooks.md"
-  }
+    "path": "microsoft/knowledge/web-services/api-query-is-read-only-and-has-no-webhooks.md",
+    "description": "A custom API can be exposed by a page with PageType = API or by a query with QueryType = API, and the two are not interchangeable. An API query generates a read-only endpoint: its data can only be viewed.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "api-query",
+      "querytype-api",
+      "api-page",
+      "read-only",
+      "webhook",
+      "aggregate",
+      "join",
+      "custom-api"
+    ],
+    "ai_usage": null,
+    "words": 342,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "web-services",
+      "keywords": [
+        "api-query",
+        "querytype-api",
+        "api-page",
+        "read-only",
+        "webhook",
+        "aggregate",
+        "join",
+        "custom-api"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A custom API can be exposed by a page with PageType = API or by a query with QueryType = API, and the two are not interchangeable. An API query generates a read-only endpoint: its data can only be viewed."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c187abcdfa48ecd31ae9555cf84be0eaf266be77"
 }

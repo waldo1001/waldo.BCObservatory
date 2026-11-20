@@ -2,30 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/azure-openai-data.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/azure-openai-data",
   "title": "Azure OpenAI Service and Business Central data",
-  "blob": "181e55564d7e8d22ed1c1f8a95f02a924bb00be7",
-  "summary": "Azure OpenAI Service processes Copilot prompts and outputs in Business Central with enterprise security controls. Prompts and business data are sent to Azure OpenAI endpoints per-request, isolated between users, with data stored up to 24 hours for abuse monitoring but never used for model training.",
+  "blob": "c5de5528ca21b1e78adee299a7f9abadb76308c9",
+  "summary": "Azure OpenAI Service processes Copilot requests and business data with enterprise-grade security controls. Data is never used to train models and remains in its original geographic region.",
   "systems": [
     "copilot",
     "platform",
     "integration"
   ],
   "topics": [
-    "azure openai",
     "copilot",
+    "azure openai",
     "data security",
     "privacy",
+    "compliance",
     "ai",
-    "data flow",
-    "compliance"
+    "data movement"
   ],
   "objects": [],
   "features": [
-    "Azure OpenAI Service integration",
-    "Prompt processing",
-    "Data isolation",
+    "Copilot chat",
+    "Analysis assist",
+    "Bank account reconciliation assist",
+    "Data access controls",
     "Abuse monitoring",
-    "Enterprise security",
-    "Compliance controls"
+    "Geographic data residency"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00772,
-      "pages_in_call": 4
+      "cost_usd": 0.003662,
+      "pages_in_call": 1
     }
   ]
 }

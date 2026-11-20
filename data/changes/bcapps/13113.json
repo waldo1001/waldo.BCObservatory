@@ -1,0 +1,42 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13113,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13113",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-19T10:46:40Z",
+  "merge_commit_sha": "145ddb740a498be21eef4028ce53e38ea0b6a61c",
+  "author": "BardurKnudsen",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Ownership: Manual",
+    "Ownership: Needs Review"
+  ],
+  "community_contribution": false,
+  "title": "Bug 656064: Reenable tests - Expense Agent: Itemization table holds unrounded values, leading to rounding errors. Also missing currency code.",
+  "body_hash": "ae6516283b5d29ec51ba1e073add81bd383c28349a1d91242fc7b4d406801b10",
+  "fixes_issues": [],
+  "work_items": [
+    656064
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 4,
+    "deletions": 1,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

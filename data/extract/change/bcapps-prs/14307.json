@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14307",
+  "number": 14307,
+  "title": "[SLS][29.x] Backport production app updates for GPT-5.6 Ceres",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Sales Lines Suggestions app updated with GPT-5.6 Ceres model, improved prompts for product extraction and search, new embedding thresholds, and fallback handling for missing quantities.",
+  "key_points": [
+    "Six production prompts packaged with improved product extraction and search logic",
+    "GPT-5.6 Ceres model selected for AI calls",
+    "Embedding confidence thresholds adjusted (High 0.55, Medium 0.45, Low 0.25)",
+    "Whole-message fallback and default quantity handling for robustness",
+    "Internal completion-observation hooks added for visibility"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": "Select GPT-5.6 Ceres for both production AI call paths.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00447,
+    "changes_in_call": 1
+  }
+}

@@ -2,21 +2,26 @@
   "item_id": "docs/learn-smb-docs/business-central/about-localization.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/about-localization",
   "title": "Local functionality and localization strategy",
-  "blob": "896f2368587e89a8d6614c67ab83b34c011c02c3",
-  "summary": "Local functionality and localization strategy describes country-specific features and regulatory compliance for Business Central across 20+ supported countries and regions worldwide.",
+  "blob": "daf1915d47ba272559c8113b84e7dec300907686",
+  "summary": "Local functionality and localization strategy for Business Central describes country-specific features and requirements across supported markets in Europe, North America, and Asia Pacific regions.",
   "systems": [
-    "localization"
+    "localization",
+    "administration",
+    "platform"
   ],
   "topics": [
     "local functionality",
     "localization",
-    "compliance",
-    "regional features"
+    "country-specific features",
+    "market availability",
+    "regional compliance"
   ],
   "objects": [],
   "features": [
-    "country-specific features",
-    "regulatory compliance"
+    "country-specific local functionality",
+    "regional availability",
+    "supported markets",
+    "language support"
   ],
   "versions": [],
   "parts": 1,
@@ -25,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006845,
-      "pages_in_call": 7
+      "cost_usd": 0.003521,
+      "pages_in_call": 1
     }
   ]
 }

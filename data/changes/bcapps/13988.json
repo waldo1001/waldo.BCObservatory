@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13988,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13988",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-19T14:31:53Z",
+  "merge_commit_sha": "abe48d4b2ad8e5e2707212f04c959b80399eeb66",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[FR] Add buyer SIREN legal identifier to Factur-X CII export",
+  "body_hash": "67298fda511e868bf3714dfc20de8981d9d77707d3023743c7ea05b326204d58",
+  "fixes_issues": [
+    13057
+  ],
+  "work_items": [
+    658935
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 6,
+    "additions": 448,
+    "deletions": 156,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

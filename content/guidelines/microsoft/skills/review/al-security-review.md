@@ -14,16 +14,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T21:27:16.643Z"
+  at: "2026-11-20T00:18:41.534Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 98d8bee922c5dd76839dbeb75cafa731a6461854
+  input_hash: 7e69cd682e5b6435f2be8dea08513ec4a01d980e
 evidence:
   - kind: guideline
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-security-review.md
     title: "microsoft/BCQuality: AL security review"
-    date: "2026-10-20"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    date: "2026-11-19"
+    commit: dd49341915045164248349bd891b106ebb4b34cb
     t: null
     quote: null
 links:
@@ -91,6 +91,7 @@ identifiers:
   - FilterGroup
   - OnOpenPage
   - SetRange
+  - MaskType
   - OnRun
   - ToolTip
   - OptionCaption
@@ -128,13 +129,15 @@ Narrow the relevant files to the subset that applies to the changes under review
 
 - The changed AL object names and types — especially permission sets, codeunits handling authentication or authorization, objects touching `Isolated Storage`, `OAuth2` flows, web service endpoints, API pages, event publishers, and RecordRef helpers.
 - The changed procedures and triggers, weighted toward those that call `HttpClient`, validate or compose URLs, write to telemetry, read or write secrets, unwrap SecretText, manipulate record-level security, expose var Boolean guard parameters, or bypass the permission model (for example, `RecordRef.Open`, `Record.WritePermission`, direct table access from a non-owning app).
-- Tokens extracted from the diff that relate to security concerns (`IsolatedStorage`, `SetEncrypted`, `OAuth2`, `SecretText`, `Unwrap`, `NonDebuggable`, `Password`, `Token`, `HttpClient`, `Uri`, `AreURIsHaveSameHost`, `IsValidURIPattern`, `RecordRef`, `RecordId`, `TransferFields`, `Codeunit.Run`, `Access = Internal`, `internalsVisibleTo`, `Open`, `IntegrationEvent`, `SkipValidation`, `HasAccess`, `Permission`, `UserSecurityId`, `Commit`, `SetFilter`, `ServiceEnabled`, `PageType = API`, `QueryType = API`, `permissionset`, `Web Services`, `FilterGroup`, `OnOpenPage`, `SetRange`).
+- Tokens extracted from the diff that relate to security concerns (`IsolatedStorage`, `SetEncrypted`, `OAuth2`, `SecretText`, `Unwrap`, `NonDebuggable`, `Password`, `Token`, `HttpClient`, `Uri`, `AreURIsHaveSameHost`, `IsValidURIPattern`, `RecordRef`, `RecordId`, `TransferFields`, `Codeunit.Run`, `Access = Internal`, `internalsVisibleTo`, `Open`, `IntegrationEvent`, `SkipValidation`, `HasAccess`, `Permission`, `UserSecurityId`, `Commit`, `SetFilter`, `ServiceEnabled`, `PageType = API`, `QueryType = API`, `permissionset`, `Web Services`, `FilterGroup`, `OnOpenPage`, `SetRange`, `MaskType`, `Concealed`).
 
 A file enters the candidate worklist when its `keywords` intersect the extracted tokens or its topic (derived from the index entry's `path`, `title`, and `description`) matches a changed object type. Read an article's full file — its `## Best Practice` / `## Anti Pattern` bodies — only after it makes the worklist; candidate selection uses the index alone.
 
 Always worklist `internal-access-is-not-a-security-boundary.md` when changed comments or code rely on `Access = Internal` or `internalsVisibleTo` to protect a sensitive operation, or an internal `OnRun` codeunit performs privileged work without an independent authorization boundary. Do not flag `internal` used only to keep implementation details out of the supported API.
 
 Worklist `page-scope-filters-must-not-be-in-filtergroup-zero.md` when a page trigger (typically `OnOpenPage`) restricts `Rec` to a user-, role-, or context-specific subset with `SetRange`/`SetFilter` while the current filter group is 0. Do not flag a group 0 filter meant as a removable default, such as a default date range. Worklist `restore-the-filtergroup-after-setting-hidden-filters.md` when a non-zero `FilterGroup(N)` call is not followed by a restore before the record is filtered further or passed on, or when custom filters are set in group 1, 3, 4, 6, or 7.
+
+Worklist `masktype-conceals-in-the-ui-only.md` when a table or page field sets `MaskType = Concealed`. Flag a masked salary, personal identifier, or similar value shown on a page that the task context or the app's permission sets make available to users who should not read it, as if the mask kept it private. Do not flag a masked field on a dedicated page whose access is governed separately; masking against shoulder-surfing is the intended use. Placement errors are reported by tools, not by this leaf: a masked field in a repeater is UICop AW0017, and `ExtendedDatatype = Masked` together with `MaskType` is a compiler error. A credential stored in a table field is owned by `secrets-isolated-storage.md`, not by this article.
 
 For secret values, select the most specific sink owner:
 
@@ -259,4 +262,4 @@ When no applicable security knowledge is available, the report is:
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

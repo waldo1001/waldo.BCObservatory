@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12291",
+  "number": 12291,
+  "title": "[Quality Management] Pass the single tracking record and clear the right filter in the purchase receipt subscriber",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Fixed two defects in purchase receipt handling where the tracking buffer filter cleanup targeted the wrong field and the wrong buffer was passed to inspection creation, with comprehensive test coverage added.",
+  "key_points": [
+    "Filter cleanup now clears correct field 'Quantity Handled (Base)' instead of 'Qty. to Invoice (Base)'",
+    "Single-record buffer now passed to inspection creation instead of full posting buffer",
+    "Downstream subscribers now receive filtered buffer only for intended tracking records",
+    "Post-event subscribers receive correct buffer state for their processing",
+    "Added two new tests covering multi-lot tracking and filter cleanup validation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "assembly"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003486,
+    "changes_in_call": 6
+  }
+}

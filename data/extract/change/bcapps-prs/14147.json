@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14147",
+  "number": 14147,
+  "title": "Fix reactivated direct transfer and BEANS issues",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Fixed direct transfer orders to create inbound warehouse requests when their route overrides the Inventory Setup posting mode, and corrected Quality Management demo data to seed Coffee Defect and Uniformity tests with proper conditions.",
+  "key_points": [
+    "Direct transfer orders now respect their route-derived posting mode instead of only using Inventory Setup default for warehouse request creation",
+    "Inbound Inventory Put-away will now be created when transfer route specifies direct transfer mode",
+    "Quality Management demo data updated to include semantic conditions on Coffee Defect and Coffee Uniformity tests in BEANS template",
+    "New regression test added to verify route-specific direct transfer posting with inbound Inventory Put-away",
+    "Changes only affect scenario where transfer route posting mode differs from Inventory Setup default"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "quote": "Release now uses the transfer order's route-derived posting mode.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004191,
+    "changes_in_call": 1
+  }
+}

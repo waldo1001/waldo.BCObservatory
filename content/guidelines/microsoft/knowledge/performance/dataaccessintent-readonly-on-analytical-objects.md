@@ -19,16 +19,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T21:28:41.348Z"
+  at: "2026-11-20T00:18:56.988Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 943242d8653804454d7b59c2552c702afb8c0a6b
+  input_hash: b1afda2f7b61c09e4edafd7924a0154236bbed56
 evidence:
   - kind: guideline
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.md
     title: "microsoft/BCQuality: Set DataAccessIntent ReadOnly on analytical objects"
-    date: "2026-09-09"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    date: "2026-11-19"
+    commit: dd49341915045164248349bd891b106ebb4b34cb
     t: null
     quote: null
 links:
@@ -96,4 +96,4 @@ See sample: [`dataaccessintent-readonly-on-analytical-objects.bad.al`](https://g
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

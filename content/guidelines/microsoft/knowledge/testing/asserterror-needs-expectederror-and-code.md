@@ -18,20 +18,22 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T21:27:44.526Z"
+  at: "2026-11-20T00:19:05.452Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 9ebf3f84900cdfffe979be05b36714d28a4ee3b1
+  input_hash: 43a1e35aa88e1e4523711b14a5efb57202f9116e
 evidence:
   - kind: guideline
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/asserterror-needs-expectederror-and-code.md
     title: "microsoft/BCQuality: Pin asserterror to a specific error with ExpectedError and ExpectedErrorCode"
-    date: "2026-09-29"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    date: "2026-11-19"
+    commit: dd49341915045164248349bd891b106ebb4b34cb
     t: null
     quote: null
 links:
-  learn: []
+  learn:
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/text/text-strsubstno-method
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/text/text-strpos-method
   objects: []
   features: []
   topics: []
@@ -58,6 +60,8 @@ application_area:
 examples: 2
 identifiers:
   - TestField
+  - StrSubstNo
+  - StrPos
   - ExpectedError
 ---
 
@@ -73,13 +77,13 @@ identifiers:
 
 ## Best Practice
 
-Follow every `asserterror` with a verification of the error it expects, and prefer the reusable `Library Assert` helpers over hardcoded literals. For a mandatory-field check, `Assert.ExpectedTestFieldError(FieldCaption, ExpectedValue)` encapsulates both the message and the `TestField` code, so the test survives caption or code changes and does not repeat that knowledge in every method. For other errors, pair `Assert.ExpectedError` with a stable substring — ideally a shared `Label`, not an inline sentence — and, where known, `Assert.ExpectedErrorCode`. When a needed check is missing from the shared library, extend `Library Assert` (or your own assert library) with a helper rather than hardcoding message text and codes across tests; matching on a code or an invariant fragment keeps the test from going blind to the wrong error when a caption is localized.
+Follow every `asserterror` with a verification of the error it expects, and prefer the reusable `Library Assert` helpers over hardcoded literals. For a mandatory-field check, `Assert.ExpectedTestFieldError(FieldCaption, ExpectedValue)` encapsulates both the message and the `TestField` code, so the test survives caption or code changes and does not repeat that knowledge in every method. For other errors, pair `Assert.ExpectedError` with text that only the intended error produces — ideally the full text of its `Label` with its arguments, built with `StrSubstNo`, not an inline sentence — and, where known, `Assert.ExpectedErrorCode`. Both helpers match by substring (`StrPos`), so a short fragment that also occurs in other messages on the same code path passes when one of those errors fires instead. `Assert.ExpectedErrorCode` on its own identifies only the kind of error (every error raised with `Error` shares one code), so use it together with the message, not instead of it. When a needed check is missing from the shared library, extend `Library Assert` (or your own assert library) with a helper rather than hardcoding message text and codes across tests; matching on a code or an invariant fragment keeps the test from going blind to the wrong error when a caption is localized.
 
 See sample: [`asserterror-needs-expectederror-and-code.good.al`](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/asserterror-needs-expectederror-and-code.good.al).
 
 ## Anti Pattern
 
-`asserterror DoInvalid();` with nothing after it. The test asserts only that the call failed somehow; swap the validation for a different bug and the test still passes, certifying a guard that may no longer fire. A negative test that cannot tell one error from another verifies almost nothing.
+`asserterror DoInvalid();` with nothing after it. The test asserts only that the call failed somehow; swap the validation for a different bug and the test still passes, certifying a guard that may no longer fire. A negative test that cannot tell one error from another verifies almost nothing. The same holds when the only check is `Assert.ExpectedErrorCode`, a non-empty `GetLastErrorText()`, or `Assert.ExpectedError` with a fragment that several messages on the same code path contain: the test stays green when an earlier validation starts to fire instead of the one under test.
 
 Not an instance of this anti-pattern: a trailing `asserterror Error(SomeLabel)` used purely as an end-of-test rollback sentinel to undo a lazily-initialized shared fixture's scratch changes (see `commit-shared-test-fixture-inside-lazy-initialize.md`). That `Error` call exists to force a rollback, not to verify that a specific failure occurred — the sentinel's own text is not meant to be asserted against, and adding an `ExpectedError` there would just duplicate the label without checking anything the test doesn't already control.
 
@@ -90,6 +94,11 @@ See sample: [`asserterror-needs-expectederror-and-code.bad.al`](https://github.c
 - [Good: asserterror-needs-expectederror-and-code.good.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/asserterror-needs-expectederror-and-code.good.al)
 - [Bad: asserterror-needs-expectederror-and-code.bad.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/asserterror-needs-expectederror-and-code.bad.al)
 
+## Names
+
+- [Text.StrSubstNo(Text \[, Any,...\]) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/text/text-strsubstno-method) (names StrSubstNo)
+- [Text.StrPos(Text, Text) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/text/text-strpos-method) (names StrPos)
+
 ## Changed by
 
 - [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../changes/bcquality/159.md), 2026-09-29
@@ -98,4 +107,4 @@ See sample: [`asserterror-needs-expectederror-and-code.bad.al`](https://github.c
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

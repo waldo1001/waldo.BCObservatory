@@ -6,7 +6,7 @@
   "title": "[MAIN] Avoid empty GST component lookup on customer reapplication (Bug 659069)",
   "url": "https://github.com/microsoft/BCApps/pull/14009",
   "published_at": "2026-11-19T19:09:18Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-20T00:17:52.060Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003351
+    },
+    "linked": {
+      "at": "2026-11-20T00:17:52.166Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-20T00:17:52.169Z",
+      "path": "content/changes/bcapps/14009.md"
     }
   },
   "input_hash": "9e4bb042c6c55d72956090a9c44480b488fab146:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9b2c1604529f999ee3e694c2e8ccb89469711cee529c1721708f09150eefb365"
+  "output_hash": "e86a0d306f21cb906a44b719929cffc46cbc44ed769a4fe47b61acbfafec22ae"
 }

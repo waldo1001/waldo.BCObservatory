@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/azure-openai-data",
   "published_at": "2026-11-18T19:09:35.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.245Z",
-      "blob": "181e55564d7e8d22ed1c1f8a95f02a924bb00be7",
-      "words": 558,
+      "at": "2026-11-20T00:17:48.266Z",
+      "blob": "c5de5528ca21b1e78adee299a7f9abadb76308c9",
+      "words": 555,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T12:36:59.004Z",
+      "at": "2026-11-20T00:17:52.466Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00772
+      "cost_usd": 0.003662
     },
     "summarized": {
-      "at": "2026-10-06T12:36:59.014Z",
+      "at": "2026-11-20T00:17:52.468Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T12:36:59.014Z",
+      "at": "2026-11-20T00:17:52.469Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T12:36:59.015Z",
+      "at": "2026-11-20T00:17:52.469Z",
       "page": false
     }
   },
@@ -50,11 +50,11 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 558,
+    "words": 555,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c01db8d23988b3cb4e963e1a550186eb348fd83b4b0e860ea55207f0c6ffdb39"
+  "output_hash": "656e6d288d8eb98f996bc9b97ced7a01c6e1cbe9c273e137cdf2aca71a1c8090"
 }

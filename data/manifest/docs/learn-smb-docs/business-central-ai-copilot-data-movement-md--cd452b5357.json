@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ai-copilot-data-movement",
   "published_at": "2026-11-18T19:09:35.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:17.207Z",
-      "blob": "531c6347d49d3dd1fbd3ddb2d37cf2e2ff1c93c9",
-      "words": 1346,
+      "at": "2026-11-20T00:17:48.164Z",
+      "blob": "2d63b0864842a6d29d87c6c4f241a040e88d21f7",
+      "words": 1335,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T12:36:58.962Z",
+      "at": "2026-11-20T00:17:53.011Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.008586
+      "cost_usd": 0.010661
     },
     "summarized": {
-      "at": "2026-10-06T12:36:59.004Z",
+      "at": "2026-11-20T00:17:53.011Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T12:36:59.005Z",
+      "at": "2026-11-20T00:17:53.012Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T12:36:59.005Z",
+      "at": "2026-11-20T00:17:53.013Z",
       "page": false
     }
   },
@@ -56,11 +56,11 @@
     ],
     "keywords": [],
     "ai_usage": null,
-    "words": 1346,
+    "words": 1335,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e91c67aff69234b0bb12027f1d9444d85c66857f13bc714f134990791aefa4ac"
+  "output_hash": "c7e7629e7ff6aebee2afa48a8fbc42a332672ea51df83e2ee9f4cad14b0274e1"
 }

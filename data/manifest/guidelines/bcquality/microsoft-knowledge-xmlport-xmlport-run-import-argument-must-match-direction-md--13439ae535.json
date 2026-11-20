@@ -3,14 +3,24 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "xmlport run import argument must match direction",
+  "title": "The `Import` argument of `Xmlport.Run` must match the XMLport's `Direction`",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/xmlport/xmlport-run-import-argument-must-match-direction.md",
   "published_at": "2026-11-19T15:23:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:18:26.573Z",
+      "blob": "3164a907e64e328176c9da1cf052fcea2fb608a4",
+      "words": 258,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-20T00:18:32.388Z",
+      "path": "content/guidelines/microsoft/knowledge/xmlport/xmlport-run-import-argument-must-match-direction.md"
     }
   },
   "input_hash": "3164a907e64e328176c9da1cf052fcea2fb608a4",
@@ -18,6 +28,53 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/xmlport/xmlport-run-import-argument-must-match-direction.md"
-  }
+    "path": "microsoft/knowledge/xmlport/xmlport-run-import-argument-must-match-direction.md",
+    "description": "Xmlport.Run(Number [, RequestWindow] [, Import] [, Record]) takes an optional Import argument that says whether the XMLport imports or exports, and its default is true.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "xmlport",
+      "xmlport-run",
+      "direction",
+      "import",
+      "export",
+      "requestwindow",
+      "runtime-error"
+    ],
+    "ai_usage": null,
+    "words": 258,
+    "identifiers": [],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "xmlport",
+      "keywords": [
+        "xmlport",
+        "xmlport-run",
+        "direction",
+        "import",
+        "export",
+        "requestwindow",
+        "runtime-error"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "Xmlport.Run(Number [, RequestWindow] [, Import] [, Record]) takes an optional Import argument that says whether the XMLport imports or exports, and its default is true."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3164a907e64e328176c9da1cf052fcea2fb608a4"
 }

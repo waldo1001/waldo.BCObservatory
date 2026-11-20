@@ -19,16 +19,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-29T21:28:43.535Z"
+  at: "2026-11-20T00:19:03.364Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 9097b5a5d13a95f4fab4c90019e681ca454a7f3d
+  input_hash: f55bcc2c5fe6357b170b4320078e38a8b96b3cda
 evidence:
   - kind: guideline
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/prefer-related-table-over-extension-on-hot-ledgers.md
     title: "microsoft/BCQuality: Prefer a related table over stored fields on hot ledgers"
-    date: "2026-09-09"
-    commit: a4593a1b1585a0fa663efbf39ff02c60f846d851
+    date: "2026-11-19"
+    commit: dd49341915045164248349bd891b106ebb4b34cb
     t: null
     quote: null
 links:
@@ -96,4 +96,4 @@ See sample: [`prefer-related-table-over-extension-on-hot-ledgers.bad.al`](https:
 
 ---
 
-From microsoft/BCQuality at a4593a1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

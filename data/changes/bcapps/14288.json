@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14288,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14288",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-19T10:37:33Z",
+  "merge_commit_sha": "9a919d6cc004c3e59ae5630b95491b324b579fb2",
+  "author": "jehelles",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Grant report layout override permissions for non-SUPER users",
+  "body_hash": "cc7cba84de80f9964e0f67e186cd0a6fcd7ae5a7f7540506a41ab419f8a09396",
+  "fixes_issues": [],
+  "work_items": [
+    647472
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/System Permissions/permissions/ReportingEdit.PermissionSet.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/System Application/App/System Permissions/permissions/ReportingEdit.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/99",
+        "type": "permissionset",
+        "id": 99,
+        "name": "Reporting - Edit",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "permissionset/99"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "administration"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

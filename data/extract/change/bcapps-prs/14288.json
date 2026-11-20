@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14288",
+  "number": 14288,
+  "title": "Grant report layout override permissions for non-SUPER users",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "The Reporting - Edit permission set now grants necessary permissions for non-SUPER users to override extension-installed report layouts without encountering permission errors.",
+  "key_points": [
+    "Adds RIMD permissions for Tenant Report Layout Override table to Reporting - Edit permission set",
+    "Resolves IndirectInsert permission errors when non-SUPER users attempt to change extension-installed layouts",
+    "Aligns the standard user-permission set with existing report-layout table permissions",
+    "Platform entitlement already supported the override table; this fills the user-permission gap",
+    "No schema or data changes required"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "administration"
+  ],
+  "quote": "Add RIMD permissions for `Tenant Report Layout Override` to the System Application's `Reporting - Edit` permission set, matching the existing report-layout tables.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003595,
+    "changes_in_call": 1
+  }
+}

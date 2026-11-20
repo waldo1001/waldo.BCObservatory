@@ -7,19 +7,19 @@
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/adding-a-parameter-to-an-event-is-not-a-breaking-change.md",
   "published_at": "2026-11-19T12:17:50.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-29T21:29:17.257Z",
-      "blob": "330f9bf24531015c7593c2e9cd67c06f3894bd04",
-      "words": 199,
+      "at": "2026-11-20T00:19:01.739Z",
+      "blob": "73c3dc549223629533e54ba5be2d84fa5bd2ce2e",
+      "words": 238,
       "forms": 0
     },
     "published": {
-      "at": "2026-10-29T21:29:17.324Z",
+      "at": "2026-11-20T00:19:07.579Z",
       "path": "content/guidelines/microsoft/knowledge/events/adding-a-parameter-to-an-event-is-not-a-breaking-change.md"
     }
   },
@@ -40,10 +40,11 @@
       "backward-compatibility",
       "integration-event",
       "breaking-change",
-      "false-positive"
+      "false-positive",
+      "as0024"
     ],
     "ai_usage": null,
-    "words": 199,
+    "words": 238,
     "identifiers": [
       "IntegrationEvent",
       "BusinessEvent"
@@ -58,7 +59,8 @@
         "backward-compatibility",
         "integration-event",
         "breaking-change",
-        "false-positive"
+        "false-positive",
+        "as0024"
       ],
       "bc_version": [
         "all"
@@ -79,5 +81,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "330f9bf24531015c7593c2e9cd67c06f3894bd04"
+  "output_hash": "73c3dc549223629533e54ba5be2d84fa5bd2ce2e"
 }

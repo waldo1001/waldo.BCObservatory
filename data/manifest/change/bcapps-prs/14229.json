@@ -6,10 +6,35 @@
   "title": "29.x: Power BI autodeployment UX fixes: clearing records should affect only the selected + reorganizing actions",
   "url": "https://github.com/microsoft/BCApps/pull/14229",
   "published_at": "2026-11-19T16:07:15Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:17:49.285Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-20T00:17:53.517Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003554
+    },
+    "linked": {
+      "at": "2026-11-20T00:17:53.721Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "8df2ba47b62fdf6e6189524d4680b9bfb49bb553"
+    },
+    "published": {
+      "at": "2026-11-20T00:17:53.726Z",
+      "path": "content/changes/bcapps/14229.md"
     }
   },
   "input_hash": "f35be0c09cc3849a45809046e1eab20ccc79314c:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "29 x power bi autodeployment ux fixes clearing records should affect only the selected reorganizing actions"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1b82d5988e37c32fddfc4f6d03c2d104dbd13e659ad6fe3249ab65ec5bca79e8"
 }

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/14009",
+  "number": 14009,
+  "title": "[MAIN] Avoid empty GST component lookup on customer reapplication (Bug 659069)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed a bug where reapplying customer payments after unapplication would fail with an empty GST component lookup error by skipping GST account resolution when no GST entries are involved.",
+  "key_points": [
+    "Reapplying customer payments against invoices after unapplication now works without errors",
+    "GST application routine exits early when the GST posting buffer is empty",
+    "Prevents blank GST component code from triggering a failed lookup",
+    "Avoids unnecessary account resolution and posting when no GST entries exist"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Exit the GST application update routine when the temporary GST posting buffer is empty, avoiding unnecessary account resolution and posting.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003351,
+    "changes_in_call": 1
+  }
+}

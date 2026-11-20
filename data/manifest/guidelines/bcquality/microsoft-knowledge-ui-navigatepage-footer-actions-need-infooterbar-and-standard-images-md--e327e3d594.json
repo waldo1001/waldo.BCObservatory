@@ -3,14 +3,24 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "navigatepage footer actions need infooterbar and standard images",
+  "title": "Wizard navigation actions need `InFooterBar` and the standard images",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/navigatepage-footer-actions-need-infooterbar-and-standard-images.md",
   "published_at": "2026-11-19T15:23:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:17:54.581Z",
+      "blob": "b503f1d431a70c74931b08b08d7a0646c3c2228f",
+      "words": 303,
+      "forms": 0
+    },
+    "published": {
+      "at": "2026-11-20T00:17:54.629Z",
+      "path": "content/guidelines/microsoft/knowledge/ui/navigatepage-footer-actions-need-infooterbar-and-standard-images.md"
     }
   },
   "input_hash": "b503f1d431a70c74931b08b08d7a0646c3c2228f",
@@ -18,6 +28,58 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/ui/navigatepage-footer-actions-need-infooterbar-and-standard-images.md"
-  }
+    "path": "microsoft/knowledge/ui/navigatepage-footer-actions-need-infooterbar-and-standard-images.md",
+    "description": "A page with PageType = NavigatePage is a wizard: it has no action bar, and the user moves through it with Back, Next, and Finish buttons at the bottom. Those buttons are ordinary action() controls, and two properties decide how the client treats them.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [
+      "navigatepage",
+      "wizard",
+      "infooterbar",
+      "back-next-finish",
+      "assisted-setup",
+      "action-image",
+      "footer"
+    ],
+    "ai_usage": null,
+    "words": 303,
+    "identifiers": [
+      "InFooterBar",
+      "PreviousRecord",
+      "NextRecord",
+      "NavigatePage"
+    ],
+    "identifiers_rule": 2,
+    "bcq": {
+      "domain": "ui",
+      "keywords": [
+        "navigatepage",
+        "wizard",
+        "infooterbar",
+        "back-next-finish",
+        "assisted-setup",
+        "action-image",
+        "footer"
+      ],
+      "bc_version": [
+        "all"
+      ],
+      "technologies": [
+        "al"
+      ],
+      "countries": [
+        "w1"
+      ],
+      "application_area": [
+        "all"
+      ],
+      "kind": "rule",
+      "summary": "A page with PageType = NavigatePage is a wizard: it has no action bar, and the user moves through it with Back, Next, and Finish buttons at the bottom. Those buttons are ordinary action() controls, and two properties decide how the client treats them."
+    },
+    "bcq_rule": 1
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b503f1d431a70c74931b08b08d7a0646c3c2228f"
 }

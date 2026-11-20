@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14123",
+  "number": 14123,
+  "title": "[Shopify] Keep gift cards from unverified POS returns on the sales invoice",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Modified Shopify gift card handling on POS unverified returns so they remain on sales invoices rather than being treated as exchange items, preventing empty invoice generation with auto-release enabled.",
+  "key_points": [
+    "Gift cards on unverified POS returns now treated as regular order lines instead of exchange items",
+    "Prevents invoices from becoming empty when no exchange items remain on credit memos",
+    "Order import now sets Is Exchange Item for every line during write rather than separate marking pass",
+    "Refund import skips synthetic exchange refund lines for unverified return gift cards",
+    "Added 7 tests validating unverified and verified return handling"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "quote": "A Shopify POS unverified return can only be refunded to a gift card.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003486,
+    "changes_in_call": 6
+  }
+}

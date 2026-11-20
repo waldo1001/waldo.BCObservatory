@@ -1,0 +1,63 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 2444,
+  "repo": "microsoft/AL-Go",
+  "source": "al-go-prs",
+  "url": "https://github.com/microsoft/AL-Go/pull/2444",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-11-19T11:46:21Z",
+  "merge_commit_sha": "403f36ab563291207687c513c8dedd93f683f8ce",
+  "author": "AlexanderMarcher",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Implement retry logic for GitHub App token requests to handle transient errors",
+  "body_hash": "9c328fde9eed1c0d43ea9287b22823d872cd7f000c724485eda1055e70e23dbc",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "Actions/Github-Helper.psm1",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "RELEASENOTES.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "Tests/GitHub-Helper.Test.ps1",
+      "status": "modified",
+      "additions": 54,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 63,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "Actions/Github-Helper.psm1",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

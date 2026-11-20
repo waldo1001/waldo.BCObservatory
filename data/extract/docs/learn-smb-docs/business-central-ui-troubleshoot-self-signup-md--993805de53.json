@@ -2,24 +2,26 @@
   "item_id": "docs/learn-smb-docs/business-central/ui-troubleshoot-self-signup.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-troubleshoot-self-signup",
   "title": "Troubleshoot Issues with Self-Service Sign-Up | Microsoft Docs",
-  "blob": "bb10610de7504a61baba4430367ad74be59687b3",
-  "summary": "Self-service sign-up troubleshooting covers email address requirements, regional availability, Microsoft 365 integration, and IT administrator settings that may prevent account creation.",
+  "blob": "b83890b15ddde46d48f4e3f0f37f6fab9fad26c6",
+  "summary": "Troubleshooting self-service sign-up for Business Central addresses common signup issues including email address requirements, country/region restrictions, and disabled signup policies.",
   "systems": [
     "administration"
   ],
   "topics": [
-    "sign-up",
-    "authentication",
-    "email validation",
+    "self-service signup",
+    "troubleshooting",
+    "email requirements",
     "regional availability",
-    "trial accounts"
+    "account setup"
   ],
   "objects": [],
   "features": [
-    "work email requirement",
-    "regional restrictions",
-    "Microsoft 365 integration",
-    "IT admin controls"
+    "personal email address restrictions",
+    "work email requirements",
+    ".gov/.mil address restrictions",
+    "country/region support",
+    "self-service signup enabling",
+    "Microsoft 365 integration"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002981,
-      "pages_in_call": 7
+      "cost_usd": 0.004302,
+      "pages_in_call": 1
     }
   ]
 }

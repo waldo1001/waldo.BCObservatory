@@ -1,0 +1,185 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14307,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14307",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-19T16:54:02Z",
+  "merge_commit_sha": "4303e5e584d3aa5d9e98cbc615525a5396ad6ed7",
+  "author": "qasimikram",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[SLS][29.x] Backport production app updates for GPT-5.6 Ceres",
+  "body_hash": "69aa9c8905712be1e9185bbc98d3df4eaed5fec978748c24812af6681ab78d9d",
+  "fixes_issues": [],
+  "work_items": [
+    659897
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/.resources/BCSLSAttachmentTaskPrompt.md",
+      "status": "added",
+      "additions": 33,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/.resources/BCSLSGetProductFromCsvTemplateUserInputPrompt.md",
+      "status": "added",
+      "additions": 2,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/.resources/BCSLSMagicFunctionPrompt.json",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/.resources/BCSLSParseCsvPrompt.json",
+      "status": "added",
+      "additions": 68,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/.resources/BCSLSSearchItemsWithFiltersPrompt.json",
+      "status": "added",
+      "additions": 105,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/.resources/BCSLSTaskPrompt.md",
+      "status": "added",
+      "additions": 29,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/Attachment/SalesLineFromAttachment.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/SLSPrompts.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/SalesAzureOpenAITools/FunctionsImpl/SearchItemsWithFiltersFunc.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/SalesLinesSuggestionsImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/Search/Search.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SalesLinesSuggestions/app/app.json",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 12,
+    "additions": 280,
+    "deletions": 32,
+    "al": 5
+  },
+  "join": {
+    "major": "29",
+    "commit": "8df2ba47b62fdf6e6189524d4680b9bfb49bb553",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesLinesSuggestions/app/Attachment/SalesLineFromAttachment.Page.al",
+        "status": "modified",
+        "key": "page/7290",
+        "type": "page",
+        "id": 7290,
+        "name": "Sales Line From Attachment",
+        "app": "SalesLinesSuggestions",
+        "cc": "w1",
+        "page": "page/7290"
+      },
+      {
+        "path": "src/Apps/W1/SalesLinesSuggestions/app/SLSPrompts.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7276",
+        "type": "codeunit",
+        "id": 7276,
+        "name": "SLS Prompts",
+        "app": "SalesLinesSuggestions",
+        "cc": "w1",
+        "page": "codeunit/7276"
+      },
+      {
+        "path": "src/Apps/W1/SalesLinesSuggestions/app/SalesAzureOpenAITools/FunctionsImpl/SearchItemsWithFiltersFunc.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7291",
+        "type": "codeunit",
+        "id": 7291,
+        "name": "Search Items With Filters Func",
+        "app": "SalesLinesSuggestions",
+        "cc": "w1",
+        "page": "codeunit/7291"
+      },
+      {
+        "path": "src/Apps/W1/SalesLinesSuggestions/app/SalesLinesSuggestionsImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7275",
+        "type": "codeunit",
+        "id": 7275,
+        "name": "Sales Lines Suggestions Impl.",
+        "app": "SalesLinesSuggestions",
+        "cc": "w1",
+        "page": "codeunit/7275"
+      },
+      {
+        "path": "src/Apps/W1/SalesLinesSuggestions/app/Search/Search.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7282",
+        "type": "codeunit",
+        "id": 7282,
+        "name": "Search",
+        "app": "SalesLinesSuggestions",
+        "cc": "w1",
+        "page": "codeunit/7282"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "SalesLinesSuggestions"
+  ]
+}

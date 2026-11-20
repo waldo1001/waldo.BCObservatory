@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12701",
+  "number": 12701,
+  "title": "Remove duplicate FR customer and vendor ledger entry tables",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Removed duplicate FR-specific customer and vendor ledger entry table sources to allow the materialized FR view to inherit W1 sources and reduce duplicate maintenance.",
+  "key_points": [
+    "Eliminates 3092 lines of duplicate FR table definitions",
+    "FR view now inherits W1 customer and vendor ledger entry sources",
+    "Reduces ongoing maintenance burden by consolidating to single source",
+    "Requires merge of PR #13861 first to ensure FR and W1 customer sources are identical",
+    "Vendor table sources were already byte-identical"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Remove the redundant FR customer and vendor ledger entry table sources so the materialized FR view inherits the W1 sources.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003486,
+    "changes_in_call": 6
+  }
+}

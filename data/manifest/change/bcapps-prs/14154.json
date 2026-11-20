@@ -6,10 +6,35 @@
   "title": "[SOA] Keep email attachments next to the current message",
   "url": "https://github.com/microsoft/BCApps/pull/14154",
   "published_at": "2026-11-19T15:35:52Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:17:53.413Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-20T00:18:01.545Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003778
+    },
+    "linked": {
+      "at": "2026-11-20T00:18:01.649Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-20T00:18:01.652Z",
+      "path": "content/changes/bcapps/14154.md"
     }
   },
   "input_hash": "4544a12640dcc2303c9eeeb6e7029320e7383a64:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa keep email attachments next to the current message"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "15e461070fc0a218190c81d0e89c663e377b4ac28978a83ca448447b7e5e2d2d"
 }

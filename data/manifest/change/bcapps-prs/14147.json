@@ -6,10 +6,35 @@
   "title": "Fix reactivated direct transfer and BEANS issues",
   "url": "https://github.com/microsoft/BCApps/pull/14147",
   "published_at": "2026-11-19T14:42:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:18:05.277Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-20T00:18:12.497Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004191
+    },
+    "linked": {
+      "at": "2026-11-20T00:18:12.603Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-20T00:18:12.606Z",
+      "path": "content/changes/bcapps/14147.md"
     }
   },
   "input_hash": "4638716cfe27e8d2556f634f2a51dcc490ceacbb:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix reactivated direct transfer and beans issues"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "10a108a2dcfd461ab9e88e4d9e5c8052aa16d22d0acc647bdcdc7d27df659224"
 }

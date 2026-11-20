@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12772",
+  "number": 12772,
+  "title": "Bug 654042: [DocumentReporting] Exporting Word layout themes uses the wrong file extension",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Corrected the file extension for exporting Word theme layouts from docx to dotx and added comprehensive test coverage for artifact export functions.",
+  "key_points": [
+    "GetFileExtension function updated to handle Word layout subtypes correctly",
+    "Theme layouts now export with correct dotx file extension instead of docx",
+    "Added 135+ new tests covering composite and report layout export scenarios",
+    "Validates exported theme files load correctly in Microsoft Word",
+    "Improves reliability of document reporting export functionality"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003486,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2444",
+  "number": 2444,
+  "title": "Implement retry logic for GitHub App token requests to handle transient errors",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "GetGitHubAppAuthToken now retries transient failures on GitHub API requests for retrieving installation tokens, using three attempts with 5 and 10 second waits to handle intermittent errors.",
+  "key_points": [
+    "GET and POST requests in GetGitHubAppAuthToken are wrapped with retry logic",
+    "Retries use same settings as other GitHub API calls: 3 attempts with 5 and 10 second delays",
+    "JWT token validity and short-lived token creation make retrying safe",
+    "Pester unit tests cover 404 on installation lookup, 502 on token request, and repeated failures",
+    "All actions using GitHub App authentication benefit, not just CheckForUpdates"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003945,
+    "changes_in_call": 1
+  }
+}

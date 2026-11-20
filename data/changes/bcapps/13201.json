@@ -1,0 +1,108 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13201,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13201",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-19T10:00:59Z",
+  "merge_commit_sha": "0cf4fff09bc80396d24e161a1a156710ad08d6a9",
+  "author": "MSNehaNawal",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[main] Bug 592028 Retention policy fails: Bin Mandatory must be equal to 'No' in Location. Current value is 'Yes'.",
+  "body_hash": "20206178abeb263f6bd2257973b4e4509b2a0f3df002380e4e61c82f3303248e",
+  "fixes_issues": [],
+  "work_items": [
+    592028
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/RetentionPolicy/RetenPolInstallBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 94,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/InventoryDocument/PostedInvtPickHeader.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Warehouse/InventoryDocument/PostedInvtPutawayHeader.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Upgrade/RetenPolUpgradeTest.Codeunit.al",
+      "status": "modified",
+      "additions": 474,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 588,
+    "deletions": 11,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/RetentionPolicy/RetenPolInstallBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/3999",
+        "type": "codeunit",
+        "id": 3999,
+        "name": "Reten. Pol. Install - BaseApp",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/3999"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/InventoryDocument/PostedInvtPickHeader.Table.al",
+        "status": "modified",
+        "key": "table/7342",
+        "type": "table",
+        "id": 7342,
+        "name": "Posted Invt. Pick Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/7342"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Warehouse/InventoryDocument/PostedInvtPutawayHeader.Table.al",
+        "status": "modified",
+        "key": "table/7340",
+        "type": "table",
+        "id": 7340,
+        "name": "Posted Invt. Put-away Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/7340"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "warehouse",
+    "administration"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}
