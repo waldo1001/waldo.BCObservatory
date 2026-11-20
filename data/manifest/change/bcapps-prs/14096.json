@@ -6,10 +6,18 @@
   "title": "[29.x]-\"El título Importe pendiente resulta ambiguo entre varios campos de la tabla Mov. proveedor.\" error if you try to Create Payment for some Vendor Ledger Entries filtered by Remaining Amount <> 0 in the Spanish version.",
   "url": "https://github.com/microsoft/BCApps/pull/14096",
   "published_at": "2026-11-18T13:30:52Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:21:22.227Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 1,
+      "unjoined": 1
     }
   },
   "input_hash": "2caad011cd7fd33da2d06f00181308b3949212ce:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "el t tulo importe pendiente resulta ambiguo entre varios campos de la tabla mov proveedor error if you try to create payment for some vendor ledger entries filtered by remaining amount 0 in the spanish version"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3a4e4de7708b2ce265468cc64d23ea68b074ba25999a0584384d4e96d4457590"
 }

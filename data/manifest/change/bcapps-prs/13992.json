@@ -6,10 +6,18 @@
   "title": "[29.x]-Bug 658942: [Expense Agent] Limited self-approval cannot be combined with escalation to an unlimited approver",
   "url": "https://github.com/microsoft/BCApps/pull/13992",
   "published_at": "2026-11-19T04:37:25Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:19:56.576Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "6db4b18d1676c984833b094fda95694836e0bae3:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 658942 expense agent limited self approval cannot be combined with escalation to an unlimited approver"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "89c812fea8ab2e2a002284e3ead44d7a64339e295218d886cc7c505efb6b534d"
 }

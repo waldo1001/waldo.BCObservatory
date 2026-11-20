@@ -6,10 +6,18 @@
   "title": "[29x] Total Number of Supplies has incorrect type and tooltip in the VAT Report page of the German version",
   "url": "https://github.com/microsoft/BCApps/pull/14133",
   "published_at": "2026-11-18T16:55:41Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-20T00:20:07.173Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
     }
   },
   "input_hash": "2781cdf3947cbf6c0d1c1cfb8e912274ad212a06:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "29x total number of supplies has incorrect type and tooltip in the vat report page of the german version"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "00658a32f38a4cfd6c6c77716fce38790b0ddc5b1dbbbcc148e616aa664f3087"
 }
