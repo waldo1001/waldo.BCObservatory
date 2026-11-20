@@ -1457,3 +1457,20 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   the repository alone (a marketplace cannot set `sparsePaths`; only the user's command can). Not changed and not
   verified here: Copilot CLI's `owner/repo:plugin` form, which has no Copilot CLI on this Mac to measure. That Claude
   Code leaves a failed clone on disk is a Claude Code bug, reported to Anthropic by the colleague.
+- **D129 The scorer holds its golden queries when the nightly content moves (2026-11-20).** No code changed on `main`
+  after 2026-11-05, yet six assertions that read the committed content failed with the nightlies of 2026-11-10 to
+  2026-11-17 and nobody saw it: `pr-validate` runs on pull requests only, and the first one after was PR 62. Found
+  by bisecting each failure to its nightly. (1) Microsoft renamed "Copy an environment" to "Copy a Business Central
+  Environment", so the Learn title band (D106) no longer covered "copy environment cleanup": the band now skips the
+  product's own name (business, central, dynamics, 365, microsoft) like a function word. (2) Two BCApps pull requests
+  carry the typo "Custmer" in their title, and a word that meets anything exactly got no typo candidates, so
+  "custmer" found only those two: a word met in 3 records or fewer now also meets a word one typo away that is 20
+  times as common, at the typo weight (0.5). (3) The Subscription billing hub's narrative went back to unreviewed
+  (-2 against reviewed), which put the app page (379 members, mostly objects) and the hub's own sub-hub above it: an
+  app page's members now count at half weight, and a hub whose title the query names is lifted just above any hub
+  under it in the Learn TOC (a parent that only mentions the word in its text, such as Sales, is not). (4) A Learn
+  article starting with "Posting" scored 7.75 against 7.8 for the six enum values named Posting: a symbol demoted on
+  a generic word now keeps half its score (0.5) where an object page keeps 0.6. Also: the compact-view bounds of
+  Tables 18 and 36 go from 17,000 and 18,000 to 20,000 characters (Table 36 had grown to 18,003; the budget is
+  30,000). All 46 golden queries hold again on the site scorer and on the MCP server, none pending. Not changed:
+  `pr-validate` still runs on pull requests only, so content drift stays invisible until the next PR.

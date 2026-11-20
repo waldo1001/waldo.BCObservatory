@@ -193,10 +193,11 @@ test("the galaxy panel lists hubs and apps first, then features, then objects, e
   const stars = new Set(rows.filter((r) => r.type !== "video").map((r) => nodeIdOf(r.path)));
   const facts = (id: string) => (id === "object/codeunit/8005" ? { ev: 0, weight: 50 } : { ev: 1, weight: 1 });
   const h = hitsFor(idx(rows), "subscription", (id) => stars.has(id), facts);
-  assert.deepEqual(h.ids, ["app/subscription-billing", "topic/business-central/sales/subscription-billing", "topic/business-central/cloud-migration-api/subscriptions", "feature/9", "object/page/8059", "object/codeunit/8005"]);
-  assert.equal(h.stars[1].path_label, "Business functionality › Sales");
+  // the hub of the same name before the app page: an app page's members (its objects) count at half weight
+  assert.deepEqual(h.ids, ["topic/business-central/sales/subscription-billing", "app/subscription-billing", "topic/business-central/cloud-migration-api/subscriptions", "feature/9", "object/page/8059", "object/codeunit/8005"]);
+  assert.equal(h.stars[0].path_label, "Business functionality › Sales");
   assert.deepEqual(h.pages.map((r) => r.path), ["videos/v-srb"]);
-  assert.equal(liveText(h), "6 stars, 1 pages without a star. First: Subscription Billing (Sales & Receivables).");
+  assert.equal(liveText(h), "6 stars, 1 pages without a star. First: Subscription billing (Sales).");
   const hubOnly = hitsFor(idx([subscription.billing]), "subscription", () => true);
   assert.equal(liveText(hubOnly), "1 star, 0 pages without a star. First: Subscription billing (Sales).");
   assert.equal(nodeIdOf("apps/subscription-billing"), "app/subscription-billing");
