@@ -60,7 +60,8 @@ its title only); differing status statements stand side by side, never reconcile
 a Learn article whose title the query covers leads ("copy environment cleanup" finds "Copy an environment").
 
 The server downloads the site's search index (cached by hash in `~/.cache/bc-observatory/`, refreshed daily) and reads pages as
-markdown. `BC_OBSERVATORY_LOCAL=<checkout of waldo1001/waldo.BCObservatory>` reads everything from disk instead;
+markdown. An index file the site no longer names is deleted from the cache two days after the last load that named it, so
+the cache stays under about 100 MB; a failed or partial download deletes nothing. `BC_OBSERVATORY_LOCAL=<checkout of waldo1001/waldo.BCObservatory>` reads everything from disk instead;
 `BC_OBSERVATORY_SITE` points at another deployment.
 
 `bc_search` ranks with the site's own scorer (`packages/search`, bundled into `dist/server.js`), so an agent and a reader get the
