@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:47:08.789Z"
+  at: "2026-11-20T00:47:37.951Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8b83e412eaa8df99a0aa5b2fb5f84d1a5ce1579dc036d39629894b1d32a5a3c5
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseMonetaryInfoProvider.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseMonetaryInfoProvider.Interface.al
     title: src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseMonetaryInfoProvider.Interface.al (releases/29.x)
     date: null
-    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
+    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "PEPPOL Purchase Monetary Info Provider" in PEPPOL (Microsoft.Peppol). 2 public procedures. Introduced in BC29, still in BC30.
 
-PEPPOL · Microsoft.Peppol · BC29-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseMonetaryInfoProvider.Interface.al) · facts from BC29
+PEPPOL · Microsoft.Peppol · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseMonetaryInfoProvider.Interface.al) · facts from BC29
 
 ## Procedures
 

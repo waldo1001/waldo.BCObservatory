@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:11:35.295Z"
   flags: []
 generated:
-  at: "2026-11-18T00:53:46.429Z"
+  at: "2026-11-20T00:53:40.205Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -161,8 +161,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573338
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -234,12 +233,10 @@ features:
     verified: false
     status_source: video
   - name: Language Service Protocol support
-    status: ga
+    status: unclear
     t: 731
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573338"
+    status_source: video
   - name: Symbol reference information wrapping
     status: unclear
     t: 233
@@ -386,7 +383,7 @@ It then covers the design: Roslyn concepts, a compiler-as-a-service that also dr
 |---|---|---|
 | AL compiler | status not stated | [0:08](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=8s) |
 | Partial compilation and recovery | status not stated | [13:03](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=783s) |
-| Language Service Protocol support | generally available (roadmap [Use AL language intelligence from AI agents and other editors](../features/573338.md)) | [12:11](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=731s) |
+| Language Service Protocol support | status not stated | [12:11](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=731s) |
 | Symbol reference information wrapping | status not stated | [3:53](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=233s) |
 | AL transpiler to C# | status not stated | [16:48](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1008s) |
 | Text-based source code storage | status not stated | [19:14](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1154s) |
@@ -395,8 +392,6 @@ It then covers the design: Roslyn concepts, a compiler-as-a-service that also dr
 | Visual Studio Code designers | status not stated, demoed | [25:16](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1516s) |
 | Compiler API exposure | status not stated | [25:53](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1553s) |
 | AL extensions in Visual Studio Code marketplace | status not stated | [27:15](https://www.youtube.com/watch?v=ADXkUFI_VWI&t=1635s) |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

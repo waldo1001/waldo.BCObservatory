@@ -12,7 +12,7 @@ review:
   at: "2026-11-13T01:01:22.015Z"
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -858,6 +858,8 @@ links:
     - video/N_J1HB_fUCM
     - video/pE19K17wpgI
   posts:
+    - post/gerardorenteria-blog/14099
+    - post/gerardorenteria-blog/14103
     - post/gerardorenteria-blog/14595
     - post/gerardorenteria-blog/15508
     - post/yzhums-com/73165
@@ -897,7 +899,7 @@ coverage:
   learn: 258
   code: 523
   video: 6
-  blog: 3
+  blog: 5
   guideline: 0
 bc_forms:
   - 1
@@ -1506,6 +1508,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9341 [main][Change Request] Page 8901 - Add empty "layout" to the RoleCenter](../../../changes/bcapps/9341.md) (code change): "Empty layout section added to the Finance Manager Role Center"
 - [#9391 [Master] - Slice 616928: [Expense Management] [App part] Expense Managements Travel Requisitions 💸](../../../changes/bcapps/9391.md) (code change): "Expense Management adds travel requisition support: new API pages"
 - [#9587 Concurrent posting for General Ledger entries](../../../changes/bcapps/9587.md) (code change): "Concurrent posting support for General Ledger entries"
+- [New Application Ideas of Dynamics 365 Business Central (2026 JAN)](../../../posts/gerardorenteria-blog/14099.md) (community post): "Financial management ideas focus on reporting, deferrals, SEPA compliance"
+- [New Application Ideas of Dynamics 365 Business Central (2026 FEB)](../../../posts/gerardorenteria-blog/14103.md) (community post): "Finance ideas cover the German VAT ID validation interface, pausing subscription"
 - [New Application Ideas of Dynamics 365 Business Central (2026 APR)](../../../posts/gerardorenteria-blog/14595.md) (community post): "Ideas address both core functionality improvements and localization needs"
 - [New Application Ideas of Dynamics 365 Business Central (2026 OCT)](../../../posts/gerardorenteria-blog/15508.md) (community post): "Finance and localization ideas focus on e-invoicing and on SEPA and ISO 20022 exports"
 - [Business Central 2026 release wave 1 (BC28.1): Expense Management module (Manage employee expenses)](../../../posts/yzhums-com/73165.md) (community post): "new native Expense Management module that enables employees to create, submit, and track expense reports"

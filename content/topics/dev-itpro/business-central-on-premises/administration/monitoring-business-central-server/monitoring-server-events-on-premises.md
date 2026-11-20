@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -164,13 +164,13 @@ For deeper analysis, trace events from the Microsoft-DynamicsNAV-Server and Micr
   - Telemetry trace events provide data about application operations and usage, including both system and custom events sent via SENDTRACETAG.
   - Some trace events have separate start and stop operations to measure duration; monitoring tools like PerfView automatically calculate duration.
 - [Monitoring Business Central Server Events in Event Viewer](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-events-windows-event-log): Use Windows Event Viewer to inspect Business Central Server events, browse channel logs, and filter errors by tenant, server instance, and time range.
-  - Server events are recorded in Event Viewer under Applications and Services Logs in Microsoft > DynamicsNAV folder.
-  - Admin log contains events for end users and IT administrators indicating problems that need action, such as tenant database failing to mount.
-  - Operational log provides information about server operations including ordinary events that do not require action but help diagnose problems.
-  - Debug log contains SQL tracing, service calls, and AL function call trace events. This log is hidden and disabled by default.
-  - Common folder telemetry events with IDs 700-707 are emitted from the application using SENDTRACETAG method calls.
-  - Application log is a secondary log containing the same admin and operational events as the DynamicsNAV Server channel.
-  - Event Viewer filtering can display only events meeting specific criteria such as a particular server instance, tenant, or time period.
+  - Business Central Server events are recorded in event channels specific to Business Central and the Windows Application log
+  - Admin log includes events targeting end users and IT administrators indicating problems requiring action
+  - Operational log includes ordinary operating events providing information for analysis and diagnosis
+  - Debug log includes SQL tracing, service call traces, and AL function call traces
+  - Limit: Debug logs are hidden and disabled by default in Event Viewer
+  - Telemetry events in Common folder have IDs 700-716 in version 29
+  - Prerequisite: Diagnostic Trace Level configuration setting controls the lowest severity level of telemetry events recorded in the event log
 - [Monitoring Business Central Server Events with PowerShell](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-events-with-powershell): Learn how to use PowerShell to monitor Business Central Server instances
   - Get-WinEvent PowerShell cmdlet retrieves server events and trace events from event logs and trace files.
   - Events visible in Event Viewer under Applications and Services Logs, Microsoft, DynamicsNAV, Common, Admin.

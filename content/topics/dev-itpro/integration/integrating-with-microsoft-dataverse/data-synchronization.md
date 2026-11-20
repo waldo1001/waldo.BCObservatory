@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization
 type: topic
 title: Data synchronization
-summary: "Data synchronization between Business Central and Microsoft Dataverse: setting up bidirectional sync, customizing integration tables, field and option mappings, coupling records, and generating AL proxy tables. It answers how-to questions about extending or customizing the sync. It also has a Dataverse API subtopic."
+summary: "Data synchronization between Business Central and Microsoft Dataverse: setup, the Base Integration Solution, customizing integration tables, field and option mappings, coupling records, and generating AL proxy tables. It answers how to set up, extend and customize Dataverse sync. A Dataverse API subtopic (11 pages) goes deeper."
 tier: official
 language: en
 system: integration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T21:13:11.961Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 8abf801553c5599e42d8d243789d348a79995034f15101da7071817b3cfe9780
+  input_hash: d131e1d27c5ef73b2dc351e15be40b4b66eb57f74d3f4c27abd183dd9323be35
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-dataverse/dynamics-dataverse-api
@@ -169,28 +169,28 @@ narrative: generated
 
 # Data synchronization
 
-> Data synchronization between Business Central and Microsoft Dataverse: setting up bidirectional sync, customizing integration tables, field and option mappings, coupling records, and generating AL proxy tables. It answers how-to questions about extending or customizing the sync. It also has a Dataverse API subtopic.
+> Data synchronization between Business Central and Microsoft Dataverse: setup, the Base Integration Solution, customizing integration tables, field and option mappings, coupling records, and generating AL proxy tables. It answers how to set up, extend and customize Dataverse sync. A Dataverse API subtopic (11 pages) goes deeper.
 
-Path: [Integration](../../integration.md) > [Integrating with Microsoft Dataverse](../integrating-with-microsoft-dataverse.md) > Data synchronization · tier official · system integration · narrative reviewed (checked by Opus)
+Path: [Integration](../../integration.md) > [Integrating with Microsoft Dataverse](../integrating-with-microsoft-dataverse.md) > Data synchronization · tier official · system integration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how Business Central exchanges data with Microsoft Dataverse and other Dynamics 365 applications such as Customer Engagement. The entry page explains bidirectional sync, entity mapping, the Base Integration Solution, currency synchronization, and company copying with integration.
+This section covers how Business Central synchronizes data with Microsoft Dataverse, for example with Dynamics 365 Sales or Dynamics Field Service. Data can be synchronized in one direction or both. The main page explains setup requirements, the Base Integration Solution, integration table mappings and how to handle currency differences between the systems.
 
-The other pages cover customization. One page describes creating integration tables, pages, and mappings, and coupling and uncoupling records. A second page covers option mappings, which couple Business Central records with Dataverse option sets without bidirectional support. A third page describes the AL Table Proxy Generator, which creates proxy tables that represent Dataverse tables in Business Central.
+The other pages cover customization. One describes creating integration tables, pages and mappings, and coupling and uncoupling records. A second covers option mappings, which couple Business Central records with Dataverse option sets. The third describes the AL Table Proxy Generator, which creates proxy tables in Business Central that represent Dataverse tables.
 
-Start with the "Integrate with Microsoft Dataverse via data sync" page for the basics. Then use the proxy table generator and the customization pages when you need to sync additional tables or fields. The Dataverse API subtopic (11 pages) holds further material on the API.
+Start with the page on integrating via data sync to understand the setup. Then use the customization pages when you need to sync extra tables, fields or option sets. The Dataverse API subtopic (11 pages) is the next step for API-level work.
 
 ## Key points
 
-- Business Central can synchronize data bidirectionally with Dataverse and other Dynamics 365 apps such as Customer Engagement.
-- The basic integration uses entity mapping and the Base Integration Solution, and includes currency synchronization and company copying with integration.
-- Customizing an integration means creating integration tables, pages, and table and field mappings.
-- Records can be coupled and uncoupled, and the customization page also mentions deep linking.
-- Option mappings couple Business Central records with Dataverse option sets, but without bidirectional support.
-- Option mapping customization uses integration tables, pages, AL extensions, and temporary tables.
-- The AL Table Proxy Generator creates integration or proxy tables for Dataverse tables, with field mapping, lookup relationships, and table type selection.
-- A Dataverse API subtopic with 11 pages sits under this section.
+- Synchronization can be bidirectional or unidirectional with Dynamics 365 apps such as Sales or Field Service.
+- The Base Integration Solution and integration table mappings are part of the base setup.
+- Currency differences between the systems need to be handled, and the main page covers this.
+- Custom integrations use integration tables, pages, field mappings and table mappings.
+- Records can be coupled and uncoupled, and deep linking is covered.
+- Option mappings couple Business Central records with Dataverse option sets, without bidirectional support.
+- Option mapping customization uses AL extensions and temporary tables.
+- The AL Table Proxy Generator creates proxy tables for Dataverse tables, including lookup relationships, with a choice of table type.
 
 ## Subtopics
 

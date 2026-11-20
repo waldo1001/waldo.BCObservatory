@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -131,11 +131,13 @@ Once a migration is running, the Cloud Migration Management page is the place to
   - Users added during migration should not have Intelligent Cloud permission set automatically assigned.
   - Limit: Avoid entering data in online companies during migration, as rerunning migration can overwrite it.
 - [Manage Dynamics SL Cloud Migration in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-sl): Learn how to monitor Dynamics SL cloud migration, investigate errors, configure companies and table mappings, and manage replication and data upgrade.
-  - Cloud Migration Management page provides central hub for managing migration with status tracking and error details.
-  - Migration Log shows status of all runs including time and progress; tiles display migrated table counts.
-  - Configure SL Migration action sets up migration settings for migrating company data from Dynamics SL.
-  - Run data replication starts migration manually; subsequent runs migrate only changes since previous run using change tracking.
-  - Complete migration action completes cloud migration setup from menu options.
+  - Cloud Migration Management page provides central hub for managing Dynamics SL cloud data migration.
+  - Permissions: SUPER permission set required for most management actions.
+  - Migration log shows status of migration runs with time and progress; statistics display tables successful, remaining, failed, and warnings.
+  - SL Cloud Migration Errors and Failed Companies help investigate company migration failures.
+  - Change tracking identifies changes for tables supporting incremental replication in subsequent runs.
+  - Pause migration disables cloud migration for later resumption without stopping in-progress replication.
+  - Abandon migration disables cloud migration permanently without stopping in-progress replication or removing migrated data.
   - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md), [Page 4009 "Migration Table Mapping"](../../../../../objects/page/4009.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:47:08.789Z"
+  at: "2026-11-20T00:47:37.951Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 49c6aed47cd8d6b092ca8124430c1208d0af9407cd26bae99498d988a5df672f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/System%20Application/App/AI/src/Azure%20OpenAI/Chat%20Completion/Tools/AOAIFunction.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/System%20Application/App/AI/src/Azure%20OpenAI/Chat%20Completion/Tools/AOAIFunction.Interface.al
     title: src/System Application/App/AI/src/Azure OpenAI/Chat Completion/Tools/AOAIFunction.Interface.al (releases/29.x)
     date: null
-    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
+    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Interface "AOAI Function" in System Application (System.AI). 3 public procedures. Introduced in BC24, still in BC30.
 
-System Application · System.AI · BC24-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/System%20Application/App/AI/src/Azure%20OpenAI/Chat%20Completion/Tools/AOAIFunction.Interface.al) · facts from BC29
+System Application · System.AI · BC24-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/System%20Application/App/AI/src/Azure%20OpenAI/Chat%20Completion/Tools/AOAIFunction.Interface.al) · facts from BC29
 
 ## Properties
 

@@ -2,7 +2,7 @@
 id: topic/business-central/security-privacy-and-compliance/compliance
 type: topic
 title: Compliance
-summary: Compliance in Business Central covers application-level regulatory support (SOX, IAS/IFRS, Basel II, data privacy), cloud service compliance and SLA, country certifications, the online service overview, and privacy notices for trial features that connect to other Microsoft services. It answers questions about what compliance Business Central provides and where to find it.
+summary: Compliance in Business Central covers how the application and the online service meet regulatory and industry requirements. It answers questions about accounting standards, audit trails, certifications, ISO standards, SLA terms, business continuity, and trial features that connect to other Microsoft services.
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 603109d9d0f1b382b9bfabc2c1c8054be50a54fa8ca9213bc4671869cd78d103
+  input_hash: 59f9c386c4bf518ceb4d5be123bfd3fd5072d0a32e6cc2cadaf60627041bbfff
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/compliance/compliance-application-compliance
@@ -94,28 +94,28 @@ narrative: generated
 
 # Compliance
 
-> Compliance in Business Central covers application-level regulatory support (SOX, IAS/IFRS, Basel II, data privacy), cloud service compliance and SLA, country certifications, the online service overview, and privacy notices for trial features that connect to other Microsoft services. It answers questions about what compliance Business Central provides and where to find it.
+> Compliance in Business Central covers how the application and the online service meet regulatory and industry requirements. It answers questions about accounting standards, audit trails, certifications, ISO standards, SLA terms, business continuity, and trial features that connect to other Microsoft services.
 
 Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Compliance · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects the compliance information for Business Central in one place. It separates compliance of the application itself (financial reporting, audit trails, role-based security) from compliance of the cloud service (ISO standards, industry certifications, SLA, Azure infrastructure) and from country-specific certifications such as tax audit compliance.
+This section gathers the compliance material for Business Central in six pages. Compliance Overview is the index. It points to application compliance, service compliance, certifications, and data privacy topics.
 
-Compliance Overview is the index and the best starting point. From there, Application Compliance explains how the product supports accounting and privacy requirements, while Service Compliance and SLA and Certifications of the service address the hosting and certification side. The service overview for Business Central online describes architecture, availability, backup and update schedules.
+Application Compliance deals with the product itself: how financial reporting, audit trails, and role-based security support requirements such as SOX, IAS/IFRS, and Basel II. Service Compliance and SLA and Service overview for Business Central online deal with the cloud service: ISO and industry certifications, the SLA, Azure infrastructure security, multitenant architecture, backups, geo-redundancy, and the release schedule. Certifications of the service covers country-specific certifications and accreditations.
 
-The page on trial features that connect to other Microsoft services matters for privacy reviews. It lists features such as Share to Teams, Open in OneDrive, Automate actions and Copilot, and explains how privacy notices are managed through the Privacy Notices Status page.
+Start with Compliance Overview to find the right page. Go to Application Compliance for questions about accounting and controls. Use the service pages for hosting, availability, and certification questions. Read the trial features page if you need to know which features send data to other Microsoft services and how privacy notices are managed.
 
 ## Key points
 
-- Application Compliance covers SOX, IAS/IFRS, Basel II and data privacy through chart of accounts, foreign currency handling, segment reporting, reconciliation, audit trails and role-based security.
-- Service Compliance and SLA covers ISO certifications, industry-specific certifications, the service level agreement and Microsoft Azure infrastructure security.
-- Certifications of the service lists country-specific certifications and accreditations, including tax audit certification and local compliance requirements, and mentions ISO 27001.
-- The online service overview describes the multitenant cloud architecture, Azure SQL Database, geo-redundant backups, backup and restore, availability zones and service update schedules.
-- The service overview also covers global availability and Copilot availability.
-- Trial features that connect to Teams, OneDrive, Power Automate, Azure OpenAI and Bing are covered, including Copilot autofill and chat.
+- Application Compliance links Business Central to regulatory requirements including data privacy, SOX, IAS/IFRS, and Basel II.
+- Supporting application capabilities include chart of accounts, foreign currency handling, segment reporting, reconciliation, audit trails, and role-based security.
+- Certifications of the service covers country-specific certifications, tax audit certification, and local compliance requirements.
+- Service Compliance and SLA covers ISO and industry certifications, SLA terms, and Azure infrastructure security.
+- The online service overview describes multitenant architecture, automated and geo-redundant backups, availability zones, and maintenance windows.
+- Major updates ship in April and October, with monthly minor updates.
+- Some trial features connect automatically to Teams, OneDrive, Power Automate, Azure OpenAI, and Bing, including Copilot features.
 - Privacy notices for these connected features are managed on the Privacy Notices Status page.
-- Compliance Overview serves as the index to all compliance topics and documentation.
 
 ## Learn pages
 

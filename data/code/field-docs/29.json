@@ -3,21 +3,21 @@
     7,
     [
       1,
-      "8df2ba47b62fdf6e6189524d4680b9bfb49bb553",
+      "4303e5e584d3aa5d9e98cbc615525a5396ad6ed7",
       "4",
-      "8df2ba47b62fdf6e6189524d4680b9bfb49bb553",
+      "4303e5e584d3aa5d9e98cbc615525a5396ad6ed7",
       "4"
     ]
   ],
   "schema": "bcobs-field-docs@1",
   "major": "29",
   "stats": {
-    "tooltips": 19052,
-    "bound": 12964,
+    "tooltips": 19054,
+    "bound": 12965,
     "unparsed": 2998,
-    "unmatched": 3090,
+    "unmatched": 3091,
     "tables": 1096,
-    "fields": 9103
+    "fields": 9104
   },
   "tables": {
     "table/4": {
@@ -32249,6 +32249,11 @@
         "tooltip": "Specifies whether data synchronization with the chosen source company.",
         "page": "page/7230",
         "control": "Is Enabled"
+      },
+      "Source Cert. Expiration Date": {
+        "tooltip": "Specifies when the certificate that authenticates to the source environment expires. Use the Cross-Environment Setup action to upload a new certificate before this date.",
+        "page": "page/7230",
+        "control": "Source Cert. Expiration Date"
       },
       "Source Company Name": {
         "tooltip": "Specifies the company in the source environment that master data is read from. Use the Cross-Environment Setup action to change it.",

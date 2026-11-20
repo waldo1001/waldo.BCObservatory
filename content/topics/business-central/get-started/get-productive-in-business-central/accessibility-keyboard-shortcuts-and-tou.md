@@ -2,7 +2,7 @@
 id: topic/business-central/get-started/get-productive-in-business-central/accessibility-keyboard-shortcuts-and-tou
 type: topic
 title: Accessibility, keyboard shortcuts, and touch gestures
-summary: Accessibility, keyboard shortcuts, and touch and pen gestures in Business Central. It answers questions about navigating without a mouse, assistive technology support, shortcut keys on PC and macOS, and gestures on tablets and phones.
+summary: Accessibility, keyboard shortcuts, and touch and pen gestures in Business Central. It answers questions about navigating the product without a mouse, assistive technology support, shortcut keys on PC and macOS, and swipe and tap gestures on tablets and phones.
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 3ac915d50b8e73485145e3f2992d3120b71a7eb25750888260230d1bf417b298
+  input_hash: 98e3527fc770ded552d9d0289effd1249141fb9da89ae9398529f00445b858d8
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-accessibility
@@ -109,26 +109,27 @@ narrative: generated
 
 # Accessibility, keyboard shortcuts, and touch gestures
 
-> Accessibility, keyboard shortcuts, and touch and pen gestures in Business Central. It answers questions about navigating without a mouse, assistive technology support, shortcut keys on PC and macOS, and gestures on tablets and phones.
+> Accessibility, keyboard shortcuts, and touch and pen gestures in Business Central. It answers questions about navigating the product without a mouse, assistive technology support, shortcut keys on PC and macOS, and swipe and tap gestures on tablets and phones.
 
 Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Accessibility, keyboard shortcuts, and touch gestures · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the ways to work in Business Central without relying on a mouse alone. It has four pages: one on accessibility in general, two on keyboard shortcuts, and one on touch and pen gestures.
+This section helps users work in Business Central with the keyboard, touch, or pen, and with assistive technology. It starts with an accessibility overview and then moves to reference pages for shortcuts and gestures.
 
-The accessibility page describes how the application supports people with disabilities: keyboard navigation, semantic markup, alternative text for images, zoom, tooltips, and touch and pen gestures. The two shortcut pages list keys for navigation, lists, cards, documents, filtering and common actions. One is a short PC-only quick reference. The other is more complete and covers PC and macOS. The gestures page covers tapping, swiping and holding on tablets and phones.
+The overview page describes the accessibility features: keyboard navigation, touch and pen gestures, semantic markup, alternative text for images, screen reader support, zoom, and tooltips. The two keyboard pages are references. One is a PC-only quick reference. The other is a fuller list that covers both PC and macOS. The last page covers touch and pen gestures on tablets and phones.
 
-Start with the accessibility page for an overview. Then use the full keyboard shortcuts page to look up a specific key, or the PC quick reference for a shorter list. Use the touch page for mobile devices.
+Start with the accessibility overview to see what is supported. Then use the keyboard shortcuts page for the full list across areas of the product. Use the PC quick reference for a shorter list. Use the gestures page for tablet and phone use.
 
 ## Key points
 
-- The accessibility page covers keyboard navigation, semantic markup, alternative text for images, zoom in and out, and tooltips on UI elements.
-- The full keyboard shortcuts page covers PC and macOS, with sections for general navigation, lists, cards, documents, Copilot autofill, quick entry, calendars, reports, zooming and role explorer.
-- The PC-only quick reference lists access keys, factbox pane, tell me search, find entries, my settings and role explorer shortcuts.
-- Shortcuts exist for common actions such as creating new records, searching, copying data, and multitasking across pages.
-- Touch and pen gestures for tablets and phones include tap and hold for tooltips, horizontal list scrolling, a tile options menu, and swipe actions.
-- The gestures page also covers selecting items in Power BI reports and working with charts and lists by touch.
+- The accessibility overview lists keyboard navigation, touch and pen gestures, screen reader support, zoom, tooltips, semantic markup, and alternative text for images.
+- The Keyboard Shortcuts page covers PC and macOS. Its areas include general navigation, lists, cards, documents, Copilot autofill, quick entry, calendars, reports, zooming, and role explorer.
+- The Keyboard Shortcuts page also covers access keys, factbox controls, Tell me search, Find Entries, new record creation, and multitasking across pages.
+- The PC-only quick reference covers general shortcuts, navigation, row selection, copy and paste, search and filter, Quick Entry, report preview, and numeric keypad functions.
+- The PC quick reference also mentions the FactBox pane and analysis mode.
+- Touch and pen gestures for tablets and phones cover chart tooltips, list scrolling, tile options, and swipe actions.
+- The gestures page also covers managing Power BI reports with swipe and tap.
 
 ## Learn pages
 

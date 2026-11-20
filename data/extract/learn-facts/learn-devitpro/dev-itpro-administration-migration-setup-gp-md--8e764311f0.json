@@ -1,42 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-setup-gp.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-gp",
-  "title": "Run cloud migration setup for Dynamics GP migration",
-  "blob": "3b3907dc52a1797465e2eab86497549e750d891e",
+  "title": "Set Up Dynamics GP Cloud Migration to Business Central",
+  "blob": "011a2033b4f409b71fd9591e62eba96efcf8bff5",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "prerequisite",
-      "text": "Any delegated administrator running cloud migration setup must receive approval from a licensed SUPER user with Essentials or Premium license."
+      "text": "SUPER permission set required in Business Central; review Dynamics GP cloud migration prerequisites."
     },
     {
       "kind": "prerequisite",
-      "text": "User running setup must be signed in as administrator of both Microsoft Entra tenant and Business Central online."
+      "text": "Delegated administrators must receive approval from licensed user with Essentials or Premium license and SUPER permission set."
+    },
+    {
+      "kind": "fact",
+      "text": "Dynamics GP migration retains existing Business Central permissions rather than auto-assigning read-only permission set."
     },
     {
       "kind": "step",
-      "text": "Sign in to Microsoft 365 tenant and Business Central online."
+      "text": "Run assisted setup from company not being migrated; setup prevents selecting current company for migration."
     },
     {
       "kind": "step",
-      "text": "Open Cloud Migration Setup assisted setup and accept the warning and privacy notice."
+      "text": "Complete Cloud Migration Setup, select product as Dynamics GP, fill SQL connection info, select companies, finish setup."
     },
     {
-      "kind": "step",
-      "text": "Select Product matching the on-premises version being migrated."
+      "kind": "fact",
+      "text": "Storage capacity is 80 GB plus allowances per licensed Essentials or Premium user and any storage capacity licenses."
     },
     {
-      "kind": "step",
-      "text": "Fill in SQL database connection details and integration runtime information."
-    },
-    {
-      "kind": "step",
-      "text": "Select one or more companies to migrate or enable All Companies."
-    },
-    {
-      "kind": "step",
-      "text": "On GP Company Migration Configuration page select companies and enable Automatic Validation if desired."
+      "kind": "fact",
+      "text": "Rerunning setup allows adding tenants to existing runtime service using existing integration runtime name."
     }
   ],
   "dropped": 0,
@@ -44,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003948,
-      "pages_in_call": 15
+      "cost_usd": 0.004616,
+      "pages_in_call": 12
     }
   ]
 }

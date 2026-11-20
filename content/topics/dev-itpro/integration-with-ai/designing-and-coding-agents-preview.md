@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -221,7 +221,9 @@ links:
     - post/bertverbeek-nl/1290
     - post/demiliani-com/12644
     - post/kauffmann-nl/8436
+    - post/thinkaboutit-be/8170
     - post/yzhums-com/70502
+    - post/yzhums-com/74431
   guidelines: []
   changes:
     - change/bcapps/13761
@@ -244,7 +246,7 @@ coverage:
   learn: 23
   code: 0
   video: 10
-  blog: 8
+  blog: 10
   guideline: 0
 bc_forms: []
 member_hash: 2363f50364b2a6e5ec17552aa75d99987877fc7bce7ed791a7189963ccc729d0
@@ -320,7 +322,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "agents built directly in Business Central with those created in Copilot Studio"
 - [Dynamics 365 Business Central: debugging agent sessions.](../../../posts/demiliani-com/12644.md) (community post): "debug agent sessions directly from Visual Studio Code"
 - [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Production agents require manual conversion to AL code"
+- [Plan, Custom Agents, and Session Target: What Actually Changed in Copilot Chat](../../../posts/thinkaboutit-be/8170.md) (community post): "Plan is now a proper role that reads workspace context, creates structured implementation plans"
 - [Business Central 2025 wave 2 (BC27.4): Envision and design AI agents in Business Central (Custom Agent)](../../../posts/yzhums-com/70502.md) (community post): "users build custom AI agents that turn natural language goals into actions"
+- [Business Central 2026 release wave 1 (BC28.2): Change AI models for agents in the UI](../../../posts/yzhums-com/74431.md) (community post): "agents use different AI models directly in the UI"
 - [What's New: Working with Instructions for Agents in Business Central](../../../videos/1IIlArcHpOY.md) (video): "Agent Instructions Framework; task execution; task chaining in agent workflows"
 - [What's New: AI Development Toolkit (2026 release wave 1)](../../../videos/juUBVPfIp8A.md) (video): "AI Development Toolkit; agent development and design"
 - [Introducing: Envision, Design and Code Business Central Agents](../../../videos/jWqjDTbqjeE.md) (video): "agents; agentic ai; agent framework; permissions; profiles; instructions; agent design"

@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/14307",
+  "input_hash": "5cfb91db2c0d2f6f5cf38a4f30a4054d28267bf1c266551a98ef5e53ca654b2a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-20T00:57:47.506Z",
+  "issues": [
+    "The page does not say this is a backport to releases/29.x.",
+    "'Improved prompts' is not supported; the description says six prompts are packaged in the app, and the safety prompts stay in Key Vault.",
+    "'Helper visibility' refers to code access, not a feature added for visibility.",
+    "The summary mixes up whole-message fallback with defaulting missing quantities to one."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021571,
+    "changes_in_call": 6
+  }
+}

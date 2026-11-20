@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:47:08.789Z"
+  at: "2026-11-20T00:47:37.951Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 69ab50827daf5895ed9a5d8c742140a88b14394c2aad63822d149903ab72da54
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAExpenseAgentApplication.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAExpenseAgentApplication.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAExpenseAgentApplication.Entitlement.al (releases/29.x)
     date: null
-    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
+    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
     t: null
     quote: null
 links:
@@ -88,7 +88,7 @@ relations:
 
 > Entitlement "EA - Expense Agent Application" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAExpenseAgentApplication.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAExpenseAgentApplication.Entitlement.al) · facts from BC29
 
 ## Recent changes
 

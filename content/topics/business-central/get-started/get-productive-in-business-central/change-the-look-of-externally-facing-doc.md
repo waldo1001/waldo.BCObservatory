@@ -2,7 +2,7 @@
 id: topic/business-central/get-started/get-productive-in-business-central/change-the-look-of-externally-facing-doc
 type: topic
 title: Change the look of externally facing documents
-summary: "Report and document layouts in Business Central: Word, Excel, RDLC and external layout types, themes, header/footer layouts, layout selection, customer and vendor document layouts, and available fonts. It answers how to create, design, assign and manage the look of reports, emails and documents."
+summary: "Report and document layouts in Business Central: Word, Excel, RDLC and external layout types, composite layouts with themes and header/footer parts, per-customer and vendor assignment, available fonts, and legacy obsolete layout procedures. It answers how to create, edit, select and brand layouts for external documents."
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0aaf79835e3157a2afd9529e0964935795b14d8b47288b6386975ebe3fdae0c0
+  input_hash: ba7bef1dcf535ab2e89b079cbf8d01faf1019a3eb0696f3e47f68e4748a445f1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
@@ -173,28 +173,24 @@ narrative: generated
 
 # Change the look of externally facing documents
 
-> Report and document layouts in Business Central: Word, Excel, RDLC and external layout types, themes, header/footer layouts, layout selection, customer and vendor document layouts, and available fonts. It answers how to create, design, assign and manage the look of reports, emails and documents.
+> Report and document layouts in Business Central: Word, Excel, RDLC and external layout types, composite layouts with themes and header/footer parts, per-customer and vendor assignment, available fonts, and legacy obsolete layout procedures. It answers how to create, edit, select and brand layouts for external documents.
 
 Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Change the look of externally facing documents · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains how to control the content and format of externally facing documents such as sales and purchase documents and email messages. It starts with an overview of layout types (Word, Excel, RDLC, external, and composite layouts that combine reusable themes with headers and footers), then covers how to create and manage layouts, including status management, validation, copying and export/import.
-
-Design pages are split by layout type. Word layouts can be built with the Business Central Word add-in or by mapping fields with the XML Mapping pane. Excel layouts use formulas, PivotTables and PivotCharts. RDLC layouts are designed in SQL Server Report Builder or the Visual Studio RDLC Report Designer extension. Separate pages cover setting up themes and header/footer layouts, choosing which layout a report uses, and assigning document layouts per customer or vendor. A fonts list helps with Excel, Word, RDL and barcode work.
-
-Start with the overview and "Get started creating report layouts", then move to the page for your layout type. The Use obsolete features subtopic covers the old custom report layout procedures and points to current replacements.
+Report layouts control the content and format of reports and documents such as sales and purchase documents. Business Central supports Word, RDLC, Excel and external layouts, plus composite layouts that combine reusable themes with headers and footers. The overview and "Get started creating report layouts" pages explain the types and how to export, create, import, validate and retire layouts on the Report Layouts page.
 
 ## Key points
 
-- Layout types are Word, Excel, RDLC and external, with Default and Body subtypes; composite layouts combine reusable themes with header/footer layouts.
-- Layouts have a status workflow: Draft, Pending Approval, Approved, Retired. They can be validated, copied, exported and imported.
-- Word layouts can be designed with the Word add-in (Add Data pane, tables, repeaters, hide-if-empty controls) or by mapping fields in the XML Mapping pane.
-- Excel layouts support formulas, multiple worksheets, PivotTables, PivotCharts, worksheet protection and sensitivity labels.
-- RDLC layouts are an advanced option designed in SQL Server Report Builder or the Visual Studio RDLC Report Designer extension.
-- Default layout can be set per company, switched temporarily from the report request page, or managed in the Report Layouts and Report Layout Selection pages.
-- Themes and header/footer layouts resolve independently, with priority from layout-specific to company and global defaults.
-- Customers and vendors can have their own document layouts, with email body and attachment layouts and email recipients chosen from contacts.
+- Layout types: Word, Excel, RDLC and external, plus composite layouts that combine reusable themes and headers/footers.
+- Get started page covers exporting an existing layout to customize or creating one from a blank template, and managing status, validation and retirement on the Report Layouts page.
+- Word layouts can be designed with the Business Central Word add-in (Add Data pane, tables, repeaters, hide-if-empty controls) or by mapping fields in the XML Mapping pane (version 29 pages).
+- Excel layouts use formulas, PivotTables, PivotCharts and multiple worksheets, and require specific data sheet content (version 29 page).
+- RDLC layouts are designed with SQL Server Report Builder or the Visual Studio RDLC Report Designer extension.
+- Default layouts can be set per company, or switched temporarily from the report request page; Report Layouts and Report Layout Selection pages manage them.
+- Themes and header/footer layouts resolve independently, with priority from layout-specific up to company and global defaults.
+- Customers and vendors can have their own document layouts, email body and attachment layouts, and email recipients per document type.
 
 ## Subtopics
 

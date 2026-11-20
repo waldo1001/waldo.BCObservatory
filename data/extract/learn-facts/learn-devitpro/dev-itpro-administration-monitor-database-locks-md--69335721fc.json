@@ -1,26 +1,26 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-database-locks.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-database-locks",
-  "title": "Monitoring SQL Database Locks",
-  "blob": "5d818e3bfc22f1ad433ee684d4623f0844ea3ffc",
+  "title": "Monitoring SQL Database Locks in Business Central",
+  "blob": "af9b430bf5b682044b0e48aaffff23e87b4554c9",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Locking controls access to data by multiple users; locks remain until transaction completes."
+      "text": "The Database Locks page with ID 9511 shows a snapshot of database lock requests for the current database"
     },
     {
       "kind": "fact",
-      "text": "Database locks limit concurrent transaction access based on locking mode set by SQL Server, potentially blocking users from completing transactions."
+      "text": "Intent and schema locks are excluded from the Database Locks page display"
+    },
+    {
+      "kind": "limit",
+      "text": "Business Central Fall 2018 or earlier versions require using the development environment Debugger to view database locks"
     },
     {
       "kind": "fact",
-      "text": "View current database locks by opening page 9511 Database Locks in the client for snapshot of all SQL Server locks."
-    },
-    {
-      "kind": "fact",
-      "text": "Database Locks page shows affected table, database resource, AL object, and method information to understand locking conditions."
+      "text": "Lock information includes affected table, database resource, and associated AL object or method when available"
     }
   ],
   "dropped": 0,
@@ -28,8 +28,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004158,
-      "pages_in_call": 16
+      "cost_usd": 0.005233,
+      "pages_in_call": 9
     }
   ]
 }

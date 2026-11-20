@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:47:08.789Z"
+  at: "2026-11-20T00:47:37.951Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 929ab86d31423441ff789784000c1c61150d8c7f3bc9a198d69412ebaf2faffc
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/External%20File%20Storage%20-%20Azure%20Blob%20Service%20Connector/app/Entitlements/ExtBlobStorageConnector.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/External%20File%20Storage%20-%20Azure%20Blob%20Service%20Connector/app/Entitlements/ExtBlobStorageConnector.Entitlement.al
     title: src/Apps/W1/External File Storage - Azure Blob Service Connector/app/Entitlements/ExtBlobStorageConnector.Entitlement.al (releases/29.x)
     date: null
-    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
+    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Ext. Blob Storage Connector" in External File Storage - Azure Blob Service Connector (System.ExternalFileStorage). Introduced in BC29, still in BC30.
 
-External File Storage - Azure Blob Service Connector · System.ExternalFileStorage · BC29-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/External%20File%20Storage%20-%20Azure%20Blob%20Service%20Connector/app/Entitlements/ExtBlobStorageConnector.Entitlement.al) · facts from BC29
+External File Storage - Azure Blob Service Connector · System.ExternalFileStorage · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/External%20File%20Storage%20-%20Azure%20Blob%20Service%20Connector/app/Entitlements/ExtBlobStorageConnector.Entitlement.al) · facts from BC29
 
 ## Across versions
 

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:47:08.789Z"
+  at: "2026-11-20T00:47:37.951Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c6639014d39f4d0abd22b8544aa047823ef90fcb5be75e3887396107af094fb4
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoTool/ContosoDemoDataModule.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoTool/ContosoDemoDataModule.Interface.al
     title: src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoTool/ContosoDemoDataModule.Interface.al (releases/29.x)
     date: null
-    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
+    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Contoso Demo Data Module" in ContosoCoffeeDemoDataset (Microsoft.DemoTool). 6 public procedures. Introduced in BC29, still in BC30.
 
-ContosoCoffeeDemoDataset · Microsoft.DemoTool · BC29-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoTool/ContosoDemoDataModule.Interface.al) · facts from BC29
+ContosoCoffeeDemoDataset · Microsoft.DemoTool · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoTool/ContosoDemoDataModule.Interface.al) · facts from BC29
 
 ## Procedures
 

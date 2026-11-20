@@ -12,7 +12,7 @@ review:
   at: "2026-11-12T00:57:39.316Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -327,6 +327,7 @@ links:
     - post/nataliekarolak-com/3494
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee
     - post/yzhums-com/61902
+    - post/yzhums-com/67310
     - post/yzhums-com/68077
     - post/yzhums-com/74975
   guidelines: []
@@ -356,7 +357,7 @@ coverage:
   learn: 69
   code: 0
   video: 2
-  blog: 9
+  blog: 10
   guideline: 0
 bc_forms: []
 member_hash: 4b85c5a961bfa013683b351bf15cdd48537c4ed457c3eb55957b8da3fe6729b7
@@ -421,6 +422,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How to write good tooltips as a BC developer](../../../../posts/nataliekarolak-com/3494.md) (community post): "write good tooltips as a BC developer"
 - [Business Central ToolTip and ToolTipML Properties Are Now Available on Pages](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee.md) (community post): "ToolTip and ToolTipML properties directly on page objects"
 - [Dynamics 365 Business Central: Why are customer pictures round and item pictures square?](../../../../posts/yzhums-com/61902.md) (community post): "ExtendedDatatype property set to Person for customer images, which the client renders"
+- [Business Central 2025 wave 2 (BC27): Hide Copilot summaries (Summary System Part Support)](../../../../posts/yzhums-com/67310.md) (community post): "modify(DefaultSummaryPart) in a page extension or declare it explicitly as a systempart"
 - [Business Central 2025 wave 2 (BC27): Support for new ExtendedDataType value: Document (display/preview a PDF as a portrait image in FactBox)](../../../../posts/yzhums-com/68077.md) (community post): "Document for Media and MediaSet fields, enabling portrait-oriented content like PDFs"
 - [Dynamics 365 Business Central: Add a calculator to the sales order page](../../../../posts/yzhums-com/74975.md) (community post): "Control add-ins are inserted into pages using the usercontrol keyword"
 - [Business Central Under the Hood episode 7: Designing Business Central's UI, From Concept To Code](../../../../videos/ugHFHtSxTlw.md) (video): "ui design; user experience; ux; design process; fluent design language"

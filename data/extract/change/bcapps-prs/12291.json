@@ -6,16 +6,16 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "Fixed two defects in purchase receipt handling where the tracking buffer filter cleanup targeted the wrong field and the wrong buffer was passed to inspection creation, with comprehensive test coverage added.",
+  "summary": "Fixes two defects in the Quality Management purchase receipt subscriber. Filter cleanup now clears Quantity Handled (Base), so later posting event subscribers no longer get a filtered buffer. Inspection creation on the tracked path now receives the single-record buffer instead of the full posting buffer.",
   "key_points": [
-    "Filter cleanup now clears correct field 'Quantity Handled (Base)' instead of 'Qty. to Invoice (Base)'",
-    "Single-record buffer now passed to inspection creation instead of full posting buffer",
-    "Downstream subscribers now receive filtered buffer only for intended tracking records",
-    "Post-event subscribers receive correct buffer state for their processing",
-    "Added two new tests covering multi-lot tracking and filter cleanup validation"
+    "Filter cleanup clears Quantity Handled (Base) instead of Qty. to Invoice (Base)",
+    "Later posting events such as OnBeforeInsertTrackingSpecification no longer see a leftover filter on the tracking buffer",
+    "On the tracked path, subscribers of the OnBefore/OnAfterPurchaseAttemptCreateInspectionWithPurchaseLine events now see only the tracking record being inspected",
+    "The inspections created and the posted data are unchanged",
+    "Adds two tests and a manually bound test subscriber codeunit"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

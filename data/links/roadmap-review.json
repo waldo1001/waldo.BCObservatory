@@ -73,78 +73,73 @@
     "573254": {
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-overview.md@22e0ea1082245014": {
         "verdict": "drop",
-        "reason": "General Expense Agent overview listing mileage expenses, with no mention of date ranges or vehicle types.",
-        "at": "2026-11-16T00:54:53.574Z"
+        "reason": "General Expense Agent overview listing mileage expenses without date-range or vehicle-type rates.",
+        "at": "2026-11-20T00:53:20.287Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-upload-receipts.md@a91f098faaa56c34": {
         "verdict": "drop",
-        "reason": "Describes basic mileage expense creation, not date-range or vehicle-type rates.",
-        "at": "2026-11-16T00:54:53.574Z"
+        "reason": "Describes mileage expense creation generally, not date-range or vehicle-type rate configuration.",
+        "at": "2026-11-20T00:53:20.287Z"
       },
       "video/4TE8uwIi91k#3@4151766ef06f91dc": {
         "verdict": "keep",
-        "reason": "Shows a vehicle type being selected during mileage expense creation, with the rate calculated automatically, which is one piece of this feature.",
-        "at": "2026-11-16T00:54:53.574Z"
+        "reason": "Shows selecting a vehicle type when creating a mileage expense, which drives the rate selection in this feature.",
+        "at": "2026-11-20T00:53:20.287Z"
       },
       "video/cVfZoDwKYpI#2@b12d4e66f615e2c7": {
         "verdict": "drop",
-        "reason": "General mileage rate computation, with no date-range or vehicle-type differentiation.",
-        "at": "2026-11-16T00:54:53.574Z"
+        "reason": "Generic mileage rate computation for car travel with no date ranges or vehicle types.",
+        "at": "2026-11-20T00:53:20.287Z"
       },
       "video/cWVhWBMbXb4#0@236a49e6e2031648": {
         "verdict": "keep",
-        "reason": "Directly demonstrates the start and end dates for mileage rates in mileage setup.",
-        "at": "2026-11-16T00:54:53.574Z"
+        "reason": "Demonstrates start and end dates for mileage rates with automatic transitions between rates.",
+        "at": "2026-11-20T00:53:20.287Z"
       },
       "video/cWVhWBMbXb4#1@236a49e6e2031648": {
         "verdict": "keep",
-        "reason": "Directly demonstrates separate mileage rates per vehicle type, applied automatically.",
-        "at": "2026-11-16T00:54:53.574Z"
+        "reason": "Demonstrates vehicle-type-specific mileage rates applied automatically during expense entry.",
+        "at": "2026-11-20T00:53:20.287Z"
       },
       "video/cWVhWBMbXb4#2@236a49e6e2031648": {
         "verdict": "keep",
-        "reason": "Shows the new mileage rate setup table organized by date range and vehicle type.",
-        "at": "2026-11-16T00:54:53.574Z"
+        "reason": "Shows the new mileage rate setup table configured by date range and vehicle type.",
+        "at": "2026-11-20T00:53:20.287Z"
       },
-      "video/Fz8NLByllRc#0@028e8a58264d0df4": {
+      "video/Fz8NLByllRc#0@006d588a45bb025c": {
         "verdict": "drop",
-        "reason": "Earlier wave 1 mileage expense creation, an older capability.",
-        "at": "2026-11-16T00:54:53.574Z"
+        "reason": "Older wave 1 mileage expense creation via map, not date-range or vehicle-type rates.",
+        "at": "2026-11-20T00:53:20.287Z"
       },
-      "video/Fz8NLByllRc#1@028e8a58264d0df4": {
+      "video/Fz8NLByllRc#2@006d588a45bb025c": {
         "verdict": "drop",
-        "reason": "Multi-route selection is a different capability.",
-        "at": "2026-11-16T00:54:53.574Z"
+        "reason": "Older generic rate calculation based on distance and configured rate.",
+        "at": "2026-11-20T00:53:20.287Z"
       },
-      "video/Fz8NLByllRc#2@028e8a58264d0df4": {
+      "video/Fz8NLByllRc#3@006d588a45bb025c": {
         "verdict": "drop",
-        "reason": "Earlier wave 1 rate calculation based only on distance and one configured rate.",
-        "at": "2026-11-16T00:54:53.574Z"
+        "reason": "Round trip toggle is a different capability.",
+        "at": "2026-11-20T00:53:20.287Z"
       },
-      "video/Fz8NLByllRc#3@028e8a58264d0df4": {
+      "video/Fz8NLByllRc#4@006d588a45bb025c": {
         "verdict": "drop",
-        "reason": "The round trip toggle is a different capability.",
-        "at": "2026-11-16T00:54:53.574Z"
+        "reason": "Older single rate-per-unit configuration, not date or vehicle-type based.",
+        "at": "2026-11-20T00:53:20.287Z"
       },
-      "video/Fz8NLByllRc#4@028e8a58264d0df4": {
-        "verdict": "drop",
-        "reason": "Earlier rate-per-unit configuration, with no date ranges or vehicle types.",
-        "at": "2026-11-16T00:54:53.574Z"
-      },
-      "video/Fz8NLByllRc#5@028e8a58264d0df4": {
+      "video/Fz8NLByllRc#5@006d588a45bb025c": {
         "verdict": "drop",
         "reason": "Shortest route enforcement is a different capability.",
-        "at": "2026-11-16T00:54:53.574Z"
+        "at": "2026-11-20T00:53:20.287Z"
       },
       "video/tj1vvsmAMVs#0@8bff31977f8f95e5": {
         "verdict": "keep",
         "reason": "Announces period-based mileage rates applied automatically by expense date.",
-        "at": "2026-11-16T00:54:53.574Z"
+        "at": "2026-11-20T00:53:20.287Z"
       },
       "video/tj1vvsmAMVs#1@8bff31977f8f95e5": {
         "verdict": "keep",
-        "reason": "Announces vehicle-type mileage rates combined with date ranges.",
-        "at": "2026-11-16T00:54:53.574Z"
+        "reason": "Announces vehicle-type-specific mileage allowances combined with date ranges.",
+        "at": "2026-11-20T00:53:20.287Z"
       }
     },
     "573255": {
@@ -1746,170 +1741,200 @@
     "573319": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-analysis-view-package.md@6dfb24b9d017bb2b": {
         "verdict": "drop",
-        "reason": "Covers packaging analysis views in AL extensions, not bookmarking to the role center or profiles.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "reason": "Describes packaging analysis views in AL extensions, not bookmarking to role centers.",
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "docs/learn-smb-docs/business-central/ad-hoc-analysis-sales.md@6610081b1e4bc21e": {
         "verdict": "drop",
         "reason": "General ad-hoc analysis of sales data with no mention of bookmarking.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "docs/learn-smb-docs/business-central/analysis-mode.md@675e6a4f9d6c79ee": {
         "verdict": "keep",
         "reason": "Explicitly documents bookmarking analysis views to the Role Center.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/6Zb7VAvLVm4#10@b9887273d2e63e7a": {
         "verdict": "drop",
         "reason": "Power BI report page bookmarking is a different, older capability.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/eg3FRViYFNM#22@665fe2433cf9aea3": {
         "verdict": "drop",
-        "reason": "General analysis tabs GA announcement with no bookmarking.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "reason": "General analysis tabs GA announcement, not bookmarking.",
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/eg3FRViYFNM#23@665fe2433cf9aea3": {
         "verdict": "drop",
-        "reason": "Sharing analysis tabs via hyperlinks is a different capability.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "reason": "Sharing analysis tab links is a different capability.",
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/fJGY6d-2lO8#3@3960cb3a71257bdc": {
         "verdict": "drop",
-        "reason": "Shipping analysis views with AL apps is not bookmarking.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "reason": "Shipping analysis views with AL apps is a different feature.",
+        "at": "2026-11-20T00:53:21.252Z"
+      },
+      "video/Fk6kWTe3f2Y#0@bffa3ee261937977": {
+        "verdict": "drop",
+        "reason": "AL extension packaging of analysis views, not bookmarking.",
+        "at": "2026-11-20T00:53:21.252Z"
+      },
+      "video/Fk6kWTe3f2Y#1@bffa3ee261937977": {
+        "verdict": "drop",
+        "reason": "JSON export of analysis views, not bookmarking.",
+        "at": "2026-11-20T00:53:21.252Z"
+      },
+      "video/Fk6kWTe3f2Y#10@bffa3ee261937977": {
+        "verdict": "drop",
+        "reason": "Export/import cycle for AL, not bookmarking.",
+        "at": "2026-11-20T00:53:21.252Z"
+      },
+      "video/Fk6kWTe3f2Y#6@bffa3ee261937977": {
+        "verdict": "drop",
+        "reason": "Multi-environment deployment via AL, not bookmarking.",
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/fy96_jdL1PQ#1@35837054f782e3e2": {
         "verdict": "drop",
-        "reason": "General description of analysis on list pages.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "reason": "General analysis views on list pages, too general.",
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/jqVt0hYDfz0#0@dc239d6c69643e5c": {
         "verdict": "drop",
-        "reason": "Exporting analysis tabs to AL extensions is a different feature.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "reason": "Delivering analysis views in AL extensions is a different feature.",
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/jqVt0hYDfz0#2@dc239d6c69643e5c": {
         "verdict": "drop",
-        "reason": "AL definition file syntax for analysis views is a different feature.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "reason": "AL definition file property, not bookmarking.",
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/jqVt0hYDfz0#3@dc239d6c69643e5c": {
         "verdict": "drop",
-        "reason": "Page customizations with analysis views for profiles are not role center bookmarks.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "reason": "Page customization with analysis views via AL, not bookmarks added to profiles.",
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/qmLVKyHRhNc#0@1825d048a5157ace": {
         "verdict": "drop",
-        "reason": "General analyze data on list pages introduction.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "reason": "Older general analyze-data feature, not bookmarking.",
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/qmLVKyHRhNc#1@1825d048a5157ace": {
         "verdict": "drop",
-        "reason": "Persistence of the analysis menu state is unrelated to bookmarking.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "reason": "Analysis menu state persistence is a different capability.",
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/qmLVKyHRhNc#10@1825d048a5157ace": {
         "verdict": "drop",
-        "reason": "Company-specific sharing links are a different capability.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "reason": "Company-specific sharing links is a different capability.",
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/qmLVKyHRhNc#2@1825d048a5157ace": {
         "verdict": "drop",
-        "reason": "Data size limit removal is unrelated.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "reason": "Data size limit removal is unrelated to bookmarking.",
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/qmLVKyHRhNc#3@1825d048a5157ace": {
         "verdict": "drop",
         "reason": "Analysis on query objects is a different capability.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/qmLVKyHRhNc#9@1825d048a5157ace": {
         "verdict": "drop",
-        "reason": "Sharing analysis definitions is not bookmarking.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "reason": "Sharing analysis definitions via links, not bookmarking.",
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/ZpzZ6El8GXY#1@0b984cdcd651aeb9": {
         "verdict": "keep",
-        "reason": "Demonstrates bookmarking an analysis tab for navigation from the role center.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "reason": "Demonstrates bookmarking an analysis tab to the role center.",
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/ZpzZ6El8GXY#2@0b984cdcd651aeb9": {
         "verdict": "keep",
         "reason": "Demonstrates bookmarking list views to the role center.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "at": "2026-11-20T00:53:21.252Z"
       },
       "video/ZpzZ6El8GXY#4@0b984cdcd651aeb9": {
         "verdict": "keep",
-        "reason": "Demonstrates adding bookmarked analysis tabs and list views at the profile level.",
-        "at": "2026-11-17T00:54:43.223Z"
+        "reason": "Shows adding bookmarked analysis tabs and list views to profiles.",
+        "at": "2026-11-20T00:53:21.252Z"
       }
     },
     "573320": {
       "docs/learn-smb-docs/business-central/ui-get-started-layouts.md@bea26acbed2ff5bb": {
         "verdict": "keep",
-        "reason": "The Learn page documents layout status management (Draft, Pending Approval, Approved, Retired) for both extension and user-defined layouts.",
-        "at": "2026-11-17T00:54:54.329Z"
+        "reason": "Documents managing layout status and retirement on the Report Layouts page, which is the mechanism this feature uses.",
+        "at": "2026-11-20T00:53:22.238Z"
       },
       "docs/learn-smb-docs/business-central/ui-manage-report-layouts.md@6b390ad2298bdaad": {
         "verdict": "drop",
-        "reason": "A general overview of layout types that doesn't mention layout status or lifecycle.",
-        "at": "2026-11-17T00:54:54.329Z"
+        "reason": "A general overview of layout types that says nothing about layout status.",
+        "at": "2026-11-20T00:53:22.238Z"
       },
       "video/-vdhfNMNZQk#9@e0a03c793cdd31f1": {
         "verdict": "keep",
-        "reason": "Shows setting a status on layouts, including Microsoft-shipped ones, to hide them from users.",
-        "at": "2026-11-17T00:54:54.329Z"
+        "reason": "Shows status being set to hide layouts, including Microsoft-shipped ones.",
+        "at": "2026-11-20T00:53:22.238Z"
       },
       "video/2N2NhNH7dsk#0@909245c324bc87dd": {
         "verdict": "keep",
-        "reason": "Explains that layout status now extends to app-supplied and Microsoft-shipped layouts.",
-        "at": "2026-11-17T00:54:54.329Z"
+        "reason": "Explicitly extends layout status to app-supplied and Microsoft-shipped layouts.",
+        "at": "2026-11-20T00:53:22.238Z"
       },
       "video/2N2NhNH7dsk#1@909245c324bc87dd": {
         "verdict": "keep",
-        "reason": "Shows moving layouts through lifecycle states with the layout status menu.",
-        "at": "2026-11-17T00:54:54.329Z"
+        "reason": "Explains the lifecycle states and the status menu used to manage them.",
+        "at": "2026-11-20T00:53:22.238Z"
       },
       "video/2N2NhNH7dsk#2@909245c324bc87dd": {
         "verdict": "keep",
-        "reason": "Explains how a layout's status controls which layouts end users can see.",
-        "at": "2026-11-17T00:54:54.329Z"
+        "reason": "Explains how status controls which layouts users can see.",
+        "at": "2026-11-20T00:53:22.238Z"
       },
       "video/2u5_F9Ztt7U#7@2ee38684e0681185": {
         "verdict": "keep",
-        "reason": "Directly announces lifecycle control for any layout in the system.",
-        "at": "2026-11-17T00:54:54.329Z"
+        "reason": "Announces lifecycle control for any layout in the system.",
+        "at": "2026-11-20T00:53:22.238Z"
+      },
+      "video/G0avZpiDFtI#14@6046aebc307e389f": {
+        "verdict": "drop",
+        "reason": "Covers layout obsolescence through obsolete tags, which is a different capability.",
+        "at": "2026-11-20T00:53:22.238Z"
+      },
+      "video/G0avZpiDFtI#15@6046aebc307e389f": {
+        "verdict": "drop",
+        "reason": "Covers Report Layouts page properties, not layout status.",
+        "at": "2026-11-20T00:53:22.238Z"
       },
       "video/mS6NDhj20yI#4@c806ee19884b8096": {
         "verdict": "drop",
-        "reason": "Covers lifecycle status for user-defined layouts only, which is the older capability.",
-        "at": "2026-11-17T00:54:54.329Z"
+        "reason": "Covers status for user-defined layouts only, the older capability this feature extends.",
+        "at": "2026-11-20T00:53:22.238Z"
       },
       "video/uxQRfChp96c#2@d361630c8e158753": {
         "verdict": "drop",
-        "reason": "Covers status for financial report definitions, which is a different capability.",
-        "at": "2026-11-17T00:54:54.329Z"
+        "reason": "Covers status for financial report definitions, not report layouts.",
+        "at": "2026-11-20T00:53:22.238Z"
       },
       "video/W003w36Isto#1@cd95377518f05e6f": {
         "verdict": "drop",
-        "reason": "Covers marking layouts obsolete in AL code, which is a different developer capability.",
-        "at": "2026-11-17T00:54:54.329Z"
+        "reason": "Covers obsoleting layouts in AL, which is a different capability.",
+        "at": "2026-11-20T00:53:22.238Z"
       },
       "video/W003w36Isto#2@cd95377518f05e6f": {
         "verdict": "drop",
-        "reason": "Covers an Excel layout property setting, not layout status.",
-        "at": "2026-11-17T00:54:54.329Z"
+        "reason": "Covers Excel layout properties, which is unrelated.",
+        "at": "2026-11-20T00:53:22.238Z"
       },
       "video/W003w36Isto#3@cd95377518f05e6f": {
         "verdict": "drop",
-        "reason": "Covers the layout validation action, not lifecycle status.",
-        "at": "2026-11-17T00:54:54.329Z"
+        "reason": "Covers layout validation, which is a different capability.",
+        "at": "2026-11-20T00:53:22.238Z"
       },
       "video/W003w36Isto#4@cd95377518f05e6f": {
         "verdict": "drop",
-        "reason": "Covers the show layout info action, not lifecycle status.",
-        "at": "2026-11-17T00:54:54.329Z"
+        "reason": "Covers the layout info action, which is a different capability.",
+        "at": "2026-11-20T00:53:22.238Z"
       }
     },
     "573321": {
@@ -2499,287 +2524,302 @@
     "573333": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-extension-advanced-example-test.md@a27c8da67dace2f1": {
         "verdict": "drop",
-        "reason": "Covers general test codeunits and UI handlers, not data-driven tests or lifecycle test handlers.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "General testing walkthrough for a sample extension; no data-driven tests or test handlers.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-test-codeunits-and-test-methods.md@fef0d723518378f2": {
         "verdict": "keep",
-        "reason": "Documents the TestDataSource attribute, data-driven tests, the TestHandlers property and test lifecycle callbacks.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Documents the TestHandlers property, TestDataSource attribute, data-driven tests and lifecycle callbacks.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-testrunner-codeunits.md@dcfb3196dfe1d62d": {
         "verdict": "drop",
-        "reason": "Test runner codeunits are an older, separate mechanism, not the new test handlers or data sources.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Test runner codeunits are an existing capability, not the new data sources or handlers.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
-      "video/9CW5mydS9Vs#9@3096d8bfe757d6e2": {
+      "video/9CW5mydS9Vs#9@613563b1d4191fc3": {
         "verdict": "keep",
-        "reason": "Announces native data-driven test support with test data source attributes, run once per data point.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Announces native data-driven tests in AL with test data source attributes.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#10@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "An agent picker for agent evals is a different capability.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Agent picker for agent evals is a different capability.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#11@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "A YAML eval setup keyword in the agent test library is not the native data source feature.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Agent eval YAML setup keyword, not native AL data-driven tests or handlers.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#12@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Field defaulting in test libraries is a different capability.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Test library defaulting of fields is unrelated to the feature.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#13@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Suite setup caching in agent evals is not the test handler feature.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Agent eval suite setup caching, not lifecycle test handlers.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#14@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "A run-turn helper for agent evals is unrelated to this feature.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Agent turn helper keyword, a different capability.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#15@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "An expected-data keyword for agent evals is a different capability.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Agent eval expected-data keyword, a different capability.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#16@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Logging failures through an error reason field in agent evals is not this feature.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Agent eval error reason logging, not the new test handlers.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#17@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Turn history logging in agent evals is a different capability.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Agent eval turn history logging, a different capability.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#18@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Downloading agent eval logs is unrelated to test handlers or data sources.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Agent eval log download, a different capability.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#19@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent test library methods are a different capability.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Agent test library methods, unrelated to the feature.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#2@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "YAML-driven agent eval data sets come from the existing AI test toolkit, not the native data-driven AL tests.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "YAML-driven agent eval tests are the existing AI test framework, not native data-source tests.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#4@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "The YAML eval definition syntax belongs to agent testing, not this feature.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Agent eval YAML syntax, a different capability.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#5@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "A YAML turn setup section for agent evals is not this feature.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Agent eval YAML turn setup section, a different capability.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#6@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent message attachments in YAML are unrelated.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Agent eval message attachments, unrelated.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#7@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent expected-data verification is a different capability.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Agent eval expected data section, a different capability.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#8@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Multi-turn agent conversation testing is unrelated.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Multi-turn agent testing, unrelated.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/aNRzlbxVPWE#9@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Date placeholders in YAML agent eval data are a different capability.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Date placeholders in agent eval YAML, a different capability.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
-      "video/D_Lur52IrIg#12@27cf5cb45e38c4b5": {
+      "video/D_Lur52IrIg#12@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "Shows the new test source pattern where one test method iterates over reusable data rows.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Shows the new data-driven test source pattern iterating over reusable data rows.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
-      "video/D_Lur52IrIg#13@27cf5cb45e38c4b5": {
+      "video/D_Lur52IrIg#13@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "Shows the test handler interface with lifecycle hooks at codeunit, procedure and test case level.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Shows the test handler interface with lifecycle hooks at codeunit and procedure level.",
+        "at": "2026-11-20T00:53:25.093Z"
+      },
+      "video/EurgqGU1jG0#0@57e74b9e3ccf7b82": {
+        "verdict": "drop",
+        "reason": "Code coverage coding pattern, not this feature.",
+        "at": "2026-11-20T00:53:25.093Z"
+      },
+      "video/EurgqGU1jG0#16@57e74b9e3ccf7b82": {
+        "verdict": "drop",
+        "reason": "Pure functions for testability is general guidance.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/hNom9ZZuca0#0@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Announces data-driven testing in AL, where one test method runs with multiple data sets.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Announces data-driven testing in AL with multiple data sets per test method.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/hNom9ZZuca0#1@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Explains the test data source interface for reusable data sources.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Explains the test data source interface for custom data sources.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/hNom9ZZuca0#2@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Shows data-driven tests working in the VS Code test explorer, part of the feature.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Shows how data-driven tests work in the VS Code test explorer.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/hNom9ZZuca0#4@e20f8a1a85eebcec": {
         "verdict": "keep",
         "reason": "Explains test handlers for setup and teardown at multiple levels.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/hNom9ZZuca0#5@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Explains opt-in test handlers declared through the TestHandlers property.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Explains opt-in test handlers declared via the TestHandlers property.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/hNom9ZZuca0#6@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Explains default test handlers that run on every test, for example for telemetry.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Explains default global test handlers used for telemetry and shared setup.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/hNom9ZZuca0#7@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Explains the ITestHandler interface and its lifecycle hooks.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Documents the ITestHandler interface with before/after hooks.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/hNom9ZZuca0#8@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Explains the TestHandlers property for registering handlers on test codeunits.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Documents the TestHandlers property used to register handlers.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/hNom9ZZuca0#9@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Shows test handlers skipping test cases, one behavior of the handlers.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Shows conditional test case skipping, a behavior of test handlers.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/MNwTt06ZxwY#32@08785989a6de2e63": {
         "verdict": "drop",
-        "reason": "Agent eval data sets are a different capability from native data-driven AL tests.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Agent test data sets are a different, earlier framework.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/MNwTt06ZxwY#35@08785989a6de2e63": {
         "verdict": "drop",
-        "reason": "The AI test type property is unrelated to data sources or test handlers.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "AI test type property is unrelated to data sources or handlers.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/MNwTt06ZxwY#39@08785989a6de2e63": {
         "verdict": "drop",
-        "reason": "The data-driven agent test framework is a different, agent-specific capability.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "Parameterized agent test framework with data sets is the separate agent eval capability.",
+        "at": "2026-11-20T00:53:25.093Z"
       },
       "video/V4zCPAsYi_Y#3@513b719e619113d0": {
         "verdict": "drop",
-        "reason": "YAML and XML agent test configuration is not the native TestDataSource or test handler feature.",
-        "at": "2026-11-10T00:51:34.531Z"
+        "reason": "YAML/XML agent test configuration is a different capability.",
+        "at": "2026-11-20T00:53:25.093Z"
       }
     },
     "573334": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-al-tool.md@e00d614e5fb81565": {
         "verdict": "keep",
-        "reason": "ALTool reference documents command-line test execution with CI/CD integration in 2026 release wave 2.",
-        "at": "2026-11-10T00:51:31.040Z"
+        "reason": "The ALTool reference for 2026 release wave 2 lists test execution and CI/CD integration, which is the capability this feature adds.",
+        "at": "2026-11-20T00:53:27.238Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-testrunner-codeunits.md@dcfb3196dfe1d62d": {
         "verdict": "drop",
-        "reason": "Test runner codeunits are a general, older testing mechanism unrelated to ALTool command-line execution.",
-        "at": "2026-11-10T00:51:31.040Z"
+        "reason": "Test runner codeunits are an older, separate AL testing capability, not command-line test execution with ALTool.",
+        "at": "2026-11-20T00:53:27.238Z"
       },
-      "video/9CW5mydS9Vs#17@3096d8bfe757d6e2": {
+      "video/EurgqGU1jG0#2@57e74b9e3ccf7b82": {
         "verdict": "drop",
-        "reason": "Describes test execution via MCP server, which this feature explicitly aims to not depend on.",
-        "at": "2026-11-10T00:51:31.040Z"
+        "reason": "It talks about fast tests in general and does not mention ALTool or command-line and pipeline execution.",
+        "at": "2026-11-20T00:53:27.238Z"
       },
-      "video/EurgqGU1jG0#3@a87f41b7493bb751": {
+      "video/EurgqGU1jG0#3@57e74b9e3ccf7b82": {
         "verdict": "drop",
-        "reason": "Shows AL-Go for GitHub pipeline test reporting, a different tool than ALTool test execution.",
-        "at": "2026-11-10T00:51:31.040Z"
+        "reason": "It shows test reporting in an AL-Go for GitHub pipeline, which is a different tool from ALTool's test command.",
+        "at": "2026-11-20T00:53:27.238Z"
       },
       "video/hNom9ZZuca0#3@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Shows running tests via the AL tool from outside VS Code, part of the ALTool test-execution capability.",
-        "at": "2026-11-10T00:51:31.040Z"
+        "reason": "It shows tests being run through ALTool, which is part of this feature's command-line test execution.",
+        "at": "2026-11-20T00:53:27.238Z"
       },
       "video/V4zCPAsYi_Y#7@513b719e619113d0": {
         "verdict": "drop",
-        "reason": "Describes a PowerShell test-runner module, not ALTool's command-line test execution.",
-        "at": "2026-11-10T00:51:31.040Z"
+        "reason": "It describes a PowerShell module test runner, a different mechanism from ALTool.",
+        "at": "2026-11-20T00:53:27.238Z"
       }
     },
     "573335": {
       "docs/learn-devitpro/dev-itpro/administration/scheduled-performance-profiler-overview.md@30b55020b61a8f6f": {
         "verdict": "keep",
-        "reason": "The Learn page on the prerelease scheduled profiler explicitly lists AI agent profiling and MCP server integration.",
-        "at": "2026-11-05T00:49:38.793Z"
+        "reason": "The page text lists AI agent profiling and MCP server integration as features of the scheduled performance profiler.",
+        "at": "2026-11-20T00:53:23.488Z"
       },
       "video/0qt0Zy9ZsRo#1@7ff261a9571f8291": {
         "verdict": "drop",
-        "reason": "This describes the 2024 Scheduled Profiles capability, which has no AI agent involvement.",
-        "at": "2026-11-05T00:49:38.793Z"
+        "reason": "Describes the older 2024 scheduled profiles capability with no AI agent involvement.",
+        "at": "2026-11-20T00:53:23.488Z"
       },
       "video/0qt0Zy9ZsRo#2@7ff261a9571f8291": {
         "verdict": "drop",
-        "reason": "This shows manual profile schedule configuration from 2024, an older capability.",
-        "at": "2026-11-05T00:49:38.793Z"
+        "reason": "Shows manual schedule configuration from the 2024 release, not agent-driven profiling.",
+        "at": "2026-11-20T00:53:23.488Z"
       },
       "video/0qt0Zy9ZsRo#3@7ff261a9571f8291": {
         "verdict": "drop",
-        "reason": "The Performance Profiles page from 2024 is not agent-driven profiling.",
-        "at": "2026-11-05T00:49:38.793Z"
+        "reason": "Shows the existing Performance Profiles page from 2024, not the agent capability.",
+        "at": "2026-11-20T00:53:23.488Z"
       },
       "video/0qt0Zy9ZsRo#4@7ff261a9571f8291": {
         "verdict": "drop",
-        "reason": "Manual call tree analysis in the 2024 profiler is an older capability.",
-        "at": "2026-11-05T00:49:38.793Z"
+        "reason": "Shows the existing call tree analysis in profile results, not agent-driven profiling.",
+        "at": "2026-11-20T00:53:23.488Z"
       },
-      "video/D_Lur52IrIg#15@27cf5cb45e38c4b5": {
+      "video/D_Lur52IrIg#15@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "Coding agents capture performance profiles through MCP tools without a debugging session, which is the core of this feature.",
-        "at": "2026-11-05T00:49:38.793Z"
+        "reason": "Coding agents capture performance profiles through MCP tools without an active debugging session, which is the core of this feature.",
+        "at": "2026-11-20T00:53:23.488Z"
       },
-      "video/D_Lur52IrIg#16@27cf5cb45e38c4b5": {
+      "video/D_Lur52IrIg#16@1d309b6a70eb87de": {
         "verdict": "keep",
         "reason": "The MCP proxy command lets agents start and monitor profiling, which is part of this feature.",
-        "at": "2026-11-05T00:49:38.793Z"
+        "at": "2026-11-20T00:53:23.488Z"
+      },
+      "video/D_Lur52IrIg#17@1d309b6a70eb87de": {
+        "verdict": "drop",
+        "reason": "Covers snapshot recordings, a different capability from profiling.",
+        "at": "2026-11-20T00:53:23.488Z"
       },
       "video/mBU2Iu0urw8#13@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "These MCP tools work during debugging sessions, a different capability from agent session profiling.",
-        "at": "2026-11-05T00:49:38.793Z"
+        "reason": "Covers debugger MCP tools used during debugging sessions, not scheduled session profiling.",
+        "at": "2026-11-20T00:53:23.488Z"
       },
       "video/mBU2Iu0urw8#20@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "Database statistics access is part of the debugger MCP tools, not the profiling agent capability.",
-        "at": "2026-11-05T00:49:38.793Z"
+        "reason": "Covers database statistics access within a debugging session, not agent-scheduled profiling.",
+        "at": "2026-11-20T00:53:23.488Z"
       },
       "video/mBU2Iu0urw8#21@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "Stack frame and variable analysis is a debugging capability, not profiling.",
-        "at": "2026-11-05T00:49:38.793Z"
+        "reason": "Covers stack frame and variable analysis in the debugger, a different capability.",
+        "at": "2026-11-20T00:53:23.488Z"
       },
       "video/UFLo2XGGS14#0@022c4252c5c9fc07": {
         "verdict": "keep",
-        "reason": "It describes an AI-guided workflow in which the agent coordinates profiling to investigate production problems.",
-        "at": "2026-11-05T00:49:38.793Z"
+        "reason": "Describes the AI-guided workflow in which the agent coordinates profiling to investigate production problems.",
+        "at": "2026-11-20T00:53:23.488Z"
       },
       "video/UFLo2XGGS14#5@022c4252c5c9fc07": {
         "verdict": "keep",
-        "reason": "The sampling profiling MCP captures CPU profiles, SQL and HTTP calls, and memory data for targeted session IDs.",
-        "at": "2026-11-05T00:49:38.793Z"
+        "reason": "The profiling MCP server captures CPU profiles, SQL, HTTP and memory metrics for a targeted session ID, matching the feature.",
+        "at": "2026-11-20T00:53:23.488Z"
       },
       "video/UFLo2XGGS14#6@022c4252c5c9fc07": {
         "verdict": "keep",
-        "reason": "Agents start sampling schedules by session ID and get back CPU profiles with SQL and HTTP metrics.",
-        "at": "2026-11-05T00:49:38.793Z"
+        "reason": "Agents start sampling schedules for a session ID and get back CPU profiles with SQL and HTTP metrics, matching the feature.",
+        "at": "2026-11-20T00:53:23.488Z"
       },
       "video/UFLo2XGGS14#7@022c4252c5c9fc07": {
         "verdict": "keep",
-        "reason": "Agents query telemetry and then trigger profiling with session IDs, which is part of this workflow.",
-        "at": "2026-11-05T00:49:38.793Z"
+        "reason": "Agents use telemetry to find performance issues, then trigger profiling with session IDs, which is part of this workflow.",
+        "at": "2026-11-20T00:53:23.488Z"
       }
     },
     "573336": {
@@ -2872,50 +2912,55 @@
     "573338": {
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-agent-tools-overview.md@4448762e851657a8": {
         "verdict": "keep",
-        "reason": "The page lists the AL LSP server as one of the tools available to AI agents, which is part of this feature.",
-        "at": "2026-11-11T00:53:44.900Z"
+        "reason": "The page lists the AL LSP server as one of the tools AI agents use for AL development, which is the capability this feature adds.",
+        "at": "2026-11-20T00:53:29.230Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-language-model-tools-vscode.md@dc07ded4333f6f1b": {
         "verdict": "drop",
-        "reason": "It only covers the language model tools inside VS Code and never mentions a standalone language server or LSP.",
-        "at": "2026-11-11T00:53:44.900Z"
+        "reason": "It covers AL language model tools inside Visual Studio Code, not running the AL language server on its own for other editors.",
+        "at": "2026-11-20T00:53:29.230Z"
       },
-      "video/ADXkUFI_VWI#2@33468efde93083de": {
+      "video/ADXkUFI_VWI#2@e1829169ba066959": {
         "verdict": "drop",
-        "reason": "It explains how the existing language server talks to editors like VS Code, not the new standalone server for other clients.",
-        "at": "2026-11-11T00:53:44.900Z"
+        "reason": "It explains the existing language server protocol support for Visual Studio Code, which is older, not the standalone server.",
+        "at": "2026-11-20T00:53:29.230Z"
       },
-      "video/D_Lur52IrIg#1@27cf5cb45e38c4b5": {
+      "video/D_Lur52IrIg#1@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "It announces the project-aware AL language server over LSP, no longer tied to VS Code, which is this feature.",
-        "at": "2026-11-11T00:53:44.900Z"
+        "reason": "It announces project-aware AL language intelligence over the language server protocol that no longer needs Visual Studio Code.",
+        "at": "2026-11-20T00:53:29.230Z"
       },
       "video/K8nFVw5M-Po#0@4e70e6c78bacc14e": {
         "verdict": "drop",
-        "reason": "It is about agent mode generating AL code inside VS Code, not about using the language server in other tools.",
-        "at": "2026-11-11T00:53:44.900Z"
+        "reason": "It covers AI code generation in agent mode in Visual Studio Code, not the standalone AL language server.",
+        "at": "2026-11-20T00:53:29.230Z"
       },
       "video/mBU2Iu0urw8#23@58e64b6744a3f5f9": {
         "verdict": "keep",
-        "reason": "It explains how the AL LSP gives agents go to definition, find references, formatting and renaming, which this feature adds.",
-        "at": "2026-11-11T00:53:44.900Z"
+        "reason": "It explains the AL language server giving agents go to definition, find references, formatting and renaming.",
+        "at": "2026-11-20T00:53:29.230Z"
       },
       "video/UFLo2XGGS14#4@022c4252c5c9fc07": {
         "verdict": "keep",
-        "reason": "It announces that the language server protocol is now available to agents for resolving definitions, references and symbols.",
-        "at": "2026-11-11T00:53:44.900Z"
+        "reason": "It announces that the language server protocol is now available to agents for exact definitions, references and symbols.",
+        "at": "2026-11-20T00:53:29.230Z"
       }
     },
     "573339": {
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-symbol-search.md@9a0ddf3f810bc025": {
         "verdict": "keep",
-        "reason": "The page documents the al_symbolsearch tool's environment search, which looks up objects in a connected Business Central environment. That is the capability this feature adds.",
-        "at": "2026-10-30T08:02:52.879Z"
+        "reason": "The page documents the al_symbolsearch tool's ability to search objects in a connected Business Central environment, which is the core of this feature.",
+        "at": "2026-11-20T00:53:26.664Z"
       },
-      "video/D_Lur52IrIg#0@27cf5cb45e38c4b5": {
+      "video/D_Lur52IrIg#0@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "The video shows agents searching the connected environment to find which app owns each object and its version, which is the owning-app metadata this feature describes.",
-        "at": "2026-10-30T08:02:52.879Z"
+        "reason": "The video shows agents searching the connected environment to find which app owns each object and its version, which is the owning-app metadata part of the feature.",
+        "at": "2026-11-20T00:53:26.664Z"
+      },
+      "video/D_Lur52IrIg#2@1d309b6a70eb87de": {
+        "verdict": "keep",
+        "reason": "The video shows the new 'environment' source parameter, which searches symbols on the connected server without downloading them first.",
+        "at": "2026-11-20T00:53:26.664Z"
       }
     },
     "573340": {
@@ -3313,28 +3358,28 @@
     "573346": {
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-agent-tools-overview.md@4448762e851657a8": {
         "verdict": "keep",
-        "reason": "The AI agent tools page lists the al_getnextobjectid tool, which is the capability this feature adds.",
-        "at": "2026-10-30T08:02:22.549Z"
+        "reason": "The AI agent tools page lists al_getnextobjectid, the tool this feature adds, among the available agent tools.",
+        "at": "2026-11-20T00:53:33.185Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-get-next-object-id.md@8608cf0b0fd95287": {
         "verdict": "keep",
-        "reason": "It documents the al_getnextobjectid tool, which allocates free object IDs within project ranges and prevents collisions.",
-        "at": "2026-10-30T08:02:22.549Z"
+        "reason": "This page documents al_getnextobjectid, which gives agents the next free AL object ID within the project's ranges and prevents collisions.",
+        "at": "2026-11-20T00:53:33.185Z"
       },
-      "video/D_Lur52IrIg#0@27cf5cb45e38c4b5": {
+      "video/D_Lur52IrIg#0@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "It announces that AI agents can find available object IDs in custom ranges in the connected environment.",
-        "at": "2026-10-30T08:02:22.549Z"
+        "reason": "The video segment announces that AI agents can find available object IDs in custom ranges through AL MCP.",
+        "at": "2026-11-20T00:53:33.185Z"
       },
-      "video/D_Lur52IrIg#3@27cf5cb45e38c4b5": {
+      "video/D_Lur52IrIg#3@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "It demonstrates the new Get next object ID MCP tool, which suggests the next free ID within the defined ranges.",
-        "at": "2026-10-30T08:02:22.549Z"
+        "reason": "The video segment explains the new get-next-object-ID MCP tool, which checks the app.json ranges and suggests the next free ID.",
+        "at": "2026-11-20T00:53:33.185Z"
       },
       "video/K8nFVw5M-Po#2@4e70e6c78bacc14e": {
         "verdict": "drop",
-        "reason": "It shows the agent reading app.json itself to work out ranges, a manual-style behavior rather than the free ID allocation tool.",
-        "at": "2026-10-30T08:02:22.549Z"
+        "reason": "It shows an agent reading app.json to find ID ranges, which is the manual step this feature replaces, not the new ID-allocation tool.",
+        "at": "2026-11-20T00:53:33.185Z"
       }
     },
     "573347": {
@@ -6099,178 +6144,238 @@
     "578068": {
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-configuration.md@fdfca3629b5b049b": {
         "verdict": "drop",
-        "reason": "Programmatic agent configuration via the Agent codeunit is AL-based agent development, not the in-product design experience.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Configuring agents programmatically in AL code is a separate developer capability, not the in-product design experience.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-define-register.md@aeebd523e88ebd8b": {
         "verdict": "drop",
-        "reason": "Defining and registering agents in AL via interfaces is a separate coded-agent capability.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Defining agents in AL through metadata provider interfaces is the separate AL coding capability.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-overview.md@acc793d92a92e413": {
         "verdict": "drop",
-        "reason": "Coding agents in AL describes extension-based agent development, not the designer experience.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Coding agents in AL is a separate capability from the in-product agent designer.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-setup-page.md@1cbdcaf8fe40b8d2": {
         "verdict": "drop",
-        "reason": "Setup pages for AL-coded agents are a different capability.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "AL setup pages for coded agents are not part of the in-product design experience.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-tasks.md@a306d39a4af1dd7a": {
         "verdict": "keep",
-        "reason": "Covers the toolkit APIs to create agent tasks from events and emails, which the feature names as the way developers trigger custom agents.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Documents the toolkit APIs that start agent tasks from actions, events and email triggers, which the feature mentions for professional developers.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-agent-create.md@39adb9608d662181": {
         "verdict": "keep",
-        "reason": "Documents creating and activating agents with the AI development toolkit, including instructions, profiles, permissions and sandbox testing.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Directly documents creating and activating agents in the AI development toolkit, including the instruction editor, permissions and task playground.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-agent-visibility.md@3efe778bc7ba13bd": {
         "verdict": "drop",
-        "reason": "Agent visibility in the role center is a general agent topic, not the design experience.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Agent visibility in the role center is general agent administration, not this design feature.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-attachments.md@3c3a16e836716f2e": {
         "verdict": "drop",
-        "reason": "Attachment limits for agent tasks are generic and not specific to designing agents.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Attachment limits for agent tasks are general and not specific to designing agents.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-best-practices.md@874e3c18622dcd61": {
         "verdict": "keep",
-        "reason": "Best practices for designing an agent, including instructions, permissions and testing, explain the agent design feature.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Explains best practices for writing instructions and designing agents, which this feature covers.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-tasks-api.md@75815405dd5f4219": {
         "verdict": "keep",
-        "reason": "Toolkit API for retrieving custom agents and detecting custom agent sessions supports the designed custom agents.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Covers the AL API for retrieving custom agents and detecting their sessions, which supports the designed custom agents.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-27-4.md@395084ec7c785ba3": {
         "verdict": "keep",
-        "reason": "Release notes announce the AI agent designer public preview.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "The release notes list 'Envision and design AI agents' by name.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/7QJeTXzZaEk#0@b1011fca40768c6d": {
         "verdict": "drop",
         "reason": "About the built-in Sales Order Agent, not designing custom agents.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/7QJeTXzZaEk#1@b1011fca40768c6d": {
         "verdict": "drop",
         "reason": "Email account setup for the Sales Order Agent is a different capability.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/7QJeTXzZaEk#2@b1011fca40768c6d": {
         "verdict": "drop",
-        "reason": "Contact creation from email is a Sales Order Agent behavior.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "A Sales Order Agent contact-creation behavior, not agent design.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/9cOdjHU15rE#1@5dcd5b11aad8e24d": {
         "verdict": "drop",
-        "reason": "General mention of the sales agent only.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "A general mention of the sales agent.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/AMVAiPTfSrU#5@8e56bd0b31620b69": {
         "verdict": "drop",
-        "reason": "Too general about partners building agents; no designer capability described.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Too general about partners building agents to tie to this feature.",
+        "at": "2026-11-20T00:53:40.198Z"
+      },
+      "video/EwN3xb2q7vE#0@d066304a1f8cc1cb": {
+        "verdict": "drop",
+        "reason": "Defining an agent type in AL is the separate AL coding capability.",
+        "at": "2026-11-20T00:53:40.198Z"
+      },
+      "video/EwN3xb2q7vE#1@d066304a1f8cc1cb": {
+        "verdict": "drop",
+        "reason": "The agent factory interface belongs to the AL coding capability.",
+        "at": "2026-11-20T00:53:40.198Z"
+      },
+      "video/EwN3xb2q7vE#11@d066304a1f8cc1cb": {
+        "verdict": "keep",
+        "reason": "Shows the toolkit's Tasks API for creating agent tasks automatically.",
+        "at": "2026-11-20T00:53:40.198Z"
+      },
+      "video/EwN3xb2q7vE#12@d066304a1f8cc1cb": {
+        "verdict": "drop",
+        "reason": "Explains the task and message model for coded agents in general, not the designer.",
+        "at": "2026-11-20T00:53:40.198Z"
+      },
+      "video/EwN3xb2q7vE#13@d066304a1f8cc1cb": {
+        "verdict": "drop",
+        "reason": "Message attachments in the AL coding context, not this feature.",
+        "at": "2026-11-20T00:53:40.198Z"
+      },
+      "video/EwN3xb2q7vE#14@d066304a1f8cc1cb": {
+        "verdict": "drop",
+        "reason": "Multi-turn interactions in the AL coding context are too general for this feature.",
+        "at": "2026-11-20T00:53:40.198Z"
+      },
+      "video/EwN3xb2q7vE#16@d066304a1f8cc1cb": {
+        "verdict": "keep",
+        "reason": "Shows starting agent tasks through page actions and events with the APIs, which the feature describes for developers.",
+        "at": "2026-11-20T00:53:40.198Z"
+      },
+      "video/EwN3xb2q7vE#2@d066304a1f8cc1cb": {
+        "verdict": "drop",
+        "reason": "The agent metadata interface belongs to the AL coding capability.",
+        "at": "2026-11-20T00:53:40.198Z"
+      },
+      "video/EwN3xb2q7vE#5@d066304a1f8cc1cb": {
+        "verdict": "drop",
+        "reason": "A general explanation of the agent instance model, not this design experience.",
+        "at": "2026-11-20T00:53:40.198Z"
+      },
+      "video/EwN3xb2q7vE#6@d066304a1f8cc1cb": {
+        "verdict": "drop",
+        "reason": "AL setup pages for coded agents are a separate capability.",
+        "at": "2026-11-20T00:53:40.198Z"
+      },
+      "video/EwN3xb2q7vE#8@d066304a1f8cc1cb": {
+        "verdict": "drop",
+        "reason": "Creating agents programmatically through the agent codeunit is the AL coding capability.",
+        "at": "2026-11-20T00:53:40.198Z"
+      },
+      "video/EwN3xb2q7vE#9@d066304a1f8cc1cb": {
+        "verdict": "drop",
+        "reason": "Loading instructions from a resource in AL is the coding capability, not the in-product editor.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/I7i25zBfyEQ#0@7db449f644ea1a2f": {
         "verdict": "drop",
-        "reason": "Describes the built-in Sales Order Agent.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "About the built-in Sales Order Agent.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/MNwTt06ZxwY#12@08785989a6de2e63": {
         "verdict": "drop",
-        "reason": "Deploying agents to production via extensions is a different capability from the sandbox designer.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Deploying agents to production through extensions is a different, later capability.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/nbGw2g3KMXI#0@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "Describes the built-in sales order agent.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Describes the built-in Sales Order Agent.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/nbGw2g3KMXI#1@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "Describes the built-in payables agent.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Describes the built-in Payables Agent.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/nbGw2g3KMXI#2@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "Describes the expense agent, not custom agent design.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Describes the Expense agent, which is unrelated.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/nbGw2g3KMXI#3@243db13b53ccaf67": {
         "verdict": "keep",
-        "reason": "Shows building custom agents inside Business Central in a sandbox from version 27.4, which is the designer feature.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Describes building custom agents inside Business Central in a sandbox from version 27.4, which is this feature.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/nbGw2g3KMXI#31@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "Agent Factory codeunit is AL-coded agent development, not the designer.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Creating agents from AL code is the separate coding capability.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/nbGw2g3KMXI#35@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "A codeunit that creates agents is AL-based development.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "An AL codeunit for creating and activating agents is the coding capability.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/nbGw2g3KMXI#37@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "AL agent development is a separate approach from the in-product designer.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Developing agents in AL is a separate capability from the in-product designer.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/nbGw2g3KMXI#5@243db13b53ccaf67": {
         "verdict": "keep",
-        "reason": "Explains configuring agents with natural language instructions, a core part of the design experience.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Covers configuring agent instructions, the core of the agent design experience.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/UIL8ej7mSKQ#0@ac155d6baa339527": {
         "verdict": "drop",
-        "reason": "Sales order agent email processing enhancement, a different capability.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "A Sales Order Agent email-processing enhancement, which is a different capability.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/UIL8ej7mSKQ#1@ac155d6baa339527": {
         "verdict": "drop",
-        "reason": "Sales order agent shipping address feature, a different capability.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "A Sales Order Agent shipping-address feature, which is a different capability.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/UIL8ej7mSKQ#2@ac155d6baa339527": {
         "verdict": "drop",
-        "reason": "Sales order agent delivery date feature, a different capability.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "A Sales Order Agent delivery-date feature, which is a different capability.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/UIL8ej7mSKQ#3@ac155d6baa339527": {
         "verdict": "drop",
-        "reason": "Sales order agent guidance feature, not custom agent design.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Sales Order Agent user guidance, not designing custom agents.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/XhO4oFmoh1M#0@3d7ec63ef426adeb": {
         "verdict": "drop",
         "reason": "Introduces the built-in Sales Order Agent.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/XhO4oFmoh1M#5@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Sales Order Agent quote creation, a different capability.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Sales Order Agent quote creation, which is a different capability.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/XhO4oFmoh1M#8@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Sales Order Agent email processing, a different capability.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Sales Order Agent email processing, which is a different capability.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/XhO4oFmoh1M#9@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Sales Order Agent conversation, a different capability.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "Sales Order Agent customer conversations, which is a different capability.",
+        "at": "2026-11-20T00:53:40.198Z"
       },
       "video/xJ8gYzvWnTI#2@a156f6f7a8eca787": {
         "verdict": "drop",
-        "reason": "Mentions only the built-in sales order agent.",
-        "at": "2026-11-18T00:53:45.109Z"
+        "reason": "A general mention of the built-in Sales Order Agent.",
+        "at": "2026-11-20T00:53:40.198Z"
       }
     }
   }

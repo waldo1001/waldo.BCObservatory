@@ -1,34 +1,34 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-retain-permissions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-retain-permissions",
-  "title": "Retain permissions",
-  "blob": "dc7e149679b16aeb6a956b3252ff5745950c0d76",
+  "title": "Retain User Permissions During Cloud Migration",
+  "blob": "6df0a334daabf37d20cd93a0ec13d6cb2b3265ba",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "By default cloud migration removes all permission sets from existing online users except SUPER users."
+      "text": "By default, Business Central removes system-scope permission set assignments except SUPER, assigns INTELLIGENT CLOUD permission set."
     },
     {
       "kind": "fact",
-      "text": "Removed permissions are replaced with Intelligent Cloud permission set to prevent non-SUPER users from modifying data."
+      "text": "LOCAL permission set is retained; INTELLIGENT CLOUD permission set assigned to prevent non-SUPER users from modifying data."
+    },
+    {
+      "kind": "status",
+      "text": "Business Central 14 migration retains user permissions automatically."
     },
     {
       "kind": "step",
-      "text": "Sign in to Business Central online and open Cloud Migration Management page."
+      "text": "Before cloud migration setup, use SUPER account to open Cloud Migration Management, select Actions > Enable/Disable Removing Permissions from Users."
     },
     {
       "kind": "step",
-      "text": "Select Show the rest, More options, Actions, then Enable/Disable Removing Permissions from Users."
-    },
-    {
-      "kind": "step",
-      "text": "Create custom per-tenant extension with OnBeforeResetUsersToIntelligentCloudPermissions event handler to keep permissions."
+      "text": "Create per-tenant extension with event subscriber handling OnBeforeResetUsersToIntelligentCloudPermissions to retain permissions."
     },
     {
       "kind": "fact",
-      "text": "Users can keep original permissions to continue working during data replication or for service-to-service apps."
+      "text": "Changing permission retention setting before setup doesn't restore permissions already removed."
     }
   ],
   "dropped": 0,
@@ -36,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003948,
-      "pages_in_call": 15
+      "cost_usd": 0.004616,
+      "pages_in_call": 12
     }
   ]
 }

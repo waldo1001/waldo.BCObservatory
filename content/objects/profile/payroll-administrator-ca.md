@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:47:08.789Z"
+  at: "2026-11-20T00:47:37.951Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 49b9b0f5c5c78e704d6bdc9d479ffc8078f17bf237a21f3f50b1b6940d6aceff
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Layers/NA/BaseApp/Profiles/PayrollAdministrator.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/NA/BaseApp/Profiles/PayrollAdministrator.Profile.al
     title: src/Layers/NA/BaseApp/Profiles/PayrollAdministrator.Profile.al (releases/29.x)
     date: null
-    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
+    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Profile "PAYROLL ADMINISTRATOR" (CA) in the CA country layer. Introduced in BC29, still in BC30.
 
-CA country layer · captioned "Payroll Administrator" · BC29-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Layers/NA/BaseApp/Profiles/PayrollAdministrator.Profile.al) · facts from BC29
+CA country layer · captioned "Payroll Administrator" · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/NA/BaseApp/Profiles/PayrollAdministrator.Profile.al) · facts from BC29
 
 An object of the [CA localization](../../localizations/ca.md), not part of W1.
 

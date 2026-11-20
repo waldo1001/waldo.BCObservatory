@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,6 +81,7 @@ links:
     - change/bcapps/10991
     - change/bcapps/11561
     - change/bcapps/13435
+    - change/bcapps/14288
     - change/bcapps/9599
     - change/bcapps/9692
 learn_toc_path:
@@ -166,6 +167,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10991 [Main]Cannot Rename User Due to Financial Report Audit Log Permissions - Copy](../../../../../changes/bcapps/10991.md) (code change): "User Management now correctly updates Financial Report Audit Log"
 - [#11561 [Permissions] Fix read-only error in obsolete permission cleanup](../../../../../changes/bcapps/11561.md) (code change): "Remove Obsolete Permissions action now deletes only from the Tenant Permission table"
 - [#13435 Adding Work Type read permissions](../../../../../changes/bcapps/13435.md) (code change): "Added missing Work Type read permissions to Time Sheets"
+- [#14288 Grant report layout override permissions for non-SUPER users](../../../../../changes/bcapps/14288.md) (code change): "Grant report layout override permissions for non-SUPER users"
 - [#9599 Add event subscriber for OpenPermissionSetPage](../../../../../changes/bcapps/9599.md) (code change): "enables programmatic opening of the permission set details card based on client signals"
 - [#9692 Fix effective permission filtering](../../../../../changes/bcapps/9692.md) (code change): "Permission buffer population prioritizes exact object IDs over wildcard object ID 0"
 - [Dynamics 365 Business Central – Why when I create new users do they get full access by default](../../../../../posts/thedynamicsexplorer-com/37042.md) (community post): "New users get default permissions from their security groups and from the licence they are assigned"

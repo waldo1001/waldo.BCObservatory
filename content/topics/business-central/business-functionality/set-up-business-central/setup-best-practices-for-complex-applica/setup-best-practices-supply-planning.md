@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:02.904Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,7 @@ links:
   videos: []
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44
+    - post/olofsimren-com/3630
   guidelines: []
   changes:
     - change/bcapps/10213
@@ -80,7 +81,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 5aae02ffbda02229208dd2eefe3bd75c71f026f6b5c82e4597a0789366c388f6
@@ -130,5 +131,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13439 Validate negative Reorder Quantity for Fixed Reorder Qty. planning](../../../../../changes/bcapps/13439.md) (code change): "Validate negative Reorder Quantity for Fixed Reorder Qty. planning"
 - [#9449 [Extensibility Request] issue 30334: fix OnAfterCarryOutToReqWksh record order](../../../../../changes/bcapps/9449.md) (code change): "Restores the parameter order from before version 28.1"
 - [Approval Workflows for Item Journals and Requisition Worksheets](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44.md) (community post): "batch-level approvals before posting or conversion to purchase documents"
+- [Copilot in Planning Parameter Worksheet](../../../../../posts/olofsimren-com/3630.md) (community post): "suggest inventory planning parameters for items based on ABC classification"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

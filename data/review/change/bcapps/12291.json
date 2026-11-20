@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/12291",
+  "input_hash": "ec9c4076cf8fd0a47f7080c11e73c46da2d154089d115da81997aa264af7bc62",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-20T00:57:46.522Z",
+  "issues": [
+    "behavior_change should be true. Subscribers of the OnBefore/OnAfterPurchaseAttemptCreateInspectionWithPurchaseLine events now get a single-record buffer, and later posting events get a buffer without the leftover filter.",
+    "Key points 3 and 4 are vague and partly misleading."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023162,
+    "changes_in_call": 6
+  }
+}

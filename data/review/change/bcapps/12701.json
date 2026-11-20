@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12701",
+  "input_hash": "5b8877e01dc2d70b8c8799cfac613e1a9a8277a226c2d9773d68f948e983c816",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-20T00:57:46.522Z",
+  "issues": [
+    "The description supports every claim, including the dependency on #13861 and that the vendor sources were already byte-identical."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023162,
+    "changes_in_call": 6
+  }
+}

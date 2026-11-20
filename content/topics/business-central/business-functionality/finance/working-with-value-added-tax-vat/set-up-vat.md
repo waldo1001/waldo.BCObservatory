@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -88,7 +88,8 @@ links:
   videos:
     - video/MWXwtRr6-Wk
     - video/TSLXzbeyE7Y
-  posts: []
+  posts:
+    - post/gerardorenteria-blog/15390
   guidelines: []
   changes:
     - change/bcapps/11657
@@ -110,7 +111,7 @@ coverage:
   learn: 5
   code: 20
   video: 2
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 10
@@ -182,6 +183,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13482 [Master][all-e]Purchase Invoice Statistics Non-Deductible VAT Amount does not match VAT Entries and G/L Entries when Non-Deductible VAT is enabled.](../../../../../changes/bcapps/13482.md) (code change): "Purchase Invoice Statistics Non-Deductible VAT Amount does not match VAT Entries"
 - [#13805 [29.x][all-e]Purchase Invoice Statistics Non-Deductible VAT Amount does not match VAT Entries and G/L Entries when Non-Deductible VAT is enabled. - CopyInitial commit](../../../../../changes/bcapps/13805.md) (code change): "Non-Deductible VAT Amount in Purchase Invoice Statistics and the VAT"
 - [#9352 [FI] Obsolete unused 'Print on Invoice' VAT setting](../../../../../changes/bcapps/9352.md) (code change): "Obsolete unused 'Print on Invoice' VAT setting. The unused 'Print on Invoice' VAT field"
+- [New Application Ideas of Dynamics 365 Business Central (2026 AUG)](../../../../../posts/gerardorenteria-blog/15390.md) (community post): "Financial management improvements include fixed payment tolerance, bonus depreciation, and VAT validation"
 - [What's New: VAT Date in Business Central (2023 release wave 2)](../../../../../videos/MWXwtRr6-Wk.md) (video): "VAT Date Usage field options; Default VAT Date setting; Control VAT Period setup"
 - [What's new: Explore the new Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../../../videos/TSLXzbeyE7Y.md) (video): "Sales tax setup; Sales tax configuration assistance; Sales data analysis"
 

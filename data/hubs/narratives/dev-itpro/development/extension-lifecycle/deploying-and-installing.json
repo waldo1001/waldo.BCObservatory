@@ -1,24 +1,24 @@
 {
   "hub_id": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
-  "input_hash": "022197fdc3f4f93517c57fda4c25c0c1de0f9e0316224e746e88e7e447522247",
-  "summary": "Deploying and installing covers how Business Central extensions are published, installed, upgraded, unpublished and uninstalled, plus how to write install code and keep Marketplace apps and per-tenant extensions current. It answers questions about cmdlet workflows, install triggers, upgrade steps and Partner Center offer management.",
-  "overview": "This section covers the lifecycle of an extension after it is built. The core workflow is publishing an extension package to a server, synchronizing it with the tenant database, and installing it. Install codeunits let you run logic when an extension is installed or reinstalled.",
+  "input_hash": "7afcae1a838ccafccf59a812dfb7293d3e7b8b4df4c367112ce060461dd44d28",
+  "summary": "Deploying and installing covers how Business Central extensions are published, installed, upgraded, unpublished and uninstalled, and how Marketplace offers are managed in Partner Center. It answers questions about the cmdlet workflow, install code, keeping apps compatible with releases, and offer validation.",
+  "overview": "This section covers the lifecycle steps that follow building an extension. It explains how to publish a package to a server, synchronize it with the tenant database, and install it. It also covers how to remove an extension again and how to upgrade apps that are already in production.\n\nThe pages fit together in the order of an app's life. Start with \"Publishing and Installing an Extension\" for the basic cmdlet flow, then \"Writing extensions installation code\" for logic that runs on install or reinstall. \"Upgrading Marketplace Apps in Production\" and \"Maintain Marketplace apps and per-tenant extensions\" cover updates and release compatibility. \"How to Unpublish and Uninstall an Extension\" covers removal. The FAQ on managing and submitting your offer addresses the Partner Center side for publishers.",
   "key_points": [
-    "Publishing and installing an extension uses the publish-navapp, sync-navapp and install-navapp cmdlets, or the extension management page.",
-    "Install code uses codeunits with OnInstallAppPerCompany and OnInstallAppPerDatabase triggers, and can detect fresh installs versus reinstalls.",
-    "Removal has three levels: uninstall disables the extension on tenants, unpublish removes it from the server instance, and clean-mode synchronization deletes the database schema.",
-    "Marketplace apps in production can be upgraded manually from the Extension Management page or the Admin Center.",
-    "Partners must keep Marketplace apps and per-tenant extensions compatible with Business Central release cycles, which include update, grace and enforced update periods for major releases.",
-    "Preview environments, prerelease bits, AppSourceCop analyzer rules and automated extension validation support compatibility testing.",
-    "The Partner Center FAQ explains the Go Live and Review and publish buttons, the validation queue, technical validation and marketing changes."
+    "Publishing and installing uses the publish-navapp, sync-navapp and install-navapp cmdlets, and extensions can also be managed on the Extension Management page.",
+    "Install code is written in install codeunits with the OnInstallAppPerCompany and OnInstallAppPerDatabase triggers. It can detect a fresh install versus a reinstall.",
+    "Removal has three levels: uninstall disables the extension on tenants, unpublish removes it from the server instance, and clean-mode synchronization deletes the database schema and orphaned data.",
+    "Marketplace apps in production can be upgraded manually through the Extension Management page or the Admin Center.",
+    "Publishers and resellers must keep Marketplace apps and per-tenant extensions updated for major and minor releases. Preview versions are available for testing, and there are enforcement periods.",
+    "Maintenance guidance mentions automated extension validation, the AppSourceCop analyzer and detection of technical incompatibility.",
+    "The offer FAQ covers Partner Center topics: the Go Live and Review and publish buttons, the validation queue, technical validation and marketing changes."
   ],
   "members_used": 6,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-10T00:56:44.445Z",
+  "at": "2026-11-20T01:00:45.277Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011671
+    "cost_usd": 0.013575
   }
 }

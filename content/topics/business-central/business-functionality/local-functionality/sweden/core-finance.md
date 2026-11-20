@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:03:39.883Z"
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -65,7 +65,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/13264
-    - change/bcapps/13820
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -128,7 +127,6 @@ The SIE page applies to earlier Swedish versions and describes the SIE Import an
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#13264 implement support for SAF-T 1.40](../../../../../changes/bcapps/13264.md) (code change): "Support for SAF-T 1.40 format in Norwegian localization"
-- [#13820 [main] NO SAF-T changes imported category identifier casing and does not show full identifiers in mapping setup](../../../../../changes/bcapps/13820.md) (code change): "Norwegian SAF-T now preserves original category identifiers during import"
 
 ## Business Central pages and reports
 

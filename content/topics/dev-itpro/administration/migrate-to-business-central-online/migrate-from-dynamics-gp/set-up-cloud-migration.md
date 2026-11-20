@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,11 +105,12 @@ The pages fit together in order. Start with the overview of Cloud Migration Setu
 ## Learn pages
 
 - [Business Central Cloud Migration Setup Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-overview): Learn what happens when you set up cloud migration from on-premises to Business Central online, including the data pipeline and connection process.
-  - Cloud migration setup establishes connection and pipeline between on-premises and online databases without migrating data.
-  - Step: Run Cloud Migration Setup and specify SQL database connection and integration runtime.
-  - Step: Integration runtime registers with Azure Data Factory using authentication key exchange.
-  - Step: Preparation pipeline checks compatibility between source and destination databases and creates stored procedures.
-  - Step: Replication pipeline is created and remains idle until data migration is initiated.
+  - Cloud Migration Setup establishes connection and pipeline between on-premises and online tenant databases without replicating business data.
+  - Setup creates selected companies not already existing in destination.
+  - Preparation pipeline checks compatibility between databases, creates stored procedures, retrieves company list, creates migration table list.
+  - Replication pipeline created after preparation pipeline succeeds; copies data and remains idle until replication initiated.
+  - Load balancing automatically selects Azure Data Factory from available options.
+  - Data upgrade required after replication for earlier major version migration; same major version requires no upgrade.
 - [Dynamics GP Company Migration Configuration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-configure-companies): Configure the Dynamics GP modules, company options, dimensions, historical data, and validation settings to migrate to Business Central online.
   - Prerequisite: Complete Run cloud migration setup for Dynamics GP migration before configuring company migration.
   - GP Company Migration Configuration page opens automatically after Cloud Migration Setup; can open manually from Cloud Migration Management.
@@ -121,22 +122,21 @@ The pages fit together in order. Start with the overview of Cloud Migration Setu
   - Per Company section allows separate configuration when migrating multiple companies.
   - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
 - [Retain User Permissions During Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-retain-permissions): Learn how to keep the permissions assigned to existing online users so they can continue to work as usual during cloud migration.
-  - By default cloud migration removes all permission sets from existing online users except SUPER users.
-  - Removed permissions are replaced with Intelligent Cloud permission set to prevent non-SUPER users from modifying data.
-  - Step: Sign in to Business Central online and open Cloud Migration Management page.
-  - Step: Select Show the rest, More options, Actions, then Enable/Disable Removing Permissions from Users.
-  - Step: Create custom per-tenant extension with OnBeforeResetUsersToIntelligentCloudPermissions event handler to keep permissions.
-  - Users can keep original permissions to continue working during data replication or for service-to-service apps.
+  - By default, Business Central removes system-scope permission set assignments except SUPER, assigns INTELLIGENT CLOUD permission set.
+  - LOCAL permission set is retained; INTELLIGENT CLOUD permission set assigned to prevent non-SUPER users from modifying data.
+  - Status: Business Central 14 migration retains user permissions automatically.
+  - Step: Before cloud migration setup, use SUPER account to open Cloud Migration Management, select Actions > Enable/Disable Removing Permissions from Users.
+  - Step: Create per-tenant extension with event subscriber handling OnBeforeResetUsersToIntelligentCloudPermissions to retain permissions.
+  - Changing permission retention setting before setup doesn't restore permissions already removed.
   - In the observatory: [Codeunit 6060 "Hybrid Deployment"](../../../../../objects/codeunit/6060.md), [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
 - [Set Up Dynamics GP Cloud Migration to Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-gp): Learn how to connect Dynamics GP to Business Central online, select companies, configure migration options, and obtain delegated administrator consent.
-  - Prerequisite: Any delegated administrator running cloud migration setup must receive approval from a licensed SUPER user with Essentials or Premium license.
-  - Prerequisite: User running setup must be signed in as administrator of both Microsoft Entra tenant and Business Central online.
-  - Step: Sign in to Microsoft 365 tenant and Business Central online.
-  - Step: Open Cloud Migration Setup assisted setup and accept the warning and privacy notice.
-  - Step: Select Product matching the on-premises version being migrated.
-  - Step: Fill in SQL database connection details and integration runtime information.
-  - Step: Select one or more companies to migrate or enable All Companies.
-  - Step: On GP Company Migration Configuration page select companies and enable Automatic Validation if desired.
+  - Prerequisite: SUPER permission set required in Business Central; review Dynamics GP cloud migration prerequisites.
+  - Prerequisite: Delegated administrators must receive approval from licensed user with Essentials or Premium license and SUPER permission set.
+  - Dynamics GP migration retains existing Business Central permissions rather than auto-assigning read-only permission set.
+  - Step: Run assisted setup from company not being migrated; setup prevents selecting current company for migration.
+  - Step: Complete Cloud Migration Setup, select product as Dynamics GP, fill SQL connection info, select companies, finish setup.
+  - Storage capacity is 80 GB plus allowances per licensed Essentials or Premium user and any storage capacity licenses.
+  - Rerunning setup allows adding tenants to existing runtime service using existing integration runtime name.
   - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.

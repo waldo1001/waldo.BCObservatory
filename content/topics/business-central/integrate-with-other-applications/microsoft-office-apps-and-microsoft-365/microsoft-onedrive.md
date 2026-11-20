@@ -2,7 +2,7 @@
 id: topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365/microsoft-onedrive
 type: topic
 title: Microsoft OneDrive
-summary: "Microsoft OneDrive integration in Business Central: how users open, share, and edit files in OneDrive for Business, and how administrators set it up, govern it, and configure it on-premises. Answers questions about actions, setup, privacy, and FAQs."
+summary: "Microsoft OneDrive integration with Business Central: setup, administration, on-premises configuration, user actions for opening and sharing files, and FAQ. It answers questions about enabling OneDrive features, saving Excel and report files to OneDrive, and managing privacy and access."
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 3b91b5a791719e63ffe06f6d5b55d608e24776106959bb3e68e07b481766875e
+  input_hash: 854341710bebcc9fd350fe16010b3d7f4399c911529f64de16584d4d2d7cf3ee
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-onedrive-overview
@@ -89,28 +89,28 @@ narrative: generated
 
 # Microsoft OneDrive
 
-> Microsoft OneDrive integration in Business Central: how users open, share, and edit files in OneDrive for Business, and how administrators set it up, govern it, and configure it on-premises. Answers questions about actions, setup, privacy, and FAQs.
+> Microsoft OneDrive integration with Business Central: setup, administration, on-premises configuration, user actions for opening and sharing files, and FAQ. It answers questions about enabling OneDrive features, saving Excel and report files to OneDrive, and managing privacy and access.
 
 Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Office apps and Microsoft 365](../microsoft-office-apps-and-microsoft-365.md) > Microsoft OneDrive · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-OneDrive for Business integration lets Business Central users store files in the cloud, share them, and work on them in Microsoft 365 apps such as Word, Excel, and PowerPoint. Administrators can also have Excel workbooks and report files saved to OneDrive automatically.
+Business Central integrates with OneDrive for Business so users can store files in the cloud, share them, and work on them with Microsoft 365 apps such as Word, Excel, and PowerPoint. Administrators can set this up so Excel workbooks and report files are saved to OneDrive automatically.
 
-The pages split by audience. The overview page introduces the integration and its actions. One page covers what users do: Open in OneDrive and Share, including send link, copy link, version history, and access control. The management page covers setup through the OneDrive Setup assisted setup guide, privacy notices, user access, data residency, and disaster recovery. A separate page covers on-premises configuration with a Microsoft Entra app registration. The FAQ handles client support, differences from SharePoint, plan availability, and troubleshooting.
+The pages split by audience. The integration overview and the FAQ explain what the integration does and which deployments are supported. The management page covers configuration, privacy, governance, and disaster recovery, including data residency. The on-premises page describes registering a Microsoft Entra app and connecting to OneDrive, with different steps for version 21 and later versus versions 19-20. The open and share page is for end users.
 
-Start with the integration overview, then go to the management page for online setup or the on-premises page for self-hosted deployments. Users who only want to share files can go straight to the open and share page.
+Start with the overview to see the available actions, then use the management or on-premises page to configure the environment. Send end users to the open and share page.
 
 ## Key points
 
-- Main actions: Open in OneDrive, Share, Open in Excel, Edit in Excel, and Save report to file.
-- The OneDrive Setup assisted setup guide configures the integration for online environments.
-- Open and share copies files to OneDrive for editing in online Excel, Word, and PowerPoint, and sharing with specific people or via links.
-- Sharing supports send link, copy link, file version history, and access control.
-- On-premises setup needs a Microsoft Entra app registration, SharePoint permissions, a OneDrive URL connection, and a connection test.
+- Main user actions are Open in OneDrive, Share, Open in Excel, Edit in Excel, and Save report to file.
+- The OneDrive Setup assisted setup guide configures the integration.
+- Administrators can have Excel workbooks and report files saved to OneDrive automatically.
+- On-premises setup requires registering a Microsoft Entra app, configuring SharePoint permissions, entering the OneDrive URL, and testing the connection.
 - On-premises procedures differ for version 21 and later versus versions 19-20.
-- Administrators manage privacy notices, user access, data residency compliance, and disaster recovery.
-- The FAQ covers client support, SharePoint differences, plan availability, deployment scenarios, and troubleshooting.
+- Sharing supports sending a link or copying a link to specific people, with access control and file version history.
+- Administration covers privacy notices, user access control, data residency compliance, and disaster recovery.
+- The FAQ covers supported deployments, features, and troubleshooting.
 
 ## Learn pages
 

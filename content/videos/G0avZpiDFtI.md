@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:00:19.486Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-20T00:53:40.205Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -96,7 +96,9 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573326
+    - feature/573328
   topics: []
   localizations: []
   videos: []
@@ -199,15 +201,19 @@ features:
     verified: false
     status_source: video
   - name: PDF Post-Processing in Reports
-    status: unclear
+    status: ga
     t: 601
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573326"
   - name: Report Metadata in Word Layouts
-    status: unclear
+    status: ga
     t: 678
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573328"
   - name: Excel Multiple Worksheet Property Override
     status: unclear
     t: 737
@@ -305,12 +311,14 @@ Database and security items include a copy company operation up to five times fa
 | Enable SQL Multi-Subnet Failover Option | status not stated | [5:30](https://www.youtube.com/watch?v=G0avZpiDFtI&t=330s) |
 | HTTP Server Certificate Validation | status not stated | [6:14](https://www.youtube.com/watch?v=G0avZpiDFtI&t=374s) |
 | Block UI Pages as SOAP Endpoints | status not stated, demoed | [7:57](https://www.youtube.com/watch?v=G0avZpiDFtI&t=477s) |
-| PDF Post-Processing in Reports | status not stated | [10:01](https://www.youtube.com/watch?v=G0avZpiDFtI&t=601s) |
-| Report Metadata in Word Layouts | status not stated, demoed | [11:18](https://www.youtube.com/watch?v=G0avZpiDFtI&t=678s) |
+| PDF Post-Processing in Reports | generally available (roadmap [Reuse header/footer layouts across document reports](../features/573326.md)) | [10:01](https://www.youtube.com/watch?v=G0avZpiDFtI&t=601s) |
+| Report Metadata in Word Layouts | generally available (roadmap [Design document reports with the updated Word add-in](../features/573328.md)), demoed | [11:18](https://www.youtube.com/watch?v=G0avZpiDFtI&t=678s) |
 | Excel Multiple Worksheet Property Override | status not stated | [12:17](https://www.youtube.com/watch?v=G0avZpiDFtI&t=737s) |
 | Layout Obsolescence Support | status not stated | [13:15](https://www.youtube.com/watch?v=G0avZpiDFtI&t=795s) |
 | Report Layouts Page Enhancements | status not stated | [13:50](https://www.youtube.com/watch?v=G0avZpiDFtI&t=830s) |
 | Layout Validation Action | status not stated | [14:30](https://www.youtube.com/watch?v=G0avZpiDFtI&t=870s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

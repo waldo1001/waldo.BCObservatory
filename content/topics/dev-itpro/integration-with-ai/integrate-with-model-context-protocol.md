@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -102,6 +102,7 @@ links:
     - post/katson-com/5026
     - post/thinkaboutit-be/8400
     - post/wingate365-com/https-blog-wingate365-com-2026-02-ai-context-is-king-bc-mcp-for-mcs-html--94f99e5d2a
+    - post/yzhums-com/65908
     - post/yzhums-com/68873
     - post/yzhums-com/76419
   guidelines: []
@@ -115,7 +116,7 @@ coverage:
   learn: 6
   code: 3
   video: 15
-  blog: 11
+  blog: 12
   guideline: 0
 bc_forms:
   - 8350
@@ -171,6 +172,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How to Connect Business Central MCP to Claude Desktop](../../../posts/katson-com/5026.md) (community post): "Business Central's native MCP server with Claude Desktop"
 - [Business Central 29: What’s New in the MCP Server?](../../../posts/thinkaboutit-be/8400.md) (community post): "MCP server Data Query Tools that let AI agents dynamically construct and execute AL queries"
 - [AI context is king - BC MCP for MCS Agents - London D365PPUG - Feb 2026](../../../posts/wingate365-com/https-blog-wingate365-com-2026-02-ai-context-is-king-bc-mcp-for-mcs-html--94f99e5d2a.md) (community post): "Business Central now has a built-in MCP server"
+- [The release plan for Dynamics 365 Business Central 2025 release wave 2 (BC27) is available now!!!](../../../posts/yzhums-com/65908.md) (community post): "MCP server for AI agents. Country updates add more regions"
 - [Business Central 2025 wave 2 (BC27.1): Connect AI agents to Business Central through MCP server (Dynamics 365 Business Central MCP)](../../../posts/yzhums-com/68873.md) (community post): "Connect AI agents to Business Central through MCP server"
 - [Business Central 2026 release wave 2 (BC29): Run data queries with MCP Server (no APIs required)](../../../posts/yzhums-com/76419.md) (community post): "Data Query Tools for the MCP Server, enabling AI agents to define, validate, and run"
 - [What's New: Enhanced MCP Server (2026 release wave 1)](../../../videos/0WAOtNaKjws.md) (video): "Enhanced MCP Server. Topics: mcp server; configuration validation; import export"

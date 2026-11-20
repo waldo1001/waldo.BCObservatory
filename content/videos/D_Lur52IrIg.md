@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:43:35.087Z"
   flags: []
 generated:
-  at: "2026-10-30T08:03:27.657Z"
+  at: "2026-11-20T00:53:40.205Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -222,7 +222,6 @@ links:
     - feature/573352
     - feature/573359
     - feature/573360
-    - feature/573361
   topics: []
   localizations: []
   videos: []
@@ -296,10 +295,12 @@ features:
     roadmap_ids:
       - "573338"
   - name: Symbol search with environment source parameter
-    status: unclear
+    status: ga
     t: 220
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573339"
   - name: Get next object ID tool in AL MCP
     status: ga
     t: 302
@@ -393,12 +394,10 @@ features:
     roadmap_ids:
       - "573335"
   - name: Launch snapshot MCP proxy
-    status: ga
+    status: unclear
     t: 1964
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573361"
+    status_source: video
   - name: Isolated storage explicit read isolation level
     status: unclear
     t: 1072
@@ -537,7 +536,7 @@ It then covers language and compiler changes: default implementations on interfa
 |---|---|---|
 | AL MCP (AL Management Control Platform) | generally available (roadmap [Discover objects in connected Business Central environments](../features/573339.md), [Let agents allocate free AL object IDs](../features/573346.md)), demoed | [0:43](https://www.youtube.com/watch?v=D_Lur52IrIg&t=43s) |
 | AL language server with project awareness | generally available (roadmap [Use AL language intelligence from AI agents and other editors](../features/573338.md)), demoed | [1:14](https://www.youtube.com/watch?v=D_Lur52IrIg&t=74s) |
-| Symbol search with environment source parameter | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=D_Lur52IrIg&t=220s) |
+| Symbol search with environment source parameter | generally available (roadmap [Discover objects in connected Business Central environments](../features/573339.md)), demoed | [3:40](https://www.youtube.com/watch?v=D_Lur52IrIg&t=220s) |
 | Get next object ID tool in AL MCP | generally available (roadmap [Let agents allocate free AL object IDs](../features/573346.md)), demoed | [5:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=302s) |
 | Interface default implementations | generally available (roadmap [Evolve AL interfaces with default implementations](../features/573352.md)), demoed | [7:38](https://www.youtube.com/watch?v=D_Lur52IrIg&t=458s) |
 | Public resource folders | status not stated, demoed | [9:47](https://www.youtube.com/watch?v=D_Lur52IrIg&t=587s) |
@@ -552,7 +551,7 @@ It then covers language and compiler changes: default implementations on interfa
 | Static call graph analysis | generally available (roadmap [Audit AL app accessibility and debugging boundaries](../features/573336.md)), demoed | [25:47](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1547s) |
 | Agent-assisted production investigation | generally available (roadmap [Profile slow Business Central sessions with AI agents](../features/573335.md)) | [30:27](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1827s) |
 | Launch profiling MCP proxy | generally available (roadmap [Profile slow Business Central sessions with AI agents](../features/573335.md)), demoed | [31:15](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1875s) |
-| Launch snapshot MCP proxy | generally available (roadmap [Debug recorded Business Central failures with an AI agent](../features/573361.md)), demoed | [32:44](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1964s) |
+| Launch snapshot MCP proxy | status not stated, demoed | [32:44](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1964s) |
 | Isolated storage explicit read isolation level | status not stated | [17:52](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1072s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

@@ -1,38 +1,42 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/onboarding-telemetry.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-telemetry",
-  "title": "Measure onboarding progress using telemetry",
-  "blob": "0a86d8b8998992387b8f7824ae45dfeb5baff0ce",
+  "title": "Measure Onboarding Progress Using Telemetry",
+  "blob": "7c975c0b991c9400e8146def69635614f394ed3d",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Five automatic signals emitted when onboarding progresses: started, sales, purchases, customer payments, vendor payments"
+      "text": "Sales signal emits when five posted sales invoices exist in the company"
     },
     {
       "kind": "fact",
-      "text": "Sales invoice signal emitted when five posted sales invoices exist; purchase signal when five posted purchase invoices"
+      "text": "Purchase signal emits when five posted purchase invoices exist in the company"
     },
     {
       "kind": "fact",
-      "text": "Payment signals emitted when five posted customer or vendor payments recorded in respective ledger entries"
+      "text": "Customer payment signal emits when five posted customer payments exist"
     },
     {
       "kind": "fact",
-      "text": "Daily routine checks criteria for business processes and emits signal once per process when conditions met"
+      "text": "Vendor payment signal emits when five posted vendor payments exist"
     },
     {
       "kind": "fact",
-      "text": "Partners can extend onboarding signals by implementing Onboarding Signal interface in custom codeunit"
+      "text": "Completion signals emit once for each registered process when its criteria are met"
     },
     {
       "kind": "fact",
-      "text": "Event IDs 0000EIW used for onboarding started and 0000EIV used for onboarding signals"
+      "text": "Partners can extend Onboarding Signals framework by extending enum 7580 Onboarding Signal Type"
+    },
+    {
+      "kind": "fact",
+      "text": "Onboarding signal event IDs: AL0000EIW for started, AL0000EIV for completed"
     },
     {
       "kind": "limit",
-      "text": "Onboarding criteria not applied to evaluation companies and sandboxes"
+      "text": "Onboarding criteria do not apply to evaluation companies and sandboxes"
     }
   ],
   "dropped": 0,
@@ -40,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007005,
-      "pages_in_call": 8
+      "cost_usd": 0.005233,
+      "pages_in_call": 9
     }
   ]
 }

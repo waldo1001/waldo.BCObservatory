@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:15:47.846Z"
+  at: "2026-11-20T00:15:45.369Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a9cf99a40ed6462196368d0f2305ec87cc5ace6d
@@ -29,7 +29,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/error-handling/bare-tryfunction-call-propagates-errors.md
     title: "microsoft/BCQuality: A bare call to a [TryFunction] propagates its error; it is not a swallowed failure"
     date: "2026-11-17"
-    commit: 398bece9cc0c50ef1e061fa53b3c907bbd6d9479
+    commit: dd49341915045164248349bd891b106ebb4b34cb
     t: null
     quote: null
 links:
@@ -100,4 +100,4 @@ Recommending `if not Try...() then Error(GetLastErrorText())` as the fix is part
 
 ---
 
-From microsoft/BCQuality at 398bece, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

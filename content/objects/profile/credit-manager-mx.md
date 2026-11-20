@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:47:08.789Z"
+  at: "2026-11-20T00:47:37.951Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a913006f0f796a2276b809aca9ff2ad996135a919d1892ca2b76088f97f7991f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Layers/NA/BaseApp/Profiles/CreditManager.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/NA/BaseApp/Profiles/CreditManager.Profile.al
     title: src/Layers/NA/BaseApp/Profiles/CreditManager.Profile.al (releases/29.x)
     date: null
-    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
+    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Profile "CREDIT MANAGER" (MX) in the MX country layer. Introduced in BC29, still in BC30.
 
-MX country layer · captioned "Credit and Collections Manager" · BC29-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Layers/NA/BaseApp/Profiles/CreditManager.Profile.al) · facts from BC29
+MX country layer · captioned "Credit and Collections Manager" · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/NA/BaseApp/Profiles/CreditManager.Profile.al) · facts from BC29
 
 An object of the [MX localization](../../localizations/mx.md), not part of W1.
 

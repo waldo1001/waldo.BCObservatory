@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/inventory
 type: topic
 title: Inventory
-summary: Inventory in Business Central covers item setup, counting and adjusting stock, availability, reservations, item tracking, transfers, bills of material and inventory analytics. It answers how-to questions about creating and managing items and moving or tracing stock.
+summary: Inventory in Business Central covers item setup, categories and attributes, variants, item tracking, counting and adjusting stock, transfers, reservations, availability, BOMs and responsibility centers. It answers how-to questions on managing items and stock, plus where to find inventory analytics and reports.
 tier: official
 language: en
 system: inventory
 review:
   state: reviewed
   by: opus
-  at: "2026-11-17T01:01:06.778Z"
+  at: "2026-11-20T01:01:29.535Z"
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d91a63e0499e23fe1658739c073a728ae032a2a885642710f70e9e24d9f43771
+  input_hash: 54224a46c2ddb2f744b3fa65a6f02959f61b4eb630ed739ac18a7f5479d869b7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-abc-analysis
@@ -434,6 +434,7 @@ links:
   posts:
     - post/duiliotacconi-com/1457
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73
+    - post/olofsimren-com/3585
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6
     - post/yzhums-com/56046
     - post/yzhums-com/68852
@@ -471,7 +472,7 @@ coverage:
   learn: 75
   code: 101
   video: 4
-  blog: 12
+  blog: 13
   guideline: 0
 bc_forms:
   - 30
@@ -583,28 +584,28 @@ narrative: generated
 
 # Inventory
 
-> Inventory in Business Central covers item setup, counting and adjusting stock, availability, reservations, item tracking, transfers, bills of material and inventory analytics. It answers how-to questions about creating and managing items and moving or tracing stock.
+> Inventory in Business Central covers item setup, categories and attributes, variants, item tracking, counting and adjusting stock, transfers, reservations, availability, BOMs and responsibility centers. It answers how-to questions on managing items and stock, plus where to find inventory analytics and reports.
 
 Path: [Business functionality](../business-functionality.md) > Inventory · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Inventory section explains how to define and maintain items and then control the stock. Setup pages cover item cards (types, costing methods, templates, pricing, replenishment, substitutions), variants, catalog items, categories, attributes, item references, responsibility centers and bills of material. Copilot can suggest marketing text for items.
+This area describes how to register and maintain the goods and services a business trades, and how to control the stock of those items. Core pages cover item cards, item templates, catalog items, item references, variants, categories, attributes and marketing text (which Copilot can suggest). Related pages cover blocking items or variants from sales, purchasing, service and production.
 
-Day-to-day pages cover counting and adjusting inventory (physical inventory orders and recordings, or journals with cycle counting), reclassification, transfers between locations, reservations, blocking items, and availability overviews. Item tracking pages cover setting up serial, lot and package tracking codes, assigning numbers on transactions, and tracing tracked items through posted entries.
+Stock handling is covered by pages on counting and adjusting inventory (physical inventory orders, recordings, journals, cycle counting), transferring items between locations, reserving items, and getting an availability overview. Item tracking is covered in three steps: set up tracking codes for serial, lot and package numbers, track items through transactions, then trace them through posted entries. Bills of material and responsibility centers are covered for assembly, production and organizational needs.
 
-Start with "Managing inventory" for the overall picture, then "Create item cards for goods or services". The Inventory analytics subtopic (56 pages) covers Power BI apps, built-in reports, legacy reports and ad-hoc Data Analysis of inventory data, such as stock levels, inventory value, KPIs and trends.
+Start with "Managing inventory" for the overall picture, then "Create item cards for goods or services". The Inventory analytics subtopic (56 pages) covers Power BI apps, built-in inventory and warehouse reports, legacy reports and ad-hoc analysis of item ledger entries.
 
 ## Key points
 
-- Item cards define item types, costing methods, pricing, replenishment, variants and substitutions; item templates speed up creation.
-- Catalog items represent vendor products not yet in inventory and can be converted to regular items when sold.
-- Physical counts use physical inventory orders and recordings, or journals with cycle counting periods and adjustment bins.
-- Items or variants can be blocked for sales, purchasing, service, production or all transactions.
-- Reservations work for sales, purchase, service, assembly, transfer and production orders, with auto reserve, bulk reservations and allocation policies.
-- Item tracking codes support serial, lot and package numbers, with expiration dates, warranty formulas and warehouse tracking; Item Tracing and Find Entries trace them.
-- Transfers use transfer orders (standard or direct, with optional in-transit location) or item reclassification journals.
-- Bills of material come as assembly BOMs for simple processes and production BOMs with routings, work centers and machine centers.
+- Item cards define item type (inventory, non-inventory, service), costing method, templates, substitutions, pricing, replenishment, vendors and warehouse settings.
+- Copilot can suggest marketing text for items, with options for tone, format, length and emphasis; text can also be written manually.
+- Items can be organized with categories (including parent categories) and attributes, which are inherited and can be used to filter items, including for web shop searches.
+- Variants track sizes, colors or configurations under one item, with variant attributes, pictures, translations, item references and stockkeeping units.
+- Item tracking codes support serial, lot and package numbers, with expiration date rules, warranty date formulas and warehouse tracking toggles; Item Tracing and Find Entries trace them through posted transactions.
+- Physical inventory is counted with physical inventory orders and recordings, or with journals that support cycle counting and expected quantity calculation.
+- Transfers use transfer orders or item reclassification journals, with direct transfers, optional in-transit locations, undo shipment and batch posting via job queue.
+- Items or variants can be blocked for sales, purchasing, service or production, and items can be reserved on sales, purchase, service, assembly, transfer and production orders.
 
 ## Subtopics
 
@@ -665,6 +666,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9961 [Extensibility Request] issue 30381: expose page sender to filter subscribers](../../../changes/bcapps/9961.md) (code change): "Item Availability by BOM Level page"
 - [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../../../posts/duiliotacconi-com/1457.md) (community post): "introduces a less-locking inventory posting engine and optimizes FlowField calculations on pages"
 - [Define Item Attributes for Item Variants](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7926273720702299683--6e71f1cc73.md) (community post): "Define Item Attributes for Item Variants"
+- [Copilot Inventory Queries](../../../posts/olofsimren-com/3585.md) (community post): "answer natural language inventory questions in Business Central, such as reorder points"
 - [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) (community post): "Blocked and Sales Blocked fields on the Item card"
 - [Dynamics 365 Business Central: Generate barcode through external services/APIs (Telepen, Swiss QR Code, QR codes with colors, images or text……)](../../../posts/yzhums-com/56046.md) (community post): "A page extension on Item Card uses HttpClient to request the image and import it"
 - [Dynamics 365 Business Central: Is it possible to change the Variant Code for an item that has already been posted?](../../../posts/yzhums-com/68852.md) (community post): "Changing a variant code for an already-posted item in Business Central"

@@ -1,30 +1,34 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-setup-overview.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-overview",
-  "title": "Cloud migration setup overview",
-  "blob": "01c3350ea847f7b2b100576684fd3260458063f7",
+  "title": "Business Central Cloud Migration Setup Overview",
+  "blob": "85b2447e85e33fb402bb17cdc61fe875dfae62a1",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Cloud migration setup establishes connection and pipeline between on-premises and online databases without migrating data."
+      "text": "Cloud Migration Setup establishes connection and pipeline between on-premises and online tenant databases without replicating business data."
     },
     {
-      "kind": "step",
-      "text": "Run Cloud Migration Setup and specify SQL database connection and integration runtime."
+      "kind": "fact",
+      "text": "Setup creates selected companies not already existing in destination."
     },
     {
-      "kind": "step",
-      "text": "Integration runtime registers with Azure Data Factory using authentication key exchange."
+      "kind": "fact",
+      "text": "Preparation pipeline checks compatibility between databases, creates stored procedures, retrieves company list, creates migration table list."
     },
     {
-      "kind": "step",
-      "text": "Preparation pipeline checks compatibility between source and destination databases and creates stored procedures."
+      "kind": "fact",
+      "text": "Replication pipeline created after preparation pipeline succeeds; copies data and remains idle until replication initiated."
     },
     {
-      "kind": "step",
-      "text": "Replication pipeline is created and remains idle until data migration is initiated."
+      "kind": "fact",
+      "text": "Load balancing automatically selects Azure Data Factory from available options."
+    },
+    {
+      "kind": "fact",
+      "text": "Data upgrade required after replication for earlier major version migration; same major version requires no upgrade."
     }
   ],
   "dropped": 0,
@@ -32,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005028,
-      "pages_in_call": 10
+      "cost_usd": 0.004616,
+      "pages_in_call": 12
     }
   ]
 }

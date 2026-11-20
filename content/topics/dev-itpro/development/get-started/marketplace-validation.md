@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -141,12 +141,13 @@ Two further pages give marketing advice: how to build an effective sales landing
   - Limit: AL compiler errors and AppSourceCop analyzer issues are reported as validation diagnostics during the process.
   - Validation diagnostics can be information, warning, or error severity levels based on issue type.
 - [Analyzing Marketplace Submission Validation Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace): Analyze Business Central Marketplace submission validation telemetry to track validation stages, identify diagnostics, and investigate publication failures.
-  - Status: Available from Business Central 2021 release wave 1, version 18.4 and later.
-  - Telemetry traces are emitted for validation process phases when app is submitted to Marketplace.
-  - Validation runs against each extension for each country and Business Central version specified.
-  - Each submission receives unique ID included in each trace allowing queries of all related traces.
-  - AL compiler and AppSourceCop code analyzer perform validation on extensions.
-  - Traces report diagnostics, validation phases, errors, and whether validation completed with or without failures.
+  - Status: Generally available from version 18.4 (2021 release wave 1)
+  - Marketplace submission validation telemetry is emitted when apps are published from Partner Center
+  - Validation runs against each extension for each targeted country/region and Business Central version
+  - Extensions are validated using AL compiler and AppSourceCop code analyzer
+  - Each submission receives unique validationRequestId included in all traces for query tracking
+  - Validation process emits traces at different phases: request started, diagnostic reported, validation started/completed per extension and version/country-region
+  - Event IDs track validation flow: LC0028 request started, LC0029 completed successfully, LC0035 completed with failures
 - [How to create an effective sales landing page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-how-to-create-sales-landing-page): Guideline on creating an effective Sales Landing page for your app
 - [How to make compelling videos](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-how-to-make-compelling-videos): How to make compelling videos to market your app
 - [Marketing Validation Checklist](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-checklist-marketing): The marketing checklist for validation of Business Central apps

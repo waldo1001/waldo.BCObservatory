@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -232,14 +232,14 @@ After setup, replication copies the data and the data upgrade runs from the same
 ## More Learn pages
 
 - [Complete Cloud Migration to Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish): Learn how to complete Business Central cloud migration, migrate record links and notes, disable migration, and set up users and integrations.
-  - Final cloud migration phase handles record links and notes migration, disables cloud migration, runs API data upgrade, sets up users, maps user accounts, and reconfigures integrations.
-  - Step: Migrate record links and notes from buffer table to actual table via Migrate Record Links and Notes action on Cloud Migration Management page.
-  - Step: Disable cloud migration by selecting Complete Cloud, reading checklist information, toggling acknowledgment switch, then selecting Disable Cloud Migration and confirming.
-  - Step: Run API data upgrade by opening Cloud Migration Management, selecting Manage API Upgrade, choosing company, scheduling job queue entry for entities reset.
-  - Integration runtime remains installed after disabling cloud migration; cloud registration auto-cleans after 2 weeks of non-use if not used again.
-  - Limit: User accounts and permissions from Business Central on-premises are not migrated; each on-premises user requires new Microsoft 365 account with Business Central license.
-  - External integrations and services must be updated to reflect new environment URL and Microsoft Entra Tenant ID after migration.
-  - Prerequisite: User mappings can only execute once per environment and should be run as final step; test in sandbox before applying to production.
+  - Step: Open Cloud Migration Management page and select Migrate record links and notes after final data replication to transfer them from buffer table to actual record link table.
+  - Step: Go to Cloud Migration Management page, select Complete migration, read Cloud Ready Checklist, confirm understanding, then select Disable Cloud Migration.
+  - Permissions: SUPER permission set required to disable cloud migration.
+  - Integration runtime remains installed on-premises but cloud registration auto-cleans after two weeks without use.
+  - Step: Create Microsoft 365 accounts with Business Central licenses for each on-premises user needing online access.
+  - Step: Open Define User Mappings page, match on-premises user accounts to online accounts in Cloud User field, then select OK to start update.
+  - User mapping renames online account User Name to on-premises user name and updates dependent data via User codeunit RenameUser procedure.
+  - Step: Reconfigure Dynamics 365 Sales connection and re-establish connections to external services, APIs, Power Platform flows, and third-party integrations.
   - In the observatory: [Codeunit 9800 "User"](../../../../objects/codeunit/9800.md), [Page 40063 "Cloud Migration Management"](../../../../objects/page/40063.md), [Page 4020 "Post Migration Checklist"](../../../../objects/page/4020.md), [Page 9802 "Permission Sets"](../../../../objects/page/9802.md), [Page 9994 "API Data Upgrade List"](../../../../objects/page/9994.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.

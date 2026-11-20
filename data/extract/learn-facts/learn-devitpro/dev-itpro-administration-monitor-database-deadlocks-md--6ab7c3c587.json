@@ -1,38 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-database-deadlocks.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-database-deadlocks",
-  "title": "Monitoring SQL Database Deadlocks",
-  "blob": "3ad5e036475ebd4e92e4e27c9e087cc535e08a84",
+  "title": "Monitoring SQL Database Deadlocks in Business Central",
+  "blob": "dc7210a297add9e7617c5afc9fe70b89090a619f",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Deadlock logging records deadlock events in Windows Event Log with AL code information and SQL Server deadlock report details."
+      "text": "Deadlocks occur when two or more transactions block each other from continuing over locked database resources"
     },
     {
       "kind": "fact",
-      "text": "Deadlock occurs when two or more transactions block each other from continuing by holding locked database resources."
+      "text": "Deadlock information logged includes AL code executed, SQL deadlock report, and Business Central user account"
     },
     {
       "kind": "prerequisite",
-      "text": "Service account login requires View database state permission at database level and Alter any event session and View server state at instance level."
+      "text": "SQL Server permissions required: View database state on database level and both View server state and Alter any event session on instance level"
     },
     {
-      "kind": "fact",
-      "text": "By default SQL Server uses ring_buffer target storing up to 5MB; event_file target provides greater storage for high volume situations."
+      "kind": "prerequisite",
+      "text": "SQL Server 2022 and later also require VIEW SERVER PERFORMANCE STATE permission to read Extended Events diagnostic data"
     },
     {
       "kind": "step",
-      "text": "Enable deadlock logging on Server instance using Administration Tool or Set-NAVServerConfiguration cmdlet with EnableDeadlockMonitoring parameter."
+      "text": "Enable deadlock logging on the Business Central Server instance using Set-NAVServerConfiguration with EnableDeadlockMonitoring parameter"
     },
     {
       "kind": "fact",
-      "text": "Deadlock events are recorded as warnings with event ID 705 and task category 33 in Server Admin channel log."
+      "text": "Deadlock events are recorded in Windows event log with event ID 705 and task category 33"
     },
     {
-      "kind": "fact",
-      "text": "AL ObjectType, ObjectNumber, and ScopeName attributes may be empty if deadlock occurred on different Server instance."
+      "kind": "limit",
+      "text": "AL ObjectType, AL ObjectNumber, and AL ScopeName attributes in event logs may be empty if deadlock occurred on a different server instance"
     }
   ],
   "dropped": 0,
@@ -40,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004158,
-      "pages_in_call": 16
+      "cost_usd": 0.005233,
+      "pages_in_call": 9
     }
   ]
 }

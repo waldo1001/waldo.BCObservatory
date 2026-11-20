@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:47:08.789Z"
+  at: "2026-11-20T00:47:37.951Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9130fe5387764b56fe9a64d52e28cab17472349caf7aaa5274bfcbfea5f800c4
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/System%20Application/App/Entitlements/DelegatedHelpdeskagentPartner.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/System%20Application/App/Entitlements/DelegatedHelpdeskagentPartner.Entitlement.al
     title: src/System Application/App/Entitlements/DelegatedHelpdeskagentPartner.Entitlement.al (releases/29.x)
     date: null
-    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
+    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Entitlement "Delegated Helpdesk agent - Partner" in System Application (System.Security.AccessControl). Present since at least BC23, still in BC30, changed in BC25.
 
-System Application · System.Security.AccessControl · BC23-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/System%20Application/App/Entitlements/DelegatedHelpdeskagentPartner.Entitlement.al) · facts from BC29
+System Application · System.Security.AccessControl · BC23-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/System%20Application/App/Entitlements/DelegatedHelpdeskagentPartner.Entitlement.al) · facts from BC29
 
 ## Across versions
 

@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:15:47.846Z"
+  at: "2026-11-20T00:15:45.369Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 845a0db582a22e9d21ee7a6bf036732ee978ea62
@@ -31,7 +31,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/error-handling/fielderror-vs-testfield.md
     title: "microsoft/BCQuality: Choose `TestField` For Conditional Checks And `FieldError` For Already-Failed Validation"
     date: "2026-09-09"
-    commit: 398bece9cc0c50ef1e061fa53b3c907bbd6d9479
+    commit: dd49341915045164248349bd891b106ebb4b34cb
     t: null
     quote: null
 links:
@@ -103,4 +103,4 @@ See sample: [`fielderror-vs-testfield.bad.al`](https://github.com/microsoft/BCQu
 
 ---
 
-From microsoft/BCQuality at 398bece, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

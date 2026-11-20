@@ -17,7 +17,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:15:47.846Z"
+  at: "2026-11-20T00:15:45.369Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: dd8e0f1a8f07630f8dd7768547178b04eec7ba5e
@@ -26,7 +26,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/file-name-object-type-pattern.md
     title: "microsoft/BCQuality: Name AL source files `<ObjectName>.<ObjectType>.al`"
     date: "2026-05-21"
-    commit: 398bece9cc0c50ef1e061fa53b3c907bbd6d9479
+    commit: dd49341915045164248349bd891b106ebb4b34cb
     t: null
     quote: null
 links:
@@ -83,4 +83,4 @@ See sample (file-naming pattern is structural; no AL sample shipped here).
 
 ---
 
-From microsoft/BCQuality at 398bece, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

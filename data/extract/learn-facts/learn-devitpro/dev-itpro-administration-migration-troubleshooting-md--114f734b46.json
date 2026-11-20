@@ -2,50 +2,46 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-troubleshooting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting",
   "title": "Troubleshooting Cloud Migration",
-  "blob": "cc9f266b5fd24df4da9395d3cc617d05a922085c",
+  "blob": "3106a5b404d303606b4b4bd915627158384884f9",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "fact",
-      "text": "SQL Server compatibility level must be 130 or higher; query sys.databases or run ALTER DATABASE command to set it correctly."
-    },
-    {
-      "kind": "fact",
-      "text": "Change tracking must be enabled on database; run ALTER DATABASE command to enable with 3-day retention and auto-cleanup."
+      "kind": "prerequisite",
+      "text": "SQL Server compatibility level on the on-premises database must be 130 or higher"
     },
     {
       "kind": "prerequisite",
-      "text": "Cloud migration requires users to have Business Central license and SUPER permission set to run setup and migration tasks."
+      "text": "Change tracking must be enabled on the on-premises database, or migration will fail"
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Users managing cloud migration require a Business Central license and the SUPER permission set"
+    },
+    {
+      "kind": "prerequisite",
+      "text": "On-premises deployment must run Business Central version 25.0 or later; version 24 or earlier cannot migrate directly"
     },
     {
       "kind": "fact",
-      "text": "Integration Runtime must be version 5 if machine has .NET Framework Runtime 4.7.2; otherwise use version 4."
-    },
-    {
-      "kind": "fact",
-      "text": "When reusing Integration Runtime for multiple migrations, enter its name in Data Migration Setup instead of leaving field blank."
+      "text": "Simply uninstalling cloud migration apps does not properly disable migration and can cause permission errors"
     },
     {
       "kind": "limit",
-      "text": "Cannot migrate multiple on-premises databases to same online environment or same database to multiple environments simultaneously."
+      "text": "Records in Tenant Media table cannot be migrated if their size exceeds the maximum size in data handling limits"
     },
     {
       "kind": "fact",
-      "text": "Check applicationVersion field in $ndo$tenantdatabaseproperty table; if blank or outdated, migration cannot run."
-    },
-    {
-      "kind": "step",
-      "text": "After migration completes, run Repair Companion Table Records action on Cloud Migration Management page if data is missing."
+      "text": "If table extension records are missing after successful migration, run the Repair Companion Table Records action"
     }
   ],
-  "dropped": 0,
+  "dropped": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007287,
-      "pages_in_call": 6
+      "cost_usd": 0.005233,
+      "pages_in_call": 9
     }
   ]
 }

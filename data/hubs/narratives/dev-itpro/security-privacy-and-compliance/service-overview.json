@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/security-privacy-and-compliance/service-overview",
-  "input_hash": "d64405b4047f26ee1dbcf05a56cd36f1b53910d7ee3b0063965198d8fc418d1a",
-  "summary": "Service overview covers how Business Central online is built and run: multitenant cloud architecture, availability, backup and disaster recovery, service operations and incident handling, and scalability. It answers questions about reliability, resilience, SLAs, and capacity limits of the online service.",
-  "overview": "This section describes the Business Central online service from three angles. The service overview page explains the multitenant cloud architecture on Azure SQL Database, global availability, security and compliance, backup and restore options, and service update schedules.\n\nThe service operations page covers how reliability is maintained: quality gates, service monitoring, the live site incident process with automated resolution, BCDR processes, and learning from post-mortems and telemetry. The scalability page covers elasticity, autoscaling, and load balancing, with figures on weekly workload.\n\nStart with the service overview for the general picture, then read service operations for reliability practices and service scalability for capacity and throughput questions.",
+  "input_hash": "91c0868fa071d05669a1e665d123d905e11cbd18e68a61a8839fce0bcd2f9a13",
+  "summary": "Service overview for Business Central online covers the multitenant cloud architecture, service operations, and scalability. It answers questions about availability, backups and disaster recovery, update schedules, incident management, service level objectives, and how the service scales.",
+  "overview": "This section describes how Business Central online runs as a cloud service. It has three pages: a general service overview, a page on service operations, and a page on scalability.\n\nThe service overview is the best starting point. It explains the multitenant architecture, global availability, security and compliance foundations, and business continuity with automated and geo-redundant backups. It also describes the release wave schedule.\n\nThe service operations page covers how reliability is kept up: quality gates, service monitoring, live site incident handling with automated resolution, BCDR processes, and post-mortems and telemetry analysis. The scalability page covers elasticity and autoscaling, with figures on weekly load and execution on adequately resourced nodes.",
   "key_points": [
-    "Business Central online is a multitenant cloud ERP service built on Azure SQL Database.",
-    "Resilience options include backup and restore, geo-redundant backups, and availability zones.",
-    "The overview covers global availability, Copilot availability, service level agreements, and service update schedules.",
-    "Service operations rely on quality gates, service monitoring, deployment rings, and service level indicators and objectives.",
-    "Live site incidents follow a defined process with automated resolution, and post-mortems and telemetry drive continuous improvement.",
-    "Autoscaling and load balancing provide resource elasticity, with no fixed limits on users or database size.",
-    "The service handles over 2B API calls and 1B UI interactions weekly, with 99.81% of executions on adequately resourced nodes.",
-    "Web service rate limiting is part of the scalability discussion."
+    "Business Central online uses a multitenant cloud architecture with global availability.",
+    "Business continuity relies on automated backups, geo-redundant backups, and availability zones.",
+    "Major updates come in April and October, and minor updates come monthly.",
+    "Service operations use quality gates, deployment rings, service level indicators and objectives, and a live site incident process with automated resolution.",
+    "Reliability improves through post-mortems and telemetry analysis.",
+    "The service supports over 2B API calls and 1B UI interactions weekly.",
+    "99.81% of executions run on adequately resourced nodes.",
+    "There are no fixed limits on users or database size, and web service rate limiting applies."
   ],
   "members_used": 3,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-30T01:11:21.155Z",
+  "at": "2026-11-20T01:01:08.021Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.010187
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-30T08:08:57.721Z",
-    "verdict": "approve",
-    "issues": [
-      "The claim that the multitenant architecture is 'built on Azure SQL Database' is a mild inference: Azure SQL Database appears in the page's feature list but is not stated as the architecture's foundation in the summary. It is acceptable but could be softened.",
-      "Sales order creation and invoice posting are listed as scalability page features but aren't mentioned. This is a minor omission and could be added to the throughput key point."
-    ],
-    "input_hash": "d64405b4047f26ee1dbcf05a56cd36f1b53910d7ee3b0063965198d8fc418d1a",
-    "cost_usd": 0.0275352
+    "cost_usd": 0.009678999999999998
   }
 }

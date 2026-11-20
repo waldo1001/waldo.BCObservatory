@@ -6,13 +6,12 @@
   "systems_joined": [
     "platform"
   ],
-  "summary": "Corrected the file extension for exporting Word theme layouts from docx to dotx and added comprehensive test coverage for artifact export functions.",
+  "summary": "Word theme layouts are now exported with the dotx file extension instead of docx. GetFileExtension in Report Layouts Impl. now handles Word layout subtypes, and the PR adds the missing tests for the artifact export functions.",
   "key_points": [
-    "GetFileExtension function updated to handle Word layout subtypes correctly",
-    "Theme layouts now export with correct dotx file extension instead of docx",
-    "Added 135+ new tests covering composite and report layout export scenarios",
-    "Validates exported theme files load correctly in Microsoft Word",
-    "Improves reliability of document reporting export functionality"
+    "GetFileExtension in codeunit 9660 now handles Word layout subtypes",
+    "Theme layouts are exported as dotx instead of docx",
+    "Adds tests for the layout export functions in the composite layout and report layout test codeunits",
+    "Adds sample docx, xlsx and dotx layout files and extends the test report"
   ],
   "change_kind": "fix",
   "behavior_change": true,

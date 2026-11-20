@@ -1,18 +1,18 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-available-telemetry.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry",
-  "title": "Available Telemetry",
-  "blob": "bfd83648841c65e75d7be648a717409d4f5b5c8d",
+  "title": "Available Business Central Telemetry",
+  "blob": "91d62f52fe734aac221c5c058bd7d28ac6aae8bb",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Business Central telemetry is organized by areas and by event IDs in Application Insights."
+      "text": "Business Central telemetry is logged into traces or pageViews tables in Application Insights"
     },
     {
       "kind": "fact",
-      "text": "Event IDs include application events, client events, lifecycle events, and runtime events."
+      "text": "Telemetry covers application events, client events, lifecycle events, and runtime events"
     }
   ],
   "dropped": 0,
@@ -20,8 +20,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003696,
-      "pages_in_call": 16
+      "cost_usd": 0.00732,
+      "pages_in_call": 7
     }
   ]
 }

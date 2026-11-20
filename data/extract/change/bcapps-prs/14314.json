@@ -8,13 +8,13 @@
   ],
   "summary": "Expense category and subcategory descriptions are clarified to explain what purchases they cover, such as MEALS now covering food and beverages regardless of merchant type.",
   "key_points": [
-    "MEALS now covers food and beverages for any merchant type",
-    "PERSONAL describes general retail merchandise",
-    "PHARMACY covers health-related products for any merchant type",
-    "MISC remains the fallback for unclassified purchases",
-    "Descriptions updated consistently across setup and demo data"
+    "The 12 category and subcategory descriptions for MEALS, PERSONAL, PHARMACY and MISC are reworded",
+    "MEALS and PHARMACY now cover their products regardless of merchant type",
+    "PERSONAL now describes general retail merchandise; MISC stays the fallback",
+    "The same text is applied to default setup and demo data",
+    "Only newly seeded data changes; existing saved descriptions, codes and posting settings are untouched"
   ],
-  "change_kind": "feature",
+  "change_kind": "other",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

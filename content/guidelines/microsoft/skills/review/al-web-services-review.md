@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:15:47.846Z"
+  at: "2026-11-20T00:15:45.369Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 152954686079231353dac65ece3bbd3ed578e2ed
@@ -23,7 +23,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-web-services-review.md
     title: "microsoft/BCQuality: AL web services review"
     date: "2026-11-04"
-    commit: 398bece9cc0c50ef1e061fa53b3c907bbd6d9479
+    commit: dd49341915045164248349bd891b106ebb4b34cb
     t: null
     quote: null
 links:
@@ -290,4 +290,4 @@ The empty-corpus case — when no web-services knowledge survives filtering — 
 
 ---
 
-From microsoft/BCQuality at 398bece, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

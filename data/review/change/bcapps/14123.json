@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/14123",
+  "input_hash": "a1d692c7b605f68e2f691bbb2f7ddaa1af7a5301d30adc991bf3c1cd7e2ac92e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-20T00:57:46.522Z",
+  "issues": [
+    "Key point 2 gets the cause wrong. The invoice was empty because the gift card was flagged as an exchange item and left off it, not because of anything on credit memos.",
+    "The refund import point leaves out that a synthetic line from an earlier import is also removed.",
+    "The rest is supported by the description."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023162,
+    "changes_in_call": 6
+  }
+}

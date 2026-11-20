@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,6 +49,8 @@ links:
     - video/uMKLsKfKPc0
   posts:
     - post/aardvarklabs-blog/1818
+    - post/thinkaboutit-be/7797
+    - post/thinkaboutit-be/7977
   guidelines: []
 learn_toc_path:
   - Integration
@@ -61,7 +63,7 @@ coverage:
   learn: 2
   code: 3
   video: 2
-  blog: 1
+  blog: 3
   guideline: 0
 bc_forms:
   - 8350
@@ -105,6 +107,8 @@ Start with the MCP server configuration page so the allowed APIs and operations 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Creating Low-Code AI Agents with Copilot Studio and Business Central](../../../../posts/aardvarklabs-blog/1818.md) (community post): "low-code creation of AI agents that connect to Business Central and other platforms"
+- [Quick Tip: Business Central Launch Edition 2026 Wave 1: 37 Sessions](../../../../posts/thinkaboutit-be/7797.md) (community post): "New Payables Agent and Business Central integration with Microsoft Copilot Studio"
+- [Quick Tip: What’s in Business Central Update 28.2](../../../../posts/thinkaboutit-be/7977.md) (community post): "Sales Order Agent now supports Belgium and Switzerland with optimized text search"
 - [What's New: Business Central Integration with Microsoft Copilot Studio (2026 release wave 1)](../../../../videos/GK6hM-nBYZk.md) (video): "Copilot Studio Agent Building; MCP Server for Business Central"
 - [Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat](../../../../videos/uMKLsKfKPc0.md) (video): "Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat"
 

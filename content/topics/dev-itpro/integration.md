@@ -12,7 +12,7 @@ review:
   at: "2026-11-15T00:50:57.511Z"
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -384,6 +384,7 @@ links:
     - video/xqwJTCPD9tA
   posts:
     - post/demiliani-com/13215
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3190647871313162275--85f2e3b376
     - post/yzhums-com/75614
   guidelines: []
   changes:
@@ -411,7 +412,7 @@ coverage:
   learn: 378
   code: 62
   video: 2
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 1
@@ -539,6 +540,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11527 E-document payment improvements](../../changes/bcapps/11527.md) (code change): "E-Document payment processing now supports durable, retryable occurrences"
 - [#13765 [E-Document] Set max output tokens for MLLM extraction](../../changes/bcapps/13765.md) (code change): "E-Document MLLM Handler sets an explicit maximum output token budget"
 - [SaaS ERP misconceptions: the “on-premises thinking trap”](../../posts/demiliani-com/13215.md) (community post): "redesign integrations using APIs and events instead of database connections"
+- [M365 Con 27: Free Online Microsoft Conference for Business Central, Dynamics 365 & Microsoft 365 Professionals](../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3190647871313162275--85f2e3b376.md) (community post): "Modern Microsoft solutions rarely stand alone, so learning about Power Platform, Azure and AI"
 - [The End of Release Plans: Dynamics 365 & Power Platform Roadmaps Move to AI at Work roadmap (Moving from release waves to always-on disclosure)](../../posts/yzhums-com/75614.md) (community post): "Release Communications MCP Server gives programmatic access to roadmap data"
 - [What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers](../../videos/gAzmWJg9Z5g.md) (video): "Integration Overview Documentation; New Integration Landing Page"
 - [Designing Modern Integrations in Business Central](../../videos/xqwJTCPD9tA.md) (video): "modern integrations; ai agents; integration messages; spec-driven development"

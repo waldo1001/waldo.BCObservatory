@@ -1,34 +1,30 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-client-action-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-client-action-trace",
-  "title": "Analyzing client action telemetry",
-  "blob": "a14a5253e8af46e896c1fbed907a7ea38649cd67",
+  "title": "Analyzing Client Action Telemetry",
+  "blob": "fbdebbe64763d18c6b9a29e785c8d200ed6f3b1d",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "status",
-      "text": "Introduced in Business Central 2023 release wave 1, version 22.0."
+      "text": "Generally available from version 22.0 (2023 release wave 1)"
     },
     {
       "kind": "fact",
-      "text": "Client action telemetry tracks actions users select on pages in the Business Central client."
+      "text": "Client action telemetry gathers data about supported user actions on pages like enabling or disabling analysis mode"
     },
     {
       "kind": "fact",
-      "text": "Data includes action type, page details, user environment info, and application version."
+      "text": "Each action event records action type, page triggered on, user environment information, and app details"
     },
     {
       "kind": "fact",
-      "text": "Action invoked event has eventId CL0003 and shows which UI action was triggered."
+      "text": "CL0003 event ID identifies client actions invoked in the Business Central client"
     },
     {
       "kind": "fact",
-      "text": "Use telemetry to gather statistics about how users interact with client features."
-    },
-    {
-      "kind": "fact",
-      "text": "clientAction dimension specifies the type of action, such as UI.AnalysisMode.Disabled."
+      "text": "Client actions are tracked with custom dimensions including client type, page object ID and name, and app identity"
     }
   ],
   "dropped": 0,
@@ -36,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005499,
-      "pages_in_call": 11
+      "cost_usd": 0.00732,
+      "pages_in_call": 7
     }
   ]
 }

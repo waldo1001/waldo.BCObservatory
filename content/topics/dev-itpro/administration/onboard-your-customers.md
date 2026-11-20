@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.368Z"
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -166,13 +166,14 @@ Start with "Onboarding experiences" for the big picture, then read the page for 
   - Best practice: keep list to six items or less to avoid scrollbar, keep titles and descriptions short and include task benefits in descriptions.
   - In the observatory: [Table 1990 "Guided Experience Item"](../../../objects/table/1990.md), [Table 1991 "Checklist Item"](../../../objects/table/1991.md), [Table 1992 "Checklist Item Role"](../../../objects/table/1992.md), [Table 1993 "Checklist Item User"](../../../objects/table/1993.md)
 - [Measure Onboarding Progress Using Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-telemetry): Learn how you can use onboarding telemetry to measure customers' progress with onboarding to Dynamics 365 Business Central.
-  - Five automatic signals emitted when onboarding progresses: started, sales, purchases, customer payments, vendor payments
-  - Sales invoice signal emitted when five posted sales invoices exist; purchase signal when five posted purchase invoices
-  - Payment signals emitted when five posted customer or vendor payments recorded in respective ledger entries
-  - Daily routine checks criteria for business processes and emits signal once per process when conditions met
-  - Partners can extend onboarding signals by implementing Onboarding Signal interface in custom codeunit
-  - Event IDs 0000EIW used for onboarding started and 0000EIV used for onboarding signals
-  - Limit: Onboarding criteria not applied to evaluation companies and sandboxes
+  - Sales signal emits when five posted sales invoices exist in the company
+  - Purchase signal emits when five posted purchase invoices exist in the company
+  - Customer payment signal emits when five posted customer payments exist
+  - Vendor payment signal emits when five posted vendor payments exist
+  - Completion signals emit once for each registered process when its criteria are met
+  - Partners can extend Onboarding Signals framework by extending enum 7580 Onboarding Signal Type
+  - Onboarding signal event IDs: AL0000EIW for started, AL0000EIV for completed
+  - Limit: Onboarding criteria do not apply to evaluation companies and sandboxes
   - In the observatory: [Codeunit 7580 "Onboarding Signal"](../../../objects/codeunit/7580.md), [Enum 7580 "Onboarding Signal Type"](../../../objects/enum/7580.md), [Interface "Onboarding Signal"](../../../objects/interface/onboarding-signal.md), [Table 112 "Sales Invoice Header"](../../../objects/table/112.md), [Table 122 "Purch. Inv. Header"](../../../objects/table/122.md), [Table 17 "G/L Entry"](../../../objects/table/17.md)
 - [Onboard new users with the Welcome banner](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-welcome-banner): Learn about the banner that displays when a user signs into a new company for the first time.
   - Welcome banner shown to users signing in to new company for first time with clear call to action

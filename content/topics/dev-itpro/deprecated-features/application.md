@@ -2,20 +2,20 @@
 id: topic/dev-itpro/deprecated-features/application
 type: topic
 title: Application
-summary: "Deprecated application features in Business Central: which W1 features are ending or replaced across release waves, which obsolete tables and fields were deleted from the Base App in 2025 release wave 1 (v26), and examples of moving off deprecated features."
+summary: "Deprecated features in the Business Central application (W1): removals and replacements by release wave from 2019 to 2027, objects deleted from the Base App in 2025 release wave 1 (v26), and examples of moving off deprecated features. Use it to check whether a feature, report, API or table is deprecated or removed."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:03:23.872Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f9213fa5f586e4c456f7450d13f1d480a77e9d669e355b6a7707b5e9ef12e887
+  input_hash: cd00980406e8cbf3a632f207477d721433c6912097d8c47971865d963344dbec
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deleted-objects-25w1
@@ -85,27 +85,28 @@ narrative: generated
 
 # Application
 
-> Deprecated application features in Business Central: which W1 features are ending or replaced across release waves, which obsolete tables and fields were deleted from the Base App in 2025 release wave 1 (v26), and examples of moving off deprecated features.
+> Deprecated features in the Business Central application (W1): removals and replacements by release wave from 2019 to 2027, objects deleted from the Base App in 2025 release wave 1 (v26), and examples of moving off deprecated features. Use it to check whether a feature, report, API or table is deprecated or removed.
 
-Path: [Deprecated features](../deprecated-features.md) > Application · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Deprecated features](../deprecated-features.md) > Application · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section tracks deprecations in the Business Central application. One page lists deprecated W1 features by release wave, with removal timing and the alternatives to use. A second page documents the permanent deletion of obsolete tables and fields from the Base Application and first-party apps.
+This section lists application features that Business Central has deprecated or removed. The main page, "Deprecated features in the application", covers the W1 version and is organized by release wave, from 2019 up to 2027 release wave 1 (version 30.0). It names what is removed and what replaces it, for example the AMC Fundamentals app, Peppol formats, legacy reports and older APIs.
 
-A subtopic gives worked examples of moving off deprecated features: the North American bank reconciliation and deposits removal, the move from user groups to permission sets or security groups, and the move from legacy views to modern list views.
+A second page, "Deleted objects in the Base App and first-party apps", covers 2025 release wave 1 (v26). It lists the obsolete tables and fields that are permanently deleted, across W1 and several localized versions, for the version 25.0 upgrade. It is the page to check if extension code depends on old Base App objects.
 
-Start with the deprecated features page to see what affects you and when. Then check the deleted objects page if you have extensions that depend on Base App tables or fields, and use the examples subtopic for migration guidance.
+The subtopic "Examples of how to uptake deprecations" gives worked examples of moving to the replacements. Start with the main deprecation page to find your feature and wave, then use the examples if you need to migrate.
 
 ## Key points
 
-- The deprecated features page covers W1 removals and replacements from 2024 release wave 2 through 2027 release wave 1 (version 30.0).
-- Features named on the deprecated features page include the AMC Fundamentals app, Peppol BIS 2.0 and 2.1, Peppol BIS 3.0, the Finance reports API, the Analytics API and Excel reports.
+- The main deprecation page is organized by release wave, from 2019 to 2027 release wave 1 (version 30.0).
+- It lists replacements such as the AMC Fundamentals app, a Peppol BIS 3.0 migration, Excel reports and replacements for legacy Power BI apps.
+- It notes removal of the Finance reports API and the migration from API v1.0 to v2.0.
 - 2025 release wave 1 (v26) permanently deletes over 150 obsolete tables and fields from the Base App and first-party apps.
 - The deletions aim to improve database performance, unify the codebase across regions and reduce technical debt.
-- Deleted objects are listed for W1 and localized versions including AT, APAC, BE, CH and CZ, for the version 25.0 upgrade.
-- The deleted objects page refers to the Obsolete::Removed state for the affected tables and fields.
-- Uptake examples cover the bank reconciliation and deposits removal in North America, user groups to permission sets or security groups, and legacy views to modern list views.
+- Deleted objects are listed for W1 and the AT, APAC, BE, CH and CZ localizations, for the version 25.0 upgrade.
+- Removed objects are in the Obsolete::Removed state.
+- Migration examples cover the North American bank reconciliation and deposits removal, user groups to permission sets or security groups, and legacy views to modern list views.
 
 ## Subtopics
 

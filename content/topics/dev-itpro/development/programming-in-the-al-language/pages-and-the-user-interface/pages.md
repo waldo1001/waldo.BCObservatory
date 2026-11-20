@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-10T00:57:46.434Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -303,7 +303,6 @@ links:
     - post/yzhums-com/65320
     - post/yzhums-com/66037
     - post/yzhums-com/66542
-    - post/yzhums-com/67310
     - post/yzhums-com/67949
     - post/yzhums-com/71582
     - post/yzhums-com/74335
@@ -329,7 +328,7 @@ coverage:
   learn: 33
   code: 0
   video: 0
-  blog: 17
+  blog: 16
   guideline: 0
 bc_forms: []
 member_hash: 181f7afb514c5280b30dcfe6b295f39a7433117d6ea6eddd11fd76cbbb17916a
@@ -439,7 +438,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: About the size of the value displayed on the card/document page (textbox too small to read?)](../../../../../posts/yzhums-com/65320.md) (community post): "developers can use the MultiLine property, Rich Text feature, FactBox components, or action-triggered dialogs"
 - [Dynamics 365 Business Central: Can we edit data directly in FactBox?](../../../../../posts/yzhums-com/66037.md) (community post): "FactBoxes are read-only display areas on the right side of pages that show related information"
 - [Dynamics 365 Business Central: What does the category (Lists, Tasks, Administration, Archive……) mean when searching from Tell Me? (Usage Category)](../../../../../posts/yzhums-com/66542.md) (community post): "UsageCategory property in AL determines how pages appear"
-- [Business Central 2025 wave 2 (BC27): Hide Copilot summaries (Summary System Part Support)](../../../../../posts/yzhums-com/67310.md) (community post): "Developers can hide it via modify(DefaultSummaryPart) in a page extension"
 - [Business Central 2025 wave 2 (BC27): Editable fields in page customizations](../../../../../posts/yzhums-com/67949.md) (community post): "page fields defined in page customizations can be made editable"
 - [Dynamics 365 Business Central: How to show or hide subform fields based on a value in the main page](../../../../../posts/yzhums-com/71582.md) (community post): "dynamically show or hide subform fields based on a value in the main page"
 - [Dynamics 365 Business Central: Make the same column editable or non-editable based on different conditions on the list page (Dynamic Editable Control for the Same Column)](../../../../../posts/yzhums-com/74335.md) (community post): "Make a column editable or non-editable on a list page based on row-specific conditions"

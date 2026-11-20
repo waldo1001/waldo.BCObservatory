@@ -8,12 +8,12 @@
   ],
   "summary": "Added obsolescence indication to the Custom Report Layouts page by marking its caption with '(Obsoleted)' and displaying a notification to encourage users to adopt the new Report Layouts system.",
   "key_points": [
-    "Custom Report Layouts page marked as obsolete after two releases of limited use",
-    "Page caption updated to include '(Obsoleted)' indicator",
-    "OnOpen notification added to prompt users toward new Report Layouts system",
-    "Addresses user nudging toward current technology"
+    "The Custom Report Layouts page caption now includes '(Obsoleted)'",
+    "A notification is shown when the page opens, pointing users to the newer Report Layouts system",
+    "The page has been outdated for two releases and this change nudges users to switch",
+    "The Report Layout Selection page has a related one-line change"
   ],
-  "change_kind": "obsoletion",
+  "change_kind": "other",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

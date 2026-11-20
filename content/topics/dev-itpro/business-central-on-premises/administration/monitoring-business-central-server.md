@@ -2,21 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/administration/monitoring-business-central-server
 type: topic
 title: Monitoring Business Central server
-summary: "Monitoring the Business Central on-premises server: performance counters for client sessions, SQL connections, data caching and scheduled tasks, plus server events written through Event Tracing for Windows. It answers questions about checking server instance health and collecting event or trace data."
+summary: Monitoring Business Central server on-premises covers performance counters for server instance health and server events (admin, operational, debug, trace). It answers questions about what to measure, where to view events, and how to collect trace data.
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:20:08.228Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: cead5ef9994a2e6426f5a7978543689753fc6658965e942b1fdb7483f7a3fde6
+  input_hash: 8c4e60b2448bdb833c34e76ca9424529ef528a9b9336598c053d430e4871ad3a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/performance-counters
@@ -121,26 +121,26 @@ narrative: generated
 
 # Monitoring Business Central server
 
-> Monitoring the Business Central on-premises server: performance counters for client sessions, SQL connections, data caching and scheduled tasks, plus server events written through Event Tracing for Windows. It answers questions about checking server instance health and collecting event or trace data.
+> Monitoring Business Central server on-premises covers performance counters for server instance health and server events (admin, operational, debug, trace). It answers questions about what to measure, where to view events, and how to collect trace data.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Monitoring Business Central server · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Monitoring Business Central server · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers two ways to watch a Business Central server instance on-premises. The first is performance counters, which show how the instance behaves: client sessions, SQL connections, data cache efficiency and scheduled task execution. The second is server events, covered in the subtopic on monitoring server events.
+This section is for administrators of an on-premises Business Central server who need to check how an instance is behaving. It has two parts: performance counters and server event monitoring.
 
-The server events subtopic explains the admin, operational and debug events the server writes through Event Tracing for Windows. It describes how to view them in Event Viewer or PowerShell, how to collect trace data with Logman, Performance Monitor or PerfView, and how to limit telemetry traces.
+The performance counters page describes counters for client sessions, SQL connections, data cache efficiency and scheduled task execution. Use these to watch the general health and performance of a server instance.
 
-Start with the performance counters page for a quick view of instance health. Move to the server events pages when you need to diagnose specific behavior or collect detailed traces.
+The subtopic on monitoring server events covers admin, operational, debug and trace events. It explains how to view them in Event Viewer or PowerShell, how to collect .etl trace data with Logman, Performance Monitor or PerfView, and how to limit telemetry trace events. Start with the performance counters for a quick health check. Move to the event pages when you need to diagnose a specific problem.
 
 ## Key points
 
-- Performance counters track client sessions, SQL connections, data cache efficiency and scheduled task execution.
-- Counters are used to monitor server instance health and performance.
-- The server writes admin, operational and debug events through Event Tracing for Windows.
-- Events can be viewed in Event Viewer or PowerShell.
-- Trace data can be collected with Logman, Performance Monitor or PerfView.
-- Telemetry traces can be limited.
+- Performance counters track client sessions, SQL connections, data caching and scheduled tasks.
+- Counters are meant for monitoring server instance health and performance.
+- Server events fall into admin, operational, debug and trace categories.
+- Events can be viewed in Event Viewer or with PowerShell.
+- Trace data in .etl format can be collected with Logman, Performance Monitor or PerfView.
+- Telemetry trace events can be limited.
 - The server events subtopic has 9 pages.
 
 ## Subtopics

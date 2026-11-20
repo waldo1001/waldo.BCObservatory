@@ -2,7 +2,7 @@
 id: source/yzhums-com
 type: source
 title: Dynamics 365 Lab - Yun Zhu
-summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 401 posts in the knowledge base, 2025-04-28 to 2026-11-17, mostly about development, administration, platform."
+summary: "Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 402 posts in the knowledge base, 2025-04-28 to 2026-11-18, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:15:47.846Z"
+  at: "2026-11-20T00:15:45.369Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1becf6b89e37ed6308501fe6ab0958930dcf1c42fc108dd3b0cf0235175269b0
+  input_hash: 32ad3478b2679fbaa9d9fb4cd377802c8e1eb8035a9cc52a21474be37cac5333
 evidence:
   - kind: blog
     url: https://yzhums.com
@@ -434,6 +434,7 @@ links:
     - post/yzhums-com/77184
     - post/yzhums-com/77363
     - post/yzhums-com/77475
+    - post/yzhums-com/77505
   guidelines: []
 source_id: yzhums-com
 kind: blog
@@ -441,21 +442,21 @@ url: https://yzhums.com
 author: Yun Zhu
 mvp: true
 full_text: false
-item_count: 401
+item_count: 402
 footprint:
   systems:
     - id: development
-      weight: 285
+      weight: 286
     - id: administration
       weight: 212
     - id: platform
-      weight: 202
+      weight: 203
     - id: sales
       weight: 89
+    - id: integration
+      weight: 77
     - id: reporting
       weight: 77
-    - id: integration
-      weight: 75
   topics:
     - id: al development
       weight: 66
@@ -504,12 +505,12 @@ footprint:
       weight: 5
   features: []
 first_item: "2025-04-28"
-last_item: "2026-11-17"
+last_item: "2026-11-18"
 ---
 
 # Dynamics 365 Lab - Yun Zhu
 
-> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 401 posts in the knowledge base, 2025-04-28 to 2026-11-17, mostly about development, administration, platform.
+> Dynamics 365 Lab - Yun Zhu (Yun Zhu, MVP): 402 posts in the knowledge base, 2025-04-28 to 2026-11-18, mostly about development, administration, platform.
 
 [https://yzhums.com](https://yzhums.com) · blog · tier community
 
@@ -517,12 +518,12 @@ last_item: "2026-11-17"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (285) | al development (66) | table Customer (14) |
+| development (286) | al development (66) | table Customer (14) |
 | administration (212) | bc28 (27) | table Sales Header (12) |
-| platform (202) | bc27 (23) | page Customer Card (10) |
+| platform (203) | bc27 (23) | page Customer Card (10) |
 | sales (89) | customization (23) | page Item Card (9) |
-| reporting (77) | bc29 (21) | page Item List (9) |
-| integration (75) | release wave 2 (20) | page Customer List (7) |
+| integration (77) | bc29 (21) | page Item List (9) |
+| reporting (77) | release wave 2 (20) | page Customer List (7) |
 |  | on-premises (18) | page Sales Order (7) |
 |  | admin center (16) | table Sales Line (7) |
 |  | al language (16) | page Vendor Card (6) |
@@ -540,10 +541,11 @@ Items per quarter, oldest first:
 - 2026-Q1: **************************************** 68
 - 2026-Q2: **************************************** 54
 - 2026-Q3: **************************************** 71
-- 2026-Q4: ******************************** 32
+- 2026-Q4: ********************************* 33
 
 ## Most recent
 
+- [Business Central 2027 wave 1 (BC30): Remove ability to expose a Microsoft page as an OData endpoint (Disable OData web services on Microsoft UI pages)](../posts/yzhums-com/77505.md) (2026-11-18)
 - [Dynamics 365 Business Central: Enter Company Details quickly using information from Microsoft 365](../posts/yzhums-com/77475.md) (2026-11-17)
 - [Business Central 2026 release wave 2 (BC29.1): Use batch totals for payment journals](../posts/yzhums-com/77363.md) (2026-11-13)
 - [Business Central 2026 release wave 2 (BC29.1): Data mirroring to Microsoft Fabric (No APIs or OData Needed)](../posts/yzhums-com/77184.md) (2026-11-12)
@@ -563,6 +565,5 @@ Items per quarter, oldest first:
 - [Dynamics 365 Business Central: How to quickly copy a report layout (Create a copy of the selected layout)](../posts/yzhums-com/76763.md) (2026-10-22)
 - [The Early Access Preview for Dynamics 365 Business Central 2027 release wave 1 (BC30) is available](../posts/yzhums-com/76863.md) (2026-10-21)
 - [Business Central 2026 release wave 2 (BC29): Cancelling a scheduled PTE update install (Next Major/Next Minor) in admin center](../posts/yzhums-com/76546.md) (2026-10-20)
-- [Dynamics 365 Business Central Blog Series: Working with Translations and Languages](../posts/yzhums-com/76355.md) (2026-10-19)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

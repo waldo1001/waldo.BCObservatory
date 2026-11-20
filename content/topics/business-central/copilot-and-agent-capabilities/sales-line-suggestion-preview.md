@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:17.006Z"
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,6 +46,7 @@ links:
     - video/2isrH3RcSK8
     - video/bCIcq1zESKk
     - video/cZCSi6khZFo
+    - video/qmGxeq5FJis
   posts:
     - post/yzhums-com/68672
   guidelines: []
@@ -54,6 +55,7 @@ links:
     - change/bcapps/13964
     - change/bcapps/14143
     - change/bcapps/14198
+    - change/bcapps/14307
 learn_toc_path:
   - Copilot and agent capabilities
   - Sales line suggestion (preview)
@@ -63,7 +65,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 4
+  video: 5
   blog: 1
   guideline: 0
 bc_forms: []
@@ -109,10 +111,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13964 Adjust relevance score for new embedding model](../../../changes/bcapps/13964.md) (code change): "Relevance score thresholds for item search have been adjusted to work with a new embedding model"
 - [#14143 Enable internal SLS hooks for harms evaluations](../../../changes/bcapps/14143.md) (code change): "Internal hooks are added to the Sales Lines Suggestions feature to support harms evaluations"
 - [#14198 [SLS] Update accuracy prompts for GPT-5.6 Ceres migration](../../../changes/bcapps/14198.md) (code change): "Sales Lines Suggestions prompts and accuracy evaluations are updated for GPT-5.6"
+- [#14307 [SLS][29.x] Backport production app updates for GPT-5.6 Ceres](../../../changes/bcapps/14307.md) (code change): "Sales Lines Suggestions app updated with GPT-5.6 Ceres model, improved prompts for product extraction"
 - [Dynamics 365 Business Central Blog Series: Handle CSV (comma-separated values) files](../../../posts/yzhums-com/68672.md) (community post): "Copilot can suggest sales lines from a CSV file"
 - [What's New: Sales Lines Suggestions with Copilot (2024 release wave 1)](../../../videos/_1LhwG2ZgFw.md) (video): "sales line suggestions; copilot; keyword extraction; context understanding"
 - [Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening](../../../videos/2isrH3RcSK8.md) (video): "Copilot item substitution generation; Copilot number series generation"
 - [What's New: Item Substitution with Copilot (2024 release wave 2)](../../../videos/bCIcq1zESKk.md) (video): "Sales line suggestion with Copilot; Data search enhancement"
 - [Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)](../../../videos/cZCSi6khZFo.md) (video): "Sales Lines Suggestions with Copilot; natural language processing"
+- [Create Sales Lines with Copilot in Dynamics 365 Business Central (2024)](../../../videos/qmGxeq5FJis.md) (video): "Create Sales Lines with Copilot in Dynamics 365 Business Central"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

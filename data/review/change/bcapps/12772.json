@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/12772",
+  "input_hash": "27eb24683ea3a5697c31c5014c7a478d5f096cccf46414ecfbb23e6d50e0cb68",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-20T00:57:46.522Z",
+  "issues": [
+    "The key point about '135+ new tests' misreads the line count: CompositeLayoutTests gained 135 lines, not 135 tests.",
+    "Checking that the theme file opens in Word was the author's manual check, not something the change adds.",
+    "'Improves reliability' is filler that the input does not support."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023162,
+    "changes_in_call": 6
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,14 +111,13 @@ Start with the guide that matches your symptom. For migration, begin with the co
 ## More Learn pages
 
 - [Troubleshooting Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-troubleshooting): Learn how to troubleshoot problems that you might experience with the cloud migration to Business Central online from on-premises.
-  - SQL Server compatibility level must be 130 or higher; query sys.databases or run ALTER DATABASE command to set it correctly.
-  - Change tracking must be enabled on database; run ALTER DATABASE command to enable with 3-day retention and auto-cleanup.
-  - Prerequisite: Cloud migration requires users to have Business Central license and SUPER permission set to run setup and migration tasks.
-  - Integration Runtime must be version 5 if machine has .NET Framework Runtime 4.7.2; otherwise use version 4.
-  - When reusing Integration Runtime for multiple migrations, enter its name in Data Migration Setup instead of leaving field blank.
-  - Limit: Cannot migrate multiple on-premises databases to same online environment or same database to multiple environments simultaneously.
-  - Check applicationVersion field in $ndo$tenantdatabaseproperty table; if blank or outdated, migration cannot run.
-  - Step: After migration completes, run Repair Companion Table Records action on Cloud Migration Management page if data is missing.
+  - Prerequisite: SQL Server compatibility level on the on-premises database must be 130 or higher
+  - Prerequisite: Change tracking must be enabled on the on-premises database, or migration will fail
+  - Prerequisite: Users managing cloud migration require a Business Central license and the SUPER permission set
+  - Prerequisite: On-premises deployment must run Business Central version 25.0 or later; version 24 or earlier cannot migrate directly
+  - Simply uninstalling cloud migration apps does not properly disable migration and can cause permission errors
+  - Limit: Records in Tenant Media table cannot be migrated if their size exceeds the maximum size in data handling limits
+  - If table extension records are missing after successful migration, run the Repair Companion Table Records action
   - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../objects/page/40063.md)
 - [Troubleshooting reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-troubleshooting): Learn about how to troubleshoot Business Central reports
 

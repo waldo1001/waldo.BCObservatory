@@ -1,42 +1,42 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-setup.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup",
-  "title": "Run Cloud Migration Setup",
-  "blob": "4c6a15e1a1017e1af4c7e63adb24e9273d39bed2",
+  "title": "Run Business Central Cloud Migration Setup",
+  "blob": "5b551d9b11efd5b8311146ba746ec10a576f20ee",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
+      "kind": "prerequisite",
+      "text": "Person setting up cloud migration must be signed in as administrator of Microsoft Entra tenant and Business Central online."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Run assisted setup from company not being migrated; setup prevents selecting current company for migration."
+    },
+    {
+      "kind": "prerequisite",
+      "text": "Other users must be signed out of target companies before replication starts."
+    },
+    {
       "kind": "fact",
-      "text": "Cloud Migration Setup guided wizard configures components for migrating data from on-premises to Business Central online."
-    },
-    {
-      "kind": "prerequisite",
-      "text": "User running setup must have Microsoft 365 tenant admin and Business Central admin rights."
-    },
-    {
-      "kind": "prerequisite",
-      "text": "Delegated administrators need approval from licensed user with SUPER permissions."
+      "text": "Delegated administrators need approval from licensed user with Essentials or Premium license and SUPER permission set to run setup."
     },
     {
       "kind": "step",
-      "text": "Review cloud migration prerequisites and create table mappings if needed."
+      "text": "Open Cloud Migration Setup, read information and consent by switching on acceptance, select product version matching on-premises source."
     },
     {
       "kind": "step",
-      "text": "Sign into Microsoft 365 tenant and Business Central online environment."
+      "text": "Fill SQL database connection info on Define Your SQL Database Connection page, select Next to create pipeline in Azure."
     },
     {
       "kind": "step",
-      "text": "Open Cloud Migration Setup and accept warnings, then select product version."
+      "text": "Select one or more companies to migrate or enable Migrate All Companies option, then select Next."
     },
     {
-      "kind": "step",
-      "text": "Define SQL database connection and integration runtime settings."
-    },
-    {
-      "kind": "step",
-      "text": "Select companies to migrate or choose all companies."
+      "kind": "fact",
+      "text": "Rerunning setup allows adding more companies or changing companies via Cloud Migration Management Select Companies to Migrate action."
     }
   ],
   "dropped": 0,
@@ -44,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004442,
-      "pages_in_call": 13
+      "cost_usd": 0.004616,
+      "pages_in_call": 12
     }
   ]
 }

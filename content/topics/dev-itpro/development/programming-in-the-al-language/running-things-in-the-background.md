@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-03T01:02:13.361Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,6 +92,7 @@ links:
     - change/bcapps/11890
     - change/bcapps/11950
     - change/bcapps/12117
+    - change/bcapps/14135
     - change/bcapps/9820
     - change/bcquality/148
     - change/bcquality/237
@@ -160,6 +161,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11890 Adding an in-product email storage cleanup](../../../../changes/bcapps/11890.md) (code change): "Scheduler proactively sends admins remediation steps"
 - [#11950 Adding an in-product email storage cleanup (backport to releases/29.x)](../../../../changes/bcapps/11950.md) (code change): "Adds codeunits for cleanup, a runner, a scheduler and inbox row deletion"
 - [#12117 [Job Queue] Clearer message and attempt number for runs interrupted by the platform](../../../../changes/bcapps/12117.md) (code change): "platform interrupts a job queue run, the log entry message now says"
+- [#14135 [Job Queue] Don't cancel the executed task when scheduling the next run](../../../../changes/bcapps/14135.md) (code change): "Job Queue no longer cancels a task that is currently executing"
 - [#9820 Use ReadCommitted isolation for CalcFields in Job Queue Entry GetXmlContent](../../../../changes/bcapps/9820.md) (code change): "Job Queue Entry GetXmlContent method now uses ReadCommitted isolation when reading"
 - [#148 Add Job Queue reliability and scheduling guidance](../../../../changes/bcquality/148.md) (code change): "Require external side effects in Job Queue handlers to be idempotent"
 - [#237 knowledge(data-modeling): keep business state independent of Job Queue lifetime](../../../../changes/bcquality/237.md) (code change): "Deleting a Job Queue Entry can lose business state"

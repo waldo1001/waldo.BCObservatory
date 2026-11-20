@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry
 type: topic
 title: Instrumenting with telemetry
-summary: "Instrumenting AL extensions with telemetry in Business Central: setting up extension telemetry, emitting custom events to Application Insights or the Event Log, logging feature telemetry, and reading the platform's built-in telemetry events. It answers how-to and which-method questions for developers."
+summary: Instrumenting Business Central AL code with telemetry. It covers setting up extension telemetry, emitting custom events to Application Insights or the Event Log, using feature telemetry, and the platform events already logged for extensions. It answers how-to and which-method questions.
 tier: official
 language: en
 system: platform
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:55:39.284Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: db14a00968d023f7ff2ba691e2d092f3990160cc8ceb2a1c07d1db9da7451d7b
+  input_hash: b115942fe10c86e72594bf7bb3d7207aa07a53921ae41892d75e0f34a9cc3e78
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
@@ -128,28 +128,27 @@ narrative: generated
 
 # Instrumenting with telemetry
 
-> Instrumenting AL extensions with telemetry in Business Central: setting up extension telemetry, emitting custom events to Application Insights or the Event Log, logging feature telemetry, and reading the platform's built-in telemetry events. It answers how-to and which-method questions for developers.
+> Instrumenting Business Central AL code with telemetry. It covers setting up extension telemetry, emitting custom events to Application Insights or the Event Log, using feature telemetry, and the platform events already logged for extensions. It answers how-to and which-method questions.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Instrumenting with telemetry · tier official · system platform · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Instrumenting with telemetry · tier official · system platform · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how to add telemetry to a Business Central app so you can see how it behaves in production: user activity, errors, and performance. It starts with an introductory page on developing telemetry into your application, then moves to specific techniques.
+Telemetry lets you collect data about usage, errors, performance and lifecycle events from your Business Central application. The pages here cover the full path: the general concepts of adding telemetry signals, the setup needed for extensions, and the AL methods used to emit events.
 
-For Application Insights, first configure the connection string in app.json (see the extension telemetry setup page). Then choose between custom events with LogMessage and the higher-level feature telemetry, which tracks usage, errors, and uptake state. A separate page covers the older Event Log route with the obsolete SENDTRACETAG method. A page on data logged to app/extension telemetry lists the events the platform emits itself. A reference subtopic with two pages holds the supporting reference material.
+Start with "Adding Telemetry to Your Business Central Application" for the overall picture, then "Set Up Extension Telemetry in Business Central" to connect an extension to Azure Application Insights through app.json. After that, choose how to log. Feature telemetry (the FeatureTelemetry codeunit) covers usage, errors and uptake. Custom events use Session.LogMessage for Application Insights, or SendTraceTag for the Event Log.
 
-Start with the overview page, then the setup page. Use the custom events or feature telemetry pages when you need to log your own signals.
+"Data logged to app/extension telemetry" lists the events the platform already emits, such as page interactions, REST API calls, report rendering, error dialogs and resource consumption. Check it before writing custom events. A subtopic holds two reference documentation pages.
 
 ## Key points
 
-- Extension telemetry setup: set applicationInsightsConnectionString in app.json. The applicationInsightsKey property is also listed. The setup page lists runtime 7.2 as a version reference.
-- Custom Application Insights events use LogMessage, with a dictionary or dimension overloads for custom dimensions, TelemetryScope control, and DataClassification filtering.
-- Event Log telemetry uses the obsolete SENDTRACETAG method, with event categories, verbosity levels, TraceLevel configuration, and Event Viewer. The page lists 2020 release wave 2 (v17) as a version reference.
-- Feature telemetry uses the FeatureTelemetry codeunit from the Telemetry AL module: LogUsage, LogError, and LogUptake.
-- Uptake states for feature telemetry are Discovered, Set up, Used, and Undiscovered.
-- Feature telemetry supports a Telemetry Logger interface, custom dimensions, and comparing features across metrics.
-- The platform emits its own telemetry for page interactions, REST API calls, report rendering, error dialogs, and resource consumption.
-- Telemetry signals can cover usage, errors, and performance for troubleshooting and for monitoring against business goals.
+- Extension telemetry is set up by adding the applicationInsightsConnectionString property (or applicationInsightsKey) in app.json; the setup page mentions runtime 7.2.
+- Session.LogMessage creates custom telemetry events for Application Insights, with dictionary and dimension overloads, TelemetryScope, DataClassification and CustomDimensions parameters.
+- SendTraceTag sends custom trace events to the Business Central Server Event Log, with severity levels, categories and data classification; viewable in Event Viewer.
+- Feature telemetry uses the FeatureTelemetry codeunit with LogUsage, LogError and LogUptake to track feature health and adoption.
+- Uptake states are Discovered, Set up, Used and Undiscovered; a Telemetry Logger interface and custom dimensions allow filtering and comparing features.
+- The platform already logs events for extensions: page interactions, REST API calls, report rendering, error dialogs and resource consumption.
+- The Application Insights custom events page references version 29; the Event Log page references 2020 release wave 2.
 
 ## Subtopics
 

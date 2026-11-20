@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -113,11 +113,12 @@ Start with the overview page and the page on running the Cloud Migration Setup a
 ## Learn pages
 
 - [Business Central Cloud Migration Setup Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-overview): Learn what happens when you set up cloud migration from on-premises to Business Central online, including the data pipeline and connection process.
-  - Cloud migration setup establishes connection and pipeline between on-premises and online databases without migrating data.
-  - Step: Run Cloud Migration Setup and specify SQL database connection and integration runtime.
-  - Step: Integration runtime registers with Azure Data Factory using authentication key exchange.
-  - Step: Preparation pipeline checks compatibility between source and destination databases and creates stored procedures.
-  - Step: Replication pipeline is created and remains idle until data migration is initiated.
+  - Cloud Migration Setup establishes connection and pipeline between on-premises and online tenant databases without replicating business data.
+  - Setup creates selected companies not already existing in destination.
+  - Preparation pipeline checks compatibility between databases, creates stored procedures, retrieves company list, creates migration table list.
+  - Replication pipeline created after preparation pipeline succeeds; copies data and remains idle until replication initiated.
+  - Load balancing automatically selects Azure Data Factory from available options.
+  - Data upgrade required after replication for earlier major version migration; same major version requires no upgrade.
 - [Change Cloud Migration Replication in Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-change-replication): Learn how to include or exclude tables from Business Central cloud migration and control whether replication preserves or replaces online data.
   - Change how data is replicated feature allows including or excluding specific tables from cloud migration.
   - Can specify whether to replace full table or update and insert only missing records.
@@ -127,32 +128,31 @@ Start with the overview page and the page on running the Cloud Migration Setup a
   - Can view history of changes to replication settings and reset tables to default settings.
   - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
 - [Define Cloud Migration Table Mappings in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-table-mapping): Learn how to use cloud migration table mapping to rename a table during cloud migration or to move a subset of fields to a different table or table extension.
-  - Table mapping lets you rename tables during cloud migration or move fields to a different table or extension.
-  - Limit: Multiple source tables cannot map to the same destination table; each target table needs one on-premises source.
-  - Step: Sign in to Business Central online, search for Cloud Migration Management, and select Manage Custom Tables.
-  - Step: Set Target Type, Extension Names, and Table Name to specify the target table.
-  - Step: Enter the Source Table Name as it appears in SQL, such as with company name and extension ID.
-  - Prerequisite: Keys in the on-premises and online tables must match for table renaming.
-  - Prerequisite: The online target table must have ReplicateData property set to true.
-  - You can use Import and Export actions to manage table mapping definitions.
+  - Table mapping allows renaming tables during cloud migration or moving subset of fields to table extension.
+  - Limit: Multiple source tables cannot map to same destination table; each destination requires single on-premises source table.
+  - Prerequisite: Keys in on-premises and online tables must match; online target table must have ReplicateData property set to true.
+  - Step: Open Migration Table Mapping from Cloud Migration Management, set Target Table Type to Table or Table Extension, fill source and target table names.
+  - Source table names entered as SQL format: C/AL example [CRONUS COMPANY$Table Name], AL example with GUID.
+  - Table extension mapping only supported for Business Central cloud migrations; Dynamics GP and SL do not support table extensions.
+  - Subscribe to OnInsertDefaultTableMappings event from codeunit 4001 Hybrid Cloud Management to provide table mappings programmatically.
   - In the observatory: [Codeunit 4001 "Hybrid Cloud Management"](../../../../../objects/codeunit/4001.md), [Page 40010 "Add Migration Table Mappings"](../../../../../objects/page/40010.md), [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md), [Page 4009 "Migration Table Mapping"](../../../../../objects/page/4009.md)
 - [Retain User Permissions During Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-retain-permissions): Learn how to keep the permissions assigned to existing online users so they can continue to work as usual during cloud migration.
-  - By default cloud migration removes all permission sets from existing online users except SUPER users.
-  - Removed permissions are replaced with Intelligent Cloud permission set to prevent non-SUPER users from modifying data.
-  - Step: Sign in to Business Central online and open Cloud Migration Management page.
-  - Step: Select Show the rest, More options, Actions, then Enable/Disable Removing Permissions from Users.
-  - Step: Create custom per-tenant extension with OnBeforeResetUsersToIntelligentCloudPermissions event handler to keep permissions.
-  - Users can keep original permissions to continue working during data replication or for service-to-service apps.
+  - By default, Business Central removes system-scope permission set assignments except SUPER, assigns INTELLIGENT CLOUD permission set.
+  - LOCAL permission set is retained; INTELLIGENT CLOUD permission set assigned to prevent non-SUPER users from modifying data.
+  - Status: Business Central 14 migration retains user permissions automatically.
+  - Step: Before cloud migration setup, use SUPER account to open Cloud Migration Management, select Actions > Enable/Disable Removing Permissions from Users.
+  - Step: Create per-tenant extension with event subscriber handling OnBeforeResetUsersToIntelligentCloudPermissions to retain permissions.
+  - Changing permission retention setting before setup doesn't restore permissions already removed.
   - In the observatory: [Codeunit 6060 "Hybrid Deployment"](../../../../../objects/codeunit/6060.md), [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
 - [Run Business Central Cloud Migration Setup](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup): Run the Cloud Migration Setup guide to connect a Business Central on-premises database to an online environment and select the companies to migrate.
-  - Cloud Migration Setup guided wizard configures components for migrating data from on-premises to Business Central online.
-  - Prerequisite: User running setup must have Microsoft 365 tenant admin and Business Central admin rights.
-  - Prerequisite: Delegated administrators need approval from licensed user with SUPER permissions.
-  - Step: Review cloud migration prerequisites and create table mappings if needed.
-  - Step: Sign into Microsoft 365 tenant and Business Central online environment.
-  - Step: Open Cloud Migration Setup and accept warnings, then select product version.
-  - Step: Define SQL database connection and integration runtime settings.
-  - Step: Select companies to migrate or choose all companies.
+  - Prerequisite: Person setting up cloud migration must be signed in as administrator of Microsoft Entra tenant and Business Central online.
+  - Prerequisite: Run assisted setup from company not being migrated; setup prevents selecting current company for migration.
+  - Prerequisite: Other users must be signed out of target companies before replication starts.
+  - Delegated administrators need approval from licensed user with Essentials or Premium license and SUPER permission set to run setup.
+  - Step: Open Cloud Migration Setup, read information and consent by switching on acceptance, select product version matching on-premises source.
+  - Step: Fill SQL database connection info on Define Your SQL Database Connection page, select Next to create pipeline in Azure.
+  - Step: Select one or more companies to migrate or enable Migrate All Companies option, then select Next.
+  - Rerunning setup allows adding more companies or changing companies via Cloud Migration Management Select Companies to Migrate action.
   - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.

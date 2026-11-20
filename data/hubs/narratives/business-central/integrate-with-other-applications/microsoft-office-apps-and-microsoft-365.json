@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365",
-  "input_hash": "3c5be050b9edffeac0dcb622b2f2162ffaf34da919b0c49f32c24b6e55e26e14",
-  "summary": "Business Central integration with Microsoft 365 apps: Excel, OneDrive, Outlook, Teams and Word. It answers setup, usage and administration questions about editing data in Excel, report layouts, sharing files, the Outlook add-in, Teams app, and Word mail merge.",
-  "overview": "This section covers how Business Central works with the Microsoft 365 apps that users already use for analysis, documents and communication. The entry page gives an overview of the integrations, including Open in Excel, Edit in Excel, Excel report layouts, G/L budget export and import, and Open in OneDrive.\n\nEach app has its own subtopic. Excel covers report layouts, importing data, the on-premises add-in setup, and viewing or editing data. OneDrive covers user actions and administrator setup, governance, privacy and on-premises configuration. Outlook covers the add-in and email setup without Outlook. Teams covers installation, sharing, tabs, licensing, permissions and deployment. Word covers report layouts, the XML Mapping pane and mail merge templates.\n\nStart with the overview page to see which integration fits your task, then go to the subtopic for the app. Administrators will mostly use the setup, deployment and privacy pages. Users will mostly use the how-to pages.",
+  "input_hash": "a22e3f6e51462949a50d8e54beb4031e83c96234db6e9e71abc6abda1dbf042d",
+  "summary": "Integration of Business Central with Microsoft 365 apps: Excel, OneDrive, Outlook, Teams and Word. It answers setup, usage and administration questions, such as editing data in Excel, saving files to OneDrive, using the Outlook add-in, sharing records in Teams, and designing Word layouts.",
+  "overview": "This section covers how Business Central works with Microsoft 365 apps for data analysis, document management and business communication. A top-level page gives the overview and lists features such as Open in Excel, Edit in Excel, Excel report layouts, G/L budget export and import, and Open in OneDrive.\n\nEach app has its own subtopic. Excel covers report layouts, importing data, the on-premises add-in and viewing or editing data. OneDrive covers setup, administration, on-premises configuration, user actions and FAQ. Outlook covers the add-in, saving contacts to Outlook and Teams, and email setup without Outlook. Teams covers installing the app, searching contacts, sharing links and tabs, and administration. Word covers report layouts, the XML Mapping pane and mail merge templates.\n\nStart with the overview page to find the app that matches your task. Then open that app's subtopic. Administrators will find the setup, licensing, permissions and privacy pages there. End users will find the how-to pages for daily use.",
   "key_points": [
     "Excel: build report layouts, import business data, and view or edit Business Central data in Excel.",
-    "Excel add-in setup for on-premises is documented.",
-    "OneDrive: users open, share and edit files in OneDrive for Business; admins set up and govern it, including on-premises.",
+    "Excel add-in setup is documented for on-premises deployments.",
+    "OneDrive: setup, administration, on-premises configuration, opening and sharing files, saving Excel and report files, privacy and access, and FAQ.",
     "Outlook add-in provides contact insights, document view and document creation.",
-    "Contacts can be saved from Business Central to Outlook and Teams; email can be set up without Outlook.",
-    "Teams: install the app, search contacts, share records and page links, and add Business Central tabs.",
-    "Teams admin topics include licensing, permissions, deployment and privacy.",
-    "Word: design report layouts with the Word add-in, map fields via the XML Mapping pane, and use templates for mail merge with contacts, customers and vendors."
+    "Business Central contacts can be saved to Outlook and Teams, and email can be set up without Outlook.",
+    "Teams: install the Business Central app, search contacts, share records and page links, and add Business Central tabs.",
+    "Teams administration covers licensing, permissions, deployment and privacy.",
+    "Word: design report layouts with the Word add-in, map fields to content controls in the XML Mapping pane, and use templates for mail merge with contacts, customers and vendors."
   ],
   "members_used": 1,
   "subtopics_used": 5,
   "prompt_version": 1,
-  "at": "2026-11-15T00:50:37.851Z",
+  "at": "2026-11-20T01:01:09.450Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.012563
+    "cost_usd": 0.012995
   }
 }

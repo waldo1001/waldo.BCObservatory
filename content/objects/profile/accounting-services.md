@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:47:08.789Z"
+  at: "2026-11-20T00:47:37.951Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d225d589b16ee6052490e3937ca664b726207ce037adae931b8fe3e96cd3912d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Layers/W1/BaseApp/OtherCapabilities/AccountantPortal/AccountingServices.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/W1/BaseApp/OtherCapabilities/AccountantPortal/AccountingServices.Profile.al
     title: src/Layers/W1/BaseApp/OtherCapabilities/AccountantPortal/AccountingServices.Profile.al (releases/29.x)
     date: null
-    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
+    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "ACCOUNTING SERVICES" in Base Application (Microsoft.AccountantPortal). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.AccountantPortal · captioned "Outsourced Accounting Manager" · BC23-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Layers/W1/BaseApp/OtherCapabilities/AccountantPortal/AccountingServices.Profile.al) · facts from BC29
+Base Application · Microsoft.AccountantPortal · captioned "Outsourced Accounting Manager" · BC23-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/W1/BaseApp/OtherCapabilities/AccountantPortal/AccountingServices.Profile.al) · facts from BC29
 
 ## Properties
 

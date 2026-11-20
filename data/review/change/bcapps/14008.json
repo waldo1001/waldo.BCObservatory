@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/14008",
+  "input_hash": "3e7372e75c8befe9eb554a254d251c76f72e1b92d14f584551ea58614f403a95",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-20T00:57:47.506Z",
+  "issues": [
+    "The last key point says 'invoice posting', but the description says application posting and preview are affected."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021571,
+    "changes_in_call": 6
+  }
+}

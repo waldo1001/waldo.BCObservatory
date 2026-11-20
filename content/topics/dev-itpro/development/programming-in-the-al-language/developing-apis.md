@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/developing-apis
 type: topic
 title: Developing APIs
-summary: Developing APIs covers how to build, call, troubleshoot and monitor REST/OData APIs in Business Central using AL API pages and API queries. It answers questions about API design properties, filters, batch requests, error codes, performance, telemetry and Connect app authentication.
+summary: "Developing APIs in AL for Business Central: API page and API query types, building custom REST/OData v4 endpoints, Connect app basics, filters, request tips, troubleshooting, performance and web service telemetry. It answers how to build, call, tune and diagnose web service APIs."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:55:21.197Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: da1ae0cf81442acea3766ed49f1ee11c16b68ba0f51d4dbf75a87b35956e8eb6
+  input_hash: 61f6e59b51ebed8eb69ce1f11ddfd1d8bb53fcf74b483d876c08b7b0cfc3cedb
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api-pagetype
@@ -138,26 +138,28 @@ narrative: generated
 
 # Developing APIs
 
-> Developing APIs covers how to build, call, troubleshoot and monitor REST/OData APIs in Business Central using AL API pages and API queries. It answers questions about API design properties, filters, batch requests, error codes, performance, telemetry and Connect app authentication.
+> Developing APIs in AL for Business Central: API page and API query types, building custom REST/OData v4 endpoints, Connect app basics, filters, request tips, troubleshooting, performance and web service telemetry. It answers how to build, call, tune and diagnose web service APIs.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Developing APIs · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Developing APIs · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains how to expose Business Central data as RESTful, OData v4-enabled web services. API pages give read-write access with versioning and webhook support. API queries join data from several sources and expose it read-only. Both rely on properties such as APIPublisher, APIGroup and APIVersion.
-The pages fit together as a path. Start with "Develop APIs with Pages and Queries" for the overview, then the API page type and API query type pages for the object details. "Developing a custom API" is a walkthrough covering relationships, parts and navigation properties. "Get started developing Connect apps" covers authentication and exploring endpoints with Insomnia.
-Once an API exists, the remaining pages cover use and operation. They include tips (Accept-Language, OData $batch, Data-Access-Intent), filter expressions, troubleshooting with HTTP and OData error codes, performance patterns and anti-patterns, and web service telemetry.
+This section covers building and consuming REST APIs in Business Central with AL. API pages give versioned, OData v4 enabled, webhook-capable endpoints with create, read, update and delete operations. API queries join data from several sources and expose it as read-only endpoints. Both use properties such as APIPublisher, APIGroup and APIVersion.
+
+Start with "Develop APIs with Pages and Queries" for the overview, then "API page type" and "API query type" for the object types. "Developing a custom API" is a walkthrough for API pages: key fields, SystemId, entity names, relationships through parts and navigation properties, and moving away from the deprecated ODataEDMType complex types. "Get started developing Connect apps" covers authentication (Microsoft Entra ID with OAuth 2.0, or basic authentication with a web service access key) and exploring endpoints with Insomnia.
+
+The remaining pages support day-to-day work with the APIs: tips on GET requests, Accept-Language, OData $batch and the Data-Access-Intent header; filter expressions; error and status code troubleshooting; performance patterns and anti-patterns; and web service telemetry for SOAP, OData and API traffic.
 
 ## Key points
 
-- API page type creates versioned, webhook-supported, OData v4 REST services with create, read, update and delete operations; InsertAllowed and ModifyAllowed control writes.
-- API query type joins data from different sources and exposes it as read-only, using APIPublisher, APIGroup and version properties.
-- Custom API pages need APIVersion, APIPublisher and APIGroup, and use ODataKeyFields, SystemId, EntityName, EntityCaption and EntitySetCaption; the walkthrough covers API v2.0 and moving away from deprecated ODataEDMType complex types.
-- Connect apps use REST APIs with Microsoft Entra ID, OAuth 2.0 or basic authentication (web service access key); Insomnia can be used to explore endpoints.
-- API tips cover GET requests, the Accept-Language header, transactional OData $batch with Isolation: snapshot, and Data-Access-Intent set to ReadOnly (2020 release wave 2, version 17.1).
-- Filtering follows Microsoft REST API guidelines for property-based and range-based filters.
-- Troubleshooting maps AL runtime exceptions to OData error messages and HTTP status codes, with the AL debugger and telemetry as aids.
-- Performance depends on both the server endpoint and the consumer (including Power BI); web service telemetry logs SOAP, OData and API requests, access key authentication and publish failures.
+- API page type creates versioned, OData v4 enabled REST endpoints with webhook support and CRUD; InsertAllowed and ModifyAllowed properties control writes.
+- API query type joins data from different sources and exposes it read-only, using APIPublisher, APIGroup and version properties.
+- The custom API walkthrough covers API v2.0 pages, ODataKeyFields, SystemId, EntityName, EntityCaption and EntitySetCaption, and parts and navigation properties for relationships.
+- Connect apps (2022 release wave 1) make point-to-point connections to partner solutions; authentication uses Microsoft Entra ID with OAuth 2.0 or basic authentication with a web service access key.
+- API tips cover Accept-Language for localization, transactional OData $batch with Isolation: snapshot, and Data-Access-Intent set to ReadOnly (2020 release wave 2, version 17.1).
+- Filtering follows Microsoft REST API guidelines, with property-based and range-based filter expressions.
+- Troubleshooting maps AL runtime exceptions to OData error codes and HTTP status codes, using the AL debugger and telemetry.
+- Performance depends on both the server endpoint and the consumer; guidance lists patterns, anti-patterns and Power BI considerations.
 
 ## Learn pages
 

@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/developing-apis",
-  "input_hash": "da1ae0cf81442acea3766ed49f1ee11c16b68ba0f51d4dbf75a87b35956e8eb6",
-  "summary": "Developing APIs covers how to build, call, troubleshoot and monitor REST/OData APIs in Business Central using AL API pages and API queries. It answers questions about API design properties, filters, batch requests, error codes, performance, telemetry and Connect app authentication.",
-  "overview": "This section explains how to expose Business Central data as RESTful, OData v4-enabled web services. API pages give read-write access with versioning and webhook support. API queries join data from several sources and expose it read-only. Both rely on properties such as APIPublisher, APIGroup and APIVersion.\nThe pages fit together as a path. Start with \"Develop APIs with Pages and Queries\" for the overview, then the API page type and API query type pages for the object details. \"Developing a custom API\" is a walkthrough covering relationships, parts and navigation properties. \"Get started developing Connect apps\" covers authentication and exploring endpoints with Insomnia.\nOnce an API exists, the remaining pages cover use and operation. They include tips (Accept-Language, OData $batch, Data-Access-Intent), filter expressions, troubleshooting with HTTP and OData error codes, performance patterns and anti-patterns, and web service telemetry.",
+  "input_hash": "61f6e59b51ebed8eb69ce1f11ddfd1d8bb53fcf74b483d876c08b7b0cfc3cedb",
+  "summary": "Developing APIs in AL for Business Central: API page and API query types, building custom REST/OData v4 endpoints, Connect app basics, filters, request tips, troubleshooting, performance and web service telemetry. It answers how to build, call, tune and diagnose web service APIs.",
+  "overview": "This section covers building and consuming REST APIs in Business Central with AL. API pages give versioned, OData v4 enabled, webhook-capable endpoints with create, read, update and delete operations. API queries join data from several sources and expose it as read-only endpoints. Both use properties such as APIPublisher, APIGroup and APIVersion.\n\nStart with \"Develop APIs with Pages and Queries\" for the overview, then \"API page type\" and \"API query type\" for the object types. \"Developing a custom API\" is a walkthrough for API pages: key fields, SystemId, entity names, relationships through parts and navigation properties, and moving away from the deprecated ODataEDMType complex types. \"Get started developing Connect apps\" covers authentication (Microsoft Entra ID with OAuth 2.0, or basic authentication with a web service access key) and exploring endpoints with Insomnia.\n\nThe remaining pages support day-to-day work with the APIs: tips on GET requests, Accept-Language, OData $batch and the Data-Access-Intent header; filter expressions; error and status code troubleshooting; performance patterns and anti-patterns; and web service telemetry for SOAP, OData and API traffic.",
   "key_points": [
-    "API page type creates versioned, webhook-supported, OData v4 REST services with create, read, update and delete operations; InsertAllowed and ModifyAllowed control writes.",
-    "API query type joins data from different sources and exposes it as read-only, using APIPublisher, APIGroup and version properties.",
-    "Custom API pages need APIVersion, APIPublisher and APIGroup, and use ODataKeyFields, SystemId, EntityName, EntityCaption and EntitySetCaption; the walkthrough covers API v2.0 and moving away from deprecated ODataEDMType complex types.",
-    "Connect apps use REST APIs with Microsoft Entra ID, OAuth 2.0 or basic authentication (web service access key); Insomnia can be used to explore endpoints.",
-    "API tips cover GET requests, the Accept-Language header, transactional OData $batch with Isolation: snapshot, and Data-Access-Intent set to ReadOnly (2020 release wave 2, version 17.1).",
-    "Filtering follows Microsoft REST API guidelines for property-based and range-based filters.",
-    "Troubleshooting maps AL runtime exceptions to OData error messages and HTTP status codes, with the AL debugger and telemetry as aids.",
-    "Performance depends on both the server endpoint and the consumer (including Power BI); web service telemetry logs SOAP, OData and API requests, access key authentication and publish failures."
+    "API page type creates versioned, OData v4 enabled REST endpoints with webhook support and CRUD; InsertAllowed and ModifyAllowed properties control writes.",
+    "API query type joins data from different sources and exposes it read-only, using APIPublisher, APIGroup and version properties.",
+    "The custom API walkthrough covers API v2.0 pages, ODataKeyFields, SystemId, EntityName, EntityCaption and EntitySetCaption, and parts and navigation properties for relationships.",
+    "Connect apps (2022 release wave 1) make point-to-point connections to partner solutions; authentication uses Microsoft Entra ID with OAuth 2.0 or basic authentication with a web service access key.",
+    "API tips cover Accept-Language for localization, transactional OData $batch with Isolation: snapshot, and Data-Access-Intent set to ReadOnly (2020 release wave 2, version 17.1).",
+    "Filtering follows Microsoft REST API guidelines, with property-based and range-based filter expressions.",
+    "Troubleshooting maps AL runtime exceptions to OData error codes and HTTP status codes, using the AL debugger and telemetry.",
+    "Performance depends on both the server endpoint and the consumer; guidance lists patterns, anti-patterns and Power BI considerations."
   ],
   "members_used": 10,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-17T01:13:12.787Z",
+  "at": "2026-11-20T01:00:39.863Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.018224999999999998
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:55:21.197Z",
-    "verdict": "approve",
-    "issues": [
-      "The Tips page's version (2020 release wave 2, version 17.1) is tied to Data-Access-Intent ReadOnly specifically. The source lists that version for the page as a whole, so the link is an inference. It's plausible and can stay.",
-      "The 2022 release wave 1 version on the Connect apps page is left out. Nothing is wrong because of this."
-    ],
-    "input_hash": "da1ae0cf81442acea3766ed49f1ee11c16b68ba0f51d4dbf75a87b35956e8eb6",
-    "cost_usd": 0.0496472
+    "cost_usd": 0.022302000000000002
   }
 }

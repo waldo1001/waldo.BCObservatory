@@ -1,26 +1,22 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-client-add-in-exceptions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-client-add-in-exceptions",
-  "title": "Analyzing client control add-in exception telemetry",
-  "blob": "dddaeb96e3ce99c664c2da723d4a2aec10759930",
+  "title": "Analyzing Client Control Add-In Exception Telemetry",
+  "blob": "23783b0efe7208b2c3045aa13c218b5961195939",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Client control add-in exceptions are logged to Application Insights exceptions table, not traces table"
+      "text": "Client add-in exceptions are logged to Application Insights exceptions table, not traces table"
     },
     {
       "kind": "fact",
-      "text": "Exception telemetry event ID is CL0005 and includes control add-in name, page object details, app information"
+      "text": "CL0005 event ID identifies exceptions raised inside control add-ins"
     },
     {
       "kind": "fact",
-      "text": "Error details include problem ID, type, assembly, method, outer and innermost error information on call stack"
-    },
-    {
-      "kind": "fact",
-      "text": "Telemetry captures environment context including tenant, company, client type, host type, and device screen resolution"
+      "text": "Exception data includes problem ID, error type, assembly, method, and nested error information from call stack"
     },
     {
       "kind": "fact",
@@ -28,16 +24,16 @@
     },
     {
       "kind": "fact",
-      "text": "User ID and problemId field enable exception grouping and user impact analysis"
+      "text": "Exception custom dimensions track host type, device screen resolution, control add-in name, app identity, and environment context"
     }
   ],
-  "dropped": 0,
+  "dropped": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.013325,
-      "pages_in_call": 3
+      "cost_usd": 0.00732,
+      "pages_in_call": 7
     }
   ]
 }

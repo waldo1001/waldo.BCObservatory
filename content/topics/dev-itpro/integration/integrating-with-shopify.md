@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:29.802Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,7 +89,8 @@ links:
     - video/StIVhsnOHWY
     - video/VjYMhjjc3uw
     - video/YSDfDjrMUb0
-  posts: []
+  posts:
+    - post/gerardorenteria-blog/11616
   guidelines: []
   changes:
     - change/bcapps/10034
@@ -117,6 +118,7 @@ links:
     - change/bcapps/12139
     - change/bcapps/12148
     - change/bcapps/13883
+    - change/bcapps/14123
     - change/bcapps/8554
     - change/bcapps/8577
     - change/bcapps/8587
@@ -155,7 +157,7 @@ coverage:
   learn: 4
   code: 16
   video: 15
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 30100
@@ -241,6 +243,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12139 [Shopify] Disable Create Sales Documents for empty order views](../../../changes/bcapps/12139.md) (code change): "Create Sales Documents action on the Shopify Orders page is now disabled"
 - [#12148 [E-Documents Core] [Peppol] - Make PEPPOL Order Response conformant with BIS 28 (T76) and report the seller's decision](../../../changes/bcapps/12148.md) (code change): "PEPPOL Order Response messages now conform to BIS 28 (T76) standard"
 - [#13883 [Shopify] Initialize return processing for existing shops on upgrade](../../../changes/bcapps/13883.md) (code change): "Initialize return processing for existing shops on upgrade"
+- [#14123 [Shopify] Keep gift cards from unverified POS returns on the sales invoice](../../../changes/bcapps/14123.md) (code change): "Keep gift cards from unverified POS returns on the sales invoice"
 - [#8554 [Shopify] Fix incorrect G/L line on credit memo for refund with exchange item](../../../changes/bcapps/8554.md) (code change): "Shopify connector now correctly handles credit memos for refunds involving exchange items"
 - [#8577 [Shopify] Fix #7724: Resolve Option 1 Name from existing Shopify Variant records](../../../changes/bcapps/8577.md) (code change): "Option 1 Name for Shopify product variants was being incorrectly reset to 'Variant'"
 - [#8587 [Shopify] Make codeunit 30272 "Shpfy Update Price Source" public](../../../changes/bcapps/8587.md) (code change): "Codeunit 30272 "Shpfy Update Price Source" is now public, allowing partners to reference it"
@@ -269,6 +272,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9537 [Shopify] Store tax lines linked to order shipping charges](../../../changes/bcapps/9537.md) (code change): "Shopify order imports now persist tax lines linked to shipping charges"
 - [#9581 [Shopify] Add Unlisted to Status for Created Products and update status tooltip](../../../changes/bcapps/9581.md) (code change): "Shopify Status for Created Products option on the Shop Card now offers Unlisted"
 - [#9959 [Shopify] Add catalog filters to Sync Catalog Prices report](../../../changes/bcapps/9959.md) (code change): "Add catalog filters to Sync Catalog Prices report"
+- [What’s new and planned Business Central 2025 Wave 2 – v27🔔](../../../posts/gerardorenteria-blog/11616.md) (community post): "Shopify and Dynamics 365 Field Service integrations are strengthened"
 - [What's New: Shopify Connector B2B Functionality (2024 release wave 1)](../../../videos/3tmaVpPTQLw.md) (video): "shopify connector; b2b; order editing; company synchronization; customer synchronization"
 - [What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)](../../../videos/5Qfc7r618OM.md) (video): "Shopify connector; skipped records; export validation; integration troubleshooting"
 - [What's New: Product Information Management in Shopify Connector (2026 release wave 1)](../../../videos/6vHJQggN4F4.md) (video): "Product Information Management in Shopify Connector; item variants; image export"

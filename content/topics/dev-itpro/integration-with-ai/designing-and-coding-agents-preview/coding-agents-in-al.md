@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,10 +97,9 @@ links:
   posts:
     - post/bertverbeek-nl/1272
     - post/demiliani-com/13814
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165
+    - post/demiliani-com/17529
     - post/freddysblog/https-freddysblog-com-2026-11-10-human-vs-ai--4beea4bfd7
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-693116706571215184--4c47cc37c6
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
     - post/yzhums-com/71363
   guidelines: []
   changes:
@@ -196,7 +195,7 @@ coverage:
   learn: 8
   code: 0
   video: 4
-  blog: 7
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 69eac98ac3509b30b15900079714f9d3546b4ea11aac6d5b7228ce8677ee298c
@@ -331,11 +330,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#174 Make BCQuality documentation easier for partners to get started](../../../../changes/bcquality/174.md) (code change): "Community Agents review extended with folder-path support"
 - [#176 Complete partner contribution and knowledge consumption guides](../../../../changes/bcquality/176.md) (code change): "consuming skills in custom agents, with clarifications on metadata, integration"
 - [Agents in Business Central – part 5 – Creating agent from code](../../../../posts/bertverbeek-nl/1272.md) (community post): "Implement IAgentFactory to control agent creation, setup experience, and access"
-- [Dynamics 365 Business Central: new model choice in Agent definition.](../../../../posts/demiliani-com/13814.md) (community post): "AL methods allowing administrators to select between available models"
-- [Weekly Review: Business Central AL Development – May 31–June 6, 2026](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165.md) (community post): "AL APIs (SetModelId, GetModelId, etc.) for code-defined agents"
+- [Dynamics 365 Business Central: new model choice in Agent definition.](../../../../posts/demiliani-com/13814.md) (community post): "new Agent codeunit methods: SetModelId, SetModelIdToAuto, GetModelId"
+- [Copilots and agents for Dynamics 365 Business Central: our new book is out!](../../../../posts/demiliani-com/17529.md) (community post): "covering copilots, agents, and various implementation approaches using AL"
 - [“Human” vs. AI](../../../../posts/freddysblog/https-freddysblog-com-2026-11-10-human-vs-ai--4beea4bfd7.md) (community post): "how AI coding agents are set up, using AL and Business Central partner work as the context"
 - [Data query tools in the Business Central MCP server: a hands-on test guide](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-693116706571215184--4c47cc37c6.md) (community post): "Data Query Tools feature on the Business Central MCP server enables agents to query tables"
-- [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "Partners need to develop AI competency through the AI Development Toolkit and Agent Building Sandbox"
 - [Business Central 2026 release wave 1 (BC28): New template for getting started with creating agents](../../../../posts/yzhums-com/71363.md) (community post): "the AL Language extension adds an Agent template to the AL: New Project command"
 - [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Agent creation and configuration; Agent instructions configuration; Agent model selection"

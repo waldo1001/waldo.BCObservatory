@@ -2,10 +2,10 @@
   "inputs": [
     7,
     [
-      "8df2ba47b62fdf6e6189524d4680b9bfb49bb553",
+      "4303e5e584d3aa5d9e98cbc615525a5396ad6ed7",
       "4",
       9478,
-      "8df2ba47b62fdf6e6189524d4680b9bfb49bb553",
+      "4303e5e584d3aa5d9e98cbc615525a5396ad6ed7",
       "4",
       7049
     ]
@@ -128542,6 +128542,11 @@
         "obsolete": null,
         "subs": []
       },
+      "OnBeforeIsFAJournalBatchApprovalsWorkflowEnabled": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
       "OnBeforeIsGeneralJournalBatchApprovalsWorkflowEnabled": {
         "kind": "integration",
         "obsolete": null,
@@ -128709,6 +128714,22 @@
           {
             "s": "codeunit/1541",
             "proc": "HandleOnCancelCustomerApprovalRequest",
+            "app": "Base Application"
+          }
+        ]
+      },
+      "OnCancelFAJournalBatchApprovalRequest": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": [
+          {
+            "s": "codeunit/1520",
+            "proc": "RunWorkflowOnCancelFAJournalBatchApprovalRequest",
+            "app": "Base Application"
+          },
+          {
+            "s": "codeunit/1541",
+            "proc": "HandleOnCancelFAJournalBatchApprovalRequest",
             "app": "Base Application"
           }
         ]
@@ -129138,6 +129159,17 @@
           {
             "s": "codeunit/1520",
             "proc": "RunWorkflowOnSendCustomerForApproval",
+            "app": "Base Application"
+          }
+        ]
+      },
+      "OnSendFAJournalBatchForApproval": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": [
+          {
+            "s": "codeunit/1520",
+            "proc": "RunWorkflowOnSendFAJournalBatchForApproval",
             "app": "Base Application"
           }
         ]
@@ -172740,6 +172772,17 @@
           }
         ]
       },
+      "OnAfterDeleteDeploymentRecord": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": [
+          {
+            "s": "codeunit/36959",
+            "proc": "OnAfterDeleteDeploymentRecord",
+            "app": "PowerBIReports"
+          }
+        ]
+      },
       "OnReportDeployed": {
         "kind": "integration",
         "obsolete": null,
@@ -178872,6 +178915,11 @@
           }
         ]
       },
+      "OnGetFAJournalTemplatePageID": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
       "OnGetItemJournalTemplatePageID": {
         "kind": "integration",
         "obsolete": null,
@@ -181777,6 +181825,13 @@
     },
     "codeunit/7249": {
       "OnGetCrossEnvPageSize": {
+        "kind": "internal",
+        "obsolete": null,
+        "subs": []
+      }
+    },
+    "codeunit/7275": {
+      "OnAICallOnAfterGenerateChatCompletion": {
         "kind": "internal",
         "obsolete": null,
         "subs": []
@@ -263230,10 +263285,43 @@
       }
     },
     "table/5620": {
+      "OnAfterDeleteEvent": {
+        "kind": "trigger_event",
+        "obsolete": null,
+        "subs": [
+          {
+            "s": "codeunit/1535",
+            "proc": "DeleteApprovalEntriesAfterDeleteFAJournalBatch",
+            "app": "Base Application"
+          }
+        ]
+      },
+      "OnAfterRenameEvent": {
+        "kind": "trigger_event",
+        "obsolete": null,
+        "subs": [
+          {
+            "s": "codeunit/1550",
+            "proc": "UpdateFAJournalBatchRestrictionsAfterRename",
+            "app": "Base Application"
+          }
+        ]
+      },
       "OnAfterSetupNewBatch": {
         "kind": "integration",
         "obsolete": null,
         "subs": []
+      },
+      "OnBeforeDeleteEvent": {
+        "kind": "trigger_event",
+        "obsolete": null,
+        "subs": [
+          {
+            "s": "codeunit/1550",
+            "proc": "RemoveFAJournalBatchRestrictionsBeforeDelete",
+            "app": "Base Application"
+          }
+        ]
       }
     },
     "table/5621": {
@@ -263253,10 +263341,43 @@
         "obsolete": null,
         "subs": []
       },
+      "OnAfterInsertEvent": {
+        "kind": "trigger_event",
+        "obsolete": null,
+        "subs": [
+          {
+            "s": "codeunit/1550",
+            "proc": "RestrictFAJournalLineAfterInsert",
+            "app": "Base Application"
+          }
+        ]
+      },
       "OnAfterIsAcquisitionCost": {
         "kind": "integration",
         "obsolete": null,
         "subs": []
+      },
+      "OnAfterModifyEvent": {
+        "kind": "trigger_event",
+        "obsolete": null,
+        "subs": [
+          {
+            "s": "codeunit/1550",
+            "proc": "RestrictFAJournalLineAfterModify",
+            "app": "Base Application"
+          }
+        ]
+      },
+      "OnAfterRenameEvent": {
+        "kind": "trigger_event",
+        "obsolete": null,
+        "subs": [
+          {
+            "s": "codeunit/1550",
+            "proc": "UpdateFAJournalLineRestrictionsAfterRename",
+            "app": "Base Application"
+          }
+        ]
       },
       "OnAfterSetUpNewLine": {
         "kind": "integration",
@@ -263292,6 +263413,17 @@
         "kind": "integration",
         "obsolete": null,
         "subs": []
+      },
+      "OnCheckFAJournalLinePostRestrictions": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": [
+          {
+            "s": "codeunit/1550",
+            "proc": "FAJournalBatchCheckFAJournalLinePostRestrictions",
+            "app": "Base Application"
+          }
+        ]
       },
       "OnConvertToLedgEntryCase": {
         "kind": "integration",
@@ -284436,7 +284568,7 @@
     }
   },
   "dead_events": {
-    "count": 22499
+    "count": 22501
   },
   "unresolved": [
     {
@@ -294706,9 +294838,9 @@
     "drilldown_page": 526,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5184,
+    "subscribes": 5195,
     "edges": 20695,
-    "published_events": 26317,
-    "dead_events": 22499
+    "published_events": 26330,
+    "dead_events": 22501
   }
 }

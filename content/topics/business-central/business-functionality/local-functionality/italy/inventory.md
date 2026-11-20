@@ -12,7 +12,7 @@ review:
   at: "2026-10-28T11:04:00.152Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/14124
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -92,5 +94,11 @@ Start with the fiscal inventory valuation page to set the methods and costing se
   - In the observatory: [Page 12137 "Item Costing Setup (IT)"](../../../../../objects/page/12137-it.md)
 - [Set Up Initial Item Costs in the Italian Version [IT]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/how-to-set-up-initial-item-costs): Learn how to set up initial item costs using the Before Start Item Cost page in the Italian version of Business Central.
   - In the observatory: [Page 12117 "Before Start Item Cost (IT)"](../../../../../objects/page/12117-it.md), [Page 12118 "Item Cost History List (IT)"](../../../../../objects/page/12118-it.md), [Report 12115 "Calculate End Year Costs (IT)"](../../../../../objects/report/12115-it.md)
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#14124 [main] Bug 658242 IT Report 12135 "Fiscal Inventory Valuation" shows prior-year value for an item first posted in a later year](../../../../../changes/bcapps/14124.md) (code change): "In the Italian localization, report 12135 Fiscal Inventory Valuation no longer shows"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

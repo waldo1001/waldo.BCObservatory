@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/yzhums-com/77505",
+  "input_hash": "24f571087777e5cff006b482a0504c67f091597bac5b292eeb6807e64e819838",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-20T00:57:01.286Z",
+  "issues": [
+    "Summary and key points match the post: v30 (2027 wave 1) removes the option to expose pages from Microsoft-published apps as OData endpoints, and the workaround is to copy the page into your own extension.",
+    "Both quotes appear in the post, apart from apostrophe style, and both are useful.",
+    "The post suggests Data Mirroring to Microsoft Fabric mainly for Power BI use. The summary's more general wording about alternatives is acceptable.",
+    "Features, systems and versions are supported by the post. No AL objects are named, so the empty objects list is correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.042148,
+    "posts_in_call": 1
+  }
+}

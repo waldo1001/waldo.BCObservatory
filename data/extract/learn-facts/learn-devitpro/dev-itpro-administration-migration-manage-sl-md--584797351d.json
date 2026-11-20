@@ -1,30 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-manage-sl.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-sl",
-  "title": "Managing Dynamics SL cloud migration",
-  "blob": "76c8a7d0cd45cec98850db6710ac6b1a5bd7ad78",
+  "title": "Manage Dynamics SL Cloud Migration in Business Central",
+  "blob": "e105ffbf161818e25eeea00091e4b0851d397b39",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Cloud Migration Management page provides central hub for managing migration with status tracking and error details."
+      "text": "Cloud Migration Management page provides central hub for managing Dynamics SL cloud data migration."
+    },
+    {
+      "kind": "permission",
+      "text": "SUPER permission set required for most management actions."
     },
     {
       "kind": "fact",
-      "text": "Migration Log shows status of all runs including time and progress; tiles display migrated table counts."
+      "text": "Migration log shows status of migration runs with time and progress; statistics display tables successful, remaining, failed, and warnings."
     },
     {
       "kind": "fact",
-      "text": "Configure SL Migration action sets up migration settings for migrating company data from Dynamics SL."
+      "text": "SL Cloud Migration Errors and Failed Companies help investigate company migration failures."
     },
     {
       "kind": "fact",
-      "text": "Run data replication starts migration manually; subsequent runs migrate only changes since previous run using change tracking."
+      "text": "Change tracking identifies changes for tables supporting incremental replication in subsequent runs."
     },
     {
       "kind": "fact",
-      "text": "Complete migration action completes cloud migration setup from menu options."
+      "text": "Pause migration disables cloud migration for later resumption without stopping in-progress replication."
+    },
+    {
+      "kind": "fact",
+      "text": "Abandon migration disables cloud migration permanently without stopping in-progress replication or removing migrated data."
     }
   ],
   "dropped": 0,
@@ -32,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005028,
-      "pages_in_call": 10
+      "cost_usd": 0.004616,
+      "pages_in_call": 12
     }
   ]
 }

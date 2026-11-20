@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -214,6 +214,7 @@ links:
     - change/bcapps/11324
     - change/bcapps/11998
     - change/bcapps/12696
+    - change/bcapps/12701
     - change/bcapps/13165
     - change/bcapps/13224
     - change/bcapps/13330
@@ -356,6 +357,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11324 [main] Bug 649837 Export to Excel All exported rows if Show Currency is enabled in General Ledger Setup.](../../../../changes/bcapps/11324.md) (code change): "exporting to Excel applied a selected currency to all exported rows when Show Currency was enabled"
 - [#11998 [main] It should not be possible to post invoices with a non-existing Posting Setup combination because it creates trouble with Adjust for Payment Discount.](../../../../changes/bcapps/11998.md) (code change): "validates that a General Posting Setup combination exists before posting journal invoices"
 - [#12696 Fix Norwegian SAF-T 1.30 debit and credit totals](../../../../changes/bcapps/12696.md) (code change): "debit and credit totals from actual G/L entry amounts"
+- [#12701 Remove duplicate FR customer and vendor ledger entry tables](../../../../changes/bcapps/12701.md) (code change): "Remove duplicate FR customer and vendor ledger entry tables"
 - [#13165 [Master]-"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.](../../../../changes/bcapps/13165.md) (code change): "Update Registers from G/L Registers page for old entries with G/L Register No."
 - [#13224 [29.X]-"Your license does not grant you the following permissions on TableData 17 G/L Entry: Modify" if you Update Registers from G/L Registers page for old entries with G/L Register No. = 0.](../../../../changes/bcapps/13224.md) (code change): "Running Update Registers from the G/L Registers page no longer fails with a G/L Entry Modify permission error"
 - [#13330 Bug 656921: [master] Recurring Frequency missing from Edit in Excel](../../../../changes/bcapps/13330.md) (code change): "Recurring Frequency field is now editable in Edit in Excel for recurring general journals"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:18.791Z"
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -55,6 +55,7 @@ links:
     - post/demiliani-com/12482
     - post/demiliani-com/12613
     - post/demiliani-com/17552
+    - post/kauffmann-nl/8459
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b
     - post/stefanmaron-com/https-stefanmaron-com-posts-bcdb-restore-write-a-cloud-export-into-a-container--0d94b20d91
     - post/thinkaboutit-be/8111
@@ -75,7 +76,7 @@ coverage:
   learn: 3
   code: 0
   video: 1
-  blog: 11
+  blog: 12
   guideline: 0
 bc_forms: []
 member_hash: 3e24d310bec806f54df5e21b2fc846769d8a24f8f718551344701ccf8111fec0
@@ -119,6 +120,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: update sandbox environments to preview versions.](../../../../posts/demiliani-com/12482.md) (community post): "Partners can now update existing sandbox environments to preview versions of Dynamics"
 - [Dynamics 365 Business Central: accessing Early Access Preview in online sandboxes.](../../../../posts/demiliani-com/12613.md) (community post): "Partners with sandbox licenses can create early access preview environments"
 - [Dynamics 365 Business Central: matching Production database configuration for Sandboxes.](../../../../posts/demiliani-com/17552.md) (community post): "sandbox environment's database configuration to production-level performance for 72 hours"
+- [Install Agent Designer if it is missing](../../../../posts/kauffmann-nl/8459.md) (community post): "The Agent Designer is included in the 27.4 monthly update and automatically installs in upgraded sandboxes"
 - [Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b.md) (community post): "Preview environments let you test extensions, integrations, and customizations against version 29.0"
 - [bcdb restore: Write a Cloud Export Into a Container](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-bcdb-restore-write-a-cloud-export-into-a-container--0d94b20d91.md) (community post): "The bcdb restore tool writes cloud exports directly into a running Docker container"
 - [Quick Tip: You Can Now Create a Business Central 29.0 (Preview) Sandbox](../../../../posts/thinkaboutit-be/8111.md) (community post): "Preview sandboxes are automatically deleted 30 days after general availability"

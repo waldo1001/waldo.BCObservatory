@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -145,6 +145,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12255
+    - change/bcapps/14288
     - change/bcapps/8947
     - change/bcapps/9599
 learn_toc_path:
@@ -235,6 +236,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12255 Fix overwrite import of exported system permission sets](../../../../../changes/bcapps/12255.md) (code change): "System permission set imports with overwrite option now correctly"
+- [#14288 Grant report layout override permissions for non-SUPER users](../../../../../changes/bcapps/14288.md) (code change): "Reporting - Edit permission set now grants necessary permissions for non-SUPER users"
 - [#8947 [Permissions] Add Where-Used and Permissions Overview navigation actions](../../../../../changes/bcapps/8947.md) (code change): "Permission Sets list gains Where-Used and Permissions Overview actions"
 - [#9599 Add event subscriber for OpenPermissionSetPage](../../../../../changes/bcapps/9599.md) (code change): "A new event subscriber codeunit enables programmatic opening of the permission set"
 - [Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page](../../../../../posts/yzhums-com/56521.md) (community post): "using permission sets to exclude Insert, Modify, and Delete permissions"

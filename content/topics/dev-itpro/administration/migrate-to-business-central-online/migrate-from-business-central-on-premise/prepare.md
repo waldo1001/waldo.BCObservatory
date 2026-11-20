@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -159,13 +159,14 @@ Start with "Plan and Prepare for Business Central Cloud Migration", then use the
   - No schema changes or extension installations allowed during replication; this causes data integrity issues.
   - Dataverse mapping and API integrations must be reconfigured on migrated companies after migration completes.
 - [Optimize Business Central Cloud Migration Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-optimize-replication): Learn how to improve Business Central cloud migration performance by managing company batches, source database resources, and API data upgrades.
-  - Deploy source database to Azure SQL Database instead of on-premises SQL Server for faster data replication and easier self-hosted integration runtime setup.
-  - Step: Monitor CPU and memory utilization in Azure portal using Metrics for SQL Database; upscale if high consumption occurs.
-  - Cloud migration is optimized for batches of up to 250 companies; reduce companies in batch if database has hundreds.
-  - Step: Update statistics and reorganize indexes on source database tables using sp_updatestats and index rebuild procedures.
-  - Step: Skip API data upgrade on company basis during migration, then run it after going live if extended upgrade time occurs.
-  - Limit: Large data sets in companies should be broken into separate migration runs; each large company may need individual handling.
-  - Use Cloud Migration APIs for moving many companies; find samples in BC Tech GitHub repository for automation.
+  - Deploy source database to Azure SQL Database instead of on-premises SQL Server to speed up replication.
+  - Azure SQL Database eliminates need to install and maintain self-hosted integration runtime on-premises.
+  - Monitor CPU and memory utilization in Azure portal using Metrics for Azure SQL Database.
+  - Upscale Azure SQL Database when high CPU and memory consumption detected to improve performance.
+  - Cloud migration recommends batches of fewer than 300 companies; not a hard limit but affects performance.
+  - Break large-company migrations into smaller batches; migrate large companies individually if data sets exceed 50 GB.
+  - Update statistics and reorganize indexes on all source database tables before migration.
+  - Skip API data upgrade to avoid long-running upgrade; complete API upgrade after going live on tenant.
   - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md), [Page 9035 "Data Administration"](../../../../../objects/page/9035.md), [Page 9994 "API Data Upgrade List"](../../../../../objects/page/9994.md)
 - [Plan and Prepare for Business Central Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloud-migration-plan-prepare): This article provides recommendations to help you define your cloud migration strategy and get environments and users ready for cloud migration.
   - Step: Assess current on-premises environment including version, database size, customizations, and compliance requirements.

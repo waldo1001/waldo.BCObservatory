@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/india
 type: topic
 title: India
-summary: "India local functionality in Business Central covers Indian statutory and compliance features: GST, TDS, TCS, the tax engine, vouchers, fixed asset depreciation, gate entry, subcontracting, audit trail, charge assignment and stale cheques. It answers setup, calculation, posting and compliance questions for the India localization."
+summary: "India localization of Business Central: GST, TDS, TCS, tax engine, voucher interface, fixed asset depreciation, gate entry, subcontracting, audit trail, charge assignment and stale cheques. It answers setup, calculation, posting and compliance questions for Indian regulatory requirements."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-10-28T11:00:36.086Z"
+  at: "2026-11-20T01:01:27.905Z"
   flags: []
 generated:
-  at: "2026-10-28T11:04:14.111Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 3d9f20b6c911ac239f572f6902cd5693a072d69c0b55743a3dfe721ff4744639
+  input_hash: d47ed3f650d46bc19ef14f71132cb2de1a66024512251ac30bce076c4540e1c8
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software
@@ -350,28 +350,28 @@ narrative: generated
 
 # India
 
-> India local functionality in Business Central covers Indian statutory and compliance features: GST, TDS, TCS, the tax engine, vouchers, fixed asset depreciation, gate entry, subcontracting, audit trail, charge assignment and stale cheques. It answers setup, calculation, posting and compliance questions for the India localization.
+> India localization of Business Central: GST, TDS, TCS, tax engine, voucher interface, fixed asset depreciation, gate entry, subcontracting, audit trail, charge assignment and stale cheques. It answers setup, calculation, posting and compliance questions for Indian regulatory requirements.
 
 Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > India · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The India section groups the localization features that support Indian regulatory requirements. Most of the content sits in subtopics: the configuration-driven Tax engine, GST (the largest), TDS, TDS for customer, TCS, Voucher interface, Fixed asset, Gate entry and Subcontracting. The section's own pages cover audit trail and edit logs, charge assignment and stale cheque setup.
+The India section collects the Business Central features built for Indian regulatory and tax requirements. The largest area is GST, which covers setup, purchase and sales transactions, returns, imports and exports, E-Invoice and E-Way Bill. Related withholding taxes are covered in separate subtopics for TDS, TDS for customer and TCS. A configuration-driven tax engine is described in its own subtopic.
 
-The India Local Functionality overview page is the entry point and lists the areas available. For taxes, start with the Tax engine pages for the underlying model of tax types, rates and use cases, then go to GST, TDS or TCS for setup and transaction-level posting behavior. Operational topics such as gate entry, subcontracting with delivery challans, and vouchers are separate and can be read on their own.
+Other subtopics cover operational needs: the voucher interface with six voucher types, fixed asset depreciation with FA blocks, gate entry for goods movement, and subcontracting with delivery challans and GST liability.
 
-The own pages are narrower. Audit trail and edit logs describe compliance requirements and the change log setup. Charge assignment explains charge groups and the Explode Charge Group action. Set Up Stale Check explains how checks become invalid after a set period.
+The hub's own pages cover audit trail and edit logs for Indian accounting legislation, charge assignment with charge groups, and stale cheque setup on bank accounts. Start with the India Local Functionality overview page to see the full list, then go to the subtopic for the tax or process you need. GST is the usual starting point for tax questions.
 
 ## Key points
 
-- GST subtopic is the largest (47 pages): setup, purchase and sales, advance payments, returns, imports and exports, credit adjustments, settlement, reconciliation, E-Invoice and E-Way Bill.
-- TDS and TCS each cover setup, calculation, thresholds, adjustments and payment to government; TDS includes section 194Q and TCS includes Section 206C(1H).
-- TDS for customer covers TDS setup under the Income Tax Act, 1961, TDS calculation on customer payments, and assigning, updating or rectifying TDS certificates.
-- Tax engine supports tax types, rates, use cases, lookups, scripting and JSON import/export of tax configuration.
-- Voucher interface offers six voucher types: Journal, Bank Receipt, Bank Payment, Cash Receipt, Cash Payment and Contra.
-- Charge assignment uses reusable charge groups and Explode Charge Group; computation is Fixed Value, Percentage or Amount Per Quantity, assigned Equally, By Amount, By Weight or By Volume.
-- Stale check setup uses a Stale Cheque Stipulated Period on the bank account, with expiry date and financially voided handling in check ledger entries.
-- Audit trail and edit logs page covers change log setup, general ledger entry tracking and electronic books of accounts requirements; fixed asset, gate entry and subcontracting (delivery challans, GST liability for overdue challans) have their own subtopics.
+- GST subtopic (47 pages) covers setup, purchase and sales, advance payments, returns, imports and exports, credit adjustments, settlement, reconciliation, E-Invoice and E-Way Bill.
+- TDS, TDS for customer and TCS each have their own subtopic, including thresholds, section 194Q, Section 206C(1H), adjustments, certificates and payment to authorities.
+- The tax engine is configuration-driven and covers tax types, rates, use cases, lookups, scripting and JSON import/export of tax configuration.
+- Charge assignment uses reusable charge groups and Explode Charge Group to create charge lines on purchase or sales documents.
+- Charge computation methods are Fixed Value, Percentage and Amount Per Quantity. Assignment can be Equally, By Amount, By Weight or By Volume.
+- Stale check setup uses a stale cheque stipulated period on bank accounts, and check ledger entries are used to manage and void stale checks.
+- Audit trail and edit logs support Indian accounting compliance, with change logging, find entries, general ledger entries display and data export.
+- Voucher interface supports Journal, Bank Receipt, Bank Payment, Cash Receipt, Cash Payment and Contra vouchers. Fixed asset, gate entry and subcontracting have their own subtopics.
 
 ## Subtopics
 

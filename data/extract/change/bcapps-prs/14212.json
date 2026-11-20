@@ -9,10 +9,10 @@
   ],
   "summary": "Power BI auto-deployment functionality now clears only selected deployment records instead of all records, and actions on the deployment page have been reorganized.",
   "key_points": [
-    "Clear deployment records action now affects only the selected record, not all records",
-    "Actions on the Power BI Report Deployments page have been reorganized per product management request",
-    "Changes apply to Power BI deployment UI and event handling logic",
-    "Integration tests added to cover the new clearing behavior"
+    "Clearing deployment records now affects only the selected deployment, not all of them",
+    "Actions on the Power BI Report Deployments page were reorganized at the request of product management",
+    "PBI Deployment Events, the Power BI Deployment tables and the Power BI Subscribers codeunit were updated to support this",
+    "Power BI synchronizer tests were extended"
   ],
   "change_kind": "fix",
   "behavior_change": true,

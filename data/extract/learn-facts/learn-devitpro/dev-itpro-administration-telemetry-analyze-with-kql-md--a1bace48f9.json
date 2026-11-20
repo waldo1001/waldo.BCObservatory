@@ -1,14 +1,14 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-analyze-with-kql.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql",
-  "title": "Analyze and monitor telemetry with KQL",
-  "blob": "34988f0b0a2f1d5f630dda8f3acdbad0922ee590",
+  "title": "Analyze and Monitor Telemetry with KQL",
+  "blob": "6d3d912575836ea5447b1d42fdb0c1023a96feb9",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Business Central telemetry is stored in Azure Application Insights in traces and pageViews tables"
+      "text": "Business Central telemetry is stored in Application Insights in traces and pageViews tables"
     },
     {
       "kind": "fact",
@@ -16,19 +16,23 @@
     },
     {
       "kind": "fact",
-      "text": "From Log Analytics, traces map to AppTraces table and pageViews map to AppPageViews table"
+      "text": "Kusto queries can be used in Application Insights Logs, Power BI reports, Alerts, Azure Dashboards, and Jupyter Notebooks"
     },
     {
       "kind": "fact",
-      "text": "All telemetry events have timestamp in UTC timezone that can be converted to local timezone"
+      "text": "With workspace-based resources, telemetry goes to Log Analytics workspace for consolidated access across application, infrastructure, and platform logs"
     },
     {
       "kind": "fact",
-      "text": "Session ID in version 24 and later allows tracking all events within a single user session"
+      "text": "Telemetry table names differ: traces in Application Insights become AppTraces in Log Analytics; pageViews become AppPageViews"
     },
     {
       "kind": "fact",
-      "text": "KQL queries can find start time of events like reports or long-running operations using execution time"
+      "text": "Business Central server emits timestamps in UTC timezone; use datetime_utc_to_local() function to convert to local timezone"
+    },
+    {
+      "kind": "fact",
+      "text": "From version 24 onwards, session_Id and user_Id are aligned between server and browser components for advanced troubleshooting"
     }
   ],
   "dropped": 0,
@@ -36,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005231,
-      "pages_in_call": 10
+      "cost_usd": 0.00732,
+      "pages_in_call": 7
     }
   ]
 }

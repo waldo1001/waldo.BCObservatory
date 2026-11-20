@@ -1,38 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-manage.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage",
-  "title": "Managing cloud migration",
-  "blob": "2e657795608b4615d25fe58a921aa55c3bdbdb69",
+  "title": "Manage Business Central Cloud Migration",
+  "blob": "c372b6ddfb68d954567766e0b2ab36f4758a07f4",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Cloud Migration Management page in the web client serves as the central hub for configuring and tracking data migration runs and services."
+      "text": "Cloud Migration Management page centralizes managing cloud data migration from on-premises to Business Central online."
+    },
+    {
+      "kind": "permission",
+      "text": "SUPER permission set required for most actions; replication actions require completed cloud migration setup."
     },
     {
       "kind": "fact",
-      "text": "Data replication can be rerun after initial migration, moving only changes since the last run using change tracking."
+      "text": "Migration Log displays status of all runs including time and progress; fields show migrated tables and those with warnings or errors."
     },
     {
       "kind": "fact",
-      "text": "User mapping renames the Name field on the User Card to match on-premises user names; perform this only once per migration."
-    },
-    {
-      "kind": "step",
-      "text": "Create diagnostic run to test data replication without migrating data, allowing issues to be identified and fixed first."
-    },
-    {
-      "kind": "step",
-      "text": "Reset cloud data clears all cloud tenant data and enables restarting the entire migration from the beginning."
-    },
-    {
-      "kind": "limit",
-      "text": "Cloud migration cannot run if the target environment is undergoing upgrade; must disable it, upgrade, then reconfigure."
+      "text": "Change tracking identifies data moved in subsequent runs; full replication occurs if retention period expired."
     },
     {
       "kind": "fact",
-      "text": "Setup checklist displays recommended steps to prepare tables not migrated for use as the primary system going live."
+      "text": "Complete migration blocked if failed tables, unfinished data repair, or required data upgrade not completed."
+    },
+    {
+      "kind": "fact",
+      "text": "Define user mappings renames online User Name to match on-premises user name; not all tables included in rename process."
+    },
+    {
+      "kind": "fact",
+      "text": "Migrate record links and notes moves replicated links and notes from buffer to record-link table after final replication."
     }
   ],
   "dropped": 0,
@@ -40,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007625,
-      "pages_in_call": 7
+      "cost_usd": 0.004616,
+      "pages_in_call": 12
     }
   ]
 }

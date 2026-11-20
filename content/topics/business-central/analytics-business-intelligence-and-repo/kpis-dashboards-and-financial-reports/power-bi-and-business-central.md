@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,6 +68,9 @@ links:
     - post/thinkaboutit-be/7226
     - post/thinkaboutit-be/7753
   guidelines: []
+  changes:
+    - change/bcapps/14212
+    - change/bcapps/14229
 learn_toc_path:
   - Analytics, business intelligence, and reporting
   - KPIs, dashboards, and financial reports
@@ -120,10 +123,12 @@ Start with the introduction to choose an approach, then go to the page for your 
 - [Use Business Central Power BI Semantic Models in Excel](https://learn.microsoft.com/dynamics365/business-central/powerbi-use-semantic-models-in-excel): Connect Excel to Business Central Power BI semantic models to create refreshable tables and PivotTables, and combine data with Power Pivot.
 - [Working with Power BI reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-working-with-powerbi): Get insight, business intelligence, and key performance indicators from your Business Central data with Power BI.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#14212 Power BI autodeployment UX fixes: clearing records should affect only the selected + reorganizing actions](../../../../changes/bcapps/14212.md) (code change): "Power BI auto-deployment functionality now clears only selected deployment records instead of all records"
+- [#14229 29.x: Power BI autodeployment UX fixes: clearing records should affect only the selected + reorganizing actions](../../../../changes/bcapps/14229.md) (code change): "Power BI auto-deployment clearing now affects only the selected record instead of all records"
 - [How to Install and Configure Power BI Monitor for Business Central](../../../../posts/thinkaboutit-be/7226.md) (community post): "Power BI Monitor extension enables Business Central users to manage Power BI resources"
 - [Which Power BI License Do You Need for Business Central?](../../../../posts/thinkaboutit-be/7753.md) (community post): "Power BI Pro is required for any practical use of Power BI with Business Central"
 - [20261109 - Not a Developer No Problem! Deploy & Embed Power BI Apps in Business Central](../../../../videos/7lxkboRGw28.md) (video): "Five-click deployment for Business Central Power BI apps; Power BI workspace setup and access control"

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -315,7 +315,9 @@ links:
     - video/7SSNcUMFtCw
   posts:
     - post/demiliani-com/13611
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
+    - post/demiliani-com/13695
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-tech-days-2026--908b4ceb5d
+    - post/thinkaboutit-be/7175
   guidelines: []
 learn_toc_path:
   - Integration with AI
@@ -330,7 +332,7 @@ coverage:
   learn: 56
   code: 3
   video: 1
-  blog: 2
+  blog: 4
   guideline: 0
 bc_forms:
   - 8350
@@ -377,7 +379,9 @@ For connecting external AI clients, the Model Context Protocol pages describe th
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.](../../posts/demiliani-com/13611.md) (community post): "Azure OpenAI's Responses API replaces Chat Completions as the recommended approach"
-- [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "ERP is shifting from recording transactions to enabling autonomous action through AI agents"
+- [Why Customer’s AI project fail? The gap between hype and reality.](../../posts/demiliani-com/13695.md) (community post): "building reliable, integrated AI agents for Business Central requires proper architecture"
+- [BC Tech Days 2026](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-tech-days-2026--908b4ceb5d.md) (community post): "AI agents were the dominant topic across all sessions and conversations"
+- [Quick Tip: Companial Brings the Heat to Directions EMEA 2025 – Are You In?](../../posts/thinkaboutit-be/7175.md) (community post): "discussions on AI agents, business central suitability, and report objects"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "Business Central AI Resources; copilot; azure openai; content safety; data privacy"
 
 ## Business Central pages and reports

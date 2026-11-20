@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/14009",
+  "input_hash": "0954d033b7f7b177f1cc2b29dcd3f13ac816cbb20b533da2fed4d73131c7fc39",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-20T00:57:47.506Z",
+  "issues": [
+    "The page matches the description: the routine exits early when the temporary GST posting buffer is empty."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021571,
+    "changes_in_call": 6
+  }
+}

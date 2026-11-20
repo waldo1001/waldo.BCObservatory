@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -312,6 +312,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10663
+    - change/bcapps/11205
     - change/bcapps/12579
     - change/bcapps/13607
     - change/bcapps/13801
@@ -437,6 +438,7 @@ Start with the overview page, then go to the report that matches your question. 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10663 [Main]-Stock card report shows incorrect received quantity](../../../../../changes/bcapps/10663.md) (code change): "Stock Card report now correctly shows received quantities and costs"
+- [#11205 Inventory internal new body layouts and obsolete current](../../../../../changes/bcapps/11205.md) (code change): "Four inventory reports receive new WordBody layouts with cleaner internal designs"
 - [#12579 [master] Item Age Composition by Quantity and Value report issue](../../../../../changes/bcapps/12579.md) (code change): "Item Age Composition report now displays correct header values"
 - [#13607 [Main][ALL-E] Report 713 "Inventory Custmer Sales" – Excel (data only) export generates one row per Item Ledger Entry with NULL values instead of one aggregated row per Item/Customer combinationInitial commit](../../../../../changes/bcapps/13607.md) (code change): "Report 713 now correctly exports aggregated rows per Item/Customer combination"
 - [#13801 [29.x][ALL-E] Report 713 "Inventory Custmer Sales" – Excel (data only) export generates one row per Item Ledger Entry with NULL values instead of one aggregated row per Item/Customer combination - Copy](../../../../../changes/bcapps/13801.md) (code change): "Report 713 Inventory - Customer Sales no longer emits intermediate rows"

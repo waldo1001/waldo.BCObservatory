@@ -1,38 +1,37 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality",
-  "input_hash": "7cefeb03a2444cae4bf09e07e718283239349b4ecf57ae961be52093b0c6603e",
-  "summary": "Local functionality in Business Central covers country-specific features and regulatory compliance for more than 20 countries and regions. It also includes partner guidance for building validated localization apps and explains how to submit regulatory alerts. It answers questions on setting up country tax, banking, e-invoicing and reporting.",
-  "overview": "This section describes how Business Central supports local legal, tax and business requirements. A strategy page introduces the country-specific features and regulatory compliance across the supported countries and regions. Each country then has its own subtopic, typically covering tax and VAT, banking and payments, core finance, e-invoicing and general features.\n\nTwo pages are not tied to a single country. One describes requirements and guidelines for partners building Validated Localization apps (regulatory, national standards and language needs) under Microsoft's pilot program. The other explains how to submit regulatory alerts through Microsoft Dynamics Lifecycle Services to notify Microsoft of legislation changes.\n\nStart with the strategy page for the overall picture, then open the subtopic for your country. Larger areas such as India, Czech Republic, Spain and Norway have many pages, while Sweden and Iceland are small.",
+  "input_hash": "a813f6789218d2c1b6db428665750eae93c76a5ab4ba3a77fff31139512b1385",
+  "summary": "Local functionality in Business Central: country-specific features for 22 markets (tax, banking, e-invoicing, finance, audit exports), plus pages on localization strategy, building validated localization apps, and submitting regulatory alerts. It answers setup and compliance questions per country.",
+  "overview": "This section covers features that adapt Business Central to national regulations. Each country has its own subtopic, usually grouped into tax and VAT, banking and payments, core finance, e-invoicing and general setup. Page counts vary widely, from 6 pages for Sweden to 87 for India.\n\nThree own pages sit above the country subtopics. \"Local functionality and localization strategy\" describes country-specific features and availability across Europe, North America and Asia Pacific, so start there to see what is supported. \"Development of validated localization apps\" gives partners requirements for building localization extensions for Microsoft's pilot program. \"Submit regulatory alerts\" explains how to notify Microsoft through Microsoft Dynamics Lifecycle Services about legislation changes.\n\nFor a country question, go straight to that country's subtopic. Some countries use extension packs, such as the Czech Core and Advanced Localization Pack. Iceland's localization is based on the W1 Base App and is available from version 24.0.",
   "key_points": [
-    "Covers 22 country and region subtopics, from Australia to the United States.",
-    "Tax and reporting examples: GST/WHT/BAS (Australia), ELSTER and Intrastat (Germany), SII and VERI*FACTU (Spain), Making Tax Digital (UK), GST/TDS/TCS (India).",
-    "E-invoicing formats include Peppol PINT A-NZ, OIOUBL, EHF, CFDI, UBL 2.1 and Factur-X, depending on country.",
-    "Banking and payment features vary by country, e.g. CODA and SEPA (Belgium), FIK (Denmark), QR-bills and LSV+ (Switzerland), OCR/KID (Norway).",
-    "The Czech Republic uses Core and Advanced Localization Pack extensions.",
+    "Covers 22 countries across Europe, North America and Asia Pacific, each with its own subtopic.",
+    "Typical country coverage: VAT/GST and other taxes, banking and payment formats, core finance reports, and general setup.",
+    "E-invoicing formats include Peppol PINT A-NZ (Australia, New Zealand), OIOUBL (Denmark), UBL 2.1 and Factur-X (France), CFDI (Mexico), EHF (Norway) and VERI*FACTU (Spain).",
+    "Audit and reporting exports include SAF-T (Denmark, Norway), XAF (Netherlands), ELSTER (Germany) and SII (Spain).",
+    "India has the largest subtopic (87 pages), covering GST, TDS, TCS and the tax engine; Czech Republic has 60 pages and uses the Core and Advanced Localization Pack extensions.",
     "Iceland's localization is based on the W1 Base App and is available from version 24.0.",
-    "Partners can follow the Validated Localization app guidelines, which cover test automation, code coverage, data classification and setup wizards.",
-    "Regulatory alerts are submitted through Lifecycle Services, with details such as description, law enforcement date and filing deadline."
+    "Partners building localization apps should follow the Validated Localization requirements: tax reporting, national standards, local language, test automation, code coverage, data classification and setup wizards.",
+    "Regulatory changes can be reported to Microsoft through Lifecycle Services alerts, including the law enforcement date and filing deadline."
   ],
   "members_used": 3,
   "subtopics_used": 22,
   "prompt_version": 1,
-  "at": "2026-11-08T01:01:09.488Z",
+  "at": "2026-11-20T01:01:16.617Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.026784000000000002
+    "cost_usd": 0.024569
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-08T01:01:49.908Z",
-    "verdict": "fix",
+    "at": "2026-11-20T01:01:32.224Z",
+    "verdict": "approve",
     "issues": [
-      "Overview lists Australia (26 pages) among the larger areas. Spain and Norway (42 each), Russia and Switzerland (34 each) and Belgium (33) are larger. Replaced Australia with Spain.",
-      "Overview says the two non-country pages serve 'partners and customers'. The sources describe the validated localization page as being for partners, but they don't say who submits regulatory alerts. Reworded so it no longer claims an audience for that page.",
-      "Summary implies that partners submit regulatory alerts, which the sources don't state. Reworded so partners are linked only to the localization app guidance."
+      "Key point on audit and reporting exports: the sources describe ELSTER (Germany) and SII (Spain) as VAT submission and reporting channels, not audit exports. The label 'audit and reporting' covers them loosely, but it's not a precise fit.",
+      "The overview says each country subtopic is usually grouped into five areas, including e-invoicing. E-invoicing is in many country summaries but not all of them (for example, Austria, Belgium and Sweden have none). 'Usually' makes this acceptable."
     ],
-    "input_hash": "7cefeb03a2444cae4bf09e07e718283239349b4ecf57ae961be52093b0c6603e",
-    "cost_usd": 0.0705018
+    "input_hash": "a813f6789218d2c1b6db428665750eae93c76a5ab4ba3a77fff31139512b1385",
+    "cost_usd": 0.0653338
   }
 }

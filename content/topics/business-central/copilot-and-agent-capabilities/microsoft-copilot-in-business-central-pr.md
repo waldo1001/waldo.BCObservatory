@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:12.958Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,6 +74,7 @@ links:
     - post/yzhums-com/65164
     - post/yzhums-com/65781
     - post/yzhums-com/67542
+    - post/yzhums-com/67675
     - post/yzhums-com/75811
     - post/yzhums-com/77170
   guidelines: []
@@ -90,7 +91,7 @@ coverage:
   learn: 4
   code: 0
   video: 8
-  blog: 9
+  blog: 10
   guideline: 0
 bc_forms: []
 member_hash: 2062629c7a6a6ebd37a1793d9251eb5c396f63abc802c925e789a385ca6b189a
@@ -142,6 +143,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: Using Ask Learn (AI assistant) on Microsoft Learn (Technical documentation)](../../../posts/yzhums-com/65164.md) (community post): "AI assistant in preview on Microsoft Learn"
 - [Business Central 2025 wave 1 (BC26.3): Chat with Copilot to learn how to use installed add-on apps](../../../posts/yzhums-com/65781.md) (community post): "Copilot chat to explain and guide users through installed add-on apps"
 - [Business Central 2025 wave 2 (BC27): Use enhanced chat with Copilot (Supports 20 more languages)](../../../posts/yzhums-com/67542.md) (community post): "Copilot chat supports 20 more languages, understands prompts"
+- [Business Central 2025 wave 2 (BC27): Adjust width of Copilot, help, and page scripting panes](../../../posts/yzhums-com/67675.md) (community post): "allows users to resize side panes for Copilot, help, and page scripting"
 - [Business Central 2026 release wave 2 (BC29): Enable unified Copilot chat experience consistent with Microsoft Copilot (New Chat with Copilot)](../../../posts/yzhums-com/75811.md) (community post): "unified Copilot chat experience that matches Microsoft 365 Copilot's interface"
 - [Microsoft Announces New Business Central + Copilot Bundles Starting January 2027](../../../posts/yzhums-com/77170.md) (community post): "Copilot is available directly inside Business Central as a unified chat experience"
 - [Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central](../../../videos/06vgkq2EXmA.md) (video): "How we built Copilot Chat in Business Central. Topics: copilot chat; prompt engineering"

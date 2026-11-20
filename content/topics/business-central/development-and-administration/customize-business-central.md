@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -306,6 +306,7 @@ links:
     - topic/business-central/development-and-administration/customize-business-central/customize-with-extensions
   localizations: []
   videos:
+    - video/cwCZUHgDb9Q
     - video/iHgaNJucyvI
   posts:
     - post/demiliani-com/13215
@@ -327,7 +328,7 @@ children:
 coverage:
   learn: 30
   code: 65
-  video: 1
+  video: 2
   blog: 6
   guideline: 0
 bc_forms:
@@ -503,6 +504,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: How to add custom pages, reports, and queries to Role Explorer (Customizing Role Explorer)](../../../posts/yzhums-com/66714.md) (community post): "adding custom pages, reports, and queries to role centers"
 - [Dynamics 365 Business Central: How to show Experience Tier (Essential or Premium) on the Companies (list page)](../../../posts/yzhums-com/69023.md) (community post): "A page extension on Companies adds a read-only Experience column"
 - [Dynamics 365 Business Central: How to display/add “Sent To” on the Sent Emails (8883, List) page?](../../../posts/yzhums-com/72539.md) (community post): "page extension that reads the internal Message Id"
+- [Tips and Tricks for Better Pasting with Magic Page for Business Central](../../../videos/cwCZUHgDb9Q.md) (video): "Magic Paste bulk customer creation; Magic Paste key-based record updates; Magic Paste selective column pasting"
 - [What's new: Add existing table fields to pages (2023 release wave 2)](../../../videos/iHgaNJucyvI.md) (video): "Add existing table fields to pages; role customization; personalization; page design"
 
 ## Business Central pages and reports

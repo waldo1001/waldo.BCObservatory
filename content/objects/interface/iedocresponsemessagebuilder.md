@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:47:08.789Z"
+  at: "2026-11-20T00:47:37.951Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f6a774959f649bb37962b4ec926e4c8c54f8d79bf35e222b4ebe9450d1c20eaa
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocResponseMessageBuilder.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocResponseMessageBuilder.Interface.al
     title: src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocResponseMessageBuilder.Interface.al (releases/29.x)
     date: null
-    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
+    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
     t: null
     quote: null
 links:
@@ -78,7 +78,7 @@ relations:
 
 > Interface "IEDocResponseMessageBuilder" in EDocument (Microsoft.eServices.EDocument.Processing.Interfaces). 1 public procedures. Introduced in BC29, still in BC30.
 
-EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocResponseMessageBuilder.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocResponseMessageBuilder.Interface.al) · facts from BC29
 
 ## Procedures
 

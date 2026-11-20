@@ -2,7 +2,7 @@
 id: source/bcapps-prs
 type: source
 title: microsoft/BCApps pull requests
-summary: "microsoft/BCApps pull requests: 1343 code changes in the knowledge base, 2026-07-07 to 2026-11-18, mostly about development, finance, integration."
+summary: "microsoft/BCApps pull requests: 1362 code changes in the knowledge base, 2026-07-07 to 2026-11-19, mostly about development, finance, integration."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:15:47.846Z"
+  at: "2026-11-20T00:15:45.369Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 469c3fa19ccace18616070fcac518e416b6d66b38d1cbf6c44cbbee64c66f94b
+  input_hash: 2965913bc04b224237341ea671cd84d70d4c576ce0a05bf2f2d3afd050c8b270
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
@@ -1347,17 +1347,26 @@ links:
     - change/bcapps/9326
     - change/bcapps/13558
     - change/bcapps/14002
+    - change/bcapps/14082
     - change/bcapps/14118
     - change/bcapps/13868
+    - change/bcapps/14022
+    - change/bcapps/14135
+    - change/bcapps/12291
+    - change/bcapps/12711
+    - change/bcapps/12701
     - change/bcapps/14006
     - change/bcapps/14122
     - change/bcapps/14078
     - change/bcapps/14081
+    - change/bcapps/14123
+    - change/bcapps/12772
     - change/bcapps/13601
     - change/bcapps/14143
     - change/bcapps/13965
     - change/bcapps/14203
     - change/bcapps/13987
+    - change/bcapps/13959
     - change/bcapps/13978
     - change/bcapps/13920
     - change/bcapps/14124
@@ -1378,62 +1387,72 @@ links:
     - change/bcapps/14198
     - change/bcapps/13757
     - change/bcapps/13264
+    - change/bcapps/14288
+    - change/bcapps/14212
+    - change/bcapps/14147
+    - change/bcapps/14154
+    - change/bcapps/14229
+    - change/bcapps/14307
+    - change/bcapps/14009
+    - change/bcapps/11205
+    - change/bcapps/14314
+    - change/bcapps/14008
 source_id: bcapps-prs
 kind: github-pr
 url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 1343
+item_count: 1362
 footprint:
   systems:
     - id: development
-      weight: 645
+      weight: 647
     - id: finance
-      weight: 539
+      weight: 545
     - id: integration
-      weight: 419
+      weight: 425
     - id: inventory
-      weight: 249
+      weight: 255
     - id: sales
-      weight: 242
+      weight: 244
     - id: manufacturing
       weight: 203
   topics:
     - id: bc30
-      weight: 1234
+      weight: 1250
     - id: main
-      weight: 1234
+      weight: 1250
     - id: fix
-      weight: 835
+      weight: 848
     - id: feature
-      weight: 377
+      weight: 379
     - id: bc29
-      weight: 109
+      weight: 112
     - id: releases/29.x
-      weight: 109
+      weight: 112
     - id: refactor
-      weight: 55
+      weight: 57
     - id: performance
       weight: 38
     - id: codeunit gen. jnl.-post line
       weight: 29
     - id: other
-      weight: 21
+      weight: 23
   objects:
     - id: codeunit Gen. Jnl.-Post Line
       weight: 35
     - id: page Expense Agent Setup Wizard
-      weight: 21
+      weight: 22
     - id: table Expense Report Header
-      weight: 19
+      weight: 20
     - id: permissionset Expense Management - Objects
+      weight: 17
+    - id: permissionset Expense Agent - Objects
       weight: 16
     - id: table Expense Report Line
       weight: 16
     - id: page Expense Agent Setup
-      weight: 15
-    - id: permissionset Expense Agent - Objects
       weight: 15
     - id: table Expense Agent Setup
       weight: 15
@@ -1447,12 +1466,12 @@ footprint:
       weight: 14
   features: []
 first_item: "2026-07-07"
-last_item: "2026-11-18"
+last_item: "2026-11-19"
 ---
 
 # microsoft/BCApps pull requests
 
-> microsoft/BCApps pull requests: 1343 code changes in the knowledge base, 2026-07-07 to 2026-11-18, mostly about development, finance, integration.
+> microsoft/BCApps pull requests: 1362 code changes in the knowledge base, 2026-07-07 to 2026-11-19, mostly about development, finance, integration.
 
 [https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -1460,16 +1479,16 @@ last_item: "2026-11-18"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (645) | bc30 (1234) | codeunit Gen. Jnl.-Post Line (35) |
-| finance (539) | main (1234) | page Expense Agent Setup Wizard (21) |
-| integration (419) | fix (835) | table Expense Report Header (19) |
-| inventory (249) | feature (377) | permissionset Expense Management - Objects (16) |
-| sales (242) | bc29 (109) | table Expense Report Line (16) |
-| manufacturing (203) | releases/29.x (109) | page Expense Agent Setup (15) |
-|  | refactor (55) | permissionset Expense Agent - Objects (15) |
+| development (647) | bc30 (1250) | codeunit Gen. Jnl.-Post Line (35) |
+| finance (545) | main (1250) | page Expense Agent Setup Wizard (22) |
+| integration (425) | fix (848) | table Expense Report Header (20) |
+| inventory (255) | feature (379) | permissionset Expense Management - Objects (17) |
+| sales (244) | bc29 (112) | permissionset Expense Agent - Objects (16) |
+| manufacturing (203) | releases/29.x (112) | table Expense Report Line (16) |
+|  | refactor (57) | page Expense Agent Setup (15) |
 |  | performance (38) | table Expense Agent Setup (15) |
 |  | codeunit gen. jnl.-post line (29) | table Purchase Line (15) |
-|  | other (21) | table Sales Line (15) |
+|  | other (23) | table Sales Line (15) |
 |  |  | codeunit Create Billing Documents (14) |
 |  |  | codeunit Expense Report Approval Mgmt (14) |
 
@@ -1478,10 +1497,20 @@ last_item: "2026-11-18"
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 882
-- 2026-Q4: **************************************** 461
+- 2026-Q4: **************************************** 480
 
 ## Most recent
 
+- [#14008 [MAIN] Fix customer GST application posting sequence (Bug 659070)](../changes/bcapps/14008.md) (2026-11-19)
+- [#14314 Update expense category and subcategory descriptions](../changes/bcapps/14314.md) (2026-11-19)
+- [#11205 Inventory internal new body layouts and obsolete current](../changes/bcapps/11205.md) (2026-11-19)
+- [#14009 [MAIN] Avoid empty GST component lookup on customer reapplication (Bug 659069)](../changes/bcapps/14009.md) (2026-11-19)
+- [#14307 [SLS][29.x] Backport production app updates for GPT-5.6 Ceres](../changes/bcapps/14307.md) (2026-11-19)
+- [#14229 29.x: Power BI autodeployment UX fixes: clearing records should affect only the selected + reorganizing actions](../changes/bcapps/14229.md) (2026-11-19)
+- [#14154 [SOA] Keep email attachments next to the current message](../changes/bcapps/14154.md) (2026-11-19)
+- [#14147 Fix reactivated direct transfer and BEANS issues](../changes/bcapps/14147.md) (2026-11-19)
+- [#14212 Power BI autodeployment UX fixes: clearing records should affect only the selected + reorganizing actions](../changes/bcapps/14212.md) (2026-11-19)
+- [#14288 Grant report layout override permissions for non-SUPER users](../changes/bcapps/14288.md) (2026-11-19)
 - [#13264 implement support for SAF-T 1.40](../changes/bcapps/13264.md) (2026-11-18)
 - [#13757 Fix stale report filename captions and cover language resolution](../changes/bcapps/13757.md) (2026-11-18)
 - [#14198 [SLS] Update accuracy prompts for GPT-5.6 Ceres migration](../changes/bcapps/14198.md) (2026-11-18)
@@ -1492,15 +1521,5 @@ Items per quarter, oldest first:
 - [#14146 [Fabric] Fix synchronization progress page name](../changes/bcapps/14146.md) (2026-11-18)
 - [#14218 Show notification only to super users in env. where copilot substitution suggestion was used](../changes/bcapps/14218.md) (2026-11-18)
 - [#14020 Bug 650215: Direct Transfer route does not populate configured In-Transit Code on transfer order](../changes/bcapps/14020.md) (2026-11-18)
-- [#13820 [main] NO SAF-T changes imported category identifier casing and does not show full identifiers in mapping setup](../changes/bcapps/13820.md) (2026-11-18)
-- [#12664 Fix production journal page ID validation](../changes/bcapps/12664.md) (2026-11-18)
-- [#14219 [QM] Copy template doesn't ignore target description anymore](../changes/bcapps/14219.md) (2026-11-18)
-- [#13917 [Main][ALL-E] Posting a Sales Credit Memo with a different Unit of Measure does not convert the quantity before updating the originating Sales Order (Blanket Sales Order is updated correctly)](../changes/bcapps/13917.md) (2026-11-18)
-- [#13679 [E-Document Core] Grant Execute on the status factbox, PDF preview and Navigate handler](../changes/bcapps/13679.md) (2026-11-18)
-- [#14200 Refresh the purchase order match warnings of a draft line as soon as it is edited](../changes/bcapps/14200.md) (2026-11-18)
-- [#13631 [main] bug 646068 - Add support for disabling incremental exchange gain/loss posting in General Ledger Setup](../changes/bcapps/13631.md) (2026-11-18)
-- [#14124 [main] Bug 658242 IT Report 12135 "Fiscal Inventory Valuation" shows prior-year value for an item first posted in a later year](../changes/bcapps/14124.md) (2026-11-18)
-- [#13920 [Main] - Bug 656559: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)](../changes/bcapps/13920.md) (2026-11-18)
-- [#13978 [Main] - Bug 658633: [Expense Agent] Limited self-approval cannot be combined with escalation to an unlimited approver](../changes/bcapps/13978.md) (2026-11-18)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

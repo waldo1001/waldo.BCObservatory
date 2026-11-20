@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:15.797Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -53,6 +53,7 @@ links:
   posts:
     - post/aardvarklabs-blog/2565
     - post/yzhums-com/65999
+    - post/yzhums-com/77505
   guidelines: []
   changes:
     - change/bcapps/10341
@@ -71,7 +72,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 9083582aa30905f2ff5abe6e301e6444474a2b6a405b4ba6c11f646d27f97ed1
@@ -117,5 +118,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9635 Obsolete MLLM Payables Agent rollout scaffold](../../../../changes/bcapps/9635.md) (code change): "Obsolete MLLM Payables Agent rollout scaffold as feature is fully rolled out"
 - [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "Pages exposed as OData web services will no longer be available"
 - [Dynamics 365 Business Central: Remove obsolete permissions from all permission sets](../../../../posts/yzhums-com/65999.md) (community post): "When objects are marked as ObsoleteState = Removed during version updates, associated permissions must be cleaned up"
+- [Business Central 2027 wave 1 (BC30): Remove ability to expose a Microsoft page as an OData endpoint (Disable OData web services on Microsoft UI pages)](../../../../posts/yzhums-com/77505.md) (community post): "removes the ability to expose Microsoft pages as OData endpoints"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

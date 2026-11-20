@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -63,11 +63,11 @@ links:
   videos:
     - video/4TE8uwIi91k
     - video/ARKckFygbWQ
-    - video/MKuOgMWXJ_8
     - video/q-udoJPGUKE
     - video/qZALauRY_So
-    - video/WFAZLsUTk20
-  posts: []
+  posts:
+    - post/thinkaboutit-be/7920
+    - post/thinkaboutit-be/8022
   guidelines: []
   changes:
     - change/bcapps/10032
@@ -77,7 +77,10 @@ links:
     - change/bcapps/13587
     - change/bcapps/13920
     - change/bcapps/13978
+    - change/bcapps/14022
     - change/bcapps/14081
+    - change/bcapps/14082
+    - change/bcapps/14314
 learn_toc_path:
   - Copilot and agent capabilities
   - Expense Agent (preview)
@@ -88,8 +91,8 @@ children: []
 coverage:
   learn: 4
   code: 3
-  video: 6
-  blog: 0
+  video: 4
+  blog: 2
   guideline: 0
 bc_forms:
   - 4400
@@ -140,15 +143,18 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10431 [Agent Archiving] Fix broken reference links to archived agents and their tasks](../../../../changes/bcapps/10431.md) (code change): "Reference links to archived agents and their tasks now open the Agent Card"
 - [#10670 Add Agent Task Log JSON export](../../../../changes/bcapps/10670.md) (code change): "Agent Task Log now supports JSON export of selected rows with detailed context"
 - [#13587 Update Corp Card manual selection](../../../../changes/bcapps/13587.md) (code change): "Updates corporate card manual selection in the Expense Agent app"
-- [#13920 [Main] - Bug 656559: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)](../../../../changes/bcapps/13920.md) (code change): "Address fields in expense-related tables now enforce a 50-character limit"
+- [#13920 [Main] - Bug 656559: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)](../../../../changes/bcapps/13920.md) (code change): "Fixes mileage starting and ending point addresses longer than 50 characters"
 - [#13978 [Main] - Bug 658633: [Expense Agent] Limited self-approval cannot be combined with escalation to an unlimited approver](../../../../changes/bcapps/13978.md) (code change): "Fixed approval handling in Expense Agent to allow limited self-approval"
+- [#14022 [Expense Agent] Travel request fixes: deletion after cancel, linked reports, approver audit user, closure history](../../../../changes/bcapps/14022.md) (code change): "Travel requests can now be deleted after linked posted reports are canceled"
 - [#14081 [Main] - Bug 656406: [Expense Agent] Setup wizard access text should mention the mobile app (Android/iOS) alongside Web](../../../../changes/bcapps/14081.md) (code change): "Expense Agent setup wizard updates UI text to clarify that the submission channels option"
+- [#14082 [29.x]-Bug 656406: [Expense Agent] Setup wizard access text should mention the mobile app (Android/iOS) alongside Web](../../../../changes/bcapps/14082.md) (code change): "Expense Agent setup wizard text is updated to clarify that users can submit expenses"
+- [#14314 Update expense category and subcategory descriptions](../../../../changes/bcapps/14314.md) (code change): "Expense category and subcategory descriptions are clarified to explain what purchases"
+- [Quick Tip: What’s in Business Central Update 28.1](../../../../posts/thinkaboutit-be/7920.md) (community post): "Expense Agent automates receipt extraction, categorization, per diem calculation"
+- [Quick Tip: What’s in Business Central Update 28.3](../../../../posts/thinkaboutit-be/8022.md) (community post): "Expense Agent adds support for Danish, French, Spanish languages with German coming soon"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../../videos/4TE8uwIi91k.md) (video): "Receipt scanning with auto capture; Bulk receipt upload; Mileage expense creation"
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../../videos/ARKckFygbWQ.md) (video): "receipt capture; receipt extraction; automatic categorization; itemization; compliance rules"
-- [What's New: Sales Validation Sample Agent for Business Central](../../../../videos/MKuOgMWXJ_8.md) (video): "Sales Validation Agent; Agent Configuration Card; Agent Dedicated Profile"
 - [Introducing: Web App for Expense Agent (2026 release wave 1)](../../../../videos/q-udoJPGUKE.md) (video): "Web App for Expense Agent; AI Receipt Extraction; Automatic Expense Report Creation"
 - [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../../../../videos/qZALauRY_So.md) (video): "Approvals for the Expense Agent expense agent; workflow; notification; policy compliance"
-- [What's New: Business Central Agent Instruction History](../../../../videos/WFAZLsUTk20.md) (video): "Agent Instruction History Autosave; Manual Save to History; Download Instructions"
 
 ## Business Central pages and reports
 

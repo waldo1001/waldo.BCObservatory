@@ -1,30 +1,30 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-long-running-sql-queries-event-log.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-long-running-sql-queries-event-log",
-  "title": "Monitoring Long Running SQL Queries to the Event Log",
-  "blob": "de533db668f84153098ca6c30bd0f06d37f78c15",
+  "title": "Monitoring Long-Running SQL Queries in the Event Log",
+  "blob": "c305493ceeb5670943b5929e78ef21941bfaf2b6",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Long running SQL query threshold is controlled by SqlLongRunningThreshold setting with default value of 1000 milliseconds."
+      "text": "Long-running SQL query time is measured as time spent on the database as seen from the server"
     },
     {
       "kind": "fact",
-      "text": "Query running longer than threshold triggers message in event log and telemetry emission indicating action took longer than expected."
+      "text": "SqlLongRunningThreshold configuration setting controls when successful SQL queries are logged as long-running"
+    },
+    {
+      "kind": "fact",
+      "text": "In version 29, the default SqlLongRunningThreshold value is 750 milliseconds"
+    },
+    {
+      "kind": "fact",
+      "text": "SqlLongRunningThresholdForApplicationInsights separately controls the Application Insights telemetry threshold"
     },
     {
       "kind": "step",
-      "text": "Change SqlLongRunningThreshold dynamically without restart using Set-NAVServerConfiguration with -ApplyTo Memory parameter."
-    },
-    {
-      "kind": "fact",
-      "text": "Query delay can result from database waiting for locks or missing indexes on operations."
-    },
-    {
-      "kind": "fact",
-      "text": "Monitor long running queries using Windows Event Log or Application Insights for telemetry analysis."
+      "text": "Change SqlLongRunningThreshold setting dynamically without server restart using Set-NAVServerConfiguration with ApplyTo Memory parameter"
     }
   ],
   "dropped": 0,
@@ -32,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004158,
-      "pages_in_call": 16
+      "cost_usd": 0.005233,
+      "pages_in_call": 9
     }
   ]
 }

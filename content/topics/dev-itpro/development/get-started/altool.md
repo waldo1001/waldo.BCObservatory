@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:57:09.736Z"
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,6 +46,7 @@ links:
   posts:
     - post/nataliekarolak-com/3995
     - post/sshadows-dk/https-sshadows-dk-blog-bc-toolbox-vs-microsoft-mcp--e9364890ee
+    - post/thinkaboutit-be/7052
   guidelines: []
   changes:
     - change/al-go/2304
@@ -65,7 +66,7 @@ coverage:
   learn: 2
   code: 0
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 280951ab58ff0d16566c5b5922b1480da263f6efcf002cab84ac99778cd40934
@@ -114,6 +115,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2407 Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency](../../../../changes/al-go/2407.md) (code change): "AL-Go for GitHub now supports GitHub Enterprise Cloud with dynamic host resolution"
 - [Docs: What’s new in BC 28 for developers](../../../../posts/nataliekarolak-com/3995.md) (community post): "MCP tooling grows, including an Admin Center API MCP server usable from VS Code"
 - [Microsoft Ships an AL MCP Server. So Why Did I Build My Own?](../../../../posts/sshadows-dk/https-sshadows-dk-blog-bc-toolbox-vs-microsoft-mcp--e9364890ee.md) (community post): "code coverage, interactive debugging, profiling analysis, call graphs, breaking change detection"
+- [Quick Tip: What’s Coming in Business Central – 2025 Release Wave 2](../../../../posts/thinkaboutit-be/7052.md) (community post): "Developer experience improvements make building, testing, and deploying AL solutions"
 - [Exploring Rabbit Holes with AL Tool Graphs](../../../../videos/urLsKPqOSbc.md) (video): "AL Tool Graphs; AL tools; call graphs; code analysis"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

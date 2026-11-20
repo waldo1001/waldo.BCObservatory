@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/14147",
+  "input_hash": "d27284d3ddb0504c9d28113140aa1648b977286de8618fb5dc5bd40b42291405",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-20T00:57:43.349Z",
+  "issues": [
+    "The last key point says all changes are limited to the posting-mode mismatch case. The PR also changes demo data, and that change only affects newly seeded data.",
+    "Summary and flags are supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017475,
+    "changes_in_call": 6
+  }
+}

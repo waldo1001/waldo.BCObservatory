@@ -2,21 +2,21 @@
 id: topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities
 type: topic
 title: Manage Copilot and agent capabilities
-summary: "Administration of Copilot and agent capabilities in Business Central: the Copilot & agent capabilities page, feature activation, user permissions, cross-geography data movement, Bing Search, Azure OpenAI data handling, and troubleshooting. It answers questions on configuring, controlling and fixing these features."
+summary: "Administration of Copilot and agent capabilities in Business Central: the Copilot & agent capabilities page, feature activation, user permissions, data movement across geographies, Bing Search, Azure OpenAI data handling, and troubleshooting. It answers questions about enabling, controlling and fixing Copilot features."
 tier: official
 language: en
 system: copilot
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-06T12:48:04.649Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: b02707a957dfb597ea401f089456b3fb943db49308f0a787297bbfb007a8c45c
+  input_hash: 1472c1d8aadc7383dec5cbd4274676a31d244fa9a90e84911b4e0f375210a0e5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/azure-openai-data
@@ -85,7 +85,6 @@ links:
     - post/yzhums-com/69256
     - post/yzhums-com/72431
     - post/yzhums-com/72479
-    - post/yzhums-com/74431
     - post/yzhums-com/74703
     - post/yzhums-com/76396
   guidelines: []
@@ -105,7 +104,7 @@ coverage:
   learn: 5
   code: 3
   video: 3
-  blog: 15
+  blog: 14
   guideline: 0
 bc_forms:
   - 7771
@@ -117,27 +116,23 @@ narrative: generated
 
 # Manage Copilot and agent capabilities
 
-> Administration of Copilot and agent capabilities in Business Central: the Copilot & agent capabilities page, feature activation, user permissions, cross-geography data movement, Bing Search, Azure OpenAI data handling, and troubleshooting. It answers questions on configuring, controlling and fixing these features.
+> Administration of Copilot and agent capabilities in Business Central: the Copilot & agent capabilities page, feature activation, user permissions, data movement across geographies, Bing Search, Azure OpenAI data handling, and troubleshooting. It answers questions about enabling, controlling and fixing Copilot features.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Manage Copilot and agent capabilities · tier official · system copilot · narrative reviewed (checked by Opus)
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Manage Copilot and agent capabilities · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is for administrators who control how Copilot and agent capabilities behave in Business Central. The central page is "Configure Copilot and agent capabilities". It describes the Copilot & agent capabilities page, where you turn features on or off, manage user access through permissions, set feedback controls, select the agent model, and manage data movement and Bing Search.
-
-Three pages go deeper on specific topics. One covers data movement across geographies and the Allow data movement setting. One covers the Bing Search setting, which is in preview. One explains how Azure OpenAI Service handles prompts and business data. The troubleshooting page covers common problems such as Copilot not appearing or activation errors.
-
-Start with the configuration page. Then read the data movement and Azure OpenAI pages if compliance or data residency questions come up. Use the troubleshooting page when a feature is missing or will not activate.
+This section is for administrators who control how Copilot and agent capabilities work in Business Central. Most settings sit on the Copilot & agent capabilities page, where you turn features on or off, manage user access through permissions, set feedback options, and choose consent for data movement and web search.
 
 ## Key points
 
-- The Copilot & agent capabilities page is where administrators activate or deactivate features, manage user permissions, control feedback, and choose the agent model.
-- Data movement across geographies applies when Azure OpenAI Service is in a different geography than the Business Central environment. Consent is managed with the Allow data movement setting.
-- The data movement page also covers EU Data Boundary compliance and data residency commitments.
-- Azure OpenAI Service processes prompts and business data per request, isolated between users. Data is stored up to 24 hours for abuse monitoring and never used for model training.
-- Bing Search (preview) is controlled by the Enable Bing Search setting. It applies to Chat with Copilot and Autofill with Copilot from update 26.3 (sandbox) and 27.0 (production).
+- The Copilot & agent capabilities page is the central place for feature activation and deactivation, user permissions, data movement, Bing Search, feedback controls and agent model selection.
+- Allow data movement controls consent for prompts and outputs routed to Azure OpenAI endpoints outside your geography when local processing isn't available; the page also mentions EU Data Boundary processing.
+- The Enable Bing Search setting controls web search for Chat with Copilot and Autofill, starting in update 26.3 (sandbox) and 27.0 (production); the feature is in preview.
+- Azure OpenAI Service processes Copilot requests with enterprise security controls. Data is not used to train models and stays in its original geographic region.
+- Abuse monitoring and data access controls are part of the Azure OpenAI data handling described for Copilot chat, Analysis assist and bank account reconciliation assist.
 - Troubleshooting covers Copilot not appearing on pages, activation errors, and missing Microsoft AI features when embed apps are installed.
-- Troubleshooting checks include personalization settings, the privacy notice agreement, and Feature Management.
+- Common checks for troubleshooting include feature activation, personalization settings, the privacy notice agreement and Feature Management.
 
 ## Learn pages
 
@@ -157,7 +152,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12810 ExpenseAgent-CAUS-default-VAT-setup-fails](../../../changes/bcapps/12810.md) (code change): "Changes the Create Expense VAT Rates codeunit and the Expense Agent Setup table"
 - [#14218 Show notification only to super users in env. where copilot substitution suggestion was used](../../../changes/bcapps/14218.md) (code change): "notification about retired Copilot item substitution suggestions now appears only"
 - [Agents in Business Central – part 4 – troubleshooting](../../../posts/bertverbeek-nl/1263.md) (community post): "troubleshoot Business Central agents when they don't behave as expected"
-- [Dynamics 365 Business Central agents: announcing new updates.](../../../posts/demiliani-com/13755.md) (community post): "A new setting on the Agents page shows which model each custom agent uses"
+- [Dynamics 365 Business Central agents: announcing new updates.](../../../posts/demiliani-com/13755.md) (community post): "GPT-5.3-chat becomes the default Copilot model, rolling out gradually across regions"
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../../posts/demiliani-com/15935.md) (community post): "Copilot features in Dynamics 365 Business Central may move prompts across geographies"
 - [How to Connect Business Central MCP to Claude Desktop](../../../posts/katson-com/5026.md) (community post): "AI agents like Claude access Business Central data through a desktop client"
 - [BC Friday Tips #45 Hide Agents Icon](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0.md) (community post): "hide the Agents icon by going to Copilot & agent capabilities"
@@ -168,7 +163,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: Black Friday 1K AI Power-Up campaign (Free copilot credits)](../../../posts/yzhums-com/69256.md) (community post): "Agent features consume credits: Sales Order Agent actions cost 5 credits"
 - [Dynamics 365 Business Central: How to monitor User AI Consumption Data within BC (Agent consumption overview)](../../../posts/yzhums-com/72431.md) (community post): "track Copilot Credit consumption directly within the application through the Agent Consumption Overview page"
 - [Business Central 2026 release wave 1 (BC28): Manage tasks from all agents in dedicated task pane](../../../posts/yzhums-com/72479.md) (community post): "dedicated task pane that consolidates all tasks generated by AI agents"
-- [Business Central 2026 release wave 1 (BC28.2): Change AI models for agents in the UI](../../../posts/yzhums-com/74431.md) (community post): "agents use different AI models directly in the UI"
 - [Business Central 2026 release wave 1 (BC28): Copilot and agent data movement across geographies](../../../posts/yzhums-com/74703.md) (community post): "controls for managing Copilot and agent data movement across Azure geographies"
 - [Dynamics 365 Business Central: How to turn off feedback on AI-generated content](../../../posts/yzhums-com/76396.md) (community post): "Administrators can disable Copilot feedback controls in Business Central"
 - [Getting Started With Agents: Agent Access Control - Permissions and Profiles (2025)](../../../videos/DRUr4byy8xQ.md) (video): "Agent access control; permissions; profiles; Sales Order Agent"

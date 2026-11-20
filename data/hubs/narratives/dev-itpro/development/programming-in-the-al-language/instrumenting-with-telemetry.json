@@ -1,39 +1,24 @@
 {
   "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry",
-  "input_hash": "db14a00968d023f7ff2ba691e2d092f3990160cc8ceb2a1c07d1db9da7451d7b",
-  "summary": "Instrumenting AL extensions with telemetry in Business Central: setting up extension telemetry, emitting custom events to Application Insights or the Event Log, logging feature telemetry, and reading the platform's built-in telemetry events. It answers how-to and which-method questions for developers.",
-  "overview": "This section covers how to add telemetry to a Business Central app so you can see how it behaves in production: user activity, errors, and performance. It starts with an introductory page on developing telemetry into your application, then moves to specific techniques.\n\nFor Application Insights, first configure the connection string in app.json (see the extension telemetry setup page). Then choose between custom events with LogMessage and the higher-level feature telemetry, which tracks usage, errors, and uptake state. A separate page covers the older Event Log route with the obsolete SENDTRACETAG method. A page on data logged to app/extension telemetry lists the events the platform emits itself. A reference subtopic with two pages holds the supporting reference material.\n\nStart with the overview page, then the setup page. Use the custom events or feature telemetry pages when you need to log your own signals.",
+  "input_hash": "b115942fe10c86e72594bf7bb3d7207aa07a53921ae41892d75e0f34a9cc3e78",
+  "summary": "Instrumenting Business Central AL code with telemetry. It covers setting up extension telemetry, emitting custom events to Application Insights or the Event Log, using feature telemetry, and the platform events already logged for extensions. It answers how-to and which-method questions.",
+  "overview": "Telemetry lets you collect data about usage, errors, performance and lifecycle events from your Business Central application. The pages here cover the full path: the general concepts of adding telemetry signals, the setup needed for extensions, and the AL methods used to emit events.\n\nStart with \"Adding Telemetry to Your Business Central Application\" for the overall picture, then \"Set Up Extension Telemetry in Business Central\" to connect an extension to Azure Application Insights through app.json. After that, choose how to log. Feature telemetry (the FeatureTelemetry codeunit) covers usage, errors and uptake. Custom events use Session.LogMessage for Application Insights, or SendTraceTag for the Event Log.\n\n\"Data logged to app/extension telemetry\" lists the events the platform already emits, such as page interactions, REST API calls, report rendering, error dialogs and resource consumption. Check it before writing custom events. A subtopic holds two reference documentation pages.",
   "key_points": [
-    "Extension telemetry setup: set applicationInsightsConnectionString in app.json. The applicationInsightsKey property is also listed. The setup page lists runtime 7.2 as a version reference.",
-    "Custom Application Insights events use LogMessage, with a dictionary or dimension overloads for custom dimensions, TelemetryScope control, and DataClassification filtering.",
-    "Event Log telemetry uses the obsolete SENDTRACETAG method, with event categories, verbosity levels, TraceLevel configuration, and Event Viewer. The page lists 2020 release wave 2 (v17) as a version reference.",
-    "Feature telemetry uses the FeatureTelemetry codeunit from the Telemetry AL module: LogUsage, LogError, and LogUptake.",
-    "Uptake states for feature telemetry are Discovered, Set up, Used, and Undiscovered.",
-    "Feature telemetry supports a Telemetry Logger interface, custom dimensions, and comparing features across metrics.",
-    "The platform emits its own telemetry for page interactions, REST API calls, report rendering, error dialogs, and resource consumption.",
-    "Telemetry signals can cover usage, errors, and performance for troubleshooting and for monitoring against business goals."
+    "Extension telemetry is set up by adding the applicationInsightsConnectionString property (or applicationInsightsKey) in app.json; the setup page mentions runtime 7.2.",
+    "Session.LogMessage creates custom telemetry events for Application Insights, with dictionary and dimension overloads, TelemetryScope, DataClassification and CustomDimensions parameters.",
+    "SendTraceTag sends custom trace events to the Business Central Server Event Log, with severity levels, categories and data classification; viewable in Event Viewer.",
+    "Feature telemetry uses the FeatureTelemetry codeunit with LogUsage, LogError and LogUptake to track feature health and adoption.",
+    "Uptake states are Discovered, Set up, Used and Undiscovered; a Telemetry Logger interface and custom dimensions allow filtering and comparing features.",
+    "The platform already logs events for extensions: page interactions, REST API calls, report rendering, error dialogs and resource consumption.",
+    "The Application Insights custom events page references version 29; the Event Log page references 2020 release wave 2."
   ],
   "members_used": 6,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-22T01:11:57.782Z",
+  "at": "2026-11-20T01:00:37.227Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014669000000000001
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-24T00:55:39.284Z",
-    "verdict": "fix",
-    "issues": [
-      "Key point 3 says SENDTRACETAG became obsolete in 2020 release wave 2 (v17). The source marks the method as obsolete and lists that version for the page, but never says the version is when it became obsolete. Reworded so the version is only a reference.",
-      "Key point 1 ended with 'runtime 7.2 is mentioned', which tells an agent nothing. Reworded so the setup page lists runtime 7.2 as its version reference, without saying what that version gates.",
-      "Key point 6 now names the Telemetry AL module, as the source does.",
-      "Summary and overview are supported by the page summaries and are unchanged."
-    ],
-    "input_hash": "db14a00968d023f7ff2ba691e2d092f3990160cc8ceb2a1c07d1db9da7451d7b",
-    "cost_usd": 0.0431032
+    "cost_usd": 0.01822
   }
 }

@@ -12,7 +12,7 @@ review:
   at: "2026-11-15T00:50:59.680Z"
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -372,6 +372,7 @@ links:
     - post/nataliekarolak-com/3653
     - post/nataliekarolak-com/4184
     - post/yzhums-com/65768
+    - post/yzhums-com/69681
     - post/yzhums-com/70129
     - post/yzhums-com/70325
   guidelines: []
@@ -406,7 +407,7 @@ coverage:
   learn: 340
   code: 37
   video: 5
-  blog: 8
+  blog: 9
   guideline: 0
 bc_forms:
   - 16
@@ -512,6 +513,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Docs: What’s new in BC 27 for developers](../../../posts/nataliekarolak-com/3653.md) (community post): "introduces new AL methods, properties, and features for developers"
 - [Using Substring to replace CopyStr](../../../posts/nataliekarolak-com/4184.md) (community post): "Using Substring to replace CopyStr for improved code readability"
 - [Dynamics 365 Business Central: A simple Date Formula testing tool](../../../posts/yzhums-com/65768.md) (community post): "Date Formula testing tool for Dynamics 365 Business Central helps developers"
+- [Blog Posts for 2025 (Dynamics 365 Lab)](../../../posts/yzhums-com/69681.md) (community post): "AL how-tos, customizations, admin tips and some BC25 minor update features"
 - [Dynamics 365 Business Central: How to check if the time zone supports daylight saving time (DST) via AL](../../../posts/yzhums-com/70129.md) (community post): "how to check whether a time zone supports daylight saving time (DST) in Business Central using AL code"
 - [Dynamics 365 Business Central: How to split a string on a fixed character (delimiter or separator) via AL](../../../posts/yzhums-com/70325.md) (community post): "String splitting in AL using the Text.Split method to parse delimited data"
 - [... but can it play DOOM? (In Business Central)](../../../videos/a8W1x0xwkv4.md) (video): "AL development; user control host; typescript; webgl rendering; javascript interop"

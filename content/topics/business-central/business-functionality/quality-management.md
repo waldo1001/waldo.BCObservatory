@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -122,6 +122,7 @@ links:
     - post/olofsimren-com/3696
   guidelines: []
   changes:
+    - change/bcapps/12291
     - change/bcapps/12322
     - change/bcapps/13056
     - change/bcapps/13104
@@ -130,6 +131,7 @@ links:
     - change/bcapps/13325
     - change/bcapps/13427
     - change/bcapps/13560
+    - change/bcapps/14147
     - change/bcapps/14219
 learn_toc_path:
   - Business functionality
@@ -201,6 +203,7 @@ Once an inspection is finished, "Block or unblock lots" and "Process items that 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12291 [Quality Management] Pass the single tracking record and clear the right filter in the purchase receipt subscriber](../../../changes/bcapps/12291.md) (code change): "Fixed two defects in purchase receipt handling where the tracking buffer filter"
 - [#12322 [QM] Destination bin code is now visible and usable for the user](../../../changes/bcapps/12322.md) (code change): "destination bin code is now visible and usable for the user"
 - [#13056 [QM] Tracking specification quantity now is used properly](../../../changes/bcapps/13056.md) (code change): "Quality Management now uses the tracking specification quantity properly in its receiving integration"
 - [#13104 update tests and enable them](../../../changes/bcapps/13104.md) (code change): "Disabled Quality Management result condition tests are re-enabled"
@@ -209,7 +212,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13325 [Quality Management] Certificate of analysis shows now full name instead of the ID.](../../../changes/bcapps/13325.md) (code change): "Certificate of Analysis, General Purpose Inspection and Non-Conformance reports now show a full name"
 - [#13427 [Quality Management] Confirm before finishing on Create Re-inspection](../../../changes/bcapps/13427.md) (code change): "Quality inspections now ask for confirmation before finishing when creating a re-inspection"
 - [#13560 [QM] Move Inventory: allow destination location for non-directed item](../../../changes/bcapps/13560.md) (code change): "Quality Management Move Inventory report now allows a destination location to be set"
-- [#14219 [QM] Copy template doesn't ignore target description anymore](../../../changes/bcapps/14219.md) (code change): "The report for copying quality inspection templates now respects the target"
+- [#14147 Fix reactivated direct transfer and BEANS issues](../../../changes/bcapps/14147.md) (code change): "Quality Management demo data updated to include semantic conditions on Coffee Defect"
+- [#14219 [QM] Copy template doesn't ignore target description anymore](../../../changes/bcapps/14219.md) (code change): "The Qlty. Inspection Copy Template report (20402) in Quality Management no longer ignores"
 - [Quality Management in Business Central Version 28](../../../posts/olofsimren-com/3696.md) (community post): "Business Central version 28 adds a native Quality Management module for inspecting goods"
 - [Introducing: Quality Management (2026 release wave 1)](../../../videos/m8-7-JKq4dc.md) (video): "Introducing: Quality Management (2026 release wave 1). Topics: quality inspection"
 

@@ -1,0 +1,40 @@
+{
+  "item_id": "blog/yzhums-com/77505",
+  "page_id": "post/yzhums-com/77505",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "breaking",
+      "quote": "Starting in version 30, it's no longer possible to expose a Microsoft page as an OData endpoint.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "30",
+        "2027 wave 1"
+      ]
+    },
+    {
+      "kind": "warning",
+      "quote": "A change in the UI can be felt as a breaking change for an integration built on this endpoint.",
+      "objects": [],
+      "events": [],
+      "versions": []
+    },
+    {
+      "kind": "warning",
+      "quote": "make sure to recreate the relevant pages in your own extension and publish them as OData endpoints before upgrading to Business Central v30.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "30"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003996,
+    "posts_in_call": 1
+  }
+}

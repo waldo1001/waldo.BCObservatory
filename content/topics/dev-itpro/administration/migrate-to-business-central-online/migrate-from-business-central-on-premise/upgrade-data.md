@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -104,13 +104,11 @@ Start with the run page to understand the standard flow. Read the skip page if y
   - Business Central 14 migration schedules company upgrades individually in background, not environment-wide.
   - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md)
 - [Skip API Data Upgrade During Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade): Learn how to skip API data upgrade for selected companies during Business Central cloud migration and complete the upgrade after going live.
-  - Long-running API data upgrades during cloud migration can be skipped per company and resumed after going live.
-  - Prerequisite: Cloud migration setup and data replication must be completed before skipping API data upgrade.
-  - Step: Sign in to Business Central online and search for Cloud Migration Management page.
-  - Step: Select Manage API Upgrade action to open the API upgrade overview page.
-  - Step: Select company name, then select Disable API Data Upgrades on the API Data Upgrade List page.
-  - SQL queries can disable API data upgrade for single company or all companies at once.
-  - After going live, run the API data upgrade separately by following the Run API data upgrade process.
+  - Prerequisite: Complete cloud migration setup and data replication before skipping API data upgrade.
+  - Skipping API data upgrade done on per-company basis; affected API entities unavailable until upgrade completed.
+  - Step: Open Cloud Migration Management, select Manage API Upgrade, select company, open API Data Upgrade List in new tab, select Disable API Data Upgrades.
+  - Step: From on-premises upgrade, run SQL query inserting disable tag into Upgrade Tags table for single or all companies.
+  - Step: After going live, run API data upgrade by opening API Data Upgrade List, resetting entities with status, selecting entries, scheduling upgrades.
   - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md), [Page 9994 "API Data Upgrade List"](../../../../../objects/page/9994.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.

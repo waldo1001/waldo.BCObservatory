@@ -1,42 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-table-mapping.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-table-mapping",
-  "title": "Define migration table mappings",
-  "blob": "d004a596001ad42bd42a2720e459c63f222283ea",
+  "title": "Define Cloud Migration Table Mappings in Business Central",
+  "blob": "94758e6db01993ca692ff2df296d4cef0ed277fc",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Table mapping lets you rename tables during cloud migration or move fields to a different table or extension."
+      "text": "Table mapping allows renaming tables during cloud migration or moving subset of fields to table extension."
     },
     {
       "kind": "limit",
-      "text": "Multiple source tables cannot map to the same destination table; each target table needs one on-premises source."
-    },
-    {
-      "kind": "step",
-      "text": "Sign in to Business Central online, search for Cloud Migration Management, and select Manage Custom Tables."
-    },
-    {
-      "kind": "step",
-      "text": "Set Target Type, Extension Names, and Table Name to specify the target table."
-    },
-    {
-      "kind": "step",
-      "text": "Enter the Source Table Name as it appears in SQL, such as with company name and extension ID."
+      "text": "Multiple source tables cannot map to same destination table; each destination requires single on-premises source table."
     },
     {
       "kind": "prerequisite",
-      "text": "Keys in the on-premises and online tables must match for table renaming."
+      "text": "Keys in on-premises and online tables must match; online target table must have ReplicateData property set to true."
     },
     {
-      "kind": "prerequisite",
-      "text": "The online target table must have ReplicateData property set to true."
+      "kind": "step",
+      "text": "Open Migration Table Mapping from Cloud Migration Management, set Target Table Type to Table or Table Extension, fill source and target table names."
     },
     {
       "kind": "fact",
-      "text": "You can use Import and Export actions to manage table mapping definitions."
+      "text": "Source table names entered as SQL format: C/AL example [CRONUS COMPANY$Table Name], AL example with GUID."
+    },
+    {
+      "kind": "fact",
+      "text": "Table extension mapping only supported for Business Central cloud migrations; Dynamics GP and SL do not support table extensions."
+    },
+    {
+      "kind": "fact",
+      "text": "Subscribe to OnInsertDefaultTableMappings event from codeunit 4001 Hybrid Cloud Management to provide table mappings programmatically."
     }
   ],
   "dropped": 0,
@@ -44,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005499,
-      "pages_in_call": 11
+      "cost_usd": 0.004616,
+      "pages_in_call": 12
     }
   ]
 }

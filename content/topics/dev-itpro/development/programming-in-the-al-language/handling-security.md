@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/handling-security
 type: topic
 title: Handling security
-summary: "Security topics for AL developers building Business Central apps: security best practices, permission sets and entitlements, Azure Key Vault app secrets, Isolated Storage, and the SecretText data type. It answers questions on authentication, authorization, and protecting secrets and credentials in extensions."
+summary: "Security for AL development in Business Central: the layered security model, permission sets and entitlements, Azure Key Vault app secrets, Isolated Storage, and the SecretText data type. It answers questions on authentication, authorization, protecting credentials and diagnosing permission errors."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:54:20.499Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9d0c44a7c80afd1b957c284250469e52269896ef98915e228a576318a74f7e8a
+  input_hash: cf703b9600d1bb71837436ea608c7bb9ab4d9a4d9b638925741944c2d884f0b7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_permissionset_get
@@ -185,19 +185,13 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets
   localizations: []
   videos:
-    - video/IIdtxatSw7A
     - video/tDcT_51ktqo
   posts:
-    - post/aardvarklabs-blog/2953
     - post/aardvarklabs-blog/3348
     - post/demiliani-com/11796
     - post/demiliani-com/12498
-    - post/demiliani-com/13588
-    - post/demiliani-com/15914
-    - post/kauffmann-nl/8332
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-37-inherent-permissions--d71a425273
     - post/yzhums-com/22035
-    - post/yzhums-com/65525
     - post/yzhums-com/65762
     - post/yzhums-com/67761
   guidelines: []
@@ -226,8 +220,8 @@ children:
 coverage:
   learn: 22
   code: 0
-  video: 2
-  blog: 12
+  video: 1
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: b2776cd836898a8a19e7effa719a058b48cb3a07b751f1ad520ac02281d58fdf
@@ -236,27 +230,28 @@ narrative: generated
 
 # Handling security
 
-> Security topics for AL developers building Business Central apps: security best practices, permission sets and entitlements, Azure Key Vault app secrets, Isolated Storage, and the SecretText data type. It answers questions on authentication, authorization, and protecting secrets and credentials in extensions.
+> Security for AL development in Business Central: the layered security model, permission sets and entitlements, Azure Key Vault app secrets, Isolated Storage, and the SecretText data type. It answers questions on authentication, authorization, protecting credentials and diagnosing permission errors.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Handling security · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Handling security · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how AL developers secure Business Central apps. It starts with a general guide to security for AL developers, which describes a layered security model and covers authentication, authorization, auditing, encryption and secrets management. That page is the best place to start.
+This section covers how AL developers secure Business Central apps. It starts with a general page on security best practices, which describes the security development lifecycle, a layered security model, authentication for user sessions and web services, and the roles of entitlements and permission sets.
 
-Two subtopics go deeper. The permission sets and entitlements pages explain how to define, compose, extend and export permission and entitlement objects, set object and inherent permissions, upgrade from legacy permissions and analyze permission telemetry. The Azure Key Vault pages explain how to set up app key vaults online and on-premises, read secrets from AL, and monitor retrieval with telemetry.
+Two subtopics go deeper. The permission sets and entitlements subtopic covers defining, composing, extending, exporting and upgrading permission sets, tying licenses to objects with entitlements, inherent permissions, and permission-related telemetry. The Azure Key Vault subtopic covers setting up app key vaults for online and on-premises, reading secrets from AL, and monitoring retrieval with telemetry.
 
-Two further pages cover handling sensitive values in code. Isolated Storage keeps keys and values private to an extension. The SecretText data type stops credentials from being exposed during debugging.
+Two own pages cover handling sensitive data in code. Isolated Storage keeps keys and values private to an extension. The SecretText data type stops credentials from being exposed during debugging. Start with the security overview, then go to the page that fits your task.
 
 ## Key points
 
-- The security guide describes a layered model and covers user session and web service authentication, entitlements and permission sets.
-- Permission sets and entitlements are defined as AL objects. They can be composed and extended, and they can be exported to XML.
-- You can set inherent permissions and object permissions, upgrade from legacy permissions, and analyze permission telemetry.
-- Azure Key Vault holds extension secrets. The pages cover setup for online and on-premises, reading secrets from AL, and telemetry on retrieval.
-- Isolated Storage offers Set, Get, Contains, Delete and SetEncrypted methods, used with the DataScope option type, to keep data private to an extension.
-- The SecretText data type stops credentials from being exposed during debugging by limiting assignments to debuggable types. It works with HttpClient and SecretStrSubstNo.
-- The SecretText page also covers the Unwrap method and the NonDebuggable attribute.
+- The overview page covers authentication, authorization, auditing, encryption and secrets management for AL developers.
+- Permission sets can be defined, composed, extended, exported and upgraded in AL, and permission telemetry helps diagnose permission errors.
+- Entitlements tie licenses to objects, and inherent permissions are also covered.
+- Azure Key Vault app secrets can be set up for online and on-premises, read from AL code, and monitored with telemetry.
+- Key Vault setup involves permissions and app.json settings, and the subtopic includes troubleshooting.
+- Isolated Storage keeps data private to an extension, using Set, Get, Contains, Delete and SetEncrypted with the DataScope option type.
+- SecretText restricts assignments to debuggable types, so credentials are not exposed while debugging.
+- SecretText works with HttpClient and SecretStrSubstNo, and Unwrap and NonDebuggable are part of its handling.
 
 ## Subtopics
 
@@ -285,19 +280,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#102 Privacy DataClassification fixes + keep Label-scope findings at minor](../../../../changes/bcquality/102.md) (code change): "Fixed factual errors in the privacy data-classification article"
 - [#131 Correct table-level data classification guidance](../../../../changes/bcquality/131.md) (code change): "Privacy guidance now states that a valid table-level DataClassification is inherited by fields"
 - [#92 Correct security and privacy knowledge guidance](../../../../changes/bcquality/92.md) (code change): "Security and privacy knowledge articles were corrected to align with current Business Central APIs"
-- [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "Business Central shows a security prompt when extensions attempt"
 - [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../../../../posts/aardvarklabs-blog/3348.md) (community post): "permission sets. Agents still need testing to check they cannot be tricked"
 - [Dynamics 365 Business Central: using secrets in JsonObjects.](../../../../posts/demiliani-com/11796.md) (community post): "Handling secrets securely in JSON objects for API integrations in Business Central"
 - [Dynamics 365 Business Central: introducing the new MaskedType enum field-level property.](../../../../posts/demiliani-com/12498.md) (community post): "Concealed hides the field value in the UI until the user clicks"
-- [Dynamics 365 Business Central: new strict URI validation in AL Http Client](../../../../posts/demiliani-com/13588.md) (community post): "Business Central v28 introduces stricter URI validation in AL HttpClient to prevent Server-Side Request Forgery attacks"
-- [Dynamics 365 Business Central: locking down IsolatedStorage reads.](../../../../posts/demiliani-com/15914.md) (community post): "protecting sensitive data like secret keys, feature flags, and cached tokens"
-- [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "Supports two OAuth flows with certificate-based authentication and security measures"
 - [BC Friday Tips #37 Inherent Permissions](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-37-inherent-permissions--d71a425273.md) (community post): "Inherent Permissions in AL allow developers to grant temporary access"
 - [Dynamics 365 Business Central: Do users really need permissions for Temporary Tables? (Permissions and temporary tables)](../../../../posts/yzhums-com/22035.md) (community post): "Setting SourceTableTemporary property to true on a page"
-- [Dynamics 365 Business Central: How to quickly check if a Url is secure (Use https) via AL](../../../../posts/yzhums-com/65525.md) (community post): "HTTPS encryption is critical for protecting sensitive data transmission in external integrations"
 - [Dynamics 365 Business Central: How to quickly check whether the user has write (Insert, Delete, and Modify) permission for the table in AL](../../../../posts/yzhums-com/65762.md) (community post): "use the Record.WritePermission() method in AL to check whether a user has write permissions"
 - [Business Central 2025 wave 2 (BC27): ‘Concealed’ text field type for sensitive data (New field-level property: MaskType)](../../../../posts/yzhums-com/67761.md) (community post): "MaskType field-level property that allows developers to conceal sensitive text"
-- [Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security.](../../../../videos/IIdtxatSw7A.md) (video): "Security development lifecycle; Static Code Analysis and Scanning; Secure Admin Workstation"
 - [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../videos/tDcT_51ktqo.md) (video): "Error Info Permission Checking; Permissions Work with Security Groups"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -362,7 +362,9 @@ links:
     - video/q0TxpWfm9rc
     - video/xJ8gYzvWnTI
   posts:
-    - post/thinkaboutit-be/7284
+    - post/freddysblog/https-freddysblog-com-2026-08-17-which-tasks-should-you-delegate-to-ai-agents--f78dfaac86
+    - post/freddysblog/https-freddysblog-com-2026-08-23-which-model-should-you-use-for-which-task--faa80c64bd
+    - post/thinkaboutit-be/7797
     - post/yzhums-com/69476
   guidelines: []
   changes:
@@ -395,7 +397,7 @@ coverage:
   learn: 55
   code: 35
   video: 2
-  blog: 2
+  blog: 4
   guideline: 0
 bc_forms:
   - 16
@@ -496,8 +498,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13307 [SOA] Clear stale pricing notifications on item availability refresh](../../changes/bcapps/13307.md) (code change): "Sales Order Agent now clears stale pricing-error notifications when refreshing"
 - [#13469 [SOA] Do not show duplicate-contact notification on outgoing email](../../changes/bcapps/13469.md) (code change): "Sales Order Agent no longer displays the duplicate-contact notification"
 - [#13495 Migrate SOA auxiliary calls to GPT-5.6 and refine date-filter handling](../../changes/bcapps/13495.md) (code change): "Sales Order Agent now uses GPT-5.6 Ceres instead of GPT-4.1"
-- [Quick Tip: Business Central Updates 27.1 & 27.2: A Quick Look at What’s New](../../posts/thinkaboutit-be/7284.md) (community post): "introduce intelligent agents for automation"
-- [Dynamics 365 Business Central: All Copilot and agent capabilities](../../posts/yzhums-com/69476.md) (community post): "multiple AI-powered Copilot features for productivity"
+- [Which Tasks Should You Delegate to AI Agents?](../../posts/freddysblog/https-freddysblog-com-2026-08-17-which-tasks-should-you-delegate-to-ai-agents--f78dfaac86.md) (community post): "ai agents; task delegation; autonomous systems; risk management"
+- [Which AI Model Should You Use for Which Task?](../../posts/freddysblog/https-freddysblog-com-2026-08-23-which-model-should-you-use-for-which-task--faa80c64bd.md) (community post): "ai models; task decomposition; verifiability; model selection"
+- [Quick Tip: Business Central Launch Edition 2026 Wave 1: 37 Sessions](../../posts/thinkaboutit-be/7797.md) (community post): "New Payables Agent and Business Central integration with Microsoft Copilot Studio"
+- [Dynamics 365 Business Central: All Copilot and agent capabilities](../../posts/yzhums-com/69476.md) (community post): "Business Central offers multiple AI-powered Copilot features for productivity"
 - [What's New: Enhancements to Copilot Summaries (2025 release wave 2)](../../videos/q0TxpWfm9rc.md) (video): "Developer Configuration for Summarization; Enhanced Fields for Richer Insights"
 - [What's New: Business Central User Experience and Productivity (2026 release wave 1)](../../videos/xJ8gYzvWnTI.md) (video): "agent task pane; sales order agent; payables agent; review bar"
 

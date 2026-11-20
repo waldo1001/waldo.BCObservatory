@@ -1,34 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-company-lifecycle-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-company-lifecycle-trace",
-  "title": "Company lifecycle trace | Microsoft Docs",
-  "blob": "c7611dd6b358e313298bb2f27b9651bdab0f30ae",
+  "title": "Analyzing Company Lifecycle Trace Telemetry",
+  "blob": "ae816a2723684561211ef0ffd01a271164b0f594",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "status",
-      "text": "Company lifecycle telemetry introduced in Business Central 2020 release wave 1, version 16.1"
+      "text": "Generally available from Business Central 2020 release wave 1, version 16.1."
     },
     {
       "kind": "fact",
-      "text": "Gathers data about success or failure of company operations: creating, copying, and deleting companies"
+      "text": "Gathers telemetry data about company creation, copying, and deletion operations."
     },
     {
       "kind": "fact",
-      "text": "Failed operations produce trace log entries that include failure reason"
+      "text": "Logs success, failure, and cancellation events for each company lifecycle operation."
     },
     {
       "kind": "fact",
-      "text": "Telemetry signals include company name, user ID, client type, environment details, and execution times"
+      "text": "Failed operations include failure reason in trace log entries."
     },
     {
       "kind": "fact",
-      "text": "Dimension result values are Success or Failure depending on operation outcome"
+      "text": "Each event captures server execution time, SQL execution count, and rows read."
     },
     {
       "kind": "fact",
-      "text": "SQL execution metrics recorded include statement count, rows read, and server execution time"
+      "text": "Telemetry includes client type, Entra tenant ID, environment name and type."
+    },
+    {
+      "kind": "fact",
+      "text": "Nine event types: company created, creation canceled, creation failed, copied, copy canceled, copy failed, deleted, deletion canceled, deletion failed."
     }
   ],
   "dropped": 0,
@@ -36,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007985,
-      "pages_in_call": 7
+      "cost_usd": 0.010205,
+      "pages_in_call": 2
     }
   ]
 }

@@ -1,42 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-authorization-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-authorization-trace",
-  "title": "Authorization Trace | Microsoft Docs",
-  "blob": "b5ee5e8b791584b67042866eee7e0bdb0e3eae3e",
+  "title": "Analyzing Authorization Trace Telemetry",
+  "blob": "a363cd0e46aa31e9c89a39b999ce72c198af010d",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Authorization telemetry shows user sign-in success or failure with reasons for failures."
+      "text": "Authorization telemetry tracks user or service sign-in attempts and identifies sign-in problems"
     },
     {
       "kind": "fact",
-      "text": "Two stages of sign-in emit telemetry: pre-open company and during company open."
+      "text": "Authorization signals are emitted in two stages: initial authorization before CompanyOpen trigger and company opening after"
     },
     {
       "kind": "fact",
-      "text": "Pre-open stage verifies user account is enabled and has correct entitlements; not emitted on-premises."
+      "text": "Pre-open company stage verifies user account is enabled, has entitlements, and belongs to tenant"
     },
     {
       "kind": "fact",
-      "text": "Open company stage indicates whether company opened after CompanyOpen trigger runs."
+      "text": "RT0003 event signals successful pre-open authorization; RT0001 signals failure with reasons including disabled user or missing entitlements"
     },
     {
       "kind": "fact",
-      "text": "Authorization Succeeded event has eventId RT0003 pre-open and RT0004 during company open."
+      "text": "RT0004 event signals successful company open; RT0002 signals failure with reasons like invalid company name or license expiration"
     },
     {
       "kind": "fact",
-      "text": "Authorization Failed event has eventId RT0001 pre-open and RT0002 during company open."
+      "text": "User types tracked are delegated admin, internal admin, and normal user based on Microsoft 365 and tenant roles"
     },
     {
       "kind": "fact",
-      "text": "userType dimension shows Delegated_admin, Internal_Admin, or Normal user classification."
-    },
-    {
-      "kind": "fact",
-      "text": "Common failure reasons include disabled accounts, missing entitlements, and expired licenses."
+      "text": "Guest user and user type dimensions added in version 26; company ID dimension added in version 25"
     }
   ],
   "dropped": 0,
@@ -44,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005499,
-      "pages_in_call": 11
+      "cost_usd": 0.00732,
+      "pages_in_call": 7
     }
   ]
 }

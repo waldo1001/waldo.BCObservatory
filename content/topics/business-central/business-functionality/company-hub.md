@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,7 +119,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11741 [MCP] Add company and environment descriptions](../../../changes/bcapps/11741.md) (code change): "Company Description field added to Company Information table as a BLOB"
 - [Dynamics 365 Business Central: Open the same list in a new tab when switching companies](../../../posts/yzhums-com/72442.md) (community post): "open the same list page in a new tab while keeping the original company context"
-- [Dynamics 365 Business Central: Enter Company Details quickly using information from Microsoft 365](../../../posts/yzhums-com/77475.md) (community post): "Business Central can automatically populate the Company Information page"
+- [Dynamics 365 Business Central: Enter Company Details quickly using information from Microsoft 365](../../../posts/yzhums-com/77475.md) (community post): "automatically populate the Company Information page by pulling organization details"
 
 ## Business Central pages and reports
 

@@ -2,21 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/administration/analyzing-database-performance
 type: topic
 title: Analyzing database performance
-summary: Analyzing database performance for Business Central on-premises covers how to find and troubleshoot slow SQL queries. It answers questions about the SqlLongRunningThreshold setting, reading long-running queries in the Event Log, and using SQL Server Query Store.
+summary: Analyzing database performance for Business Central on-premises covers how to find slow SQL queries using the Windows event log, Application Insights thresholds, and the SQL Server Query Store. It answers questions about configuring long-running query thresholds, reading the logged events, and comparing query plans.
 tier: official
 language: en
 system: platform
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:28:03.176Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: e4d1b33d7657fd836091df7826ff9ad8e60ad19491ee11376ab51e2eebb068e7
+  input_hash: 4a82fb1b0a33de92f7e01f4a32958dd5d0928b4d46704e1b4575908aacccaf16
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-long-running-sql-queries-event-log
@@ -78,34 +78,36 @@ narrative: generated
 
 # Analyzing database performance
 
-> Analyzing database performance for Business Central on-premises covers how to find and troubleshoot slow SQL queries. It answers questions about the SqlLongRunningThreshold setting, reading long-running queries in the Event Log, and using SQL Server Query Store.
+> Analyzing database performance for Business Central on-premises covers how to find slow SQL queries using the Windows event log, Application Insights thresholds, and the SQL Server Query Store. It answers questions about configuring long-running query thresholds, reading the logged events, and comparing query plans.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Analyzing database performance · tier official · system platform · narrative reviewed (checked by Opus)
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Analyzing database performance · tier official · system platform · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is about finding slow database queries in Business Central on-premises. It offers two approaches: logging long-running SQL queries from the Business Central server, and using Query Store on SQL Server or Azure SQL Database.
+This section helps administrators of Business Central on-premises find and investigate slow database queries. It has three pages and no subtopics. Two pages deal with long-running query logging on Business Central Server, and one deals with the SQL Server Query Store.
 
-Start with the pages on long-running queries. One explains how to set the SqlLongRunningThreshold on the server (with the Set-NAVServerConfiguration cmdlet) so that queries over the threshold are logged. The other explains how to read those entries in Event Viewer and use the AL call stack to pick queries to optimize. The Query Store page is for deeper troubleshooting with query history, runtime statistics and query plan tracking.
+Start with the pages on long-running SQL queries. They explain how the SqlLongRunningThreshold setting makes the server log queries that exceed a threshold. You can read these entries in Windows Event Viewer, under Windows Logs or Applications and Services Logs. The entries include AL call stack information, which helps you find the code behind a slow query. A separate setting, SqlLongRunningThresholdForApplicationInsights, sets the threshold for sending the same kind of data to Application Insights telemetry. You change both with the Set-NAVServerConfiguration cmdlet.
+
+Use the Query Store page when you need to look at SQL Server itself. Query Store keeps query history, plans, and runtime statistics. You can use it to spot query plan changes and compare performance between periods.
 
 ## Key points
 
-- SqlLongRunningThreshold on the Business Central server defines when a SQL query counts as slow.
-- The threshold is configured with the Set-NAVServerConfiguration cmdlet.
-- Long-running queries are written to the Event Log and can be viewed in Event Viewer.
-- Analyzing slow queries together with their AL call stacks helps find the code to optimize.
-- Application Insights is also covered alongside the Event Log for monitoring long-running SQL queries.
-- Query Store works with Business Central on SQL Server or Azure SQL Database.
-- Query Store provides query history, runtime statistics and query plan tracking for troubleshooting.
+- SqlLongRunningThreshold sets the threshold above which Business Central Server logs a SQL query as long-running.
+- SqlLongRunningThresholdForApplicationInsights sets the threshold for sending long-running query data to Application Insights.
+- Both settings are configured with the Set-NAVServerConfiguration cmdlet. The page that covers them mentions version 29.
+- Logged long-running queries can be read in Windows Event Viewer, under Windows Logs or Applications and Services Logs.
+- Event entries include AL call stack information, which helps identify queries that are candidates for optimization.
+- Query Store is a SQL Server feature that captures query history, plans, and runtime statistics.
+- Query Store helps find query plan changes and compare performance differences when troubleshooting.
 
 ## Learn pages
 
 - [Monitoring Long-Running SQL Queries in the Event Log](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-long-running-sql-queries-event-log): Monitor long-running SQL queries from Business Central Server in the Windows event log and Application Insights to investigate slow database operations.
-  - Long running SQL query threshold is controlled by SqlLongRunningThreshold setting with default value of 1000 milliseconds.
-  - Query running longer than threshold triggers message in event log and telemetry emission indicating action took longer than expected.
-  - Step: Change SqlLongRunningThreshold dynamically without restart using Set-NAVServerConfiguration with -ApplyTo Memory parameter.
-  - Query delay can result from database waiting for locks or missing indexes on operations.
-  - Monitor long running queries using Windows Event Log or Application Insights for telemetry analysis.
+  - Long-running SQL query time is measured as time spent on the database as seen from the server
+  - SqlLongRunningThreshold configuration setting controls when successful SQL queries are logged as long-running
+  - In version 29, the default SqlLongRunningThreshold value is 750 milliseconds
+  - SqlLongRunningThresholdForApplicationInsights separately controls the Application Insights telemetry threshold
+  - Step: Change SqlLongRunningThreshold setting dynamically without server restart using Set-NAVServerConfiguration with ApplyTo Memory parameter
 - [Troubleshooting: Using Query Store to Monitor Query Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-query-performance-using-query-store): Use SQL Server Query Store to troubleshoot query performance. The SQL Server Query Store feature provides insight on database query plan choice and performance.
   - SQL Server Query Store captures history of queries, plans, and runtime statistics.
   - Status: Query Store available in SQL Server 2016 and later and Azure SQL Database.

@@ -2,20 +2,20 @@
 id: topic/business-central/get-started/try
 type: topic
 title: Try
-summary: "The Try section covers starting and managing a Business Central trial: signing up, extending the trial, first setup tasks, converting to a subscription, and fixing sign-up problems. It answers questions about trial length, sample data, extensions, and self-service sign-up errors."
+summary: "The Try section covers starting and managing a Business Central free trial: signing up, extending the trial, the trial FAQ, moving to a paid subscription, first setup tasks, and fixing self-service sign-up problems. It answers questions about trial length, sample data, and sign-up errors."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:22:13.761Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c45c44d3b9ec2f4e2ea387e30204855d8272958fd3acb5d5e6bfab64531c89e7
+  input_hash: f236eaba6e0a3dc349a806dd00cdcdadf001691505475e121c9b933fe2897f53
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-extend-trial
@@ -106,27 +106,27 @@ narrative: generated
 
 # Try
 
-> The Try section covers starting and managing a Business Central trial: signing up, extending the trial, first setup tasks, converting to a subscription, and fixing sign-up problems. It answers questions about trial length, sample data, extensions, and self-service sign-up errors.
+> The Try section covers starting and managing a Business Central free trial: signing up, extending the trial, the trial FAQ, moving to a paid subscription, first setup tasks, and fixing self-service sign-up problems. It answers questions about trial length, sample data, and sign-up errors.
 
-Path: [Get started](../get-started.md) > Try · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Get started](../get-started.md) > Try · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is for people evaluating Business Central before buying. It explains how to start a free trial, either through Microsoft-based sign-up in countries with built-in localization or through a partner (Cloud Solution Provider) in countries without it. Trials come with localized demo data, and sandbox environments are mentioned.
+The Try section is for people evaluating Business Central before buying. It explains how to start a free trial, either through Microsoft-based localization paths or through partner-based Cloud Solution Provider programs in countries without built-in localization. Trials use localized demo data, and sandbox environments are mentioned.
 
-Once the trial is running, "Get ready for doing business" introduces assisted setup guides, company information, user creation, permission assignment and role-specific home pages. "Extend your trial version" and "Trials and subscriptions" cover how long a trial lasts, how to extend it, and how to move to a paid subscription, including data import, removing licenses and canceling.
+After sign-up, "Get ready for doing business" gives an overview of initial setup. It covers assisted setup guides, role-specific home pages, company information, user creation, permissions, and links to quick start articles. "Trials and subscriptions" and the "Trial FAQ" cover the next steps: extending the trial, removing sample data, converting to a paid license, migrating data, and canceling.
 
-Start with "Sign up for a free trial". Use the Trial FAQ for quick answers, and the self-service sign-up troubleshooting page if account creation fails.
+Start with "Sign up for a free trial". If sign-up fails, go to the self-service sign-up troubleshooting page. If the trial is ending, read "Extend your trial version of Business Central" and "Trials and subscriptions".
 
 ## Key points
 
-- The initial 30-day trial can be extended once by another 30 days; partners can extend again.
+- A trial can be extended once by another 30 days. Partners can extend it again.
 - A subscription is required after 90 days in total.
-- Sign-up is either Microsoft-based (localized countries) or partner-based through Cloud Solution Provider programs.
-- Trials include sample data, which can be removed; the FAQ covers conversion to a paid license and cancellation.
-- The FAQ describes a trial that lasts indefinitely with continued logins, or 30 days when you use your own data.
-- Assisted setup guides help with company information, user creation and permission assignment.
-- Self-service sign-up can fail because of work email requirements, regional restrictions, Microsoft 365 integration or IT admin settings.
+- Sign-up goes through Microsoft-based localization paths, or through partner-based Cloud Solution Provider programs where there is no built-in localization.
+- Trials include localized demo data and can use sandbox environments.
+- The Trial FAQ covers trial duration, features, sample data removal, conversion to a paid license, and cancellation. It says the trial lasts indefinitely with continued logins, or 30 days with your own data.
+- Initial setup uses assisted setup guides, company information, user creation, and permissions assignment. The page lists 2021 release wave 2.
+- Self-service sign-up troubleshooting covers personal email restrictions, work email requirements, .gov/.mil address restrictions, unsupported countries or regions, and disabled sign-up policies.
 
 ## Learn pages
 

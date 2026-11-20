@@ -1,42 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-manage-gp.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-gp",
-  "title": "Managing Dynamics GP cloud migration",
-  "blob": "5faae8cfc505244462dcb8de7732578c0213ed9e",
+  "title": "Manage Dynamics GP Cloud Migration in Business Central",
+  "blob": "9f919d6c0d04893a2765a5dea60bffca49ce6ab3",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Cloud Migration Management page is a hub for managing data migration and migration services in Business Central online."
+      "text": "Cloud Migration Management page is central hub for managing cloud data migration in Dynamics GP migration."
+    },
+    {
+      "kind": "permission",
+      "text": "SUPER permission set required for most management actions."
     },
     {
       "kind": "fact",
-      "text": "Migration Log shows status of all migration runs with timing and progress details."
+      "text": "Migration Log shows status of migration runs including start and end times and progress."
     },
     {
       "kind": "fact",
-      "text": "Fields and tiles above the log show number of successfully migrated tables and tables with warnings or errors."
+      "text": "Replication statistics FactBox shows table counts and allows investigating tables with warnings or errors."
     },
     {
       "kind": "fact",
-      "text": "Tables with permissions from on-premises don't migrate because permissions work differently online."
+      "text": "GP Migration Overview FactBox displays Migration Errors, Failed Companies, Failed Batches, and Migration Warnings."
     },
     {
       "kind": "fact",
-      "text": "Run Migration Now starts migration manually; on subsequent runs only changes since the previous migration are moved."
-    },
-    {
-      "kind": "limit",
-      "text": "Migration tool cannot run if target environment is being upgraded; disable migration, upgrade, then set it up again."
+      "text": "Change tracking identifies changes for tables supporting incremental replication on subsequent runs."
     },
     {
       "kind": "fact",
-      "text": "Reset Cloud Data clears all cloud tenant data to restart the migration process from the beginning."
-    },
-    {
-      "kind": "fact",
-      "text": "Both web client and cloud migration API offer options for managing migration setup and data movement."
+      "text": "Disable cloud migration before environment updates, then re-setup cloud migration and rerun replication after update."
     }
   ],
   "dropped": 0,
@@ -44,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003948,
-      "pages_in_call": 15
+      "cost_usd": 0.004616,
+      "pages_in_call": 12
     }
   ]
 }

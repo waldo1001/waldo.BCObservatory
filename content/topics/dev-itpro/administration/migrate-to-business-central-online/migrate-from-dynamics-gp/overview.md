@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -133,14 +133,13 @@ The management page covers the Cloud Migration Management page, where you monito
   - Dynamics GP migration retains existing BC user permissions; does not automatically assign Intelligent Cloud permission set.
   - Avoid entering data in online companies during migration; entered data can be overwritten by rerunning migration.
 - [Manage Dynamics GP Cloud Migration in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-gp): Learn how to monitor Dynamics GP cloud migration, investigate errors, configure companies, and manage replication, data upgrade, and runtime service keys.
-  - Cloud Migration Management page is a hub for managing data migration and migration services in Business Central online.
-  - Migration Log shows status of all migration runs with timing and progress details.
-  - Fields and tiles above the log show number of successfully migrated tables and tables with warnings or errors.
-  - Tables with permissions from on-premises don't migrate because permissions work differently online.
-  - Run Migration Now starts migration manually; on subsequent runs only changes since the previous migration are moved.
-  - Limit: Migration tool cannot run if target environment is being upgraded; disable migration, upgrade, then set it up again.
-  - Reset Cloud Data clears all cloud tenant data to restart the migration process from the beginning.
-  - Both web client and cloud migration API offer options for managing migration setup and data movement.
+  - Cloud Migration Management page is central hub for managing cloud data migration in Dynamics GP migration.
+  - Permissions: SUPER permission set required for most management actions.
+  - Migration Log shows status of migration runs including start and end times and progress.
+  - Replication statistics FactBox shows table counts and allows investigating tables with warnings or errors.
+  - GP Migration Overview FactBox displays Migration Errors, Failed Companies, Failed Batches, and Migration Warnings.
+  - Change tracking identifies changes for tables supporting incremental replication on subsequent runs.
+  - Disable cloud migration before environment updates, then re-setup cloud migration and rerun replication after update.
   - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md), [Page 4009 "Migration Table Mapping"](../../../../../objects/page/4009.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.

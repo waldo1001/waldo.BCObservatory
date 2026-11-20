@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -117,13 +117,13 @@ A separate page covers the Business Central 14 Reimplementation tool. It is for 
   - Step: Phase 1 involves planning, verifying prerequisites, reviewing data quality, and optimizing migration performance.
   - Step: Phase 2 establishes connection and pipeline through Cloud Migration Setup assisted guide without replicating data.
 - [Manage Business Central Cloud Migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage): Learn which actions are available on the Cloud Migration Management page in Business Central to replicate data, track progress, and complete migration.
-  - Cloud Migration Management page in the web client serves as the central hub for configuring and tracking data migration runs and services.
-  - Data replication can be rerun after initial migration, moving only changes since the last run using change tracking.
-  - User mapping renames the Name field on the User Card to match on-premises user names; perform this only once per migration.
-  - Step: Create diagnostic run to test data replication without migrating data, allowing issues to be identified and fixed first.
-  - Step: Reset cloud data clears all cloud tenant data and enables restarting the entire migration from the beginning.
-  - Limit: Cloud migration cannot run if the target environment is undergoing upgrade; must disable it, upgrade, then reconfigure.
-  - Setup checklist displays recommended steps to prepare tables not migrated for use as the primary system going live.
+  - Cloud Migration Management page centralizes managing cloud data migration from on-premises to Business Central online.
+  - Permissions: SUPER permission set required for most actions; replication actions require completed cloud migration setup.
+  - Migration Log displays status of all runs including time and progress; fields show migrated tables and those with warnings or errors.
+  - Change tracking identifies data moved in subsequent runs; full replication occurs if retention period expired.
+  - Complete migration blocked if failed tables, unfinished data repair, or required data upgrade not completed.
+  - Define user mappings renames online User Name to match on-premises user name; not all tables included in rename process.
+  - Migrate record links and notes moves replicated links and notes from buffer to record-link table after final replication.
   - In the observatory: [Page 40063 "Cloud Migration Management"](../../../../../objects/page/40063.md), [Page 9807 "User Card"](../../../../../objects/page/9807.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.

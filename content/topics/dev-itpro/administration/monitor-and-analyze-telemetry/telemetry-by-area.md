@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -508,14 +508,13 @@ This section is a catalog of telemetry pages, one per area of the product. Each 
   - Status: EventId RT0016 indicates successful secret retrieval with severity level 1; RT0017 indicates retrieval failure with severity level 3.
   - Telemetry custom dimensions include extension ID, name, publisher, version, key vault URIs, client type, AL object details, and component version.
 - [Analyzing Authorization Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-authorization-trace): Analyze Business Central authorization telemetry to troubleshoot sign-in failures, company access problems, entitlements, and company-opening performance.
-  - Authorization telemetry shows user sign-in success or failure with reasons for failures.
-  - Two stages of sign-in emit telemetry: pre-open company and during company open.
-  - Pre-open stage verifies user account is enabled and has correct entitlements; not emitted on-premises.
-  - Open company stage indicates whether company opened after CompanyOpen trigger runs.
-  - Authorization Succeeded event has eventId RT0003 pre-open and RT0004 during company open.
-  - Authorization Failed event has eventId RT0001 pre-open and RT0002 during company open.
-  - userType dimension shows Delegated_admin, Internal_Admin, or Normal user classification.
-  - Common failure reasons include disabled accounts, missing entitlements, and expired licenses.
+  - Authorization telemetry tracks user or service sign-in attempts and identifies sign-in problems
+  - Authorization signals are emitted in two stages: initial authorization before CompanyOpen trigger and company opening after
+  - Pre-open company stage verifies user account is enabled, has entitlements, and belongs to tenant
+  - RT0003 event signals successful pre-open authorization; RT0001 signals failure with reasons including disabled user or missing entitlements
+  - RT0004 event signals successful company open; RT0002 signals failure with reasons like invalid company name or license expiration
+  - User types tracked are delegated admin, internal admin, and normal user based on Microsoft 365 and tenant roles
+  - Guest user and user type dimensions added in version 26; company ID dimension added in version 25
 - [Analyzing Changelog Configuration Changes Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-changelog-configuration-trace): Analyze changelog configuration telemetry in Business Central to identify fields added to tracking, logging changes, and fields removed from tracking.
   - Status: Introduced in Business Central 2023 release wave 2, version 23.0.
   - Changelog feature tracks direct user modifications to database; specify tables and fields to log.
@@ -525,26 +524,25 @@ This section is a catalog of telemetry pages, one per area of the product. Each 
   - Field removed event tracks table and field information when tracking ends.
   - Sample KQL queries analyze changelog configuration changes and enable alerting.
 - [Analyzing Client Action Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-client-action-trace): Analyze client action telemetry in Business Central to track supported page actions, understand feature usage, and identify the associated pages and apps.
-  - Status: Introduced in Business Central 2023 release wave 1, version 22.0.
-  - Client action telemetry tracks actions users select on pages in the Business Central client.
-  - Data includes action type, page details, user environment info, and application version.
-  - Action invoked event has eventId CL0003 and shows which UI action was triggered.
-  - Use telemetry to gather statistics about how users interact with client features.
-  - clientAction dimension specifies the type of action, such as UI.AnalysisMode.Disabled.
+  - Status: Generally available from version 22.0 (2023 release wave 1)
+  - Client action telemetry gathers data about supported user actions on pages like enabling or disabling analysis mode
+  - Each action event records action type, page triggered on, user environment information, and app details
+  - CL0003 event ID identifies client actions invoked in the Business Central client
+  - Client actions are tracked with custom dimensions including client type, page object ID and name, and app identity
 - [Analyzing Client Control Add-In Exception Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-client-add-in-exceptions): Analyze Business Central control add-in exceptions in Application Insights to identify affected extensions, inspect error details, and troubleshoot failures.
-  - Client control add-in exceptions are logged to Application Insights exceptions table, not traces table
-  - Exception telemetry event ID is CL0005 and includes control add-in name, page object details, app information
-  - Error details include problem ID, type, assembly, method, outer and innermost error information on call stack
-  - Telemetry captures environment context including tenant, company, client type, host type, and device screen resolution
+  - Client add-in exceptions are logged to Application Insights exceptions table, not traces table
+  - CL0005 event ID identifies exceptions raised inside control add-ins
+  - Exception data includes problem ID, error type, assembly, method, and nested error information from call stack
   - Built-in Application Insights Failures page can be used for troubleshooting control add-in exceptions
-  - User ID and problemId field enable exception grouping and user impact analysis
+  - Exception custom dimensions track host type, device screen resolution, control add-in name, app identity, and environment context
 - [Analyzing Company Lifecycle Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-company-lifecycle-trace): Analyze Business Central company lifecycle telemetry to track company creation, copying, and deletion, and investigate canceled or failed operations.
-  - Status: Company lifecycle telemetry introduced in Business Central 2020 release wave 1, version 16.1
-  - Gathers data about success or failure of company operations: creating, copying, and deleting companies
-  - Failed operations produce trace log entries that include failure reason
-  - Telemetry signals include company name, user ID, client type, environment details, and execution times
-  - Dimension result values are Success or Failure depending on operation outcome
-  - SQL execution metrics recorded include statement count, rows read, and server execution time
+  - Status: Generally available from Business Central 2020 release wave 1, version 16.1.
+  - Gathers telemetry data about company creation, copying, and deletion operations.
+  - Logs success, failure, and cancellation events for each company lifecycle operation.
+  - Failed operations include failure reason in trace log entries.
+  - Each event captures server execution time, SQL execution count, and rows read.
+  - Telemetry includes client type, Entra tenant ID, environment name and type.
+  - Nine event types: company created, creation canceled, creation failed, copied, copy canceled, copy failed, deleted, deletion canceled, deletion failed.
 - [Analyzing Database Deadlock Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-deadlocks-trace): Analyze database deadlock telemetry in Business Central to identify deadlock victims, inspect SQL statements and AL stack traces, and troubleshoot contention.
   - Telemetry emitted when deadlock occurs and terminates one session (victim), blocking users from completing tasks.
   - Provides benefits including awareness of deadlocks, identification of victim process, and data for monitoring.
@@ -637,12 +635,11 @@ This section is a catalog of telemetry pages, one per area of the product. Each 
   - Event AL0000HE7 indicates a single job queue entry error; event AL0000JRG indicates it failed after all retry attempts.
   - Limit: Job queue object name and description dimensions added in later versions 22.0 and 22.2 respectively, not in initial release.
 - [Analyzing Long Running AL Methods Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-al-method-trace): Analyze long-running AL method telemetry in Business Central to identify slow extension code, examine execution times, and troubleshoot performance issues.
-  - The server emits telemetry about execution time of long running AL methods, including database time and breakdown by event subscribers.
-  - Status: On-premises requires AL Function Timing and AL Function Logging Threshold settings configured; online has telemetry enabled case-by-case.
-  - The trace includes eventId RT0018 and dimensions like alMethod, alObjectId, alObjectName, alObjectType, clientType, and companyName.
-  - exclusiveTime dimension shows execution time without client callback suspension time, introduced in version 22.1 and backported to 21.6.
-  - sqlExecutes and sqlRowsRead dimensions show number of SQL statements and table rows read, introduced in version 22.0.
-  - extensionInfo dimension includes extension ID, name, version, publisher, subscriber count, and execution time in the call stack.
+  - Status: Starting with version 29, the extensionInfo dimension is empty in long-running AL method telemetry
+  - Long-running AL method telemetry event ID is RT0018
+  - Through version 28, extensionInfo includes extension ID, name, version, publisher, subscriber execution count, and execution time
+  - Telemetry includes AL method name, object ID, object name, object type, execution time, SQL executes, and SQL rows read
+  - Exclusive time specifies execution time without time where AL was suspended due to client callback
 - [Analyzing Long Running Operation (SQL Query) Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-long-running-sql-query-trace): Learn about analyzing long running operation (SQL Query) in Business Central.
   - SQL queries taking over 750 milliseconds are automatically sent to Azure Application Insights for analysis.
   - Additional logging can be enabled from the Help & Support page to capture all SQL queries for short periods.
@@ -658,12 +655,13 @@ This section is a catalog of telemetry pages, one per area of the product. Each 
   - Limit: AL compiler errors and AppSourceCop analyzer issues are reported as validation diagnostics during the process.
   - Validation diagnostics can be information, warning, or error severity levels based on issue type.
 - [Analyzing Marketplace Submission Validation Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-appsource-submission-validation-trace): Analyze Business Central Marketplace submission validation telemetry to track validation stages, identify diagnostics, and investigate publication failures.
-  - Status: Available from Business Central 2021 release wave 1, version 18.4 and later.
-  - Telemetry traces are emitted for validation process phases when app is submitted to Marketplace.
-  - Validation runs against each extension for each country and Business Central version specified.
-  - Each submission receives unique ID included in each trace allowing queries of all related traces.
-  - AL compiler and AppSourceCop code analyzer perform validation on extensions.
-  - Traces report diagnostics, validation phases, errors, and whether validation completed with or without failures.
+  - Status: Generally available from version 18.4 (2021 release wave 1)
+  - Marketplace submission validation telemetry is emitted when apps are published from Partner Center
+  - Validation runs against each extension for each targeted country/region and Business Central version
+  - Extensions are validated using AL compiler and AppSourceCop code analyzer
+  - Each submission receives unique validationRequestId included in all traces for query tracking
+  - Validation process emits traces at different phases: request started, diagnostic reported, validation started/completed per extension and version/country-region
+  - Event IDs track validation flow: LC0028 request started, LC0029 completed successfully, LC0035 completed with failures
 - [Analyzing metadata embeddings telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-metadata-embeddings-trace): Learn about the metadata embeddings telemetry in Business Central.
   - Metadata embeddings telemetry tracks vector representations of extension metadata that power AI features like Copilot search.
   - Event LC0059 indicates successful metadata embedding generation for an extension.
@@ -742,7 +740,8 @@ This section is a catalog of telemetry pages, one per area of the product. Each 
   - Common dimensions include function host URL, tenant ID, environment name, and company name.
   - Sample KQL queries help analyze and alert on Azure Function integration failures.
 - [Business Central Telemetry Area Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-area-overview): Explore Business Central telemetry areas to find events for monitoring usage, diagnosing errors, and analyzing environment performance.
-  - Business Central offers telemetry on various operations logged into traces or pageview tables in Application Insights.
+  - Business Central telemetry is logged into traces or pageViews tables in Application Insights
+  - Telemetry areas cover multiple operations tracked across the Business Central platform
 - [Environment Lifecycle Telemetry in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-environment-lifecycle-trace): Analyze Business Central environment lifecycle telemetry to monitor updates, restarts, copies, restores, transfers, and other administrative operations.
   - Environment lifecycle telemetry logs environment operations including updates, start/stop/restart, copy, point-in-time restore, tenant transfer, session cancellation, database export, configuration…
   - Telemetry records data upgrade events: started, succeeded, failed, recovery succeeded, and recovery failed.

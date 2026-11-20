@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality
 type: topic
 title: Local functionality
-summary: Local functionality in Business Central covers country-specific features and regulatory compliance for more than 20 countries and regions. It also includes partner guidance for building validated localization apps and explains how to submit regulatory alerts. It answers questions on setting up country tax, banking, e-invoicing and reporting.
+summary: "Local functionality in Business Central: country-specific features for 22 markets (tax, banking, e-invoicing, finance, audit exports), plus pages on localization strategy, building validated localization apps, and submitting regulatory alerts. It answers setup and compliance questions per country."
 tier: official
 language: en
 system: localization
 review:
   state: reviewed
   by: opus
-  at: "2026-11-08T01:01:49.908Z"
+  at: "2026-11-20T01:01:32.224Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 7cefeb03a2444cae4bf09e07e718283239349b4ecf57ae961be52093b0c6603e
+  input_hash: a813f6789218d2c1b6db428665750eae93c76a5ab4ba3a77fff31139512b1385
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Absence-registration
@@ -874,28 +874,28 @@ narrative: generated
 
 # Local functionality
 
-> Local functionality in Business Central covers country-specific features and regulatory compliance for more than 20 countries and regions. It also includes partner guidance for building validated localization apps and explains how to submit regulatory alerts. It answers questions on setting up country tax, banking, e-invoicing and reporting.
+> Local functionality in Business Central: country-specific features for 22 markets (tax, banking, e-invoicing, finance, audit exports), plus pages on localization strategy, building validated localization apps, and submitting regulatory alerts. It answers setup and compliance questions per country.
 
 Path: [Business functionality](../business-functionality.md) > Local functionality · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section describes how Business Central supports local legal, tax and business requirements. A strategy page introduces the country-specific features and regulatory compliance across the supported countries and regions. Each country then has its own subtopic, typically covering tax and VAT, banking and payments, core finance, e-invoicing and general features.
+This section covers features that adapt Business Central to national regulations. Each country has its own subtopic, usually grouped into tax and VAT, banking and payments, core finance, e-invoicing and general setup. Page counts vary widely, from 6 pages for Sweden to 87 for India.
 
-Two pages are not tied to a single country. One describes requirements and guidelines for partners building Validated Localization apps (regulatory, national standards and language needs) under Microsoft's pilot program. The other explains how to submit regulatory alerts through Microsoft Dynamics Lifecycle Services to notify Microsoft of legislation changes.
+Three own pages sit above the country subtopics. "Local functionality and localization strategy" describes country-specific features and availability across Europe, North America and Asia Pacific, so start there to see what is supported. "Development of validated localization apps" gives partners requirements for building localization extensions for Microsoft's pilot program. "Submit regulatory alerts" explains how to notify Microsoft through Microsoft Dynamics Lifecycle Services about legislation changes.
 
-Start with the strategy page for the overall picture, then open the subtopic for your country. Larger areas such as India, Czech Republic, Spain and Norway have many pages, while Sweden and Iceland are small.
+For a country question, go straight to that country's subtopic. Some countries use extension packs, such as the Czech Core and Advanced Localization Pack. Iceland's localization is based on the W1 Base App and is available from version 24.0.
 
 ## Key points
 
-- Covers 22 country and region subtopics, from Australia to the United States.
-- Tax and reporting examples: GST/WHT/BAS (Australia), ELSTER and Intrastat (Germany), SII and VERI*FACTU (Spain), Making Tax Digital (UK), GST/TDS/TCS (India).
-- E-invoicing formats include Peppol PINT A-NZ, OIOUBL, EHF, CFDI, UBL 2.1 and Factur-X, depending on country.
-- Banking and payment features vary by country, e.g. CODA and SEPA (Belgium), FIK (Denmark), QR-bills and LSV+ (Switzerland), OCR/KID (Norway).
-- The Czech Republic uses Core and Advanced Localization Pack extensions.
+- Covers 22 countries across Europe, North America and Asia Pacific, each with its own subtopic.
+- Typical country coverage: VAT/GST and other taxes, banking and payment formats, core finance reports, and general setup.
+- E-invoicing formats include Peppol PINT A-NZ (Australia, New Zealand), OIOUBL (Denmark), UBL 2.1 and Factur-X (France), CFDI (Mexico), EHF (Norway) and VERI*FACTU (Spain).
+- Audit and reporting exports include SAF-T (Denmark, Norway), XAF (Netherlands), ELSTER (Germany) and SII (Spain).
+- India has the largest subtopic (87 pages), covering GST, TDS, TCS and the tax engine; Czech Republic has 60 pages and uses the Core and Advanced Localization Pack extensions.
 - Iceland's localization is based on the W1 Base App and is available from version 24.0.
-- Partners can follow the Validated Localization app guidelines, which cover test automation, code coverage, data classification and setup wizards.
-- Regulatory alerts are submitted through Lifecycle Services, with details such as description, law enforcement date and filing deadline.
+- Partners building localization apps should follow the Validated Localization requirements: tax reporting, national standards, local language, test automation, code coverage, data classification and setup wizards.
+- Regulatory changes can be reported to Microsoft through Lifecycle Services alerts, including the law enforcement date and filing deadline.
 
 ## Subtopics
 

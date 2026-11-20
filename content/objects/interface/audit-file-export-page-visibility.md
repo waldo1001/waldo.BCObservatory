@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:47:08.789Z"
+  at: "2026-11-20T00:47:37.951Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5d6a139ff50768d591f2845c38d071396f89084bf885cbddfcfff5d447749baf
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/AuditFileExport/app/src/AuditFileExportPageVisibility.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/AuditFileExport/app/src/AuditFileExportPageVisibility.Interface.al
     title: src/Apps/W1/AuditFileExport/app/src/AuditFileExportPageVisibility.Interface.al (releases/29.x)
     date: null
-    commit: 8df2ba47b62fdf6e6189524d4680b9bfb49bb553
+    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
     t: null
     quote: null
 links:
@@ -89,7 +89,7 @@ relations:
 
 > Interface "Audit File Export Page Visibility" in AuditFileExport (Microsoft.Finance.AuditFileExport). 1 public procedures. Introduced in BC29, still in BC30.
 
-AuditFileExport · Microsoft.Finance.AuditFileExport · BC29-30 · [source at 8df2ba47](https://github.com/microsoft/BCApps/blob/8df2ba47b62fdf6e6189524d4680b9bfb49bb553/src/Apps/W1/AuditFileExport/app/src/AuditFileExportPageVisibility.Interface.al) · facts from BC29
+AuditFileExport · Microsoft.Finance.AuditFileExport · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/AuditFileExport/app/src/AuditFileExportPageVisibility.Interface.al) · facts from BC29
 
 ## Procedures
 

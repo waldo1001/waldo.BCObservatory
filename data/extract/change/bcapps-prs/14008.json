@@ -8,11 +8,11 @@
   ],
   "summary": "Fixed a posting sequence error when applying GST advance payments against sales invoices with different customer posting groups by deferring GST journal posting until after customer application posting completes.",
   "key_points": [
-    "Resolves 'G/L Entry already exists' error when applying GST advance payments with different customer posting groups",
-    "Root cause was premature GST entry posting using separate posting instance during active customer application posting",
-    "Solution defers offline customer GST posting until customer application posting finishes",
-    "Uses shared Gen. Jnl.-Post Line instance from OnAfterPostApplyCustLedgEntry event",
-    "Fixes both invoice posting and preview functionality"
+    "Resolves the 'G/L Entry already exists' error when applying a GST advance payment to a sales invoice with a different customer posting group",
+    "Cause: GST application entries were posted early through a separate Gen. Jnl.-Post Line instance while customer application posting was still running",
+    "Offline customer GST journal posting is now deferred until customer application posting finishes",
+    "Uses the shared Gen. Jnl.-Post Line instance supplied by OnAfterPostApplyCustLedgEntry",
+    "Affects both application posting and its preview"
   ],
   "change_kind": "fix",
   "behavior_change": true,

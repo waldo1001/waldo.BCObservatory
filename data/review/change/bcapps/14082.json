@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/14082",
+  "input_hash": "0d963eee16722109b3ad1e5caed0c26d09aeaa4bf4b45e87b7ea9cb058b63a0a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-20T00:57:33.320Z",
+  "issues": [
+    "This is a text-only change to a caption and a tooltip, made for Bug 656406, so feature is the wrong change_kind. Changed to fix.",
+    "The summary, key points and the false behavior_change and breaking flags match the description. The backport to releases/29.x (BC29) is stated correctly."
+  ],
+  "applied": [
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030806,
+    "changes_in_call": 2
+  }
+}

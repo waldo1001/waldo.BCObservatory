@@ -8,11 +8,11 @@
   ],
   "summary": "Modified Shopify gift card handling on POS unverified returns so they remain on sales invoices rather than being treated as exchange items, preventing empty invoice generation with auto-release enabled.",
   "key_points": [
-    "Gift cards on unverified POS returns now treated as regular order lines instead of exchange items",
-    "Prevents invoices from becoming empty when no exchange items remain on credit memos",
-    "Order import now sets Is Exchange Item for every line during write rather than separate marking pass",
-    "Refund import skips synthetic exchange refund lines for unverified return gift cards",
-    "Added 7 tests validating unverified and verified return handling"
+    "A gift card on a return with unverified return lines is treated as a regular order line again and invoiced",
+    "Fixes empty sales invoices that failed to release when Auto Release was on",
+    "Is Exchange Item is now set for every line as it is written, replacing MarkExchangeItemOrderLines, so re-importing fixes orders that were flagged by mistake",
+    "Refund import creates no synthetic exchange refund line for these gift cards and removes one left by an earlier import",
+    "Verified returns with exchanges behave as before; 7 tests added"
   ],
   "change_kind": "fix",
   "behavior_change": true,

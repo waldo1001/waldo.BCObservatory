@@ -2,7 +2,7 @@
 id: topic/business-central/get-started/get-productive-in-business-central/personalize-business-central
 type: topic
 title: Personalize Business Central
-summary: "Personalizing the Business Central web client: moving and hiding page elements, changing list layouts, saving list views, bookmarking pages on the Role Center, and where personalization is stored. It also explains why a page may be locked from personalization."
+summary: "Personalizing Business Central covers how users change the UI to fit their work: moving and hiding fields, changing list layouts, saving list views, bookmarking pages on the Role Center, and where those settings are stored. It also explains why a page may be locked from personalization."
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 94b722b6d9c4cdc5189a8c0f40baedbb7446a5d1d8f4bc605aa98e461502bbe4
+  input_hash: a31e57e41680718f3cb6f239447a1358cd54cab2a2243de483a8bdc25c66b436
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-bookmarks
@@ -127,26 +127,26 @@ narrative: generated
 
 # Personalize Business Central
 
-> Personalizing the Business Central web client: moving and hiding page elements, changing list layouts, saving list views, bookmarking pages on the Role Center, and where personalization is stored. It also explains why a page may be locked from personalization.
+> Personalizing Business Central covers how users change the UI to fit their work: moving and hiding fields, changing list layouts, saving list views, bookmarking pages on the Role Center, and where those settings are stored. It also explains why a page may be locked from personalization.
 
 Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Personalize Business Central · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is for users who want to adapt Business Central to how they work. Personalization lets you move, hide or show fields, columns, actions and parts on pages. It applies to the logged-in user across devices and browsers.
+This section is about user-level adjustments to the Business Central interface. The core page, "Personalize your workspace", describes moving, hiding or showing fields, columns, actions and parts on a page. Personalization applies to the logged-in user across devices and browsers.
 
-Related pages cover the common tasks. You can show lists as rows, tiles or tall tiles, or with created/modified by columns. You can save filtered list views and bookmark pages, reports and views on your role center. Two reference pages explain where personalization is saved (roaming in the service or local in the browser) and why a page can be locked from personalization.
+Several pages build on that. List pages can be shown as rows, tiles, tall tiles or with created/modified by columns. Filter setups can be saved as list views, which can be renamed, removed or bookmarked. Pages and reports can be bookmarked on the role center for quick access.
 
-Start with "Personalize your workspace" for the basics. Then use the list and bookmark pages for specific tasks. Use the storage and locked-page pages when changes do not persist or the page cannot be edited.
+Two pages cover behavior and limits. "Where Is Personalization Stored?" explains roaming personalization (across devices and browsers) versus local personalization (browser only). "Why a Page Is Locked from Personalization" covers blocked pages and how to unlock them. Start with "Personalize your workspace", then go to the others as needed.
 
 ## Key points
 
-- Personalization can move, hide or show fields, columns, actions and parts, and covers freeze panes, Quick Entry, the action bar and FactBox resizing.
-- Personalization applies to the logged-in user on all devices and browsers.
-- Lists can be shown as list rows, tiles, tall tiles, or with created/modified by columns. Item pictures appear in the tile layouts.
-- List views are saved filter configurations. You can rename, remove, personalize and bookmark them on the Role Center.
-- The bookmark icon adds quick links to pages and reports on your role center, from the page itself or from the Tell Me window. Bookmarks can be removed.
-- Roaming personalization syncs across devices. Local personalization affects only one browser and is lost if cookies and site data are cleared.
+- Personalization lets a user move, hide or show fields, columns, actions and parts, manage freeze panes, set up Quick Entry, customize the action bar and resize FactBoxes.
+- Personalization applies to the logged-in user across all devices and browsers. The workspace page references Business Central 26.0.
+- List pages can be shown in list, tiles, tall tiles, or created/modified by layouts. Item pictures are mentioned for the tile layouts.
+- List views are saved filter configurations that can be renamed, removed, bookmarked on the Role Center and personalized. The page references 2026 release wave 2.
+- Bookmarks to pages and reports on the role center are added with the bookmark icon on a target page or from the Tell Me window.
+- Personalization is stored as roaming (follows the user across devices and browsers) or local (kept in the browser only).
 - A page can be locked from personalization because of version compatibility issues or legacy customizations. A banner and lock icon show this, and an unlock page action is available.
 
 ## Learn pages

@@ -2,20 +2,20 @@
 id: topic/dev-itpro/what-s-new-and-planned/updates-for-earlier-major-versions
 type: topic
 title: Updates for earlier major versions
-summary: Release notes for Business Central minor updates from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1), plus a what's new page for the 26.0 major update and preview pages for 27.0 and 28.0. Use it to find which update introduced a feature, telemetry signal, localization change, deprecation or hotfix.
+summary: Release notes for Business Central updates from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1), including the 26.0, 27.0 and 28.0 feature overviews. Use it to find which update introduced or changed a feature, hotfix, localization, telemetry item, deprecation or upgrade note.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-11-11T00:59:22.222Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-20T01:01:32.224Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 07a8c95299fac2a1ea50956a5dc702661d0b1e6bbe18f9db5039cab517cd2344
+  input_hash: ad83c7adcf35e9ea5208ecb8c09f01a7eb8b5e57a0d95a301efee23bf9b8e1af
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-2
@@ -398,28 +398,26 @@ narrative: generated
 
 # Updates for earlier major versions
 
-> Release notes for Business Central minor updates from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1), plus a what's new page for the 26.0 major update and preview pages for 27.0 and 28.0. Use it to find which update introduced a feature, telemetry signal, localization change, deprecation or hotfix.
+> Release notes for Business Central updates from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1), including the 26.0, 27.0 and 28.0 feature overviews. Use it to find which update introduced or changed a feature, hotfix, localization, telemetry item, deprecation or upgrade note.
 
-Path: [What's new and planned](../what-s-new-and-planned.md) > Updates for earlier major versions · tier official · system none · narrative reviewed (checked by Opus)
+Path: [What's new and planned](../what-s-new-and-planned.md) > Updates for earlier major versions · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is an archive of per-update release notes. Each page covers one update, such as 17.3 or 24.2, and belongs to a release wave. The pages list hotfixes, feature changes, localization updates and announcements about upcoming or mandatory changes. Three pages (26.0, 27.0 and 28.0) describe the major or preview update of a wave.
+This section is a series of one page per update, grouped by release wave. It runs from 2019 release wave 2 (updates 15.2 to 15.4) through 2026 release wave 1 (updates 28.1 to 28.5). Each page lists hotfixes, feature changes, localization and regulatory updates, and upgrade notes for online and on-premises deployments. There are no subtopics.
 
-The pages run in order: 15.x (2019 wave 2), 16.x and 17.x (2020), 18.x and 19.x (2021), 20.x and 21.x (2022), 22.x and 23.x (2023), 24.x and 25.x (2024), 26.x and 27.x (2025), and 28.x (2026 wave 1). To find when something changed, pick the release wave first, then read the numbered update pages in that wave. The pages have no subtopics.
-
-Start with the page for the wave you run or plan to move to. The major or preview pages give the broad view of a wave. The minor update pages give the detail, such as regional compliance, telemetry and deprecation notices.
+Three pages cover the major versions: "What's New or Changed" for 26.0 (2025 release wave 1), 27.0 preview (2025 release wave 2) and 28.0 preview (2026 release wave 1). Start with the page for the version you run, or the one that matches the feature you are tracing. The minor-update pages (x.1 to x.5) show what changed after the major release. Later pages also flag features that become mandatory in a later version.
 
 ## Key points
 
-- Coverage runs from update 15.2 (2019 release wave 2) to update 28.5 (2026 release wave 1), with separate pages for the 26.0, 27.0 and 28.0 major or preview updates.
-- Telemetry additions appear across 2020 updates: company lifecycle (16.1), extension lifecycle (16.3, 17.1), and job queue, permission, retention policy and email signals (17.2).
-- Deprecations and removals are noted: Internet Explorer 11 (16.5, 17.5), OData V3 and basic authentication (17.4, 17.5), and Docker image production replaced by artifacts (16.4).
-- Administration and cloud items include environment backup and restore (17.3), environment copying across types (19.1), delegated admin cloud migration (19.4) and GDAP migration guidance (20.5).
-- Localization and regulatory changes are listed per update, for example Intrastat 2022 (19.2, 19.3), SAF-T (18.4, 22.4, 22.5), Verifactu for Spain (27.3, 28.5) and e-invoicing for Denmark and France.
-- E-documents and the E-Documents framework appear from 23.2 on: NemHandel, PEPPOL, new service providers, payment support and the Peppol preview.
-- Copilot and agent features grow from 23.1 on: marketing text, bank reconciliation, Chat with Copilot, Sales Order Agent, Payables Agent and Expense Agent.
-- Some pages flag upcoming mandatory features, such as G/L entry aggregations and exchange rate adjustment (23.5, 24.1, 25.5), and give upgrade guidance for online and on-premises customers.
+- Coverage runs from update 15.2 (2019 release wave 2) to update 28.5 (2026 release wave 1), with one page per update.
+- Early updates (16.x to 17.x) cover Application Insights telemetry, cloud migration from 14.x to 16.x, snapshot debugging, and deprecation of OData V3 and basic authentication.
+- Updates 18.x and 19.x cover OAuth2 SMTP, Word templates, certificate-based Dataverse authentication, extension validation on upgrade, customer consent, and 2D barcodes. They also cover localization items such as Mexico Carta de Porte and Norway VAT return.
+- Updates 20.x to 22.x cover the Shopify Connector, Power Automate integration, GDAP migration for partners, and Microsoft 365 license access. They also cover Teams embedding, auto-save, and actionable error messages.
+- Updates 23.x to 25.x introduce virtual tables on Dataverse, Copilot features, Denmark e-invoicing with NemHandel, the E-Documents framework, and the Business Central Administrator role. Several of these pages also warn that G/L entry aggregation extensions and extensible exchange rate adjustment become mandatory.
+- Updates 26.x to 28.x cover agents (Sales Order, Payables, Expense), Copilot autofill and summarize, MCP server, more e-document providers and formats, sustainability reporting, and Spain Verifactu.
+- Many pages include localization and regulatory changes by country, such as Intrastat, SAF-T, SII, VAT returns and IRS 1099.
+- Pages for 27.0 preview and 28.0 preview mark features as general availability or public preview.
 
 ## Learn pages
 
@@ -487,7 +485,6 @@ Start with the page for the wave you run or plan to move to. The major or previe
 - [Update 25.1 for Microsoft Dynamics 365 Business Central 2024 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-1): Get an overview of new and changed capabilities in the 25.1 update of Business Central online, which is part of 2024 release wave 2.
 - [Update 25.2 for Microsoft Dynamics 365 Business Central 2024 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-2): Get an overview of new and changed capabilities in the 25.2 update of Business Central online, which is part of 2024 release wave 2.
 - [Update 25.3 for Microsoft Dynamics 365 Business Central 2024 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-3): Get an overview of new and changed capabilities in the 25.3 update of Business Central online, which is part of 2024 release wave 2.
-  - In the observatory: [Page 2610 "Feature Management"](../../../objects/page/2610.md), [Table 17 "G/L Entry"](../../../objects/table/17.md), [Table 49 "Invoice Post. Buffer"](../../../objects/table/49.md)
 - [Update 25.4 for Microsoft Dynamics 365 Business Central 2024 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-4): Get an overview of new and changed capabilities in the 25.4 update of Business Central online, which is part of 2024 release wave 2.
 - [Update 25.5 for Microsoft Dynamics 365 Business Central 2024 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-25-5): Get an overview of new and changed capabilities in the 25.5 update of Business Central online, which is part of 2024 release wave 2.
   - In the observatory: [Page 2610 "Feature Management"](../../../objects/page/2610.md), [Table 49 "Invoice Post. Buffer"](../../../objects/table/49.md)

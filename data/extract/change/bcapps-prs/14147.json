@@ -8,11 +8,11 @@
   ],
   "summary": "Fixed direct transfer orders to create inbound warehouse requests when their route overrides the Inventory Setup posting mode, and corrected Quality Management demo data to seed Coffee Defect and Uniformity tests with proper conditions.",
   "key_points": [
-    "Direct transfer orders now respect their route-derived posting mode instead of only using Inventory Setup default for warehouse request creation",
-    "Inbound Inventory Put-away will now be created when transfer route specifies direct transfer mode",
-    "Quality Management demo data updated to include semantic conditions on Coffee Defect and Coffee Uniformity tests in BEANS template",
-    "New regression test added to verify route-specific direct transfer posting with inbound Inventory Put-away",
-    "Changes only affect scenario where transfer route posting mode differs from Inventory Setup default"
+    "On release, direct transfer orders now use the posting mode from their transfer route instead of only the Inventory Setup default",
+    "When the route sets Direct Transfer, an inbound warehouse request is created, so an Inventory Put-away can be made at the destination",
+    "Quality Management BEANS demo data now gives the Coffee Defect and Coffee Uniformity tests their own conditions",
+    "New regression test covers route-specific direct transfer posting with an inbound Inventory Put-away",
+    "The transfer fix only matters when the route posting mode differs from Inventory Setup; the demo data change does not migrate existing Quality Test records"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -1,38 +1,30 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-skip-api-data-upgrade.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade",
-  "title": "Skip API data upgrade in cloud migration",
-  "blob": "e6299d6441dd5a0a7146dd85e2d9ebdbf4d8d517",
+  "title": "Skip API Data Upgrade During Cloud Migration",
+  "blob": "8612e881797507117fed5d11942752757e6d87cf",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "fact",
-      "text": "Long-running API data upgrades during cloud migration can be skipped per company and resumed after going live."
-    },
-    {
       "kind": "prerequisite",
-      "text": "Cloud migration setup and data replication must be completed before skipping API data upgrade."
-    },
-    {
-      "kind": "step",
-      "text": "Sign in to Business Central online and search for Cloud Migration Management page."
-    },
-    {
-      "kind": "step",
-      "text": "Select Manage API Upgrade action to open the API upgrade overview page."
-    },
-    {
-      "kind": "step",
-      "text": "Select company name, then select Disable API Data Upgrades on the API Data Upgrade List page."
+      "text": "Complete cloud migration setup and data replication before skipping API data upgrade."
     },
     {
       "kind": "fact",
-      "text": "SQL queries can disable API data upgrade for single company or all companies at once."
+      "text": "Skipping API data upgrade done on per-company basis; affected API entities unavailable until upgrade completed."
     },
     {
-      "kind": "fact",
-      "text": "After going live, run the API data upgrade separately by following the Run API data upgrade process."
+      "kind": "step",
+      "text": "Open Cloud Migration Management, select Manage API Upgrade, select company, open API Data Upgrade List in new tab, select Disable API Data Upgrades."
+    },
+    {
+      "kind": "step",
+      "text": "From on-premises upgrade, run SQL query inserting disable tag into Upgrade Tags table for single or all companies."
+    },
+    {
+      "kind": "step",
+      "text": "After going live, run API data upgrade by opening API Data Upgrade List, resetting entities with status, selecting entries, scheduling upgrades."
     }
   ],
   "dropped": 0,
@@ -40,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007119,
-      "pages_in_call": 7
+      "cost_usd": 0.004616,
+      "pages_in_call": 12
     }
   ]
 }
