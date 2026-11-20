@@ -41,8 +41,9 @@ import { countryBlock, memberAnswer, parseAnchor, replacedInLine, type DiffObjec
 import { DEFAULT_BUDGET, anchorView, budgetOf, pageView, type ViewArgs } from "./sections.js";
 import { brief } from "./brief.js";
 import { createTelemetry, type Client, type Outcome, type ToolCall } from "./telemetry.js";
+import { cachePath, sweepCache, writeCached } from "./cache.js";
 
-const VERSION = "0.15.0";
+const VERSION = "0.15.1";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
 /** D110: the Application Insights connection string, set by esbuild define in publish-mcp; tsx runs have none. */
@@ -116,12 +117,14 @@ let dataDate: string | null = null, newestItem: string | null = null;
 /** The major the symbols index (and with it the country diffs of D95) is built for. */
 let symbolsMajor: string | null = null;
 
+/** The name a shard has in the cache folder; the sweep keeps exactly the names the manifests give. */
+const cacheName = (sha: string) => `${sha}.json`;
 /** A shard by its sha256: cached on disk, downloaded only when the manifest names a new hash. */
 async function shard(file: string, sha: string): Promise<string> {
-  const cached = join(cacheDir, `${sha}.json`);
-  if (!LOCAL && existsSync(cached)) return readFileSync(cached, "utf8");
+  const cached = LOCAL ? null : cachePath(cacheDir, sha);
+  if (cached && existsSync(cached)) return readFileSync(cached, "utf8");
   const text = await dataFile(`index/${file}`);
-  if (!LOCAL) writeFileSync(cached, text);
+  if (cached) writeCached(cached, text);
   return text;
 }
 /** D106: the Learn key facts file the index manifest names, read on the first brief. */
@@ -142,8 +145,14 @@ async function loadIndex(): Promise<void> {
   if (index && Date.now() - loadedAt < DAY) return;
   const manifest = JSON.parse(await dataFile("index/index-manifest.json")) as IndexManifest;
   const all: PageRecord[] = [];
-  if (!LOCAL) mkdirSync(cacheDir, { recursive: true });
-  for (const s of manifest.shards) all.push(...(JSON.parse(await shard(s.file, s.sha256)) as PageRecord[]));
+  if (!LOCAL) { try { mkdirSync(cacheDir, { recursive: true }); } catch { /* no cache folder: every shard is downloaded */ } }
+  // every cache file this load's manifests name, and whether all of it loaded: the sweep at the end keeps the first
+  // and deletes only after the second
+  const named = new Set<string>();
+  let complete = true;
+  const use = (file: string, key: string) => { named.add(cacheName(key)); return shard(file, key); };
+  if (manifest.learn_facts) named.add(cacheName(manifest.learn_facts.sha256)); // read later, on the first brief
+  for (const s of manifest.shards) all.push(...(JSON.parse(await use(s.file, s.sha256)) as PageRecord[]));
   pages = all;
   const today = new Date().toISOString().slice(0, 10);
   newestItem = all.reduce<string | null>((d, p) => (p.date && NEWS_TYPES.has(p.type) && p.date <= today && (!d || p.date > d) ? p.date.slice(0, 10) : d), null);
@@ -153,18 +162,18 @@ async function loadIndex(): Promise<void> {
   const idx = prepare(all.map(pageToRecord));
   // D94: the Learn articles, searchable but not pages here (ls, whats_new and the meaning ranking read `pages` only)
   if (manifest.learn) {
-    try { prepare(learnRecords(JSON.parse(await shard(manifest.learn.file, manifest.learn.sha256)) as LearnShard).map(pageToRecord), idx); } catch { /* the pages still search */ }
+    try { prepare(learnRecords(JSON.parse(await use(manifest.learn.file, manifest.learn.sha256)) as LearnShard).map(pageToRecord), idx); } catch { complete = false; /* the pages still search */ }
   }
   // the symbols index (D86 4.4): fields, events, global procedures and enum values, under their objects' records
   let sm: SymbolsManifest | null = null;
-  try { sm = JSON.parse(await dataFile("index/symbols-manifest.json")) as SymbolsManifest; } catch { sm = null; }
+  try { sm = JSON.parse(await dataFile("index/symbols-manifest.json")) as SymbolsManifest; } catch (e) { sm = null; complete = /^HTTP 404 /.test(errorText(e)) && complete; /* a site without a symbols index is whole without it */ }
   symbolsMajor = sm?.major ?? null;
   if (sm) {
     const byPath = new Map(idx.records.map((r) => [r.id, r]));
     for (const [k, e] of Object.entries(sm.kinds) as [SymbolShard, SymbolsManifest["kinds"][SymbolShard]][]) {
       const files = e.files ?? (e.file ? [e.file] : []);
       for (const f of files) {
-        const doc = JSON.parse(await shard(f, files.length === 1 ? e.sha256 : `${e.sha256}-${f}`)) as { rows: unknown[][] };
+        const doc = JSON.parse(await use(f, files.length === 1 ? e.sha256 : `${e.sha256}-${f}`)) as { rows: unknown[][] };
         prepare(symbolRecords(KIND_OF[k], doc.rows, (pk) => byPath.get(`objects/${pk}`)), idx);
       }
     }
@@ -173,6 +182,9 @@ async function loadIndex(): Promise<void> {
   catalogue = new Set(idx.records.map((r) => r.id));
   loadedAt = Date.now();
   countryDiffs.clear();
+  // the cache's housekeeping, after everything above succeeded: a load that threw never gets here, and one that
+  // lost its Learn shard, or could not reach the symbols manifest, marks its files but deletes nothing
+  if (!LOCAL) sweepCache(cacheDir, named, complete);
 }
 interface SymbolsManifest { major: string; commit?: string; built_at?: string; kinds: Record<SymbolShard, { file?: string; files?: string[]; sha256: string; count: number }> }
 

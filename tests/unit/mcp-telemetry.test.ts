@@ -5,6 +5,10 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { createTelemetry, envelope, parseConnection, resourceEnvelope, telemetryEnabled, type ToolCall } from "../../packages/mcp/src/telemetry.js";
 
+// before the first import of server.js, which reads it once: an empty checkout, so stamp() gives "" and no test here
+// reaches the site or the user's own cache folder
+process.env.BC_OBSERVATORY_LOCAL = mkdtempSync(join(tmpdir(), "bcobs-telemetry-"));
+
 const root = new URL("../../", import.meta.url);
 const read = (p: string) => readFileSync(new URL(p, root), "utf8");
 const IKEY = "00000000-0000-0000-0000-000000000000";
@@ -135,7 +139,6 @@ test("D110 test 6: a failing, throwing or hanging fetch never reaches the caller
 });
 
 test("D110 test 7: answer records ok, nomatch, notfound and error, and the answer text does not change", async () => {
-  process.env.BC_OBSERVATORY_LOCAL = mkdtempSync(join(tmpdir(), "bcobs-telemetry-")); // empty: stamp() gives "", no network
   const { answer, NO_MATCH } = await import("../../packages/mcp/src/server.js");
   const seen: ToolCall[] = [];
   const track = (c: ToolCall) => { seen.push(c); };
