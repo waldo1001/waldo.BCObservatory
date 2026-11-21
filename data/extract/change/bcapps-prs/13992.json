@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13992",
+  "number": 13992,
+  "title": "[29.x]-Bug 658942: [Expense Agent] Limited self-approval cannot be combined with escalation to an unlimited approver",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Limited self-approval now works correctly with escalation to unlimited approvers in expense report approval workflow.",
+  "key_points": [
+    "Fixed approval management to handle limited self-approval combined with escalation scenarios",
+    "Enhanced interim approval test coverage with 367 new lines of test code",
+    "Properly processes approval chains where limited approvers escalate to unlimited approvers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003746,
+    "changes_in_call": 6
+  }
+}

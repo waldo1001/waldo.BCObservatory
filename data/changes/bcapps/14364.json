@@ -1,0 +1,101 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14364,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14364",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-20T22:43:24Z",
+  "merge_commit_sha": "f6906bbe2a80101684e930f7b09550e7f6eaaec9",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[main] Align G/L Register Posting Date with released schema",
+  "body_hash": "3a9f2f9f20d74e9249bb0e73b7fb8c1d9801f4c0113ee84f2222ded26dd1ea72",
+  "fixes_issues": [],
+  "work_items": [
+    655905
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Ledger/GLRegister.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Ledger/GLRegister.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Ledger/GLRegister.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 14,
+    "deletions": 4,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Ledger/GLRegister.Table.al",
+        "status": "modified",
+        "key": "table/45",
+        "type": "table",
+        "id": 45,
+        "name": "G/L Register",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/45"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Ledger/GLRegister.Table.al",
+        "status": "modified",
+        "key": "table/45",
+        "type": "table",
+        "id": 45,
+        "name": "G/L Register",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/45"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Ledger/GLRegister.Table.al",
+        "status": "modified",
+        "key": "table/45",
+        "type": "table",
+        "id": 45,
+        "name": "G/L Register",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/45"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

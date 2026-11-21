@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/14133",
+  "number": 14133,
+  "title": "[29x] Total Number of Supplies has incorrect type and tooltip in the VAT Report page of the German version",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Total Number of Supplies field in German VAT Report now has correct data type and tooltip.",
+  "key_points": [
+    "Corrected field type for Total Number of Supplies in German localization",
+    "Updated tooltip to accurately describe the field",
+    "Ensures consistency between table definition and page display"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003746,
+    "changes_in_call": 6
+  }
+}

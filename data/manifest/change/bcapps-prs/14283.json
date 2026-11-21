@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14283",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Sales or purchase order with 100% prepayment: Prepmt. Line Amount drifts below Prepmt. Amt. Inv. after partial invoices, so the order can't be released or posted",
+  "url": "https://github.com/microsoft/BCApps/pull/14283",
+  "published_at": "2026-11-20T14:44:09Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-21T00:15:56.434Z"
+    }
+  },
+  "input_hash": "3638f623ff090f908023bb06a6a3ff3c92c70caf:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14283,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3638f623ff090f908023bb06a6a3ff3c92c70caf",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master sales or purchase order with 100 prepayment prepmt line amount drifts below prepmt amt inv after partial invoices so the order can t be released or posted"
+  }
+}

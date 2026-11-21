@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/13102",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Create putaway template bin validation",
+  "url": "https://github.com/microsoft/BCApps/pull/13102",
+  "published_at": "2026-11-20T13:02:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-21T00:15:56.434Z"
+    }
+  },
+  "input_hash": "28877c3721c9874723bfda1a54786bf77bcd5755:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13102,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "28877c3721c9874723bfda1a54786bf77bcd5755",
+    "author": "CrematoRina",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "create putaway template bin validation"
+  }
+}

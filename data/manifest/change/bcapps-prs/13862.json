@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/13862",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages.",
+  "url": "https://github.com/microsoft/BCApps/pull/13862",
+  "published_at": "2026-11-20T15:07:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-21T00:15:56.434Z"
+    }
+  },
+  "input_hash": "8045eb41f04270af18ffd0621d55c52077c29356:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13862,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "8045eb41f04270af18ffd0621d55c52077c29356",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "serial numbers selected on assembly order component lines are deleted when running calculate regenerative plan without carrying out action messages"
+  }
+}

@@ -6,7 +6,7 @@
   "title": "[main] Bug 592028 Retention policy fails: Bin Mandatory must be equal to 'No' in Location. Current value is 'Yes'.",
   "url": "https://github.com/microsoft/BCApps/pull/13201",
   "published_at": "2026-11-19T10:00:59Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 3,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-21T00:17:56.190Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003746
+    },
+    "linked": {
+      "at": "2026-11-21T00:17:56.452Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-21T00:17:56.455Z",
+      "path": "content/changes/bcapps/13201.md"
     }
   },
   "input_hash": "0cf4fff09bc80396d24e161a1a156710ad08d6a9:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7d83bb8d69945af18b6890af3163c567b8e522eac1e07ab7e81338e850586c09"
+  "output_hash": "ff15ece3c2c52a0627a7fcea05a6a44f632f2e4d86e9e2750f52d521b0f4a260"
 }

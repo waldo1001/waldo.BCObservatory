@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14281",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix manufacturing enum fallback in item journals",
+  "url": "https://github.com/microsoft/BCApps/pull/14281",
+  "published_at": "2026-11-20T13:04:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-21T00:15:56.434Z"
+    }
+  },
+  "input_hash": "2b8aedfc1020dc8b52db0b206a448d7607ff6e06:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14281,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2b8aedfc1020dc8b52db0b206a448d7607ff6e06",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix manufacturing enum fallback in item journals"
+  }
+}

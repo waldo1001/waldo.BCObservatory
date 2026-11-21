@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14364",
+  "number": 14364,
+  "title": "[main] Align G/L Register Posting Date with released schema",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The G/L Register table schema in W1 is updated to match the released 29.x version by adding field 10700 'Posting Date' with a secondary key, resolving AppSourceCop validation issues.",
+  "key_points": [
+    "Adds field 10700 'Posting Date' (Date type with ClosingDates) to W1's G/L Register table",
+    "Creates a secondary key matching the released schema to align with baseline 29.2.58359.0",
+    "Preserves ES's existing active Posting Date functionality and APAC's WHT fields",
+    "No field population or backfill occurs; the change only adds the schema definition",
+    "Resolves AppSourceCop AS0002 validation error without schema deletions or obsoletion"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Align main with released 29.x G/L Register schema to address AppSourceCop AS0002.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004003,
+    "changes_in_call": 1
+  }
+}

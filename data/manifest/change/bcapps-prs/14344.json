@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/14344",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Keep setup buffer current after instruction sync (AB#660003)",
+  "url": "https://github.com/microsoft/BCApps/pull/14344",
+  "published_at": "2026-11-20T22:14:29Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-21T00:15:56.434Z"
+    },
+    "fetched": {
+      "at": "2026-11-21T00:17:52.261Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-21T00:18:10.218Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.004466
+    },
+    "linked": {
+      "at": "2026-11-21T00:18:10.326Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-21T00:18:10.330Z",
+      "path": "content/changes/bcapps/14344.md"
+    }
+  },
+  "input_hash": "fb64c131932c9383956cd9176d74bbaa98a4284e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14344,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "fb64c131932c9383956cd9176d74bbaa98a4284e",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa keep setup buffer current after instruction sync ab 660003"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ea0087252bb8f957e9106f14f81a842d6bab143181deab78701c528cfdedfc12"
+}

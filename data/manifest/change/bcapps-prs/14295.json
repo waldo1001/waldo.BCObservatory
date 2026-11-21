@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/14295",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] Expense Management: make core expense business objects public",
+  "url": "https://github.com/microsoft/BCApps/pull/14295",
+  "published_at": "2026-11-20T22:56:21Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-21T00:15:56.434Z"
+    },
+    "fetched": {
+      "at": "2026-11-21T00:17:33.620Z",
+      "change_class": "code",
+      "files": 59,
+      "al": 59,
+      "objects": 59,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-21T00:17:53.978Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.006886
+    },
+    "linked": {
+      "at": "2026-11-21T00:17:54.096Z",
+      "objects": 59,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-21T00:17:54.187Z",
+      "path": "content/changes/bcapps/14295.md"
+    }
+  },
+  "input_hash": "e7f605a3d100fcae1e5ebc6e55597f814125d36b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14295,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e7f605a3d100fcae1e5ebc6e55597f814125d36b",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense management make core expense business objects public"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "edea81abbc8879b4732f86db653e5eb9f4597fa5304b82a813324606c84f8d92"
+}

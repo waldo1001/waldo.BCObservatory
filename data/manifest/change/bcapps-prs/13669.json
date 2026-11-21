@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13669",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure. - Copy",
+  "url": "https://github.com/microsoft/BCApps/pull/13669",
+  "published_at": "2026-11-20T16:37:38Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-21T00:15:56.434Z"
+    },
+    "fetched": {
+      "at": "2026-11-21T00:17:55.673Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-21T00:18:10.039Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00304
+    },
+    "linked": {
+      "at": "2026-11-21T00:18:10.206Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-21T00:18:10.210Z",
+      "path": "content/changes/bcapps/13669.md"
+    }
+  },
+  "input_hash": "22c31cd425be9764fc792bb7a4dac4fbb96bdb3b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13669,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "22c31cd425be9764fc792bb7a4dac4fbb96bdb3b",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master reverse production entry fails when production output is posted using a non base unit of measure copy"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a0735b43862a2174b03131760db18e3712301992a637039af7b47304623b2d08"
+}

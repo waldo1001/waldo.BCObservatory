@@ -1,0 +1,1268 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14335,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14335",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-20T22:56:24Z",
+  "merge_commit_sha": "15010bc8a38d674d52a5c5b950641da891bcbaf2",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main] Expense Management: make Expense Management Setup public; keep agent and corporate card surface internal",
+  "body_hash": "a0eb00f6004644b889158802d6f641cd906e7686b62f6fde6c2964143bd76532",
+  "fixes_issues": [],
+  "work_items": [
+    659839
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpFullPerDiemCalculation.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpReportCommentDocType.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseAttachmentEnforcement.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseDetailNeeded.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseExchangeRate.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseJustification.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseLineType.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpensePartialDayRules.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseParticipantType.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseReimbursementType.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseReportStatus.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseRuleConditionType.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseStatus.Enum.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpDocumentAttachmentExt.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Enums/EACorpCardMatchType.Enum.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Enums/EACorpCardSettleStatus.Enum.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Enums/EACorpCardStmtStatus.Enum.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Enums/EACorpCardTransStatus.Enum.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Extensions/EABankAccLedgerEntry.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Extensions/EABankAccRecLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Extensions/EABankAccountStmtLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Extensions/EAGenJournalLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Interfaces/EACorpCardProvider.Interface.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Tables/EACorpCardStatement.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Codeunits/ReleaseExpenseDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/Expense.Table.al",
+      "status": "modified",
+      "additions": 78,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpenseItemization.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpenseParticipant.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpensePerDiem.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpenseRuleViolation.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpenseVATSpecification.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ReleaseExpReportDocument.Codeunit.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportCommentLine.Table.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportHeader.Table.al",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 21,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLine.Table.al",
+      "status": "modified",
+      "additions": 80,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLineItem.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLineParticip.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLinePerDiem.Table.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLineVATSpec.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportRuleViolation.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpRepLineItem.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpRepLineParticip.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpRepLinePerDiem.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpRepLineVATSpec.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportHeader.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportLine.Table.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Ledger/ExpenseLedgerEntry.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseCategory.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseLocation.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpensePostingGroup.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseRuleCondition.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseRuleHeader.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseSubcategory.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseUser.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseVehicleType.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/MileageRateSetup.Table.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseAgentPrivacySubs.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpensePerDiemCalculation.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Tables/ExpenseAgentSetup.Table.al",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Travel Request/Tables/Traveler.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/ReleaseSpendRequest.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendReqToGLLinkPreview.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequest.Table.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestCard.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestDetail.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestDocument.Report.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestList.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestSubform.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestToGLLink.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestToGLLink.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 71,
+    "additions": 581,
+    "deletions": 114,
+    "al": 71
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpFullPerDiemCalculation.Enum.al",
+        "status": "modified",
+        "key": "enum/6913",
+        "type": "enum",
+        "id": 6913,
+        "name": "Exp. Full Per Diem Calculation",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6913"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpReportCommentDocType.Enum.al",
+        "status": "modified",
+        "key": "enum/6920",
+        "type": "enum",
+        "id": 6920,
+        "name": "Exp. Report Comment Doc. Type",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6920"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseAttachmentEnforcement.Enum.al",
+        "status": "modified",
+        "key": "enum/6914",
+        "type": "enum",
+        "id": 6914,
+        "name": "Expense Attachment Enforcement",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6914"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseDetailNeeded.Enum.al",
+        "status": "modified",
+        "key": "enum/6905",
+        "type": "enum",
+        "id": 6905,
+        "name": "Expense Detail Needed",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6905"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseExchangeRate.Enum.al",
+        "status": "modified",
+        "key": "enum/6904",
+        "type": "enum",
+        "id": 6904,
+        "name": "Expense Exchange Rate",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6904"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseJustification.Enum.al",
+        "status": "modified",
+        "key": "enum/6908",
+        "type": "enum",
+        "id": 6908,
+        "name": "Expense Justification",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6908"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseLineType.Enum.al",
+        "status": "modified",
+        "key": "enum/6978",
+        "type": "enum",
+        "id": 6978,
+        "name": "Expense Line Type",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6978"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpensePartialDayRules.Enum.al",
+        "status": "modified",
+        "key": "enum/6915",
+        "type": "enum",
+        "id": 6915,
+        "name": "Expense Partial Day Rules",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6915"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseParticipantType.Enum.al",
+        "status": "modified",
+        "key": "enum/6986",
+        "type": "enum",
+        "id": 6986,
+        "name": "Expense Participant Type",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6986"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseReimbursementType.Enum.al",
+        "status": "modified",
+        "key": "enum/6912",
+        "type": "enum",
+        "id": 6912,
+        "name": "Expense Reimbursement Type",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6912"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseReportStatus.Enum.al",
+        "status": "modified",
+        "key": "enum/6910",
+        "type": "enum",
+        "id": 6910,
+        "name": "Expense Report Status",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6910"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseRuleConditionType.Enum.al",
+        "status": "modified",
+        "key": "enum/6911",
+        "type": "enum",
+        "id": 6911,
+        "name": "Expense Rule Condition Type",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6911"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Enums/ExpenseStatus.Enum.al",
+        "status": "modified",
+        "key": "enum/6907",
+        "type": "enum",
+        "id": 6907,
+        "name": "Expense Status",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "enum/6907"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpDocumentAttachmentExt.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6902",
+        "type": "tableextension",
+        "id": 6902,
+        "name": "Exp. Document Attachment Ext",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "tableextension/6902"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Codeunits/ReleaseExpenseDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6980",
+        "type": "codeunit",
+        "id": 6980,
+        "name": "Release Expense Document",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6980"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/Expense.Table.al",
+        "status": "modified",
+        "key": "table/6900",
+        "type": "table",
+        "id": 6900,
+        "name": "Expense",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6900"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpenseItemization.Table.al",
+        "status": "modified",
+        "key": "table/6902",
+        "type": "table",
+        "id": 6902,
+        "name": "Expense Itemization",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6902"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpenseParticipant.Table.al",
+        "status": "modified",
+        "key": "table/6904",
+        "type": "table",
+        "id": 6904,
+        "name": "Expense Participant",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6904"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpensePerDiem.Table.al",
+        "status": "modified",
+        "key": "table/6905",
+        "type": "table",
+        "id": 6905,
+        "name": "Expense Per Diem",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6905"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpenseRuleViolation.Table.al",
+        "status": "modified",
+        "key": "table/6903",
+        "type": "table",
+        "id": 6903,
+        "name": "Expense Rule Violation",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6903"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpenseVATSpecification.Table.al",
+        "status": "modified",
+        "key": "table/6918",
+        "type": "table",
+        "id": 6918,
+        "name": "Expense VAT Specification",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6918"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ExpenseReportPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6987",
+        "type": "codeunit",
+        "id": 6987,
+        "name": "Expense Report-Post",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6987"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Codeunits/ReleaseExpReportDocument.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6984",
+        "type": "codeunit",
+        "id": 6984,
+        "name": "Release Exp. Report Document",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6984"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportCommentLine.Table.al",
+        "status": "modified",
+        "key": "table/6901",
+        "type": "table",
+        "id": 6901,
+        "name": "Expense Report Comment Line",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6901"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportHeader.Table.al",
+        "status": "modified",
+        "key": "table/6906",
+        "type": "table",
+        "id": 6906,
+        "name": "Expense Report Header",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6906"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLine.Table.al",
+        "status": "modified",
+        "key": "table/6907",
+        "type": "table",
+        "id": 6907,
+        "name": "Expense Report Line",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6907"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLineItem.Table.al",
+        "status": "modified",
+        "key": "table/6911",
+        "type": "table",
+        "id": 6911,
+        "name": "Expense Report Line Item",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6911"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLineParticip.Table.al",
+        "status": "modified",
+        "key": "table/6908",
+        "type": "table",
+        "id": 6908,
+        "name": "Expense Report Line Particip.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6908"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLinePerDiem.Table.al",
+        "status": "modified",
+        "key": "table/6909",
+        "type": "table",
+        "id": 6909,
+        "name": "Expense Report Line Per Diem",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6909"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportLineVATSpec.Table.al",
+        "status": "modified",
+        "key": "table/6922",
+        "type": "table",
+        "id": 6922,
+        "name": "Expense Report Line VAT Spec.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6922"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/ExpenseReportRuleViolation.Table.al",
+        "status": "modified",
+        "key": "table/6910",
+        "type": "table",
+        "id": 6910,
+        "name": "Expense Report Rule Violation",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6910"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpRepLineItem.Table.al",
+        "status": "modified",
+        "key": "table/6919",
+        "type": "table",
+        "id": 6919,
+        "name": "Posted Exp. Rep. Line Item",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6919"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpRepLineParticip.Table.al",
+        "status": "modified",
+        "key": "table/6917",
+        "type": "table",
+        "id": 6917,
+        "name": "Posted Exp. Rep. Line Particip",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6917"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpRepLinePerDiem.Table.al",
+        "status": "modified",
+        "key": "table/6920",
+        "type": "table",
+        "id": 6920,
+        "name": "Posted Exp. Rep. Line Per Diem",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6920"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpRepLineVATSpec.Table.al",
+        "status": "modified",
+        "key": "table/6934",
+        "type": "table",
+        "id": 6934,
+        "name": "Posted Exp. Rep. Line VAT Spec",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6934"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportHeader.Table.al",
+        "status": "modified",
+        "key": "table/6915",
+        "type": "table",
+        "id": 6915,
+        "name": "Posted Expense Report Header",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6915"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/ExpenseReport/Tables/PostedExpenseReportLine.Table.al",
+        "status": "modified",
+        "key": "table/6916",
+        "type": "table",
+        "id": 6916,
+        "name": "Posted Expense Report Line",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6916"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Ledger/ExpenseLedgerEntry.Table.al",
+        "status": "modified",
+        "key": "table/6912",
+        "type": "table",
+        "id": 6912,
+        "name": "Expense Ledger Entry",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6912"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseCategory.Table.al",
+        "status": "modified",
+        "key": "table/6921",
+        "type": "table",
+        "id": 6921,
+        "name": "Expense Category",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6921"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseLocation.Table.al",
+        "status": "modified",
+        "key": "table/6925",
+        "type": "table",
+        "id": 6925,
+        "name": "Expense Location",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6925"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpensePostingGroup.Table.al",
+        "status": "modified",
+        "key": "table/6928",
+        "type": "table",
+        "id": 6928,
+        "name": "Expense Posting Group",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6928"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseRuleCondition.Table.al",
+        "status": "modified",
+        "key": "table/6926",
+        "type": "table",
+        "id": 6926,
+        "name": "Expense Rule Condition",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6926"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseRuleHeader.Table.al",
+        "status": "modified",
+        "key": "table/6927",
+        "type": "table",
+        "id": 6927,
+        "name": "Expense Rule Header",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6927"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseSubcategory.Table.al",
+        "status": "modified",
+        "key": "table/6929",
+        "type": "table",
+        "id": 6929,
+        "name": "Expense Subcategory",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6929"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseUser.Table.al",
+        "status": "modified",
+        "key": "table/6923",
+        "type": "table",
+        "id": 6923,
+        "name": "Expense User",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6923"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/ExpenseVehicleType.Table.al",
+        "status": "modified",
+        "key": "table/7108",
+        "type": "table",
+        "id": 7108,
+        "name": "Expense Vehicle Type",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/7108"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/MasterData/Tables/MileageRateSetup.Table.al",
+        "status": "modified",
+        "key": "table/6939",
+        "type": "table",
+        "id": 6939,
+        "name": "Mileage Rate Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6939"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpenseAgentPrivacySubs.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6950",
+        "type": "codeunit",
+        "id": 6950,
+        "name": "Expense Agent Privacy Subs.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6950"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Codeunits/ExpensePerDiemCalculation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6911",
+        "type": "codeunit",
+        "id": 6911,
+        "name": "Expense Per Diem Calculation",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6911"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Setup/Tables/ExpenseAgentSetup.Table.al",
+        "status": "modified",
+        "key": "table/6930",
+        "type": "table",
+        "id": 6930,
+        "name": "Expense Agent Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6930"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Travel Request/Tables/Traveler.Table.al",
+        "status": "modified",
+        "key": "table/6938",
+        "type": "table",
+        "id": 6938,
+        "name": "Traveler",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6938"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/ReleaseSpendRequest.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6840",
+        "type": "codeunit",
+        "id": 6840,
+        "name": "Release Spend Request",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6840"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendReqToGLLinkPreview.Page.al",
+        "status": "modified",
+        "key": "page/6844",
+        "type": "page",
+        "id": 6844,
+        "name": "Spend Req. To G/L Link Preview",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6844"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequest.Table.al",
+        "status": "modified",
+        "key": "table/6840",
+        "type": "table",
+        "id": 6840,
+        "name": "Spend Request",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6840"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestCard.Page.al",
+        "status": "modified",
+        "key": "page/6841",
+        "type": "page",
+        "id": 6841,
+        "name": "Spend Request Card",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6841"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestDetail.Table.al",
+        "status": "modified",
+        "key": "table/6841",
+        "type": "table",
+        "id": 6841,
+        "name": "Spend Request Detail",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6841"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestDocument.Report.al",
+        "status": "modified",
+        "key": "report/6850",
+        "type": "report",
+        "id": 6850,
+        "name": "Spend Request Document",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/6850"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestList.Page.al",
+        "status": "modified",
+        "key": "page/6840",
+        "type": "page",
+        "id": 6840,
+        "name": "Spend Request List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6840"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestSubform.Page.al",
+        "status": "modified",
+        "key": "page/6842",
+        "type": "page",
+        "id": 6842,
+        "name": "Spend Request Subform",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6842"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestToGLLink.Page.al",
+        "status": "modified",
+        "key": "page/6843",
+        "type": "page",
+        "id": 6843,
+        "name": "Spend Request To G/L Link",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/6843"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/SpendRequest/SpendRequestToGLLink.Table.al",
+        "status": "modified",
+        "key": "table/6845",
+        "type": "table",
+        "id": 6845,
+        "name": "Spend Request To G/L Link",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/6845"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Enums/EACorpCardMatchType.Enum.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Enums/EACorpCardSettleStatus.Enum.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Enums/EACorpCardStmtStatus.Enum.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Enums/EACorpCardTransStatus.Enum.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Extensions/EABankAccLedgerEntry.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Extensions/EABankAccRecLine.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Extensions/EABankAccountStmtLine.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Extensions/EAGenJournalLine.TableExt.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Interfaces/EACorpCardProvider.Interface.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/CorporateCard/Tables/EACorpCardStatement.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "copilot",
+    "finance"
+  ],
+  "apps": [
+    "Base Application",
+    "ExpenseAgent"
+  ]
+}

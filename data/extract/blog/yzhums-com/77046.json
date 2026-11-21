@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/yzhums-com/77046",
+  "url": "https://yzhums.com/77046/",
+  "title": "Dynamics 365 Business Central: How to easily check users and their licenses (User Details)",
+  "source": "yzhums-com",
+  "published_at": "2026-11-20T01:31:41.000Z",
+  "words": 238,
+  "summary": "User Details page provides a quick way to view all users and their assigned licenses in Business Central without needing to access the Users in Plans query or create customizations.",
+  "key_points": [
+    "Access User Details by opening the Users page and selecting User Identifier Overview",
+    "User Details page displays user name, authentication email, Entra Object ID, and assigned licenses",
+    "Replaces the need to use Users in Plans query or build custom list pages for license tracking",
+    "Provides centralized view of user licensing information in one convenient location"
+  ],
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "users",
+    "licenses",
+    "user management",
+    "permissions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "User Details"
+    },
+    {
+      "type": "query",
+      "name": "Users in Plans"
+    },
+    {
+      "type": "page",
+      "name": "Users"
+    }
+  ],
+  "features": [
+    "User Identifier Overview",
+    "User Details page",
+    "License assignment tracking",
+    "User information display"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Just open User Identifier Overview from the Users page.",
+      "why_it_matters": "Provides the direct navigation path to access the new user and license viewing capability without customization"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004775,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/14364",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] Align G/L Register Posting Date with released schema",
+  "url": "https://github.com/microsoft/BCApps/pull/14364",
+  "published_at": "2026-11-20T22:43:24Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-21T00:15:56.434Z"
+    },
+    "fetched": {
+      "at": "2026-11-21T00:17:50.515Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-21T00:17:55.226Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004003
+    },
+    "linked": {
+      "at": "2026-11-21T00:17:55.320Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-21T00:17:55.323Z",
+      "path": "content/changes/bcapps/14364.md"
+    }
+  },
+  "input_hash": "f6906bbe2a80101684e930f7b09550e7f6eaaec9:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14364,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f6906bbe2a80101684e930f7b09550e7f6eaaec9",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "align g l register posting date with released schema"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a358ae47b0a1e3a047f2de8419e49587b3eae0367534992448d0552b3b18fe5f"
+}

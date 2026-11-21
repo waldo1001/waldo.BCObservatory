@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/yzhums-com/74858",
+  "url": "https://yzhums.com/74858/",
+  "title": "Dynamics 365 Business Central: How to hide the header and footer on a worksheet page to display more lines",
+  "source": "yzhums-com",
+  "published_at": "2026-11-19T01:37:34.000Z",
+  "words": 632,
+  "summary": "Worksheet pages in Business Central can be extended to dynamically hide and show headers and footers, allowing users to view more journal lines. The post demonstrates using Boolean variables and page actions to toggle header and footer visibility, similar to how the Account Schedule page works.",
+  "key_points": [
+    "Worksheet pages display fewer lines than List pages because headers and footers consume space",
+    "Boolean variables control the visibility state of header and footer groups dynamically",
+    "Page actions with Visible properties allow users to toggle between Hide/Show states",
+    "The Account Schedule page serves as a standard reference implementation for this pattern"
+  ],
+  "systems": [
+    "development",
+    "finance"
+  ],
+  "topics": [
+    "page design",
+    "worksheet pages",
+    "ui customization",
+    "journal management",
+    "al extensions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journal"
+    },
+    {
+      "type": "page",
+      "name": "Account Schedule"
+    },
+    {
+      "type": "other",
+      "name": "GeneralJournalExt"
+    }
+  ],
+  "features": [
+    "Hide/Show header actions",
+    "Hide/Show footer actions",
+    "Dynamic visibility control",
+    "Page extension modification",
+    "Boolean state management",
+    "Journal line display optimization"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "There is actually a standard page we can use as a reference: Account Schedule (104, Worksheet).",
+      "why_it_matters": "Points developers to an existing pattern they can follow when implementing this feature"
+    },
+    {
+      "text": "Instead of permanently hiding the header and footer, we can dynamically control their visibility.",
+      "why_it_matters": "Clarifies the advantage of this approach - users retain flexibility rather than losing access to header/footer content"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.011898,
+    "posts_in_call": 1
+  }
+}

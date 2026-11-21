@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10295",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "#10288 - Always load attachments",
+  "url": "https://github.com/microsoft/BCApps/pull/10295",
+  "published_at": "2026-11-20T10:10:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-21T00:15:56.434Z"
+    }
+  },
+  "input_hash": "e98908c676e733b5519c84e3cb2eca62ae7aeb03:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10295,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e98908c676e733b5519c84e3cb2eca62ae7aeb03",
+    "author": "g-Bergsma",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "10288 always load attachments"
+  }
+}

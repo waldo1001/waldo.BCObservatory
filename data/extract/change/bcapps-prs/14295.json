@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/14295",
+  "number": 14295,
+  "title": "[Main] Expense Management: make core expense business objects public",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot",
+    "finance"
+  ],
+  "summary": "Expense Management core business objects are now publicly accessible for extensions to read, extend, release and post expenses, while keeping agent-specific and policy-related functionality internal.",
+  "key_points": [
+    "33 tables and 3 codeunits for expense and expense report operations made public with object-level access changed",
+    "9 status and type enums published to support public table usage",
+    "Agent service, approval lifecycle, policy evaluation, corporate card feed and AI-derived data remain internal",
+    "All public procedures documented with XML comments following System Application standards",
+    "Field-level access restrictions applied to credit card, extraction confidence, policy evaluation and approver fields"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006886,
+    "changes_in_call": 3
+  }
+}

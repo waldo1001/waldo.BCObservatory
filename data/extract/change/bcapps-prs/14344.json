@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14344",
+  "number": 14344,
+  "title": "[SOA] Keep setup buffer current after instruction sync (AB#660003)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The SOA Setup timestamp helper now saves through the caller's buffer instead of a separate record, ensuring the row version stays current and preventing stale-record errors during scheduling.",
+  "key_points": [
+    "Fixed stale-record error 85132286 that could occur when ScheduleSOAgent tried to modify an outdated SOA Setup record",
+    "Timestamp helper now persists to the existing caller's buffer instead of a separate CurrentSOASetup record",
+    "Prevents the caller's row version from becoming stale after instruction sync updates",
+    "Maintains optimistic concurrency and avoids unnecessary reloads of pending values",
+    "Preserves existing behavior for missing-record checks, scheduling logic, and 30-minute refresh intervals"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004466,
+    "changes_in_call": 1
+  }
+}

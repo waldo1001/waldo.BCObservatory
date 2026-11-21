@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/14148",
+  "number": 14148,
+  "title": "Only skip draft preparation for the Payables Agent's own e-documents with agent-driven line matching",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Draft preparation skip now applies only to the Payables Agent's own e-documents when agent-driven line matching is enabled, restoring normal preparation for other e-document services.",
+  "key_points": [
+    "Narrowed draft preparation skip condition to check both experiment enablement and e-document service being the agent's AGENT service",
+    "Prevents vendor, purchase order, line matching and VAT posting group information loss for PEPPOL and other service e-documents",
+    "Maintains agent's internal draft preparation workflow without affecting other providers",
+    "Experiment behavior preserved; no changes when feature experiment is disabled",
+    "Service code duplicated as label to avoid cross-app dependency"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "copilot",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006886,
+    "changes_in_call": 3
+  }
+}

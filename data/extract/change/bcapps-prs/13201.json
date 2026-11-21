@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13201",
+  "number": 13201,
+  "title": "[main] Bug 592028 Retention policy fails: Bin Mandatory must be equal to 'No' in Location. Current value is 'Yes'.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse",
+    "administration"
+  ],
+  "summary": "Retention policy now works correctly with posted inventory documents by adding a FlowField for Bin Mandatory and proper table filters to prevent validation failures.",
+  "key_points": [
+    "Added FlowField for Bin Mandatory to Posted Invt. Pick Header and Posted Invt. Put-away Header tables",
+    "Registered default table filters similar to Posted Warehouse Receipt Header to allow retention policy deletion",
+    "Prevents CheckLocation validation error when retention engine deletes headers with OnDelete trigger",
+    "Comprehensive test coverage added for retention policy upgrade scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003746,
+    "changes_in_call": 6
+  }
+}

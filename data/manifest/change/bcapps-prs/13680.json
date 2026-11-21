@@ -1,0 +1,37 @@
+{
+  "id": "change/bcapps-prs/13680",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Excel Reports] Handle an apostrophe in the No. on the Vendor and Customer Top List",
+  "url": "https://github.com/microsoft/BCApps/pull/13680",
+  "published_at": "2026-11-20T09:19:56Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-21T00:15:56.434Z"
+    }
+  },
+  "input_hash": "7fd9ac519c26ac75653c3795fe54380b3cff4341:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13680,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7fd9ac519c26ac75653c3795fe54380b3cff4341",
+    "author": "Franco111000",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Ownership: Manual",
+      "Ownership: Needs Review",
+      "SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "excel reports handle an apostrophe in the no on the vendor and customer top list"
+  }
+}

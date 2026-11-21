@@ -1,0 +1,43 @@
+{
+  "id": "change/bcapps-prs/14373",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MAIN] Subcontracting Receipt Extensibility Events.",
+  "url": "https://github.com/microsoft/BCApps/pull/14373",
+  "published_at": "2026-11-20T16:15:15Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-21T00:15:56.434Z"
+    },
+    "fetched": {
+      "at": "2026-11-21T00:18:10.442Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "2261a28d72ab6b7bc7f6db180d2bc46f5de30e41:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14373,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2261a28d72ab6b7bc7f6db180d2bc46f5de30e41",
+    "author": "v-ajaztabrez",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "subcontracting receipt extensibility events"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2a130cf809c498386d627cf2d56b93372802fc6190e05c529ad400a0c42c38d9"
+}

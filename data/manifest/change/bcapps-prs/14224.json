@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/14224",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix duplicate expense vendor numbers during receipt submission",
+  "url": "https://github.com/microsoft/BCApps/pull/14224",
+  "published_at": "2026-11-20T13:09:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-21T00:15:56.434Z"
+    }
+  },
+  "input_hash": "845308af5bac808b0bd03f3a22ca63549001a2b6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14224,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "845308af5bac808b0bd03f3a22ca63549001a2b6",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "fix duplicate expense vendor numbers during receipt submission"
+  }
+}

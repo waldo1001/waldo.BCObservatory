@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13503",
+  "number": 13503,
+  "title": "[Main]-Prepayment amounts are incorrectly recalculated in statistics after partial posting when Prepmt. Amt. to Deduct Excl. VAT is manually adjusted",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed prepayment amount recalculation in sales line statistics that was causing incorrect amounts after partial posting when prepayment deduction exceeded the invoiced amount.",
+  "key_points": [
+    "Added CapPrepmtLineAmountAfterOverDeduction procedure to constrain recalculated prepayment line amount when deduction exceeds both invoiced and proportional amounts",
+    "Prevents posting failures with 'prepayment invoices not posted' error when prepayment line amount became inconsistent",
+    "Stabilizes statistics values across multiple opens and closes of the statistics page",
+    "Change applied across W1 and 11 localization layers with regression tests added",
+    "Triggered by ReleaseSalesDocument VAT recalculation flow during partial posting"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "quote": "Prepayment amounts are incorrectly recalculated in statistics after partial posting when Prepmt. Amt. to Deduct Excl. VAT is manually adjusted.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006886,
+    "changes_in_call": 3
+  }
+}

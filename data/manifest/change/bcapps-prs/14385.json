@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/14385",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 659561: [master][NAV] Track failed BCApps validation (AUTODETECTED)",
+  "url": "https://github.com/microsoft/BCApps/pull/14385",
+  "published_at": "2026-11-20T23:44:19Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-21T00:15:56.434Z"
+    }
+  },
+  "input_hash": "941293a6c19f03a1735de588ca74eca3384aa731:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14385,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "941293a6c19f03a1735de588ca74eca3384aa731",
+    "author": "AleksanderGladkov",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 659561 master nav track failed bcapps validation autodetected"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-11-21T00:17:32.573Z",
+  "retry_after": null
+}

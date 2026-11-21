@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/14335",
+  "number": 14335,
+  "title": "[Main] Expense Management: make Expense Management Setup public; keep agent and corporate card surface internal",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot",
+    "finance"
+  ],
+  "summary": "Expense Management Setup table is now public for extensions to read and modify expense management settings, while agent-specific and corporate card fields remain internal.",
+  "key_points": [
+    "Expense Management Setup table made public for accessing and maintaining company-wide expense settings",
+    "Agent-specific fields (Enable Agent, User Security ID, communication, notifications) marked as internal",
+    "Corporate card surface made internal as the feed is not yet mature for partner contracts",
+    "Three public enums (Expense Exchange Rate, Full Per Diem Calculation, Partial Day Rules) marked non-extensible",
+    "Extensions can read default-setup flags to avoid overwriting their own setup data"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003746,
+    "changes_in_call": 6
+  }
+}

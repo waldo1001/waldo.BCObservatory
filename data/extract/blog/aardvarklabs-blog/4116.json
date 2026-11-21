@@ -1,0 +1,86 @@
+{
+  "item_id": "blog/aardvarklabs-blog/4116",
+  "url": "https://aardvarklabs.blog/2026/11/20/business-central-v29-using-al-interfaces-with-default-method-support/",
+  "title": "Business Central v29: Using AL Interfaces with Default Method Support",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-11-20T13:00:00.000Z",
+  "words": 1786,
+  "summary": "Business Central 29.0 introduces default interface methods in AL, allowing interfaces to provide complete procedure implementations that codeunits may override while maintaining backward compatibility. This feature reduces duplicate code and lets developers evolve interfaces without breaking existing implementations.",
+  "key_points": [
+    "Default interface methods let interfaces provide full implementations that codeunits can override or inherit automatically",
+    "Abstract methods still require implementation in codeunits; default methods do not",
+    "Adding new procedures as defaults first, then marking them as RequiredPending, allows gradual migration to mandatory procedures without breaking existing code",
+    "Interface references must be used to access default implementations, not direct codeunit references",
+    "Default methods improve AI code generation by providing strict contracts that eliminate ambiguity"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al interfaces",
+    "default methods",
+    "code generation",
+    "backward compatibility",
+    "modular design",
+    "architecture"
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "ARD_DinnerGuest"
+    },
+    {
+      "type": "codeunit",
+      "name": "ARD_AmericanGuest"
+    },
+    {
+      "type": "codeunit",
+      "name": "ARD_CanadianGuest"
+    },
+    {
+      "type": "page",
+      "name": "ARD_DinnerGuestExample"
+    },
+    {
+      "type": "interface",
+      "name": "ARD_BillPayment"
+    }
+  ],
+  "features": [
+    "Default Interface Methods",
+    "Abstract Methods",
+    "Interface Implementation",
+    "RequiredPending Attribute",
+    "Method Override",
+    "AL Code Generation",
+    "Backward Compatibility"
+  ],
+  "versions": [
+    "29.0",
+    "2026 Wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "A default method lets the interface provide a full implementation that codeunits may override if needed.",
+      "why_it_matters": "This is the core capability that solves the problem of adding functionality to interfaces without breaking existing implementations"
+    },
+    {
+      "text": "To access default implementations, you must call the interface variable not the code unit directly.",
+      "why_it_matters": "Understanding this distinction is critical for developers to correctly implement the feature; calling the wrong reference type will cause compilation errors"
+    },
+    {
+      "text": "Default Interface Methods make interfaces far more flexible and reduce the risk of breaking existing implementations when requirements evolve.",
+      "why_it_matters": "This summarizes the main business value of the feature for maintaining stable systems while evolving architecture"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.015336,
+    "posts_in_call": 1
+  }
+}

@@ -6,7 +6,7 @@
   "title": "[29x]-Bug 658773: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)",
   "url": "https://github.com/microsoft/BCApps/pull/13925",
   "published_at": "2026-11-19T04:36:31Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 3,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-21T00:17:56.192Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003746
+    },
+    "linked": {
+      "at": "2026-11-21T00:17:56.837Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "4303e5e584d3aa5d9e98cbc615525a5396ad6ed7"
+    },
+    "published": {
+      "at": "2026-11-21T00:17:56.841Z",
+      "path": "content/changes/bcapps/13925.md"
     }
   },
   "input_hash": "5db4501b32a14ebad4276df9a4e1b89ec06e84ef:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "601a55d288dd4227d6d30f830f364a9e08c0a387d42066ba0f48dd759342dc71"
+  "output_hash": "f507a04ab21f275467e770730424e91a6f3cf054cec6c57c4bce7dc80705d7f9"
 }

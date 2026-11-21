@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/14335",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] Expense Management: make Expense Management Setup public; keep agent and corporate card surface internal",
+  "url": "https://github.com/microsoft/BCApps/pull/14335",
+  "published_at": "2026-11-20T22:56:24Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-21T00:15:56.434Z"
+    },
+    "fetched": {
+      "at": "2026-11-21T00:17:32.977Z",
+      "change_class": "code",
+      "files": 71,
+      "al": 71,
+      "objects": 61,
+      "unjoined": 10
+    },
+    "extracted": {
+      "at": "2026-11-21T00:17:56.187Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003746
+    },
+    "linked": {
+      "at": "2026-11-21T00:17:56.328Z",
+      "objects": 61,
+      "unjoined": 10,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-21T00:17:56.344Z",
+      "path": "content/changes/bcapps/14335.md"
+    }
+  },
+  "input_hash": "15010bc8a38d674d52a5c5b950641da891bcbaf2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14335,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "15010bc8a38d674d52a5c5b950641da891bcbaf2",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense management make expense management setup public keep agent and corporate card surface internal"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "17ba34b8d0accb7c9d04e7531055b3ae2c6a62bb62b2655d3952e0f27758a4be"
+}

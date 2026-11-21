@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14332",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 660000: [64bit] Overflow in item application entry",
+  "url": "https://github.com/microsoft/BCApps/pull/14332",
+  "published_at": "2026-11-20T14:28:42Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-21T00:15:56.434Z"
+    }
+  },
+  "input_hash": "052a44b4d747b69cbac913dd7289ce0fbb15760a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14332,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "052a44b4d747b69cbac913dd7289ce0fbb15760a",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 660000 64bit overflow in item application entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/14096",
+  "number": 14096,
+  "title": "[29.x]-\"El título Importe pendiente resulta ambiguo entre varios campos de la tabla Mov. proveedor.\" error if you try to Create Payment for some Vendor Ledger Entries filtered by Remaining Amount <> 0 in the Spanish version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Create Payment page now correctly filters Vendor Ledger Entries by Remaining Amount in Spanish version without ambiguous field title errors.",
+  "key_points": [
+    "Resolved ambiguous field title error when filtering by Remaining Amount",
+    "Applied fix to both Spanish and W1 versions of Create Payment page",
+    "Added test coverage for vendor payment filtering with Remaining Amount condition"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003746,
+    "changes_in_call": 6
+  }
+}
