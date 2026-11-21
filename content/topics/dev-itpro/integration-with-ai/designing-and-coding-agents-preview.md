@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview
 type: topic
 title: Designing and coding agents (preview)
-summary: Designing and coding agents (preview) covers how to design, create, configure, run, iterate and code custom Business Central agents with the AI development toolkit in sandboxes. It answers questions on instructions, permissions and profiles, tasks, attachments, visibility, export/import and the Tasks AL API.
+summary: Designing and coding agents (preview) covers the Business Central AI development toolkit for designing, prototyping, running and managing custom agents, plus a subtopic on coding agents in AL. It answers questions on instructions, permissions, profiles, tasks, attachments, visibility, export/import and troubleshooting.
 tier: official
 language: en
 system: copilot
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:16:49.622Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: b05b7ea972b6ee0ec475b1d203aac2bec96d6d71552abb5b2413a45cb6733e26
+  input_hash: a6fce5f4da73cdda74a6f78f0e86539f29ee046b1000e853011986b50ea2bb4c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-models
@@ -212,6 +212,7 @@ links:
     - video/nPF84Ufkn4k
     - video/V4zCPAsYi_Y
     - video/Vq9Nk6_uxmQ
+    - video/WFAZLsUTk20
     - video/WjF_sESaIPo
   posts:
     - post/aardvarklabs-blog/3097
@@ -245,7 +246,7 @@ children:
 coverage:
   learn: 23
   code: 0
-  video: 10
+  video: 11
   blog: 10
   guideline: 0
 bc_forms: []
@@ -255,28 +256,24 @@ narrative: generated
 
 # Designing and coding agents (preview)
 
-> Designing and coding agents (preview) covers how to design, create, configure, run, iterate and code custom Business Central agents with the AI development toolkit in sandboxes. It answers questions on instructions, permissions and profiles, tasks, attachments, visibility, export/import and the Tasks AL API.
+> Designing and coding agents (preview) covers the Business Central AI development toolkit for designing, prototyping, running and managing custom agents, plus a subtopic on coding agents in AL. It answers questions on instructions, permissions, profiles, tasks, attachments, visibility, export/import and troubleshooting.
 
-Path: [Integration with AI](../integration-with-ai.md) > Designing and coding agents (preview) · tier official · system copilot · narrative reviewed (checked by Opus)
+Path: [Integration with AI](../integration-with-ai.md) > Designing and coding agents (preview) · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains how partners prototype and build AI agents in Business Central using the AI development toolkit. The toolkit is sandbox-only and follows an agent lifecycle: create, configure, activate, iterate, graduate and clean up. A transparency note describes the intended use and the Azure OpenAI models behind it.
-
-The pages follow that lifecycle. Start with the overview, then "Create and activate an agent" and "Write effective instructions", with "Best practices for designing an agent" and "Instruction keywords" as references. Next come permissions and profiles, running tasks, attachment limits, and iterating with the Agent Task Log and instruction version history. The Sales Validation Agent is a preconfigured example.
-
-For developers, "Integrate with the Tasks AL API" shows how to detect agent sessions and read agent information. The subtopic "Coding agents in AL" covers building and registering agents in code, including converting a prototyped agent. Export and import moves configurations between sandboxes, and the FAQ covers common questions.
+This section is for developers, product owners and consultants who want to build AI agents in Business Central. The AI development toolkit lets you prototype an agent in a sandbox first: set its identity, instructions, tasks, permission sets and profile, then test it before building a production solution with AL extensions. The introduction page (version 27.2) and the Create and activate page are the places to start.
 
 ## Key points
 
-- Agents are prototyped in sandbox environments only, using the AI development toolkit (preview, 27.2 for create and activate).
-- Effective agent permissions are the intersection of the user's and the agent's permissions, so an agent never exceeds the scheduling user's privileges.
-- Profiles and page customization properties such as ClearActions and ClearLayout control what the agent sees and can do in the UI.
-- Tasks are the unit of work; trigger them manually from the Agent Tasks page or through the Tasks AL API from UI actions and business events.
-- Attachments support PDF, PNG and JPG, with file size limits and a 10-page PDF limit; custom processing can use Azure AI Document Intelligence.
-- Iterate using the Agent Task Log, the page accessibility view of what the agent perceives, and instruction version history with comparison and rollback.
-- Agent configurations (identity, instructions, permissions, profile) can be exported and imported as XML between sandboxes.
-- Agent visibility in the role center depends on app installation, Copilot capability status, permissions and archiving state (28.1).
+- The AI development toolkit is a sandbox for prototyping agents. The Create and activate page covers the design wizard, custom profiles, permissions, the instruction editor and the task playground (version 27.2).
+- Instruction pages cover writing effective instructions (responsibilities, guidelines, instructions), a keyword reference (ask for assistance, request review, reply, write email, memorize, set field, use lookup, invoke action) and best practices.
+- Permissions: an agent's effective permissions are the intersection of the user's and the agent's permissions, so it never exceeds the scheduling user's privileges. Profiles use page customization properties such as ClearActions and ClearLayout.
+- Tasks can be triggered manually from the Agent Tasks page or in code through the Tasks AL API. The API offers GetCustomAgents and IsAgentSession for detecting agent sessions.
+- Attachments: PDF, PNG and JPG are supported, with file size limits and a 10-page PDF limit. Custom document processing can use Azure AI Document Intelligence with the Agent Task Builder and Agent Task Message Builder codeunits.
+- Iteration uses the Agent Task Log, the page accessibility view of what the agent sees, and instruction version history with comparison and rollback.
+- Agent configurations can be exported and imported as XML between sandbox environments. This covers identity, instructions, permissions and profile.
+- The Sales Validation Agent is a preconfigured agent, created from the Create agent wizard, that checks inventory and order criteria on sales orders. A visibility page (version 28.1) explains when agents show in the role center, and a transparency note and FAQ are included.
 
 ## Subtopics
 
@@ -334,6 +331,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central Under the Hood episode 13: Inside the Agent Runtime](../../../videos/nPF84Ufkn4k.md) (video): "agent runtime; task execution engine; agent memory; grounding; hallucination prevention"
 - [Getting Started With Agent Testing: Test Setup and Structuring (part 3)](../../../videos/V4zCPAsYi_Y.md) (video): "agent testing; test setup; data-driven tests; yaml configuration"
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../../../videos/Vq9Nk6_uxmQ.md) (video): "Custom agents; agent instructions; agent profiles; permissions; prompt engineering"
+- [What's New: Business Central Agent Instruction History](../../../videos/WFAZLsUTk20.md) (video): "agent instruction history; autosave; version control; instruction playground; download instructions"
 - [Interfrucht GmbH](../../../videos/WjF_sESaIPo.md) (video): "agent automation; purchase order creation; document extraction"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

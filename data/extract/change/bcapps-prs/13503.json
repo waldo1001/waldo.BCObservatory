@@ -6,13 +6,13 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "Fixed prepayment amount recalculation in sales line statistics that was causing incorrect amounts after partial posting when prepayment deduction exceeded the invoiced amount.",
+  "summary": "Fixed the Sales Line prepayment recalculation so Prepmt. Line Amount no longer grows past the invoiced prepayment after a partial posting where Prepmt Amt to Deduct was raised manually. Statistics now show stable values, and the remaining quantity can be posted.",
   "key_points": [
-    "Added CapPrepmtLineAmountAfterOverDeduction procedure to constrain recalculated prepayment line amount when deduction exceeds both invoiced and proportional amounts",
-    "Prevents posting failures with 'prepayment invoices not posted' error when prepayment line amount became inconsistent",
-    "Stabilizes statistics values across multiple opens and closes of the statistics page",
-    "Change applied across W1 and 11 localization layers with regression tests added",
-    "Triggered by ReleaseSalesDocument VAT recalculation flow during partial posting"
+    "Added local procedure CapPrepmtLineAmountAfterOverDeduction, called in UpdatePrepmtAmounts after the Prepmt. Line Amount recalculation",
+    "When an amount was deducted and the recalculated value exceeds both Prepmt. Amt. Inv. and the line's total prepayment, it is capped at the larger of the two",
+    "Fixes the false 'prepayment invoices not posted' error when posting the remaining quantity",
+    "Recalculation was triggered on closing Statistics via ReleaseSalesDocument.CalcAndUpdateVATOnLines and UpdateVATOnLines",
+    "Applied in W1 and 11 localization layers, with regression tests in W1 and RU"
   ],
   "change_kind": "fix",
   "behavior_change": true,

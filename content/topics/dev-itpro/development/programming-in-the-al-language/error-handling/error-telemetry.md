@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,25 +106,22 @@ Start with error method trace telemetry for general error patterns and alerting.
 ## Learn pages
 
 - [Analyzing Error Message Vote Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-message-voting-trace): Analyze error message vote telemetry in Business Central to find messages users consider unhelpful and investigate the associated errors and extensions.
-  - Status: Available from Business Central 2022 release wave 1.
-  - Error messages include a yes or no question asking whether the message was helpful.
-  - User feedback on error messages is recorded in Application Insights for all errors from Error method calls.
-  - Trace records whether user voted yes or no, the error message text, and the regional language version shown.
+  - Status: Generally available from 2022 release wave 1
+  - CL0002 event emitted when user votes Yes or No on error message helpfulness in dialog
+  - Voting feature appears on errors from Error(String) and Error(ErrorInfo) AL methods
+  - Telemetry captures user feedback, error message text, extension details, and stack trace information
+  - Feedback helps partners and developers identify error messages users find difficult to understand
 - [Analyzing Error Method Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-method-trace): Analyze error dialog telemetry in Business Central to investigate AL errors, inspect stack traces and failure reasons, and identify problems affecting users.
-  - Error method telemetry emitted when Error method called, displays dialog to user
-  - Event ID RT0030 signals error dialog displayed with failure reason Dialog
-  - Error message shown only if Label or TextConst data type, otherwise generic message shown
-  - Messages with customer data not shown as precaution, SystemMetadata classified data only emitted
-  - Severity level 3 indicates error dialog event with stack trace and AL object details recorded
-  - Telemetry includes AL stack trace, object ID, object type, client type, and company name
+  - RT0030 Error dialog shown event occurs when error sent to client for display from AL or platform
+  - Error messages show only SystemMetadata classification; customer data and other classifications are redacted
+  - For Error(String), only Label or TextConst strings are displayed; other strings show redaction message
+  - Telemetry includes AL stack trace, failure reason, extension information, and AL object details
+  - alEnglishLanguageDiagnosticsMessage dimension available in version 22.0 and backported to version 21.4
 - [Analyzing Permission Error Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace): Analyze permission error telemetry in Business Central to identify missing permissions, inspect affected objects, and investigate errors reported to users.
-  - Permission error telemetry signals when users get permission-related error dialogs.
-  - Permission Error Shown event has eventId RT0031 at severity level 1.
-  - Data includes object ID, name, type, and permission area that caused the error.
-  - permissionType dimension shows missing permission: Delete, Execute, Insert, Modify, or Read.
-  - permissionArea dimension indicates System, Entitlement, Company, or Object scope.
-  - Stack trace and error message help identify where permission check failed in code.
-  - Sample KQL code helps analyze which permission errors users encounter frequently.
+  - Permission error telemetry is emitted when users get permission-related error dialogs in Business Central.
+  - Permission error events capture object ID and name, permission area (System, Entitlement, Company, Object), and permission type required.
+  - Error messages include affected AL object type (page, table, etc.), client type, and AL stack trace for investigation.
+  - Permission error dimension permissionArea indicates whether error is related to system, entitlement, company, or specific object.
 - [Feature telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-feature-telemetry): Learn about the telemetry that you can emit from features in Business Central.
   - Feature Telemetry module simplifies app health monitoring and tracks feature uptake using three event types: LogUsage for successful feature use, LogError for explicit errors, and LogUptake for…
   - Prerequisite: Must implement Telemetry Logger interface in an extension codeunit and register it via OnRegisterTelemetryLogger event subscriber, one per app publisher.

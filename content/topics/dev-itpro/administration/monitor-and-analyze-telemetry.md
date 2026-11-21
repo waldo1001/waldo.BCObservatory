@@ -2,21 +2,21 @@
 id: topic/dev-itpro/administration/monitor-and-analyze-telemetry
 type: topic
 title: Monitor and analyze telemetry
-summary: "Business Central telemetry sent to Azure Application Insights: how to turn it on, analyze it with KQL and Power BI, set alerts, control cost, and look up event IDs. It answers setup, analysis, alerting, cost and event reference questions."
+summary: "Business Central telemetry sent to Azure Application Insights: how to turn it on, which events exist, how to analyze it with KQL or Power BI, how to set up alerts, and how to control costs. It answers setup, analysis, event ID, and cost questions."
 tier: official
 language: en
 system: platform
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-23T01:12:47.130Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: ef7c4f54e4ea6cd7fdfffb35a5dfe92550e8c97a3b238a9ab42dfb614894f630
+  input_hash: 5827db0c2e65778703ec1f3f64d74386374d38d9ff5348c69ab2f868cc23bd24
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-agent-lifecycle-trace
@@ -357,28 +357,28 @@ narrative: generated
 
 # Monitor and analyze telemetry
 
-> Business Central telemetry sent to Azure Application Insights: how to turn it on, analyze it with KQL and Power BI, set alerts, control cost, and look up event IDs. It answers setup, analysis, alerting, cost and event reference questions.
+> Business Central telemetry sent to Azure Application Insights: how to turn it on, which events exist, how to analyze it with KQL or Power BI, how to set up alerts, and how to control costs. It answers setup, analysis, event ID, and cost questions.
 
-Path: [Administration](../administration.md) > Monitor and analyze telemetry · tier official · system platform · narrative reviewed (checked by Opus)
+Path: [Administration](../administration.md) > Monitor and analyze telemetry · tier official · system platform · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the full telemetry workflow for Business Central. It starts with enabling telemetry by connecting an environment, the server, the admin center, or individual tenants to Azure Application Insights, for both online and on-premises deployments. The overview page explains environment-level and app-level telemetry and links to the other steps.
+Business Central can emit operational telemetry to Azure Application Insights, at the environment level and at the app/extension level. The section covers the full path: enabling telemetry, understanding what is emitted, analyzing it, alerting on it, and keeping ingestion costs under control.
 
-Once data flows, you can analyze it with KQL queries in Application Insights or Log Analytics, or use the free, open-source Power BI apps with usage, error, performance, and administration reports. Alerts can be built with Power BI Metrics, Application Insights alerts, Logic Apps, or Power Automate. The Controlling Telemetry Cost page and the FAQ help manage ingestion caps, data collection rules, and retention.
+Start with "Monitoring and Analyzing Telemetry" for the concepts, then "Turn Business Central Environment Telemetry On or Off" to connect an environment to Application Insights (online and on-premises, using a connection string). The "Available Business Central Telemetry" and "Telemetry Event IDs" pages list the events (application, client, lifecycle, runtime) and how AL event IDs are prefixed. The "Telemetry by area" subtopic goes deeper, with event IDs and custom dimensions per functional area.
 
-For event lookups, the Available Telemetry and Event IDs pages list events by group, and the Telemetry by area subtopic gives a detailed per-area reference with event IDs and custom dimensions. Start with the Monitoring and Analyzing Telemetry overview, then set up Application Insights.
+For analysis, use KQL in Application Insights or Log Analytics, or the free Power BI apps (Usage, Errors, Performance, Administration). Use the alerts page to build notifications with Application Insights alerts, Logic Apps, or Power Automate. Use the cost page and the FAQ for sampling, data collection rules, daily caps, retention, and privacy questions.
 
 ## Key points
 
-- Telemetry is enabled by setting a connection string or instrumentation key for the server, admin center, or individual tenants; on-premises setup is supported.
-- KQL queries run against Application Insights tables such as traces and pageViews and use custom dimensions; examples cover report usage, sessions, user activity, and timezone conversion.
-- Power BI apps for telemetry are free and open source, with usage, error, performance, and administration reports and sample data.
-- Alerts can be set up using Power BI Metrics, Azure Application Insights alerts, Azure Logic Apps, or Power Automate with KQL.
-- Cost control options include a daily ingestion cap, data collection rules, sampling, and retention periods.
-- Event ID references group events as application, client, lifecycle, and runtime, and explain the AL event ID prefix.
-- The Telemetry by area subtopic (61 pages) documents events by area such as extensions, jobs, performance, security, web services, AI/MCP, and lifecycle.
-- The FAQ covers custom dimensions overflow, data retention, log analytics queries, and the purge API.
+- Telemetry can be enabled at environment level and at app/extension level, and is sent to Azure Application Insights.
+- Environment telemetry setup uses a connection string (instrumentation key is also mentioned) and works for online and on-premises deployments.
+- KQL queries against the traces and pageViews tables support session tracking, user tracking, and report usage analysis.
+- Power BI apps provide four reports: Usage, Errors, Performance, and Administration. They are free and open source.
+- Telemetry event IDs are grouped as application, client, lifecycle, and runtime events; AL event IDs have a prefix.
+- Telemetry by area (61 pages) lists event IDs and custom dimensions for security, performance, extensions, web services, AI/MCP, environments, and jobs.
+- Alerts can be built with Application Insights alerts, Azure Logic Apps, or Power Automate using KQL queries and the Azure Monitor Logs connector.
+- Cost control options: sampling, data collection rules, daily caps, custom ingestion endpoint, and retention settings in Log Analytics.
 
 ## Subtopics
 
@@ -395,14 +395,13 @@ For event lookups, the Available Telemetry and Event IDs pages list events by gr
   - Business Central server emits timestamps in UTC timezone; use datetime_utc_to_local() function to convert to local timezone
   - From version 24 onwards, session_Id and user_Id are aligned between server and browser components for advanced troubleshooting
 - [Analyze and Monitor Telemetry with Power BI](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app): Install and configure Power BI apps for Business Central telemetry to analyze usage, investigate errors, and monitor environment performance.
-  - Two free Power BI apps analyze telemetry: one for environment telemetry, one for app and extension telemetry.
-  - Usage report shows sessions, clients, user locations, page views, reports, features, integrations, and deprecated features.
-  - Error report displays user errors, integration errors, and system errors across environments or apps.
-  - Performance report tracks sessions, OnCompanyOpen timing, page views, reports, long-running queries, and task scheduler jobs.
-  - Administration report shows environment inventory, update planning, and changes to environments, companies, and extensions.
-  - Prerequisite: Power BI pro license required to use the apps.
-  - Step: Install app from Microsoft Marketplace using the provided link.
-  - Step: Get Application ID from Azure portal and connect to Application Insights resource in Power BI.
+  - Power BI telemetry apps consist of four reports: Usage, Errors, Performance, and Administration.
+  - Usage report covers sessions, clients, locations, page views, reports, feature usage, integrations, and deprecated features.
+  - Error report analyzes user errors, integration errors, and system errors; supplements Jupyter notebook troubleshooting guides.
+  - Performance report provides insights into sessions, page timings, long-running queries, database locks, and job scheduling.
+  - Administration report tracks environment inventory, version updates, and changes to environments, companies, extensions, indexes, and fields.
+  - App parameters control refresh schedules, Microsoft Entra tenant mapping, timezone, data inclusion, and app filtering.
+  - Sample data is shown by default in Power BI apps; actual data requires connecting Application Insights resource.
 - [Available Business Central Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-available-telemetry): Find Business Central telemetry by area or event ID to monitor environments and extensions, diagnose errors, and analyze performance.
   - Business Central telemetry is logged into traces or pageViews tables in Application Insights
   - Telemetry covers application events, client events, lifecycle events, and runtime events
@@ -416,12 +415,12 @@ For event lookups, the Available Telemetry and Event IDs pages list events by gr
   - Limit: Daily cap is not a precise spending limit; ingestion can exceed it and be billed.
   - Override ingestion endpoint using IngestionEndpoint key in connection string.
 - [Monitoring and Analyzing Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview): Monitor Business Central environments and extensions with Application Insights telemetry to diagnose errors, analyze performance, and track usage.
-  - Telemetry can be enabled at environment level or per-extension level to collect operational data in Azure Application Insights.
-  - With Business Central 2020 release wave 2 and later, publishers can set Application Insights connection strings in app.json manifest files.
-  - Telemetry data is stored in Application Insights Logs tables called traces and pageViews for analysis via Kusto query language.
-  - Both online and on-premises Business Central instances can emit telemetry to Azure Application Insights.
-  - Free Power BI apps analyze Business Central telemetry; one app covers environments while another covers apps and extensions.
-  - Permissions: AL developers can create custom telemetry messages using Feature Telemetry codeunit or LogMessage method from Session class.
+  - Environment-level telemetry and app-level telemetry can be enabled separately to Application Insights resources.
+  - Status: Per-extension telemetry enabled from Business Central 2020 release wave 2 by setting connection string in app.json.
+  - Both online and on-premises instances can emit telemetry to Application Insights.
+  - Telemetry data is stored in Application Insights Logs in traces and pageViews tables, queried with KQL.
+  - Two free, open-source Power BI apps available from marketplace: one for environment telemetry, one for app telemetry.
+  - Permissions: Power BI Pro licenses required to install telemetry Power BI apps.
   - In the observatory: [Codeunit 8703 "Feature Telemetry"](../../../objects/codeunit/8703.md)
 - [Set Up Business Central Telemetry Alerts](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-alert): Set up alerts on Business Central telemetry with Azure Monitor, Logic Apps, or Power Automate to respond to issues and environment changes.
   - Telemetry alerts can be defined using Application Insights, Azure Logic Apps, or Power Automate
@@ -438,22 +437,22 @@ For event lookups, the Available Telemetry and Event IDs pages list events by gr
   - Event dimensions names are prefixed with 'al' when converted to Application Insights format
   - Business Central applications repository contains source code for finding AL event origins
 - [Telemetry FAQ (Frequently Asked Questions)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-faq): Get answers about Business Central telemetry setup, costs, privacy, retention, access, and querying data in Azure Application Insights.
-  - Business Central service does not emit personal or customer data to Application Insights
-  - Telemetry emits only service runtime data, tenant identifiers, configuration data, and usage data
-  - Each custom dimension in events has 8,000 character limit; overflow keys are named with _1 and _2 suffixes
-  - Separate environment telemetry from app telemetry into different Application Insights resources for better management
-  - Limit: Application Insights instrumentation was not backported to versions earlier than 15.0
-  - Azure workspace default retention policy can be set to 30, 31, 60, 90, 120, 180, 270, 365, 550, or 730 days
-  - Permissions: Grant read-only access by assigning Reader role in Access Control (IAM) page and optionally on Resource Group
+  - Long dimension values exceeding 8,000 characters are split into overflow keys named with _1 and _2 suffixes, up to 24,000 total.
+  - One-to-one relationship between customers and Application Insights resources enables separate cost tracking and customer isolation.
+  - Log Analytics retention can be configured up to two years for analytics tables and 12 years for total retention with search jobs.
+  - Read-only Application Insights access requires Reader role assignment in both the resource and resource group.
+  - Telemetry includes tenant identifiers, configuration data, and usage data; some events include pseudonymous user telemetry IDs.
+  - Telemetry works for on-premises installations, though a few events are not emitted for on-premises.
+  - Application Insights instrumentation is not backported to versions before 15.0 due to extensive refactoring requirements.
 - [Turn Business Central Environment Telemetry On or Off](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights): Connect Business Central online or on-premises environments to Azure Application Insights to collect telemetry and troubleshoot issues.
-  - Status: Generally available for Business Central online and on-premises
-  - Prerequisite: Microsoft Azure subscription and Application Insights resource are required to send telemetry
-  - Prerequisite: For version 17 and earlier, copy the Instrumentation Key; for later versions, copy the Connection String from Azure portal
-  - Connection string has maximum length of 2,048 characters
-  - Limit: Instrumentation key support ends 31 March 2025; transition to connection strings required by that date
-  - Step: For online environments, enable telemetry from admin center by selecting Environments, defining Application Insights Key, and saving to trigger environment restart
-  - Step: For on-premises single-tenant, use Set-NAVServerConfiguration cmdlet to set Application Insights Connection String or Instrumentation Key
-  - Step: For on-premises multitenant, use Mount-NAVTenant cmdlet with ApplicationInsightsConnectionString or ApplicationInsightsKey parameters when mounting tenants
+  - Prerequisite: Create an Azure Application Insights resource to receive telemetry data
+  - Step: Obtain Connection String or Instrumentation Key from the Application Insights resource Overview page
+  - Connection String is recommended for versions after 2020 release wave 2; Instrumentation Key support ended March 31, 2025
+  - Step: For online environments, enable telemetry in admin center by selecting Define and entering connection string
+  - Step: For on-premises single-tenant, set ApplicationInsightsConnectionString in server configuration
+  - Step: For on-premises multitenant, specify connection string per tenant during Mount-NAVTenant
+  - Telemetry ID can be assigned or cleared per user on User Card to track troubleshooting by individual
+  - Same Application Insights resource can be used for multiple tenants and environments
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 

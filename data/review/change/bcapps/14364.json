@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/14364",
+  "input_hash": "8ea7afa1c33e85a2bc074b07c126437a592c38241ca5d51f0d12871d2947b14d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-21T00:57:04.586Z",
+  "issues": [
+    "Supported by the description: field 10700 Posting Date and its key added to W1 to match 29.x and address AS0002. The ES and APAC changes are only blank lines.",
+    "Calling it a feature is arguable, since the purpose is schema alignment, but it is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039488,
+    "changes_in_call": 6
+  }
+}

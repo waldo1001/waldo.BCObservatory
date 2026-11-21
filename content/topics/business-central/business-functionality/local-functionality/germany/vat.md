@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:42.877Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,6 +78,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/13807
+    - change/bcapps/14133
     - change/bcapps/9734
 learn_toc_path:
   - Business functionality
@@ -150,6 +151,7 @@ For day-to-day work, use "How to Create VAT Reports [DE]" and "How to Declare VA
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#13807 [main] Bug 657914 Total Number of Supplies has incorrect type and tooltip in the VAT Report page of the German version.](../../../../../changes/bcapps/13807.md) (code change): "Total Number of Supplies field in the VAT Report page is corrected to display as a whole number"
+- [#14133 [29x] Total Number of Supplies has incorrect type and tooltip in the VAT Report page of the German version](../../../../../changes/bcapps/14133.md) (code change): "Total Number of Supplies field in German VAT Report now has correct data type"
 - [#9734 [Master]-Performance issue when calculating the VAT advance return / VAT statement (Base Application, German environment) - Copy](../../../../../changes/bcapps/9734.md) (code change): "performance issue when calculating the VAT advance return / VAT statement"
 
 ## Business Central pages and reports

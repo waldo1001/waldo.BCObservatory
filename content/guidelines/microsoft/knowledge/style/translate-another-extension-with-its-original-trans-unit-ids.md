@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:17:48.237Z"
+  at: "2026-11-21T00:15:56.434Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: cc9b2cc38b285da82b467135e3343985027399c6
@@ -29,7 +29,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/translate-another-extension-with-its-original-trans-unit-ids.md
     title: "microsoft/BCQuality: Translate another extension with its own translation IDs"
     date: "2026-11-19"
-    commit: dd49341915045164248349bd891b106ebb4b34cb
+    commit: aaaf6c13c219294fcebf644f1662f4d77061e2f7
     t: null
     quote: null
 links:
@@ -86,4 +86,4 @@ Copying the current app's generated `.xlf` as a starting point for translating a
 
 ---
 
-From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at aaaf6c1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

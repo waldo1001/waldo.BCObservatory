@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/13503",
+  "input_hash": "010acc458340937bd4235d2f47e7353f30cbb4b4024422bb43459bdae0065030",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-21T00:56:47.755Z",
+  "issues": [
+    "Summary misstates the condition: the problem happens when more than the proportional share was deducted, which pushes the recalculated Prepmt. Line Amount above Prepmt. Amt. Inv. It does not depend on the deduction exceeding the invoiced amount.",
+    "Key point 1 gets the cap condition wrong. The cap applies when the recalculated value exceeds both Prepmt. Amt. Inv. and the line's total prepayment, and it caps at the larger of the two.",
+    "Key point 5 is inaccurate. The recalculation runs when the Statistics page is closed, through CalcAndUpdateVATOnLines and UpdateVATOnLines, not during partial posting.",
+    "Layer count of 11 localizations and the tests in W1 and RU are correct."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.035266,
+    "changes_in_call": 2
+  }
+}

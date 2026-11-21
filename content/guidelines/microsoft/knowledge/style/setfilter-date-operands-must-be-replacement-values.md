@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:15:45.369Z"
+  at: "2026-11-21T00:15:56.434Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9eb5fc6655bd128c9e03e9bff53f462ace8b8834
@@ -32,7 +32,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/setfilter-date-operands-must-be-replacement-values.md
     title: "microsoft/BCQuality: Pass date operands to SetFilter as replacement values, not as text in the filter string"
     date: "2026-11-13"
-    commit: dd49341915045164248349bd891b106ebb4b34cb
+    commit: aaaf6c13c219294fcebf644f1662f4d77061e2f7
     t: null
     quote: null
 links:
@@ -129,4 +129,4 @@ See sample: [`setfilter-date-operands-must-be-replacement-values.bad.al`](https:
 
 ---
 
-From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at aaaf6c1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

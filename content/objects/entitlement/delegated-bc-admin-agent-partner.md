@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:47:37.951Z"
+  at: "2026-11-21T00:46:40.499Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5cdc65391b675ad7d89b341c38eb73760fb1d1811c8652969fda30473120f592
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/System%20Application/App/Entitlements/DelegatedBCAdminAgentPartner.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/System%20Application/App/Entitlements/DelegatedBCAdminAgentPartner.Entitlement.al
     title: src/System Application/App/Entitlements/DelegatedBCAdminAgentPartner.Entitlement.al (releases/29.x)
     date: null
-    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
+    commit: d30504e3670310aa9f2396745813257d80d473b8
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Entitlement "Delegated BC Admin agent - Partner" in System Application (System.Security.AccessControl). Present since at least BC23, still in BC30, changed in BC25.
 
-System Application · System.Security.AccessControl · BC23-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/System%20Application/App/Entitlements/DelegatedBCAdminAgentPartner.Entitlement.al) · facts from BC29
+System Application · System.Security.AccessControl · BC23-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/System%20Application/App/Entitlements/DelegatedBCAdminAgentPartner.Entitlement.al) · facts from BC29
 
 ## Across versions
 

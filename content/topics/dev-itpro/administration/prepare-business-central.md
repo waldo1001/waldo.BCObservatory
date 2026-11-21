@@ -2,7 +2,7 @@
 id: topic/dev-itpro/administration/prepare-business-central
 type: topic
 title: Prepare Business Central
-summary: "Preparing Business Central covers setup and deployment tasks for administrators and partners: configuration packages, Excel and Outlook add-ins, per-tenant extensions, Marketplace app upgrades, app key vaults, and Feature Management. It answers how-to questions on getting a new environment ready and keeping it current."
+summary: "Prepare Business Central covers the administrator and partner tasks for getting an environment ready: setup overview, configuration packages, deploying Excel and Outlook add-ins, deploying and upgrading extensions, app key vaults, and managing upcoming and newly mandatory features. It answers how-to and deployment questions."
 tier: official
 language: en
 system: administration
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0f2dce1163a66c478f8bd39dc3d7c5a863555a8eae55793c1ae664ecbc2960e8
+  input_hash: e8a899151da0e6fa9e63a47bd714745c6657e430142a1ea52061fb126988ba29
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/apply-company-configuration-packages
@@ -180,28 +180,28 @@ narrative: generated
 
 # Prepare Business Central
 
-> Preparing Business Central covers setup and deployment tasks for administrators and partners: configuration packages, Excel and Outlook add-ins, per-tenant extensions, Marketplace app upgrades, app key vaults, and Feature Management. It answers how-to questions on getting a new environment ready and keeping it current.
+> Prepare Business Central covers the administrator and partner tasks for getting an environment ready: setup overview, configuration packages, deploying Excel and Outlook add-ins, deploying and upgrading extensions, app key vaults, and managing upcoming and newly mandatory features. It answers how-to and deployment questions.
 
 Path: [Administration](../administration.md) > Prepare Business Central · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section gathers the tasks needed to get a Business Central environment ready for customers. It starts with an overview of setup tasks (assisted setup guides, configuration packages, base calendars, number series, email, printers) and then goes into company configuration packages: setting them up as reusable templates and applying them to new customers, including data migration from Excel.
+This section gathers the preparation work done before and during rollout of Business Central, for both online and on-premises. It starts with an overview of setup tasks (assisted setup guides, base calendars, number series, email, printers) and continues with configuration packages and questionnaires. These let partners build reusable company templates and apply them to new customers, including data migration from Excel.
 
-Other pages cover deployment of add-ins and extensions. The Excel add-in has a deployment page and a network preparation page. The Outlook add-ins (Contact Insights and Document Links) have their own deployment page. Extension pages cover deploying per-tenant extensions, upgrading Marketplace apps, resolving conflicts when upgrading per-tenant extensions, recommending apps, and app key vaults.
+Further pages cover deploying client add-ins and extensions. The Excel add-in has a deployment page (Centralized Deployment or manual install) and a network preparation page. The Outlook add-ins (Contact Insights and Document Links) have their own deployment page. For extensions, there are pages on deploying per-tenant extensions, upgrading Marketplace apps in production, resolving conflicts when upgrading per-tenant extensions, setting up app key vaults, and recommending apps to customers.
 
-Feature Management pages explain how to enable upcoming features early and list optional features that later became mandatory. Start with the setup overview, then pick the page that matches your task.
+Feature Management is covered by two pages: one on enabling upcoming features early, and one listing optional features that have become mandatory by release wave. A good starting point is the setup tasks overview. Go to the deployment pages that match the task at hand after that.
 
 ## Key points
 
-- Configuration packages and questionnaires set up new customers and migrate data, online or on-premises; they can be saved as reusable templates and exported as RapidStart files.
-- The Excel add-in can be deployed through Centralized Deployment in the Microsoft 365 admin center or installed manually per user; a separate page covers network endpoints.
-- The Outlook add-ins Contact Insights and Document Links can be deployed centrally, automatically, or by individual users.
-- Per-tenant extension .app files are uploaded and scheduled for installation through the Admin Center or the Extension Management page, with app uniqueness and version requirements.
-- Upgrading conflicting per-tenant extensions means uninstalling, removing conflicting object or field names, and reinstalling to avoid schema errors.
-- Marketplace apps in production are upgraded manually from Extension Management or the Admin Center.
-- App key vaults let Marketplace apps read secrets from Azure Key Vaults, using the ISV key vault Reader application and the AllowedBusinessCentralAppIds secret.
-- Feature Management enables upcoming features early (including a temporary try-it-out session); a reference page lists features that became mandatory in versions 22 to 29.
+- Configuration packages and questionnaires set up new companies and migrate data, with import from Excel, table and field mapping, journal creation and opening balance posting.
+- The Excel add-in can be deployed through Centralized Deployment in the Microsoft 365 admin center or installed manually per user. Network endpoints must be configured for it.
+- The Outlook add-ins Contact Insights and Document Links support online, on-premises and individual-user deployment.
+- Per-tenant extension .app files are uploaded and installation is scheduled through the Admin Center or the Extension Management page. App uniqueness and version rules apply.
+- Marketplace apps are upgraded manually in production through the Extension Management page or the Admin Center.
+- Per-tenant extensions that conflict on object or field names must be uninstalled, cleaned up and reinstalled to avoid schema errors.
+- App key vaults let Marketplace apps read secrets from Azure Key Vaults. This needs the ISV key vault Reader application and granted permissions.
+- Feature Management lets admins enable upcoming features early (version 18.1 and 19.1 are mentioned). A separate page tracks optional features that became mandatory from 2023 wave 1 to 2026 wave 2.
 
 ## Learn pages
 

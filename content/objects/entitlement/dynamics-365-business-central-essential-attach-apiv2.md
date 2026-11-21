@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:47:37.951Z"
+  at: "2026-11-21T00:46:40.499Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2e02c5b5525f6ef387cd2f1ee1f21951d867c05ffcabea31de9b53b1b38ab78c
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralEssentialAttachAPIV2.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralEssentialAttachAPIV2.Entitlement.al
     title: src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralEssentialAttachAPIV2.Entitlement.al (releases/29.x)
     date: null
-    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
+    commit: d30504e3670310aa9f2396745813257d80d473b8
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central Essential - Attach APIV2" in APIV2 (Microsoft.API.V2). Introduced in BC29, still in BC30.
 
-APIV2 · Microsoft.API.V2 · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralEssentialAttachAPIV2.Entitlement.al) · facts from BC29
+APIV2 · Microsoft.API.V2 · BC29-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/APIV2/app/src/Entitlements/Dynamics365BusinessCentralEssentialAttachAPIV2.Entitlement.al) · facts from BC29
 
 ## Across versions
 

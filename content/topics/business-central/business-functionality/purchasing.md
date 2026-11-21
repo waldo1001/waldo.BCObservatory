@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/purchasing
 type: topic
 title: Purchasing
-summary: Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and approvals. It answers how-to questions on posting and correcting purchase documents, matching invoice drafts to orders and receipts, blanket orders, date calculation, electronic documents, and purchasing analytics.
+summary: "Purchasing in Business Central covers the purchase process: quotes, orders, invoices, receipts, returns, cancellations, approvals, blanket orders, electronic documents and date calculation. It answers how to record, correct, match and analyze purchases. A subtopic covers purchasing analytics."
 tier: official
 language: en
 system: purchasing
 review:
-  state: reviewed
-  by: opus
-  at: "2026-11-19T01:01:35.031Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 3f6b236091a9803142fd2644a81b77ba0860f72c2b8f6c357e9df3debd4ab162
+  input_hash: 778eaee1e571432029908bb719c41e634bb691cfcb0af9a8b05e68303b552d64
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget
@@ -460,6 +460,7 @@ links:
     - change/bcapps/13463
     - change/bcapps/13616
     - change/bcapps/13628
+    - change/bcapps/14138
     - change/bcapps/9044
     - change/bcapps/9084
     - change/bcapps/9182
@@ -576,28 +577,28 @@ narrative: generated
 
 # Purchasing
 
-> Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, and approvals. It answers how-to questions on posting and correcting purchase documents, matching invoice drafts to orders and receipts, blanket orders, date calculation, electronic documents, and purchasing analytics.
+> Purchasing in Business Central covers the purchase process: quotes, orders, invoices, receipts, returns, cancellations, approvals, blanket orders, electronic documents and date calculation. It answers how to record, correct, match and analyze purchases. A subtopic covers purchasing analytics.
 
-Path: [Business functionality](../business-functionality.md) > Purchasing · tier official · system purchasing · narrative reviewed (checked by Opus)
+Path: [Business functionality](../business-functionality.md) > Purchasing · tier official · system purchasing · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Purchasing section describes how a company buys goods and services in Business Central. Core pages cover creating purchase quotes and converting them to orders, recording purchases with purchase orders and invoices, purchasing items for a sale from sales documents, and handling returns and cancellations through credit memos or return orders. Related pages cover amending or cancelling unpaid invoices, combining receipts or order lines on one invoice, and blanket orders for long-term agreements.
+Purchasing groups the pages for buying goods and services from vendors. The core flow is to request an offer with a purchase quote, convert it to a purchase order, receive items, and record the purchase with a purchase invoice. Supporting pages cover recurring purchase lines, combining receipts or order lines on one invoice, blanket orders, external document numbers, and date calculation from lead times.
 
-Supporting pages cover recurring purchase lines, external document numbers, date and lead time calculation, amount checks on invoices and credit memos, and purchase approval workflows. For incoming documents, one page covers matching invoice drafts to purchase orders and receipts, including Payables Agent proposals. Another covers receiving and converting PEPPOL or OCR electronic documents, and it is scoped to versions before 2023 release wave 2. Other pages cover merging duplicate vendors and syncing contacts to Outlook and Teams.
+Other pages handle exceptions and control: correcting or canceling unpaid posted invoices, processing returns with credit memos or return orders, checking invoice amounts before posting, and setting up approval workflows. Incoming documents are covered by the pages on electronic documents (PEPPOL and OCR) and on matching purchase invoice drafts to purchase orders, including with Payables Agent. The payment practices report and the Purchasing analytics subtopic (Power BI Purchases app, built-in reports, Data Analysis) cover reporting.
 
-Start with "Overview of tasks to manage to purchase" for the map of tasks, then "Record purchases with purchase invoices" for the basic flow. The Purchasing analytics subtopic covers the Power BI Purchases app, built-in reports, Data Analysis on list pages, and legacy reports planned for removal. The payment practices report has its own page in this section.
+Start with "Overview of tasks to manage to purchase" for a map of the processes. Then go to "Record purchases with purchase invoices" for the basic workflow.
 
 ## Key points
 
-- Purchase quotes can be converted to purchase orders. A quote for a contact with no vendor record can create the vendor from contact data, using a vendor template chosen by territory and country/region.
-- Unpaid posted purchase invoices can be corrected or cancelled with corrective credit memos that keep the audit trail.
-- Returns and cancellations use purchase credit memos or return orders, with options such as Get Posted Document Lines to Reverse, Copy from Document, combining return shipments and exact cost reversing.
-- Get Receipt Lines and Get Order Lines combine several receipts or order lines on one vendor invoice.
-- Amount checks validate that document totals including VAT match the sum of purchase lines before posting (page tagged 2025 release wave 1).
-- Invoice drafts can be matched to purchase orders and receipts with validation of quantities, prices, units of measure and item tracking; Payables Agent can propose matches for review.
-- Purchase approval workflows use approvers, amount limits and notifications.
-- The Purchasing analytics subtopic (43 pages) covers the Power BI Purchases app, built-in reports, Data Analysis and legacy reports planned for removal.
+- Purchase quotes request offers from vendors and convert to purchase orders. A quote can be created for a contact with no vendor record, and the vendor is then created automatically from the contact.
+- Unpaid posted purchase invoices can be corrected or canceled with the Correct or Cancel buttons. The system posts a corrective credit memo and keeps an audit trail.
+- Returns and cancellations use purchase credit memos or purchase return orders. Exact Cost Reversing keeps inventory valuation correct.
+- Get Receipt Lines and Get Order Lines combine several receipts or order lines on one invoice.
+- Standard recurring purchase lines can be assigned to vendors and inserted manually, automatically, or with Always Ask.
+- Order dates are calculated from the requested receipt date and lead times taken from item, vendor and stockkeeping unit cards.
+- Amount checks on purchase invoices and credit memos validate document totals including VAT against the purchase lines (2025 release wave 1).
+- Purchase invoice drafts can be matched to purchase orders and receipts, with Payables Agent proposing matches. The electronic documents page covers PEPPOL and OCR for versions before 2023 release wave 2.
 
 ## Subtopics
 
@@ -665,6 +666,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13463 [29x] Add Maintenance Code field on purchase order subpage and purchase invoice subpage](../../../changes/bcapps/13463.md) (code change): "Maintenance Code field added to Purchase Order Subform"
 - [#13616 [main] but 657849 - Refactor TableRelation logic and disable validation for Bank Account fields in multiple table extensions](../../../changes/bcapps/13616.md) (code change): "SWIFT Code validation is made consistent across Czech localization by disabling table relation validation"
 - [#13628 [main] Bug 657281 [Drop Shipment] Your Reference, , Vendor Order No., and Vendor Shipment No. are blank on Posted Purchase Receipt Lines](../../../changes/bcapps/13628.md) (code change): "Drop shipment receipts now correctly populate Your Reference, Vendor Order No., and Vendor Shipment No."
+- [#14138 [MAIN] Fix undo of final subcontracting operation after earlier operation undo (Bug 653934)](../../../changes/bcapps/14138.md) (code change): "Fixed a bug where undoing the final subcontracting operation on a posted purchase receipt"
 - [#9044 [Master] Contact email is no validated during creation purchase documents_New](../../../changes/bcapps/9044.md) (code change): "Contact email validation is restored during purchase document creation"
 - [#9084 Bug 640321: Blanket Purch. Order to Order drops extended text for later items](../../../changes/bcapps/9084.md) (code change): "Fixes a bug where extended text lines are dropped when converting blanket purchase orders"
 - [#9182 Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents](../../../changes/bcapps/9182.md) (code change): "Pay-to Name 2 field on purchase documents is now editable"

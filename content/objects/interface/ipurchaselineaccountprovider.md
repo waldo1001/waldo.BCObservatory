@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:47:37.951Z"
+  at: "2026-11-21T00:46:40.499Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b007bb107afc44f05f40f45e29d14b879571c6127f766067f6df0dc48894c484
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IPurchaseLineAccountProvider.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IPurchaseLineAccountProvider.Interface.al
     title: src/Apps/W1/EDocument/app/src/Processing/Interfaces/IPurchaseLineAccountProvider.Interface.al (releases/29.x)
     date: null
-    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
+    commit: d30504e3670310aa9f2396745813257d80d473b8
     t: null
     quote: null
 links:
@@ -88,7 +88,7 @@ relations:
 
 > Interface "IPurchaseLineAccountProvider" in EDocument (Microsoft.eServices.EDocument.Processing.Interfaces). 1 public procedures. Introduced in BC29, still in BC30, changed in BC30. Obsolete (Pending since 27.0).
 
-EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IPurchaseLineAccountProvider.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IPurchaseLineAccountProvider.Interface.al) · facts from BC29
 
 ## Properties
 

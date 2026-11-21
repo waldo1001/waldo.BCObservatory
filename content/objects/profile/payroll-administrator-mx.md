@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:47:37.951Z"
+  at: "2026-11-21T00:46:40.499Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d09b841146486eb3eae00f53ba5971f260ca0a3a16cd220d085a8a61d7a8f926
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/NA/BaseApp/Profiles/PayrollAdministrator.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/NA/BaseApp/Profiles/PayrollAdministrator.Profile.al
     title: src/Layers/NA/BaseApp/Profiles/PayrollAdministrator.Profile.al (releases/29.x)
     date: null
-    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
+    commit: d30504e3670310aa9f2396745813257d80d473b8
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Profile "PAYROLL ADMINISTRATOR" (MX) in the MX country layer. Introduced in BC29, still in BC30.
 
-MX country layer · captioned "Payroll Administrator" · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/NA/BaseApp/Profiles/PayrollAdministrator.Profile.al) · facts from BC29
+MX country layer · captioned "Payroll Administrator" · BC29-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/NA/BaseApp/Profiles/PayrollAdministrator.Profile.al) · facts from BC29
 
 An object of the [MX localization](../../localizations/mx.md), not part of W1.
 

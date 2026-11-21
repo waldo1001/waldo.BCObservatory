@@ -2,21 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/upgrade
 type: topic
 title: Upgrade
-summary: "Business Central on-premises upgrade documentation: supported upgrade paths, known issues, and per-release upgrade guides from v14 through v29 (2026 release wave 2). It answers which path applies from a given source version, what steps to follow, and what to check before upgrading."
+summary: "Upgrade documentation for Business Central on-premises: supported upgrade paths, known issues, and per-release upgrade guidance from version 14 through version 29 (2026 release wave 2). It answers which path applies to a source version, which steps to follow, and which problems to expect."
 tier: official
 language: en
 system: platform
 review:
-  state: reviewed
-  by: opus
-  at: "2026-11-09T00:45:18.470Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: cdb6c722cdb59575c8ea4ca917ccadfa82a79e8fd017bb4e76cea3f15ed757a4
+  input_hash: e15b0a503ad158cd714df1ddee934b2b5e44a0ee84ffeb5ef4f5aceb8b7e180a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility
@@ -354,28 +354,28 @@ narrative: generated
 
 # Upgrade
 
-> Business Central on-premises upgrade documentation: supported upgrade paths, known issues, and per-release upgrade guides from v14 through v29 (2026 release wave 2). It answers which path applies from a given source version, what steps to follow, and what to check before upgrading.
+> Upgrade documentation for Business Central on-premises: supported upgrade paths, known issues, and per-release upgrade guidance from version 14 through version 29 (2026 release wave 2). It answers which path applies to a source version, which steps to follow, and which problems to expect.
 
-Path: [Business Central on-premises](../business-central-on-premises.md) > Upgrade · tier official · system platform · narrative reviewed (checked by Opus)
+Path: [Business Central on-premises](../business-central-on-premises.md) > Upgrade · tier official · system platform · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section helps you plan and run an on-premises Business Central upgrade. Three pages sit at the top level: an overview of upgrading to Business Central (online or on-premises, including help migration and multitenancy migration), a matrix of supported upgrade paths, and a list of known issues for installation, upgrade and operations.
+This section covers upgrading Business Central on-premises. Three pages sit at the top level: an overview of upgrading to Business Central online or on-premises, a matrix of supported upgrade paths, and a list of known issues. The overview also touches on help migration and multitenancy migration.
 
-Release-specific guides are in subtopics for v29, v28, v27, v26 and v25. Each covers upgrade paths, pre-upgrade considerations, and the steps to upgrade or install a cumulative update. Older releases, from v14 through v24, are under Earlier versions. Related articles cover Txt2Al conversion of version 14 C/AL code and moving tables and fields between extensions with migration.json.
+Each release has its own subtopic. The newest ones (v29, v28, v27, v26, v25) hold the upgrade overview, pre-upgrade considerations, steps for installing a cumulative update, and steps for upgrading the System and Base Application from earlier versions. Releases from spring 2019 (v14) through 2024 release wave 1 (v24) are grouped under Earlier versions. Related articles cover converting version 14 C/AL code to AL with Txt2Al and moving tables between extensions with migration.json.
 
-Start with the supported upgrade paths page to find the route from your source version. Then open the guide for your target release and read its pre-upgrade considerations before the step-by-step procedure. Check the known issues page for problems in your target version.
+Start with the supported upgrade paths page to find whether your source version can go directly to the target or needs an intermediate version. Then open the subtopic for the target release, read its pre-upgrade considerations, and follow the upgrade or update steps. Check the known issues page for your version before you begin.
 
 ## Key points
 
-- The upgrade paths page shows direct and indirect routes from v14 (Spring 2019) to v29 (2026 wave 2), including intermediate versions.
-- Direct upgrade from v14 to the latest version is not supported from v26 onwards. Version 14 must go through v25.
-- The v29 guide covers upgrading from versions 25-28 and installing a cumulative update.
-- Version 28 steps include database conversion, extension publishing, sync and data upgrade.
-- The v27 guide covers upgrading the System and Base Application from versions 25 and 26.
-- Known issues cover PowerShell module failures, evaluation company creation, web server installation, extension sync errors, NavUserPassword authentication and permission sets, across versions 23 to 28.
-- Earlier versions (v14 to v24) cover C/AL to AL conversion, table moves between extensions, and permission set and report changes.
-- Related articles cover Txt2Al for version 14 C/AL code, migration.json for table ownership moves, and the India Data Migration Toolkit.
+- The supported upgrade paths page is a matrix from v14 (Spring 2019) through v29 (2026 wave 2), showing direct and indirect routes.
+- Direct upgrade from v14 to the latest version is not supported from v26 onwards. v14 must be routed through v25.
+- Indirect paths use intermediate versions, and C/AL to AL conversion applies to older source versions.
+- The v29 upgrade guidance covers upgrading from versions 25-28, plus pre-upgrade considerations for v26 and later.
+- The v28 steps include database conversion, extension publishing, sync and data upgrade.
+- The v27 and v26 subtopics cover installing a version update and upgrading the System and Base Application from earlier versions.
+- The known issues page covers PowerShell module failures, evaluation company creation, web server installation, extension sync errors, NavUserPassword authentication and permission sets. It lists versions from 23 to 28.
+- Related articles cover Txt2Al for converting version 14 C/AL code, migration.json for moving tables and fields between extensions, and the India Data Migration Toolkit.
 
 ## Subtopics
 

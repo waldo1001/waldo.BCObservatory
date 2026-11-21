@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:47:37.951Z"
+  at: "2026-11-21T00:46:40.499Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 654bad8574d66575d0be00b271dcd8b5f3bcd89f6c1a574945a5d1b8b72b6286
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/NA/BaseApp/Finance/SalesTax/ExternalTaxEngine.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/NA/BaseApp/Finance/SalesTax/ExternalTaxEngine.Interface.al
     title: src/Layers/NA/BaseApp/Finance/SalesTax/ExternalTaxEngine.Interface.al (releases/29.x)
     date: null
-    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
+    commit: d30504e3670310aa9f2396745813257d80d473b8
     t: null
     quote: null
 links:
@@ -74,7 +74,7 @@ relations:
 
 > Interface "External Tax Engine" (CA) in the CA country layer (Microsoft.Finance.SalesTax). 4 public procedures. Introduced in BC29, still in BC30.
 
-CA country layer · Microsoft.Finance.SalesTax · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/NA/BaseApp/Finance/SalesTax/ExternalTaxEngine.Interface.al) · facts from BC29
+CA country layer · Microsoft.Finance.SalesTax · BC29-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/NA/BaseApp/Finance/SalesTax/ExternalTaxEngine.Interface.al) · facts from BC29
 
 An object of the [CA localization](../../localizations/ca.md), not part of W1.
 

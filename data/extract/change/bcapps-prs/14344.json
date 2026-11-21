@@ -8,14 +8,14 @@
   ],
   "summary": "The SOA Setup timestamp helper now saves through the caller's buffer instead of a separate record, ensuring the row version stays current and preventing stale-record errors during scheduling.",
   "key_points": [
-    "Fixed stale-record error 85132286 that could occur when ScheduleSOAgent tried to modify an outdated SOA Setup record",
-    "Timestamp helper now persists to the existing caller's buffer instead of a separate CurrentSOASetup record",
-    "Prevents the caller's row version from becoming stale after instruction sync updates",
-    "Maintains optimistic concurrency and avoids unnecessary reloads of pending values",
-    "Preserves existing behavior for missing-record checks, scheduling logic, and 30-minute refresh intervals"
+    "Timestamp helper for Instructions Last Sync At now saves through the caller's SOA Setup buffer instead of a separate record",
+    "Keeps the caller's row version current so the later Modify in ScheduleSOAgent should not fail with stale-record error 85132286",
+    "Avoids the error handler rescheduling instead of completing normal end-of-run bookkeeping",
+    "Missing-record check, scheduling, recovery and the 30-minute refresh interval are unchanged",
+    "Runtime reproduction and regression tests are still pending"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

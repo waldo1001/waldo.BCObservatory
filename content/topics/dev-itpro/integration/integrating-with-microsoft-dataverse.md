@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration/integrating-with-microsoft-dataverse
 type: topic
 title: Integrating with Microsoft Dataverse
-summary: Integration of Business Central with Microsoft Dataverse, covering data synchronization and data virtualization with virtual tables. It answers questions about setting up and customizing sync, coupling records, mapping fields, and exposing Business Central data to Power Platform.
+summary: "Integration of Business Central with Microsoft Dataverse: data synchronization (setup, Base Integration Solution, mappings, coupling, AL proxy tables) and data virtualization (virtual tables, type mapping, synthetic relationships, solutions, Power Apps use). It helps choose and configure an integration approach."
 tier: official
 language: en
 system: integration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T21:13:11.950Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 6d0bd8e4e6545ede7107d63bfc4c93c88246230f38bcd5db32eab187b9436d1a
+  input_hash: 4087eaad3dc7c413cbe4f68454fccf20efc68bd7deaa9afeaefc1d14e3472462
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/powerplat-app-lifecycle-management
@@ -235,28 +235,27 @@ narrative: generated
 
 # Integrating with Microsoft Dataverse
 
-> Integration of Business Central with Microsoft Dataverse, covering data synchronization and data virtualization with virtual tables. It answers questions about setting up and customizing sync, coupling records, mapping fields, and exposing Business Central data to Power Platform.
+> Integration of Business Central with Microsoft Dataverse: data synchronization (setup, Base Integration Solution, mappings, coupling, AL proxy tables) and data virtualization (virtual tables, type mapping, synthetic relationships, solutions, Power Apps use). It helps choose and configure an integration approach.
 
-Path: [Integration](../integration.md) > Integrating with Microsoft Dataverse · tier official · system integration · narrative reviewed (checked by Opus)
+Path: [Integration](../integration.md) > Integrating with Microsoft Dataverse · tier official · system integration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Integrating Business Central with Microsoft Dataverse connects Business Central to Dynamics 365 applications and custom apps built on Dataverse. The landing page lists the main mechanisms: data synchronization, virtual tables, data change events, webhooks, and business events.
+Integrating Business Central with Microsoft Dataverse connects Business Central to Dynamics 365 applications and to custom apps built on Dataverse. The landing page names the main mechanisms: data synchronization, virtual tables, data change events, webhooks, and business events.
 
-The section has two subtopics. Data synchronization (15 pages) covers bidirectional sync setup, customizing integration tables, field and option mappings, coupling records, and generating AL proxy tables. It also includes a Dataverse API subtopic. Data virtualization (6 pages) covers Business Central virtual tables in Dataverse: how they expose data to Power Platform, how to model and relate them, how to manage them as solutions (ALM), and common FAQs.
+The section has two subtopics. Data synchronization (15 pages) covers setting up sync, the Base Integration Solution, customizing integration tables, field and option mappings, coupling records, and generating AL proxy tables. It includes a deeper Dataverse API subtopic of 11 pages. Data virtualization (6 pages) covers Business Central virtual tables in Dataverse, including how they are generated, how data types, keys, relations and enums map, and how to use the data in Power Apps.
 
-Start with the landing page to pick the approach. Then go to data synchronization if you need to copy and keep data in step, or to data virtualization if you want Dataverse and Power Platform to read Business Central data through virtual tables.
+Start with the landing page to see which mechanism fits your scenario. Go to data synchronization if you need to copy and couple records between the two systems. Go to data virtualization if you want Dataverse and Power Apps to read Business Central data through virtual tables.
 
 ## Key points
 
-- Integration options named on the landing page: data synchronization, virtual tables, data change events, webhooks, and business events.
-- Data synchronization supports setting up bidirectional sync between Business Central and Dataverse.
-- Sync can be customized through integration tables, field mappings, and option mappings.
-- Records can be coupled between the two systems, and AL proxy tables can be generated.
-- The data synchronization subtopic also includes a Dataverse API subtopic.
-- Data virtualization uses Business Central virtual tables in Dataverse to expose data to Power Platform.
-- Virtual tables can be modeled, related to other tables, and managed as solutions (ALM).
-- The data virtualization pages include FAQs.
+- The landing page lists data synchronization, virtual tables, data change events, webhooks and business events as integration options.
+- Data synchronization has 15 pages on setup, the Base Integration Solution, and customizing integration tables.
+- Sync customization includes field and option mappings, coupling records, and generating AL proxy tables.
+- A Dataverse API subtopic (11 pages) sits under data synchronization for deeper detail.
+- Data virtualization (6 pages) explains how virtual tables are generated in Dataverse from Business Central.
+- Virtual table pages cover mapping of data types, keys, relations and enums, and building synthetic relationships.
+- Virtual table pages also cover managing solutions across environments and using the data in Power Apps.
 
 ## Subtopics
 

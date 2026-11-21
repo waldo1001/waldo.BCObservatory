@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/administration/admin-center",
-  "input_hash": "28c67a7e68b86b7b6db28e3e5a4b6784a8ad28c8d93f7bf984d8641a6a984ee6",
-  "summary": "The Business Central admin center section covers the portal administrators use to manage production and sandbox environments: copy, rename, delete, restore, transfer, updates, sessions, apps, capacity, access, telemetry, notifications, database export and consumption-based billing. It answers how-to and limit questions about these tasks.",
-  "overview": "The admin center is the portal where tenant administrators manage Business Central online environments. The Environments tab is the main entry point: it shows environment details, creates and copies environments, links to Power Platform, sets update windows and logs admin operations. Related pages cover the environment lifecycle (copy, rename, delete and recover, restore from backup, transfer between tenants) and day-to-day operations (sessions, updates, apps).\n\nOther pages cover governance and monitoring: access through Microsoft Entra security groups and partner access, capacity and quotas, telemetry with Application Insights, notification channels, database export to BACPAC, and consumption-based billing for Copilot and agents. The Admin Center API subtopic (15 pages) covers the programmatic side.\n\nStart with the Business Central Administration Center page for an overview, then Managing Production and Sandbox Environments. Then go to the specific lifecycle or operations page for your task.",
+  "input_hash": "9d5d7a2e5c14eeba31b49bd4d0729ecbb437d9276a97e92027eed50a58d19dfa",
+  "summary": "The Business Central admin center section covers how administrators manage online environments: creating, copying, renaming, deleting, restoring, exporting and transferring them, plus apps, updates, access, capacity, telemetry, sessions, notifications and consumption-based billing. It answers how-to and limit questions, and it has an Admin Center API subtopic.",
+  "overview": "The admin center is the portal where administrators manage production and sandbox environments for a tenant. The Environments tab is the main entry point. From it you view environment details, create, copy, delete and recover environments, and link them to Power Platform environments. Separate pages go deeper on single operations such as renaming, restoring backups, exporting databases and transferring environments between Microsoft Entra tenants.\n\nDay-to-day operations are covered by pages on managing apps, updates, sessions, access, capacity and notifications. Telemetry and Application Insights help with troubleshooting. A page on consumption-based billing covers Copilot Credits for agent capabilities. The Admin Center API subtopic (15 pages) covers working with the admin center programmatically.\n\nStart with the Business Central Administration Center overview, then open the Environments page. Use the task-specific pages when you need the rules, limits and side effects of an operation.",
   "key_points": [
-    "Deleted environments are soft-deleted with 14-day retention for recovery, then hard-deleted; quota exceptions can apply when recovering production environments.",
-    "Backups can be restored from the last 28 days (point-in-time), with a limit of 10 restores per calendar month.",
-    "Transferring an environment between Microsoft Entra tenants is started on the source tenant and must be accepted on the destination tenant within 8 hours; scheduled transfers are supported.",
-    "Copying an environment creates a sandbox or production environment on the same application version, including Marketplace and per-tenant extensions.",
-    "Database export creates BACPAC files in an Azure standard storage account using a shared access signature; export is rate limited.",
-    "Manage Apps handles global apps, per-tenant extensions and development extensions, with dependency resolution and update scheduling.",
-    "Updates are managed through update windows, target versions, and notification recipients; notifications go by email, Message Center, Service Health Dashboard and Application Insights.",
-    "Consumption-based billing for Expense, Payables and Sales Order agents uses Copilot Credits, with prepaid capacity or pay-as-you-go through Power Platform."
+    "Environments can be copied to create sandbox or production environments on the same application version, including Marketplace and per-tenant extensions.",
+    "Deleted environments are soft-deleted with a 14-day retention period for recovery, then hard-deleted permanently.",
+    "Backups can be restored within 28 days, with a limit of 10 restores per calendar month.",
+    "Environment transfer between Microsoft Entra tenants is started in the source tenant and must be accepted in the destination tenant within 8 hours. Transfers can be scheduled.",
+    "Database export creates BACPAC files in an Azure standard storage account using a shared access signature. Export is rate limited.",
+    "Access is managed with Microsoft Entra security groups, partner access controls, Essentials and Premium license assignment, and Microsoft 365 license access.",
+    "The Manage Apps page handles global apps, per-tenant extensions and development extensions, including dependencies and update scheduling.",
+    "Renaming an environment can affect URLs, integrations, bookmarks, add-ins, Power BI and external applications."
   ],
   "members_used": 16,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-11-15T00:50:17.997Z",
+  "at": "2026-11-21T01:00:13.762Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.038371
+    "cost_usd": 0.021669
   }
 }

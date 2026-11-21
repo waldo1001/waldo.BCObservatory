@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -204,6 +204,7 @@ links:
   videos:
     - video/fdzTWZyT6mI
     - video/MWXwtRr6-Wk
+    - video/whtP2i7zeso
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-prices-incl-vat-prod-posting-group--3b717ab825
     - post/thedynamicsexplorer-com/9815
@@ -237,6 +238,8 @@ links:
     - change/bcapps/13310
     - change/bcapps/13403
     - change/bcapps/13415
+    - change/bcapps/14008
+    - change/bcapps/14373
     - change/bcapps/9089
     - change/bcapps/9260
     - change/bcapps/9340
@@ -254,7 +257,7 @@ children:
 coverage:
   learn: 15
   code: 60
-  video: 2
+  video: 3
   blog: 2
   guideline: 0
 bc_forms:
@@ -402,6 +405,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13310 [Master]-Reverse Charge VAT with 100% Non-Deductible VAT Posts Incorrectly in Foreign Currency Transactions.](../../../../changes/bcapps/13310.md) (code change): "reverse charge VAT with 100% non-deductible VAT in foreign currency"
 - [#13403 Bug 657097: [master] Suggest Lines fails with a duplicate ECSL VAT Report Line Relation record in GB environment](../../../../changes/bcapps/13403.md) (code change): "EC Sales List Suggest Lines in GB environment to process each VAT entry"
 - [#13415 [29.X]-Reverse Charge VAT with 100% Non-Deductible VAT Posts Incorrectly in Foreign Currency Transactions](../../../../changes/bcapps/13415.md) (code change): "Reverse Charge VAT with 100% non-deductible VAT in foreign currency"
+- [#14008 [MAIN] Fix customer GST application posting sequence (Bug 659070)](../../../../changes/bcapps/14008.md) (code change): "Fixed a posting sequence error when applying GST advance payments"
+- [#14373 [MAIN] Subcontracting Receipt Extensibility Events.](../../../../changes/bcapps/14373.md) (code change): "Integration events are added to subcontracting receipt posting in the India GST application"
 - [#9089 Merge-ES-Excluded-from-Calculation-to-W1](../../../../changes/bcapps/9089.md) (code change): "ES Excluded from Calculation functionality is merged into W1"
 - [#9260 Bug 637507: [master] [Report 743 VAT Reconciliation Report] Incorrect VAT Base and Amount when using Non-Deductible VAT](../../../../changes/bcapps/9260.md) (code change): "VAT Reconciliation Report now includes a configurable option to report either the total VAT amount"
 - [#9340 [main][Gen. Jnl.-Post Line]` Add var NextVATEntryNo to OnAfterGLFinishPosting in Code](../../../../changes/bcapps/9340.md) (code change): "OnAfterGLFinishPosting now exposes NextVATEntryNo as a var parameter"
@@ -412,6 +417,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../../../../posts/thedynamicsexplorer-com/9815.md) (community post): "Adjusting VAT amounts on purchase invoices and orders when Business Central's calculations differ"
 - [Introducing: Multiple VAT Numbers for Customers (2024 release wave 2)](../../../../videos/fdzTWZyT6mI.md) (video): "Multiple VAT Numbers for Customers (2024 release wave 2). Topics: multiple vat numbers; customers; vat registration"
 - [What's New: VAT Date in Business Central (2023 release wave 2)](../../../../videos/MWXwtRr6-Wk.md) (video): "VAT Date in Business Central; VAT Date field; VAT setup"
+- [What's New: Enhancements in Intrastat (2025 release wave 1)](../../../../videos/whtP2i7zeso.md) (video): "Enhancements in Intrastat; mandatory fields; vat numbers; regulatory compliance"
 
 ## Business Central pages and reports
 

@@ -1,38 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-profile-configuration-lifecycle-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-profile-configuration-lifecycle-trace",
-  "title": "Analyzing profile configuration lifecycle telemetry",
-  "blob": "49d288da2c794db4e88fa9e533f4f1e0778624aa",
+  "title": "Analyzing Profile Configuration Lifecycle Telemetry",
+  "blob": "84100ad99b29c062bd0b1512f825d9816d86a6e6",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "status",
-      "text": "Profile configuration lifecycle telemetry applies to Business Central 2022 release wave 2, version 21.0 and later"
+      "text": "Generally available from version 21.0, 2022 release wave 2 and later"
     },
     {
       "kind": "fact",
-      "text": "Tracks profile operations: import, export, create, copy, and remove from web client"
+      "text": "Emits telemetry signals for profile operations like import, export, create, copy, and remove actions"
     },
     {
       "kind": "fact",
-      "text": "Profile import succeeded event ID LC0046, failed event ID LC0047"
+      "text": "Each trace includes event IDs ranging from LC0046 to LC0055 that identify the specific operation performed"
     },
     {
       "kind": "fact",
-      "text": "Profile export succeeded event ID LC0048, failed event ID LC0049"
+      "text": "Telemetry tracks profile page customization lifecycle including when customizations are removed or converted"
     },
     {
       "kind": "fact",
-      "text": "Profile copy succeeded event ID LC0050, failed event ID LC0051"
+      "text": "Diagnostic information is collected including severity level, compiler messages, and designer feedback during operations"
     },
     {
       "kind": "fact",
-      "text": "Profile create, remove, and customization operations tracked with LC0052 through LC0055 event IDs"
+      "text": "Export operations record whether Force flag was enabled, allowing profiles with compilation errors to be exported"
     },
     {
       "kind": "fact",
-      "text": "Profile app ID empty or all-zeros indicates profile from web client, not extension"
+      "text": "Copy operations track source and destination profile IDs, as well as their associated extension IDs"
     }
   ],
   "dropped": 0,
@@ -40,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007985,
-      "pages_in_call": 7
+      "cost_usd": 0.007109,
+      "pages_in_call": 8
     }
   ]
 }

@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:18:32.391Z"
+  at: "2026-11-21T00:15:56.434Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1a92a89f66be6fbe97b36a0dd831e27921166bf2
@@ -30,7 +30,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/xmlport/xmlport-text-encoding-defaults-to-msdos.md
     title: "microsoft/BCQuality: A text XMLport uses MS-DOS encoding unless `TextEncoding` is set"
     date: "2026-11-19"
-    commit: dd49341915045164248349bd891b106ebb4b34cb
+    commit: aaaf6c13c219294fcebf644f1662f4d77061e2f7
     t: null
     quote: null
 links:
@@ -99,4 +99,4 @@ See sample: [`xmlport-text-encoding-defaults-to-msdos.bad.al`](https://github.co
 
 ---
 
-From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at aaaf6c1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

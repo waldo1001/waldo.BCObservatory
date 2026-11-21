@@ -2,21 +2,21 @@
 id: topic/dev-itpro/administration/understand-business-central-online
 type: topic
 title: Understand Business Central online
-summary: "Business Central online fundamentals: infrastructure (tenants, environments, companies), environment types, update cycles, version numbers, operation limits, country and language availability, trials and subscriptions, and partner topics such as reselling, delegated admin and support. It answers what the service is, how it is organized, and what limits and processes apply."
+summary: "Business Central online as a service: infrastructure and tenants, environment types, update cycles, version numbers, operation limits, country/region and language availability, trials and subscriptions, partner reselling, delegated admin access and technical support. It answers questions about how the online service is structured, run and supported."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:54:38.985Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: af87f9aaebe9d51d6fd7611e5d21de937fa3861cc08d85f6527dd560e9cf6832
+  input_hash: 55b170b77ea8dd5d9835fe67761481fb98a43762b5bc5fa51ed743c25552d602
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment-extend-enhancements
@@ -196,28 +196,28 @@ narrative: generated
 
 # Understand Business Central online
 
-> Business Central online fundamentals: infrastructure (tenants, environments, companies), environment types, update cycles, version numbers, operation limits, country and language availability, trials and subscriptions, and partner topics such as reselling, delegated admin and support. It answers what the service is, how it is organized, and what limits and processes apply.
+> Business Central online as a service: infrastructure and tenants, environment types, update cycles, version numbers, operation limits, country/region and language availability, trials and subscriptions, partner reselling, delegated admin access and technical support. It answers questions about how the online service is structured, run and supported.
 
-Path: [Administration](../administration.md) > Understand Business Central online · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Administration](../administration.md) > Understand Business Central online · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains how Business Central online is built and operated. Start with "Understanding the infrastructure of Business Central online", which describes how a Microsoft Entra tenant holds environments (by country/localization), and how companies act as separate legal entities inside each environment. The Environment types subtopic then covers production, sandbox, preview, test and demo environments, trials, partner sandboxes and quotas.
+This section explains how Business Central online works from a tenant and service point of view. The infrastructure page covers how environments and companies relate to Microsoft Entra tenants and licensing. The Environment types subtopic then describes production, sandbox, preview, test and demo environments, and how quotas apply.
 
-Several pages are references for running environments: Update cycles (preview, update, grace and enforced periods, maintenance windows, rescheduling), Version Numbers (major.minor.build.revision mapped to release waves), Operation Limits (connections, file and database size, timeouts, background sessions, OData and SOAP), and Country/Regional Availability and Supported Languages.
+Operational pages cover how the service changes and what limits it sets. Update cycles describe major and minor updates, with preview, update, grace and enforced periods. The version numbers page maps major.minor.build.revision numbers to release waves. The operation limits page lists constraints on connections, data, database operations, background tasks, reports, OData and SOAP requests.
 
-The remaining pages target partners and new customers: Trials and subscriptions, Get started as a reseller, Delegated admin access (GDAP), and the Technical support overview. Customers should begin with trials and infrastructure. Partners should begin with the reseller guide and delegated admin page.
+Other pages serve partners and new customers. They cover trials and subscriptions, reselling as a partner, delegated admin access through GDAP, technical support, and country/region and language availability. Start with the infrastructure page and Environment types for orientation. Then go to the page that matches your task.
 
 ## Key points
 
-- Infrastructure: a Microsoft Entra tenant contains environments, and each environment contains companies that are separate legal entities.
-- Environment types include production, sandbox, preview, test and demo, with quotas applying to them.
-- Update cycles have preview, update, grace and enforced periods; admins can configure maintenance windows and reschedule updates in the admin center.
+- Infrastructure page: environments map to Microsoft Entra tenants, one environment can hold multiple companies, and environments can be transferred between tenants.
+- Environment types: production, sandbox, preview, test and demo environments, with guidance on trials, partner sandboxes, previewing major updates and quotas.
+- Update cycles: major and minor updates pass through preview, update, grace and enforced periods. Admins can set the maintenance window and reschedule updates in the admin center.
 - Version numbers use the major.minor.build.revision format, with platform and application versions mapped to release waves (versions 24 to 28 are listed).
-- Operation limits cover client connections, file and database size, search and SQL command timeouts, background sessions, reports, and OData and SOAP requests.
-- Country/region availability lists localization providers, Azure geography mapping, and platform and application language support.
-- Trials and subscriptions cover free trial signup, extending trials, buying subscriptions, data migration, removing licenses and canceling.
-- Partners resell through the indirect reseller or Cloud Solution Provider model and use GDAP with the Dynamics 365 Business Central Administrator role for delegated access, which has limitations such as job queues.
+- Operation limits cover client connections, file and database size, search and SQL command timeouts, and background session limits.
+- Delegated admin access: resellers use GDAP relationships and the Dynamics 365 Business Central Administrator role, with least-privilege advice. Delegated admins have limits, such as with job queues.
+- Trials and subscriptions: free trial signup, extending trials, buying subscriptions, data migration, removing licenses and canceling.
+- Country/region availability covers Microsoft-provided and partner-provided localizations, the W1 version, and platform and application language support.
 
 ## Subtopics
 
@@ -262,13 +262,12 @@ The remaining pages target partners and new customers: Trials and subscriptions,
   - Limit: Strongly not recommended to use a free trial to run your business; contact a reselling partner to migrate data.
   - In the observatory: [Page 357 "Companies"](../../../objects/page/357.md)
 - [Understanding the infrastructure of Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology): Learn how environments in Business Central online reflect the Microsoft Entra tenant with an example of environments and companies across two countries/regions.
-  - Business Central is available in a limited number of markets; check Country/regional availability and supported languages documentation.
-  - Prerequisite: Users must have a work or school account tied to a Microsoft Entra tenant to use Business Central online.
-  - Each Microsoft Entra tenant automatically receives some environments, each tied to a specific country and localization.
-  - Environments can contain multiple companies representing legal entities or business units with separate accounting requirements.
-  - All licensed users in a Microsoft Entra tenant can access all companies in each environment of that tenant.
-  - Users from one Microsoft Entra tenant cannot access environments belonging to another Microsoft Entra tenant.
-  - Admins can transfer environments between Microsoft Entra tenants if organizational structure changes over time.
+  - Prerequisite: Users must sign up with a work or school account tied to a Microsoft 365 subscription and Microsoft Entra tenant.
+  - Each Microsoft Entra tenant receives automatic environments upon licensing; each environment ties to a country and localization.
+  - Environments can contain multiple companies, each representing a legal entity with separate accounting requirements.
+  - Organizations can transfer environments between Microsoft Entra tenants if structure changes.
+  - Users with same license access all companies in all environments their Microsoft Entra tenant owns; permissions controlled within Business Central.
+  - Limit: Users from different Microsoft Entra tenants cannot access the same environment.
 - [Update cycles](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline): Learn about the timeline of Business Central online update rollouts. Prepare for both major updates and minor updates with minimal disruption in productivity.
   - Status: Generally available. Two major releases occur every April and October.
   - Preview period starts one month before major release, typically March and September. Partner Sandbox tenants access early access preview alongside the entire update period.

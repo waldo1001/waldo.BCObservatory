@@ -1,38 +1,34 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-database-locks-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-locks-trace",
-  "title": "Database Lock Timeout Trace Telemetry | Microsoft Docs",
-  "blob": "647e072197a589cbcf1549e0c9aafb3345434aae",
+  "title": "Analyzing Database Lock Timeout Trace Telemetry",
+  "blob": "a5bd8b885d6e6d59b323e03f632139c63629bca9",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "status",
-      "text": "Database lock timeout telemetry introduced in Business Central 2020 release wave 1, version 16.0."
+      "text": "Generally available from Business Central 2020 release wave 1, version 16.0"
     },
     {
       "kind": "fact",
-      "text": "Two event types emitted: Database lock timed out event and one or more Database lock snapshot events."
+      "text": "RT0012 Database lock timed out event occurs when a lock request times out for a session"
     },
     {
       "kind": "fact",
-      "text": "Lock timeout triggers snapshot events providing details about SQL sessions holding locks at timeout time."
-    },
-    {
-      "kind": "prerequisite",
-      "text": "On-premises environments must enable EnableLockTimeoutMonitoring setting; off by default."
+      "text": "RT0013 Database lock snapshot entry events provide details about SQL sessions holding locks at timeout, including lock type, status, mode, and table"
     },
     {
       "kind": "fact",
-      "text": "RT0012 event includes AL object, stack trace, client type, extension, SQL session details."
+      "text": "RT0027 Database lock snapshot parent event groups related lock snapshot entries and applies from version 20.0 onwards"
     },
     {
       "kind": "fact",
-      "text": "RT0027 parent event introduced in 2024 release wave 2 groups related lock snapshot entries."
+      "text": "EnableLockTimeoutMonitoring server setting controls lock timeout telemetry; defaults to off on on-premises"
     },
     {
       "kind": "fact",
-      "text": "Telemetry captures victim session, not sessions holding locks; use joins to correlate data."
+      "text": "Snapshot ID maps lock timeout events to associated lock snapshot events for correlation and troubleshooting"
     }
   ],
   "dropped": 0,
@@ -40,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005012,
-      "pages_in_call": 12
+      "cost_usd": 0.006292,
+      "pages_in_call": 7
     }
   ]
 }

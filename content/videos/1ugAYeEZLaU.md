@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:12:05.160Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-11-21T00:52:51.542Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -111,8 +111,8 @@ links:
       label: possibly related
       why: both name Page 39 "General Journal"
       by: code
-    - to: post/yzhums-com/56521
-      title: "Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page"
+    - to: post/yzhums-com/74858
+      title: "Dynamics 365 Business Central: How to hide the header and footer on a worksheet page to display more lines"
       label: possibly related
       why: both name Page 39 "General Journal"
       by: code
@@ -236,4 +236,4 @@ No source states these links: they share an object, a model read them, or a pers
 - [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../posts/thedynamicsexplorer-com/10232.md) — possibly related: both name Page 39 "General Journal"
 - [Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?](../posts/thedynamicsexplorer-com/37202.md) — possibly related: both name Page 118 "General Ledger Setup"
 - [Dynamics 365 Business Central: How to copy (synchronize) the Incoming Document to all Gen. Journal Lines](../posts/yzhums-com/71645.md) — possibly related: both name Page 39 "General Journal"
-- [Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page](../posts/yzhums-com/56521.md) — possibly related: both name Page 39 "General Journal"
+- [Dynamics 365 Business Central: How to hide the header and footer on a worksheet page to display more lines](../posts/yzhums-com/74858.md) — possibly related: both name Page 39 "General Journal"

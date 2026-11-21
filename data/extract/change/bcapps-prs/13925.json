@@ -6,11 +6,11 @@
   "systems_joined": [
     "copilot"
   ],
-  "summary": "Mileage starting and ending point addresses longer than 50 characters now save correctly on expense and expense report lines.",
+  "summary": "Fixes mileage starting and ending point addresses longer than 50 characters failing to save on expense report lines, where the Text[50] limit was not enforced. The Expense, Expense Report Line and Posted Expense Report Line tables were changed.",
   "key_points": [
-    "Extended address field length to accommodate addresses exceeding 50 character BC Text limit",
-    "Fixed for Expense, Expense Report Line, and Posted Expense Report Line tables",
-    "Addresses now properly persist without truncation or save failures"
+    "Addresses over 50 characters previously failed to save because the Text[50] limit was not enforced",
+    "Changes made to the Expense, Expense Report Line and Posted Expense Report Line tables",
+    "Backport to the 29.x release branch"
   ],
   "change_kind": "fix",
   "behavior_change": true,

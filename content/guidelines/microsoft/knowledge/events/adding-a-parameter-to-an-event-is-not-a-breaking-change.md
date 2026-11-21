@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:19:07.539Z"
+  at: "2026-11-21T00:15:56.434Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 73c3dc549223629533e54ba5be2d84fa5bd2ce2e
@@ -30,7 +30,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/adding-a-parameter-to-an-event-is-not-a-breaking-change.md
     title: "microsoft/BCQuality: Adding a parameter to an event is not a breaking change"
     date: "2026-11-19"
-    commit: dd49341915045164248349bd891b106ebb4b34cb
+    commit: aaaf6c13c219294fcebf644f1662f4d77061e2f7
     t: null
     quote: null
 links:
@@ -82,4 +82,4 @@ Do not flag the addition of a parameter to a `local` or `internal` event publish
 
 ---
 
-From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at aaaf6c1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

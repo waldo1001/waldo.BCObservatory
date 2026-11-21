@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:55.273Z"
   flags: []
 generated:
-  at: "2026-11-08T01:01:49.909Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -53,6 +53,7 @@ links:
   posts:
     - post/thedynamicsexplorer-com/37042
     - post/yzhums-com/16503
+    - post/yzhums-com/77046
   guidelines: []
 learn_toc_path:
   - Administration
@@ -64,7 +65,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 92a2c846413dc9b61a9d662da08d828d1f735dc798d654dafdffd2807dfd21bc
@@ -118,5 +119,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Dynamics 365 Business Central – Why when I create new users do they get full access by default](../../../posts/thedynamicsexplorer-com/37042.md) (community post): "edit the licence, turn on Customise Permissions and delete permission sets"
 - [Dynamics 365 Business Central Cloud (SaaS): Find out when your license expires (expiration date)](../../../posts/yzhums-com/16503.md) (community post): "Checking Business Central license expiration dates in the Microsoft 365 admin center"
+- [Dynamics 365 Business Central: How to easily check users and their licenses (User Details)](../../../posts/yzhums-com/77046.md) (community post): "centralized view of user licensing information in one convenient location"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

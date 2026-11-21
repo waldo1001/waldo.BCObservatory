@@ -7,16 +7,16 @@
     "copilot",
     "finance"
   ],
-  "summary": "Expense Management Setup table is now public for extensions to read and modify expense management settings, while agent-specific and corporate card fields remain internal.",
+  "summary": "Table 6930 Expense Agent Setup, which holds company-wide expense management settings, is now public so extensions can read and maintain those settings. Agent, mailbox, notification, policy and corporate card fields stay internal at field level, and the corporate card interface, table, enums and fields are made internal.",
   "key_points": [
-    "Expense Management Setup table made public for accessing and maintaining company-wide expense settings",
-    "Agent-specific fields (Enable Agent, User Security ID, communication, notifications) marked as internal",
-    "Corporate card surface made internal as the feed is not yet mature for partner contracts",
-    "Three public enums (Expense Exchange Rate, Full Per Diem Calculation, Partial Day Rules) marked non-extensible",
-    "Extensions can read default-setup flags to avoid overwriting their own setup data"
+    "Expense Agent Setup table made public for expense management settings such as number series, rules, currency, mileage and per diem",
+    "Agent, communication, notification, policy evaluation, approval workflow and corporate card fields kept internal at field level",
+    "Corporate card provider interface, statement table, enums and table extension fields made internal",
+    "Expense Exchange Rate, Exp. Full Per Diem Calculation and Expense Partial Day Rules enums made accessible and non-extensible",
+    "Extensions can read the default-setup Applied flags and set them so the setup wizard does not overwrite their data"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

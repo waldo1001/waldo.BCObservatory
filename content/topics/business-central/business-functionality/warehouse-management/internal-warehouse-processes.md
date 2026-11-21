@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:50.308Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -126,6 +126,7 @@ links:
     - change/bcapps/10522
     - change/bcapps/11823
     - change/bcapps/11947
+    - change/bcapps/13201
     - change/bcapps/13699
     - change/bcapps/9437
 learn_toc_path:
@@ -200,6 +201,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10522 [main] Bug 647499 Bin Replenishment with Pick by FEFO Creates Incorrect Inventory Movements](../../../../changes/bcapps/10522.md) (code change): "Fixed bin replenishment with FEFO-based picking to correctly calculate quantities"
 - [#11823 [Main]-Create Movement from Movement Worksheet doesn't respect Quantity nor Qty. to Handle if we Get Bin Content](../../../../changes/bcapps/11823.md) (code change): "Create Movement from Movement Worksheet doesn't respect Quantity nor Qty. to Handle"
 - [#11947 [29x]-Create Movement from Movement Worksheet doesn't respect Quantity nor Qty. to Handle if we Get Bin Content](../../../../changes/bcapps/11947.md) (code change): "Create Movement from Movement Worksheet doesn't respect Quantity nor Qty. to Handle"
+- [#13201 [main] Bug 592028 Retention policy fails: Bin Mandatory must be equal to 'No' in Location. Current value is 'Yes'.](../../../../changes/bcapps/13201.md) (code change): "Posted Invt. Pick Header and Posted Invt. Put-away Header tables"
 - [#13699 [main] Registering a Warehouse Movement with "Breakbulk Filter" enabled registers only the visible lines; hidden breakbulk lines remain unregistered](../../../../changes/bcapps/13699.md) (code change): "Warehouse movement registration now includes all breakbulk lines"
 - [#9437 [Extensibility Request] issue 30339: add OnAfterCalcAvailableQtyBase event to Whse. Worksheet Line](../../../../changes/bcapps/9437.md) (code change): "An integration event was added to the warehouse worksheet line calculation"
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -80,7 +80,6 @@ links:
     - change/bcapps/14022
     - change/bcapps/14081
     - change/bcapps/14082
-    - change/bcapps/14314
 learn_toc_path:
   - Copilot and agent capabilities
   - Expense Agent (preview)
@@ -148,7 +147,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#14022 [Expense Agent] Travel request fixes: deletion after cancel, linked reports, approver audit user, closure history](../../../../changes/bcapps/14022.md) (code change): "Travel requests can now be deleted after linked posted reports are canceled"
 - [#14081 [Main] - Bug 656406: [Expense Agent] Setup wizard access text should mention the mobile app (Android/iOS) alongside Web](../../../../changes/bcapps/14081.md) (code change): "Expense Agent setup wizard updates UI text to clarify that the submission channels option"
 - [#14082 [29.x]-Bug 656406: [Expense Agent] Setup wizard access text should mention the mobile app (Android/iOS) alongside Web](../../../../changes/bcapps/14082.md) (code change): "Expense Agent setup wizard text is updated to clarify that users can submit expenses"
-- [#14314 Update expense category and subcategory descriptions](../../../../changes/bcapps/14314.md) (code change): "Expense category and subcategory descriptions are clarified to explain what purchases"
 - [Quick Tip: What’s in Business Central Update 28.1](../../../../posts/thinkaboutit-be/7920.md) (community post): "Expense Agent automates receipt extraction, categorization, per diem calculation"
 - [Quick Tip: What’s in Business Central Update 28.3](../../../../posts/thinkaboutit-be/8022.md) (community post): "Expense Agent adds support for Danish, French, Spanish languages with German coming soon"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../../videos/4TE8uwIi91k.md) (video): "Receipt scanning with auto capture; Bulk receipt upload; Mileage expense creation"

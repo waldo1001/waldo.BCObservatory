@@ -2,37 +2,29 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-server-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-mcp-server-trace",
   "title": "Analyze MCP Server Tool Calls Telemetry",
-  "blob": "bb483b3d427c3fb638cf81cebd978f19995ca6da",
+  "blob": "fc2d9faf8bc38c82f4304a3ec77ff0b738c00cd7",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "status",
-      "text": "Generally available from version 28.0, Business Central 2026 release wave 1 and later"
+      "text": "MCP server tool calls telemetry applies to Business Central 2026 release wave 1, version 28.0, and later."
     },
     {
       "kind": "fact",
-      "text": "MCP Server telemetry tracks tool calls made through Model Context Protocol configurations"
+      "text": "MCP server telemetry gathers data about tool calls from external MCP hosts to Business Central MCP server configurations."
     },
     {
       "kind": "fact",
-      "text": "Event RT0054 fires when an MCP Server tool is called from Business Central"
+      "text": "Tool call events capture configuration name, tool name, client name, authenticated application ID, execution time, and invocation result."
     },
     {
       "kind": "fact",
-      "text": "Custom dimensions include configuration name, tool name, client name, and execution time"
+      "text": "Tool invocation failures are tracked with reason codes; MCP tool result dimensions record Success or Failure status."
     },
     {
       "kind": "fact",
-      "text": "Tool invocation results are Success or Failure, with failure reasons captured when applicable"
-    },
-    {
-      "kind": "fact",
-      "text": "KQL queries can analyze tool usage frequency, success rates, and troubleshoot failures"
-    },
-    {
-      "kind": "prerequisite",
-      "text": "MCP Server must be configured in Business Central before telemetry is generated"
+      "text": "Dynamic tools populate the dynamicToolName dimension with the action name for dynamic MCP tool configurations."
     }
   ],
   "dropped": 0,
@@ -40,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005231,
-      "pages_in_call": 10
+      "cost_usd": 0.006741,
+      "pages_in_call": 8
     }
   ]
 }

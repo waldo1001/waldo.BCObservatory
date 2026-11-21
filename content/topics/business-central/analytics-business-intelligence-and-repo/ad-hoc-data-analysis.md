@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -120,6 +120,7 @@ links:
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72
+    - post/thedynamicsexplorer-com/8821
     - post/thedynamicsexplorer-com/9995
     - post/thinkaboutit-be/7503
     - post/thinkaboutit-be/7537
@@ -139,7 +140,7 @@ coverage:
   learn: 7
   code: 25
   video: 10
-  blog: 10
+  blog: 11
   guideline: 0
 bc_forms:
   - 16
@@ -212,6 +213,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Analysis Mode killed half the Excel exports on your client's shared drive](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257.md) (community post): "lets users group, filter, and pivot data on Business Central list pages"
 - [Business Central v29: Use System Audit Fields in Analysis Mode and Profiles](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72.md) (community post): "System audit fields like System Created At, System Created By, System Modified At"
+- [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../../../posts/thedynamicsexplorer-com/8821.md) (community post): "Analysis Mode with natural language in Copilot to view GL balances"
 - [Dynamics GP to Business Central – The Arrival of Smartlist Features via “Add Fields from Related Tables in Analysis Mode”](../../../posts/thedynamicsexplorer-com/9995.md) (community post): "Add fields from related tables in Analysis mode after activating it"
 - [How Do I: Analyze List Pages and Data Using Analysis Mode in Business Central](../../../posts/thinkaboutit-be/7503.md) (community post): "Analysis Mode is a built-in Business Central feature that lets users interactively explore list data"
 - [How Do I: Replace Reports with Analysis Mode in Business Central](../../../posts/thinkaboutit-be/7537.md) (community post): "Analysis Mode works best for answering questions rather than producing"

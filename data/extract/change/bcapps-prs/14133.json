@@ -8,9 +8,9 @@
   ],
   "summary": "Total Number of Supplies field in German VAT Report now has correct data type and tooltip.",
   "key_points": [
-    "Corrected field type for Total Number of Supplies in German localization",
-    "Updated tooltip to accurately describe the field",
-    "Ensures consistency between table definition and page display"
+    "Corrected the data type of Total Number of Supplies in the German VAT Report Header table",
+    "Corrected the tooltip shown on the German VAT Report page",
+    "Backport to the 29.x release branch"
   ],
   "change_kind": "fix",
   "behavior_change": true,

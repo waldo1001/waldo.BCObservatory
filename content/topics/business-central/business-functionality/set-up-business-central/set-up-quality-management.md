@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,6 +76,7 @@ links:
   changes:
     - change/bcapps/13104
     - change/bcapps/13428
+    - change/bcapps/14147
 learn_toc_path:
   - Business functionality
   - Set up Business Central
@@ -136,6 +137,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#13104 update tests and enable them](../../../../changes/bcapps/13104.md) (code change): "Application logic in Qlty. Result Condition Mgmt. reworked"
 - [#13428 [Quality Management] Keep Sample Size and Pass/Fail Quantity within Quantity (Base)](../../../../changes/bcapps/13428.md) (code change): "Quality Management inspections now enforce that Sample Size and Pass/Fail Quantity"
+- [#14147 Fix reactivated direct transfer and BEANS issues](../../../../changes/bcapps/14147.md) (code change): "Quality Management BEANS demo data now gives the Coffee Defect and Coffee Uniformity tests"
 
 ## Business Central pages and reports
 

@@ -8,11 +8,11 @@
   ],
   "summary": "Draft preparation skip now applies only to the Payables Agent's own e-documents when agent-driven line matching is enabled, restoring normal preparation for other e-document services.",
   "key_points": [
-    "Narrowed draft preparation skip condition to check both experiment enablement and e-document service being the agent's AGENT service",
-    "Prevents vendor, purchase order, line matching and VAT posting group information loss for PEPPOL and other service e-documents",
-    "Maintains agent's internal draft preparation workflow without affecting other providers",
-    "Experiment behavior preserved; no changes when feature experiment is disabled",
-    "Service code duplicated as label to avoid cross-app dependency"
+    "With the agent-driven line matching experiment on, draft preparation is skipped only for e-documents of the AGENT E-Document service",
+    "E-documents from other services, such as PEPPOL XML, again get a vendor, purchase order, line matching and VAT posting group in the draft",
+    "The experiment check and the agent service check are now separate conditions",
+    "Nothing changes when the experiment is off",
+    "AGENT service code duplicated as a label because Payables Agent depends on E-Document Core"
   ],
   "change_kind": "fix",
   "behavior_change": true,

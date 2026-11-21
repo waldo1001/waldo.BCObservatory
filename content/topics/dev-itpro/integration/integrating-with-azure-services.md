@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration/integrating-with-azure-services
 type: topic
 title: Integrating with Azure services
-summary: "Integration of Business Central with Azure services: Application Insights, Blob and File Services, Functions, Key Vault, Virtual Networks and Azure OpenAI Service. It answers questions about storing extension secrets in Azure Key Vault, and about enabling and analyzing telemetry for Key Vault and Azure Function calls."
+summary: "Integration of Business Central with Azure services: Application Insights telemetry, Azure Key Vault secrets for extensions, and Azure Functions calls. It answers questions about setting up these links and monitoring them through telemetry."
 tier: official
 language: en
 system: integration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:56:15.779Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 55285c86d60186f64c877c91ccbff075b3dabb2f18cb245fc3b09cd5209cbb19
+  input_hash: 0d7c916dea69951d23579c43a825b3a8a473f47d00dfb1511299af1a62c95796
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace
@@ -99,36 +99,38 @@ narrative: generated
 
 # Integrating with Azure services
 
-> Integration of Business Central with Azure services: Application Insights, Blob and File Services, Functions, Key Vault, Virtual Networks and Azure OpenAI Service. It answers questions about storing extension secrets in Azure Key Vault, and about enabling and analyzing telemetry for Key Vault and Azure Function calls.
+> Integration of Business Central with Azure services: Application Insights telemetry, Azure Key Vault secrets for extensions, and Azure Functions calls. It answers questions about setting up these links and monitoring them through telemetry.
 
-Path: [Integration](../integration.md) > Integrating with Azure services · tier official · system integration · narrative reviewed (checked by Opus)
+Path: [Integration](../integration.md) > Integrating with Azure services · tier official · system integration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section introduces the Azure services Business Central can work with and then goes deeper on two areas: Azure Key Vault and telemetry. The landing page lists the services: Application Insights, Blob Services API, File Services API, Functions, Key Vault, Virtual Network and Azure OpenAI Service.
+This section covers how Business Central connects to Azure services. The landing page lists the services involved: Application Insights, Blob Storage, File Services, Functions, Key Vault, Virtual Networks and Azure OpenAI Service.
 
-The Key Vault pages explain how extensions keep secrets in a central, secure store. They use these secrets for authenticated web service calls to external services, in both online and on-premises deployments. A separate telemetry page covers how to trace secret acquisition at runtime.
+The other pages go deeper on three areas. Azure Key Vaults with Business Central explains how extensions store and retrieve secrets for authenticated web service calls, for both online and on-premises deployments. Monitoring and Analyzing Telemetry explains how to emit telemetry to Application Insights at environment and app/extension level, control cost, and analyze data with Power BI or KQL.
 
-The telemetry pages show how to monitor Azure-related operations. The overview covers enabling telemetry at environment and app level, viewing it in Power BI, analyzing it with KQL, and setting up alerts. The Azure Function page applies this to calls from Business Central to Azure Functions. Start with the landing page for the service list, then go to the Key Vault or telemetry pages that match your task.
+Two telemetry pages cover specific signals: Key Vault secret trace telemetry and Azure Function integration telemetry. Start with the overview page, then read the Key Vault or telemetry page that matches your task. Use the signal-specific pages when troubleshooting.
 
 ## Key points
 
-- Supported Azure services listed: Application Insights, Blob Services API, File Services API, Functions, Key Vault, Virtual Network, Azure OpenAI Service.
-- Azure Key Vault gives extensions centralized, secure storage for secrets used in authenticated web service calls to external services.
-- App key vault setup is described separately for online and on-premises deployments.
-- App Key Vault telemetry covers initialization and secret retrieval, with failure reasons, telemetry dimensions and KQL sample code for troubleshooting.
-- Azure Function integration telemetry helps monitor success and failure of calls made through the Azure Function module, including request tracking and authorization monitoring.
-- The telemetry overview covers environment-level and app-level enabling, Power BI analysis, KQL queries, alert setup and custom telemetry, and references 2020 release wave 2.
+- Azure services named in the overview: Application Insights, Blob Storage, File Services, Functions, Key Vault, Virtual Networks and Azure OpenAI Service.
+- Azure Key Vault gives extensions central, secure storage for secrets used in authenticated calls to external services.
+- App key vault setup is described for both online and on-premises deployments.
+- Key Vault secret trace telemetry covers secret initialization (TryInitializeFromCurrentApp) and retrieval (GetSecret), including failure reasons.
+- Azure Function integration telemetry shows success and failure of calls made through the Azure Function module, including request tracking and authorization monitoring.
+- Telemetry can be enabled at environment level and at app/extension level, and it is sent to Azure Application Insights.
+- Telemetry data can be analyzed with Power BI or KQL queries, and cost can be controlled.
+- The telemetry page references 2020 release wave 2.
 
 ## Learn pages
 
 - [Analyzing App Key Vault Secret Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace): Analyze app key vault telemetry in Business Central to troubleshoot extension initialization failures and secret retrieval errors in Azure Key Vault.
-  - App key vault telemetry gathers information about Azure Key Vault secret acquisition by extensions at runtime across initialization and retrieval stages.
-  - Initialization stage verifies app key vault provider configuration via TryInitializeFromCurrentApp method and fails if extension lacks key vault specification or credentials are incorrect.
-  - Retrieval stage attempts secret retrieval via GetSecret method call and fails if secret name is invalid, key vault doesn't exist, or application lacks read permissions.
-  - Status: EventId RT0014 indicates successful key vault initialization with severity level 1; RT0015 indicates initialization failure with severity level 3.
-  - Status: EventId RT0016 indicates successful secret retrieval with severity level 1; RT0017 indicates retrieval failure with severity level 3.
-  - Telemetry custom dimensions include extension ID, name, publisher, version, key vault URIs, client type, AL object details, and component version.
+  - App key vault telemetry is sent to extension's Application Insights resource, not environment's
+  - RT0014 successful initialization, RT0015 initialization failure, RT0016 retrieval success, RT0017 retrieval failure
+  - Initialization stage verifies app.json configuration and Azure Key Vault Client Identity settings
+  - Retrieval stage occurs after successful initialization to get secrets from specified key vault
+  - Failure reasons include missing extension specification, incorrect client ID, missing permissions, or invalid secret names
+  - Telemetry captures key vault URI, secret name, extension details, and stack trace for troubleshooting
 - [Azure Function Integration Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-azure-function-integration-trace): Analyze Azure Function integration telemetry in Business Central to monitor successful requests, failed requests, and OAuth authorization failures.
   - Azure Function integration telemetry tracks calls from Business Central to Azure Functions.
   - Request succeeded event has eventId AL0000I74 with HTTP status code.
@@ -139,12 +141,12 @@ The telemetry pages show how to monitor Azure-related operations. The overview c
 - [Azure Key Vaults with Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview): Learn how Business Central extensions use Azure Key Vault to securely retrieve secrets in online and on-premises environments.
 - [Integrating with Azure services](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-azure-overview): Learn how to integrate Business Central with Azure services.
 - [Monitoring and Analyzing Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview): Monitor Business Central environments and extensions with Application Insights telemetry to diagnose errors, analyze performance, and track usage.
-  - Telemetry can be enabled at environment level or per-extension level to collect operational data in Azure Application Insights.
-  - With Business Central 2020 release wave 2 and later, publishers can set Application Insights connection strings in app.json manifest files.
-  - Telemetry data is stored in Application Insights Logs tables called traces and pageViews for analysis via Kusto query language.
-  - Both online and on-premises Business Central instances can emit telemetry to Azure Application Insights.
-  - Free Power BI apps analyze Business Central telemetry; one app covers environments while another covers apps and extensions.
-  - Permissions: AL developers can create custom telemetry messages using Feature Telemetry codeunit or LogMessage method from Session class.
+  - Environment-level telemetry and app-level telemetry can be enabled separately to Application Insights resources.
+  - Status: Per-extension telemetry enabled from Business Central 2020 release wave 2 by setting connection string in app.json.
+  - Both online and on-premises instances can emit telemetry to Application Insights.
+  - Telemetry data is stored in Application Insights Logs in traces and pageViews tables, queried with KQL.
+  - Two free, open-source Power BI apps available from marketplace: one for environment telemetry, one for app telemetry.
+  - Permissions: Power BI Pro licenses required to install telemetry Power BI apps.
   - In the observatory: [Codeunit 8703 "Feature Telemetry"](../../../objects/codeunit/8703.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.

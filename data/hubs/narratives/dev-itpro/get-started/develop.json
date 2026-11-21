@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/get-started/develop",
-  "input_hash": "5247b8270c5644577fc5e25892d436598f39eb4f5ad59ecb43b39057c4c75533",
-  "summary": "The Develop section covers building, publishing, customizing and maintaining Business Central apps and extensions. It answers questions about becoming a publisher, marketplace submission and validation, embed apps, localization, app lifecycle, and the split of responsibilities between Microsoft and partners.",
-  "overview": "Develop is for partners and developers who build on Business Central. It covers the business case for app publishers (Connect and Add-on apps on the Microsoft Marketplace), the app components and capabilities available, and two ways to tailor the product: Designer or AL extensions in Visual Studio Code, tested on sandbox environments before production.\n\nFor publishing, the pages follow the path from partner registration to the marketplace and beyond. They cover registering as a publisher, getting a unique object range, adding an app to the Marketplace with technical and marketing validation, and later discontinuing it. Two subtopics go deeper: Marketplace validation (checklists, listing content, landing pages, videos) and Embed apps (partner-branded solutions, qualification, LCS deployment, App Management API).\n\nAfter release, the lifecycle and maintenance pages explain how apps behave through service updates, bug fixes and breaking changes. They also cover what partners must do to stay compatible with each major release, and what Microsoft is responsible for in the online service. Start with \"Get started building apps\", then move to \"Add your App to Marketplace\".",
+  "input_hash": "d20562a05a595c95d665c4dca2ce507d56b43156b7ca2547a24f5886c38826b0",
+  "summary": "Develop covers how to build, customize, publish and maintain Business Central apps and extensions. It answers questions about getting started as a partner, per-tenant customization, localization, marketplace submission and validation, embed apps, app lifecycle, and Microsoft versus partner responsibilities online.",
+  "overview": "The Develop section is for partners and developers who build on Business Central. It covers two paths: customizing a tenant (Designer for UI changes, AL extensions in Visual Studio Code for deeper changes, tested in sandbox environments first) and building apps to sell on the Microsoft commercial marketplace. It also has pages on localization apps and on the components and ecosystem integration options available to apps, such as APIs, Power BI, Power Automate, Power Apps and Outlook add-in.\n\nFor publishers, the pages follow the app's life. \"The SMB opportunity for app publishers\" explains the market and app types (Connect and Add-on). \"Get started building apps\" walks through partner registration, publisher setup, unique object range and submission via Partner Center. \"Add your App to Marketplace\" covers marketing and technical validation. After release, the lifecycle, maintenance and discontinuation pages describe updates, breaking changes and removal. The Microsoft responsibilities page clarifies what Microsoft runs online and what partners maintain.\n\nTwo subtopics go deeper: Marketplace validation (technical checklist, marketing rules, landing pages and videos) and Embed apps (partner-branded solutions built on the platform). Start with \"Get started building apps\" for publishing, or \"Customizing Tenants\" for in-tenant changes.",
   "key_points": [
-    "Getting started: become a partner, register as a publisher in Partner Center, get a unique object range, build the solution, then submit it.",
-    "Adding an app to the Marketplace requires marketing and technical validation, and embed apps get special handling.",
-    "Customization options are the in-client Designer for UI changes and AL extensions (page and table extensions, business logic) in Visual Studio Code, tested in sandbox or Docker first.",
-    "Localization apps address local regulations, national standards and market needs, using tools such as RapidStart data packages, translations and setup guides.",
-    "Partners must keep Marketplace apps and per-tenant extensions compatible with each major release, using preview environments, prerelease bits, AppSourceCop rules and automated extension validation.",
-    "Microsoft handles infrastructure, storage, high availability, disaster recovery, platform security, diagnostics and patching, while partners maintain their own apps.",
-    "Discontinuing a Marketplace app involves a Contact Me listing, stopping distribution, customer notification and app uninstallation.",
-    "Subtopics: Marketplace validation (15 pages) and Embed apps (10 pages)."
+    "Customizing tenants uses the in-client Designer for UI changes and AL extensions (page and table extensions, business logic) in Visual Studio Code, tested in sandbox or Docker before production.",
+    "Getting started as a publisher involves Partner Center registration, PartnerSource Business Center access, a unique object range, a developer license file, prefix or suffix registration, and technical validation.",
+    "Marketplace submission requires both marketing and technical validation, with special handling for embed apps.",
+    "Apps can integrate through a Dynamics 365 API endpoint, Outlook Add-in, Power BI, Power Automate, Power Apps and Azure Machine Learning.",
+    "Localization apps address local regulatory requirements, national standards and market needs, using features like RapidStart data packages, translations and setup guides.",
+    "Maintaining Marketplace apps and per-tenant extensions means keeping up with major and minor releases, using preview versions, the AppSourceCop analyzer and automated validation to detect incompatibility.",
+    "Microsoft handles infrastructure, storage, high availability, disaster recovery, platform security, diagnostics and patching online. Partners maintain their own apps and extensions.",
+    "Discontinuing a Marketplace app involves stopping distribution, updating the listing (such as the Contact Me type), notifying customers and handling uninstallation."
   ],
   "members_used": 10,
   "subtopics_used": 2,
   "prompt_version": 1,
-  "at": "2026-10-30T01:11:11.744Z",
+  "at": "2026-11-21T01:00:29.718Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.018507000000000003
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-30T08:08:26.399Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the Microsoft responsibilities key point leaves out the base application and Lifecycle Services portal duties that the source page lists. This is an omission, not an error.",
-      "Minor: the SMB market figures (51 billion dollar market, 47% versus 17% growth) are left out. That is fine, since they add little for an agent."
-    ],
-    "input_hash": "5247b8270c5644577fc5e25892d436598f39eb4f5ad59ecb43b39057c4c75533",
-    "cost_usd": 0.0423312
+    "cost_usd": 0.020027
   }
 }

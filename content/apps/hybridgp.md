@@ -2,7 +2,7 @@
 id: app/hybridgp
 type: app
 title: HybridGP
-summary: "HybridGP (Microsoft.DataMigration): 146 objects in BC29-30 (96 tables, 21 codeunits, 14 pages, 5 queries, 4 permission set extensions, ...); documented by 1 Learn hub."
+summary: "HybridGP (Microsoft.DataMigration): 147 objects in BC29-30 (97 tables, 21 codeunits, 14 pages, 5 queries, 4 permission set extensions, ...); documented by 1 Learn hub."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-11-21T00:50:16.968Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1e656aa4257b9b3941e22cda825ae7dfb9cae88a9cd995a7d466d06e8f3b4f23
+  input_hash: 0383109f5093260f903a5f2822d92dc77c02027dbd15b3c668babe989f0b5bd8
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/HybridGP/app
@@ -126,6 +126,7 @@ links:
     - object/table/41008
     - object/table/41009
     - object/table/41010
+    - object/table/41011
     - object/page/4021
     - object/page/4031
     - object/page/4050
@@ -189,9 +190,9 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 146
+  objects: 147
   by_type:
-    table: 96
+    table: 97
     codeunit: 21
     page: 14
     query: 5
@@ -206,7 +207,7 @@ counts:
 
 # HybridGP
 
-> HybridGP (Microsoft.DataMigration): 146 objects in BC29-30 (96 tables, 21 codeunits, 14 pages, 5 queries, 4 permission set extensions, ...); documented by 1 Learn hub.
+> HybridGP (Microsoft.DataMigration): 147 objects in BC29-30 (97 tables, 21 codeunits, 14 pages, 5 queries, 4 permission set extensions, ...); documented by 1 Learn hub.
 
 First-party app · folder `src/Apps/W1/HybridGP/app` · namespace `Microsoft.DataMigration` · BC29-30 · system administration · facts from the code pillar and the joins, nothing machine-written
 
@@ -218,9 +219,9 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-146 objects, by type.
+147 objects, by type.
 
-### Tables (96)
+### Tables (97)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -320,6 +321,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 41008 | [GP PM00101](../objects/table/41008.md) |  |
 | 41009 | [GP PM00203](../objects/table/41009.md) |  |
 | 41010 | [GP PO Validation Buffer](../objects/table/41010.md) |  |
+| 41011 | [GP Item Transactions Buffer](../objects/table/41011.md) |  |
 
 ### Pages (14)
 

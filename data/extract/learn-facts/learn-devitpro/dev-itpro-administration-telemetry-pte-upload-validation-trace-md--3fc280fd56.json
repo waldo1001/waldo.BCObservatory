@@ -2,41 +2,37 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-pte-upload-validation-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-pte-upload-validation-trace",
   "title": "Analyzing Extension Upload Validation Telemetry",
-  "blob": "f3703b40d77590eaac0a1c6f02324044e4a078e9",
+  "blob": "03c3361493e7dbcbcb0cc6658d5d5aef9c1c2672",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "fact",
-      "text": "Proactive validation of per-tenant extensions during upload checks compilation against environment."
+      "kind": "status",
+      "text": "Generally available for per-tenant extension validation in Business Central service"
     },
     {
       "kind": "fact",
-      "text": "Failed validation results emit trace logs with failure reasons."
+      "text": "Validation flow starts with LC0200 event and concludes with either success (LC0202) or failure (LC0203)"
     },
     {
       "kind": "fact",
-      "text": "Main and dependent extensions are validated separately; flow shows start, diagnostics, and completion states."
+      "text": "Main extensions and all dependent extensions are validated separately with distinct event IDs"
     },
     {
       "kind": "fact",
-      "text": "PTE validation started event (LC0200) triggers when upload attempt begins."
+      "text": "Diagnostic events (LC0201, LC0210) report information, warnings, or errors during submission or extension validation"
     },
     {
       "kind": "fact",
-      "text": "Submission diagnostic reported event (LC0201) indicates warnings or errors at submission level."
+      "text": "Failure reason dimension explains why extension compilation failed against the environment"
     },
     {
       "kind": "fact",
-      "text": "Extension validation events (LC0204-LC0209) track main and dependent extension validation progress."
+      "text": "Submission includes extension details like name, version, publisher ID, and the unique submission operation ID"
     },
     {
       "kind": "fact",
-      "text": "PTE validation completed successfully (LC0202) or with failures (LC0203) indicate final upload result."
-    },
-    {
-      "kind": "fact",
-      "text": "Partners can set alerts on validation failures to proactively help customers."
+      "text": "Extension metadata is captured in JSON structure format for both main and dependent extensions"
     }
   ],
   "dropped": 0,
@@ -44,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007119,
-      "pages_in_call": 7
+      "cost_usd": 0.007109,
+      "pages_in_call": 8
     }
   ]
 }

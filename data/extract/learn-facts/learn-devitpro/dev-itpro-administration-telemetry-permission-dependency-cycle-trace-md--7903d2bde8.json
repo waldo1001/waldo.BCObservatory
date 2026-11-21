@@ -1,34 +1,26 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-permission-dependency-cycle-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-dependency-cycle-trace",
-  "title": "Analyzing permission dependency cycle trace telemetry",
-  "blob": "6ec27a94c1b464a5ebeb49354d2c626a864977af",
+  "title": "Analyzing Permission Dependency Cycle Trace Telemetry",
+  "blob": "bd8b2603719e1b5c24e06e007d81ecaa51216ce6",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Permission dependency cycle occurs when permission set depends on itself directly or indirectly"
+      "text": "Permission dependency cycles occur when permission sets reference themselves; system prevents circular references."
     },
     {
       "kind": "fact",
-      "text": "Dependency cycle discovered event has ID RT0032 with severity level 3"
+      "text": "Dependency cycle event logs the full cycle path showing how sets reference each other; long paths are truncated at middle."
     },
     {
       "kind": "fact",
-      "text": "Cycle error message shows circular reference path, for example [XX]->[YY]->[XX]"
+      "text": "Cycle discovery telemetry includes AL object ID and type, stack trace, and cyclic permission set dependency path."
     },
     {
       "kind": "fact",
-      "text": "Telemetry includes AL object ID and type if error relates to specific object"
-    },
-    {
-      "kind": "fact",
-      "text": "Permission area values recorded are System, Entitlement, Company, or Object"
-    },
-    {
-      "kind": "fact",
-      "text": "Permission type values include Delete, Execute, Insert, Modify, Read, or Undefined"
+      "text": "Severity level 3 for dependency cycle event indicates an error that blocks permission operations."
     }
   ],
   "dropped": 0,
@@ -36,8 +28,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007985,
-      "pages_in_call": 7
+      "cost_usd": 0.006741,
+      "pages_in_call": 8
     }
   ]
 }

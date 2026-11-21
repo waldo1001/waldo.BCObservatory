@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/14283",
+  "input_hash": "8dfeb9963b8f2550bd44d757a281031b3db3046e2c73288ea49bc6b033a3e220",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-21T00:56:52.498Z",
+  "issues": [
+    "Saying the fix applies to 'all localized versions' overstates it. Some layers, such as DACH and NL, change only Purchase Line.",
+    "The rounding detail is inferred from the test codeunit names, because the description gives only the title."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018562,
+    "changes_in_call": 6
+  }
+}

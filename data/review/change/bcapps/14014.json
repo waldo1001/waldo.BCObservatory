@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/14014",
+  "input_hash": "3a6d25399bb36c14fb21b080ca5d1796d072ffdf402fd76b8793b8f71d8d4aff",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-21T00:57:04.586Z",
+  "issues": [
+    "Summary and key points match the description: the Boolean is set in OnAfterGetCurrRecord, group-level enablement covers both action groups plus Print Label, the filter-transition limitation is noted, and the tests are described accurately."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039488,
+    "changes_in_call": 6
+  }
+}

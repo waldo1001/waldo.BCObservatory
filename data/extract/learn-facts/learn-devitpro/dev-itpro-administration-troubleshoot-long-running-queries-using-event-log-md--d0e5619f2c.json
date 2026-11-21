@@ -1,34 +1,30 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/troubleshoot-long-running-queries-using-event-log.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-long-running-queries-using-event-log",
-  "title": "Using Event Log to Monitor Long Running SQL Queries",
-  "blob": "579eb4fd671d3a712c2538dc817b5948d190f863",
+  "title": "Using Event Log to Monitor Long-Running SQL Queries",
+  "blob": "32186a76e57a3076c64c4458deb3a17119243991",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Event Viewer Application window displays SQL queries exceeding SqlLongRunningThreshold as warnings."
+      "text": "Long-running SQL queries meeting or exceeding SqlLongRunningThreshold are logged as warnings in Event Viewer."
     },
     {
       "kind": "fact",
-      "text": "Default SqlLongRunningThreshold is 1000 milliseconds for identifying slow queries."
+      "text": "Default SqlLongRunningThreshold is 750 milliseconds; can be changed without restarting server instance."
     },
     {
       "kind": "fact",
-      "text": "Long running queries with explicit AL code include AL call stack showing generated SQL."
+      "text": "AL call stack in event log shows which AL method generated slow-running SQL queries from explicit AL code."
     },
     {
       "kind": "fact",
-      "text": "AL call stack identifies specific AL method and line causing slow query execution."
-    },
-    {
-      "kind": "limit",
-      "text": "Queries from triggers without code or GetPage calls do not include AL call stack."
+      "text": "Queries from GetPage calls or empty triggers may not include AL call stack due to no explicit AL code execution."
     },
     {
       "kind": "fact",
-      "text": "Threshold can be set to different value without restarting server instance."
+      "text": "Generated SQL statement appears in Statement field; AL call stack shown in AL CallStack field of event log entry."
     }
   ],
   "dropped": 0,
@@ -36,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005012,
-      "pages_in_call": 12
+      "cost_usd": 0.005948,
+      "pages_in_call": 6
     }
   ]
 }

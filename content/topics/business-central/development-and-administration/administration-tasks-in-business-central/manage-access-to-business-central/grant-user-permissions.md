@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,6 +75,7 @@ links:
     - post/yzhums-com/71200
     - post/yzhums-com/72087
     - post/yzhums-com/73365
+    - post/yzhums-com/77046
   guidelines: []
   changes:
     - change/bcapps/10579
@@ -96,7 +97,7 @@ coverage:
   learn: 2
   code: 21
   video: 2
-  blog: 9
+  blog: 10
   guideline: 0
 bc_forms:
   - 119
@@ -179,6 +180,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 2026 release wave 1 (BC28): Audit user and group permissions across apps (new Permissions Overview page)](../../../../../posts/yzhums-com/71200.md) (community post): "Administrators can filter permissions by object, scope, extension, or permission set"
 - [Dynamics 365 Business Central: How to easily prevent users from adding or modifying Links and Notes (Making Links and Notes Read-Only)](../../../../../posts/yzhums-com/72087.md) (community post): "Excluding Insert, Modify, and Delete permissions on RecordLinks makes Links and Notes read-only"
 - [Dynamics 365 Business Central: Why can’t a Super User create a new Company](../../../../../posts/yzhums-com/73365.md) (community post): "Only users with the SUPER permission set can create a new company"
+- [Dynamics 365 Business Central: How to easily check users and their licenses (User Details)](../../../../../posts/yzhums-com/77046.md) (community post): "view all users and their assigned licenses in Business Central"
 - [What's Cooking in Business Central: Replace Permission Sets Upon Import](../../../../../videos/asSSBl8Cj34.md) (video): "Replace permission sets upon import; Import permission sets action"
 - [What's New: Enhanced IT Audit Reporting (2026 release wave 1)](../../../../../videos/YbuO1n_Lqj0.md) (video): "Permission Overview page; Approval User Overview page; Approval Entry Overview page"
 

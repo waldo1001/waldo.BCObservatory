@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -218,7 +218,10 @@ links:
     - post/aardvarklabs-blog/2663
     - post/olofsimren-com/3585
     - post/olofsimren-com/3630
+    - post/thinkaboutit-be/7299
+    - post/thinkaboutit-be/7352
     - post/thinkaboutit-be/8204
+    - post/thinkaboutit-be/8331
   guidelines: []
   changes:
     - change/al-go/2402
@@ -239,7 +242,7 @@ coverage:
   learn: 24
   code: 0
   video: 6
-  blog: 8
+  blog: 11
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -306,7 +309,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "SetAuthorization uses your own Azure OpenAI deployment, which gives you control"
 - [Copilot Inventory Queries](../../../posts/olofsimren-com/3585.md) (community post): "Built with the Copilot capability tools Microsoft provides for AL"
 - [Copilot in Planning Parameter Worksheet](../../../posts/olofsimren-com/3630.md) (community post): "uses Copilot powered by Azure OpenAI to suggest inventory planning parameters"
+- [Introduction to GitHub Copilot in VSCode for AL Development](../../../posts/thinkaboutit-be/7299.md) (community post): "GitHub Copilot in VSCode offers multiple AI-powered modes for AL developers with code generation"
+- [Copilot Agent in AL: Using It Well Without Losing Control](../../../posts/thinkaboutit-be/7352.md) (community post): "Copilot Agent works at a task level across multiple AL objects and files"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "build Copilot extensions using Microsoft-managed Azure OpenAI resources"
+- [Business Central 29: What’s New in BC-Bench?](../../../posts/thinkaboutit-be/8331.md) (community post): "AI MCP (Model Context Protocol) improves bug-fixing performance by nearly 10% when integrated with AI agents"
 - [Business Central Under the Hood episode 1: Developing AI in Business Central](../../../videos/jdevJbGgB-k.md) (video): "Marketing text generation; Chat Copilot for Business Central; AI developer toolkit"
 - [What's New: AI Development Toolkit (2026 release wave 1)](../../../videos/juUBVPfIp8A.md) (video): "Content filtering policies; Prompt injection protection"
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../videos/NE7NIjpkX3c.md) (video): "copilot extension; cloud deployment; large language models; prompt engineering"

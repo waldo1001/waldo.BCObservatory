@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/14332",
+  "input_hash": "bae726a287f12613c5135ccf399d4b1e159769434e1818ab24c07e0b7d21bd8a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-21T00:56:52.498Z",
+  "issues": [
+    "'5 variables corrected' is not supported. The +5 -5 line counts per file do not show how many variables changed.",
+    "'64-bit environments' misreads the issue. The problem is integer variables that should be BigInteger after the move to 64-bit integers.",
+    "Fixing an overflow error changes runtime behavior, so behavior_change should be true."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018562,
+    "changes_in_call": 6
+  }
+}

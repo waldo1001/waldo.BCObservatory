@@ -2,7 +2,7 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to
 type: topic
 title: Analyze data in business intelligence tools
-summary: "Analyzing Business Central data in external BI tools: exporting data to Microsoft Fabric, Power BI, data warehouses and data lakes, using the Business Central API v2.0, and performance guidance for AL developers. It answers questions about choosing an export path, mirroring to Fabric, API use, and tuning."
+summary: "Analyzing Business Central data in external BI tools: exporting data to Microsoft Fabric, Power BI, data warehouses and data lakes, using the v2.0 REST API, and AL performance guidance. It answers questions on mirroring setup, API integration and tuning."
 tier: official
 language: en
 system: reporting
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f9e98bc3fea214544ac59aee96c432c238fa0b27ed8343ac8e7fdbfbb78f5fac
+  input_hash: 4545c038a3f82065aa7524a99b8274dd00a9b6c48c97d9922793a767963ba2f4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-external-analysis
@@ -125,27 +125,27 @@ narrative: generated
 
 # Analyze data in business intelligence tools
 
-> Analyzing Business Central data in external BI tools: exporting data to Microsoft Fabric, Power BI, data warehouses and data lakes, using the Business Central API v2.0, and performance guidance for AL developers. It answers questions about choosing an export path, mirroring to Fabric, API use, and tuning.
+> Analyzing Business Central data in external BI tools: exporting data to Microsoft Fabric, Power BI, data warehouses and data lakes, using the v2.0 REST API, and AL performance guidance. It answers questions on mirroring setup, API integration and tuning.
 
 Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Analyze data in business intelligence tools · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how to get Business Central data into external business intelligence tools. The entry page describes the main options: data mirroring to Microsoft Fabric, Power BI integration, data warehousing, data lake extraction, and the Business Central API.
+This section explains how to get Business Central data into external business intelligence tools. The entry page lists the main routes: mirroring data to Microsoft Fabric, connecting Power BI, and extracting data to a data warehouse or data lake through the Business Central API.
 
-The Microsoft Fabric subtopic (5 pages) explains mirroring of Business Central online data into OneLake. It covers what mirroring is, how to set it up, how to manage which companies and tables sync, how to monitor and troubleshoot runs, and FAQ limits.
+The Microsoft Fabric subtopic is the most detailed part. It covers mirroring Business Central online data into OneLake, including setup, choosing tables and companies, scheduling, monitoring synchronization, limits, troubleshooting and FAQ. The API v2.0 reference page covers building connect apps with REST APIs, API operations and pages, and the transition from v1.0.
 
-Two reference pages support custom approaches. The API v2.0 page describes building connect apps with REST APIs, API pages and operations, and the transition from v1.0. The performance articles for AL developers cover page design, web services, reports, AL coding patterns, data access and testing. Start with the entry page to pick a route, then go to the Fabric subtopic or the API reference.
+The performance page for AL developers is relevant when exports or integrations load the system. It covers page design, web services, reports, data access, Edit-in-Excel and testing. Start with the entry page to choose a route, then go to the Fabric pages for mirroring or the API reference for custom extraction.
 
 ## Key points
 
-- The entry page lists the export routes: Fabric mirroring, Power BI, data warehousing, data lake extraction and the Business Central API.
-- Fabric mirroring replicates Business Central online data into OneLake for analytics.
-- The Fabric pages cover setup, choosing which companies and tables sync, monitoring and troubleshooting runs, and FAQ limits.
+- The entry page names the export routes: Fabric mirroring, Power BI, data warehousing, data lake extraction and the Business Central API.
+- Fabric mirroring replicates Business Central online data into OneLake.
+- Fabric pages cover setup, table and company selection, scheduling, monitoring, limits, troubleshooting and FAQ.
 - API v2.0 uses REST APIs to build connect apps that integrate with third-party services.
-- The API page includes guidance on moving from API v1.0 to v2.0, with code examples.
-- Performance articles for AL developers cover page background tasks, Edit-in-Excel, query objects, partial records, table extension impact and event subscriptions.
-- The performance articles reference 2021 release wave 2, 2023 release wave 1 and 2023 release wave 2.
+- The API v2.0 page includes API operations, API pages, code examples and guidance on moving from v1.0.
+- Performance articles for AL developers cover page background tasks, Edit-in-Excel performance, query object optimization and partial records.
+- The performance guidance also covers table extension impact analysis and event subscription performance, with notes tied to 2021 wave 2, 2023 wave 1 and 2023 wave 2.
 
 ## Subtopics
 

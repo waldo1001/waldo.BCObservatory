@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:17:28.833Z"
+  at: "2026-11-21T00:15:56.434Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 541f12c50d7a5a3715aba1f1bcaa429d63a6e726
@@ -29,7 +29,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/generated-xliff-file-is-overwritten-on-build.md
     title: "microsoft/BCQuality: The generated XLIFF file is rewritten on every build"
     date: "2026-11-19"
-    commit: dd49341915045164248349bd891b106ebb4b34cb
+    commit: aaaf6c13c219294fcebf644f1662f4d77061e2f7
     t: null
     quote: null
 links:
@@ -86,4 +86,4 @@ A second form is two files for the same language in the `Translations` folder, s
 
 ---
 
-From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at aaaf6c1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

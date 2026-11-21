@@ -1,25 +1,24 @@
 {
   "hub_id": "topic/dev-itpro/integration/integrating-with-microsoft-fabric",
-  "input_hash": "48173ba3fcb1705bcebcc761fe5047b9e9f917d66527c85dfc5d35040bc0d418",
-  "summary": "Integrating Business Central with Microsoft Fabric: data extraction options, mirroring Business Central online data into Fabric OneLake, administrator setup and monitoring, and connecting Copilot Studio agents. It answers questions about choosing an extraction method, configuring and troubleshooting mirroring, and agent access.",
-  "overview": "This section covers how to move Business Central data into analytics platforms and how to connect it to Copilot Studio. It starts with an overview of extraction methods, including ETL, API-based delta extraction with read scale-out, Azure Data Factory, Power BI dataflows, and BACPAC export, so you can compare approaches.\n\nThe main managed option is data mirroring to Microsoft Fabric. It replicates an initial snapshot and then ongoing changes from Business Central online into OneLake, without repeatedly reading from APIs. The Administrator subtopic covers the practical work: initial setup, choosing which companies and tables synchronize, and monitoring and troubleshooting runs.\n\nA separate subtopic covers Microsoft Copilot Studio integration: configuring the Business Central MCP Server and building agents that connect through the connector or MCP server.\n\nStart with the data extraction methods page to decide on an approach. If you pick mirroring, read the mirroring page and then the Administrator pages.",
+  "input_hash": "f2b18e96b472d0e91eb30a124cec9f269fba14b72607be9ca359b61eb6f9f08f",
+  "summary": "Integrating Business Central with Microsoft Fabric covers mirroring Business Central online data into OneLake, administrator setup and monitoring, and other data extraction methods. It also covers Copilot Studio integration through the MCP server. It answers questions about choosing an extraction approach, configuring mirroring, and connecting agents.",
+  "overview": "This section is about getting Business Central data into analytics platforms, mainly Microsoft Fabric. The data mirroring page describes the managed option: Business Central online replicates an initial snapshot and then ongoing changes into OneLake, so analytics do not need to read repeatedly from APIs. Data is stored in Delta Parquet format.\n\nThe extraction methods page is the best starting point if you are still deciding on an approach. It compares ETL processes, API-based delta extraction with read scale-out, tools such as Azure Data Factory and Power BI dataflows, and Fabric mirroring. It also mentions BACPAC export and systemModifiedAt filtering. Once you pick mirroring, the Administrator subtopic explains setup on the Microsoft Fabric Mirroring Setup page, choosing companies and tables, managing synchronization, and monitoring and troubleshooting runs.\n\nA second subtopic covers integration with Microsoft Copilot Studio. It explains how to configure the Business Central MCP Server and build agents that connect to Business Central through the connector or the MCP server, including which APIs and operations agents can use.",
   "key_points": [
-    "Extraction methods page compares ETL, API-based delta extraction with read scale-out, Azure Data Factory, Power BI dataflows, and BACPAC export.",
-    "Delta extraction can filter on systemModifiedAt.",
-    "Mirroring replicates Business Central online data into Microsoft Fabric OneLake.",
-    "Mirroring supports multiple companies and up to 1,000 selected tables.",
-    "It does an initial snapshot, then incremental synchronization, stored in Delta Parquet format.",
-    "A configuration package with standard tables is available.",
-    "Administrator pages cover setup, managing companies and tables, and monitoring and troubleshooting.",
-    "Copilot Studio integration covers the Business Central MCP Server and agents using the connector or MCP server."
+    "Data mirroring replicates Business Central online data to Microsoft Fabric OneLake as an initial snapshot plus incremental synchronization.",
+    "Mirroring supports multiple Business Central companies and up to 1,000 selected tables.",
+    "Mirrored data is stored in Delta Parquet format, and a configuration package with standard tables is available.",
+    "Administrators set up and manage mirroring on the Microsoft Fabric Mirroring Setup page, using the sync overview and detail views to monitor and troubleshoot.",
+    "The data extraction methods page covers ETL, API-based delta extraction with read scale-out, Azure Data Factory, Power BI dataflows, and BACPAC export.",
+    "Delta extraction through APIs can filter on systemModifiedAt; the extraction page references 2023 release wave 2 and 2024 release wave 1.",
+    "Copilot Studio integration uses the Business Central MCP Server or the connector to let agents work with Business Central APIs and operations."
   ],
   "members_used": 2,
   "subtopics_used": 2,
   "prompt_version": 1,
-  "at": "2026-11-08T01:01:08.446Z",
+  "at": "2026-11-21T01:00:13.841Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.015470000000000001
+    "cost_usd": 0.013645000000000001
   }
 }

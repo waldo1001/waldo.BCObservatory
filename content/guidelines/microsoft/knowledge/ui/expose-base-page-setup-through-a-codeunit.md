@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:17:53.086Z"
+  at: "2026-11-21T00:15:56.434Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: df9c51f461a09c17e390cc1fd6edba4b36830f72
@@ -29,7 +29,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/expose-base-page-setup-through-a-codeunit.md
     title: "microsoft/BCQuality: Expose setup that lives on a base page through a codeunit"
     date: "2026-11-19"
-    commit: dd49341915045164248349bd891b106ebb4b34cb
+    commit: aaaf6c13c219294fcebf644f1662f4d77061e2f7
     t: null
     quote: null
 links:
@@ -88,4 +88,4 @@ Do not report the wrapper codeunit as needless indirection because it contains a
 
 ---
 
-From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at aaaf6c1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

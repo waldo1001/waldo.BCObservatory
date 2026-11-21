@@ -1,24 +1,25 @@
 {
   "week": "2026-W47",
-  "input_hash": "784e8d366a068af2d134d80b99799b5a03997782669c506e66f19a5c1bc1ccc3",
-  "text": "The one breaking change this week is #14002: External File Storage now rejects any path segment that is \".\" or \"..\", so callers that pass relative segments get an error instead of acting on a parent folder. Other behaviour changes start with Copilot. #14059 moves No. Series Copilot to GPT-5.6 Ceres. #14198 and #14307 do the same for Sales Lines Suggestions, with the prompts now shipped in the app. #14007 obsoletes Create Product Information with Copilot. Permission fixes landed in #14288 for report layout overrides by non-SUPER users and in #13679 for E-Document Core. Regional work includes SAF-T 1.40 for Norway in #13264, a Czech option to disable incremental exchange gain/loss posting in #13631, and GST fixes in #14008, #14009 and #13243. Fixes in other areas include direct transfers (#14020, #14147), Power BI deployment clearing (#14212, #14229), Job Queue cancellation (#14135), Dataverse endpoints (#14203), and the Word theme export extension (#12772). The Expense Agent gets corporate card selection in #13587 and several fixes. #13999 speeds up Intrastat XML export. Four inventory reports gain new Word layouts in #11205, and #9326 moves Finland's Depreciation Differences into a first-party extension.",
-  "changes": 61,
+  "input_hash": "23115cc3463ec2777bbad3ecb5258fc8d45df816723cc31def0e60050def7142",
+  "text": "The one breaking change this week is #14002: External File Storage now rejects any path segment that is \".\" or \"..\", so callers that pass relative segments get an error instead of acting on a parent folder. Other behaviour changes are mostly fixes. In finance and inventory, #14283 and #13503 stop prepayment line amounts drifting after partial invoicing, #14332 widens Item Application Entry variables to BigInteger to avoid overflow, and #14080, #13669 and #14138 correct production and subcontracting reversals. Localization fixes include India GST application posting order, an empty GST component lookup and import duty GST entries (#14008, #14009, #13243), the German VAT Report supplies field (#13807, #14133), Czech VAT Statement sign (#13868) and FatturaPA postal codes (#11660). Norwegian SAF-T gains 1.40 support in #13264. The Expense Agent gets approval fixes (#13978, #13992), longer mileage addresses (#13920, #13925) and corporate card selection (#13587). On AI, Sales Lines Suggestions and No. Series Copilot move to GPT-5.6 Ceres (#14198, #14307, #14059), and #14007 obsoletes Create Product Information with Copilot. Smaller items cover the Intrastat XML export speed-up (#13999) and Power BI deployment clearing (#14212, #14229). Expense Management objects become public in #14295 and #14335, and #14373 adds subcontracting receipt events. AL-Go adds token request retries in #2444.",
+  "changes": 80,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.065436,
-  "at": "2026-11-20T00:15:45.369Z",
+  "cost_usd": 0.083634,
+  "at": "2026-11-21T00:15:56.434Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-20T00:58:13.483Z",
-    "verdict": "approve",
+    "at": "2026-11-21T00:57:29.238Z",
+    "verdict": "fix",
     "issues": [
-      "#14147 also corrected Quality Management demo data; only the direct transfer part is mentioned, which is acceptable.",
-      "#11205 also marks the existing Word layouts obsolete; not mentioned but not wrong.",
-      "Several behaviour-changing fixes (e.g. #14123 Shopify, #13820 NO SAF-T, #11660 FatturaPA) are omitted; acceptable for a summary of this length."
+      "#13243 is described as 'GST posting order and lookups', but it fixed wrong GST and import duty entries when invoicing partly received purchase orders for Import and SEZ vendors. Reworded to cover #14008 (posting sequence), #14009 (empty component lookup) and #13243 (import duty entries).",
+      "Minor, left as is: 'longer mileage addresses' (#13920, #13925) is fair, since the fixes stop addresses over 50 characters from failing to save. #14335 also makes the corporate card objects internal, but grouping it under 'objects become public' is acceptable."
     ],
-    "input_hash": "784e8d366a068af2d134d80b99799b5a03997782669c506e66f19a5c1bc1ccc3",
-    "cost_usd": 0.166128,
-    "applied": [],
+    "input_hash": "23115cc3463ec2777bbad3ecb5258fc8d45df816723cc31def0e60050def7142",
+    "cost_usd": 0.20404,
+    "applied": [
+      "text"
+    ],
     "rejected_edits": []
   }
 }

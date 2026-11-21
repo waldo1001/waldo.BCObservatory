@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:11.266Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -217,6 +217,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/13618
+    - change/bcapps/13862
 learn_toc_path:
   - Business functionality
   - Assembly management
@@ -322,6 +323,7 @@ For corrections and accounting, see "Undo Assembly Posting" and "Design details 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#13618 [Master]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages](../../../changes/bcapps/13618.md) (code change): "Serial numbers on assembly order component lines are no longer unexpectedly deleted"
+- [#13862 [29.X]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages.](../../../changes/bcapps/13862.md) (code change): "Serial numbers selected on assembly order component lines are preserved when running the Calculate Regenerative Plan"
 - [What's New: Project Management (2024 release wave 1)](../../../videos/dD_2NEs3A40.md) (video): "Assembly-to-order in projects; Assembly policy setting in projects"
 - [Manufacturing Foundations BOM (2026)](../../../videos/GEuUFcgFZF0.md) (video): "Assembly replenishment; BOM formulas for units of measure; Phantom BOMs"
 

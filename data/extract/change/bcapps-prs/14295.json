@@ -9,14 +9,14 @@
   ],
   "summary": "Expense Management core business objects are now publicly accessible for extensions to read, extend, release and post expenses, while keeping agent-specific and policy-related functionality internal.",
   "key_points": [
-    "33 tables and 3 codeunits for expense and expense report operations made public with object-level access changed",
-    "9 status and type enums published to support public table usage",
-    "Agent service, approval lifecycle, policy evaluation, corporate card feed and AI-derived data remain internal",
-    "All public procedures documented with XML comments following System Application standards",
-    "Field-level access restrictions applied to credit card, extraction confidence, policy evaluation and approver fields"
+    "33 tables, 3 release and posting codeunits and 9 non-extensible enums in Expense Agent made public",
+    "Corporate card, AI extraction, policy evaluation, alternate approver and Entra fields stay internal at field level",
+    "On-behalf approval, raw Reopen, rule bypass and similar procedures made internal; local helpers made local",
+    "Current-user release, check-and-release and reopen operations and posting via Codeunit.Run remain public",
+    "XML documentation added to public procedures; BaseApp Spend Request objects get docs only"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

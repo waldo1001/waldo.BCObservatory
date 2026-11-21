@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:50:59.161Z"
   flags: []
 generated:
-  at: "2026-11-20T00:53:40.205Z"
+  at: "2026-11-21T00:52:51.542Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -83,7 +83,6 @@ links:
   learn: []
   objects: []
   features:
-    - feature/573363
     - feature/573364
     - feature/573366
     - feature/578068
@@ -182,20 +181,17 @@ features:
     verified: false
     status_source: video
   - name: Tasks API
-    status: unclear
+    status: preview
     t: 602
-    verified: false
-    status_source: video
-    roadmap_ids:
-      - "573363"
-      - "578068"
-  - name: Task and Message Model
-    status: ga
-    t: 626
     verified: false
     status_source: roadmap
     roadmap_ids:
-      - "573363"
+      - "578068"
+  - name: Task and Message Model
+    status: unclear
+    t: 626
+    verified: false
+    status_source: video
   - name: Message Attachments
     status: unclear
     t: 706
@@ -332,8 +328,8 @@ It then covers agent instances, which are also users in Business Central, and ho
 | Programmatic Agent Creation | status not stated, demoed | [8:34](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=514s) |
 | Agent Instructions | status not stated, demoed | [9:11](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=551s) |
 | Agent KPI Pages | status not stated, demoed | [9:32](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=572s) |
-| Tasks API | status not stated (roadmap [Manage tasks from all agents in dedicated task pane](../features/573363.md), [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [10:02](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=602s) |
-| Task and Message Model | generally available (roadmap [Manage tasks from all agents in dedicated task pane](../features/573363.md)), demoed | [10:26](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=626s) |
+| Tasks API | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [10:02](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=602s) |
+| Task and Message Model | status not stated, demoed | [10:26](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=626s) |
 | Message Attachments | status not stated, demoed | [11:46](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=706s) |
 | Multi-turn Agent Interactions | status not stated, demoed | [12:20](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=740s) |
 | External ID for Messages | status not stated, demoed | [12:35](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=755s) |

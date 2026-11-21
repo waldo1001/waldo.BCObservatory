@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:35.324Z"
   flags: []
 generated:
-  at: "2026-10-24T00:57:10.969Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -101,7 +101,8 @@ links:
   topics:
     - topic/business-central/business-functionality/warehouse-management
   localizations: []
-  videos: []
+  videos:
+    - video/zy-Tg9bBtHc
   posts: []
   guidelines: []
   changes:
@@ -116,7 +117,7 @@ children: []
 coverage:
   learn: 8
   code: 12
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -183,6 +184,7 @@ Supporting pages cover cross-docking, which moves items through cross-dock bins 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10125 [Extensibility Request] issue 30395: expose production pick grouping number](../../../../changes/bcapps/10125.md) (code change): "New event enables extensions to modify the warehouse pick grouping number"
+- [What's New: E-Documents and E-Shipments (2025 release wave 2)](../../../../videos/zy-Tg9bBtHc.md) (video): "E-Shipments; E-Transfer Shipments; transfer shipments"
 
 ## Business Central pages and reports
 

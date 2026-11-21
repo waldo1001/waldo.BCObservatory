@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/get-started
 type: topic
 title: Get started
-summary: "Get started with AL development for Business Central: setting up Visual Studio Code and the AL Language extension, editor tools (AL Explorer, formatter, code actions, outline, shortcuts), Designer, telemetry, translation, runtime packages, and subtopics on ALTool, Ready to Go and marketplace validation. It answers setup, tooling and first-extension questions."
+summary: "Getting started with AL development for Business Central: setting up Visual Studio Code and the AL Language extension, building a first extension, using editor tools, telemetry, translations, runtime packages, ALTool, and AppSource publishing and validation. It answers how-to and tooling questions for new AL developers."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-28T11:01:28.806Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 09a3e109704c0adba0a9f99cff109464bd2bf186f130aaba7f38b21d3f80c956
+  input_hash: dafeb4a007113aaa48b10af46cde3d53ea4efed23ceca77c46286e0425d725c7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
@@ -252,6 +252,7 @@ links:
   videos: []
   posts:
     - post/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26
+    - post/waldo-be/318627
   guidelines: []
 learn_toc_path:
   - Development
@@ -266,7 +267,7 @@ coverage:
   learn: 29
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: f7fa283a2307b38645a0a6a5c070d9f11e217497e54ae695e9ce2e6e3db64c17
@@ -275,28 +276,28 @@ narrative: generated
 
 # Get started
 
-> Get started with AL development for Business Central: setting up Visual Studio Code and the AL Language extension, editor tools (AL Explorer, formatter, code actions, outline, shortcuts), Designer, telemetry, translation, runtime packages, and subtopics on ALTool, Ready to Go and marketplace validation. It answers setup, tooling and first-extension questions.
+> Getting started with AL development for Business Central: setting up Visual Studio Code and the AL Language extension, building a first extension, using editor tools, telemetry, translations, runtime packages, ALTool, and AppSource publishing and validation. It answers how-to and tooling questions for new AL developers.
 
-Path: [Development](../development.md) > Get started · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../development.md) > Get started · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is the entry point for developers building AL extensions for Business Central. It starts with environment setup: a sandbox, Visual Studio Code, the AL Language extension, and creating a first project with the AL:Go! command, with launch.json and app.json settings. A step-by-step sample extension then walks through new objects, extension objects, and install and upgrade code. A page on differences between C/SIDE and AL helps developers coming from Dynamics NAV.
+This section is the entry point for AL developers. It starts with setting up a sandbox, Visual Studio Code and the AL Language extension, then creating a first project with the AL:Go! command. A walkthrough builds a sample extension with new objects and extension objects, including install and upgrade code. A guide on the differences between C/SIDE and AL helps people coming from Dynamics NAV.
 
-Most other pages cover tools that make daily work faster: AL code actions, code navigation, AL Explorer, AL Formatter, AL Home, the Outline View, snippets, keyboard shortcuts, and general productivity tips. Designer lets you change page layouts in a sandbox client without writing AL. Further pages deal with context-sensitive Help links, XLIFF translation files, telemetry instrumentation, and runtime packages for on-premises deployments that protect source code.
+Most other pages describe tools and features for daily work. In Visual Studio Code these are AL Home, AL Explorer, the Outline view, code navigation, code actions, the formatter, snippets and keyboard shortcuts. Other pages cover Designer for in-client page changes, context-sensitive Help links, XLIFF translation files, telemetry, and runtime packages for on-premises.
 
-Three subtopics extend the area. ALTool covers command-line compiling, packaging, and testing for CI/CD. Ready to Go covers starting and publishing apps on the Microsoft commercial marketplace. Marketplace validation covers AppSource technical validation, telemetry for results, and marketing assets. Start with Get started with AL, then the sample extension, and move to the tooling pages as needed.
+Three subtopics cover next steps. ALTool handles command-line compile, package and test work in CI/CD. Ready to Go and Marketplace validation cover publishing apps to AppSource. Start with "Get started with AL", then the first sample extension, then the tooling pages as needed.
 
 ## Key points
 
-- Get started with AL: set up a sandbox, install Visual Studio Code and the AL Language extension, create a project with AL:Go!, and deploy to Business Central; the page mentions Copilot project templates and runtime 15.0 and 16.0.
-- The first sample extension builds tables, pages, and extension objects, with install and upgrade code, and uses Designer.
-- Editor tools: AL code actions (quick fixes at instance, document, project, or workspace scope), Go To Definition navigation, AL Explorer, AL Formatter, Outline View, snippets, and keyboard shortcuts.
-- Designer is an in-client tool in the sandbox for changing page layouts by drag-and-drop without AL code.
-- Runtime packages for on-premises distribute only runtime artifacts, protecting source code without needing developer licenses on target servers; showMyCode and allowDebugging flags apply.
-- XLIFF translation support uses TranslationFile features and namespace-aware IDs (runtime 18); context-sensitive Help uses the ContextSensitiveHelpPage property.
-- Telemetry can be developed into apps with custom signals sent to Application Insights, covering usage, error, and performance data.
-- Subtopics cover ALTool for CI/CD, Ready to Go for marketplace publishing, and Marketplace validation for AppSource checks.
+- Get started with AL covers sandbox setup, installing Visual Studio Code and the AL Language extension, creating a project with AL:Go!, and configuring launch.json and app.json.
+- The first sample extension walkthrough builds table, page and codeunit objects and extension objects, with install and upgrade code, and uses Designer.
+- Editor tools include AL Explorer (objects, events, APIs, extensible enums, dependencies), Outline view, Go To Definition navigation with debugging, AL Formatter, snippets and keyboard shortcuts.
+- AL code actions offer quick fixes such as converting if statements to case, spell check, interface implementer and making methods local.
+- Telemetry pages show how to add custom signals using LogMessage and send them to Application Insights.
+- XLIFF translation pages cover generating translation files and namespace-aware IDs (runtime 18).
+- Runtime packages for on-premises protect AL source code and need no developer license on target servers; showMyCode and allowDebugging flags apply.
+- Subtopics cover ALTool for CI/CD, partner registration and Partner Center submission, and AppSource technical validation.
 
 ## Subtopics
 
@@ -330,5 +331,6 @@ Three subtopics extend the area. ALTool covers command-line compiling, packaging
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [How to Set Up a New Business Central Development Project – The 100% Correct Way](../../../posts/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26.md) (community post): "This guide covers the essential setup steps for creating a new Business Central AL development project"
+- [“the waldo way”](../../../posts/waldo-be/318627.md) (community post): "building a pre-packaged agentic development harness for the team to accelerate adoption"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

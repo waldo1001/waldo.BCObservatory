@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:19:10.183Z"
   flags: []
 generated:
-  at: "2026-10-26T06:21:45.768Z"
+  at: "2026-11-21T00:52:51.542Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -155,12 +155,10 @@ chapters:
     title: Conclusion and call to engagement
 features:
   - name: System audit fields as flow fields
-    status: ga
+    status: unclear
     t: 312
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573322"
+    status_source: video
   - name: Audit fields in profile customization
     status: ga
     t: 423
@@ -232,7 +230,7 @@ The video explains why system audit fields matter for tracking who created or ch
 
 | Feature | Status | At |
 |---|---|---|
-| System audit fields as flow fields | generally available (roadmap [Use system audit fields in analysis mode and in profiles](../features/573322.md)), demoed | [5:12](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=312s) |
+| System audit fields as flow fields | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=312s) |
 | Audit fields in profile customization | generally available (roadmap [Use system audit fields in analysis mode and in profiles](../features/573322.md)), demoed | [7:03](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=423s) |
 | Audit fields in analysis mode | generally available (roadmap [Use system audit fields in analysis mode and in profiles](../features/573322.md)), demoed | [11:16](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=676s) |
 

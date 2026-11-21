@@ -12,7 +12,7 @@ review:
   at: "2026-11-19T01:01:23.413Z"
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -463,8 +463,10 @@ links:
     - change/bcapps/12584
     - change/bcapps/12664
     - change/bcapps/12783
+    - change/bcapps/13669
     - change/bcapps/13704
     - change/bcapps/13724
+    - change/bcapps/14014
     - change/bcapps/9075
     - change/bcapps/9087
     - change/bcapps/9214
@@ -670,8 +672,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12584 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](../../../changes/bcapps/12584.md) (code change): "Posted, uninvoiced subcontracting receipts can again be pulled into a separate purchase invoice"
 - [#12664 Fix production journal page ID validation](../../../changes/bcapps/12664.md) (code change): "Production journal page ID validation now explicitly passes the page ID parameter"
 - [#12783 [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../changes/bcapps/12783.md) (code change): "multiplies the subcontractor price by the operation time factor and rounds to the unit-amount precision"
+- [#13669 [Master]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure. - Copy](../../../changes/bcapps/13669.md) (code change): "Fixed reversal of production orders when output posted with non-base unit of measure"
 - [#13704 [Subcontracting] Add quantity-ready-to-start tracking for production routing operations](../../../changes/bcapps/13704.md) (code change): "New read-only Quantity Ready to Start field on production routing lines"
 - [#13724 Bug 651757: Allow warehouse pick for MTO subassembly after registered put-away](../../../changes/bcapps/13724.md) (code change): "Warehouse pick selection for make-to-order subassemblies now allows higher-level"
+- [#14014 Bug 648872: [UX][Manufacturing] Many actions are enabled on an empty "Released Produciton Orders" page resulting in errors when clicked](../../../changes/bcapps/14014.md) (code change): "Actions on the Released Production Orders page are now disabled when the page opens"
 - [#9075 Bug 598820: Item Availability by Event from Prod. Order ignores demand after Due Date](../../../changes/bcapps/9075.md) (code change): "Item Availability by Event from Prod. Order ignores demand after Due Date"
 - [#9087 Bug 641331: Copy Production Order Document lookup shows the current document](../../../changes/bcapps/9087.md) (code change): "Copy Production Order Document report now excludes the current production order from the document lookup"
 - [#9214 WorkCenter/MachineCenter: add Capacity Shown In to Calendar and Load pages](../../../changes/bcapps/9214.md) (code change): "Work Center and Machine Center Calendar and Load pages now include Capacity"

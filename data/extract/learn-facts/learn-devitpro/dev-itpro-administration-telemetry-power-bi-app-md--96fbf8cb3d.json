@@ -1,42 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-power-bi-app.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app",
-  "title": "Analyze and monitor telemetry with Power BI",
-  "blob": "b101349c7505d521644d79083eafd060b61603aa",
+  "title": "Analyze and Monitor Telemetry with Power BI",
+  "blob": "b8dede8ef866bb1a5392a19b576d28badd471f83",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Two free Power BI apps analyze telemetry: one for environment telemetry, one for app and extension telemetry."
+      "text": "Power BI telemetry apps consist of four reports: Usage, Errors, Performance, and Administration."
     },
     {
       "kind": "fact",
-      "text": "Usage report shows sessions, clients, user locations, page views, reports, features, integrations, and deprecated features."
+      "text": "Usage report covers sessions, clients, locations, page views, reports, feature usage, integrations, and deprecated features."
     },
     {
       "kind": "fact",
-      "text": "Error report displays user errors, integration errors, and system errors across environments or apps."
+      "text": "Error report analyzes user errors, integration errors, and system errors; supplements Jupyter notebook troubleshooting guides."
     },
     {
       "kind": "fact",
-      "text": "Performance report tracks sessions, OnCompanyOpen timing, page views, reports, long-running queries, and task scheduler jobs."
+      "text": "Performance report provides insights into sessions, page timings, long-running queries, database locks, and job scheduling."
     },
     {
       "kind": "fact",
-      "text": "Administration report shows environment inventory, update planning, and changes to environments, companies, and extensions."
+      "text": "Administration report tracks environment inventory, version updates, and changes to environments, companies, extensions, indexes, and fields."
     },
     {
-      "kind": "prerequisite",
-      "text": "Power BI pro license required to use the apps."
+      "kind": "fact",
+      "text": "App parameters control refresh schedules, Microsoft Entra tenant mapping, timezone, data inclusion, and app filtering."
     },
     {
-      "kind": "step",
-      "text": "Install app from Microsoft Marketplace using the provided link."
-    },
-    {
-      "kind": "step",
-      "text": "Get Application ID from Azure portal and connect to Application Insights resource in Power BI."
+      "kind": "fact",
+      "text": "Sample data is shown by default in Power BI apps; actual data requires connecting Application Insights resource."
     }
   ],
   "dropped": 0,
@@ -44,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004442,
-      "pages_in_call": 13
+      "cost_usd": 0.006741,
+      "pages_in_call": 8
     }
   ]
 }

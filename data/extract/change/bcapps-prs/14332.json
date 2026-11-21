@@ -6,15 +6,15 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "Variables in item application entry table are changed from int to bigint to prevent overflow in 64-bit calculations during cost processing.",
+  "summary": "Some variables in the Item Application Entry table were declared as Integer instead of BigInteger. This happened because a cost calculation optimization crossed the switch to 64-bit integers. They are now BigInteger, which prevents overflow errors.",
   "key_points": [
-    "Cost calculation optimization left some variables as int instead of bigint",
-    "5 variables corrected in both W1 and RU layers of Item Application Entry table",
-    "Prevents arithmetic overflow errors in 64-bit environments",
-    "Affects ledger entry calculations during item costing"
+    "A cost calculation optimization crossed the move to 64-bit integers and left some variables as Integer",
+    "Those variables in table 339 Item Application Entry now use BigInteger",
+    "Changed in both the W1 and RU layers",
+    "Prevents overflow errors in item application entry processing"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

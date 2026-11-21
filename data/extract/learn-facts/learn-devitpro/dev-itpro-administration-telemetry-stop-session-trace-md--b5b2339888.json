@@ -2,29 +2,37 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-stop-session-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-stop-session-trace",
   "title": "Analyzing Stopped Session Telemetry",
-  "blob": "4be759c3b43bd1f6d311cc03e81eeb7e39147908",
+  "blob": "fd6b8436c747f6ab6b96af7fe617a1b603e67a47",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "A trace is recorded when a session stops via the StopSession method from AL or from the admin center."
+      "text": "Session stop attempts are recorded whether initiated from AL code or admin center via StopSession method"
     },
     {
       "kind": "fact",
-      "text": "The trace records the ID of the session that was stopped and the ID of the session that initiated the stop."
+      "text": "Result dimension shows True when stop request was accepted, False when it was rejected"
     },
     {
       "kind": "fact",
-      "text": "Custom dimensions include whether the stopped session was running as an administrator and the client type that made the stop call."
+      "text": "Cancellation comment indicates whether stop was triggered by management PowerShell cmdlet or direct AL call"
     },
     {
       "kind": "fact",
-      "text": "ManagementClient client type indicates the session was stopped from the Business Central admin center."
+      "text": "Client type dimension distinguishes between Background, WebClient, or ManagementClient session initiators"
     },
     {
       "kind": "fact",
-      "text": "Stack trace, AL object ID, object name, and object type are not shown for sessions canceled from the admin center."
+      "text": "Session stop event includes target session ID, calling session ID, company name, and admin status of target"
+    },
+    {
+      "kind": "fact",
+      "text": "Stack trace and AL object details are included for session stops from AL but omitted for admin center requests"
+    },
+    {
+      "kind": "fact",
+      "text": "Event ID RT0029 identifies all StopSession method invocations across all stop scenarios"
     }
   ],
   "dropped": 0,
@@ -32,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003696,
-      "pages_in_call": 16
+      "cost_usd": 0.007109,
+      "pages_in_call": 8
     }
   ]
 }

@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:17:54.683Z"
+  at: "2026-11-21T00:15:56.434Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c80f5dc6ebeb74e32d0df2ad655306cced7f55a
@@ -28,7 +28,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/one-primary-guided-experience-setup-per-app.md
     title: "microsoft/BCQuality: An app has at most one primary setup object in Guided Experience"
     date: "2026-11-19"
-    commit: dd49341915045164248349bd891b106ebb4b34cb
+    commit: aaaf6c13c219294fcebf644f1662f4d77061e2f7
     t: null
     quote: null
 links:
@@ -94,4 +94,4 @@ Marking two setup objects as primary, or switching the primary object in a new v
 
 ---
 
-From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at aaaf6c1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

@@ -2,29 +2,25 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/troubleshoot-query-performance-using-query-store.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-query-performance-using-query-store",
   "title": "Troubleshooting: Using Query Store to Monitor Query Performance",
-  "blob": "af1d31bacb11c69a80c65d18c886e3d0c09b1ed2",
+  "blob": "47215e3764312718e15dd029d8cdeb72fec890dc",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "SQL Server Query Store captures history of queries, plans, and runtime statistics."
+      "text": "SQL Server Query Store captures query history, compilation metrics, and runtime statistics aggregated over time intervals."
     },
     {
       "kind": "status",
-      "text": "Query Store available in SQL Server 2016 and later and Azure SQL Database."
+      "text": "Query Store available in SQL Server starting with version 2016 and Azure SQL Database."
     },
     {
       "kind": "fact",
-      "text": "Tracks executions, average execution time, physical IO reads, and row counts per query."
+      "text": "Query Store helps identify queries with longest execution time, biggest IO reads, and other performance metrics."
     },
     {
-      "kind": "fact",
-      "text": "Helps identify performance differences caused by query plan changes over time."
-    },
-    {
-      "kind": "fact",
-      "text": "Simplifies troubleshooting by providing history of queries executed on database."
+      "kind": "limit",
+      "text": "Query Store retains history of aggregated metrics, not individual query execution logs."
     }
   ],
   "dropped": 0,
@@ -32,8 +28,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005012,
-      "pages_in_call": 12
+      "cost_usd": 0.005948,
+      "pages_in_call": 6
     }
   ]
 }

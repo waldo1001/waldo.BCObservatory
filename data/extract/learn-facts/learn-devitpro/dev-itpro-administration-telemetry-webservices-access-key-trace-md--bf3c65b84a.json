@@ -1,34 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-webservices-access-key-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-access-key-trace",
-  "title": "Analyzing Web Service Access Key Telemetry | Microsoft Docs",
-  "blob": "02dcc65190ff49d0ff2f7803349f0c3b53f824a8",
+  "title": "Analyzing Web Service Access Key Telemetry",
+  "blob": "dd8f2298565d3d79686b92da2362103a9c58c1a5",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "status",
-      "text": "Web service access key telemetry applies to Business Central 2020 release wave 2, version 17.3, and later."
+      "text": "Generally available from version 17.3, 2020 release wave 2 and later"
     },
     {
       "kind": "fact",
-      "text": "Emits telemetry on success or failure of authenticating web service access keys."
+      "text": "Records success (RT0020) or failure (RT0021) of web service access key authentication attempts"
     },
     {
       "kind": "fact",
-      "text": "RT0020 event emitted for successful authentication with endpoint, extension, object details."
+      "text": "Failure events are only emitted when authentication check is reached; rejected early requests do not trigger event"
     },
     {
       "kind": "fact",
-      "text": "RT0021 event emitted for failed authentication including failure reason and exception details."
+      "text": "Authentication failure reason shows 'Not authorized' when user is not authenticated for the request"
     },
     {
       "kind": "fact",
-      "text": "Helps monitor web service access key usage for deprecation preparation."
+      "text": "Deprecated keys dimension lists authentication keys marked for removal in next major release"
     },
     {
-      "kind": "limit",
-      "text": "Endpoint redacts private and sensitive information; exception messages may omit sensitive data."
+      "kind": "fact",
+      "text": "Event data tracks service category (Api, ODataV4, ODataV3, SOAP) and authentication type (NavUserPassword, AccessControl)"
+    },
+    {
+      "kind": "fact",
+      "text": "Endpoint is sanitized to omit private and sensitive information from trace records"
     }
   ],
   "dropped": 0,
@@ -36,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005012,
-      "pages_in_call": 12
+      "cost_usd": 0.007109,
+      "pages_in_call": 8
     }
   ]
 }

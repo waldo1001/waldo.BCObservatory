@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:18:23.151Z"
+  at: "2026-11-21T00:15:56.434Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d387f73873399b7aa29acc273f3a7cf8760d9546
@@ -29,7 +29,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/xmlport/xmlport-import-export-return-value-controls-failure-handling.md
     title: "microsoft/BCQuality: The return value of `Xmlport.Import` and `Xmlport.Export` decides who handles a failure"
     date: "2026-11-19"
-    commit: dd49341915045164248349bd891b106ebb4b34cb
+    commit: aaaf6c13c219294fcebf644f1662f4d77061e2f7
     t: null
     quote: null
 links:
@@ -95,4 +95,4 @@ See sample: [`xmlport-import-export-return-value-controls-failure-handling.bad.a
 
 ---
 
-From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at aaaf6c1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

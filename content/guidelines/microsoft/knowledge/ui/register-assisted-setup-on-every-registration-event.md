@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:18:10.943Z"
+  at: "2026-11-21T00:15:56.434Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a771dc8d9eeb5fcd59d3f80a486a680213407725
@@ -29,7 +29,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/register-assisted-setup-on-every-registration-event.md
     title: "microsoft/BCQuality: Register an assisted setup guide on every `OnRegisterAssistedSetup` event"
     date: "2026-11-19"
-    commit: dd49341915045164248349bd891b106ebb4b34cb
+    commit: aaaf6c13c219294fcebf644f1662f4d77061e2f7
     t: null
     quote: null
 links:
@@ -107,4 +107,4 @@ See sample: [`register-assisted-setup-on-every-registration-event.bad.al`](https
 
 ---
 
-From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at aaaf6c1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

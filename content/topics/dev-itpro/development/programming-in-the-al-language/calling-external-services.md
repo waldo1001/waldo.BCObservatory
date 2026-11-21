@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -94,6 +94,7 @@ links:
   posts:
     - post/aardvarklabs-blog/2953
     - post/aardvarklabs-blog/3460
+    - post/demiliani-com/13588
     - post/demiliani-com/13640
     - post/demiliani-com/14203
     - post/kauffmann-nl/8332
@@ -125,7 +126,7 @@ coverage:
   learn: 8
   code: 0
   video: 2
-  blog: 11
+  blog: 12
   guideline: 0
 bc_forms: []
 member_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -179,6 +180,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9748 Image Analyzer: use Computer Vision v3.2 instead of retiring v1.0](../../../../changes/bcapps/9748.md) (code change): "The Image Analyzer app switches from the retiring Computer Vision v1.0 to v3.2 API"
 - [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "consume external APIs from within Business Central by making HTTP requests"
 - [Native SFTP Support in Business Central 28](../../../../posts/aardvarklabs-blog/3460.md) (community post): "native SFTP Client codeunit for listing, uploading, downloading and deleting files"
+- [Dynamics 365 Business Central: new strict URI validation in AL Http Client](../../../../posts/demiliani-com/13588.md) (community post): "stricter URI validation in AL HttpClient to prevent Server-Side Request Forgery attacks"
 - [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "Business Central 2026 Wave 1 introduced a native SFTP Client codeunit for connecting to SFTP servers"
 - [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs risk duplicating actions"
 - [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released"

@@ -2,21 +2,21 @@
 id: topic/dev-itpro/administration/onboard-your-customers
 type: topic
 title: Onboard your customers
-summary: "Onboarding customers in Business Central online: trials and sign-ups, the SignupContext parameter, the Welcome banner, checklists, teaching tips and tours, recommended apps, and onboarding telemetry. It answers how partners help new customers and users get productive faster."
+summary: "Onboarding customers in Business Central online: trials and sign-ups, the SignupContext parameter, welcome banner, checklist, teaching tips and tours, recommended apps, and onboarding telemetry. It answers how partners tailor first-use experiences and measure progress."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:21:42.368Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 90ad5de3e47e58536b9097e770ee6446a0fe3dcb549281cfda346001f7c8c04c
+  input_hash: 47ccd0847133ed17382d92bbd675185371ebedf0003d2e579aae1507817ca517
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-signupcontext
@@ -121,27 +121,27 @@ narrative: generated
 
 # Onboard your customers
 
-> Onboarding customers in Business Central online: trials and sign-ups, the SignupContext parameter, the Welcome banner, checklists, teaching tips and tours, recommended apps, and onboarding telemetry. It answers how partners help new customers and users get productive faster.
+> Onboarding customers in Business Central online: trials and sign-ups, the SignupContext parameter, welcome banner, checklist, teaching tips and tours, recommended apps, and onboarding telemetry. It answers how partners tailor first-use experiences and measure progress.
 
-Path: [Administration](../administration.md) > Onboard your customers · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Administration](../administration.md) > Onboard your customers · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes the tools partners can use to help prospects and customers learn Business Central and reach productive use sooner. It starts with the overview of onboarding experiences and the page on trials and sign-ups for Business Central online, which covers free trials, tailored trials, CSP partnerships, conversion to paid subscriptions and demo environments.
+This section describes the tools partners can use to help new customers learn Business Central and become productive sooner. It starts with how trials and sign-ups work for Business Central online, including free trials, tailored trials, CSP partnerships, conversion to paid subscriptions, and demo environments.
 
-The other pages cover individual building blocks. The SignupContext parameter tailors trial onboarding from prospect information on partner websites. The Welcome banner, the checklist, and teaching tips and in-app tours guide new users inside the product. The Recommended Apps extension lets partners curate marketplace apps for a customer. Onboarding telemetry signals measure progress.
+The other pages cover the in-product pieces. The SignupContext parameter tailors a trial to a prospect. The welcome banner and the checklist guide new users through setup and learning. Teaching tips and in-app tours explain pages and controls. The Recommended Apps extension lets partners curate marketplace apps. Onboarding telemetry shows whether companies complete key processes.
 
-Start with "Onboarding experiences" for the big picture, then read the page for the specific tool you want to build or customize.
+Start with "Onboarding experiences" for the overview of the tools. Then read "Trials and sign-ups" and the SignupContext page if you create trials. Use the checklist, banner, and teaching tips pages when you build the in-app experience.
 
 ## Key points
 
-- The SignupContext parameter tailors unmanaged trial provisioning and onboarding (including checklist customization) based on prospect information from partner websites.
-- The checklist is built from guided experience items such as assisted setup, manual setup, tours and spotlight tours (2021 release wave 1).
-- The Welcome banner appears to new users in CRONUS evaluation companies and in non-evaluation companies like My Company, with different purposes and customization options.
-- Teaching tips are created in AL with properties like AboutTitle and AboutText, for pages, controls, FactBoxes and reports (2022 release wave 1).
-- Telemetry emits onboarding signals, such as sales, purchase and payment signals, based on posted documents, and the signals can be extended.
-- The Recommended Apps extension lets partners curate marketplace app lists using codeunit methods such as InsertApp, GetApp, UpdateApp, RefreshImage, DeleteApp and DeleteAllApps.
-- Trials and sign-ups cover free trials, tailored trials, CSP partnerships, trial conversion to paid subscriptions and demo environments.
+- The SignupContext parameter tailors trial onboarding to prospect information from partner websites. It applies to unmanaged trials, trial provisioning, EULA acceptance, and checklist customization.
+- The checklist is built from guided experience items: assisted setup, manual setup, tours, and spotlight tours (2021 release wave 1).
+- The welcome banner appears for new users in CRONUS evaluation companies and in non-evaluation companies such as My Company. Its purpose and customization options differ between the two.
+- Page and control teaching tips use AL properties such as AboutTitle and AboutText (2022 release wave 1). The page also gives guidance on tours, FactBox tips, report tips, and rich text formatting.
+- Onboarding telemetry sends signals automatically for onboarding started, sales invoice, purchase invoice, customer payment, and vendor payment. Partners can add custom signals based on their own criteria.
+- The Recommended Apps extension lets partners curate marketplace app lists per customer or business type. Its codeunit methods are InsertApp, GetApp, UpdateApp, RefreshImage, DeleteApp, and DeleteAllApps.
+- Trials and sign-ups cover free trials, tailored trials, CSP partnership, conversion to paid subscriptions, and demo environments.
 
 ## Learn pages
 

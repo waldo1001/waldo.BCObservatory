@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/14096",
+  "input_hash": "faac8c08607e5c1ce544d0f27130d9b93630ca5ea3767f0be018aef84d86c130",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-21T00:56:57.544Z",
+  "issues": [
+    "Summary framed the change as filtering; the bug is an ambiguous caption error when running Create Payment on vendor ledger entries filtered by Remaining Amount <> 0."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017974,
+    "changes_in_call": 6
+  }
+}

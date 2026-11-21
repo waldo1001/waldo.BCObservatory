@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:47:37.951Z"
+  at: "2026-11-21T00:46:40.499Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1c404e286300c0c4d43f848dadd9a90d1a441dfbcd0fc771e37a2d908f80dd49
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/W1/BaseApp/RoleCenters/President.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/W1/BaseApp/RoleCenters/President.Profile.al
     title: src/Layers/W1/BaseApp/RoleCenters/President.Profile.al (releases/29.x)
     date: null
-    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
+    commit: d30504e3670310aa9f2396745813257d80d473b8
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "PRESIDENT" in Base Application (Microsoft.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.RoleCenters · captioned "President" · BC23-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/W1/BaseApp/RoleCenters/President.Profile.al) · facts from BC29
+Base Application · Microsoft.RoleCenters · captioned "President" · BC23-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/W1/BaseApp/RoleCenters/President.Profile.al) · facts from BC29
 
 ## Properties
 

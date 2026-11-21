@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:47:37.951Z"
+  at: "2026-11-21T00:46:40.499Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1d5be8c422fd1936dfa077b540dc4fe5edc125e18132d303c432ac2d7442ca4c
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOAShiptoAddressList.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOAShiptoAddressList.PageCust.al
     title: src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOAShiptoAddressList.PageCust.al (releases/29.x)
     date: null
-    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
+    commit: d30504e3670310aa9f2396745813257d80d473b8
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Page customization "SOA Ship-to Address List" in SalesOrderAgent (Microsoft.Agent.SalesOrderAgent). Introduced in BC29, still in BC30.
 
-SalesOrderAgent · Microsoft.Agent.SalesOrderAgent · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOAShiptoAddressList.PageCust.al) · facts from BC29
+SalesOrderAgent · Microsoft.Agent.SalesOrderAgent · BC29-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/SalesOrderAgent/app/src/Profile/PageCustomizations/SOAShiptoAddressList.PageCust.al) · facts from BC29
 
 ## Across versions
 

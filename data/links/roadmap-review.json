@@ -398,58 +398,53 @@
     "573259": {
       "docs/learn-smb-docs/business-central/expense-management/expense-management-create-expenses.md@5747dacd71e39ee0": {
         "verdict": "drop",
-        "reason": "This page is about assigning projects and tasks to expenses in general, with nothing on filtering by assigned resources.",
-        "at": "2026-10-30T08:01:43.119Z"
+        "reason": "A general Learn page on creating expenses that never mentions limiting projects to assigned resources.",
+        "at": "2026-11-21T00:52:34.837Z"
       },
       "video/cVfZoDwKYpI#55@b12d4e66f615e2c7": {
         "verdict": "drop",
-        "reason": "It describes attaching projects to expenses for cost allocation, which is a different capability from assigned-project visibility.",
-        "at": "2026-10-30T08:01:43.119Z"
+        "reason": "Covers attaching projects to expenses in general, not filtering by resource assignment.",
+        "at": "2026-11-21T00:52:34.837Z"
       },
-      "video/GwrMf1umTFg#0@a4183bb92956601d": {
+      "video/GwrMf1umTFg#0@8efeef85660ec733": {
         "verdict": "keep",
-        "reason": "It says users can choose between seeing all projects or only assigned projects in the web app.",
-        "at": "2026-10-30T08:01:43.119Z"
+        "reason": "Explicitly mentions choosing between all projects and assigned-projects visibility in the web app.",
+        "at": "2026-11-21T00:52:34.837Z"
       },
-      "video/GwrMf1umTFg#1@a4183bb92956601d": {
+      "video/GwrMf1umTFg#1@8efeef85660ec733": {
         "verdict": "keep",
-        "reason": "It explains the option to show only assigned projects, which is this feature's core behavior.",
-        "at": "2026-10-30T08:01:43.119Z"
+        "reason": "Directly describes the option to show only assigned projects to users.",
+        "at": "2026-11-21T00:52:34.837Z"
       },
-      "video/GwrMf1umTFg#2@a4183bb92956601d": {
+      "video/GwrMf1umTFg#2@8efeef85660ec733": {
         "verdict": "keep",
-        "reason": "It shows the new assigned resources section on the project card, which controls which employees see a project.",
-        "at": "2026-10-30T08:01:43.119Z"
+        "reason": "Shows assigning resources on the project card to control which projects employees see in the web app.",
+        "at": "2026-11-21T00:52:34.837Z"
       },
-      "video/GwrMf1umTFg#3@a4183bb92956601d": {
+      "video/GwrMf1umTFg#3@8efeef85660ec733": {
         "verdict": "keep",
-        "reason": "It shows task-level resource assignment, so employees see only the tasks they are assigned to.",
-        "at": "2026-10-30T08:01:43.119Z"
-      },
-      "video/GwrMf1umTFg#5@a4183bb92956601d": {
-        "verdict": "drop",
-        "reason": "It filters on active status and posting tasks, not on resource assignment.",
-        "at": "2026-10-30T08:01:43.119Z"
+        "reason": "Shows task-level resource assignment so employees see only their assigned tasks.",
+        "at": "2026-11-21T00:52:34.837Z"
       },
       "video/NI6WYze-JSU#0@2d46165347b6c8ab": {
         "verdict": "drop",
-        "reason": "It covers turning project visibility on or off in general, without describing the assigned-projects-only filter.",
-        "at": "2026-10-30T08:01:43.119Z"
+        "reason": "Only covers turning project visibility on or off; too vague to confirm it describes assignment-based filtering.",
+        "at": "2026-11-21T00:52:34.837Z"
       },
       "video/NI6WYze-JSU#1@2d46165347b6c8ab": {
         "verdict": "drop",
-        "reason": "It describes submitters assigning projects to expenses, not filtering projects by assignment.",
-        "at": "2026-10-30T08:01:43.119Z"
+        "reason": "Describes assigning expenses to projects, not limiting the list to assigned projects.",
+        "at": "2026-11-21T00:52:34.837Z"
       },
       "video/NI6WYze-JSU#2@2d46165347b6c8ab": {
         "verdict": "keep",
-        "reason": "It documents the setup option to show only assigned projects.",
-        "at": "2026-10-30T08:01:43.119Z"
+        "reason": "Documents the setup option for assigned-projects-only visibility.",
+        "at": "2026-11-21T00:52:34.837Z"
       },
       "video/NI6WYze-JSU#3@2d46165347b6c8ab": {
         "verdict": "keep",
-        "reason": "It shows the setup step linking expense users to resources, which assignment-based filtering depends on.",
-        "at": "2026-10-30T08:01:43.119Z"
+        "reason": "Shows linking expense users to resources, the setup step that assignment-based project filtering depends on.",
+        "at": "2026-11-21T00:52:34.837Z"
       }
     },
     "573260": {
@@ -500,25 +495,30 @@
       }
     },
     "573261": {
+      "video/H5EuObmeF4o#27@81bcc46a2071446e": {
+        "verdict": "drop",
+        "reason": "It describes the new Accounts Payable role center, not the updated Expense Manager role center.",
+        "at": "2026-11-21T00:52:33.528Z"
+      },
       "video/Tl2B-85JQIw#0@c1940e8dd14b70d3": {
         "verdict": "drop",
-        "reason": "Announces a new Account Payable Role Center from 2025 wave 2, not the updated Expense Manager Role Center.",
-        "at": "2026-10-30T08:02:11.057Z"
+        "reason": "It introduces the Accounts Payable role center, which is a different role center from Expense Manager.",
+        "at": "2026-11-21T00:52:33.528Z"
       },
       "video/Tl2B-85JQIw#1@c1940e8dd14b70d3": {
         "verdict": "drop",
-        "reason": "Covers workflow consolidation in the Account Payable Role Center, a different role center from the Expense Manager one.",
-        "at": "2026-10-30T08:02:11.057Z"
+        "reason": "It covers workflow consolidation in the Accounts Payable role center, not the Expense Manager role center.",
+        "at": "2026-11-21T00:52:33.528Z"
       },
       "video/Tl2B-85JQIw#2@c1940e8dd14b70d3": {
         "verdict": "drop",
-        "reason": "Covers purchase orders and incoming e-documents in the Account Payable Role Center, not expense management features.",
-        "at": "2026-10-30T08:02:11.057Z"
+        "reason": "It covers purchase and e-document access in the Accounts Payable role center, not the Expense Manager role center.",
+        "at": "2026-11-21T00:52:33.528Z"
       },
       "video/Tl2B-85JQIw#5@c1940e8dd14b70d3": {
         "verdict": "drop",
-        "reason": "Covers payments, approvals and intercompany access in the Account Payable Role Center, not the Expense Manager Role Center.",
-        "at": "2026-10-30T08:02:11.057Z"
+        "reason": "It covers payment and approval access in the Accounts Payable role center, not the Expense Manager role center.",
+        "at": "2026-11-21T00:52:33.528Z"
       }
     },
     "573262": {
@@ -595,148 +595,148 @@
     "573265": {
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-mobile-app.md@672959bbbdfc97ee": {
         "verdict": "keep",
-        "reason": "Learn page documenting the Expense Agent mobile app itself, including receipt capture and offline mode.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Learn page documenting the Expense Agent mobile app's capture, offline and approval features.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-agent.md@be10959d05e923ab": {
         "verdict": "drop",
-        "reason": "General Expense Agent overview that only names the mobile channel without describing the app.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "General Expense Agent overview whose evidence doesn't describe the mobile app.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/4TE8uwIi91k#0@4151766ef06f91dc": {
         "verdict": "keep",
-        "reason": "Shows automatic receipt capture from the phone camera in the mobile app.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Shows receipt capture with the phone camera in the mobile app.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/4TE8uwIi91k#1@4151766ef06f91dc": {
         "verdict": "keep",
-        "reason": "Shows multiple receipts being uploaded at once in the mobile app.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Shows capturing multiple receipts from the mobile app.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/4TE8uwIi91k#2@4151766ef06f91dc": {
         "verdict": "keep",
-        "reason": "Shows the phone's built-in share feature sending gallery photos to the app.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Shows the native share feature sending receipts to the mobile app.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/4TE8uwIi91k#4@4151766ef06f91dc": {
         "verdict": "keep",
-        "reason": "Shows offline capture that is queued and processed once the connection returns.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Shows offline receipt capture that is processed once the connection returns.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/4TE8uwIi91k#5@4151766ef06f91dc": {
         "verdict": "keep",
-        "reason": "Shows expense report submission from the mobile app.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Shows submitting expense reports to approvers from the mobile app.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/cVfZoDwKYpI#0@b12d4e66f615e2c7": {
         "verdict": "drop",
-        "reason": "General Expense Agent introduction, not specific to the mobile app.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "General introduction to the Expense Agent, not the mobile app.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/cVfZoDwKYpI#1@b12d4e66f615e2c7": {
         "verdict": "drop",
-        "reason": "General AI receipt extraction, not tied to the mobile app.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Generic AI receipt extraction that isn't specific to the mobile app.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/cVfZoDwKYpI#35@b12d4e66f615e2c7": {
         "verdict": "drop",
         "reason": "About the expense users entity, a different capability.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/cVfZoDwKYpI#36@b12d4e66f615e2c7": {
         "verdict": "drop",
         "reason": "About shared mailbox submission, a different channel.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/cVfZoDwKYpI#6@b12d4e66f615e2c7": {
         "verdict": "keep",
-        "reason": "Shows the mobile app's camera capture and share-to-app feature.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Describes the mobile app's camera capture and share-to-app features.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/cVfZoDwKYpI#7@b12d4e66f615e2c7": {
         "verdict": "drop",
         "reason": "About the web app, not the mobile app.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/e_x5QF0vXgs#0@ba18234062232c02": {
         "verdict": "keep",
-        "reason": "Introduces the iOS/Android mobile app for capturing receipts.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Introduces the iOS and Android mobile app for capturing receipts.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/e_x5QF0vXgs#1@ba18234062232c02": {
         "verdict": "keep",
-        "reason": "Shows receipt edge detection during capture in the mobile app.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Shows receipt capture with edge detection in the mobile app.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/e_x5QF0vXgs#2@ba18234062232c02": {
         "verdict": "keep",
-        "reason": "Shows how the mobile app lists and displays expenses for review.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Shows reviewing expenses in the mobile app's feed.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/e_x5QF0vXgs#3@ba18234062232c02": {
         "verdict": "keep",
-        "reason": "Shows the mobile app extracting expense details from receipts.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Shows the mobile app extracting expense details from receipt images.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/e_x5QF0vXgs#4@ba18234062232c02": {
         "verdict": "keep",
-        "reason": "Shows editing extracted expense details in the mobile app before submission.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Shows modifying expense details in the mobile app before submission.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/e_x5QF0vXgs#5@ba18234062232c02": {
         "verdict": "keep",
-        "reason": "Shows the mobile app's itemization tab for reviewing expense details.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Shows the mobile app's itemization tab for reviewing line items.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/e_x5QF0vXgs#6@ba18234062232c02": {
         "verdict": "keep",
-        "reason": "Shows sharing receipts from the phone's photo library to the app.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Shows sharing receipts from the photo library to the app through the OS.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/e_x5QF0vXgs#7@ba18234062232c02": {
         "verdict": "keep",
         "reason": "Shows offline capture with queued processing in the mobile app.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/e_x5QF0vXgs#8@ba18234062232c02": {
         "verdict": "keep",
         "reason": "Describes the mobile app's capture and submission working without a Business Central license.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/e_x5QF0vXgs#9@ba18234062232c02": {
         "verdict": "keep",
         "reason": "Confirms the mobile app is available on iOS and Android.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/egE6UdOfar0#0@7d8c675d2687bc19": {
         "verdict": "drop",
-        "reason": "About scanning receipts for email or web app, not the mobile app.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "About scanning receipts into email or the web app, not the mobile app.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/egE6UdOfar0#1@7d8c675d2687bc19": {
         "verdict": "drop",
-        "reason": "General data extraction, not specific to the mobile app.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Generic receipt data extraction that isn't specific to the mobile app.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/egE6UdOfar0#8@7d8c675d2687bc19": {
         "verdict": "drop",
         "reason": "About shared mailbox submission, a different channel.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/egE6UdOfar0#9@7d8c675d2687bc19": {
         "verdict": "drop",
         "reason": "About the web app, not the mobile app.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "at": "2026-11-21T00:52:51.533Z"
       },
-      "video/Hct_HE0KzEc#0@697342392e84425a": {
+      "video/Hct_HE0KzEc#0@83510d1b12a26bf9": {
         "verdict": "drop",
-        "reason": "Brief general mention of the agent, too vague to tie to the mobile app.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Too general a mention of the Expense Agent to tie to the mobile app feature.",
+        "at": "2026-11-21T00:52:51.533Z"
       },
       "video/tj1vvsmAMVs#11@8bff31977f8f95e5": {
         "verdict": "keep",
-        "reason": "Announces the new mobile app with receipt scanning and offline support.",
-        "at": "2026-11-16T00:54:42.374Z"
+        "reason": "Announces the new iOS and Android mobile app with receipt scanning and offline mode.",
+        "at": "2026-11-21T00:52:51.533Z"
       }
     },
     "573304": {
@@ -1317,275 +1317,255 @@
     "573312": {
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-configuration-trace.md@b6d86fa30c97c4d4": {
         "verdict": "drop",
-        "reason": "Configuration telemetry, not custom data queries.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "MCP configuration telemetry, not custom data query tools.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-server-trace.md@76b2ef9f35f9c38b": {
         "verdict": "drop",
-        "reason": "Tool call telemetry is a general monitoring topic.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Tool call telemetry is general MCP monitoring, not the query feature.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md@594338000aff45d5": {
         "verdict": "drop",
         "reason": "AL development MCP server is a different capability.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-22-1.md@e4e00f23ab2d0f9c": {
         "verdict": "drop",
-        "reason": "Unrelated 2023 update.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Unrelated 2023 update content.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/0WAOtNaKjws#5@7b84cb59744f5d3c": {
         "verdict": "drop",
         "reason": "MCP resources support is a different capability.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/0WAOtNaKjws#6@7b84cb59744f5d3c": {
         "verdict": "drop",
         "reason": "Embedded resources for large data is a different capability.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/4HE3BBCcV84#0@c5fe2a2a532e1563": {
         "verdict": "drop",
-        "reason": "Exposing existing API queries, not defining custom queries without APIs.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Exposes existing API queries, not custom queries without APIs.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/4HE3BBCcV84#2@c5fe2a2a532e1563": {
         "verdict": "drop",
-        "reason": "Query object type in configuration exposes existing API queries, a different capability.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Configuration of existing analytics API queries, a different capability.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/AMVAiPTfSrU#1@8e56bd0b31620b69": {
         "verdict": "drop",
-        "reason": "General MCP server mention.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "General MCP server mention only.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/B9VbZzC2p7E#0@52a39dc6517d202c": {
         "verdict": "drop",
-        "reason": "Advanced Spreadsheets SQL agent is a different product.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Third-party spreadsheet app SQL agent, not the MCP query tools.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/B9VbZzC2p7E#1@52a39dc6517d202c": {
         "verdict": "drop",
-        "reason": "Advanced Spreadsheets agent is a different product.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Third-party spreadsheet app, unrelated to MCP query tools.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/C5cmG3sNjUg#0@a099f952caced881": {
         "verdict": "drop",
-        "reason": "General MCP server API exposure.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "General MCP server exposing APIs, not custom queries.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/C5cmG3sNjUg#3@a099f952caced881": {
         "verdict": "drop",
-        "reason": "Dynamic tools search is a different capability.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Dynamic tool search over API pages, an older capability.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/C5OdiYfxozc#2@9c805c7414770aa4": {
         "verdict": "drop",
         "reason": "BC Observatory MCP server is a different product.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/C5OdiYfxozc#5@9c805c7414770aa4": {
         "verdict": "drop",
-        "reason": "Observatory field schema queries, not the BC MCP server feature.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Observatory metadata queries, not Business Central MCP data query tools.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
-      "video/EpDIrJE0HzA#1@21321fae0c1fa1d7": {
+      "video/EpDIrJE0HzA#2@0082858619a6cfc5": {
         "verdict": "drop",
-        "reason": "General MCP overview.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "MCP Configurations page for APIs, older capability.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
-      "video/EpDIrJE0HzA#2@21321fae0c1fa1d7": {
+      "video/H5EuObmeF4o#1@81bcc46a2071446e": {
         "verdict": "drop",
-        "reason": "MCP configurations page, an older capability.",
-        "at": "2026-11-19T00:53:37.563Z"
-      },
-      "video/GeT5E_f9A9Q#0@be56261481e721e3": {
-        "verdict": "drop",
-        "reason": "MCP configurations, an older capability.",
-        "at": "2026-11-19T00:53:37.563Z"
-      },
-      "video/GeT5E_f9A9Q#1@be56261481e721e3": {
-        "verdict": "drop",
-        "reason": "Dynamic tool mode is a different capability.",
-        "at": "2026-11-19T00:53:37.563Z"
-      },
-      "video/GeT5E_f9A9Q#3@be56261481e721e3": {
-        "verdict": "drop",
-        "reason": "Bound actions is a different capability.",
-        "at": "2026-11-19T00:53:37.563Z"
-      },
-      "video/GK6hM-nBYZk#1@389cdb7bd9e37f0c": {
-        "verdict": "drop",
-        "reason": "General MCP mention.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "General MCP server announcement.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/IDYhxt-8ImI#22@7ab728d0a7abc892": {
         "verdict": "drop",
         "reason": "General MCP explanation.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/iViHfCgL2L8#0@b4735c7cd0586a45": {
         "verdict": "drop",
         "reason": "General MCP server introduction.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/iViHfCgL2L8#2@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Default read-only configuration, an older capability.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Default read-only API configuration, older capability.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/iViHfCgL2L8#3@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Write configurations are a different capability.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Write configurations, a different capability.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/LerAo-GGl8U#0@bad4154ca6e36eb9": {
         "verdict": "drop",
         "reason": "Admin MCP server is a different product.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/mBU2Iu0urw8#18@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "AL MCP server is a different product.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "AL MCP server for development, different capability.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/mBU2Iu0urw8#34@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "AL development MCP tools, not data queries.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "AL development MCP tooling, unrelated.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/mBU2Iu0urw8#8@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "AL development MCP servers, not data queries.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "AL development MCP servers, unrelated.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/q3xnjJD32kk#4@8159e1ae25b35be5": {
         "verdict": "keep",
-        "reason": "Shows agents constructing and running queries through MCP tools without APIs.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Describes agents constructing and running queries through MCP tools without APIs.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/qs1cg-GoDeQ#0@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Find tables tool belongs to the new data query tool set.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Find tables tool is part of the MCP data query tool set.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/qs1cg-GoDeQ#1@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Table relations tool supports defining join queries in this feature.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Table relations tool supports defining join queries in the feature.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/qs1cg-GoDeQ#2@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Table schema tool belongs to the data query tool set.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Table schema tool is part of the data query tool set.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/qs1cg-GoDeQ#3@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Data query tool runs AL queries without APIs, the core of this feature.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Data query tool runs AL queries directly without APIs, the core feature.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/qs1cg-GoDeQ#4@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Ad hoc analysis by constructing and compiling AL queries via MCP.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Ad hoc analysis by constructing and compiling AL queries matches the feature.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/rm-FstU_I80#0@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "General MCP server overview.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "General MCP server description.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/rm-FstU_I80#10@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Static configuration for writes is a different capability.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Static configuration for write scenarios, different capability.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/rm-FstU_I80#11@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Default read-only access, an older capability.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Default read-only access, older capability.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/rm-FstU_I80#14@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Search/describe/invoke tools, an older capability.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Search/describe/invoke API tools, older capability.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/rm-FstU_I80#15@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Natural language retrieval via the existing API tools, not custom queries.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Natural language queries via existing API tools, not custom data queries.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/rm-FstU_I80#19@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Validate here concerns API related-entity exposure, not query validation.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Validate for related entities in API exposure, not query validation.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/rm-FstU_I80#2@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "General MCP tools component.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "General MCP tools component explanation.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/rm-FstU_I80#22@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Exposing existing queries via configuration is a different capability.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Exposing existing query objects via configuration, not defining custom queries.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/rm-FstU_I80#23@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Page/API selection is a different capability.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Page and API selection, different capability.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/rm-FstU_I80#6@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "General MCP overview.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "General MCP server description.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/rm-FstU_I80#9@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Dynamic tool configuration is a different capability.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Dynamic tool mode for APIs, older capability.",
+        "at": "2026-11-21T00:52:39.992Z"
       },
       "video/x0XF0lBvgEE#2@b58c3bf367517517": {
         "verdict": "keep",
-        "reason": "Explicitly announces the Run data queries with MCP Server feature.",
-        "at": "2026-11-19T00:53:37.563Z"
+        "reason": "Explicitly announces running data queries with MCP Server in version 29.",
+        "at": "2026-11-21T00:52:39.992Z"
       }
     },
     "573313": {
-      "video/D_Lur52IrIg#9@27cf5cb45e38c4b5": {
+      "video/D_Lur52IrIg#9@1d309b6a70eb87de": {
         "verdict": "keep",
         "reason": "Directly describes actions inheriting their tooltip from the page's ToolTip property.",
-        "at": "2026-10-30T08:02:02.402Z"
+        "at": "2026-11-21T00:52:34.841Z"
       },
       "video/eUkx_VCcyoU#6@c5d076a80d53f7d7": {
         "verdict": "keep",
         "reason": "Describes report tooltips that page actions can inherit, which is the report half of this feature.",
-        "at": "2026-10-30T08:02:02.402Z"
+        "at": "2026-11-21T00:52:34.841Z"
       },
       "video/M1S2_bgLd3Q#9@4581f7d97011cd32": {
         "verdict": "drop",
         "reason": "Covers report columns inheriting tooltips from table fields, which is a different capability.",
-        "at": "2026-10-30T08:02:02.402Z"
+        "at": "2026-11-21T00:52:34.841Z"
       },
       "video/tzeO0mc8RJo#2@065597581ae2ee24": {
         "verdict": "drop",
         "reason": "Covers table-level tooltips reused on pages, an older and different capability.",
-        "at": "2026-10-30T08:02:02.402Z"
+        "at": "2026-11-21T00:52:34.841Z"
       },
       "video/Z0K38pXvjWk#0@b7524f859e6e9141": {
         "verdict": "keep",
         "reason": "Shows the page-level ToolTip property that replaces repeating tooltips on individual actions, which is part of this feature.",
-        "at": "2026-10-30T08:02:02.402Z"
+        "at": "2026-11-21T00:52:34.841Z"
       },
       "video/Z0K38pXvjWk#1@b7524f859e6e9141": {
         "verdict": "keep",
         "reason": "Explicitly demonstrates navigation actions inheriting tooltips from the page object.",
-        "at": "2026-10-30T08:02:02.402Z"
+        "at": "2026-11-21T00:52:34.841Z"
       },
       "video/Z0K38pXvjWk#2@b7524f859e6e9141": {
         "verdict": "keep",
         "reason": "Explains how a tooltip defined on the page carries to every place that page is referenced, which is the propagation behavior of this feature.",
-        "at": "2026-10-30T08:02:02.402Z"
+        "at": "2026-11-21T00:52:34.841Z"
       }
     },
     "573314": {
@@ -1957,58 +1937,53 @@
     "573322": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-analysis-view-package.md@6dfb24b9d017bb2b": {
         "verdict": "drop",
-        "reason": "Covers packaging analysis views in AL extensions, not system audit fields.",
-        "at": "2026-11-18T00:53:22.728Z"
+        "reason": "Covers packaging analysis views in AL, not system audit fields.",
+        "at": "2026-11-21T00:52:27.395Z"
       },
       "docs/learn-smb-docs/business-central/analysis-mode.md@675e6a4f9d6c79ee": {
         "verdict": "drop",
-        "reason": "General analysis mode documentation with no mention of system audit fields.",
-        "at": "2026-11-18T00:53:22.728Z"
+        "reason": "General analysis mode documentation that doesn't mention system audit fields.",
+        "at": "2026-11-21T00:52:27.395Z"
       },
       "video/Afv-r-eDt90#3@1219e81cb5b6d402": {
         "verdict": "drop",
-        "reason": "Describes analysis views in profiles, a different capability from audit fields.",
-        "at": "2026-11-18T00:53:22.728Z"
+        "reason": "About adding analysis views to profiles, not audit fields.",
+        "at": "2026-11-21T00:52:27.395Z"
       },
       "video/Afv-r-eDt90#5@1219e81cb5b6d402": {
         "verdict": "drop",
-        "reason": "Covers hiding analysis views through personalization, which is unrelated to audit fields.",
-        "at": "2026-11-18T00:53:22.728Z"
+        "reason": "About hiding analysis views through personalization, which is a different capability.",
+        "at": "2026-11-21T00:52:27.395Z"
       },
-      "video/H7R_m8Ue38g#0@dfd016e4945deec0": {
+      "video/H7R_m8Ue38g#1@5a70513562383f9d": {
         "verdict": "keep",
-        "reason": "Explains that system audit fields became flow fields that can be added to pages, which supports the page part of the feature.",
-        "at": "2026-11-18T00:53:22.728Z"
+        "reason": "Describes adding system audit fields to pages through profile customization.",
+        "at": "2026-11-21T00:52:27.395Z"
       },
-      "video/H7R_m8Ue38g#1@dfd016e4945deec0": {
+      "video/H7R_m8Ue38g#2@5a70513562383f9d": {
         "verdict": "keep",
-        "reason": "Shows admins adding system audit fields to pages through profile customization.",
-        "at": "2026-11-18T00:53:22.728Z"
-      },
-      "video/H7R_m8Ue38g#2@dfd016e4945deec0": {
-        "verdict": "keep",
-        "reason": "Shows system audit fields being used directly in analysis mode.",
-        "at": "2026-11-18T00:53:22.728Z"
+        "reason": "Describes using system audit fields directly in analysis mode.",
+        "at": "2026-11-21T00:52:27.395Z"
       },
       "video/Sh3ySQSTw-o#8@e4496cd7c1ef9d3b": {
         "verdict": "keep",
-        "reason": "Announces that system fields are now visible in analysis mode column pickers.",
-        "at": "2026-11-18T00:53:22.728Z"
+        "reason": "Shows system audit fields now visible in analysis mode pickers.",
+        "at": "2026-11-21T00:52:27.395Z"
       },
       "video/Sh3ySQSTw-o#9@e4496cd7c1ef9d3b": {
         "verdict": "keep",
-        "reason": "Announces that system fields can be included in profiles through the page designer.",
-        "at": "2026-11-18T00:53:22.728Z"
+        "reason": "Shows system fields can be added to profiles through the page designer.",
+        "at": "2026-11-21T00:52:27.395Z"
       },
       "video/ZpzZ6El8GXY#0@0b984cdcd651aeb9": {
         "verdict": "keep",
-        "reason": "Announces that system fields can be used in analysis tabs and views.",
-        "at": "2026-11-18T00:53:22.728Z"
+        "reason": "Announces system fields in analysis tabs and views.",
+        "at": "2026-11-21T00:52:27.395Z"
       },
       "video/ZpzZ6El8GXY#3@0b984cdcd651aeb9": {
         "verdict": "keep",
         "reason": "Shows system audit fields being added to pages in the page designer for profiles.",
-        "at": "2026-11-18T00:53:22.728Z"
+        "at": "2026-11-21T00:52:27.395Z"
       }
     },
     "573323": {
@@ -3780,33 +3755,28 @@
     "573352": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-interfaces-in-al.md@47978620bd9496e6": {
         "verdict": "keep",
-        "reason": "The Learn page covers default interface methods and the RequiredPending attribute, which are the core of this feature.",
-        "at": "2026-10-30T08:02:40.034Z"
+        "reason": "This Learn page explicitly documents default interface methods and the RequiredPending attribute.",
+        "at": "2026-11-21T00:52:27.730Z"
       },
-      "video/D_Lur52IrIg#4@27cf5cb45e38c4b5": {
+      "video/D_Lur52IrIg#4@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "It announces default method implementations in interfaces and the RequiredPending attribute.",
-        "at": "2026-10-30T08:02:40.034Z"
+        "reason": "The video segment explains default method implementations in interfaces and the RequiredPending attribute.",
+        "at": "2026-11-21T00:52:27.730Z"
       },
-      "video/H_PHi8pe53w#0@c64efde1b432b22f": {
+      "video/H_PHi8pe53w#0@a690138468bf3d50": {
         "verdict": "keep",
-        "reason": "It shows interface method bodies with default implementations, so existing implementors keep working.",
-        "at": "2026-10-30T08:02:40.034Z"
-      },
-      "video/H_PHi8pe53w#1@c64efde1b432b22f": {
-        "verdict": "keep",
-        "reason": "It explains the RequiredPending attribute as a transition toward making a method required.",
-        "at": "2026-10-30T08:02:40.034Z"
+        "reason": "The video segment demonstrates default method bodies in AL interfaces, which let existing implementations keep working.",
+        "at": "2026-11-21T00:52:27.730Z"
       },
       "video/lofGuQRe1BM#8@11cd6ac2e05efeb6": {
         "verdict": "drop",
-        "reason": "It covers interface extension from 2024 release wave 2, an older and different capability.",
-        "at": "2026-10-30T08:02:40.034Z"
+        "reason": "It describes extendable interfaces from 2024 release wave 2, an older and different capability with no default implementations.",
+        "at": "2026-11-21T00:52:27.730Z"
       },
       "video/MNwTt06ZxwY#19@08785989a6de2e63": {
         "verdict": "keep",
-        "reason": "It describes the new AL feature that adds default implementations and optional methods to interfaces.",
-        "at": "2026-10-30T08:02:40.034Z"
+        "reason": "It presents the new AL feature that lets interfaces have default implementations, so implementors don't have to implement every method.",
+        "at": "2026-11-21T00:52:27.730Z"
       }
     },
     "573353": {
@@ -4312,38 +4282,43 @@
     "573363": {
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-0.md@99fb0ace6dfb3876": {
         "verdict": "keep",
-        "reason": "The 2026 wave 1 What's New page lists 'Manage tasks from all agents in task pane' as a new feature.",
-        "at": "2026-11-04T00:55:31.914Z"
+        "reason": "The 2026 release wave 1 What's New page lists this exact feature, 'Manage tasks from all agents in task pane'.",
+        "at": "2026-11-21T00:52:35.934Z"
       },
       "docs/learn-smb-docs/business-central/across-user-tasks.md@76e9f934c0fbbfb8": {
         "verdict": "drop",
-        "reason": "It describes manually assigned user tasks, not tasks created by agents shown in an agent task pane.",
-        "at": "2026-11-04T00:55:31.914Z"
+        "reason": "Covers user-assigned tasks such as finance checklists, which are a different capability from agent-generated tasks.",
+        "at": "2026-11-21T00:52:35.934Z"
       },
-      "video/1IIlArcHpOY#4@4a63610d6fb17a58": {
+      "video/EwN3xb2q7vE#11@d066304a1f8cc1cb": {
         "verdict": "drop",
-        "reason": "It covers watching one agent run a task step by step in real time, not a single pane listing tasks from all agents.",
-        "at": "2026-11-04T00:55:31.914Z"
+        "reason": "Describes the developer API for creating agent tasks in code, not the user-facing pane that collects tasks from all agents.",
+        "at": "2026-11-21T00:52:35.934Z"
+      },
+      "video/EwN3xb2q7vE#12@d066304a1f8cc1cb": {
+        "verdict": "drop",
+        "reason": "Explains how agent tasks and messages are structured, which is general background rather than the dedicated task pane.",
+        "at": "2026-11-21T00:52:35.934Z"
       },
       "video/moPzf04Mwlc#2@368a90323871af98": {
         "verdict": "drop",
-        "reason": "It describes the task log for tracing an agent's steps, which is an older and different capability.",
-        "at": "2026-11-04T00:55:31.914Z"
+        "reason": "Describes the task log pane for following one agent's execution steps, not a combined pane for tasks from all agents.",
+        "at": "2026-11-21T00:52:35.934Z"
       },
       "video/moPzf04Mwlc#5@368a90323871af98": {
         "verdict": "drop",
-        "reason": "It covers an agent asking for human help through a review pane, which is an existing behavior and not the new dedicated task pane.",
-        "at": "2026-11-04T00:55:31.914Z"
+        "reason": "Covers agents asking for human help through a review pane, which is a different capability.",
+        "at": "2026-11-21T00:52:35.934Z"
       },
       "video/XhO4oFmoh1M#2@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "It shows the 2025 Sales Order Agent task view inside the Copilot pane, an older pane for one agent, not the new pane for all agents.",
-        "at": "2026-11-04T00:55:31.914Z"
+        "reason": "Shows the older 2025 release wave 1 Sales Order Agent task view inside the Copilot pane, not the new separate pane for all agents.",
+        "at": "2026-11-21T00:52:35.934Z"
       },
       "video/xJ8gYzvWnTI#1@a156f6f7a8eca787": {
         "verdict": "keep",
-        "reason": "It shows the new dedicated agent task pane, separate from the main page, for managing tasks from the built-in and custom agents.",
-        "at": "2026-11-04T00:55:31.914Z"
+        "reason": "Shows the new dedicated agent task pane, separate from the main experience, that manages tasks from the built-in and custom agents.",
+        "at": "2026-11-21T00:52:35.934Z"
       }
     },
     "573364": {
@@ -5225,138 +5200,138 @@
     "576789": {
       "docs/learn-devitpro/dev-itpro/ai/configure-mcp-server.md@2b7e63587e430db7": {
         "verdict": "keep",
-        "reason": "Documents MCP configuration over API pages and queries, including Data Query Tools.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "The Learn page documents MCP configurations that expose both API pages and queries, including Data Query Tools.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/0WAOtNaKjws#5@7b84cb59744f5d3c": {
         "verdict": "drop",
-        "reason": "MCP resources protocol support is a different enhancement.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "Support for MCP resources is a separate enhancement, not the expanded API or query access.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/4HE3BBCcV84#0@c5fe2a2a532e1563": {
         "verdict": "keep",
-        "reason": "Announces API query support in the MCP server.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "It directly announces API query support in the MCP server.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/4HE3BBCcV84#2@c5fe2a2a532e1563": {
         "verdict": "keep",
-        "reason": "Shows selecting query object type in MCP configuration for analytics API queries.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "It shows selecting query as an object type in the MCP configuration to reach the analytics API queries.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/AMVAiPTfSrU#1@8e56bd0b31620b69": {
         "verdict": "drop",
-        "reason": "General MCP server mention only.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "It's a general mention of the MCP server with no detail on this enhancement.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/C5cmG3sNjUg#0@a099f952caced881": {
         "verdict": "drop",
-        "reason": "Describes the original MCP server's built-in API exposure, not this expansion.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "This advanced-topics video comes from the earlier introductory series, so it likely describes the original preview's access to built-in APIs.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
-      "video/EpDIrJE0HzA#1@21321fae0c1fa1d7": {
+      "video/GeT5E_f9A9Q#0@2874877118cc9d70": {
         "verdict": "drop",
-        "reason": "General MCP explanation.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "It covers MCP configurations in general, which is older and not specific to this feature.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
-      "video/EpDIrJE0HzA#2@21321fae0c1fa1d7": {
+      "video/GeT5E_f9A9Q#1@2874877118cc9d70": {
         "verdict": "drop",
-        "reason": "Original MCP Configurations page, older capability.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "Dynamic tool mode is a different, earlier capability.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
-      "video/GeT5E_f9A9Q#0@be56261481e721e3": {
+      "video/GeT5E_f9A9Q#2@2874877118cc9d70": {
         "verdict": "drop",
-        "reason": "Named configurations are an earlier capability.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "The setting for discovering additional objects is a different, earlier capability.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
-      "video/GeT5E_f9A9Q#1@be56261481e721e3": {
+      "video/GeT5E_f9A9Q#3@2874877118cc9d70": {
         "verdict": "drop",
-        "reason": "Dynamic tool mode is a different capability.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "Support for bound actions is a different capability.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
-      "video/GeT5E_f9A9Q#2@be56261481e721e3": {
+      "video/GeT5E_f9A9Q#4@2874877118cc9d70": {
         "verdict": "drop",
-        "reason": "Discover additional objects toggle is a different setting.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "The read-only default configuration isn't part of this feature.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
-      "video/GeT5E_f9A9Q#3@be56261481e721e3": {
+      "video/GeT5E_f9A9Q#5@2874877118cc9d70": {
         "verdict": "drop",
-        "reason": "Bound actions are a different capability.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "The authentication model is a general topic, not this enhancement.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
-      "video/H5EuObmeF4o#1@56c1d175230d9e97": {
+      "video/GK6hM-nBYZk#1@927b08d956921338": {
         "verdict": "drop",
-        "reason": "General MCP server announcement from an earlier wave.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "It only mentions the MCP server in general.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/IDYhxt-8ImI#22@7ab728d0a7abc892": {
         "verdict": "drop",
-        "reason": "General MCP explanation.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "It's a general explanation of MCP.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/IDYhxt-8ImI#23@7ab728d0a7abc892": {
         "verdict": "drop",
-        "reason": "General Copilot Studio agents use of MCP.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "It covers Copilot Studio agents using MCP in general.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/iViHfCgL2L8#0@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Introduction of the MCP server in general.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "It introduces the original MCP server, which is an older capability.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/K8nFVw5M-Po#15@4e70e6c78bacc14e": {
         "verdict": "drop",
-        "reason": "Documentation MCP server is a different product.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "The documentation MCP server is a different product.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/K8nFVw5M-Po#17@4e70e6c78bacc14e": {
         "verdict": "drop",
-        "reason": "Custom MCP servers for vibe coding are unrelated.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "Custom MCP servers for vibe coding are unrelated to this feature.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/LerAo-GGl8U#0@bad4154ca6e36eb9": {
         "verdict": "drop",
-        "reason": "Admin MCP server is a different server.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "The admin MCP server is a different capability.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/q3xnjJD32kk#4@8159e1ae25b35be5": {
         "verdict": "drop",
-        "reason": "Querying without APIs is a different, later capability.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "Agents building and running queries without APIs is a different, later capability (2026 release wave 2).",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/rm-FstU_I80#0@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "General MCP server description.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "It's a general description of the MCP server.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/rm-FstU_I80#20@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Connection string reuse is a different feature.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "Reusing the connection string is a different capability.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/rm-FstU_I80#27@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Custom APIs for custom fields, not standard APIs or queries.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "Exposing custom APIs for custom fields isn't about Microsoft APIs or API queries.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/rm-FstU_I80#6@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "General MCP server description.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "It's a general description of the MCP server.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/UIL8ej7mSKQ#6@ac155d6baa339527": {
         "verdict": "drop",
-        "reason": "General MCP server announcement from 2025 wave 2.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "It's the original MCP server announcement from 2025 release wave 2, which is older.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/zei-IszvYNU#0@244b151f1ad40262": {
         "verdict": "keep",
-        "reason": "Announces all Microsoft published APIs available in MCP server.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "It directly announces that all Microsoft published APIs are now available in the MCP server.",
+        "at": "2026-11-21T00:52:37.844Z"
       },
       "video/zei-IszvYNU#2@244b151f1ad40262": {
         "verdict": "keep",
-        "reason": "Shows new API groups exposing additional Microsoft APIs for configuration.",
-        "at": "2026-11-19T00:53:42.048Z"
+        "reason": "It shows the newly available Microsoft API groups (including analytics) that can be configured in bulk, which is part of the expanded API access.",
+        "at": "2026-11-21T00:52:37.844Z"
       }
     },
     "576792": {
@@ -5818,108 +5793,83 @@
     "577820": {
       "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-manage-consumption-billing.md@ff7eed8888279db2": {
         "verdict": "drop",
-        "reason": "General consumption-billing page focused on agent billing and Copilot Credits, not specifically the AI resources for Copilot extensions.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "This covers Copilot Credits billing for Microsoft's own agents, not AI resources for partner Copilot extensions.",
+        "at": "2026-11-21T00:52:37.664Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/ai-build-capability-in-al.md@eae9338aae60a97a": {
         "verdict": "keep",
-        "reason": "Covers the Microsoft Billed billing type for AL Copilot capabilities, part of using Business Central AI resources.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "It documents the billing type and the Microsoft Billed option tied to using the Business Central AI resources in Copilot capabilities.",
+        "at": "2026-11-21T00:52:37.664Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/ai-dev-tools-resources.md@aa94da0fd51217c1": {
         "verdict": "keep",
-        "reason": "Documents Business Central AI resources, SetManagedResourceAuthorization and bring-your-own subscription.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "It directly documents the Business Central AI resources, SetManagedResourceAuthorization and the bring-your-own-subscription option.",
+        "at": "2026-11-21T00:52:37.664Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-5.md@3bfb6fe1fdb2caed": {
         "verdict": "keep",
-        "reason": "Release notes explicitly list AI resources for Copilot extensions.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "The update release notes explicitly list the 'Use AI resources for Copilot extensions' feature.",
+        "at": "2026-11-21T00:52:37.664Z"
       },
-      "video/2isrH3RcSK8#37@a72c6e38b59092be": {
+      "video/7SSNcUMFtCw#0@aa369f48583829f2": {
         "verdict": "keep",
-        "reason": "Announces Microsoft-managed AI resources for ISVs instead of their own Azure subscriptions.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "It announces the Microsoft-managed Azure OpenAI resources for publishers with consumption-based billing.",
+        "at": "2026-11-21T00:52:37.664Z"
       },
-      "video/7SSNcUMFtCw#0@23776697e0f9e5dd": {
+      "video/H5EuObmeF4o#10@81bcc46a2071446e": {
         "verdict": "keep",
-        "reason": "Explains Microsoft-managed Azure OpenAI resources for publishers with consumption billing.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "It explains billing type configuration, which depends on which AI resource a Copilot capability uses.",
+        "at": "2026-11-21T00:52:37.664Z"
       },
-      "video/7SSNcUMFtCw#12@23776697e0f9e5dd": {
+      "video/H5EuObmeF4o#11@81bcc46a2071446e": {
         "verdict": "keep",
-        "reason": "Describes models available through the AI resources.",
-        "at": "2026-11-10T00:51:36.883Z"
-      },
-      "video/7SSNcUMFtCw#2@23776697e0f9e5dd": {
-        "verdict": "keep",
-        "reason": "Shows the built-in content safety protections of the AI resources.",
-        "at": "2026-11-10T00:51:36.883Z"
-      },
-      "video/7SSNcUMFtCw#3@23776697e0f9e5dd": {
-        "verdict": "keep",
-        "reason": "Demonstrates the SetManagedResourceAuthorization method used to access AI resources.",
-        "at": "2026-11-10T00:51:36.883Z"
-      },
-      "video/7SSNcUMFtCw#6@23776697e0f9e5dd": {
-        "verdict": "keep",
-        "reason": "Covers data residency control for AI calls, a stated benefit of the feature.",
-        "at": "2026-11-10T00:51:36.883Z"
-      },
-      "video/7SSNcUMFtCw#7@23776697e0f9e5dd": {
-        "verdict": "keep",
-        "reason": "Explains safety system prompts appended when using the BC AI resources toolkit.",
-        "at": "2026-11-10T00:51:36.883Z"
-      },
-      "video/H5EuObmeF4o#11@56c1d175230d9e97": {
-        "verdict": "keep",
-        "reason": "Describes using default AI resources via set managed resource authorization or own subscription.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "It covers using the default AI resources through managed resource authorization or your own Azure OpenAI subscription.",
+        "at": "2026-11-21T00:52:37.664Z"
       },
       "video/jdevJbGgB-k#12@bb7fbfc12bea0394": {
         "verdict": "drop",
-        "reason": "General mention of an AI toolkit without describing managed AI resources.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "It describes the AI toolkit in general and never mentions the managed AI resources.",
+        "at": "2026-11-21T00:52:37.664Z"
       },
       "video/juUBVPfIp8A#2@02c0c6268b27e405": {
         "verdict": "keep",
-        "reason": "Describes the new SetManagedResourceAuthorization signature without subscription details, as in the feature update.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "It covers the new SetManagedResourceAuthorization signature that omits subscription details, which the feature mentions.",
+        "at": "2026-11-21T00:52:37.664Z"
       },
       "video/NE7NIjpkX3c#0@d5853e1f3b4a55c4": {
         "verdict": "keep",
-        "reason": "Shows running Copilot extensions in sandboxes using Microsoft AI resources.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "It shows running Copilot extensions in sandboxes on Microsoft AI resources without managing the models yourself.",
+        "at": "2026-11-21T00:52:37.664Z"
       },
       "video/QCo-uIfPs9g#5@7deb3ef577765811": {
         "verdict": "keep",
-        "reason": "Announces managed AI resources so partners need not bring their own.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "It announces managed AI resources so partners don't need to bring their own.",
+        "at": "2026-11-21T00:52:37.664Z"
       },
       "video/QCo-uIfPs9g#9@7deb3ef577765811": {
         "verdict": "keep",
-        "reason": "Describes managed resource authorization with Azure OpenAI replacing custom subscriptions.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "It explains managed resource authorization with Azure OpenAI, so partners don't need their own subscriptions.",
+        "at": "2026-11-21T00:52:37.664Z"
       },
       "video/ytYKvn2MiGs#12@ee73e82da95ba36c": {
         "verdict": "keep",
-        "reason": "Describes managed shared AI resources eliminating partner-owned Azure OpenAI accounts.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "It announces the managed, shared AI resources that remove the need for partners' own Azure OpenAI accounts.",
+        "at": "2026-11-21T00:52:37.664Z"
       },
       "video/ytYKvn2MiGs#13@ee73e82da95ba36c": {
         "verdict": "drop",
-        "reason": "Describes an older AI credit governance concept, not this feature's capability.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "It describes an AI credit currency concept rather than the AI resources capability.",
+        "at": "2026-11-21T00:52:37.664Z"
       },
       "video/ytYKvn2MiGs#14@ee73e82da95ba36c": {
         "verdict": "drop",
-        "reason": "Describes operational limits under the older AI credit model, not this feature specifically.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "It describes fair-use operational limits for AI credits, a different governance topic.",
+        "at": "2026-11-21T00:52:37.664Z"
       },
       "video/ytYKvn2MiGs#15@ee73e82da95ba36c": {
         "verdict": "drop",
-        "reason": "Describes a quota entitlement system from the older AI credit design, not this feature.",
-        "at": "2026-11-10T00:51:36.883Z"
+        "reason": "It describes AI quota entitlements per user license, not this feature.",
+        "at": "2026-11-21T00:52:37.664Z"
       }
     },
     "577878": {

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,6 +75,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/12291
     - change/bcapps/12322
     - change/bcapps/13104
     - change/bcapps/13429
@@ -136,6 +137,7 @@ This section covers the setup work needed before quality inspections can run. It
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12291 [Quality Management] Pass the single tracking record and clear the right filter in the purchase receipt subscriber](../../../../changes/bcapps/12291.md) (code change): "Quality Management purchase receipt subscriber. Filter cleanup now clears Quantity Handled"
 - [#12322 [QM] Destination bin code is now visible and usable for the user](../../../../changes/bcapps/12322.md) (code change): "destination bin code is now visible and usable for the user"
 - [#13104 update tests and enable them](../../../../changes/bcapps/13104.md) (code change): "Quality Result Condition Mgmt. and the Qlty. Inspection Result table is also revised"
 - [#13429 [Quality Management] Receiving setup guide: don't offer the warehouse receipt Create trigger](../../../../changes/bcapps/13429.md) (code change): "The Receiving setup guide now prevents creating Quality Management rules with unsupported warehouse receipt triggers"

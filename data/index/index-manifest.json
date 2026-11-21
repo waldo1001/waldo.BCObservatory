@@ -1,29 +1,29 @@
 {
   "schema": "bcobs-index@1",
-  "pages": 30600,
+  "pages": 30624,
   "shards": [
     {
-      "file": "pages-hubs-2cae6bcb1d6f.json",
+      "file": "pages-hubs-24de237d7931.json",
       "count": 1464,
-      "sha256": "2cae6bcb1d6ff8470546872195d9e402058f70f8877988b4b21abd35e3efc380",
+      "sha256": "24de237d7931dbe3b10520d86d04169725be24035765f9605762c82b6fa09aed",
       "kind": "hubs"
     },
     {
-      "file": "pages-media-f969941b40cf.json",
-      "count": 3311,
-      "sha256": "f969941b40cf662de2a0b5cec311b44fc58f701019e7f6411ed61233469e3727",
+      "file": "pages-media-fb9d506602e9.json",
+      "count": 3334,
+      "sha256": "fb9d506602e9bc17474059f4e1f837a35a3ba6f77a109e6bd216f2ade60e6777",
       "kind": "media"
     },
     {
-      "file": "pages-objects-1-5fdb7e8c3987.json",
+      "file": "pages-objects-1-c7a1c478d164.json",
       "count": 14428,
-      "sha256": "5fdb7e8c39874459ea1812df43797673abea83e0d69d6121c55dd4012d2c40ce",
+      "sha256": "c7a1c478d164c06bc2c5efd6fa01c5b211e62937303c3ce16b3ab2e8ece28a0d",
       "kind": "objects"
     },
     {
-      "file": "pages-objects-2-f9eb4fe126ae.json",
-      "count": 11397,
-      "sha256": "f9eb4fe126aeb9244369ddc0f9dcc49ec813fbe7d749b65e41ee4497f825ec97",
+      "file": "pages-objects-2-bfc3e9fe52d8.json",
+      "count": 11398,
+      "sha256": "bfc3e9fe52d84018cd60fa703f01c77c70b5235617050c93139f7d9c98b29155",
       "kind": "objects"
     }
   ],
@@ -33,20 +33,20 @@
     "sha256": "0856d3cda60c1504aeb466d02c4c5ea721b486ee33cb32e7cbd09a241f47d507"
   },
   "learn_facts": {
-    "file": "learn-facts-25f1002bc74e.json",
+    "file": "learn-facts-2c6f361a1304.json",
     "count": 265,
-    "sha256": "25f1002bc74e6377a12b6652a1cd02400ed9faaf3e62f2f1aebaf06f5cfee099"
+    "sha256": "2c6f361a1304b8629155d515b6728c69861c6cee5d6d668934e1324016fd700a"
   },
   "by_type": {
     "app": 97,
-    "change": 1521,
+    "change": 1541,
     "digest": 10,
     "feature": 134,
     "guideline": 485,
     "hotfix": 3,
     "localization": 22,
-    "object": 25825,
-    "post": 1160,
+    "object": 25826,
+    "post": 1163,
     "release": 64,
     "source": 41,
     "topic": 608,

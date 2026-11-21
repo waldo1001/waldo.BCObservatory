@@ -2,7 +2,7 @@
 id: topic/dev-itpro/integration/integrating-with-infrastructure-services
 type: topic
 title: Integrating with infrastructure services
-summary: "Integration of Business Central with Azure and Microsoft infrastructure services: Entra ID and security groups, user and license setup, multifactor authentication, Azure security service tags, Application Insights telemetry, and Universal Print. It answers questions about access control, network restrictions, monitoring, and printing."
+summary: "Integration of Business Central with Azure and Microsoft infrastructure services: Entra ID users, licenses and security groups, multifactor authentication, Azure security service tags, Application Insights telemetry, and Universal Print. It answers setup and access-control questions for online and on-premises deployments."
 tier: official
 language: en
 system: integration
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 50b16f3287cc2d76af40e9be3836d66a97f5bdf125d30b1574b3596cee3f31b9
+  input_hash: 3745d6b264fcd5c4513cc64085a89988c690d163192f9cb4704aed27a3187ca3
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-security-groups
@@ -165,27 +165,27 @@ narrative: generated
 
 # Integrating with infrastructure services
 
-> Integration of Business Central with Azure and Microsoft infrastructure services: Entra ID and security groups, user and license setup, multifactor authentication, Azure security service tags, Application Insights telemetry, and Universal Print. It answers questions about access control, network restrictions, monitoring, and printing.
+> Integration of Business Central with Azure and Microsoft infrastructure services: Entra ID users, licenses and security groups, multifactor authentication, Azure security service tags, Application Insights telemetry, and Universal Print. It answers setup and access-control questions for online and on-premises deployments.
 
 Path: [Integration](../integration.md) > Integrating with infrastructure services · tier official · system integration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how Business Central connects to Azure and Microsoft services that sit around the application. It has no subtopics. The pages fall into three groups: identity and access, network and monitoring, and printing.
+This section covers how Business Central connects to the surrounding Microsoft infrastructure. It has no subtopics. All pages sit at one level and fall into three groups: identity and access, network and monitoring, and printing.
 
-For identity, start with creating users according to licenses, which explains adding users from Microsoft 365, assigning permission sets, and managing user status. Then use security groups to apply permissions to many users at once, and multifactor authentication through Microsoft Entra ID for extra sign-in security.
+For identity and access, start with the page on creating users according to licenses. It explains how to add users, import them from Microsoft 365, assign permission sets and licenses, and manage user status. The security groups page then shows how to apply permissions to whole groups, using Microsoft Entra ID or Windows Active Directory. The MFA page covers extra sign-in verification through Microsoft Entra ID.
 
-For network and operations, the Azure security service tags page explains how to filter traffic with the Dynamics365BusinessCentral tag. The telemetry page covers enabling telemetry, analyzing it with Power BI and KQL, and setting alerts. The Universal Print page covers setting up printers for online and on-premises deployments. The overview page for the section gives a short orientation to all of these.
+For network and operations, the Azure security service tags page explains how to use the Dynamics365BusinessCentral tag in firewall and network security group rules. The telemetry page explains how to send environment-level and app-level data to Application Insights and analyze it. The Universal Print page covers Azure configuration, printer sharing, and troubleshooting. The section's overview page ties these services together.
 
 ## Key points
 
-- Security groups apply permissions to all members and work with Microsoft Entra ID and Windows Active Directory, online and on-premises; they support company-specific permissions and multi-company access.
-- User creation covers importing users from Microsoft 365, assigning permission sets by license type, delegated admin users, and user status management.
-- Multifactor authentication through Microsoft Entra ID supports phone calls, text messages, mobile app notifications, and one-time passwords, with conditional access policies.
-- The Dynamics365BusinessCentral service tag lets you control firewall and network security group rules for traffic to and from Business Central.
-- Telemetry can be enabled at environment and app levels, viewed in Power BI, queried with KQL, and used for alerts, including custom telemetry.
-- Universal Print setup involves Azure app registration, printer sharing, centralized printer management, and document conversion, and includes troubleshooting for access issues.
-- The security groups page lists versions 25.11, 26.5, and 27.4; Universal Print is tied to 2021 release wave 1 and telemetry to 2020 release wave 2.
+- Users can be created manually or imported from Microsoft 365. Permission sets and licenses are assigned to them, and delegated admin users and user status are also covered.
+- Security groups apply permissions to all members. They support Microsoft Entra ID and Windows Active Directory, online and on-premises, with company-specific and multi-company access.
+- MFA through Microsoft Entra ID supports phone calls, text messages, mobile app notifications and one-time passwords, and works with conditional access policies.
+- The Dynamics365BusinessCentral Azure service tag lets you restrict network traffic to and from Business Central in firewall and network security group rules.
+- Telemetry can be enabled at environment level and at app/extension level, and it is sent to Azure Application Insights. Cost control is covered, and analysis is done with Power BI or KQL queries.
+- Universal Print integration works for online and on-premises deployments. It needs an Azure app registration and covers printer sharing, document conversion, print job creation and troubleshooting access issues.
+- The security groups page lists versions 25.11, 26.5 and 27.4. The telemetry page lists 2020 release wave 2. The Universal Print page lists 2021 release wave 1.
 
 ## Learn pages
 
@@ -193,12 +193,12 @@ For network and operations, the Azure security service tags page explains how to
 - [Create users according to licenses](https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions): Describes how to add users to Business Central online or on-premises based on licenses.
 - [Integrating with infrastructure services](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-infrastructure-overview): Learn how Business Central integrates with infrastructure services.
 - [Monitoring and Analyzing Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview): Monitor Business Central environments and extensions with Application Insights telemetry to diagnose errors, analyze performance, and track usage.
-  - Telemetry can be enabled at environment level or per-extension level to collect operational data in Azure Application Insights.
-  - With Business Central 2020 release wave 2 and later, publishers can set Application Insights connection strings in app.json manifest files.
-  - Telemetry data is stored in Application Insights Logs tables called traces and pageViews for analysis via Kusto query language.
-  - Both online and on-premises Business Central instances can emit telemetry to Azure Application Insights.
-  - Free Power BI apps analyze Business Central telemetry; one app covers environments while another covers apps and extensions.
-  - Permissions: AL developers can create custom telemetry messages using Feature Telemetry codeunit or LogMessage method from Session class.
+  - Environment-level telemetry and app-level telemetry can be enabled separately to Application Insights resources.
+  - Status: Per-extension telemetry enabled from Business Central 2020 release wave 2 by setting connection string in app.json.
+  - Both online and on-premises instances can emit telemetry to Application Insights.
+  - Telemetry data is stored in Application Insights Logs in traces and pageViews tables, queried with KQL.
+  - Two free, open-source Power BI apps available from marketplace: one for environment telemetry, one for app telemetry.
+  - Permissions: Power BI Pro licenses required to install telemetry Power BI apps.
   - In the observatory: [Codeunit 8703 "Feature Telemetry"](../../../objects/codeunit/8703.md)
 - [Multifactor authentication (MFA) for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/multifactor-authentication): This article explains how to add multifactor authentication (MFA) when your solution uses Microsoft Entra ID as authentication mechanism.
 - [Set Up Universal Print Printers in Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-universal-print): Set up Universal Print, share printers with licensed users, and add the printers to Business Central online or on-premises for cloud printing.

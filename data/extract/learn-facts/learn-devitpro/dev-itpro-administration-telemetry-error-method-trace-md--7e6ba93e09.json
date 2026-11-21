@@ -1,34 +1,30 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-error-method-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-method-trace",
-  "title": "Error method trace telemetry",
-  "blob": "98802b8ce52de5ae6753f7c959a20475cfe48b4f",
+  "title": "Analyzing Error Method Trace Telemetry",
+  "blob": "526d9bb43543a1541eed2d06dded7ecfe74b7671",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Error method telemetry emitted when Error method called, displays dialog to user"
+      "text": "RT0030 Error dialog shown event occurs when error sent to client for display from AL or platform"
     },
     {
       "kind": "fact",
-      "text": "Event ID RT0030 signals error dialog displayed with failure reason Dialog"
+      "text": "Error messages show only SystemMetadata classification; customer data and other classifications are redacted"
     },
     {
       "kind": "fact",
-      "text": "Error message shown only if Label or TextConst data type, otherwise generic message shown"
+      "text": "For Error(String), only Label or TextConst strings are displayed; other strings show redaction message"
     },
     {
       "kind": "fact",
-      "text": "Messages with customer data not shown as precaution, SystemMetadata classified data only emitted"
+      "text": "Telemetry includes AL stack trace, failure reason, extension information, and AL object details"
     },
     {
       "kind": "fact",
-      "text": "Severity level 3 indicates error dialog event with stack trace and AL object details recorded"
-    },
-    {
-      "kind": "fact",
-      "text": "Telemetry includes AL stack trace, object ID, object type, client type, and company name"
+      "text": "alEnglishLanguageDiagnosticsMessage dimension available in version 22.0 and backported to version 21.4"
     }
   ],
   "dropped": 0,
@@ -36,7 +32,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007985,
+      "cost_usd": 0.006292,
       "pages_in_call": 7
     }
   ]

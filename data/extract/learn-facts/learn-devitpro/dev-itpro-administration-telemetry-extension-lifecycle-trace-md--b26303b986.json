@@ -1,42 +1,42 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-extension-lifecycle-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-lifecycle-trace",
-  "title": "Extension Lifecycle Trace Telemetry | Microsoft Docs",
-  "blob": "5905aabf5f74765f56101a335277cdbb6fc6a914",
+  "title": "Analyzing Extension Lifecycle Trace Telemetry",
+  "blob": "b9e07235cafb2a89f51b179d9a27eca6610519f0",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "status",
-      "text": "Generally available from Business Central 2020 release wave 1, version 16.3. Extension-level support from 2020 release wave 2, version 17.1."
+      "text": "Generally available from Business Central 2020 release wave 1, version 16.3. Extension-level support added in wave 2, version 17.1."
     },
     {
       "kind": "fact",
-      "text": "Gathers telemetry data on extension operations: compiling, synchronizing, publishing, installing, updating, uninstalling, and unpublishing."
+      "text": "Telemetry tracks success or failure of seven extension operations: compiling, synchronizing, publishing, installing, updating, uninstalling, and unpublishing."
     },
     {
       "kind": "fact",
-      "text": "Failed operations include a trace log entry with the reason for failure."
+      "text": "Failed operations produce trace log entries with failure reasons included."
     },
     {
       "kind": "fact",
-      "text": "Traces are recorded for operations initiated from Extension Management page, Manage Apps page, App Management API, PowerShell cmdlets, and Business Central control plane."
+      "text": "Online traces come from Extension Management page, Manage Apps page, App Management API, or control plane. On-premises traces from Extension Management page or PowerShell cmdlets."
     },
     {
       "kind": "fact",
-      "text": "Environment/server traces cover extensions published to tenant scope only, excluding Microsoft extensions and Marketplace extensions."
+      "text": "Environment traces record tenant-scoped extensions only, excluding Microsoft and Marketplace extensions."
     },
     {
       "kind": "fact",
-      "text": "Tenant traces record synchronizing, installing, updating, and uninstalling extensions on a tenant."
+      "text": "Custom dimensions added gradually during operations; if operation fails before retrieval, those dimensions are excluded."
     },
     {
       "kind": "fact",
-      "text": "Control plane traces monitor installation or update operations by the Business Central control plane service and help identify the origin or cause of operations."
+      "text": "Four synchronization modes supported: Add for initial publish, Clean to remove schema, Development for same-version syncing during development, and ForceSync for destructive schema changes."
     },
     {
       "kind": "limit",
-      "text": "Custom dimensions may not be available if operations fail before information is retrieved, such as extension ID and version in failed uninstall operations."
+      "text": "Some custom dimensions unavailable for certain operations if failure occurs before the information is retrieved."
     }
   ],
   "dropped": 0,
@@ -44,7 +44,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.044898,
+      "cost_usd": 0.044788,
       "pages_in_call": 1
     }
   ]

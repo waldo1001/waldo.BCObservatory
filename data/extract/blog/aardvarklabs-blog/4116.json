@@ -7,11 +7,11 @@
   "words": 1786,
   "summary": "Business Central 29.0 introduces default interface methods in AL, allowing interfaces to provide complete procedure implementations that codeunits may override while maintaining backward compatibility. This feature reduces duplicate code and lets developers evolve interfaces without breaking existing implementations.",
   "key_points": [
-    "Default interface methods let interfaces provide full implementations that codeunits can override or inherit automatically",
-    "Abstract methods still require implementation in codeunits; default methods do not",
-    "Adding new procedures as defaults first, then marking them as RequiredPending, allows gradual migration to mandatory procedures without breaking existing code",
-    "Interface references must be used to access default implementations, not direct codeunit references",
-    "Default methods improve AI code generation by providing strict contracts that eliminate ambiguity"
+    "Default interface methods let an interface carry a full procedure body that implementing codeunits either inherit or override",
+    "Abstract members hold only a signature and must be implemented; default members run automatically unless overridden",
+    "A default method can only be called through an interface variable, not directly on a codeunit that does not define it",
+    "To add a mandatory procedure safely, first add it with a default body, then mark it RequiredPending to warn implementors, then remove the body",
+    "The author notes that interfaces in general help AI code generation by giving a strict contract to follow"
   ],
   "systems": [
     "development",

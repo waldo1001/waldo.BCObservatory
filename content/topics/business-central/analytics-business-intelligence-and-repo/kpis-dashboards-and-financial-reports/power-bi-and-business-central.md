@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,7 +69,6 @@ links:
     - post/thinkaboutit-be/7753
   guidelines: []
   changes:
-    - change/bcapps/14212
     - change/bcapps/14229
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -127,7 +126,6 @@ Start with the introduction to choose an approach, then go to the page for your 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#14212 Power BI autodeployment UX fixes: clearing records should affect only the selected + reorganizing actions](../../../../changes/bcapps/14212.md) (code change): "Power BI auto-deployment functionality now clears only selected deployment records instead of all records"
 - [#14229 29.x: Power BI autodeployment UX fixes: clearing records should affect only the selected + reorganizing actions](../../../../changes/bcapps/14229.md) (code change): "Power BI auto-deployment clearing now affects only the selected record instead of all records"
 - [How to Install and Configure Power BI Monitor for Business Central](../../../../posts/thinkaboutit-be/7226.md) (community post): "Power BI Monitor extension enables Business Central users to manage Power BI resources"
 - [Which Power BI License Do You Need for Business Central?](../../../../posts/thinkaboutit-be/7753.md) (community post): "Power BI Pro is required for any practical use of Power BI with Business Central"

@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language
 type: topic
 title: Programming in the AL language
-summary: "Programming in the AL language covers how to write Business Central code: language fundamentals, tables and data, pages, reports, events, error handling, security, background tasks, APIs, telemetry and external calls. It answers syntax, design, and how-to questions for AL developers."
+summary: "Programming in the AL language covers the language fundamentals for Business Central code and the main areas built on it: tables, pages, reports, events, errors, security, APIs, telemetry, and background processing. It helps an agent route questions about AL syntax, object design, extension points, and diagnostics to the right subtopic."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-11-15T00:50:59.680Z"
+  at: "2026-11-21T01:00:47.678Z"
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d0b04432ee749424c0d6c5d215a31be4b004ca33dc8a888f0e823dd098fbc4ac
+  input_hash: d22fe73e98f996a4270f0bae6b01d1f6918e7af19fe234ea4f17063dbab95f71
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dotnet-controladdins
@@ -364,7 +364,6 @@ links:
     - video/lH2Z4xfdhmY
     - video/nMiLzdfidos
     - video/QhHgkCe3kkk
-    - video/YBVqwzig8Qc
   posts:
     - post/aardvarklabs-blog/2838
     - post/aardvarklabs-blog/2953
@@ -372,8 +371,6 @@ links:
     - post/nataliekarolak-com/3653
     - post/nataliekarolak-com/4184
     - post/yzhums-com/65768
-    - post/yzhums-com/69681
-    - post/yzhums-com/70129
     - post/yzhums-com/70325
   guidelines: []
   changes:
@@ -406,8 +403,8 @@ children:
 coverage:
   learn: 340
   code: 37
-  video: 5
-  blog: 9
+  video: 4
+  blog: 7
   guideline: 0
 bc_forms:
   - 16
@@ -453,28 +450,28 @@ narrative: generated
 
 # Programming in the AL language
 
-> Programming in the AL language covers how to write Business Central code: language fundamentals, tables and data, pages, reports, events, error handling, security, background tasks, APIs, telemetry and external calls. It answers syntax, design, and how-to questions for AL developers.
+> Programming in the AL language covers the language fundamentals for Business Central code and the main areas built on it: tables, pages, reports, events, errors, security, APIs, telemetry, and background processing. It helps an agent route questions about AL syntax, object design, extension points, and diagnostics to the right subtopic.
 
 Path: [Development](../development.md) > Programming in the AL language · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section starts with a general page, "Programming in AL", on language fundamentals: manipulating data, controlling application objects, creating business rules, and writing code in triggers across tables, pages, reports and other objects. It mentions variable declarations, protected variables, trigger types, code reuse and security patterns.
+AL is the language used to write Business Central code. The section's own page, Programming in AL, introduces the fundamentals: manipulating data, controlling application objects, creating business rules, and writing code in triggers across tables, pages, reports, and other objects. It also touches on variable declarations, protected variables, trigger types, code reuse, and security patterns.
 
-The subtopics split the work by area. Program building blocks and Language elements cover the core language. Tables and data, Pages and the user interface, and Developing reports cover the main object types. Events, Error handling, Formatting values and Handling security cover how code behaves and is protected. Running things in the background, Developing APIs, Calling external services, Instrumenting with telemetry, Accessing device capabilities, Developing printer extensions and Using .NET (on-premises only) cover integration and runtime concerns.
+The subtopics split into core language and object types. Core language includes program building blocks (operators, statements, system-defined variables, access modifiers, XML comments), language elements, error handling, and formatting values. Object-focused subtopics cover tables and data, pages and the user interface, and developing reports.
 
-Start with the Programming in AL page and Program building blocks for the basics, then go to the object-type subtopic you are building (tables, pages or reports). Use Events to extend the base application without changing its code.
+The rest covers extending and running code. Events, security, background tasks, APIs, calling external services, telemetry, device capabilities, printer extensions, and on-premises .NET each have their own subtopic. Start with Programming in AL and Program building blocks, then move to the subtopic that matches the object or task at hand.
 
 ## Key points
 
-- Programming in AL page: variable declarations, protected variables, trigger types, code reuse and security patterns.
-- Program building blocks: operators, statements, system-defined variables, access modifiers and XML comments.
-- Tables and data: tables, records, queries, FlowFields, SIFT and NCCI indexing, streaming, XMLport and Excel import/export, number sequences, DataTransfer.
-- Developing reports: report objects, datasets, request pages, Word, Excel and RDLC/RDL layouts, report extensions, performance and troubleshooting.
-- Events: publishing, raising and subscribing, isolated events, and the Event Recorder for discovering events.
-- Error handling: try methods, collectible errors, actionable errors with Fix-it and Show-it actions, and error telemetry.
-- Background and integration: page background tasks, Session.StartSession, job queue, REST/OData API pages and queries, and telemetry to Application Insights.
-- .NET interoperability applies to on-premises deployments only.
+- Programming in AL explains variable declarations, protected variables, trigger types, code reuse, and security patterns.
+- Program building blocks covers operators, statements, system-defined variables, access modifiers, and XML comments.
+- Error handling covers try methods, collectible errors, actionable errors with Fix-it and Show-it actions, and error telemetry.
+- Tables and data covers queries, FlowFields, SIFT and NCCI indexing, number sequences, DataTransfer, and XMLport or Excel import and export.
+- Developing reports covers Word, Excel, and RDLC/RDL layouts, request pages, extensions, and performance and troubleshooting.
+- Events covers publishing, raising, and subscribing, isolated events, and discovering events with Event Recorder.
+- Background work uses page background tasks, Session.StartSession, the task scheduler, and the job queue.
+- Developing APIs covers API pages and queries and custom REST/OData v4 endpoints. The .NET subtopic applies to on-premises only.
 
 ## Subtopics
 
@@ -513,14 +510,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Docs: What’s new in BC 27 for developers](../../../posts/nataliekarolak-com/3653.md) (community post): "introduces new AL methods, properties, and features for developers"
 - [Using Substring to replace CopyStr](../../../posts/nataliekarolak-com/4184.md) (community post): "Using Substring to replace CopyStr for improved code readability"
 - [Dynamics 365 Business Central: A simple Date Formula testing tool](../../../posts/yzhums-com/65768.md) (community post): "Date Formula testing tool for Dynamics 365 Business Central helps developers"
-- [Blog Posts for 2025 (Dynamics 365 Lab)](../../../posts/yzhums-com/69681.md) (community post): "AL how-tos, customizations, admin tips and some BC25 minor update features"
-- [Dynamics 365 Business Central: How to check if the time zone supports daylight saving time (DST) via AL](../../../posts/yzhums-com/70129.md) (community post): "how to check whether a time zone supports daylight saving time (DST) in Business Central using AL code"
 - [Dynamics 365 Business Central: How to split a string on a fixed character (delimiter or separator) via AL](../../../posts/yzhums-com/70325.md) (community post): "String splitting in AL using the Text.Split method to parse delimited data"
 - [... but can it play DOOM? (In Business Central)](../../../videos/a8W1x0xwkv4.md) (video): "AL development; user control host; typescript; webgl rendering; javascript interop"
 - [What’s New: Data Search Improvements (For Developers) (2024 release wave 2)](../../../videos/lH2Z4xfdhmY.md) (video): "Modern search; full-text search; optimized for text search property"
 - [What's New: AL Language (2026 release wave 1)](../../../videos/nMiLzdfidos.md) (video): "json support; data transfer; namespaces; fully qualified names"
 - [What's New in AL: Embedding Resources in Applications (2024 release wave 2)](../../../videos/QhHgkCe3kkk.md) (video): "Embedding resources in applications; get resource function; Multiple resource folders"
-- [What probem? I can stop whenever I want! (More Games in AL and Business Central)](../../../videos/YBVqwzig8Qc.md) (video): "al; game development; emulation; z80 processor; c2al converter; quake engine"
 
 ## Business Central pages and reports
 

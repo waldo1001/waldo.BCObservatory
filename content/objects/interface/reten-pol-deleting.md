@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:47:37.951Z"
+  at: "2026-11-21T00:46:40.499Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6c05fb3450423a47a00cb03edfb763d2c1551ee741ecd6381d312473428a6e47
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/System%20Application/App/Retention%20Policy/src/Apply%20Retention%20Policy/RetenPolDeleting.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/System%20Application/App/Retention%20Policy/src/Apply%20Retention%20Policy/RetenPolDeleting.Interface.al
     title: src/System Application/App/Retention Policy/src/Apply Retention Policy/RetenPolDeleting.Interface.al (releases/29.x)
     date: null
-    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
+    commit: d30504e3670310aa9f2396745813257d80d473b8
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Reten. Pol. Deleting" in System Application (System.DataAdministration). 1 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.DataAdministration · BC23-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/System%20Application/App/Retention%20Policy/src/Apply%20Retention%20Policy/RetenPolDeleting.Interface.al) · facts from BC29
+System Application · System.DataAdministration · BC23-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/System%20Application/App/Retention%20Policy/src/Apply%20Retention%20Policy/RetenPolDeleting.Interface.al) · facts from BC29
 
 ## Procedures
 

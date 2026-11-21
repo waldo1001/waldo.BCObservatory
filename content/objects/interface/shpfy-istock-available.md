@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:47:37.951Z"
+  at: "2026-11-21T00:46:40.499Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e83c8cfe65413ab9cafefac73ae12ba2165aa5e30a2062c3f4749c1922db3dc0
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/Shopify/app/src/Inventory/Interface/ShpfyIStockAvailable.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/Shopify/app/src/Inventory/Interface/ShpfyIStockAvailable.Interface.al
     title: src/Apps/W1/Shopify/app/src/Inventory/Interface/ShpfyIStockAvailable.Interface.al (releases/29.x)
     date: null
-    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
+    commit: d30504e3670310aa9f2396745813257d80d473b8
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Interface "Shpfy IStock Available" in Shopify (Microsoft.Integration.Shopify). 1 public procedures. Introduced in BC29, still in BC30.
 
-Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/Shopify/app/src/Inventory/Interface/ShpfyIStockAvailable.Interface.al) · facts from BC29
+Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/Shopify/app/src/Inventory/Interface/ShpfyIStockAvailable.Interface.al) · facts from BC29
 
 ## Procedures
 

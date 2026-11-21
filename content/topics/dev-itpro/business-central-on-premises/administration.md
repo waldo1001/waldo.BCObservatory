@@ -2,21 +2,21 @@
 id: topic/dev-itpro/business-central-on-premises/administration
 type: topic
 title: Administration
-summary: "Administration for Business Central on-premises covers the tools and setup tasks for running a deployment: Administration Shell and Administration Center, database authentication, encryption, session timeout, Entra ID registration, Key Vaults, Excel and Outlook add-ins, and Dynamics 365 Sales preparation. It answers how-to questions about configuring and connecting an on-premises environment."
+summary: "Administration of Business Central on-premises: tools (Administration Shell, Administration Center), server, web server and database configuration, encryption, session timeout, monitoring, and setup of Entra ID, Key Vault, Excel, Outlook and Dynamics 365 Sales integrations. It answers how-to questions for administrators."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:53:53.706Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: b43aee094fd23f136848c9dbdb53e2c65329f0ce885e1bd3c09d6319ee4ad39f
+  input_hash: 9194cdf51682c0bc864d442a1d7f73f0a7036d1d0c7a9b99f0724a85696838d5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-ad-overview
@@ -342,22 +342,24 @@ narrative: generated
 
 # Administration
 
-> Administration for Business Central on-premises covers the tools and setup tasks for running a deployment: Administration Shell and Administration Center, database authentication, encryption, session timeout, Entra ID registration, Key Vaults, Excel and Outlook add-ins, and Dynamics 365 Sales preparation. It answers how-to questions about configuring and connecting an on-premises environment.
+> Administration of Business Central on-premises: tools (Administration Shell, Administration Center), server, web server and database configuration, encryption, session timeout, monitoring, and setup of Entra ID, Key Vault, Excel, Outlook and Dynamics 365 Sales integrations. It answers how-to questions for administrators.
 
-Path: [Business Central on-premises](../business-central-on-premises.md) > Administration · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Business Central on-premises](../business-central-on-premises.md) > Administration · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is for administrators of on-premises Business Central. It combines the management tools (the Administration Shell with PowerShell cmdlets, and the Administration Center snap-in) with setup articles for security, sessions and integrations.
-Subtopics split the work by layer: user authentication, server instance settings, web server settings on IIS, the SQL database, server monitoring, and database performance analysis. Pages in this section itself cover cross-cutting tasks such as database authentication, encryption keys, session timeout, and registering the deployment in Microsoft Entra ID.
-Start with the Administration Shell or Administration Center to learn how instances are managed. Then follow the layer subtopics for configuration. Do the Entra ID registration before setting up Power BI, Universal Print, the Excel add-in or the Outlook add-ins, since these rely on it.
+This section is for administrators who install and run Business Central on-premises. It covers the management tools (the Administration Shell with PowerShell cmdlets, and the Administration Center snap-in for server instances, tenants and remote servers), and the configuration of each layer: server instance, web server on IIS, and the SQL database.
+
+Several pages deal with security and sessions: database authentication (SQL Server or Windows, including encryption key setup), data encryption keys per tenant, user authentication, and session timeout settings. Subtopics cover monitoring with performance counters and server events, and analyzing slow SQL queries.
+
+Integration setup pages cover registering the deployment in Microsoft Entra ID, App Key Vaults, the Excel add-in, the Outlook add-ins, and preparing Dynamics 365 Sales. Start with the Administration Shell or Administration Center and the server configuration subtopic, then move to the integration you need. Entra ID registration is a prerequisite for several of them.
 
 ## Key points
 
-- Administration Shell offers PowerShell cmdlets for server instances, web server instances, databases, users and extensions, and supports PowerShell 7.
-- Administration Center is an MMC snap-in for creating server instances, managing tenants and connecting to remote servers.
-- Database authentication uses SQL Server authentication with an encryption key, for single-tenant and multitenant setups.
-- Each tenant supports one encryption key, managed by export, import and delete.
+- Administration Shell offers PowerShell cmdlets for server instances, web server instances, databases, users and extensions, with PowerShell 7 support (version 28, 2026 release wave 1).
+- Administration Center is an MMC snap-in to create and manage server instances, tenants and remote servers.
+- Database authentication covers SQL Server and Windows authentication, encryption key setup and mixed mode, for single-tenant and multitenant deployments.
+- Each tenant supports one encryption key, managed through export, import and delete.
 - Session timeout is controlled by settings such as ClientServicesIdleClientTimeout, SessionTimeout, ClientServicesReconnectPeriod and ClientServicesKeepAliveInterval.
 - Registering in Microsoft Entra ID (app registration, client secret, API permissions) enables Power BI, Universal Print and Excel/Outlook add-ins.
 - App Key Vaults need Azure Key Vault, an Entra app, permissions (RBAC or access policy) and a certificate thumbprint on the server instance.

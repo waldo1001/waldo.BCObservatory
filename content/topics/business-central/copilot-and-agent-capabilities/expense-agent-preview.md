@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-16T01:00:02.006Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -169,6 +169,10 @@ links:
     - change/bcapps/13730
     - change/bcapps/13760
     - change/bcapps/13792
+    - change/bcapps/13925
+    - change/bcapps/13992
+    - change/bcapps/14224
+    - change/bcapps/14314
 learn_toc_path:
   - Copilot and agent capabilities
   - Expense Agent (preview)
@@ -269,6 +273,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13730 [Expense Agent] Initialize missing vendor numbering after upgrade](../../../changes/bcapps/13730.md) (code change): "Initialize missing vendor number series for the Expense Agent"
 - [#13760 [Expense Agent] Allow receipt submission with unresolved VAT setup](../../../changes/bcapps/13760.md) (code change): "Expense Agent receipts can now be submitted and added to expense reports even when VAT accounting mappings are incomplete"
 - [#13792 [main] Add Is Feature Trial to legacy Expense Agent Consumption](../../../changes/bcapps/13792.md) (code change): "legacy Expense Agent Consumption table to restore schema parity"
+- [#13925 [29x]-Bug 658773: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)](../../../changes/bcapps/13925.md) (code change): "Mileage starting and ending point addresses longer than 50 characters"
+- [#13992 [29.x]-Bug 658942: [Expense Agent] Limited self-approval cannot be combined with escalation to an unlimited approver](../../../changes/bcapps/13992.md) (code change): "Limited self-approval now works correctly with escalation to unlimited approvers"
+- [#14224 Fix duplicate expense vendor numbers during receipt submission](../../../changes/bcapps/14224.md) (code change): "Expense vendor number assignment now skips occupied numbers"
+- [#14314 Update expense category and subcategory descriptions](../../../changes/bcapps/14314.md) (code change): "Expense category and subcategory descriptions are clarified"
 - [Expense Agent just got half as expensive, and you can now try it for free](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4301562050938159536--2f22daf241.md) (community post): "Expense Agent pricing is cut in half to 25 Copilot Credits"
 - [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../../../posts/thinkaboutit-be/8348.md) (community post): "It also covers Business Skills, the Expense Agent and what AI interaction means"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "expense agent; mobile app; receipt scanning; mileage tracking; offline mode"

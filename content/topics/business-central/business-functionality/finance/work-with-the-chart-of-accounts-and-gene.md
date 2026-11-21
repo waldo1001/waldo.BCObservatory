@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -220,6 +220,7 @@ links:
     - change/bcapps/13330
     - change/bcapps/13342
     - change/bcapps/13488
+    - change/bcapps/14364
     - change/bcapps/9071
     - change/bcapps/9339
     - change/bcapps/9343
@@ -363,6 +364,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13330 Bug 656921: [master] Recurring Frequency missing from Edit in Excel](../../../../changes/bcapps/13330.md) (code change): "Recurring Frequency field is now editable in Edit in Excel for recurring general journals"
 - [#13342 [Main] Incorrect Buyer/Seller Registration No. Written to Detailed GST Ledger Entry When Posting Purchase Invoice Without Order Address](../../../../changes/bcapps/13342.md) (code change): "Detailed GST Ledger Entry When Posting Purchase Invoice"
 - [#13488 [29.X]-Applying entries across posting groups (Allow Multiple Posting Groups) posts the G/L entries that move the amount between receivables accounts with ACY = 0](../../../../changes/bcapps/13488.md) (code change): "G/L entries moving amounts between receivables accounts use correct ACY values"
+- [#14364 [main] Align G/L Register Posting Date with released schema](../../../../changes/bcapps/14364.md) (code change): "The G/L Register table schema in W1 is updated to match"
 - [#9071 Merged from [28.x]The transaction cannot be completed because it will cause inconsistencies in the G/L Entry table"](../../../../changes/bcapps/9071.md) (code change): "inconsistencies in the G/L Entry table in codeunit Gen. Jnl.-Post Line"
 - [#9339 [master][Gen. Jnl.-Post Line]` Add var NextEntryNo, var NextVATEntryNo, and var NextTransactionNo to OnAfterInitGLRegister in StartPosting](../../../../changes/bcapps/9339.md) (code change): "OnAfterInitGLRegister in StartPosting gains var NextEntryNo, NextVATEntryNo"
 - [#9343 [master][Event Request] Request at table 98 "General Ledger Setup",](../../../../changes/bcapps/9343.md) (code change): "New events were added to table 98 General Ledger Setup"
@@ -376,7 +378,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [BC Friday Tips #59 Allocation Account Design](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-59-allocation-account-design--edfa12d35b.md) (community post): "Allocation Accounts automate the distribution of revenue or cost amounts through journals and documents"
 - [Dynamics 365 Business Central – Error Message “You have one or more documents that must be posted before you post document no….” when posting a Journal](../../../../posts/thedynamicsexplorer-com/10452.md) (community post): "journal's number series has manual numbers disabled but the user tries to enter a custom document number"
 - [Dynamics 365 Business Central – Handling the message “Only the Posting No. Series can be filled in on recurring journals” in Recurring Journals](../../../../posts/thedynamicsexplorer-com/37144.md) (community post): "Recurring journal lines remain after posting and their posting date moves forward"
-- [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../../../../posts/thedynamicsexplorer-com/8821.md) (community post): "Chart of Accounts in Business Central shows only total balances at GL code level"
+- [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../../../../posts/thedynamicsexplorer-com/8821.md) (community post): "GL account structures change from segmented codes to single codes with dimensions"
 - [Dynamics 365 Business Central: Copy Sales and Purchase Line Descriptions (Type G/L Account) to G/L Entries](../../../../posts/yzhums-com/64874.md) (community post): "Copy G/L Account line descriptions from sales and purchase documents"
 - [Dynamics 365 Business Central: Set the Document No. with dynamic dates in Recurring General Journals](../../../../posts/yzhums-com/66210.md) (community post): "Recurring General Journals allow you to set document numbers with dynamic dates"
 - [Dynamics 365 Business Central: “There is nothing to post because the journal does not contain a quantity or amount” when posting Recurring Journals](../../../../posts/yzhums-com/66675.md) (community post): "Recurring journals allow posting of fixed and variable amounts for repetitive transactions"

@@ -12,7 +12,7 @@ review:
   at: "2026-11-18T01:00:03.203Z"
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -635,6 +635,7 @@ links:
     - video/VuULbBjzPcs
   posts:
     - post/thinkaboutit-be/7797
+    - post/wingate365-com/https-blog-wingate365-com-2025-12-bc-community-2025-wrapped-blogs-videos-html--2d9bff194b
     - post/yzhums-com/68975
   guidelines: []
 learn_toc_path:
@@ -652,7 +653,7 @@ coverage:
   learn: 69
   code: 315
   video: 5
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 1
@@ -1010,6 +1011,7 @@ For technical readers, Develop reports explains datasets, layouts (Word, Excel, 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Quick Tip: Business Central Launch Edition 2026 Wave 1: 37 Sessions](../../posts/thinkaboutit-be/7797.md) (community post): "37 free video sessions covering the latest features across Copilot and AI, reporting, supply chain"
+- [BC Community 2025 Wrapped - Blogs, Videos, etc](../../posts/wingate365-com/https-blog-wingate365-com-2025-12-bc-community-2025-wrapped-blogs-videos-html--2d9bff194b.md) (community post): "AI-assisted tools can efficiently process large datasets"
 - [Business Central 2025 wave 2 (BC27.1): Demo analytics with new enhanced demo data](../../posts/yzhums-com/68975.md) (community post): "provides enhanced sample data for sales and purchasing documents"
 - [What's New: Demo Data for Analytics (2025 release wave 2)](../../videos/_1onqwZz4rA.md) (video): "Enhanced Demo Data Tool for Analytics"
 - [Introducing Spreadsheets for Business Central](../../videos/1QuV_vkbNVU.md) (video): "Spreadsheets for Business Central; Regions; Virtual Fields; Page Regions"

@@ -2,21 +2,21 @@
 id: topic/business-central/copilot-and-agent-capabilities/suggest-item-substitutions-preview
 type: topic
 title: Suggest item substitutions (preview)
-summary: Suggest item substitutions with Copilot (preview) covers an AI capability that finds similar or interchangeable items and assigns them as substitutes. It answers how to use the feature, how results are scored and edited, and what its capabilities, limits and responsible-use practices are.
+summary: Suggest item substitutions (preview) covers the Copilot feature in Business Central that suggested substitute items, and its FAQ stating the feature is retired. It answers questions about how suggestions worked, which data they used, and what to do now.
 tier: official
 language: en
 system: inventory
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:22:20.835Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 224b9c95cc69c82805c8e0cc3785f0bafbdb2b3c4a9b952da8a208218d70a8b5
+  input_hash: ee2ad9542905a7c9860b0ae2cd28ea2bd738150fa59b5cab7f1a5d8d33e9d441
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/faq-suggest-item-substitutions-with-copilot
@@ -73,25 +73,27 @@ narrative: generated
 
 # Suggest item substitutions (preview)
 
-> Suggest item substitutions with Copilot (preview) covers an AI capability that finds similar or interchangeable items and assigns them as substitutes. It answers how to use the feature, how results are scored and edited, and what its capabilities, limits and responsible-use practices are.
+> Suggest item substitutions (preview) covers the Copilot feature in Business Central that suggested substitute items, and its FAQ stating the feature is retired. It answers questions about how suggestions worked, which data they used, and what to do now.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Suggest item substitutions (preview) · tier official · system inventory · narrative reviewed (checked by Opus)
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Suggest item substitutions (preview) · tier official · system inventory · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This area describes a Copilot capability that helps identify similar or interchangeable products, with the aim of reducing duplicates and streamlining product portfolio management. Copilot analyzes item numbers, descriptions, barcodes and attributes across multiple tables to propose substitutes.
+This section describes a Copilot capability that helped users find and assign substitute items faster. It looked for similar items in product information stored in the Item, Item Reference, and Item Attributes tables, and it scored the suggestions it returned. Users could adjust the prompt to refine the results.
 
-There are two pages. "Suggest substitute items with Copilot" is the how-to: it covers the suggestion workflow, the score ratings and the actions available on the results. "FAQ for suggest item substitutions with Copilot" explains what the feature can and cannot do and how to use it responsibly. Start with the how-to page to use the feature, then read the FAQ to understand its limits and best practices.
+The section has two pages: one that explains how to suggest substitute items with Copilot, and an FAQ. The FAQ says the feature is retired and no longer available. It explains the approach the feature used: searching item descriptions with embeddings, extracting keywords, and identifying synonyms.
+
+Start with the FAQ to confirm the current status. If you need substitutions now, use the manual item substitution setup that the FAQ points to. Read the other page for background on how the feature behaved.
 
 ## Key points
 
-- The feature is in preview and suggests similar or interchangeable items to reduce duplicates and simplify product portfolio management.
-- Copilot analyzes item numbers, descriptions, barcodes and attributes across multiple tables.
-- The FAQ describes the techniques used: similarity search with embeddings, and keyword and synonym extraction.
-- Suggestions carry score ratings of High, Medium or Low.
-- You can adjust the prompt to refine the suggestions.
-- Use Insert all to assign the suggested substitutes, or Delete Line to remove individual suggestions.
-- The FAQ page covers capabilities, limitations and best practices for responsible use.
+- The Copilot feature for suggesting item substitutions is retired and no longer available.
+- The FAQ directs users to manual substitution setup instead.
+- Copilot looked for similar items in product information in the Item, Item Reference, and Item Attributes tables.
+- Matching used item description search with embeddings, keyword extraction, and synonym identification.
+- Suggestions were scored, and users could adjust the prompt to change results.
+- The feature was linked to the Create product information capability.
+- A feedback mechanism was part of the AI-powered suggestions.
 
 ## Learn pages
 

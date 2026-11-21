@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,6 +61,7 @@ links:
     - topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365
   localizations: []
   videos:
+    - video/gMyp9JkXf9g
     - video/PIWxU93eCT4
   posts: []
   guidelines: []
@@ -74,7 +75,7 @@ children: []
 coverage:
   learn: 4
   code: 3
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -129,6 +130,7 @@ Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [What's New: Excel Reports for Finance and Sales (2024 release wave 1)](../../../../videos/gMyp9JkXf9g.md) (video): "Excel reports for finance and sales; Copilot in Excel data analysis"
 - [What's Cooking in Business Central: Edit Sales Price Lists in Excel](../../../../videos/PIWxU93eCT4.md) (video): "Edit sales price lists in Excel"
 
 ## Business Central pages and reports

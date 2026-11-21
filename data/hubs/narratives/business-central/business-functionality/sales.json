@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/sales",
-  "input_hash": "56beb1f4242fb302c074880db793e25b07ab5d15a26a313d2579bf5d3510914d",
-  "summary": "Sales in Business Central covers the sales process: quotes, orders, invoices, posting, shipments, returns, corrections, prepayments, drop and special orders, customer setup, and campaigns. Subtopics cover sales analytics and subscription billing. It answers how-to and setup questions.",
-  "overview": "The Sales section describes how to sell products and manage customers in Business Central. Core pages follow the document flow: register a customer, make a quote, convert it to an order or invoice, ship, post, and then handle corrections, returns or cancellations. Related pages cover delivery date and order promising calculations, partial shipments, combined shipments, blanket orders, prepayments, and recurring sales lines.\n\nOther pages cover special fulfillment cases (drop shipments, special orders, picking lists, package tracking), data upkeep (external document numbers, merging duplicate customers, vendors or contacts, saving contacts to Outlook), and a walkthrough for sales campaigns.\n\nTwo subtopics go deeper: Sales analytics (Power BI Sales app, built-in reports, ad-hoc data analysis) and Subscription billing (contracts, recurring billing proposals, usage-based billing). Start with \"Overview of tasks to manage sales\" for links to the detailed task guides.",
+  "input_hash": "34a941e35577b853260fe6bc3b20b62a59292f4d7a4d2870fac19a045c76036f",
+  "summary": "Sales in Business Central covers the sales process from quotes and orders to invoicing, shipping, returns, and customer records. It also covers sales analytics and subscription billing. It answers how-to questions on documents, posting, special order types, corrections, and reporting.",
+  "overview": "The Sales section describes the day-to-day sales workflow. Pages cover registering customers with a Customer Card, making quotes, creating sales orders and invoices, and posting them. They also cover handling shipments, returns and corrections, and tracking packages. Supporting pages cover merging duplicate records, entering external document numbers, and saving contacts to Outlook.\n\nOrder variants have their own pages: partial shipments, drop shipments, special orders, blanket orders, prepayments, and standard recurring sales lines. Other pages explain delivery date calculation and order promising (Available-to-Promise and Capable-to-Promise). A further page covers printing inventory picking lists for companies without warehouse management.\n\nTwo subtopics go deeper. Sales analytics compares the ways to analyze sales data, from the Power BI Sales app to built-in reports and ad-hoc Data Analysis. Subscription billing covers recurring invoicing for contracts. Start with \"Overview of tasks to manage sales\" to see the full flow, then open the page for the task you need.",
   "key_points": [
-    "Overview of tasks to manage sales links to detailed guides for invoices, orders, drop shipments, corrections, returns and quote-to-invoice.",
-    "Posted unpaid sales invoices can be cancelled (auto reversing credit memo) or corrected (new invoice plus credit memo).",
-    "Posting options include Post, Post and New, Post and Send, preview posting, batch posting and a test report.",
-    "Order promising uses Available to Promise and Capable to Promise; delivery dates depend on shipping time and warehouse handling time.",
-    "Partial shipments are controlled by the Shipping Advice field on the Customer Card.",
-    "Returns can be handled with sales credit memos or sales return orders, including replacement orders, restock charges and item charges.",
-    "Drop shipments and special orders link sales orders to purchase orders so vendors ship to customers.",
-    "Merge Duplicate needs the MERGE DUPLICATES permission set; saving contacts to Outlook is noted for 2026 release wave 1 (version 28)."
+    "Sales documents include quotes, orders, invoices, blanket orders, and credit memos. Quotes can be converted to orders or invoices, and blanket orders to sales orders.",
+    "Posting supports post, post and send, post batch, preview posting, and a test report. Posting creates ledger entries.",
+    "Unpaid posted invoices can be canceled or corrected. The Cancel action creates a corrective credit memo automatically. This applies to invoices that are unpaid and not fully shipped.",
+    "Drop shipments and special orders link a sales order to a purchase order through a purchasing code. The purchase order is created via the requisition worksheet or the Create Purchase Orders action.",
+    "Partial shipments are controlled by the Shipping Advice field on the Customer Card. Several shipments can be combined on one invoice manually or with the Combine Shipments batch job.",
+    "Returns use sales credit memos or sales return orders. Return orders support Copy Document, Get Posted Document Lines to Reverse, and Exact Cost Reversing.",
+    "Order promising and delivery date calculation use shipping time and warehouse handling time to compute realistic dates. They can also warn of stock-outs.",
+    "Merge Duplicate for customers, vendors, and contacts needs the MERGE DUPLICATES permission set. Outlook contact sync is described for 2026 release wave 1 (version 28)."
   ],
   "members_used": 24,
   "subtopics_used": 2,
   "prompt_version": 1,
-  "at": "2026-11-15T00:50:12.174Z",
+  "at": "2026-11-21T01:00:37.919Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.029234000000000003
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-11-15T00:50:59.798Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the key point saying drop shipments and special orders both mean 'vendors ship to customers' flattens a difference. The special orders source only says items are 'shipped to customers through vendors', so the wording is close to the source but slightly imprecise.",
-      "Minor: the Outlook key point leaves out that the page also covers syncing contacts to Teams. 'Noted for 2026 release wave 1 (version 28)' matches the version tags and makes no status claim, so it is acceptable."
-    ],
-    "input_hash": "56beb1f4242fb302c074880db793e25b07ab5d15a26a313d2579bf5d3510914d",
-    "cost_usd": 0.06852
+    "cost_usd": 0.029099
   }
 }

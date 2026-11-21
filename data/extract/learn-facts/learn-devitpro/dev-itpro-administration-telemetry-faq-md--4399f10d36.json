@@ -2,37 +2,37 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-faq.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-faq",
   "title": "Telemetry FAQ (Frequently Asked Questions)",
-  "blob": "47658d2dabb8ea5dff8b9119bb6e383a3220d512",
+  "blob": "b63e3a262adc2ee74f45b888ded6235b9de1b6cf",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Business Central service does not emit personal or customer data to Application Insights"
+      "text": "Long dimension values exceeding 8,000 characters are split into overflow keys named with _1 and _2 suffixes, up to 24,000 total."
     },
     {
       "kind": "fact",
-      "text": "Telemetry emits only service runtime data, tenant identifiers, configuration data, and usage data"
+      "text": "One-to-one relationship between customers and Application Insights resources enables separate cost tracking and customer isolation."
     },
     {
       "kind": "fact",
-      "text": "Each custom dimension in events has 8,000 character limit; overflow keys are named with _1 and _2 suffixes"
+      "text": "Log Analytics retention can be configured up to two years for analytics tables and 12 years for total retention with search jobs."
     },
     {
       "kind": "fact",
-      "text": "Separate environment telemetry from app telemetry into different Application Insights resources for better management"
-    },
-    {
-      "kind": "limit",
-      "text": "Application Insights instrumentation was not backported to versions earlier than 15.0"
+      "text": "Read-only Application Insights access requires Reader role assignment in both the resource and resource group."
     },
     {
       "kind": "fact",
-      "text": "Azure workspace default retention policy can be set to 30, 31, 60, 90, 120, 180, 270, 365, 550, or 730 days"
+      "text": "Telemetry includes tenant identifiers, configuration data, and usage data; some events include pseudonymous user telemetry IDs."
     },
     {
-      "kind": "permission",
-      "text": "Grant read-only access by assigning Reader role in Access Control (IAM) page and optionally on Resource Group"
+      "kind": "fact",
+      "text": "Telemetry works for on-premises installations, though a few events are not emitted for on-premises."
+    },
+    {
+      "kind": "fact",
+      "text": "Application Insights instrumentation is not backported to versions before 15.0 due to extensive refactoring requirements."
     }
   ],
   "dropped": 0,
@@ -40,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007431,
-      "pages_in_call": 3
+      "cost_usd": 0.006741,
+      "pages_in_call": 8
     }
   ]
 }

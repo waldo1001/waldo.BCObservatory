@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/extension-lifecycle
 type: topic
 title: Extension lifecycle
-summary: Extension lifecycle in Business Central covers the phases of an extension from development to deprovisioning, extension types and scopes, and moving apps between scopes. Subtopics answer questions on migration, translation, testing, deploying, updating, hotfixing and deprecating code.
+summary: "Extension lifecycle in Business Central covers the phases of an extension from development to deprovisioning: extension types and scopes, moving apps between scopes, migration, translation, testing, deployment, updating and hotfixing, and code deprecation. It answers questions on how to build, ship, maintain and retire AL extensions."
 tier: official
 language: en
 system: development
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: ac8b2180417eaeb58d64e710840fc091438d0ab25e8a37c11dc801269f4fce53
+  input_hash: 9f56534330cf9bcba8348584560610a40be8a78b54ea2794b1ee4eec8feee203
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-application-example-purchase-invoice-discounts
@@ -336,28 +336,28 @@ narrative: generated
 
 # Extension lifecycle
 
-> Extension lifecycle in Business Central covers the phases of an extension from development to deprovisioning, extension types and scopes, and moving apps between scopes. Subtopics answer questions on migration, translation, testing, deploying, updating, hotfixing and deprecating code.
+> Extension lifecycle in Business Central covers the phases of an extension from development to deprovisioning: extension types and scopes, moving apps between scopes, migration, translation, testing, deployment, updating and hotfixing, and code deprecation. It answers questions on how to build, ship, maintain and retire AL extensions.
 
 Path: [Development](../development.md) > Extension lifecycle · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The extension lifecycle describes the path of a Business Central app from planning and development through testing, deployment, operations and monitoring, to deprovisioning. The overview page introduces these phases and links to related processes such as data migration, translation, testing and upgrade.
+This section describes the full life of a Business Central extension. It starts with an overview of the phases (planning, development, testing, deployment, operations, monitoring and deprovisioning), then explains the extension types: global apps from Marketplace, per-tenant extensions (PTE) for specific environments, and DEV extensions for sandbox development only. A separate page covers moving an app between PTE, DEV and Marketplace scopes, including identity, naming and ID range requirements.
 
-Two pages in this section explain scope. Extension types and scope separate global apps installed from Marketplace, per-tenant extensions (PTE) deployed to specific environments, and DEV extensions that are for sandbox development only. Moving between extension scopes covers the identity, naming and ID range requirements when an app goes between PTE, DEV and Marketplace (2023 release wave 2).
+The subtopics follow the lifecycle. Migration and moving tables and fields between extensions cover .delta file generation and on-premises data moves. Translation covers XLIFF files. Testing covers automated AL tests and the Performance Toolkit. Deploying and installing, and Updating and hotfixing, cover publishing, upgrade code, Marketplace submission and validation. Deprecating code covers obsolete markers and removal timelines.
 
-Start with the overview, then the scope pages. After that, use the subtopics by stage: Testing and Translation during development, Deploying and installing and Updating and hotfixing for release and maintenance, Deprecating code for removing old code, and Migration plus Moving tables and fields between extensions for on-premises data and ownership changes.
+Start with the lifecycle overview and the extension types page to pick the right scope. Then go to the subtopic that matches your current phase.
 
 ## Key points
 
-- The lifecycle phases are planning, development, testing, deployment, operations and monitoring, through to deprovisioning.
-- Extension types are global apps from Marketplace, per-tenant extensions for specific environments, and DEV extensions for sandbox only.
-- Moving an app between PTE, DEV and Marketplace has identity, naming and ID range requirements for each transition.
+- The lifecycle runs from planning, development and testing through deployment, operations, monitoring and deprovisioning.
+- Extension types: global apps (Marketplace), per-tenant extensions (specific environments), and DEV extensions (sandbox only).
+- Moving between PTE, DEV and Marketplace scopes has identity, naming and ID range requirements; the page lists 2023 release wave 2.
 - Migration covers .delta files from Compare-NAVApplicationObject, migration.json, transition extensions and synchronization order.
-- On-premises moves of tables and fields between extensions use the MovedTo and MovedFrom properties and staged moves.
-- Translation uses XLIFF files, with layered sources overriding each other by language priority and app dependencies.
-- Testing covers AL test codeunits, test pages, handlers, test runners and the Performance Toolkit.
-- Deprecating code uses preprocessor directives and Obsolete properties, with warnings such as AL0604 and AL0606 and the deprecation of 'with' statements.
+- On-premises, tables and fields move between extensions with the MovedTo and MovedFrom properties and staged moves.
+- Translation uses XLIFF files with layered sources overriding each other by language priority and app dependencies.
+- Testing covers test codeunits, test pages, handler methods, test runners and the Performance Toolkit.
+- Deprecation uses Obsolete properties and preprocessor directives, with CLEAN symbols, warnings AL0604 and AL0606, and the deprecation of 'with' statements.
 
 ## Subtopics
 

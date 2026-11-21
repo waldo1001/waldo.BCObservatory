@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -453,13 +453,14 @@ This section is a catalog of telemetry pages, one per area of the product. Each 
   - Execution ID correlates start and completion events for the same operation
   - Common dimensions include tenant ID, company name, environment type, and telemetry schema version
 - [Analyze Incoming Web Service Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-trace): Analyze incoming Business Central web service telemetry to identify callers, investigate failed requests, and troubleshoot endpoint performance.
-  - Web services telemetry (event ID RT0008) gathers data on incoming SOAP, OData and REST API requests including endpoint, execution time, SQL performance and HTTP status.
-  - Status: User_Id dimension added in version 24.2 (Business Central 2024 release wave 1).
-  - Custom dimensions identify the AL object and extension running behind the endpoint plus the caller's HTTP method, headers and authorization type.
-  - Performance data includes serverExecutionTime, requestQueueTime and totalTime, and SQL metrics showing statements executed and rows read.
-  - Deprecated endpoint called event (ID RT0053, version 26.0+) tracks SOAP calls to Microsoft pages no longer exposed as web service endpoints.
-  - Error analysis uses httpStatusCode and failureReason dimensions to troubleshoot unsuccessful calls and identify misconfigurations.
-  - Telemetry omits sensitive HTTP headers but includes Accept, User-Agent, Content-Type, OData-Version, Prefer and authorization type in logs.
+  - Web services telemetry captures SOAP, OData, and REST API requests, including endpoint, completion time, HTTP status codes.
+  - Event ID RT0008 identifies incoming web service call traces with custom dimensions for analysis.
+  - HTTP status codes in 4xx range indicate client misconfiguration; failureReason dimension logs errors in AL code behind endpoints.
+  - requestQueueTime and serverExecutionTime dimensions track request queuing and execution performance separately.
+  - Starting version 26, SOAP calls to Microsoft UI pages are disabled by default; event RT0053 identifies deprecated endpoints.
+  - Status: user_Id dimension introduced in Business Central 2024 release wave 1, version 24.2.
+  - Status: diagnosticsMessage and failureReason added in Business Central 2023 release wave 1, version 22.0.
+  - Status: Deprecated endpoint called event (RT0053) available from version 26.0.
 - [Analyze MCP configuration telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-mcp-configuration-trace): Learn about the MCP (Model Context Protocol) configuration telemetry in Business Central
   - Status: Generally available from Business Central 2026 release wave 1, version 28.0 and later.
   - MCP configuration telemetry tracks creation, modification, deletion, and default designation.
@@ -468,13 +469,11 @@ This section is a catalog of telemetry pages, one per area of the product. Each 
   - Event AL0000QEB: MCP configuration deleted.
   - Event AL0000R0R: MCP configuration designated as default.
 - [Analyze MCP Server Tool Calls Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-mcp-server-trace): Analyze Business Central MCP server tool call telemetry to track tool usage, investigate invocation failures, and compare performance across configurations.
-  - Status: Generally available from version 28.0, Business Central 2026 release wave 1 and later
-  - MCP Server telemetry tracks tool calls made through Model Context Protocol configurations
-  - Event RT0054 fires when an MCP Server tool is called from Business Central
-  - Custom dimensions include configuration name, tool name, client name, and execution time
-  - Tool invocation results are Success or Failure, with failure reasons captured when applicable
-  - KQL queries can analyze tool usage frequency, success rates, and troubleshoot failures
-  - Prerequisite: MCP Server must be configured in Business Central before telemetry is generated
+  - Status: MCP server tool calls telemetry applies to Business Central 2026 release wave 1, version 28.0, and later.
+  - MCP server telemetry gathers data about tool calls from external MCP hosts to Business Central MCP server configurations.
+  - Tool call events capture configuration name, tool name, client name, authenticated application ID, execution time, and invocation result.
+  - Tool invocation failures are tracked with reason codes; MCP tool result dimensions record Success or Failure status.
+  - Dynamic tools populate the dynamicToolName dimension with the action name for dynamic MCP tool configurations.
 - [Analyze Open in Excel telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-open-in-excel-trace): Learn about the Open in Excel telemetry in Business Central
   - Status: Generally available in Business Central 2026 release wave 2 and later.
   - Open in Excel telemetry captures when users export data from Business Central using Open in Excel action.
@@ -501,12 +500,12 @@ This section is a catalog of telemetry pages, one per area of the product. Each 
   - Event ID RT0055 marks AI consumption recorded; telemetry schema version is 0.2.
   - KQL code allows analysis of consumed Copilot Credits by timestamp, environment, feature name, and credit count.
 - [Analyzing App Key Vault Secret Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace): Analyze app key vault telemetry in Business Central to troubleshoot extension initialization failures and secret retrieval errors in Azure Key Vault.
-  - App key vault telemetry gathers information about Azure Key Vault secret acquisition by extensions at runtime across initialization and retrieval stages.
-  - Initialization stage verifies app key vault provider configuration via TryInitializeFromCurrentApp method and fails if extension lacks key vault specification or credentials are incorrect.
-  - Retrieval stage attempts secret retrieval via GetSecret method call and fails if secret name is invalid, key vault doesn't exist, or application lacks read permissions.
-  - Status: EventId RT0014 indicates successful key vault initialization with severity level 1; RT0015 indicates initialization failure with severity level 3.
-  - Status: EventId RT0016 indicates successful secret retrieval with severity level 1; RT0017 indicates retrieval failure with severity level 3.
-  - Telemetry custom dimensions include extension ID, name, publisher, version, key vault URIs, client type, AL object details, and component version.
+  - App key vault telemetry is sent to extension's Application Insights resource, not environment's
+  - RT0014 successful initialization, RT0015 initialization failure, RT0016 retrieval success, RT0017 retrieval failure
+  - Initialization stage verifies app.json configuration and Azure Key Vault Client Identity settings
+  - Retrieval stage occurs after successful initialization to get secrets from specified key vault
+  - Failure reasons include missing extension specification, incorrect client ID, missing permissions, or invalid secret names
+  - Telemetry captures key vault URI, secret name, extension details, and stack trace for troubleshooting
 - [Analyzing Authorization Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-authorization-trace): Analyze Business Central authorization telemetry to troubleshoot sign-in failures, company access problems, entitlements, and company-opening performance.
   - Authorization telemetry tracks user or service sign-in attempts and identifies sign-in problems
   - Authorization signals are emitted in two stages: initial authorization before CompanyOpen trigger and company opening after
@@ -544,24 +543,24 @@ This section is a catalog of telemetry pages, one per area of the product. Each 
   - Telemetry includes client type, Entra tenant ID, environment name and type.
   - Nine event types: company created, creation canceled, creation failed, copied, copy canceled, copy failed, deleted, deletion canceled, deletion failed.
 - [Analyzing Database Deadlock Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-deadlocks-trace): Analyze database deadlock telemetry in Business Central to identify deadlock victims, inspect SQL statements and AL stack traces, and troubleshoot contention.
-  - Telemetry emitted when deadlock occurs and terminates one session (victim), blocking users from completing tasks.
-  - Provides benefits including awareness of deadlocks, identification of victim process, and data for monitoring.
-  - Prerequisite: On-premises deployments must enable EnableDeadlockMonitoring setting on server instance.
-  - Event RT0028 includes dimensions like AL object, client type, extension, SQL session ID.
-  - Complements other monitoring features like SQL database deadlock monitoring and database lock trace telemetry.
+  - Status: Generally available from Business Central 2022 release wave 1, version 20.0
+  - Telemetry signal RT0028 is emitted when two or more database processes block each other and SQL Server rolls back one transaction
+  - Deadlock telemetry identifies which session was the victim and captures both competing processes as separate events
+  - EnableDeadlockMonitoring server setting is not required for RT0028 telemetry collection, but controls a separate SQL deadlock monitoring feature
+  - Telemetry dimensions include AL object details, extension information, SQL statement, session IDs, and stack traces
 - [Analyzing Database Lock Timeout Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-locks-trace): Analyze database lock timeout telemetry in Business Central and correlate lock snapshots to identify blocked sessions and troubleshoot database contention.
-  - Status: Database lock timeout telemetry introduced in Business Central 2020 release wave 1, version 16.0.
-  - Two event types emitted: Database lock timed out event and one or more Database lock snapshot events.
-  - Lock timeout triggers snapshot events providing details about SQL sessions holding locks at timeout time.
-  - Prerequisite: On-premises environments must enable EnableLockTimeoutMonitoring setting; off by default.
-  - RT0012 event includes AL object, stack trace, client type, extension, SQL session details.
-  - RT0027 parent event introduced in 2024 release wave 2 groups related lock snapshot entries.
-  - Telemetry captures victim session, not sessions holding locks; use joins to correlate data.
+  - Status: Generally available from Business Central 2020 release wave 1, version 16.0
+  - RT0012 Database lock timed out event occurs when a lock request times out for a session
+  - RT0013 Database lock snapshot entry events provide details about SQL sessions holding locks at timeout, including lock type, status, mode, and table
+  - RT0027 Database lock snapshot parent event groups related lock snapshot entries and applies from version 20.0 onwards
+  - EnableLockTimeoutMonitoring server setting controls lock timeout telemetry; defaults to off on on-premises
+  - Snapshot ID maps lock timeout events to associated lock snapshot events for correlation and troubleshooting
 - [Analyzing Database Wait Statistics Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-wait-statistics-trace): Analyze database wait statistics telemetry in Business Central to compare wait categories, correlate snapshot entries, and investigate database performance.
-  - Status: Available from Business Central 2022 release wave 1, version 20.0 and later.
-  - Snapshot is taken when user selects Emit Telemetry icon on Database Wait Statistics view in the client.
-  - Trace records maximum wait time, signal wait time, total wait time, and count of waiting tasks per wait category.
-  - Traces include database start date, when database was started, and which type of wait a query experiences.
+  - Status: Generally available from Business Central 2022 release wave 1, version 20.0
+  - RT0025 Database wait statistics snapshot taken event occurs when snapshot is requested or additional logging starts or ends
+  - RT0026 Database wait statistics snapshot entry events contain aggregated SQL wait statistics, not individual query waits
+  - Snapshots capture maximum wait time, signal wait time, waiting tasks count, and wait category information
+  - Telemetry helps troubleshoot query performance by tracking elapsed time since SQL Server started and wait category details
   - In the observatory: [Page 9520 "Database Wait Statistics"](../../../../objects/page/9520.md)
 - [Analyzing Email Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace): Analyze email telemetry in Business Central to monitor email delivery and troubleshoot failures when connecting or authenticating to SMTP servers.
   - Status: Email telemetry available from Business Central 2020 release wave 2, update 17.2 and later.
@@ -572,42 +571,40 @@ This section is a catalog of telemetry pages, one per area of the product. Each 
   - Telemetry captures email provider connector used such as Current User, Microsoft 365, SMTP, or custom connectors.
   - In the observatory: [Codeunit 8888 "Email Dispatcher"](../../../../objects/codeunit/8888.md)
 - [Analyzing Error Message Vote Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-message-voting-trace): Analyze error message vote telemetry in Business Central to find messages users consider unhelpful and investigate the associated errors and extensions.
-  - Status: Available from Business Central 2022 release wave 1.
-  - Error messages include a yes or no question asking whether the message was helpful.
-  - User feedback on error messages is recorded in Application Insights for all errors from Error method calls.
-  - Trace records whether user voted yes or no, the error message text, and the regional language version shown.
+  - Status: Generally available from 2022 release wave 1
+  - CL0002 event emitted when user votes Yes or No on error message helpfulness in dialog
+  - Voting feature appears on errors from Error(String) and Error(ErrorInfo) AL methods
+  - Telemetry captures user feedback, error message text, extension details, and stack trace information
+  - Feedback helps partners and developers identify error messages users find difficult to understand
 - [Analyzing Error Method Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-method-trace): Analyze error dialog telemetry in Business Central to investigate AL errors, inspect stack traces and failure reasons, and identify problems affecting users.
-  - Error method telemetry emitted when Error method called, displays dialog to user
-  - Event ID RT0030 signals error dialog displayed with failure reason Dialog
-  - Error message shown only if Label or TextConst data type, otherwise generic message shown
-  - Messages with customer data not shown as precaution, SystemMetadata classified data only emitted
-  - Severity level 3 indicates error dialog event with stack trace and AL object details recorded
-  - Telemetry includes AL stack trace, object ID, object type, client type, and company name
+  - RT0030 Error dialog shown event occurs when error sent to client for display from AL or platform
+  - Error messages show only SystemMetadata classification; customer data and other classifications are redacted
+  - For Error(String), only Label or TextConst strings are displayed; other strings show redaction message
+  - Telemetry includes AL stack trace, failure reason, extension information, and AL object details
+  - alEnglishLanguageDiagnosticsMessage dimension available in version 22.0 and backported to version 21.4
 - [Analyzing Extension Lifecycle Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-lifecycle-trace): Analyze Business Central extension lifecycle telemetry to track publishing, installation, synchronization, updates, and failures across environments.
-  - Status: Generally available from Business Central 2020 release wave 1, version 16.3. Extension-level support from 2020 release wave 2, version 17.1.
-  - Gathers telemetry data on extension operations: compiling, synchronizing, publishing, installing, updating, uninstalling, and unpublishing.
-  - Failed operations include a trace log entry with the reason for failure.
-  - Traces are recorded for operations initiated from Extension Management page, Manage Apps page, App Management API, PowerShell cmdlets, and Business Central control plane.
-  - Environment/server traces cover extensions published to tenant scope only, excluding Microsoft extensions and Marketplace extensions.
-  - Tenant traces record synchronizing, installing, updating, and uninstalling extensions on a tenant.
-  - Control plane traces monitor installation or update operations by the Business Central control plane service and help identify the origin or cause of operations.
-  - Limit: Custom dimensions may not be available if operations fail before information is retrieved, such as extension ID and version in failed uninstall operations.
+  - Status: Generally available from Business Central 2020 release wave 1, version 16.3. Extension-level support added in wave 2, version 17.1.
+  - Telemetry tracks success or failure of seven extension operations: compiling, synchronizing, publishing, installing, updating, uninstalling, and unpublishing.
+  - Failed operations produce trace log entries with failure reasons included.
+  - Online traces come from Extension Management page, Manage Apps page, App Management API, or control plane. On-premises traces from Extension Management page or PowerShell cmdlets.
+  - Environment traces record tenant-scoped extensions only, excluding Microsoft and Marketplace extensions.
+  - Custom dimensions added gradually during operations; if operation fails before retrieval, those dimensions are excluded.
+  - Four synchronization modes supported: Add for initial publish, Clean to remove schema, Development for same-version syncing during development, and ForceSync for destructive schema changes.
+  - Limit: Some custom dimensions unavailable for certain operations if failure occurs before the information is retrieved.
 - [Analyzing Extension Update Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-update-trace): Analyze Business Central extension update telemetry to investigate upgrade code failures and track upgrade tags used during extension upgrades.
-  - Status: Exception telemetry introduced in Business Central 2020 release wave 1, version 16.2; upgrade tag telemetry in 2021 wave 1.
-  - Tracks extension upgrade failures from exceptions in upgrade codeunits.
-  - Monitors HasUpgradeTag and SetUpgradeTag method calls from System Application codeunit 9999.
-  - RT0010 event emitted on upgrade failure with codeunit ID, stack trace, extension name, version.
-  - Limit: Exception messages containing non-SystemMetadata classifications are not shown to protect customer data.
-  - AL0000EJ9 event for HasUpgradeTag calls includes upgrade tag value and execution context.
+  - Status: Exception telemetry introduced in Business Central 2020 release wave 1, version 16.2; upgrade tag telemetry in 2021 release wave 1, version 18.1.
+  - Extension upgrade telemetry captures exceptions thrown by upgrade codeunits and tracks calls to HasUpgradeTag and SetUpgradeTag methods.
+  - Extension update failure events include codeunit ID, AL stack trace, exception message, company name, extension name, and app ID.
+  - Upgrade tag events are emitted with severity level 1, capturing tag searches and sets during installation, upgrade, or normal operations.
+  - Limit: Exception messages containing non-metadata data are not shown; a standard message replaces them to protect customer data.
 - [Analyzing Extension Upload Validation Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-pte-upload-validation-trace): Analyze Business Central per-tenant extension upload validation telemetry to track validation attempts, investigate failures, and configure alerts.
-  - Proactive validation of per-tenant extensions during upload checks compilation against environment.
-  - Failed validation results emit trace logs with failure reasons.
-  - Main and dependent extensions are validated separately; flow shows start, diagnostics, and completion states.
-  - PTE validation started event (LC0200) triggers when upload attempt begins.
-  - Submission diagnostic reported event (LC0201) indicates warnings or errors at submission level.
-  - Extension validation events (LC0204-LC0209) track main and dependent extension validation progress.
-  - PTE validation completed successfully (LC0202) or with failures (LC0203) indicate final upload result.
-  - Partners can set alerts on validation failures to proactively help customers.
+  - Status: Generally available for per-tenant extension validation in Business Central service
+  - Validation flow starts with LC0200 event and concludes with either success (LC0202) or failure (LC0203)
+  - Main extensions and all dependent extensions are validated separately with distinct event IDs
+  - Diagnostic events (LC0201, LC0210) report information, warnings, or errors during submission or extension validation
+  - Failure reason dimension explains why extension compilation failed against the environment
+  - Submission includes extension details like name, version, publisher ID, and the unique submission operation ID
+  - Extension metadata is captured in JSON structure format for both main and dependent extensions
 - [Analyzing Field Monitoring Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace): Analyze field monitoring telemetry in Business Central to track changes to sensitive fields, monitoring status, and the fields selected for monitoring.
   - Field monitoring logs when monitoring starts or stops, when fields are added or removed for monitoring, and when monitored field values change.
   - Status: Field added or removed for monitoring feature introduced in version 18.0.
@@ -678,60 +675,59 @@ This section is a catalog of telemetry pages, one per area of the product. Each 
   - Environment details captured include name, type, and version in all onboarding events
 - [Analyzing Permission Changes Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace): Analyze Business Central permission change telemetry to track permission sets, user assignments, and changes made by extensions during installation or updates.
   - Status: Permission changes telemetry applies to Business Central 2020 release wave 2, version 17.2, and later.
-  - Tracks user-defined permission set creation, deletion, and system permission set links.
-  - Monitors assignment or removal of permission sets from users and user groups.
-  - Captures permission set changes made by apps or extensions during install or upgrade.
-  - Events AL0000E2A through AL0000E2F track specific permission set operations with details.
-  - LC0058 event identifies app or extension that changed permission set with ID, name, publisher.
+  - Permission telemetry tracks user-defined permission set additions, removals, links to system sets, and assignments to users or groups.
+  - Limit: AL permission events are emitted only in Business Central online; LC0058 event emitted during extension installation or updates.
+  - Permission set assignment events capture permission set ID, app ID, and scope of the assigned permission set.
+  - Permission set link events track links between user-defined and system permission sets with total count of links.
   - In the observatory: [Codeunit 1351 "Telemetry Subscribers"](../../../../objects/codeunit/1351.md)
 - [Analyzing Permission Dependency Cycle Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-dependency-cycle-trace): Analyze permission dependency cycle telemetry in Business Central to identify circular permission set references and investigate the dependency path.
-  - Permission dependency cycle occurs when permission set depends on itself directly or indirectly
-  - Dependency cycle discovered event has ID RT0032 with severity level 3
-  - Cycle error message shows circular reference path, for example [XX]->[YY]->[XX]
-  - Telemetry includes AL object ID and type if error relates to specific object
-  - Permission area values recorded are System, Entitlement, Company, or Object
-  - Permission type values include Delete, Execute, Insert, Modify, Read, or Undefined
+  - Permission dependency cycles occur when permission sets reference themselves; system prevents circular references.
+  - Dependency cycle event logs the full cycle path showing how sets reference each other; long paths are truncated at middle.
+  - Cycle discovery telemetry includes AL object ID and type, stack trace, and cyclic permission set dependency path.
+  - Severity level 3 for dependency cycle event indicates an error that blocks permission operations.
 - [Analyzing Permission Error Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace): Analyze permission error telemetry in Business Central to identify missing permissions, inspect affected objects, and investigate errors reported to users.
-  - Permission error telemetry signals when users get permission-related error dialogs.
-  - Permission Error Shown event has eventId RT0031 at severity level 1.
-  - Data includes object ID, name, type, and permission area that caused the error.
-  - permissionType dimension shows missing permission: Delete, Execute, Insert, Modify, or Read.
-  - permissionArea dimension indicates System, Entitlement, Company, or Object scope.
-  - Stack trace and error message help identify where permission check failed in code.
-  - Sample KQL code helps analyze which permission errors users encounter frequently.
+  - Permission error telemetry is emitted when users get permission-related error dialogs in Business Central.
+  - Permission error events capture object ID and name, permission area (System, Entitlement, Company, Object), and permission type required.
+  - Error messages include affected AL object type (page, table, etc.), client type, and AL stack trace for investigation.
+  - Permission error dimension permissionArea indicates whether error is related to system, entitlement, company, or specific object.
 - [Analyzing Profile Configuration Lifecycle Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-profile-configuration-lifecycle-trace): Analyze Business Central profile configuration telemetry to track profile imports, exports, copying, creation, deletion, and page customization changes.
-  - Status: Profile configuration lifecycle telemetry applies to Business Central 2022 release wave 2, version 21.0 and later
-  - Tracks profile operations: import, export, create, copy, and remove from web client
-  - Profile import succeeded event ID LC0046, failed event ID LC0047
-  - Profile export succeeded event ID LC0048, failed event ID LC0049
-  - Profile copy succeeded event ID LC0050, failed event ID LC0051
-  - Profile create, remove, and customization operations tracked with LC0052 through LC0055 event IDs
-  - Profile app ID empty or all-zeros indicates profile from web client, not extension
+  - Status: Generally available from version 21.0, 2022 release wave 2 and later
+  - Emits telemetry signals for profile operations like import, export, create, copy, and remove actions
+  - Each trace includes event IDs ranging from LC0046 to LC0055 that identify the specific operation performed
+  - Telemetry tracks profile page customization lifecycle including when customizations are removed or converted
+  - Diagnostic information is collected including severity level, compiler messages, and designer feedback during operations
+  - Export operations record whether Force flag was enabled, allowing profiles with compilation errors to be exported
+  - Copy operations track source and destination profile IDs, as well as their associated extension IDs
 - [Analyzing Stopped Session Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-stop-session-trace): Analyze stop session telemetry in Business Central to identify session cancellation requests, their results, and the AL code or management client involved.
-  - A trace is recorded when a session stops via the StopSession method from AL or from the admin center.
-  - The trace records the ID of the session that was stopped and the ID of the session that initiated the stop.
-  - Custom dimensions include whether the stopped session was running as an administrator and the client type that made the stop call.
-  - ManagementClient client type indicates the session was stopped from the Business Central admin center.
-  - Stack trace, AL object ID, object name, and object type are not shown for sessions canceled from the admin center.
+  - Session stop attempts are recorded whether initiated from AL code or admin center via StopSession method
+  - Result dimension shows True when stop request was accepted, False when it was rejected
+  - Cancellation comment indicates whether stop was triggered by management PowerShell cmdlet or direct AL call
+  - Client type dimension distinguishes between Background, WebClient, or ManagementClient session initiators
+  - Session stop event includes target session ID, calling session ID, company name, and admin status of target
+  - Stack trace and AL object details are included for session stops from AL but omitted for admin center requests
+  - Event ID RT0029 identifies all StopSession method invocations across all stop scenarios
 - [Analyzing Task Scheduler Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-task-scheduler-trace): Analyze Business Central task scheduler telemetry to track task creation and execution, investigate failures and cancellations, and monitor timeout changes.
-  - Each scheduled task assigned unique identifier for tracing its execution flow
-  - Task created event ID LC0040 fired when TaskScheduler.CreateTask called in AL code
-  - Task ready event ID LC0041, task removed event ID LC0042, completion event ID LC0043
-  - Task canceled event ID LC0044 when main or failure codeunit execution canceled
-  - Task failed event ID LC0045 when execution fails due to exception thrown by AL runtime
-  - Limit: Default task timeout 12 hours for online, specified by server setting for on-premises
-  - Task timeout changed event ID LC0057 if defined timeout exceeds maximum allowed by server
+  - Status: Task timeout changed events introduced in version 22.0
+  - Task lifecycle tracked from creation through completion, cancellation, or failure with unique task IDs
+  - Task created event (LC0040) records main codeunit, failure codeunit ID, timeout, and ready state
+  - Failure events distinguish between non-retriable exceptions, retriable exceptions, and max retry attempts exceeded
+  - Timeout exceeded causes automatic task cancellation with max default of 48 hours; on-premises is configurable
+  - Execution metrics include SQL executes, rows read, server time, and total time for completed or failed tasks
+  - Task ID, attempt number, and retry message enable tracking of task retry behavior and failure handling
 - [Analyzing Verbose Logging Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-verbose-logging-trace): Analyze verbose logging telemetry in Business Central to see when additional logging starts and ends for a session while troubleshooting user problems.
-  - Trace recorded when additional logging is turned on from Help and Support page in the client.
-  - Trace recorded when additional logging is turned off because user closed browser or signed out.
-  - Verbose logging enables additional telemetry for troubleshooting during a session.
+  - Verbose telemetry enabled event (RT0023) is recorded when additional logging turned on from Help page or AL
+  - Session verbose logging has temporary duration that expires, triggering disabled event (RT0024)
+  - Disabled event does not specifically indicate user browser closure or sign-out; it covers any override reset
+  - Both events include session ID, tenant ID, environment type, and telemetry schema version dimensions
+  - Events help track when detailed logging is active on individual sessions for troubleshooting
 - [Analyzing Web Service Access Key Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-access-key-trace): Analyze web service access key telemetry in Business Central to monitor authentication attempts, identify failures, and plan migration away from access keys.
-  - Status: Web service access key telemetry applies to Business Central 2020 release wave 2, version 17.3, and later.
-  - Emits telemetry on success or failure of authenticating web service access keys.
-  - RT0020 event emitted for successful authentication with endpoint, extension, object details.
-  - RT0021 event emitted for failed authentication including failure reason and exception details.
-  - Helps monitor web service access key usage for deprecation preparation.
-  - Limit: Endpoint redacts private and sensitive information; exception messages may omit sensitive data.
+  - Status: Generally available from version 17.3, 2020 release wave 2 and later
+  - Records success (RT0020) or failure (RT0021) of web service access key authentication attempts
+  - Failure events are only emitted when authentication check is reached; rejected early requests do not trigger event
+  - Authentication failure reason shows 'Not authorized' when user is not authenticated for the request
+  - Deprecated keys dimension lists authentication keys marked for removal in next major release
+  - Event data tracks service category (Api, ODataV4, ODataV3, SOAP) and authentication type (NavUserPassword, AccessControl)
+  - Endpoint is sanitized to omit private and sensitive information from trace records
 - [Azure Function Integration Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-azure-function-integration-trace): Analyze Azure Function integration telemetry in Business Central to monitor successful requests, failed requests, and OAuth authorization failures.
   - Azure Function integration telemetry tracks calls from Business Central to Azure Functions.
   - Request succeeded event has eventId AL0000I74 with HTTP status code.
@@ -775,11 +771,13 @@ This section is a catalog of telemetry pages, one per area of the product. Each 
   - If no telemetry logger registered for publisher, server logs event AL0000G7K to environment telemetry indicating app sending data without registered logger.
   - In the observatory: [Codeunit 8703 "Feature Telemetry"](../../../../objects/codeunit/8703.md), [Codeunit 8708 "Telemetry Loggers"](../../../../objects/codeunit/8708.md)
 - [Outgoing Web Service Certificate Validation Error Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-outgoing-certificate-validation-errors): Analyze outgoing web service certificate validation telemetry in Business Central to identify invalid server certificates and troubleshoot AL HttpClient requests.
-  - Server certificate validation error telemetry captures SSL/TLS certificate failures when making outgoing web service requests using the AL HTTPClient module.
-  - Event ID is RT0052, introduced in version 26.0, and logs details about endpoint, certificate chain, issuer name and subject field.
-  - Telemetry includes the AL object making the request, HTTP method used and the specific failure reason explaining why the certificate did not validate.
-  - Certificate validation error events capture extension information including app ID, publisher, name and version alongside environment and company details.
-  - The failureReason dimension indicates why validation failed, helping developers contact endpoint owners to fix certificate issues.
+  - Status: Generally available from version 26.0 and later
+  - Telemetry emitted for server certificate validation errors on outgoing HttpClient web service requests
+  - Event recorded even if certificate validation is bypassed for the request; presence does not confirm blocking
+  - Failure reason dimension explains why certificate did not validate for the endpoint
+  - Certificate information includes chain, issuer name, and subject details for investigation
+  - Traces include AL object making request, HTTP method, cleaned endpoint URI, and extension details
+  - Event ID RT0052 identifies all server certificate validation error occurrences
 - [Outgoing Web Service Request Trace](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-outgoing-trace): Learn about the outgoing web service request telemetry in Business Central
   - Outgoing web service telemetry (RT0019) tracks HTTPClient calls made by AL code to external services, including endpoint, method, status code.
   - Dimensions record timeout set by NavHttpClientMaxTimeout server setting or TimeOut method call, with method call taking precedence over server setting.
@@ -832,11 +830,12 @@ This section is a catalog of telemetry pages, one per area of the product. Each 
   - Event AL0000EIR fires when a checklist item status changes and guided experience item is found
   - Dimensions track old and new status values to monitor progression through checklist completion
 - [Web Service Publish Failure Trace](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-publish-failure-trace): Analyze web service publish failure telemetry in Business Central to investigate metadata generation errors and identify affected pages, controls, and fields.
-  - Web service publish failure telemetry captures errors when web services fail to publish or function due to metadata creation issues.
-  - Event RT0033 indicates missing subpage names; event RT0034 indicates missing control element names in pages.
-  - Event RT0035 reports skipped web service records; event RT0036 reports table field name errors with captions.
-  - Event RT0038 warns of multiple navigation property options for table relations; event RT0039 reports skipped entities with error details.
-  - Limit: Web service publish failures result in pages or records being skipped entirely, preventing their use via web services.
+  - Web service metadata error events (RT0033 through RT0039) emitted during web service publication or operation
+  - RT0033 reports missing subpage names; RT0034 reports missing control names; RT0035 reports skipped records
+  - RT0036 reports table field name errors; RT0038 reports warnings for multiple navigation property options
+  - RT0039 reports skipped entity records with error details; each error prevents web service from functioning correctly
+  - Metadata stack dimension provides context showing hierarchical relationship of problematic metadata entities
+  - Errors are severity level 3; warnings are severity level 2; all include environment and component version information
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 

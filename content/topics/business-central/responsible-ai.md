@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -161,6 +161,7 @@ links:
     - post/demiliani-com/15935
     - post/freddysblog/https-freddysblog-com-2026-11-07-directions-emea-2026--4bd603011b
     - post/vjeko-com/https-vjeko-com-2026-05-28-the-lump-of-labour-fallacy-fallacy--f782761543
+    - post/waldo-be/318712
     - post/yzhums-com/71694
   guidelines: []
 learn_toc_path:
@@ -172,7 +173,7 @@ coverage:
   learn: 16
   code: 0
   video: 3
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: f2775e8972cfc70743070e264192dc1ce538505db6e68fedc8c2bce0d391ad5d
@@ -232,6 +233,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../posts/demiliani-com/15935.md) (community post): "The Allow data movement toggle appears only when Business Central environment location differs from Copilot processing geography"
 - [Directions EMEA 2026 Reflections](../../posts/freddysblog/https-freddysblog-com-2026-11-07-directions-emea-2026--4bd603011b.md) (community post): "developers stay responsible for AI-written AL and need ways to verify it"
 - [The lump of labour fallacy fallacy](../../posts/vjeko-com/https-vjeko-com-2026-05-28-the-lump-of-labour-fallacy-fallacy--f782761543.md) (community post): "automation; artificial intelligence; employment; software development; agents; agentic tools; job displacement"
+- [The Business Central 2026 release wave 2 docs nobody asked for ..](../../posts/waldo-be/318712.md) (community post): "AI to extract features and quotes from auto-captions"
 - [In Photos: My Day at Microsoft AI Tour Tokyo 2026](../../posts/yzhums-com/71694.md) (community post): "an Opus review found that the machine-written summary"
 - [What's New: Item Substitution with Copilot (2024 release wave 2)](../../videos/bCIcq1zESKk.md) (video): "responsible ai; llm; embedding; product information"
 - [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../videos/cVfZoDwKYpI.md) (video): "harmful eval testing and red teaming; eval-driven development"

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -197,27 +197,21 @@ Three telemetry pages cover monitoring: permission changes, permission errors an
 - [(automation API) Get permissionSet](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_permissionset_get): Gets a permission set object in Dynamics 365 Business Central.
 - [Analyzing Permission Changes Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace): Analyze Business Central permission change telemetry to track permission sets, user assignments, and changes made by extensions during installation or updates.
   - Status: Permission changes telemetry applies to Business Central 2020 release wave 2, version 17.2, and later.
-  - Tracks user-defined permission set creation, deletion, and system permission set links.
-  - Monitors assignment or removal of permission sets from users and user groups.
-  - Captures permission set changes made by apps or extensions during install or upgrade.
-  - Events AL0000E2A through AL0000E2F track specific permission set operations with details.
-  - LC0058 event identifies app or extension that changed permission set with ID, name, publisher.
+  - Permission telemetry tracks user-defined permission set additions, removals, links to system sets, and assignments to users or groups.
+  - Limit: AL permission events are emitted only in Business Central online; LC0058 event emitted during extension installation or updates.
+  - Permission set assignment events capture permission set ID, app ID, and scope of the assigned permission set.
+  - Permission set link events track links between user-defined and system permission sets with total count of links.
   - In the observatory: [Codeunit 1351 "Telemetry Subscribers"](../../../../../objects/codeunit/1351.md)
 - [Analyzing Permission Dependency Cycle Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-dependency-cycle-trace): Analyze permission dependency cycle telemetry in Business Central to identify circular permission set references and investigate the dependency path.
-  - Permission dependency cycle occurs when permission set depends on itself directly or indirectly
-  - Dependency cycle discovered event has ID RT0032 with severity level 3
-  - Cycle error message shows circular reference path, for example [XX]->[YY]->[XX]
-  - Telemetry includes AL object ID and type if error relates to specific object
-  - Permission area values recorded are System, Entitlement, Company, or Object
-  - Permission type values include Delete, Execute, Insert, Modify, Read, or Undefined
+  - Permission dependency cycles occur when permission sets reference themselves; system prevents circular references.
+  - Dependency cycle event logs the full cycle path showing how sets reference each other; long paths are truncated at middle.
+  - Cycle discovery telemetry includes AL object ID and type, stack trace, and cyclic permission set dependency path.
+  - Severity level 3 for dependency cycle event indicates an error that blocks permission operations.
 - [Analyzing Permission Error Trace Telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace): Analyze permission error telemetry in Business Central to identify missing permissions, inspect affected objects, and investigate errors reported to users.
-  - Permission error telemetry signals when users get permission-related error dialogs.
-  - Permission Error Shown event has eventId RT0031 at severity level 1.
-  - Data includes object ID, name, type, and permission area that caused the error.
-  - permissionType dimension shows missing permission: Delete, Execute, Insert, Modify, or Read.
-  - permissionArea dimension indicates System, Entitlement, Company, or Object scope.
-  - Stack trace and error message help identify where permission check failed in code.
-  - Sample KQL code helps analyze which permission errors users encounter frequently.
+  - Permission error telemetry is emitted when users get permission-related error dialogs in Business Central.
+  - Permission error events capture object ID and name, permission area (System, Entitlement, Company, Object), and permission type required.
+  - Error messages include affected AL object type (page, table, etc.), client type, and AL stack trace for investigation.
+  - Permission error dimension permissionArea indicates whether error is related to system, entitlement, company, or specific object.
 - [Composing Permission Sets from Other Permission Sets](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing): Learn how to create a permission set from one or more existing permission sets in AL code for Business Central.
 - [Entitlement object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-entitlement-object): Discover how to define and use entitlement objects in AL for Business Central.
 - [Entitlements and permission sets overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview): Learn about the different built-in methods to control which users can do what so that you can design the Business Central permission sets more precisely.

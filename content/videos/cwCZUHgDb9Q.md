@@ -23,7 +23,7 @@ review:
   at: "2026-11-08T00:24:22.727Z"
   flags: []
 generated:
-  at: "2026-11-08T00:54:33.212Z"
+  at: "2026-11-21T00:52:51.542Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -122,10 +122,10 @@ links:
       label: possibly related
       why: both name Page 39 "General Journal"
       by: code
-    - to: post/yzhums-com/56521
-      title: "Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page"
+    - to: post/yzhums-com/74858
+      title: "Dynamics 365 Business Central: How to hide the header and footer on a worksheet page to display more lines"
       label: possibly related
-      why: both name Page 42 "Sales Order"
+      why: both name Page 39 "General Journal"
       by: code
 video_id: cwCZUHgDb9Q
 channel: yt-hougaard
@@ -290,6 +290,6 @@ No source states these links: they share an object, a model read them, or a pers
 - [Dynamics 365 Business Central: Adding comments to Factbox/Report (Displaying Comments in a FactBox/Report)](../posts/yzhums-com/70137.md) — possibly related: both name Page 42 "Sales Order"
 - [Dynamics 365 Business Central: Can we edit data directly in FactBox?](../posts/yzhums-com/66037.md) — possibly related: both name Page 42 "Sales Order"
 - [Dynamics 365 Business Central: How to copy (synchronize) the Incoming Document to all Gen. Journal Lines](../posts/yzhums-com/71645.md) — possibly related: both name Page 39 "General Journal"
-- [Dynamics 365 Business Central: How to hide/disable New, Edit (Edit List), and Delete actions on the page](../posts/yzhums-com/56521.md) — possibly related: both name Page 42 "Sales Order"
+- [Dynamics 365 Business Central: How to hide the header and footer on a worksheet page to display more lines](../posts/yzhums-com/74858.md) — possibly related: both name Page 39 "General Journal"
 
 Presenters (as heard): Eric.

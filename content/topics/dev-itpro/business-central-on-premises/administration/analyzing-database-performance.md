@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,18 +109,16 @@ Use the Query Store page when you need to look at SQL Server itself. Query Store
   - SqlLongRunningThresholdForApplicationInsights separately controls the Application Insights telemetry threshold
   - Step: Change SqlLongRunningThreshold setting dynamically without server restart using Set-NAVServerConfiguration with ApplyTo Memory parameter
 - [Troubleshooting: Using Query Store to Monitor Query Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-query-performance-using-query-store): Use SQL Server Query Store to troubleshoot query performance. The SQL Server Query Store feature provides insight on database query plan choice and performance.
-  - SQL Server Query Store captures history of queries, plans, and runtime statistics.
-  - Status: Query Store available in SQL Server 2016 and later and Azure SQL Database.
-  - Tracks executions, average execution time, physical IO reads, and row counts per query.
-  - Helps identify performance differences caused by query plan changes over time.
-  - Simplifies troubleshooting by providing history of queries executed on database.
+  - SQL Server Query Store captures query history, compilation metrics, and runtime statistics aggregated over time intervals.
+  - Status: Query Store available in SQL Server starting with version 2016 and Azure SQL Database.
+  - Query Store helps identify queries with longest execution time, biggest IO reads, and other performance metrics.
+  - Limit: Query Store retains history of aggregated metrics, not individual query execution logs.
 - [Using Event Log to Monitor Long-Running SQL Queries](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshoot-long-running-queries-using-event-log): Use Windows Event Viewer to investigate long-running SQL queries in Business Central and inspect SQL statements and AL call stacks for optimization.
-  - Event Viewer Application window displays SQL queries exceeding SqlLongRunningThreshold as warnings.
-  - Default SqlLongRunningThreshold is 1000 milliseconds for identifying slow queries.
-  - Long running queries with explicit AL code include AL call stack showing generated SQL.
-  - AL call stack identifies specific AL method and line causing slow query execution.
-  - Limit: Queries from triggers without code or GetPage calls do not include AL call stack.
-  - Threshold can be set to different value without restarting server instance.
+  - Long-running SQL queries meeting or exceeding SqlLongRunningThreshold are logged as warnings in Event Viewer.
+  - Default SqlLongRunningThreshold is 750 milliseconds; can be changed without restarting server instance.
+  - AL call stack in event log shows which AL method generated slow-running SQL queries from explicit AL code.
+  - Queries from GetPage calls or empty triggers may not include AL call stack due to no explicit AL code execution.
+  - Generated SQL statement appears in Statement field; AL call stack shown in AL CallStack field of event log entry.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
 

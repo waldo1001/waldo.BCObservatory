@@ -1,36 +1,24 @@
 {
   "hub_id": "topic/business-central/copilot-and-agent-capabilities/suggest-item-substitutions-preview",
-  "input_hash": "224b9c95cc69c82805c8e0cc3785f0bafbdb2b3c4a9b952da8a208218d70a8b5",
-  "summary": "Suggest item substitutions with Copilot (preview) covers an AI capability that finds similar or interchangeable items and assigns them as substitutes. It answers how to use the feature, how results are scored and edited, and what its capabilities, limits and responsible-use practices are.",
-  "overview": "This area describes a Copilot capability that helps identify similar or interchangeable products, with the aim of reducing duplicates and streamlining product portfolio management. Copilot analyzes item numbers, descriptions, barcodes and attributes across multiple tables to propose substitutes.\n\nThere are two pages. \"Suggest substitute items with Copilot\" is the how-to: it covers the suggestion workflow, the score ratings and the actions available on the results. \"FAQ for suggest item substitutions with Copilot\" explains what the feature can and cannot do and how to use it responsibly. Start with the how-to page to use the feature, then read the FAQ to understand its limits and best practices.",
+  "input_hash": "ee2ad9542905a7c9860b0ae2cd28ea2bd738150fa59b5cab7f1a5d8d33e9d441",
+  "summary": "Suggest item substitutions (preview) covers the Copilot feature in Business Central that suggested substitute items, and its FAQ stating the feature is retired. It answers questions about how suggestions worked, which data they used, and what to do now.",
+  "overview": "This section describes a Copilot capability that helped users find and assign substitute items faster. It looked for similar items in product information stored in the Item, Item Reference, and Item Attributes tables, and it scored the suggestions it returned. Users could adjust the prompt to refine the results.\n\nThe section has two pages: one that explains how to suggest substitute items with Copilot, and an FAQ. The FAQ says the feature is retired and no longer available. It explains the approach the feature used: searching item descriptions with embeddings, extracting keywords, and identifying synonyms.\n\nStart with the FAQ to confirm the current status. If you need substitutions now, use the manual item substitution setup that the FAQ points to. Read the other page for background on how the feature behaved.",
   "key_points": [
-    "The feature is in preview and suggests similar or interchangeable items to reduce duplicates and simplify product portfolio management.",
-    "Copilot analyzes item numbers, descriptions, barcodes and attributes across multiple tables.",
-    "The FAQ describes the techniques used: similarity search with embeddings, and keyword and synonym extraction.",
-    "Suggestions carry score ratings of High, Medium or Low.",
-    "You can adjust the prompt to refine the suggestions.",
-    "Use Insert all to assign the suggested substitutes, or Delete Line to remove individual suggestions.",
-    "The FAQ page covers capabilities, limitations and best practices for responsible use."
+    "The Copilot feature for suggesting item substitutions is retired and no longer available.",
+    "The FAQ directs users to manual substitution setup instead.",
+    "Copilot looked for similar items in product information in the Item, Item Reference, and Item Attributes tables.",
+    "Matching used item description search with embeddings, keyword extraction, and synonym identification.",
+    "Suggestions were scored, and users could adjust the prompt to change results.",
+    "The feature was linked to the Create product information capability.",
+    "A feedback mechanism was part of the AI-powered suggestions."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-06T13:41:11.099Z",
+  "at": "2026-11-21T01:00:04.619Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.036785
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:22:20.835Z",
-    "verdict": "approve",
-    "issues": [
-      "What Insert all and Delete Line do (assign all suggested substitutes, remove individual suggestions) is inferred from the feature names alone. The sources only list these as actions, but the reading is plausible.",
-      "'Adjust the prompt to refine the suggestions' is inferred from the feature label 'Prompt adjustment'. That is reasonable but slightly beyond the source wording."
-    ],
-    "input_hash": "224b9c95cc69c82805c8e0cc3785f0bafbdb2b3c4a9b952da8a208218d70a8b5",
-    "cost_usd": 0.0318072
+    "cost_usd": 0.01213
   }
 }

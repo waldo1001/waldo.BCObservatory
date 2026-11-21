@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:47:37.951Z"
+  at: "2026-11-21T00:46:40.499Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 054f4895d49a561ee62c418f2944fc39d51866c6a74d96e4c67796fd1ac42f9b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/CZ/CoreLocalizationPack/app/Src/Interfaces/VATStatementExportCZL.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/CZ/CoreLocalizationPack/app/Src/Interfaces/VATStatementExportCZL.Interface.al
     title: src/Apps/CZ/CoreLocalizationPack/app/Src/Interfaces/VATStatementExportCZL.Interface.al (releases/29.x)
     date: null
-    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
+    commit: d30504e3670310aa9f2396745813257d80d473b8
     t: null
     quote: null
 links:
@@ -74,7 +74,7 @@ relations:
 
 > Interface "VAT Statement Export CZL" (CZ) in the CZ country layer (Microsoft.Finance.VAT.Reporting). 3 public procedures. Introduced in BC29, still in BC30.
 
-CZ country layer · Microsoft.Finance.VAT.Reporting · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/CZ/CoreLocalizationPack/app/Src/Interfaces/VATStatementExportCZL.Interface.al) · facts from BC29
+CZ country layer · Microsoft.Finance.VAT.Reporting · BC29-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/CZ/CoreLocalizationPack/app/Src/Interfaces/VATStatementExportCZL.Interface.al) · facts from BC29
 
 An object of the [CZ localization](../../localizations/cz.md), not part of W1.
 

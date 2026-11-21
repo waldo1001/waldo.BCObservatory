@@ -2,7 +2,7 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-permission-changes-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace",
   "title": "Analyzing Permission Changes Trace Telemetry",
-  "blob": "37b9999ff63fdc5301449de0573ec8a5edbfeb27",
+  "blob": "5ad58e5a9a4217f6f646b8fc60cc07d95f434940",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
@@ -12,23 +12,19 @@
     },
     {
       "kind": "fact",
-      "text": "Tracks user-defined permission set creation, deletion, and system permission set links."
+      "text": "Permission telemetry tracks user-defined permission set additions, removals, links to system sets, and assignments to users or groups."
+    },
+    {
+      "kind": "limit",
+      "text": "AL permission events are emitted only in Business Central online; LC0058 event emitted during extension installation or updates."
     },
     {
       "kind": "fact",
-      "text": "Monitors assignment or removal of permission sets from users and user groups."
+      "text": "Permission set assignment events capture permission set ID, app ID, and scope of the assigned permission set."
     },
     {
       "kind": "fact",
-      "text": "Captures permission set changes made by apps or extensions during install or upgrade."
-    },
-    {
-      "kind": "fact",
-      "text": "Events AL0000E2A through AL0000E2F track specific permission set operations with details."
-    },
-    {
-      "kind": "fact",
-      "text": "LC0058 event identifies app or extension that changed permission set with ID, name, publisher."
+      "text": "Permission set link events track links between user-defined and system permission sets with total count of links."
     }
   ],
   "dropped": 0,
@@ -36,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005012,
-      "pages_in_call": 12
+      "cost_usd": 0.006741,
+      "pages_in_call": 8
     }
   ]
 }

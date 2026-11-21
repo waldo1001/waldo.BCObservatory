@@ -6,7 +6,7 @@
   "systems_joined": [
     "purchasing"
   ],
-  "summary": "Create Payment page now correctly filters Vendor Ledger Entries by Remaining Amount in Spanish version without ambiguous field title errors.",
+  "summary": "Create Payment no longer fails with an ambiguous 'Importe pendiente' caption error when run for vendor ledger entries filtered by Remaining Amount <> 0 in the Spanish version. The Create Payment page was changed in both the ES and W1 layers.",
   "key_points": [
     "Resolved ambiguous field title error when filtering by Remaining Amount",
     "Applied fix to both Spanish and W1 versions of Create Payment page",

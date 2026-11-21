@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:41.011Z"
   flags: []
 generated:
-  at: "2026-11-04T00:55:39.192Z"
+  at: "2026-11-21T00:52:51.542Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -78,7 +78,16 @@ links:
   learn: []
   objects: []
   features:
+    - feature/573350
+    - feature/573362
+    - feature/573371
+    - feature/573380
+    - feature/573384
+    - feature/573624
+    - feature/576872
     - feature/577820
+    - feature/578065
+    - feature/579980
   topics: []
   localizations: []
   videos: []
@@ -140,25 +149,31 @@ cautions:
     t: 1355
 features:
   - name: Enhanced sales order agent
-    status: unclear
+    status: ga
     t: 288
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578065"
   - name: MCP server for Business Central
     status: unclear
     t: 303
     verified: false
     status_source: video
   - name: Advanced Tell Me search
-    status: preview
+    status: ga
     t: 345
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573371"
   - name: Autofill with Copilot field suggestions
-    status: unclear
+    status: announced
     t: 498
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "579980"
   - name: Payables agent contextual invoice drafts
     status: unclear
     t: 542
@@ -170,10 +185,12 @@ features:
     verified: false
     status_source: video
   - name: Match purchase invoices to orders with payables agent
-    status: unclear
+    status: ga
     t: 575
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573380"
   - name: Payables agent confidence level prioritization
     status: unclear
     t: 610
@@ -190,10 +207,12 @@ features:
     verified: false
     status_source: video
   - name: Copilot billing type configuration
-    status: unclear
+    status: preview
     t: 735
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "577820"
   - name: Azure resources for Copilot extensions
     status: preview
     t: 811
@@ -207,10 +226,12 @@ features:
     verified: false
     status_source: video
   - name: Enhanced chat with Copilot - 20 languages
-    status: unclear
+    status: ga
     t: 906
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Payables agent in more countries
     status: unclear
     t: 940
@@ -227,10 +248,12 @@ features:
     verified: false
     status_source: video
   - name: 1099 forms electronic submission
-    status: unclear
+    status: announced
     t: 1004
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573624"
   - name: Cancel build and publish from Visual Studio
     status: unclear
     t: 1017
@@ -247,10 +270,12 @@ features:
     verified: false
     status_source: video
   - name: Enhanced page scripting tool
-    status: unclear
+    status: ga
     t: 1130
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573384"
   - name: Truncate table data using new methods
     status: unclear
     t: 1173
@@ -322,20 +347,24 @@ features:
     verified: false
     status_source: video
   - name: Quality management extension
-    status: unclear
+    status: ga
     t: 1703
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573350"
   - name: Concurrent inventory posting with line sorting
     status: unclear
     t: 1753
     verified: false
     status_source: video
   - name: Subcontracting capabilities in production
-    status: unclear
+    status: ga
     t: 1798
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576872"
   - name: Resizable copilot help panes
     status: unclear
     t: 1903
@@ -407,28 +436,28 @@ The rest covers 20-language chat support, localization items, AL and page script
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Enhanced sales order agent | status not stated | [4:48](https://www.youtube.com/watch?v=H5EuObmeF4o&t=288s) |  |
+| Enhanced sales order agent | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)) | [4:48](https://www.youtube.com/watch?v=H5EuObmeF4o&t=288s) |  |
 | MCP server for Business Central | status not stated | [5:03](https://www.youtube.com/watch?v=H5EuObmeF4o&t=303s) |  |
-| Advanced Tell Me search | preview, demoed | [5:45](https://www.youtube.com/watch?v=H5EuObmeF4o&t=345s) | "Feature management. And yes, advance. Tell me more. Tell me preview. Uh, let's turn it on here for all users." ([6:58](https://www.youtube.com/watch?v=H5EuObmeF4o&t=418s)) |
-| Autofill with Copilot field suggestions | status not stated, demoed | [8:18](https://www.youtube.com/watch?v=H5EuObmeF4o&t=498s) |  |
+| Advanced Tell Me search | generally available (roadmap [Show recently searched in Tell Me](../features/573371.md)), demoed | [5:45](https://www.youtube.com/watch?v=H5EuObmeF4o&t=345s) | "Feature management. And yes, advance. Tell me more. Tell me preview. Uh, let's turn it on here for all users." ([6:58](https://www.youtube.com/watch?v=H5EuObmeF4o&t=418s)) |
+| Autofill with Copilot field suggestions | announced (roadmap [Fill forms faster with Autofill - Auto paste](../features/579980.md)), demoed | [8:18](https://www.youtube.com/watch?v=H5EuObmeF4o&t=498s) |  |
 | Payables agent contextual invoice drafts | status not stated | [9:02](https://www.youtube.com/watch?v=H5EuObmeF4o&t=542s) |  |
 | Agent task instructions enhancement | status not stated | [9:13](https://www.youtube.com/watch?v=H5EuObmeF4o&t=553s) |  |
-| Match purchase invoices to orders with payables agent | status not stated | [9:35](https://www.youtube.com/watch?v=H5EuObmeF4o&t=575s) |  |
+| Match purchase invoices to orders with payables agent | generally available (roadmap [Improve purchase order matching in Payables Agent](../features/573380.md)) | [9:35](https://www.youtube.com/watch?v=H5EuObmeF4o&t=575s) |  |
 | Payables agent confidence level prioritization | status not stated | [10:10](https://www.youtube.com/watch?v=H5EuObmeF4o&t=610s) |  |
 | Copilot emissions suggestions in sustainability | status not stated | [10:27](https://www.youtube.com/watch?v=H5EuObmeF4o&t=627s) |  |
 | Summarize with Copilot enhancements | status not stated | [11:00](https://www.youtube.com/watch?v=H5EuObmeF4o&t=660s) |  |
-| Copilot billing type configuration | status not stated, demoed | [12:15](https://www.youtube.com/watch?v=H5EuObmeF4o&t=735s) |  |
+| Copilot billing type configuration | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)), demoed | [12:15](https://www.youtube.com/watch?v=H5EuObmeF4o&t=735s) |  |
 | Azure resources for Copilot extensions | preview (roadmap [Use AI resources for your Copilot extensions](../features/577820.md)), demoed | [13:31](https://www.youtube.com/watch?v=H5EuObmeF4o&t=811s) |  |
 | Enhanced analysis assist with Copilot | status not stated, demoed | [14:04](https://www.youtube.com/watch?v=H5EuObmeF4o&t=844s) |  |
-| Enhanced chat with Copilot - 20 languages | status not stated | [15:06](https://www.youtube.com/watch?v=H5EuObmeF4o&t=906s) |  |
+| Enhanced chat with Copilot - 20 languages | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)) | [15:06](https://www.youtube.com/watch?v=H5EuObmeF4o&t=906s) |  |
 | Payables agent in more countries | status not stated | [15:40](https://www.youtube.com/watch?v=H5EuObmeF4o&t=940s) |  |
 | VAT enhancements for Checka | status not stated | [16:10](https://www.youtube.com/watch?v=H5EuObmeF4o&t=970s) |  |
 | Contoso coffee demo data for Checka | status not stated | [16:44](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1004s) |  |
-| 1099 forms electronic submission | status not stated | [16:44](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1004s) |  |
+| 1099 forms electronic submission | announced (roadmap [Manually upload 1099 forms to the IRIS](../features/573624.md)) | [16:44](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1004s) |  |
 | Cancel build and publish from Visual Studio | status not stated | [16:57](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1017s) |  |
 | Extend copilot auto field using AL | status not stated | [17:43](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1063s) |  |
 | Hide copilot summaries | status not stated, demoed | [18:00](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1080s) |  |
-| Enhanced page scripting tool | status not stated | [18:50](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1130s) |  |
+| Enhanced page scripting tool | generally available (roadmap [Page Scripting enters General Availability](../features/573384.md)) | [18:50](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1130s) |  |
 | Truncate table data using new methods | status not stated | [19:33](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1173s) |  |
 | View SQL core per information in performance profiles | status not stated | [20:27](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1227s) |  |
 | Create multiple fixed asset cards | status not stated | [21:08](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1268s) |  |
@@ -443,9 +472,9 @@ The rest covers 20-language chat support, localization items, AL and page script
 | Personalization of supply chain pages | status not stated | [27:09](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1629s) |  |
 | Statistics group for card pages | status not stated | [27:27](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1647s) |  |
 | Configure default consumption calculation | status not stated | [27:46](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1666s) |  |
-| Quality management extension | status not stated | [28:23](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1703s) |  |
+| Quality management extension | generally available (roadmap [Reduce manual work in quality tests and inspections](../features/573350.md)) | [28:23](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1703s) |  |
 | Concurrent inventory posting with line sorting | status not stated | [29:13](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1753s) |  |
-| Subcontracting capabilities in production | status not stated | [29:58](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1798s) |  |
+| Subcontracting capabilities in production | generally available (roadmap [Use subcontracting capabilities in production processes](../features/576872.md)) | [29:58](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1798s) |  |
 | Resizable copilot help panes | status not stated | [31:43](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1903s) |  |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

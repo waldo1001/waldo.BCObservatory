@@ -9,11 +9,10 @@
   ],
   "summary": "Prepayment line amount drift is fixed for sales and purchase orders with 100% prepayment by correcting rounding calculations after partial invoicing, allowing orders to be released and posted successfully.",
   "key_points": [
-    "Corrects rounding logic when calculating prepayment line amounts during partial invoice scenarios",
-    "Applies fix across all localized versions of Sales Line and Purchase Line tables",
-    "Prevents prepayment line amounts from drifting below the invoiced prepayment amounts",
-    "Adds test cases for full prepayment rounding scenarios in both purchases and sales",
-    "Resolves blocking issue preventing order release and posting with 100% prepayment"
+    "Prepmt. Line Amount no longer drifts below Prepmt. Amt. Inv. after partial invoices on orders with 100% prepayment",
+    "Such sales and purchase orders can be released and posted again",
+    "Sales Line and Purchase Line tables changed in W1 and many country layers",
+    "Full prepayment rounding tests added for sales and purchases in the W1 and NA layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

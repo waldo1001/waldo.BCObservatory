@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:47:37.951Z"
+  at: "2026-11-21T00:46:40.499Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: dc800a440ed73ad0862c82410b68e690df1e1848fd3a508795c6e1d48a63d0d4
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAD365BusinessCentralInfrastructure.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAD365BusinessCentralInfrastructure.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAD365BusinessCentralInfrastructure.Entitlement.al (releases/29.x)
     date: null
-    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
+    commit: d30504e3670310aa9f2396745813257d80d473b8
     t: null
     quote: null
 links:
@@ -83,7 +83,7 @@ relations:
 
 > Entitlement "EA - D365 Business Central Infrastructure" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAD365BusinessCentralInfrastructure.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Applications/EAD365BusinessCentralInfrastructure.Entitlement.al) · facts from BC29
 
 ## Recent changes
 

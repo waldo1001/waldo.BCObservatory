@@ -8,10 +8,10 @@
   ],
   "summary": "Serial number tracking on assembly order component lines is now preserved when running the Calculate Regenerative Plan action instead of being unexpectedly deleted without processing corresponding action messages.",
   "key_points": [
-    "Serial numbers selected on assembly order component lines are no longer deleted during Calculate Regenerative Plan execution",
-    "Assembly line inventory profile codeunit updated to handle serial number retention",
-    "New test coverage added for assembly item tracking scenarios",
-    "Fixes behavior where action messages were not generated despite deletion of serial numbers"
+    "Serial numbers selected on assembly order component lines are kept when Calculate Regenerative Plan runs",
+    "Previously they were removed even though the planning action messages had not been carried out",
+    "Logic added to codeunit 928 Assembly Line Invt. Profile",
+    "Assembly item tracking tests added in the W1 and IT test layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

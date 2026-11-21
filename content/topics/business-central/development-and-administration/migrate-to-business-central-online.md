@@ -2,21 +2,21 @@
 id: topic/business-central/development-and-administration/migrate-to-business-central-online
 type: topic
 title: Migrate to Business Central online
-summary: Migration of on-premises data (Business Central, Dynamics GP, SL, NAV) to Business Central online. It answers questions about the migration process and phases, choosing between full migration and reimplementation, running and managing cloud migration, GP-specific data mapping, and common requirements and FAQs.
+summary: "Migration of on-premises data to Business Central online: the cloud migration process, supported source paths (Business Central, Dynamics GP, SL, NAV, custom SQL), GP data mapping, the Cloud Migration Management page, and an FAQ. It answers questions on how to plan, run, monitor and complete a migration."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:24:33.183Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 237e43543bc2b1cf792aac87e5ebeb4542016e1fb87a904f5f66873915ed8f97
+  input_hash: 3242f53f292fe5bd2097b25494328d6c2ff8f34657aacde95d1ad49d68735c47
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises
@@ -91,28 +91,28 @@ narrative: generated
 
 # Migrate to Business Central online
 
-> Migration of on-premises data (Business Central, Dynamics GP, SL, NAV) to Business Central online. It answers questions about the migration process and phases, choosing between full migration and reimplementation, running and managing cloud migration, GP-specific data mapping, and common requirements and FAQs.
+> Migration of on-premises data to Business Central online: the cloud migration process, supported source paths (Business Central, Dynamics GP, SL, NAV, custom SQL), GP data mapping, the Cloud Migration Management page, and an FAQ. It answers questions on how to plan, run, monitor and complete a migration.
 
-Path: [Development and administration](../development-and-administration.md) > Migrate to Business Central online · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Development and administration](../development-and-administration.md) > Migrate to Business Central online · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains how to move from an on-premises system to Business Central online. It starts with the choice of approach: a full data migration, a custom migration, or a reimplementation that brings over only essential data, for example with configuration packages. Source systems named are Business Central, Dynamics GP, Dynamics SL and Dynamics NAV.
+This section explains how to move on-premises data to Business Central online. It starts with two overview pages. One covers the on-premises to online process: the components involved (Azure Data Factory, Integration Runtime, pipelines) and a five-phase roadmap of preparation, setup, data replication, upgrade and completion. The other compares the supported migration paths and tools, including configuration packages, the cloud migration tool, company configuration templates and custom migration from SQL.
 
-The overview page describes the end-to-end process in five phases, from preparation through completion and go-live. It also covers the components involved: cloud migration setup, data replication, data upgrade, Azure Data Factory pipelines, the self-hosted integration runtime and the intelligent cloud permission set. The "Managing cloud migration" page then covers day-to-day work on the Cloud Migration Management page.
+Two pages cover specifics. The Dynamics GP page describes what is migrated and how it is configured on the GP Company Migration Configuration page. The Manage Cloud Migration page describes the Cloud Migration Management page, which is the working area for running and tracking a migration. The FAQ covers requirements, limits and common setup questions.
 
-Start with the on-premises migration page to pick an approach, then read the overview for the process. Use the FAQ for requirements, data limits, SQL connection strings and permissions. If you come from Dynamics GP, the GP page covers how data such as fiscal periods, chart of accounts and inventory is carried over.
+Start with the on-premises to online overview to understand the phases. Then read the source-specific page that matches your system. Use the management page and the FAQ while you run the migration.
 
 ## Key points
 
-- Approaches: full data migration, custom migration, or reimplementation with essential data only (configuration packages).
-- The migration runs in five phases, from preparation through completion and go-live.
-- Key components: Azure Data Factory pipelines, self-hosted integration runtime, and the intelligent cloud permission set.
-- The Cloud Migration Management page runs data replication and data upgrade, and handles cloud migration setup and user mapping.
-- Troubleshooting actions include a diagnostic run and resetting cloud data.
-- The FAQ covers system requirements, data limits, SQL connection strings, extension data migration and data compression.
-- GP migration maps fiscal periods to accounting periods and covers chart of accounts, dimensions, customers, vendors, inventory and checkbook transactions.
-- Supported on-premises sources: Business Central, Dynamics GP, Dynamics SL and Dynamics NAV.
+- The migration roadmap has five phases: preparation, setup, data replication, upgrade and completion.
+- The process uses Azure Data Factory, Integration Runtime and pipelines. The FAQ covers the self-hosted integration runtime and the SQL connection string.
+- Supported sources include Business Central, Dynamics GP, Dynamics SL, Dynamics NAV and custom SQL sources.
+- Other approaches named are configuration packages, company configuration templates, master data migration and a Business Central 14 reimplementation.
+- The Cloud Migration Management page offers actions to run data replication, run data upgrade, refresh status, complete, pause or abandon the migration. It also covers table and user mappings.
+- The Intelligent Cloud permission set is relevant to migration permissions.
+- GP migration covers fiscal periods (converted to accounting periods), chart of accounts segment mapping, dimensions, customers and vendors with outstanding transactions, inventory items, checkbook data and historical snapshots.
+- The overview also covers record links and notes migration, and the FAQ covers extension data migration, data limits and data compression.
 
 ## Learn pages
 

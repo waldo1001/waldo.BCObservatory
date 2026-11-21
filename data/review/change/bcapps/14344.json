@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/14344",
+  "input_hash": "8b8f0e625aaf36b72b1e480c87a2305d7d589caff95a3f5dde9a2011d0b09cec",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-21T00:57:04.586Z",
+  "issues": [
+    "The fix stops the scheduling Modify from failing with a stale-record error, which previously caused a reschedule, so runtime behaviour changes. behavior_change set to true.",
+    "The description says runtime confirmation is still pending, so the claim that the error is fixed should be hedged."
+  ],
+  "applied": [
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039488,
+    "changes_in_call": 6
+  }
+}

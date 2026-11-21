@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:47:37.951Z"
+  at: "2026-11-21T00:46:40.499Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 13c017209761dc8d0e5dce098912b238bb270d4d2b972902a2e52469fded9ac1
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/NA/BaseApp/Profiles/PayrollAdministrator.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/NA/BaseApp/Profiles/PayrollAdministrator.Profile.al
     title: src/Layers/NA/BaseApp/Profiles/PayrollAdministrator.Profile.al (releases/29.x)
     date: null
-    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
+    commit: d30504e3670310aa9f2396745813257d80d473b8
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Profile "PAYROLL ADMINISTRATOR" (US) in the US country layer. Introduced in BC29, still in BC30.
 
-US country layer · captioned "Payroll Administrator" · BC29-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/NA/BaseApp/Profiles/PayrollAdministrator.Profile.al) · facts from BC29
+US country layer · captioned "Payroll Administrator" · BC29-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/NA/BaseApp/Profiles/PayrollAdministrator.Profile.al) · facts from BC29
 
 An object of the [US localization](../../localizations/us.md), not part of W1.
 

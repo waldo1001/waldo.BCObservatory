@@ -23,7 +23,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:15:45.369Z"
+  at: "2026-11-21T00:15:56.434Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1521ded4f619336b536ce353917039cc9bc89b86
@@ -32,7 +32,7 @@ evidence:
     url: https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/table-design-must-match-bc-table-type-conventions.md
     title: "microsoft/BCQuality: Tables must match one of Business Central's nine table-type conventions"
     date: "2026-11-04"
-    commit: dd49341915045164248349bd891b106ebb4b34cb
+    commit: aaaf6c13c219294fcebf644f1662f4d77061e2f7
     t: null
     quote: null
 links:
@@ -175,4 +175,4 @@ See sample: [`table-design-must-match-bc-table-type-conventions.bad.al`](https:/
 
 ---
 
-From microsoft/BCQuality at dd49341, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).
+From microsoft/BCQuality at aaaf6c1, MIT License, Copyright (c) 2026 Microsoft Corporation ([license](../../../LICENSE-BCQuality.txt)).

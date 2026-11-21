@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:15:47.846Z"
+  at: "2026-11-21T00:15:56.434Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 14e5459a56eee836f1f930537a7eeaac7dbdff76436964b77997538650c5bd23
@@ -29,8 +29,17 @@ links:
   learn: []
   objects: []
   features:
+    - feature/573350
+    - feature/573362
+    - feature/573371
+    - feature/573380
+    - feature/573384
     - feature/573613
+    - feature/573624
+    - feature/576872
     - feature/577820
+    - feature/578065
+    - feature/579980
   topics: []
   localizations: []
   videos:
@@ -117,9 +126,25 @@ footprint:
     - id: other set authorization
       weight: 1
   features:
+    - id: feature/573350
+      weight: 1
+    - id: feature/573362
+      weight: 1
+    - id: feature/573371
+      weight: 1
+    - id: feature/573380
+      weight: 1
+    - id: feature/573384
+      weight: 1
     - id: feature/573613
       weight: 1
+    - id: feature/573624
+      weight: 1
+    - id: feature/576872
+      weight: 1
     - id: feature/577820
+      weight: 1
+    - id: feature/578065
       weight: 1
 first_item: "2025-07-28"
 last_item: "2026-03-10"
@@ -159,7 +184,16 @@ Items per quarter, oldest first:
 ## Roadmap features it demonstrates
 
 - [Cross-environment Master Data Management](../features/573613.md): Finance, in preview, GA 2027-01, 1 video
+- [Enable Microsoft Copilot chat experience](../features/573362.md): Copilot and agents, generally available, GA 2026-10, 1 video
+- [Fill forms faster with Autofill - Auto paste](../features/579980.md): Copilot and agents, announced, GA 2027-04, 1 video
+- [Improve purchase order matching in Payables Agent](../features/573380.md): Copilot and agents, generally available, GA 2026-10, 1 video
+- [Manually upload 1099 forms to the IRIS](../features/573624.md): USA, announced, GA 2027-01, 1 video
+- [Page Scripting enters General Availability](../features/573384.md): Development, generally available, GA 2026-10, 1 video
+- [Reduce manual work in quality tests and inspections](../features/573350.md): Supply Chain Management, generally available, GA 2026-10, 1 video
+- [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md): Copilot and agents, generally available, GA 2026-07, 1 video
+- [Show recently searched in Tell Me](../features/573371.md): User experiences, generally available, GA 2026-10, 1 video
 - [Use AI resources for your Copilot extensions](../features/577820.md): Copilot and agents, in preview, GA 2027-04, 1 video
+- [Use subcontracting capabilities in production processes](../features/576872.md): Supply chain management, generally available, GA 2026-07, 1 video
 
 ## Most recent
 

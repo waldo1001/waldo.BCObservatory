@@ -36014,10 +36014,10 @@
     "video/GbMjcJurkFE": {
       "kind": "video",
       "key": "video/GbMjcJurkFE",
-      "hash": "aad2590173bf3029e787e7926ad8ea1145932dda8dbfe5625aa147fef8b290ca",
+      "hash": "675775a7356f69adebc68d630753ece0c752f4d5e768e606392c2d96935571e5",
       "video_id": "GbMjcJurkFE",
       "title": "What's New: Analysis Assist with Copilot  (2024 release wave 2)",
-      "at": "2026-10-30T07:53:08.010Z",
+      "at": "2026-11-21T00:52:03.547Z",
       "matches": []
     },
     "video/gd2TycVywv4": {
@@ -36032,22 +36032,15 @@
     "video/GeT5E_f9A9Q": {
       "kind": "video",
       "key": "video/GeT5E_f9A9Q",
-      "hash": "be56261481e721e33b0f6da3b71396d98ae93d9bb49898bb59002fe95ed036df",
+      "hash": "2874877118cc9d700a50bb2128541e98540ca7edb58483962312af0e5cfe4b4e",
       "video_id": "GeT5E_f9A9Q",
       "title": "Introducing MCP Server Configurations for Business Central (Part 2)",
-      "at": "2026-10-30T07:53:12.626Z",
+      "at": "2026-11-21T00:52:03.636Z",
       "matches": [
         {
           "feature": 0,
           "name": "MCP Server Configurations",
           "t": 109,
-          "roadmap_id": "573312",
-          "quote": "create named configurations in Business Central to control what data and functionality is exposed"
-        },
-        {
-          "feature": 0,
-          "name": "MCP Server Configurations",
-          "t": 109,
           "roadmap_id": "576789",
           "quote": "create named configurations in Business Central to control what data and functionality is exposed"
         },
@@ -36055,36 +36048,36 @@
           "feature": 1,
           "name": "Dynamic Tool Mode",
           "t": 170,
-          "roadmap_id": "573312",
-          "quote": "dynamic tool mode allows tools to be discovered on demand using an action search tool"
-        },
-        {
-          "feature": 1,
-          "name": "Dynamic Tool Mode",
-          "t": 170,
           "roadmap_id": "576789",
-          "quote": "dynamic tool mode allows tools to be discovered on demand using an action search tool"
+          "quote": "Dynamic Tool Mode allows tools to be discovered on demand using an action search tool"
         },
         {
           "feature": 2,
           "name": "Discover Additional Objects",
           "t": 240,
           "roadmap_id": "576789",
-          "quote": "toggle setting that allows the MCP client to find API pages which are not explicitly listed"
-        },
-        {
-          "feature": 3,
-          "name": "Bound Actions in MCP",
-          "t": 308,
-          "roadmap_id": "573312",
-          "quote": "method or bound action exposed as part of an API page can also be called by the LLM"
+          "quote": "toggle setting that allows the MCP client to find API pages"
         },
         {
           "feature": 3,
           "name": "Bound Actions in MCP",
           "t": 308,
           "roadmap_id": "576789",
-          "quote": "method or bound action exposed as part of an API page can also be called by the LLM"
+          "quote": "bound action exposed as part of an API page can also be called by the LLM"
+        },
+        {
+          "feature": 4,
+          "name": "MCP Read-Only Default",
+          "t": 84,
+          "roadmap_id": "576789",
+          "quote": "default MCP configuration grants read access only ensuring agents cannot inadvertently change"
+        },
+        {
+          "feature": 5,
+          "name": "MCP Authentication Model",
+          "t": 70,
+          "roadmap_id": "576789",
+          "quote": "MCP uses the same authentication and permission model as APIs"
         }
       ]
     },
@@ -36118,45 +36111,52 @@
     "video/Gjs00Wy0HlI": {
       "kind": "video",
       "key": "video/Gjs00Wy0HlI",
-      "hash": "c8ea2f21ad86eaf557c2c4d4f94d791c5234d91fa1da20c8cb8f5c8c728157e4",
+      "hash": "8ea78931c7489ec2300f21b3da3945d06b1a5a10c888db7e652dec6a380df76e",
       "video_id": "Gjs00Wy0HlI",
       "title": "What's New: AL-Go for GitHub on Build and Performance (2025 release wave 1)",
-      "at": "2026-10-25T12:33:56.638Z",
+      "at": "2026-11-21T00:52:02.318Z",
       "matches": []
     },
     "video/GK6hM-nBYZk": {
       "kind": "video",
       "key": "video/GK6hM-nBYZk",
-      "hash": "389cdb7bd9e37f0c3a5d36cff5db93b4a5307c6ffd1fd9e5506b8b1fb2862d9e",
+      "hash": "927b08d95692133829d2ceb8379be290932ba4c540ee9c3db22618f207d1908f",
       "video_id": "GK6hM-nBYZk",
       "title": "What's New: Business Central Integration with Microsoft Copilot Studio (2026 release wave 1)",
-      "at": "2026-10-30T07:53:09.116Z",
+      "at": "2026-11-21T00:52:03.389Z",
       "matches": [
         {
           "feature": 1,
           "name": "MCP Server for Business Central",
           "t": 162,
-          "roadmap_id": "573312",
-          "quote": "MCP Server for Business Central. New technology allowing agents to operate on Business Central data more easily"
+          "roadmap_id": "576789",
+          "quote": "MCP Server for Business Central. New technology allowing agents to operate on Business Central data"
+        },
+        {
+          "feature": 1,
+          "name": "MCP Server for Business Central",
+          "t": 162,
+          "roadmap_id": "573348",
+          "quote": "MCP Server for Business Central. New technology allowing agents to operate on Business Central"
         }
       ]
     },
     "video/GlY_e-jH0V0": {
       "kind": "video",
       "key": "video/GlY_e-jH0V0",
-      "hash": "028133ece97c85bcf3d6b9b5b78248a8c438051b3d1507faba6fa33154f107be",
+      "hash": "15b54c69877578e4e07cbd70c21aac47f1556970dd4572fbedd7f572121c9d7f",
       "video_id": "GlY_e-jH0V0",
       "title": "Urgency without Direction is a problem with AI. Use it with purpose.",
-      "at": "2026-10-30T07:53:11.539Z",
+      "at": "2026-11-21T00:52:03.012Z",
       "matches": []
     },
     "video/GM0DNxu39LM": {
       "kind": "video",
       "key": "video/GM0DNxu39LM",
-      "hash": "1c34bc2fc3d372a2bef89cf52ed9ac88647ede63158f9e0ca8061ea7eacd1c39",
+      "hash": "2a23a831c724f83342fde23ac14ba5bff69b0164b9122f33ec4550eaed9fab7d",
       "video_id": "GM0DNxu39LM",
       "title": "What's New: E-Documents Connectors (2025 release wave 1)",
-      "at": "2026-11-01T00:40:34.626Z",
+      "at": "2026-11-21T00:52:04.236Z",
       "matches": []
     },
     "video/gMyp9JkXf9g": {
@@ -36226,54 +36226,47 @@
     "video/Gwgpj1U1wxI": {
       "kind": "video",
       "key": "video/Gwgpj1U1wxI",
-      "hash": "6261724d45349f282ecd356c4daa9f606c90ea184defe2fb9ed96f145dc5a8cd",
+      "hash": "8b6ce3f894fc2b25eddaf652f1da3b5df4c435edc4ddbdafd1949bf916882958",
       "video_id": "Gwgpj1U1wxI",
       "title": "Introduction to Business Central Cloud Migration (2023)",
-      "at": "2026-10-25T12:33:59.528Z",
+      "at": "2026-11-21T00:52:08.712Z",
       "matches": []
     },
     "video/GwrMf1umTFg": {
       "kind": "video",
       "key": "video/GwrMf1umTFg",
-      "hash": "a4183bb92956601dbefbcb6e8865568c512b4c040f2fc178aa634875370ffb02",
+      "hash": "8efeef85660ec7332fd722f5fbf12eb8910fdd76b1f1188a4a4b38f121560e1b",
       "video_id": "GwrMf1umTFg",
       "title": "What's new in Expense Agent: Project Handling (2026 release wave 2)",
-      "at": "2026-10-30T07:53:11.892Z",
+      "at": "2026-11-21T00:52:07.872Z",
       "matches": [
         {
           "feature": 0,
           "name": "Project tracking in Expense Agent web app",
           "t": 37,
           "roadmap_id": "573259",
-          "quote": "Project tracking in Expense Agent web app. New capability to assign projects to expenses"
+          "quote": "New capability to assign projects to expenses in the web app"
         },
         {
           "feature": 1,
           "name": "Project visibility options - all projects vs assigned projects",
           "t": 53,
           "roadmap_id": "573259",
-          "quote": "Project visibility options - all projects vs assigned projects"
+          "quote": "only assigned projects to limit visibility for hundreds of projects"
         },
         {
           "feature": 2,
           "name": "Project resource assignment on project card",
           "t": 106,
           "roadmap_id": "573259",
-          "quote": "Project resource assignment on project card. New assigned resources section"
+          "quote": "New assigned resources section on the project card allows administrators to select"
         },
         {
           "feature": 3,
           "name": "Project task level resource assignment",
           "t": 127,
           "roadmap_id": "573259",
-          "quote": "Project task level resource assignment. Users can assign resources to specific project"
-        },
-        {
-          "feature": 5,
-          "name": "Active projects and posting tasks filter",
-          "t": 265,
-          "roadmap_id": "573259",
-          "quote": "Active projects and posting tasks filter. When viewing projects in the web app"
+          "quote": "Users can assign resources to specific project task lines"
         }
       ]
     },
@@ -36332,69 +36325,118 @@
     "video/H_PHi8pe53w": {
       "kind": "video",
       "key": "video/H_PHi8pe53w",
-      "hash": "c64efde1b432b22f024967d3202ecc28077079109a80a9832ae4c35576758d4b",
+      "hash": "a690138468bf3d504bc92233fb9a13eaf1d8df776eb6b894759851ea33cbdcf7",
       "video_id": "H_PHi8pe53w",
       "title": "Business Central 29 0 Default Implementations in AL Interfaces",
-      "at": "2026-10-25T12:34:04.828Z",
+      "at": "2026-11-21T00:52:13.094Z",
       "matches": [
         {
           "feature": 0,
           "name": "Default implementation for AL interfaces",
           "t": 254,
           "roadmap_id": "573352",
-          "quote": "Default implementation for AL interfaces. AL interfaces can now have method bodies with default implementations"
-        },
-        {
-          "feature": 1,
-          "name": "Required pending attribute for AL interface methods",
-          "t": 532,
-          "roadmap_id": "573352",
-          "quote": "Required pending attribute for AL interface methods. A new attribute that can be added to interface methods"
+          "quote": "method bodies with default implementations, allowing existing implementations"
         }
       ]
     },
     "video/H5EuObmeF4o": {
       "kind": "video",
       "key": "video/H5EuObmeF4o",
-      "hash": "56c1d175230d9e97da952139e8ac85338a019bb7eb6eb332c8c253625c954905",
+      "hash": "81bcc46a2071446e0184f4c4f0be344057ce1d4a92b7d6d03d99f12610882104",
       "video_id": "H5EuObmeF4o",
       "title": "Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)",
-      "at": "2026-11-01T00:40:39.113Z",
+      "at": "2026-11-21T00:52:14.702Z",
       "matches": [
+        {
+          "feature": 0,
+          "name": "Enhanced sales order agent",
+          "t": 288,
+          "roadmap_id": "578065",
+          "quote": "Enhanced sales order agent. Enhancements to the existing sales order agent"
+        },
         {
           "feature": 1,
           "name": "MCP server for Business Central",
           "t": 303,
-          "roadmap_id": "576789",
-          "quote": "Connect AI agents to Business Central through MCP server. MCP is an open API standard"
+          "roadmap_id": "573312",
+          "quote": "MCP server for Business Central. Connect AI agents to Business Central through MCP server"
+        },
+        {
+          "feature": 2,
+          "name": "Advanced Tell Me search",
+          "t": 345,
+          "roadmap_id": "573371",
+          "quote": "Advanced Tell Me search. Advanced search functionality in Tell Me that uses AI"
+        },
+        {
+          "feature": 3,
+          "name": "Autofill with Copilot field suggestions",
+          "t": 498,
+          "roadmap_id": "579980",
+          "quote": "Autofill with Copilot field suggestions. Enhanced autofill capabilities using Copilot"
         },
         {
           "feature": 6,
           "name": "Match purchase invoices to orders with payables agent",
           "t": 575,
           "roadmap_id": "573380",
-          "quote": "The payables agent will be able to match purchase invoices with purchase orders or sales orders"
+          "quote": "Match purchase invoices to orders with payables agent. The payables agent will be able to match"
+        },
+        {
+          "feature": 10,
+          "name": "Copilot billing type configuration",
+          "t": 735,
+          "roadmap_id": "577820",
+          "quote": "Copilot billing type configuration. Billing type for copilot and agent capabilities can be set"
         },
         {
           "feature": 11,
           "name": "Azure resources for Copilot extensions",
           "t": 811,
           "roadmap_id": "577820",
-          "quote": "Use Azure resources for copilot extensions. Developers can use default KPI resources in AL"
+          "quote": "Azure resources for Copilot extensions. Use Azure resources for copilot extensions"
+        },
+        {
+          "feature": 13,
+          "name": "Enhanced chat with Copilot - 20 languages",
+          "t": 906,
+          "roadmap_id": "573362",
+          "quote": "Enhanced chat with Copilot - 20 languages. Enhanced chat with Copilot now supports 20 languages"
+        },
+        {
+          "feature": 17,
+          "name": "1099 forms electronic submission",
+          "t": 1004,
+          "roadmap_id": "573624",
+          "quote": "1099 forms electronic submission. 1099 forms can be submitted electronically to IRS"
         },
         {
           "feature": 21,
           "name": "Enhanced page scripting tool",
           "t": 1130,
           "roadmap_id": "573384",
-          "quote": "Enhanced page scripting tool with ability to delete arbitrary steps, define script parameters"
+          "quote": "Enhanced page scripting tool. Enhanced page scripting tool with ability to delete arbitrary steps"
+        },
+        {
+          "feature": 27,
+          "name": "Accounts payable role center",
+          "t": 1371,
+          "roadmap_id": "573261",
+          "quote": "Accounts payable role center. New accounts payable role center that simplifies workflows"
         },
         {
           "feature": 36,
           "name": "Quality management extension",
           "t": 1703,
           "roadmap_id": "573350",
-          "quote": "New quality management extension for Business Central helps you comply within the standards"
+          "quote": "Quality management extension. New quality management extension for Business Central"
+        },
+        {
+          "feature": 38,
+          "name": "Subcontracting capabilities in production",
+          "t": 1798,
+          "roadmap_id": "576872",
+          "quote": "Subcontracting capabilities in production. Expand Business Central solution to meet local needs"
         }
       ]
     },
@@ -36419,17 +36461,17 @@
     "video/H7R_m8Ue38g": {
       "kind": "video",
       "key": "video/H7R_m8Ue38g",
-      "hash": "dfd016e4945deec02338015e35591b0a786cc26828ec5db3b101040f1bbab90a",
+      "hash": "5a70513562383f9d3328e83198bf3d92bc1320606ac981d641a17500cfcdfc4d",
       "video_id": "H7R_m8Ue38g",
       "title": "Business Central v29: System Audit Fields Now Available in Analysis Mode",
-      "at": "2026-10-25T12:33:59.885Z",
+      "at": "2026-11-21T00:52:07.701Z",
       "matches": [
         {
-          "feature": 0,
-          "name": "System audit fields as flow fields",
-          "t": 312,
+          "feature": 2,
+          "name": "Audit fields in analysis mode",
+          "t": 676,
           "roadmap_id": "573322",
-          "quote": "system audit fields (created by, modified by, created at, modified at) are now available as flow fields"
+          "quote": "System audit fields can now be used directly in analysis mode"
         },
         {
           "feature": 1,
@@ -36437,13 +36479,6 @@
           "t": 423,
           "roadmap_id": "573322",
           "quote": "Administrators can now add system audit fields to pages through profile customization"
-        },
-        {
-          "feature": 2,
-          "name": "Audit fields in analysis mode",
-          "t": 676,
-          "roadmap_id": "573322",
-          "quote": "System audit fields can now be used directly in analysis mode"
         }
       ]
     },
@@ -36488,17 +36523,17 @@
     "video/Hct_HE0KzEc": {
       "kind": "video",
       "key": "video/Hct_HE0KzEc",
-      "hash": "697342392e84425ae0824ab4c34b4d8b8fa7f41a254e90209eb974942ce4193d",
+      "hash": "83510d1b12a26bf9a1f655089efe7d9a1d78986564d296c6f91e44271f618269",
       "video_id": "Hct_HE0KzEc",
       "title": "Episode 516: Business Central Is Transforming Business Management: Insights from Mike Morton",
-      "at": "2026-10-30T07:53:15.557Z",
+      "at": "2026-11-21T00:52:13.236Z",
       "matches": [
         {
           "feature": 0,
           "name": "Expense Agent",
           "t": 184,
           "roadmap_id": "573265",
-          "quote": "snap receipts with their phone and the system processes them automatically"
+          "quote": "Users can snap receipts with their phone and the system processes them automatically"
         }
       ]
     },
@@ -36514,37 +36549,37 @@
     "video/Hdp4KbbGpQA": {
       "kind": "video",
       "key": "video/Hdp4KbbGpQA",
-      "hash": "7bf0079722a38cb5940720c2a2e3ac474cbaef3cbace16e13a465bca28e6bd16",
+      "hash": "ed2989ba4e47bb98c6d2d4abf219a2c35dda4d220698f81adde055d4e85063d0",
       "video_id": "Hdp4KbbGpQA",
       "title": "Business Central Under the Hood episode 15: BC-Bench: How we evaluate AI on AL tasks",
-      "at": "2026-10-30T07:53:19.627Z",
+      "at": "2026-11-21T00:52:14.748Z",
       "matches": []
     },
     "video/HI7VcPzR2OE": {
       "kind": "video",
       "key": "video/HI7VcPzR2OE",
-      "hash": "626548883020e347220dc7b2e669fa4ee9d2e0bfbf901e856404a63fc61e161e",
+      "hash": "34716e81afafbd6fdb3a5899b1f157fddfc92ae8ee276915688b6b5e0567771b",
       "video_id": "HI7VcPzR2OE",
       "title": "What's New: Financial Management - Overview (2024 release wave 1)",
-      "at": "2026-10-30T07:53:13.023Z",
+      "at": "2026-11-21T00:52:07.710Z",
       "matches": []
     },
     "video/HixajKEd-A4": {
       "kind": "video",
       "key": "video/HixajKEd-A4",
-      "hash": "82db55e0ef8dc27350f803cab2e1ee1abbe569709929c3b2237df90af4ceaea9",
+      "hash": "7bf8c4d49602ea07d2a0d1f400db744b06f674b965d04e3148690214a9f59aa5",
       "video_id": "HixajKEd-A4",
       "title": "What's new: Match Production Database Configuration (2026 release wave 2)",
-      "at": "2026-10-25T12:34:10.119Z",
+      "at": "2026-11-21T00:52:14.855Z",
       "matches": []
     },
     "video/HjsOuhThGKk": {
       "kind": "video",
       "key": "video/HjsOuhThGKk",
-      "hash": "cbc0234c7ee0686ef79bd74ff233919f9e8108e13b6d7667d124fded00efe33b",
+      "hash": "08bba49ecd426c9cc491f0b246c7d3102df8f10e68359255b3d8ce1fc69faee3",
       "video_id": "HjsOuhThGKk",
       "title": "What's New: Summarize with Copilot (2025 release wave 1)",
-      "at": "2026-10-30T07:53:21.292Z",
+      "at": "2026-11-21T00:52:21.013Z",
       "matches": []
     },
     "video/hL4PUhjyhNY": {
@@ -36677,10 +36712,10 @@
     "video/HpIxYyjQWqs": {
       "kind": "video",
       "key": "video/HpIxYyjQWqs",
-      "hash": "82f9da458f1aa17afea36ac2b8899007ccb9122b9b048500209d85c48fb7426a",
+      "hash": "52a75abeca663be3233eaccea0a8209a4c9d649b6f18390810b9678f5f9c993c",
       "video_id": "HpIxYyjQWqs",
       "title": "How to Work With General Journals in Business Central (2025)",
-      "at": "2026-10-30T07:53:19.302Z",
+      "at": "2026-11-21T00:52:20.234Z",
       "matches": []
     },
     "video/hS8yWS3bxWE": {
@@ -36703,10 +36738,10 @@
     "video/HSgTJbyi0a4": {
       "kind": "video",
       "key": "video/HSgTJbyi0a4",
-      "hash": "288fcace56cd56fb1a446a58e362ddaf0dbbd0d24bce708d054e26fdedc8efbc",
+      "hash": "f30d50c66ca75f23f394fac253d1ec828e9d9025d7a41fb308b266ea93c3e25d",
       "video_id": "HSgTJbyi0a4",
       "title": "The Human Aspect of Onboarding",
-      "at": "2026-10-23T23:46:58.999Z",
+      "at": "2026-11-21T00:52:09.963Z",
       "matches": []
     },
     "video/hSJW3LiOBxg": {
@@ -36721,10 +36756,10 @@
     "video/HvgGcTnYo9g": {
       "kind": "video",
       "key": "video/HvgGcTnYo9g",
-      "hash": "5f0fe26b203c7129c49a6180b9f267ba228ffa83fe935ce733ed086c2033f198",
+      "hash": "c46cc9f5ab37e956b113df17a5483541303706768f3d502385d990c811ebb5ac",
       "video_id": "HvgGcTnYo9g",
       "title": "Bartek Ingredients Inc.",
-      "at": "2026-10-30T07:53:18.663Z",
+      "at": "2026-11-21T00:52:17.665Z",
       "matches": []
     },
     "video/hX2zkeUvvdY": {
@@ -36739,10 +36774,10 @@
     "video/HYqjpyHZ84Q": {
       "kind": "video",
       "key": "video/HYqjpyHZ84Q",
-      "hash": "2e63ca6e32950b1defb3e9895376960b6a0efa0516273994c2ade46a787416ae",
+      "hash": "50ed281b82b119ddcc553f1dafe96a92128942d050908756ccae303be5781a2e",
       "video_id": "HYqjpyHZ84Q",
       "title": "AL-Go for Github March Office Hour",
-      "at": "2026-10-25T12:34:04.256Z",
+      "at": "2026-11-21T00:52:13.747Z",
       "matches": []
     },
     "video/i-MTLNYwA9o": {

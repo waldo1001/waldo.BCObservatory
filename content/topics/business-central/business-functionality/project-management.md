@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/project-management
 type: topic
 title: Project management
-summary: Project management in Business Central covers creating projects with tasks and planning lines, budgeting, recording resource and item usage, time sheets, supplies, assemble-to-project, invoicing, and WIP methods. It answers how-to questions across the project lifecycle, and a subtopic covers analytics.
+summary: Project management in Business Central covers creating projects and tasks, budgeting, recording resource and item usage, time sheets, supplies, invoicing, WIP methods, and assemble-to-project. It answers how-to questions across the project lifecycle, with a subtopic on project analytics.
 tier: official
 language: en
 system: projects
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 5e5dfd656184d699fc76fe4e70b6d21e21ba9edf76748cb75ed41a133bf8d93d
+  input_hash: e2167a643331a190b88d8d57d2dbde3f3178f0470e5f410330687e452a55cb89
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-projects
@@ -472,28 +472,28 @@ narrative: generated
 
 # Project management
 
-> Project management in Business Central covers creating projects with tasks and planning lines, budgeting, recording resource and item usage, time sheets, supplies, assemble-to-project, invoicing, and WIP methods. It answers how-to questions across the project lifecycle, and a subtopic covers analytics.
+> Project management in Business Central covers creating projects and tasks, budgeting, recording resource and item usage, time sheets, supplies, invoicing, WIP methods, and assemble-to-project. It answers how-to questions across the project lifecycle, with a subtopic on project analytics.
 
 Path: [Business functionality](../business-functionality.md) > Project management · tier official · system projects · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Project management in Business Central lets you set up a project card with tasks and planning lines, budget the work, record what is used, and bill the customer. The pages follow that lifecycle: create the project, set up a budget, record usage and supplies, and invoice.
+Project management in Business Central lets you set up a project card with tasks and planning lines, budget the work, record what is used, and invoice the customer. The pages follow that lifecycle. Start with the Project management overview, then the page on creating a project card and tasks, which describes the two-layer structure of projects and tasks.
 
-Supporting pages cover time sheets for resources and absence, project supplies through purchase orders and warehouse operations, and assemble-to-project for items assembled only when planning lines need them. The WIP methods page explains how to value ongoing projects in the general ledger. The Project management analytics subtopic (33 pages) covers Power BI reports, ad-hoc analysis, built-in reports and WIP monitoring.
+Once the project exists, the budget page explains how line types (Budget, Billable, or both) drive estimates and comparisons with actuals. Usage pages cover resources and items through project journals, resource journals, and time sheets. Supplies, purchase orders, and assemble-to-project cover how items reach the project. Invoicing pages cover sales invoices and credit memos built from planning lines.
 
-Start with the Project management overview page, then "Create a project card for a project and specify tasks". Move to budgeting, usage recording and invoicing as the project progresses.
+For progress and financial value, the WIP methods page describes five methods for estimating project value in the general ledger. The Project management analytics subtopic (33 pages) covers Power BI reports, built-in reports, ad-hoc analysis of project ledger entries, and WIP monitoring.
 
 ## Key points
 
-- A project card uses a two-layer structure of tasks and planning lines, and supports multi-customer billing and default locations.
-- Planning line type (Budget, Billable, or Both Budget and Billable) drives budgeting and invoicing; the Line Type field sets it.
-- Usage is recorded through project journals and resource journals; Apply Usage Link links usage to planning lines, and Qty. To Transfer to Journal controls what is transferred.
-- Project sales invoices can be created with the Create Project Sales Invoice batch job, from planning lines, or for multiple projects in one invoice; credit memos are possible for planning lines.
-- Time sheets support creating, filling, submitting, approving and posting entries to the resource journal, and can copy project planning lines.
-- Project supplies can be handled with the Create Purchase Orders action, reservations, and inventory put-away.
-- Assemble to project creates assembly orders from project planning lines and integrates with warehouse picks and item tracking.
-- Five WIP methods are available: Cost Value, Cost of Sales, Sales Value, Percentage of Completion and Completed Contract, with a Default WIP Method setting.
+- Project cards use a two-layer structure of tasks and planning lines, with support for multi-customer billing and default locations.
+- Planning line types (Budget, Billable, or Both Budget and Billable) drive budgeting, WIP calculation and invoicing.
+- Usage is recorded through project journals, resource journals and planning lines. The Apply Usage Link setting links usage to planning lines.
+- Time sheets support creating, submitting, approving and posting entries to the resource journal, and can copy project planning lines.
+- Project supplies can be handled with purchase orders (Create Purchase Orders action), inventory put-away and reservations.
+- Assemble to project creates assembly orders automatically from project planning lines and integrates with warehouse picks.
+- Invoicing uses the Create Project Sales Invoice batch job or Get Project Planning Lines. Credit memos can be issued from planning lines.
+- WIP methods are Cost Value, Cost of Sales, Sales Value, Percentage of Completion and Completed Contract, with a Default WIP Method setting.
 
 ## Subtopics
 

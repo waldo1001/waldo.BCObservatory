@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T00:47:37.951Z"
+  at: "2026-11-21T00:46:40.499Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 000f21f34e4f898ffb66500327484e651ae1e6b7389a3cc766fbcd716486f318
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/W1/BaseApp/Warehouse/RoleCenters/ShippingAndReceivingWMS.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/W1/BaseApp/Warehouse/RoleCenters/ShippingAndReceivingWMS.Profile.al
     title: src/Layers/W1/BaseApp/Warehouse/RoleCenters/ShippingAndReceivingWMS.Profile.al (releases/29.x)
     date: null
-    commit: 4303e5e584d3aa5d9e98cbc615525a5396ad6ed7
+    commit: d30504e3670310aa9f2396745813257d80d473b8
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "SHIPPING AND RECEIVING - WMS" in Base Application (Microsoft.Warehouse.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Warehouse.RoleCenters · captioned "Shipping and Receiving - Warehouse Management System" · BC23-30 · [source at 4303e5e5](https://github.com/microsoft/BCApps/blob/4303e5e584d3aa5d9e98cbc615525a5396ad6ed7/src/Layers/W1/BaseApp/Warehouse/RoleCenters/ShippingAndReceivingWMS.Profile.al) · facts from BC29
+Base Application · Microsoft.Warehouse.RoleCenters · captioned "Shipping and Receiving - Warehouse Management System" · BC23-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/W1/BaseApp/Warehouse/RoleCenters/ShippingAndReceivingWMS.Profile.al) · facts from BC29
 
 ## Properties
 

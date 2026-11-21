@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/sales
 type: topic
 title: Sales
-summary: "Sales in Business Central covers the sales process: quotes, orders, invoices, posting, shipments, returns, corrections, prepayments, drop and special orders, customer setup, and campaigns. Subtopics cover sales analytics and subscription billing. It answers how-to and setup questions."
+summary: Sales in Business Central covers the sales process from quotes and orders to invoicing, shipping, returns, and customer records. It also covers sales analytics and subscription billing. It answers how-to questions on documents, posting, special order types, corrections, and reporting.
 tier: official
 language: en
 system: sales
 review:
-  state: reviewed
-  by: opus
-  at: "2026-11-15T00:50:59.798Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 56beb1f4242fb302c074880db793e25b07ab5d15a26a313d2579bf5d3510914d
+  input_hash: 34a941e35577b853260fe6bc3b20b62a59292f4d7a4d2870fac19a045c76036f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-sales
@@ -525,10 +525,12 @@ links:
     - change/bcapps/12806
     - change/bcapps/12982
     - change/bcapps/13417
+    - change/bcapps/13503
     - change/bcapps/13547
     - change/bcapps/13642
     - change/bcapps/13917
     - change/bcapps/13987
+    - change/bcapps/14283
     - change/bcapps/8914
     - change/bcapps/9096
     - change/bcapps/9118
@@ -714,28 +716,28 @@ narrative: generated
 
 # Sales
 
-> Sales in Business Central covers the sales process: quotes, orders, invoices, posting, shipments, returns, corrections, prepayments, drop and special orders, customer setup, and campaigns. Subtopics cover sales analytics and subscription billing. It answers how-to and setup questions.
+> Sales in Business Central covers the sales process from quotes and orders to invoicing, shipping, returns, and customer records. It also covers sales analytics and subscription billing. It answers how-to questions on documents, posting, special order types, corrections, and reporting.
 
-Path: [Business functionality](../business-functionality.md) > Sales · tier official · system sales · narrative reviewed (checked by Opus)
+Path: [Business functionality](../business-functionality.md) > Sales · tier official · system sales · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Sales section describes how to sell products and manage customers in Business Central. Core pages follow the document flow: register a customer, make a quote, convert it to an order or invoice, ship, post, and then handle corrections, returns or cancellations. Related pages cover delivery date and order promising calculations, partial shipments, combined shipments, blanket orders, prepayments, and recurring sales lines.
+The Sales section describes the day-to-day sales workflow. Pages cover registering customers with a Customer Card, making quotes, creating sales orders and invoices, and posting them. They also cover handling shipments, returns and corrections, and tracking packages. Supporting pages cover merging duplicate records, entering external document numbers, and saving contacts to Outlook.
 
-Other pages cover special fulfillment cases (drop shipments, special orders, picking lists, package tracking), data upkeep (external document numbers, merging duplicate customers, vendors or contacts, saving contacts to Outlook), and a walkthrough for sales campaigns.
+Order variants have their own pages: partial shipments, drop shipments, special orders, blanket orders, prepayments, and standard recurring sales lines. Other pages explain delivery date calculation and order promising (Available-to-Promise and Capable-to-Promise). A further page covers printing inventory picking lists for companies without warehouse management.
 
-Two subtopics go deeper: Sales analytics (Power BI Sales app, built-in reports, ad-hoc data analysis) and Subscription billing (contracts, recurring billing proposals, usage-based billing). Start with "Overview of tasks to manage sales" for links to the detailed task guides.
+Two subtopics go deeper. Sales analytics compares the ways to analyze sales data, from the Power BI Sales app to built-in reports and ad-hoc Data Analysis. Subscription billing covers recurring invoicing for contracts. Start with "Overview of tasks to manage sales" to see the full flow, then open the page for the task you need.
 
 ## Key points
 
-- Overview of tasks to manage sales links to detailed guides for invoices, orders, drop shipments, corrections, returns and quote-to-invoice.
-- Posted unpaid sales invoices can be cancelled (auto reversing credit memo) or corrected (new invoice plus credit memo).
-- Posting options include Post, Post and New, Post and Send, preview posting, batch posting and a test report.
-- Order promising uses Available to Promise and Capable to Promise; delivery dates depend on shipping time and warehouse handling time.
-- Partial shipments are controlled by the Shipping Advice field on the Customer Card.
-- Returns can be handled with sales credit memos or sales return orders, including replacement orders, restock charges and item charges.
-- Drop shipments and special orders link sales orders to purchase orders so vendors ship to customers.
-- Merge Duplicate needs the MERGE DUPLICATES permission set; saving contacts to Outlook is noted for 2026 release wave 1 (version 28).
+- Sales documents include quotes, orders, invoices, blanket orders, and credit memos. Quotes can be converted to orders or invoices, and blanket orders to sales orders.
+- Posting supports post, post and send, post batch, preview posting, and a test report. Posting creates ledger entries.
+- Unpaid posted invoices can be canceled or corrected. The Cancel action creates a corrective credit memo automatically. This applies to invoices that are unpaid and not fully shipped.
+- Drop shipments and special orders link a sales order to a purchase order through a purchasing code. The purchase order is created via the requisition worksheet or the Create Purchase Orders action.
+- Partial shipments are controlled by the Shipping Advice field on the Customer Card. Several shipments can be combined on one invoice manually or with the Combine Shipments batch job.
+- Returns use sales credit memos or sales return orders. Return orders support Copy Document, Get Posted Document Lines to Reverse, and Exact Cost Reversing.
+- Order promising and delivery date calculation use shipping time and warehouse handling time to compute realistic dates. They can also warn of stock-outs.
+- Merge Duplicate for customers, vendors, and contacts needs the MERGE DUPLICATES permission set. Outlook contact sync is described for 2026 release wave 1 (version 28).
 
 ## Subtopics
 
@@ -819,10 +821,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12806 [main] Closing the BC browser tab during quote-to-order reservation leaves a partial sales order and the source quote](../../../changes/bcapps/12806.md) (code change): "Converting a sales quote to an order now holds off reservation until all quote lines have been copied"
 - [#12982 [29x][All-e]Since Business Central 28.4, we have observed changed behaviour when the VAT Prod](../../../changes/bcapps/12982.md) (code change): "Fixes changed VAT behavior affecting Sales Lines since BC 28.4"
 - [#13417 [Master]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo.](../../../changes/bcapps/13417.md) (code change): "Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice"
+- [#13503 [Main]-Prepayment amounts are incorrectly recalculated in statistics after partial posting when Prepmt. Amt. to Deduct Excl. VAT is manually adjusted](../../../changes/bcapps/13503.md) (code change): "prepayment amount recalculation in sales line statistics"
 - [#13547 [29.X]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo](../../../changes/bcapps/13547.md) (code change): "Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice"
 - [#13642 Preserve work descriptions on posted sales prepayment documents](../../../changes/bcapps/13642.md) (code change): "Preserve work descriptions on posted sales prepayment documents"
 - [#13917 [Main][ALL-E] Posting a Sales Credit Memo with a different Unit of Measure does not convert the quantity before updating the originating Sales Order (Blanket Sales Order is updated correctly)](../../../changes/bcapps/13917.md) (code change): "posting a sales credit memo with a different unit of measure failed to convert"
 - [#13987 [Main][All-e]"Specify the VAT registration number that you want to verify" error when entering a VAT Registration No. in the Sales Order if the Customer Card has no VAT Registration No](../../../changes/bcapps/13987.md) (code change): "VAT registration number validation error in Sales Orders where the system incorrectly validated"
+- [#14283 [Master]-Sales or purchase order with 100% prepayment: Prepmt. Line Amount drifts below Prepmt. Amt. Inv. after partial invoices, so the order can't be released or posted](../../../changes/bcapps/14283.md) (code change): "Prepayment line amount drift is fixed for sales and purchase orders with 100% prepayment"
 - [#8914 [Master]- Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.Changes](../../../changes/bcapps/8914.md) (code change): "Fixed an issue where editing a sales order line's description would unexpectedly change"
 - [#9096 Align Bill-to Name 2 editability with the other bill-to address fields on sales documents](../../../changes/bcapps/9096.md) (code change): "Bill-to Name 2 field on sales documents is now editable under the same conditions"
 - [#9118 Bugs/master GitHub event batch 1745](../../../changes/bcapps/9118.md) (code change): "Sales Line and Sales Shipment Line changed in W1 and many localization layers"

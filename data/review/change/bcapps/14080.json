@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/14080",
+  "input_hash": "7b58a957e429d2e6a64223a815aa316dad9b1de6b37950ac71f2704ea605ac33",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-21T00:56:52.498Z",
+  "issues": [
+    "The description gives only the title. The summary and key points stay within the title, the changed codeunit and the added test."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018562,
+    "changes_in_call": 6
+  }
+}

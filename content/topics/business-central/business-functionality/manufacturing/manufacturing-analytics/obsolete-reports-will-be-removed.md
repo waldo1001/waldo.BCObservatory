@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -128,7 +128,6 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/13959
     - change/bcapps/13965
 learn_toc_path:
   - Business functionality
@@ -203,7 +202,6 @@ Start with the page for the report you are using and check whether it names a re
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#13959 Bug 654031: Partner feedback: Mark "Custom Report Layouts" page caption with '(Obsoleted)' and also add a notification OnOpen](../../../../../changes/bcapps/13959.md) (code change): "Mark "Custom Report Layouts" page caption with '(Obsoleted)'"
 - [#13965 Bug 658846: [29.x]Partner feedback: Mark "Custom Report Layouts" page caption with '(Obsoleted)' and also add a notification OnOpen](../../../../../changes/bcapps/13965.md) (code change): "Custom Report Layouts page caption now includes an '(Obsoleted)' marker"
 
 ## Business Central pages and reports

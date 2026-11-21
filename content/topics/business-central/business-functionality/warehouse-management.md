@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:25.040Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -280,6 +280,7 @@ links:
     - change/bcapps/11157
     - change/bcapps/12293
     - change/bcapps/12541
+    - change/bcapps/13201
     - change/bcapps/8905
     - change/bcapps/9224
     - change/bcapps/9333
@@ -400,6 +401,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11157 [main] Bug 647991 Assembly-to-Order Item Incorrectly Blocks Shipment of Unrelated Sales Order Line](../../../changes/bcapps/11157.md) (code change): "Posting inventory picks for non-ATO lines no longer fails due to pending warehouse"
 - [#12293 Remove CLEAN27 from Warehouse](../../../changes/bcapps/12293.md) (code change): "Removes code guarded by CLEAN27 from warehouse codeunits"
 - [#12541 Preserve transfer line UOM when toggling Direct Transfer](../../../changes/bcapps/12541.md) (code change): "Preserve transfer line UOM when toggling Direct Transfer"
+- [#13201 [main] Bug 592028 Retention policy fails: Bin Mandatory must be equal to 'No' in Location. Current value is 'Yes'.](../../../changes/bcapps/13201.md) (code change): "Retention policy now works correctly with posted inventory documents"
 - [#8905 [Master] Different source reference on reservation entries created directly from Job Planning Line and via a warehouse pick.](../../../changes/bcapps/8905.md) (code change): "Reservation entries for project job planning lines now get the same source reference"
 - [#9224 [main] GitHub event batch 1746](../../../changes/bcapps/9224.md) (code change): "Whse.-Source - Create Document. The description does not say what each fix does"
 - [#9333 [Main]-Bin content Block Movement does not prevent outbound posting for negative adjustments and sales orders](../../../changes/bcapps/9333.md) (code change): "Warehouse management logic updated to enforce bin content block rules consistently"

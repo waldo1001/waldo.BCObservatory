@@ -2,21 +2,21 @@
 id: topic/dev-itpro/administration/migrate-to-business-central-online
 type: topic
 title: Migrate to Business Central online
-summary: Migration to Business Central online from on-premises Business Central, Dynamics NAV, Dynamics GP, Dynamics SL, or any SQL source. It answers questions about choosing a migration route, running each phase, custom migrations, FAQs, and troubleshooting.
+summary: "Migration of on-premises data to Business Central online: supported paths from Business Central, Dynamics NAV, GP, SL and custom SQL sources, plus FAQ and troubleshooting. It answers how to choose a route, set up and run a cloud migration, and fix common errors."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T13:37:18.682Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9b3f6c63e988ce80567d9da51306dbef13bdf3015fa5b9622e66abe08c59dba4
+  input_hash: 72853bb364bb662eef0a1dee4df8b029f2455ed8b9ee3a90523ab82c662ad123
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-align-table-definitions
@@ -348,27 +348,27 @@ narrative: generated
 
 # Migrate to Business Central online
 
-> Migration to Business Central online from on-premises Business Central, Dynamics NAV, Dynamics GP, Dynamics SL, or any SQL source. It answers questions about choosing a migration route, running each phase, custom migrations, FAQs, and troubleshooting.
+> Migration of on-premises data to Business Central online: supported paths from Business Central, Dynamics NAV, GP, SL and custom SQL sources, plus FAQ and troubleshooting. It answers how to choose a route, set up and run a cloud migration, and fix common errors.
 
-Path: [Administration](../administration.md) > Migrate to Business Central online · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Administration](../administration.md) > Migrate to Business Central online · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers moving data from on-premises systems to Business Central online. The entry page, "Migrate on-premises data to Business Central online", explains the options: full data migration from Business Central, Dynamics GP, Dynamics SL, or Dynamics NAV, or a reimplementation approach that brings over essential data only (for example with configuration packages).
+This section covers moving on-premises workloads into Business Central online. The overview page lists the supported paths: Business Central on-premises, Dynamics GP, Dynamics SL, Dynamics NAV, and custom SQL sources. It also names the tools involved, such as the cloud migration tool, configuration packages, company configuration templates and the BC14 reimplementation.
 
-Each source has its own subtopic. The Business Central, GP, and SL subtopics follow a similar flow: overview, preparation, cloud migration setup, data replication, data upgrade, and completion. GP and SL also cover post-migration users and permissions. The NAV subtopic describes the path through BC14, the BC14 reimplementation option, and converting C/AL customizations to AL extensions.
+Each source has its own subtopic. Business Central on-premises, GP and SL follow a similar flow: preparation, cloud migration setup, data replication, data upgrade and completion. The NAV subtopic covers the path through BC14, the BC14 reimplementation option, and converting C/AL customizations to AL extensions. For other SQL sources, a separate page describes no-code mappings, custom migration apps, or extending the BC14 reimplementation tool.
 
-Supporting pages include custom migration from any SQL source (no-code mappings, custom migration apps, or extending the BC14 reimplementation tool), an FAQ on requirements and limits, and a troubleshooting guide. Start with the overview page, then go to the subtopic for your source system.
+Start with the overview to pick a path, then open the subtopic for your source. Use the FAQ for questions on requirements, data limits, connection strings, the self-hosted integration runtime and permissions. Use the troubleshooting page when replication fails.
 
 ## Key points
 
-- Supported sources: Business Central, Dynamics GP, Dynamics SL, and Dynamics NAV on-premises, plus custom SQL-based sources.
-- A reimplementation approach is an alternative that migrates only essential data, using options such as configuration packages.
-- Dynamics NAV migration follows a path through BC14, with a BC14 reimplementation option and guidance on converting C/AL customizations to AL extensions.
-- Custom migrations can use no-code table, replication, and setup mappings, custom migration apps (provider and table mapping interfaces), or an extended BC14 reimplementation tool.
-- The FAQ covers system requirements, data limits, SQL connection strings, the self-hosted integration runtime, Azure Data Factory, the intelligent cloud permission set, extension data migration, and data compression.
-- The troubleshooting guide covers SQL Server compatibility, change tracking, migration user permissions, Integration Runtime setup, company name validation, and the tenant media table, and refers to versions 23, 24, and 25.
-- BC, GP, and SL migrations each go through preparation, setup, data replication, data upgrade, and completion phases.
+- Supported sources: Business Central on-premises, Dynamics GP, Dynamics SL, Dynamics NAV and custom SQL sources.
+- Business Central on-premises, GP and SL migrations run through preparation, cloud migration setup, replication, data upgrade and completion.
+- Dynamics NAV migrates via BC14 or the BC14 reimplementation option, and C/AL customizations must be converted to AL extensions.
+- Custom SQL migrations use no-code table, replication and setup mappings, custom migration apps (provider and table mapping interfaces), or an extended BC14 reimplementation tool.
+- The FAQ covers system requirements, data limits, SQL connection strings, the self-hosted integration runtime (Azure Data Factory), the intelligent cloud permission set, extension data migration and data compression.
+- Troubleshooting checks SQL Server compatibility level, change tracking, migration user permissions, integration runtime setup and diagnostics, company name validation and Tenant Media table monitoring.
+- The troubleshooting page mentions version 25.0.
 
 ## Subtopics
 

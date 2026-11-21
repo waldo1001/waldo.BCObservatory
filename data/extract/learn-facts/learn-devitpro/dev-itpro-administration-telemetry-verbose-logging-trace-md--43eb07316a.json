@@ -1,22 +1,30 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-verbose-logging-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-verbose-logging-trace",
-  "title": "Analyzing Verbose Enable and Disable Telemetry | Microsoft Docs",
-  "blob": "4d0f19801194a9486a786369c38070b182607695",
+  "title": "Analyzing Verbose Logging Telemetry",
+  "blob": "20dbf1e4bc953c57e72dd5bdd1210b159cc80361",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Trace recorded when additional logging is turned on from Help and Support page in the client."
+      "text": "Verbose telemetry enabled event (RT0023) is recorded when additional logging turned on from Help page or AL"
     },
     {
       "kind": "fact",
-      "text": "Trace recorded when additional logging is turned off because user closed browser or signed out."
+      "text": "Session verbose logging has temporary duration that expires, triggering disabled event (RT0024)"
     },
     {
       "kind": "fact",
-      "text": "Verbose logging enables additional telemetry for troubleshooting during a session."
+      "text": "Disabled event does not specifically indicate user browser closure or sign-out; it covers any override reset"
+    },
+    {
+      "kind": "fact",
+      "text": "Both events include session ID, tenant ID, environment type, and telemetry schema version dimensions"
+    },
+    {
+      "kind": "fact",
+      "text": "Events help track when detailed logging is active on individual sessions for troubleshooting"
     }
   ],
   "dropped": 0,
@@ -24,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003696,
-      "pages_in_call": 16
+      "cost_usd": 0.007109,
+      "pages_in_call": 8
     }
   ]
 }

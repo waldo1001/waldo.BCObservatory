@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:18:38.540Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-21T00:52:51.542Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -136,12 +136,10 @@ features:
     roadmap_ids:
       - "573352"
   - name: Required pending attribute for AL interface methods
-    status: ga
+    status: preview
     t: 532
     verified: true
-    status_source: roadmap
-    roadmap_ids:
-      - "573352"
+    status_source: video
 objects_mentioned: []
 quotes:
   - t: 12
@@ -201,7 +199,7 @@ It also demonstrates the required pending attribute, which signals that implemen
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | Default implementation for AL interfaces | generally available (roadmap [Evolve AL interfaces with default implementations](../features/573352.md)), demoed | [4:14](https://www.youtube.com/watch?v=H_PHi8pe53w&t=254s) | "Business Central 29 is currently in public preview. So you might you make sure to validate the final behavior" ([15:43](https://www.youtube.com/watch?v=H_PHi8pe53w&t=943s)) |
-| Required pending attribute for AL interface methods | generally available (roadmap [Evolve AL interfaces with default implementations](../features/573352.md)), demoed | [8:52](https://www.youtube.com/watch?v=H_PHi8pe53w&t=532s) | "Business Central 29 is currently in public preview. So you might you make sure to validate the final behavior" ([15:43](https://www.youtube.com/watch?v=H_PHi8pe53w&t=943s)) |
+| Required pending attribute for AL interface methods | preview, demoed | [8:52](https://www.youtube.com/watch?v=H_PHi8pe53w&t=532s) | "Business Central 29 is currently in public preview. So you might you make sure to validate the final behavior" ([15:43](https://www.youtube.com/watch?v=H_PHi8pe53w&t=943s)) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

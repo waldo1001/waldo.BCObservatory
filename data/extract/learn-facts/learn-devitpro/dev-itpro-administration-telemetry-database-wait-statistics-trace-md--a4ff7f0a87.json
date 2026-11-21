@@ -2,25 +2,29 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-database-wait-statistics-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-wait-statistics-trace",
   "title": "Analyzing Database Wait Statistics Telemetry",
-  "blob": "c627b9d6d93e6481a70eeb387601980c4e6ace2f",
+  "blob": "fb53acce5d9a087e63834ca46e77bcc4a064838c",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "status",
-      "text": "Available from Business Central 2022 release wave 1, version 20.0 and later."
+      "text": "Generally available from Business Central 2022 release wave 1, version 20.0"
     },
     {
       "kind": "fact",
-      "text": "Snapshot is taken when user selects Emit Telemetry icon on Database Wait Statistics view in the client."
+      "text": "RT0025 Database wait statistics snapshot taken event occurs when snapshot is requested or additional logging starts or ends"
     },
     {
       "kind": "fact",
-      "text": "Trace records maximum wait time, signal wait time, total wait time, and count of waiting tasks per wait category."
+      "text": "RT0026 Database wait statistics snapshot entry events contain aggregated SQL wait statistics, not individual query waits"
     },
     {
       "kind": "fact",
-      "text": "Traces include database start date, when database was started, and which type of wait a query experiences."
+      "text": "Snapshots capture maximum wait time, signal wait time, waiting tasks count, and wait category information"
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry helps troubleshoot query performance by tracking elapsed time since SQL Server started and wait category details"
     }
   ],
   "dropped": 0,
@@ -28,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003696,
-      "pages_in_call": 16
+      "cost_usd": 0.006292,
+      "pages_in_call": 7
     }
   ]
 }

@@ -2,37 +2,41 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-update-management.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-update-management",
   "title": "Managing Updates in the Admin Center",
-  "blob": "2678c0730dc1e046dc6d8666b17503525b279ada",
+  "blob": "fdd1c9ac2e95eaaf19f4f9e426b3cdab0c25cfe7",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Update window defines hours during day when environment can be updated, default is 8 PM to 6 AM local time."
+      "text": "Update window defines daily hours in specified time zone when environment can be updated by Microsoft."
     },
     {
       "kind": "fact",
-      "text": "Update window must be minimum six hours; updates start during window but may not complete within it."
+      "text": "Default update window is 8:00 PM to 6:00 AM local time; minimum window duration is six hours."
     },
     {
       "kind": "fact",
-      "text": "Failed updates are automatically rescheduled seven days later, and notification recipients are informed."
+      "text": "Updates failing to complete before window end are automatically canceled and rescheduled seven days later."
     },
     {
       "kind": "fact",
-      "text": "Admins can schedule environment updates to any version higher than current version within same or next major version."
+      "text": "Admins can schedule updates to any version higher than current within environment's major version."
     },
     {
       "kind": "fact",
-      "text": "During update, all users and sign-in attempts blocked with message Service is under maintenance."
+      "text": "During preview periods, sandbox environments can schedule updates to preview versions without email notifications."
     },
     {
       "kind": "fact",
-      "text": "Updates to planned versions not yet released are scheduled automatically a few days after version availability."
+      "text": "Planned versions allow scheduling before Microsoft releases; update scheduled automatically within seven days after version availability."
+    },
+    {
+      "kind": "fact",
+      "text": "Running updates can be manually canceled, restoring environment to pre-update state; cancellation may take over an hour."
     },
     {
       "kind": "limit",
-      "text": "Updates cannot be canceled on environments in Enforced Update Period for source version."
+      "text": "Updates cannot be canceled during Enforced Update Period for source version."
     }
   ],
   "dropped": 0,
@@ -40,7 +44,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006313,
+      "cost_usd": 0.005948,
       "pages_in_call": 6
     }
   ]

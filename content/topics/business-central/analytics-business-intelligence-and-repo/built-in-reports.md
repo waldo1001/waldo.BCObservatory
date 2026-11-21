@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.594Z"
   flags: []
 generated:
-  at: "2026-11-17T01:01:17.322Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -390,7 +390,8 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/built-in-reports/manufacture
     - topic/business-central/analytics-business-intelligence-and-repo/built-in-reports/service-management
   localizations: []
-  videos: []
+  videos:
+    - video/gMyp9JkXf9g
   posts: []
   guidelines: []
 learn_toc_path:
@@ -407,7 +408,7 @@ children:
 coverage:
   learn: 22
   code: 200
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -661,6 +662,12 @@ Start with Report overview to find the right area. Then open the matching subtop
 - [Sales report overview](https://learn.microsoft.com/dynamics365/business-central/sales-reports): See which sales reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Excel Reports for Finance and Sales (2024 release wave 1)](../../../videos/gMyp9JkXf9g.md) (video): "Excel reports; trial balance; accounts receivable; accounts payable; aging reports"
 
 ## Business Central pages and reports
 

@@ -1,0 +1,26 @@
+{
+  "item_id": "change/bcapps-prs/14335",
+  "input_hash": "e303e1237c58ea884e23074dd249df19dcd4c63471db5dc244680c71bdf2dbd4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-21T00:57:04.586Z",
+  "issues": [
+    "The table is named Expense Agent Setup (table 6930). Expense Management Setup is the description's framing, so the summary should name the real table.",
+    "Key point 5 is wrong: extensions can read the default-setup flags and also mark an area as applied so the setup wizard does not overwrite their data. Reading the flags alone prevents nothing.",
+    "The PR only changes access modifiers and documentation, so there is no runtime behaviour change. behavior_change set to false.",
+    "breaking false is supported: the description says the corporate card objects were never in a released version."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039488,
+    "changes_in_call": 6
+  }
+}

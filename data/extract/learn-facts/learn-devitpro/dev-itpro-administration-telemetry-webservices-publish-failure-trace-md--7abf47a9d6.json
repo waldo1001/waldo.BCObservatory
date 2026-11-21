@@ -2,29 +2,33 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-webservices-publish-failure-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-publish-failure-trace",
   "title": "Web Service Publish Failure Trace",
-  "blob": "0e552116b6687945f4087dfa9d96129bf4fb49d9",
+  "blob": "8000df7dba2968bb928ef9b23a2c5507b2fdbc29",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Web service publish failure telemetry captures errors when web services fail to publish or function due to metadata creation issues."
+      "text": "Web service metadata error events (RT0033 through RT0039) emitted during web service publication or operation"
     },
     {
       "kind": "fact",
-      "text": "Event RT0033 indicates missing subpage names; event RT0034 indicates missing control element names in pages."
+      "text": "RT0033 reports missing subpage names; RT0034 reports missing control names; RT0035 reports skipped records"
     },
     {
       "kind": "fact",
-      "text": "Event RT0035 reports skipped web service records; event RT0036 reports table field name errors with captions."
+      "text": "RT0036 reports table field name errors; RT0038 reports warnings for multiple navigation property options"
     },
     {
       "kind": "fact",
-      "text": "Event RT0038 warns of multiple navigation property options for table relations; event RT0039 reports skipped entities with error details."
+      "text": "RT0039 reports skipped entity records with error details; each error prevents web service from functioning correctly"
     },
     {
-      "kind": "limit",
-      "text": "Web service publish failures result in pages or records being skipped entirely, preventing their use via web services."
+      "kind": "fact",
+      "text": "Metadata stack dimension provides context showing hierarchical relationship of problematic metadata entities"
+    },
+    {
+      "kind": "fact",
+      "text": "Errors are severity level 3; warnings are severity level 2; all include environment and component version information"
     }
   ],
   "dropped": 0,
@@ -32,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007625,
-      "pages_in_call": 7
+      "cost_usd": 0.007109,
+      "pages_in_call": 8
     }
   ]
 }

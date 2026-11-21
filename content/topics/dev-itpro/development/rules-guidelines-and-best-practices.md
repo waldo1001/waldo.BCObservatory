@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/rules-guidelines-and-best-practices
 type: topic
 title: Rules, guidelines, and best practices
-summary: Rules, guidelines, and best practices for developing Business Central extensions in AL. It covers deprecating objects, methods, symbols and external business events, plus a subtopic on code style, testing, performance, security, telemetry and Marketplace submission.
+summary: "Rules, guidelines, and best practices for Business Central extension development: how to obsolete AL objects, methods, and symbols, how to deprecate external business events, and a best practices subtopic on coding, testing, security, performance, and Marketplace validation."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:54:26.148Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d3ffac510c17d3c8eae2e582223e7d89fca414ce5b83d748c00c0db4d76b90df
+  input_hash: 5e7fb1685fafbfd7f9a5c55cd6c5aaceb6188977b5dbef07a08c0d660c5b8d5f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
@@ -191,27 +191,27 @@ narrative: generated
 
 # Rules, guidelines, and best practices
 
-> Rules, guidelines, and best practices for developing Business Central extensions in AL. It covers deprecating objects, methods, symbols and external business events, plus a subtopic on code style, testing, performance, security, telemetry and Marketplace submission.
+> Rules, guidelines, and best practices for Business Central extension development: how to obsolete AL objects, methods, and symbols, how to deprecate external business events, and a best practices subtopic on coding, testing, security, performance, and Marketplace validation.
 
-Path: [Development](../development.md) > Rules, guidelines, and best practices · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../development.md) > Rules, guidelines, and best practices · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects the rules an extension developer follows when writing and maintaining AL code. Two pages here deal with deprecation: one on marking objects, methods, and symbols as obsolete in AL, and one on deprecating external business events.
+This section collects the rules developers follow when building and maintaining Business Central extensions. Two pages deal with lifecycle changes: how to mark AL objects, methods, and symbols as obsolete, and how to deprecate external business events so integrations can move to replacements.
 
-The AL obsolete page explains the ObsoleteState, ObsoleteReason, and ObsoleteTag properties, the [Obsolete] attribute, preprocessor directives, and analyzer rules that enforce the process. The external business events page applies the same idea to integrations: mark an event as obsolete pending, then remove it in a later version so external consumers can move to replacement events (version 27.0).
+The Best practices subtopic (17 pages) covers the wider craft: AL code conventions, restrictions, testing, performance, security, telemetry, connectivity app requirements, and user scenario documentation. It also helps prepare an extension for Marketplace validation.
 
-The Best practices subtopic (17 pages) is the wider guide. It covers AL code style, restrictions to avoid, testing, performance, security, telemetry, connectivity app requirements, and user scenario documentation. Start there for general guidance on writing, testing, securing, and submitting extensions to Marketplace. Use the deprecation pages when you retire code or events.
+Start with Best practices for general guidance on writing and shipping an extension. Use the obsolete and deprecation pages when you need to remove or replace something that other code or external systems may depend on.
 
 ## Key points
 
-- Mark AL objects, methods, and symbols obsolete with ObsoleteState, ObsoleteReason, ObsoleteTag, or the [Obsolete] attribute.
-- Analyzer rules and preprocessor directives support enforcing and handling obsolete code.
-- External business events are deprecated in two steps: mark obsolete pending, then remove in a future version.
-- Deprecating external business events uses the Obsolete and ExternalBusinessEvent attributes, a DisplayName prefix, and event versioning (27.0).
-- The goal of event deprecation is to inform external integrations and move them to replacement events.
-- The Best practices subtopic covers AL code style, restrictions to avoid, testing, performance, security, and telemetry.
-- It also covers connectivity app requirements, user scenario documentation, and submitting extensions to Marketplace.
+- Obsoleting in AL uses the ObsoleteState, ObsoleteReason, and ObsoleteTag properties, or the [Obsolete] attribute.
+- Analyzer rules enforce obsolete handling, and preprocessor directives are part of the obsoleting guidance.
+- External business events are deprecated by first marking them obsolete pending, then removing them in a future version.
+- Deprecating an external business event involves the Obsolete and ExternalBusinessEvent attributes, a DisplayName prefix, and event versioning (listed for version 27.0).
+- The goal of deprecation is that external integrations are informed and can move to replacement events.
+- The Best practices subtopic covers AL code conventions, restrictions, testing, performance, and security.
+- It also covers telemetry, connectivity app requirements, and user scenario documentation for Marketplace validation.
 
 ## Subtopics
 

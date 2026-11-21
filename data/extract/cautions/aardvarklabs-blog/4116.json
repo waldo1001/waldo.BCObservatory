@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/aardvarklabs-blog/4116",
+  "page_id": "post/aardvarklabs-blog/4116",
+  "rule": 1,
+  "prompt_version": 1,
+  "cautions": [
+    {
+      "kind": "gotcha",
+      "quote": "Note that this code unit does not contain the procedure CanDrinkAlcohol. This is very important and we will discuss why later.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "ARD_AmericanGuest"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "To access default implementations, you must call the interface variable not the code unit directly.",
+      "objects": [],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    },
+    {
+      "kind": "gotcha",
+      "quote": "In this example, AmericanGuest.CanDrinkAlcohol() is not valid. The code unit ARD_AmericanGuest doesn't have a procedure named CanDrinkAlcohol.",
+      "objects": [
+        {
+          "type": "codeunit",
+          "name": "ARD_AmericanGuest"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "29"
+      ]
+    },
+    {
+      "kind": "breaking",
+      "quote": "If the implementors have not implemented a GetTipAmount at this point they will receive an error.",
+      "objects": [
+        {
+          "type": "interface",
+          "name": "ARD_BillPayment"
+        }
+      ],
+      "events": [],
+      "versions": [
+        "30"
+      ]
+    }
+  ],
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005656,
+    "posts_in_call": 3
+  }
+}

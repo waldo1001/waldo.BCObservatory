@@ -1,24 +1,24 @@
 {
   "hub_id": "topic/dev-itpro/development/troubleshooting",
-  "input_hash": "d80451a28c24530715c94c442410d1c451131d001b2f0000f2bb62e2911e1b73",
-  "summary": "Troubleshooting for Business Central development covers tools and guides for finding and fixing problems: in-client diagnostics, AL profiling and debugging, telemetry in Application Insights, and troubleshooting guides (TSGs). It answers questions about errors, slow performance, locks, web service failures and cloud migration problems.",
-  "overview": "This section collects resources for gathering information about an issue, identifying the cause, and applying a fix. An overview page introduces the main tools: error dialog inspection, Page Inspector, Event Recorder, database locks, the Performance Profiler and the AL Profiler.\n\nThe subtopics split by where you work. Troubleshooting in the client covers diagnostic tools inside Business Central, plus personalization, permissions and on-premises mobile app issues. Troubleshooting in AL covers the AL Profiler, VS Code debugging, snapshot debugging and printing problems. Troubleshooting with telemetry covers sending telemetry to Azure Application Insights and analyzing it with KQL, Power BI and alerts. The troubleshooting guides give step-by-step help for specific failures.\n\nStart with the overview page to pick a tool. Use the client pages for quick checks, the AL pages for code-level problems, telemetry for patterns over time, and the TSGs when you have a known symptom such as a report error or an OData, API or SOAP failure.",
+  "input_hash": "d46a12efdd150ff027cf46d68ee84e8782c34381394cce2554abb0e969ce4555",
+  "summary": "Troubleshooting for Business Central development covers the tools used to find and fix problems: in-client diagnostics, AL debugging and profiling, telemetry in Azure Application Insights, and troubleshooting guides (TSGs). It answers questions about slow code, runtime errors, locks, missing indexes, report and web service failures, and cloud migration issues.",
+  "overview": "The Troubleshooting section is a toolbox for gathering information, identifying causes and applying solutions to Business Central issues. The overview page introduces the main tools: error dialog inspection, Page Inspector, Event Recorder, database lock views, the Performance Profiler and the AL Profiler.\n\nThe content is split into four subtopics. Troubleshooting in the client covers diagnostic tools available inside the client, plus customization, personalization, permissions and on-premises mobile app issues. Troubleshooting in AL covers the AL Profiler, VS Code debugging, snapshot debugging, Page Inspection, performance articles and printing problems. Troubleshooting with telemetry explains how to send telemetry to Application Insights, analyze it with KQL or Power BI, and set up alerts. The TSGs give guided diagnosis for cloud migration, reports and web services.\n\nStart with the overview page to pick a tool. Use the client tools for quick checks of a page or error, the AL pages when you work in code, and telemetry or the TSGs for recurring or production problems.",
   "key_points": [
-    "Client tools include page inspection, error dialogs, database locks, table information, missing indexes, event discovery, report dataset export and the Performance Profiler.",
-    "AL troubleshooting covers the AL Profiler, VS Code debugging, snapshot debugging, Page Inspection and performance articles for extensions.",
-    "Printing troubleshooting in AL covers printer and report payload errors.",
-    "Telemetry pages cover enabling telemetry to Azure Application Insights, the available events, KQL and Power BI analysis, and alerting.",
-    "Telemetry can also be used to diagnose performance problems.",
-    "TSGs cover cloud migration problems, report errors and slow reports, and web service failures (OData, API, SOAP).",
-    "The client section also covers page customization, personalization, permissions and on-premises mobile app issues."
+    "The overview page lists the main tools: error dialog inspection, Page Inspector, Event Recorder, database locks, Performance Profiler and AL Profiler.",
+    "Client troubleshooting (13 pages) includes page inspection, error dialogs, database locks, table information, missing indexes, event discovery and report dataset export.",
+    "Client pages also cover page customization, personalization, permissions and on-premises mobile app issues.",
+    "AL troubleshooting (6 pages) covers the AL Profiler, VS Code debugging, snapshot debugging, Page Inspection, performance articles and printing errors.",
+    "Telemetry troubleshooting (7 pages) covers sending telemetry to Azure Application Insights, enabling it, KQL and Power BI analysis, alerts and performance use.",
+    "TSGs (4 pages) cover cloud migration to Business Central online, report errors and performance, and web service failures in OData, API and SOAP.",
+    "Use the TSGs to find the right telemetry or debugging approach for a given symptom."
   ],
   "members_used": 1,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-11-15T00:50:34.461Z",
+  "at": "2026-11-21T01:00:06.027Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.012643000000000001
+    "cost_usd": 0.016618
   }
 }

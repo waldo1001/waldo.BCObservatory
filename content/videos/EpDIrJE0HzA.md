@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:51:39.422Z"
   flags: []
 generated:
-  at: "2026-11-20T00:53:40.205Z"
+  at: "2026-11-21T00:52:51.542Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -66,8 +66,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573312
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -110,12 +109,10 @@ features:
     verified: false
     status_source: video
   - name: MCP Configurations page in Business Central
-    status: ga
+    status: unclear
     t: 172
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573312"
+    status_source: video
   - name: Agent publication to multiple channels
     status: unclear
     t: 226
@@ -182,11 +179,9 @@ The demo sets up data, configures MCP in Business Central, publishes the agent, 
 |---|---|---|
 | Copilot Studio agents for Business Central | status not stated, demoed | [0:12](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=12s) |
 | Model Context Protocol (MCP) server for Business Central | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=77s) |
-| MCP Configurations page in Business Central | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [2:52](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=172s) |
+| MCP Configurations page in Business Central | status not stated, demoed | [2:52](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=172s) |
 | Agent publication to multiple channels | status not stated, demoed | [3:46](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=226s) |
 | Copilot Studio credit-based licensing | status not stated | [5:04](https://www.youtube.com/watch?v=EpDIrJE0HzA&t=304s) |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

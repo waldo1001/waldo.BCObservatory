@@ -1,39 +1,39 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-database-deadlocks-trace.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-database-deadlocks-trace",
-  "title": "Database Deadlock Lock Trace Telemetry",
-  "blob": "35289b7fe1825c099769a093f4a6754674110a45",
+  "title": "Analyzing Database Deadlock Telemetry",
+  "blob": "d08989989d75d408575c55ed1231aa539e5b4df8",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "fact",
-      "text": "Telemetry emitted when deadlock occurs and terminates one session (victim), blocking users from completing tasks."
+      "kind": "status",
+      "text": "Generally available from Business Central 2022 release wave 1, version 20.0"
     },
     {
       "kind": "fact",
-      "text": "Provides benefits including awareness of deadlocks, identification of victim process, and data for monitoring."
-    },
-    {
-      "kind": "prerequisite",
-      "text": "On-premises deployments must enable EnableDeadlockMonitoring setting on server instance."
+      "text": "Telemetry signal RT0028 is emitted when two or more database processes block each other and SQL Server rolls back one transaction"
     },
     {
       "kind": "fact",
-      "text": "Event RT0028 includes dimensions like AL object, client type, extension, SQL session ID."
+      "text": "Deadlock telemetry identifies which session was the victim and captures both competing processes as separate events"
     },
     {
       "kind": "fact",
-      "text": "Complements other monitoring features like SQL database deadlock monitoring and database lock trace telemetry."
+      "text": "EnableDeadlockMonitoring server setting is not required for RT0028 telemetry collection, but controls a separate SQL deadlock monitoring feature"
+    },
+    {
+      "kind": "fact",
+      "text": "Telemetry dimensions include AL object details, extension information, SQL statement, session IDs, and stack traces"
     }
   ],
-  "dropped": 1,
+  "dropped": 0,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005012,
-      "pages_in_call": 12
+      "cost_usd": 0.006292,
+      "pages_in_call": 7
     }
   ]
 }

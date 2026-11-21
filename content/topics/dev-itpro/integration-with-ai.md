@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-21T01:00:52.651Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -319,6 +319,9 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-tech-days-2026--908b4ceb5d
     - post/thinkaboutit-be/7175
   guidelines: []
+  changes:
+    - change/bcapps/14295
+    - change/bcapps/14335
 learn_toc_path:
   - Integration with AI
 toc_file: dev-itpro/TOC.md
@@ -374,10 +377,12 @@ For connecting external AI clients, the Model Context Protocol pages describe th
 - [Integrate with Model Context Protocol](integration-with-ai/integrate-with-model-context-protocol.md) (6 pages)
 - [Designing and coding agents (preview)](integration-with-ai/designing-and-coding-agents-preview.md) (23 pages)
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#14295 [Main] Expense Management: make core expense business objects public](../../changes/bcapps/14295.md) (code change): "agent-specific and policy-related functionality internal"
+- [#14335 [Main] Expense Management: make Expense Management Setup public; keep agent and corporate card surface internal](../../changes/bcapps/14335.md) (code change): "Extensions can read default-setup flags to avoid overwriting"
 - [From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.](../../posts/demiliani-com/13611.md) (community post): "Azure OpenAI's Responses API replaces Chat Completions as the recommended approach"
 - [Why Customer’s AI project fail? The gap between hype and reality.](../../posts/demiliani-com/13695.md) (community post): "building reliable, integrated AI agents for Business Central requires proper architecture"
 - [BC Tech Days 2026](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-tech-days-2026--908b4ceb5d.md) (community post): "AI agents were the dominant topic across all sessions and conversations"
