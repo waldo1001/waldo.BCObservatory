@@ -6,7 +6,7 @@
   "title": "Bug 648872: [UX][Manufacturing] Many actions are enabled on an empty \"Released Produciton Orders\" page resulting in errors when clicked",
   "url": "https://github.com/microsoft/BCApps/pull/14014",
   "published_at": "2026-11-20T16:36:32Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-21T00:15:56.434Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-21T00:18:18.659Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00447
+    },
+    "linked": {
+      "at": "2026-11-21T00:18:18.765Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-21T00:18:18.769Z",
+      "path": "content/changes/bcapps/14014.md"
     }
   },
   "input_hash": "851e7f50d52f2c793919d27ee94c754d946a8699:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a6af8f69357e748b822ac33fe39fb3ff6ec38c2d3733058629e62e5c43b47614"
+  "output_hash": "005f6a47b44b27d982aa357f608775b456ccbe7c291a2de1194362f8b099bffd"
 }

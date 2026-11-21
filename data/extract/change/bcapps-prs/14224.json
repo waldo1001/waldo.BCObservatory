@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14224",
+  "number": 14224,
+  "title": "Fix duplicate expense vendor numbers during receipt submission",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense vendor number assignment now skips occupied numbers and surfaces numbering errors during receipt submission, preventing duplicate vendor key failures.",
+  "key_points": [
+    "Matched and unmatched expense vendor creation both use the table's insert trigger for consistent numbering logic",
+    "Numbering follows the standard Vendor table pattern to skip already-occupied numbers",
+    "Number-series errors and warnings are no longer suppressed, surfacing actionable errors",
+    "Blank vendor keys from missing error handling are prevented",
+    "Four regression test scenarios validate the fix for normal and sequence series"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Prevent receipt submission from failing when the next expense vendor number already belongs to an existing record.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003918,
+    "changes_in_call": 1
+  }
+}

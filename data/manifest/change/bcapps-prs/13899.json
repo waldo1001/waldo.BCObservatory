@@ -6,10 +6,18 @@
   "title": "Bugfix/issue 13425 shopify wrong curr amount refund",
   "url": "https://github.com/microsoft/BCApps/pull/13899",
   "published_at": "2026-11-20T13:02:25Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-21T00:15:56.434Z"
+    },
+    "fetched": {
+      "at": "2026-11-21T00:19:58.320Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "8dca9328b6509375a3cac6607012f9fd924f72e5:c1",
@@ -31,5 +39,8 @@
     ],
     "community_contribution": true,
     "title_key": "bugfix issue 13425 shopify wrong curr amount refund"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9db726882976b3b87b06e9012ce209dbbb9bd15e5c27dc03f12d75f9aa7a0517"
 }

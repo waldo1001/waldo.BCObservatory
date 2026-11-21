@@ -6,10 +6,35 @@
   "title": "Fix duplicate expense vendor numbers during receipt submission",
   "url": "https://github.com/microsoft/BCApps/pull/14224",
   "published_at": "2026-11-20T13:09:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-21T00:15:56.434Z"
+    },
+    "fetched": {
+      "at": "2026-11-21T00:19:26.570Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-21T00:19:36.319Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003918
+    },
+    "linked": {
+      "at": "2026-11-21T00:19:36.424Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-21T00:19:36.440Z",
+      "path": "content/changes/bcapps/14224.md"
     }
   },
   "input_hash": "845308af5bac808b0bd03f3a22ca63549001a2b6:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix duplicate expense vendor numbers during receipt submission"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e59f8a31d07ef18cb1b36bd0655fa67921d0e035c098fbfd15733782d301f78a"
 }

@@ -1,0 +1,102 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14331,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14331",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-20T10:38:45Z",
+  "merge_commit_sha": "2cf14eb30762f293c1f6c9c9e8063ad9bd493207",
+  "author": "JesperSchulz",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix trailing periods in generated document attachment folders",
+  "body_hash": "0c8496ec3bf10feb1d067d86bde6612f040040bca689a57c247ee8377a9a7f20",
+  "fixes_issues": [
+    12012
+  ],
+  "work_items": [
+    659957
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/External Storage - Document Attachments/Test/src/DAExtStorageImplTests.Codeunit.al",
+      "status": "modified",
+      "additions": 138,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/External Storage - Document Attachments/app/README.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/External Storage - Document Attachments/app/src/DocumentAttachmentIntegration/DAExternalStorageImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test Library/External File Storage/src/Mock/FileConnectorMock.Codeunit.al",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test Library/External File Storage/src/TestFileStorageConnector.Codeunit.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 194,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/External Storage - Document Attachments/app/src/DocumentAttachmentIntegration/DAExternalStorageImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8751",
+        "type": "codeunit",
+        "id": 8751,
+        "name": "DA External Storage Impl.",
+        "app": "External Storage - Document Attachments",
+        "cc": "w1",
+        "page": "codeunit/8751"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "External Storage - Document Attachments"
+  ],
+  "issues": [
+    {
+      "number": 12012,
+      "title": "[Bug]: External Storage - Document Attachments fails on Purch. Cr. Memo Hdr. due to trailing dot in generated SharePoint folder name",
+      "state": "closed"
+    }
+  ]
+}

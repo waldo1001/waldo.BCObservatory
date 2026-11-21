@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/14332",
+  "number": 14332,
+  "title": "Bug 660000: [64bit] Overflow in item application entry",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Variables in item application entry table are changed from int to bigint to prevent overflow in 64-bit calculations during cost processing.",
+  "key_points": [
+    "Cost calculation optimization left some variables as int instead of bigint",
+    "5 variables corrected in both W1 and RU layers of Item Application Entry table",
+    "Prevents arithmetic overflow errors in 64-bit environments",
+    "Affects ledger entry calculations during item costing"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "Some variables were declared as int instead of bigint.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003206,
+    "changes_in_call": 1
+  }
+}

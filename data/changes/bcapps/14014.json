@@ -1,0 +1,85 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14014,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14014",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-20T16:36:32Z",
+  "merge_commit_sha": "851e7f50d52f2c793919d27ee94c754d946a8699",
+  "author": "ChethanT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Bug 648872: [UX][Manufacturing] Many actions are enabled on an empty \"Released Produciton Orders\" page resulting in errors when clicked",
+  "body_hash": "1bb244965b92ecfa0684dee70c54f72c105d3662b8cc224997f254f39830b3b0",
+  "fixes_issues": [],
+  "work_items": [
+    648872
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subcontracting/Test/Tests/SubcSubcontractingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 60,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/SCM-Manufacturing/SCMProductionOrderIII.Codeunit.al",
+      "status": "modified",
+      "additions": 78,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ReleasedProductionOrders.Page.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMProductionOrderIII.Codeunit.al",
+      "status": "modified",
+      "additions": 77,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 225,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ReleasedProductionOrders.Page.al",
+        "status": "modified",
+        "key": "page/9326",
+        "type": "page",
+        "id": 9326,
+        "name": "Released Production Orders",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/9326"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

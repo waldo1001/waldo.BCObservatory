@@ -1,0 +1,77 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13862,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13862",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-20T15:07:35Z",
+  "merge_commit_sha": "8045eb41f04270af18ffd0621d55c52077c29356",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.X]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages.",
+  "body_hash": "a18e913717a8c80dd3063f8f8f805b3febf165e019e94ceaab05006fddbae28f",
+  "fixes_issues": [],
+  "work_items": [
+    658600
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/Tests/SCM-Assembly/SCMAssemblyItemTracking.Codeunit.al",
+      "status": "modified",
+      "additions": 202,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/Document/AssemblyLineInvtProfile.Codeunit.al",
+      "status": "modified",
+      "additions": 66,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Assembly/SCMAssemblyItemTracking.Codeunit.al",
+      "status": "modified",
+      "additions": 204,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 472,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "4303e5e584d3aa5d9e98cbc615525a5396ad6ed7",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/Document/AssemblyLineInvtProfile.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/928",
+        "type": "codeunit",
+        "id": 928,
+        "name": "Assembly Line Invt. Profile",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/928"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "assembly"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14224,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14224",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-20T13:09:42Z",
+  "merge_commit_sha": "845308af5bac808b0bd03f3a22ca63549001a2b6",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "ExpenseManagement",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Fix duplicate expense vendor numbers during receipt submission",
+  "body_hash": "c7704a13afe9ffbfc46196268993c6470e15a660a730697994d4de21498e10b2",
+  "fixes_issues": [],
+  "work_items": [
+    659559
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Codeunits/ExpenseVendorMatching.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 19,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpenseVendor.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpenseVendorMatchingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 151,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 162,
+    "deletions": 21,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Codeunits/ExpenseVendorMatching.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6931",
+        "type": "codeunit",
+        "id": 6931,
+        "name": "Expense Vendor Matching",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6931"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Tables/ExpenseVendor.Table.al",
+        "status": "modified",
+        "key": "table/6937",
+        "type": "table",
+        "id": 6937,
+        "name": "Expense Vendor",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "table/6937"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

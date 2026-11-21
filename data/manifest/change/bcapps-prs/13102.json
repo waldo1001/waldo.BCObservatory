@@ -6,10 +6,18 @@
   "title": "Create putaway template bin validation",
   "url": "https://github.com/microsoft/BCApps/pull/13102",
   "published_at": "2026-11-20T13:02:25Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-21T00:15:56.434Z"
+    },
+    "fetched": {
+      "at": "2026-11-21T00:19:59.746Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "28877c3721c9874723bfda1a54786bf77bcd5755:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": true,
     "title_key": "create putaway template bin validation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2039c697a5ff4ad3507cf4cc3a47220bcc12d09dcb39c260bb17dd556dd23479"
 }

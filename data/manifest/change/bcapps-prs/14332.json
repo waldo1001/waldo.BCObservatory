@@ -6,10 +6,35 @@
   "title": "Bug 660000: [64bit] Overflow in item application entry",
   "url": "https://github.com/microsoft/BCApps/pull/14332",
   "published_at": "2026-11-20T14:28:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-21T00:15:56.434Z"
+    },
+    "fetched": {
+      "at": "2026-11-21T00:19:01.925Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-21T00:19:10.111Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003206
+    },
+    "linked": {
+      "at": "2026-11-21T00:19:10.216Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-21T00:19:10.220Z",
+      "path": "content/changes/bcapps/14332.md"
     }
   },
   "input_hash": "052a44b4d747b69cbac913dd7289ce0fbb15760a:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug 660000 64bit overflow in item application entry"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "939bb5592e102c3ebf808925e6997ba03e34340c33b51cabc22a7eed528f55f4"
 }

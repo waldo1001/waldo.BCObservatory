@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14373",
+  "number": 14373,
+  "title": "[MAIN] Subcontracting Receipt Extensibility Events.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Integration events are added to subcontracting receipt posting in the India GST application, enabling partners and customers to extend and adapt the posting flow without changing core design.",
+  "key_points": [
+    "Four extensibility events added to codeunits 18466 and 18467 for subcontracting receipt posting",
+    "OnBeforePostPurchOrder and OnBeforeCreatePostedReceipt events in Subcontracting Post with IsHandled support",
+    "OnRecieveBackCompOnBeforePostItemJnlLine event for raw material return journal line posting",
+    "OnBeforePostPurchOrderLine event in Subcontracting Post Batch for each subcontracting line",
+    "Posting behavior unchanged when no subscribers are present"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Integration events are added so that partners or customers who want different behavior can extend the flow in their own extension.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003997,
+    "changes_in_call": 1
+  }
+}

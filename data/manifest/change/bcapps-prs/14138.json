@@ -6,10 +6,35 @@
   "title": "[MAIN] Fix undo of final subcontracting operation after earlier operation undo (Bug 653934)",
   "url": "https://github.com/microsoft/BCApps/pull/14138",
   "published_at": "2026-11-20T14:50:19Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-21T00:15:56.434Z"
+    },
+    "fetched": {
+      "at": "2026-11-21T00:18:46.099Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-21T00:18:53.517Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004419
+    },
+    "linked": {
+      "at": "2026-11-21T00:18:53.622Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-21T00:18:53.640Z",
+      "path": "content/changes/bcapps/14138.md"
     }
   },
   "input_hash": "0f22df5e9e47eec625d1ba7c0004bab7e25c6006:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix undo of final subcontracting operation after earlier operation undo bug 653934"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "00bb300a566b89bf4e184ff3980bbc995cd57474d98b98644195101852e943aa"
 }

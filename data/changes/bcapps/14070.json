@@ -1,0 +1,326 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14070,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14070",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-18T10:22:35Z",
+  "merge_commit_sha": "78cc08d4d442b9f77bf081ce43ef71e8eba1bfd5",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.x][All-e]\"Specify the VAT registration number that you want to verify\" error when entering a VAT Registration No. in the Sales Order if the Customer Card has no VAT Registration No.",
+  "body_hash": "1d8e834838e14adbe44e8d8e2b92cb63a8d9d72a60aaab18487f69467c67a8ac",
+  "fixes_issues": [],
+  "work_items": [
+    658801
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CZ/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/VAT/ERMVATRegNoValidityCheck.Codeunit.al",
+      "status": "modified",
+      "additions": 110,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/VAT/ERMVATRegNoValidityCheck.Codeunit.al",
+      "status": "modified",
+      "additions": 110,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/VAT/ERMVATRegNoValidityCheck.Codeunit.al",
+      "status": "modified",
+      "additions": 117,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/SalesHeader.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/ERMVATRegNoValidityCheck.Codeunit.al",
+      "status": "modified",
+      "additions": 110,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 19,
+    "additions": 524,
+    "deletions": 36,
+    "al": 15
+  },
+  "join": {
+    "major": "29",
+    "commit": "d30504e3670310aa9f2396745813257d80d473b8",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/36"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/36",
+        "type": "table",
+        "id": 36,
+        "name": "Sales Header",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/36"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/CZ/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Document/SalesHeader.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

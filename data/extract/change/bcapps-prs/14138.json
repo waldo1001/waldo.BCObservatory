@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14138",
+  "number": 14138,
+  "title": "[MAIN] Fix undo of final subcontracting operation after earlier operation undo (Bug 653934)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Fixed a bug where undoing the final subcontracting operation on a posted purchase receipt failed with an \"Applies-to Entry must have a value\" error when an earlier operation had already been undone. The capacity ledger entry lookup is now scoped to the receipt line's routing details and excludes reversal entries.",
+  "key_points": [
+    "Capacity ledger entry lookup now filters by receipt line's Routing No., Routing Reference No., and Operation No. to find the correct entry",
+    "Reversal entries are excluded from the lookup to prevent selecting the wrong register after an earlier undo",
+    "Output item ledger entries are only collected when the original capacity entry is the last output operation",
+    "Undoing intermediate operations now reverses only their capacity using their own time values",
+    "New test cases added to verify correct undo behavior for multiple subcontracting operations on the same receipt"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004419,
+    "changes_in_call": 1
+  }
+}

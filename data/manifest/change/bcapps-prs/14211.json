@@ -6,14 +6,22 @@
   "title": "Bug 659659: [Master Data Management] Fix cross-environment setup wizard UX quirks",
   "url": "https://github.com/microsoft/BCApps/pull/14211",
   "published_at": "2026-11-18T14:03:35Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-19T00:15:47.846Z"
+    },
+    "fetched": {
+      "at": "2026-11-21T00:22:37.220Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
     }
   },
   "input_hash": "83f6c54a507fa63d8359e4292936f00cf8bdbb75:c1",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 14211,
@@ -27,6 +35,7 @@
     "community_contribution": false,
     "title_key": "bug 659659 master data management fix cross environment setup wizard ux quirks"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-11-20T04:21:01.669Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "67194416574d8cb3a78721ec437016ba6bda6a0d2f3747a15e561696fd263243"
 }

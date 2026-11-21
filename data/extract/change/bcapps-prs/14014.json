@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14014",
+  "number": 14014,
+  "title": "Bug 648872: [UX][Manufacturing] Many actions are enabled on an empty \"Released Produciton Orders\" page resulting in errors when clicked",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Actions on the Released Production Orders page are now disabled when the page opens with no records, preventing errors when users click them on an empty list.",
+  "key_points": [
+    "Page-level Boolean RecordActionsEnabled is set in OnAfterGetCurrRecord based on whether records exist",
+    "Disables navigation and processing action groups plus the Print Label action when no records are present",
+    "Individual action conditions still apply for stricter control, while group-level enablement handles nested and extension-added actions consistently",
+    "Transition from populated to empty list after initial load is not addressed as a known platform limitation",
+    "Test coverage includes initial empty and non-empty page states plus subcontracting extension actions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Disable record-dependent actions on Released Production Orders when the page opens without any released production orders.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00447,
+    "changes_in_call": 1
+  }
+}

@@ -6,14 +6,22 @@
   "title": "[29.x][All-e]\"Specify the VAT registration number that you want to verify\" error when entering a VAT Registration No. in the Sales Order if the Customer Card has no VAT Registration No.",
   "url": "https://github.com/microsoft/BCApps/pull/14070",
   "published_at": "2026-11-18T10:22:35Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
+    },
+    "fetched": {
+      "at": "2026-11-21T00:23:30.332Z",
+      "change_class": "code",
+      "files": 19,
+      "al": 15,
+      "objects": 12,
+      "unjoined": 3
     }
   },
   "input_hash": "78cc08d4d442b9f77bf081ce43ef71e8eba1bfd5:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 14070,
@@ -29,6 +37,7 @@
     "community_contribution": false,
     "title_key": "all e specify the vat registration number that you want to verify error when entering a vat registration no in the sales order if the customer card has no vat registration no"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-20T02:22:52.611Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b0b1c675ceb5a73539e464d287515612a523beebb5c741a3e4f4289946009be9"
 }

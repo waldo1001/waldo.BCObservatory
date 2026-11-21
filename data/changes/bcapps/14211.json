@@ -1,0 +1,93 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14211,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14211",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-18T14:03:35Z",
+  "merge_commit_sha": "83f6c54a507fa63d8359e4292936f00cf8bdbb75",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Bug 659659: [Master Data Management] Fix cross-environment setup wizard UX quirks",
+  "body_hash": "b22d141219c22c6e162e135cdf0541a7752d1fffa77824212fa16f94292fc910",
+  "fixes_issues": [],
+  "work_items": [
+    659659
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MDMConnectionDetails.Page.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 17,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MasterDataManagementSetup.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/src/MDMCrossEnvConsumerTests.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/src/MasterDataMgtSetupTests.Codeunit.al",
+      "status": "modified",
+      "additions": 77,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 140,
+    "deletions": 28,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MDMConnectionDetails.Page.al",
+        "status": "modified",
+        "key": "page/7232",
+        "type": "page",
+        "id": 7232,
+        "name": "MDM Connection Details",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "page/7232"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MasterDataManagementSetup.Table.al",
+        "status": "modified",
+        "key": "table/7230",
+        "type": "table",
+        "id": 7230,
+        "name": "Master Data Management Setup",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "table/7230"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "MasterDataManagement"
+  ]
+}

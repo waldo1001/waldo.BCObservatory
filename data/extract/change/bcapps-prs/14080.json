@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14080",
+  "number": 14080,
+  "title": "[master] Reversed output entry stays uninvoiced (Invoiced Quantity = 0) after reopening a finished production order, causing quantity discrepancy in Inventory Valuation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Fixed an issue where reversed output entries in production orders remained uninvoiced after reopening, causing inventory valuation discrepancies.",
+  "key_points": [
+    "Reversed output entries now correctly track invoiced quantity when production orders are reopened",
+    "Prevents inventory valuation discrepancies caused by uninvoiced reversed entries",
+    "Fix applied to inventory adjustment calculation logic for production orders",
+    "Includes test coverage for the production order reopening scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003251,
+    "changes_in_call": 1
+  }
+}

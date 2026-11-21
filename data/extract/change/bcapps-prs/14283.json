@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/14283",
+  "number": 14283,
+  "title": "[Master]-Sales or purchase order with 100% prepayment: Prepmt. Line Amount drifts below Prepmt. Amt. Inv. after partial invoices, so the order can't be released or posted",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales"
+  ],
+  "summary": "Prepayment line amount drift is fixed for sales and purchase orders with 100% prepayment by correcting rounding calculations after partial invoicing, allowing orders to be released and posted successfully.",
+  "key_points": [
+    "Corrects rounding logic when calculating prepayment line amounts during partial invoice scenarios",
+    "Applies fix across all localized versions of Sales Line and Purchase Line tables",
+    "Prevents prepayment line amounts from drifting below the invoiced prepayment amounts",
+    "Adds test cases for full prepayment rounding scenarios in both purchases and sales",
+    "Resolves blocking issue preventing order release and posting with 100% prepayment"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004614,
+    "changes_in_call": 1
+  }
+}

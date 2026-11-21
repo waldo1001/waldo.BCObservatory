@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13899,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13899",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-20T13:02:25Z",
+  "merge_commit_sha": "8dca9328b6509375a3cac6607012f9fd924f72e5",
+  "author": "frankmortensen",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "Bugfix/issue 13425 shopify wrong curr amount refund",
+  "body_hash": "8076215ebd52ea28d1e560b0ebcf5df420200b44ba93e76eb7ab599f6719c2ee",
+  "fixes_issues": [
+    13425
+  ],
+  "work_items": [
+    658776
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Order Return Refund Processing/Codeunits/ShpfyCreateSalesDocRefund.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Shopify/Test/Order Refunds/ShpfyOrderRefundTest.Codeunit.al",
+      "status": "modified",
+      "additions": 74,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 76,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Order Return Refund Processing/Codeunits/ShpfyCreateSalesDocRefund.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/30246",
+        "type": "codeunit",
+        "id": 30246,
+        "name": "Shpfy Create Sales Doc. Refund",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "codeunit/30246"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ],
+  "issues": [
+    {
+      "number": 13425,
+      "title": "[Bug]: Shopify Connector: Wrong amount is used to create sales line from refund shipping line when shop currency and presentment currency is not the same",
+      "state": "closed"
+    }
+  ]
+}

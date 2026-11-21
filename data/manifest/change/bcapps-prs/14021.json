@@ -6,10 +6,18 @@
   "title": "Finance internal new body layouts and obsolete current",
   "url": "https://github.com/microsoft/BCApps/pull/14021",
   "published_at": "2026-11-20T12:57:41Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-11-21T00:15:56.434Z"
+    },
+    "fetched": {
+      "at": "2026-11-21T00:20:12.303Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
     }
   },
   "input_hash": "20e1531136fdc30d1546c34ef8eae40f28194f40:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "finance internal new body layouts and obsolete current"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ec7efe0e8dede698267d0ce8640988b123bb7b57c7cc6d6d78e5a8c5238c2c03"
 }
