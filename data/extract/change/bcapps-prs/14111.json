@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14111",
+  "number": 14111,
+  "title": "Slice 636866: [Subcontracting] Subcontracting Summary Factbox on Released Production Order Card",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "A read-only Subcontracting Summary FactBox was added to the Released Production Order Card showing nine order-level indicators including routing lines, purchase order quantities, received/invoiced quantities, and WIP balances with matching detail drilldowns.",
+  "key_points": [
+    "New FactBox displays nine order-level indicators for subcontracting orders",
+    "Provides drilldowns to subcontracting routing lines, purchase orders, receipt lines, and invoice lines",
+    "Uses approved literal document quantity sums with signed WIP balances",
+    "Includes eligibility, refresh, and execution permissions without base app changes",
+    "32 new AL test procedures added across existing test suites"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": "Add a read-only Subcontracting Summary FactBox to the Released Production Order Card, providing nine order-level indicators with matching detail drilldowns.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004684,
+    "changes_in_call": 1
+  }
+}
