@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:46:40.499Z"
+  at: "2026-11-22T00:48:37.330Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3bec237f7850b436dd6519d5b185c241643dc1a397d7913b16bf8a7c8f24ea7a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/W1/BaseApp/RoleCenters/SecurityAdministrator.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Layers/W1/BaseApp/RoleCenters/SecurityAdministrator.Profile.al
     title: src/Layers/W1/BaseApp/RoleCenters/SecurityAdministrator.Profile.al (releases/29.x)
     date: null
-    commit: d30504e3670310aa9f2396745813257d80d473b8
+    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "SECURITY ADMINISTRATOR" in Base Application (Microsoft.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.RoleCenters · captioned "Administration of users, security groups and permissions" · BC23-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/W1/BaseApp/RoleCenters/SecurityAdministrator.Profile.al) · facts from BC29
+Base Application · Microsoft.RoleCenters · captioned "Administration of users, security groups and permissions" · BC23-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Layers/W1/BaseApp/RoleCenters/SecurityAdministrator.Profile.al) · facts from BC29
 
 ## Properties
 

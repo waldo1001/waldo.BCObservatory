@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:12.483Z"
   flags: []
 generated:
-  at: "2026-11-13T01:01:22.016Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,6 +108,7 @@ links:
     - change/bcapps/13166
     - change/bcapps/13293
     - change/bcapps/13724
+    - change/bcapps/13991
     - change/bcapps/9297
     - change/bcapps/9333
     - change/bcapps/9451
@@ -199,6 +200,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13166 [Master]-WIP transfer warehouse shipment incorrectly requires Bin Code](../../../../changes/bcapps/13166.md) (code change): "posting a warehouse shipment for a WIP transfer"
 - [#13293 [29.X]-WIP transfer warehouse shipment incorrectly requires Bin Code](../../../../changes/bcapps/13293.md) (code change): "posting a warehouse shipment for a WIP transfer"
 - [#13724 Bug 651757: Allow warehouse pick for MTO subassembly after registered put-away](../../../../changes/bcapps/13724.md) (code change): "Extended warehouse-picking eligibility to include Planning Level 1 components"
+- [#13991 [Main][All-E] Warehouse Pick cannot be updated with newly received quantity after Purchase Receipt has been posted](../../../../changes/bcapps/13991.md) (code change): "Warehouse Pick cannot be updated with newly received quantity after Purchase Receipt has been posted"
 - [#9297 [Main]- Error The Bin Content does not exist.Not able to post an Inventory Pick for Assemble to Order](../../../../changes/bcapps/9297.md) (code change): "Fixed a bug preventing posting of inventory picks for assemble-to-order items"
 - [#9333 [Main]-Bin content Block Movement does not prevent outbound posting for negative adjustments and sales orders](../../../../changes/bcapps/9333.md) (code change): "Bin content blocks are now checked during sales order posting to restrict movements"
 - [#9451 [Extensibility Request] issue 30292: add temporary Warehouse Activity Line parameter to OnBeforeCreateWhseActivHeader](../../../../changes/bcapps/9451.md) (code change): "allowing subscribers to inspect pick lines before a warehouse activity header is created"

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -310,13 +310,11 @@ links:
   videos:
     - video/-SGaVGOkiF0
     - video/OvI9jaA1mJY
-    - video/Qz-V7qvOY-8
     - video/Xc3ISQ7NAaQ
   posts:
     - post/demiliani-com/12076
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030
     - post/yzhums-com/68956
-    - post/yzhums-com/70840
     - post/yzhums-com/71463
     - post/yzhums-com/75245
     - post/yzhums-com/76268
@@ -348,8 +346,8 @@ children:
 coverage:
   learn: 25
   code: 94
-  video: 4
-  blog: 7
+  video: 3
+  blog: 6
   guideline: 0
 bc_forms:
   - 6
@@ -542,13 +540,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: introducing the Payables Agent.](../../../../posts/demiliani-com/12076.md) (community post): "accounts payable; automation; ai agent; invoice processing; vendor invoices"
 - [Untangling Your Books: Understanding Application of Entries in Business Central](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030.md) (community post): "customer and vendor entries typically require manual or configured auto-apply rules"
 - [Business Central 2025 wave 2 (BC27.1): Use the Account Payable Role Center](../../../../posts/yzhums-com/68956.md) (community post): "new Accounts Payable Administrator Role Center that consolidates purchase documents"
-- [Dynamics 365 Business Central: Copy Comments from Vendor to Purchase Document – Customization](../../../../posts/yzhums-com/70840.md) (community post): "customize Business Central to automatically copy comments from vendor"
 - [Business Central 2026 release wave 1 (BC28): Calculate withholding taxes for vendors (Withholding Tax)](../../../../posts/yzhums-com/71463.md) (community post): "automatically calculates and withholds taxes from vendor payments"
 - [Business Central 2026 release wave 1 (BC28.4): Speed up processing with Known Senders in Payables Agent](../../../../posts/yzhums-com/75245.md) (community post): "payables agent; email automation; vendor invoices; approval workflow; trust management"
 - [Business Central 2026 release wave 2 (BC29): Set up vendor-specific number series for self-billing invoices](../../../../posts/yzhums-com/76268.md) (community post): "Organizations can now define and assign dedicated numbering sequences per vendor"
 - [Introducing Payment Times Analysis in Business Central (2023 release wave 2)](../../../../videos/-SGaVGOkiF0.md) (video): "vendor payments; payment practices; due dates"
 - [What's New: Payables Agent (2026 release wave 1)](../../../../videos/OvI9jaA1mJY.md) (video): "One-to-one invoice and purchase order line matching; Receipt quantity validation"
-- [What's New: Enhancements in E-Documents (2025 release wave 1)](../../../../videos/Qz-V7qvOY-8.md) (video): "automated attachments; deletion functionality; e-document services. Shows: Delete incorrect E-documents"
 - [What's New: Payables Agent Update (2025 release wave 2)](../../../../videos/Xc3ISQ7NAaQ.md) (video): "payables agent; invoice processing; vendor invoices; ai-powered automation"
 
 ## Business Central pages and reports

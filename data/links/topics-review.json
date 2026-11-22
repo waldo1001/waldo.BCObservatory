@@ -191,46 +191,34 @@
       }
     },
     "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric": {
-      "post/bertverbeek-nl/1318@5fbd2bb16b9536fc": {
+      "post/bertverbeek-nl/1318@66757640fefca2c5": {
         "verdict": "keep",
-        "reason": "Explains Business Central's native Fabric integration, how it syncs data and what it requires, which is the subject of this section.",
-        "at": "2026-11-05T00:52:03.870Z",
+        "reason": "It explains how the native Business Central to Fabric integration works, how it is set up and what its requirements are, which is what this section documents.",
+        "at": "2026-11-22T00:56:29.202Z",
         "v": 2
       },
-      "post/bertverbeek-nl/1342@21b7b25e74fbdb86": {
+      "post/bertverbeek-nl/1342@c17dc7ac9511127e": {
         "verdict": "keep",
-        "reason": "Shows how to track changes in Business Central data mirrored to Fabric, which builds directly on the documented integration.",
-        "at": "2026-11-05T00:52:03.870Z",
+        "reason": "It shows a practice that builds on mirrored Business Central data in Fabric by using the delta change data feed to track changes.",
+        "at": "2026-11-22T00:56:29.202Z",
         "v": 2
       },
-      "post/demiliani-com/15981@1e3ae1a50e02a848": {
+      "post/thinkaboutit-be/8359@a6bca20eafd3b9df": {
         "verdict": "keep",
-        "reason": "Announces Business Central data mirroring to Fabric and covers its setup, capacity needs and limits.",
-        "at": "2026-11-05T00:52:03.870Z",
+        "reason": "Part of this conference recap discusses native Business Central to Fabric mirroring and what it means for analytics.",
+        "at": "2026-11-22T00:56:29.202Z",
         "v": 2
       },
-      "post/thinkaboutit-be/8229@be6eda255137e4a4": {
+      "post/yzhums-com/77184@cfe1141b1a64f50b": {
         "verdict": "keep",
-        "reason": "Describes how to set up and monitor Business Central mirroring to Fabric.",
-        "at": "2026-11-05T00:52:03.870Z",
+        "reason": "It gives detailed setup and monitoring steps for mirroring Business Central data to Microsoft Fabric.",
+        "at": "2026-11-22T00:56:29.202Z",
         "v": 2
       },
-      "post/thinkaboutit-be/8359@db8d195b01005a25": {
+      "video/kOCiyVql0go@3896a9065d8984c8": {
         "verdict": "keep",
-        "reason": "A conference recap that includes a substantive part on native Business Central-Fabric mirroring.",
-        "at": "2026-11-05T00:52:03.870Z",
-        "v": 2
-      },
-      "post/waldo-be/318707@075857747db2e4d8": {
-        "verdict": "keep",
-        "reason": "Covers native mirroring to Fabric: the setup, the monitoring pages and the costs.",
-        "at": "2026-11-05T00:52:03.870Z",
-        "v": 2
-      },
-      "video/kOCiyVql0go@49918665f6b1dd4c": {
-        "verdict": "keep",
-        "reason": "Official video demonstrating Business Central's integration with Microsoft Fabric.",
-        "at": "2026-11-05T00:52:03.870Z",
+        "reason": "This Microsoft video demonstrates the Fabric integration app, the mirrored database, synchronization logs and permissions.",
+        "at": "2026-11-22T00:56:29.202Z",
         "v": 2
       }
     },
@@ -798,58 +786,82 @@
       }
     },
     "topic/business-central/business-functionality/finance": {
+      "post/gerardorenteria-blog/14099@2a8be659fe886ebe": {
+        "verdict": "keep",
+        "reason": "Community ideas roundup with a finance part covering financial reporting, deferrals, SEPA and intercompany.",
+        "at": "2026-11-22T00:56:43.302Z",
+        "v": 2
+      },
+      "post/gerardorenteria-blog/14103@78c36a7a4a3f5f8d": {
+        "verdict": "keep",
+        "reason": "Includes finance ideas on VAT ID validation, foreign currency adjustments and bank reconciliation.",
+        "at": "2026-11-22T00:56:43.302Z",
+        "v": 2
+      },
+      "post/gerardorenteria-blog/14595@d578ce4454e6a906": {
+        "verdict": "keep",
+        "reason": "Roundup includes finance-area ideas such as e-documents, prepayment invoice issues and bank account assignment.",
+        "at": "2026-11-22T00:56:43.302Z",
+        "v": 2
+      },
+      "post/gerardorenteria-blog/15508@9c3779aa7c8babd2": {
+        "verdict": "keep",
+        "reason": "Finance ideas on e-invoicing/E-Documents and SEPA/ISO 20022 payment exports fall within Finance.",
+        "at": "2026-11-22T00:56:43.302Z",
+        "v": 2
+      },
       "post/miljan-rs/908@10fa24e1f939962e": {
-        "verdict": "drop",
-        "reason": "Reversing G/L transactions is a narrow G/L task that fits the 'Work with the chart of accounts and general ledger' subtopic better than the Finance overview.",
-        "at": "2026-10-26T08:44:56.712Z",
+        "verdict": "keep",
+        "reason": "Explains reversing G/L transactions, part of working with the general ledger.",
+        "at": "2026-11-22T00:56:43.302Z",
         "v": 2
       },
       "post/thedynamicsexplorer-com/10122@34c0240bd9485c2b": {
-        "verdict": "drop",
-        "reason": "Month-end accruals through recurring journals fit the closing-periods / G/L subtopics better than the Finance overview.",
-        "at": "2026-10-26T08:44:56.712Z",
-        "v": 2
-      },
-      "post/yzhums-com/71603@bd1401b024142e11": {
-        "verdict": "drop",
-        "reason": "A general release-plan summary covering every product area, not anything this Finance section documents.",
-        "at": "2026-10-26T08:44:56.712Z",
+        "verdict": "keep",
+        "reason": "Month-end accruals via recurring general journal relate to closing periods and G/L work.",
+        "at": "2026-11-22T00:56:43.302Z",
         "v": 2
       },
       "post/yzhums-com/73165@f96003c29511601d": {
         "verdict": "keep",
-        "reason": "The new native Expense Management module handles posting and reimbursing employee expenses, which is finance functionality with no more specific subtopic listed.",
-        "at": "2026-10-26T08:44:56.712Z",
+        "reason": "New native module for posting and reimbursing employee expenses, a finance process.",
+        "at": "2026-11-22T00:56:43.302Z",
         "v": 2
       },
       "video/d4mYltz4Zwg@d029e04825f9fdfb": {
         "verdict": "keep",
-        "reason": "Withholding tax setup, posting and entries are a finance capability that no more specific listed subtopic covers.",
-        "at": "2026-10-26T08:44:56.712Z",
+        "reason": "Withholding tax setup and posting on vendor payments is tax handling within Finance.",
+        "at": "2026-11-22T00:56:43.302Z",
         "v": 2
       },
       "video/HI7VcPzR2OE@d14678e2375608c4": {
         "verdict": "keep",
-        "reason": "A financial management overview covering revaluation, consolidation, collections and financial reports fits the Finance parent section.",
-        "at": "2026-10-26T08:44:56.712Z",
+        "reason": "Overview of financial management features: G/L revaluation, consolidation, currencies, reminders.",
+        "at": "2026-11-22T00:56:43.302Z",
+        "v": 2
+      },
+      "video/kDixaZFPYE8@070570a075401a46": {
+        "verdict": "keep",
+        "reason": "Covers expense agent receipt processing for the expense management finance capability.",
+        "at": "2026-11-22T00:56:43.302Z",
         "v": 2
       },
       "video/lcpk-gPfGQU@4a422d3e180c1146": {
         "verdict": "keep",
-        "reason": "The excise tax framework and journal are a finance tax capability with no more specific listed subtopic.",
-        "at": "2026-10-26T08:44:56.712Z",
+        "reason": "Excise tax framework and journal is tax handling within financial management.",
+        "at": "2026-11-22T00:56:43.302Z",
         "v": 2
       },
       "video/N_J1HB_fUCM@7f41ce674768fbbc": {
         "verdict": "keep",
-        "reason": "A Finance what's-new overview spanning excise and withholding taxes, self-billing and e-invoicing fits the Finance parent section.",
-        "at": "2026-10-26T08:44:56.712Z",
+        "reason": "Overview of what's new in Finance, including taxes, self-billing and e-invoicing.",
+        "at": "2026-11-22T00:56:43.302Z",
         "v": 2
       },
       "video/pE19K17wpgI@62cd06e8ce323480": {
         "verdict": "keep",
-        "reason": "Enforced digital vouchers tie attachments to G/L entries and documents, a finance compliance feature documented under Finance.",
-        "at": "2026-10-26T08:44:56.712Z",
+        "reason": "Digital vouchers enforced on journals and G/L entries are part of general ledger accounting.",
+        "at": "2026-11-22T00:56:43.302Z",
         "v": 2
       }
     },
@@ -1229,70 +1241,76 @@
       }
     },
     "topic/business-central/business-functionality/finance/manage-payables": {
-      "post/demiliani-com/12076@d1b04fe1b123b407": {
+      "post/demiliani-com/12076@4bd1e5994266d7fb": {
         "verdict": "keep",
-        "reason": "Payables Agent automates the creation of vendor purchase invoices, which is core accounts payable work.",
-        "at": "2026-10-26T08:17:43.914Z",
+        "reason": "The Payables Agent automates accounts payable work by drafting purchase invoices from vendor emails.",
+        "at": "2026-11-22T00:56:39.321Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2182793503205531345@b4b36ab830d3ecfb": {
         "verdict": "keep",
-        "reason": "Explains how payments are applied to invoices, which matches the subtopic on applying payments.",
-        "at": "2026-10-26T08:17:43.914Z",
+        "reason": "Applying vendor entries to payments is part of the section's payments and payment application subtopics.",
+        "at": "2026-11-22T00:56:39.321Z",
         "v": 2
       },
       "post/thedynamicsexplorer-com/9815@18b1825dd67ab4a0": {
         "verdict": "drop",
-        "reason": "Adjusting VAT differences is documented more exactly in the sibling VAT section.",
-        "at": "2026-10-26T08:17:43.914Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/7496@2f17f066dfd0fbda": {
-        "verdict": "keep",
-        "reason": "Covers Payables Agent improvements for matching purchase invoices to orders.",
-        "at": "2026-10-26T08:17:43.914Z",
-        "v": 2
-      },
-      "post/yzhums-com/65721@e6ba895be078c157": {
-        "verdict": "keep",
-        "reason": "Walks through setting up the Payables Agent to create draft purchase invoices from vendor emails.",
-        "at": "2026-10-26T08:17:43.914Z",
+        "reason": "Changing VAT amounts and VAT differences is covered more exactly by the sibling VAT section.",
+        "at": "2026-11-22T00:56:39.321Z",
         "v": 2
       },
       "post/yzhums-com/68956@8994a4a05ac084f6": {
         "verdict": "keep",
-        "reason": "A role center that brings together AP purchase documents and payment tasks.",
-        "at": "2026-10-26T08:17:43.914Z",
+        "reason": "The Accounts Payable Role Center brings payables documents and payment tasks into one place.",
+        "at": "2026-11-22T00:56:39.321Z",
         "v": 2
       },
       "post/yzhums-com/70840@77e84b7b2b6efc57": {
-        "verdict": "keep",
-        "reason": "A customization that extends vendor and purchase document handling in Purchases & Payables Setup.",
-        "at": "2026-10-26T08:17:43.914Z",
+        "verdict": "drop",
+        "reason": "A code customization that copies vendor comments onto purchase documents is not about managing payables.",
+        "at": "2026-11-22T00:56:39.321Z",
         "v": 2
       },
       "post/yzhums-com/71463@fb72b94e71f39b64": {
         "verdict": "keep",
-        "reason": "Withholding tax is calculated on vendor invoices and payments, which is part of paying vendors.",
-        "at": "2026-10-26T08:17:43.914Z",
+        "reason": "Withholding tax is calculated when vendor invoices are posted or paid, which is payables processing.",
+        "at": "2026-11-22T00:56:39.321Z",
         "v": 2
       },
-      "post/yzhums-com/72842@31e202355784ad44": {
+      "post/yzhums-com/75245@676559edfab6ddab": {
         "verdict": "keep",
-        "reason": "Creates purchase invoices from uploaded PDFs, which is part of processing payables.",
-        "at": "2026-10-26T08:17:43.914Z",
+        "reason": "Known Senders changes how the Payables Agent processes vendor invoices.",
+        "at": "2026-11-22T00:56:39.321Z",
         "v": 2
       },
       "post/yzhums-com/76268@4891f7024da1ce80": {
         "verdict": "keep",
-        "reason": "Vendor-specific number series for self-billed purchase invoices is a payables capability.",
-        "at": "2026-10-26T08:17:43.914Z",
+        "reason": "Vendor-specific number series for self-billed purchase invoices relate to handling vendor invoices in payables.",
+        "at": "2026-11-22T00:56:39.321Z",
         "v": 2
       },
       "video/-SGaVGOkiF0@04f171bff949af50": {
         "verdict": "keep",
-        "reason": "Analyzes vendor payment times and due dates, which relates to making payments.",
-        "at": "2026-10-26T08:17:43.914Z",
+        "reason": "Payment Times Analysis reports on how promptly vendors are paid, which relates to making payments.",
+        "at": "2026-11-22T00:56:39.321Z",
+        "v": 2
+      },
+      "video/OvI9jaA1mJY@68d5b1c58de62331": {
+        "verdict": "keep",
+        "reason": "The Payables Agent updates cover matching vendor invoices to purchase order lines in accounts payable.",
+        "at": "2026-11-22T00:56:39.321Z",
+        "v": 2
+      },
+      "video/Qz-V7qvOY-8@a657fff775d11168": {
+        "verdict": "drop",
+        "reason": "E-document enhancements are documented by the sibling E-Documents section.",
+        "at": "2026-11-22T00:56:39.321Z",
+        "v": 2
+      },
+      "video/Xc3ISQ7NAaQ@dd1708aa3d981673": {
+        "verdict": "keep",
+        "reason": "The Payables Agent update covers AI processing of vendor invoices, approvals and payment suggestions in accounts payable.",
+        "at": "2026-11-22T00:56:39.321Z",
         "v": 2
       }
     },
@@ -3680,88 +3698,70 @@
       }
     },
     "topic/business-central/copilot-and-agent-capabilities": {
+      "post/freddysblog/https://freddysblog.com/2026/08/17/which-tasks-should-you-delegate-to-ai-agents@f72e8594b3e110d4": {
+        "verdict": "drop",
+        "reason": "A general essay on delegating tasks to AI agents, with nothing about Business Central's Copilot or agent features.",
+        "at": "2026-11-22T00:56:36.077Z",
+        "v": 2
+      },
+      "post/freddysblog/https://freddysblog.com/2026/08/23/which-model-should-you-use-for-which-task@80c0cd1239080258": {
+        "verdict": "drop",
+        "reason": "About choosing AI models and designing harnesses in general, not any Business Central Copilot capability.",
+        "at": "2026-11-22T00:56:36.077Z",
+        "v": 2
+      },
       "post/gerardorenteria-blog/15508@9c3779aa7c8babd2": {
         "verdict": "drop",
-        "reason": "A monthly roundup of community ideas that only mentions Copilot as one area, with no Copilot capability explained.",
-        "at": "2026-11-17T00:57:31.168Z",
+        "reason": "A roundup of about 60 community ideas across all areas that only mentions Copilot in passing.",
+        "at": "2026-11-22T00:56:36.077Z",
         "v": 2
       },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-tech-days-2026/@a06895f00c29036d": {
-        "verdict": "drop",
-        "reason": "Reflections from a conference on AI agent adoption in general, not on any Business Central agent or Copilot feature this section documents.",
-        "at": "2026-11-17T00:57:31.168Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/7284@b770c836c51cb9d0": {
+      "post/thinkaboutit-be/7797@7ee0656dce168aca": {
         "verdict": "keep",
-        "reason": "Reports that the Payables Agent and Sales Order Agent are now generally available, and both are documented here.",
-        "at": "2026-11-17T00:57:31.168Z",
+        "reason": "Borderline keep: a list of training sessions, but it points to sessions on the new Payables Agent and other Copilot and agent features.",
+        "at": "2026-11-22T00:56:36.077Z",
         "v": 2
       },
-      "post/thinkaboutit-be/7797@ffc5fc0ed33817e8": {
-        "verdict": "drop",
-        "reason": "An index of launch-event training sessions across all areas, mentioning the Payables Agent only in passing without explaining it.",
-        "at": "2026-11-17T00:57:31.168Z",
-        "v": 2
-      },
-      "post/waldo-be/318712@028849109406a45b": {
-        "verdict": "drop",
-        "reason": "About a tool for navigating release-event videos, not about Copilot or agent capabilities.",
-        "at": "2026-11-17T00:57:31.168Z",
-        "v": 2
-      },
-      "post/yzhums-com/69476@404823025dc06f63": {
+      "post/yzhums-com/69476@cf192735d838cb17": {
         "verdict": "keep",
-        "reason": "Walks through the same Copilot and agent capabilities this section lists, such as marketing text, number series, analysis assist and the Sales Order Agent.",
-        "at": "2026-11-17T00:57:31.168Z",
-        "v": 2
-      },
-      "post/yzhums-com/69681@2f966b47e983d58d": {
-        "verdict": "drop",
-        "reason": "A year-end index of the author's blog posts with no Copilot content of its own.",
-        "at": "2026-11-17T00:57:31.168Z",
+        "reason": "Walks through nearly every Copilot and agent capability this section documents.",
+        "at": "2026-11-22T00:56:36.077Z",
         "v": 2
       },
       "video/bHXEbtsx0JY@2ef279fa3b2b0c53": {
         "verdict": "drop",
-        "reason": "Sustainability emissions Copilot is not among this section's documented capabilities and belongs to the sustainability docs.",
-        "at": "2026-11-17T00:57:31.168Z",
+        "reason": "Sustainability Copilot for emissions calculation is not among this section's capabilities; it probably belongs with sustainability documentation, though the evidence doesn't confirm that.",
+        "at": "2026-11-22T00:56:36.077Z",
         "v": 2
       },
       "video/GlY_e-jH0V0@247f507f5eedf235": {
         "verdict": "drop",
-        "reason": "General advice on adopting AI and Copilot prompts and skills, not about Business Central Copilot features.",
-        "at": "2026-11-17T00:57:31.168Z",
+        "reason": "About general Copilot adoption and prompting habits, not Business Central's Copilot features.",
+        "at": "2026-11-22T00:56:36.077Z",
         "v": 2
       },
       "video/p460TIQL2zw@051ea811e09479f4": {
         "verdict": "drop",
-        "reason": "A talk on mental load in the AI era, unrelated to Business Central Copilot capabilities.",
-        "at": "2026-11-17T00:57:31.168Z",
-        "v": 2
-      },
-      "video/PeI-Jv4KVn8@d7787afd64d454ce": {
-        "verdict": "drop",
-        "reason": "Demonstrates a Copilot for maintenance requests, which is not a capability this section documents.",
-        "at": "2026-11-17T00:57:31.168Z",
+        "reason": "About mental load from AI tools in general; nothing this section documents.",
+        "at": "2026-11-22T00:56:36.077Z",
         "v": 2
       },
       "video/q0TxpWfm9rc@05e46dc086a9b338": {
         "verdict": "keep",
-        "reason": "Covers improvements to Copilot summaries, which matches the Summarize subtopic.",
-        "at": "2026-11-17T00:57:31.168Z",
+        "reason": "Shows enhancements to Copilot summaries, which matches the Summarize subtopic.",
+        "at": "2026-11-22T00:56:36.077Z",
+        "v": 2
+      },
+      "video/WFAZLsUTk20@b5038b1844a7c226": {
+        "verdict": "drop",
+        "reason": "Agent instruction history and the instruction playground are about building agents, which likely belongs in the development or AI integration sections.",
+        "at": "2026-11-22T00:56:36.077Z",
         "v": 2
       },
       "video/xJ8gYzvWnTI@c35c64bfa5d8707f": {
         "verdict": "keep",
-        "reason": "Demonstrates the agent task pane, Sales Order Agent and Payables Agent, which this section documents.",
-        "at": "2026-11-17T00:57:31.168Z",
-        "v": 2
-      },
-      "video/YUgTqJsNLW0@96696183ba66169e": {
-        "verdict": "drop",
-        "reason": "Speculates about a future voice-enabled agent rather than any agent this section documents.",
-        "at": "2026-11-17T00:57:31.168Z",
+        "reason": "Shows the Sales Order Agent, the Payables Agent, the agent task pane and reviewing agent changes.",
+        "at": "2026-11-22T00:56:36.077Z",
         "v": 2
       }
     },
@@ -4280,204 +4280,210 @@
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr": {
-      "video/2isrH3RcSK8@96278b9fcbfa908f": {
+      "video/06vgkq2EXmA@415e929b6b56e8ad": {
         "verdict": "keep",
-        "reason": "Launch event covers Copilot Chat for data inquiries and multilingual support, part of the in-product Copilot chat experience.",
-        "at": "2026-11-10T00:54:10.078Z",
+        "reason": "Explains how Copilot Chat in Business Central works inside: intent detection, data grounding and multi-turn conversation.",
+        "at": "2026-11-22T00:56:34.285Z",
         "v": 2
       },
-      "video/bHXEbtsx0JY@0045902d77a690f7": {
-        "verdict": "drop",
-        "reason": "Sustainability emissions calculation Copilot is a separate capability not documented in this section.",
-        "at": "2026-11-10T00:54:10.078Z",
+      "video/2isrH3RcSK8@96278b9fcbfa908f": {
+        "verdict": "keep",
+        "reason": "The launch event covers Copilot Chat for data questions and its support for multiple languages, among many other topics.",
+        "at": "2026-11-22T00:56:34.285Z",
         "v": 2
       },
       "video/BofJJPqgrTI@c0db061a5384c7fa": {
         "verdict": "drop",
-        "reason": "About Excel report layouts and Excel's Copilot, not Microsoft Copilot in Business Central.",
-        "at": "2026-11-10T00:54:10.078Z",
+        "reason": "About Excel report layouts and Excel's own Copilot, not Copilot Chat in Business Central.",
+        "at": "2026-11-22T00:56:34.285Z",
         "v": 2
       },
       "video/lNASlydCidI@f18c09cb8ec277f1": {
         "verdict": "drop",
-        "reason": "Developer toolkit for building generative AI features, not the Microsoft Copilot chat experience this section documents.",
-        "at": "2026-11-10T00:54:10.078Z",
+        "reason": "About the developer toolkit for building your own AI features, which this section does not document.",
+        "at": "2026-11-22T00:56:34.285Z",
         "v": 2
       },
       "video/mhfjycxWTyY@c13bac69b1be408f": {
         "verdict": "keep",
-        "reason": "Directly covers the new Microsoft Copilot Chat experience in Business Central, including enablement and licensing.",
-        "at": "2026-11-10T00:54:10.078Z",
+        "reason": "Directly about the new Microsoft Copilot Chat experience in Business Central, including licensing and how admins turn it on.",
+        "at": "2026-11-22T00:56:34.285Z",
         "v": 2
       },
       "video/TSLXzbeyE7Y@115b88135d2b7633": {
         "verdict": "keep",
-        "reason": "Demonstrates Microsoft Copilot Chat in Business Central for data analysis and assistance.",
-        "at": "2026-11-10T00:54:10.078Z",
+        "reason": "Demonstrates the new Microsoft Copilot Chat in Business Central answering sales and setup questions.",
+        "at": "2026-11-22T00:56:34.285Z",
         "v": 2
       },
       "video/V7NgFOIcGgM@33fa3f6007423f1b": {
         "verdict": "keep",
-        "reason": "Explains how Microsoft Copilot Chat in Business Central works, including permissions and capability control.",
-        "at": "2026-11-10T00:54:10.078Z",
+        "reason": "Explains how the new Copilot Chat works, including permissions, citations and the settings that control it.",
+        "at": "2026-11-22T00:56:34.285Z",
         "v": 2
       },
       "video/wBx8TkIHJ04@dc3d2b8dd84c6624": {
         "verdict": "keep",
-        "reason": "Introduces Copilot Chat in Business Central with data queries and permission filtering.",
-        "at": "2026-11-10T00:54:10.078Z",
+        "reason": "Introduces Copilot Chat in Business Central, including multi-turn conversations and permission-based data access.",
+        "at": "2026-11-22T00:56:34.285Z",
         "v": 2
       },
       "video/WL3m2dffwU8@875181de76274573": {
         "verdict": "keep",
-        "reason": "Introduces the unified Microsoft Copilot Chat in Business Central and how it answers questions on BC data.",
-        "at": "2026-11-10T00:54:10.078Z",
+        "reason": "Introduces the unified Microsoft Copilot Chat in Business Central and how it answers questions about Business Central data.",
+        "at": "2026-11-22T00:56:34.285Z",
         "v": 2
       },
       "video/YX9UfUF0EsA@8d0160ba05894eb6": {
         "verdict": "keep",
-        "reason": "Covers M365 Copilot chat in Business Central, its data access, licensing, and admin configuration.",
-        "at": "2026-11-10T00:54:10.078Z",
+        "reason": "Covers M365 Copilot Chat in Business Central, including licensing, admin setup, permissions and data access.",
+        "at": "2026-11-22T00:56:34.285Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/3496@6eeadec8a4c6e41b": {
+        "verdict": "drop",
+        "reason": "Covers Microsoft 365 Copilot Cowork skills, which this section doesn't document; it isn't the Business Central chat.",
+        "at": "2026-11-22T00:56:39.258Z",
         "v": 2
       },
       "post/demiliani-com/12439@560f52bcca4c1aad": {
         "verdict": "drop",
-        "reason": "The Summary FactBox is covered more exactly by the sibling Summarize (preview) section.",
-        "at": "2026-11-10T00:54:14.369Z",
-        "v": 2
-      },
-      "post/gerardorenteria-blog/15298@487d245220aeb086": {
-        "verdict": "drop",
-        "reason": "Evidence Flags is a coding-assistant skill for AL development, not the Copilot chat in Business Central.",
-        "at": "2026-11-10T00:54:14.369Z",
+        "reason": "The Summary FactBox belongs to the Summarize (preview) section beside this one.",
+        "at": "2026-11-22T00:56:39.258Z",
         "v": 2
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1848764778201254677@0690ec4825bfeb69": {
         "verdict": "keep",
-        "reason": "Directly discusses the new unified Microsoft Copilot chat in Business Central and how to turn it on.",
-        "at": "2026-11-10T00:54:14.369Z",
+        "reason": "Explains the unified Copilot chat in Business Central, including licensing and how admins turn it on.",
+        "at": "2026-11-22T00:56:39.258Z",
         "v": 2
       },
       "post/thinkaboutit-be/8342@4a230f2efa38bf14": {
         "verdict": "keep",
-        "reason": "Explores the new Microsoft Copilot chat, including its data grounding, permissions and ways to check answers.",
-        "at": "2026-11-10T00:54:14.369Z",
+        "reason": "Explores the new Microsoft Copilot chat in Business Central 29, including its data sources, permissions and how to check answers.",
+        "at": "2026-11-22T00:56:39.258Z",
         "v": 2
       },
       "post/thinkaboutit-be/8348@6c35f85cccb4784c": {
         "verdict": "keep",
-        "reason": "Edit with Copilot extends the Copilot chat so users can change records in natural language, which is related to this section.",
-        "at": "2026-11-10T00:54:14.369Z",
+        "reason": "Edit with Copilot adds natural-language actions to the Copilot chat in Business Central, so it's related to this section.",
+        "at": "2026-11-22T00:56:39.258Z",
         "v": 2
       },
-      "post/vondervoort-be/84@a07399802f0cdd86": {
+      "post/yzhums-com/65164@58b70bb97b57d7c9": {
         "verdict": "drop",
-        "reason": "Covers building AI agents and AI pair programming in AL, not the Copilot chat.",
-        "at": "2026-11-10T00:54:14.369Z",
+        "reason": "Ask Learn is an assistant on the Microsoft Learn site, not a Business Central capability.",
+        "at": "2026-11-22T00:56:39.258Z",
         "v": 2
       },
       "post/yzhums-com/65781@c7a43bd0a11dba53": {
         "verdict": "keep",
-        "reason": "Covers Copilot chat answering questions about installed add-on apps, a capability of the chat this section covers.",
-        "at": "2026-11-10T00:54:14.369Z",
+        "reason": "Covers the Copilot chat in Business Central explaining installed add-on apps; this is the older chat the new one replaces, and no section beside this one documents it.",
+        "at": "2026-11-22T00:56:39.258Z",
         "v": 2
       },
       "post/yzhums-com/67542@63d1f73752e6bba5": {
         "verdict": "keep",
-        "reason": "Covers Copilot chat features such as finding data, task guidance and language support, which the new chat builds on.",
-        "at": "2026-11-10T00:54:14.369Z",
+        "reason": "Covers improvements to the Copilot chat in Business Central: more languages, finding data in plain language, and task help.",
+        "at": "2026-11-22T00:56:39.258Z",
         "v": 2
       },
-      "post/yzhums-com/67675@7aff63ea4e4b18fc": {
+      "post/yzhums-com/67675@4367633bdb1dbcd3": {
         "verdict": "drop",
-        "reason": "Mainly about resizing side panes in general, not about Copilot chat features.",
-        "at": "2026-11-10T00:54:14.369Z",
+        "reason": "Covers a general change to resizing side panes, not the Copilot chat capability this section documents.",
+        "at": "2026-11-22T00:56:39.258Z",
         "v": 2
       },
-      "post/yzhums-com/75811@33d6b3d3a1d7f63a": {
+      "post/yzhums-com/75811@dee39f6485728482": {
         "verdict": "keep",
-        "reason": "Directly describes the unified Microsoft Copilot chat experience in BC29 that this section covers.",
-        "at": "2026-11-10T00:54:14.369Z",
+        "reason": "Directly covers turning on and using the unified Microsoft Copilot chat in Business Central 29.",
+        "at": "2026-11-22T00:56:39.258Z",
         "v": 2
       },
-      "video/06vgkq2EXmA@415e929b6b56e8ad": {
+      "post/yzhums-com/77170@644b4d8d294e3869": {
         "verdict": "keep",
-        "reason": "Explains how Copilot Chat in Business Central was built, including grounding and safety.",
-        "at": "2026-11-10T00:54:14.369Z",
+        "reason": "Discusses the licensing for Copilot in Business Central and the unified chat built into Business Central 29.",
+        "at": "2026-11-22T00:56:39.258Z",
         "v": 2
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/payables-agent": {
-      "post/demiliani-com/12076@d1b04fe1b123b407": {
+      "post/demiliani-com/12076@4bd1e5994266d7fb": {
         "verdict": "keep",
-        "reason": "Introduces the Payables Agent, including setup, email monitoring and the human review of invoice drafts.",
-        "at": "2026-11-11T00:56:29.882Z",
+        "reason": "Introduces the Payables Agent and covers its setup, email monitoring and review of draft invoices.",
+        "at": "2026-11-22T00:56:38.695Z",
         "v": 2
       },
       "post/thinkaboutit-be/7496@3f7e5cd09e4014c6": {
         "verdict": "keep",
-        "reason": "Covers Payables Agent improvements: matching invoices to orders, confidence scores and more regions.",
-        "at": "2026-11-11T00:56:29.882Z",
+        "reason": "Covers Payables Agent improvements in 27.3, including matching invoices to orders, confidence scores and more regions.",
+        "at": "2026-11-22T00:56:38.695Z",
         "v": 2
       },
       "post/yzhums-com/65721@2d71c4335b88bc40": {
         "verdict": "keep",
-        "reason": "Walks through activating, configuring and using the Payables Agent.",
-        "at": "2026-11-11T00:56:29.882Z",
+        "reason": "Walks through turning on the Payables Agent, setting up its mailbox and choosing which fields it fills in.",
+        "at": "2026-11-22T00:56:38.695Z",
         "v": 2
       },
       "post/yzhums-com/68482@75dc3fca129f91e9": {
-        "verdict": "drop",
-        "reason": "Its subject is turning off capabilities to hide agent icons, which the sibling Manage Copilot and agent capabilities section covers more exactly.",
-        "at": "2026-11-11T00:56:29.882Z",
+        "verdict": "keep",
+        "reason": "Shows how to turn off the Payables Agent and hide its icon, which affects how the agent is set up and shown.",
+        "at": "2026-11-22T00:56:38.695Z",
         "v": 2
       },
-      "post/yzhums-com/72842@31e202355784ad44": {
+      "post/yzhums-com/72842@0e6785013389f717": {
         "verdict": "keep",
-        "reason": "Shows the Payables Agent creating purchase invoice drafts from uploaded PDFs.",
-        "at": "2026-11-11T00:56:29.882Z",
+        "reason": "Shows the Payables Agent creating purchase invoices from uploaded PDFs.",
+        "at": "2026-11-22T00:56:38.695Z",
         "v": 2
       },
-      "post/yzhums-com/75245@20295d7694f82b20": {
+      "post/yzhums-com/75245@676559edfab6ddab": {
         "verdict": "keep",
-        "reason": "Covers the Known Senders and email review settings in the Payables Agent.",
-        "at": "2026-11-11T00:56:29.882Z",
+        "reason": "Covers the Known Senders setting, which controls which senders the Payables Agent processes without review.",
+        "at": "2026-11-22T00:56:38.695Z",
         "v": 2
       },
       "video/FBrZwXpOhmM@506c6e81cbf95c03": {
         "verdict": "keep",
-        "reason": "Demonstrates how the Payables Agent explains the reasoning behind its field suggestions.",
-        "at": "2026-11-11T00:56:29.882Z",
+        "reason": "Demonstrates how the Payables Agent explains its field suggestions, such as G/L account and deferral code.",
+        "at": "2026-11-22T00:56:38.695Z",
         "v": 2
       },
       "video/H5EuObmeF4o@65e5d25e65e102e1": {
         "verdict": "keep",
-        "reason": "Release overview that includes several Payables Agent features, such as invoice matching and confidence levels.",
-        "at": "2026-11-11T00:56:29.882Z",
+        "reason": "A 2025 wave 2 overview that includes several Payables Agent features, such as order matching and confidence levels.",
+        "at": "2026-11-22T00:56:38.695Z",
         "v": 2
       },
       "video/OvI9jaA1mJY@68d5b1c58de62331": {
         "verdict": "keep",
-        "reason": "Dedicated video on what's new in the Payables Agent, including matching, pricing and processing.",
-        "at": "2026-11-11T00:56:29.882Z",
+        "reason": "Dedicated video on what's new for the Payables Agent in 2026 wave 1.",
+        "at": "2026-11-22T00:56:38.695Z",
         "v": 2
       },
       "video/uh5S1i7uDlo@2f0351db3089fe37": {
         "verdict": "keep",
-        "reason": "Demonstrates vendor invoice processing with the Payables Agent.",
-        "at": "2026-11-11T00:56:29.882Z",
+        "reason": "Demonstrates vendor invoice processing and manual review with the Payables Agent.",
+        "at": "2026-11-22T00:56:38.695Z",
         "v": 2
       },
-      "video/Wc8WlLZUCJc@658d230562bb07df": {
-        "verdict": "drop",
-        "reason": "A partner's internal AI transformation story; the evidence never shows the Payables Agent.",
-        "at": "2026-11-11T00:56:29.882Z",
+      "video/Xc3ISQ7NAaQ@dd1708aa3d981673": {
+        "verdict": "keep",
+        "reason": "Dedicated video on Payables Agent updates in 2025 wave 2.",
+        "at": "2026-11-22T00:56:38.695Z",
+        "v": 2
+      },
+      "video/xJ8gYzvWnTI@c35c64bfa5d8707f": {
+        "verdict": "keep",
+        "reason": "A user experience overview that shows the Payables Agent within the agent task pane and its review features.",
+        "at": "2026-11-22T00:56:38.695Z",
         "v": 2
       },
       "video/YsmwHqxL1Zc@64c4bc6ef6da42f3": {
         "verdict": "keep",
-        "reason": "Introduces the Payables Agent, including the E-Documents flow, purchase document drafts and approval.",
-        "at": "2026-11-11T00:56:29.882Z",
+        "reason": "Dedicated video introducing the Payables Agent and how it uses E-Documents.",
+        "at": "2026-11-22T00:56:38.695Z",
         "v": 2
       }
     },

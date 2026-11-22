@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/14329",
+  "input_hash": "a2e271e29a7906c4cc9640c6b89ed9ebdb198f7434c5eeb368629db5b0b7bc48",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-22T00:57:45.824Z",
+  "issues": [
+    "The description says the new Posting Date heuristic is less accurate, so which users count as eligible for the PA badge can change. behavior_change should be true.",
+    "The speedup applies to opening the Purchase Invoice page and to the agent runtime check, not only to AP users. That key point is reworded."
+  ],
+  "applied": [
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021529,
+    "changes_in_call": 6
+  }
+}

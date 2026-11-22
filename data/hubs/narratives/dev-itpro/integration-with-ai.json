@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/integration-with-ai",
-  "input_hash": "c439ef5997b42bcab98a34fb8747b6a2a06bd8446a70963a86c874f555d112f7",
-  "summary": "Integration with AI in Business Central covers how partners and developers build AI features: Copilot developer tools in AL, machine learning APIs, Model Context Protocol servers, and custom agents (preview). It answers planning, setup, connection and design questions for each area.",
-  "overview": "This section is for partners and developers who extend Business Central with AI. It is split into four areas, each with its own set of pages, and there are no standalone pages at the top level.\n\nFor generative AI inside the product, start with the developer tools for Copilot. They explain what a Copilot extension is, the System.AI module, the PromptDialog page type, Azure OpenAI setup and the transparency note. For predictive scenarios, the machine learning APIs cover Forecasting (Time Series) and Prediction, with a transparency note on limits.\n\nFor connecting external AI clients, the Model Context Protocol pages describe the Business Central MCP Server, its configuration and access control, and how to connect hosts such as VS Code, Copilot Studio, Claude, ChatGPT and GitHub Copilot CLI. They also describe the AL MCP Server for AL development tools. The agents section (preview) covers designing, creating, configuring, running and coding custom agents with the AI development toolkit in sandboxes.",
+  "input_hash": "4dea436455b688da96ef5404c07b0588d4e23d78c0876816a2520d43593d415e",
+  "summary": "Integration with AI in Business Central covers how partners build and connect AI features: Copilot developer tools in AL, machine learning APIs, Model Context Protocol servers, and designing and coding custom agents (preview). It answers planning, setup, access control and design questions.",
+  "overview": "This section groups the ways to bring AI into Business Central. It has four areas: developer tools for generative AI Copilot features, machine learning APIs for forecasting and prediction, Model Context Protocol (MCP) integration, and designing and coding agents (preview).\n\nStart with the Copilot developer tools if you are building generative AI features in AL. They explain what a Copilot extension is, the System.AI module and PromptDialog page type, Azure OpenAI setup, Help preparation and the transparency note. For classic prediction needs, the machine learning pages help you pick between the Forecasting (Time Series) API and the Prediction API.\n\nFor external AI clients, the MCP pages cover the Business Central MCP Server, its configuration and how to connect hosts, plus the AL MCP Server for AL development tools. The agents area covers the AI development toolkit for designing, prototyping, running and managing custom agents, with a subtopic on coding agents in AL.",
   "key_points": [
-    "Copilot developer tools: definition of a Copilot extension, the System.AI module, the PromptDialog page type, Azure OpenAI setup, Business Central AI resources, Help preparation and a transparency note.",
-    "Machine learning APIs: the Forecasting (Time Series) API and the Prediction API, with guidance on which fits a task and how to use them responsibly.",
-    "The Business Central MCP Server has its own configuration and access control settings.",
+    "Copilot developer tools: what counts as a Copilot extension, the System.AI module and PromptDialog page type, Azure OpenAI setup and Business Central AI resources.",
+    "Help preparation and a transparency note are part of the Copilot developer guidance.",
+    "Machine learning APIs: the Forecasting (Time Series) API and the Prediction API, with a transparency note on capabilities, limits and responsible AI.",
+    "The Business Central MCP Server has its own configuration and access control.",
     "MCP hosts covered: VS Code, Copilot Studio, Claude, ChatGPT and GitHub Copilot CLI.",
     "The AL MCP Server supports AL development tools.",
-    "Agents (preview) are built with the AI development toolkit in sandboxes.",
-    "Agent design topics: instructions, permissions and profiles, tasks, attachments, visibility, export/import and iteration.",
-    "Agents can be coded against the Tasks AL API."
+    "Agent design and coding is in preview and uses the Business Central AI development toolkit.",
+    "Agent topics include instructions, permissions, profiles, tasks, attachments, visibility, export/import and troubleshooting."
   ],
   "members_used": 0,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-11-16T00:59:46.406Z",
+  "at": "2026-11-22T01:00:13.310Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011891
+    "cost_usd": 0.011797
   }
 }

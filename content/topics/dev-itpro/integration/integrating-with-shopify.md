@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:56:29.802Z"
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -118,6 +118,7 @@ links:
     - change/bcapps/12139
     - change/bcapps/12148
     - change/bcapps/13883
+    - change/bcapps/13899
     - change/bcapps/14123
     - change/bcapps/8554
     - change/bcapps/8577
@@ -243,6 +244,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12139 [Shopify] Disable Create Sales Documents for empty order views](../../../changes/bcapps/12139.md) (code change): "Create Sales Documents action on the Shopify Orders page is now disabled"
 - [#12148 [E-Documents Core] [Peppol] - Make PEPPOL Order Response conformant with BIS 28 (T76) and report the seller's decision](../../../changes/bcapps/12148.md) (code change): "PEPPOL Order Response messages now conform to BIS 28 (T76) standard"
 - [#13883 [Shopify] Initialize return processing for existing shops on upgrade](../../../changes/bcapps/13883.md) (code change): "Initialize return processing for existing shops on upgrade"
+- [#13899 Bugfix/issue 13425 shopify wrong curr amount refund](../../../changes/bcapps/13899.md) (code change): "Fixed Shopify refund sales line creation to use the correct amount"
 - [#14123 [Shopify] Keep gift cards from unverified POS returns on the sales invoice](../../../changes/bcapps/14123.md) (code change): "Keep gift cards from unverified POS returns on the sales invoice"
 - [#8554 [Shopify] Fix incorrect G/L line on credit memo for refund with exchange item](../../../changes/bcapps/8554.md) (code change): "Shopify connector now correctly handles credit memos for refunds involving exchange items"
 - [#8577 [Shopify] Fix #7724: Resolve Option 1 Name from existing Shopify Variant records](../../../changes/bcapps/8577.md) (code change): "Option 1 Name for Shopify product variants was being incorrectly reset to 'Variant'"

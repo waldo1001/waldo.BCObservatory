@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:46:40.499Z"
+  at: "2026-11-22T00:48:37.330Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a7023339873b4cd7e417fce5350ff3887517c52784a4e7c3677f107a122d7e81
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/APIV2/app/src/Entitlements/DelegatedHelpdeskagentPartnerAPIV2.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/APIV2/app/src/Entitlements/DelegatedHelpdeskagentPartnerAPIV2.Entitlement.al
     title: src/Apps/W1/APIV2/app/src/Entitlements/DelegatedHelpdeskagentPartnerAPIV2.Entitlement.al (releases/29.x)
     date: null
-    commit: d30504e3670310aa9f2396745813257d80d473b8
+    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Delegated Helpdesk agent - Partner APIV2" in APIV2 (Microsoft.API.V2). Introduced in BC29, still in BC30.
 
-APIV2 · Microsoft.API.V2 · BC29-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/APIV2/app/src/Entitlements/DelegatedHelpdeskagentPartnerAPIV2.Entitlement.al) · facts from BC29
+APIV2 · Microsoft.API.V2 · BC29-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/APIV2/app/src/Entitlements/DelegatedHelpdeskagentPartnerAPIV2.Entitlement.al) · facts from BC29
 
 ## Across versions
 

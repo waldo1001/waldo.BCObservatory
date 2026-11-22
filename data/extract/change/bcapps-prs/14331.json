@@ -6,7 +6,7 @@
   "systems_joined": [
     "platform"
   ],
-  "summary": "SharePoint attachment folder paths for document attachments are now normalized by removing trailing periods, preventing upload rejections for tables with names ending in periods.",
+  "summary": "Document attachment external storage now removes trailing periods from generated table folder names, so uploads for tables like Purch. Cr. Memo Hdr. are no longer rejected by SharePoint. An empty result falls back to Table_<TableID>.",
   "key_points": [
     "Removes trailing periods from generated table folder names after reserved-character removal and truncation",
     "Falls back to Table_<TableID> format when normalization results in an empty name",

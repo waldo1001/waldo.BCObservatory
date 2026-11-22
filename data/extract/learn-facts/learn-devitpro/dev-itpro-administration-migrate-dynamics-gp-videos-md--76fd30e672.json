@@ -2,21 +2,29 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-dynamics-gp-videos.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp-videos",
   "title": "Compare Work in Dynamics GP to Business Central",
-  "blob": "dbfe8af4105c2494a7ae90dcda685763d4aabbca",
+  "blob": "ca80f872da6a6961d7ce3f981d2d5b132f258af2",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Video series compares work processes between Dynamics GP and Business Central to help users transition."
+      "text": "Videos compare work processes in Dynamics GP and Business Central for receivables, payables, and general journal entries"
     },
     {
       "kind": "fact",
-      "text": "Videos cover topics including receivables and payables transactions, vendor payments, cash receipts, dimensions, and journal entries."
+      "text": "Videos demonstrate segment and dimension setup differences between Dynamics GP and Business Central"
     },
     {
       "kind": "fact",
-      "text": "Videos explain differences and similarities in setting up segments, dimension templates, classes, trial balances, and posting accounts."
+      "text": "Videos show how to pay vendors, enter cash receipts, run reports, and use posting accounts in both systems"
+    },
+    {
+      "kind": "fact",
+      "text": "Videos explain classes, templates, correcting or reversing entries, and trial balance procedures in both systems"
+    },
+    {
+      "kind": "fact",
+      "text": "Resource covers migration of Dynamics GP data to Business Central online"
     }
   ],
   "dropped": 0,
@@ -24,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003696,
-      "pages_in_call": 16
+      "cost_usd": 0.009367,
+      "pages_in_call": 4
     }
   ]
 }

@@ -6,13 +6,12 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Fixed a bug in the allocation account posting logic that occurred during purchase document processing. The fix includes error handling and test coverage across multiple localization layers.",
+  "summary": "Fixes bug 655888, an error in the allocation account function, by changing Purchase Alloc. Acc. Mgt. (W1 and ES) and Alloc. Acc. Handle Doc. Post (W1). New end-to-end purchase allocation account tests are added in W1, IT, NL and NO.",
   "key_points": [
-    "Corrected error in allocation account function during purchase document posting",
-    "Updated base allocation account handling codeunit with improved error management",
-    "Added comprehensive test cases for purchase allocation account end-to-end scenarios",
-    "Applied fixes consistently across localization layers (W1, ES, IT, NL, NO)",
-    "Resolves issue AB#655888"
+    "Fixes an error in the allocation account function reported in bug 655888",
+    "Purchase Alloc. Acc. Mgt. changed in the W1 and ES layers",
+    "Alloc. Acc. Handle Doc. Post updated in W1",
+    "End-to-end purchase allocation account tests added for W1, IT, NL and NO"
   ],
   "change_kind": "fix",
   "behavior_change": true,

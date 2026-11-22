@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -232,13 +232,14 @@ Feature Management is covered by two pages: one on enabling upcoming features ea
   - For online, admin configures Microsoft 365 tenant using centralized deployment or automatic deployment.
   - For on-premises, configure server instance then deploy add-ins from Business Central client and Microsoft 365 admin center.
 - [Optional Features Now Mandatory](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management-mandatory-features): Learn about the features that were optional but are now mandatory.
-  - Features become mandatory starting from specific release versions when they transition from optional to automatically enabled.
-  - Status: Generally available as of 2026 release wave 2 (version 29) for features listed as mandatory.
-  - Step: Check the Feature Management page to see the mandatory version in the Automatically enabled from field before a feature becomes non-disableable.
-  - When a feature becomes mandatory, it no longer appears in Feature Management and cannot be disabled.
-  - Limit: Six features are mandatory in version 29 and can no longer be controlled in Feature Management.
-  - Advanced Tell Me and semantic similarity search were delayed from version 29 to version 30 as mandatory.
-  - Prerequisite: Some mandatory features apply to specific country localizations such as Italy VAT settlements and US 1099 forms.
+  - Status: Advanced Tell Me preview status moved from mandatory in version 29 to version 30
+  - Status: Semantic similarity search preview status moved from mandatory in version 29 to version 30
+  - Status: Auto-save with every field change moved from mandatory in version 29 to version 30
+  - Status: Manual flushing method without pick, VAT settlements in Italy, financial report defaults, reminder communication texts, SOAP web services disable, sensitive data masking mandatory in version 29
+  - Status: Accelerated depreciation and new document report experience added and disabled by default in version 29
+  - Status: MCP server access is mandatory in version 28; listed in feature management but cannot be disabled
+  - Status: Multiple users posting warehouse entries, package tracking in physical inventory, 1099 forms, related table fields in analysis mode, HTTP certificate validation, screen estate optimization mandatory…
+  - Status: Analysis mode generally available as of version 23; enables analyzing data directly in list pages without switching applications
 - [Overview of tasks to set up Business Central](https://learn.microsoft.com/dynamics365/business-central/setup): Read an overview of the tasks necessary to set up, initialize, and configure Business Central to suit your needs.
 - [Preparing your network for the Excel Add-In](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins): This article includes information that helps administrators configure advanced device and network settings for the Excel add-in for Business Central.
   - Excel add-in requires network access to four Microsoft services for functioning and synchronizing data with Business Central.

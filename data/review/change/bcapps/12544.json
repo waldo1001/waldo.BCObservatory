@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/12544",
+  "input_hash": "12438f88d89731563fcfaf3ffe2b099340fa89fa72e2e73703cedd26a73df53b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-22T00:57:50.681Z",
+  "issues": [
+    "Description is a requirements spec; max amount and count limits per period are stated as requirements, not confirmed by the diff, so the key point should not state them as delivered.",
+    "Key points omit the new No Receipt Declaration report and API exposure that the files show."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027963,
+    "changes_in_call": 6
+  }
+}

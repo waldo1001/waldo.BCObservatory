@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:46.553Z"
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -122,7 +122,7 @@ Interfaces in AL define syntactical contracts that codeunits implement, which su
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#98 Add P0 event and interface compatibility knowledge](../../../../../changes/bcquality/98.md) (code change): "Guidelines for extending published interfaces with versioned siblings and BC25+ extends syntax"
-- [Business Central v29: Using AL Interfaces with Default Method Support](../../../../../posts/aardvarklabs-blog/4116.md) (community post): "default interface methods in AL, allowing interfaces to provide complete procedure implementations"
+- [Business Central v29: Using AL Interfaces with Default Method Support](../../../../../posts/aardvarklabs-blog/4116.md) (community post): "interfaces to provide complete procedure implementations that codeunits may override"
 - [Another Look at App Integration in Business Central – Part 2](../../../../../posts/jpearson-blog/1419.md) (community post): "Apps can integrate without direct dependencies by implementing interfaces defined in a shared app integration layer"
 - [Docs: What’s new in BC 29 for developers and admins](../../../../../posts/nataliekarolak-com/4179.md) (community post): "interface default implementations allow adding functionality to published interfaces"
 - [Evolve AL Interfaces with Default Implementations in Business Central 29.0](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-8721347757329141815--e497e421dc.md) (community post): "Interfaces can now provide default method bodies"

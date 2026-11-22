@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -186,6 +186,7 @@ links:
   changes:
     - change/bcapps/11366
     - change/bcapps/12607
+    - change/bcapps/13680
     - change/bcapps/9549
 learn_toc_path:
   - Business functionality
@@ -276,6 +277,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11366 Filter top customer and top vendor Excel reports on the posting group](../../../../../changes/bcapps/11366.md) (code change): "The Top Customer and Top Vendor Excel reports now correctly filter on posting group"
 - [#12607 [BE] Improve Purchase Ledger report performance](../../../../../changes/bcapps/12607.md) (code change): "Belgian Purchase Ledger report now uses a single left-joined query with temporary buffering"
+- [#13680 [Excel Reports] Handle an apostrophe in the No. on the Vendor and Customer Top List](../../../../../changes/bcapps/13680.md) (code change): "Excel reports for top vendor and customer lists now handle apostrophes"
 - [#9549 636017 Move Purchases report action tooltips to report objects](../../../../../changes/bcapps/9549.md) (code change): "Tooltips for 18 purchase-related reports are now defined on the report objects themselves"
 
 ## Business Central pages and reports

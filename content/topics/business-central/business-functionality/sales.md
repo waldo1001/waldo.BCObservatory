@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -530,6 +530,7 @@ links:
     - change/bcapps/13642
     - change/bcapps/13917
     - change/bcapps/13987
+    - change/bcapps/14070
     - change/bcapps/14283
     - change/bcapps/8914
     - change/bcapps/9096
@@ -821,12 +822,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12806 [main] Closing the BC browser tab during quote-to-order reservation leaves a partial sales order and the source quote](../../../changes/bcapps/12806.md) (code change): "Converting a sales quote to an order now holds off reservation until all quote lines have been copied"
 - [#12982 [29x][All-e]Since Business Central 28.4, we have observed changed behaviour when the VAT Prod](../../../changes/bcapps/12982.md) (code change): "Fixes changed VAT behavior affecting Sales Lines since BC 28.4"
 - [#13417 [Master]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo.](../../../changes/bcapps/13417.md) (code change): "Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice"
-- [#13503 [Main]-Prepayment amounts are incorrectly recalculated in statistics after partial posting when Prepmt. Amt. to Deduct Excl. VAT is manually adjusted](../../../changes/bcapps/13503.md) (code change): "prepayment amount recalculation in sales line statistics"
+- [#13503 [Main]-Prepayment amounts are incorrectly recalculated in statistics after partial posting when Prepmt. Amt. to Deduct Excl. VAT is manually adjusted](../../../changes/bcapps/13503.md) (code change): "Fixed the Sales Line prepayment recalculation so Prepmt. Line Amount no longer grows past the invoiced prepayment"
 - [#13547 [29.X]-Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice via Applies-to Doc. No. on a Credit Memo](../../../changes/bcapps/13547.md) (code change): "Sales Order line quantities are incorrectly updated after posting a Return Order linked to a Posted Sales Invoice"
 - [#13642 Preserve work descriptions on posted sales prepayment documents](../../../changes/bcapps/13642.md) (code change): "Preserve work descriptions on posted sales prepayment documents"
 - [#13917 [Main][ALL-E] Posting a Sales Credit Memo with a different Unit of Measure does not convert the quantity before updating the originating Sales Order (Blanket Sales Order is updated correctly)](../../../changes/bcapps/13917.md) (code change): "posting a sales credit memo with a different unit of measure failed to convert"
 - [#13987 [Main][All-e]"Specify the VAT registration number that you want to verify" error when entering a VAT Registration No. in the Sales Order if the Customer Card has no VAT Registration No](../../../changes/bcapps/13987.md) (code change): "VAT registration number validation error in Sales Orders where the system incorrectly validated"
-- [#14283 [Master]-Sales or purchase order with 100% prepayment: Prepmt. Line Amount drifts below Prepmt. Amt. Inv. after partial invoices, so the order can't be released or posted](../../../changes/bcapps/14283.md) (code change): "Prepayment line amount drift is fixed for sales and purchase orders with 100% prepayment"
+- [#14070 [29.x][All-e]"Specify the VAT registration number that you want to verify" error when entering a VAT Registration No. in the Sales Order if the Customer Card has no VAT Registration No.](../../../changes/bcapps/14070.md) (code change): "Sales Header VAT Registration No. validation now checks the number entered on the document"
+- [#14283 [Master]-Sales or purchase order with 100% prepayment: Prepmt. Line Amount drifts below Prepmt. Amt. Inv. after partial invoices, so the order can't be released or posted](../../../changes/bcapps/14283.md) (code change): "Prepmt. Line Amount no longer drifts below Prepmt. Amt. Inv. after partial invoices"
 - [#8914 [Master]- Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.Changes](../../../changes/bcapps/8914.md) (code change): "Fixed an issue where editing a sales order line's description would unexpectedly change"
 - [#9096 Align Bill-to Name 2 editability with the other bill-to address fields on sales documents](../../../changes/bcapps/9096.md) (code change): "Bill-to Name 2 field on sales documents is now editable under the same conditions"
 - [#9118 Bugs/master GitHub event batch 1745](../../../changes/bcapps/9118.md) (code change): "Sales Line and Sales Shipment Line changed in W1 and many localization layers"

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:46:40.499Z"
+  at: "2026-11-22T00:48:37.330Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b043b12252a4f988b25969fdd64b37fe1cf009b43c9b32815972aa3ca164390d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/W1/BaseApp/Service/RoleCenters/Services.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Layers/W1/BaseApp/Service/RoleCenters/Services.Profile.al
     title: src/Layers/W1/BaseApp/Service/RoleCenters/Services.Profile.al (releases/29.x)
     date: null
-    commit: d30504e3670310aa9f2396745813257d80d473b8
+    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "SERVICES" in Base Application (Microsoft.Service.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Service.RoleCenters · captioned "Service" · BC23-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/W1/BaseApp/Service/RoleCenters/Services.Profile.al) · facts from BC29
+Base Application · Microsoft.Service.RoleCenters · captioned "Service" · BC23-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Layers/W1/BaseApp/Service/RoleCenters/Services.Profile.al) · facts from BC29
 
 ## Properties
 

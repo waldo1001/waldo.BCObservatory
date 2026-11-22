@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10295",
+  "input_hash": "618186e8d7e9ac05cf26f717086cc6ca19d51c863f3494aec2e562c3347abb0d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-22T00:57:50.681Z",
+  "issues": [
+    "Summary and key points match the description: hasAttachments gate removed on first import and backfill paths, no extra Graph call, duplicate prevention kept."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027963,
+    "changes_in_call": 6
+  }
+}

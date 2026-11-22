@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/deprecated-features",
-  "input_hash": "ddafb339f3e97d548bce12fa551d7159dc3876ee8b306b6b22223e1184eaf124",
-  "summary": "Deprecated features in Business Central covers what is being removed or replaced across the platform, application, local versions, tables and AL code. It answers questions on deprecation timelines, replacements such as MSAL or AL-Go for GitHub, obsolete tables, and Microsoft's rules for obsoleting code.",
-  "overview": "This section lists features that Microsoft has deprecated or removed in Business Central and points to what replaces them. Its own pages cover the platform (client, server, database) with a timeline from 2021 to 2027, the planned end of BcContainerHelper support, and Microsoft's timeline for obsoleting code.\n\nSubtopics split the rest by area. Application covers W1 features that are ending and obsolete tables and fields removed from the Base App. Local functionality holds country-specific items. Deprecated tables maps old table names to new ones. Deprecating code explains obsolete markers and the deprecation of 'with' statements in AL.\n\nStart with the platform timeline to see which release wave affects you. Developers should then read the code deprecation timeline and the Deprecated tables pages before rewriting extensions.",
+  "input_hash": "5c2f1bb5bd1ce12d8db076ce106bb898ccefa7230eaebbc5f9b0fa2ca5bb0083",
+  "summary": "Deprecated features in Business Central: what has been removed or replaced in the platform (client, server, database), the application, local versions and tables, plus how code is marked obsolete and the timeline for removal. It answers whether a feature, API, table or tool is deprecated, what replaces it, and when.",
+  "overview": "This section lists what Microsoft has deprecated or removed in Business Central and how deprecation works. The own pages cover platform items (client, server, database) by release wave from 2022 wave 1 to 2027 wave 1, the BcContainerHelper deprecation, and the timeline for deprecating code. The subtopics cover the application (W1), local functionality, deprecated tables, and the AL mechanisms for marking code obsolete.\n\nStart with the page that matches your question. For platform items such as endpoints, authentication, PowerShell modules or the Windows Client, use the client, server, database page. For application objects such as reports, APIs or tables, use Application and Deprecated tables. For how long you have to react, read the timeline page, which sets a minimum of 12 months between marking code obsolete and removing it. Deprecating code explains the obsolete attributes, preprocessor symbols and the 'with' statement change.\n\nFor build and container tooling, the BcContainerHelper page says support ends October 1, 2027, and points to AL-Go for GitHub as the replacement.",
   "key_points": [
-    "The platform page tracks deprecations from 2022 release wave 1 through 2027 release wave 1, including OData and SOAP endpoints, PowerShell 5.0 modules, Web Service Access Keys (Basic Auth), data-defined permission sets and delta links with APIs.",
-    "ADAL and Azure AD Graph are replaced by MSAL and Microsoft Graph.",
-    "The Windows Client is removed in favor of web, desktop and mobile apps. The Excel COM add-in and programmatic printing are tied to it.",
-    "BcContainerHelper official support ends October 1, 2027, with AL-Go for GitHub as the replacement.",
-    "Microsoft allows at least 12 months between marking code obsolete and removing it, using ObsoleteState, ObsoleteTag, the Obsolete attribute and AppSourceCop.",
-    "Obsolete tables and fields were deleted from the Base App in 2025 release wave 1 (v26).",
-    "Deprecated tables pages map old tables to new names from 2020 release wave 1 and list India tables for 2021 release wave 2. Data migration may be needed.",
-    "Explicit and implicit 'with' statements in AL are deprecated."
+    "Platform deprecations are listed by release wave, from 2022 wave 1 to 2027 wave 1.",
+    "Platform items include OData endpoints on Microsoft pages, SOAP endpoints on UI pages, PowerShell 5.0 administration modules, Web Service Access Keys (Basic Auth), data-defined permission sets and delta links with APIs.",
+    "ADAL and Azure AD Graph are replaced by MSAL and Microsoft Graph. The Windows Client is removed in favor of the web, desktop and mobile apps. The Excel COM add-in and programmatic printing are tied to it.",
+    "BcContainerHelper support ends October 1, 2027. AL-Go for GitHub is the replacement.",
+    "Microsoft allows at least 12 months between marking code obsolete and removing it. The tools are the ObsoleteState and ObsoleteTag properties, the Obsolete attribute and AppSourceCop.",
+    "The Application subtopic covers W1 removals from 2019 to 2027, including objects deleted from the Base App in 2025 release wave 1 (v26).",
+    "Deprecated tables pages map old tables to new names for code rewrites from 2020 release wave 1 onward, and list India deprecated tables for 2021 release wave 2. Data migration may be needed.",
+    "Deprecating code covers preprocessor symbols, obsolete attributes and the deprecation of explicit and implicit 'with' statements."
   ],
   "members_used": 3,
   "subtopics_used": 3,
   "prompt_version": 1,
-  "at": "2026-10-28T11:00:11.290Z",
+  "at": "2026-11-22T01:00:05.254Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014734999999999998
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-28T11:01:25.879Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor inconsistency: the overview says the platform timeline runs from 2021 to 2027 (matching the page summary), while the first key point starts at 2022 release wave 1 (matching the versions list). Both have support in the sources.",
-      "Minor omission: the deprecation of user personalizations and profile configurations, replaced by new AL tooling, is not mentioned."
-    ],
-    "input_hash": "ddafb339f3e97d548bce12fa551d7159dc3876ee8b306b6b22223e1184eaf124",
-    "cost_usd": 0.0433832
+    "cost_usd": 0.016437
   }
 }

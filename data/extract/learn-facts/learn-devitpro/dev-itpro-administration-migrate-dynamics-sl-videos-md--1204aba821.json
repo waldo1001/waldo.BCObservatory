@@ -1,18 +1,30 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-dynamics-sl-videos.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl-videos",
-  "title": "Compare work processes in Dynamics SL to Business Central",
-  "blob": "cd96c0d63657e0341bad535df69ef92924c9d21c",
+  "title": "Compare Work in Dynamics SL and Business Central",
+  "blob": "7e771009bd49987eb47039ba3a9a8d48b6e8276a",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "fact",
-      "text": "Videos compare work processes between Dynamics SL and Business Central for user training"
+      "text": "Videos compare work processes in Dynamics SL and Business Central for receivables, payables, and general journal entries"
     },
     {
       "kind": "fact",
-      "text": "Topics covered include receivables, payables, customer receipts, dimensions, general journals, and posting accounts"
+      "text": "Videos demonstrate segment and dimension setup differences between Dynamics SL and Business Central"
+    },
+    {
+      "kind": "fact",
+      "text": "Videos show how to pay vendors, enter cash receipts, and run reports in both Dynamics SL and Business Central"
+    },
+    {
+      "kind": "fact",
+      "text": "Videos explain classes, templates, posting accounts, and correcting or reversing entries in both systems"
+    },
+    {
+      "kind": "fact",
+      "text": "Resource covers migration of Dynamics SL data to Business Central online"
     }
   ],
   "dropped": 0,
@@ -20,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005231,
-      "pages_in_call": 10
+      "cost_usd": 0.009367,
+      "pages_in_call": 4
     }
   ]
 }

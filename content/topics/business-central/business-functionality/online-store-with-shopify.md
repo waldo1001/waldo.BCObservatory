@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:54:31.349Z"
   flags: []
 generated:
-  at: "2026-11-15T00:50:59.995Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -203,6 +203,8 @@ links:
     - video/BwBR8JwwQa4
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/13899
 learn_toc_path:
   - Business functionality
   - Online store with Shopify
@@ -319,10 +321,11 @@ For operations and support, use the troubleshooting page (logging, skipped recor
   - In the observatory: [Page 2500 "Extension Management"](../../../objects/page/2500.md), [Table 5107 "Sales Header Archive"](../../../objects/table/5107.md), [Table 5108 "Sales Line Archive"](../../../objects/table/5108.md)
 - [Working with Shopify POS](https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-pos): Special notes related to Shopify as a Sales Channel.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13899 Bugfix/issue 13425 shopify wrong curr amount refund](../../../changes/bcapps/13899.md) (code change): "Shopify refund sales line creation when shop and presentment currencies differ"
 - [What's New: Shopify Connector - Overview (2026 release wave 1)](../../../videos/B-pxLlb-UN0.md) (video): "Shopify connector; product information management; item variants; presentment currency; price synchronization"
 - [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)](../../../videos/BwBR8JwwQa4.md) (video): "shopify connector; b2b; company locations; tax id mapping; payment terms"
 

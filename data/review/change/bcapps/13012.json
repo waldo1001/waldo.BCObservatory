@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/13012",
+  "input_hash": "0b2e603ff5f64c25527f9f02b467db9aefe638c45e319730bebd9299427cda94",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-22T00:57:41.641Z",
+  "issues": [
+    "Calculate Subcontracts no longer stores the production order number in Ref. Order No. (it is now empty and Ref. Order Type is Purchase). Extensions that read Ref. Order No. on subcontracting requisition lines can stop working, so breaking should be true.",
+    "The rest of the content is supported by the description."
+  ],
+  "applied": [
+    "breaking true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030633,
+    "changes_in_call": 4
+  }
+}

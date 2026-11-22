@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:55:27.162Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-22T00:54:25.319Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -141,7 +141,8 @@ links:
   learn: []
   objects:
     - object/table/18
-  features: []
+  features:
+    - feature/573346
   topics: []
   localizations: []
   videos: []
@@ -210,10 +211,12 @@ features:
     verified: true
     status_source: video
   - name: Automatic ID Range Resolution
-    status: unclear
+    status: ga
     t: 186
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573346"
   - name: Checkpoint and Rollback System
     status: unclear
     t: 391
@@ -400,7 +403,7 @@ The presenters cover how to give the agent context (file references, symbols, re
 |---|---|---|---|
 | Vibe Coding with Agent Mode | status not stated, demoed | [1:12](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=72s) |  |
 | GPT-5 Preview Model Selection | preview, demoed | [2:34](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=154s) | "I like the GT5 preview right now uh because that's one of the newest models" ([2:46](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=166s)) |
-| Automatic ID Range Resolution | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=186s) |  |
+| Automatic ID Range Resolution | generally available (roadmap [Let agents allocate free AL object IDs](../features/573346.md)), demoed | [3:06](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=186s) |  |
 | Checkpoint and Rollback System | status not stated, demoed | [6:31](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=391s) |  |
 | Context-Aware Code Generation | status not stated, demoed | [9:16](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=556s) |  |
 | Specification-First Development Approach | status not stated, demoed | [10:37](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=637s) |  |
@@ -419,6 +422,8 @@ The presenters cover how to give the agent context (file references, symbols, re
 | Chat Configuration and Custom Instructions | status not stated, demoed | [29:33](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=1773s) |  |
 | Vibe Coding for Production | status not stated | [30:45](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=1845s) |  |
 | Multiple AI Model Support | status not stated, demoed | [31:45](https://www.youtube.com/watch?v=K8nFVw5M-Po&t=1905s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

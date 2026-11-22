@@ -2,7 +2,7 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/develop-reports
 type: topic
 title: Develop reports
-summary: "Developing Business Central reports: how report objects combine datasets, layouts (Word, Excel, RDLC) and request pages. It answers questions about building and choosing layouts, structuring datasets in AL, and tuning report performance."
+summary: "Developing Business Central reports: how report objects combine datasets and layouts (Word, Excel, RDLC, external), plus layout setup, themes, fonts, and performance guidance for AL developers. It answers questions about report structure, layout choice, and customization."
 tier: official
 language: en
 system: reporting
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 7d1ae96083be3e42a164ad2bd4e38d4290b28d9bb473af95769c65517616d31f
+  input_hash: 7fac47734333efc0d3d194acff4e52fe7f66593e033d3bb39e0ae2715da8c760
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-fonts
@@ -154,28 +154,27 @@ narrative: generated
 
 # Develop reports
 
-> Developing Business Central reports: how report objects combine datasets, layouts (Word, Excel, RDLC) and request pages. It answers questions about building and choosing layouts, structuring datasets in AL, and tuning report performance.
+> Developing Business Central reports: how report objects combine datasets and layouts (Word, Excel, RDLC, external), plus layout setup, themes, fonts, and performance guidance for AL developers. It answers questions about report structure, layout choice, and customization.
 
 Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Develop reports · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Reports in Business Central are built from a report object that defines a dataset (the data) and one or more layouts (the presentation). Layouts come in Word, Excel and RDLC types. Word and Excel layouts can be customized by users themselves, while RDLC layouts may need a developer. Changes to the dataset require AL programming.
+Report development in Business Central centers on the report object, which defines a dataset and one or more layouts. Layouts can be Word, Excel, or RDLC. Datasets need AL programming knowledge, while Word and Excel layouts can be customized in a self-service way.
 
-The section has an introductory page plus two subtopics. Develop report layouts covers creating, designing, selecting and managing Word, Excel and RDLC layouts, mapping data fields, themes, header/footer layouts and available fonts. Develop report datasets covers how datasets, layouts and request pages fit together, with performance guidance for AL code, pages and web services.
+The section's own page is an introduction to these layout types and datasets. Two subtopics go deeper. Develop report datasets gives an overview of building reports with datasets, layouts, and request pages, and adds performance guidance for AL code, pages, and web services. Develop report layouts covers choosing a layout type, designing and mapping it, setting which layout a report uses, configuring themes and header/footer layouts, and checking available fonts.
 
-Start with the introductory page to see the layout types and who can change what. Then go to layouts if you need to change how a report looks, or to datasets if you need to change which data it contains or how fast it runs.
+Start with the overview page to understand the layout types. Then use the datasets pages if you write AL, or the layouts pages if you adjust how a report looks.
 
 ## Key points
 
-- A report object defines the dataset and layouts that control how data is presented.
-- Layout types are Word, Excel and RDLC; custom report layouts are supported.
-- Word and Excel layouts can be customized without a developer; RDLC layouts may require developer help.
-- Dataset changes require AL programming.
-- Layout pages cover creating, designing, selecting and managing layouts, and mapping data fields.
-- Layout pages also cover themes, header/footer layouts and available fonts.
-- Dataset pages give an overview of datasets, layouts (Excel, Word, RDL) and request pages.
-- Performance guidance addresses AL code, pages and web services.
+- A report object defines both the dataset and the layouts.
+- Supported layout formats include Word, Excel, and RDLC; external layouts are also covered.
+- Datasets require AL programming knowledge.
+- Word and Excel layouts can be customized self-service.
+- Report datasets pages cover request pages and performance tuning for AL code, pages, and web services.
+- Report layout pages cover designing and mapping layouts and setting which layout a report uses.
+- Layout pages also cover themes, header/footer layouts, and checking available fonts.
 
 ## Subtopics
 

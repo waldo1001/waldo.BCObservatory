@@ -2,7 +2,7 @@
 id: source/bcapps-prs
 type: source
 title: microsoft/BCApps pull requests
-summary: "microsoft/BCApps pull requests: 1382 code changes in the knowledge base, 2026-07-07 to 2026-11-20, mostly about development, finance, integration."
+summary: "microsoft/BCApps pull requests: 1398 code changes in the knowledge base, 2026-07-07 to 2026-11-21, mostly about development, finance, integration."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-22T00:17:50.598Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 440c2f105ad59c54707b3deccfb854960f0eaed107df94a69bb0f0f25833cce1
+  input_hash: 222afa4c859a820fae0d15d38cd51e838f35edd21ba9df5f0f14ceb0530a064e
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
@@ -1373,16 +1373,23 @@ links:
     - change/bcapps/13631
     - change/bcapps/14148
     - change/bcapps/14200
+    - change/bcapps/13991
     - change/bcapps/13679
+    - change/bcapps/14070
+    - change/bcapps/13012
     - change/bcapps/13917
+    - change/bcapps/14111
     - change/bcapps/14219
     - change/bcapps/13503
     - change/bcapps/14096
+    - change/bcapps/11715
     - change/bcapps/12664
     - change/bcapps/13820
+    - change/bcapps/14211
     - change/bcapps/14020
     - change/bcapps/14218
     - change/bcapps/14146
+    - change/bcapps/13787
     - change/bcapps/13622
     - change/bcapps/11026
     - change/bcapps/14133
@@ -1404,6 +1411,14 @@ links:
     - change/bcapps/11205
     - change/bcapps/14314
     - change/bcapps/14008
+    - change/bcapps/13680
+    - change/bcapps/12544
+    - change/bcapps/10295
+    - change/bcapps/14331
+    - change/bcapps/14021
+    - change/bcapps/13102
+    - change/bcapps/13899
+    - change/bcapps/14281
     - change/bcapps/14224
     - change/bcapps/14332
     - change/bcapps/14283
@@ -1417,44 +1432,45 @@ links:
     - change/bcapps/14364
     - change/bcapps/14295
     - change/bcapps/14335
+    - change/bcapps/14329
 source_id: bcapps-prs
 kind: github-pr
 url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 1382
+item_count: 1398
 footprint:
   systems:
     - id: development
-      weight: 647
+      weight: 649
     - id: finance
-      weight: 553
+      weight: 557
     - id: integration
-      weight: 427
+      weight: 431
     - id: inventory
-      weight: 259
+      weight: 263
     - id: sales
-      weight: 247
+      weight: 250
     - id: manufacturing
-      weight: 207
+      weight: 210
   topics:
     - id: bc30
-      weight: 1265
+      weight: 1280
     - id: main
-      weight: 1265
+      weight: 1280
     - id: fix
-      weight: 864
+      weight: 874
     - id: feature
-      weight: 383
+      weight: 388
     - id: bc29
-      weight: 117
+      weight: 118
     - id: releases/29.x
-      weight: 117
+      weight: 118
     - id: refactor
       weight: 57
     - id: performance
-      weight: 38
+      weight: 39
     - id: codeunit gen. jnl.-post line
       weight: 29
     - id: other
@@ -1463,35 +1479,35 @@ footprint:
     - id: codeunit Gen. Jnl.-Post Line
       weight: 35
     - id: page Expense Agent Setup Wizard
-      weight: 22
+      weight: 23
     - id: table Expense Report Header
       weight: 22
     - id: table Expense Report Line
-      weight: 19
+      weight: 20
     - id: permissionset Expense Management - Objects
+      weight: 18
+    - id: codeunit Expense Report-Post
+      weight: 17
+    - id: permissionset Expense Agent - Objects
+      weight: 17
+    - id: table Expense Agent Setup
       weight: 17
     - id: table Sales Line
       weight: 17
-    - id: codeunit Expense Report-Post
-      weight: 16
-    - id: permissionset Expense Agent - Objects
-      weight: 16
-    - id: table Expense Agent Setup
-      weight: 16
-    - id: table Purchase Line
-      weight: 16
-    - id: codeunit Expense Report Approval Mgmt
-      weight: 15
     - id: page Expense Agent Setup
-      weight: 15
+      weight: 16
+    - id: table Expense
+      weight: 16
+    - id: table Posted Expense Report Line
+      weight: 16
   features: []
 first_item: "2026-07-07"
-last_item: "2026-11-20"
+last_item: "2026-11-21"
 ---
 
 # microsoft/BCApps pull requests
 
-> microsoft/BCApps pull requests: 1382 code changes in the knowledge base, 2026-07-07 to 2026-11-20, mostly about development, finance, integration.
+> microsoft/BCApps pull requests: 1398 code changes in the knowledge base, 2026-07-07 to 2026-11-21, mostly about development, finance, integration.
 
 [https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -1499,28 +1515,29 @@ last_item: "2026-11-20"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (647) | bc30 (1265) | codeunit Gen. Jnl.-Post Line (35) |
-| finance (553) | main (1265) | page Expense Agent Setup Wizard (22) |
-| integration (427) | fix (864) | table Expense Report Header (22) |
-| inventory (259) | feature (383) | table Expense Report Line (19) |
-| sales (247) | bc29 (117) | permissionset Expense Management - Objects (17) |
-| manufacturing (207) | releases/29.x (117) | table Sales Line (17) |
-|  | refactor (57) | codeunit Expense Report-Post (16) |
-|  | performance (38) | permissionset Expense Agent - Objects (16) |
-|  | codeunit gen. jnl.-post line (29) | table Expense Agent Setup (16) |
-|  | other (23) | table Purchase Line (16) |
-|  |  | codeunit Expense Report Approval Mgmt (15) |
-|  |  | page Expense Agent Setup (15) |
+| development (649) | bc30 (1280) | codeunit Gen. Jnl.-Post Line (35) |
+| finance (557) | main (1280) | page Expense Agent Setup Wizard (23) |
+| integration (431) | fix (874) | table Expense Report Header (22) |
+| inventory (263) | feature (388) | table Expense Report Line (20) |
+| sales (250) | bc29 (118) | permissionset Expense Management - Objects (18) |
+| manufacturing (210) | releases/29.x (118) | codeunit Expense Report-Post (17) |
+|  | refactor (57) | permissionset Expense Agent - Objects (17) |
+|  | performance (39) | table Expense Agent Setup (17) |
+|  | codeunit gen. jnl.-post line (29) | table Sales Line (17) |
+|  | other (23) | page Expense Agent Setup (16) |
+|  |  | table Expense (16) |
+|  |  | table Posted Expense Report Line (16) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 882
-- 2026-Q4: **************************************** 500
+- 2026-Q4: **************************************** 516
 
 ## Most recent
 
+- [#14329 Optimizing check for PA eligibility](../changes/bcapps/14329.md) (2026-11-21)
 - [#14335 [Main] Expense Management: make Expense Management Setup public; keep agent and corporate card surface internal](../changes/bcapps/14335.md) (2026-11-20)
 - [#14295 [Main] Expense Management: make core expense business objects public](../changes/bcapps/14295.md) (2026-11-20)
 - [#14364 [main] Align G/L Register Posting Date with released schema](../changes/bcapps/14364.md) (2026-11-20)
@@ -1534,12 +1551,11 @@ Items per quarter, oldest first:
 - [#14283 [Master]-Sales or purchase order with 100% prepayment: Prepmt. Line Amount drifts below Prepmt. Amt. Inv. after partial invoices, so the order can't be released or posted](../changes/bcapps/14283.md) (2026-11-20)
 - [#14332 Bug 660000: [64bit] Overflow in item application entry](../changes/bcapps/14332.md) (2026-11-20)
 - [#14224 Fix duplicate expense vendor numbers during receipt submission](../changes/bcapps/14224.md) (2026-11-20)
-- [#14008 [MAIN] Fix customer GST application posting sequence (Bug 659070)](../changes/bcapps/14008.md) (2026-11-19)
-- [#14314 Update expense category and subcategory descriptions](../changes/bcapps/14314.md) (2026-11-19)
-- [#11205 Inventory internal new body layouts and obsolete current](../changes/bcapps/11205.md) (2026-11-19)
-- [#14009 [MAIN] Avoid empty GST component lookup on customer reapplication (Bug 659069)](../changes/bcapps/14009.md) (2026-11-19)
-- [#14307 [SLS][29.x] Backport production app updates for GPT-5.6 Ceres](../changes/bcapps/14307.md) (2026-11-19)
-- [#14229 29.x: Power BI autodeployment UX fixes: clearing records should affect only the selected + reorganizing actions](../changes/bcapps/14229.md) (2026-11-19)
-- [#14154 [SOA] Keep email attachments next to the current message](../changes/bcapps/14154.md) (2026-11-19)
+- [#14281 Fix manufacturing enum fallback in item journals](../changes/bcapps/14281.md) (2026-11-20)
+- [#13899 Bugfix/issue 13425 shopify wrong curr amount refund](../changes/bcapps/13899.md) (2026-11-20)
+- [#13102 Create putaway template bin validation](../changes/bcapps/13102.md) (2026-11-20)
+- [#14021 Finance internal new body layouts and obsolete current](../changes/bcapps/14021.md) (2026-11-20)
+- [#14331 Fix trailing periods in generated document attachment folders](../changes/bcapps/14331.md) (2026-11-20)
+- [#10295 #10288 - Always load attachments](../changes/bcapps/10295.md) (2026-11-20)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

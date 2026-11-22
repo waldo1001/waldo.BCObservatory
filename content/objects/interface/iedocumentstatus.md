@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:46:40.499Z"
+  at: "2026-11-22T00:48:37.330Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1e9a8fe7b72b8a38c8ec737ffff52ec28cd73bc5ed88f42ce8040cf80537fddb
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/EDocument/app/src/Document/Interfaces/IEDocumentStatus.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/EDocument/app/src/Document/Interfaces/IEDocumentStatus.Interface.al
     title: src/Apps/W1/EDocument/app/src/Document/Interfaces/IEDocumentStatus.Interface.al (releases/29.x)
     date: null
-    commit: d30504e3670310aa9f2396745813257d80d473b8
+    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "IEDocumentStatus" in EDocument (Microsoft.eServices.EDocument). 1 public procedures. Introduced in BC29, still in BC30.
 
-EDocument · Microsoft.eServices.EDocument · BC29-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/EDocument/app/src/Document/Interfaces/IEDocumentStatus.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument · BC29-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/EDocument/app/src/Document/Interfaces/IEDocumentStatus.Interface.al) · facts from BC29
 
 ## Procedures
 

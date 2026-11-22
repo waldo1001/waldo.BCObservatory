@@ -2,10 +2,10 @@
   "inputs": [
     7,
     [
-      "d30504e3670310aa9f2396745813257d80d473b8",
+      "2971c0255001fe7e29f162ac1b22e305a7a0be9b",
       "4",
       9478,
-      "d30504e3670310aa9f2396745813257d80d473b8",
+      "2971c0255001fe7e29f162ac1b22e305a7a0be9b",
       "4",
       7050
     ]
@@ -178310,6 +178310,13 @@
         "subs": []
       }
     },
+    "codeunit/6911": {
+      "OnAfterCalculatePerDiemForSingleDay": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      }
+    },
     "codeunit/6940": {
       "OnAfterProcessEmail": {
         "kind": "internal",
@@ -178404,6 +178411,13 @@
         "subs": []
       }
     },
+    "codeunit/6983": {
+      "OnAfterCopyExpenseFieldsToReportLine": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      }
+    },
     "codeunit/6984": {
       "OnAfterReleaseExpenseReport": {
         "kind": "integration",
@@ -178422,6 +178436,11 @@
             "app": "ExpenseWithholdingTax"
           }
         ]
+      },
+      "OnAfterPostExpenseReport": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
       },
       "OnAfterProcessExpenseReportLine": {
         "kind": "integration",
@@ -178449,6 +178468,16 @@
             "app": "ExpenseWithholdingTax"
           }
         ]
+      },
+      "OnBeforePostExpenseGenJournalLine": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnBeforePostExpenseReport": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
       }
     },
     "codeunit/699": {
@@ -272872,6 +272901,16 @@
       }
     },
     "table/6912": {
+      "OnAfterCopyFromGenJnlLine": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnAfterCopyFromPostedExpenseReportLine": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
       "OnAfterInsertEvent": {
         "kind": "trigger_event",
         "obsolete": null,
@@ -284579,7 +284618,7 @@
     }
   },
   "dead_events": {
-    "count": 22500
+    "count": 22507
   },
   "unresolved": [
     {
@@ -294851,7 +294890,7 @@
     "unresolved_ambiguous": 76,
     "subscribes": 5197,
     "edges": 20695,
-    "published_events": 26330,
-    "dead_events": 22500
+    "published_events": 26337,
+    "dead_events": 22507
   }
 }

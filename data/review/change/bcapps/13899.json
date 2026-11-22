@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/13899",
+  "input_hash": "33afe7822cbddc11e2df5e124893582be987c8f88c39b54cafc15f57a699d352",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-22T00:57:45.824Z",
+  "issues": [
+    "The description says no tests were added, but the diff adds 74 lines to the refund test codeunit, so the key point about test coverage is supported."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021529,
+    "changes_in_call": 6
+  }
+}

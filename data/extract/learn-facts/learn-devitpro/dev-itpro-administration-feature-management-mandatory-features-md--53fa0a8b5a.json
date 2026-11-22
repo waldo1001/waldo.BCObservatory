@@ -2,37 +2,41 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/feature-management-mandatory-features.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management-mandatory-features",
   "title": "Optional Features Now Mandatory",
-  "blob": "6177c79d1c84daab5cb9f92f9f14d1794f1a47e8",
+  "blob": "ef27d058136d411e484ebf4110f870e7ef0319ab",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
-      "kind": "fact",
-      "text": "Features become mandatory starting from specific release versions when they transition from optional to automatically enabled."
+      "kind": "status",
+      "text": "Advanced Tell Me preview status moved from mandatory in version 29 to version 30"
     },
     {
       "kind": "status",
-      "text": "Generally available as of 2026 release wave 2 (version 29) for features listed as mandatory."
+      "text": "Semantic similarity search preview status moved from mandatory in version 29 to version 30"
     },
     {
-      "kind": "step",
-      "text": "Check the Feature Management page to see the mandatory version in the Automatically enabled from field before a feature becomes non-disableable."
+      "kind": "status",
+      "text": "Auto-save with every field change moved from mandatory in version 29 to version 30"
     },
     {
-      "kind": "fact",
-      "text": "When a feature becomes mandatory, it no longer appears in Feature Management and cannot be disabled."
+      "kind": "status",
+      "text": "Manual flushing method without pick, VAT settlements in Italy, financial report defaults, reminder communication texts, SOAP web services disable, sensitive data masking mandatory in version 29"
     },
     {
-      "kind": "limit",
-      "text": "Six features are mandatory in version 29 and can no longer be controlled in Feature Management."
+      "kind": "status",
+      "text": "Accelerated depreciation and new document report experience added and disabled by default in version 29"
     },
     {
-      "kind": "fact",
-      "text": "Advanced Tell Me and semantic similarity search were delayed from version 29 to version 30 as mandatory."
+      "kind": "status",
+      "text": "MCP server access is mandatory in version 28; listed in feature management but cannot be disabled"
     },
     {
-      "kind": "prerequisite",
-      "text": "Some mandatory features apply to specific country localizations such as Italy VAT settlements and US 1099 forms."
+      "kind": "status",
+      "text": "Multiple users posting warehouse entries, package tracking in physical inventory, 1099 forms, related table fields in analysis mode, HTTP certificate validation, screen estate optimization mandatory…"
+    },
+    {
+      "kind": "status",
+      "text": "Analysis mode generally available as of version 23; enables analyzing data directly in list pages without switching applications"
     }
   ],
   "dropped": 0,
@@ -40,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.01325,
-      "pages_in_call": 2
+      "cost_usd": 0.009367,
+      "pages_in_call": 4
     }
   ]
 }

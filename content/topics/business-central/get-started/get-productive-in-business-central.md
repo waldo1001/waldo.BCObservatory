@@ -2,7 +2,7 @@
 id: topic/business-central/get-started/get-productive-in-business-central
 type: topic
 title: Get productive in Business Central
-summary: "Everyday use of Business Central: basic settings, data entry, dates, search with Tell Me and Role Explorer, filtering, notifications, attachments, company switching, errors, performance and Copilot. Subtopics cover Microsoft 365 apps, personalization, reports, document layouts, sharing and accessibility."
+summary: "Everyday use of Business Central: basic settings, data entry, dates, searching with Tell Me and Role Explorer, filtering, notifications, company switching, attachments, errors, performance and Copilot. Subtopics cover Microsoft 365 apps, personalization, reports, document layouts, sharing data and accessibility."
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 14df05c0f3b37f9f30a9ee5089b9b5dd91e397884a2c64646c5c412144a6a554
+  input_hash: 4bc9fb606b8944b6db10fd328c5120b92c6383a4902c89b020bfca8f943fea06
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-create-custom-report-layout
@@ -433,28 +433,28 @@ narrative: generated
 
 # Get productive in Business Central
 
-> Everyday use of Business Central: basic settings, data entry, dates, search with Tell Me and Role Explorer, filtering, notifications, attachments, company switching, errors, performance and Copilot. Subtopics cover Microsoft 365 apps, personalization, reports, document layouts, sharing and accessibility.
+> Everyday use of Business Central: basic settings, data entry, dates, searching with Tell Me and Role Explorer, filtering, notifications, company switching, attachments, errors, performance and Copilot. Subtopics cover Microsoft 365 apps, personalization, reports, document layouts, sharing data and accessibility.
 
 Path: [Get started](../get-started.md) > Get productive in Business Central · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section helps users work efficiently in the Business Central web client. Its own pages cover the basics: My Settings (role, company, work date, region, language, time zone), entering data and dates, mandatory field markers, sorting, searching and filtering lists, and managing attachments, links, notes and notifications.
+This section helps users work efficiently in Business Central. Its own pages cover the basics: My Settings (role, company, work date, region, language, time zone), entering data and dates, mandatory field markers, attachments, links and notes, notifications, and switching companies or environments. Other pages cover finding things with Tell Me, the Role Explorer, company data search, and sorting, searching and filtering lists.
 
-Finding things is handled by several pages: Tell Me (with its FAQ and an Advanced semantic search tab), Role Explorer, and Search for Specific Data. Other pages cover switching company or environment, multilanguage and localization, reading error messages, performance tips and the Performance Profiler, camera and location troubleshooting, and Copilot in preview.
+Further pages cover multilanguage and localization, error messages that can be shared through Teams or email, camera and location troubleshooting, performance tips for business users, and the Performance Profiler. Microsoft Copilot (preview) is described for version 29 and later.
 
-Subtopics go deeper on Microsoft 365 integration (Excel, Word, Outlook, Teams, OneDrive), personalization, running and printing reports, report and document layouts, sharing business data, and accessibility with keyboard shortcuts and touch gestures. New users can start with Working with Business Central, Change Basic Settings and Tell Me.
+Subtopics go deeper on Microsoft 365 integration (Excel, Word, Outlook, Teams, OneDrive), personalization, running and printing reports, document layouts, sharing data, and accessibility with keyboard shortcuts and touch gestures. For a new user, start with Change Basic Settings, Enter data, and Tell Me, then move to the subtopic that fits the task.
 
 ## Key points
 
 - My Settings controls role, company, work date, region, language, time zone and notifications.
-- Tell Me finds actions, pages, reports, data and help; the Advanced tab uses AI-powered semantic search when enabled.
-- Filtering supports operators (>, <, =, <>, |, .., &, *, ?) and tokens such as %me, %user, %mycustomers, %myitems and %myvendors; modern word-matching search is described for 2024 release wave 1.
-- Red asterisks mark fields expected for a process but do not enforce validation or block posting.
-- Attachments, links and notes are managed in the FactBox Attachments tab and can be tied to document lines.
-- Notifications can be dismissed and configured with filter conditions; error messages can be shared through Teams and email.
-- Performance Profiler records snapshots with call trees and time spent; it can be shared and downloaded.
-- Copilot in Business Central (preview) gives read-only answers about company data, starting in version 29.
+- Tell Me finds actions, pages, reports, data and help; the Advanced tab gives AI-powered semantic search when Advanced Tell Me is enabled.
+- Role Explorer lists pages and reports for a role and has a semantic search preview.
+- Filtering supports operators (>, <, =, <>, |, .., &, *, ?) and tokens such as %me and %user; modern search matches words, legacy search matches exactly.
+- A red asterisk marks fields expected for a process but does not enforce validation or block posting.
+- Notifications can be dismissed and configured with filter conditions (version 30.0).
+- Copilot (preview) answers questions about company data with read-only access, from version 29.
+- The Performance Profiler records snapshots with time spent and call trees, and profiles can be shared or downloaded.
 
 ## Subtopics
 

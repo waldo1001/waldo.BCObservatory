@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:35.324Z"
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,6 +107,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10125
+    - change/bcapps/13102
 learn_toc_path:
   - Business functionality
   - Warehouse management
@@ -184,6 +185,7 @@ Supporting pages cover cross-docking, which moves items through cross-dock bins 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10125 [Extensibility Request] issue 30395: expose production pick grouping number](../../../../changes/bcapps/10125.md) (code change): "New event enables extensions to modify the warehouse pick grouping number"
+- [#13102 Create putaway template bin validation](../../../../changes/bcapps/13102.md) (code change): "Put-away template bin validation now excludes receipt, shipment, and posted receipt-line bins"
 - [What's New: E-Documents and E-Shipments (2025 release wave 2)](../../../../videos/zy-Tg9bBtHc.md) (video): "E-Shipments; E-Transfer Shipments; transfer shipments"
 
 ## Business Central pages and reports

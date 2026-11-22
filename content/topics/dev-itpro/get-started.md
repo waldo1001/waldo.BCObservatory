@@ -2,20 +2,20 @@
 id: topic/dev-itpro/get-started
 type: topic
 title: Get started
-summary: The Get started section of Business Central documentation is an entry point for learning the product, developing apps, selling to customers, and finding answers and support. It helps an agent route questions on orientation, publishing and marketplace, partner sales, FAQs and help.
+summary: "The Get started section of Business Central documentation covers orientation for newcomers and partners: product learning material, app development, selling and onboarding, FAQs, and help and support. It helps an agent route questions about what the product does, how partners build and sell, and where to find short answers."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-11-18T01:00:06.732Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 8a9c65215a3d4691cc9ec31e2fea51e55e8030d79781b0f3e899e721583ec205
+  input_hash: cde2d7ecd1d57588cba522155b53b869eca7895c350c254d85798deac64b55dc
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/appsource
@@ -381,27 +381,28 @@ narrative: generated
 
 # Get started
 
-> The Get started section of Business Central documentation is an entry point for learning the product, developing apps, selling to customers, and finding answers and support. It helps an agent route questions on orientation, publishing and marketplace, partner sales, FAQs and help.
+> The Get started section of Business Central documentation covers orientation for newcomers and partners: product learning material, app development, selling and onboarding, FAQs, and help and support. It helps an agent route questions about what the product does, how partners build and sell, and where to find short answers.
 
-Path: Get started · tier official · system none · narrative reviewed (checked by Opus)
+Path: Get started · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Get started groups five subtopics and has no pages of its own. Each subtopic targets a different audience and task, so the first step is picking the right one.
+Get started is the entry point to Business Central content. It has no pages of its own and is split into five subtopics: Learn, Develop, Sell, Frequently asked questions, and Help and support.
 
-Learn is for orientation: a business functionality overview, process walkthroughs, design details, demo data and partner resources. Develop covers building, publishing, customizing and maintaining apps and extensions, including becoming a publisher, marketplace submission and validation, embed apps, localization and app lifecycle. Sell covers how partners take Business Central to customers: reselling online, onboarding, configuration packages, customization and selling apps through Marketplace.
+Newcomers should start with Learn, which gives a business functionality overview, application design details, process walkthroughs and Contoso Coffee demo data for practice. Partners then move on to Develop for building, customizing, publishing and maintaining apps and extensions, and to Sell for reselling online, onboarding customers and commercializing apps through Marketplace.
 
-Frequently asked questions gives short practical answers on AL development, app testing, marketplace validation, library and dependency apps, migration to Business Central online and the discontinued Windows client. Help and support is a further subtopic of 10 pages. Its summary was not provided, so check the pages themselves.
+The FAQ subtopic gives short practical answers on AL development, marketplace validation, library and dependency apps, migration to Business Central online and the discontinued Windows client. Help and support is the place for support questions, but no summary of its 10 pages was provided.
 
 ## Key points
 
-- Learn (6 pages): functionality overview, process walkthroughs, design details, demo data and partner resources such as releases, Copilot and community information.
-- Develop (36 pages, the largest subtopic): building, publishing, customizing and maintaining apps and extensions.
-- Develop also covers becoming a publisher, marketplace submission and validation, embed apps and localization.
-- Develop explains the split of responsibilities between Microsoft and partners.
-- Sell (5 pages): reselling online, onboarding customers, preparing company configuration packages, customizing the application and selling apps through Marketplace.
-- Frequently asked questions (9 pages): AL development, app testing, submission, updating and marketing validation, library and dependency apps, migration to online, and the discontinued Windows client.
-- Help and support (10 pages) has no summary in the input, so its content is unconfirmed.
+- Learn (6 pages) gives a product overview, application design details, process walkthroughs, Contoso Coffee demo data and partner resources and communities.
+- Develop (36 pages) is the largest subtopic. It covers getting started as a partner, per-tenant customization, localization, marketplace submission and validation, embed apps and app lifecycle.
+- Develop also explains Microsoft versus partner responsibilities in the online service.
+- Sell (5 pages) covers reselling online, onboarding customers, preparing company configuration packages, customizing the application and selling apps through Marketplace.
+- Sell also addresses partner setup, licensing and onboarding tools.
+- FAQ (9 pages) covers AL development, app testing, submission, updating and marketing validation for the marketplace.
+- FAQ also covers library and dependency apps, migration to Business Central online and the discontinued Windows client.
+- Help and support (10 pages) is part of the section, but its content was not summarized in the input.
 
 ## Subtopics
 

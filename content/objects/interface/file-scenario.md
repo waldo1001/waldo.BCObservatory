@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:46:40.499Z"
+  at: "2026-11-22T00:48:37.330Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a6517a689f2ab3adff33c83711592ef137554830fd8a4191c1c244199d55e658
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/System%20Application/App/External%20File%20Storage/src/Scenario/FileScenario.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/System%20Application/App/External%20File%20Storage/src/Scenario/FileScenario.Interface.al
     title: src/System Application/App/External File Storage/src/Scenario/FileScenario.Interface.al (releases/29.x)
     date: null
-    commit: d30504e3670310aa9f2396745813257d80d473b8
+    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Interface "File Scenario" in System Application (System.ExternalFileStorage). 4 public procedures. Introduced in BC28, still in BC30.
 
-System Application · System.ExternalFileStorage · BC28-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/System%20Application/App/External%20File%20Storage/src/Scenario/FileScenario.Interface.al) · facts from BC29
+System Application · System.ExternalFileStorage · BC28-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/System%20Application/App/External%20File%20Storage/src/Scenario/FileScenario.Interface.al) · facts from BC29
 
 ## Procedures
 

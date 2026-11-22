@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-09T00:45:18.475Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9920693bd7e95c4806b31370bed527d3470c4497897c472bacd24b9531e2ac97
@@ -76,6 +76,7 @@ links:
     - video/QCo-uIfPs9g
   posts:
     - post/aardvarklabs-blog/4100
+    - post/aardvarklabs-blog/4116
   guidelines: []
   changes:
     - change/bcquality/216
@@ -91,7 +92,7 @@ coverage:
   learn: 6
   code: 0
   video: 1
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 9920693bd7e95c4806b31370bed527d3470c4497897c472bacd24b9531e2ac97
@@ -119,6 +120,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#216 knowledge(style): a new procedure that changes the page's current record should take it as var Record](../../../../../changes/bcquality/216.md) (code change): "procedures that modify a record should take the record as a var parameter"
 - [Business Central 29: The New IsDirty() Flag — Finally a Smarter Way to Detect Record Changes](../../../../../posts/aardvarklabs-blog/4100.md) (community post): "IsDirty() method, a built-in flag that detects whether a record has been modified"
+- [Business Central v29: Using AL Interfaces with Default Method Support](../../../../../posts/aardvarklabs-blog/4116.md) (community post): "default interface methods let an interface carry a full procedure body"
 - [What's New: Extending Copilot in Business Central (2024 Release Wave 2)](../../../../../videos/QCo-uIfPs9g.md) (video): "Tools and Function Calling; Tool Invocation Preferences; AOI Function Interface"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

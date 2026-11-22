@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/manufacturing",
-  "input_hash": "49b7ae4c687b785098fdeb3c68952ced6c10739339e3ef6bf0ace3cee12d1fab",
-  "summary": "Manufacturing in Business Central covers production orders and their lifecycle: creating orders, posting consumption, output, scrap and capacity, reversing transactions, and finished order costing. It also covers subcontracting and manufacturing analytics, and answers how-to and where-to-find questions.",
-  "overview": "Manufacturing describes how production is planned, scheduled, executed and analyzed using production BOMs, routings, work centers, machine centers and production orders. The overview page is marked as Premium experience and is the best starting point.\n\nThe own pages follow the life of a production order. You create the order from an item, family or sales order source, then record material consumption and output, either by flushing automatically or by posting journals by hand. Separate pages cover scrap, capacity posted outside production orders, reversing mistakes, and how finished order costs are adjusted.\n\nTwo subtopics go deeper. Subcontracting covers delegating operations to vendors. Manufacturing analytics covers the Power BI Manufacturing app, built-in reports and load versus capacity views.",
+  "input_hash": "2b591714b86bcadbf9f50a388991627be8b8c5bc6a1a4f1909e6e624b262424a",
+  "summary": "Manufacturing in Business Central covers production orders from creation to finish, posting of consumption, output, scrap and capacity, cost adjustment, and corrections. It also includes subcontracting and manufacturing analytics. It answers how-to and concept questions about running and costing production.",
+  "overview": "Manufacturing in Business Central plans, schedules, runs and analyzes production. The overview page explains the building blocks: production BOMs, routings, work and machine centers, and production orders. It is marked as part of the Premium experience.\n\nThe own pages follow the life of a production order. You create an order (source type item, family or sales order, with lines, copy and refresh), then record material consumption, output, run times and scrap. This can be done in the production journal or in batch journals, with flushing methods controlling when consumption posts. Capacity journals record work or machine center time outside production orders. When an order is finished, cost adjustment reconciles materials, capacity, subcontracting and overhead with WIP and inventory. A separate page covers reversing and correcting transactions.\n\nTwo subtopics go deeper. Subcontracting covers delegating operations to vendors, and Manufacturing analytics covers the Power BI Manufacturing app, production reports and capacity load. Start with the Manufacturing overview, then About production orders and Create production orders.",
   "key_points": [
-    "Production orders are created with a source type (item, family or sales order), quantity and due dates; lines can be copied from existing orders and orders refreshed when requirements change.",
-    "Consumption and output can be flushed automatically or posted manually through batch posting journals or the Production Journal.",
-    "The Production Journal combines consumption, output, scrap and operation time for a released order, updating inventory, capacity, costs and progress.",
-    "Scrap is posted in the output journal with scrap quantities and reason codes to separate good output from losses.",
-    "Capacity journals record work center or machine center time outside production orders, such as maintenance.",
-    "Production order status must be finished before cost adjustment; the adjustment reconciles materials, capacity, subcontracting and overhead with WIP and inventory.",
-    "Transactions can be reversed, including consumption, output and subcontracting receipts; finished orders can be reopened and WIP written off.",
-    "Subcontracting (5 pages) and Manufacturing analytics (48 pages) are subtopics for vendor-performed operations and for reports and load views."
+    "Production orders are created with a source type of item, family or sales order, with due dates, quantities, calculated start and end times, and lines that can be copied or refreshed.",
+    "Consumption can be flushed automatically or manually. Batch post consumption can calculate component usage and works with warehouse picks.",
+    "The Production Journal registers consumption, output, scrap and operation time for a released order in one place.",
+    "Batch post output and run times records quantities, setup and run time, scrap and stop codes, and uses routing explosion.",
+    "Scrap can be posted manually in the output journal with a quantity and scrap code to separate losses from good output.",
+    "Capacity journals post time for work or machine centers outside production orders, such as maintenance, to create capacity ledger entries.",
+    "A production order must be finished before its costs can be adjusted. Adjustment reconciles materials, capacity, subcontracting and overhead and calculates variances.",
+    "Transactions can be reversed: consumption, output and subcontracting receipts. Finished orders can be reopened or finished without output, with WIP write-off."
   ],
   "members_used": 10,
   "subtopics_used": 2,
   "prompt_version": 1,
-  "at": "2026-11-15T00:50:18.725Z",
+  "at": "2026-11-22T00:59:36.249Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.016369
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-11-19T01:01:23.413Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the closing phrase of the summary, 'answers how-to and where-to-find questions', is generic filler. No source summary describes it.",
-      "Minor: 'best starting point' for the overview page is an editorial judgment rather than a sourced claim. It is reasonable and harmless.",
-      "Minor omission: by-product handling (About production orders) and stop codes (Batch post production output) are not mentioned. Adding them is optional."
-    ],
-    "input_hash": "49b7ae4c687b785098fdeb3c68952ced6c10739339e3ef6bf0ace3cee12d1fab",
-    "cost_usd": 0.047951999999999995
+    "cost_usd": 0.021330000000000002
   }
 }

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -167,14 +167,14 @@ The pages follow the life of the integration. Start with the mirroring overview 
   - Step: In Fabric, open the mirrored database and select Monitor replication to check database and table states, row counts, and last completed times.
   - Setup Complete confirms background connection succeeded. Export Enabled reports whether continuous export is enabled but doesn't confirm particular export success.
 - [Set Up Business Central Data Mirroring to Microsoft Fabric](https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring): Prepare Microsoft Fabric, connect Business Central to an open mirrored database, and select the companies and tables to synchronize.
-  - Status: Data mirroring setup is in preview and requires the Microsoft Fabric Mirroring extension on a compatible Business Central online environment.
-  - Prerequisite: Your user must have the MS Fabric Mirroring - Admin permission set or equivalent permissions in Business Central.
-  - Prerequisite: The Fabric destination workspace must be assigned to an active capacity, and you must have at least Member role in it.
-  - Prerequisite: The Fabric workspace must be in the same Microsoft Entra tenant as your Business Central environment.
-  - Step: Create an open mirrored database in Microsoft Fabric by signing in, selecting the workspace, opening Create, selecting Mirrored Database and Other, then entering a name.
-  - Business Central uses the Microsoft-provided Dynamics 365 Business Central Fabric Export application (client ID dcc80069-ba40-4ad9-ba8c-60001cea3497) for authentication.
-  - Step: Create a service principal for the app in your Microsoft Entra tenant using Azure Cloud Shell, Azure CLI, Microsoft Graph PowerShell, or Graph Explorer.
-  - Step: Grant the service principal at least Contributor access to the Fabric workspace either during Business Central setup or directly in Fabric.
+  - Status: Connect to Microsoft Fabric is preview; version 29.1 or later required
+  - Prerequisite: Business Central online environment must have version 29.1 or later
+  - Prerequisite: Business Central Mirroring to Fabric extension must be installed from Microsoft Marketplace
+  - Permissions: User account requires MS Fabric Mirroring - Admin permission set or equivalent
+  - Prerequisite: Fabric workspace must be in same Microsoft Entra tenant as Business Central environment
+  - Prerequisite: Fabric workspace must be assigned to active Microsoft Fabric capacity; paused or deleted capacity stops replication
+  - Service principal created for Dynamics 365 Business Central Fabric Export application handles authentication with Fabric
+  - Step: Create open mirrored database in Microsoft Fabric to receive Business Central data
   - In the observatory: [Introducing: Business Central Integration with Microsoft Fabric (2026 release wave 2)](../../../../videos/kOCiyVql0go.md)
 
 Key facts from Microsoft Learn (CC BY 4.0), in our own words (D106); open the page for the full text.

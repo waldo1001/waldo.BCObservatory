@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:03.141Z"
   flags: []
 generated:
-  at: "2026-11-05T00:55:36.087Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -104,6 +104,7 @@ links:
     - post/yzhums-com/73564
   guidelines: []
   changes:
+    - change/bcapps/11715
     - change/bcapps/12160
     - change/bcapps/13340
     - change/bcapps/13483
@@ -193,6 +194,7 @@ Insurance and maintenance pages are optional add-ons. Start with the overview pa
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11715 Slice 440258: Fixed Asset Journal Approval](../../../../changes/bcapps/11715.md) (code change): "Workflow setup and webhook management configured for Fixed Asset Journal approvals"
 - [#12160 Deliverable 617319: Move French accelerated depreciation to W1 base application](../../../../changes/bcapps/12160.md) (code change): "New depreciation book setup fields, posting accounts, and calculation logic added"
 - [#13340 [Master]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card.](../../../../changes/bcapps/13340.md) (code change): "FA Posting Group is not updated in the Fixed Asset List after being changed"
 - [#13483 [29.X]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card](../../../../changes/bcapps/13483.md) (code change): "FA Posting Group changes made on the Fixed Asset Card now show up in the Fixed Asset List"

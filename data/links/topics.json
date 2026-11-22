@@ -2183,6 +2183,20 @@
         }
       ]
     },
+    "change/bcapps/10295": {
+      "kind": "change",
+      "key": "change/bcapps/10295",
+      "hash": "a6da3cd5528e039a24794494dd1b22b252d24436c68ac292b955b77786b030cd",
+      "title": "#10295 #10288 - Always load attachments",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:06.380Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor",
+          "quote": "Email retrieval from Outlook now processes inline attachments"
+        }
+      ]
+    },
     "change/bcapps/10298": {
       "kind": "change",
       "key": "change/bcapps/10298",
@@ -7138,6 +7152,24 @@
         }
       ]
     },
+    "change/bcapps/11715": {
+      "kind": "change",
+      "key": "change/bcapps/11715",
+      "hash": "cdd1bc54e574ac160826e0835fdd3aabbe6f7da6a8952902d214b6223d62b4d3",
+      "title": "#11715 Slice 440258: Fixed Asset Journal Approval",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:08.426Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/fixed-assets",
+          "quote": "Fixed Asset Journal entries can now be approved through the approval workflow"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-fixed-assets",
+          "quote": "Workflow setup and webhook management configured for Fixed Asset Journal approvals"
+        }
+      ]
+    },
     "change/bcapps/11722": {
       "kind": "change",
       "key": "change/bcapps/11722",
@@ -9579,6 +9611,24 @@
       "at": "2026-10-17T01:11:06.231Z",
       "matches": []
     },
+    "change/bcapps/12544": {
+      "kind": "change",
+      "key": "change/bcapps/12544",
+      "hash": "b852a4dfcc5e446e665c90b5cc9f97cc031c36cf64b6be8ea4d3588593a33234",
+      "title": "#12544 Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:06.063Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "The Expense Agent now allows users to submit expenses without a receipt"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
+          "quote": "No Receipt workflow enables expense submission when original receipt is missing"
+        }
+      ]
+    },
     "change/bcapps/12545": {
       "kind": "change",
       "key": "change/bcapps/12545",
@@ -10645,6 +10695,20 @@
         }
       ]
     },
+    "change/bcapps/13012": {
+      "kind": "change",
+      "key": "change/bcapps/13012",
+      "hash": "82349275565feeae4963944aa4cc5c4e013368ac5b96f2c3d4640e1eee245e2d",
+      "title": "#13012 [Subcontracting] Assign worksheet suggestions to existing purchase orders",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:07.820Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
+          "quote": "Subcontracting worksheet users can now assign suggestions to existing open purchase orders"
+        }
+      ]
+    },
     "change/bcapps/13052": {
       "kind": "change",
       "key": "change/bcapps/13052",
@@ -10784,6 +10848,20 @@
         {
           "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
           "quote": "VAT Rate Change Conversion codeunit fixes a behavior change"
+        }
+      ]
+    },
+    "change/bcapps/13102": {
+      "kind": "change",
+      "key": "change/bcapps/13102",
+      "hash": "cf8608547a08583ec4fb4f37344ec92c2950a67d874149718cd3627af579a142",
+      "title": "#13102 Create putaway template bin validation",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:06.624Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/warehouse-management/inbound-warehouse-processes",
+          "quote": "Put-away template bin validation now excludes receipt, shipment, and posted receipt-line bins"
         }
       ]
     },
@@ -12094,14 +12172,14 @@
     "change/bcapps/13503": {
       "kind": "change",
       "key": "change/bcapps/13503",
-      "hash": "4e7441b9cf4807ff61e1e315c7e739308007be195193e7ac9b2c17f5cf8cc78b",
+      "hash": "d59a63cef7989416631827e9f9892ec7141a7ca8c1138f13f01227b1c84e53a2",
       "title": "#13503 [Main]-Prepayment amounts are incorrectly recalculated in statistics after partial posting when Prepmt. Amt. to Deduct Excl. VAT is manually adjusted",
       "source": "bcapps-prs",
-      "at": "2026-11-21T00:53:29.978Z",
+      "at": "2026-11-22T00:55:07.778Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/sales",
-          "quote": "prepayment amount recalculation in sales line statistics"
+          "quote": "Fixed the Sales Line prepayment recalculation so Prepmt. Line Amount no longer grows past the invoiced prepayment"
         }
       ]
     },
@@ -12581,6 +12659,20 @@
       "at": "2026-11-20T00:54:23.123Z",
       "matches": []
     },
+    "change/bcapps/13680": {
+      "kind": "change",
+      "key": "change/bcapps/13680",
+      "hash": "eee58522f37c81bc51f0948b6dc3a23ba840164d93604eacccc60b6bf13724d6",
+      "title": "#13680 [Excel Reports] Handle an apostrophe in the No. on the Vendor and Customer Top List",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:10.291Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/purchasing/purchasing-analytics/built-in-purchasing-reports",
+          "quote": "Excel reports for top vendor and customer lists now handle apostrophes"
+        }
+      ]
+    },
     "change/bcapps/13690": {
       "kind": "change",
       "key": "change/bcapps/13690",
@@ -12843,6 +12935,20 @@
         }
       ]
     },
+    "change/bcapps/13787": {
+      "kind": "change",
+      "key": "change/bcapps/13787",
+      "hash": "0e1a4e0511e4d68b73de019a1261048bf5689a9fc32f2d4d5cede05e90e3d16e",
+      "title": "#13787 [Main]error in allocation account function",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:09.965Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/accounting-for-costs",
+          "quote": "Fixed a bug in the allocation account posting logic that occurred during purchase document processing"
+        }
+      ]
+    },
     "change/bcapps/13792": {
       "kind": "change",
       "key": "change/bcapps/13792",
@@ -12966,14 +13072,14 @@
     "change/bcapps/13862": {
       "kind": "change",
       "key": "change/bcapps/13862",
-      "hash": "db7ee8a6d69ecf47f5ba247558e5991c94b0da8918b23ae7a1ca8d16e836350f",
+      "hash": "edda2e977e35a508e2b6b139a3ac32a078148bff40bbb590c7c53a3e8323e0a3",
       "title": "#13862 [29.X]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages.",
       "source": "bcapps-prs",
-      "at": "2026-11-21T00:53:34.849Z",
+      "at": "2026-11-22T00:55:11.349Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/assembly-management",
-          "quote": "Serial numbers selected on assembly order component lines are preserved when running the Calculate Regenerative Plan"
+          "quote": "Serial numbers selected on assembly order component lines are kept when Calculate Regenerative Plan runs"
         }
       ]
     },
@@ -13028,6 +13134,24 @@
         }
       ]
     },
+    "change/bcapps/13899": {
+      "kind": "change",
+      "key": "change/bcapps/13899",
+      "hash": "7809eda22a96cf7e6299567155bed9382e8f7443d339c90a5e89a26f6fe14c0c",
+      "title": "#13899 Bugfix/issue 13425 shopify wrong curr amount refund",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:14.277Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-shopify",
+          "quote": "Fixed Shopify refund sales line creation to use the correct amount"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/online-store-with-shopify",
+          "quote": "Shopify refund sales line creation when shop and presentment currencies differ"
+        }
+      ]
+    },
     "change/bcapps/13917": {
       "kind": "change",
       "key": "change/bcapps/13917",
@@ -13059,14 +13183,14 @@
     "change/bcapps/13925": {
       "kind": "change",
       "key": "change/bcapps/13925",
-      "hash": "cd1229b08b0022963cc39c33ead91d5ef329fe6a1d67a539fecc036b5209b1d1",
+      "hash": "11b99827123844a3232d5f8b417ace56af2b45fcc5f293b52f570acc6480b4ed",
       "title": "#13925 [29x]-Bug 658773: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)",
       "source": "bcapps-prs",
-      "at": "2026-11-21T00:53:38.869Z",
+      "at": "2026-11-22T00:55:06.063Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
-          "quote": "Mileage starting and ending point addresses longer than 50 characters"
+          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
+          "quote": "Fixes mileage starting and ending point addresses longer than 50 characters"
         }
       ]
     },
@@ -13212,6 +13336,20 @@
         }
       ]
     },
+    "change/bcapps/13991": {
+      "kind": "change",
+      "key": "change/bcapps/13991",
+      "hash": "fd2029838bd820f0b5a850831dcf05ade1c996cc4bd13402e0c1a1b9d9415602",
+      "title": "#13991 [Main][All-E] Warehouse Pick cannot be updated with newly received quantity after Purchase Receipt has been posted",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:06.624Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes",
+          "quote": "Warehouse Pick cannot be updated with newly received quantity after Purchase Receipt has been posted"
+        }
+      ]
+    },
     "change/bcapps/13992": {
       "kind": "change",
       "key": "change/bcapps/13992",
@@ -13350,6 +13488,20 @@
         }
       ]
     },
+    "change/bcapps/14021": {
+      "kind": "change",
+      "key": "change/bcapps/14021",
+      "hash": "1c195e86a031a4bd510913f4ad8943003d12a6f4799392772bfac0dbe031e2f2",
+      "title": "#14021 Finance internal new body layouts and obsolete current",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:09.965Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/financial-analytics/built-in-finance-reports",
+          "quote": "Three deferral summary reports receive new WordBody layouts with improved internal design"
+        }
+      ]
+    },
     "change/bcapps/14022": {
       "kind": "change",
       "key": "change/bcapps/14022",
@@ -13384,6 +13536,20 @@
         {
           "topic": "topic/business-central/business-functionality/finance",
           "quote": "TDS was calculated only on the later invoice line once the annual threshold"
+        }
+      ]
+    },
+    "change/bcapps/14070": {
+      "kind": "change",
+      "key": "change/bcapps/14070",
+      "hash": "96f3695bb6d267a88b158442ead8d84211e4307c6d89aaae816f1a1da420cd43",
+      "title": "#14070 [29.x][All-e]\"Specify the VAT registration number that you want to verify\" error when entering a VAT Registration No. in the Sales Order if the Customer Card has no VAT Registration No.",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:07.778Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/sales",
+          "quote": "Sales Header VAT Registration No. validation now checks the number entered on the document"
         }
       ]
     },
@@ -13441,14 +13607,32 @@
     "change/bcapps/14096": {
       "kind": "change",
       "key": "change/bcapps/14096",
-      "hash": "8df4d5691cc41b0df0a86e1f66780ab1502dd4eea83a4945d3e3ab855be99c0a",
+      "hash": "21ce6bfe4dc1d7046ba4d90aed9dbf734f2d4630725121480786761d4250bbd7",
       "title": "#14096 [29.x]-\"El título Importe pendiente resulta ambiguo entre varios campos de la tabla Mov. proveedor.\" error if you try to Create Payment for some Vendor Ledger Entries filtered by Remaining Amount <> 0 in the Spanish version.",
       "source": "bcapps-prs",
-      "at": "2026-11-21T00:53:38.816Z",
+      "at": "2026-11-22T00:55:10.291Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/manage-payables/make-payments",
-          "quote": "Create Payment page now correctly filters Vendor Ledger Entries by Remaining Amount"
+          "quote": "Create Payment no longer fails with an ambiguous 'Importe pendiente' caption error"
+        }
+      ]
+    },
+    "change/bcapps/14111": {
+      "kind": "change",
+      "key": "change/bcapps/14111",
+      "hash": "8cd4ac2252b5c7b97fa34ca5b682cc2987834ff0d0d0d33c6435a0a8f0a8e493",
+      "title": "#14111 Slice 636866: [Subcontracting] Subcontracting Summary Factbox on Released Production Order Card",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:12.953Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
+          "quote": "Subcontracting Summary FactBox was added to the Released Production Order Card showing nine order-level indicators"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing",
+          "quote": "New FactBox displays nine order-level indicators for subcontracting orders"
         }
       ]
     },
@@ -13506,10 +13690,10 @@
     "change/bcapps/14133": {
       "kind": "change",
       "key": "change/bcapps/14133",
-      "hash": "70671e88d5d2327c7d57b84971b9ea5cd5062e14d9eb860abd8c7f809fe94a84",
+      "hash": "a402b0226bfb940e9daa2b3859e8597aafdbfb048dd2739d0d88c07480b17bb8",
       "title": "#14133 [29x] Total Number of Supplies has incorrect type and tooltip in the VAT Report page of the German version",
       "source": "bcapps-prs",
-      "at": "2026-11-21T00:53:38.684Z",
+      "at": "2026-11-22T00:55:09.965Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/local-functionality/germany/vat",
@@ -13593,16 +13777,11 @@
     "change/bcapps/14148": {
       "kind": "change",
       "key": "change/bcapps/14148",
-      "hash": "ab03d50d438c59766dcffbc25ad010a33ac5bba601847dbc7edf1d6a1c4adef6",
+      "hash": "b29ee7d65f3eb080b1f1a2ca78a77a680f216224171fc7243c723e8d3edb0a19",
       "title": "#14148 Only skip draft preparation for the Payables Agent's own e-documents with agent-driven line matching",
       "source": "bcapps-prs",
-      "at": "2026-11-21T00:53:40.467Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
-          "quote": "Payables Agent's own e-documents with agent-driven line matching"
-        }
-      ]
+      "at": "2026-11-22T00:55:14.277Z",
+      "matches": []
     },
     "change/bcapps/14154": {
       "kind": "change",
@@ -13649,6 +13828,15 @@
           "quote": "Business Central online now always uses commercial Dataverse endpoints regardless of the selected cloud"
         }
       ]
+    },
+    "change/bcapps/14211": {
+      "kind": "change",
+      "key": "change/bcapps/14211",
+      "hash": "64cce0867154e461684b06d16f455a020a4483088ab1a86c2aabf59db09c3e97",
+      "title": "#14211 Bug 659659: [Master Data Management] Fix cross-environment setup wizard UX quirks",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:14.277Z",
+      "matches": []
     },
     "change/bcapps/14212": {
       "kind": "change",
@@ -13724,21 +13912,26 @@
         }
       ]
     },
+    "change/bcapps/14281": {
+      "kind": "change",
+      "key": "change/bcapps/14281",
+      "hash": "2d79aec447ddd4cf88f1dd9019a40f53c97471c5058cd669bc770b712a602f9d",
+      "title": "#14281 Fix manufacturing enum fallback in item journals",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:07.820Z",
+      "matches": []
+    },
     "change/bcapps/14283": {
       "kind": "change",
       "key": "change/bcapps/14283",
-      "hash": "1a1c20c65a08e63173ba7f843ffb531725c383c594414f2795c1e6b519bf1cdd",
+      "hash": "ad715ef5d78cafff5c29c29936ce6ac442b46037d3bd09f6d4745174ba1d8ad5",
       "title": "#14283 [Master]-Sales or purchase order with 100% prepayment: Prepmt. Line Amount drifts below Prepmt. Amt. Inv. after partial invoices, so the order can't be released or posted",
       "source": "bcapps-prs",
-      "at": "2026-11-21T00:53:38.816Z",
+      "at": "2026-11-22T00:55:10.291Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/finance/manage-payables/make-payments",
-          "quote": "Prepayment line amount drift is fixed for sales and purchase orders with 100% prepayment"
-        },
-        {
           "topic": "topic/business-central/business-functionality/sales",
-          "quote": "Prepayment line amount drift is fixed for sales and purchase orders with 100% prepayment"
+          "quote": "Prepmt. Line Amount no longer drifts below Prepmt. Amt. Inv. after partial invoices"
         }
       ]
     },
@@ -13763,18 +13956,14 @@
     "change/bcapps/14295": {
       "kind": "change",
       "key": "change/bcapps/14295",
-      "hash": "17f7b543f90bcc2eb42d478df0a21347503c29bbc8fc0b9506415d62ee8355f6",
+      "hash": "2b2fb7ddd0f2dd8703254d70f9fc2f39f8a76d2622f1e92ee56812af3c204dfc",
       "title": "#14295 [Main] Expense Management: make core expense business objects public",
       "source": "bcapps-prs",
-      "at": "2026-11-21T00:53:38.869Z",
+      "at": "2026-11-22T00:55:06.063Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/expense-management-preview/understand-expense-agent",
-          "quote": "core expense business objects are now publicly accessible for extensions"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai",
-          "quote": "agent-specific and policy-related functionality internal"
+          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
+          "quote": "Expense Management core business objects are now publicly accessible for extensions"
         }
       ]
     },
@@ -13806,46 +13995,75 @@
         }
       ]
     },
+    "change/bcapps/14329": {
+      "kind": "change",
+      "key": "change/bcapps/14329",
+      "hash": "3f577af4d9cb5a309253a9c64538915dc2a68c49dbc4813262a1af5cd29018dc",
+      "title": "#14329 Optimizing check for PA eligibility",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:10.291Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/payables-agent",
+          "quote": "The Payables Agent eligibility check now uses a more efficient query strategy"
+        }
+      ]
+    },
+    "change/bcapps/14331": {
+      "kind": "change",
+      "key": "change/bcapps/14331",
+      "hash": "f31c784f0325c681dc45fd72c5ea6ebbc33b29cf303ccd9fa0fbd7a9438b57f7",
+      "title": "#14331 Fix trailing periods in generated document attachment folders",
+      "source": "bcapps-prs",
+      "at": "2026-11-22T00:55:06.380Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor",
+          "quote": "SharePoint attachment folder paths for document attachments are now normalized"
+        }
+      ]
+    },
     "change/bcapps/14332": {
       "kind": "change",
       "key": "change/bcapps/14332",
-      "hash": "c4c0b69e4c9868b2c451b2c74173e9bd2b17574034a9078690b3585585f60009",
+      "hash": "4349be9e525e8fae5c2428c0af7c46c4bd34957523a90d72df30a1d0e1de3e53",
       "title": "#14332 Bug 660000: [64bit] Overflow in item application entry",
       "source": "bcapps-prs",
-      "at": "2026-11-21T00:53:31.398Z",
+      "at": "2026-11-22T00:55:07.820Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/design-details/design-details-inventory-costing",
-          "quote": "prevent overflow in 64-bit calculations during cost processing"
+          "quote": "Some variables in the Item Application Entry table were declared as Integer instead of BigInteger"
         }
       ]
     },
     "change/bcapps/14335": {
       "kind": "change",
       "key": "change/bcapps/14335",
-      "hash": "ec67757988c2efce8ec3f6d7cc86723487fa3f1908b881522e3cadbcc4814803",
+      "hash": "2d75a86b8ab196a4c169bb141d46267391c3a2203c389d0d805c95c4a88c2b1c",
       "title": "#14335 [Main] Expense Management: make Expense Management Setup public; keep agent and corporate card surface internal",
       "source": "bcapps-prs",
-      "at": "2026-11-21T00:53:38.869Z",
+      "at": "2026-11-22T00:55:06.063Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/expense-management-preview/understand-expense-agent",
-          "quote": "Expense Management Setup table is now public for extensions"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai",
-          "quote": "Extensions can read default-setup flags to avoid overwriting"
+          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
+          "quote": "Table 6930 Expense Agent Setup, which holds company-wide expense management settings, is now public"
         }
       ]
     },
     "change/bcapps/14344": {
       "kind": "change",
       "key": "change/bcapps/14344",
-      "hash": "b657e54b5d45d727746b6a23e0d910315cf1633683a8886aa605370c0e265b33",
+      "hash": "63d8a67a4a6df0ea8aba6ddc76bdaeb8676594a4e03917cfcb2ef52fea0e9b9d",
       "title": "#14344 [SOA] Keep setup buffer current after instruction sync (AB#660003)",
       "source": "bcapps-prs",
-      "at": "2026-11-21T00:53:36.942Z",
-      "matches": []
+      "at": "2026-11-22T00:55:06.063Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
+          "quote": "The SOA Setup timestamp helper now saves through the caller's buffer"
+        }
+      ]
     },
     "change/bcapps/14364": {
       "kind": "change",
@@ -22666,18 +22884,22 @@
     "post/aardvarklabs-blog/4116": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/4116",
-      "hash": "f7948414a3f5ca9ab6b1a382c57ab4d736e5a9f3cff25dc47a2b83357d599964",
+      "hash": "72ad7518b5cd26d8fe7fb8b9ea881de1765288a33c08f02a3e420069f60dbe32",
       "title": "Business Central v29: Using AL Interfaces with Default Method Support",
       "source": "aardvarklabs-blog",
-      "at": "2026-11-21T00:53:32.820Z",
+      "at": "2026-11-22T00:55:08.426Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/interfaces",
-          "quote": "default interface methods in AL, allowing interfaces to provide complete procedure implementations"
+          "quote": "interfaces to provide complete procedure implementations that codeunits may override"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/methods",
+          "quote": "default interface methods let an interface carry a full procedure body"
         },
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
-          "quote": "reduces duplicate code and lets developers evolve interfaces without breaking"
+          "quote": "interfaces in general help AI code generation by giving a strict contract"
         }
       ]
     },
@@ -52849,16 +53071,20 @@
     "video/YBVqwzig8Qc": {
       "kind": "video",
       "key": "video/YBVqwzig8Qc",
-      "hash": "46481498369dfae270a266bf922d9cf0e65840cb175ce6c719f917b109bcbaa7",
+      "hash": "63e662bacad2a35ef26224b8eb71047730ca9b94e7cab0a8caa53946104a9fd5",
       "title": "What probem? I can stop whenever I want! (More Games in AL and Business Central)",
       "source": "yt-hougaard",
-      "at": "2026-11-11T00:54:42.529Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
-          "quote": "al; game development; emulation; z80 processor; c2al converter; quake engine"
-        }
-      ]
+      "at": "2026-11-22T00:55:14.289Z",
+      "matches": [],
+      "second": {
+        "at": "2026-11-22T00:54:45.750Z",
+        "dropped": [
+          {
+            "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+            "reason": "Game and emulator ports are novelty demos that don't demonstrate anything this section documents."
+          }
+        ]
+      }
     },
     "video/yE6lNV3ALb4": {
       "kind": "video",

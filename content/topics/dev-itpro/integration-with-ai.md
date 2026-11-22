@@ -2,7 +2,7 @@
 id: topic/dev-itpro/integration-with-ai
 type: topic
 title: Integration with AI
-summary: "Integration with AI in Business Central covers how partners and developers build AI features: Copilot developer tools in AL, machine learning APIs, Model Context Protocol servers, and custom agents (preview). It answers planning, setup, connection and design questions for each area."
+summary: "Integration with AI in Business Central covers how partners build and connect AI features: Copilot developer tools in AL, machine learning APIs, Model Context Protocol servers, and designing and coding custom agents (preview). It answers planning, setup, access control and design questions."
 tier: official
 language: en
 system: copilot
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c439ef5997b42bcab98a34fb8747b6a2a06bd8446a70963a86c874f555d112f7
+  input_hash: 4dea436455b688da96ef5404c07b0588d4e23d78c0876816a2520d43593d415e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-models
@@ -319,9 +319,6 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-tech-days-2026--908b4ceb5d
     - post/thinkaboutit-be/7175
   guidelines: []
-  changes:
-    - change/bcapps/14295
-    - change/bcapps/14335
 learn_toc_path:
   - Integration with AI
 toc_file: dev-itpro/TOC.md
@@ -347,28 +344,28 @@ narrative: generated
 
 # Integration with AI
 
-> Integration with AI in Business Central covers how partners and developers build AI features: Copilot developer tools in AL, machine learning APIs, Model Context Protocol servers, and custom agents (preview). It answers planning, setup, connection and design questions for each area.
+> Integration with AI in Business Central covers how partners build and connect AI features: Copilot developer tools in AL, machine learning APIs, Model Context Protocol servers, and designing and coding custom agents (preview). It answers planning, setup, access control and design questions.
 
 Path: Integration with AI · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is for partners and developers who extend Business Central with AI. It is split into four areas, each with its own set of pages, and there are no standalone pages at the top level.
+This section groups the ways to bring AI into Business Central. It has four areas: developer tools for generative AI Copilot features, machine learning APIs for forecasting and prediction, Model Context Protocol (MCP) integration, and designing and coding agents (preview).
 
-For generative AI inside the product, start with the developer tools for Copilot. They explain what a Copilot extension is, the System.AI module, the PromptDialog page type, Azure OpenAI setup and the transparency note. For predictive scenarios, the machine learning APIs cover Forecasting (Time Series) and Prediction, with a transparency note on limits.
+Start with the Copilot developer tools if you are building generative AI features in AL. They explain what a Copilot extension is, the System.AI module and PromptDialog page type, Azure OpenAI setup, Help preparation and the transparency note. For classic prediction needs, the machine learning pages help you pick between the Forecasting (Time Series) API and the Prediction API.
 
-For connecting external AI clients, the Model Context Protocol pages describe the Business Central MCP Server, its configuration and access control, and how to connect hosts such as VS Code, Copilot Studio, Claude, ChatGPT and GitHub Copilot CLI. They also describe the AL MCP Server for AL development tools. The agents section (preview) covers designing, creating, configuring, running and coding custom agents with the AI development toolkit in sandboxes.
+For external AI clients, the MCP pages cover the Business Central MCP Server, its configuration and how to connect hosts, plus the AL MCP Server for AL development tools. The agents area covers the AI development toolkit for designing, prototyping, running and managing custom agents, with a subtopic on coding agents in AL.
 
 ## Key points
 
-- Copilot developer tools: definition of a Copilot extension, the System.AI module, the PromptDialog page type, Azure OpenAI setup, Business Central AI resources, Help preparation and a transparency note.
-- Machine learning APIs: the Forecasting (Time Series) API and the Prediction API, with guidance on which fits a task and how to use them responsibly.
-- The Business Central MCP Server has its own configuration and access control settings.
+- Copilot developer tools: what counts as a Copilot extension, the System.AI module and PromptDialog page type, Azure OpenAI setup and Business Central AI resources.
+- Help preparation and a transparency note are part of the Copilot developer guidance.
+- Machine learning APIs: the Forecasting (Time Series) API and the Prediction API, with a transparency note on capabilities, limits and responsible AI.
+- The Business Central MCP Server has its own configuration and access control.
 - MCP hosts covered: VS Code, Copilot Studio, Claude, ChatGPT and GitHub Copilot CLI.
 - The AL MCP Server supports AL development tools.
-- Agents (preview) are built with the AI development toolkit in sandboxes.
-- Agent design topics: instructions, permissions and profiles, tasks, attachments, visibility, export/import and iteration.
-- Agents can be coded against the Tasks AL API.
+- Agent design and coding is in preview and uses the Business Central AI development toolkit.
+- Agent topics include instructions, permissions, profiles, tasks, attachments, visibility, export/import and troubleshooting.
 
 ## Subtopics
 
@@ -377,12 +374,10 @@ For connecting external AI clients, the Model Context Protocol pages describe th
 - [Integrate with Model Context Protocol](integration-with-ai/integrate-with-model-context-protocol.md) (6 pages)
 - [Designing and coding agents (preview)](integration-with-ai/designing-and-coding-agents-preview.md) (23 pages)
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#14295 [Main] Expense Management: make core expense business objects public](../../changes/bcapps/14295.md) (code change): "agent-specific and policy-related functionality internal"
-- [#14335 [Main] Expense Management: make Expense Management Setup public; keep agent and corporate card surface internal](../../changes/bcapps/14335.md) (code change): "Extensions can read default-setup flags to avoid overwriting"
 - [From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.](../../posts/demiliani-com/13611.md) (community post): "Azure OpenAI's Responses API replaces Chat Completions as the recommended approach"
 - [Why Customer’s AI project fail? The gap between hype and reality.](../../posts/demiliani-com/13695.md) (community post): "building reliable, integrated AI agents for Business Central requires proper architecture"
 - [BC Tech Days 2026](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-tech-days-2026--908b4ceb5d.md) (community post): "AI agents were the dominant topic across all sessions and conversations"

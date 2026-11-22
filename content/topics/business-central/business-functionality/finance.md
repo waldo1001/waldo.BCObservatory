@@ -12,7 +12,7 @@ review:
   at: "2026-11-21T01:00:52.650Z"
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -862,6 +862,8 @@ links:
     - post/gerardorenteria-blog/14103
     - post/gerardorenteria-blog/14595
     - post/gerardorenteria-blog/15508
+    - post/miljan-rs/908
+    - post/thedynamicsexplorer-com/10122
     - post/yzhums-com/73165
   guidelines: []
   changes:
@@ -899,7 +901,7 @@ coverage:
   learn: 258
   code: 523
   video: 6
-  blog: 5
+  blog: 7
   guideline: 0
 bc_forms:
   - 1
@@ -1508,6 +1510,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [New Application Ideas of Dynamics 365 Business Central (2026 FEB)](../../../posts/gerardorenteria-blog/14103.md) (community post): "Finance ideas cover the German VAT ID validation interface, pausing subscription"
 - [New Application Ideas of Dynamics 365 Business Central (2026 APR)](../../../posts/gerardorenteria-blog/14595.md) (community post): "Ideas address both core functionality improvements and localization needs"
 - [New Application Ideas of Dynamics 365 Business Central (2026 OCT)](../../../posts/gerardorenteria-blog/15508.md) (community post): "Finance and localization ideas focus on e-invoicing and on SEPA and ISO 20022 exports"
+- [Oops, I Did It Again: Reversing G/L Transactions in Business Central](../../../posts/miljan-rs/908.md) (community post): "Reverse Register on the G/L Registers page undoes a whole posted journal batch"
+- [Dynamics 365 Business Central – Month End Accruals for GRNI Purchase Orders and Unposted Purchase Invoices](../../../posts/thedynamicsexplorer-com/10122.md) (community post): "This post explains how to identify and accrue for unposted purchase invoices"
 - [Business Central 2026 release wave 1 (BC28.1): Expense Management module (Manage employee expenses)](../../../posts/yzhums-com/73165.md) (community post): "new native Expense Management module that enables employees to create, submit, and track expense reports"
 - [Introducing: Withholding Taxes (2026 release wave 1)](../../../videos/d4mYltz4Zwg.md) (video): "Withholding Tax Posting Groups Configuration; Vendor Withholding Tax Enablement"
 - [What's New: Financial Management - Overview (2024 release wave 1)](../../../videos/HI7VcPzR2OE.md) (video): "Topics: gl revaluation; currency posting; excel reports; consolidation; collection management"

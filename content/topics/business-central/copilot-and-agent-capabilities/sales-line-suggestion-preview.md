@@ -2,21 +2,21 @@
 id: topic/business-central/copilot-and-agent-capabilities/sales-line-suggestion-preview
 type: topic
 title: Sales line suggestion (preview)
-summary: Sales line suggestions with Copilot (preview) covers how Copilot helps users add lines to sales quotes, orders, and invoices from natural language prompts. It answers questions about finding products, finding documents by reference, matching criteria, confidence scoring, and AI limitations and responsible use.
+summary: Sales line suggestions with Copilot (preview) covers how Copilot helps create lines on sales quotes, orders, and invoices from natural language or structured input. It answers questions about finding products, finding documents by reference, matching criteria, confidence scores, and the AI limitations and responsible use of the feature.
 tier: official
 language: en
 system: sales
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:22:17.006Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 62b41ce2a7e6aeedb9223bc107ec39e79f7fe805fa3349310b324e1db501a625
+  input_hash: 329964c0e5251b45d8e84bbc7440971942a103537154b88d3c3b6e3d0938356c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/faq-sales-suggest-sales-lines-with-copilot
@@ -74,27 +74,28 @@ narrative: generated
 
 # Sales line suggestion (preview)
 
-> Sales line suggestions with Copilot (preview) covers how Copilot helps users add lines to sales quotes, orders, and invoices from natural language prompts. It answers questions about finding products, finding documents by reference, matching criteria, confidence scoring, and AI limitations and responsible use.
+> Sales line suggestions with Copilot (preview) covers how Copilot helps create lines on sales quotes, orders, and invoices from natural language or structured input. It answers questions about finding products, finding documents by reference, matching criteria, confidence scores, and the AI limitations and responsible use of the feature.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Sales line suggestion (preview) · tier official · system sales · narrative reviewed (checked by Opus)
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Sales line suggestion (preview) · tier official · system sales · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Sales line suggestions with Copilot is a preview feature that speeds up creating sales documents. Users describe what they need in natural language or structured input, and Copilot suggests items to add to sales quotes, orders, and invoices by matching keywords across product data.
+Sales line suggestions with Copilot is a preview feature that speeds up creating sales documents. Users describe what they need in natural language or provide structured input, and Copilot suggests items to add to sales quotes, orders, and invoices.
 
-The section has two pages. "Sales line suggestions with Copilot" explains the capabilities: finding products, finding documents by reference, three matching criteria (permissive, balanced, precise), and confidence scoring. "FAQ for suggest sales lines with Copilot" covers the other side: AI limitations, how the feature is evaluated, responsible use guidance, and how to send feedback.
+The section has two pages. The main page, "Sales line suggestions with Copilot", explains what the feature does: finding products, finding documents by reference, matching criteria (permissive, balanced, precise), confidence scores, and prompt guides. The FAQ page covers how the capabilities work, including finding products from attachments, plus AI limitations, how the feature is evaluated, responsible use guidance, and feedback options.
 
-Start with the main page to understand what the feature does and how matching behaves. Then read the FAQ before rolling it out to users, since it describes limits and the expected use of a preview feature.
+Start with the main page to learn the capabilities and how to phrase prompts. Then read the FAQ to understand limits and how to use suggestions responsibly.
 
 ## Key points
 
-- Copilot suggests items to add to sales quotes, orders, and invoices from natural language prompts.
-- Find products capability searches product data by keyword matching, including across multiple tables, and handles synonyms and typos.
-- Find documents by reference locates a reference document for use in the sales document.
-- Find products from attachments lets Copilot analyze attachments to identify products.
-- Three matching criteria exist: permissive, balanced, and precise.
-- Confidence scoring is part of how suggestions are rated.
-- The feature is in preview; the FAQ covers AI limitations, evaluation methods, responsible use, and feedback options.
+- The feature is in preview and suggests lines for sales quotes, orders, and invoices.
+- Input can be a natural language prompt or structured input.
+- Find products searches for items based on the user's description.
+- Find document by reference locates reference documents.
+- Find products from attachments analyzes attachments to identify products.
+- Matching criteria can be set to permissive, balanced, or precise.
+- Confidence scores and prompt guides help users judge and improve suggestions.
+- Search covers multiple tables and handles synonyms and typos.
 
 ## Learn pages
 

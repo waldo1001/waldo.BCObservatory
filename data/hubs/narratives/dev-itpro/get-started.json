@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/get-started",
-  "input_hash": "8a9c65215a3d4691cc9ec31e2fea51e55e8030d79781b0f3e899e721583ec205",
-  "summary": "The Get started section of Business Central documentation is an entry point for learning the product, developing apps, selling to customers, and finding answers and support. It helps an agent route questions on orientation, publishing and marketplace, partner sales, FAQs and help.",
-  "overview": "Get started groups five subtopics and has no pages of its own. Each subtopic targets a different audience and task, so the first step is picking the right one.\n\nLearn is for orientation: a business functionality overview, process walkthroughs, design details, demo data and partner resources. Develop covers building, publishing, customizing and maintaining apps and extensions, including becoming a publisher, marketplace submission and validation, embed apps, localization and app lifecycle. Sell covers how partners take Business Central to customers: reselling online, onboarding, configuration packages, customization and selling apps through Marketplace.\n\nFrequently asked questions gives short practical answers on AL development, app testing, marketplace validation, library and dependency apps, migration to Business Central online and the discontinued Windows client. Help and support is a further subtopic of 10 pages. Its summary was not provided, so check the pages themselves.",
+  "input_hash": "cde2d7ecd1d57588cba522155b53b869eca7895c350c254d85798deac64b55dc",
+  "summary": "The Get started section of Business Central documentation covers orientation for newcomers and partners: product learning material, app development, selling and onboarding, FAQs, and help and support. It helps an agent route questions about what the product does, how partners build and sell, and where to find short answers.",
+  "overview": "Get started is the entry point to Business Central content. It has no pages of its own and is split into five subtopics: Learn, Develop, Sell, Frequently asked questions, and Help and support.\n\nNewcomers should start with Learn, which gives a business functionality overview, application design details, process walkthroughs and Contoso Coffee demo data for practice. Partners then move on to Develop for building, customizing, publishing and maintaining apps and extensions, and to Sell for reselling online, onboarding customers and commercializing apps through Marketplace.\n\nThe FAQ subtopic gives short practical answers on AL development, marketplace validation, library and dependency apps, migration to Business Central online and the discontinued Windows client. Help and support is the place for support questions, but no summary of its 10 pages was provided.",
   "key_points": [
-    "Learn (6 pages): functionality overview, process walkthroughs, design details, demo data and partner resources such as releases, Copilot and community information.",
-    "Develop (36 pages, the largest subtopic): building, publishing, customizing and maintaining apps and extensions.",
-    "Develop also covers becoming a publisher, marketplace submission and validation, embed apps and localization.",
-    "Develop explains the split of responsibilities between Microsoft and partners.",
-    "Sell (5 pages): reselling online, onboarding customers, preparing company configuration packages, customizing the application and selling apps through Marketplace.",
-    "Frequently asked questions (9 pages): AL development, app testing, submission, updating and marketing validation, library and dependency apps, migration to online, and the discontinued Windows client.",
-    "Help and support (10 pages) has no summary in the input, so its content is unconfirmed."
+    "Learn (6 pages) gives a product overview, application design details, process walkthroughs, Contoso Coffee demo data and partner resources and communities.",
+    "Develop (36 pages) is the largest subtopic. It covers getting started as a partner, per-tenant customization, localization, marketplace submission and validation, embed apps and app lifecycle.",
+    "Develop also explains Microsoft versus partner responsibilities in the online service.",
+    "Sell (5 pages) covers reselling online, onboarding customers, preparing company configuration packages, customizing the application and selling apps through Marketplace.",
+    "Sell also addresses partner setup, licensing and onboarding tools.",
+    "FAQ (9 pages) covers AL development, app testing, submission, updating and marketing validation for the marketplace.",
+    "FAQ also covers library and dependency apps, migration to Business Central online and the discontinued Windows client.",
+    "Help and support (10 pages) is part of the section, but its content was not summarized in the input."
   ],
   "members_used": 0,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-11-16T00:59:46.964Z",
+  "at": "2026-11-22T01:00:13.124Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011107
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-11-18T01:00:06.732Z",
-    "verdict": "approve",
-    "issues": [
-      "Overview says each subtopic targets a different audience; the input does not state audiences for Learn or FAQ, so this is a mild inference.",
-      "Overview describes Sell as how 'partners' take Business Central to customers; the input says 'partners and organizations'.",
-      "Sell's input summary also mentions partner setup, licensing and onboarding tools, which the narrative omits; an agent could miss routing licensing questions to Sell.",
-      "Develop coverage is split across three key points; accurate but slightly redundant."
-    ],
-    "input_hash": "8a9c65215a3d4691cc9ec31e2fea51e55e8030d79781b0f3e899e721583ec205",
-    "cost_usd": 0.038604
+    "cost_usd": 0.011229
   }
 }

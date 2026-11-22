@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -147,6 +147,7 @@ links:
     - change/bcapps/12201
     - change/bcapps/12558
     - change/bcapps/13608
+    - change/bcapps/13787
     - change/bcapps/9545
     - change/bcapps/9943
 learn_toc_path:
@@ -256,6 +257,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12201 [29.X]- Incorrect project ledger costs when non-deductible VAT is posted to a foreign-currency project](../../../../changes/bcapps/12201.md) (code change): "Incorrect project ledger costs when non-deductible VAT is posted"
 - [#12558 [main] bug 653463 - Refactor Corrections Posting Mgt. CZL codeunit to improve clarity and fix logic for G/L correction handling](../../../../changes/bcapps/12558.md) (code change): "Corrections Posting for Czech localization now correctly posts the Inventory Interim"
 - [#13608 [main] Unable to receive the material returned from subcontracting Vendor](../../../../changes/bcapps/13608.md) (code change): "Subcontracting material returns from vendors now correctly preserve"
+- [#13787 [Main]error in allocation account function](../../../../changes/bcapps/13787.md) (code change): "Fixed a bug in the allocation account posting logic that occurred during purchase document processing"
 - [#9545 636017 Move Cost Accounting report action tooltips to report objects](../../../../changes/bcapps/9545.md) (code change): "Report action tooltips for Cost Accounting reports are moved from page actions to report objects"
 - [#9943 [Master]-Purchase invoice in USD with deferral shows 0 "Amount LCY" in Deferral Schedule View"](../../../../changes/bcapps/9943.md) (code change): "Purchase invoices in a foreign currency with deferrals"
 

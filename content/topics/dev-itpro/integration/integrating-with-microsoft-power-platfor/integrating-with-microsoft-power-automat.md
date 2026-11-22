@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.316Z"
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,8 +78,6 @@ links:
     - post/yzhums-com/63749
     - post/yzhums-com/63762
   guidelines: []
-  changes:
-    - change/bcapps/14148
 learn_toc_path:
   - Integration
   - Integrating with Microsoft Power Platform
@@ -128,11 +126,10 @@ The pages follow a natural order. Start with the integration overview for concep
 - [Set Up Instant Flows](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/instant-flows): Learn how users can run instant flows from inside Business Central online due to the integration with Power Automate.
 - [Set Up Power Automate Integration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup): Learn how to enable Power Automate for Business Central users.
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#14148 Only skip draft preparation for the Payables Agent's own e-documents with agent-driven line matching](../../../../changes/bcapps/14148.md) (code change): "Payables Agent's own e-documents with agent-driven line matching"
 - [Creating a Low-Cost RFID System with Business Central and Power Automate](../../../../posts/aardvarklabs-blog/3579.md) (community post): "Building a low-cost RFID scan-in and scan-out system using an ESP32 microcontroller, PN532 RFID reader, Power Automate"
 - [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Use Power Automate to retrieve SFTP files and post them to Business Central via the API"
 - [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "Power Automate listens for the business event, retrieves the file and metadata from the staging table, uploads to SFTP"

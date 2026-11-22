@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -158,7 +158,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#273 knowledge(style): SetFilter date operands as replacement values; product name via ProductName](../../../../../changes/bcquality/273.md) (code change): "SetFilter rule prevents date text parsing issues by requiring date operands"
 - [#65 Add data-modeling and appsource knowledge articles (MICROSOFT layer)](../../../../../changes/bcquality/65.md) (code change): "Seven remedial BCQuality knowledge articles added to the MICROSOFT layer covering data-modeling patterns, AppSource conventions, and styling best practices"
 - [#95 style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope](../../../../../changes/bcquality/95.md) (code change): "al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries"
-- [Business Central v29: Using AL Interfaces with Default Method Support](../../../../../posts/aardvarklabs-blog/4116.md) (community post): "reduces duplicate code and lets developers evolve interfaces without breaking"
+- [Business Central v29: Using AL Interfaces with Default Method Support](../../../../../posts/aardvarklabs-blog/4116.md) (community post): "interfaces in general help AI code generation by giving a strict contract"
 - [Weekly Review: Business Central AL Development – June 21–27, 2026](../../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-21-27-2026--a323467e2a.md) (community post): "Moving older AL apps to namespaces improves object clarity, reduces naming friction"
 - [BC Code Intelligence: Your New VS Code AI Development Partner](../../../../../posts/jeremyvyska-com/1449.md) (community post): "help developers solve problems faster and follow best practices"
 - [Business Central 29: What’s New in BC-Bench?](../../../../../posts/thinkaboutit-be/8331.md) (community post): "evaluating AI coding agents on Business Central AL development tasks like bug fixing, test generation, and code review"

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:46:40.499Z"
+  at: "2026-11-22T00:48:37.330Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b6fd767844a5f87d4a8215acf0056c7214681e77c4d16beaed42e8f735dc984b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IBlobToStructuredDataConverter.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IBlobToStructuredDataConverter.Interface.al
     title: src/Apps/W1/EDocument/app/src/Processing/Interfaces/IBlobToStructuredDataConverter.Interface.al (releases/29.x)
     date: null
-    commit: d30504e3670310aa9f2396745813257d80d473b8
+    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
     t: null
     quote: null
 links:
@@ -79,7 +79,7 @@ relations:
 
 > Interface "IBlobToStructuredDataConverter" in EDocument (Microsoft.eServices.EDocument.Processing.Interfaces). 1 public procedures. Introduced in BC29, still in BC30. Obsolete (Pending since 26.0).
 
-EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IBlobToStructuredDataConverter.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IBlobToStructuredDataConverter.Interface.al) · facts from BC29
 
 ## Properties
 

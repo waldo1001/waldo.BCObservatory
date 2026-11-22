@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:46:40.499Z"
+  at: "2026-11-22T00:48:37.330Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 73f871ba3ef6c6df452b20e7d5a3cab2587c2a406c22614306a057ea47ed9483
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/W1/BaseApp/Purchases/RoleCenters/Purch.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Layers/W1/BaseApp/Purchases/RoleCenters/Purch.Profile.al
     title: src/Layers/W1/BaseApp/Purchases/RoleCenters/Purch.Profile.al (releases/29.x)
     date: null
-    commit: d30504e3670310aa9f2396745813257d80d473b8
+    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "PURCH" in Base Application (Microsoft.Purchases.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Purchases.RoleCenters · captioned "Purchasing" · BC23-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/W1/BaseApp/Purchases/RoleCenters/Purch.Profile.al) · facts from BC29
+Base Application · Microsoft.Purchases.RoleCenters · captioned "Purchasing" · BC23-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Layers/W1/BaseApp/Purchases/RoleCenters/Purch.Profile.al) · facts from BC29
 
 ## Properties
 

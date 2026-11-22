@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,6 +90,12 @@ links:
     - video/vyQnSxRGJDA
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12544
+    - change/bcapps/13925
+    - change/bcapps/14295
+    - change/bcapps/14335
+    - change/bcapps/14344
 learn_toc_path:
   - Business functionality
   - Expense management (preview)
@@ -142,10 +148,15 @@ The pages follow the expense workflow. Start with the overview, then read about 
 - [Use the Expense Agent Mobile App (preview)](https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-mobile-app): Capture receipts on the go with the Business Central Expenses mobile app for iOS and Android, featuring document scanning and offline support.
   - In the observatory: [Page 7128 "Mileage Rate Setup"](../../../../objects/page/7128.md)
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12544 Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)](../../../../changes/bcapps/12544.md) (code change): "No Receipt workflow enables expense submission when original receipt is missing"
+- [#13925 [29x]-Bug 658773: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)](../../../../changes/bcapps/13925.md) (code change): "Fixes mileage starting and ending point addresses longer than 50 characters"
+- [#14295 [Main] Expense Management: make core expense business objects public](../../../../changes/bcapps/14295.md) (code change): "Expense Management core business objects are now publicly accessible for extensions"
+- [#14335 [Main] Expense Management: make Expense Management Setup public; keep agent and corporate card surface internal](../../../../changes/bcapps/14335.md) (code change): "Table 6930 Expense Agent Setup, which holds company-wide expense management settings, is now public"
+- [#14344 [SOA] Keep setup buffer current after instruction sync (AB#660003)](../../../../changes/bcapps/14344.md) (code change): "The SOA Setup timestamp helper now saves through the caller's buffer"
 - [Expense Agent: Finance Controlling (2026 release wave 1)](../../../../videos/54uIhzZq3Os.md) (video): "Expense Agent; Default dimensions on employee records; Billable information on expenses"
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../../videos/Fz8NLByllRc.md) (video): "Automatic mileage rate calculation; Round trip toggle; Mileage rate configuration"
 - [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../../videos/M0IzeLSn7qU.md) (video): "Expense Agent; approval process; audit trail; delegated approvers"

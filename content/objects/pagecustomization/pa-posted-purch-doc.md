@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:46:40.499Z"
+  at: "2026-11-22T00:48:37.330Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 64ecd6dd220756da7b2c32f0a09341c03f5fb941c6a24110eefee7cf5f16c5c7
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAPostedPurchDoc.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAPostedPurchDoc.PageCust.al
     title: src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAPostedPurchDoc.PageCust.al (releases/29.x)
     date: null
-    commit: d30504e3670310aa9f2396745813257d80d473b8
+    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Page customization "PA Posted Purch. Doc." in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
-PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAPostedPurchDoc.PageCust.al) · facts from BC29
+PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAPostedPurchDoc.PageCust.al) · facts from BC29
 
 ## Across versions
 

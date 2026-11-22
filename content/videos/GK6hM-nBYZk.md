@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:49:23.955Z"
   flags: []
 generated:
-  at: "2026-11-21T00:52:51.542Z"
+  at: "2026-11-22T00:54:25.319Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -73,8 +73,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573348
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -118,12 +117,10 @@ features:
     verified: false
     status_source: video
   - name: MCP Server for Business Central
-    status: ga
+    status: unclear
     t: 162
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573348"
+    status_source: video
   - name: Business Central Power Platform Connector
     status: unclear
     t: 147
@@ -208,14 +205,12 @@ A demo builds a laptop agent in Copilot Studio and then uses it in Microsoft 365
 | Feature | Status | At |
 |---|---|---|
 | Copilot Studio Agent Building | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=7s) |
-| MCP Server for Business Central | generally available (roadmap [Configure AL MCP workspaces dynamically](../features/573348.md)), demoed | [2:42](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=162s) |
+| MCP Server for Business Central | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=162s) |
 | Business Central Power Platform Connector | status not stated, demoed | [2:27](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=147s) |
 | Copilot Studio Agent Knowledge Sources | status not stated, demoed | [3:53](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=233s) |
 | Copilot Studio Multi-Tool Support | status not stated, demoed | [5:10](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=310s) |
 | Publishing Agents to Multiple Channels | status not stated, demoed | [1:46](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=106s) |
 | Copilot Studio Licensing Model | status not stated | [7:48](https://www.youtube.com/watch?v=GK6hM-nBYZk&t=468s) |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

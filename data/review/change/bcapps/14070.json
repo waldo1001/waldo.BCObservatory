@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/14070",
+  "input_hash": "6889d7dd6a7a38ed1275ed3615e4814be4072701576c88185071a560bac0428a",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-11-22T00:57:41.641Z",
+  "issues": [
+    "Summary and key points match the described cause, fix and regression test. The key point about the error is a little vague: the error happened only when the EU VAT Reg. No. Validation Service was enabled."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030633,
+    "changes_in_call": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/14211",
+  "input_hash": "2cb674e5cc215464172e7371c38a387fef4b1ce3fbbad5d0e3fd8bf22afc3c68",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-22T00:57:50.681Z",
+  "issues": [
+    "GetConfigurationUpdates was removed as unused, not obsoleted; obsoletion 1 dropped.",
+    "Unclear from given data whether the removed method was public; breaking left as false."
+  ],
+  "applied": [
+    "dropped 1 obsoletion(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027963,
+    "changes_in_call": 6
+  }
+}

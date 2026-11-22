@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:46:40.499Z"
+  at: "2026-11-22T00:48:37.330Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9aeaeb2a17405fa69ccaec06ba44cad23dc76b0a6ffaf1ad16034fab43846816
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/Shopify/app/src/Order%20Return%20Refund%20Processing/Interfaces/ShpfyExtendedIDocumentSource.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/Shopify/app/src/Order%20Return%20Refund%20Processing/Interfaces/ShpfyExtendedIDocumentSource.Interface.al
     title: src/Apps/W1/Shopify/app/src/Order Return Refund Processing/Interfaces/ShpfyExtendedIDocumentSource.Interface.al (releases/29.x)
     date: null
-    commit: d30504e3670310aa9f2396745813257d80d473b8
+    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Shpfy Extended IDocument Source" in Shopify (Microsoft.Integration.Shopify). 1 public procedures. Introduced in BC29, still in BC30.
 
-Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/W1/Shopify/app/src/Order%20Return%20Refund%20Processing/Interfaces/ShpfyExtendedIDocumentSource.Interface.al) · facts from BC29
+Shopify · Microsoft.Integration.Shopify · BC29-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/Shopify/app/src/Order%20Return%20Refund%20Processing/Interfaces/ShpfyExtendedIDocumentSource.Interface.al) · facts from BC29
 
 ## Procedures
 

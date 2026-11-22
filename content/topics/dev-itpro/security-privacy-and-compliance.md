@@ -2,7 +2,7 @@
 id: topic/dev-itpro/security-privacy-and-compliance
 type: topic
 title: Security, privacy, and compliance
-summary: Security, privacy, and compliance in Business Central covers how to secure and audit access, how the online service is built and run, and where to find privacy and compliance resources. It answers questions about authentication, data protection, auditing, reliability, data residency, and certifications.
+summary: Security, privacy, and compliance in Business Central covers how to secure and audit access, how the online service is run, and what privacy and compliance information Microsoft provides. It answers questions about authentication, data protection, auditing of changes, service availability, certifications, and personal data handling.
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 02cbae86e649dcb7a2d5cec7913f87b0f333be00eefac702e9b96dbf055dd181
+  input_hash: 2aa33a1fee4c25bddb61441fa32657b760db3919b776dc8a6bc508d3e87d28d3
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/across-log-changes
@@ -279,26 +279,27 @@ narrative: generated
 
 # Security, privacy, and compliance
 
-> Security, privacy, and compliance in Business Central covers how to secure and audit access, how the online service is built and run, and where to find privacy and compliance resources. It answers questions about authentication, data protection, auditing, reliability, data residency, and certifications.
+> Security, privacy, and compliance in Business Central covers how to secure and audit access, how the online service is run, and what privacy and compliance information Microsoft provides. It answers questions about authentication, data protection, auditing of changes, service availability, certifications, and personal data handling.
 
 Path: Security, privacy, and compliance · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section groups everything about protecting Business Central and demonstrating that it meets privacy and compliance needs. Two own pages act as entry points: Compliance Overview indexes application compliance, service compliance, certifications, and regulatory requirements, and the Privacy FAQ links to resources on privacy, personal data, international availability, and data residency.
+This section brings together everything about protecting Business Central and showing that it meets requirements. Two pages sit directly in the hub: a Compliance Overview that indexes application compliance, service compliance, certifications, and regulatory topics, and a Privacy FAQ that links to answers on personal data, customer data definitions, regional availability, and international support.
 
-Three subtopics go deeper. Security covers authentication (MFA, Conditional Access), data protection, network access control, record-level security filters, and persona-based guidance for online deployments, with parts for application and on-premises security. Service overview explains the multitenant cloud architecture, availability, backup and disaster recovery, service operations, and scalability. Auditing covers tracking data changes, auditing security-related tables, and reviewing events sent to Microsoft Purview.
+Three subtopics go deeper. Security covers authentication (MFA, Conditional Access), data protection, network access control, record-level security filters, and guidance by persona for online deployments, with parts on application security and on-premises security. Service overview describes the multitenant cloud architecture and service operations, including backups, disaster recovery, updates, incident management, service level objectives, and scalability. Auditing explains how to track data changes, audit security-related tables, and review events sent to Microsoft Purview.
 
-Start with Compliance Overview or the Privacy FAQ for regulatory and data-location questions. Go to Security to restrict access, Service overview to assess reliability and capacity, and Auditing to find out who changed what and when.
+Start with the Compliance Overview if you need certifications or regulatory documentation, or with the Privacy FAQ for personal data questions. For hands-on controls, go to Security. For questions about who changed what, go to Auditing. For questions about how the online service behaves, go to Service overview.
 
 ## Key points
 
-- Compliance Overview indexes data privacy, service compliance, certifications, and compliance documentation.
-- Privacy FAQ links to resources on personal data, regional availability, the trust center, EU data boundary, and Azure Front Door.
-- Security covers MFA, Conditional Access, network access control, and record-level security filters.
-- Security has separate subtopics for application security and on-premises security, plus persona-based guidance for online deployments.
-- Service overview describes multitenant architecture, availability, backup and disaster recovery, incident handling, and scalability limits.
-- Auditing covers change tracking, auditing security-related tables, and administrative events sent to Microsoft Purview.
+- Compliance Overview indexes application compliance, service compliance, certifications, and regulatory requirements.
+- Privacy FAQ links to answers on personal data handling, customer data definitions, regional availability, and international support.
+- Security covers MFA, Conditional Access, data protection, network access control, and record-level security filters.
+- Security has subtopics for application security and on-premises security, plus guidance by persona for online deployments.
+- Service overview explains the multitenant architecture, backups and disaster recovery, update schedules, incident management, and service level objectives.
+- Auditing covers tracking data changes, auditing security-related tables, and reviewing events sent to Microsoft Purview.
+- Auditing answers who changed what and when, and which administrative events are logged.
 
 ## Subtopics
 

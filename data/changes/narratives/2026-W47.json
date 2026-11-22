@@ -1,22 +1,22 @@
 {
   "week": "2026-W47",
-  "input_hash": "23115cc3463ec2777bbad3ecb5258fc8d45df816723cc31def0e60050def7142",
-  "text": "The one breaking change this week is #14002: External File Storage now rejects any path segment that is \".\" or \"..\", so callers that pass relative segments get an error instead of acting on a parent folder. Other behaviour changes are mostly fixes. In finance and inventory, #14283 and #13503 stop prepayment line amounts drifting after partial invoicing, #14332 widens Item Application Entry variables to BigInteger to avoid overflow, and #14080, #13669 and #14138 correct production and subcontracting reversals. Localization fixes include India GST application posting order, an empty GST component lookup and import duty GST entries (#14008, #14009, #13243), the German VAT Report supplies field (#13807, #14133), Czech VAT Statement sign (#13868) and FatturaPA postal codes (#11660). Norwegian SAF-T gains 1.40 support in #13264. The Expense Agent gets approval fixes (#13978, #13992), longer mileage addresses (#13920, #13925) and corporate card selection (#13587). On AI, Sales Lines Suggestions and No. Series Copilot move to GPT-5.6 Ceres (#14198, #14307, #14059), and #14007 obsoletes Create Product Information with Copilot. Smaller items cover the Intrastat XML export speed-up (#13999) and Power BI deployment clearing (#14212, #14229). Expense Management objects become public in #14295 and #14335, and #14373 adds subcontracting receipt events. AL-Go adds token request retries in #2444.",
+  "input_hash": "6e4ceb9d48522282f0907f8882f3e55c7ec542771b9b0de9fa18c7749badcce1",
+  "text": "Three pull requests change behaviour in ways that can break callers. #14281 stops item journal code from treating ordinary lines and templates as manufacturing records when Manufacturing subscribers are absent, using new Boolean predicate events that default to false, in all country layers. #14002 makes External File Storage reject path segments that are \".\" or \"..\", so callers passing relative segments now get an error. #13012 lets the Subcontracting worksheet assign suggestions to existing open purchase orders. Other subcontracting work adds a summary factbox on the Released Production Order Card (#14111) and fixes undo of the final operation (#14138) and a transfer order page refresh (#14122). Costing and manufacturing fixes cover a BigInteger overflow in Item Application Entry (#14332) and reversed production output (#14080, #13669). Prepayment amounts no longer drift on orders after partial posting (#14283 for sales and purchase, #13503 for sales). Expense Agent gets a no-receipt flow (#12544) and approval fixes (#13978, #13992). Sales Lines Suggestions and No. Series Copilot move to GPT-5.6 Ceres (#14307, #14198, #14059), while #14007 obsoletes Create Product Information with Copilot. Localisation covers SAF-T 1.40 for Norway (#13264), Czech exchange gain/loss posting (#13631), German VAT Report fields (#13807, #14133) and GST application fixes (#14008, #14009). #11715 adds approval for Fixed Asset Journals, and #13999 and #14329 are performance changes.",
   "changes": 80,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.083634,
-  "at": "2026-11-21T00:15:56.434Z",
+  "cost_usd": 0.08372,
+  "at": "2026-11-22T00:17:50.598Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-21T00:57:29.238Z",
+    "at": "2026-11-22T00:58:19.187Z",
     "verdict": "fix",
     "issues": [
-      "#13243 is described as 'GST posting order and lookups', but it fixed wrong GST and import duty entries when invoicing partly received purchase orders for Import and SEZ vendors. Reworded to cover #14008 (posting sequence), #14009 (empty component lookup) and #13243 (import duty entries).",
-      "Minor, left as is: 'longer mileage addresses' (#13920, #13925) is fair, since the fixes stop addresses over 50 characters from failing to save. #14335 also makes the corporate card objects internal, but grouping it under 'objects become public' is acceptable."
+      "#14009 is described as GST posting order, but it avoids an empty GST component lookup error when customer payments are reapplied. Only #14008 fixes the posting sequence.",
+      "#13503 changes only the Sales Line table, not sales and purchase lines. Prepayment was also listed under costing and manufacturing fixes, so it now has its own sentence."
     ],
-    "input_hash": "23115cc3463ec2777bbad3ecb5258fc8d45df816723cc31def0e60050def7142",
-    "cost_usd": 0.20404,
+    "input_hash": "6e4ceb9d48522282f0907f8882f3e55c7ec542771b9b0de9fa18c7749badcce1",
+    "cost_usd": 0.217308,
     "applied": [
       "text"
     ],

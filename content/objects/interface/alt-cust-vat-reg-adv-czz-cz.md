@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:46:40.499Z"
+  at: "2026-11-22T00:48:37.330Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a42a463f6f75033dda85556f2f0f6d0cabd981fcef76a86b631dfabb1a57cfa2
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Interfaces/AltCustVATRegAdvCZZ.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Interfaces/AltCustVATRegAdvCZZ.Interface.al
     title: src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Interfaces/AltCustVATRegAdvCZZ.Interface.al (releases/29.x)
     date: null
-    commit: d30504e3670310aa9f2396745813257d80d473b8
+    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
     t: null
     quote: null
 links:
@@ -74,7 +74,7 @@ relations:
 
 > Interface "Alt. Cust. VAT Reg. Adv. CZZ" (CZ) in the CZ country layer (Microsoft.Finance.AdvancePayments). 3 public procedures. Introduced in BC29, still in BC30.
 
-CZ country layer · Microsoft.Finance.AdvancePayments · BC29-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Interfaces/AltCustVATRegAdvCZZ.Interface.al) · facts from BC29
+CZ country layer · Microsoft.Finance.AdvancePayments · BC29-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/CZ/AdvancePaymentsLocalization/app/Src/Interfaces/AltCustVATRegAdvCZZ.Interface.al) · facts from BC29
 
 An object of the [CZ localization](../../localizations/cz.md), not part of W1.
 

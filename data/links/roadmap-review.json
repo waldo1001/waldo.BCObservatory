@@ -1317,218 +1317,218 @@
     "573312": {
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-configuration-trace.md@b6d86fa30c97c4d4": {
         "verdict": "drop",
-        "reason": "MCP configuration telemetry, not custom data query tools.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "MCP configuration telemetry, not custom data queries.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-server-trace.md@76b2ef9f35f9c38b": {
         "verdict": "drop",
-        "reason": "Tool call telemetry is general MCP monitoring, not the query feature.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Tool call telemetry is a different capability.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md@594338000aff45d5": {
         "verdict": "drop",
-        "reason": "AL development MCP server is a different capability.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "AL development MCP server, unrelated to data queries.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-22-1.md@e4e00f23ab2d0f9c": {
         "verdict": "drop",
-        "reason": "Unrelated 2023 update content.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Old update notes unrelated to MCP queries.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/0WAOtNaKjws#5@7b84cb59744f5d3c": {
         "verdict": "drop",
         "reason": "MCP resources support is a different capability.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/0WAOtNaKjws#6@7b84cb59744f5d3c": {
         "verdict": "drop",
         "reason": "Embedded resources for large data is a different capability.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/4HE3BBCcV84#0@c5fe2a2a532e1563": {
         "verdict": "drop",
         "reason": "Exposes existing API queries, not custom queries without APIs.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/4HE3BBCcV84#2@c5fe2a2a532e1563": {
         "verdict": "drop",
-        "reason": "Configuration of existing analytics API queries, a different capability.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Configuration of API query objects is a different, earlier capability.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/AMVAiPTfSrU#1@8e56bd0b31620b69": {
         "verdict": "drop",
-        "reason": "General MCP server mention only.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "General MCP server mention.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/B9VbZzC2p7E#0@52a39dc6517d202c": {
         "verdict": "drop",
-        "reason": "Third-party spreadsheet app SQL agent, not the MCP query tools.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Third-party spreadsheet SQL agent, not MCP server tools.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/B9VbZzC2p7E#1@52a39dc6517d202c": {
         "verdict": "drop",
-        "reason": "Third-party spreadsheet app, unrelated to MCP query tools.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Third-party spreadsheet app, not MCP query tools.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/C5cmG3sNjUg#0@a099f952caced881": {
         "verdict": "drop",
-        "reason": "General MCP server exposing APIs, not custom queries.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "General MCP server exposing APIs.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/C5cmG3sNjUg#3@a099f952caced881": {
         "verdict": "drop",
-        "reason": "Dynamic tool search over API pages, an older capability.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Dynamic tools for API pages, not custom queries.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/C5OdiYfxozc#2@9c805c7414770aa4": {
         "verdict": "drop",
-        "reason": "BC Observatory MCP server is a different product.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Community BC Observatory MCP server, different product.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/C5OdiYfxozc#5@9c805c7414770aa4": {
         "verdict": "drop",
-        "reason": "Observatory metadata queries, not Business Central MCP data query tools.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Observatory metadata queries, not Business Central MCP query tools.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/EpDIrJE0HzA#2@0082858619a6cfc5": {
         "verdict": "drop",
-        "reason": "MCP Configurations page for APIs, older capability.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "MCP configurations page for APIs, different capability.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/H5EuObmeF4o#1@81bcc46a2071446e": {
         "verdict": "drop",
         "reason": "General MCP server announcement.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "at": "2026-11-22T00:54:24.704Z"
       },
-      "video/IDYhxt-8ImI#22@7ab728d0a7abc892": {
+      "video/IDYhxt-8ImI#22@6aa27ab1780c7a48": {
         "verdict": "drop",
         "reason": "General MCP explanation.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/iViHfCgL2L8#0@b4735c7cd0586a45": {
         "verdict": "drop",
         "reason": "General MCP server introduction.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/iViHfCgL2L8#2@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Default read-only API configuration, older capability.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Default read-only configuration, different capability.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/iViHfCgL2L8#3@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Write configurations, a different capability.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Write configurations, different capability.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/LerAo-GGl8U#0@bad4154ca6e36eb9": {
         "verdict": "drop",
-        "reason": "Admin MCP server is a different product.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Admin MCP server, different product.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/mBU2Iu0urw8#18@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "AL MCP server for development, different capability.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "AL development MCP server.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/mBU2Iu0urw8#34@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "AL development MCP tooling, unrelated.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "AL development tooling.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/mBU2Iu0urw8#8@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "AL development MCP servers, unrelated.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "AL development MCP servers.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/q3xnjJD32kk#4@8159e1ae25b35be5": {
         "verdict": "keep",
-        "reason": "Describes agents constructing and running queries through MCP tools without APIs.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Agents build and run queries through MCP tools without APIs.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/qs1cg-GoDeQ#0@e6991223be0c260e": {
         "verdict": "keep",
         "reason": "Find tables tool is part of the MCP data query tool set.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/qs1cg-GoDeQ#1@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Table relations tool supports defining join queries in the feature.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Table relations tool helps define join queries in the data query feature.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/qs1cg-GoDeQ#2@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Table schema tool is part of the data query tool set.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Table schema tool supports defining queries in the data tool set.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/qs1cg-GoDeQ#3@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Data query tool runs AL queries directly without APIs, the core feature.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Data query tool runs AL queries without APIs.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/qs1cg-GoDeQ#4@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Ad hoc analysis by constructing and compiling AL queries matches the feature.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Agents build and compile AL queries for ad hoc analysis.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/rm-FstU_I80#0@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP server description.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/rm-FstU_I80#10@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Static configuration for write scenarios, different capability.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Static configuration for writes, different capability.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/rm-FstU_I80#11@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Default read-only access, older capability.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Default read-only access, different capability.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/rm-FstU_I80#14@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Search/describe/invoke API tools, older capability.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Search/describe/invoke tools for APIs, not custom queries.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/rm-FstU_I80#15@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Natural language queries via existing API tools, not custom data queries.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Natural language retrieval through existing APIs, not custom queries.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/rm-FstU_I80#19@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Validate for related entities in API exposure, not query validation.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Validate here concerns API related-entity exposure, not query validation.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/rm-FstU_I80#2@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "General MCP tools component explanation.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "General MCP tools component.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/rm-FstU_I80#22@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Exposing existing query objects via configuration, not defining custom queries.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Exposes existing queries through configuration, not custom queries defined by agents.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/rm-FstU_I80#23@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Page and API selection, different capability.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Page/API selection, different capability.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/rm-FstU_I80#6@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP server description.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/rm-FstU_I80#9@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Dynamic tool mode for APIs, older capability.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Dynamic tool mode, different capability.",
+        "at": "2026-11-22T00:54:24.704Z"
       },
       "video/x0XF0lBvgEE#2@b58c3bf367517517": {
         "verdict": "keep",
-        "reason": "Explicitly announces running data queries with MCP Server in version 29.",
-        "at": "2026-11-21T00:52:39.992Z"
+        "reason": "Explicitly announces running data queries with MCP server.",
+        "at": "2026-11-22T00:54:24.704Z"
       }
     },
     "573313": {
@@ -1594,84 +1594,84 @@
       "video/1x3QyBX3swg#18@a139808ee668f539": {
         "verdict": "keep",
         "reason": "It explains the new data model that merges extension fields into the base table and says this allows keys on extension fields.",
-        "at": "2026-11-15T00:44:13.970Z"
+        "at": "2026-11-22T00:54:06.809Z"
       },
-      "video/D_Lur52IrIg#8@27cf5cb45e38c4b5": {
+      "video/D_Lur52IrIg#8@1d309b6a70eb87de": {
         "verdict": "keep",
         "reason": "It directly describes SQL indexes that combine base table fields with extension fields.",
-        "at": "2026-11-15T00:44:13.970Z"
+        "at": "2026-11-22T00:54:06.809Z"
       },
       "video/PZVTTem-nZw#1@045f49d14ae59e33": {
         "verdict": "keep",
         "reason": "It shows keys that combine base table fields with extension fields, which is this feature.",
-        "at": "2026-11-15T00:44:13.970Z"
+        "at": "2026-11-22T00:54:06.809Z"
       },
       "video/qABlX4AL3GM#1@49760ada4fba889a": {
         "verdict": "keep",
         "reason": "It states that developers can define indexes spanning a base table and its extension tables, matching the feature.",
-        "at": "2026-11-15T00:44:13.970Z"
+        "at": "2026-11-22T00:54:06.809Z"
       },
       "video/Sh3ySQSTw-o#7@e4496cd7c1ef9d3b": {
         "verdict": "keep",
         "reason": "It announces indexes that span base table and extension fields, made possible by the consolidated table structure.",
-        "at": "2026-11-15T00:44:13.970Z"
+        "at": "2026-11-22T00:54:06.809Z"
       }
     },
     "573316": {
       "docs/learn-devitpro/dev-itpro/administration/telemetry-table-index-trace.md@54936eef294927c8": {
         "verdict": "drop",
         "reason": "This page covers telemetry for index lifecycle events and the MaintainSIFTIndex property, not turning SIFT indexes on or off in the app.",
-        "at": "2026-11-17T00:54:50.021Z"
+        "at": "2026-11-22T00:54:06.812Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-ncci-performance.md@cb5709cbdc2abf72": {
         "verdict": "drop",
         "reason": "This is general performance guidance on columnstore indexes; the SIFT disabling it mentions isn't the new in-app toggle.",
-        "at": "2026-11-17T00:54:50.021Z"
+        "at": "2026-11-22T00:54:06.812Z"
       },
       "video/1x3QyBX3swg#0@a139808ee668f539": {
         "verdict": "drop",
         "reason": "It describes the general Index Management page from the earlier release, not SIFT toggling.",
-        "at": "2026-11-17T00:54:50.021Z"
+        "at": "2026-11-22T00:54:06.812Z"
       },
       "video/1x3QyBX3swg#1@a139808ee668f539": {
         "verdict": "drop",
         "reason": "It covers general enabling and disabling of indexes from the earlier index management release, with no mention of SIFT.",
-        "at": "2026-11-17T00:54:50.021Z"
+        "at": "2026-11-22T00:54:06.812Z"
       },
       "video/2u5_F9Ztt7U#4@2ee38684e0681185": {
         "verdict": "drop",
         "reason": "It covers insights into index usage and removing unused indexes, not turning SIFT indexes on or off.",
-        "at": "2026-11-17T00:54:50.021Z"
+        "at": "2026-11-22T00:54:06.812Z"
       },
       "video/bVPFIhkvZEA#0@bb20dfaf8ebc4a0d": {
         "verdict": "keep",
         "reason": "It directly announces that administrators can turn SIFT indexes on or off from the Business Central client.",
-        "at": "2026-11-17T00:54:50.021Z"
+        "at": "2026-11-22T00:54:06.812Z"
       },
       "video/bVPFIhkvZEA#1@bb20dfaf8ebc4a0d": {
         "verdict": "drop",
         "reason": "It describes the existing Index Management page's statistics in general, not the SIFT toggle.",
-        "at": "2026-11-17T00:54:50.021Z"
+        "at": "2026-11-22T00:54:06.812Z"
       },
       "video/bVPFIhkvZEA#2@bb20dfaf8ebc4a0d": {
         "verdict": "keep",
         "reason": "It shows the index management experience now labeling SIFT indexes as a type, which is part of the new SIFT management.",
-        "at": "2026-11-17T00:54:50.021Z"
+        "at": "2026-11-22T00:54:06.812Z"
       },
       "video/bVPFIhkvZEA#3@bb20dfaf8ebc4a0d": {
         "verdict": "keep",
         "reason": "This segment of the SIFT toggle video explains company-level enable and disable control, a setting of the feature.",
-        "at": "2026-11-17T00:54:50.021Z"
+        "at": "2026-11-22T00:54:06.812Z"
       },
       "video/bVPFIhkvZEA#5@bb20dfaf8ebc4a0d": {
         "verdict": "keep",
         "reason": "It explains how disabling or enabling a SIFT behaves: disabling is immediate and enabling waits for overnight maintenance.",
-        "at": "2026-11-17T00:54:50.021Z"
+        "at": "2026-11-22T00:54:06.812Z"
       },
-      "video/IAacWsvav1E#2@e205272272bfcf86": {
+      "video/IAacWsvav1E#2@5e0f4b69e6d247f1": {
         "verdict": "drop",
         "reason": "It describes the general runtime index toggle from 2026 release wave 1, which this SIFT feature extends, not the SIFT capability itself.",
-        "at": "2026-11-17T00:54:50.021Z"
+        "at": "2026-11-22T00:54:06.812Z"
       }
     },
     "573317": {
@@ -2140,48 +2140,53 @@
     "573326": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-report-layout-declaration.md@5f7a5e55ef461f52": {
         "verdict": "keep",
-        "reason": "Documents the DefaultHeaderFooterPart property and composite Word layouts, which are the AL side of this feature.",
-        "at": "2026-11-15T00:44:06.400Z"
+        "reason": "It documents the DefaultHeaderFooterPart property and composite Word layouts, which is the developer side of reusable header/footer layouts.",
+        "at": "2026-11-22T00:54:15.820Z"
       },
       "docs/learn-smb-docs/business-central/reports/report-6168.md@2aaaf4895eb8c32a": {
         "verdict": "drop",
-        "reason": "Only describes a QR credit memo report with Word layouts and says nothing about reusable header/footer layouts.",
-        "at": "2026-11-15T00:44:06.400Z"
+        "reason": "It covers a specific credit memo report with a QR code, not reusable header/footer layouts.",
+        "at": "2026-11-22T00:54:15.820Z"
       },
       "docs/learn-smb-docs/business-central/ui-get-started-layouts.md@bea26acbed2ff5bb": {
         "verdict": "keep",
-        "reason": "Explains reusable themes, header/footer layouts and composite layouts as part of creating layouts.",
-        "at": "2026-11-15T00:44:06.400Z"
+        "reason": "It lists header/footer layouts and reusable themes as features of report layout creation.",
+        "at": "2026-11-22T00:54:15.820Z"
       },
       "docs/learn-smb-docs/business-central/ui-manage-report-layouts.md@6b390ad2298bdaad": {
         "verdict": "keep",
-        "reason": "Describes composite layouts that combine reusable themes and headers, which is the capability this feature adds.",
-        "at": "2026-11-15T00:44:06.400Z"
+        "reason": "It describes composite layouts that combine reusable themes and headers.",
+        "at": "2026-11-22T00:54:15.820Z"
       },
       "docs/learn-smb-docs/business-central/ui-set-report-layout.md@8af529c009f2c971": {
         "verdict": "keep",
-        "reason": "Covers header/footer layout and theme assignment, and default layouts per company, in report layout selection.",
-        "at": "2026-11-15T00:44:06.400Z"
+        "reason": "It lists header/footer layouts, composite branding and per-company defaults as part of layout selection.",
+        "at": "2026-11-22T00:54:15.820Z"
       },
       "docs/learn-smb-docs/business-central/ui-set-up-report-themes-header-footer-layouts.md@94db52fcdd96d7b2": {
         "verdict": "keep",
-        "reason": "Directly documents setting up reusable header/footer layouts, with defaults that go from layout-specific up to company and global.",
-        "at": "2026-11-15T00:44:06.400Z"
+        "reason": "It explains how to set up reusable header/footer layouts with global, company and layout-specific defaults.",
+        "at": "2026-11-22T00:54:15.820Z"
       },
       "video/-vdhfNMNZQk#0@e0a03c793cdd31f1": {
         "verdict": "keep",
-        "reason": "Video introduces composite layouts in which header/footer layouts are reusable components applied across reports.",
-        "at": "2026-11-15T00:44:06.400Z"
+        "reason": "The video introduces composite layouts, with header/footer layouts as reusable parts applied across reports.",
+        "at": "2026-11-22T00:54:15.820Z"
       },
       "video/-vdhfNMNZQk#3@e0a03c793cdd31f1": {
         "verdict": "keep",
-        "reason": "Shows header/footer layouts applied at runtime, set at global, company, report or layout level.",
-        "at": "2026-11-15T00:44:06.400Z"
+        "reason": "The video shows applying header/footer layouts at global, company, report or layout level.",
+        "at": "2026-11-22T00:54:15.820Z"
       },
       "video/-vdhfNMNZQk#4@e0a03c793cdd31f1": {
         "verdict": "keep",
-        "reason": "Shows layered defaults for header/footer layouts at global, company, report and layout levels.",
-        "at": "2026-11-15T00:44:06.400Z"
+        "reason": "The video explains layered defaults for header/footer layouts from global down to specific layout.",
+        "at": "2026-11-22T00:54:15.820Z"
+      },
+      "video/G0avZpiDFtI#11@6046aebc307e389f": {
+        "verdict": "drop",
+        "reason": "PDF post-processing triggers are a different capability from composable header/footer layouts.",
+        "at": "2026-11-22T00:54:15.820Z"
       }
     },
     "573327": {
@@ -2239,128 +2244,133 @@
     "573328": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-howto-report-layout.md@e7d4b1f5072107a0": {
         "verdict": "drop",
-        "reason": "General guide to creating Word layouts; no mention of the new design controls.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "General guide to creating Word layouts; does not mention the new design controls.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-hyperlinks-in-word-report-layouts.md@5d8a9bba64241502": {
         "verdict": "drop",
-        "reason": "Covers hyperlinks in Word layouts, a different capability.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "Covers hyperlinks in Word layouts, which is a different capability.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-using-word-to-author-your-report-layout.md@8f0fd394b10a79ab": {
         "verdict": "drop",
         "reason": "General Word authoring tips, not the new design components.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "docs/learn-smb-docs/business-central/ui-design-word-layouts-business-central-add-in.md@6811c5b78a461f04": {
         "verdict": "drop",
-        "reason": "Describes the add-in's add data, table and repeater tools, not the address, field group, amount, signature or notes controls.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "Describes the add-in's data, table and repeater tools, not the address, amount or signature design controls.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/_JkZCp64jNw#37@82c883e9340b4ac6": {
         "verdict": "drop",
-        "reason": "General Word report customization from an earlier wave, not the design controls.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "General Word report customization from an earlier release; too general.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/2u5_F9Ztt7U#6@2ee38684e0681185": {
         "verdict": "drop",
-        "reason": "Covers data picker and table improvements from an earlier wave, not the design components.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "Covers the 2026 wave 1 UI, search and table improvements, not the design controls.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/9X-IWRkI2GM#6@1e2ec5609b656b93": {
         "verdict": "drop",
         "reason": "About new manufacturing report layouts, not the add-in's design controls.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/fy96_jdL1PQ#14@35837054f782e3e2": {
         "verdict": "drop",
         "reason": "General history of Word layouts and plans for the add-in.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/fy96_jdL1PQ#16@35837054f782e3e2": {
         "verdict": "drop",
-        "reason": "Covers blank zero and conditional visibility, a different capability.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "About blank-zero and conditional visibility, not the design controls.",
+        "at": "2026-11-22T00:54:25.299Z"
+      },
+      "video/G0avZpiDFtI#12@6046aebc307e389f": {
+        "verdict": "drop",
+        "reason": "About report metadata in XML, which is a different capability.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/mS6NDhj20yI#0@c806ee19884b8096": {
         "verdict": "drop",
-        "reason": "Covers the data picker UX, not the design components.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "Data picker UX improvements are a different capability.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/mS6NDhj20yI#1@c806ee19884b8096": {
         "verdict": "drop",
-        "reason": "Covers data picker search, a different capability.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "Data picker search is a different capability.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/mS6NDhj20yI#2@c806ee19884b8096": {
         "verdict": "drop",
-        "reason": "Covers dark mode for the data picker, a different capability.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "Dark mode for the data picker is a different capability.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/mS6NDhj20yI#3@c806ee19884b8096": {
         "verdict": "drop",
-        "reason": "Covers the insert table action, which is not among the listed design controls.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "The insert table action is a different capability from the design controls.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/qCqe8uw8Od4#4@086fb8928f54c11a": {
         "verdict": "drop",
-        "reason": "About updated inventory report layouts, not the design controls.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "About inventory report layout modernization, not the design controls.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/V8CSor5qBRE#0@e4976bba4f262c23": {
         "verdict": "drop",
-        "reason": "Introduces the original 2024 wave 2 add-in, an older capability.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "About the original 2024 add-in release; an older capability.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/V8CSor5qBRE#6@e4976bba4f262c23": {
         "verdict": "drop",
-        "reason": "Covers Word sections with merge data item, a different capability.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "Word sections support is a different capability.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/vLcb31rfZ48#0@989ab553aaf1e6db": {
         "verdict": "drop",
-        "reason": "Covers the data picker from 2025 wave 2, an older capability.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "The data picker from 2025 wave 2 is an older capability.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/vLcb31rfZ48#1@989ab553aaf1e6db": {
         "verdict": "drop",
-        "reason": "Covers the add data action, an older capability.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "The Add Data action is an older capability.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/vLcb31rfZ48#2@989ab553aaf1e6db": {
         "verdict": "drop",
-        "reason": "Covers the add field function, an older capability.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "Adding fields is an older capability, not the design controls.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/vLcb31rfZ48#3@989ab553aaf1e6db": {
         "verdict": "drop",
-        "reason": "Covers the add repeater function, an older capability.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "Repeaters are an older capability, not the design controls.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/XLUAuUWtJDw#2@ec7fe2500c51ea9d": {
         "verdict": "keep",
-        "reason": "Shows the address design control listed in the feature.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "Demonstrates the address design control named in the feature.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/XLUAuUWtJDw#3@ec7fe2500c51ea9d": {
         "verdict": "keep",
-        "reason": "Shows the field group design control listed in the feature.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "Demonstrates the field group design control named in the feature.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/XLUAuUWtJDw#4@ec7fe2500c51ea9d": {
         "verdict": "keep",
-        "reason": "Shows the amounts design control listed in the feature.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "Demonstrates the amounts design control named in the feature.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/XLUAuUWtJDw#5@ec7fe2500c51ea9d": {
         "verdict": "keep",
-        "reason": "Shows the signature line design control listed in the feature.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "Demonstrates the signature line design control named in the feature.",
+        "at": "2026-11-22T00:54:25.299Z"
       },
       "video/XLUAuUWtJDw#6@ec7fe2500c51ea9d": {
         "verdict": "keep",
-        "reason": "Shows the notes design control listed in the feature.",
-        "at": "2026-11-19T00:53:38.069Z"
+        "reason": "Demonstrates the notes design control named in the feature.",
+        "at": "2026-11-22T00:54:25.299Z"
       }
     },
     "573329": {
@@ -2798,127 +2808,132 @@
       }
     },
     "573336": {
-      "video/D_Lur52IrIg#14@27cf5cb45e38c4b5": {
+      "video/D_Lur52IrIg#14@1d309b6a70eb87de": {
         "verdict": "keep",
         "reason": "Announces offline static call graph analysis that extracts and queries call chains across an extension and its dependencies.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/i0gBrA1tx50#0@487dbafc5ba98856": {
         "verdict": "keep",
         "reason": "Introduces AL Graph, which builds call graphs for caller-callee and dependency analysis, the core of this feature.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/i0gBrA1tx50#1@487dbafc5ba98856": {
         "verdict": "keep",
         "reason": "Describes the AL Graph query language, including tracing security boundaries.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/i0gBrA1tx50#2@487dbafc5ba98856": {
         "verdict": "keep",
         "reason": "Covers the DGML visual export of graph queries.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/i0gBrA1tx50#3@487dbafc5ba98856": {
         "verdict": "keep",
         "reason": "Covers the SARIF export format for graph queries, one of the feature's export options.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/i0gBrA1tx50#4@487dbafc5ba98856": {
         "verdict": "keep",
         "reason": "Explains the meta model extraction step used to build the call graph.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/i0gBrA1tx50#5@487dbafc5ba98856": {
         "verdict": "keep",
         "reason": "Shows a graph query that traces call paths to the HTTP client, a cross-boundary audit use case.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/i0gBrA1tx50#6@487dbafc5ba98856": {
         "verdict": "keep",
         "reason": "Shows the audit of non-debuggable to debuggable boundaries where secrets could be exposed in the debugger.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/urLsKPqOSbc#0@ac6721339f4323e3": {
         "verdict": "keep",
         "reason": "Demonstrates generating AL call graphs, including flows from one app to another.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/urLsKPqOSbc#1@ac6721339f4323e3": {
         "verdict": "keep",
         "reason": "Shows the AL graph command for querying call graphs across apps.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/urLsKPqOSbc#2@ac6721339f4323e3": {
         "verdict": "keep",
         "reason": "Shows the extract command that builds the call graph for one or more apps.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/urLsKPqOSbc#3@ac6721339f4323e3": {
         "verdict": "keep",
         "reason": "Shows the export command, which uses query selectors to scope the exported graph.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/urLsKPqOSbc#4@ac6721339f4323e3": {
         "verdict": "keep",
         "reason": "Explains the query syntax, including filtering by debuggable status.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/urLsKPqOSbc#5@ac6721339f4323e3": {
         "verdict": "keep",
         "reason": "Demonstrates DGML export for visualizing the graph.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/urLsKPqOSbc#6@ac6721339f4323e3": {
         "verdict": "keep",
         "reason": "Shows extracting the graph across the whole codebase, compiling multiple apps together.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/urLsKPqOSbc#7@ac6721339f4323e3": {
         "verdict": "keep",
         "reason": "Shows selector filtering to find which methods call specific functions such as HTTP client operations.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       },
       "video/urLsKPqOSbc#8@ac6721339f4323e3": {
         "verdict": "keep",
         "reason": "Shows member notation in graph queries to find the callers of specific methods.",
-        "at": "2026-10-30T08:02:47.584Z"
+        "at": "2026-11-22T00:54:13.403Z"
       }
     },
     "573338": {
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-agent-tools-overview.md@4448762e851657a8": {
         "verdict": "keep",
-        "reason": "The page lists the AL LSP server as one of the tools AI agents use for AL development, which is the capability this feature adds.",
-        "at": "2026-11-20T00:53:29.230Z"
+        "reason": "The page lists the AL LSP server as one of the features of the AI agent tools, which ties it directly to this capability.",
+        "at": "2026-11-22T00:54:14.840Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-language-model-tools-vscode.md@dc07ded4333f6f1b": {
         "verdict": "drop",
-        "reason": "It covers AL language model tools inside Visual Studio Code, not running the AL language server on its own for other editors.",
-        "at": "2026-11-20T00:53:29.230Z"
+        "reason": "It covers only the Language Model tools for Visual Studio Code (build, publish, debug) and doesn't mention the standalone LSP server.",
+        "at": "2026-11-22T00:54:14.840Z"
       },
       "video/ADXkUFI_VWI#2@e1829169ba066959": {
         "verdict": "drop",
-        "reason": "It explains the existing language server protocol support for Visual Studio Code, which is older, not the standalone server.",
-        "at": "2026-11-20T00:53:29.230Z"
+        "reason": "It describes the older LSP setup between the AL language server and Visual Studio Code, not the standalone server for other clients.",
+        "at": "2026-11-22T00:54:14.840Z"
       },
       "video/D_Lur52IrIg#1@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "It announces project-aware AL language intelligence over the language server protocol that no longer needs Visual Studio Code.",
-        "at": "2026-11-20T00:53:29.230Z"
+        "reason": "It announces project-aware AL language intelligence over LSP that is no longer tied to Visual Studio Code and works in any LSP editor.",
+        "at": "2026-11-22T00:54:14.840Z"
       },
-      "video/K8nFVw5M-Po#0@4e70e6c78bacc14e": {
+      "video/K8nFVw5M-Po#7@0f9d7850b5361829": {
         "verdict": "drop",
-        "reason": "It covers AI code generation in agent mode in Visual Studio Code, not the standalone AL language server.",
-        "at": "2026-11-20T00:53:29.230Z"
+        "reason": "It's about the AI agent's Business Central domain knowledge, not the AL language server.",
+        "at": "2026-11-22T00:54:14.840Z"
+      },
+      "video/K8nFVw5M-Po#9@0f9d7850b5361829": {
+        "verdict": "drop",
+        "reason": "It's about AI agents generating AL code, not LSP language intelligence.",
+        "at": "2026-11-22T00:54:14.840Z"
       },
       "video/mBU2Iu0urw8#23@58e64b6744a3f5f9": {
         "verdict": "keep",
-        "reason": "It explains the AL language server giving agents go to definition, find references, formatting and renaming.",
-        "at": "2026-11-20T00:53:29.230Z"
+        "reason": "It explains how the AL LSP gives agents go to definition, find references, formatting and rename.",
+        "at": "2026-11-22T00:54:14.840Z"
       },
       "video/UFLo2XGGS14#4@022c4252c5c9fc07": {
         "verdict": "keep",
-        "reason": "It announces that the language server protocol is now available to agents for exact definitions, references and symbols.",
-        "at": "2026-11-20T00:53:29.230Z"
+        "reason": "It announces that the language server is now available to agents for resolving definitions, references and symbols.",
+        "at": "2026-11-22T00:54:14.840Z"
       }
     },
     "573339": {
@@ -3377,18 +3392,28 @@
     "573348": {
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-agent-tools-overview.md@4448762e851657a8": {
         "verdict": "drop",
-        "reason": "General AL agent tools page with no mention of runtime project addition or headless configuration.",
-        "at": "2026-10-30T08:03:00.309Z"
+        "reason": "This general overview of the AI agent tools doesn't mention adding projects at runtime or dynamic workspace configuration.",
+        "at": "2026-11-22T00:54:13.212Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md@594338000aff45d5": {
         "verdict": "keep",
-        "reason": "AL MCP Server page lists al_addproject, the tool for adding AL projects at runtime.",
-        "at": "2026-10-30T08:03:00.309Z"
+        "reason": "It documents the AL MCP Server's al_addproject tool, which adds AL projects at runtime.",
+        "at": "2026-11-22T00:54:13.212Z"
+      },
+      "video/GK6hM-nBYZk#1@927b08d956921338": {
+        "verdict": "drop",
+        "reason": "It describes the Business Central data MCP server, a different capability from the AL development MCP server.",
+        "at": "2026-11-22T00:54:13.212Z"
+      },
+      "video/K8nFVw5M-Po#18@0f9d7850b5361829": {
+        "verdict": "drop",
+        "reason": "It covers chat custom instructions, not configuring MCP workspaces.",
+        "at": "2026-11-22T00:54:13.212Z"
       },
       "video/npkC4wyucyY#1@4d8906f63ddc4c37": {
         "verdict": "drop",
-        "reason": "Only a general introduction to the AL MCP server, not dynamic workspace configuration.",
-        "at": "2026-10-30T08:03:00.309Z"
+        "reason": "It only describes the AL MCP server in general and says nothing about dynamic project loading or headless configuration.",
+        "at": "2026-11-22T00:54:13.212Z"
       }
     },
     "573349": {
@@ -4487,120 +4512,130 @@
     "573374": {
       "docs/learn-smb-docs/business-central/finance-sustainability-journal.md@5dfe7dfe2f181447": {
         "verdict": "drop",
-        "reason": "General journal page that lists formula calculation and purchase document emissions as separate features, without describing formulas on purchase documents.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "General Learn page listing journal formulas and purchase document emissions separately; does not describe formulas on purchase lines.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-purchase.md@b274b53cf9eb2e3b": {
         "verdict": "drop",
-        "reason": "Describes value chain tracking and the existing Use Emissions in Purchase Documents option, not formula-based calculation on purchase lines.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Covers the existing Use Emissions in Purchase Documents capability and value chain tracking, not formula-based calculation.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-setup.md@97eb108e95c84ff1": {
         "verdict": "drop",
-        "reason": "Covers value chain setup and carbon tracking methods, which is a different capability.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Value chain setup and carbon tracking methods are a different capability.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
       "video/_ynMUzh956w#2@2e9b1f36e27e6884": {
         "verdict": "drop",
-        "reason": "Describes the original 2024 formulas for journals, not formulas in purchase documents.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Describes the older journal formula capability, not formulas in purchase documents.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
       "video/_ynMUzh956w#9@2e9b1f36e27e6884": {
         "verdict": "drop",
-        "reason": "Describes emission factors used in sustainability journal calculations, which is an older capability.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Emission factors in subcategories for journal calculations are an older capability.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
       "video/6d6iajwQQ-c#1@024dc05d4d6b6129": {
         "verdict": "drop",
-        "reason": "Describes value chain tracking for production documents, a different capability.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Value chain tracking in production is a different capability.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
       "video/6d6iajwQQ-c#3@024dc05d4d6b6129": {
         "verdict": "drop",
-        "reason": "Describes emissions on work centers, which is unrelated to purchase document formulas.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Work center emissions are unrelated to purchase document formulas.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
       "video/6d6iajwQQ-c#7@024dc05d4d6b6129": {
         "verdict": "drop",
-        "reason": "Describes routing emissions tracking, a different capability.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Routing emissions tracking is a different capability.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
-      "video/JBGuaqk5nXk#0@d3011fa28115c8f7": {
+      "video/JBGuaqk5nXk#0@30787e72d8f58410": {
         "verdict": "drop",
-        "reason": "Describes a Copilot CO2 calculation action in journals, not purchase document formulas.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Copilot calculation in journals is a different feature.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
-      "video/JBGuaqk5nXk#6@d3011fa28115c8f7": {
+      "video/JBGuaqk5nXk#2@30787e72d8f58410": {
         "verdict": "drop",
-        "reason": "Describes Copilot explanations of calculations, a different capability.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Copilot emission factor suggestions are a different feature.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
-      "video/JoGW2xlIq0I#3@95b48d89d0d03acc": {
+      "video/JBGuaqk5nXk#5@30787e72d8f58410": {
         "verdict": "drop",
-        "reason": "Describes emissions collected from posted purchase invoices for assembly orders, not formula calculation.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Copilot description refinement is unrelated.",
+        "at": "2026-11-22T00:54:20.835Z"
+      },
+      "video/JBGuaqk5nXk#6@30787e72d8f58410": {
+        "verdict": "drop",
+        "reason": "Copilot formula explanations are a different feature.",
+        "at": "2026-11-22T00:54:20.835Z"
+      },
+      "video/JoGW2xlIq0I#3@8aba9c28d8594cf1": {
+        "verdict": "drop",
+        "reason": "Assembly value chain collection from posted invoices is a different capability.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
       "video/lcy36b9GS38#1@437cd523065442b8": {
         "verdict": "drop",
-        "reason": "Gives a general overview of scope 3 value chain automation, too general to show this feature.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Scope 3 value chain automation overview is a different capability.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
       "video/NYG4pOtW-Xw#11@8ef20b3a7c778cb9": {
         "verdict": "drop",
-        "reason": "Describes manual emission entry on purchase invoices, the older capability that came before formulas.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Manual emissions entry on purchase invoices is the older capability, not formulas.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
       "video/NYG4pOtW-Xw#2@8ef20b3a7c778cb9": {
         "verdict": "drop",
-        "reason": "Describes the earlier ability to enter emissions directly on purchase documents, without formulas.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Manual emissions entry on purchase documents is the older capability, not formulas.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
       "video/Sc8eGyMkBTA#0@66065a06d447af10": {
         "verdict": "drop",
-        "reason": "Describes value chain automation in projects, a different capability.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Project value chain automation is a different capability.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
       "video/Sc8eGyMkBTA#5@66065a06d447af10": {
         "verdict": "drop",
-        "reason": "Describes enabling value chain tracking, not the formula toggle or formula calculation.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Value chain tracking setup field is a different capability.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
       "video/t_UXxbvgnHY#0@13bd58c8ea9ff88a": {
         "verdict": "keep",
-        "reason": "Directly announces that sustainability formulas are available on purchase orders and invoices and work the same way as in journals.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Directly announces sustainability formulas in purchase orders and invoices, working the same way as in journals.",
+        "at": "2026-11-22T00:54:20.835Z"
       },
       "video/uan4dV9eVCA#4@1c46376c931ac53e": {
         "verdict": "drop",
-        "reason": "Describes emission formulas in general, without saying they apply to purchase documents.",
-        "at": "2026-11-17T00:54:47.336Z"
+        "reason": "Describes formulas generally (journals), not their use on purchase documents.",
+        "at": "2026-11-22T00:54:20.835Z"
       }
     },
     "573375": {
       "docs/learn-smb-docs/business-central/service-service-posting.md@7631b50c8712916d": {
         "verdict": "keep",
-        "reason": "The service posting page lists sustainability value chain tracking as part of posting service documents, which is part of this feature.",
-        "at": "2026-11-11T00:53:43.148Z"
+        "reason": "The service posting page lists sustainability value chain tracking as part of posting service documents, which is this feature's posting behavior.",
+        "at": "2026-11-22T00:54:13.389Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-service.md@0bea0ee058844289": {
         "verdict": "keep",
-        "reason": "It directly documents CO2e tracking for items and resources on service documents and the sustainability entries created when they are posted.",
-        "at": "2026-11-11T00:53:43.148Z"
+        "reason": "It directly documents CO2e tracking for items and resources on service documents and the sustainability value entries created when they are posted.",
+        "at": "2026-11-22T00:54:13.389Z"
       },
-      "video/JoGW2xlIq0I#4@95b48d89d0d03acc": {
+      "video/JoGW2xlIq0I#4@8aba9c28d8594cf1": {
         "verdict": "drop",
-        "reason": "It covers emissions calculated on assembly orders, a different capability from Service Management.",
-        "at": "2026-11-11T00:53:43.148Z"
+        "reason": "It covers emissions calculation on assembly orders, not Service Management.",
+        "at": "2026-11-22T00:54:13.389Z"
       },
-      "video/JoGW2xlIq0I#7@95b48d89d0d03acc": {
+      "video/JoGW2xlIq0I#7@8aba9c28d8594cf1": {
         "verdict": "drop",
-        "reason": "It covers assembly emissions shown on sales invoices, not on service documents.",
-        "at": "2026-11-11T00:53:43.148Z"
+        "reason": "It covers assembly emissions on sales invoices, not service documents.",
+        "at": "2026-11-22T00:54:13.389Z"
       },
       "video/Sc8eGyMkBTA#2@66065a06d447af10": {
         "verdict": "drop",
-        "reason": "It shows the resource sustainability FastTab for the projects value chain feature, not service document emissions.",
-        "at": "2026-11-11T00:53:43.148Z"
+        "reason": "The resource sustainability FastTab comes from the Projects value chain feature and isn't tied to service documents.",
+        "at": "2026-11-22T00:54:13.389Z"
       }
     },
     "573376": {

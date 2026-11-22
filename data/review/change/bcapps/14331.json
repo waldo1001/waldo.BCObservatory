@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/14331",
+  "input_hash": "d36d267408520fa987d896fdd0ed060754b24f33d137fc981c4f8faca64ff87c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-22T00:57:45.824Z",
+  "issues": [
+    "The fix is in document attachment external storage, upstream of the SharePoint connectors, and is not specific to SharePoint paths. The summary is reworded to say so."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021529,
+    "changes_in_call": 6
+  }
+}

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:46:40.499Z"
+  at: "2026-11-22T00:48:37.330Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a84a28f2ddff25f80a2f2613ba1bdf1441142be87f2fec4c5fd59d970ef76ccc
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PowerBIDeployableReport.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PowerBIDeployableReport.Interface.al
     title: src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PowerBIDeployableReport.Interface.al (releases/29.x)
     date: null
-    commit: d30504e3670310aa9f2396745813257d80d473b8
+    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Interface "Power BI Deployable Report" in Base Application (System.Integration.PowerBI). 4 public procedures. Introduced in BC28, still in BC30.
 
-Base Application · System.Integration.PowerBI · BC28-30 · [source at d30504e3](https://github.com/microsoft/BCApps/blob/d30504e3670310aa9f2396745813257d80d473b8/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PowerBIDeployableReport.Interface.al) · facts from BC29
+Base Application · System.Integration.PowerBI · BC28-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/ReportDeployments/PowerBIDeployableReport.Interface.al) · facts from BC29
 
 ## Properties
 

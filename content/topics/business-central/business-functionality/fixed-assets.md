@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/fixed-assets
 type: topic
 title: Fixed assets
-summary: "Fixed assets in Business Central covers the asset lifecycle: setup, acquisition, depreciation and amortization, revaluation, maintenance, insurance and disposal. It answers questions about depreciation methods, posting through journals and batch jobs, and troubleshooting FA ledger entry rounding. A subtopic covers analytics and reports."
+summary: "Fixed assets in Business Central: setup, acquisition, depreciation and amortization, depreciation methods, revaluation, and lifecycle management, plus a subtopic on analytics. It answers how to set up, post, and analyze capital assets."
 tier: official
 language: en
 system: fixed-assets
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-24T00:53:48.992Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: cc794470d84d6ba526a488481db578b47ddf2315a66ce3c549cfb6b000c02132
+  input_hash: f8ca05b326945e881bcd2e27b02d7ca6eea762165531450fb320203c22317cd5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/fa-how-acquire
@@ -398,6 +398,7 @@ links:
   changes:
     - change/bcapps/10337
     - change/bcapps/10613
+    - change/bcapps/11715
     - change/bcapps/12160
     - change/bcapps/13171
     - change/bcapps/13340
@@ -486,28 +487,30 @@ narrative: generated
 
 # Fixed assets
 
-> Fixed assets in Business Central covers the asset lifecycle: setup, acquisition, depreciation and amortization, revaluation, maintenance, insurance and disposal. It answers questions about depreciation methods, posting through journals and batch jobs, and troubleshooting FA ledger entry rounding. A subtopic covers analytics and reports.
+> Fixed assets in Business Central: setup, acquisition, depreciation and amortization, depreciation methods, revaluation, and lifecycle management, plus a subtopic on analytics. It answers how to set up, post, and analyze capital assets.
 
-Path: [Business functionality](../business-functionality.md) > Fixed assets · tier official · system fixed-assets · narrative reviewed (checked by Opus)
+Path: [Business functionality](../business-functionality.md) > Fixed assets · tier official · system fixed-assets · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section explains how to manage capital assets in Business Central through their whole lifecycle. Setup comes first: depreciation configuration, G/L account mappings, optional insurance and maintenance setup, and user-defined depreciation methods. After that come acquiring assets, depreciating or amortizing them, and revaluing them.
+This section covers the lifecycle of fixed assets in Business Central. It starts with setup (depreciation configuration, G/L account mappings, optional insurance and maintenance setup, user-defined depreciation methods), then moves to acquiring assets, depreciating or amortizing them, and revaluing them. The Manage fixed assets page gives the overall picture, including maintenance, insurance, impairment, and disposal.
 
-The pages fit together in that order. "Manage fixed assets" gives the lifecycle overview, including maintenance, insurance, impairment and disposal. "Set up fixed assets" covers what must be configured first. "Acquire fixed assets" and "Depreciate or amortize FA" cover posting. "Depreciation methods for fixed assets" explains the available methods, and "Revalue Fixed Assets" covers value adjustments. A troubleshooting extension page helps with rounding problems in FA ledger entries.
+Acquisition and depreciation pages are task-based. Acquisition costs can be recorded through fixed asset cards, journals, or purchase orders, and main assets can have component lists. Depreciation runs through batch jobs or journals and can use multiple depreciation books. A separate page describes the available depreciation methods. Revaluation covers appreciation, write-down, and indexation.
 
-Start with "Manage fixed assets" for the overview, then "Set up fixed assets". For reporting and analysis questions, go to the Fixed assets analytics subtopic.
+A troubleshooting page describes an extension that fixes rounding in FA ledger entries. The Fixed assets analytics subtopic (33 pages) covers reports, KPIs, Data Analysis, and tools for disposal, insurance, maintenance, budgeting, and reclassification.
+
+Start with Set up fixed assets, then Acquire fixed assets and Depreciate or amortize FA.
 
 ## Key points
 
-- Set up fixed assets first: depreciation setup, G/L account mappings, and optional insurance and maintenance setup.
-- Acquisition costs can be recorded through fixed asset cards, journals, or purchase orders; main assets can have component lists.
-- Acquisition supports an assisted workflow, Edit in Excel for bulk creation, and creating multiple fixed assets from purchase orders.
-- Depreciation runs automatically through batch jobs or manually through journals, with department allocation, duplication lists, and multiple depreciation books.
-- Eight depreciation methods are available, including straight-line, declining balance, DB1/SL, half-year convention, manual, and user-defined.
-- Revaluation covers appreciation, write-down, and indexation, posted with the FA G/L Journal or batch jobs.
-- The Troubleshooting FA Ledger Entries extension rounds depreciation and acquisition amounts to whole numbers to fix rounding issues.
-- The Fixed assets analytics subtopic (33 pages) covers Data Analysis on FA and GL ledger entries, standard and Excel reports, and legacy reports slated for removal.
+- Setup requires depreciation configuration and G/L account mappings. Insurance and maintenance setup are optional.
+- Acquisition costs can be posted from fixed asset cards, journals, or purchase orders. Multiple assets can be created from a purchase order, and Edit in Excel supports bulk creation.
+- Main assets can be grouped with components. An assisted acquisition workflow is available.
+- Depreciation runs automatically through batch jobs or manually through journals. It supports department allocation, duplication lists, multiple depreciation books, and ending book value management.
+- Eight depreciation methods are described, including straight-line, declining balance, DB1/SL, half-year convention, manual, and user-defined.
+- Revaluation handles appreciation, write-down, and indexation using the FA G/L Journal or batch jobs, with an FA posting type and balancing accounts.
+- The Troubleshooting FA Ledger Entries extension rounds depreciation and acquisition amounts to whole numbers to resolve rounding issues.
+- The Fixed assets analytics subtopic helps you choose the right report or tool, and covers KPIs and financial reports.
 
 ## Subtopics
 
@@ -534,6 +537,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10337 Let subscribers override the half-year new year date in SetHalfYearConventionMethod](../../../changes/bcapps/10337.md) (code change): "half-year depreciation calculations by adding a trailing var parameter"
 - [#10613 [Master] - Slice 640775: [Sustainability] Reverse Sustainability part when reverse in GL Entries](../../../changes/bcapps/10613.md) (code change): "the fixed asset's Acquisition Total CO2e nets to zero"
+- [#11715 Slice 440258: Fixed Asset Journal Approval](../../../changes/bcapps/11715.md) (code change): "Fixed Asset Journal entries can now be approved through the approval workflow"
 - [#12160 Deliverable 617319: Move French accelerated depreciation to W1 base application](../../../changes/bcapps/12160.md) (code change): "French accelerated depreciation functionality is now part of the standard W1 base application"
 - [#13171 [Fixed Assets] Prevent change of FA Posting group after acquisition and FA journal cancellation line with empty Document No.](../../../changes/bcapps/13171.md) (code change): "FA Posting Group field is now protected after acquisition posting"
 - [#13340 [Master]-FA Posting Group is not updated in the Fixed Asset List after being changed on the Fixed Asset Card.](../../../changes/bcapps/13340.md) (code change): "Fixed Asset Card page now properly updates the Fixed Asset List"

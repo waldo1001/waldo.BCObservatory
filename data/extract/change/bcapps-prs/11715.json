@@ -10,11 +10,11 @@
   ],
   "summary": "Fixed Asset Journal entries can now be approved through the approval workflow system before posting.",
   "key_points": [
-    "Added approval workflow support to Fixed Asset Journal similar to other journal types",
-    "Journal batch and line tables extended with approval-related fields and logic",
-    "Approvals management codeunit updated to handle Fixed Asset Journal approval flow",
-    "Workflow setup and webhook management configured for Fixed Asset Journal approvals",
-    "Comprehensive test coverage added for Fixed Asset Journal approval workflows"
+    "Adds approval workflow support for the Fixed Asset Journal, requested so that auditors can have journal entries approved",
+    "FA Journal Batch, FA Journal Line, Fixed Asset Journal page and FA Jnl.-Post Batch updated, including APAC, FR, IT and RU layers",
+    "Approvals Mgmt., Record Restriction Mgt. and workflow event, response and setup codeunits extended",
+    "Workflow webhook codeunits and Page Management updated for the new approval",
+    "New test codeunit covers Fixed Asset Journal batch approval workflows"
   ],
   "change_kind": "feature",
   "behavior_change": true,

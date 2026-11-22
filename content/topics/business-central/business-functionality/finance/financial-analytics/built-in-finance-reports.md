@@ -12,7 +12,7 @@ review:
   at: "2026-11-18T01:00:22.249Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -506,6 +506,7 @@ links:
     - change/bcapps/13160
     - change/bcapps/13262
     - change/bcapps/13339
+    - change/bcapps/14021
     - change/bcapps/9129
     - change/bcapps/9142
     - change/bcapps/9894
@@ -759,6 +760,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13160 [Main][all-e]Changing Negative Amount Format to Parentheses modifies displayed decimal precision despite unchanged rounding settings in the Financial Reports](../../../../../changes/bcapps/13160.md) (code change): "Negative amount formatting was using a hardcoded two-decimal pattern instead of the configured precision"
 - [#13262 [Financial Reports] Trial Balance by Period (Excel) should use a query-based approach rather than loop and CalcFields](../../../../../changes/bcapps/13262.md) (code change): "Trial Balance by Period (Excel) now gets amounts from a new query"
 - [#13339 [29.x]Changing Negative Amount Format to Parentheses modifies displayed decimal precision despite unchanged rounding settings in the Financial Reports](../../../../../changes/bcapps/13339.md) (code change): "Financial Reports now preserve the configured decimal precision"
+- [#14021 Finance internal new body layouts and obsolete current](../../../../../changes/bcapps/14021.md) (code change): "Three deferral summary reports receive new WordBody layouts with improved internal design"
 - [#9129 [Master]-Bug 641503 Financial Reporting - Duplicate Rows in Financial Report Excel Export After Adding GL Budget Dimension](../../../../../changes/bcapps/9129.md) (code change): "financial report Excel exports. Fixes issue that occurred after adding GL budget dimensions"
 - [#9142 [638695] Add Financial Report tables to always-logged list](../../../../../changes/bcapps/9142.md) (code change): "Financial Report tables are now added to the always-logged list"
 - [#9894 Suppress zero-value rows in Trial Balance by Period](../../../../../changes/bcapps/9894.md) (code change): "Trial Balance by Period Excel report now suppresses rows with zero values"

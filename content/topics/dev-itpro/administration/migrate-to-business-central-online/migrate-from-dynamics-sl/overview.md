@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,8 +110,11 @@ Once a migration is running, the Cloud Migration Management page is the place to
 ## Learn pages
 
 - [Compare Work in Dynamics SL and Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl-videos): Compare everyday work in Dynamics SL and Business Central online through videos about transactions, vendor payments, dimensions, journals, and reports.
-  - Videos compare work processes between Dynamics SL and Business Central for user training
-  - Topics covered include receivables, payables, customer receipts, dimensions, general journals, and posting accounts
+  - Videos compare work processes in Dynamics SL and Business Central for receivables, payables, and general journal entries
+  - Videos demonstrate segment and dimension setup differences between Dynamics SL and Business Central
+  - Videos show how to pay vendors, enter cash receipts, and run reports in both Dynamics SL and Business Central
+  - Videos explain classes, templates, posting accounts, and correcting or reversing entries in both systems
+  - Resource covers migration of Dynamics SL data to Business Central online
 - [Dynamics SL Cloud Migration: Supported Data](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl): Learn which Dynamics SL data migrates to Business Central online, including accounting periods, customers, vendors, inventory, projects, and history.
   - Fiscal periods in Dynamics SL migrate to Business Central as accounting periods; historical years come over as open.
   - SL account numbers map to BC GL accounts; subaccount segments become dimensions or shortcut dimensions.

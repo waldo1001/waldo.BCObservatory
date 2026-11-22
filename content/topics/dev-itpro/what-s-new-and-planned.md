@@ -2,20 +2,20 @@
 id: topic/dev-itpro/what-s-new-and-planned
 type: topic
 title: What's new and planned
-summary: "What's new and planned in Business Central: the release cycle, 2026 release wave 2 updates 29.0 and 29.1, and archived release notes for earlier versions from 15.2 to 28.5. It answers which update introduced or changed a feature, localization, deprecation or hotfix."
+summary: "Release information for Business Central: the six-month release cycle, monthly minor updates, and per-update notes for 2026 release wave 2 (29.0 and 29.1), plus archived notes from 15.2 through 28.5. It answers which update introduced or changed a feature, hotfix, localization, deprecation or upgrade path."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-11-17T01:01:05.138Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 065369700d5d66aadef06a19c686eee99a7b2649885ea4f297f86778432ed822
+  input_hash: c6cc371c9b4e626cd2e4b31556e91c876c042981b2c3f27bbe9f0e6518e9f683
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-15-2
@@ -329,28 +329,28 @@ narrative: generated
 
 # What's new and planned
 
-> What's new and planned in Business Central: the release cycle, 2026 release wave 2 updates 29.0 and 29.1, and archived release notes for earlier versions from 15.2 to 28.5. It answers which update introduced or changed a feature, localization, deprecation or hotfix.
+> Release information for Business Central: the six-month release cycle, monthly minor updates, and per-update notes for 2026 release wave 2 (29.0 and 29.1), plus archived notes from 15.2 through 28.5. It answers which update introduced or changed a feature, hotfix, localization, deprecation or upgrade path.
 
-Path: What's new and planned · tier official · system none · narrative reviewed (checked by Opus)
+Path: What's new and planned · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section tracks what is new, changed and planned in Business Central. The landing page explains the six-month major release cycle, the monthly minor updates, release waves and regulatory updates. It also points to the AI at Work roadmap and shows rollout status for versions such as 28.4, 28.5, 29.0 and 29.1.
+This section tells you what is released and what is coming in Business Central. The landing page explains the six-month release cycle, the monthly minor updates and regulatory updates. It also says that feature planning and rollout progress now live in the Microsoft Copilot Roadmap.
 
-Two pages cover 2026 release wave 2. Update 29.0 describes Copilot agents, AL development, e-documents, Shopify, financial reporting, sustainability and supply chain changes. Update 29.1 adds localization items, expense agent enhancements, finance improvements and Copilot capabilities.
+Two pages cover the current 2026 release wave 2. Update 29.0 lists new and updated features by area, such as Copilot agents, AL development, e-documents, ecommerce, expense management, finance, governance, reporting, supply chain and sustainability. Update 29.1 adds localization items, e-document changes, expense and payables agent work, finance capabilities and Copilot integration. It also covers hotfixes and upgrade paths.
 
-The subtopic "Updates for earlier major versions" holds 72 pages of release notes from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1). It also has a what's new page for 26.0 and preview pages for 27.0 and 28.0. Start with the landing page for the current status, then go to the version-specific page. Use the earlier-versions subtopic to trace when something was introduced.
+Start with the landing page for the release cadence, then open the 29.0 or 29.1 page for the version you run. For older versions, use the subtopic "Updates for earlier major versions". It holds 72 pages of release notes from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1).
 
 ## Key points
 
-- Business Central ships major updates every six months and minor updates monthly, organized into release waves.
-- Update 29.0 (2026 release wave 2) covers MCP Server data queries, AL index control, Page Scripting, AL interface default implementations, AL compiler diagnostics tracking and document report themes.
-- Update 29.1 adds SAF-T audit file format for Austria and Iceland, a French localization extension and euBP export with audit files.
-- Update 29.1 also includes EET Integration in Czechia, a non-deductible VAT framework in Belgium and self-billing enablement.
-- The landing page references the AI at Work roadmap and regulatory updates.
-- Earlier release notes run from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1).
-- The archive also has a what's new page for 26.0 and preview pages for 27.0 and 28.0.
-- Use the archive to find which update introduced a feature, telemetry signal, localization change, deprecation or hotfix.
+- Business Central follows a six-month release cycle with monthly minor updates and regulatory updates.
+- Feature planning and rollout progress are tracked in the Microsoft Copilot Roadmap.
+- Update 29.0 (2026 release wave 2) has both generally available and public preview features.
+- 29.0 items include purchase order matching in Payables Agent, agent permissions management, the agent task pane, AL index control and AL interface default implementations.
+- Update 29.1 includes Austria and Iceland SAF-T audit file formats, a French localization extension, Germany euBP with audit files export, Czechia EET integration and a Belgium non-deductible VAT framework.
+- The 29.1 page also covers hotfixes and upgrade paths.
+- Earlier release notes run from 15.2 (2019 release wave 2) to 28.5 (2026 release wave 1), including the 26.0, 27.0 and 28.0 feature overviews.
+- Use the archived notes to trace which update introduced or changed a feature, localization, telemetry item or deprecation.
 
 ## Subtopics
 

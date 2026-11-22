@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/14281",
+  "input_hash": "62b7849e1a18c7e0eb711ff4ccc50a79bd984daa26c4bb127a719a41f251fcac",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-22T00:57:45.824Z",
+  "issues": [
+    "The description says the standard call sites now use the new predicate events, and extensions that customize classification through the old getter events should migrate. Those extensions can stop working as intended, so breaking should be true.",
+    "The summary wording about fallback logic returning false is imprecise and is rewritten."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "breaking true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021529,
+    "changes_in_call": 6
+  }
+}

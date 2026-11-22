@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13787",
+  "input_hash": "5cf8d831d7ca1cf69fa4a2ea6a3fe11ae427b22fe46cb06630798a3c102375f0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-22T00:57:50.681Z",
+  "issues": [
+    "Description only links bug 655888; claims of added error handling or improved error management are unsupported.",
+    "Code changes are only in W1 and ES layers; IT, NL and NO received tests only, so 'fixes applied across W1, ES, IT, NL, NO' is wrong."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027963,
+    "changes_in_call": 6
+  }
+}

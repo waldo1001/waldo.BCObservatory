@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/assembly-management
 type: topic
 title: Assembly management
-summary: Assembly management in Business Central covers building items from components and resources, using assembly BOMs, assembly orders, assemble-to-order and assemble-to-stock flows. It answers how-to, setup, posting and undo questions, plus a subtopic on assembly reports and analytics.
+summary: Assembly management in Business Central covers assembly orders, assembly BOMs, assemble-to-order and assemble-to-stock processes, posting and undo, cost flow, and related sales scenarios. It answers how-to and design questions about building items from components and resources, and selling them.
 tier: official
 language: en
 system: assembly
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:17:11.266Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 7904aae3e0e596d47f467342088f784f29b85e18b9bba9f5ac08bf153a6cbb2f
+  input_hash: 3c2566eab41b36f2a8ce7a523a5f5493ec60d87d8fb871972b522adfe6a37c54
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-assemble-items
@@ -269,28 +269,28 @@ narrative: generated
 
 # Assembly management
 
-> Assembly management in Business Central covers building items from components and resources, using assembly BOMs, assembly orders, assemble-to-order and assemble-to-stock flows. It answers how-to, setup, posting and undo questions, plus a subtopic on assembly reports and analytics.
+> Assembly management in Business Central covers assembly orders, assembly BOMs, assemble-to-order and assemble-to-stock processes, posting and undo, cost flow, and related sales scenarios. It answers how-to and design questions about building items from components and resources, and selling them.
 
-Path: [Business functionality](../business-functionality.md) > Assembly management · tier official · system assembly · narrative reviewed (checked by Opus)
+Path: [Business functionality](../business-functionality.md) > Assembly management · tier official · system assembly · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Assembly management lets a company supply products by combining components and resources. The pages cover two main processes: assemble to stock, where inventory items are built for stock, and assemble to order, where a sales order creates a linked assembly order for an item customized to the customer. Assembly BOMs define the structure of the parent items, including multi-level BOMs.
+Assembly management lets a company supply products by combining components and resources. The section starts with the overview page and the page that explains assemble to order versus assemble to stock. It then covers assembly BOMs, which define the parent item, its components and resources, multi-level structures and standard cost calculation.
 
-Start with "Assembly Management" and "Understanding Assemble to Order and Assemble to Stock" for the concepts and the assembly policy. Then use "Work with assembly BOMs" to define structures, "Assemble Items" for stock orders, and the sales pages for assemble-to-order: selling, quoting, blanket orders, and mixed or inventory-based sales.
+Most task pages are grouped by process. For stock, the pages cover creating assembly orders, checking availability and posting partial output. For sales, they cover selling items assembled to order, which creates linked assembly orders, and quoting or creating blanket assembly orders. Other pages cover selling inventory items in assemble-to-order flows and selling mixed policy items together. Undo assembly posting handles corrections.
 
-For corrections and accounting, see "Undo Assembly Posting" and "Design details - Assembly order posting", which explain cost flow and ledger entries. The Assembly analytics subtopic (9 pages) covers the reports for BOMs, where-used, cost share, availability and assemble-to-order sales.
+The design details page explains how assembly order posting works, including journals, cost adjustment and ledger entries. The Assembly analytics subtopic holds reports on BOM structure, where-used, cost distribution, component availability and assemble-to-order sales. For a new setup, read the overview and the assemble to order and stock page first, then build BOMs.
 
 ## Key points
 
-- Assembly orders build items from components and resources; assemble to stock supports availability checking and partial output posting.
-- Assemble to order creates a linked assembly order from a sales order, with component customization, availability checking and sales order release.
-- Assembly BOMs support multi-level structures, standard cost calculation, editing and where-used tracking.
-- Assembly quotes and blanket assembly orders let you quote or forecast assemble-to-order items before they become sales orders.
-- Mixed cases are covered: selling inventory items in assemble-to-order flows by reducing Qty. to Assemble to Order and reserving stock, and partly assembling to order items set to assemble to stock, using the Assembly Policy and Qty. to Assemble to Order fields.
-- Assembly output posts at actual cost with no WIP concept; posting involves item and resource journal posting sequences and cost adjustment.
-- Undo assembly posting creates corrective item ledger entries, reverses cost, and can recreate the original order, for partial or full reversal.
-- Assembly analytics holds nine report pages on BOM listings, end items, raw materials, cost share, availability and assemble-to-order sales.
+- Assembly Management supports assemble-to-order, assemble-to-stock and just-in-time assembly, with sales and warehouse integration.
+- Assembly BOMs define parent items built from components and resources, support multi-level BOMs, standard cost calculation and where-used tracking.
+- Assemble to stock uses assembly orders with availability checking, a quantity to assemble and partial output posting.
+- Assemble to order creates a linked assembly order from a sales order, so the item can be customized to customer specifications.
+- Assembly quotes and blanket assembly orders let you forecast or quote assemble-to-order items before converting them to sales orders.
+- Mixed cases use the Assembly Policy and Qty. to Assemble to Order fields, so inventory items can be sold in assemble-to-order flows or combined with assembled items.
+- Assembly output posts at actual cost with no WIP concept, and cost adjustment flows into item and resource ledger entries.
+- Undo assembly posting reverses full or partial postings with corrective entries and can recreate the original order.
 
 ## Subtopics
 
@@ -323,7 +323,7 @@ For corrections and accounting, see "Undo Assembly Posting" and "Design details 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#13618 [Master]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages](../../../changes/bcapps/13618.md) (code change): "Serial numbers on assembly order component lines are no longer unexpectedly deleted"
-- [#13862 [29.X]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages.](../../../changes/bcapps/13862.md) (code change): "Serial numbers selected on assembly order component lines are preserved when running the Calculate Regenerative Plan"
+- [#13862 [29.X]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages.](../../../changes/bcapps/13862.md) (code change): "Serial numbers selected on assembly order component lines are kept when Calculate Regenerative Plan runs"
 - [What's New: Project Management (2024 release wave 1)](../../../videos/dD_2NEs3A40.md) (video): "Assembly-to-order in projects; Assembly policy setting in projects"
 - [Manufacturing Foundations BOM (2026)](../../../videos/GEuUFcgFZF0.md) (video): "Assembly replenishment; BOM formulas for units of measure; Phantom BOMs"
 

@@ -2,7 +2,7 @@
 id: topic/business-central/security-privacy-and-compliance
 type: topic
 title: Security, privacy, and compliance
-summary: "Security, privacy, and compliance in Business Central: personal security best practices for users, plus a Compliance subtopic on regulatory support (SOX, IAS/IFRS, Basel II, data privacy), cloud service SLA, country certifications, and privacy notices. It answers what users should do to stay safe and what compliance Business Central provides."
+summary: "Security, privacy, and compliance in Business Central: personal security best practices for users, plus a Compliance subtopic on regulatory and industry requirements. It answers questions about user safety habits, accounting standards, audit trails, certifications, ISO standards, SLA terms and business continuity."
 tier: official
 language: en
 review:
@@ -11,11 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c94905e89e3bb05dd92572572a57ab1e9d9ba4d940aa43362f4748345c1dd6f5
+  input_hash: 6908cfa5b82ee1b761b79049348116fff8ef3b859c70338e0a01ff14979bf561
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/compliance/compliance-application-compliance
@@ -96,28 +96,27 @@ narrative: generated
 
 # Security, privacy, and compliance
 
-> Security, privacy, and compliance in Business Central: personal security best practices for users, plus a Compliance subtopic on regulatory support (SOX, IAS/IFRS, Basel II, data privacy), cloud service SLA, country certifications, and privacy notices. It answers what users should do to stay safe and what compliance Business Central provides.
+> Security, privacy, and compliance in Business Central: personal security best practices for users, plus a Compliance subtopic on regulatory and industry requirements. It answers questions about user safety habits, accounting standards, audit trails, certifications, ISO standards, SLA terms and business continuity.
 
 Path: Security, privacy, and compliance · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section has two parts. The first is a page of personal security best practices for Business Central users. It covers phishing awareness, multifactor authentication, software updates, password management, device protection, and safe browsing habits. It is written for end users and mentions tools such as Microsoft Entra ID, the OneDrive restore feature, full-disk encryption, biometric unlock, and VPN.
+This section brings together guidance on keeping Business Central users and data safe and on how the product and online service meet regulatory and industry requirements. It has one page of its own and one subtopic.
 
-The second part is the Compliance subtopic with six pages. It covers application-level regulatory support (SOX, IAS/IFRS, Basel II, data privacy), cloud service compliance and SLA, country certifications, the online service overview, and privacy notices for trial features that connect to other Microsoft services.
+The own page covers personal security best practices for users: phishing awareness, multifactor authentication, software updates, password management, device protection and safe browsing. It mentions Microsoft Entra ID, the OneDrive restore feature, full-disk encryption, biometric unlock and VPN.
 
-Start with the personal security page if the question is about user behavior and account or device protection. Start with Compliance if the question is about what standards, certifications, or privacy commitments Business Central meets.
+The Compliance subtopic (6 pages) deals with the organizational side: accounting standards, audit trails, certifications, ISO standards, SLA terms, business continuity, and trial features that connect to other Microsoft services. Start with the personal security page for user-level advice. Go to Compliance when the question is about regulatory, certification or service-level requirements.
 
 ## Key points
 
-- Personal security guidance covers phishing awareness, password management, software updates, device protection, and safe browsing.
-- Multifactor authentication and Microsoft Entra ID are part of the recommended user protections.
-- Device-level advice includes full-disk encryption, biometric unlock, and VPN use.
-- The OneDrive restore feature is mentioned in the personal security guidance.
-- Compliance pages cover application-level regulatory support: SOX, IAS/IFRS, Basel II, and data privacy.
-- Compliance also covers cloud service compliance and SLA, plus country certifications.
-- Privacy notices explain trial features that connect to other Microsoft services.
-- An online service overview is included in the Compliance subtopic.
+- The own page gives personal security habits for Business Central users.
+- Topics include phishing awareness, multifactor authentication, software updates, password management, device protection and safe browsing.
+- Related tools and features named: Microsoft Entra ID, OneDrive restore feature, full-disk encryption, biometric unlock and VPN.
+- The Compliance subtopic has 6 pages on how the application and online service meet regulatory and industry requirements.
+- Compliance covers accounting standards, audit trails, certifications and ISO standards.
+- Compliance also covers SLA terms and business continuity.
+- Compliance notes trial features that connect to other Microsoft services.
 
 ## Subtopics
 

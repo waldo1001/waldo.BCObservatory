@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,9 +110,11 @@ The management page covers the Cloud Migration Management page, where you monito
 ## Learn pages
 
 - [Compare Work in Dynamics GP to Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp-videos): Compare everyday work in Dynamics GP and Business Central online through videos about transactions, vendor payments, dimensions, journals, and reports.
-  - Video series compares work processes between Dynamics GP and Business Central to help users transition.
-  - Videos cover topics including receivables and payables transactions, vendor payments, cash receipts, dimensions, and journal entries.
-  - Videos explain differences and similarities in setting up segments, dimension templates, classes, trial balances, and posting accounts.
+  - Videos compare work processes in Dynamics GP and Business Central for receivables, payables, and general journal entries
+  - Videos demonstrate segment and dimension setup differences between Dynamics GP and Business Central
+  - Videos show how to pay vendors, enter cash receipts, run reports, and use posting accounts in both systems
+  - Videos explain classes, templates, correcting or reversing entries, and trial balance procedures in both systems
+  - Resource covers migration of Dynamics GP data to Business Central online
 - [Dynamics GP Data Migration to Business Central Online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp): Learn which Dynamics GP master records, outstanding transactions, and historical data you can migrate to Business Central online and how to select them.
   - Fiscal periods in Dynamics GP migrate to Business Central as accounting periods; historical years come over as open.
   - Chart of accounts main segment becomes GL account; remaining segments become dimensions or shortcut dimensions.

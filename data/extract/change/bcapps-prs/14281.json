@@ -6,17 +6,17 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "Manufacturing enum fallback logic in item journals now correctly returns false when Manufacturing subscribers are absent, preventing ordinary records from being misclassified as manufacturing records.",
+  "summary": "Item journal code no longer treats ordinary lines and templates as manufacturing records when Manufacturing subscribers are absent. New Boolean predicate events that default to false replace the enum getters at the standard call sites, and the change is applied to all country layers.",
   "key_points": [
-    "Adds Boolean predicate events for manufacturing classification instead of relying on enum getters that return ordinal zero when subscribers are absent",
-    "Applies fixes across salesperson dimensions, journal line setup, item tracking validation, recurring journal selection, and the Inventory Posting - Test report",
-    "Preserves existing getter APIs while introducing new predicate events for classification",
-    "Propagates changes to all eight country-specific layers",
-    "Includes new regression tests for production and non-production scenarios"
+    "Adds false-default Boolean predicate events, with Manufacturing subscribers, to classify production and consumption records",
+    "Used for salesperson dimensions, journal line setup, item tracking validation, recurring journal selection and the Inventory Posting - Test report",
+    "Existing enum getter procedures and events remain available",
+    "Extensions that customize classification through the old getter events should move to the new predicate events",
+    "Adds regression tests in SCM Item Journal"
   ],
   "change_kind": "fix",
   "behavior_change": true,
-  "breaking": false,
+  "breaking": true,
   "obsoletions": [],
   "systems": [
     "inventory",

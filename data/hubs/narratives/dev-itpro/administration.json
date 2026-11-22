@@ -1,38 +1,38 @@
 {
   "hub_id": "topic/dev-itpro/administration",
-  "input_hash": "065b3ee4d1fbcbac1edef57fc062f4e5f5f9250c595f5eb308ad2ad6017ff4b7",
-  "summary": "Administration of Business Central online: how tenants and environments are organized and managed, the admin center, licensing and permissions, environment setup, customer onboarding, telemetry, support, automation and cloud migration APIs, and migration to online. It answers how-to, limit and process questions for administrators and partners.",
-  "overview": "This section is for internal administrators and delegated partners who run Business Central online tenants. Its top page introduces the main tasks: user management, permissions assignment, licensing, environment updates, telemetry, delegated administration and partner relationships.\n\nThe subtopics split the work by task. Start with \"Understand Business Central online\" for tenants, environments, companies, update cycles and limits. Then use \"Admin center\" for day-to-day environment management, and \"Entitlements and permissions\" for licensing and access. \"Prepare Business Central\" and \"Onboard your customers\" cover getting a new environment and its users ready.\n\nFurther subtopics cover operations and integration: telemetry in Azure Application Insights, technical support, the Automation API and Cloud Migration API, and migration from on-premises Business Central, NAV, GP, SL or other SQL sources.",
+  "input_hash": "96174317b32e961afd01dcd4a2d1359970863d421b242ba78270e4c4e790a6be",
+  "summary": "Administration of Business Central online covers how tenants and environments are run, managed, monitored, supported and migrated to. It answers questions about the admin center, entitlements and permissions, environment preparation, customer onboarding, telemetry, technical support, admin APIs and on-premises migration.",
+  "overview": "Administration is the entry point for people who run Business Central online, either as internal administrators or as delegated partners. The top page describes the main duties: user management, permission assignment, licensing, environment updates, telemetry and partner relationships.\n\nThe subtopics split the work by task. \"Understand Business Central online\" explains the service itself (tenants, environment types, update cycles, limits, availability, subscriptions). \"Admin center\" covers day-to-day environment management. \"Entitlements and permissions\" covers access control and licensing. \"Prepare Business Central\" and \"Onboard your customers\" cover getting environments and first-use experiences ready. \"Monitor and analyze telemetry\" and \"Manage technical support\" cover observing and escalating problems. \"Automation API\" and \"Cloud Migration API\" are the API sections. \"Migrate to Business Central online\" covers moving on-premises data to the cloud.\n\nStart with \"Understand Business Central online\" if the service is new to you. Then use \"Admin center\" for environment tasks, and \"Entitlements and permissions\" for access and licensing questions. Go to the migration or telemetry sections when you have a specific project.",
   "key_points": [
-    "Understand Business Central online explains tenants, environments, companies, environment types, update cycles, version numbers, operation limits, and country and language availability.",
-    "The admin center manages production and sandbox environments: copy, rename, delete, restore, transfer, updates, sessions, apps, capacity, access, telemetry, notifications and database export.",
-    "Consumption-based billing is covered in the admin center section.",
-    "Entitlements and permissions explains how entitlements, permissions and permission sets differ, how license plans are structured, and what SUPER, D365 BASIC and SYSTEM APP provide.",
-    "Prepare Business Central covers configuration packages, Excel and Outlook add-ins, per-tenant extensions, Marketplace app upgrades, app key vaults and Feature Management.",
-    "Onboarding covers trials, sign-ups, the SignupContext parameter, the Welcome banner, checklists, teaching tips, tours and recommended apps.",
-    "Telemetry goes to Azure Application Insights, with pages on KQL, Power BI, alerts, cost control and event IDs.",
-    "Migration covers on-premises Business Central, Dynamics NAV, GP, SL and any SQL source, including custom migrations and troubleshooting."
+    "Admin center tasks: create, copy, rename, delete, restore, export and transfer environments, and manage apps, updates, access, capacity, telemetry, sessions, notifications and consumption-based billing.",
+    "The online service section explains tenants, environment types, update cycles, version numbers, operation limits, country/region and language availability, trials, subscriptions and delegated admin access.",
+    "Entitlements, permissions and permission sets differ. The section also explains license plan structure and the special permission sets SUPER, D365 BASIC and SYSTEM APP.",
+    "Preparation covers setup overview, configuration packages, Excel and Outlook add-ins, deploying and upgrading extensions, app key vaults, and upcoming or newly mandatory features.",
+    "Onboarding covers trials and sign-ups, the SignupContext parameter, welcome banner, checklist, teaching tips and tours, recommended apps and onboarding telemetry.",
+    "Telemetry goes to Azure Application Insights. The section covers enabling it, event IDs, analysis with KQL or Power BI, alerts and cost control.",
+    "Technical support pages cover troubleshooting tools, escalating to Microsoft, and reporting performance problems and production outages.",
+    "Migration supports paths from Business Central, Dynamics NAV, GP, SL and custom SQL sources, with FAQ and troubleshooting. Separate Automation API and Cloud Migration API sections exist."
   ],
   "members_used": 1,
   "subtopics_used": 8,
   "prompt_version": 1,
-  "at": "2026-11-15T00:50:49.611Z",
+  "at": "2026-11-22T01:00:05.996Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.0234866
+    "cost_usd": 0.016741
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-11-15T00:50:59.995Z",
+    "at": "2026-11-22T01:00:23.392Z",
     "verdict": "approve",
     "issues": [
-      "Key point 3 (consumption-based billing) repeats part of the admin center scope and could be folded into key point 2.",
-      "No key point covers the Manage technical support subtopic (troubleshooting tools, escalating to Microsoft, reporting performance problems and production outages) or the Automation and Cloud Migration APIs. They are only mentioned in the overview.",
-      "The Automation API and Cloud Migration API subtopics have no summaries, so only their names are supported. The narrative correctly stays at that level."
+      "Minor: the overview calls Automation API and Cloud Migration API 'the API sections', but the Admin center subtopic also has an Admin Center API subtopic. It is worth mentioning so agents can find it.",
+      "Minor: the 'Understand Business Central online' key point leaves out partner reselling and technical support, which that subtopic also covers.",
+      "Minor: the Automation API and Cloud Migration API subtopics have no summaries, so the narrative rightly only notes that they exist."
     ],
-    "input_hash": "065b3ee4d1fbcbac1edef57fc062f4e5f5f9250c595f5eb308ad2ad6017ff4b7",
-    "cost_usd": 0.046632
+    "input_hash": "96174317b32e961afd01dcd4a2d1359970863d421b242ba78270e4c4e790a6be",
+    "cost_usd": 0.045160000000000006
   }
 }

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:24.212Z"
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-22T01:00:28.230Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,6 +107,7 @@ links:
     - change/bcapps/12669
     - change/bcapps/12783
     - change/bcapps/12986
+    - change/bcapps/13012
     - change/bcapps/13166
     - change/bcapps/13261
     - change/bcapps/13293
@@ -114,6 +115,7 @@ links:
     - change/bcapps/13641
     - change/bcapps/13704
     - change/bcapps/14014
+    - change/bcapps/14111
     - change/bcapps/14122
     - change/bcapps/8747
     - change/bcapps/8750
@@ -233,6 +235,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12669 [Main]Subcontracting Order Date does not account for lead time before the routing operation starts](../../../../changes/bcapps/12669.md) (code change): "Subcontracting order dates now correctly calculate backward from the routing operation start date"
 - [#12783 [29.x] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../../changes/bcapps/12783.md) (code change): "Subcontractor price for Time-based operations ignored the routing line's operation time factor"
 - [#12986 Fix Work Center field persistence when auto-save is disabled](../../../../changes/bcapps/12986.md) (code change): "Validating Subcontractor No. on the Work Center Card now saves pending changes"
+- [#13012 [Subcontracting] Assign worksheet suggestions to existing purchase orders](../../../../changes/bcapps/13012.md) (code change): "Subcontracting worksheet users can now assign suggestions to existing open purchase orders"
 - [#13166 [Master]-WIP transfer warehouse shipment incorrectly requires Bin Code](../../../../changes/bcapps/13166.md) (code change): "WIP transfer warehouse shipment in Subcontracting no longer incorrectly requires"
 - [#13261 [Backport 29.x] [Extensibility Request] [SCM] 2026-10-26](../../../../changes/bcapps/13261.md) (code change): "Small change to the Subc. RequisitionLine table extension in Subcontracting"
 - [#13293 [29.X]-WIP transfer warehouse shipment incorrectly requires Bin Code](../../../../changes/bcapps/13293.md) (code change): "WIP transfer in Subcontracting no longer incorrectly requires a Bin Code"
@@ -240,6 +243,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13641 Bug 647022: [Subcontracting] Use alternative worksheet names and migrate the legacy page](../../../../changes/bcapps/13641.md) (code change): "Subcontracting initialization now preserves existing customer templates"
 - [#13704 [Subcontracting] Add quantity-ready-to-start tracking for production routing operations](../../../../changes/bcapps/13704.md) (code change): "Production order routing operations now track quantity ready to start"
 - [#14014 Bug 648872: [UX][Manufacturing] Many actions are enabled on an empty "Released Produciton Orders" page resulting in errors when clicked](../../../../changes/bcapps/14014.md) (code change): "Test coverage includes initial empty and non-empty page states plus subcontracting extension actions"
+- [#14111 Slice 636866: [Subcontracting] Subcontracting Summary Factbox on Released Production Order Card](../../../../changes/bcapps/14111.md) (code change): "Subcontracting Summary FactBox was added to the Released Production Order Card showing nine order-level indicators"
 - [#14122 [Subcontracting] Refresh the transfer order lines without saving in SetIsSubcontracting](../../../../changes/bcapps/14122.md) (code change): "SetIsSubcontracting on the Subc. Trans. Order Sub. page extension now calls CurrPage.Update"
 - [#8747 [Subcontracting] Disable "WIP Item Transfer" for Machine Center](../../../../changes/bcapps/8747.md) (code change): "Transfer WIP Item field on routing lines is now restricted"
 - [#8750 [Bug Fix] #638688: Suppress availability warning for Transfer WIP Item lines](../../../../changes/bcapps/8750.md) (code change): "WIP items are intermediate goods managed by subcontracting"
