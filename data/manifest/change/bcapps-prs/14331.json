@@ -6,7 +6,7 @@
   "title": "Fix trailing periods in generated document attachment folders",
   "url": "https://github.com/microsoft/BCApps/pull/14331",
   "published_at": "2026-11-20T10:38:45Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-21T00:15:56.434Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-22T00:20:01.183Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004443
+    },
+    "linked": {
+      "at": "2026-11-22T00:20:01.459Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-22T00:20:01.497Z",
+      "path": "content/changes/bcapps/14331.md"
     }
   },
   "input_hash": "2cf14eb30762f293c1f6c9c9e8063ad9bd493207:c1",
@@ -41,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f43449a4a625765365c7ce34e7d33743cceaf47766cae495e340a624c5c1ef5c"
+  "output_hash": "ffc5b897947883557167b8e2fac315ab5a6a99dc406fd38c19bebec3e25a0d94"
 }

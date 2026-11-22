@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13680",
+  "number": 13680,
+  "title": "[Excel Reports] Handle an apostrophe in the No. on the Vendor and Customer Top List",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing",
+    "sales"
+  ],
+  "summary": "Excel reports for top vendor and customer lists now handle apostrophes in account numbers correctly by properly escaping quotes in filter expressions.",
+  "key_points": [
+    "Fixed NavInvalidFilterExpressionException when vendor or customer numbers contain apostrophes",
+    "Escape helper now doubles internal quotes and uses Text parameter type instead of Code",
+    "Single-value buffer lookups converted to SetRange for exact comparison instead of filter parsing",
+    "Added tests verifying exports with apostrophes at start, middle, and end of account numbers",
+    "No breaking changes; local helper modification affects only these reports"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004227,
+    "changes_in_call": 1
+  }
+}

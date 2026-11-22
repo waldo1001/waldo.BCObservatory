@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13899",
+  "number": 13899,
+  "title": "Bugfix/issue 13425 shopify wrong curr amount refund",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Fixed Shopify refund sales line creation to use the correct amount when shop and presentment currencies differ.",
+  "key_points": [
+    "Corrects currency amount used in sales line generation from refund shipping lines",
+    "Addresses issue where wrong amount was applied with different shop and presentment currencies",
+    "Updates Shopify order refund processing logic",
+    "Includes test coverage for the refund shipping line scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Wrong amount is used to create sales line from refund shipping line when shop currency and presentment currency is not the same.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003389,
+    "changes_in_call": 1
+  }
+}

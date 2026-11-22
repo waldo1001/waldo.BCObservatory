@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13787",
+  "number": 13787,
+  "title": "[Main]error in allocation account function",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed a bug in the allocation account posting logic that occurred during purchase document processing. The fix includes error handling and test coverage across multiple localization layers.",
+  "key_points": [
+    "Corrected error in allocation account function during purchase document posting",
+    "Updated base allocation account handling codeunit with improved error management",
+    "Added comprehensive test cases for purchase allocation account end-to-end scenarios",
+    "Applied fixes consistently across localization layers (W1, ES, IT, NL, NO)",
+    "Resolves issue AB#655888"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003477,
+    "changes_in_call": 1
+  }
+}

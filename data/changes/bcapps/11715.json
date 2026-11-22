@@ -1,0 +1,434 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11715,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11715",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-18T14:03:35Z",
+  "merge_commit_sha": "bed52d8a701cd7810534f873dd490f9033d40ca0",
+  "author": "ViditGupta1277",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Slice 440258: Fixed Asset Journal Approval",
+  "body_hash": "f2e79acf045ab5507ab9a1446c0b619423402123397c85d0804976c7c6209333",
+  "fixes_issues": [],
+  "work_items": [
+    440258
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/FixedAssets/FixedAsset/FixedAssetJournal.Page.al",
+      "status": "modified",
+      "additions": 272,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAJournalLine.Table.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FixedAssetJournal.Page.al",
+      "status": "modified",
+      "additions": 272,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAJournalLine.Table.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FixedAssetJournal.Page.al",
+      "status": "modified",
+      "additions": 270,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJnlPostBatch.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJournalBatch.Table.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJournalLine.Table.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FixedAssetJournal.Page.al",
+      "status": "modified",
+      "additions": 272,
+      "deletions": 18,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/Approvals/ApprovalsMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 219,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/RecordRestrictionMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 62,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowEventHandling.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowRequestPageHandling.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowResponseHandling.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 117,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowWebhookEvents.Codeunit.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowWebhookManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowWebhookResponses.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowWebhookSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 62,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Utilities/PageManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Fixed Asset/WFWFAJournalBatch.Codeunit.al",
+      "status": "added",
+      "additions": 1628,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 23,
+    "additions": 3450,
+    "deletions": 75,
+    "al": 22
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5633",
+        "type": "codeunit",
+        "id": 5633,
+        "name": "FA Jnl.-Post Batch",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/5633"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FAJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5633",
+        "type": "codeunit",
+        "id": 5633,
+        "name": "FA Jnl.-Post Batch",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/5633"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/5621",
+        "type": "table",
+        "id": 5621,
+        "name": "FA Journal Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/5621"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FixedAssetJournal.Page.al",
+        "status": "modified",
+        "key": "page/5629",
+        "type": "page",
+        "id": 5629,
+        "name": "Fixed Asset Journal",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/5629"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJnlPostBatch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5633",
+        "type": "codeunit",
+        "id": 5633,
+        "name": "FA Jnl.-Post Batch",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5633"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJournalBatch.Table.al",
+        "status": "modified",
+        "key": "table/5620",
+        "type": "table",
+        "id": 5620,
+        "name": "FA Journal Batch",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5620"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FAJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/5621",
+        "type": "table",
+        "id": 5621,
+        "name": "FA Journal Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5621"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/FixedAssets/FixedAsset/FixedAssetJournal.Page.al",
+        "status": "modified",
+        "key": "page/5629",
+        "type": "page",
+        "id": 5629,
+        "name": "Fixed Asset Journal",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5629"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/Approvals/ApprovalsMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1535",
+        "type": "codeunit",
+        "id": 1535,
+        "name": "Approvals Mgmt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1535"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/RecordRestrictionMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1550",
+        "type": "codeunit",
+        "id": 1550,
+        "name": "Record Restriction Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1550"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowEventHandling.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1520",
+        "type": "codeunit",
+        "id": 1520,
+        "name": "Workflow Event Handling",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1520"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowRequestPageHandling.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1522",
+        "type": "codeunit",
+        "id": 1522,
+        "name": "Workflow Request Page Handling",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1522"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowResponseHandling.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1521",
+        "type": "codeunit",
+        "id": 1521,
+        "name": "Workflow Response Handling",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1521"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowSetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1502",
+        "type": "codeunit",
+        "id": 1502,
+        "name": "Workflow Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1502"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowWebhookEvents.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1541",
+        "type": "codeunit",
+        "id": 1541,
+        "name": "Workflow Webhook Events",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1541"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowWebhookManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1543",
+        "type": "codeunit",
+        "id": 1543,
+        "name": "Workflow Webhook Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1543"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowWebhookResponses.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1542",
+        "type": "codeunit",
+        "id": 1542,
+        "name": "Workflow Webhook Responses",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1542"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowWebhookSetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1540",
+        "type": "codeunit",
+        "id": 1540,
+        "name": "Workflow Webhook Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1540"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Utilities/PageManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/700",
+        "type": "codeunit",
+        "id": 700,
+        "name": "Page Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/700"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/FixedAssets/FixedAsset/FixedAssetJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/FixedAssets/FixedAsset/FAJournalLine.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/FixedAssets/FixedAsset/FixedAssetJournal.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development",
+    "fixed-assets",
+    "platform"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/13012",
+  "number": 13012,
+  "title": "[Subcontracting] Assign worksheet suggestions to existing purchase orders",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory",
+    "manufacturing",
+    "purchasing"
+  ],
+  "summary": "Subcontracting worksheet users can now assign suggestions to existing open purchase orders instead of always creating new orders, with filtering and validation for purchase order compatibility.",
+  "key_points": [
+    "Adds purchase order targeting to requisition lines with compatibility checks for vendor, customer, shipping, currency and purchasing code",
+    "Worksheet gains actions for assigning purchase orders, clearing targets, and showing assigned orders",
+    "Reference semantics changed: Ref. Order Type now indicates Purchase with empty Ref. Order No., while Prod. Order No. tracks the production order",
+    "Requisition Line Management codeunit removes target if action message changes from New",
+    "Comprehensive test coverage with 27 new tests for assignment, validation, and edge cases"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": "Users can now attach a new subcontracting suggestion in the Subcontracting Worksheet to an existing open purchase order.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004443,
+    "changes_in_call": 6
+  }
+}

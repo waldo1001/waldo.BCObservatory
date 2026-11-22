@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14070",
+  "number": 14070,
+  "title": "[29.x][All-e]\"Specify the VAT registration number that you want to verify\" error when entering a VAT Registration No. in the Sales Order if the Customer Card has no VAT Registration No.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Sales Header VAT Registration No. validation now checks the number entered on the document instead of the customer card number, allowing verification of different numbers.",
+  "key_points": [
+    "Passes a copy of the customer record with the entered VAT number to validation instead of the original customer card",
+    "Preserves the existing rule that only fills a blank customer VAT number automatically",
+    "Allows verification of VAT numbers different from those on the customer card",
+    "Fixes error when customer card has no VAT number but document entry requires validation",
+    "Includes regression test ValidateHeaderVATRegistrationNoChecksEnteredNumberWhenCustomerHasNone"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "The field now passes a copy of the customer (CustomerToValidate) with the number entered on the document set.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004443,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10295,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10295",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-20T10:10:28Z",
+  "merge_commit_sha": "e98908c676e733b5519c84e3cb2eca62ae7aeb03",
+  "author": "g-Bergsma",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "#10288 - Always load attachments",
+  "body_hash": "5f9e4214bed19a120b0661e29a3a867d81643e01c907ddf4effff907bc2aad08",
+  "fixes_issues": [
+    10288
+  ],
+  "work_items": [
+    659677
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Email - Outlook REST API/app/src/EmailOutlookAPIHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Email - Outlook REST API/test/HttpResponseFiles/RetrieveEmailWithInlineAttachmentsOnly.txt",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/Email - Outlook REST API/test/HttpResponseFiles/RetrieveEmailWithoutAttachmentsExpanded.txt",
+      "status": "added",
+      "additions": 25,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/Email - Outlook REST API/test/OutlookAPIHelperTests.Codeunit.al",
+      "status": "modified",
+      "additions": 155,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 217,
+    "deletions": 6,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Email - Outlook REST API/app/src/EmailOutlookAPIHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4509",
+        "type": "codeunit",
+        "id": 4509,
+        "name": "Email - Outlook API Helper",
+        "app": "Email - Outlook REST API",
+        "cc": "w1",
+        "page": "codeunit/4509"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "Email - Outlook REST API"
+  ],
+  "issues": [
+    {
+      "number": 10288,
+      "title": "[Bug]: Inline-only email attachments are skipped because `hasAttachments` is used as a fetch gate",
+      "state": "closed"
+    }
+  ]
+}

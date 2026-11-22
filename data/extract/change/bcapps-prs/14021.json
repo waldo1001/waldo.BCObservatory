@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14021",
+  "number": 14021,
+  "title": "Finance internal new body layouts and obsolete current",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Three deferral summary reports receive new WordBody layouts with improved internal design, while their existing Word layouts are marked obsolete to guide partners toward the new body-only design.",
+  "key_points": [
+    "New WordBody layouts added for Deferral Summary reports (G/L, Sales, Purchasing) with updated internal design",
+    "Existing Word layouts marked as obsolete with tag 30.0 to warn partners",
+    "Default rendering behavior unchanged - users continue seeing their current default layout",
+    "Excel and RDLC layouts remain untouched",
+    "Partners with derived layouts receive compile warning to migrate before version 30.0"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005101,
+    "changes_in_call": 1
+  }
+}

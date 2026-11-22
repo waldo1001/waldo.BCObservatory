@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10295",
+  "number": 10295,
+  "title": "#10288 - Always load attachments",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Email retrieval from Outlook now processes inline attachments that were previously skipped because they don't set the `hasAttachments` flag on Graph messages.",
+  "key_points": [
+    "Removes the `hasAttachments` gate that prevented processing of inline-only attachments",
+    "Attachments are now always processed when present in the response, with inline/regular distinction applied via `isInline` and `contentId`",
+    "Backfills previously retrieved emails with inline attachments when Load Attachments is enabled later",
+    "No extra Graph API calls; uses existing `$expand=attachments` when enabled",
+    "Duplicate prevention and message tracking behavior preserved"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004269,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13102",
+  "number": 13102,
+  "title": "Create putaway template bin validation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "Put-away template bin validation now excludes receipt, shipment, and posted receipt-line bins to ensure only compliant bins are selected for put-away operations.",
+  "key_points": [
+    "Receipt, shipment, and posted receipt-line bins are excluded from put-away template searches",
+    "Create Put-away now selects valid eligible bins matching template criteria instead of falling back to non-compliant bins",
+    "Regression test added to verify correct bin selection behavior",
+    "No breaking changes or compatibility risks"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003889,
+    "changes_in_call": 1
+  }
+}

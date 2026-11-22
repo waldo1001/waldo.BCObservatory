@@ -6,7 +6,7 @@
   "title": "[29.x][All-e]\"Specify the VAT registration number that you want to verify\" error when entering a VAT Registration No. in the Sales Order if the Customer Card has no VAT Registration No.",
   "url": "https://github.com/microsoft/BCApps/pull/14070",
   "published_at": "2026-11-18T10:22:35Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-20T00:15:45.369Z"
@@ -18,6 +18,23 @@
       "al": 15,
       "objects": 12,
       "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-11-22T00:20:01.191Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004443
+    },
+    "linked": {
+      "at": "2026-11-22T00:20:02.310Z",
+      "objects": 12,
+      "unjoined": 3,
+      "commit": "d30504e3670310aa9f2396745813257d80d473b8"
+    },
+    "published": {
+      "at": "2026-11-22T00:20:02.320Z",
+      "path": "content/changes/bcapps/14070.md"
     }
   },
   "input_hash": "78cc08d4d442b9f77bf081ce43ef71e8eba1bfd5:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b0b1c675ceb5a73539e464d287515612a523beebb5c741a3e4f4289946009be9"
+  "output_hash": "7340966229368fb44dcc619883cbbe2b6941815924f125429e892e3b5d7db8d4"
 }

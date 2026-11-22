@@ -6,14 +6,39 @@
   "title": "Slice 440258: Fixed Asset Journal Approval",
   "url": "https://github.com/microsoft/BCApps/pull/11715",
   "published_at": "2026-11-18T14:03:35Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-19T00:15:47.846Z"
+    },
+    "fetched": {
+      "at": "2026-11-22T00:19:57.220Z",
+      "change_class": "code",
+      "files": 23,
+      "al": 22,
+      "objects": 19,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-11-22T00:20:02.327Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004505
+    },
+    "linked": {
+      "at": "2026-11-22T00:20:16.759Z",
+      "objects": 19,
+      "unjoined": 3,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-22T00:20:16.765Z",
+      "path": "content/changes/bcapps/11715.md"
     }
   },
   "input_hash": "bed52d8a701cd7810534f873dd490f9033d40ca0:c1",
-  "attempts": 3,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 11715,
@@ -30,6 +55,7 @@
     "community_contribution": false,
     "title_key": "slice 440258 fixed asset journal approval"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-11-21T08:22:07.718Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c1648806aea404284f2c314bc627a1052f09deff384d80b0661745292b2ca4ea"
 }

@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/14329",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Optimizing check for PA eligibility",
+  "url": "https://github.com/microsoft/BCApps/pull/14329",
+  "published_at": "2026-11-21T16:55:48Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-22T00:17:50.598Z"
+    },
+    "fetched": {
+      "at": "2026-11-22T00:19:38.190Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-11-22T00:19:49.596Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": false,
+      "cost_usd": 0.003635
+    },
+    "linked": {
+      "at": "2026-11-22T00:19:49.736Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-22T00:19:49.741Z",
+      "path": "content/changes/bcapps/14329.md"
+    }
+  },
+  "input_hash": "651fa482a8eda31b59fd2ace52bebe27330c5f0d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14329,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "651fa482a8eda31b59fd2ace52bebe27330c5f0d",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "optimizing check for pa eligibility"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "83d542e94310134a0e10ac8f4b7d3d24076ffccaadec306b7a1bf1a4e3b9bf3d"
+}

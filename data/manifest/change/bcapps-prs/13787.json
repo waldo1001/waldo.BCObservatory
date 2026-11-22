@@ -6,14 +6,39 @@
   "title": "[Main]error in allocation account function",
   "url": "https://github.com/microsoft/BCApps/pull/13787",
   "published_at": "2026-11-18T15:16:43Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-19T00:15:47.846Z"
+    },
+    "fetched": {
+      "at": "2026-11-22T00:19:52.274Z",
+      "change_class": "code",
+      "files": 7,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-22T00:19:56.658Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003477
+    },
+    "linked": {
+      "at": "2026-11-22T00:19:56.785Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-22T00:19:56.791Z",
+      "path": "content/changes/bcapps/13787.md"
     }
   },
   "input_hash": "164c0d5bf3c8cc025c77a3c257909b4ba39ad749:c1",
-  "attempts": 3,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13787,
@@ -29,6 +54,7 @@
     "community_contribution": false,
     "title_key": "error in allocation account function"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-21T08:21:43.669Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "00a28aa9d5202a94f186625530c83fc266d4f72decac282b6fca1b2233cb97ca"
 }

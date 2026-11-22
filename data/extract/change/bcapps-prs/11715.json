@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/11715",
+  "number": 11715,
+  "title": "Slice 440258: Fixed Asset Journal Approval",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "fixed-assets",
+    "platform"
+  ],
+  "summary": "Fixed Asset Journal entries can now be approved through the approval workflow system before posting.",
+  "key_points": [
+    "Added approval workflow support to Fixed Asset Journal similar to other journal types",
+    "Journal batch and line tables extended with approval-related fields and logic",
+    "Approvals management codeunit updated to handle Fixed Asset Journal approval flow",
+    "Workflow setup and webhook management configured for Fixed Asset Journal approvals",
+    "Comprehensive test coverage added for Fixed Asset Journal approval workflows"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "fixed-assets",
+    "administration"
+  ],
+  "quote": "Auditors require all journal entries to be approved. Would be nice to have journal entry approval in Fixed Asset Journal.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004505,
+    "changes_in_call": 1
+  }
+}

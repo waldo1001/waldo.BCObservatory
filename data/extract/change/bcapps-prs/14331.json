@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14331",
+  "number": 14331,
+  "title": "Fix trailing periods in generated document attachment folders",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "SharePoint attachment folder paths for document attachments are now normalized by removing trailing periods, preventing upload rejections for tables with names ending in periods.",
+  "key_points": [
+    "Removes trailing periods from generated table folder names after reserved-character removal and truncation",
+    "Falls back to Table_<TableID> format when normalization results in an empty name",
+    "Applies normalization consistently across directory lookup, creation, and upload operations",
+    "Extends connector mock to capture directory paths for regression testing",
+    "Only affects newly generated folder names; existing folders and historical files remain unchanged"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Normalize generated table folders by removing trailing periods after the existing reserved-character removal, space conversion and 100-character truncation.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004443,
+    "changes_in_call": 6
+  }
+}

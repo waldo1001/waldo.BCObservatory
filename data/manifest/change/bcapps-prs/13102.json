@@ -6,7 +6,7 @@
   "title": "Create putaway template bin validation",
   "url": "https://github.com/microsoft/BCApps/pull/13102",
   "published_at": "2026-11-20T13:02:25Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-21T00:15:56.434Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-22T00:19:49.757Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003889
+    },
+    "linked": {
+      "at": "2026-11-22T00:19:49.862Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-22T00:19:49.883Z",
+      "path": "content/changes/bcapps/13102.md"
     }
   },
   "input_hash": "28877c3721c9874723bfda1a54786bf77bcd5755:c1",
@@ -41,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2039c697a5ff4ad3507cf4cc3a47220bcc12d09dcb39c260bb17dd556dd23479"
+  "output_hash": "b04dfb8c39fc6b73275e265cb620c9f58bb05a5766890be1097e41c380532923"
 }

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12544",
+  "number": 12544,
+  "title": "Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Expense Agent now allows users to submit expenses without a receipt by selecting a 'No Receipt' option, which generates a standardized document, attaches it automatically, and applies enhanced compliance controls through policy-based settings.",
+  "key_points": [
+    "No Receipt workflow enables expense submission when original receipt is missing",
+    "System auto-generates a standardized Lost Receipt document and attaches it as proof",
+    "Policy-based controls: administrators can allow/disallow, set maximum amounts and frequency limits",
+    "Marked expenses are assigned Non-Compliant status and require approver review",
+    "New enums and codeunits handle No Receipt declaration, management, and validation"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.010085,
+    "changes_in_call": 1
+  }
+}

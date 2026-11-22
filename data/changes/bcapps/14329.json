@@ -1,0 +1,66 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14329,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14329",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-21T16:55:48Z",
+  "merge_commit_sha": "651fa482a8eda31b59fd2ace52bebe27330c5f0d",
+  "author": "mynjj",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Optimizing check for PA eligibility",
+  "body_hash": "11478279346099f38363df77f6865c5d7e04c26487373457803a08aac8766f9b",
+  "fixes_issues": [],
+  "work_items": [
+    652918
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Shared/Security/PAAgentAccess.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayablesAgent/app/Shared/Security/PARecentPurchInvCreators.Query.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 39,
+    "deletions": 5,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Shared/Security/PAAgentAccess.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/PayablesAgent/app/Shared/Security/PARecentPurchInvCreators.Query.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

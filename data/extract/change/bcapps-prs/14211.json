@@ -1,0 +1,38 @@
+{
+  "item_id": "change/bcapps-prs/14211",
+  "number": 14211,
+  "title": "Bug 659659: [Master Data Management] Fix cross-environment setup wizard UX quirks",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Master Data Management setup wizard improves certificate handling by deferring validation messages until a password is entered and fixes repeated reset confirmation prompts by tracking actual state changes.",
+  "key_points": [
+    "No validation message shown until password entered for certificate upload; Certificate Password marked required with Next disabled",
+    "OnModify now only triggers enable/disable side effects when the stored Is Enabled state actually changes in the database",
+    "Prevents repeated reset confirmation questions after wizard enables synchronization",
+    "Removes unused GetConfigurationUpdates method",
+    "Shortens connection step by dropping redundant instructional text and showing certificate details only after successful read"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [
+    {
+      "object": "Master Data Management Setup",
+      "member": "GetConfigurationUpdates",
+      "replacement": null
+    }
+  ],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004443,
+    "changes_in_call": 6
+  }
+}

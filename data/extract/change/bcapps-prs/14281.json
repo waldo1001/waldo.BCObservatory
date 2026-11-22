@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14281",
+  "number": 14281,
+  "title": "Fix manufacturing enum fallback in item journals",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Manufacturing enum fallback logic in item journals now correctly returns false when Manufacturing subscribers are absent, preventing ordinary records from being misclassified as manufacturing records.",
+  "key_points": [
+    "Adds Boolean predicate events for manufacturing classification instead of relying on enum getters that return ordinal zero when subscribers are absent",
+    "Applies fixes across salesperson dimensions, journal line setup, item tracking validation, recurring journal selection, and the Inventory Posting - Test report",
+    "Preserves existing getter APIs while introducing new predicate events for classification",
+    "Propagates changes to all eight country-specific layers",
+    "Includes new regression tests for production and non-production scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "quote": "Avoid classifying ordinary item journal lines and templates as manufacturing records when optional Manufacturing enum-getter subscribers are absent.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004443,
+    "changes_in_call": 6
+  }
+}

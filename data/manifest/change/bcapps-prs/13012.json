@@ -6,7 +6,7 @@
   "title": "[Subcontracting] Assign worksheet suggestions to existing purchase orders",
   "url": "https://github.com/microsoft/BCApps/pull/13012",
   "published_at": "2026-11-18T10:49:47Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-19T00:15:47.846Z"
@@ -18,6 +18,23 @@
       "al": 21,
       "objects": 15,
       "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-11-22T00:20:01.190Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004443
+    },
+    "linked": {
+      "at": "2026-11-22T00:20:01.732Z",
+      "objects": 15,
+      "unjoined": 6,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-22T00:20:01.846Z",
+      "path": "content/changes/bcapps/13012.md"
     }
   },
   "input_hash": "8c39be5188affd0d5516d6c8d062ca1cff53b1eb:c1",
@@ -43,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5f204c8956303952c61ea60a3b9f4ba7351449a2cfe8f91d8bd0ebc72d7e1fa4"
+  "output_hash": "d188aa387c01786dcd7bbe5fbc07e119bfdfbdaa9dca1b74512ece58db7d2f25"
 }

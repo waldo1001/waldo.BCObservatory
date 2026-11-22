@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13991",
+  "number": 13991,
+  "title": "[Main][All-E] Warehouse Pick cannot be updated with newly received quantity after Purchase Receipt has been posted",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "warehouse"
+  ],
+  "summary": "Inventory pick creation now allows additional quantities from newly posted purchase receipts to be added to existing picks by deducting already-outstanding quantities.",
+  "key_points": [
+    "Removes restriction that skipped sales lines already having warehouse activity",
+    "Deducts quantities already outstanding on the pick to avoid duplication",
+    "Adjusts item-tracking quantities to prevent duplication while preserving existing lines",
+    "Users no longer need to delete and recreate picks after posting purchase receipts",
+    "Includes new regression test"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse",
+    "purchasing"
+  ],
+  "quote": "Allow additional lines on the same inventory pick, deduct quantities already outstanding on it, and adjust item-tracking quantities to prevent duplication.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004443,
+    "changes_in_call": 6
+  }
+}

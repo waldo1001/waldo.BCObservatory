@@ -6,14 +6,39 @@
   "title": "#10288 - Always load attachments",
   "url": "https://github.com/microsoft/BCApps/pull/10295",
   "published_at": "2026-11-20T10:10:28Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-21T00:15:56.434Z"
+    },
+    "fetched": {
+      "at": "2026-11-22T00:19:51.309Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-22T00:19:56.107Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004269
+    },
+    "linked": {
+      "at": "2026-11-22T00:19:56.215Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-22T00:19:56.219Z",
+      "path": "content/changes/bcapps/10295.md"
     }
   },
   "input_hash": "e98908c676e733b5519c84e3cb2eca62ae7aeb03:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 10295,
@@ -32,6 +57,7 @@
     "community_contribution": true,
     "title_key": "10288 always load attachments"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-11-21T02:21:00.698Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "03911575614387e7659744cd20ea0f36eef9315768407bba74c26512259f014d"
 }

@@ -6,14 +6,39 @@
   "title": "[Excel Reports] Handle an apostrophe in the No. on the Vendor and Customer Top List",
   "url": "https://github.com/microsoft/BCApps/pull/13680",
   "published_at": "2026-11-20T09:19:56Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-21T00:15:56.434Z"
+    },
+    "fetched": {
+      "at": "2026-11-22T00:19:52.810Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-22T00:19:57.267Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004227
+    },
+    "linked": {
+      "at": "2026-11-22T00:19:57.457Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-22T00:19:57.481Z",
+      "path": "content/changes/bcapps/13680.md"
     }
   },
   "input_hash": "7fd9ac519c26ac75653c3795fe54380b3cff4341:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 13680,
@@ -34,6 +59,7 @@
     "community_contribution": true,
     "title_key": "excel reports handle an apostrophe in the no on the vendor and customer top list"
   },
-  "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-21T02:21:53.429Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a2db883c58d76ff88c8c85cf278eda700674c55401e1e38da60433a947d68288"
 }

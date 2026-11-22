@@ -6,14 +6,39 @@
   "title": "Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)",
   "url": "https://github.com/microsoft/BCApps/pull/12544",
   "published_at": "2026-11-20T09:35:08Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-21T00:15:56.434Z"
+    },
+    "fetched": {
+      "at": "2026-11-22T00:19:51.077Z",
+      "change_class": "code",
+      "files": 40,
+      "al": 34,
+      "objects": 30,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-11-22T00:19:55.552Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.010085
+    },
+    "linked": {
+      "at": "2026-11-22T00:19:55.691Z",
+      "objects": 30,
+      "unjoined": 4,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-22T00:19:55.915Z",
+      "path": "content/changes/bcapps/12544.md"
     }
   },
   "input_hash": "c634b4e0f4d64479a2a4cdccb97f7a50adba93d2:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12544,
@@ -32,6 +57,7 @@
     "community_contribution": false,
     "title_key": "slice 626931 expense agent lost receipt workflow and document creation november 26"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-11-21T02:21:00.713Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9295184d837b754a5c54b443db6fae304fb167a469f0c8fa40989caaf125dd63"
 }
