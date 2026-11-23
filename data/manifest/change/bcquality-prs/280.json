@@ -1,0 +1,58 @@
+{
+  "id": "change/bcquality-prs/280",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "knowledge(testing): ExpectedError must identify the intended error",
+  "url": "https://github.com/microsoft/BCQuality/pull/280",
+  "published_at": "2026-11-19T12:17:58Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-23T00:15:10.597Z"
+    },
+    "fetched": {
+      "at": "2026-11-23T00:15:38.315Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-23T00:15:49.811Z",
+      "prompt": "extract-change@1",
+      "kind": "other",
+      "behavior": false,
+      "cost_usd": 0.003703
+    },
+    "linked": {
+      "at": "2026-11-23T00:15:49.812Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-23T00:15:50.577Z",
+      "path": "content/changes/bcquality/280.md"
+    }
+  },
+  "input_hash": "b4613eafba00ad35994ef1e7cba1b8b5839a1ed1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 280,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "b4613eafba00ad35994ef1e7cba1b8b5839a1ed1",
+    "author": "MichaelDieringer",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "knowledge testing expectederror must identify the intended error"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6b5790a996830fb050a77f50ed444999ec9e258df5c53dd7c46922067ffebb40"
+}

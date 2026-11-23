@@ -1,0 +1,58 @@
+{
+  "id": "change/bcquality-prs/275",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "knowledge(performance): Get behind a key-is-set check in and-condition wastes a DB call",
+  "url": "https://github.com/microsoft/BCQuality/pull/275",
+  "published_at": "2026-11-18T09:17:46Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-23T00:15:10.597Z"
+    },
+    "fetched": {
+      "at": "2026-11-23T00:16:00.641Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-11-23T00:16:06.787Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003482
+    },
+    "linked": {
+      "at": "2026-11-23T00:16:06.788Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-23T00:16:07.580Z",
+      "path": "content/changes/bcquality/275.md"
+    }
+  },
+  "input_hash": "398bece9cc0c50ef1e061fa53b3c907bbd6d9479:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 275,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "398bece9cc0c50ef1e061fa53b3c907bbd6d9479",
+    "author": "pri-kise",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "knowledge performance get behind a key is set check in and condition wastes a db call"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "07f3a9b9fd19c947108be4ea179fdab131fd950685542d6a528c1b25ca4b4bce"
+}

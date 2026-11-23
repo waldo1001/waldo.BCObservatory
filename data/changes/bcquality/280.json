@@ -1,0 +1,49 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 280,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/280",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-11-19T12:17:58Z",
+  "merge_commit_sha": "b4613eafba00ad35994ef1e7cba1b8b5839a1ed1",
+  "author": "MichaelDieringer",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge(testing): ExpectedError must identify the intended error",
+  "body_hash": "a389c638aa18212da5ae784016037630cad8262e105e91014189809899f75e82",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "microsoft/knowledge/testing/asserterror-needs-expectederror-and-code.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/testing/asserterror-needs-expectederror-and-code.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

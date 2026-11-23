@@ -1,0 +1,58 @@
+{
+  "id": "change/bcquality-prs/211",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "knowledge(error-handling): a bare [TryFunction] call propagates its error",
+  "url": "https://github.com/microsoft/BCQuality/pull/211",
+  "published_at": "2026-11-17T10:17:44Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-23T00:15:10.597Z"
+    },
+    "fetched": {
+      "at": "2026-11-23T00:16:21.166Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 8,
+      "objects": 0,
+      "unjoined": 8
+    },
+    "extracted": {
+      "at": "2026-11-23T00:16:30.285Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.004526
+    },
+    "linked": {
+      "at": "2026-11-23T00:16:30.287Z",
+      "objects": 0,
+      "unjoined": 8,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-23T00:16:31.082Z",
+      "path": "content/changes/bcquality/211.md"
+    }
+  },
+  "input_hash": "90540bb901abb89de6d075a4014389df73ab8b64:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 211,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "90540bb901abb89de6d075a4014389df73ab8b64",
+    "author": "pri-kise",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "knowledge error handling a bare tryfunction call propagates its error"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "76c9a182284c228896981d7f622e5cc42bb668ce0b06c32d1ec6cee64856eccb"
+}

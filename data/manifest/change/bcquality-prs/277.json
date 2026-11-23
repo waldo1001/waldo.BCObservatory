@@ -1,0 +1,58 @@
+{
+  "id": "change/bcquality-prs/277",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "knowledge: translations, assisted setup, API queries, and a new xmlport domain",
+  "url": "https://github.com/microsoft/BCQuality/pull/277",
+  "published_at": "2026-11-19T15:23:15Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-23T00:15:10.597Z"
+    },
+    "fetched": {
+      "at": "2026-11-23T00:15:37.397Z",
+      "change_class": "code",
+      "files": 45,
+      "al": 42,
+      "objects": 0,
+      "unjoined": 42
+    },
+    "extracted": {
+      "at": "2026-11-23T00:15:49.037Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.010137
+    },
+    "linked": {
+      "at": "2026-11-23T00:15:49.038Z",
+      "objects": 0,
+      "unjoined": 42,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-23T00:15:49.806Z",
+      "path": "content/changes/bcquality/277.md"
+    }
+  },
+  "input_hash": "dd49341915045164248349bd891b106ebb4b34cb:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 277,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "dd49341915045164248349bd891b106ebb4b34cb",
+    "author": "demiliani",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "knowledge translations assisted setup api queries and a new xmlport domain"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "af75cda61ffb814046678421dc29db3714e7fea5b6dd054df74b12fb1ee873fd"
+}

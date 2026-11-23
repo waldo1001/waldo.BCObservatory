@@ -1,0 +1,58 @@
+{
+  "id": "change/bcquality-prs/276",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Minor consistency fixes: bc-version format, CI permissions, community skill retrieval",
+  "url": "https://github.com/microsoft/BCQuality/pull/276",
+  "published_at": "2026-11-19T12:39:04Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-23T00:15:10.597Z"
+    },
+    "fetched": {
+      "at": "2026-11-23T00:15:38.281Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-11-23T00:15:46.008Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.003668
+    },
+    "linked": {
+      "at": "2026-11-23T00:15:46.010Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-23T00:15:47.174Z",
+      "path": "content/changes/bcquality/276.md"
+    }
+  },
+  "input_hash": "e69064fc7ddec5a5473a58380082587536e7cdf4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 276,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "e69064fc7ddec5a5473a58380082587536e7cdf4",
+    "author": "demiliani",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "minor consistency fixes bc version format ci permissions community skill retrieval"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c48d486d92ce0166e5854202b5e63b783da1df90009b7d4e69140f6083ea597f"
+}

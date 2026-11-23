@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/bccaptain-com-au/https://bccaptain.com.au/2026/11/22/bc-word-layout-mcp-2-1-0/",
+  "url": "https://bccaptain.com.au/2026/11/22/bc-word-layout-mcp-2-1-0/",
+  "title": "BC Word Layout MCP 2.1.0: What changes when you print with a report theme?",
+  "source": "bccaptain-com-au",
+  "published_at": "2026-11-22T12:00:00.000Z",
+  "words": 743,
+  "summary": "BC Word Layout MCP 2.1.0 adds support for report themes in Word layouts, allowing layout elements to follow selected Business Central themes via theme colour references instead of fixed colours. The update enables conditional footer text, improved merged cell handling, and requires BC 29 or higher for new theme and style features.",
+  "key_points": [
+    "Theme colours like accent1 are slots that follow the selected report theme, while hex colours like #0070C0 remain fixed and always print the same way",
+    "The new set_layout_theme tool edits the theme inside the layout itself, changing colour slots and fonts independently of report themes in Business Central",
+    "insert_page_conditional_text uses Word IF fields to control footer and static text visibility based on page position (notLastPage, lastPage, firstPage)",
+    "Table tools now work with vertically merged cells while preserving merges when changing column widths, and you must target the cell where the merge starts",
+    "Theme colour and style edits require BC 29 or higher; the server reads the target from AL app.json or the BCWL_BC_VERSION environment variable"
+  ],
+  "systems": [
+    "reporting",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "word layouts",
+    "report themes",
+    "mcp server",
+    "theme colours",
+    "report design"
+  ],
+  "objects": [],
+  "features": [
+    "Theme colour support",
+    "Report theme integration",
+    "Conditional footer text",
+    "Merged cell handling",
+    "Layout theme editing",
+    "AI agent tools for layout creation"
+  ],
+  "versions": [
+    "BC 29",
+    "MCP 2.1.0"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Instead of asking for a blue heading, ask for accent1. That's a slot in the theme, not a particular colour.",
+      "why_it_matters": "Explains the core distinction between theme colours and fixed colours, which is essential for layouts that should follow report themes"
+    },
+    {
+      "text": "Theme colours, their tints and theme fonts followed the report theme. Fixed colours and explicitly named fonts stayed as they were.",
+      "why_it_matters": "Demonstrates the tested behavior showing which formatting elements adapt to themes and which remain static"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006328,
+    "posts_in_call": 1
+  }
+}

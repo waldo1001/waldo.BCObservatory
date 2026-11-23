@@ -1,0 +1,140 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 211,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/211",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-11-17T10:17:44Z",
+  "merge_commit_sha": "90540bb901abb89de6d075a4014389df73ab8b64",
+  "author": "pri-kise",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge(error-handling): a bare [TryFunction] call propagates its error",
+  "body_hash": "e7a747ba6a9bc8a8750e17b5617d505637cf210e036cc9ac5e0220dfee0fc1d8",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/error-handling/bare-tryfunction-call-propagates-errors.md",
+      "status": "added",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/error-handling/ignored-tryfunction-return-disables-try-semantics.bad.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/error-handling/ignored-tryfunction-return-disables-try-semantics.good.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/error-handling/ignored-tryfunction-return-disables-try-semantics.md",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/events/avoid-raising-events-inside-try-functions.good.al",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/events/avoid-raising-events-inside-try-functions.md",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/use-tryfunction-for-error-catching-not-rollback.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-error-handling-review.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 95,
+    "deletions": 20,
+    "al": 8
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/error-handling/bare-tryfunction-call-propagates-errors.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/error-handling/ignored-tryfunction-return-disables-try-semantics.bad.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/error-handling/ignored-tryfunction-return-disables-try-semantics.good.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/error-handling/ignored-tryfunction-return-disables-try-semantics.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/avoid-raising-events-inside-try-functions.good.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/events/avoid-raising-events-inside-try-functions.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/use-tryfunction-for-error-catching-not-rollback.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-error-handling-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/275",
+  "number": 275,
+  "title": "knowledge(performance): Get behind a key-is-set check in and-condition wastes a DB call",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "The performance rule for boolean operators now detects when Record.Get() calls happen behind a key-is-set check in an and-condition, which can be wasteful even though it is not unsafe.",
+  "key_points": [
+    "Extends detection to identify Record.Get() calls guarded by key-is-set checks (like Key <> 0 or Key <> '')",
+    "Recommends moving the guard clause before the Get() call to avoid unnecessary database operations",
+    "Applies when only a field value or default is returned and the guard intentionally means the key is not set",
+    "Updated with code samples in both bad and good AL patterns",
+    "Provides best practice guidance for conditional record retrieval"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003482,
+    "changes_in_call": 1
+  }
+}

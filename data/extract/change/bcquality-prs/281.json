@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/281",
+  "number": 281,
+  "title": "fix: align READ domain examples and the event parameter addition article",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Updated READ domain examples to match actual knowledge folders and corrected guidance on event parameter additions to align with AppSourceCop AS0024 rules.",
+  "key_points": [
+    "Fixed `domain` field examples to list actual folders: `ui`, `web-services`, `scm` instead of non-existent names",
+    "Clarified that domains are knowledge folder names and no enumeration is closed",
+    "Aligned event parameter article with siblings: subscribers never break, but public publishers' callers can break",
+    "Added AS0024 keyword and pointer to AppSourceCop rule documentation",
+    "No behavior changes to skills or schema; purely documentation consistency"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "No knowledge folder uses them; the corresponding domains are `ui`, `web-services` and `scm`.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003803,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "change/bcquality-prs/276",
+  "number": 276,
+  "title": "Minor consistency fixes: bc-version format, CI permissions, community skill retrieval",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Minor consistency improvements to quality rules documentation: standardized bc-version format notation, added explicit read-only permissions to validation workflows, and optimized community skill retrieval to use bounded domain-specific lookups.",
+  "key_points": [
+    "Unquoted bc-version range format in two performance articles for consistency with other articles",
+    "Added explicit read-only contents permissions to four GitHub workflows for clarity",
+    "Community review skills now use bounded domain-specific retrieval instead of loading full index"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003668,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "change/bcquality-prs/281",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "fix: align READ domain examples and the event parameter addition article",
+  "url": "https://github.com/microsoft/BCQuality/pull/281",
+  "published_at": "2026-11-19T12:17:51Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-23T00:15:10.597Z"
+    },
+    "fetched": {
+      "at": "2026-11-23T00:15:39.090Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-11-23T00:15:48.204Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003803
+    },
+    "linked": {
+      "at": "2026-11-23T00:15:48.206Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-11-23T00:15:49.029Z",
+      "path": "content/changes/bcquality/281.md"
+    }
+  },
+  "input_hash": "f771f2b908dd1088dc3fc998e63349969ce95e9b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 281,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "f771f2b908dd1088dc3fc998e63349969ce95e9b",
+    "author": "demiliani",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "fix align read domain examples and the event parameter addition article"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9537a85372e2c8f6ad43ee936a739687c8c7fb756ca7a70c929dc046076fd99a"
+}

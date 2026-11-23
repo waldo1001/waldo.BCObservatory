@@ -6,14 +6,14 @@
   "title": "Slice 578380: [Application] Expand ledger entry numbers to 64 bit",
   "url": "https://github.com/microsoft/BCApps/pull/10834",
   "published_at": "2026-11-18T11:51:51Z",
-  "state": "discovered",
+  "state": "failed",
   "stages": {
     "discovered": {
       "at": "2026-11-19T00:15:47.846Z"
     }
   },
   "input_hash": "2e45393bf238b07d4f47a5839ba1a8a9ce07520d:c1",
-  "attempts": 4,
+  "attempts": 5,
   "flags": [],
   "meta": {
     "number": 10834,
@@ -32,5 +32,5 @@
     "title_key": "slice 578380 application expand ledger entry numbers to 64 bit"
   },
   "last_error": "The operation was aborted due to timeout",
-  "retry_after": "2026-11-22T16:20:48.460Z"
+  "retry_after": null
 }

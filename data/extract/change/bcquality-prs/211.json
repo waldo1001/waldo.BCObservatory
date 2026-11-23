@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/211",
+  "number": 211,
+  "title": "knowledge(error-handling): a bare [TryFunction] call propagates its error",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "AL quality knowledge clarifies that bare calls to TryFunction procedures propagate errors rather than suppressing them, preventing false defect reports about error handling.",
+  "key_points": [
+    "New article documents that bare TryFunction calls propagate errors and should not be flagged as suppressed failures",
+    "Updated anti-pattern examples to require visible error handling code like GetLastErrorText checks to match the documented anti-pattern",
+    "Corrected misleading wording in related articles that suggested try functions always catch errors regardless of return value usage",
+    "Agent review rules updated to reference both bare-call and error-catching articles with matching evidence requirements",
+    "Prevents incorrect suggestions to wrap bare calls with if-not-then-Error logic that could expose customer content"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "A bare call propagates. Do not report it as swallowed, and do not ask for capture-and-re-raise.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004526,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/280",
+  "number": 280,
+  "title": "knowledge(testing): ExpectedError must identify the intended error",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "The testing knowledge article on assertion errors now clarifies that ExpectedError and ExpectedErrorCode match by substring, and adds guidance to avoid weak verification patterns that cannot distinguish between different errors.",
+  "key_points": [
+    "Both ExpectedError and ExpectedErrorCode match only by substring, not exact match",
+    "Best practice is to use full error labels built with StrSubstNo to uniquely identify intended errors",
+    "ExpectedErrorCode alone only identifies the error kind, not the specific error message",
+    "Anti-patterns include using ExpectedErrorCode alone, GetLastErrorText(), or error fragments that appear in multiple messages",
+    "Tests using weak patterns may stay green when wrong errors fire instead of the intended one"
+  ],
+  "change_kind": "other",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003703,
+    "changes_in_call": 1
+  }
+}
