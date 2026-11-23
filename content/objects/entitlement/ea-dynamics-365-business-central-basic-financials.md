@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T00:48:37.330Z"
+  at: "2026-11-23T00:49:55.504Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1cd4c35b07da8c396bd5e71bf37ae16e8a7c2a91e7bb04e09bf25870e5a2f397
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralBasicFinancials.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralBasicFinancials.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralBasicFinancials.Entitlement.al (releases/29.x)
     date: null
-    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
+    commit: 6a9588a817c12a5d35d3e6c4ad40e29ecca88acf
     t: null
     quote: null
 links:
@@ -88,7 +88,7 @@ relations:
 
 > Entitlement "EA - Dynamics 365 Business Central Basic Financials" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralBasicFinancials.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 6a9588a8](https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Apps/W1/ExpenseAgent/app/src/Entitlements/ServicePlans/EADynamics365BusinessCentralBasicFinancials.Entitlement.al) · facts from BC29
 
 ## Recent changes
 

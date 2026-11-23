@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.011117
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-23T00:57:35.138Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 'Upgrade pages list supported upgrade paths and known issues for each source version' slightly overstates the source: the Upgrade summary mentions known issues generally and says it answers which path applies to a source version, not that known issues are listed per source version.",
+      "'with tooltip support' comes only from the page's feature tags, not its summary; acceptable but thinly described."
+    ],
+    "input_hash": "d9f856fa06da1b8a63f2005c851badae026df5fb5060873bd600e18eb46f89ce",
+    "cost_usd": 0.035547999999999996
   }
 }

@@ -18,7 +18,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 43a1e35aa88e1e4523711b14a5efb57202f9116e
@@ -42,6 +42,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/280
     - change/bcquality/159
     - change/bcquality/174
     - change/bcquality/62
@@ -101,6 +102,7 @@ See sample: [`asserterror-needs-expectederror-and-code.bad.al`](https://github.c
 
 ## Changed by
 
+- [#280 knowledge(testing): ExpectedError must identify the intended error](../../../../changes/bcquality/280.md), 2026-11-19
 - [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../changes/bcquality/159.md), 2026-09-29
 - [#174 Make BCQuality documentation easier for partners to get started](../../../../changes/bcquality/174.md), 2026-09-09
 - [#62 Add testing knowledge: UI handlers, table relations, asserterror, fixtures (P1+P2)](../../../../changes/bcquality/62.md), 2026-07-09

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -90,6 +90,7 @@ links:
   localizations: []
   videos:
     - video/aXM5Kuo3DHM
+    - video/EurgqGU1jG0
     - video/qNHUj3ZEang
   posts:
     - post/aardvarklabs-blog/2953
@@ -100,6 +101,7 @@ links:
     - post/kauffmann-nl/8332
     - post/wingate365-com/https-blog-wingate365-com-2026-04-trying-out-github-copilot-agent-for-html--9cac8e5838
     - post/yzhums-com/56046
+    - post/yzhums-com/61543
     - post/yzhums-com/64775
     - post/yzhums-com/65391
     - post/yzhums-com/65525
@@ -125,8 +127,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 2
-  blog: 12
+  video: 3
+  blog: 13
   guideline: 0
 bc_forms: []
 member_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -186,11 +188,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released"
 - [Trying out GitHub Copilot Agent for a Functional Task?](../../../../posts/wingate365-com/https-blog-wingate365-com-2026-04-trying-out-github-copilot-agent-for-html--9cac8e5838.md) (community post): "GitHub Copilot Agent can validate large numbers of CSV schema files against Business Central master data"
 - [Dynamics 365 Business Central: Generate barcode through external services/APIs (Telepen, Swiss QR Code, QR codes with colors, images or text……)](../../../../posts/yzhums-com/56046.md) (community post): "QuickChart API instead. QuickChart QR parameters cover format, margin, size"
+- [Dynamics 365 Business Central: How to get HTML Image src attribute via AL (The Image Embed element)](../../../../posts/yzhums-com/61543.md) (community post): "extract HTML Image src attributes from images"
 - [Dynamics 365 Business Central: Integrate with Microsoft Dataverse via APIs (Not using the standard Dataverse connector)](../../../../posts/yzhums-com/64775.md) (community post): "step-by-step guidance on authenticating with OAuth 2.0 and implementing GET, POST, PATCH, and DELETE operations"
 - [Dynamics 365 Business Central: How to set Allow HttpClient Requests for multiple extensions (selected extensions) at the same time](../../../../posts/yzhums-com/65391.md) (community post): "Allow HttpClient Requests for extensions to allow outbound HTTP calls"
 - [Dynamics 365 Business Central: How to quickly check if a Url is secure (Use https) via AL](../../../../posts/yzhums-com/65525.md) (community post): "Use codeunit 1299 Web Request Helper and its IsSecureHttpUrl procedure to validate URL security"
 - [Dynamics 365 Business Central: Automatically enable Allow HttpClient Requests after custom extension/app installation](../../../../posts/yzhums-com/65533.md) (community post): "Allow HttpClient Requests setting for custom extensions during installation"
 - [FTP, FTPS, SFTP, What's the difference, and what about AL and Business Central](../../../../videos/aXM5Kuo3DHM.md) (video): "SFTP client in Business Central; SFTP code unit methods; SSH fingerprint verification"
+- [20260504 - Super fast tests covering 100% of your code](../../../../videos/EurgqGU1jG0.md) (video): "payment integration; api integration; API testing without external calls"
 - [What's Cooking in Business Central: Cookies and Collectible Errors in the REST Client](../../../../videos/qNHUj3ZEang.md) (video): "rest client; cookies; exception handling; collectible errors; error behavior"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

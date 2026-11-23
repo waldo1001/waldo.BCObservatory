@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,6 +66,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/12544
     - change/bcapps/12599
     - change/bcapps/12670
 learn_toc_path:
@@ -125,6 +126,7 @@ Start with the overview for the big picture. Then read the email page if you use
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12544 Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)](../../../../changes/bcapps/12544.md) (code change): "Expense Agent now allows users to submit expenses without a receipt by selecting"
 - [#12599 [Master] - Slice 629913: [Expense Agent][VENDOR] Enforced background itemization required for approvals](../../../../changes/bcapps/12599.md) (code change): "Expense Agent now requires itemization when an enabled Expense Policy"
 - [#12670 [Master] - Slice 580818: [Expense Management][VENDOR] Role Centers updates 💸](../../../../changes/bcapps/12670.md) (code change): "Expense Management role centers now display activity cues showing expense report statuses"
 - [Introducing: Expense Agent in Business Central (2026 release wave 1)](../../../../videos/egE6UdOfar0.md) (video): "Expense Agent, receipt processing, approval workflow, expense reporting"

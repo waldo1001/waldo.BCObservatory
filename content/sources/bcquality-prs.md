@@ -2,7 +2,7 @@
 id: source/bcquality-prs
 type: source
 title: microsoft/BCQuality pull requests
-summary: "microsoft/BCQuality pull requests: 117 code changes in the knowledge base, 2026-07-09 to 2026-11-13, mostly about development, platform, copilot."
+summary: "microsoft/BCQuality pull requests: 123 code changes in the knowledge base, 2026-07-09 to 2026-11-19, mostly about development, platform, copilot."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-15T00:17:15.357Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 3e4eadd95a96bef5300db3c84b25511e204d0b2b860ace880e52a7a078ccc3d8
+  input_hash: cf46b89b7701c7e4d37d4275070129dde12b8660099c4debc212ae998135e92f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
@@ -152,19 +152,25 @@ links:
     - change/bcquality/221
     - change/bcquality/141
     - change/bcquality/273
+    - change/bcquality/211
+    - change/bcquality/275
+    - change/bcquality/281
+    - change/bcquality/280
+    - change/bcquality/276
+    - change/bcquality/277
 source_id: bcquality-prs
 kind: github-pr
 url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 117
+item_count: 123
 footprint:
   systems:
     - id: development
-      weight: 208
+      weight: 220
     - id: platform
-      weight: 29
+      weight: 30
     - id: copilot
       weight: 17
     - id: integration
@@ -175,24 +181,24 @@ footprint:
       weight: 7
   topics:
     - id: main
-      weight: 117
+      weight: 123
     - id: feature
-      weight: 69
+      weight: 71
     - id: fix
-      weight: 28
+      weight: 30
     - id: other
-      weight: 15
+      weight: 16
     - id: refactor
-      weight: 5
+      weight: 6
   objects: []
   features: []
 first_item: "2026-07-09"
-last_item: "2026-11-13"
+last_item: "2026-11-19"
 ---
 
 # microsoft/BCQuality pull requests
 
-> microsoft/BCQuality pull requests: 117 code changes in the knowledge base, 2026-07-09 to 2026-11-13, mostly about development, platform, copilot.
+> microsoft/BCQuality pull requests: 123 code changes in the knowledge base, 2026-07-09 to 2026-11-19, mostly about development, platform, copilot.
 
 [https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -200,11 +206,11 @@ last_item: "2026-11-13"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (208) | main (117) |  |
-| platform (29) | feature (69) |  |
-| copilot (17) | fix (28) |  |
-| integration (9) | other (15) |  |
-| administration (8) | refactor (5) |  |
+| development (220) | main (123) |  |
+| platform (30) | feature (71) |  |
+| copilot (17) | fix (30) |  |
+| integration (9) | other (16) |  |
+| administration (8) | refactor (6) |  |
 | reporting (7) |  |  |
 
 ## Flight path
@@ -212,10 +218,16 @@ last_item: "2026-11-13"
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 77
-- 2026-Q4: **************************************** 40
+- 2026-Q4: **************************************** 46
 
 ## Most recent
 
+- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../changes/bcquality/277.md) (2026-11-19)
+- [#276 Minor consistency fixes: bc-version format, CI permissions, community skill retrieval](../changes/bcquality/276.md) (2026-11-19)
+- [#280 knowledge(testing): ExpectedError must identify the intended error](../changes/bcquality/280.md) (2026-11-19)
+- [#281 fix: align READ domain examples and the event parameter addition article](../changes/bcquality/281.md) (2026-11-19)
+- [#275 knowledge(performance): Get behind a key-is-set check in and-condition wastes a DB call](../changes/bcquality/275.md) (2026-11-18)
+- [#211 knowledge(error-handling): a bare [TryFunction] call propagates its error](../changes/bcquality/211.md) (2026-11-17)
 - [#273 knowledge(style): SetFilter date operands as replacement values; product name via ProductName](../changes/bcquality/273.md) (2026-11-13)
 - [#141 knowledge(testing): license-entitlement failures on posted tables in a SaaS test run are environmental](../changes/bcquality/141.md) (2026-11-12)
 - [#221 Clarify when HttpClient transport errors need translation](../changes/bcquality/221.md) (2026-11-06)
@@ -230,11 +242,5 @@ Items per quarter, oldest first:
 - [#227 Evaluation: keep sample comments for the two articles whose rule is about comments](../changes/bcquality/227.md) (2026-11-03)
 - [#253 knowledge(performance): add trigger-only fields to API pages with AddLoadFields](../changes/bcquality/253.md) (2026-11-02)
 - [#222 Add cited knowledge consultation skill for Business Central](../changes/bcquality/222.md) (2026-10-30)
-- [#251 Clarify 20-character limit for assignable permission set names](../changes/bcquality/251.md) (2026-10-30)
-- [#249 Route guard-dependent and/or conditions to the short-circuit article](../changes/bcquality/249.md) (2026-10-20)
-- [#246 Expose plan guidance as a preview plugin skill](../changes/bcquality/246.md) (2026-10-20)
-- [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../changes/bcquality/228.md) (2026-10-20)
-- [#238 Improve first-run documentation for new developers](../changes/bcquality/238.md) (2026-10-20)
-- [#226 Performance knowledge: justify low-selectivity fields in key columns](../changes/bcquality/226.md) (2026-10-20)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3fcae9825d055e1d2af6949e7682c0a58b6e0a90
@@ -41,7 +41,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/277
 repo_path: microsoft/knowledge/security/masktype-conceals-in-the-ui-only.md
 layer: microsoft
 kind: rule
@@ -95,6 +96,10 @@ See sample: [`masktype-conceals-in-the-ui-only.bad.al`](https://github.com/micro
 
 - [Good: masktype-conceals-in-the-ui-only.good.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/masktype-conceals-in-the-ui-only.good.al)
 - [Bad: masktype-conceals-in-the-ui-only.bad.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/masktype-conceals-in-the-ui-only.bad.al)
+
+## Changed by
+
+- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../../../../changes/bcquality/277.md), 2026-11-19
 
 ---
 

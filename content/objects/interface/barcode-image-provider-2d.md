@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T00:48:37.330Z"
+  at: "2026-11-23T00:49:55.504Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1bb301b8cc1726022d541aef2e66c0472dc3cd2b32847069c8d033cc37170fc4
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/System%20Application/App/Barcode/src/Barcode%20Provider%202D/Image/BarcodeImageProvider2D.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/System%20Application/App/Barcode/src/Barcode%20Provider%202D/Image/BarcodeImageProvider2D.Interface.al
     title: src/System Application/App/Barcode/src/Barcode Provider 2D/Image/BarcodeImageProvider2D.Interface.al (releases/29.x)
     date: null
-    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
+    commit: 6a9588a817c12a5d35d3e6c4ad40e29ecca88acf
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Barcode Image Provider 2D" in System Application (System.Text). 3 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Text · BC23-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/System%20Application/App/Barcode/src/Barcode%20Provider%202D/Image/BarcodeImageProvider2D.Interface.al) · facts from BC29
+System Application · System.Text · BC23-30 · [source at 6a9588a8](https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/System%20Application/App/Barcode/src/Barcode%20Provider%202D/Image/BarcodeImageProvider2D.Interface.al) · facts from BC29
 
 ## Procedures
 

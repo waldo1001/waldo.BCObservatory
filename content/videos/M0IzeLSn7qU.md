@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T22:43:27.853Z"
   flags: []
 generated:
-  at: "2026-11-01T00:41:18.124Z"
+  at: "2026-11-23T00:54:20.709Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -95,6 +95,7 @@ links:
   features:
     - feature/573255
     - feature/573260
+    - feature/573605
   topics: []
   localizations: []
   videos: []
@@ -182,17 +183,23 @@ features:
     status: announced
     t: 492
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573605"
   - name: Ad hoc alternate approvers
-    status: unclear
+    status: announced
     t: 543
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573605"
   - name: Planned alternate approvers
-    status: unclear
+    status: announced
     t: 586
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573605"
   - name: Travel request approval
     status: unclear
     t: 622
@@ -266,9 +273,9 @@ The second half covers features described as coming in the November release (29.
 | Employee manual compliance checks | status not stated | [2:47](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=167s) |  |
 | Interim approvers | preview (roadmap [Add an interim approver when you submit an expense report](../features/573260.md)) | [6:45](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=405s) |  |
 | Better approval messaging | announced | [7:48](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=468s) | "some other approvals again uh coming from uh November 29.1. Better messaging during approval process." ([7:48](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=468s)) |
-| Approval limits | announced | [8:12](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=492s) | "from uh November uh minor, you will be able to set up approver with a uh with a maximum approval amount, for example, $2,000" ([8:22](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=502s)) |
-| Ad hoc alternate approvers | status not stated | [9:03](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=543s) |  |
-| Planned alternate approvers | status not stated | [9:46](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=586s) |  |
+| Approval limits | announced (roadmap [Enable approving limits and alternate approvers when primary is not available](../features/573605.md)) | [8:12](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=492s) | "from uh November uh minor, you will be able to set up approver with a uh with a maximum approval amount, for example, $2,000" ([8:22](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=502s)) |
+| Ad hoc alternate approvers | announced (roadmap [Enable approving limits and alternate approvers when primary is not available](../features/573605.md)) | [9:03](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=543s) |  |
+| Planned alternate approvers | announced (roadmap [Enable approving limits and alternate approvers when primary is not available](../features/573605.md)) | [9:46](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=586s) |  |
 | Travel request approval | status not stated | [10:22](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=622s) |  |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

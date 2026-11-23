@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a9cf99a40ed6462196368d0f2305ec87cc5ace6d
@@ -41,7 +41,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/211
   related:
     - to: object/codeunit/6240
       title: codeunit 6240 "Xml Validation"
@@ -97,6 +98,10 @@ Recommending `if not Try...() then Error(GetLastErrorText())` as the fix is part
 ## Names
 
 - [codeunit 6240 "Xml Validation"](../../../../objects/codeunit/6240.md) (possibly related: a code span names it)
+
+## Changed by
+
+- [#211 knowledge(error-handling): a bare \[TryFunction\] call propagates its error](../../../../changes/bcquality/211.md), 2026-11-17
 
 ---
 

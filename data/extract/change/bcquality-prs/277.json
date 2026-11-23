@@ -4,13 +4,13 @@
   "title": "knowledge: translations, assisted setup, API queries, and a new xmlport domain",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "BCQuality adds 18 new knowledge articles covering translations, assisted setup, API queries, and XMLports, with a new xmlport review domain and four supporting articles with good/bad code examples.",
+  "summary": "BCQuality adds 18 knowledge articles. Fourteen go into existing domains (translations, assisted setup, API queries, MaskType, dependency versions). Four go into a new xmlport domain, together with an al-xmlport-review leaf that al-code-review now uses.",
   "key_points": [
-    "14 articles expand existing domains (style, ui, web-services, security, upgrade) with guidance on translation workflows, setup registration, and API design patterns",
-    "New xmlport domain with 4 articles addresses MS-DOS encoding defaults, import/export return values, and filtered record passing",
-    "New al-xmlport-review skill leaf returns not-applicable when input has no XMLport objects or calls",
-    "Every claim links to Microsoft Learn documentation",
-    "All articles include good/bad code example pairs except XLIFF and app.json content without verified method signatures"
+    "14 articles extend the style, ui, web-services, security and upgrade domains",
+    "New xmlport domain with 4 articles: MS-DOS default TextEncoding, Xmlport.Run Import argument versus Direction, Import/Export return values, passing the filtered record",
+    "New al-xmlport-review leaf, added as the 20th sub-skill of al-code-review, returns not-applicable when there is no XMLport object or Xmlport call",
+    "Eight articles have no good/bad sample pair because they cover XLIFF or app.json content or lack a verified method signature",
+    "Platform claims link to the Microsoft Learn pages they come from"
   ],
   "change_kind": "feature",
   "behavior_change": false,

@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b1afda2f7b61c09e4edafd7924a0154236bbed56
@@ -41,6 +41,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/276
     - change/bcquality/174
     - change/bcquality/153
 repo_path: microsoft/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.md
@@ -91,6 +92,7 @@ See sample: [`dataaccessintent-readonly-on-analytical-objects.bad.al`](https://g
 
 ## Changed by
 
+- [#276 Minor consistency fixes: bc-version format, CI permissions, community skill retrieval](../../../../changes/bcquality/276.md), 2026-11-19
 - [#174 Make BCQuality documentation easier for partners to get started](../../../../changes/bcquality/174.md), 2026-09-09
 - [#153 Promote knowledge for Microsoft-owned review skills](../../../../changes/bcquality/153.md), 2026-09-03
 

@@ -2,7 +2,7 @@
   "hub_id": "topic/dev-itpro/business-central-on-premises/upgrade",
   "input_hash": "e15b0a503ad158cd714df1ddee934b2b5e44a0ee84ffeb5ef4f5aceb8b7e180a",
   "summary": "Upgrade documentation for Business Central on-premises: supported upgrade paths, known issues, and per-release upgrade guidance from version 14 through version 29 (2026 release wave 2). It answers which path applies to a source version, which steps to follow, and which problems to expect.",
-  "overview": "This section covers upgrading Business Central on-premises. Three pages sit at the top level: an overview of upgrading to Business Central online or on-premises, a matrix of supported upgrade paths, and a list of known issues. The overview also touches on help migration and multitenancy migration.\n\nEach release has its own subtopic. The newest ones (v29, v28, v27, v26, v25) hold the upgrade overview, pre-upgrade considerations, steps for installing a cumulative update, and steps for upgrading the System and Base Application from earlier versions. Releases from spring 2019 (v14) through 2024 release wave 1 (v24) are grouped under Earlier versions. Related articles cover converting version 14 C/AL code to AL with Txt2Al and moving tables between extensions with migration.json.\n\nStart with the supported upgrade paths page to find whether your source version can go directly to the target or needs an intermediate version. Then open the subtopic for the target release, read its pre-upgrade considerations, and follow the upgrade or update steps. Check the known issues page for your version before you begin.",
+  "overview": "This section covers upgrading Business Central on-premises. Three pages sit at the top level: an overview of upgrading to Business Central online or on-premises, a matrix of supported upgrade paths, and a list of known issues. The overview also touches on help migration and multitenancy migration.\n\nEach release has its own subtopic. The subtopics for v29, v28, v27 and v26 cover upgrade paths, pre-upgrade considerations, installing an update for that version, and upgrading from earlier versions. The v29 steps cover upgrading from versions 25 to 28. The v28 steps include database conversion, extension publishing, sync and data upgrade. The v27 and v26 subtopics describe upgrading the System and Base Application. The v25 subtopic covers upgrade paths, installing a version 25 update, report and permission changes, and application and data upgrade steps. Releases from spring 2019 (v14) through 2024 release wave 1 (v24) are grouped under Earlier versions. Related articles cover converting version 14 C/AL code to AL with Txt2Al and moving tables between extensions with migration.json.\n\nStart with the supported upgrade paths page to find whether your source version can go directly to the target or needs an intermediate version. Then open the subtopic for the target release, read its pre-upgrade considerations where present, and follow the upgrade or update steps. Check the known issues page for your version before you begin.",
   "key_points": [
     "The supported upgrade paths page is a matrix from v14 (Spring 2019) through v29 (2026 wave 2), showing direct and indirect routes.",
     "Direct upgrade from v14 to the latest version is not supported from v26 onwards. v14 must be routed through v25.",
@@ -21,5 +21,16 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.017351
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-23T00:57:44.194Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview says v29 through v25 all cover the upgrade overview, pre-upgrade considerations, installing an update, and upgrading the System and Base Application. The v25 subtopic summary doesn't mention pre-upgrade considerations, and the overview leaves out its report and permission changes. Only the v27 and v26 summaries describe upgrading the System and Base Application. The v28 summary describes its steps as database conversion, extension publishing, sync and data upgrade."
+    ],
+    "input_hash": "e15b0a503ad158cd714df1ddee934b2b5e44a0ee84ffeb5ef4f5aceb8b7e180a",
+    "cost_usd": 0.071212
   }
 }

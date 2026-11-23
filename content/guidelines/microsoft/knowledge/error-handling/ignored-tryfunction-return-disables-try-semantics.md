@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1c58e453303d8edd057eed0dd1b020198000b3d9
@@ -44,6 +44,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/211
     - change/bcquality/174
     - change/bcquality/108
     - change/bcquality/99
@@ -113,6 +114,7 @@ See sample: [`ignored-tryfunction-return-disables-try-semantics.bad.al`](https:/
 
 ## Changed by
 
+- [#211 knowledge(error-handling): a bare \[TryFunction\] call propagates its error](../../../../changes/bcquality/211.md), 2026-11-17
 - [#174 Make BCQuality documentation easier for partners to get started](../../../../changes/bcquality/174.md), 2026-09-09
 - [#108 Complete AL review knowledge readiness](../../../../changes/bcquality/108.md), 2026-07-15
 - [#99 Add lifecycle error and privacy knowledge](../../../../changes/bcquality/99.md), 2026-07-14

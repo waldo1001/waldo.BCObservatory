@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d387f73873399b7aa29acc273f3a7cf8760d9546
@@ -41,7 +41,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/277
 repo_path: microsoft/knowledge/xmlport/xmlport-import-export-return-value-controls-failure-handling.md
 layer: microsoft
 kind: rule
@@ -92,6 +93,10 @@ See sample: [`xmlport-import-export-return-value-controls-failure-handling.bad.a
 
 - [Good: xmlport-import-export-return-value-controls-failure-handling.good.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/xmlport/xmlport-import-export-return-value-controls-failure-handling.good.al)
 - [Bad: xmlport-import-export-return-value-controls-failure-handling.bad.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/xmlport/xmlport-import-export-return-value-controls-failure-handling.bad.al)
+
+## Changed by
+
+- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../../../../changes/bcquality/277.md), 2026-11-19
 
 ---
 

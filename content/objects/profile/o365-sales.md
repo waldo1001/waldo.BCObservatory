@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T00:48:37.330Z"
+  at: "2026-11-23T00:49:55.504Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e9b1ee04ece51b404c67327ae9c946501548489a7f098f1122c09918c09945d5
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Layers/W1/BaseApp/Invoicing/O365Sales.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Layers/W1/BaseApp/Invoicing/O365Sales.Profile.al
     title: src/Layers/W1/BaseApp/Invoicing/O365Sales.Profile.al (releases/29.x)
     date: null
-    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
+    commit: 6a9588a817c12a5d35d3e6c4ad40e29ecca88acf
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "O365 SALES" in Base Application. Present since at least BC23, still in BC30.
 
-Base Application · captioned "O365 Sales Activities" · BC23-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Layers/W1/BaseApp/Invoicing/O365Sales.Profile.al) · facts from BC29
+Base Application · captioned "O365 Sales Activities" · BC23-30 · [source at 6a9588a8](https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Layers/W1/BaseApp/Invoicing/O365Sales.Profile.al) · facts from BC29
 
 ## Properties
 

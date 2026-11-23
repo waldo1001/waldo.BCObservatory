@@ -6,12 +6,12 @@ summary: "Getting started with Business Central: an overview of supported busine
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-23T00:57:34.865Z"
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -493,7 +493,7 @@ narrative: generated
 
 > Getting started with Business Central: an overview of supported business functionality, free trial and initial setup, quick start guides, learning resources, everyday productivity tips, FAQs and troubleshooting, and help and support. It answers questions on where to begin, how to trial and set up, and how to work day to day.
 
-Path: Get started · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: Get started · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

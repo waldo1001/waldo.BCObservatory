@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 73c3dc549223629533e54ba5be2d84fa5bd2ce2e
@@ -43,6 +43,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/281
     - change/bcquality/124
 repo_path: microsoft/knowledge/events/adding-a-parameter-to-an-event-is-not-a-breaking-change.md
 layer: microsoft
@@ -78,6 +79,7 @@ Do not flag the addition of a parameter to a `local` or `internal` event publish
 
 ## Changed by
 
+- [#281 fix: align READ domain examples and the event parameter addition article](../../../../changes/bcquality/281.md), 2026-11-19
 - [#124 Add FP guards: field relocation to tableextension + event parameter addition (bug 642303)](../../../../changes/bcquality/124.md), 2026-08-04
 
 ---

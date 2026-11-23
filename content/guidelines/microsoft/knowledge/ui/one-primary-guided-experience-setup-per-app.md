@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c80f5dc6ebeb74e32d0df2ad655306cced7f55a
@@ -40,7 +40,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/277
   related:
     - to: object/codeunit/1990
       title: codeunit 1990 "Guided Experience"
@@ -91,6 +92,10 @@ Marking two setup objects as primary, or switching the primary object in a new v
 ## Names
 
 - [codeunit 1990 "Guided Experience"](../../../../objects/codeunit/1990.md) (possibly related: a code span names it)
+
+## Changed by
+
+- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../../../../changes/bcquality/277.md), 2026-11-19
 
 ---
 

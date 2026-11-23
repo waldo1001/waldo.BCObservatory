@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T00:48:37.330Z"
+  at: "2026-11-23T00:49:55.504Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 38c9fddcc17ef47dec9b357599015e60f790d2dcde7ce959a4e026bc2f0b48a9
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVSOProcessorActivities.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVSOProcessorActivities.PageCust.al
     title: src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVSOProcessorActivities.PageCust.al (releases/29.x)
     date: null
-    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
+    commit: 6a9588a817c12a5d35d3e6c4ad40e29ecca88acf
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Page customization "SVSOProcessorActivities" in AgentSamples (System.Agents.Designer.AgentSamples.SalesValidation). Introduced in BC29, still in BC30.
 
-AgentSamples · System.Agents.Designer.AgentSamples.SalesValidation · BC29-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVSOProcessorActivities.PageCust.al) · facts from BC29
+AgentSamples · System.Agents.Designer.AgentSamples.SalesValidation · BC29-30 · [source at 6a9588a8](https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVSOProcessorActivities.PageCust.al) · facts from BC29
 
 ## Across versions
 

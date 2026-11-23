@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T00:48:37.330Z"
+  at: "2026-11-23T00:49:55.504Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9526504119979f20859dc626fe0de1bb2523ce55f7dd9c34bcb9608df5cee963
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/System%20Application/App/ControlAddIns/src/WaitSpinner.ControlAddIn.al
+    url: https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/System%20Application/App/ControlAddIns/src/WaitSpinner.ControlAddIn.al
     title: src/System Application/App/ControlAddIns/src/WaitSpinner.ControlAddIn.al (releases/29.x)
     date: null
-    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
+    commit: 6a9588a817c12a5d35d3e6c4ad40e29ecca88acf
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Control add-in "WaitSpinner" in System Application (System.Apps). 1 public procedures. Present since at least BC23, still in BC30, changed in BC24.
 
-System Application · System.Apps · BC23-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/System%20Application/App/ControlAddIns/src/WaitSpinner.ControlAddIn.al) · facts from BC29
+System Application · System.Apps · BC23-30 · [source at 6a9588a8](https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/System%20Application/App/ControlAddIns/src/WaitSpinner.ControlAddIn.al) · facts from BC29
 
 ## Procedures
 

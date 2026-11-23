@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 14e5459a56eee836f1f930537a7eeaac7dbdff76436964b77997538650c5bd23
@@ -33,7 +33,6 @@ links:
     - feature/573362
     - feature/573371
     - feature/573380
-    - feature/573384
     - feature/573613
     - feature/573624
     - feature/576872
@@ -134,8 +133,6 @@ footprint:
       weight: 1
     - id: feature/573380
       weight: 1
-    - id: feature/573384
-      weight: 1
     - id: feature/573613
       weight: 1
     - id: feature/573624
@@ -145,6 +142,8 @@ footprint:
     - id: feature/577820
       weight: 1
     - id: feature/578065
+      weight: 1
+    - id: feature/579980
       weight: 1
 first_item: "2025-07-28"
 last_item: "2026-03-10"
@@ -188,7 +187,6 @@ Items per quarter, oldest first:
 - [Fill forms faster with Autofill - Auto paste](../features/579980.md): Copilot and agents, announced, GA 2027-04, 1 video
 - [Improve purchase order matching in Payables Agent](../features/573380.md): Copilot and agents, generally available, GA 2026-10, 1 video
 - [Manually upload 1099 forms to the IRIS](../features/573624.md): USA, announced, GA 2027-01, 1 video
-- [Page Scripting enters General Availability](../features/573384.md): Development, generally available, GA 2026-10, 1 video
 - [Reduce manual work in quality tests and inspections](../features/573350.md): Supply Chain Management, generally available, GA 2026-10, 1 video
 - [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md): Copilot and agents, generally available, GA 2026-07, 1 video
 - [Show recently searched in Tell Me](../features/573371.md): User experiences, generally available, GA 2026-10, 1 video

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,6 +67,7 @@ links:
   localizations: []
   videos:
     - video/oN0XfuCe6Qg
+    - video/Qz-V7qvOY-8
   posts:
     - post/demiliani-com/11817
     - post/demiliani-com/11887
@@ -89,7 +90,7 @@ children: []
 coverage:
   learn: 5
   code: 0
-  video: 1
+  video: 2
   blog: 8
   guideline: 0
 bc_forms: []
@@ -166,5 +167,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Calling Business Central Directly from a Managed Identity](../../../posts/jpearson-blog/1535.md) (community post): "Managed identities can be granted Business Central API permissions directly via PowerShell without requiring federated credentials"
 - [Integration with Azure Static Web Apps from Business Central](../../../posts/jpearson-blog/1601.md) (community post): "integrate an Azure Static Web App with Business Central by using the WebPageViewer"
 - [What's Cooking in Business Central: External File Storage Module](../../../videos/oN0XfuCe6Qg.md) (video): "external file storage; api; azure blob storage; file accounts; file scenarios; al development"
+- [What's New: Enhancements in E-Documents (2025 release wave 1)](../../../videos/Qz-V7qvOY-8.md) (video): "Azure Document Intelligence for PDF processing; Embed PDF in e-document XML export"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

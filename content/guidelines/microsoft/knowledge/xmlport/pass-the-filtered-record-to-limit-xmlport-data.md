@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 4bcabd6a8b253bcafe5e26e93f5e4b1ccc449fc2
@@ -41,7 +41,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/277
 repo_path: microsoft/knowledge/xmlport/pass-the-filtered-record-to-limit-xmlport-data.md
 layer: microsoft
 kind: rule
@@ -92,6 +93,10 @@ See sample: [`pass-the-filtered-record-to-limit-xmlport-data.bad.al`](https://gi
 
 - [Good: pass-the-filtered-record-to-limit-xmlport-data.good.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/xmlport/pass-the-filtered-record-to-limit-xmlport-data.good.al)
 - [Bad: pass-the-filtered-record-to-limit-xmlport-data.bad.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/xmlport/pass-the-filtered-record-to-limit-xmlport-data.bad.al)
+
+## Changed by
+
+- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../../../../changes/bcquality/277.md), 2026-11-19
 
 ---
 

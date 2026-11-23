@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,6 +94,7 @@ links:
     - change/bcapps/12763
     - change/bcapps/12810
     - change/bcapps/14218
+    - change/bcapps/14329
 learn_toc_path:
   - Copilot and agent capabilities
   - Manage Copilot and agent capabilities
@@ -151,6 +152,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12763 [Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: "'IndirectInsert' permission on TableData 6913 'Expense Pmt Method" - 2610091420000495](../../../changes/bcapps/12763.md) (code change): "Permission level changed from 'Expense Mgmt. Read' to 'Expense Mgmt. Admin'"
 - [#12810 ExpenseAgent-CAUS-default-VAT-setup-fails](../../../changes/bcapps/12810.md) (code change): "Changes the Create Expense VAT Rates codeunit and the Expense Agent Setup table"
 - [#14218 Show notification only to super users in env. where copilot substitution suggestion was used](../../../changes/bcapps/14218.md) (code change): "notification about retired Copilot item substitution suggestions now appears only"
+- [#14329 Optimizing check for PA eligibility](../../../changes/bcapps/14329.md) (code change): "Speeds up opening the Purchase Invoice page and the agent runtime eligibility check"
 - [Agents in Business Central – part 4 – troubleshooting](../../../posts/bertverbeek-nl/1263.md) (community post): "troubleshoot Business Central agents when they don't behave as expected"
 - [Dynamics 365 Business Central agents: announcing new updates.](../../../posts/demiliani-com/13755.md) (community post): "GPT-5.3-chat becomes the default Copilot model, rolling out gradually across regions"
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../../posts/demiliani-com/15935.md) (community post): "Copilot features in Dynamics 365 Business Central may move prompts across geographies"

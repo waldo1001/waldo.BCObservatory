@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -174,7 +174,6 @@ links:
     - change/bcapps/10295
     - change/bcapps/12947
     - change/bcapps/13692
-    - change/bcapps/14331
 learn_toc_path:
   - Integration
   - Integrating with Microsoft Power Platform
@@ -241,7 +240,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10295 #10288 - Always load attachments](../../../changes/bcapps/10295.md) (code change): "Email retrieval from Outlook now processes inline attachments"
 - [#12947 [MCP] Provide environment and company descriptions to the platform](../../../changes/bcapps/12947.md) (code change): "The MCP server's list_companies tool can then return company descriptions"
 - [#13692 Fix SharePoint REST upload 404 caused by trailing slash in parent folder](../../../changes/bcapps/13692.md) (code change): "SharePoint REST upload 404 caused by trailing slash"
-- [#14331 Fix trailing periods in generated document attachment folders](../../../changes/bcapps/14331.md) (code change): "SharePoint attachment folder paths for document attachments are now normalized"
 - [What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers](../../../videos/gAzmWJg9Z5g.md) (video): "Power Platform Integration Documentation"
 
 ## Business Central pages and reports

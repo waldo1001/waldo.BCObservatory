@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T01:01:35.036Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -162,6 +162,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12117
+    - change/bcquality/211
     - change/bcquality/99
 learn_toc_path:
   - Development
@@ -228,6 +229,7 @@ For investigating errors, "Understanding the error dialog" explains the details 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12117 [Job Queue] Clearer message and attempt number for runs interrupted by the platform](../../../../changes/bcapps/12117.md) (code change): "confusing 'job has stopped' error message with 'run was interrupted' message"
+- [#211 knowledge(error-handling): a bare [TryFunction] call propagates its error](../../../../changes/bcquality/211.md) (code change): "bare calls to TryFunction procedures propagate errors rather than suppressing them"
 - [#99 Add lifecycle error and privacy knowledge](../../../../changes/bcquality/99.md) (code change): "covering try-function semantics, upgrade phase data writes, install-versus-upgrade dispatch logic, ErrorInfo privacy"
 - [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "AL transaction rollback does not undo external API calls"
 - [🔧 Transforming BC Error Handling with Smart Recommendations 📝](../../../../posts/gerardorenteria-blog/12238.md) (community post): "Event Subscribers intercept Business Central errors, validate tag matches, and invoke the ErrorMessageFix interface"

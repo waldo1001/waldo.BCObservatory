@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 243774a38cc8ebd0c1d46910215f1c69f659ba95
@@ -43,6 +43,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/211
     - change/bcquality/209
     - change/bcquality/196
     - change/bcquality/157
@@ -255,6 +256,7 @@ When no applicable error-handling knowledge is available, the report is:
 
 ## Changed by
 
+- [#211 knowledge(error-handling): a bare \[TryFunction\] call propagates its error](../../../../changes/bcquality/211.md), 2026-11-17
 - [#209 3 AL/BC patterns: Insert/Delete trigger defaults on master data and declined Confirm in OnValidate](../../../../changes/bcquality/209.md), 2026-10-05
 - [#196 Strengthen review contracts and add AL reliability guidance](../../../../changes/bcquality/196.md), 2026-09-29
 - [#157 18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource](../../../../changes/bcquality/157.md), 2026-09-29

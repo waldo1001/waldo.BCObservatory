@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 608a9367c8f78d4850d2509520807085db1caaa2
@@ -41,7 +41,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/277
 repo_path: microsoft/knowledge/ui/wizard-collects-input-in-a-temporary-source-table.md
 layer: microsoft
 kind: rule
@@ -95,6 +96,10 @@ See sample: [`wizard-collects-input-in-a-temporary-source-table.bad.al`](https:/
 
 - [Good: wizard-collects-input-in-a-temporary-source-table.good.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/wizard-collects-input-in-a-temporary-source-table.good.al)
 - [Bad: wizard-collects-input-in-a-temporary-source-table.bad.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/wizard-collects-input-in-a-temporary-source-table.bad.al)
+
+## Changed by
+
+- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../../../../changes/bcquality/277.md), 2026-11-19
 
 ---
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -115,9 +115,9 @@ links:
     - video/z7UTBiCNOo8
   posts:
     - post/aardvarklabs-blog/2271
+    - post/bccaptain-com-au/https-bccaptain-com-au-2026-11-22-bc-word-layout-mcp-2-1-0--f0536bec81
     - post/miljan-rs/698
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5
-    - post/thinkaboutit-be/7920
     - post/thinkaboutit-be/8096
     - post/thinkaboutit-be/8250
     - post/yzhums-com/76147
@@ -192,9 +192,9 @@ Once a layout exists, "Set the Layout Used by a Report" covers choosing defaults
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Understanding RDLC Reports in Business Central](../../../../posts/aardvarklabs-blog/2271.md) (community post): "RDLC reports use Report Definition Language Client to create self-hosted pixel-perfect printed reports"
+- [BC Word Layout MCP 2.1.0: What changes when you print with a report theme?](../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-11-22-bc-word-layout-mcp-2-1-0--f0536bec81.md) (community post): "adds support for report themes in Word layouts, allowing layout elements to follow selected Business Central themes"
 - [Conditional Page Breaks in Word Layouts for Business Central Reports](../../../../posts/miljan-rs/698.md) (community post): "Conditional page breaks in Word layouts for Business Central Reports"
 - [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (community post): "Composite layouts in Business Central 29.0: branding is split into three separate parts"
-- [Quick Tip: What’s in Business Central Update 28.1](../../../../posts/thinkaboutit-be/7920.md) (community post): "Report layout administrators can assign statuses (Draft, Pending Approval, Approved, Retired)"
 - [Quick Tip: It’s Time to Move to the Word Add-in Data Picker](../../../../posts/thinkaboutit-be/8096.md) (community post): "New fields inserted via the XML Mapping pane stopped mapping correctly in August 2026"
 - [Business Central 29: Introducing Composite Document Layouts](../../../../posts/thinkaboutit-be/8250.md) (community post): "Composite Document Layouts, a modular approach to Word document layouts"
 - [Business Central 2026 release wave 2 (BC29): Brand document reports with report themes](../../../../posts/yzhums-com/76147.md) (community post): "Brand document reports with composable layout themes"

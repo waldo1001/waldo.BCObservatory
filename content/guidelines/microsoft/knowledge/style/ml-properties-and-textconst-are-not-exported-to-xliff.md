@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8d11dd64b42496909ce6989d9193f0d4de83fe50
@@ -44,7 +44,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/277
 repo_path: microsoft/knowledge/style/ml-properties-and-textconst-are-not-exported-to-xliff.md
 layer: microsoft
 kind: rule
@@ -111,6 +112,10 @@ See sample: [`ml-properties-and-textconst-are-not-exported-to-xliff.bad.al`](htt
 
 - [Record.TestField(Any, TextConst) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-testfield-joker-textconst-method) (names TextConst)
 - [FieldRef.OptionCaption() Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/fieldref/fieldref-optioncaption-method) (names OptionCaption)
+
+## Changed by
+
+- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../../../../changes/bcquality/277.md), 2026-11-19
 
 ---
 

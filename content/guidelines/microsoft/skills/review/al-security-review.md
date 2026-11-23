@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7e69cd682e5b6435f2be8dea08513ec4a01d980e
@@ -39,6 +39,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/277
     - change/bcquality/228
     - change/bcquality/196
     - change/bcquality/157
@@ -248,6 +249,7 @@ When no applicable security knowledge is available, the report is:
 
 ## Changed by
 
+- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../../../../changes/bcquality/277.md), 2026-11-19
 - [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../../../../changes/bcquality/228.md), 2026-10-20
 - [#196 Strengthen review contracts and add AL reliability guidance](../../../../changes/bcquality/196.md), 2026-09-29
 - [#157 18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource](../../../../changes/bcquality/157.md), 2026-09-29

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:51:08.493Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-11-23T00:54:20.709Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,7 +81,8 @@ links:
   learn: []
   objects:
     - object/page/48
-  features: []
+  features:
+    - feature/573372
   topics: []
   localizations: []
   videos: []
@@ -174,10 +175,12 @@ features:
     verified: false
     status_source: video
   - name: Agent Instructions
-    status: unclear
+    status: ga
     t: 97
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573372"
   - name: Task Tracking UI
     status: unclear
     t: 181
@@ -260,11 +263,13 @@ The demo covers opening the agent setup, reviewing its dedicated profile, reduce
 | Agent Configuration Card | status not stated, demoed | [0:51](https://www.youtube.com/watch?v=MKuOgMWXJ_8&t=51s) |  |
 | Agent Dedicated Profile | status not stated, demoed | [1:04](https://www.youtube.com/watch?v=MKuOgMWXJ_8&t=64s) |  |
 | Reduced Permission Sets | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=MKuOgMWXJ_8&t=77s) |  |
-| Agent Instructions | status not stated, demoed | [1:37](https://www.youtube.com/watch?v=MKuOgMWXJ_8&t=97s) |  |
+| Agent Instructions | generally available (roadmap [Updates to Agent UI experience](../features/573372.md)), demoed | [1:37](https://www.youtube.com/watch?v=MKuOgMWXJ_8&t=97s) |  |
 | Task Tracking UI | status not stated, demoed | [3:01](https://www.youtube.com/watch?v=MKuOgMWXJ_8&t=181s) |  |
 | Outgoing Message Review | status not stated, demoed | [3:45](https://www.youtube.com/watch?v=MKuOgMWXJ_8&t=225s) |  |
 | Agent Credit Usage Tracking | status not stated, demoed | [4:08](https://www.youtube.com/watch?v=MKuOgMWXJ_8&t=248s) |  |
 | More Sample Agents Coming | announced | [0:37](https://www.youtube.com/watch?v=MKuOgMWXJ_8&t=37s) | "We are planning to build more and they will appear in this list here" ([0:37](https://www.youtube.com/watch?v=MKuOgMWXJ_8&t=37s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

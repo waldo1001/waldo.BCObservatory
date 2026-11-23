@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:44.510Z"
   flags: []
 generated:
-  at: "2026-10-30T08:03:27.657Z"
+  at: "2026-11-23T00:54:20.709Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -81,6 +81,7 @@ links:
     - object/page/4316
   features:
     - feature/573352
+    - feature/578068
   topics: []
   localizations: []
   videos: []
@@ -185,10 +186,12 @@ features:
     verified: false
     status_source: video
   - name: Agent instructions configuration
-    status: unclear
+    status: preview
     t: 312
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "578068"
   - name: Agent model selection
     status: unclear
     t: 369
@@ -455,7 +458,7 @@ The second half covers shipping. Agents created with instructions in the client 
 | Agent creation and configuration | status not stated, demoed | [1:51](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=111s) |  |
 | Manage user access for agents | status not stated, demoed | [3:00](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=180s) |  |
 | Profiles and permissions configuration | status not stated, demoed | [4:02](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=242s) |  |
-| Agent instructions configuration | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=312s) |  |
+| Agent instructions configuration | preview (roadmap [Envision and design AI agents in Business Central](../features/578068.md)), demoed | [5:12](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=312s) |  |
 | Agent model selection | status not stated, demoed | [6:09](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=369s) |  |
 | Agent task simulation and testing | status not stated, demoed | [7:08](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=428s) |  |
 | Task templates | status not stated, demoed | [8:07](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=487s) |  |

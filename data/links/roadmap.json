@@ -37494,10 +37494,10 @@
     "video/KbXzMR4n4h8": {
       "kind": "video",
       "key": "video/KbXzMR4n4h8",
-      "hash": "7ba37333b11e5cb0314bbbc9698b478b8a089ae22ad73821953b73236cfbd708",
+      "hash": "64a67b0d98a603f48c9a8d1ea6579325fdf72cb322d3711092fdca1174676fa3",
       "video_id": "KbXzMR4n4h8",
       "title": "What's New: Commerce Capabilities of Business Central Apps (2024 release wave 1)",
-      "at": "2026-10-25T12:34:30.273Z",
+      "at": "2026-11-23T00:53:33.784Z",
       "matches": []
     },
     "video/kCTYPb5t5XQ": {
@@ -37579,20 +37579,42 @@
     "video/KkOr-hX0frQ": {
       "kind": "video",
       "key": "video/KkOr-hX0frQ",
-      "hash": "5a62c2de6c2f05246b1cb410a8b4acfda352959d1276739dc62f9bd932830916",
+      "hash": "16600c7e3a76dde17509542207f4b2e80f008002b5d6ac896fedf8cddf71d473",
       "video_id": "KkOr-hX0frQ",
       "title": "How to Migrate Business Central Table Fields from Integer to BigInteger | Version 29 Preview",
-      "at": "2026-10-25T12:34:33.033Z",
+      "at": "2026-11-23T00:53:33.617Z",
       "matches": []
     },
     "video/KmuTVkodRXM": {
       "kind": "video",
       "key": "video/KmuTVkodRXM",
-      "hash": "503f33183d0caf57440ed5c1b1a4659d6c4cbe6b61786cde7ad8d4ef8f5b9aa5",
+      "hash": "b19cec27fe86df7c5ea1b309132065dc97433cd32e10fcaf80c370dc5f0f8db2",
       "video_id": "KmuTVkodRXM",
       "title": "All new goodies about AL Namespace in BC 2025 wave 2",
-      "at": "2026-10-25T12:34:35.355Z",
-      "matches": []
+      "at": "2026-11-23T00:53:33.125Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "AL namespace field in All Objects with Captions table",
+          "t": 24,
+          "roadmap_id": "573359",
+          "quote": "AL namespace has been added to the All Objects with Captions table"
+        },
+        {
+          "feature": 1,
+          "name": "Record ID formatting with AL namespace",
+          "t": 384,
+          "roadmap_id": "573359",
+          "quote": "Record ID variables can now be formatted to display the fully qualified AL namespace"
+        },
+        {
+          "feature": 2,
+          "name": "Record ID evaluation against fully qualified namespace",
+          "t": 478,
+          "roadmap_id": "573359",
+          "quote": "evaluate a Record ID variable against a specific fully qualified namespace"
+        }
+      ]
     },
     "video/KNy2KujjheU": {
       "kind": "video",
@@ -37606,59 +37628,59 @@
     "video/KnyS6ZKI_2c": {
       "kind": "video",
       "key": "video/KnyS6ZKI_2c",
-      "hash": "78d3bcda824e542ff7c7a7b8c3376dd0ed431e1a3e657b67d3f7e57c5b125954",
+      "hash": "61c54e61df45c998831f1347619cb74f0cd61b08660965e600199c112e292d5f",
       "video_id": "KnyS6ZKI_2c",
       "title": "What's New: Page Scripting Enhancements (2025 release wave 2)",
-      "at": "2026-10-25T12:34:32.997Z",
+      "at": "2026-11-23T00:53:33.326Z",
       "matches": [
         {
           "feature": 0,
           "name": "Steps Modification in Recording",
           "t": 81,
           "roadmap_id": "573384",
-          "quote": "Ability to define insertion points for steps, rearrange steps via drag-and-drop"
+          "quote": "Steps Modification in Recording. Ability to define insertion points"
         },
         {
           "feature": 1,
           "name": "Parameters UI Editing",
           "t": 305,
           "roadmap_id": "573384",
-          "quote": "Create, edit, and view parameters directly in the Business Central UI"
+          "quote": "Parameters UI Editing. Create, edit, and view parameters directly"
         },
         {
           "feature": 2,
           "name": "Test Suites UI Creation",
           "t": 382,
           "roadmap_id": "573384",
-          "quote": "Create test suites directly from the Business Central UI by composing multiple scripts"
+          "quote": "Test Suites UI Creation. Create test suites directly from the Business Central UI"
         },
         {
           "feature": 3,
           "name": "Include Script Functionality",
           "t": 412,
           "roadmap_id": "573384",
-          "quote": "Add a new step called 'include a script' to compose multiple scripts together"
+          "quote": "Include Script Functionality. Add a new step called include a script"
         },
         {
           "feature": 4,
           "name": "For-Each Row Iteration",
           "t": 567,
           "roadmap_id": "573384",
-          "quote": "Ability to iterate over entries in a repeater control by right-clicking"
+          "quote": "For-Each Row Iteration. Ability to iterate over entries in a repeater control"
         },
         {
           "feature": 5,
           "name": "Conditional Branching with Expression",
           "t": 651,
           "roadmap_id": "573384",
-          "quote": "Add a conditional step evaluated by a custom expression using 'expression is true'"
+          "quote": "Conditional Branching with Expression. Add a conditional step evaluated"
         },
         {
           "feature": 6,
           "name": "Server-Side Headless Script Replay",
           "t": 742,
           "roadmap_id": "573384",
-          "quote": "Run page scripts headlessly on the server side during pipeline execution"
+          "quote": "Server-Side Headless Script Replay. Run page scripts headlessly on the server"
         }
       ]
     },
@@ -37724,10 +37746,10 @@
     "video/KpQS7c6YGRo": {
       "kind": "video",
       "key": "video/KpQS7c6YGRo",
-      "hash": "a916e188793156eacf729dbc757274cc460feadf33cabc3d1a900a7b614f2c96",
+      "hash": "d5a179704f1316084f31d73068d0abe82b450a69353c03d6b4b27810e1cb5aff",
       "video_id": "KpQS7c6YGRo",
       "title": "What's New: Marketing Text Suggestions (2023 release wave 2)",
-      "at": "2026-10-30T07:53:32.147Z",
+      "at": "2026-11-23T00:53:34.885Z",
       "matches": []
     },
     "video/KQRT25igPTk": {
@@ -37812,10 +37834,10 @@
     "video/LaA6UNdkvso": {
       "kind": "video",
       "key": "video/LaA6UNdkvso",
-      "hash": "a8f52e700e7f45b98b116f40cba2fcaf77619518d0171fe333e54779d22f266b",
+      "hash": "36333361ac25d4a83a617ca6eb0b7c53db53712c9d9dbbdd3a4775050bb3404f",
       "video_id": "LaA6UNdkvso",
       "title": "Generate Mermaid.js Diagrams with AL Code (2026 Edition)",
-      "at": "2026-10-25T12:34:39.826Z",
+      "at": "2026-11-23T00:53:39.667Z",
       "matches": []
     },
     "video/lClKXB8xXIE": {
@@ -37932,42 +37954,84 @@
     "video/LDRziYUdlAg": {
       "kind": "video",
       "key": "video/LDRziYUdlAg",
-      "hash": "b0694267704f7ec61aacbf190b66427f52b39a68ff5435ac935c2038839f47e3",
+      "hash": "8b77702c46eacc1a40fad333e439bb9a4b9dbf09841908b0925df999ca670157",
       "video_id": "LDRziYUdlAg",
       "title": "AL-Go for Github April Office Hour",
-      "at": "2026-10-25T12:34:36.593Z",
+      "at": "2026-11-23T00:53:34.004Z",
       "matches": []
     },
     "video/LDzOda1IOnE": {
       "kind": "video",
       "key": "video/LDzOda1IOnE",
-      "hash": "ce6277f1ac3d7be8566aa22fd1c94088dfbb9ced0198bd35fdd5e8ad907f68c2",
+      "hash": "5a62ececbd2173b2055628c337491c2f0b9a251eb67b20101053f401504faf5a",
       "video_id": "LDzOda1IOnE",
       "title": "What's New: Opening Visual Studio Code from the Web Client (2025 release wave 1)",
-      "at": "2026-10-30T07:53:33.602Z",
+      "at": "2026-11-23T00:53:39.167Z",
       "matches": []
     },
     "video/LerAo-GGl8U": {
       "kind": "video",
       "key": "video/LerAo-GGl8U",
-      "hash": "bad4154ca6e36eb9f3d461f23bc1da1984e29c5d3bf1340cdbe6ab32b0819a87",
+      "hash": "5a41f3a049d4ef06420a50b66add77ed5575b848e352e569d8e98f9e60b6ae63",
       "video_id": "LerAo-GGl8U",
       "title": "Microsoft presents: Next level administration skills with the admin MCP server and agents",
-      "at": "2026-10-30T07:53:35.696Z",
+      "at": "2026-11-23T00:53:41.275Z",
       "matches": [
         {
           "feature": 0,
           "name": "Admin MCP Server for Business Central",
           "t": 180,
           "roadmap_id": "573312",
-          "quote": "Admin MCP Server that exposes Business Central Admin API functionality to AI agents"
+          "quote": "Admin MCP Server for Business Central. A remote MCP server that exposes Business Central Admin API"
         },
         {
           "feature": 0,
           "name": "Admin MCP Server for Business Central",
           "t": 180,
           "roadmap_id": "576789",
-          "quote": "MCP server that exposes Business Central Admin API functionality to AI agents and clients"
+          "quote": "Admin MCP Server for Business Central. A remote MCP server that exposes Business Central Admin API functionality"
+        },
+        {
+          "feature": 4,
+          "name": "Admin MCP Setup in Visual Studio Code",
+          "t": 389,
+          "roadmap_id": "573312",
+          "quote": "Admin MCP Setup in Visual Studio Code. Single-tenant scenario demonstrating seamless MCP server configuration"
+        },
+        {
+          "feature": 5,
+          "name": "MCP Agent-Assisted Environment Diagnostics",
+          "t": 595,
+          "roadmap_id": "573312",
+          "quote": "MCP Agent-Assisted Environment Diagnostics. AI agent can automatically discover and investigate failed upgrades"
+        },
+        {
+          "feature": 8,
+          "name": "Agent tool invocation via MCP",
+          "t": 1539,
+          "roadmap_id": "573312",
+          "quote": "Agent tool invocation via MCP. Agents in Copilot Studio can invoke tools from the Admin MCP server"
+        },
+        {
+          "feature": 8,
+          "name": "Agent tool invocation via MCP",
+          "t": 1539,
+          "roadmap_id": "576789",
+          "quote": "Agent tool invocation via MCP. Agents in Copilot Studio can invoke tools from the Admin MCP server"
+        },
+        {
+          "feature": 9,
+          "name": "Admin MCP server connection",
+          "t": 1562,
+          "roadmap_id": "573312",
+          "quote": "Admin MCP server connection. Ability to create and verify connections to the admin MCP server using JSON RPC protocol"
+        },
+        {
+          "feature": 9,
+          "name": "Admin MCP server connection",
+          "t": 1562,
+          "roadmap_id": "576789",
+          "quote": "Admin MCP server connection. Ability to create and verify connections to the admin MCP server using JSON RPC protocol"
         }
       ]
     },
@@ -37992,10 +38056,10 @@
     "video/LKt0K-EdiX0": {
       "kind": "video",
       "key": "video/LKt0K-EdiX0",
-      "hash": "4f10f1f8b361e8a8050ceb0b463ae32270960fb8c1e5aac5269970b6c8326ae5",
+      "hash": "aced088579a3f96d3a1f176ac2b678d417a528c97979052a0577fdb91e0c2ebf",
       "video_id": "LKt0K-EdiX0",
       "title": "What's New: Fixed Assets (2026 release wave 1)",
-      "at": "2026-10-30T07:53:33.993Z",
+      "at": "2026-11-23T00:53:38.969Z",
       "matches": []
     },
     "video/lNASlydCidI": {
@@ -38035,10 +38099,10 @@
     "video/LohKv5znIaY": {
       "kind": "video",
       "key": "video/LohKv5znIaY",
-      "hash": "8148aa7451f3ef9af8a70e9942f5b4227ab5e48ffd727ba16d89260e17de2de9",
+      "hash": "31e6afa19c1ce094f444516466662d470b9ca13b9edfb33f1aeea8ffd1b52af7",
       "video_id": "LohKv5znIaY",
       "title": "Use Actionable Error Messages to Unblock Users",
-      "at": "2026-10-25T12:34:41.720Z",
+      "at": "2026-11-23T00:53:41.120Z",
       "matches": []
     },
     "video/lpwDSdEJrIQ": {
@@ -38114,66 +38178,101 @@
     "video/LuAHCXiwYn4": {
       "kind": "video",
       "key": "video/LuAHCXiwYn4",
-      "hash": "9e1f5609426cb654567bfa94627a8b8c8a6a017c387a68f69b0117f8d924cf83",
+      "hash": "1899b36b765124745b14061b34dbceaaa86a0b3c0ef44f75a218b0cf5ca5cfdf",
       "video_id": "LuAHCXiwYn4",
       "title": "Swappable Claude Profiles: Per-Project Configs via Container Mounting (Part 3)",
-      "at": "2026-10-30T07:53:38.339Z",
+      "at": "2026-11-23T00:53:45.442Z",
       "matches": []
     },
     "video/LW2JNV01sJo": {
       "kind": "video",
       "key": "video/LW2JNV01sJo",
-      "hash": "30d5a90d230db2e30747fc259283964a929aec3b3fc672079a87617a55902b77",
+      "hash": "924e8c2eaa63965365ba9138ace98ca9ae0f09a8ffe22defb736fed68b67be9d",
       "video_id": "LW2JNV01sJo",
       "title": "Meet the OptimAL Performance Initiative",
-      "at": "2026-10-30T07:53:34.621Z",
+      "at": "2026-11-23T00:53:41.058Z",
       "matches": []
     },
     "video/M0IzeLSn7qU": {
       "kind": "video",
       "key": "video/M0IzeLSn7qU",
-      "hash": "ebdf2cffeba1a5d7ea52e12e67e92dc2c930a2a8203b67b1c212cf658662b5d7",
+      "hash": "9f5cb02d6d7f5207e408354e2f9376b4fa5a8730fad0362e8a5200b1ad122d6b",
       "video_id": "M0IzeLSn7qU",
       "title": "What's new in Expense Agent: Improved Approval Process (2026 release wave 2)",
-      "at": "2026-10-30T07:53:37.436Z",
+      "at": "2026-11-23T00:53:44.017Z",
       "matches": [
         {
           "feature": 0,
           "name": "AI-driven approval policies",
           "t": 53,
           "roadmap_id": "573255",
-          "quote": "AI-driven approval policies. Admin can enable AI-driven approval policies in setup to flag expenses"
+          "quote": "AI-driven approval policies. Admin can enable AI-driven approval policies in setup to flag expenses for review"
         },
         {
           "feature": 3,
           "name": "Interim approvers",
           "t": 405,
           "roadmap_id": "573260",
-          "quote": "Interim approvers. Support for multiple approval levels where an interim approver can review expense reports"
+          "quote": "Support for multiple approval levels where an interim approver can review expense reports for compliance before final approval"
+        },
+        {
+          "feature": 5,
+          "name": "Approval limits",
+          "t": 492,
+          "roadmap_id": "573605",
+          "quote": "Approvers can be configured with maximum approval amounts (e.g., $2,000) or unlimited approval"
+        },
+        {
+          "feature": 6,
+          "name": "Ad hoc alternate approvers",
+          "t": 543,
+          "roadmap_id": "573605",
+          "quote": "Approvers on leave can delegate all pending expense reports to colleagues who are set up as approvers"
+        },
+        {
+          "feature": 7,
+          "name": "Planned alternate approvers",
+          "t": 586,
+          "roadmap_id": "573605",
+          "quote": "Approvers can designate alternate approvers for specific date ranges (e.g., vacation periods). System automatically redirects"
         }
       ]
     },
     "video/M1S2_bgLd3Q": {
       "kind": "video",
       "key": "video/M1S2_bgLd3Q",
-      "hash": "4581f7d97011cd324e2387f16d684ffa59464675abba8c9570e459f5ebf8c731",
+      "hash": "b48a0d1bb3ed1101f87bc22d2aac37fe34d3883ab5d39a28551c503ac4f6b0c9",
       "video_id": "M1S2_bgLd3Q",
       "title": "What's New: Server and Database (2025 release wave 2)",
-      "at": "2026-10-25T12:34:45.892Z",
+      "at": "2026-11-23T00:53:45.786Z",
       "matches": [
-        {
-          "feature": 5,
-          "name": "Semantic similarity search on metadata",
-          "t": 484,
-          "roadmap_id": "573371",
-          "quote": "New capability to find pages, reports, and queries by semantic meaning rather than keyword matching"
-        },
         {
           "feature": 9,
           "name": "Tooltips on report data item fields",
           "t": 846,
           "roadmap_id": "573313",
           "quote": "Report columns can now have tooltips that inherit from table field definitions"
+        },
+        {
+          "feature": 10,
+          "name": "Word addin data picker",
+          "t": 905,
+          "roadmap_id": "573328",
+          "quote": "New feature in the Word addin that allows picking data with visual tooltips"
+        },
+        {
+          "feature": 13,
+          "name": "SQL call information in performance profiles",
+          "t": 1047,
+          "roadmap_id": "573335",
+          "quote": "Performance profiles now show SQL call information via sampling"
+        },
+        {
+          "feature": 5,
+          "name": "Semantic similarity search on metadata",
+          "t": 484,
+          "roadmap_id": "573371",
+          "quote": "New capability to find pages, reports, and queries by semantic meaning"
         }
       ]
     },
@@ -38547,10 +38646,10 @@
     "video/MaMwHvimNTY": {
       "kind": "video",
       "key": "video/MaMwHvimNTY",
-      "hash": "28eb9096ba078ad1c794f04c79594cc06a3faf91e82503f81a5f9c12946bd6a4",
+      "hash": "a96890c6ab8338643d3538f4257fd5b0ffcbe9bd916d799f329aa7c1f6eeacf9",
       "video_id": "MaMwHvimNTY",
       "title": "What's New: Water and Waste Management (2025 release wave 1)",
-      "at": "2026-11-02T00:53:07.849Z",
+      "at": "2026-11-23T00:53:50.594Z",
       "matches": []
     },
     "video/mBU2Iu0urw8": {
@@ -38671,61 +38770,132 @@
     "video/MKuOgMWXJ_8": {
       "kind": "video",
       "key": "video/MKuOgMWXJ_8",
-      "hash": "feeab1af570d541a61167a06d85558707854fbdbd527cf2442364a879154c41f",
+      "hash": "78b06bebc9753d9841d2d65d4784540fcec0abef50bae86b416a5793e26a20d9",
       "video_id": "MKuOgMWXJ_8",
       "title": "What's New: Sales Validation Sample Agent for Business Central",
-      "at": "2026-10-30T07:53:40.031Z",
-      "matches": []
+      "at": "2026-11-23T00:53:47.626Z",
+      "matches": [
+        {
+          "feature": 3,
+          "name": "Reduced Permission Sets",
+          "t": 77,
+          "roadmap_id": "573370",
+          "quote": "Agent access control that limits permissions to only the specific tasks"
+        },
+        {
+          "feature": 4,
+          "name": "Agent Instructions",
+          "t": 97,
+          "roadmap_id": "573372",
+          "quote": "Customizable instructions that define how the agent behaves"
+        },
+        {
+          "feature": 5,
+          "name": "Task Tracking UI",
+          "t": 181,
+          "roadmap_id": "573363",
+          "quote": "Task Tracking UI. A user interface component that allows users to track"
+        },
+        {
+          "feature": 6,
+          "name": "Outgoing Message Review",
+          "t": 225,
+          "roadmap_id": "573366",
+          "quote": "review and approve agent-generated messages summarizing completed actions"
+        }
+      ]
     },
     "video/MNwTt06ZxwY": {
       "kind": "video",
       "key": "video/MNwTt06ZxwY",
-      "hash": "08785989a6de2e63b4da9d4a6e9f49c420e6a90091976191c878579f16dd48b8",
+      "hash": "479041a494d87db7f5a16667ed3006af9e1ca01c0682d3865cb0b7e319ceeea1",
       "video_id": "MNwTt06ZxwY",
       "title": "Microsoft presents: Building and shipping agents in Business Central",
-      "at": "2026-10-30T07:53:44.360Z",
+      "at": "2026-11-23T00:53:56.427Z",
       "matches": [
         {
           "feature": 1,
           "name": "Manage user access for agents",
           "t": 180,
           "roadmap_id": "573370",
-          "quote": "Agents can be shared with other users with configurable permissions"
+          "quote": "Manage user access for agents. Agents can be shared with other users with configurable permissions."
         },
         {
-          "feature": 12,
-          "name": "Production agent deployment via extensions",
-          "t": 945,
+          "feature": 3,
+          "name": "Agent instructions configuration",
+          "t": 312,
           "roadmap_id": "578068",
-          "quote": "Agents can be run in production environments by creating an extension"
+          "quote": "Agent instructions configuration. Users can define and iteratively refine agent instructions that specify guidelines and purpose."
+        },
+        {
+          "feature": 9,
+          "name": "User intervention in agent workflows",
+          "t": 704,
+          "roadmap_id": "573363",
+          "quote": "User intervention in agent workflows. Agents can request user intervention when they need feedback or approval."
         },
         {
           "feature": 19,
           "name": "Optional interface methods",
           "t": 1430,
           "roadmap_id": "573352",
-          "quote": "New AL language feature allowing default implementations and optional methods in interfaces"
+          "quote": "Optional interface methods. New AL language feature allowing default implementations and optional methods in interfaces."
+        },
+        {
+          "feature": 21,
+          "name": "AI evaluation tools for agents",
+          "t": 1614,
+          "roadmap_id": "573335",
+          "quote": "AI evaluation tools for agents. Testing framework that allows running tests using own data sets to measure accuracy."
+        },
+        {
+          "feature": 30,
+          "name": "AI development toolkit evaluation extension",
+          "t": 2179,
+          "roadmap_id": "573335",
+          "quote": "AI development toolkit evaluation extension. Extension that bundles test code units, data sets, and config files."
+        },
+        {
+          "feature": 31,
+          "name": "Agent test library",
+          "t": 2202,
+          "roadmap_id": "573335",
+          "quote": "Agent test library. New library app providing utilities for creating turns and executing them, handling intervention requests."
         },
         {
           "feature": 32,
           "name": "Data-driven agent test approach",
           "t": 2151,
           "roadmap_id": "573333",
-          "quote": "Agent tests use data sets containing turn definitions for agent inputs"
+          "quote": "Data-driven agent test approach. Agent tests use data sets containing turn definitions for agent inputs."
+        },
+        {
+          "feature": 34,
+          "name": "AI test type code unit",
+          "t": 2398,
+          "roadmap_id": "573333",
+          "quote": "AI test type code unit. Test code unit using new test type property set to AI test."
         },
         {
           "feature": 35,
           "name": "AI test type property",
           "t": 2356,
           "roadmap_id": "573333",
-          "quote": "A new property for code units that defines the test type as AI test"
+          "quote": "AI test type property. A new property for code units that defines the test type as AI test."
+        },
+        {
+          "feature": 36,
+          "name": "Agent test context code unit",
+          "t": 2442,
+          "roadmap_id": "573333",
+          "quote": "Agent test context code unit. A library code unit that provides context about the current test being executed."
         },
         {
           "feature": 39,
           "name": "Data-driven agent test framework",
           "t": 2641,
           "roadmap_id": "573333",
-          "quote": "A complete framework for creating parameterized agent tests using data sets"
+          "quote": "Data-driven agent test framework. A complete framework for creating parameterized agent tests using data sets."
         }
       ]
     },
@@ -38908,10 +39078,10 @@
     "video/MWXwtRr6-Wk": {
       "kind": "video",
       "key": "video/MWXwtRr6-Wk",
-      "hash": "ca2cb592501baf716d679a5fc64b05da95956163b5d1806feb0162843f653a53",
+      "hash": "745ee0b1f440973e67dbfee4dac8889212d79a47c36b4c186b6400cf702e37a3",
       "video_id": "MWXwtRr6-Wk",
       "title": "What's New: VAT Date in Business Central (2023 release wave 2)",
-      "at": "2026-11-02T00:53:08.290Z",
+      "at": "2026-11-23T00:53:44.410Z",
       "matches": []
     },
     "video/mXvKs6X1DNk": {
@@ -38926,10 +39096,10 @@
     "video/MYZOkoSmtZ0": {
       "kind": "video",
       "key": "video/MYZOkoSmtZ0",
-      "hash": "83bb06c9e54af8100c37bfcd45c44eed276c58f244a02366811ad4bc0e48e180",
+      "hash": "ec8bc675f0f92557f57f96bb1538e066715c6326e5958608449c191a0771a4bd",
       "video_id": "MYZOkoSmtZ0",
       "title": "Store Business Central Telemetry in Azure Application Insights",
-      "at": "2026-10-23T23:47:51.490Z",
+      "at": "2026-11-23T00:53:50.259Z",
       "matches": []
     },
     "video/mZNfMPpxovE": {

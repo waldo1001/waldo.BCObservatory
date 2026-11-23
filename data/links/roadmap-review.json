@@ -1318,217 +1318,237 @@
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-configuration-trace.md@b6d86fa30c97c4d4": {
         "verdict": "drop",
         "reason": "MCP configuration telemetry, not custom data queries.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-server-trace.md@76b2ef9f35f9c38b": {
         "verdict": "drop",
-        "reason": "Tool call telemetry is a different capability.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Tool call telemetry, not the data query tools.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md@594338000aff45d5": {
         "verdict": "drop",
-        "reason": "AL development MCP server, unrelated to data queries.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "AL development MCP server, a different product.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-22-1.md@e4e00f23ab2d0f9c": {
         "verdict": "drop",
-        "reason": "Old update notes unrelated to MCP queries.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Unrelated 2023 update.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/0WAOtNaKjws#5@7b84cb59744f5d3c": {
         "verdict": "drop",
         "reason": "MCP resources support is a different capability.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/0WAOtNaKjws#6@7b84cb59744f5d3c": {
         "verdict": "drop",
-        "reason": "Embedded resources for large data is a different capability.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Embedded file resources, not custom query tools.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/4HE3BBCcV84#0@c5fe2a2a532e1563": {
         "verdict": "drop",
-        "reason": "Exposes existing API queries, not custom queries without APIs.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Exposes existing API queries, not custom queries where no API exists.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/4HE3BBCcV84#2@c5fe2a2a532e1563": {
         "verdict": "drop",
-        "reason": "Configuration of API query objects is a different, earlier capability.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Configuring existing API query objects is an older, different capability.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/AMVAiPTfSrU#1@8e56bd0b31620b69": {
         "verdict": "drop",
         "reason": "General MCP server mention.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/B9VbZzC2p7E#0@52a39dc6517d202c": {
         "verdict": "drop",
-        "reason": "Third-party spreadsheet SQL agent, not MCP server tools.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Third-party spreadsheet SQL agent, not MCP query tools.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/B9VbZzC2p7E#1@52a39dc6517d202c": {
         "verdict": "drop",
-        "reason": "Third-party spreadsheet app, not MCP query tools.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Third-party spreadsheet app, unrelated.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/C5cmG3sNjUg#0@a099f952caced881": {
         "verdict": "drop",
-        "reason": "General MCP server exposing APIs.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "General MCP server over APIs.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/C5cmG3sNjUg#3@a099f952caced881": {
         "verdict": "drop",
-        "reason": "Dynamic tools for API pages, not custom queries.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Dynamic tools over API pages, not data query tools.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/C5OdiYfxozc#2@9c805c7414770aa4": {
         "verdict": "drop",
-        "reason": "Community BC Observatory MCP server, different product.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "BC Observatory MCP server, a different product.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/C5OdiYfxozc#5@9c805c7414770aa4": {
         "verdict": "drop",
-        "reason": "Observatory metadata queries, not Business Central MCP query tools.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Observatory metadata queries, not BC MCP data queries.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/EpDIrJE0HzA#2@0082858619a6cfc5": {
         "verdict": "drop",
-        "reason": "MCP configurations page for APIs, different capability.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "MCP configurations page for APIs, too general.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/H5EuObmeF4o#1@81bcc46a2071446e": {
         "verdict": "drop",
         "reason": "General MCP server announcement.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/IDYhxt-8ImI#22@6aa27ab1780c7a48": {
         "verdict": "drop",
         "reason": "General MCP explanation.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/iViHfCgL2L8#0@b4735c7cd0586a45": {
         "verdict": "drop",
         "reason": "General MCP server introduction.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/iViHfCgL2L8#2@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Default read-only configuration, different capability.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Default read-only configuration, a different capability.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/iViHfCgL2L8#3@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "Write configurations, different capability.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Write scenarios configuration, unrelated.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
-      "video/LerAo-GGl8U#0@bad4154ca6e36eb9": {
+      "video/LerAo-GGl8U#0@5a41f3a049d4ef06": {
         "verdict": "drop",
-        "reason": "Admin MCP server, different product.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Admin MCP server, a different product.",
+        "at": "2026-11-23T00:54:18.741Z"
+      },
+      "video/LerAo-GGl8U#4@5a41f3a049d4ef06": {
+        "verdict": "drop",
+        "reason": "Admin MCP setup, unrelated.",
+        "at": "2026-11-23T00:54:18.741Z"
+      },
+      "video/LerAo-GGl8U#5@5a41f3a049d4ef06": {
+        "verdict": "drop",
+        "reason": "Admin diagnostics, unrelated.",
+        "at": "2026-11-23T00:54:18.741Z"
+      },
+      "video/LerAo-GGl8U#8@5a41f3a049d4ef06": {
+        "verdict": "drop",
+        "reason": "Admin MCP tool invocation, unrelated.",
+        "at": "2026-11-23T00:54:18.741Z"
+      },
+      "video/LerAo-GGl8U#9@5a41f3a049d4ef06": {
+        "verdict": "drop",
+        "reason": "Admin MCP connection, unrelated.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/mBU2Iu0urw8#18@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "AL development MCP server.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "AL MCP server, unrelated.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/mBU2Iu0urw8#34@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "AL development tooling.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "AL dev MCP tools, unrelated.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/mBU2Iu0urw8#8@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "AL development MCP servers.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "AL dev MCP servers, unrelated.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/q3xnjJD32kk#4@8159e1ae25b35be5": {
         "verdict": "keep",
-        "reason": "Agents build and run queries through MCP tools without APIs.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Shows agents constructing and running queries through MCP tools without APIs.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/qs1cg-GoDeQ#0@e6991223be0c260e": {
         "verdict": "keep",
         "reason": "Find tables tool is part of the MCP data query tool set.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/qs1cg-GoDeQ#1@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Table relations tool helps define join queries in the data query feature.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Table relations tool supports writing the data queries.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/qs1cg-GoDeQ#2@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Table schema tool supports defining queries in the data tool set.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Table schema tool is part of the data query tool set.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/qs1cg-GoDeQ#3@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Data query tool runs AL queries without APIs.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Data query tool runs AL queries directly without APIs.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/qs1cg-GoDeQ#4@e6991223be0c260e": {
         "verdict": "keep",
-        "reason": "Agents build and compile AL queries for ad hoc analysis.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Describes agents constructing and compiling AL queries for ad hoc analysis.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/rm-FstU_I80#0@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP server description.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/rm-FstU_I80#10@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Static configuration for writes, different capability.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Static configuration for writes, unrelated.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/rm-FstU_I80#11@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Default read-only access, different capability.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Default read-only access, unrelated.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/rm-FstU_I80#14@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Search/describe/invoke tools for APIs, not custom queries.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Search/describe/invoke tools, not data query tools.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/rm-FstU_I80#15@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Natural language retrieval through existing APIs, not custom queries.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Natural language retrieval via existing APIs, not custom queries.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/rm-FstU_I80#19@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Validate here concerns API related-entity exposure, not query validation.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Validate here concerns API related entities, not query validation.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/rm-FstU_I80#2@0f4bbcf3b92a052f": {
         "verdict": "drop",
         "reason": "General MCP tools component.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/rm-FstU_I80#22@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Exposes existing queries through configuration, not custom queries defined by agents.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Exposing existing queries via configuration, a different capability.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/rm-FstU_I80#23@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Page/API selection, different capability.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Page/API selection, unrelated.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/rm-FstU_I80#6@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "General MCP server description.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "General MCP description.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/rm-FstU_I80#9@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Dynamic tool mode, different capability.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Dynamic tool configuration, unrelated.",
+        "at": "2026-11-23T00:54:18.741Z"
       },
       "video/x0XF0lBvgEE#2@b58c3bf367517517": {
         "verdict": "keep",
-        "reason": "Explicitly announces running data queries with MCP server.",
-        "at": "2026-11-22T00:54:24.704Z"
+        "reason": "Explicitly announces running data queries with MCP server in version 29.",
+        "at": "2026-11-23T00:54:18.741Z"
       }
     },
     "573313": {
@@ -2509,193 +2529,203 @@
     "573333": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-extension-advanced-example-test.md@a27c8da67dace2f1": {
         "verdict": "drop",
-        "reason": "General testing walkthrough for a sample extension; no data-driven tests or test handlers.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Covers general test codeunits and UI handlers in a sample extension, not data-driven tests or lifecycle test handlers.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-test-codeunits-and-test-methods.md@fef0d723518378f2": {
         "verdict": "keep",
-        "reason": "Documents the TestHandlers property, TestDataSource attribute, data-driven tests and lifecycle callbacks.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Documents the TestDataSource attribute, data-driven tests, the TestHandlers property and lifecycle callbacks.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-testrunner-codeunits.md@dcfb3196dfe1d62d": {
         "verdict": "drop",
-        "reason": "Test runner codeunits are an existing capability, not the new data sources or handlers.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Test runner codeunits are an existing capability, separate from the new test handlers.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/9CW5mydS9Vs#9@613563b1d4191fc3": {
         "verdict": "keep",
-        "reason": "Announces native data-driven tests in AL with test data source attributes.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Announces native data-driven tests in AL using test data source attributes.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#10@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent picker for agent evals is a different capability.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "An agent picker for agent evals is a different capability.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#11@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval YAML setup keyword, not native AL data-driven tests or handlers.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "A YAML setup-data keyword in the agent test library is not the native data-source feature.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#12@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Test library defaulting of fields is unrelated to the feature.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Test library field defaulting is unrelated to this feature.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#13@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval suite setup caching, not lifecycle test handlers.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Suite setup caching in agent evals is not the test handler mechanism.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#14@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent turn helper keyword, a different capability.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Describes an agent eval helper keyword, which is a different capability.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#15@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval expected-data keyword, a different capability.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Describes an agent eval expected-data keyword, which is a different capability.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#16@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval error reason logging, not the new test handlers.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Error reason logging in agent evals is not this feature.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#17@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval turn history logging, a different capability.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Agent eval history logging is a different capability.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#18@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval log download, a different capability.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Agent eval log downloads are a different capability.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#19@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent test library methods, unrelated to the feature.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Library agent public methods are a different capability.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#2@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "YAML-driven agent eval tests are the existing AI test framework, not native data-source tests.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "YAML datasets for agent evals come from the existing AI test toolkit, not native AL data sources.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#4@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval YAML syntax, a different capability.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Agent eval YAML syntax is a different capability.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#5@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval YAML turn setup section, a different capability.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "An agent eval YAML section is a different capability.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#6@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval message attachments, unrelated.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "An agent eval YAML section is a different capability.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#7@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Agent eval expected data section, a different capability.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "An agent eval YAML section is a different capability.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#8@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Multi-turn agent testing, unrelated.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Multi-turn agent testing is a different capability.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/aNRzlbxVPWE#9@1e26d0872beca40a": {
         "verdict": "drop",
-        "reason": "Date placeholders in agent eval YAML, a different capability.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Date placeholders in agent eval YAML are not the native data-driven test feature.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/D_Lur52IrIg#12@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "Shows the new data-driven test source pattern iterating over reusable data rows.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Demonstrates the new pattern where one test method iterates over reusable data rows.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/D_Lur52IrIg#13@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "Shows the test handler interface with lifecycle hooks at codeunit and procedure level.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Demonstrates the test handler interface with its lifecycle hooks.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/EurgqGU1jG0#0@57e74b9e3ccf7b82": {
         "verdict": "drop",
-        "reason": "Code coverage coding pattern, not this feature.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Describes a general coding pattern for code coverage, not this feature.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/EurgqGU1jG0#16@57e74b9e3ccf7b82": {
         "verdict": "drop",
         "reason": "Pure functions for testability is general guidance.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/hNom9ZZuca0#0@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Announces data-driven testing in AL with multiple data sets per test method.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Announces data-driven testing in AL.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/hNom9ZZuca0#1@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Explains the test data source interface for custom data sources.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Explains the test data source interface for reusable data sources.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/hNom9ZZuca0#2@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Shows how data-driven tests work in the VS Code test explorer.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Shows data-driven tests in the VS Code test explorer, which is part of the feature.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/hNom9ZZuca0#4@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Explains test handlers for setup and teardown at multiple levels.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Explains test handlers for setup and teardown at several levels.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/hNom9ZZuca0#5@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Explains opt-in test handlers declared via the TestHandlers property.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Explains opt-in test handlers declared through the TestHandlers property.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/hNom9ZZuca0#6@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Explains default global test handlers used for telemetry and shared setup.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Explains default test handlers that run on every test.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/hNom9ZZuca0#7@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Documents the ITestHandler interface with before/after hooks.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Documents the ITestHandler interface and its lifecycle hooks.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/hNom9ZZuca0#8@e20f8a1a85eebcec": {
         "verdict": "keep",
         "reason": "Documents the TestHandlers property used to register handlers.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/hNom9ZZuca0#9@e20f8a1a85eebcec": {
         "verdict": "keep",
-        "reason": "Shows conditional test case skipping, a behavior of test handlers.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Shows test handlers conditionally skipping test cases, which is a handler behavior.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
-      "video/MNwTt06ZxwY#32@08785989a6de2e63": {
+      "video/MNwTt06ZxwY#32@479041a494d87db7": {
         "verdict": "drop",
-        "reason": "Agent test data sets are a different, earlier framework.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "Describes agent test datasets from the AI test framework, not native AL data sources.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
-      "video/MNwTt06ZxwY#35@08785989a6de2e63": {
+      "video/MNwTt06ZxwY#34@479041a494d87db7": {
         "verdict": "drop",
-        "reason": "AI test type property is unrelated to data sources or handlers.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "The AI test type codeunit is a different capability.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
-      "video/MNwTt06ZxwY#39@08785989a6de2e63": {
+      "video/MNwTt06ZxwY#35@479041a494d87db7": {
         "verdict": "drop",
-        "reason": "Parameterized agent test framework with data sets is the separate agent eval capability.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "The AI test type property is a different capability.",
+        "at": "2026-11-23T00:54:13.502Z"
+      },
+      "video/MNwTt06ZxwY#36@479041a494d87db7": {
+        "verdict": "drop",
+        "reason": "The agent test context codeunit is a different capability.",
+        "at": "2026-11-23T00:54:13.502Z"
+      },
+      "video/MNwTt06ZxwY#39@479041a494d87db7": {
+        "verdict": "drop",
+        "reason": "The agent dataset framework is the existing AI test toolkit, not this feature.",
+        "at": "2026-11-23T00:54:13.502Z"
       },
       "video/V4zCPAsYi_Y#3@513b719e619113d0": {
         "verdict": "drop",
-        "reason": "YAML/XML agent test configuration is a different capability.",
-        "at": "2026-11-20T00:53:25.093Z"
+        "reason": "YAML and XML agent test configuration is a different capability.",
+        "at": "2026-11-23T00:54:13.502Z"
       }
     },
     "573334": {
@@ -2733,78 +2763,98 @@
     "573335": {
       "docs/learn-devitpro/dev-itpro/administration/scheduled-performance-profiler-overview.md@30b55020b61a8f6f": {
         "verdict": "keep",
-        "reason": "The page text lists AI agent profiling and MCP server integration as features of the scheduled performance profiler.",
-        "at": "2026-11-20T00:53:23.488Z"
+        "reason": "The Learn page lists AI agent profiling and MCP server integration as features of the profiler.",
+        "at": "2026-11-23T00:54:13.040Z"
       },
       "video/0qt0Zy9ZsRo#1@7ff261a9571f8291": {
         "verdict": "drop",
-        "reason": "Describes the older 2024 scheduled profiles capability with no AI agent involvement.",
-        "at": "2026-11-20T00:53:23.488Z"
+        "reason": "Describes the 2024 scheduled profiles capability, which has no AI agent involvement.",
+        "at": "2026-11-23T00:54:13.040Z"
       },
       "video/0qt0Zy9ZsRo#2@7ff261a9571f8291": {
         "verdict": "drop",
-        "reason": "Shows manual schedule configuration from the 2024 release, not agent-driven profiling.",
-        "at": "2026-11-20T00:53:23.488Z"
+        "reason": "Shows manual setup of a profile schedule from the 2024 release, not agent-driven profiling.",
+        "at": "2026-11-23T00:54:13.040Z"
       },
       "video/0qt0Zy9ZsRo#3@7ff261a9571f8291": {
         "verdict": "drop",
-        "reason": "Shows the existing Performance Profiles page from 2024, not the agent capability.",
-        "at": "2026-11-20T00:53:23.488Z"
+        "reason": "Shows the general Performance Profiles page from the older release.",
+        "at": "2026-11-23T00:54:13.040Z"
       },
       "video/0qt0Zy9ZsRo#4@7ff261a9571f8291": {
         "verdict": "drop",
-        "reason": "Shows the existing call tree analysis in profile results, not agent-driven profiling.",
-        "at": "2026-11-20T00:53:23.488Z"
+        "reason": "Shows manual call tree analysis in the older profiler, not done by an agent.",
+        "at": "2026-11-23T00:54:13.040Z"
       },
       "video/D_Lur52IrIg#15@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "Coding agents capture performance profiles through MCP tools without an active debugging session, which is the core of this feature.",
-        "at": "2026-11-20T00:53:23.488Z"
+        "reason": "Coding agents capture performance profiles through MCP tools without an active debugging session, which is exactly this feature.",
+        "at": "2026-11-23T00:54:13.040Z"
       },
       "video/D_Lur52IrIg#16@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "The MCP proxy command lets agents start and monitor profiling, which is part of this feature.",
-        "at": "2026-11-20T00:53:23.488Z"
+        "reason": "An MCP proxy command lets agents start and monitor profiling, which is part of this feature.",
+        "at": "2026-11-23T00:54:13.040Z"
       },
       "video/D_Lur52IrIg#17@1d309b6a70eb87de": {
         "verdict": "drop",
-        "reason": "Covers snapshot recordings, a different capability from profiling.",
-        "at": "2026-11-20T00:53:23.488Z"
+        "reason": "Covers agents capturing snapshot recordings, a separate capability from profiling.",
+        "at": "2026-11-23T00:54:13.040Z"
+      },
+      "video/M1S2_bgLd3Q#13@b48a0d1bb3ed1101": {
+        "verdict": "drop",
+        "reason": "Describes the 2025 addition of SQL call information to profiles, an older change with no agent involvement.",
+        "at": "2026-11-23T00:54:13.040Z"
       },
       "video/mBU2Iu0urw8#13@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "Covers debugger MCP tools used during debugging sessions, not scheduled session profiling.",
-        "at": "2026-11-20T00:53:23.488Z"
+        "reason": "Covers MCP tools used during debugging sessions, not profiling.",
+        "at": "2026-11-23T00:54:13.040Z"
       },
       "video/mBU2Iu0urw8#20@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "Covers database statistics access within a debugging session, not agent-scheduled profiling.",
-        "at": "2026-11-20T00:53:23.488Z"
+        "reason": "Covers database statistics available to the agent during debugging, not profiling.",
+        "at": "2026-11-23T00:54:13.040Z"
       },
       "video/mBU2Iu0urw8#21@58e64b6744a3f5f9": {
         "verdict": "drop",
-        "reason": "Covers stack frame and variable analysis in the debugger, a different capability.",
-        "at": "2026-11-20T00:53:23.488Z"
+        "reason": "Covers stack frame and variable analysis while debugging, a different capability.",
+        "at": "2026-11-23T00:54:13.040Z"
+      },
+      "video/MNwTt06ZxwY#21@479041a494d87db7": {
+        "verdict": "drop",
+        "reason": "Covers AI evaluation tools for testing agents, which is unrelated.",
+        "at": "2026-11-23T00:54:13.040Z"
+      },
+      "video/MNwTt06ZxwY#30@479041a494d87db7": {
+        "verdict": "drop",
+        "reason": "Covers an extension for agent evaluation tests, which is unrelated.",
+        "at": "2026-11-23T00:54:13.040Z"
+      },
+      "video/MNwTt06ZxwY#31@479041a494d87db7": {
+        "verdict": "drop",
+        "reason": "Covers a library for writing agent tests, which is unrelated.",
+        "at": "2026-11-23T00:54:13.040Z"
       },
       "video/UFLo2XGGS14#0@022c4252c5c9fc07": {
         "verdict": "keep",
-        "reason": "Describes the AI-guided workflow in which the agent coordinates profiling to investigate production problems.",
-        "at": "2026-11-20T00:53:23.488Z"
+        "reason": "Describes an AI-guided workflow in which the agent coordinates profiling to investigate production problems.",
+        "at": "2026-11-23T00:54:13.040Z"
       },
       "video/UFLo2XGGS14#5@022c4252c5c9fc07": {
         "verdict": "keep",
-        "reason": "The profiling MCP server captures CPU profiles, SQL, HTTP and memory metrics for a targeted session ID, matching the feature.",
-        "at": "2026-11-20T00:53:23.488Z"
+        "reason": "A profiling MCP server captures CPU profiles with SQL, HTTP and memory metrics for specific sessions.",
+        "at": "2026-11-23T00:54:13.040Z"
       },
       "video/UFLo2XGGS14#6@022c4252c5c9fc07": {
         "verdict": "keep",
-        "reason": "Agents start sampling schedules for a session ID and get back CPU profiles with SQL and HTTP metrics, matching the feature.",
-        "at": "2026-11-20T00:53:23.488Z"
+        "reason": "Agents start sampling schedules for a session ID and get back CPU profiles with SQL and HTTP metrics.",
+        "at": "2026-11-23T00:54:13.040Z"
       },
       "video/UFLo2XGGS14#7@022c4252c5c9fc07": {
         "verdict": "keep",
-        "reason": "Agents use telemetry to find performance issues, then trigger profiling with session IDs, which is part of this workflow.",
-        "at": "2026-11-20T00:53:23.488Z"
+        "reason": "Agents use telemetry to find performance issues and then trigger profiling with session IDs.",
+        "at": "2026-11-23T00:54:13.040Z"
       }
     },
     "573336": {
@@ -4022,35 +4072,50 @@
       }
     },
     "573359": {
-      "video/D_Lur52IrIg#7@27cf5cb45e38c4b5": {
+      "video/D_Lur52IrIg#7@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "Directly describes namespace-based translation IDs that prevent collisions for objects with the same name in different namespaces.",
-        "at": "2026-10-30T08:03:05.608Z"
+        "reason": "Describes namespace-based translation IDs that remove collisions between objects with the same name, which is exactly this feature.",
+        "at": "2026-11-23T00:54:03.539Z"
+      },
+      "video/KmuTVkodRXM#0@b19cec27fe86df7c": {
+        "verdict": "drop",
+        "reason": "Covers a namespace field in the All Objects with Captions table, not translation identifiers.",
+        "at": "2026-11-23T00:54:03.539Z"
+      },
+      "video/KmuTVkodRXM#1@b19cec27fe86df7c": {
+        "verdict": "drop",
+        "reason": "Covers Record ID formatting with namespaces, which has nothing to do with translation.",
+        "at": "2026-11-23T00:54:03.539Z"
+      },
+      "video/KmuTVkodRXM#2@b19cec27fe86df7c": {
+        "verdict": "drop",
+        "reason": "Covers evaluating a Record ID against a namespace, a different capability.",
+        "at": "2026-11-23T00:54:03.539Z"
       },
       "video/TY82NR2hGEg#3@9516580e4990ce88": {
         "verdict": "drop",
-        "reason": "Covers the original 2023 introduction of namespaces in general, not namespace-aware translation identifiers.",
-        "at": "2026-10-30T08:03:05.608Z"
+        "reason": "Covers the older introduction of namespaces in general, not namespace-aware translation.",
+        "at": "2026-11-23T00:54:03.539Z"
       },
       "video/TY82NR2hGEg#4@9516580e4990ce88": {
         "verdict": "drop",
-        "reason": "Using directives are an older namespace capability that has nothing to do with translation.",
-        "at": "2026-10-30T08:03:05.608Z"
+        "reason": "Covers using directives, an older namespace feature unrelated to translation.",
+        "at": "2026-11-23T00:54:03.539Z"
       },
       "video/TY82NR2hGEg#5@9516580e4990ce88": {
         "verdict": "drop",
-        "reason": "Fully qualified object references are an older namespace feature and do not cover translation identifiers.",
-        "at": "2026-10-30T08:03:05.608Z"
+        "reason": "Covers fully qualified object names in code, not translation identifiers.",
+        "at": "2026-11-23T00:54:03.539Z"
       },
       "video/TY82NR2hGEg#6@9516580e4990ce88": {
         "verdict": "drop",
-        "reason": "IDE code actions for namespaces are a different capability, not translation.",
-        "at": "2026-10-30T08:03:05.608Z"
+        "reason": "Covers IDE code actions for namespaces, a different capability.",
+        "at": "2026-11-23T00:54:03.539Z"
       },
       "video/TY82NR2hGEg#7@9516580e4990ce88": {
         "verdict": "drop",
-        "reason": "Grouping by namespace in AL Explorer is a different tooling feature, not translation.",
-        "at": "2026-10-30T08:03:05.608Z"
+        "reason": "Covers grouping by namespace in AL Explorer, which is unrelated to translation.",
+        "at": "2026-11-23T00:54:03.539Z"
       }
     },
     "573360": {
@@ -4307,43 +4372,53 @@
     "573363": {
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-0.md@99fb0ace6dfb3876": {
         "verdict": "keep",
-        "reason": "The 2026 release wave 1 What's New page lists this exact feature, 'Manage tasks from all agents in task pane'.",
-        "at": "2026-11-21T00:52:35.934Z"
+        "reason": "The 28.0 What's New page lists this feature by name: 'Manage tasks from all agents in task pane'.",
+        "at": "2026-11-23T00:54:11.948Z"
       },
       "docs/learn-smb-docs/business-central/across-user-tasks.md@76e9f934c0fbbfb8": {
         "verdict": "drop",
-        "reason": "Covers user-assigned tasks such as finance checklists, which are a different capability from agent-generated tasks.",
-        "at": "2026-11-21T00:52:35.934Z"
+        "reason": "Covers general user tasks (assigning to people or groups), which is a different capability from tasks created by agents.",
+        "at": "2026-11-23T00:54:11.948Z"
       },
       "video/EwN3xb2q7vE#11@d066304a1f8cc1cb": {
         "verdict": "drop",
-        "reason": "Describes the developer API for creating agent tasks in code, not the user-facing pane that collects tasks from all agents.",
-        "at": "2026-11-21T00:52:35.934Z"
+        "reason": "Describes the developer Tasks API for creating agent tasks in code, not the user-facing task pane.",
+        "at": "2026-11-23T00:54:11.948Z"
       },
       "video/EwN3xb2q7vE#12@d066304a1f8cc1cb": {
         "verdict": "drop",
-        "reason": "Explains how agent tasks and messages are structured, which is general background rather than the dedicated task pane.",
-        "at": "2026-11-21T00:52:35.934Z"
+        "reason": "Explains the developer task and message model in general terms, not the dedicated task pane.",
+        "at": "2026-11-23T00:54:11.948Z"
+      },
+      "video/MKuOgMWXJ_8#5@78b06bebc9753d98": {
+        "verdict": "drop",
+        "reason": "Shows tracking the steps of one agent task, which is existing UI and not the pane that collects tasks from all agents.",
+        "at": "2026-11-23T00:54:11.948Z"
+      },
+      "video/MNwTt06ZxwY#9@479041a494d87db7": {
+        "verdict": "drop",
+        "reason": "Describes agents asking for user intervention and the task log, which is a different capability.",
+        "at": "2026-11-23T00:54:11.948Z"
       },
       "video/moPzf04Mwlc#2@368a90323871af98": {
         "verdict": "drop",
-        "reason": "Describes the task log pane for following one agent's execution steps, not a combined pane for tasks from all agents.",
-        "at": "2026-11-21T00:52:35.934Z"
+        "reason": "Describes the task log pane for one task's execution steps, not the pane that collects tasks from all agents.",
+        "at": "2026-11-23T00:54:11.948Z"
       },
       "video/moPzf04Mwlc#5@368a90323871af98": {
         "verdict": "drop",
-        "reason": "Covers agents asking for human help through a review pane, which is a different capability.",
-        "at": "2026-11-21T00:52:35.934Z"
+        "reason": "Describes agents asking users for help through a review pane, which is a different capability.",
+        "at": "2026-11-23T00:54:11.948Z"
       },
       "video/XhO4oFmoh1M#2@3d7ec63ef426adeb": {
         "verdict": "drop",
-        "reason": "Shows the older 2025 release wave 1 Sales Order Agent task view inside the Copilot pane, not the new separate pane for all agents.",
-        "at": "2026-11-21T00:52:35.934Z"
+        "reason": "Shows the older 2025 wave 1 view inside the Copilot pane for the Sales Order Agent only, not the new dedicated pane for all agents.",
+        "at": "2026-11-23T00:54:11.948Z"
       },
       "video/xJ8gYzvWnTI#1@a156f6f7a8eca787": {
         "verdict": "keep",
-        "reason": "Shows the new dedicated agent task pane, separate from the main experience, that manages tasks from the built-in and custom agents.",
-        "at": "2026-11-21T00:52:35.934Z"
+        "reason": "Announces the dedicated agent task pane, separate from the main experience, for managing tasks from built-in and custom agents.",
+        "at": "2026-11-23T00:54:11.948Z"
       }
     },
     "573364": {
@@ -4418,23 +4493,28 @@
     "573366": {
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-0.md@99fb0ace6dfb3876": {
         "verdict": "keep",
-        "reason": "The release notes list this exact feature, 'Review content generated by agents on pages', so they announce it.",
-        "at": "2026-11-10T00:51:37.532Z"
+        "reason": "The quoted line says the 28.0 What's New page lists 'Review content generated by agents on pages', which is this feature.",
+        "at": "2026-11-23T00:54:20.704Z"
       },
-      "video/1IIlArcHpOY#3@66beea05609579a7": {
-        "verdict": "keep",
-        "reason": "It shows users reviewing agent-filled fields with explanations before submitting, which is the inline review this feature adds.",
-        "at": "2026-11-10T00:51:37.532Z"
+      "video/EwN3xb2q7vE#19@d066304a1f8cc1cb": {
+        "verdict": "drop",
+        "reason": "Events that fire only in agent sessions are a developer capability, not reviewing agent content on pages.",
+        "at": "2026-11-23T00:54:20.704Z"
       },
       "video/fgWFOMPJd6U#0@5b733de8c870a091": {
         "verdict": "drop",
-        "reason": "Summarize with Copilot is a different Copilot feature, not a review of agent-generated content.",
-        "at": "2026-11-10T00:51:37.532Z"
+        "reason": "Summarize with Copilot is a separate Copilot summary feature, not reviewing agent-generated content.",
+        "at": "2026-11-23T00:54:20.704Z"
+      },
+      "video/MKuOgMWXJ_8#6@78b06bebc9753d98": {
+        "verdict": "drop",
+        "reason": "Reviewing the agent's outgoing messages is a different review flow, not inline review on pages.",
+        "at": "2026-11-23T00:54:20.704Z"
       },
       "video/moPzf04Mwlc#3@368a90323871af98": {
         "verdict": "keep",
-        "reason": "It shows on-page eye icons and justifications marking which fields the agent changed, part of reviewing agent content in context.",
-        "at": "2026-11-10T00:51:37.532Z"
+        "reason": "It shows on-page indicators (eye icons and justifications) for fields the agent filled, which lets users review agent content in place.",
+        "at": "2026-11-23T00:54:20.704Z"
       }
     },
     "573367": {
@@ -4464,20 +4544,20 @@
       }
     },
     "573370": {
-      "video/MNwTt06ZxwY#1@08785989a6de2e63": {
+      "video/MKuOgMWXJ_8#3@78b06bebc9753d98": {
         "verdict": "drop",
-        "reason": "This segment covers which users can access and share an agent, not granting the agent extra permissions when it asks for them.",
-        "at": "2026-10-30T08:02:28.764Z"
+        "reason": "Describes restricting agents to reduced permission sets, not granting additional permissions upon agent request.",
+        "at": "2026-11-23T00:54:19.359Z"
+      },
+      "video/MNwTt06ZxwY#1@479041a494d87db7": {
+        "verdict": "drop",
+        "reason": "About managing which users can access or configure an agent, not the agent's own permission requests.",
+        "at": "2026-11-23T00:54:19.359Z"
       },
       "video/nbGw2g3KMXI#4@243db13b53ccaf67": {
         "verdict": "drop",
-        "reason": "This only says in general that agents need permissions like real users, with no mention of assigning them when the agent asks.",
-        "at": "2026-10-30T08:02:28.764Z"
-      },
-      "video/XhO4oFmoh1M#11@1c2f254a880e0caf": {
-        "verdict": "drop",
-        "reason": "This shows admins setting agent permission sets the existing way, not the new flow for granting permissions when the agent requests them.",
-        "at": "2026-10-30T08:02:28.764Z"
+        "reason": "General statement that agents need permissions like users; no mention of assigning permissions when requested.",
+        "at": "2026-11-23T00:54:19.359Z"
       }
     },
     "573371": {
@@ -4866,163 +4946,180 @@
     "573384": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-page-scripting.md@638c3b095ba19407": {
         "verdict": "keep",
-        "reason": "Learn page documents the page scripting tool including multiple row selection, a capability added by this feature.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Learn page documents the page scripting tool including the new multiple row selection capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/_JkZCp64jNw#54@82c883e9340b4ac6": {
         "verdict": "drop",
-        "reason": "About running page scripting tests via AL-Go, not the GA release or its new capabilities.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "About importing page scripting tests via AL-Go, a different capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/5GoAzII20L0#0@b899523c02851044": {
         "verdict": "drop",
-        "reason": "Generic description of the preview-era tool in a CI/CD video; nothing about GA, multi-select or dialog validation.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Generic intro of the tool in a pipeline video; nothing about GA, localization, multi-select or dialog validation.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/5GoAzII20L0#1@b899523c02851044": {
         "verdict": "drop",
-        "reason": "Describes the standalone CI/CD replayer, a different capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Describes the CI/CD replayer package, a different capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#0@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Introduces the tool in preview (2024 wave 1), an older capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Preview-era introduction of the tool, an older state rather than the GA additions.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#1@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era validation steps for controls, not dialog-text validation.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Generic preview validation steps on controls, not validation of message/error dialog text.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#10@89819ef77d98279a": {
         "verdict": "drop",
         "reason": "Preview feature for collapsing nested structures, not part of this GA feature.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#11@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era Power FX expressions, an older capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Power FX expressions are a different, older capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#12@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era wait steps, an older capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Wait steps are an older preview capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#13@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era script parameters, an older capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Script parameters are an older preview capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#14@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era include command, an older capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Script suites via include are an older preview capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#15@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Filter-based single row selection in preview, not multi-row selection.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Filter-based single-line selection, not multi-row selection.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#16@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Pipeline execution of scripts is a different capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Pipeline execution is a different capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#2@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era YAML persistence, an older capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "YAML persistence is an older preview capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#3@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era playback controls, an older capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Playback controls are an older preview capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#4@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era run-to-step, an older capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Run-to-step is an older preview capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#5@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era playback link sharing, an older capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Playback link sharing is an older preview capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#6@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era clipboard, an older capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Clipboard is an older preview capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#7@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era session info pasting, an older capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Session info pasting is an older preview capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#8@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era conditional steps, an older capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Conditional branches are an older preview capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/B8cWQGwajwQ#9@89819ef77d98279a": {
         "verdict": "drop",
-        "reason": "Preview-era optional pages, an older capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Optional pages are an older preview capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/c91E6IykUnk#5@5c8b19f6639f30df": {
         "verdict": "drop",
-        "reason": "Playwright screenshot generation, unrelated to the GA feature.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Playwright screenshot generation only mentions page scripting in passing.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
-      "video/H5EuObmeF4o#21@56c1d175230d9e97": {
+      "video/H5EuObmeF4o#21@81bcc46a2071446e": {
         "verdict": "drop",
-        "reason": "Covers other 2025 wave 2 enhancements, not GA, multi-select or dialog validation.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Describes other enhancements (step deletion, parameter UI, suites), not GA additions.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/kCTYPb5t5XQ#2@91fbb3a0623a70e3": {
         "verdict": "drop",
-        "reason": "AL-Go build summary visualizer, a different capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "AL-Go build summary visualizer is a different capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
-      "video/KnyS6ZKI_2c#0@78d3bcda824e542f": {
+      "video/KnyS6ZKI_2c#0@61c54e61df45c998": {
         "verdict": "drop",
-        "reason": "Step modification enhancements, a different capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Step modification is a different enhancement.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
-      "video/KnyS6ZKI_2c#1@78d3bcda824e542f": {
+      "video/KnyS6ZKI_2c#1@61c54e61df45c998": {
         "verdict": "drop",
-        "reason": "Parameters UI editing, a different capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Parameter UI editing is a different enhancement.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
-      "video/KnyS6ZKI_2c#2@78d3bcda824e542f": {
+      "video/KnyS6ZKI_2c#2@61c54e61df45c998": {
         "verdict": "drop",
-        "reason": "Test suites UI creation, a different capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Test suite UI creation is a different enhancement.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
-      "video/KnyS6ZKI_2c#3@78d3bcda824e542f": {
+      "video/KnyS6ZKI_2c#3@61c54e61df45c998": {
         "verdict": "drop",
-        "reason": "Include script step, a different capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Include script step is a different enhancement.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
-      "video/KnyS6ZKI_2c#4@78d3bcda824e542f": {
+      "video/KnyS6ZKI_2c#4@61c54e61df45c998": {
         "verdict": "drop",
-        "reason": "For-each row iteration, not multi-row selection.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "For-each row iteration is not multi-row selection or dialog validation.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
-      "video/KnyS6ZKI_2c#5@78d3bcda824e542f": {
+      "video/KnyS6ZKI_2c#5@61c54e61df45c998": {
         "verdict": "drop",
-        "reason": "Expression-based conditional branching, a different capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Expression-based conditions are a different enhancement.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
-      "video/KnyS6ZKI_2c#6@78d3bcda824e542f": {
+      "video/KnyS6ZKI_2c#6@61c54e61df45c998": {
         "verdict": "drop",
-        "reason": "Server-side headless replay, a different capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Server-side headless replay is a different capability.",
+        "at": "2026-11-23T00:54:15.875Z"
       },
       "video/tzeO0mc8RJo#25@065597581ae2ee24": {
         "verdict": "drop",
-        "reason": "Announces the tool's preview introduction in 2024 wave 1, an older capability.",
-        "at": "2026-11-18T00:53:30.223Z"
+        "reason": "Preview-era introduction of the tool, not the GA additions.",
+        "at": "2026-11-23T00:54:15.875Z"
+      }
+    },
+    "573605": {
+      "video/M0IzeLSn7qU#5@9f5cb02d6d7f5207": {
+        "verdict": "keep",
+        "reason": "The segment demonstrates setting a maximum approval amount or unlimited approval for each approver, with escalation to the next level.",
+        "at": "2026-11-23T00:54:01.800Z"
+      },
+      "video/M0IzeLSn7qU#6@9f5cb02d6d7f5207": {
+        "verdict": "keep",
+        "reason": "The segment shows ad hoc alternate approvers taking over pending expense reports while the primary approver is unavailable.",
+        "at": "2026-11-23T00:54:01.800Z"
+      },
+      "video/M0IzeLSn7qU#7@9f5cb02d6d7f5207": {
+        "verdict": "keep",
+        "reason": "The segment shows scheduled alternate approvers for set date ranges, with requests redirected automatically during absence.",
+        "at": "2026-11-23T00:54:01.800Z"
       }
     },
     "573614": {
@@ -5235,138 +5332,128 @@
     "576789": {
       "docs/learn-devitpro/dev-itpro/ai/configure-mcp-server.md@2b7e63587e430db7": {
         "verdict": "keep",
-        "reason": "The Learn page documents MCP configurations that expose both API pages and queries, including Data Query Tools.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Learn page documents MCP configurations covering API pages and queries, including Data Query Tools.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/0WAOtNaKjws#5@7b84cb59744f5d3c": {
         "verdict": "drop",
-        "reason": "Support for MCP resources is a separate enhancement, not the expanded API or query access.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "MCP resources protocol support is a different enhancement.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/4HE3BBCcV84#0@c5fe2a2a532e1563": {
         "verdict": "keep",
-        "reason": "It directly announces API query support in the MCP server.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Announces support for API queries in the MCP server.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/4HE3BBCcV84#2@c5fe2a2a532e1563": {
         "verdict": "keep",
-        "reason": "It shows selecting query as an object type in the MCP configuration to reach the analytics API queries.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Shows selecting query as object type in MCP configuration with analytics API queries.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/AMVAiPTfSrU#1@8e56bd0b31620b69": {
         "verdict": "drop",
-        "reason": "It's a general mention of the MCP server with no detail on this enhancement.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "General description of the MCP server without this feature's capabilities.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/C5cmG3sNjUg#0@a099f952caced881": {
         "verdict": "drop",
-        "reason": "This advanced-topics video comes from the earlier introductory series, so it likely describes the original preview's access to built-in APIs.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Earlier general MCP server overview, not the new all-Microsoft-APIs or query support.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/GeT5E_f9A9Q#0@2874877118cc9d70": {
         "verdict": "drop",
-        "reason": "It covers MCP configurations in general, which is older and not specific to this feature.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Named configurations are an earlier MCP capability.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/GeT5E_f9A9Q#1@2874877118cc9d70": {
         "verdict": "drop",
         "reason": "Dynamic tool mode is a different, earlier capability.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/GeT5E_f9A9Q#2@2874877118cc9d70": {
         "verdict": "drop",
-        "reason": "The setting for discovering additional objects is a different, earlier capability.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Discover additional objects toggle is a different capability.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/GeT5E_f9A9Q#3@2874877118cc9d70": {
         "verdict": "drop",
-        "reason": "Support for bound actions is a different capability.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Bound actions are a different capability.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/GeT5E_f9A9Q#4@2874877118cc9d70": {
         "verdict": "drop",
-        "reason": "The read-only default configuration isn't part of this feature.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Read-only default is a different capability.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/GeT5E_f9A9Q#5@2874877118cc9d70": {
         "verdict": "drop",
-        "reason": "The authentication model is a general topic, not this enhancement.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Authentication model is unrelated to expanded API/query access.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/GK6hM-nBYZk#1@927b08d956921338": {
         "verdict": "drop",
-        "reason": "It only mentions the MCP server in general.",
-        "at": "2026-11-21T00:52:37.844Z"
-      },
-      "video/IDYhxt-8ImI#22@7ab728d0a7abc892": {
-        "verdict": "drop",
-        "reason": "It's a general explanation of MCP.",
-        "at": "2026-11-21T00:52:37.844Z"
-      },
-      "video/IDYhxt-8ImI#23@7ab728d0a7abc892": {
-        "verdict": "drop",
-        "reason": "It covers Copilot Studio agents using MCP in general.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "General mention of the MCP server.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/iViHfCgL2L8#0@b4735c7cd0586a45": {
         "verdict": "drop",
-        "reason": "It introduces the original MCP server, which is an older capability.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "General introduction of the MCP server.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
-      "video/K8nFVw5M-Po#15@4e70e6c78bacc14e": {
+      "video/LerAo-GGl8U#0@5a41f3a049d4ef06": {
         "verdict": "drop",
-        "reason": "The documentation MCP server is a different product.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Admin MCP server is a different product.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
-      "video/K8nFVw5M-Po#17@4e70e6c78bacc14e": {
+      "video/LerAo-GGl8U#8@5a41f3a049d4ef06": {
         "verdict": "drop",
-        "reason": "Custom MCP servers for vibe coding are unrelated to this feature.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Admin MCP server tool invocation is unrelated.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
-      "video/LerAo-GGl8U#0@bad4154ca6e36eb9": {
+      "video/LerAo-GGl8U#9@5a41f3a049d4ef06": {
         "verdict": "drop",
-        "reason": "The admin MCP server is a different capability.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Admin MCP server connection is unrelated.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/q3xnjJD32kk#4@8159e1ae25b35be5": {
         "verdict": "drop",
-        "reason": "Agents building and running queries without APIs is a different, later capability (2026 release wave 2).",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Querying data without APIs is a different, later capability.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/rm-FstU_I80#0@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "It's a general description of the MCP server.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "General MCP server description.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/rm-FstU_I80#20@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Reusing the connection string is a different capability.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Connection string reuse is a different capability.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/rm-FstU_I80#27@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "Exposing custom APIs for custom fields isn't about Microsoft APIs or API queries.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Custom APIs for custom fields is not this feature.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/rm-FstU_I80#6@0f4bbcf3b92a052f": {
         "verdict": "drop",
-        "reason": "It's a general description of the MCP server.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "General MCP server description.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/UIL8ej7mSKQ#6@ac155d6baa339527": {
         "verdict": "drop",
-        "reason": "It's the original MCP server announcement from 2025 release wave 2, which is older.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Earlier general MCP server announcement.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/zei-IszvYNU#0@244b151f1ad40262": {
         "verdict": "keep",
-        "reason": "It directly announces that all Microsoft published APIs are now available in the MCP server.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "Announces all Microsoft published APIs available in the MCP server.",
+        "at": "2026-11-23T00:54:17.974Z"
       },
       "video/zei-IszvYNU#2@244b151f1ad40262": {
         "verdict": "keep",
-        "reason": "It shows the newly available Microsoft API groups (including analytics) that can be configured in bulk, which is part of the expanded API access.",
-        "at": "2026-11-21T00:52:37.844Z"
+        "reason": "API groups expose the broader set of Microsoft APIs, including analytics, for configuration.",
+        "at": "2026-11-23T00:54:17.974Z"
       }
     },
     "576792": {

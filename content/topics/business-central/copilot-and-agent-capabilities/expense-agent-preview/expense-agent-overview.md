@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,6 +74,7 @@ links:
     - change/bcapps/10386
     - change/bcapps/10431
     - change/bcapps/10670
+    - change/bcapps/12544
     - change/bcapps/13587
     - change/bcapps/13920
     - change/bcapps/13978
@@ -141,6 +142,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10386 [Agent Archiving] Prevent archived custom agents from being modified](../../../../changes/bcapps/10386.md) (code change): "Archived custom agents can now be viewed for auditing but are protected from modification"
 - [#10431 [Agent Archiving] Fix broken reference links to archived agents and their tasks](../../../../changes/bcapps/10431.md) (code change): "Reference links to archived agents and their tasks now open the Agent Card"
 - [#10670 Add Agent Task Log JSON export](../../../../changes/bcapps/10670.md) (code change): "Agent Task Log now supports JSON export of selected rows with detailed context"
+- [#12544 Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)](../../../../changes/bcapps/12544.md) (code change): "The Expense Agent now allows users to submit expenses without a receipt"
 - [#13587 Update Corp Card manual selection](../../../../changes/bcapps/13587.md) (code change): "Updates corporate card manual selection in the Expense Agent app"
 - [#13920 [Main] - Bug 656559: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)](../../../../changes/bcapps/13920.md) (code change): "Fixes mileage starting and ending point addresses longer than 50 characters"
 - [#13978 [Main] - Bug 658633: [Expense Agent] Limited self-approval cannot be combined with escalation to an unlimited approver](../../../../changes/bcapps/13978.md) (code change): "Fixed approval handling in Expense Agent to allow limited self-approval"

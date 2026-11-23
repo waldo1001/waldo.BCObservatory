@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 677a638ebddf18df7e7258c4268c5dd64263937c
@@ -39,7 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/277
 repo_path: microsoft/skills/review/al-xmlport-review.md
 layer: microsoft
 kind: skill
@@ -120,6 +121,10 @@ Output conforms to the DO findings-report contract. Every finding this skill emi
 - [Xmlport.FieldDelimiter(\[Text\]) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlport/xmlportinstance-fielddelimiter-method) (names FieldDelimiter)
 - [Xmlport.RecordSeparator(\[Text\]) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/xmlport/xmlportinstance-recordseparator-method) (names RecordSeparator)
 - [Report.UseRequestPage(\[Boolean\]) Method](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-userequestpage-method) (names UseRequestPage)
+
+## Changed by
+
+- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../../../../changes/bcquality/277.md), 2026-11-19
 
 ---
 

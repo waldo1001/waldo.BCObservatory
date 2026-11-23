@@ -7,12 +7,12 @@ tier: official
 language: en
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-23T00:57:43.266Z"
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -719,7 +719,7 @@ narrative: generated
 
 > Sales in Business Central covers the sales process from quotes and orders to invoicing, shipping, returns, and customer records. It also covers sales analytics and subscription billing. It answers how-to questions on documents, posting, special order types, corrections, and reporting.
 
-Path: [Business functionality](../business-functionality.md) > Sales · tier official · system sales · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../business-functionality.md) > Sales · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

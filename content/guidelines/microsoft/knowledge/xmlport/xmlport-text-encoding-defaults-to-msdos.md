@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1a92a89f66be6fbe97b36a0dd831e27921166bf2
@@ -42,7 +42,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/277
 repo_path: microsoft/knowledge/xmlport/xmlport-text-encoding-defaults-to-msdos.md
 layer: microsoft
 kind: rule
@@ -96,6 +97,10 @@ See sample: [`xmlport-text-encoding-defaults-to-msdos.bad.al`](https://github.co
 
 - [Good: xmlport-text-encoding-defaults-to-msdos.good.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/xmlport/xmlport-text-encoding-defaults-to-msdos.good.al)
 - [Bad: xmlport-text-encoding-defaults-to-msdos.bad.al](https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/xmlport/xmlport-text-encoding-defaults-to-msdos.bad.al)
+
+## Changed by
+
+- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../../../../changes/bcquality/277.md), 2026-11-19
 
 ---
 

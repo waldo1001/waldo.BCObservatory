@@ -276,154 +276,136 @@
       }
     },
     "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts": {
-      "post/aardvarklabs-blog/2271@de7854386541a124": {
-        "verdict": "keep",
-        "reason": "Explains RDLC layout fundamentals and how to edit them in Report Builder, which is a layout type this section documents.",
-        "at": "2026-10-26T06:33:09.158Z",
-        "v": 2
-      },
-      "post/miljan-rs/698@bec4356f9f787950": {
-        "verdict": "keep",
-        "reason": "Covers how to handle page breaks when designing Word layouts.",
-        "at": "2026-10-26T06:33:09.158Z",
-        "v": 2
-      },
-      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619@9e099687770af155": {
-        "verdict": "keep",
-        "reason": "Walks through building composite Word layouts in the UI and with the AL layout properties.",
-        "at": "2026-10-26T06:33:09.158Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/7920@045cac9e80279d60": {
-        "verdict": "drop",
-        "reason": "A release roundup mostly about the Expense Agent, with only one bullet on layout statuses.",
-        "at": "2026-10-26T06:33:09.158Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/8096@af9a75e67b746936": {
-        "verdict": "keep",
-        "reason": "Advises using the Word add-in data picker to add fields when designing Word layouts.",
-        "at": "2026-10-26T06:33:09.158Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/8250@4d0d426b1ccd0819": {
-        "verdict": "keep",
-        "reason": "Introduces the composite Word document layout model.",
-        "at": "2026-10-26T06:33:09.158Z",
-        "v": 2
-      },
-      "post/yzhums-com/69019@2093bd6814c10a11": {
-        "verdict": "drop",
-        "reason": "About adding PDF password protection with the OnPreRendering trigger, not about designing layouts.",
-        "at": "2026-10-26T06:33:09.158Z",
-        "v": 2
-      },
-      "post/yzhums-com/69896@8073357e89ccd37f": {
-        "verdict": "drop",
-        "reason": "About adding Notes data through report extension dataset code, which fits datasets or extensions better.",
-        "at": "2026-10-26T06:33:09.158Z",
-        "v": 2
-      },
-      "post/yzhums-com/70354@8ee43666ec1eaba9": {
-        "verdict": "drop",
-        "reason": "An index of report extension posts whose subject is report extensibility rather than layout design.",
-        "at": "2026-10-26T06:33:09.158Z",
-        "v": 2
-      },
-      "post/yzhums-com/76147@b9cb3ba829ead137": {
-        "verdict": "keep",
-        "reason": "Covers report themes as composable parts of Word layouts.",
-        "at": "2026-10-26T06:33:09.158Z",
-        "v": 2
-      },
-      "post/yzhums-com/76205@ee3ec203d4776f87": {
-        "verdict": "keep",
-        "reason": "Explains the new Subtype property on Word layouts.",
-        "at": "2026-10-26T06:33:09.158Z",
-        "v": 2
-      },
       "post/yzhums-com/76231@1b4cbf7d4625abc9": {
         "verdict": "keep",
-        "reason": "Covers reusable header/footer parts for Word Body layouts.",
-        "at": "2026-10-26T06:33:09.158Z",
-        "v": 2
-      },
-      "post/yzhums-com/76655@1864785fadebf98c": {
-        "verdict": "keep",
-        "reason": "Shows conditional visibility (Hide If Empty/False) when designing Word layouts in the add-in.",
-        "at": "2026-10-26T06:33:09.158Z",
-        "v": 2
-      },
-      "post/yzhums-com/76696@6ced46fc52c35534": {
-        "verdict": "keep",
-        "reason": "Covers the new Word add-in design components for building document report layouts.",
-        "at": "2026-10-26T06:33:10.271Z",
-        "v": 2
-      },
-      "post/yzhums-com/76756@1788dd940e0557c8": {
-        "verdict": "keep",
-        "reason": "Covers designing themes, headers and footers for Word report layouts.",
-        "at": "2026-10-26T06:33:10.271Z",
+        "reason": "Covers reusable header/footer pieces and the new Subtype field on Word layouts, which are part of report layout design.",
+        "at": "2026-11-23T00:56:11.245Z",
         "v": 2
       },
       "post/yzhums-com/76763@364a862f2a91ff4e": {
         "verdict": "keep",
-        "reason": "Shows how to copy and then customize Word, RDLC and Excel report layouts, which is close to layout development.",
-        "at": "2026-10-26T06:33:10.271Z",
+        "reason": "Shows how to copy and then customize report layouts on the Report Layouts page, which is part of working with layouts.",
+        "at": "2026-11-23T00:56:11.245Z",
         "v": 2
       },
       "video/-vdhfNMNZQk@bbe7afb04c2ac108": {
         "verdict": "keep",
-        "reason": "Covers composite document layouts: body, theme and header-footer layouts.",
-        "at": "2026-10-26T06:33:10.271Z",
+        "reason": "Demonstrates composite document layouts (body, theme and header-footer), which is a report layout capability.",
+        "at": "2026-11-23T00:56:11.245Z",
         "v": 2
       },
-      "video/BofJJPqgrTI@c4b74f10b0e4fe2e": {
+      "video/1ft4o9lQzsU@8080a420e7126b95": {
         "verdict": "keep",
-        "reason": "Covers developer features for Excel report layouts, including metadata worksheets and translation.",
-        "at": "2026-10-26T06:33:10.271Z",
+        "reason": "Walks through developing Excel report layouts, from the data contract to refreshable reports.",
+        "at": "2026-11-23T00:56:11.245Z",
         "v": 2
       },
-      "video/fy96_jdL1PQ@5e76d8486583f625": {
+      "video/BofJJPqgrTI@c0db061a5384c7fa": {
         "verdict": "keep",
-        "reason": "Includes segments on reports with multiple layouts, Word and Excel layouts, and the RDLC phase-out.",
-        "at": "2026-10-26T06:33:10.271Z",
+        "reason": "Covers Excel layout features for developers, such as the metadata worksheet and translatable layouts.",
+        "at": "2026-11-23T00:56:11.245Z",
         "v": 2
       },
       "video/hn92Al_x-s8@0b8efc57607d6620": {
         "verdict": "keep",
-        "reason": "Covers developer reporting features such as blank layouts, exporting the report schema, and named formulas for Excel layouts.",
-        "at": "2026-10-26T06:33:10.271Z",
+        "reason": "Covers developer reporting features for layouts: exporting the Word report schema, creating blank layouts and layout lifecycle telemetry.",
+        "at": "2026-11-23T00:56:11.245Z",
         "v": 2
       },
-      "video/mS6NDhj20yI@1983bd504cd5fca4": {
+      "video/mS6NDhj20yI@131879ac7f0154e9": {
         "verdict": "keep",
-        "reason": "Covers the Word add-in data picker, the table builder and layout lifecycle for document layouts.",
-        "at": "2026-10-26T06:33:10.271Z",
+        "reason": "Covers designing document layouts with the Word add-in data picker and managing layout lifecycle.",
+        "at": "2026-11-23T00:56:11.245Z",
         "v": 2
       },
       "video/PrGBqzTDsLw@d0f8a553e05a7cad": {
         "verdict": "drop",
-        "reason": "Mainly about customer onboarding and profiling; Excel layouts get only a passing mention.",
-        "at": "2026-10-26T06:33:10.271Z",
+        "reason": "The video is about onboarding and customer profiling, and Excel layouts appear only as a passing mention.",
+        "at": "2026-11-23T00:56:11.245Z",
         "v": 2
       },
       "video/vLcb31rfZ48@dc7434b09f901ead": {
         "verdict": "keep",
-        "reason": "Covers building Word layouts with the add-in data picker and repeaters.",
-        "at": "2026-10-26T06:33:10.271Z",
+        "reason": "Covers building Word layouts with the Word add-in data picker, fields and repeaters.",
+        "at": "2026-11-23T00:56:11.245Z",
         "v": 2
       },
       "video/XLUAuUWtJDw@58e19e4f16f34241": {
         "verdict": "keep",
-        "reason": "Covers Word add-in design controls, themes and header-footer templates for report layouts.",
-        "at": "2026-10-26T06:33:10.271Z",
+        "reason": "Covers Word add-in design controls, themes and header-footer templates used to build document layouts.",
+        "at": "2026-11-23T00:56:11.245Z",
         "v": 2
       },
       "video/z7UTBiCNOo8@4dd7107140d29097": {
         "verdict": "keep",
-        "reason": "Covers Excel layouts for built-in reports and how to customize them.",
-        "at": "2026-10-26T06:33:10.271Z",
+        "reason": "Covers Excel layouts for built-in reports and how to customize them in Excel.",
+        "at": "2026-11-23T00:56:11.245Z",
+        "v": 2
+      },
+      "post/aardvarklabs-blog/2271@de7854386541a124": {
+        "verdict": "keep",
+        "reason": "Explains RDLC layout fundamentals and editing layouts with Report Builder.",
+        "at": "2026-11-23T00:56:13.381Z",
+        "v": 2
+      },
+      "post/bccaptain-com-au/https://bccaptain.com.au/2026/11/22/bc-word-layout-mcp-2-1-0/@c38981ce498856a0": {
+        "verdict": "keep",
+        "reason": "Tool that edits Word report layouts, including themes and conditional text.",
+        "at": "2026-11-23T00:56:13.381Z",
+        "v": 2
+      },
+      "post/miljan-rs/698@bec4356f9f787950": {
+        "verdict": "keep",
+        "reason": "Covers page break techniques in Word report layouts.",
+        "at": "2026-11-23T00:56:13.381Z",
+        "v": 2
+      },
+      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619@9e099687770af155": {
+        "verdict": "keep",
+        "reason": "Walks through composite Word layouts with AL Subtype, HeaderFooterPart and ThemePart properties.",
+        "at": "2026-11-23T00:56:13.381Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/7920@5794d3d99a4f73cf": {
+        "verdict": "drop",
+        "reason": "General release roundup; layout lifecycle statuses are only a passing admin-side mention.",
+        "at": "2026-11-23T00:56:13.381Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8096@af9a75e67b746936": {
+        "verdict": "keep",
+        "reason": "Practical guidance on inserting fields into Word layouts with the Word add-in data picker.",
+        "at": "2026-11-23T00:56:13.381Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8250@4d0d426b1ccd0819": {
+        "verdict": "keep",
+        "reason": "Introduces composite Word document layouts, a layout design model.",
+        "at": "2026-11-23T00:56:13.381Z",
+        "v": 2
+      },
+      "post/yzhums-com/69019@2093bd6814c10a11": {
+        "verdict": "drop",
+        "reason": "About PDF password protection through the OnPreRendering trigger, not about designing layouts.",
+        "at": "2026-11-23T00:56:13.381Z",
+        "v": 2
+      },
+      "post/yzhums-com/69896@8073357e89ccd37f": {
+        "verdict": "drop",
+        "reason": "Mainly about getting Notes data into a report extension, which the datasets sibling covers better.",
+        "at": "2026-11-23T00:56:13.381Z",
+        "v": 2
+      },
+      "post/yzhums-com/76147@b9cb3ba829ead137": {
+        "verdict": "keep",
+        "reason": "Covers report themes and layout subtypes for Word layouts.",
+        "at": "2026-11-23T00:56:13.381Z",
+        "v": 2
+      },
+      "post/yzhums-com/76205@ee3ec203d4776f87": {
+        "verdict": "keep",
+        "reason": "Explains the new Subtype property on Word layouts used in layout development.",
+        "at": "2026-11-23T00:56:13.381Z",
         "v": 2
       }
     },
@@ -4669,40 +4651,34 @@
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/summarize-preview": {
-      "post/demiliani-com/12439@1aa81a8273fefe3c": {
+      "post/yzhums-com/67310@6b721f85cf2cb433": {
         "verdict": "keep",
-        "reason": "Covers how developers can show, hide or configure the Copilot Summary FactBox, which is the feature this section documents.",
-        "at": "2026-10-26T08:19:56.245Z",
+        "reason": "Explains how developers and users can hide or configure the Copilot summary FactBox, which belongs to the Summarize feature.",
+        "at": "2026-11-23T00:56:08.171Z",
         "v": 2
       },
-      "post/yzhums-com/67310@bb9862dcc6100732": {
+      "post/yzhums-com/71758@7fe7f237328dbb17": {
         "verdict": "keep",
-        "reason": "Explains how to hide or configure Copilot summaries through the Summary system part, a direct extension of the Summarize feature.",
-        "at": "2026-10-26T08:19:56.245Z",
+        "reason": "Mostly about the new Item Statistics page, but it also covers the Copilot item summaries that the Summarize with Copilot setting turns on.",
+        "at": "2026-11-23T00:56:08.171Z",
         "v": 2
       },
-      "post/yzhums-com/71758@afff48322237d705": {
+      "video/fgWFOMPJd6U@885e0866189adf72": {
         "verdict": "keep",
-        "reason": "The new Item Statistics page feeds Copilot item summaries, so part of the post covers the Summarize capability.",
-        "at": "2026-10-26T08:19:56.245Z",
+        "reason": "A deep dive into how Summarize with Copilot works, including its pipeline and how it was tested.",
+        "at": "2026-11-23T00:56:08.171Z",
         "v": 2
       },
-      "video/fgWFOMPJd6U@4145b43d1bfe530d": {
+      "video/HjsOuhThGKk@dbf225bb08f96cd5": {
         "verdict": "keep",
-        "reason": "A deep dive into how Summarize with Copilot works, including fact boxes and statistics pages.",
-        "at": "2026-10-26T08:19:56.245Z",
+        "reason": "Demonstrates the Summarize with Copilot summary FactBox, its drill-down and its refresh button.",
+        "at": "2026-11-23T00:56:08.171Z",
         "v": 2
       },
-      "video/HjsOuhThGKk@55862873e89a44fc": {
+      "video/q0TxpWfm9rc@05e46dc086a9b338": {
         "verdict": "keep",
-        "reason": "Demonstrates the Summarize with Copilot fact box on customer cards and posted invoices.",
-        "at": "2026-10-26T08:19:56.245Z",
-        "v": 2
-      },
-      "video/q0TxpWfm9rc@86efe26d32d53857": {
-        "verdict": "keep",
-        "reason": "Shows enhancements to Copilot summaries, such as interactive highlighting, filter awareness and multi-language support.",
-        "at": "2026-10-26T08:19:56.245Z",
+        "reason": "Covers improvements to Copilot summaries, such as filter awareness, more languages and options for developers.",
+        "at": "2026-11-23T00:56:08.171Z",
         "v": 2
       }
     },
@@ -5184,68 +5160,86 @@
     "topic/business-central/responsible-ai": {
       "post/aardvarklabs-blog/3081@04921797f1d10980": {
         "verdict": "drop",
-        "reason": "About using AI for card game design, not Business Central responsible AI.",
-        "at": "2026-11-16T00:57:25.286Z",
+        "reason": "About using AI to design a card game, not responsible AI in Business Central.",
+        "at": "2026-11-23T00:56:17.835Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3099@8a2b383955b44aa0": {
         "verdict": "drop",
-        "reason": "Hackathon event announcement; nothing this section documents.",
-        "at": "2026-11-16T00:57:25.286Z",
+        "reason": "Hackathon announcement with no responsible AI content.",
+        "at": "2026-11-23T00:56:17.835Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3227@dcd68c71a907a0c2": {
         "verdict": "drop",
-        "reason": "General essay on AI and workforce strategy, not Business Central responsible AI.",
-        "at": "2026-11-16T00:57:25.286Z",
+        "reason": "Opinion piece on workforce strategy, not something this section documents.",
+        "at": "2026-11-23T00:56:17.835Z",
+        "v": 2
+      },
+      "post/demiliani-com/13695@7a034cffe8134569": {
+        "verdict": "drop",
+        "reason": "Discusses enterprise AI project architecture and failures, not Business Central's responsible AI documentation.",
+        "at": "2026-11-23T00:56:17.835Z",
         "v": 2
       },
       "post/demiliani-com/15935@c0d6ceb9dcbef380": {
         "verdict": "keep",
-        "reason": "Explains Copilot data movement across geographies and the consent toggle, which this section documents.",
-        "at": "2026-11-16T00:57:25.286Z",
+        "reason": "Covers Copilot data movement across geographies and consent, part of Business Central's responsible AI and data-handling guidance.",
+        "at": "2026-11-23T00:56:17.835Z",
         "v": 2
       },
-      "post/thinkaboutit-be/8331@18306746658fa300": {
+      "post/freddysblog/https://freddysblog.com/2026/11/07/directions-emea-2026@c0f1843cfd04ffbc": {
         "verdict": "drop",
-        "reason": "Benchmarking AI coding agents for AL development belongs under Development, not Responsible AI.",
-        "at": "2026-11-16T00:57:25.286Z",
+        "reason": "Conference reflections that only touch on AI in passing.",
+        "at": "2026-11-23T00:56:17.835Z",
         "v": 2
       },
-      "post/vjeko-com/https://vjeko.com/2026/05/28/the-lump-of-labour-fallacy-fallacy/@7733ab2e82ec5c11": {
+      "post/vjeko-com/https://vjeko.com/2026/05/28/the-lump-of-labour-fallacy-fallacy/@e8f160d0029ec643": {
         "verdict": "drop",
-        "reason": "General essay on automation and jobs; no Business Central responsible AI content.",
-        "at": "2026-11-16T00:57:25.286Z",
+        "reason": "Essay on automation and jobs, not Business Central's responsible AI.",
+        "at": "2026-11-23T00:56:17.835Z",
+        "v": 2
+      },
+      "post/waldo-be/318712@c1c2e2e75f8d3e2f": {
+        "verdict": "drop",
+        "reason": "A release-wave video navigation tool built with AI, not about responsible AI.",
+        "at": "2026-11-23T00:56:17.835Z",
+        "v": 2
+      },
+      "post/yzhums-com/71694@89057afde8e81e57": {
+        "verdict": "drop",
+        "reason": "Event photo post with no responsible AI content.",
+        "at": "2026-11-23T00:56:17.835Z",
         "v": 2
       },
       "video/bCIcq1zESKk@d2a605f0f6c1dfe1": {
         "verdict": "keep",
-        "reason": "Copilot feature video that explicitly covers responsible AI and confidence scoring.",
-        "at": "2026-11-16T00:57:25.286Z",
+        "reason": "Copilot feature video that lists responsible AI and confidence scoring among its topics.",
+        "at": "2026-11-23T00:56:17.835Z",
         "v": 2
       },
       "video/cVfZoDwKYpI@e71250f55704858f": {
         "verdict": "keep",
-        "reason": "Covers harmful-content testing, red teaming and evaluation of an AI agent, which are responsible AI practices.",
-        "at": "2026-11-16T00:57:25.286Z",
+        "reason": "Covers evaluation, harmful-output testing and red teaming of the Expense Agent, which are responsible AI practices.",
+        "at": "2026-11-23T00:56:17.835Z",
         "v": 2
       },
       "video/cWVhWBMbXb4@af70657ee81d869b": {
         "verdict": "drop",
-        "reason": "Mileage rate setup for the Expense Agent; no responsible AI content.",
-        "at": "2026-11-16T00:57:25.286Z",
+        "reason": "Mileage setup for the Expense Agent, a feature-configuration topic unrelated to responsible AI.",
+        "at": "2026-11-23T00:56:17.835Z",
         "v": 2
       },
       "video/cZCSi6khZFo@71ef88d1aae712ed": {
         "verdict": "drop",
-        "reason": "Feature intro for sales line suggestions with no responsible AI content; the Copilot capabilities section fits better.",
-        "at": "2026-11-16T00:57:25.286Z",
+        "reason": "Feature demo of sales line suggestions with no responsible AI content; a sibling Copilot section fits better.",
+        "at": "2026-11-23T00:56:17.835Z",
         "v": 2
       },
       "video/eA7CENx7se0@8e6f234036c87407": {
         "verdict": "keep",
-        "reason": "Copilot quality and accuracy testing with explicit responsible AI focus.",
-        "at": "2026-11-16T00:57:25.286Z",
+        "reason": "Testing Copilot for accuracy and quality with responsible AI listed as a topic matches this section.",
+        "at": "2026-11-23T00:56:17.835Z",
         "v": 2
       }
     },
@@ -5766,112 +5760,118 @@
       }
     },
     "topic/dev-itpro/administration/monitor-and-analyze-telemetry": {
-      "post/demiliani-com/13096@d983992cb248690a": {
+      "video/2u5_F9Ztt7U@a2de7d6c3f7cca92": {
         "verdict": "keep",
-        "reason": "Discusses measuring client performance using Page View telemetry among other tools.",
-        "at": "2026-11-05T00:52:06.564Z",
+        "reason": "Includes new telemetry signals for MCP usage and client hardware/network, which fit telemetry by area.",
+        "at": "2026-11-23T00:56:13.196Z",
         "v": 2
       },
-      "post/demiliani-com/13254@1e5abc180a70baaf": {
-        "verdict": "drop",
-        "reason": "About the Database Wait Statistics page, not telemetry monitoring or analysis.",
-        "at": "2026-11-05T00:52:06.564Z",
-        "v": 2
-      },
-      "post/demiliani-com/13369@6629bda418af7616": {
+      "video/7rIHz0zrgWU@4c0228258f9ba1ab": {
         "verdict": "keep",
-        "reason": "Covers new deviceHardware fields in page view telemetry and KQL analysis of them.",
-        "at": "2026-11-05T00:52:06.564Z",
-        "v": 2
-      },
-      "post/demiliani-com/14064@9c5177013b891825": {
-        "verdict": "drop",
-        "reason": "About moving Azure resources to a new region; telemetry connection string is only a passing mention.",
-        "at": "2026-11-05T00:52:06.564Z",
-        "v": 2
-      },
-      "post/demiliani-com/17586@489ff81ca84716ed": {
-        "verdict": "drop",
-        "reason": "About the .NET 10 platform transition and maintenance windows, not telemetry.",
-        "at": "2026-11-05T00:52:06.564Z",
-        "v": 2
-      },
-      "post/duiliotacconi-com/1501@f61c9a1e01e3bd21": {
-        "verdict": "keep",
-        "reason": "Investigates client crashes with the RT0030 Error Dialog telemetry signal and dashboards.",
-        "at": "2026-11-05T00:52:06.564Z",
-        "v": 2
-      },
-      "post/duiliotacconi-com/1537@6c9973173596aa6c": {
-        "verdict": "keep",
-        "reason": "Uses KQL queries over telemetry (e.g., LC0159) to analyze hotfix deployment timing.",
-        "at": "2026-11-05T00:52:06.564Z",
-        "v": 2
-      },
-      "post/waldo-be/317845@491d234240c181f4": {
-        "verdict": "keep",
-        "reason": "Extension adding custom telemetry events and dashboards that extend built-in telemetry.",
-        "at": "2026-11-05T00:52:06.564Z",
-        "v": 2
-      },
-      "post/waldo-be/318423@8115c5a0b7062319": {
-        "verdict": "keep",
-        "reason": "Tool for exploring and analyzing Business Central telemetry with KQL.",
-        "at": "2026-11-05T00:52:06.564Z",
-        "v": 2
-      },
-      "post/waldo-be/318571@112fb57861415620": {
-        "verdict": "keep",
-        "reason": "Discusses using the BC Telemetry Buddy AI tool to analyze Business Central telemetry in Application Insights with KQL.",
-        "at": "2026-11-05T00:52:15.299Z",
-        "v": 2
-      },
-      "post/yzhums-com/63913@edf0712566cee338": {
-        "verdict": "keep",
-        "reason": "Covers field monitoring telemetry sent to Application Insights as one way to audit changes, which is part of telemetry by area.",
-        "at": "2026-11-05T00:52:15.299Z",
-        "v": 2
-      },
-      "video/7rIHz0zrgWU@0a2a4c7fce7506a6": {
-        "verdict": "keep",
-        "reason": "Walks through new telemetry signals, Power BI telemetry reports and KQL alerting for Business Central.",
-        "at": "2026-11-05T00:52:15.299Z",
+        "reason": "Covers new telemetry signals, analysis reports, KQL and alerting for Business Central telemetry.",
+        "at": "2026-11-23T00:56:13.196Z",
         "v": 2
       },
       "video/BOY2442wHSc@8508cbb93942b3b1": {
         "verdict": "keep",
-        "reason": "Shows how to connect the Power BI telemetry apps to Business Central telemetry in Application Insights.",
-        "at": "2026-11-05T00:52:15.299Z",
+        "reason": "Shows connecting the Power BI telemetry apps to Application Insights telemetry data.",
+        "at": "2026-11-23T00:56:13.196Z",
         "v": 2
       },
-      "video/F_pssS0FtUc@25880ebddffc054c": {
+      "video/F_pssS0FtUc@5a2b94b55b112835": {
         "verdict": "keep",
-        "reason": "Demonstrates using Business Central telemetry and the usage analytics Power BI app to monitor go-lives.",
-        "at": "2026-11-05T00:52:15.299Z",
+        "reason": "Shows how to use telemetry and the usage analytics Power BI app to monitor go-lives.",
+        "at": "2026-11-23T00:56:13.196Z",
         "v": 2
       },
       "video/MYZOkoSmtZ0@c7672740d4fcd159": {
         "verdict": "keep",
-        "reason": "Shows how to set up Application Insights to store Business Central telemetry.",
-        "at": "2026-11-05T00:52:15.299Z",
+        "reason": "Covers setting up Application Insights to store Business Central telemetry.",
+        "at": "2026-11-23T00:56:13.196Z",
+        "v": 2
+      },
+      "video/oF_wSP0xrSQ@c9587b15c0a8eba7": {
+        "verdict": "keep",
+        "reason": "Third-party automation that analyzes Business Central telemetry with KQL and turns findings into GitHub issues.",
+        "at": "2026-11-23T00:56:13.196Z",
         "v": 2
       },
       "video/sZ7wMU1Uxio@6149b0c7f60346f6": {
         "verdict": "keep",
-        "reason": "Shows how to configure dataset properties for the Power BI telemetry app that analyzes Business Central telemetry.",
-        "at": "2026-11-05T00:52:15.299Z",
+        "reason": "Covers configuring the Power BI telemetry app's dataset, used to analyze telemetry.",
+        "at": "2026-11-23T00:56:13.196Z",
         "v": 2
       },
       "video/uv2NsSD5P7U@47ecd25d9553e2be": {
-        "verdict": "drop",
-        "reason": "Mainly about update management in the admin center, which a sibling section covers; telemetry is only a side note.",
-        "at": "2026-11-05T00:52:15.299Z",
+        "verdict": "keep",
+        "reason": "Mainly about update management, but covers telemetry signal changes for update events, which belong to telemetry by area.",
+        "at": "2026-11-23T00:56:13.196Z",
         "v": 2
       },
       "video/VX_aPhcsIOc@2053b8d2a073f926": {
         "verdict": "keep",
-        "reason": "Covers controlling Business Central telemetry ingestion costs with daily caps and usage views.",
-        "at": "2026-11-05T00:52:15.299Z",
+        "reason": "Covers controlling telemetry ingestion costs with daily caps and usage views.",
+        "at": "2026-11-23T00:56:13.196Z",
+        "v": 2
+      },
+      "post/demiliani-com/13096@d983992cb248690a": {
+        "verdict": "keep",
+        "reason": "Recommends Page View telemetry as a way to measure client-side performance, which the telemetry section covers.",
+        "at": "2026-11-23T00:56:13.999Z",
+        "v": 2
+      },
+      "post/demiliani-com/13254@1e5abc180a70baaf": {
+        "verdict": "drop",
+        "reason": "It explains the in-product Database Wait Statistics page, which is not telemetry analysis.",
+        "at": "2026-11-23T00:56:13.999Z",
+        "v": 2
+      },
+      "post/demiliani-com/13369@6629bda418af7616": {
+        "verdict": "keep",
+        "reason": "Covers the new device hardware and network fields in page view telemetry and how to analyze them with KQL.",
+        "at": "2026-11-23T00:56:13.999Z",
+        "v": 2
+      },
+      "post/duiliotacconi-com/1501@f61c9a1e01e3bd21": {
+        "verdict": "keep",
+        "reason": "Investigates client crashes with the Error Dialog telemetry signal (RT0030) and dashboards.",
+        "at": "2026-11-23T00:56:13.999Z",
+        "v": 2
+      },
+      "post/duiliotacconi-com/1537@6c9973173596aa6c": {
+        "verdict": "keep",
+        "reason": "Uses KQL telemetry queries, including signal LC0159, to analyze when hotfixes are deployed.",
+        "at": "2026-11-23T00:56:13.999Z",
+        "v": 2
+      },
+      "post/duiliotacconi-com/2238@e952acfe9a1f7853": {
+        "verdict": "keep",
+        "reason": "Analyzes upgrade behaviour with telemetry queries and covers the new LC0065 telemetry event.",
+        "at": "2026-11-23T00:56:13.999Z",
+        "v": 2
+      },
+      "post/waldo-be/317845@491d234240c181f4": {
+        "verdict": "keep",
+        "reason": "A third-party app that extends Business Central telemetry with custom events and dashboards.",
+        "at": "2026-11-23T00:56:13.999Z",
+        "v": 2
+      },
+      "post/waldo-be/318423@8115c5a0b7062319": {
+        "verdict": "keep",
+        "reason": "A tool for analyzing Business Central telemetry with KQL and AI.",
+        "at": "2026-11-23T00:56:13.999Z",
+        "v": 2
+      },
+      "post/waldo-be/318571@112fb57861415620": {
+        "verdict": "keep",
+        "reason": "Discusses how to analyze Business Central telemetry well with an AI telemetry tool.",
+        "at": "2026-11-23T00:56:13.999Z",
+        "v": 2
+      },
+      "post/yzhums-com/63913@edf0712566cee338": {
+        "verdict": "drop",
+        "reason": "Its subject is auditing who created records; telemetry is a minor mention, and field monitoring and change log have more exact sections.",
+        "at": "2026-11-23T00:56:13.999Z",
         "v": 2
       }
     },
@@ -7701,124 +7701,64 @@
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services": {
-      "post/yzhums-com/56046@9602d4cf634cab46": {
-        "verdict": "keep",
-        "reason": "Demonstrates calling an external API (QuickChart) from AL using HttpClient to fetch images.",
-        "at": "2026-11-11T00:56:21.863Z",
-        "v": 2
-      },
-      "post/yzhums-com/61543@c4fdefff7bfc97e1": {
-        "verdict": "drop",
-        "reason": "About converting stored images to HTML src via Image Helpers; no external service call involved.",
-        "at": "2026-11-11T00:56:21.863Z",
-        "v": 2
-      },
-      "post/yzhums-com/63735@80a0b7d071de1243": {
-        "verdict": "keep",
-        "reason": "Series covers calling SharePoint via Graph API from AL code, an external service integration.",
-        "at": "2026-11-11T00:56:21.863Z",
-        "v": 2
-      },
-      "post/yzhums-com/64775@f9f3f93cb8eb7dc9": {
-        "verdict": "keep",
-        "reason": "Shows calling Dataverse REST APIs from AL with OAuth and GET/POST/PATCH/DELETE requests.",
-        "at": "2026-11-11T00:56:21.863Z",
-        "v": 2
-      },
-      "post/yzhums-com/65391@fabeea6b3db01499": {
-        "verdict": "keep",
-        "reason": "Covers the Allow HttpClient Requests setting required for outbound HTTP calls from extensions.",
-        "at": "2026-11-11T00:56:21.863Z",
-        "v": 2
-      },
-      "post/yzhums-com/65525@023dc93fe1d96277": {
-        "verdict": "keep",
-        "reason": "Web Request Helper URL validation is a helper used when calling external services over HTTPS.",
-        "at": "2026-11-11T00:56:21.863Z",
-        "v": 2
-      },
-      "post/yzhums-com/65533@84aeb0a255020c4e": {
-        "verdict": "keep",
-        "reason": "Automates enabling Allow HttpClient Requests, which governs outbound HttpClient calls.",
-        "at": "2026-11-11T00:56:21.863Z",
-        "v": 2
-      },
-      "post/yzhums-com/66461@f1d31fc1c9c7fb3c": {
-        "verdict": "drop",
-        "reason": "About sanitizing file names via File Management, not calling external services.",
-        "at": "2026-11-11T00:56:21.863Z",
-        "v": 2
-      },
-      "video/EurgqGU1jG0@edb14011eda297ee": {
-        "verdict": "drop",
-        "reason": "Subject is test patterns and code coverage; the payment API is only the example.",
-        "at": "2026-11-11T00:56:21.863Z",
-        "v": 2
-      },
-      "video/qNHUj3ZEang@79cabc8a630d8bbb": {
-        "verdict": "keep",
-        "reason": "Covers REST Client module features (cookies, collectible errors) used to make HTTP requests.",
-        "at": "2026-11-11T00:56:21.863Z",
-        "v": 2
-      },
       "post/aardvarklabs-blog/2640@7e1c3369c0eee8cf": {
         "verdict": "drop",
-        "reason": "Mainly about the SecretText data type and isolated storage; the sibling Handling security section documents this more exactly, with HttpClient only mentioned in passing.",
-        "at": "2026-11-11T00:56:25.562Z",
+        "reason": "Main subject is the SecretText data type, which the sibling Handling security section documents more exactly; HttpClient is only mentioned in passing.",
+        "at": "2026-11-23T00:56:22.092Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2866@ad0fbd69fadaf746": {
         "verdict": "drop",
-        "reason": "About parsing XML files into tables, not about calling external services.",
-        "at": "2026-11-11T00:56:25.562Z",
+        "reason": "Parsing a local XML file with the built-in XML types is not calling an external service.",
+        "at": "2026-11-23T00:56:22.092Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2953@1579b424cf0b3626": {
         "verdict": "keep",
-        "reason": "Directly demonstrates consuming external APIs with HttpClient and the external-call security prompt.",
-        "at": "2026-11-11T00:56:25.562Z",
+        "reason": "Shows how to call external APIs with HttpClient and parse the JSON responses, the core of this section.",
+        "at": "2026-11-23T00:56:22.092Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3460@d0c351745b5df791": {
         "verdict": "keep",
-        "reason": "Shows AL code connecting to external SFTP servers, a form of calling external services from AL.",
-        "at": "2026-11-11T00:56:25.562Z",
+        "reason": "Shows AL code connecting to external SFTP servers through the native SFTP Client codeunit.",
+        "at": "2026-11-23T00:56:22.092Z",
+        "v": 2
+      },
+      "post/demiliani-com/13588@e684d78888952bae": {
+        "verdict": "keep",
+        "reason": "Covers strict URI validation in AL HttpClient, which affects which external calls work.",
+        "at": "2026-11-23T00:56:22.092Z",
         "v": 2
       },
       "post/demiliani-com/13640@abb0e63da6ce6cdc": {
         "verdict": "keep",
-        "reason": "Covers connecting to external SFTP servers from AL with authentication, which relates to calling external services.",
-        "at": "2026-11-11T00:56:25.562Z",
+        "reason": "Covers calling external SFTP servers from AL with the SFTP Client codeunit.",
+        "at": "2026-11-23T00:56:22.092Z",
         "v": 2
       },
-      "post/demiliani-com/14203@48f9cf58ff1ac562": {
+      "post/demiliani-com/14203@a01d8fdbbf8fc60c": {
         "verdict": "keep",
-        "reason": "Discusses a practice for making external API calls from AL safe across transaction rollbacks.",
-        "at": "2026-11-11T00:56:25.562Z",
+        "reason": "Explains a practice for making external API calls from job queue entries safe when the AL transaction rolls back.",
+        "at": "2026-11-23T00:56:22.092Z",
         "v": 2
       },
       "post/gerardorenteria-blog/14816@d18dad9b14fe94e8": {
         "verdict": "drop",
-        "reason": "Sample gamification extension; importing JSON is just the example, not the lesson.",
-        "at": "2026-11-11T00:56:25.562Z",
+        "reason": "The subject is a sample World Cup prediction app; the JSON import is only an example inside it.",
+        "at": "2026-11-23T00:56:22.092Z",
         "v": 2
       },
       "post/kauffmann-nl/8332@88de14cfccb265de": {
         "verdict": "keep",
-        "reason": "OAuth library that extends the Rest Client module used to call external services.",
-        "at": "2026-11-11T00:56:25.562Z",
+        "reason": "OAuth library that extends the Rest Client module used to authenticate HTTP calls.",
+        "at": "2026-11-23T00:56:22.092Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643@bcd3363825c3e8ed": {
         "verdict": "drop",
-        "reason": "Subject is extension upload management via the admin center API, not how to call external services.",
-        "at": "2026-11-11T00:56:25.562Z",
-        "v": 2
-      },
-      "post/vjeko-com/https://vjeko.com/2026/02/02/al-object-id-ninja-mcp-server-is-here/@c1a26403c4b8f9b9": {
-        "verdict": "drop",
-        "reason": "About object ID management tooling for AI coding assistants, unrelated to calling external services.",
-        "at": "2026-11-11T00:56:25.562Z",
+        "reason": "The subject is extension deployment management; calling the admin center API is only how the app is built.",
+        "at": "2026-11-23T00:56:22.092Z",
         "v": 2
       }
     },

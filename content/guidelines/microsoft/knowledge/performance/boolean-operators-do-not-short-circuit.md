@@ -22,7 +22,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e2b494a01eef220e8b95aa8aa11f083919742b31
@@ -44,6 +44,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/275
     - change/bcquality/174
     - change/bcquality/153
 repo_path: microsoft/knowledge/performance/boolean-operators-do-not-short-circuit.md
@@ -102,6 +103,7 @@ See sample: [`boolean-operators-do-not-short-circuit.bad.al`](https://github.com
 
 ## Changed by
 
+- [#275 knowledge(performance): Get behind a key-is-set check in and-condition wastes a DB call](../../../../changes/bcquality/275.md), 2026-11-18
 - [#174 Make BCQuality documentation easier for partners to get started](../../../../changes/bcquality/174.md), 2026-09-09
 - [#153 Promote knowledge for Microsoft-owned review skills](../../../../changes/bcquality/153.md), 2026-09-03
 

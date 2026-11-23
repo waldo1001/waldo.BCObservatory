@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -147,7 +147,6 @@ links:
     - change/bcapps/12472
     - change/bcapps/12514
     - change/bcapps/12539
-    - change/bcapps/12544
     - change/bcapps/12599
     - change/bcapps/12763
     - change/bcapps/12810
@@ -251,7 +250,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12472 Expense Agent Default VAT Setup fails in localized companies](../../../changes/bcapps/12472.md) (code change): "Expense Agent Default VAT Setup is corrected to work properly"
 - [#12514 Revert Expense API test re-enablement and consolidated fixes](../../../changes/bcapps/12514.md) (code change): "Fully reverts the earlier commit from #12325 that re-enabled Expense API tests"
 - [#12539 Add Expense Agent consumption V2 and trial support](../../../changes/bcapps/12539.md) (code change): "Expense Agent adds a V2 consumption API and a 50-expense feature trial"
-- [#12544 Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)](../../../changes/bcapps/12544.md) (code change): "The Expense Agent now allows users to submit expenses without a receipt"
 - [#12599 [Master] - Slice 629913: [Expense Agent][VENDOR] Enforced background itemization required for approvals](../../../changes/bcapps/12599.md) (code change): "Policy-enforced itemization is required when an enabled policy with text applies"
 - [#12763 [Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: "'IndirectInsert' permission on TableData 6913 'Expense Pmt Method" - 2610091420000495](../../../changes/bcapps/12763.md) (code change): "Expense Agent delegated admin partner entitlements are updated to grant"
 - [#12810 ExpenseAgent-CAUS-default-VAT-setup-fails](../../../changes/bcapps/12810.md) (code change): "Fixes the Expense Agent default VAT setup failing"

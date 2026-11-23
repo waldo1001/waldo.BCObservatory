@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b5947ce4b827f8d60cd3755ef54148e0ef332b2f
@@ -36,6 +36,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/277
     - change/bcquality/204
     - change/bcquality/196
     - change/bcquality/192
@@ -416,6 +417,7 @@ invoked leaf:
 
 ## Changed by
 
+- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../../../../changes/bcquality/277.md), 2026-11-19
 - [#204 Validate composed reviews against the expected leaf worklist](../../../../changes/bcquality/204.md), 2026-10-02
 - [#196 Strengthen review contracts and add AL reliability guidance](../../../../changes/bcquality/196.md), 2026-09-29
 - [#192 Add SCM functional knowledge domain](../../../../changes/bcquality/192.md), 2026-09-21

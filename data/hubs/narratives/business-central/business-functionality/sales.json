@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.029099
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-23T00:57:43.266Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview leaves out the page 'Walkthrough: Conduct a Sales Campaign' (campaigns, contact segments, logging interactions). It could be listed with the supporting pages.",
+      "Key point 3 says cancel or correct applies to unpaid invoices that are not fully shipped. This matches the page summary, but the condition is unusual and the narrative states it as fact. Check it against the Learn page if possible."
+    ],
+    "input_hash": "34a941e35577b853260fe6bc3b20b62a59292f4d7a4d2870fac19a045c76036f",
+    "cost_usd": 0.08812400000000001
   }
 }

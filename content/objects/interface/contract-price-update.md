@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T00:48:37.330Z"
+  at: "2026-11-23T00:49:55.504Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7cd0625e5773d552d59b8867fe4bcd630d78ad314b3632afe65059d78205ee4b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/Subscription%20Billing/app/Contract%20Price%20Update/Interfaces/ContractPriceUpdate.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Apps/W1/Subscription%20Billing/app/Contract%20Price%20Update/Interfaces/ContractPriceUpdate.Interface.al
     title: src/Apps/W1/Subscription Billing/app/Contract Price Update/Interfaces/ContractPriceUpdate.Interface.al (releases/29.x)
     date: null
-    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
+    commit: 6a9588a817c12a5d35d3e6c4ad40e29ecca88acf
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Contract Price Update" in Subscription Billing (Microsoft.SubscriptionBilling). 4 public procedures. Introduced in BC29, still in BC30.
 
-Subscription Billing · Microsoft.SubscriptionBilling · BC29-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/W1/Subscription%20Billing/app/Contract%20Price%20Update/Interfaces/ContractPriceUpdate.Interface.al) · facts from BC29
+Subscription Billing · Microsoft.SubscriptionBilling · BC29-30 · [source at 6a9588a8](https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Apps/W1/Subscription%20Billing/app/Contract%20Price%20Update/Interfaces/ContractPriceUpdate.Interface.al) · facts from BC29
 
 ## Properties
 

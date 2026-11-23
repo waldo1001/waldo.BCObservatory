@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T00:48:37.330Z"
+  at: "2026-11-23T00:49:55.504Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 881dd395ab6355a7ba85dd857dafa39b5b71dcea7cff85902dfdde554e73055a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/DK/NemhandelNotification/app/src/Interfaces/HttpResponseMsgNemhandel.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Apps/DK/NemhandelNotification/app/src/Interfaces/HttpResponseMsgNemhandel.Interface.al
     title: src/Apps/DK/NemhandelNotification/app/src/Interfaces/HttpResponseMsgNemhandel.Interface.al (releases/29.x)
     date: null
-    commit: 2971c0255001fe7e29f162ac1b22e305a7a0be9b
+    commit: 6a9588a817c12a5d35d3e6c4ad40e29ecca88acf
     t: null
     quote: null
 links:
@@ -74,7 +74,7 @@ relations:
 
 > Interface "Http Response Msg Nemhandel" (DK) in the DK country layer (Microsoft.EServices). 6 public procedures. Introduced in BC29, still in BC30.
 
-DK country layer · Microsoft.EServices · BC29-30 · [source at 2971c025](https://github.com/microsoft/BCApps/blob/2971c0255001fe7e29f162ac1b22e305a7a0be9b/src/Apps/DK/NemhandelNotification/app/src/Interfaces/HttpResponseMsgNemhandel.Interface.al) · facts from BC29
+DK country layer · Microsoft.EServices · BC29-30 · [source at 6a9588a8](https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Apps/DK/NemhandelNotification/app/src/Interfaces/HttpResponseMsgNemhandel.Interface.al) · facts from BC29
 
 An object of the [DK localization](../../localizations/dk.md), not part of W1.
 

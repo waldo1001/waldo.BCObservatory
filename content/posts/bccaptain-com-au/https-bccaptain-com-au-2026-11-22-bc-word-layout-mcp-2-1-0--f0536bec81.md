@@ -13,16 +13,16 @@ tags:
   - report design
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-23T00:56:29.997Z"
   flags: []
 generated:
-  at: "2026-11-23T00:15:51.693Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: fe518b048c063d21792774ad4b5879b308b2937a3c29221199b66606a2f952f7
+  input_hash: 8a3ef3c7ddd6aa74a8c9520b6d7c4824b8bb7c22a26335ac45735867069f4b34
 evidence:
   - kind: blog
     url: https://bccaptain.com.au/2026/11/22/bc-word-layout-mcp-2-1-0/
@@ -71,25 +71,24 @@ code_objects_mentioned: []
 systems:
   - reporting
   - development
-  - platform
 versions_mentioned:
   - BC 29
   - MCP 2.1.0
 preview:
   embeddable: false
   frame_url: null
-  image: null
+  image: https://bccaptain.com.au/favicon.svg
   image_alt: null
   image_w: null
   image_h: null
-  site_name: null
-  favicon: null
-  probed_at: "2026-10-30T07:51:53.097Z"
+  site_name: BC Captain
+  favicon: https://bccaptain.com.au/favicon.svg
+  probed_at: "2026-11-23T00:53:20.577Z"
 ---
 
 # BC Word Layout MCP 2.1.0: What changes when you print with a report theme?
 
-[Read the post](https://bccaptain.com.au/2026/11/22/bc-word-layout-mcp-2-1-0/) · BC Captain (Tom Kapitan, MVP) · 2026-11-22 · 743 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://bccaptain.com.au/2026/11/22/bc-word-layout-mcp-2-1-0/) · BC Captain (Tom Kapitan, MVP) · 2026-11-22 · 743 words · tier community · reviewed (checked by Opus)
 
 > BC Word Layout MCP 2.1.0 adds support for report themes in Word layouts, allowing layout elements to follow selected Business Central themes via theme colour references instead of fixed colours. The update enables conditional footer text, improved merged cell handling, and requires BC 29 or higher for new theme and style features.
 

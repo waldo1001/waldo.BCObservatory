@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: cc9b2cc38b285da82b467135e3343985027399c6
@@ -41,7 +41,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/277
 repo_path: microsoft/knowledge/style/translate-another-extension-with-its-original-trans-unit-ids.md
 layer: microsoft
 kind: rule
@@ -83,6 +84,10 @@ Copying the current app's generated `.xlf` as a starting point for translating a
 ## References
 
 [Working with translation files: Translating other extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-with-translation-files#translating-other-extensions).
+
+## Changed by
+
+- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../../../../changes/bcquality/277.md), 2026-11-19
 
 ---
 

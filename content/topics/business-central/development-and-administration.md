@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-23T00:57:36.324Z"
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -734,7 +734,7 @@ narrative: generated
 
 > Development and administration of Business Central: online tenant administration, Copilot and agent settings, AL extension development, customization, performance, deprecated features, cross-company master data sync, and migration to online. It answers how-to and planning questions for administrators, developers, and partners.
 
-Path: Development and administration · tier official · system administration · narrative **unreviewed** (model text not yet checked)
+Path: Development and administration · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

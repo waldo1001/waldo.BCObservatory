@@ -20,7 +20,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: df9c51f461a09c17e390cc1fd6edba4b36830f72
@@ -41,7 +41,8 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes: []
+  changes:
+    - change/bcquality/277
 repo_path: microsoft/knowledge/ui/expose-base-page-setup-through-a-codeunit.md
 layer: microsoft
 kind: rule
@@ -85,6 +86,10 @@ Do not report the wrapper codeunit as needless indirection because it contains a
 ## References
 
 [Onboard users to your app: Setup that doesn't belong to your app](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-onboard-users-to-your-app#setup-that-doesn't-belong-to-your-app).
+
+## Changed by
+
+- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../../../../changes/bcquality/277.md), 2026-11-19
 
 ---
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -152,7 +152,7 @@ The pages follow the expense workflow. Start with the overview, then read about 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#12544 Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)](../../../../changes/bcapps/12544.md) (code change): "No Receipt workflow enables expense submission when original receipt is missing"
+- [#12544 Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)](../../../../changes/bcapps/12544.md) (code change): "selecting a 'No Receipt' option, which generates a standardized document"
 - [#13925 [29x]-Bug 658773: Mileage: starting/ending point addresses over 50 characters fail to save on report lines (BC Text[50] limit not enforced)](../../../../changes/bcapps/13925.md) (code change): "Fixes mileage starting and ending point addresses longer than 50 characters"
 - [#14295 [Main] Expense Management: make core expense business objects public](../../../../changes/bcapps/14295.md) (code change): "Expense Management core business objects are now publicly accessible for extensions"
 - [#14335 [Main] Expense Management: make Expense Management Setup public; keep agent and corporate card surface internal](../../../../changes/bcapps/14335.md) (code change): "Table 6930 Expense Agent Setup, which holds company-wide expense management settings, is now public"

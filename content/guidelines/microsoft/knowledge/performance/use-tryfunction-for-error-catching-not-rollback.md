@@ -21,7 +21,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6d566f2f30279a6e67d80a5256e866717d04462b
@@ -46,6 +46,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/211
     - change/bcquality/174
     - change/bcquality/108
 repo_path: microsoft/knowledge/performance/use-tryfunction-for-error-catching-not-rollback.md
@@ -109,6 +110,7 @@ See sample: [`use-tryfunction-for-error-catching-not-rollback.bad.al`](https://g
 
 ## Changed by
 
+- [#211 knowledge(error-handling): a bare \[TryFunction\] call propagates its error](../../../../changes/bcquality/211.md), 2026-11-17
 - [#174 Make BCQuality documentation easier for partners to get started](../../../../changes/bcquality/174.md), 2026-09-09
 - [#108 Complete AL review knowledge readiness](../../../../changes/bcquality/108.md), 2026-07-15
 

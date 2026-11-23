@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "The testing knowledge article on assertion errors now clarifies that ExpectedError and ExpectedErrorCode match by substring, and adds guidance to avoid weak verification patterns that cannot distinguish between different errors.",
   "key_points": [
-    "Both ExpectedError and ExpectedErrorCode match only by substring, not exact match",
-    "Best practice is to use full error labels built with StrSubstNo to uniquely identify intended errors",
-    "ExpectedErrorCode alone only identifies the error kind, not the specific error message",
-    "Anti-patterns include using ExpectedErrorCode alone, GetLastErrorText(), or error fragments that appear in multiple messages",
-    "Tests using weak patterns may stay green when wrong errors fire instead of the intended one"
+    "Both ExpectedError and ExpectedErrorCode match by substring",
+    "Best practice asks for text only the intended error produces, ideally the full Label with arguments built with StrSubstNo",
+    "ExpectedErrorCode on its own identifies only the kind of error",
+    "New anti-patterns: ExpectedErrorCode alone, a non-empty GetLastErrorText() check, or a fragment shared by several messages on the same code path",
+    "With these weak checks a test stays green when an earlier validation fires instead of the one under test"
   ],
   "change_kind": "other",
   "behavior_change": false,

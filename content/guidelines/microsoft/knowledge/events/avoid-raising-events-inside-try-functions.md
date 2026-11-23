@@ -19,7 +19,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d81d55406551318b05af45a91a7133474728f319
@@ -41,6 +41,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/211
     - change/bcquality/174
 repo_path: microsoft/knowledge/events/avoid-raising-events-inside-try-functions.md
 layer: microsoft
@@ -92,6 +93,7 @@ See sample: [`avoid-raising-events-inside-try-functions.bad.al`](https://github.
 
 ## Changed by
 
+- [#211 knowledge(error-handling): a bare \[TryFunction\] call propagates its error](../../../../changes/bcquality/211.md), 2026-11-17
 - [#174 Make BCQuality documentation easier for partners to get started](../../../../changes/bcquality/174.md), 2026-09-09
 
 ---

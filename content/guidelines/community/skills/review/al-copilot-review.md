@@ -14,7 +14,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T00:15:56.434Z"
+  at: "2026-11-23T00:15:10.597Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 37e68b43f06ed6366daa9402f28d6e195eaddb3f
@@ -36,6 +36,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcquality/276
     - change/bcquality/229
   related:
     - to: object/codeunit/7773
@@ -161,6 +162,7 @@ Return only one JSON document conforming to the DO output contract. Every findin
 
 ## Changed by
 
+- [#276 Minor consistency fixes: bc-version format, CI permissions, community skill retrieval](../../../../changes/bcquality/276.md), 2026-11-19
 - [#229 Knowledge: Community Copilot domain (System.AI features) and review skill](../../../../changes/bcquality/229.md), 2026-10-20
 
 ---

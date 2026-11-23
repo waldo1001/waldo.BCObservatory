@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:41.011Z"
   flags: []
 generated:
-  at: "2026-11-21T00:52:51.542Z"
+  at: "2026-11-23T00:54:20.709Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -82,7 +82,6 @@ links:
     - feature/573362
     - feature/573371
     - feature/573380
-    - feature/573384
     - feature/573624
     - feature/576872
     - feature/577820
@@ -270,12 +269,10 @@ features:
     verified: false
     status_source: video
   - name: Enhanced page scripting tool
-    status: ga
+    status: unclear
     t: 1130
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573384"
+    status_source: video
   - name: Truncate table data using new methods
     status: unclear
     t: 1173
@@ -457,7 +454,7 @@ The rest covers 20-language chat support, localization items, AL and page script
 | Cancel build and publish from Visual Studio | status not stated | [16:57](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1017s) |  |
 | Extend copilot auto field using AL | status not stated | [17:43](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1063s) |  |
 | Hide copilot summaries | status not stated, demoed | [18:00](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1080s) |  |
-| Enhanced page scripting tool | generally available (roadmap [Page Scripting enters General Availability](../features/573384.md)) | [18:50](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1130s) |  |
+| Enhanced page scripting tool | status not stated | [18:50](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1130s) |  |
 | Truncate table data using new methods | status not stated | [19:33](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1173s) |  |
 | View SQL core per information in performance profiles | status not stated | [20:27](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1227s) |  |
 | Create multiple fixed asset cards | status not stated | [21:08](https://www.youtube.com/watch?v=H5EuObmeF4o&t=1268s) |  |

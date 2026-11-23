@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "Updated READ domain examples to match actual knowledge folders and corrected guidance on event parameter additions to align with AppSourceCop AS0024 rules.",
   "key_points": [
-    "Fixed `domain` field examples to list actual folders: `ui`, `web-services`, `scm` instead of non-existent names",
-    "Clarified that domains are knowledge folder names and no enumeration is closed",
-    "Aligned event parameter article with siblings: subscribers never break, but public publishers' callers can break",
-    "Added AS0024 keyword and pointer to AppSourceCop rule documentation",
-    "No behavior changes to skills or schema; purely documentation consistency"
+    "READ's domain examples no longer name folders that do not exist (ux, api, pipelines, supply-chain, manufacturing, jobs)",
+    "READ now says a file's domain is the name of its knowledge/<domain>/ folder; the no-closed-enumeration rule is unchanged",
+    "The event parameter article now says subscribers never break at any position; the only exception is callers of a public publisher",
+    "The article points to its sibling add-new-event-parameters-at-the-end, adds the as0024 keyword and cites AppSourceCop AS0024",
+    "No structure, schema or skill behavior changes"
   ],
   "change_kind": "fix",
   "behavior_change": false,

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -171,6 +171,7 @@ links:
     - change/bcquality/153
     - change/bcquality/156
     - change/bcquality/157
+    - change/bcquality/276
 learn_toc_path:
   - Development
   - Rules, guidelines, and best practices
@@ -232,5 +233,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#153 Promote knowledge for Microsoft-owned review skills](../../../changes/bcquality/153.md) (code change): "Moves 29 knowledge articles and 56 companion samples used by Microsoft-endorsed review skills"
 - [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../changes/bcquality/156.md) (code change): "Adds 17 AL/BC knowledge articles with good and bad samples across style, data modeling, web services"
 - [#157 18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource](../../../changes/bcquality/157.md) (code change): "BCQuality adds 18 new knowledge articles covering data modeling, testing, style, security, error handling"
+- [#276 Minor consistency fixes: bc-version format, CI permissions, community skill retrieval](../../../changes/bcquality/276.md) (code change): "Minor consistency improvements to quality rules documentation"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

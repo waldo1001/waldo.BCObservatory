@@ -7155,18 +7155,14 @@
     "change/bcapps/11715": {
       "kind": "change",
       "key": "change/bcapps/11715",
-      "hash": "cdd1bc54e574ac160826e0835fdd3aabbe6f7da6a8952902d214b6223d62b4d3",
+      "hash": "48d49613356c9edfab7a08d700240471f7df8666e8eeb397eda145f80999dc6d",
       "title": "#11715 Slice 440258: Fixed Asset Journal Approval",
       "source": "bcapps-prs",
-      "at": "2026-11-22T00:55:08.426Z",
+      "at": "2026-11-23T00:54:53.472Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/fixed-assets",
           "quote": "Fixed Asset Journal entries can now be approved through the approval workflow"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-fixed-assets",
-          "quote": "Workflow setup and webhook management configured for Fixed Asset Journal approvals"
         }
       ]
     },
@@ -9614,18 +9610,22 @@
     "change/bcapps/12544": {
       "kind": "change",
       "key": "change/bcapps/12544",
-      "hash": "b852a4dfcc5e446e665c90b5cc9f97cc031c36cf64b6be8ea4d3588593a33234",
+      "hash": "010583b24dce019a1b22586da9bdbfe4d8b5d2c6bcea465cd5a307de58cf6860",
       "title": "#12544 Slice 626931: [Expense Agent] Lost receipt workflow and document creation (November '26)",
       "source": "bcapps-prs",
-      "at": "2026-11-22T00:55:06.063Z",
+      "at": "2026-11-23T00:54:55.380Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
           "quote": "The Expense Agent now allows users to submit expenses without a receipt"
         },
         {
           "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
-          "quote": "No Receipt workflow enables expense submission when original receipt is missing"
+          "quote": "selecting a 'No Receipt' option, which generates a standardized document"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/expense-management-preview/understand-expense-agent",
+          "quote": "Expense Agent now allows users to submit expenses without a receipt by selecting"
         }
       ]
     },
@@ -12938,14 +12938,14 @@
     "change/bcapps/13787": {
       "kind": "change",
       "key": "change/bcapps/13787",
-      "hash": "0e1a4e0511e4d68b73de019a1261048bf5689a9fc32f2d4d5cede05e90e3d16e",
+      "hash": "a4d1ca3d5068f903648a963715aaaf92aa67ba7ae20fe7d62c135e7594380bc6",
       "title": "#13787 [Main]error in allocation account function",
       "source": "bcapps-prs",
-      "at": "2026-11-22T00:55:09.965Z",
+      "at": "2026-11-23T00:54:53.251Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/accounting-for-costs",
-          "quote": "Fixed a bug in the allocation account posting logic that occurred during purchase document processing"
+          "quote": "error in the allocation account function, by changing Purchase Alloc. Acc. Mgt"
         }
       ]
     },
@@ -13915,11 +13915,20 @@
     "change/bcapps/14281": {
       "kind": "change",
       "key": "change/bcapps/14281",
-      "hash": "2d79aec447ddd4cf88f1dd9019a40f53c97471c5058cd669bc770b712a602f9d",
+      "hash": "18d6d465107b0bd943572752c7564cd73065201439b441a3b3980901dfd7b750",
       "title": "#14281 Fix manufacturing enum fallback in item journals",
       "source": "bcapps-prs",
-      "at": "2026-11-22T00:55:07.820Z",
-      "matches": []
+      "at": "2026-11-23T00:54:54.167Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-item-tracking",
+          "quote": "item tracking validation, recurring journal selection"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/inventory",
+          "quote": "manufacturing enum fallback in item journals"
+        }
+      ]
     },
     "change/bcapps/14283": {
       "kind": "change",
@@ -13998,30 +14007,29 @@
     "change/bcapps/14329": {
       "kind": "change",
       "key": "change/bcapps/14329",
-      "hash": "3f577af4d9cb5a309253a9c64538915dc2a68c49dbc4813262a1af5cd29018dc",
+      "hash": "8c78efb3927e9f43927b6afcfccd151414a822064ea963638610146e9f6196c9",
       "title": "#14329 Optimizing check for PA eligibility",
       "source": "bcapps-prs",
-      "at": "2026-11-22T00:55:10.291Z",
+      "at": "2026-11-23T00:54:58.770Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/payables-agent",
           "quote": "The Payables Agent eligibility check now uses a more efficient query strategy"
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/manage-copilot-and-agent-capabilities",
+          "quote": "Speeds up opening the Purchase Invoice page and the agent runtime eligibility check"
         }
       ]
     },
     "change/bcapps/14331": {
       "kind": "change",
       "key": "change/bcapps/14331",
-      "hash": "f31c784f0325c681dc45fd72c5ea6ebbc33b29cf303ccd9fa0fbd7a9438b57f7",
+      "hash": "30e641f5df718de055061221e2790205d74e4e8b18bb13e31ea27572b5dca6a0",
       "title": "#14331 Fix trailing periods in generated document attachment folders",
       "source": "bcapps-prs",
-      "at": "2026-11-22T00:55:06.380Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor",
-          "quote": "SharePoint attachment folder paths for document attachments are now normalized"
-        }
-      ]
+      "at": "2026-11-23T00:54:59.950Z",
+      "matches": []
     },
     "change/bcapps/14332": {
       "kind": "change",
@@ -20761,6 +20769,20 @@
         }
       ]
     },
+    "change/bcquality/211": {
+      "kind": "change",
+      "key": "change/bcquality/211",
+      "hash": "3ad7befed8842e6194e333774a486ec7b5cd8a26e5fe2ef98154615d6b66f93d",
+      "title": "#211 knowledge(error-handling): a bare [TryFunction] call propagates its error",
+      "source": "bcquality-prs",
+      "at": "2026-11-23T00:54:53.472Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/error-handling",
+          "quote": "bare calls to TryFunction procedures propagate errors rather than suppressing them"
+        }
+      ]
+    },
     "change/bcquality/213": {
       "kind": "change",
       "key": "change/bcquality/213",
@@ -21198,6 +21220,75 @@
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
           "quote": "SetFilter rule prevents date text parsing issues by requiring date operands"
+        }
+      ]
+    },
+    "change/bcquality/275": {
+      "kind": "change",
+      "key": "change/bcquality/275",
+      "hash": "16ac1f16d57876b23ab4ab2f76008d8fbb045215bf1b0512f96aaef62f06cf4e",
+      "title": "#275 knowledge(performance): Get behind a key-is-set check in and-condition wastes a DB call",
+      "source": "bcquality-prs",
+      "at": "2026-11-23T00:54:53.472Z",
+      "matches": []
+    },
+    "change/bcquality/276": {
+      "kind": "change",
+      "key": "change/bcquality/276",
+      "hash": "2ed7a9d8dbb90ba91dcd2781010eb705ad1c802757f98e08851ed296252c11bc",
+      "title": "#276 Minor consistency fixes: bc-version format, CI permissions, community skill retrieval",
+      "source": "bcquality-prs",
+      "at": "2026-11-23T00:54:53.472Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices",
+          "quote": "Minor consistency improvements to quality rules documentation"
+        }
+      ]
+    },
+    "change/bcquality/277": {
+      "kind": "change",
+      "key": "change/bcquality/277",
+      "hash": "d1717e91a172d3de425297780af7f97fc1fc2ab01233b7695ec81494400ca407",
+      "title": "#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain",
+      "source": "bcquality-prs",
+      "at": "2026-11-23T00:54:53.472Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "quote": "18 new knowledge articles covering translations, assisted setup, API queries, and XMLports"
+        }
+      ]
+    },
+    "change/bcquality/280": {
+      "kind": "change",
+      "key": "change/bcquality/280",
+      "hash": "cdf731c3e3f3e9e27eca935baaaaa6d2078f64cdd752bbc438ab7c5e59b7edaa",
+      "title": "#280 knowledge(testing): ExpectedError must identify the intended error",
+      "source": "bcquality-prs",
+      "at": "2026-11-23T00:54:53.472Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "ExpectedError and ExpectedErrorCode match only by substring, not exact match"
+        }
+      ]
+    },
+    "change/bcquality/281": {
+      "kind": "change",
+      "key": "change/bcquality/281",
+      "hash": "34cb42a319a4c82d3e4d294343693e3045755e19f5d70c6d5d9f3d3c7202dac2",
+      "title": "#281 fix: align READ domain examples and the event parameter addition article",
+      "source": "bcquality-prs",
+      "at": "2026-11-23T00:54:54.084Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extensibility/using-events",
+          "quote": "subscribers never break, but public publishers' callers can break"
+        },
+        {
+          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+          "quote": "Aligned event parameter article with AppSourceCop rule documentation"
         }
       ]
     },
@@ -23023,6 +23114,24 @@
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/formatting-report-data",
           "quote": "set_text_format and set_cell_format tools change visual appearance"
+        }
+      ]
+    },
+    "post/bccaptain-com-au/https://bccaptain.com.au/2026/11/22/bc-word-layout-mcp-2-1-0/": {
+      "kind": "post",
+      "key": "post/bccaptain-com-au/https://bccaptain.com.au/2026/11/22/bc-word-layout-mcp-2-1-0/",
+      "hash": "c38981ce498856a0d8003e7bb40a905db0cd728897d46a95e07f37153bfa0f6c",
+      "title": "BC Word Layout MCP 2.1.0: What changes when you print with a report theme?",
+      "source": "bccaptain-com-au",
+      "at": "2026-11-23T00:54:55.189Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
+          "quote": "adds support for report themes in Word layouts, allowing layout elements to follow selected Business Central themes"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
+          "quote": "Theme colours like accent1 are slots that follow the selected report theme"
         }
       ]
     },
@@ -39104,16 +39213,20 @@
     "post/yzhums-com/70840": {
       "kind": "post",
       "key": "post/yzhums-com/70840",
-      "hash": "77e84b7b2b6efc57893e0fa990e0bd3e76c1c802ebb382547aabb52616fe7f23",
+      "hash": "66c060080d879119bf4e3a9447a136e67fe75b0644c7b48675b4c0787ccea80c",
       "title": "Dynamics 365 Business Central: Copy Comments from Vendor to Purchase Document – Customization",
       "source": "yzhums-com",
-      "at": "2026-10-26T08:15:24.907Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/business-functionality/finance/manage-payables",
-          "quote": "customize Business Central to automatically copy comments from vendor"
-        }
-      ]
+      "at": "2026-11-23T00:55:01.039Z",
+      "matches": [],
+      "second": {
+        "at": "2026-11-23T00:54:45.250Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/business-functionality/finance/manage-payables",
+            "reason": "A code customization that copies vendor comments onto purchase documents is not about managing payables."
+          }
+        ]
+      }
     },
     "post/yzhums-com/70904": {
       "kind": "post",
@@ -50221,16 +50334,25 @@
     "video/Qz-V7qvOY-8": {
       "kind": "video",
       "key": "video/Qz-V7qvOY-8",
-      "hash": "a657fff775d11168d720f0e9c94091630032553228e78f141dd0afa5839063ca",
+      "hash": "fe837f90c08b41d630c2ce2aba44ebee920a0790d15062bf50e2f58bdb225d38",
       "title": "What's New: Enhancements in E-Documents (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-11-11T00:54:55.918Z",
+      "at": "2026-11-23T00:55:03.190Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/finance/manage-payables",
-          "quote": "automated attachments; deletion functionality; e-document services. Shows: Delete incorrect E-documents"
+          "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
+          "quote": "Azure Document Intelligence for PDF processing; Embed PDF in e-document XML export"
         }
-      ]
+      ],
+      "second": {
+        "at": "2026-11-23T00:54:45.250Z",
+        "dropped": [
+          {
+            "topic": "topic/business-central/business-functionality/finance/manage-payables",
+            "reason": "E-document enhancements are documented by the sibling E-Documents section."
+          }
+        ]
+      }
     },
     "video/qZALauRY_So": {
       "kind": "video",

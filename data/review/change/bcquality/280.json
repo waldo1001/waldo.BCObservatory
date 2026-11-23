@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcquality-prs/280",
+  "input_hash": "00c4c3876ef06ad246f7906f4652f1c5cc771d0cd18137d3b1504569b6df9122",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-23T00:56:58.962Z",
+  "issues": [
+    "Key point 4 drops the qualifier: the weak check is a non-empty GetLastErrorText() check, not any use of GetLastErrorText().",
+    "The description gives the full label with StrSubstNo as the ideal, not a strict requirement."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027199,
+    "changes_in_call": 6
+  }
+}

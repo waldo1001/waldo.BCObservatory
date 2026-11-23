@@ -7,12 +7,12 @@ tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-23T00:57:44.194Z"
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -356,15 +356,15 @@ narrative: generated
 
 > Upgrade documentation for Business Central on-premises: supported upgrade paths, known issues, and per-release upgrade guidance from version 14 through version 29 (2026 release wave 2). It answers which path applies to a source version, which steps to follow, and which problems to expect.
 
-Path: [Business Central on-premises](../business-central-on-premises.md) > Upgrade · tier official · system platform · narrative **unreviewed** (model text not yet checked)
+Path: [Business Central on-premises](../business-central-on-premises.md) > Upgrade · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 
 This section covers upgrading Business Central on-premises. Three pages sit at the top level: an overview of upgrading to Business Central online or on-premises, a matrix of supported upgrade paths, and a list of known issues. The overview also touches on help migration and multitenancy migration.
 
-Each release has its own subtopic. The newest ones (v29, v28, v27, v26, v25) hold the upgrade overview, pre-upgrade considerations, steps for installing a cumulative update, and steps for upgrading the System and Base Application from earlier versions. Releases from spring 2019 (v14) through 2024 release wave 1 (v24) are grouped under Earlier versions. Related articles cover converting version 14 C/AL code to AL with Txt2Al and moving tables between extensions with migration.json.
+Each release has its own subtopic. The subtopics for v29, v28, v27 and v26 cover upgrade paths, pre-upgrade considerations, installing an update for that version, and upgrading from earlier versions. The v29 steps cover upgrading from versions 25 to 28. The v28 steps include database conversion, extension publishing, sync and data upgrade. The v27 and v26 subtopics describe upgrading the System and Base Application. The v25 subtopic covers upgrade paths, installing a version 25 update, report and permission changes, and application and data upgrade steps. Releases from spring 2019 (v14) through 2024 release wave 1 (v24) are grouped under Earlier versions. Related articles cover converting version 14 C/AL code to AL with Txt2Al and moving tables between extensions with migration.json.
 
-Start with the supported upgrade paths page to find whether your source version can go directly to the target or needs an intermediate version. Then open the subtopic for the target release, read its pre-upgrade considerations, and follow the upgrade or update steps. Check the known issues page for your version before you begin.
+Start with the supported upgrade paths page to find whether your source version can go directly to the target or needs an intermediate version. Then open the subtopic for the target release, read its pre-upgrade considerations where present, and follow the upgrade or update steps. Check the known issues page for your version before you begin.
 
 ## Key points
 

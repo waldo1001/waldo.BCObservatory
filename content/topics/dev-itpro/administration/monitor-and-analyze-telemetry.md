@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-23T00:57:44.197Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -323,6 +323,7 @@ links:
     - video/MYZOkoSmtZ0
     - video/oF_wSP0xrSQ
     - video/sZ7wMU1Uxio
+    - video/uv2NsSD5P7U
     - video/VX_aPhcsIOc
   posts:
     - post/demiliani-com/13096
@@ -333,7 +334,6 @@ links:
     - post/waldo-be/317845
     - post/waldo-be/318423
     - post/waldo-be/318571
-    - post/yzhums-com/63913
   guidelines: []
   changes:
     - change/bcapps/10573
@@ -347,8 +347,8 @@ children:
 coverage:
   learn: 70
   code: 0
-  video: 8
-  blog: 9
+  video: 9
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: 6d811af42d6a134d1ed6be0e44736f3c1dff51ecfed1455cb2a4358c4de6d557
@@ -469,7 +469,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../posts/waldo-be/317845.md) (community post): "Dashboard visualization consolidates custom telemetry and daily telemetry data"
 - [BC Telemetry Buddy – 84 commits later..](../../../posts/waldo-be/318423.md) (community post): "production-ready tool for analyzing Business Central telemetry"
 - [I built the tool .. but forgot the skill..](../../../posts/waldo-be/318571.md) (community post): "BC Telemetry Buddy amplifies the quality of the input, so vague questions get vague but confident answers"
-- [Dynamics 365 Business Central: How to easily check who created an environment, company and record and when](../../../posts/yzhums-com/63913.md) (community post): "Tracking who created environments, companies, and records in Business Central can be done through telemetry"
 - [What's New: Server and Database (2026 release wave 1)](../../../videos/2u5_F9Ztt7U.md) (video): "Telemetry for MCP Configuration and Usage; Client Hardware and Network Telemetry"
 - [What's New: Telemetry (2023 release wave 2)](../../../videos/7rIHz0zrgWU.md) (video): "AI assisted performance analysis; Key influencers analysis; Top segments analysis"
 - [Connect Power BI Telemetry Apps to Read your Business Central Telemetry Data (2023)](../../../videos/BOY2442wHSc.md) (video): "power bi; telemetry; application insights; data connection"
@@ -477,6 +476,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Store Business Central Telemetry in Azure Application Insights](../../../videos/MYZOkoSmtZ0.md) (video): "Store Business Central Telemetry in Azure Application Insights"
 - [I Built an AI That Turns Business Central Telemetry Into GitHub Issues (Automatically)](../../../videos/oF_wSP0xrSQ.md) (video): "telemetry; application insights; kql queries; automated bc telemetry triage"
 - [Change Dataset Properties for a Power BI Telemetry App in Power BI](../../../videos/sZ7wMU1Uxio.md) (video): "Power BI Telemetry app dataset properties"
+- [What's New: Flexible Update Management (2024 release wave 2)](../../../videos/uv2NsSD5P7U.md) (video): "Telemetry signal changes for update events"
 - [Enable Cost Control Strategies for Business Central Telemetry](../../../videos/VX_aPhcsIOc.md) (video): "Enable Cost Control Strategies for Business Central Telemetry"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.
