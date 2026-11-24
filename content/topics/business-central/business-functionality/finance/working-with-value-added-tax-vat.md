@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -238,6 +238,7 @@ links:
     - change/bcapps/13310
     - change/bcapps/13403
     - change/bcapps/13415
+    - change/bcapps/13854
     - change/bcapps/14008
     - change/bcapps/14373
     - change/bcapps/9089
@@ -405,6 +406,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13310 [Master]-Reverse Charge VAT with 100% Non-Deductible VAT Posts Incorrectly in Foreign Currency Transactions.](../../../../changes/bcapps/13310.md) (code change): "reverse charge VAT with 100% non-deductible VAT in foreign currency"
 - [#13403 Bug 657097: [master] Suggest Lines fails with a duplicate ECSL VAT Report Line Relation record in GB environment](../../../../changes/bcapps/13403.md) (code change): "EC Sales List Suggest Lines in GB environment to process each VAT entry"
 - [#13415 [29.X]-Reverse Charge VAT with 100% Non-Deductible VAT Posts Incorrectly in Foreign Currency Transactions](../../../../changes/bcapps/13415.md) (code change): "Reverse Charge VAT with 100% non-deductible VAT in foreign currency"
+- [#13854 [Main]-All VAT Entries are gone through without filters with "Set G/L Account No." function.](../../../../changes/bcapps/13854.md) (code change): "VAT Entries page and G/L - VAT Reconciliation report now respect user filters"
 - [#14008 [MAIN] Fix customer GST application posting sequence (Bug 659070)](../../../../changes/bcapps/14008.md) (code change): "Fixed a posting sequence error when applying GST advance payments"
 - [#14373 [MAIN] Subcontracting Receipt Extensibility Events.](../../../../changes/bcapps/14373.md) (code change): "Integration events are added to subcontracting receipt posting in the India GST application"
 - [#9089 Merge-ES-Excluded-from-Calculation-to-W1](../../../../changes/bcapps/9089.md) (code change): "ES Excluded from Calculation functionality is merged into W1"

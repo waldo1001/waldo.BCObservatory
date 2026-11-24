@@ -14,17 +14,17 @@ review:
   at: "2026-10-16T01:07:15.485Z"
   flags: []
 generated:
-  at: "2026-11-23T00:49:55.504Z"
+  at: "2026-11-24T00:56:51.308Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 9415629859d40afe181e8ded986fa3ea4f2dd87323c8ad255dafc8a8d8623a18
+  input_hash: 0ff52dd0f69649728e5387015bb389cdf9e414d768171d6d497477610a71940f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-at
     date: null
-    commit: 6a9588a817c12a5d35d3e6c4ad40e29ecca88acf
+    commit: b42f520c380a64062ca700b5f5450acc436e5b05
     t: null
     quote: null
 links:
@@ -248,7 +248,7 @@ Adds an Austrian expense event subscriber codeunit.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/6914 "Expense Event Subscriber AT"](../objects/codeunit/6914.md) (own).
+Objects: [codeunit/6914 "Expense Event Subscriber AT"](../objects/codeunit/6914-at.md) (own).
 
 [All 1 objects of ExpenseAgent in the diff](?ns=ExpenseAgent#country-diff)
 
@@ -340,7 +340,7 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-at.md) (own).
 
 - [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-at.md)
 - [codeunit/1883 "Sandbox Cleanup local"](../objects/codeunit/1883-at.md)
-- [codeunit/6914 "Expense Event Subscriber AT"](../objects/codeunit/6914.md)
+- [codeunit/6914 "Expense Event Subscriber AT"](../objects/codeunit/6914-at.md)
 - [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-at.md)
 - [codeunit/11000 "Data Export Management"](../objects/codeunit/11000-at.md)
 - [codeunit/11004 "Report Sel. Purch. Subscribers"](../objects/codeunit/11004-at.md)

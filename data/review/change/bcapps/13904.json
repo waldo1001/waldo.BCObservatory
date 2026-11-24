@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/13904",
+  "input_hash": "74fc5b7c1f7dee9a59448e7d53dd9f8481161998121bbea098db48e788d216bf",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-24T01:03:36.869Z",
+  "issues": [
+    "Key point claims changes across all localization layers; Navigate page changed only in DACH, ES, NA, RU, W1 and tests in BE, CZ, IT, NA, W1.",
+    "Change is a bug fix (Fixes AB# work item, release branch backport), so change_kind should be fix rather than feature.",
+    "Last key point is generic filler."
+  ],
+  "applied": [
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019829,
+    "changes_in_call": 6
+  }
+}

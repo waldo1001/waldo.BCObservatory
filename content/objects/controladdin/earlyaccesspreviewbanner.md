@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-23T00:49:55.504Z"
+  at: "2026-11-24T00:56:51.308Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 218c7a8118b61d1afcb362e140056d612cfba5b979997aadc8d5db048f6e4ead
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/System%20Application/App/Guided%20Experience/src/Early%20Access%20Preview/EarlyAccessPreviewBanner.ControlAddin.al
+    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/System%20Application/App/Guided%20Experience/src/Early%20Access%20Preview/EarlyAccessPreviewBanner.ControlAddin.al
     title: src/System Application/App/Guided Experience/src/Early Access Preview/EarlyAccessPreviewBanner.ControlAddin.al (releases/29.x)
     date: null
-    commit: 6a9588a817c12a5d35d3e6c4ad40e29ecca88acf
+    commit: b42f520c380a64062ca700b5f5450acc436e5b05
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Control add-in "EarlyAccessPreviewBanner" in System Application (System.Environment.Configuration). Introduced in BC28, still in BC30.
 
-System Application · System.Environment.Configuration · BC28-30 · [source at 6a9588a8](https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/System%20Application/App/Guided%20Experience/src/Early%20Access%20Preview/EarlyAccessPreviewBanner.ControlAddin.al) · facts from BC29
+System Application · System.Environment.Configuration · BC28-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/System%20Application/App/Guided%20Experience/src/Early%20Access%20Preview/EarlyAccessPreviewBanner.ControlAddin.al) · facts from BC29
 
 ## Across versions
 

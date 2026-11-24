@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-23T00:49:55.504Z"
+  at: "2026-11-24T00:56:51.308Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d155255dbc460fc12de1418917ffdb6b185d7a8612a203820d78b67364cf53d6
+  input_hash: 2e45cc042a2921f18957cca06a41db517d3e4bfe4e0be418be9ceb84593b7f30
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Apps/W1/ExpenseAgent/app/src/Consumption/ExpenseAgentQuota.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Apps/W1/ExpenseAgent/app/src/Consumption/ExpenseAgentQuota.Interface.al
     title: src/Apps/W1/ExpenseAgent/app/src/Consumption/ExpenseAgentQuota.Interface.al (releases/29.x)
     date: null
-    commit: 6a9588a817c12a5d35d3e6c4ad40e29ecca88acf
+    commit: b42f520c380a64062ca700b5f5450acc436e5b05
     t: null
     quote: null
 links:
@@ -78,7 +78,7 @@ relations:
 
 > Interface "Expense Agent Quota" in ExpenseAgent (Microsoft.ExpenseAgent). 7 public procedures. Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 6a9588a8](https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Apps/W1/ExpenseAgent/app/src/Consumption/ExpenseAgentQuota.Interface.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Apps/W1/ExpenseAgent/app/src/Consumption/ExpenseAgentQuota.Interface.al) · facts from BC29
 
 ## Properties
 
@@ -98,7 +98,7 @@ ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 6a9588a8](https:
 
 ## Implemented by
 
-- [Codeunit 6913 "Expense Agent Quota Impl."](../codeunit/6913.md)
+- [Codeunit 6923 "Expense Agent Quota Impl."](../codeunit/6923.md)
 
 ## Recent changes
 

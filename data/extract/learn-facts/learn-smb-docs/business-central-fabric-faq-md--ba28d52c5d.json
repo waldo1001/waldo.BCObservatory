@@ -2,46 +2,50 @@
   "item_id": "docs/learn-smb-docs/business-central/fabric-faq.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fabric-faq",
   "title": "Business Central Mirroring to Microsoft Fabric FAQ",
-  "blob": "2fa10ae8924d177fa8c48a48858f36310665c84f",
+  "blob": "7ab925f04f770b12b511ad809b95e21ed0b08058",
   "rule": 1,
   "prompt_version": 1,
   "facts": [
     {
       "kind": "status",
-      "text": "The data mirroring feature is in preview as of the article publication date."
+      "text": "Public preview. Business Central online version 29.1 or later with Mirroring to Fabric extension required."
     },
     {
       "kind": "prerequisite",
-      "text": "Business Central online environment must support the Microsoft Fabric Mirroring extension."
+      "text": "Available for Business Central online only, not on-premises or Docker environments."
     },
     {
       "kind": "prerequisite",
-      "text": "Fabric workspace must be assigned to an active Microsoft Fabric capacity. Paused or deleted capacity stops replication."
+      "text": "Workspace assigned to active Fabric capacity or supported Fabric trial. Paused capacity stops replication."
+    },
+    {
+      "kind": "permission",
+      "text": "MS Fabric Mirroring - Admin to configure, Activate to manage packages, Read for synchronization monitoring."
     },
     {
       "kind": "fact",
-      "text": "First create an open mirrored database in Fabric, then configure Business Central to replicate data to that database."
+      "text": "Mirroring copies initial data then syncs changes. Use when API refreshes are slow or combining data from multiple systems."
+    },
+    {
+      "kind": "limit",
+      "text": "Up to 1,000 selected tables across manual selections and packages. FlowFields and BLOB fields excluded."
+    },
+    {
+      "kind": "limit",
+      "text": "Cannot filter records, specify time periods, choose individual fields, or configure different intervals per table."
     },
     {
       "kind": "fact",
-      "text": "Enter the service principal Object ID in Principal ID only when using Add to workspace. If access is already granted in Fabric, leave it blank."
-    },
-    {
-      "kind": "fact",
-      "text": "Connect to Fabric requests background connection setup. Start synchronization requests continuous exports after at least one company and table are selected."
-    },
-    {
-      "kind": "fact",
-      "text": "Deleted records are synchronized along with inserted and updated records."
+      "text": "No Business Central fee for mirroring. Fabric doesn't charge replication compute but charges for storage beyond free allowance and queries."
     }
   ],
-  "dropped": 1,
+  "dropped": 0,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007238,
-      "pages_in_call": 5
+      "cost_usd": 0.01376,
+      "pages_in_call": 1
     }
   ]
 }

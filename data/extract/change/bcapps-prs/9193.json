@@ -8,14 +8,13 @@
   ],
   "summary": "Transformation Rule record codes are now locked to prevent translation, ensuring configuration portability across differently-localized environments while keeping descriptions translatable.",
   "key_points": [
-    "Added Locked = true to 12 Code-producing labels in Transformation Rule default records to prevent translation of primary keys",
-    "Description labels remain translatable since only descriptions should be localized, not the code identifiers",
-    "Fixes portability issues when configurations reference transformation rules across environments with different languages or translation extensions",
-    "Prevents logical rule codes like 'Uppercase' from having different values depending on installation language",
-    "Existing translated code values in pre-upgrade environments will not be renamed; new English locked codes will be inserted as separate records"
+    "Added Locked = true to 12 Code-producing labels used for default Transformation Rule records",
+    "Description labels stay translatable; only the primary-key codes are locked",
+    "Keeps rule codes like Uppercase identical across environments with different languages or translation extensions",
+    "Existing translated codes are not renamed; re-running default creation could add English-code rows alongside them"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

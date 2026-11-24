@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-23T00:57:44.197Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -212,7 +212,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#8924 [QM] Fixed overflow runtime error](../../../../changes/bcapps/8924.md) (code change): "Adds a regression test in the miscellaneous QM tests codeunit"
 - [#9293 [Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)](../../../../changes/bcapps/9293.md) (code change): "Six new tests added covering the corrected behavior"
 - [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../changes/bcquality/159.md) (code change): "AL testing patterns from an external BC testing expert's blog"
-- [#280 knowledge(testing): ExpectedError must identify the intended error](../../../../changes/bcquality/280.md) (code change): "ExpectedError and ExpectedErrorCode match only by substring, not exact match"
+- [#280 knowledge(testing): ExpectedError must identify the intended error](../../../../changes/bcquality/280.md) (code change): "ExpectedError must identify the intended error. The testing knowledge article"
 - [AL EventLens 0.1.6: the handler lens, and a fix that needed fixing](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing--1510616044.md) (community post): "Handler lens shows test usage counts above handler functions such as MessageHandler, ConfirmHandler and PageHandler"
 - [AL Language extension for Microsoft Dynamics 365 Business Central version 16.2.1869542 (New version)](../../../../posts/gerardorenteria-blog/11565.md) (community post): "Testing enhancements enable HTTP request mocking with TestHttpRequestPolicy"
 - [Why do all my tests show up twice in the test explorer?](../../../../posts/jpearson-blog/1590.md) (community post): "Tests show up twice in the VS Code test explorer when the pre-release AL Language extension"

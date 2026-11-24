@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,14 +89,11 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry/reference-documentation-telemetry
   localizations: []
   videos:
-    - video/1x3QyBX3swg
     - video/7rIHz0zrgWU
     - video/b54ehH4AlFA
-    - video/fgWFOMPJd6U
     - video/mnxOSl1Y9PI
     - video/tDcT_51ktqo
   posts:
-    - post/nataliekarolak-com/3653
     - post/waldo-be/317845
     - post/waldo-be/318371
   guidelines: []
@@ -118,8 +115,8 @@ children:
 coverage:
   learn: 8
   code: 0
-  video: 6
-  blog: 3
+  video: 4
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 700c86efba6976ff1f579dab7d994f43d63ff87525ee22bc8315bb5d045228dd
@@ -182,13 +179,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2395 Prevent workflow telemetry failures from failing the workflow](../../../../changes/al-go/2395.md) (code change): "WorkflowPostProcess telemetry failures no longer cause the entire workflow to fail"
 - [#10897 BC IQ - Update data sensitivities for policy history](../../../../changes/bcapps/10897.md) (code change): "Data sensitivities are updated to reflect recent changes to Business Skill"
 - [#12432 [AB#647643] Retain remote files and safely retire verified local references](../../../../changes/bcapps/12432.md) (code change): "Removes unused deletion telemetry and updates the README configuration guidance"
-- [Docs: What’s new in BC 27 for developers](../../../../posts/nataliekarolak-com/3653.md) (community post): "Enhanced properties including MaskType for sensitive data masking"
 - [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../../posts/waldo-be/317845.md) (community post): "extends Business Central's built-in telemetry capabilities by adding custom events"
 - [Analyzing BC Telemetry with AI with the “BC Telemetry Buddy”](../../../../posts/waldo-be/318371.md) (community post): "query Business Central telemetry data through natural conversation using GitHub Copilot"
-- [Microsoft presents: Index management](../../../../videos/1x3QyBX3swg.md) (video): "Telemetry for Index Changes; Just-in-time index enabling; Automatic index rebuild"
 - [What's New: Telemetry (2023 release wave 2)](../../../../videos/7rIHz0zrgWU.md) (video): "Long running AL telemetry - total and exclusive time; Web service error troubleshooting guides"
 - [What's Cooking in Business Central: Financial Reporting Enhancements (part 2): Telemetry](../../../../videos/b54ehH4AlFA.md) (video): "telemetry; financial reporting; application insights; row definitions"
-- [Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot](../../../../videos/fgWFOMPJd6U.md) (video): "Telemetry; prompt engineering; ai testing; grounding"
 - [What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)](../../../../videos/mnxOSl1Y9PI.md) (video): "Telemetry for AL Developers; Security for Developers; Extensibility Overview"
 - [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../videos/tDcT_51ktqo.md) (video): "Exclusive Time Telemetry; Session Creation Performance Improvement"
 

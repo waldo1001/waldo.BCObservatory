@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:41.011Z"
   flags: []
 generated:
-  at: "2026-11-23T00:54:20.709Z"
+  at: "2026-11-24T01:01:15.134Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -80,7 +80,6 @@ links:
   features:
     - feature/573350
     - feature/573362
-    - feature/573371
     - feature/573380
     - feature/573624
     - feature/576872
@@ -160,12 +159,10 @@ features:
     verified: false
     status_source: video
   - name: Advanced Tell Me search
-    status: ga
+    status: preview
     t: 345
     verified: true
-    status_source: roadmap
-    roadmap_ids:
-      - "573371"
+    status_source: video
   - name: Autofill with Copilot field suggestions
     status: announced
     t: 498
@@ -435,7 +432,7 @@ The rest covers 20-language chat support, localization items, AL and page script
 |---|---|---|---|
 | Enhanced sales order agent | generally available (roadmap [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md)) | [4:48](https://www.youtube.com/watch?v=H5EuObmeF4o&t=288s) |  |
 | MCP server for Business Central | status not stated | [5:03](https://www.youtube.com/watch?v=H5EuObmeF4o&t=303s) |  |
-| Advanced Tell Me search | generally available (roadmap [Show recently searched in Tell Me](../features/573371.md)), demoed | [5:45](https://www.youtube.com/watch?v=H5EuObmeF4o&t=345s) | "Feature management. And yes, advance. Tell me more. Tell me preview. Uh, let's turn it on here for all users." ([6:58](https://www.youtube.com/watch?v=H5EuObmeF4o&t=418s)) |
+| Advanced Tell Me search | preview, demoed | [5:45](https://www.youtube.com/watch?v=H5EuObmeF4o&t=345s) | "Feature management. And yes, advance. Tell me more. Tell me preview. Uh, let's turn it on here for all users." ([6:58](https://www.youtube.com/watch?v=H5EuObmeF4o&t=418s)) |
 | Autofill with Copilot field suggestions | announced (roadmap [Fill forms faster with Autofill - Auto paste](../features/579980.md)), demoed | [8:18](https://www.youtube.com/watch?v=H5EuObmeF4o&t=498s) |  |
 | Payables agent contextual invoice drafts | status not stated | [9:02](https://www.youtube.com/watch?v=H5EuObmeF4o&t=542s) |  |
 | Agent task instructions enhancement | status not stated | [9:13](https://www.youtube.com/watch?v=H5EuObmeF4o&t=553s) |  |

@@ -34538,6 +34538,15 @@
         }
       ]
     },
+    "video/CBRjbRd7uLM": {
+      "kind": "video",
+      "key": "video/CBRjbRd7uLM",
+      "hash": "351b317de3e713e3437bba671bcb8ec1a83094641581fdaa13954f72e7a9b7e1",
+      "video_id": "CBRjbRd7uLM",
+      "title": "Building the World's Best ControlAddIn for AL code in Business Central",
+      "at": "2026-11-24T01:00:27.320Z",
+      "matches": []
+    },
     "video/cc6rEVDhlzs": {
       "kind": "video",
       "key": "video/cc6rEVDhlzs",
@@ -38714,10 +38723,10 @@
     "video/MgWlmZAlqGI": {
       "kind": "video",
       "key": "video/MgWlmZAlqGI",
-      "hash": "02f3c5b58946a3bd35d548d65c2e322085c7fb29a5d2c5d2d9e59c5998a62056",
+      "hash": "caeb2a2ec5b0d2df803ce43722ed6eb2dd157ab46c84fb63a1731f4673d03dfb",
       "video_id": "MgWlmZAlqGI",
       "title": "What's New: Entering and Approving Time Sheets (2024 release wave 1)",
-      "at": "2026-10-07T00:01:44.495Z",
+      "at": "2026-11-24T01:00:27.257Z",
       "matches": []
     },
     "video/mhfjycxWTyY": {
@@ -38942,10 +38951,10 @@
     "video/MpDKjl7zzdk": {
       "kind": "video",
       "key": "video/MpDKjl7zzdk",
-      "hash": "bdde49427438456da31753becd700e4d3473fab28bbc1e54d0ab3105f1bcbaa7",
+      "hash": "5de169d157d785b958517f6ed3ec36bf039b4a378dc730fe0a59992fc4904e93",
       "video_id": "MpDKjl7zzdk",
       "title": "What's New: Suggest Number Series with Copilot  (2024 release wave 2)",
-      "at": "2026-10-30T07:53:42.973Z",
+      "at": "2026-11-24T01:00:29.336Z",
       "matches": []
     },
     "video/mS6NDhj20yI": {
@@ -38996,10 +39005,10 @@
     "video/MsMGsYqHeI8": {
       "kind": "video",
       "key": "video/MsMGsYqHeI8",
-      "hash": "36fffced8742fe3af438523c9af9078019f155660acf9f2356ed7e8323852c7f",
+      "hash": "5c23b4b00b5099043e08f0ada5caa367980fabfd44bfa624843ea5fccfcdf684",
       "video_id": "MsMGsYqHeI8",
       "title": "Episode 514: Do We Need AI to Fight AI? The Content Overload Nobody's Talking About",
-      "at": "2026-10-30T07:53:42.203Z",
+      "at": "2026-11-24T01:00:27.365Z",
       "matches": []
     },
     "video/mT_0VKqdEzA": {
@@ -39114,48 +39123,104 @@
     "video/N_J1HB_fUCM": {
       "kind": "video",
       "key": "video/N_J1HB_fUCM",
-      "hash": "35122e58438517dea5372bbd02ae6499ba52497326f2fb2b78c2b1337a482356",
+      "hash": "f043d1f13254135e9d0d7ee6b5573ebcfbece42936e1d7d5505c5a800e1f0adb",
       "video_id": "N_J1HB_fUCM",
       "title": "What's new in Finance: Overview (2026 release wave 2)",
-      "at": "2026-11-02T00:53:12.469Z",
+      "at": "2026-11-24T01:00:38.317Z",
       "matches": [
         {
           "feature": 0,
           "name": "Multiple excise taxes per item",
           "t": 54,
           "roadmap_id": "573306",
-          "quote": "multiple excise taxes to a single item instead of just one"
+          "quote": "Multiple excise taxes per item. Users can now add multiple excise taxes to a single item"
+        },
+        {
+          "feature": 1,
+          "name": "Bonded location support for excise taxes",
+          "t": 104,
+          "roadmap_id": "573615",
+          "quote": "Bonded location support for excise taxes. New feature allowing locations to be marked as bonded locations"
+        },
+        {
+          "feature": 3,
+          "name": "Ad valorem excise tax calculation",
+          "t": 189,
+          "roadmap_id": "573614",
+          "quote": "Ad valorem excise tax calculation. New ad valorem calculation model for excise taxes"
+        },
+        {
+          "feature": 4,
+          "name": "Hybrid excise tax calculation model",
+          "t": 229,
+          "roadmap_id": "573614",
+          "quote": "Hybrid excise tax calculation model. Combined calculation model for excise taxes"
         },
         {
           "feature": 5,
           "name": "Self-billing vendor-specific number series",
           "t": 258,
           "roadmap_id": "573307",
-          "quote": "selection of specific number series for each vendor using self-billing"
+          "quote": "Self-billing vendor-specific number series. Enhancement allowing selection of specific number series for each vendor"
+        },
+        {
+          "feature": 6,
+          "name": "Self-billing PEPPOL format support",
+          "t": 292,
+          "roadmap_id": "573612",
+          "quote": "Self-billing PEPPOL format support. Self-billing invoices now support PEPPOL format"
+        },
+        {
+          "feature": 7,
+          "name": "Cross environment master data management",
+          "t": 315,
+          "roadmap_id": "573613",
+          "quote": "Cross environment master data management. Functionality enabling management of master data across multiple environments"
         },
         {
           "feature": 8,
           "name": "Withholding tax for employees",
           "t": 375,
           "roadmap_id": "573308",
-          "quote": "calculate and apply withholding taxes for employees with options for gross or net calculation"
+          "quote": "Withholding tax for employees. New capability to calculate and apply withholding taxes for employees"
         },
         {
           "feature": 9,
           "name": "Invoicing for France GA",
           "t": 497,
           "roadmap_id": "576832",
-          "quote": "French e-invoicing functionality now generally available"
+          "quote": "Invoicing for France GA. French e-invoicing functionality now generally available"
+        },
+        {
+          "feature": 13,
+          "name": "EU BP audit file export for Germany",
+          "t": 523,
+          "roadmap_id": "573617",
+          "quote": "EU BP audit file export for Germany. Ability to export EU BP files using audit file export functionality"
+        },
+        {
+          "feature": 14,
+          "name": "SFT enablement for Austria and Iceland",
+          "t": 540,
+          "roadmap_id": "573619",
+          "quote": "SFT enablement for Austria and Iceland. Standard SFT functionality now enabled for Austria and Iceland"
+        },
+        {
+          "feature": 14,
+          "name": "SFT enablement for Austria and Iceland",
+          "t": 540,
+          "roadmap_id": "573620",
+          "quote": "SFT enablement for Austria and Iceland. Standard SFT functionality now enabled for Austria and Iceland"
         }
       ]
     },
     "video/N30HebR5nJk": {
       "kind": "video",
       "key": "video/N30HebR5nJk",
-      "hash": "03e11227bd86d9dc640b3a61bf165faf40b8d0b56abbd413f8ac9e06b4d1950f",
+      "hash": "d9187aaa23292a03dfe4186e7b7168df2cf35dc73409ab995479f4ca920a6f37",
       "video_id": "N30HebR5nJk",
       "title": "Execution & Control Cost Control (2026)",
-      "at": "2026-11-02T00:53:07.781Z",
+      "at": "2026-11-24T01:00:27.272Z",
       "matches": []
     },
     "video/n4qog_IpKqw": {
@@ -39170,19 +39235,19 @@
     "video/N7RE_UVeH1c": {
       "kind": "video",
       "key": "video/N7RE_UVeH1c",
-      "hash": "6c347f69fd5d72a51dcf3ec0a4b57db859a230f981763c431dd11ebcbed8b0eb",
+      "hash": "4285ed18bc5396d7bb4419a19f136f8c4bde6c6f131e1784c0ea230758c21c45",
       "video_id": "N7RE_UVeH1c",
       "title": "What's Cooking in Business Central: Wanna Export Data to Excel in Analysis Mode?",
-      "at": "2026-10-25T12:34:49.856Z",
+      "at": "2026-11-24T01:00:28.471Z",
       "matches": []
     },
     "video/N8Unj6WLB6U": {
       "kind": "video",
       "key": "video/N8Unj6WLB6U",
-      "hash": "8f9f4640b94e72bed73cd974e2572fc223429026c33fef8c84078f7431d4a5e7",
+      "hash": "d4eb7d62bd869b66a5e2fc90890e5d53435b4beb88a5009033fc17fb331f1d22",
       "video_id": "N8Unj6WLB6U",
       "title": "What's New: Service Management (2024 release wave 1)",
-      "at": "2026-10-25T12:34:52.369Z",
+      "at": "2026-11-24T01:00:33.161Z",
       "matches": []
     },
     "video/n9HaH2dZUaU": {
@@ -39294,10 +39359,10 @@
     "video/NE7NIjpkX3c": {
       "kind": "video",
       "key": "video/NE7NIjpkX3c",
-      "hash": "d5853e1f3b4a55c40cf44d63cf22ad6d33814e5f1c27f5b8c49edb73317dfa4b",
+      "hash": "ad5ce1f48898c0799a4b7607269f49c8434ca304b345e838253543a488ea603d",
       "video_id": "NE7NIjpkX3c",
       "title": "What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)",
-      "at": "2026-10-30T07:53:46.229Z",
+      "at": "2026-11-24T01:00:32.833Z",
       "matches": [
         {
           "feature": 0,
@@ -39311,48 +39376,19 @@
     "video/NI6WYze-JSU": {
       "kind": "video",
       "key": "video/NI6WYze-JSU",
-      "hash": "2d46165347b6c8abd0006f5a605919b396ffb20c4725b93658547eab43c512b5",
+      "hash": "59ca615e718cb97eefc00f206385f77a10e47d0cc01efb9cdbd0bcdba53a0c10",
       "video_id": "NI6WYze-JSU",
       "title": "Expense Agent: Project Expenses (2026 release wave 1)",
-      "at": "2026-10-30T07:53:48.471Z",
-      "matches": [
-        {
-          "feature": 0,
-          "name": "Project and task visibility in Expense Agent web app",
-          "t": 17,
-          "roadmap_id": "573259",
-          "quote": "Project and task visibility in Expense Agent web app"
-        },
-        {
-          "feature": 1,
-          "name": "Submitter project assignment capability",
-          "t": 81,
-          "roadmap_id": "573259",
-          "quote": "Expense submitters can assign expenses to projects and project tasks in the web app"
-        },
-        {
-          "feature": 2,
-          "name": "Project tracking configuration in Expense Agent setup",
-          "t": 104,
-          "roadmap_id": "573259",
-          "quote": "Options include activating project tracking and setting project visibility to all projects or assigned projects only"
-        },
-        {
-          "feature": 3,
-          "name": "Expense user to resource linkage",
-          "t": 119,
-          "roadmap_id": "573259",
-          "quote": "Expense users are linked to employees and resources to establish connection for project tracking"
-        }
-      ]
+      "at": "2026-11-24T01:00:31.955Z",
+      "matches": []
     },
     "video/NkYNL_5Zfoc": {
       "kind": "video",
       "key": "video/NkYNL_5Zfoc",
-      "hash": "5c574c6f51b422f4fcd32c746b01d04ecf1c6025e60ba591c3bdbe797a098467",
+      "hash": "cce8a2bbe49e6d5b1f1ce84f7a707d11172098d1bc7e5318422b121afe1e2722",
       "video_id": "NkYNL_5Zfoc",
       "title": "Comparing General Journal Entries between Dynamics SL and Dynamics 365 Business Central",
-      "at": "2026-10-30T07:53:52.473Z",
+      "at": "2026-11-24T01:00:37.982Z",
       "matches": []
     },
     "video/nMiLzdfidos": {
@@ -39367,11 +39403,33 @@
     "video/NMO822Jf_4E": {
       "kind": "video",
       "key": "video/NMO822Jf_4E",
-      "hash": "14e01ef804609ed0c1ec67b081f24833be8c99d5e70636d587655f7aeec1f44f",
+      "hash": "15c5331ae954c0d6499281987ff9f4af72d8fe10033566affd819f4a77853d83",
       "video_id": "NMO822Jf_4E",
       "title": "What's New: Processing of Presentment Currencies in Shopify (2026 release wave 1)",
-      "at": "2026-10-25T12:34:54.468Z",
-      "matches": []
+      "at": "2026-11-24T01:00:32.779Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Presentment currency support in Shopify order processing",
+          "t": 56,
+          "roadmap_id": "573340",
+          "quote": "Presentment currency support in Shopify order processing"
+        },
+        {
+          "feature": 1,
+          "name": "Currency handling field on Shopify shop card",
+          "t": 73,
+          "roadmap_id": "573340",
+          "quote": "Currency handling field on Shopify shop card"
+        },
+        {
+          "feature": 2,
+          "name": "Processed currency field in orders",
+          "t": 152,
+          "roadmap_id": "573340",
+          "quote": "Processed currency field in orders"
+        }
+      ]
     },
     "video/nnCLAqEM0Bs": {
       "kind": "video",
@@ -39403,10 +39461,10 @@
     "video/NPhOSQTheXw": {
       "kind": "video",
       "key": "video/NPhOSQTheXw",
-      "hash": "9d023b7bcbf85d5c3b22662cc573085c0d7b3492b52deb53a1f840aa66f64df1",
+      "hash": "bf65ac2eadf1036a18195c13b7c58a25427fcfb924b11282e1c084c991d09b45",
       "video_id": "NPhOSQTheXw",
       "title": "How to Set Up Sales Tax in Business Central (2025)",
-      "at": "2026-11-02T00:53:08.927Z",
+      "at": "2026-11-24T01:00:35.085Z",
       "matches": []
     },
     "video/npkC4wyucyY": {
@@ -39429,19 +39487,19 @@
     "video/NwMLT-k6J6Q": {
       "kind": "video",
       "key": "video/NwMLT-k6J6Q",
-      "hash": "bc8707799677c69097fc5a9d2ebf3cfbece5924a5e05d155e97db56326ee43c9",
+      "hash": "32c87ff12768e1d0a185998cfb7714b75ef12fb87d69043c78f28402d6453dad",
       "video_id": "NwMLT-k6J6Q",
       "title": "What's New: Creating Customer Centric Onboarding Experiences (2023 release wave 2)",
-      "at": "2026-10-25T12:34:58.451Z",
+      "at": "2026-11-24T01:00:39.495Z",
       "matches": []
     },
     "video/NYG4pOtW-Xw": {
       "kind": "video",
       "key": "video/NYG4pOtW-Xw",
-      "hash": "8ef20b3a7c778cb98d4e9482eac39e3bf562d12bcbae42db0bf81714ed85cc71",
+      "hash": "a46e930747af874b9a6241c6eeb1e68c994bf41f2738e37868458b47ef6d6112",
       "video_id": "NYG4pOtW-Xw",
       "title": "What's New in Sustainability (2024 release wave 2)",
-      "at": "2026-11-02T00:53:07.278Z",
+      "at": "2026-11-24T01:00:34.641Z",
       "matches": [
         {
           "feature": 2,
@@ -39456,34 +39514,41 @@
           "t": 807,
           "roadmap_id": "573374",
           "quote": "Users can add sustainability account numbers to purchase invoices and enter emissions data"
+        },
+        {
+          "feature": 12,
+          "name": "Sustainability Ledger Entries with Document Tracking",
+          "t": 841,
+          "roadmap_id": "573376",
+          "quote": "Posted sustainability documents create ledger entries showing document type, emissions details"
         }
       ]
     },
     "video/O0UTg-e3t5k": {
       "kind": "video",
       "key": "video/O0UTg-e3t5k",
-      "hash": "155b6d44a664d76a9a06c1d05d622cba00185d23a370f30b4047c46b1d8b768f",
+      "hash": "9743d46208236e6dda505e0631ef4242711d26eda3226183f712b015bcadfb7a",
       "video_id": "O0UTg-e3t5k",
       "title": "Jump to a Master Entity Using a Keyboard Shortcut",
-      "at": "2026-10-25T12:34:59.161Z",
+      "at": "2026-11-24T01:00:39.944Z",
       "matches": []
     },
     "video/O2RPBlr_GiE": {
       "kind": "video",
       "key": "video/O2RPBlr_GiE",
-      "hash": "894804597ad80b3eda41869a106760a35f846e9dd8295fc13e1f293e0877a27b",
+      "hash": "d7c984af77e26b77a19e31fb5a9d8f3d0dac6433c82cce114c662e81e091227e",
       "video_id": "O2RPBlr_GiE",
       "title": "Comparing Trial Balance and Aging Reports between Dynamics SL and Dynamics 365 Business Central",
-      "at": "2026-10-30T07:53:53.321Z",
+      "at": "2026-11-24T01:00:40.160Z",
       "matches": []
     },
     "video/O921cRqXdiw": {
       "kind": "video",
       "key": "video/O921cRqXdiw",
-      "hash": "ac218663b5b4a79f30f61aaaca36e0ff9c87aca74723fe1af51834d8f5b86d17",
+      "hash": "db503c5237553c4b26b837654d28e6a715d66eb85acb44096b46901b72502aea",
       "video_id": "O921cRqXdiw",
       "title": "What's New: Cloud Migration and Upgrade (2023)",
-      "at": "2026-10-25T12:35:01.177Z",
+      "at": "2026-11-24T01:00:50.775Z",
       "matches": []
     },
     "video/o94V_lF8oNM": {
@@ -39564,10 +39629,10 @@
     "video/Of0Dw8V-4Yw": {
       "kind": "video",
       "key": "video/Of0Dw8V-4Yw",
-      "hash": "9aaf3be0ece46ef8e37025776924d8700ffe70983fe8706d8ced7d08096781af",
+      "hash": "7703dd7f80d4071d67e32a4ff637f84d48d59116b4dfcf65b0277601e33d424d",
       "video_id": "Of0Dw8V-4Yw",
       "title": "Comparing Trial Balance and Aging Reports Between Dynamics GP and Dynamics Business Central (2024)",
-      "at": "2026-10-30T07:53:55.098Z",
+      "at": "2026-11-24T01:00:44.215Z",
       "matches": []
     },
     "video/oFG9gBkd2NU": {
@@ -39617,11 +39682,19 @@
     "video/OLN-2Ec2GMM": {
       "kind": "video",
       "key": "video/OLN-2Ec2GMM",
-      "hash": "fe9279a8603e0e8ff09719d4ad158869c007c0b9ad698571946a5de8950b51dc",
+      "hash": "f695e7366814b10cc293a0d7b97cee4fdccbb5732246867a14dea5db5b3316c2",
       "video_id": "OLN-2Ec2GMM",
       "title": "What’s New: AL Runtime and Database (2024 release wave 1)",
-      "at": "2026-10-25T12:34:59.763Z",
-      "matches": []
+      "at": "2026-11-24T01:00:43.151Z",
+      "matches": [
+        {
+          "feature": 6,
+          "name": "Field tooltips on table definition",
+          "t": 307,
+          "roadmap_id": "573313",
+          "quote": "Developers can now define field tooltips once at the table level"
+        }
+      ]
     },
     "video/oN0XfuCe6Qg": {
       "kind": "video",

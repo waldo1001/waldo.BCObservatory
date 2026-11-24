@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:50:39.630Z"
   flags: []
 generated:
-  at: "2026-11-19T00:53:46.759Z"
+  at: "2026-11-24T01:01:15.134Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -84,7 +84,6 @@ links:
   objects:
     - object/page/7414
   features:
-    - feature/573614
     - feature/576844
   topics: []
   localizations: []
@@ -150,19 +149,16 @@ features:
     verified: false
     status_source: video
   - name: Excise journal with multiple calculation models
-    status: preview
+    status: unclear
     t: 88
+    verified: false
+    status_source: video
+  - name: Tax bases configuration
+    status: ga
+    t: 186
     verified: false
     status_source: roadmap
     roadmap_ids:
-      - "573614"
-  - name: Tax bases configuration
-    status: unclear
-    t: 186
-    verified: false
-    status_source: video
-    roadmap_ids:
-      - "573614"
       - "576844"
   - name: Entry permissions and source types
     status: unclear
@@ -271,8 +267,8 @@ Demos show item configuration with excise quantity, tax type and entry permissio
 | Feature | Status | At |
 |---|---|---|
 | Excise taxes framework | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=6s) |
-| Excise journal with multiple calculation models | preview (roadmap [Use complex calculation methods for excise duties](../features/573614.md)), demoed | [1:28](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=88s) |
-| Tax bases configuration | status not stated (roadmap [Use complex calculation methods for excise duties](../features/573614.md), [Calculate taxes for plastic and sugar](../features/576844.md)), demoed | [3:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=186s) |
+| Excise journal with multiple calculation models | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=88s) |
+| Tax bases configuration | generally available (roadmap [Calculate taxes for plastic and sugar](../features/576844.md)), demoed | [3:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=186s) |
 | Entry permissions and source types | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=256s) |
 | Excise duty rates on items and fixed assets | status not stated, demoed | [5:17](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=317s) |
 | Excise quantity configuration on items | generally available (roadmap [Calculate taxes for plastic and sugar](../features/576844.md)), demoed | [7:49](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=469s) |

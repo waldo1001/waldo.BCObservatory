@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:54:01.669Z"
   flags: []
 generated:
-  at: "2026-11-23T00:54:20.709Z"
+  at: "2026-11-24T01:01:15.134Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -148,9 +148,7 @@ links:
   learn: []
   objects: []
   features:
-    - feature/573313
     - feature/573328
-    - feature/573371
   topics: []
   localizations: []
   videos: []
@@ -232,12 +230,10 @@ features:
     verified: false
     status_source: video
   - name: Semantic similarity search on metadata
-    status: ga
+    status: unclear
     t: 484
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573371"
+    status_source: video
   - name: Advanced tell me feature toggle
     status: unclear
     t: 534
@@ -254,12 +250,10 @@ features:
     verified: false
     status_source: video
   - name: Tooltips on report data item fields
-    status: ga
+    status: unclear
     t: 846
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573313"
+    status_source: video
   - name: Word addin data picker
     status: ga
     t: 905
@@ -387,11 +381,11 @@ It also covers database optimizations for flow fields and server-side pivot on d
 | Truncate AL method | status not stated | [2:59](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=179s) |  |
 | Optimized flow field calculations | status not stated | [5:49](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=349s) |  |
 | Server-side pivot on date hierarchy in analysis mode | status not stated | [6:37](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=397s) |  |
-| Semantic similarity search on metadata | generally available (roadmap [Show recently searched in Tell Me](../features/573371.md)), demoed | [8:04](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=484s) |  |
+| Semantic similarity search on metadata | status not stated, demoed | [8:04](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=484s) |  |
 | Advanced tell me feature toggle | status not stated, demoed | [8:54](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=534s) |  |
 | Preview semantic similarity search toggle | preview | [8:54](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=534s) | "the chat and analysis assist it that is the very nicely named preview semantic similarity search and application metadata" ([9:07](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=547s)) |
 | Semantic embedding maintenance | status not stated | [9:28](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=568s) |  |
-| Tooltips on report data item fields | generally available (roadmap [Actions on reports and pages can now inherit tooltips](../features/573313.md)), demoed | [14:06](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=846s) |  |
+| Tooltips on report data item fields | status not stated, demoed | [14:06](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=846s) |  |
 | Word addin data picker | generally available (roadmap [Design document reports with the updated Word add-in](../features/573328.md)), demoed | [15:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=905s) | "this is a a new feature in the word addin that we are shipping in this wave as well a new data picker" ([15:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=905s)) |
 | PDF/UA accessible PDFs | status not stated | [16:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=965s) |  |
 | PDF/A archival format support | status not stated | [16:05](https://www.youtube.com/watch?v=M1S2_bgLd3Q&t=965s) |  |

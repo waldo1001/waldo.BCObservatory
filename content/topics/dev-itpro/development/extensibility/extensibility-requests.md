@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-11T00:59:22.225Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -71,6 +71,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/11580
+    - change/bcquality/281
 learn_toc_path:
   - Development
   - Extensibility
@@ -127,6 +128,7 @@ Three pages deal with the IsHandled pattern. "Using the IsHandled pattern" expla
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11580 [Extensibility Request] issue 29654: customize document rejection response](../../../../changes/bcapps/11580.md) (code change): "customize document rejection response. Workflow Setup now offers an overloaded method"
+- [#281 fix: align READ domain examples and the event parameter addition article](../../../../changes/bcquality/281.md) (code change): "guidance on event parameter additions to align with AppSourceCop AS0024"
 - [Dynamics 365 Business Central: Create an extensibility request on BCApps (ALAppExtensions is being retired)](../../../../posts/yzhums-com/75294.md) (community post): "extensibility requests including event requests moving to BCApps"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:15.642Z"
   flags: []
 generated:
-  at: "2026-11-23T00:57:44.197Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -228,7 +228,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#145 Process Context via manual event subscriber pattern](../../../../changes/bcquality/145.md) (code change): "expose process context to extensions using manual event subscriber bindings"
 - [#213 knowledge(events): database trigger setup flags may only be set to true](../../../../changes/bcquality/213.md) (code change): "subscribers to GetDatabaseTableTriggerSetup should only set the shared trigger flags to true"
 - [#223 knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision](../../../../changes/bcquality/223.md) (code change): "Subscribers that handle OnUpdateUnitPriceOnBeforeFindPrice or OnUpdateDirectUnitCostOnBeforeFindPrice"
-- [#281 fix: align READ domain examples and the event parameter addition article](../../../../changes/bcquality/281.md) (code change): "subscribers never break, but public publishers' callers can break"
+- [#281 fix: align READ domain examples and the event parameter addition article](../../../../changes/bcquality/281.md) (code change): "subscribers never break at any position; the only exception is callers"
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Event parameter compatibility rules clarified: local/internal subscribers bind by name"
 - [Debugging Business Event Subscriptions in Business Central](../../../../posts/aardvarklabs-blog/2907.md) (community post): "Business Event Subscriptions Business Central has hidden pages for debugging"
 - [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "codeunit subscribes to the OnAfterPostSalesDoc event, generates the invoice as a PDF, and fires a business event"

@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-23T00:15:10.597Z"
+  at: "2026-11-24T00:13:35.655Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9ac4704aaf3fd4174ba3aeb9c81a81de415d1e0dea116ac158f5ed930120fb0f
@@ -90,7 +90,6 @@ links:
     - feature/573364
     - feature/573366
     - feature/573369
-    - feature/573371
     - feature/573372
     - feature/573374
     - feature/573376
@@ -98,7 +97,13 @@ links:
     - feature/573378
     - feature/573379
     - feature/573605
+    - feature/573612
+    - feature/573613
     - feature/573614
+    - feature/573615
+    - feature/573617
+    - feature/573619
+    - feature/573620
     - feature/574126
     - feature/574128
     - feature/576776
@@ -722,8 +727,6 @@ footprint:
       weight: 3
     - id: feature/573265
       weight: 3
-    - id: feature/573313
-      weight: 3
     - id: feature/573320
       weight: 3
     - id: feature/573362
@@ -732,7 +735,9 @@ footprint:
       weight: 2
     - id: feature/573257
       weight: 2
-    - id: feature/573259
+    - id: feature/573260
+      weight: 2
+    - id: feature/573304
       weight: 2
 first_item: "2023-10-23"
 last_item: "2026-10-29"
@@ -783,11 +788,11 @@ Items per quarter, oldest first:
 
 - [AI-Driven Approvals](../features/573255.md): Expense Agent, in preview, GA 2026-12, 5 videos
 - [Use AI resources for your Copilot extensions](../features/577820.md): Copilot and agents, in preview, GA 2027-04, 5 videos
-- [Actions on reports and pages can now inherit tooltips](../features/573313.md): Development, generally available, GA 2026-10, 3 videos
 - [Add date ranges and vehicle types in your mileage calculation](../features/573254.md): Expense Agent, in preview, GA 2026-10, 3 videos
 - [Control the lifecycle of all report layouts](../features/573320.md): Reporting and data analysis, generally available, GA 2026-10, 3 videos
 - [Enable Microsoft Copilot chat experience](../features/573362.md): Copilot and agents, generally available, GA 2026-10, 3 videos
 - [Expense Agent mobile app](../features/573265.md): generally available, GA 2026-10, 3 videos
+- [Actions on reports and pages can now inherit tooltips](../features/573313.md): Development, generally available, GA 2026-10, 2 videos
 - [Add an interim approver when you submit an expense report](../features/573260.md): Expense Agent, in preview, GA 2026-11, 2 videos
 - [Audit AL app accessibility and debugging boundaries](../features/573336.md): Development, generally available, GA 2026-10, 2 videos
 - [Automate report outputs](../features/573318.md): Reporting and data analysis, generally available, GA 2026-10, 2 videos
@@ -802,13 +807,13 @@ Items per quarter, oldest first:
 - [Let agents allocate free AL object IDs](../features/573346.md): Development, generally available, GA 2026-10, 2 videos
 - [Process Shopify order changes, exchanges, and refunds](../features/573343.md): Ecommerce, generally available, GA 2026-10, 2 videos
 - [Profile slow Business Central sessions with AI agents](../features/573335.md): Development, generally available, GA 2026-10, 2 videos
+- [Reverse Sustainability Ledger entries transaction](../features/573376.md): Sustainability Management, generally available, GA 2026-10, 2 videos
 - [Run data queries with MCP Server](../features/573312.md): Copilot and agents, generally available, GA 2026-10, 2 videos
 - [Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup](../features/578065.md): Copilot and agents, generally available, GA 2026-07, 2 videos
 - [Show avatars for record creators and modifiers in list](../features/573364.md): Copilot and agents, generally available, GA 2026-10, 2 videos
 - [Try Payables Agent for free without setting up email](../features/576776.md): Copilot and agents, generally available, GA 2026-07, 2 videos
 - [Unlock more Business Central data with MCP server enhancements](../features/576789.md): Copilot and agents, generally available, GA 2026-06, 2 videos
 - [Use AL language intelligence from AI agents and other editors](../features/573338.md): Development, generally available, GA 2026-10, 2 videos
-- [Use assigned projects only in the web app](../features/573259.md): Expense Agent, in preview, GA 2026-12, 2 videos
 - [Use inventory put-aways and picks for subcontracting](../features/573355.md): Supply Chain Management, generally available, GA 2026-10, 2 videos
 - [Use new APIs for analyzing permissions for auditors and IT staff](../features/576841.md): Reporting and data analysis, generally available, GA 2026-06, 2 videos
 - [Use new APIs in Sustainability for better integration](../features/576874.md): Sustainability Management, generally available, GA 2026-06, 2 videos
@@ -825,16 +830,21 @@ Items per quarter, oldest first:
 - [Calculate multiple excise duties per item](../features/573306.md): Finance, in preview, GA 2027-01, 1 video
 - [Calculate taxes for plastic and sugar](../features/576844.md): Financial Management, generally available, GA 2026-07, 1 video
 - [Check records for uncommitted changes](../features/573360.md): Development, generally available, GA 2026-10, 1 video
+- [Configure and use bonded locations for excise duty calculations](../features/573615.md): Finance, in preview, GA 2027-01, 1 video
 - [Control sales document creation for Shopify orders and returns](../features/573340.md): Ecommerce, generally available, GA 2026-10, 1 video
+- [Cross-environment Master Data Management](../features/573613.md): Finance, in preview, GA 2027-01, 1 video
 - [Data mirroring to Microsoft Fabric](../features/574126.md): in preview, GA 2027-04, 1 video
 - [Debug recorded Business Central failures with an AI agent](../features/573361.md): Development, generally available, GA 2026-10, 1 video
 - [Design document report themes with the updated Word add-in](../features/573330.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Design header/footer layouts for document reports with the updated Word add-in](../features/573331.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Discover objects in connected Business Central environments](../features/573339.md): Development, generally available, GA 2026-10, 1 video
 - [Enable approving limits and alternate approvers when primary is not available](../features/573605.md): Expense Agent, announced, GA 2027-02, 1 video
+- [Enable SAF-T audit file format](../features/573619.md): Austria, in preview, GA 2027-04, 1 video
+- [Enable SAF-T audit file format](../features/573620.md): Iceland, in preview, GA 2027-04, 1 video
 - [Envision and design AI agents in Business Central](../features/578068.md): Copilot and agents, in preview, GA 2026-10, 1 video
 - [Evolve AL interfaces with default implementations](../features/573352.md): Development, generally available, GA 2026-10, 1 video
 - [Exchange EDI documents](../features/573305.md): E-Documents, in preview, GA 2027-04, 1 video
+- [Export euBP with audit files export](../features/573617.md): Germany, in preview, GA 2027-01, 1 video
 - [Faster data loading with improved data model for table extensions](../features/573332.md): Service and platform, generally available, GA 2026-10, 1 video
 - [Financial report changes are now always logged](../features/573325.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Keep Shopify connections current](../features/573341.md): Ecommerce, generally available, GA 2026-10, 1 video
@@ -846,12 +856,11 @@ Items per quarter, oldest first:
 - [Reduce complexity of report datasets](../features/573321.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Reduce manual work in quality tests and inspections](../features/573350.md): Supply Chain Management, generally available, GA 2026-10, 1 video
 - [Reuse header/footer layouts across document reports](../features/573326.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
-- [Reverse Sustainability Ledger entries transaction](../features/573376.md): Sustainability Management, generally available, GA 2026-10, 1 video
 - [Review content generated by agents directly on pages](../features/573366.md): Copilot and agents, generally available, GA 2026-10, 1 video
 - [Run AL tests from command-line and CI/CD workflows](../features/573334.md): Development, generally available, GA 2026-10, 1 video
 - [Run multiple financial reports and get a single PDF output](../features/573323.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
+- [Self-billing enablement](../features/573612.md): E-Documents, in preview, GA 2027-01, 1 video
 - [Sell to business customers on more Shopify plans with B2B company sync](../features/576836.md): Ecommerce, generally available, GA 2026-07, 1 video
-- [Show recently searched in Tell Me](../features/573371.md): User experiences, generally available, GA 2026-10, 1 video
 - [Synchronize tariff numbers and origin values with Shopify](../features/573344.md): Ecommerce, generally available, GA 2026-10, 1 video
 - [Trace G/L account usage in finance reports](../features/573324.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Track your carbon footprint for fixed assets](../features/573377.md): Sustainability Management, generally available, GA 2026-10, 1 video
@@ -859,6 +868,7 @@ Items per quarter, oldest first:
 - [Translate objects with the same name in different namespaces](../features/573359.md): Development, generally available, GA 2026-10, 1 video
 - [Updates to Agent UI experience](../features/573372.md): Copilot and agents, generally available, GA 2026-10, 1 video
 - [Upload, install, and manage PTEs in the admin center](../features/576815.md): Governance and administration, generally available, GA 2026-07, 1 video
+- [Use assigned projects only in the web app](../features/573259.md): Expense Agent, in preview, GA 2026-12, 1 video
 - [Use complex calculation methods for excise duties](../features/573614.md): Finance, in preview, GA 2027-01, 1 video
 - [Use conditional visibility in the updated Word add-in](../features/573329.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Use formulas to calculate emissions in purchase documents](../features/573374.md): Sustainability Management, generally available, GA 2026-10, 1 video

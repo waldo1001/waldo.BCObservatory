@@ -2,12 +2,12 @@
   "inputs": [
     7,
     [
-      "6a9588a817c12a5d35d3e6c4ad40e29ecca88acf",
+      "b42f520c380a64062ca700b5f5450acc436e5b05",
       "4",
       9478,
-      "6a9588a817c12a5d35d3e6c4ad40e29ecca88acf",
+      "b42f520c380a64062ca700b5f5450acc436e5b05",
       "4",
-      7050
+      7051
     ]
   ],
   "schema": "al-relations@1",
@@ -282496,6 +282496,11 @@
         "obsolete": null,
         "subs": [
           {
+            "s": "codeunit/20519",
+            "proc": "OnAfterModifyWorkCenter",
+            "app": "Subcontracting"
+          },
+          {
             "s": "codeunit/99000755",
             "proc": "OnAfterModifyWorkCenter",
             "app": "Base Application"
@@ -294888,7 +294893,7 @@
     "drilldown_page": 526,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5197,
+    "subscribes": 5198,
     "edges": 20695,
     "published_events": 26337,
     "dead_events": 22507

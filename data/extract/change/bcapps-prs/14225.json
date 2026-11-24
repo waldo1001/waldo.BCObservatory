@@ -8,10 +8,10 @@
   ],
   "summary": "Purchase credit memos can now retrieve return shipment lines for non-inventory items without triggering an error about corrective credit memos, fixing a regression.",
   "key_points": [
-    "Resolves a failure when using 'Get Return Shipment Lines' for non-inventory items on purchase credit memos",
-    "Removes an erroneous validation that incorrectly prevented corrective credit memos from reversing certain invoice lines",
-    "Updates Purchase Line logic across multiple localization layers",
-    "Includes test coverage for the corrected behavior"
+    "Fixes the corrective credit memo error when using Get Return Shipment Lines for non-inventory items on purchase credit memos",
+    "Regression introduced by an earlier fix (Bug 636861)",
+    "Small addition to Purchase Line table logic in all affected localization layers",
+    "Tests added in the O365 Correct Purchase Invoice test codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

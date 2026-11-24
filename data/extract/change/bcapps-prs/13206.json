@@ -8,10 +8,10 @@
   ],
   "summary": "Fixed an error that occurred when reversing Capacity Ledger Entry for items requiring serial number assignment, allowing these entries to be reversed without the serial number validation error.",
   "key_points": [
-    "Resolves incorrect serial number validation when reversing Capacity Ledger Entry",
-    "Affects manufacturing item journal posting logic",
-    "Issue occurred in BC 29.x and all environments",
-    "Test coverage added for the fix"
+    "Fixes the 'You must assign a serial number' error when reversing a capacity ledger entry",
+    "Change made in Mfg. Item Jnl.-Post Line posting logic",
+    "Tests added to SCM Production Order III in W1 and IT",
+    "Backported to the 29.x release branch"
   ],
   "change_kind": "fix",
   "behavior_change": true,

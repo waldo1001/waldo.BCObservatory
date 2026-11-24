@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/11/business-central-trivia-recap-november-16-20-2026/",
+  "input_hash": "8e7d98b4c4cafbdc4f58b4ee0b7ff4984ffd1553ac95a4d6549c2aeb9778c7fa",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-24T01:03:16.845Z",
+  "issues": [
+    "Summary, key points and both quotes match the post; the quotes are verbatim.",
+    "The systems development and reporting are only names of trivia categories. The post does not discuss those Business Central areas, so they are dropped.",
+    "The listed features describe the trivia website and its statistics, not Business Central functionality, so they are dropped.",
+    "The page leaves out that the weekly winner had 137 correct answers and that no player got all 50 right on any day. This is minor, so the key points are kept."
+  ],
+  "applied": [
+    "dropped 4 feature(s)",
+    "dropped 2 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.035116,
+    "posts_in_call": 1
+  }
+}

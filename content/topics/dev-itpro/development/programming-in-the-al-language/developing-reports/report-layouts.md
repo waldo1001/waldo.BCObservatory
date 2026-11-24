@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-23T00:57:44.197Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -347,7 +347,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [BC Word Layout MCP (Part 3): Add totals and page numbers](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-08-24-bc-word-layout-mcp-totals-and-page-numbers--5f64af29b4.md) (community post): "Adding document totals and page numbers to Word layouts"
 - [BC Word Layout MCP (Part 4): Customer statements and work-description lines](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-10-18-bc-word-layout-mcp-body-repeaters--dd2b775ce5.md) (community post): "Word Layout MCP's body repeaters create flexible document structures"
 - [BC Word Layout MCP (Part 5): Format layouts and reuse a Word design](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-10-24-bc-word-layout-mcp-formatting-and-templates--6e7f748c9c.md) (community post): "Word layout formatting tools allow changing text and cell styles"
-- [BC Word Layout MCP 2.1.0: What changes when you print with a report theme?](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-11-22-bc-word-layout-mcp-2-1-0--f0536bec81.md) (community post): "Theme colours like accent1 are slots that follow the selected report theme"
+- [BC Word Layout MCP 2.1.0: What changes when you print with a report theme?](../../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-11-22-bc-word-layout-mcp-2-1-0--f0536bec81.md) (community post): "BC Word Layout MCP 2.1.0 adds support for report themes in Word layouts"
 - [Conditional Page Breaks in Word Layouts for Business Central Reports](../../../../../posts/miljan-rs/698.md) (community post): "Word layouts for Business Central Reports conditional page breaks Word layouts don't offer"
 - [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (community post): "Composite layouts split a document into a Body layout plus a reusable header/footer"
 - [Docs: What’s new in BC 29 for developers and admins](../../../../../posts/nataliekarolak-com/4179.md) (community post): "Composite Word layouts with header/footer and theme parts"

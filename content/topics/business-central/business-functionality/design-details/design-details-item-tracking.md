@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:34.661Z"
   flags: []
 generated:
-  at: "2026-11-23T00:57:44.197Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -115,7 +115,9 @@ links:
     - change/bcapps/12542
     - change/bcapps/12690
     - change/bcapps/13056
+    - change/bcapps/13206
     - change/bcapps/13552
+    - change/bcapps/14013
     - change/bcapps/14281
     - change/bcapps/9465
     - change/bcapps/9466
@@ -198,7 +200,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12542 [Main]Incorrect Calculation of Remaining Prod. Order Comp.](../../../../changes/bcapps/12542.md) (code change): "Incorrect calculation of remaining production order component quantities"
 - [#12690 [Master]-You must assign a serial number for item xxx" when trying to reverse Capacity Ledger Entry](../../../../changes/bcapps/12690.md) (code change): "Disabled item tracking for reversing capacity ledger entries that have zero output quantity"
 - [#13056 [QM] Tracking specification quantity now is used properly](../../../../changes/bcapps/13056.md) (code change): "tracking specification quantity now is used properly"
+- [#13206 [29x]- "You must assign a serial number for item xxx" when trying to reverse Capacity Ledger Entry](../../../../changes/bcapps/13206.md) (code change): "serial number for item xxx when trying to reverse Capacity Ledger Entry"
 - [#13552 [Main]- Warehouse shipment item tracking inherits the source line's stale pick bin on the Transfer and Purchase-Return branches, so a second partial shipment fails with "You cannot select more than 0 units"](../../../../changes/bcapps/13552.md) (code change): "Warehouse shipment item tracking inherits the source line's stale pick bin"
+- [#14013 [29x]- Warehouse shipment item tracking inherits the source line's stale pick bin on the Transfer and Purchase-Return branches, so a second partial shipment fails with "You cannot select more than 0 units"](../../../../changes/bcapps/14013.md) (code change): "Warehouse shipment item tracking inherits the source line's stale pick bin"
 - [#14281 Fix manufacturing enum fallback in item journals](../../../../changes/bcapps/14281.md) (code change): "item tracking validation, recurring journal selection"
 - [#9465 [Extensibility Request] issue 30350: add OnBeforeTestFirstApplyItemLedgerEntryTracking event](../../../../changes/bcapps/9465.md) (code change): "A new integration event OnBeforeTestFirstApplyItemLedgerEntryTracking was added to codeunit 22 so extensions can validate item tracking"
 - [#9466 [Extensibility Request] issue 30351: extend OnCheckExpirationDateOnBeforeAssignExpirationDate event](../../../../changes/bcapps/9466.md) (code change): "extend OnCheckExpirationDateOnBeforeAssignExpirationDate event"

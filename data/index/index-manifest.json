@@ -1,55 +1,55 @@
 {
   "schema": "bcobs-index@1",
-  "pages": 30648,
+  "pages": 30665,
   "shards": [
     {
-      "file": "pages-hubs-6e8027d453ac.json",
+      "file": "pages-hubs-fbafd034731c.json",
       "count": 1465,
-      "sha256": "6e8027d453ac23ed8ad3a1b51dd383060c554c73feb8fa8f121aec046c5112b5",
+      "sha256": "fbafd034731c537e9ee8ce443fbd4b5524216320e417f247ed857dfbbfd2a1dc",
       "kind": "hubs"
     },
     {
-      "file": "pages-media-5085cb3da4c4.json",
-      "count": 3357,
-      "sha256": "5085cb3da4c4c07a4b83c0f28e837d709eae5c8d571d4bed78356dee48af8588",
+      "file": "pages-media-776949ef2314.json",
+      "count": 3371,
+      "sha256": "776949ef23144572bb4f6c085d5134780e0a6b0c9e457f504724732c9e621684",
       "kind": "media"
     },
     {
-      "file": "pages-objects-1-788ff974fd66.json",
-      "count": 14427,
-      "sha256": "788ff974fd660b6a2e323c2a22df3e4a95eca157d1edeb01af9037a40981ba39",
+      "file": "pages-objects-1-414f79c64cfb.json",
+      "count": 14428,
+      "sha256": "414f79c64cfb27d31506a2110846906ae79d541f86364e4b403f1dd9f892eee5",
       "kind": "objects"
     },
     {
-      "file": "pages-objects-2-6f5f548a6041.json",
-      "count": 11399,
-      "sha256": "6f5f548a6041ca39d9befae0e3e03fb8adf1e15167fd9f151d06596457083705",
+      "file": "pages-objects-2-7847c3699fdf.json",
+      "count": 11401,
+      "sha256": "7847c3699fdf8ee0b49bc1aa96615bb01a57affeff87ae0a53d77ff3a48fdca7",
       "kind": "objects"
     }
   ],
   "learn": {
-    "file": "learn-0856d3cda60c.json",
+    "file": "learn-0b8b9e52a4b7.json",
     "count": 8057,
-    "sha256": "0856d3cda60c1504aeb466d02c4c5ea721b486ee33cb32e7cbd09a241f47d507"
+    "sha256": "0b8b9e52a4b710ddd953b699379abdad6a2a85d2c348c1d87405f2c4611d056d"
   },
   "learn_facts": {
-    "file": "learn-facts-5a2c97bebc3e.json",
+    "file": "learn-facts-8f712ceab0f2.json",
     "count": 265,
-    "sha256": "5a2c97bebc3e45dcce6f3b4ca26a5c39714da5e92b660777f822dc3a0cf31a61"
+    "sha256": "8f712ceab0f2f39d7fec63f12b803a4ff502877723a6b711cd6626ae5759bf44"
   },
   "by_type": {
     "app": 97,
-    "change": 1563,
+    "change": 1575,
     "digest": 11,
     "feature": 134,
     "guideline": 485,
     "hotfix": 3,
     "localization": 22,
-    "object": 25826,
-    "post": 1164,
+    "object": 25829,
+    "post": 1165,
     "release": 64,
     "source": 41,
     "topic": 608,
-    "video": 630
+    "video": 631
   }
 }

@@ -11154,6 +11154,20 @@
         }
       ]
     },
+    "change/bcapps/13206": {
+      "kind": "change",
+      "key": "change/bcapps/13206",
+      "hash": "2dad9aab3ab8dd8cc80c8fbff48bdf7c25086501b1ec8ddb3234f081ad5a9e4c",
+      "title": "#13206 [29x]- \"You must assign a serial number for item xxx\" when trying to reverse Capacity Ledger Entry",
+      "source": "bcapps-prs",
+      "at": "2026-11-24T01:01:46.448Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-item-tracking",
+          "quote": "serial number for item xxx when trying to reverse Capacity Ledger Entry"
+        }
+      ]
+    },
     "change/bcapps/13207": {
       "kind": "change",
       "key": "change/bcapps/13207",
@@ -12650,6 +12664,20 @@
         }
       ]
     },
+    "change/bcapps/13673": {
+      "kind": "change",
+      "key": "change/bcapps/13673",
+      "hash": "838995044f2c71cb6138a5ab6fab5ae78b80036d6fdae05df9aa05d8e6988a10",
+      "title": "#13673 Expose active expense approver and expense app navigation",
+      "source": "bcapps-prs",
+      "at": "2026-11-24T01:01:47.283Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "activeApproverExpenseUserNo field exposed in Expense Reports API for direct approver linking"
+        }
+      ]
+    },
     "change/bcapps/13679": {
       "kind": "change",
       "key": "change/bcapps/13679",
@@ -13041,6 +13069,20 @@
         }
       ]
     },
+    "change/bcapps/13854": {
+      "kind": "change",
+      "key": "change/bcapps/13854",
+      "hash": "75c7d033ea9ba3c0cc71f723b23a6813b169cd93ffb582354bb357d112b69117",
+      "title": "#13854 [Main]-All VAT Entries are gone through without filters with \"Set G/L Account No.\" function.",
+      "source": "bcapps-prs",
+      "at": "2026-11-24T01:01:45.243Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
+          "quote": "VAT Entries page and G/L - VAT Reconciliation report now respect user filters"
+        }
+      ]
+    },
     "change/bcapps/13855": {
       "kind": "change",
       "key": "change/bcapps/13855",
@@ -13151,6 +13193,15 @@
           "quote": "Shopify refund sales line creation when shop and presentment currencies differ"
         }
       ]
+    },
+    "change/bcapps/13904": {
+      "kind": "change",
+      "key": "change/bcapps/13904",
+      "hash": "2d3ee914e611299f31581dc042cbfabd850662d2ac08626d50075be5cb53cac1",
+      "title": "#13904 [29.X]-Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.",
+      "source": "bcapps-prs",
+      "at": "2026-11-24T01:01:50.376Z",
+      "matches": []
     },
     "change/bcapps/13917": {
       "kind": "change",
@@ -13446,6 +13497,20 @@
       "source": "bcapps-prs",
       "at": "2026-11-20T00:54:22.379Z",
       "matches": []
+    },
+    "change/bcapps/14013": {
+      "kind": "change",
+      "key": "change/bcapps/14013",
+      "hash": "9ceb1a24f9cf81f4f36b21e2baf6641f7e7a2f3449e8ad07dd2c81aaefb22b4d",
+      "title": "#14013 [29x]- Warehouse shipment item tracking inherits the source line's stale pick bin on the Transfer and Purchase-Return branches, so a second partial shipment fails with \"You cannot select more than 0 units\"",
+      "source": "bcapps-prs",
+      "at": "2026-11-24T01:01:46.448Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/design-details/design-details-item-tracking",
+          "quote": "Warehouse shipment item tracking inherits the source line's stale pick bin"
+        }
+      ]
     },
     "change/bcapps/14014": {
       "kind": "change",
@@ -13894,6 +13959,20 @@
         }
       ]
     },
+    "change/bcapps/14225": {
+      "kind": "change",
+      "key": "change/bcapps/14225",
+      "hash": "d66cf776aa5aac58980b62bff6207dc3badc089d7bb53eae6a545c36f5cf3726",
+      "title": "#14225 [Master]-Purchase Credit Memo – \"Get Return Shipment Lines\" fails for Non-Inventory items with \"corrective credit memo can only reverse the original posted invoice\" error (regression from Bug 636861)",
+      "source": "bcapps-prs",
+      "at": "2026-11-24T01:01:52.781Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/purchasing",
+          "quote": "Purchase credit memos can now retrieve return shipment lines for non-inventory items"
+        }
+      ]
+    },
     "change/bcapps/14229": {
       "kind": "change",
       "key": "change/bcapps/14229",
@@ -13976,6 +14055,20 @@
         }
       ]
     },
+    "change/bcapps/14297": {
+      "kind": "change",
+      "key": "change/bcapps/14297",
+      "hash": "40ef3675152b936a8de808297f67dad5fa8863ea7eae947f50005ad80388eb28",
+      "title": "#14297 [master] Exporting the VAT Report using the new ELMA XML export the report status remains 'Released' instead of changing to 'Exported' in the German version.",
+      "source": "bcapps-prs",
+      "at": "2026-11-24T01:01:45.243Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality/germany/vat",
+          "quote": "VAT report status remained 'Released' instead of changing to 'Exported' when exporting"
+        }
+      ]
+    },
     "change/bcapps/14307": {
       "kind": "change",
       "key": "change/bcapps/14307",
@@ -14001,6 +14094,20 @@
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
           "quote": "Expense category and subcategory descriptions are clarified"
+        }
+      ]
+    },
+    "change/bcapps/14327": {
+      "kind": "change",
+      "key": "change/bcapps/14327",
+      "hash": "e9d342023d0935256df4638ac05c8e32b22f12ea04eb00711d8b0c1bd5b8a09d",
+      "title": "#14327 Expose Payables Agent infotip sources through test fixtures",
+      "source": "bcapps-prs",
+      "at": "2026-11-24T01:01:45.243Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Expose Payables Agent infotip sources through test fixtures"
         }
       ]
     },
@@ -14098,6 +14205,56 @@
         {
           "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
           "quote": "Integration events are added to subcontracting receipt posting in the India GST application"
+        }
+      ]
+    },
+    "change/bcapps/14400": {
+      "kind": "change",
+      "key": "change/bcapps/14400",
+      "hash": "3df175d989d9e09ec3fa3db3c06acbb84b4c35875b54c5d5e03621dc09b8fcd8",
+      "title": "#14400 [Master Data Management] User-friendly errors for cross-environment connection and permission failures",
+      "source": "bcapps-prs",
+      "at": "2026-11-24T01:01:51.801Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization",
+          "quote": "Cross-environment master data synchronization now provides clear error messages"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse",
+          "quote": "HTTP errors are mapped to actionable guidance about source environment names"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/web-services/web-services-security",
+          "quote": "explicit permission errors instead of silently stopping synchronization"
+        }
+      ]
+    },
+    "change/bcapps/14405": {
+      "kind": "change",
+      "key": "change/bcapps/14405",
+      "hash": "70f3d0342cef7059953b007ab3f09252663c56b29c068a8c08a91b860d6a1d16",
+      "title": "#14405 [Expense Agent] Renumber codeunits that collide with deprecated country apps",
+      "source": "bcapps-prs",
+      "at": "2026-11-24T01:01:47.283Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Three Expense Agent codeunits are renumbered from 6913-6915 to 6923-6925"
+        }
+      ]
+    },
+    "change/bcapps/14423": {
+      "kind": "change",
+      "key": "change/bcapps/14423",
+      "hash": "45066c6ac73abeb35fcc1bf758d23834328a58222deefab0a739638482253d45",
+      "title": "#14423 Bug 659561: Make FI depreciation posting buffer temporary",
+      "source": "bcapps-prs",
+      "at": "2026-11-24T01:01:45.243Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/finance/accounting-for-costs",
+          "quote": "FI depreciation posting buffer table is now marked as temporary"
         }
       ]
     },
@@ -15538,6 +15695,15 @@
           "quote": "disabling Legacy Subcontracting on Manufacturing Setup no longer stops"
         }
       ]
+    },
+    "change/bcapps/9193": {
+      "kind": "change",
+      "key": "change/bcapps/9193",
+      "hash": "4ea4766f7fe33d9a065cd83dbe331a21e90475df38a6517552f49bcf184787a5",
+      "title": "#9193 Lock Code labels on default Transformation Rule records",
+      "source": "bcapps-prs",
+      "at": "2026-11-24T01:01:47.075Z",
+      "matches": []
     },
     "change/bcapps/9194": {
       "kind": "change",
@@ -21226,11 +21392,16 @@
     "change/bcquality/275": {
       "kind": "change",
       "key": "change/bcquality/275",
-      "hash": "16ac1f16d57876b23ab4ab2f76008d8fbb045215bf1b0512f96aaef62f06cf4e",
+      "hash": "586e5cbdd8266e444c7d080993fcfbefc4205ad536e5c6569719d9e2a0135d1e",
       "title": "#275 knowledge(performance): Get behind a key-is-set check in and-condition wastes a DB call",
       "source": "bcquality-prs",
-      "at": "2026-11-23T00:54:53.472Z",
-      "matches": []
+      "at": "2026-11-24T01:01:47.075Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+          "quote": "Get behind a key-is-set check in and-condition wastes a DB call"
+        }
+      ]
     },
     "change/bcquality/276": {
       "kind": "change",
@@ -21249,46 +21420,50 @@
     "change/bcquality/277": {
       "kind": "change",
       "key": "change/bcquality/277",
-      "hash": "d1717e91a172d3de425297780af7f97fc1fc2ab01233b7695ec81494400ca407",
+      "hash": "0c3aea199641877557aac3d7dd6a056b35ef530a11ec4da1be0e804a949eaf86",
       "title": "#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain",
       "source": "bcquality-prs",
-      "at": "2026-11-23T00:54:53.472Z",
+      "at": "2026-11-24T01:01:47.075Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
-          "quote": "18 new knowledge articles covering translations, assisted setup, API queries, and XMLports"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data",
+          "quote": "New xmlport domain with 4 articles: MS-DOS default TextEncoding, Xmlport.Run"
         }
       ]
     },
     "change/bcquality/280": {
       "kind": "change",
       "key": "change/bcquality/280",
-      "hash": "cdf731c3e3f3e9e27eca935baaaaa6d2078f64cdd752bbc438ab7c5e59b7edaa",
+      "hash": "b16a0469ead54a1e9d159791bdd42af975a565fd5b22f22c92745039150cf210",
       "title": "#280 knowledge(testing): ExpectedError must identify the intended error",
       "source": "bcquality-prs",
-      "at": "2026-11-23T00:54:53.472Z",
+      "at": "2026-11-24T01:01:47.075Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
-          "quote": "ExpectedError and ExpectedErrorCode match only by substring, not exact match"
+          "quote": "ExpectedError must identify the intended error. The testing knowledge article"
         }
       ]
     },
     "change/bcquality/281": {
       "kind": "change",
       "key": "change/bcquality/281",
-      "hash": "34cb42a319a4c82d3e4d294343693e3045755e19f5d70c6d5d9f3d3c7202dac2",
+      "hash": "317f5c6c27232db5f601a3c46824348cc5e8a758b496d17be555b6b1f3119e59",
       "title": "#281 fix: align READ domain examples and the event parameter addition article",
       "source": "bcquality-prs",
-      "at": "2026-11-23T00:54:54.084Z",
+      "at": "2026-11-24T01:01:48.327Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/extensibility/using-events",
-          "quote": "subscribers never break, but public publishers' callers can break"
+          "quote": "subscribers never break at any position; the only exception is callers"
         },
         {
-          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "Aligned event parameter article with AppSourceCop rule documentation"
+          "topic": "topic/dev-itpro/development/extensibility/extensibility-requests",
+          "quote": "guidance on event parameter additions to align with AppSourceCop AS0024"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices",
+          "quote": "corrected guidance on event parameter additions to align with AppSourceCop"
         }
       ]
     },
@@ -23120,18 +23295,22 @@
     "post/bccaptain-com-au/https://bccaptain.com.au/2026/11/22/bc-word-layout-mcp-2-1-0/": {
       "kind": "post",
       "key": "post/bccaptain-com-au/https://bccaptain.com.au/2026/11/22/bc-word-layout-mcp-2-1-0/",
-      "hash": "c38981ce498856a0d8003e7bb40a905db0cd728897d46a95e07f37153bfa0f6c",
+      "hash": "5d01fcf680659c4c9eef3aeb7a585314379fe3d916516fa205452ed2ad66ee89",
       "title": "BC Word Layout MCP 2.1.0: What changes when you print with a report theme?",
       "source": "bccaptain-com-au",
-      "at": "2026-11-23T00:54:55.189Z",
+      "at": "2026-11-24T01:01:48.909Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
-          "quote": "adds support for report themes in Word layouts, allowing layout elements to follow selected Business Central themes"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
+          "quote": "BC Word Layout MCP 2.1.0 adds support for report themes in Word layouts"
         },
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports",
           "quote": "Theme colours like accent1 are slots that follow the selected report theme"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
+          "quote": "The new set_layout_theme tool edits the theme inside the layout"
         }
       ]
     },
@@ -26124,6 +26303,20 @@
           }
         ]
       }
+    },
+    "post/dvlprlife-com/https://www.dvlprlife.com/2026/11/business-central-trivia-recap-november-16-20-2026/": {
+      "kind": "post",
+      "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/11/business-central-trivia-recap-november-16-20-2026/",
+      "hash": "c110b2fb54834b027acdb60b0c4620ce0f8910c1188235e49ee8193dd161294d",
+      "title": "Business Central Trivia Recap: November 16–20, 2026",
+      "source": "dvlprlife-com",
+      "at": "2026-11-24T01:01:47.075Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development",
+          "quote": "Development category was hardest with 28 percent correct answers"
+        }
+      ]
     },
     "post/dvlprlife-com/https://www.dvlprlife.com/2026/11/business-central-trivia-recap-november-2-6-2026/": {
       "kind": "post",
@@ -45032,6 +45225,20 @@
           }
         ]
       }
+    },
+    "video/CBRjbRd7uLM": {
+      "kind": "video",
+      "key": "video/CBRjbRd7uLM",
+      "hash": "6db36bb00dc485170a1b80dc8b737012148adb4395472582ab99df584164712c",
+      "title": "Building the World's Best ControlAddIn for AL code in Business Central",
+      "source": "yt-hougaard",
+      "at": "2026-11-24T01:01:47.075Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extensibility/developing-client-add-ins",
+          "quote": "Building the World's Best ControlAddIn for AL code in Business Central"
+        }
+      ]
     },
     "video/cc6rEVDhlzs": {
       "kind": "video",

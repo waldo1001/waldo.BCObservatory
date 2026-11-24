@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-11-18T01:00:22.250Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,6 +94,7 @@ links:
     - change/bcapps/12051
     - change/bcapps/12309
     - change/bcapps/9073
+    - change/bcquality/277
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -156,6 +157,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12051 [Peppol] Fix Remittance Advice XML line count, Note order and invoice reference](../../../../../changes/bcapps/12051.md) (code change): "Peppol remittance advice XML export now correctly reports"
 - [#12309 Fix infinite recursion in Config. Package Field XML name generation](../../../../../changes/bcapps/12309.md) (code change): "Prevents stack overflow when adding tables to Configuration Packages"
 - [#9073 Data Exchange Definition export performance improvement](../../../../../changes/bcapps/9073.md) (code change): "Data Exchange Definition exports now use in-memory mapping with bulk saves"
+- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../../../../../changes/bcquality/277.md) (code change): "New xmlport domain with 4 articles: MS-DOS default TextEncoding, Xmlport.Run"
 - [Step by Step Guide to Importing Excel Data into Business Central](../../../../../posts/aardvarklabs-blog/2202.md) (community post): "Leverage the Excel Buffer record and File Management codeunit to read Excel files"
 - [Best Practices for Handling Delimited Data Imports into Business Central](../../../../../posts/aardvarklabs-blog/2204.md) (community post): "import comma-separated values CSV customer data into Business Central by parsing delimited files"
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../../../posts/aardvarklabs-blog/2603.md) (community post): "demonstrates how to parse and import delimited files containing header and detail records"

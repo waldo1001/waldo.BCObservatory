@@ -7,12 +7,12 @@ tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-24T01:05:17.120Z"
   flags: []
 generated:
-  at: "2026-11-23T00:57:44.197Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -359,7 +359,7 @@ narrative: generated
 
 > Business Central telemetry sent to Azure Application Insights: how to turn it on, which events exist, how to analyze it with KQL or Power BI, how to set up alerts, and how to control costs. It answers setup, analysis, event ID, and cost questions.
 
-Path: [Administration](../administration.md) > Monitor and analyze telemetry · tier official · system platform · narrative **unreviewed** (model text not yet checked)
+Path: [Administration](../administration.md) > Monitor and analyze telemetry · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

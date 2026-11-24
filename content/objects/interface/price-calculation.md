@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-23T00:49:55.504Z"
+  at: "2026-11-24T00:56:51.308Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 652e1edeceaf3bc4b4a87e971a86e46dbd67b2f07e41fb0e074bd66d239a88b0
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Layers/W1/BaseApp/Pricing/Calculation/PriceCalculation.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Layers/W1/BaseApp/Pricing/Calculation/PriceCalculation.Interface.al
     title: src/Layers/W1/BaseApp/Pricing/Calculation/PriceCalculation.Interface.al (releases/29.x)
     date: null
-    commit: 6a9588a817c12a5d35d3e6c4ad40e29ecca88acf
+    commit: b42f520c380a64062ca700b5f5450acc436e5b05
     t: null
     quote: null
 links:
@@ -83,7 +83,7 @@ relations:
 
 > Interface "Price Calculation" in Base Application (Microsoft.Pricing.Calculation). 13 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Pricing.Calculation · BC23-30 · [source at 6a9588a8](https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Layers/W1/BaseApp/Pricing/Calculation/PriceCalculation.Interface.al) · facts from BC29
+Base Application · Microsoft.Pricing.Calculation · BC23-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Layers/W1/BaseApp/Pricing/Calculation/PriceCalculation.Interface.al) · facts from BC29
 
 ## Procedures
 

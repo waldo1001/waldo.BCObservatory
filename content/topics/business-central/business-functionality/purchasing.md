@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -461,6 +461,7 @@ links:
     - change/bcapps/13616
     - change/bcapps/13628
     - change/bcapps/14138
+    - change/bcapps/14225
     - change/bcapps/9044
     - change/bcapps/9084
     - change/bcapps/9182
@@ -667,6 +668,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13616 [main] but 657849 - Refactor TableRelation logic and disable validation for Bank Account fields in multiple table extensions](../../../changes/bcapps/13616.md) (code change): "SWIFT Code validation is made consistent across Czech localization by disabling table relation validation"
 - [#13628 [main] Bug 657281 [Drop Shipment] Your Reference, , Vendor Order No., and Vendor Shipment No. are blank on Posted Purchase Receipt Lines](../../../changes/bcapps/13628.md) (code change): "Drop shipment receipts now correctly populate Your Reference, Vendor Order No., and Vendor Shipment No."
 - [#14138 [MAIN] Fix undo of final subcontracting operation after earlier operation undo (Bug 653934)](../../../changes/bcapps/14138.md) (code change): "Fixed a bug where undoing the final subcontracting operation on a posted purchase receipt"
+- [#14225 [Master]-Purchase Credit Memo – "Get Return Shipment Lines" fails for Non-Inventory items with "corrective credit memo can only reverse the original posted invoice" error (regression from Bug 636861)](../../../changes/bcapps/14225.md) (code change): "Purchase credit memos can now retrieve return shipment lines for non-inventory items"
 - [#9044 [Master] Contact email is no validated during creation purchase documents_New](../../../changes/bcapps/9044.md) (code change): "Contact email validation is restored during purchase document creation"
 - [#9084 Bug 640321: Blanket Purch. Order to Order drops extended text for later items](../../../changes/bcapps/9084.md) (code change): "Fixes a bug where extended text lines are dropped when converting blanket purchase orders"
 - [#9182 Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents](../../../changes/bcapps/9182.md) (code change): "Pay-to Name 2 field on purchase documents is now editable"

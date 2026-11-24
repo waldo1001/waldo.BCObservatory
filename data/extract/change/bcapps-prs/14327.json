@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "Test fixtures for the Payables Agent now expose infotip sources and business context, allowing offline evaluations to collect explanations without directly depending on E-Document apps. The change provides source descriptors through internal test APIs only.",
   "key_points": [
-    "Expose version-neutral source records through PA Test Fixtures for infotip collection",
-    "Support both V1 discovery in draft-based compatibility code and V2 native purchase-document outcomes",
-    "Infotip schema includes record ID, description, field explanations, confidence levels, and optional references",
-    "Internal TestSupport API only; no production changes or public API modifications",
-    "Includes new tests covering positive scenarios and negative cases for source discovery"
+    "Expose version-neutral source records and business context through PA Test Fixtures for infotip collection",
+    "Keep V1 discovery in draft-based compatibility code and support native purchase-document outcomes for V2",
+    "Fixtures return only internal source descriptors (table ID, system ID, description); querying and formatting stay in the evaluation harness",
+    "Internal TestSupport API only; no production, schema or public API changes",
+    "New tests cover positive and negative source-discovery cases"
   ],
   "change_kind": "feature",
   "behavior_change": false,

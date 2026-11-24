@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -343,6 +343,7 @@ links:
     - video/M1S2_bgLd3Q
     - video/TY82NR2hGEg
   posts:
+    - post/bccaptain-com-au/https-bccaptain-com-au-2026-11-22-bc-word-layout-mcp-2-1-0--f0536bec81
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5
     - post/thinkaboutit-be/7181
     - post/thinkaboutit-be/8291
@@ -385,7 +386,7 @@ coverage:
   learn: 54
   code: 13
   video: 3
-  blog: 13
+  blog: 14
   guideline: 0
 bc_forms:
   - 21
@@ -483,6 +484,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9949 [Bug 645022] UI improvements for report themes and header/footers (composite layout)](../../../../changes/bcapps/9949.md) (code change): "Composite layout administration pages get UI improvements"
 - [#183 Add reporting review guidance and evaluation fixtures](../../../../changes/bcquality/183.md) (code change): "Nine reporting rules and guidance articles have been added to the BCQuality"
 - [#230 Knowledge: report layouts and dataset contract, query join and grouping defaults](../../../../changes/bcquality/230.md) (code change): "report layouts and dataset contract, query join and grouping defaults"
+- [BC Word Layout MCP 2.1.0: What changes when you print with a report theme?](../../../../posts/bccaptain-com-au/https-bccaptain-com-au-2026-11-22-bc-word-layout-mcp-2-1-0--f0536bec81.md) (community post): "Theme colours like accent1 are slots that follow the selected report theme"
 - [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (community post): "In AL, the Subtype, HeaderFooterPart and ThemePart properties configure this"
 - [Quick Tip: Deep Dive into Report Objects and Layouts @BC TechDays 2025](../../../../posts/thinkaboutit-be/7181.md) (community post): "Reports combine three layers: data dataset, presentation layout, and user input"
 - [Business Central 29: What’s New in the Word Add-in?](../../../../posts/thinkaboutit-be/8291.md) (community post): "reusable design components provide predefined formatting for addresses, field groups, amounts, signatures"

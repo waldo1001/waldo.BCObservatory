@@ -2,7 +2,7 @@
 id: source/bcapps-prs
 type: source
 title: microsoft/BCApps pull requests
-summary: "microsoft/BCApps pull requests: 1398 code changes in the knowledge base, 2026-07-07 to 2026-11-21, mostly about development, finance, integration."
+summary: "microsoft/BCApps pull requests: 1410 code changes in the knowledge base, 2026-07-07 to 2026-11-23, mostly about development, finance, integration."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-22T00:17:50.598Z"
+  at: "2026-11-24T00:13:35.655Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 222afa4c859a820fae0d15d38cd51e838f35edd21ba9df5f0f14ceb0530a064e
+  input_hash: ca007ec2407d2aa99dcbb89d8728742f1b4e5bced2a2692b9f0aa2de02628f6b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
@@ -1433,40 +1433,52 @@ links:
     - change/bcapps/14295
     - change/bcapps/14335
     - change/bcapps/14329
+    - change/bcapps/9193
+    - change/bcapps/14405
+    - change/bcapps/13673
+    - change/bcapps/14297
+    - change/bcapps/13854
+    - change/bcapps/14327
+    - change/bcapps/14013
+    - change/bcapps/13206
+    - change/bcapps/14423
+    - change/bcapps/14225
+    - change/bcapps/14400
+    - change/bcapps/13904
 source_id: bcapps-prs
 kind: github-pr
 url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 1398
+item_count: 1410
 footprint:
   systems:
     - id: development
-      weight: 649
+      weight: 651
     - id: finance
-      weight: 557
+      weight: 565
     - id: integration
-      weight: 431
+      weight: 433
     - id: inventory
-      weight: 263
+      weight: 267
     - id: sales
       weight: 250
     - id: manufacturing
       weight: 210
   topics:
     - id: bc30
-      weight: 1280
+      weight: 1289
     - id: main
-      weight: 1280
+      weight: 1289
     - id: fix
-      weight: 874
+      weight: 883
     - id: feature
-      weight: 388
+      weight: 391
     - id: bc29
-      weight: 118
+      weight: 121
     - id: releases/29.x
-      weight: 118
+      weight: 121
     - id: refactor
       weight: 57
     - id: performance
@@ -1479,9 +1491,9 @@ footprint:
     - id: codeunit Gen. Jnl.-Post Line
       weight: 35
     - id: page Expense Agent Setup Wizard
-      weight: 23
+      weight: 24
     - id: table Expense Report Header
-      weight: 22
+      weight: 23
     - id: table Expense Report Line
       weight: 20
     - id: permissionset Expense Management - Objects
@@ -1492,22 +1504,22 @@ footprint:
       weight: 17
     - id: table Expense Agent Setup
       weight: 17
+    - id: table Purchase Line
+      weight: 17
     - id: table Sales Line
       weight: 17
     - id: page Expense Agent Setup
       weight: 16
     - id: table Expense
       weight: 16
-    - id: table Posted Expense Report Line
-      weight: 16
   features: []
 first_item: "2026-07-07"
-last_item: "2026-11-21"
+last_item: "2026-11-23"
 ---
 
 # microsoft/BCApps pull requests
 
-> microsoft/BCApps pull requests: 1398 code changes in the knowledge base, 2026-07-07 to 2026-11-21, mostly about development, finance, integration.
+> microsoft/BCApps pull requests: 1410 code changes in the knowledge base, 2026-07-07 to 2026-11-23, mostly about development, finance, integration.
 
 [https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -1515,28 +1527,40 @@ last_item: "2026-11-21"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (649) | bc30 (1280) | codeunit Gen. Jnl.-Post Line (35) |
-| finance (557) | main (1280) | page Expense Agent Setup Wizard (23) |
-| integration (431) | fix (874) | table Expense Report Header (22) |
-| inventory (263) | feature (388) | table Expense Report Line (20) |
-| sales (250) | bc29 (118) | permissionset Expense Management - Objects (18) |
-| manufacturing (210) | releases/29.x (118) | codeunit Expense Report-Post (17) |
+| development (651) | bc30 (1289) | codeunit Gen. Jnl.-Post Line (35) |
+| finance (565) | main (1289) | page Expense Agent Setup Wizard (24) |
+| integration (433) | fix (883) | table Expense Report Header (23) |
+| inventory (267) | feature (391) | table Expense Report Line (20) |
+| sales (250) | bc29 (121) | permissionset Expense Management - Objects (18) |
+| manufacturing (210) | releases/29.x (121) | codeunit Expense Report-Post (17) |
 |  | refactor (57) | permissionset Expense Agent - Objects (17) |
 |  | performance (39) | table Expense Agent Setup (17) |
-|  | codeunit gen. jnl.-post line (29) | table Sales Line (17) |
-|  | other (23) | page Expense Agent Setup (16) |
+|  | codeunit gen. jnl.-post line (29) | table Purchase Line (17) |
+|  | other (23) | table Sales Line (17) |
+|  |  | page Expense Agent Setup (16) |
 |  |  | table Expense (16) |
-|  |  | table Posted Expense Report Line (16) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 882
-- 2026-Q4: **************************************** 516
+- 2026-Q4: **************************************** 528
 
 ## Most recent
 
+- [#13904 [29.X]-Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.](../changes/bcapps/13904.md) (2026-11-23)
+- [#14400 [Master Data Management] User-friendly errors for cross-environment connection and permission failures](../changes/bcapps/14400.md) (2026-11-23)
+- [#14225 [Master]-Purchase Credit Memo – "Get Return Shipment Lines" fails for Non-Inventory items with "corrective credit memo can only reverse the original posted invoice" error (regression from Bug 636861)](../changes/bcapps/14225.md) (2026-11-23)
+- [#14423 Bug 659561: Make FI depreciation posting buffer temporary](../changes/bcapps/14423.md) (2026-11-23)
+- [#13206 [29x]- "You must assign a serial number for item xxx" when trying to reverse Capacity Ledger Entry](../changes/bcapps/13206.md) (2026-11-23)
+- [#14013 [29x]- Warehouse shipment item tracking inherits the source line's stale pick bin on the Transfer and Purchase-Return branches, so a second partial shipment fails with "You cannot select more than 0 units"](../changes/bcapps/14013.md) (2026-11-23)
+- [#14327 Expose Payables Agent infotip sources through test fixtures](../changes/bcapps/14327.md) (2026-11-23)
+- [#13854 [Main]-All VAT Entries are gone through without filters with "Set G/L Account No." function.](../changes/bcapps/13854.md) (2026-11-23)
+- [#14297 [master] Exporting the VAT Report using the new ELMA XML export the report status remains 'Released' instead of changing to 'Exported' in the German version.](../changes/bcapps/14297.md) (2026-11-23)
+- [#13673 Expose active expense approver and expense app navigation](../changes/bcapps/13673.md) (2026-11-23)
+- [#14405 [Expense Agent] Renumber codeunits that collide with deprecated country apps](../changes/bcapps/14405.md) (2026-11-23)
+- [#9193 Lock Code labels on default Transformation Rule records](../changes/bcapps/9193.md) (2026-11-23)
 - [#14329 Optimizing check for PA eligibility](../changes/bcapps/14329.md) (2026-11-21)
 - [#14335 [Main] Expense Management: make Expense Management Setup public; keep agent and corporate card surface internal](../changes/bcapps/14335.md) (2026-11-20)
 - [#14295 [Main] Expense Management: make core expense business objects public](../changes/bcapps/14295.md) (2026-11-20)
@@ -1545,17 +1569,5 @@ Items per quarter, oldest first:
 - [#13669 [Master]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure. - Copy](../changes/bcapps/13669.md) (2026-11-20)
 - [#14014 Bug 648872: [UX][Manufacturing] Many actions are enabled on an empty "Released Produciton Orders" page resulting in errors when clicked](../changes/bcapps/14014.md) (2026-11-20)
 - [#14373 [MAIN] Subcontracting Receipt Extensibility Events.](../changes/bcapps/14373.md) (2026-11-20)
-- [#14080 [master] Reversed output entry stays uninvoiced (Invoiced Quantity = 0) after reopening a finished production order, causing quantity discrepancy in Inventory Valuation](../changes/bcapps/14080.md) (2026-11-20)
-- [#13862 [29.X]-Serial numbers selected on Assembly Order component lines are deleted when running Calculate Regenerative Plan, without carrying out action messages.](../changes/bcapps/13862.md) (2026-11-20)
-- [#14138 [MAIN] Fix undo of final subcontracting operation after earlier operation undo (Bug 653934)](../changes/bcapps/14138.md) (2026-11-20)
-- [#14283 [Master]-Sales or purchase order with 100% prepayment: Prepmt. Line Amount drifts below Prepmt. Amt. Inv. after partial invoices, so the order can't be released or posted](../changes/bcapps/14283.md) (2026-11-20)
-- [#14332 Bug 660000: [64bit] Overflow in item application entry](../changes/bcapps/14332.md) (2026-11-20)
-- [#14224 Fix duplicate expense vendor numbers during receipt submission](../changes/bcapps/14224.md) (2026-11-20)
-- [#14281 Fix manufacturing enum fallback in item journals](../changes/bcapps/14281.md) (2026-11-20)
-- [#13899 Bugfix/issue 13425 shopify wrong curr amount refund](../changes/bcapps/13899.md) (2026-11-20)
-- [#13102 Create putaway template bin validation](../changes/bcapps/13102.md) (2026-11-20)
-- [#14021 Finance internal new body layouts and obsolete current](../changes/bcapps/14021.md) (2026-11-20)
-- [#14331 Fix trailing periods in generated document attachment folders](../changes/bcapps/14331.md) (2026-11-20)
-- [#10295 #10288 - Always load attachments](../changes/bcapps/10295.md) (2026-11-20)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-23T00:57:44.197Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -164,6 +164,7 @@ links:
     - change/bcapps/13569
     - change/bcapps/13599
     - change/bcapps/13672
+    - change/bcapps/13673
     - change/bcapps/13690
     - change/bcapps/13721
     - change/bcapps/13730
@@ -172,6 +173,8 @@ links:
     - change/bcapps/13992
     - change/bcapps/14224
     - change/bcapps/14314
+    - change/bcapps/14327
+    - change/bcapps/14405
 learn_toc_path:
   - Copilot and agent capabilities
   - Expense Agent (preview)
@@ -267,6 +270,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13569 Update expense policy defaults, caption, and search terms](../../../changes/bcapps/13569.md) (code change): "new Expense Agent setups enable policy evaluation by default"
 - [#13599 [SOA] Setup can be saved while the agent remains inactive without warning](../../../changes/bcapps/13599.md) (code change): "Sales Order Agent setup page now shows a confirmation when saving an inactive agent"
 - [#13672 Expense Agent: expose VAT setup in configuration wizard](../../../changes/bcapps/13672.md) (code change): "Expense Agent Setup Wizard now exposes VAT configuration controls"
+- [#13673 Expose active expense approver and expense app navigation](../../../changes/bcapps/13673.md) (code change): "activeApproverExpenseUserNo field exposed in Expense Reports API for direct approver linking"
 - [#13690 [Main] - Bug 657870: [ExpenseAgent] Allow assigning interim approvers via API before expense reports are pending approval](../../../changes/bcapps/13690.md) (code change): "Interim approvers can now be assigned via API before an expense report is submitted"
 - [#13721 [Expense Agent] Create per diem line when approving travel requests with Per Diem Included](../../../changes/bcapps/13721.md) (code change): "Approving a Per Diem Included travel request adds a per diem line to each traveler's newly created expense report"
 - [#13730 [Expense Agent] Initialize missing vendor numbering after upgrade](../../../changes/bcapps/13730.md) (code change): "Initialize missing vendor number series for the Expense Agent"
@@ -275,6 +279,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#13992 [29.x]-Bug 658942: [Expense Agent] Limited self-approval cannot be combined with escalation to an unlimited approver](../../../changes/bcapps/13992.md) (code change): "Limited self-approval now works correctly with escalation to unlimited approvers"
 - [#14224 Fix duplicate expense vendor numbers during receipt submission](../../../changes/bcapps/14224.md) (code change): "Expense vendor number assignment now skips occupied numbers"
 - [#14314 Update expense category and subcategory descriptions](../../../changes/bcapps/14314.md) (code change): "Expense category and subcategory descriptions are clarified"
+- [#14327 Expose Payables Agent infotip sources through test fixtures](../../../changes/bcapps/14327.md) (code change): "Expose Payables Agent infotip sources through test fixtures"
+- [#14405 [Expense Agent] Renumber codeunits that collide with deprecated country apps](../../../changes/bcapps/14405.md) (code change): "Three Expense Agent codeunits are renumbered from 6913-6915 to 6923-6925"
 - [Expense Agent just got half as expensive, and you can now try it for free](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4301562050938159536--2f22daf241.md) (community post): "Expense Agent pricing is cut in half to 25 Copilot Credits"
 - [Directions EMEA 2026, Day 1: Copilot Moves from Answers to Actions](../../../posts/thinkaboutit-be/8348.md) (community post): "It also covers Business Skills, the Expense Agent and what AI interaction means"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "expense agent; mobile app; receipt scanning; mileage tracking; offline mode"

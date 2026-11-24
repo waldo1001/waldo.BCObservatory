@@ -6,7 +6,7 @@
   "systems_joined": [
     "copilot"
   ],
-  "summary": "The Expense Reports API now exposes the active approver identifier and replaces submitter expansion with filtering by active approver status. Report pages gain an Open Expense App action to navigate to environment-specific dashboards, and a secondary key enables efficient approver filtering.",
+  "summary": "The Expense Reports API now exposes activeApproverExpenseUserNo and filters by active approver with Pending Approval and Interim Approved statuses instead of expanding submitter lists, and advertises an ActiveApproverRouting capability. Report card and list pages gain an Open Expense App action, and the unused Pending Approval By FlowFilter is obsoleted.",
   "key_points": [
     "activeApproverExpenseUserNo field exposed in Expense Reports API for direct approver linking",
     "Submitter-list expansion replaced with filtering by active approver and approval statuses",
@@ -16,7 +16,7 @@
   ],
   "change_kind": "feature",
   "behavior_change": true,
-  "breaking": true,
+  "breaking": false,
   "obsoletions": [
     {
       "object": "Expense Report Header",

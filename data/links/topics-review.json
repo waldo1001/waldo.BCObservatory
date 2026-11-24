@@ -7701,64 +7701,130 @@
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services": {
+      "post/wingate365-com/https://blog.wingate365.com/2026/04/trying-out-github-copilot-agent-for.html@e95612f0f1109cad": {
+        "verdict": "drop",
+        "reason": "About using GitHub Copilot agents to validate CSV files, not calling external services from AL.",
+        "at": "2026-11-24T01:02:59.916Z",
+        "v": 2
+      },
+      "post/yzhums-com/56046@9602d4cf634cab46": {
+        "verdict": "keep",
+        "reason": "Calls the external QuickChart API via HttpClient in AL to generate barcodes.",
+        "at": "2026-11-24T01:02:59.916Z",
+        "v": 2
+      },
+      "post/yzhums-com/61543@c4fdefff7bfc97e1": {
+        "verdict": "drop",
+        "reason": "Covers the Image Helpers codeunit and HTML img src; no external service call involved.",
+        "at": "2026-11-24T01:02:59.916Z",
+        "v": 2
+      },
+      "post/yzhums-com/64775@f9f3f93cb8eb7dc9": {
+        "verdict": "keep",
+        "reason": "Demonstrates calling Dataverse REST APIs from AL with OAuth and HTTP verbs.",
+        "at": "2026-11-24T01:02:59.916Z",
+        "v": 2
+      },
+      "post/yzhums-com/65391@fabeea6b3db01499": {
+        "verdict": "keep",
+        "reason": "Covers the Allow HttpClient Requests setting required for outbound HTTP calls from extensions.",
+        "at": "2026-11-24T01:02:59.916Z",
+        "v": 2
+      },
+      "post/yzhums-com/65525@023dc93fe1d96277": {
+        "verdict": "keep",
+        "reason": "Validates URLs as secure HTTPS before calling external services, a supporting practice for outbound calls.",
+        "at": "2026-11-24T01:02:59.916Z",
+        "v": 2
+      },
+      "post/yzhums-com/65533@84aeb0a255020c4e": {
+        "verdict": "keep",
+        "reason": "Automates enabling Allow HttpClient Requests so apps can call external services.",
+        "at": "2026-11-24T01:02:59.916Z",
+        "v": 2
+      },
+      "video/aXM5Kuo3DHM@0249b3546f137fc3": {
+        "verdict": "keep",
+        "reason": "Shows the SFTP client codeunit in Business Central for connecting to external servers from AL.",
+        "at": "2026-11-24T01:02:59.916Z",
+        "v": 2
+      },
+      "video/EurgqGU1jG0@edb14011eda297ee": {
+        "verdict": "drop",
+        "reason": "Subject is test patterns and code coverage; the payment API integration is only the example.",
+        "at": "2026-11-24T01:02:59.916Z",
+        "v": 2
+      },
+      "video/qNHUj3ZEang@6c473b39d7b61ed4": {
+        "verdict": "keep",
+        "reason": "Covers the REST Client module features (cookies, errors) used to make HTTP requests from AL.",
+        "at": "2026-11-24T01:02:59.916Z",
+        "v": 2
+      },
       "post/aardvarklabs-blog/2640@7e1c3369c0eee8cf": {
         "verdict": "drop",
-        "reason": "Main subject is the SecretText data type, which the sibling Handling security section documents more exactly; HttpClient is only mentioned in passing.",
-        "at": "2026-11-23T00:56:22.092Z",
+        "reason": "Subject is the SecretText data type, which the sibling Handling security section documents more exactly; HttpClient is only a passing mention.",
+        "at": "2026-11-24T01:03:02.553Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2866@ad0fbd69fadaf746": {
         "verdict": "drop",
-        "reason": "Parsing a local XML file with the built-in XML types is not calling an external service.",
-        "at": "2026-11-23T00:56:22.092Z",
+        "reason": "About parsing an XML file with built-in XML types, not about calling external services.",
+        "at": "2026-11-24T01:03:02.553Z",
         "v": 2
       },
       "post/aardvarklabs-blog/2953@1579b424cf0b3626": {
         "verdict": "keep",
-        "reason": "Shows how to call external APIs with HttpClient and parse the JSON responses, the core of this section.",
-        "at": "2026-11-23T00:56:22.092Z",
+        "reason": "Shows how to call external APIs with HttpClient and parse the JSON responses, which is this section's core subject.",
+        "at": "2026-11-24T01:03:02.553Z",
         "v": 2
       },
       "post/aardvarklabs-blog/3460@d0c351745b5df791": {
         "verdict": "keep",
-        "reason": "Shows AL code connecting to external SFTP servers through the native SFTP Client codeunit.",
-        "at": "2026-11-23T00:56:22.092Z",
+        "reason": "Covers the native SFTP Client codeunit for connecting to external SFTP servers from AL.",
+        "at": "2026-11-24T01:03:02.553Z",
+        "v": 2
+      },
+      "post/bccaptain-com-au/https://bccaptain.com.au/2026/11/22/bc-word-layout-mcp-2-1-0/@5d01fcf680659c4c": {
+        "verdict": "drop",
+        "reason": "About Word report layouts and themes, unrelated to calling external services.",
+        "at": "2026-11-24T01:03:02.553Z",
         "v": 2
       },
       "post/demiliani-com/13588@e684d78888952bae": {
         "verdict": "keep",
-        "reason": "Covers strict URI validation in AL HttpClient, which affects which external calls work.",
-        "at": "2026-11-23T00:56:22.092Z",
+        "reason": "Covers the new strict URI validation that restricts where AL HttpClient requests can go.",
+        "at": "2026-11-24T01:03:02.553Z",
         "v": 2
       },
       "post/demiliani-com/13640@abb0e63da6ce6cdc": {
         "verdict": "keep",
-        "reason": "Covers calling external SFTP servers from AL with the SFTP Client codeunit.",
-        "at": "2026-11-23T00:56:22.092Z",
+        "reason": "Shows how to connect to external SFTP servers from AL with the native client.",
+        "at": "2026-11-24T01:03:02.553Z",
         "v": 2
       },
       "post/demiliani-com/14203@a01d8fdbbf8fc60c": {
         "verdict": "keep",
-        "reason": "Explains a practice for making external API calls from job queue entries safe when the AL transaction rolls back.",
-        "at": "2026-11-23T00:56:22.092Z",
+        "reason": "A practice for calling external APIs safely, so retries don't repeat actions after a transaction rolls back.",
+        "at": "2026-11-24T01:03:02.553Z",
         "v": 2
       },
       "post/gerardorenteria-blog/14816@d18dad9b14fe94e8": {
         "verdict": "drop",
-        "reason": "The subject is a sample World Cup prediction app; the JSON import is only an example inside it.",
-        "at": "2026-11-23T00:56:22.092Z",
+        "reason": "The post is about a World Cup prediction app; importing JSON from a URL is only part of the example.",
+        "at": "2026-11-24T01:03:02.553Z",
         "v": 2
       },
       "post/kauffmann-nl/8332@88de14cfccb265de": {
         "verdict": "keep",
-        "reason": "OAuth library that extends the Rest Client module used to authenticate HTTP calls.",
-        "at": "2026-11-23T00:56:22.092Z",
+        "reason": "An OAuth library that extends the Rest Client module used to call external services.",
+        "at": "2026-11-24T01:03:02.553Z",
         "v": 2
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2501623073598492643@bcd3363825c3e8ed": {
         "verdict": "drop",
-        "reason": "The subject is extension deployment management; calling the admin center API is only how the app is built.",
-        "at": "2026-11-23T00:56:22.092Z",
+        "reason": "The post is about extension management; calling the admin center API is only part of the example.",
+        "at": "2026-11-24T01:03:02.553Z",
         "v": 2
       }
     },
@@ -8457,102 +8523,102 @@
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/handling-security/using-azure-key-vault-for-app-secrets": {
-      "post/aardvarklabs-blog/1609@e19ddf28b0a4650a": {
+      "post/aardvarklabs-blog/1609@edab5653e97cb81b": {
         "verdict": "drop",
-        "reason": "This post covers storing Azure OpenAI credentials in Isolated Storage, not getting app secrets from Azure Key Vault.",
-        "at": "2026-10-30T08:06:31.493Z",
+        "reason": "Covers building a Copilot feature with Azure OpenAI, and stores its secrets in Isolated Storage rather than Azure Key Vault.",
+        "at": "2026-11-24T01:03:01.176Z",
         "v": 2
       },
-      "post/aardvarklabs-blog/2640@d359e4297ef65ea4": {
+      "post/aardvarklabs-blog/2640@7e1c3369c0eee8cf": {
         "verdict": "keep",
-        "reason": "It explains handling secrets with SecretText, including secrets retrieved from Azure Key Vault, which works directly with the app-secrets feature this section documents.",
-        "at": "2026-10-30T08:06:31.493Z",
+        "reason": "Covers protecting secrets with SecretText and explicitly mentions retrieving them from Azure Key Vault, which relates to how app secrets are handled.",
+        "at": "2026-11-24T01:03:01.176Z",
         "v": 2
       },
-      "post/wingate365-com/https://blog.wingate365.com/2026/06/graph-api-email-account-types-for-d365.html@dcd034ae34acdb12": {
+      "post/aardvarklabs-blog/3460@d0c351745b5df791": {
         "verdict": "drop",
-        "reason": "Its subject is a Graph API email extension; its mention of SecretText and encrypted token storage doesn't involve Azure Key Vault.",
-        "at": "2026-10-30T08:06:31.493Z",
+        "reason": "About the SFTP client codeunit; Isolated Storage for credentials is a side detail and Key Vault is not covered.",
+        "at": "2026-11-24T01:03:01.176Z",
+        "v": 2
+      },
+      "post/kauffmann-nl/8332@88de14cfccb265de": {
+        "verdict": "drop",
+        "reason": "About an OAuth library for the Rest Client, a capability this Key Vault section does not document.",
+        "at": "2026-11-24T01:03:01.176Z",
+        "v": 2
+      },
+      "post/yzhums-com/64057@f32d92b275c7ef4d": {
+        "verdict": "drop",
+        "reason": "About the JsonObject.WriteWithSecretsTo method for SecretText; does not cover Azure Key Vault app secrets.",
+        "at": "2026-11-24T01:03:01.176Z",
         "v": 2
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry": {
+      "post/nataliekarolak-com/3653@8507da6bf1aa32fa": {
+        "verdict": "drop",
+        "reason": "Covers new AL methods and properties in BC27 such as MaskType, not telemetry instrumentation.",
+        "at": "2026-11-24T01:03:02.596Z",
+        "v": 2
+      },
       "post/waldo-be/317845@491d234240c181f4": {
         "verdict": "keep",
-        "reason": "An extension that adds custom telemetry events from AL, which extends what this section documents.",
-        "at": "2026-10-26T08:45:34.616Z",
+        "reason": "An app that sends custom telemetry events from AL code, which is what this section teaches.",
+        "at": "2026-11-24T01:03:02.596Z",
+        "v": 2
+      },
+      "post/waldo-be/318371@f8eeca6f0820e518": {
+        "verdict": "keep",
+        "reason": "A tool for querying and finding standard and custom telemetry events, so it works directly with the telemetry this section documents.",
+        "at": "2026-11-24T01:03:02.596Z",
         "v": 2
       },
       "post/yzhums-com/68765@0966df8884ab3da6": {
         "verdict": "drop",
-        "reason": "About performance profiling and the debugger, not telemetry.",
-        "at": "2026-10-26T08:45:34.616Z",
+        "reason": "About performance profiling tools, which another section documents more precisely.",
+        "at": "2026-11-24T01:03:02.596Z",
         "v": 2
       },
-      "video/1x3QyBX3swg@ee99459e60400345": {
+      "video/1x3QyBX3swg@245a293a08fbace4": {
         "verdict": "drop",
-        "reason": "About index management; telemetry for index changes is only a side point.",
-        "at": "2026-10-26T08:45:34.616Z",
+        "reason": "About index management; index-change telemetry is only a minor side point.",
+        "at": "2026-11-24T01:03:02.596Z",
         "v": 2
       },
-      "video/7rIHz0zrgWU@0a2a4c7fce7506a6": {
+      "video/7rIHz0zrgWU@4c0228258f9ba1ab": {
         "verdict": "keep",
-        "reason": "Covers new telemetry signals and how to analyse them, which matches the telemetry reference documentation.",
-        "at": "2026-10-26T08:45:34.616Z",
+        "reason": "Walks through new telemetry signals such as long-running AL telemetry, which match the telemetry reference documentation.",
+        "at": "2026-11-24T01:03:02.596Z",
         "v": 2
       },
       "video/b54ehH4AlFA@c33b1c24ca10a36f": {
         "verdict": "keep",
-        "reason": "Shows the telemetry events for financial reporting, which are part of the telemetry reference.",
-        "at": "2026-10-26T08:45:34.616Z",
+        "reason": "Shows new telemetry events emitted for financial reports, which belong to the telemetry event reference.",
+        "at": "2026-11-24T01:03:02.596Z",
         "v": 2
       },
-      "video/EwN3xb2q7vE@fa320b248e55e095": {
+      "video/fgWFOMPJd6U@885e0866189adf72": {
         "verdict": "drop",
-        "reason": "About building agents, with no telemetry instrumentation.",
-        "at": "2026-10-26T08:45:34.616Z",
-        "v": 2
-      },
-      "video/F_pssS0FtUc@25880ebddffc054c": {
-        "verdict": "keep",
-        "reason": "Covers Business Central telemetry, including feature telemetry, and how it is used for analysis.",
-        "at": "2026-10-26T08:45:34.616Z",
-        "v": 2
-      },
-      "video/hS8yWS3bxWE@7e100c5de254428c": {
-        "verdict": "keep",
-        "reason": "Covers new telemetry signals in 2025 release wave 1.",
-        "at": "2026-10-26T08:45:34.616Z",
+        "reason": "About the Summarize with Copilot feature; telemetry is only listed in passing.",
+        "at": "2026-11-24T01:03:02.596Z",
         "v": 2
       },
       "video/mnxOSl1Y9PI@089d509598986664": {
         "verdict": "keep",
-        "reason": "Includes the updated 'Telemetry for AL Developers' documentation.",
-        "at": "2026-10-26T08:45:34.616Z",
-        "v": 2
-      },
-      "video/oF_wSP0xrSQ@c7cff12a14b7a32a": {
-        "verdict": "keep",
-        "reason": "A tool that automates analysis of Business Central telemetry signals such as lock timeouts.",
-        "at": "2026-10-26T08:45:34.616Z",
+        "reason": "Covers the documentation updates on telemetry for AL developers, which is this section's content.",
+        "at": "2026-11-24T01:03:02.596Z",
         "v": 2
       },
       "video/P-7dYVfB73E@14a5977a635463f3": {
         "verdict": "drop",
-        "reason": "About event extensibility, which the Events sibling section covers; event usage telemetry is only incidental.",
-        "at": "2026-10-26T08:45:34.616Z",
+        "reason": "About event extensibility; event usage telemetry here means Microsoft's own analysis, not AL instrumentation.",
+        "at": "2026-11-24T01:03:02.596Z",
         "v": 2
       },
       "video/tDcT_51ktqo@3e69e4eb8e760295": {
         "verdict": "keep",
-        "reason": "Covers the new exclusive-time telemetry for long-running AL.",
-        "at": "2026-10-26T08:45:34.616Z",
-        "v": 2
-      },
-      "video/TY82NR2hGEg@3608ce5783de6b25": {
-        "verdict": "drop",
-        "reason": "Its 'reference documentation' means the AL Doc tool, not telemetry.",
-        "at": "2026-10-26T08:45:34.616Z",
+        "reason": "Presents the new exclusive-time telemetry signal, which is part of the telemetry reference documentation.",
+        "at": "2026-11-24T01:03:02.596Z",
         "v": 2
       }
     },
@@ -9779,90 +9845,126 @@
       }
     },
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices": {
-      "post/jeremyvyska-com/1524@deffa48576d552ab": {
+      "post/demiliani-com/12368@75c503dcd36fb313": {
         "verdict": "drop",
-        "reason": "Subject is a storytelling education framework; best practices are only mentioned in passing.",
-        "at": "2026-10-26T10:54:48.926Z",
+        "reason": "A general discussion of AI-assisted 'vibe coding' with nothing specific to AL or Business Central best practices.",
+        "at": "2026-11-24T01:03:04.594Z",
+        "v": 2
+      },
+      "post/demiliani-com/13908@2176291151dc4f66": {
+        "verdict": "drop",
+        "reason": "About managing GitHub Copilot sessions, which this section doesn't document.",
+        "at": "2026-11-24T01:03:04.594Z",
+        "v": 2
+      },
+      "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-7-13-2026/@2aa2d191960e7c50": {
+        "verdict": "keep",
+        "reason": "Part of the roundup covers AL performance techniques such as TextBuilder and batching stream I/O, which fits the Performance subtopic.",
+        "at": "2026-11-24T01:03:04.594Z",
         "v": 2
       },
       "post/miljan-rs/966@7cdd32a3a96bdb23": {
         "verdict": "keep",
-        "reason": "Discusses a safe AL coding pattern for error handling, an AL code best practice.",
-        "at": "2026-10-26T10:54:48.926Z",
+        "reason": "Explains how to use ErrorBehavior::Collect safely in AL code, which is a best practice for AL code.",
+        "at": "2026-11-24T01:03:04.594Z",
         "v": 2
       },
       "post/nataliekarolak-com/4271@42da0e0b90a469cd": {
         "verdict": "keep",
-        "reason": "Tool that helps produce better-quality AL code, working with AL coding best practices.",
-        "at": "2026-10-26T10:54:48.926Z",
+        "reason": "BCQuality is a tool that helps developers and AI agents follow AL coding quality standards.",
+        "at": "2026-11-24T01:03:04.594Z",
         "v": 2
       },
       "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-business-central/@af08d9ea7e279158": {
         "verdict": "keep",
-        "reason": "Series directly about AL development best practices for maintainability and upgrade safety.",
-        "at": "2026-10-26T10:54:48.926Z",
+        "reason": "Introduces a series on best practices for AL development aimed at maintainability and upgrade safety.",
+        "at": "2026-11-24T01:03:04.594Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-33-month-enum/@e6bc7cbc3702b9e9": {
-        "verdict": "drop",
-        "reason": "About specific built-in recurrence enums, not documented in the best practices section.",
-        "at": "2026-10-26T10:54:48.926Z",
+        "verdict": "keep",
+        "reason": "An AL code tip on reusing the built-in enums instead of creating custom ones.",
+        "at": "2026-11-24T01:03:04.594Z",
+        "v": 2
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/@07c9d22060c15800": {
+        "verdict": "keep",
+        "reason": "Explains the AL practice of always validating fields so all business logic runs and data stays intact.",
+        "at": "2026-11-24T01:03:04.594Z",
         "v": 2
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-83-record-isdirty/@b801505a606b1a48": {
-        "verdict": "drop",
-        "reason": "About a specific Record method (IsDirty), documented in method reference rather than best practices.",
-        "at": "2026-10-26T10:54:48.926Z",
+        "verdict": "keep",
+        "reason": "Presents Record.IsDirty() as an AL coding pattern that keeps code simpler.",
+        "at": "2026-11-24T01:03:04.594Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8132@38977d3cd41e7df5": {
+        "verdict": "keep",
+        "reason": "Describes Microsoft's BCQuality repository of quality rules and best practices for AL code.",
+        "at": "2026-11-24T01:03:04.594Z",
         "v": 2
       },
       "post/yzhums-com/75344@57b11ca833703808": {
         "verdict": "keep",
-        "reason": "File-naming abbreviations for AL objects are part of AL coding conventions covered by best practices.",
-        "at": "2026-10-26T10:54:48.926Z",
+        "reason": "Lists the abbreviations used in AL object file names, which the AL code best practices cover.",
+        "at": "2026-11-24T01:03:04.594Z",
         "v": 2
       }
     },
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code": {
       "post/aardvarklabs-blog/4100@8761e77345e1d886": {
-        "verdict": "drop",
-        "reason": "Its subject is one new record method (IsDirty), not the AL coding best practices this section documents.",
-        "at": "2026-11-07T01:02:43.711Z",
+        "verdict": "keep",
+        "reason": "Explains how IsDirty replaces error-prone record-change patterns and cuts unneeded Modify calls, which is an AL coding practice.",
+        "at": "2026-11-24T01:03:05.577Z",
         "v": 2
       },
-      "post/jeremyvyska-com/1770@2ea70905f36ae767": {
+      "post/aardvarklabs-blog/4116@72ad7518b5cd26d8": {
         "verdict": "drop",
-        "reason": "It is an announcement for paid training on agentic AI tools, not guidance on AL coding best practices.",
-        "at": "2026-11-07T01:02:43.711Z",
+        "reason": "Covers the default interface methods language feature, which the interfaces documentation covers more exactly than the AL code best practices section.",
+        "at": "2026-11-24T01:03:05.577Z",
+        "v": 2
+      },
+      "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-21-27-2026/@e4a97a86fe25cb9f": {
+        "verdict": "keep",
+        "reason": "Part of the roundup covers AL coding practice: moving older apps to namespaces and controlling editability per record in OnAfterGetRecord.",
+        "at": "2026-11-24T01:03:05.577Z",
+        "v": 2
+      },
+      "post/jeremyvyska-com/1449@f5b0c9bd79366112": {
+        "verdict": "keep",
+        "reason": "A VS Code extension built on ALGuidelines that helps developers follow AL coding best practices.",
+        "at": "2026-11-24T01:03:05.577Z",
         "v": 2
       },
       "post/nataliekarolak-com/3494@6fc7df835e5a00ad": {
+        "verdict": "keep",
+        "reason": "Gives AL coding guidance on defining tooltips at table level and using code analyzer rules to enforce them.",
+        "at": "2026-11-24T01:03:05.577Z",
+        "v": 2
+      },
+      "post/thinkaboutit-be/8331@9aace12bc41bce82": {
         "verdict": "drop",
-        "reason": "Tooltip writing guidance is covered more exactly by Learn's user assistance and tooltip guidelines than by the AL code best practices page.",
-        "at": "2026-11-07T01:02:43.711Z",
-        "v": 2
-      },
-      "post/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/@7c539af3ddd905ec": {
-        "verdict": "keep",
-        "reason": "ALCops is a code analyzer suite that checks and enforces AL coding rules, so it works with what this section documents.",
-        "at": "2026-11-07T01:02:43.711Z",
-        "v": 2
-      },
-      "post/thinkaboutit-be/8132@c9bfa41ad7ac66b4": {
-        "verdict": "keep",
-        "reason": "BCQuality is a shared set of AL code quality rules and best practices used during code review, which matches this section.",
-        "at": "2026-11-07T01:02:43.711Z",
+        "reason": "About benchmarking AI coding agents, not about best practices for writing AL code.",
+        "at": "2026-11-24T01:03:05.577Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/03/14/context-engineering-the-thing-almost-nobody-is-actually-talking-about/@1756ce6e0d673c86": {
         "verdict": "drop",
-        "reason": "It is about context engineering for AI agents, not AL coding best practices.",
-        "at": "2026-11-07T01:02:43.711Z",
+        "reason": "About context engineering for AI agents, not about AL code best practices.",
+        "at": "2026-11-24T01:03:05.577Z",
         "v": 2
       },
       "post/vjeko-com/https://vjeko.com/2026/07/01/what-to-do-in-the-age-of-code-printing/@d40e6ff34394e4e3": {
         "verdict": "drop",
-        "reason": "It is about how teams organise AI code generation, not AL code best practices.",
-        "at": "2026-11-07T01:02:43.711Z",
+        "reason": "Discusses how to organize teams around AI code generation, not AL coding practices.",
+        "at": "2026-11-24T01:03:05.577Z",
+        "v": 2
+      },
+      "video/kbRTIWH-nio@f5fd6e979492198c": {
+        "verdict": "drop",
+        "reason": "About the Business Foundation and No. Series module, an application feature this section does not document.",
+        "at": "2026-11-24T01:03:05.577Z",
         "v": 2
       }
     },
@@ -10383,22 +10485,34 @@
       }
     },
     "topic/dev-itpro/integration": {
-      "post/olofsimren-com/3928@389a1a7eeaf31df1": {
+      "post/demiliani-com/13215@b33389a4c90d9af4": {
+        "verdict": "keep",
+        "reason": "Part of the post covers integration architecture, recommending APIs and events instead of database connections or polling, which matches the section's web services and events topics.",
+        "at": "2026-11-24T01:03:07.920Z",
+        "v": 2
+      },
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3190647871313162275@6c07339aaa089f20": {
         "verdict": "drop",
-        "reason": "A manufacturing customization case study whose one custom UPS interface doesn't explain any integration capability this section documents.",
-        "at": "2026-10-30T08:06:42.233Z",
+        "reason": "A conference announcement that does not explain or discuss any Business Central integration capability.",
+        "at": "2026-11-24T01:03:07.920Z",
         "v": 2
       },
-      "video/gAzmWJg9Z5g@e97444afdd7ad34a": {
-        "verdict": "keep",
-        "reason": "Directly covers the integration documentation areas this section contains (M365, Power Platform, Dataverse, Azure, web services).",
-        "at": "2026-10-30T08:06:42.233Z",
+      "post/yzhums-com/75614@709f19672ab74996": {
+        "verdict": "drop",
+        "reason": "About Microsoft's release roadmap process, not about integrating Business Central with other systems.",
+        "at": "2026-11-24T01:03:07.920Z",
         "v": 2
       },
-      "video/xqwJTCPD9tA@f87d41bca591a38c": {
+      "video/gAzmWJg9Z5g@13b9a6c2d94bb58a": {
         "verdict": "keep",
-        "reason": "Discusses integration patterns with external systems via business events, webhooks and messaging, which this section documents.",
-        "at": "2026-10-30T08:06:42.233Z",
+        "reason": "Walks through the integration overview documentation and its subtopics: Microsoft 365, Power Platform, Dataverse, Azure and web services.",
+        "at": "2026-11-24T01:03:07.920Z",
+        "v": 2
+      },
+      "video/xqwJTCPD9tA@238bec66ecccec25": {
+        "verdict": "keep",
+        "reason": "Covers integration design patterns in Business Central, including webhooks, business events, polling, idempotency and integration message tables.",
+        "at": "2026-11-24T01:03:07.920Z",
         "v": 2
       }
     },

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-23T00:57:44.197Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -172,6 +172,7 @@ links:
     - change/bcquality/156
     - change/bcquality/157
     - change/bcquality/276
+    - change/bcquality/281
 learn_toc_path:
   - Development
   - Rules, guidelines, and best practices
@@ -234,5 +235,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../changes/bcquality/156.md) (code change): "Adds 17 AL/BC knowledge articles with good and bad samples across style, data modeling, web services"
 - [#157 18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource](../../../changes/bcquality/157.md) (code change): "BCQuality adds 18 new knowledge articles covering data modeling, testing, style, security, error handling"
 - [#276 Minor consistency fixes: bc-version format, CI permissions, community skill retrieval](../../../changes/bcquality/276.md) (code change): "Minor consistency improvements to quality rules documentation"
+- [#281 fix: align READ domain examples and the event parameter addition article](../../../changes/bcquality/281.md) (code change): "corrected guidance on event parameter additions to align with AppSourceCop"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

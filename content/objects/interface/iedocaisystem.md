@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-23T00:49:55.504Z"
+  at: "2026-11-24T00:56:51.308Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8179738ec9318726d6f0ad4fe0bedb85e67ef04adc555812dabadb955fedcefe
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocAISystem.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocAISystem.Interface.al
     title: src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocAISystem.Interface.al (releases/29.x)
     date: null
-    commit: 6a9588a817c12a5d35d3e6c4ad40e29ecca88acf
+    commit: b42f520c380a64062ca700b5f5450acc436e5b05
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "IEDocAISystem" in EDocument (Microsoft.eServices.EDocument.Processing.AI). 3 public procedures. Introduced in BC29, still in BC30.
 
-EDocument · Microsoft.eServices.EDocument.Processing.AI · BC29-30 · [source at 6a9588a8](https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocAISystem.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Processing.AI · BC29-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocAISystem.Interface.al) · facts from BC29
 
 ## Properties
 

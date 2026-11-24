@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/14327",
+  "input_hash": "9059209607a1ddd11139620e076fab53e87b948054abb254a1b86bcdd07385b3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-24T01:03:39.668Z",
+  "issues": [
+    "Key point about the infotip schema implies this PR defines the output schema; the description says the fixture returns only {tableId, systemId, description} and the eval harness owns querying and formatting."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024849,
+    "changes_in_call": 6
+  }
+}

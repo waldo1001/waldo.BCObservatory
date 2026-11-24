@@ -12,7 +12,7 @@ review:
   at: "2026-11-22T01:00:22.433Z"
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -400,6 +400,7 @@ links:
   posts:
     - post/aardvarklabs-blog/4177
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-07-weekly-review-business-central-al-development-june-28-july-4-2026--3ba0f69570
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-11-business-central-trivia-recap-november-16-20-2026--559e69ed72
     - post/gerardorenteria-blog/13675
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-62-vs-code-al-themes--b6e93a2c5d
     - post/thatnavguy-com/https-thatnavguy-com-projects-al-pocket-tools--9c3084464c
@@ -437,7 +438,7 @@ coverage:
   learn: 523
   code: 78
   video: 1
-  blog: 5
+  blog: 6
   guideline: 0
 bc_forms:
   - 16
@@ -596,6 +597,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#87 Fix knowledge corpus integrity issues](../../changes/bcquality/87.md) (code change): "Dead knowledge and sample references in skill documentation were replaced with canonical current articles"
 - [Building the AL Exploration Tool I Always Wanted](../../posts/aardvarklabs-blog/4177.md) (community post): "A developer shares how they built a VS Code extension for exploring AL codebases visually"
 - [Weekly Review: Business Central AL Development – June 28–July 4, 2026](../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-weekly-review-business-central-al-development-june-28-july-4-2026--3ba0f69570.md) (community post): "This weekly review curates Business Central AL development posts"
+- [Business Central Trivia Recap: November 16–20, 2026](../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-11-business-central-trivia-recap-november-16-20-2026--559e69ed72.md) (community post): "Development category was hardest with 28 percent correct answers"
 - [📝 Adding Notes to Financial Report Lines 📊](../../posts/gerardorenteria-blog/13675.md) (community post): "AL extension adds line-level notes to financial reports; new fields added"
 - [BC Friday Tips #62 VS Code AL Themes](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-62-vs-code-al-themes--b6e93a2c5d.md) (community post): "The AL Language extension in VS Code includes built-in themes called Business Central Light and Business Central Dark"
 - [AL Pocket Tools](../../posts/thatnavguy-com/https-thatnavguy-com-projects-al-pocket-tools--9c3084464c.md) (community post): "provides utilities for Dynamics 365 Business Central developers"

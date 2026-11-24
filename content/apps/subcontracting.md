@@ -2,7 +2,7 @@
 id: app/subcontracting
 type: app
 title: Subcontracting
-summary: "Subcontracting (Microsoft.Manufacturing): 190 objects in BC29-30 (65 codeunits, 53 page extensions, 37 table extensions, 12 pages, 6 enums, ...); no Learn hub documents its objects yet."
+summary: "Subcontracting (Microsoft.Manufacturing): 191 objects in BC29-30 (66 codeunits, 53 page extensions, 37 table extensions, 12 pages, 6 enums, ...); no Learn hub documents its objects yet."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-28T10:46:30.808Z"
+  at: "2026-11-24T00:59:15.045Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ebaead0c79db958089df35b9f13ab7a46d90d586d7014b7a49d3065ef7da7e51
+  input_hash: f8675b58d566c349cc4be69d8c2fd4a0e59edbf8faf65be7f22526c72d11819a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/Subcontracting/app
@@ -207,6 +207,7 @@ links:
     - object/codeunit/20574
     - object/codeunit/20575
     - object/codeunit/20578
+    - object/codeunit/20579
     - object/enum/20500
     - object/enum/20501
     - object/enum/20503
@@ -236,9 +237,9 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 190
+  objects: 191
   by_type:
-    codeunit: 65
+    codeunit: 66
     pageextension: 53
     tableextension: 37
     page: 12
@@ -256,13 +257,13 @@ counts:
 
 # Subcontracting
 
-> Subcontracting (Microsoft.Manufacturing): 190 objects in BC29-30 (65 codeunits, 53 page extensions, 37 table extensions, 12 pages, 6 enums, ...); no Learn hub documents its objects yet.
+> Subcontracting (Microsoft.Manufacturing): 191 objects in BC29-30 (66 codeunits, 53 page extensions, 37 table extensions, 12 pages, 6 enums, ...); no Learn hub documents its objects yet.
 
 First-party app · folder `src/Apps/W1/Subcontracting/app` · namespace `Microsoft.Manufacturing` · BC29-30 · system manufacturing · facts from the code pillar and the joins, nothing machine-written
 
 ## Objects
 
-190 objects, by type.
+191 objects, by type.
 
 ### Tables (5)
 
@@ -406,7 +407,7 @@ First-party app · folder `src/Apps/W1/Subcontracting/app` · namespace `Microso
 |---|---|---|
 | 20500 | [Subc. Transfer Shipment](../objects/reportextension/20500.md) |  |
 
-### Codeunits (65)
+### Codeunits (66)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -475,6 +476,7 @@ First-party app · folder `src/Apps/W1/Subcontracting/app` · namespace `Microso
 | 20574 | [Subc. Item Tracking Ext](../objects/codeunit/20574.md) |  |
 | 20575 | [Subc. Invt. Put-away Ext](../objects/codeunit/20575.md) |  |
 | 20578 | [Subc. Attachment Details Ext.](../objects/codeunit/20578.md) |  |
+| 20579 | [Subc. Feature Telemetry](../objects/codeunit/20579.md) |  |
 
 ### Enums (6)
 

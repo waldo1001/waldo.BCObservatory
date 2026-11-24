@@ -12,7 +12,7 @@ review:
   at: "2026-10-24T00:55:42.877Z"
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,6 +79,7 @@ links:
   changes:
     - change/bcapps/13807
     - change/bcapps/14133
+    - change/bcapps/14297
     - change/bcapps/9734
 learn_toc_path:
   - Business functionality
@@ -152,6 +153,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#13807 [main] Bug 657914 Total Number of Supplies has incorrect type and tooltip in the VAT Report page of the German version.](../../../../../changes/bcapps/13807.md) (code change): "Total Number of Supplies field in the VAT Report page is corrected to display as a whole number"
 - [#14133 [29x] Total Number of Supplies has incorrect type and tooltip in the VAT Report page of the German version](../../../../../changes/bcapps/14133.md) (code change): "Total Number of Supplies field in German VAT Report now has correct data type"
+- [#14297 [master] Exporting the VAT Report using the new ELMA XML export the report status remains 'Released' instead of changing to 'Exported' in the German version.](../../../../../changes/bcapps/14297.md) (code change): "VAT report status remained 'Released' instead of changing to 'Exported' when exporting"
 - [#9734 [Master]-Performance issue when calculating the VAT advance return / VAT statement (Base Application, German environment) - Copy](../../../../../changes/bcapps/9734.md) (code change): "performance issue when calculating the VAT advance return / VAT statement"
 
 ## Business Central pages and reports

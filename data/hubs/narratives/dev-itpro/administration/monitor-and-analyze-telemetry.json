@@ -21,5 +21,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.022260000000000002
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-24T01:05:17.120Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the Power BI goals feature from the alerts page is left out. This is an omission, not an error.",
+      "Minor: '(61 pages)' in the key points is a count of pages in the knowledge base, not a fact about Business Central. It is accurate but adds little for agents.",
+      "Minor: the Telemetry Event IDs page says events are 'grouped by administrative purpose'. The narrative's grouping into application, client, lifecycle and runtime comes from that page's feature list, so it is supported."
+    ],
+    "input_hash": "5827db0c2e65778703ec1f3f64d74386374d38d9ff5348c69ab2f868cc23bd24",
+    "cost_usd": 0.052408
   }
 }

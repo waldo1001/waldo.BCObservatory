@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:22:28.202Z"
   flags: []
 generated:
-  at: "2026-11-19T00:53:46.759Z"
+  at: "2026-11-24T01:01:15.134Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -74,8 +74,7 @@ links:
   learn: []
   objects:
     - object/page/7230
-  features:
-    - feature/573613
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -120,12 +119,10 @@ chapters:
     title: Conclusion
 features:
   - name: Master Data Management Setup
-    status: preview
+    status: ga
     t: 46
     verified: true
-    status_source: roadmap
-    roadmap_ids:
-      - "573613"
+    status_source: video
   - name: Configuration Worksheet
     status: unclear
     t: 338
@@ -195,11 +192,9 @@ The first is Master Data Management Setup, which pulls data from a source compan
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Master Data Management Setup | preview (roadmap [Cross-environment Master Data Management](../features/573613.md)), demoed | [0:46](https://www.youtube.com/watch?v=BlkW7VC52c0&t=46s) | "we have right now available in Business Central in 2025 in October 2025" ([0:34](https://www.youtube.com/watch?v=BlkW7VC52c0&t=34s)) |
+| Master Data Management Setup | generally available, demoed | [0:46](https://www.youtube.com/watch?v=BlkW7VC52c0&t=46s) | "we have right now available in Business Central in 2025 in October 2025" ([0:34](https://www.youtube.com/watch?v=BlkW7VC52c0&t=34s)) |
 | Configuration Worksheet | status not stated, demoed | [5:38](https://www.youtube.com/watch?v=BlkW7VC52c0&t=338s) |  |
 | Configuration Packages | status not stated | [7:37](https://www.youtube.com/watch?v=BlkW7VC52c0&t=457s) |  |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

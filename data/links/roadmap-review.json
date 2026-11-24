@@ -145,148 +145,148 @@
     "573255": {
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-approve-reports.md@ed406eabf16dc696": {
         "verdict": "keep",
-        "reason": "Describes approvers reviewing compliance warnings and policy issues before approving, the approver-guidance part of the feature.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Documents approvers reviewing compliance warnings and policy issues during approval, the approver-guidance part of the feature.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-overview.md@22e0ea1082245014": {
         "verdict": "drop",
-        "reason": "General Expense Agent overview listing policy compliance only as a topic.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "General Expense Agent overview that only lists policy compliance as a topic.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-policy-compliance.md@5baba922dac40e13": {
         "verdict": "keep",
-        "reason": "Documents AI-assisted policy evaluation including background evaluation after submission and flagging.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Documents AI-assisted policy evaluation including background evaluation after submission and non-compliant flagging.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-approve-reports.md@1f45cc1f3227bb04": {
         "verdict": "drop",
         "reason": "Covers general approval and deterministic rule violations, not AI policy validation.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-categories-rules.md@371711c7d5364c33": {
         "verdict": "keep",
-        "reason": "Documents setting up expense policies with AI evaluation, the natural-language policy configuration.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Documents setting up natural-language expense policies with AI evaluation.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-setup.md@b05b520074189001": {
         "verdict": "keep",
-        "reason": "Setup page explicitly includes the AI-assisted policy evaluation setting.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Setup page explicitly covers enabling AI-assisted policy evaluation.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-submit-report.md@bc3c0f398897d31d": {
         "verdict": "drop",
-        "reason": "About creating and submitting reports and rule violations, not AI policy validation for approvers.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Covers submitter report creation and deterministic rule violations, not AI policy approval guidance.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/4TE8uwIi91k#6@4151766ef06f91dc": {
         "verdict": "drop",
-        "reason": "Covers mobile app approval, a different feature, and only touches on compliance flags.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "About the mobile approval experience, a different capability.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/ARKckFygbWQ#6@a609e2db11d837c2": {
         "verdict": "drop",
-        "reason": "Wave 1 rule-based compliance determination, not AI validation against natural-language policies.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "General wave 1 compliance check against rules, not AI natural-language policy validation.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/cVfZoDwKYpI#46@b12d4e66f615e2c7": {
         "verdict": "keep",
-        "reason": "Explains natural-language policies for business class, hotels and alcohol, the core of the feature.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Explains natural-language policies for business class, hotels, and alcohol as in the feature.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/cVfZoDwKYpI#9@b12d4e66f615e2c7": {
         "verdict": "drop",
-        "reason": "Generic description of a policy and rules engine, too general.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Generic policy and rules engine description, too general.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/egE6UdOfar0#6@7d8c675d2687bc19": {
         "verdict": "drop",
-        "reason": "Describes deterministic threshold rules, which this feature goes beyond.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Describes fixed-threshold compliance rules, not natural-language AI policies.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/egE6UdOfar0#7@7d8c675d2687bc19": {
         "verdict": "keep",
-        "reason": "Announces a planned policy-based approval mechanism for business class, hotel and alcohol policies.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Announces the planned policy-based approval mechanism handling business class, hotel, and alcohol policies.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
-      "video/M0IzeLSn7qU#0@ebdf2cffeba1a5d7": {
+      "video/M0IzeLSn7qU#0@9f5cb02d6d7f5207": {
         "verdict": "keep",
-        "reason": "Demonstrates enabling AI-driven approval policies that flag expenses for approvers without blocking them.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Directly shows AI-driven approval policies that flag expenses for approvers without blocking approval.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/o94V_lF8oNM#0@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Shows the toggle that uses AI to evaluate free-text policies to help approvers.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Shows the toggle to evaluate free-text policies with AI to help approvers.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/o94V_lF8oNM#1@bb33c215eabcc2f5": {
         "verdict": "drop",
-        "reason": "Pre-submission self-check by submitters is a different capability from post-submission approval validation.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Pre-submission checks by submitters are a different capability from post-submission approval validation.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/o94V_lF8oNM#2@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Shows flagging of reports with potential policy non-compliance for approver attention.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Shows the flagged-policies status requiring approver attention.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/o94V_lF8oNM#3@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Demonstrates free-text policies by category that AI evaluates against submitted expenses.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Shows free-text policies by category analyzed by AI against submitted expenses.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/o94V_lF8oNM#4@bb33c215eabcc2f5": {
         "verdict": "drop",
-        "reason": "Submitter-initiated pre-submission check, not the post-submission approver feature.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Submitter-initiated pre-submission check, a different capability.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/o94V_lF8oNM#6@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Explains how policy evaluations are tracked and re-evaluated when expenses change, a behavior of the feature.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Explains policy evaluation versioning and re-evaluation behavior of the feature.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/o94V_lF8oNM#7@bb33c215eabcc2f5": {
-        "verdict": "keep",
-        "reason": "Describes approvers overriding policy violations with a reason, which keeps approvers in control.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "verdict": "drop",
+        "reason": "Describes an upcoming separate override-reason requirement, not this feature.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/o94V_lF8oNM#8@bb33c215eabcc2f5": {
         "verdict": "keep",
-        "reason": "Explains when the AI policy checks run or are skipped, a behavior of the feature.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Explains how the AI policy check decides when to run, a behavior of the feature.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/pjML7lXSsd0#2@e7c0638dcaf3f932": {
         "verdict": "keep",
-        "reason": "Describes the agent checking approval compliance against human-language company policies.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Describes the agent checking compliance against human-language policies in the approval process.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/qZALauRY_So#0@d587f11310a2bc0d": {
         "verdict": "drop",
-        "reason": "Generic approval workflow with notifications, not AI policy validation.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Generic approval workflow without AI policy validation.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/qZALauRY_So#1@d587f11310a2bc0d": {
         "verdict": "drop",
-        "reason": "Pre-submission AI suggestions, a different and earlier capability.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "AI suggestions before submission, not post-submission approval validation.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/qZALauRY_So#4@d587f11310a2bc0d": {
         "verdict": "drop",
-        "reason": "Approval notifications are unrelated to AI policy validation.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Only about approval notifications.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/qZALauRY_So#5@d587f11310a2bc0d": {
         "verdict": "drop",
-        "reason": "Reject and send-back actions are the existing approval workflow, not this feature.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Only about rejecting and resubmitting reports.",
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/tj1vvsmAMVs#5@8bff31977f8f95e5": {
         "verdict": "keep",
         "reason": "Shows AI checking expenses against human-readable travel policies.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "at": "2026-11-24T01:01:15.129Z"
       },
       "video/tj1vvsmAMVs#6@8bff31977f8f95e5": {
         "verdict": "keep",
-        "reason": "Shows non-blocking policy flags that help approvers make informed decisions.",
-        "at": "2026-11-18T00:53:46.421Z"
+        "reason": "Shows policy flags helping approvers decide without hard blocking.",
+        "at": "2026-11-24T01:01:15.129Z"
       }
     },
     "573256": {
@@ -449,49 +449,49 @@
     },
     "573260": {
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-approve-reports.md@ed406eabf16dc696": {
-        "verdict": "drop",
-        "reason": "General approval page that doesn't mention interim approvers.",
-        "at": "2026-10-30T08:01:39.544Z"
-      },
-      "video/M0IzeLSn7qU#3@ebdf2cffeba1a5d7": {
         "verdict": "keep",
-        "reason": "Directly describes interim approvers who review for compliance before final approval.",
-        "at": "2026-10-30T08:01:39.544Z"
+        "reason": "The Learn page explicitly covers interim approval workflows for expense reports.",
+        "at": "2026-11-24T01:01:03.213Z"
+      },
+      "video/M0IzeLSn7qU#3@9f5cb02d6d7f5207": {
+        "verdict": "keep",
+        "reason": "It describes an interim approver who reviews for compliance before the final approver can act.",
+        "at": "2026-11-24T01:01:03.213Z"
       },
       "video/rSGCNMIBcpc#2@f0792bb830d0cf7a": {
         "verdict": "drop",
-        "reason": "Covers basic report submission and notification, not interim approval.",
-        "at": "2026-10-30T08:01:39.544Z"
+        "reason": "It covers general report submission and notification, not interim approval.",
+        "at": "2026-11-24T01:01:03.213Z"
       },
       "video/rSGCNMIBcpc#3@f0792bb830d0cf7a": {
         "verdict": "drop",
-        "reason": "Covers the general approver email notification, which is the existing single-approver flow.",
-        "at": "2026-10-30T08:01:39.544Z"
+        "reason": "It covers the general approver email notification, not interim approvers.",
+        "at": "2026-11-24T01:01:03.213Z"
       },
       "video/rSGCNMIBcpc#4@f0792bb830d0cf7a": {
         "verdict": "drop",
-        "reason": "Covers general report review by an approver, not interim approval.",
-        "at": "2026-10-30T08:01:39.544Z"
+        "reason": "It shows general report review by an approver, not the interim approval step.",
+        "at": "2026-11-24T01:01:03.213Z"
       },
       "video/rSGCNMIBcpc#5@f0792bb830d0cf7a": {
         "verdict": "drop",
-        "reason": "Covers the existing send-back capability, not interim approval.",
-        "at": "2026-10-30T08:01:39.544Z"
+        "reason": "It shows the general send-back-with-comments capability, not interim approval.",
+        "at": "2026-11-24T01:01:03.213Z"
       },
       "video/rSGCNMIBcpc#6@f0792bb830d0cf7a": {
         "verdict": "drop",
-        "reason": "Covers general approval and posting, not interim approval.",
-        "at": "2026-10-30T08:01:39.544Z"
+        "reason": "It covers general approval and posting by a single approver.",
+        "at": "2026-11-24T01:01:03.213Z"
       },
       "video/rSGCNMIBcpc#8@f0792bb830d0cf7a": {
         "verdict": "drop",
-        "reason": "Covers resubmission after revision, a different capability.",
-        "at": "2026-10-30T08:01:39.544Z"
+        "reason": "It covers resubmitting after revision, which is unrelated to interim approvers.",
+        "at": "2026-11-24T01:01:03.213Z"
       },
       "video/tj1vvsmAMVs#8@8bff31977f8f95e5": {
         "verdict": "keep",
-        "reason": "Announces that the approval workflow now supports interim approvers.",
-        "at": "2026-10-30T08:01:39.544Z"
+        "reason": "It announces that the approval workflow now supports interim approvers.",
+        "at": "2026-11-24T01:01:03.213Z"
       }
     },
     "573261": {
@@ -1171,70 +1171,70 @@
     "573306": {
       "docs/learn-smb-docs/business-central/finance-register-excise-tax.md@fb73fa6e528ec923": {
         "verdict": "keep",
-        "reason": "Borderline: the page's feature list names 'Multiple tax type assignment', which appears to be assigning several excise tax types, as this feature does.",
-        "at": "2026-11-19T00:53:26.355Z"
+        "reason": "The page lists 'Multiple tax type assignment', which matches assigning several excise tax types, though it doesn't say per item.",
+        "at": "2026-11-24T01:01:06.293Z"
       },
       "docs/learn-smb-docs/business-central/finance-set-up-excise-tax.md@d5fdfab1ecbcd9ef": {
         "verdict": "drop",
-        "reason": "Covers general excise setup and assigning a tax to an item, with nothing about several duties per item.",
-        "at": "2026-11-19T00:53:26.355Z"
+        "reason": "Describes general excise tax setup and assigning taxes to items, not multiple duties per item.",
+        "at": "2026-11-24T01:01:06.293Z"
       },
       "video/Cj_n5x3gN_Y#0@d6622cfdee3b73af": {
         "verdict": "drop",
-        "reason": "Introduces the excise tax framework in general, not multiple duties on one item.",
-        "at": "2026-11-19T00:53:26.355Z"
+        "reason": "A general overview of the excise tax framework, too broad to show multiple duties per item.",
+        "at": "2026-11-24T01:01:06.293Z"
       },
       "video/Cj_n5x3gN_Y#1@d6622cfdee3b73af": {
         "verdict": "drop",
-        "reason": "The multiple calculation models (CBAM, EPR) in the excise journal are a different capability.",
-        "at": "2026-11-19T00:53:26.355Z"
+        "reason": "Covers excise journal calculation models (CBAM, EPR), a different capability.",
+        "at": "2026-11-24T01:01:06.293Z"
       },
       "video/Cj_n5x3gN_Y#3@d6622cfdee3b73af": {
         "verdict": "drop",
-        "reason": "Entry permissions by transaction type are a different capability.",
-        "at": "2026-11-19T00:53:26.355Z"
+        "reason": "Covers entry permissions by transaction type, not multiple duties per item.",
+        "at": "2026-11-24T01:01:06.293Z"
       },
       "video/Cj_n5x3gN_Y#4@d6622cfdee3b73af": {
         "verdict": "drop",
-        "reason": "Shows setting up duty rates for items and fixed assets, not several duties on one item.",
-        "at": "2026-11-19T00:53:26.355Z"
+        "reason": "Covers fixed duty rates for items and fixed assets, not several duties on one item.",
+        "at": "2026-11-24T01:01:06.293Z"
       },
       "video/Cj_n5x3gN_Y#6@d6622cfdee3b73af": {
         "verdict": "drop",
-        "reason": "Describes the general journal calculation workflow and is too general to show this feature.",
-        "at": "2026-11-19T00:53:26.355Z"
+        "reason": "Describes the general excise journal calculation workflow, not this feature.",
+        "at": "2026-11-24T01:01:06.293Z"
       },
       "video/kD8kX14VVZE#5@3445b36db872beb4": {
         "verdict": "drop",
-        "reason": "Covers the sustainability CBAM/EPR framework, which only shares the topic.",
-        "at": "2026-11-19T00:53:26.355Z"
+        "reason": "Covers the sustainability tax framework for CBAM and EPR, a different topic.",
+        "at": "2026-11-24T01:01:06.293Z"
       },
       "video/lcpk-gPfGQU#6@2da3814d4b926994": {
         "verdict": "drop",
-        "reason": "Shows the older 2025 setup of excise taxes on item cards, without multiple duties per item.",
-        "at": "2026-11-19T00:53:26.355Z"
+        "reason": "Describes the older 2025 wave 2 item-based setup, not multiple duties per item.",
+        "at": "2026-11-24T01:01:06.293Z"
       },
-      "video/N_J1HB_fUCM#0@35122e58438517de": {
+      "video/N_J1HB_fUCM#0@f043d1f13254135e": {
         "verdict": "keep",
-        "reason": "Directly shows adding multiple excise taxes to a single item through a new excise taxes page.",
-        "at": "2026-11-19T00:53:26.355Z"
+        "reason": "Directly announces adding multiple excise taxes to a single item through a new excise taxes page.",
+        "at": "2026-11-24T01:01:06.293Z"
       }
     },
     "573307": {
       "docs/learn-smb-docs/business-central/LocalFunctionality/India/Posting-No-series-setup.md@a6bc11cd8cb6b712": {
         "verdict": "drop",
-        "reason": "This is about conditional, location-based number series in the Indian localization, not vendor-specific series for self-billing.",
-        "at": "2026-11-18T00:53:28.923Z"
+        "reason": "This page covers conditional posting number series by location in the Indian localization, not vendor-specific series for self-billing.",
+        "at": "2026-11-24T01:01:03.493Z"
       },
       "video/8VRtBLNAOiI#2@83473660a2166c3f": {
         "verdict": "drop",
-        "reason": "It covers the earlier single self-billing number series in Purchases & Payables Setup, not the new per-vendor assignment.",
-        "at": "2026-11-18T00:53:28.923Z"
+        "reason": "This shows the older single, global self-billing number series in Purchase and Payables Setup (wave 1), not series assigned per vendor.",
+        "at": "2026-11-24T01:01:03.493Z"
       },
-      "video/N_J1HB_fUCM#5@35122e58438517de": {
+      "video/N_J1HB_fUCM#5@f043d1f13254135e": {
         "verdict": "keep",
-        "reason": "It shows choosing a number series for each self-billing vendor, falling back to the setup default when none is chosen.",
-        "at": "2026-11-18T00:53:28.923Z"
+        "reason": "This directly announces choosing a number series for each self-billing vendor, with a fallback to the setup default.",
+        "at": "2026-11-24T01:01:03.493Z"
       }
     },
     "573308": {
@@ -1554,38 +1554,43 @@
     "573313": {
       "video/D_Lur52IrIg#9@1d309b6a70eb87de": {
         "verdict": "keep",
-        "reason": "Directly describes actions inheriting their tooltip from the page's ToolTip property.",
-        "at": "2026-11-21T00:52:34.841Z"
+        "reason": "Directly says actions now inherit their tooltip from the page's ToolTip property.",
+        "at": "2026-11-24T01:01:00.329Z"
       },
       "video/eUkx_VCcyoU#6@c5d076a80d53f7d7": {
         "verdict": "keep",
-        "reason": "Describes report tooltips that page actions can inherit, which is the report half of this feature.",
-        "at": "2026-11-21T00:52:34.841Z"
+        "reason": "Covers report tooltips being inherited by page actions, which is the report half of the feature.",
+        "at": "2026-11-24T01:01:00.329Z"
       },
-      "video/M1S2_bgLd3Q#9@4581f7d97011cd32": {
+      "video/M1S2_bgLd3Q#9@b48a0d1bb3ed1101": {
         "verdict": "drop",
         "reason": "Covers report columns inheriting tooltips from table fields, which is a different capability.",
-        "at": "2026-11-21T00:52:34.841Z"
+        "at": "2026-11-24T01:01:00.329Z"
+      },
+      "video/OLN-2Ec2GMM#6@f695e7366814b10c": {
+        "verdict": "drop",
+        "reason": "Covers table-field tooltips inherited by pages, not page or report tooltips inherited by actions.",
+        "at": "2026-11-24T01:01:00.329Z"
       },
       "video/tzeO0mc8RJo#2@065597581ae2ee24": {
         "verdict": "drop",
-        "reason": "Covers table-level tooltips reused on pages, an older and different capability.",
-        "at": "2026-11-21T00:52:34.841Z"
+        "reason": "Covers table-level tooltips reused on pages, which is a different, older capability.",
+        "at": "2026-11-24T01:01:00.329Z"
       },
       "video/Z0K38pXvjWk#0@b7524f859e6e9141": {
         "verdict": "keep",
-        "reason": "Shows the page-level ToolTip property that replaces repeating tooltips on individual actions, which is part of this feature.",
-        "at": "2026-11-21T00:52:34.841Z"
+        "reason": "Explains the page-level ToolTip property that lets tooltips be defined once instead of on each action.",
+        "at": "2026-11-24T01:01:00.329Z"
       },
       "video/Z0K38pXvjWk#1@b7524f859e6e9141": {
         "verdict": "keep",
-        "reason": "Explicitly demonstrates navigation actions inheriting tooltips from the page object.",
-        "at": "2026-11-21T00:52:34.841Z"
+        "reason": "Shows actions inheriting the tooltip from the page object when they don't define their own.",
+        "at": "2026-11-24T01:01:00.329Z"
       },
       "video/Z0K38pXvjWk#2@b7524f859e6e9141": {
         "verdict": "keep",
-        "reason": "Explains how a tooltip defined on the page carries to every place that page is referenced, which is the propagation behavior of this feature.",
-        "at": "2026-11-21T00:52:34.841Z"
+        "reason": "Explains the benefit: a tooltip defined on the page carries over to every place that references the page.",
+        "at": "2026-11-24T01:01:00.329Z"
       }
     },
     "573314": {
@@ -3004,25 +3009,35 @@
       }
     },
     "573340": {
-      "video/5OZ0g5IgC8Q#6@d7d49cdecbd6a900": {
-        "verdict": "keep",
-        "reason": "Demonstrates the new setting that uses the Shopify order number as the Business Central sales document number.",
-        "at": "2026-11-13T00:56:37.456Z"
+      "video/NMO822Jf_4E#0@15c5331ae954c0d6": {
+        "verdict": "drop",
+        "reason": "Presentment currency support is a different capability from order numbering, contact review, or return document type.",
+        "at": "2026-11-24T01:00:58.821Z"
+      },
+      "video/NMO822Jf_4E#1@15c5331ae954c0d6": {
+        "verdict": "drop",
+        "reason": "The currency handling field on the shop card belongs to the presentment currency feature, not this one.",
+        "at": "2026-11-24T01:00:58.821Z"
+      },
+      "video/NMO822Jf_4E#2@15c5331ae954c0d6": {
+        "verdict": "drop",
+        "reason": "The processed currency field relates to currency handling, not to this feature's settings.",
+        "at": "2026-11-24T01:00:58.821Z"
       },
       "video/StIVhsnOHWY#12@13a821aa5b7fa90a": {
         "verdict": "drop",
-        "reason": "Covers the orders-to-import table for selective import, a different capability.",
-        "at": "2026-11-13T00:56:37.456Z"
+        "reason": "The orders-to-import table is about selective order import for synchronization, which is a different capability.",
+        "at": "2026-11-24T01:00:58.821Z"
       },
       "video/StIVhsnOHWY#13@13a821aa5b7fa90a": {
         "verdict": "drop",
-        "reason": "Covers the import selected order action, unrelated to sales document creation controls.",
-        "at": "2026-11-13T00:56:37.456Z"
+        "reason": "The import selected order action is a different synchronization capability.",
+        "at": "2026-11-24T01:00:58.821Z"
       },
       "video/YSDfDjrMUb0#9@383757c6496e1047": {
         "verdict": "keep",
-        "reason": "Mentions the new 'use Shopify order number' setting for sales documents, a part of this feature.",
-        "at": "2026-11-13T00:56:37.456Z"
+        "reason": "It describes the new 'use Shopify order number' setting that puts the Shopify order number on sales documents, which is part of this feature.",
+        "at": "2026-11-24T01:00:58.821Z"
       }
     },
     "573341": {
@@ -4563,23 +4578,23 @@
     "573371": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-page-discoverability.md@1de393963902446e": {
         "verdict": "drop",
-        "reason": "General page discoverability guidance for developers; doesn't mention recent searches in Tell Me.",
-        "at": "2026-10-30T08:03:08.338Z"
+        "reason": "General page discoverability guidance for Tell Me searchability; nothing about recent searches.",
+        "at": "2026-11-24T01:00:56.206Z"
       },
-      "video/H5EuObmeF4o#2@8dd998b26c06c6f7": {
+      "video/H5EuObmeF4o#2@81bcc46a2071446e": {
         "verdict": "drop",
-        "reason": "Covers AI-powered advanced search in Tell Me, which is a different capability from showing recent searches.",
-        "at": "2026-10-30T08:03:08.338Z"
+        "reason": "Describes AI-powered advanced Tell Me search, a different capability than showing recent searches.",
+        "at": "2026-11-24T01:00:56.206Z"
       },
-      "video/M1S2_bgLd3Q#5@4581f7d97011cd32": {
+      "video/M1S2_bgLd3Q#5@b48a0d1bb3ed1101": {
         "verdict": "drop",
-        "reason": "Covers semantic metadata search, a different capability that doesn't involve recent searches.",
-        "at": "2026-10-30T08:03:08.338Z"
+        "reason": "Semantic similarity search on metadata is a different capability from recently searched items.",
+        "at": "2026-11-24T01:00:56.206Z"
       },
       "video/wS1wVBhNafk#0@826c4d83842e14dd": {
         "verdict": "keep",
-        "reason": "Shows the list of recent Tell Me searches that appears without typing, which is exactly this feature.",
-        "at": "2026-10-30T08:03:08.338Z"
+        "reason": "Directly demonstrates the recent searches list shown in Tell Me.",
+        "at": "2026-11-24T01:00:56.206Z"
       }
     },
     "573372": {
@@ -4593,102 +4608,102 @@
       "docs/learn-smb-docs/business-central/finance-sustainability-journal.md@5dfe7dfe2f181447": {
         "verdict": "drop",
         "reason": "General Learn page listing journal formulas and purchase document emissions separately; does not describe formulas on purchase lines.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-purchase.md@b274b53cf9eb2e3b": {
         "verdict": "drop",
         "reason": "Covers the existing Use Emissions in Purchase Documents capability and value chain tracking, not formula-based calculation.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-setup.md@97eb108e95c84ff1": {
         "verdict": "drop",
         "reason": "Value chain setup and carbon tracking methods are a different capability.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "video/_ynMUzh956w#2@2e9b1f36e27e6884": {
         "verdict": "drop",
         "reason": "Describes the older journal formula capability, not formulas in purchase documents.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "video/_ynMUzh956w#9@2e9b1f36e27e6884": {
         "verdict": "drop",
         "reason": "Emission factors in subcategories for journal calculations are an older capability.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "video/6d6iajwQQ-c#1@024dc05d4d6b6129": {
         "verdict": "drop",
         "reason": "Value chain tracking in production is a different capability.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "video/6d6iajwQQ-c#3@024dc05d4d6b6129": {
         "verdict": "drop",
         "reason": "Work center emissions are unrelated to purchase document formulas.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "video/6d6iajwQQ-c#7@024dc05d4d6b6129": {
         "verdict": "drop",
         "reason": "Routing emissions tracking is a different capability.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "video/JBGuaqk5nXk#0@30787e72d8f58410": {
         "verdict": "drop",
         "reason": "Copilot calculation in journals is a different feature.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "video/JBGuaqk5nXk#2@30787e72d8f58410": {
         "verdict": "drop",
         "reason": "Copilot emission factor suggestions are a different feature.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "video/JBGuaqk5nXk#5@30787e72d8f58410": {
         "verdict": "drop",
         "reason": "Copilot description refinement is unrelated.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "video/JBGuaqk5nXk#6@30787e72d8f58410": {
         "verdict": "drop",
         "reason": "Copilot formula explanations are a different feature.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "video/JoGW2xlIq0I#3@8aba9c28d8594cf1": {
         "verdict": "drop",
         "reason": "Assembly value chain collection from posted invoices is a different capability.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "video/lcy36b9GS38#1@437cd523065442b8": {
         "verdict": "drop",
         "reason": "Scope 3 value chain automation overview is a different capability.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
-      "video/NYG4pOtW-Xw#11@8ef20b3a7c778cb9": {
+      "video/NYG4pOtW-Xw#11@a46e930747af874b": {
         "verdict": "drop",
         "reason": "Manual emissions entry on purchase invoices is the older capability, not formulas.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
-      "video/NYG4pOtW-Xw#2@8ef20b3a7c778cb9": {
+      "video/NYG4pOtW-Xw#2@a46e930747af874b": {
         "verdict": "drop",
         "reason": "Manual emissions entry on purchase documents is the older capability, not formulas.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "video/Sc8eGyMkBTA#0@66065a06d447af10": {
         "verdict": "drop",
         "reason": "Project value chain automation is a different capability.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "video/Sc8eGyMkBTA#5@66065a06d447af10": {
         "verdict": "drop",
         "reason": "Value chain tracking setup field is a different capability.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "video/t_UXxbvgnHY#0@13bd58c8ea9ff88a": {
         "verdict": "keep",
         "reason": "Directly announces sustainability formulas in purchase orders and invoices, working the same way as in journals.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       },
       "video/uan4dV9eVCA#4@1c46376c931ac53e": {
         "verdict": "drop",
         "reason": "Describes formulas generally (journals), not their use on purchase documents.",
-        "at": "2026-11-22T00:54:20.835Z"
+        "at": "2026-11-24T01:00:51.012Z"
       }
     },
     "573375": {
@@ -5122,26 +5137,48 @@
         "at": "2026-11-23T00:54:01.800Z"
       }
     },
+    "573613": {
+      "video/BlkW7VC52c0#0@e115a72727398d56": {
+        "verdict": "drop",
+        "reason": "It shows the existing Master Data Management feature, which syncs data between companies, not the new sync across environments.",
+        "at": "2026-11-24T01:00:55.857Z"
+      },
+      "video/N_J1HB_fUCM#7@f043d1f13254135e": {
+        "verdict": "keep",
+        "reason": "It directly announces cross-environment master data management, the capability this roadmap feature adds.",
+        "at": "2026-11-24T01:00:55.857Z"
+      }
+    },
     "573614": {
       "video/Cj_n5x3gN_Y#0@d6622cfdee3b73af": {
         "verdict": "drop",
-        "reason": "General introduction to the excise tax framework, not specific to the specific/ad valorem/hybrid calculation methods.",
-        "at": "2026-11-19T00:53:25.212Z"
+        "reason": "This segment gives a general introduction to the wave 1 excise tax framework and doesn't mention the new calculation methods.",
+        "at": "2026-11-24T01:00:59.941Z"
       },
       "video/Cj_n5x3gN_Y#1@d6622cfdee3b73af": {
-        "verdict": "keep",
-        "reason": "Shows multiple calculation models and configuring how excise types are calculated, the core of this feature.",
-        "at": "2026-11-19T00:53:25.212Z"
+        "verdict": "drop",
+        "reason": "It describes the wave 1 excise journal and its CBAM and EPR models, which is an earlier capability, not the specific, ad valorem or hybrid methods.",
+        "at": "2026-11-24T01:00:59.941Z"
       },
       "video/Cj_n5x3gN_Y#2@d6622cfdee3b73af": {
-        "verdict": "keep",
-        "reason": "Demonstrates the different tax bases used in excise calculations, an explicit part of this feature.",
-        "at": "2026-11-19T00:53:25.212Z"
+        "verdict": "drop",
+        "reason": "The six tax base models are part of the earlier wave 1 framework, not the new flexible calculation methods.",
+        "at": "2026-11-24T01:00:59.941Z"
       },
       "video/Cj_n5x3gN_Y#6@d6622cfdee3b73af": {
         "verdict": "drop",
-        "reason": "Describes the excise journal processing workflow rather than the calculation methods themselves.",
-        "at": "2026-11-19T00:53:25.212Z"
+        "reason": "It describes the general wave 1 excise journal workflow, not the new calculation methods.",
+        "at": "2026-11-24T01:00:59.941Z"
+      },
+      "video/N_J1HB_fUCM#3@f043d1f13254135e": {
+        "verdict": "keep",
+        "reason": "It announces the new ad valorem method, which calculates excise as a percentage of the taxable amount, and that method is a named part of this feature.",
+        "at": "2026-11-24T01:00:59.941Z"
+      },
+      "video/N_J1HB_fUCM#4@f043d1f13254135e": {
+        "verdict": "keep",
+        "reason": "It announces the hybrid method that combines specific and ad valorem parts, and that method is a named part of this feature.",
+        "at": "2026-11-24T01:00:59.941Z"
       }
     },
     "574126": {

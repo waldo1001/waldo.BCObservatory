@@ -10,18 +10,17 @@ tags:
   - community
   - knowledge assessment
   - user skills
-system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-24T01:03:16.845Z"
   flags: []
 generated:
-  at: "2026-11-24T00:14:08.221Z"
+  at: "2026-11-24T00:13:35.655Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: ca6b7aeaa24d2c3588d5f7e857a38ee07cea38e017e3a314d97ca78099f7d817
+  input_hash: a5ee6fe558bf4805923993222d254f5c69a4a9d43977d470e00ff6adc63d2c08
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/11/business-central-trivia-recap-november-16-20-2026/
@@ -67,25 +66,23 @@ quotes:
   - text: 52 percent of the answers were correct, the same as last week.
     why_it_matters: Indicates steady community engagement and consistent knowledge levels across weekly trivia events
 code_objects_mentioned: []
-systems:
-  - development
-  - reporting
+systems: []
 versions_mentioned: []
 preview:
   embeddable: true
   frame_url: null
-  image: null
-  image_alt: null
-  image_w: null
-  image_h: null
-  site_name: null
-  favicon: null
-  probed_at: "2026-11-19T00:52:03.525Z"
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/11/business-central-trivia-recap-november-16-20-2026-social.jpg
+  image_alt: "Business Central Trivia Recap: November 16–20, 2026 – DvlprLife.com"
+  image_w: 1200
+  image_h: 630
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-11-24T01:00:16.088Z"
 ---
 
 # Business Central Trivia Recap: November 16–20, 2026
 
-[Read the post](https://www.dvlprlife.com/2026/11/business-central-trivia-recap-november-16-20-2026/) · DvlprLife (Brad Prendergast) · 2026-11-23 · 204 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://www.dvlprlife.com/2026/11/business-central-trivia-recap-november-16-20-2026/) · DvlprLife (Brad Prendergast) · 2026-11-23 · 204 words · tier community · reviewed (checked by Opus)
 
 > Business Central Trivia event held November 16-20, 2026 with 250 questions and 1,398 answers showing 52% correct rate. Development and Navigation categories presented the highest and lowest difficulty levels respectively.
 
@@ -101,9 +98,5 @@ preview:
 
 - "Development was the hardest category again, and Navigation and User Interface was the easiest again." (Shows consistent difficulty patterns across trivia rounds, helping identify areas where users struggle most)
 - "52 percent of the answers were correct, the same as last week." (Indicates steady community engagement and consistent knowledge levels across weekly trivia events)
-
-## Context
-
-- Features: Business Central Trivia, daily questions, category difficulty tracking, performance statistics
 
 Source: DvlprLife, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

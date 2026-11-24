@@ -1,0 +1,27 @@
+{
+  "week": "2026-W48",
+  "input_hash": "1b53b78386522c7b62dfc9ca9991a58f7bfe11911b909a3149d441fdb03fbe2c",
+  "text": "All twelve pull requests this week landed in microsoft/BCApps; nine change behaviour and none is breaking. #14297 makes the German ELMA XML export set the VAT report status to Exported instead of leaving it Released. #13854 stops the Set G/L Account No. function from running over all VAT entries, so the VAT Entries page and the G/L - VAT Reconciliation report respect user filters. #14225 fixes a regression so Get Return Shipment Lines works again on purchase credit memos for non-inventory items. #13904 adds unposted purchase return orders and credit memos to Find Entries on the Navigate page. In warehouse and manufacturing, #14013 stops stale pick bins from reaching item tracking on Transfer and Purchase-Return shipments, and #13206 removes the serial number error when reversing a Capacity Ledger Entry. #9193 locks the Code labels on default Transformation Rule records against translation. Two features change behaviour: #14400 gives cross-environment master data synchronization clear connection and permission errors, and #13673 exposes the active expense approver in the Expense Reports API, adds an Open Expense App action and obsoletes an unused FlowFilter. Three changes have no behaviour impact: #14405 renumbers three Expense Agent codeunits to avoid collisions with deprecated country apps, #14423 makes the FI depreciation posting buffer temporary, and #14327 exposes Payables Agent infotip sources through test fixtures only.",
+  "changes": 12,
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.020718,
+  "at": "2026-11-24T00:13:35.655Z",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-11-24T01:04:13.215Z",
+    "verdict": "fix",
+    "issues": [
+      "The paragraph says \"Four changes have no behaviour impact\" but only three pull requests in the week have that flag: #14405, #14423 and #14327. It also lists only three.",
+      "The paragraph runs to about 230 words, which is over the 220-word limit.",
+      "The #14225 wording (\"restores ... which was a regression\") is unclear. The pull request fixes a regression, so I reworded it to say that directly.",
+      "Everything else checks out: the twelve numbers, what each pull request did, nine behaviour changes, no breaking changes, and two features that change behaviour (#14400, #13673)."
+    ],
+    "input_hash": "1b53b78386522c7b62dfc9ca9991a58f7bfe11911b909a3149d441fdb03fbe2c",
+    "cost_usd": 0.103752,
+    "applied": [
+      "text"
+    ],
+    "rejected_edits": []
+  }
+}

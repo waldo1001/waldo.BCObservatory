@@ -2,7 +2,7 @@
 id: app/expenseagent
 type: app
 title: ExpenseAgent
-summary: "ExpenseAgent (Microsoft.ExpenseAgent): 482 objects in BC29-30 (177 pages, 99 codeunits, 68 tables, 45 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos."
+summary: "ExpenseAgent (Microsoft.ExpenseAgent): 483 objects in BC29-30 (177 pages, 100 codeunits, 68 tables, 45 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-19T00:50:39.666Z"
+  at: "2026-11-24T00:59:15.045Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0bba2b99cc7d952406451713e988c7015c2e28befdd526ea87581260c9172fb8
+  input_hash: c40f27b7e06fa0dfa59c0bdf2c74c198be52bf0eedde34559bd1528d1f95bb80
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/d2abc1d2ceae394331716c8183ef60e1534c2ce0/src/Apps/W1/ExpenseAgent/app
@@ -254,10 +254,10 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 482
+  objects: 483
   by_type:
     page: 177
-    codeunit: 99
+    codeunit: 100
     table: 68
     enum: 45
     entitlement: 25
@@ -277,7 +277,7 @@ counts:
 
 # ExpenseAgent
 
-> ExpenseAgent (Microsoft.ExpenseAgent): 482 objects in BC29-30 (177 pages, 99 codeunits, 68 tables, 45 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos.
+> ExpenseAgent (Microsoft.ExpenseAgent): 483 objects in BC29-30 (177 pages, 100 codeunits, 68 tables, 45 enums, 25 entitlements, ...); documented by 6 Learn hubs; 6 videos.
 
 First-party app · folder `src/Apps/W1/ExpenseAgent/app` · namespace `Microsoft.ExpenseAgent` · BC29-30 · system copilot · facts from the code pillar and the joins, nothing machine-written
 
@@ -294,7 +294,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-482 objects, by type.
+483 objects, by type.
 
 ### Tables (68)
 
@@ -600,7 +600,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6951 | [Expense Report Cover Page](../objects/report/6951.md) |  |
 | 6952 | [Expense Report Summary Page](../objects/report/6952.md) |  |
 
-### Codeunits (99)
+### Codeunits (100)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -618,8 +618,9 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6911 | [Expense Per Diem Calculation](../objects/codeunit/6911.md) |  |
 | 6912 | [Expense Auto Population](../objects/codeunit/6912.md) |  |
 | 6913 | [Expense Agent Quota Impl.](../objects/codeunit/6913.md) |  |
-| 6914 | [Travel Req. Linked Reports](../objects/codeunit/6914.md) |  |
 | 6922 | [Expense Agent Entra App Mgt.](../objects/codeunit/6922.md) |  |
+| 6923 | [Expense Agent Quota Impl.](../objects/codeunit/6923.md) |  |
+| 6924 | [Travel Req. Linked Reports](../objects/codeunit/6924.md) |  |
 | 6926 | [Expense Activity Log Mgt.](../objects/codeunit/6926.md) |  |
 | 6930 | [Expense Agent MCP Config.](../objects/codeunit/6930.md) |  |
 | 6931 | [Expense Vendor Matching](../objects/codeunit/6931.md) |  |

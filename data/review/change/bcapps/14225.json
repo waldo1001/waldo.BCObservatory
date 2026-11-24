@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/14225",
+  "input_hash": "4c3087e8a8233787057c607266ea46fdfcf66b92fd9e72209451228b5627fb33",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-24T01:03:36.869Z",
+  "issues": [
+    "Key point about removing an erroneous validation is unsupported; Purchase Line changes are pure additions (+3 -0 per layer)."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019829,
+    "changes_in_call": 6
+  }
+}

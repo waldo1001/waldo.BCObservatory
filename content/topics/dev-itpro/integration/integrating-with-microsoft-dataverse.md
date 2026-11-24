@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-21T01:00:52.651Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -211,6 +211,7 @@ links:
     - change/bcapps/12328
     - change/bcapps/13623
     - change/bcapps/14203
+    - change/bcapps/14400
     - change/bcapps/9127
     - change/bcapps/9322
 learn_toc_path:
@@ -283,6 +284,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12328 [Master Data Management] Fix usage telemetry and make it emit max once per day](../../../changes/bcapps/12328.md) (code change): "Master Data Management usage telemetry distinguishing cross-environment and same-environment synchronizations"
 - [#13623 [Dataverse] Fix duplicate sales line numbers with automatic recurring lines](../../../changes/bcapps/13623.md) (code change): "creating a Business Central sales order from Dynamics 365 Sales"
 - [#14203 [Dataverse] Use commercial endpoints in Business Central online](../../../changes/bcapps/14203.md) (code change): "Business Central online now always uses commercial Dataverse endpoints regardless of the selected cloud"
+- [#14400 [Master Data Management] User-friendly errors for cross-environment connection and permission failures](../../../changes/bcapps/14400.md) (code change): "HTTP errors are mapped to actionable guidance about source environment names"
 - [#9127 Add Dataverse Cloud endpoints override for sovereign clouds](../../../changes/bcapps/9127.md) (code change): "New interface and enum enable partners to override Dataverse endpoints for sovereign cloud environments"
 - [#9322 [FS Integration] SVCITEM-CUSTASSET mapping ignores "Convert to Customer Asset" flag — every Service Item synced to FS unconditionally](../../../changes/bcapps/9322.md) (code change): "Field Service Integration now respects the Dataverse Product setting Convert to Customer Asset"
 - [Quick Tip: What’s in Business Central Update 28.4](../../../posts/thinkaboutit-be/8062.md) (community post): "Field Service integration now respects Dataverse Convert to Customer Asset setting"

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-11-23T00:49:55.504Z"
+  at: "2026-11-24T00:56:51.308Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 58dd03d3c40ee98df6d3f97e7d83db6e86ca0909756b3f2d247908c1bb6d015b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Apps/W1/Email%20-%20SMTP%20Connector/app/src/Entitlements/SMTPConnector.entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Apps/W1/Email%20-%20SMTP%20Connector/app/src/Entitlements/SMTPConnector.entitlement.al
     title: src/Apps/W1/Email - SMTP Connector/app/src/Entitlements/SMTPConnector.entitlement.al (releases/29.x)
     date: null
-    commit: 6a9588a817c12a5d35d3e6c4ad40e29ecca88acf
+    commit: b42f520c380a64062ca700b5f5450acc436e5b05
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "SMTP Connector" in Email - SMTP Connector (System.Email). Introduced in BC29, still in BC30.
 
-Email - SMTP Connector · System.Email · BC29-30 · [source at 6a9588a8](https://github.com/microsoft/BCApps/blob/6a9588a817c12a5d35d3e6c4ad40e29ecca88acf/src/Apps/W1/Email%20-%20SMTP%20Connector/app/src/Entitlements/SMTPConnector.entitlement.al) · facts from BC29
+Email - SMTP Connector · System.Email · BC29-30 · [source at b42f520c](https://github.com/microsoft/BCApps/blob/b42f520c380a64062ca700b5f5450acc436e5b05/src/Apps/W1/Email%20-%20SMTP%20Connector/app/src/Entitlements/SMTPConnector.entitlement.al) · facts from BC29
 
 ## Across versions
 

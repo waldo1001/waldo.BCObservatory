@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:05:44.132Z"
   flags: []
 generated:
-  at: "2026-10-26T05:40:07.940Z"
+  at: "2026-11-24T01:01:15.134Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -205,7 +205,8 @@ links:
   objects:
     - object/page/9308
     - object/page/56
-  features: []
+  features:
+    - feature/573376
   topics: []
   localizations: []
   videos: []
@@ -332,10 +333,12 @@ features:
     verified: false
     status_source: video
   - name: Sustainability Ledger Entries with Document Tracking
-    status: unclear
+    status: ga
     t: 841
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573376"
   - name: Carbon Credit Item Configuration
     status: unclear
     t: 881
@@ -464,11 +467,13 @@ The presenters say most features come with major version 25. The updated demo da
 | Updated Demo Data Tool | announced | [5:31](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=331s) | "not in major this is something what will come in 25.1 we will update demo data tool" ([5:31](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=331s)) |
 | Purchase Document Sustainability Visibility Filtering | status not stated, demoed | [13:06](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=786s) |  |
 | Emissions Entry with Sustainability Accounts | status not stated, demoed | [13:27](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=807s) |  |
-| Sustainability Ledger Entries with Document Tracking | status not stated, demoed | [14:01](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=841s) |  |
+| Sustainability Ledger Entries with Document Tracking | generally available (roadmap [Reverse Sustainability Ledger entries transaction](../features/573376.md)), demoed | [14:01](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=841s) |  |
 | Carbon Credit Item Configuration | status not stated, demoed | [14:41](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=881s) |  |
 | Automatic Carbon Credit Offset Posting | status not stated, demoed | [15:40](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=940s) |  |
 | ESG Reporting with Financial Row Definition | status not stated, demoed | [16:47](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1007s) |  |
 | Hybrid Financial and Sustainability Reporting | status not stated, demoed | [17:48](https://www.youtube.com/watch?v=NYG4pOtW-Xw&t=1068s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

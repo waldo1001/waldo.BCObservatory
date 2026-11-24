@@ -12,7 +12,7 @@ review:
   at: "2026-11-21T01:00:47.678Z"
   flags: []
 generated:
-  at: "2026-11-23T00:57:44.197Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -378,7 +378,6 @@ links:
     - change/bcapps/11507
     - change/bcquality/195
     - change/bcquality/260
-    - change/bcquality/277
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -505,7 +504,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11507 [Master] Fix Unix timestamp timezone conversion](../../../changes/bcapps/11507.md) (code change): "Unix timestamp conversion in TypeHelper now delegates to"
 - [#195 Add foundational AL developer knowledge](../../../changes/bcquality/195.md) (code change): "Add foundational AL developer knowledge. Adds seven foundational AL knowledge articles"
 - [#260 Fix al-knowledge follow-ups and document the skill](../../../changes/bcquality/260.md) (code change): "Extended al-knowledge skill to support JavaScript technology queries for control-add-in"
-- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](../../../changes/bcquality/277.md) (code change): "18 new knowledge articles covering translations, assisted setup, API queries, and XMLports"
 - [Importing Multi-Tab Excel Files into Business Central](../../../posts/aardvarklabs-blog/2838.md) (community post): "code examples using AL to read separate header and line"
 - [How to Use External APIs in Business Central](../../../posts/aardvarklabs-blog/2953.md) (community post): "HttpClient data type with complete AL code samples"
 - [Snippet: StrMenu from Enum list](../../../posts/nataliekarolak-com/1855.md) (community post): "AL code snippet that uses StrMenu to let users select from a filtered"

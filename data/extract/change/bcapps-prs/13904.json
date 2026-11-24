@@ -8,12 +8,12 @@
   ],
   "summary": "Unposted purchase return orders and credit memos are now discoverable through the Find Entries page, making it easier for users to locate these documents during document tracing workflows.",
   "key_points": [
-    "Navigate page updated to include unposted purchase return orders and credit memos in search results",
-    "Changes applied across all localization layers (DACH, ES, NA, RU, W1, BE, CZ, IT)",
-    "Test coverage added to verify functionality works correctly",
-    "Improves document navigation and traceability for purchase transactions"
+    "Find Entries (Navigate page) now lists unposted purchase return orders and purchase credit memos",
+    "Navigate page updated in the DACH, ES, NA, RU and W1 layers",
+    "Tests added to the ERM Purchase Order test codeunit in several layers",
+    "Backported to the 29.x release branch"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

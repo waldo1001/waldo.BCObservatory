@@ -3,8 +3,20 @@
 > Merged pull requests of Microsoft's Business Central code (microsoft/BCApps) that touch AL source: what changed, in our words,
 > joined by exact file path to the AL object pages. Tier official, metadata only. Frontmatter: schemas/frontmatter.change.json.
 
-1563 changes, newest first.
+1575 changes, newest first.
 
+- [#13904 [29.X]-Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.](bcapps/13904.md): Unposted purchase return orders and credit memos are now discoverable through the Find Entries page, making it easier for users to locate these documents during document tracing workflows. (releases/29.x, 2026-11-23, feature)
+- [#14400 [Master Data Management] User-friendly errors for cross-environment connection and permission failures](bcapps/14400.md): Cross-environment master data synchronization now provides clear error messages when connections fail or permissions are insufficient, helping administrators diagnose and fix setup issues quickly instead of seeing bare HTTP status codes. (main, 2026-11-23, feature)
+- [#14225 [Master]-Purchase Credit Memo – "Get Return Shipment Lines" fails for Non-Inventory items with "corrective credit memo can only reverse the original posted invoice" error (regression from Bug 636861)](bcapps/14225.md): Purchase credit memos can now retrieve return shipment lines for non-inventory items without triggering an error about corrective credit memos, fixing a regression. (main, 2026-11-23, fix)
+- [#14423 Bug 659561: Make FI depreciation posting buffer temporary](bcapps/14423.md): The FI depreciation posting buffer table is now marked as temporary to fix validation checks for local permissions and cloud migration, since it is only used in memory. (main, 2026-11-23, fix)
+- [#13206 [29x]- "You must assign a serial number for item xxx" when trying to reverse Capacity Ledger Entry](bcapps/13206.md): Fixed an error that occurred when reversing Capacity Ledger Entry for items requiring serial number assignment, allowing these entries to be reversed without the serial number validation error. (releases/29.x, 2026-11-23, fix)
+- [#14013 [29x]- Warehouse shipment item tracking inherits the source line's stale pick bin on the Transfer and Purchase-Return branches, so a second partial shipment fails with "You cannot select more than 0 units"](bcapps/14013.md): Warehouse shipment item tracking on Transfer and Purchase-Return branches no longer inherits stale pick bins, allowing subsequent partial shipments to process correctly without unit selection errors. (releases/29.x, 2026-11-23, fix)
+- [#14327 Expose Payables Agent infotip sources through test fixtures](bcapps/14327.md): Test fixtures for the Payables Agent now expose infotip sources and business context, allowing offline evaluations to collect explanations without directly depending on E-Document apps. The change provides source descriptors through internal test APIs only. (main, 2026-11-23, feature)
+- [#13854 [Main]-All VAT Entries are gone through without filters with "Set G/L Account No." function.](bcapps/13854.md): VAT Entries page and G/L - VAT Reconciliation report now respect user filters and selections when setting G/L Account numbers, preventing unintended updates to all entries in the database. (main, 2026-11-23, fix)
+- [#14297 [master] Exporting the VAT Report using the new ELMA XML export the report status remains 'Released' instead of changing to 'Exported' in the German version.](bcapps/14297.md): Fixed a bug where the VAT report status remained 'Released' instead of changing to 'Exported' when exporting via ELMA XML format in the German version. (main, 2026-11-23, fix)
+- [#13673 Expose active expense approver and expense app navigation](bcapps/13673.md): The Expense Reports API now exposes the active approver identifier and replaces submitter expansion with filtering by active approver status. Report pages gain an Open Expense App action to navigate to environment-specific dashboards, and a secondary key enables efficient approver filtering. (main, 2026-11-23, feature)
+- [#14405 [Expense Agent] Renumber codeunits that collide with deprecated country apps](bcapps/14405.md): Three Expense Agent codeunits are renumbered from 6913-6915 to 6923-6925 to avoid collisions with deprecated country-specific Expense Agent apps that cause installation failures on thousands of tenants. (main, 2026-11-23, fix)
+- [#9193 Lock Code labels on default Transformation Rule records](bcapps/9193.md): Transformation Rule record codes are now locked to prevent translation, ensuring configuration portability across differently-localized environments while keeping descriptions translatable. (main, 2026-11-23, fix)
 - [#14329 Optimizing check for PA eligibility](bcapps/14329.md): The Payables Agent eligibility check now uses a more efficient query strategy to avoid unnecessary slowdowns when opening the Purchase Invoice page by leveraging an existing database index on Posting Date instead of relying on systemCreatedAt. (main, 2026-11-21, performance)
 - [#14335 [Main] Expense Management: make Expense Management Setup public; keep agent and corporate card surface internal](bcapps/14335.md): Table 6930 Expense Agent Setup, which holds company-wide expense management settings, is now public so extensions can read and maintain those settings. Agent, mailbox, notification, policy and corporate card fields stay internal at field level, and the corporate card interface, table, enums and fields are made internal. (main, 2026-11-20, feature)
 - [#14295 [Main] Expense Management: make core expense business objects public](bcapps/14295.md): Expense Management core business objects are now publicly accessible for extensions to read, extend, release and post expenses, while keeping agent-specific and policy-related functionality internal. (main, 2026-11-20, feature)
@@ -34,7 +46,7 @@
 - [#14307 [SLS][29.x] Backport production app updates for GPT-5.6 Ceres](bcapps/14307.md): Backports the Sales Lines Suggestions production changes from main to 29.x: both AI call paths now use GPT-5.6 Ceres, six prompts ship inside the app, missing quantities default to one, and search confidence thresholds are lowered to match the new embedding model. (releases/29.x, 2026-11-19, feature)
 - [#14229 29.x: Power BI autodeployment UX fixes: clearing records should affect only the selected + reorganizing actions](bcapps/14229.md): Power BI auto-deployment clearing now affects only the selected record instead of all records, and action ordering on the deployment page has been reorganized. (releases/29.x, 2026-11-19, fix)
 - [#14154 [SOA] Keep email attachments next to the current message](bcapps/14154.md): The Attachments part on the SOA Email Message page moved directly below the Message, before Previous Messages, to visually group current message content with its attachments. (main, 2026-11-19, fix)
-- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](bcquality/277.md): BCQuality adds 18 new knowledge articles covering translations, assisted setup, API queries, and XMLports, with a new xmlport review domain and four supporting articles with good/bad code examples. (main, 2026-11-19, feature)
+- [#277 knowledge: translations, assisted setup, API queries, and a new xmlport domain](bcquality/277.md): BCQuality adds 18 knowledge articles. Fourteen go into existing domains (translations, assisted setup, API queries, MaskType, dependency versions). Four go into a new xmlport domain, together with an al-xmlport-review leaf that al-code-review now uses. (main, 2026-11-19, feature)
 - [#14147 Fix reactivated direct transfer and BEANS issues](bcapps/14147.md): Fixed direct transfer orders to create inbound warehouse requests when their route overrides the Inventory Setup posting mode, and corrected Quality Management demo data to seed Coffee Defect and Uniformity tests with proper conditions. (main, 2026-11-19, fix)
 - [#14212 Power BI autodeployment UX fixes: clearing records should affect only the selected + reorganizing actions](bcapps/14212.md): Power BI auto-deployment functionality now clears only selected deployment records instead of all records, and actions on the deployment page have been reorganized. (main, 2026-11-19, fix)
 - [#276 Minor consistency fixes: bc-version format, CI permissions, community skill retrieval](bcquality/276.md): Minor consistency improvements to quality rules documentation: standardized bc-version format notation, added explicit read-only permissions to validation workflows, and optimized community skill retrieval to use bounded domain-specific lookups. (main, 2026-11-19, refactor)
@@ -70,7 +82,7 @@
 - [#14070 [29.x][All-e]"Specify the VAT registration number that you want to verify" error when entering a VAT Registration No. in the Sales Order if the Customer Card has no VAT Registration No.](bcapps/14070.md): Sales Header VAT Registration No. validation now checks the number entered on the document instead of the customer card number, allowing verification of different numbers. (releases/29.x, 2026-11-18, fix)
 - [#13679 [E-Document Core] Grant Execute on the status factbox, PDF preview and Navigate handler](bcapps/13679.md): The E-Document Core permission set now grants Execute permission on the status factbox page, picture preview page, and navigate handler codeunit to prevent permission errors when users access E-Document components on standard pages. (main, 2026-11-18, fix)
 - [#13991 [Main][All-E] Warehouse Pick cannot be updated with newly received quantity after Purchase Receipt has been posted](bcapps/13991.md): Inventory pick creation now allows additional quantities from newly posted purchase receipts to be added to existing picks by deducting already-outstanding quantities. (main, 2026-11-18, fix)
-- [#275 knowledge(performance): Get behind a key-is-set check in and-condition wastes a DB call](bcquality/275.md): The performance rule for boolean operators now detects when Record.Get() calls happen behind a key-is-set check in an and-condition, which can be wasteful even though it is not unsafe. (main, 2026-11-18, feature)
+- [#275 knowledge(performance): Get behind a key-is-set check in and-condition wastes a DB call](bcquality/275.md): The boolean-operators-do-not-short-circuit article now covers Record.Get placed behind a key-is-set check in an and-condition. The pattern is not unsafe, but the Get is an unnecessary call when the guard means the key is not set. (main, 2026-11-18, feature)
 - [#14200 Refresh the purchase order match warnings of a draft line as soon as it is edited](bcapps/14200.md): Purchase order match warnings now refresh immediately when a draft line is edited, eliminating stale warning messages after the user corrects values like unit cost. (main, 2026-11-18, fix)
 - [#14148 Only skip draft preparation for the Payables Agent's own e-documents with agent-driven line matching](bcapps/14148.md): Draft preparation skip now applies only to the Payables Agent's own e-documents when agent-driven line matching is enabled, restoring normal preparation for other e-document services. (main, 2026-11-18, fix)
 - [#13631 [main] bug 646068 - Add support for disabling incremental exchange gain/loss posting in General Ledger Setup](bcapps/13631.md): Czech localization now allows disabling incremental exchange gain/loss posting in General Ledger Setup, letting companies choose between incremental posting and standard W1 exchange gain/loss calculations. (main, 2026-11-18, feature)
@@ -1573,43 +1585,44 @@
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
-- [#12453 Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2820799](https://github.com/microsoft/BCApps/pull/12453) (open into main, updated 2026-11-22)
-- [#9048 Uptake/multi order invoice source doc](https://github.com/microsoft/BCApps/pull/9048) (open into main, updated 2026-11-22)
-- [#14112 Slice 638981: Add default production order location to Manufacturing Setup](https://github.com/microsoft/BCApps/pull/14112) (open into main, updated 2026-11-22)
-- [#14400 [Master Data Management] User-friendly errors for cross-environment connection and permission failures](https://github.com/microsoft/BCApps/pull/14400) (open into main, updated 2026-11-22)
-- [#14241 [Expense Agent] Fix corporate card data integrity](https://github.com/microsoft/BCApps/pull/14241) (open into main, updated 2026-11-22)
-- [#14394 [Expense Agent] Match receipts to corporate card expenses and flag pending card expenses](https://github.com/microsoft/BCApps/pull/14394) (open into main, updated 2026-11-22)
-- [#14149 Features/payment installments w1](https://github.com/microsoft/BCApps/pull/14149) (open into main, updated 2026-11-22)
-- [#14346 [Main] Expense Management: add partner extension events and make Create Expense Report public](https://github.com/microsoft/BCApps/pull/14346) (open into main, updated 2026-11-22)
-- [#13678 [Shopify] Set the shop before looking up payment terms for a customer created from a company](https://github.com/microsoft/BCApps/pull/13678) (open into main, updated 2026-11-22)
-- [#13613 [main] Incorrect Additional Currency Base and Additional Currency Amount calculation in VAT/GST Entries when Line Discount is applied on Sales Invoice in the Australian version](https://github.com/microsoft/BCApps/pull/13613) (open into main, updated 2026-11-22)
-- [#14134 [Master]-Cancel Posted Sales Credit Memo requires "Sales Line Disc. Account" in General Posting Setup even when Discount Posting = No Discounts and the document has no discounts-](https://github.com/microsoft/BCApps/pull/14134) (open into main, updated 2026-11-22)
-- [#13904 [29.X]-Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.](https://github.com/microsoft/BCApps/pull/13904) (open into releases/29.x, updated 2026-11-22)
-- [#13206 [29x]- "You must assign a serial number for item xxx" when trying to reverse Capacity Ledger Entry](https://github.com/microsoft/BCApps/pull/13206) (open into releases/29.x, updated 2026-11-22)
-- [#14358 [29.x]- Edit in Excel insert fails on Price List Lines (Page 7001) — Unit of Measure Code validated before Product No. is set causing NavTestFieldException on Price Asset (Table 7003)](https://github.com/microsoft/BCApps/pull/14358) (open into releases/29.x, updated 2026-11-22)
-- [#14013 [29x]- Warehouse shipment item tracking inherits the source line's stale pick bin on the Transfer and Purchase-Return branches, so a second partial shipment fails with "You cannot select more than 0 units"](https://github.com/microsoft/BCApps/pull/14013) (open into releases/29.x, updated 2026-11-22)
-- [#14240 [Main]-"Cannot match item tracking" when partially posting an Inventory Pick for lot-tracked items with Strict Expiration Posting enabled](https://github.com/microsoft/BCApps/pull/14240) (open into main, updated 2026-11-22)
-- [#13331 [Main]-Warehouse Picks Creating Incorrect Line Splitting final pick.](https://github.com/microsoft/BCApps/pull/13331) (open into main, updated 2026-11-22)
-- [#14389 [Main] - Slice 641538: [Expense Agent][VENDOR] Travel Request Approvals](https://github.com/microsoft/BCApps/pull/14389) (open into main, updated 2026-11-22)
-- [#14409 [Main] - Slice 638116: [Expense Agent][VENDOR] Adding interim approver to the workflow (January '27)](https://github.com/microsoft/BCApps/pull/14409) (open into main, updated 2026-11-22)
-- [#12153 [Main]-Adjust Cost Creates an Output Value Entry with Entry Type = Variance and Expected Cost = Yes After Reversing a Finished Production Order.](https://github.com/microsoft/BCApps/pull/12153) (open into main, updated 2026-11-22)
-- [#14120 Prod. Order Routing Line: skip the duplicate Routing Link Code question when the code is cleared](https://github.com/microsoft/BCApps/pull/14120) (open into main, updated 2026-11-22)
-- [#11668 Ruleset hardening: remove deprecated APIs and define app resources](https://github.com/microsoft/BCApps/pull/11668) (open into main, updated 2026-11-22)
-- [#12881 Fix DST-aware date-time conversions](https://github.com/microsoft/BCApps/pull/12881) (open into main, updated 2026-11-22)
-- [#13676 [29.X]-Dispute Status – Inconsistent On Hold and Document Synchronization on Vendor Ledger Entries.](https://github.com/microsoft/BCApps/pull/13676) (open into releases/29.x, updated 2026-11-22)
-- [#13905 Exclude WorkIQ feature key from demo data feature enablement](https://github.com/microsoft/BCApps/pull/13905) (open into main, updated 2026-11-22)
-- [#14060 [Shopify] Automatically move negative exchange lines](https://github.com/microsoft/BCApps/pull/14060) (open into main, updated 2026-11-22)
-- [#14077 [Master Data Management] Avoid duplicate excluded record insertion after match-based coupling](https://github.com/microsoft/BCApps/pull/14077) (open into main, updated 2026-11-22)
-- [#14186 [Master]-Production Order - WIP shows different WIP depending on Starting Date after revaluing reversed consumption](https://github.com/microsoft/BCApps/pull/14186) (open into main, updated 2026-11-22)
-- [#14199 System Internal new body layouts and obsolete current](https://github.com/microsoft/BCApps/pull/14199) (open into main, updated 2026-11-22)
-- [#14225 [Master]-Purchase Credit Memo – "Get Return Shipment Lines" fails for Non-Inventory items with "corrective credit memo can only reverse the original posted invoice" error (regression from Bug 636861)](https://github.com/microsoft/BCApps/pull/14225) (open into main, updated 2026-11-22)
+- [#14451 [master]Sales Quote for Subscription Billing report layout incorrectly includes the Quote Variant Lines in Subscription Totals in the Switzerland version.](https://github.com/microsoft/BCApps/pull/14451) (open into main, updated 2026-11-24)
+- [#12453 Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2822193](https://github.com/microsoft/BCApps/pull/12453) (open into main, updated 2026-11-23)
+- [#10046 Obsolete objects and add deprecation notices for PTE upload/install in Extension Management](https://github.com/microsoft/BCApps/pull/10046) (open into main, updated 2026-11-23)
+- [#13080 Effective Permissions Overview](https://github.com/microsoft/BCApps/pull/13080) (open into main, updated 2026-11-23)
+- [#13710 [Bug]: Store To and Cc recipients of retrieved Outlook emails](https://github.com/microsoft/BCApps/pull/13710) (open into main, updated 2026-11-23)
+- [#13732 Initialize report filename defaults for new and existing companies](https://github.com/microsoft/BCApps/pull/13732) (open into main, updated 2026-11-23)
+- [#13811 Enable custom agent task creation from the timeline](https://github.com/microsoft/BCApps/pull/13811) (open into main, updated 2026-11-23)
+- [#13831 [Agent Design Experience] Use native Markdown for custom-agent instructions](https://github.com/microsoft/BCApps/pull/13831) (open into main, updated 2026-11-23)
+- [#14390 [main] [E-Documents][PEPPOL] V1 import fails for UBL invoices using alternate cac/cbc namespace prefixes](https://github.com/microsoft/BCApps/pull/14390) (open into main, updated 2026-11-23)
+- [#14422 Show "Authentication Email" on the Users list for on-prem](https://github.com/microsoft/BCApps/pull/14422) (open into main, updated 2026-11-23)
+- [#14445 AB#658839 Update for SL Migration Bug 658839 with Next Year 1099 amounts.](https://github.com/microsoft/BCApps/pull/14445) (open into main, updated 2026-11-23)
+- [#14450 [29.x] Reversed output entry stays uninvoiced (Invoiced Quantity = 0) after reopening a finished production order, causing quantity discrepancy in Inventory Valuation](https://github.com/microsoft/BCApps/pull/14450) (open into releases/29.x, updated 2026-11-23)
+- [#14334 Bug 660000: [64bit] Overflow in item application entry. Amend tests to run with big integers](https://github.com/microsoft/BCApps/pull/14334) (open into main, updated 2026-11-23)
+- [#13671 Expense Agent: configure posting groups per subcategory](https://github.com/microsoft/BCApps/pull/13671) (open into main, updated 2026-11-23)
+- [#14128 [Main] - Bug 640772: Expense Agent: If the accountant wants to change some simple things like dimensions or accounts to post to, the entire approval flow has to be redone](https://github.com/microsoft/BCApps/pull/14128) (open into main, updated 2026-11-23)
+- [#14388 [IRS Forms] Prepare IRIS for tax year 2026](https://github.com/microsoft/BCApps/pull/14388) (open into main, updated 2026-11-23)
+- [#14395 [Expense Agent] Use BigInteger for expense ledger entry numbers](https://github.com/microsoft/BCApps/pull/14395) (open into main, updated 2026-11-23)
+- [#14437 Bugs/659500](https://github.com/microsoft/BCApps/pull/14437) (open into main, updated 2026-11-23)
+- [#14448 [main] Fix ELSTER UStVA 2026 XML export](https://github.com/microsoft/BCApps/pull/14448) (open into main, updated 2026-11-23)
+- [#14440 [Bug][DE] XRechnung/ZUGFeRD export writes 17530101 for empty dates and omits dates equal to today](https://github.com/microsoft/BCApps/pull/14440) (open into main, updated 2026-11-23)
+- [#14441 [Bug][DE] XRechnung/ZUGFeRD export takes the actual delivery date (BT-72) from the header Shipment Date](https://github.com/microsoft/BCApps/pull/14441) (open into main, updated 2026-11-23)
+- [#14442 Offer the Payables Agent again in a company recreated with the same name](https://github.com/microsoft/BCApps/pull/14442) (open into main, updated 2026-11-23)
+- [#14446 [IT] Align protected variable PostingDescription in report Calculate Depreciation with W1](https://github.com/microsoft/BCApps/pull/14446) (open into main, updated 2026-11-23)
+- [#14247 Purchase External Report New body layouts and obsolete current](https://github.com/microsoft/BCApps/pull/14247) (open into main, updated 2026-11-23)
+- [#14149 Features/payment installments w1](https://github.com/microsoft/BCApps/pull/14149) (open into main, updated 2026-11-23)
+- [#14105 [29.x]-Project Ledger Entry does not get the modified amount from Purchase Order Statistics if the Purchase line is of type G/L Account in the Spanish version.](https://github.com/microsoft/BCApps/pull/14105) (open into releases/29.x, updated 2026-11-23)
+- [#14296 Projects external new body layouts and obsolete current](https://github.com/microsoft/BCApps/pull/14296) (open into main, updated 2026-11-23)
+- [#14432 [Main]- Item Journal approval link fails after approver switches batches](https://github.com/microsoft/BCApps/pull/14432) (open into main, updated 2026-11-23)
+- [#10233 Implement business activity code to EU from Italy localization](https://github.com/microsoft/BCApps/pull/10233) (open into main, updated 2026-11-23)
+- [#13462 Extract Intercompany into one app with country compilation symbols](https://github.com/microsoft/BCApps/pull/13462) (open into main, updated 2026-11-23)
 
 Open issues:
 
+- [#14444 [Feature]: Extend "Job Title" field length from Text[30] to Text[100] (Employee, Contact, Resource and related tables)](https://github.com/microsoft/BCApps/issues/14444) (2026-11-23, BCIdea, Team: SCM)
+- [#14443 [Bug][SubscriptionBilling] Usage Data Generic Import OnModify assigns wrong Customer ID and never fills Customer Name](https://github.com/microsoft/BCApps/issues/14443) (2026-11-23, Team: Finance)
+- [#14435 [Bug][Subscription Billing] Get Vendor Contract Lines bills only the first open usage period of a usage-based vendor Subscription Line](https://github.com/microsoft/BCApps/issues/14435) (2026-11-23, Team: Finance)
+- [#14431 [W1][Extensibility Request] Page 8095 "Get Vendor Contract Lines" - expose some variables as protected var (IsContractLine; LineStyleExpr)](https://github.com/microsoft/BCApps/issues/14431) (2026-11-23, Approved, Team: Finance, ext-ready-to-implement, request-for-external)
 - [#14404 [ES][Event Request] Report 7000082 "Settle Docs. in Posted PO" - PostedDoc OnAfterGetRecord - event to settle other document types](https://github.com/microsoft/BCApps/issues/14404) (2026-11-21, Team: Finance)
-- [#14391 [Contribution Process Bug]: Incorrect Spanish translation for Billing Line Document Type enum value "Invoice"](https://github.com/microsoft/BCApps/issues/14391) (2026-11-20, Contribution-Bug, Ownership: Needs Review, Team: Other)
-- [#14386 [Bug]: User Task OnAssistEdit Missing Filter On Full User](https://github.com/microsoft/BCApps/issues/14386) (2026-11-20, Team: Integrations)
-- [#14367 [Bug]: Fabric app missing API's](https://github.com/microsoft/BCApps/issues/14367) (2026-11-20, Team: Integrations)
 
 Releases:
 
@@ -1628,6 +1641,7 @@ Releases:
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
+- [#2469 E2E tests run on private repos](https://github.com/microsoft/AL-Go/pull/2469) (open into main, updated 2026-11-23)
 - [#2468 Support multi-level custom template inheritance](https://github.com/microsoft/AL-Go/pull/2468) (open into main, draft, updated 2026-11-20)
 - [#2425 Admin API for PTE publishing/installing for BC29 and later](https://github.com/microsoft/AL-Go/pull/2425) (open into main, updated 2026-11-20)
 - [#2449 Optional builds for PR validation](https://github.com/microsoft/AL-Go/pull/2449) (open into main, updated 2026-11-19)
@@ -1696,8 +1710,8 @@ Releases:
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
-- [#279 knowledge(testing): a changed permission set needs a test that runs an allowed operation under it](https://github.com/microsoft/BCQuality/pull/279) (open into main, updated 2026-11-20)
-- [#272 knowledge(data-modeling): Init() keeps the primary key; recompute an editable derived field only while unedited](https://github.com/microsoft/BCQuality/pull/272) (open into main, updated 2026-11-20)
+- [#272 knowledge(data-modeling): Init() keeps the primary key; recompute an editable derived field only while unedited](https://github.com/microsoft/BCQuality/pull/272) (open into main, updated 2026-11-23)
+- [#279 knowledge(testing): a changed permission set needs a test that runs an allowed operation under it](https://github.com/microsoft/BCQuality/pull/279) (open into main, updated 2026-11-23)
 - [#274 knowledge(data-modeling): distinguish Modify from primary-key Rename](https://github.com/microsoft/BCQuality/pull/274) (open into main, updated 2026-11-17)
 - [#121 Authoring-assist: promote to first-class tool with non-blocking PR advisory](https://github.com/microsoft/BCQuality/pull/121) (open into main, draft, updated 2026-09-15)
 

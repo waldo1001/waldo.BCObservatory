@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:43.200Z"
   flags: []
 generated:
-  at: "2026-11-12T00:57:40.556Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,6 +89,7 @@ links:
     - change/bcapps/11171
     - change/bcapps/12133
     - change/bcapps/12194
+    - change/bcapps/14400
 learn_toc_path:
   - Integration
   - Web services
@@ -158,5 +159,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11171 [Security][Hardening] Validate integration URLs stored in setup tables](../../../../changes/bcapps/11171.md) (code change): "Integration endpoint URLs stored in setup tables are now validated"
 - [#12133 Block file scheme in Web Request Helper](../../../../changes/bcapps/12133.md) (code change): "Security fix that stops crafted URLs from reading files on the server"
 - [#12194 Harden web request helpers: opt-in default credentials](../../../../changes/bcapps/12194.md) (code change): "disable default credentials by default and require callers to opt in"
+- [#14400 [Master Data Management] User-friendly errors for cross-environment connection and permission failures](../../../../changes/bcapps/14400.md) (code change): "explicit permission errors instead of silently stopping synchronization"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

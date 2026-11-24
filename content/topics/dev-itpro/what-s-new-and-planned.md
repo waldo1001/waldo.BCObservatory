@@ -6,12 +6,12 @@ summary: "Release information for Business Central: the six-month release cycle,
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-24T01:05:18.114Z"
   flags: []
 generated:
-  at: "2026-11-22T01:00:28.230Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -331,7 +331,7 @@ narrative: generated
 
 > Release information for Business Central: the six-month release cycle, monthly minor updates, and per-update notes for 2026 release wave 2 (29.0 and 29.1), plus archived notes from 15.2 through 28.5. It answers which update introduced or changed a feature, hotfix, localization, deprecation or upgrade path.
 
-Path: What's new and planned · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: What's new and planned · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

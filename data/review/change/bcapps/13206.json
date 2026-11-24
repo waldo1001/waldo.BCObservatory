@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/13206",
+  "input_hash": "5a0e770b7b74985e4ad50df67195a1b269db92d5e98cb352198bb7e66952070f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-11-24T01:03:36.869Z",
+  "issues": [
+    "Key point stating the issue occurred in all environments is an interpretation of the '[All-E]' tag and not clearly supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019829,
+    "changes_in_call": 6
+  }
+}

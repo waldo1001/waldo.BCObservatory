@@ -2,16 +2,16 @@
 id: topic/dev-itpro/what-s-new-and-planned/updates-for-earlier-major-versions
 type: topic
 title: Updates for earlier major versions
-summary: Release notes for Business Central updates from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1), including the 26.0, 27.0 and 28.0 feature overviews. Use it to find which update introduced or changed a feature, hotfix, localization, telemetry item, deprecation or upgrade note.
+summary: Release notes for Business Central updates from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1), plus the What's New pages for 26.0, 27.0 preview and 28.0 preview. Use it to find which update introduced or changed a feature, hotfix, localization, telemetry item, deprecation or upgrade note.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-11-24T01:05:28.725Z"
   flags: []
 generated:
-  at: "2026-11-20T01:01:32.224Z"
+  at: "2026-11-24T01:05:28.728Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -398,26 +398,26 @@ narrative: generated
 
 # Updates for earlier major versions
 
-> Release notes for Business Central updates from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1), including the 26.0, 27.0 and 28.0 feature overviews. Use it to find which update introduced or changed a feature, hotfix, localization, telemetry item, deprecation or upgrade note.
+> Release notes for Business Central updates from 15.2 (2019 release wave 2) through 28.5 (2026 release wave 1), plus the What's New pages for 26.0, 27.0 preview and 28.0 preview. Use it to find which update introduced or changed a feature, hotfix, localization, telemetry item, deprecation or upgrade note.
 
-Path: [What's new and planned](../what-s-new-and-planned.md) > Updates for earlier major versions · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: [What's new and planned](../what-s-new-and-planned.md) > Updates for earlier major versions · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section is a series of one page per update, grouped by release wave. It runs from 2019 release wave 2 (updates 15.2 to 15.4) through 2026 release wave 1 (updates 28.1 to 28.5). Each page lists hotfixes, feature changes, localization and regulatory updates, and upgrade notes for online and on-premises deployments. There are no subtopics.
+There is one page per update, grouped by release wave, from 2019 release wave 2 (updates 15.2 to 15.4) through 2026 release wave 1 (updates 28.1 to 28.5). Most pages list hotfixes, feature changes, localization and regulatory updates, and upgrade notes for online and on-premises deployments.
 
-Three pages cover the major versions: "What's New or Changed" for 26.0 (2025 release wave 1), 27.0 preview (2025 release wave 2) and 28.0 preview (2026 release wave 1). Start with the page for the version you run, or the one that matches the feature you are tracing. The minor-update pages (x.1 to x.5) show what changed after the major release. Later pages also flag features that become mandatory in a later version.
+Three pages cover the major versions: "What's New or Changed" for 26.0 (2025 release wave 1), 27.0 preview (2025 release wave 2) and 28.0 preview (2026 release wave 1). Start with the page for the version you run, or the one that matches the feature you are tracing. The minor-update pages (x.1 to x.5) show what changed after the major release. Many later pages also flag features that become mandatory in a later version.
 
 ## Key points
 
 - Coverage runs from update 15.2 (2019 release wave 2) to update 28.5 (2026 release wave 1), with one page per update.
-- Early updates (16.x to 17.x) cover Application Insights telemetry, cloud migration from 14.x to 16.x, snapshot debugging, and deprecation of OData V3 and basic authentication.
+- Updates 16.x and 17.x cover Application Insights telemetry, cloud migration from on-premises versions 14 to 16, snapshot debugging, and the deprecation of OData V3 and basic authentication.
 - Updates 18.x and 19.x cover OAuth2 SMTP, Word templates, certificate-based Dataverse authentication, extension validation on upgrade, customer consent, and 2D barcodes. They also cover localization items such as Mexico Carta de Porte and Norway VAT return.
-- Updates 20.x to 22.x cover the Shopify Connector, Power Automate integration, GDAP migration for partners, and Microsoft 365 license access. They also cover Teams embedding, auto-save, and actionable error messages.
-- Updates 23.x to 25.x introduce virtual tables on Dataverse, Copilot features, Denmark e-invoicing with NemHandel, the E-Documents framework, and the Business Central Administrator role. Several of these pages also warn that G/L entry aggregation extensions and extensible exchange rate adjustment become mandatory.
-- Updates 26.x to 28.x cover agents (Sales Order, Payables, Expense), Copilot autofill and summarize, MCP server, more e-document providers and formats, sustainability reporting, and Spain Verifactu.
+- Updates 20.x to 22.x cover the Shopify Connector, Power Automate integration, GDAP migration for partners, Microsoft 365 license access, Teams embedding, auto-save, and actionable error messages.
+- Updates 23.x to 25.x cover virtual tables on Dataverse, Copilot features, Denmark e-invoicing with NemHandel, new E-Documents framework service providers and localizations, and the Business Central Administrator role. Several of these pages warn that G/L entry aggregation extensions and extensible exchange rate adjustment become mandatory.
+- Updates 26.x to 28.x cover agents (Sales Order, Payables, Expense), Copilot autofill and summarize, the MCP server, more e-document providers and formats, sustainability reporting, and Spain Verifactu.
 - Many pages include localization and regulatory changes by country, such as Intrastat, SAF-T, SII, VAT returns and IRS 1099.
-- Pages for 27.0 preview and 28.0 preview mark features as general availability or public preview.
+- The 27.0 preview page covers features in both general availability and public preview. Some minor-update pages, such as 27.5, also mark features as public preview.
 
 ## Learn pages
 

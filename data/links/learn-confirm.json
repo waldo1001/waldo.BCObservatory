@@ -3760,16 +3760,16 @@
     },
     "change/bcapps/10991": {
       "kind": "change",
-      "hash": "be0d48be30286b2b38adb4b44140878e1ef42edb7282632feac2e33f6505f453",
-      "at": "2026-11-20T00:56:07.000Z",
+      "hash": "aed3d0bf2432560a21a54c068d8d8de246ffdaf93cba7240d0b43f48045d0f27",
+      "at": "2026-11-24T01:02:47.449Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-auditing",
-          "reason": "Documents security auditing and tracking changes to critical tables including user management."
+          "reason": "Tracks security changes including user permission modifications in audit logs"
         },
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/across-setup-auditing",
-          "reason": "Documents Change Log feature that captures setup changes and audit trail information."
+          "reason": "Change Log feature captures setup changes including user and permission adjustments"
         }
       ]
     },
@@ -3903,16 +3903,16 @@
     },
     "change/bcapps/11040": {
       "kind": "change",
-      "hash": "c57df5dbc09a6330a9073673fa7e3958da6f506b7a8e8eea6ab39142ecaba757",
-      "at": "2026-11-20T00:56:07.001Z",
+      "hash": "1e9f787be8a337b2c056689407f255e056e7d63c2f24dc587082f02b80ff68a0",
+      "at": "2026-11-24T01:02:47.449Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-define-register",
-          "reason": "Documents defining and registering agents programmatically, core pattern for the agent implementation."
+          "reason": "Defines and registers custom agents using IAgentFactory and metadata interfaces"
         },
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
-          "reason": "Documents Expense Agent setup and configuration, one of the agents being implemented for archiving."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent-known-senders",
+          "reason": "Manages Payables Agent configuration for email processing and vendor approval workflows"
         }
       ]
     },
@@ -4326,12 +4326,16 @@
     },
     "change/bcapps/11184": {
       "kind": "change",
-      "hash": "7fb206a4d3c8b61af1316ee4cf196343edece3f353f19f24966adffcd9eeec2f",
-      "at": "2026-11-21T00:55:02.310Z",
+      "hash": "6bf2942d8a5278e2d77d2551a2381469463b38db20c7bdeb511a9f29198065bd",
+      "at": "2026-11-24T01:02:47.449Z",
       "picks": [
         {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-auditing",
+          "reason": "Security auditing tracks changes to Access Control and Permission table entries"
+        },
+        {
           "url": "https://learn.microsoft.com/dynamics365/business-central/across-setup-auditing",
-          "reason": "User management permissions related to financial report audit log change tracking."
+          "reason": "Change Log captures financial report definition changes and permission modifications"
         }
       ]
     },
@@ -6072,12 +6076,12 @@
     },
     "change/bcapps/11890": {
       "kind": "change",
-      "hash": "df246ff6c1a8ee92a53978631d355cfc9d74951cbf5f4f16e1462f35040ef264",
-      "at": "2026-11-22T00:56:18.506Z",
+      "hash": "1bd4925ba5e9650382c369de9451b010a648e88f7f64461eb22b8c5cef73a233",
+      "at": "2026-11-24T01:02:47.449Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-task-scheduler-trace",
-          "reason": "Task Scheduler telemetry relates to scheduled cleanup tasks and execution monitoring."
+          "reason": "Task Scheduler telemetry traces scheduled task creation, execution, and completion events"
         }
       ]
     },
@@ -6236,12 +6240,12 @@
     },
     "change/bcapps/11950": {
       "kind": "change",
-      "hash": "41ca7fc3096494996a44f5d88ebf624069002f76e65b47241d08201f54de8710",
-      "at": "2026-11-23T00:55:58.799Z",
+      "hash": "f08013566d6e75a1669d2b580194911b743123a450d030495b69aed46a02fe5c",
+      "at": "2026-11-24T01:02:47.449Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-task-scheduler-trace",
-          "reason": "Task Scheduler telemetry traces document scheduled task execution relevant to email cleanup scheduler."
+          "reason": "Task Scheduler telemetry traces scheduled background job processing for cleanup operations"
         }
       ]
     },
@@ -6291,12 +6295,12 @@
     },
     "change/bcapps/11967": {
       "kind": "change",
-      "hash": "43317dbf8946515a5a2b5cb11e061e1dd1ab7c6cc5c5426be9efc71e79492318",
-      "at": "2026-11-16T00:57:04.343Z",
+      "hash": "5cb3a542323f6a1fa65feecadac823f7875d9712ccf120014392df9b8cbe9842",
+      "at": "2026-11-24T01:02:47.449Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-edit-in-excel-lists",
-          "reason": "Controlling Edit in Excel on list pages documents permission-based blocking of Edit in Excel functionality."
+          "reason": "Controls Edit in Excel system action on list pages via permission sets"
         }
       ]
     },
@@ -6387,12 +6391,12 @@
     },
     "change/bcapps/11996": {
       "kind": "change",
-      "hash": "33e8a6e54d3574696be1c2a407d128062038e68fa90dc02c4c392bd63ba9a187",
-      "at": "2026-10-24T00:26:52.037Z",
+      "hash": "a1f440a30b3f24bad7d60123e433545b7f2d1d57415734247c85cc107618cb4b",
+      "at": "2026-11-24T01:02:47.449Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-permissions",
-          "reason": "Covers agent permission configuration and access controls, directly relevant to Expense Mgmt permission sets."
+          "reason": "Agent permissions govern access controls through permission sets assigned to users"
         }
       ]
     },
@@ -7140,108 +7144,123 @@
     },
     "change/bcapps/12262": {
       "kind": "change",
-      "hash": "ef4fd240562b2b25f5e9bb1042bd5a1ada44ca035633ea92e9338d75efa44094",
-      "at": "2026-11-08T00:57:22.529Z",
+      "hash": "bcb90e66a582be671cfda54e55f367acc0803e8e6dcc8d165c2c95610fed9120",
+      "at": "2026-11-24T01:02:47.449Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/bi-column-definitions",
-          "reason": "Documents financial report functionality including column definitions and report packaging that align with financial reporting improvements."
+          "reason": "Financial reporting improvements including column definitions and report export functionality"
         }
       ]
     },
     "change/bcapps/12290": {
       "kind": "change",
-      "hash": "586e7482ef19d86b5955d4f57c84e022025cec7fe6d845134f2d6c7fad779f03",
-      "at": "2026-11-06T00:58:24.813Z",
+      "hash": "eee4efcd5451cf2812965234c8b2cf1db605c34fe972266f1b19dfafd5573ed6",
+      "at": "2026-11-24T01:02:46.747Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/service-service-posting",
-          "reason": "Documents service posting functionality that creates posted service documents across multiple modules."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-create-invoices",
+          "reason": "Documents service invoices and credit memos creation and posting across multiple service document types."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-post-service-orders",
+          "reason": "Documents how to post service orders, invoices, and credit memos in Service Management."
+        }
+      ]
+    },
+    "change/bcapps/12291": {
+      "kind": "change",
+      "hash": "e38030c692c05ef0c7255902e470b5bcb78455359a8e3ef9120d2bf12e419def",
+      "at": "2026-11-24T01:02:46.747Z",
+      "picks": [
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-active-versus-historic-item-tracking-entries",
+          "reason": "Documents item tracking entries in purchase receipts and how tracking records flow through receiving."
         }
       ]
     },
     "change/bcapps/12292": {
       "kind": "change",
-      "hash": "5fa5b9dc93851fc427f4b067fc1e74461e0619f3f5e94dd594edf6dde7704eb1",
-      "at": "2026-10-31T01:02:55.196Z",
+      "hash": "9047b65c94b19b3d02827b9416ab4c1913d3164c36c62856f4543d98b961eb0f",
+      "at": "2026-11-24T01:02:46.747Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/electronic-invoicing",
-          "reason": "Documents FatturaPA electronic invoicing setup and file generation in Italian version."
+          "reason": "Documents FatturaPA electronic invoicing setup including VAT registration number configuration."
         }
       ]
     },
     "change/bcapps/12293": {
       "kind": "change",
-      "hash": "c40128d462e0c0027e789bf74b5f6db9acadf29444c2e0caa14017446d4251c6",
-      "at": "2026-10-24T00:27:02.322Z",
+      "hash": "ea9a223b563fbe6923f70005935a793bd41e70620aa38f85d4e963b4a3e1c0d2",
+      "at": "2026-11-24T01:02:46.747Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-move-items-in-advanced-warehousing",
-          "reason": "Documents warehouse movements and item handling affected by removal of warehouse codeunits and tables."
+          "reason": "Documents warehouse activities including put-away and pick operations in advanced configurations."
         },
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-items-for-directed-put-away-and-pick",
-          "reason": "Documents directed put-away and pick setup that relates to warehouse configuration tables being removed."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-receiving-and-putting-away-in-basic-warehousing",
+          "reason": "Documents receiving and putting away items using warehouse and inventory put-away documents."
         }
       ]
     },
     "change/bcapps/12304": {
       "kind": "change",
-      "hash": "d8ef0c5846cf3a822a929488dd4de58333a47a0cbf09e293972103fef7c4cd48",
-      "at": "2026-10-24T00:27:02.322Z",
+      "hash": "8f4149b792c969f46ec786a3107e5ea1a622a356a3e5bcc570967cdc4c083dad",
+      "at": "2026-11-24T01:02:46.747Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/bi-row-definitions",
-          "reason": "Documents Financial Report row definitions that depend on the Financial Report table with the problematic FlowField."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-25",
+          "reason": "Documents Financial Reports page and table structure for financial reporting functionality."
         },
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-auditing",
-          "reason": "Documents Financial Report audit and change monitoring using the affected Financial Report Audit Log table."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/across-setup-auditing",
+          "reason": "Documents Financial Report audit log and change tracking for setup modifications."
         }
       ]
     },
     "change/bcapps/12306": {
       "kind": "change",
-      "hash": "ed4a1ec7dfee94d0f8e3a0fcfcefeb8eb72b1ef0b0b608ad77838e61c231acd1",
-      "at": "2026-10-24T00:27:02.322Z",
+      "hash": "af1d7e96240fd9ad5b5846454fcb0e0ea785f617eeeddf898b3bc241d2009ea1",
+      "at": "2026-11-24T01:02:46.747Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/release-reopen-documents",
-          "reason": "Documents release and reopen of purchase documents, the workflow process being warned about in this change."
+          "reason": "Documents releasing purchase orders to move them through processing stages."
         }
       ]
     },
     "change/bcapps/12307": {
       "kind": "change",
-      "hash": "a25ccd26eb984d20e237e8516c79647979c0bf2402c2f5dfdc0d77a8ba5612d8",
-      "at": "2026-11-04T00:57:21.828Z",
+      "hash": "ca16612e2a2acabf21395444af1d19be64d8b24e30554ff4fc1052533cfead1d",
+      "at": "2026-11-24T01:02:46.747Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-to-microsoft-base-app",
-          "reason": "Covers upgrade process using DataTransfer and base application migration, relevant to UpgradeDefaultDimensions backfill optimization."
+          "reason": "Documents upgrade process for base application including data migration and backfill operations."
         }
       ]
     },
     "change/bcapps/12308": {
       "kind": "change",
-      "hash": "070bd2eb5ea22601b4aad7098b23b9957f091cc86506accd9162707c6205134b",
-      "at": "2026-11-08T00:57:22.529Z",
+      "hash": "c55011d67b6be6972ae4e1ae04a832c4d179787c7cf12ca415c14dc02714fa99",
+      "at": "2026-11-24T01:02:46.747Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/across-setting-up-workflow-notifications",
-          "reason": "Documents approval workflow notifications and email failure handling that directly relates to notification dispatcher changes."
+          "reason": "Documents approval workflow notifications and notification setup configuration."
         }
       ]
     },
     "change/bcapps/12309": {
       "kind": "change",
-      "hash": "9e70b7e42e255dd83607f99a18dac773de875935abd8a2995e6e22514dc68add",
-      "at": "2026-10-28T10:51:43.238Z",
+      "hash": "4e7fbb078c319f5b6c331e610b3349215482f973881ff0bfb4ae930f14d205d5",
+      "at": "2026-11-24T01:02:47.261Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-export-permission-sets",
-          "reason": "Documents permission set XML export which relates to configuration package field XML name generation."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-get-package-dependencies",
+          "reason": "Addresses XML name generation in Config Package Fields, related to package dependencies."
         }
       ]
     },
@@ -7258,60 +7277,64 @@
     },
     "change/bcapps/12322": {
       "kind": "change",
-      "hash": "c55e56c148dc9636127db6a83f59fb7e32b92385903d152a938306af3588391d",
-      "at": "2026-10-30T01:08:47.009Z",
+      "hash": "2cbcf54bf8670a9f3306ede0f2f00f34117faa74c7a63e3f3ff383c81bd8e0bd",
+      "at": "2026-11-24T01:02:47.261Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-object",
-          "reason": "Documents Permission set objects for access control."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-bin-contents",
+          "reason": "Destination bin code visibility relates to creating and managing bin contents in warehousing."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissions-on-database-objects",
+          "reason": "Permission set changes documented in how permissions work on warehouse objects."
         }
       ]
     },
     "change/bcapps/12324": {
       "kind": "change",
-      "hash": "0f446117fb3ab62187f1340e25900b4f2ecb7100afbde3d7abcbd2ea0bfeccdd",
-      "at": "2026-10-24T00:27:02.316Z",
+      "hash": "f0a085d83edbbbaec358594d3b99e2bc5b57411ad2fa6c38fbc24528be478705",
+      "at": "2026-11-24T01:02:47.261Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions",
-          "reason": "Documents webhooks API functionality that this change modernizes in the public API."
+          "reason": "Obsoletes Http Web Request in webhook API, discusses webhook implementation in OData."
         },
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-trace",
-          "reason": "Documents web service request telemetry for OData and API calls affected by this migration."
+          "reason": "Modernizing OData web service calls, relevant to incoming web service telemetry."
         }
       ]
     },
     "change/bcapps/12325": {
       "kind": "change",
-      "hash": "aa5e8fcb67ddd0c38f55b092cd5d10950dbd9b34eae0d1a0448386bf91d96eaa",
-      "at": "2026-10-24T00:27:02.316Z",
+      "hash": "d79a8f6a16c113debe36c68c310202dcb04a6395f8acc4b266f5fa073b203abe",
+      "at": "2026-11-24T01:02:47.261Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions",
-          "reason": "Documents travel requests which are related to the Expense and Travel Request Approval objects."
+          "reason": "Travel Request Approval codeunit directly implements travel request workflows in Business Central."
         }
       ]
     },
     "change/bcapps/12326": {
       "kind": "change",
-      "hash": "b7098ded50eef9b9807235b8cf8bf129369f54fa8da8dcf374bc56006b8b8834",
-      "at": "2026-11-04T00:57:21.828Z",
+      "hash": "15bd3f36861af5c1ef4e2b8a1e740d57880ef76889304b341df097ae562900bd",
+      "at": "2026-11-24T01:02:47.261Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-outgoing-trace",
-          "reason": "Outgoing Web Service Request Trace covers HTTPClient migration and telemetry for external service calls like Doc. Exchange and OCR."
+          "reason": "Migrating outgoing web service calls, documented in outgoing web service request trace telemetry."
         }
       ]
     },
     "change/bcapps/12328": {
       "kind": "change",
-      "hash": "6940b3b30a2f77cd90968cffe73abd06f9342930878f3e218b1a56c2c33c5c1f",
-      "at": "2026-10-28T10:51:43.238Z",
+      "hash": "afe521ce1634f64d61bb921552df18ff4553eae7ca603f08d368742042776b98",
+      "at": "2026-11-24T01:02:47.261Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights",
-          "reason": "Documents creating custom telemetry events that the fix optimizes to emit once per day."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview",
+          "reason": "Master Data Management telemetry fixes, directly about monitoring and analyzing telemetry."
         }
       ]
     },
@@ -7332,34 +7355,38 @@
     },
     "change/bcapps/12333": {
       "kind": "change",
-      "hash": "0036bedaadafa7103713d482a38852dcaff408ff96475413fe530af9179b7840",
-      "at": "2026-11-08T00:57:22.529Z",
+      "hash": "95c5e1dda09c98f704f2a5606677c38b881eb09d51928060091f1899c65be395",
+      "at": "2026-11-24T01:02:47.261Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/match-purchase-invoice-drafts-to-orders",
-          "reason": "Documents matching purchase invoices with purchase orders and preserving draft data during purchase line creation."
+          "reason": "E-document purchase line unit of measure handling relates to matching invoices to purchase orders."
         }
       ]
     },
     "change/bcapps/12337": {
       "kind": "change",
-      "hash": "71bfcf0159d722b99a22b4b43d63e7887b15177ebfdc80158babcfa8ecc573ac",
-      "at": "2026-10-28T10:51:43.238Z",
+      "hash": "06bd31ca6a3a15f85976ae0057b77e2edf942d7c92dc2e0c884a2a4e92be83fb",
+      "at": "2026-11-24T01:02:47.261Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Reports",
-          "reason": "Documents subcontracting reports for India localization that Stock Register for Job Work report addresses."
+          "reason": "Stock Register for Job Work report is a subcontracting report for India localization."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-webservices",
+          "reason": "AL1430 ruleset fix addresses UI restrictions for objects exposed as web services."
         }
       ]
     },
     "change/bcapps/12339": {
       "kind": "change",
-      "hash": "8450f3b02219d69cef95992e46377e33099a7c81c69d4c706b6b931442379e51",
-      "at": "2026-11-08T00:57:22.529Z",
+      "hash": "102272a9328150ece344a0c5d89e16f17e0bbe519cc72a65fe6c6c7678bfbf93",
+      "at": "2026-11-24T01:02:46.149Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export",
-          "reason": "Documents Microsoft Fabric synchronization setup page controls including table management and reset functionality."
+          "reason": "Documents Fabric Platform setup and table synchronization controls including reset actions."
         }
       ]
     },
@@ -7380,60 +7407,56 @@
     },
     "change/bcapps/12418": {
       "kind": "change",
-      "hash": "de7e4e7afeff439e8071deed1006483ff94d6fed508e0605d92268a28717b620",
-      "at": "2026-10-28T10:51:44.864Z",
+      "hash": "dc79dce398e68c6b6871da16c0874eef50e5566a76b1391f7ab2d18795d96c68",
+      "at": "2026-11-24T01:02:46.149Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/preview-feature-details",
-          "reason": "E-documents and EDI support are featured in the 2026 wave 2 preview updates."
+          "reason": "E-Document functionality is covered in the 2026 release wave 2 feature details."
         }
       ]
     },
     "change/bcapps/12428": {
       "kind": "change",
-      "hash": "3812e255f20af6408bd2adb4f06dce5f1a2236333c698625717d289afa3a7078",
-      "at": "2026-10-28T10:51:44.864Z",
+      "hash": "3c132a2f59d61c1b5f2b5231728cc84af84e7c4827a24dc45149b991103cefe6",
+      "at": "2026-11-24T01:02:46.149Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/privacy-connected-services",
-          "reason": "Documents trial features connecting to Azure OpenAI for Copilot functionality."
-        },
-        {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-create-promptdialog",
-          "reason": "Documents creating Copilot UI experiences with PromptDialog pages."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-define-register",
+          "reason": "Documents defining and registering custom AI agents and Copilot capabilities programmatically."
         }
       ]
     },
     "change/bcapps/12429": {
       "kind": "change",
-      "hash": "ab87d6ee8ef32f46256efeb4a1258599009ba54e12f823c4bdd2c7655f165022",
-      "at": "2026-10-28T10:51:44.864Z",
+      "hash": "c6f36908e0a54ff34a2a84c8ebf27fce7b0f08af191b39c32aa3ec0efa50c34f",
+      "at": "2026-11-24T01:02:46.149Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/admin-data-retention-policies",
-          "reason": "Documents retention policies setup and enabling behavior."
+          "reason": "Documents retention policy setup and enabling behavior during installation and upgrades."
         }
       ]
     },
     "change/bcapps/12430": {
       "kind": "change",
-      "hash": "134b967189dd7cf976c3e82c68be6e113f730f819fe2a9e87b82331d5108275c",
-      "at": "2026-10-28T10:51:44.864Z",
+      "hash": "f5741db25beea0fefd12b4aaf76620ccfa00337a40ab8305d4d12e7ee4d61365",
+      "at": "2026-11-24T01:02:46.149Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/contract-deferrals",
-          "reason": "Documents subscription contract deferrals and deferral release mechanisms."
+          "reason": "Documents contract deferral management and GL entry creation for subscription billing."
         }
       ]
     },
     "change/bcapps/12432": {
       "kind": "change",
-      "hash": "4c33a1bcd053acbb2cea0201ea5c9ca2de9fe978da3c612f74215862c6332ef5",
-      "at": "2026-10-24T00:27:02.079Z",
+      "hash": "c3e05ab2c5c788eca34064b768aa4c6941fcacbb668aafdfc00d3960602432f6",
+      "at": "2026-11-24T01:02:46.149Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally",
-          "reason": "External storage implementation for document attachments with file management and telemetry."
+          "reason": "Documents external file storage configuration for document attachments reducing database capacity."
         }
       ]
     },
@@ -7454,23 +7477,23 @@
     },
     "change/bcapps/12442": {
       "kind": "change",
-      "hash": "71bfcf0159d722b99a22b4b43d63e7887b15177ebfdc80158babcfa8ecc573ac",
-      "at": "2026-10-28T10:51:44.864Z",
+      "hash": "06bd31ca6a3a15f85976ae0057b77e2edf942d7c92dc2e0c884a2a4e92be83fb",
+      "at": "2026-11-24T01:02:46.149Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Reports",
-          "reason": "Documents Stock Register for Job Work report for India localization."
+          "reason": "Stock Register for Job Work is a subcontracting report for India localization tracking."
         }
       ]
     },
     "change/bcapps/12459": {
       "kind": "change",
-      "hash": "5d97041536b67daf444196454ae9ae6d13260f4b820819cb8060040546dc2bd6",
-      "at": "2026-10-24T00:27:02.534Z",
+      "hash": "eac084288392bb6fb51f6b9cfac75468c9cd3e16cd75cc11a66a0cb05efabcee",
+      "at": "2026-11-24T01:02:46.149Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/manufacturing/subcontracting-pricing-item-charges",
-          "reason": "Covers subcontracting price setup and how prices are used in subcontracting manufacturing work."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-prices",
+          "reason": "Documents subcontractor price setup including time-based cost calculations for subcontracting."
         }
       ]
     },
@@ -7487,90 +7510,90 @@
     },
     "change/bcapps/12463": {
       "kind": "change",
-      "hash": "e980e084b88de0341a33763429d908d74185e5d5f912325b26a6c2dfe7e10710",
-      "at": "2026-10-24T00:27:02.534Z",
+      "hash": "f709234ef9bb9ae59f9fe995a12a1a05d8b380c6d16b4199bbd581e8e4c9974f",
+      "at": "2026-11-24T01:02:46.981Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-publish-extensions",
-          "reason": "Covers extension upgrading during Business Central version upgrades and synchronization."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/compare-update-application-object-source-files",
+          "reason": "Documents application object upgrades and changes using cmdlets, relevant to Email Installer upgrade fix."
         }
       ]
     },
     "change/bcapps/12464": {
       "kind": "change",
-      "hash": "02f84463f07ed5f5b867cbf777032f7443efe9348dd3fa8cbcf6bc00af5bf43b",
-      "at": "2026-11-05T00:51:51.286Z",
+      "hash": "9c58281d51bbf73584f12dbd2a80b71d6a4668cbe6a0c0aa4e87ef1cab8b8aa3",
+      "at": "2026-11-24T01:02:46.981Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-plan-for-new-demand",
-          "reason": "Order Planning page manually plans demand order by order with visibility into availability and supply options."
+          "reason": "Documents Order Planning page functionality and manual demand planning, directly related to Order Planning Calculate Plan fix."
         },
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-planning-supplies-automatically",
-          "reason": "Walkthrough demonstrates automatic supply planning using MPS and MRP to calculate purchase and production orders based on demand."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-run-mps-and-mrp",
+          "reason": "Documents full planning and MRP processes, relevant to requisition line planning behavior."
         }
       ]
     },
     "change/bcapps/12466": {
       "kind": "change",
-      "hash": "35465685a76cb8e145c710390a0553d71a4fe4177ce8cb85d7169a9cb03611a3",
-      "at": "2026-10-24T00:27:02.534Z",
+      "hash": "d7387ff44db90be223e67a2df0c9e202416bf9ad11f9ff8653ba2a6c64ec7318",
+      "at": "2026-11-24T01:02:46.981Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-preview-post-results",
-          "reason": "Explains preview posting feature that shows entries before posting, used in sustainability preview."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-service",
+          "reason": "Documents sustainability value chain and sustainability ledger entries posting, directly related to change."
+        },
+        {
+          "url": "https://learn.microsoft.com/dynamics365/business-central/value-chain-howto-purchase",
+          "reason": "Documents sustainability value chain in purchasing and sustainability value entry posting."
         }
       ]
     },
     "change/bcapps/12468": {
       "kind": "change",
-      "hash": "4a75f16243e6611697e902fb2b13d07bcd1cf3000460a8630321f35baab3b3b9",
-      "at": "2026-10-28T10:51:44.864Z",
+      "hash": "23a5b6c988db57e69fabf57690dbfc0b364640716f11d373911103ddc02a3cf6",
+      "at": "2026-11-24T01:02:46.981Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-goods-and-service-tax-posting",
-          "reason": "Documents GST posting setup with VAT posting groups configuration."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/us-tax-setup",
+          "reason": "Documents VAT posting group setup and configuration relevant to VAT Bus. Posting Group."
         }
       ]
     },
     "change/bcapps/12469": {
       "kind": "change",
-      "hash": "9fdba36dc1724ebd78e51ee46e388a0a909099c09450b486c8e0eed926a121d4",
-      "at": "2026-10-24T00:27:02.534Z",
+      "hash": "ef0e5601ee1e80425adcf2b17e64249d50ecda37299df2d560edb7a596e487ac",
+      "at": "2026-11-24T01:02:46.981Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/finance-about-calculating-unit-cost",
-          "reason": "Explains unit cost calculation and how direct unit costs are determined in purchase orders."
+          "reason": "Documents unit cost calculation methods and how direct unit costs are determined in purchase orders."
         }
       ]
     },
     "change/bcapps/12472": {
       "kind": "change",
-      "hash": "bd26e8454fe55f3aa875003a74a3547786b00962f1da6765e5b24d3822e2f61e",
-      "at": "2026-10-24T00:27:04.897Z",
+      "hash": "abd05f484a8e9d97e935d4050c2971aae8298934b8ae3f195e526f6c1c3643dc",
+      "at": "2026-11-24T01:02:46.981Z",
       "picks": [
         {
           "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
-          "reason": "Documents Expense Agent setup including VAT configuration defaults."
+          "reason": "Documents Expense Agent setup and configuration, directly related to Expense Agent Setup table fix."
         },
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent",
-          "reason": "Describes Expense Agent overview and how it processes expenses in Business Central."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-setup",
+          "reason": "Documents Expense Agent VAT setup and accounting defaults in Business Central."
         }
       ]
     },
     "change/bcapps/12474": {
       "kind": "change",
-      "hash": "667ab6ab2351f312a2df588eb17c39f57ca91d559008789f1f8b6a6bbefbbf55",
-      "at": "2026-11-04T00:57:22.209Z",
+      "hash": "060dc0900cae1f44e1674d67cac132f996de777a448707778d0df3be867b8dc1",
+      "at": "2026-11-24T01:02:46.981Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-nondeductible-vat",
-          "reason": "Explains non-deductible VAT tax treatment and posting behavior for items and fixed assets."
-        },
-        {
           "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge",
-          "reason": "Covers reverse charge setup and posting in Czech version with VAT Posting Setup requirements."
+          "reason": "Documents reverse charge VAT setup and posting in Czech version, directly related to non-deductible reverse-charge VAT posting."
         }
       ]
     },
@@ -7587,12 +7610,12 @@
     },
     "change/bcapps/12514": {
       "kind": "change",
-      "hash": "71a6f265f4e22a93c641643b12935be4246743afc58a8abd047c78ef72a95aca",
-      "at": "2026-10-24T00:27:04.897Z",
+      "hash": "de4238d7c5eed84dd2da42a94f30a9f7bf283734869e8e90271a162da71979cb",
+      "at": "2026-11-24T01:02:46.981Z",
       "picks": [
         {
-          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions",
-          "reason": "Documents travel request management which is related to expense approval workflows."
+          "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports",
+          "reason": "Documents travel request approval workflows managed by Travel Request Approval codeunit."
         }
       ]
     },

@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:43:53.469Z"
   flags: []
 generated:
-  at: "2026-10-24T00:06:36.600Z"
+  at: "2026-11-24T01:01:15.134Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -127,6 +127,13 @@ links:
     - feature/573306
     - feature/573307
     - feature/573308
+    - feature/573612
+    - feature/573613
+    - feature/573614
+    - feature/573615
+    - feature/573617
+    - feature/573619
+    - feature/573620
     - feature/576832
   topics: []
   localizations: []
@@ -187,25 +194,31 @@ features:
     roadmap_ids:
       - "573306"
   - name: Bonded location support for excise taxes
-    status: announced
+    status: preview
     t: 104
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573615"
   - name: Transfer entry type for excise permissions
     status: unclear
     t: 166
     verified: false
     status_source: video
   - name: Ad valorem excise tax calculation
-    status: announced
+    status: preview
     t: 189
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573614"
   - name: Hybrid excise tax calculation model
-    status: announced
+    status: preview
     t: 229
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573614"
   - name: Self-billing vendor-specific number series
     status: preview
     t: 258
@@ -214,15 +227,19 @@ features:
     roadmap_ids:
       - "573307"
   - name: Self-billing PEPPOL format support
-    status: unclear
+    status: preview
     t: 292
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573612"
   - name: Cross environment master data management
-    status: unclear
+    status: preview
     t: 315
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573613"
   - name: Withholding tax for employees
     status: preview
     t: 375
@@ -253,15 +270,20 @@ features:
     verified: false
     status_source: video
   - name: EU BP audit file export for Germany
-    status: unclear
+    status: preview
     t: 523
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573617"
   - name: SFT enablement for Austria and Iceland
-    status: announced
+    status: preview
     t: 540
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573619"
+      - "573620"
 objects_mentioned: []
 quotes:
   - t: 54
@@ -328,20 +350,20 @@ The video also covers self-billing (vendor-specific number series and PEPPOL for
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | Multiple excise taxes per item | preview (roadmap [Calculate multiple excise duties per item](../features/573306.md)) | [0:54](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=54s) |  |
-| Bonded location support for excise taxes | announced | [1:44](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=104s) | "Uh again, it will it will be delivered in November, but this is completely new functionality." ([2:30](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=150s)) |
+| Bonded location support for excise taxes | preview (roadmap [Configure and use bonded locations for excise duty calculations](../features/573615.md)) | [1:44](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=104s) | "Uh again, it will it will be delivered in November, but this is completely new functionality." ([2:30](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=150s)) |
 | Transfer entry type for excise permissions | status not stated | [2:46](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=166s) |  |
-| Ad valorem excise tax calculation | announced | [3:09](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=189s) | "So, this is what is coming in November. What else we have?" ([4:18](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s)) |
-| Hybrid excise tax calculation model | announced | [3:49](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=229s) | "So, this is what is coming in November. What else we have?" ([4:18](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s)) |
+| Ad valorem excise tax calculation | preview (roadmap [Use complex calculation methods for excise duties](../features/573614.md)) | [3:09](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=189s) | "So, this is what is coming in November. What else we have?" ([4:18](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s)) |
+| Hybrid excise tax calculation model | preview (roadmap [Use complex calculation methods for excise duties](../features/573614.md)) | [3:49](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=229s) | "So, this is what is coming in November. What else we have?" ([4:18](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s)) |
 | Self-billing vendor-specific number series | preview (roadmap [Vendor specific number series for Self-billing Invoices](../features/573307.md)) | [4:18](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s) |  |
-| Self-billing PEPPOL format support | status not stated | [4:52](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=292s) |  |
-| Cross environment master data management | status not stated | [5:15](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=315s) |  |
+| Self-billing PEPPOL format support | preview (roadmap [Self-billing enablement](../features/573612.md)) | [4:52](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=292s) |  |
+| Cross environment master data management | preview (roadmap [Cross-environment Master Data Management](../features/573613.md)) | [5:15](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=315s) |  |
 | Withholding tax for employees | preview (roadmap [Use withholding taxes (WHT) with employee transactions](../features/573308.md)) | [6:15](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=375s) |  |
 | Invoicing for France GA | generally available (roadmap [Enable electronic invoicing in France](../features/576832.md)) | [8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s) | "we introduce invoicing for France. It will be in GA as well" ([8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s)) |
 | Payment terms expansion for Australia and Great Britain | status not stated | [8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s) |  |
 | Intrastat reporting for Germany | status not stated | [8:31](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=511s) |  |
 | Fully structured address for QR invoicing in Switzerland | status not stated | [8:31](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=511s) |  |
-| EU BP audit file export for Germany | status not stated | [8:43](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=523s) |  |
-| SFT enablement for Austria and Iceland | announced | [9:00](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=540s) | "we will enable SFT in Austria and Iceland starting from December. It will be standard functionality" ([9:00](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=540s)) |
+| EU BP audit file export for Germany | preview (roadmap [Export euBP with audit files export](../features/573617.md)) | [8:43](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=523s) |  |
+| SFT enablement for Austria and Iceland | preview (roadmap [Enable SAF-T audit file format](../features/573619.md), [Enable SAF-T audit file format](../features/573620.md)) | [9:00](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=540s) | "we will enable SFT in Austria and Iceland starting from December. It will be standard functionality" ([9:00](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=540s)) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
