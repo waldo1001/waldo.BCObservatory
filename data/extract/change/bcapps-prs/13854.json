@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13854",
+  "number": 13854,
+  "title": "[Main]-All VAT Entries are gone through without filters with \"Set G/L Account No.\" function.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "VAT Entries page and G/L - VAT Reconciliation report now respect user filters and selections when setting G/L Account numbers, preventing unintended updates to all entries in the database.",
+  "key_points": [
+    "SetGLAccountNo action now uses SetSelectionFilter to process only selected or filtered VAT entries instead of all entries",
+    "Bucket processing range adjusted to run from first to last selected entry without overlaps",
+    "G/L Account No. adjustments in VAT reconciliation report now apply only to VAT Entry Totaling lines, not Account Totaling lines",
+    "Filter group 10 used for bucket range to prevent overwriting existing selection filters",
+    "Significantly improves performance for large companies with millions of VAT entries"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "All VAT Entries are gone through without filters with Set G/L Account No. function.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004371,
+    "changes_in_call": 1
+  }
+}

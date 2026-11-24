@@ -1,0 +1,99 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14405,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14405",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-23T10:07:11Z",
+  "merge_commit_sha": "6e90028ff1e1c2541380b7c0ed154100bad654a8",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Expense Agent] Renumber codeunits that collide with deprecated country apps",
+  "body_hash": "a82ae571348fdbcf6aeb67ffdfc305832f341135d0b9be961c8632f8f8ee8766",
+  "fixes_issues": [],
+  "work_items": [
+    660279,
+    660280,
+    660284,
+    660285
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/README.md",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Consumption/ExpenseAgentQuotaImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Codeunits/NoReceiptDeclarationMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Travel Request/Codeunits/TravelReqLinkedReports.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 11,
+    "deletions": 3,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Consumption/ExpenseAgentQuotaImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6913",
+        "type": "codeunit",
+        "id": 6913,
+        "name": "Expense Agent Quota Impl.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6913"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Codeunits/NoReceiptDeclarationMgt.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Travel Request/Codeunits/TravelReqLinkedReports.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

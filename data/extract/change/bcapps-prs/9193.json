@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9193",
+  "number": 9193,
+  "title": "Lock Code labels on default Transformation Rule records",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Transformation Rule record codes are now locked to prevent translation, ensuring configuration portability across differently-localized environments while keeping descriptions translatable.",
+  "key_points": [
+    "Added Locked = true to 12 Code-producing labels in Transformation Rule default records to prevent translation of primary keys",
+    "Description labels remain translatable since only descriptions should be localized, not the code identifiers",
+    "Fixes portability issues when configurations reference transformation rules across environments with different languages or translation extensions",
+    "Prevents logical rule codes like 'Uppercase' from having different values depending on installation language",
+    "Existing translated code values in pre-upgrade environments will not be renamed; new English locked codes will be inserted as separate records"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00414,
+    "changes_in_call": 1
+  }
+}

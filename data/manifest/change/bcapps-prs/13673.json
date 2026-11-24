@@ -6,10 +6,35 @@
   "title": "Expose active expense approver and expense app navigation",
   "url": "https://github.com/microsoft/BCApps/pull/13673",
   "published_at": "2026-11-23T10:54:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-24T00:13:35.655Z"
+    },
+    "fetched": {
+      "at": "2026-11-24T00:15:40.330Z",
+      "change_class": "code",
+      "files": 16,
+      "al": 9,
+      "objects": 9,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-24T00:15:55.388Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005168
+    },
+    "linked": {
+      "at": "2026-11-24T00:15:55.594Z",
+      "objects": 9,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-24T00:15:55.604Z",
+      "path": "content/changes/bcapps/13673.md"
     }
   },
   "input_hash": "0c472a9ea20fdc3701f41089935feed8f025c94c:c1",
@@ -31,5 +56,8 @@
     ],
     "community_contribution": false,
     "title_key": "expose active expense approver and expense app navigation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "058211b357f4dd10fdb6cf363fbc2c5e70f0d7cd2236ce2c065e1f2c68fd36b4"
 }

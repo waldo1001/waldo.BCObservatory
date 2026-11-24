@@ -1,0 +1,39 @@
+{
+  "item_id": "change/bcapps-prs/13673",
+  "number": 13673,
+  "title": "Expose active expense approver and expense app navigation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "The Expense Reports API now exposes the active approver identifier and replaces submitter expansion with filtering by active approver status. Report pages gain an Open Expense App action to navigate to environment-specific dashboards, and a secondary key enables efficient approver filtering.",
+  "key_points": [
+    "activeApproverExpenseUserNo field exposed in Expense Reports API for direct approver linking",
+    "Submitter-list expansion replaced with filtering by active approver and approval statuses",
+    "Open Expense App actions added to report card and list pages under Navigate section",
+    "Secondary key on Approver Expense User No. and Status enables efficient approver collection queries",
+    "PendingApprovalBy FlowFilter marked obsolete for version 30.0"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": true,
+  "obsoletions": [
+    {
+      "object": "Expense Report Header",
+      "member": "Pending Approval By",
+      "replacement": null
+    }
+  ],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005168,
+    "changes_in_call": 1
+  }
+}

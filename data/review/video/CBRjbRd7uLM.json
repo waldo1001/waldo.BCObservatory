@@ -1,0 +1,27 @@
+{
+  "video_id": "CBRjbRd7uLM",
+  "item_id": "video/yt-hougaard/CBRjbRd7uLM",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The summary and key points give the presenter's surname as 'Hougaard', which is not in the transcript. The speaker only says 'I'm Eric', so I removed the surname.",
+    "All other facts, features and quotes are supported by the transcript.",
+    "Feature statuses stay 'unclear' because the transcript never states a release status. It only says the starter kit is open source.",
+    "I added a quote for the missing page close event on the user control host page type, which none of the existing quotes covered."
+  ],
+  "input_hash": "05693fe3e9295b8e260077df77631f97d06d8500bf323900fa7161b054673ea9",
+  "by": "opus",
+  "at": "2026-11-24T00:15:21.475Z",
+  "applied": [
+    "quote at 533s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.09506
+  }
+}

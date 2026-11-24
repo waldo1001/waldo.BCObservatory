@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14405",
+  "number": 14405,
+  "title": "[Expense Agent] Renumber codeunits that collide with deprecated country apps",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Three Expense Agent codeunits are renumbered from 6913-6915 to 6923-6925 to avoid collisions with deprecated country-specific Expense Agent apps that cause installation failures on thousands of tenants.",
+  "key_points": [
+    "Expense Agent Quota Impl. moves from 6913 to 6923",
+    "No Receipt Declaration Mgt. moves from 6915 to 6925",
+    "Travel Req. Linked Reports moves from 6914 to 6924",
+    "Fixes production hotfix failures affecting ~8,000 US environments",
+    "Reserved codeunit IDs documented in README to prevent future collisions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004956,
+    "changes_in_call": 1
+  }
+}

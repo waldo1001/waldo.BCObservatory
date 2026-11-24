@@ -6,10 +6,35 @@
   "title": "[Main]-All VAT Entries are gone through without filters with \"Set G/L Account No.\" function.",
   "url": "https://github.com/microsoft/BCApps/pull/13854",
   "published_at": "2026-11-23T12:27:46Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-24T00:13:35.655Z"
+    },
+    "fetched": {
+      "at": "2026-11-24T00:15:25.386Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 9,
+      "objects": 3,
+      "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-11-24T00:15:31.753Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004371
+    },
+    "linked": {
+      "at": "2026-11-24T00:15:32.017Z",
+      "objects": 3,
+      "unjoined": 6,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-24T00:15:32.025Z",
+      "path": "content/changes/bcapps/13854.md"
     }
   },
   "input_hash": "a2de2a58efc48160422a768d48db0ca00c022b74:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "all vat entries are gone through without filters with set g l account no function"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c75561e742b2c8ae51f9c64c2a26aa3955a747c28ba3b9650527690a6a05cfcf"
 }

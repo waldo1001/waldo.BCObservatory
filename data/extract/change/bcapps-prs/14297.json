@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/14297",
+  "number": 14297,
+  "title": "[master] Exporting the VAT Report using the new ELMA XML export the report status remains 'Released' instead of changing to 'Exported' in the German version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Fixed a bug where the VAT report status remained 'Released' instead of changing to 'Exported' when exporting via ELMA XML format in the German version.",
+  "key_points": [
+    "VAT report export status was not updating correctly in German localization",
+    "Issue occurred when using the new ELMA XML export format",
+    "Status should change from 'Released' to 'Exported' after export",
+    "Fix applied to VAT Report Export codeunit",
+    "Test coverage added for the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Exporting the VAT Report using the new ELMA XML export the report status remains 'Released' instead of changing to 'Exported' in the German version.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003502,
+    "changes_in_call": 1
+  }
+}

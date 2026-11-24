@@ -6,10 +6,35 @@
   "title": "Lock Code labels on default Transformation Rule records",
   "url": "https://github.com/microsoft/BCApps/pull/9193",
   "published_at": "2026-11-23T10:00:24Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-24T00:13:35.655Z"
+    },
+    "fetched": {
+      "at": "2026-11-24T00:17:03.383Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-24T00:17:19.886Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.00414
+    },
+    "linked": {
+      "at": "2026-11-24T00:17:20.093Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-24T00:17:20.101Z",
+      "path": "content/changes/bcapps/9193.md"
     }
   },
   "input_hash": "66bfa3f8309f7b0ec94c676c4dd7d133d591b5d9:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "lock code labels on default transformation rule records"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cd2e0c5a31c881c151dff3e4550193a06f2034ba8f3e4dc87e2cd43e68cb2761"
 }

@@ -6,10 +6,35 @@
   "title": "[Expense Agent] Renumber codeunits that collide with deprecated country apps",
   "url": "https://github.com/microsoft/BCApps/pull/14405",
   "published_at": "2026-11-23T10:07:11Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-24T00:13:35.655Z"
+    },
+    "fetched": {
+      "at": "2026-11-24T00:16:26.094Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 1,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-11-24T00:16:35.497Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.004956
+    },
+    "linked": {
+      "at": "2026-11-24T00:16:35.754Z",
+      "objects": 1,
+      "unjoined": 2,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-24T00:16:35.761Z",
+      "path": "content/changes/bcapps/14405.md"
     }
   },
   "input_hash": "6e90028ff1e1c2541380b7c0ed154100bad654a8:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "expense agent renumber codeunits that collide with deprecated country apps"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "162f2536ff2239b041562b98829887955f8696a0446be906164b3e99a6a39392"
 }

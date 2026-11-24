@@ -6,10 +6,35 @@
   "title": "Expose Payables Agent infotip sources through test fixtures",
   "url": "https://github.com/microsoft/BCApps/pull/14327",
   "published_at": "2026-11-23T13:16:17Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-11-24T00:13:35.655Z"
+    },
+    "fetched": {
+      "at": "2026-11-24T00:15:12.946Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-11-24T00:15:21.618Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004382
+    },
+    "linked": {
+      "at": "2026-11-24T00:15:21.897Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-24T00:15:21.904Z",
+      "path": "content/changes/bcapps/14327.md"
     }
   },
   "input_hash": "10b8fa8620243ed12f28f25869987c65de7c39e0:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "expose payables agent infotip sources through test fixtures"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a0627ac0e782bcd1cf3f9d326d873a0435c41d35b27ea16fd5a8739970ec07a8"
 }

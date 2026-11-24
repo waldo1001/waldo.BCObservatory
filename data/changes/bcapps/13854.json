@@ -1,0 +1,188 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13854,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13854",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-23T12:27:46Z",
+  "merge_commit_sha": "a2de2a58efc48160422a768d48db0ca00c022b74",
+  "author": "DhavalMore88",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Main]-All VAT Entries are gone through without filters with \"Set G/L Account No.\" function.",
+  "body_hash": "fb92c7b7596c1bd0e6244da35709f530a20b404402d81df48ea09c194ca4a90b",
+  "fixes_issues": [],
+  "work_items": [
+    660009
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/Tests/Local/DACHREPLabTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Reporting/GLVATReconciliation.Report.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/ERMGLVATReconciliation.Codeunit.al",
+      "status": "modified",
+      "additions": 57,
+      "deletions": 9,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 11,
+    "additions": 184,
+    "deletions": 55,
+    "al": 9
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+        "status": "modified",
+        "key": "page/315",
+        "type": "page",
+        "id": 315,
+        "name": "VAT Entries",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/315"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+        "status": "modified",
+        "key": "page/315",
+        "type": "page",
+        "id": 315,
+        "name": "VAT Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/315"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Reporting/GLVATReconciliation.Report.al",
+        "status": "modified",
+        "key": "report/11",
+        "type": "report",
+        "id": 11,
+        "name": "G/L - VAT Reconciliation",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/11"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/VAT/Ledger/VATEntries.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}
