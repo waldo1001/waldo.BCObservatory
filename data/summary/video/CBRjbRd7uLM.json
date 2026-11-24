@@ -1,0 +1,25 @@
+{
+  "video_id": "CBRjbRd7uLM",
+  "item_id": "video/yt-hougaard/CBRjbRd7uLM",
+  "summary": "Erik Hougaard's open source starter control add-in for AL in Business Central covers flexible height control, keyboard routing, caption translation and resource streaming. It also covers the user control host page type, which has no page close event and is risky for editable data.",
+  "overview": "Erik Hougaard demonstrates an open source control add-in project for Business Central AL development. It addresses recurring problems with control add-ins: inconsistent height handling, keyboard input captured by the control, translating captions, and managing content such as HTML and SVG.\n\nThe video walks through the repository structure and code, including loading content and event handling. It also explains the user control host page type and the control ready event. Hougaard says the project may not be the world's best yet, and that it is community-maintained and still evolving.",
+  "key_points": [
+    "Height control options include fill parent, fixed height, margins and offsets, as an alternative to Microsoft's inconsistent default height handling.",
+    "Keyboard presses are routed through the control add-in so standard Business Central keys keep working when focus is in the control. Hougaard treats this as an accessibility issue, and says it requires hacking to implement.",
+    "Caption translation requires labels defined in AL and passed into the control add-in. The text then changes when the application language changes.",
+    "Resources such as HTML, SVG, icons and text are streamed from the app into the control add-in instead of being embedded as strings. This requires resource folder configuration.",
+    "The user control host page type has no page close event, so it risks data loss for editable content. Hougaard considers it reliable only for read-only scenarios. He says it was built mainly for Power BI and that he has raised the limitation with Microsoft.",
+    "The on control ready event fires after page open, so developers cannot assume the control is ready when the page opens.",
+    "The repository includes a scaffolding template and a skill document for creating new control add-ins. It can be used as a template in tools like Codex."
+  ],
+  "audience": [
+    "developer"
+  ],
+  "extraction_hash": "4c925a6eaac163a69ae69d3da426f17ac3995219f737648f1627f8b24be6e9c7",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.018816
+  }
+}

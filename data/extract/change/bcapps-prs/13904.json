@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/13904",
+  "number": 13904,
+  "title": "[29.X]-Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Unposted purchase return orders and credit memos are now discoverable through the Find Entries page, making it easier for users to locate these documents during document tracing workflows.",
+  "key_points": [
+    "Navigate page updated to include unposted purchase return orders and credit memos in search results",
+    "Changes applied across all localization layers (DACH, ES, NA, RU, W1, BE, CZ, IT)",
+    "Test coverage added to verify functionality works correctly",
+    "Improves document navigation and traceability for purchase transactions"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003664,
+    "changes_in_call": 1
+  }
+}

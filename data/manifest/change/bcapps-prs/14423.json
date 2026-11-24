@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/14423",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 659561: Make FI depreciation posting buffer temporary",
+  "url": "https://github.com/microsoft/BCApps/pull/14423",
+  "published_at": "2026-11-23T15:33:27Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-24T00:13:35.655Z"
+    },
+    "fetched": {
+      "at": "2026-11-24T00:14:38.041Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-11-24T00:14:45.933Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003273
+    },
+    "linked": {
+      "at": "2026-11-24T00:14:46.199Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-24T00:14:46.208Z",
+      "path": "content/changes/bcapps/14423.md"
+    }
+  },
+  "input_hash": "1d05e2c0aebb8f0d6d5c22643d3f7f66cd888194:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14423,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1d05e2c0aebb8f0d6d5c22643d3f7f66cd888194",
+    "author": "AleksanderGladkov",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 659561 make fi depreciation posting buffer temporary"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a9a63ef995dd1dd6dc851eca7b56020e955c6b48fbc4da5a57199ee425f5bde5"
+}

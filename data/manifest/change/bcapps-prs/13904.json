@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13904",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.",
+  "url": "https://github.com/microsoft/BCApps/pull/13904",
+  "published_at": "2026-11-23T21:51:10Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-24T00:13:35.655Z"
+    },
+    "fetched": {
+      "at": "2026-11-24T00:14:02.534Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-24T00:14:07.846Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003664
+    },
+    "linked": {
+      "at": "2026-11-24T00:14:08.051Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "6a9588a817c12a5d35d3e6c4ad40e29ecca88acf"
+    },
+    "published": {
+      "at": "2026-11-24T00:14:08.191Z",
+      "path": "content/changes/bcapps/13904.md"
+    }
+  },
+  "input_hash": "b42f520c380a64062ca700b5f5450acc436e5b05:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13904,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "b42f520c380a64062ca700b5f5450acc436e5b05",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "unposted purchase return orders and credit memos should be added to the find entries"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5da4f832760e077f03646891c9d7c078c5f6ac87f541363c0bac4c85564271a7"
+}

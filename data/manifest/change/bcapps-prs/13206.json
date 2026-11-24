@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/13206",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29x]- \"You must assign a serial number for item xxx\" when trying to reverse Capacity Ledger Entry",
+  "url": "https://github.com/microsoft/BCApps/pull/13206",
+  "published_at": "2026-11-23T14:29:42Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-24T00:13:35.655Z"
+    },
+    "fetched": {
+      "at": "2026-11-24T00:14:50.578Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-24T00:14:56.741Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003315
+    },
+    "linked": {
+      "at": "2026-11-24T00:14:56.957Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "6a9588a817c12a5d35d3e6c4ad40e29ecca88acf"
+    },
+    "published": {
+      "at": "2026-11-24T00:14:56.965Z",
+      "path": "content/changes/bcapps/13206.md"
+    }
+  },
+  "input_hash": "b0a15298102e32eb955e6bc7a8e83c1ae94aed2c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13206,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "b0a15298102e32eb955e6bc7a8e83c1ae94aed2c",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "29x you must assign a serial number for item xxx when trying to reverse capacity ledger entry"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "76f9d60ae0daa3ea96adda0d5b67a66b22544dd8c1c5f48e0f941ddb5c3549db"
+}

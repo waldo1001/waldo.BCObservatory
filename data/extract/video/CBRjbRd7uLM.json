@@ -1,0 +1,301 @@
+{
+  "video_id": "CBRjbRd7uLM",
+  "item_id": "video/yt-hougaard/CBRjbRd7uLM",
+  "title": "Building the World's Best ControlAddIn for AL code in Business Central",
+  "duration_s": 901,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "control add-in",
+    "al development",
+    "keyboard routing",
+    "height control",
+    "javascript",
+    "captions",
+    "translations",
+    "resources",
+    "html rendering",
+    "accessibility"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to control add-in challenges",
+      "t_start": 0,
+      "t_end": 68.5
+    },
+    {
+      "title": "Demo - control add-in overview and height control",
+      "t_start": 68.5,
+      "t_end": 148.8
+    },
+    {
+      "title": "Height adjustment features and flexibility",
+      "t_start": 148.8,
+      "t_end": 276.4
+    },
+    {
+      "title": "Keyboard routing and accessibility",
+      "t_start": 276.4,
+      "t_end": 359.5
+    },
+    {
+      "title": "Captions, translations, and content loading",
+      "t_start": 359.5,
+      "t_end": 441.5
+    },
+    {
+      "title": "Repository structure and user control host page type",
+      "t_start": 441.5,
+      "t_end": 569.7
+    },
+    {
+      "title": "Code walkthrough - load content and event handling",
+      "t_start": 569.7,
+      "t_end": 723
+    },
+    {
+      "title": "Resource management and HTML rendering",
+      "t_start": 723,
+      "t_end": 870.9
+    },
+    {
+      "title": "Summary and call to action",
+      "t_start": 870.9,
+      "t_end": 901
+    }
+  ],
+  "features": [
+    {
+      "name": "Flexible height control for control add-ins",
+      "description": "Allows developers to adjust control add-in height dynamically with options including fill parent, fixed height, margins, and offsets. Solves the problem of Microsoft's inconsistent height handling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 113.3,
+      "t_end": 224.5,
+      "is_demoed": true,
+      "caveats": [
+        "Height control varies inconsistently across Microsoft's default implementation"
+      ],
+      "tags": [
+        "control add-in",
+        "height",
+        "ui layout"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Keyboard input routing in control add-ins",
+      "description": "Routes keyboard presses through the control add-in so Business Central standard keys remain functional when focus is on the control. Addresses accessibility issues for users with alternative input methods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 276.4,
+      "t_end": 359.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires hacking to implement",
+        "Standard Business Central controls capture keyboard input by default"
+      ],
+      "tags": [
+        "keyboard",
+        "accessibility",
+        "input handling"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Caption translation support in control add-ins",
+      "description": "Passes labels from AL code into control add-ins to support dynamic caption translation. Enables control add-in text to change when application language changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 368.7,
+      "t_end": 441.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires pipeline support for translation",
+        "Labels must be explicitly defined in AL"
+      ],
+      "tags": [
+        "captions",
+        "translations",
+        "internationalization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Resource streaming for control add-in content",
+      "description": "Streams resources (HTML, SVG, icons, text) from the app into the control add-in for rendering instead of embedding as strings in code. Makes content management easier.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 415,
+      "t_end": 723,
+      "is_demoed": true,
+      "caveats": [
+        "Requires resource folder configuration"
+      ],
+      "tags": [
+        "resources",
+        "content loading",
+        "html"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Starter kit with skill document for new control add-ins",
+      "description": "Open source repository with scaffolding template and documentation to quickly create new control add-ins. Can be used as template in development tools like Codex.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 441.5,
+      "t_end": 502.9,
+      "is_demoed": true,
+      "caveats": [
+        "Open source, community-maintained",
+        "Still evolving, may not be worlds best yet"
+      ],
+      "tags": [
+        "starter kit",
+        "template",
+        "open source",
+        "scaffolding"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "User control host page type limitation - no page close event",
+      "description": "User control host page type currently lacks a page close event, making it risky for pages with editable data as users can close without saving. Only reliable for read-only scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 523.3,
+      "t_end": 580.6,
+      "is_demoed": false,
+      "caveats": [
+        "No page close event available",
+        "Data loss risk for editable content",
+        "Built primarily for Power BI scenarios",
+        "Microsoft has been notified of limitation"
+      ],
+      "tags": [
+        "page type",
+        "limitation",
+        "data persistence"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Control ready event for initialization timing",
+      "description": "User control add-ins fire an on control ready event when initialized, which is later than page open. Developers cannot assume the control is ready on page open.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 602.2,
+      "t_end": 630,
+      "is_demoed": true,
+      "caveats": [
+        "Event fires after page open, not during"
+      ],
+      "tags": [
+        "initialization",
+        "events",
+        "timing"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "caption code unit",
+      "t": 638.6
+    },
+    {
+      "type": "page",
+      "name": "user control host",
+      "t": 523.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 113.3,
+      "text": "And the first thing is a more flexible of controlling the height of a controller then.",
+      "why_it_matters": "Identifies the primary problem this starter kit solves - Microsoft's inconsistent control add-in height handling across different contexts.",
+      "check": "exact"
+    },
+    {
+      "t": 325.2,
+      "text": "And and and for me this is very much an accessibility issue there's nothing more annoying than suddenly you have to grab the mouse",
+      "why_it_matters": "Explains why keyboard routing is critical for accessibility and user experience, not just a nice-to-have feature.",
+      "check": "exact"
+    },
+    {
+      "t": 404.2,
+      "text": "So for in order for that to work, you have to have labels sitting in AL that is get passed into the controller then",
+      "why_it_matters": "Describes the technical requirement for supporting translations in control add-ins through AL labels.",
+      "check": "exact"
+    },
+    {
+      "t": 548.1,
+      "text": "So you're if you have data in here and you want to save on exit and stuff like that, it it's super easy for",
+      "why_it_matters": "Identifies a critical limitation of user control host page type that makes it unsuitable for data entry scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 818.1,
+      "text": "this is what I use whenever I okay, now I need to build a new controller in it. So the challenge is that you",
+      "why_it_matters": "Explains the architectural constraint that led to creating a starter kit template instead of a reusable library for control add-ins.",
+      "check": "exact"
+    },
+    {
+      "t": 848.8,
+      "text": "So so I find this approach is is very very easy for me to use. Um, and it solves all the issues I'm typically",
+      "why_it_matters": "Summarizes that the starter kit addresses multiple long-standing control add-in quality issues the presenter has encountered.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 58.3,
+      "kind": "other",
+      "text": "maybe this is not the world's best control add-in yet, but it's open source"
+    },
+    {
+      "t": 558.9,
+      "kind": "other",
+      "text": "So I have advocated my my concerns to Microsoft on this."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026222000000000002
+    }
+  ]
+}

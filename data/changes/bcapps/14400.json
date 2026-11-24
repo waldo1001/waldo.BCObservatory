@@ -1,0 +1,190 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 14400,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/14400",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-11-23T20:36:37Z",
+  "merge_commit_sha": "c637662d93719fdb29bd270ca10fd375f2db64b0",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master Data Management] User-friendly errors for cross-environment connection and permission failures",
+  "body_hash": "0a4c0e9b8c1725b7a8a518abf95661f598e5a44ac41db27ac6f0f73100161b5a",
+  "fixes_issues": [],
+  "work_items": [
+    656413,
+    660237
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMCrossEnvChangeDetector.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMCrossEnvDataSource.Codeunit.al",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMCrossEnvSourceAPI.Codeunit.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMHttpSourceTransport.Codeunit.al",
+      "status": "modified",
+      "additions": 129,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMSourceResponse.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MDMConnectionDetails.Page.al",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test library/src/LibraryMasterDataMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/app.json",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/src/MDMCrossEnvConsumerTests.Codeunit.al",
+      "status": "modified",
+      "additions": 241,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/src/MDMCrossEnvDetectorTests.Codeunit.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/src/MDMCrossEnvSourceTests.Codeunit.al",
+      "status": "modified",
+      "additions": 99,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 11,
+    "additions": 624,
+    "deletions": 32,
+    "al": 6
+  },
+  "join": {
+    "major": "30",
+    "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0",
+    "objects": [
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMCrossEnvChangeDetector.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7245",
+        "type": "codeunit",
+        "id": 7245,
+        "name": "MDM Cross-Env Change Detector",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7245"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMCrossEnvDataSource.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7249",
+        "type": "codeunit",
+        "id": 7249,
+        "name": "MDM Cross-Env Data Source",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7249"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMCrossEnvSourceAPI.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7241",
+        "type": "codeunit",
+        "id": 7241,
+        "name": "MDM Cross-Env Source API",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7241"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMHttpSourceTransport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7247",
+        "type": "codeunit",
+        "id": 7247,
+        "name": "MDM Http Source Transport",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7247"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMSourceResponse.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7248",
+        "type": "codeunit",
+        "id": 7248,
+        "name": "MDM Source Response",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7248"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/pages/MDMConnectionDetails.Page.al",
+        "status": "modified",
+        "key": "page/7232",
+        "type": "page",
+        "id": 7232,
+        "name": "MDM Connection Details",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "page/7232"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "MasterDataManagement"
+  ]
+}

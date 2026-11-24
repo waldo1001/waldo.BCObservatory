@@ -2,8 +2,8 @@
   "item_id": "docs/learn-devitpro/dev-itpro/compliance/apptest-countries-and-translations.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations",
   "title": "Country/Regional Availability and Supported Languages",
-  "blob": "bf81ea6161004d74afb85dd4cbd6f165117e8698",
-  "summary": "Country/regional availability and supported languages for Dynamics 365 Business Central, including localization status, Azure geography deployment, and platform and application language support across countries and regions.",
+  "blob": "7cf51395ae651303d052c6f94b1afa5a860c47ba",
+  "summary": "Lists all countries and regions where Dynamics 365 Business Central is available, the languages supported, localization providers (Microsoft or partners), Azure geographies for environment deployment, and language platform and application translation availability.",
   "systems": [
     "localization",
     "administration",
@@ -11,21 +11,23 @@
   ],
   "topics": [
     "country availability",
-    "regional localization",
-    "supported languages",
+    "regional support",
+    "language support",
+    "localization",
     "azure geography",
-    "partner localization",
-    "language translation"
+    "marketplace",
+    "environment deployment"
   ],
   "objects": [],
   "features": [
-    "Microsoft-provided localizations",
-    "partner-provided localizations",
-    "W1 international version",
-    "language apps on Marketplace",
-    "platform caption translation",
-    "application caption translation",
-    "Feature Management for localization"
+    "country/region availability",
+    "supported languages",
+    "platform translation",
+    "application translation",
+    "localization apps",
+    "azure geography mapping",
+    "environment localization",
+    "partner localizations"
   ],
   "versions": [
     "2023 release wave 1",
@@ -39,7 +41,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.018161,
+      "cost_usd": 0.018191,
       "pages_in_call": 1
     }
   ]

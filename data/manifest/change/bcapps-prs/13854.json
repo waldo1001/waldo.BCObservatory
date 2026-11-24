@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/13854",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-All VAT Entries are gone through without filters with \"Set G/L Account No.\" function.",
+  "url": "https://github.com/microsoft/BCApps/pull/13854",
+  "published_at": "2026-11-23T12:27:46Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-24T00:13:35.655Z"
+    }
+  },
+  "input_hash": "a2de2a58efc48160422a768d48db0ca00c022b74:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13854,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a2de2a58efc48160422a768d48db0ca00c022b74",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "all vat entries are gone through without filters with set g l account no function"
+  }
+}

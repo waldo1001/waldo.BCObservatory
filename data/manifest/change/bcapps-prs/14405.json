@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/14405",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Expense Agent] Renumber codeunits that collide with deprecated country apps",
+  "url": "https://github.com/microsoft/BCApps/pull/14405",
+  "published_at": "2026-11-23T10:07:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-24T00:13:35.655Z"
+    }
+  },
+  "input_hash": "6e90028ff1e1c2541380b7c0ed154100bad654a8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14405,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6e90028ff1e1c2541380b7c0ed154100bad654a8",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expense agent renumber codeunits that collide with deprecated country apps"
+  }
+}

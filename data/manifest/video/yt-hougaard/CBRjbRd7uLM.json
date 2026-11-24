@@ -1,0 +1,73 @@
+{
+  "id": "video/yt-hougaard/CBRjbRd7uLM",
+  "pillar": "video",
+  "source": "yt-hougaard",
+  "tier": "community",
+  "title": "Building the World's Best ControlAddIn for AL code in Business Central",
+  "url": "https://www.youtube.com/watch?v=CBRjbRd7uLM",
+  "published_at": "2026-11-23T11:00:02.000Z",
+  "language": "en",
+  "state": "linked",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-24T00:13:35.655Z"
+    },
+    "fetched": {
+      "at": "2026-11-24T00:14:12.567Z",
+      "captions": "auto:en-orig",
+      "duration_s": 901
+    },
+    "captioned": {
+      "at": "2026-11-24T00:14:21.473Z",
+      "path": "vault:captions/community/yt-hougaard/CBRjbRd7uLM.vtt",
+      "vtt_sha256": "647069284254d25eb087ee20b7512c55f73a0197981d998b1a9969b1cec7e559",
+      "segments": 80,
+      "words": 1969,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-11-24T00:14:50.339Z",
+      "path": "data/extract/video/CBRjbRd7uLM.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 7,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.026222
+    },
+    "summarized": {
+      "at": "2026-11-24T00:14:59.018Z",
+      "path": "data/summary/video/CBRjbRd7uLM.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.018816
+    },
+    "linked": {
+      "at": "2026-11-24T00:15:04.457Z",
+      "systems": [
+        "development",
+        "platform"
+      ],
+      "topics": 10,
+      "objects_as_heard": 2
+    }
+  },
+  "input_hash": null,
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "channel_id": "UCcJCTa4PvbOQj50y_HJSxXw",
+    "duration_s": 901,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "74d59d1906d32c158209e5b873695b6db1144708a1bb05595aa238af413d78bc"
+}

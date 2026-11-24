@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/14400",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master Data Management] User-friendly errors for cross-environment connection and permission failures",
+  "url": "https://github.com/microsoft/BCApps/pull/14400",
+  "published_at": "2026-11-23T20:36:37Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-24T00:13:35.655Z"
+    },
+    "fetched": {
+      "at": "2026-11-24T00:14:08.737Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 6,
+      "objects": 6,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-24T00:14:15.964Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004809
+    },
+    "linked": {
+      "at": "2026-11-24T00:14:16.168Z",
+      "objects": 6,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-24T00:14:16.179Z",
+      "path": "content/changes/bcapps/14400.md"
+    }
+  },
+  "input_hash": "c637662d93719fdb29bd270ca10fd375f2db64b0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14400,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "c637662d93719fdb29bd270ca10fd375f2db64b0",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master data management user friendly errors for cross environment connection and permission failures"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0c2b92a47658bc94f51da946bc01f5eab4deb6229d5fd5cda73dbfb91d033efd"
+}

@@ -1,0 +1,77 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13206,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13206",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-23T14:29:42Z",
+  "merge_commit_sha": "b0a15298102e32eb955e6bc7a8e83c1ae94aed2c",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29x]- \"You must assign a serial number for item xxx\" when trying to reverse Capacity Ledger Entry",
+  "body_hash": "84d01105b5133ab0ae68e67ee5be87149a51571e118400f499de1c98677b59e7",
+  "fixes_issues": [],
+  "work_items": [
+    656545
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/Tests/SCM-Manufacturing/SCMProductionOrderIII.Codeunit.al",
+      "status": "modified",
+      "additions": 77,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Posting/MfgItemJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMProductionOrderIII.Codeunit.al",
+      "status": "modified",
+      "additions": 77,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 163,
+    "deletions": 2,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "6a9588a817c12a5d35d3e6c4ad40e29ecca88acf",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Inventory/Posting/MfgItemJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000822",
+        "type": "codeunit",
+        "id": 99000822,
+        "name": "Mfg. Item Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000822"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

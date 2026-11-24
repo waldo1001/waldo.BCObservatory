@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/14297",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] Exporting the VAT Report using the new ELMA XML export the report status remains 'Released' instead of changing to 'Exported' in the German version.",
+  "url": "https://github.com/microsoft/BCApps/pull/14297",
+  "published_at": "2026-11-23T12:14:34Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-24T00:13:35.655Z"
+    }
+  },
+  "input_hash": "2bb090c89a8b7c79d33a1a33b8b1e84468ff2f5f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14297,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2bb090c89a8b7c79d33a1a33b8b1e84468ff2f5f",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master exporting the vat report using the new elma xml export the report status remains released instead of changing to exported in the german version"
+  }
+}

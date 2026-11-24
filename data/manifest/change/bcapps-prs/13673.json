@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/13673",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Expose active expense approver and expense app navigation",
+  "url": "https://github.com/microsoft/BCApps/pull/13673",
+  "published_at": "2026-11-23T10:54:01Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-24T00:13:35.655Z"
+    }
+  },
+  "input_hash": "0c472a9ea20fdc3701f41089935feed8f025c94c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13673,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "0c472a9ea20fdc3701f41089935feed8f025c94c",
+    "author": "encimita",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "ExpenseManagement",
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expose active expense approver and expense app navigation"
+  }
+}

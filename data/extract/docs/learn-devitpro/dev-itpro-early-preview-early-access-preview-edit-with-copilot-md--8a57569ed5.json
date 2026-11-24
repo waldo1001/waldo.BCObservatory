@@ -2,32 +2,38 @@
   "item_id": "docs/learn-devitpro/dev-itpro/early-preview/early-access-preview-edit-with-copilot.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/early-preview/early-access-preview-edit-with-copilot",
   "title": "Edit with Copilot",
-  "blob": "7a4b60acb86276fd3bbf2209d9b104ed6a2d1572",
-  "summary": "Edit with Copilot is an early access preview feature that enables Copilot to create, modify, delete Business Central records and run actions using natural language, available only in sandbox environments for US, UK, and Germany regions.",
+  "blob": "29f935e095573e3a8e3182376fa4b060baec40d6",
+  "summary": "Edit with Copilot is an early access preview feature that enables Copilot to create, edit, delete Business Central records and run actions using natural language instructions within your user permissions.",
   "systems": [
     "copilot",
-    "development",
-    "integration"
+    "platform",
+    "development"
   ],
   "topics": [
     "copilot",
     "ai",
     "natural language",
-    "record editing",
+    "data editing",
     "preview",
+    "early access",
     "automation",
-    "safeguards"
+    "sandbox"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Extension Management"
+    }
+  ],
   "features": [
-    "Create records",
-    "Edit records",
-    "Delete records",
-    "Run actions",
-    "Data grounding",
-    "Security and permissions",
-    "Audit logging",
-    "Feedback mechanism"
+    "create records",
+    "edit records",
+    "delete records",
+    "run actions",
+    "natural language processing",
+    "user permission inheritance",
+    "audit logging",
+    "observability"
   ],
   "versions": [
     "version 30.0.56564.0",
@@ -39,7 +45,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.011693,
+      "cost_usd": 0.011905,
       "pages_in_call": 1
     }
   ]

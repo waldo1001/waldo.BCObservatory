@@ -674,6 +674,15 @@
       "title_key": "bug 649448 fully received wip purchase orders block disable legacy subcontracting"
     }
   ],
+  "12084": [
+    {
+      "number": 13962,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-23T18:55:08Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13962",
+      "title_key": "bug 658838 29 x subcontracting add feature uptake telemetry"
+    }
+  ],
   "12124": [
     {
       "number": 12269,
@@ -1284,6 +1293,15 @@
       "merged_at": "2026-11-20T07:29:28Z",
       "url": "https://github.com/microsoft/BCApps/pull/14319",
       "title_key": "update expense category and subcategory descriptions"
+    }
+  ],
+  "14331": [
+    {
+      "number": 14392,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-23T09:54:24Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14392",
+      "title_key": "29 x backport fix trailing periods in generated document attachment folders"
     }
   ],
   "unmatched": [
@@ -2833,6 +2851,48 @@
       "merged_at": "2026-11-22T22:51:51Z",
       "url": "https://github.com/microsoft/BCApps/pull/14377",
       "title_key": "subcontracting receipt extensibility events"
+    },
+    {
+      "number": 13498,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-23T04:38:29Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13498",
+      "title_key": "purchase invoice fails with quantity larger than item ledger entry after partial invoicing of multiple receipts with non base uom and qty rounding precision 1"
+    },
+    {
+      "number": 14408,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-23T08:37:08Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14408",
+      "title_key": "expense agent renumber codeunits 6913 and 6914 to avoid collisions with legacy country apps"
+    },
+    {
+      "number": 14383,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-23T08:59:27Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14383",
+      "title_key": "bug 660210 direct transfer route does not populate configured in transit code"
+    },
+    {
+      "number": 14384,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-23T08:59:47Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14384",
+      "title_key": "bug 660211 transfer routes matrix does not indicate configured direct routes"
+    },
+    {
+      "number": 14387,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-23T15:39:01Z",
+      "url": "https://github.com/microsoft/BCApps/pull/14387",
+      "title_key": "fix duplicate expense vendor numbers during receipt submission bug 659708"
+    },
+    {
+      "number": 13863,
+      "base": "releases/29.x",
+      "merged_at": "2026-11-23T19:50:26Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13863",
+      "title_key": "hide use concurrent posting in general ledger setup"
     }
   ]
 }

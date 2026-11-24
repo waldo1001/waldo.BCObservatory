@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/13813",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] feature 624914 - Refactor depreciation calculation logic to use GetDepreciationCalculationBase for improved clarity and maintainability",
+  "url": "https://github.com/microsoft/BCApps/pull/13813",
+  "published_at": "2026-11-23T16:28:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-24T00:13:35.655Z"
+    }
+  },
+  "input_hash": "518fcb43c51e03bc9243eea7d6c44b4c5a4ddb50:c1",
+  "attempts": 1,
+  "flags": [],
+  "meta": {
+    "number": 13813,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "518fcb43c51e03bc9243eea7d6c44b4c5a4ddb50",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "feature 624914 refactor depreciation calculation logic to use getdepreciationcalculationbase for improved clarity and maintainability"
+  },
+  "last_error": "The operation was aborted due to timeout",
+  "retry_after": "2026-11-24T02:14:52.443Z"
+}

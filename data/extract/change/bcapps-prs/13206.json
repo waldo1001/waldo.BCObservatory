@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/13206",
+  "number": 13206,
+  "title": "[29x]- \"You must assign a serial number for item xxx\" when trying to reverse Capacity Ledger Entry",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Fixed an error that occurred when reversing Capacity Ledger Entry for items requiring serial number assignment, allowing these entries to be reversed without the serial number validation error.",
+  "key_points": [
+    "Resolves incorrect serial number validation when reversing Capacity Ledger Entry",
+    "Affects manufacturing item journal posting logic",
+    "Issue occurred in BC 29.x and all environments",
+    "Test coverage added for the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003315,
+    "changes_in_call": 1
+  }
+}

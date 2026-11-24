@@ -1,0 +1,170 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13904,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13904",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-11-23T21:51:10Z",
+  "merge_commit_sha": "b42f520c380a64062ca700b5f5450acc436e5b05",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[29.X]-Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.",
+  "body_hash": "74bfdeec6ed69b51dc48cdaffa852de570cf8d47b088d54ac54852441e5ec199",
+  "fixes_issues": [],
+  "work_items": [
+    658602
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/BE/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 137,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 137,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Foundation/Navigate/Navigate.Page.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 21,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Foundation/Navigate/Navigate.Page.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 21,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 137,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Foundation/Navigate/Navigate.Page.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 21,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 137,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Foundation/Navigate/Navigate.Page.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 21,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Navigate/Navigate.Page.al",
+      "status": "modified",
+      "additions": 58,
+      "deletions": 21,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Purchase/ERMPurchaseOrder.Codeunit.al",
+      "status": "modified",
+      "additions": 137,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 10,
+    "additions": 975,
+    "deletions": 105,
+    "al": 5
+  },
+  "join": {
+    "major": "29",
+    "commit": "6a9588a817c12a5d35d3e6c4ad40e29ecca88acf",
+    "objects": [
+      {
+        "path": "src/Layers/DACH/BaseApp/Foundation/Navigate/Navigate.Page.al",
+        "status": "modified",
+        "key": "page/344",
+        "type": "page",
+        "id": 344,
+        "name": "Navigate",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "page/344"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Foundation/Navigate/Navigate.Page.al",
+        "status": "modified",
+        "key": "page/344",
+        "type": "page",
+        "id": 344,
+        "name": "Navigate",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "page/344"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Foundation/Navigate/Navigate.Page.al",
+        "status": "modified",
+        "key": "page/344",
+        "type": "page",
+        "id": 344,
+        "name": "Navigate",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "page/344"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Foundation/Navigate/Navigate.Page.al",
+        "status": "modified",
+        "key": "page/344",
+        "type": "page",
+        "id": 344,
+        "name": "Navigate",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/344"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Navigate/Navigate.Page.al",
+        "status": "modified",
+        "key": "page/344",
+        "type": "page",
+        "id": 344,
+        "name": "Navigate",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/344"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

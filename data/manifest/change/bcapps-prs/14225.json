@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/14225",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Purchase Credit Memo – \"Get Return Shipment Lines\" fails for Non-Inventory items with \"corrective credit memo can only reverse the original posted invoice\" error (regression from Bug 636861)",
+  "url": "https://github.com/microsoft/BCApps/pull/14225",
+  "published_at": "2026-11-23T17:23:23Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-24T00:13:35.655Z"
+    },
+    "fetched": {
+      "at": "2026-11-24T00:14:26.875Z",
+      "change_class": "code",
+      "files": 21,
+      "al": 14,
+      "objects": 14,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-11-24T00:14:35.156Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004162
+    },
+    "linked": {
+      "at": "2026-11-24T00:14:35.350Z",
+      "objects": 14,
+      "unjoined": 0,
+      "commit": "d2abc1d2ceae394331716c8183ef60e1534c2ce0"
+    },
+    "published": {
+      "at": "2026-11-24T00:14:35.359Z",
+      "path": "content/changes/bcapps/14225.md"
+    }
+  },
+  "input_hash": "1a1f0d80e83aa03645c29fb28c238090fd3ffa4e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14225,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1a1f0d80e83aa03645c29fb28c238090fd3ffa4e",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master purchase credit memo get return shipment lines fails for non inventory items with corrective credit memo can only reverse the original posted invoice error regression from bug 636861"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "071a48f07200b1d41a99e056c73020efb54957d3b0345aee36cd8cc4af9ef545"
+}

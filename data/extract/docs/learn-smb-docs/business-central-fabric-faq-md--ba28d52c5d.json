@@ -2,34 +2,37 @@
   "item_id": "docs/learn-smb-docs/business-central/fabric-faq.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fabric-faq",
   "title": "Business Central Mirroring to Microsoft Fabric FAQ",
-  "blob": "2fa10ae8924d177fa8c48a48858f36310665c84f",
-  "summary": "FAQ addressing common questions about mirroring Business Central data to Microsoft Fabric, covering availability, setup, configuration, synchronization behavior, and limits for data replication.",
+  "blob": "7ab925f04f770b12b511ad809b95e21ed0b08058",
+  "summary": "FAQ explaining when and how to mirror Business Central data to Microsoft Fabric, covering availability, licensing, authentication, synchronization, and troubleshooting.",
   "systems": [
     "integration",
-    "administration",
-    "reporting"
+    "reporting",
+    "platform"
   ],
   "topics": [
     "data mirroring",
-    "fabric",
-    "data synchronization",
-    "cloud integration",
-    "setup",
-    "configuration"
+    "microsoft fabric",
+    "fabric capacity",
+    "authentication",
+    "synchronization",
+    "monitoring",
+    "schema changes",
+    "licensing"
   ],
   "objects": [],
   "features": [
-    "Data mirroring to Fabric",
-    "Fabric capacity requirements",
-    "Table and field selection",
-    "Company configuration",
-    "Schema change handling",
-    "Synchronization latency control",
-    "Deleted record synchronization",
-    "Configuration package management"
+    "Data mirroring setup and configuration",
+    "Synchronization monitoring",
+    "Open mirrored database",
+    "Service principal authentication",
+    "Company and table selection",
+    "Fabric capacity integration",
+    "Permission management",
+    "OneLake storage"
   ],
   "versions": [
-    "preview"
+    "version 29.1",
+    "public preview"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -37,7 +40,7 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004566,
+      "cost_usd": 0.013997,
       "pages_in_call": 1
     }
   ]

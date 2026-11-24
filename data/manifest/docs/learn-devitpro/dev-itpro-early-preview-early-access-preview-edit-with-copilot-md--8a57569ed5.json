@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Edit with Copilot",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/early-preview/early-access-preview-edit-with-copilot",
-  "published_at": "2026-11-12T08:44:18.000Z",
+  "published_at": "2026-11-23T10:12:32.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,48 @@
       "at": "2026-10-28T00:16:46.912Z"
     },
     "fetched": {
-      "at": "2026-11-13T00:21:15.160Z",
-      "blob": "7a4b60acb86276fd3bbf2209d9b104ed6a2d1572",
-      "words": 2229,
+      "at": "2026-11-24T00:14:01.148Z",
+      "blob": "29f935e095573e3a8e3182376fa4b060baec40d6",
+      "words": 2254,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-11-13T00:21:20.038Z",
+      "at": "2026-11-24T00:14:07.265Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.011693
+      "objects": 1,
+      "cost_usd": 0.011905
     },
     "summarized": {
-      "at": "2026-11-13T00:21:20.040Z",
+      "at": "2026-11-24T00:14:07.267Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-11-13T00:21:20.041Z",
+      "at": "2026-11-24T00:14:07.268Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-11-13T00:21:20.042Z",
+      "at": "2026-11-24T00:14:07.269Z",
       "page": false
     }
   },
-  "input_hash": "7a4b60acb86276fd3bbf2209d9b104ed6a2d1572",
+  "input_hash": "29f935e095573e3a8e3182376fa4b060baec40d6",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/early-preview/early-access-preview-edit-with-copilot.md",
     "description": "Learn about the early access preview of Edit with Copilot for modifying and deleting data in Business Central.",
-    "ms_date": "2026-11-11",
+    "ms_date": "2026-11-23",
     "ms_topic": "whats-new",
     "search_form": [],
     "keywords": [],
     "ai_usage": "ai-assisted",
-    "words": 2229,
+    "words": 2254,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "172205a1a33290fe067c79a9861a91415e0ba89e014d52847e7fb7e30df389c7"
+  "output_hash": "7e0a4efa888eaa4a60832a8166049b680a87cdf0c2bb8935b3d17b45e48de637"
 }

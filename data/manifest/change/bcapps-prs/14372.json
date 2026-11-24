@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/14372",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Move Business Skills core into System Application",
+  "url": "https://github.com/microsoft/BCApps/pull/14372",
+  "published_at": "2026-11-23T11:22:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-11-24T00:13:35.655Z"
+    }
+  },
+  "input_hash": "dc3bdd237dec6ff76eb16a7e708b5b1fca806f32:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 14372,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dc3bdd237dec6ff76eb16a7e708b5b1fca806f32",
+    "author": "nikolakukrika",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "AL: Tools",
+      "Build: scripts & configs",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "move business skills core into system application"
+  }
+}

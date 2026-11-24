@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/14423",
+  "number": 14423,
+  "title": "Bug 659561: Make FI depreciation posting buffer temporary",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "The FI depreciation posting buffer table is now marked as temporary to fix validation checks for local permissions and cloud migration, since it is only used in memory.",
+  "key_points": [
+    "Buffer table changed from persistent to temporary",
+    "Explicitly excluded from cloud migration",
+    "Fixes new-object validation failures",
+    "Existing application permissions and legacy buffer unchanged",
+    "Table introduced in 30.0, not present in earlier release branches"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Make the buffer temporary and explicitly exclude it from cloud migration.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003273,
+    "changes_in_call": 1
+  }
+}

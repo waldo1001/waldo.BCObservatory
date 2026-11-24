@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/14400",
+  "number": 14400,
+  "title": "[Master Data Management] User-friendly errors for cross-environment connection and permission failures",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Cross-environment master data synchronization now provides clear error messages when connections fail or permissions are insufficient, helping administrators diagnose and fix setup issues quickly instead of seeing bare HTTP status codes.",
+  "key_points": [
+    "HTTP errors are mapped to actionable guidance about source environment names, company names, app registration, and permissions",
+    "Unreadable tables now generate explicit permission errors instead of silently stopping synchronization",
+    "Connection wizard validates the setup and shows the failure reason before saving",
+    "Telemetry captures OData error codes and classified failure reasons for better diagnostics",
+    "GetCapabilities reports when source hasn't approved cross-environment privacy notice"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": "Cross-environment master data synchronization reported most source failures as a bare HTTP status.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004809,
+    "changes_in_call": 1
+  }
+}
